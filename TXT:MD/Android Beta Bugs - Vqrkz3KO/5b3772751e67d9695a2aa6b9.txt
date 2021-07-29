@@ -1,0 +1,80 @@
+[Archived] Mentions enclosed in single codeblock appear as separate messages for split second before merging with the previous ones as a group. (https://trello.com/c/agDfsIBk)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-30T12:07:17.128Z
+Latest Update: 2018-10-11T00:30:05.660Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Go to any text channel and type a message of one word in one line. 
+- Notice after you send 6 messages each in one line, in a row, the 7th Message is a separate one with date and time on it. 
+- Notice if you mention yourself, it always makes a new message with date and time. 
+- Now type one message per line upto 2-3 messages. Mention yourself and put it between single codeblock.
+
+####Expected result:
+When you put your mention between codeblock, it should merge with previous messages and NOT show as separate message with date and time even for a split second
+####Actual result:
+It shows as separate message for a split second
+####Client settings:
+Discord Alpha 7.0.3
+####System settings:
+Xioami Mi A1, Android 8.0.0
+
+15028
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-30T12:07:17.128Z
+
+
+### Ori#1908 - https://youtu.be/9nyqvHgPq3w added by Bug Bot on 2018-06-30T12:07:19.530Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 7.0.2
+
+fujhofn.#0003 - Bug Bot on 2018-06-30T12:07:24.417Z
+
+
+### Can reproduce.
+Wiko LENNY2 version 8, Android 5.1, Alpha 7.0.3 (also works in 7.0.2)
+
+MoonlightCapital#0554 - Bug Bot on 2018-06-30T12:07:29.995Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8+, Android 8.0.0, Discord Alpha 7.0.3
+
+CosiGames#2000 - Bug Bot on 2018-06-30T12:07:34.421Z
+
+
+### Verified, samsung s6 edge, android 7.0, alpha 7.0.3 - Clayton on 2018-07-02T20:05:51.996Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-02T20:05:58.970Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:22.870Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 747
+
+The Lunala#7777 - Bug Bot on 2018-09-07T15:28:25.153Z
+
+
+### Unarchived by Clayton on 2018-09-07T15:30:03.699Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:05.662Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

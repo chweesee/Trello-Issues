@@ -1,0 +1,97 @@
+[Archived] Joining a server from the 'Join a friend' button after making a new account results in a crash. (https://trello.com/c/kLHmXlls)
+
+P1 - Severe
+
+Created: 2020-05-07T16:15:43.931Z
+Latest Update: 2020-06-09T16:01:27.900Z
+
+Reported by Hyper#8102
+
+####Steps to reproduce:
+- Create a new discord account on your iOS device
+
+- Once created, click the 'Join a friend on discord' button
+
+- Enter the code for an existing discord server, and hit accept invite
+
+- Observe Crash
+
+####Expected result:
+The new account should join the discord server without crashing.
+####Actual result:
+User joins the server, but the client crashes.
+####Client settings:
+Testflight 21.0 (19831)
+####System settings:
+iPhone 11, iOS 13.4.1
+
+55564
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-07T16:15:43.931Z
+
+
+### Hyper#8102 - https://youtu.be/ERwS3QGINj0 added by Bug Bot on 2020-05-07T16:15:46.528Z
+
+
+### Can reproduce.
+Crashed a couple of times, not just once. iPhone 7: iOS 13.4.1; TestFlight 21.0 (19831)
+
+Jiralite#1207 - Bug Bot on 2020-05-07T16:15:51.532Z
+
+
+### Can reproduce.
+CR; iPhone XS Max, iOS 13.4.1; TestFlight 21.0 (19848)
+
+Thunderstruck#2071 - Bug Bot on 2020-05-07T16:15:56.519Z
+
+
+### Can reproduce.
+Can reproduce, iPhone XR, iOS 12.1, TestFlight 21.0 (19848)
+
+🌻nickWtn🌻#3789 - Bug Bot on 2020-05-07T16:16:01.544Z
+
+
+### Moved from New Issues to Fix made, not yet released by Stephanie Wang on 2020-05-07T17:03:45.533Z
+
+
+### Can reproduce.
+iPhone X; iOS 13.4.1, Discord TF 21.0 (19848)
+
+Airbus A330-200#0001 - Bug Bot on 2020-05-07T19:05:52.777Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Stephanie Wang on 2020-05-07T20:39:22.644Z
+
+
+### Can't reproduce.
+iPhone 7: iOS 13.4.1; TestFlight 21.0 (19880)
+
+Jiralite#1207 - Bug Bot on 2020-05-07T20:41:22.946Z
+
+
+### Can't reproduce.
+iPhone 11, iOS 13.5 (dev beta 4) - Testflight 21.0 (19880)
+
+Xylium#0001 - Bug Bot on 2020-05-07T22:19:56.502Z
+
+
+### Can't reproduce.
+CNR, iPhone 7 Plus iOS 13.4.1, TestFlight 21.0 (19880)
+
+Action Potential#2655 - Bug Bot on 2020-05-10T15:34:36.205Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2020-05-10T15:34:36.811Z
+
+
+### Archived by Bug Bot on 2020-06-09T16:01:27.913Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,86 @@
+[Archived] Putting a mention right after a link will include the mention inside the link (https://trello.com/c/NxLluTCY)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-03-11T16:20:16.834Z
+Latest Update: 2019-06-05T23:49:48.576Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- In the chat input, paste a link.  
+- Append a mention right after the link, without space between. It should look like this  (e.g https://www[dot]google[dot]com[at/hash]mention (replace with correct symbols)
+
+####Expected result:
+As on desktop, the link should end before the mention
+####Actual result:
+On Android the link is parsed with the mention in it. Personally I found this bug when pasting a link ending with an anchor tag (#) that matched with a channel name.
+####Client settings:
+Discord Alpha 6.3.4
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9508
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-11T16:20:16.834Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5aa557408d1af2aa3abd624c/c0e1da9469c489ade4799cabe1bcd414/IMG_20180311_165235.png added by Bug Bot on 2018-03-11T16:20:19.402Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.3.4
+
+fujhofn.#0878 - Bug Bot on 2018-03-11T16:20:24.321Z
+
+
+### Can reproduce.
+Moto G 4 - Android 7.1.1 - Alpha Build 6.3.4
+
+Xia#8966 - Bug Bot on 2018-03-11T16:20:29.235Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 Emerge, Android 6.0.1, Alpha 6.3.4
+
+Purpzie#0001 - Bug Bot on 2018-03-11T16:20:34.252Z
+
+
+### Can reproduce.
+Moto G5 Plus, Android 7.0, Discord Alpha 6.3.4
+
+JosiahDH#4275 - Bug Bot on 2018-03-12T18:30:32.008Z
+
+
+### Verified.  - Clayton on 2018-04-06T08:37:13.023Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-06T08:37:17.079Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:35.112Z
+
+
+### Fixed with 8.5.8—after the [discord announcement](https://discordapp.com/channels/197038439483310086/411645018105970699/556264072514109472) and testing with my Samsung Galaxy S6, Android 7.0, Discord Alpha 8.5.9
+
+Law of Royale#6825 - Bug Bot on 2019-03-16T23:49:57.587Z
+
+
+### Unarchived by Bug Bot on 2019-03-17T00:00:06.145Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Sam Shih on 2019-04-09T23:36:40.969Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:48.588Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

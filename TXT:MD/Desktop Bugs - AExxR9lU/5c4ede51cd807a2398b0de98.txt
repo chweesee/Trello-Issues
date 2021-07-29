@@ -1,0 +1,102 @@
+[Archived] When trying to change ur nickname to long one the message Must be 32 or fewer disappears when pressing save rapidly. (https://trello.com/c/R5qPrKfF)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-01-28T10:49:53.641Z
+Latest Update: 2019-10-23T23:04:08.757Z
+
+Reported by Lentralkestor#2016
+
+####Steps to reproduce:
+- Go to a server when you change your nickname. 
+- Right-click the server icon and go to Change Nickname. 
+- Type in a nickname that is longer than 32 characters in length. 
+- Press "Save" and you get the message, "Must be 32 or fewer in length" underneath. 
+- Now press save a few more time and you will see the message will cycle. It will appear and disappear every other time.
+
+####Expected result:
+The message "Must be 32 or fewer in length" should always be there.
+####Actual result:
+The message is there almost every other time; cyclical pattern.
+####Client settings:
+Canary 31400
+####System settings:
+macOS 10.14.3
+
+27183
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-28T10:49:53.641Z
+
+
+### Lentralkestor#2016 - https://youtu.be/0BSnL1KGyCw added by Bug Bot on 2019-01-28T10:49:56.281Z
+
+
+### Can reproduce.
+CR, Win10 1803, Build: 31316
+
+Irevall#1278 - Bug Bot on 2019-01-28T10:50:01.117Z
+
+
+### Can reproduce.
+CR | Win 10 x64 | canary,31400
+
+Mr.Freezing#4304 - Bug Bot on 2019-01-28T10:50:06.131Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Canary 31400
+
+Isabel#0002 - Bug Bot on 2019-01-28T10:50:11.216Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Canary 31400
+
+Defracted#0001 - Bug Bot on 2019-01-28T12:44:05.910Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 31400
+
+Neiron#8475 - Bug Bot on 2019-01-28T16:46:28.283Z
+
+
+### verified, win10, canary 31464 - Clayton on 2019-01-29T04:54:39.678Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-29T04:54:46.937Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31492
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-30T01:33:35.246Z
+
+
+### OldWampa#7897 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c4ede51cd807a2398b0de98/cccd25c8b835a06b35009695070b7009/SmartSelect_20190201-222838_Chrome.jpg added by Bug Bot on 2019-02-02T07:32:01.637Z
+
+
+### Archived by Bug Bot on 2019-03-04T08:00:03.460Z
+
+
+### Can reproduce.
+Can still reproduce, macos 10.14.4, ptb 33595
+
+Action Potential#2494 - Bug Bot on 2019-03-08T14:44:26.624Z
+
+
+### Unarchived by Bug Bot on 2019-03-08T15:00:06.223Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:08.768Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

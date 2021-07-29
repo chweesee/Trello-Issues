@@ -1,0 +1,139 @@
+[Archived] Stuck in crash loop after discord attempts to load an expired game/spotify invite on start (https://trello.com/c/stoVOWmt)
+
+P1 - Severe,
+low
+
+Created: 2019-07-07T21:08:31.741Z
+Latest Update: 2019-09-18T10:01:07.306Z
+
+Reported by TheForbiddenAi#0403
+
+####Steps to reproduce:
+- Send a game/spotify invite from desktop 
+- Load discord up on iOS and go to the channel where the invite was sent 
+- Close discord on iOS 
+- Make the game/spotify invite expire (closing the game/spotify should work) 
+- After it has expired load up discord on iOS 
+- Observe how iOS discord is now stuck in a crash loop (to fix this you must now reinstall the app)
+
+####Expected result:
+There is no crash loop
+####Actual result:
+There is a crash loop
+####Client settings:
+TestFlight 3.0.5 (16102)
+####System settings:
+iPhone X, iOS 12.1; Windows 10 Home x64 (1809)
+
+39256
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-07T21:08:31.741Z
+
+
+### TheForbiddenAi#0403 - https://i.imgur.com/Q6cVtlV.gifv added by Bug Bot on 2019-07-07T21:08:34.192Z
+
+
+### Can reproduce.
+iPad 5th Gen, iOS 13 (dev beta 3) - Testflight 3.0.5 (16102)
+
+Xylium#5800 - Bug Bot on 2019-07-07T21:08:39.278Z
+
+
+### Can reproduce.
+iPhone XR & iPad Air iOS 12.3.1 TestFlight 3.0.5 (16102)
+
+binchlord#0998 - Bug Bot on 2019-07-07T21:08:44.271Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 Dev Beta 5 — TestFlight 3.0.5 (16102)
+
+Nith#1337 - Bug Bot on 2019-07-07T21:08:49.289Z
+
+
+### Can reproduce.
+iPhone Xs, iOS 13 Dev Beta 3, Discord TestFlight 3.0.5 (16102)
+
+maximd#1122 - Bug Bot on 2019-07-07T21:48:30.189Z
+
+
+### Can reproduce.
+iPhone 6s iOS 13 (Public Beta) - TF 3.0.5 (16102)
+
+Jasοn#0001 - Bug Bot on 2019-07-07T22:58:18.458Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 7, iOS 13 (Public Beta) , TestFlight 3.0.5 (16102)
+
+ryan#0570 - Bug Bot on 2019-07-07T22:59:23.272Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.5 (16102)
+
+Skyla#0002 - Bug Bot on 2019-07-08T18:13:23.570Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.5 (16102)
+
+Daffyduck#5364 - Bug Bot on 2019-07-08T19:54:09.709Z
+
+
+### Can reproduce.
+iPhone 6s iOS 13 (Public Beta) TestFlight 3.0.5 (16102)
+
+GlenMerlin#2119 - Bug Bot on 2019-07-08T22:18:32.358Z
+
+
+### Can reproduce.
+iPad Air (1st gen), iOS 12.3.1 - TF 3.0.5 (16102)
+
+Nicholas#4669 - Bug Bot on 2019-07-09T02:19:01.968Z
+
+
+### Moved from New Issues to Fix made, not yet released by Fanghao on 2019-07-09T21:57:44.084Z
+
+
+### Can reproduce.
+iPhone 8; iOS 12.4, Stable 3.0.5
+
+Blair#7777 - Bug Bot on 2019-07-11T13:15:58.560Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2019-07-12T05:57:46.483Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 13 (Public Beta 2) , Testflight 3.0.6 (16185)
+
+ryan#0570 - Bug Bot on 2019-07-12T06:57:58.907Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.6 (16185)
+
+Daffyduck#5364 - Bug Bot on 2019-07-12T07:00:47.520Z
+
+
+### Can't reproduce.
+iPhone Xs, iOS 12.3.1 - Testflight 3.0.6
+
+MrWay#0001 - Bug Bot on 2019-07-12T10:22:22.647Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-12T10:22:23.003Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:07.322Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

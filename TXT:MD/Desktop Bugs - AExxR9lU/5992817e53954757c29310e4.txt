@@ -1,0 +1,76 @@
+[Archived] Screen sleeps even when video call is in fullscreen (https://trello.com/c/eizPgBJM)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-08-15T05:07:10.510Z
+Latest Update: 2019-08-03T13:52:25.283Z
+
+Reported by ashley#9434
+
+####Steps to reproduce:
+- join a video call 
+- full screen your friend's video 
+- wait until your computer normally falls asleep / your screen saver pops up
+
+####Expected result:
+screen stays awake
+####Actual result:
+screen is replaced by screen saver / falls asleep and you can no longer see your friend :(
+####Client settings:
+Stable 0.0.298
+####System settings:
+Windows 8.1 x64
+
+3132
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-15T05:07:10.510Z
+
+
+### Can reproduce.
+Windows 7 Professional x64, Stable 0.0.298, Build Number 3183
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-08-15T05:07:17.895Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Stable 0.0.298
+
+hanss314#0128 - Bug Bot on 2017-08-15T05:07:22.918Z
+
+
+### Can reproduce.
+Windows 10 Pro x64
+
+Azrael#6867 - Bug Bot on 2017-08-15T05:07:27.908Z
+
+
+### Moved from User Reported Bugs to Screenshare/Video Calls by Jared on 2017-08-17T18:10:05.756Z
+
+
+### Verified issue still occurs as written. - Jared on 2018-01-08T20:09:13.308Z
+
+
+### Moved from Screenshare/Video Calls to Verified Bugs by Jared on 2018-01-08T22:43:05.860Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-21T20:53:57.579Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T20:54:01.006Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:56:11.762Z
+
+
+### Archived by Jared on 2018-07-06T17:56:12.625Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

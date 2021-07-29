@@ -1,0 +1,137 @@
+[Archived] if the uploading of files fails due to connection issues, the file will be uploaded without a chance for you to cancel once connection is resumed (https://trello.com/c/YapvjlL8)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2019-02-20T04:29:06.207Z
+Latest Update: 2019-03-27T11:30:03.423Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- go to any text channel 
+- select few files and while they're being uploaded, disconnect from wifi (or use any other method to disconnect from the websocket) 
+- notice how the upload modal indicates that it attempts to send the files twice then fails with a error toast before it disappears 
+- turn your wifi back on and wait for the connection to be resumed
+
+####Expected result:
+the upload modal should either be visible to give you a chance to cancel the upload or the files should not be sent when connection is resumed
+####Actual result:
+the files are sent when your connection is back without any visual indicators of that
+####Client settings:
+Alpha 848
+####System settings:
+Samsung Galaxy Note 8, Android 8.0
+
+29252
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-20T04:29:06.207Z
+
+
+### J1#0088 - https://youtu.be/bgfb89FrSPk added by Bug Bot on 2019-02-20T04:29:08.655Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 8.4.8
+
+Hole#0001 - Bug Bot on 2019-02-20T04:29:13.601Z
+
+
+### Can reproduce.
+CR on Honor 6x 7.0 [EMUI 5.0.2]  alpha 848
+
+fizy#9347 - Bug Bot on 2019-02-20T04:29:18.556Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.4.8
+
+nescix#0071 - Bug Bot on 2019-02-20T04:29:23.556Z
+
+
+### Can reproduce.
+Cr. Alpha 8.4.8 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-02-20T04:43:39.608Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.4.8
+
+Skyla#7948 - Bug Bot on 2019-02-20T05:26:22.483Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 848
+
+charleskimbac#6492 - Bug Bot on 2019-02-20T07:00:04.501Z
+
+
+### Can reproduce.
+Can reproduce. Have noticed this since a few versions. Discord Alpha 8.4.8 / Xiaomi Mi3W / Android 7.1.2 / LineageOS
+
+Hawlucha#2061 - Bug Bot on 2019-02-20T09:28:44.699Z
+
+
+### Can reproduce.
+Android Alpha 8.4.8, Android Version 8.0.0, Samsung Galaxy J6
+
+Willzy 27#0001 - Bug Bot on 2019-02-20T10:03:44.280Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 8.4.8
+
+TheFutureKnight#7664 - Bug Bot on 2019-02-20T13:13:53.297Z
+
+
+### Can reproduce.
+Samsung S8, Android 8.0, 8.4.8
+
+Mr. Proper#2394 - Bug Bot on 2019-02-20T13:38:12.145Z
+
+
+### Can't reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 848
+
+The Lunala#6877 - Bug Bot on 2019-02-20T16:01:41.317Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H, Discord Alpha 8.4.8
+
+Defracted#1337 - Bug Bot on 2019-02-20T16:21:44.378Z
+
+
+### Can reproduce.
+CR with messages too, Samsung Galaxy S6, Android 7.0, Discord Alpha 8.4.8
+
+Law of Royale#0001 - Bug Bot on 2019-02-20T17:15:20.872Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.4.8
+
+Lily#2624 - Bug Bot on 2019-02-20T17:29:38.624Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-21T00:40:52.525Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 850
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-25T11:09:04.817Z
+
+
+### Archived by Bug Bot on 2019-03-27T11:30:03.442Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

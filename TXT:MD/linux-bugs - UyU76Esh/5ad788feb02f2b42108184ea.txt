@@ -1,0 +1,68 @@
+Discord does not use xdg-open for opening links in a web browser which sometimes causes the default to not be used (https://trello.com/c/VHQcrqEv)
+
+P3: Will eventually be fixed,
+mid
+
+Created: 2018-04-18T18:05:50.960Z
+Latest Update: 2020-06-17T15:32:01.933Z
+
+Reported by Tofik#5592
+
+####Steps to reproduce:
+- Set Firefox as your default web browser 
+- Set another browser as default (such as Chrome) 
+- Try to open links in Discord and see them be opened with Firefox 
+- Some Desktop Environments have no problem handling this; others will refuse to use the default web browser with Discord and continue to use an old setting
+
+####Expected result:
+Discord should be using xdg-open to open links; whatever it is using is not reliable for opening links.
+####Actual result:
+Discord uses something other than xdg-open to open links which sometimes causes a browser that is not default to be used
+####Client settings:
+Discord Canary 0.0.45 build 13573
+####System settings:
+Linux Mint 18.3
+
+10853
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-18T18:05:50.960Z
+
+
+### Can reproduce.
+Can Reproduce Discord Canary 0.0.45 build 13573 openSUSE Tumbleweed 20180410
+
+simonizor#0420 - Bug Bot on 2018-04-18T18:05:58.366Z
+
+
+### Can reproduce.
+Discord Linux Canary 0.0.45 (Build 13753), Debian Stretch, KDE Plasma 5.92 (Note: discord seems to open the default browser fine on Gnome 3.22, even without xdg-open set to the default)
+
+Robin#0610 - Bug Bot on 2018-04-18T18:06:03.329Z
+
+
+### Can reproduce.
+debain KDE 5.8.4 (canary build 13817)
+
+TimThe#1118 - Bug Bot on 2018-04-18T18:06:08.299Z
+
+
+### Can reproduce.
+Discord Canary 0.0.45 build 13573 arch linux kernel 4.14.34
+
+E5ten#3510 - Bug Bot on 2018-04-18T19:16:50.362Z
+
+
+### Debian KDE Plasma, can confirm that default works fine on gnome. Verified.  - Clayton on 2018-04-27T21:06:07.506Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-04-27T21:06:17.292Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,116 @@
+[Archived] Categories cannot be moved below a collapsed channel category. (https://trello.com/c/oxMgrdJ3)
+
+P2: Fix can wait a while
+
+Created: 2017-09-14T13:01:21.916Z
+Latest Update: 2017-11-15T19:10:55.177Z
+
+Reported by Ten#1723
+
+####Steps to reproduce:
+- make some categories 
+- collapse some channel categories 
+- drag a category below a collapsed category
+
+####Expected result:
+The category to be moved.
+####Actual result:
+The category doesn't move below it, but can be moved above it. You don't see the green line when moving below it, only when moving above it.
+####Client settings:
+Canary 0.0.163 (Build 4175)
+####System settings:
+Windows 10 Home x64
+
+4270
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-14T13:01:21.916Z
+
+
+### Ten#1723 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59ba7da149430794f2bd2c51/3c5b5d1e7ca1c062226ad1b7df049453/64763dcf9b0645d4f20f6d91613a9e86.gif added by Bug Bot on 2017-09-14T13:01:26.413Z
+
+
+### Can reproduce.
+Windows 8.1 x64 Lenovo B50-30
+
+Joshek#3388 - Bug Bot on 2017-09-14T13:01:31.224Z
+
+
+### Can reproduce.
+iMac (Retina 4K, 21.5-inch, Late 2015) running Discord Canary 0.0.154
+
+Rauf I.#3260 - Bug Bot on 2017-09-14T13:01:36.197Z
+
+
+### Can reproduce.
+Canary,  Windows 10 x64 version 1703 (os build 15063.520)
+
+Jakob#6834 - Bug Bot on 2017-09-14T13:01:41.173Z
+
+
+### Can reproduce.
+Windows 10, 64 bit Canary 0.0.163
+
+Lasse#4890 - Bug Bot on 2017-09-14T14:12:04.016Z
+
+
+### Can reproduce.
+Yes, but only if the category has channels in it. Canary 0.0.163, Windows 8.1 Enterprise (64-bit)
+
+PhotonBurst#6983 - Bug Bot on 2017-09-14T14:16:06.896Z
+
+
+### Can reproduce.
+Linux Mint 18.2 Cinnamon 64-bit
+
+JBYoshi#5551 - Bug Bot on 2017-09-14T14:54:48.516Z
+
+
+### Can reproduce.
+Discord Canary 0.0.154, macOS 1.13 Beta
+
+Wacko#4736 - Bug Bot on 2017-09-15T12:38:55.968Z
+
+
+### Verified. - Clayton on 2017-09-15T22:11:04.755Z
+
+
+### Moved from User Reported Bugs to Channel catalgories by Clayton on 2017-09-15T22:11:13.847Z
+
+
+### Moved from Channel catalgories to Fix made, not yet released by Amadeus on 2017-09-18T07:04:46.946Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Amadeus on 2017-09-19T22:19:26.635Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Amadeus on 2017-09-19T22:19:31.394Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Amadeus on 2017-09-21T07:31:28.743Z
+
+
+### Tested on discord build 4743:
+
+I can no longer reproduce this myself. Moving a category below a collapsed, or between two collapsed, works just fine now. - Alexander (DJScias) on 2017-09-22T14:50:57.245Z
+
+
+### Verified fixed! - Clayton on 2017-09-27T23:24:50.745Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-09-27T23:24:55.175Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:10:54.163Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:10:55.180Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

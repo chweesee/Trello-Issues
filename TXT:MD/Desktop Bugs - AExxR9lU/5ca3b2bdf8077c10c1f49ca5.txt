@@ -1,0 +1,87 @@
+[Archived] Going AFK with a locked AFK voice channel causes you to move to it visually, but not in reality (https://trello.com/c/oiQyBbKX)
+
+None
+
+Created: 2019-04-02T19:06:37.532Z
+Latest Update: 2019-04-03T12:25:55.104Z
+
+Reported by Granny#5402
+
+####Steps to reproduce:
+- Create two voice channels (e.g. general and away) 
+- Set the AFK channel to the away channel from server settings 
+- Disable the "Connect" permission for the @everyone role for the away channel 
+- Have two or more people join the general voice channel 
+- Mute and wait until you time out
+
+####Expected result:
+Both users are supposed to stay in the general channel, without being moved to the locked away channel
+####Actual result:
+The user who timed out will see that they moved to the away channel, but will still be able to talk with the others if they unmute. The glitch will not appear for the other users in the channel
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 34858, Version Hash: 571cc3b0b0ce33f8749c9710982d49dab0cbe2f4
+####System settings:
+Windows 10.0.17134
+
+31959
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-02T19:06:37.532Z
+
+
+### Can reproduce.
+CR , Windows 10 Home x64 Canary 34858
+
+SportLeader#0001 - Bug Bot on 2019-04-02T19:06:45.053Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary 34858
+
+Lelantos#4866 - Bug Bot on 2019-04-02T19:06:50.028Z
+
+
+### Can reproduce.
+cr, Win10 Pro - Canary 34858
+
+tonite#0001 - Bug Bot on 2019-04-02T19:06:55.111Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 34858
+
+Delite#0001 - Bug Bot on 2019-04-02T19:49:36.512Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1809 (OS Build 17763.379), Discord Canary 34858
+
+||Kissa||#1337 - Bug Bot on 2019-04-02T19:58:03.469Z
+
+
+### Duplicate of https://trello.com/c/GDnLGyet
+
+Rashaun#8467 - Bug Bot on 2019-04-02T20:09:54.603Z
+
+
+### This is indeed a duplicate of https://trello.com/c/GDnLGyet/3463-get-moved-to-afk-mic-gets-muted-come-back-but-remained-in-afk-channel-never-left-main-voice-chat-on-other-users-view
+
+Archiving this ticket. - Ghoul on 2019-04-02T20:13:42.958Z
+
+
+### Archived by Ghoul on 2019-04-02T20:13:44.405Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 34858
+
+Killtracity#0001 - Bug Bot on 2019-04-03T12:25:55.112Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

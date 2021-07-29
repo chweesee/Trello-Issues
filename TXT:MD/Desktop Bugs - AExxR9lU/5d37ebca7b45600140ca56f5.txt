@@ -1,0 +1,80 @@
+Single-line above multi-line block quote causes multi-line quote to be single-line (https://trello.com/c/pg77bAvQ)
+
+None
+
+Created: 2019-07-24T05:25:30.349Z
+Latest Update: 2020-07-16T21:26:04.496Z
+
+Reported by broman#0001
+
+####Steps to reproduce:
+- Enter the text shown in the screenshot (BugBot won't allow the newlines) 
+- Observe
+
+####Expected result:
+The first line is a single-line block quote, then the next two lines are included in said block quote.
+####Actual result:
+The first and second lines are treated as single-line block quotes, and the final line is treated as regular text.
+####Client settings:
+Canary (41765)
+####System settings:
+Windows 10 Pro 64b
+
+40322
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-24T05:25:30.349Z
+
+
+### broman#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d37ebca7b45600140ca56f5/5225eaa1936f28534f21ab2430803581/unknown.png added by Bug Bot on 2019-07-24T05:25:33.307Z
+
+
+### Can reproduce.
+Can reproduce. Discord Canary (Web, Windows 7 Professional), Build 71742.
+
+Zᴇʀᴏ Cᴀʟʟɪɴɢ#5260 - Bug Bot on 2019-07-24T05:25:38.001Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Pro x64; Canary 41765
+
+Boss#0006 - Bug Bot on 2019-07-24T05:25:42.995Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro // macOS Sierra (10.12.6) //  Discord Canary: 41765
+
+xTeal#7702 - Bug Bot on 2019-07-24T05:25:48.024Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.247 Build 41772
+
+Daffyduck#5364 - Bug Bot on 2019-07-24T08:28:53.530Z
+
+
+### Can reproduce.
+W10 Pro x64 (1903), Canary 41772
+
+dragiceviccv#4375 - Bug Bot on 2019-07-24T09:03:33.323Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 41772 host 0.0.247
+
+Jean20B#4668 - Bug Bot on 2019-07-24T18:12:10.427Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | canary 41877
+
+charleskimbac#6492 - Bug Bot on 2019-07-25T02:59:35.141Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

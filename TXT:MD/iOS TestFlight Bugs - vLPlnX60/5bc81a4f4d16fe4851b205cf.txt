@@ -1,0 +1,86 @@
+[Archived] When sorting channels, the sorting gets more inaccurate the further down the list you go (https://trello.com/c/nMgc5xi9)
+
+P3 - Will be fixed eventually
+
+Created: 2018-10-18T05:29:51.566Z
+Latest Update: 2019-11-03T20:30:17.015Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to a server where you can manage channels 
+- Make sure you have multiple channels and/or categories (I have about 60 channels and over 10 categories) 
+- Go into channel settings, and click sort text channels 
+- Hold down on a channel at the top of the list, and move it down slightly without letting go 
+- Observe the position of the green box that marks where the channel will be placed 
+- Put the channel back where it was previously, and scroll down to about the bottom of the list 
+- Hold down on a channel near the bottom of the list, and move it slightly downwards without letting go 
+- Observe the location of the green box that marks where the channel will be placed
+
+####Expected result:
+The green box marking where the channel will go should be underneath the channel right below it in both spots on the list
+####Actual result:
+The green box marking where the channel will go is moved further down the further down the channel list you go
+####Client settings:
+TestFlight 2.3.9 (8385)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta 4
+
+21530
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-18T05:29:51.566Z
+
+
+### Rashaun#9295 - https://youtu.be/PM3vHPvIGng added by Bug Bot on 2018-10-18T05:29:53.914Z
+
+
+### Can reproduce.
+[CR] iPhone XS Max, iOS 12.0.1, Discord TestFlight 2.3.9 (8385)
+
+54D#1357 - Bug Bot on 2018-10-18T05:29:59.048Z
+
+
+### Can reproduce.
+Can reproduce , ipod touch 6th generation, ios 12.0.1, TesftFlight 2.3.9 (8385)
+
+🍂nickWtn🍂#3789 - Bug Bot on 2018-10-18T05:30:03.955Z
+
+
+### Can reproduce.
+Can reproduce on iPhone XS Max running iOS 12.1 (Dev Beta 2) with Discord TestFlight 2.3.9 (8385)
+
+Ghoul#0099 - Bug Bot on 2018-10-18T05:30:08.831Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-26T19:00:03.562Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:48.352Z
+
+
+### Can reproduce.
+iPhone 7, iOS 13 (Developer beta 7) TF 3.1.1 (16898)
+
+Darnell#1437 - Bug Bot on 2019-08-18T18:31:34.619Z
+
+
+### Unarchived by Bug Bot on 2019-08-18T19:00:08.950Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 4), TestFlight 3.1.4 (17524)
+
+.Gloria.#9606 - Bug Bot on 2019-10-01T04:13:59.128Z
+
+
+### Archived by Bug Bot on 2019-11-03T20:30:17.032Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

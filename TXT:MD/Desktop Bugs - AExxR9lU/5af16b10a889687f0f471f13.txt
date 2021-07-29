@@ -1,0 +1,108 @@
+[Archived] Message is delete-able/editable while trying to pin it or delete it (https://trello.com/c/zwwMijMU)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-08T09:17:04.624Z
+Latest Update: 2019-10-23T23:01:44.735Z
+
+Reported by iii#8595
+
+####Steps to reproduce:
+- Type and send a message 
+- Right click it 
+- Press tab 
+- Press up-arrow 
+- Click pin message or delete message
+
+####Expected result:
+Message that you want to pin/delete shows up, or not being able to do step 3/4
+####Actual result:
+An editable text area shows up where you can edit the message and save it by pressing enter or even delete it by removing all text and then pressing enter
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 14651, Version Hash: 05273b109bbf775536938c01a1ba710d1c61d86c
+####System settings:
+Win 10 64-bit, x64-based processor
+
+12197
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-08T09:17:04.624Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af16b10a889687f0f471f13/bf65ec599b7aff5d0db853c10cc3233b/6K3fcMF.png added by Bug Bot on 2018-05-08T09:17:07.124Z
+
+
+### Can reproduce.
+cnr, Windows 8.1 64bit - Discord Stable Build Number: 14651
+
+bird#0001 - Bug Bot on 2018-05-08T09:17:11.998Z
+
+
+### Can reproduce.
+while the process is intended, modal popup should dissapear. canrepro MacOS 10.13.3, Canary 14558, rMBP 2015
+
+ash#0001 - Bug Bot on 2018-05-08T09:17:16.980Z
+
+
+### Can reproduce.
+can reproduce Windows 10 1709 x64, Canary build 14720
+
+AEnterprise#4693 - Bug Bot on 2018-05-08T09:17:21.988Z
+
+
+### Verified. Extremely low priority.
+
+Win 10 x64 [BUILD INFO] Release Channel: canary, Build Number: 14817, Version Hash: fd481f5e6747b328dcd4aaa0d31a7dfa9bb0c34b - Jared on 2018-05-08T20:16:17.801Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-08T20:16:27.069Z
+
+
+### Can reproduce.
+Windows 10 Pro{OS Build: 17134.1, Version: 1803}, 64 bit ; Discord latest stable build.
+
+GhOsT_x#7082 - Bug Bot on 2018-05-08T22:35:34.881Z
+
+
+### Can reproduce.
+64 Bit Windows 10 Home (V1709) ptb, Build Number: 14712.
+
+memetrollsXD#0001 - Bug Bot on 2018-05-09T16:05:33.836Z
+
+
+### Can reproduce.
+CR | [BUILD INFO] Release Channel: stable, Build Number: 18043, Version Hash: 384f3f52ff8cbdcbde5e27295cad6921598c0af0 | Windows 10 Education x64 64 Bit | OS Build 17134.112 | v1803 | 4GB RAM |
+
+FoxyKero#9941 - Bug Bot on 2018-07-05T17:34:25.769Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:27.952Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 35984 with the steps below
+- Send a message in channel 
+- Open the delete or pin modal 
+- Hold down tab until the quick switcher opens 
+- Then hit escape twice 
+- Then hit tab 
+- Then hit the up arrow 
+- Observe
+
+TheForbiddenAi#7549 - Bug Bot on 2019-04-19T18:37:51.899Z
+
+
+### Unarchived by Bug Bot on 2019-04-19T19:00:05.907Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:44.801Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,132 @@
+[Archived] When you delete a channel and are moved to the top channel in the list, if you haven't looked at the channel you're moved to since loading the app, no messages will be shown (https://trello.com/c/dpi17X3g)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2018-02-05T21:59:23.183Z
+Latest Update: 2019-07-10T21:30:30.643Z
+
+Reported by [object Object]#0001
+
+####Steps to reproduce:
+- Look at a channel that isn't at the top of the channel list, in a server where you can delete channels 
+- Double tap the home button and swipe up on Discord to close it 
+- Open Discord and go to the server you were just in 
+- Without opening the top channel, delete the channel you're looking at
+
+####Expected result:
+You should be moved to the top channel and see messages
+####Actual result:
+You are moved to the top channel and no messages are there
+####Client settings:
+TestFlight 2.2.2 (2352)
+####System settings:
+iPad Mini 2, iOS 11.0.3
+
+8517
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-05T21:59:23.183Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1, TestFlight 2.2.2 (2352)
+
+Pascal#0929 - Bug Bot on 2018-02-05T21:59:30.536Z
+
+
+### Can reproduce.
+CR, TestFlight 2.2.2 (2352), iOS 11.2.5, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-02-05T21:59:35.536Z
+
+
+### Can reproduce.
+Discord Testflight 2.2.2 (2352), iOS 10.3.3, iPhone 5s
+
+Ene#0808 - Bug Bot on 2018-02-05T21:59:40.523Z
+
+
+### Can reproduce.
+iPhone 6s+, iOS 11.2.5, TestFlight 2.2.2 (2352)
+
+Choon#0420 - Bug Bot on 2018-02-05T22:42:39.263Z
+
+
+### I can reproduce this P3, moving to Verified Bugs.
+
+Discord 2.2.2 (2352), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-02-07T05:12:48.442Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2018-02-07T05:12:58.962Z
+
+
+### Can't reproduce.
+iPad Air 2 iOS 11.2.6
+
+Nukey6#4055 - Bug Bot on 2018-03-07T15:19:28.540Z
+
+
+### I can no longer reproduce, the messages are shown after deleting the channel.
+
+Discord 2.2.5 (3054), iOS 11.2.6, iPhone 8 Plus - Alexandru Todea on 2018-03-16T18:12:22.262Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-03-16T18:12:40.453Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:36.410Z
+
+
+### Unarchived by Pascal on 2019-05-26T09:30:39.162Z
+
+
+### Can reproduce again as of TestFlight 3.0.2 (15253) with iPad Pro (11 inch) running iOS 12.3.1.
+
+Now it just shows the no text channel screen instead of showing the top channel.
+
+Moving to Reopened list. - Pascal on 2019-05-26T09:31:22.396Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Pascal on 2019-05-26T09:31:37.352Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.3 (15638) with iPad Pro (11 inch) running iOS 12.3.1.
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-09T19:33:15.448Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Pascal on 2019-06-09T19:33:33.962Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - Tetsflight 3.0.3 (15638)
+
+Xylium#5800 - Bug Bot on 2019-06-09T19:40:05.437Z
+
+
+### Can't reproduce.
+iPhone XR & iPad Air iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+binchlord#0998 - Bug Bot on 2019-06-09T19:54:26.319Z
+
+
+### Can't reproduce.
+iPhone XR; iOS 12.3.1; TestFlight 3.0.3 (15638)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-09T19:59:10.440Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-09T19:59:10.823Z
+
+
+### Archived by Bug Bot on 2019-07-10T21:30:30.655Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

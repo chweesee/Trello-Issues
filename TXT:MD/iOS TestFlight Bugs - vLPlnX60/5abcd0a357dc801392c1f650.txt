@@ -1,0 +1,119 @@
+[Archived] Device crashes when being role tagged in a announcement channel while reactions being added (https://trello.com/c/ui0xOa6a)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-03-29T11:40:19.090Z
+Latest Update: 2019-01-31T19:58:33.953Z
+
+Reported by Xylium#1480
+
+####Steps to reproduce:
+- Have an older iDevice (iPhone 5s to SE, or iPad Air 1st to 2nd Gen. iOS version doesn't matter.)
+- Go to a channel in a server where there will be a role ping.
+- Have the server owner to ping the role, and ask the individuals in the role to react-spam as if there is no tomorrow. 
+- Watch as your iOS client freezes. (If you crashed beforehand, then you don't need to do the remaining reproduction steps.)
+- When it does, click on the home button then go back into the app. If it doesn't crashes for the first time, try it again.
+
+####Expected result:
+Your device should not crash
+####Actual result:
+Device actually crashes after couple minutes or seconds
+####Client settings:
+TestFlight 2.2.7 (3519)
+####System settings:
+Iphone 6, iOS 11.3
+
+9952
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-29T11:40:19.090Z
+
+
+### average dpy user#1145 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5abcd0a357dc801392c1f650/821f1414fbfde1e879147f9725df9ee6/image.png added by Bug Bot on 2018-03-29T11:40:21.659Z
+
+
+### Can reproduce.
+I softlocked on my own device, not a full crash. iOS 11.2.5 on iPad Pro 2nd Gen, Discord via Testflight (v2.2.7, Build 3519)
+
+SuperSajuuk#0001 - Bug Bot on 2018-03-29T11:40:26.446Z
+
+
+### Can reproduce.
+CR; iOS 11.2.6, iPhone 6S, Discord TestFlight 2.2.7 (Build 3519). Also just a softlock on my device, like SuperSajuuk.
+
+HyperKids#4976 - Bug Bot on 2018-03-29T11:40:31.490Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.7 (3519); Starts with softlock, and then you have a 50/50 of it crashing
+
+HeroGamers#0001 - Bug Bot on 2018-03-29T11:40:36.451Z
+
+
+### CNR, iOS 11.0, iPad Pro, Test Flight 2.3.2 - Clayton on 2018-05-03T23:26:46.387Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-05-03T23:26:50.287Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.4, TestFlight 2.3.4 (5616)
+
+» a r i a#1593 - Bug Bot on 2018-07-11T20:54:23.944Z
+
+
+### After Pascal talked to me about this bug report, we decided that we would put it to a test in my testing server to see if anyone could reproduce then to collect the information from the result. 
+
+What I did in my server was to gather up a group of Bug Hunters and had the iOS Bug Hunters to view the channel while the others grouped up and reacted to the message with the role ping. However, the test was successful as there were reproduction on various devices. 
+
+Some of the Bug Hunters that was able to reproduce had the following devices: iPhone 5S, 6, SE, iPad Air 1st & 2nd Gen, iPod Touch 5th and 6th Gen. So I feel like this bug may most likely to be reproducible on older device such as iPhone 5S / iPad Air 1st Gen / iPod Touch 5th Gen to the newest device such as iPhone SE / iPad Air 2nd Generation / iPod Touch 6th Gen.
+
+The lowest iOS was 9.3.3 and the highest was iOS 12 (Dev Beta 3). All devices were running iOS TF 2.3.4 (5616) and Stable 2.3 4
+
+I had a try myself with iPad Air 1st Generation running iOS 11.2.6 with Discord TestFlight 2.3.4 (5616). I was able to reproduce with a new set of reproduction steps that me and TimThe#1118 found during the testing. 
+
+So I will be editing the ticket to reflect the new information that I found then move it to User Reported Bugs for verification since I was able to reproduce. If you need any assistance with reproducing this bug, please let me (Ghoul#0009) know so that I can help out.
+
+Edit: It can also be reproducible with @here and @everyone as per SuperSajuuk#0001.
+
+ - Ghoul on 2018-07-11T21:48:37.384Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Ghoul on 2018-07-11T21:54:13.878Z
+
+
+### Verified on iOS TestFlight 2.3.6 (6095) on iPad Air 1st Generation, running iOS 11.2.6. Icy confirmed with me that my test run was enough information to move it to Verified Bugs. :tada:  - Ghoul on 2018-08-03T00:40:38.531Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ghoul on 2018-08-03T00:40:44.462Z
+
+
+### Archived by Clayton on 2018-09-04T23:14:28.380Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iPad Air 2 - iOS 12 Public Beta 10, TestFlight 2.3.7 (6968)
+
+Pascal#0929 - Bug Bot on 2018-09-05T20:42:18.716Z
+
+
+### Unarchived by Clayton on 2018-09-07T20:14:38.637Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12, Testflight 2.3.9 (7731)
+
+Pyros#2326 - Bug Bot on 2018-10-01T20:15:42.209Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:33.968Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

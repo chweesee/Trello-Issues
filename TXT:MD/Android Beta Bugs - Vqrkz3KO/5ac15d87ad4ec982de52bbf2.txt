@@ -1,0 +1,81 @@
+[Archived] Valid expired 2fa code shows wrong code message (https://trello.com/c/VLZeVPmg)
+
+P1 - Severe,
+High
+
+Created: 2018-04-01T22:30:31.158Z
+Latest Update: 2018-07-06T18:51:02.612Z
+
+Reported by thomasnet#9849
+
+####Steps to reproduce:
+- Disconnect from account 
+- Enter valid email and pass 
+- Enter an expired 2fa code
+
+####Expected result:
+Logs in without any message
+####Actual result:
+Logs in, but shows wrong code message
+####Client settings:
+Discord Beta 6.4.3
+####System settings:
+OnePlus 3T Android 8.0.0
+
+10112
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-01T22:30:31.158Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ac15d87ad4ec982de52bbf2/28d24de5ae02328645bff3c70e604d95/WtzF726.jpg added by Bug Bot on 2018-04-01T22:30:33.736Z
+
+
+### Can reproduce.
+Pixel 2 XL - Android 8.1 - Alpha 6.4.5
+
+mrkirby153#7840 - Bug Bot on 2018-04-01T22:30:38.634Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 6.4.5 -- I used a code that expired about 5 seconds before entering. I did not get the No Text Channels screen just the error.
+
+webhp#1337 - Bug Bot on 2018-04-01T22:30:43.582Z
+
+
+### Can reproduce.
+CR, Asus Zenfone 3, Android 7.0, Discord Alpha 6.4.5
+
+Doges#0001 - Bug Bot on 2018-04-01T22:30:48.571Z
+
+
+### Verified. Report is unclear, but essentially you can login using expired 2FA codes. - Clayton on 2018-04-06T09:02:18.297Z
+
+
+### Moved from User Reported Bugs to Serious Issues by Clayton on 2018-04-06T09:02:22.041Z
+
+
+### Codes are actually valid for up to 60 seconds.  - Jeff Cailteux on 2018-04-09T22:45:10.663Z
+
+
+### Moved from Serious Issues to Won't Fix by Jeff Cailteux on 2018-04-09T22:45:25.451Z
+
+
+### The bug here is that the code while still being valid is showing a "Invalid Code" message. The bug is not that the code should not be accepted.
+
+webhp#1337 - Bug Bot on 2018-04-19T16:59:45.647Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:50:55.836Z
+
+
+### Archived by Jared on 2018-07-06T18:51:02.615Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

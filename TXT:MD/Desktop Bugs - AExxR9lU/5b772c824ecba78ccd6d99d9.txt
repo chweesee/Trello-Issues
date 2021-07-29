@@ -1,0 +1,78 @@
+[Archived] [Electron issue, not a Discord issue] Fullscreen application overlaps by a few pixels onto connected monitors in a multi-monitor setup (https://trello.com/c/0967wHkh)
+
+None
+
+Created: 2018-08-17T20:13:55.070Z
+Latest Update: 2019-01-01T15:22:50.859Z
+
+Reported by FullHeartContainer <3#4995
+
+####Steps to reproduce:
+- open Discord on a screen where additional screens are connected 
+- Maximize the window into full screen using either the on screen button or Windows keyboard commands
+
+####Expected result:
+window will fill the current screen
+####Actual result:
+window fills the current screen and then overflows onto contiguous screens
+####Client settings:
+Discord, 22066
+####System settings:
+Win 10 Pro x64
+
+17764
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-17T20:13:55.070Z
+
+
+### Can reproduce.
+can reproduce: Windows 10 Home build 1803 | Canary 22112
+
+Rubenvds#5257 - Bug Bot on 2018-08-17T20:14:02.607Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home x64 1803 | Canary - 22112
+
+Art#5988 - Bug Bot on 2018-08-17T20:14:07.725Z
+
+
+### Can reproduce.
+Can Repro, Windows 10 Home (1803) x64, Canary 0.0.211 (Build 22112)
+
+DeJay#1337 - Bug Bot on 2018-08-17T20:14:12.572Z
+
+
+### Won't fix, electron issue.  - Clayton on 2018-08-17T20:56:32.380Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Clayton on 2018-08-17T20:56:38.259Z
+
+
+### This isn't a Discord bug, but an Electron per https://github.com/electron/electron/issues/5267
+
+Ene#0808 - Bug Bot on 2018-08-17T22:02:35.441Z
+
+
+### https://github.com/electron/electron/issues/5267 - https://github.com/electron/electron/issues/5267 added by Tarek on 2018-08-17T22:07:24.754Z
+
+
+### Thanks Ene for the link. - Tarek on 2018-08-17T22:08:07.012Z
+
+
+### Archived due to being inactive for 30+ days in won't fix list.
+
+Also an Electron bug:) - Tarek on 2019-01-01T15:22:49.831Z
+
+
+### Archived by Tarek on 2019-01-01T15:22:50.861Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

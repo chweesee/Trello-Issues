@@ -1,0 +1,112 @@
+[Archived] Changing from portrait to landscape mode (or vice versa) uncheck the checked roles when creating a new channel only for the selected roles (https://trello.com/c/XbY4hOnd)
+
+Mid,
+P3 - Will be fixed eventually
+
+Created: 2017-08-15T16:07:13.725Z
+Latest Update: 2018-08-22T01:20:31.862Z
+
+Reported by Symplyfyed#4913
+
+####Steps to reproduce:
+- Go to a server where you are admin/owner  
+- Create a few roles, then create a new channel 
+- When creating the channel, select a few roles that should be able to access it 
+- If you are on portrait mode, switch to landscape mode (or vice versa) and observe
+
+####Expected result:
+The roles should remain selected
+####Actual result:
+The roles are auto-deselected when changing from portrait to landscape mode or vice versa
+####Client settings:
+Android Alpha 4.0.7
+####System settings:
+Android KitKat 4.4.4
+
+3262
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-15T16:07:13.725Z
+
+
+### Can reproduce.
+CR, LG Xpower 6.0.1, Discord Alpha 4.0.7
+
+ks0908#8526 - Bug Bot on 2017-08-15T16:07:21.496Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 edge (SM-G935F), Android Nougat 7.0, Discord Alpha 4.0.7 (502)
+
+Curse Broken#8659 - Bug Bot on 2017-08-15T16:07:26.447Z
+
+
+### Can reproduce.
+Android 7.0, Discord Android Alpha - Latest , LG G5
+
+Luke#6723 - Bug Bot on 2017-08-15T16:07:31.537Z
+
+
+### Can reproduce.
+Samsung Galaxy S2 running Marshmello 6.0.1 with Discord Alpha 4.0.7 (502)
+
+Rauf#3260 - Bug Bot on 2017-08-15T16:45:40.570Z
+
+
+### Verified.  - Clayton on 2017-08-17T19:09:56.650Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-17T19:10:06.837Z
+
+
+### Can't reproduce.
+The ui and there are no check boxes anymore - Discord Alpha 5.1.7, Android 4.4.4, Allview VivaH8LTE
+
+Symplyfyed#4913 - Bug Bot on 2017-09-16T11:36:37.536Z
+
+
+### Can't reproduce.
+the ui changed and this cannot be reproduced anymore - Discord Alpha 5.1.7, Android 4.4.4, Allview VivaH8LTE
+
+Symplyfyed#4913 - Bug Bot on 2017-09-16T11:39:42.063Z
+
+
+### This report is no longer valid with the new channel creation UI
+
+There's a new report detailing what happens when changing the display orientation now: https://trello.com/c/O8gYDNSi - Alexandru Todea on 2017-09-16T12:01:47.612Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-16T12:01:57.144Z
+
+
+### I can still reproduce this by toggling the private channel toggle on/off. The roles that were toggled on are now off, but if you do the same thing without changing orientation the role toggles are still there. Moving back to Verified Bugs - Jared on 2017-10-02T20:18:36.565Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T20:18:43.873Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-17T18:09:22.567Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-17T18:09:23.550Z
+
+
+### Unarchived by Jared on 2017-11-29T21:36:41.466Z
+
+
+### Moved from Fixed Bugs to Verified Bugs by Jared on 2017-11-29T21:36:45.397Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59931c31c0007b6a9576b0c6/849d94910e12d000b5d02499e539eaaf/UTb5yyB.gif added by Bug Bot on 2018-07-16T06:44:07.449Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:31.865Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

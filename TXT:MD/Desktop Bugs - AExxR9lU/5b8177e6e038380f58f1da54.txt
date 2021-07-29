@@ -1,0 +1,98 @@
+[Archived] During search some non-alphabetic characters aren't considered to separate words, but link them to one together (https://trello.com/c/LpUxBrAm)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-25T15:38:14.274Z
+Latest Update: 2018-10-22T20:25:45.004Z
+
+Reported by CabbageCrow#0250
+
+####Steps to reproduce:
+- Post composite words one-two one_two  one+two one~two one(two)
+
+####Expected result:
+Every composite word should be found when searching for "one" or "two"
+####Actual result:
+, one_two wont show up until you search for the whole thing. Could be the same for other characters.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 22333, Version Hash: 76f317c0de4b335c5f692213a60f2fe4d1679c4e
+####System settings:
+Windows 7 Ultimate 64bit
+
+18320
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-25T15:38:14.274Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 22581
+
+mrkirby153#7840 - Bug Bot on 2018-08-25T15:38:21.615Z
+
+
+### Can reproduce.
+Can reproduce with words like  onetwo and one.two. Win 10 home x64. Canary 22587
+
+Mr. Black#5859 - Bug Bot on 2018-08-25T15:38:26.576Z
+
+
+### Can reproduce.
+CR; Windows 10 Home 64-bit 1803; Discord Canary 22587
+
+Augy.#8622 - Bug Bot on 2018-08-25T15:38:31.582Z
+
+
+### Can reproduce.
+Windows 7 Professional x64, Stable, 22333
+
+Fallen.exe#1337 - Bug Bot on 2018-08-25T15:41:36.261Z
+
+
+### It's also occurs with "one.two" - one[period]two (in case it removes it again)
+Period separated words are important for programming
+
+CabbageCrow#0250 - Bug Bot on 2018-08-25T16:08:31.710Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 22587
+
+MoonlightCapital#0554 - Bug Bot on 2018-08-25T19:06:02.031Z
+
+
+### Can reproduce.
+Microsoft Windows [Version 10.0.17134.228], Release Channel: stable, Build Number: 22333, Version Hash: 76f317c0de4b335c5f692213a60f2fe4d1679c4e
+
+ramidzkh#4814 - Bug Bot on 2018-08-26T02:35:29.929Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22587
+
+Frances Picard#6209 - Bug Bot on 2018-08-26T06:04:34.079Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 22587
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-26T09:58:31.079Z
+
+
+### verified, macos 10.12.6, canary 22587 - Clayton on 2018-08-27T22:08:48.241Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-27T22:08:53.861Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:45.006Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

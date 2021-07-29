@@ -1,0 +1,79 @@
+The /spoiler command breaks when the following text contains }} (old spoiler syntax because Bug-Bot) (https://trello.com/c/c13YotWs)
+
+None
+
+Created: 2019-02-01T11:17:23.357Z
+Latest Update: 2019-04-02T20:36:56.128Z
+
+Reported by Longinus#0293
+
+####Steps to reproduce:
+- Type `/spoiler before || after`
+
+####Expected result:
+It does not break
+####Actual result:
+It injects || and || tags around the message, breaking the spoiler
+####Client settings:
+Desktop Canary 29657
+####System settings:
+Windows 7 Pro 64bits (build 7601)
+
+27544
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-01T11:17:23.357Z
+
+
+### Can reproduce.
+Windows 10 64-Bit (1809), Desktop Canary 31700
+
+Maika#9523 - Bug Bot on 2019-02-01T11:17:30.783Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 31700
+
+Frances Picard#6209 - Bug Bot on 2019-02-01T11:17:35.846Z
+
+
+### Can reproduce.
+[CR] OS X El Capitan 10.11.6, Discord Canary 31700
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-02-01T11:17:40.785Z
+
+
+### Can reproduce.
+MacOS Mojave 10.14, Canary 31700
+
+broman#0001 - Bug Bot on 2019-02-01T16:41:32.368Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Canary 31700
+
+Viruz#9907 - Bug Bot on 2019-02-01T19:12:17.928Z
+
+
+### Moved from User Reported Bugs to Spoilers! by Clayton on 2019-02-02T11:29:48.856Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.230 Build 31784
+
+Daffyduck#5364 - Bug Bot on 2019-02-03T06:44:34.997Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31908
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-06T19:37:58.530Z
+
+List
+====
+Spoilers!
+
+Members
+=======
+None

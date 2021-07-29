@@ -1,0 +1,166 @@
+[Archived] discord app crash if spotify embeed can't connect to (must block via IP/url if using firewall method, Blocking Spotify exe won't work.) (https://trello.com/c/O9XFKh4e)
+
+P3: Will get fixed eventually,
+High,
+Crash
+
+Created: 2018-04-03T18:33:29.112Z
+Latest Update: 2019-03-06T04:00:03.307Z
+
+Reported by ks#0908
+
+####Steps to reproduce:
+- be unable to connect to  (firewall block on it via url or ip / some temporary issue) 
+- try to view spotify song embed
+
+####Expected result:
+spotify embed should simply not load leaving url alone/show some placeholder
+####Actual result:
+after few seconds app refresh with "ERR_NAME_NOT_RESOLVED"
+####Client settings:
+Canary build 13034
+####System settings:
+windows 10 x64 build 1709
+
+10197
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-03T18:33:29.112Z
+
+
+### ks#0908 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac3c8f96c27b99b244a7688/f7f9985a537222b80340bd304bc80b54/80339a.png added by Bug Bot on 2018-04-03T18:33:31.860Z
+
+
+### ks#0908 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac3c8f96c27b99b244a7688/e4e54620eb781a41a69b1ae65006ecc1/154495.gif added by Bug Bot on 2018-04-03T18:33:31.978Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64 (1709), Canary Build 13034
+
+Lewis#0334 - Bug Bot on 2018-04-03T18:33:36.673Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Canary Build 13034
+
+mrkirby153#7840 - Bug Bot on 2018-04-03T18:33:41.627Z
+
+
+### Can reproduce.
+cr, Windows 10 Home x64 (Fall Creators Update), canary 13034 | blocked open.spotify.com via hosts file
+
+Rauf#9245 - Bug Bot on 2018-04-03T18:33:46.593Z
+
+
+### seem to happen also with YouTube, possibly with most embeds that are showing some content
+
+ks#0908 - Bug Bot on 2018-04-03T18:52:22.475Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17133.1) • Discord Canary 13034 •
+
+ARGNZXT#7919 - Bug Bot on 2018-04-03T19:12:55.101Z
+
+
+### Verified on [BUILD INFO] Release Channel: canary, Build Number: 13228, Version Hash: a6423b5c52a41c71781e77204cb85e06e619c1b0 - Jared on 2018-04-06T18:20:41.519Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-06T18:20:45.855Z
+
+
+### Can reproduce.
+Windows 8 (6.2) Build 9200 x64; Discord Release Channel: Canary Build Number: 13548
+
+SweetSofiMC#8821 - Bug Bot on 2018-04-13T16:00:20.136Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Version 1709 - Discord Canary 16139 - Still appears to be crashing the client when the Embed cannot be loaded, did not intentionally block any ports or software in the firewall, did have Spotify running in the background without issues.
+
+HarryThorpe#0864 - Bug Bot on 2018-05-26T14:47:57.926Z
+
+
+### discord crashes if you block open.spotify.com from host file.
+
+MakiTheLegend#5027 - Bug Bot on 2018-06-30T14:14:41.746Z
+
+
+### This ticket is an duplication of https://trello.com/c/YXqTQXuk/1490-discord-crash-if-twitter-is-blocked-when-loading-video, so it will be archived. 
+
+I agree that they are the same bug because you are blocking the source of the embed from the access, and Discord has no idea what to do with it so it just does nothing but to crash.  - Ghoul on 2018-07-06T04:12:07.436Z
+
+
+### Archived by Ghoul on 2018-07-06T04:12:10.008Z
+
+
+### I'm reopening this ticket because:
+https://trello.com/c/YXqTQXuk/1490-discord-crash-if-twitter-is-blocked-when-loading-video is not the same issue as this ticket.
+
+Twitter, YouTube and Twitch causing a client crash when blocked is the same issue though, but not Spotify, because of:
+
+For Spotify, the moment you see the embed you will trigger a JS callback error. Which then most of the time locks up the thread for the discord process so it reloads to fix it. While for Twitter, the moment try to _play_ the video rather than viewing the Twitter embed. The Chrome renderer crashes and reloads the client to fix itself. Twitter, YouTube and Twitch has this behavior, probably more websites that provides video embeds.
+
+When trying to reproduce the Twitter issue, you can observe high usage of RAM for a moment, then the client reloads.  - Tarek on 2018-07-16T18:10:04.674Z
+
+
+### Unarchived by Tarek on 2018-07-16T18:10:08.241Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:18.366Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 26847. Also works with Twitch clips.
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-25T00:20:14.641Z
+
+
+### Unarchived by Tarek on 2018-10-25T05:32:13.209Z
+
+
+### Can reproduce.
+Windows 10 Home Version 1803 Build 17134.345
+
+NotoriousRebel#4089 - Bug Bot on 2018-11-10T02:27:32.674Z
+
+
+### Can't reproduce.
+Windows 10 Home 1809 w/ Discord Canary 30591
+
+rubisco#4310 - Bug Bot on 2019-01-08T18:39:07.856Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1809) [17758.1] Discord Stable Build Number: 30605
+
+Error has appeared once : 
+
+Uncaught exception:
+Error: callback already pending
+at Backoff.fail
+(C:Users\[Username]\AppData\Roaming\discord\0.0.301\modules\discorddesktopcore\core...:17)
+at WebContents. <anonymous>
+(C:Users\[Username]\AppData\Roaming\discord\0.0.301\modules\discorddesktopcore\core...:23)
+at emitMany (events.js:127:13)
+at WebContents.emit (events.js:201:7)
+
+danté#2374 - Bug Bot on 2019-01-08T23:56:56.777Z
+
+
+### Can reproduce.
+[CR] OS X El Capitan 10.11.6, Discord Canary 31784. I did not block Spotify, but still experienced the crash. The crash happens whenever I view a open,spotify,com link.
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-02-04T03:44:26.560Z
+
+
+### Archived by Bug Bot on 2019-03-06T04:00:03.319Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

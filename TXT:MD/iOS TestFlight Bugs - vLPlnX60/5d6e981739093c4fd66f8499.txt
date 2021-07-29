@@ -1,0 +1,47 @@
+TestFlight 3.1.3 (17389) (https://trello.com/c/uc9qzLMc)
+
+None
+
+Created: Unknown
+Latest Update: 2019-09-30T20:13:24.989Z
+
+Add a `!canrepro` to this ticket if you find any places with **performance issues** in this build and describe where and how the issue happens.
+
+Something you can add here are these kind of issues:
+
+- The app being slow
+- The app taking a long time to respond to an input
+- Unclean scrolling (like when you scroll, it bumps up and down a million of times)
+- Lag in an area, like emojis, server members, etc.
+
+Crashes are **not** something that should be added and should always get their own new ticket.
+
+Card Log
+========
+### Can reproduce.
+The “View all” and “Camera” buttons container when picking images on iOS stutters when hiding and revealing itself.
+Steps to Reproduce: 
+- Open the keyboard on iOS in Discord 
+- Click on the far left icon like you would to upload an image 
+- Scroll down and up the image preview section to hide and reveal the “View all” and “Camera” button container
+- Observe the stutter at the “View all” and “Camera” button container 
+Expected Result: The container should fluidly hide and reveal when scrolling 
+Actual Result: The container does not fluidly move, and stutters when hiding and revealing 
+Client Settings: TestFlight 3.1.3 (17389) 
+System Settings: iPhone 7 Plus - iOS 13.0 & iPad Pro 11” - iOS 12.4.1
+
+Ayu#0001 - Bug Bot on 2019-09-25T23:10:18.492Z
+
+
+### Can reproduce.
+iPhone XR, iOS 13.1 (public beta 4) 3.1.3 stable
+
+LankyDisc977698 (Dank)#9968 - Bug Bot on 2019-09-30T20:13:25.003Z
+
+List
+====
+Performance Issues
+
+Members
+=======
+None

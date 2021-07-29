@@ -1,0 +1,82 @@
+[Archived] Deleteing channels on iOS causes app crash. (https://trello.com/c/pZr7ohHy)
+
+None
+
+Created: 2017-02-26T05:01:22.215Z
+Latest Update: 2017-10-17T20:57:24.636Z
+
+Reported by Xelphos#7508
+
+####Steps to reproduce: 
+- Tap a channel. 
+- Tap the channel name at the top of chat. 
+- Tap Delete Channel. 
+
+####Expected result:
+ Channel should be deleted. 
+####Actual result:
+ Discord app crashes, and the channel is not deleted. System settings: iPhone 6S Plus iOS 10.3 Beta 3 TestFlight 1.8.3(70)
+
+Card Log
+========
+### Added by Jared on 2017-02-26T05:01:22.215Z
+
+
+### Can reproduce.
+iPhone 6, iOS 10.2, Discord TF 1.8.3(70)
+
+ItsNovaHere#1575 - Jared on 2017-02-26T05:01:22.872Z
+
+
+### Can reproduce.
+iPhone 6s, 10.3 beta, TF
+
+Gaelan#0424 - Jared on 2017-02-26T05:01:24.857Z
+
+
+### Can reproduce.
+Newest TestFlight, iOS 10.2.1
+
+DeJay#8746 - Jared on 2017-02-26T05:01:27.148Z
+
+
+### Can reproduce.
+1.8.3 (70)
+
+Zachary#6047 - Jared on 2017-02-26T05:26:49.469Z
+
+
+### This happens with Severs, Channels, and group chats.
+
+ItsNovaHere#1575 - Jared on 2017-02-26T05:44:32.702Z
+
+
+### All these reports seem to be related, might be worth just adding all three to a single report if they are. https://trello.com/c/brl22US1 https://trello.com/c/Eq3lEMe0
+
+Xelphos#7508 - Jared on 2017-02-26T05:56:26.191Z
+
+
+### Can reproduce.
+1.8.3
+
+Orangalo#0983 - Jared on 2017-02-26T05:59:59.346Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed Bugs by Fanghao on 2017-02-28T00:44:13.816Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-02-28T23:14:24.854Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:57:23.857Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:57:24.638Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

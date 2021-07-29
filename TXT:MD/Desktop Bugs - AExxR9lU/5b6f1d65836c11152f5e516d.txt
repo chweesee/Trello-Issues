@@ -1,0 +1,65 @@
+[Archived] Empty markdown not shown in embeds (https://trello.com/c/YsA0FHm4)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-11T17:31:17.882Z
+Latest Update: 2018-10-22T20:24:35.002Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Send or receive an embed with the following conditions: 
+- First line of the embed description with any text 
+- Second line of the embed should use empty Markdown (e.g. `_ _`) 
+- Observe the output
+
+####Expected result:
+Embed should show empty Markdown lines as they do for normal messages.
+####Actual result:
+It doesn't show them.
+####Client settings:
+Canary Build 21584
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6
+
+17315
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-11T17:31:17.882Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13"), macOS 10.13.6 - Canary 21681
+
+Mippy#0001 - Bug Bot on 2018-08-11T17:31:25.440Z
+
+
+### Can reproduce.
+Can Reproduce. Windows 10 x64. Canary, 21425
+
+Zak - Inactive till 18th August#5879 - Bug Bot on 2018-08-11T17:31:30.168Z
+
+
+### Can reproduce.
+Can repro, Windows 10 x64, Canary 21584
+
+White Falcon#0001 - Bug Bot on 2018-08-11T17:31:35.604Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T22:08:04.372Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T22:08:15.042Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:35.004Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

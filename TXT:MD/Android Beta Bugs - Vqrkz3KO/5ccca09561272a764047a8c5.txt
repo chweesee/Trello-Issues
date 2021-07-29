@@ -1,0 +1,239 @@
+[Archived] If someone sends a message and then deletes it immediately before you switch to channel, you won't be able to mark channel as read by scrolling down (https://trello.com/c/g3URW0lj)
+
+None
+
+Created: 2019-05-03T20:12:05.712Z
+Latest Update: 2019-08-16T21:25:12.988Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- To test this bug in optimal conditions, do it in a channel with no activity at all and that has no unreads already 
+- Make sure you're out of the channel 
+- Have someone send a message in the channel 
+- Have him delete the message immediately 
+- Once you have ensured that the message is deleted, you can switch to the channel 
+- Switch to a different channel. Observe how the channel wasn't parked as read
+
+####Expected result:
+The channel should be read
+####Actual result:
+The channel isn't read and you need to Mark as read the channel manually
+####Client settings:
+Discord Alpha 8.8.9
+####System settings:
+Huawei Mate 9 Android 9.0
+
+33907
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-03T20:12:05.712Z
+
+
+### Can reproduce.
+Mate 8, Android 7.0 ( Alpha 8.8.9 )
+
+MXE#0001 - Bug Bot on 2019-05-03T20:12:13.202Z
+
+
+### Can reproduce.
+redmi note 4,android 9, discord 8.8.9
+
+Bear#3437 - Bug Bot on 2019-05-03T20:12:18.189Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 8.8.9
+
+Quad#1887 - Bug Bot on 2019-05-03T20:12:23.149Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9.0.0, Discord Alpha 8.8.9
+
+Аlex#2287 - Bug Bot on 2019-05-03T20:12:55.641Z
+
+
+### It appears to also be missing if you turn off image preview for images, it's missing it's metadata
+
+Okori#0902 - Bug Bot on 2019-05-03T20:13:52.283Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.8.9
+
+Clay#0001 - Bug Bot on 2019-05-03T20:26:26.334Z
+
+
+### Can reproduce.
+CR, with the bug approval queue in Discord Testers, Samsung Galaxy S6, Android 7.0, Discord Alpha 8.8.9
+
+Law of Royale#4167 - Bug Bot on 2019-05-03T21:02:25.282Z
+
+
+### Can reproduce.
+HTC U12+, Android 8.0.0 - Alpha 8.8.9
+
+anonymous kitten#5379 - Bug Bot on 2019-05-03T21:14:53.904Z
+
+
+### Can reproduce.
+Galaxy S7 (SM-G930F), 9.0, Alpha 8.8.9
+
+c1rcl#3677 - Bug Bot on 2019-05-03T21:35:16.896Z
+
+
+### Can reproduce.
+CR OnePlus 3T, Android 8, Discord 8.8.9
+
+Alipoodle#5025 - Bug Bot on 2019-05-03T21:47:14.800Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Android 5.0, Discord Alpha 8.8.9
+
+Karasu#0013 - Bug Bot on 2019-05-03T22:44:16.746Z
+
+
+### Can reproduce.
+Android Samsung Galaxy S9 9.0.0, 8.8.9
+
+OldWampa#7897 - Bug Bot on 2019-05-03T23:15:35.463Z
+
+
+### Can reproduce.
+Vivo V9, Android 8.1.0, Discord Alpha 8.9.0 (890)
+
+Lattesmc#0023 - Bug Bot on 2019-05-04T06:29:33.058Z
+
+
+### Can reproduce.
+Huawei Y7, Android 8.0.0, Discord Alpha 890
+
+Bullseye#8200 - Bug Bot on 2019-05-04T06:47:47.502Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.9.0
+
+Lily#2624 - Bug Bot on 2019-05-04T07:29:44.922Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Bug Bot on 2019-05-04T17:54:40.705Z
+
+
+### Can reproduce.
+Samsung Galaxy A3 2017; Android 8.0.0; Discord Alpha 8.9.1
+
+Costpap#7667 - Bug Bot on 2019-05-04T19:14:53.470Z
+
+
+### Can reproduce.
+CR Android 6.0.1  Samsung Galaxy s5, Android Alpha 8.9.1
+
+Krobo#4784 - Bug Bot on 2019-05-05T02:17:08.679Z
+
+
+### Can reproduce.
+Samsung Galaxy J2 (2016) - Android 6.0.1 | Discord 8.9.1 | this is happening also with channels where I don't have read message history perm
+
+Ajith#9501 - Bug Bot on 2019-05-05T05:12:31.818Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 889
+
+Quad#1887 - Bug Bot on 2019-05-05T06:58:59.433Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 207 Android 8.1.0, Discord Alpha 8.9.1
+
+VALENTIN#6458 - Bug Bot on 2019-05-05T09:28:42.083Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Discord Alpha 8.9.1
+
+Danijel#9000 - Bug Bot on 2019-05-06T02:28:24.080Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 4 - Android 7.0 - Alpha 8.9.1 (891)
+
+voldemort#6931 - Bug Bot on 2019-05-06T07:09:08.392Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.9.1
+
+Skyla#0002 - Bug Bot on 2019-05-06T15:03:02.405Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 9.0 (April Patch, Evolution X 05/06 build, Kernel 4.9.172), Discord Alpha 8.9.3
+
+Harutato 💜🌸#6660 - Bug Bot on 2019-05-10T12:19:45.921Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Sam Shih on 2019-05-10T22:46:01.609Z
+
+
+### Can reproduce.
+Can still reproduce, as long as the New Messages banner is still here. Discord Alpha 8.9.4, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-05-10T22:52:34.208Z
+
+
+### will be fixed in next 895 release - Sam Shih on 2019-05-10T23:00:33.343Z
+
+
+### Can't reproduce.
+test
+
+Tarek#1337 - Bug Bot on 2019-05-10T23:42:05.904Z
+
+
+### Can't reproduce.
+test
+
+Tarek#1337 - Bug Bot on 2019-05-10T23:49:38.933Z
+
+
+### Can reproduce.
+Still reproducible on 8.9.5! I need to manually discard the New messages banner in order to make it automatically mark as read again.
+
+Alex1304#9704 - Bug Bot on 2019-05-11T01:15:32.208Z
+
+
+### Can reproduce.
+Can still repro with the given steps and only fix with way as Alex1304#9704 says—Samsung Galaxy S6, Android 7.0, Discord 8.9.5
+
+Law of Royale#4167 - Bug Bot on 2019-05-11T01:20:30.665Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1; Discord Alpha 895
+
+The Lunala#7882 - Bug Bot on 2019-05-11T01:32:37.210Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-05-11T01:32:37.429Z
+
+
+### Can reproduce.
+LG Stylo 4 | Android 8.1 | Alpha 898
+
+charleskimbac#6492 - Bug Bot on 2019-05-16T00:26:51.414Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:25:12.996Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

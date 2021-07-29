@@ -1,0 +1,72 @@
+[Archived] "Spotify Status will not display for valid song when in a Playlist that has a mix of imported and non imported songs. (https://trello.com/c/6rvN2O33)
+
+None
+
+Created: 2018-02-04T21:29:58.607Z
+Latest Update: 2018-03-14T13:12:57.107Z
+
+Reported by TheNewit#7139
+
+####Steps to reproduce:
+- 
+Step 1: Navigate to a Playlist that does not have imported songs and play a song. <:greenTick:312314752711786497> Spotify status should display.
+Step 2: Now navigate to a playlist that has a mix of imported and non imported songs.
+Step 3: Play a imported song. Either the Discord status will show the old non imported song playing, or will not show the status. 
+Step 4: Play a non imported song in the same playlist. <:redTick:312314733816709120> Spotify status does not display. 
+Additionally, Navigating to another playlist that ONLY has non imported songs will cause that status to show.
+
+####Expected result:
+Spotify Status message should display for any non imported song regardless if the playlist is purely non imported or has a mixture of imported and non imported songs.
+####Actual result:
+Sprotify Status will not show unless a user navigates to another playlist containing only non imported songs.
+####Client settings:
+Discord Canary Build 10189
+####System settings:
+Windows 10 Education X64
+
+8401
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-04T21:29:58.607Z
+
+
+### Ajit Pai#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a777b56f46859cef6abbb63/d7d2016173ca8c073b15c78eddf8ad55/discord_2Bspotify_2Berror.png added by Bug Bot on 2018-02-04T21:30:01.362Z
+
+
+### Can reproduce.
+Canary 10141, Windows 10 x64 Version 10.0.16299 Build 16299
+
+tomGER#7462 - Bug Bot on 2018-02-04T21:30:06.184Z
+
+
+### Can reproduce.
+Discord Canary 10.0.201 (Build 10228), Windows 10 Pro x64 Version 1709 (OS Build 16299
+
+Ajit Pai#0001 - Bug Bot on 2018-02-04T21:30:11.185Z
+
+
+### Can reproduce.
+Windows 10 (Fall Creators Update) + Canary Build# 10228
+
+Oasis#4730 - Bug Bot on 2018-02-04T21:30:16.300Z
+
+
+### Moved from User Reported Bugs to Spotify Bugs by Jared on 2018-02-05T15:30:42.078Z
+
+
+### Moved from Spotify Bugs to Not a Bug by nightwalker on 2018-02-14T21:33:39.866Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:12:55.677Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:12:57.110Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

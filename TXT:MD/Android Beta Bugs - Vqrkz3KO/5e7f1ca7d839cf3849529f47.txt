@@ -1,0 +1,60 @@
+Opening Add Friend screen immediately triggers Nearby scanning even if you don't go to the "Nearby Scan" tab (https://trello.com/c/0M3cs1eC)
+
+None
+
+Created: 2020-03-28T09:45:11.652Z
+Latest Update: 2020-07-16T05:46:30.337Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have your Bluetooth turned off 
+- Go to Friends list and open Add a Friend screen 
+- Observe your Bluetooth activating on its own
+
+####Expected result:
+Bluetooth should only activate if you open the "Nearby Scan" tab
+####Actual result:
+Nearby scanning triggers immediately upon opening Add Friend screen
+####Client settings:
+Discord version 16-alpha6
+####System settings:
+Huawei Mate 9 Android 9.0
+
+53927
+
+Card Log
+========
+### Added by Bug Bot on 2020-03-28T09:45:11.652Z
+
+
+### Can reproduce.
+CR, Android 7.0, Samsung Galaxy J3 Prime Discord 16-alpha6
+
+spin~#1337 - Bug Bot on 2020-03-28T09:45:19.178Z
+
+
+### Can reproduce.
+Went to add friend and within a second or so Discord attempted to scan and popped up a "grant permission" pop up Samsung Galaxy S6, 7.0, 16 Alpha 6
+
+Xander#2027 - Bug Bot on 2020-03-28T09:45:24.162Z
+
+
+### Can reproduce.
+CR, Xiaomi Redmi 4x, 7.1.2 N2G47H, Discord 16-ALPHA6
+
+KlukCZ#6589 - Bug Bot on 2020-03-28T09:45:29.150Z
+
+
+### Can't reproduce.
+Pixel 3a, Android 10, Discord 17 (1091)
+
+Kanade Tachibana#7086 - Bug Bot on 2020-04-09T22:23:18.600Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

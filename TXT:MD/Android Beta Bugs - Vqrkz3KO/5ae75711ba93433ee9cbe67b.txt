@@ -1,0 +1,103 @@
+[Archived] Some search results gets duplicated as you scroll down (https://trello.com/c/csPXS7nx)
+
+None
+
+Created: 2018-04-30T17:49:05.357Z
+Latest Update: 2019-11-15T18:54:54.885Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to any server 
+- Search for anything that produces a lot of results 
+- Swipe up briefly and let it scroll down with a bit of inertia. Do it fast enough so it scrolls down enough to load more results (the scrollbar size should change), but not too fast so you don't see the loading icon 
+- When it stops scrolling, take note of the timestamp of the topmost message in the visible area 
+- Repeat step 3 
+- Repeat step 4: When it stops scrolling, take note of the timestamp of the topmost message in the visible area.  
+- Compare it with the timestamp you noted previously. The first times you should see nothing special 
+- Continue repeating steps 3 and 4 until you see results that already occured earlier (noticeable with a jumpback in the message timestamps)
+
+####Expected result:
+Search results should always appear once
+####Actual result:
+You may see duplicated search results as you scroll down deeper through the results
+####Client settings:
+Discord Alpha 6.5.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+11644
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-30T17:49:05.357Z
+
+
+### Can reproduce.
+[cr] This bug is a bit hard to repro • It can also be the same message but sent at different times. | Huawei P8Lite 2016, Emui v3.1.1 • Android 5.1 • Discord v6.5.9
+
+fujhofn.#0878 - Bug Bot on 2018-04-30T17:49:14.698Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab S2; Android Nougat 7.0; Discord Alpha, 6.5.9
+
+Realex78#2193 - Bug Bot on 2018-04-30T17:49:17.664Z
+
+
+### Can reproduce.
+CR, Samsung S8+ (Android 8.0.0), Discord Alpha 6.5.9
+
+Homie PinkGuy#1386 - Bug Bot on 2018-04-30T17:49:22.683Z
+
+
+### Can reproduce.
+CR \ Redmi 5 Plus \ Android 7.1.2 \ Discord Alpha 6.5.9.
+
+/hash/#0001 - Bug Bot on 2018-04-30T17:49:42.304Z
+
+
+### Can't reproduce. Samsung S6 Edge, Android 7.0, Alpha 6.6.0 - Clayton on 2018-05-01T21:05:59.219Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-05-01T21:06:04.467Z
+
+
+### This ticket was checked during the Trello Cleaning event with the following reproduction steps by Alex1304#9704: 
+ - Search for something in any channel (personally I did ˋin:#​217764019661045761ˋ) 
+- Now you need to scroll down through results, but in a particular way to increase success rate. 
+- Put your finger near the center of the screen, swipe up briefly and immediately release your finger. 
+- Let it scroll by 5-10 message and repeat this process between 10 and 30 times. 
+- Everytime you do it, look at the results and in particular timestamps, you may notice that sometimes it loads results that already occured and makes the list of results not respecting message chronology
+
+However, it was not reproducible on Moto G4 running Android 7.0 with Android Alpha 7.0.3 - Ghoul on 2018-07-06T01:42:28.177Z
+
+
+### Closing as this bug has been CNR for 30 or more days with no reproductions or new steps. - Jared on 2018-07-06T18:38:33.457Z
+
+
+### Archived by Jared on 2018-07-06T18:38:34.555Z
+
+
+### Can reproduce.
+I searched messages from Dabbit Prime and did about 10 minutes of scrolling, near the 8th minute I saw searches duplicating and at the end everything at the bottom was basically a duplicate of messages from July 16th or July 14th Nexus 5x Android 8.1.0 Android Alpha 7.5.2
+
+Azrael#6867 - Bug Bot on 2018-09-17T01:55:59.849Z
+
+
+### Can reproduce.
+Samsug Galaxy J6 Android 9.0, Alpha 9.8.6
+
+Sugden#2285 - Bug Bot on 2019-11-15T18:45:50.835Z
+
+
+### Still can't reproduce » OnePlus 6 (Version 9.0), Discord 9.8.6
+Seems to be very minor from my current understanding. - Aeria on 2019-11-15T18:54:54.899Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,86 @@
+[Archived] Adding a Steam Connection to Discord fails. (https://trello.com/c/fi5a1KuY)
+
+None
+
+Created: 2018-04-06T02:27:01.195Z
+Latest Update: 2018-07-06T18:03:42.614Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Use Discord to attempt to add a Steam connection. 
+- Authenticate with Steam.
+
+####Expected result:
+The connection is successfully added and you are redirected to your client.
+####Actual result:
+The connection fails with a 400 Post Error and a visual failure error.
+####Client settings:
+Discord Canary 13228 & Discord Stable 13230 with Firefox 59.0.2
+####System settings:
+Windows 10 Pro x64 v1709
+
+10348
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-06T02:27:01.195Z
+
+
+### Ghoul#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac6daf582babbe8c9cd19db/3988e3ab304d17dbbc9dbc9dbc49e969/unknown.png added by Bug Bot on 2018-04-06T02:27:03.777Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Stable 13230
+
+mrkirby153#7840 - Bug Bot on 2018-04-06T02:27:08.658Z
+
+
+### Can reproduce.
+Can repro. After you attempt to log in via browser, it will fail. Windows 10  Pro x64. Canary  13176.
+
+Q__Q#8008 - Bug Bot on 2018-04-06T02:27:13.648Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Build 16299) | Discord Canary (Build 13228)
+
+Midnight Star#1145 - Bug Bot on 2018-04-06T02:27:19.844Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 8 +, iOS 11.4 - Discord Stable 2.2.9. Looks like the backend issue.
+
+Ghoul#0001 - Bug Bot on 2018-04-06T02:43:58.832Z
+
+
+### Can reproduce.
+CR, Windows 10 Home v1709 Build 16299.334 (x64), Canary 13228
+
+ebag#8005 - Bug Bot on 2018-04-06T03:30:45.435Z
+
+
+### This is fixed. - Jake Heinz on 2018-04-06T07:56:38.165Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Jake Heinz on 2018-04-06T07:56:45.807Z
+
+
+### Can reproduce.
+Windows 10 Pro (Build 16299), Canary 13228
+
+187#0001 - Bug Bot on 2018-04-07T06:01:46.744Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:03:40.714Z
+
+
+### Archived by Jared on 2018-07-06T18:03:42.617Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,91 @@
+[Archived] 3 issues with text wrapping in new leave modal. (https://trello.com/c/vRIb0bAc)
+
+P2: Fix can wait a while
+
+Created: 2017-06-15T15:12:25.555Z
+Latest Update: 2017-10-17T20:31:00.790Z
+
+Reported by cole#1106
+
+####Steps to reproduce:
+- Create a really long server. 
+- Join on another account. 
+- Open leave server modal.
+
+####Expected result:
+Texts wraps (twice), no ugly white box.
+####Actual result:
+Ugly white box by scrollbar, title text expands off modal, server name expands and creates scroll bar.
+####Client settings:
+Desktop Canary, 0.0.157
+####System settings:
+Windows 10 x64 Bit
+One More? press ENTER
+
+1653
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-15T15:12:25.555Z
+
+
+### cole#1106 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5942a3d9f5e6b86acdc59d4b/5b2ed9fa555d1b141fb8e95cacc9fdbb/6ixtGT8.png added by Bug Bot on 2017-06-15T15:12:28.471Z
+
+
+### Can reproduce.
+Can repro.  Discordapp Desktop Client - Version Canary 0.0.157 (Build 1538) & Microsoft Windows 10 - Version 1703 (OS Build 15063.332)
+
+PARALLAχ#0440 - Bug Bot on 2017-06-15T15:12:30.068Z
+
+
+### Can reproduce.
+CR,  MacBook Pro Late-2014, OSX 10.12.4, Latest Canary
+
+NubbyTM#6817 - Bug Bot on 2017-06-15T15:12:32.093Z
+
+
+### Can reproduce.
+ Windows 10 x64 bit, Canary 0.0.157
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-15T15:12:34.042Z
+
+
+### Verified - Jared on 2017-06-15T18:45:08.850Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-06-15T18:45:13.662Z
+
+
+### Moved from Verified Bugs to Modal Redesign by Cole Norman on 2017-06-17T02:24:22.319Z
+
+
+### This should be fixed in Canary
+ - Amadeus on 2017-06-19T18:28:05.752Z
+
+
+### Moved from Modal Redesign to Claimed Fixed, needs Verification by Amadeus on 2017-06-19T18:28:09.024Z
+
+
+### Checked on latest canary:
+
+I can no longer reproduce this myself. Everything is word-wrapped properly. No scroll bar, no white box. - Alexander (DJScias) on 2017-06-23T22:53:55.683Z
+
+
+### Verified Fixed. - Jared on 2017-06-27T20:10:03.273Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T20:10:07.828Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:30:59.947Z
+
+
+### Archived by Jared on 2017-10-17T20:31:00.792Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

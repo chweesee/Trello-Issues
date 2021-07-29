@@ -1,0 +1,78 @@
+[Archived] The text entry field resets when the channel name or topic changes, resetting the keyboard and breaking autocorrect. (https://trello.com/c/JqVlrDsG)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-05T04:42:42.735Z
+Latest Update: 2018-08-22T01:22:07.996Z
+
+Reported by aopell#9347
+
+####Steps to reproduce:
+- Open Discord to a channel where you have the manage channel permission on your phone and one other device 
+- Open the touch keyboard on your phone and switch to the numbers and symbols view 
+- On the other device, change the channel name or topic
+
+####Expected result:
+The keyboard should not be reset and you should be able to continue typing your message without interruption
+####Actual result:
+The keyboard resets, switching back to the default view. This also breaks autocorrect and sometimes moves the cursor.
+####Client settings:
+Discord Alpha 6.6.1 (661)
+####System settings:
+Samsung Galaxy S9 - Android 8.0 Oreo
+
+11974
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-05T04:42:42.735Z
+
+
+### Can reproduce.
+CR; Nexus 5, Android 6.0.1, Discord Stable 6.5.6 (656). Also evident when in the middle of swyping a word and the description changes.
+
+glen3b#9285 - Bug Bot on 2018-05-05T04:42:50.097Z
+
+
+### Can reproduce.
+Can Reproduce. Asus Zenfone 2 Deluxe, Android 6.0, Discord Alpha 6.6.1. The position of cursor moves to default position (after last character) if you move the cursor right before the description changes, and also resets the keyboard state.
+
+Frances Picard#6209 - Bug Bot on 2018-05-05T04:42:55.121Z
+
+
+### Can reproduce.
+Acer Iconia One 10 B3-A20, Android 5.1 Discord Alpha 6.6.1
+
+Nico#8189 - Bug Bot on 2018-05-05T04:43:00.071Z
+
+
+### Can reproduce.
+only works at the Google keyboard for me, did not test the Samsung keyboard yet. But it seems to be reproduceable, Samsung Galaxy S7 Running Android 7.0 and IOS 9
+
+TheFinest#2561 - Bug Bot on 2018-05-05T06:43:47.213Z
+
+
+### Extension of https://trello.com/c/CEm5T2Dv
+
+DefinitelyNotLava#9562 - Bug Bot on 2018-05-05T08:43:53.441Z
+
+
+### Verified, samsung s6 edge, android 7.0, 6.6.3 - Clayton on 2018-05-08T22:44:35.847Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-08T22:44:42.158Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5aed364220236478521c1c63/570b8fc20fa8822893924c26fcb25dc8/AKgoeRE.gif added by Bug Bot on 2018-07-15T16:51:56.901Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:07.998Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

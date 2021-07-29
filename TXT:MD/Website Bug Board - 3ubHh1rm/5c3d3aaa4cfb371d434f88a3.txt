@@ -1,0 +1,88 @@
+Selecting your team's applications in the Applications tab, then deleting the team causes a blank Applications tab with the dropdown text cut off. (https://trello.com/c/TKqYYlbO)
+
+None
+
+Created: 2019-01-15T01:43:06.869Z
+Latest Update: 2019-07-27T10:21:35.321Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Navigate to the dev portal. 
+- Open the "Teams" tab. 
+- Create a team. 
+- Open the "Applications" tab. 
+- Select the team you just created as the active applications list. 
+- Open the "Teams" tab once more. 
+- Delete the team you created. 
+- Finally, open the "Applications" tab once again.
+
+####Expected result:
+The tab should default to either showing your personal applications, or prompt to select a team/your personal applications.
+####Actual result:
+The tab just shows an empty application list with the text on the dropdown cut off.
+####Client settings:
+N/A - EdgeHTML 17.17134 - Firefox v64.0.2 (64-bit)
+####System settings:
+Windows 10 Home x64 (1803)
+
+26207
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-15T01:43:06.869Z
+
+
+### Isabel#0002 - https://www.youtube.com/watch?v=5J8QhCD3F_M added by Bug Bot on 2019-01-15T01:43:09.219Z
+
+
+### Isabel#0002 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c3d3aaa4cfb371d434f88a3/fc538b06ccf20e350bc3f432e8f4d6ce/oYDYZQ5.png added by Bug Bot on 2019-01-15T01:43:09.708Z
+
+
+### Can reproduce.
+Can repro, developer console on 2018-01-14, Chrome 71, Windows Home 1809
+
+ginkoid#8888 - Bug Bot on 2019-01-15T01:43:14.269Z
+
+
+### Can reproduce.
+(CR) Windows Pro 64x,Chrome Version 71.0.3578.98 (Official Build) (64-bit)
+
+Octillion#6666 - Bug Bot on 2019-01-15T01:43:19.150Z
+
+
+### Can reproduce.
+can reproduce, macos 10.14.3, Chrome Version 71.0.3578.98
+
+Action Potential#4040 - Bug Bot on 2019-01-15T01:43:24.255Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803  Google Chrome Version 71.0.3578.98
+
+Spooker#0001 - Bug Bot on 2019-01-15T23:06:43.889Z
+
+
+### Can Not Reproduce: Teams can no longer be deleted if they have applications associated with them, https://fox.girlsare.life/5o7hzs4.png - Also, the Application Tab no longer has a Dropdown Menu to select different teams.
+
+Windows 10 Pro x64, Chrome Version 75.0.3770.100 (64-bit)
+Moving to Claimed Fixed. - Aeria on 2019-07-12T16:41:40.850Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-07-12T16:41:47.225Z
+
+
+### Cannot reproduce with MacBook Pro 13" (2016) running macOS Mojave 10.14.5 and Safari Version 12.1.1.
+
+Moving to Verified Fixed list. - Pascal on 2019-07-18T15:15:22.414Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Pascal on 2019-07-18T15:15:28.655Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

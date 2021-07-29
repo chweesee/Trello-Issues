@@ -1,0 +1,82 @@
+[Archived] When clicking "instant invite" from an invalid invite, it actually leads you to the invite screen and posts a blank discord.gg when you select someone. (https://trello.com/c/bxNmoM1r)
+
+None
+
+Created: 2018-11-27T06:18:21.410Z
+Latest Update: 2020-01-17T11:26:32.616Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- Create a quick server, and send an invite to someone's DM. 
+- Delete that server, and go back to the DM. 
+- Then, you will see an invalid invite with "Create instant invite". Press it. 
+- It should lead you to the invite screen. Select someone and send it. 
+- Go to the DMs of that user you just selected.
+
+####Expected result:
+If it fails to generate an invite, it shouldn't even generate one.
+####Actual result:
+It generates a blank
+####Client settings:
+Discord Alpha 8.0.0
+####System settings:
+LG Fortune, Android 6.0.1
+
+23663
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-27T06:18:21.410Z
+
+
+### Hole#0001 - https://youtu.be/Yn3Pe3lAuPY added by Bug Bot on 2018-11-27T06:18:23.762Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1, Alpha 8.0.0
+
+Enbaus#2948 - Bug Bot on 2018-11-27T06:18:28.721Z
+
+
+### Can reproduce.
+Can reproduce on Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H with Discord Alpha 8.0.1
+
+problem#0001 - Bug Bot on 2018-11-27T06:18:38.710Z
+
+
+### Dupe/Extension of https://trello.com/c/uKkCqIV0
+
+Alex1304#9704 - Bug Bot on 2018-11-27T07:28:50.913Z
+
+
+### dupe below.  - Clayton on 2018-11-28T05:16:03.050Z
+
+
+### Archived by Clayton on 2018-11-28T05:16:05.462Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 Active, Nougat 7.0, Discord 8.0.6
+
+ꌩꅏꌗᖘ#6304 - Bug Bot on 2018-12-01T11:09:35.790Z
+
+
+### Can reproduce.
+Samsung Galaxy A5 Android Version 8.0 Discord alpha 10.2.3
+
+Michael L.#2001 - Bug Bot on 2020-01-17T10:45:15.966Z
+
+
+### Can reproduce.
+Ipad4 iOS 13.3.3 discord 3.1.9
+
+Michael L.#2001 - Bug Bot on 2020-01-17T11:26:32.628Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

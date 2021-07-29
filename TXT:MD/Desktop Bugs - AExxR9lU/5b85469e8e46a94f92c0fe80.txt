@@ -1,0 +1,80 @@
+[Archived] On macOS, adding Discord as a login item and checking the "Hide" box doesn't hide Discord upon restart. (https://trello.com/c/eaTfDf1k)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-28T12:57:03.058Z
+Latest Update: 2019-08-13T15:30:51.799Z
+
+Reported by desu#6096
+
+####Steps to reproduce:
+- Open System Preferences 
+- Open "Users & Groups" 
+- Click "Login Items" 
+- Add Discord 
+- Check "Hide" next to Discord 
+- Reboot 
+- Notice that Discord still pops up during login
+
+####Expected result:
+Discord should open at login, but hidden, and should remain so until clicked.
+####Actual result:
+Discord pops up after rebooting, instead of opening silently in the background.
+####Client settings:
+Release Channel: stable, Build Number: 22658
+####System settings:
+macOS Sierra (10.12.6)
+
+18543
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-28T12:57:03.058Z
+
+
+### Can reproduce.
+Can reproduce. MacBook Pro 13" 10.13.6, Stable 22658
+
+Alfie#1582 - Bug Bot on 2018-08-28T12:57:10.501Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Canary Build 22665
+
+Pascal#0929 - Bug Bot on 2018-08-28T12:57:15.541Z
+
+
+### Can reproduce.
+CR. Desktop Canary 22333, iMac macOS High Sierra 10.13.6
+
+George#0069 - Bug Bot on 2018-08-28T12:57:20.614Z
+
+
+### verified, macos 10.12.6, canary 22665 - Clayton on 2018-08-29T01:34:15.742Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-29T01:34:22.397Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:53.433Z
+
+
+### Can reproduce.
+MacBook Pro (15-inch, 2017); macOS Mojave - Version 10.14.3 ; Discord Stable; Build Number: 31115
+
+jspp#2579 - Bug Bot on 2019-01-24T23:45:43.453Z
+
+
+### Unarchived by Bug Bot on 2019-01-25T00:00:06.130Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:51.812Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

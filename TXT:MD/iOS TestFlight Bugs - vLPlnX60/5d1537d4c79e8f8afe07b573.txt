@@ -1,0 +1,142 @@
+[Archived] [iOS 13 specific] Discord App cannot load camera while video-calling. (https://trello.com/c/9zjP1qNX)
+
+P1 - Severe
+
+Created: 2019-06-27T21:40:36.987Z
+Latest Update: 2019-10-18T06:00:29.723Z
+
+Reported by Baddles#3497
+
+####Steps to reproduce:
+- Be on iOS 13 
+- Video Call with someone on DM/Friends list.
+
+####Expected result:
+Can video call normally.
+####Actual result:
+Even though the app already had access to cameras, it will infinite loop trying to load the camera to video call.
+####Client settings:
+TestFlight 3.0.4 (15841)
+####System settings:
+iPhone 6s, iOS 13 developer beta 2.
+
+37885
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-27T21:40:36.987Z
+
+
+### Can reproduce.
+Can Reproduce - TestFlight 3.0.5 (15973) iPhone 6s iOS 13 Dev Beta 2
+
+Rashaun#8467 - Bug Bot on 2019-06-27T21:40:44.661Z
+
+
+### Can reproduce.
+Can reproduce on iPhone XS Max running iOS 13 Dev Beta 2 on iOS TF 3.0.5 (15973).
+
+Ghoul#0003 - Bug Bot on 2019-06-27T21:40:49.579Z
+
+
+### Can reproduce.
+iPhone 6s iOS 13 (Public Beta) testflight 3.0.5 (15973)
+
+GlenMerlin#2119 - Bug Bot on 2019-06-27T21:40:54.597Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13.0 (17A5508m) - TestFlight 3.0.5 (15973)
+
+Isabel#0002 - Bug Bot on 2019-06-27T21:41:00.673Z
+
+
+### Can reproduce.
+Can repro, iPhone 7, iOS 13 (Public Beta) , TestFlight 3.0.5 (15973)
+
+ryan#0570 - Bug Bot on 2019-06-27T21:41:56.643Z
+
+
+### Can reproduce.
+iPhone 6s iOS 12.3.1 - TF 3.0.5 (15973)
+
+Jasοn#7914 - Bug Bot on 2019-06-28T01:08:45.405Z
+
+
+### I did -i by accident I am on iOS 13 Public Beta
+
+Jasοn#7914 - Bug Bot on 2019-06-28T01:09:44.069Z
+
+
+### Severe if not fixed by iOS 13 - Jonathan Wu on 2019-07-02T01:29:20.800Z
+
+
+### Moved from New Issues to iOS 13 by Fanghao on 2019-07-02T06:16:03.769Z
+
+
+### Can reproduce.
+iPad Air 2 - iPadOS 13 db3 - Testflight 3.0.6 (16208)
+
+real jake#7049 - Bug Bot on 2019-07-13T14:38:52.100Z
+
+
+### Can reproduce.
+iOS 13 Public Beta, iPhone Xr
+
+Jon180018#4250 - Bug Bot on 2019-07-25T01:45:14.792Z
+
+
+### Can reproduce.
+iPhone XR, iOS 13.0 Public Beta, Testflight 3.0.8
+
+Kokichi#4464 - Bug Bot on 2019-07-28T17:13:04.799Z
+
+
+### Can reproduce.
+iPhone X, iOS 13.0 (Dev Beta 5), TestFlight 3.0.10 (16641)
+
+Keons#0001 - Bug Bot on 2019-08-03T02:40:21.238Z
+
+
+### Can reproduce.
+iOS13.1 iPhone XS Max
+
+GrantLOG#2769 - Bug Bot on 2019-08-29T23:31:28.222Z
+
+
+### Moved from iOS 13 to Fix made, not yet released by Fanghao on 2019-09-14T02:26:31.293Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Pascal on 2019-09-17T17:48:46.799Z
+
+
+### Can't reproduce.
+iPhone X, iOS 13.1 (dev beta 3) - TestFlight 3.1.3 (17314)
+
+Xylium#5800 - Bug Bot on 2019-09-17T17:55:16.463Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 13.1 (Developer Beta 3), TestFlight 3.1.3 (17314)
+
+username#6666 - Bug Bot on 2019-09-17T17:56:36.914Z
+
+
+### Can't reproduce.
+ Cannot reproduce anymore, iPhone 7 Plus ios 13, TestFlight 3.1.3 (17314)
+
+Action Potential#6862 - Bug Bot on 2019-09-18T05:38:30.710Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-09-18T05:38:31.011Z
+
+
+### Archived by Bug Bot on 2019-10-18T06:00:29.740Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,71 @@
+Stream will infinitely load or show black screen when starting from outside a voice channel (https://trello.com/c/nSjQ1thF)
+
+Investigating
+
+Created: 2019-04-27T20:57:06.084Z
+Latest Update: 2019-06-18T17:48:33.541Z
+
+Steps to Reproduce:
+ - Have a game running with game activity
+ - Press the "Start Streaming" icon in the bottom left
+ - Select a voice channel and start streaming
+
+Expected Result:
+ - The stream will start as usual in the voice channel.
+
+Actual Result:
+ - You join the voice channel, but the stream never starts. It's either a black screen or loads infinitely.
+
+Card Log
+========
+### Added by Solo on 2019-04-27T20:57:06.084Z
+
+
+### Screenshot_11.png - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5cc4c22208690e805a673ea8/10468c418b8816ee1c423d7c1a0ab9ee/Screenshot_11.png added by Solo on 2019-04-27T20:59:02.829Z
+
+
+### Can reproduce
+
+Canary 0.0.235 (Build 36529), Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547) - Boruto on 2019-04-27T21:03:09.274Z
+
+
+### Can reproduce,
+Windows 10 Home x64 (1809), Canary 36529 - TheForbiddenAi on 2019-04-27T21:03:51.066Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by TheForbiddenAi on 2019-04-27T21:03:54.364Z
+
+
+### Can Reproduce
+
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 36529 - Isabel Lomas on 2019-04-27T21:06:54.861Z
+
+
+### Moved from Tested Bugs to Claimed Fixed, Needs Verification by Athena Yao on 2019-05-04T00:32:21.477Z
+
+
+### Moved from Claimed Fixed, Needs Verification to Tested Bugs by Athena Yao on 2019-05-04T00:32:27.455Z
+
+
+### Moved from Tested Bugs to Claimed Fixed, Needs Verification by Athena Yao on 2019-05-11T06:12:30.771Z
+
+
+### CR
+Canary 37921, Windows 10 Home x64 (1809) - TheForbiddenAi on 2019-05-17T21:15:20.912Z
+
+
+### Still can reproduce Canary 38594 Win 10 Pro x64 v1903 18898.1000 - webhp on 2019-05-27T18:37:59.420Z
+
+
+### Moved from Claimed Fixed, Needs Verification to Tested Bugs by webhp on 2019-05-27T18:38:13.732Z
+
+
+### Moved from Tested Bugs to Claimed Fixed, Needs Verification by Athena Yao on 2019-06-18T17:48:33.526Z
+
+List
+====
+Claimed Fixed, Needs Verification
+
+Members
+=======
+None

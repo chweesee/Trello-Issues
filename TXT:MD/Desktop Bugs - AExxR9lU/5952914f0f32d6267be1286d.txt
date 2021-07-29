@@ -1,0 +1,72 @@
+[Archived] New lines don't work for the chat plugin in Discord StreamKit Overlay (https://trello.com/c/XY7Lomrh)
+
+None
+
+Created: 2017-06-27T17:09:35.202Z
+Latest Update: 2017-10-17T21:10:15.400Z
+
+Reported by Dru#7700
+
+####Steps to reproduce:
+- go to <https://streamkit.discordapp.com/overlay> and authorize StreamKit 
+- add a Chat Widget, or simply preview it in the given window (Ignore secondary bug where the server/channel addition list gets somewhat blocked by the big 'Off' slider) 
+- Enter added chat room and create a text with two lines
+
+####Expected result:
+It shows as two lines in the overlay
+####Actual result:
+It prints everything as one line
+####Client settings:
+Discord Canary 0.0.157
+####System settings:
+Windows 10 https://streamkit.discordapp.com/overlay Pro
+
+1912
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-27T17:09:35.202Z
+
+
+### Dru#7700 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5952914f0f32d6267be1286d/ee96859f5fac286e1ee7b7792e1e75c4/DQTiTU2.png added by Bug Bot on 2017-06-27T17:09:37.803Z
+
+
+### Dru#7700 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5952914f0f32d6267be1286d/bd90720de0698ddbec805d8da30bf0ca/OUuBBBu.png added by Bug Bot on 2017-06-27T17:09:37.964Z
+
+
+### Can reproduce.
+CR on Windows 10 pro (1703) (Canary 0.0.157)
+
+HasanBrandsXD#4120 - Bug Bot on 2017-06-27T17:09:39.645Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Creators Update and Canary 0.0.157
+
+Mippy#1483 - Bug Bot on 2017-06-27T17:09:41.667Z
+
+
+### Can reproduce.
+ Windows 10 x64 Creator's Update Canary 0.0.157
+
+Mikesky#3456 - Bug Bot on 2017-06-27T17:09:43.642Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Shadi Isber on 2017-06-27T20:19:43.736Z
+
+
+### Not a bug.  People would be able to put like 5 new lines and make the whole chat blank.  Not a good feature to have. - Shadi Isber on 2017-06-27T20:20:17.084Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:10:14.395Z
+
+
+### Archived by Jared on 2017-10-17T21:10:15.403Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

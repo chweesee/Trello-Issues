@@ -1,0 +1,206 @@
+Memory leaks occur every time you click on channels with unread messages [Resubmit of VF Bug] (https://trello.com/c/yYPn1zdZ)
+
+None
+
+Created: 2019-01-02T01:10:41.810Z
+Latest Update: 2019-06-03T12:59:59.165Z
+
+Reported by SuperSajuuk#0001
+
+####Steps to reproduce:
+- Open Task Manager. 
+- Open Discord. 
+- Find a server with unread messages. 
+- Click a channel which has unread messages (even if there are none there). 
+- Observe memory usage in Task Manager.
+
+####Expected result:
+Going to any channel would keep memory at nominal levels of 250MB.
+####Actual result:
+Even if you don't mark the channel read, clicking unread channels increases memory by 8-10MB for every message that was posted into the channel. This continues until your client crashes.
+####Client settings:
+Canary 0.0.226 (Build 30317)
+####System settings:
+Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547)
+
+25461
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-02T01:10:41.810Z
+
+
+### SuperSajuuk#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c2c0f91690c5c86b3ae878d/24b6a7115110b483a77fcbfe4f288cbf/CanaryMemUsage.png added by Bug Bot on 2019-01-02T01:10:44.279Z
+
+
+### Can reproduce.
+Discord Canary 0.0.226 (30317) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2019-01-02T01:10:49.184Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 x64 - Discord Canary 0.0.226 Build 30317
+
+webhp#1337 - Bug Bot on 2019-01-02T01:10:54.238Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 30317
+
+Xylium#5800 - Bug Bot on 2019-01-02T01:10:59.146Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.226 Build 30317
+
+Daffyduck#5364 - Bug Bot on 2019-01-02T01:11:01.574Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Version: 1803; Build: 17134.472; Desktop Canary, 30317
+
+Sosig#0001 - Bug Bot on 2019-01-02T01:11:12.797Z
+
+
+### Can reproduce.
+Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 30317
+
+Longinus#0293 - Bug Bot on 2019-01-02T01:13:02.585Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 30317
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-02T01:13:41.638Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 30302
+
+HarpMiner#2734 - Bug Bot on 2019-01-02T01:53:28.124Z
+
+
+### Can reproduce.
+<device information>
+
+Max04062000#0001 - Bug Bot on 2019-01-02T03:57:11.240Z
+
+
+### Can reproduce.
+Windows 10 Home, 64 bits (1803) - Discord Canary build  0.0.226 (30317)
+
+Max04062000#0001 - Bug Bot on 2019-01-02T03:58:18.870Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 30317
+
+charleskimbac#6492 - Bug Bot on 2019-01-02T07:33:51.282Z
+
+
+### Can reproduce.
+win 10 pro x64 , Canary 30317
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-02T12:52:33.176Z
+
+
+### Can reproduce.
+Windows 10 x64 v1809, Discord Canary 30317
+
+Haru💗#6660 - Bug Bot on 2019-01-02T14:00:37.114Z
+
+
+### Can reproduce.
+Windows 10 Pro, Discord Canary 30317
+
+1Storm#0001 - Bug Bot on 2019-01-02T14:37:58.691Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2019-01-02T17:18:11.530Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro x64 - Discord Canary 30317
+
+dragiceviccv#1312 - Bug Bot on 2019-01-02T19:36:59.459Z
+
+
+### Can reproduce.
+Windows 10 Home x64 build 17763.xxx happens 8/10 times
+
+a cat#5379 - Bug Bot on 2019-01-03T00:25:54.676Z
+
+
+### Just to update: the code that caused the memory leak was live for less than 24 hours and was pulled ~2 weeks ago. We're continuing to work on this problem though because we'd like to fix the underlying problem. - Joey Baker on 2019-01-11T18:46:05.386Z
+
+
+### We're continuing to work on the underlying issue, but this is no longer happening on any of the clients, so I'm going to close this. - Joey Baker on 2019-01-14T19:08:30.176Z
+
+
+### Moved from Notable Issues to Verified Fixed by Joey Baker on 2019-01-14T19:08:37.128Z
+
+
+### Archived by Bug Bot on 2019-02-13T19:30:27.594Z
+
+
+### Unarchived by Clayton on 2019-02-26T21:31:34.863Z
+
+
+### Moved from Verified Fixed to Reopened by Clayton on 2019-02-26T21:31:39.303Z
+
+
+### Can reproduce.
+Memory leaks seem to have been occuring as of recently again, got upto roughly 1gb of RAM usage through regular use - Windows 10 x64 v1809, Discord Canary 32668
+
+Harutato🌟#6660 - Bug Bot on 2019-02-26T21:33:01.156Z
+
+
+### **Additional Information:**
+I've talked with Icy regarding this ticket. This was allowed to be re-opened which is an exception even though it was Verified Fixed and archived.
+
+When this bug gets fixed again, and it lands in Verified Fixed. Instead of the 30 days with no activity then archive, we will be doing **60** days instead. This was agreed upon. - Ghoul on 2019-02-26T21:36:25.374Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Discord Canary 33117
+
+jedi3#0001 - Bug Bot on 2019-03-02T22:46:57.984Z
+
+
+### Can reproduce.
+Windows 10 Home (1809) - Discord Canary 33117
+
+Ultimus#0001 - Bug Bot on 2019-03-03T20:30:19.090Z
+
+
+### Can reproduce.
+Mac OS mojave 10.14 Macbook air 11 '14 -- Discord Canary 34132
+
+Superuser#1958 - Bug Bot on 2019-03-19T00:10:03.472Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Version 1903 Build 18362.30, Canary 38674
+
+Noxillio#0001 - Bug Bot on 2019-05-29T17:14:54.831Z
+
+
+### Can reproduce.
+Windows 8.1, Stable 38594
+
+Marcel#0910 - Bug Bot on 2019-05-29T17:17:11.212Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary Build 38967
+
+canelex_#1899 - Bug Bot on 2019-06-03T12:59:59.173Z
+
+List
+====
+Reopened
+
+Members
+=======
+Unknown User (https://trello.com/joeybaker9) - No Bio

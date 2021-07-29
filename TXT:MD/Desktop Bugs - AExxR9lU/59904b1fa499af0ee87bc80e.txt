@@ -1,0 +1,70 @@
+[Archived] The message bar styling is broken (https://trello.com/c/K1leGqMd)
+
+P2: Fix can wait a while
+
+Created: 2017-08-13T12:50:39.982Z
+Latest Update: 2017-10-17T00:57:58.924Z
+
+Reported by Shadow Link#8475
+
+####Steps to reproduce:
+- Open Discord in Chrome, observe the message bar height. 
+- Open Discord in Firefox, observe the message bar height. Start typing until text reaches the Emoji picker right before it starts to flow into a new line. The bar height now changes to the proper height. 
+- Open Discord in Chrome. Type some text, or paste a large amount of text until the scroll bar appears. Observe that the scroll bar is thin and is not obscured by the Emoji picker. 
+- Open Discord in Firefox. Type some text, or paste a large amount of text until the scroll bar appears. Observe that the scroll bar obscured by the Emoji picker.
+
+####Expected result:
+The message bar height should be the same height on all browsers, and the scrollbars should have the proper styling to not be obscured by the Emoji picker.
+####Actual result:
+The bar by default is taller in Firefox compared to other browsers. There is no styling on the scrollbar in Firefox (compared to the message history scroll bar, or other panels)
+####Client settings:
+Build Number: 3183
+####System settings:
+Windows, Firefox 54.0.1
+
+3135
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-13T12:50:39.982Z
+
+
+### Can reproduce.
+Can reproduce - Windows, firefox 54.0.1 - Discord v0.0.298 (web)
+
+Tobias#5233 - Bug Bot on 2017-08-13T12:50:47.857Z
+
+
+### Can reproduce.
+CR, Google Chrome 60.0, FireFox 55.0.1, Discord 0.0.154, MacOS 10.12.6, Macbook Pro
+
+Nelson1348#9190 - Bug Bot on 2017-08-13T12:50:52.752Z
+
+
+### Can reproduce.
+CR, Windows 10 home x64, Firefox 54.0.1 , Discord v0.0.298 (Web Version)
+
+Killer Miller#1914 - Bug Bot on 2017-08-13T12:50:57.783Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64-bit - Firefox 54.0.1 - Discord Stable (Web) B.N: 3183
+
+Starsky#7861 - Bug Bot on 2017-08-13T13:22:26.732Z
+
+
+### Message bar height is dupe of: https://trello.com/c/lV4rOHLj/880-the-chat-bar-is-bigger-than-usual-http-iimgurcom-f0oyhzipng, Emoji part is new - Clayton on 2017-08-14T20:08:05.244Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-14T20:08:14.013Z
+
+
+### Archived by Jared on 2017-10-17T00:57:58.927Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,141 @@
+[Archived] [iPhone only] Forgot your password button shows just an "OKAY" button at top of the screen. (https://trello.com/c/5sXoEYVe)
+
+P2 - Can wait a while,
+low
+
+Created: 2017-10-05T22:23:38.502Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Log out of your own account.
+- Click on Login
+- Put in a random email address (ex. johnthecat0293290@randomemail.com or something related to that.)
+- Click on Forget Password 
+####Expected result:
+A button with the text "OKAY" appears at the top of the screen.
+####Actual result:
+The full pop up explaining that the email as been sent should appear.
+####Client settings:
+TestFlight 1.9.2 (953)
+####System settings:
+iPhone 6S with iOS 11.0.2
+
+5122
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-05T22:23:38.502Z
+
+
+### Ten 🎃#1723 - undefined added by Bug Bot on 2017-10-05T22:23:41.274Z
+
+
+### Can reproduce.
+Always happens right after you tap Forgot Your Password? with an email in the field and then pressing Okay, and then tapping Forgot Your Password? again. You'll see the word "Login" change to a loading circle but does nothing. iOS 11.0.1 (15A402), iPhone 6, Testflight 1.9.2 (953)
+
+Ten 🎃#1723 - Bug Bot on 2017-10-05T22:23:45.944Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 11.0.2, TF 1.9.2 (953)
+
+iAmaury#9979 - Bug Bot on 2017-10-05T22:23:50.909Z
+
+
+### Can reproduce.
+iPhone 6S Plus, iOS 11.1 > TestFlight 1.9.2 (Build 953)
+
+Ben#4331 - Bug Bot on 2017-10-05T22:23:55.937Z
+
+
+### May possibly be a cool down feature to prevent people from requesting to many password recovery emails.
+
+Ben#4331 - Bug Bot on 2017-10-05T22:28:25.901Z
+
+
+### I can't reproduce this, but I am seeing this https://cdn.discordapp.com/attachments/169562072743542784/373209011484360744/image.png
+
+so... yeah? - Jared on 2017-10-26T20:39:46.302Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-10-26T20:39:50.941Z
+
+
+### ​I was able to reproduce, steps provided by Ghoulish-Nightmare#4567: 
+
+- Log out of your own account.
+- Click on Login
+- Put in a random email address (ex. johnthecat0293290@randomemail.com or something related to that.)
+- Click on Forget Password (It'll show an Okay button on the top) 
+- If it gives you the "Okay" button, just click on it then repeat the previous step. You will find that the 'Forget Password' button isn't always functional. You will have to repeat that at least 5 or 10 times, as well observe it
+
+Discord 1.9.3 (1340), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-28T09:04:48.485Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-10-28T09:06:11.976Z
+
+
+### Assuming that the "OKAY" button that appears is intended to be the forgot password notification, I'd say that it's erroring, probably getting rate limited, which would make this bug invalid.  However, the OKAY button thing is absolutely 100% a bug that needs to get fixed and I'm pretty disappointed that it hasn't been. - Jared on 2017-11-06T22:11:45.146Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-06T22:15:49.367Z
+
+
+### The "Okay" button broke two weeks ago as part of an unrelated change. I've fixed it but it's being bundled with a few other changes that involve the login screen so it'll come in due time. - Michael Fong on 2017-11-06T22:20:48.362Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Michael Fong on 2017-11-06T22:20:54.844Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Michael Fong on 2017-11-16T00:14:32.518Z
+
+
+### I can no longer reproduce, the entire pop up is displayed now.
+
+Discord 2.0.1 (1610), iOS 11.1.1, iPhone 8 Plus - Alexandru Todea on 2017-11-16T04:26:33.225Z
+
+
+### Can't reproduce.
+iPhone 6 10.3.2 TestFlight 2.2.1 (2236)
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T18:28:58.285Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T22:00:16.358Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-26T22:23:27.589Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T02:08:22.583Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:28:29.594Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:28:32.953Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T08:56:27.865Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T08:56:28.915Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/meishuu) - No Bio

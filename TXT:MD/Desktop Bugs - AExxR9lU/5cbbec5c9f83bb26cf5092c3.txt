@@ -1,0 +1,186 @@
+[Archived] Icons in the server list only briefly flash the hover over animation when you slowly move your cursor in from the right side. (https://trello.com/c/jAA5F06Q)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-04-21T04:06:52.918Z
+Latest Update: 2019-08-03T04:00:46.274Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- IF YOU ARE HAVING TROUBLE: Change your zoom level to 90 and your font scaling to 100. 
+- Slowly hover your cursor over an icon or button in your server list from the right side. 
+- Please try multiple times.
+
+####Expected result:
+The hover animation should play and the tooltip should show.
+####Actual result:
+The animation and tooltip only briefly flash before going back as if it's not being hovered over.
+####Client settings:
+Canary 36128
+####System settings:
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226)
+
+33150
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-21T04:06:52.918Z
+
+
+### Isabel#0002 - https://youtube.com/watch?v=g21HedATztw added by Bug Bot on 2019-04-21T04:06:55.457Z
+
+
+### Can reproduce.
+Can reproduce. I was able to reproduce this a couple times on 100 zoom and 100 font scale as well but it was random. Much more reliably reproducible on 90 zoom. Windows 10 Home x64 (1809), Canary 36128
+
+Solo#0007 - Bug Bot on 2019-04-21T04:07:00.323Z
+
+
+### Can reproduce.
+Can reproduce on 90/100. MacBook Pro (15 inch - 2017), macOS Mojave 10.14.5 Beta (18F108f), Canary 36128
+
+LatencyPain#7893 - Bug Bot on 2019-04-21T04:07:05.442Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Discord Canary 36128 - Got it on the first couple tries, but its not just slow, you have to be very slow in order to get it to happen, 90 zoom/100 font scaling
+
+jedi3#0001 - Bug Bot on 2019-04-21T04:07:10.360Z
+
+
+### Can reproduce.
+CR on 90/100 zoom. Windows 10 Pro x32, Canary 36128
+
+Karasu#0013 - Bug Bot on 2019-04-21T04:08:48.840Z
+
+
+### Can reproduce.
+Windows 10 Home (x64) - Canary (36128)
+
+gianna#0248 - Bug Bot on 2019-04-21T04:18:45.318Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 36128
+
+Clay#0001 - Bug Bot on 2019-04-21T06:13:48.592Z
+
+
+### Can reproduce.
+CR; macOS High Sierra, Version: 10.13.6 - Canary 0.0.217 (36128)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-04-21T06:15:18.798Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 36128
+
+Pain#2020 - Bug Bot on 2019-04-21T07:17:02.220Z
+
+
+### Can reproduce.
+Intel® Braswell Chromebook ~ Chrome 72.0.3626.122 (x64) ~ Canary 36128
+
+Casper#9999 - Bug Bot on 2019-04-21T07:35:04.110Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro 2017 (13" w/touchbar) - macOS Mojave 10.14.3 - Discord Canary 36128
+
+CustomName#9999 - Bug Bot on 2019-04-21T10:42:01.887Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.234 Build 36128
+
+Daffyduck#5364 - Bug Bot on 2019-04-21T11:20:35.530Z
+
+
+### Can reproduce.
+Win10 1809 - Canary 36128
+
+Cubity_First#0001 - Bug Bot on 2019-04-21T11:59:04.151Z
+
+
+### Moved from User Reported Bugs to Redesign Bugs by Tarek on 2019-04-21T12:03:52.068Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 36128
+
+Xylium#5800 - Bug Bot on 2019-04-21T13:47:22.745Z
+
+
+### Can reproduce.
+Canary: 36128, Host 0.0.234, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-04-21T14:55:26.943Z
+
+
+### Can reproduce.
+Windows 10 pro x64 Canary 36128
+
+Entropy#4499 - Bug Bot on 2019-04-21T19:45:49.277Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 36128
+
+Rage#9991 - Bug Bot on 2019-04-21T22:19:42.626Z
+
+
+### Leaving as a note to myself - this is a bug caused by the new tooltips code. - Amadeus on 2019-04-22T00:09:13.228Z
+
+
+### This is a bug in our new tooltips api - and will be fixed later - Amadeus on 2019-04-22T22:35:19.996Z
+
+
+### Moved from Redesign Bugs to User Reported Bugs by Amadeus on 2019-04-22T22:42:32.729Z
+
+
+### Cannot reproduce anymore on Canary 39387, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-06-09T07:24:42.824Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Ene on 2019-06-09T07:24:46.113Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Mid-2012), macOS v10.14.5 (18F132)
+
+Isabel#0002 - Bug Bot on 2019-06-09T07:24:59.813Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Mid-2012), macOS v10.14.5 (18F132) - Canary 39387
+
+Isabel#0002 - Bug Bot on 2019-06-09T07:25:23.862Z
+
+
+### Can't reproduce.
+macos 10.14.6, canary 39387
+
+OrangeM24#5746 - Bug Bot on 2019-06-09T07:41:05.402Z
+
+
+### Can't reproduce.
+-m, Canary 39387
+
+myacorn#6534 - Bug Bot on 2019-06-09T08:17:20.052Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-06-09T08:17:20.345Z
+
+
+### Archived by Bug Bot on 2019-08-03T04:00:46.287Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

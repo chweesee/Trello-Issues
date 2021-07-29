@@ -1,0 +1,73 @@
+can not start linux client on user session 2 after launching it on user session 1 and login out (https://trello.com/c/reTrUQpl)
+
+P3: Will eventually be fixed
+
+Created: 2017-08-16T21:00:23.582Z
+Latest Update: 2018-04-24T20:00:47.952Z
+
+Reported by Yuukugami#0998
+
+####Steps to reproduce:
+- log in user session 1 
+- launch linux client 
+- logout of user session 1 without manually closing discord 
+- log in user session 2 
+- launch linux client
+
+####Expected result:
+the client starts normally
+####Actual result:
+client crashes with exception "Uncaught exception: Error: EPERM: operation not permitted, unlink '</tmp/discord.sock>' at <Object.fs.unlinkSync> <(fs.js:1007:18>) at deleteSocketFile <(/usr/share/discord/resources/app.asar/singleInstance.js:34:20>) at listenForArgumentsFromNewProcess <(/usr/share/discord/resources/app.asar/singleInstance.js:54:3>) at Socket.<anonymous> <(/usr/share/discord/resources/app.asar/singleInstance.js:105:18>) at emitOne <(events.js:96:13>) at <Socket.emit> <(events.js:188:7>) at emitErrorNT <(net.js:1281:8>) at \_combinedTickCallback <(internal/process/next_tick.js:74:11>) at process.\_tickDomainCallback <(internal/process/next_tick.js:122:9>)"; in /tmp, <discord.sock> created by user session 1 is still here
+####Client settings:
+Desktop linux, public version 0.0.2
+####System settings:
+Debian 9 stable with Cinnamon
+
+3169
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-16T21:00:23.582Z
+
+
+### Can reproduce.
+arch linux Canary 0.24
+
+Alex from Alaska#9760 - Bug Bot on 2017-08-16T21:00:30.923Z
+
+
+### Can reproduce.
+Fedora 26, Gnome 3 Discord Canary 0.0.24
+
+hanss314#0128 - Bug Bot on 2017-08-16T21:00:35.925Z
+
+
+### Can reproduce.
+Mint 18 Cinnamon x64 canary 0.0.24 Build 3241
+
+Mikesky#3456 - Bug Bot on 2017-08-16T21:00:40.956Z
+
+
+### killall discord; discord is a good workaround
+
+GNUGradyn(っ◔◡◔)っ#1882 - Bug Bot on 2017-08-20T13:39:49.522Z
+
+
+### Can reproduce.
+Discord 0.0.2 Arch linux build 4906
+
+GNUGradyn(っ◔◡◔)っ#1882 - Bug Bot on 2017-09-28T04:46:43.059Z
+
+
+### Cannot reproduce.  - Clayton on 2018-01-09T23:15:10.736Z
+
+
+### Moved from User Reported to Cannot Reproduce. by Clayton on 2018-01-09T23:15:14.685Z
+
+List
+====
+Cannot Reproduce.
+
+Members
+=======
+None

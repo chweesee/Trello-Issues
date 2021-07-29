@@ -1,0 +1,72 @@
+[Archived] Server icons move at inconsistent speeds depending on where they are (https://trello.com/c/w7s41kIN)
+
+P3 - Will be fixed eventually
+
+Created: 2018-11-29T11:09:59.854Z
+Latest Update: 2019-01-31T20:00:18.953Z
+
+Reported by Alfie#1582
+
+####Steps to reproduce:
+- Drag a server icon quickly between the other icons and observe how it moves slower than your finger to allow for the reordering animation 
+- Drag the icon to the top (above the the DM/friends icon and observe that it is delayed, like when moving between other server icons 
+- Drag to the very bottom of the server list and drag over the button to create/join a server and observe how the movement of the icon you're dragging is synchronised with the location of your finger in real time, unlike it was in the previous 2 steps
+
+####Expected result:
+Dragged server icons should move at a consistent speed regardless of where they are
+####Actual result:
+Server icon movement speed varies depending on where the icon is
+####Client settings:
+TestFlight 2.4.0 (8921)
+####System settings:
+iPhone XS Max, iOS 12.1.1 Dev Beta 3
+
+23696
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-29T11:09:59.854Z
+
+
+### Can reproduce.
+iPad Air 1, iOS 12.1 TestFlight 2.4.0 (9349)
+
+zapteryx#6161 - Bug Bot on 2018-11-29T11:10:07.123Z
+
+
+### Can reproduce.
+Can Reproduce, iPad Air 2, iOS 12.0, TestFlight 2.4.0 (9370)
+
+1Storm#0001 - Bug Bot on 2018-11-29T11:10:12.221Z
+
+
+### Can reproduce.
+CR, iPhone 6S iOS 12.0, TF 2.4.0 (9370)
+
+iNeedFire#5609 - Bug Bot on 2018-11-29T11:10:17.166Z
+
+
+### Can reproduce.
+iPhone 7 plus iOS 12.1 test flight 2.4.0   (9370)
+
+sloth_.on._tabasco#0001 - Bug Bot on 2018-11-29T13:33:24.057Z
+
+
+### Can reproduce.
+iPad 5, 12.1 Testflight 2.4.0 (9370)
+
+SoheabMalik#2228 - Bug Bot on 2018-11-30T12:13:11.350Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2018-12-07T19:00:04.457Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:00:18.969Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

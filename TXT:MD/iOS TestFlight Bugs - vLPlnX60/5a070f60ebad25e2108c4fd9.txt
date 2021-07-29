@@ -1,0 +1,73 @@
+[Archived] iOS User Settings -> Text & Images tells that preview upload limit would be 8 MB while Desktop says 10 MB (https://trello.com/c/7tSIeeXi)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2017-11-11T14:55:28.178Z
+Latest Update: 2017-12-23T10:53:24.925Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to your user settings with your iOS device 
+- Open the menu "Text & Images" 
+- Observe the preview upload limit below the option "When uploaded directly to Discord" 
+- Compare it with the Desktop version
+
+####Expected result:
+Both should show 10 MB as preview limit.
+####Actual result:
+iOS shows 8 MB while Desktop says 10 MB.
+####Client settings:
+TestFlight 1.10.0 (1551)
+####System settings:
+iPhone 6s with iOS 11.1.1 & iPad Air 2 with iOS 11.2 PB 2
+
+6294
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-11T14:55:28.178Z
+
+
+### Can reproduce.
+CR, TestFlight 1.10.0 (1551), iOS 11.0.3, iPhone 7
+
+QwakGoesDuck#9672 - Bug Bot on 2017-11-11T14:55:35.475Z
+
+
+### Can reproduce.
+CR, iPhone SE, iOS 10.3.2, TestFlight 1.10.0 (1551)
+
+TimThe#7618 - Bug Bot on 2017-11-11T14:55:40.486Z
+
+
+### Can reproduce.
+CR, iPhone 7 using iOS 11.0.3 (Discord Version 1.9.5) and iPad Mini 2 using iOS 11.0 (Discord Version 1.9.0)
+
+Con#2277 - Bug Bot on 2017-11-11T14:55:45.455Z
+
+
+### Just now realized that images above 8mb won’t embed on iOS, so I think this is actually NAB, sorry dab
+
+QwakGoesDuck#9672 - Bug Bot on 2017-11-12T10:05:35.684Z
+
+
+### Not A bug, desktop has different has a different limit. - Jared on 2017-11-14T00:04:32.461Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-11-14T00:04:37.232Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-23T10:53:22.979Z
+
+
+### Archived by Alexandru Todea on 2017-12-23T10:53:24.928Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

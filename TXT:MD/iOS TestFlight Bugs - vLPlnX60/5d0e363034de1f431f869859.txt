@@ -1,0 +1,120 @@
+[Archived] [iPad only] Switching between apps doesn’t keep your keyboard opened and deletes added text (https://trello.com/c/QtQzwfi0)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2019-06-22T14:07:44.935Z
+Latest Update: 2019-11-04T01:30:30.790Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to any text channel 
+- Send a message 
+- Edit the message and add some text, don‘t save the changes yet 
+- Make sure the keyboard is still opened and the message field selected 
+- Close Discord (do not force close it) 
+- Go back to the Discord app
+
+####Expected result:
+The keyboard shouldn’t disappear and the added text should still be there.
+####Actual result:
+The keyboard gets closed and newly added text disappears.
+####Client settings:
+TestFlight 3.0.4 (15869)
+####System settings:
+iPad Pro, iOS 12.4 (PB 4)
+
+38092
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-22T14:07:44.935Z
+
+
+### Can reproduce.
+iPad Air iOS 12.3.1 TestFlight 3.0.4 (15896)
+
+binchlord#0998 - Bug Bot on 2019-06-22T14:07:52.268Z
+
+
+### Can reproduce.
+CR // Iphone XS Max  12.3.2 // Discord TF 3.0.4
+
+Indiana#6009 - Bug Bot on 2019-06-22T14:07:57.256Z
+
+
+### Can reproduce.
+iPad Air, iOS 12.4 (dev beta 4) - Stable 3.0.4
+
+Xylium#5800 - Bug Bot on 2019-06-22T14:08:02.368Z
+
+
+### **Extension of the issue**
+Additionally the chat scrolls to the bottom (you have to scroll up a bit in message history first) and the channel list to the top channel when coming back to Discord. - Pascal on 2019-06-22T18:48:54.643Z
+
+
+### Can reproduce.
+iPad Air (1st gen), iOS 12.3.1 - TF 3.0.4 (15896)
+
+Nicholas#4669 - Bug Bot on 2019-06-23T00:44:24.345Z
+
+
+### Can reproduce.
+iPad mini 3, iOS 12.3.1, TestFlight Version 3.0.4 (15896
+
+CallMeAlister#0018 - Bug Bot on 2019-06-23T21:55:33.566Z
+
+
+### I forgot a round bracket.
+
+CallMeAlister#0018 - Bug Bot on 2019-06-23T21:58:48.437Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-07-05T19:00:07.729Z
+
+
+### Archived by Bug Bot on 2019-08-13T16:00:04.586Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.4 (17524) with iPad Pro (11-inch) running iPadOS 13.1.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-10-02T06:51:00.256Z
+
+
+### Unarchived by Pascal on 2019-10-02T06:51:03.955Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-10-02T06:51:11.704Z
+
+
+### Can't reproduce.
+iPad Air iPadOS 13.1.2 TestFlight 3.1.4 (17524)
+
+binchlord#0998 - Bug Bot on 2019-10-02T11:02:01.762Z
+
+
+### Can't reproduce.
+CNR, iPad iOS 12.4.2, TestFlight 3.1.4 (17524)
+
+Action Potential#6862 - Bug Bot on 2019-10-04T15:00:41.903Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13.2 (dev beta) - TestFlight 3.1.4 (17575)
+
+Xylium#5800 - Bug Bot on 2019-10-05T01:05:59.330Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-10-05T01:05:59.619Z
+
+
+### Archived by Bug Bot on 2019-11-04T01:30:30.807Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

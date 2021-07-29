@@ -1,0 +1,71 @@
+[Archived] online status dot and typing indicator go away if youre invisible and switch devices (https://trello.com/c/raQZGezK)
+
+P2: Fix can wait a while
+
+Created: 2017-03-17T15:32:25.964Z
+Latest Update: 2017-11-15T18:58:50.522Z
+
+Reported by Harrison#9100
+
+####Steps to reproduce: 
+- go invisible 
+- switch to your phone (or another desktop?) 
+- use Discord on your phone for a few minutes and keep the status as invisible (ie dont change it) 
+- switch back to your computer 
+
+####Expected result:
+ you are invisible and see the grey online status dot on your profile pic on the userlist (ONLY SHOWS FOR YOU) and the typing indicator on your profile picture 
+####Actual result:
+ you are invisible but appear offline even on your screen (no grey online status dot or typing indicator) 
+####System settings:
+ macOS Canary 10.12.3 & iPhone 6 latest iOS/Testflight
+
+2026
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-17T15:32:25.964Z
+
+
+### Can reproduce.
+Canary, Windows 7
+
+3spooky5u#1000 - Bug Bot on 2017-03-17T15:32:26.624Z
+
+
+### Can reproduce.
+ArchLinux, Discord, I can reproduce with going invisible and it'll immediately show up. This must be in a server small enough where you can see offline members.
+
+Kurai#1637 - Bug Bot on 2017-03-17T15:32:28.621Z
+
+
+### Can reproduce.
+Windows 10 latest canary & Nexus 5x alpha v3.5.1
+
+Daan#3356 - Bug Bot on 2017-03-17T15:32:36.806Z
+
+
+### Verified.  - Clayton on 2017-03-22T23:01:50.618Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-03-22T23:01:55.839Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2017-10-04T21:32:32.759Z
+
+
+### This was intentional, so you can see yourself. - Jared on 2017-10-04T21:32:40.218Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T18:58:49.515Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T18:58:50.525Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

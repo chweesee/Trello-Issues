@@ -1,0 +1,98 @@
+[Archived] Discord displays an undefined element button when selecting your last reply in private messages (https://trello.com/c/u3ia1xie)
+
+None
+
+Created: 2018-06-08T01:46:15.023Z
+Latest Update: 2018-08-21T23:48:46.868Z
+
+Reported by Reyo#0200
+
+####Steps to reproduce:
+- Step 1  Message your friend 
+- Step 2 
+- Right click on the message to open the tools and it'll appear.
+
+####Expected result:
+Discord should display the normal edit options
+####Actual result:
+Sort of a construction button that says undefined element class
+####Client settings:
+Discord 0.0.301
+####System settings:
+Win 10 x64
+
+13928
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-08T01:46:15.023Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 16641; also happens when u right-click settings icon (basically any rightclick menu near the bottom of the screen)
+
+Rauf#9245 - Bug Bot on 2018-06-08T01:46:22.568Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (Version 1803), Discord Canary Build 16641 | also occurs in most other right-click context menus, along with the profile when you attempt to edit it
+
+ululu#6460 - Bug Bot on 2018-06-08T01:46:27.579Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 -- Discord PTB 16633
+
+webhp#1337 - Bug Bot on 2018-06-08T01:46:32.566Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home x64 Version 1803 (OS Build 17134.48), Discord Canary 0.0.210 (Build 16641); Worked on Discord Canary 0.0.210 (Build 16581)
+
+HeroGamers#0001 - Bug Bot on 2018-06-08T01:47:42.830Z
+
+
+### Can reproduce.
+(hackintosh) 4770k, 1060 3gb, 8GB 2133MHz
+
+pr3cast#0001 - Bug Bot on 2018-06-08T01:48:50.885Z
+
+
+### This bug is happening in multiple places: 
+- Message Bar
+- Edit Profile 
+- Member List
+- People's options in chat (by right click)
+- Settings 
+- Settings where you select the themes. (box)
+
+This is happening in both light and dark theme, pictures here: 
+https://cdn.discordapp.com/attachments/406337890147237889/454462644452327424/DiscordCanary_2018-06-07_18-52-11.png
+https://cdn.discordapp.com/attachments/406337890147237889/454462291820412940/DiscordCanary_2018-06-07_18-50-46.png
+https://cdn.discordapp.com/attachments/406337890147237889/454462170651033630/DiscordCanary_2018-06-07_18-50-18.png
+https://cdn.discordapp.com/attachments/406337890147237889/454461428867399690/DiscordCanary_2018-06-07_18-47-23.png
+https://cdn.discordapp.com/attachments/406337890147237889/454463626460266507/DiscordCanary_2018-06-07_18-55-57.png
+
+ - Ghoul on 2018-06-08T01:53:09.785Z
+
+
+### I can no longer reproduce this bug as of Discord Canary Build 16649, Version Hash: 8858a9aeb61a313d6bbe574c5c7b72fca4c0ae59 on Windows 10 Home x64 (Version 1803). 
+
+Per SEAPUNK's request, I am moving this bug to Verified Fixed.  - Ghoul on 2018-06-08T02:18:30.704Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Ghoul on 2018-06-08T02:18:41.473Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:48:45.949Z
+
+
+### Archived by Jared on 2018-08-21T23:48:46.870Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

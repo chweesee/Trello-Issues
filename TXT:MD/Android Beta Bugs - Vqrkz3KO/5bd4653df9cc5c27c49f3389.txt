@@ -1,0 +1,105 @@
+[Archived] Opening an in-app notification while Quick Switcher is open doesn't close Quick Switcher (https://trello.com/c/uUZZxEml)
+
+None
+
+Created: 2018-10-27T13:16:45.416Z
+Latest Update: 2019-01-01T23:10:48.529Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Quick Switcher via double-tap on the back button, (otherwise you can't get in-app notifs). Make sure you've set "Back button opens channel drawer" for that. 
+- Get an in-app notification 
+- Open it
+
+####Expected result:
+It should take you to the channel and close QS
+####Actual result:
+It doesnt close QS after redirecting to the channel the in-app notification was from
+####Client settings:
+Discord Alpha 7.8.2
+####System settings:
+Huawei Mate 9 Android 8.0
+
+22231
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-27T13:16:45.416Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.8.2
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-27T13:16:52.740Z
+
+
+### Can reproduce.
+cr, Samsung Galaxy S5 mini, Android 6.0.1, Alpha 782
+
+Nashorn#3450 - Bug Bot on 2018-10-27T13:16:57.754Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8,Android 8.0.0,Discord Alpha 7.8.2 {CR}
+
+Outbøob#6666 - Bug Bot on 2018-10-27T13:17:02.833Z
+
+
+### Can reproduce.
+CR , Redmi 4 , Android 7.1.2 , Discord Alpha 7.8.2
+
+iona Dev#8394 - Bug Bot on 2018-10-27T13:19:38.457Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.8.2
+
+Hole#0001 - Bug Bot on 2018-10-27T18:12:53.674Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 Emerge Android 6.0.1 / Alpha 7.8.2
+
+Purpzie#0001 - Bug Bot on 2018-10-27T18:51:45.982Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 7.8.2
+
+AmirAmani#0102 - Bug Bot on 2018-10-27T18:56:24.612Z
+
+
+### Can reproduce.
+Discord Alpha 7.7.9, Galaxy S8, Android Oreo 8.0.0
+
+Classic#9999 - Bug Bot on 2018-10-28T17:08:26.703Z
+
+
+### Moved from User Reported Bugs to Notification Bugs by Jeff Cailteux on 2018-10-29T16:49:21.307Z
+
+
+### CR, samsung s6 edge, android 7, alpha 7.8.5 - Clayton on 2018-11-02T02:59:19.318Z
+
+
+### Moved from Notification Bugs to Claimed Fixed, needs Verification by Sam Shih on 2018-11-08T05:46:17.762Z
+
+
+### Fixed, and seems like it's confirmed fixed - Sam Shih on 2018-11-08T05:46:37.984Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Sam Shih on 2018-11-08T05:46:44.961Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:10:47.727Z
+
+
+### Archived by Tarek on 2019-01-01T23:10:48.531Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

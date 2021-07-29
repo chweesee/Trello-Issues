@@ -1,0 +1,70 @@
+[Archived] photo deletion when using s/or/of message editing (https://trello.com/c/uBAT6Po3)
+
+P2: Fix can wait a while
+
+Created: 2017-01-31T17:47:48.791Z
+Latest Update: 2017-10-17T20:20:58.246Z
+
+Reported by mralext20#8975
+
+####Steps to reproduce: 
+- post a text message, eg. helo there 
+- post a photo 
+- realize you put a spelling mistake  
+- use s/ message substatution (eg. `s/helo/hello`) 
+-  
+
+####Expected result:
+ original text message is edited 
+####Actual result:
+ photo is deleted and message is edited 
+####System settings:
+ Arch 0.0.15 canary
+
+Card Log
+========
+### Added by Jared on 2017-01-31T17:47:48.791Z
+
+
+### Can reproduce.
+Win 10 Anniversary, Canary Note: Works with any random s/ command even if no text before as long as last line is a picture
+
+Rocks the Squirrel#2134 - Jared on 2017-01-31T17:47:49.335Z
+
+
+### Can reproduce.
+Linux Mint 18.1 x64 MATE, Canary
+
+Khionu#8708 - Jared on 2017-01-31T17:47:51.242Z
+
+
+### Can reproduce.
+Latest Canary
+
+Dabbit Prime#0896 - Jared on 2017-01-31T17:47:53.302Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-31T18:21:00.628Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Michael Peterson on 2017-02-02T01:08:08.506Z
+
+
+### Verified fixed.  - Clayton on 2017-03-08T22:33:35.118Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-03-08T22:33:39.377Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:20:56.550Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:20:58.248Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

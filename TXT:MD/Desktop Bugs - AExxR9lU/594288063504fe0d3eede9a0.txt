@@ -1,0 +1,84 @@
+Delete Message dialog does not show embeds (https://trello.com/c/cdiKlolq)
+
+P2: Fix can wait a while
+
+Created: 2017-06-15T13:13:42.131Z
+Latest Update: 2019-09-23T22:30:07.365Z
+
+Reported by eslachance#4611
+
+####Steps to reproduce:
+- Find message with an embed 
+- Right-click Delete or Three-Dot Delete it 
+- Look at dialog
+
+####Expected result:
+Embeds sent from bots should show, especially if they are the only contents.
+####Actual result:
+Embeds do not show, leaving the message completely blank in some cases.
+####Client settings:
+Canary 0.0.157
+####System settings:
+Windows 10 x64 Creator Update
+
+1668
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-15T13:13:42.131Z
+
+
+### Can reproduce.
+Discord Stable 0.0.297 Windows 10 pro 64-bit Build 1607.
+
+Tarek1337#0379 - Bug Bot on 2017-06-15T13:13:46.663Z
+
+
+### Can reproduce.
+Was able to see this on Rowboat's embeds at the Google Emoji server.  Windows 10 Pro (64-bit), Anniversary Update (Build 1607) on Canary 0.0.157 (build 1538)
+
+SuperSajuuk#7265 - Bug Bot on 2017-06-15T13:13:48.537Z
+
+
+### Can reproduce.
+Desktop Canary 0.0.157 (Build 1538) - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-06-15T13:13:50.574Z
+
+
+### Verified.  - Clayton on 2017-06-15T20:53:30.748Z
+
+
+### Moved from User Reported Bugs to Modal Redesign by Clayton on 2017-06-15T20:53:41.407Z
+
+
+### Does this issue also occur on PTB and Stable? Pretty sure this is always been a bug? - Amadeus on 2017-06-15T21:43:43.157Z
+
+
+### I confirmed that this has been around since before these modals, not related to the update. - Amadeus on 2017-06-16T22:15:07.631Z
+
+
+### Moved from Modal Redesign to Verified Bugs by Amadeus on 2017-06-16T22:15:12.298Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:40:34.795Z
+
+
+### Can reproduce.
+Windows 10 Professional (Build 16299), Discord Canary Build  13963
+
+187#0001 - Bug Bot on 2018-04-20T20:50:26.279Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:44:31.026Z
+
+
+### SweetSofiMC#8821 - https://i.imgur.com/Dy3dSa0.gifv added by Bug Bot on 2018-07-14T05:25:37.818Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

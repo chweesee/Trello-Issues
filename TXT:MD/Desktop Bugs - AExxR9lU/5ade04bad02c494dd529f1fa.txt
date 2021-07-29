@@ -1,0 +1,77 @@
+[Archived] Notification settings for specific channel behaves different than it should be when you assign "all notifications" and mute from right clicking the channel (https://trello.com/c/8d4h7xka)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-23T16:07:22.564Z
+Latest Update: 2018-10-22T20:20:01.423Z
+
+Reported by TheOnlyArtz#5743
+
+####Steps to reproduce:
+- Go to server notifications settings 
+ 
+- Add a channel to notifications overrides
+
+- Click on "all"
+
+- Go to the server
+
+- Right click same channel
+
+- Press mute
+
+- Go to servers notifications again
+
+####Expected result:
+Mute won't be mark in the same time "all notifications" does
+####Actual result:
+Mute and "all notifications" are both checked
+####Client settings:
+Discord canary build 14021
+####System settings:
+Windows pro x64
+
+11177
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-23T16:07:22.564Z
+
+
+### TheOnlyArtz#5743 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ade04bad02c494dd529f1fa/913accf213059c73eda43c227824c02f/JYMFKOc.png added by Bug Bot on 2018-04-23T16:07:25.182Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.3 MacBook Pro (Retina, 15-inch, Mid 2014) , [BUILD INFO] Release Channel: canary, Build Number: 14021, Version Hash: 2495c03bb7409a96edf7658a31a71eab3b72c829
+
+MoonlightCapital#0554 - Bug Bot on 2018-04-23T16:07:29.896Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 (Canary build 14021)
+
+TimThe#1118 - Bug Bot on 2018-04-23T16:07:34.951Z
+
+
+### Can reproduce.
+CR, Windows 7 Home Premium, Canary 14021
+
+mcicu5#7394 - Bug Bot on 2018-04-23T16:07:39.909Z
+
+
+### Verified.  - Clayton on 2018-04-24T22:15:09.805Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-24T22:15:17.000Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:01.426Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

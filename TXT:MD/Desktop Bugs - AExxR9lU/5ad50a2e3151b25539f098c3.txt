@@ -1,0 +1,113 @@
+[Archived] Adding new role while new changes are being saved crashes Discord (https://trello.com/c/K9JYj1Nm)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-04-16T20:40:14.425Z
+Latest Update: 2018-10-22T20:19:45.211Z
+
+Reported by Kao#0001
+
+####Steps to reproduce:
+- Go to roles menu in server settings 
+- Make changes, preferrably a lot of new roles 
+- Hit save button 
+- While it's still saving, try to add a new role
+
+####Expected result:
+New role doesn't get added and is stopped by the save dialog
+####Actual result:
+Discord crashes and a new role is made
+####Client settings:
+Stable Build Number: 13537
+####System settings:
+Windows 7 Ultimate x64
+
+10817
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-16T20:40:14.425Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Canary Build 13640
+
+mrkirby153#7840 - Bug Bot on 2018-04-16T20:40:21.950Z
+
+
+### Can reproduce.
+Can reproduce, Canary Build 13630, Windows 10 x64
+
+Rashaun#9295 - Bug Bot on 2018-04-16T20:40:26.936Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 13630, limited my internet speed for a bit to repro this
+
+Kuuhaku#4503 - Bug Bot on 2018-04-16T20:40:31.932Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (Fall Creators Update), stable 12957
+
+Gangster#8192 - Bug Bot on 2018-04-17T01:10:10.991Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS 10.12.6 Sierra, Discord Canary (Build 13622)
+
+Rage#0001 - Bug Bot on 2018-04-17T11:09:46.450Z
+
+
+### Can reproduce.
+Windows 10 x64, Cannary Build 13753
+
+DarkHell_#6102 - Bug Bot on 2018-04-17T11:10:14.924Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Cannary Build 13753
+
+DarkHell_#6102 - Bug Bot on 2018-04-17T15:46:51.493Z
+
+
+### Can reproduce.
+Win 7 sp3 x64, Canary Build 13753
+
+Raizyr#0007 - Bug Bot on 2018-04-17T17:04:59.116Z
+
+
+### Verified.  - Clayton on 2018-04-18T00:31:56.192Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-18T00:31:58.910Z
+
+
+### Can reproduce.
+Windows 8.1 Pro x64, Discord Stable
+
+Olcay#8683 - Bug Bot on 2018-04-18T14:38:10.713Z
+
+
+### 54D#1357 - https://youtu.be/933ZhwiJsBI added by Bug Bot on 2018-07-14T14:47:45.928Z
+
+
+### ####Extension to this issue:
+-  Have at least 10 to 15 roles
+- Start to delete them, but you have to be quick.
+- Keep on going until your Canary begins to crash. It will take between 6 to 10 roles being deleted before you try to click on your next role which will then crash. 
+Here is an gif to demonstrate the issue: https://i.imgur.com/aRKeQhG.gifv
+
+I used Windows 10 Home x64 (Version 1803) with Discord Canary Build 22283. - Ghoul on 2018-08-21T05:59:08.957Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:45.213Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,78 @@
+[Archived] If a pictureless server has a name containing hyphens every 4+ words, the server icon will render with linebreaks after each hyphen (shows only the first line in server switcher, and shows all lines in a chaotic way in Mutual servers and Server settings) (https://trello.com/c/oCzbyzdP)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-10T03:06:11.132Z
+Latest Update: 2019-11-11T00:35:44.994Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Create a brand new server 
+- Give it a name with a lot of words and with hyphens every 4 words (4 is the minimum), example `a a a a-a a a a-a a a a-a a a a` 
+- (Optional) Invite someone to the server (Not a bot!) and open his Mutual Servers
+
+####Expected result:
+Especially in the case where there are only 4 words before the hyphen, everything should be on a single line, as if there were no hyphens
+####Actual result:
+The lines break after a hyphen, showing only the 4 first letters in the server switcher and renders in a chaotic way in Mutual Servers (certainly as a consequence of bug ZkshyYPj)
+####Client settings:
+Discord Canary 13313
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+10516
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-10T03:06:11.132Z
+
+
+### Can reproduce.
+Can reproduce - MS Windows 10 Pro x64 (v1709) - Canary 13313
+
+ahoZiorce#3115 - Bug Bot on 2018-04-10T03:06:18.678Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64 (1709), Canary Build 13313
+
+Lewis#0334 - Bug Bot on 2018-04-10T03:06:23.534Z
+
+
+### Can reproduce.
+Can reproduce - Macbook Pro 13" (2017) - macOS High Sierra 10.13.5 Beta (17F35e) - Discord Canary 0.0.186 (13313)
+
+0_3#5964 - Bug Bot on 2018-04-10T03:06:28.943Z
+
+
+### This bug is also visible on the invite to a server named this way, so in an invite via DM you will still see the line breaks.
+
+0_3#5964 - Bug Bot on 2018-04-10T13:27:21.052Z
+
+
+### Verified.  - Clayton on 2018-04-11T00:16:25.266Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-11T00:16:29.495Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord Canary 13405
+
+TheRealBen#5337 - Bug Bot on 2018-04-11T17:07:13.719Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:22.862Z
+
+
+### jWadhOr.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5acc2a232a0d36dd73c7b3da/3d1eb11d2264e910eeb8b6e288771349/jWadhOr.png added by Ene on 2019-11-11T00:35:44.993Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

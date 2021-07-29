@@ -1,0 +1,84 @@
+[Archived] Add friend from "more" section on a user profile doesn’t show whether friend request was sent (https://trello.com/c/JDW9DHwQ)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-02-01T14:27:34.638Z
+Latest Update: 2019-08-13T11:30:04.363Z
+
+Reported by Can Göksoy#8645
+
+####Steps to reproduce:
+- Open the user profile of any user 
+- Click in the right corner on the "more" button 
+- Select "Add as Friend"
+
+####Expected result:
+You should get a success message that the friend request was sent (similar to the other sent friend request button below the user avatar)
+####Actual result:
+There is no indication and the user doesn’t know whether sending friend request actually worked.
+####Client settings:
+Discord 2.4.4. iOS
+####System settings:
+iPhone 5S & iOS 12.1.2
+
+27683
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-01T14:27:34.638Z
+
+
+### Daffyduck#5364 - https://youtu.be/AsSF5-iHIgk added by Bug Bot on 2019-02-01T14:27:37.121Z
+
+
+### Can reproduce.
+iOS(12.1.2) - iPhone X - 2.4.4
+
+lollylegs2#3211 - Bug Bot on 2019-02-01T14:27:42.219Z
+
+
+### Can reproduce.
+iPad 9.7" ~ iOS 12.1.3 ~ TestFlight 2.4.4 [11051] // the friend button doesn't update from the three dots, but the request does get sent
+
+.–. LOLnt ._.#3405 - Bug Bot on 2019-02-01T14:27:47.146Z
+
+
+### Can reproduce.
+CR, iOS 11.1.2 iPhone SE - Discord 2.4.4 (11051)
+
+Arnold0#7514 - Bug Bot on 2019-02-01T14:27:52.102Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.1.3 -TestFlight 2.4.4 (11051)
+
+ryan#0570 - Bug Bot on 2019-02-02T00:31:20.432Z
+
+
+### Not a bug; due to privacy reasons you aren’t supposed to know whether someone accepted your friend request or not.
+
+Xylium#5800 - Bug Bot on 2019-02-03T23:34:08.139Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-02-08T19:00:03.800Z
+
+
+### Archived by Bug Bot on 2019-03-10T19:30:03.713Z
+
+
+### That actually looks like a bug/bad UX because the user gets no indication whether the button actually worked or not. Updated the ticket to make it a bit more clear. - Pascal on 2019-06-15T12:48:38.249Z
+
+
+### Unarchived by Pascal on 2019-06-15T12:51:53.317Z
+
+
+### Archived by Bug Bot on 2019-08-13T11:30:04.377Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,65 @@
+[Archived] Thumbnails from rich embeds get opened in your browser when clicking on them (https://trello.com/c/stRvH5t8)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-07-25T17:37:20.654Z
+Latest Update: 2018-09-04T23:14:23.248Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create an rich embed with a bot or webhook 
+- Add a thumbnail to it 
+- Try it with and without title link 
+- Click on the thumbnail with your iOS device
+
+####Expected result:
+Clicking on the thumbnail should always open the image preview of it.
+####Actual result:
+It opens the image in your selected browser. If you have a title link for the embed, it opens this link.
+####Client settings:
+TestFlight 2.3.6 (6000)
+####System settings:
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 3
+
+16016
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-25T17:37:20.654Z
+
+
+### Can reproduce.
+CR. iPhone 6s - iOS 11.0 - TestFlight 2.3.6 (6000)
+
+Rage#9991 - Bug Bot on 2018-07-25T17:37:28.080Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 (dev beta 4), TestFlight 2.3.6 (6000)
+
+Xylium#1480 - Bug Bot on 2018-07-25T17:37:33.037Z
+
+
+### Can reproduce.
+iPhone 8+ iOS 12 Dev Beta 4, iOS Testflight 6000 (2.3.6)
+
+TheMegaEagle#9909 - Bug Bot on 2018-07-25T17:37:38.196Z
+
+
+### verified, iphone x, ios 11.1, testflight 2.3.6 (6095) - Clayton on 2018-07-27T01:43:23.072Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-27T01:43:32.087Z
+
+
+### Archived by Clayton on 2018-09-04T23:14:23.250Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

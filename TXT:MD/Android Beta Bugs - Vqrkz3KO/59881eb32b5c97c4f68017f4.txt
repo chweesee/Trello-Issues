@@ -1,0 +1,90 @@
+[Archived] Push notifications don't show the message correctly if the "\\" character is contained (https://trello.com/c/OQELx32z)
+
+P2 - Can wait a while,
+Mod can no longer reproduce
+
+Created: 2017-08-07T08:02:59.596Z
+Latest Update: 2019-06-05T23:46:44.495Z
+
+Reported by [TRED] AlFas#2783
+
+####Steps to reproduce:
+- Have someone send a message containing the "\\" character at least once (example: the shrug (`¯\_(ツ)_/¯`) 
+- Look at the push notification and observe the message (in the above example it will show `¯_(ツ)_/¯` parsing the "\\" as an escape character)
+
+####Expected result:
+It shows the message as it normally appears
+####Actual result:
+The message in the notification body text doesn't have the "\\" characters
+####Client settings:
+Discord Alpha 4.0.2
+####System settings:
+Samsung Galaxy J7 (Android 6.0)
+
+2895
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-07T08:02:59.596Z
+
+
+### Verdant#9104 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59881eb32b5c97c4f68017f4/2e72e5e4a389d186774b2340949208ba/Screenshot_20170807-032541.png added by Bug Bot on 2017-08-07T08:03:04.106Z
+
+
+### Can reproduce.
+Redmi 3s Android 6.0.1
+
+AWESOMEALLOY77#1530 - Bug Bot on 2017-08-07T08:03:07.605Z
+
+
+### Can reproduce.
+Motorola 3rdG 6.0
+
+Verdant#9104 - Bug Bot on 2017-08-07T08:03:12.606Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 4.0.3
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-08-07T08:03:17.601Z
+
+
+### Verified.  - Clayton on 2017-08-10T00:15:02.403Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-10T00:15:07.885Z
+
+
+### Cannot reproduce anymore, Discord Alpha 6.1.6, OnePlus 5, Android 8. - Tarek on 2018-01-28T15:16:37.997Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-28T15:16:46.143Z
+
+
+### Can reproduce.
+Xiaomi Mi A1 | Android 8.1.0 | Discord Alpha 7.2.0, seems to be happening again
+
+MrWasdennnoch#0443 - Bug Bot on 2018-07-30T20:38:57.489Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 7.4.7
+
+Law of Royale#6825 - Bug Bot on 2018-09-12T23:58:05.400Z
+
+
+### I can repro on 7.5.2, reopening.  - Tarek on 2018-09-20T10:01:30.893Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-09-20T10:01:35.329Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:44.507Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

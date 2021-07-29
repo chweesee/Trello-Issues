@@ -1,0 +1,70 @@
+[Archived] Discord Overlay won't appear on primary display after using secondary display (laptop) (https://trello.com/c/hpqHY1ET)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-06-06T20:52:13.101Z
+Latest Update: 2019-04-28T18:11:06.162Z
+
+Reported by ekrekeler#7196
+
+####Steps to reproduce:
+- Connect a second screen to the HDMI port 
+- Use Winkey + P to open the project menu 
+- Select "Second screen only" 
+- Open Discord desktop client 
+- Launch any game that has overlay enabled 
+- Close game and Discord completely 
+- Disconnect second screen 
+- Reopen Discord client 
+- Launch the same game
+
+####Expected result:
+Discord Overlay should appear on the primary screen in-game.
+####Actual result:
+Discord Overlay does not appear. It is still locked on the second display, even though it is not connected.
+####Client settings:
+Discord Canary, Build Number: 16234
+####System settings:
+Windows 10 x64, Intel HD Graphics 530, NVIDIA GeForce GTX 960M
+
+13756
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-06T20:52:13.101Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, v1803, Canary 16445
+
+FoxyKero#9941 - Bug Bot on 2018-06-06T20:52:20.513Z
+
+
+### Can reproduce.
+Can reproduce Discord canary 16487 Windows 10 x64 Home 1803
+
+Bencey_#8587 - Bug Bot on 2018-06-06T20:52:25.561Z
+
+
+### Can reproduce.
+Can reproduce Discord Canary 16487,Win 10 x64 home 1803
+
+StefanFX#5684 - Bug Bot on 2018-06-06T20:52:30.501Z
+
+
+### Verified, Win 10, Canary 16581 - Clayton on 2018-06-08T00:43:59.761Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:36.902Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-04-28T18:11:06.003Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,22 @@
+Windows 10 Microphone/Camera Permissions (https://trello.com/c/xyryLpBe)
+
+None
+
+Created: 2018-11-01T01:32:27.412Z
+Latest Update: 2019-09-23T22:30:07.835Z
+
+Dani Halfin reached out to us about microphone/camera issues with Windows 10 April 2018 update: App permissions in privacy settings are supposed to work in the following manner - After being installed, an application that is trying to access a resource (mic \ camera in this case) will prompt the user to allow access to that device. By allowing access, the users turns on the permissions to access the device in privacy settings. This choice should remain consistent through updates of both OS and app, basically as long as the app isn't uninstalled and freshly installed.
+
+Desired state: While I don't have enough information to understand how users are getting to a point where they can't use their mic\camera, I believe it would be beneficial to let them know within the app that the device is blocked and possible ways to resolve it. The Windows.Devices.Enumeration API<https://docs.microsoft.com/en-us/uwp/api/windows.devices.enumeration.deviceaccessstatus> provides the required functionality to test for device access through DeviceAccessStatus, and for this case DeniedByUser is the actionable state for the user. It should only be returned in cases that access was denied through settings, either by the user themselves or by an administrator through policy.
+
+Card Log
+========
+### Added by Jozsef Vass on 2018-11-01T01:32:27.412Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

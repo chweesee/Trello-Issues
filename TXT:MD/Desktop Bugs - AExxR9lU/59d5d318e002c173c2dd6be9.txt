@@ -1,0 +1,133 @@
+[Archived] Attempting to view an audit-logged invite for a deleted channel crashes the client. (https://trello.com/c/SLMvbYoC)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-05T06:37:12.677Z
+Latest Update: 2019-08-03T13:52:25.283Z
+
+Reported by Sinister Rectus#2219
+
+####Steps to reproduce:
+- Create an invite to a guild channel 
+- Delete the channel 
+- Open the audit log 
+- Attempt to view the invite metadata in the log
+
+####Expected result:
+Data should show
+####Actual result:
+Client crashes
+####Client settings:
+Canary, 0.0.164 5342
+####System settings:
+Win 10 x64
+
+5099
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-05T06:37:12.677Z
+
+
+### Can reproduce.
+Microsoft Windows 10 Pro Version 10.0.14393 Build 14393, Canary Build Number: 5342
+
+thesqrtminus1/steph#9981 - Bug Bot on 2017-10-05T06:37:20.014Z
+
+
+### Can reproduce.
+CR, MacBook (Retina, 12-inch, Early 2015), OS X El Capitan v10.11.6, Discord Canary v0.0.155
+
+Matthew#2334 - Bug Bot on 2017-10-05T06:37:25.012Z
+
+
+### Can reproduce.
+CR, Microsoft Windows 10 Pro x64 > Discord Canary 0.0.164
+
+Ben#4331 - Bug Bot on 2017-10-05T06:37:30.003Z
+
+
+### Can reproduce.
+Canary 0.0.164 (5385), Windows 7 (x64) Home Premium
+
+RisedSky#1250 - Bug Bot on 2017-10-05T17:36:46.204Z
+
+
+### Verified.  - Clayton on 2017-10-18T07:38:57.488Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-18T07:39:00.832Z
+
+
+### Can reproduce.
+Windows 10 Pro AU, Discord Canary build number 6168
+
+Zoddo#5860 - Bug Bot on 2017-10-21T14:42:52.965Z
+
+
+### Can reproduce.
+CR Windows 10 Professional x64, Fall Creators Update, Discord Canary Build 9280
+
+Ghoul#4567 - Bug Bot on 2018-01-05T20:27:27.051Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by b1naryth1ef on 2018-01-12T02:14:18.562Z
+
+
+### Cannot reproduce anymore Canary 9532, moving to claimed fixed. - Tarek on 2018-01-13T03:40:33.341Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2018-01-13T03:40:39.741Z
+
+
+### Can't reproduce.
+CNR, log opens fine, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T21:07:17.146Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by b1naryth1ef on 2018-01-26T21:27:27.004Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T23:36:31.262Z
+
+
+### @andreizbikowski We are currently running a Trello cleaning event, and you moved this ticket while it's in the approval queue, so I am moving this back. - Tarek on 2018-01-27T01:30:58.107Z
+
+
+### Moved from Verified Fixed to Claimed Fixed, needs Verification by Tarek on 2018-01-27T01:31:06.289Z
+
+
+### @tarek1337 I do not know what that means, but this is fixed and verified so it should land in that board. I don't care how. - b1naryth1ef on 2018-01-27T01:33:18.059Z
+
+
+### @tarek1337 also @amadeus90 fucked up the title. Please fix. - b1naryth1ef on 2018-01-27T01:35:50.899Z
+
+
+### Will do - Tarek on 2018-01-27T01:36:27.866Z
+
+
+### Can't reproduce.
+CNR, Windows 10 64x, Discord Canary 9959
+
+MLG Golden#0001 - Bug Bot on 2018-01-27T01:43:09.945Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2018-01-27T01:44:41.654Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:31:38.425Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:31:39.312Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

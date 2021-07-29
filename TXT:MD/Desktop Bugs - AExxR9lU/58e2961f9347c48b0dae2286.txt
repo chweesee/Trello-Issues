@@ -1,0 +1,33 @@
+[Archived] Search ignores words stylized with Markdown (https://trello.com/c/EClvYYj8)
+
+P2: Fix can wait a while
+
+Created: Unknown
+Latest Update: 2017-10-04T21:36:15.901Z
+
+User: "Search is unable to find terms that have been styled with Markdown, that is unless the one includes the Markdown in the query itself. It would be nice if the search index could ignore Markdown and just contain the raw words within.
+
+This happens on all versions, web, iOS, Mac, Android. Here are my attempts using the web app in Chrome 57.0.2987.98 (64-bit):
+
+I sometimes **emphasize** or __highlight__ opponent names but have found that I can't find them unless I then search with the same markdown included."
+
+https://hammerandchisel.zendesk.com/agent/tickets/838034
+
+Card Log
+========
+### Seth#4431 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58e2961f9347c48b0dae2286/568ff0838dec6537ab915c860b027fee/RAJDe.png added by Bug Bot on 2017-06-09T16:02:48.897Z
+
+
+### I **cannot** reproduce with: bold and strikethrough.
+I _can_ reproduce with: italics - Jared on 2017-07-31T21:21:44.630Z
+
+
+### Archived by Jared on 2017-10-04T21:36:15.905Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

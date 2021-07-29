@@ -1,0 +1,75 @@
+when you right click anything using NVDA screen reader the menu has unlabeled buttons. (https://trello.com/c/o7Eu21nP)
+
+None
+
+Created: 2019-05-10T03:59:39.863Z
+Latest Update: 2020-07-15T18:03:49.171Z
+
+Reported by thetechguy#6929
+
+####Steps to reproduce:
+- turn on NVDA. 
+- right click the server from the server list. 
+- use the up and down arrow keys to navigate the menu.
+
+####Expected result:
+NVDA should be able to read the buttons in the menu.
+####Actual result:
+NVDA does not read the buttons instead saying clickable.
+####Client settings:
+desktop canary, Build Number: 36779, Version Hash: 9a5ee0e158c2f0e09b58cfd6168a09b1eddd25cd
+####System settings:
+windows 10 home x64 1803
+
+33822
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-10T03:59:39.863Z
+
+
+### Can reproduce.
+CR; NVDA on Windows 7 Ultimate, 64-bit 6.1.7601, Service Pack 1, Desktop Canary 37031
+
+Waff#0267 - Bug Bot on 2019-05-10T03:59:47.331Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 37253
+
+Action Potential#2494 - Bug Bot on 2019-05-10T03:59:52.337Z
+
+
+### Can reproduce.
+Windows 10 64x, Canary 37253
+
+OrangeM24#5746 - Bug Bot on 2019-05-10T03:59:57.318Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 Bit // Discord Canary Version 37253
+
+Cam#7527 - Bug Bot on 2019-05-10T18:37:36.859Z
+
+
+### Moved from User Reported Bugs to a11y by Tarek on 2019-05-11T22:05:31.343Z
+
+
+### Known that NVDA will read items as "menu" and not "menuitem" or "button", but the items should be labelled and usable. - Jon Egeland on 2020-05-18T22:37:52.622Z
+
+
+### Moved from a11y to Claimed Fixed, needs Verification by Jon Egeland on 2020-05-18T22:37:59.582Z
+
+
+### Can't reproduce.
+New Dell G3 15 3500: Windows 10 Home 2004 (Build 19041.329) x64; Discord Canary 63380 ~ Host 0.0.266
+
+Jiralite#1207 - Bug Bot on 2020-07-15T18:03:49.183Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

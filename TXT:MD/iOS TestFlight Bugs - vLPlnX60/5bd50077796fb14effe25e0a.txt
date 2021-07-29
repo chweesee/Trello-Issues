@@ -1,0 +1,71 @@
+[Archived] Audit log entry with more than 1 line in title make the timestamp to move to a weird space above ">". iPhone XS Max specific. (https://trello.com/c/fwyHFK04)
+
+P1 - Severe
+
+Created: 2018-10-28T00:19:03.137Z
+Latest Update: 2019-02-01T00:30:20.256Z
+
+Reported by 54D#6602
+
+####Steps to reproduce:
+- Make any changes to the server such that the audit log entry has 2 lines. 
+- Go to Audit Log and observe.
+
+####Expected result:
+Like other entries, the timestamp is below the log title.
+####Actual result:
+Timestamp is placed slightly above the ">" icon and part of it goes past the right side of the screen.
+####Client settings:
+Discord TestFlight 2.4.0 (8667)
+####System settings:
+iPhone XS Max, iOS 12.0.1
+
+22244
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-28T00:19:03.137Z
+
+
+### Alfie#1582 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5bd50077796fb14effe25e0a/a7ba1e8d1ef631999fa5cc365f3240fe/image0.png added by Bug Bot on 2018-10-28T00:19:05.516Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1 Dev Beta 5 - TestFlight 2.4.0 (8667)
+
+Alfie#1582 - Bug Bot on 2018-10-28T00:19:10.408Z
+
+
+### Can reproduce.
+iPhone 8+ iOS 12.0.1 TF 2.4.0 (8667)
+
+WorialFright189"#5673 - Bug Bot on 2018-10-28T00:19:15.440Z
+
+
+### Can reproduce.
+Can reproduce - iPhone 8+ iOS 12.0 TestFlight 2.4.0 (8667)
+
+1Storm#0001 - Bug Bot on 2018-10-28T00:19:20.419Z
+
+
+### Moved from New Issues to Audit Log Bugs by Victoria on 2018-11-01T03:15:53.959Z
+
+
+### Moved from Audit Log Bugs to Cannot Reproduce by Jeff Cailteux on 2018-11-02T20:09:00.689Z
+
+
+### Archived by Tarek on 2019-01-01T23:38:51.419Z
+
+
+### Unarchived by Tarek on 2019-01-02T00:15:18.000Z
+
+
+### Archived by Bug Bot on 2019-02-01T00:30:20.267Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

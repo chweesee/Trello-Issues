@@ -1,0 +1,64 @@
+[Archived] editing channel of widget will show channel ID instead of channel name in audit log (https://trello.com/c/5T5xkNps)
+
+None
+
+Created: 2018-10-04T15:55:12.203Z
+Latest Update: 2018-10-04T20:27:52.271Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- edit the channel of a widget 
+- observe audit log
+
+####Expected result:
+it should show the name of the channel
+####Actual result:
+shows channel id in audit log
+####Client settings:
+Canary Build 25434 Settings: Windows 10 Pro x64
+####System settings:
+Windows 10 Pro x64, Canary Build
+
+20609
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-04T15:55:12.203Z
+
+
+### Can reproduce.
+CR, macOS Mojave, Canary 25439.
+
+JBYoshi#5551 - Bug Bot on 2018-10-04T15:55:19.512Z
+
+
+### Can reproduce.
+CR - Windows 10, 1803, Canary 25439
+
+Toby#5609 - Bug Bot on 2018-10-04T15:55:24.520Z
+
+
+### Can reproduce.
+MacBook Air, macOS 10.14.1; Canary 25439
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-04T15:55:29.541Z
+
+
+### Dupe of https://trello.com/c/Q960OOSx (won't fix)
+
+Pascal#0929 - Bug Bot on 2018-10-04T15:57:29.637Z
+
+
+### dupe below.  - Clayton on 2018-10-04T20:27:50.608Z
+
+
+### Archived by Clayton on 2018-10-04T20:27:52.273Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

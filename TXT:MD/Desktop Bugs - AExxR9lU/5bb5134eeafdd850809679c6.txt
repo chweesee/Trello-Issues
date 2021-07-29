@@ -1,0 +1,70 @@
+[Archived] Sending a lot of messages till the point of rate limiting, and toggling slowmode makes you unable to send messages (https://trello.com/c/N1TidGT0)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-10-03T19:06:54.117Z
+Latest Update: 2019-01-11T00:00:49.831Z
+
+Reported by Pyxel 💞#5077
+
+####Steps to reproduce:
+- send a bunch of messages till you get rate limited 
+- toggle slow mode on, then off 
+- the user will be unable to send messages, even with rate limitting and slowmode not preventing them
+
+####Expected result:
+The user should be able to send messages with slowmode and rate limiting not affecting them.
+####Actual result:
+I am unable to send messages
+####Client settings:
+Canary Build 25202 x64
+####System settings:
+Windows 7 x64 Build 7601
+
+20515
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-03T19:06:54.117Z
+
+
+### Can reproduce.
+Windows 10 Professional • v1803 • OS Build 17134.112 • Canary 25202
+
+Brøther, i require Cälcium#9941 - Bug Bot on 2018-10-03T19:07:01.480Z
+
+
+### Can reproduce.
+cr, Windows 10 Pro x64, Canary Build 25313
+
+Nashorn#3450 - Bug Bot on 2018-10-03T19:07:06.518Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Stable 25070
+
+🍣 [𝒩🌸₁₀₂ 𝒰₉₂] ᏗᏁ🅱ᏋᏝᏗ⁵⁰⁰⁰ 💞 ‘憐憫’#1982 - Bug Bot on 2018-10-03T19:07:11.513Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 25313
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-03T19:27:16.944Z
+
+
+### verified, macos 10.12.6, canary 25313 - Clayton on 2018-10-03T21:04:56.112Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-03T21:05:14.342Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:49.833Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

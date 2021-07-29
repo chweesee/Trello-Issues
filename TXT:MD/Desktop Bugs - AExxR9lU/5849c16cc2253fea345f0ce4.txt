@@ -1,0 +1,122 @@
+[Archived] sending an escaped ID mention still pings (https://trello.com/c/xInopUTL)
+
+None
+
+Created: 2016-12-08T20:24:12.848Z
+Latest Update: 2017-10-17T21:05:57.632Z
+
+Reported by mralext20#8975
+
+####Steps to reproduce: 
+- 1. send a message: `\<@ID>` 
+- 2. get mentioned 
+- 
+
+####Expected result:
+ Not to be pinged - 
+####Actual result:
+ get pinged
+
+Card Log
+========
+### Added by Jared on 2016-12-08T20:24:12.848Z
+
+
+### Can reproduce.
+Windows 10, Canary
+
+KockaAdmiralac#9306 - Jared on 2016-12-08T20:26:27.251Z
+
+
+### Can reproduce.
+Windows 7 x64, Canary 0.0.149
+
+Ian Murray#8701 - Jared on 2016-12-08T20:27:21.628Z
+
+
+### Can reproduce.
+iOS 9.3.5 TF
+
+MattBSG#9263 - Jared on 2016-12-08T20:27:55.603Z
+
+
+### KockaAdmiralac#9306 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5849c16cc2253fea345f0ce4/99f5f4535f025c1fd7e7a9a36b5e6651/unknown.png added by Jared on 2016-12-08T20:30:20.628Z
+
+
+### Can reproduce.
+win 10, latest canary.
+
+Weeajew#3674 - Jared on 2016-12-08T20:31:03.236Z
+
+
+### Can reproduce.
+W10 Pro x64 on latest canary
+
+SuperSajuuk#7265 - Jared on 2016-12-08T20:31:33.706Z
+
+
+### Can reproduce.
+Latest Canary
+
+Aurieh#0258 - Jared on 2016-12-08T20:39:17.226Z
+
+
+### Wouldn't consider this a bug, seeing as you're using a backslash to escape the client's formatting. Raw messages returned by the API use <@id> for mentions and your client formats it accordingly.
+
+Dougley#6248 - Jared on 2016-12-08T20:41:50.319Z
+
+
+### Can reproduce.
+All clients, including mobile
+
+Enharmonic#3999 - Jared on 2016-12-08T21:06:19.213Z
+
+
+### Can reproduce.
+Canary 0.0.149
+
+Pyker#4853 - Jared on 2016-12-08T22:54:49.743Z
+
+
+### Can reproduce.
+Discord Canary
+
+cyberiumshadow#7057 - Jared on 2016-12-09T13:32:48.197Z
+
+
+### Can reproduce.
+Windows 10, latest canary
+
+TheEvilSocks#0023 - Jared on 2016-12-09T14:49:21.429Z
+
+
+### Can reproduce.
+Windows 10 64
+
+Derumisis#7928 - Jared on 2016-12-09T15:20:20.817Z
+
+
+### Confirmed with Stan: It *is* supposed to still do the ping. Not a Bug, but now we know. - Jared on 2016-12-09T18:25:02.644Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2016-12-09T18:25:11.999Z
+
+
+### Can reproduce.
+Latest Canary 0.0.149
+
+LackingAGoodName#1740 - Jared on 2016-12-13T05:07:09.596Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:05:56.776Z
+
+
+### Archived by Jared on 2017-10-17T21:05:57.635Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

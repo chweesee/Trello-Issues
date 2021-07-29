@@ -1,0 +1,92 @@
+[Archived] You are allowed to connect to voice channels you cannot see but are not denied connection perms. (https://trello.com/c/67LNu3t5)
+
+P1: Severe,
+High
+
+Created: 2018-05-09T03:33:46.548Z
+Latest Update: 2018-07-06T18:23:39.796Z
+
+Reported by QwakGoesDuck#0420
+
+####Steps to reproduce:
+- Be on a server where you are not allowed to see a voice channel, but are not blocked from connecting to it. 
+- Go to quickswitcher. 
+- Type '!' to filter by voice channels. 
+- Find the voice channel from step 1. 
+- Tap it to connect to it.
+
+####Expected result:
+You don't see it, nor should you be able to connect to it.
+####Actual result:
+You connect to something you shouldn't.
+####Client settings:
+TestFlight 2.3.2 (4280)
+####System settings:
+iOS 11.3, iPhone 7 -- Windows 10 x64 Version 1709
+
+12271
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-09T03:33:46.548Z
+
+
+### Can reproduce.
+Discord Canary 0.0.208 (14817) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-05-09T03:33:54.030Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 , Discord Canary (14895)
+
+DJScias#0812 - Bug Bot on 2018-05-09T03:33:58.988Z
+
+
+### Can reproduce.
+Windows 10 Edu x64 | Canary 14720
+
+Seth#1000 - Bug Bot on 2018-05-09T03:34:04.007Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.4 (PB4) -- Discord TestFlight 2.3.2 (4280)
+
+Ghoul#0009 - Bug Bot on 2018-05-09T03:34:20.802Z
+
+
+### A quick note on this: This only happens to channels that have permissions set up only to deny "View Channel" as so: https://cdn.discordapp.com/attachments/443610002822004757/443610761307226114/unknown.png
+
+Having "Connect" also on deny in the above situation stops this from being possible through the quickswitcher. - Alexander (DJScias) on 2018-05-09T03:35:40.552Z
+
+
+### Can reproduce.
+64 Bit Windows 10 Home (V1709) ptb, Build Number: 14712.
+
+memetrollsXD#0001 - Bug Bot on 2018-05-09T16:01:49.188Z
+
+
+### I verified this two days ago and just forgot to move it to verified - Jared on 2018-05-11T16:43:09.702Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-11T16:43:13.827Z
+
+
+### Cannot reproduce anymore on Discord Canary 15123 0.0.208, on Windows 10 Pro 64-bit (1803). The quick switcher is not showing any private voice channels that only has "view channel" denied. Moving to claimed fixed. - Tarek on 2018-05-13T04:29:39.698Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-05-13T04:29:42.575Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:23:38.816Z
+
+
+### Archived by Jared on 2018-07-06T18:23:39.797Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

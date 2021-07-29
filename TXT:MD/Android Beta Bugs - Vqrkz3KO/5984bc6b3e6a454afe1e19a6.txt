@@ -1,0 +1,101 @@
+[Archived] App randomly freezes while opening emoji picker (https://trello.com/c/pKHNzCF6)
+
+None
+
+Created: 2017-08-04T18:26:51.265Z
+Latest Update: 2018-10-24T20:13:03.553Z
+
+Reported by AwesomeFlink#9333
+
+####Steps to reproduce:
+- This bug does not happen on devices over Android 5.1. 
+- Open emoji picker
+
+####Expected result:
+It should open, so you get to add emojis
+####Actual result:
+It freezes. Note: It doesnt freezes randomly , so please try a few times(atleast 30 times) before adding an approve/deny
+####Client settings:
+Version 4.0.2
+####System settings:
+Android 5.1, Huawei CUN 29 Note: this bug does not occur on Android 7.0, but it does on lower version devices so please dont deny with android 7.0.
+
+2826
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-04T18:26:51.265Z
+
+
+### AwesomeFlink#9333 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5984bc6b3e6a454afe1e19a6/7b7850a2786862ef49910c404eec82db/Screenshot_2017-08-04-20-48-36.png added by Bug Bot on 2017-08-04T18:26:54.341Z
+
+
+### Symplyfyed#4913 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5984bc6b3e6a454afe1e19a6/a2d63a5b0ad9b6ddbec9d8f1e0dfa930/Screenshot_2017-08-04-21-24-27.png added by Bug Bot on 2017-08-04T18:26:54.476Z
+
+
+### Can reproduce.
+The discord freeze also in landscape mode, and when mentions or emoji list pop up at typing "@" or ":" | Tablet Allview VivaH8LTE, Android KitKat 4.4.4, Discord Android Alpha 4.0.2
+
+Symplyfyed#4913 - Bug Bot on 2017-08-04T18:26:58.996Z
+
+
+### Can reproduce.
+CR - Fully reproduceable as Symplyfyed#4913 said! When you have "@" or ":" in the chat box | 4.0.2(401) - HTC Desire 526 v5.1
+
+Nyadeelif (Nyad)#8930 - Bug Bot on 2017-08-04T18:27:03.987Z
+
+
+### Can reproduce.
+CR only on landscape mode. Moto G 3rd Gen, Android 6.0, Discord Stable v4.0.2
+
+Joel#9294 - Bug Bot on 2017-08-04T18:27:09.016Z
+
+
+### Can reproduce.
+Samsung Galaxy J2 Android 5.0.1, 1.8.9 only happens in landscape mode.
+
+Grummy#0478 - Bug Bot on 2017-08-06T00:50:56.307Z
+
+
+### Can reproduce.
+Samsung J2, Android 5.1.1, Discord 4.0.2
+
+BitRocket#0205 - Bug Bot on 2017-08-06T01:32:23.155Z
+
+
+### Can reproduce.
+system and client settings
+
+Tarentules#1454 - Bug Bot on 2017-08-10T01:05:46.406Z
+
+
+### Can't repro.  - Clayton on 2017-08-30T23:53:59.458Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-08-30T23:54:06.590Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T18:03:48.092Z
+
+
+### Archived by Jared on 2017-10-30T18:03:49.236Z
+
+
+### Can reproduce.
+- alpha 7.7.9 I can reproduce this on Androidn 8.1.0 which leads me to believe it might be a memory issue, my app just randomly freezes but doesn't fully crash
+
+Azrael#6867 - Bug Bot on 2018-10-24T20:09:56.805Z
+
+
+### Can reproduce.
+Nexus 5X Android 8.1.0 alpha 7.7.9 I can reproduce this on Android 8.1.0 which leads me to believe it might be a memory issue, my app just randomly freezes but doesn't fully crash this phone has 2GBs of RAM
+
+Azrael#6867 - Bug Bot on 2018-10-24T20:13:03.553Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

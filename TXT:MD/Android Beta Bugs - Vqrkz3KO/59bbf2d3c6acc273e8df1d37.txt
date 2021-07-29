@@ -1,0 +1,90 @@
+[Archived] Discord not responsive if not focused during split screen. (https://trello.com/c/kpKpfbCN)
+
+P3 - Will be fixed eventually
+
+Created: 2017-09-15T15:33:39.814Z
+Latest Update: 2018-08-31T18:03:42.582Z
+
+Reported by Pointy#9109
+
+####Steps to reproduce:
+- (possibly Android Oreo specific?) 
+- Open Discord on an active chat 
+- Hold the app switcher button, initiating split screen 
+- Select another valid app for split screen, and focus it by interacting with it 
+- Wait a few seconds for people to be active on the Discord that you had open 
+- Re-focus Discord
+
+####Expected result:
+Discord should always be updating, even when not actively focused
+####Actual result:
+During split screen, if Discord is not in focus, it will not actively update
+####Client settings:
+Android Alpha 5.1.6
+####System settings:
+Google Pixel - Android 8.0.0
+
+4324
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-15T15:33:39.814Z
+
+
+### Can reproduce.
+Google Pixel XL, Android 8.0.0, Android Alpha 5.1.6
+
+Adam#5940 - Bug Bot on 2017-09-15T15:33:47.335Z
+
+
+### Can reproduce.
+Not Oreo specific, CR Samsung Galaxy S6, 7.0, 5.1.6
+
+Xander#0259 - Bug Bot on 2017-09-15T15:33:52.320Z
+
+
+### Can reproduce.
+CR Google Pixel, 8.0.0, 5.1.6
+
+Zollak#4578 - Bug Bot on 2017-09-15T15:33:57.304Z
+
+
+### Can reproduce.
+Sony Xperia Z5, 7.0
+
+Kaoffie#4112 - Bug Bot on 2017-09-15T15:43:05.352Z
+
+
+### Verified.  - Clayton on 2017-09-20T22:42:20.166Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-20T22:42:25.191Z
+
+
+### Can reproduce.
+Samsung Galaxy S8+, 6.6.0
+
+ethan#0001 - Bug Bot on 2018-05-01T06:47:37.236Z
+
+
+### Won't fix. - Clayton on 2018-07-11T00:11:46.261Z
+
+
+### Moved from Verified Bugs to Won't Fix by Clayton on 2018-07-11T00:11:52.563Z
+
+
+### Archived by Clayton on 2018-08-31T00:11:58.367Z
+
+
+### Can reproduce.
+Google Pixel 2 XL, Android 9.0.0, Discord Alpha 7.4.2 [742]
+
+aditya#0001 - Bug Bot on 2018-08-31T18:03:42.583Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

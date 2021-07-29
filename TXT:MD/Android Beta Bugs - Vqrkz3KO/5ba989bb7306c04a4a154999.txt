@@ -1,0 +1,70 @@
+[Archived] Making a change to a server (such as renaming it) incorrectly shows the name of the server in the audit log (https://trello.com/c/nZXIXrNM)
+
+None
+
+Created: 2018-09-25T01:04:59.580Z
+Latest Update: 2019-06-05T23:48:48.389Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Create a new server so you have empty audit logs 
+- Modify the @everyone role (grant it any permission) 
+- Modify the server (Rename it/Change the AFK channel) 
+- Observe the audit log for the modification of the server
+
+####Expected result:
+It says "USER made changes to SERVER_NAME"
+####Actual result:
+It says "USER made changes to @everyone"
+####Client settings:
+Alpha 7.5.5
+####System settings:
+Pixel 2 XL - Android 9.0
+
+20036
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-25T01:04:59.580Z
+
+
+### mrkirby153#7840 - undefined added by Bug Bot on 2018-09-25T01:05:02.086Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 7.5.5
+
+Bencey_#8587 - Bug Bot on 2018-09-25T01:05:06.901Z
+
+
+### Can reproduce.
+can reproduce Nexus 5x Android 8.1.0 Alpha 7.5.5
+
+Azrael#6867 - Bug Bot on 2018-09-25T01:05:11.897Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy J5 Prime Android 7.0, Discord Alpha 7.5.5 https://imgur.com/a/GGrFJxe
+
+Mr. Black#5859 - Bug Bot on 2018-09-25T01:05:16.880Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Tarek on 2018-09-25T10:43:05.210Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-09-27T21:46:14.386Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-12T06:08:51.459Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:48:48.400Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

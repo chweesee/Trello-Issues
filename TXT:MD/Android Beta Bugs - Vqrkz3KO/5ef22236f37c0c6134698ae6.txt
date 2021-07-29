@@ -1,0 +1,107 @@
+URL warning pop-up does not appear anymore when tapping a link (only on channels) (https://trello.com/c/Q4iiIuyh)
+
+None
+
+Created: 2020-06-23T15:39:35.239Z
+Latest Update: 2020-07-08T07:22:27.532Z
+
+Reported by Squidja#2098
+
+####Steps to reproduce:
+- Type a link to a domain that you didn't trusted yet 
+- Tap this link
+
+####Expected result:
+Warning pop-up "Hold Up" should appear before you are redirected to the URL (this behavior is still happening in DMs)
+####Actual result:
+You are instantly redirected to the website without being warned
+####Client settings:
+28.0 (1168)
+####System settings:
+Huawei P20 Pro, Android 10
+
+58015
+
+Card Log
+========
+### Added by Bug Bot on 2020-06-23T15:39:35.239Z
+
+
+### Can reproduce.
+CR (Can Reproduce), Huawei P8 Lite, Android 6.0, Discord 27.0 (1165)
+
+.dev#3346 - Bug Bot on 2020-06-23T15:39:42.844Z
+
+
+### Can reproduce.
+Can Reproduce • Samsung A51 Android 10 • Discord 28.0 (1168)
+
+ibidi#0042 - Bug Bot on 2020-06-23T15:39:47.861Z
+
+
+### Can reproduce.
+Samsung Galaxy A5 2017, Android 8.0.0, Discord 28.0 (1168)
+
+Linkoss_Link#2441 - Bug Bot on 2020-06-23T15:39:53.860Z
+
+
+### Can reproduce.
+Panasonic P91, Android 7, Discord 28.0 (1168)
+
+sohamb03#0001 - Bug Bot on 2020-06-23T16:30:39.346Z
+
+
+### Note a bug as per comment in: https://trello.com/c/MGho2zBO
+
+Squidja#2098 - Bug Bot on 2020-06-23T16:33:38.676Z
+
+
+### Can reproduce.
+Oneplus 8 Pro, Android 10, Discord 28.0 (1168)
+
+JΛZPΞR#0001 - Bug Bot on 2020-06-23T17:28:02.991Z
+
+
+### Can reproduce.
+CR Android 7.0, Samsung Galaxy J3 Prime Discord v28 (1168)
+
+spin~#2080 - Bug Bot on 2020-06-23T20:36:43.046Z
+
+
+### Can reproduce.
+Nokia 4.2 Android 10 • Discord 28.0
+
+Cyanic#0001 - Bug Bot on 2020-06-24T09:32:58.236Z
+
+
+### Can reproduce.
+Google Pixel 3a, Android 11 Beta 1, Discord 28.1 (1169)
+
+Faab#0001 - Bug Bot on 2020-06-24T19:25:04.913Z
+
+
+### As far as I can tell spoopy links are working as expected.
+
+They only show in chat when a link is "masked" (eg:  The link is hidden behind words that are not the link itself).
+
+In my testing this still triggers on embeds - which is currently the only place where it is possible to render a masked link. - Miguel Gaeta on 2020-06-25T17:30:24.799Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Miguel Gaeta on 2020-06-25T17:30:32.427Z
+
+
+### Moved from Claimed Fixed, needs Verification to Won't Fix. Dead Bug by Miguel Gaeta on 2020-06-25T17:30:46.223Z
+
+
+### Can reproduce.
+Asus Zenfone Go ; Android Lollipop ( 5.1.1 )  Discord v30.0 ( 1180 ) <Info Updated on 08 Jul 2020>
+
+TitaniuMark#3644 - Bug Bot on 2020-07-08T07:22:27.546Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

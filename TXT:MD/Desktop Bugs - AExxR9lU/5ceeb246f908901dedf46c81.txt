@@ -1,0 +1,68 @@
+Typing fast in Login Window makes Background flicker when using Discord Web in Firefox (probably macOS specific) (https://trello.com/c/WZnqX8L3)
+
+None
+
+Created: 2019-05-29T16:24:38.736Z
+Latest Update: 2020-07-16T21:26:04.023Z
+
+Reported by jspp#2579
+
+####Steps to reproduce:
+- open up Discord in Firefox 
+- log out, if you're logged in 
+- go to the Discord login page 
+- put something in the username/password field by typing really fast 
+- observe that the background flickers occasionally
+
+####Expected result:
+The background shouldn't flicker when typing really fast.
+####Actual result:
+The background flickers when typing really fast.
+####Client settings:
+Discord Stable (Build: 38214) in Firefox on macOS
+####System settings:
+MacBook Pro (15-inch, 2017); macOS 10.14.5 (Mojave)
+
+34974
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-29T16:24:38.736Z
+
+
+### 💐nickWtn💐#3789 - https://youtu.be/uWTINmQ5wXo added by Bug Bot on 2019-05-29T16:24:41.213Z
+
+
+### undermaster#3126 - https://youtu.be/uWTINmQ5wXo added by Bug Bot on 2019-05-29T16:24:41.249Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Web Canary 38570 - Firefox v67.0 (64-bit)
+
+Isabel#0002 - Bug Bot on 2019-05-29T16:24:46.283Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 38594, firefox 66
+
+OrangeM24#5746 - Bug Bot on 2019-05-29T16:24:51.128Z
+
+
+### Can reproduce.
+CR, macOS 10.14.5, FireFox 67, PTB 38594
+
+Action Potential#2494 - Bug Bot on 2019-05-29T16:24:56.112Z
+
+
+### Can't reproduce.
+MacBook Air - MacOS (10.12.6 Sierra), stable web build on Firefox Quantum 66.0.5
+
+myacorn#6534 - Bug Bot on 2019-05-29T23:35:43.256Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

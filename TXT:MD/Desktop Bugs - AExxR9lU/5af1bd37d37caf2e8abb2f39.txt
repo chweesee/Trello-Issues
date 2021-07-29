@@ -1,0 +1,87 @@
+[Archived] Pressing enter while having more than 2000 characters while editing a comment brings up a new warning instead of closing the last one (https://trello.com/c/Xy5vhZqg)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-08T15:07:35.649Z
+Latest Update: 2018-07-06T04:28:03.317Z
+
+Reported by iii#8595
+
+####Steps to reproduce:
+- Type a message 
+- Send the message 
+- Edit the contents so it has more than 2000 characters 
+- Press enter or click save 
+- Press enter again
+
+####Expected result:
+The warning closes and it lets you edit again like it does when sending a message(instead of editing)
+####Actual result:
+The warning doesn't close, but instead a new one is brought up, and you can still type while having the warning on your screen
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 14651, Version Hash: 05273b109bbf775536938c01a1ba710d1c61d86c
+####System settings:
+Win 10 64-bit, x64-based processor, Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz, 8GB RAM
+
+12162
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-08T15:07:35.649Z
+
+
+### Can reproduce.
+Windows 10 x64 v1809, Discord Canary 14720
+
+AlwaysMyFault#4051 - Bug Bot on 2018-05-08T15:07:43.196Z
+
+
+### Can reproduce.
+cr, Windows 8.1 64bit - Discord Stable Build Number: 14651
+
+bird#0001 - Bug Bot on 2018-05-08T15:07:48.223Z
+
+
+### Can reproduce.
+Windows 10 64bit Stable 14651
+
+aj834#1640 - Bug Bot on 2018-05-08T15:07:53.195Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64 15063 - Discord Canary 14720
+
+Dresiden#8102 - Bug Bot on 2018-05-08T18:36:39.468Z
+
+
+### I swear this was reported before. Like a long long long time ago - Jared on 2018-05-08T20:09:01.611Z
+
+
+### I can't find it. Verified on
+
+Win 10 x64 [BUILD INFO] Release Channel: canary, Build Number: 14817, Version Hash: fd481f5e6747b328dcd4aaa0d31a7dfa9bb0c34b - Jared on 2018-05-08T20:36:02.240Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-08T20:36:11.355Z
+
+
+### extension/dupe of https://trello.com/c/0YojyjSA/853-pressing-enter-on-modals-does-not-close-them-like-it-used-to
+
+ks#7898 - Bug Bot on 2018-06-20T09:51:13.930Z
+
+
+### I checked this ticket during the Trello cleanup Event since someone commented that it was a duplication of the ticket above (which ALSO happens to be a duplication of https://trello.com/c/0YojyjSA/853-pressing-enter-on-modals-does-not-close-them-like-it-used-to )
+
+I do agree that they are all a duplication as they have the same end result with same reproduction steps. So I will be archiving this. - Ghoul on 2018-07-06T04:27:59.057Z
+
+
+### Archived by Ghoul on 2018-07-06T04:28:03.319Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

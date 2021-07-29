@@ -1,0 +1,105 @@
+[Archived] too many "invalid two-factor code" toasts instead of one when having an invalid code copied to clipboard (https://trello.com/c/PZI7GTQA)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2019-02-21T05:14:33.108Z
+Latest Update: 2019-03-28T18:30:03.684Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- don't have 2FA enabled 
+- have an invalid 6 digits code copied to your clipboard 
+- go to my account then click enable 2FA 
+- click next twice and observe 
+- (if it doesn't happen the first time it should happen the second time you repeat the steps)
+
+####Expected result:
+since it was only one login attempt, there should be only one error toast
+####Actual result:
+discord shows 6 toast notifications (once for every digit of the code??)
+####Client settings:
+Alpha 849
+####System settings:
+Samsung Galaxy Note 8, Android 8.0
+
+29382
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-21T05:14:33.108Z
+
+
+### Can reproduce.
+I do not see 6 but 3. Lenovo Vibe K5+, 5.1.1 | Discord Alpha 849
+
+The Lunala#6877 - Bug Bot on 2019-02-21T05:14:40.657Z
+
+
+### Can reproduce.
+Cr. Alpha 8.4.9 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-02-21T05:14:45.437Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.4.8
+
+Skyla#7948 - Bug Bot on 2019-02-21T05:14:50.452Z
+
+
+### Can reproduce.
+Samsung S8, Android 8.0, 8.4.8
+
+Mr. Proper#2394 - Bug Bot on 2019-02-21T06:48:08.015Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.4.8
+
+nescix#0071 - Bug Bot on 2019-02-21T06:51:24.402Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0.1, Discord Alpha 8.4.9
+
+Frances Picard#6209 - Bug Bot on 2019-02-21T06:52:13.656Z
+
+
+### Can reproduce.
+Pocophone F1 - Android 9 with MIUI 10.2 - Discord 8.4.9
+
+dafaqed#1312 - Bug Bot on 2019-02-21T10:36:26.533Z
+
+
+### Can reproduce.
+Android Alpha 8.4.9, Android version 8.0.0, Samsung Galaxy J6.
+
+Willzy 27#0001 - Bug Bot on 2019-02-21T11:52:22.204Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 8.4.9
+
+Law of Royale#0001 - Bug Bot on 2019-02-21T16:27:03.983Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-21T23:03:51.318Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.5.0
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-26T18:24:06.716Z
+
+
+### Archived by Bug Bot on 2019-03-28T18:30:03.717Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

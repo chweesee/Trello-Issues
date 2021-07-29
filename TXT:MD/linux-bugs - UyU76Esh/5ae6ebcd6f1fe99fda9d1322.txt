@@ -1,0 +1,104 @@
+Extraneous pixel in Font rendering with Ubuntu 18.04 (https://trello.com/c/2jJndRfl)
+
+P2: Can wait awhile,
+mid
+
+Created: 2018-04-30T10:11:25.045Z
+Latest Update: 2018-06-05T23:13:08.920Z
+
+Reported by leagris#8369
+
+####Steps to reproduce:
+- Either run Discord in Ubuntu Linux 18.04 
+- Either run Discord in any Linux with Freetype 2.8.1 or above
+
+####Expected result:
+Font should render smoothly without extraneous pixels or lines
+####Actual result:
+Chat font is renderred with extraneous pixels and lines,
+####Client settings:
+canary, Build Number: 14281, Version Hash: 547ce5f5f37e4e484c12e325c4d113619acf0d2c
+####System settings:
+Ubuntu 18.04 LTS (bionic)
+
+11543
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-30T10:11:25.045Z
+
+
+### Ghoul the Kitty#0009 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5ae6ebcd6f1fe99fda9d1322/190a2d24ad85a85f22d8453d3c0432dc/Tq2V75Z.png added by Bug Bot on 2018-04-30T10:11:27.466Z
+
+
+### simonizor#0420 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5ae6ebcd6f1fe99fda9d1322/58d3eb19cc1a977376a253948c8cd3fb/zpVD0.png added by Bug Bot on 2018-04-30T10:11:28.352Z
+
+
+### Can reproduce.
+Can Reproduce, Ubuntu 18.04 LTS, Discord Canary 0.0.45 build 14281.  This issue has been patched upstream in Electron as of version 1.7.12; VSCode uses this version of Electron without font rendering issues on 18.04.
+
+simonizor#0420 - Bug Bot on 2018-04-30T10:11:32.409Z
+
+
+### Can reproduce.
+Could reproduce - Ubuntu 18.04 LTS - Canary 14281
+
+ahoZiorce#3115 - Bug Bot on 2018-04-30T10:11:37.407Z
+
+
+### Can reproduce.
+Can reproduce Ubuntu 18.04 LTS - Canary 14281
+
+Bencey_#8587 - Bug Bot on 2018-04-30T10:11:42.494Z
+
+
+### Can reproduce.
+CR \ Ubuntu 18.04 LTS \ Discord Canary (14281).
+
+/hash/#0001 - Bug Bot on 2018-04-30T10:41:03.372Z
+
+
+### Can reproduce.
+Ubuntu Studio 18.04 (amd64) - Canary 14334 - Kernel 4.15.0-20-lowlatency
+
+Perseus Elizabeth Kane#3217 - Bug Bot on 2018-04-30T19:21:12.357Z
+
+
+### Can reproduce.
+Ubuntu 18.04, Stable build 14308
+
+VitalKanev#2348 - Bug Bot on 2018-05-01T10:45:23.280Z
+
+
+### simonizor#0420 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5ae6ebcd6f1fe99fda9d1322/8cb58397070043144e5543f57b91da59/2018-04-29_13-54-55.png added by Bug Bot on 2018-05-01T11:05:46.919Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Jared on 2018-05-01T16:56:23.619Z
+
+
+### Appears to be fixed on Canary 0.0.47 with the new Electron update to 1.8.6 - Tarek on 2018-05-02T06:33:44.909Z
+
+
+### After asking several Linux users that runs freetype 2.8.1, they can't reproduce this on either Canary 0.0.47 or 0.0.48. Moving to claimed fixed. - Tarek on 2018-05-02T14:42:13.672Z
+
+
+### Moved from Discord Verified Bugs to Claimed Fixed by Tarek on 2018-05-02T14:42:17.119Z
+
+
+### This was fixed by updating to Electron 1.8.6 in Canary; please update Electron in the other client versions, thanks 😄
+
+simonizor#0420 - Bug Bot on 2018-05-02T15:38:42.683Z
+
+
+### Can't reproduce.
+This has been fixed
+
+simonizor#0420 - Bug Bot on 2018-06-05T23:13:08.922Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

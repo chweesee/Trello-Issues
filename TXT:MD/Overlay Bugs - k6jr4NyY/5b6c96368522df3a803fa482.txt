@@ -1,0 +1,102 @@
+Closing the overlay while dragging a server causes the server icon to still follow the cursor ingame (https://trello.com/c/DBnTEl8c)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-08-09T19:29:58.986Z
+Latest Update: 2019-07-24T16:57:06.873Z
+
+Reported by Delite#0001
+
+####Steps to reproduce:
+- Open the overlay 
+- Start dragging a server in your server list 
+- Close the overlay while still dragging the server 
+- Observe
+
+####Expected result:
+The server reordering is cancelled when the overlay is closed
+####Actual result:
+The server icon still follows the cursor ingame until the overlay is opened again
+####Client settings:
+Discord Canary 21440
+####System settings:
+Windows 10 Pro x64
+
+17194
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-09T19:29:58.986Z
+
+
+### Hazard#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6c96368522df3a803fa482/f07ece2a8967827ee6c913085343a97d/Yaadhc8.png added by Bug Bot on 2018-08-09T19:30:01.749Z
+
+
+### Can reproduce.
+Discord Canary, Build Number: 21440, Windows 10 Pro x64
+
+Hazard#0001 - Bug Bot on 2018-08-09T19:30:06.525Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 21440, Even after opening the overlay again, you have to click once more for it to go away
+
+ExtraCrafTX#5775 - Bug Bot on 2018-08-09T19:30:11.708Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 build 17134, Canary build 21440
+
+SHARDcoder#6636 - Bug Bot on 2018-08-09T19:30:16.533Z
+
+
+### Can reproduce - Jared on 2018-08-20T23:31:45.760Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22587
+
+Frances Picard#6209 - Bug Bot on 2018-08-26T06:15:38.384Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Build 1803, Canary Build Number: 24227
+
+JVC Almeos#1984 - Bug Bot on 2018-09-20T03:12:11.797Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 37501
+
+Alipoodle#5025 - Bug Bot on 2019-05-13T20:43:42.307Z
+
+
+### Can Not Reproduce » Windows 10 Pro x64, Discord Canary 41583
+Moving to Claimed Fixed. - Aeria on 2019-07-20T14:41:15.018Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-07-20T14:41:18.376Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 41583
+
+charleskimbac#6492 - Bug Bot on 2019-07-21T06:32:43.649Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 41772 - This Issue happens with Folders now.
+
+Alipoodle#5025 - Bug Bot on 2019-07-24T09:43:44.815Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Aeria on 2019-07-24T16:57:06.888Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

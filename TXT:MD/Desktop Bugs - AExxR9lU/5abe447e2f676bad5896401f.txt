@@ -1,0 +1,96 @@
+[Archived] Bot tag is not readable on compact mode (next to username in chat) (https://trello.com/c/N4PBIXLO)
+
+P3: Will get fixed eventually,
+High,
+Bots
+
+Created: 2018-03-30T14:06:54.913Z
+Latest Update: 2018-07-06T18:03:28.215Z
+
+Reported by Robin#0610
+
+####Steps to reproduce:
+- Turn on compact-mode 
+- Navigate to a message sent by a bot
+
+####Expected result:
+The [BOT] tag appears
+####Actual result:
+A 4 pixels-wide tag is there, and appears empty
+####Client settings:
+Desktop Canary Build 12874
+####System settings:
+Debian 9 (Stretch)
+
+10025
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-30T14:06:54.913Z
+
+
+### Noahkiq#0493 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5abe447e2f676bad5896401f/183484678855cdc18c9609796a805251/I71agMQ.png added by Bug Bot on 2018-03-30T14:06:57.370Z
+
+
+### Can reproduce.
+Antergos 18.3 (basically Arch Linux 2018.03.01)
+
+Noahkiq#0493 - Bug Bot on 2018-03-30T14:07:02.337Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 12874
+
+webhp#1337 - Bug Bot on 2018-03-30T14:07:07.373Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (12874) Possible extension of https://trello.com/c/9ymcae50. But I will let Dabbit/Icy determine that, Windows 10 Pro 64-bit (1709)
+
+Tarek#1337 - Bug Bot on 2018-03-30T14:07:12.323Z
+
+
+### Can't reproduce.
+Discord PTB 12850, Windows 10 Home SL Fall Creators Update
+
+BakugouDeku#2560 - Bug Bot on 2018-03-30T17:51:40.506Z
+
+
+### Verified.  - Clayton on 2018-03-30T23:55:27.397Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-30T23:55:41.516Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64, Canary Build 12929; For me this bug first occured after I restarted discord in compact mode. As long as I never started it in compact mode, I was able to switch between modes without having this bug. But after starting it in compact mode, I am not able to get the tag back; In the Stable Build it's all fine for me tho
+
+LPerMike#4242 - Bug Bot on 2018-03-31T00:25:07.986Z
+
+
+### Cannot reproduce anymore, Discord Canary 13602. Moving to claimed fixed. - Tarek on 2018-04-14T08:36:08.684Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-04-14T08:36:11.764Z
+
+
+### Can no longer reproduce on Canary 14570, Mac OSX 10.12.6
+
+ - Clayton on 2018-05-03T20:56:57.215Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-05-03T20:57:01.777Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:03:26.484Z
+
+
+### Archived by Jared on 2018-07-06T18:03:28.217Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

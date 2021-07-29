@@ -1,0 +1,111 @@
+[Archived] [Overlay] Overlay fails to Cache/Load users on large servers. (https://trello.com/c/xFAmTH1e)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-03-29T05:18:19.361Z
+Latest Update: 2019-08-17T17:03:07.243Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game in Overlay 
+- On a large server, Click on a user who is unlikely to be cached. 
+- Notice they are likely offline and not playing anything 
+- Find the same person in Client. 
+- Click on them, notice it now caches them.
+
+####Expected result:
+When you click on a user they are successfully loaded and Game + Status is loaded
+####Actual result:
+When you click on a user they will generally show offline + No game, until they are cached in client
+####Client settings:
+Canary 34671
+####System settings:
+Win10 64x (1809)
+
+31759
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-29T05:18:19.361Z
+
+
+### Alipoodle#5025 - https://www.youtube.com/watch?v=0njyT53N6O4 added by Bug Bot on 2019-03-29T05:18:21.697Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary 34625
+
+Lelantos#4866 - Bug Bot on 2019-03-29T05:18:26.659Z
+
+
+### Can reproduce.
+cr; windows 7 x64, canary 34625
+
+sexyyy#7885 - Bug Bot on 2019-03-29T05:18:31.666Z
+
+
+### Can reproduce.
+Canary: 34771, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-29T05:18:36.689Z
+
+
+### Can't reproduce.
+Windows 10 x64, Discord Canary 34771
+
+Raizyr#8192 - Bug Bot on 2019-03-29T07:01:19.823Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 34771
+
+Killtracity#0001 - Bug Bot on 2019-03-29T10:16:41.247Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 34771
+
+Lily#2624 - Bug Bot on 2019-03-29T13:35:01.958Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 34771
+
+Zacatero#0001 - Bug Bot on 2019-03-29T16:30:03.417Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 34801
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-29T23:39:42.359Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 34822
+
+Daffyduck#5364 - Bug Bot on 2019-03-30T02:01:33.640Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-04-28T17:01:05.409Z
+
+
+### Verified on Canary 37031, Windows 10 Home 64-bit (v1809). - Ene on 2019-05-05T21:16:41.474Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ene on 2019-05-05T21:16:44.860Z
+
+
+### Extension of https://trello.com/c/TKyCSkxs - Aeria on 2019-08-17T17:03:05.360Z
+
+
+### Archived by Aeria on 2019-08-17T17:03:07.256Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

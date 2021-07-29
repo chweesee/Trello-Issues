@@ -1,0 +1,77 @@
+[Archived] If you full screen a YouTube link within Discord, it doesn't cover the whole screen, and the Windows Taskbar is still showing, preventing the bottom video options to be visible. (https://trello.com/c/doocJp01)
+
+None
+
+Created: 2016-12-07T20:08:21.620Z
+Latest Update: 2017-10-17T21:17:50.204Z
+
+Reported by /dev/null#5164
+
+####Steps to reproduce: 
+- Link a video and try and watch it in fullscreen. 
+
+####Expected result:
+ The whole window should be covered. 
+####Actual result:
+ The Windows Taskbar is still visible if its placed at the bottom of the screen. (Submitted for <@97947249690030080>)
+
+Card Log
+========
+### Added by Jared on 2016-12-07T20:08:21.620Z
+
+
+### Can reproduce.
+Discord <:canary:230435859097190412>. Only on laptop though.
+
+Maxie マキシ#2334 - Jared on 2016-12-07T20:08:55.137Z
+
+
+### Can reproduce.
+Windows 10
+
+Derumisis#7928 - Jared on 2016-12-07T20:10:11.700Z
+
+
+### Can reproduce.
+Windows 10, latest canary.
+
+Weeajew#3674 - Jared on 2016-12-07T20:10:32.659Z
+
+
+### Can't reproduce.
+Canary 0.0.149, Windows 10 x64 build 14393.447
+
+Pyker#4853 - Jared on 2016-12-07T20:31:41.679Z
+
+
+### Also cannot reproduce on Stable 0.0.296, Windows 10 x64. I've had that issue happen a lot of times with other apps as well, and it always returns to the expected behavior after I restart Explorer, so it's most likely not a Discord bug but rather a Windows one
+
+Pyker#4853 - Jared on 2016-12-07T20:42:14.637Z
+
+
+### Can't reproduce.
+Windows 7 x64, Canary 0.0.149
+
+Ian Murray#8701 - Jared on 2016-12-07T21:26:31.058Z
+
+
+### https://github.com/electron/electron/issues/7672
+
+Not a Discord issue. Can't Fix. - Jared on 2016-12-07T22:33:11.999Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-12-07T22:33:17.139Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:17:47.630Z
+
+
+### Archived by Jared on 2017-10-17T21:17:50.209Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

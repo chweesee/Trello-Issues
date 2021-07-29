@@ -1,0 +1,125 @@
+[Archived] If a user has more than one consecutive space in their name, you can't manually add them as a friend (https://trello.com/c/i7mPJO5a)
+
+High,
+P3: Will get fixed eventually
+
+Created: 2019-04-06T08:38:10.352Z
+Latest Update: 2019-07-22T00:00:06.727Z
+
+Reported by charleskimbac#6492
+
+####Steps to reproduce:
+- Have someone make their username something with multiple spaces(like 'a   1') 
+- Copy their name that appears on the user card(Right click user > Profile) 
+- Go to the Friends tab > Add Friend 
+- Paste and Enter
+
+####Expected result:
+The request should be valid or the username shouldn't get truncated in the user profile
+####Actual result:
+The user is invalid
+####Client settings:
+Canary 35116
+####System settings:
+Windows 10 Home
+
+32221
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-06T08:38:10.352Z
+
+
+### Can reproduce.
+Canary: 35116, Host 0.0.234, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-04-06T08:38:17.693Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64) · Web Canary 35116
+
+Casper#9999 - Bug Bot on 2019-04-06T08:38:22.683Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 35116
+
+Rage#9991 - Bug Bot on 2019-04-06T08:38:27.694Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 35116
+
+Neiron#8475 - Bug Bot on 2019-04-06T14:17:37.201Z
+
+
+### Can reproduce.
+Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+warp#4660 - Bug Bot on 2019-04-06T18:13:32.557Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 35116 | Reprod with name given in STR
+
+Clay#0001 - Bug Bot on 2019-04-06T19:14:54.560Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 35116
+
+Killtracity#0001 - Bug Bot on 2019-04-07T00:41:24.138Z
+
+
+### Can reproduce.
+Linux Mint 19.1 Tessa - Discord Canary 35116
+
+Seikatsu#0001 - Bug Bot on 2019-04-07T02:40:23.631Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 35116
+
+tech_dude1#9855 - Bug Bot on 2019-04-08T04:08:41.779Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.234 Build 35116
+
+Daffyduck#5364 - Bug Bot on 2019-04-08T04:30:54.758Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord: stable, Build Number: 35116
+
+TheFutureKnight#7664 - Bug Bot on 2019-04-08T13:45:39.485Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 35116 (Host 0.0.234)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-08T16:53:58.116Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 35116
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-09T01:55:26.841Z
+
+
+### Verified, seems like Discord strips out the second space. - Tarek on 2019-06-21T23:40:03.898Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2019-06-21T23:40:11.372Z
+
+
+### Archived by Bug Bot on 2019-07-22T00:00:06.741Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,59 @@
+When running as a standard user (ie without admin privileges), updates of Discord quietly fail and blocks the application from opening. (https://trello.com/c/TpDZH6fS)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2018-01-12T04:51:47.617Z
+Latest Update: 2019-09-23T22:30:07.948Z
+
+Reported by kjn#6166
+
+####Steps to reproduce:
+-  Install a previous version of Discord on Mac OS X (this tested on 10.13.2). Do not open the application! 
+- Create a standard user 
+- Switch to the standard user 
+- Open Discord
+
+####Expected result:
+Discord asks for administrator privileges (preferred) OR Discord quits with an error message that the software needs to be updated under administrator privileges.
+####Actual result:
+Discord will try to install an update and quit. - By switching back to a user with administrator privileges, it is possible to open the software, which shows a dialogue box about updating Discord or installing a helper app. This is blocked from appearing for the standard user.
+####Client settings:
+Discord 0.0.249
+####System settings:
+Mac OS X 10.13.2
+
+7229
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-12T04:51:47.617Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Fall Creators Update with Discord Canary 0.0.182 (That's what I had on my other account, just haven't updated). For Windows, it does not asks me for the admin permission and attempts to update, but only to fail and keep on trying with no hopes of the future. When it fails, there are no dialog errors to let us know.(edited)
+
+💜Christmas Kitty💗#4567 - Bug Bot on 2018-01-12T04:51:55.079Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 V1709 [Discord Canary 9405] - This also happens when your PC is on a domain and the account logged in does not have Administrative privlages. No prompt will ask you to enter Administrator credentials, therefore will quietly fail and make application freeze in the background. Logging into a Administrator account will update discord and allow other users to open discord normally again.
+
+Alexr03#1154 - Bug Bot on 2018-01-12T04:51:59.985Z
+
+
+### Can reproduce.
+Discord Canary 0.0.164, Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2018-01-12T04:52:04.989Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-06T21:25:21.987Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

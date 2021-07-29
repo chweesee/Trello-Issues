@@ -1,0 +1,104 @@
+[Archived] exploit allows a single link to embed multiple images (https://trello.com/c/qzc52LAN)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2020-02-28T14:45:55.885Z
+Latest Update: 2020-03-31T16:30:42.319Z
+
+Reported by Krpajda#0001
+
+####Steps to reproduce:post multiple images as a part of a single message from android 
+- copy links to both images into a single message 
+- copy this message (the multiple links) into a text input on desktop 
+- make the entire message a spoiler tag by adding [spoiler][spoiler][space] in front and [space][spoiler][spoiler] behind the message 
+- the spoiler does not highlight as it should in the text box 
+- post the message 
+- now whenever the link to one of the images is posted anywhere, all the previous images also post
+
+####Expected result:
+only the linked image should show up, just like when you open the link in browser
+####Actual result:
+all images previous to the one linked in the spoilered message show up. Sometimes, even in-line
+####Client settings:
+android 10.2.4(1039) (im not able to join android beta), desktop canary 55309
+####System settings:
+android 9 (nokia 6.2), win10
+
+52940
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-28T14:45:55.885Z
+
+
+### Can reproduce.
+I tested this bug with reporter, and I can successfully reproduce it. Admin approving it only because attempting to reproduce this is a mess. For any dev who needs assistance to reproduce it, hit me up on Discord.
+
+Tarek#1337 - Bug Bot on 2020-02-28T14:46:03.384Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2020-02-28T14:46:29.296Z
+
+
+### You can attempt testing this by pasting https://cdn.discordapp.com/attachments/597912594120048641/682946566566576138/image0_3.jpg anywhere with ``EMBED_LINKS`` permissions. You can also try doing something like ```|| https://cdn.discordapp.com/attachments/597912594120048641/682946566373245013/image0_2.jpg
+https://cdn.discordapp.com/attachments/597912594120048641/682946566104940578/image0_1.jpg ||``` to get weirder results. - Tarek on 2020-02-28T14:48:17.136Z
+
+
+### DiscordCanary_8gX7dZFBk7.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e5927a3a4740b3d3b24665c/238f0e868f567334d8b1ef27f10842a3/DiscordCanary_8gX7dZFBk7.png added by Tarek on 2020-02-28T14:49:34.552Z
+
+
+### DiscordCanary_O7cmPaimm1.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e5927a3a4740b3d3b24665c/4d3ad0cb3e7a1193e6e919aab22f492b/DiscordCanary_O7cmPaimm1.png added by Tarek on 2020-02-28T14:49:35.990Z
+
+
+### Can reproduce.
+Worked from iOS too; spoiler seems to be an extra step. MacBook Pro: macOS Catalina 10.15.3; Discord Canary 55309
+
+Jiralite#1207 - Bug Bot on 2020-02-28T15:01:19.739Z
+
+
+### Can reproduce.
+Worked without desktop too. Samsung Galaxy S7 Edge, Android 8.0.0 Android Alpha 11.1(1041)
+
+this is a very very long usernam#0002 - Bug Bot on 2020-02-28T15:06:04.207Z
+
+
+### https://github.com/discordapp/discord-api-docs/issues/1390#issuecomment-592877099 - Tarek on 2020-02-29T05:07:21.856Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Tarek on 2020-02-29T05:07:26.797Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2020-02-29T13:51:51.735Z
+
+
+### Can't reproduce.
+MacBook Pro: macOS Catalina 10.15.3; Discord Canary 55393 & iPhone 7: iOS 13.3.1; TestFlight 3.2.1 (19209)
+
+Jiralite#1207 - Bug Bot on 2020-02-29T13:56:44.499Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Pro, Canary 55393 | iPhone 7 Plus iOS 13.3.1, TestFlight 3.2.1 (19209)
+
+Action Potential#1999 - Bug Bot on 2020-03-01T15:54:16.841Z
+
+
+### Can't reproduce.
+[CNLR] Windows 10 Pro Build 18363.657, Canary Build 55309, Samsung Galaxy S9+, Android 10.0, Discord 11.5
+
+Creedoo#3626 - Bug Bot on 2020-03-01T16:06:52.199Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2020-03-01T16:06:52.524Z
+
+
+### Archived by Bug Bot on 2020-03-31T16:30:42.340Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

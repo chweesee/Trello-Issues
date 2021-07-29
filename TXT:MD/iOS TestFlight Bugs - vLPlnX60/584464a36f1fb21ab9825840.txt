@@ -1,0 +1,153 @@
+[Archived] Title / Status Bar in incorrect color [MASTER] (https://trello.com/c/qPpZLhhk)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2016-12-04T18:46:59.431Z
+Latest Update: 2019-10-07T07:34:13.654Z
+
+Reported by MattBSG#9263
+
+####Steps to reproduce: 
+- Ensure you're using the Dark Theme
+- Goto attach picture through camera roll 
+
+####Expected result:
+ Non translucent color 
+####Actual result:
+ unreadable white title bar
+
+Card Log
+========
+### Added by Jared on 2016-12-04T18:46:59.431Z
+
+
+### MattBSG#9263 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/584464a36f1fb21ab9825840/11cfd02765cf4c262ae2e53e23dc955e/image.png added by Jared on 2016-12-04T18:47:29.466Z
+
+
+### Can reproduce.
+iPhone 6s, latest TF, ios 10.2
+
+dinos#0649 - Jared on 2016-12-04T18:47:57.449Z
+
+
+### Can reproduce.
+iOS 9.2 Developer Beta 5, latest TestFlight
+
+Dru#8209 - Jared on 2016-12-04T18:48:26.739Z
+
+
+### Verified. - Jared on 2016-12-08T18:46:27.961Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-08T18:46:30.830Z
+
+
+### Verified this issue still occurs as written as of 1.8.0 (56)
+
+This is referring to the time/battery info/etc on the very top. - Jared on 2016-12-19T23:46:23.653Z
+
+
+### This bug no longer occurs, marking as Verified Fixed. - Jared on 2017-10-25T19:58:06.669Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-25T19:58:09.546Z
+
+
+### Can reproduce.
+Still an issue for me like in the picture above. iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5, TestFlight 1.9.3 (1336)
+
+Pascal#0929 - Bug Bot on 2017-10-26T11:04:22.189Z
+
+
+### Can reproduce.
+Only with dark theme though (if it happens on white theme, it's most likely a rare iOS bug). Black theme has white status bar text, and the image selector is a white panel, so it'll be white text on a white panel. iPhone 8 Plus, iOS 11.1 (PB5), Discord TestFlight 1.9.3 (1336)
+
+juj#5114 - Bug Bot on 2017-10-26T11:26:24.963Z
+
+
+### ​I can reproduce this 100% of the times when using the dark theme.
+
+Discord 1.9.3 (1336), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-26T11:33:43.143Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Jared on 2017-10-26T18:03:05.567Z
+
+
+### Re-opened and added critical information. - Jared on 2017-10-26T18:03:15.656Z
+
+
+### **Extension to this issue: Auto-fill in password menu with wrong status bar color**
+
+- Activate iCloud Keychain in your iOS settings
+- Change your theme to dark theme
+- Logout of your Discord account
+- Click on "Login"
+- Click on the key above your virtual keyboard to show more accounts
+- Click on the button "Other Passwords..."
+- Observe the status bar color (see attached picture)
+
+Pascal#0929 - Bug Bot on 2018-02-09T13:57:06.254Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/584464a36f1fb21ab9825840/7a3f4589dd47063064ed9a01ec1449c7/h9XKZW7.png added by Bug Bot on 2018-02-09T13:58:02.858Z
+
+
+### Extension to this issue: 
+- Go to User Settings
+- Click on your profile picture
+You will see the camera roll to pop up, where you can see that the top status is even worse in reading.
+
+I tested on iPhone 8 + running iOS 12, Dev Beta 6 with Discord TestFlight 2.3.6 (6755). It's an extension because of the different reproduction steps, but same end result. - Ghoul on 2018-08-14T07:38:28.776Z
+
+
+### Archived by Clayton on 2018-09-13T08:00:01.871Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12 - TestFlight 2.3.9 (7858)
+
+Alfie#1582 - Bug Bot on 2018-10-02T21:34:26.166Z
+
+
+### Unarchived by Clayton on 2018-10-02T22:00:04.552Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.3 Beta (16D5032a) - TestFlight 2.4.2 (10573)
+
+Isabel#0002 - Bug Bot on 2019-01-15T07:50:32.384Z
+
+
+### Here are the extensions as noted by Victoria.
+• https://trello.com/c/P8oCyiuX
+• https://trello.com/c/mJxmejj0 - Ghoul on 2019-04-02T04:50:43.000Z
+
+
+### Archived by Bug Bot on 2019-05-09T20:30:09.622Z
+
+
+### Can reproduce.
+iOS 12.3b5 iPhone 6 TF 3.0.1 (14776)
+
+! siLent#9597 - Bug Bot on 2019-05-10T23:03:36.668Z
+
+
+### Unarchived by Bug Bot on 2019-05-10T23:30:05.457Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.1.2 - TestFlight 3.0.3 (15638)
+
+Aizoule#6864 - Bug Bot on 2019-06-08T09:20:18.186Z
+
+
+### Archived by Bug Bot on 2019-07-13T20:00:14.835Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

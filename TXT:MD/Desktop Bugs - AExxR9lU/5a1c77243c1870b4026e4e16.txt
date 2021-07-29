@@ -1,0 +1,99 @@
+Embed update with not yet cached image mixes fields content (https://trello.com/c/b1LRAZkU)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2017-11-27T20:35:48.824Z
+Latest Update: 2019-04-02T20:41:56.699Z
+
+Reported by DaFri_Nochiterov#4289
+
+####Steps to reproduce:
+- Have bot that can send and update embeds (in my example it's my own bot Snowball; I can send you link to the testing server, pls DM) 
+- Send embed and after some time update it with some fields content 
+- Next update push should contain thumbnail or image (?) that wasn't cached on Discord servers yet (?)
+
+####Expected result:
+Embed updates absolutely fine
+####Actual result:
+Content of some fields becomes 'mixed' / 'corrupted' until you re-open channel
+####Client settings:
+Discord Canary 0.0.180, Build 7653
+####System settings:
+Windows 10 Pro 1709 (17035)
+
+6650
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-27T20:35:48.824Z
+
+
+### DaFri_Nochiterov#4289 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a1c77243c1870b4026e4e16/d7d7283335ae984a703d88d9903c522b/RnBRgcL.gif added by Bug Bot on 2017-11-27T20:35:51.411Z
+
+
+### DaFri_Nochiterov#4289 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a1c77243c1870b4026e4e16/05857c7b078e5114650b422336193c04/THPvvxp.gif added by Bug Bot on 2017-11-27T20:35:51.508Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.180 (Build 7653) on Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-11-27T20:35:56.438Z
+
+
+### Can reproduce.
+CR on Windows 8.1 x64, Canary 0.0.180
+
+Generic66#3394 - Bug Bot on 2017-11-27T20:36:01.188Z
+
+
+### Can reproduce.
+Can reproduce, took a couple of tries for me in DaFri's server, Canary 7653, on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-11-27T20:36:06.398Z
+
+
+### Can reproduce.
+Linux Mint 18 + Openbox, Discord Canary 0.0.31
+
+cloudrac3r#5547 - Bug Bot on 2017-11-28T04:39:01.442Z
+
+
+### Verified, Canary 7913.
+
+it's a really hard one to reproduce, but the bug is there. - Tarek on 2017-12-01T06:14:20.408Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-01T06:14:26.934Z
+
+
+### MrWasdennnoch#0443 - https://i.imgur.com/GGl7n8W.gifv added by Bug Bot on 2018-04-16T17:06:06.799Z
+
+
+### Can reproduce.
+Latest Canary (June 20th 2018 - 17:35 UTC) - Windows 10 x64 1803 (Pro)
+
+iDroid#4441 - Bug Bot on 2018-06-20T17:36:04.853Z
+
+
+### CNR - Clayton on 2018-10-06T00:03:29.174Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-06T00:03:59.040Z
+
+
+### Still happens on Discord Canary 0.0.215 (25718) on Windows 10 Pro 64-bit (1809). Can be reproduced with announceBot's +guide command.
+https://i.imgur.com/XtEd6RH.png
+
+Reopening. - Tarek on 2018-10-09T17:20:34.684Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2018-10-09T17:20:39.573Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

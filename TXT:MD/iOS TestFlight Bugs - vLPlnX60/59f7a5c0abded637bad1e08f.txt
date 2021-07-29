@@ -1,0 +1,81 @@
+[Archived] Call Duration Pauses when Screen is Locked (https://trello.com/c/q0SVyIiD)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-10-30T22:20:48.495Z
+Latest Update: 2020-06-12T20:30:10.564Z
+
+Reported by Ben#4331
+
+####Steps to reproduce:
+- Call a Friend 
+- Observe the Call Duration 
+- Lock your iPhone, by pressing the Sleep/Wake Button 
+- Wait for a few seconds (however long you want) 
+- Unlock your iPhone 
+- Observe the Call Duration Again
+
+####Expected result:
+Call Duration Displays Correct Duration
+####Actual result:
+Call Duration is Paused, which means it is displaying the wrong Information
+####Client settings:
+TestFlight 1.9.3 (Build 1340)
+####System settings:
+iPhone 6S Plus, iOS 11.1 (Beta 4)
+
+5877
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-30T22:20:48.495Z
+
+
+### Can reproduce.
+CR, tested with and present since 1165 (since the counter got added) up to 1340. iPhone 8 Plus, iOS 11.1 (PB5), Discord TestFlight 1.9.3 (1340)
+
+🎃 Spoopy juj 🎃#5114 - Bug Bot on 2017-10-30T22:20:55.942Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5, Discord Stable 1.9.4. Test it with multiple calls if you can't reproduce
+
+Pascal#0929 - Bug Bot on 2017-10-30T22:21:00.859Z
+
+
+### Can reproduce.
+iPhone 6s, ios 11.0.3 with testflight 1.9.3 (1340)
+
+Jakob#6834 - Bug Bot on 2017-10-30T22:21:05.881Z
+
+
+### It doesn't pause, but it's definitely not tracking properly. Very minor issue. - Jared on 2017-11-07T19:45:53.261Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-07T19:45:58.018Z
+
+
+### 54D#1357 - https://youtu.be/QVMZ9MTYuVA added by Bug Bot on 2018-07-14T05:23:54.482Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:55.107Z
+
+
+### When you have the sensor covered for a few minutes, it also triggers the timer not moving maybe even a disconnect.
+
+.Gloria.#9606 - Bug Bot on 2020-04-15T13:13:41.919Z
+
+
+### Unarchived by Bug Bot on 2020-04-15T13:30:06.799Z
+
+
+### Archived by Bug Bot on 2020-06-12T20:30:10.573Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

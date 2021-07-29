@@ -1,0 +1,137 @@
+Disabling nearby scanning makes the animation freeze (https://trello.com/c/MlMAq56I)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2019-09-11T17:08:47.985Z
+Latest Update: 2019-12-05T23:00:35.034Z
+
+Reported by Xylium#5800
+
+####Steps to reproduce:
+- Open discord 
+- Go to friends tab 
+- Tap on add friends 
+- If it isn’t scanning, start it 
+- Disable scanning 
+- Observe
+
+####Expected result:
+The animation should reset back
+####Actual result:
+The animation freezes
+####Client settings:
+TestFlight 3.1.2 (17237)
+####System settings:
+iPhone X, iOS 13.1 (dev beta 3)
+
+43938
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-11T17:08:47.985Z
+
+
+### Can reproduce.
+cr iPhone se iOS 12.3.1, TestFlight 3.1.2 (I think it resets at the wrong point, as starting scanning resets it to the start)
+
+Timemaster111#8292 - Bug Bot on 2019-09-11T17:08:55.843Z
+
+
+### Can reproduce.
+CR iPhone XR iOS 12.4.1 TestFlight 3.1.2 (17237)
+
+binchlord#0998 - Bug Bot on 2019-09-11T17:09:00.626Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.4, TestFlight 3.1.2 (17237)
+
+Ice#9999 - Bug Bot on 2019-09-11T17:09:05.980Z
+
+
+### Can reproduce.
+iPhone 7 Plus - iOS 12.4 - TestFlight 3.1.2 (17237)
+
+Ayu#0001 - Bug Bot on 2019-09-11T17:46:47.714Z
+
+
+### Can reproduce.
+iPhone 7, TestFlight 3.1.2 17237
+
+Scrumpy#0200 - Bug Bot on 2019-09-11T18:36:11.207Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.4.1, TestFlight 3.1.2 (17237)
+
+.Gloria.#9606 - Bug Bot on 2019-09-11T22:41:08.302Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.1.2, TestFlight 3.1.2 (17237)
+
+1st#3965 - Bug Bot on 2019-09-13T05:08:42.115Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-09-20T19:00:09.739Z
+
+
+### Moved from Backlog to Friends List by Pascal on 2019-10-03T07:32:08.213Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.4 (17575) with iPad Pro (11-inch) running iPadOS 13.1.2.
+
+There is no longer an option to disable nearby scanning. Closing/opening the screen will enable/disable it.
+
+Moving to Claimed Fixed list. - Pascal on 2019-10-05T09:43:03.201Z
+
+
+### Moved from Friends List to Claimed Fixed Bugs by Pascal on 2019-10-05T09:43:13.932Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 13.1.2 - TestFlight 3.1.4 (17575)
+
+Daffyduck#5364 - Bug Bot on 2019-10-05T09:46:39.165Z
+
+
+### Can't reproduce.
+iPhone 11, iOS 13.2 (dev beta) - TestFlight 3.1.4 (17575)
+
+Xylium#5800 - Bug Bot on 2019-10-05T10:01:47.295Z
+
+
+### Can't reproduce.
+CNR, iPhone 7 Plus iOS 13.1.2, TestFlight 3.1.4 (17575)
+
+Action Potential#6862 - Bug Bot on 2019-10-05T13:34:56.764Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-10-05T13:34:57.162Z
+
+
+### Archived by Bug Bot on 2019-11-04T14:00:52.951Z
+
+
+### The changes that - amongst other things - fix this issue have been reverted in newer builds. Moving the ticket back. - Aeria on 2019-11-07T02:09:41.725Z
+
+
+### Moved from Verified Fixed to Friends List (Steve) by Aeria on 2019-11-07T02:09:54.220Z
+
+
+### Unarchived by Aeria on 2019-11-07T02:09:54.269Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.2.3; TestFlight 3.1.9 (18456)
+
+Jiralite#1207 - Bug Bot on 2019-12-05T23:00:35.048Z
+
+List
+====
+Friends List (Steve)
+
+Members
+=======
+None

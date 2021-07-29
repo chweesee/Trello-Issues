@@ -1,0 +1,54 @@
+Overlay doesn't initially load Messages when opening a channel for the first time. (https://trello.com/c/Z7BWU5wu)
+
+None
+
+Created: 2020-01-10T07:34:09.149Z
+Latest Update: 2020-04-04T16:18:20.123Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game with overlay 
+- Open overlay 
+- Notice the Chat
+
+####Expected result:
+The Chat loads the first page of messages instantly
+####Actual result:
+You see no messages but have a Click to Load messages button at the top
+####Client settings:
+Canary 52155 (0.0.259) [discord_overlay2: 71]
+####System settings:
+Win10 64x (1903)
+
+51289
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-10T07:34:09.149Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1909 Build: 18363.476 - Discord canary, Build Number: 52249
+
+Xylium#5800 - Bug Bot on 2020-01-10T07:34:16.600Z
+
+
+### Can reproduce.
+CR : Windows 10 x64 Home V1909 - Discord Canary 52285
+
+Alice_#0101 - Bug Bot on 2020-01-10T07:34:21.587Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro v1903, Discord Canary 52345
+
+Makxelt#0001 - Bug Bot on 2020-01-10T07:34:26.595Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

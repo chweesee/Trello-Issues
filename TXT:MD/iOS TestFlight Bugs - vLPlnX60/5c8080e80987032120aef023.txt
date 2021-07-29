@@ -1,0 +1,117 @@
+[Archived] Recently deleted messages display when restarting Discord (https://trello.com/c/OFX9XMu2)
+
+None
+
+Created: 2019-03-07T02:24:40.148Z
+Latest Update: 2019-06-28T09:02:14.985Z
+
+Reported by Solo#0007
+
+####Steps to reproduce:
+- Send a message in a channel 
+- Delete it 
+- Close the app 
+- Reopen the app
+
+####Expected result:
+The deleted message should not display while loading, cache has been cleared since you closed the app.
+####Actual result:
+The deleted message appears until Discord finishes connecting.
+####Client settings:
+TestFlight 2.4.6 (11856)
+####System settings:
+iPhone 5s, iOS 12.1.4
+
+30429
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-07T02:24:40.148Z
+
+
+### Solo#0007 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c8080e80987032120aef023/a115e2db9a8981b392596ecc2aa16999/iX1dXw7.gif added by Bug Bot on 2019-03-07T02:24:43.164Z
+
+
+### Can reproduce.
+[CR] • iPad Pro 2016 (A1673) - iOS 12.1.4 • TestFlight 2.4.6 (11856)
+
+k_fizzel#8616 - Bug Bot on 2019-03-07T02:24:47.675Z
+
+
+### Can reproduce.
+canrepro : iOS iPod Touch 6th Generation 12.0, 2.4.6
+
+OldWampa#7897 - Bug Bot on 2019-03-07T02:24:52.664Z
+
+
+### Can reproduce.
+iPad Air | iOS 12.1.3 | TF 2.4.6 (11856)
+
+charleskimbac#6492 - Bug Bot on 2019-03-07T02:24:57.674Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1.4 - TestFlight 2.4.6 (11856)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-03-07T02:25:13.778Z
+
+
+### This looks like an extension of https://trello.com/c/cTNKbfsK with the root cause being any previously shown messages reappear on the app while connecting
+
+Rashaun#8467 - Bug Bot on 2019-03-07T02:27:16.128Z
+
+
+### Moved from New Issues to Caching by Fanghao on 2019-03-07T04:53:53.539Z
+
+
+### Moved from Caching to Fix made, not yet released by Fanghao on 2019-03-07T05:16:22.709Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.1.4 - TestFlight 2.4.6 (11874)
+
+tech_dude1#9855 - Bug Bot on 2019-03-07T06:32:17.602Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.4.6 (11874)
+
+Killtracity#0001 - Bug Bot on 2019-03-07T11:25:24.337Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2019-03-09T01:32:20.084Z
+
+
+### Can't reproduce.
+iPhone SE iOS 12.1.4 - TestFlight 2.4.6 (12026)
+
+Daffyduck#5364 - Bug Bot on 2019-03-09T01:37:05.191Z
+
+
+### Can't reproduce.
+iPad Pro 2018, iOS 12.2 beta 4, TestFlight 2.4.6
+
+Quantum Octoling#0712 - Bug Bot on 2019-03-09T03:01:17.556Z
+
+
+### Can't reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 2.4.6 (12026)
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-09T04:46:56.729Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-03-09T04:46:56.948Z
+
+
+### This ticket has been in Verified Fixed for over a month without any activity. So, I am archiving this ticket. - Ghoul on 2019-04-09T00:59:08.482Z
+
+
+### Archived by Ghoul on 2019-04-09T00:59:09.629Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

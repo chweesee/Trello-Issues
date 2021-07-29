@@ -1,0 +1,83 @@
+[Archived] If you click on a mentioned channel that just got deleted or you left the server OR clicking on a copy message link from a server you are not part of, the websocket will crash. (https://trello.com/c/z1qL23ve)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-06-13T21:05:22.436Z
+Latest Update: 2020-01-03T22:53:27.577Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Mention a channel 
+- Leave the server where the channel belongs to without leaving the channel where you mentioned that channel 
+- Click on it 
+- Observe the console 
+- OR 
+- Ask someone to send a "Copy link" link to you to a server you are not part of. (channel wont work) 
+- Click on it then observe console
+
+####Expected result:
+It should properly handle the invalid jump without crashing the websocket
+####Actual result:
+It crashes both regular websocket and voice chat (if you are in one)
+####Client settings:
+Discord Canary 0.0.210 (16868)
+####System settings:
+Windows 10 Pro 64-bit (1803)
+
+14132
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-13T21:05:22.436Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b21871241a4c94706dd1c49/c457049772630e87573b0bb6731a3f24/2018-06-13_21-01-28.gif added by Bug Bot on 2018-06-13T21:05:25.672Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 16868
+
+mrkirby153#7840 - Bug Bot on 2018-06-13T21:05:29.933Z
+
+
+### Can reproduce.
+Can Reproduce (CR). Windows 10 Home x64 (v1809), Discord Stable (v16727)
+
+Hazel 💤#5205 - Bug Bot on 2018-06-13T21:05:35.003Z
+
+
+### Can reproduce.
+Can Repro, macOS 13.11.3, canary 16859
+
+ash#0001 - Bug Bot on 2018-06-13T21:05:39.917Z
+
+
+### Verified, low priority as this isn't a scenario that's going to happen frequently. - Jared on 2018-06-14T21:39:11.384Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-14T21:39:17.900Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:50.490Z
+
+
+### Can reproduce.
+Canary 39968/W10 Pro. Still happens, probably higher priority now that people use Copy Link imo (any invalid link causes the websocket reset)
+
+kabii#0001 - Bug Bot on 2019-06-19T05:10:04.847Z
+
+
+### Unarchived by Bug Bot on 2019-06-19T05:30:05.411Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:58.988Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

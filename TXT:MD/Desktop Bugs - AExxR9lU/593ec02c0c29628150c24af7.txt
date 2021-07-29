@@ -1,0 +1,113 @@
+[Archived] Audio Debug menu Freeze (https://trello.com/c/RSTemtGQ)
+
+None
+
+Created: 2017-06-12T16:24:12.557Z
+Latest Update: 2017-11-15T19:31:33.777Z
+
+Reported by DeJay#3628
+
+####Steps to reproduce:
+- Be an a voice channel 
+- Select Info, then Debug
+- Click users
+
+####Expected result:
+View the users in the channel
+####Actual result:
+the window doesn't update and is completely unclosable, requires reload
+####Client settings:
+Discord Canary 0.0.157
+####System settings:
+Windows 10 x64, Canary 0.0.157
+
+1580
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-12T16:24:12.557Z
+
+
+### DeJay#3628 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593ec02c0c29628150c24af7/b349cd8ec6b72870ae8a3298c7713ea6/43UBtqb.gif added by Bug Bot on 2017-06-12T16:24:15.799Z
+
+
+### Can reproduce.
+Can reproduce with "Awaiting Endpoint" Cannot reproduce with full connection. Ubuntu 16.04 LTS; Discord Canary 0.0.19
+
+Alkali_Metal#7806 - Bug Bot on 2017-06-12T16:24:17.017Z
+
+
+### Can reproduce.
+ Windows 10 x64 Creators Update Canary 0.0.157 setting the region to something like sydney helps get the awaiting endpoint
+
+Daan#3356 - Bug Bot on 2017-06-12T16:24:19.068Z
+
+
+### Can reproduce.
+CR,  Windows 10 Home x64, Discord Canary 0.0.155
+
+Joseph#9413 - Bug Bot on 2017-06-12T16:24:21.132Z
+
+
+### Can reproduce.
+Can also only reproduce when "Awaiting Endpoing" - Ubuntu 17.04; Linux Canary 0.0.19
+
+Noahkiq#2928 - Bug Bot on 2017-06-12T17:51:32.887Z
+
+
+### Can reproduce.
+Windows 10 x64 Home - Latest Canary Update
+
+sladeiam#0642 - Bug Bot on 2017-06-12T20:26:52.788Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-06-12T20:37:33.822Z
+
+
+### DeJay#3628 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593ec02c0c29628150c24af7/4b448410e2ae09c5fa1f09dd4ad08718/image.png added by Bug Bot on 2017-06-13T23:24:33.487Z
+
+
+### In order to repro without a crashed voice server: Change region to somewhere such as Sydney and use the Dev Tools "Network" tab to throttle internet speeds. I found that 5000ms, 1 kb/s, 1 kb/s, allows for the greatest amount of time to catch the bug in action.
+
+DeJay#3628 - Bug Bot on 2017-06-13T23:26:20.000Z
+
+
+### The error below is spammed very quickly in console.
+
+DeJay#3628 - Bug Bot on 2017-06-13T23:26:54.375Z
+
+
+### Another way to repo:  - Connect to a voice channel  - Open RTC debug menu - Get removed from the server the voice channel is part of / delete the channel- Click on User section in RTC panel
+
+Ω¹²#8421 - Bug Bot on 2017-06-13T23:34:15.553Z
+
+
+### - Connect to a voice channel  - Open RTC debug menu - Get removed from the server the voice channel is part of / delete the channel- Click on User section in RTC panel
+
+Ω¹²#8421 - Bug Bot on 2017-06-13T23:35:33.933Z
+
+
+### New voice debug menu implemented. Can no longer reproduce, build 5085, Win 10 x64 CU. - Mike Nisbet on 2017-09-29T18:53:00.543Z
+
+
+### Moved from Cannot Reproduce to Claimed Fixed, needs Verification by Mike Nisbet on 2017-09-29T18:53:04.762Z
+
+
+### Fixed.  - Clayton on 2017-10-04T01:13:14.770Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T01:13:18.657Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:31:33.107Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:31:33.780Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

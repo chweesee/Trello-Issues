@@ -1,0 +1,103 @@
+[Archived] Cursor stays in the text box after "Slow Down" popup appears when sending friend requests too quickly. (https://trello.com/c/e7mSjVpu)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-12-24T02:01:39.710Z
+Latest Update: 2019-02-01T19:00:30.733Z
+
+Reported by Solo#0007
+
+####Steps to reproduce:
+- Go to the add friends tab 
+- Search/send friend requests until the popup appears 
+- Observe how the cursor remains in the textbox and you can type 
+- Observe how when you hit enter, it not only closes the popup, but resubmits the friend request resulting in yet another popup
+
+####Expected result:
+The cursor should no longer be in the text box.
+####Actual result:
+The cursor remains in the text box.
+####Client settings:
+Canary 30291
+####System settings:
+Windows 7 Home Premium x64 v7601
+
+25081
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-24T02:01:39.710Z
+
+
+### Can reproduce.
+Windows 10 home x64 v. 1803 - Canary 30291. you have to send friend requests using the enter key and not the by clicking on the send button for this to work
+
+J1#0088 - Bug Bot on 2018-12-24T02:01:47.207Z
+
+
+### Can reproduce.
+CR; Windows 7 Pro 64bits (build 7601) Desktop Canary 30291
+
+Longinus#0293 - Bug Bot on 2018-12-24T02:01:52.149Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 30291
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-12-24T02:01:57.099Z
+
+
+### Can reproduce.
+Windows 10 Home, Version 1803; Discord Canary, Build 30291;
+
+S6out#1111 - Bug Bot on 2018-12-24T02:22:40.549Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Version: 1803; Build: 17134.472; Desktop Canary, 30291
+
+Sosig#0001 - Bug Bot on 2018-12-24T03:25:54.266Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Pro, Discord Canary 30290
+
+1Storm#0001 - Bug Bot on 2018-12-24T07:12:32.628Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,Canary 30291
+
+Octillion#6666 - Bug Bot on 2018-12-24T15:48:50.709Z
+
+
+### Can reproduce.
+CR; Windows 10 Home x64 | Stable 30291
+
+charleskimbac#6492 - Bug Bot on 2018-12-24T17:02:01.435Z
+
+
+### Can reproduce.
+CR, Windows 1809 Canary 30302
+
+ginkoid#8888 - Bug Bot on 2018-12-26T22:29:58.088Z
+
+
+### Believe it or not, this is actually a dupe of https://trello.com/c/fJV49Rhw/164-spamming-messages-at-a-ludricous-rate-causes-more-than-one-chill-zone-dialog-to-appear-clickling-through-all-of-them-can-take-a
+
+The reason that issue ^ happens is because of what's noted here. The cursor is still in the text bot which makes the pop up show up again. It's the same bug. However, as noted in that ticket, it's a Won't Fix and the solution is to not spam so much. - Jared on 2019-01-02T18:36:02.904Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2019-01-02T18:37:30.894Z
+
+
+### Archived by Bug Bot on 2019-02-01T19:00:30.746Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,90 @@
+[Archived] With autocomplete suggestions, after you've clicked on a suggestion to complete your `:emojiname:` for an example, and do `ctrl + z`, it will start removing from what you've typed in before you've clicked on a suggestion instead of removing the whole `:emojiname:`. Same with all autocomplete suggestions. (https://trello.com/c/RZSW31QO)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-02-28T17:30:59.906Z
+Latest Update: 2018-10-22T20:18:39.051Z
+
+Reported by nuke#1337
+
+####Steps to reproduce:
+- Use emoji matching to complete an emoji name 
+- Do `ctrl + z`
+
+####Expected result:
+Doing `ctrl + z` removes the whole emoji name.
+####Actual result:
+It starts removing from what you've typed in before autocompleting and doesn't remove the autocomplete portion up until there is nothing else behind it to remove.
+####Client settings:
+Stable, 10097
+####System settings:
+Win 10 Pro x64
+
+9182
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-28T17:30:59.906Z
+
+
+### Can reproduce.
+Canary build 11323, Windows 10 Pro build 15063
+
+Immo#9999 - Bug Bot on 2018-02-28T17:31:07.389Z
+
+
+### Can reproduce.
+windows 10 1709 x64, Acer aspire VX,  Discord canary - Build number:  11323
+
+Eagler1997#7990 - Bug Bot on 2018-02-28T17:31:12.387Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Build 16299), Discord Canary (Build 11323)
+
+firekeeper#3383 - Bug Bot on 2018-02-28T17:31:17.376Z
+
+
+### Can reproduce.
+Windows 10 Home, Discord Stable, Build Number: 11332
+
+WarGamer#0302 - Bug Bot on 2018-03-01T07:57:09.848Z
+
+
+### Verified.  - Clayton on 2018-03-01T20:58:13.492Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-01T20:58:18.634Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary Build nº 11430, Version Hash 1b951ef9aa3e9933d540bcf2fef73501b71f113e
+
+PillGP#2767 - Bug Bot on 2018-03-03T00:15:33.474Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12159
+
+cutelilberry#5423 - Bug Bot on 2018-03-16T12:46:56.361Z
+
+
+### Can reproduce.
+Debian Stretch, Gnome 3.22, Discord Linux Canary 0.0.51 (Build 16727) Note: the same happens with completed /giphy or /tenor commands.
+
+Robin#0610 - Bug Bot on 2018-06-10T18:30:15.716Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a96e753adbdbc738e349e69/7e0845366f95e1eb9a6aa19347077798/sonTbfG.gif added by Bug Bot on 2018-07-14T12:32:13.793Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:39.054Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

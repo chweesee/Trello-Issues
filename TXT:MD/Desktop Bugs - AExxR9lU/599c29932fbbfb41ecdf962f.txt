@@ -1,0 +1,59 @@
+[Archived] Webpage with excessive strange Unicode characters in an embed crashes client (https://trello.com/c/OVgYyB7y)
+
+None
+
+Created: 2017-08-22T12:54:43.083Z
+Latest Update: 2017-08-22T16:49:07.238Z
+
+Reported by vicr123#5096
+
+####Steps to reproduce:
+- Ensure link previews are on in the client 
+- Link a page with excessive strange Unicode. A page this works with is http colon slash slash steamcommunity dot com slash groups slash cheatgiveaways (warning: this page will probably crash your web browser if you head to it)
+
+####Expected result:
+Discord gives up displaying the embed and doesn't embed it
+####Actual result:
+The client freezes, and you need to manually terminate the client. Additionally, the channel is no longer accessible until you turn off link previews in your user settings. (test with caution.)
+####Client settings:
+Canary 0.0.24
+####System settings:
+Arch Linux
+
+3497
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-22T12:54:43.083Z
+
+
+### Can reproduce.
+CR, Arch Linux, Discord Canary 0.0.24
+
+Starshine Dust#2189 - Bug Bot on 2017-08-22T12:54:50.512Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home Creators Update x64, Canary 0.0.163
+
+TTtie#4900 - Bug Bot on 2017-08-22T12:54:55.524Z
+
+
+### Can reproduce.
+CR // Windows 10 Home (Creator's Update) x64, Canary v0.0.163
+
+P4risAndStuff#7243 - Bug Bot on 2017-08-22T12:55:00.512Z
+
+
+### Please don't report strange character crashes here. They should go to support@discordapp.com - Jared on 2017-08-22T16:49:05.232Z
+
+
+### Archived by Jared on 2017-08-22T16:49:07.240Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

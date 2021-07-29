@@ -1,0 +1,79 @@
+[Archived] The right click Invite to Server menu contains servers with no channels (text or voice) (https://trello.com/c/OaGBohrl)
+
+P2: Fix can wait a while
+
+Created: 2017-08-09T20:33:34.652Z
+Latest Update: 2017-12-02T17:16:58.037Z
+
+Reported by Gallium#1327
+
+####Steps to reproduce:
+- Create a server 
+- Remove the text and voice channels 
+- right click a user 
+- mouse over Invite to Server
+
+####Expected result:
+The list of servers appears, save for the one without any channels, and thus, no invites
+####Actual result:
+The list is there including the server you just made, despite the fact you can't make invites for a server without channels.
+####Client settings:
+Canary 0.0.24
+####System settings:
+Xubuntu 16.04
+
+2990
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-09T20:33:34.652Z
+
+
+### Can reproduce.
+Can repro on Discord Canary 0.0.154, macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017). Clicking the server does nothing.
+
+advaith#9121 - Bug Bot on 2017-08-09T20:33:42.160Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 15063, Discord Canary 0.0.163
+
+Charles#1934 - Bug Bot on 2017-08-09T20:33:47.151Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.163 (Build 2984) - Win 10 Pro x64 v1607
+
+Pointy#9109 - Bug Bot on 2017-08-09T20:33:52.117Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163
+
+[TRED] AlFas#2783 - Bug Bot on 2017-08-09T20:36:25.711Z
+
+
+### Verified.  - Clayton on 2017-08-09T21:09:07.369Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T21:09:14.029Z
+
+
+### This bug is no longer valid with the default channel change. However there is technically a different bug. - Jared on 2017-10-17T01:37:44.060Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-17T01:37:48.273Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:16:57.151Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:16:58.039Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

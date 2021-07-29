@@ -1,0 +1,107 @@
+[Archived] Streamer Status stays as long as you have streamer mode on, regardless if you've stopped streaming and stopped the game (https://trello.com/c/7JqDkRzq)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-02-25T10:24:02.487Z
+Latest Update: 2019-03-29T09:30:37.071Z
+
+Reported by Zacatero#0001
+
+####Steps to reproduce:
+- Start playing a game 
+- Open a program like OBS and start streaming 
+- By now, you should have the purple status 
+- Close the game 
+- DO NOT close OBS 
+- DO NOT manually exit streamer mode
+
+####Expected result:
+Since you are no longer playing the game and no longer streaming, the status should clear
+####Actual result:
+The status stays purple and links to your twitch as long as streamer mode is on
+####Client settings:
+Canary 32668
+####System settings:
+Windows 10 Pro
+
+29763
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-25T10:24:02.487Z
+
+
+### Can reproduce.
+CR (streamer myself, noticed this) Windows 10 Home v10.0.1734 Canary 32668
+
+Killtracity#0001 - Bug Bot on 2019-02-25T10:24:10.284Z
+
+
+### Can reproduce.
+CR, The status stays for a minute or half. Discord Canary, Build Number: 32668
+
+RedstoneMiner27#3817 - Bug Bot on 2019-02-25T10:24:15.211Z
+
+
+### Can reproduce.
+CR; Canary: 32668, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-02-25T10:24:20.216Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 32668
+
+Solo#0007 - Bug Bot on 2019-02-25T14:27:58.566Z
+
+
+### Can reproduce.
+Windows 10 Discord Canary 32668
+
+Mr. Proper#2394 - Bug Bot on 2019-02-25T14:29:21.935Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), canary 32668 (noticed this as well, cuz i stream sometimes)
+
+Defracted#1337 - Bug Bot on 2019-02-25T16:42:38.728Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 - Chrome 72.0.3626.117 (x64) - Web Canary 32668
+
+Casper#9999 - Bug Bot on 2019-02-25T18:47:44.988Z
+
+
+### Can reproduce.
+Windows 10, Canary 32668
+
+Lelantos#4866 - Bug Bot on 2019-02-25T20:36:50.653Z
+
+
+### Can reproduce.
+cr. canary, Build Number: 32668 Windows 10 x64
+
+Toasty#0001 - Bug Bot on 2019-02-25T20:37:24.069Z
+
+
+### Not a bug..
+
+I am not sure how this can be seen as a bug, considering OBS is still streaming the content (i.e a black screen because the game is closed down). The streaming presence (status) is not based of if you are actively streaming a game. If you are streaming content to Twitch, you'll still have a status. Even if you closed down your previous game.
+
+Moving to not a bug. - Tarek on 2019-02-27T09:23:11.962Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Tarek on 2019-02-27T09:23:16.089Z
+
+
+### Archived by Bug Bot on 2019-03-29T09:30:37.082Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

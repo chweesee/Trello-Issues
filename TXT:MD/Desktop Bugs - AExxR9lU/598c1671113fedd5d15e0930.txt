@@ -1,0 +1,128 @@
+Clicking on a server icon you haven't "watched" from the mutual servers list will not load the messages in the default channel (https://trello.com/c/u8q2KbDA)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-08-10T08:16:49.831Z
+Latest Update: 2019-09-23T22:30:07.379Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Open someones profile 
+- Click on mutual servers 
+- Click on a random server
+
+####Expected result:
+The message(s) should load without any issues without having to click "Load messages"
+####Actual result:
+There is no messages and you have to click "Load more messages"
+####Client settings:
+Discord Canary 0.0.163 (Build 3061)
+####System settings:
+Windows 10 Pro 64-bit Build 1607
+
+3000
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-10T08:16:49.831Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598c1671113fedd5d15e0930/536fa9fa202b099175cc25394dc2ba53/XFm7ZDV.gif added by Bug Bot on 2017-08-10T08:16:53.167Z
+
+
+### Can reproduce.
+CR Discord Canary 0.0.24, Arch Linux, 4.12.4-1-ARCH
+
+jasch#4447 - Bug Bot on 2017-08-10T08:16:57.760Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.163 (Build 2909)
+
+Curse Broken#8659 - Bug Bot on 2017-08-10T08:17:02.745Z
+
+
+### Can reproduce.
+Mentioned this problem yesterday but nobody could repro it (Discord Canary 0.0.154, macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017))
+
+advaith#9121 - Bug Bot on 2017-08-10T08:17:07.737Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (3061)
+
+Tiemen#0107 - Bug Bot on 2017-08-10T12:45:25.671Z
+
+
+### Can reproduce.
+CR Discord Canary 0.0.163, Windows 10 Home (Anniversary update)
+
+Cygan#7117 - Bug Bot on 2017-08-10T14:10:28.832Z
+
+
+### Cannot reproduce. This may have been fixed? - Jared on 2017-08-21T19:56:42.970Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-08-21T19:56:49.461Z
+
+
+### Can reproduce.
+Definitely not fixed, I can still reproduce this very easily. Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.163 (Build 3661)
+
+SuperSajuuk#7265 - Bug Bot on 2017-08-26T22:03:46.086Z
+
+
+### SuperSajuuk#7265 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598c1671113fedd5d15e0930/b0b2f549fe8c4344d4e4dd8271f0942c/unknown.png added by Bug Bot on 2017-08-26T22:04:27.809Z
+
+
+### I can still reproduce following these steps provided by Tarek1337#0379:
+
+- Reload your client with CTRL + R 
+- Go to someones profile
+- Click on mutual servers
+- Click on a random server, (it may require click on different servers few times before the bug occurs)
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5085 - Alexandru Todea on 2017-09-29T15:51:20.803Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-09-30T06:54:02.077Z
+
+
+### Verified - Jared on 2017-10-09T22:40:05.470Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-09T22:40:12.226Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:49:29.630Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:44:46.795Z
+
+
+### Can reproduce.
+can reproduce, Windows 10 Home SL 1803 x64 • Canary 20040
+
+MakiTheLegend#5027 - Bug Bot on 2018-07-28T12:15:06.935Z
+
+
+### Can reproduce.
+Canary 31048 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+Super#8276 - Bug Bot on 2019-01-19T00:06:10.429Z
+
+
+### Can reproduce.
+CR, [https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c4232716990d4861d29743a/86b6fc8788f66e14384ba99a2fd16a0c/D0UlegCMIk.gif] Discord Stable 31048 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+Super#8276 - Bug Bot on 2019-01-20T01:17:53.495Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

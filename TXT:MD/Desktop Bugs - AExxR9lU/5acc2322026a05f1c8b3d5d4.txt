@@ -1,0 +1,75 @@
+[Archived] Listening along on spotify via the discord Embed, when the host starts a "game" the other person is still listening. (https://trello.com/c/OtR6nve1)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-10T02:36:18.235Z
+Latest Update: 2018-10-22T20:19:33.041Z
+
+Reported by MrBlob#7101
+
+####Steps to reproduce:
+- Start listening on Spotify 
+- Send a Spotify Embed in a channel 
+- Get someone to listen along 
+- Start playing a game so the Spotify rich presences goes off your profile 
+- The other person should still be listen along 
+- Try skipping a song on shuffle or change to a different playlist or something 
+- The other person should still be "attached" so they are still listening with you 
+- Check the embed again and in the corner where you change to online/Idle/DnD etc, and see that the other person's profile picture isn't there and yet they are still listening along/
+
+####Expected result:
+They should disconnect after the other person changes to something different.
+####Actual result:
+The person is still "attached" and listening along
+####Client settings:
+Release Channel: stable, Build Number: 13315, Version Hash: fa8d1a877bc13f374d4663d2932a7b6d1daab0f9
+####System settings:
+Windows 10
+
+10507
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-10T02:36:18.235Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 13344
+
+webhp#1337 - Bug Bot on 2018-04-10T02:36:25.833Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Discord Stable Build Number: 13346
+
+Xamtheking#2099 - Bug Bot on 2018-04-10T02:36:30.816Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Canary Build 13344
+
+mrkirby153#7840 - Bug Bot on 2018-04-10T02:36:35.850Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord Canary (13344).
+
+/hash#0001 - Bug Bot on 2018-04-10T13:50:02.756Z
+
+
+### Verified, very minor. - Jared on 2018-04-11T21:13:35.966Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-11T21:13:41.208Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:33.042Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

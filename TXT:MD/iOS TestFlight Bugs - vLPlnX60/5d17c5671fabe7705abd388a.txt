@@ -1,0 +1,145 @@
+[Archived] [iPad without Face ID] Black bar appearing after opening or app switching to Discord. (https://trello.com/c/Q1xqNR2k)
+
+P1 - Severe,
+mid
+
+Created: 2019-06-29T20:09:11.969Z
+Latest Update: 2019-08-16T19:00:28.825Z
+
+Reported by bryant#1011
+
+####Steps to reproduce:
+- Have iPad in landscape [Works in Portrait too] 
+- Have Discord running in the background 
+- Open a different app 
+- Close the app via home button and open Discord 
+- Observe the black bar that may appear [NOTE] the server list could slide open then close. However, if you don't get the black bar, continue below. 
+- Open same or different app then switch to Discord via app switcher. 
+- Black bar will appear, if it doesn't continue. [NOTE] Server list may flash open and close. 
+- App switch to a different server, then app switch back to Discord. 
+- Black bar should appear in location of member list.
+
+####Expected result:
+The member list should stay closed and not display a black bar. [NOTE] Server list should not flash open/close
+####Actual result:
+A black bar will appear on the right side or bottom, making the app unusable. [NOTE] The server list flashes open/close.
+####Client settings:
+TF 3.0.5(15973)
+####System settings:
+iPad 6th Gen' 9.7" '(iOS - 12.3.1)
+
+38808
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-29T20:09:11.969Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 12.3.1 - TestFlight 3.0.5 (15973)
+
+Pascal#0929 - Bug Bot on 2019-06-29T20:09:19.366Z
+
+
+### Can reproduce.
+Can reproduce, iPad mini 3, iOS 12.3.1, Discord TestFlight 3.0.5 (15973).
+
+Alister#0018 - Bug Bot on 2019-06-29T20:09:24.371Z
+
+
+### Can reproduce.
+iPad 5th Gen, iOS 13 (dev beta 2) - Testflight 3.0.5 (15973)
+
+Xylium#5800 - Bug Bot on 2019-06-29T20:09:29.394Z
+
+
+### Can reproduce.
+iPad Air iOS 12.3.1 TestFlight 3.0.5 (15973)
+
+binchlord#0998 - Bug Bot on 2019-06-29T20:09:47.617Z
+
+
+### Moved from New Issues to Notable Issues by Pascal on 2019-06-29T20:13:32.005Z
+
+
+### Moved to Notable Issues since it is a pretty severe issue which makes the app nearly unusable for iPad users. - Pascal on 2019-06-29T20:14:07.839Z
+
+
+### bryant#1011 - https://i.imgur.com/LXluA50.gifv added by Bug Bot on 2019-06-29T20:14:43.713Z
+
+
+### bryant#1011 - https://i.imgur.com/JAQhQV7.gifv added by Bug Bot on 2019-06-29T20:15:41.640Z
+
+
+### Can reproduce.
+iPad Air | iOS 12.3.1 | TF 3.0.5 (15973)
+
+charleskimbac#6492 - Bug Bot on 2019-06-30T02:57:09.636Z
+
+
+### Can reproduce.
+Black bar never appeared but the server list did open and close as stated in the report - iPad Air (1st gen), iOS 12.3.1 - TF 3.0.5 (15973)
+
+Nicholas#4669 - Bug Bot on 2019-06-30T04:40:31.481Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.5 (15973)
+
+Skyla#0002 - Bug Bot on 2019-06-30T18:31:28.225Z
+
+
+### Moved from Notable Issues to New Issues by Jonathan Wu on 2019-07-02T01:29:38.337Z
+
+
+### Can reproduce.
+Discord TestFlight 3.0.5 running on iPad Mini 2 (iOS 12.2).
+
+Talon#1337 - Bug Bot on 2019-07-02T17:45:31.373Z
+
+
+### Can reproduce.
+iPad Air | iOS 12.3.1 | TF 3.0.5 (15973)
+
+Blair#7777 - Bug Bot on 2019-07-11T15:39:38.974Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-07-12T19:00:08.792Z
+
+
+### Moved from Backlog to Fix made, not yet released by Fanghao on 2019-07-13T04:37:21.089Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2019-07-13T05:04:43.579Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 3) - Testflight 3.0.6 (16208)
+
+Xylium#5800 - Bug Bot on 2019-07-13T10:23:01.518Z
+
+
+### Can't reproduce.
+ipad air 2 ios 12.3.1, Testflight 3.0.6 (16208)
+
+OrangeM24#5746 - Bug Bot on 2019-07-14T02:29:25.621Z
+
+
+### Can't reproduce.
+iPad mini 4 iOS 12.3.1 Testflight 3.0.6 (16208)
+
+GlenMerlin#2119 - Bug Bot on 2019-07-17T18:42:34.145Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-17T18:42:34.587Z
+
+
+### Archived by Bug Bot on 2019-08-16T19:00:28.842Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

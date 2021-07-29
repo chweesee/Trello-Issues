@@ -1,0 +1,91 @@
+[Archived] Cached messages that you have a jump link for that are deleted send you flying to the top of the chat when clicked. (https://trello.com/c/UoIgSOzW)
+
+None
+
+Created: 2020-01-14T03:39:50.143Z
+Latest Update: 2020-03-12T13:55:36.392Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:
+- Send a message 
+- Copy and paste the message link and send it 
+- Delete the first message 
+- Click the jump link
+
+####Expected result:
+No jump happens.
+####Actual result:
+You're sent flying to the top of the chat.
+####Client settings:
+Discord Canary 52345
+####System settings:
+MacBook Pro: macOS Catalina 10.15.2
+
+51422
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-14T03:39:50.143Z
+
+
+### Can reproduce.
+[CR] Discord Canary Build 52345, Windows 10 Pro Build 18362.295
+
+Creedoo#3626 - Bug Bot on 2020-01-14T03:39:57.708Z
+
+
+### Can reproduce.
+MacBook Pro macOS Catalina 10.15.2, Discord 52491
+
+Philip#0001 - Bug Bot on 2020-01-14T03:40:02.743Z
+
+
+### Can reproduce.
+CR, macOS 10.15.3, Canary 52521
+
+Action Potential#6862 - Bug Bot on 2020-01-14T03:40:07.691Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) canary 52521 | Not sure about flying to the top, it send the user to where the chat *used* to be
+
+myacorn#6534 - Bug Bot on 2020-01-14T05:57:55.657Z
+
+
+### Can reproduce.
+Windows 10 Home 1909 x64, Canary 52521
+
+Warwick#9999 - Bug Bot on 2020-01-14T12:35:32.717Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Discord Canary 52521.
+
+Alister#0001 - Bug Bot on 2020-01-14T22:03:37.746Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 52710 - I had to click the link once before deleting the message, then clicking it after sent me flying
+
+RPS1222#5127 - Bug Bot on 2020-01-16T01:35:35.788Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Amadeus on 2020-01-27T08:44:43.550Z
+
+
+### Archived by Bug Bot on 2020-02-26T09:00:48.852Z
+
+
+### Can reproduce.
+The original steps to reproduce in this report are fixed, but this is still reproducible by first creating a fresh new channel and then attempting the steps to reproduce, which indeed still sends you flying to the top of the chat. It seems whilst it's making the API request to fetch the message, the chat is hoisted at the top until it resolves, for which it becomes anchored at the bottom again. Video: https://gyazo.com/0d480b92bc05adee7812882dcb8c22cf - MacBook Pro: macOS Catalina 10.15.3; Discord Canary 55808
+
+Jiralite#1207 - Bug Bot on 2020-03-12T13:55:36.408Z
+
+List
+====
+Fix made, not yet released
+
+Members
+=======
+None

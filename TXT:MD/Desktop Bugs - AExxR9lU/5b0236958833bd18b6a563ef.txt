@@ -1,0 +1,67 @@
+[Archived] Long usernames push text behind the Mention button on expired invites (https://trello.com/c/YiRImZK3)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-21T03:01:41.840Z
+Latest Update: 2018-10-22T20:20:59.875Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Have a user with a long username (Example: IsTheCakeALieOrTheActualTruth?) post an invite 
+- Delete it in Server Settings > Invites 
+- Click "Join" or refresh your client so it appears as expired and observe the bottom sentence
+
+####Expected result:
+Username cuts off to allow the full sentence to appear on the invite or perhaps move the Mention button slightly up
+####Actual result:
+"Ask {username} for a new invite!" sentence gets pushed behind the Mention button
+####Client settings:
+Discord Canary 0.0.209, Build 15665
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+13111
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-21T03:01:41.840Z
+
+
+### Ene#0808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b0236958833bd18b6a563ef/b310a37f11178b2de863d66942e6d06d/F1zZmSa.png added by Bug Bot on 2018-05-21T03:01:44.351Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home x64 (Version 1803), Discord Canary Build 15665
+
+Ghoul#4567 - Bug Bot on 2018-05-21T03:01:49.133Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 15665
+
+webhp#1337 - Bug Bot on 2018-05-21T03:01:54.129Z
+
+
+### Can reproduce.
+Discord Canary 0.0.209 (15665) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-05-21T03:01:59.155Z
+
+
+### Verified, MacOS 10.12.6, Canary 15701 - Clayton on 2018-05-21T21:17:07.032Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T21:17:13.631Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:59.878Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

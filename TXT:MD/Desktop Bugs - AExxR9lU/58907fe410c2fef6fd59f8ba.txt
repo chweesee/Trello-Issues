@@ -1,0 +1,75 @@
+[Archived] voice disconnect hides channels (https://trello.com/c/Pdi1aoEV)
+
+P3: Will get fixed eventually
+
+Created: 2017-01-31T12:15:32.099Z
+Latest Update: 2017-10-17T20:33:53.971Z
+
+Reported by mralext20#8975
+
+####Steps to reproduce: 
+- join voice channel in a server 
+- switch to a diffrent server 
+- hide channels with the 'voice connected' modal 
+- disconnect from voice 
+
+####Expected result:
+ channels to show up when disconnecting from voice 
+####Actual result:
+ channels are hiddin until a scroll event 
+####System settings:
+ Arch linux, discord canary 0.0.15
+
+Card Log
+========
+### Added by Jared on 2017-01-31T12:15:32.099Z
+
+
+### Can reproduce.
+Win10AU, Latest Canary
+
+avataralex#5450 - Jared on 2017-01-31T12:15:32.577Z
+
+
+### Can reproduce.
+I don't know what to say
+
+DJ Jesse (UniversalMudkipzYT)#4697 - Jared on 2017-01-31T12:15:34.818Z
+
+
+### Can reproduce.
+I saw this issue in a different way: I went to a server where I could see voice channels clearly (DTesters), then jumped to a server where they weren't visible, and then clicked back. Voice channels were completely missing and weren't visible unless i clicked a channel on the server. Windows 10 Home x64 with the Anniversary Update.
+
+SuperSajuuk#7265 - Jared on 2017-01-31T12:15:36.593Z
+
+
+### https://www.youtube.com/watch?v=MqXflB2B3OE - https://www.youtube.com/watch?v=MqXflB2B3OE added by Jared on 2017-01-31T12:15:47.633Z
+
+
+### SuperSajuuk#7265 - https://gyazo.com/aa2acf1653e565398d0afb8613f690d3 added by Jared on 2017-01-31T12:22:12.832Z
+
+
+### Verified, very low priority. - Jared on 2017-02-06T21:56:01.831Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-06T21:56:04.743Z
+
+
+### I can no longer reproduce this.  - Jared on 2017-07-26T19:43:03.804Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-26T19:43:08.072Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:33:53.165Z
+
+
+### Archived by Jared on 2017-10-17T20:33:53.975Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

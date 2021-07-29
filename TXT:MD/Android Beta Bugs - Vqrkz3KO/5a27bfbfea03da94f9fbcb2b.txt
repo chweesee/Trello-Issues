@@ -1,0 +1,88 @@
+[Archived] When downloading an image that is from a bot embed, the filename will take the title of the embed and erases file extension (https://trello.com/c/4KUHccQ3)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-12-06T10:00:31.532Z
+Latest Update: 2018-10-11T00:30:31.294Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a bot that can send an embed with at least a title and an image 
+- Make the bot send the embed 
+- On your Android device, tap on the image and hit Download
+
+####Expected result:
+The downloaded image should have a correctly formatted name with the appropriate extension (. jpg, . png, . gif, etc)
+####Actual result:
+The filename of the downloaded image is set as the title of the embed and without file extension.
+####Client settings:
+Discord Alpha 5.8.3
+####System settings:
+Huawei Mate 9 Android 7.0
+
+6837
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-06T10:00:31.532Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a27bfbfea03da94f9fbcb2b/a15ba04b15f711ea6684c91919bd2e64/PicsArt_12-05-07.05.58.jpg added by Bug Bot on 2017-12-06T10:00:33.940Z
+
+
+### Can reproduce.
+Tecno C9,Android 6.0,discord alpha 5.8.3
+
+Gon#0248 - Bug Bot on 2017-12-06T10:00:38.872Z
+
+
+### Can reproduce.
+LG G6, Android 7.0, Discord 5.8.3
+
+Andrew.#6465 - Bug Bot on 2017-12-06T10:00:43.825Z
+
+
+### Can reproduce.
+CR, Alpha 5.8.3, Xperia X Compact, Android 7.1.1
+
+Daddy#0800 - Bug Bot on 2017-12-06T10:00:48.838Z
+
+
+### Can reproduce.
+Huawei Honor 5C, Android 7.0, Discord alpha 5.8.3
+
+Fam0r#9655 - Bug Bot on 2017-12-06T10:09:44.993Z
+
+
+### Can't reproduce.
+Samsung Xcover 4
+
+¥ictory#7498 - Bug Bot on 2017-12-06T19:48:08.511Z
+
+
+### Verified.  - Clayton on 2017-12-13T23:16:36.367Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-13T23:16:44.647Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:42.883Z
+
+
+### I can still reproduce this on Android Alpha 7.4.0 on OnePlus 5 running Android 8.1 - Tarek on 2018-08-26T05:52:45.615Z
+
+
+### Unarchived by Clayton on 2018-08-26T06:00:03.206Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:31.296Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

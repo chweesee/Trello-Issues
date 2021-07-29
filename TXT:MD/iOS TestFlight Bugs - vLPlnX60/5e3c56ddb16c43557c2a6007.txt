@@ -1,0 +1,88 @@
+[Archived] Scrolling all the way down the member list with more than 1000 members removes the last member. (https://trello.com/c/0ewL5tkx)
+
+P3 - Will be fixed eventually
+
+Created: 2020-02-06T18:11:41.604Z
+Latest Update: 2020-03-15T19:30:03.236Z
+
+Reported by Salem#4874
+
+####Steps to reproduce:
+- Find a server with more than 1000 members  
+- Scroll all the way down the member list  
+- Wait a few seconds  
+- Observe
+
+####Expected result:
+The last member should be there and be able to be clicked on
+####Actual result:
+The member is covered by a white “member loading bar” and is not able to be clicked on
+####Client settings:
+Testflight 3.1.10
+####System settings:
+Iphone 11, IOS 13.3
+
+52052
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-06T18:11:41.604Z
+
+
+### enamored#1222 - https://youtu.be/XxGD0qYSC04 added by Bug Bot on 2020-02-06T18:11:44.068Z
+
+
+### Can reproduce.
+CR; iphone XR, IOS 13.3.1, Testflight 3.1.10 (18871)
+
+Denariooo#3352 - Bug Bot on 2020-02-06T18:11:49.170Z
+
+
+### Can reproduce.
+CR // iPhone 11 // iOS 13.3.1 // TestFlight 3.1.10 (18953)
+
+Falkio#0001 - Bug Bot on 2020-02-06T18:11:54.178Z
+
+
+### Can reproduce.
+CR, last member displays for a bit then get hidden; iPhone 8, iOS 13.3.1 - Discord TestFlight 18953
+
+Arnold0#7514 - Bug Bot on 2020-02-06T18:11:59.223Z
+
+
+### Can reproduce.
+CR; iPhone 8 Plus, iOS 13.3.1, TestFlight 3.1.10 (18953)
+
+austin#5181 - Bug Bot on 2020-02-06T18:15:42.649Z
+
+
+### Can reproduce.
+CR; Iphone11, iOS 13.3.1, TestFlight 3.1.10 (18953)
+
+enamored#1222 - Bug Bot on 2020-02-06T18:49:20.716Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.3.1, TestFlight 3.1.10 (18953)
+
+.Gloria.#9606 - Bug Bot on 2020-02-06T18:58:35.305Z
+
+
+### Can't reproduce.
+iOS 13.3 iPhone 6S, Discord 3.1.9.
+
+ZeusDeeGod#9336 - Bug Bot on 2020-02-08T01:27:47.717Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2020-02-14T19:00:04.196Z
+
+
+### Archived by Bug Bot on 2020-03-15T19:30:03.253Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

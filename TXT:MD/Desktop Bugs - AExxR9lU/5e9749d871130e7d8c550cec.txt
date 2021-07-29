@@ -1,0 +1,54 @@
+Setting the "moderators only" channel in a public server to become an announcement channel disables the required "moderators only" channel. (https://trello.com/c/60K4RlHd)
+
+None
+
+Created: 2020-04-15T17:52:24.849Z
+Latest Update: 2020-07-16T21:26:06.251Z
+
+Reported by zjtech123#6743
+
+####Steps to reproduce:
+- In a public server, make sure you have a channel set in Server Settings > Overview to be a "mod only" channel for official Discord updates.  
+- Turn that channel into an Announcement Channel. 
+- Go back to Server Settings > Overview and observe.
+
+####Expected result:
+The channel should not be able to be turned into an announcement channel, and should pop a similar modal same to the delete channel dialog. The channel should stay set in Server Settings.
+####Actual result:
+The channel is gone from Server Settings > Overview and can't be selected, therefore turning off the mandatory updates Discord requires for public channels.
+####Client settings:
+Stable 54886
+####System settings:
+Windows 10 Home x64
+
+52814
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-15T17:52:24.849Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 54954 // After resetting the channel to normal, it is correctly refilled.
+
+Alipoodle#5025 - Bug Bot on 2020-04-15T17:52:32.322Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Version 1909, Desktop Canary 58100
+
+Ana940#9858 - Bug Bot on 2020-04-15T17:52:37.308Z
+
+
+### Can reproduce.
+Server settings -> Public overview, to be more precise. This is also reproducible with the rules/guidelines channel. MacBook Pro: macOS Catalina 10.15.4; Discord Canary 58202 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-04-15T17:52:42.365Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

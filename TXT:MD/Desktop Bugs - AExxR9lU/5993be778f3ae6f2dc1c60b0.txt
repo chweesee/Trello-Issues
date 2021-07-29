@@ -1,0 +1,92 @@
+[Archived] Starting a screenshare with another user, and selecting "Application window", causes a blank screen (https://trello.com/c/zkyOqPsL)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-08-16T03:39:35.814Z
+Latest Update: 2019-08-03T13:52:25.283Z
+
+Reported by Techno#1745
+
+####Steps to reproduce:
+- Start a voice call with another user. 
+- Start a screenshare and select application window. 
+- Select an open Atom Editor window. 
+- Top bar appears as a windows 7 bar, instead of windows 10 (already reported bug). 
+- Actual Atom pane appears as a solid black color
+
+####Expected result:
+The pane should appear correctly, and the top bar should appear as a Windows 10 bar.
+####Actual result:
+Atom editor pane appears solid black, and top bar appears in the Windows 7 format.
+####Client settings:
+Desktop Canary, 0.0.163
+####System settings:
+Windows 10, Build 1703
+
+3280
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-16T03:39:35.814Z
+
+
+### Techno#1745 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5993be778f3ae6f2dc1c60b0/03dc67b80c3c1d34ba69372116be9e4a/160817023622.png added by Bug Bot on 2017-08-16T03:39:38.973Z
+
+
+### Can reproduce.
+CR Windows 10 Pro 64-bit - Discord Canary 0.0.163 -
+
+Starsky#7861 - Bug Bot on 2017-08-16T03:39:43.538Z
+
+
+### Can reproduce.
+if you select discord, its just a full black screen | Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-16T03:39:48.654Z
+
+
+### Can reproduce.
+black when Discord is selected Windows 10 Pro x64
+
+Azrael#6867 - Bug Bot on 2017-08-16T03:39:53.518Z
+
+
+### Can reproduce.
+Happens with Discord and Chrome for me | Windows 10 Home x64 Creator's Update, Discord Canary 0.0.163
+
+Cubular#6460 - Bug Bot on 2017-08-16T03:41:28.060Z
+
+
+### Moved from User Reported Bugs to Screenshare/Video Calls by Jared on 2017-08-17T18:11:14.384Z
+
+
+### Not a bug, none of the software will actually record the window where HW acceleration is on. To screenshare any Electron app, disable the HW acceleration.
+
+TTtie#4900 - Bug Bot on 2017-08-19T18:12:42.745Z
+
+
+### Verified, only shows up as black window in preview though.  - Clayton on 2018-01-04T09:08:28.293Z
+
+
+### Moved from Screenshare/Video Calls to Verified Bugs by Clayton on 2018-01-04T09:08:34.525Z
+
+
+### Can reproduce.
+Can Reproduce.
+Specifically on Windows 7 when Aero is turned on, screensharing certain games will cause a black or white screen to appear in Screen Sharing, while the application window flickers the respective color, or turns completely black or white. No Windows 7 border is shown on Screen Sharing.
+
+Windows 7 Home Premium x64
+
+Matrix#3401 - Bug Bot on 2018-02-26T23:42:05.232Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:42.481Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

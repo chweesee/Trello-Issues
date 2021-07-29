@@ -1,0 +1,87 @@
+[Archived] Opening the game directory on an unlogged browser tab opens the store in the running Desktop client (https://trello.com/c/KGrSlIls)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-02-03T22:16:21.427Z
+Latest Update: 2019-03-08T12:30:02.418Z
+
+Reported by noobzy#0227
+
+####Steps to reproduce:
+- Open your browser, and if you're logged in, log out. 
+- Open the desktop client 
+- Open the Games and then open Game Directory
+
+####Expected result:
+When you open the Game Directory, the browser goes to the game directory and nothing else happens.
+####Actual result:
+When you open the Game Directory, the client opens the store even though you did nothing that should trigger the store to open.
+####Client settings:
+Discord Canary 31744 (ID: e5d29f7)
+####System settings:
+Linux 4.15.0-43-generic Ubuntu SMP (18.04) GNU/Linux w/ Chrome 71.0.3578.98
+
+27988
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-03T22:16:21.427Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 31785 , Brave Version 0.60.19 Chromium: 72.0.3626.81
+
+TheForbiddenAi#0001 - Bug Bot on 2019-02-03T22:16:29.229Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1809 -- Client: Discord Canary 0.0.230 Build 31785 Browser: Discord Stable Build 31784 Chrome 71.0.3578.98
+
+webhp#1337 - Bug Bot on 2019-02-03T22:16:34.115Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 31785 - - Stable 31784, Chrome 74.0.3692.0
+
+Solo#0007 - Bug Bot on 2019-02-03T22:16:39.101Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Web Canary 31785 - Chrome 71.0.3578.98 (Official Build) (64-bit)
+
+Isabel#0002 - Bug Bot on 2019-02-04T02:32:40.954Z
+
+
+### This works best on Chrome as other browsers such as Firefox cannot connect to the Discord client. The fact Firefox/other browsers cannot connect to the client is known: https://trello.com/c/9NOsdPEM
+
+Isabel#0002 - Bug Bot on 2019-02-04T02:34:16.964Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Web Stable 31784 - Google Chrome Version 72.0.3626.81
+
+Daffyduck#5364 - Bug Bot on 2019-02-04T06:59:46.242Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE, Chrome OS 71 (64-bit), Canary Build 31792 w/ Google Chrome    71.0.3578.127
+
+Casper#9999 - Bug Bot on 2019-02-04T07:24:40.487Z
+
+
+### verified, win10, canary 31854 - Clayton on 2019-02-06T12:18:51.493Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-06T12:19:03.843Z
+
+
+### Archived by Bug Bot on 2019-03-08T12:30:02.431Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

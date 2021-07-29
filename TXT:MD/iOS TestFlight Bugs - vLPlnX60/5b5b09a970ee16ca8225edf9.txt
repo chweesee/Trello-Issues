@@ -1,0 +1,100 @@
+[Archived] If you search for something in the members section in server settings, the same search appears in bans, when you haven't searched any bans and don't have any (https://trello.com/c/5UiwxZgs)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-07-27T12:01:45.205Z
+Latest Update: 2018-09-07T03:00:02.842Z
+
+Reported by Rage#9991
+
+####Steps to reproduce:
+- Go to a server that doesn't have bans 
+- Open server settings 
+- Go to members 
+- Search for something and press return 
+- Press back 
+- Go to the bans section 
+- Observe how the search bar is now there even though you have no bans and it's your previous search there
+
+####Expected result:
+The search shouldn't show in other sections of server settings
+####Actual result:
+The search appears there and even if you have no bans
+####Client settings:
+TestFlight 2.3.6 (6059)
+####System settings:
+iPhone 6s, iOS 11.0
+
+16113
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-27T12:01:45.205Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 3, TestFlight 2.3.6 (6059) - Might be an extension of https://trello.com/c/8OtwCttz
+
+Pascal#0929 - Bug Bot on 2018-07-27T12:01:52.612Z
+
+
+### Can reproduce.
+Phone 6, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+» a r i a#1593 - Bug Bot on 2018-07-27T12:01:57.619Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 Dev Beta 4, TestFlight 2.3.6 (6095)
+
+mouse#0091 - Bug Bot on 2018-07-27T12:02:02.627Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12 (dev beta 4), TestFlight 2.3.6 (6095)
+
+Xylium#1480 - Bug Bot on 2018-07-27T19:32:18.712Z
+
+
+### Can reproduce.
+iPhone 5S, ios 11.4.1 TestFlight 2.3.6 (6095)
+
+-MeowthenA-#9256 - Bug Bot on 2018-07-27T22:21:33.915Z
+
+
+### Can reproduce.
+CR: iPhone 8+, iOS 12 Developer Beta 4, Testflight 2.3.6 (6095)
+
+TheMegaEagle#9909 - Bug Bot on 2018-07-27T22:57:52.172Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+Mippy#0001 - Bug Bot on 2018-07-28T00:03:41.778Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th generation, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-07-30T01:27:29.299Z
+
+
+### Verified on iPhone 8 + running iOS 12 Dev Beta 6 on iOS TestFlight 2.3.6 (6427). When going to the ban list, it tells me that it is unable to find the search term even if there are no bans. Clearing the search fixes it.
+
+Moving to Verified Bugs. - Ghoul on 2018-08-08T02:34:36.011Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ghoul on 2018-08-08T02:34:42.197Z
+
+
+### Archived by Clayton on 2018-09-07T03:00:02.844Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

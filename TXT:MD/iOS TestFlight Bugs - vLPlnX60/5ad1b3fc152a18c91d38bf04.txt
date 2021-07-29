@@ -1,0 +1,172 @@
+[Archived] Mutual Friends tab loads slower then switch to other tab and immediately switch back (https://trello.com/c/spGf5jtL)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2018-04-14T07:55:40.331Z
+Latest Update: 2019-09-18T10:00:43.735Z
+
+Reported by edisonlee55#9058
+
+####Steps to reproduce:
+- Close Discord App 
+- Click any of your friend that have mutual friends 
+- Click Mutual Friends tab, you will notice that loading is slow 
+- Close Discord App again 
+- Click same friend you have chosen in step 2 
+- Click Mutual Friends tab, but immediately click on other tab and click back to Mutual Friends tab 
+- The list will be immediately show up
+
+####Expected result:
+When click Mutual Friends tab, the list should immediately show up
+####Actual result:
+When click Mutual Friends tab, the list loads slow, but will immediately loaded when click other tab and click back
+####Client settings:
+Discord TestFlight, 2.3.0 (3817)
+####System settings:
+iPhone 7 Plus, iOS 11.3
+
+10701
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-14T07:55:40.331Z
+
+
+### Can reproduce.
+Could reproduce; Mutual friends tab loading too slow - iPhone 6 - iOS 11.2 - Discord TestFlight 2.3.0
+
+Jengas#7777 - Bug Bot on 2018-04-14T07:55:47.783Z
+
+
+### Can reproduce.
+CR; iPhone 6s iOS 11.3; Discord TestFlight 2.3.0 (3817)
+
+dal#0780 - Bug Bot on 2018-04-14T07:55:52.779Z
+
+
+### Can reproduce.
+Although this does seem like a caching/loading issue, i was able to reproduce. iPhone 6s Plus, iOS 11.4 PB1, TestFlight 2.3.0 (3817)
+
+Mustard#2117 - Bug Bot on 2018-04-14T07:55:57.785Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:36:45.911Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:36:49.364Z
+
+
+### Can reproduce.
+Can still repro. This also seems to happen when trying to load the roles list in server settings. iPhone 6s - iOS 11.0 - TestFlight 2.3.4 (Build 5560)
+
+Rage#9991 - Bug Bot on 2018-07-02T12:54:38.039Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ad1b3fc152a18c91d38bf04/1025289fe783fdedbb03d63f81c21e71/giphy.gif added by Bug Bot on 2018-07-16T05:57:56.255Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:03.775Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 8 + running iOS 12 (Dev Beta 12) with Discord TestFlight 2.3.8 (7049)
+
+Ghoul#0009 - Bug Bot on 2018-09-07T08:27:38.602Z
+
+
+### Unarchived by Clayton on 2018-09-07T20:14:37.900Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12 - TestFlight 2.3.8 (7416)
+
+Alfie#1582 - Bug Bot on 2018-09-26T21:22:35.214Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 12.1.2, TestFlight 2.4.2 (10740)
+
+Darkbeast#0404 - Bug Bot on 2019-01-18T07:21:53.953Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.3 Beta (16D5032a) - TestFlight 2.4.2 (10773)
+
+Isabel#0002 - Bug Bot on 2019-01-20T00:15:42.004Z
+
+
+### Archived by Bug Bot on 2019-02-19T00:30:02.988Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11113)
+
+Daffyduck#5364 - Bug Bot on 2019-02-19T09:45:23.151Z
+
+
+### Unarchived by Bug Bot on 2019-02-19T10:00:05.985Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.2 TestFlight 3.0.1 14524
+
+chaNcharge#6969 - Bug Bot on 2019-05-01T19:22:10.092Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.3.1 TestFlight 3.0.3 (15443)
+
+SplashyFlame#4968 - Bug Bot on 2019-06-06T19:56:11.625Z
+
+
+### Archived by Bug Bot on 2019-07-13T20:00:27.136Z
+
+
+### Can reproduce.
+iPhone X, iOS 13 Testflight 3.0.8 (16472)
+
+ijm8710#8288 - Bug Bot on 2019-07-25T20:07:12.910Z
+
+
+### Unarchived by Bug Bot on 2019-07-25T20:30:08.011Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.1 (16885) with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-08-14T19:50:56.225Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-08-14T19:51:10.905Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 13.0 (17A5556d) - TestFlight 3.1.1 (16885)
+
+Isabel#0002 - Bug Bot on 2019-08-14T19:51:58.415Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.4 - TestFlight 3.1.1 (16885)
+
+Daffyduck#5364 - Bug Bot on 2019-08-14T19:52:08.195Z
+
+
+### Can't reproduce.
+iPhone X, iOS 13 (dev beta 6) - TestFlight 3.1.1 (16885)
+
+Xylium#5800 - Bug Bot on 2019-08-14T19:52:16.063Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-08-14T19:52:16.417Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:00:43.758Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

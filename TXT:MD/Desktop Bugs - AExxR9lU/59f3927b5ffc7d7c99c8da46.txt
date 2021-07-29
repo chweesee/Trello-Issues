@@ -1,0 +1,109 @@
+[Archived] Discord crash when inspecting reactions (https://trello.com/c/l327vcZd)
+
+P2: Fix can wait a while
+
+Created: 2017-10-27T20:09:31.323Z
+Latest Update: 2018-02-22T19:37:55.639Z
+
+Reported by Nainou#2742
+
+####Steps to reproduce:
+- open any dm 
+- send a message and add an emoji reaction to it 
+- right click on the message and click reactions 
+- right click on your own name
+
+####Expected result:
+User info pops up
+####Actual result:
+Discord crashes
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 6444, Version Hash: cd8708231e3e29807f70ec077b27598a4df9013e
+####System settings:
+Win 7 x64
+
+5864
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-27T20:09:31.323Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Version 1703 (Build 15063.674), Canary 0.0.168 (Build 6489)
+
+jake 🎃#6241 - Bug Bot on 2017-10-27T20:09:39.072Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.168 (Build 6489) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-10-27T20:09:43.836Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.168, Windows 10 x64
+
+Blizzyrd#7909 - Bug Bot on 2017-10-27T20:09:48.816Z
+
+
+### Can't reproduce.
+CNR, 0.0.168 b6489, Windows 10 Home Creators Update x64. context menu opens just fine. tested on both stable and canary
+
+TTtie#4900 - Bug Bot on 2017-10-27T20:11:01.373Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Stable (Build 6444)
+
+Inner Sense#0404 - Bug Bot on 2017-10-27T21:28:24.516Z
+
+
+### Can reproduce.
+Build 6489, MacBook Pro 2017 13-inch, macOS High Sierra 10.13
+
+JBYoshi#5551 - Bug Bot on 2017-10-27T22:25:14.838Z
+
+
+### Can reproduce.
+CR, Windows Home x64, Alienware Aurora R6, Windowed Canary 6489
+
+TBNRShadowPlayz#1468 - Bug Bot on 2017-10-27T23:26:18.302Z
+
+
+### Verified.  - Clayton on 2017-11-03T05:21:24.519Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:21:28.424Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.191, Build 8933, Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2017-12-20T04:17:35.233Z
+
+
+### Can no longer reproduce this. Marking as Verified Fixed. - Jared on 2018-01-05T18:23:03.736Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-01-05T18:23:07.218Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64
+
+Gory#7625 - Bug Bot on 2018-01-15T17:48:57.573Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:37:54.720Z
+
+
+### Archived by Tarek on 2018-02-22T19:37:55.641Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

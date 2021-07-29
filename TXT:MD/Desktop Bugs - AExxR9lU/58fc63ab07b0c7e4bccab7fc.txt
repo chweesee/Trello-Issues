@@ -1,0 +1,72 @@
+[Archived] Location of Discord does not update when switching from server to friends and hovering over the taskbar icon (https://trello.com/c/tGAnQS8Q)
+
+None
+
+Created: 2017-04-23T08:19:55.371Z
+Latest Update: 2017-10-30T17:24:31.859Z
+
+Reported by OGNovuh#0014
+
+####Steps to reproduce: 
+- Set "Combine taskbar buttons" to always, hide labels 
+- Switch from a server to friends 
+- Hover over taskbar icon 
+
+####Expected result:
+ Taskbar shows friends as where you are on Discord 
+####Actual result:
+ It shows the last channel you were in 
+####System settings:
+ Windows 10 Latest Canary
+
+1169
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-23T08:19:55.371Z
+
+
+### Can reproduce.
+Windows 10, also note that even if you don't hide labels, the label in the taskbar does not update either.
+
+eslachance#4611 - Bug Bot on 2017-04-23T08:19:55.892Z
+
+
+### Can reproduce.
+win 10 x64 canary
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-04-23T08:19:57.916Z
+
+
+### Can reproduce.
+Windows 10 x64, Latest Canary
+
+Chrees#4389 - Bug Bot on 2017-04-23T08:19:59.868Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58fc63ab07b0c7e4bccab7fc/4bd5f21bb9ea0a03ddba841b9b2ac585/unknown.png added by Bug Bot on 2017-04-23T08:20:11.034Z
+
+
+### This is probably gonna end up being a Won't Fix, but it seems the issue should at least be easy TO fix. Looks like the Friends page (https://discordapp.com/channels/@me) just doesn't have a <title> set, so it just adopts the title of whatever server/DM you were on last
+
+Chrees#4389 - Bug Bot on 2017-04-23T08:21:45.133Z
+
+
+### Cannot reproduce.  - Clayton on 2017-05-19T02:58:28.603Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-05-19T02:59:06.905Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:24:30.954Z
+
+
+### Archived by Jared on 2017-10-30T17:24:31.861Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,73 @@
+[Archived] gif embeds with user but not rich embed (in image tag) (https://trello.com/c/2weyBvYE)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-11T07:56:11.809Z
+Latest Update: 2018-07-06T17:48:50.485Z
+
+Reported by Chewey#1635
+
+####Steps to reproduce:
+- send a gif (of imgur where its actually stored as gifv heres a cat gif one 
+https://i.imgur.com/2n1IvgN.gif as a person embed will work 
+how ever send in in a rich embed image tag and wont
+
+####Expected result:
+it should render the same in both rich embed and normal user sending message
+####Actual result:
+when user send it as a link a full thumbnail appears as normal however if you send in a rich embed image tag it will ALWAYS render as a poop and give 412 and/or 502 in the network tab
+####Client settings:
+Release Channel: stable, Build Number: 13346
+####System settings:
+Windows 10 Version 1709 OS build 16299.33
+
+10578
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-11T07:56:11.809Z
+
+
+### Can reproduce.
+CR Windows 10 1709 x64, Canary build 13405
+
+AEnterprise#4693 - Bug Bot on 2018-04-11T07:56:19.293Z
+
+
+### Can reproduce.
+Discord Canary (13405) on Windows 10 Pro 64-bit (1709)
+
+Tarek#1337 - Bug Bot on 2018-04-11T07:56:24.278Z
+
+
+### Can reproduce.
+Win10, 64bits • Canary Build Number: 13405
+
+fujhofn. 🐛#0878 - Bug Bot on 2018-04-11T07:56:29.197Z
+
+
+### Can reproduce.
+Discord Canary (13405_ on Windows 10 64-bit (1709)
+
+Frost#3230 - Bug Bot on 2018-04-11T19:14:52.374Z
+
+
+### The gif is too large (73mb in the example provided) so the media proxy does not support it. Not a bug. - Jared on 2018-04-11T21:53:58.319Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-04-11T21:54:03.121Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:48:49.572Z
+
+
+### Archived by Jared on 2018-07-06T17:48:50.488Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

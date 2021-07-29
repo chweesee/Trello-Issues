@@ -1,0 +1,96 @@
+[Archived] [Edge Specific] When attempting to unmute mic without permissions, two mic popups appear and Edge does not ask for permission. (https://trello.com/c/OED9ErxH)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-01-26T19:53:59.285Z
+Latest Update: 2020-02-02T09:00:03.055Z
+
+Reported by Solo#0007
+
+####Steps to reproduce:
+- Make sure Discord's website does not have mic permissions on Edge (Settings > Advanced > Website Permissions > Manage Permissions) 
+
+- Open Discord on Edge 
+
+- Attempt to unmute mic without being in a voice channel 
+
+- Observe, if it works as usual then hit the x on granting permission and attempt unmuting while in a voice channel 
+
+- Appears to happen randomly, sometimes when you're in voice chat it won't work and sometimes when you're not in a voice chat it won't work
+ 
+- If you can not reproduce on the first attempt, reassure that permissions have been wiped on Edge and refresh the page to try again
+
+####Expected result:
+Discord should prompt an Edge popup to appear asking for the website to have mic permissions.
+####Actual result:
+Discord's grant mic permission popup appears very briefly, and then disappears. The Edge popup does not appear, and Discord says failed to grant permission for mic.
+####Client settings:
+Stable 31115
+####System settings:
+Windows 10 Home x64 (1809), EdgeHTML 18.17763
+
+26911
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-26T19:53:59.285Z
+
+
+### Spooker#0001 - https://youtu.be/L-t7VkO33UQ added by Bug Bot on 2019-01-26T19:54:01.778Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803 stable, Build Number: 31115  ;Microsoft EdgeHTML 17.17134;
+
+Spooker#0001 - Bug Bot on 2019-01-26T19:54:06.719Z
+
+
+### Can reproduce.
+CR windows 10 home 1809 on linx 12x64 tablet latest edge
+
+Kacper.#0001 - Bug Bot on 2019-01-26T19:54:11.734Z
+
+
+### Can reproduce.
+CR, Stable : Build Number: 31115, Windows 10 Home x64, Microsoft EdgeHTML 17.17134.
+
+2Fst4Gas#9999 - Bug Bot on 2019-01-26T19:54:16.753Z
+
+
+### Solo#0007 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c4cbad7e72bd105550b45cf/4024679936f25fe0abbef1d0d638ccb6/9b058038dc43a1be1ff1674f4ff137d1.gif added by Bug Bot on 2019-01-26T19:54:23.341Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Web Canary 31400 - EdgeHTML 18.17763
+
+Isabel#0002 - Bug Bot on 2019-01-27T02:23:07.214Z
+
+
+### verified, win10, edgehtml 18.177 - Clayton on 2019-01-29T05:04:34.112Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-29T05:04:41.204Z
+
+
+### Archived by Bug Bot on 2019-02-28T05:30:04.491Z
+
+
+### Can reproduce.
+CR, Discord Canary 51726, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2020-01-03T08:23:46.798Z
+
+
+### Unarchived by Bug Bot on 2020-01-03T08:30:05.586Z
+
+
+### Archived by Bug Bot on 2020-02-02T09:00:03.067Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,93 @@
+[Archived] Recent mentions use username in non-general channels (https://trello.com/c/SZF5CaJv)
+
+None
+
+Created: 2016-12-18T19:46:56.429Z
+Latest Update: 2017-10-17T21:10:01.263Z
+
+Reported by Griffin#2583
+
+####Steps to reproduce: 
+- Have the latest android alpha 
+- Have a nickname on a server 
+- Be mentioned in the default <#132680070480396288> channel and in a different channel 
+- View recent mentions on said server 
+
+####Expected result:
+ Mentions should use the server nickname 
+####Actual result:
+ Mentions in channels besides <#132680070480396288> appear with your username
+
+Card Log
+========
+### Added by Jared on 2016-12-18T19:46:56.429Z
+
+
+### What he's trying to say is that your nickname is not carried over in the non-default text channels of a server
+
+DJScias#0812 - Jared on 2016-12-18T19:47:53.061Z
+
+
+### Can reproduce.
+ZTE Grand X Max 2, Android 6.0.1
+
+Rocks the Squirrel#2134 - Jared on 2016-12-18T19:48:05.487Z
+
+
+### Can reproduce.
+OnePlus 3 Android Alpha 3.2.0
+
+DJScias#0812 - Jared on 2016-12-18T19:48:25.828Z
+
+
+### Can reproduce.
+Android KitKat, Discord Alpha (v3.2.0) - As previously stated in a note, "#deleted-channel" should be "#general"
+
+Noahkiq#9675 - Jared on 2016-12-18T19:48:57.807Z
+
+
+### DJScias#0812 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5856e7b0d3fd4e6c305f4408/fcb590d3d7b0d611f1d4a2a33780ae7b/Screenshot_20161218-164527.png added by Jared on 2016-12-18T19:49:03.332Z
+
+
+### Rocks the Squirrel#2134 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5856e7b0d3fd4e6c305f4408/e085d022db26d0cba7369be07c3a7d05/Screenshot_20161218-131502.png added by Jared on 2016-12-18T19:49:16.304Z
+
+
+### The rank color is also left out in channels besides the default one.
+
+Griffin#2583 - Jared on 2016-12-18T20:34:46.688Z
+
+
+### Can reproduce.
+3.2.0
+
+Abhijith Ganesan#5206 - Jared on 2016-12-18T20:49:38.738Z
+
+
+### Can reproduce.
+3.2.0 ALPHA, Samsung Galaxy S5, Android 6.0.1
+
+Enharmonic#3999 - Jared on 2016-12-19T03:33:12.457Z
+
+
+### According to the LEAD ANDROID DEVELOPER OF AWESOMENESS:
+
+`
+"it's not a bug, nicknames don't show in mentions.  The issue is that we don't want to sync a bunch of server just to get recent mentioned. You have to be synced to a server to get the additional info to know about nicknames."
+` - Jared on 2016-12-20T22:42:29.155Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2016-12-20T22:42:52.417Z
+
+
+### Archiving as this ticket as been Won't Fix for over a month. - Mike Nisbet on 2017-10-17T21:10:00.555Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:10:01.267Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

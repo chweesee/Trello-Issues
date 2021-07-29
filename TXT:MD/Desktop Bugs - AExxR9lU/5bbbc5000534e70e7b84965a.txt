@@ -1,0 +1,78 @@
+[Archived] Numbers such as 9 and 2 in a user discriminator appear cut off at the top in audit log entries on light theme (https://trello.com/c/9c5vuIVd)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-08T20:58:40.915Z
+Latest Update: 2019-01-11T00:00:55.761Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to a server where you can view the audit log 
+- Have a user with a number with a loop at the top in their discriminator create an audit log entry 
+- Switch your theme to light theme, and enter the audit log in server settings 
+- Observe the discriminator in the audit log entry 
+- Switch your appearance to dark theme, and view the entry again
+
+####Expected result:
+Numbers are not cut off at the top
+####Actual result:
+Numbers appear cut off at the top
+####Client settings:
+Canary Build 25661
+####System settings:
+Windows 10 Home x64 1803
+
+20839
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-08T20:58:40.915Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bbbc5000534e70e7b84965a/97ea9c84659ce8b1e06345eb5db7a0e3/B18wuRZ.png added by Bug Bot on 2018-10-08T20:58:43.450Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bbbc5000534e70e7b84965a/6226c9777386efddfd02c10b18e9d30f/lGBnvNi.png added by Bug Bot on 2018-10-08T20:58:43.840Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 x64 - Discord Canary 25661
+
+webhp#1337 - Bug Bot on 2018-10-08T20:58:48.475Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 25661
+
+» a r i a#1593 - Bug Bot on 2018-10-08T20:58:53.411Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Version 10240), Discord Canary (Build 25661)
+
+THIS SIDE // 45 RPM#7076 - Bug Bot on 2018-10-08T20:58:58.324Z
+
+
+### minor - Clayton on 2018-10-08T22:25:39.510Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-08T22:25:48.684Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 25661
+
+Neiron#2406 - Bug Bot on 2018-10-09T03:21:37.669Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:55.765Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,96 @@
+[Archived] Sending message with accent waiting does not insert the accent (https://trello.com/c/z4R1Wtbn)
+
+None
+
+Created: 2019-12-13T06:52:40.241Z
+Latest Update: 2020-01-15T22:00:38.535Z
+
+Reported by Ura Yukimitsu#7045
+
+####Steps to reproduce:
+-  Set your keyboard locale to French (fr) AZERTY  
+- Write a message and add for example a waiting grave accent  with alt gr+7 
+- Send the message with enter
+
+####Expected result:
+The accent should be added at the end of the message before the message is sent
+####Actual result:
+The message is sent without the accent and the chat box now has a line break instead of being empty
+####Client settings:
+Desktop Canary 51279
+####System settings:
+Windows 10 Home x64
+
+50263
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-13T06:52:40.241Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909, Canary 51279 host 0.0.259
+
+Jean20B#4668 - Bug Bot on 2019-12-13T06:52:47.856Z
+
+
+### Can reproduce.
+CR - Windows 10 Home x64 1903 - Canary 51279 - Note: You don't need the French keyboard locale, just click the key that makes this character get typed: `~`
+
+Fumple#0001 - Bug Bot on 2019-12-13T06:52:52.837Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro, Canary 51387
+
+Action Potential#6862 - Bug Bot on 2019-12-13T06:52:57.877Z
+
+
+### Can reproduce.
+Windows 10 1809 Canary 51279
+
+라고솔로가말했습니다#1234 - Bug Bot on 2019-12-13T10:26:16.994Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Canary Build: 51387
+
+IamSushi#0001 - Bug Bot on 2019-12-13T15:04:18.714Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 51395 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-13T19:29:47.752Z
+
+
+### Can reproduce.
+CR // windows 10 home (1903) // canary 51469
+
+Encrium#0004 - Bug Bot on 2019-12-14T02:16:43.419Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51469, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-14T06:57:16.790Z
+
+
+### Can reproduce.
+Windows 10 64bit Version 1903, Discord Canary 51279
+
+Philip#0001 - Bug Bot on 2019-12-14T07:03:13.438Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by AJ Palkovic on 2019-12-16T21:31:53.998Z
+
+
+### Archived by Bug Bot on 2020-01-15T22:00:38.544Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,75 @@
+[Archived] Tapping and holding on (selecting) the empty space after a message that ends in a mention within a DM refreshes/re-opens the DM instead of selecting the message. Similarly, doing the same within a server opens the DM without actually touching the mention, but it's unclear whether that specific server behavior is intended. (https://trello.com/c/S76TYpeC)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-01-09T22:31:00.119Z
+Latest Update: 2018-07-10T21:28:50.682Z
+
+Reported by Svetroid#4086
+
+####Steps to reproduce:
+- produce message with a mention at the end (or simply just a mention only) within a DM 
+- try selecting the message in the empty space after the mention
+
+####Expected result:
+Message should be selected; should only open DM when actually touching the mention
+####Actual result:
+DM re-opens/refreshes
+####Client settings:
+Discord 6.0.6
+####System settings:
+Moto G5 Plus, Android 7.0
+
+7733
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-09T22:31:00.119Z
+
+
+### Svetroid#4086 - https://youtu.be/TjlU5uHjY8M added by Bug Bot on 2018-01-09T22:31:02.763Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.0.6, Android 6.0, Moto E (2.Gen) LTE
+
+Anorak#5830 - Bug Bot on 2018-01-09T22:31:07.910Z
+
+
+### Can reproduce.
+CR Discord 6.0.6, Kyocera Hydro Wave Android 5.1
+
+Okori#0902 - Bug Bot on 2018-01-09T22:31:12.388Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 606
+
+Xander#0259 - Bug Bot on 2018-01-09T22:31:17.504Z
+
+
+### Verified.  - Clayton on 2018-01-10T01:08:43.587Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-10T01:09:57.848Z
+
+
+### Can reproduce.
+huawei CAN L01 android 6.0, android alpha 6.0.6
+
+Jakob#6834 - Bug Bot on 2018-01-11T00:19:00.605Z
+
+
+### extension of: https://trello.com/c/g8CJFjOP/581-long-pressing-on-a-message-only-filled-with-a-link-just-opens-up-the-link - Clayton on 2018-07-10T21:28:47.394Z
+
+
+### Archived by Clayton on 2018-07-10T21:28:50.684Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

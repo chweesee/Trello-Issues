@@ -1,0 +1,172 @@
+[Archived] Role name causes Discord to crash [iOS 12+] (https://trello.com/c/fYxBw7Im)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2019-04-17T02:49:52.925Z
+Latest Update: 2019-07-14T12:00:03.885Z
+
+Reported by ℍ𝕖𝕝𝕝𝕠 𝕋𝕙𝕖𝕣𝕖#0002
+
+####Steps to reproduce:
+- Make / obtain a role with the name: "<Emoji> <6 letters double-struck> <5 letters double-struck> <5 letters double-struck>" (with spaces between the emojis and 'double-struck words')" (Try this for the role name: `😀 𝕒𝕓𝕔𝕕𝕖𝕗 a𝕓𝕔𝕕𝕖 a𝕓𝕔𝕕𝕖`) 
+- Click on your (or whoever else has that role) on the sidebar or long press their name in chat and click User Settings 
+- Observe the app crashing
+
+####Expected result:
+It will show you the name of the role
+####Actual result:
+Discord crashes (displays the "Looks like Discord has crashed unexpectedly...." screen)
+####Client settings:
+Testlight 2.5.2
+####System settings:
+iPhone 8, iOS 12.2
+
+32795
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-17T02:49:52.925Z
+
+
+### Can reproduce.
+Can Reproduce - TestFlight 2.5.2 (13786) iPhone 6s iOS 12.3 Dev Beta 2
+
+Rashaun#8467 - Bug Bot on 2019-04-17T02:50:00.602Z
+
+
+### Can reproduce.
+iPhone Xʀ - iOS 12.2 (16E227) - Discord TestFlight 2.5.2 (13786)
+
+Frances Picard#6209 - Bug Bot on 2019-04-17T02:50:05.581Z
+
+
+### Can reproduce.
+cr, iPhone 7, iOS 12.3 (Dev Beta 2) - TestFlight 2.5.2 (13786)
+
+ryan#0570 - Bug Bot on 2019-04-17T02:50:10.555Z
+
+
+### Can't reproduce.
+iPad Air (iOS 12.1.4) - TestFlight 2.5.2 (13786)
+
+gianna#0248 - Bug Bot on 2019-04-17T03:08:15.218Z
+
+
+### Can reproduce.
+ipad air 2 ios 12.2, TestFlight 2.5.2 (13786)
+
+Pain#2020 - Bug Bot on 2019-04-17T04:38:49.190Z
+
+
+### Can reproduce.
+iphone xs max ios 12.2 discord test flight 2.5.2
+
+Souper#9999 - Bug Bot on 2019-04-17T04:46:42.955Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.2 | TestFlight 2.5.2 (13786)
+
+Clay#0001 - Bug Bot on 2019-04-17T05:30:12.843Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2 - TestFlight 2.5.2 (13786)
+
+Daffyduck#5364 - Bug Bot on 2019-04-17T09:43:29.178Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.5.2 (13786)
+
+Jengas#7777 - Bug Bot on 2019-04-17T17:16:03.634Z
+
+
+### Can reproduce.
+CR. iPhone XR • iOS 12.2 • TestFlight 2.5.2 (13786)
+
+Rage#9991 - Bug Bot on 2019-04-17T18:07:26.490Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.5.2 (13786)
+
+Killtracity#0001 - Bug Bot on 2019-04-17T22:38:00.955Z
+
+
+### Can reproduce.
+iPad Air iOS 12.1.4 (16D57), TestFlight 2.5.2 (13786)
+
+c1rcl#3677 - Bug Bot on 2019-04-18T01:10:14.346Z
+
+
+### Can't reproduce.
+iPhone X, iOS 12.1.3 - Discord TestFlight 2.5.2 (13786)
+
+CustomName#9999 - Bug Bot on 2019-04-18T20:25:13.714Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.1.3 - Discord TestFlight 2.5.2 (13786)
+
+CustomName#9999 - Bug Bot on 2019-04-18T20:26:22.856Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.2, Discord TestFlight 2.5.2
+
+Andeh#0001 - Bug Bot on 2019-04-19T15:16:42.354Z
+
+
+### Can reproduce.
+iPhone 6s iOS 12.2, TestFlight 2.5.2 (13786)
+
+northern#2591 - Bug Bot on 2019-04-19T19:07:07.964Z
+
+
+### Can't reproduce.
+CNR - Can Not Reproduce - iPhone 6s - iOS 12.1 - TestFlight 2.5.2 (13786)
+
+jedi3#0001 - Bug Bot on 2019-04-21T04:40:05.558Z
+
+
+### I Cannot reproduce as of iOS TestFlight 2.5.2 (14408) on iPhone XS Max running iOS 12.3 Dev Beta 1. I was not able to crash with the mentioned role name, as my client is running fine. 
+
+I’m going to move this to Cannot Reproduce. - Ghoul on 2019-04-24T01:14:53.189Z
+
+
+### Moved from New Issues to Cannot Reproduce by Ghoul on 2019-04-24T01:15:04.554Z
+
+
+### @_pascal_ showed me the demonstration. Apparently you really needed to create the role then name it as specified on Desktop because iOS refuses to accept the name in the STR as a role name. 
+
+With that new additional. I am now able to reproduce as of iPhone XS Max running iOS 12.3 Dev Beta 1 on iOS TestFlight 2.5.2 (14008). It shows the Nelly screen for me. 
+
+So verifying this as P3 high considering of how unique the characters are and it only works with roles which is less than likely to be abused in a way or form. Moving to Backlogs. - Ghoul on 2019-04-24T20:39:10.471Z
+
+
+### Moved from Cannot Reproduce to Backlog by Ghoul on 2019-04-24T20:39:16.553Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.2, Testflight 2.5.2 (14408)
+
+Pyros#1400 - Bug Bot on 2019-04-28T00:34:27.089Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.3 (dev beta 2) - Stable 3.0.0
+
+Xylium#5800 - Bug Bot on 2019-04-28T00:36:43.025Z
+
+
+### Archived by Bug Bot on 2019-07-14T12:00:03.898Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

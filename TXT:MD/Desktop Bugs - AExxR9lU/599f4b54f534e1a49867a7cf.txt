@@ -1,0 +1,83 @@
+[Archived] "Search Options" window doesn't go away when moving chats via a notification (https://trello.com/c/Yv8TojzE)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-24T21:55:32.841Z
+Latest Update: 2018-07-06T17:56:23.703Z
+
+Reported by tri'ngle#9036
+
+####Steps to reproduce:
+- Click in search bar to open options window 
+- Receive a desktop notification 
+- Click through to the chat it's from
+
+####Expected result:
+Search options window goes away because the bar becomes unfocused
+####Actual result:
+Search options window remains. It can only be dismissed by clicking in and out of the search bar, clicking outside makes it reappear after a while.
+####Client settings:
+Canary 0.0.154
+####System settings:
+Mac OS X 10.12.6
+
+3474
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-24T21:55:32.841Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro Early 2015
+
+Nelson1348#9190 - Bug Bot on 2017-08-24T21:55:40.229Z
+
+
+### Can reproduce.
+MacBook Pro, macOS 10.12.6, Canary 0.0.154
+
+mouse91#3089 - Bug Bot on 2017-08-24T21:55:45.263Z
+
+
+### Can reproduce.
+Mac OSX 10.12 Canary 0.0.154
+
+IcyPebbles#5833 - Bug Bot on 2017-08-24T21:55:50.229Z
+
+
+### Verified.  - Clayton on 2017-08-25T01:42:08.345Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-25T01:42:19.051Z
+
+
+### Can reproduce.
+CR, Discord Stable 0.0.248 (MacBook Pro Retina "13 Mid 2014)
+
+fratik#9865 - Bug Bot on 2017-08-28T11:45:57.497Z
+
+
+### My CR below: it's not stable 0.0.248 but Canary 0.0.154. I got confused with storeinfo, ok?
+
+fratik#9865 - Bug Bot on 2017-08-28T12:04:34.164Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T17:05:50.264Z
+
+
+### Cannot reproduce, marking as Verified Fixed - Jared on 2018-03-21T17:05:57.533Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:56:20.530Z
+
+
+### Archived by Jared on 2018-07-06T17:56:23.706Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

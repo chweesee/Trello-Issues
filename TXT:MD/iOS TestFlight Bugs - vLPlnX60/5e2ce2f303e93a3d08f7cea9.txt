@@ -1,0 +1,73 @@
+[Archived] discord QR code scan on iPad has incorrect orientation (https://trello.com/c/T3vgsKVa)
+
+P3 - Will be fixed eventually
+
+Created: 2020-01-26T00:53:07.794Z
+Latest Update: 2020-04-22T06:00:02.235Z
+
+Reported by Timemaster111#8292
+
+####Steps to reproduce:
+- generate a login QR code 
+- scan the QR code via the app (scanning via the camera app will shortcut you to discord anyway) 
+- notice the orientation is wrong 
+- rotating to 'fix' the orientation will orientate the app and still have the wrong orientation
+
+####Expected result:
+the camera should have the same orientation as the app
+####Actual result:
+the camera has a 90 degree offset (not sure which direction)
+####Client settings:
+stable 3.1.9
+####System settings:
+ios 12.4.1, iPad 5
+
+51843
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-26T00:53:07.794Z
+
+
+### Can reproduce.
+CR only in landscape orientation. iPad Air 2, iPadOS 13.3, TestFlight 3.1.9 (18591)
+
+carter#0001 - Bug Bot on 2020-01-26T00:53:15.480Z
+
+
+### Can reproduce.
+Starting in portrait works fine but then rotating to landscape messes it up. Starting in landscape also messes it up but rotating to portrait is fine. iPad 7: iPadOS 13.3; TestFlight 3.1.9 (18591)
+
+Jiralite#1207 - Bug Bot on 2020-01-26T00:53:20.489Z
+
+
+### Can reproduce.
+CR, iPad iOS 12.4.4, testFlight 3.1.9 (18591)
+
+Action Potential#6862 - Bug Bot on 2020-01-26T00:53:25.474Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2020-02-07T19:00:07.789Z
+
+
+### Archived by Bug Bot on 2020-03-08T19:30:07.697Z
+
+
+### Can reproduce.
+TF 14.0 (19336) iOS: 13.3.1 Model: iPad Pro 9.7
+
+nathanielcwm#3522 - Bug Bot on 2020-03-23T05:28:01.035Z
+
+
+### Unarchived by Bug Bot on 2020-03-23T05:30:05.674Z
+
+
+### Archived by Bug Bot on 2020-04-22T06:00:02.248Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

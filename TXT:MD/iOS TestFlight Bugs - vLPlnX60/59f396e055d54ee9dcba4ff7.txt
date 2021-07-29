@@ -1,0 +1,87 @@
+[Archived] Discord crashes when trying to save image without access to the photos app [Might be iOS 11 only] (https://trello.com/c/nm4oqg9Y)
+
+P2 - Can wait a while,
+low
+
+Created: 2017-10-27T20:28:16.772Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to your iOS settings and disallow Discord access to the photos app 
+- Open Discord again and search for an image/gif 
+- Click on this image to open image preview 
+- Click again on this image to open the buttons 
+- Now click on the 3 dots 
+- Try to save the image.
+
+####Expected result:
+You should get an error message that Discord doesn't have permission to your photos app (like for uploading photos).
+####Actual result:
+Right after clicking it Discord crashes.
+####Client settings:
+TestFlight 1.9.3 (1340)
+####System settings:
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5
+
+5861
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-27T20:28:16.772Z
+
+
+### Can reproduce.
+iPhone 7s on iOS 11.0.3, Testflight 1.9.3
+
+MLG Golden#9086 - Bug Bot on 2017-10-27T20:28:24.207Z
+
+
+### Can reproduce.
+CR, not having previously saved media from Discord also triggers this, rather than prompting the user to allow access. iPhone 6s on iOS 11.0.3 & iPad Air 2 on iOS 11.0.3, TestFlight 1.9.3 (1340)
+
+skyllful#8516 - Bug Bot on 2017-10-27T20:28:29.186Z
+
+
+### Can reproduce.
+CR, on iPhone 6s, ios 11.0.3 with testflight 1.9.3 (1340)
+
+Jakob#6834 - Bug Bot on 2017-10-27T20:28:34.183Z
+
+
+### Verified. - Jared on 2017-11-06T22:09:22.076Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-06T22:09:26.252Z
+
+
+### I can still reproduce, the app crashes when trying to save the image.
+
+Discord 2.2.5 (3054), iOS 11.2.6, iPhone 8 Plus - Alexandru Todea on 2018-03-16T18:31:45.624Z
+
+
+### Can't reproduce.
+Cannot reproduce as of iOS TestFlight 2.3.1 (4025). It no longer crashes, but instead pops up a message prompting for me to change my settings. I used iPhone 8 +, iOS 11.4
+
+Ghoul#0001 - Bug Bot on 2018-04-27T22:05:19.916Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Victoria on 2018-04-28T02:44:43.273Z
+
+
+### I cannot reproduce on iPhone 8 + running iOS 11.4.1 with Discord Stable Version 2.3.3. The application now tells me that I don’t have access to my Photos, will be attaching a screenshot to show. - Ghoul on 2018-06-01T14:58:19.575Z
+
+
+### photo.jpg - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59f396e055d54ee9dcba4ff7/c1078623f99d46c4769132f441236c50/photo.jpg added by Ghoul on 2018-06-01T14:58:44.081Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:29.064Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

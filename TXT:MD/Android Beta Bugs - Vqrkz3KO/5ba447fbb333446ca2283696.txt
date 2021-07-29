@@ -1,0 +1,81 @@
+[Archived] Holding down on a message and clicking add reaction and adding a global emoji in a server with External Emojis disabled causes the keyboard to stay open when the toast pops up "Unknown Emoji" (https://trello.com/c/PfI17HUg)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-21T01:23:07.069Z
+Latest Update: 2018-09-21T12:15:45.841Z
+
+Reported by FoxyKero#9941
+
+####Steps to reproduce:
+- Hold down on a message 
+- Click "Add Reaction" 
+- Ensure that the owner (or moderator) has External Emojis disabled.  
+- Attempt to add a global emoji from an outside server (nitro is NOT required) 
+- Do not tap anything on the screen after you have clicked an emote 
+- Observe
+
+####Expected result:
+You should be taken back to the channel with the message menu closed and keyboard not open
+####Actual result:
+You return to the channel, but the message menu is open, as is the keyboard
+####Client settings:
+Discord Alpha 7.5.4 (754)
+####System settings:
+Samsung Galaxy J7 running Android 8.1.0
+
+19890
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-21T01:23:07.069Z
+
+
+### FoxyKero#9941 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ba447fbb333446ca2283696/488d7c1815bce144a8da999e5cee3113/Screenshot_20180920-173852_Discord.jpg added by Bug Bot on 2018-09-21T01:23:09.448Z
+
+
+### Can reproduce.
+Huawei Honor 10 view (BKL-L09), Android 8.0.0, Discord Alpha 753
+
+JVC Almeos#1984 - Bug Bot on 2018-09-21T01:23:14.361Z
+
+
+### Can reproduce.
+Can reproduce. LG Fortune, Android 6.0.1 - Discord Alpha 7.5.3
+
+Hole#0001 - Bug Bot on 2018-09-21T01:23:19.379Z
+
+
+### Can reproduce.
+CN; Samsung Galaxy S8 Android 8; 7.5.3
+
+OrangeM24#5746 - Bug Bot on 2018-09-21T01:23:24.390Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.5.4 - Clayton on 2018-09-21T05:17:05.728Z
+
+
+### Extension of https://trello.com/c/RKf2kbBf - Global emotes showing up when External emoji's are disabled
+
+Alipoodle#5025 - Bug Bot on 2018-09-21T07:15:05.304Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-21T12:15:17.084Z
+
+
+### extension below.  - Clayton on 2018-09-21T12:15:39.749Z
+
+
+### Moved from Verified Bugs to User Reported Bugs by Clayton on 2018-09-21T12:15:44.486Z
+
+
+### Archived by Clayton on 2018-09-21T12:15:45.843Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

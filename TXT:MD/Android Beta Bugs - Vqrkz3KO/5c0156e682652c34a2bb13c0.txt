@@ -1,0 +1,104 @@
+[Archived] [Android 9 specific] Joining a voice channel causes the client to crash on 8.0.4 (https://trello.com/c/r3yJYWag)
+
+None
+
+Created: 2018-11-30T15:27:34.102Z
+Latest Update: 2019-01-01T23:15:49.635Z
+
+Reported by Haru 🥰#6660
+
+####Steps to reproduce:
+- Update to 8.0.4 
+- Try to join a voice channel
+
+####Expected result:
+The client should continue working just fine and you should be connected to the voice channel
+####Actual result:
+The client crashes and roughly 2 minutes afterwards VOICE_PART event (voice disconnect) is sent
+####Client settings:
+Discord Alpha 8.0.4
+####System settings:
+Xiaomi Mi A1, Android 9.0 (November patch)
+
+23810
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-30T15:27:34.102Z
+
+
+### Haru 🥰#6660 - https://youtu.be/uUJs_rgR9UU added by Bug Bot on 2018-11-30T15:27:36.466Z
+
+
+### Can reproduce.
+Can reproduce. Oneplus 3, Android 9, Alpha 8.0.4
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-30T15:27:41.414Z
+
+
+### Can reproduce.
+CR Xiaomi Mi A2 Lite, Android 9.0, Discord Alpha 8.0.4
+
+zapteryx#6161 - Bug Bot on 2018-11-30T15:27:46.439Z
+
+
+### Can reproduce.
+can reproduce android 9.0 discord 8.0.4 one plus 6
+
+Minato#0420 - Bug Bot on 2018-11-30T15:27:51.463Z
+
+
+### Can reproduce.
+Google Pixel XL, Android 9, Alpha 8.0.4
+
+Alpha#5960 - Bug Bot on 2018-11-30T15:35:42.220Z
+
+
+### Can't reproduce.
+Motorola Droid Turbo 2, 7.0
+
+Megadynamite#2510 - Bug Bot on 2018-11-30T15:38:50.188Z
+
+
+### zapteryx#6161 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c0156e682652c34a2bb13c0/7625ceabb4f6e82364e6d6599a56f391/image.png added by Bug Bot on 2018-11-30T18:31:41.369Z
+
+
+### Can't reproduce.
+No longer seems to occur - Xiaomi Mi A1, Android 9.0, Discord Alpha 8.0.5
+
+Haru 🥰#6660 - Bug Bot on 2018-11-30T23:07:52.477Z
+
+
+### Can reproduce.
+Google Pixel 2 XL (Nov Patch) w/ Discord Alpha 8.0.4
+
+aditya#0001 - Bug Bot on 2018-11-30T23:09:43.495Z
+
+
+### Can't reproduce.
+Google Pixel 2 XL (Nov Patch) w/ Discord Alpha 8.0.5
+
+aditya#0001 - Bug Bot on 2018-11-30T23:12:53.641Z
+
+
+### CNR - Clayton on 2018-12-01T04:50:09.895Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-12-01T04:50:15.035Z
+
+
+### Moved from Cannot Reproduce to Fixed Bugs by Clayton on 2018-12-01T07:22:59.416Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:15:48.735Z
+
+
+### Archived by Tarek on 2019-01-01T23:15:49.638Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

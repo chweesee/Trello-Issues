@@ -1,0 +1,83 @@
+[Archived] When you use the mention selector to choose someone and then press Backspace, the selector does not appear, but the top of the message box has sharp corners (https://trello.com/c/6rffL7LW)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-11T01:25:23.901Z
+Latest Update: 2018-10-22T20:16:17.477Z
+
+Reported by advaith#9121
+
+####Steps to reproduce:
+- Press @ and click on someone in the selector 
+- Press Backspace
+
+####Expected result:
+The message box still has rounded corners
+####Actual result:
+The top corners of the message box are sharp, as if the mention selector is there. If you press Ctrl+A and delete everything, the corners are still sharp.
+####Client settings:
+Discord Canary 0.0.156 (Build 5588)
+####System settings:
+macOS High Sierra 10.13 (17A405) (iMac Retina 5K, 27-inch, Late 2017)
+
+5310
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-11T01:25:23.901Z
+
+
+### ks0908#8526 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59dd730387beb01496b03eac/a131df19dbe8fa36fc3658b23a1ff234/Screen_Shot_2017-10-10_at_3.26.25_PM.png added by Bug Bot on 2017-10-11T01:25:26.236Z
+
+
+### Can reproduce.
+Very strange to repro, try a few times before deny - Windows 10 Home (1709) x64, Canary 0.0.165
+
+DeJay#3628 - Bug Bot on 2017-10-11T01:25:31.198Z
+
+
+### Can reproduce.
+At first I dodn't see it, But it was probably just my eyes. Windows 10 build 15063 x64 CU, Discord Canary v0.0.163
+
+Finny Aldan#0633 - Bug Bot on 2017-10-11T01:25:36.176Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Creators Update | Canary 0.0.164
+
+Rauf#3260 - Bug Bot on 2017-10-11T01:25:41.180Z
+
+
+### Can reproduce.
+Discord Canary 0.0.165 (Build 5683) on Windows 10 Home x64 (Build 1703)
+
+OminousCry#2331 - Bug Bot on 2017-10-11T12:53:12.900Z
+
+
+### Can reproduce.
+Discord Canaray 5683, Kubuntu 17.10 x64
+
+kiroma#1608 - Bug Bot on 2017-10-11T21:34:37.125Z
+
+
+### Verified - Clayton on 2017-10-18T06:48:20.479Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-18T06:48:24.008Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 16329 | Works with emojis or two colons, symbolizing an emoji
+
+» a r i a#1593 - Bug Bot on 2018-06-01T02:03:26.058Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:17.480Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

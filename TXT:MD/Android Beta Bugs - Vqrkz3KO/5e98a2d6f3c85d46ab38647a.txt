@@ -1,0 +1,89 @@
+Clicking the cross to remove all attachments from a message you're about to send causes the new textbox and media icons bar to flash around weirdly near the middle of the screen. Also it closes and reopens the keyboard unnecessarily (https://trello.com/c/qMYo0p8I)
+
+None
+
+Created: 2020-04-16T18:24:22.616Z
+Latest Update: 2020-04-19T21:40:56.886Z
+
+Reported by Ana940#9858
+
+####Steps to reproduce:
+- Attach something to a message without sending the message 
+- Click the cross in the attachment preview bar above the textbox, while observing what happens when you do
+
+####Expected result:
+Cleanly removes all attachments without the new textbox and icons flashing up crazily for a bit of time
+####Actual result:
+Textbox (and media icons) flash around crazily for a moment near the middle of the screen
+####Client settings:
+Android 18.0-alpha7 (1098)
+####System settings:
+Samsung Galaxy A70, Android 10
+
+54780
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-16T18:24:22.616Z
+
+
+### Can reproduce.
+CR, Moto G7, Android 9, Discord 18.0-Alpha7 (1098)
+
+wakfi#6999 - Bug Bot on 2020-04-16T18:24:30.158Z
+
+
+### Can reproduce.
+CR, Samsung S10+, Android 10.0, 18.0-alpha7
+
+" 3CH0 Tibo#2001 - Bug Bot on 2020-04-16T18:24:35.171Z
+
+
+### Can reproduce.
+Could reproduce - 18.0-a8 - OnePlus 5T - Android 9.0.0 (OxygenOS)
+
+aosync#3115 - Bug Bot on 2020-04-16T18:24:40.140Z
+
+
+### Can't reproduce.
+CNR Samsung Galaxy A3 2015, LineageOS 14.1 18-a9
+
+G-Man#3131 - Bug Bot on 2020-04-16T20:23:00.824Z
+
+
+### Can reproduce.
+CR, Y9s, Android 10, Discord 18-alpha 7 (1098)
+
+Zynb#2984 - Bug Bot on 2020-04-17T03:42:39.503Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2020-04-17T18:54:38.955Z
+
+
+### Can't reproduce.
+[CNLR] Moto G7, Android 9, Discord 18.0-Alpha12 (1104)
+
+wakfi#6999 - Bug Bot on 2020-04-19T18:57:36.610Z
+
+
+### Can't reproduce.
+CNLR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha12 (1104)
+
+Ana940#9858 - Bug Bot on 2020-04-19T21:08:24.621Z
+
+
+### Can't reproduce.
+[CNLR] Samsung A10 - Android 9 - Discord 18-Alpha12 (1104)
+
+Cookie#3165 - Bug Bot on 2020-04-19T21:40:56.442Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2020-04-19T21:40:56.896Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

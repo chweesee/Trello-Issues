@@ -1,0 +1,81 @@
+[Archived] Submitting an empty text field in "Join server with invite link" screen will show an expired invite with a Network error toast (https://trello.com/c/Rj5votR3)
+
+P3 - Will be fixed eventually,
+Low,
+Mod can no longer reproduce
+
+Created: 2018-02-25T00:36:05.250Z
+Latest Update: 2018-07-06T21:19:52.617Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Scroll all the way down in your server list 
+- Tap the + button 
+- Tap "Join server with invite link"  
+- Without writing anything in the textbox, tap Join at the top right
+
+####Expected result:
+The same behavior as if you type invalid invite : a "Unknown invite" toast
+####Actual result:
+It shows "Network error" or something
+####Client settings:
+Discord Alpha 6.2.8
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9075
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-25T00:36:05.250Z
+
+
+### Can reproduce.
+CR, Moto G5 running Android 7.0 on Discord 6.2.8
+
+railworks2#1234 - Bug Bot on 2018-02-25T00:36:12.691Z
+
+
+### Can reproduce.
+Huawei P10 Lite (Android 7.0) - Alpha Build 6.2.7
+
+Mas#0001 - Bug Bot on 2018-02-25T00:36:17.680Z
+
+
+### Can reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.2.8
+
+mrkirby153#7840 - Bug Bot on 2018-02-25T00:36:57.904Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 - Android 5.0, alpha 6.2.8
+
+fujhofn.#0878 - Bug Bot on 2018-02-25T00:55:35.201Z
+
+
+### Verified.  - Clayton on 2018-03-01T21:51:35.620Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-01T21:51:39.183Z
+
+
+### Cannot reproduce anymore, Discord 6.6.1 on OnePlus 5 running Oreo 8.1 moving to claimed fixed. - Tarek on 2018-05-04T12:11:39.229Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-05-04T12:11:43.272Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:19:51.856Z
+
+
+### Archived by Jared on 2018-07-06T21:19:52.621Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

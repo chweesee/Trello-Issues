@@ -1,0 +1,73 @@
+[Archived] New Messages separator does not remove after couple of minutes of activity in the channel, which moves the chat to the separator when changing screen orientation. (https://trello.com/c/vvzwFROh)
+
+None
+
+Created: 2018-01-02T14:54:16.800Z
+Latest Update: 2018-02-07T13:40:33.966Z
+
+Reported by MobButcher#5874
+
+####Steps to reproduce:
+- Warning: this is an actual bug, it is not intended behaviour, confirmed by Dabbit. Do not deny this bug because of NAB. 
+- Go to the channel with new messages 
+- Scroll up to the point where New Messages separator appears. 
+- Scroll down/up, hiding New Messages separator from the viewport (screen). 
+- Turn the scrern orientation. 
+- Observe.
+
+####Expected result:
+After a user stays in a channel for a couple of minutes the New Messages separator disappears and does not jump to the place it was, leaving at the spot where user was at the time or screen rotation.
+####Actual result:
+Chat jumps to the New Message Separator, which does not disappear after several minutes of activity.
+####Client settings:
+Discord Alpha 6.0.2
+####System settings:
+LG G60 X135 @ Android 4.4.2
+
+7542
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-02T14:54:16.800Z
+
+
+### Can reproduce.
+CR lg Xpower 6.0.1 on beta 6.0.2 | despite scrolling new message red bar don't dissaper, which is root cause of another issue. | Ticket is about new message bar not dissapearing, not jumping to it, so it's not extension
+
+ks0908#8526 - Bug Bot on 2018-01-02T14:54:24.348Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 602, definitely a bug
+
+Xander#0259 - Bug Bot on 2018-01-02T14:54:29.325Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.0.2, Android 6.0, Moto E (2.Gen) LTE
+
+Anorak#5830 - Bug Bot on 2018-01-02T14:54:34.643Z
+
+
+### This is the current intended behavior.
+
+The new messages behavior does not currently match desktop 100% but it is by design.
+
+We will revisit it at some point in the future. - Miguel Gaeta on 2018-01-02T21:08:55.690Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Miguel Gaeta on 2018-01-02T21:09:06.487Z
+
+
+### Archiving this ticket as there's been no new activity for over a month. - Chris Cox on 2018-02-07T13:40:28.996Z
+
+
+### Archived by Chris Cox on 2018-02-07T13:40:33.969Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,120 @@
+[Archived] [iOS 13 only] Accepting CallKit calls sends you to a blank screen with just your wallpaper and a green status bar (https://trello.com/c/Ked0F2sq)
+
+P1 - Severe,
+low
+
+Created: 2019-07-03T20:12:24.951Z
+Latest Update: 2019-09-18T10:00:54.564Z
+
+Reported by GlenMerlin#2119
+
+####Steps to reproduce:
+- Get a DM call while not focused on discord 
+- accept the call 
+- observe that you get stuck on a blank page that you have to end the call to escape from
+
+####Expected result:
+it opens the discord app and goes to the call
+####Actual result:
+it gets stuck on a blank page
+####Client settings:
+TestFlight 3.0.5 (16089)
+####System settings:
+iOS 13(Public Beta) iPhone 6s
+
+38989
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-03T20:12:24.951Z
+
+
+### GlenMerlin#2119 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5d1d0c2887f61711e5618453/d5de224937f5ef295a110c0236dd0a64/image0.png added by Bug Bot on 2019-07-03T20:12:28.898Z
+
+
+### Can reproduce.
+iPhone XS Max running iOS 13 Dev Beta 2 on iOS TestFlight 3.0.5 (16089). Crashes completely for me when I tried to accept the call. Otherwise, it opens up the stuck blank page.
+
+Ghoul#0003 - Bug Bot on 2019-07-03T20:12:32.609Z
+
+
+### Can reproduce.
+iphone 8 ios 13, TestFlight 3.0.5 (16089)
+
+OrangeM24#5746 - Bug Bot on 2019-07-03T20:12:37.571Z
+
+
+### Can reproduce.
+iPhone 6s iOS 13 (Public Beta) - TF 3.0.5 (16102)
+
+Jasοn#0001 - Bug Bot on 2019-07-03T20:12:42.555Z
+
+
+### Can reproduce.
+iPhone XS, iOS 13.0 Dev Beta 3, TestFlight 3.0.5 (16102)
+
+Tjaz#0001 - Bug Bot on 2019-07-04T11:06:45.734Z
+
+
+### Can't reproduce.
+iPhone XR & iPad Air iOS 12.3.1 TestFlight 3.0.5 (16102)
+
+binchlord#0998 - Bug Bot on 2019-07-12T02:46:16.420Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-07-12T19:00:04.741Z
+
+
+### Moved from Backlog to iOS 13 by Pascal on 2019-07-12T21:05:09.264Z
+
+
+### Can reproduce.
+iPhone 7 Plus iOS 13 Dev beta 2, TestFlight 3.0.6 (16208)
+
+Jeffrey#1234 - Bug Bot on 2019-07-17T15:22:56.721Z
+
+
+### Can reproduce.
+CR. iPhone XR - iOS 13.0 - TestFlight 3.0.6 (16208)
+
+Rage#9991 - Bug Bot on 2019-07-21T10:26:26.277Z
+
+
+### *Xylium#5800* and *Isabel#0002* helped me testing that and it is fixed for both of them with iOS 13 Dev Beta 6 and Stable 3.1.0.
+
+Moving to Claimed Fixed. - Pascal on 2019-08-11T20:21:14.021Z
+
+
+### Moved from iOS 13 to Claimed Fixed Bugs by Pascal on 2019-08-11T20:21:27.841Z
+
+
+### Can't reproduce.
+iPhone X, iOS 13 (dev beta 6) - Stable 3.1.0
+
+Xylium#5800 - Bug Bot on 2019-08-11T20:22:56.106Z
+
+
+### Can't reproduce.
+ iPhone 6s, iOS 13.0 (17A5556d) - TestFlight 3.1.0 (16734)
+
+Isabel#0002 - Bug Bot on 2019-08-11T20:23:06.743Z
+
+
+### Can't reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, Stable 3.1.0
+
+Jeffrey#1234 - Bug Bot on 2019-08-11T20:36:46.918Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-08-11T20:36:47.220Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:00:54.586Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

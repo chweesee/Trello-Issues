@@ -1,0 +1,113 @@
+Manually reverting changes doesnt dismiss "unsaved changes" box (https://trello.com/c/nUMkJNIi)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-04-20T17:29:52.386Z
+Latest Update: 2019-11-05T16:30:42.723Z
+
+Reported by Immotay#2748
+
+####Steps to reproduce: 
+- Go to the Overview tab in server settings 
+- Change the default notification to a different value 
+- Change it back to what you previously had 
+
+####Expected result:
+ The "You Have Unsaved Changes" box should dismiss itself when you switch back  
+####Actual result:
+ The box doesn't go away, and clicking "Save Changes" does not work. 
+####System settings:
+ Win10 x64 & Latest Canary
+
+1098
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-20T17:29:52.386Z
+
+
+### Can reproduce.
+x64 Win 10, latest Canary
+
+glowingass#2069 - Bug Bot on 2017-04-20T17:29:52.975Z
+
+
+### Can reproduce.
+Windows 10 x64, Latest Stable
+
+guurgle#2976 - Bug Bot on 2017-04-20T17:29:55.155Z
+
+
+### Can reproduce.
+Win 10 x64, latest Canary
+
+mouse91#3089 - Bug Bot on 2017-04-20T17:29:56.853Z
+
+
+### Moved from User Reported Bugs to Server Settings Redesign Bugs by Jared on 2017-04-20T17:30:58.624Z
+
+
+### Can reproduce.
+Latest canary win10
+
+Mippy | Discord BH#1483 - Bug Bot on 2017-04-20T17:35:19.319Z
+
+
+### Moved from Server Settings Redesign Bugs to Claimed Fixed, needs Verification by Amadeus on 2017-04-24T08:01:13.296Z
+
+
+### Can confirm this is fixed as of the last canary deploy. Needs official Discord Employee verification as well. - Alexander (DJScias) on 2017-04-24T12:56:25.146Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexander (DJScias) on 2017-05-02T23:49:16.274Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:19:38.441Z
+
+
+### Archived by Jared on 2017-10-17T20:19:39.081Z
+
+
+### Can reproduce again on Canary 40522, Windows 10 Home 64-bit (v1903).
+Seems to be affecting all settings in the Overview & Moderation tab.
+
+Moving to Reopened. - Ene on 2019-06-30T22:59:46.176Z
+
+
+### Moved from Verified Fixed to Reopened by Ene on 2019-06-30T22:59:50.384Z
+
+
+### Unarchived by Ene on 2019-06-30T22:59:50.442Z
+
+
+### Can reproduce.
+canary, Build Number: 40522, Windows 10 x64 .
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-01T01:40:03.113Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 43861
+
+charleskimbac#6492 - Bug Bot on 2019-08-17T03:53:19.871Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803, Discord Canary 46413
+
+Rex#9142 - Bug Bot on 2019-09-26T21:56:24.234Z
+
+
+### Can reproduce.
+Windows 10 x64 - Canary 486148
+
+Fictional#0001 - Bug Bot on 2019-11-05T16:30:42.761Z
+
+List
+====
+Reopened
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

@@ -1,0 +1,66 @@
+[Archived] Doing an everyone ping from mobile uses real everyone instead of custom role (https://trello.com/c/wJdj3TLV)
+
+P2 - Can wait a while
+
+Created: 2017-10-05T17:48:37.611Z
+Latest Update: 2019-06-05T23:46:04.276Z
+
+Reported by Evie.Codes#4611
+
+####Steps to reproduce:
+- Create a role called "everyone" and make it mentionable 
+- Be a user with admin perms or "mention everyone" perm 
+- Type `@everyone` in a channel, and send the message.
+
+####Expected result:
+As on Desktop, this should ping the "fake everyone role" *even if you select the real one*
+####Actual result:
+The real everyone is pinged and shit hits the fan
+####Client settings:
+Discord Alpha 5.2.7 (527)
+####System settings:
+LG G4, Android 6.0.1
+
+5112
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-05T17:48:37.611Z
+
+
+### Can reproduce.
+CR lg Xpower 6.0.1 on android alpha 5.2.6
+
+ks0908#8526 - Bug Bot on 2017-10-05T17:48:44.914Z
+
+
+### Can reproduce.
+cr VFD 600 @ Android 6.0.1 alpha 5.2.7
+
+TTtie#4900 - Bug Bot on 2017-10-05T17:48:50.009Z
+
+
+### Can reproduce.
+CR, Discord Alpha 5.2.7 (Build 527) OnePlus 5 on Android 7.1.1 | I was only able to reproduce this with atHere
+
+Tarek1337#0379 - Bug Bot on 2017-10-05T17:48:54.920Z
+
+
+### Verified.  - Clayton on 2017-10-12T23:47:50.302Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-12T23:47:54.629Z
+
+
+### Okori#0902 - https://youtu.be/iN9JOtDsZ-Q added by Bug Bot on 2018-07-14T05:45:59.255Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:04.288Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

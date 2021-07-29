@@ -1,0 +1,139 @@
+[Archived] esc button doesnt work in user settings after changing discord language (https://trello.com/c/hCGoBtGN)
+
+P2: Fix can wait a while
+
+Created: 2017-05-05T01:11:46.541Z
+Latest Update: 2018-07-06T18:29:07.683Z
+
+Reported by Harrison#9100
+
+####Steps to reproduce: 
+- open user settings 
+- click esc to get out of the menu 
+- observe how that works 
+- open up user settings again 
+- change your discord language 
+- click the esc key 
+
+####Expected result:
+ menu closes like usual 
+####Actual result:
+ menu doesnt close 
+####System settings:
+ macos 10.12.4 Discord Canary
+
+1379
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-05T01:11:46.541Z
+
+
+### Can reproduce.
+macOS 10.12.4, Discord Canary: 0.0.144
+
+xLars#5484 - Bug Bot on 2017-05-05T01:11:47.143Z
+
+
+### Can reproduce.
+Win10 x64. Note, when I changed language, and hit esc the first time, it reloaded Discord. Then hitting esc again did the actual result.
+
+OGNovuh#0014 - Bug Bot on 2017-05-05T01:11:49.217Z
+
+
+### Can reproduce.
+MacOS 10.12.5 (Beta) latest canary
+
+Mippy#1483 - Bug Bot on 2017-05-05T01:11:51.174Z
+
+
+### Can reproduce.
+Latest Canary build - MacOS Sierra
+
+ItsPugle#5963 - Bug Bot on 2017-05-05T01:20:18.644Z
+
+
+### Verified.  - Clayton on 2017-05-05T01:38:56.606Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-05T01:39:01.324Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T08:49:24.885Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:41:06.147Z
+
+
+### Moved from Next up for investigation to Fix made, not yet released by Kamilla Karthigesu on 2018-01-31T18:01:50.654Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Kamilla Karthigesu on 2018-02-13T00:28:29.448Z
+
+
+### I can still reproduce this issue, On Discord Canary 0.0.202 Build 10620.. Do you want me to move this back to fix made, not yet released or verified bugs? @kamillakarthigesu1 unsure if you released this fix or not. - Tarek on 2018-02-13T04:50:19.699Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Tarek on 2018-02-15T18:11:23.311Z
+
+
+### Can reproduce.
+MacBook Air 2017, High Sierra 10.13.3, Discord canary, Build Number: 14388
+
+KingMarine#5676 - Bug Bot on 2018-05-02T03:11:20.236Z
+
+
+### Checked on Discord Canary Build 14965:
+
+**Edit:** Seems I can only reproduce this on a select few languages, like Swedish. - Alexander (DJScias) on 2018-05-10T14:30:13.266Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexander (DJScias) on 2018-05-10T14:30:46.243Z
+
+
+### I can still reproduce this. >.<, Discord Canary 0.0.208 (14965) on Windows 10 Pro 64-bit (1803) reopening ticket. 
+
+I switch to Svenska (Swedish) and I couldn't escape. - Tarek on 2018-05-10T23:44:28.894Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-05-10T23:44:32.629Z
+
+
+### Are you sure @tarek1337 ? Can you try again? Works for me. - Shadi Isber on 2018-05-21T20:31:10.886Z
+
+
+### @shadiisber I just tested this with every language..
+It appears to be work for some, but the ones that breaks are: German, French, Croatian, Italian, Lithuanian, Hungarian, Dutch, Polish, Portuguese, Romanian, Finnish, Turkish, Czech, Greek, Bulgarian, Russian, Ukranian, Chinese China, Japanese, Chinese Taiwan, Korean.
+
+I tested this on Discord Canary 0.0.209 (15733) on Windows 10 Pro 64-bit (1803) on the desktop app, not canary web. A couple of other bug hunters can also reproduce this, And if it even matters. I have Swedish system language. - Tarek on 2018-05-22T03:14:04.512Z
+
+
+### @kamillakarthigesu1 Mind taking a look at this again when you get a chance? - Shadi Isber on 2018-05-22T03:19:26.764Z
+
+
+### Moved from Reopened to Fix made, not yet released by Kamilla Karthigesu on 2018-06-07T23:33:21.182Z
+
+
+### Bless, I tested on every single language on Canary 16649 using Windows 10 Pro 64-bit (1803) and I could not repro anymore. Moving to claimed fixed.
+
+Thank you Kamilla! :heart:  - Tarek on 2018-06-08T04:20:04.720Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2018-06-08T04:20:08.650Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:29:06.662Z
+
+
+### Archived by Jared on 2018-07-06T18:29:07.686Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/kamillaka) - No Bio

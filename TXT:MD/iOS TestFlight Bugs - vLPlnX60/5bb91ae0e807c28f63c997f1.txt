@@ -1,0 +1,98 @@
+[Archived] Push notifications for accepted friend requests no longer open the profile (or chat) of/with the user (https://trello.com/c/wjIcIVNq)
+
+P3 - Will be fixed eventually
+
+Created: 2018-10-06T20:28:16.982Z
+Latest Update: 2019-09-18T10:00:53.320Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Send a friend request to any user 
+- Close the app 
+- Let the user whom you have sent a friend request accept it 
+- Click on the push notification for the accepted friend request
+
+####Expected result:
+Push notification should open the profile (or chat with) of the user.
+####Actual result:
+It just opens the app.
+####Client settings:
+TestFlight 2.3.9 (8085)
+####System settings:
+iPhone 8 Plus - iOS 12 & iPad Air 2 - iOS 12.1 Public Beta 2
+
+20736
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-06T20:28:16.982Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 (dev beta 2) - TestFlight 2.3.9 (8085)
+
+Xylium#1480 - Bug Bot on 2018-10-06T20:28:24.425Z
+
+
+### Can reproduce.
+CR, iPhone 6S, iOS 12.0, TestFlight 2.3.9 (8085)
+
+Toby#5609 - Bug Bot on 2018-10-06T20:28:29.424Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 DB2, TestFlight 2.3.9 (8085)
+
+Soulmagic#0387 - Bug Bot on 2018-10-06T20:28:34.416Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-19T19:00:03.308Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:39.139Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.1 (16898) with iPad Pro (11 inch) running iOS 12.4.
+
+It opens the chat with the user now.
+
+Moving to Claimed Fixed list. - Pascal on 2019-08-16T14:10:04.416Z
+
+
+### Unarchived by Pascal on 2019-08-16T14:11:10.797Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-08-16T14:11:18.694Z
+
+
+### Can't reproduce.
+iPhone X, iOS 13 (dev beta 7) - TestFlight 3.1.1 (16898)
+
+Xylium#5800 - Bug Bot on 2019-08-16T14:16:33.485Z
+
+
+### Can't reproduce.
+iPhone 7 Plus, iOS 13 dev beta 7 - TestFlight 3.1.1 (16898)
+
+Jeffrey#1234 - Bug Bot on 2019-08-17T12:51:58.753Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.4 - TestFlight 3.1.1 (16898)
+
+Daffyduck#5364 - Bug Bot on 2019-08-17T14:23:16.790Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-08-17T14:23:17.096Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:00:53.341Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

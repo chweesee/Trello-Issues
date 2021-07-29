@@ -1,0 +1,70 @@
+[Archived] Device crashes when saving a channel topic while your device is trying to correct a word you misspelt. (https://trello.com/c/WjCMoocr)
+
+None
+
+Created: 2018-04-15T08:15:30.612Z
+Latest Update: 2018-04-27T00:11:53.034Z
+
+Reported by Lieutenant Ben#1674
+
+####Steps to reproduce:
+- Go to a channel then click to change the topic. 
+- Type something that you know your device will want to correct, (e.g. something spelt similar to hey but not an actual word) 
+- Make sure the little blue correction box is still onscreen, then click save & observe.
+
+####Expected result:
+Your device would correct the message and you would exit the channel topic menu without crashing.
+####Actual result:
+Discord crashes.
+####Client settings:
+Discord TestFlight 2.3.0
+####System settings:
+iPhone 7, 11.0
+
+10762
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-15T08:15:30.612Z
+
+
+### Can reproduce.
+Discord crashes, yes. However, in your Short Description, it is said to be "Device crashes", where it doesn't. | iPhone 6s Plus, iOS 11.4 PB1, TF 2.3.0 (3817)
+
+Mustard#2117 - Bug Bot on 2018-04-15T08:15:38.487Z
+
+
+### Can reproduce.
+Could reproduce; - iPhone 6 - iOS 11.2 - Discord TestFlight 2.3.0
+
+Jengas#7777 - Bug Bot on 2018-04-15T08:15:43.414Z
+
+
+### Can reproduce.
+CR; Discord crashes while having the blue box over the word that it wants to correct. iPhone 6 - iOS 11.4 TestFlight 2.3.0 (3817)
+
+Xylium#1480 - Bug Bot on 2018-04-15T08:15:48.454Z
+
+
+### Dupe of https://trello.com/c/dOmtrVRw
+
+Pascal#0929 - Bug Bot on 2018-04-15T10:22:54.515Z
+
+
+### Duplicate of https://trello.com/c/dOmtrVRw
+
+Rage#0001 - Bug Bot on 2018-04-16T15:26:07.421Z
+
+
+### Dupes below.  - Clayton on 2018-04-27T00:11:51.975Z
+
+
+### Archived by Clayton on 2018-04-27T00:11:53.037Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

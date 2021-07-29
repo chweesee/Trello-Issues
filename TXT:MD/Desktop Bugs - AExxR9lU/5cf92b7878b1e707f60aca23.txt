@@ -1,0 +1,75 @@
+[MAC SPECIFIC] Turning off Hardware Acceleration in v39214 will make Discord unable to boot up during / after restart. (https://trello.com/c/mVTA7b8v)
+
+None
+
+Created: 2019-06-06T15:04:26.222Z
+Latest Update: 2020-07-16T21:26:04.079Z
+
+Reported by xTeal#7702
+
+####Steps to reproduce:
+- Be on a mac 
+- Go to User Settings 
+- Go to Appearance 
+- Go to Advanced and on "Hardware Acceleration" 
+- Turn off Hardware Acceleration 
+- Tell Discord it can Restart 
+- When Discord restarts and opens up, it has a white screen on the updater 
+- Witness results & Crash 
+- TO FIX : Go to Home > Library > Application Support > Delete Discordcanary folder and relaunch Canary.
+
+####Expected result:
+Discord will boot up normally, no blank screen on the updater screen.
+####Actual result:
+The updater screen is white, Discord Canary cannot boot up & crashes. Fix is listed in reproduce steps.
+####Client settings:
+Mac Discord Canary 39214
+####System settings:
+macOS Sierra 10.12.6 : Early 2015 Macbook Pro Retina
+
+36316
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-06T15:04:26.222Z
+
+
+### xTeal#7702 - https://youtu.be/Q-QX64YCXDM added by Bug Bot on 2019-06-06T15:04:29.317Z
+
+
+### Can reproduce.
+CR. MacBook Pro 13" 2018 (with Touch Bar) - MacOS Mojave 10.14.5 - Discord Canary 39214 (0.0.223)
+
+Frances Picard#6209 - Bug Bot on 2019-06-06T15:04:34.218Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.5 (18F132) - Canary 39214
+
+Isabel#0002 - Bug Bot on 2019-06-06T15:04:39.201Z
+
+
+### Can reproduce.
+MacBook Air (2018), MacOS 10.14.5, Discord Canary 0.0.223 (Build 39214)
+
+DeJay#1337 - Bug Bot on 2019-06-06T15:04:44.237Z
+
+
+### Can reproduce.
+MacBook Air (13-inch, Early 2014), macOS v0.14.5 (18F132) - Canary 39291
+
+Drifter#0001 - Bug Bot on 2019-06-07T02:00:31.129Z
+
+
+### Can reproduce.
+CR: iMac 10,1 macOS 10.13.6, Host 0.0.223(Deleting Application Support/discordcanary did not fix it for me)
+
+chaNcharge#6969 - Bug Bot on 2019-06-08T06:21:14.849Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

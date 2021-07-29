@@ -1,0 +1,80 @@
+[Archived] App doesn't remember the "Jump to present" action after switching language (https://trello.com/c/5NR5m34U)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-10-26T15:01:47.430Z
+Latest Update: 2017-12-09T09:04:14.685Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Search for a message, or open recent mentions in the current server. 
+- Pick any old message and click "Jump" 
+- After you have successfully jumped, click "Jump to present" to return to recent messages 
+- Open Settings and then switch to any other language 
+- Wait for Discord to reload and look at the chat
+
+####Expected result:
+You should be placed at the recent messages in the channel you were in
+####Actual result:
+You are still jumped to the old message you selected previously, like if it didn't remember that you clicked "Jump to present".
+####Client settings:
+Discord Canary build 6420
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+5810
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-26T15:01:47.430Z
+
+
+### Can reproduce.
+Dell inspiron 15R-5520 (2015 model) Windows 10 Pro 64-bit, x64-based processor, Discord Canary 0.0.165
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-26T15:01:55.756Z
+
+
+### Can reproduce.
+CR, Kubuntu 17.10 x64, Canary 6420
+
+kiroma#1608 - Bug Bot on 2017-10-26T15:02:00.862Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (Version 1703), Discord Canary 0.0.167 (Build 6420)
+
+Mr.Quentin#4854 - Bug Bot on 2017-10-26T15:02:05.731Z
+
+
+### Can reproduce.
+CR 50% of time, Windows 10 Pro x64 (Version 1703), Discord Canary 0.0.167 (Build 6420)
+
+Mr.Quentin#4854 - Bug Bot on 2017-10-26T15:22:25.428Z
+
+
+### First time my client stay on ready screen and he needed to be refreshed once again manually and it show the latest changelogs after refresh and second time your actual result are the same.
+
+Mr.Quentin#4854 - Bug Bot on 2017-10-26T15:43:46.481Z
+
+
+### Can't repro - Clayton on 2017-11-03T06:05:28.353Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-11-03T06:05:31.881Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-09T09:04:12.437Z
+
+
+### Archived by Alexandru Todea on 2017-12-09T09:04:14.687Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

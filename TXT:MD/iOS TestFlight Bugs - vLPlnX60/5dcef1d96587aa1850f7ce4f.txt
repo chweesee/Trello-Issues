@@ -1,0 +1,35 @@
+Testflight 3.1.7 (18209) (https://trello.com/c/Xb21qqes)
+
+None
+
+Created: 2019-11-15T18:43:38.002Z
+Latest Update: 2019-11-19T12:45:32.512Z
+
+Add a `!canrepro` to this ticket if you find any places with **performance issues** in this build and describe where and how the issue happens.
+
+Something you can add here are these kind of issues:
+
+- The app being slow
+- The app taking a long time to respond to an input
+- Unclean scrolling (like when you scroll, it bumps up and down a million of times)
+- Lag in an area, like emojis, server members, etc.
+
+Crashes are **not** something that should be added and should always get their own new ticket.
+
+Card Log
+========
+### Added by Aeria on 2019-11-15T18:43:38.002Z
+
+
+### Can reproduce.
+Insane lag when viewing a member at the bottom of the member list in a very large server (10000+) | Steps to Reproduce: - Be in a very large server (DTesters works for this bug) - Open members list - Scroll to the very bottom - Click on a profile at the very bottom - Observe Expected Result: The profile should open as normal Actual Result: Insane lag starts to occur, preventing you from using discord as normal. Tabbing out of discord and going back in with multitasking completely freezes up the app. Client Settings: TestFlight 3.1.7 (18209) System Settings: iPhone XR, iOS 13.2
+
+SplashyFlame#0067 - Bug Bot on 2019-11-19T12:45:32.529Z
+
+List
+====
+Performance Issues
+
+Members
+=======
+None

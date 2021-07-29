@@ -1,0 +1,143 @@
+[Archived] If you disable "Display images directly uploaded to Discord", it will also disable images from links even if you keep "display images sent as links" enabled. (https://trello.com/c/vpPesKhm)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2019-03-12T15:21:19.476Z
+Latest Update: 2019-04-12T21:30:04.683Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Settings > Text & Images 
+- Disable "When uploaded directly to Discord", but keep "When sent as links" enabled 
+- Post a link embedding an image 
+- Observe
+
+####Expected result:
+Images from embed links should be immune to the "When uploaded directly to Discord" option being disabled
+####Actual result:
+Image previews from links are still disabled despite "When sent as links" being enabled. This creates weird side effects such as messing up YouTube embeds (see screenshot)
+####Client settings:
+Discord Alpha 8.5.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+30793
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-12T15:21:19.476Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c87ce6f66c4f612273ef04b/9d0f49c57b09a23f10884879fd1c9179/IMG_20190312_160618.jpg added by Bug Bot on 2019-03-12T15:21:22.328Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 856
+
+The Lunala#6877 - Bug Bot on 2019-03-12T15:21:26.862Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8, Android 9.0 - Alpha 8.5.6
+
+J1#0088 - Bug Bot on 2019-03-12T15:21:31.880Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.6
+
+Skyla#0002 - Bug Bot on 2019-03-12T15:21:36.917Z
+
+
+### Can reproduce.
+Samsung S8, Android 9.0, 8.5.6
+
+Mr. Proper#2394 - Bug Bot on 2019-03-12T15:33:27.316Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.5.6
+
+neuzoid#0510 - Bug Bot on 2019-03-12T15:49:29.398Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 8.0.0, Alpha 8.5.6
+
+Toasty#0001 - Bug Bot on 2019-03-12T15:49:48.665Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord 8.5.6
+
+Jean20B#4287 - Bug Bot on 2019-03-12T16:40:33.194Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.5.6
+
+Lily#2624 - Bug Bot on 2019-03-12T18:09:40.999Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (8.1.0) | Discord Alpha 8.5.6
+
+Clay#0001 - Bug Bot on 2019-03-12T19:03:05.232Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1
+
+Quad#1887 - Bug Bot on 2019-03-12T19:47:22.244Z
+
+
+### Can reproduce.
+Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 8.5.6
+
+Lelantos#4866 - Bug Bot on 2019-03-12T19:51:04.427Z
+
+
+### Can reproduce.
+CR on Honor 6x 7.0 [EMUI 5.0.2] ,alpha 856
+
+fizy#9347 - Bug Bot on 2019-03-13T03:30:35.288Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 856
+
+charleskimbac#6492 - Bug Bot on 2019-03-13T05:43:45.682Z
+
+
+### Can reproduce.
+Samsung Galaxy S10, Android 5.1.1, Alpha 8.5.6
+
+tech_dude1#9855 - Bug Bot on 2019-03-13T06:12:02.011Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H (MIUI 10.1 Stable), Discord Alpha 8.5.6
+
+Defracted#7777 - Bug Bot on 2019-03-13T09:42:17.965Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0.1, Discord Alpha 8.5.6
+
+Frances Picard#6209 - Bug Bot on 2019-03-13T13:24:33.954Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T21:17:44.640Z
+
+
+### Archived by Bug Bot on 2019-04-12T21:30:04.696Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,97 @@
+[Archived] Discord crashes when sending an invalid message though the inline reply while Discord is open (https://trello.com/c/gL4Vjuah)
+
+Low,
+P2 - Can wait a while
+
+Created: 2018-05-20T04:54:40.031Z
+Latest Update: 2018-09-14T22:31:55.555Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Discord 
+- Go to a channel with no particular activity 
+- Quit Discord 
+- Have someone mention you in a channel different that the one you picked at step 2. You should have received a push notification with ability to reply 
+-  Now re-open Discord via multi-tasking or via the homescreen icon, ensure that you don't dismiss the push notification 
+- Pull down your notification drawer and hit Reply 
+- In the textfield, enter an invalid message. For example, input a Space character and send the message 
+- You will see a "Failed to send mesage" alert. Just ignore it, collapse your notification drawer and get back at chatting on Discord 
+- After a few seconds, Discord crashes
+
+####Expected result:
+The failure alert shows and nothing else
+####Actual result:
+Discord crashes after a few seconds
+####Client settings:
+Discord Alpha 6.7.4
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13050
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-20T04:54:40.031Z
+
+
+### Can reproduce.
+Can Reproduce, not just Discord crashes, my device would also do a warm reboot so I'm assuming there's a memory leak somewhere. Happens on all 4 tries I've performed ~ Samsung Galaxy J7 Prime ~ Android 7.0 Nougat ~ Discord Alpha 6.7.4 (674)
+
+DefinitelyNotLava#9562 - Bug Bot on 2018-05-20T04:54:47.346Z
+
+
+### Can reproduce.
+After doing so, not only does the inline notification and the respond box not disappear, but Discord also becomes unresponsive after returning to the app. Testing carried out with Xylium#1480 on ZTE Blade A602, Android Nougat 7.0, Discord Android Alpha 6.7.4 (674).
+
+Ghostly#0001 - Bug Bot on 2018-05-20T04:54:52.369Z
+
+
+### Can reproduce.
+"App Not Responding" dialog showed up but works fine after tapping Wait. ,Samsung Galaxy Note8 , Android 8.0, Discord Alpha 6.7.4
+
+Awxille#2304 - Bug Bot on 2018-05-20T04:54:57.344Z
+
+
+### Can't reproduce.
+Discord Alpha 6.7.4, Oppo R11s Android 7.1.1 (Nougat)
+
+Cairo#2098 - Bug Bot on 2018-05-20T06:22:09.839Z
+
+
+### Can reproduce.
+Can reproduce. The reply bar on the notification continues spinning after it sends the failure notification. It later sends a Discord isn't responding message, but the app works fine if I respond with wait. Moto E4+, Android 7.1.1 Discord Alpha 6.7.4
+
+StupidDroid#6253 - Bug Bot on 2018-05-20T12:53:52.528Z
+
+
+### Verified. Discord Alpha 6.7.4, Android 7.0, Samsung S6 edge - Clayton on 2018-05-22T00:06:21.376Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-22T00:06:30.826Z
+
+
+### Moved from Verified Bugs to Serious Issues by Sam Shih on 2018-05-24T03:02:18.850Z
+
+
+### This actually happens when the message fails to send no matter the reason (no internet, exceedi'g 2k characters, input space character, etc)
+
+Alex1304#9704 - Bug Bot on 2018-06-13T08:11:51.856Z
+
+
+### Thanks Alex, you are correct. I wish I read your message a bit sooner cause I found this out the long way...
+In either case I got a fix for this. - Sam Shih on 2018-06-23T06:30:13.533Z
+
+
+### Moved from Serious Issues to Fixed Bugs by Sam Shih on 2018-06-23T06:30:28.469Z
+
+
+### Archived by Sam Shih on 2018-09-14T22:31:55.556Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

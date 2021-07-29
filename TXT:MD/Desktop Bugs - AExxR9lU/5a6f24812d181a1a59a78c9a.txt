@@ -1,0 +1,73 @@
+[Archived] Avatars on Discord have very jagged edges. (https://trello.com/c/njy8P4Bi)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-29T13:41:21.485Z
+Latest Update: 2018-10-22T20:18:20.394Z
+
+Reported by fr0st#1337
+
+####Steps to reproduce:
+- Find any user with a light avatar (e.g white) and view their -profile 
+- Observe that the circle is not smoothly rendered on screen. 
+- Note that this problem affects dark avatars, but it's harder to notice since Discord is dark by default
+
+####Expected result:
+Circle with avatar is supposed to be clean/smooth.
+####Actual result:
+You'll see a jagged avatar. Example:
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 10000, Version Hash: 76aba7c3404b6a837eb59234deda9b5180ca43d3
+####System settings:
+Windows 10 64bit (Version 1709 - Build 16299.125)
+
+8273
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-29T13:41:21.485Z
+
+
+### Can reproduce.
+CR Canary 10018 Win10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-01-29T13:41:28.802Z
+
+
+### Can reproduce.
+CR, Canary 10018, Win10 Home x64 build 1511
+
+Mattybilly1#6506 - Bug Bot on 2018-01-29T13:41:33.805Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Release Channel: Canary 10018
+
+» a r i a#1593 - Bug Bot on 2018-01-29T13:41:38.819Z
+
+
+### Can reproduce.
+Windows 10 x64 1709 / Discord Canary 10018
+
+casungo#2990 - Bug Bot on 2018-01-30T21:56:54.045Z
+
+
+### Verified.  - Clayton on 2018-01-31T00:51:28.427Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-31T00:51:31.713Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a6f24812d181a1a59a78c9a/fa72fe4b9f413fa0c237f644769bff9a/ghKxxlH.png added by Bug Bot on 2018-07-14T12:15:14.694Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:20.396Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

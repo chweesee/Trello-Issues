@@ -1,0 +1,49 @@
+Settings two keybinds for enabling overlay to the same key causes the application to lose all functionality (https://trello.com/c/m3bu1FmO)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-01-26T20:12:07.394Z
+Latest Update: 2019-05-13T20:39:15.633Z
+
+Reported by Dabbit Prime#0896
+
+####Steps to reproduce:
+- Open User Settings
+- Open the Overlay tab
+- Enable overlay
+- Set keybind
+- Open Keybinds tab
+- Add keybind to Toggle Overlay Lock, same keybind as previous.
+- Launch Game
+- Enable overlay via keybind
+
+####Expected result:
+Overlay appears as normal
+####Actual result:
+The overlay does not appear and the game cannot be interacted with in any way.
+####Client settings:
+Canary Build 6008
+####System settings:
+Windows 10 Pro x64
+
+Card Log
+========
+### Added by Jared on 2018-01-26T20:12:07.394Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-04-28T17:15:32.666Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 37501 ~ However this sounds like NAB to the fact that it's basically "running" it twice.
+
+Alipoodle#5025 - Bug Bot on 2019-05-13T20:39:15.641Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,105 @@
+[Archived] If you add too many spaces into the message box, the client freezes and becomes unresponsive (https://trello.com/c/9FFBL5rH)
+
+P2: Fix can wait a while
+
+Created: 2017-07-08T05:57:07.926Z
+Latest Update: 2018-07-06T17:44:16.030Z
+
+Reported by Mr.Caleb#8593
+
+####Steps to reproduce:
+- Hold down your space-bar for 5 minutes
+
+####Expected result:
+The message bar will show that you have reached the end of the line.
+####Actual result:
+The message bar shows a solid line and the entire client freezes up.
+####Client settings:
+Canary 0.0.157
+####System settings:
+Windows 10 x64 bit
+
+2067
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-08T05:57:07.926Z
+
+
+### Can reproduce.
+ Gentoo 64-bit default/linux/amd64/13.0, Canary 0.0.19
+
+Info Teddy#3737 - Bug Bot on 2017-07-08T05:57:15.369Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Discord Canary 0.0.157
+
+Curse Broken#8659 - Bug Bot on 2017-07-08T05:57:20.397Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64-bit Build 1607. Discord Canary 0.0.157
+
+Tarek1337#0379 - Bug Bot on 2017-07-08T05:57:25.372Z
+
+
+### Moved from User Reported Bugs to New chatbox & edit box feature bugs by Cole Norman on 2017-07-08T07:36:34.039Z
+
+
+### Can reproduce.
+Windows 10 x64 Creators Update 1703, Canary 0.0.157
+
+SilverMight#1302 - Bug Bot on 2017-07-09T01:34:54.927Z
+
+
+### Verified. However you can make it crash WAY faster by C/P a bunch of spaces. - Jared on 2017-07-10T21:25:28.641Z
+
+
+### Moved from New chatbox & edit box feature bugs to Verified Bugs by Jared on 2017-08-03T16:51:12.414Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.163 , Windows 10 Pro x64
+
+Tent#1619 - Bug Bot on 2017-08-17T11:03:54.053Z
+
+
+### Can reproduce.
+Discord 0.0.2 Arch linux build 4906
+
+GNUGradyn(っ◔◡◔)っ#1882 - Bug Bot on 2017-09-28T04:56:43.876Z
+
+
+### works with any characters - not just spaces, this is a pretty serious bug in my opinion as you can lock yourself out of that guild until you reinstall the client if you forget you have alot of text on your clipboard and try to paste
+
+GNUGradyn(っ◔◡◔)っ#1882 - Bug Bot on 2017-09-28T04:59:51.445Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2017-10-09T06:07:50.824Z
+
+
+### Can't reproduce.
+MacBook Pro (late 2013), macOS  Sierra 10.12.1, Canary build 9070; characters/spaces just continue along a solid bar without breaking, lagging or crashing the client. Textbox seems to have a character cap limit so repeatedly C/Ping huge paragraphs no longer breaks it
+
+JustGamer#2542 - Bug Bot on 2018-01-02T05:06:56.621Z
+
+
+### Verified Fixed - Jared on 2018-01-17T19:23:18.094Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T19:23:24.819Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:48:32.588Z
+
+
+### Archived by Tarek on 2018-02-22T19:48:33.523Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jhgg) - No Bio

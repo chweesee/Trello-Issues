@@ -1,0 +1,83 @@
+[Archived] Most @ mentions do not create a notification on Android 8/9 (https://trello.com/c/Z1bY2Qlh)
+
+P2 - Can wait a while,
+Low
+
+Created: 2018-09-05T21:07:46.027Z
+Latest Update: 2019-06-05T23:46:57.255Z
+
+Reported by Falkerz#0007
+
+####Steps to reproduce:
+- Ensure discord is running latest alpha build on Android, and phone is up to date 
+- Confirm all notification settings are enabled 
+- Receive a mention (by name, role or everyone) 
+- Not receive notification in notification area 
+- Check your discord a few hours later to see someone was trying to reply to your messages 
+- PLEASE NOTE This is not a five minute thing to find, Quite often I don't see I missed a message until a few hours later, Even though power saving is disabled for discord on my phone, I suspect it has something to do with background processing, as it's most obvious when I've been doing other things, not necessarily with the phone.
+
+####Expected result:
+A notification should appear in the notif tray for any mention / DM received with notifications enabled
+####Actual result:
+happens maybe 20% of the time
+####Client settings:
+Android alpha 746
+####System settings:
+Google Pixel, Android Pie (August 5th patch, build PPR1.180610.009)
+
+19058
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-05T21:07:46.027Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 746 this has been happening with DMs as well
+
+Xander#0259 - Bug Bot on 2018-09-05T21:07:53.594Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 7.4.6
+
+Bencey_#8587 - Bug Bot on 2018-09-05T21:07:58.375Z
+
+
+### Can reproduce.
+CR, I'm  NOT sure right now, if the reason is google here too, but I can reproduce it, Samsung Galaxy S6/S9+, Android 7.0/8.0, Discord Alpha 746 -- both
+
+Law of Royale#6825 - Bug Bot on 2018-09-05T21:08:03.431Z
+
+
+### known internally - Clayton on 2018-09-06T21:21:15.959Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2018-09-06T21:21:31.451Z
+
+
+### Can reproduce on Discord Alpha 7.4.8 on OnePlus 5 Android 8.1
+
+I also see this issue with DMs. - Tarek on 2018-09-12T08:14:57.553Z
+
+
+### we are having a hard time getting a consistent repro.
+Just to be clear on the send conditions:
+- discord app is backgrounded
+- for GDMs and Server channels there's a 15 min silence if you don't view the channel (seeing/dismissing the notification doesn't count). You can also "mark as read" via the notification to reset this.
+- mentions and role pings should always send if you have it enabled.
+- DMs are always sent - Sam Shih on 2018-09-12T18:40:00.443Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Andy Garron on 2018-09-29T20:05:48.307Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:57.267Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

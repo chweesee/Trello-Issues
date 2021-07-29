@@ -1,0 +1,82 @@
+[Archived] Grammatical mistake on the automatic AFK-channel message (https://trello.com/c/7JpB50RR)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-07-22T05:27:34.645Z
+Latest Update: 2018-10-22T20:23:27.810Z
+
+Reported by phlofy#9116
+
+####Steps to reproduce:
+- Enter a voice channel 
+- Do not interact with the machine (go AFK) 
+- Wait until the popup message displays with the grammatical mistake.
+
+####Expected result:
+The message should display, "It seems like you've gone AFK on us. We've *gone* ahead and moved you to the AFK channel."
+####Actual result:
+The message displays, "It seems you've gone AFK on us. We've *went* ahead and moved you to the AFK channel."
+####Client settings:
+Stable Build 19408
+####System settings:
+Windows 10 Home x64
+
+15842
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-22T05:27:34.645Z
+
+
+### Can reproduce.
+can reproduce Windows 10 Pro x64 Build 19430
+
+Azrael#6867 - Bug Bot on 2018-07-22T05:27:42.088Z
+
+
+### Can reproduce.
+CR, Windows 7 Pro 64-bit Sp1, canary build 19430.
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-07-22T05:27:47.154Z
+
+
+### Can reproduce.
+[CR] OS X El Capitan 10.11.6, Discord Canary 19430
+
+54D#1357 - Bug Bot on 2018-07-22T05:27:52.135Z
+
+
+### Can reproduce.
+Windows 10 x64 (1803 Update) - Discord Canary: BUILD 19429
+
+Procrastinator Adam#4226 - Bug Bot on 2018-07-22T22:35:14.799Z
+
+
+### Can reproduce.
+can reproduce, macOS High Sierra 10.13.3, Discord Canary 19430
+
+brxxn#0632 - Bug Bot on 2018-07-22T22:47:03.175Z
+
+
+### Can reproduce.
+iOS 12 Beta - Discord Testflight
+
+aibo-dogs99#6456 - Bug Bot on 2018-07-23T21:59:40.234Z
+
+
+### verified, macos 10.12.6, canary 19560 - Clayton on 2018-07-24T02:19:30.373Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-24T02:19:37.949Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:27.813Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

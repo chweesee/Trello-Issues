@@ -1,0 +1,76 @@
+[Archived] Exiting channel with text inserter in the middle resets to the end although may not be a bug, If you don't understand it please DM me (https://trello.com/c/ocqcraEI)
+
+None
+
+Created: 2019-01-29T06:41:35.961Z
+Latest Update: 2019-03-01T19:00:39.769Z
+
+Reported by Daniel#4226
+
+####Steps to reproduce:
+- Type a message 
+- Move the text inserter (flashing I) to the middle of the message 
+- Go to another channel/DM 
+- Go back to that channel
+
+####Expected result:
+Your text inserter location stays in the same place
+####Actual result:
+It goes to the end
+####Client settings:
+Release Channel: stable, Build Number: 31316, Version Hash: e0a5fe2fc9fc16fff39b8bf73cc5a9199ea26104
+####System settings:
+Windows 10x 86
+
+27249
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-29T06:41:35.961Z
+
+
+### Can reproduce.
+Can reproduce, stable, Build Number: 31441
+
+Harsh#0001 - Bug Bot on 2019-01-29T06:41:43.426Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 EE - Google Chrome OS v. 71 - Canary Build 31464
+
+Casper#9999 - Bug Bot on 2019-01-29T06:41:48.485Z
+
+
+### Can reproduce.
+HP Chromebook Version 69.0.3497.120 (Official Build) (64-bit)
+
+Killtracity#0001 - Bug Bot on 2019-01-29T06:41:53.476Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 31464
+
+charleskimbac#6492 - Bug Bot on 2019-01-29T07:19:24.464Z
+
+
+### This is not a bug, just intended behavior. - Jared on 2019-01-29T17:17:43.289Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2019-01-29T17:17:47.574Z
+
+
+### Can reproduce.
+CR; Windows 7 Ultimate SP1 x64, Stable 31441
+
+Waff#0267 - Bug Bot on 2019-01-30T18:41:21.904Z
+
+
+### Archived by Bug Bot on 2019-03-01T19:00:39.799Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

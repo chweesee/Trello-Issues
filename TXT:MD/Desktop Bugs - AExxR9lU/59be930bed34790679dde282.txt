@@ -1,0 +1,135 @@
+[Archived] Discord Canary In-client crash when quickswitching out of group DM with only yourself. (https://trello.com/c/5sPWClWU)
+
+P2: Fix can wait a while
+
+Created: 2017-09-17T15:21:47.620Z
+Latest Update: 2018-07-06T17:57:24.427Z
+
+Reported by Dropheart#6441
+
+####Steps to reproduce:
+- Control + K into a group DM with only yourself. 
+- Control K and hit enter to go back to the last channel as fast as possible.
+
+####Expected result:
+To go back to the last channel I was in,
+####Actual result:
+Discord doesn't shut down, rather crashes with an error message in the client. (Pic of message: ) This can be fixed by control + r or fully exiting the client and relaunching it.
+####Client settings:
+Discord Canary 0.0.24
+####System settings:
+ZorinOS 12.2 based off of Ubuntu 16.04
+
+4448
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-17T15:21:47.620Z
+
+
+### Starshine Dust#2189 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59be930bed34790679dde282/347ff74628638fd33e05cecb498bfbe8/6ufGGsT.png added by Bug Bot on 2017-09-17T15:21:50.193Z
+
+
+### Jake S.#8787 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59be930bed34790679dde282/23e92713ebaea17935b09f3fa872d6fa/Vfp4Oy1.png added by Bug Bot on 2017-09-17T15:21:50.218Z
+
+
+### Can reproduce.
+Canary Build 4361, Windows 10 x64
+
+Jake S.#8787 - Bug Bot on 2017-09-17T15:21:55.212Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04 / Linux 4.10, Discord Canary 0.0.24 Build 4361
+
+Starshine Dust#2189 - Bug Bot on 2017-09-17T15:22:00.170Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 4361) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-17T15:22:05.211Z
+
+
+### Can reproduce.
+Canary Build 4361, Windows 10 Pro (x64)
+
+Kaoffie#4112 - Bug Bot on 2017-09-17T15:25:53.577Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.163 (Build 4361) - Win 10 Pro x64 v1607
+
+Pointy#9109 - Bug Bot on 2017-09-17T17:12:03.496Z
+
+
+### This only works when switching back to a server, not a DM.
+
+Pointy#9109 - Bug Bot on 2017-09-17T17:12:27.189Z
+
+
+### Verified.  - Clayton on 2017-09-19T19:55:08.787Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T19:55:16.092Z
+
+
+### Can no longer reproduce. Canary build 5005 win 10 x64 CU - Mike Nisbet on 2017-09-28T23:19:05.416Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-09-28T23:19:11.526Z
+
+
+### Fixed.  - Clayton on 2017-10-04T00:20:04.416Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T00:20:07.932Z
+
+
+### This bug is back, Discord crashes as soon as I use the ctrl+K to switch from a group DM with only myself in it to any text channel.
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5843 - Alexandru Todea on 2017-10-14T14:35:36.299Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Alexandru Todea on 2017-11-15T19:35:04.726Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Alexandru Todea on 2017-11-15T19:48:09.691Z
+
+
+### Moved from Verified Fixed to User Reported Bugs by Alexandru Todea on 2017-11-15T19:48:16.116Z
+
+
+### Can still repro as of: 11/15 - Clayton on 2017-11-15T22:58:34.378Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-15T22:58:37.985Z
+
+
+### This should be fixed again. - Stanislav Vishnevskiy on 2017-11-27T02:53:42.871Z
+
+
+### CNR, Canary 9640 moving to Claimed fixed. - Tarek on 2018-01-18T02:51:52.319Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-18T02:51:56.516Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-05-02T23:26:28.156Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-05-02T23:26:33.515Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:57:19.673Z
+
+
+### Archived by Jared on 2018-07-06T17:57:24.433Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

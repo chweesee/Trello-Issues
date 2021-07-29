@@ -1,0 +1,59 @@
+[Archived] Uploading a 0 bytes .GIF file breaks the "Done" button. (https://trello.com/c/hOSiW4uS)
+
+P3: Will get fixed eventually
+
+Created: 2017-01-05T02:50:49.275Z
+Latest Update: 2018-10-22T20:13:31.789Z
+
+Reported by MetalChain2#6372
+
+####Steps to reproduce: 
+- Save an empty file in Notepad as "something.gif" ENSURING TO ADD QUOTES AROUND IT  
+- Try and upload the 0 bytes .GIF you created as a server avatar. 
+
+####Expected result:
+ The file should be denied, and the "Done" button should discard the avatar change. 
+####Actual result:
+ The "Done" button keeps the window up, forcing you to hit "Cancel."
+
+Card Log
+========
+### Added by Jared on 2017-01-05T02:50:49.275Z
+
+
+### Can reproduce.
+Latest Build on iPhone 5s @ 10.2
+
+HyperCoder#2975 - Jared on 2017-01-05T02:50:49.847Z
+
+
+### Can reproduce.
+Win10AU, Latest Canary
+
+Mikesky#3097 - Jared on 2017-01-05T02:50:49.979Z
+
+
+### Valid, but extremely low priority. - Jared on 2017-01-17T20:56:53.528Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-17T20:56:57.621Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 Home x64 v1709
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T15:06:56.870Z
+
+
+### Frances Picard#6209 - https://i.imgur.com/3lBluxs.gifv added by Bug Bot on 2018-07-14T04:55:04.837Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:31.792Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

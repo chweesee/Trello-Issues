@@ -1,0 +1,93 @@
+[Archived] Uncaught exception seeking specially "short"  file (https://trello.com/c/W1K0OpXc)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-24T09:57:28.159Z
+Latest Update: 2019-01-01T15:48:13.557Z
+
+Reported by RedMser#6473
+
+####Steps to reproduce:
+- Download the following "smallest possible" wav file: github com/mathiasbynens/small/blob/master/wav wav
+
+- Send it to a Discord server, so that the sound embed shows up 
+
+- Click anywhere on the seek bar (it should say 0:00 anywhere on the bar).
+
+####Expected result:
+Since the audio file is 0:00 long, it should skip to the beginning.
+####Actual result:
+An uncaught exception "Failed to set the 'currentTime' property" causes Discord to crash.
+####Client settings:
+Release Channel: canary, Build Number: 19322, Version Hash: f271b728347df4ecf9f576003ff998f0e58c8226
+####System settings:
+Windows 7 64-bit
+
+15732
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-24T09:57:28.159Z
+
+
+### Can reproduce.
+CR, macOS High Sierra v10.13.6, 2015 iMac, Discord Canary Build 19429
+
+NicholasY#4815 - Bug Bot on 2018-07-24T09:57:35.627Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1803), Discord Canary 19430
+
+54D#1357 - Bug Bot on 2018-07-24T09:57:40.646Z
+
+
+### Can reproduce.
+CR. Canary 19588, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-24T09:57:45.616Z
+
+
+### Can reproduce.
+Can Reproduce ¬ Manjaro Linux 18.0 (Illyria) - Kernel Version 4.18.0-1-MANJARO - KDE Plasma 5.13.3 - Discord Canary Build 19623
+
+Kydros Elizabeth LeSaki#3217 - Bug Bot on 2018-07-24T21:59:52.945Z
+
+
+### verified, macos 10.12.6, canary 19931 - Clayton on 2018-07-26T23:09:02.790Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-26T23:09:10.538Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1803), Canary 20088
+
+Mippy#0001 - Bug Bot on 2018-07-27T23:55:52.184Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 22283
+
+Delite#0001 - Bug Bot on 2018-08-21T15:09:26.615Z
+
+
+### CNR - Clayton on 2018-10-05T23:46:18.907Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T23:46:26.003Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:48:12.724Z
+
+
+### Archived by Tarek on 2019-01-01T15:48:13.559Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

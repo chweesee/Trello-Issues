@@ -1,0 +1,80 @@
+[Archived] We can't edit our user permissions (in a channel), even if we are the owner. (https://trello.com/c/oER5ixEB)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-26T05:18:08.907Z
+Latest Update: 2018-08-22T01:21:54.622Z
+
+Reported by fujhofn.#0878
+
+####Steps to reproduce:
+- Find a server where you are owner. 
+- Edit permissions of a channel. 
+- Add a new Member > you 
+- Add a permissions (no matter)
+
+####Expected result:
+We can update our user permissions if we are the owner.
+####Actual result:
+We can't update our user permissions, even if we are the owner.
+####Client settings:
+Alpha 6.5.7
+####System settings:
+Huawei P8Lite 2016 • Android 5.1
+
+11302
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-26T05:18:08.907Z
+
+
+### Can reproduce.
+The error toast isn't wrong, indeed you're not supposed to revoke your own permissions, but the Desktop client lets you do that if you're the owner. Discord Alpha 6.5.7, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-04-26T05:18:16.492Z
+
+
+### Can reproduce.
+CR, Cherry Mobile Spin Max 6.0.1 • Android Alpha 6.5.7
+
+BakugouDeku#0602 - Bug Bot on 2018-04-26T05:18:21.464Z
+
+
+### Can reproduce.
+Can Reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 Nougat ~ Discord Apha 6.5.7
+
+Lava#9562 - Bug Bot on 2018-04-26T05:18:26.464Z
+
+
+### Can reproduce.
+Can Reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 Nougat ~ Discord Alpha 6.5.6
+
+Lava#9562 - Bug Bot on 2018-04-26T05:18:36.540Z
+
+
+### Can reproduce.
+Can Reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 Nougat ~ Discord Alpha 6.5.7
+
+Lava#9562 - Bug Bot on 2018-04-26T05:19:14.202Z
+
+
+### Verified.  - Clayton on 2018-04-26T21:18:19.258Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-26T21:18:24.725Z
+
+
+### The Lunala#7777 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ae161104bfe3e1f2416dc36/e361fdc5fff1cdc967ec325ef3bd0a87/20180716_160758.jpg added by Bug Bot on 2018-07-16T10:39:44.147Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:54.625Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,64 @@
+Copying an image preview puts Discord into a crash loop (https://trello.com/c/rbh4DIND)
+
+None
+
+Created: 2020-02-07T22:59:03.934Z
+Latest Update: 2020-03-18T01:50:12.957Z
+
+Reported by Ben.#0002
+
+####Steps to reproduce:
+- Upload (or find) an image (Must be an uploaded image, not embedded from a link) 
+- Open the image 
+- Right click and click copy image preview 
+- Observe the client crashing, if it does not crash right away, refresh and it will display the Well, this is awkward screen
+
+####Expected result:
+It should copy the image
+####Actual result:
+It crashes and continues crashing after reloading
+####Client settings:
+stable, Build Number: 53946, Version Hash: 6fceff4d51fd7d7410ee0a8697b2294423e1dbd5
+####System settings:
+Manjaro Juhraya 18.1.5 (KDE)
+
+52407
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-07T22:59:03.934Z
+
+
+### Can reproduce.
+Manjaro Linux 18.1.5 - Stable 53946
+
+mrkirby153#7840 - Bug Bot on 2020-02-07T22:59:11.446Z
+
+
+### Ben.#0002 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5e3debb7b389926d5a1c3c4f/fa22c8e6cdcfd936ac0a5bacc672b25c/afEV20Z.gif added by Bug Bot on 2020-02-07T22:59:30.431Z
+
+
+### Can reproduce.
+stable, Build Number: 54146, Pop_os 19.10
+
+ebbit#0915 - Bug Bot on 2020-02-09T04:43:28.017Z
+
+
+### Can reproduce.
+CR, Ubuntu 19.04, Canary 54153
+
+Action Potential#6862 - Bug Bot on 2020-02-09T05:33:37.439Z
+
+
+### Can't reproduce.
+Debian GNU/Linux 9.0, Canary 56106
+
+Alula#0001 - Bug Bot on 2020-03-18T01:50:12.969Z
+
+List
+====
+User Reported
+
+Members
+=======
+None

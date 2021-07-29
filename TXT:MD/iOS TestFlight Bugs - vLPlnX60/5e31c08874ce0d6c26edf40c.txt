@@ -1,0 +1,64 @@
+Rotating iPad from portrait to landscape mode and swiping up on the server settings panel displays transparent background instead of solid (https://trello.com/c/LTQRZKxZ)
+
+None
+
+Created: 2020-01-29T17:27:36.742Z
+Latest Update: 2020-03-09T23:10:51.256Z
+
+Reported by KindleTune#8570
+
+####Steps to reproduce:
+- Enter server profile in portrait mode 
+- Swipe up 
+- Rotate to landscape mode 
+- Observe
+
+####Expected result:
+It should display a gray background just like when swiping directly from landscape mode
+####Actual result:
+It displays a weird transparent section under the panel
+####Client settings:
+TestFlight 3.1.9 (18507)
+####System settings:
+iPad Pro 2018 12.9in, iPadOS 13.2.3
+
+50038
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-29T17:27:36.742Z
+
+
+### Jiralite#1207 - https://youtu.be/02yAzrd-O-Q added by Bug Bot on 2020-01-29T17:27:39.245Z
+
+
+### KindleTune#8570 - undefined added by Bug Bot on 2020-01-29T17:27:39.287Z
+
+
+### Can reproduce.
+CR iPad Air iPadOS 13.3.1 TestFlight 3.1.10 (18855)
+
+binchlord#0998 - Bug Bot on 2020-01-29T17:27:44.290Z
+
+
+### Can reproduce.
+CR, iPad iOS 12.4.4, TF 3.1.9 (18591); happens if I scroll all the way up first and then rotate
+
+Action Potential#6862 - Bug Bot on 2020-01-29T17:27:49.416Z
+
+
+### Can reproduce.
+iPad 7: iPadOS 13.3; TestFlight 3.1.10 (18871)
+
+Jiralite#1207 - Bug Bot on 2020-01-29T17:27:54.299Z
+
+
+### Moved from New Issues to Random Polish Items by Fanghao on 2020-01-30T00:29:32.959Z
+
+List
+====
+Random Polish Items
+
+Members
+=======
+None

@@ -1,0 +1,82 @@
+[Archived] Buggy animations when you interact with the "Something's Going on Here" screen. (https://trello.com/c/W7Nqmkmw)
+
+None
+
+Created: 2019-01-17T20:10:58.379Z
+Latest Update: 2019-01-18T10:27:15.669Z
+
+Reported by Darkbeast#0404
+
+####Steps to reproduce:
+- Get the "Something's Going on Here" screen (you can get it easily by creating a new account with a temporary email like tempmail) 
+- Tap on "Verify by Phone" and subsequently on "Back" to observe the buggy animations
+
+####Expected result:
+The elements of the "Something's Going on Here" screen shouldn't shift up/down during and after the animations.
+####Actual result:
+The elements of the screen move up/downwards during and after the animation, making it look inconsistent and wonky.
+####Client settings:
+TestFlight 2.4.2 (10573) & Stable 2.4.1 (tested on both)
+####System settings:
+iPhone 7 Plus with iOS 12.1.2
+
+26303
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-17T20:10:58.379Z
+
+
+### Darkbeast#0404 - https://youtu.be/LxKq3ggpjzo added by Bug Bot on 2019-01-17T20:11:00.855Z
+
+
+### Darkbeast#0404 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c40e15213136a62b872c8ec/6db793dfe1f04685fda8034012575472/3e26eeI.png added by Bug Bot on 2019-01-17T20:11:01.023Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.3 Beta (16D5032a) - TestFlight 2.4.2 (10685)
+
+Isabel#0002 - Bug Bot on 2019-01-17T20:11:05.748Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, tf 2.4.2 (10685)
+
+Lentralkestor#0404 - Bug Bot on 2019-01-17T20:11:10.728Z
+
+
+### Can reproduce.
+iPhone XS iOS 12.1.2 (16C101)
+
+Asriel#0001 - Bug Bot on 2019-01-17T20:11:15.737Z
+
+
+### Can reproduce.
+CR - TestFlight 2.4.2 (10685) iPhone 7 iOS 12.1.2
+
+ryan#0570 - Bug Bot on 2019-01-17T20:23:30.761Z
+
+
+### As per victoria, this is directly related to https://trello.com/c/wAwmI3YH and is an extension of this ticket
+
+Rashaun#8467 - Bug Bot on 2019-01-17T23:03:33.374Z
+
+
+### closing because of the extension - Clayton on 2019-01-17T23:06:55.890Z
+
+
+### Archived by Clayton on 2019-01-17T23:06:58.567Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.4.2 (10740)
+
+Jengas#7777 - Bug Bot on 2019-01-18T10:27:15.670Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

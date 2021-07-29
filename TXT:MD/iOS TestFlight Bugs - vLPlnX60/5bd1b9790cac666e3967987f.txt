@@ -1,0 +1,78 @@
+[Archived] Pressing the return key when adding a ban reason leads to a new empty line in the audit log details (https://trello.com/c/Sk2ROTF0)
+
+None
+
+Created: 2018-10-25T12:39:21.061Z
+Latest Update: 2019-01-22T22:55:12.029Z
+
+Reported by evilpauwse#9985
+
+####Steps to reproduce:
+- Find someone to ban 
+- Type a ban reason then hit the return key 
+- Go to the audit log details
+
+####Expected result:
+It should not leave an empty line in the reason. Or it should not make you unfocus from the text box
+####Actual result:
+It adds a new line
+####Client settings:
+TestFlight 8616
+####System settings:
+iPhone SE - iOS 12
+
+22103
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-25T12:39:21.061Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12, Testflight 2.4.0 (8616)
+
+Pyros#2326 - Bug Bot on 2018-10-25T12:39:28.416Z
+
+
+### Can reproduce.
+Can reproduce - iPhone 8 - iOS 12.0 - Discord TestFlight 2.3.9 (8616)
+
+Jengas#7777 - Bug Bot on 2018-10-25T12:39:33.346Z
+
+
+### Can reproduce.
+Can reproduce iPhone XS Max, iOS 12.0.1, TestFlight 2.4.0 (8616)
+
+coolalmostchilly#2019 - Bug Bot on 2018-10-25T12:39:38.325Z
+
+
+### Moved from New Issues to Audit Log Bugs by Jeff Cailteux on 2018-10-25T16:31:27.639Z
+
+
+### Moved from Audit Log Bugs to Won't Fix by Jeff Cailteux on 2018-10-25T17:37:37.399Z
+
+
+### Can reproduce.
+iPhone 5S, iOS 12, App version 2.4.0
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-25T18:23:11.116Z
+
+
+### Can reproduce.
+iPhone 5s iOS 12.0.1, TestFlight 2.4.0
+
+Solo#0007 - Bug Bot on 2018-10-26T00:40:22.134Z
+
+
+### This ticket has been in Won't Fix for no activity for over 30 days. So archiving this ticket due to the inactivity. - Ghoul on 2019-01-22T22:55:10.514Z
+
+
+### Archived by Ghoul on 2019-01-22T22:55:12.032Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

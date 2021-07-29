@@ -1,0 +1,91 @@
+[Archived] "New unreads" button is shown for channels of a muted category (https://trello.com/c/Lb9BbXCb)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-20T15:02:55.534Z
+Latest Update: 2017-12-02T17:06:13.904Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Mute a category 
+- Get a new message in any channel of the muted category 
+- Scroll up a bit in your server to make sure that this channel is out of sight
+
+####Expected result:
+There shouldn't be a "New unreads" button because you've muted the category.
+####Actual result:
+You will see a "New unreads" button although you muted the category and collapsed it.
+####Client settings:
+Discord Canary, 0.0.154
+####System settings:
+MacBook Pro 13" (2016), macOS Sierra 10.12.6
+
+4593
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-20T15:02:55.534Z
+
+
+### dsf190#5214 - https://i.imgur.com/ATKTe4f.gifv added by Bug Bot on 2017-09-20T15:02:57.832Z
+
+
+### Can reproduce.
+CR, w10, canary build 4585
+
+dsf190#5214 - Bug Bot on 2017-09-20T15:03:03.432Z
+
+
+### Can reproduce.
+CR Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-20T15:03:07.848Z
+
+
+### Can reproduce.
+Windows 10 x64 Insiders Home build
+
+Dropheart#6441 - Bug Bot on 2017-09-20T15:03:12.888Z
+
+
+### Can reproduce.
+Windows 10 x64 Enterprise, Canary build 4585
+
+amazon package#5619 - Bug Bot on 2017-09-20T15:17:03.477Z
+
+
+### Verified.  - Clayton on 2017-09-21T20:43:25.859Z
+
+
+### Moved from User Reported Bugs to Channel catalgories by Clayton on 2017-09-21T20:43:33.250Z
+
+
+### channels also show new message indicators when Uncollapsed while muted via category
+
+ks0908#8526 - Bug Bot on 2017-09-22T11:34:18.845Z
+
+
+### Now only happens when the category is uncollapsed. If the category is collapsed, you won't see the new unreads message indicator
+
+Pascal#0929 - Bug Bot on 2017-09-30T09:43:52.933Z
+
+
+### This is intentional. If it's collapsed it shouldn't show. - Jared on 2017-10-17T18:52:01.139Z
+
+
+### Moved from Channel catalgories to Not a Bug by Jared on 2017-10-17T18:52:05.864Z
+
+
+### Archiving this card because it's been in the Not a Bug list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:06:12.938Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:06:13.906Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

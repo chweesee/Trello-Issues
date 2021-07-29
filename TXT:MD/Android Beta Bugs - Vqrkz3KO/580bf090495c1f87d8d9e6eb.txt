@@ -1,0 +1,52 @@
+[Archived] Role changes aren't saved when tapping the save icon, then using the back button. (https://trello.com/c/UUkafbZm)
+
+None
+
+Created: 2016-10-22T23:04:48.463Z
+Latest Update: 2017-10-02T16:43:53.202Z
+
+**Reported by:** Logiz
+
+
+####Steps to Reproduce:
+- Edit a role (tested with role names) (100% repro when you add a space after the name)
+- Hit the save button
+- Click the back button
+
+####Expected Result:
+Should remove the save button as normal 
+####Actual Result:
+Doesn't remove the save button, thinks you've not saved so the "Discard changes" box pops up
+
+
+####Client Version:
+Alpha, 3.1.3
+####System Settings:
+Android 6.0.1
+
+Card Log
+========
+### Added by Sam on 2016-10-22T23:04:48.463Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-10-24T21:37:26.296Z
+
+
+### This was fixed. - Jared on 2017-01-20T22:17:32.029Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2017-01-20T22:17:35.471Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:43:52.689Z
+
+
+### Archived by Jared on 2017-10-02T16:43:53.205Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

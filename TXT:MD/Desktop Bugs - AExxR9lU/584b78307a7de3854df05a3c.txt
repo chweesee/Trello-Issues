@@ -1,0 +1,84 @@
+[Archived] When tagging a user who is not in a server with ID's, editing the message removes the tag. (https://trello.com/c/MxU0JZMu)
+
+P3: Will get fixed eventually
+
+Created: 2016-12-10T03:36:16.034Z
+Latest Update: 2018-10-22T20:13:23.205Z
+
+Reported by 🎁 FireController1847#9085
+
+####Steps to reproduce: 
+- Find a server without the user in it. 
+- Tag the user in that server using ID's. 
+- Edit the message. 
+
+####Expected result:
+ Either it removed the UUID after the user's name, or keeps the tag. 
+####Actual result:
+ It replaces it with tagging a role (if a role is the same name), or the user's name and discrim.
+
+Card Log
+========
+### Added by Jared on 2016-12-10T03:36:16.034Z
+
+
+### Can reproduce.
+v0.0.149 on Windows 7 x64
+
+Ian Murray#8701 - Jared on 2016-12-10T03:38:43.915Z
+
+
+### Can reproduce.
+
+
+3spooky5u#6459 - Jared on 2016-12-10T09:16:06.314Z
+
+
+### Can reproduce.
+Latest build, canary build and web build
+
+LW001#8654 - Jared on 2016-12-10T09:26:26.121Z
+
+
+### Can reproduce.
+Windows 10, latest canary
+
+TheEvilSocks#0023 - Jared on 2016-12-11T00:33:38.766Z
+
+
+### Can reproduce.
+Latest macOS Canary
+
+xLars#5484 - Jared on 2016-12-12T10:03:43.438Z
+
+
+### Verified, but super low priority. - Jared on 2016-12-12T19:40:38.786Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-12T19:40:42.560Z
+
+
+### Same behavior is still present. - Jared on 2017-07-31T21:48:08.710Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 x64 v1709
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T14:32:34.719Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584b78307a7de3854df05a3c/61135a674edf6f276e07b22e004c4c89/Axox9RQ.gif added by Bug Bot on 2018-07-14T09:55:09.506Z
+
+
+### Wolterhon#3938 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584b78307a7de3854df05a3c/0f260f8703f6548ab479573ad6048be3/fFEPXaV.gif added by Bug Bot on 2018-07-15T05:38:09.860Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:23.209Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

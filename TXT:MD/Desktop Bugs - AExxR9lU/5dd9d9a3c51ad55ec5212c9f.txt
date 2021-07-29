@@ -1,0 +1,84 @@
+the reaction resize is delayed when un-reacting to a message (https://trello.com/c/lAvFf3EX)
+
+None
+
+Created: 2019-11-24T01:15:15.646Z
+Latest Update: 2020-07-16T21:26:05.734Z
+
+Reported by Error 404#4040
+
+####Steps to reproduce:
+- find a message with 9 reactions on it (or any other amount of reactions that have a different width than the number above it) 
+- react to the message with the reaction that you looked at in the above step  
+- un-react to the message
+
+####Expected result:
+the number of reactions should decrease smoothly along with the reaction box also closing in time
+####Actual result:
+the number of reactions decreases with a delay between the the box shrinking to match the number's width
+####Client settings:
+Discord Canary 50042
+####System settings:
+Windows 10 Home (x64 v1803)
+
+48598
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-24T01:15:15.646Z
+
+
+### Can reproduce.
+Can reproduce, same happens when box size increases too. Lenovo Helix Ultra 2 • Windows 10 v1803 • Discord Canary 50127
+
+CentralPier9#5471 - Bug Bot on 2019-11-24T01:15:23.386Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro (1903), Discord Canary 50042
+
+TheRudeDude#6040 - Bug Bot on 2019-11-24T01:15:28.398Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903, - Discord Canary, Build Number: 50225
+
+.Gloria.#9606 - Bug Bot on 2019-11-24T01:15:33.385Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 50225 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-24T01:19:02.549Z
+
+
+### Can reproduce.
+Windows 10 x64 Home 1903 - Discord Canary 50225
+
+Niko#8828 - Bug Bot on 2019-11-24T04:41:10.237Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 50225
+
+AHkhan#1111 - Bug Bot on 2019-11-24T17:29:51.398Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1903) - Discord Canary 50225
+
+Jamalek#0025 - Bug Bot on 2019-11-24T21:08:20.850Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro (1903), Discord Canary 50225
+
+TheRudeDude#6040 - Bug Bot on 2019-11-25T00:08:28.092Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

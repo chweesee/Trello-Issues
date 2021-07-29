@@ -1,0 +1,99 @@
+[Archived] [Resubmission] Clicking the magnifying glass icon on the search bar (the one in the top right, not the server discovery search) will not select/focus the search bar. This is NOT an extension of the un-focus report currently on Trello as that report refers to entirely separate behavior with an entirely separate part of discord, and fixing one will not fix the other. Additionally, div DraftEditor-root will expand to fill the search bar when the magnifying glass is moved elsewhere, indicating it is likely not intended (though I could be wrong). (https://trello.com/c/3HyFyKHM)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-02-20T03:18:57.265Z
+Latest Update: 2019-04-01T02:30:02.851Z
+
+Reported by mowgen#2030
+
+####Steps to reproduce:
+- Locate the search bar in the top right of Discord (visible in servers, DM's, etc) 
+- Click on the magnifying glass, which is very much so inside the search bar
+
+####Expected result:
+The search bar should be selected, allowing you to type in a search query
+####Actual result:
+The search bar is not selected
+####Client settings:
+Discord PTB (32274) & Discord in Chrome/72.0.3626.109
+####System settings:
+Win10 x64
+
+29032
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-20T03:18:57.265Z
+
+
+### Can reproduce.
+macos 10.14.4, Web Stable 32407, Chrome 72
+
+M24#0272 - Bug Bot on 2019-02-20T03:19:09.591Z
+
+
+### Can reproduce.
+Could reproduce, macOS 10.14.4, Chrome 72, Stable 32407
+
+Action Potential#2494 - Bug Bot on 2019-02-20T03:19:14.614Z
+
+
+### Can reproduce.
+Can reproduce on client as well. Windows 10 Home x64 (1809), Canary 32407
+
+Solo#0007 - Bug Bot on 2019-02-20T03:59:21.163Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Canary 32407 (Installed Client), Canary 32470, Opera 58.0.3135.65 (Web Client)
+
+average idiot on the internet#0274 - Bug Bot on 2019-02-20T04:15:21.006Z
+
+
+### Can reproduce.
+CR; Firefox browser Version 66.0b7  (64-bit), (Discord Canary 32407, Windows 7)
+
+Skyla#7948 - Bug Bot on 2019-02-20T05:14:07.232Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 - Chrome 72.0.3626.97 (x64) - Web Canary 32470
+
+Casper#9999 - Bug Bot on 2019-02-20T06:06:03.649Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord: stable, Build Number: 32407, Version Hash: c146721bbbd760e1ade89402e8685b0867140a6c
+
+TheFutureKnight#7664 - Bug Bot on 2019-02-20T13:15:32.211Z
+
+
+### verified, macos 10.12.6, canary 32470 - Clayton on 2019-02-20T21:32:24.938Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-20T21:32:35.985Z
+
+
+### Can reproduce.
+W10 Pro x64 - Canary 32470
+
+dafaqed#1312 - Bug Bot on 2019-02-21T22:30:34.055Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 33117
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-02T02:21:11.663Z
+
+
+### Archived by Bug Bot on 2019-04-01T02:30:02.863Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

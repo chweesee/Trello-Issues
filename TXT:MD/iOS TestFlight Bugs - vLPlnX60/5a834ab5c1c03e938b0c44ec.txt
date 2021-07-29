@@ -1,0 +1,113 @@
+[Archived] iOS App always with English language strings (https://trello.com/c/bCcTpHXT)
+
+P1 - Severe,
+mid
+
+Created: 2018-02-13T20:29:41.708Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Make sure to update 2.2.3 (2572) 
+- Change your language to any Non-English language 
+- Observe
+
+####Expected result:
+The selected language should be used.
+####Actual result:
+Discord always uses the English language.
+####Client settings:
+TestFlight 2.2.3 (2572)
+####System settings:
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 2
+
+8752
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-13T20:29:41.708Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight 2.2.3 (2572)
+
+Kuuhaku#4503 - Bug Bot on 2018-02-13T20:29:49.125Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 11.2.5 - TestFlight 2.2.3 (2572)
+
+webhp#1337 - Bug Bot on 2018-02-13T20:29:54.176Z
+
+
+### Can reproduce.
+Not even restarting fixes this. iPhone 6, iOS 11.3 b2, TF 2572
+
+houston#2248 - Bug Bot on 2018-02-13T20:29:59.129Z
+
+
+### Verified - Jared on 2018-02-13T20:59:51.712Z
+
+
+### Moved from User Reported Bugs to Serious Issues by Jared on 2018-02-13T20:59:56.822Z
+
+
+### Moved from Serious Issues to Verified Bugs by Jared on 2018-02-13T21:00:02.983Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2018-02-13T21:00:43.253Z
+
+
+### Moved from Serious Issues to Fix made, not yet released by Fanghao on 2018-02-14T02:14:06.674Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-02-15T22:21:18.911Z
+
+
+### Fixed.  - Clayton on 2018-02-16T00:04:57.057Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Clayton on 2018-02-16T00:05:01.961Z
+
+
+### Can reproduce.
+Unfortunately, this bug is back as of TestFlight 2.2.5 (2798). iPhone 8 +, iOS 11.3 Public Beta 3 - Discord TestFlight 2.2.5 (2798)
+
+Ghoul#0009 - Bug Bot on 2018-02-27T02:22:47.836Z
+
+
+### I am moving reopening this ticket because the bug can now be reproduced again.
+
+Discord 2.2.5 (2798), iOS 11.2.6, iPhone 8 Plus - Alexandru Todea on 2018-02-27T12:57:48.524Z
+
+
+### Moved from Verified Fixed to User Reported Bugs by Alexandru Todea on 2018-02-27T12:57:55.814Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Fanghao on 2018-03-01T22:30:31.617Z
+
+
+### Can't reproduce.
+CNR as of TestFlight 2.2.5 (2894) on iPhone 8 +, iOS 11.3 (PB3). However, there is a bit slight of delay when switching languages but seems to fix itself when you exit settings then come back.
+
+Ghoul#0009 - Bug Bot on 2018-03-02T02:36:42.474Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-03-21T00:10:32.475Z
+
+
+### I can no longer reproduce, no issues switching languages other than a slight delay when converting some strings to the newly selected language.
+
+Discord 2.2.7 (3519), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-05T06:39:30.793Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:34.040Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,99 @@
+Splitting the keyboard results in an enlarged message area. (https://trello.com/c/HPqNAmm9)
+
+low,
+P2 - Can wait a while
+
+Created: 2018-04-04T19:52:19.392Z
+Latest Update: 2019-10-07T11:51:24.562Z
+
+Reported by unreal#0001
+
+####Steps to reproduce:
+- While on Landscape mode: On any chat dialogue, tap on the message area. 
+- Split the keyboard. 
+- Observe.
+
+####Expected result:
+Keyboard should split, while keeping message area height the same.
+####Actual result:
+Keyboard will split, and increase message area height to match the lower boundary of the split keyboard.
+####Client settings:
+Stable 2.2.8
+####System settings:
+iPad (4th Generation), iOS 10.3.3 (Final supported OS by Apple)
+
+10134
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-04T19:52:19.392Z
+
+
+### Hazel#5205 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ac52cf33331468da940b86e/64b65d77ca714406ca2ed5df5d5fe813/image.png added by Bug Bot on 2018-04-04T19:52:21.929Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 11.3, Stable 2.2.9 | For me only the message text field is not above the keyboard, it is below but I can see it. Might be related to https://trello.com/c/YWA5VpgC
+
+Pascal#0929 - Bug Bot on 2018-04-04T19:52:26.811Z
+
+
+### Can reproduce.
+CR, iPad Mini 2, iOS 11.2.6, TF 2.2.7 (3519). On my device you have to swipe the keyboard up, it doesn't go up automatically, but the glitch still happens.
+
+[object Object]#0001 - Bug Bot on 2018-04-04T19:52:32.632Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 11.3 - TestFlight 2.2.7 (3519) -- I had to swipe up on the keyboard for the bug to occur.
+
+webhp#1337 - Bug Bot on 2018-04-04T19:52:36.819Z
+
+
+### Verified, iPad Pro 10.5", 11.2.6, TF 2.3.0 - Jared on 2018-04-12T21:50:08.993Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-12T21:50:16.418Z
+
+
+### Can reproduce.
+iPad Pro 10.5", iOS 11.4 (15F79) - TestFlight 2.3.4 (5425)
+
+Zuris#4495 - Bug Bot on 2018-06-30T02:00:09.557Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:01.502Z
+
+
+### Bild.jpeg - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ac52cf33331468da940b86e/cb6b240dfd937b0d9b395ff4f4ca9cf4/Bild.jpeg added by Pascal on 2019-09-25T14:03:24.377Z
+
+
+### **Extension of the issue**
+
+It also happens with the new floating keyboard (see attached screenshot) introduced in iPadOS 13.1, increasing the priority due this new issue. - Pascal on 2019-09-25T14:05:12.622Z
+
+
+### Unarchived by Pascal on 2019-09-25T14:06:00.531Z
+
+
+### Moved from Backlog to Text Chat by Pascal on 2019-09-25T14:06:06.876Z
+
+
+### Can reproduce.
+iPad Pro (2018), iOS 13.1.2, Testflight 3.1.4 (17524), happens with iOS 13 floating keyboard
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-01T04:32:56.591Z
+
+
+### Can reproduce.
+CR iPad Air iPadOS 13.1.2 TestFlight 3.1.4 (17575)
+
+binchlord#0998 - Bug Bot on 2019-10-07T11:51:24.577Z
+
+List
+====
+Text Chat
+
+Members
+=======
+None

@@ -1,0 +1,73 @@
+[Website Client] - In a unclaimed account, attempting to download the Linux client opens a new tab with the same url path. (https://trello.com/c/MqkeVnja)
+
+None
+
+Created: 2019-08-28T11:23:38.926Z
+Latest Update: 2020-07-16T21:26:04.951Z
+
+Reported by xTeal#7702
+
+####Steps to reproduce:
+- Create a unclaimed account 
+- Click Download Apps 
+- Try and download the mac/windows client, it prompts you to claim your account 
+- Try and download the linux client, (DEB or TAR is fine!) it opens up a new tab with the same url path (e.g. channels/guild/channel)
+
+####Expected result:
+It opens up the prompt to claim your account without opening a new tab.
+####Actual result:
+Discord opens a new tab, in the old one that prompts you to verify your account.
+####Client settings:
+Web Canary 44474 // Chrome Stable Version 76.0.3809.100 (Official Build) (64-bit)
+####System settings:
+Early 2015 Macbook Pro Retina 13" // macOS Sierra 10.12.6
+
+42921
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-28T11:23:38.926Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Chrome 76.0.3809.132, Web Canary 44474
+
+Jean20B#4668 - Bug Bot on 2019-08-28T11:23:46.346Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 44474 - Chrome
+
+Hagen#0001 - Bug Bot on 2019-08-28T11:23:51.378Z
+
+
+### Can reproduce.
+CR Lenovo × Windows 10 Home x64 1903 × Canary 44603, Chrome 42921
+
+B.O.S.S#0251 - Bug Bot on 2019-08-28T11:23:56.373Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 44625; Google Chrome 76.0.3809.100
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-28T21:16:15.524Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1803) • Discord version stable • Build  44333 Chrome
+
+Wyrd rëisa#7128 - Bug Bot on 2019-08-28T23:26:17.538Z
+
+
+### Can reproduce.
+Windows 10 Home, Discord Stable Build 50659, Google Chrome 78.0.3904.108
+
+Santasty#6012 - Bug Bot on 2019-12-04T17:36:40.713Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

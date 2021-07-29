@@ -1,0 +1,88 @@
+[Archived] Inconsistent upload size limit between client and server. (https://trello.com/c/Pbjr9yDh)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-01-18T01:41:47.150Z
+Latest Update: 2019-03-12T16:30:03.755Z
+
+Reported by Capital_Asterisk#1562
+
+####Steps to reproduce:
+- Allocate a file that is equal to your client's upload limit: 8,388,608 bytes, or 52,428,800 bytes for nitro. Note that these sizes are in powers of 1024, NOT 1000. Use fsutils, fallocate, or any method that can get you a file of that exact size. 
+- Upload it anywhere to discord. It will seem to upload just fine but it will FAIL during processing. 
+- The server's file limit is using powers of 1000 (8,000,000 or 50,000,000), because Discord developers are confused over which file size standard should be used.
+
+####Expected result:
+"Your files are too powerful" should prompt, or the server should accept the file (Increase the upload limit).
+####Actual result:
+Upload fails without showing a reason.
+####Client settings:
+Release Channel: stable, Build Number: 30942, Version Hash: 55a563807952c5d9c496a070917111899d67c609
+####System settings:
+Arch Linux (64-bit), Chromium 71.0.3578.98 (Official Build)
+
+26532
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-18T01:41:47.150Z
+
+
+### jedi3#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c412edb4a7b5063b5f84a2a/a0027b0d9074fb4a1c460275e75f3804/unknown.png added by Bug Bot on 2019-01-18T01:41:49.955Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803, Stable 30942
+
+Darkbeast#0404 - Bug Bot on 2019-01-18T01:41:54.551Z
+
+
+### Can reproduce.
+Windows 10 Home Version; Stable 30942
+
+jedi3#0001 - Bug Bot on 2019-01-18T01:41:59.571Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Pro 1809; Discord Canary 30945
+
+Pyknus#0001 - Bug Bot on 2019-01-18T01:42:04.628Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.228 Build 30945
+
+Daffyduck#5364 - Bug Bot on 2019-01-18T02:13:55.435Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31048
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-18T02:31:23.729Z
+
+
+### Can reproduce.
+Canary: 30945, Windows 7 64-bit
+
+Skyla#9999 - Bug Bot on 2019-01-18T15:16:47.345Z
+
+
+### verified, macos 10.12.6, canary 31048 - Clayton on 2019-01-18T21:57:25.259Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-18T21:57:42.241Z
+
+
+### You also get a 413 in console "Payload too large". - Tarek on 2019-02-10T16:19:04.878Z
+
+
+### Archived by Bug Bot on 2019-03-12T16:30:03.800Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

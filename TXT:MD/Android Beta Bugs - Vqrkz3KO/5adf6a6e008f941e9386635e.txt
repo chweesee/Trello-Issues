@@ -1,0 +1,112 @@
+Hyperlinks without URLs are broken (nothing gets displayed at all / what needs to be displayed doesn't get displayed, what needs to be invisible gets displayed) (https://trello.com/c/KIEsDGXU)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-24T17:33:34.459Z
+Latest Update: 2020-05-29T08:40:03.632Z
+
+Reported by Aetheryx#2222
+
+####Steps to reproduce:
+- View an embed with a hyperlink that has hover text and no URL
+OR:
+
+- View an embed with a hyperlink that has hover text, no URL and no space (e.g. `abc` vs `a bc`) in the hover text
+ *Side note: if you don't have access to a bot to build embeds, shoot me a DM*
+
+####Expected result:
+-The hyperlink text is displayed, the hyperlink hover text is not displayed, regardless of whether the hover text includes a space. This is what it was like before the recent update to embeds.
+-Pretty much how it looks like on PC (See attachment #1).
+####Actual result:
+-If the hover text includes a space:
+-Neither are displayed. The hyperlink text and hyperlink hover text are gone. See attachment #2.
+-
+-If the hover text does not include a space:
+-The hyperlink text is not displayed, the hover text is displayed. This should be the other way around.
+####Client settings:
+Discord Alpha 6.5.5
+####System settings:
+Nexus 5X, Android 8.1.0
+
+11069
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-24T17:33:34.459Z
+
+
+### AEnterprise#4693 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5adf6a6e008f941e9386635e/0ac819a2d726e1aec15270264f1f46ff/d85c3a.png added by Bug Bot on 2018-04-24T17:33:37.292Z
+
+
+### AEnterprise#4693 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5adf6a6e008f941e9386635e/3fb3e02f156668f81695189606e8fc63/ed6f52.png added by Bug Bot on 2018-04-24T17:33:37.482Z
+
+
+### Can reproduce.
+CR, Android 5.1 Lollipop, Galaxy J7 2015 Discord 6.4.7 (647)
+
+TheOnlyArtz#5743 - Bug Bot on 2018-04-24T17:33:41.849Z
+
+
+### Can reproduce.
+Can repro, Discord Beta 6.5.6, Samsung Note II, Android 4.4.2
+
+Zaem#0596 - Bug Bot on 2018-04-24T17:33:46.826Z
+
+
+### Can reproduce.
+CR, not sure if this is supported (as it is not a valid URL and thus against every markdown spec i know) but it is inconsistent behaviour Galaxy S8 android 8.0, alpha 6.5.6
+
+AEnterprise#4693 - Bug Bot on 2018-04-24T17:33:51.877Z
+
+
+### Verified.  - Clayton on 2018-04-26T21:25:12.912Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-26T21:25:23.553Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:55.235Z
+
+
+### Can reproduce.
+Can still reproduce, Kyocera Hydro Wave Android 5.1 Discord 7.8.6
+
+Okori#0902 - Bug Bot on 2018-11-03T08:40:52.657Z
+
+
+### Unarchived by Clayton on 2018-11-03T09:00:03.654Z
+
+
+### @andygarron1 did you purposefully make this fail if the link portion is malformed? - Sam Shih on 2018-11-09T00:18:03.067Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:49.863Z
+
+
+### Can reproduce.
+this is the case for any falsy (javacript wise) input as a masked link body (false, null, undefined, '', <no input at all>) and inconsistent between desktop and ios (where it displays correctly) and anroid , Nexus 5X, 8.1.0 23.0 (1146
+
+Souji#0001 - Bug Bot on 2020-05-21T19:41:41.404Z
+
+
+### this is the case for any falsy (javacript wise) input as a masked link body (false, null, undefined, '', <no input at all>)
+
+Souji#0001 - Bug Bot on 2020-05-21T19:52:16.878Z
+
+
+### Unarchived by Bug Bot on 2020-05-21T20:00:04.943Z
+
+
+### Can reproduce.
+[CR] Samsung A10 - Android 10 - Discord 25-Alpha1 (1151)
+
+Cookie#3165 - Bug Bot on 2020-05-29T08:40:03.644Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/andygarron1) - No Bio

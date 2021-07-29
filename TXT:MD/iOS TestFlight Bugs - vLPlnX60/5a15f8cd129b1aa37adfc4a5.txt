@@ -1,0 +1,85 @@
+[Archived] Unable to copy text from rich embedded messages (https://trello.com/c/Hq7TuuZD)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2017-11-22T22:23:09.807Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by JustGamer#2542
+
+####Steps to reproduce:
+- Have a bot send you a rich embed message 
+- Press and hold on the message 
+- Press “Copy Text” 
+- Try and paste the message in a channel
+
+####Expected result:
+Contents of the rich embed message should paste in the channel after copying
+####Actual result:
+The message does not copy, and thus when you try to paste it, it is blank/pasted nothing
+####Client settings:
+Discord iOS TestFlight, version 2.0.1 (build 1610)
+####System settings:
+iPhone 6, iOS 11.1
+
+6559
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T22:23:09.807Z
+
+
+### Can reproduce.
+Can reproduce. I actually thought this was in Trello because it's worked this way since embeds were created but I can't find it. So... yeah.
+
+Dabbit Prime#0896 - Bug Bot on 2017-11-22T22:23:17.202Z
+
+
+### Verified.  - Clayton on 2017-11-29T22:33:55.997Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-29T22:33:58.807Z
+
+
+### Verified issue still occurs as written. - Jared on 2018-01-08T17:36:42.285Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2018-02-16T20:14:11.647Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-02-17T07:43:56.341Z
+
+
+### I can no longer reproduce, there’s no longer a copy text option of the message doesn’t contain any text aside from the rich embedded one.
+
+Discord 2.2.3 (2671), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-02-18T06:29:26.662Z
+
+
+### Can't reproduce.
+Iphone SE 2.2.3
+
+ChaosKadir#3764 - Bug Bot on 2018-02-20T23:40:02.935Z
+
+
+### I believe this has now been fixed w/ a more recent chat re-write. - Miguel Gaeta on 2018-03-12T17:46:09.306Z
+
+
+### Verified Fixed - Jared on 2018-04-03T20:11:48.402Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2018-04-03T20:11:51.983Z
+
+
+### Archiving this ticket as it has been in Verified Fixed for more than one month without any activity.  - Ghoul on 2018-06-01T02:29:07.279Z
+
+
+### Archived by Ghoul on 2018-06-01T02:29:12.243Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

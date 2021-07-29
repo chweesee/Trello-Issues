@@ -1,0 +1,83 @@
+[Archived] The navigation bar vanishes behind the top bar when in a video call on splitscreen (after switching back to the DM) (https://trello.com/c/NG2BgtdW)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-16T10:20:26.421Z
+Latest Update: 2019-08-13T15:30:38.794Z
+
+Reported by » a r i a#1593
+
+####Steps to reproduce:
+- get into a video call with your best friend 
+- make sure both of you have your videos/screenshare on 
+- make sure to show both feeds (doubleclick on your partner's video) and click on the enlarge button 
+- resize discord until the videos are shown below one another 
+- as you resize vertically (do horizontal first, then vertical resize), the bottom bar (hover to show "leave call etc") will vanish 
+- ! This behaviour happens automatically when on ~ 15.6 and split screen, as it has the required window size 
+- click away and back into the dm and observe
+
+####Expected result:
+The call should re-order itself earlier to avoid the clipping (make client smaller to see what i mean)
+####Actual result:
+The navigation bar clips into the top bar
+####Client settings:
+Discord Canary 21440, PTB 21425
+####System settings:
+Windows 10 Pro x64
+
+17190
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-16T10:20:26.421Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b754fea0d791759e4650b57/81e4d7aa1e32eb455ae67aaf14f5d09f/XgbOUBg.png added by Bug Bot on 2018-08-16T10:20:28.818Z
+
+
+### Can reproduce.
+Windows 10, 1083 - Canary 21705
+
+Logiz#0001 - Bug Bot on 2018-08-16T10:20:33.707Z
+
+
+### Can reproduce.
+Can reproduce Windows 10, 1709 - Canary 21705
+
+BetterScripter#3963 - Bug Bot on 2018-08-16T10:20:38.700Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64, 1803 - Stable 22011
+
+Pinecone#0891 - Bug Bot on 2018-08-16T10:20:43.710Z
+
+
+### verified, win 10, canary 22496 - Clayton on 2018-08-24T21:44:10.289Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-24T21:44:16.412Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:30.999Z
+
+
+### Can reproduce.
+CR Windows 10 x64 (1809), Canary 31784
+
+TheForbiddenAi#0001 - Bug Bot on 2019-02-03T01:12:50.661Z
+
+
+### Unarchived by Bug Bot on 2019-02-03T01:30:05.991Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:38.813Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

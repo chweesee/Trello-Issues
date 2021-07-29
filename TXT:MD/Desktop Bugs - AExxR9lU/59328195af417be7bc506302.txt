@@ -1,0 +1,170 @@
+[Archived] Uploading a file the wrong way crashes discord (https://trello.com/c/y8e6RvCO)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-06-03T09:29:57.340Z
+Latest Update: 2019-01-31T21:30:33.767Z
+
+Reported by 🐧 Icicle Ieyfo 🐧#3905
+
+####Steps to reproduce:
+- Hit the upload button on you chat box 
+- Instead of selecting the file by clicking, drag it into the discord client and it should pull up the upload prompt 
+- hit upload. 
+- Close out the file select prompt
+
+####Expected result:
+Nothing spectacular happens, one file has been uploaded
+####Actual result:
+A second or less after that discord will become not responding and crash fully.
+####Client settings:
+Discord Windows
+####System settings:
+Win 10 x64
+
+1401
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-03T09:29:57.340Z
+
+
+### Can reproduce.
+Windows 10 x64
+
+Chaten#3330 - Bug Bot on 2017-06-03T09:30:01.859Z
+
+
+### Can reproduce.
+ Windows 7 Professional x64, Discord Stable
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-06-03T09:30:03.821Z
+
+
+### Can reproduce.
+ Windows 10 Home x64, Discord Canary 0.0.155
+
+Joseph#9413 - Bug Bot on 2017-06-03T09:30:05.829Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord stable
+
+Chaten#3330 - Bug Bot on 2017-06-03T09:31:16.429Z
+
+
+### Can't Reproduce.  - Clayton on 2017-06-07T21:04:55.516Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-06-07T21:05:01.788Z
+
+
+### Somewhat different repro steps:
+
+- Open image sending feature 
+- Drag an image down to Discord 
+- Send the image after it pulls up the popup 
+- Go back to the image selection window and hit cancel - Sam on 2017-07-22T00:58:09.827Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.161 (Build 2461) - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-07-22T01:00:06.942Z
+
+
+### I reproduced without uploading the file I used.
+
+Pointy#5565 - Bug Bot on 2017-07-22T01:02:07.442Z
+
+
+### Can reproduce, but it's not 100%. Seems to only happen after you've been using Discord normally for a while. After it crashes initially you won't be able to recreate it again for a while. - Jared on 2017-07-31T22:57:08.980Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2017-07-31T22:57:12.350Z
+
+
+### I can no longer reproduce, Discord doesn't crash after uploading the file as described in the repro steps. (I had been using Discord to test bugs for a while when I tried reproducing this one) 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T11:32:42.042Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-28T11:32:46.337Z
+
+
+### Moving back to Verified Bugs, Discord crashed after a while when I closed the file select prompt. - Alexandru Todea on 2018-01-28T11:48:45.751Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Alexandru Todea on 2018-01-28T11:48:52.379Z
+
+
+### Cannot reproduce anymore, Canary 18051. Moving to claimed fixed. - Tarek on 2018-07-02T17:20:36.453Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-02T17:20:44.282Z
+
+
+### Can reproduce.
+Just wait 30-50 minutes, hop on one leg five times while spinning in a counter clockwise circle and maybe you'll be able to reproduce | Discord Canary 0.0.211, Build 20042, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-07-27T08:35:43.913Z
+
+
+### Can reproduce this on 20025. I had this issue two hours ago or so. My client was running for 4 hours. Reopening. - Tarek on 2018-07-27T08:38:44.100Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-07-27T08:38:47.991Z
+
+
+### Can reproduce.
+Win 10 home x64. Canary 22587
+
+Mr. Black#5859 - Bug Bot on 2018-08-25T19:51:40.002Z
+
+
+### Can reproduce.
+Tested on Windows 10 Home 64-bit (1803) with Discord Canary Build 24266, also logs me out on relaunch
+
+that15fine#9275 - Bug Bot on 2018-09-20T19:55:51.268Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24452
+
+Neiron#2406 - Bug Bot on 2018-09-22T13:33:42.620Z
+
+
+### can no longer reproduce.  - Clayton on 2018-10-03T02:22:27.898Z
+
+
+### Moved from Reopened to Verified Fixed by Clayton on 2018-10-03T02:22:33.682Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 28704
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-12-01T23:55:09.644Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 canary build 28970 and stable build 28970 I can repro this consistently as long as I don't use the same file twice for testing this bug
+
+Azrael#6867 - Bug Bot on 2018-12-06T13:29:50.171Z
+
+
+### Can reproduce.
+Release Channel: canary, Build Number: 30302, Version Hash: db622561b65eae5128bc8eab9db7679a4527c3fb, Windows 10 Home x64
+
+Talon#1337 - Bug Bot on 2018-12-31T01:23:38.335Z
+
+
+### Archived by Bug Bot on 2019-01-31T21:30:33.779Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

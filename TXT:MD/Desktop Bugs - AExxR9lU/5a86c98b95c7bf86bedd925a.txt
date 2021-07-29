@@ -1,0 +1,71 @@
+[Archived] First frame of transparent webm is stuck behind webm on playback. Transparent part remains black. (https://trello.com/c/b5kZS3sG)
+
+P3: Will get fixed eventually,
+Low,
+Client side,
+Embeds
+
+Created: 2018-02-16T12:07:39.396Z
+Latest Update: 2018-10-22T20:18:36.772Z
+
+Reported by Jenoki#8148
+
+####Steps to reproduce:
+- Upload a webm with transparency 
+- Press play
+
+####Expected result:
+The webm preview thumbnail should have transparency, and the webm should playback without the first frame stuck behind.
+####Actual result:
+The first frame of the webm is stuck behind the webm. The webm preview thumbnail has black instead of transparency.
+####Client settings:
+Canary 0.0.202
+####System settings:
+Windows 10 x64 1709
+
+8824
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-16T12:07:39.396Z
+
+
+### Jenoki#8148 - undefined added by Bug Bot on 2018-02-16T12:07:41.996Z
+
+
+### Can reproduce.
+Canary 0.0.202 [10796] Windows 10 Home x64
+
+Gimo#7777 - Bug Bot on 2018-02-16T12:07:46.775Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10824
+
+webhp#1337 - Bug Bot on 2018-02-16T12:07:51.804Z
+
+
+### Can reproduce.
+CR Canary 10878 Win 10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-02-16T12:07:56.787Z
+
+
+### The attachment was invalid so I removed it - Jared on 2018-02-20T21:33:31.842Z
+
+
+### Verified, but this is incredibly low priority. Maybe a won't fix. - Jared on 2018-02-20T21:33:51.687Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-20T21:34:11.833Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:36.774Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

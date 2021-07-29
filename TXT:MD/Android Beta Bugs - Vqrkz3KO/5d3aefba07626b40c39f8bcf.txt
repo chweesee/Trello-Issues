@@ -1,0 +1,96 @@
+[Archived] "Role managed by integration" toast is shown when trying to assign nitro booster role even when it is grayed out because member can't assign any role (member doesn't have the permission to assign roles) (https://trello.com/c/N7zZzylx)
+
+None
+
+Created: 2019-07-26T12:19:06.449Z
+Latest Update: 2020-02-20T21:33:34.937Z
+
+Reported by aosync#3115
+
+####Steps to reproduce:
+- Go to a server where there is the nitro booster role and where you can change your nickname but not manage roles (DAPI is one of those) 
+- Write some message 
+- Long tap on your profile pic bubble 
+- Tap on the "Manage user" 
+- All the roles should be grayed out 
+- Tap on the nitro booster role
+
+####Expected result:
+The toast saying the nitro booster role is managed with integrations shouldn't be shown as the user can't assign roles
+####Actual result:
+The toast saying the role is managed by integration is shown, even when the user can't assign roles at all
+####Client settings:
+Discord Beta 927
+####System settings:
+One Plus 5T - OxygenOS 9.0.6 - Android 9
+
+40652
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-26T12:19:06.449Z
+
+
+### Can reproduce.
+CR dtesters also can be used to test this Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.2.7
+
+Krobo#4784 - Bug Bot on 2019-07-26T12:19:14.270Z
+
+
+### Can reproduce.
+CR HTC 10, Android 8.0.0 Alpha 9.2.7, Works with all the roles managed by webhooks
+
+Andony#9825 - Bug Bot on 2019-07-26T12:19:19.273Z
+
+
+### Can reproduce.
+cr, LG K7, Android 5.1.1 - Alpha 9.2.7
+
+Ness#5718 - Bug Bot on 2019-07-26T12:19:24.265Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 9.0 (July Patch, Evolution X 07/18 build, Kernel 4.9.184), Discord Alpha 9.2.7
+
+Haru 💙🌸#6660 - Bug Bot on 2019-07-26T14:10:36.426Z
+
+
+### Can't reproduce.
+Moto E4 on Android 7.1.1, Discord Alpha 9.2.7
+
+Brightness™#0001 - Bug Bot on 2019-07-26T14:26:28.042Z
+
+
+### Can't reproduce.
+I was able to repro before 9.2.7, but i cant on Huawei P10 Lite - Android 8.0.0 - Discord Alpha 9.2.6-SAO-COAT_OF_MIDNIGHT
+
+MiTonder#0001 - Bug Bot on 2019-07-26T14:45:18.764Z
+
+
+### Can't reproduce.
+I was able to repro before i got 9.2.6, but i cant repro on Huawei P10 Lite - Android 8.0.0 - Discord Alpha 9.2.6-SAO-COAT_OF_MIDNIGHT
+
+MiTonder#0001 - Bug Bot on 2019-07-26T14:46:39.847Z
+
+
+### Can't reproduce.
+Asus Zenfone 2, Android 5.0, Discord Alpha 9.2.9-SAO
+
+Karasu#0013 - Bug Bot on 2019-07-27T00:31:53.208Z
+
+
+### Can reproduce.
+CR Android 9.0 - Oppo find x -  Discord 930
+
+Typhoon#1337 - Bug Bot on 2019-07-27T10:15:37.071Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:34.947Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

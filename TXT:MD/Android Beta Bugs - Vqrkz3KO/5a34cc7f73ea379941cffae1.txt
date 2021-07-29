@@ -1,0 +1,94 @@
+[Archived] 50+ new message banner turns into 25+ new messages (https://trello.com/c/UPZZyAkL)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-12-16T07:34:23.936Z
+Latest Update: 2018-02-27T00:37:20.795Z
+
+Reported by Okori#0902
+
+####Steps to reproduce:
+- have over 50 new messages in a channel 
+- click the 50+ new message banner 
+- observe the banner now
+
+####Expected result:
+nothing changes, it still says 50+ new messages
+####Actual result:
+it turns to 25+ new messages
+####Client settings:
+Discord 5.8.6
+####System settings:
+Kyocera Hydro Wave Android 5.1
+
+7105
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-16T07:34:23.936Z
+
+
+### Okori#0902 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a34cc7f73ea379941cffae1/c2368ba4d878c78907b278cfc8e83dc6/Screenshot_2017-12-15-23-20-05.png added by Bug Bot on 2017-12-16T07:34:26.580Z
+
+
+### LitchSchist#9091 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a34cc7f73ea379941cffae1/d9dbb1f000920ac1318cf9d36a823ed2/Screenshot_20171216-132521.png added by Bug Bot on 2017-12-16T07:34:26.610Z
+
+
+### Okori#0902 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a34cc7f73ea379941cffae1/7c8b9f6ae7fd058a3c6380f69363b47b/Screenshot_2017-12-15-23-20-01.png added by Bug Bot on 2017-12-16T07:34:26.641Z
+
+
+### Can reproduce.
+Discord 5.8.6 Android 7.0.1 TouchWiz Samsung Galaxy J7 2016 also I accidentally reproduce this
+
+LitchSchist#9091 - Bug Bot on 2017-12-16T07:34:31.490Z
+
+
+### Can reproduce.
+CR, seems to only work with larger servers when there are more activity. | Moto E 2nd generation, Discord Alpha 5.8.7 with Android 5.1
+
+Ghoul#4567 - Bug Bot on 2017-12-16T07:34:36.474Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 587
+
+Xander#0259 - Bug Bot on 2017-12-16T07:34:41.479Z
+
+
+### Verified - Tarek on 2017-12-16T09:05:26.425Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-16T09:05:33.334Z
+
+
+### Can reproduce.
+LG G60 X135 @ Android 4.4.2 Discord Alpha 5.8.7
+
+MobButcher#5874 - Bug Bot on 2017-12-17T10:38:53.319Z
+
+
+### This behavior is identical to deskop - not a bug because it's consistent client logic and stems from the fact that where there is many unread messages the client cannot know the exact number, hence the `+`. - Miguel Gaeta on 2017-12-24T09:38:49.373Z
+
+
+### Moved from Verified Bugs to Won't Fix by Miguel Gaeta on 2017-12-24T09:39:03.792Z
+
+
+### Archived by Alexandru Todea on 2018-01-20T09:22:15.653Z
+
+
+### Unarchived by Alexandru Todea on 2018-01-20T09:24:03.053Z
+
+
+### Archiving due to age and no activity. - Mike Nisbet on 2018-02-27T00:37:19.477Z
+
+
+### Archived by Mike Nisbet on 2018-02-27T00:37:20.798Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

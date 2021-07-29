@@ -1,0 +1,105 @@
+[Archived] In the desktop client, joining the voice channel which is set as the AFK channel on the server results in the message that you have been moved to the AFK channel, although you moved yourself. (https://trello.com/c/WnYpWxJK)
+
+P2: Fix can wait a while
+
+Created: 2017-03-02T12:24:05.085Z
+Latest Update: 2017-10-17T20:27:18.656Z
+
+Reported by Preston159#6030
+
+####Steps to reproduce: 
+- Join server with AFK channel 
+- Join AFK Channel 
+
+####Expected result:
+ User would be moved to channel and muted automatically, but not shown the dialog 
+####Actual result:
+ User is moved into channel and muted, but also shown dialog
+
+1835
+
+Card Log
+========
+### Added by Jared on 2017-03-02T12:24:05.085Z
+
+
+### Can reproduce.
+GalliumOS2.1, Discord Canary
+
+Ben Z.#1327 - Jared on 2017-03-02T12:24:06.347Z
+
+
+### Can reproduce.
+Windows 10 x64 Latest Canary Build
+
+Xelphos#7508 - Jared on 2017-03-02T12:24:07.972Z
+
+
+### Can reproduce.
+Win 8.1 & 10 x64 Canary
+
+MattBSG#9263 - Jared on 2017-03-02T12:24:11.506Z
+
+
+### 2017-03-02_03-12-33.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58b80ee54f86e2dd10e9f482/9d0e9f8d6d9fd3777493b188fd2cf181/2017-03-02_03-12-33.gif added by Jared on 2017-03-02T12:24:21.164Z
+
+
+### Can't reproduce.
+win 8.1 64bit canary 0.0.153
+
+LetsPlayNintendoITA#0167 - Jared on 2017-03-02T13:56:58.196Z
+
+
+### Can't reproduce.
+macOS 10.12.3 Discord Canary
+
+Harrison#9100 - Jared on 2017-03-02T14:28:06.126Z
+
+
+### Can reproduce.
+Can confirm that joining the afk channel directly sends up a notice. W10, Latest Canary (app-0.0.153)
+
+SuperSajuuk#7265 - Jared on 2017-03-02T14:30:11.228Z
+
+
+### If you can't reproduce the bug, you may have the dialog disabled.  On the bottom of the dialog is a link to disable the dialog in the future, and then it won't show up whether you moved yourself or were moved by the server.
+
+Preston159#6030 - Jared on 2017-03-02T17:00:29.509Z
+
+
+### Can reproduce.
+Windows 7 Home Premium, Discord Stable
+
+JoeZwet#1704 - Jared on 2017-03-03T07:05:29.572Z
+
+
+### Verified.  - Clayton on 2017-03-03T07:13:08.070Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-03-03T07:13:17.669Z
+
+
+### Can't reproduce.
+Win10 Canary x64
+
+tomGER#7462 - Jared on 2017-03-05T13:27:48.165Z
+
+
+### Cannot reproduce. Marking as Fixed. - Jared on 2017-07-31T22:12:18.588Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T22:12:22.273Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:27:17.340Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:27:18.658Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

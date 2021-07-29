@@ -1,0 +1,94 @@
+When you ban a people, he still appear in member list. (https://trello.com/c/zIdoNp9O)
+
+None
+
+Created: 2019-11-24T11:15:30.328Z
+Latest Update: 2020-07-16T21:26:05.745Z
+
+Reported by NeverCookFirst#5630
+
+####Steps to reproduce:
+- Go to the server when you can ban a people's. 
+- Connect to voice chat with anyone. 
+- Try to ban him.
+
+####Expected result:
+People had been ban and he left from member list.
+####Actual result:
+He still has been in member list.
+####Client settings:
+Canary stable: 50221
+####System settings:
+Windows 10 Pro x64
+
+48734
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-24T11:15:30.328Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 Home 1903 - Discord Canary 50225
+
+Niko#8828 - Bug Bot on 2019-11-24T11:15:38.065Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1909 - Canary 50225
+
+A1ex#8151 - Bug Bot on 2019-11-24T11:15:43.073Z
+
+
+### Can reproduce.
+Canary 50225 Windows 10 Home 1809 x64
+
+Warwick#9999 - Bug Bot on 2019-11-24T11:15:48.094Z
+
+
+### Jamalek#0025 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dda665259dcb9834c9a05d7/2058f991ebc21af2fc769b147fffbb96/W0Fmwi5.gif added by Bug Bot on 2019-11-24T11:15:57.624Z
+
+
+### Niko#8828 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dda665259dcb9834c9a05d7/554edb827332c54b4f597646cc0faca5/XHDdl9p71i.gif added by Bug Bot on 2019-11-24T11:16:03.533Z
+
+
+### Not a bug, the user is still cached in the server for a bit. (Why, doing this constantly updating cache will cause a lot more processing and networking)
+
+Alipoodle#5025 - Bug Bot on 2019-11-24T11:37:16.662Z
+
+
+### Extension of https://trello.com/c/uEtxRIi1
+
+Error 404#4040 - Bug Bot on 2019-11-24T14:40:19.553Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1903) - Discord Canary 50225
+
+Jamalek#0025 - Bug Bot on 2019-11-24T19:29:53.635Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro (1903), Discord Canary 50225
+
+TheRudeDude#6040 - Bug Bot on 2019-11-25T00:07:06.093Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1903 - Canary 50225
+
+Jcson#0001 - Bug Bot on 2019-11-25T03:03:11.644Z
+
+
+### Can reproduce.
+Canary 50225 Windows 10 Home 1809 x64
+
+Warwick#9999 - Bug Bot on 2019-11-25T11:58:22.002Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

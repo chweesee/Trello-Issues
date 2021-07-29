@@ -1,0 +1,84 @@
+[Archived] [Android 7+] [May not happen on Samsung devices with official OS] Splitting your screen while you're in channel settings will allow you to edit the fields regardless of your permissions (https://trello.com/c/JOWWyRTr)
+
+P3 - Will be fixed eventually,
+Low,
+Split Screen Bugs
+
+Created: 2018-04-27T13:26:22.458Z
+Latest Update: 2018-10-23T07:41:27.123Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a channel where you don't have permissions to edit channels 
+- Tap the three dots button next to the member list button 
+- Select Channel settings 
+- Long press the Recent Apps button to trigger split screen
+
+####Expected result:
+You shouldn't be able to edit the fields
+####Actual result:
+You can notice that the Discord UI now looks like you can edit the channel's name and topic. If you tap on one of the textfields, the UI will revert back to normal but the keyboard is still open so you can actually edit. Pressing save will show a toast "Missing Permissions" and will show the unsaved changes confirmation modal if you try to exit channel settings
+####Client settings:
+Discord Alpha 6.5.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+11411
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-27T13:26:22.458Z
+
+
+### Alex1304#9704 - https://youtu.be/cp1aLI-T5rs added by Bug Bot on 2018-04-27T13:26:25.187Z
+
+
+### Can reproduce.
+Can reproduce, Sony Xperia G3311, Android 7.0, Discord 6.5.6
+
+JoshuaTheAxew#8369 - Bug Bot on 2018-04-27T13:26:30.135Z
+
+
+### Can reproduce.
+K20 V Android 7.0, Discord alpha 6.5.8
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-04-27T13:26:35.116Z
+
+
+### Can reproduce.
+Asus Zenfone 3, Android 7.0, Discord Alpha 6.5.8
+
+Doges#0001 - Bug Bot on 2018-04-27T13:26:40.282Z
+
+
+### Verified.  - Clayton on 2018-04-27T23:25:47.921Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T23:25:54.308Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:58.034Z
+
+
+### Split screen bugs are unsupported - Tarek on 2018-09-08T00:24:17.455Z
+
+
+### Moved from Verified Bugs to Won't Fix by Tarek on 2018-09-08T00:24:24.825Z
+
+
+### Unarchived by Tarek on 2018-09-08T00:24:24.904Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than a month without any activity. - Ghoul on 2018-10-23T07:41:25.014Z
+
+
+### Archived by Ghoul on 2018-10-23T07:41:27.127Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

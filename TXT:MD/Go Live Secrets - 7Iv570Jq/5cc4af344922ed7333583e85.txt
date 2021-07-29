@@ -1,0 +1,56 @@
+Posting a stream invite in chat says that you are live even if someone else is live. (https://trello.com/c/m3vqhhJK)
+
+Investigating
+
+Created: 2019-04-27T19:36:20.587Z
+Latest Update: 2019-06-17T22:08:20.499Z
+
+**Steps to Reproduce:**
+1. Have someone go live in a server.
+2. Watch the stream.
+3. Make a stream invite by inviting through the popup in the Discord app.
+4. Post it in chat.
+
+**Expected Result:** The embed correctly says who's live.
+
+**Actual Result:** The embed says that you (the current user) is live.
+
+**Client Settings:** Canary 36526
+
+**System Settings:** Windows 10 Home x64 (1809)
+
+Card Log
+========
+### Added by Isabel Lomas on 2019-04-27T19:36:20.587Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5cc4af344922ed7333583e85/1ee44d81a913eeb07f4f8d2a5b616754/image.png added by Isabel Lomas on 2019-04-27T19:37:42.930Z
+
+
+### upload 4/27/2019 at 12:37:43 PM.png - undefined added by Isabel Lomas on 2019-04-27T19:37:43.108Z
+
+
+### Can reproduce,
+
+Windows 10 Home x64 (1809), Canary 36526 - TheForbiddenAi on 2019-04-27T19:42:08.859Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by webhp on 2019-04-27T19:53:06.045Z
+
+
+### Moved from Tested Bugs to Claimed Fixed, Needs Verification by Athena Yao on 2019-05-04T00:31:16.637Z
+
+
+### CNR.
+Windows 10 Home x64 - Canary 37458 - Ten on 2019-05-12T13:21:34.544Z
+
+
+### Moved from Claimed Fixed, Needs Verification to Verified Fixed by Ten on 2019-05-12T13:21:41.209Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,79 @@
+[Archived] If you close your lid while on Video call, it will disconnect and will not reconnect unless you leave and enter the call again (https://trello.com/c/hrMlsATh)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-06-21T21:48:44.120Z
+Latest Update: 2019-07-23T17:30:05.306Z
+
+Reported by myacorn#6534
+
+####Steps to reproduce:
+- Open a video call 
+- Do your thing 
+- Close the lid (sleep?) 
+- Wait a hot sec 
+- Open the lid 
+- Notice the ping indicator says: "RTC Disconnected" 
+- Wait for it to reconnect 
+- Patience is a virtue 
+- Good luck
+
+####Expected result:
+It should reconnect once it detects a connection
+####Actual result:
+It does not reconnect and you must leave and rejoin the call
+####Client settings:
+Web stable 40201
+####System settings:
+MacOS (10.12.6 Sierra)
+
+38075
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-21T21:48:44.120Z
+
+
+### Can reproduce.
+CR, Discord refused to reconnect without first leaving and re-joining the call - MacBook Pro (13" 2019), MacOS 10.14.5, Discord Build 40201
+
+maximd#1122 - Bug Bot on 2019-06-21T21:48:51.559Z
+
+
+### Can reproduce.
+Discord is not automatically reconnecting without leaving and joining. It happens when i leavr my pc idle until it starts sleeping. Windows 10 pro x64 16299.1127 40201
+
+TOXIC#6166 - Bug Bot on 2019-06-21T21:48:56.524Z
+
+
+### Can reproduce.
+CR , Dell Optiplex 5040 with Intel i3-6100 at 3.7 and Intel HD 530 running Discord for Chrome. , Canary 40201
+
+Kaden303#4560 - Bug Bot on 2019-06-21T21:49:01.632Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-06-21T22:48:23.615Z
+
+
+### Can reproduce.
+don't work first try Chtome Windows 10 Professional Canary 40271
+
+Typhoon#3514 - Bug Bot on 2019-06-22T10:37:23.649Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Web Canary 40273
+
+Jasοn#0001 - Bug Bot on 2019-06-23T17:14:14.749Z
+
+
+### Archived by Bug Bot on 2019-07-23T17:30:05.320Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,121 @@
+xdg-mime is ran multiple times every time Discord is ran causing CPU spikes (https://trello.com/c/hVc62EKW)
+
+P1: Severe,
+low
+
+Created: 2018-03-29T15:27:03.899Z
+Latest Update: 2020-07-15T13:45:36.248Z
+
+Reported by simonizor#2560
+
+####Steps to reproduce:
+- Start Discord 
+- Open a process monitor application and see xdg-mime being started with Discord many times
+
+####Expected result:
+Discord should not be calling xdg-mime to get default applications; xdg-open can be used for this
+####Actual result:
+Discord calls xdg-mime about a dozen times every time it is started, causing CPU spikes
+####Client settings:
+Discord Canary 0.0.45, build 12767
+####System settings:
+openSUSE Tumbleweed 20180326
+
+9946
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-29T15:27:03.899Z
+
+
+### simonizor#2560 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5abd05c7bd2ce64de2777db7/8b3a2a28e0de85187813c2be68aec4b3/cr287.png added by Bug Bot on 2018-03-29T15:27:07.123Z
+
+
+### Can reproduce.
+CR, Lubuntu 17.10 Canary Build 12767
+
+Kuuhaku#4503 - Bug Bot on 2018-03-29T15:27:11.228Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS x64, Canary build 12831
+
+NorbiPeti#1869 - Bug Bot on 2018-03-29T15:27:16.232Z
+
+
+### Can reproduce.
+CR, Ubuntu Studio 17.10 / Linux 4.13, Discord Canary 0.0.45 ( Build 12831 )
+
+Starshine Dust#2189 - Bug Bot on 2018-03-29T15:27:21.328Z
+
+
+### Can reproduce.
+Ubuntu MATE 17.10.1, Discord Stable 0.0.4
+
+VitalKanev#2348 - Bug Bot on 2018-03-30T11:19:15.463Z
+
+
+### Can't reproduce.
+Arch Linux 4.15 Discord Canary 13228
+
+Patton#5435 - Bug Bot on 2018-04-05T23:44:26.377Z
+
+
+### Can reproduce.
+Arch Linux 4.15.15 (64 bit), Discord Canary 0.0.45 (Build 13228)
+
+ManicRobot#3198 - Bug Bot on 2018-04-05T23:51:02.532Z
+
+
+### Can reproduce.
+Arch Linux 4.14.32-lts, Discord Canary 0.0.45 (Build 13313)
+
+E5ten#3510 - Bug Bot on 2018-04-08T20:12:25.786Z
+
+
+### Verified.  - Clayton on 2018-04-13T02:43:59.129Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-04-13T02:44:08.523Z
+
+
+### Can reproduce.
+Fedora 27 GNOME 3.26
+
+RoccoDev#2837 - Bug Bot on 2018-04-14T17:39:28.872Z
+
+
+### Unsetting the PATH directory so that Discord cannot start xdg-mime not only prevents this issue from happening, but does not effect game detection at all.  These calls seem like they can safely be completely removed as they do not seem to hurt the functionality of the app in any way when they cannot be made.
+
+simonizor#0420 - Bug Bot on 2018-04-19T02:09:43.844Z
+
+
+### Moved from Discord Verified Bugs to Serious Issues (Crashes, etc) by Jared on 2018-06-27T15:33:24.636Z
+
+
+### One of the consequence that I have noticed is that if you try to enter a voice chat, it stayed in RTC Connecting phase.
+
+We use xdg-mime to determine whether we can launch a game. - Jozsef Vass on 2018-07-06T22:09:53.757Z
+
+
+### We checked game launchability (using xdg-mime) for about 1100 games at startup. I reworked the code that it is done lazily. The issue should be fixed. - Jozsef Vass on 2018-07-06T22:11:49.275Z
+
+
+### Moved from Serious Issues (Crashes, etc) to Fix made, not yet released by Jozsef Vass on 2018-07-06T22:12:15.113Z
+
+
+### Available on canary, please test! - Jozsef Vass on 2018-07-06T22:27:11.577Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed by Jared on 2018-07-06T22:58:42.362Z
+
+
+### This is stable now, please test! - Jozsef Vass on 2018-07-10T17:34:37.795Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

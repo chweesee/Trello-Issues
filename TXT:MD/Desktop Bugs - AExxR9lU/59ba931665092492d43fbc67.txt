@@ -1,0 +1,80 @@
+[Archived] In rich embeds, very long links stretch the embed and block most of the message options button and the react button (https://trello.com/c/ij9dePrG)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-14T14:32:54.098Z
+Latest Update: 2018-10-22T20:15:50.855Z
+
+Reported by P4risAndStuff#7243
+
+####Steps to reproduce:
+- Send/view a message that has a rich embed in it with a very long link 
+- Notice how stretched the embed is, and how you can only click on the upper quarter/portion of the React button and Message Options button
+
+####Expected result:
+Line break (char break) at some point in the rich embed, and the React and Message Options buttons are fully clickable
+####Actual result:
+The embed is very stretched, and only the upper quarter/portion of the React and Message Options buttons are clickable
+####Client settings:
+Canary v0.0.163 (build number 4175)
+####System settings:
+Windows 10 Home (Creator's Update) x64
+
+4282
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-14T14:32:54.098Z
+
+
+### P4risAndStuff#7243 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59ba931665092492d43fbc67/0e06f4a07556c6ae96e98dc235a1ad68/DiscordCanary_2017-09-14_16-07-18.png added by Bug Bot on 2017-09-14T14:32:57.000Z
+
+
+### Can reproduce.
+CR -  Win 8 Canary v0.0.163
+
+Koen02#5408 - Bug Bot on 2017-09-14T14:33:01.680Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 4175) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-14T14:33:06.763Z
+
+
+### Can reproduce.
+CR - Canary 0.0.163  windows 10 x64 version 1703
+
+Jakob#6834 - Bug Bot on 2017-09-14T14:33:11.741Z
+
+
+### Can reproduce.
+Canary 0.0.163, Windows 8.1 Enterprise (64-bit)
+
+PhotonBurst#6983 - Bug Bot on 2017-09-14T14:33:53.386Z
+
+
+### Verified.  - Clayton on 2017-09-19T21:15:18.922Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T21:15:26.077Z
+
+
+### Can reproduce.
+Also happens with text, Discord Canary 0.0.154 (Build 5001), macOS High Sierra 10.13 (17A365) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-09-28T04:52:12.826Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59ba931665092492d43fbc67/02a878956f3f21bb91cb0100a9a7bdbc/Screen_Shot_2017-09-27_at_9.48.01_PM.png added by Bug Bot on 2017-09-28T04:52:25.168Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:50.858Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

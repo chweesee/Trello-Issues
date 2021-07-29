@@ -1,0 +1,96 @@
+[Archived] On browsers, switching to Push to Talk doesn't give you the "Hey, Just a Quick Heads" modal if you switch the setting through right clicking the User Settings icon. (https://trello.com/c/a1tXV2QW)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-01-19T04:42:48.676Z
+Latest Update: 2019-02-19T11:30:05.870Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Be on a supported web browser. 
+- Right click the User Settings icon. 
+- Hover over Voice & Video. 
+- Toggle the setting to Push to Talk. (modal should appear here.) 
+- Toggle to Voice Activity. 
+- Open User Settings. 
+- Click Voice & Video. 
+- Click "Push to Talk (Limited)." (the modal appears here.)
+
+####Expected result:
+The warning modal should appear on both instances of switching the setting.
+####Actual result:
+The warning modal only appears when switching the setting while in User Settings.
+####Client settings:
+Build 30818
+####System settings:
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave)
+
+26164
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-19T04:42:48.676Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS Mojave 10.14.2, Chrome Version 71.0.3578.98 - Canary Web Build 31048
+
+Pascal#0929 - Bug Bot on 2019-01-19T04:42:56.099Z
+
+
+### Can reproduce.
+MBP 13'' 2017, macOS 10.14.1 (Mojave), Chrome Version 72.0.3626.64 (Official Build) beta (64-bit), Canary Web 31082
+
+-Shadow-#9999 - Bug Bot on 2019-01-19T04:43:01.196Z
+
+
+### Can reproduce.
+macos 10.12.6, Chrome 71.0, Canary build 31048
+
+IcyPebbles#5833 - Bug Bot on 2019-01-19T04:43:06.168Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-19T04:58:09.696Z
+
+
+### Can reproduce.
+macos 10.14.3, canary 31048
+
+Lentralkestor#0404 - Bug Bot on 2019-01-19T06:39:46.335Z
+
+
+### Can reproduce.
+CR, MacOS 10.14.3, canary 31082
+
+Action Potential#4040 - Bug Bot on 2019-01-19T07:51:32.716Z
+
+
+### Can reproduce.
+- Windows 10 Pro x64 (1809) - Canary 31082 - Chrome 71.0
+
+Jengas#7777 - Bug Bot on 2019-01-19T10:38:55.023Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31082; Chrome 71.0.3578.98
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-19T13:32:14.703Z
+
+
+### Can reproduce.
+- Windows 10 Pro x64 (1809) - Canary 31113
+
+Jengas#7777 - Bug Bot on 2019-01-20T11:05:24.987Z
+
+
+### Archived by Bug Bot on 2019-02-19T11:30:05.885Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

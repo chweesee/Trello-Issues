@@ -1,0 +1,112 @@
+[Archived] Group DMs aren't listed in the Quick Switcher when invoking it from the friends list page (https://trello.com/c/MnHfAQoq)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-07-17T21:05:59.981Z
+Latest Update: 2019-05-02T22:30:28.361Z
+
+Reported by Tiemen#0107
+
+####Steps to reproduce:
+- Make sure you're part of a group DM 
+- Go to your friends list 
+- Invoke Quick Switcher via either Ctrl + K or Ctrl + T (or Cmd + K/Cmd + T if you're on macOS) 
+- Search for a group DM you're in
+
+####Expected result:
+The group DM is listed in the quick switcher
+####Actual result:
+The group DM is not listed in the quick switcher (while it IS shown, however, if you invoke the QS from a (group) DM or a server)
+####Client settings:
+Canary 0.0.158 (2301)
+####System settings:
+Windows 10 Pro x64 Creators Update (1703)
+
+2333
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-17T21:05:59.981Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/596d26b7b1883e22450aa92b/5bc9b3d4f73fbaa26e856c10d84ac3b9/2017-07-17_22-51-27.png added by Bug Bot on 2017-07-17T21:06:02.781Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/596d26b7b1883e22450aa92b/2c6b0303b4dfff8e430c1347e81424b9/2017-07-17_22-51-20.png added by Bug Bot on 2017-07-17T21:06:02.884Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/596d26b7b1883e22450aa92b/e20c850476b955619f92763e1dcbf01f/2017-07-17_22-53-37.png added by Bug Bot on 2017-07-17T21:06:03.022Z
+
+
+### Can reproduce.
+ Windows 7 Professional x64, Discord Stable 0.0.297
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-07-17T21:06:07.560Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (15063), Canary 0.0.158 (2301)
+
+mouse91#3089 - Bug Bot on 2017-07-17T21:06:12.452Z
+
+
+### Can reproduce.
+Shows up in my "last viewed", but searching doesn't yield a result.  Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.158 (build 2301)
+
+SuperSajuuk#7265 - Bug Bot on 2017-07-17T21:06:17.508Z
+
+
+### Verified.  - Clayton on 2017-07-19T19:50:15.790Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-19T19:50:26.012Z
+
+
+### Can still reproduce. Mid P2 - Jared on 2017-10-17T00:25:31.735Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:48:17.950Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:45:22.456Z
+
+
+### Cannot reproduce anymore on Canary 34858, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-02T22:22:27.326Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-04-02T22:22:31.607Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home x64 v1809, Canary 34858
+
+TheForbiddenAi#7549 - Bug Bot on 2019-04-02T22:26:32.584Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Discord Canary 34858
+
+Daffyduck#5364 - Bug Bot on 2019-04-02T22:28:13.643Z
+
+
+### Can't reproduce.
+CNR, Linux Mint 19.1 Tessa - Canary 34858
+
+Seikatsu#0001 - Bug Bot on 2019-04-02T22:29:41.734Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-04-02T22:29:41.943Z
+
+
+### Archived by Bug Bot on 2019-05-02T22:30:28.373Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

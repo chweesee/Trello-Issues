@@ -1,0 +1,82 @@
+[Archived] [4 & 4.7 inch - English] [Bigger sizes - other languages] Profil headers overlap itself or get cut off instead of getting wrapped when using font scaling (https://trello.com/c/1PvhMj9B)
+
+None
+
+Created: 2018-09-18T21:34:43.976Z
+Latest Update: 2018-10-22T21:19:48.297Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to your iOS settings 
+- Open Display & Brightness -> Text Size 
+- Change your size to the latest one (7th option) 
+- Go back to Discord 
+- If you are using a 5.5 inch & bigger device, change the language to one whose translations for the profile headers are longer than the English one (e.g. German or Dutch) 
+- Long hold a user and open the User Settings 
+- Observe the profile headers (Mutual servers, Mutual friends, ...)
+
+####Expected result:
+Profile headers should wrap when being too long (as it already happens when using non-scaled font size).
+####Actual result:
+They don't wrap und overlap itself or get cut off.
+####Client settings:
+TestFlight 2.3.8 (7233)
+####System settings:
+iPhone 8 Plus, iOS 12
+
+19812
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-18T21:34:43.976Z
+
+
+### 🌴nickWtn🌴#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ba16f73e71405296f1ede15/096eb5aa7a6bcae38806a0eb00a0bb80/TjbPbzD.jpg added by Bug Bot on 2018-09-18T21:34:46.642Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ba16f73e71405296f1ede15/1ba404f2265f60aca9834802427fd564/ioDDZa0.png added by Bug Bot on 2018-09-18T21:34:47.526Z
+
+
+### Can reproduce.
+Can reproduce the 4 inch screen version, iPod Touch 6th generation, iOS 12, TestFlight 2.3.8 (7233)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-09-18T21:34:51.534Z
+
+
+### Can reproduce.
+Can reproduce following the steps provided for phones larger than 4” - iPhone X - iOS 12 - Discord TestFlight 2.3.8 (7308)
+
+CustomName#9999 - Bug Bot on 2018-09-18T21:34:56.459Z
+
+
+### Can reproduce.
+Can reproduce on iPhone with larger screen. iPhone X, iOS 12 Golden Master, TestFlight 2.3.8 (7233)
+
+Alfie#1582 - Bug Bot on 2018-09-18T21:35:01.418Z
+
+
+### Confirmed with Victoria that this is not a valid bug. Resizing the text via the OS is not supported. - Jared on 2018-09-18T21:39:09.810Z
+
+
+### Moved from New Issues to Not a bug by Jared on 2018-09-18T21:39:20.117Z
+
+
+### Can reproduce.
+iPhone Xs | iOS 12 | TestFlight 2.3.8 (7233)
+
+despresso#0001 - Bug Bot on 2018-09-19T16:21:46.191Z
+
+
+### Archiving this ticket as it has been in Not a Bug for over a month without any activity. - Ghoul on 2018-10-22T21:19:46.314Z
+
+
+### Archived by Ghoul on 2018-10-22T21:19:48.300Z
+
+List
+====
+Not a bug
+
+Members
+=======
+None

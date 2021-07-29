@@ -1,0 +1,122 @@
+[Archived] Discord allows you to select more than 10 attachments then fails silently (https://trello.com/c/E56iPd82)
+
+P3 - Will be fixed eventually
+
+Created: 2019-02-09T08:33:12.181Z
+Latest Update: 2019-08-27T12:08:55.348Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+
+- Choose at least 11 photos from your camera roll as attachments for a message 
+- Make sure that the combined file size is less than your file size limit (8mb/50mb) 
+- Send the message with all the attachments 
+- Watch the progress bar as Discord goes through the upload process
+
+####Expected result:
+Discord shouldn’t allow you to select more than 10 attachments, or should tell you it failed to send
+####Actual result:
+Discord allows you to select more than 10 attachments and silently fails the message
+####Client settings:
+TestFlight 2.4.5 (11113)
+####System settings:
+iPhone 6s iOS 12.2 Dev Beta
+
+28426
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-09T08:33:12.181Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.3 Beta (16D5032a) - TestFlight 2.4.5 (11113)
+
+Isabel#0002 - Bug Bot on 2019-02-09T08:33:19.560Z
+
+
+### Can reproduce.
+Can reproduce, iPhone XR, iOS 12.1 , TestFlight 2.4.5 (11113)
+
+☃nickWtn☃#3789 - Bug Bot on 2019-02-09T08:33:24.502Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11113)
+
+Daffyduck#5364 - Bug Bot on 2019-02-09T08:33:29.491Z
+
+
+### Can reproduce.
+iPhone 7 - iOS 12.1.3 - Discord TestFlight 2.4.5 (11113)
+
+KolkiesDev#0001 - Bug Bot on 2019-02-09T09:57:39.145Z
+
+
+### Can reproduce.
+CR, iPad mini 3, iOS 12.2, discord stable
+
+Mano#4566 - Bug Bot on 2019-02-09T10:09:37.327Z
+
+
+### Can reproduce.
+Can reproduce iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11113)
+
+Solo#0007 - Bug Bot on 2019-02-09T13:30:00.320Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS 12.1.4, TestFlight 2.4.5 (11113) - Only happens when the size of all images you are trying to upload combined is below the file size limit (8 or 50 MB) - maybe related to https://trello.com/c/3YddbRHS
+
+Pascal#0929 - Bug Bot on 2019-02-10T19:39:26.909Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, tf 2.4.5 (11113)
+
+M24#0272 - Bug Bot on 2019-02-11T01:32:44.117Z
+
+
+### Can reproduce.
+iPad Air | iOS 12.1.3 | TF 2.4.5 (11113)
+
+charleskimbac#6492 - Bug Bot on 2019-02-11T02:03:20.897Z
+
+
+### Can reproduce.
+iPhone X - iOS 11.2 - Discord testFlight 2.4.5 (11113)
+
+CustomName#9999 - Bug Bot on 2019-02-11T15:22:27.398Z
+
+
+### Can reproduce.
+Iphone X ios 12 TestFlight 2.4.5
+
+Mr. Proper#2394 - Bug Bot on 2019-02-11T17:51:22.327Z
+
+
+### Can reproduce.
+iPad Air (iOS 12.1.4) - TestFlight 2.4.5 (11113)
+
+gianna#0248 - Bug Bot on 2019-02-14T10:15:05.841Z
+
+
+### Can reproduce.
+iPhone 7 Plus 12.1 (16B92) ~ TestFlight 2.4.5 (11113
+
+Killtracity#0001 - Bug Bot on 2019-02-15T13:04:35.564Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-02-22T19:00:06.489Z
+
+
+### Archived by Bug Bot on 2019-03-24T19:30:04.558Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

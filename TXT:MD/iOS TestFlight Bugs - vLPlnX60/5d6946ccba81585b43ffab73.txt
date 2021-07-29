@@ -1,0 +1,92 @@
+[Archived] Swiping left through a user action sheet in any server until you find the element labeled "close action sheet" with voiceover closes the sheet automatically (https://trello.com/c/SXFo8frB)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-08-30T15:54:52.194Z
+Latest Update: 2019-11-09T03:00:02.958Z
+
+Reported by Gar#1865
+
+####Steps to reproduce:
+- Enable voiceover on your IOS device. 
+- Open Discord 
+- Navigate to any channel in a server. 
+- Find any message, doublt tap and hold on the message until the action sheet appears 
+- Place your finger on the mention button 
+- Swipe left until you hear "close action sheet, button."
+
+####Expected result:
+The action sheet should remain open until you actually double tap the close action sheet element.
+####Actual result:
+The action sheet closes almost as soon as voiceover finds that element. However there is a delay of a few seconds before voiceover detects the action sheet has been closed.
+####Client settings:
+Discord 3.1.1 official release
+####System settings:
+Ipad (6th Generation) IOS 13.0.1 public beta 1
+
+43112
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-30T15:54:52.194Z
+
+
+### Can reproduce.
+CR iPhone XR iOS 12.4 TestFlight 3.1.1 (16961)
+
+binchlord#0998 - Bug Bot on 2019-08-30T15:54:59.786Z
+
+
+### Can reproduce.
+CR (Can Reproduce) • iPhone 6s & iPhone 8 • TestFlight 3.1.1 (16961)
+
+ϻߪᅗ ғяєιιк 🎲#3662 - Bug Bot on 2019-08-30T15:55:04.827Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.1 (16961)
+
+Jeffrey#1234 - Bug Bot on 2019-08-30T15:55:09.809Z
+
+
+### Can reproduce.
+iPhone X, iOS 13 - Testflight 3.1.1
+
+Hagen#0001 - Bug Bot on 2019-08-30T17:16:37.396Z
+
+
+### Can reproduce.
+iPhone X, iOS 13.1 (dev beta) - Testflight 3.1.2 (17133)
+
+Xylium#5800 - Bug Bot on 2019-08-31T02:20:39.325Z
+
+
+### Can reproduce.
+Can Reproduce, iPhone XS x iOS 12.3.1 x Discord TestFlight 3.1.2 (17133)
+
+Error 404#4040 - Bug Bot on 2019-08-31T05:29:50.668Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-09-06T19:00:02.795Z
+
+
+### same behavior occurs with the new vc menu TF 3.1.2 (17237)
+
+binchlord#0998 - Bug Bot on 2019-09-17T12:11:06.091Z
+
+
+### also occurs on the scanning for friends page and the new add friend action sheet (TF 3.1.5)
+
+binchlord#0998 - Bug Bot on 2019-10-10T02:44:47.646Z
+
+
+### Archived by Bug Bot on 2019-11-09T03:00:02.970Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

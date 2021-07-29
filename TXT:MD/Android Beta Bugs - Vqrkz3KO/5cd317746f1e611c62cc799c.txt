@@ -1,0 +1,72 @@
+[Archived] Rotating screen to Landscape and then back to Portrait will cause the app to keep the Landscape mode UI layout [Samsung Android 6 specific] (https://trello.com/c/xWFUAys3)
+
+None
+
+Created: 2019-05-08T17:52:52.803Z
+Latest Update: 2019-06-10T20:37:03.628Z
+
+Reported by Krobo#4784
+
+####Steps to reproduce:
+- Log out of discord 
+- on the login screen flip to landscape 
+- Switch back to potrait mode and observe
+
+####Expected result:
+Login screen should appear normal
+####Actual result:
+Login screen is cramped And pushed to the right. Note this bug also occurs on the server selector width and Profile name positioning. This is as the landscape UI is  kept despite being in portait mode.
+####Client settings:
+Android alpha 8.9.1
+####System settings:
+Samsung Galaxy S5 Android 6.0.1
+
+34222
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-08T17:52:52.803Z
+
+
+### Krobo#4784 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5cd317746f1e611c62cc799c/1bb8db8416572cdf88f9b333972fc211/Screenshot_2019-05-08-16-47-28.png added by Bug Bot on 2019-05-08T17:52:57.081Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S5, Android 6.0.1, Discord alpha 8.9.1
+
+Alex321#4640 - Bug Bot on 2019-05-08T17:53:00.144Z
+
+
+### Can reproduce.
+Samsung Galaxy J2 (2016) - Android 6.0.1, Discord 8.9.1
+
+Ajith#9501 - Bug Bot on 2019-05-08T17:53:05.159Z
+
+
+### Can reproduce.
+Can reproduce, I brought back my old phone in order to test this bug, as it is Android 6 + samsung. Samsung Galaxy S5 Mini SM-G800F, Android 6.0.1, Discord Alpha 6.9.1
+
+Alex1304#9704 - Bug Bot on 2019-05-08T17:53:10.166Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2017 Android 8.1.0, Discord Alpha 8.9.1
+
+VALENTIN#6458 - Bug Bot on 2019-05-08T17:57:45.031Z
+
+
+### Can't reproduce.
+Xiaomi Mi A2 Lite - Android 9.0.0 - Discord Alpha 8.9.3
+
+ImOmar#0208 - Bug Bot on 2019-05-10T19:30:54.298Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:37:03.640Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

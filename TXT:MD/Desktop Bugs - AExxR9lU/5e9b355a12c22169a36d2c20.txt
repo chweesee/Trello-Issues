@@ -1,0 +1,65 @@
+The server video permission string is not updated in the audit log (https://trello.com/c/2Uky3Hgm)
+
+None
+
+Created: 2020-04-18T17:14:06.579Z
+Latest Update: 2020-07-16T21:26:06.256Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:
+- Toggle the video permission of a role 
+- Visit the audit log and view the recent change
+
+####Expected result:
+The permission acted upon would be "Video"
+####Actual result:
+The permission acted upon is still "Go Live"
+####Client settings:
+Discord Canary 58468 ~ Host 0.0.248
+####System settings:
+MacBook Pro: macOS Catalina 10.15.4
+
+54837
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-18T17:14:06.579Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Version 1909, Desktop Canary 58468
+
+Ana940#9858 - Bug Bot on 2020-04-18T17:14:16.712Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit (1909), Desktop Canary 58468
+
+EzZz#0001 - Bug Bot on 2020-04-18T17:14:21.903Z
+
+
+### Can reproduce.
+Could reproduce, macOS 10.15.5, Canary 58468
+
+Action Potential#2655 - Bug Bot on 2020-04-18T17:14:26.742Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909 (10.0.18363), Canary 58468 host 0.0.264
+
+Jean20B#4668 - Bug Bot on 2020-04-19T12:18:03.263Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Canary 58505 Host 0.0.264
+
+SSalt#5041 - Bug Bot on 2020-04-19T22:51:59.473Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,84 @@
+[Archived] Trying to add a reaction to someone that blocked you increases the number until you switch channels (https://trello.com/c/EuHdVE8P)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-24T09:54:43.431Z
+Latest Update: 2018-10-22T20:19:07.525Z
+
+Reported by » a r i a#1593
+
+####Steps to reproduce:
+- get someone to block you (not telling you how) 
+- get them to post something and let others react to it 
+- try to click on one of those reactions to add it 
+- watch the screen shake violently as it fails (intended behaviour) 
+- watch the counter still increase
+
+####Expected result:
+counter increases, screen shakes, counter decreases
+####Actual result:
+screen shakes, counter increases, reaction part goes back to grey, counter stays increased till you switch channels
+####Client settings:
+Canary Build Number: 12458 (Version Hash: 4f025e8cb73bcf974271cf01f4ecce62a4e0cec0)
+####System settings:
+Windows 10 Pro x64
+
+9819
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-24T09:54:43.431Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ab620634d9c4d47b7b81221/9b1c5dc70992b3b33d8b504be52f7749/295dbb.png added by Bug Bot on 2018-03-24T09:54:46.056Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ab620634d9c4d47b7b81221/210844356dc3f2a6ce1970a2eaea8f87/58f64a.png added by Bug Bot on 2018-03-24T09:54:46.265Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Canary Build 12458
+
+Mas#0001 - Bug Bot on 2018-03-24T09:54:50.959Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 12608 -- Isn't 100% consistent, sometimes the counter goes back down
+
+mrkirby153#7840 - Bug Bot on 2018-03-24T09:54:55.895Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (Build 12608), Windows 10 Education x64 1709 (Build 16299.248)
+
+OminousCry#2331 - Bug Bot on 2018-03-24T09:55:00.918Z
+
+
+### Can't reproduce.
+windows 10 home 10.0.16299 build 16299,[BUILD INFO] Release Channel: stable, Build Number: 12477, Version Hash: cb279a736d88664e6a0eb25a08413306438dfe97 Just works as intended
+
+MoonlightCapital#0554 - Bug Bot on 2018-03-29T07:07:55.957Z
+
+
+### Can reproduce.
+windows 10 home 10.0.16299 build 16299, [BUILD INFO] Release Channel: canary, Build Number: 12831, Version Hash: b15aee4272e632b9cbaf659a0498df779a1a65fe
+
+MoonlightCapital#0554 - Bug Bot on 2018-03-29T07:11:04.157Z
+
+
+### Verified.  - Clayton on 2018-04-03T20:36:06.094Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-03T20:36:11.063Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:07.527Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,100 @@
+[Archived] [Reduced Motion] [Browser] Copy and Open link are removed from the Discord Context Menu (https://trello.com/c/FAyoejJL)
+
+None
+
+Created: 2020-03-14T06:57:03.137Z
+Latest Update: 2020-04-16T21:30:40.335Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Paste a link in chat 
+- Right click with Override on Client 
+- Notice the "Copy Link" and "Open Link" 
+- Right click with Override on Browser 
+- Notice the lack of "Copy Link" and "Open Link"
+
+####Expected result:
+Copy and Open link are present on Browser
+####Actual result:
+They are missing.
+####Client settings:
+Canary 55934 (33ebf2e)
+####System settings:
+Win10 64x (1903) Chrome/80.0.3987.132
+
+53412
+
+Card Log
+========
+### Added by Bug Bot on 2020-03-14T06:57:03.137Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.3; Discord Web Canary 55934 on Google Chrome 80.0.3987.132
+
+Jiralite#1207 - Bug Bot on 2020-03-14T06:57:10.770Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Web Canary 55934 Mozilla Firefox 74.0 (64-bit)
+
+SSalt#5041 - Bug Bot on 2020-03-14T06:57:15.775Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909 (10.0.18363), Chrome 80.0.3987.132, Canary 55934 reduced-motion
+
+Jean20B#4668 - Bug Bot on 2020-03-14T06:57:20.699Z
+
+
+### Moved from User Reported Bugs to Reduced Motion by Daffyduck on 2020-03-15T04:01:09.264Z
+
+
+### Moved from Reduced Motion to Claimed Fixed, needs Verification by Jon Egeland on 2020-03-17T07:00:05.328Z
+
+
+### Bug came from an attempt at using our custom context menu in the browser. For this branch, we're reverting back to use the browser's native context menu as it was before to limit changing surfaces. - Jon Egeland on 2020-03-17T07:00:57.937Z
+
+
+### Can't reproduce.
+cannot repro anymore 53412 reduced motion override 56106 on MacBook Air - MacOS (10.12.6 Sierra)
+
+myacorn#6534 - Bug Bot on 2020-03-17T09:05:43.912Z
+
+
+### Can't reproduce.
+Approving intended behaviour commented below. MacBook Pro: macOS Catalina 10.15.3; Discord Canary 56106
+
+Jiralite#1207 - Bug Bot on 2020-03-17T10:05:37.543Z
+
+
+### Can't reproduce.
+CNLR and returned to browser default Context menu. Win10 64x 1809 - Discord Canary 56106 (9442df4) - Chrome/80.0.3987.132
+
+Alipoodle#5025 - Bug Bot on 2020-03-17T10:32:54.655Z
+
+
+### My approval was on Google Chrome 80.0.3987.132 (Discord Web Canary)
+
+Jiralite#1207 - Bug Bot on 2020-03-17T10:36:22.880Z
+
+
+### Can't reproduce.
+CNLR, stable 56109 (reduced motion override), Win10 v1709 x64 build 16299.1625 Education, chrome dev 82.0.4062.3 as browser context menu has been reverted to native rightclick context menu
+
+hopeless#1227 - Bug Bot on 2020-03-17T21:13:49.062Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2020-03-17T21:13:49.493Z
+
+
+### Archived by Bug Bot on 2020-04-16T21:30:40.343Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

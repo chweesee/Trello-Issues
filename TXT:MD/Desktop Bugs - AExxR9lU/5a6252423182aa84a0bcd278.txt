@@ -1,0 +1,82 @@
+[Archived] Rich Embeds from Bots with long single word footers/author names/title are cut off. (https://trello.com/c/NF0uDqxw)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-19T20:17:06.651Z
+Latest Update: 2019-10-23T23:03:51.857Z
+
+Reported by UrzaKeFrostgard#5431
+
+####Steps to reproduce:Create a Bot 
+- Create a Rich Embed builder 
+- Add a very long single word to either the footer or the author name 
+- let the Bot post the embed.
+
+####Expected result:
+The embed should stretch accordingly to the word size/based on the size of the discord window  or atleast flow to a new line like the rest.
+####Actual result:
+The embed's footer/author name is cut off.
+####Client settings:
+Stable 0.0.300 - Version 9672
+####System settings:
+Win10 Pro x64
+
+7959
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-19T20:17:06.651Z
+
+
+### AEnterprise#4693 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a6252423182aa84a0bcd278/c5d43bb3903f35094b93ac8625ac6ef9/unknown.png added by Bug Bot on 2018-01-19T20:17:09.186Z
+
+
+### Can reproduce.
+CR Windows 10 1709 x64, Canary build 9670
+
+AEnterprise#4693 - Bug Bot on 2018-01-19T20:17:14.088Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Version 1709), Discord Canary (Build 9670)
+
+saber#7368 - Bug Bot on 2018-01-19T20:17:19.093Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 9670
+
+» a r i a#1593 - Bug Bot on 2018-01-19T20:17:24.063Z
+
+
+### Verified.  - Clayton on 2018-01-25T22:52:37.373Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-25T22:52:40.322Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:07.148Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803 canary, Build Number: 30945
+
+Spooker#0001 - Bug Bot on 2019-01-17T22:32:29.572Z
+
+
+### Spooker#0001 - https://youtu.be/DBf64Q9I2g8 added by Bug Bot on 2019-01-17T22:33:32.212Z
+
+
+### Unarchived by Bug Bot on 2019-01-17T23:02:09.853Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:51.870Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,74 @@
+[Archived] If watching a Twitch clip fullscreen and the link is deleted it messes up the client (https://trello.com/c/KogtOvew)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-02-12T01:42:01.013Z
+Latest Update: 2018-11-09T05:22:01.533Z
+
+Reported by Lewis#7087
+
+####Steps to reproduce:
+- Get someone/yourself to post a link to a Twitch clip 
+- Open in embed and go fullscreen 
+- Get someone else to delete it 
+- Observe
+
+####Expected result:
+You should be able to watch the clip (such as a YT embed) or it should close
+####Actual result:
+Clip closes and you return to a messed up Discord client
+####Client settings:
+Canary 0.0.202, Build 10549
+####System settings:
+Win 10 Pro x64 (1709)
+
+8693
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-12T01:42:01.013Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a80f0e86cfaa03455322b9f/b04062c44d7ce3039ddee4aaeb8b9ebc/broken.PNG added by Bug Bot on 2018-02-12T01:42:03.849Z
+
+
+### Can reproduce.
+CR Stable 10394 and Canary 10549 Win10 x64 It's like Discord is stuck to fullscreen mode until reload
+
+cutelilberry#5423 - Bug Bot on 2018-02-12T01:42:08.647Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10549, It immediately breaks the message box and if you click on the friends icon it then breaks the server list.
+
+webhp#1337 - Bug Bot on 2018-02-12T01:42:13.654Z
+
+
+### Can reproduce.
+CR, Windows 7 Professional x64, Discord Canary Build 10557. It looked like it did nothing for me until I minimized the window then opened it again then it looked like everything was moved upwards.
+
+Ghoul#0009 - Bug Bot on 2018-02-12T01:42:18.639Z
+
+
+### Verified.  - Clayton on 2018-02-15T23:21:41.988Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T23:21:46.545Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:25.580Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803 x64, Discord Stable b27701 & PTB b27701 (canary unaffected), Tested with Twitch clips and Twitter videos, Client loses top/bottom status bar margins and chat box. Also, hitting ESC blanks most of the client.
+
+stere0123#8737 - Bug Bot on 2018-11-09T05:22:01.534Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

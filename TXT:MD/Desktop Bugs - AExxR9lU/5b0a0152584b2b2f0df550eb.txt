@@ -1,0 +1,66 @@
+[Archived] Unlike `invalid-channel`, the string `invalid-user` isn't available in other languages than English. (https://trello.com/c/B1mLhNx3)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-27T00:52:34.325Z
+Latest Update: 2018-10-22T20:21:31.325Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- This bug technically affects all clients since it's about missing string exports on Crowdin, but the bug is only observable on Android because of https://trello. com/c/2BskgKam/ 
+- Make sure you're using a language different than English 
+- Find an invalid channel mention. Notice it's translated 
+- Find an invalid user mention. Notice it isn't translated 
+- You can also go to Crowdin and notice that `invalid-channel` is present but not `invalid-user`
+
+####Expected result:
+Both `invalid-channel` and `invalid-user` should be exported to Crowdin so they are available for all languages
+####Actual result:
+Only `invalid-channel` is exported, which is inconsistent because both strings are used in the same context (aka invalid mentions)
+####Client settings:
+Discord Alpha 6.8.1 (affects all clients)
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13427
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-27T00:52:34.325Z
+
+
+### Can reproduce.
+Able to Reproduce on an Android Platform (yes this is a cross-platform bug as stated by the reporter); Samsung Galaxy A3 2017; Android 7.0; Discord Alpha 6.8.1 (681).
+
+Costpap#2158 - Bug Bot on 2018-05-27T00:52:42.228Z
+
+
+### Can reproduce.
+Can Reproduce, Xioami Mi Ai, Android 8.0.0 -- Discord Alpha 6.8.1
+
+Ori#1908 - Bug Bot on 2018-05-27T00:52:47.757Z
+
+
+### Can reproduce.
+Can reproduce | Oppo R11s, ColorOS 3.2, Android 7.1.1 (Nougat), Discord Alpha 6.8.1
+
+Cairo#2098 - Bug Bot on 2018-05-27T00:52:52.991Z
+
+
+### Verified, macOS 10.12.6, Canary 16167 - Clayton on 2018-05-30T00:45:50.491Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-30T00:45:58.983Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:31.327Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

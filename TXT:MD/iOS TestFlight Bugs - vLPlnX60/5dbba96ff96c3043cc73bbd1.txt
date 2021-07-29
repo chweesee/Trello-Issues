@@ -1,0 +1,79 @@
+[Archived] [iOS/iPadOS 13.x] Using a mouse scroll-wheel to scroll through a channel’s message history is reversed compared to the iOS default and other parts of the Discord app on iOS (https://trello.com/c/v1guBtsz)
+
+P3 - Will be fixed eventually
+
+Created: 2019-11-01T03:41:35.405Z
+Latest Update: 2020-04-26T19:00:02.430Z
+
+Reported by Grine_#9440
+
+####Steps to reproduce:
+- Pair a mouse with a scroll wheel to your iPad Pro over Bluetooth (options are under Accessibility > Assistive Touch) 
+- Launch the Discord app 
+- Navigate to a channel on a server with enough channels that scrolling through the channel list is possible 
+- Use the mouse wheel to scroll through the list; notice that when you push the top of the scroll wheel away from you, you scroll down (this is the iOS default) 
+- Use the mouse wheel to scroll through the message history in the channel
+
+####Expected result:
+Scrolling in all areas of the app should behave identically and match the iOS default (pushing the top of the scroll wheel away from you should scroll down)
+####Actual result:
+Scrolling is reversed; pushing the top of the scroll wheel away from you scrolls up, which is the opposite of the behaviour in the channel list and other pages and is not the iOS default
+####Client settings:
+TestFlight 3.1.4 (17524)
+####System settings:
+iPad Pro 12.9” 64GB (2018), iPadOS 13.1.2, Logitech Triathlon M720 connected over Bluetooth
+
+45079
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-01T03:41:35.405Z
+
+
+### Can reproduce.
+iPad Pro (11-inch), iPadOS 13.1.2 - TestFlight 3.1.4 (17575)
+
+Pascal#0929 - Bug Bot on 2019-11-01T03:41:43.142Z
+
+
+### Can reproduce.
+Could reproduce on an iPad Pro 3rd Generation, iPadOS 13.1.2, TestFlight 3.1.4 (17575)
+
+Action Potential#6862 - Bug Bot on 2019-11-01T03:41:48.174Z
+
+
+### Can reproduce.
+can reproduce iphone 6s , ios 12.4 , Discord TestFlight 3.1.6 (17924)
+
+ParimalPlayz | ℓινє fℓαмє🔥#0001 - Bug Bot on 2019-11-01T03:41:53.135Z
+
+
+### same behavior occurs while scrolling with iOS voiceover
+
+binchlord#0998 - Bug Bot on 2019-11-01T11:57:58.047Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-11-08T19:00:03.999Z
+
+
+### Archived by Bug Bot on 2019-12-08T19:30:03.159Z
+
+
+### Can reproduce.
+Can reproduce via VoiceOver again. iPhone 7: iOS 13.4; TestFlight 15.0 (19408)
+
+Jiralite#1207 - Bug Bot on 2020-03-27T18:06:23.380Z
+
+
+### Unarchived by Bug Bot on 2020-03-27T18:30:05.647Z
+
+
+### Archived by Bug Bot on 2020-04-26T19:00:02.445Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

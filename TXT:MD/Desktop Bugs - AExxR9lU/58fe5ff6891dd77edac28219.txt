@@ -1,0 +1,70 @@
+[Archived] Able to get back into message box and edit it (channel-textarea-inner in CTRL+Shift+I) while the send file gui (modal-container same thing in inspect element ) is open (https://trello.com/c/OpZz1BUG)
+
+None
+
+Created: 2017-04-24T20:28:38.645Z
+Latest Update: 2017-10-17T21:08:30.285Z
+
+Reported by Lucas#1135
+
+####Steps to reproduce: 
+- Step 1: Type something into the channel message box but dont send it 
+- Step 2: Drag and drop or select an image from discords uploader (Dont send it) 
+- Step 3: Press CTRL+Z while in the gui and it should bring you back to the message box without closing the uploader gui etc 
+
+####Expected result:
+ Shouldn't go back to channel message box 
+####Actual result:
+ Goes back into the channel message box  
+####System settings:
+ Windows 10 Creators Update x64, Latest stable discord for windows.
+
+1204
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-24T20:28:38.645Z
+
+
+### Can reproduce.
+macOS Sierra, latest canary
+
+Francis#6565 - Bug Bot on 2017-04-24T20:28:39.293Z
+
+
+### Can reproduce.
+Windows 10 Enterprise LTSB x64 - Latest Discord Canary
+
+Seriel#0757 - Bug Bot on 2017-04-24T20:28:41.196Z
+
+
+### Can reproduce.
+Windows 10 Creators Update x64 Discord Canary
+
+DeJay#8746 - Bug Bot on 2017-04-24T20:28:43.310Z
+
+
+### https://youtu.be/j0HdpRNNwlw - https://youtu.be/j0HdpRNNwlw added by Bug Bot on 2017-04-24T20:28:54.190Z
+
+
+### UGjFz70.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58fe5ff6891dd77edac28219/173911a95c94a615541925b3bfc9e7da/UGjFz70.png added by Bug Bot on 2017-04-24T20:28:54.629Z
+
+
+### This isn't a bug. Having one screen pop open doesn't disable the screens below it. And you don't want it to either. You'd miss all of your notifications, have to refresh the client to get the messages missed while the screen was up, etc etc. - Jared on 2017-04-25T18:31:56.559Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2017-04-25T18:32:00.519Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:08:29.526Z
+
+
+### Archived by Jared on 2017-10-17T21:08:30.288Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

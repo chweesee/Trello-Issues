@@ -1,0 +1,137 @@
+[Archived] Editing a message with bad strikethrough and another formatting to its correct format will mess the shown message (https://trello.com/c/RA1IgEOy)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2017-11-11T17:54:00.033Z
+Latest Update: 2018-10-04T01:16:38.695Z
+
+Reported by [TRED] AlFas#2783
+
+####Steps to reproduce:
+- Send a message with strikethrough and at least one other formatting with a \` character on the strikethrough instead of \~ (\~\`\*example\*\~\~) 
+- Edit the message and replace the \` character with the \~ character to produce normal strikethrough
+
+####Expected result:
+The message is edited properly and the client shows the edited message normally
+####Actual result:
+The edited message will appear twice, once without the strikethrough and the proper edited form right next to it (For the previous example: *example~~example~~*) - Note that the message itself is properly stored on the server and it is being displayed normally on other devices, this is a local client bug
+####Client settings:
+Discord Canary 0.0.173
+####System settings:
+Windows 10 x64
+
+6305
+
+---
+[Elegantt data. What's this?](http://bit.ly/elegantt-for-trello-whats-this)
+[](Elegantt_data:dont_delete{"ignored":false,"autoPlanned":false,"ownerId":false,"dependencies":[]})
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-11T17:54:00.033Z
+
+
+### Can reproduce.
+CR, Windows 8.1 x86, Discord Canary build 7190
+
+DokaDoka#8094 - Bug Bot on 2017-11-11T17:54:07.479Z
+
+
+### Can reproduce.
+CR, Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits, Discord Canary 0.0.29. When viewing the message on another device it displays fine though
+
+Alex1304#9704 - Bug Bot on 2017-11-11T17:54:12.447Z
+
+
+### Can reproduce.
+Win10 Pro, Version 1703, 64-bit, x64, Release Channel: canary, Build Number: 7190
+
+Senhara#5373 - Bug Bot on 2017-11-11T17:54:17.456Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x32 SP1
+
+[-TM-] TechyMan#3862 - Bug Bot on 2017-11-14T18:30:21.494Z
+
+
+### Can reproduce.
+macOS Sierra version 10.12.6
+
+Toghrahkunok#3308 - Bug Bot on 2017-11-14T23:13:40.317Z
+
+
+### Verified.  - Clayton on 2017-11-15T00:09:57.569Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-15T00:10:01.297Z
+
+
+### Cannot reproduce. Appears to be fixed. Marking as Such. - Jared on 2018-03-22T21:43:16.196Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-22T21:43:20.312Z
+
+
+### I can still reproduce this on Windows 10 Pro 64-bit (1709), canary 12603.
+
+I followed the instructions in this ticket and could reproduce, reopening ticket. - Tarek on 2018-03-24T02:45:10.106Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2018-03-24T02:45:13.807Z
+
+
+### Can reproduce.
+Win10 Pro x64; Manjaro x64; Ubuntu 16.04.3 LTS GNOME (all canary 14281) (only occurs if lines start with inline codeblock, and codeblock contains opening/closing parenthesis)
+
+Nekoeon#6820 - Bug Bot on 2018-04-28T22:21:50.163Z
+
+
+### Verified Fixed - Jared on 2018-07-11T19:42:48.559Z
+
+
+### Moved from Reopened to Verified Fixed by Jared on 2018-07-11T19:42:51.882Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Update: 1803 (17134.22)
+
+ItzBHT#4397 - Bug Bot on 2018-08-21T20:45:17.644Z
+
+
+### Can't reproduce.
+iPhone 5s, iOS 12 Beta 7
+
+ItzBHT#4397 - Bug Bot on 2018-08-21T20:53:10.676Z
+
+
+### can still reproduce using
+``` ~`*example*~~```
+and editing to 
+``` ~~*example*~~```
+windows 10, canary build 23212
+moving to re-opened - Tim on 2018-09-07T09:23:50.248Z
+
+
+### Moved from Verified Fixed to Reopened by Tim on 2018-09-07T09:24:05.470Z
+
+
+### Can reproduce.
+windows 8.1, stable, build 23837 https://imgur.com/a/x6bCaR3
+
+Superninjaboss#1191 - Bug Bot on 2018-09-17T12:00:08.016Z
+
+
+### Duplicate of https://trello.com/c/Nnkj5D0W - Clayton on 2018-10-04T01:16:32.611Z
+
+
+### Archived by Clayton on 2018-10-04T01:16:38.697Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

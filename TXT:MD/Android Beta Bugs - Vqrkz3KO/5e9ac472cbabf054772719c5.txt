@@ -1,0 +1,56 @@
+Mentions appear as @invalid-user if suppressed by allowedmentions field (https://trello.com/c/7fsR3e9y)
+
+None
+
+Created: 2020-04-18T09:12:18.824Z
+Latest Update: 2020-07-16T05:46:30.514Z
+
+Reported by Ry#3050
+
+####Steps to reproduce:
+- Send a message containing a user mention, suppress the mention with allowedmentions
+
+- CURL command: `curl -X POST -H "Authorization: Bot ..." -H "Content-Type: application/json" -d "{\"content\":\"<@...>\",\"allowed_mentions\":{\"users\":[]}}" ` substitute bot token, user ID, and channel ID with applicable values
+
+- Mention will appear as @invalid-user on Android
+
+####Expected result:
+Message should contain a mention for the user
+####Actual result:
+Message contains a @invalid-user mention
+####Client settings:
+11.8 (1050)
+####System settings:
+OnePlus 5T, OxygenOS 9.0.10
+
+54816
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-18T09:12:18.824Z
+
+
+### Can reproduce.
+CR, Moto G7, Android 9, Discord 18.0-Alpha7 (1098)
+
+wakfi#6999 - Bug Bot on 2020-04-18T09:12:26.566Z
+
+
+### Can reproduce.
+Could reproduce - the mention appears as @ invalid-user and is yellow-highlighted whereas it resolves to the username without highlight on pc - 18.0-a10 - OnePlus 5T - Android 9.0.0 (OxygenOS)
+
+aosync#3115 - Bug Bot on 2020-04-18T09:12:31.364Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha7 (1098)
+
+Ana940#9858 - Bug Bot on 2020-04-18T09:12:36.498Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

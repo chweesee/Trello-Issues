@@ -1,0 +1,54 @@
+Saving server descriptions that include line breaks traps the user (https://trello.com/c/bR4yU4B9)
+
+None
+
+Created: 2020-04-15T15:43:59.032Z
+Latest Update: 2020-07-16T21:26:06.243Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:
+- Navigate to your server settings to edit your server description 
+- Enter some text with some lines breaks 
+- Click save
+
+####Expected result:
+Discord successfully saves.
+####Actual result:
+Discord saves the server description, removing any line breaks. Presumably it detects changes from the input field and the current server description, making the user stuck and still prompting the unsaved changes popup.
+####Client settings:
+Discord Canary 54393
+####System settings:
+MacBook Pro: macOS Catalina 10.15.3
+
+52585
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-15T15:43:59.032Z
+
+
+### Can reproduce.
+Canary 54453 (5d7b236), Host 0.0.261, Windows 10 64-Bit (10.0.17763)
+
+Casper#8682 - Bug Bot on 2020-04-15T15:44:06.621Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 58100 (26efe4c)
+
+Alipoodle#5025 - Bug Bot on 2020-04-15T15:44:11.564Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Version 1909, Desktop Canary 58100
+
+Ana940#9858 - Bug Bot on 2020-04-15T15:44:17.140Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

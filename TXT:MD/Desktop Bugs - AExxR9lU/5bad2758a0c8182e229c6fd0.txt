@@ -1,0 +1,177 @@
+[Archived] New ping/unread message indicator (the number) hides behind profile picture of DM messages when discord isn't focused. (https://trello.com/c/SglsA6MD)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-27T18:54:16.960Z
+Latest Update: 2019-01-11T00:01:46.356Z
+
+Reported by Uptightjoker#0001
+
+####Steps to reproduce:Open discord 
+- click out of discord to another window on your computer 
+- get a DM message
+
+####Expected result:
+The unread indicator should appear over the profile picture showing you have an unread message.
+####Actual result:
+The profile picture overlaps the indicator. Sometimes it fixes itself others it sticks until you read the message.
+####Client settings:
+Canary 24781
+####System settings:
+WIN7 Enterprise, Chrome 69.0
+
+20227
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-27T18:54:16.960Z
+
+
+### Uptightjoker#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bad2758a0c8182e229c6fd0/261a23e9e0899477c863f6b529ea4c88/unknown.png added by Bug Bot on 2018-09-27T18:54:19.378Z
+
+
+### Can reproduce.
+Win 10 Home x64, Canary (Chrome version) 24781
+
+Hornet#1050 - Bug Bot on 2018-09-27T18:54:24.336Z
+
+
+### Can reproduce.
+All Discord for Web versions, Chrome 69.0.3497.100, Win 10 Pro x64 1803
+
+Dave247#0247 - Bug Bot on 2018-09-27T18:54:29.305Z
+
+
+### Can reproduce.
+CN, Chrome 69, Windows 10
+
+davfsa#7026 - Bug Bot on 2018-09-27T18:54:34.337Z
+
+
+### Can reproduce.
+Windows 7 Ultimate 64x, chrome 69.0.3497.100 ,canary, Build Number: 24781
+
+「Fortune's Endbringer」#9616 - Bug Bot on 2018-09-27T18:55:49.092Z
+
+
+### Can reproduce.
+Uneproducible when using Windows 10 Home 64-bit, HP Pavilion 23, Discord Canary 24781 and Stable for Windows 24781. However, I can reproduce on Discord for web.
+
+Banana#5334 - Bug Bot on 2018-09-27T18:59:17.478Z
+
+
+### Can reproduce.
+Unreproducible when using Windows 10 Home 64-bit, HP Pavilion 23, Discord Canary 24781 and Stable for Windows 24781. However, I can reproduce on Discord for web. The profile picture only layers over the indicator for a split second.
+
+Banana#5334 - Bug Bot on 2018-09-27T19:00:47.478Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24777 Chrome 69
+
+Neiron#2406 - Bug Bot on 2018-09-27T19:01:33.087Z
+
+
+### Only affects Discord for Web and not Desktop
+
+Dave247#0247 - Bug Bot on 2018-09-27T20:00:48.931Z
+
+
+### CNR, macos 10.12.6, chrome 68 - Clayton on 2018-09-27T22:18:36.301Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-09-27T22:18:42.681Z
+
+
+### Extension of store download icon bug.
+https://canary.discordapp.com/channels/477178727634173955/477180845350715402/484129608007024665 - Sam on 2018-09-27T23:16:20.480Z
+
+
+### Can't reproduce.
+CNR || Windows 10 Home (x64, 1803), Discord Canary 25046
+
+Marc#7377 - Bug Bot on 2018-09-30T03:16:07.633Z
+
+
+### Can reproduce.
+Seems to effect Current joined voice server as well https://puu.sh/BFxNn/3f60f01ae0.png - Canary 25439
+
+Alipoodle#5025 - Bug Bot on 2018-10-04T12:24:17.496Z
+
+
+### Can reproduce.
+Windows 10, Chrome
+
+CharlieR#0001 - Bug Bot on 2018-10-05T19:15:35.600Z
+
+
+### Can reproduce.
+Chrome Version 70.0.3538.77 (Official Build) (64-bit) / [BUILD INFO] Release Channel: stable, Build Number: 27065 / Windows 10 Version 1803 (OS Build 17134.376) / Steps revised - Go to
+- DM someone or make someone DM you but you must be browsing through a Discord server 
+- Wait patiently for your friend to DM you 
+- Look closely for the DM and number indicator to show up on the top left 
+- You will see that the red number indicator is underneath the Discord profile picture of your friend and sometimes it fixes itself to make the indicator on top of the profile picture
+
+YoshiByte#8536 - Bug Bot on 2018-10-30T02:28:47.964Z
+
+
+### Can reproduce.
+Canary Build 27430 Windows 10 Home x64 1803 - Has been happening more frequently with the latest electron update
+
+Rashaun#9295 - Bug Bot on 2018-11-02T18:30:05.383Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 27465
+
+MoonlightCapital#0554 - Bug Bot on 2018-11-03T09:06:52.552Z
+
+
+### Can reproduce.
+Windows 10 x64, 27" monitor, Canary Build 27465
+
+Vito Scaletta#0050 - Bug Bot on 2018-11-03T10:20:46.421Z
+
+
+### Can reproduce.
+Win 10 Pro 64x , Canary Build 27466
+
+C4Navar#5799 - Bug Bot on 2018-11-03T10:21:07.585Z
+
+
+### Can reproduce.
+windows 10 1709 x64, Acer aspire VX,  Discord canary - Build number:
+
+Eagler1997#7990 - Bug Bot on 2018-11-05T16:47:34.113Z
+
+
+### Can reproduce.
+Canary - 27466,  Windows 7 32-Bit
+
+Marcel#5514 - Bug Bot on 2018-11-05T17:02:00.727Z
+
+
+### CR on Discord Canary 0.0.218 (27494) on Windows 10 Pro 64-bit (1809).
+
+Moving to user reported bugs. - Tarek on 2018-11-06T04:05:14.769Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Tarek on 2018-11-06T04:05:17.827Z
+
+
+### verified, macos 10.12.6, canary 27494 - Clayton on 2018-11-06T04:32:50.095Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-06T04:32:57.394Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:46.359Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

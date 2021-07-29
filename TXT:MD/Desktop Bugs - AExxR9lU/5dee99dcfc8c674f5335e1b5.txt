@@ -1,0 +1,97 @@
+[Archived] [French input specific] If you want to send a code block and then erase  your message, "Message <channel_name>" will disappear (https://trello.com/c/NFJTQVF1)
+
+None
+
+Created: 2019-12-09T19:00:44.711Z
+Latest Update: 2020-01-09T15:00:52.299Z
+
+Reported by Falkio#0001
+
+####Steps to reproduce:
+- Type backtick (3 times)  
+- Erase
+
+####Expected result:
+"Message <channel_name>" should stay
+####Actual result:
+"Message <channel_name>" disappear until you go on an other channel
+####Client settings:
+Release Channel: canary, Build Number: 50978, Version Hash: f646936a30cd8a2fa8c205c6826726e00baa02b0
+####System settings:
+macOS Catalina 10.15.1
+
+49911
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-09T19:00:44.711Z
+
+
+### Can reproduce.
+The reason why the placeholder doesn't come up is because there IS text in the text box. Specifically, "&#65279;" is still in the text box, which shouldn't be there. This is also reproducible in other languages for example, Chinese, when you type "a" and just backspace. &#65279; comes out of nowhere, and cannot be removed until you switch channels or type something standard and backspace. MacBook Pro: macOS Catalina 10.15.1; Discord Canary 50978
+
+Jiralite#1207 - Bug Bot on 2019-12-09T19:00:52.196Z
+
+
+### Can reproduce.
+CR with French and Chinese (following Jiralite) on MacBook Air - MacOS (10.12.6 Sierra) Canary 50978
+
+myacorn#6534 - Bug Bot on 2019-12-09T19:00:57.173Z
+
+
+### Can reproduce.
+CR, Discord Canary Build : 50957 Windows 10 Pro
+
+YasinDalbudak#8500 - Bug Bot on 2019-12-09T19:01:02.190Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803 canary, Build Number: 50980
+
+Spooker#0001 - Bug Bot on 2019-12-09T20:31:58.726Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by AJ Palkovic on 2019-12-09T23:08:51.767Z
+
+
+### Can't reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 51028
+
+Jiralite#1207 - Bug Bot on 2019-12-09T23:12:00.906Z
+
+
+### Can't reproduce.
+CNR, stable 50984 (override), Win10 v1709 x64 build 16299.665 Education, chrome dev 80.0.3955.4
+
+hopeless#1227 - Bug Bot on 2019-12-10T01:29:33.846Z
+
+
+### meant stable 50980, did an oopsie and copied wrong build number
+
+hopeless#1227 - Bug Bot on 2019-12-10T01:34:06.732Z
+
+
+### Can't reproduce.
+CNR, macOS 10.15.2, Canary 51028
+
+Action Potential#6862 - Bug Bot on 2019-12-10T02:01:24.889Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-12-10T02:01:25.338Z
+
+
+### Can't reproduce.
+Cannot reproduce; Desktop Canary 51074, Windows 10 Pro 1909 (UEFI) // Marked as Verified Fixed
+
+MR | Çağan#7659 - Bug Bot on 2019-12-10T14:38:09.949Z
+
+
+### Archived by Bug Bot on 2020-01-09T15:00:52.346Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

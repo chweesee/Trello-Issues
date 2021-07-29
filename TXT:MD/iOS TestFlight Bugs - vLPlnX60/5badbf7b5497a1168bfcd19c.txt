@@ -1,0 +1,64 @@
+[Archived] Able to send an image while slowmode cooldown is triggered from computer, which causes image to silently fail to send, and retriggers the cooldown on your phone (https://trello.com/c/fcoSKVwG)
+
+P3 - Will be fixed eventually
+
+Created: 2018-09-28T05:43:23.328Z
+Latest Update: 2019-01-31T19:59:20.130Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Make sure you have your phone and a computer near you 
+- Go into the channel with slowmode on both your phone and computer 
+- Choose an image from your camera roll and have it ready in the inline image drawer 
+- Send a message from your computer to trigger the slowmode cooldown 
+- While the cooldown is counting down, try to send the image from your phone 
+- Observe the cooldown and channel on your phone 
+- You can also choose and send an image after triggering the cooldown on your computer to achieve the same results
+
+####Expected result:
+Send button is greyed out because the cooldown is going
+####Actual result:
+Discord allows you to send the image, even though it never uploads, and retriggers the cooldown on your phone instead of syncing with your computer
+####Client settings:
+TestFlight 2.3.8 (7416) - Canary Build 24853
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta - Windows 10 Home x64 1803
+
+20248
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-28T05:43:23.328Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803 x64, Discord Canary 24853, iPhone 6 iOS 12, Testflight 2.3.8 (7416)
+
+Pyros#2326 - Bug Bot on 2018-09-28T05:43:30.662Z
+
+
+### Can reproduce.
+iPad mini 3 IOS 11.4.1 tf 2.3.8 (7416) | macOS 10.14 canary 24853
+
+OrangeM24#5746 - Bug Bot on 2018-09-28T05:43:35.661Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 24853 - iPhone 6s, iOS 12.1 Beta (16B5059d) - TestFlight 2.3.8 (7416)
+
+Mippy#0001 - Bug Bot on 2018-09-28T05:43:40.677Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-05T19:00:03.011Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:20.142Z
+
+List
+====
+Backlog
+
+Members
+=======
+Unknown User (https://trello.com/andygarron1) - No Bio

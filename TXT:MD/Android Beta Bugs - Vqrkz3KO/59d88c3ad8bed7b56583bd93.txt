@@ -1,0 +1,76 @@
+[Archived] when the download manager service is disabled, discord does crash if you try to download something, rather than checking if all necessary process are active (Possible only with OS 4.x) (https://trello.com/c/ap5L0R5p)
+
+Low,
+P3 - Will be fixed eventually
+
+Created: 2017-10-07T08:11:38.130Z
+Latest Update: 2018-07-06T18:44:19.480Z
+
+Reported by Katt#1443
+
+####Steps to reproduce:
+- While something is being downloaded, find the "downloading file name" on the android notifications tab 
+- hold it until it pops up a option to see the "App info" and select it 
+- you should see a page with the information about the download manager 
+- select the option to turn it off 
+- Open Discord 
+- find a image and click on the download button
+
+####Expected result:
+Discord to check if the service is running, and if not running, show an error message
+####Actual result:
+discord does crash if you try to download something
+####Client settings:
+Android Stable 5.2.6
+####System settings:
+Android 4.1 (Samsung galaxy tab 3 lite)
+
+5134
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-07T08:11:38.130Z
+
+
+### Can reproduce.
+CR Huawei Mate 9 Android 7.0 Discord Alpha 5.2.8. Since it wasn't possible for me to disable the Download Manager in my Android version, I used Titanium Backup to freeze/disable the Download Manager directly from my system, as my device is rooted. It indeed crashed when I tried to download an attached file. Maybe an uncaught exception?
+
+Alex1304#9704 - Bug Bot on 2017-10-07T08:11:45.766Z
+
+
+### Can reproduce.
+Can Reproduce - 5.2.6(526) - HTC Desire 530 6.0.1
+
+Nyadeelif (Nyad)#8930 - Bug Bot on 2017-10-07T08:11:50.769Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S7, Android 7.0, discord 5.3.1
+
+C0DE#0092 - Bug Bot on 2017-10-07T08:11:55.777Z
+
+
+### Verified.  - Clayton on 2017-10-31T23:25:42.814Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-31T23:25:45.826Z
+
+
+### Verified Fixed - Jared on 2018-03-23T23:39:59.967Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2018-03-23T23:40:04.425Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:44:18.706Z
+
+
+### Archived by Jared on 2018-07-06T18:44:19.483Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

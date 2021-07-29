@@ -1,0 +1,88 @@
+[Archived] Mentioning a nicknamed account on Android doesn't prefix the user ID with an exclamation mark in the message's content (https://trello.com/c/lkRVWaAw)
+
+P3 - Will be fixed eventually
+
+Created: 2017-10-16T11:13:30.462Z
+Latest Update: 2019-06-10T20:43:51.587Z
+
+Reported by benji7425#6598
+
+####Steps to reproduce:
+- Setup a simple bot to view messages 
+- Nickname an account 
+- Mention the nicknamed account on desktop, observe the presence of an exclamation mark preceding the user ID in the mention 
+- Mention the nicknamed account using the android app, observe the lack of such exclamation mark
+
+####Expected result:
+The mention using the android client should include an exclamation mark preceding the user ID in a stringified mention
+####Actual result:
+The user ID in a stringified mention from an android device only has numbers, no preceding exclamation mark
+####Client settings:
+- Android: 5.3.8, Desktop: Current release (sorry, can't find version number anywhere?)
+####System settings:
+Nexus 5X @Android 7.1.1, Windows 10 @version 1607 & OS Build 14393.1770
+
+5432
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-16T11:13:30.462Z
+
+
+### Can reproduce.
+CR Moto G4 Android 7.0 5.3.9
+
+Azrael#9808 - Bug Bot on 2017-10-16T11:13:37.809Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 7.0, Android 5.3.8 & Desktop Stable Build 5837
+
+A Spoopy Striker#7250 - Bug Bot on 2017-10-16T11:13:42.801Z
+
+
+### Can reproduce.
+CR System info: LG-D415, Android 5.0.2 Discord Version: Discord Beta 5.2.6
+
+Whimpers 😖#1503 - Bug Bot on 2017-10-16T11:13:47.792Z
+
+
+### Verified.  - Clayton on 2017-10-24T23:23:28.579Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-24T23:23:32.025Z
+
+
+### Lava#9562 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59e4945ae3e5a471d0dd59fc/c6344e3e5c61fcb1574d54f512780f3d/x2b4.jpg added by Bug Bot on 2018-07-16T03:40:29.710Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:09.906Z
+
+
+### Unarchived by Clayton on 2018-10-09T22:50:45.011Z
+
+
+### can still repro - Clayton on 2018-10-09T22:50:54.193Z
+
+
+### Archived by Clayton on 2018-11-08T23:00:02.479Z
+
+
+### Can reproduce.
+(On Behalf of Another Client) LG G6, Android 8.0.0, Discord Stable 8.3.3
+
+LogalDeveloper#6919 - Bug Bot on 2019-02-17T15:01:05.228Z
+
+
+### Unarchived by Bug Bot on 2019-02-17T15:30:05.089Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:51.610Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,75 @@
+[Archived] Long file names get cut off in the file upload embed (https://trello.com/c/zz1XetGQ)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-02-04T03:08:28.700Z
+Latest Update: 2018-03-14T13:56:36.138Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Upload a file with a relatively long name (I used this_is_a_really_long_file_to_seewhathappens  [Without the space])
+
+####Expected result:
+The file name is truncated correctly (With ... or some other way of truncating it)
+####Actual result:
+The file name is cut off (The "a" in happens if using the above file name)
+####Client settings:
+Canary Build 10228
+####System settings:
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3
+
+8472
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-04T03:08:28.700Z
+
+
+### mrkirby153#7840 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a76792c1d897f6355e01a94/38edce87cef4449839f6b36be1545822/diza8.png added by Bug Bot on 2018-02-04T03:08:31.652Z
+
+
+### Can reproduce.
+Windows 10 (Fall Creators Update) + Canary Build# 10228
+
+Oasis#4730 - Bug Bot on 2018-02-04T03:08:36.556Z
+
+
+### Can reproduce.
+Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 10228
+
+Ghoul#0009 - Bug Bot on 2018-02-04T03:08:41.580Z
+
+
+### Can reproduce.
+CR, Canary 0.0.201 (10228), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-02-04T03:08:46.686Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 1709 / Discord Canary 10189
+
+casungo#2990 - Bug Bot on 2018-02-04T13:09:06.611Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Jared on 2018-02-06T18:49:04.668Z
+
+
+### This is fixed with the UI change to uploaded files - Jared on 2018-02-06T18:49:21.854Z
+
+
+### Archiving ticket due to one month of no action.
+ - Alexander (DJScias) on 2018-03-14T13:56:34.767Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:56:36.140Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

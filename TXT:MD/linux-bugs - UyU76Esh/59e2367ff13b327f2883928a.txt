@@ -1,0 +1,85 @@
+Adjusting voice input volume in Discord adjusts sound device input gain (https://trello.com/c/c23BUDTV)
+
+P3: Will eventually be fixed,
+high
+
+Created: 2017-10-14T16:08:31.493Z
+Latest Update: 2019-01-26T00:10:39.417Z
+
+Reported by outfrost#5543
+
+####Steps to reproduce:
+- Check sound device input gain in your system's audio settings 
+- Go into Voice & Video settings in Discord 
+- Change input volume 
+- Check input gain in system's audio settings again
+
+####Expected result:
+Sound device input gain stays the same, Discord sets input volume for itself
+####Actual result:
+Discord overrides the sound device input gain with its input volume setting
+####Client settings:
+Desktop [BUILD INFO] Release Channel: stable, Build Number: 5837, Version Hash: 8debf1d516c07d99a603ec25688324b473c2de43
+####System settings:
+Mint 18.2, KDE Plasma 5.8.7, pulseaudio 8.0, alsa-utils 1.1.0, Linux 4.8.0-53-generic amd64
+
+5396
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-14T16:08:31.493Z
+
+
+### Can reproduce.
+Kubuntu 17.10 Beta 1 x64, 4.13.0-15-generic, Discord Canary Build 5843
+
+kiroma#1608 - Bug Bot on 2017-10-14T16:08:38.856Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.24 Build 5843, Ubuntu 17.04
+
+Anorak#5830 - Bug Bot on 2017-10-14T16:08:44.235Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.024 (Build 5843)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-14T16:08:48.805Z
+
+
+### Instead of changing the input sensitivity of the recording for Discord direct, it changes the Input Device sensitivity. This also leads to the effect that the input device sensitivity always gets changed to the value set in Discord (So 100% by default) if the application gets reloaded/restarted.
+
+Starshine Dust#2189 - Bug Bot on 2017-10-14T16:09:54.105Z
+
+
+### Can reproduce.
+Linux Mint 18 + Openbox / Discord Canary 0.0.24
+
+cloudrac3r#5547 - Bug Bot on 2017-11-07T03:47:32.509Z
+
+
+### Verified - Clayton on 2018-01-09T23:02:22.847Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-01-09T23:02:26.461Z
+
+
+### Can reproduce.
+ArchLinux x64 - Linux Kernel 4.17.11-1 - GNOME 3.28.2 - Discord Canary Build 20644
+
+Frances Picard#6209 - Bug Bot on 2018-08-03T12:49:43.929Z
+
+
+### Can reproduce.
+Antergos; discord canary 31316
+
+Amosar#5160 - Bug Bot on 2019-01-26T00:10:39.418Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

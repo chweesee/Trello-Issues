@@ -1,0 +1,59 @@
+[Archived] If the only message is deleted in a new server channel, it sticks as an unread channel for server members despite clicking on it (https://trello.com/c/Q6xRG9tO)
+
+None
+
+Created: 2016-11-12T21:26:34.291Z
+Latest Update: 2017-10-17T21:15:18.165Z
+
+Reported by Dougley#6248
+
+####Steps to reproduce: 
+- Create a new channel 
+- Send one single message 
+- Delete the said message 
+- Other users on the server who haven't seen that message will be stuck in a permanent Channel Unread state for that channel 
+
+####Expected result:
+  The channel is no longer unread when the only message is deleted, or clicking on the channel erases the Unread indicator for it 
+####Actual result:
+  The channel stays as unread 
+####Client version:
+ Stable, W10 Pro x64 Reporten on behalf of «DG»MyHogs#3999
+
+Card Log
+========
+### Added by Jared on 2016-11-12T21:26:34.291Z
+
+
+### 142740576113000448 - undefined added by Jared on 2016-11-12T23:18:07.851Z
+
+
+### 142740576113000448 - undefined added by Jared on 2016-11-12T23:18:56.731Z
+
+
+### Can reproduce.
+side note: right clicking and marking as read does however remove the unread messages dot.
+
+Peach#0005 - Jared on 2016-11-13T20:36:23.629Z
+
+
+### I _think_ what's trying to be reported here is the unread message notification doesn't disappear when all of the unread messages are deleted.  This is true, it's also a dupe of a Won't Fix.  We do not send push on message delete.
+
+You can open the channel to clear it, or mark it as read to remove the notification. - Jared on 2016-11-22T19:31:52.255Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-11-22T19:31:56.717Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:15:16.714Z
+
+
+### Archived by Jared on 2017-10-17T21:15:18.166Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

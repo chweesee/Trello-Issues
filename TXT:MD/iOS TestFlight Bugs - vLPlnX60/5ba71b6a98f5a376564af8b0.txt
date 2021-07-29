@@ -1,0 +1,82 @@
+[Archived] Sending an attachment (picture) together with a attachment link causes the app to open the first picture instead of 2nd when tapping the 2nd picture (https://trello.com/c/ZfSDCmsz)
+
+P2 - Can wait a while
+
+Created: 2018-09-23T04:49:46.988Z
+Latest Update: 2019-03-01T12:00:24.421Z
+
+Reported by Xylium#1480
+
+####Steps to reproduce:
+- Open the app in a text channel 
+- Choose an image with the inline image (don’t send) 
+- Find a different image that’s been send and copy that as attachment url 
+- Paste the copied url into chat and send 
+- Try and tap on the 2nd image and observe the first picture being opened
+
+####Expected result:
+The client should open the 2nd image as you want to view that
+####Actual result:
+The 2nd image doesn’t gets opened when u tap it, but instead it opens the first image (your attachment picture)
+####Client settings:
+TestFlight 2.3.8 (7416)
+####System settings:
+iPhone 6, iOS 12.1 dev beta
+
+19964
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-23T04:49:46.988Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ba71b6a98f5a376564af8b0/16ba7043866cb7564ddaa7b2666c8c71/image0.png added by Bug Bot on 2018-09-23T04:49:49.262Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ba71b6a98f5a376564af8b0/39c7dc0c5a8285364a83c68c3a341647/image0.png added by Bug Bot on 2018-09-23T04:49:49.365Z
+
+
+### Can reproduce.
+Can Reproduce - TestFlight 2.3.8 (7416) iPhone 6s iOS 12.1 Dev Beta
+
+Rashaun#9295 - Bug Bot on 2018-09-23T04:49:54.415Z
+
+
+### Can reproduce.
+Testflight 2.3.8 (7416) iPhone 6s Plus iOS 12.1 Public Beta
+
+Scottmg#2966 - Bug Bot on 2018-09-23T04:49:59.258Z
+
+
+### Can reproduce.
+iPhone 8 IOS 12; Tf 2.3.8 7416
+
+OrangeM24#5746 - Bug Bot on 2018-09-23T04:50:04.268Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ba71b6a98f5a376564af8b0/10d81f8b4680d6921a920b9bcbff866e/JS7Hh.gif added by Bug Bot on 2018-09-23T15:29:49.527Z
+
+
+### The reason i added the gif is to hopefully make it more clear that u actually can click on the 2nd image on desktop, but not on iOS
+
+Xylium#1480 - Bug Bot on 2018-09-23T15:31:34.470Z
+
+
+### Moved from New Issues to Fix made, not yet released by Fanghao on 2018-10-04T23:50:34.398Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-10-05T21:14:03.115Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Clayton on 2019-01-30T11:32:32.988Z
+
+
+### Archived by Bug Bot on 2019-03-01T12:00:24.435Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

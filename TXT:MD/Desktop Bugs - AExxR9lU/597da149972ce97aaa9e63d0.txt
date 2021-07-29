@@ -1,0 +1,79 @@
+[Archived] When maximised and taskbar is automatically hidden, the taskbar doesn't re-appear. (https://trello.com/c/yCLYdMTY)
+
+P2: Fix can wait a while
+
+Created: 2017-07-30T09:05:13.535Z
+Latest Update: 2019-04-22T03:03:59.688Z
+
+Reported by TheSheepGuy (osnik)#3378
+
+####Steps to reproduce:
+- First make sure to have the taskbar set to automatically hide by right-clicking on the bar and going into its settings. 
+- Maximise Discord. If you use multiple monitors, make sure to maximise Discord to the first (main); since on my end it doesn't work on my end when I do this to my second monitor 
+- Try to use the taskbar by moving to the bottom most point of the screen. 
+- A GIF to prove: <http://i.imgur.com/oSQDvud.gifv>
+
+####Expected result:
+The tasbar should re-appear when you hover at the bottom, like in all other programms.
+####Actual result:
+The taskbar does not re-appear. The only way to get the taskbar back is to either Alt+Tab, or by pressing the Windows Key.
+####Client settings:
+Default Discord desktop program. Not in developer mode, and running version from 10.07.2017.
+####System settings:
+Windows 10 x64 Home Edition. Monitor: 1920x1080 @ http://i.imgur.com/oSQDvud.gifv 60
+
+2690
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-30T09:05:13.535Z
+
+
+### Can reproduce.
+Discord Stable 0.0.297
+
+Mr.Caleb#8593 - Bug Bot on 2017-07-30T09:05:21.027Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord canary 0.0.161
+
+ks0908#8526 - Bug Bot on 2017-07-30T09:05:26.037Z
+
+
+### Can reproduce.
+Can reproduce,  Windows 10 Home Creators Update x64 @ Canary v0.0.162
+
+TTtie#4900 - Bug Bot on 2017-07-30T09:05:31.049Z
+
+
+### Can reproduce.
+Windows 10 x64 / Canary 0.0.153
+
+AKSKL#5445 - Bug Bot on 2017-07-30T11:22:28.823Z
+
+
+### Verified.  - Clayton on 2017-08-02T00:04:28.180Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-02T00:04:37.100Z
+
+
+### Dupe of: https://trello.com/c/zhwYOAoV/496-auto-hidden-taskbar-cant-show-up-when-maximized - Clayton on 2017-08-02T00:05:27.635Z
+
+
+### Archived by Clayton on 2017-08-02T00:05:33.109Z
+
+
+### Can reproduce.
+windows 10 1809 canary 36128
+
+GlenMerlin#2119 - Bug Bot on 2019-04-22T03:03:59.694Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

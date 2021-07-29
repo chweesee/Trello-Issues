@@ -1,0 +1,123 @@
+[Archived] iOS top bar disappears when pressing a social media link and attachment at the same time in Changelog when having in-app browser enabled. (https://trello.com/c/5e6BYmRq)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-18T21:51:21.763Z
+Latest Update: 2020-06-12T20:30:02.808Z
+
+Reported by Red~#6439
+
+####Steps to reproduce:
+- Open Settings 
+- Scroll down and press Changelog. 
+- Now this needs precise timing, you see the wumpus attachment in Changelog. Now, hover one finger right on the attachment and one at twitter for example. 
+- Now press the attachment and while the attachment is sliding up press twitter. Both attachment and in-app browser start up which causes the iOS topbar to be gone.
+
+####Expected result:
+The attachment should just display without opening a social media.
+####Actual result:
+The selected social media loads up with the iOS topbar removed, since both attachment and in-app browser are loaded up at the same time.
+####Client settings:
+iOS TestFlight 2.4.6 (12095)
+####System settings:
+iPhone SE iOS 12.1.4
+
+31278
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-18T21:51:21.763Z
+
+
+### tonite#0001 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c9012d98f64864f0736bc46/baf6f94e30758cc97ff2aa66b05e66a7/image0.png added by Bug Bot on 2019-03-18T21:51:24.689Z
+
+
+### Can reproduce.
+cr, iPhone 8 iOS 12.1.4 - Discord Testflight V2.4.6
+
+tonite#0001 - Bug Bot on 2019-03-18T21:51:29.102Z
+
+
+### Can reproduce.
+CR // iPad 9.7" ~ iOS 12.1.4 [16D57] // Testflight 2.4.6 [12025]
+
+ZX ////#3405 - Bug Bot on 2019-03-18T21:51:34.193Z
+
+
+### Can reproduce.
+CR; iPhone 8 iOS 12.2 Beta 5 Discord Stable 2.5.0
+
+Arnold0#7514 - Bug Bot on 2019-03-18T21:51:39.165Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, Testflight 2.4.6 [12025]
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-18T22:02:14.445Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1.4 - TestFlight 2.4.6 (12095)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-03-18T23:15:11.667Z
+
+
+### Can reproduce.
+- i 2.4.6 (12095)
+
+Clay#0001 - Bug Bot on 2019-03-19T00:06:35.485Z
+
+
+### If you do the same repro steps but quickly tap the twitter icon twice instead of once, it crashes the whole discord app.
+
+Clay#0001 - Bug Bot on 2019-03-19T00:08:07.525Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.1.4 | TestFlight 2.4.6 (12095)
+
+Clay#0001 - Bug Bot on 2019-03-19T00:42:28.851Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.6 (12095)
+
+Daffyduck#5364 - Bug Bot on 2019-03-19T04:11:55.603Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.1.4, TestFlight 2.4.6 (12026)
+
+tech_dude1#9855 - Bug Bot on 2019-03-19T04:42:38.095Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 2.4.6 (12095)
+
+Skyla#0002 - Bug Bot on 2019-03-19T16:55:58.561Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-03-29T19:00:03.871Z
+
+
+### Archived by Bug Bot on 2019-07-13T20:00:22.708Z
+
+
+### Can reproduce.
+iOS 13.3.1 // iPhone 8 // Testflight 22.0 (19956)
+
+!Nico#0001 - Bug Bot on 2020-05-13T19:48:13.932Z
+
+
+### Unarchived by Bug Bot on 2020-05-13T20:00:05.440Z
+
+
+### Archived by Bug Bot on 2020-06-12T20:30:02.820Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

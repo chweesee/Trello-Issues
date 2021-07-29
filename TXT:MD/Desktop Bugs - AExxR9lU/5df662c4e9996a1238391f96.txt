@@ -1,0 +1,75 @@
+WIth Micrisoft Bopomofo input method, gibberish appear in input box when I type after closing a Markdown syntax (https://trello.com/c/NqRnbK7K)
+
+None
+
+Created: 2019-12-15T16:43:48.354Z
+Latest Update: 2020-07-16T21:26:05.933Z
+
+Reported by Nyan cat#8349
+
+####Steps to reproduce:
+- Switch to Microsoft Bopomofo input method
+
+- Type out a Markdown style syntax, ex. ~~測試~~
+
+- Keep typing in Bopomofo
+
+- Bug occurs
+
+####Expected result:
+What the user typed appear in the text box normally
+####Actual result:
+Some gibberish appear in the text box, ex. `測試~~ㄘ測試~~ㄘㄜ測試~~測試`
+####Client settings:
+Release Channel: ptb, Build Number: 51458, Version Hash: 72711da969d02bd98ab520a2403ef7ec2f1f7827
+####System settings:
+Windows 10 version 1909, build 18363.476
+
+50452
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-15T16:43:48.354Z
+
+
+### Can reproduce.
+Reporter means the zhuyin input method (注音) MacBook Pro: macOS Catalina 10.15.2; Discord Canary 51469
+
+Jiralite#1207 - Bug Bot on 2019-12-15T16:43:55.757Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51469, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-15T16:44:00.763Z
+
+
+### Can reproduce.
+CR; Windows 10 Home, x64 - Canary, Build Number: 51469
+
+IamSushi#0001 - Bug Bot on 2019-12-15T16:44:05.899Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 51469 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-16T00:46:44.828Z
+
+
+### Can reproduce.
+windows 7 enterprise x64, canary 51182
+
+<;Sperg;512786250332372032>#4782 - Bug Bot on 2019-12-16T19:47:38.155Z
+
+
+### This actually isn't just limited to zhuyin at all. It's reproducible in other Chinese input methods... Japanese... Korean... even Greek, where to put the accent on, you have to type `΄` then `α` to return ά, but following the steps to reproduce in this report, this will break.
+
+Jiralite#1207 - Bug Bot on 2020-01-12T22:52:27.390Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

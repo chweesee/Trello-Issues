@@ -1,0 +1,82 @@
+[Archived] pressing tab on a physical keyboard when 2FA text box is selected will skip the last step and show the ": tada : 2FA is activated" screen (https://trello.com/c/cYWYqddc)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-02T20:10:40.412Z
+Latest Update: 2019-04-12T22:30:06.527Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- have a hw keyboard connected to your device 
+- go to Settings > My account then click enable 2FA 
+- skip to the last step then click on the first digit text box 
+- press tab on your keyboard
+
+####Expected result:
+it should select the next selectable thing, which is the Back button
+####Actual result:
+it skips the whole process then show you the : tada : screen lol as if you've successfully activated 2FA (only visually ofc. possibly caused by the app selecting the Done button from the last step instead which causes this issue)
+####Client settings:
+Alpha 8.5.4
+####System settings:
+Samsung Galaxy Note 8, Android 8.0
+
+30129
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-02T20:10:40.412Z
+
+
+### J1#0088 - https://i.imgur.com/na2r6TE.gifv added by Bug Bot on 2019-03-02T20:10:42.774Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.5.4
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-03-02T20:10:47.744Z
+
+
+### Can reproduce.
+Samsung Galaxy Ace 3, Android 8.0.0, Discord 8.5.4
+
+Lelantos#4866 - Bug Bot on 2019-03-02T20:10:52.778Z
+
+
+### Can reproduce.
+CR. Alpha 8.5.4 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-03-02T20:10:57.751Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 855
+
+The Lunala#6877 - Bug Bot on 2019-03-03T09:48:24.647Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.5
+
+Skyla#0002 - Bug Bot on 2019-03-03T11:50:52.906Z
+
+
+### Can reproduce.
+Samsung S8, Android 9.0, 8.5.3
+
+Mr. Proper#2394 - Bug Bot on 2019-03-03T18:11:40.169Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T22:09:33.444Z
+
+
+### Archived by Bug Bot on 2019-04-12T22:30:06.540Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

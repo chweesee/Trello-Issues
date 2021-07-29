@@ -1,0 +1,145 @@
+[Archived] Removing a playing status doesn't remove it locally (https://trello.com/c/DhwPObYO)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-04T01:27:12.829Z
+Latest Update: 2019-06-05T23:47:49.508Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Start playing a game/Listening to Spotify and ensure it's detected as a playing status 
+- Stop playing the game/Listening to spotify so your status gets removed 
+- Observe your playing status in the member list and user settings and compare it with the desktop app
+
+####Expected result:
+The playing status goes away because you're no longer playing the game
+####Actual result:
+The playing status gets stuck until you restart the app
+####Client settings:
+Alpha 7.2.4
+####System settings:
+Pixel 2 XL - Android 8.1
+
+16875
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-04T01:27:12.829Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 7.2.4, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-08-04T01:27:20.166Z
+
+
+### Can reproduce.
+Can Reproduce. Tested on ZTE Blade A602, Android Nougat 7.0, Discord Android Alpha 7.2.4 (724).
+
+Ghostly#0001 - Bug Bot on 2018-08-04T01:27:25.112Z
+
+
+### Can reproduce.
+Can reproduce, this only happens when the status is removed, if you have two games running and you close the one appearing, the other will appear, Samsung Galaxy J7 Prime, LineageOS 15.1 (Oreo 8.1), Discord Alpha 724
+
+Lava#9562 - Bug Bot on 2018-08-04T01:27:30.166Z
+
+
+### Moved from User Reported Bugs to Game Detection Bugs by Tarek on 2018-08-04T05:26:56.681Z
+
+
+### Moved from Game Detection Bugs to User Reported Bugs by Tarek on 2018-08-04T08:55:45.148Z
+
+
+### Unrelated to the game detection feature. Happened before. - Tarek on 2018-08-04T08:55:56.516Z
+
+
+### Can reproduce.
+CR, Oneplus 3, 8.1.0, Alpha 7.2.6
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-05T09:10:17.523Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.2.8 - Clayton on 2018-08-09T22:16:47.463Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-09T22:16:54.717Z
+
+
+### Archived by Clayton on 2018-09-08T22:30:01.861Z
+
+
+### Can reproduce.
+Can reproduce. Alpha 8.0.0 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9566 - Bug Bot on 2018-11-22T16:30:50.335Z
+
+
+### Unarchived by Clayton on 2018-11-22T17:00:03.761Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0 discord alpha 8.0.7
+
+sloth_.on._tabasco#0001 - Bug Bot on 2018-12-01T15:52:46.662Z
+
+
+### Can reproduce.
+Samsung Galaxy A7 2017, Android 8.0.0, Discord Alpha 8.0.9; Probably due to game/app cache
+
+Augy.#8622 - Bug Bot on 2018-12-05T17:51:07.782Z
+
+
+### Can reproduce.
+Xioami Redmi 4X, MIUI 10.1, Android 7.1.2, Discord Alpha 8.0.9
+
+COLD#1337 - Bug Bot on 2018-12-05T17:57:29.973Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.2.2
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-24T06:51:07.146Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-01-22T23:29:10.484Z
+
+
+### Can't reproduce.
+Fixed, Samsung Galaxy S6, Android 7.0 Discord Alpha 8.3.2
+
+Law of Royale#6825 - Clayton on 2019-01-22T23:40:30.532Z
+
+
+### Can't reproduce.
+Mi A2, Android 9, Dec 2018 update, running Android Alpha 8.2.3
+
+Bsian#1803 - Clayton on 2019-01-22T23:40:35.921Z
+
+
+### Can't reproduce.
+Move to Verified Fixed, CNR, Samsung Galaxy J7 running Android 8.1.0, Alpha 8.3.2 (832)
+
+FoxyKero#6969 - Clayton on 2019-01-22T23:41:41.740Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-22T23:41:41.983Z
+
+
+### Can reproduce.
+Android Alpha 8.3.4g Samsung Galaxy A7 (2018),  android version 8.0.0 | Can Reproduce | Android Alpha 8.3.4g
+
+Wulfe#0126 - Bug Bot on 2019-01-25T20:04:45.108Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:49.522Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

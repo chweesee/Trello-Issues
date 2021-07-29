@@ -1,0 +1,60 @@
+Discord hangs when pasting console text output with newlines from Source Engine based games (https://trello.com/c/zsXAPQzl)
+
+P3: Will eventually be fixed
+
+Created: 2017-05-05T23:42:42.497Z
+Latest Update: 2018-01-09T23:40:04.198Z
+
+Reported by Chris#2905
+
+####Steps to reproduce: 
+- Copy any text line(s) that any Source Engine based game outputs to the developer console (such as chat logs or command outputs from TF2 or CS:GO) 
+- Paste the text line(s) into any Discord text channel 
+
+####Expected result:
+ The pasted text line(s) should be at the message box correctly and ready to be sent 
+####Actual result:
+ Discord hangs/crashes, requires killing its process 
+####System settings:
+ Antergos 17.4, Up-to-date Discord client (as from 1, May 2017)
+
+1326
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-05T23:42:42.497Z
+
+
+### Can reproduce.
+arch linux 0.15 canary.
+i used portal as my source game.
+
+apperently its a bug in chrome and pasting things that have new lines?
+
+Alex from Alaska#9760 - Bug Bot on 2017-05-05T23:42:43.136Z
+
+
+### Can reproduce.
+Mint 18 Cinnamon, Canary 0.0.15
+
+Mikesky#3456 - Bug Bot on 2017-05-05T23:42:45.127Z
+
+
+### Can reproduce.
+Arch Linux, i3 Window Manager, Latest Canary
+
+jerbear64#3629 - Bug Bot on 2017-05-05T23:42:47.142Z
+
+
+### Cannot reproduce.  - Clayton on 2018-01-09T23:40:01.458Z
+
+
+### Moved from User Reported to Cannot Reproduce. by Clayton on 2018-01-09T23:40:04.175Z
+
+List
+====
+Cannot Reproduce.
+
+Members
+=======
+None

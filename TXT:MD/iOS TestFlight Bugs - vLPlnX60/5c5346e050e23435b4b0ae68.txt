@@ -1,0 +1,77 @@
+[Archived] Empty category doesn't display despite you having Manage channel permission (https://trello.com/c/b2cwOygZ)
+
+P3 - Will be fixed eventually
+
+Created: 2019-01-31T19:05:04.486Z
+Latest Update: 2019-03-10T19:30:06.227Z
+
+Reported by Arnold0#7514
+
+####Steps to reproduce:
+- Have two accounts in a test server, one with all perms and the second with default everyone perms (The account with default perms is the one the bug happens on and should not be server owner) 
+- With the account having all perms create a new category and keep it empty  
+- Open the permission screen for that specific category and give the second account "Manage Channel" permission for this category only.  
+- Switch to the second account  
+- Notice how the category is displayed on PC and you can manage it but on iOS it's invisible
+
+####Expected result:
+You should see the category and be able to edit it's name or create text channels
+####Actual result:
+The category is not visible on iOS even if you have Manage Channel perms
+####Client settings:
+TestFlight 2.4.4 (11007)
+####System settings:
+iPhone SE, iOS 11.1.2
+
+27427
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-31T19:05:04.486Z
+
+
+### ☃nickWtn☃#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c5346e050e23435b4b0ae68/1e32e49409c8964ae0c0819159852066/d8bedaa684.jpg added by Bug Bot on 2019-01-31T19:05:08.168Z
+
+
+### Can reproduce.
+iPad 9.7" ~ iOS 12.1.3 ~ TestFlight 11007 // *Make sure to have the channel list closed while doing steps 1-4*
+
+.–. LOLnt ._.#3405 - Bug Bot on 2019-01-31T19:05:12.125Z
+
+
+### Can reproduce.
+iOS 12.1.3 - iPhone 7 - Discord TestFlight 2.4.4 (11030)
+
+KolkiesDev#0001 - Bug Bot on 2019-01-31T19:05:17.142Z
+
+
+### Can reproduce.
+CR: iOS iPod Touch 6th Generation 12.0, 2.4.2
+
+OldWampa#7897 - Bug Bot on 2019-01-31T19:05:22.081Z
+
+
+### Can reproduce.
+iphone 5c, ios 10.3.3, tf 2.4.4 {11051}
+
+Lentralkestor#2016 - Bug Bot on 2019-02-01T04:38:21.214Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.4.4 (11051)
+
+Jengas#7777 - Bug Bot on 2019-02-01T08:59:54.617Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-02-08T19:00:07.048Z
+
+
+### Archived by Bug Bot on 2019-03-10T19:30:06.241Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

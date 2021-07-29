@@ -1,0 +1,121 @@
+Swiping to the side over a link embed causes it to load up the link (https://trello.com/c/jgBja2uA)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2017-08-16T07:16:14.389Z
+Latest Update: 2019-07-12T17:27:41.950Z
+
+Reported by wv#3076
+
+####Steps to reproduce:
+- Be on a channel with a pressable article/video embed visible 
+- Try to Swipe to the side over that link
+
+####Expected result:
+Swipe to the side without opening the link as you have moved over it
+####Actual result:
+Opens up the embed onto a browser/YouTube app
+####Client settings:
+1.8.9 (Testflight)
+####System settings:
+iPhone 5S iOS 9.3.2
+
+3180
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-16T07:16:14.389Z
+
+
+### Can reproduce.
+seems to happen randomly, more frequent if swipe goes from right to left and/or finishes over link, iPhone 6 iOS 11 Beta 4, Discord TestFlight 1.8.9 (83)
+
+Charles#1934 - Bug Bot on 2017-08-16T07:16:22.043Z
+
+
+### Can reproduce.
+Can reproduce, TestFlight 1.8.9, iPhone 6s, iOS 11 Dev Build 5
+
+Mippy#1483 - Bug Bot on 2017-08-16T07:16:27.042Z
+
+
+### Can reproduce.
+CR, Discord TestFlight 1.8.9, iPhone 6s, iOS 10.3.3
+
+Nelson1348#9190 - Bug Bot on 2017-08-16T07:16:32.112Z
+
+
+### Can reproduce.
+iPhone 5c, iOS 10.3.3, Discord 1.8.9 (TF)
+
+InkxtheSquid#8052 - Bug Bot on 2017-08-19T01:03:39.824Z
+
+
+### Verified, minor. - Jared on 2017-08-21T21:48:19.167Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T21:48:25.024Z
+
+
+### Can reproduce.
+iPhone 6S Plus, iOS 11.0.7 (Beta 7) > TestFlight 1.9.1
+
+Ben#4331 - Bug Bot on 2017-08-26T08:05:54.838Z
+
+
+### I can no longer reproduce, Discord doesn't open the link after swiping over it. 
+
+Discord 1.9.3 (1336), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-26T12:32:11.126Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2017-10-26T12:32:31.538Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-26T21:56:52.694Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T22:07:09.661Z
+
+
+### Can't reproduce.
+iPhone 6 10.3.2 TestFlight 2.2.1 (2236)
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T22:10:58.855Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:39:28.482Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:39:31.445Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T08:58:14.490Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T08:58:15.228Z
+
+
+### Can reproduce again as of TestFlight 3.0.1 (14776) with iPhone 8 Plus running iOS 12.2. Especially happens with smaller devices that don‘t show the channel list when having a channel opened. Swiping to the left to open the channel list seems to be a more reliable way to get the bug.
+
+Moving to Reopened list. - Pascal on 2019-05-11T16:31:27.980Z
+
+
+### Unarchived by Pascal on 2019-05-11T16:31:36.232Z
+
+
+### Moved from Verified Fixed to Reopened by Pascal on 2019-05-11T16:31:53.075Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

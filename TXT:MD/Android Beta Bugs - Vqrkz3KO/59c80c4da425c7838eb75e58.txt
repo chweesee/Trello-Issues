@@ -1,0 +1,87 @@
+[Archived] incorrect notification frequency setting appears with save icon for a second when the channel settings are opened (https://trello.com/c/SIZ5k8e2)
+
+P3 - Will be fixed eventually
+
+Created: 2017-09-24T19:49:34.033Z
+Latest Update: 2019-01-01T23:08:34.717Z
+
+Reported by DokaDoka#8094
+
+####Steps to reproduce:
+- open any channel 
+- hit the three dots in the top right corner 
+- open the channel settings menu
+
+####Expected result:
+the right settings will show all the time and there either will or won't be a save icon
+####Actual result:
+bit of a flicker
+####Client settings:
+Discord Stable, 5.2.6
+####System settings:
+Google/LG Nexus 5, Android 6.0.1
+
+4819
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-24T19:49:34.033Z
+
+
+### Eremo#4057 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59c80c4da425c7838eb75e58/dafdc5bee34dda23b8b2d0ba274e6732/20170925_034437.gif added by Bug Bot on 2017-09-24T19:49:36.758Z
+
+
+### Can reproduce.
+If you look closely you can see that the "all messages" notification briefly flickers blue as if it's been selected. Samsung Galaxy S6, 7.0, 526
+
+Xander#0259 - Bug Bot on 2017-09-24T19:49:41.568Z
+
+
+### Can reproduce.
+LG Nexus 5x, 8.0.0, using client in version 5.2.6
+
+Eremo#4057 - Bug Bot on 2017-09-24T19:49:46.557Z
+
+
+### Can reproduce.
+CR, Android 5.2.6 OnePlus 5 on Android 7.1.1
+
+Tarek1337#0379 - Bug Bot on 2017-09-24T19:49:51.832Z
+
+
+### Can't reproduce.
+System info: LG-D415, Android 5.0.2 Discord Version: Discord Beta 5.2.6
+
+Whimpers#1503 - Bug Bot on 2017-09-25T11:57:11.854Z
+
+
+### Can't reproduce.
+CNR System info: LG-D415, Android 5.0.2 Discord Version: Discord Beta 5.2.6
+
+Whimpers#1503 - Bug Bot on 2017-09-25T11:57:53.942Z
+
+
+### Verified.  - Clayton on 2017-09-27T22:39:48.941Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-27T22:39:54.780Z
+
+
+### fixed. - Clayton on 2018-07-11T00:07:22.025Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Clayton on 2018-07-11T00:07:27.970Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:08:33.975Z
+
+
+### Archived by Tarek on 2019-01-01T23:08:34.719Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

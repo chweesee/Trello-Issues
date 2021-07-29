@@ -1,0 +1,147 @@
+[Archived] English UK no longer shows in 24-hour time (https://trello.com/c/Vvt1BcAV)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2017-12-03T00:00:41.372Z
+Latest Update: 2018-03-14T13:23:39.206Z
+
+Reported by Ene#3002
+
+####Steps to reproduce:
+- Switch your language to English UK in the Language settings
+
+####Expected result:
+Time is displayed in 24-hours
+####Actual result:
+It is displayed in 12-hours
+####Client settings:
+Discord Canary 0.0.180, Build 7963
+####System settings:
+Windows 10 x64 v1709
+
+6791
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-03T00:00:41.372Z
+
+
+### Can reproduce.
+Windows 10 x64 Fall Creator's Update Canary build 7963
+
+Mikesky#3456 - Bug Bot on 2017-12-03T00:00:48.822Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (16299), Canary 0.0.180 (7963)
+
+mouse91#3089 - Bug Bot on 2017-12-03T00:00:53.803Z
+
+
+### Can reproduce.
+Can reproduce, Discord Canary 0.0.180 (Build 7963) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-12-03T00:00:58.815Z
+
+
+### Can reproduce.
+Does not just happen for UK English, other languages also show all message timestamps in US English. Discord Canary build 7963 on Xubuntu 17.10
+
+Dav999#3322 - Bug Bot on 2017-12-03T13:15:32.954Z
+
+
+### Not related to UK, happening to all languages that uses 24 hours time format, possible dupe of https://trello.com/c/4I8kGuuw. 
+But we decided to allow a second ticket since the other ticket has a low priority because it was only happening to Swedish at the time.
+
+Also, every language are forced to use mm/dd/yyyy, instead of dd/mm/yyyy when it should. - Tarek on 2017-12-03T13:25:11.589Z
+
+
+### Can reproduce.
+CR; Windows 7 ultimate x64 Deskop Canary 7963; Timestamps in other languages are also in 12 hour format
+
+GospodinCrni#2565 - Bug Bot on 2017-12-03T15:05:47.926Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Fall Creators Update (1709), Canary 0.0.181 (7968)
+
+Tiemen#0107 - Bug Bot on 2017-12-04T02:10:38.747Z
+
+
+### Cannot reproduce anymore, probably fixed. Only Swedish still has issues but it has already a separate ticket, so moving to CNR, Canary 8055 - Tarek on 2017-12-05T05:19:41.026Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2017-12-05T05:19:45.814Z
+
+
+### Moved from Cannot Reproduce to Claimed Fixed, needs Verification by Alexander (DJScias) on 2017-12-12T19:12:57.321Z
+
+
+### Can no longer reproduce myself as of build 8478. - Alexander (DJScias) on 2017-12-12T19:13:44.582Z
+
+
+### Can reproduce.
+Ubuntu 16.04.3 LTS 64-bit | Discord stable, Build Number: 8488
+
+cau_no#9478 - Bug Bot on 2017-12-12T23:42:44.541Z
+
+
+### Ah well. This issue is back, moving back to verified bugs.
+Canary 8995 on W10 Pro 1709. - Tarek on 2017-12-21T15:32:54.169Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Tarek on 2017-12-21T15:32:58.520Z
+
+
+### CNR anymore on Canary 9013. Moving to claimed fixed. - Tarek on 2017-12-21T22:16:14.577Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2017-12-21T22:16:20.219Z
+
+
+### Can't reproduce.
+CNR Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9959
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T17:59:22.629Z
+
+
+### Can't reproduce.
+CNR, shows 24hr time, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T20:58:01.594Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T21:47:11.768Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T22:10:34.790Z
+
+
+### Can't reproduce.
+MacBook Pro (late 2013), macOS  Sierra 10.12.1, Discord Canary build 9959
+
+JustGamer#9787 - Bug Bot on 2018-01-26T23:35:14.624Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2018-01-26T23:41:41.154Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:23:38.527Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:23:39.234Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

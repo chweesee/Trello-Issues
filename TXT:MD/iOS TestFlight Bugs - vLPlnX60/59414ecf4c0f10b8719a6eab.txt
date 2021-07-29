@@ -1,0 +1,153 @@
+[Archived] Code blocks containing an empty line with text before and after them don't format properly. (https://trello.com/c/r83EsHrP)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-06-14T14:57:19.472Z
+Latest Update: 2019-07-13T20:00:25.227Z
+
+Reported by TellowKrinkle#5281
+
+####Steps to reproduce:
+- Type (or have someone else type) a code block that has text before it, after it, and an empty line inside of it. A simple one is a\`\`\`
+
+\`\`\`a. 
+- View it on iOS discord.
+
+####Expected result:
+The stuff in the code block should be formatted as a code block
+####Actual result:
+No formatting is applied and you see a bunch of backticks followed by your code block's text followed by some more backticks.
+####Client settings:
+iOS App Store, 1.8.7
+####System settings:
+iPhone 7, iOS 10.3.3 (14G5037b)
+
+1625
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-14T14:57:19.472Z
+
+
+### Seth#4431 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59414ecf4c0f10b8719a6eab/62842d0a1b8b64b9f56bfc45563f36fd/s2PC6uY.png added by Bug Bot on 2017-06-14T14:57:22.300Z
+
+
+### Can reproduce.
+CR  iPhone 7 iOS 10.2.1, Discord 1.8.3
+
+Chewie#5684 - Bug Bot on 2017-06-14T14:57:24.163Z
+
+
+### Can reproduce.
+can reproduce,  Iphone SE iOS 10.3.2, 1.8.7
+
+Tim_The#7618 - Bug Bot on 2017-06-14T14:57:25.904Z
+
+
+### Can reproduce.
+ iOS 10.3 14E277, Discord 1.8.7 Can reproduce
+
+Seth#4431 - Bug Bot on 2017-06-14T14:57:27.931Z
+
+
+### Verified.  - Clayton on 2017-06-22T22:23:14.157Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-22T22:23:19.424Z
+
+
+### Can reproduce.
+iPhone 5c, iOS 10.3.2, latest Discord client
+
+InkxtheSquid#8052 - Bug Bot on 2017-06-26T19:49:15.354Z
+
+
+### Can't reproduce.
+Discord 1.8.8, iOS 10.2, iPad mini 4
+
+Sloofy#9106 - Bug Bot on 2017-07-05T20:19:33.139Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236) | Make sure that you test it with an emtpy line in the codeblock, see my attached image for an example
+
+Pascal#0929 - Bug Bot on 2018-01-27T10:37:25.482Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59414ecf4c0f10b8719a6eab/6ddb5775cd3a45e7f5347f97734a18bd/mU3tnDI.png added by Bug Bot on 2018-01-27T10:38:09.601Z
+
+
+### I can still reproduce. 
+
+Discord 2.2.1 (2236), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-01-28T11:37:13.991Z
+
+
+### **Extension to this issue**
+This also happens with single line code blocks by using only one backtick.
+
+Pascal#0929 - Bug Bot on 2018-01-28T12:13:16.275Z
+
+
+### **Another extension**
+The issue seems to be a general Markdown bug because it also happens with bold, italics, etc. Maybe that changes the priority?
+
+Pascal#0929 - Bug Bot on 2018-03-25T19:30:57.494Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 11.4 beta (15F5049c), TF 2.3.0 (3817)
+
+クリス#0001 - Bug Bot on 2018-04-22T18:39:44.955Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4528)
+
+Xylium#1480 - Bug Bot on 2018-05-21T01:26:06.141Z
+
+
+### Can reproduce.
+iPhone 7 Plus iOS 11.4 (15F79) - Discord 2.3.3
+
+TwistedKindred#0796 - Bug Bot on 2018-06-30T04:10:26.263Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:25.921Z
+
+
+### Can reproduce.
+Can still Reproduce this on iPhone 6, iOS 12 (dev beta 12) - TestFlight 2.3.8 (7106)
+
+Xylium#1480 - Bug Bot on 2018-09-10T07:09:25.806Z
+
+
+### Unarchived by Clayton on 2018-09-10T07:30:04.345Z
+
+
+### Also happens with the new Spoiler feature
+
+Pascal#0929 - Bug Bot on 2019-01-26T08:44:07.471Z
+
+
+### Can reproduce.
+iPhone 8+ iOS 11.4 (discord ver 2.5.1) I can reproduce this easily, and can also work around it by adding a blank line before and after the code block. This album shows the issue and workaround: https://imgur.com/gallery/ZJNYt0F
+
+pool n00dle#4242 - Bug Bot on 2019-04-13T18:04:35.333Z
+
+
+### Can reproduce.
+ios
+
+DK#8114 - Bug Bot on 2019-05-07T04:42:30.225Z
+
+
+### Archived by Bug Bot on 2019-07-13T20:00:25.240Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

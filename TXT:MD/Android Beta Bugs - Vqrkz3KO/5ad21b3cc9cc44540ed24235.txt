@@ -1,0 +1,94 @@
+[Archived] Attempting to login to a 2FA enabled account with the clipboard empty crashes the app. (https://trello.com/c/ufzcbjgX)
+
+None
+
+Created: 2018-04-14T15:16:12.960Z
+Latest Update: 2018-07-06T21:18:33.604Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Ensure that your clipboard is completely empty(The easiest way to do this is by rebooting your device.) 
+- Login with a 2FA enabled account.
+
+####Expected result:
+You should be shown the screen to enter a 2FA code.
+####Actual result:
+Discord crashes.
+####Client Settings:
+Discord Alpha 6.4.9
+####System settings:
+Moto G5 Plus Android 8.1
+
+10722
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-14T15:16:12.960Z
+
+
+### Can reproduce.
+Can Reproduce, Asus Zenfone 3, Android 7.0, Discord Alpha 6.4.8
+
+Doges#0001 - Bug Bot on 2018-04-14T15:16:20.620Z
+
+
+### Can reproduce.
+CR, OnePlus 5T, Android 8.0, Discord Alpha 6.4.8 | CR, Android 8.0 Emulator, Discord Alpha 6.4.8
+
+LaBloske#5701 - Bug Bot on 2018-04-14T15:16:25.749Z
+
+
+### Can reproduce.
+Could repro only after rebooting device, using an external app to clear clipboard had no effect. Discord Alpha 6.4.9,  Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-04-14T15:16:30.627Z
+
+
+### Can reproduce.
+Wiko LENNY2 version 8, Android 5.1, Android Alpha 6.4.9
+
+MoonlightCapital#0554 - Bug Bot on 2018-04-14T15:16:32.519Z
+
+
+### I had the following error in logcat. " Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'int android.content.ClipData.getItemCount()' on a null object reference"
+
+webhp#1337 - Bug Bot on 2018-04-14T15:17:07.946Z
+
+
+### Doges#0001 - https://youtu.be/yQjdrf2rKSc added by Bug Bot on 2018-04-14T15:27:43.581Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 Emerge, Android 6.0.1, Alpha 6.4.9
+
+Purpzie#0001 - Bug Bot on 2018-04-14T16:21:35.158Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Android 8.0 | Discord Alpha 6.4.9 | when I updated to 8.0 yesterday, my phone was completely wiped, so I reinstalled discord, and I tried to log in but as soon as I clicked log in the screen dimmed, then the app crashed. Had to leave and rejoin the beta to get it to work. (Please note the above if you encounter this problem otherwise it continues forever)
+
+FoxyKero#1269 - Bug Bot on 2018-04-14T16:48:25.265Z
+
+
+### Can reproduce.
+LG G6, Android 7.0, Discord Alpha 6.4.9
+
+Wopp3r#5031 - Bug Bot on 2018-04-15T16:49:04.546Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-04-16T18:04:26.464Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:18:32.889Z
+
+
+### Archived by Jared on 2018-07-06T21:18:33.607Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

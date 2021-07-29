@@ -1,0 +1,77 @@
+Dragging a category, but cancelling it jumbles the channels within (https://trello.com/c/6mKKstXW)
+
+None
+
+Created: 2019-08-26T04:50:42.997Z
+Latest Update: 2020-01-25T02:31:13.625Z
+
+Reported by sandshark#1101
+
+####Steps to reproduce:
+- Create server 
+- Add moderator role with manage channels 
+- Add moderator user 
+- Create category 
+- Create channels a, b, c, d 
+- Sort channels d,c,b,a 
+- hide a few channels on user level for the moderator 
+- Use the mod account to move the channel
+
+####Expected result:
+Keep the sorting of the channels within a category, regardless of if the user that moves the category can see all
+####Actual result:
+Channels are jumbled around in the category
+####Client settings:
+Browser
+####System settings:
+Chrome on linux (ubuntu 16LTS)
+
+41853
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-26T04:50:42.997Z
+
+
+### Wyrd rëisa#7128 - https://www.youtube.com/watch?v=1_7pWtB7I-g&feature=youtu.be added by Bug Bot on 2019-08-26T04:50:45.414Z
+
+
+### GlenMerlin#2119 - https://youtu.be/9sDl2qgOuZM added by Bug Bot on 2019-08-26T04:50:45.434Z
+
+
+### Can reproduce.
+CR - All channels seen by the user go up in first position, then 3rd, 4th.... The channel in 2nd position is not seen by the user - Ubuntu 18.04.1 LTS 64-bit  • Discord version stable • Build  44004
+
+Wyrd rëisa#7128 - Bug Bot on 2019-08-26T04:50:50.458Z
+
+
+### Can reproduce.
+Could reproduce, Ubuntu 18.04.02 LTS, PTB 44333
+
+Action Potential#6862 - Bug Bot on 2019-08-26T04:50:55.450Z
+
+
+### Can reproduce.
+Reproducible; Pop_Os 18.04 LTS; Canary 44396
+
+Menny#0456 - Bug Bot on 2019-08-26T04:51:00.479Z
+
+
+### Can reproduce.
+CR; Arch Linux 5.2.9-arch1-1-ARCH; Release Channel: canary, Build Number: 43884
+
+Emma#6775 - Bug Bot on 2019-08-26T13:15:12.897Z
+
+
+### Can reproduce.
+CR; Arch Linux 5.2.9-arch1-1-ARCH; Release Channel: canary, Build Number: 44396
+
+Emma#6775 - Bug Bot on 2019-08-26T13:16:01.934Z
+
+List
+====
+User Reported
+
+Members
+=======
+None

@@ -1,0 +1,70 @@
+[Archived] Streamer Mode completely disables the from: and mentions: filters in search, as opposed to just hiding the User Discrims (https://trello.com/c/wRMzZQoo)
+
+None
+
+Created: 2017-01-07T23:17:53.486Z
+Latest Update: 2017-10-17T21:20:11.280Z
+
+Reported by Enharmonic#3999
+
+####Steps to reproduce: 
+- Start streamer mode 
+- Attempt to search using a from: filter or a mentions: filter 
+
+####Expected result:
+ Search behaves like normal mentions do in streamer mode, and shows a list of usernames and avatars, just without the discrims. 
+####Actual result:
+ The search filters become completely disabled. Even manually typing them does not work.
+
+Card Log
+========
+### Added by Jared on 2017-01-07T23:17:53.486Z
+
+
+### Can reproduce.
+Windows 8.1, Latest Canary
+
+七海 千秋 ★★★★#9667 - Jared on 2017-01-07T23:17:53.988Z
+
+
+### Can reproduce.
+Can repro. Win7, Canary
+
+MetalChain2#6372 - Jared on 2017-01-07T23:17:54.093Z
+
+
+### Can reproduce.
+Discord Canary for OSX 0.0.141
+
+ItsPugle#5963 - Jared on 2017-01-11T12:22:39.601Z
+
+
+### mralext20#8975 - https://youtu.be/ntkxO7w_rA8 added by Jared on 2017-01-11T12:49:18.112Z
+
+
+### Can reproduce.
+latest canary on windows 10
+
+Oasis#4730 - Jared on 2017-01-15T09:12:19.001Z
+
+
+### Won't fix.
+
+There is no way to remove the user discrims from the search. It's not chat, it's like a screenshot of what happened. - Jared on 2017-01-17T21:13:06.027Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-01-17T21:13:13.349Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:20:10.499Z
+
+
+### Archived by Jared on 2017-10-17T21:20:11.284Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

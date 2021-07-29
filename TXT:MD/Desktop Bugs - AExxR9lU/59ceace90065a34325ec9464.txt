@@ -1,0 +1,113 @@
+[Archived] Search only contains results from first channel of channels with same name when using "cmd/ctrl" + "f" (https://trello.com/c/sdNUIDeG)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-09-29T20:28:25.649Z
+Latest Update: 2018-07-06T17:44:16.030Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create 2 (or more) channels with the same name like "Test" 
+- Make sure there are messages in both channels 
+- Open second "Test" channel (make sure it isn't the first one) 
+- Use `ctrl/cmd` + `f` there to open the search with channel filter 
+- Click enter 
+- Observe the search results
+
+####Expected result:
+Search should only contain results from the second "Test" channel
+####Actual result:
+Search will always only contain results from the first "Test" channel
+####Client settings:
+Discord Canary, 0.0.155
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13
+
+4956
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-29T20:28:25.649Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Creators Update | Canary 0.0.164
+
+Rauf#3260 - Bug Bot on 2017-09-29T20:28:33.104Z
+
+
+### Can reproduce.
+Dell inspiron (2014 model) Windows 10 Pro 64-bit, x64-based processor, Discord Canary 0.0.163 Build 5085
+
+AviationMaster#4793 - Bug Bot on 2017-09-29T20:28:38.126Z
+
+
+### Can reproduce.
+CR, Discord Canary Build 5085, Ubuntu 17.04
+
+Anorak#5830 - Bug Bot on 2017-09-29T20:28:43.103Z
+
+
+### Can reproduce.
+MacBook Air (early 2015, 13inch) macOS Sierra 10.12.6 | 0.0.155
+
+SmoothModeler#3669 - Bug Bot on 2017-09-29T20:39:43.195Z
+
+
+### Can reproduce.
+Linux Mint 18 + Openbox, Discord Canary 0.0.24
+
+cloudrac3r#5547 - Bug Bot on 2017-09-29T20:42:15.616Z
+
+
+### Can reproduce.
+MacBook Air (13-inch, Early 2015), Discord Canary 0.0.154
+
+Cheezybob99#9866 - Bug Bot on 2017-09-30T05:55:07.804Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit build 15063.608, Canary 0.0.164
+
+Tinh1000000#4437 - Bug Bot on 2017-10-01T04:31:48.309Z
+
+
+### Verified. - Jared on 2017-10-03T21:35:05.900Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-03T21:35:21.248Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:49:19.973Z
+
+
+### Moved from Next up for investigation to Fix made, not yet released by Stanislav Vishnevskiy on 2017-11-27T03:11:44.812Z
+
+
+### Fixed, cannot reproduce anymore. Canary 7750. It will actually now show "test~1" when you open search in the second channel, and the search window shows content from the second channel.
+Moving to claimed fixed. - Tarek on 2017-11-29T10:34:15.339Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2017-11-29T10:34:21.610Z
+
+
+### Verified Fixed - Jared on 2017-11-29T20:03:49.879Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-11-29T20:03:54.926Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-30T08:31:17.271Z
+
+
+### Archived by Alexandru Todea on 2017-12-30T08:31:18.657Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/svishnevskiy) - No Bio

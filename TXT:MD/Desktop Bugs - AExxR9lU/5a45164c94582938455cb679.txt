@@ -1,0 +1,81 @@
+[Archived] [90% ZOOM] The line between the text box and the messages flicker when hovering over user avatars' in chat. (https://trello.com/c/G3o8Fq9d)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-12-28T16:05:32.870Z
+Latest Update: 2018-02-22T20:13:05.480Z
+
+Reported by JaKe#1817
+
+####Steps to reproduce:
+- Be in Cozy Mode 
+- Go to any server, any channel 
+- Hover your mouse over a user's avatar in chat 
+- Observe the flickering line
+
+####Expected result:
+Line shouldn't flicker
+####Actual result:
+Line flickers
+####Client settings:
+Canary 0.0.194 (Build 9070)
+####System settings:
+Windows 7 Professional x64 (7601)
+
+7413
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-28T16:05:32.870Z
+
+
+### JaKe#1817 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a45164c94582938455cb679/3bb35e4ac0f7d3fc4c3b655820e861dd/eR6mrXa.gif added by Bug Bot on 2017-12-28T16:05:35.325Z
+
+
+### Can reproduce.
+cr win10 x64 home on canary 9070
+
+ks0908#8526 - Bug Bot on 2017-12-28T16:05:40.257Z
+
+
+### Can reproduce.
+CR, Discord Build 9070, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2017-12-28T16:05:45.377Z
+
+
+### Can reproduce.
+Canary 9070, W10 1709
+
+Tarek1337#0379 - Bug Bot on 2017-12-28T16:05:50.229Z
+
+
+### This smells like an electron issue...
+ - Jared on 2018-01-02T19:04:07.982Z
+
+
+### Cannot reproduce. - Jared on 2018-01-02T19:23:55.202Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-01-02T19:23:59.586Z
+
+
+### Can reproduce.
+Still Can Reproduce This, Windows 7 Professional x64 (7601), Canary 0.0.197 (Build 9542); As per Jared said, it's an electron issue.
+
+JaKe#1817 - Bug Bot on 2018-01-19T19:17:45.168Z
+
+
+### Archived due to being inactive for a month without any further activity and is marked as Cannot reproduce. - Tarek on 2018-02-22T20:13:04.243Z
+
+
+### Archived by Tarek on 2018-02-22T20:13:05.482Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

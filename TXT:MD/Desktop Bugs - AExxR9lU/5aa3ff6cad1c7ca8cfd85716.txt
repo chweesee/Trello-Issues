@@ -1,0 +1,91 @@
+[Archived] Mentioning Multiple Roles separately in the Channel Topic shows the wrong color until you switch the channel (https://trello.com/c/AmmLx2zY)
+
+P3: Will get fixed eventually,
+Low,
+Client side,
+text
+
+Created: 2018-03-10T15:53:16.334Z
+Latest Update: 2018-10-22T20:18:53.289Z
+
+Reported by » a r i a#1593
+
+####Steps to reproduce:
+
+- mention one colored role in the channel topic you are viewing 
+- save, look at the channel 
+- now mention another colored role in the same topic, before the other role
+
+####Expected result:
+Both roles should show their appropriate colors
+####Actual result:
+The roles will have the same color as the first mentioned role, until you switch channels
+####Client settings:
+Discord PTB Build Number 11827 (Version Hash: 0ca594515d14a144ac9755c4ce0b2f399d60edac) / Discord Canary Build Number 11842 (Version Hash: 75b409e3eab0b2f27d20e162121f5f011193e014)
+####System settings:
+Windows 10 Pro x64
+
+9483
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-10T15:53:16.334Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aa3ff6cad1c7ca8cfd85716/c876c65d5ac6c1f2767b18bf9a89c8e9/296d16.png added by Bug Bot on 2018-03-10T15:53:18.956Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aa3ff6cad1c7ca8cfd85716/2ac3eae2f4e994eeb556a275fe1e0a26/d30a9c.png added by Bug Bot on 2018-03-10T15:53:19.224Z
+
+
+### Can reproduce.
+CR Canary 11882 Win10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-03-10T15:53:23.839Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 11882
+
+Kuuhaku#4503 - Bug Bot on 2018-03-10T15:53:28.839Z
+
+
+### Can reproduce.
+Win10, 64bits • Canary Build Number: 11882
+
+fujhofn.#0878 - Bug Bot on 2018-03-10T15:53:33.801Z
+
+
+### Can't reproduce.
+Windows 7 pro x86, Canary 11882
+
+Flamenate#7200 - Bug Bot on 2018-03-10T18:01:55.331Z
+
+
+### Cannot reproduce, Stable 12232, Canary 12269, PTB 12230. Moving to CNR. - Tarek on 2018-03-19T09:13:29.696Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2018-03-19T09:13:37.259Z
+
+
+### I can repro now on Canary. moving to verified bugs. - Tarek on 2018-03-19T17:19:34.472Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Tarek on 2018-03-19T17:19:45.144Z
+
+
+### Can reproduce.
+This now also happens if you edit a message that has a tagged role in it, change it to another tagged role. The old color stays until you switch channels | Windows 10 Pro x64, Release Channel: Canary 12458
+
+» a r i a#1593 - Bug Bot on 2018-03-23T01:37:06.382Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:53.292Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

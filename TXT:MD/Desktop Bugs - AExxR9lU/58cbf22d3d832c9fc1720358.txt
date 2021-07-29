@@ -1,0 +1,88 @@
+[Archived] UI problems with streamer mode (https://trello.com/c/crbXwjMF)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-03-17T14:26:53.768Z
+Latest Update: 2017-12-02T17:11:16.623Z
+
+Reported by Feierwoerx#9761
+
+####Steps to reproduce: 
+- Open your user settings 
+- Go to the section "Streamer Mode" 
+- Enable it 
+- Click "Keybind settings" *below the checkbox* 
+- When it says "Streamer mode enabled" **RIGHT**click the purple button once. Then **LEFT**click "Done" 
+
+####Expected result:
+1. Keybind menu does not exist and 
+2. It would close the settings menu.
+ 
+####Actual result:
+  Beside the fact that the keybinds menu does not normally exist in the web app, the UI is completely frozen (it still highlights the buttons) and you can only get out by page reload. 
+
+####System settings:
+ Linux Chrome Web App
+
+2027
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-17T14:26:53.768Z
+
+
+### Can reproduce.
+macOS Opera Discord Web Stable
+
+Harrison#9100 - Bug Bot on 2017-03-17T14:26:54.490Z
+
+
+### Can reproduce.
+Win10 x64 web
+
+Mikesky#3456 - Bug Bot on 2017-03-17T14:26:56.820Z
+
+
+### Can reproduce.
+Vivaldi
+
+Kurai#1637 - Bug Bot on 2017-03-17T14:26:58.511Z
+
+
+### I think this is fixed with the new ui? - Jared on 2017-03-21T22:04:26.412Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-03-21T22:05:14.509Z
+
+
+### Can reproduce.
+Windows 10 x64 Anniversary Update Canary 0.0.154. Is not fixed with the new UI settings, for me at least.
+
+OGNovuh#0014 - Bug Bot on 2017-05-21T00:51:00.667Z
+
+
+### This only happens with the web app. Thats what wasn't made clear. - Jared on 2017-07-31T23:00:54.637Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2017-07-31T23:01:00.456Z
+
+
+### So, this actually isn't a bug. It's a bug of a bug. The actual bug that needs to be fix is that you can access the keybind menu in the web app. - Jared on 2017-10-25T23:08:41.605Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2017-10-25T23:08:46.428Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:11:15.400Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:11:16.625Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

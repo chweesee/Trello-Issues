@@ -1,0 +1,275 @@
+[Archived] Discord either softlocks or crashes upon viewing a specific gif (in a loop now) (https://trello.com/c/rFdB1u1y)
+
+mid,
+P1 - Severe
+
+Created: 2017-09-18T21:03:57.714Z
+Latest Update: 2019-07-27T15:10:41.050Z
+
+Reported by Blizzyrd#7909
+
+####Steps to reproduce:
+- Have someone *or yourself* post a gif such as this one  
+- Preview the gif  
+- App crashes and sometimes gets stuck in a loop
+
+####Expected result:
+You should be able to preview the gif without crashing
+####Actual result:
+You crash and sometimes get stuck in a loop
+####Client settings:
+iOS TestFlight 1.9.1(665)
+####System settings:
+iOS 11, iPhone 6s
+
+4496
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-18T21:03:57.714Z
+
+
+### Blizzyrd#7909 - undefined added by Bug Bot on 2017-09-18T21:04:00.005Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 10.3.3, TestFlight 1.9.1 (665)
+
+Pascal#0929 - Bug Bot on 2017-09-18T21:04:05.051Z
+
+
+### Can reproduce.
+iOS 10.3.3, Discord Stable 1.9.0
+
+JBYoshi#5551 - Bug Bot on 2017-09-18T21:04:10.080Z
+
+
+### Can reproduce.
+CR, TestFlight 1.9.1 (665), iPhone 7, iOS 10.3.3
+
+QwakGoesDuck#9672 - Bug Bot on 2017-09-18T21:04:15.089Z
+
+
+### oof.gif - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59c034bd121884abb95d07bb/6734a25c26ccec163280732317715bc4/oof.gif added by Jared on 2017-09-18T21:11:11.116Z
+
+
+### Verified - Jared on 2017-09-18T21:11:54.515Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-09-18T21:12:02.098Z
+
+
+### Can reproduce.
+iPhone 6S iOS 10.3.3
+
+P317#3566 - Bug Bot on 2017-09-18T21:26:51.390Z
+
+
+### Can't reproduce.
+Discord: Latest test flight (1.9.1), IOS: 11 GM, Model iPad Pro 9.7
+
+nathanielcwm#3522 - Bug Bot on 2017-09-23T15:04:03.856Z
+
+
+### Ghoul#0009 - https://www.youtube.com/watch?v=H1vGtp5yHWk&feature=youtu.be added by Bug Bot on 2018-01-27T21:46:15.730Z
+
+
+### Apparently, as of 1/27/18 on testing. I cannot make my app to crash by viewing this specific gif on iPhone 8 + running iOS 11.3 (Public Beta 1) and using Discord TestFlight 2.2.1 (2236). I have however asked my fellow BHs who have varying devices from iPhone 5S to iPhone X, and they crashed.
+
+Ghoul#0009 - Bug Bot on 2018-01-27T21:47:46.039Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.6, TestFlight 2.2.5 (3054)
+
+mouse#0091 - Bug Bot on 2018-03-16T08:34:57.280Z
+
+
+### I cannot get the app to crash, but the full screen transition is very slow on my end when I tap on the gif, other people seem to be able to reproduce it on different devices, so I am not marking the report as fixed.
+
+Discord 2.2.5 (3054), iOS 11.2.6, iPhone 8 Plus - Alexandru Todea on 2018-03-16T18:09:59.871Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.6 (3440)
+
+HeroGamers#0001 - Bug Bot on 2018-03-24T19:48:25.082Z
+
+
+### Can reproduce.
+Can Reproduce this on iPhone 6 - iOS 11.4 Stable 2.3.1
+
+Xylium#1480 - Bug Bot on 2018-05-02T19:26:05.955Z
+
+
+### This gif: https://cdn.discordapp.com/attachments/217764019661045761/441318040110366770/2018-05-02_15-13-26.gif is crashing the iOS devices. Noting so it can be recorded.
+
+Ghoul the Kitty#0009 - Bug Bot on 2018-05-02T19:28:50.815Z
+
+
+### Can reproduce.
+CR - but only with a few gif’s. | Iphone SE IOS 12 Beta 5 - Testflight Discord 2.3.6 (6755)
+
+Rubenvds#5257 - Bug Bot on 2018-08-14T18:00:16.454Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 11.4.1, TF 2.3.7 (6968)
+
+Rexogamer#1183 - Bug Bot on 2018-09-02T19:39:03.252Z
+
+
+### Archived by Clayton on 2018-10-02T20:00:02.411Z
+
+
+### Can reproduce.
+Discord TestFlight 2.4.0/iPhone 7+, iOS 12.0.1
+
+Incognito#0627 - Bug Bot on 2018-10-29T05:30:30.667Z
+
+
+### Can reproduce.
+Can still reproduce this , iPhone XR, ios 12.1 , TestFlight 2.4.0 (8921)
+
+🍂nickWtn🍂#3789 - Bug Bot on 2018-11-28T04:03:15.619Z
+
+
+### Can reproduce.
+iPad Air (iOS 12.1.1) - Tesflight 2.4.2 (10685)
+
+gianna#0248 - Bug Bot on 2019-01-16T16:33:24.918Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.3 Beta (16D5032a) - TestFlight 2.4.2 (10773)
+
+Isabel#0002 - Bug Bot on 2019-01-24T08:45:58.720Z
+
+
+### Another example - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59c034bd121884abb95d07bb/c5a4b36517b690ecb8f1e43fcee39c41/fREw3TF8ZL.gif added by Ghoul on 2019-01-30T01:10:43.921Z
+
+
+### Added another example as the oof.gif no longer crashes me on iPhone XS Max running iOS 12.1.3 (Beta 4) with iOS TestFlight 2.4.4 (10993) but I am crashing with the new attachment. - Ghoul on 2019-01-30T01:11:38.043Z
+
+
+### Unarchived by Bug Bot on 2019-01-31T20:09:11.206Z
+
+
+### Can reproduce.
+CR with the gif that was attached on bug 28254 - iPhone SE, iOS 11.1.2 - Discord TestFlight 2.4.4 (11051)
+
+Arnold0#7514 - Bug Bot on 2019-02-06T21:42:04.797Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11524)
+
+Daffyduck#5364 - Bug Bot on 2019-02-24T17:27:00.778Z
+
+
+### Can reproduce.
+[Can Reproduce] • iPad Pro 2016 (A1673) - iOS 12.1.4 • TestFlight 2.4.5 (11561)
+
+k_fizzel#8616 - Bug Bot on 2019-03-01T06:43:14.566Z
+
+
+### Can reproduce.
+CR, iPhone X, TestFlight 2.4.5 (11561)
+
+TheForbiddenAi#7549 - Bug Bot on 2019-03-03T05:43:04.161Z
+
+
+### I can still reproduce as of iOS TestFlight 2.4.6 (12095) on iPhone XS Max running iOS 12.2 Dev Beta 2. 
+
+However, this issue has worsen. With the introduction of autoplay - there are some big gifs such as https://i.imgur.com/KASbnvz.gif that will send the iOS users into a crash-loop if they don't manage to escape from the channel in time.
+
+This was discovered when a Bug Hunter crashed in bug-approval-queue when viewing the channel. They had auto-play on which caused the crash. 
+
+This seems to be the same root cause of this bug as it's loading the gif, but it will crash before it's fully done loading. 
+
+I've talked with Dannysaur about it because this bug was p3 mid, and it was agreed that we will be raising it to p2 mid, and we will be moving this to notable issues for the iOS devs to check. 
+
+I feel like this would be appropriate because as the autoplay expands, it is going to be likely that this bug will worsen more and people will use it to abuse this bug. 
+
+Tagging @clayton301 so he's aware of it as well. - Ghoul on 2019-03-13T18:32:41.525Z
+
+
+### Moved from Backlog to Notable Issues by Ghoul on 2019-03-13T18:32:51.542Z
+
+
+### Moved from Notable Issues to Backlog by Victoria on 2019-05-08T21:13:34.141Z
+
+
+### This bug has been raised from P2 mid to P1 as it has worsen once again. 
+
+When you have the gif as the most recent message (i.e. bug approval queue where gifs are attached 99.9% of the time) - it has been noted to cause the iOS devices to either soft-lock (new behavior) or crash completely but when they reopen Discord.. it is going into a loop which is not the behavior that we want.
+
+Basically the new steps to reproduce are:
+- Upload a large gif
+- View the channel on iOS
+- Observe of how the device behaves.
+
+I have previously recommended for them to disable Autoplay as it helped in the past - however, due to the bug that despite of the autoplay gif option being disabled... it still plays regardless which escalated this issue pretty much. I will be linking the ticket about it once it has been approved in the bug queue.
+
+This is happening on iOS TestFlight 3.0.2 (15113). I am also going to be moving this to notable issues, and will bring this up with someone. - Ghoul on 2019-05-22T18:43:28.277Z
+
+
+### Moved from Backlog to Notable Issues by Ghoul on 2019-05-22T18:43:34.308Z
+
+
+### Moved from Notable Issues to Claimed Fixed Bugs by Victoria on 2019-05-22T23:43:11.894Z
+
+
+### Moved from Claimed Fixed Bugs to Fix made, not yet released by Victoria on 2019-05-22T23:43:13.260Z
+
+
+### CNR as of 302 (15173) on iPhone XS Max running iOS 12.3 Dev Beta 1, I no longer crash.
+
+Moving to claimed fixed. - Ghoul on 2019-05-23T03:20:24.417Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Ghoul on 2019-05-23T03:20:29.962Z
+
+
+### Can reproduce.
+TF 3.0.2 (15173) • iPhone 7 Plus, iOS 12.3 - softlocking occurs while gif is loading
+
+✨✨#0001 - Bug Bot on 2019-05-23T03:51:40.638Z
+
+
+### Can reproduce.
+Can still reproduce when either creating a new channel and posting the newly attached gif in that created channel or by switching back to that channel on: iPhone 6, iOS 12.4 (dev beta 2) - TestFlight 3.0.2 (15173)
+
+Xylium#5800 - Bug Bot on 2019-05-23T05:45:08.639Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, TF 3.0.2 (15173)
+
+OrangeM24#5746 - Bug Bot on 2019-05-23T15:05:26.549Z
+
+
+### Moved from Claimed Fixed Bugs to Backlog by Bug Bot on 2019-05-23T15:05:26.776Z
+
+
+### Moved from Backlog to Notable Issues by Pascal on 2019-05-23T16:14:48.222Z
+
+
+### closing this as being able to turn off autoplay should resolve this problem. - Victoria on 2019-05-23T20:55:31.664Z
+
+
+### Moved from Notable Issues to Verified Fixed by Victoria on 2019-05-23T20:55:38.183Z
+
+
+### This issue is now hopefully fixed as of TestFlight 3.0.4 (15896) even though when gif autoplay is enabled along with the fix for: https://trello.com/c/kVaQ1g85 - Pascal on 2019-06-20T09:39:51.659Z
+
+
+### Archived by Pascal on 2019-07-24T10:04:13.752Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

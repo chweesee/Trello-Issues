@@ -1,0 +1,104 @@
+double text when adding user by name (https://trello.com/c/Z9TdNBhw)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-04-25T01:55:49.951Z
+Latest Update: 2019-10-03T11:05:05.607Z
+
+Reported by Jaker#0001
+
+####Steps to reproduce:
+- click the the "add friend" button in your friends list 
+- type anything
+
+####Expected result:
+display one text
+####Actual result:
+display two text (a more transparent one behind the opaque one, also shouldn't the "#" be on the keyboard)
+####Client settings:
+TestFlight 2.3.0
+####System settings:
+iPhone 7 plus, iOS 11.2.6
+
+11251
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-25T01:55:49.951Z
+
+
+### Q__Q#8008 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5adfe0253cbd63c2e4ab78b2/ee02fc3b072544822adebb5a9569c595/image.png added by Bug Bot on 2018-04-25T01:55:52.476Z
+
+
+### dal#0780 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5adfe0253cbd63c2e4ab78b2/1554457f6204aec16cd30d6d78d46ce6/image.png added by Bug Bot on 2018-04-25T01:55:52.518Z
+
+
+### Can reproduce.
+Can reproduce. I've noticed this for some time now but never really paid attention to it. iPhone 6s iOS 11.4, TestFlight 2.3.0 (3817)
+
+dal#0780 - Bug Bot on 2018-04-25T01:55:57.353Z
+
+
+### Can reproduce.
+Can Repro. I’m able to see what reporter is seeing (attached image). There is a “drop shadow” above the text. It seems like your eyes are unfocused but it’s really the text. Also visible without zoom. Able to constantly repro. Also, for the # placement question, that is intended. The “search keyboard” has a Search Button in place of the @ and # button on the bottom right. That is intended on Apple’s side. The @ and # on the bottom right appears on the “regular keyboard.” iPhone 8 iOS 11.3 TF 2.3.p (3817)
+
+Q__Q#8008 - Bug Bot on 2018-04-25T01:56:02.309Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 11.4 — Discord TestFlight 2.3.0 (3817). It is extremely hard to see, make sure you take a screenshot and zoom in the screenshot so you can see the issue.
+
+Ghoul#0001 - Bug Bot on 2018-04-25T01:56:07.325Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:50:59.347Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:51:07.543Z
+
+
+### Can reproduce.
+Still able to repro; iOS 12 Dev Beta 2, TestFlight 2.3.4 (5560)
+
+mouse#0091 - Bug Bot on 2018-07-01T18:21:57.563Z
+
+
+### I can still reproduce this bug as of Discord TestFlight 2.3.4 (5560) on iPhone 8 +, iOS 12 (Dev Beta 2). I can understand why people would assume that it's fixed, but the only good way to check is to take a screenshot then to zoom in the text as shown here: https://cdn.discordapp.com/attachments/391730272388907018/463515978970693650/image.png
+
+You can barely see it, but it's still there. Because I am still able to reproduce this ticket, I will leave it here. - Ghoul on 2018-07-03T01:28:09.615Z
+
+
+### Now it only happens when typing a very long username such as `WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW`
+
+Pascal#0929 - Bug Bot on 2018-08-23T10:36:45.631Z
+
+
+### Archived by Clayton on 2018-09-22T11:00:02.347Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 4), TestFlight 3.1.3 (17389) - This seems to still happen but with a different keyboard like Chinese and Japanese for example.
+
+.Gloria.#9606 - Bug Bot on 2019-09-27T06:15:11.141Z
+
+
+### Unarchived by Bug Bot on 2019-09-27T06:30:08.805Z
+
+
+### Moved from Backlog to Friends List by Pascal on 2019-10-03T07:33:01.052Z
+
+
+### Bild.jpeg - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5adfe0253cbd63c2e4ab78b2/932a6935ffc8401da1a07a6887c1b544/Bild.jpeg added by Pascal on 2019-10-03T11:03:49.678Z
+
+
+### **Extension: Discriminator goes beyond the text field**
+As of the UI redesign introduced with TestFlight 3.1.4 the discriminator can go beyond the text field as you can see in the attached screenshot when the username is long enough. - Pascal on 2019-10-03T11:05:05.622Z
+
+List
+====
+Friends List (Steve)
+
+Members
+=======
+None

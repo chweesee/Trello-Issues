@@ -1,0 +1,68 @@
+No voice chat with ALSA without Pulseaudio. Notification sounds work. (https://trello.com/c/gqhMAxRn)
+
+P2: Can wait awhile,
+mid
+
+Created: 2018-04-13T22:20:55.702Z
+Latest Update: 2020-02-02T04:28:02.475Z
+
+Reported by miyalys#5617
+
+####Steps to reproduce:
+- Have ALSA without PulseAudio 
+- Launch Discord 
+
+- Visit "Voice and Video" settings, join a voice chat and say something and listen when others talk.
+
+####Expected result:
+Identified input/output devices and working voice chat
+####Actual result:
+No input/output devices and no voice chat (notification sounds work)
+####Client settings:
+Discord, Stable 0.0.4
+####System settings:
+Arch Linux x64
+
+10334
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-13T22:20:55.702Z
+
+
+### Can reproduce.
+CR, Ubuntu 16.04, Canary, knew about this one, but not recorded on trello
+
+IcyPebbles!#5833 - Bug Bot on 2018-04-13T22:21:03.111Z
+
+
+### Verified.  - Clayton on 2018-04-18T11:21:23.011Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-04-18T11:21:28.246Z
+
+
+### Can reproduce.
+Ubuntu 18.04, Canary 0.0.49
+
+unnamedauthor#2701 - Bug Bot on 2018-05-16T13:05:33.463Z
+
+
+### Can't reproduce.
+Cannot reproduce, Debian Stretch, Gnome 3.22, Discord Linux Canary 0.0.50 (Build 15434)
+
+Robin#0610 - Bug Bot on 2018-05-17T20:39:49.839Z
+
+
+### Can reproduce.
+Funtoo Linux 1.3, OpenRC, ALSA, X.org
+
+Alexander Sukhoverkhov#5402 - Bug Bot on 2019-04-11T15:11:51.773Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

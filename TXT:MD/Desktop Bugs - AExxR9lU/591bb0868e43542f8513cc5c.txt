@@ -1,0 +1,128 @@
+[Archived] Streamer mode doesn't hide audit log (https://trello.com/c/jXOyYWAX)
+
+P2: Fix can wait a while
+
+Created: 2017-05-17T02:08:06.567Z
+Latest Update: 2019-04-22T07:47:34.303Z
+
+Reported by dsf190#5214
+
+####Steps to reproduce:
+- Enable streamer mode 
+- Create invite code 
+- Check the audit log
+
+####Expected result:
+The invite code should be hidden.
+####Actual result:
+The invite code is shown.
+####Client settings:
+Discord Canary
+####System settings:
+Windows 10 x64
+
+1049
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-17T02:08:06.567Z
+
+
+### Can reproduce.
+MacBook Air 2013, macOS 10.12.4 Canary 0.0.154
+
+Harrison#9100 - Bug Bot on 2017-05-17T02:08:11.080Z
+
+
+### Can reproduce.
+macOS Sierra 10.12.4 • MacBook Air Early 2014 • Canary 0.0.145
+
+ItsPugle#5963 - Bug Bot on 2017-05-17T02:08:13.110Z
+
+
+### Can reproduce.
+Can reproduce, Windows 8.1 x64
+
+守部 洵 ★★★★#9667 - Bug Bot on 2017-05-17T02:08:15.138Z
+
+
+### Can reproduce.
+Windows 10 x64 Latest Canary
+
+marcostudios#5930 - Bug Bot on 2017-05-17T13:20:47.883Z
+
+
+### Can reproduce.
+windows 10 + latest canary
+
+Oasis#4730 - Bug Bot on 2017-05-18T07:01:25.695Z
+
+
+### Doesn't require you to be in streamer mode before making the invite
+
+Oasis#4730 - Bug Bot on 2017-05-18T07:02:24.228Z
+
+
+### This bug is incorrect. The problem isn't that you can see the invites, it's that you can see the _audit logs_ while in streamer mode. That's the bug we should fix. - Jared on 2017-05-18T20:26:25.815Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-05-18T20:26:42.251Z
+
+
+### Can reproduce.
+-2
+
+Akii#2060 - Bug Bot on 2017-05-18T23:08:20.761Z
+
+
+### did NOT mean to do -2 as my flag. What I meant was "Windows 10, latest Discord Canary"
+
+Akii#2060 - Bug Bot on 2017-05-18T23:09:33.001Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2017-05-31T22:20:50.858Z
+
+
+### fixed in next canary - Shadi Isber on 2017-05-31T22:20:56.001Z
+
+
+### image.png - undefined added by Alexander (DJScias) on 2017-06-01T11:42:54.911Z
+
+
+### Checked as of latest canary:
+
+I can no longer reproduce this. Streamer mode hides the audit log completely for me now.
+
+However I have a simple question for @shadiisber . I've noticed that in every other category the name of the category is hidden (like here: http://i.imgur.com/MHabG7W.png). However in Audit Log the white main title is still shown at the top (plus a loading bar for a split second), is this intended? (http://i.imgur.com/69rUO2F.png) - Alexander (DJScias) on 2017-06-01T11:43:31.364Z
+
+
+### Moved from Claimed Fixed, needs Verification to New Verification Setting bugs by Shadi Isber on 2017-06-02T20:04:04.952Z
+
+
+### Can't reproduce.
+Windows 10 Professional x64, Canary 0.0155
+
+IzzyBizzy#2088 - Bug Bot on 2017-06-04T07:15:36.002Z
+
+
+### Moved from New Verification Setting bugs to Verified Bugs by Jared on 2017-06-05T22:42:18.606Z
+
+
+### Verified Fixed. - Jared on 2017-07-31T22:09:37.114Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T22:09:41.175Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:27:11.169Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:27:12.058Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

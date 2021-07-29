@@ -1,0 +1,70 @@
+[Archived] Number of members to be pruned don't get refreshed and shows incorrectly when switching from landscape to portrait mode even after it shows refreshed. (https://trello.com/c/uXusOplr)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-13T02:14:56.049Z
+Latest Update: 2018-08-22T01:22:15.449Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Turn on the auto rotation of your device. 
+- Go to any server in which you have ban and kick members permissions (a large server would be better). 
+- Go to settings, members then prune members at the top right. 
+- It will show you the options to prune members who are inactive for 1 day, 7 day or 30 days. Note the number of members it shows that would be pruned who are inactive for 1 day.  
+- Rotate your device to switch to landscape mode. Notice the number of members are not the same. 
+- Come back to portrait mode, still number of members are not accurate unless you click on the first tab (1 day) and manually refresh the tab.
+
+####Expected result:
+Number of members should appear constant and accurate even after switching from landscape to portrait mode and vice versa.
+####Actual result:
+Numbers aren't shown accurately even when the tab shows little loading circle (refreshing) at the bottom. You can notice the change in a server with many members. (Having no role - prunable)
+####Client settings:
+Discord Alpha 6.6.7
+####System settings:
+Xiaomi Mi A1, Android 8.0.0
+
+12536
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-13T02:14:56.049Z
+
+
+### Ori#1908 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5af79f9f3a2f133bdbf5f665/c73199566942ac82beb902723659ce6a/fake-refresh.gif added by Bug Bot on 2018-05-13T02:14:59.014Z
+
+
+### Can reproduce.
+Can reproduce Discord Alpha 6.6.7(667) , Wiko LENNY2 , Android 5.1
+
+Diogolo#0796 - Bug Bot on 2018-05-13T02:15:03.474Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 667
+
+Xander#0259 - Bug Bot on 2018-05-13T02:15:08.581Z
+
+
+### Can reproduce.
+Can reproduce android 8.0.0 Nokia 5 Discord alpha 6.6.7
+
+Bencey_#8587 - Bug Bot on 2018-05-13T02:15:13.517Z
+
+
+### Verified. Android 7.0, Samsung S6 Edge, 6.6.7 - Clayton on 2018-05-13T02:24:19.570Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-13T02:24:24.629Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:15.452Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

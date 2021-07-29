@@ -1,0 +1,80 @@
+[GNOME] If another app is focused while Discord's window is open behind, Discord won't take the focus when you click "Open DiscordCanary" option on the system tray. Happens only if Discord is not fullscreen (https://trello.com/c/UNgcdeXM)
+
+P3: Will eventually be fixed,
+mid
+
+Created: 2018-10-31T12:15:05.984Z
+Latest Update: 2019-10-17T22:34:46.373Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Discord, and make the window non-fullscreen (I CNR when fullscreened)
+- Open another app (for example a terminal or a text editor), and focus on it (so that Discord's window is behind) 
+- Click on the Discord logo in the system tray 
+- Click "Open DiscordCanary"
+
+####Expected result:
+Discord window should get focused and brought to the top of the other app
+####Actual result:
+Discord window stays behind the other app and the other app's window stays focused
+####Client settings:
+Discord Canary 27140
+####System settings:
+Ubuntu 18.04 LTS (stock GNOME desktop env), 64-bit processor Ryzen 7 2700X
+
+22420
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-31T12:15:05.984Z
+
+
+### Can reproduce.
+ArchLinux x64 - Linux Kernel 4.18.14-1 - GNOME 3.30.1 - Discord Canary Build 27140
+
+Frances Picard#6209 - Bug Bot on 2018-10-31T12:15:13.407Z
+
+
+### Can reproduce.
+Can reproduce. Ubuntu 18.04.1 LTS. Discord Canary 27227
+
+coolalmostchilly#6969 - Bug Bot on 2018-10-31T12:15:18.367Z
+
+
+### Can reproduce.
+Can reproduce Ubuntu 18.04 Discord Canary 27227
+
+Raizyr#8192 - Bug Bot on 2018-10-31T12:15:23.355Z
+
+
+### verified.  - Clayton on 2018-11-03T04:29:08.467Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-11-03T04:29:24.561Z
+
+
+### Can reproduce.
+Linux Mint 19.1, Discord Canary 30235
+
+chaNcharge#7023 - Bug Bot on 2018-12-21T21:11:05.568Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS -- Canary 34126
+
+Defracted#7777 - Bug Bot on 2019-03-16T16:12:36.923Z
+
+
+### Can't reproduce.
+Kubuntu 18.04.1 Canary Build Number: 47539
+
+pmuw koops#6939 - Bug Bot on 2019-10-17T22:34:46.386Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

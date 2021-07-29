@@ -1,0 +1,73 @@
+[Archived] Can't download specific image (https://trello.com/c/ge0WDLCK)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-07T00:48:04.292Z
+Latest Update: 2018-10-22T20:14:55.092Z
+
+Reported by Migaaresno#3544
+
+####Steps to reproduce:
+- Download <https://bennyjacobs.nl/issues/discord/extensions/impromptu-dance-party.webp> to your desktop 
+- Upload file using discord to a channel -
+
+####Expected result:
+Can at least download the file again.
+####Actual result:
+It shows a empty line.
+####Client settings:
+tested and reproducible on linux discord and web discord.
+####System settings:
+stable
+
+2888
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-07T00:48:04.292Z
+
+
+### Link#2436 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5987b8c402866af85be45565/83e46760725bc918af4c3051271bd341/unknown.png added by Bug Bot on 2017-08-07T00:48:07.063Z
+
+
+### Can reproduce.
+Can Reproduce (MacBook Air 10.12.6, Desktop Canary 0.0.154)
+
+ItsPugle#5963 - Bug Bot on 2017-08-07T00:48:11.765Z
+
+
+### Can reproduce.
+can repro Ubuntu 16.04 LTS, Discord Canary 0.0.24
+
+Link#2436 - Bug Bot on 2017-08-07T00:48:16.795Z
+
+
+### Can reproduce.
+can repo Kbuntu 17.10, discord canary 0.0.24
+
+RadioactiveHydra#2570 - Bug Bot on 2017-08-07T00:48:21.801Z
+
+
+### It appears that this is a backend bug; resizing .webp images on Discord's media servers doesn't work. Example: This url shows the image <https://media.discordapp.net/attachments/299141985074282497/343923754604167169/impromptu-dance-party.webp> while this url does not: <https://media.discordapp.net/attachments/299141985074282497/343923754604167169/impromptu-dance-party.webp?width=365&height=300>
+
+Tiemen#0107 - Bug Bot on 2017-08-07T01:13:23.672Z
+
+
+### Verified, low priority. - Jared on 2017-08-07T20:30:59.432Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-07T20:31:07.316Z
+
+
+### It no longer displays as an empty line, but it still fails to render. - Jared on 2018-03-21T20:02:37.600Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:55.095Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

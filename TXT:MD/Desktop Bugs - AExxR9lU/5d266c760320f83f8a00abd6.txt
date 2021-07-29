@@ -1,0 +1,109 @@
+When you set a Custom Status while in a Voice Channel, If you put too much, it doesn't work and doesn't say anything. (https://trello.com/c/Pk8cIT05)
+
+None
+
+Created: 2019-07-10T22:53:42.858Z
+Latest Update: 2020-07-16T21:26:04.429Z
+
+Reported by Blair#7777
+
+####Steps to reproduce:
+- First off, join a voice channel 
+- Second, click the icon next to mute and deafen, which will prompt you to set your voice status 
+- Type something short like 2-3 words or 5 characters 
+- Observe this works 
+- Type something that has like 1000 Characters 
+- Observe when you click the button it does nothing 
+- The characters I used were: HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIHIIIIIIIIIII (This triggered it)
+
+####Expected result:
+It should tell you, "You have reached the max amount of characters". Or atleast respond to you when you click the button
+####Actual result:
+It just stays the same and does nothing.
+####Client settings:
+Desktop Canary 40949 (0.0.246)
+####System settings:
+Windows 10
+
+39445
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-10T22:53:42.858Z
+
+
+### Dragonic#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d266c760320f83f8a00abd6/e30bb7fd6ccea16b7d0fa819059855af/887048f476159e87687da661d5290f90.png added by Bug Bot on 2019-07-10T22:53:45.827Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 40949 ~  NOTE Pasting something in seemed to not work for me... You need to teach the limit and start typing a bit more and it fails
+
+Alipoodle#5025 - Bug Bot on 2019-07-10T22:53:50.578Z
+
+
+### Can reproduce.
+Windown 10, canari 40949
+
+laglobul#0001 - Bug Bot on 2019-07-10T22:53:55.664Z
+
+
+### Can reproduce.
+CR on Dell OptiPlex 5040 running Windows 10 Pro x64 running Chrome Canary 40949
+
+Kaden303#4560 - Bug Bot on 2019-07-10T22:54:00.764Z
+
+
+### Can reproduce.
+Windows 10 Enterprise 1903 x64, Discord PTB 40949
+
+arielbeje#7236 - Bug Bot on 2019-07-11T11:57:29.775Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40981
+
+Xylium#5800 - Bug Bot on 2019-07-11T15:42:57.415Z
+
+
+### Can reproduce.
+Windows 10 x64; Canary 40981
+
+Blair#7777 - Bug Bot on 2019-07-11T15:59:00.380Z
+
+
+### Can reproduce.
+Canary 40981, Host 0.0.246, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-11T18:25:13.914Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40981
+
+Lily#2624 - Bug Bot on 2019-07-11T19:41:25.066Z
+
+
+### Can reproduce.
+CR; Windows 10 Home Edition, 64 bit — Canary, Build Number: 40949
+
+Nith#1337 - Bug Bot on 2019-07-11T23:27:11.163Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 41583 (Host 0.0.247)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-20T19:51:42.174Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | canary 43372
+
+charleskimbac#6492 - Bug Bot on 2019-08-11T03:16:10.452Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

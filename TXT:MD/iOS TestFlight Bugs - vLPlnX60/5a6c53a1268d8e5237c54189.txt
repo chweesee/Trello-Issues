@@ -1,0 +1,103 @@
+[Archived] Infinitely loading save button when changing password with 2FA enabled (https://trello.com/c/Sm0SxCIf)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-27T10:25:37.346Z
+Latest Update: 2019-09-18T10:00:38.432Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Turn on 2FA 
+- Attempt to change your password 
+- In the prompt that appears asking for your 2FA code, cancel it 
+- Observe the "Save" button
+
+####Expected result:
+The Save button stops loading and can be tapped again
+####Actual result:
+The save button infinitely spins, even after leaving the menu and coming back
+####Client settings:
+TestFlight 2.2.1 (2236)
+####System settings:
+iPhone 5s - iOS 9.0.2
+
+8199
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-27T10:25:37.346Z
+
+
+### Can reproduce.
+CR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T10:25:44.764Z
+
+
+### Can reproduce.
+CR, iPhone 8, iOS 11.2.2, TestFlight 2.2.1 (build 2236
+
+JustGamer#9787 - Bug Bot on 2018-01-27T10:25:49.777Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1, TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-27T10:25:54.756Z
+
+
+### Verified - Jared on 2018-02-13T22:48:32.965Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-13T22:48:39.243Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a6c53a1268d8e5237c54189/e23580d7f415fd7d849681a68ed24a5a/ezgif-4-c9e84c90f5.gif added by Bug Bot on 2018-07-14T12:43:42.220Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:38.884Z
+
+
+### Cannot reproduce anymore as of Stable 3.0.7 with iPhone 8 Plus running iOS 12.3.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-20T12:49:50.280Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-07-20T12:49:56.552Z
+
+
+### Unarchived by Pascal on 2019-07-20T12:49:56.623Z
+
+
+### Can't reproduce.
+CNLR. iPhone XR - iOS 13.0 - TestFlight 3.0.6 (16208)
+
+Rage#9991 - Bug Bot on 2019-07-20T12:51:42.472Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 4) - Stable 3.0.7
+
+Xylium#5800 - Bug Bot on 2019-07-20T12:52:04.344Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.6 (16208)
+
+binchlord#0998 - Bug Bot on 2019-07-20T12:54:46.680Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-20T12:54:47.069Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:00:38.454Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

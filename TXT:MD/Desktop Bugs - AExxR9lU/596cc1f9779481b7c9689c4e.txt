@@ -1,0 +1,81 @@
+[Archived] When sending multiple embeddable links, the embeds are showing up in the wrong order. (https://trello.com/c/aPyxrFbG)
+
+P3: Will get fixed eventually
+
+Created: 2017-07-17T13:56:09.211Z
+Latest Update: 2018-10-22T20:14:40.198Z
+
+Reported by Agent#1797
+
+####Steps to reproduce:
+- Paste a link to an image/video that embeds 
+- Don't send the message
+- Pase a second link to an image/video that embeds
+- Send the message
+
+####Expected result:
+The embedded previews are supposed to be in the correct order, ideally.
+####Actual result:
+The embeds simply load and display in the wrong order, different to the order they were linked in.
+####Client settings:
+Desktop, 0.0.297
+####System settings:
+Windows 7 Professional, 64-bit
+
+2319
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-17T13:56:09.211Z
+
+
+### Can reproduce.
+Talked to other bug hunters | CR, Discord Stable 0.0.297 on  Windows 10 Pro 64-Bit on Build 1607
+
+Tarek1337#0379 - Bug Bot on 2017-07-17T13:56:16.814Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home 64-bit v1703, Discord Canary 0.0.158
+
+Curse Broken#8659 - Bug Bot on 2017-07-17T13:56:22.691Z
+
+
+### Can reproduce.
+Can reproduce, Canary 0.0.158  Windows 10 Home Creators Update x64
+
+TTtie#4900 - Bug Bot on 2017-07-17T13:56:26.906Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.150 & Discord 0.0.247, macOS Sierra 10.12.5 (x64)
+
+taco#0634 - Bug Bot on 2017-07-17T19:55:56.747Z
+
+
+### Happens also on YouTube embedds.
+
+Tarek1337#0379 - Bug Bot on 2017-07-17T20:29:25.887Z
+
+
+### Verified.  - Clayton on 2017-07-19T23:12:45.797Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-19T23:12:51.099Z
+
+
+### This is extremely difficult to fix because we show them in the order they resolve, not the order presented. It's possible, but due to the difficulty we're down grading the priority on this. - Jared on 2017-10-17T00:24:32.916Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/596cc1f9779481b7c9689c4e/484f3deae42780e33a519be26b9822cb/2tA3gJ2.png added by Bug Bot on 2018-07-16T06:42:08.541Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:40.200Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

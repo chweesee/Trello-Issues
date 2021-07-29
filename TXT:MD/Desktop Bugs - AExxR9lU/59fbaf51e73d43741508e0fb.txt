@@ -1,0 +1,75 @@
+[Archived] Loosing keyboard focus when using keyboard to switch channels (https://trello.com/c/TRZrYQkG)
+
+P3: Will get fixed eventually
+
+Created: 2017-11-02T23:50:41.341Z
+Latest Update: 2018-07-06T17:59:24.843Z
+
+Reported by holroyMcpe#4637
+
+####Steps to reproduce:
+- Open a random text channel – Hit ⌘-K (cmd-K), and select another channel
+
+####Expected result:
+You should have the keyboard focus in the text field ready for entering text.
+####Actual result:
+The desktop app has lost keyboard focus, and you need to either click within the text area or hit Tab to get focus.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 6721, Version Hash: 2cdeb5b43fd361c72bf807c299fdf5e286d69361
+####System settings:
+OS X Yosemite, 10.10.5
+
+6034
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-02T23:50:41.341Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.1, Discord Canary 0.0.158 (Build: 6755). Just the cursor isn't shown. If you type, it will automatically focus.
+
+Pascal#0929 - Bug Bot on 2017-11-02T23:50:48.746Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Fall Creators Update, Discord Canary Build 6746
+
+FireController1847#3577 - Bug Bot on 2017-11-02T23:50:53.772Z
+
+
+### Can reproduce.
+CR, Windows 7 x64, Canary Build 6772
+
+skyllful#8516 - Bug Bot on 2017-11-02T23:50:58.764Z
+
+
+### As Pascal states, if I type it'll show. However, trying to paste text doesn't work.
+
+holroyMcpe#4637 - Bug Bot on 2017-11-03T01:25:30.879Z
+
+
+### Verified.  - Clayton on 2017-11-03T05:32:12.326Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:32:15.540Z
+
+
+### Cannot reproduce. Marking as Verified Fixed. - Jared on 2018-03-22T21:44:12.477Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-22T21:44:16.269Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:59:24.207Z
+
+
+### Archived by Jared on 2018-07-06T17:59:24.846Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

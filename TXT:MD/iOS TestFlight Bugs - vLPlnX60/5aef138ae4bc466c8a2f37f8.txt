@@ -1,0 +1,75 @@
+[Archived] Text escapes embed when text wraps around (https://trello.com/c/s2czn78x)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-05-06T14:39:06.508Z
+Latest Update: 2018-09-04T23:13:27.281Z
+
+Reported by zjtech123#6743
+
+####Steps to reproduce:
+- Use a bot to send an embed with a footer that contains a long string of text and an icon. 
+- Observe the embed.
+
+####Expected result:
+The text stays in the embed
+####Actual result:
+The text goes outside of the embed.
+####Client settings:
+Discord TestFlight 2.3.1 (4051)
+####System settings:
+iPhone 6S, iOS 9.1 (13B143)
+
+12041
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-06T14:39:06.508Z
+
+
+### zjtech123#6743 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5aef138ae4bc466c8a2f37f8/ea9e776953f424f1885d1e90d0d2944b/MdVgEs6.png added by Bug Bot on 2018-05-06T14:39:09.049Z
+
+
+### ash#0001 - https://monosnap.com/file/LSjTQE20VCXXMy1ch6zEnljCPLrOxW.png added by Bug Bot on 2018-05-06T14:39:09.281Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 - TestFlight 2.3.1 (4051) - Only reproduceable with iPhone/iPod - Might be related to https://trello.com/c/kSkulXdP
+
+Pascal#0929 - Bug Bot on 2018-05-06T14:39:13.875Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 11.3, iOS TestFlight 2.3.1 4051
+
+ash#0001 - Bug Bot on 2018-05-06T14:39:18.901Z
+
+
+### Can reproduce.
+Can reproduce, but it is barely noticeable with iPhone 8 +, iOS 11.4 - Public Beta 3; Discord TestFlight 2.3.1 (4051).
+
+Ghoul#0009 - Bug Bot on 2018-05-06T14:39:23.920Z
+
+
+### Can reproduce.
+iPhone 6 iOS 11.2.2, TestFlight 2.3.1
+
+missthesnow#1533 - Bug Bot on 2018-05-06T20:44:43.305Z
+
+
+### Verified, iOS 11, iPad Pro, TestFlight 2.3.1. - Clayton on 2018-05-08T19:59:51.221Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-08T19:59:58.570Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:27.283Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

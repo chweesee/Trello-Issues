@@ -1,0 +1,103 @@
+[Archived] Message field font changes weirdly in certain cases (https://trello.com/c/oWmhWho9)
+
+P2 - Can wait a while
+
+Created: 2017-06-04T19:11:15.184Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by MattBSG#9263
+
+####Steps to reproduce:
+- Copy this username `@𝓥𝓪𝓶𝓹𝓲𝓻𝒆#9348` 
+- Start at the end by the discrim 
+- backspace to the last character before the @ ie @𝓥) 
+- delete the @, then delete the last character
+
+####Expected result:
+It deletes the character and nothing else changes
+####Actual result:
+Character deletes, then font changes
+####Client settings:
+discord 1.8.6
+####System settings:
+iOS 10.3.2, iPhone 7
+
+1431
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-04T19:11:15.184Z
+
+
+### MattBSG#9263 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59345b53cc92a73d3c7c6b9d/085345cafc73e38597aaa19fe7337765/IMG_1462.JPG added by Bug Bot on 2017-06-04T19:11:18.896Z
+
+
+### Can reproduce.
+Can reproduce  iPhone 7 iOS 10.2.1, Discord 1.8.3
+
+Chewie#5684 - Bug Bot on 2017-06-04T19:11:19.727Z
+
+
+### Can reproduce.
+ iPhone 5S, iOS 10.3.1, Ver 1.8.7, had to do it on this server
+
+Mikesky#3456 - Bug Bot on 2017-06-04T19:11:21.661Z
+
+
+### Can reproduce.
+CR,  iOS 9.3.5, iPhone 4S, Latest Discord Client Application
+
+Joseph#9413 - Bug Bot on 2017-06-04T19:11:23.653Z
+
+
+### Can reproduce.
+iPhone 6S iOS 10.3.2, discord 1.8.7
+
+rufioh#9358 - Bug Bot on 2017-06-04T22:32:05.356Z
+
+
+### Can reproduce.
+iPhone 5c, iOS latest, version latest
+
+InkxtheSquid#8052 - Bug Bot on 2017-06-05T04:36:39.807Z
+
+
+### InkxtheSquid#8052 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59345b53cc92a73d3c7c6b9d/6fb6b3e85c35bb3c46a21d9fd7e1b8dd/bHUEbKw.png added by Bug Bot on 2017-06-05T04:37:37.745Z
+
+
+### Verified.  - Clayton on 2017-06-08T21:50:11.260Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-08T21:50:16.188Z
+
+
+### Can no longer reproduce. TF 1.9.1 iPhone 5S. - Mike Nisbet on 2017-10-01T16:33:02.468Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Mike Nisbet on 2017-10-01T16:33:05.497Z
+
+
+### I am unable to reproduce, the font remains the same. 
+
+Discord 1.9.3, iOS 11.0.3, iPhone 8 Plus
+ - Alexandru Todea on 2017-10-21T11:15:19.068Z
+
+
+### Verified Fixed - Jared on 2017-10-24T23:30:37.769Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-10-24T23:30:41.271Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:30:32.166Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:30:33.472Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

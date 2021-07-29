@@ -1,0 +1,70 @@
+[Edge] Scroll bar goes out of application window when there are multiple channels in Notification Settings section. (https://trello.com/c/0ijZ8lRk)
+
+None
+
+Created: 2020-01-17T17:13:59.225Z
+Latest Update: 2020-07-16T21:26:06.026Z
+
+Reported by Smokepurpp#6012
+
+####Steps to reproduce:First create a server or go to an existing server. 
+- Create more than 15 text channels. 
+- Go to Notification Settings. 
+- Move slider in Channel selection section to bottom. 
+- Now try scrolling Notification Settings slider to the bottom.
+
+####Expected result:
+Slider does not slide out of pop-up window.
+####Actual result:
+Scroll bar is slipping.
+####Client settings:
+Discord Stable 52818 - Microsoft Edge 44.18362.1.0
+####System settings:
+Windows 10 Home x64
+
+51785
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-17T17:13:59.225Z
+
+
+### Can reproduce.
+[CR] Discord Stable Build 52818, Windows 10 Pro Build 18363.592, Microsoft Edge 44.18362.449.0
+
+Creedoo#3626 - Bug Bot on 2020-01-17T17:14:06.728Z
+
+
+### Can reproduce.
+CR; Discord Canary 51818, Windows 10 Build 17763
+
+Fabio A.#6301 - Bug Bot on 2020-01-17T17:14:11.844Z
+
+
+### Can reproduce.
+CR, stable 52818 Microsoft Edge 44.18362.449.0 Windows 10 Pro
+
+iced#1337 - Bug Bot on 2020-01-17T17:14:16.739Z
+
+
+### Smokepurpp#6012 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e21eb57889e9e879620fdb9/7545d514fd704596e4fafe9eb07c44be/BrightHealthyCatfish-size_restricted.gif added by Bug Bot on 2020-01-17T17:14:32.724Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 x64, Canary version 52818
+
+Kubert#8745 - Bug Bot on 2020-01-17T20:01:19.276Z
+
+
+### Can't reproduce.
+Windows 10 Home 1809 x64, Canary version 52818
+
+Kubert#8745 - Bug Bot on 2020-01-17T20:04:19.092Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

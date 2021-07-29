@@ -1,0 +1,80 @@
+[Archived] It's not possible to disable the in-game overlay in user settings, if it was enabled and used in a game, and it will throw big errors in console (https://trello.com/c/Gywv2f9s)
+
+Low,
+P2: Fix can wait a while
+
+Created: 2018-03-26T15:18:41.673Z
+Latest Update: 2018-07-06T18:31:20.485Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Go to user settings -> Overlay 
+- Enable the overlay 
+- Start a game and open the overlay 
+- Then go to user settings and attempt to disable the overlay on the switch
+
+####Expected result:
+It disables the overlay
+####Actual result:
+It doesn't disable the overlay, the switch just jumps back, and you get a lot of errors in console
+####Client settings:
+Discord Canary 0.0.204 (12608)
+####System settings:
+Windows 10 Pro 64-bit (1709)
+
+9886
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-26T15:18:41.673Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ab90f510f50cc80c60c3f59/44fb0a90bc494b64db61d8a0347b8e29/3bodJO9.gif added by Bug Bot on 2018-03-26T15:18:45.384Z
+
+
+### Can reproduce.
+CR Canary 12608 Win10 x64 it stays like that even after you close the game, i have to refresh to disable the overlay
+
+cutelilberry#5423 - Bug Bot on 2018-03-26T15:18:49.225Z
+
+
+### Can reproduce.
+CR, Discord Canary build 12608, Windows 10 home 64-bit.
+
+Blitz#6666 - Bug Bot on 2018-03-26T15:18:54.142Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 Version 1709 (OS Build 16299.125), Discord Canary 0.0.204 (Build 12608); Even after closing game, it stays
+
+HeroGamers#0001 - Bug Bot on 2018-03-26T15:18:59.214Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64, Canary Build 12608; It's still happening after you closed the game and it also occurs when you disable the overlay in the games tab (While still ingame, it only happens when disabling the overlay for the specific game. After you quit the game, it happens with all of them); With Stable Build 12477 it's still working like it should tho
+
+LPerMike#4242 - Bug Bot on 2018-03-26T17:36:36.344Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-03T20:50:40.858Z
+
+
+### Cannot reproduce.  - Clayton on 2018-04-03T20:52:17.172Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Clayton on 2018-04-03T20:52:21.785Z
+
+
+### Still cannot reproduce. When I  toggle the overlay OFF in user settings while the overlay is open in-game, the overlay disappears. - Jared on 2018-04-23T20:08:40.153Z
+
+
+### Archived by Jared on 2018-07-06T18:31:20.488Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

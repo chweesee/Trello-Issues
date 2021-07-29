@@ -1,0 +1,70 @@
+[Archived] When clicking a pinned message button with unread pins, the "no results' page appears for a couple of seconds before the pins load (https://trello.com/c/sn2JEA8q)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-18T22:09:20.119Z
+Latest Update: 2018-10-22T20:21:59.395Z
+
+Reported by CustomName#9999
+
+####Steps to reproduce:
+- Go to any server where there is a channel with unread pins 
+- Click on the pin button  
+- Observe the results page
+
+####Expected result:
+A loading symbol should appear as it loads, or pins should appear immediately.
+####Actual result:
+The 'this channel doesn't have any pins' screen appears for a few seconds before pins load, without the loading symbol.
+####Client settings:
+Discord Canary for Mac OS - 0.0.193 (0.0.193) - Build Number: 17063
+####System settings:
+Macbook Pro 13" (2017 - With Touchbar), macOS High Sierra - Version 10.13.4
+
+14318
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-18T22:09:20.119Z
+
+
+### CustomName#9999 - https://youtu.be/jB5UHUmg0yA added by Bug Bot on 2018-06-18T22:09:22.631Z
+
+
+### Can reproduce.
+Can Repro; PTB 17063, macOS Mojave 10.14.1b1
+
+ash#0001 - Bug Bot on 2018-06-18T22:09:27.507Z
+
+
+### Can reproduce.
+Can repro, Canary 17111 on Windows 10 Home x64 build 1803, does also work for read pins which are not cached when you access the pin page
+
+CMDJojo#4230 - Bug Bot on 2018-06-18T22:09:32.515Z
+
+
+### Can reproduce.
+CR ~ [BUILD INFO] Release Channel: Stable, Build Number: 17111, Version Hash: 5a0c1d221f9ab325b7e67af74777147c3319ae78 ~ Windows 10 Education v1803 OS Build 17134.81
+
+FoxyKero#9941 - Bug Bot on 2018-06-18T22:09:37.468Z
+
+
+### verified, macos 10.12.6, canary 17111 - Clayton on 2018-06-18T22:44:46.725Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-18T22:44:58.038Z
+
+
+### The bug here is that there is no loading animation instead of the 'this channel doesn't have any pins' message. - Confirmed by Jake - Tarek on 2018-06-19T02:05:29.956Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:59.397Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,88 @@
+[Archived] Different errors for different text fields not filled in the edit payment method page. (https://trello.com/c/xqRArYDh)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-17T16:17:18.131Z
+Latest Update: 2019-10-23T23:02:50.217Z
+
+Reported by The Lunala#6877
+
+####Steps to reproduce:
+- Have a Credit card as a payment method. 
+- Go to Settings>Billing>Edit payment method on credit card. 
+- Hit save. 
+- Observe the error under the address field says "Oops! You forgot this one!" 
+- Fill out that field. 
+- Hit save again. 
+- Observe the error under the City text field says "City is required".
+
+####Expected result:
+The same kind of error for all text fields.
+####Actual result:
+Different errors for different text fields.
+####Client settings:
+Discord Alpha 859
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+31091
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-17T16:17:18.131Z
+
+
+### Can reproduce.
+Tested personally with an irl Friend's account. Samsung galaxy S6 App Information - 8.5.9
+
+Stardust#2476 - Bug Bot on 2019-03-17T16:17:25.661Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.5.9
+
+Skyla#0002 - Bug Bot on 2019-03-17T16:17:30.668Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 8.5.9
+
+Lelantos#4866 - Bug Bot on 2019-03-17T16:17:35.649Z
+
+
+### reproducable on desktop as well, moving there - Tim on 2019-03-17T16:29:29.888Z
+
+
+### Imported from https://trello.com/b/57f2a306ca14741151990900 by Tim on 2019-03-17T16:29:44.621Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2017 • Android 8.1.0 • Discord Alpha 8.5.9
+
+Vanished#1111 - Bug Bot on 2019-03-17T16:36:04.925Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 8.0.0, Discord Alpha 8.5.9
+
+Leto#2287 - Bug Bot on 2019-03-17T21:19:31.806Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.5.9
+
+Lily#2624 - Bug Bot on 2019-03-18T09:37:59.936Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-19T03:58:43.221Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:50.306Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

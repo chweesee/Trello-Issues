@@ -1,0 +1,46 @@
+Switching tabs when playing and streaming Tales of Vespiera causes the video to glitch out and audio to drop (https://trello.com/c/IESAcqQd)
+
+None
+
+Created: 2019-10-30T21:22:03.786Z
+Latest Update: 2020-07-16T21:26:05.444Z
+
+Reported by CaptainAether#4104
+
+####Steps to reproduce:
+- Stream Tales of Vesperia with Go Live 
+- Tab over to Discord(which minimizes Vesperia) 
+- Wait a few seconds 
+- Stream goes from "Stream Paused" to glitchy video
+
+####Expected result:
+Stream should stay in "Stream Paused" until returning to the game
+####Actual result:
+"Stream Paused" becomes an extremly glitchy video only of the game. No audio. Returns to normal on tab in to game.
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 46787, Version Hash: 7a780148a2a3227422164e6b823170e556112413
+####System settings:
+Windows 10 Version 1903
+
+45257
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-30T21:22:03.786Z
+
+
+### broman#0001 - https://www.youtube.com/watch?v=mpblVDQIGZ0 added by Bug Bot on 2019-10-30T21:22:06.729Z
+
+
+### Can reproduce.
+can reproduce, win10, canary 48397
+
+IcyPebbles#5833 - Bug Bot on 2019-10-30T21:22:11.805Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

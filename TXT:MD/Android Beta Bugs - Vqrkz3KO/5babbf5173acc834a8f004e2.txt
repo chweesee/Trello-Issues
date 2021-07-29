@@ -1,0 +1,70 @@
+[Archived] [Audit Logs] Wrong unit used for bitrate values (https://trello.com/c/VVRiWOfu)
+
+None
+
+Created: 2018-09-26T17:18:09.619Z
+Latest Update: 2019-06-05T23:48:18.025Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Make changes to the bitrate of a voice channel 
+- Go to Audit Logs 
+- Expand the entry corresponding to the bitrate change 
+- Observe value
+
+####Expected result:
+Should show the value in Kbps, e.g 64
+####Actual result:
+It shows the value in bps, e.g 64000
+####Client settings:
+Discord Alpha 7.5.5
+####System settings:
+Huawei Mate 9 Android 8.0
+
+20179
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-26T17:18:09.619Z
+
+
+### MoonlightCapital#0554 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5babbf5173acc834a8f004e2/a0186180f6051c1e38290acf71a335cb/Screenshot_2018-09-26-19-16-09.png added by Bug Bot on 2018-09-26T17:18:12.010Z
+
+
+### Can reproduce.
+Wiko LENNY2 version 8, Android 5.1, Alpha 7.5.5
+
+MoonlightCapital#0554 - Bug Bot on 2018-09-26T17:18:16.898Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.5.5
+
+Frances Picard#6209 - Bug Bot on 2018-09-26T17:18:22.080Z
+
+
+### Can reproduce.
+Samsung Galaxy J1 Ace, Android 4.4.4 alpha 755
+
+Not Sugden#6200 - Bug Bot on 2018-09-26T17:18:26.890Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Tim on 2018-09-26T17:56:57.970Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-09-26T18:08:27.040Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-07T05:33:08.683Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:48:18.037Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,175 @@
+[Archived] Shift clicking `Delete` on the menu given by the three dots on the message doesn't skip the delete confirmation menu (https://trello.com/c/LyXcAoPG)
+
+Mid,
+P2: Fix can wait a while
+
+Created: 2018-08-19T11:07:31.344Z
+Latest Update: 2020-06-18T02:30:43.329Z
+
+Reported by ramidzkh#4814
+
+####Steps to reproduce:
+- Send a message or pick a message you have permissions to delete 
+- Click on the three dots on the side of the desired message 
+- Shift click the `Delete` button
+
+####Expected result:
+Directly delete the message
+####Actual result:
+It shows the dialogue to confirm deleting that message
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 22189, Version Hash: 81cb192b333eeafe2e866b97813a98b23a3b7931
+####System settings:
+Microsoft Windows [Version 10.0.16299.611]
+
+17925
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-19T11:07:31.344Z
+
+
+### Can reproduce.
+Windows 10 and Canary 22210
+
+Oasis#4730 - Bug Bot on 2018-08-19T11:07:39.007Z
+
+
+### Can reproduce.
+CR Windows 10 Home 1803 | Canary build 22210
+
+Rubenvds#0001 - Bug Bot on 2018-08-19T11:07:44.023Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64-bit (1803), Canary 22210, also works with pinning messages
+
+that15fine#9275 - Bug Bot on 2018-08-19T11:07:49.026Z
+
+
+### Can reproduce.
+Can Reproduce Windows 10 Pro x64 Canary Build 22210, shift+delete message from right click context menu works though, and unpinnign with shift from three dots works as well it only seems to be the Delete option from the 3 dots menu not functioning
+
+Azrael#6867 - Bug Bot on 2018-08-19T11:07:51.912Z
+
+
+### Can reproduce.
+can reproduce. Windows 10 Home SL 1803 x64 • Canary 22210
+
+MakiTheLegend#5027 - Bug Bot on 2018-08-19T11:35:47.723Z
+
+
+### Can reproduce.
+MacBook Pro 13" 10.13.6, Canary 22210
+
+AlfiePops#1582 - Bug Bot on 2018-08-19T13:38:41.582Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit Discord Canary, Build Number: 22210
+
+Fibrous#0002 - Bug Bot on 2018-08-19T15:34:33.827Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 22210
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-19T16:07:01.399Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 22210
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-19T17:27:42.825Z
+
+
+### Can reproduce.
+Canary 22210, MacOS 10.13.1, MacBook Air 13" (Late 2015)
+
+ori#4696 - Bug Bot on 2018-08-19T22:59:09.791Z
+
+
+### Can reproduce.
+Windows 10 Home 64x (Build 17134) Canary 22210
+
+Suprnova#0001 - Bug Bot on 2018-08-20T21:17:02.280Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-20T23:40:47.751Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-20T23:40:52.780Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:38.266Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 canary, Build Number: 31464
+
+Spooker#0001 - Bug Bot on 2019-01-29T17:54:01.079Z
+
+
+### Spooker#0001 - https://youtu.be/_NGwndg4x8g added by Bug Bot on 2019-01-29T17:54:22.054Z
+
+
+### Unarchived by Bug Bot on 2019-01-31T21:30:09.708Z
+
+
+### Can reproduce.
+CR MacOS 10.12.6 Sierra Mac Pro (Mid 2010) Canary Build 33539
+
+Starfield_9#8660 - Bug Bot on 2019-03-07T23:47:32.103Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 33418
+
+charleskimbac#6492 - Bug Bot on 2019-03-08T21:22:06.415Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 37031
+
+Darth#9386 - Bug Bot on 2019-05-04T18:13:32.368Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:48.546Z
+
+
+### Can reproduce.
+Shift does not bypass the confirmation modals anymore. MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 60369 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-05-17T22:21:16.988Z
+
+
+### Can reproduce.
+Windows 10 Pro 1909, Canary 60369 (285163b)
+
+tmantti#1337 - Bug Bot on 2020-05-17T22:29:29.292Z
+
+
+### Unarchived by Bug Bot on 2020-05-17T22:30:05.678Z
+
+
+### Moved from Verified Bugs to Notable Issues by Tarek on 2020-05-18T08:54:00.764Z
+
+
+### Can reproduce.
+Doesn't work for pinning or deleting even when right clicking a message (context menu) or the 3-dot menu. MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 60398 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-05-18T08:57:08.560Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Jon Egeland on 2020-05-18T09:31:03.644Z
+
+
+### Archived by Bug Bot on 2020-06-18T02:30:43.339Z
+
+List
+====
+Fix made, not yet released
+
+Members
+=======
+None

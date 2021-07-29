@@ -1,0 +1,96 @@
+Discord Canary 0.0.52 does not record or play back call audio until settings are changed in a session. (https://trello.com/c/oZrMSojG)
+
+None
+
+Created: 2018-07-06T00:42:21.871Z
+Latest Update: 2018-08-30T21:53:33.578Z
+
+Reported by gourdcaptain#8675
+
+####Steps to reproduce:
+- Start Discord Canary and enter into a call (mostly tested with DMs) 
+- No audio is heard by you or on other end of call (pavucontrol indicates it's not even connecting to Pulseaudio). 
+- Go into Settings->Voice & Video and change Input and Output device to the same option or a different one and now the call works.
+
+####Expected result:
+Call records and plays back audio properly.
+####Actual result:
+Nothing heard or sent.
+####Client settings:
+Discord Canary, 0.0.52
+####System settings:
+Arch Linux x64
+
+15151
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-06T00:42:21.871Z
+
+
+### Can reproduce.
+Can Reproduce, Ubuntu Studio 18.04, Discord Canary 0.0.52 ( Build 18164 )
+
+Starshine Dust#2189 - Bug Bot on 2018-07-06T00:42:29.263Z
+
+
+### Can reproduce.
+Linux Mint 19 Discord Canary 18164
+
+Link#1685 - Bug Bot on 2018-07-06T00:42:34.272Z
+
+
+### Can reproduce.
+Can reproduce ~ Ubuntu 18.04 amd64 ~ Canary 0.0.52 Build 18219
+
+Lava#9562 - Bug Bot on 2018-07-06T00:42:39.283Z
+
+
+### Can reproduce.
+Can Reproduce, Arch Linux amd64, Discord Canary 0.0.52 (Build 18240)
+
+SilverMight#1302 - Bug Bot on 2018-07-06T17:12:09.498Z
+
+
+### Can reproduce.
+Linux Mint 19, Discord Canary 18160
+
+ThorWolf#6841 - Bug Bot on 2018-07-13T15:34:15.661Z
+
+
+### Can reproduce.
+Arch Linux md64, Discord Canary 0.0.53
+
+Koopa#6981 - Bug Bot on 2018-07-20T00:29:17.255Z
+
+
+### Can't reproduce.
+Discord Canary v. 19332, Ubuntu 18.04 LTS with Budgie desktop environment
+
+PillGP#2767 - Bug Bot on 2018-07-20T13:01:26.706Z
+
+
+### Can reproduce.
+Linux 4.17.8-1-ARCH x86_64, Discord Canary 0.0.52 (Build 19560)
+
+132ikl#5281 - Bug Bot on 2018-07-24T03:41:04.934Z
+
+
+### Can reproduce.
+Arch linux, Discord canary
+
+GNUGradyn(っ◔◡◔)っ#0069 - Bug Bot on 2018-07-28T02:00:00.865Z
+
+
+### cnr, ubuntu 16.04 - Clayton on 2018-08-30T21:53:28.016Z
+
+
+### Moved from User Reported to Cannot Reproduce. by Clayton on 2018-08-30T21:53:33.559Z
+
+List
+====
+Cannot Reproduce.
+
+Members
+=======
+None

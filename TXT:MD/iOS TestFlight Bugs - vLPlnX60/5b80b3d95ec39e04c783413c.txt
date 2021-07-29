@@ -1,0 +1,100 @@
+[Archived] If you have Bluetooth off on nearby friends and turn it on through the prompt message, you are still hit with the "please turn on Bluetooth and WiFi to activate Nearby" (https://trello.com/c/0wgpswQw)
+
+P1 - Severe
+
+Created: 2018-08-25T01:41:45.710Z
+Latest Update: 2019-01-31T20:09:46.882Z
+
+Reported by 🌴nickWtn🌴#3789
+
+####Steps to reproduce:
+- make sure Bluetooth is turned off in ios settings  
+- start discord up  
+- go up to the top and click on the three heads 
+- click on friends and go all the way to the top right 
+- click on the head with a +  
+- click on find friends  
+- get a prompt asking you to turn Bluetooth on  
+- select settings, turn on Bluetooth and then go back  
+- click on find friends and observe
+
+####Expected result:
+It starts the find friends searching
+####Actual result:
+you get the ""please turn on Bluetooth and WiFi to activate Nearby"  and it doesn't go away if you hit cancel and try aging either
+####Client settings:
+TestFlight 2.3.7 (6930)
+####System settings:
+ipod touch 6 th generation, ios 11.4.1
+
+18361
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-25T01:41:45.710Z
+
+
+### 🌴nickWtn🌴#3789 - https://m.youtube.com/watch?v=ApDH8ErKYVM added by Bug Bot on 2018-08-25T01:41:48.103Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 12 Public Beta 8, TestFlight 2.3.7 (6930) - I get that every time with my iPad even though WiFi and Bluetooth were enabled before. Cannot reproduce it with my iPhone, so maybe iPod/iPad only
+
+Pascal#0929 - Bug Bot on 2018-08-25T01:41:52.993Z
+
+
+### Can reproduce.
+CR iPhone SE - iOS 11.4.1. TestFlight 6930
+
+evilpauwse#9985 - Bug Bot on 2018-08-25T01:41:58.006Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 11.4 Developer Beta 6, TestFlight 2.3.7 (6930)
+
+CreeperzEdge#9243 - Bug Bot on 2018-08-25T01:42:03.012Z
+
+
+### Moved from New Issues to Nearby Friends Bugs by Fanghao on 2018-08-25T04:20:05.858Z
+
+
+### this ticket and along with the similar malfunction when Wifi off are both from recent changes. I suspect background and multiple setups are culprits here. - Fanghao on 2018-08-25T07:37:09.170Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 10) - TestFlight 2.3.7 (6930)
+
+Xylium#1480 - Bug Bot on 2018-08-25T07:42:14.962Z
+
+
+### Can reproduce.
+CR. iPhone X, iOS 12 Developer Beta 10, TestFlight 2.3.7 (6930)
+
+Alfie#1582 - Bug Bot on 2018-08-25T09:03:25.975Z
+
+
+### This only happens when Microphone permissions are denied, then you get it all the time. If microphone permissions are enabled, you don't get it.
+
+So maybe the high pitched, annoying audio is still there?
+
+Pascal#0929 - Bug Bot on 2018-08-25T11:27:53.278Z
+
+
+### No I can repro this with microphone enabled. I also add a fix to complete remove microphone usage for nearby feature. Haven public TestFlight it yet. - Fanghao on 2018-08-25T20:34:34.860Z
+
+
+### Moved from Nearby Friends Bugs to Fix made, not yet released by Jeff Cailteux on 2018-08-27T19:42:39.032Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-09-08T02:30:24.831Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:09:46.896Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,71 @@
+[Archived] If there is a pinned message, and someone clicks the name in "user pinned a message to this channel" it won't show the users roles. (https://trello.com/c/CsG1ONoZ)
+
+None
+
+Created: 2017-08-16T06:09:17.181Z
+Latest Update: 2017-10-17T21:15:59.519Z
+
+Reported by Josh#9877
+
+####Steps to reproduce:
+- Find a pinned message 
+- Click on the username in "user has pinned a message to this channel"
+
+####Expected result:
+The profile pops up with the roles the person has.
+####Actual result:
+The profile pops up without any roles the person has.
+####Client settings:
+Discord 1.8.8 Mobile
+####System settings:
+iPhone 6 iOS 10.3.3
+
+3283
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-16T06:09:17.181Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3
+
+Stack#4461 - Bug Bot on 2017-08-16T06:09:24.860Z
+
+
+### Can reproduce.
+iPhone 6 iOS 11 Beta 4, Discord TestFlight 1.8.9 (83)
+
+Charles#1934 - Bug Bot on 2017-08-16T06:09:29.783Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11 dev beta 5, Testflight 1.8.9
+
+Mippy#1483 - Bug Bot on 2017-08-16T06:09:34.827Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11 Beta 6, TF 1.8.9 (83)
+
+Jeremias#8432 - Bug Bot on 2017-08-16T08:51:48.679Z
+
+
+### Not a bug. This is a system message, not a server message. It also won't include nicknames or notes because it's not getting info from the server to generate the message. - Jared on 2017-08-21T21:23:26.421Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-08-21T21:23:30.077Z
+
+
+### Archiving as this ticket as been Won't Fix for over a month. - Mike Nisbet on 2017-10-17T21:15:58.742Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:15:59.522Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

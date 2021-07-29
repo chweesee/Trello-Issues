@@ -1,0 +1,83 @@
+[Text Overlay] The profile card of a user does not update if they get banned, consistently showing them as if they're still in the server (https://trello.com/c/TKyCSkxs)
+
+P3: Will get fixed eventually
+
+Created: 2019-02-23T21:12:03.661Z
+Latest Update: 2019-04-24T00:53:09.709Z
+
+Reported by SuperSajuuk#0001
+
+####Steps to reproduce:
+- Enable the Discord overlay for a game (I tested this on TESV: Skyrim). 
+- Load this game and toggle the overlay. 
+- Either find a user who was banned/left server and had roles, or wait for someone to be banned/leave the server. 
+- Find a mention for them in chat that parses. 
+- Observe the card.
+
+####Expected result:
+Like in the main client, if the user is no longer part of the guild, it should update to show them as being not in the server.
+####Actual result:
+They are cached as being part of the server and having whatever roles they had before leaving/being banned, which can be confusing for users who're banned.
+####Client settings:
+Canary 0.0.232 (Build 32668)
+####System settings:
+Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547)
+
+29644
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-23T21:12:03.661Z
+
+
+### SuperSajuuk#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c71b7233e45b926ce00eff4/40f3aef00c42273cb6b2c9a9f7e636e9/banned_user_no_update.png added by Bug Bot on 2019-02-23T21:12:06.882Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 32668 ~ Couldn't reproduce this with a Kick, but a ban did work.
+
+Alipoodle#5025 - Bug Bot on 2019-02-23T21:12:11.178Z
+
+
+### Can reproduce.
+CR; Canary: 32668, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-23T21:12:16.214Z
+
+
+### Can reproduce.
+CR - Win10 Pro x64 1809, Discord Canary 32688
+
+Clay#0001 - Bug Bot on 2019-02-23T21:12:21.319Z
+
+
+### Can reproduce.
+macOS High Sierra, Version 10.13.6, Discord Canary 32688
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-02-23T21:15:21.839Z
+
+
+### Can reproduce.
+Canary 32688 Windows 10 home
+
+Mr. Proper#2394 - Bug Bot on 2019-02-23T21:15:53.906Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32668
+
+Daffyduck#5364 - Bug Bot on 2019-02-23T21:38:18.813Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32805
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-26T16:16:32.316Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

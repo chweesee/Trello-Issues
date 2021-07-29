@@ -1,0 +1,51 @@
+If a headphone amp is off whist the PC is booting, discord will fail to output to the device. (https://trello.com/c/eStkTfQC)
+
+None
+
+Created: 2019-07-19T22:23:18.402Z
+Latest Update: 2019-07-19T22:24:06.571Z
+
+Reported by Cheez#4519
+
+####Steps to reproduce:
+- Amp off (I have a Fiio K3) 
+- Boot PC 
+- Discord opens on boot 
+- Turn amp on 
+- Connect to server 
+- No audio output.
+
+####Expected result:
+There should be audio out when you connect to a server. (Connecting to the server still makes a noise)
+####Actual result:
+The amp is visible in settings, but there is no sound- you can use mic check to test.
+####Client settings:
+stable, Build Number: 40044
+####System settings:
+Windows 10 Home 10.0.17763 Build 17763
+
+37935
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-19T22:23:18.402Z
+
+
+### Can reproduce.
+pushing through + note that we need to order this device
+
+IcyPebbles#5833 - Bug Bot on 2019-07-19T22:23:27.699Z
+
+
+### NOTE - need to order this - Clayton on 2019-07-19T22:24:01.175Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-07-19T22:24:06.551Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

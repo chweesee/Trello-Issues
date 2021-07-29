@@ -1,0 +1,65 @@
+[Archived] When authorising an oauth flow, with 2 factor auth enabled, it breaks the callback and launches Discord. (https://trello.com/c/WXcI4pXV)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-01-31T16:33:27.401Z
+Latest Update: 2019-03-15T10:00:02.920Z
+
+Reported by recon#1337
+
+####Steps to reproduce:
+- Begin an oauth auth flow without being logged in prior with 2fa enabled 
+- Login during the flow 
+- Enter 2fa details 
+- Submit
+
+####Expected result:
+The oauth flow should be preserved and allow for the authorisation page to actually be accessed.
+####Actual result:
+This Discord web app launches
+####Client settings:
+Desktop Webapp, Chrome 71.0.3578.9
+####System settings:
+Mac OSX Mojave 10.4
+
+27471
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-31T16:33:27.401Z
+
+
+### Can reproduce.
+Can reproduce; Chrome version 71.0.3578.98 (Official Build), Windows 10 Pro
+
+Harsh#0001 - Bug Bot on 2019-01-31T16:33:35.147Z
+
+
+### Can reproduce.
+Firefox browser Version 64.0.2 (64-bit), (Discord WebCanary 31566, Windows 7)
+
+Skyla#7948 - Bug Bot on 2019-01-31T16:33:39.960Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x,Chrome Version 72.0.3626.81 (Official Build) (64-bit)
+
+Octillion#6666 - Bug Bot on 2019-01-31T16:33:45.009Z
+
+
+### verified, chrome 72.0 - Clayton on 2019-02-13T09:51:14.378Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-13T09:51:24.645Z
+
+
+### Archived by Bug Bot on 2019-03-15T10:00:02.935Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

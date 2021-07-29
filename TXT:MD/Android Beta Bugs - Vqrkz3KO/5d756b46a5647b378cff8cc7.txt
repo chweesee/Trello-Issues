@@ -1,0 +1,95 @@
+[Archived] When you send a message in a slowmode channel with a high timer on and then close and reopen the app, it says slowmode is enabled even though the timer is still going (https://trello.com/c/kjDCmLDt)
+
+None
+
+Created: 2019-09-08T20:57:42.202Z
+Latest Update: 2020-02-20T21:33:14.958Z
+
+Reported by mesub#0556
+
+####Steps to reproduce:
+- Have a channel that has a long timer on it (4-6 hours) 
+- Don't be immune to it 
+- Send a message 
+- Close discord from recent apps 
+- Reopen discord 
+- Observe
+
+####Expected result:
+The timer should still be going
+####Actual result:
+It says slowmode is enabled and when you try to send another message the timer comes back
+####Client settings:
+Android Alpha 952
+####System settings:
+Motorola Moto G6 Play, Android 9
+
+43763
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-08T20:57:42.202Z
+
+
+### Can reproduce.
+Can Reproduce • Samsung Galaxy Tab A - Android 8.1 - Discord 9.5.1
+
+Suspense#4615 - Bug Bot on 2019-09-08T20:57:50.019Z
+
+
+### Can reproduce.
+cr; Alcatel A30 Fierce, Android 7.0 - Alpha 9.5.2
+
+Ness#7343 - Bug Bot on 2019-09-08T20:57:54.799Z
+
+
+### Can reproduce.
+CR. Samsung Galaxy A6+ - Android 9 - Discord Alpha 9.5.2
+
+Niel#3558 - Bug Bot on 2019-09-08T20:57:59.795Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.5.2
+
+Krobo#4784 - Bug Bot on 2019-09-09T09:15:33.439Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.5.2
+
+AHkhan#6518 - Bug Bot on 2019-09-09T11:23:54.221Z
+
+
+### Can reproduce.
+Galaxy A20 - Android 9.0 - Alpha 9.5.2
+
+Not Batman#7098 - Bug Bot on 2019-09-09T13:10:53.756Z
+
+
+### When the app is closed it forgets that you sent a message right after and as a result it won't be able to display the timer. Since this behavior is of the kind "forget on force close" I believe this belongs to the master ticket https://trello.com/c/3g4u01oq
+
+Alex1304#9704 - Bug Bot on 2019-09-09T17:01:03.141Z
+
+
+### Can reproduce.
+Huawei P Smart 2019, Android 9, Discord 9.5.1
+
+yagizhan49#8883 - Bug Bot on 2019-09-10T15:38:15.594Z
+
+
+### Can reproduce.
+Samsung Galaxy A5 (2016) × Androd 7.0 × Discord 9.5.3
+
+B.O.S.S#0251 - Bug Bot on 2019-09-10T18:48:20.287Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:14.969Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,92 @@
+[Archived] Cancelling a file upload from the webapp, and then the file picker afterwards causes the UI to stop updating. (https://trello.com/c/AG3ZurQI)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-08-27T06:02:03.231Z
+Latest Update: 2018-07-06T17:56:32.565Z
+
+Reported by Bee#6104
+
+####Steps to reproduce:
+- Open file picker, select file, and confirm selection 
+- Cancel upload in webapp 
+- Open file picker again 
+- Cancel selection from file picker itself.
+
+####Expected result:
+UI works normally, changing channels or servers should update the UI.
+####Actual result:
+Clicking on any channel or server icon doesn't work, the UI is stuck displaying the channel you were on last.
+####Client settings:
+Web client as of 2017-08-26 on Vivaldi 1.11.917.39 (Linux) / 1.8.770.56 (Windows)
+####System settings:
+Bug is reproducable on both Linux and Windows. Arch Linux 4.12.6-1-ARCH / Windows 7 SP1 Build 7601
+
+3697
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-27T06:02:03.231Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59a2605b44775ad227849fb0/9b55dcf6d1cb7812058675effa5cb470/Screen_Shot_2017-08-26_at_9.16.00_PM.png added by Bug Bot on 2017-08-27T06:02:07.212Z
+
+
+### Can reproduce.
+Discord Stable Web (Build Number: 3543), Windows 7 Home Premium x64 Bit, Google Chrome Version 60.0.3112.113 (Official Build) (64-bit)
+
+BranK#2871 - Bug Bot on 2017-08-27T06:08:22.223Z
+
+
+### Can reproduce.
+Microsoft Windows 10 Pro x64 > Discord WebApp Stable (Google Chrome)
+
+Ben#4331 - Bug Bot on 2017-08-27T06:08:36.071Z
+
+
+### Can reproduce.
+Discord Web Stable (Build 3543), macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017), Google Chrome Version 62.0.3194.0 (Official Build) canary (64-bit), it also spams the console with errors. Also, you will not be able to view users' profiles, type into the message box, or type into the search box. If you try to connect to a voice channel, it will get stuck at RTC connecting. New messages will not show. Basically, it renders the page unusable until you reload.
+
+advaith#9121 - Bug Bot on 2017-08-27T06:16:32.658Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59a2605b44775ad227849fb0/d925811f2942f1b8ebaf9f0c26d4cac7/Screen_Shot_2017-08-26_at_9.16.00_PM.png added by Bug Bot on 2017-08-27T06:17:00.703Z
+
+
+### Verified.  - Clayton on 2017-08-29T20:29:21.140Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-29T20:42:40.688Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:49:06.790Z
+
+
+### Moved from Next up for investigation to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2018-01-28T08:12:24.778Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64, Discord Canary 10015
+
+Poker1st#0001 - Bug Bot on 2018-01-29T04:20:47.646Z
+
+
+### Verified Fixed - Jared on 2018-02-23T18:29:44.068Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-02-23T18:29:47.865Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:56:30.601Z
+
+
+### Archived by Jared on 2018-07-06T17:56:32.567Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

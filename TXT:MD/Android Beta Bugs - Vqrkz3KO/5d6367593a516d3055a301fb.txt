@@ -1,0 +1,86 @@
+[Archived] [Samsung Game Detection] When opening and closing a game the game status will still appear on Discord even after being closed (https://trello.com/c/rwJTDruc)
+
+None
+
+Created: 2019-08-26T05:00:09.950Z
+Latest Update: 2020-02-20T21:36:08.648Z
+
+Reported by Garry#1337
+
+####Steps to reproduce:
+- Make sure your Discord account linked to Game Launcher 
+- Open a game like PUBG or Minecraft 
+- Make sure it's showing your status on Discord 
+- Close the game 
+- Obverse your game status on Discord
+
+####Expected result:
+The game status should disappear as the game was closed
+####Actual result:
+The game status will still show even after the game being closed unless you close and re-open Discord
+####Client settings:
+Discord Alpha 9.4.7
+####System settings:
+Samsung Galaxy A50, Android 9.0 Pie, One UI 1.1
+
+42726
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-26T05:00:09.950Z
+
+
+### Can reproduce.
+Galaxy A20 - Android 9.0 - Alpha 947
+
+Not Batman#7098 - Bug Bot on 2019-08-26T05:00:17.430Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0, One UI 1.1, Discord Alpha 9.4.7
+
+spidget#0010 - Bug Bot on 2019-08-26T05:00:22.435Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8 ANdroid 8, ALpha 9.4.7
+
+Action Potential#6862 - Bug Bot on 2019-08-26T05:00:27.478Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9.0 - Discord 9.4.7
+
+Hagen#0001 - Bug Bot on 2019-08-26T14:18:40.680Z
+
+
+### Moved from User Reported Bugs to Samsung/Game Launcher Bugs by Jeff Cailteux on 2019-08-26T16:43:13.651Z
+
+
+### Can reproduce.
+Galaxy S10+, Android 9.0, alpha 9.4.7
+
+bryant#1011 - Bug Bot on 2019-08-27T19:23:21.310Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9.0 - Discord Alpha 9.4.7
+
+hypnosis#7992 - Bug Bot on 2019-08-29T00:35:10.143Z
+
+
+### Moved from Samsung/Game Launcher Bugs/Overlay to Not a Bug by Sam Shih on 2019-08-29T21:55:06.061Z
+
+
+### This is actually just a delay from server side for the member list (and is being worked on). If you click on profile you should get the up to date data. For perf reasons we keep the member list presence separate from the profile presence. - Sam Shih on 2019-08-29T21:55:52.456Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:36:08.661Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

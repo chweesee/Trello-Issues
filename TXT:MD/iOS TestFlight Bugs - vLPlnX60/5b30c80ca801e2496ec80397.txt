@@ -1,0 +1,112 @@
+[Archived] Keyboard stays closed after opening an image while it's open (Default iOS keyboard specific) (https://trello.com/c/gkugjiMU)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-06-25T10:46:36.710Z
+Latest Update: 2019-05-05T10:30:20.070Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Find an image or upload one 
+- Open your keyboard 
+- Open the image 
+- Exit out of the image and observe that the keyboard is no longer open
+
+####Expected result:
+Keyboard is re-opened as you close the image
+####Actual result:
+Keyboard stays closed
+####Client settings:
+Discord TestFlight 2.3.4, Build 5330
+####System settings:
+iOS 11.2.6, iPhone 5s
+
+14787
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-25T10:46:36.710Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.4 - Discord Testflight 2.3.4 (5330) (Seems to be intended imo)
+
+Adora Steele 💞#1982 - Bug Bot on 2018-06-25T10:46:44.785Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight Build 2.3.4 (5330)
+
+Kuuhaku#4503 - Bug Bot on 2018-06-25T10:46:49.172Z
+
+
+### Can reproduce.
+CR. iPhone 6s - iOS 11.0 - TestFlight 2.3.4 (Build 5330)
+
+Rage#9991 - Bug Bot on 2018-06-25T10:46:54.133Z
+
+
+### This seems to be intended behavior because every tap in the iOS app that is outside of the keyboard makes it disappear (e.g. invites, channel name)
+
+Pascal#0929 - Bug Bot on 2018-06-28T07:13:22.189Z
+
+
+### Moved from User Reported Bugs to Chat Rewrite Bugs by Fanghao on 2018-06-28T18:01:56.913Z
+
+
+### Can't reproduce.
+CNR, appears to be fixed. iPhone X, iOS 12 Developer Beta 12, TestFlight 2.3.7 (6968)
+
+Alfie#1582 - Bug Bot on 2018-08-31T23:43:28.059Z
+
+
+### Moved from Text Chat to Voice Chat by Victoria on 2018-09-10T21:13:26.676Z
+
+
+### Moved from Voice Chat to Backlog by Clayton on 2018-10-19T02:23:59.562Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:33.411Z
+
+
+### Cannot reproduce as of iOS TestFlight 2.5.2 (13014) on iPhone 5S running iOS 11.4.1. Moving to Claimed Fixed. - Ghoul on 2019-04-03T03:04:06.536Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Ghoul on 2019-04-03T03:04:13.567Z
+
+
+### Unarchived by Ghoul on 2019-04-03T03:04:13.613Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.3 (dev beta) - TestFlight 2.5.2 (13014)
+
+Xylium#5800 - Bug Bot on 2019-04-03T03:08:11.218Z
+
+
+### Can't reproduce.
+iphone 5c ios 10.3.3, TestFlight 2.5.2 (13014)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-03T03:14:13.392Z
+
+
+### Can't reproduce.
+iPhone SE iOS 12.2 - TestFlight 2.5.2 (13014)
+
+Daffyduck#5364 - Bug Bot on 2019-04-03T06:06:49.485Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-03T06:06:49.747Z
+
+
+### Archived by Bug Bot on 2019-05-05T10:30:20.081Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,100 @@
+[Archived] Bold and italics in channel topic won't render in channel header, but render fine once you expand the channel topic (https://trello.com/c/xfFXDPks)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-10T17:38:59.933Z
+Latest Update: 2019-10-23T23:04:03.565Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Edit a channel and set a channel topic as one word wrapped between single asterisks 
+- Observe the channel topic in the header. No italics 
+- Now clickto expand the channel topic. Italics work there
+
+####Expected result:
+Italics should render in both header and expanded version
+####Actual result:
+Text shows italics in expanded topic but not in header. Happens with bold as well.
+####Client settings:
+Discord Canary 23321
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+19399
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-10T17:38:59.933Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b96ac33405c560156574895/4b822d3f849e5835267fa9fe16bf44e5/unknown.png added by Bug Bot on 2018-09-10T17:39:02.336Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b96ac33405c560156574895/5dba730715730c060ed72c3f61dcdcda/unknown.png added by Bug Bot on 2018-09-10T17:39:02.362Z
+
+
+### Can reproduce.
+Win 10 64x (1803), Discord Canary 23321
+
+Alipoodle#5025 - Bug Bot on 2018-09-10T17:39:07.343Z
+
+
+### Can reproduce.
+CR. Windows 10 Home 64-bit, Canary 23321
+
+Inspector Soviet#6971 - Bug Bot on 2018-09-10T17:39:12.278Z
+
+
+### Can reproduce.
+Can reproduce. Desktop Canary 23321, iMac macOS High Sierra 10.13.6
+
+George#0069 - Bug Bot on 2018-09-10T17:39:17.251Z
+
+
+### Can reproduce.
+Discord Canary 0.0.193 (0.0.193) Macbook Pro 2018 macOS High Sierra 10.13.6
+
+despresso#0001 - Bug Bot on 2018-09-10T17:48:16.888Z
+
+
+### verified, macos 10.12.6, canary 23321 - Clayton on 2018-09-10T19:49:00.774Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-10T19:49:08.756Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 23990
+
+Neiron#2406 - Bug Bot on 2018-09-19T07:40:06.136Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:12.201Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 33809 | This was fixed for bold but is still an issue for italic
+
+Aeria#9096 - Bug Bot on 2019-03-14T01:23:54.418Z
+
+
+### Unarchived by Bug Bot on 2019-03-14T01:30:05.237Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 35579
+
+Solo#0007 - Bug Bot on 2019-04-13T18:27:20.434Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:03.579Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

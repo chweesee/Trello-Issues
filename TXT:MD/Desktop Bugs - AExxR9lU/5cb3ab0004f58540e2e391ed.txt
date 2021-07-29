@@ -1,0 +1,152 @@
+[Chrome] You don't get redirect back to the payment type menu when using a test card (https://trello.com/c/bvBuExTx)
+
+None
+
+Created: 2019-04-14T21:49:52.480Z
+Latest Update: 2020-07-16T21:26:03.722Z
+
+Reported by TheForbiddenAi#7549
+
+####Steps to reproduce:
+- Have a payment method on chrome that uses a test card (here is one if you need it 5555 5555 5555 4444) 
+- Go to settings -> billing 
+- Click add new payment method 
+- Click autofill from browser 
+- Select the one with the test card 
+- Hit pay and enter the cvc number then hit confirm 
+- Then hit close 
+- Observe how you don't get redirected back to the payment type menu because it errored
+
+####Expected result:
+You should be redirected to the payment type menu
+####Actual result:
+It stays on the autofill menu and doesn't redirect you back
+####Client settings:
+Chrome 73 Canary 35540
+####System settings:
+Windows 10 Home x64 (1809)
+
+32665
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-14T21:49:52.480Z
+
+
+### TheForbiddenAi#7549 - https://i.imgur.com/F1XJBD6.gifv added by Bug Bot on 2019-04-14T21:49:54.941Z
+
+
+### Can reproduce.
+Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+||warp||#4660 - Bug Bot on 2019-04-14T21:49:59.843Z
+
+
+### Can reproduce.
+can reproduce  / Windows 10 home / Chrome 73.0.3683.103 / Build Number: 35540
+
+Souper#9999 - Bug Bot on 2019-04-14T21:50:04.861Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x32, Chrome 73.0.3683.103, Canary 35540
+
+Karasu#0013 - Bug Bot on 2019-04-14T21:50:09.817Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1809 (OS Build 17763.404), Canary 35540, Chrome 73.0.3683.103
+
+||Kissa||#1337 - Bug Bot on 2019-04-14T21:59:46.370Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1809 - Canary 35540, Chrome 73.0.3683.103
+
+Rushly#0001 - Bug Bot on 2019-04-14T22:30:44.757Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Chrome 73.0
+
+Darth#9386 - Bug Bot on 2019-04-14T22:33:04.709Z
+
+
+### Can reproduce.
+Intel® Braswell Chromebook ~ Chrome 72.0.3626.122 (x64) ~ Canary 35540
+
+Casper#9999 - Bug Bot on 2019-04-15T07:04:26.773Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Chrome 73.0.3683.103
+
+nani?#8690 - Bug Bot on 2019-04-15T07:35:42.795Z
+
+
+### Can reproduce.
+CR; macOS Macbook Air 10.14.2 Chrome 73 Canary 35540
+
+Nitecloud#2019 - Bug Bot on 2019-04-15T08:25:10.459Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Web Canary 35540 - Google Chrome 73.0.3683.103
+
+Daffyduck#5364 - Bug Bot on 2019-04-15T09:23:59.744Z
+
+
+### Can reproduce.
+Windows 7 64-bit, Canary 35540, Chrome v72
+
+Skyla#0002 - Bug Bot on 2019-04-15T10:46:07.563Z
+
+
+### Can reproduce.
+CR; Windows 10 Home (x64), 1809 (OS Build 17763.437), Canary 35540 - Chrome 73.0.3683.103
+
+c1rcl#3677 - Bug Bot on 2019-04-15T11:47:16.546Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 35540;Chrome 73.0.3683.103
+
+Neiron#8475 - Bug Bot on 2019-04-15T12:14:26.450Z
+
+
+### Can reproduce.
+CR. macOS Mojave 10.14, Chrome 73.0
+
+Rage#9991 - Bug Bot on 2019-04-15T13:10:41.470Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: stable, Build Number: 35540, Version Hash: 79342e2f831bb6e56439c5501a4cb0ebfc54e619
+
+CDM#7527 - Bug Bot on 2019-04-15T14:29:02.977Z
+
+
+### Can reproduce.
+macos 10.14.5, chrome 73, canary 35540
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-15T16:14:27.072Z
+
+
+### Can reproduce.
+Win 10 Pro x64 (1809) | Canary 35540, Chrome 73
+
+Clay#0001 - Bug Bot on 2019-04-15T17:44:18.693Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 35927; Google Chrome 73.0.3683.103
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-19T03:47:21.038Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

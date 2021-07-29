@@ -1,0 +1,85 @@
+[Archived] Audit log expansion stays expanded when you switch filters. (https://trello.com/c/INom1vOl)
+
+None
+
+Created: 2018-11-12T10:59:41.247Z
+Latest Update: 2019-01-01T23:23:40.551Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- Go to audit log 
+- Go to a expandable log, and expand it. 
+- Go to "Filter by Action", and select the filter that corresponds to the one you expanded. 
+- Observe the same log that you expanded.
+
+####Expected result:
+The log that you expanded, should be closed after choosing a filter, like desktop.
+####Actual result:
+The log stays open after you choose a filter.
+####Client settings:
+Discord Alpha 7.8.8
+####System settings:
+LG Fortune, Android 6.0.1
+
+23053
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-12T10:59:41.247Z
+
+
+### Hole#0001 - https://youtu.be/mrtr1graiZA added by Bug Bot on 2018-11-12T10:59:43.693Z
+
+
+### Can reproduce.
+can repro.  Samsung Galaxy A5, android 8.0, discord stable 7.8.6
+
+roflmoaqwerty#0420 - Bug Bot on 2018-11-12T10:59:48.575Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Discord Alpha 7.8.8
+
+avror#0001 - Bug Bot on 2018-11-12T10:59:53.585Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.8.8
+
+coolalmostchilly#2023 - Bug Bot on 2018-11-12T10:59:58.725Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.8.8
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-12T11:54:00.306Z
+
+
+### Can reproduce.
+CR . 7.8.8 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9566 - Bug Bot on 2018-11-12T13:02:50.039Z
+
+
+### Can't reproduce.
+[NAB], Logs should stay expanded. Design decision ~Dabbit
+
+AmirAmani#0102 - Bug Bot on 2018-11-12T17:19:01.285Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jeff Cailteux on 2018-11-12T18:00:01.763Z
+
+
+### Archived due to being inactive in "Won't fix" list for 30+ days - Tarek on 2019-01-01T23:23:40.067Z
+
+
+### Archived by Tarek on 2019-01-01T23:23:40.553Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,62 @@
+Shortcuts display doesn't support azerty (https://trello.com/c/JV9UAAhf)
+
+P3: Will eventually be fixed,
+low
+
+Created: 2018-05-13T12:10:35.741Z
+Latest Update: 2018-06-11T22:24:41.059Z
+
+Reported by Etrenak#5190
+
+####Steps to reproduce:
+- Go to parameters -> shortcuts 
+- Create a new shortcut 
+- Set your keyboard in azerty mode 
+- Set the shortcut key to a (so q in querty mode)
+
+####Expected result:
+The text displayed should be "a"
+####Actual result:
+The text displayed is "q" However it's just a display bug, the key works
+####Client settings:
+0.0.5 stable & 0.0.49 Canary
+####System settings:
+Ubuntu Xenial 16.04.4 LTS
+
+12490
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-13T12:10:35.741Z
+
+
+### Can reproduce.
+Debian Stretch, Gnome 3.22, Discord Linux Canary 0.0.49 (Build 15120) Using physical azerty keyboard
+
+Robin#0610 - Bug Bot on 2018-05-13T12:10:43.061Z
+
+
+### Can reproduce.
+Debian Buster, Cinnamon ‎3.8, Discord Linux Canary 0.0.49 (Build 15120) Using virtual azerty keyboard with Cinnamon
+
+KiLO#0001 - Bug Bot on 2018-05-13T12:10:48.122Z
+
+
+### Can reproduce.
+Ubuntu Xenial 16.04, Discord Linux Canary 0.0.49 (Build 15120) Using physical azerty keyboard
+
+Yoginth#9339 - Bug Bot on 2018-05-13T12:10:53.088Z
+
+
+### verified, ubuntu 16.04, canary 0.0.5 - Clayton on 2018-06-11T22:24:33.807Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-06-11T22:24:41.042Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,83 @@
+[Archived] Single line markdown extends out of message highlight when you jump to the message from search (https://trello.com/c/FIed8Rgi)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-26T09:19:46.320Z
+Latest Update: 2019-01-11T00:00:38.375Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Send a single work in single tick markdown 
+- Go to a different channel 
+- Search the message in the server 
+- Jump to the message and observe the highlight
+
+####Expected result:
+Markdown doesn't extend out of the highlight
+####Actual result:
+Markdown extends past the bottom of the highlight
+####Client settings:
+Canary Build 24643
+####System settings:
+Windows 10 Home x64 1803
+
+20155
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-26T09:19:46.320Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bab4f32c1203a8e5fcc82e8/9f01947065a9037b25c6c72d3e17f272/ZkXRnOd.png added by Bug Bot on 2018-09-26T09:19:48.672Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bab4f32c1203a8e5fcc82e8/f7ca81adb761fd82c1788930f5220c14/BwzidhE.png added by Bug Bot on 2018-09-26T09:19:48.746Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro, x64 (v1803) - Discord Canary Build 24643
+
+Hole#0001 - Bug Bot on 2018-09-26T09:19:53.687Z
+
+
+### Can reproduce.
+[CR] Win 10 Home x64, Canary 24683
+
+Hornet#1050 - Bug Bot on 2018-09-26T09:19:58.571Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 24683
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-26T09:20:03.731Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24683
+
+Neiron#2406 - Bug Bot on 2018-09-26T14:02:29.834Z
+
+
+### minor - Clayton on 2018-09-26T22:14:46.057Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-26T22:14:53.595Z
+
+
+### Can reproduce.
+CR; Also appears with multi-lines codeblocks and the other kinds of embeds including link previews, YouTube, images, GIFs, MP3s and WEBMs. Plus, on Cozy Appearance, the highlight area's height is less than the profile pic's height; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 0.0.224 build 29240
+
+Longinus#0293 - Bug Bot on 2018-12-09T22:33:08.075Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:38.378Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

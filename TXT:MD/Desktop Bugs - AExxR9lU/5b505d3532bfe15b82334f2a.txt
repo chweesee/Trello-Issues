@@ -1,0 +1,83 @@
+[Archived] Message text overflows under the members sidebar when message contains long URL. (https://trello.com/c/43cVtlu1)
+
+None
+
+Created: 2018-07-19T09:43:17.757Z
+Latest Update: 2019-04-22T07:47:36.011Z
+
+Reported by alpha#9432
+
+####Steps to reproduce:
+- Set compact mode 
+- Send a message with a long URL, such as a Discord attachment link
+
+####Expected result:
+url and message content will wrap properly
+####Actual result:
+URL and message content wrap at window boundary;
+####Client settings:
+Canary build 19105
+####System settings:
+macOS High Sierra
+
+15624
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-19T09:43:17.757Z
+
+
+### Rauf#9245 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b505d3532bfe15b82334f2a/665b5f9b86e436daf425fa5969ca643e/Screen_Shot_2018-07-18_at_4.49.08_PM.png added by Bug Bot on 2018-07-19T09:43:20.309Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 19154
+
+Rauf#9245 - Bug Bot on 2018-07-19T09:43:25.218Z
+
+
+### Can reproduce.
+Can reproduce, however message content was wrapped properly when discord window was in full screen. When discord window was not in full screen the message content was not wrapped properly. Canary 0.0.193 (19154) > MacBook Pro, macOS High Sierra 10.13.6 (17G65)
+
+Beeen#0001 - Bug Bot on 2018-07-19T09:43:30.169Z
+
+
+### Can reproduce.
+I was able to reproduce, I had to kinda stretch the Discord window more to the left, and it started going out. Canary 19154, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-19T09:43:35.160Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary 19105
+
+ThorWolf#6841 - Bug Bot on 2018-07-19T15:07:28.312Z
+
+
+### Can reproduce.
+Observed this behaviour with an autotrader.co.uk link. Canary 0.0.211 (Build 19154), Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.371)
+
+SuperSajuuk#0001 - Bug Bot on 2018-07-19T20:40:25.240Z
+
+
+### Moved from User Reported Bugs to Message Update Bugs by Tarek on 2018-07-19T20:40:25.489Z
+
+
+### Moved from Message Update Bugs to Fix made, not yet released by Joey Baker on 2018-07-19T21:16:23.077Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Joey Baker on 2018-07-19T23:06:36.276Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:15:06.944Z
+
+
+### Archived by Jared on 2018-08-21T23:15:08.679Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

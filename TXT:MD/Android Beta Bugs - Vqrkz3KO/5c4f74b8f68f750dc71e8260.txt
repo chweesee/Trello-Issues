@@ -1,0 +1,76 @@
+[Archived] Markdown: invalid inline-links in embeds' fields not working well (https://trello.com/c/EugoXS6h)
+
+None
+
+Created: 2019-01-28T21:31:36.714Z
+Latest Update: 2019-01-29T05:13:52.826Z
+
+Reported by Hasuko#4498
+
+####Steps to reproduce:
+- Create an embed 
+- Create a field for that embed, and set as the value a markdown inline-style invalid link (e.g. a link which isn't starting with h t t p s : // or anything that isn't a link or nothing)
+
+####Expected result:
+The text between [] should be displayed (even if we can't click on it).
+####Actual result:
+The invalid link between () is displayed insted of the text.
+####Client settings:
+Alpha 8.3.5G (835)
+####System settings:
+Samsung Galaxy A8 (2018), Android 8.0.0
+
+27131
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-28T21:31:36.714Z
+
+
+### Bsian#2061 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c4f74b8f68f750dc71e8260/4b1dccf0f794172fcb3a85901bad9d3e/20190127_114546.jpg added by Bug Bot on 2019-01-28T21:31:39.569Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c4f74b8f68f750dc71e8260/c8c5cc6ea8e312b6ad408b29f43e9787/91ccd3c60f.png added by Bug Bot on 2019-01-28T21:31:39.669Z
+
+
+### Can reproduce.
+CR OnePlus 3T, Android 8, Discord 8.3.5G ~ Please see attached to get a better understanding of the Comparison of the bug from Desktop -> Android
+
+Alipoodle#5025 - Bug Bot on 2019-01-28T21:31:44.056Z
+
+
+### Can reproduce.
+CR, Nexus 8.1, Android 8.1, Alpha 8.3.5g
+
+criptixo#0001 - Bug Bot on 2019-01-28T21:31:49.032Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 8.3.5g
+
+Law of Royale#6825 - Bug Bot on 2019-01-28T21:31:54.135Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 8.3.5G
+
+Danijel#9000 - Bug Bot on 2019-01-28T21:38:11.843Z
+
+
+### Dupe of https://trello.com/c/KIEsDGXU/
+
+Law of Royale#6825 - Bug Bot on 2019-01-29T00:51:24.485Z
+
+
+### dupe below.  - Clayton on 2019-01-29T05:13:50.869Z
+
+
+### Archived by Clayton on 2019-01-29T05:13:52.830Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

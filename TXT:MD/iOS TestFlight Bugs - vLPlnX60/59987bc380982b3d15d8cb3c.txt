@@ -1,0 +1,87 @@
+[Archived] Loading icon bug on member/online screen. Using the gesture to open it shows a loading icon for a while, but pressing the icon shows it instantly (https://trello.com/c/Jv0aHCyl)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-08-19T17:56:19.483Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Craig Federighi#0827
+
+####Steps to reproduce:
+- Use swipe left gesture
+
+####Expected result:
+Instant server member/online list
+####Actual result:
+Instead of pressing the member icon and using the gesture,It shows a loading icon then shows the list. Doing it multiple times results in a longer loading icon.
+####Client settings:
+1.8.9(83)
+####System settings:
+iPhone 5s iOS 10.3.1
+
+3403
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-19T17:56:19.483Z
+
+
+### Can reproduce.
+iOS 10.3.2
+
+xLars#5484 - Bug Bot on 2017-08-19T17:56:26.984Z
+
+
+### Can reproduce.
+CR - iPhone 7, iOS 10.3.3, TestFlight 1.8.9
+
+Nova#9411 - Bug Bot on 2017-08-19T17:56:31.934Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro Early 2015
+
+Nelson1348#9190 - Bug Bot on 2017-08-19T17:56:37.004Z
+
+
+### Can reproduce.
+CR, Discord TestFlight 1.8.9, iPhone 6s, iOS 10.3.3
+
+Nelson1348#9190 - Bug Bot on 2017-08-19T17:58:17.712Z
+
+
+### This report feels very much like an extension to this trello report that is marked as CNR: https://trello.com/c/cJmP0af6
+
+SuperSajuuk#7265 - Bug Bot on 2017-08-19T17:59:15.881Z
+
+
+### Can reproduce.
+iPhone 5s iOS 11 beta 5, Latest Stable Discord Release
+
+Zapzap2Gamer#0763 - Bug Bot on 2017-08-20T00:11:26.294Z
+
+
+### minor, verified - Jared on 2017-08-21T21:50:36.242Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T21:50:43.766Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5560) on iPhone 8 + running iOS 12 (Dev Beta 2). The server never shows the loading gesture, no matter how many times I tried it. I believe that Lazy Guilds feature fixed this issue, which helps the member list to load quickly and more effectively.
+
+Because I was not able to reproduce this bug, I am moving it to Claimed Fixed. - Ghoul on 2018-07-03T01:13:00.485Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T01:13:13.361Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:53.733Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,103 @@
+[Archived] Chat preview channel becomes dark when loading discord in light theme first (https://trello.com/c/zI23SGkl)
+
+P3 - Will be fixed eventually
+
+Created: 2019-11-28T01:56:55.261Z
+Latest Update: 2020-01-05T19:30:03.487Z
+
+Reported by Xylium#5800
+
+####Steps to reproduce:
+- Open discord 
+- Change your appearance to light theme 
+- force close discord and restart it 
+- Go to a channel with pinned messages 
+- Check a pinned message by tapping on the pinned message 
+- Go back to appearance 
+- Change your theme to dark 
+- go back to a channel with pinned messages 
+- repeat step 4 
+- observe
+
+####Expected result:
+the channel text should be white
+####Actual result:
+The channel text is too dark
+####Client settings:
+Testflight 3.1.8 (18423)
+####System settings:
+iPhone 11, iOS 13.3 (dev beta 3)
+
+49016
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-28T01:56:55.261Z
+
+
+### Can reproduce.
+Reversing this report (swapping light and dark around) will yield the channel name practically invisible. iPhone 7: iOS 13.2.3; TestFlight 3.1.8 (18423)
+
+Jiralite#1207 - Bug Bot on 2019-11-28T01:57:03.039Z
+
+
+### Can reproduce.
+Iphone 11, IOS 13.2.3, Testflight 3.1.8 (18423)
+
+kitten#6957 - Bug Bot on 2019-11-28T01:57:08.021Z
+
+
+### Can reproduce.
+Can reproduce, iPhone XR, iOS 12.1, TestFlight 3.1.8 (18423)
+
+🎃nickWtn🎃#3789 - Bug Bot on 2019-11-28T01:57:13.073Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 7, iOS 13.3 (Public Beta 3), Testflight 3.1.8 (18423)
+
+ryan#0570 - Bug Bot on 2019-11-28T02:16:23.374Z
+
+
+### Can reproduce.
+CR iPhone 11 Pro - iOS 13.3 - Testflight 3.1.8(18423)
+
+Socket#1010 - Bug Bot on 2019-11-28T08:51:39.163Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.2, TestFlight 3.1.8 (18423)
+
+.Gloria.#9606 - Bug Bot on 2019-11-28T16:59:00.850Z
+
+
+### Can reproduce.
+CR : iPhone X, iOS 13.3 (dev beta 3) - TestFlight 3.1.8 (18423)
+
+TheRudeDude#6040 - Bug Bot on 2019-11-28T19:21:06.076Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.2.3; TestFlight 3.1.8 (18423)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-30T04:01:01.166Z
+
+
+### Can reproduce.
+CR, iPhone 7 Plus iOS 13.2.3, Testflight 3.1.8(18423)
+
+Action Potential#6862 - Bug Bot on 2019-11-30T04:29:22.824Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-12-06T19:00:03.791Z
+
+
+### Archived by Bug Bot on 2020-01-05T19:30:03.497Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

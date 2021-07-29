@@ -1,0 +1,124 @@
+[Archived] Unlike split view, the message box does not slide up to become visible when Discord is in Slide-Over popup (https://trello.com/c/YWA5VpgC)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-12-14T23:15:52.921Z
+Latest Update: 2019-09-18T10:01:16.788Z
+
+Reported by luma#2845
+
+####Steps to reproduce:
+- Open Discord above an app in Slide-Over mode 
+- Press the message box.
+
+####Expected result:
+Message box should slide up above the keyboard to remain visible while the keyboard is shown (similar to split view)
+####Actual result:
+Message box is stuck under the keyboard, messages are not visible and the keyboard must be hidden before you can send.
+####Client settings:
+iOS Stable 2.1.1
+####System settings:
+iOS 11.2 on 10.5" iPad Pro
+
+6807
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-14T23:15:52.921Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a330628f11b710482cf7420/6a565a1b97e146db7909a840aefcf982/tcaNwuM.png added by Bug Bot on 2017-12-14T23:15:55.817Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a330628f11b710482cf7420/5ae36a6d68429d62a26caddb4f2e747a/TUqHco4.png added by Bug Bot on 2017-12-14T23:15:55.833Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a330628f11b710482cf7420/d1a44cdbaa8ef3b015f3a905734f0601/xJOT2Jv.png added by Bug Bot on 2017-12-14T23:15:55.993Z
+
+
+### Can reproduce.
+iPad Air 2 with iOS 11.2, Discord Stable 2.1.1. Might be related to https://trello.com/c/QPjRPprF
+
+Pascal#0929 - Bug Bot on 2017-12-14T23:16:00.531Z
+
+
+### Can reproduce.
+CR, iPad Air First Generation with iOS 11.1.2, Discord TestFlight 2.2.0 (1910)
+
+Ghoul#4567 - Bug Bot on 2017-12-14T23:16:05.508Z
+
+
+### Can reproduce.
+CR, iPad Pro 12.9”. iOS 11.2, TestFlight 2.2.0
+
+HyperKids#4976 - Bug Bot on 2017-12-14T23:16:10.529Z
+
+
+### Can reproduce.
+iPad Pro 12.9-inch with iOS 11.2, Discord Stable 2.1.2
+
+Andy#4082 - Bug Bot on 2017-12-15T05:18:01.099Z
+
+
+### Only on iPad and iPad Pro, running iOS 11+
+
+HeroGamers#4574 - Bug Bot on 2017-12-16T15:52:37.475Z
+
+
+### Cannot reproduce.  - Clayton on 2018-02-15T00:20:32.126Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-02-15T00:20:39.819Z
+
+
+### Verified, iPad Pro 11.2.6 on TestFlight build 2.2.6 - Jared on 2018-03-19T21:22:55.235Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2018-03-19T21:22:59.954Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:54.517Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.4 (15896) with iPad Pro (11 inch) running iOS 12.4 (PB 4).
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-21T22:32:32.364Z
+
+
+### Unarchived by Pascal on 2019-06-21T22:32:50.558Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-06-21T22:32:58.561Z
+
+
+### Can't reproduce.
+iPad Air, iOS 12.4 (dev beta 4) - Testflight 3.0.4 (15896)
+
+Xylium#5800 - Bug Bot on 2019-06-21T22:38:01.665Z
+
+
+### Can't reproduce.
+iPad Air iOS 12.3.1 TestFlight 3.0.4 (15896)
+
+binchlord#0998 - Bug Bot on 2019-06-22T02:38:20.620Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.4 (15896)
+
+Skyla#0002 - Bug Bot on 2019-06-22T04:42:49.793Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-22T04:42:50.033Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:16.808Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

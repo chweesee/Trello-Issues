@@ -1,0 +1,115 @@
+[Archived] Unicode emojis display incorrectly in reactions (https://trello.com/c/bM91W42d)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-11-11T04:33:21.420Z
+Latest Update: 2019-01-01T15:56:56.177Z
+
+Reported by Rocked03#3304
+
+####Steps to reproduce:
+- Open Discord Canary for web 
+- Add a in-built emoji to a message (e.g. `:regional_indicator_a:`) 
+- View the reaction (through the browser)
+
+####Expected result:
+The emoji should display properly as a reaction
+####Actual result:
+The emoji is added with a reaction, along with another reaction with the 'character not found' symbol
+####Client settings:
+Discord Canary, 27811 (Google Chrome)
+####System settings:
+Google Chrome    69.0.3497.100 (Official Build) (64-bit) (cohort: Stable), Windows 10 Pro 10.0.16299 (Build 16299) x64
+
+23012
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-11T04:33:21.420Z
+
+
+### Aeria#9096 - https://i.imgur.com/PevXXfQ.gifv added by Bug Bot on 2018-11-11T04:33:23.814Z
+
+
+### Aeria#9096 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5be7b1110602ae5d819099bf/6b8e8ace23267fea5042442839d2d693/TmZ7m1B.png added by Bug Bot on 2018-11-11T04:33:23.891Z
+
+
+### Can reproduce.
+Discord Canary 0.0.219 (27814) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-11-11T04:33:28.763Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 27814 | Chrome Version 70.0.3538.77 (Official Build) (64-bit)
+
+Aeria#9096 - Bug Bot on 2018-11-11T04:33:33.758Z
+
+
+### Can reproduce.
+CR Windows 10.0 Build 17134, Discord Build 27811
+
+aditya#0001 - Bug Bot on 2018-11-11T04:33:38.719Z
+
+
+### Can reproduce.
+Chrome 70.0.3538.77 Discord Stable 27814 - Windows 10 Pro x64 1809
+
+webhp#1337 - Bug Bot on 2018-11-11T04:33:43.789Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5be7b1110602ae5d819099bf/ae9c9fc69e1b882f46b32b2a79a47c21/weiaxGg.png added by Bug Bot on 2018-11-11T04:34:40.814Z
+
+
+### Can reproduce.
+Canary (unknown build) on Google Chrome 70.0.3538.77 & Canary 27818 on Firefox Quantum 63.0, both on Fedora 28 with 4.18.16-200 kernel & KDE. Seems to also happen with normal messages; breaks it for everyone if message gets edited with broken emote; Firefox seems to reveal that the emotes are going backwards?
+
+KJP12#3880 - Bug Bot on 2018-11-11T08:47:31.311Z
+
+
+### KJP12#3880 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5be7b1110602ae5d819099bf/b330d92b0d9746c2f39d269f777b7eff/unknown.png added by Bug Bot on 2018-11-11T08:49:28.045Z
+
+
+### Can reproduce.
+Windows 10 Home; Stable Build 27818; Google Chrome 70.0.3538.77
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-11T17:50:01.246Z
+
+
+### Fixed in 27841. - Tarek on 2018-11-12T06:37:39.964Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Clayton on 2018-11-12T22:11:13.210Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-14T21:10:54.056Z
+
+
+### Can repro again on 28316. reopening. - Tarek on 2018-11-21T05:47:57.354Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2018-11-21T05:48:01.691Z
+
+
+### Cannot repro anymore, Canary 28325. Claimed fixed - Tarek on 2018-11-21T06:20:04.225Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Tarek on 2018-11-21T06:20:07.457Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-28T07:03:36.345Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:56:54.123Z
+
+
+### Archived by Tarek on 2019-01-01T15:56:56.180Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

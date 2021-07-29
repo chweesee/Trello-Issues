@@ -1,0 +1,70 @@
+[Archived] Stuck on the reactors modal (https://trello.com/c/x2Bgx2v7)
+
+P2: Fix can wait a while
+
+Created: 2017-04-14T22:46:52.925Z
+Latest Update: 2017-10-17T20:34:28.080Z
+
+Reported by Seth#0346
+
+####Steps to reproduce: 
+- React to a message or find one with reactions on it 
+- Click the drop down on the message and click `Reactions` 
+- Use an alt or have somebody else delete the message while on the reactors screen 
+- Delete the reaction
+####Expected result:
+ The reactors screen should close automatically or you can click off to close it 
+####Actual result:
+ You can't close the reactors screen and you are stuck on it and can't do anything until you perform a reload 
+####System settings:
+ Latest canary on Windows 10 x64
+
+2423
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-14T22:46:52.925Z
+
+
+### Can reproduce.
+Latest canary, Arch Linux
+
+jerbear64#3629 - Bug Bot on 2017-04-14T22:46:53.534Z
+
+
+### Can reproduce.
+Windows 10 x64 | Latest Stable
+
+guurgle#2976 - Bug Bot on 2017-04-14T22:46:55.534Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary
+
+naters305#4120 - Bug Bot on 2017-04-14T22:46:57.528Z
+
+
+### Verified. P2 as it's an a very odd edge case. - Jared on 2017-04-17T20:45:33.046Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-04-17T20:45:41.233Z
+
+
+### Verified Fixed. - Jared on 2017-07-28T21:50:27.977Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-28T21:50:32.492Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:34:27.081Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:34:28.084Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

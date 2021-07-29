@@ -1,0 +1,95 @@
+[Archived] Trying to insert an emoji in the middle of a message using the emoji picker results in it being concatenated at the end (https://trello.com/c/Nvuw0TF4)
+
+None
+
+Created: 2020-04-11T13:59:13.386Z
+Latest Update: 2020-05-20T16:31:58.014Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Type a message with several words 
+- Move your curser somewhere to the middle, anywhere that's not the end will do (current alpha select a word and delete it to bypass selection bug) 
+- Open emoji picker 
+- Tap an emoji
+
+####Expected result:
+The emoji text should be inserted where the curser was, mid message
+####Actual result:
+The emoji text is added to the end of the typed text, and the curser is moved there as well
+####Client settings:
+Discord 18.0 Alpha4 (1095)
+####System settings:
+Moto G7, Android 9
+
+54481
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-11T13:59:13.386Z
+
+
+### KlukCZ#6589 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5e91cd3152341473806d72f1/257a65fe4762d8313d55df3c889ca9e6/Screenshot_20200411-004710.png added by Bug Bot on 2020-04-11T13:59:16.798Z
+
+
+### KlukCZ#6589 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5e91cd3152341473806d72f1/d28c876703e3e362e29be87ba35b62a9/Screenshot_20200411-004703.png added by Bug Bot on 2020-04-11T13:59:17.017Z
+
+
+### Can reproduce.
+CR; Samsung S7, Android 8.1 - 18alpha4
+
+IamSushi#0001 - Bug Bot on 2020-04-11T13:59:20.916Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Tab A (SM-T510), Android 9.0 Discord 18 alpha3
+
+ShadowHanzo#2108 - Bug Bot on 2020-04-11T13:59:25.972Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy S9+, Android 10, Discord 18-alpha4
+
+Creedoo#3626 - Bug Bot on 2020-04-11T13:59:30.973Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha3 (1094)
+
+Ana940#9858 - Bug Bot on 2020-04-11T14:02:40.600Z
+
+
+### https://trello.com/c/BeftBYUW - Aeria on 2020-04-11T14:18:09.892Z
+
+
+### Archived by Aeria on 2020-04-11T14:18:13.229Z
+
+
+### Can reproduce.
+CR, Y9s, Android 10, Discord 18.0-Alpha 4 (1095)
+
+Zynb#2984 - Bug Bot on 2020-04-11T14:53:49.313Z
+
+
+### Disregard my approval, extension of https://trello.com/c/BeftBYUW
+
+Creedoo#3626 - Bug Bot on 2020-04-11T14:59:54.343Z
+
+
+### Can't reproduce.
+Xiaomi redmi 6A Android 8.1.0 MINI Global 10.3
+
+PRAVODA#7213 - Bug Bot on 2020-04-11T19:19:59.299Z
+
+
+### Dupe of https://trello.com/c/QxYqifZP
+
+Ana940#0001 - Bug Bot on 2020-05-20T16:31:58.026Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

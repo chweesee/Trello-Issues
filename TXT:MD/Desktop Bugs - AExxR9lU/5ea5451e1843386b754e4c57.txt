@@ -1,0 +1,106 @@
+[Archived] Emoji category selectors at the bottom of the sidebar cannot be selected when the emoji picker cannot be scrolled any further (https://trello.com/c/xYceorSa)
+
+None
+
+Created: 2020-04-26T08:23:58.477Z
+Latest Update: 2020-06-10T00:01:00.195Z
+
+Reported by Samsamson33#0913
+
+####Steps to reproduce:
+- Open the new emoji selector 
+- Scroll all the way to the bottom 
+- Collapse all the categories 
+- Select one of the lower categories in the sidebar (for example, flags or symbols)
+
+####Expected result:
+The category should be highlighted in the sidebar, even if it doesn't require scrolling when clicked
+####Actual result:
+It is not highlighted. Instead, the selector will highlight whichever category is at the top of the picker when scrolled to that point (in the case of the example image, "Food"). This is somewhat unintuitive behavior, since clicking on one category can effectively select another one.
+####Client settings:
+Discord Canary 58858
+####System settings:
+Windows 10 Home 1909
+
+55131
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-26T08:23:58.477Z
+
+
+### Samsamson33#0913 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ea5451e1843386b754e4c57/d398691b34c99f8da476b8767e96ae65/unknown.png added by Bug Bot on 2020-04-26T08:24:01.597Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 58861 (e350530), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-04-26T08:24:05.923Z
+
+
+### Can reproduce.
+Windows 10 Home, Version 1909, Discord Canary 58883
+
+Just a Regular Talking Box#5472 - Bug Bot on 2020-04-26T08:24:11.003Z
+
+
+### Can reproduce.
+[CR], Windows 10 Home, v1909 (x64), Canary 58883
+
+ThaddeusKKR#4193 - Bug Bot on 2020-04-26T08:24:15.913Z
+
+
+### Moved from User Reported Bugs to Gif/Emoji picker update by Daffyduck on 2020-04-29T20:14:23.014Z
+
+
+### Moved from Gif/Emoji picker update to Claimed Fixed, needs Verification by John Furrow on 2020-04-30T16:32:14.314Z
+
+
+### Moved from Claimed Fixed, needs Verification to Gif/Emoji picker update by John Furrow on 2020-04-30T16:32:26.658Z
+
+
+### Moved from Gif/Emoji picker update to Won't Fix. Dead Bug by John Furrow on 2020-04-30T16:33:23.100Z
+
+
+### Can reproduce.
+CSR, Windows 10 Home x64, Discord Canary (Build 59390)
+
+Bryth#1086 - Bug Bot on 2020-05-01T23:37:07.539Z
+
+
+### Can reproduce.
+CSR, Windows 10 Pro x64 Insider Preview Build 19619, Canary 59390
+
+ShadowHanzo#2108 - Bug Bot on 2020-05-04T12:06:25.020Z
+
+
+### Can't reproduce.
+CNLR, Windows 10 Home x64, Discord Canary (Build 59616)
+
+Bryth#1086 - Bug Bot on 2020-05-07T22:03:46.239Z
+
+
+### Can't reproduce.
+CNLR, -w Canary 59879 (2446cbb)
+
+ShadowHanzo#2108 - Bug Bot on 2020-05-10T03:53:46.962Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Pro, Canary 59879
+
+Action Potential#2655 - Bug Bot on 2020-05-10T23:54:10.373Z
+
+
+### Moved from Won't Fix. Dead Bug to Verified Fixed by Bug Bot on 2020-05-10T23:54:10.806Z
+
+
+### Archived by Bug Bot on 2020-06-10T00:01:00.208Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

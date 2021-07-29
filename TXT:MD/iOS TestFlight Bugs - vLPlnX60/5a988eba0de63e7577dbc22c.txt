@@ -1,0 +1,118 @@
+[Archived] Animation when opening the account settings page freezes briefly. (https://trello.com/c/zKRyDFsR)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-01T23:37:30.530Z
+Latest Update: 2019-10-03T08:05:01.304Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Click the settings icon 
+- Tap Account
+
+####Expected result:
+The account page should load smoothly.
+####Actual result:
+The pane jumps to the middle of the screen waits and completes the animation.
+####Client settings:
+TestFlight 2.2.5 (2894)
+####System settings:
+iPad Mini 2 - iOS 11.3 PB3
+
+9231
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-01T23:37:30.530Z
+
+
+### Can reproduce.
+CR on my iPhone 6, iOS 11.1, iOS TestFlight: 2.2.5 (2894) | THIS IS ALSO NOT IPAD ONLY!
+
+Keru Aldan [ArcTic#1337 - Bug Bot on 2018-03-01T23:37:37.968Z
+
+
+### Can reproduce.
+CR, TestFlight 2.2.5 (2894), iOS 11.2.5, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-03-01T23:37:43.122Z
+
+
+### Can reproduce.
+iPhone 7 IOS 11.3 TF 2.2.5
+
+korzq#0001 - Bug Bot on 2018-03-01T23:37:47.951Z
+
+
+### Seems to happen with multiple sections, can also reproduce it with pinned messages or recent mentions for example
+
+Pascal#0929 - Bug Bot on 2018-03-01T23:40:07.397Z
+
+
+### Verified.  - Clayton on 2018-03-02T01:55:44.960Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-02T01:55:51.158Z
+
+
+### Can't reproduce.
+Discord: Testflight 2.2.5 (2894) IOS: 11.3 PB 3 Model: iPad Pro 9.7
+
+nathanielcwm#3522 - Bug Bot on 2018-03-04T16:05:23.048Z
+
+
+### Can reproduce.
+also lag when pressing "find or start a conversation" iPhone 7 IOS 11.3 TF 2.2.5
+
+korzq#0001 - Bug Bot on 2018-03-10T17:16:13.826Z
+
+
+### I tested this bug during the Trello Cleanup Event, but I am still able to reproduce this bug. The animation is still rough, as it can be hard to see from the first view so you may need to try it multiple times. 
+
+I tested it on iPad Air 1st Generation and iPad 2017 Model (5th Generation) running iOS 11.4 (Air) and iOS 11.2.6 (2017) with Discord TestFlight 2.3.4 (5589). 
+
+Because I was able to reproduce this bug still, I will leave it to be. - Ghoul on 2018-07-03T02:20:15.662Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:53.495Z
+
+
+### This is not iPad specific.
+
+webhp#1337 - Bug Bot on 2018-09-26T16:28:30.123Z
+
+
+### Unarchived by Clayton on 2018-09-26T16:30:03.786Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1.1, Dev Beta 2
+
+Alfie#1582 - Bug Bot on 2018-11-22T19:54:18.767Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:05.444Z
+
+
+### This is now linked in the performance issue master ticket: https://trello.com/c/mzuFpINE
+
+Moving back and archiving. - Pascal on 2019-10-03T08:04:51.840Z
+
+
+### Unarchived by Pascal on 2019-10-03T08:04:56.997Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-10-03T08:04:58.915Z
+
+
+### Archived by Pascal on 2019-10-03T08:05:01.322Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

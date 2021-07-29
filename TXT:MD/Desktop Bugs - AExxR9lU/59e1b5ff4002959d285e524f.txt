@@ -1,0 +1,88 @@
+[Archived] "Text channel names must be alphanumeric or involve dashes and underscores" (https://trello.com/c/xdNqXGMt)
+
+None
+
+Created: 2017-10-14T07:00:15.246Z
+Latest Update: 2017-12-02T17:06:20.789Z
+
+Reported by JustCore#0973
+
+####Steps to reproduce:
+- Create a category 
+- Create a channel in the category 
+- Create a channel with underscores or dashes on each side ( *Dash in the middle only doesn't count*) 
+- Look at the result.
+
+####Expected result:
+You should be able to make the channel as it involves dashes/underscores.
+####Actual result:
+It says it's an invalid name and channel can't be made
+####Client settings:
+Discord Canary 0.0.165
+####System settings:
+Windows 10 x64
+
+5401
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-14T07:00:15.246Z
+
+
+### Can reproduce.
+CR: Discord Canary [0.0.156], MacBook Air [13" 2014], High Sierra [10.13]
+
+ItsPugle#5963 - Bug Bot on 2017-10-14T07:00:23.368Z
+
+
+### Can reproduce.
+CR: Discord Canary [0.0.165], Dell Latitude e5540, Windows 10 Pro, 64 Bit, Version 1703
+
+Nightmare Kitty#4567 - Bug Bot on 2017-10-14T07:00:27.749Z
+
+
+### Can reproduce.
+CR, MacBook Air (13-inch, Early 2015) MacOS High Sierra, Discord Canary 0.0.156
+
+Cheezybob99#9866 - Bug Bot on 2017-10-14T07:00:32.745Z
+
+
+### Can't reproduce.
+NAB, I think it's an API issue
+
+TTtie#4900 - Bug Bot on 2017-10-14T08:06:48.360Z
+
+
+### This is not a bug but intended, you can't start a channel name with a dash. No idea why this went through queue.
+
+SuperSajuuk#7265 - Bug Bot on 2017-10-14T09:31:48.572Z
+
+
+### Intended, a channel name cannot start with a dash or underscore, it can only end in dashes or underscores or have them in the middle. - Alexandru Todea on 2017-10-14T09:54:22.027Z
+
+
+### Yeah, this is indeed intended.
+
+Tiemen#0107 - Bug Bot on 2017-10-14T09:58:00.158Z
+
+
+### I apologize for not realizing that it was intended. **THIS IS NOT AN BUG**
+
+Nightmare Kitty#4567 - Bug Bot on 2017-10-14T20:15:37.076Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2017-10-17T19:52:52.352Z
+
+
+### Archiving this card because it's been in the Not a Bug list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:06:19.617Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:06:20.792Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

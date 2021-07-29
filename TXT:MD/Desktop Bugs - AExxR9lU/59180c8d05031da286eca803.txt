@@ -1,0 +1,112 @@
+[Archived] Removing permissions while in a hidden channel still allows messages to be seen. (https://trello.com/c/LPxl0E92)
+
+P2: Fix can wait a while
+
+Created: 2017-05-14T07:51:41.868Z
+Latest Update: 2017-12-02T17:16:29.616Z
+
+Reported by Mr.Caleb#8593
+
+####Steps to reproduce: 
+- Have 2 different accounts using Canary and any other platform 
+- Give the canary account access to manage channels 
+- give the canary account a role that grants access to a hidden channel, then on the canary account, open the channel and leave it open. 
+- Remove the canary accounts role that granted the secret channel but keep the manage channels permission. 
+
+####Expected result:
+ The channel will vanish and the user currently viewing something they don't have access to will be sent to the default channel. 
+####Actual result:
+ The user will still be able to see the channel contents, read new messages but not reply to anything. As soon as they click out of the channel, it'll vanish. 
+####System settings:
+ Win10 Latest Canary (No I didn't use BetterDiscord for this bug)
+
+1558
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-14T07:51:41.868Z
+
+
+### Can reproduce.
+W8 Canary Latest
+
+PARALLAχ#4500 - Bug Bot on 2017-05-14T07:51:42.471Z
+
+
+### Can reproduce.
+Widnows 10 Pro x64
+
+Azrael#6867 - Bug Bot on 2017-05-14T07:51:44.434Z
+
+
+### Can reproduce.
+Win10 pro 64x, Canary Latest
+
+Luke#6723 - Bug Bot on 2017-05-14T07:51:46.428Z
+
+
+### https://gyazo.com/79112295b40f5c59a1b7db8ca2578db7 - https://gyazo.com/79112295b40f5c59a1b7db8ca2578db7 added by Bug Bot on 2017-05-14T07:51:57.415Z
+
+
+### https://gyazo.com/06123ed60fae47852679f19a6377d08a - https://gyazo.com/06123ed60fae47852679f19a6377d08a added by Bug Bot on 2017-05-14T07:51:57.422Z
+
+
+### Can reproduce.
+win 10 + latest canary
+
+Oasis#4730 - Bug Bot on 2017-05-16T11:34:00.720Z
+
+
+### Verified.  - Clayton on 2017-05-19T03:45:26.896Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-19T03:45:33.035Z
+
+
+### thonker#8624 was able to do this on Android, however other users could not replicate this.
+
+Dunciboy#2559 - Bug Bot on 2017-06-13T08:47:57.560Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.157 -Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-06-17T13:22:19.628Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T12:30:44.366Z
+
+
+### Cannot reproduce. The typing indicator shows up, but the messages do not. - Jared on 2017-10-16T21:50:34.370Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-16T21:50:40.931Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843) -- Typing indicator shows up, no new messages.
+
+juj#5114 - Bug Bot on 2017-10-16T23:44:48.859Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary Build 5942
+
+🎃 FireController1847#9085 - Bug Bot on 2017-10-22T16:53:08.065Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:16:28.599Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:16:29.618Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,41 @@
+[Archived] [image picker] Giving Camera permission but not picture permission hangs the application. (https://trello.com/c/9tKQnWde)
+
+None
+
+Created: Unknown
+Latest Update: 2017-10-17T21:13:52.546Z
+
+Steps to Reproduce:
+
+1)  In device Settings, select the Discord application.
+2)  Turn Photos permission OFF.
+3)  Turn Camera permission ON.
+4)  Progress to any instance of chat within Discord.
+5)  Tap on the paper clip icon to start the upload flow.
+6)  Select Take Photo.
+7)  Take a picture.
+8)  The "Use Photo" button appears.
+
+Buggy event:  The application can no longer be interacted with.  At this point, the user must close and relaunch the application.
+Expected:  User should be able to upload image.
+
+Card Log
+========
+### I dont see any obvious fix for it as the native image picker doesnt handle the error case. I'll put it in low priority and dig into a fix it in the future. - Fanghao on 2016-10-17T22:38:53.408Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2016-10-25T21:39:50.467Z
+
+
+### Archiving as this ticket as been Won't Fix for over a month. - Mike Nisbet on 2017-10-17T21:13:51.632Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:13:52.549Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

@@ -1,0 +1,102 @@
+[Archived] In Quick Switcher, if you search someone whose username has asterisks at the beginning, and the Quick Switcher gives no results, tapping the Add Friend button will paste the username you typed but without the asterisks (https://trello.com/c/nBtbZwJ6)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-10-11T03:52:53.370Z
+Latest Update: 2018-11-11T03:00:03.710Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Quick Switcher 
+- Type @ to filter on users only 
+- Start typing a username starting with asterisks, and make it so it gives no results. Your search query should look like: `@***test***#0001` 
+- In the No Results screen, tap the Add a Friend button 
+- Look at the value prefilled in the DiscordTag field
+
+####Expected result:
+It should be exactly what you type minus the first @ (which is the filter), in this example `***test***#0001`
+####Actual result:
+The first asterisks are somehow eaten, so you get only `test***#0001` in the field
+####Client settings:
+Discord Alpha 7.6.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+20984
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-11T03:52:53.370Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.6.6
+
+Danijel#9000 - Bug Bot on 2018-10-11T03:53:00.711Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 7.6.7
+
+Bencey_#8587 - Bug Bot on 2018-10-11T03:53:05.692Z
+
+
+### Can reproduce.
+CR; Samsung Galaxy Sol; Android 6.0.1; Discord Alpha 7.6.7
+
+Pyxel 💞#5077 - Bug Bot on 2018-10-11T03:53:11.060Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 5 Pro, MIUI 10.0.1.0, Android 8.1, Discord Alpha 7.6.7
+
+̶̶ۣζ͜͡▪) ρнคгยxтαภ#0666 - Bug Bot on 2018-10-11T04:03:08.486Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.6.7
+
+Hole#0001 - Bug Bot on 2018-10-11T04:30:55.083Z
+
+
+### Can reproduce.
+Samsung Galaxy S6 Edge Android 7.0; Discord Beta 7.6.5
+
+Dekkonot#1598 - Bug Bot on 2018-10-11T05:36:14.643Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.6.7
+
+Frances Picard#6209 - Bug Bot on 2018-10-11T06:05:44.857Z
+
+
+### Can reproduce.
+Samsung Galaxy Core Plus sm-g350, 4.2.2, Alpha, 7.6.7
+
+「Fortune's Endbringer」#9616 - Bug Bot on 2018-10-11T06:16:17.198Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 mini, Android 6.0.1, Alpha 768
+
+Nashorn#3450 - Bug Bot on 2018-10-11T20:36:53.827Z
+
+
+### verified, samsung s6 edge, android 7.0, 7.6.8 - Clayton on 2018-10-12T02:49:33.931Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-12T02:49:39.895Z
+
+
+### Archived by Clayton on 2018-11-11T03:00:03.712Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

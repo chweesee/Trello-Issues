@@ -1,0 +1,70 @@
+[Archived] Selecting a certain action from the "Filter by Actions" section (make sure you keep the position of the action in mind and the one you selected is expandable) using any filter (I used "All Actions in my case") then switching action filters (make sure the 2nd filter you choose also has expandable messages (ex: Update Server)) causes the message you selected before you changed filters causes the new filter's message (depens on the position from the top) to also highlight, even though you havent selected it (https://trello.com/c/OhwY7Mqt)
+
+None
+
+Created: 2018-09-27T05:17:31.579Z
+Latest Update: 2019-06-05T23:49:06.315Z
+
+Reported by Danijel#9000
+
+####Steps to reproduce:
+- Go into the "Filter by Actions" filter of the Audit Logs 
+- Select a random, expandable message (keep track of how far away it is from the top) in the Action Log (could be any filter; I'm using "All Actions" filter in this case) 
+- Without deselecting the action you chose, filter for another action (I used "Update Server") 
+- Observe
+
+####Expected result:
+The new filter results should not be selected at all
+####Actual result:
+The position of the previously selected action has transitioned into the new filter
+####Client settings:
+Discord Alpha 7.5.6
+####System settings:
+Samsung Galaxy Note 8, Android 8.0
+
+20193
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-27T05:17:31.579Z
+
+
+### Danijel#9000 - https://youtu.be/WvGHMuhXgNQ added by Bug Bot on 2018-09-27T05:17:34.191Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy J5 Prime Android 7.0, Discord Alpha 7.5.6
+
+Mr. Black#5859 - Bug Bot on 2018-09-27T05:17:39.088Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.5.5
+
+Hole#0001 - Bug Bot on 2018-09-27T05:17:44.086Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S8 Android 8.0, Discord Alpha 7.5.6
+
+OrangeM24#5746 - Bug Bot on 2018-09-27T05:17:49.103Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Tim on 2018-09-27T07:33:46.358Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-09-27T22:06:39.955Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-19T04:32:50.760Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:06.324Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

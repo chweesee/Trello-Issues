@@ -1,0 +1,111 @@
+[Archived] Selecting options to customize an invite's duration or number of usages has a tiny, misplaced arrow. (https://trello.com/c/qlQqdrZn)
+
+P2: Fix can wait a while
+
+Created: 2017-09-17T10:28:12.203Z
+Latest Update: 2018-02-22T19:48:29.293Z
+
+Reported by lluvia#3624
+
+####Steps to reproduce:
+- Have permission to create an invite for the server (either through administrator or create invite permission). 
+- Click the gear to customize options. 
+- Select an option from "expire after" or "max number of uses". 
+- Observe that the arrow is tiny and located in the lower right-hand corner.
+
+####Expected result:
+The arrow should be larger and in the middle of the box.
+####Actual result:
+The arrow is tiny and in the lower right-hand corner of the box, disproportionate to the actual box and other symbols/characters of the interface.
+####Client settings:
+Mac Discord Canary, 0.0.154 (0.0.154)
+####System settings:
+macOS Sierra, 10.12.6
+
+4437
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-17T10:28:12.203Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59be4e3c1f7b7f8b1bd0a09e/6c225ad112bf34b83578ca7930c2fdd9/nL5eNuz.png added by Bug Bot on 2017-09-17T10:28:14.866Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 4361) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-17T10:28:19.717Z
+
+
+### Can reproduce.
+CR Windows 7 x64 Canary build 4361
+
+ks0908#8526 - Bug Bot on 2017-09-17T10:28:24.753Z
+
+
+### Can reproduce.
+Windows 8.1 x64, Canary 0.0.163
+
+LetsPlayNintendoITA#0167 - Bug Bot on 2017-09-17T10:28:29.722Z
+
+
+### Verified. - Clayton on 2017-09-19T19:58:24.833Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T19:58:31.352Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS Sierra 10.12.6, Discord Canary, 0.0.154, Seems to be fixed
+
+Pascal#0929 - Bug Bot on 2017-09-24T09:52:05.872Z
+
+
+### I can't reproduce, the arrows are perfectly centered for both options. 
+
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.163, Build 4820 - Alexandru Todea on 2017-09-24T10:49:31.396Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-24T10:50:39.172Z
+
+
+### Verified fixed.  - Clayton on 2017-09-27T23:26:25.664Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-09-27T23:26:28.992Z
+
+
+### This bug is now back. I am able to reproduce it on Windows 10 Home 64-bit v1703, Discord Canary, Build 5311. - Alexandru Todea on 2017-10-04T14:35:57.443Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Alexandru Todea on 2017-10-04T14:36:15.781Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Greer on 2017-10-06T20:51:34.276Z
+
+
+### I am no longer able to reproduce, the arrows are now in the right position. Also, all drop-down menus in Server Settings > Overview are now centered (See this dupe report for screenshots https://trello.com/c/w1L0bwxw)
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5478
+ - Alexandru Todea on 2017-10-07T07:17:13.220Z
+
+
+### Verified Fixed - Jared on 2018-01-17T19:23:02.609Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T19:23:06.149Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:48:28.367Z
+
+
+### Archived by Tarek on 2018-02-22T19:48:29.295Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

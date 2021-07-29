@@ -1,0 +1,77 @@
+[Archived] Mouse cursor not changing state when you move the cursor from non-locked voice channel to locked channel in overlay (https://trello.com/c/OZKsSQmw)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-28T08:00:09.589Z
+Latest Update: 2019-07-21T21:12:20.639Z
+
+Reported by Frances Picard#6209
+
+####Steps to reproduce:
+- Open Discord Overlay 
+- Open a server that has locked voice channel below or above unlocked voice channel 
+- Put the cursor to locked channel first, it will look like a normal cursor (because it's unclickable) 
+- Move the cursor to non-locked voice channel, the cursor will change to clickable link 
+- Move the cursor directly to the locked channel again (above or below it, without moving it anywhere else)
+
+####Expected result:
+Cursor will change back to normal cursor
+####Actual result:
+Cursor stays in clickable link state
+####Client settings:
+Discord Canary build 20174
+####System settings:
+Windows 10 1803 x64
+
+16183
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-28T08:00:09.589Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5c228900d6588990c4e8c4/41816dc87e3853931ecc79371005e0c5/L0ehz2g.gif added by Bug Bot on 2018-07-28T08:00:12.315Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 April 2018 Update x64, Canary build 20174
+
+TTtie#4900 - Bug Bot on 2018-07-28T08:00:17.023Z
+
+
+### Can reproduce.
+CR, macOS 10.13.5, MacBook Pro 2016 13inch, Canary 20174
+
+-Shadow-#6754 - Bug Bot on 2018-07-28T08:00:22.019Z
+
+
+### Can reproduce.
+Can Reproduce Windows 10 Pro x64 Canary Build 20174
+
+Azrael#6867 - Bug Bot on 2018-07-28T08:00:27.040Z
+
+
+### Can reproduce.
+CR, Windows Home x64, Canary 20174
+
+-Shadow-#6754 - Bug Bot on 2018-07-28T08:00:34.634Z
+
+
+### very minor - Clayton on 2018-08-30T22:38:42.439Z
+
+
+### Extension of master ticket https://trello.com/c/XsGzBWxE/
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-26T01:05:38.240Z
+
+
+### Archived by Aeria on 2019-07-21T21:12:20.653Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

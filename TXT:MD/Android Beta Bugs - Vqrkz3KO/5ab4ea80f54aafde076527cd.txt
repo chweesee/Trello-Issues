@@ -1,0 +1,68 @@
+[Archived] If you force-close the app after receiving a push notification, receiving a second push notification from the same channel won't group it with the first one (https://trello.com/c/RUHyxXqB)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-03-23T11:52:32.190Z
+Latest Update: 2018-05-24T18:12:54.730Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Minimize Discord without closing it 
+- Get someone to mention you so you receive a push notification 
+- Remove Discord from your Android recent tasks. This is to kill the process. 
+- Get another push notification from the same channel
+
+####Expected result:
+The two push notifications should be merged/grouped together
+####Actual result:
+They are shown separately
+####Client settings:
+Discord Alpha 6.3.7
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9629
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-23T11:52:32.190Z
+
+
+### Can reproduce.
+Moto G 4, Android 7.1.1, Discord Alpha 6.3.7
+
+Xia#8966 - Bug Bot on 2018-03-23T11:52:39.556Z
+
+
+### Can reproduce.
+CR; redmi note 3 MIUI 9 android 6; Alpha 6.4.0
+
+korzq#0001 - Bug Bot on 2018-03-23T11:52:44.577Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.1
+
+fujhofn.#0878 - Bug Bot on 2018-03-23T11:52:49.538Z
+
+
+### Cannot reproduce. Samsung S6 Edge, Android 7.0, 6.4.6 - Clayton on 2018-04-06T23:42:38.629Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-04-06T23:43:48.710Z
+
+
+### Archived due to being in the CNR list for a month without any further action to make place for newer bugs. - Tarek on 2018-05-24T18:12:53.528Z
+
+
+### Archived by Tarek on 2018-05-24T18:12:54.733Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

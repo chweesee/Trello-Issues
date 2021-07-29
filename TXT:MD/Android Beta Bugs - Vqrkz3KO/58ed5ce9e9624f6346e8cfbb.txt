@@ -1,0 +1,138 @@
+[Archived] Colons not showing up around emoji when long pressing (https://trello.com/c/cjALqgpL)
+
+P3 - Will be fixed eventually
+
+Created: 2017-04-11T22:47:05.952Z
+Latest Update: 2020-02-20T21:34:15.214Z
+
+Reported by Retro°#7720
+
+####Steps to reproduce: 
+- type message with emoji in it 
+- long press on it for message options 
+
+####Expected result:
+ message should show the emoji with colons around it
+####Actual result:
+ the emojis just look like text
+####System settings:
+ discord3.6.2(358) android 7.0
+
+2355
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-11T22:47:05.952Z
+
+
+### Can reproduce.
+Discord 3.6.2 Android 5.1
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-04-11T22:47:06.530Z
+
+
+### Can reproduce.
+Android 5.0.2 Discord v3.6.1
+
+ColdVolcano#0489 - Bug Bot on 2017-04-11T22:47:08.517Z
+
+
+### Can reproduce.
+Android 6.0 Alpha 3.6.1
+
+OGNovuh#0014 - Bug Bot on 2017-04-11T22:47:10.582Z
+
+
+### Can reproduce.
+Android 5.0, Discord Alpha 3.6.2
+
+UnitedShoes#9080 - Bug Bot on 2017-04-12T01:24:58.775Z
+
+
+### Can reproduce.
+Android 5.0, Discord 3.6.2
+
+Krotchmonster#9387 - Bug Bot on 2017-04-12T01:26:22.903Z
+
+
+### Can reproduce.
+Discord 3.6.1 Android 7.1.1
+
+Raichu Nuzzles You ⚡#6065 - Bug Bot on 2017-04-12T04:17:18.287Z
+
+
+### Can't reproduce.
+3.6.2
+
+sladeiam#0642 - Bug Bot on 2017-04-12T09:50:36.883Z
+
+
+### This isn't a regression from emoji picker so I'm not going to rush to fix it. We can trivially wrap all emojis in colons when we parse them to text but the right approach is to find the emoji in the emoji store by ID and then wrap it only if that emoji has `requireColons == true`. - Andy Garron on 2017-04-12T21:17:18.648Z
+
+
+### Verified.  - Clayton on 2017-04-20T19:29:05.140Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-20T19:29:10.174Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 edge (SM-G935F), Android Nougat 7.0, Discord Alpha 4.0.2 (401)
+
+Curse Broken#8659 - Bug Bot on 2017-07-29T10:51:58.535Z
+
+
+### Can reproduce.
+Also when you copy it, it copies without the colons, Samsung Galaxy Tab A 6 (SM-T280), Android Lollipop 5.1.1, Discord 5.2.6 (526)
+
+advaith#9121 - Bug Bot on 2017-10-01T20:29:25.586Z
+
+
+### Okori#0902 - https://youtu.be/68Nx8ulylZU added by Bug Bot on 2018-07-14T06:07:51.498Z
+
+
+### Archived by Clayton on 2018-08-22T01:19:44.965Z
+
+
+### Can reproduce.
+Galaxy S8 android 8.0, alpha 7.4.0
+
+AEnterprise#4693 - Bug Bot on 2018-08-23T09:24:31.939Z
+
+
+### Unarchived by Clayton on 2018-08-23T09:30:03.034Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:43.261Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 1809 x64, Discord Canary 38023
+
+Llamaglotapi#7664 - Bug Bot on 2019-05-20T02:26:39.572Z
+
+
+### Unarchived by Bug Bot on 2019-05-20T02:30:04.406Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:25:03.924Z
+
+
+### Can reproduce.
+[Discord Alpha • Build 905] [Android 10.0 • Build QP1A.190404.051] [Essential PH-1]
+
+Yolodude25 [LM | 26/09/2019]#5376 - Bug Bot on 2019-08-18T14:39:50.696Z
+
+
+### Unarchived by Bug Bot on 2019-08-18T15:00:06.607Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:15.226Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

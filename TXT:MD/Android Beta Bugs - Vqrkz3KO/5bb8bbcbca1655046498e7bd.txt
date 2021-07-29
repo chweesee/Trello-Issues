@@ -1,0 +1,64 @@
+[Archived] When you change your username to a longer one, the name in the bottom of the channel drawer occupies as much space as the smaller one did before getting truncated. (https://trello.com/c/cTvcdJpH)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-10-06T13:42:35.771Z
+Latest Update: 2018-11-08T01:30:02.675Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Set your username to a longer one (make sure that the initial username was small enough not to get truncated and left a bit of space too). 
+- Open channel drawer. 
+- Observe the username at the bottom of the channel drawer.
+
+####Expected result:
+the username gets truncated where it has to i.e before the settings gear.
+####Actual result:
+the username gets truncated at the point where the old username ended. For example, you had a username with 3 characters and you changed it to have 8 characters. Then, only two characters are shown and the rest of the username gets truncated.
+####Client settings:
+Discord Alpha 762
+####System settings:
+Coolpad Mega 3, 6.0
+
+20642
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-06T13:42:35.771Z
+
+
+### Can reproduce.
+Can reproduce. LG Fortune, Android 6.0.1 - Discord Alpha 7.6.3
+
+Testing a really long username#0001 - Bug Bot on 2018-10-06T13:42:43.026Z
+
+
+### Can reproduce.
+Cr, Samsung Galaxy S5 mini, Android 6.0.1, Alpha 763
+
+Testing a really long Username#3450 - Bug Bot on 2018-10-06T13:42:48.082Z
+
+
+### Can reproduce.
+Samsung galaxy s8 android 8; 7.6.3
+
+Testing a really long username#5746 - Bug Bot on 2018-10-06T13:42:53.082Z
+
+
+### minor - Clayton on 2018-10-09T01:03:27.971Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-09T01:03:34.347Z
+
+
+### Archived by Clayton on 2018-11-08T01:30:02.678Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

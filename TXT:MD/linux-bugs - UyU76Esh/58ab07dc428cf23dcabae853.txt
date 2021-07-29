@@ -1,0 +1,89 @@
+Pasting a big enough screenshot from clipboard to discord causes it to hang and then not produce any error message on xfce (https://trello.com/c/AgUEUiQR)
+
+P3: Will eventually be fixed,
+low
+
+Created: 2017-02-20T15:14:36.048Z
+Latest Update: 2018-05-13T15:46:17.685Z
+
+Reported by Managor#5520
+
+####Steps to reproduce: 
+- Open xfce4-screenshooter 
+- select "Select a region" 
+- Take a screenshot at almost full screen 
+- select "Copy to clipboard" 
+- Try to paste the image to discord 
+- 
+
+####Expected result:
+ The image should be pasted to discord or an error message should appear 
+####Actual result:
+ Discord hangs for a moment and then continues without any error message 
+####System settings:
+ Main discord version and xfce
+
+1687
+
+Card Log
+========
+### Added by Jared on 2017-02-20T15:14:36.048Z
+
+
+### Can reproduce.
+arch linux 0.15 xfce4 discord canary 0.0.15
+
+mralext20#8975 - Jared on 2017-02-20T15:14:37.051Z
+
+
+### Can reproduce.
+Xubuntu, latest Linux Canary
+
+GerdSattler#3221 - Jared on 2017-02-20T15:14:38.897Z
+
+
+### Can reproduce.
+Ubuntu 16.04 w/ xfce4-screenshooter, Canary 0.0.15
+
+nullpixel#0012 - Jared on 2017-02-20T15:14:40.921Z
+
+
+### https://www.youtube.com/watch?v=1DVg1E6YALc - https://www.youtube.com/watch?v=1DVg1E6YALc added by Jared on 2017-02-20T15:14:51.989Z
+
+
+### Can reproduce.
+Linux PTB, Ubuntu
+
+Ben Z.#1327 - Jared on 2017-02-22T01:56:30.995Z
+
+
+### Can reproduce.
+Xubuntu 16.04.3 Canary build 7714
+
+DarkPikachu#7314 - Bug Bot on 2017-11-28T10:42:49.792Z
+
+
+### Cannot reproduce - Clayton on 2018-01-09T23:02:51.233Z
+
+
+### Moved from User Reported to Cannot Reproduce. by Clayton on 2018-01-09T23:02:54.034Z
+
+
+### Can reproduce as originally written. - Jared on 2018-04-24T20:00:19.027Z
+
+
+### Moved from Cannot Reproduce. to Discord Verified Bugs by Jared on 2018-04-24T20:00:23.453Z
+
+
+### Can reproduce.
+Ubuntu 18.04 bionic xfce4 Release Channel: stable, Build Number: 15154, Version Hash: 5c7d1ecd0cb882f69e130300bea67183ed9f7e13
+
+DataFlame#9001 - Bug Bot on 2018-05-13T15:46:17.687Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

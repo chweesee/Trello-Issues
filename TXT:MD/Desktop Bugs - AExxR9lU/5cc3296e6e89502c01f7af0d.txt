@@ -1,0 +1,211 @@
+[Archived] Loading animation overlaps "Jump" when jumping to a pinned message whilst holding shift. (https://trello.com/c/W6ZMmjBa)
+
+None
+
+Created: 2019-04-26T15:53:18.988Z
+Latest Update: 2019-07-20T22:00:36.950Z
+
+Reported by sha#9999
+
+####Steps to reproduce:
+- First, open the Pinned Messages of any channel. 
+- Pick a pinned message that you have never (recently?) jumped to. 
+- Shift + Click the "Jump" button.
+
+####Expected result:
+It plays the loading animation normally and takes you to the message
+####Actual result:
+It plays the loading anim awkwardly while overlapping the "Jump" button, discolors it, and takes you to the message.
+####Client settings:
+Desktop Canary Build 36426 // Version Hash: 24a5c9076122223f0948a3bbe12b562cda457991
+####System settings:
+Surface Pro 4 // Windows 10 Pro Version 1803, Build 17134.648
+
+33540
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-26T15:53:18.988Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro Inider Build 18875, Ryzen 5 2600 @3.9Ghz, GTx 1050 Ti , Canary 36426
+
+ScarVite#6606 - Bug Bot on 2019-04-26T15:53:26.391Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, Canary 36426 host 0.0.235
+
+Jean20B#4287 - Bug Bot on 2019-04-26T15:53:31.364Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 36426, Seems to be only the ones who haven't been viewed recently
+
+nani?#8690 - Bug Bot on 2019-04-26T15:53:36.444Z
+
+
+### sha#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cc3296e6e89502c01f7af0d/02d2922f3ad539c58b101fae22da1a4c/2019-04-26_10-59-46.gif added by Bug Bot on 2019-04-26T15:53:36.792Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (1809), Canary 36426
+
+[CLASSIFIED]#9999 - Bug Bot on 2019-04-26T16:19:27.332Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1809 (OS Build 17763.404), Discord Canary 36426
+
+||Kissa||#1337 - Bug Bot on 2019-04-26T17:28:18.924Z
+
+
+### Can reproduce.
+- Windows 10 Pro x64 (1809) - Canary 36426
+
+Jengas#7777 - Bug Bot on 2019-04-26T17:33:36.277Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 36426
+
+Darth#9386 - Bug Bot on 2019-04-26T17:42:00.819Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro (x64), Discord Canary 36430. (Only messages that haven't been viewed recently).
+
+Bullseye#8200 - Bug Bot on 2019-04-26T18:21:28.771Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x32, Canary 36430
+
+Karasu#0013 - Bug Bot on 2019-04-26T19:27:09.710Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 36442
+
+Neiron#8475 - Bug Bot on 2019-04-26T20:01:31.948Z
+
+
+### Can reproduce.
+Windows 7 x64 Service Pack 1, Canary Build 36426
+
+󠇰󠇰iChiwi_.#5562 - Bug Bot on 2019-04-26T20:32:21.323Z
+
+
+### Can reproduce.
+macOS Mojave MacBook Air 10.14.2, Discord Canary, Build Number: 36426
+
+Nite#2100 - Bug Bot on 2019-04-26T20:47:48.727Z
+
+
+### This same issue can be found on the Create Channel/Category Dialogues
+
+Darth#9386 - Bug Bot on 2019-04-26T21:22:16.478Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: canary, Build Number: 36442, Version Hash: a546e1ea0316031947e5321a4cf398f07baa5235
+
+Cam#7527 - Bug Bot on 2019-04-26T21:35:01.752Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1809 , Canary 36426
+
+anonymous kitten#5379 - Bug Bot on 2019-04-26T22:19:05.937Z
+
+
+### Can reproduce.
+Win10x64 1809 - Canary 36442
+
+Cubity_First#0001 - Bug Bot on 2019-04-26T22:58:39.785Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Discord Canary 36442
+
+jedi3#0001 - Bug Bot on 2019-04-26T23:24:35.969Z
+
+
+### Can't reproduce.
+MacBook Air - MacOS (10.12.6 Sierra), canary 36215
+
+myacorn#6534 - Bug Bot on 2019-04-27T02:33:02.615Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 36503
+
+Clay#0001 - Bug Bot on 2019-04-27T02:48:34.006Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 36503
+
+Pain#2020 - Bug Bot on 2019-04-27T04:31:23.649Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.235 Build 36525
+
+Daffyduck#5364 - Bug Bot on 2019-04-27T09:28:06.760Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 36426
+
+Lily#2624 - Bug Bot on 2019-04-27T09:56:12.654Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary 36215
+
+Tjaz#0001 - Bug Bot on 2019-04-27T14:06:22.493Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 36525
+
+Xylium#5800 - Bug Bot on 2019-04-27T14:48:53.044Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary 36529
+
+Lekic#0001 - Bug Bot on 2019-04-28T03:58:05.768Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1809) - Canary 36529
+
+Rushly#9433 - Bug Bot on 2019-04-29T20:36:33.915Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 37253 (Host 0.0.237)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-10T02:28:13.115Z
+
+
+### Too minor of an issue to dedicate resources to fixing.
+
+Moving to Won't Fix. - Ene on 2019-06-20T21:35:46.630Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Ene on 2019-06-20T21:35:49.720Z
+
+
+### Archived by Bug Bot on 2019-07-20T22:00:36.962Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

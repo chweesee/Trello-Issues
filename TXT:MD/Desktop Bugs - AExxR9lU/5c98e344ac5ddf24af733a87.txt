@@ -1,0 +1,112 @@
+[Archived] Uncaught (in promise): DOMException when double-clicking any built-in video player. (https://trello.com/c/hTjhNRu1)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-25T14:18:45.034Z
+Latest Update: 2019-04-02T17:39:38.889Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Find any video using the built-in Discord video player. 
+- Press CTRL + SHIFT + I (⌘⌥ + I on Mac), and click the Console tab. 
+- Double-click the video player. 
+- Look in console.
+
+####Expected result:
+No Uncaught (in promise): DOMException error should appear.
+####Actual result:
+An Uncaught (in promise): DOMException does appear.
+####Client settings:
+Web Canary 34463 + Web Stable 34340
+####System settings:
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64)
+
+31632
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-25T14:18:45.034Z
+
+
+### Can reproduce.
+CR on win10 pro (64-bit, build 1809), web stable 34340, chrome 73.0.3683.86
+
+Defracted#7777 - Bug Bot on 2019-03-25T14:18:52.404Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c98e344ac5ddf24af733a87/b9b81c6db8b32127ae89b0b714c6d3c6/4kaaOfA.gif added by Bug Bot on 2019-03-25T14:18:53.831Z
+
+
+### Can reproduce.
+Windows 10 x64 Web Canary 34463
+
+Raizyr#8192 - Bug Bot on 2019-03-25T14:18:57.477Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 34463
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-25T14:19:02.530Z
+
+
+### Can reproduce.
+cr, Win10 Pro - Canary 34463
+
+tonite#0001 - Bug Bot on 2019-03-25T15:24:17.043Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 34464; Google Chrome 72.0.3626.121
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-25T15:24:20.414Z
+
+
+### Can reproduce.
+- Windows 10 Pro x64 (1809) - Canary 34463 - Chrome 73.0.3683.86
+
+Jengas#7777 - Bug Bot on 2019-03-25T15:25:03.938Z
+
+
+### Can reproduce.
+cr, Win10 Pro - Canary 34463 - Chrome 72.0.3626.121
+
+tonite#0001 - Bug Bot on 2019-03-25T15:25:38.605Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Web Canary 34463 | Chrome 73
+
+Clay#0001 - Bug Bot on 2019-03-25T17:33:29.555Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 34539
+
+Daffyduck#5364 - Bug Bot on 2019-03-26T00:11:27.511Z
+
+
+### Can't reproduce.
+Manjaro Linux Unstable, Xfce 4.13 Canary 34565
+
+chaNcharge#7023 - Bug Bot on 2019-03-26T05:53:46.978Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-04-01T22:42:42.133Z
+
+
+### Extension of https://trello.com/c/I5IbVu54 - Ene on 2019-04-02T17:39:25.139Z
+
+
+### Moved from Verified Bugs to User Reported Bugs by Ene on 2019-04-02T17:39:36.314Z
+
+
+### Archived by Ene on 2019-04-02T17:39:38.903Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

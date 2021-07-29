@@ -1,0 +1,79 @@
+[Archived] Using the "from:" search filter on a user who isn't cached will break the search engine with a 400 error (https://trello.com/c/tIee0I8C)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-06-14T10:32:55.421Z
+Latest Update: 2018-10-11T00:31:08.856Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to any server and tap Search 
+- Input `from:` 
+- Input the Discord tag of an uncached user. If you're not sure of which user to pick, you can also input the tag of a user who isn't in the server
+
+####Expected result:
+As on Desktop, it should threat the invalid tag as the content of the search and the "from:" is ignored
+####Actual result:
+"Crap, we dropped the manifying glass. Uh... can you try searching again?" coming with a 400 error in debug log. Notice that the request parameters has `author_id=null`, which seems unintended
+####Client settings:
+Discord Alpha 6.9.1
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14148
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-14T10:32:55.421Z
+
+
+### Can reproduce.
+Can reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 SE 8.1 ~ Discord Alpha 691
+
+Lava#9562 - Bug Bot on 2018-06-14T10:33:02.849Z
+
+
+### Can reproduce.
+can reproduce Huawei P20 lite android 8.0.0 Discord alpha 6.9.1
+
+hurricane#2245 - Bug Bot on 2018-06-14T10:33:07.883Z
+
+
+### Can reproduce.
+Can reproduce. Alcatel 3C, 7.0.0 Discord Alpha 6.9.1
+
+StefanFX#2952 - Bug Bot on 2018-06-14T10:33:12.826Z
+
+
+### Verified, samsung s6 edge, android 7.0, alpha 6.9.5 - Clayton on 2018-06-18T20:28:43.813Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-18T20:28:50.684Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b22445759e2afb67748a392/7440b1ad496817c8fff2e7362e0464de/kusN5MJ.gif added by Bug Bot on 2018-07-15T14:18:30.499Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:52.565Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 7.3.9
+
+webhp#1337 - Bug Bot on 2018-08-22T02:16:25.877Z
+
+
+### Unarchived by Clayton on 2018-08-22T04:03:17.805Z
+
+
+### Archived by Clayton on 2018-10-11T00:31:08.859Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

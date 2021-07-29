@@ -1,0 +1,96 @@
+Discord updating the tray indicator icon causes the desktop to freeze / stutter (https://trello.com/c/T9S0mSLm)
+
+None
+
+Created: 2019-06-20T03:56:24.553Z
+Latest Update: 2020-06-08T06:28:12.496Z
+
+Reported by robobenklein#6494
+
+####Steps to reproduce:
+- Be in a voice channel 
+- Start or stop talking 
+- The desktop will stutter or freeze for a fraction of a second
+
+####Expected result:
+The tray icon should be updated and the desktop should not stutter.
+####Actual result:
+I get frame drops across the desktop, including watching videos and playing games.
+####Client settings:
+Canary 0.0.83
+####System settings:
+Ubuntu 19.04, both Ubuntu Desktop and Gnome sessions (with AppIndicator support)
+
+37567
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-20T03:56:24.553Z
+
+
+### Can reproduce.
+openSUSE Tumbleweed 20190614 - Canary 0.0.83 (39914) - GNOME 3.32.2 (using KStatusNotifierItem/AppIndicator Support extension used by Ubuntu)
+
+voldemort#6931 - Bug Bot on 2019-06-20T03:56:31.907Z
+
+
+### Can reproduce.
+Same problem on Kali 14.8 // Discord Canary 39914
+
+Indiana#6009 - Bug Bot on 2019-06-20T03:56:36.916Z
+
+
+### Can reproduce.
+CR, ubuntu 18.04, ptb 40044
+
+Action Potential#2494 - Bug Bot on 2019-06-20T03:56:41.914Z
+
+
+### Can reproduce.
+Manjaro (Arch) 5.2.2-1 Gnome - Stable & Canary
+
+Amphy#0001 - Bug Bot on 2019-07-26T00:55:56.896Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS, Discord:  [Build Info] Release Channel: stable, Build Number: 42647, Version Hash: e559b455d905e55168923446d9e058b3fe6bd3b8
+
+Ultimus#0001 - Bug Bot on 2019-08-03T23:38:21.780Z
+
+
+### Can reproduce.
+Fedora 30 Stable 42877 using KStatusNotifierItem/AppIndicator Support extension
+
+Link#1685 - Bug Bot on 2019-08-07T17:38:05.609Z
+
+
+### Can reproduce.
+Manjaro 18.0.4 (Gnome Desktop)
+
+Ultimate255#6424 - Bug Bot on 2019-08-17T00:07:25.125Z
+
+
+### Can reproduce.
+Ubuntu 18.04.1 LTS 64-bit  • Discord version stable • Build  44004
+
+Wyrd rëisa#7128 - Bug Bot on 2019-08-23T22:05:52.127Z
+
+
+### Can reproduce.
+Linux Mint 19.2
+
+Alkaris#1722 - Bug Bot on 2019-11-01T21:47:52.545Z
+
+
+### Can reproduce.
+Pop!_os 19.10, canary and stable
+
+ebbit#0915 - Bug Bot on 2019-11-16T21:38:25.769Z
+
+List
+====
+User Reported
+
+Members
+=======
+None

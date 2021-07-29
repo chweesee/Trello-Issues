@@ -1,0 +1,69 @@
+[Archived] Pressing the back button enough times in user settings makes discord load user settings saying your account is unclaimed (https://trello.com/c/sjavilFP)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-13T12:20:01.757Z
+Latest Update: 2018-10-22T20:21:49.299Z
+
+Reported by Ghostly#0001
+
+####Steps to reproduce:
+- be already signed in in browser
+- go to https://discordapp.com/login
+- click on random servers for a bit
+- Go to user settings
+- click the back button until you reach  https://discordapp.com/login again
+
+####Expected result:
+Either it goes into user settings without a hitch or it goes to the friends list or most recent channel without problems
+####Actual result:
+Your Username and Discrim ID disappear with the account unclaimed message above.
+####Client settings:
+Discord Canary Web 0.0.192, Build Number: 16868.
+####System settings:
+MacBook Air Early 2015, MacOS High Sierra 10.13.4, Google Chrome Stable 66.0.3359.181
+
+14110
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-13T12:20:01.757Z
+
+
+### Ghostly#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b210bf189b7c5d25bdff76b/f3d121206d6650b17c153e9dad18ed6a/ds395b.png added by Bug Bot on 2018-06-13T12:20:04.610Z
+
+
+### Can reproduce.
+[CR] OS X El Capitan 10.11.6, Discord Canary 16581
+
+54D [Hibernation]#1357 - Bug Bot on 2018-06-13T12:20:09.235Z
+
+
+### Can reproduce.
+windows 10 1803, Firefox Quantum 60.0.2 (64-bits)
+
+Rexey#6969 - Bug Bot on 2018-06-13T12:20:14.238Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 16868
+
+Rauf#9245 - Bug Bot on 2018-06-13T12:20:19.245Z
+
+
+### Verified. Extremely minor issue. - Jared on 2018-06-14T21:33:04.049Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-14T21:33:10.778Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:49.303Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

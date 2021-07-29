@@ -1,0 +1,88 @@
+[Archived] Deleting a server on mobile while being focused on that server freezes the client. (https://trello.com/c/SR3m9WBP)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-07T08:03:15.338Z
+Latest Update: 2019-01-11T00:00:56.635Z
+
+Reported by 🖥 [𝒩🌸₁₀₂ 𝒰₉₂] ᏗᏁᎶᏋᏝᏗ⁵⁰⁰⁰ 💞 ‘憐憫’#1982
+
+####Steps to reproduce:
+
+- Create a server
+
+- Open up the server’s Settings.
+
+- Click “Delete Server”
+
+- If you see the pop up, delete the server from your mobile device.
+
+####Expected result:
+It should tab you out and return you to the friends list while closing the pop up.
+####Actual result:
+The client freezes and the console says it cannot properly read ID of null after a 400 error.
+####Client settings:
+Discord Stable 25580 & Discord TestFlight 2.3.9 (8085)
+####System settings:
+Windows 10 Home x64 & iPhone 7 running iOS 12.0
+
+20770
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-07T08:03:15.338Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 25648 | Options menu is "server settings"
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-07T08:03:22.602Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 25648 - iPhone 6s, iOS 12.1 Beta (16B5059d) - TestFlight 2.3.9 (8085)
+
+william#0002 - Bug Bot on 2018-10-07T08:03:27.608Z
+
+
+### Can reproduce.
+Can Repro; null; -a
+
+Pyxel 💞#5077 - Bug Bot on 2018-10-07T08:03:32.602Z
+
+
+### Forgot to store Linux info: Linux Mint 19 x64; Canary 25648
+
+Pyxel 💞#5077 - Bug Bot on 2018-10-07T08:08:15.570Z
+
+
+### Can't reproduce.
+CNR // Windows 10 Home (x64, 1803) | Discord Canary 25648 || -i | Discord TestFlight 2.3.9 (8085)
+
+Marc#7377 - Bug Bot on 2018-10-08T02:48:39.794Z
+
+
+### verified, macos 10.12.6, canary 25683 - Clayton on 2018-10-08T23:55:48.159Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-08T23:55:58.535Z
+
+
+### Extension of https://trello.com/c/5MaxNVjn
+
+Ene#0808 - Bug Bot on 2018-10-09T06:21:33.472Z
+
+
+### Dupe below.  - Tarek on 2018-10-10T07:36:17.467Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:56.638Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

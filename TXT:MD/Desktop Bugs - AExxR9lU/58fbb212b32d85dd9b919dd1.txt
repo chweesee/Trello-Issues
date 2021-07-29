@@ -1,0 +1,247 @@
+[Archived] Specific embeds are not removed after removing link from post (https://trello.com/c/OapIvE5a)
+
+P3: Will get fixed eventually
+
+Created: 2017-04-22T19:42:10.360Z
+Latest Update: 2019-12-30T13:00:14.690Z
+
+Reported by Benolot#8451
+
+####Steps to reproduce: 
+- Post any unescaped Twitter link such as: https://twitter.com/discordapp
+- edit message to remove link  
+
+####Expected result:
+ embed removed 
+####Actual result:
+ embed stays 
+####System settings:
+ windows 10 latest, discord canary latest
+
+1177
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-22T19:42:10.360Z
+
+
+### Can reproduce.
+Discord Canary, Windows 10 x64 - Only happens with Twitter embeds
+
+AlFas#2783 - Bug Bot on 2017-04-22T19:42:10.801Z
+
+
+### Can reproduce.
+Windows 10, latest canary
+
+Exanimem#3112 - Bug Bot on 2017-04-22T19:42:12.827Z
+
+
+### Can reproduce.
+Windows 10 Latest Canary
+
+OGNovuh#0014 - Bug Bot on 2017-04-22T19:42:14.840Z
+
+
+### 3Me8Uu.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58fbb212b32d85dd9b919dd1/39264b57fad856f8f08a312572b1dbb8/3Me8Uu.png added by Bug Bot on 2017-04-22T19:42:26.240Z
+
+
+### Verified.  - Clayton on 2017-04-28T21:09:43.746Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-28T21:10:11.624Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.157 (Build 1799) - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-06-26T10:04:54.691Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-28T22:29:17.438Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Jared on 2017-07-28T23:15:53.085Z
+
+
+### This bug can still be reproduced. Only occurs with Twitter embeds. Updated the bug to be more descriptive. - Jared on 2017-07-28T23:16:20.541Z
+
+
+### Brought to the attention by Joni#8542: Happens also with Steam Store links (like http://store.steampowered.com/app/350280/LawBreakers/) and Steam Community app links (like http://steamcommunity.com/app/350280), not http://store.steampowered.com/app/350280/LawBreakers/ http://steamcommunity.com/app/350280 only
+
+ItsPugle#5963 - Bug Bot on 2017-07-30T11:28:31.774Z
+
+
+### I don't see this as a super common use case, but I can see it happening. I'm calling this a high priority P3. - Jared on 2017-10-17T06:14:47.142Z
+
+
+### Can reproduce.
+with link <https://trello.com/c/VLKIfPG4/1508-message-tooltip-remains-when-selecting-the-delete-option-allowing-actions-like-editing-a-message-in-the-deletion-modal> Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-27T00:30:37.332Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 11585
+
+» a r i a#1593 - Bug Bot on 2018-03-04T21:14:35.182Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.0 (3817)
+
+Xylium#1480 - Bug Bot on 2018-04-16T22:21:02.164Z
+
+
+### Can reproduce.
+Debian Stretch, Gnome 3.22, Discord Linux Canary 0.0.49 (Build 15120) Also happens with trello card links
+
+Robin#0610 - Bug Bot on 2018-05-12T11:27:12.106Z
+
+
+### Can reproduce.
+Debian Stretch, Gnome 3.22, Discord Linux Canary 0.0.49 (Build 15120) Also happens with trello card links (and editing to add the embed escape characters)
+
+Robin#0610 - Bug Bot on 2018-05-12T11:27:42.261Z
+
+
+### Can reproduce.
+Ubuntu 18.04, Discord Canary 17063 [Hash: d00427457419698107880dd1f2a0ef372114b17f]. This occurs with both Twitter and Trello links
+
+Vulpus Maximus#1400 - Bug Bot on 2018-06-16T12:27:05.147Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 • Android 7.0 • Discord Alpha 7.2.1
+
+Rootin' Tootin' Putin (Kero)#9941 - Bug Bot on 2018-08-02T11:01:32.260Z
+
+
+### also seems to work with Trello embeds, or at least some. https://cdn.discordapp.com/attachments/420995378582913030/474531908412506112/Screenshot_20180802-070004.png
+
+Rootin' Tootin' Putin (Kero)#9941 - Bug Bot on 2018-08-02T11:03:19.496Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:51.154Z
+
+
+### Can reproduce.
+[CR] Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Discord Alpha 786
+
+avror#0001 - Bug Bot on 2018-11-03T10:34:42.671Z
+
+
+### Can reproduce.
+CR (also works when trying to edit a message to wrap the URL in <>) Windows 10 Home (64-bit), Build 17134.285, Discord Canary Build 28642
+
+zapteryx#6161 - Bug Bot on 2018-11-30T16:25:32.291Z
+
+
+### Can reproduce.
+Windows 10 Home Build 17134, Discord Canary 30441
+
+Bsian#1803 - Bug Bot on 2019-01-05T10:19:04.267Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.226 Build 30441
+
+Daffyduck#5364 - Bug Bot on 2019-01-05T10:19:31.973Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:27.977Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 32470
+
+charleskimbac#6492 - Bug Bot on 2019-02-21T01:09:05.101Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 34340
+
+Zacatero#0001 - Bug Bot on 2019-03-21T02:07:52.308Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 8.6.1
+
+Danijel#9000 - Bug Bot on 2019-03-21T02:18:05.026Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Canary build 34858
+
+Alex the fox#2287 - Bug Bot on 2019-04-01T18:33:54.196Z
+
+
+### Archived by Bug Bot on 2019-05-02T04:30:03.355Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 38594
+
+Isabel#0002 - Bug Bot on 2019-05-29T08:40:45.821Z
+
+
+### Unarchived by Bug Bot on 2019-05-29T09:00:06.864Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+ImmortaLemur#2998 - Bug Bot on 2019-06-11T01:12:06.466Z
+
+
+### Can reproduce.
+Huawei P10 Lite - Android 8.0.0 - Discord Alpha 9.3.0-SAO-SOUL_TRANSLATOR
+
+MiTonder#0001 - Bug Bot on 2019-07-27T04:42:20.278Z
+
+
+### Can reproduce.
+Windows 7 Ultimate 64-bit • Release Channel: canary, Build Number: 43884
+
+shard#9042 - Bug Bot on 2019-08-18T08:09:19.605Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 43884, Windows 10 Home, Google Chrome 75.0.3770.90 (Official Build) (64-bits)
+
+Dragonic#0004 - Bug Bot on 2019-08-18T09:08:29.777Z
+
+
+### Can reproduce.
+Windows 7 Ultimate 64-bit • Release Channel: canary, Build Number: 45392 • Also works with Trello links
+
+shard#9042 - Bug Bot on 2019-09-10T00:01:19.085Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:08.463Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10, Host 0.0.258, Canary Build 48769
+
+binchlord#0998 - Bug Bot on 2019-11-07T12:35:11.801Z
+
+
+### Unarchived by Bug Bot on 2019-11-07T13:00:05.703Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 48976
+
+Jiralite#1207 - Bug Bot on 2019-11-08T12:43:35.611Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:14.706Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

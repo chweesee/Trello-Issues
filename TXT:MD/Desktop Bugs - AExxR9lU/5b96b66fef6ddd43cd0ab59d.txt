@@ -1,0 +1,87 @@
+[Archived] Inconsistency with how channel topics show that there is more content (https://trello.com/c/oi70wVu9)
+
+None
+
+Created: 2018-09-10T18:22:39.866Z
+Latest Update: 2018-10-22T20:35:19.428Z
+
+Reported by » a r i a#1593
+
+####Steps to reproduce:
+- Write a long channel description and mention a channel or role in it 
+- Resize your client/edit the length of the message so it gets cut off, with the "..." indicating that there is more content 
+- Have the mention be just after the ... and hover over the "..." or directly behind them
+
+####Expected result:
+Areas should not be highlightable if the mention is not visible
+####Actual result:
+Some areas are highlighted, see attachments
+####Client settings:
+Discord Canary 23321
+####System settings:
+Windows 10 Pro x64
+
+19402
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-10T18:22:39.866Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b96b66fef6ddd43cd0ab59d/93fdb756e0acb3f38d1d716367791d9c/8b1003.png added by Bug Bot on 2018-09-10T18:22:42.620Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b96b66fef6ddd43cd0ab59d/69ddaf4987be5627e0e5c9d631c41c8f/38dc2a.png added by Bug Bot on 2018-09-10T18:22:42.970Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 23321 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-09-10T18:22:47.152Z
+
+
+### Can reproduce.
+can reproduce. Windows 10 Home SL 1803 x64 • Canary 23321
+
+MakiTheLegend#5027 - Bug Bot on 2018-09-10T18:22:52.300Z
+
+
+### Can reproduce.
+Canary 23321 - Windows 10, 1083
+
+Logiz#0001 - Bug Bot on 2018-09-10T18:22:57.225Z
+
+
+### Only two dots - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b96b66fef6ddd43cd0ab59d/0baddc6047eb2cf72c2c2541d7593201/165bf9.png added by Sam on 2018-09-10T18:24:23.578Z
+
+
+### Also removes a dot when you resize the client perfectly (pixel perfect bug) [Only two dots](https://fox.girlsare.life/165bf9.png)  - Sam on 2018-09-10T18:24:26.603Z
+
+
+### I appreciate the effort that went into this, however it's such a minor issue it's not worth the work it would take to fix it. - Jared on 2018-09-10T18:25:40.303Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2018-09-10T18:25:44.871Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 23321
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-10T18:28:36.930Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Canary 23321
+
+Inspector Soviet#6971 - Bug Bot on 2018-09-10T18:30:29.590Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:19.431Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

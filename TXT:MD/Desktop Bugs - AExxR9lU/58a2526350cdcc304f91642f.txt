@@ -1,0 +1,99 @@
+[Archived] Unable to view channel without history perms to mark it as read (https://trello.com/c/1XgqgPSB)
+
+P2: Fix can wait a while
+
+Created: 2017-02-14T00:42:11.284Z
+Latest Update: 2018-08-21T23:49:19.822Z
+
+Reported by Concerned Hobbit#6295
+
+####Steps to reproduce: 
+- Make a channel without read permissions 
+- Log off and have somebody send a message there or reload after the message is received 
+- Observe channel 
+- Switch to another channel 
+
+####Expected result:
+ Channel is mark as read as there are no new messages visible 
+####Actual result:
+ Channel remains unread and has to be manually marked 
+####System settings:
+ Win10x64 Canary (latest english)
+
+1633
+
+Card Log
+========
+### Added by Jared on 2017-02-14T00:42:11.284Z
+
+
+### Can reproduce.
+Latest Canary, Windows 8.1
+
+七海 千秋 ★★★★#9667 - Jared on 2017-02-14T00:42:11.913Z
+
+
+### Can reproduce.
+Win7x64 Canary
+
+MetalChain2#6372 - Jared on 2017-02-14T00:42:13.864Z
+
+
+### Can reproduce.
+Windows 7 x64, Latest Canary
+
+EMT#2524 - Jared on 2017-02-14T00:42:15.885Z
+
+
+### Can reproduce.
+arch linux canary 0.15
+
+mralext20#8975 - Jared on 2017-02-14T01:26:33.205Z
+
+
+### Can reproduce. 
+MacOS 10.11.6, Canary 0.0.144 - Clayton on 2017-02-22T23:43:27.214Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-02-22T23:43:42.726Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jared on 2017-10-04T21:22:05.204Z
+
+
+### I am no longer able to reproduce this. If someone sends a message in a channel where I have the Read Message History permission denied and then I reload my client, go to that channel then switch to a different one, the channel where I have the Read Message History permission denied gets marked as read.
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5438
+ - Alexandru Todea on 2017-10-06T18:58:27.284Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:39:27.491Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:39:30.881Z
+
+
+### Moving to verified bugs, this is happening again across the board (iOS, Android and Desktop) also applies to mentions. - Tarek on 2018-01-27T00:52:38.891Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Tarek on 2018-01-27T00:52:45.859Z
+
+
+### Cannot reproduce. When I select the channel it's marked as read even though no messages are visible. - Jared on 2018-07-05T19:38:46.558Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-05T19:38:51.325Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:49:19.297Z
+
+
+### Archived by Jared on 2018-08-21T23:49:19.824Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

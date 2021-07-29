@@ -1,0 +1,62 @@
+[Archived] Changing the name of a group DM to the default name shows the group DM name change message, but without the new name (https://trello.com/c/Te4WPrHv)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2016-11-01T22:45:24.976Z
+Latest Update: 2018-02-22T19:38:44.875Z
+
+Reported by Noahkiq#5529
+
+####Steps to reproduce: 
+- Go to a group DM 
+- Change the name (but leave it blank to make it the defaut name 
+
+####Expected result:
+ The message saying the name was changed says something like "Noahkiq reset the channel name." 
+####Actual result:
+ The message says "Noahkiq changed the channel name:"
+
+Card Log
+========
+### Added by Jared on 2016-11-01T22:45:24.976Z
+
+
+### Verified. - Jared on 2016-11-04T21:44:13.641Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-11-04T21:44:16.150Z
+
+
+### The implementation of group DM naming has changed. Leaving it blank no longer resets the name but just assumes you didn't want a new name.
+
+Waiting for @jared627 to decide if that means this can be seen as fixed. - Alexander (DJScias) on 2017-11-13T15:51:28.458Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexander (DJScias) on 2017-11-13T16:39:16.833Z
+
+
+### Can't reproduce.
+MacBook Pro (late 2013), macOS  Sierra 10.12.1, Canary build 9070; seems to be fixed per DJ's comment about the naming system being changed
+
+JustGamer#2542 - Bug Bot on 2018-01-02T04:55:56.954Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:25:12.782Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:25:15.943Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:38:44.200Z
+
+
+### Archived by Tarek on 2018-02-22T19:38:44.877Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

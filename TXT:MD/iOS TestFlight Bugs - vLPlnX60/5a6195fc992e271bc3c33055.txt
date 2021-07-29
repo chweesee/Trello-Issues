@@ -1,0 +1,113 @@
+[Archived] App crashes after opening image preview in embed in the "Jump to Chat" page (https://trello.com/c/WKsjGfHx)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-01-19T06:53:48.280Z
+Latest Update: 2019-05-05T10:30:20.958Z
+
+Reported by Jimmi#3030
+
+####Steps to reproduce:
+- Post an image link that has an image preview in an embed (i.e Imgur) (This step is optional) 
+- Go to the "Jump to Chat" page where the image in embed preview is seen (you can either use search or the pin messages) (Important: Use `in: <The channel that you're in>` in the search tab to make to make sure that the "Jump to Chat" screen is in the same channel as you are or you won't be able to open the image preview when you're on a different channel) 
+- Tap on the image 
+- Close the image by swiping it down
+
+####Expected result:
+The image should be closed without crashing
+####Actual result:
+The app crashes
+####Client settings:
+Discord Stable 2.2.0
+####System settings:
+iPad (4th generation), iOS 10.3.3
+
+7945
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-19T06:53:48.280Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.2.5 beta 6, TestFlight 2.2.1 (2202)
+
+Zankoku#8718 - Bug Bot on 2018-01-19T06:53:55.614Z
+
+
+### Can reproduce.
+Discord Testflight 2.2.1 (2202), iOS 10.3.3, iPhone 5S
+
+Ene#3002 - Bug Bot on 2018-01-19T06:54:00.579Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.1.2, TestFlight 2.2.1 (build 2202)
+
+JustGamer#2542 - Bug Bot on 2018-01-19T06:54:05.557Z
+
+
+### Verified. - Clayton on 2018-01-19T10:23:09.780Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-19T10:23:14.274Z
+
+
+### Can't reproduce.
+Cannot Reproduce - iPhone 6s, iOS 11.4.1 - TestFlight 2.3.6 (6691) (probably fixed now)
+
+Mippy#0001 - Bug Bot on 2018-08-13T11:14:50.292Z
+
+
+### Can't reproduce.
+This appears to be no longer valid because you cannot open images in chat preview as of TestFlight 2.3.6 (6755), iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 5
+
+Pascal#0929 - Bug Bot on 2018-08-14T11:26:51.293Z
+
+
+### Archived by Clayton on 2018-09-13T11:30:01.935Z
+
+
+### Pascal helped me to test this bug with iPhone 8 +, running iOS 12.1.4 (iOS TestFlight 2.4.5(1113). This ticket was not able to be reproduced but he commented that he was no longer able to open the image preview by tapping on it, so checking up about this ticket.  - Ghoul on 2019-02-16T20:30:16.617Z
+
+
+### Unarchived by Bug Bot on 2019-02-16T21:00:05.014Z
+
+
+### still cannot reproduce as of iOS TestFlight 2.5.2 (13014) on iPhone XS Max running iOS 12.3 Dev Beta. I am going to move this to Claimed Fixed.  - Ghoul on 2019-04-03T01:08:42.056Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Ghoul on 2019-04-03T01:08:52.130Z
+
+
+### Can't reproduce.
+iPhone SE iOS 12.2 - TestFlight 2.5.2 (13014)
+
+Daffyduck#5364 - Bug Bot on 2019-04-03T01:12:51.241Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.3 (dev beta) - TestFlight 2.5.2 (13014)
+
+Xylium#5800 - Bug Bot on 2019-04-03T01:32:44.341Z
+
+
+### Can't reproduce.
+iphone 5c ios 10.3.3, TestFlight 2.5.2 (13014)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-03T02:54:31.801Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-03T02:54:31.995Z
+
+
+### Archived by Bug Bot on 2019-05-05T10:30:20.968Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

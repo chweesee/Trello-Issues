@@ -1,0 +1,91 @@
+[Archived] Discord User Volume not persistent on reload, although slider shows it is (https://trello.com/c/y8h6aTa2)
+
+P3: Will get fixed eventually,
+Mid,
+Client side,
+voice
+
+Created: 2018-02-21T18:15:10.923Z
+Latest Update: 2018-07-06T18:19:43.016Z
+
+Reported by HyperKids#4976
+
+####Steps to reproduce:
+- Get either somebody talking constantly at a constant volume or a music bot (music bot preferred) 
+- Join same voice channel as that person/bot 
+- Make them start making a constant noise at constant volume 
+- Right click name and adjust user volume lower, for example, 5% (not tested on higher percents) 
+- Reload/restart Discord (CTRL+R) 
+- Rejoin voice channel if you aren't in it 
+- Observe that user volume slider is where you left it, but the user/bot sounds as if they're at 100%
+
+####Expected result:
+User volume should be the same as the slider
+####Actual result:
+Although slider shows user volume as where you left it, it'll play at 100% anyways
+####Client settings:
+Release Channel: canary, Build Number: 10978, Version Hash: 2a9b86cbc2710122dff6ced3e6145beac91d07b9
+####System settings:
+Windows 10 Pro, Fall Creators Update
+
+8978
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-21T18:15:10.923Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10978 - Related to archived report https://trello.com/c/xITYf3lq/
+
+webhp#1337 - Bug Bot on 2018-02-21T18:15:18.219Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary Build 10978
+
+Mas#0001 - Bug Bot on 2018-02-21T18:15:23.237Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Stable Build 10906
+
+王劲骢皇帝#1989 - Bug Bot on 2018-02-21T18:15:28.253Z
+
+
+### Verified, low priority. - Jared on 2018-02-22T21:32:24.482Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-22T21:32:57.567Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 11323
+
+» a r i a#1593 - Bug Bot on 2018-02-28T22:14:53.613Z
+
+
+### fixed in PR 7235 - Ben Morse on 2018-03-23T21:58:17.513Z
+
+
+### merged, should be on canary shortly - Ben Morse on 2018-03-23T22:19:58.312Z
+
+
+### Cannot reproduce anymore, Canary 12704. Moving to claimed fixed. - Tarek on 2018-03-27T18:53:01.305Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-03-27T18:53:09.349Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:19:41.828Z
+
+
+### Archived by Jared on 2018-07-06T18:19:43.018Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

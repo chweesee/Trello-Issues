@@ -1,0 +1,79 @@
+[GNOME] If Discord first opens in fullscreen and then you decide to put in windowed mode, it will return back to fullscreen everytime you close DIscord and reopen it (https://trello.com/c/GkCXKayg)
+
+P3: Will eventually be fixed,
+mid
+
+Created: 2018-11-19T01:15:57.829Z
+Latest Update: 2019-03-16T16:16:19.713Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- 1) Open Discord 
+- 2) Make sure you enabled "minimize Discord in system tray' in your settings 
+- 3) Put Discord in fullscreen 
+- 4) Click the tray icon and Quit Discord 
+- 5) Reopen Discord. It should be opening directly in fullscreen 
+- 6) Now put it in windowed mode (aka non-fullscreen) 
+- 7) Close Discord but keep it minimized in system tray 
+- 8) Reopen Discord 
+- Reapeat steps 6 to 8 as many times as you want
+
+####Expected result:
+It should reopen Discord in what you left it off before minimizing to system tray
+####Actual result:
+It always reopen in fullscreen. This doesn't happen if the first boot of Discord was in non-fullscreen
+####Client settings:
+Discord Canary 0.0.60 (build 28197)
+####System settings:
+Ubuntu 18.04 LTS (stock GNOME desktop env), 64-bit processor Ryzen 7 2700X
+
+23304
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-19T01:15:57.829Z
+
+
+### Can reproduce.
+Release Channel: canary, Build Number: 28197, Version Hash: e81207e8005dd9e0f9d12924053d92c315798e49 - Ubuntu 18.04.1 LTS (stock GNOME)
+
+14Developing#9436 - Bug Bot on 2018-11-19T01:16:05.192Z
+
+
+### Can reproduce.
+Ubuntu 18.04.1 LTS; Release Channel: canary, Build Number: 28197, Version Hash: e81207e8005dd9e0f9d12924053d92c315798e49
+
+Ultimus#0001 - Bug Bot on 2018-11-19T01:16:10.258Z
+
+
+### Can reproduce.
+Ubuntu 18.04.1 LTS - GNOME 3.28.1 - Discord Canary build 28197
+
+Frances Picard#6209 - Bug Bot on 2018-11-19T01:16:15.215Z
+
+
+### Moved from User Reported to Claimed Fixed by Clayton on 2018-12-06T22:28:47.944Z
+
+
+### Moved from Claimed Fixed to User Reported by Clayton on 2018-12-06T22:29:05.463Z
+
+
+### verified. - Clayton on 2019-01-26T12:05:41.244Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2019-01-26T12:05:49.724Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS -- Canary 34126
+
+Defracted#7777 - Bug Bot on 2019-03-16T16:16:19.718Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

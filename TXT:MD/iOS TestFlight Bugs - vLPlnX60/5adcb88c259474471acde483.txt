@@ -1,0 +1,67 @@
+[Archived] Change of time without change of time zone will result in your time being mixed up with the time zones time, and your messages don’t combine until later. (https://trello.com/c/10NfG9OG)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-04-22T16:30:04.684Z
+Latest Update: 2018-09-04T23:13:13.875Z
+
+Reported by Gamefre1#0894
+
+####Steps to reproduce:
+- Go to setting, General, date/time 
+- Go and turn off “Set automatically” 
+- Stay in your time zone, and change the time an hour forward
+
+####Expected result:
+It’ll all either stay with my time zone, or will move with my phone clock time
+####Actual result:
+It’ll change my messages time to my phone time, but everyone else’s time will be of my time zone. My messages also won’t combine.
+####Client settings:
+Testflight 2.3.0
+####System settings:
+iPhone 6, 11.2.3
+
+11102
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-22T16:30:04.684Z
+
+
+### Gamefre1#0894 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5adcb88c259474471acde483/4590c68848fb2cd30a31df58150201bf/image.png added by Bug Bot on 2018-04-22T16:30:07.551Z
+
+
+### Can reproduce.
+Can Reproduce, timestamp and grouping seems to only fix upon restarting Discord or switching channels/servers, iPhone 6s iOS 11.2.6, TestFlight 2.3.0 (3817)
+
+Rashaun#9295 - Bug Bot on 2018-04-22T16:30:12.409Z
+
+
+### Can reproduce.
+CR; but timestamp fixes itself when switching between channels or servers. iPhone 6 - iOS 11.4 TestFlight 2.3.0 (3817)
+
+Xylium#1480 - Bug Bot on 2018-04-22T16:30:17.404Z
+
+
+### Can reproduce.
+CR; iPhone 6s iOS 11.4; TestFlight 2.3.0 (3817)
+
+dal#0780 - Bug Bot on 2018-04-22T16:30:22.407Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:42:56.315Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:43:03.964Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:13.878Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

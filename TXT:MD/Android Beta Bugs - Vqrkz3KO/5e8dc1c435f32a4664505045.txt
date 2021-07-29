@@ -1,0 +1,74 @@
+Triple-backtick escaping sometimes fails on Android (https://trello.com/c/KytvL0Tu)
+
+None
+
+Created: 2020-04-08T12:21:24.312Z
+Latest Update: 2020-07-16T05:46:30.421Z
+
+Reported by pengo#0001
+
+####Steps to reproduce:
+- Write a Discord message with the following text (on any platform):
+```_test1```
+OK
+```_test2```
+KO
+
+
+- View it on Discord for Android.
+
+####Expected result:
+The message should appear the same as on Windows, without visible backticks.
+####Actual result:
+The first line is missing and the third line becomes: _test\`\`\`
+####Client settings:
+Android 15.6 (1086)
+####System settings:
+Pixel 3a. Android 10 (5 Mar 2020)
+
+54346
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-08T12:21:24.312Z
+
+
+### mrphilip#0882 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5e8dc1c435f32a4664505045/5eb268725f463b5af580814791792555/discord_rendering_bug.png added by Bug Bot on 2020-04-08T12:21:27.723Z
+
+
+### Can reproduce.
+CR, Huawei P8 Lite, Android 6.0, Discord 17 (1091)
+
+./dev.sh#3346 - Bug Bot on 2020-04-08T12:21:31.841Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab A (SM-T510), Android 9.0 Discord 17.0
+
+ShadowHanzo#2108 - Bug Bot on 2020-04-08T12:21:36.852Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 17.0 (1091)
+
+Ana940#9858 - Bug Bot on 2020-04-08T12:21:41.936Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 8.0.0, Discord 17 (1091)
+
+Bryth#1086 - Bug Bot on 2020-04-08T12:30:37.109Z
+
+
+### Can reproduce.
+Pixel 3a, Android 10, Discord 17 (1091)
+
+Kanade Tachibana#7086 - Bug Bot on 2020-04-09T21:30:47.003Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

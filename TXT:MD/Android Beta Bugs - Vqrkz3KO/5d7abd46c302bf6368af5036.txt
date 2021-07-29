@@ -1,0 +1,189 @@
+[Archived] If go to a DM and lookup your own profile the mini profile will end up with a error in a log and will not load until a restart (https://trello.com/c/ym8XSnJx)
+
+None
+
+Created: 2019-09-12T21:48:54.633Z
+Latest Update: 2020-02-20T21:34:49.128Z
+
+Reported by muh.ci#2544
+
+####Steps to reproduce:
+- Start/Restart Discord 
+- Go to a DM 
+- Click on your own Avatar to trigger the mini profile 
+- Now try to lookup someone else
+
+####Expected result:
+It shows the data in the mini profile
+####Actual result:
+It shows no context and erorrs out in log: WidgetUserSheetViewModel  guild must not be null
+####Client settings:
+9.5.4
+####System settings:
+Samsung S5, Lineage OS 15.1
+
+44005
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-12T21:48:54.633Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5d7abd46c302bf6368af5036/c51d38346f10009240e378e338d4e3a1/LZzAx9m.jpg added by Bug Bot on 2019-09-12T21:48:57.877Z
+
+
+### Can reproduce.
+cr Samsung Galaxy S8, Android 9.0 alpha 954
+
+techied#0110 - Bug Bot on 2019-09-12T21:49:02.458Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S10+, Android 9.0, Build 954
+
+MetalChain#0001 - Bug Bot on 2019-09-12T21:49:07.806Z
+
+
+### Can reproduce.
+CR, Huawei P9, Android7.0, Alpha 9.5.4
+
+Drachenfrucht1#4901 - Bug Bot on 2019-09-12T21:49:12.486Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy Note 8, Android 9 - Android Alpha 9.5.4
+
+Danijel#9000 - Bug Bot on 2019-09-12T21:56:02.780Z
+
+
+### Can reproduce.
+Alcatel A30 Fierce, Android 7.0 - Alpha 9.5.4
+
+Ness#7343 - Bug Bot on 2019-09-12T22:00:58.207Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S10+, Android 9.0, Build 954. Shows the latest non-DM mini profile, if one has been opened, or an empty profile if none have been opened. Works when opening any DM mini profile
+
+MetalChain#0001 - Bug Bot on 2019-09-12T22:11:54.545Z
+
+
+### Can reproduce.
+Galaxy A20 - Android 9.0 - Alpha 9.5.4
+
+Not Batman#7098 - Bug Bot on 2019-09-13T03:49:01.732Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.5.4
+
+AHkhan#6518 - Bug Bot on 2019-09-13T05:16:21.368Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord Alpha 954
+
+Jean20B#4668 - Bug Bot on 2019-09-13T08:10:25.253Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 45688
+
+Neiron#8475 - Bug Bot on 2019-09-13T09:52:07.014Z
+
+
+### My mistake. My real system settings: Xiaomi Redmi Note 5; Android 9; DiscordAlpha 954
+
+Neiron#8475 - Bug Bot on 2019-09-13T09:55:40.270Z
+
+
+### Can reproduce.
+Redmi Note 7, MIUI 10.3.6, Android 9, Discord Alpha 9.5.1
+
+Vortex#8626 - Bug Bot on 2019-09-13T12:25:21.918Z
+
+
+### Can reproduce.
+Alpha 954 - OnePlus 5T Android Pie
+
+OneNormalUsername#7636 - Bug Bot on 2019-09-13T19:37:45.814Z
+
+
+### Can reproduce.
+Could reproduce, Samsung Galaxy S8 Androd 8, Alpha 9.5.4
+
+Action Potential#6862 - Bug Bot on 2019-09-13T21:52:31.635Z
+
+
+### Can reproduce.
+Motorola Moto G7 Power Android 9, Discord Alpha 9.5.5
+
+luizfernando13#0007 - Bug Bot on 2019-09-14T03:35:27.215Z
+
+
+### Can reproduce.
+Can reproduce.
+Could reproduce, Android one - Xiaomi Mi A2 Lite (Alpha 9.5.5)
+
+<@340482621458874369>
+
+Syjes#5505 - Bug Bot on 2019-09-14T14:55:07.694Z
+
+
+### Can reproduce.
+Motorola Moto G6 Play, Android 9, Android Alpha 955
+
+mesub#0556 - Bug Bot on 2019-09-14T16:36:43.822Z
+
+
+### Can reproduce.
+Discord Alpha 9.5.5, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-09-14T21:11:30.925Z
+
+
+### Can reproduce.
+CR Android 9.0 Oppo find X Discord 956 Seems to apply to any profile in a dm
+
+Typhoon#1337 - Bug Bot on 2019-09-15T08:45:20.687Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-09-16T21:58:47.393Z
+
+
+### Can't reproduce.
+CNLR; Asus Zenfone 2, Android 5.0, Discord Alpha 9.5.9
+
+Karasu#0013 - Bug Bot on 2019-09-16T23:04:47.848Z
+
+
+### Can't reproduce.
+Can no longer repro, Samsung S5, Lineage OS 15.1, Discord 9.5.9
+
+muh.ci#2544 - Bug Bot on 2019-09-16T23:46:10.830Z
+
+
+### Can't reproduce.
+Discord Alpha 9.5.9, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-09-16T23:50:00.223Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-09-16T23:50:00.592Z
+
+
+### Can't reproduce.
+Discord Alpha 9.6.2, android 6.0.1, Samsung Galaxy S5
+
+Janel#1437 - Bug Bot on 2019-09-25T23:55:58.929Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:49.138Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

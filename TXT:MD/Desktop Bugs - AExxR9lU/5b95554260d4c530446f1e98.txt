@@ -1,0 +1,88 @@
+[Archived] Code blocks change tabs to spaces upon copying out of Discord (https://trello.com/c/TRUND3CA)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-09T17:15:46.612Z
+Latest Update: 2018-10-22T20:27:22.712Z
+
+Reported by kadybat#0001
+
+####Steps to reproduce:
+- Create a code block using the tab key as a separator between two pieces of text (copy this in from an external source, IE a programming tool) 
+- Post it 
+- Attempt to copy and paste it from Discord into another app (IE said programming tool)
+
+####Expected result:
+Discord should recognize the tabs as separators and maintain them in copied text
+####Actual result:
+Discord changes the tabs to spaces, and the code pastes into an external app with spaces rather than tabs
+####Client settings:
+Stable 23017
+####System settings:
+macOS 10.3.6, MacBookPro 14,3
+
+19199
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-09T17:15:46.612Z
+
+
+### Can reproduce.
+The second the codeblock is sent, the tabs are converted into spaces (see e.g. when you are trying to edit the same message - In the text bar, the tabs will be spaces when highlighted) | Windows 10 Pro x64, Release Channel: Canary 23303
+
+» a r i a#1593 - Bug Bot on 2018-09-09T17:15:54.118Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Canary Build 23321
+
+Pascal#0929 - Bug Bot on 2018-09-09T17:15:59.699Z
+
+
+### Can reproduce.
+CR Windows 10 Pro Build 1803, 4K DPI scaled and Canary 23321
+
+JakeMakesStuff#0001 - Bug Bot on 2018-09-09T17:16:07.788Z
+
+
+### Can reproduce.
+Tested on Windows 10 Home 64-bit (1803) with Discord Canary Build 23321
+
+that15fine#9275 - Bug Bot on 2018-09-09T19:35:31.357Z
+
+
+### Can reproduce.
+Intended? Like, Discord text input does not support tab, but you 'forced' to input text with tabs, making Discord converts to spaces. Windows 10 x64 1803 (17134), Discord Canary with Build number 23321
+
+Frances Picard#6209 - Bug Bot on 2018-09-10T05:56:24.681Z
+
+
+### verified, macos 10.12.6, canary 23321 - Clayton on 2018-09-10T20:36:13.977Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-10T20:36:24.747Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 Canary: 23837
+
+Neiron#2406 - Bug Bot on 2018-09-17T14:54:33.917Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 23837
+
+Neiron#2406 - Bug Bot on 2018-09-17T14:55:26.059Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:22.714Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

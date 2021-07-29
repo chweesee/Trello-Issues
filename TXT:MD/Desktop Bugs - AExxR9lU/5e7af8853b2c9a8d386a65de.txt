@@ -1,0 +1,49 @@
+Joining a voice channel with Krisp enabled causes Discord to close and reopen (https://trello.com/c/1LpkWGU4)
+
+None
+
+Created: 2020-03-25T06:21:58.013Z
+Latest Update: 2020-04-01T23:14:18.718Z
+
+**Steps to reproduce:**
+- Enable noise suppression
+- Join a voice channel
+**Expected Results:** Discord will connect to the voice channel and you can chat with your friends
+**Actual Results:** Discord closes as soon as it connects and reopens, sometimes asking to relogin too
+**Client Settings:** [BUILD INFO] Release Channel: canary, Build Number: 56566, Version Hash: 490c646822d2024dd90505d3c4ba59283205491d
+**System Settings:** HP Pavilion g6-2240sa, Windows 10 Home 2004, Build 19041.84
+
+**What microphone / Gaming headset are they using?**
+Built-in microphone
+
+**Extra Notes**
+Enabling Krisp while in a voice channel does not cause the client to close and reopen and using the mic test works perfectly with a massive difference in noise suppression. This issue only occurs when joining a voice channel with Krisp enabled.
+
+Card Log
+========
+### Added by Daffyduck on 2020-03-25T06:21:58.013Z
+
+
+### I am unable to reproduce this
+Windows 10 Home x64 v1909 - Discord Canary 0.0.263 Build 56568 - Daffyduck on 2020-03-25T06:27:21.560Z
+
+
+### Imported from https://trello.com/b/5e73dc385145f836f363d5de by Daffyduck on 2020-03-27T01:13:23.410Z
+
+
+### I am working two beta testers that can reproduce this issue. I added extra debug logging and noise suppression is not saved in settings (so we can have good debug logs). Here are the observation: CPU is overloaded, noise suppression takes about > 15 ms per 10 ms frame. Right before the crash, we see `[075:294] [8652] (audio_device_core_win.cc:2464): failed to close down webrtc_core_audio_capture_thread`.
+
+- Crash does not happen with legacy audio subsystem.
+- Tried to reduce krisp CPU overuse detection from JS to 1 second, but the code did not trigger - maybe JS cannot execute due to CPU overload
+ - Jozsef Vass on 2020-04-01T00:44:57.083Z
+
+
+### Implemented noise canceller CPU overuse detection in native code. It seems to be working fine. The issue when you enable noise suppression in Voice & Video settings, it maybe turned off in native code, but JS in not notified. JS is notified when joining a voice channel `noisecancellererror` is dispatched. - Jozsef Vass on 2020-04-01T23:14:18.731Z
+
+List
+====
+Krisp
+
+Members
+=======
+None

@@ -1,0 +1,56 @@
+Bouncing in and out when joining a voice channel (https://trello.com/c/s5VX17X5)
+
+None
+
+Created: 2020-05-10T15:30:58.357Z
+Latest Update: 2020-07-16T05:46:30.647Z
+
+Reported by Chacha#0209
+
+####Steps to reproduce:
+- join a voice channel in any server
+
+- do not disconnect from this vc
+
+- directly join a vc in another server
+
+####Expected result:
+The user joins the voice channel and can start to hear and speak
+####Actual result:
+the user "bounces" in the voice chat, equivalent to ~15 connetions and disconnections (the user might not notice it but other users in the vc will ; bots listening for vc events will too)
+####Client settings:
+Android 22-alpha1 (1132)
+####System settings:
+Honor 8, Android 7.0
+
+55774
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-10T15:30:58.357Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord 22-alpha1 (1132)
+
+Jean20B#4668 - Bug Bot on 2020-05-10T15:31:06.752Z
+
+
+### Can reproduce.
+CR, Android 9 Motorola G7, Discord 22Alpha1 1132, bot noticed several disconnect and reconnect events
+
+CodeWritten#4044 - Bug Bot on 2020-05-10T15:31:11.727Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8 Android 8, Discord 22 Alpha 1 (1132)
+
+Action Potential#2655 - Bug Bot on 2020-05-10T15:31:16.763Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

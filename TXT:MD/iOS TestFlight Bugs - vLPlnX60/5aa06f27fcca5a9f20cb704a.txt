@@ -1,0 +1,80 @@
+[Archived] Sending a very long message won't scroll completely down to the bottom of the chat (https://trello.com/c/vcd0SavG)
+
+P1 - Severe
+
+Created: 2018-03-07T23:00:55.969Z
+Latest Update: 2019-08-27T12:08:54.788Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to a text channel with some messages 
+- Now scroll back a bit in message history 
+- Send a very long message
+
+####Expected result:
+The app should completely scroll down to the bottom.
+####Actual result:
+It scrolls down a bit but stops in the middle of the sent message.
+####Client settings:
+TestFlight 2.2.5 (2894)
+####System settings:
+iPhone 6s & iPad Air 2, iOS 11.3 PB 3
+
+9358
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-07T23:00:55.969Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.5 (2894); May be the keyboard tho, but yeah, it should scroll ALL the way down
+
+HeroGamers#0001 - Bug Bot on 2018-03-07T23:01:03.384Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.5 (2894)
+
+mrkirby153#7840 - Bug Bot on 2018-03-07T23:01:08.376Z
+
+
+### Can reproduce.
+Can repro, iPhone 5s - iOS 11.0 Testflight 2.2.5 (2894)
+
+IcyPebbles!#5833 - Bug Bot on 2018-03-07T23:01:13.372Z
+
+
+### Verified.  - Clayton on 2018-03-07T23:05:12.422Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-07T23:05:17.893Z
+
+
+### This bug slightly changed, it now happens with all messages. Might change the priority of the ticket
+
+Pascal#0929 - Bug Bot on 2018-06-21T23:09:50.797Z
+
+
+### Moving this ticket to Chat Rewrite as per Victoria, https://i.imgur.com/nT11WHY.png - Ghoul on 2018-06-21T23:46:47.771Z
+
+
+### Moved from Verified Bugs to Chat Rewrite Bugs by Ghoul on 2018-06-21T23:46:56.244Z
+
+
+### Moved from Chat Rewrite Bugs to Fix made, not yet released by Fanghao on 2018-06-29T22:26:43.057Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-06-30T05:51:24.855Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:24.760Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

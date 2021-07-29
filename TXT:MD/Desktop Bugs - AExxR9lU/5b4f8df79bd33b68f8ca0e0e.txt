@@ -1,0 +1,104 @@
+[Archived] The MP3 player is overlapping/extending outside the delete/pin modal (https://trello.com/c/F6aMhG3g)
+
+None
+
+Created: 2018-07-18T18:59:03.640Z
+Latest Update: 2019-04-22T07:47:35.847Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Upload an MP3 file to trigger the media player 
+- Attempt to pin or delete it 
+- Observe the modal and how it's extending outside the modal
+
+####Expected result:
+It should cut off because it's too long
+####Actual result:
+It's extending outside the modal a bit
+####Client settings:
+Discord Canary 0.0.211 (19095)
+####System settings:
+Windows 10 Pro 64-bit (1803)
+
+15605
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-18T18:59:03.640Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b4f8df79bd33b68f8ca0e0e/f1df593ea89ec431d7b485e14695d930/hMWP4T7.png added by Bug Bot on 2018-07-18T18:59:06.276Z
+
+
+### Can reproduce.
+Can reproduce: Canary 0.0.211 (Build 19095), Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.371)
+
+SuperSajuuk#0001 - Bug Bot on 2018-07-18T18:59:11.261Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211, Build 19095,  Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-07-18T18:59:16.157Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803, Discord Canary (Build 19095)
+
+Doges#0001 - Bug Bot on 2018-07-18T18:59:21.162Z
+
+
+### Moved from User Reported Bugs to Message Update Bugs by Tarek on 2018-07-18T19:13:51.588Z
+
+
+### Moved from Message Update Bugs to Fix made, not yet released by Joey Baker on 2018-07-18T23:14:47.685Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Joey Baker on 2018-07-19T23:06:06.029Z
+
+
+### This stills happens to invite embeds https://i.imgur.com/O1nJgFu.png
+
+On canary 19366. Moving to message update bugs - Tarek on 2018-07-20T21:53:03.791Z
+
+
+### Moved from Claimed Fixed, needs Verification to Message Update Bugs by Tarek on 2018-07-20T21:53:10.972Z
+
+
+### This is not new / not a bug.  Present on stable atm. - Shadi Isber on 2018-07-20T22:28:00.654Z
+
+
+### Moved from Message Update Bugs to Not a Bug by Shadi Isber on 2018-07-20T22:28:19.315Z
+
+
+### @shadiisber Yes, the invite embed cuts off. Which is intentional. 
+But the text/the join button shouldn't go outside the whole thing. If that makes sense.
+Canary: 
+https://i.imgur.com/WJMm5mP.png
+
+Stable: 
+https://i.imgur.com/uVJWIuV.png - Tarek on 2018-07-20T22:38:58.650Z
+
+
+### I fixed the overflow separately, thanks! - Shadi Isber on 2018-07-20T22:47:18.861Z
+
+
+### Cannot repro anymore Canary 19400, moving to claimed fixed. - Tarek on 2018-07-20T23:04:43.817Z
+
+
+### Moved from Not a Bug to Claimed Fixed, needs Verification by Tarek on 2018-07-20T23:04:49.363Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:37:33.027Z
+
+
+### Archived by Jared on 2018-08-21T23:37:33.857Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,93 @@
+[iOS TestFlight 3.1.0 (16734) Specific] - Notifications outside of Discord are not delivered even when desktop client is idling or closed (https://trello.com/c/M4e5VVc8)
+
+low,
+P2 - Can wait a while
+
+Created: 2019-08-12T20:17:11.208Z
+Latest Update: 2019-08-23T20:49:39.188Z
+
+Reported by Ghoul#3232
+
+####Steps to reproduce:
+**NOTE:** This seems to be happening with 16734 but the prior versions are fine.
+
+- Update to 16734 
+- Open Discord on iOS. 
+- You can either close or leave your desktop client idling (for a minute or longer) in the friends list screen. 
+- Have someone to DM you or ping you in a server in 30 seconds or more. 
+- Switch to home screen or to another app. 
+- Wait on the notification.
+
+####Expected result:
+You get a notification while you are not in Discord.
+####Actual result:
+Silence. You get the ping / message on Discord but you are not notified.
+####Client settings:
+iOS TestFlight 3.1.0 (16734), downgrading then updating again seems to fix it.
+####System settings:
+iPhone XS Max running iOS 13 Dev Beta 6.
+
+41895
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-12T20:17:11.208Z
+
+
+### Can reproduce.
+Can repro this on stable as well with iPhone X, iOS 13 (dev beta 6) - Stable 3.1.0
+
+Xylium#5800 - Bug Bot on 2019-08-12T20:17:19.215Z
+
+
+### Can reproduce.
+Can reproduce; iPhone 8 iOS 12.4; Discord TestFlight: 3.1.0 (16734); I tested this with pings and DMs multiple times, and I still didn't get the notification.
+
+Boss#0006 - Bug Bot on 2019-08-12T20:17:23.839Z
+
+
+### Can reproduce.
+CR; iPhone 8; iOS 12.4, Stable 3.1.0
+
+IPv4#2876 - Bug Bot on 2019-08-12T20:17:28.850Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.4, TestFlight 3.1.0 (16734)
+
+.Gloria.#9606 - Bug Bot on 2019-08-12T23:11:24.239Z
+
+
+### Can reproduce.
+Can reproduce - iPhone Xs, iOS 13 PB 5, TestFlight Build 3.1.0 (16734)
+
+maximd#1122 - Bug Bot on 2019-08-13T02:31:38.591Z
+
+
+### Possible related to https://trello.com/c/7ACz1dA3 - Pascal on 2019-08-13T08:10:25.063Z
+
+
+### https://trello.com/c/7ACz1dA3 - https://trello.com/c/7ACz1dA3 added by Pascal on 2019-08-13T08:10:37.512Z
+
+
+### Can reproduce.
+Cr; iPhone X, iOS 13 (beta 3), TestFlight 3.1.0 (16734)
+
+Noah#0004 - Bug Bot on 2019-08-13T10:41:06.688Z
+
+
+### Can reproduce.
+iPhone X iOS 12.0.1; Discord TestFlight: 3.1.1 (16898)
+
+Emma#6775 - Bug Bot on 2019-08-16T00:17:14.006Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-08-23T19:00:03.861Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

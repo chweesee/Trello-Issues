@@ -1,0 +1,66 @@
+User popouts in a group chat's member list don't follow the Reduced Motion setting (https://trello.com/c/VjN9yNYs)
+
+None
+
+Created: 2020-04-19T10:20:59.276Z
+Latest Update: 2020-07-16T21:26:06.265Z
+
+Reported by Lava#3374
+
+####Steps to reproduce:
+- Turn on the Reduced Motion setting 
+- Go to a group chat 
+- Click on a user in the member list
+
+####Expected result:
+The popout modal fades in/out like it does in servers
+####Actual result:
+The "sliding" animation is still present
+####Client settings:
+Linux Canary 0.0.103 Build 58468 Hash 327fbc9
+####System settings:
+Arch Linux i3wm Linux 5.6.0-2-tkg-MuQSS
+
+54867
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-19T10:20:59.276Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 58468 (327fbc9)
+
+Alipoodle#5025 - Bug Bot on 2020-04-19T10:21:06.776Z
+
+
+### Can reproduce.
+canrepro Windows 8, Stable 58202
+
+Macaroonman#0001 - Bug Bot on 2020-04-19T10:21:11.760Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit (1909), Desktop Canary 58468
+
+EzZz#0001 - Bug Bot on 2020-04-19T10:21:16.761Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Canary 58505 Host 0.0.264
+
+SSalt#5041 - Bug Bot on 2020-04-19T22:53:54.727Z
+
+
+### Can reproduce.
+CR; W10 Home x64 1903, Discord Canary 58505
+
+Vongir#7664 - Bug Bot on 2020-04-20T16:23:26.320Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

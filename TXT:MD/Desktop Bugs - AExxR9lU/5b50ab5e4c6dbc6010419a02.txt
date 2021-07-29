@@ -1,0 +1,77 @@
+[Archived] Able to invite user to server from right click context menu when invite perms are denied by channel even though no invite gets sent (https://trello.com/c/mdcBGaml)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-19T15:16:46.771Z
+Latest Update: 2018-11-29T14:46:27.465Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Have a server where you have a role that has invite perms enabled in settings but disabled in channel settings 
+- Right click a user that isn't in the server 
+- Mouse over the "Invite to Server" option and observe you have the option to invite to that server 
+- Try inviting the user to that server from the right click context menu
+
+####Expected result:
+No option to invite user to that server since invites are denied in every channel
+####Actual result:
+Able to select that server from the context menu even though clicking it doesn't send an invite
+####Client settings:
+Canary Build 19006
+####System settings:
+Win 10 x64 1803
+
+15562
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-19T15:16:46.771Z
+
+
+### Can reproduce.
+macos 10.12.6, canary 19105
+
+IcyPebbles#5833 - Bug Bot on 2018-07-19T15:16:54.332Z
+
+
+### Can reproduce.
+Stable 0.0.251 > MacBook Pro, macOS High Sierra 10.13.6 (17G65)
+
+Beeen#0001 - Bug Bot on 2018-07-19T15:16:59.313Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Canary Build 19154
+
+Pascal#0929 - Bug Bot on 2018-07-19T15:17:04.310Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary 19105
+
+ThorWolf#6841 - Bug Bot on 2018-07-19T15:21:20.442Z
+
+
+### verified - Clayton on 2018-07-19T20:51:35.920Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-19T20:51:41.378Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:25.770Z
+
+
+### Can reproduce.
+CR Windows 10 Home (64-bit), Build 17134.285, Discord Canary Build 28567
+
+zapteryx#6161 - Bug Bot on 2018-11-29T14:46:27.466Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

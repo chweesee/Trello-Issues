@@ -1,0 +1,65 @@
+[Archived] Members with "manage roles" permission can manage channels (https://trello.com/c/XBitLbmw)
+
+None
+
+Created: 2017-07-25T00:16:17.810Z
+Latest Update: 2017-10-17T21:10:33.130Z
+
+Reported by Souji#4629
+
+####Steps to reproduce:
+- Have a role that only has "manage roles" 
+- make sure noone has "manage channels" on server and channel level to isolate the issue
+
+####Expected result:
+People with the testrole (only having manage roles) should not be able to manage the channel permissions
+####Actual result:
+They can manage the channel permissions (even for higher roles than their own)
+####Client settings:
+Desktop Canary 0.0.161
+####System settings:
+Windows 10 Home 1703,15063.483
+
+2539
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-25T00:16:17.810Z
+
+
+### Can reproduce.
+ Windows 10 Home x64, Creators Update, Canary 0.0.161
+
+Exanimem#3112 - Bug Bot on 2017-07-25T00:16:25.309Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (creators update) , Canary 0.0.161
+
+Omegacreeper#2384 - Bug Bot on 2017-07-25T00:16:30.338Z
+
+
+### Can reproduce.
+CR, Discord Stable 0.0.297  Windows 10 Pro 64-Bit on Build 1607
+
+Tarek1337#0379 - Bug Bot on 2017-07-25T00:16:35.313Z
+
+
+### Not a bug, you're only able to mange channel permissions, you can't edit names/topics/do any of the other things awarded by the manage channel role.  - Clayton on 2017-07-26T20:47:40.209Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2017-07-26T20:47:44.842Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:10:32.457Z
+
+
+### Archived by Jared on 2017-10-17T21:10:33.132Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

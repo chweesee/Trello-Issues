@@ -1,0 +1,88 @@
+[Archived] Too many emojis make text disappear (Not a char count issue) (https://trello.com/c/npsHE46x)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-07T14:19:44.172Z
+Latest Update: 2019-10-23T23:01:26.025Z
+
+Reported by jasch#4447
+
+####Steps to reproduce:
+- Create a message with 200 \`:cookie:\` directly after each other (No spaces) 
+- Write some text after those cookies. 
+- Send message (No warning that one exceeds the character limit). at this point the message should be just over 1600 characters long, well below the limit. 
+- Additional test: edit message and remove 2 \`:cookie:\` instances, save, now the text will be displayed. 
+- pastebins with examples: https://pastebin.com/6cXCTxs8 and https://pastebin.com/wnamBGcE
+
+####Expected result:
+You see 200 cookies and the message after it.
+####Actual result:
+You only see cookies and no additional text
+####Client settings:
+Discord Canary 0.0.24
+####System settings:
+Arch Linux (4.12.4-1-ARCH) (also tested on windows 10)
+
+2907
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-07T14:19:44.172Z
+
+
+### Can reproduce.
+can reproduce, windows 10 home x64, Discord Canary 0.0.163
+
+ks0908#8526 - Bug Bot on 2017-08-07T14:19:53.689Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1703 (Canary build 2834, v 0.0.163)
+
+TimThe#7618 - Bug Bot on 2017-08-07T14:19:58.720Z
+
+
+### Can reproduce.
+CR, MacOS 10.12.6, Macbook Pro
+
+Nelson1348#9190 - Bug Bot on 2017-08-07T14:20:03.803Z
+
+
+### The server doesn't see emojis like `:cookie:`, it sees them like `<:cookie:9384230483299>` instead. You're probably well over the 2k character limit with this.
+
+However, the behavior is still odd and I can reproduce. This is probably a won't fix, but we will see. - Jared on 2017-08-07T17:32:45.274Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-07T17:32:52.050Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.163 (Build 3061) - Win 10 Pro x64 v1607
+
+Pointy#9109 - Bug Bot on 2017-08-10T12:38:39.689Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598877006a25fe936c8a9033/71cfd4c5d9636e036795ee0773c0c0d3/ezgif-4-b52ce563cb.gif added by Bug Bot on 2018-07-15T09:07:06.918Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:53.741Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) | Canary 37011
+
+charleskimbac#6492 - Bug Bot on 2019-05-04T05:10:38.572Z
+
+
+### Unarchived by Bug Bot on 2019-05-04T05:30:05.763Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:26.034Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

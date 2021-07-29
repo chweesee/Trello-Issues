@@ -1,0 +1,149 @@
+[Archived] starting a call will cause the app to not function properly and you won't be able to connect to voice again without refreshing your client (https://trello.com/c/5KMGQScP)
+
+P1: Severe
+
+Created: 2019-02-27T16:08:33.354Z
+Latest Update: 2019-04-22T04:00:34.142Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- be on Canary 32862 
+- start a call with someone
+
+####Expected result:
+nothing beside the app functioning properly
+####Actual result:
+endless Bad version number errors are thrown in debug and not being able to connect to voice again + members list or media embeds not loading
+####Client settings:
+Canary 32862
+####System settings:
+Windows 10 home x64 v.1809
+
+29950
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-27T16:08:33.354Z
+
+
+### J1#0088 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c76b601f8aad64942a8a591/14da486e0a3b76f2bc5d4f7c2c939aa3/kaj0DeS.png added by Bug Bot on 2019-02-27T16:08:36.355Z
+
+
+### Can reproduce.
+Discord Canary 0.0.224 (32862 ) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2019-02-27T16:08:40.849Z
+
+
+### Can reproduce.
+CR, Discord Desktop Canary Build 32862  | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+PacBlinky#8276 - Bug Bot on 2019-02-27T16:08:45.797Z
+
+
+### Can reproduce.
+W10 Pro x64 (1809), Canary 32862
+
+dafaqed#1312 - Bug Bot on 2019-02-27T16:08:50.787Z
+
+
+### PacBlinky#8276 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c76b601f8aad64942a8a591/679a6e6079e07ad8259f393319ed6a16/QokBweDaKo.gif added by Bug Bot on 2019-02-27T16:11:44.930Z
+
+
+### DiscordCanary_bX5gGv77L3.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c76b601f8aad64942a8a591/835073144db235f22584b6e9989358c4/DiscordCanary_bX5gGv77L3.png added by Tarek on 2019-02-27T16:25:45.926Z
+
+
+### This seems to murder the websocket completely until reload.  - Tarek on 2019-02-27T16:25:46.654Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1809 - Canary 32862
+
+Samboy#0063 - Bug Bot on 2019-02-27T17:30:35.988Z
+
+
+### Fix out, build 32878. Moving to claimed fixed. - Tarek on 2019-02-27T18:47:51.621Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Tarek on 2019-02-27T18:47:54.654Z
+
+
+### Can reproduce.
+Windows 10 Canary 32862
+
+Mr. Proper#2394 - Bug Bot on 2019-02-27T19:36:56.482Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 32862
+
+Lelantos#4866 - Bug Bot on 2019-02-27T20:41:44.565Z
+
+
+### Can't reproduce.
+Can no longer reproduce as of Discord Desktop Canary Build 32878 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+PacBlinky#8276 - Bug Bot on 2019-02-27T21:26:26.870Z
+
+
+### Can't reproduce.
+CNR MacOS 10.12.6 Sierra Mac Pro (Mid 2010) Canary Build 32931
+
+Starfield_9#8660 - Bug Bot on 2019-02-28T01:12:03.554Z
+
+
+### Can't reproduce.
+Windows 10 Home: 1809, Canary 32878
+
+Sanjay#0540 - Bug Bot on 2019-02-28T04:17:07.128Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Tarek on 2019-02-28T13:42:31.758Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2019-02-28T13:42:32.629Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Tarek on 2019-02-28T13:42:45.216Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2019-02-28T13:42:50.293Z
+
+
+### Moved from Claimed Fixed, needs Verification to Temporary claimed fixed so ED detects fixed bugs by Tarek on 2019-03-23T03:18:09.305Z
+
+
+### Moved from Temporary claimed fixed so ED detects it as fixed to Claimed Fixed, needs Verification by Tarek on 2019-03-23T03:26:53.710Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Discord Canary 34463
+
+Daffyduck#5364 - Bug Bot on 2019-03-23T03:28:46.804Z
+
+
+### Can't reproduce.
+CNR on Windows 10 Home; Canary Build 34463
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-23T03:30:01.983Z
+
+
+### Can't reproduce.
+CNLR windows 10 34463
+
+Zacatero#0001 - Bug Bot on 2019-03-23T03:32:10.009Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-03-23T03:32:10.211Z
+
+
+### Archived by Bug Bot on 2019-04-22T04:00:34.154Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

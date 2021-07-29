@@ -1,0 +1,87 @@
+[Archived] Message history reloads completely and scrolls abruptly to the bottom when you hit the 50+ new messages banner and then scroll down (https://trello.com/c/1js59RW1)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-30T11:14:24.347Z
+Latest Update: 2019-06-10T20:44:57.262Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a channel with between 60 and 100 new messages (you can have more but it will take more time to repro). It happens only if the banner shows a "50+" count
+- Tap the banner saying "50+ new messages"  
+- Scroll down until you notice the bug
+
+####Expected result:
+You should be able to read the message history smoothly
+####Actual result:
+When you're about to reach the most recent messages, the whole message history reloads and you're "teleported" to the most recent messages, forcing you to scroll back up to retrieve the latest message you were reading
+####Client settings:
+Discord Alpha 6.8.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13562
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-30T11:14:24.347Z
+
+
+### Can reproduce.
+Can reproduce, OnePlus 2, Android 6.0.1, Discord Alpha 6.8.7 (687)
+
+Marshadow#5095 - Bug Bot on 2018-05-30T11:14:31.860Z
+
+
+### Can reproduce.
+Able to Reproduce with around 65 and 70 messages; Samsung Galaxy A3 2017; Android 7.0; Discord Alpha 6.8.7 (687). However, does not happen always.
+
+Costpap#2158 - Bug Bot on 2018-05-30T11:14:36.889Z
+
+
+### Can reproduce.
+Try it a few times. Samsung Galaxy S9, Android 8.0 (Marshmallow), Android Alpha 6.8.7
+
+DeJay#1337 - Bug Bot on 2018-05-30T11:14:41.847Z
+
+
+### Note that this bug is pretty inconsistent. Try a few times in different channels with different new messages count
+
+Alex1304#9704 - Bug Bot on 2018-05-30T11:16:07.140Z
+
+
+### verified, android 7.0, 6.8.7, samsung s6 edge - Clayton on 2018-05-30T19:52:41.707Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-30T19:52:48.068Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:33.656Z
+
+
+### Can reproduce.
+LG Q6, Android 8.0
+
+IceWolfYT#5881 - Bug Bot on 2018-10-12T17:21:38.548Z
+
+
+### Unarchived by Clayton on 2018-10-12T17:30:05.520Z
+
+
+### Can't reproduce.
+Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Discord Alpha 786
+
+avror#0001 - Bug Bot on 2018-11-05T13:28:58.050Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:57.278Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

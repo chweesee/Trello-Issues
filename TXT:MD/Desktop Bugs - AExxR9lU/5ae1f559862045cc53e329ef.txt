@@ -1,0 +1,71 @@
+[Archived] Discord UI still shows 2FA backup phone as enabled, but empty, if phone is removed due to adding it to another account (https://trello.com/c/Mdd4HGxM)
+
+None
+
+Created: 2018-04-26T15:50:49.970Z
+Latest Update: 2019-01-17T03:24:09.380Z
+
+Reported by Aru#8367
+
+####Steps to reproduce:
+- Add 2FA + backup phone number to account A. 
+- Add 2FA + same backup phone number to account B.
+
+####Expected result:
+If, and only if, the number should really be removed from account A, the "SMS Backup Authentication" section of My Account, account A, should be updated to reflect the removal.
+####Actual result:
+The SMS Backup Authentication section still shows as enabled, on account A, but clicking "Reveal" shows no number and the account has no phone verification.
+####Client settings:
+stable, build Number: 13994
+####System settings:
+Arch Linux x64
+
+11081
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-26T15:50:49.970Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 1709 x64, Canary build 14116
+
+AEnterprise#4693 - Bug Bot on 2018-04-26T15:50:57.569Z
+
+
+### Can reproduce.
+CR, Windows 10 Home SL 1709 x64 Canary 14116
+
+BakugouDeku#0602 - Bug Bot on 2018-04-26T15:51:02.577Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 (Canary build 14116)
+
+TimThe#1118 - Bug Bot on 2018-04-26T15:51:07.589Z
+
+
+### Not a bug, UI correctly updates upon refresh.  - Clayton on 2018-04-26T23:03:48.347Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2018-04-26T23:03:54.448Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:49:19.246Z
+
+
+### Archived by Jared on 2018-07-06T17:49:20.341Z
+
+
+### Can reproduce.
+Refreshing does not appear to fix this, tried restarting client, deleting app data, and even used another non-synced computer. Reopening. MacOS 10.12.6 Canary b30945
+
+Starfield_9#8660 - Bug Bot on 2019-01-17T03:24:09.380Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

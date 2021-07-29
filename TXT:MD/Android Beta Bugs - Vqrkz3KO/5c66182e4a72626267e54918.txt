@@ -1,0 +1,153 @@
+[Archived] Deleting an emoji while you have unsaved changes in the emoji name will cause the unsaved changes warning to appear, and clicking Cancel will put you in a weird state (https://trello.com/c/Yh4MQZmO)
+
+None
+
+Created: 2019-02-15T01:38:54.272Z
+Latest Update: 2019-06-05T23:48:14.374Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Server Settings > Emoji 
+- Click any emoji 
+- Edit the name but DON'T hit Save 
+- Tap the 3 dots 
+- Delete emoji 
+- When the unsaved changes warning appears, click Cancel
+
+####Expected result:
+It should either prevent the emoji from being deleted, or it should exit you from the editing screen
+####Actual result:
+You will stay in the editing screen but the emoji gets actually deleted, so if you attempt to save the changes or delete the emoji again, it will say "Unknown emoji"
+####Client settings:
+Discord Alpha 8.4.5G
+####System settings:
+Huawei Mate 9 Android 8.0
+
+28829
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-15T01:38:54.272Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Note 8 Android Version 8.0.0 8.4.5g \\ I hit cancel on the pop up, and it still deletes the emote. Get the unknown emoji message.
+
+XiuhcoatlSlayer#5248 - Bug Bot on 2019-02-15T01:39:01.623Z
+
+
+### Can reproduce.
+CR as actual. Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0.1, Discord Alpha 8.4.5G
+
+Frances Picard#6209 - Bug Bot on 2019-02-15T01:39:06.631Z
+
+
+### Can reproduce.
+CR on Honor 6x 7.0 [EMUI 5.0.2], alpha 845g
+
+fizy#9347 - Bug Bot on 2019-02-15T01:39:11.611Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Alpha 8.4.5g
+
+Bencey_#8587 - Bug Bot on 2019-02-15T01:44:49.383Z
+
+
+### Can reproduce.
+Can Reproduce; Android 8.0.0; Samsung Galaxy S9; Discord Alpha 8.4.5G
+
+Pyknus#0855 - Bug Bot on 2019-02-15T01:54:03.454Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 8.4.5G
+
+Danijel#9000 - Bug Bot on 2019-02-15T02:16:53.869Z
+
+
+### Can reproduce.
+CR. Alpha 8.4.5G Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-02-15T04:59:30.783Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1, Alpha 8.4.5g
+
+nescix#0071 - Bug Bot on 2019-02-15T06:58:22.508Z
+
+
+### Can reproduce.
+CR. Xiaomi Redmi 3S Prime, MIUI 10, Android 6.0.1 Discord 8.4.5g
+
+Xnehaxixh#2892 - Bug Bot on 2019-02-15T13:08:33.693Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H, Discord Alpha 8.4.5G
+
+Defracted#1337 - Bug Bot on 2019-02-15T15:43:29.074Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 845
+
+The Lunala#7777 - Bug Bot on 2019-02-16T14:09:26.495Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 848
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-17T16:07:04.691Z
+
+
+### Moved from User Reported Bugs to Emoji Bugs by Jeff Cailteux on 2019-02-19T23:34:56.004Z
+
+
+### Moved from Emoji Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-02-20T00:38:31.574Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy J6+, Android 8.1.0 - Alpha 8.4.8
+
+Melvin#0005 - Bug Bot on 2019-02-20T16:25:08.178Z
+
+
+### Can't reproduce.
+Moto G5 Plus Pixel Experience Android 9.0 - Discord Alpha 8.4.9
+
+webhp#1337 - Bug Bot on 2019-02-21T02:11:15.159Z
+
+
+### Can't reproduce.
+Can no longer reproduce. Lenovo Vibe K5+, 5.1.1 | Discord Alpha 849
+
+The Lunala#6877 - Bug Bot on 2019-02-21T02:43:15.227Z
+
+
+### Can't reproduce.
+Samsung Galaxy S8 Android 8, Discord Alpha 8.4.9
+
+Action Potential#2494 - Bug Bot on 2019-02-21T02:52:56.775Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-02-21T02:52:57.046Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.1
+
+Skyla#0002 - Bug Bot on 2019-02-27T14:39:04.777Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:48:14.384Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

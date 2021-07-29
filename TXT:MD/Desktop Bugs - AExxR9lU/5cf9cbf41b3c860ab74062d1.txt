@@ -1,0 +1,57 @@
+[CRASH] Canary cannot watch a video call.  THIS IS DESKTOP SPECIFIC, MAYBE TO MACS (https://trello.com/c/98STyd4A)
+
+None
+
+Created: 2019-06-07T02:29:08.293Z
+Latest Update: 2020-07-16T21:26:04.092Z
+
+Reported by myacorn#6534
+
+####Steps to reproduce:
+- Voice call a friend 
+- Have them turn on video 
+- You just crashed 
+- Try opening the client while they still have video on 
+- As soon as client opens, notice the *joined call* sound and immediate crash 
+- This a crash loop until they turn it off
+
+####Expected result:
+Video should play correctly
+####Actual result:
+A crash loop is created
+####Client settings:
+Canary 39214
+####System settings:
+MacOS (10.12.6 Sierra)
+
+36339
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-07T02:29:08.293Z
+
+
+### Can reproduce.
+macOS 10.15 developer beta 1, canary 39214. Ended up in a crashing loop and  having to use PTB. However you might not need to actually crash it, just hang up the call while the other still have video on and trying to rejoin the call will do the same thing.
+
+Baddles#3497 - Bug Bot on 2019-06-07T02:29:15.784Z
+
+
+### Can reproduce.
+MacBook Air (13-inch, Early 2014), macOS v0.14.5 (18F132) - Canary 39214 - CR, Repeatedly crashed upon re-opening the app until the other person hung up.
+
+Drifter#0001 - Bug Bot on 2019-06-07T02:29:20.829Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 39291
+
+OrangeM24#5746 - Bug Bot on 2019-06-07T02:29:25.777Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

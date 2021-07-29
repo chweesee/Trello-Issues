@@ -1,0 +1,71 @@
+[Archived] When you click a react twice quickly, the highlight flickers once (https://trello.com/c/Po62XIzM)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-05-01T21:29:50.431Z
+Latest Update: 2018-10-22T20:20:23.725Z
+
+Reported by KingMarine#5676
+
+####Steps to reproduce:Get a reaction (Make sure that someone else is also reacting to that message) 
+- Click the reaction twice quickly
+
+####Expected result:
+The reaction should only light up once and dim again once I unreacted
+####Actual result:
+The highlight lights up again then disappearing (Notice that the number does not change during the 2nd highlight)
+####Client settings:
+canary, Build Number: 14388
+####System settings:
+MacBook Air (2017), macOS High Sierra 10.13.3
+
+11705
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-01T21:29:50.431Z
+
+
+### Kuuhaku#4503 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ae8dc4e1d859c2d01bbcc07/605566eb393a6ba49786bb246e000114/a7d522381d5f54e14309469b8b740bcd.gif added by Bug Bot on 2018-05-01T21:29:52.836Z
+
+
+### Can reproduce.
+CR. Might be intentional destructive behaviour but can repro. Macbook Air (Early 2015), macOS Sierra 10.12.6, Discord Canary (Build 14281)
+
+Rage#0001 - Bug Bot on 2018-05-01T21:29:57.731Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 14388 Windows 10 x64
+
+Rashaun#9295 - Bug Bot on 2018-05-01T21:30:02.774Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.205 (14388) on Windows 10 Education 1803 (Build 17134.1)
+
+OminousCry#2331 - Bug Bot on 2018-05-01T21:30:07.778Z
+
+
+### Can reproduce.
+I can reproduce about 1/2 of the time. Window 8.1, Discord Canary 14432
+
+NEXO#8392 - Bug Bot on 2018-05-02T06:34:13.258Z
+
+
+### Verified.  - Clayton on 2018-05-02T19:36:33.076Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-02T19:36:38.014Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:23.728Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,84 @@
+[Archived] New share extension shows channel you don't have access to (https://trello.com/c/2htdZ8Zb)
+
+P2 - Can wait a while,
+low
+
+Created: 2018-02-13T22:02:25.362Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to Safari for example and open any website 
+- Activate the Discord share extension 
+- Click on share to Discord 
+- Select for `Share in` "Discord Testers" for example 
+- Click on `Share to` 
+- Observe the channels you can see there
+
+####Expected result:
+You should only see the channels you have access to.
+####Actual result:
+You can see all channels of the servers where writing permission for you aren't denied although you don't have access (read message permission) to them.
+####Client settings:
+TestFlight 2.2.3 (2572)
+####System settings:
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 2
+
+8754
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-13T22:02:25.362Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a8360716013980525062590/ba99cda54364777b34421e6cfa83374f/image.png added by Bug Bot on 2018-02-13T22:02:27.904Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a8360716013980525062590/ffb126a5ee480fc6afe1efa3d1fefe2e/3La9u5v.png added by Bug Bot on 2018-02-13T22:02:27.905Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.3 beta 2, TestFlight 2.2.3 (2572)
+
+houston#2248 - Bug Bot on 2018-02-13T22:02:32.834Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.3 PB2, Discord TestFlight 2.2.3 (2572)
+
+Ghoul#0009 - Bug Bot on 2018-02-13T22:02:37.918Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.3 (2572)
+
+mouse#0091 - Bug Bot on 2018-02-13T22:02:42.728Z
+
+
+### Verified - Jared on 2018-02-13T22:32:46.079Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-13T22:32:56.523Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Miguel Gaeta on 2018-02-14T18:26:32.845Z
+
+
+### I can no longer reproduce, only channels I have access to are shown.
+
+Discord 2.2.3 (2617), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-02-15T09:43:30.034Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2018-02-15T09:43:40.641Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:38.655Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

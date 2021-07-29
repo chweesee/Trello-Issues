@@ -1,0 +1,70 @@
+long bar notifications on Discord desktop hides chat arrow while screensharing. (https://trello.com/c/c0lFf8aw)
+
+None
+
+Created: 2019-12-02T19:08:44.290Z
+Latest Update: 2020-07-16T21:26:05.815Z
+
+Reported by Leo#5142
+
+####Steps to reproduce:
+- start screensharing in DM 
+- have a warning notification (Spotify warning, no voice input warning etc.) 
+- hide the chat with the arrow 
+- attempt to unhide it again with the arrow
+
+####Expected result:
+the arrow should remain on the screen allowing you to unhide
+####Actual result:
+the arrow goes off the screen becoming unclickable
+####Client settings:
+Desktop, Canary, 49236.
+####System settings:
+Windows 10 Pro, 1903.
+
+47799
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-02T19:08:44.290Z
+
+
+### Leo#5142 - https://youtu.be/ymZXlH4hQGM added by Bug Bot on 2019-12-02T19:08:46.975Z
+
+
+### Can reproduce.
+It doesn't go off the screen for me fully - only like 20% of it is shown. MacBook Pro: macOS Catalina 10.15.1; Discord Canary 50474
+
+Jiralite#1207 - Bug Bot on 2019-12-02T19:08:51.769Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro, Canary 50474
+
+Action Potential#6862 - Bug Bot on 2019-12-02T19:08:56.778Z
+
+
+### Can reproduce.
+used stream, arrow was majorly cut off. mbp 10.15.1 canary 50489
+
+Courtney-Lai#9198 - Bug Bot on 2019-12-02T19:09:01.776Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 50509 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-03T00:30:27.916Z
+
+
+### Can reproduce.
+Desktop Canary, 50588 - Windows 10 Pro x86
+
+Beatrice#0111 - Bug Bot on 2019-12-03T18:54:48.043Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

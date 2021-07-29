@@ -1,0 +1,65 @@
+[Archived] [Cross platform] The Change password feature allows you to change your password to something made only out of spaces. It will say Success even though your password won't change (https://trello.com/c/8EfGqPoO)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-11-01T01:51:06.536Z
+Latest Update: 2019-01-11T00:01:32.348Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to your account settings 
+- Change password 
+- Fill the New password field with only spaces 
+- Submit
+
+####Expected result:
+It should say "Field is required"
+####Actual result:
+It says that your password got changed successfully, even though nothing has changed and you can still login with your old password
+####Client settings:
+Cross-platform, client independent. Reproduced on Android app (Alpha 7.8.3), some people can repro on Desktop app.
+####System settings:
+Huawei Mate 9 Android 8.0
+
+22554
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-01T01:51:06.536Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 x64 - Discord Stable 27235
+
+webhp#1337 - Bug Bot on 2018-11-01T01:51:13.888Z
+
+
+### Can reproduce.
+CR | Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.8.4
+
+J1#0088 - Bug Bot on 2018-11-01T01:51:18.849Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.8.4
+
+Hole#0001 - Bug Bot on 2018-11-01T01:51:23.886Z
+
+
+### verified, macos 10.12.6 - Clayton on 2018-11-01T02:04:49.182Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-01T02:04:56.518Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:32.350Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

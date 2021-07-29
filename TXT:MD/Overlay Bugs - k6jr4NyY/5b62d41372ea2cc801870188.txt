@@ -1,0 +1,80 @@
+When the text window in the overlay is at or near the default size, it covers up text on newlines (https://trello.com/c/WBei1Mfb)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-02T09:51:15.889Z
+Latest Update: 2019-04-27T22:26:15.948Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Completely restart the overlay to ensure the overlay size is at its default 
+- Go to any channel, preferably one without any attachments in it 
+- Send enough messages so the chat reaches the bottom of the overlay or resize the overlay vertically so messages are right above the text bar 
+- Insert a bunch of newlines into the text box
+
+####Expected result:
+The overlay pushes up chat like it does on larger resolutions
+####Actual result:
+The overlay covers up the chat messages. (This may take a few tries to get)
+####Client settings:
+Canary 20540
+####System settings:
+Windows 10 Home x64
+
+16738
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T09:51:15.889Z
+
+
+### mrkirby153#7840 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b62d41372ea2cc801870188/50d0cbc3f38253e456993d041a5c14e2/iL4vBuY.gif added by Bug Bot on 2018-08-02T09:51:18.327Z
+
+
+### Can reproduce.
+Windows 10 Home (1803) x64, Canary 0.0.211 (Build 20540)
+
+DeJay#1337 - Bug Bot on 2018-08-02T09:51:23.189Z
+
+
+### Can reproduce.
+CR; Windows 10 Home x64, 1803, Canary 20540
+
+TheMegaEagle#9909 - Bug Bot on 2018-08-02T09:51:28.180Z
+
+
+### Can reproduce.
+Windows 10 Home x63 (1803), Canary 20540
+
+Mustard#2117 - Bug Bot on 2018-08-02T09:51:33.206Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 21705
+
+Frances Picard#6209 - Bug Bot on 2018-08-12T17:00:19.597Z
+
+
+### minor - Clayton on 2018-08-30T22:37:02.714Z
+
+
+### Can't reproduce.
+CNLR Win10 64x (1809), Discord Canary 26215
+
+Alipoodle#5025 - Bug Bot on 2019-04-23T22:10:50.303Z
+
+
+### Moved from Overlay Bugs to Claimed Fixed by Ene on 2019-04-27T20:26:03.059Z
+
+
+### Moved from Claimed Fixed to Overlay Bugs by Ene on 2019-04-27T22:26:15.963Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

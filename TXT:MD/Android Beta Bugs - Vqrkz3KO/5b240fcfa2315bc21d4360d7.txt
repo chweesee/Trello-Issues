@@ -1,0 +1,89 @@
+[Archived] Prune modal text gets cut off when the modal is too small (https://trello.com/c/Fxz6N1L7)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-15T19:13:19.301Z
+Latest Update: 2018-09-18T08:00:02.706Z
+
+Reported by Lava#9562
+
+####Steps to reproduce:
+- Make sure you have a low dpi device, meaning things appear small on your screen and you feel like there's alot of free space on your screen 
+- Create/Rename/Use a server, preferably with a short name so you keep the modal small 
+- Open Server Settings 
+- Members 
+- Click on the top-right menu 
+- Prune Members 
+- Observe
+
+####Expected result:
+The text is exactly "Pruning will kick **amount members** who have not been seen in **amount day(s)** and are not assigned to any roles. They can re-join the server using a new Instant Invite."
+####Actual result:
+The text gets cut off. How much of it cut off varies
+####Client settings:
+Alpha 692
+####System settings:
+Samsung Galaxy J7 Prime ~ Android 7.0 SE 8.1 ~ Modified to 401 DPI
+
+14198
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-15T19:13:19.301Z
+
+
+### Lava#9562 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b240fcfa2315bc21d4360d7/aa856b9d1b7a41b7bbe3058f73a06177/67b04e51.jpg added by Bug Bot on 2018-06-15T19:13:22.012Z
+
+
+### Can reproduce.
+Can Reproduce, no text can be seen after "... using a" -- Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.9.2
+
+Ori#1908 - Bug Bot on 2018-06-15T19:13:26.827Z
+
+
+### Can reproduce.
+CR ~ Samsung Galaxy J7 ~ Android 7.0 ~ Discord Alpha 6.9.2
+
+FoxyKero#9941 - Bug Bot on 2018-06-15T19:13:31.866Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 6.9.1
+
+Bencey_#8587 - Bug Bot on 2018-06-15T19:13:36.807Z
+
+
+### Can't reproduce.
+Cannot reproduce, Discord Alpha 6.9.2, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-06-15T21:24:02.161Z
+
+
+### Can't reproduce.
+[cnr] I'm not 100% that my phone have a low dpi | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.9.1
+
+fujhofn.#0003 - Bug Bot on 2018-06-16T08:13:31.317Z
+
+
+### Verified, samsung s6 edge, android 7.0, alpha 6.9.5 - Clayton on 2018-06-18T22:21:11.042Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-18T22:21:19.405Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 738. also works if you have a server with a name that contains just 2 characters
+
+The Lunala#7777 - Bug Bot on 2018-08-19T07:37:34.404Z
+
+
+### Archived by Clayton on 2018-09-18T08:00:02.708Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

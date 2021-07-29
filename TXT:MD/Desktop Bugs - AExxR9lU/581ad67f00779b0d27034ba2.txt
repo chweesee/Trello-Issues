@@ -1,0 +1,91 @@
+[Archived] Excessively long usernames will break the typing indicator (https://trello.com/c/u2n5MHxF)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2016-11-03T06:17:35.416Z
+Latest Update: 2018-10-22T20:13:14.785Z
+
+Reported by A Generic Gamer#4775
+
+####Steps to reproduce: 
+- Change your nickname or someone elses nickname to something excessively long (make sure there are no spaces).  
+- NOTE: The only character I've found that's worked is ﷽, and yes, that is just one character (imagine how long 32 of them are) 
+- Observe the horizional scroll line that appears below the typing indicator. 
+
+####Expected result:
+ either the name gets cut off or continues on another line. 
+####Actual result:
+ A horizonal scroll bar appears for the duration of the typing indicator. 
+####System settings:
+ Latest Canary. 
+####Client version:
+ Win10 x64 anniversary update.
+
+Card Log
+========
+### Added by Jared on 2016-11-03T06:17:35.416Z
+
+
+### A Generic Gamer#4775 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/581ad67f00779b0d27034ba2/5214edbd37d314633d2930e3a809f446/S0g5BGj.png added by Jared on 2016-11-03T06:19:02.768Z
+
+
+### Can reproduce.
+Windows 8.1 x64
+
+星空 凛 ★★★★#9667 - Jared on 2016-11-03T06:21:05.275Z
+
+
+### Can reproduce.
+Win10 x64
+
+CheeseCast#0131 - Jared on 2016-11-03T06:24:54.425Z
+
+
+### Can reproduce.
+Latest, macOS Sierra
+
+/dev/null#5164 - Jared on 2016-11-03T07:46:18.900Z
+
+
+### Can reproduce.
+Can easily be fixed by capping the typing notification area so it doesn't break into multiple lines.
+
+SuperSajuuk#7265 - Jared on 2016-11-03T08:00:33.425Z
+
+
+### Verified but extremely minor issue. - Jared on 2016-11-04T20:47:02.161Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-11-04T20:47:05.194Z
+
+
+### https://trello.com/c/iN22ae3m/388-in-dm-s-users-with-a-longer-name-than-the-user-is-typing-container-uses-the-default-chrome-scrolling-bar-doesn-t-match-the-disco
+
+Identical tickets.  - Clayton on 2017-03-09T01:13:58.760Z
+
+
+### Can't reproduce.
+Windows 10 Enterprise x64
+
+Walkernize#0420 - Bug Bot on 2018-05-25T07:44:08.996Z
+
+
+### Can reproduce.
+Discord Canary 17937 - Windows 10 x64 v1709 - Still reproducible, also this thing makes chat look really messy because their username becomes excessively long.
+
+HarryThorpe#0864 - Bug Bot on 2018-06-29T22:32:51.888Z
+
+
+### Azrael#6867 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/581ad67f00779b0d27034ba2/96cbea35b759ccf49d9212def91cb64d/CMZoLRN.png added by Bug Bot on 2018-09-08T13:50:05.659Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:14.788Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

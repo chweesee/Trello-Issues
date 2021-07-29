@@ -1,0 +1,57 @@
+The Go Live button shows up & is clickable in voice channels where you don't have the permission to Go Live. (https://trello.com/c/0V2Hr9Lc)
+
+None
+
+Created: 2020-02-23T03:01:45.023Z
+Latest Update: 2020-07-16T21:26:06.117Z
+
+Reported by Maah#0040
+
+####Steps to reproduce:
+- Go into a Voice Channel where you don't have the "Go Live" permission 
+- See that the "Go Live" button shows up 
+- Click it 
+- Select an application or screen 
+- Click the green "Go Live" button 
+- Your stream may start for up to a few seconds, and then the stream gets disconnected
+
+####Expected result:
+The button to go live should be hidden, greyed out, or not clickable.
+####Actual result:
+The button is fully working and a (albeit very short) stream can be started, and seen by others.
+####Client settings:
+Desktop Canary, 51469
+####System settings:
+Windows 10 Home 1903
+
+50412
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-23T03:01:45.023Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.2; Discord PTB 52710
+
+Jiralite#1207 - Bug Bot on 2020-02-23T03:01:52.513Z
+
+
+### Can reproduce.
+Can reproduce: Microsoft Windows 10 Home, Version 1809 (OS Build: 17763.864) | Canary 54611
+
+Celeron#2757 - Bug Bot on 2020-02-23T03:01:57.497Z
+
+
+### Can reproduce.
+CR, macOS 10.15.4, Canary 54954
+
+Action Potential#1999 - Bug Bot on 2020-02-23T03:02:02.529Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

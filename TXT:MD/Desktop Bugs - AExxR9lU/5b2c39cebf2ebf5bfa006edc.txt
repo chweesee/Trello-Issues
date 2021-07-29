@@ -1,0 +1,158 @@
+[Archived] Right-click context menus appear way too far up (https://trello.com/c/4ZExoU6g)
+
+High,
+P2: Fix can wait a while
+
+Created: 2018-06-21T23:50:38.288Z
+Latest Update: 2018-08-21T23:27:53.756Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+
+- Right-click a server far down in your server list (it takes me 11 servers down to trigger this, but it may take you more or less) to open its Context Menu 
+- Now Right-click on a channel to have its Context Menu appear
+
+####Expected result:
+Context menu appears next to where you right-clicked
+####Actual result:
+Context menu appears way too far up, going out of view if the channel is near the top of the server
+####Client settings:
+Discord Canary 0.0.211, Build 17481
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+14482
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-21T23:50:38.288Z
+
+
+### Mikesky#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b2c39cebf2ebf5bfa006edc/79ae9a0b91b089e2991bc5fd34c4878e/hvHwa9B.png added by Bug Bot on 2018-06-21T23:50:40.874Z
+
+
+### DeJay#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b2c39cebf2ebf5bfa006edc/bec22e4302f4fd762fdd43188238d6b7/d77e9.png added by Bug Bot on 2018-06-21T23:50:41.046Z
+
+
+### DeJay#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b2c39cebf2ebf5bfa006edc/349e895708dcc76a58b9de45cba60829/d8043.png added by Bug Bot on 2018-06-21T23:50:41.380Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 17486
+
+webhp#1337 - Bug Bot on 2018-06-21T23:50:45.726Z
+
+
+### Can reproduce.
+took a couple of tries to repro Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 17486
+
+Kuuhaku#4503 - Bug Bot on 2018-06-21T23:50:50.733Z
+
+
+### Can reproduce.
+Can Repro Windows 10 Home (1803) x64, Canary 0.0.211 (Build 17481)
+
+DeJay#1337 - Bug Bot on 2018-06-21T23:50:55.724Z
+
+
+### Can reproduce.
+Windows 10 + Canary Build# 17481 (also if the server is up high enough, the right click menu won't show up)
+
+Oasis#4730 - Bug Bot on 2018-06-21T23:51:40.445Z
+
+
+### DeJay#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b2c39cebf2ebf5bfa006edc/101e0af258b8a15d72ff0b690610bfe7/a25c7.png added by Bug Bot on 2018-06-21T23:52:10.565Z
+
+
+### There are two versions of this bug: The one being reported; where the Context Menus start appearing too far up. And another where if you open a Context Menu and it opens to the left of your mouse pointer (like by opening it with a user in a server's Member List), Context Menus will then only open to the left (most noticeable by again right-clicking a server icon. Refreshing fixes both of these versions until you trigger it again.
+
+Ene#0808 - Bug Bot on 2018-06-22T00:04:40.830Z
+
+
+### Can reproduce.
+Windows 10 Discord Canary (latest)
+
+PetPatPot#6456 - Bug Bot on 2018-06-22T01:53:53.882Z
+
+
+### Can reproduce.
+Windows 10 Pro x64
+
+StuxSec#0001 - Bug Bot on 2018-06-22T05:16:48.702Z
+
+
+### Can reproduce.
+Windows 10, 64-bit (v1709) Canary 17486
+
+Anima Vestra#2216 - Bug Bot on 2018-06-22T05:45:14.848Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (Build 17486) on Windows 10 Education 1803 (Build 17134.1)
+
+OminousCry#2331 - Bug Bot on 2018-06-22T08:47:26.354Z
+
+
+### Can reproduce.
+WIndows Vista Google Chrome v49.0.26
+
+SilferFox#6308 - Bug Bot on 2018-06-22T08:48:47.451Z
+
+
+### Can reproduce.
+Windows Vista Ultimate Google Chrome v.49.0.26
+
+SilferFox#6308 - Bug Bot on 2018-06-22T08:59:14.158Z
+
+
+### Can reproduce.
+Windows 10 x64 (1803); Discord Stable 17478
+
+Cronos#6935 - Bug Bot on 2018-06-22T09:40:52.257Z
+
+
+### Can reproduce.
+Ubuntu Bionic, Discord Stable 17491
+
+VitalKanev#2348 - Bug Bot on 2018-06-22T10:41:26.216Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 Windows 10
+
+AlFas#2783 - Bug Bot on 2018-06-22T10:57:59.199Z
+
+
+### Can reproduce.
+Windows 10 April 2018 Update, Canary Build 17486.
+
+srat232#1955 - Bug Bot on 2018-06-22T11:30:23.099Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Amadeus on 2018-06-22T17:04:42.111Z
+
+
+### In general - I'd say this is a high p2 or a p1 even. Def more than a P3 - Amadeus on 2018-06-22T17:05:05.067Z
+
+
+### this bug seems to have been fixed as of Canary Build: 17522
+
+Azrael#6867 - Bug Bot on 2018-06-22T17:37:55.843Z
+
+
+### Cannot reproduce anymore, Canary 17526. All context menus stuff appears properly now.  - Tarek on 2018-06-22T18:05:53.947Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:27:51.314Z
+
+
+### Archived by Jared on 2018-08-21T23:27:53.759Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

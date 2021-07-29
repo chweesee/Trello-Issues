@@ -1,0 +1,118 @@
+[Archived] [Windows Specific] Copying a message with a new line character and then removing it, causes the new line character to not be removed after being sent (https://trello.com/c/Y4Ni5nzK)
+
+None
+
+Created: 2019-12-08T01:51:26.985Z
+Latest Update: 2020-01-09T07:30:40.513Z
+
+Reported by TheForbiddenAi#0403
+
+####Steps to reproduce:
+- Type something in the chat box on one line, then on a new line (shift + enter) right something else and send the message 
+- Now copy the message with the new line character in to the text box  
+- Remove the new line character and hit send 
+- Observe how the new line character is still there
+
+####Expected result:
+The new line character is not there as it was deleted before being sent
+####Actual result:
+The new line character is still there
+####Client settings:
+Canary 50957
+####System settings:
+Windows 10 Home x64 (1903)
+
+49785
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-08T01:51:26.985Z
+
+
+### TheForbiddenAi#0403 - https://i.imgur.com/1QwXmNf.gifv added by Bug Bot on 2019-12-08T01:51:29.768Z
+
+
+### Can reproduce.
+Can repro on windows 10 home 1809 discord version 50957 Could not repro on Ubuntu 18.04 50957
+
+the_killerbanana#6969 - Bug Bot on 2019-12-08T01:51:34.654Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 1909, Canary 50957
+
+Goldenclaw112#0001 - Bug Bot on 2019-12-08T01:51:39.705Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 1903 x64, Discord Version 50957
+
+Squeegee#3239 - Bug Bot on 2019-12-08T01:51:44.657Z
+
+
+### Can reproduce.
+W10 Home x64, 1903, Canary 50895
+
+Drakon#8640 - Bug Bot on 2019-12-08T02:07:02.421Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 50957
+
+Action Potential#6862 - Bug Bot on 2019-12-08T02:51:22.060Z
+
+
+### Can reproduce.
+Can repro Desktop Canary, 50957 - Windows 10 Pro x64
+
+Beatrice#0111 - Bug Bot on 2019-12-08T04:21:02.360Z
+
+
+### Can reproduce.
+Windows 10 home 1903, Discord canary, build number 50957
+
+Encrium#0004 - Bug Bot on 2019-12-08T07:02:22.412Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909, Canary 50957 host 0.0.259
+
+Jean20B#4668 - Bug Bot on 2019-12-08T07:46:20.782Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 50957, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2019-12-08T16:05:53.669Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1909 - Canary 50957
+
+A1ex#8151 - Bug Bot on 2019-12-08T17:13:56.947Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit (v1909), Discord Canary 0.0.259 Build 50957
+
+ryan#0570 - Bug Bot on 2019-12-08T18:41:11.532Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by AJ Palkovic on 2019-12-09T05:44:15.292Z
+
+
+### Can reproduce.
+Canary 50588, Windows 7
+
+Rohit#3523 - Bug Bot on 2019-12-10T07:22:33.758Z
+
+
+### Archived by Bug Bot on 2020-01-09T07:30:40.531Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

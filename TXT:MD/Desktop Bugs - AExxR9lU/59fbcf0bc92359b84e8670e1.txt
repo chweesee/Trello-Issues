@@ -1,0 +1,137 @@
+[Archived] Discord keeps using the language of your system - even if set to another language (https://trello.com/c/1lXSOlhQ)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-11-03T02:06:03.946Z
+Latest Update: 2018-02-22T19:58:14.697Z
+
+Reported by tomGER#7462
+
+####Steps to reproduce:
+- Have another system language (I used german) 
+- Have the discord setting set to another language 
+- Restart Canary / Update it
+
+####Expected result:
+You should still have the language you set manually as your discord language
+####Actual result:
+Discord tells you that you're still using another language (alias a language you manually set) while you're using your system language (here: german) and this can't be undone
+####Client settings:
+Desktop Canary
+####System settings:
+Win10 x64
+
+6039
+
+---
+[Elegantt data. What's this?](http://bit.ly/elegantt-for-trello-whats-this)
+[](Elegantt_data:dont_delete{"ignored":false,"autoPlanned":false,"ownerId":false,"dependencies":[]})
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-03T02:06:03.946Z
+
+
+### Starshine Dust#2189 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59fbcf0bc92359b84e8670e1/885678157cf5636d6e401d5d38864cb5/unknown.png added by Bug Bot on 2017-11-03T02:06:06.988Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 0.0.169 , you can work around this by changing the language to something else and then back to english
+
+AEnterprise#4693 - Bug Bot on 2017-11-03T02:06:11.541Z
+
+
+### Can reproduce.
+CR win 10 x64 build 1703 on canary 6772
+
+ks0908#8526 - Bug Bot on 2017-11-03T02:06:16.560Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.169 (Build 6799) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-11-03T02:06:21.556Z
+
+
+### Can't reproduce.
+CNR, Discord Canary 0.0.169 (Build 6799) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-11-03T17:06:26.253Z
+
+
+### Can't reproduce.
+Canary 0.0.169, Windows 10 Home x64 (Build 10586), was not able to reproduce steps, but Discord loads forever when loaded
+
+ElijahPepe#5428 - Bug Bot on 2017-11-04T17:37:55.153Z
+
+
+### Can reproduce.
+CR, Bugs seems to be back? Discord Canary 0.0.170 (Build 6880) on Windows 10 Pro 64-bit (Build 1607) Swedish
+
+Tarek1337#0379 - Bug Bot on 2017-11-06T17:47:18.235Z
+
+
+### Can reproduce.
+Canary 0.0.169 (Build 6880) on Windows 10 Home x64 (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-11-06T19:43:19.111Z
+
+
+### Can reproduce.
+Still happens on Build 6880 (It came back? Pretty strange) Win10x64 Build 6880
+
+tomGER#7462 - Bug Bot on 2017-11-07T12:45:32.022Z
+
+
+### Can reproduce.
+Windows 7 Enterprise x64 Finnish on Canary 0.0.173 (Build 6985)
+
+Tonkku#0950 - Bug Bot on 2017-11-08T07:47:20.903Z
+
+
+### Can reproduce.
+Using PTB Build Number: 6986, Windows 10 Home x64 (version 1703, build 15063.674)
+
+Kantenkugel#1568 - Bug Bot on 2017-11-08T12:08:31.986Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-08T16:29:47.755Z
+
+
+### Can reproduce.
+windows 10 home, this is a pain nowadays
+
+LW001#8654 - Bug Bot on 2017-11-08T19:09:01.388Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.173 (Build 7005) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-11-08T20:23:09.441Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Cole Norman on 2017-11-12T11:02:26.261Z
+
+
+### According to tarek its been fixed by seapunk - Cole Norman on 2017-11-12T11:03:06.972Z
+
+
+### Verified Fixed - Jared on 2018-01-17T22:48:23.820Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T22:48:28.109Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:58:14.377Z
+
+
+### Archived by Tarek on 2018-02-22T19:58:14.700Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

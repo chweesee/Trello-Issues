@@ -1,0 +1,119 @@
+[Archived] Trying to send an invite link through the invite screen crashes when you are being rate limited. (https://trello.com/c/fSN8jDHS)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2018-11-29T11:11:37.915Z
+Latest Update: 2019-09-18T10:01:00.713Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Be in a server where you can create invites. 
+- Open that server. 
+- Tap "Invite Members" 
+- Repeatedly toggle the "Set this link to never expire" switch until it says "You are being rate limited" 
+- Tap the green "Invite" button next to someone's name
+
+####Expected result:
+The "Invite" button next to users should be disabled, as the Share Link button is below the "never expire" toggle.
+####Actual result:
+The app crashes.
+####Client settings:
+TestFlight 2.4.0 (9370)
+####System settings:
+iPhone 6s, iOS 12.1.1 Beta (16C5050a) - TestFlight 2.4.0 (9370)
+
+23760
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-29T11:11:37.915Z
+
+
+### Isabel#0002 - https://youtu.be/nJ9YTEyr3lU added by Bug Bot on 2018-11-29T11:11:40.256Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1 - TestFlight 2.4.0 (9370)
+
+Daffyduck#5364 - Bug Bot on 2018-11-29T11:11:45.276Z
+
+
+### Can reproduce.
+Can reproduce - iPhone 8 - iOS 12.0.1 - Discord TestFlight 2.4.0 (9370)
+
+Jengas#7777 - Bug Bot on 2018-11-29T11:11:50.287Z
+
+
+### Can reproduce.
+CR, iPhone 6S iOS 12.0 TF 2.4.0 (9370)
+
+iNeedFire#5609 - Bug Bot on 2018-11-29T11:11:55.232Z
+
+
+### Can reproduce.
+iPhone 7 plus iOS 12.1 test flight 2.4.0 (9370)
+
+sloth_.on._tabasco#0001 - Bug Bot on 2018-11-29T13:30:46.425Z
+
+
+### Can reproduce.
+CR iPad Air 1, iOS 12.1, Discord TestFlight 2.4.0 (9370)
+
+zapteryx#6161 - Bug Bot on 2018-11-29T13:33:33.049Z
+
+
+### Can reproduce.
+Can Reproduce, iPad Air 2, iOS 12.0, TestFlight 2.4.0 (9370)
+
+1Storm#0001 - Bug Bot on 2018-11-30T01:26:37.257Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2018-12-07T19:00:04.053Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:00:18.454Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.8 (16488) with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-29T13:14:28.060Z
+
+
+### Unarchived by Pascal on 2019-07-29T13:14:34.399Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-07-29T13:14:39.014Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 4) - Stable 3.0.8
+
+Xylium#5800 - Bug Bot on 2019-07-29T13:43:18.739Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.8 (16488)
+
+binchlord#0998 - Bug Bot on 2019-07-29T13:45:35.182Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.4 - TestFlight 3.0.8 (16488)
+
+Daffyduck#5364 - Bug Bot on 2019-07-30T03:58:43.276Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-30T03:58:43.598Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:00.745Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

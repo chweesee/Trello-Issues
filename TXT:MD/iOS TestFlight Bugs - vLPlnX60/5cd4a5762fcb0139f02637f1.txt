@@ -1,0 +1,142 @@
+[Archived] Using any emoji that is non animated and in the server it is being used in gives an error that you need nitro. (https://trello.com/c/OmktzhKm)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-05-09T22:11:02.992Z
+Latest Update: 2019-09-18T10:01:06.088Z
+
+Reported by Kevin#7499
+
+####Steps to reproduce:
+- Not be a Nitro subscriber
+- Force close the Discord app
+- Add a reaction past the twelfth one of the server emojis to a post that is not animated
+
+####Expected result:
+Reaction should add without an error
+####Actual result:
+Reaction is added but gives an error that says it can't be used as it requires Nitro.
+####Client settings:
+Testflight 3.0.1 (14776)
+####System settings:
+iPhone XS Max, iOS 12.1.2
+
+34282
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-09T22:11:02.992Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS 12.2, TestFlight 3.0.1 (14776) - happened for me only after force closing the app
+
+Pascal#0929 - Bug Bot on 2019-05-09T22:11:10.495Z
+
+
+### Can reproduce.
+Can reproduce, iPad Mini 2 on iOS 11.2.6 and iPhone 6 on iOS 12.1.1, TF 3.0.1 (14776). Occurs only with emotes past the twelfth in the section (counting from the first emote in the section), and also occurs with global emotes. Also occurs with the final emote in the "Recently Used" section. May have to force close app first.
+
+[object Object]#0001 - Bug Bot on 2019-05-09T22:11:15.469Z
+
+
+### Can reproduce.
+ipad air 2 ios 12.2, TestFlight 3.0.1 (14776)
+
+OrangeM24#5746 - Bug Bot on 2019-05-09T22:11:20.437Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14776)
+
+Daffyduck#5364 - Bug Bot on 2019-05-09T23:01:22.189Z
+
+
+### Added the missing critical step that you have to force close the app before trying it and select a server emoji past the twelfth one. - Pascal on 2019-05-10T16:48:40.788Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 3.0.1 (14776)
+
+Jengas#7777 - Bug Bot on 2019-05-10T21:13:50.999Z
+
+
+### Can reproduce.
+iPhone X iOS 12.2 TestFlight 3.0.1
+
+Darth#9386 - Bug Bot on 2019-05-11T14:51:12.660Z
+
+
+### Can reproduce.
+iPhone 7 ios 12, TestFlight 3.0.1
+
+Cam#7527 - Bug Bot on 2019-05-12T00:56:18.447Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-05-17T19:00:03.092Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.3 (15638) with iPad Pro (11 inch) running iOS 12.3.1.
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-09T18:52:41.178Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-06-09T18:52:50.077Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+SplashyFlame#4968 - Bug Bot on 2019-06-09T18:54:41.999Z
+
+
+### Can't reproduce.
+iPad Air, iOS 12.4 (dev beta 3) - Testflight 3.0.3 (15638)
+
+Xylium#5800 - Bug Bot on 2019-06-09T18:57:53.402Z
+
+
+### Can't reproduce.
+iPhone XR & iPad Air iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+binchlord#0998 - Bug Bot on 2019-06-09T19:08:48.437Z
+
+
+### Can't reproduce.
+ipad air 2 ios 12.3.1, Testflight 3.0.3 (15638)
+
+OrangeM24#5746 - Bug Bot on 2019-06-09T21:26:23.513Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-09T21:26:23.789Z
+
+
+### Can reproduce again as of TestFlight 3.0.4 (15841) with iPhone 8 Plus running iOS 12.3.2.
+
+Moving to Reopened list. - Pascal on 2019-06-19T12:02:46.755Z
+
+
+### Moved from Verified Fixed to Reopened by Pascal on 2019-06-19T12:02:56.079Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.6 (16208) with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Verified Fixed list. - Pascal on 2019-07-13T14:10:34.173Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Pascal on 2019-07-13T14:10:55.420Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Pascal on 2019-07-16T17:56:02.534Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:06.103Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jonathanwu41) - No Bio

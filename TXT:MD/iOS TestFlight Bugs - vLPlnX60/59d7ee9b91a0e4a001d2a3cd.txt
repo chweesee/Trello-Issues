@@ -1,0 +1,71 @@
+[Archived] [iPad only] Holding a message then closing the keyboard caused the text of buttons to disappear (https://trello.com/c/WMVoMkzV)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-10-06T20:59:07.886Z
+Latest Update: 2017-12-23T10:55:02.869Z
+
+Reported by Skeletonarcher12#3697
+
+####Steps to reproduce:
+- Send a message 
+- Click the chat bar, as if to type a message 
+- Hold down on the message you sent before and wait for the menu to appear 
+- Close the keyboard with the button in the bottom right
+
+####Expected result:
+The menu expands
+####Actual result:
+The menu expands but the last to boxes have no text
+####Client settings:
+TestFlight 1.5.1 (665)
+####System settings:
+iPad Air 2, iOS 11.0.0
+
+5107
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-06T20:59:07.886Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 11.1 PB 1, TestFlight 1.9.2 (953). The text for the boxes appear if you touch them but before no text is visible. Note: This only happens with landscape mode for iPad (horizontal format)
+
+Pascal#0929 - Bug Bot on 2017-10-06T20:59:15.329Z
+
+
+### Can reproduce.
+CR, iPad mini 4, iOS 11.0.1, Public discord 1.9.2 | **only works with iPads in horizontal mode**
+
+Blizzyrd#7909 - Bug Bot on 2017-10-06T20:59:20.314Z
+
+
+### Can reproduce.
+CR, iPad 2017 & iPad Mini 2, iOS 11.0.2 & 11.0.0, Discord Stable 1.9.1 and TestFlight 1.9.2, Appears only on landscape mode
+
+DeadlyFirex#8316 - Bug Bot on 2017-10-06T20:59:25.320Z
+
+
+### Cannot reproduce, the pop up slides and text remains as expected. - Jared on 2017-11-20T22:25:02.426Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-11-20T22:25:06.842Z
+
+
+### Possible that this could also be specific to iOS 11, as I can't reproduce on a 9.3.5 iPad. - Mike Nisbet on 2017-11-23T16:02:32.563Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-23T10:55:01.888Z
+
+
+### Archived by Alexandru Todea on 2017-12-23T10:55:02.872Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,92 @@
+You're still getting Desktop notifications when you are mentionned in a channel that you're actively viewing on Android (https://trello.com/c/z2TKwx0r)
+
+P3: Will eventually be fixed,
+low
+
+Created: 2018-06-17T07:41:22.047Z
+Latest Update: 2018-08-30T21:52:24.178Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Linux Discord client 
+- Minimize it to system tray 
+- Open Android app 
+- Switch to a channel 
+- Have someone mention you in this channel. Also works when you're sending a bot command that responds with a mention. Remember that you should do this on Android and your Desktop app should still be minimized
+
+####Expected result:
+No Desktop notifications as I'm already viewing the channel on Android
+####Actual result:
+I still get Desktop notifications saying I was mentionned in the channel
+####Client settings:
+Canary 17063 -- Alpha 6.9.2
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits -- Huawei Mate 9 Android 8.0
+
+14227
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-17T07:41:22.047Z
+
+
+### Can reproduce.
+CR • Linux Mint 19 (Tara) (Canary 17063) • Samsung Galaxy J7 running Android 7.0 (Alpha 6.9.4)
+
+FoxyKero#9941 - Bug Bot on 2018-06-17T07:41:29.379Z
+
+
+### Can reproduce.
+Can Reproduce, ArchLinux x64 - Linux Kernel 4.16.13-2 - GNOME 3.28.2 - Discord Canary Build 17063 & Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 6.9.5
+
+Frances Picard#6209 - Bug Bot on 2018-06-17T07:41:34.489Z
+
+
+### Can reproduce.
+Can reproduce Fedora 28 Discord version 0.0.5 Build 16234 and Nokia 5 Android 8.0.0 Discord alpha 6.9.5
+
+Bencey_#8587 - Bug Bot on 2018-06-17T07:41:39.390Z
+
+
+### Can reproduce.
+Can Reproduce -- Kubuntu 18.10 (Cosmic Cuttlefish) - Linux Kernel 4.15.0-24-generic - KDE 5.12.5 - Canary 17395 -- -a - Alpha 6.9.5
+
+Perseus Elizabeth Kane#3217 - Bug Bot on 2018-06-20T21:42:10.770Z
+
+
+### Can reproduce.
+Can Reproduce -- Kubuntu 18.10 (Cosmic Cuttlefish) - Linux Kernel 4.15.0-24-generic - KDE 5.12.5 - Canary 17395 -- Galaxy S8+ (SM-G955U) - Alpha 6.9.5
+
+Perseus Elizabeth Kane#3217 - Bug Bot on 2018-06-20T21:43:17.841Z
+
+
+### Can reproduce.
+Arch linux, Discord canary
+
+GNUGradyn(っ◔◡◔)っ#0069 - Bug Bot on 2018-07-28T02:03:03.006Z
+
+
+### The notification only seems to appear very briefly
+
+GNUGradyn(っ◔◡◔)っ#0069 - Bug Bot on 2018-07-28T02:04:16.650Z
+
+
+### Can reproduce.
+CR Ubuntu 16.04 x86_64 4.15.0-29-generic Canary Build 20174
+
+Frovy#6820 - Bug Bot on 2018-07-29T15:49:13.006Z
+
+
+### can repro, ubuntu 16.04 - Clayton on 2018-08-30T21:52:19.993Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-08-30T21:52:24.162Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,81 @@
+[Archived] When tapping the "Joined" button of an invite embed to a server you are already in, it switches to the server but doesn't switch to the channel the invite points to (https://trello.com/c/XbCka6Ts)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-23T13:36:36.363Z
+Latest Update: 2018-10-11T00:30:51.731Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have a server with two channels: `channel-a` and `channel-b` 
+- Create an instant invite that points to `channel-a` 
+- Switch to `channel-b` 
+- Switch to a different server and post the invite link 
+- Tap the "Joined" button
+
+####Expected result:
+You should be taken to the channel the invite points to, in this case `channel-a`
+####Actual result:
+You are taken to the server, but in the latest channel you visited, since you visited `channel-b` at step 3 then you will be taken to `channel-b`, regardless of the actual channel the invite points to. This also mean that if you post the link in the same server but in a different channel, the Joined button won't work at all
+####Client settings:
+Discord Alpha 6.9.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14655
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-23T13:36:36.363Z
+
+
+### Can reproduce.
+Can reproduce on Discord 6.9.9 - SM-J500FN Android 6.0.1
+
+Harfeur#3633 - Bug Bot on 2018-06-23T13:36:43.936Z
+
+
+### Can reproduce.
+Can Reproduce -- Xioami Mi A1, Android 8.0.0 -- Discord Alpha 6.9.9
+
+Ori#1908 - Bug Bot on 2018-06-23T13:36:48.884Z
+
+
+### Can reproduce.
+Can Reproduce -- Pixel 2XL, Android 9 DP3, Discord Alpha 6.9.9
+
+fuj1n (風神) 🔫#1337 - Bug Bot on 2018-06-23T13:36:53.894Z
+
+
+### verified, samsung s6 edge, android 7.0, 6.9.9 - Clayton on 2018-06-25T22:24:06.074Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-25T22:24:13.404Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b2e4ce412544f058de82445/14d0488562920456cad73460a2aeb3b4/N2RbITd.gif added by Bug Bot on 2018-07-15T13:47:01.852Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:10.400Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 739
+
+The Lunala#7777 - Bug Bot on 2018-08-22T07:59:06.798Z
+
+
+### Unarchived by Clayton on 2018-08-22T08:00:03.097Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:51.734Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

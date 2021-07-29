@@ -1,0 +1,79 @@
+[Archived] Changing theme when using the back button delays UI theme update. (https://trello.com/c/E7z9z82Y)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-24T05:52:13.099Z
+Latest Update: 2018-07-06T02:27:33.243Z
+
+Reported by ItsPugle#5963
+
+####Steps to reproduce:
+- Go to Settings > Appearance 
+- Change the theme to the opposite colour 
+- Press the back button (rather native or in-app) immediately 
+- Observe how some UI components don't update: settings page and message flow take a few seconds.
+
+####Expected result:
+The UI components should change theme immediately
+####Actual result:
+The UI components take a few seconds to change, and it quite obvious if moving quickly
+####Client settings:
+Android Alpha 6.9.9
+####System settings:
+Nokia 7 Plus running Android 8.1.0
+
+14724
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-24T05:52:13.099Z
+
+
+### Frances Picard#6209 - https://youtu.be/jTTkbg4uCrk added by Bug Bot on 2018-06-24T05:52:15.668Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 3, Android 5.0, Discord 6.9.9
+
+AlwaysMyFault#4051 - Bug Bot on 2018-06-24T05:52:20.487Z
+
+
+### Can reproduce.
+Samsung Express Prime + Android 7.1.1 + Alpha 6.9.9
+
+Oasis#4730 - Bug Bot on 2018-06-24T05:52:25.525Z
+
+
+### Can reproduce.
+Can Reproduce K20 V Android 7.0, Discord alpha 6.9.9
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-06-24T05:52:30.515Z
+
+
+### Can reproduce.
+OnePlus 5T, Android 8.1.0, Discord 6.9.9
+
+Yunus#1903 - Bug Bot on 2018-06-24T06:33:49.748Z
+
+
+### verified, samsung s6 edge, android 7.0, 6.9.9 - Clayton on 2018-06-25T21:52:39.874Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-25T21:52:46.537Z
+
+
+### I've checked this ticket during the Trello Cleanup event as it was suggested that it may be an extension of https://trello.com/c/fplttq0x/529-light-mode-flashes-dark-before-loading-light . I do agree that it is an extension because of the different reproduction steps, but the same end result (where there is a delay of the theme change before it processes.)
+
+Because of this ticket being an extension, I will be archiving this ticket. - Ghoul on 2018-07-06T02:27:30.720Z
+
+
+### Archived by Ghoul on 2018-07-06T02:27:33.244Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

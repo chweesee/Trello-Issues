@@ -1,0 +1,85 @@
+[Archived] A slide animation is made after minimizing/maximizing the app while the "Delete Server" confirm modal is opened (https://trello.com/c/CLrpCjuJ)
+
+P3 - Will be fixed eventually
+
+Created: 2017-10-10T21:47:29.587Z
+Latest Update: 2018-06-02T17:24:05.262Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Create a new server 
+- Go to Server Settings > Overview > 3dots menu > Delete server. Do NOT confirm the modal yet.  
+- Minimize the app using the Home button of your Android device 
+- Re-open the app using the Recent Tasks screen. Do NOT re-open it using the icon shortcut on your homescreen or else you will reproduce bug <>
+
+####Expected result:
+It should just re-open Discord displaying the confirm modal without doing anything else.
+####Actual result:
+It does a slide animation before displaying the modal.
+####Client settings:
+Discord Alpha 5.3.3
+####System settings:
+Huawei Mate 9 Android 7.0
+
+5307
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-10T21:47:29.587Z
+
+
+### Can reproduce.
+CR lg Xpower 6.0.1 on alpha 5.3.3 | happens also directly in "overview" section
+
+ks0908#8526 - Bug Bot on 2017-10-10T21:47:37.082Z
+
+
+### Can reproduce.
+5.3.3(533) - HTC Desire 530 6.0.1
+
+Nyadeelif (Nyad)#8930 - Bug Bot on 2017-10-10T21:47:42.066Z
+
+
+### Can reproduce.
+CR on Samsung Galaxy S5, Android 6.0.1 using Alpha v5.3.3
+
+Zak_Patat#9077 - Bug Bot on 2017-10-10T21:47:47.096Z
+
+
+### Can't reproduce.
+Samsung kccat6 Android 7.1.2 discord 5.3.5, doesn't slide in just opens normally like every app does
+
+jessie#3639 - Bug Bot on 2017-10-11T14:44:15.241Z
+
+
+### Can reproduce.
+Samsung Galaxy J700F, Android 6.0.1, Discord 5.3.5 Beta
+
+Myusa#4469 - Bug Bot on 2017-10-11T18:15:25.290Z
+
+
+### Verified.  - Clayton on 2017-10-26T00:43:31.953Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-26T00:43:36.337Z
+
+
+### Can no longer reproduce. - Clayton on 2018-03-22T23:34:49.569Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Clayton on 2018-03-22T23:35:02.020Z
+
+
+### archiving for being fixed over 30 days without activity - Tim on 2018-06-02T17:24:03.175Z
+
+
+### Archived by Tim on 2018-06-02T17:24:05.265Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

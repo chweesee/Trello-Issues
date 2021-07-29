@@ -1,0 +1,116 @@
+[Archived] Issue with formatting when "Automatically convert emoticons" is enabled (https://trello.com/c/RYWYxfAf)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-06T10:10:49.138Z
+Latest Update: 2018-10-22T20:24:37.248Z
+
+Reported by Revolution#1801
+
+####Steps to Reproduce:
+- Type and send a message consisting of these three things on different lines:
+- `<`
+- A web link
+- Anything represented as `<ID>` on Discord's end (a member or role ping, channel call, emoji, etc)
+
+####Expected Result:
+The message should appear as sent.
+####Actual Result:
+The formatting is incorrect in one of a couple different ways:
+The message appears as a web link that's `https://ID`
+The message appears as web link that's the correct web link with `%0A%C3 ID` appended after the last slash
+The web link becomes unclickable, and the mention gets truncated as `<ID`
+Note that in all cases the link embeds correctly, and any role or member ping still occurs.#`". Note that this still pings the person.
+####Client settings:
+Desktop build 20845
+####System settings:
+Windows 10 Home v1703 build 15063.1206
+
+17022
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-06T10:10:49.138Z
+
+
+### OddsomeOddy#1998 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b681ea98de41933a9a5eddc/e86d868e20b393386796370af3d4f175/unknown.png added by Bug Bot on 2018-08-06T10:10:51.557Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 20849
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-06T10:10:56.425Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1803), Canary 20849
+
+Mustard#2117 - Bug Bot on 2018-08-06T10:11:01.512Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64-bit (1803), Canary 20849
+
+that15fine#9275 - Bug Bot on 2018-08-06T10:11:06.428Z
+
+
+### Can reproduce.
+[CanRepro] Windows 10 Pro x64 Build 1803 Canary 20849
+
+R0shi#9716 - Bug Bot on 2018-08-06T12:47:17.258Z
+
+
+### Can reproduce.
+[CR] Canary 20849 - Windows 10 Home x64
+
+VR#5448 - Bug Bot on 2018-08-06T15:29:13.425Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Disccord Canary 20790
+
+Delite#0001 - Bug Bot on 2018-08-06T18:45:54.692Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary Build 20849
+
+👑 Swim 👑#0875 - Bug Bot on 2018-08-06T18:59:42.738Z
+
+
+### Can reproduce.
+MacBook Pro (13"), macOS 10.13.6 - Canary 21209
+
+Mippy#0001 - Bug Bot on 2018-08-08T12:10:03.609Z
+
+
+### I previously thought this bug was something to do with the "Automatically convert emoticons" setting. This is not the case.
+
+Revolution#1801 - Bug Bot on 2018-08-08T20:09:45.794Z
+
+
+### Revolution#1801 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b681ea98de41933a9a5eddc/2ec2b6d13c0aca1ae0eb341824d98c7b/unknown.png added by Bug Bot on 2018-08-08T20:11:33.278Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 21209
+
+Delite#0001 - Bug Bot on 2018-08-08T22:01:57.569Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T22:13:31.894Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T22:13:55.952Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:37.251Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

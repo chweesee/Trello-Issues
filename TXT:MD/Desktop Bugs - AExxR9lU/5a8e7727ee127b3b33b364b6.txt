@@ -1,0 +1,73 @@
+[Archived] Emoticon and triple dot icons go behind image when search dialog opened. (https://trello.com/c/oCUrQS5F)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-02-22T07:54:15.894Z
+Latest Update: 2018-02-25T01:44:46.271Z
+
+Reported by Steets#0001
+
+####Steps to reproduce:
+- Open the search dialog in the top-right of Discord. 
+- Search for an Image. (has:image) 
+- Select "JUMP" on that image. 
+- Hover over the image, you will notice the icons are now partially or fully obfuscated.
+
+####Expected result:
+The emoticon and triple dot icon should disappear or go above the image.
+####Actual result:
+The icons 'hide' behind the image, becoming unclickable. (This only occurs at lower screen resolutions and at smaller window sizes.)
+####Client settings:
+PTB 0.0.41
+####System settings:
+Windows 10 Professional, Version 10.0.16299 Build 16299
+
+8995
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-22T07:54:15.894Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10990 - The buttons can be clicked however, they are still being obstructed by the image.
+
+webhp#1337 - Bug Bot on 2018-02-22T07:54:23.241Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Discord PTB, Build 10905 Note: They can be clicked, but the visual bug happens anyways
+
+Realex78#2193 - Bug Bot on 2018-02-22T07:54:28.242Z
+
+
+### Can reproduce.
+Windows 10 Home x62, Canary 11055 | It seems to me that it's just a visual bug whenever an image is bigger than the message window on a direct upload, not via a link embed. The buttons are still operable as intended.
+
+Mustard#2117 - Bug Bot on 2018-02-22T07:54:33.229Z
+
+
+### Cannot reproduce. Everything looks fine. I need a screenshot of this. - Jared on 2018-02-22T20:02:49.562Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-02-22T20:02:55.064Z
+
+
+### This is a extension of https://trello.com/c/hJPTtD6l
+
+Ene#0808 - Bug Bot on 2018-02-23T02:01:43.165Z
+
+
+### Extension of https://trello.com/c/hJPTtD6l - Chris Cox on 2018-02-25T01:38:57.595Z
+
+
+### Archived by Chris Cox on 2018-02-25T01:39:23.519Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,104 @@
+[Archived] Scrolling down through audit log doesn't give the loading animation before you hit the end. (https://trello.com/c/d3pVOrCf)
+
+None
+
+Created: 2018-10-12T17:43:33.398Z
+Latest Update: 2019-01-01T23:23:12.818Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- Go to audit log, and scroll down until you have to load more. 
+- As soon as it reaches the end, you should see that it just stops without any loading. From there, scroll down for more immediately (need to be fast)
+
+####Expected result:
+Once you scroll down enough, loading animation should appear automatically and load more logs.
+####Actual result:
+After you scroll down, it seems like you hit the end, and loading animation starts only when you attempt to scroll down more from that end.
+####Client settings:
+Alpha 7.6.8
+####System settings:
+LG Fortune, Android 6.0.1
+
+21127
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-12T17:43:33.398Z
+
+
+### Can reproduce.
+Huawei P9 Lite - Alpha 768
+
+๖̶̶̶ۣۣۜۜ͜ζ͜͡Nicolai9852#6731 - Bug Bot on 2018-10-12T17:43:40.677Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.6.8
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-12T17:43:45.757Z
+
+
+### Can reproduce.
+Can reproduce. Moto G5 Plus, Android 7.0: Android Alpha 7.6.8
+
+Primus#1337 - Bug Bot on 2018-10-12T17:43:50.711Z
+
+
+### Can reproduce.
+Sony Xperia XA1, Android 8.0.0, Discord Alpha 7.6.8
+
+🎃👻 MagicA550 👻🎃#2379 - Bug Bot on 2018-10-12T17:45:51.324Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 5 Pro, MIUI 10.0.1.0, Android 8.1, Discord Alpha 7.6.8
+
+̶̶ۣζ͜͡▪) ρнคгยxтαภ#0666 - Bug Bot on 2018-10-12T17:56:18.809Z
+
+
+### Can reproduce.
+Samsung Galaxy S4 Mini, Android 7.1.2, Discord Alpha 7.6.8
+
+GordoSatiro#4454 - Bug Bot on 2018-10-12T18:17:51.443Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Jeff Cailteux on 2018-10-12T18:43:05.685Z
+
+
+### Can reproduce.
+CR, Axon 7 Mini, Android 7.1.1, Alpha 7.6.8
+
+Frost#3230 - Bug Bot on 2018-10-13T00:44:43.797Z
+
+
+### Can reproduce.
+Asus Zenfone 4 MAX - Android 7.1.1 - Discord Alpha 7.6.8 (768)
+
+Logandi#5843 - Bug Bot on 2018-10-13T01:02:43.243Z
+
+
+### Can reproduce.
+Discord Alpha 7.7.0, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-10-13T17:52:22.620Z
+
+
+### Moved from Audit Log Bugs to Won't Fix by Jeff Cailteux on 2018-10-25T21:36:53.442Z
+
+
+### If you have fast internet and a new phone this can happen - Jeff Cailteux on 2018-10-25T21:37:10.209Z
+
+
+### Archived due to being inactive in "Won't fix" list for 30+ days - Tarek on 2019-01-01T23:23:12.041Z
+
+
+### Archived by Tarek on 2019-01-01T23:23:12.820Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

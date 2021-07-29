@@ -1,0 +1,76 @@
+[Archived] External Sound goes into Phone mode (Low Volume) (https://trello.com/c/4Q9FLkXf)
+
+None
+
+Created: 2020-02-01T02:25:15.255Z
+Latest Update: 2020-02-04T00:12:55.162Z
+
+Reported by WaluigiBot15.0#6969
+
+####Steps to reproduce:
+- Play music  
+- Open discord
+
+####Expected result:
+The music volume should not change
+####Actual result:
+It goes into Phone mode.
+####Client settings:
+TestFlight 3.1.10 (18928)
+####System settings:
+iPhone 7 iOS 13.3
+
+52209
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-01T02:25:15.255Z
+
+
+### Can reproduce.
+CR: "Phone Mode" means that the music will continue playing but on the top "reciever" speaker. The volume does not change but output changes. You can test the output changing by going into Control Center and back to Discord, you will hear the output change. iPhone 8 Plus, iOS 13.3.1, TestFlight 3.1.10 (18928)
+
+zjtech123#6743 - Bug Bot on 2020-02-01T02:25:22.809Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.3.1, TestFlight 3.1.10 (18928)
+
+.Gloria.#9606 - Bug Bot on 2020-02-01T02:25:27.827Z
+
+
+### Can reproduce.
+iPhone X, 13.3.1 (17D5050a); 3.1.10 (18928)
+
+Wiz_Techno#0001 - Bug Bot on 2020-02-01T02:25:32.805Z
+
+
+### Extension of https://trello.com/c/2Cbpz4MC - Daffyduck on 2020-02-01T05:40:09.926Z
+
+
+### Archived by Daffyduck on 2020-02-01T05:40:12.736Z
+
+
+### Can't reproduce.
+iPhone 11 Pro Max, iOS 13.3, TestFlight 3.1.10 (18928)
+
+'Joshua#0069 - Bug Bot on 2020-02-01T15:51:31.237Z
+
+
+### Can't reproduce.
+iPhone X, iOS 13.3.1 - TestFlight 3.10.1 (18928)
+
+►☼ Ħ๐ע𝓝υ ☼◄#5003 - Bug Bot on 2020-02-01T17:43:37.034Z
+
+
+### Proper repro steps: 1. Make sure you have music playing in the background. 2. Open up User Settings > Voice and make sure you have Voice Activity. 3. Sound should be coming out of the earpiece instead of the speakers. (Also, this occasionally happens when watching a directly uploaded video through the embed.)
+
+zjtech123#6743 - Bug Bot on 2020-02-04T00:12:55.173Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

@@ -1,0 +1,108 @@
+[Archived] Sending a message while keyboard is closed won't parse emojis and mentions (https://trello.com/c/Yo0SoOat)
+
+P3 - Will be fixed eventually,
+Mod can no longer reproduce
+
+Created: 2017-11-29T13:45:38.363Z
+Latest Update: 2018-03-03T04:08:06.955Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open the emoji picker and input some emojis 
+- Close the keyboard completely  
+- Send the message 
+- You can repeat steps above but by inputting mentions instead of emojis (can be user, role or channel mentions)
+
+####Expected result:
+Emojis and mentions should parse correctly
+####Actual result:
+As soon as you close the keyboard, the emojis and the mentionw won't display in bold anymore in the text field, resulting in them not being rendered after sending message
+####Client settings:
+Discord Alpha 5.7.9
+####System settings:
+Huawei Mate 9 Android 7.0
+
+6708
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-29T13:45:38.363Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A5 (2016), Android 7.0, Alpha 5.7.9 (579)
+
+xSolidFigure#0594 - Bug Bot on 2017-11-29T13:45:45.627Z
+
+
+### Can reproduce.
+CR for mentions and custom emojis; CNR for public emojis; Lenovo P2, android 7.0, discord 5.7.9
+
+GospodinCrni#2565 - Bug Bot on 2017-11-29T13:45:50.585Z
+
+
+### Can reproduce.
+CR lg xpower 6.0.1 on alpha 5.7.9
+
+ks0908#8526 - Bug Bot on 2017-11-29T13:45:55.591Z
+
+
+### Indeed it's not reproducable with default system emojis, only server emojis and mentions.
+
+Alex1304#9704 - Bug Bot on 2017-11-29T13:49:29.738Z
+
+
+### Verified.  - Clayton on 2017-11-29T21:15:46.023Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-29T21:15:49.581Z
+
+
+### Fix applied in 5.8.0 (releasing in a day or so). - Miguel Gaeta on 2017-11-29T21:18:41.567Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Miguel Gaeta on 2017-11-29T21:18:48.439Z
+
+
+### Fixed in 5.8.0, OnePlus 5 7.1.1, moving to claimed fixed.
+
+Cannot reproduce anymore. - Tarek on 2017-11-30T07:13:00.014Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2017-11-30T07:13:04.791Z
+
+
+### Can't reproduce.
+OnePlus 5, Android 8.0, Discord Alpha 6.1.2
+
+B a ™ a n#7883 - Bug Bot on 2018-01-26T18:41:36.332Z
+
+
+### Can't reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.2
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T23:30:07.893Z
+
+
+### Can't reproduce.
+ZTE obsidian Android 5.1, Discord alpha 6.1.2
+
+Lunʌrᴮᵒᵗ#5846 - Bug Bot on 2018-01-27T01:23:40.861Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Tarek on 2018-01-27T01:24:22.441Z
+
+
+### Archiving as there has been no activity on this card for over a month. - Chris Cox on 2018-03-03T04:08:05.420Z
+
+
+### Archived by Chris Cox on 2018-03-03T04:08:06.957Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

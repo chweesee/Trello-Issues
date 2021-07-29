@@ -1,0 +1,89 @@
+[Archived] White Block Next to Server Icon Does Not Show After unMuting via Notification settings (https://trello.com/c/yQv7WOH4)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2017-11-20T22:33:56.021Z
+Latest Update: 2018-10-22T20:17:12.056Z
+
+Reported by 🍁 Ghoul 🍁#4567
+
+####Steps to reproduce:
+- Have a channel muted 
+- Go to Notification Settings  
+- Scroll down to channel, then click on unmute
+
+####Expected result:
+Channel is unmuted and server icon shows a white block next to it when outside of the said server
+####Actual result:
+Server does not display white blocks even when new messages are sent in the now unmuted channel.
+####Client settings:
+Discord TestFlight iOS 2.0.1 (1610)
+####System settings:
+iPhone 8 +, iOS 11.1.1 (but seems to occur on other OS’s, so all is free to try it.)
+
+6519
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-20T22:33:56.021Z
+
+
+### Can reproduce.
+CR, iPod touch 6gn, iOS 10.3.3, TestFlight 2.0.1 (1610)
+
+🦃nickWtn🦃#3789 - Bug Bot on 2017-11-20T22:34:03.456Z
+
+
+### Can reproduce.
+CR, Discord Canary Build 7502, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2017-11-20T22:34:08.424Z
+
+
+### Can reproduce.
+CR, Discord Canary 7502, Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits. However, I can't reproduce on Android Alpha 5.7.3, -a
+
+Alex1304#9704 - Bug Bot on 2017-11-20T22:34:13.433Z
+
+
+### Appears to be happening in iOS and Linux as far that I am concerned. There is something more in depth about this bug about the notification (as if it was acting like it’s muted but it’s not. ) I will continue to look into this bug and will send more information when applicable.
+
+🍁 Ghoul 🍁#4567 - Bug Bot on 2017-11-20T22:38:05.405Z
+
+
+### Can reproduce.
+Dell Inspiron 15 Windows 10 Creators Update Discord Canary 7539
+
+Tiger Gaming X™#6437 - Bug Bot on 2017-11-20T23:39:51.414Z
+
+
+### 🍁 Ghoul 🍁#4567 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a1358538569e8e8503f90c6/f338519f1f6f8a00c7082c24262e631d/image.png added by Bug Bot on 2017-11-20T23:55:39.927Z
+
+
+### So, it appears that Windows is able to reproduce now... per Tiger Gaming. However, there is more further in depth for this bug. If you go into Notification Settings in channel, you will find the result from this screenshot which seems to be causing the bug in the first place. I believe it might be more safe to say that it may be a hit and miss with all OS’s/platforms. (As far I am aware, iOS, Windows, and Linux can reproduce.)
+
+🍁 Ghoul 🍁#4567 - Bug Bot on 2017-11-20T23:56:15.542Z
+
+
+### Can't reproduce.
+Android Alpha v5.7.3 on Moto G4 Play Verizon running Android 6.0.1 Marshmallow; Windows 10 Pro 64-bit, Fall Creators Update 1709 running Discord Canary 0.0.179
+
+sladewatkins#2439 - Bug Bot on 2017-11-21T01:23:43.506Z
+
+
+### Verified.  - Clayton on 2017-11-28T23:43:59.747Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-28T23:44:04.998Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:12.060Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,74 @@
+[Archived] Typing something and selecting all and clicking Look up will create a blank space where the keyboard was (https://trello.com/c/JE8kjWrN)
+
+None
+
+Created: 2018-09-25T15:21:41.599Z
+Latest Update: 2019-02-16T16:39:52.542Z
+
+Reported by Pyros#2326
+
+####Steps to reproduce:
+- Type something 
+- Click select all 
+- Click Look up, observe where the keyboard was and the giant grey blank
+
+####Expected result:
+Should behave like other apps and iOS itself and close the keyboard
+####Actual result:
+It will leave the keyboard up and create a giant grey area
+####Client settings:
+Testflight 2.3.8 (7416)
+####System settings:
+iPhone 6, iOS 12
+
+20104
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-25T15:21:41.599Z
+
+
+### Can reproduce.
+CR iPhone SE - iOS 11.4.1. TestFlight 7416
+
+evilpauwse#9985 - Bug Bot on 2018-09-25T15:21:48.971Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 dev beta - TestFlight 2.3.8 (7416)
+
+Xylium#1480 - Bug Bot on 2018-09-25T15:21:53.876Z
+
+
+### Can reproduce.
+iPhone SE, iOS 10.3.2, TestFlight 2.3.8 (7416)
+
+TimThe#1118 - Bug Bot on 2018-09-25T15:21:58.895Z
+
+
+### Extension of https://trello.com/c/ZvwjDT7e
+
+Pascal#0929 - Bug Bot on 2018-09-25T15:33:46.318Z
+
+
+### Moved from New Issues to Cannot Reproduce by Fanghao on 2018-09-27T00:56:20.807Z
+
+
+### Archived by Tarek on 2019-01-01T23:38:42.462Z
+
+
+### Unarchived by Tarek on 2019-01-02T00:16:38.743Z
+
+
+### Archived by Bug Bot on 2019-02-01T00:30:21.653Z
+
+
+### I checked this ticket since I was notified that it may be an extension of https://trello.com/c/ZvwjDT7e/804-textbox-does-not-collapse-after-keyboard-disappears but at this time, I am not fully convinced of whether this is an extension or not, though I'm not really sure myself. If someone could offer an explanation about how this is the same root cause, I'd greatly appreciate it.  - Ghoul on 2019-02-16T16:39:52.547Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

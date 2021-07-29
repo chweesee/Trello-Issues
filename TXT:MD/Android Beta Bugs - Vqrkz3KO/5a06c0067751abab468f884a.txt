@@ -1,0 +1,86 @@
+[Archived] Switching camera when taking a photo with the inapp camera breaks the inapp camera (only sony devices on android 7.1.1 and newer so far) (https://trello.com/c/madnWKmo)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2017-11-11T09:16:54.737Z
+Latest Update: 2018-07-06T21:25:00.351Z
+
+Reported by BigBrainAFK#6465
+
+####Steps to reproduce:
+- click the ➕ 
+- click the camera to open the inapp camera 
+- try switching to the front/back camera with the top right button in the inapp camera preview
+
+####Expected result:
+The camera should switch to the front/back camera and display the preview of it
+####Actual result:
+The preview freezes and reopening the inapp camera by trying to attach a new photo doesnt display any preview at all
+####Client settings:
+Discord Alpha 5.5.5(555)
+####System settings:
+Sony XZ Premium, Android 8.0.0, Securitypatch (1. Oct. 2017)
+
+6082
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-11T09:16:54.737Z
+
+
+### BigBrainAFK#6465 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a06c0067751abab468f884a/86256a04dae19541be1e612bfb20731c/InPNG.gif added by Bug Bot on 2017-11-11T09:17:00.591Z
+
+
+### Can reproduce.
+Xperia X Performance, Android 7.1.1, Discord 5.6.1
+
+Cobaltknight#7200 - Bug Bot on 2017-11-11T09:17:02.244Z
+
+
+### Can reproduce.
+It hiccups a bit but no serious delay. When I tested it on wifi the delay was even less noticeable perhaps it has something to do with connection ? Samsung Galaxy S6, 7.0, 561
+
+Xander#0259 - Bug Bot on 2017-11-11T09:17:07.220Z
+
+
+### Can reproduce.
+Can repro ; Huawei p8 lite 2017, Android 7.0, alpha 5.6.3
+
+Mathéo ~ fujh🍂fn#0878 - Bug Bot on 2017-11-11T09:17:12.229Z
+
+
+### Not reproducible on
+- Huawei Honor 7.0, alpha 6.0.4
+- Galaxy S5 4.4.2, stable 5.9.1
+- LG G6 7.0, alpha 6.0.4 - Sam Shih on 2018-01-05T20:01:28.535Z
+
+
+### Cannot reproduce on OnePlus 5, on Oreo. I couldn't reproduce either when I was on 7.1.1, I'm currently running 8.0
+
+Alpha 6.0.8 - Tarek on 2018-01-12T10:33:10.947Z
+
+
+### Could be related to the camera library that we use: https://github.com/google/cameraview/issues/184
+
+Apparently fixed in a more active fork: https://github.com/siralam/CameraViewPlus - Sam Shih on 2018-01-12T18:11:23.351Z
+
+
+### so these are actually really hard to repro. For now I've added a few high level guards so at the least we don't hard crash. - Sam Shih on 2018-01-27T08:02:00.102Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Clayton on 2018-04-06T23:44:13.580Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:24:58.421Z
+
+
+### Archived by Jared on 2018-07-06T21:25:00.355Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

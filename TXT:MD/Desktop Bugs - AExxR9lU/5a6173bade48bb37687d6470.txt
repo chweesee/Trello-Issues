@@ -1,0 +1,108 @@
+[Archived] Trying to set invite link to permanent automatically unticks the checkbox and does not change the link. (https://trello.com/c/1U9Ex4Ff)
+
+None
+
+Created: 2018-01-19T04:27:38.168Z
+Latest Update: 2018-03-14T13:35:23.576Z
+
+Reported by JustGamer#2542
+
+####Steps to reproduce:
+- Find a server that has create invite links enabled. 
+- Click on the server name in the top-ish left. 
+- Click "Invite People". 
+- Press the checkbox marked "Set this link to never expire". 
+- This may take one or two tries, if it fails just exit out of the menu and recreate the invite. 
+- Watch as your dreams collapse, showing you'll never get your hands on a precious permanent invite link.
+
+####Expected result:
+The tick should appear in the checkbox, and modify the link to be permanent the first time, not after multiple tries/spamming.
+####Actual result:
+The tick appears, then immediately or within 1-2 seconds disappears and does not set the link to never expire.
+####Client settings:
+Discord Canary 0.0.185 (build 9640)
+####System settings:
+MacBook Pro (late 2013), macOS Sierra 10.12.1
+
+7942
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-19T04:27:38.168Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Version 1709), Discord Canary (Build 9640). It changes the link to a never-expiring one, but the tick disappears in the checkbox. So the bug in reality is just the tick that disappears in the checkbox - the link that never expires still generates after clicking one time the checkbox.
+
+Zankoku#8718 - Bug Bot on 2018-01-19T04:27:45.646Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64 bit, Discord Canary 9640; Sometimes it work and it doesn’t
+
+MLG Golden#9086 - Bug Bot on 2018-01-19T04:27:50.770Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.197 (9640) on Windows 10 Home x64 Fall Creators Update (1709)
+
+OminousCry#2331 - Bug Bot on 2018-01-19T04:27:55.654Z
+
+
+### OminousCry#2331 - https://i.imgur.com/JKfODqN.gifv added by Bug Bot on 2018-01-19T04:29:00.058Z
+
+
+### Fixed! Canary 9670, moving to claimed fixed. - Tarek on 2018-01-19T05:50:30.932Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-19T05:50:34.854Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T21:41:30.814Z
+
+
+### Can't reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9959
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T23:22:51.660Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T23:48:39.455Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T23:55:08.735Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:20:18.065Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-27T07:20:22.398Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10018
+
+webhp#1337 - Bug Bot on 2018-01-28T00:37:53.752Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:35:22.798Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:35:23.579Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

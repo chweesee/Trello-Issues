@@ -1,0 +1,107 @@
+[Archived] Facebook links are broken in user profiles (https://trello.com/c/Nt4h5SOd)
+
+Mod can no longer reproduce
+
+Created: 2018-02-27T16:19:54.979Z
+Latest Update: 2018-06-02T17:21:14.508Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open a user profile linked to Facebook 
+- Open the link in your browser
+
+####Expected result:
+You should be redirected to the Facebook page of the user
+####Actual result:
+The URL is broken and leads to a 404 error page. If you look at thr URL, you can see that the part after "" matches with the Facebook display name on the profile
+####Client settings:
+Discord Alpha 6.2.8
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9138
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-27T16:19:54.979Z
+
+
+### Can reproduce.
+Discord Alpha 6.2.8 OnePlus 5 Android 8.0 (Oreo)
+
+Tarek#1337 - Bug Bot on 2018-02-27T16:20:02.363Z
+
+
+### Can reproduce.
+Huawei P10 Lite (Android 7.0) - Alpha Build 6.2.8
+
+Mas#0001 - Bug Bot on 2018-02-27T16:20:07.356Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 | Android 5.1 | Alpha 6.2.8
+
+fujhofn.#0878 - Bug Bot on 2018-02-27T16:20:12.338Z
+
+
+### Can reproduce.
+Discord Alpha 6.2.8 Samsung Galaxy S8 Android 7.0
+
+Fisgerman#2824 - Bug Bot on 2018-02-27T21:15:56.136Z
+
+
+### Needs more data.
+What is the URL that's expected?
+
+I tried `facebook.com/some.user` on my own account, and it works for me.  - Sam Shih on 2018-02-28T23:23:20.509Z
+
+
+### @lytefast Yeah BogBot altered the Actual Result so it may be not clear. Normally, a Facebook personal URL should be formatted as https://www.facebook.com/firstname.lastname. This bug is telling that the part after "facebook.com/" is replaced by the literal display name of the Facebook profile, so it will look like https://www.facebook.com/FirstName LastName, with spaces. This is invalid and creates a 404 error.
+
+Alex1304#9704 - Bug Bot on 2018-02-28T23:32:19.540Z
+
+
+### ah thanks that helps a lot - Sam Shih on 2018-03-01T00:06:07.508Z
+
+
+### Using the number ID for this now. - Sam Shih on 2018-03-01T00:13:17.646Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Sam Shih on 2018-03-01T00:13:23.593Z
+
+
+### Tested on Android Alpha 6.3.7:
+
+I can still reproduce this myself. Tested it with hessicajammer#0001 and it went to https://m.facebook.com/Jessica%20Chung%20Hammer (the name on the connection) while the actual should be `hessicajammer`. - Alexander (DJScias) on 2018-03-14T20:06:51.581Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Alexander (DJScias) on 2018-03-14T20:06:56.089Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-03-20T17:29:00.593Z
+
+
+### Can no longer reproduce. Moving to fixed.  - Clayton on 2018-03-22T23:17:41.981Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-03-22T23:17:45.262Z
+
+
+### I can repro this bug again as of 6.5.2
+
+Alex1304#9704 - Bug Bot on 2018-04-18T21:27:31.234Z
+
+
+### archiving for being fixed over 30 days without activity, the repro bellow is due to https://trello.com/c/yAQNBGro/ - Tim on 2018-06-02T17:21:08.406Z
+
+
+### Archived by Tim on 2018-06-02T17:21:14.511Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

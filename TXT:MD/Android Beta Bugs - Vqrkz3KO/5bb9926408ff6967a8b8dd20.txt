@@ -1,0 +1,81 @@
+[Archived] [Audit Log] editing user perms after editing role perms in the same channel shows both actions in aufit log as role edit (https://trello.com/c/fU9fTbMS)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-10-07T04:58:12.808Z
+Latest Update: 2019-01-01T23:24:11.839Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- add a role to channel perms and give it a perm 
+- add a user to the same channel perms and give him a different permission
+
+####Expected result:
+role edit is shown as role edit in audit log and user edit is shown as user edit
+####Actual result:
+it shows both edits as edit for the role
+####Client settings:
+7.6.2
+####System settings:
+Samsung Galaxy S5 Mini Android 6.0.1
+
+20485
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-07T04:58:12.808Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.6.3
+
+coolalmostchilly#1015 - Bug Bot on 2018-10-07T04:58:20.154Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8; 7.6.3
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-07T04:58:25.156Z
+
+
+### Can reproduce.
+CR. Motorola G 2015, Android 8.1, Discord Alpha 763
+
+Avenger™#6259 - Bug Bot on 2018-10-07T04:58:30.157Z
+
+
+### Can reproduce.
+Samsung Galaxy Sol; Android 6.0.1; Android Alpha 7.6.3
+
+Pyxel 💞#5077 - Bug Bot on 2018-10-07T07:53:49.661Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Clayton on 2018-10-09T00:49:26.417Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Alpha 786
+
+avror#0001 - Bug Bot on 2018-11-04T11:52:15.437Z
+
+
+### Moved from Audit Log Bugs to Verified Bugs by Jeff Cailteux on 2018-11-08T20:29:10.151Z
+
+
+### Moved from Verified Bugs to Won't Fix by Jeff Cailteux on 2018-11-13T22:06:20.639Z
+
+
+### Archived due to being inactive in "Won't fix" list for 30+ days - Tarek on 2019-01-01T23:24:06.450Z
+
+
+### Archived by Tarek on 2019-01-01T23:24:11.842Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

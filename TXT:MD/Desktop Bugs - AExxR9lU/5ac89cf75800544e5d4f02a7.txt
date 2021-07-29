@@ -1,0 +1,92 @@
+[Archived] When escaping (with the key "esc") the full screen of an embedded webm player, the channel "jumps to present messages" (https://trello.com/c/RhNMYzwC)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-07T10:27:03.402Z
+Latest Update: 2019-10-23T23:01:33.992Z
+
+Reported by ahoZiorce#3115
+
+####Steps to reproduce:
+- Send a link linking to a webm video in a text channel 
+- Send enough messages to have the option "JUMP TO PRESENT" in the lowest part of the screen when looking at the message containing the link 
+- Play the video in full screen 
+- Escape the video with the "escape" key
+
+####Expected result:
+The player should quit fullscreen without jumping to present
+####Actual result:
+The player quits fullscreen and jumps to present
+####Client settings:
+Canary, build 13313
+####System settings:
+Microsoft Windows 10 Profesional 64 bit (v1709)
+
+10400
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-07T10:27:03.402Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204, Build 13313, Windows 10 Home 64-bit (v1709) | Occurs with all files that have the new uploaded video embed
+
+Ene#0808 - Bug Bot on 2018-04-07T10:27:10.830Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.204 (Build 13313), Windows 10 Education x64 1709 (OS Build 16299.309)
+
+OminousCry#2331 - Bug Bot on 2018-04-07T10:27:15.807Z
+
+
+### Can reproduce.
+CR Discord Canary Build 13313, Debian Stretch, Gnome 3
+
+Robin#0610 - Bug Bot on 2018-04-07T10:27:20.810Z
+
+
+### Can't reproduce.
+Windows 10 Pro 64-bit, Version 1709, OS Build 16299.309, Discord Canary Build 13313
+
+GamesForDays#1985 - Bug Bot on 2018-04-07T14:14:04.289Z
+
+
+### Can reproduce.
+Windows 10 Pro Discord Canary 13313
+
+JAMEZJB#0001 - Bug Bot on 2018-04-08T04:30:08.830Z
+
+
+### Verified. Very low priority. - Jared on 2018-04-11T18:38:17.895Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-11T18:38:21.911Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac89cf75800544e5d4f02a7/6835e04093fde481a076e5104b0319dc/zz6rB6H.gif added by Bug Bot on 2018-07-14T16:10:27.399Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:31.373Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 36318
+
+Isabel#0002 - Bug Bot on 2019-04-26T06:23:06.483Z
+
+
+### Unarchived by Bug Bot on 2019-04-26T06:30:05.194Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:34.006Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

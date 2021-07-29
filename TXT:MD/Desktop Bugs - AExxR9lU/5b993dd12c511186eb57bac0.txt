@@ -1,0 +1,83 @@
+[Archived] Being able to rejoin private voice channels you've been instant invited to but cannot view normally (https://trello.com/c/JPS4qZnC)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-12T16:24:49.838Z
+Latest Update: 2019-10-23T23:00:23.981Z
+
+Reported by Cowsgomuu#3740
+
+####Steps to reproduce:
+- Get an instant invite link to a voice channel you cannot view 
+- Join the channel 
+- leave the channel by going directly to another voice channel (I tested it by going to a different server) 
+- Rejoin the previous private voice channel that you can still see
+
+####Expected result:
+You should be removed from the private voice channel after leaving and should not be able to view it
+####Actual result:
+You can still view and reconnect to the voice channel as long as you dont press the disconnect button
+####Client settings:
+Release Channel: stable, Build Number: 23327, Version Hash: 155d861ee032dc13e06b22fad3c5b5ab40e190c5
+####System settings:
+Windows 10 Pro
+
+19483
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-12T16:24:49.838Z
+
+
+### Can reproduce.
+Win 10 64x (1803), Discord - Was only able to reproduce by connecting to a channel on a different server and not on the same server. (Make sure that the channel you have hidden is still "connectable" to everyone.
+
+Alipoodle#5025 - Bug Bot on 2018-09-12T16:24:57.196Z
+
+
+### Can reproduce.
+CR on Windows 10 Home 32-bit (not Win Pro specific)
+
+FocusFon#1337 - Bug Bot on 2018-09-12T16:25:02.183Z
+
+
+### Can reproduce.
+Can reproduce, have to change to a channel on a different server. Desktop Canary 23506 iMac macOS High Sierra 10.13.6
+
+George#0069 - Bug Bot on 2018-09-12T16:25:07.119Z
+
+
+### minor - Clayton on 2018-09-12T21:56:15.032Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-12T21:56:22.437Z
+
+
+### Can reproduce.
+working only by joining a voice channel on a different server Windows 10 Home x64 Build 1803, Canary Build Number: 23589
+
+JVC Almeos#1984 - Bug Bot on 2018-09-13T22:44:11.920Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:38.267Z
+
+
+### Can reproduce.
+i cant join/hear from the vc, but even after switching servers, i still see the locked vc(until i joined a vc from the server and then disconnected) Windows 10 Home x64 | ptb 43738
+
+charleskimbac#6492 - Bug Bot on 2019-08-16T23:14:49.312Z
+
+
+### Unarchived by Bug Bot on 2019-08-16T23:30:05.375Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:23.995Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

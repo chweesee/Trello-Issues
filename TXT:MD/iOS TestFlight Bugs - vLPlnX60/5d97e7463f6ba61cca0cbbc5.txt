@@ -1,0 +1,76 @@
+[Archived] Using iOS QuickPath while having a mention highlighted by spellchecker will not actually remove the text that is changed by QuickPath if a new mention suggestion is tapped (https://trello.com/c/iPfyZH3M)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-10-05T00:43:50.123Z
+Latest Update: 2019-11-17T21:30:07.491Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Type out a mention of a user who's username will trigger spellcheck when selected 
+- Select it 
+- Swipe your finger across the keyboard to trigger iOS QuickPath 
+- Click one of the mention suggestions
+
+####Expected result:
+Using QuickPath to change the text should remove the previous text, using a mention suggestion should not bring back text that was removed using QuickPath
+####Actual result:
+Text from the original mention that was modified with QuickPath will be reinserted if a mention suggestion is used
+####Client settings:
+TestFlight 3.1.4 (17575)
+####System settings:
+iPhone XR iOS 13.1.2
+
+45189
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-05T00:43:50.123Z
+
+
+### binchlord#0998 - https://youtu.be/KOvEy0U3UIM added by Bug Bot on 2019-10-05T00:43:52.808Z
+
+
+### Can reproduce.
+Testflight 3.1.4 (17575) IPhone XR, IOS 13.1.2
+
+SplashyFlame#0067 - Bug Bot on 2019-10-05T00:43:57.784Z
+
+
+### Can reproduce.
+iPhone X (iOS 13.1.2), Testflight 3.1.4 (17575)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-05T00:44:02.769Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.4 (17575)
+
+.Gloria.#9606 - Bug Bot on 2019-10-05T00:44:07.710Z
+
+
+### [EXTENSION] this also works with channel names as well
+
+SplashyFlame#0067 - Bug Bot on 2019-10-05T00:49:02.223Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.2; TestFlight 3.1.4 (17575)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-07T02:34:07.024Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-18T19:00:20.359Z
+
+
+### Archived by Bug Bot on 2019-11-17T21:30:07.503Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

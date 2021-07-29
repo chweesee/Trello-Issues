@@ -1,0 +1,101 @@
+When toggling "hide playing status" for a specific game while playing it, it doesn't update your playing status. (https://trello.com/c/Of7HEPYa)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2018-10-15T07:13:11.807Z
+Latest Update: 2019-07-17T03:34:15.888Z
+
+Reported by Mr. Black#5859
+
+####Steps to reproduce:
+- Open a game. 
+-  Make sure you have enabled the playing estatus in settings > game activity. 
+- Go to library tab and hide the playing status for the game you are playing. 
+- Observe your playing status with another account or ask someone else if they can see it.
+
+####Expected result:
+The playing status should change.
+####Actual result:
+The playing status doesn't change untill you restart either the game or discord or untill the rich presence updates like in osu!
+####Client settings:
+Canary 25872
+####System settings:
+Windows 10 home x64
+
+20931
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-15T07:13:11.807Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary 26151
+
+zephr#1634 - Bug Bot on 2018-10-15T07:13:19.156Z
+
+
+### Can reproduce.
+Discord Canary 0.0.215 (26151) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-10-15T07:13:24.465Z
+
+
+### Can reproduce.
+Can Reproduce - This only happens with non-store games - Canary Build 26151 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-10-15T07:13:29.083Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26151
+
+Neiron#5555 - Bug Bot on 2018-10-15T11:35:50.586Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26151
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-15T12:50:19.231Z
+
+
+### verified, macos 10.12.6, canary 26205 - Clayton on 2018-10-15T23:39:22.595Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-15T23:39:39.336Z
+
+
+### Cannot repro anymore, Canary 26299 on W10 1809. - Tarek on 2018-10-16T05:17:42.510Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-10-16T05:17:49.782Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-14T04:07:04.365Z
+
+
+### Can reproduce again on canary build 28421, windows 10 1806 - Tim on 2018-11-27T08:39:12.177Z
+
+
+### Moved from Verified Fixed to Reopened by Tim on 2018-11-27T08:39:30.308Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 2842
+
+Aeria#9096 - Bug Bot on 2018-11-27T14:08:02.107Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10 Home & Student, Host 0.0.246, Canary Build 41282
+
+binchlord#0998 - Bug Bot on 2019-07-17T03:34:15.901Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

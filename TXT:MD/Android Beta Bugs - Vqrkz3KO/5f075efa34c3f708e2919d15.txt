@@ -1,0 +1,77 @@
+Server emojis aren't updated when the last emoji is deleted (https://trello.com/c/TNCnzZSZ)
+
+None
+
+Created: 2020-07-09T18:16:26.296Z
+Latest Update: 2020-07-16T05:46:30.804Z
+
+Reported by Lime#9898
+
+####Steps to reproduce:
+- Upload at least one emoji to a server
+
+- Open the emoji picker in the app and scroll to the server's emojis
+
+- Delete all the emojis on another device, observing the emoji picker while you delete the last one
+
+####Expected result:
+The deletion of the last emoji propagates and the server is removed from the emoji picker
+####Actual result:
+The (now deleted) last emoji remains in the emoji picker, and talking or reacting with it won't work.
+####Client settings:
+Android Beta 24 (1150)
+####System settings:
+Samsung Galaxy S10+, Android 10
+
+56877
+
+Card Log
+========
+### Added by Bug Bot on 2020-07-09T18:16:26.296Z
+
+
+### Nighty963#0001 - https://youtu.be/lYcuGwAtHYE added by Bug Bot on 2020-07-09T18:16:29.028Z
+
+
+### Can reproduce.
+[CR], Huawei P20 Android 9, Discord Alpha25-1 (1151)
+
+No Username Idea#2802 - Bug Bot on 2020-07-09T18:16:33.887Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy J7 Sky pro, Android 6.0.1, Discord Alpha25-1 (1151)
+
+KittenLover♥#5191 - Bug Bot on 2020-07-09T18:16:38.846Z
+
+
+### Can reproduce.
+Samsung Galaxy A51, Android 10, Discord 30.1 (1181) - I didn't need to use another device
+
+Jean20B#4668 - Bug Bot on 2020-07-09T18:16:43.882Z
+
+
+### Can reproduce.
+Motorola Moto G6+, Android 9, Discord 30.1 (1181)
+
+ent3r_#8868 - Bug Bot on 2020-07-09T18:40:07.733Z
+
+
+### Can reproduce.
+CR, Casper Via M3, Android 7.0, Discord 31-Alpha1
+
+Shiny#0003 - Bug Bot on 2020-07-09T19:09:45.905Z
+
+
+### Can reproduce.
+OnePlus 6, Android 10, Discord 30.0 (1180)
+
+Gusuu#0001 - Bug Bot on 2020-07-10T09:40:55.456Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

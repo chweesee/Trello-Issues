@@ -1,0 +1,88 @@
+[Archived] Colorblind symbols don't scale with icons at lower zoom levels (https://trello.com/c/Il2kRwBw)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-06-20T04:50:00.044Z
+Latest Update: 2019-08-13T15:30:07.300Z
+
+Reported by Azrael#6867
+
+####Steps to reproduce:
+- Enable Colorblind in Appearance 
+- Put your zoom level to default(100) in Apperance 
+- Observe colorblind symbols 
+- Go back to Appearance and change your zoom level to 80
+
+####Expected result:
+The colorblind symbols should stay consistent
+####Actual result:
+They get smaller and are slightly misplaced, not scaling with any icon on the client
+####Client settings:
+Canary Build 17333
+####System settings:
+Windows 10 Pro x64
+
+14362
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-20T04:50:00.044Z
+
+
+### Azrael#6867 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b29dcf73ae841584835b03f/c063ccfb7d832a1247db8d418c1de986/Hxdtov4.png added by Bug Bot on 2018-06-20T04:50:02.509Z
+
+
+### Azrael#6867 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b29dcf73ae841584835b03f/8309ef8b6e0fb30e5b34578b626da8be/bFySQ1T.png added by Bug Bot on 2018-06-20T04:50:02.601Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211, Build 17333, Windows 10 Home 64-bit (v1709) | Most noticeable with the Invisible status icon, however around 67 Zoom Level all the status icons begin to lose their circular shape if you observe from the Status Selector
+
+Ene#0808 - Bug Bot on 2018-06-20T04:50:07.382Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 17333; Only happpens to invisible icon
+
+Rauf#9245 - Bug Bot on 2018-06-20T04:50:12.443Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 x64 1803 (17134), Discord Canary with Build number 17333. Only offline/invisible status is losing its shape. Other status is displaying the circle just fine (no misshape)
+
+Frances Picard#6209 - Bug Bot on 2018-06-20T04:50:17.458Z
+
+
+### verified, macbook pro 15" (late 2013), 10.12.6, 17395 - Clayton on 2018-06-20T22:26:32.671Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-20T22:26:42.174Z
+
+
+### Zoom levels work on percentages, pixels cannot be fractional without some sort of misalignment like that. 
+I don't think there is a fix, and other things that rely on pixel precision like that break on zooming to an odd percentage.  
+ - Shadi Isber on 2018-06-21T20:49:33.445Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:01.890Z
+
+
+### Can reproduce.
+CR Windows 10 x64 , Stable, Build Number: 32470
+
+Canine8_YT#4263 - Bug Bot on 2019-02-23T22:38:52.672Z
+
+
+### Unarchived by Bug Bot on 2019-02-23T23:00:05.895Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:07.390Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

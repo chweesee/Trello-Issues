@@ -1,0 +1,120 @@
+[Archived] When changing to a text channel containing a certain message, it takes very long to load (https://trello.com/c/J9ZHg7Eq)
+
+low,
+P2 - Can wait a while
+
+Created: 2019-04-14T18:06:58.886Z
+Latest Update: 2019-06-10T22:18:11.935Z
+
+Reported by Polyzer#9085
+
+####Steps to reproduce:
+- Send a message containing many back quotes(`) (I used max characters of 2000 for this) 
+- Change to a different text channel 
+- Change back to the text channel containing the back quotes
+
+####Expected result:
+The text channel should load quickly
+####Actual result:
+The text channel loads very slowly
+####Client settings:
+V2.5.1(IOS)
+####System settings:
+iPhone 7, iOS 11.3
+
+32636
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-14T18:06:58.886Z
+
+
+### webhp#1337 - https://youtu.be/Ql-KmWETALs added by Bug Bot on 2019-04-14T18:07:01.457Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.3 (16F5129d) - TestFlight 2.5.2 (13730)
+
+Isabel#0002 - Bug Bot on 2019-04-14T18:07:06.538Z
+
+
+### Can reproduce.
+CR iPhone7 Plus 12.1 (16B92) TestFlight 2.5.2 (13730)
+
+Killtracity#0001 - Bug Bot on 2019-04-14T18:07:11.469Z
+
+
+### Can reproduce.
+ipad air 2 ios 12.2, tf 2.5.2 (13730)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-14T18:07:16.420Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 2.5.2 (13730)
+
+Skyla#0002 - Bug Bot on 2019-04-15T10:49:13.471Z
+
+
+### Can reproduce.
+iPad Air iOS 12.1.4 (16D57), TF 2.5.2(13730)
+
+c1rcl#3677 - Bug Bot on 2019-04-15T11:57:44.399Z
+
+
+### Can't reproduce.
+iPhone 7+ iOS 12.2 | TestFlight 2.5.2 (13786) | Seems to be fixed in this version. Tried 2,000 char cap and channel loads instantly.
+
+Clay#0001 - Bug Bot on 2019-04-16T06:24:10.623Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 2.5.2 (13786)
+
+Daffyduck#5364 - Bug Bot on 2019-04-16T09:40:08.048Z
+
+
+### Can reproduce.
+iPhone XR • iOS 12.2 • TestFlight 2.5.2 (13786)
+
+Rage#9991 - Bug Bot on 2019-04-16T16:53:08.084Z
+
+
+### Can't reproduce.
+iPhone X, iOS 12.1.3 - Discord TestFlight 2.5.2 (13786)
+
+CustomName#9999 - Bug Bot on 2019-04-18T22:27:56.889Z
+
+
+### I can reproduce on iPhone XS Max running iOS 12.3 Dev Beta 2 on iOS TestFlight 2.5.2 (14408). 
+
+I want to note that this does affect performance. At first I was going to mark this as P3 high because of how uncommon it would be but as I tested it. I saw how it affected my client. 
+
+Basically what is happening is that it takes about 10 to 15 extra seconds to get into the channel. But if someone happens to send a message containing the back ticks while you’re scrolled up - the client locks up. 
+
+This can possibly be used to abuse, which I’m concerned about. So I’ll label it as P2 low and move it to Notable Issues because I think it’s something that needs to take a look at. - Ghoul on 2019-04-24T01:04:14.448Z
+
+
+### Moved from New Issues to Notable Issues by Ghoul on 2019-04-24T01:04:23.994Z
+
+
+### Moved from Notable Issues to Backlog by Victoria on 2019-05-08T21:13:30.443Z
+
+
+### Now linked in the new master ticket for performance issues: https://trello.com/c/ccAallsK
+
+Therefore moving back to New Issues and archiving. - Pascal on 2019-06-10T22:17:58.924Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-06-10T22:18:08.847Z
+
+
+### Archived by Pascal on 2019-06-10T22:18:11.949Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

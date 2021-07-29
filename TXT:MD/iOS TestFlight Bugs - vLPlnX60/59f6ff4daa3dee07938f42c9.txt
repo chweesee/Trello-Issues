@@ -1,0 +1,64 @@
+[Archived] Channel won't get marked as read instantly when the new messages are just deleted messages (https://trello.com/c/sQLJpunG)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-10-30T10:30:37.800Z
+Latest Update: 2017-12-23T10:53:32.310Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- With one account write at least 2 messages in any channel (make sure channel isn't muted for you) and delete all this sent messages 
+- With other account go to this channel with the new messages that are just deleted messages 
+- Switch to other channel in this server
+
+####Expected result:
+When opening the channel with the new messages, the channel should automatically be marked as read.
+####Actual result:
+When switching to other channel, the unread message indicator next to the channel name still persists. Only way to fix is to scroll to the bottom in this chat.
+####Client settings:
+TestFlight 1.9.3 (1340)
+####System settings:
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5
+
+5851
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-30T10:30:37.800Z
+
+
+### Can reproduce.
+iPhone6s, ios 11.1, Testflight 1.9.3(1340) | even after scrolling to the bottom of the chat most of the time it doesn’t mark as read
+
+Blizzyrd#7909 - Bug Bot on 2017-10-30T10:30:45.185Z
+
+
+### Can reproduce.
+iPhone 6s on iOS 11.0.3 & iPad Air 2 on iOS 11.0.3, TestFlight 1.9.3 (1340)
+
+skyllful#8516 - Bug Bot on 2017-10-30T10:30:50.184Z
+
+
+### Can reproduce.
+CR, make sure to enter the channel without scrolling (since if you touch the bottom that solves it) before going to the other channel (the unread should still stay there even though there's nothing to read and you were already on the bottom). Issue appeared on build 1336 and 1340, doesn't appear on 1286 or below (tested to 953). iPhone 8 Plus, iOS 11.1 (PB5), Discord TestFlight 1.9.3 (1336)
+
+🎃 Spoopy juj 🎃#5114 - Bug Bot on 2017-10-30T10:30:55.191Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-11-14T00:34:59.926Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-23T10:53:30.441Z
+
+
+### Archived by Alexandru Todea on 2017-12-23T10:53:32.313Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

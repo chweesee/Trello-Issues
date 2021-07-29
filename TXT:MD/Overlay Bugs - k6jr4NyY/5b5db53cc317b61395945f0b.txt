@@ -1,0 +1,91 @@
+Discord overlay reads the keybind when the game is minimized (https://trello.com/c/rNcdfII6)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-29T12:38:20.620Z
+Latest Update: 2019-05-12T11:40:12.378Z
+
+Reported by Frances Picard#6209
+
+####Steps to reproduce:
+- Launch a game and make sure Discord overlay popup shows on the game 
+- Minimize the game by pressing alt+tab (or equivalent) when the game is in fullscreen mode 
+- Press the open overlay keybind (Shift+\`) 
+- Go back to game by clicking on it on the taskbar
+
+####Expected result:
+Discord overlay does not show
+####Actual result:
+Discord overlay reads that keybind I pressed and opens
+####Client settings:
+Discord Canary 20174
+####System settings:
+Windows 10 1803 x64
+
+16325
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-29T12:38:20.620Z
+
+
+### Can reproduce.
+Windows 10 Version 1803, x64 - Discord Canary 20174
+
+Homie PinkGuy#1386 - Bug Bot on 2018-07-29T12:38:28.254Z
+
+
+### Can reproduce.
+Discord Canary 20174, Firefox Quantum 61.0.1, Windows 10 Pro x64 (1803)
+
+Delite#0001 - Bug Bot on 2018-07-29T12:38:33.297Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 x64, Canary 20174
+
+TheMegaEagle#9909 - Bug Bot on 2018-07-29T12:38:38.174Z
+
+
+### Can reproduce.
+[CR] Windows 10 Home (x64, 1803), Discord Canary 20174
+
+Marc#5983 - Bug Bot on 2018-07-30T00:50:35.940Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803 x64, Discord Canary 21175
+
+BitPurity#6843 - Bug Bot on 2018-08-08T03:12:07.619Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803 x64, Discord Canary 21175 Also happens when in windowed or windowed borderless
+
+BitPurity#6843 - Bug Bot on 2018-08-08T03:21:29.094Z
+
+
+### Can't reproduce.
+cnr Win10 64x (1809), Discord Canary 36215
+
+Alipoodle#5025 - Bug Bot on 2019-04-23T22:08:11.026Z
+
+
+### Cannot reproduce anymore on Canary 36529, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-27T20:31:41.156Z
+
+
+### Moved from Overlay Bugs to Claimed Fixed by Ene on 2019-04-27T20:31:45.162Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-12T11:40:12.388Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

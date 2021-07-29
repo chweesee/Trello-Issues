@@ -1,0 +1,94 @@
+[Archived] Overlay in League of Legends causes unresponsiveness ingame (https://trello.com/c/O7gGjNZ8)
+
+High,
+P2: Fix can wait a while
+
+Created: 2018-01-20T07:05:06.235Z
+Latest Update: 2018-07-06T18:01:17.505Z
+
+Reported by » a r i a#1593
+
+####Steps to reproduce:
+- play League in any mode (Windowed, Fullscreen, Borderless) 
+- have Discord Overlay enabled 
+- (preferably use the regular keybindings) 
+- press and hold Shift, Alt, A or Rightclick (or other keys used in the game) 
+- (additionally any ability key will work if said ability is a chargeable one) 
+- on top of that, access the overlay via your overlay shortcut 
+- (right)click back into the game and try to continue playing normally
+
+####Expected result:
+the game goes on normally
+####Actual result:
+Depending on mode, the game gets stuck in shift-mode or is unresponsive at all. No button will work before tabbing out. This might include Esc, all Abilities or "ping only".
+####Client settings:
+Canary, Build Number 9681
+####System settings:
+Windows 10 Pro x64
+
+7980
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-20T07:05:06.235Z
+
+
+### Can reproduce.
+CR Windows 10 x64 Canary 0.0.198 build 9681
+
+Okori#0902 - Bug Bot on 2018-01-20T07:05:13.548Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 Canary Build 9681
+
+RME#3050 - Bug Bot on 2018-01-20T07:05:18.560Z
+
+
+### Can reproduce.
+CR Windows 10 home x86 Discord Canary 9681
+
+Kyle#1348 - Bug Bot on 2018-01-20T07:05:23.551Z
+
+
+### Can reproduce.
+Discord Canary 0.0.197 (9681) on Windows 10 Home x64 Fall Creators Update (1709)
+
+OminousCry#2331 - Bug Bot on 2018-01-20T07:16:55.674Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a62ea225155ef853e63c712/de1f668f078892591f1214a3348eb389/image.png added by Tarek on 2018-01-20T11:11:48.779Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Canary Build 9765
+
+VoidWhisperer#5905 - Bug Bot on 2018-01-23T00:40:18.064Z
+
+
+### The bug that riot reported to me was that they would enable the overlay, it would never appear and then there was no possible way to interact with the application until you closed the overlay.
+
+I managed to reproduce the issue where the modifier is acting as though it's still held down, but not the non-responsiveness. - Jared on 2018-01-26T20:41:26.268Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-01-26T20:41:29.968Z
+
+
+### Verified fixed - Tarek on 2018-04-16T17:03:13.928Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Tarek on 2018-04-16T17:03:18.001Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:01:16.236Z
+
+
+### Archived by Jared on 2018-07-06T18:01:17.507Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

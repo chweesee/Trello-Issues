@@ -1,0 +1,64 @@
+Your screenshare preview is on top of the volume controls in a private call (https://trello.com/c/yinHDESC)
+
+None
+
+Created: 2020-05-05T12:46:31.892Z
+Latest Update: 2020-07-16T21:26:06.311Z
+
+Reported by MrStefan#0001
+
+####Steps to reproduce:
+- Go in a private call 
+- Share your screen 
+- Click on full screen 
+- Make sure the focus tab is on 
+- Click on your friend who is not sharing their screen 
+- Leave full screen 
+- Bottom right, try and change their volume 
+- Observe
+
+####Expected result:
+Audio controls should be on top of the screenshare preview
+####Actual result:
+The audio controls appear under the screenshare preview, making you unable to change till you move it somewhere else
+####Client settings:
+Stable 59381 (2d77730)
+####System settings:
+Windows 10 Pro x64 version 1903
+
+55529
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-05T12:46:31.892Z
+
+
+### MrStefan#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5eb1602746432d221b093894/bb3b16f99b4edb2cb4fc68d43aa06b24/unknown.png added by Bug Bot on 2020-05-05T12:46:35.122Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909 (10.0.18363), Canary 59390 host 0.0.264
+
+Jean20B#4668 - Bug Bot on 2020-05-05T12:46:39.506Z
+
+
+### Can reproduce.
+Canary 59425 (55ac6cb)
+Host 0.0.248
+OS X 10.15.4 (19.4.0)
+
+JBYoshi#5551 - Bug Bot on 2020-05-05T12:46:44.520Z
+
+
+### Can reproduce.
+Cr, Windows 10 Home x64, Discord Canary (Build 59455) - It also appears under the unread messages line when you receive an audio file
+
+Bryth#1086 - Bug Bot on 2020-05-05T12:46:49.522Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

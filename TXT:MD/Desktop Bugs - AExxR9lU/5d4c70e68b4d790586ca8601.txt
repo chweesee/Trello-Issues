@@ -1,0 +1,97 @@
+When you're being called and you press the play/pause media button, it will pause the incoming call ringtone (https://trello.com/c/T4ORVByz)
+
+None
+
+Created: 2019-08-08T18:58:46.565Z
+Latest Update: 2020-07-16T21:26:04.755Z
+
+Reported by GrimReapeR#3533
+
+####Steps to reproduce:
+- Make sure your keyboard or device has a play/pause media button. If not, you could try to simulate one using AutoHotkey: `Esc::send {Media_Play_Pause}` will turn your Esc key into a play/pause media button, for example. 
+- Get someone to call you, or use an alt account to call yourself. 
+- When getting called, press the play/pause media button on your keyboard. 
+- Observe.
+
+####Expected result:
+Nothing, or the music you're currently playing in another app should pause/resume
+####Actual result:
+The incoming call ringtone will pause. Pressing the same button again will make it resume
+####Client settings:
+Release Channel: canary, Build Number: 42647, Version Hash: e559b455d905e55168923446d9e058b3fe6bd3b8
+####System settings:
+Microsoft Windows 10 version 1803
+
+41517
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-08T18:58:46.565Z
+
+
+### Can reproduce.
+Can reproduce, macOS High Sierra, Version: 10.13.6 - Discord Canary 42877
+
+Vanki#0001 - Bug Bot on 2019-08-08T18:58:54.210Z
+
+
+### Can reproduce.
+Cr; macOS 10.14.5, Canary 42877
+
+Noah#0004 - Bug Bot on 2019-08-08T18:58:59.272Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10, x64, version: 1803 - Discord Canary 42647
+
+Maesblo#1337 - Bug Bot on 2019-08-08T18:59:04.317Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 42961
+
+Neiron#8475 - Bug Bot on 2019-08-08T19:43:26.264Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.175), Discord Canary 42954
+
+Kissa#1337 - Bug Bot on 2019-08-08T20:10:18.386Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 43117
+
+AHkhan#6518 - Bug Bot on 2019-08-09T05:41:13.429Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 43131
+
+B.O.S.S#0251 - Bug Bot on 2019-08-09T07:29:10.278Z
+
+
+### Can reproduce.
+Windows 10 Professional,Canary 42895
+
+Typhoon#7906 - Bug Bot on 2019-08-09T07:54:58.574Z
+
+
+### Can reproduce.
+Windows 10 x Canary 42895
+
+IPv4#2876 - Bug Bot on 2019-08-10T02:14:30.520Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 43372 (Host 0.0.252)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-11T01:08:09.993Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

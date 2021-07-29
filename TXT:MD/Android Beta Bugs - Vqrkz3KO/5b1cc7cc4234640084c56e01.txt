@@ -1,0 +1,74 @@
+[Archived] Playing status doesn't update in member list, only in profile, causing it to show two different statuses in different places (https://trello.com/c/xg5I2z3F)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-10T06:40:12.474Z
+Latest Update: 2018-08-31T00:11:59.945Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Start Discord 
+- Find someone in a server with Playing status set 
+- Have him change the text of his Playing status 
+- Observe member list & profile of the user
+
+####Expected result:
+Playing status should update retroactively in both member list and in profile
+####Actual result:
+It does update only in profile, member list still displays the old status
+####Client settings:
+Discord Alpha 6.8.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14005
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-10T06:40:12.474Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b1cc7cc4234640084c56e01/9939cb2d8d4b5fab7ce0625cdb375158/IMG_20180610_003642.jpg added by Bug Bot on 2018-06-10T06:40:14.917Z
+
+
+### Can reproduce.
+Can Reproduce, Asus Zenfone 3, Android 7.0, Discord Alpha 6.8.9 , It happens with spotify status too
+
+Doges#0001 - Bug Bot on 2018-06-10T06:40:19.781Z
+
+
+### Can reproduce.
+CR,Alcatel 3C, 7.0.0 Discord Alpha 6.8.9
+
+StefanFX#5684 - Bug Bot on 2018-06-10T06:40:24.802Z
+
+
+### Can reproduce.
+Can reproduce Discord alpha 6.8.9 Nokia 5 Android 8.0.0
+
+Bencey_#8587 - Bug Bot on 2018-06-10T06:40:29.843Z
+
+
+### verified, one plus 6, android 8.0, 6.8.9 - Clayton on 2018-06-11T20:45:01.186Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-11T20:45:08.445Z
+
+
+### This isn't a bug. The status on the pop up isn't supposed to change dynamically. - Jared on 2018-07-11T22:48:39.383Z
+
+
+### Moved from Verified Bugs to Won't Fix by Jared on 2018-07-11T22:48:44.177Z
+
+
+### Archived by Clayton on 2018-08-31T00:11:59.949Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

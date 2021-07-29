@@ -1,0 +1,112 @@
+[Archived] Uploading a file with size greater than the file upload limit (8MB for non Nitro and 50 MB for Nitro users) doesn't give the file too powerful error. (https://trello.com/c/rKHKbO5G)
+
+None
+
+Created: 2019-03-20T04:58:35.079Z
+Latest Update: 2019-06-05T23:48:24.949Z
+
+Reported by The Lunala#6877
+
+####Steps to reproduce:
+- Upload a file greater than your file upload limit.
+
+####Expected result:
+You get a file too powerful modal/toast while it's processing or at any point.
+####Actual result:
+You do not get any toast/modal at any point. The file tries once, twice and then the upload progress modal vanishes into thin air.
+####Client settings:
+Discord Alpha 861
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+31335
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-20T04:58:35.079Z
+
+
+### Can reproduce.
+CR. Intex Aqua N7, Android 5 App Information 8.6.1 I tried with a 13.9 mb file. I sent it and it went till the processing state then it suddenly tried to re-upload it and when the upload progress was half way there, the modal vanished.
+
+Stardust#2476 - Bug Bot on 2019-03-20T04:58:42.544Z
+
+
+### Can reproduce.
+[CR] Tried with a 30 MB apk file. No errors given after the process "has finished" but only it disappearing. Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 8.6.1
+
+TheFutureKnight#7664 - Bug Bot on 2019-03-20T04:58:47.532Z
+
+
+### Can reproduce.
+Canrepro in Honor 6x 7.0 [EMUI 5.0.2] ,alpha 860
+
+fizy#9347 - Bug Bot on 2019-03-20T04:58:52.488Z
+
+
+### Can't reproduce.
+CNR. I got 'file too powerful' modal after I upload 17MB of file (non nitro). Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0.1, Discord Alpha 8.6.1
+
+Frances Picard#6209 - Bug Bot on 2019-03-20T11:10:32.205Z
+
+
+### Moved from User Reported Bugs to Nitro Purchase Bugs by Jeff Cailteux on 2019-03-20T15:46:32.200Z
+
+
+### Personally cant repro - Jeff Cailteux on 2019-03-20T16:09:15.260Z
+
+
+### Can reproduce.
+Can Be Reproduced. Samsung Galaxy Note 8, Android 8.0.0
+
+SportLeader#0001 - Bug Bot on 2019-03-20T20:03:55.711Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1,discord 8.6.1 alpha
+
+Quad#1887 - Bug Bot on 2019-03-21T10:03:43.764Z
+
+
+### Moved from Nitro Purchase Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-03-26T20:12:00.339Z
+
+
+### Fixed in new build - Jeff Cailteux on 2019-03-26T20:12:07.236Z
+
+
+### Can reproduce.
+CNR Xiaomi Redmi 4X, Android 7.1.2, Discord 8.6.7 -- Tried with non Nitro account and 27MB gif, the modal {Your File Too Powerful!} appeared
+
+Defracted#7777 - Bug Bot on 2019-03-27T03:24:52.278Z
+
+
+### Can't reproduce.
+Modal appears on nitro account - Redmi Note 4, Android v7, Discord Alpha 8.6.7
+
+Skyla#0002 - Bug Bot on 2019-03-27T05:14:46.753Z
+
+
+### Can't reproduce.
+Xiaomi Redmi 4X, Android 7.1.2, Discord 8.6.7 -- modal appeared on non Nitro with 27MB gif
+
+Defracted#7777 - Bug Bot on 2019-03-27T11:04:10.902Z
+
+
+### Can't reproduce.
+Can no longer reproduce. Arrows m03 Android 6.0.1 App 8.6.6, Modal appeared on nitro, 114.8MB zip
+
+SiroQ#6927 - Bug Bot on 2019-03-28T04:22:34.204Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-03-28T04:22:34.413Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:48:24.960Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

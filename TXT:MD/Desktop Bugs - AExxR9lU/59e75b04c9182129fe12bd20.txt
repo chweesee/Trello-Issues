@@ -1,0 +1,74 @@
+[Archived] Z-index issue with removing pinned message modal (https://trello.com/c/93pSiBWb)
+
+None
+
+Created: 2017-10-18T13:45:40.145Z
+Latest Update: 2017-11-16T19:50:26.264Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Pin any message 
+- Open pinned messages 
+- Unpin the pinned message 
+- Observe the z-index of the modal window
+
+####Expected result:
+Unpinning message modal should have a "higher position" than the unpinning message modal window.
+####Actual result:
+The pinned messages cover the unpinning message modal window.
+####Client settings:
+Discord Canary 0.0.156 (Build: 6015)
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13
+
+5540
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-18T13:45:40.145Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59e75b04c9182129fe12bd20/42da85df6688cbeca3b4f5a5a93bd112/N1GXwMl.png added by Bug Bot on 2017-10-18T13:45:43.163Z
+
+
+### Can reproduce.
+CR Windows 10 x64 , Canary 0.0.165
+
+AEnterprise#4693 - Bug Bot on 2017-10-18T13:45:47.988Z
+
+
+### Can reproduce.
+Dell inspiron 15R-5520 (2015 model) Windows 10 Pro 64-bit, x64-based processor, Discord Canary 0.0.165
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-18T13:45:52.990Z
+
+
+### Can reproduce.
+CR, MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-18T13:45:57.994Z
+
+
+### might be a extenions (or same but differently worded) of https://trello.com/c/qTRdGovp
+
+AEnterprise#4693 - Bug Bot on 2017-10-18T13:50:02.148Z
+
+
+### Definitely a dupe of https://trello.com/c/qTRdGovp
+
+Ten 🎃#1723 - Bug Bot on 2017-10-18T14:23:01.303Z
+
+
+### Archived by Mike Nisbet on 2017-10-19T20:19:35.186Z
+
+
+### Dupe of https://trello.com/c/qTRdGovp , archiving - Mike Nisbet on 2017-10-19T20:19:36.895Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

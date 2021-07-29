@@ -1,0 +1,71 @@
+[Archived] Disconnecting from internet between the updating and connecting will completely freeze Discord (https://trello.com/c/tJGhJozq)
+
+P3: Will get fixed eventually
+
+Created: 2016-10-27T10:56:03.118Z
+Latest Update: 2019-08-03T13:52:25.283Z
+
+Reported by A Generic Gamer#4775
+
+####Steps to reproduce: 
+- Start Discord up, wait for it to stop looking for updates 
+- Just as it begins to say "STARTING", disable your wifi 
+- Instead of attempting to reconnect, the entire client will just blank out and freeze. (see here: https://i.gyazo.com/bb14e5dd357d3315f77d147418dd7f7c.gif ). 
+
+####Additional steps:
+- Load the app 
+- Just before the Update part concludes, kill your internet connection 
+
+####Expected result:
+ Discord would keep trying to reconnect 
+####Actual result:
+ Because it thinks it's established a connection, it doesn't know what to do and freezes. 
+####System settings:
+ Regular, PTB, and Canary 
+####Client version:
+ Windows 10 Anniversary x64
+
+Card Log
+========
+### Added by Jared on 2016-10-27T10:56:03.118Z
+
+
+### Can reproduce.
+Windows 10 Discord Canary
+
+Jack#0757 - Jared on 2016-10-27T21:21:46.079Z
+
+
+### Can reproduce.
+Windows 10 Discord Canary
+
+Wolfstorm#0986 - Jared on 2016-10-27T21:31:31.545Z
+
+
+### Can reproduce.  Client does not attempt a reconnection after losing internet connectivity on start up. - Jared on 2016-10-28T17:46:22.745Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-10-28T17:46:26.778Z
+
+
+### Can reproduce.
+iOS 9.3.1, iPhone 5s (yes I know this is a PC bug, but it happens on mobile too)
+
+フェイト・テスタロッサ ★★★★#9667 - Sam on 2016-11-15T18:38:51.077Z
+
+
+### It's been like this for forever. - Jared on 2017-01-10T22:24:09.970Z
+
+
+### Verified issue still occurs as written. - Jared on 2018-01-08T20:16:23.663Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:15.937Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,109 @@
+[Archived] Moving the cursor on slash commands arguments changes the search keyword (https://trello.com/c/BRc51h3s)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-07T17:41:04.978Z
+Latest Update: 2019-12-08T18:39:53.782Z
+
+Reported by Robin#0610
+
+####Steps to reproduce:
+- Open any text channel 
+- Use a slash command (/giphy, /tenor...) with any text as argument 
+- Move the cursor back in the text (using arrow keys or click)
+
+####Expected result:
+The current active search keyword stays the same until you edit the text
+####Actual result:
+The search changes to match only the characters up to the cursor
+####Client settings:
+Discord Canary Build 13313
+####System settings:
+Debian Stretch, Gnome 3 (Also seen on Windows 10 x64)
+
+10422
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-07T17:41:04.978Z
+
+
+### Robin#0610 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac902b09b2297a5d03c8ab6/9b63a36fc035610b7565bfb9c3fbe8e7/v7B4HAx.png added by Bug Bot on 2018-04-07T17:41:07.439Z
+
+
+### Can reproduce.
+CR - MS Windows 10 Pro x64 (v1709) - Canary 13313
+
+ahoZiorce#3115 - Bug Bot on 2018-04-07T17:41:12.368Z
+
+
+### Can reproduce.
+Win 10 Enterprise x64, Discord Canary b13313
+
+GamingMaster 🇱🇹#4773 - Bug Bot on 2018-04-07T17:41:17.366Z
+
+
+### Can reproduce.
+CR; Win 10 x64 1709 (16299.309); Discord Canary 13313
+
+Dark#9876 - Bug Bot on 2018-04-07T17:41:22.406Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Version 1709, OS Build 16299.309, Discord Canary Build 13313
+
+GamesForDays#1985 - Bug Bot on 2018-04-07T17:41:45.434Z
+
+
+### Can reproduce.
+Macbook Pro 13" (2017) - macOS High Sierra 10.13.3 (17D47) - Canary Build 13313
+
+0_3#5964 - Bug Bot on 2018-04-07T22:13:23.732Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (Fall Creators Update), stable 12957
+
+Gangster#8192 - Bug Bot on 2018-04-09T01:20:05.873Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary Build nº 13344 | I do believe that this is not a bug, but still it's quite frustrating.
+
+PillGP#2767 - Bug Bot on 2018-04-10T00:57:46.609Z
+
+
+### Verified.  - Clayton on 2018-04-11T01:19:58.060Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-11T01:20:01.561Z
+
+
+### This is not a bug. This is how the giphy integration works, it's part of their SDK. - Jared on 2018-04-16T16:38:37.757Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2018-04-16T16:38:43.256Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:48:54.446Z
+
+
+### Archived by Jared on 2018-07-06T17:48:56.429Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803 canary, Build Number: 50957
+
+Spooker#0001 - Bug Bot on 2019-12-08T18:39:01.044Z
+
+
+### Spooker#0001 - https://youtu.be/XmbNl3dpeug added by Bug Bot on 2019-12-08T18:39:53.781Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

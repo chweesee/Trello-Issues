@@ -1,0 +1,76 @@
+Custom emotes in which are typed within a link markdown structure do not get resolved (https://trello.com/c/kDKjv6Wu)
+
+None
+
+Created: 2018-05-10T00:16:22.082Z
+Latest Update: 2019-09-23T22:30:07.929Z
+
+Reported by stupid cat#8160
+
+####Steps to reproduce:
+- Send `[ :emote: ]()` in a message. I'll use <:bugbutton:268365281846362112> in this example.
+
+####Expected result:
+The message should say [ <:bugbutton:268365281846362112> ]()
+####Actual result:
+The message says [ :bugbutton: ]()
+####Client settings:
+Discord Canary, 0.0.208
+####System settings:
+Windows 10 Home x64 v1709
+
+12336
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-10T00:16:22.082Z
+
+
+### stupid cat#8160 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af38f56d09a0d41e70f08f9/7d7b1abddda7841bb74111712dab943d/ddacfb.gif added by Bug Bot on 2018-05-10T00:16:25.000Z
+
+
+### DreaM#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af38f56d09a0d41e70f08f9/ceaf7c22904260df41a98bf622c626bb/Screen_Shot_2018-05-09_at_7.53.39_PM.png added by Bug Bot on 2018-05-10T00:16:25.853Z
+
+
+### Can reproduce.
+Windows 10 Family v16299
+
+Folfy Blue#7230 - Bug Bot on 2018-05-10T00:16:29.817Z
+
+
+### Can reproduce.
+iMac macOS 10.13.4
+
+DreaM#0001 - Bug Bot on 2018-05-10T00:16:34.795Z
+
+
+### Can reproduce.
+macOS High Sierra 10.13.4
+
+Geralt#0007 - Bug Bot on 2018-05-10T00:16:39.838Z
+
+
+### Can reproduce.
+Canary, macOS High Sierra 10.13.4
+
+Geralt#0007 - Bug Bot on 2018-05-10T00:21:40.362Z
+
+
+### Verified. macOS 10.12.6, Canary Build 14905 - Clayton on 2018-05-10T22:55:09.073Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-10T22:55:15.349Z
+
+
+### Can reproduce.
+64 Bit Windows 10 Home (V1709) ptb, Build Number: 14712.
+
+memetrollsXD#0001 - Bug Bot on 2018-05-11T16:35:07.518Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

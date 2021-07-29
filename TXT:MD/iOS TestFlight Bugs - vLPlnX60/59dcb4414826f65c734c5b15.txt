@@ -1,0 +1,82 @@
+[Archived] After reverting an image crop, Discord still sends the cropped version of the image (https://trello.com/c/iGmVTqNy)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-10-10T11:51:29.850Z
+Latest Update: 2017-12-30T08:36:35.064Z
+
+Reported by juj#5114
+
+####Steps to reproduce:
+- Crop a picture in Photos app 
+- Send cropped picture in Discord 
+- Go back to Photos and Revert edit changes on the cropped picture 
+- Send the uncropped picture in Discord
+
+####Expected result:
+The picture would be sent as uncropped, like how it looks like in the Photos app
+####Actual result:
+Discord still sends the cropped version of the picture
+####Client settings:
+TestFlight 1.9.2, build 953
+####System settings:
+iPhone 8 Plus, iOS 11.0.2
+
+5289
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-10T11:51:29.850Z
+
+
+### Starshine Dust#2189 - https://youtu.be/28DksStl5Bs added by Bug Bot on 2017-10-10T11:51:32.277Z
+
+
+### Can reproduce.
+CR .. iPhone 8 +, iOS 11.0.2; Discord Version: 1.9.2
+
+Nightmare Kitty#4567 - Bug Bot on 2017-10-10T11:51:37.256Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 11.0.0, TF 1.9.1(665)
+
+Xur, Agent of The Nine#6761 - Bug Bot on 2017-10-10T11:51:42.262Z
+
+
+### Can reproduce.
+Cr, iPhone6s, iOS 11.1, TF 1.9.1 (953)
+
+Blizzyrd#7909 - Bug Bot on 2017-10-10T11:51:47.245Z
+
+
+### Can reproduce.
+iOS 11.1 Developer Beta, TF 1.9.2 (953), iPhone 5S
+
+Lasse#4890 - Bug Bot on 2017-10-11T01:51:22.191Z
+
+
+### I can’t reproduce this P3, moving to Cannot Reproduce.
+
+Discord 2.0.1 (1610), iOS 11.1.1, iPhone 8 Plus - Alexandru Todea on 2017-11-17T11:30:07.976Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Alexandru Todea on 2017-11-17T11:30:19.188Z
+
+
+### Can't reproduce.  - Clayton on 2017-11-30T00:35:18.007Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-30T08:36:33.765Z
+
+
+### Archived by Alexandru Todea on 2017-12-30T08:36:35.073Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

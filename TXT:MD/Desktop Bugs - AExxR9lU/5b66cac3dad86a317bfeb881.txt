@@ -1,0 +1,77 @@
+When deleting a channel, all the messages in that channel are still accessible via their link. (https://trello.com/c/zEruXs8r)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-08-05T10:00:35.241Z
+Latest Update: 2019-09-23T22:30:07.820Z
+
+Reported by shay#3503
+
+####Steps to reproduce:Create channel 
+- post image 
+- copy url of images 
+- delete the channel 
+- revisit non-cached verision of the url by adding a query with a ?
+
+####Expected result:
+The message should be deleted with the channel deletion
+####Actual result:
+Message still exists
+####Client settings:
+Release Channel: canary, Build Number: 20849, Version Hash: 4fbddac2b913508b5c8a90f4d7dac54ec8f8a71c
+####System settings:
+Windows 10
+
+16970
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-05T10:00:35.241Z
+
+
+### Can reproduce.
+Can reproduce - uncached images are still accessible after channel deletion, Windows 10 Pro x64, Disccord Canary 20790
+
+Delite#0001 - Bug Bot on 2018-08-05T10:00:42.532Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 64-Bit Build 17134.191 Discord Canary 20845 [BUILD INFO] Release Channel: stable, Build Number: 20845, Version Hash: e2f3f2bb28e1eff6138a8166fe642141748b3b9b Can Reproduce - my test GIF was still accessible after I deleted the test Channel in my Server
+
+Blastoise186#7194 - Bug Bot on 2018-08-05T10:00:47.624Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 20790
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-05T10:00:52.553Z
+
+
+### Can reproduce.
+[CR] Canary 20849 - Windows 10 Home x64
+
+VR#5448 - Bug Bot on 2018-08-05T16:35:33.480Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803 x64, Discord Canary 20849
+
+Pyros#2326 - Bug Bot on 2018-08-05T22:51:02.485Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T21:27:24.662Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T21:27:30.035Z
+
+
+### The Discord engineering team mostly agrees this should be fixed, but that it was high-effort and reasonably low-priority, so it is not likely to be fixed soon. - John Furrow on 2018-11-15T01:36:09.217Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,81 @@
+[Archived] If you end a video call from the notification shade on Android, the call won't even end (https://trello.com/c/v0nH7xBn)
+
+P2 - Can wait a while,
+High
+
+Created: 2017-11-04T10:09:51.669Z
+Latest Update: 2017-12-09T08:58:27.362Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Start a video call 
+- Let the other partner join your video call 
+- Make sure the person is in the DM's and not in an another server 
+- On the android device, exit out of the application (do not close discord) 
+- Then open the notification shader, and then click "Disconnect"
+
+####Expected result:
+The video call should end properly
+####Actual result:
+The video call doesn't even end, it still going even after disconnecting
+####Client settings:
+Discord Alpha 5.5.4 and Discord Canary 0.0.169 (Build 6652)
+####System settings:
+Android 7.1.1 on OnePlus 5, Windows 10 Pro 64-bit (Build 1607) 64-bit
+
+5995
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-04T10:09:51.669Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59fd91ef20ecb27ebb8fe81a/19eee5907277c6d7227f4a3e310634a6/90NESrS.jpg added by Bug Bot on 2017-11-04T10:09:54.161Z
+
+
+### JohnyTheCarrot#0368 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59fd91ef20ecb27ebb8fe81a/8964cebb71e10cd0ea73991926be19fe/0vNA3PS.gif added by Bug Bot on 2017-11-04T10:09:54.609Z
+
+
+### Can reproduce.
+CR, Lenovo Tab 2 A7-10, Android 5.0, Android Alpha 5.5.4
+
+jul545454#0530 - Bug Bot on 2017-11-04T10:09:59.154Z
+
+
+### Can reproduce.
+Discord did not end the call. Android 7.1.1 on OnePlus 3T, Discord 5.5.4 and Windows 10 Home (Build 1709) 64-bit
+
+JohnyTheCarrot#0368 - Bug Bot on 2017-11-04T10:10:04.124Z
+
+
+### Can reproduce.
+CR (call still appears to be running); Canary 6834, Windows 10 Home x64 (1709), -a
+
+inventor02#4201 - Bug Bot on 2017-11-04T10:10:09.124Z
+
+
+### Can reproduce.
+CR (call still appears to be running); Canary 6834, Windows 10 Home x64 (1709), Android Alpha 5.5.5, LG H440n, Android 6.0
+
+inventor02#4201 - Bug Bot on 2017-11-04T10:11:11.180Z
+
+
+### Cannot reproduce. The call gets disconnected from both the Android device and the desktop one. - Jared on 2017-11-07T17:35:25.547Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-11-07T17:35:29.222Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-09T08:58:25.357Z
+
+
+### Archived by Alexandru Todea on 2017-12-09T08:58:27.366Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

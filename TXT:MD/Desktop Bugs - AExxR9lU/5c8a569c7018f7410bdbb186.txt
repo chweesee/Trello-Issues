@@ -1,0 +1,115 @@
+[Archived] [Canary 33959] Switching from Home to a verified guild with a banner in collapsed mode makes the badge flicker. (https://trello.com/c/OhTGISI7)
+
+None
+
+Created: 2019-03-14T13:26:52.560Z
+Latest Update: 2019-05-20T04:00:30.824Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Refresh to latest Canary build. 
+- Go to Discord Testers, scroll down so that the server banner is collapsed completely and the verified badge changes color to from blurple to grey. 
+- Go to Home. 
+- Go back to Discord Testers.
+
+####Expected result:
+The verification badge shouldn't flicker in blurple for a second.
+####Actual result:
+The verification badge does flicker in blurple for a second.
+####Client settings:
+Web Canary 33959
+####System settings:
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64)
+
+30954
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-14T13:26:52.560Z
+
+
+### Can reproduce.
+CR, Windows Server 2012, Discord Canary 33959 on Firefox 60.3.0esr
+
+Arnold0#7514 - Bug Bot on 2019-03-14T13:27:00.248Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 33959
+
+Daffyduck#5364 - Bug Bot on 2019-03-14T13:27:05.243Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c8a569c7018f7410bdbb186/4d477d9cfaabfca26aca0dfeda7b5879/mjVlooC.gif added by Bug Bot on 2019-03-14T13:27:10.336Z
+
+
+### Can reproduce.
+win10 pro (64-bit, build 1809), canary 33959
+
+Defracted#7777 - Bug Bot on 2019-03-14T13:27:10.491Z
+
+
+### Can reproduce.
+macOS 10.14.4, Canary 33959, Chrome 72
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-14T14:35:19.224Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 33959
+
+Aeria#9096 - Bug Bot on 2019-03-14T14:39:44.535Z
+
+
+### Can reproduce.
+CR; Canary: 33917, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-14T14:59:44.429Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, Canary 33959
+
+Jean20B#4287 - Bug Bot on 2019-03-14T16:18:25.990Z
+
+
+### Can reproduce.
+W10 Pro x64 (1809), Canary 33990
+
+dafaqed#1312 - Bug Bot on 2019-03-14T22:46:55.472Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1809 Canary 33990
+
+anonymous kitten 😸#4876 - Bug Bot on 2019-03-15T01:06:37.736Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 | Canary: 33959
+
+Bastizzle#0001 - Bug Bot on 2019-03-15T01:15:54.748Z
+
+
+### I consider this a non issue, the client is most likely just calculating the position and it shows it for a split second, moving to not a bug. - Tarek on 2019-03-29T05:34:14.318Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Tarek on 2019-03-29T05:34:18.273Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 36094
+
+Isabel#0002 - Bug Bot on 2019-04-20T03:58:06.638Z
+
+
+### Archived by Bug Bot on 2019-05-20T04:00:30.837Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] [macOS Specific] Window control buttons (close, minimize, full screen) are not actionable when Discord is behind another window (https://trello.com/c/gpAxzP9w)
+
+None
+
+Created: 2019-01-05T17:09:13.732Z
+Latest Update: 2019-01-08T06:17:42.864Z
+
+Reported by kadybat#0001
+
+####Steps to reproduce:
+- Run Discord in windowed mode 
+- Prioritize another window and leave the Discord window controls visible 
+- Attempt to use Discord's window controls while Discord is not the actively selected program
+
+####Expected result:
+Window controls should be actionable even if Discord is not the active window (this is the behavior with other programs--tested and verified with the Safari window controls)
+####Actual result:
+Window controls are non-functional unless the client is the active window
+####Client settings:
+Desktop Canary 30441
+####System settings:
+macOS Mojave 10.14.1
+
+25629
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-05T17:09:13.732Z
+
+
+### Can reproduce.
+MacBook Pro 13", macOS Mojave 10.14, Canary 30441
+
+Alfie#1582 - Bug Bot on 2019-01-05T17:09:20.991Z
+
+
+### Can reproduce.
+macos 10.14.2, canary 30441
+
+Lentralkestor#0404 - Bug Bot on 2019-01-05T17:09:26.043Z
+
+
+### Can reproduce.
+cr, macos 10.14.3, canary 30441
+
+Action Potential#4040 - Bug Bot on 2019-01-05T17:09:31.049Z
+
+
+### Extension of https://trello.com/c/p5cNfvQs
+
+Pascal#0929 - Bug Bot on 2019-01-05T18:31:54.436Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c30e4b9aa8a2a2e8d6ff8fc/b0e555c0fbb6f1c4dd27e6226f5df63b/image.png added by Tim on 2019-01-05T19:09:27.200Z
+
+
+### Can reproduce.
+Mac Mini (Late 2013), macOS High Sierra Canary 30441
+
+Zacatero#0001 - Bug Bot on 2019-01-06T15:17:33.695Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 30441
+
+Rage#9991 - Bug Bot on 2019-01-06T17:23:06.931Z
+
+
+### extension below.  - Clayton on 2019-01-08T06:17:41.326Z
+
+
+### Archived by Clayton on 2019-01-08T06:17:42.867Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

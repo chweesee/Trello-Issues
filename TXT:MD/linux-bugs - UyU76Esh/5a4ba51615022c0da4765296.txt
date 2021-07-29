@@ -1,0 +1,96 @@
+Webcam is always in use after Discord start (https://trello.com/c/VA81WMCg)
+
+P2: Can wait awhile,
+high
+
+Created: 2018-01-02T15:28:22.310Z
+Latest Update: 2018-07-06T03:46:21.998Z
+
+Reported by rgiyf#3668
+
+####Steps to reproduce:
+- Open powertop and go to device stats tab 
+- Open Discord Linux Canary 0.0.39 
+- Watch webcam device usage in powertop
+
+####Expected result:
+Webcam only used on Discord startup and when in Video Chat
+####Actual result:
+Webcam is always in use no matter if you in video chat or not
+####Client settings:
+Discord Linux Canary 0.0.39
+####System settings:
+elementary OS Loki (Ubuntu 16.04.3 stack), HP ENVY 6 laptop with HP Truevision HD webcam
+
+7203
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-02T15:28:22.310Z
+
+
+### Can reproduce.
+CR, Archlinux 4.14, Discord canary 0.0.39 ( Build 8860 )
+
+Starshine Dust#2189 - Bug Bot on 2018-01-02T15:28:29.703Z
+
+
+### Can reproduce.
+Mint 18 Cinnamon x64 Canary build 9070
+
+Mikesky#3456 - Bug Bot on 2018-01-02T15:28:34.695Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS, Stable 0.0.3
+
+rauf#3260 - Bug Bot on 2018-01-02T15:28:39.711Z
+
+
+### Can't reproduce.
+Ubuntu Artful, Discord Stable 0.0.3. I check the camera usage via the light near the webcam at HP 15ac101-ur laptop
+
+VitalKanev | Happy New Year!#2348 - Bug Bot on 2018-01-03T14:25:42.253Z
+
+
+### Can't reproduce.
+ASUS G53JW laptop running KDE neon User Edition (based on Ubuntu 16.04 LTS), Discord Canary 0.0.44.  Camera light does not activate when Discord is launched.
+
+simonizor#2560 - Bug Bot on 2018-01-04T03:20:37.037Z
+
+
+### Cannot reproduce. Though a little suspicious, will re-visit. - Clayton on 2018-01-09T22:20:52.455Z
+
+
+### Moved from User Reported to Cannot Reproduce. by Clayton on 2018-01-09T22:20:57.825Z
+
+
+### Verified. - Clayton on 2018-01-17T01:41:07.834Z
+
+
+### Moved from Cannot Reproduce. to Discord Verified Bugs by Clayton on 2018-01-17T01:41:17.015Z
+
+
+### Can reproduce.
+Can reproduce to an extent... powertop says that the webcam is being used, but my hardware light begs to differ. / Fedora 27, Canary 0.0.45, Build #9599
+
+Noahkiq#0493 - Bug Bot on 2018-01-26T19:47:19.052Z
+
+
+### Can still reproduce as of 3/23/18 - Clayton on 2018-03-23T20:47:52.059Z
+
+
+### I tested this bug during the Trello Cleanup Event, and I was not able to reproduce this bug as my webcam light has remained off unless I needed it. I used Ubuntu 18.04 LTS on Dell Latitude E5540 with Discord Canary Build 18226.
+
+Because I was not able to reproduce this bug anymore, I am moving it to Claimed Fixed. - Ghoul on 2018-07-06T03:44:30.548Z
+
+
+### Moved from Discord Verified Bugs to Claimed Fixed by Ghoul on 2018-07-06T03:44:41.174Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

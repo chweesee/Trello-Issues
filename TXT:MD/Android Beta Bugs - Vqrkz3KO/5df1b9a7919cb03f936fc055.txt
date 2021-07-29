@@ -1,0 +1,119 @@
+[Archived] If you deny camera permissions while in QR scanner the app will get whole dark. (https://trello.com/c/Ax4s7Tls)
+
+None
+
+Created: 2019-12-12T03:53:11.147Z
+Latest Update: 2020-02-20T21:32:04.987Z
+
+Reported by IamSushi#0001
+
+####Steps to reproduce:
+- Go to ``Scan QR Code`` option 
+- Go to ``Application Settings (phone settings)`` 
+- Go back to the app and observe
+
+####Expected result:
+Discord should leave the ``Scan QR Code`` tab.
+####Actual result:
+Discord will get all dark.
+####Client settings:
+Android for 1004
+####System settings:
+Samsung S7, Android 8.1
+
+50207
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-12T03:53:11.147Z
+
+
+### Karasu#0013 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5df1b9a7919cb03f936fc055/6cebbaa6a67807eb3d83e8834cd654a1/Screenshot_2019-12-12-02-10-51.jpg added by Bug Bot on 2019-12-12T03:53:14.288Z
+
+
+### Can reproduce.
+Discord just fails silently and stays in dark screen. It should have gave error toast like "unable to use camera". (tried with broken camera instead of denying camera permission) Asus Zenfone 2, Android 5.0, Discord 10.0.4
+
+Karasu#0013 - Bug Bot on 2019-12-12T03:53:18.558Z
+
+
+### Can reproduce.
+Cr on app 1004, OnePlus 5T Android Pie
+
+OneNormalUsername#7636 - Bug Bot on 2019-12-12T03:53:23.567Z
+
+
+### Can reproduce.
+Discord 10.0.4, Samsung Galaxy A7, Android 8.0.0
+
+Devscape#0775 - Bug Bot on 2019-12-12T03:53:28.563Z
+
+
+### Can reproduce.
+Galaxy Note9, Android 9, Discord 10.04
+
+Hufy#0001 - Bug Bot on 2019-12-12T04:06:41.669Z
+
+
+### Can reproduce.
+CR; Samsung A5, Android 6.0.1. Android Alpha 10.0.4
+
+Murtaugh#7229 - Bug Bot on 2019-12-12T06:25:52.687Z
+
+
+### Can reproduce.
+Samsung Galaxy A70 - Android 9 - Discord 1004
+
+Fumple#0001 - Bug Bot on 2019-12-12T08:08:34.937Z
+
+
+### Can reproduce.
+CR; Huawei P30 Pro, Android 10/EMUI10, Discord 1004
+
+Kissa#1337 - Bug Bot on 2019-12-12T12:08:54.282Z
+
+
+### Can reproduce.
+CR, Casper Via M3, Android 7, Discord 1.0.0.4
+
+Smokepurpp#6012 - Bug Bot on 2019-12-12T15:06:50.392Z
+
+
+### Can reproduce.
+CR Motorola G7 Power, Android 9.0 V1004
+
+Dalevine1024#3388 - Bug Bot on 2019-12-12T18:07:11.934Z
+
+
+### Can reproduce.
+CR, OnePlus 6, Android 9, Discord 1005
+
+Krypton#3342 - Bug Bot on 2019-12-13T03:30:47.562Z
+
+
+### Can reproduce.
+Discord 10.0.7, Redmi Note 4, Android 7
+
+Rohit#3523 - Bug Bot on 2019-12-14T11:00:22.867Z
+
+
+### Can reproduce.
+CR +a
+
+Typhoon#1337 - Bug Bot on 2019-12-15T03:17:51.431Z
+
+
+### My correct client settings are;  Android 9, Oppo find X
+
+Typhoon#1337 - Bug Bot on 2019-12-15T03:18:43.179Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:32:05.000Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

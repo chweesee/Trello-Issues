@@ -1,0 +1,97 @@
+[Archived] Push notifications don't disappear automatically for servers with notifications for all messages (https://trello.com/c/CIXakmSD)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-06-02T21:42:58.017Z
+Latest Update: 2020-01-19T17:00:02.850Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Open any server and go to the notification settings 
+- Set the notification settings to all messages 
+- Close out of Discord 
+- Go to another account and send a message in this server 
+- Go back to your first account and open Discord again (not via the push notification!) 
+- Go to the channel which caused the push notification and mark it as read (also works with a second device or the desktop app)
+
+####Expected result:
+Push notification should disappear automatically.
+####Actual result:
+It stays and only disappears after manually removing/clicking on it or when a new notification with a badge arrives.
+####Client settings:
+Stable 2.3.3
+####System settings:
+iPhone 6s, iPad Air 2 - iOS 11.4
+
+13632
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-02T21:42:58.017Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 Stable 2.3.3
+
+Xylium#1480 - Bug Bot on 2018-06-02T21:43:05.453Z
+
+
+### Can reproduce.
+Can Reproduce, iPhone 7 Plus, iOS 11.3.1, TF 2.3.2
+
+ash#0001 - Bug Bot on 2018-06-02T21:43:10.419Z
+
+
+### Can reproduce.
+I feel like I reproduced this properly 👀 | iPhone 6s Plus, iOS 11.4.1 PB1, TestFlight 2.3.2 (4760)
+
+Mustard#2117 - Bug Bot on 2018-06-02T21:43:15.364Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 11.4.1 Dev beta 6, Discord TestFlight 2.3.2 (4760)
+
+Disegual#4088 - Bug Bot on 2018-06-04T14:12:04.712Z
+
+
+### verified, ios 11, ipad pro, 2.3.4 - Clayton on 2018-06-05T00:09:43.808Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-05T00:09:51.048Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:50.436Z
+
+
+### Can reproduce.
+| iPhone 6S, iOS 12.4, TestFlight 3.1.1 (16898)
+
+Majestic#3774 - Bug Bot on 2019-08-20T01:55:30.160Z
+
+
+### Unarchived by Bug Bot on 2019-08-20T02:00:06.597Z
+
+
+### Archived by Bug Bot on 2019-11-03T20:30:16.310Z
+
+
+### Can reproduce.
+iPhone 7, iOS 13.3, TestFlight 3.1.9 (18591)
+
+Alliegory#8966 - Bug Bot on 2019-12-20T16:05:54.423Z
+
+
+### Unarchived by Bug Bot on 2019-12-20T16:30:05.857Z
+
+
+### Archived by Bug Bot on 2020-01-19T17:00:02.863Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,81 @@
+[Archived] Receiving rich embed DMs from bots (and presumably users) crashes Discord when opened (I guess this got denied even though everyone can repro it, so thanks everyone) (https://trello.com/c/Guvjzz0F)
+
+None
+
+Created: 2017-07-28T12:03:33.380Z
+Latest Update: 2017-10-30T17:10:42.159Z
+
+Reported by Dru#7700
+
+####Steps to reproduce:
+- Find a bot that has rich embeds in DMs 
+- invoke a command (not in DMs) that makes said bot DM you a rich embed 
+- Try to open new message
+
+####Expected result:
+You can open the DM and see the bot's embed right away
+####Actual result:
+You cannot open that DM because it crashes Discord
+####Client settings:
+TestFlight 1.8.9 (82)
+####System settings:
+iOS 11.0 Developer Beta
+
+2652
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-28T12:03:33.380Z
+
+
+### Dru#7700 - https://www.youtube.com/watch?v=Gg5DmYnEeQ4 added by Bug Bot on 2017-07-28T12:03:35.756Z
+
+
+### Can reproduce.
+ iPhone 7, iOS 11 beta 4, TF 1.8.9
+
+Tiemen#0107 - Bug Bot on 2017-07-28T12:03:40.731Z
+
+
+### Can reproduce.
+iOS 10.3.3, TF 1.8.9, iPhone 5s
+
+xLars#5484 - Bug Bot on 2017-07-28T12:03:45.761Z
+
+
+### Can reproduce.
+Was able to repro using the Wikibot command "?server dtesters". -is, Discord 1.8.9 (build 82)
+
+SuperSajuuk#7265 - Bug Bot on 2017-07-28T12:03:50.728Z
+
+
+### Can reproduce.
+Was able to repro using the Wikibot command "?server dtesters". iOS 9.3.5 on iPad 4th Gen, Discord 1.8.9 (build 82)
+
+SuperSajuuk#7265 - Bug Bot on 2017-07-28T12:04:14.634Z
+
+
+### Can reproduce.
+iOS 9.3.5, iPod Touch, Discord latest version
+
+sladeiam#0642 - Bug Bot on 2017-07-31T06:01:17.953Z
+
+
+### Can't repro, with the wikibot, or my own memebot - Clayton on 2017-08-02T21:31:20.723Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-08-02T21:31:28.744Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:10:41.346Z
+
+
+### Archived by Jared on 2017-10-30T17:10:42.160Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

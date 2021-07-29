@@ -1,0 +1,160 @@
+[Archived] Window zoomed in in maximised mode, obscuring recent message indicators and partially scrollbars (https://trello.com/c/HvkikS6N)
+
+P2: Fix can wait a while
+
+Created: 2017-07-12T16:55:43.055Z
+Latest Update: 2019-08-31T05:53:12.585Z
+
+Reported by Pointy - battleforthenet.com#5565
+
+####Steps to reproduce:
+- Update Canary to 2182 (I achieved by COMPLETELY closing and reopening canary, not just CTRL+R) 
+- Ensure your window is maximised
+
+####Expected result:
+Window should be normal size
+####Actual result:
+Window is zoomed in, obscuring some objects onscreen (see attached)
+####Client settings:
+Desktop Canary 0.0.157 (Build 2182)
+####System settings:
+Win 10 Pro x64 v1607 - 1920x1080 screen
+
+2186
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-12T16:55:43.055Z
+
+
+### Pointy - battleforthenet.com#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5966548fa8ee2c4220153137/ef44a97b1937bc32bf7fa63afc5bab28/a1377b.png added by Bug Bot on 2017-07-12T16:55:47.339Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64-bit, Discord Canary 0.0.158
+
+Tarek1337#0379 - Bug Bot on 2017-07-12T16:55:50.601Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64, Discord Canary 0.0.158
+
+jerbear64#3629 - Bug Bot on 2017-07-12T16:55:55.536Z
+
+
+### Can reproduce.
+CR,  Windows 10 (x64) Build 15063.293 @ Version 1703, Discord Canary Version 0.0.157
+
+Joseph#1718 - Bug Bot on 2017-07-12T16:56:00.551Z
+
+
+### App version is actually 0.0.158, #blamelogiz
+
+Pointy - battleforthenet.com#5565 - Bug Bot on 2017-07-12T16:56:52.795Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary 0.0.158
+
+Flex#0501 - Bug Bot on 2017-07-12T17:27:18.255Z
+
+
+### Can reproduce.
+Win 7 x64, Discord Canary 0.0.158
+
+dross#1913 - Bug Bot on 2017-07-13T01:50:02.874Z
+
+
+### Can reproduce.
+Windows 10 Pro (1703) x64, Canary v0.0.158
+
+Furdog#4779 - Bug Bot on 2017-07-13T03:59:29.256Z
+
+
+### Can reproduce.
+win10 home creators x64, canary 0.0.161
+
+WoMspace#4509 - Bug Bot on 2017-07-20T12:27:02.788Z
+
+
+### Can reproduce.
+Windows 10 Pro Creators Update x64, Desktop Canary, 0.0.161
+
+NorbiPeti#1869 - Bug Bot on 2017-07-24T14:12:53.763Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1703, Discord Canary Desktop 0.0.161
+
+Galarzaa#8515 - Bug Bot on 2017-07-25T17:01:13.920Z
+
+
+### Verified. - Jared on 2017-07-27T21:14:30.050Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-07-27T21:14:33.692Z
+
+
+### Can no longer reproduce. Win10 Canary 0.0.163 - Mike Nisbet on 2017-08-01T21:16:10.376Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-08-01T21:16:18.093Z
+
+
+### Can't reproduce.
+CNR - Desktop Canary 0.0.163 (Build 2739) - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-08-01T21:19:18.326Z
+
+
+### Can't reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.163
+
+Curse Broken#8659 - Bug Bot on 2017-08-02T05:33:43.803Z
+
+
+### Can't reproduce.
+Can confirm fixed, Discord Canary, Windows 10 CU x64
+
+NorbiPeti#1869 - Bug Bot on 2017-08-03T10:40:36.762Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-08-09T03:32:53.323Z
+
+
+### Can reproduce.
+Can reproduce again, Discord Canary, Windows 10 CU x64
+
+NorbiPeti#1869 - Bug Bot on 2017-09-01T11:52:11.780Z
+
+
+### Can't reproduce.
+CNR, Discord Canary 0.0.163 (Build 3838) on Windows 10 Pro 64-bit (Build 1607) \o/
+
+Tarek1337#0379 - Bug Bot on 2017-09-01T11:58:18.532Z
+
+
+### Can't reproduce.
+CNR Windows 10 home x64, canary 0.0.163
+
+ks0908#8526 - Bug Bot on 2017-09-01T12:03:18.783Z
+
+
+### Can't reproduce.
+Nevermind, the client didn't start as maximized which I confused with this
+
+NorbiPeti#1869 - Bug Bot on 2017-09-02T21:24:47.202Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:35:11.943Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:35:13.138Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

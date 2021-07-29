@@ -1,0 +1,136 @@
+[Archived] Creating a server from an iOS device while also on a desktop causes you to join the new servers VC on desktop instead of iOS (https://trello.com/c/JgVxTJdd)
+
+None
+
+Created: 2019-11-15T16:30:29.177Z
+Latest Update: 2019-11-30T03:22:03.945Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Be on an iOS device and the desktop application 
+- Create a server from the iOS device
+
+####Expected result:
+You join the new servers general VC on your iOS device
+####Actual result:
+You join the new servers general VC on your desktop
+####Client settings:
+TestFlight 3.1.7 (18195) & Desktop Canary 49487
+####System settings:
+iPhone XR iOS 13.2.2 & Windows 10 Dell Inspiron
+
+47981
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-15T16:30:29.177Z
+
+
+### Can reproduce.
+Can Reproduce, iOS 13.2.2 iPhone 7 Testflight 3.1.7 (18195), Windows 10 Discord Stable 49420
+
+Krish12003#5393 - Bug Bot on 2019-11-15T16:30:36.693Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.2.2; TestFlight 3.1.7 (18195) [Tabs Experiment] & MacBook Pro: macOS Catalina 10.15.1; Discord Canary 49525
+
+Jiralite#1207 - Bug Bot on 2019-11-15T16:30:41.680Z
+
+
+### Can reproduce.
+CR : iPhone X, iOS 13.3, TestFlight 3.1.7 (18195) and -w
+
+TheRudeDude#6040 - Bug Bot on 2019-11-15T16:30:46.777Z
+
+
+### Can reproduce.
+CR : iPhone X, iOS 13.3, TestFlight 3.1.7 (18195)
+
+TheRudeDude#6040 - Bug Bot on 2019-11-15T16:32:02.809Z
+
+
+### Moved from New Issues to Need Exploration by Jonathan Wu on 2019-11-15T16:40:38.576Z
+
+
+### i noticed this @fanghao2 is this intended? I know we automatically join voice on desktop when u create a server... we seem to trigger the same logic when we create on iphone and it can be jarring - Jonathan Wu on 2019-11-15T16:41:24.691Z
+
+
+### Can reproduce.
+iPhone X, iOS 13.3 (Dev beta 2), TestFlight 3.1.7 (18195), -w 49633
+
+Keons#0001 - Bug Bot on 2019-11-15T17:13:07.221Z
+
+
+### My CR is supposed to say Windows 10 Education 1909 build 18363, Canary 49633
+
+Keons#0001 - Bug Bot on 2019-11-15T17:13:42.980Z
+
+
+### Can reproduce.
+iPhone 7 Plus iOS 13.2.2, Testflight 3.1.7 (18195) | Windows 10 Pro, Canary 49633
+
+Action Potential#6862 - Bug Bot on 2019-11-15T17:52:53.097Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.2, TestFlight 3.1.7 (18209) + Windows 10 Pro x64 v1903, - Discord Canary, Build Number: 49664
+
+.Gloria.#9606 - Bug Bot on 2019-11-15T20:31:12.608Z
+
+
+### Can reproduce.
+CR: iPhone 6s, iOS 13.2, Testflight 3.1.7 (18195); MacBook Pro: macOS Catalina 10.15.1, Discord Canary 49525
+
+PiPinecone#9731 - Bug Bot on 2019-11-16T04:23:16.183Z
+
+
+### Can reproduce.
+iPhone X (iOS 13.2), Testflight 3.1.6 (18209)
+
+MikeTheSpike#0350 - Bug Bot on 2019-11-16T06:34:04.451Z
+
+
+### Can reproduce.
+CR, iPhone XS Max iOS 13.1.2, TestFlight 3.1.7 (18209), -m, Canary Build 49715
+
+Masterpiece#0001 - Bug Bot on 2019-11-16T13:09:17.454Z
+
+
+### Can reproduce.
+Can reproduce - iPhone XS (iOS 13.1.2), TestFlight Build 3.1.7 (18209)
+
+kiosion#0001 - Bug Bot on 2019-11-16T18:26:03.919Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 7, iOS 13.3 (Public Beta 2), TestFlight 3.1.7 (18209)
+
+ryan#0570 - Bug Bot on 2019-11-17T03:50:32.246Z
+
+
+### Can reproduce.
+CR on iPhone 6s; iOS Version 13.2; TestFlight 3.1.7 (18209) and -w; Canary Build 49748
+
+RPS1222#5127 - Bug Bot on 2019-11-18T00:48:17.146Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.2.2; TestFlight 3.1.7 (18209) and Windows 10 Home; Canary Build 49748 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-18T05:56:55.620Z
+
+
+### Dupe of https://trello.com/c/WT4sGZ9S which is a cross-platform bug. - mrkirby153 on 2019-11-30T03:22:02.778Z
+
+
+### Archived by mrkirby153 on 2019-11-30T03:22:03.957Z
+
+List
+====
+Need Exploration
+
+Members
+=======
+None

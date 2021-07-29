@@ -1,0 +1,154 @@
+[Archived] Three spaces and then a return in the channel topic cause the app to crash when viewing the member list (https://trello.com/c/fKcqk6eg)
+
+P2 - Can wait a while,
+mid,
+Needs impact analysis
+
+Created: 2017-03-10T20:00:20.239Z
+Latest Update: 2018-10-05T00:01:44.883Z
+
+Reported by The Monitor Lizard#9090
+
+####Steps to reproduce: 
+- edit the channel description of any channel to contain three spaces in a row, followed by a return
+- view the member list on ios
+
+####Expected result:
+ The channel sidebar with topic and members loads normally. 
+####Actual result:
+ Application Crashes without loading anything. 
+####System settings:
+ iOS 9.3.5 and Discord 1.8.3
+
+1937
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-10T20:00:20.239Z
+
+
+### Can reproduce.
+iOS 10.2.1 TF 1.8.3 (72) iPhone 5S
+
+Mikesky#3456 - Bug Bot on 2017-03-10T20:00:20.923Z
+
+
+### Can reproduce.
+iOS 9.3.5, Discord 1.8.3, iPhone 5s
+
+西木野真姫★★★★#9667 - Bug Bot on 2017-03-10T20:00:22.818Z
+
+
+### Can reproduce.
+iPhone SE Latest
+
+Jack#0305 - Bug Bot on 2017-03-10T20:00:25.233Z
+
+
+### appears to be caused when 3 spaces are put after a word, then a new line of the topic is started
+
+Mikesky#3456 - Bug Bot on 2017-03-10T20:01:21.791Z
+
+
+### Can reproduce.
+1.8.3
+
+FishmanPirate#9743 - Bug Bot on 2017-03-10T21:45:49.104Z
+
+
+### Can reproduce.
+iPhone 6 TestFlight
+
+Harrison#9100 - Bug Bot on 2017-03-10T23:43:45.652Z
+
+
+### Can reproduce.
+TestFlight 1.8.3(72)
+
+naters305#4120 - Bug Bot on 2017-03-11T04:38:21.796Z
+
+
+### Can reproduce.
+1.8.3
+
+AkiBoopsAki#3140 - Bug Bot on 2017-03-12T12:33:23.568Z
+
+
+### Can reproduce.
+iOS 10.1.1 and Discord 1.8.3
+
+JScott Forstall#0586 - Bug Bot on 2017-03-13T02:55:45.571Z
+
+
+### Verified. - Jared on 2017-03-14T23:34:42.385Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-03-14T23:34:45.153Z
+
+
+### Can reproduce.
+iOS 10 Public Beta 7
+
+apap04#7823 - Bug Bot on 2017-03-18T23:44:21.104Z
+
+
+### Can't reproduce this any more before the invite is expired and the text was never added here. - Jared on 2017-10-24T23:45:14.857Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jared on 2017-10-24T23:45:18.811Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5, TestFlight 1.9.3 (1336). See Mikesky's note below. It is an issue when there are 3 spaces after an word and then a linebreak and a new word. Also I can't open such a server anymore after bug occurred because it crashes every time. The only fix is to change the description via Desktop.
+
+Example:
+```Test   
+test```
+
+Pascal#0929 - Bug Bot on 2017-10-26T10:56:13.167Z
+
+
+### Ignore my example below. It doesn't get displayed correctly here in Trello.
+
+Pascal#0929 - Bug Bot on 2017-10-26T10:58:44.484Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2017-10-26T21:21:37.951Z
+
+
+### Moved from Verified Bugs to Next up for Investigation by Jared on 2017-12-05T19:23:31.149Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.1.2, TestFlight 2.2.0 (build 2080)
+
+JustGamer#2542 - Bug Bot on 2018-01-07T06:55:32.294Z
+
+
+### Can't reproduce.
+IOS 11.2.6 | iPhone 7
+
+TheNamesSubject#0001 - Bug Bot on 2018-03-02T08:02:22.856Z
+
+
+### Can reproduce.
+Can still reproduce of Discord TestFlight 2.3.1 (4051) on iPhone 8 + running iOS 11.4 PB1.
+
+Ghoul the Kitty#0009 - Bug Bot on 2018-05-01T04:24:08.788Z
+
+
+### Moved from Next up for Investigation to Fix made, not yet released by Fanghao on 2018-05-16T00:04:01.341Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-05-24T00:51:18.688Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:44.885Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

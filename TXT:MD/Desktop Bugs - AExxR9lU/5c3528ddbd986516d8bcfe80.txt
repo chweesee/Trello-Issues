@@ -1,0 +1,82 @@
+[Archived] The emoji, mention and channel tag completer does not recognize when the caret is in the middle of one (https://trello.com/c/R4UorkgY)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-01-08T22:49:01.249Z
+Latest Update: 2019-02-08T10:00:03.704Z
+
+Reported by Wist#7790
+
+####Steps to reproduce:
+- Type any emoji such as 🚪 in the input 
+- Move the caret anywhere in the emoji and press Tab to complete the emoji 
+- Repeatedly use the Undo hotkey 
+- Repeatedly use the Redo hotkey
+
+####Expected result:
+If the caret were inside a complete and correct completeable such as 🔴 and Enter were pressed, the message would be sent as-is. If the completeable were incorrect, but correctable, such as :pes:, the completion tooltip would show 🍇 as it does now, and move the caret after the complete emoji when upon pressing Enter
+####Actual result:
+Upon pressing Enter while the caret is between the "oo" in 🚪, the :do completes to 🚯 or:. Undoing results in an inconsistent state. Redoing a few times results in the following uncaught exception:
+```
+Error- Object has been destroyed
+at  (C:\Users\User\AppData\Local\Discord\app-0.0.301\resources\\browser\api\)
+at  (C:\Users\User\AppData\Local\Discord\app-0.0.301\resources\\browser\api\)
+```
+####Client settings:
+Release Channel: stable, Build Number: 30418, Version Hash: 63c35f5155312cb85fc924d827c74351362e0e28
+####System settings:
+Windows 8.1
+
+25756
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-08T22:49:01.249Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Canary 30505
+
+cool person (not clickbait)#0274 - Bug Bot on 2019-01-08T22:49:08.653Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x,Canary 30591
+
+Octillion#6666 - Bug Bot on 2019-01-08T22:49:13.647Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 w/ Discord Canary 30591
+
+rubisco#4310 - Bug Bot on 2019-01-08T22:49:18.656Z
+
+
+### verified, macos 10.12.6, canary 30620 - Clayton on 2019-01-09T04:22:16.261Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-09T04:22:25.568Z
+
+
+### Can reproduce.
+Windows 10 Home x64 build 17763.xxx
+
+a cat#5379 - Bug Bot on 2019-01-09T04:23:40.335Z
+
+
+### Can reproduce.
+win 10 pro x64, Canary 30620
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-09T09:44:34.117Z
+
+
+### Archived by Bug Bot on 2019-02-08T10:00:03.716Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,123 @@
+[Archived] Name is shown in the wrong colour when setting to invisible (https://trello.com/c/92gB5sSZ)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2017-07-24T01:10:20.321Z
+Latest Update: 2018-09-19T16:29:25.706Z
+
+Reported by Sir Dijamond#2160
+
+####Steps to reproduce:
+- Go in a channel 
+
+- Set you to invisible 
+
+- Stay in your channel and take a look in the offline list.
+
+####Expected result:
+You see your name in a light grey colour
+####Actual result:
+Colour doesn't change (tested with red)
+####Client settings:
+Discord for iOS 1.8.8
+####System settings:
+iOS 10.3.3, iPhone SE
+
+2518
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-24T01:10:20.321Z
+
+
+### Ten#1723 - undefined added by Bug Bot on 2017-07-24T01:10:23.071Z
+
+
+### Sir Dijamond#2160 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/597548fc8ebe77818288973a/29cba3e764ebcfe23bd22e02d8a0712d/image.png added by Bug Bot on 2017-07-24T01:10:23.153Z
+
+
+### Can reproduce.
+Can repro, iOS 11.0 beta iPhone SE
+
+Acorn#4444 - Bug Bot on 2017-07-24T01:10:27.748Z
+
+
+### Can reproduce.
+Can reproduce. Discord for iOS 1.8.8, iPhone 6
+
+Red Scare#3564 - Bug Bot on 2017-07-24T01:10:32.836Z
+
+
+### Can reproduce.
+Can reproduce. Discord 1.8.9 (82), iOS 10.3.3, iPad Air (1st Gen)
+
+BREEZLET#0926 - Bug Bot on 2017-07-24T01:10:37.703Z
+
+
+### Happens on Canary as well.
+
+Ten#1723 - Bug Bot on 2017-07-24T05:56:58.488Z
+
+
+### Can reproduce.
+I haven't tested it on iOS but it partially occurs on Canary for Windows: The color does become grayer, but the avatar stays colored and there is a gray dot, and the name is still thick instead of the usual offline thin. Changing someone else's roles makes changes your appearance to the standard offline look. (Surface Pro 3, Windows 10 Pro 1703 (15063.296), Discord Canary 0.0.161)
+
+advaith#9121 - Bug Bot on 2017-07-24T10:03:23.257Z
+
+
+### Can reproduce.
+Discord 1.8.9 (82), iOS 10.2, iPad mini 4
+
+Sloofy#9106 - Bug Bot on 2017-07-24T19:43:00.582Z
+
+
+### Verified.  - Clayton on 2017-08-02T21:40:41.576Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-02T21:40:47.706Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-27T10:44:26.240Z
+
+
+### It seems that the issue only happens with iOS 10+
+
+Pascal#0929 - Bug Bot on 2018-01-27T19:01:11.221Z
+
+
+### I can still reproduce. 
+
+Discord 2.2.1 (2236), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-01-28T11:41:58.846Z
+
+
+### Can reproduce.
+I’m surprised I can reproduce this old bug, and will probably be adding a screenshot just to prove it. iPod Touch 6th generation, iOS 11.4, Stable 2.3.3
+
+🐎nickWtn🐎#3789 - Bug Bot on 2018-06-21T07:56:21.644Z
+
+
+### 🐎nickWtn🐎#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/597548fc8ebe77818288973a/5293e64a350f70934e0d4f1153e14229/l46Jemp.png added by Bug Bot on 2018-06-21T08:04:20.170Z
+
+
+### This is not a bug. It's intended that you can see yourself in the normal role color while having the offline status. Because of this not being a bug, I am moving it to Not a Bug. - Ghoul on 2018-07-06T22:28:51.683Z
+
+
+### Moved from Verified Bugs to Not a bug by Ghoul on 2018-07-06T22:29:00.323Z
+
+
+### This ticket has been in Not a Bug list for more than a month without any new activity. I am archiving this ticket due to inactivity and being in Not a Bug since July. - Ghoul on 2018-09-19T16:29:19.276Z
+
+
+### Archived by Ghoul on 2018-09-19T16:29:25.711Z
+
+List
+====
+Not a bug
+
+Members
+=======
+None

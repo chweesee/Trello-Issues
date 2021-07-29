@@ -1,0 +1,107 @@
+Channel links and mentions do not fully resolve in push notifications (https://trello.com/c/hgOx1TiP)
+
+P2 - Can wait a while,
+low
+
+Created: 2017-08-26T13:36:49.174Z
+Latest Update: 2020-01-25T20:55:16.565Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce:
+- Enable Push notifications in a server. 
+- Get a message in that server which contains a discord link or mention. 
+- Observe the notification.
+
+####Expected result:
+The notification resolves the link or mention properly.
+####Actual result:
+The links or mentions resolve to either plain text nicks or the actual ID of a link.
+####Client settings:
+Testflight 1.9.1 (Build 524)
+####System settings:
+iOS 9.3.5 on iPad 4th Gen
+
+3635
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-26T13:36:49.174Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59a17971a47e4f2fcd5c28ae/668e4007101aea4731eca1400b52b1af/P85lgKS.png added by Bug Bot on 2017-08-26T13:36:52.361Z
+
+
+### pope#3775 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59a17971a47e4f2fcd5c28ae/edfbb577538367389eb45fc1b6e990d0/xwbPUTK.png added by Bug Bot on 2017-08-26T13:36:52.550Z
+
+
+### SuperSajuuk#7265 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59a17971a47e4f2fcd5c28ae/5b058f7bdd5bc862e421455f91a6f0e2/image.png added by Bug Bot on 2017-08-26T13:36:53.383Z
+
+
+### Can reproduce.
+iPhone SE, iOS 10.3.3, TestFlight 1.9.1 (524)
+
+pope#3775 - Bug Bot on 2017-08-26T13:36:56.886Z
+
+
+### Can reproduce.
+IPhone 6S, iOS 10.3.3, TestFlight 1.9.1
+
+Xur, Agent of The Nine#6761 - Bug Bot on 2017-08-26T13:37:01.930Z
+
+
+### Can reproduce.
+CR, TestFlight 1.9.1, iPhone 6s, iOS 10.3.3
+
+Nelson1348#9190 - Bug Bot on 2017-08-26T13:37:06.901Z
+
+
+### Can reproduce.
+iPhone 6, IOS 10.3.3
+
+xPølish x NextGenZ#0005 - Bug Bot on 2017-08-26T14:36:35.172Z
+
+
+### This isn't a bug, the same thing happens on desktop. - Jared on 2017-09-18T23:10:12.746Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-09-18T23:10:16.804Z
+
+
+### This behaviour didn't use to happen (can't remember what build), and it also didn't happen on any other version, until it randomly changed to not resolve. I guess maybe it needs to be a feature request to restore this behaviour, rather than a bug report?
+
+SuperSajuuk#7265 - Bug Bot on 2017-09-24T16:32:06.606Z
+
+
+### Dabbit, this does NOT happen on Desktop at all, thus this is a bug that needs to be fixed. I just asked someone to post a channel link on the BHT server and on desktop, the notification showed the textual name, not the Snowflake ID.
+
+SuperSajuuk#7265 - Bug Bot on 2017-09-27T10:57:57.046Z
+
+
+### Moved from Won't Fix to Verified Bugs by Jared on 2017-10-20T17:57:25.853Z
+
+
+### Can reproduce.
+Can still reproduce as of 1/23/18, ios 10.3.3, iPod touch 6 generation, TestFlight 2.2.1 (2236)
+
+❤nickWtn❤#3789 - Bug Bot on 2018-01-24T00:25:48.267Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.3; TestFlight 3.1.9 (18591) & iPad 7: iPadOS 13.3; TestFlight 3.1.9 (18591)
+
+Jiralite#1207 - Bug Bot on 2020-01-25T20:54:25.199Z
+
+
+### Can reproduce.
+IPhone 8+, iOS 13.3, Stable 3.1.9
+
+Rodentman87#8787 - Bug Bot on 2020-01-25T20:55:16.578Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

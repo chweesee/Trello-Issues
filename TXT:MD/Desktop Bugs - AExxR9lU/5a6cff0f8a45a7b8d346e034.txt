@@ -1,0 +1,96 @@
+[Archived] After pressing "Hide muted channels", categories that contains only muted channels will vanish completely. (https://trello.com/c/aee8RDae)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-27T22:37:04.021Z
+Latest Update: 2018-08-30T23:15:18.143Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Be in a server where you don't have create channels permission (the + button next to category names mustn't be there) 
+- Pick any category in this server containing only text channels (no voice)  
+- Mute all channels in this category.  
+- Go to server menu and click "Hide muted channels"
+
+####Expected result:
+The muted channels disappear and the category should be now empty
+####Actual result:
+The whole category is gone, despite having permission to view the category.
+####Client settings:
+Discord Canary 10015
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+8213
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-27T22:37:04.021Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.185 (Build: 10015)
+
+Pascal#0929 - Bug Bot on 2018-01-27T22:37:11.603Z
+
+
+### Can reproduce.
+Canary build 10015, Ubuntu 16.04 LTS x64
+
+NorbiPeti#1869 - Bug Bot on 2018-01-27T22:37:16.427Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary 10015
+
+Poker1st#0001 - Bug Bot on 2018-01-27T22:37:21.456Z
+
+
+### Can reproduce.
+CR MacBook Pro (late 2013), macOS  Sierra 10.12.1, Discord Canary build 10018
+
+JustGamer#7127 - Bug Bot on 2018-01-27T22:43:18.511Z
+
+
+### To be honest I'm not sure whether this is the intended bahavior or not, because this bug also happens on Android. However, the exact opposite bug has been reported before and it got archived because NAB: https://trello.com/c/JKxT9FcH/
+
+Btw I originally wrote this report for Android that's why I used words like "Pressing" in short descrption, I just forgot to change that when posting it in Desktop bug reports.
+
+Alex1304#9704 - Bug Bot on 2018-01-27T23:22:19.122Z
+
+
+### Can reproduce.
+Windows 10 x64 1709 / Discord Canary 10018
+
+casungo#2990 - Bug Bot on 2018-01-30T22:46:49.563Z
+
+
+### Verified.  - Clayton on 2018-01-31T22:57:36.438Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-31T22:57:40.944Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12217
+
+cutelilberry#5423 - Bug Bot on 2018-03-17T18:09:54.895Z
+
+
+### I am moving this ticket to Not a Bug because I really don't see how this is a bug. Technically, what you are doing is that you are literally hiding all of the channels in one category which doesn't really gives a reason why the category should appear if there are hidden channels. (Also confirmed with Dabbit about this ticket.) - Ghoul on 2018-07-05T23:21:38.969Z
+
+
+### Moved from Verified Bugs to Not a Bug by Ghoul on 2018-07-05T23:21:49.144Z
+
+
+### Archived by Clayton on 2018-08-30T23:15:18.150Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

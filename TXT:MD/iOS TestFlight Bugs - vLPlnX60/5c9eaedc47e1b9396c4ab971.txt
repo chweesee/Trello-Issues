@@ -1,0 +1,102 @@
+[Archived] Opening user settings (change account), then opening enable 2FA, and exiting causes the account settings (change account) to pop up (https://trello.com/c/YsLmtf2O)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-29T23:48:44.985Z
+Latest Update: 2019-05-30T04:00:03.431Z
+
+Reported by ZX ////#3405
+
+####Steps to reproduce:
+- Open settings 
+- Go to `Account` 
+- Remove 2FA if it is currently enabled 
+- Click `Edit Account` 
+- Click `<Account` [back button] 
+- Click `Enable Two-Factor Auth` 
+- Click `Next` 
+- Click `<Back` [back button] 
+- Click `Close` [back button] 
+- Observe the page 
+- Click `<Back` [back button] 
+- Observe the page
+
+####Expected result:
+Exiting 2FA opens the Account settings page
+####Actual result:
+Exiting 2FA opens the Edit Account page, and exiting that brings you to the settings overview
+####Client settings:
+TF 2.5.2 12856
+####System settings:
+iOS 12.1.4 // iPad 9.7"
+
+31807
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-29T23:48:44.985Z
+
+
+### ZX ////#3405 - https://youtu.be/eDBTxV0nBFA added by Bug Bot on 2019-03-29T23:48:47.356Z
+
+
+### Can reproduce.
+CR, iPhone 7+, iOS 12.1.4, TestFlight 2.5.2 (12856)
+
+Kino#8860 - Bug Bot on 2019-03-29T23:48:52.371Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, tf 2.5.2 (12856)
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-29T23:48:57.366Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.5.2 (12856)
+
+Killtracity#0001 - Bug Bot on 2019-03-29T23:49:02.332Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.1.4 | TestFlight 2.5.2 (12856)
+
+Clay#0001 - Bug Bot on 2019-03-30T03:56:06.935Z
+
+
+### Can reproduce.
+iPhone 6s iOS 12.2  testflight 2.5.2 (12856)
+
+GlenMerlin#2119 - Bug Bot on 2019-03-30T04:31:55.270Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 2.5.2 (13014)
+
+Skyla#0002 - Bug Bot on 2019-03-30T08:07:34.763Z
+
+
+### Can reproduce.
+TestFlight 2.5.2 (13014) iOS 12.2
+
+󠂪󠂪#0069 - Bug Bot on 2019-03-31T04:13:06.171Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-04-12T19:00:03.031Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.0.1, Discord TestFlight 3.0.1 (14476). Also happens to change password.
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-04-30T03:48:17.639Z
+
+
+### Archived by Bug Bot on 2019-05-30T04:00:03.443Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

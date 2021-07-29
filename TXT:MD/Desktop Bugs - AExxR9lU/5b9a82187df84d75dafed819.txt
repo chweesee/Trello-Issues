@@ -1,0 +1,86 @@
+[Archived] Occasional mismatch in colours for VC latency measurer (https://trello.com/c/cODhsdi2)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-13T15:28:24.144Z
+Latest Update: 2019-01-31T21:30:03.192Z
+
+Reported by Oracle#4444
+
+####Steps to reproduce:
+- Be in voice chat 
+- Be monitoring the latency meter by hovering mouse above it 
+- Have connection change packet loss % so that the colour code changes, WITHOUT changing ping. 
+- Colour of the pop-up latency meter does not change.
+
+####Expected result:
+The colour of the pop-up box should be in accordance with your connection
+####Actual result:
+Then colour of the pop up box does not change. See screenshot
+####Client settings:
+Release Channel: stable, Build Number: 23017
+####System settings:
+Windows 10 Home. Version 1803
+
+19295
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-13T15:28:24.144Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b9a82187df84d75dafed819/2bf759dd64dc72331e2b7ea8685fac53/qhlVqY4.png added by Bug Bot on 2018-09-13T15:28:26.570Z
+
+
+### Can reproduce.
+Can reproduce, Tested on Windows 10 Home 64-bit (1803) with Discord Canary Build 23321
+
+that15fine#9275 - Bug Bot on 2018-09-13T15:28:31.500Z
+
+
+### Can reproduce.
+CR on Windows 10 Home 32-bit, Discord Canary 23321
+
+FocusFon#1337 - Bug Bot on 2018-09-13T15:28:36.407Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Sierra 10.12.6 • Canary 23589
+
+Rage#9991 - Bug Bot on 2018-09-13T15:28:41.429Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 23589
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-13T16:56:03.690Z
+
+
+### verified, macos 10.12.6, canary 23589 - Clayton on 2018-09-13T20:29:43.783Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-13T20:29:52.399Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Build 1803, Canary Build Number: 23709
+
+JVC Almeos#1984 - Bug Bot on 2018-09-14T22:51:51.966Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 30302
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-12-30T23:43:17.010Z
+
+
+### Archived by Bug Bot on 2019-01-31T21:30:03.204Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

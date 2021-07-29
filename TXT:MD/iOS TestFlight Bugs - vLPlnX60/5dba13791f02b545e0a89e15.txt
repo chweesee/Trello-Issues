@@ -1,0 +1,86 @@
+[Archived] While scrolling through a long DM list with iOS VoiceOver, VO will skip to the right into the open but not fully visible DM or jump to the attach image/emote icons in the open DM on iPad (https://trello.com/c/itIHBckt)
+
+P3 - Will be fixed eventually
+
+Created: 2019-10-30T22:49:29.338Z
+Latest Update: 2020-06-12T20:30:05.477Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Have a lot of open DMs 
+- Enable iOS VoiceOver 
+- Go to the DM list & select a DM but do not fully open it 
+- Swipe your finger to the right to scroll down the DM list 
+- Keep swiping
+
+####Expected result:
+You should be brought down the DM list one DM at a time until the end of the list
+####Actual result:
+VoiceOver will skip to the right, into the DM that is shown on the right side of the screen
+####Client settings:
+TestFlight 3.1.5 (17627)
+####System settings:
+iPhone XR & iPad Air iOS & iPadOS 13.1.3
+
+45891
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-30T22:49:29.338Z
+
+
+### Can reproduce.
+CR, iPhone X (iOS 13.1.3), Testflight 3.1.6 (17811)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-30T22:49:37.034Z
+
+
+### Can reproduce.
+can reproduce, iphone 11, ios 13, testflight 3.1.6 (17984)
+
+IcyPebbles#5833 - Bug Bot on 2019-10-30T22:49:42.073Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.6 (17924)
+
+.Gloria.#9606 - Bug Bot on 2019-10-31T03:01:57.286Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-11-08T19:00:07.781Z
+
+
+### Archived by Bug Bot on 2019-12-08T19:30:05.157Z
+
+
+### Can reproduce.
+iPad 7: iPadOS 13.3.1; TestFlight 13.0 (19259)
+
+Jiralite#1207 - Bug Bot on 2020-03-13T16:15:34.340Z
+
+
+### Unarchived by Bug Bot on 2020-03-13T16:30:05.786Z
+
+
+### Archived by Bug Bot on 2020-04-12T17:00:03.604Z
+
+
+### Can reproduce.
+Extension: This also happens whilst creating a new DM. iPhone 7: iOS 13.4.1; TestFlight 21.0 (19848) & iPad 7: iPadOS 13.4.1; TestFlight 20.0 (19811)
+
+Jiralite#1207 - Bug Bot on 2020-05-06T12:33:44.278Z
+
+
+### Unarchived by Bug Bot on 2020-05-06T13:00:05.329Z
+
+
+### Archived by Bug Bot on 2020-06-12T20:30:05.486Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

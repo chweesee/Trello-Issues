@@ -1,0 +1,90 @@
+[Archived] Discord Avatar upload preview incorrectly scales GIFs rather than cropping them (https://trello.com/c/RCpS0CjY)
+
+P3: Will get fixed eventually
+
+Created: 2017-02-23T13:27:10.122Z
+Latest Update: 2018-08-30T23:34:09.818Z
+
+Reported by Justyn#6072
+
+####Steps to reproduce: 
+- Open User Settings 
+- Click to upload a new avatar 
+- Select a GIF that has a longer width than height or vice versa ( Test Images: http://i.imgur.com/b6Gf3rK.gif / http://i.imgur.com/F44L9Nv.gif )  
+- Upload said GIF and it will correctly display, despite the preview image. 
+
+####Expected result:
+ Image preview should match the result after upload. 
+####Actual result:
+ Preview does not match and is misleading 
+####System settings:
+ Win 10 x64, Latest Canary
+
+1735
+
+Card Log
+========
+### Added by Jared on 2017-02-23T13:27:10.122Z
+
+
+### Can reproduce.
+macOS Sierra, latest Canary
+
+GerdSattler#3221 - Jared on 2017-02-23T13:27:10.838Z
+
+
+### Can reproduce.
+MacOS 10.12.3 Canary
+
+Harrison#9100 - Jared on 2017-02-23T13:27:12.737Z
+
+
+### Can reproduce.
+Windows 7 x64 pro, Canary 0.0.153
+
+EMT#3690 - Jared on 2017-02-23T13:27:14.865Z
+
+
+### F44L9Nv.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58aee32eef3f3d21a08f743f/7cf9862a9b44e9c4f02fac459ee774ae/F44L9Nv.gif added by Jared on 2017-02-23T13:27:25.922Z
+
+
+### b6Gf3rK.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58aee32eef3f3d21a08f743f/a19506c507e91574041046c4e65d4d8a/b6Gf3rK.gif added by Jared on 2017-02-23T13:27:26.075Z
+
+
+### OKBwxVi.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58aee32eef3f3d21a08f743f/203edd85006132209625cecd66f3f7ea/OKBwxVi.png added by Jared on 2017-02-23T13:27:26.150Z
+
+
+### Can't reproduce.
+
+
+AdmiralApple74#0280 - Jared on 2017-02-23T16:17:15.145Z
+
+
+### Can reproduce. 
+Mac OS 10.11.6, Canary 0.0.144 - Clayton on 2017-02-23T22:31:01.790Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-02-23T22:31:16.186Z
+
+
+### Can't reproduce.
+Canary 18027 - Windows 10 Home x64 v1709
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T15:41:15.361Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-11T19:46:30.799Z
+
+
+### Verified Fixed - Jared on 2018-07-11T19:46:35.114Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:09.820Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

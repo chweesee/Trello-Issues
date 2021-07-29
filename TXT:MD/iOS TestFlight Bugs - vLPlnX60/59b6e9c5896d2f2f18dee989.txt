@@ -1,0 +1,68 @@
+[Archived] Crashes when I open a server too early and check the Member list (https://trello.com/c/ead3Gggp)
+
+None
+
+Created: 2017-09-11T19:53:41.706Z
+Latest Update: 2019-10-27T16:30:01.280Z
+
+Reported by Nick Crompton#7090
+
+####Steps to reproduce:
+- Load discord on an iPad running 10.0 or later 
+- (There could be an issue with this as it only happens to me in 1 server so I'm going to specifically say the servers name) Click on the LGBTQ+ Lounge OR 
+- Wait 5-10 mins, click on the server and try to view the members list by swiping to the left. Now I don't know if it only happens on that lgbtq+ server or it also happens to others that are not in the server
+
+####Expected result:
+Discord shows you the members of that server
+####Actual result:
+Discord starts to reload OR  discord completely crashes and kicks you out.
+####Client settings:
+1.8.8
+####System settings:
+iPad Air 2 iOS 10.0
+
+4054
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-11T19:53:41.706Z
+
+
+### Can reproduce.
+CR, Only occurs on LGBTQ+ Lounge, iPad Mini 1, iOS 9.3.5, Stable 1.9.0 [iPad ONLY]
+
+Nelson1348#9190 - Bug Bot on 2017-09-11T19:53:49.264Z
+
+
+### Can reproduce.
+CR on LGBTQ+ Lounge. iPad Air 2 iOS 10.3.3, Discord TestFlight 1.9.1 (629)
+
+NicholasY#4815 - Bug Bot on 2017-09-11T19:53:54.361Z
+
+
+### Can reproduce.
+CR, crashes on BlackSquad as well, iOS 10.3.3, iPad mini 2, Discord TestFlight  1.9.1
+
+Jusola#4326 - Bug Bot on 2017-09-11T19:53:59.295Z
+
+
+### Can reproduce.
+Discord: Latest test flight (1.9.1), IOS: 11 GM, Model iPad Pro 9.7
+
+nathanielcwm#3522 - Bug Bot on 2017-09-16T09:16:47.320Z
+
+
+### Alright, after a _lot_ of research, I determined that this bug is actually a dupe of https://trello.com/c/fKcqk6eg/217-crash-when-viewing-sidebar-in-channel
+
+I verified this by the LGBTQ+ Lounge and asking them to remove the multiple spaces from the channel topic, at which point the crash was resolved. - Jared on 2017-10-26T21:22:20.877Z
+
+
+### Archived by Jared on 2017-10-26T21:22:24.429Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

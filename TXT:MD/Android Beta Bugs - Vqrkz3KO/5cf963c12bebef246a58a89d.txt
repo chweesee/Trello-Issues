@@ -1,0 +1,237 @@
+[Archived] Spotify slow to show status in profile when playing on Android (https://trello.com/c/CzUjN76e)
+
+None
+
+Created: 2019-06-06T19:04:33.950Z
+Latest Update: 2019-08-16T21:25:12.234Z
+
+Reported by Daffy#7906
+
+####Steps to reproduce:
+- Open Spotify on Android 
+- Play a song 
+- Observe as it takes many minutes to reflect this activity on your profile
+
+####Expected result:
+Discord should almost immediately show Spotify activity
+####Actual result:
+It takes many minutes to display that you've began listening to spotify
+####Client settings:
+Alpha 9.0.9
+####System settings:
+Essential PH-1 Android P
+
+36373
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-06T19:04:33.950Z
+
+
+### ImmortaLemur#2998 - https://youtu.be/gnVeo1nxryA added by Bug Bot on 2019-06-06T19:04:36.449Z
+
+
+### Can reproduce.
+CR, Pause > Skip > Start, Samsung Galaxy S6, Android 7.0, Discord Alpha 9.0.9
+
+Law of Royale#4167 - Bug Bot on 2019-06-06T19:04:41.327Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9.0.0, Discord Alpha 9.0.9 - Can reproduce with information LoR provided.
+
+Alеx#2287 - Bug Bot on 2019-06-06T19:04:46.638Z
+
+
+### Can reproduce.
+CR; Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.0.9
+
+AHkhan#0001 - Bug Bot on 2019-06-06T19:04:51.338Z
+
+
+### Can reproduce.
+Samsung Galaxy S10e, Android 9
+
+Nad#3478 - Bug Bot on 2019-06-06T19:05:50.068Z
+
+
+### Can reproduce.
+Samsung Galaxy S10e, Android 9, Discord Alpha 9.0.9
+
+Nad#3478 - Bug Bot on 2019-06-06T19:19:32.665Z
+
+
+### This is some context to have a  100 cosists of repro, for @jeffcailteux2
+
+> Steps
+ Start Spotify
+ Choose a Playlist with more than 4 songs
+ Go to home
+ Go to Discord
+ Wait until it connects (the connecting... banner is done)
+ Swipe the notification bar down, where you can see the notification control of Discord
+ Skipe one time—it should display your Title now
+ Pause this song
+ Skip
+ Pause the new song immediately
+ Resume now
+
+> Result
+
+It stops forever the listening feature until a restart of Spotify.
+ 
+[Video]
+(https://cdn.discordapp.com/attachments/203907523709894657/586238991423111200/20190606_190258.mp4)
+
+Law of Royale#4167 - Bug Bot on 2019-06-06T19:30:38.417Z
+
+
+### 'Swipe the notification bar down, where you can see the notification control of Discord'—I mean Spotify Control in the notification, not Discord, yeah.
+
+Law of Royale#4167 - Bug Bot on 2019-06-06T19:33:48.210Z
+
+
+### Can reproduce.
+Pixel 3a, Android P, Discord Alpha 909
+
+Riley#7621 - Bug Bot on 2019-06-06T23:45:32.542Z
+
+
+### Can reproduce.
+LG Stylo 4 | Android 8.1 | Alpha 909
+
+charleskimbac#6492 - Bug Bot on 2019-06-07T06:25:43.243Z
+
+
+### Can reproduce.
+CR • Android 6.0.1 • Samsung Galaxy s5, Android Alpha 9.0.9
+
+Krobo#4784 - Bug Bot on 2019-06-07T08:14:46.593Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Android 5.0, Discord Alpha 9.0.9
+
+Karasu#0013 - Bug Bot on 2019-06-07T11:23:20.943Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 909
+
+Quad#1887 - Bug Bot on 2019-06-07T17:54:16.300Z
+
+
+### Can reproduce.
+Can Reproduce, but only if my emoji picker crashes. Samsung Galaxy Note 8, Android 9 - Discord Alpha 9.0.9
+
+Danijel#9000 - Bug Bot on 2019-06-08T01:27:19.709Z
+
+
+### Can reproduce.
+Samsung Galaxy S6 Edge, Android 7.0.0, Client 9.0.9
+
+Strife#1727 - Bug Bot on 2019-06-08T18:39:03.444Z
+
+
+### Can reproduce.
+Samsung Galaxy S6 Edge, Android 7.0.0, Client 9.0.9
+
+Strife#1727 - Bug Bot on 2019-06-08T18:39:40.740Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9, Discord Alpha 9.0.9 , discord Alpha 9.0.9
+
+HeavyBlurrySoul#1931 - Bug Bot on 2019-06-08T22:38:51.305Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 4 - Android 7.0 - Alpha 9.0.9 (909)
+
+voldemort#6931 - Bug Bot on 2019-06-10T12:33:06.073Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-06-10T18:24:43.855Z
+
+
+### Fixed in 910 - Jeff Cailteux on 2019-06-10T18:24:49.885Z
+
+
+### Can reproduce.
+It seems as if discord doesnt pick up on spotify if it is already playing before discord opens. Client info: Samsung Galaxy Note 8, Android 9 - Discord Alpha 9.0.9
+
+Danijel#9000 - Bug Bot on 2019-06-10T19:29:34.417Z
+
+
+### Can't reproduce.
+-a Alpha 909
+
+Daffy#7906 - Bug Bot on 2019-06-11T19:40:23.908Z
+
+
+### Can't reproduce.
+OnePlus 7 Pro - Android 9.5.5 - Discord Alpha 9.0.9
+
+Konah.#5994 - Bug Bot on 2019-06-13T08:11:50.581Z
+
+
+### Can't reproduce.
+Samsung Galaxy S6 Edge, 7.0.0, Client 9.0.9
+
+Strife#1727 - Bug Bot on 2019-06-15T07:48:51.416Z
+
+
+### Can't reproduce.
+Samsung Galaxy S8 Android 8, Alpha 9.0.9
+
+Action Potential#2494 - Bug Bot on 2019-06-19T07:06:46.657Z
+
+
+### Can reproduce.
+Can still reproduce. Android Alpha 9.0.9. Samsung Galaxy J8 running on Android 9 with OneUI version 1.0.0.
+
+Talon#4419 - Bug Bot on 2019-06-22T03:28:50.613Z
+
+
+### Can reproduce.
+Can still repro on 910, interacting with Spotify from Notification bar does not allow Discord to catch the playing song, still a long delay in when it is caught. Essential PH-1, Android Alpha 910
+
+Daffy#7906 - Bug Bot on 2019-06-25T04:28:59.497Z
+
+
+### Can't reproduce.
+CNLR with the given steps and the 💯% steps in the comments, -a 9.1.0
+
+Law of Royale#4167 - Bug Bot on 2019-06-25T12:25:13.031Z
+
+
+### Can't reproduce.
+CNLR with the given steps and the 100% steps in the comments, Samsung Galaxy S6, LineageOS 15.1, Discord Alpha 9.1.0
+
+Law of Royale#4167 - Bug Bot on 2019-06-25T12:28:55.467Z
+
+
+### Can reproduce.
+Still canrepro on Alpha 9.1.1. Samsung Galaxy Note 8, Android 9.
+
+Danijel#9000 - Bug Bot on 2019-06-26T01:24:56.502Z
+
+
+### Can reproduce.
+Still reproducible, Samsung Galaxy S8 Android 8, Alpha 9.1.0
+
+Action Potential#2494 - Bug Bot on 2019-06-26T04:32:48.473Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-06-26T04:32:48.760Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:25:12.245Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

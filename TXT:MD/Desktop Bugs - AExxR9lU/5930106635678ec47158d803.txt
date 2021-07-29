@@ -1,0 +1,123 @@
+[Archived] When clicking an online instant invite from a web browser, Discord Canary opens but then crashes and the client restarts. (https://trello.com/c/ZcyyIC5U)
+
+P1: Severe
+
+Created: 2017-06-01T13:02:30.281Z
+Latest Update: 2017-11-15T19:20:27.757Z
+
+Reported by Joseph#9413
+
+####Steps to reproduce:
+- Open a <discord.gg> link from a web browser 
+- Wait for the client to open 
+- Sometimes, client will crash and restart
+
+####Expected result:
+Box pops up to join server
+####Actual result:
+Client Crashes
+####Client settings:
+Canary windows 10 x64
+####System settings:
+Windows 10 x64 Anniversary Update (1607) Canary 0.0.155.
+
+1359
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-01T13:02:30.281Z
+
+
+### Can reproduce.
+Windows 7 Discord Canary -> Canary 0.0.155
+
+SpaceX#0276 - Bug Bot on 2017-06-01T13:02:34.766Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 0.0.115
+
+Marcos Mgpixels#3893 - Bug Bot on 2017-06-01T13:02:36.724Z
+
+
+### Can reproduce.
+W10CUx64 // Works in chrome if I'm already in the server invite is for
+
+IPv4#6434 - Bug Bot on 2017-06-01T13:02:39.260Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.155 (1065)
+
+Tiemen#0107 - Bug Bot on 2017-06-01T13:03:30.495Z
+
+
+### In order to reproduce you need to: use an invite for a server you're already in. Or go to the invite link in the browser, leave the invite modal in the client open, then go to the link again
+
+Tiemen#0107 - Bug Bot on 2017-06-01T13:04:45.801Z
+
+
+### Only works if you're allready in the server the Instant invite is from
+
+Marcos Mgpixels#3893 - Bug Bot on 2017-06-01T13:04:50.704Z
+
+
+### Can reproduce.
+Windows 10 x64 Latest Canary
+
+marcostudios#5930 - Bug Bot on 2017-06-02T19:40:17.999Z
+
+
+### Can reproduce.
+Windows 10 Professional x64, Canary 0.0155
+
+IzzyBizzy#2088 - Bug Bot on 2017-06-04T08:00:31.050Z
+
+
+### Can reproduce.
+Windows 10 x64 1607 - Canary 0.0.155
+
+Dunciboy#2559 - Bug Bot on 2017-06-05T23:11:20.101Z
+
+
+### Verified.  - Clayton on 2017-06-08T22:08:21.983Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-08T22:08:28.322Z
+
+
+### Can reproduce.
+Canary 0.0.157, Windows 8.1 x64
+
+FireController1847#9085 - Bug Bot on 2017-06-22T21:19:24.538Z
+
+
+### A secondary way to reproduce this bug is to attempt to open an expired invite link while your friends list is open (not a specific message log to someone, just your friends list). Link of me doing this at http://i.imgur.com/w6z6uj3.gifv uploading for <@168392772506746880>
+
+Mr.Caleb#8593 - Bug Bot on 2017-07-09T17:49:20.749Z
+
+
+### Can no longer reproduce after multiple attempts. Win10 x64 1703, Canary 0.0.161 - Mike Nisbet on 2017-07-26T18:03:12.582Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-07-26T18:16:31.836Z
+
+
+### Fixed.  - Clayton on 2017-10-03T23:55:18.612Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-03T23:55:21.730Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:20:26.998Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:20:27.760Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

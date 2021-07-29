@@ -1,0 +1,81 @@
+[Archived] Some GIFs not cached properly (https://trello.com/c/cVDJyncl)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-16T08:31:34.106Z
+Latest Update: 2018-10-22T20:27:50.270Z
+
+Reported by Fixator10#7133
+
+####Steps to reproduce:
+- Create GIF in  ("Animated Image") 
+- Set size of gif >300x300 
+- Create two frames (layers in PDN) 
+- Save as AGIF with any delay and loop 
+- Rename file to gif and upload to Discord
+
+####Expected result:
+GIF caches properly and Discord display animated image
+####Actual result:
+Discord returns HTTP 415 and shows "Missing image"
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 23837, Version Hash: 3bb3d282a39cc9af8b690aeadf51ea30e7adac1d
+####System settings:
+Windows-10-10.0.17134-SP0
+
+19730
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-16T08:31:34.106Z
+
+
+### MoonlightCapital#0554 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b9e14e63d61640fb8e556c6/1e8eafbe3a5a0cbc73e69d5d273c0142/e881bd.gif added by Bug Bot on 2018-09-16T08:31:36.834Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10, Discord Canary 23837
+
+davfsa#7026 - Bug Bot on 2018-09-16T08:31:41.621Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10, Discord Canary 23837, When Opened Console it partially loaded
+
+Ghost™#5033 - Bug Bot on 2018-09-16T08:31:46.541Z
+
+
+### Can reproduce.
+[cr] | Win10, 64bits • Canary Build Number: 23837
+
+fujhofn.#0007 - Bug Bot on 2018-09-16T08:31:51.539Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 23837
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-16T09:36:58.718Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 23836
+
+Neiron#2406 - Bug Bot on 2018-09-16T12:35:53.421Z
+
+
+### verified, macos 10.12.6, canary 23837 - Clayton on 2018-09-17T21:25:40.323Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-17T21:25:50.275Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:50.273Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

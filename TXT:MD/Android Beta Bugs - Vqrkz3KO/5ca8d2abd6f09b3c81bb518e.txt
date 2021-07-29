@@ -1,0 +1,96 @@
+[Archived] Text getting cut off at the certain steps of enabling 2FA (https://trello.com/c/r5pcsrGt)
+
+P3 - Will be fixed eventually
+
+Created: 2019-04-06T16:24:11.382Z
+Latest Update: 2019-05-15T16:00:03.028Z
+
+Reported by Xnehaxixh#2892
+
+####Steps to reproduce:
+- Make sure you don't have 2FA enabled.  
+- Go to User Settings and tap on "Enable 2FA"  
+- At the 1st step, change the screen orientation to landscape.  
+- Observe the text [Download and... tablet] getting cut. More prominent results at 150% font scale.  
+- Tap next and observe the 2nd step. (this might require 150% font scale)  
+- The text "Launch Authy/Google Autgencator" gets cut.  
+- Tap next and observe the 3rd step. (this required 150% font scale)  
+- Observe all the text under the "Enable SMS Authentication"  
+- If you began this reproduction from landscape mode at the beginning, you won't even see the "Enable SMS Authentication" button.
+
+####Expected result:
+In both the steps, the text should accommodate within the screen.
+####Actual result:
+The text gets cut off in landscape mode.
+####Client settings:
+Discord 870
+####System settings:
+Redmi 3S Prime, MIUI 10, Android 6.0.1
+
+32160
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-06T16:24:11.382Z
+
+
+### Xnehaxixh#2892 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ca8d2abd6f09b3c81bb518e/8dcb4a0d5283a1d429cb35ebf180d8f3/Screenshot_20190405064958.jpg added by Bug Bot on 2019-04-06T16:24:14.520Z
+
+
+### Xnehaxixh#2892 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ca8d2abd6f09b3c81bb518e/a20638837fddeb1c932d717bef886c78/Screenshot_2019-04-06-13-33-15-483_com.discord.png added by Bug Bot on 2019-04-06T16:24:14.573Z
+
+
+### Xnehaxixh#2892 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ca8d2abd6f09b3c81bb518e/fd6da5fb2db74aa680b5e696b41c73ee/Screenshot_20190405070549.jpg added by Bug Bot on 2019-04-06T16:24:14.596Z
+
+
+### Can reproduce.
+cr on Honor 6x 7.0 [EMUI 5.0.2] ,alpha 871
+
+fizy#9347 - Bug Bot on 2019-04-06T16:24:19.017Z
+
+
+### Can reproduce.
+Wiko LENNY2 version 8, Android 5.1, Alpha 8.7.1
+
+MoonlightCapital#0554 - Bug Bot on 2019-04-06T16:24:24.079Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 871
+
+The Lunala#7777 - Bug Bot on 2019-04-06T16:24:29.044Z
+
+
+### Can reproduce.
+Tested on 150% | Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.7.1
+
+Clay#0001 - Bug Bot on 2019-04-06T17:50:44.048Z
+
+
+### Can reproduce.
+CR; OnePlus 5 Android 7.7.1, Discord 8.7.1
+
+||Kissa||#1337 - Bug Bot on 2019-04-06T17:58:17.883Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 871
+
+Quad#1887 - Bug Bot on 2019-04-06T21:41:20.639Z
+
+
+### Moved from User Reported Bugs to Font Scaling Issues by Jeff Cailteux on 2019-04-08T15:40:13.509Z
+
+
+### Moved from Font Scaling Issues to Verified Bugs by Jeff Cailteux on 2019-04-15T15:30:21.558Z
+
+
+### Archived by Bug Bot on 2019-05-15T16:00:03.049Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,176 @@
+[Archived] [Bug from Electron 2.x] When scrolling through member list, it stops. (https://trello.com/c/QzGWtTYR)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-05-02T16:39:13.675Z
+Latest Update: 2019-11-28T00:00:03.316Z
+
+Reported by Airesto#2371
+
+####Steps to reproduce:
+- Middle click the member list with a mouse 
+- Scroll downwards without turning the scroll button
+
+####Expected result:
+The member list is supposed to continue to scrolling.
+####Actual result:
+Instead of fully scrolling through the member list, it stops.
+####Client settings:
+Discord Canary (Build 14432)
+####System settings:
+Windows 7 Enterprise x64
+
+11798
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-02T16:39:13.675Z
+
+
+### Tarek#1337 - https://i.imgur.com/Pb0XylR.gifv added by Bug Bot on 2018-05-02T16:39:16.374Z
+
+
+### Can reproduce.
+Discord Canary 0.0.207 (14432) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-05-02T16:39:21.249Z
+
+
+### Can reproduce.
+I can't even scroll using the middle mouse button, Windows 10 Pro x64 v1709 (Canary build 14432)
+
+TimThe#1118 - Bug Bot on 2018-05-02T16:39:26.311Z
+
+
+### Can reproduce.
+Discord Canary 0.0.207 (14432) on Windows 10 Home Edition
+
+missthesnow#1533 - Bug Bot on 2018-05-02T16:39:31.307Z
+
+
+### Can reproduce.
+Discord Canary 0.0.207, Build 14432, Windows 10 Home 64-bit (v1709) | Also occurs when scrolling down in chat from being scrolled far up in chat history
+
+Ene#0808 - Bug Bot on 2018-05-02T16:40:20.041Z
+
+
+### Moved from User Reported Bugs to Electron Update Bugs 🍒 by Tarek on 2018-05-02T16:42:57.919Z
+
+
+### Can reproduce.
+Win 10 64x
+
+C4Navar#1337 - Bug Bot on 2018-05-02T17:18:13.692Z
+
+
+### Verified.  - Clayton on 2018-05-02T21:48:57.811Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 middle click doesn't scroll at all anymore, o movement whatsoever
+
+Azrael#6867 - Bug Bot on 2018-05-11T19:37:54.560Z
+
+
+### Can reproduce.
+This does not only apply to members list, it also apply to the channel list, canary, Build Number: 15384 | Windows Pro 10
+
+Ray11234#2728 - Bug Bot on 2018-05-16T22:13:43.831Z
+
+
+### Can reproduce.
+Windows 10 Pro Insider Preview x64, v10.0.17672 Build 17672, Discord Canary Build 15598
+
+Cairo#2098 - Bug Bot on 2018-05-20T05:44:06.534Z
+
+
+### Can reproduce.
+Opera Stable 53.0.2907.68, Windows 10 Pro x64 (1803)
+
+Aethernolt#5954 - Bug Bot on 2018-06-07T03:02:51.191Z
+
+
+### Can reproduce.
+Opera Stable 53.0.2907.68, Windows 10 Pro x64 (1803), edit to previous: channel list begins to scroll up and down after member list stops working
+
+Aethernolt#5954 - Bug Bot on 2018-06-07T03:05:37.625Z
+
+
+### As of Canary 0.0.211 (Build 17063), this is no longer reproducible (it was fixed in a previous build, but I couldn't find the ticket so just marking for now)
+
+SuperSajuuk#0001 - Bug Bot on 2018-06-16T19:47:18.922Z
+
+
+### Happens on Electron 3.0.1 (app version 0.0.214 on Windows) - Tarek on 2018-10-04T06:15:58.233Z
+
+
+### Moved from [Old] Electron Update Bugs 🍒 to Electron 3.0.1 Update Bugs 🍒 by Tarek on 2018-10-04T06:16:02.784Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1803 | Discord Canary Build 27040
+
+camperboy1000#6191 - Bug Bot on 2018-10-28T01:10:33.861Z
+
+
+### Can reproduce.
+Windows 10 Home Build 17134, Discord Canary 29240
+
+Bsian#4647 - Bug Bot on 2018-12-08T08:31:55.125Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.224 Build 29791
+
+Daffyduck#5364 - Bug Bot on 2018-12-17T11:33:22.254Z
+
+
+### Moved from Electron 3.0.1/3.0.3/3.0.5 Update Bugs 🍒 to Verified Bugs by Jared on 2019-01-02T17:26:01.876Z
+
+
+### Can't reproduce.
+Windows 7 Ultimate 64-bit - Canary 30887
+
+Super#8276 - Bug Bot on 2019-01-15T22:34:00.391Z
+
+
+### Can reproduce.
+Windows 10 Home x64 build 17763.xxx Canary 31115
+
+a cat#5379 - Bug Bot on 2019-01-21T22:03:27.291Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 33046
+
+TheForbiddenAi#7549 - Bug Bot on 2019-03-01T01:45:24.540Z
+
+
+### Can reproduce.
+Windows 10 1903
+
+wow#8047 - Bug Bot on 2019-06-24T15:40:05.256Z
+
+
+### Can reproduce.
+Windows 10 Home Version 1903; Regular Discord Build 47630
+
+RPS1222#5127 - Bug Bot on 2019-10-22T01:36:02.351Z
+
+
+### Can reproduce.
+CR on Windows 10 Pro Build 17763, canary 48134
+
+Hope#1445 - Bug Bot on 2019-10-28T23:59:07.151Z
+
+
+### Archived by Bug Bot on 2019-11-28T00:00:03.328Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

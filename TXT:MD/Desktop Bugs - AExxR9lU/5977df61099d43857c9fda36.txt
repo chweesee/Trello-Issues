@@ -1,0 +1,82 @@
+[Archived] Voice channel bitrate is ignored (https://trello.com/c/qh2iEzKw)
+
+None
+
+Created: 2017-07-26T00:16:33.047Z
+Latest Update: 2017-10-30T17:26:13.836Z
+
+Reported by DaFri_Nochiterov#4289
+
+####Steps to reproduce:
+- Set voice bitrate to 96kbps 
+- Ask your friend to speak 
+- OR 
+- Queue any song to music bot 
+- Listen
+
+####Expected result:
+Friend speaks at bitrate that set in channel / MusicBot streams at 128kbps
+####Actual result:
+Friend or music bot are heard as 48kbps
+####Client settings:
+Discord Canary 0.0.161
+####System settings:
+Windows 10 Pro 1703 (16241.1001)
+
+2540
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-26T00:16:33.047Z
+
+
+### DaFri_Nochiterov#4289 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5977df61099d43857c9fda36/78c2d5e907025a2143e7b7ead71f6920/LeyOoVa.gif added by Bug Bot on 2017-07-26T00:16:36.578Z
+
+
+### Can reproduce.
+Took me 4 hours to reproduce, but Can Reproduce. - Windows 10 x64, Discord Canary 0.0.161.
+
+SkriptDev#3740 - Bug Bot on 2017-07-26T00:16:40.648Z
+
+
+### Can reproduce.
+Can reproduce on Arch Linux, Canary 0.0.22
+
+vicr123#5096 - Bug Bot on 2017-07-26T00:16:45.557Z
+
+
+### Can reproduce.
+ Windows 10 Home x64 (creators update) Canary 0.0.161
+
+Omegacreeper#2384 - Bug Bot on 2017-07-26T00:16:50.688Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-08-21T19:37:28.748Z
+
+
+### Cannot reproduce. Potentially fixed already? - Jared on 2017-08-21T19:37:38.114Z
+
+
+### I am unable to reproduce this bug, even with the steps & info below provided by DeJay#3628. Furthermore, bot audio is not affected by a voice channel's bitrate setting, so that part of this report is not a bug in the first place. The device I tested on is running Windows 10 Pro x64, Fall Creators Update, Discord Canary 0.0.168 (6558).
+
+- Use a bot to constantly stream audio 
+- Set Voice Bitrate to Max (96Kpbs)
+- Check RTC debug for "Available Incoming Bitrate"
+Expected Result: 
+A nonzero value (96000?)
+Actual Result:
+A value of zero - Chris Cox on 2017-10-30T05:08:37.279Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:26:12.802Z
+
+
+### Archived by Jared on 2017-10-30T17:26:13.837Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

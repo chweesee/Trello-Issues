@@ -1,0 +1,70 @@
+Extending the Server list won't show the new channels until something else is interacted with. (https://trello.com/c/D4qvHg30)
+
+None
+
+Created: 2019-09-23T16:09:45.980Z
+Latest Update: 2020-04-04T16:18:20.084Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game with Overlay 
+- Set the server+channel widget to a small size. (Chat connected or not doesn't matter) 
+- Change to a new server / scroll in the channel list, on a server which has enough channels that it extends below the bottom. 
+- Grow the size of the channel list.
+
+####Expected result:
+Channels are displayed correctly
+####Actual result:
+Channels aren't displayed until another action is completed
+####Client settings:
+Canary 45990 (0.0.257)
+####System settings:
+Win10 64x (1809)
+
+44434
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-23T16:09:45.980Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5cbfb347e17452475d790070/5d88ee492b043c0a3b1d9b34/04763857cc4b0a60aaabc0692bb36d33/bMvenX2.png added by Bug Bot on 2019-09-23T16:09:50.367Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.257 Build 46174
+
+Daffyduck#5364 - Bug Bot on 2019-09-23T16:09:53.561Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary 0.0.257 Build 46174, also happens in the chat window alongside of it (only while resizing, while channel list persists after release)
+
+MetalChain#0001 - Bug Bot on 2019-09-23T16:09:58.561Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro, PTB 46198
+
+Action Potential#6862 - Bug Bot on 2019-09-23T16:10:03.625Z
+
+
+### Can reproduce.
+Windows 10 x64 - Canary 46198
+
+Fictional#0001 - Bug Bot on 2019-09-24T15:26:11.776Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 46205 host 0.0.257
+
+Jean20B#4668 - Bug Bot on 2019-09-24T17:29:02.214Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

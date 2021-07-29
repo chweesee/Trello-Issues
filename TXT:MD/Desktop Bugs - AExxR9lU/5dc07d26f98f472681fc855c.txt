@@ -1,0 +1,98 @@
+Messages Time Stamps are 1 hour ahead (https://trello.com/c/4yHaF77u)
+
+None
+
+Created: 2019-11-04T19:33:58.579Z
+Latest Update: 2020-07-16T21:26:05.512Z
+
+Reported by Immotay#3150
+
+####Steps to reproduce:
+- Set your Date/Time settings to (UTC -03:00) Brasilia 
+- Seems like that actually BEING in Brazil might be a factor so using a VPN might help
+
+####Expected result:
+Correct time stamps
+####Actual result:
+the time stamps are one hour ahead, as if we were on daylight savings (UTC -02:00). While your PC displays UTC -03:00.
+####Client settings:
+Stable 48470
+####System settings:
+Windows 10 Pro 1903 (build 18362.418)
+
+47079
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-04T19:33:58.579Z
+
+
+### Immotay#3150 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dc07d26f98f472681fc855c/136f3db5280e09b5af5812723266f748/vbjLoyn.png added by Bug Bot on 2019-11-04T19:34:01.862Z
+
+
+### Can reproduce.
+Windows And discord show different time stamps (Discord +1 hour) ~ Windows 10 ~ Canary 48548
+
+Guy293#9782 - Bug Bot on 2019-11-04T19:34:06.643Z
+
+
+### Can reproduce.
+Discord is using daylight saving time for that time zone, but Brazil has abolished it this year. Canary 48593, Windows 10 Pro
+
+Sona#0001 - Bug Bot on 2019-11-04T19:34:11.658Z
+
+
+### Can reproduce.
+Can Reproduce - Time displaying on taskbar is 16:32(4:32PM) on discord: 17:32(5:32PM) - Windows 10 Pro 1903 x64 - Canary (48593)
+
+npm#0001 - Bug Bot on 2019-11-04T19:34:16.680Z
+
+
+### Can reproduce.
+Win 10 x64 1903 - Stable 48470
+
+Flubberlutsch#0001 - Bug Bot on 2019-11-04T19:51:07.283Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 48618
+
+Action Potential#6862 - Bug Bot on 2019-11-05T05:35:48.777Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 48618 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-05T17:56:16.501Z
+
+
+### Can reproduce.
+Works on an Android phone located geographically in Brazil as well
+
+MelodicStream#1336 - Bug Bot on 2019-11-06T03:11:21.909Z
+
+
+### Can reproduce.
+CR on MacBook Air (10.15 Catalina); Canary Build 48586
+
+RPS1222#5127 - Bug Bot on 2019-11-06T14:28:09.621Z
+
+
+### Can reproduce.
+On Windows 10 Pro, Stable 49402
+
+Ferrari#6161 - Bug Bot on 2019-11-13T20:26:10.468Z
+
+
+### Can reproduce.
+CR, Win, 10 Pro x64, Discord Stable: 50260
+
+nynxx#5630 - Bug Bot on 2019-11-26T09:48:07.205Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

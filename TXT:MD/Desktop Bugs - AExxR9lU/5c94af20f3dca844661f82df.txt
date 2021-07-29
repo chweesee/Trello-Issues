@@ -1,0 +1,116 @@
+[Archived] Discord Switches from moderation to overview in server settings when trying to save while ratelimited (https://trello.com/c/P6NjfE31)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-22T09:47:12.954Z
+Latest Update: 2019-10-23T23:01:06.968Z
+
+Reported by SweetSofiMC#9999
+
+####Steps to reproduce:
+- Have a server with the default icon (no image) 
+- Get ratelimited on server settings > overview. You can do this by changing settings a couple of times in the same option. You are being ratelimited when you can see in the console error 429 when trying to change a setting in server settings -> overview and hit save. 
+- Enter server settings 
+- Go to moderation and change the verification level needed for talking 
+- Hit save 
+- Change another setting in moderation, or switch the same 
+- Hit save 
+- Continue until you see the
+
+####Expected result:
+You can save everything, your Discord doesn't switch screens and no double save popups appear! Everything fine.
+####Actual result:
+Discord changes from moderation screen to overview and a double save popup appear
+####Client settings:
+Discord Canary Build 34132
+####System settings:
+Windows 10 Enterprise E3 x64
+
+31239
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-22T09:47:12.954Z
+
+
+### SweetSofiMC#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c94af20f3dca844661f82df/5752e0050412c1d64ccfa2e835717508/daAviTc.gif added by Bug Bot on 2019-03-22T09:47:17.937Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro x64 (1809) - Canary 34220
+
+HeyWhatsInThatTree#0887 - Bug Bot on 2019-03-22T09:47:20.352Z
+
+
+### Can reproduce.
+Discord Canary 0.0.233 (34441) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2019-03-22T09:47:25.361Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro x64 bit, Discord Canary (34441)
+
+laurel#0986 - Bug Bot on 2019-03-22T09:47:30.340Z
+
+
+### Can reproduce.
+win10 pro (64-bit, build 1809), canary 34441
+
+Defracted#7777 - Bug Bot on 2019-03-22T11:22:48.328Z
+
+
+### Can reproduce.
+Can Reproduce; W10 Home x64, 1809 17763.379, Canary 34441
+
+c1rcl#1337 - Bug Bot on 2019-03-22T12:20:54.323Z
+
+
+### Can reproduce.
+cr, Win10 Pro - Canary 34441
+
+tonite#0001 - Bug Bot on 2019-03-22T14:03:43.020Z
+
+
+### Can reproduce.
+Canary: 3441, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-22T15:33:07.788Z
+
+
+### Can reproduce.
+macOS 10.14.4; canary 34441
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-22T15:48:36.865Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 34463
+
+Daffyduck#5364 - Bug Bot on 2019-03-23T09:51:28.351Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-04-01T22:27:08.995Z
+
+
+### Archived by Bug Bot on 2019-05-01T22:30:18.172Z
+
+
+### Can reproduce.
+macOS Mojave 10.14.5, Release Channel: stable, Build Number: 38960, Version Hash: 0f19cf2b253e53578870900345c1db921e5d9519
+
+Gorgeouser Georgeous#9779 - Bug Bot on 2019-06-03T10:16:19.904Z
+
+
+### Unarchived by Bug Bot on 2019-06-03T10:30:07.993Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:06.980Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

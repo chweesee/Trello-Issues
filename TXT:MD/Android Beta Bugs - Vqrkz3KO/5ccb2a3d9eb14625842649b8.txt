@@ -1,0 +1,97 @@
+[Archived] Emoji/Mention autocomplete go offscreen if you have a file attached (tall keyboards only) (https://trello.com/c/fFFmQeGr)
+
+None
+
+Created: 2019-05-02T17:34:53.623Z
+Latest Update: 2019-06-10T20:42:14.048Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- First you need a tall keyboard. GBoard isn't suited for this bug, I suggest SwiftKey which is the default keyboard on Huawei devices and downloadable on Google Play 
+- Go to any text channel 
+- Attach a file 
+- Type : or @ or # to trigger autocomplete
+
+####Expected result:
+Either 1) The top of the autocomplete menu should be clipped to the header of the app, so that the top emotes are never cut out and you access the bottom emotes by scrolling down (unlike Desktop, the autocomplete is a scrollable thing on Android) or 2) The autocomplete menu should be drawn over the attachments banner
+####Actual result:
+The autocomplete goes offscreen behind the app's header
+####Client settings:
+Discord Alpha 8.8.8
+####System settings:
+Huawei Mate 9 Android 9.0
+
+33832
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-02T17:34:53.623Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ccb2a3d9eb14625842649b8/84db18da4216e5feb1cf9539a861a5a8/Screenshot_20190502_133407.jpg added by Bug Bot on 2019-05-02T17:34:56.966Z
+
+
+### Can reproduce.
+CR; Asus Zenfone 2, Android 5.0, Discord Alpha 8.8.8
+
+Karasu#0013 - Bug Bot on 2019-05-02T17:35:01.758Z
+
+
+### Can reproduce.
+Can reproduce, Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 8.8.8
+
+AHkhan#2436 - Bug Bot on 2019-05-02T17:35:06.237Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 8.8.8
+
+Quad#1887 - Bug Bot on 2019-05-02T17:35:11.345Z
+
+
+### Can reproduce.
+CR - OnePlus 2 - Android 8.1.0 - LineageOS 15.1 - Discord Alpha 8.8.8
+
+VR#0124 - Bug Bot on 2019-05-02T17:37:46.663Z
+
+
+### Can reproduce.
+CR // Advan i5K, Android 6.0, Discord Alpha 8.8.8
+
+FrostingBit#9595 - Bug Bot on 2019-05-02T22:35:18.900Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.8.8
+
+Lily#2624 - Bug Bot on 2019-05-03T07:09:51.214Z
+
+
+### Can reproduce.
+Android 6.0.1  Samsung Galaxy s5, Android Alpha 8.8.8
+
+Krobo#4784 - Bug Bot on 2019-05-03T12:31:14.580Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 8.8.8
+
+Quad#1887 - Bug Bot on 2019-05-03T18:43:38.977Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.9.1
+
+Skyla#0002 - Bug Bot on 2019-05-08T15:42:19.443Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:42:14.061Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

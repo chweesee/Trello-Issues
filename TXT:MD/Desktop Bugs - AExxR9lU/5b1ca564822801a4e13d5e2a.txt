@@ -1,0 +1,66 @@
+[Archived] Message view does not stay anchored at bottom on DPI scaled monitors (https://trello.com/c/cjkKRUjk)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-10T04:13:24.857Z
+Latest Update: 2018-10-22T20:21:47.562Z
+
+Reported by n a t e#4821
+
+####Steps to reproduce:
+- Open an active channel in the desktop client 
+- Drag discord over to monitor with DPI scaling active (if multi monitor) 
+- Keep discord client in focus 
+- Wait for message activity in channel and observe message view does not stay anchored to newest messages 
+- Possibly related to bug 10266
+
+####Expected result:
+On non-DPI scaled monitors the message view stays anchored at the bottom displaying most recent messages
+####Actual result:
+Within the first few incoming messages the message view will pin at its current location and messages pile up below fold
+####Client settings:
+Windows Desktop Client Release Channel: stable, Build Number: 15665, Version Hash: 04bf7d3b2396890be3b25fd50c2465f9c3703
+####System settings:
+Windows 10 x64 Version 1803 Build 17134.48
+
+13235
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-10T04:13:24.857Z
+
+
+### Can reproduce.
+win 10, canary 16649
+
+Falco#0001 - Bug Bot on 2018-06-10T04:13:32.730Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 16727
+
+Xylium#1480 - Bug Bot on 2018-06-10T04:13:37.738Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 Build: 1803 Discord canary 16678
+
+Bencey_#8587 - Bug Bot on 2018-06-10T04:13:42.729Z
+
+
+### verified, win10, canary 16649 - Clayton on 2018-06-11T20:14:27.353Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-11T20:14:36.523Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:47.563Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

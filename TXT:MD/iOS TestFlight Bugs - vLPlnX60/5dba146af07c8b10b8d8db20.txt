@@ -1,0 +1,73 @@
+[Archived] Images and embeds sent through Discord generate a VoiceOver element between the user's username and the image/embed that sometimes prevents you from scrolling past it [Only applies to images/embeds with the username directly above, behavior does not occur if messages with text are sent and then the image is sent soon enough that the username/time info doesn't appear above it) (https://trello.com/c/c5KJZjiP)
+
+P3 - Will be fixed eventually
+
+Created: 2019-10-30T22:53:30.375Z
+Latest Update: 2019-12-08T19:30:04.652Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Enable iOS VoiceOver 
+- Find a channel with images/embeds 
+- Swipe to scroll back and forth past the image/embed 
+- Do this a few times
+
+####Expected result:
+VoiceOver should go straight from the username of the user who posted something to the image/embed
+####Actual result:
+VoiceOver detects an element with no content between the username and image/embed. Sometimes while scrolling past this, element, VoiceOver will get stuck in a loop going between the empty element and the username
+####Client settings:
+TestFlight 3.1.5 (17627)
+####System settings:
+iPhone XR & iPad Air iOS & iPadOS 13.1.3
+
+45892
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-30T22:53:30.375Z
+
+
+### Can reproduce.
+CR; TestFlight 3.1.6 (17811) - iPhone 6 (iOS 12.4.2)
+
+TollyThaWally#1621 - Bug Bot on 2019-10-30T22:53:38.051Z
+
+
+### Can reproduce.
+can reproduce, testflight 3.1.6 (17984) ios 13, iphone 11
+
+IcyPebbles#5833 - Bug Bot on 2019-10-30T22:53:43.030Z
+
+
+### Can reproduce.
+can reproduce, testflight 3.1.6 (17984) ios 13, iphone 11
+
+IcyPebbles#5833 - Bug Bot on 2019-10-30T22:53:48.069Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.6 (17924)
+
+.Gloria.#9606 - Bug Bot on 2019-10-31T02:58:36.362Z
+
+
+### Can reproduce.
+iPad Pro 12.9” (iPadOS 13.2), Testflight 3.1.6 (18021)
+
+MikeTheSpike#0350 - Bug Bot on 2019-11-05T05:20:19.413Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-11-08T19:00:07.077Z
+
+
+### Archived by Bug Bot on 2019-12-08T19:30:04.663Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

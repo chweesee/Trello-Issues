@@ -1,0 +1,108 @@
+[Archived] Clicking add note in mutual friends sometimes puts the user card in the middle of the screen (https://trello.com/c/ZpyMoDW6)
+
+P3: Will get fixed eventually
+
+Created: 2017-11-03T01:32:56.794Z
+Latest Update: 2019-10-23T23:03:56.714Z
+
+Reported by GoldenPheonix#6248
+
+####Steps to reproduce:
+- Go to somebodys profile who you know has one of your friends added 
+- Go to Mutual Friends 
+- Click add note (You may have to do this multiple times since this is inconsistent)
+
+####Expected result:
+The user card should appear next to the users name on the user list
+####Actual result:
+The user card appears in the middle of discord
+####Client settings:
+Canary, Build Number: 6622, Version Hash: 1259eea132eede7d090acd3d351166cbb23e1d25
+####System settings:
+Alienware X51 R2, Windows 7 Professional X64
+
+5973
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-03T01:32:56.794Z
+
+
+### Can reproduce.
+Took about 7 tries. Windows 10 Home (1709) x64, Canary 0.0.169 (Build 6723)
+
+DeJay#3628 - Bug Bot on 2017-11-03T01:33:04.152Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.1, Discord Canary 0.0.158 (Build: 6652). Happens always for me, can't see the profile card of the mutual friend when clicking on "Add note" because it will always be displayed behind the profile of the user.
+
+Pascal#0929 - Bug Bot on 2017-11-03T01:33:09.162Z
+
+
+### Can reproduce.
+CR, same situation as Pascal's. Windows 10 Pro 1607 x64, Canary 0.0.169 (Build 6746)
+
+juj#5114 - Bug Bot on 2017-11-03T01:33:14.161Z
+
+
+### Verified.  - Clayton on 2017-11-03T05:30:21.565Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:30:25.169Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59fbc748ce60239f02cbee43/98fba5ed424a375efc997a23a27e8b69/ezgif-4-e6b7bdb9dc.gif added by Bug Bot on 2018-07-15T09:31:56.360Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:31.948Z
+
+
+### Can reproduce.
+Can repro, adding a note to a user via mutual friends pops up modal behind the existing modal, and sometimes is not even visible, Windows Home 1809, Discord Canary 30302
+
+ginkoid#8888 - Bug Bot on 2018-12-31T08:09:04.466Z
+
+
+### Unarchived by Tim on 2018-12-31T08:11:41.546Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 30302
+
+Neiron#8475 - Bug Bot on 2018-12-31T09:17:35.139Z
+
+
+### Archived by Bug Bot on 2019-01-31T21:30:04.872Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 34565 ~ Effects the new Activity Layout -> Game, Add Note
+
+Alipoodle#5025 - Bug Bot on 2019-03-26T18:56:24.636Z
+
+
+### Unarchived by Bug Bot on 2019-03-26T19:00:06.437Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 36142
+
+Rage#9991 - Bug Bot on 2019-04-22T21:51:33.376Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 43861
+
+charleskimbac#6492 - Bug Bot on 2019-08-18T04:27:48.888Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:56.730Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

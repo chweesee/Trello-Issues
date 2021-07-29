@@ -1,0 +1,94 @@
+[Archived] [Non-Stable Only] Going to the Streamkit site via Integrations in Server Settings goes to the stable site regardless of the release channel you are on. (https://trello.com/c/aFxzACup)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-01-27T05:05:14.826Z
+Latest Update: 2019-02-28T05:30:04.923Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Have permission to view the Integrations tab on a server's Server Settings. 
+- Go to the Integrations tab. 
+- Click the link saying "Discord's Streamkit."
+
+####Expected result:
+The link should link to `<release channel>(dot)<discord's domain>/streamkit.`
+####Actual result:
+The link goes to `<discord domain>/streamkit` when it should be using the correct release channel's url.
+####Client settings:
+Canary 31400
+####System settings:
+Windows 10 Home x64 (1809)
+
+27114
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-27T05:05:14.826Z
+
+
+### Can reproduce.
+Can repro, Windows Home 1809, Discord Canary 31400
+
+ginkoid#8888 - Bug Bot on 2019-01-27T05:05:22.254Z
+
+
+### Can reproduce.
+macos 10.14.3, Canary 31400
+
+Lentralkestor#2016 - Bug Bot on 2019-01-27T05:05:27.270Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31400
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-27T05:05:32.278Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 31400
+
+Frances Picard#6209 - Bug Bot on 2019-01-27T06:36:18.287Z
+
+
+### Can reproduce.
+CR; Canary: 31400, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-01-27T07:39:28.488Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Canary 31400
+
+-Shadow-#9999 - Bug Bot on 2019-01-27T08:36:36.356Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 31400
+
+Rage#9991 - Bug Bot on 2019-01-27T09:09:30.451Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Canary 31400
+
+Defracted#0001 - Bug Bot on 2019-01-27T10:03:41.653Z
+
+
+### verified, canary 31464, win10 - Clayton on 2019-01-29T05:05:10.192Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-29T05:05:17.094Z
+
+
+### Archived by Bug Bot on 2019-02-28T05:30:04.935Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

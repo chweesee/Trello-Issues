@@ -1,0 +1,95 @@
+Opening the Server name drop down causes the font to corrupt. (https://trello.com/c/uVxbBAr3)
+
+None
+
+Created: 2018-07-28T03:19:16.429Z
+Latest Update: 2018-08-30T21:56:00.885Z
+
+Reported by Link#1685
+
+####Steps to reproduce:Open Discord 
+- Click on a Server 
+- Click on the Server Name Box to open drop down 
+- Observe as the font corrupts.
+
+####Expected result:
+The font is meant to stay the same.
+####Actual result:
+The font corrupts.
+####Client settings:
+Discord Canary (18317)
+####System settings:
+Linux Mint 19
+
+15234
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-28T03:19:16.429Z
+
+
+### Can reproduce.
+can reproduce. Font slightly changes, kind of hard to see, but it's noticeable - OS: Deepin 15.6 - kernel: 4.15.0-21deepin-generic AMD64/x86_64 - RAM: 16 GB - Release Channel: canary - Build Number: 20044
+
+Cecillia 💖#0001 - Bug Bot on 2018-07-28T03:19:23.872Z
+
+
+### Can reproduce.
+Can reproduce, font does seem to get some kind of distortion, moving a little bit to the right - OS: Ubuntu 18.04.1 LTS x86_64 - Kernel: 4.15.0-29-generic - RAM: Memory: 4381MiB / 15996MiB - Release Channel: canary, Build Number: 20088
+
+Jiiro#0001 - Bug Bot on 2018-07-28T03:19:28.818Z
+
+
+### Can reproduce.
+Can reproduce, Ubuntu 18.04 amd64, Canary 0.0.53 Build 20088
+
+Lava#9562 - Bug Bot on 2018-07-28T03:19:33.864Z
+
+
+### Can't reproduce.
+Cannot Reproduce ¬ Manjaro Linux 18.0 (Illyria) - Kernel Version 4.18.0-1-MANJARO - KDE Plasma 5.13.3 ¬ Canary Build 20174
+
+Kydros Elizabeth LeSaki#3217 - Bug Bot on 2018-07-28T05:52:11.974Z
+
+
+### Can't reproduce.
+Debian Bullseye with KDE Release Channel: canary, Build Number: 20174
+
+T-bond#6238 - Bug Bot on 2018-07-28T12:40:26.527Z
+
+
+### Needs unpatched libfreetype6 >=2.8.1 (author edited the report but bugbot somehow ignores it when it got to trello)
+
+Lava#9562 - Bug Bot on 2018-07-28T15:21:48.958Z
+
+
+### Can't reproduce.
+Cannot Reproduce ¬ Manjaro Linux 18.0 (Illyria) x86_64 - Kernel Version 4.18.0-1-MANJARO - KDE Plasma 5.13.3 - 7.7GiB of RAM ¬ Canary Build 20174
+
+Kydros Elizabeth LeSaki#3217 - Bug Bot on 2018-07-28T17:47:15.479Z
+
+
+### Can reproduce.
+CR, font became a bit bold, Ubuntu 16.04 x86_64 4.15.0-29-generic , Canary Build 20174
+
+Frovy#6820 - Bug Bot on 2018-07-29T11:17:28.386Z
+
+
+### Can reproduce.
+Xubuntu Bionic, Stable 20579
+
+VitalKanev#2348 - Bug Bot on 2018-08-03T13:31:57.510Z
+
+
+### verified, ubuntu 16.04 - Clayton on 2018-08-30T21:55:52.826Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-08-30T21:56:00.872Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

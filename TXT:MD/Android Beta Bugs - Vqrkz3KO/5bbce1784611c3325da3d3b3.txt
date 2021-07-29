@@ -1,0 +1,68 @@
+[Archived] Audit log entries that about an invite being created show the creator's name as "null" if they have left the server. (https://trello.com/c/gwGqO9zz)
+
+None
+
+Created: 2018-10-09T17:12:24.775Z
+Latest Update: 2019-06-05T23:47:53.036Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Ask someone to create an invite for your server. 
+- Kick them. 
+- Force close and restart Discord. 
+- Open Audit log of the server. 
+- Observe the entry that says about the channel being created.
+
+####Expected result:
+Like on desktop, it says the creator's name and shows their pfp.
+####Actual result:
+It says "null" and shows the default avatar (Clyde).
+####Client settings:
+Discord Alpha 766
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+20885
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-09T17:12:24.775Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.6.6
+
+Hole#0001 - Bug Bot on 2018-10-09T17:12:32.227Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.6.6
+
+Danijel#9000 - Bug Bot on 2018-10-09T17:12:37.137Z
+
+
+### Can reproduce.
+cr, Samsung Galaxy S5 mini, Android 6.0.1, Alpha 766
+
+Nashorn#3450 - Bug Bot on 2018-10-09T17:12:42.160Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Jeff Cailteux on 2018-10-09T20:26:19.388Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-10-09T21:08:17.860Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-04T23:43:04.417Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:53.045Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

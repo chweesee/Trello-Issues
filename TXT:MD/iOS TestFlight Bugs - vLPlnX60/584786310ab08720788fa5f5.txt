@@ -1,0 +1,71 @@
+[Archived] Role names accept more characters than on desktop. (https://trello.com/c/eLG9T6wu)
+
+P1 - Severe
+
+Created: 2016-12-07T03:46:57.093Z
+Latest Update: 2017-10-17T20:56:58.153Z
+
+Reported by Dru#8209
+
+####Steps to reproduce: 
+- Go to edit any role. 
+- Type in a really long name that would be cut off on other platforms. 
+
+####Expected result:
+ The field stops accepting characters or throws an error when finished typing. 
+####Actual result:
+ The field allows any number of characters to be entered and submitted, and will set that as the role name, regardless of length.
+
+Card Log
+========
+### Added by Jared on 2016-12-07T03:46:57.093Z
+
+
+### Can reproduce.
+iOS 10.2 Developer Beta 5, Latest Testflight. Note: Role name, regardless of length only means that it submits 5 or less chars longer, but ¯\_(ツ)_/¯
+
+Dru#8209 - Jared on 2016-12-07T03:48:24.589Z
+
+
+### Can reproduce.
+iOS 9.3.3, iPhone 5s, Latest TestFlight
+
+霧雨 魔理沙 ★★★★#9667 - Jared on 2016-12-07T03:49:29.313Z
+
+
+### Dru#8209 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/584786310ab08720788fa5f5/0b775e6515a26ee5070f61a58fc865fb/KOdZsqd.png added by Jared on 2016-12-07T03:54:57.394Z
+
+
+### Maximum on desktop is 32 characters, on mobile its around 40. - Jared on 2016-12-08T18:30:42.211Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-08T18:30:47.872Z
+
+
+### Verified this issue still occurs as written as of 1.8.0 (56) - Jared on 2016-12-19T23:41:47.712Z
+
+
+### fixed in master. - Fanghao on 2016-12-21T20:26:45.229Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Fanghao on 2016-12-21T20:26:48.158Z
+
+
+### Verified Fixed in build 1.8.1 (56) - Jared on 2016-12-21T23:36:22.535Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2016-12-21T23:36:25.016Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:56:57.462Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:56:58.158Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

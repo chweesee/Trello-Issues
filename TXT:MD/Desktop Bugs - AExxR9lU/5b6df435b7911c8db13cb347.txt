@@ -1,0 +1,88 @@
+[Archived] On Firefox nightly (version 63.0a1 (2018-08-10) (64-bit)) voice chat does not work at all (https://trello.com/c/4fEDdQeO)
+
+P1: Severe,
+Firefox
+
+Created: 2018-08-10T20:23:17.694Z
+Latest Update: 2019-01-01T15:53:04.888Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Use Firefox Nigthly 63.0a1 64-bit 
+- Attempt to join a voice channel 
+- Observe the forever RTC connecting loop
+
+####Expected result:
+You should be able to connect without issues
+####Actual result:
+Stuck on RTC connecting
+####Client settings:
+Discord Canary (21569)
+####System settings:
+Windows 10 Pro 64-bit (1803) Browser: Firefox Nightly (version 63.0a1 (2018-08-10) (64-bit))
+
+17293
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-10T20:23:17.694Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6df435b7911c8db13cb347/2cbfc73d29add5fa82867e65cd7ac7c3/jvze2VU.png added by Bug Bot on 2018-08-10T20:23:20.214Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6df435b7911c8db13cb347/2bdbe1d04f7c64c28ccb2e986ac7cb8a/8K66lkM.png added by Bug Bot on 2018-08-10T20:23:20.286Z
+
+
+### Can reproduce.
+WIN7 Enterprise, Firefox Nightly 63.0a1, Canary 21569
+
+Uptightjoker#0001 - Bug Bot on 2018-08-10T20:23:25.119Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13"), macOS 10.13.6 - Firefox Nightly 63.0a1 - Canary 21584
+
+Mippy#0001 - Bug Bot on 2018-08-10T20:23:30.120Z
+
+
+### Can reproduce.
+CR, Firefox nightly 63.0a1, Windows 10 x64
+
+ExtraCrafTX#5775 - Bug Bot on 2018-08-10T20:23:35.165Z
+
+
+### Moved from User Reported Bugs to Firefox specific by Clayton on 2018-08-10T22:23:51.896Z
+
+
+### verified, firefox nightly 63, macos 10.12.6 - Clayton on 2018-08-30T22:58:44.638Z
+
+
+### Moved from Firefox specific to Verified Bugs by Clayton on 2018-08-30T22:58:49.914Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jozsef Vass on 2018-10-18T20:40:45.023Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jozsef Vass on 2018-10-23T01:55:07.272Z
+
+
+### Deployed to stable. - Jozsef Vass on 2018-10-23T01:55:21.316Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-16T05:40:54.252Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:53:03.656Z
+
+
+### Archived by Tarek on 2019-01-01T15:53:04.891Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

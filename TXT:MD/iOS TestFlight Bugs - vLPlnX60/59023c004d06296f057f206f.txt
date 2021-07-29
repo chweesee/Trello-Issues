@@ -1,0 +1,84 @@
+[Archived] Tapping no to the nsfw agreement for a group crashes app (https://trello.com/c/l1rzMlxF)
+
+None
+
+Created: 2017-04-27T18:44:16.641Z
+Latest Update: 2017-10-17T20:57:45.317Z
+
+Reported by MattBSG#9263
+
+####Steps to reproduce: 
+- rename a group with the `nsfw-` prefix 
+- Tap another DM/server then go back into group 
+- Tap no when asked if your ok to see nsfw content 
+
+####Expected result:
+ switches view to friends (same behavior as when a servers default channel is marked nsfw) 
+####Actual result:
+ app crash 
+####System settings:
+ iPhone 7, iOS 10.3.1
+
+1245
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-27T18:44:16.641Z
+
+
+### Can reproduce.
+iPhone 7, iOS 10.3.2b4, 1.8.4
+
+Tiemen#0107 - Bug Bot on 2017-04-27T18:44:17.244Z
+
+
+### Can reproduce.
+iOS 10.2, iPhone SE, discord 1.8.4
+
+nullpixel#0012 - Bug Bot on 2017-04-27T18:44:19.327Z
+
+
+### Can reproduce.
+iOS 10.3.1, iPhone 6, Discord 1.8.4
+
+mouse91#3089 - Bug Bot on 2017-04-27T18:44:21.368Z
+
+
+### Can reproduce.
+AppStore Build
+
+Cyberium#9972 - Bug Bot on 2017-04-29T03:17:54.700Z
+
+
+### Can reproduce.
+iPhone SE iOS 10.3.2 (Beta)
+
+apap04#7823 - Bug Bot on 2017-04-29T20:27:58.433Z
+
+
+### Also occurs when you tap "yes"
+
+MattBSG#9263 - Bug Bot on 2017-04-29T20:47:27.415Z
+
+
+### The actual bug was that the warning showed when a group was labeled nsfw. That has been fixed. - Jared on 2017-05-02T21:49:42.873Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-05-02T21:49:53.635Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-05-02T21:49:56.354Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:57:44.551Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:57:45.321Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,70 @@
+[Archived] CS 1.6 detects as Half-Life in Games Tab (https://trello.com/c/T4Hk540k)
+
+None
+
+Created: 2018-06-24T06:02:25.315Z
+Latest Update: 2018-08-30T23:15:16.060Z
+
+Reported by Doges#0001
+
+####Steps to reproduce:
+- Start CS 1.6 
+- See your games tab or in your settings
+
+####Expected result:
+Identify the game as Counter-Strike
+####Actual result:
+It identifies as Half-Life
+####Client settings:
+Discord Canary (Build 17576)
+####System settings:
+Windows 10 x64 1803
+
+14640
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-24T06:02:25.315Z
+
+
+### Doges#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b2f33f100b6623898226518/be94411a81cad1560082325d98547357/unknown.png added by Bug Bot on 2018-06-24T06:02:28.191Z
+
+
+### Doges#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b2f33f100b6623898226518/28602d77a2414e72164dc2ade4bc9f84/0K2Ct.png added by Bug Bot on 2018-06-24T06:02:30.613Z
+
+
+### Can reproduce.
+Can Reproduce. Happens with game Counter-Strike: Condition Zero and Counter-Strike: Condition Zero - Deleted Scenes. Windows 10 x64 1803 (17134), Discord Canary with Build number 17576
+
+Frances Picard#6209 - Bug Bot on 2018-06-24T06:02:32.766Z
+
+
+### Can reproduce.
+Can reproduce, happens to all games using hl1 engine
+
+digmorepaka#9032 - Bug Bot on 2018-06-24T06:02:37.791Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 1803 Canary 17576
+
+Bencey_#8587 - Bug Bot on 2018-06-24T06:02:42.782Z
+
+
+### So I checked the applications Discord supports, and it appears Discord detects CS1.6 as Half-Life because they share executable (hl.exe). And there is actually a specific JSON for CS1.6 but it seems to be ignoring that and uses Half-Life as game title. 
+
+Gist: https://gist.github.com/Tarek1337/9c2c286b100c9ebe0ab555629f803ebc - Tarek on 2018-06-24T09:26:44.360Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2018-06-26T00:21:24.714Z
+
+
+### Archived by Clayton on 2018-08-30T23:15:16.062Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,79 @@
+[Archived] Deleting a file with a long name and a dash is not truncated and extends into the image modal (https://trello.com/c/cazKRIos)
+
+P3: Will get fixed eventually
+
+Created: 2017-03-24T03:52:44.687Z
+Latest Update: 2018-07-06T18:17:56.414Z
+
+Reported by Dru#6043
+
+####Steps to reproduce: 
+- Get a file with a nice long file name, like `pG4fBU3a3eBFqybM8tvbu1x-XYTFAJmJ3uw13i7vW5U.png` 
+- Delete said file 
+- Notice graphical bug that causes the name to extend past the notmal constraints of the modal 
+
+####Expected result:
+ File name gets truncated or something 
+####Actual result:
+ File name extends past the normal constraints of the modal
+
+2155
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-24T03:52:44.687Z
+
+
+### Can reproduce.
+macOS Canary
+
+Harrison#9100 - Bug Bot on 2017-03-24T03:52:45.478Z
+
+
+### Can reproduce.
+Windows 10, Latest Discord Canary
+
+DJScias#0812 - Bug Bot on 2017-03-24T03:52:47.703Z
+
+
+### Can reproduce.
+arch 0.15 
+
+requiers that the file have a dash in it
+
+Alex from Alaska#8575 - Bug Bot on 2017-03-24T03:52:49.409Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58d4980c8f6f981dae1c9b79/92e81441354820062b5902c739fde3c2/unknown.png added by Bug Bot on 2017-03-24T03:53:00.589Z
+
+
+### Can reproduce.
+
+
+Andrew.#6465 - Bug Bot on 2017-03-26T13:29:05.813Z
+
+
+### Verified, minor. - Jared on 2017-03-27T20:29:20.675Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-03-27T20:29:25.553Z
+
+
+### Cannot reproduce anymore, Discord Canary 11555. Moving to claimed fixed. - Tarek on 2018-03-03T01:32:13.630Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-03-03T01:32:20.412Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:17:55.242Z
+
+
+### Archived by Jared on 2018-07-06T18:17:56.417Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

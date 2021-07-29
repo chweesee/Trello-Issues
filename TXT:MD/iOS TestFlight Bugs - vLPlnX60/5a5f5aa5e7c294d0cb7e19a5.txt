@@ -1,0 +1,96 @@
+[Archived] With the newly added languages set, Clicking on 'User Settings' crashes the application (https://trello.com/c/dxSQoMsu)
+
+P1 - Severe,
+high
+
+Created: 2018-01-17T14:16:05.739Z
+Latest Update: 2018-02-26T23:59:10.834Z
+
+Reported by KenPUBG#7675
+
+####Steps to reproduce:
+
+- Set Discord's language to any new language on PC 
+- Start Discord on your phone 
+- Tap on 'User Settings'
+
+####Expected result:
+Settings come up
+####Actual result:
+The application crashes
+####Client settings:
+TestFlight 2.2.0
+####System settings:
+iPhone 6, iOS 11.2.2
+
+7872
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-17T14:16:05.739Z
+
+
+### Can reproduce.
+CR iPhone 8 +, iOS 11.2.5 (PB4), Discord TestFlight 2.2.0 (2121)
+
+Ghoul#4567 - Bug Bot on 2018-01-17T14:16:13.015Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.2 & iPad Air 2, iOS 11.2.5 Public Beta 5, TestFlight 2.2.0 (2121), can reproduce it with chinese simplified
+
+Pascal#0929 - Bug Bot on 2018-01-17T14:16:18.569Z
+
+
+### Can reproduce.
+Can repro (tried Hungarian); iPhone X, iOS 11.2.2, TestFlight 2.2.0 (2121)
+
+mouse91#3089 - Bug Bot on 2018-01-17T14:16:23.046Z
+
+
+### This is happening to **all** new languages as mentioned in the report...
+
+The new languages are:
+
+ - Hungarian
+ - Romanian
+ - Greek 
+ - Lithuanian
+ - Chinese Simplified - Tarek on 2018-01-17T14:18:22.976Z
+
+
+### This happens to the new following languages: Romanian
+Hungarian
+Lithuanian
+Greek
+Chinese Simplified
+
+You would need to change the language to the following above in desktop chat, and then go to User Settings in iOS in order to see this bug.
+
+Ghoul#4567 - Bug Bot on 2018-01-17T14:19:55.359Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Jared on 2018-01-17T23:55:49.256Z
+
+
+### Andrei fixed this - Jared on 2018-01-17T23:55:59.439Z
+
+
+### Can't reproduce.
+Since the new languages were added, I can no longer reproduce. iPhone 8 +, iOS 11.2.5 (PB7), iOS TestFlight 2.2.1 (2224)
+
+Ghoul#4567 - Bug Bot on 2018-01-21T03:01:59.469Z
+
+
+### Archiving due to age and no activity. - Mike Nisbet on 2018-02-26T23:59:06.611Z
+
+
+### Archived by Mike Nisbet on 2018-02-26T23:59:10.836Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,72 @@
+[Archived] Removing one asterisk from each side of a quoted bolded word during two edits will duplicate the italicized word (https://trello.com/c/UZ0g8eNa)
+
+None
+
+Created: 2018-01-18T05:40:54.508Z
+Latest Update: 2018-01-18T21:13:23.609Z
+
+Reported by Penguin#0001
+
+####Steps to reproduce:
+- Paste a quoted, bolded word or phrase such as [quotation][asterisk][asterisk]Sergals[asterisk][asterisk][quotation] 
+- Remove an asterisk from one side, changing it to [quotation][asterisk][asterisk]Sergals[asterisk][quotation] 
+- Remove an asterisk from the other side, changing it to[quotation][asterisk]Sergals[asterisk][quotation]
+
+####Expected result:
+The word or phrase is italicized, in quotes.
+####Actual result:
+The word or phrase is italicized in quotes, but duplicated.
+####Client settings:
+Desktop client, Release Channel: Canary, Build Number: 9640
+####System settings:
+macOS High Sierra 10.13.2
+
+7890
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-18T05:40:54.508Z
+
+
+### Penguin#0001 - https://www.youtube.com/watch?v=6lTjQiV46RM added by Bug Bot on 2018-01-18T05:40:57.003Z
+
+
+### Can reproduce.
+Discord Canary 0.0.198 (9640) on Windows 10 Pro 64-bit (1709)
+
+Tarek1337#0379 - Bug Bot on 2018-01-18T05:41:01.865Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Discord Canary 0.0.198
+
+Elix 🍭#4604 - Bug Bot on 2018-01-18T05:41:06.916Z
+
+
+### Can reproduce.
+Macbook Pro 15" (2017) macOS High Sierra 10.13.2; Canary Build 9640
+
+mrkirby153#7840 - Bug Bot on 2018-01-18T05:41:11.894Z
+
+
+### Dupe/extension of https://trello.com/c/RA1IgEOy/1367-editing-a-message-with-bad-strikethrough-and-another-formatting-to-its-correct-format-will-mess-the-shown-message, silly Penguin. <3 - Tarek on 2018-01-18T05:49:03.858Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.197 (9640) on Windows 10 Home x64 Fall Creators Update (1709)
+
+OminousCry#2331 - Bug Bot on 2018-01-18T15:41:02.156Z
+
+
+### Dupe - Clayton on 2018-01-18T21:13:21.490Z
+
+
+### Archived by Clayton on 2018-01-18T21:13:23.611Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

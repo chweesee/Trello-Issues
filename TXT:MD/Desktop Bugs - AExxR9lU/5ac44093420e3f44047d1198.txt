@@ -1,0 +1,78 @@
+[Archived] There is a visible empty space at the bottom of the member list in any server if the name of any role is the only thing visible at the very bottom of the list. (You won't actually see the name of the role due to the bug) (https://trello.com/c/lvLx43rD)
+
+P3: Will get fixed eventually,
+Low,
+Modals,
+Client side
+
+Created: 2018-04-04T03:03:48.032Z
+Latest Update: 2018-07-06T18:21:53.763Z
+
+Reported by Midnight Star#1145
+
+####Steps to reproduce:
+- Make sure you're in a server in whose member list's bottom only the name of any role should be seen 
+- Scroll all the way to the top of the member list 
+- Observe the bottom of the member list
+
+####Expected result:
+There should not be an empty space/role.
+####Actual result:
+There's an empty space or a role without any visible members.
+####Client settings:
+Discord Canary (Build 13034)
+####System settings:
+Windows 10 Pro 64-bit (Build 16299)
+
+10225
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-04T03:03:48.032Z
+
+
+### Midnight Star#1145 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac44093420e3f44047d1198/83415141d41a44d1e7bb14b8ec8f6466/nABR6GI.png added by Bug Bot on 2018-04-04T03:03:51.891Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204, Build 13034, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-04-04T03:03:55.509Z
+
+
+### Can reproduce.
+MacBook Air 2017, OS X 10.11.6 (El Captain) - Discord Canary Build 13034
+
+Ghoul#0001 - Bug Bot on 2018-04-04T03:04:00.489Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (Build 13076), Windows 10 Education x64 1709 (OS Build 16299.309)
+
+OminousCry#2331 - Bug Bot on 2018-04-04T03:04:05.493Z
+
+
+### Verified on [BUILD INFO] Release Channel: canary, Build Number: 13228, Version Hash: a6423b5c52a41c71781e77204cb85e06e619c1b0 - Jared on 2018-04-06T18:26:26.229Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-06T18:26:30.288Z
+
+
+### Cannot reproduce anymore, Discord Canary (13602). Moving to claimed fixed. - Tarek on 2018-04-14T10:19:51.904Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-04-14T10:19:56.194Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:21:52.379Z
+
+
+### Archived by Jared on 2018-07-06T18:21:53.768Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

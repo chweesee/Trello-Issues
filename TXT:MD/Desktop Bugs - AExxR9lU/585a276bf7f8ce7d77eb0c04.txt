@@ -1,0 +1,61 @@
+[Archived] Firefox does not show correct status for DnD users upon first open. Rereporting for a supported browser. (https://trello.com/c/wGIMX2nF)
+
+None
+
+Created: 2016-12-21T06:55:39.474Z
+Latest Update: 2017-10-30T17:22:26.883Z
+
+Reported by Enharmonic#3999
+
+####Steps to reproduce: 
+- Open Firefox to the friends page on an alternate account. 
+- Set your main account as Invisible in Canary. 
+- Change to a mutual server between the alternate account being used in Firefox and the main account being used in Canary 
+
+####Expected result:
+ The user should show up as being offline. 
+####Actual result:
+ The user shows up as Online until a status change happens again for that user.
+
+Card Log
+========
+### Added by Jared on 2016-12-21T06:55:39.474Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Canary & Firefox 50
+
+Tonkku#0950 - Jared on 2016-12-22T14:22:10.193Z
+
+
+### Any other status doesn't seem to work either
+
+Tonkku#0950 - Jared on 2016-12-22T14:24:48.921Z
+
+
+### Cannot reproduce.  Here are my steps:
+
+1) Log into account A in firefox.
+2) On the friends page, account B appears and is online.
+3) In the desktop client, change B from "Online" status to "Invisible".
+4) In Firefox, account B disappears from the online friends list.
+5) In Firefox, progress to a mutually shared server with account B.
+
+Result: Account is is shown as being offline. - Jared on 2017-01-17T19:52:19.274Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-01-17T19:52:22.140Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:22:25.967Z
+
+
+### Archived by Jared on 2017-10-30T17:22:26.884Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

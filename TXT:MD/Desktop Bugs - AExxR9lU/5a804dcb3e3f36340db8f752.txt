@@ -1,0 +1,72 @@
+[Archived] Spellcheck doesn't show the redline if there's an extra apostrophe (') (https://trello.com/c/AbQC9JZd)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-02-11T14:06:04.029Z
+Latest Update: 2018-10-22T20:18:24.972Z
+
+Reported by Kuuhaku#4503
+
+####Steps to reproduce:
+- Write a message that has a word with an extra apostrophe such as `don''t` `couldn''t` `you''ll` etc 
+- Observe
+
+####Expected result:
+- A red line should be shown saying there's a spelling mistake
+####Actual result:
+- There is no red line showing that the spelling is incorrect but the option is available to correct it by highlighting the word and right clicking it
+####Client settings:
+Canary Build 10549
+####System settings:
+macOS 10.12.6
+
+8681
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-11T14:06:04.029Z
+
+
+### Can reproduce.
+Discord Canary 0.0.202 (10549) on Windows 10 Pro 64-bit (1709)
+
+Tarek#1337 - Bug Bot on 2018-02-11T14:06:11.396Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10549
+
+webhp#1337 - Bug Bot on 2018-02-11T14:06:16.393Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.202, Windows 10 Pro x64 1709
+
+Elix 🍭#6969 - Bug Bot on 2018-02-11T14:06:21.450Z
+
+
+### Can reproduce.
+CR, Windows 10 Insider V 17035
+
+Tiger Gaming HD X#9194 - Bug Bot on 2018-02-11T20:49:10.609Z
+
+
+### Verified.  - Clayton on 2018-02-15T23:18:45.963Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T23:18:57.975Z
+
+
+### 54D#1357 - https://youtu.be/dtJOvDoLDTE added by Bug Bot on 2018-07-14T15:20:13.459Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:24.975Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

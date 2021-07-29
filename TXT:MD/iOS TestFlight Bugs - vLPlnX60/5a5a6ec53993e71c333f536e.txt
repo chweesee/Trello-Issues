@@ -1,0 +1,78 @@
+[Archived] Cannot Redrag Role to its original slot after moving (https://trello.com/c/LV6smc9x)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-01-13T20:40:37.624Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Ghoul#4567
+
+####Steps to reproduce:
+- Kill your app, then restart it. 
+- Go to your server that you have the following permissions: Manage Role (could need Manage Server, Manage Channel, and View Audit Logs in case) 
+- Go to Server Settings, then Roles 
+- Click and hold onto the highest role, then try to drag it up and down (or you could hold it above another role then try to move it back) This may take multiple times, and require some playing around before you will see the said bug.
+
+####Expected result:
+Role should be able to return to its previous slot (highest)
+####Actual result:
+Role is not able to return there, if you drop it, it'll automatically jump to the bottom.
+####Client settings:
+Discord TestFlight 2.2.0 (2080)
+####System settings:
+iPhone 8 +, iOS 11.2.5 (PB4) and iPad Air 1st Generation, iOS 11.1.2
+
+7801
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-13T20:40:37.624Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.2 & iPad Air 2, iOS 11.2.5 Public Beta 5, TestFlight 2.2.0 (2080)
+
+Pascal#0929 - Bug Bot on 2018-01-13T20:40:45.054Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 11.1.2, TestFlight 2.2.0 (build 2080) - dragging a role all the way up to the top of the list then dragging above the navigation bar at the top of the screen causes the role to automatically be put at the bottom of the hierarchy, most likely what this bug is talking about.
+
+JustGamer#2542 - Bug Bot on 2018-01-13T20:40:50.049Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.2.5 beta 5, TestFlight 2080
+
+Dark#2027 - Bug Bot on 2018-01-13T20:40:55.084Z
+
+
+### Might be a dupe/extension of https://trello.com/c/JmSItD5e
+
+Pascal#0929 - Bug Bot on 2018-01-15T19:00:36.661Z
+
+
+### Verified - Clayton on 2018-01-18T11:20:39.813Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-18T11:20:55.156Z
+
+
+### I can no longer reproduce, I am able to move the role back to the highest position. 
+
+Discord 2.2.5 (3054), iOS 11.2.6, iPhone 8 Plus - Alexandru Todea on 2018-03-16T17:21:31.093Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-03-16T17:21:38.380Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:35.350Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

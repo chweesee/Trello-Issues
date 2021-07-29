@@ -1,0 +1,72 @@
+[Archived] A bug that makes the "Automatically determine input sensitivity" function disfonctuion. (https://trello.com/c/bTC81mLl)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-07-25T08:41:49.159Z
+Latest Update: 2018-10-22T20:23:38.466Z
+
+Reported by Armağan#2448
+
+####Steps to reproduce:
+- Go to Settings>Voice & Video. 
+- Disable "Automatically determine input sensitivity." 
+- Set the sensitivity slider to top/max. 
+- Enable "Automatically determine input sensitivity." without touching the slider. 
+- Try to talk to your friend / talk at a server.
+
+####Expected result:
+It should go back to automatic sensitivity and my friends should hear me.
+####Actual result:
+It acts like its still at max/top.
+####Client settings:
+Release Channel: canary, Build Number: 19623 Can reproduce on Release Channel: stable, Build Number: 19535
+####System settings:
+Works at different versions of Windows 10
+
+15980
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-25T08:41:49.159Z
+
+
+### Can reproduce.
+Widnows 10 Professional Release Channel: stable, Build Number: 19535
+
+ImEmir#6672 - Bug Bot on 2018-07-25T08:41:56.843Z
+
+
+### Can reproduce.
+WIN10 home, Canary 19693
+
+Uptightjoker#0001 - Bug Bot on 2018-07-25T08:42:01.839Z
+
+
+### Can reproduce.
+CR. Canary 19710, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-25T08:42:06.909Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 1803 Discord Canary 19710
+
+R0shi#9716 - Bug Bot on 2018-07-25T14:46:31.673Z
+
+
+### verified, macos 10.12.6, canary 19879 - Clayton on 2018-07-26T22:35:59.565Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-26T22:36:18.886Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:38.468Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

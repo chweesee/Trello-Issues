@@ -1,0 +1,75 @@
+[Archived] The chat stops scrolling itself when you are switching to an active channel and not touching the screen (https://trello.com/c/Zu81vVgo)
+
+P3 - Will be fixed eventually
+
+Created: 2017-11-13T19:37:36.880Z
+Latest Update: 2018-07-06T18:42:55.842Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Pick an active channel (a channel where a lot of messages are sent in short amount of time, e.g HypeSquad general)  
+- Read the messages in it, or simply mark it as Read 
+- Make sure you are not currently viewing this channel. Switch to another one in the same server.  
+- Wait for new unread messages on the channel you picked at step 1 
+- Switch back to this channel. If you can see the "New Messages" red bar without having to scroll up, you're good to go. You must NOT touch your screen after switching back to channel. 
+- Wait for the "New messages" bar to reach the top of the screen
+
+####Expected result:
+The chat will continue to scroll down itself and the "New Messages" red bar will end up to go off-screen
+####Actual result:
+When the New Messages bar reaches the top of the screen, the chat stops scrolling down itself, forcing you to scroll down manually to see latest messages.
+####Client settings:
+Discord Alpha 5.6.3
+####System settings:
+Huawei Mate 9 Android 7.0
+
+6301
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-13T19:37:36.880Z
+
+
+### Can reproduce.
+Can repro ; Huawei p8 lite 2017, Android 7.0, alpha 5.6.6
+
+Mathéo ~ fujh🍂fn#0878 - Bug Bot on 2017-11-13T19:37:44.331Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0; Android Alpha 5.6.6
+
+Maraly#9842 - Bug Bot on 2017-11-13T19:37:49.309Z
+
+
+### Can reproduce.
+Moto G4 Android 7.0 Alpha 5.6.6
+
+Azrael#9808 - Bug Bot on 2017-11-13T19:37:54.285Z
+
+
+### Verified.  - Clayton on 2017-11-15T22:21:06.047Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-15T22:21:09.288Z
+
+
+### Cannot reproduce, marking as Verified Fixed. - Jared on 2018-03-23T22:04:03.295Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2018-03-23T22:04:07.323Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:42:54.991Z
+
+
+### Archived by Jared on 2018-07-06T18:42:55.845Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

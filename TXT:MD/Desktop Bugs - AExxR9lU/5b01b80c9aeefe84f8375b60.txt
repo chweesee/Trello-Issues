@@ -1,0 +1,67 @@
+Users are not moved to AFK Channel (https://trello.com/c/4MeWtMBu)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-05-20T18:01:48.575Z
+Latest Update: 2019-09-23T22:30:07.901Z
+
+Reported by HarryThorpe#0864
+
+####Steps to reproduce:
+- Have a server with 2 or more voice channels 
+- Set the servers AFK timeout to whatever time you want, to keep things simple set it to 1 min 
+- Join another voice channel that is not the AFK channel 
+- Sit completely idle and observe.
+
+####Expected result:
+Once the idle time is reached, the user should be moved to the AFK channel
+####Actual result:
+You don't get moved at all - regardless of permissions
+####Client settings:
+Canary Build 15665
+####System settings:
+Windows 10 Home x64 - Version 1709 - Build 16299.431
+
+13088
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-20T18:01:48.575Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS Sierra 10.12.6, Discord Canary (Build 15598)
+
+Rage#1337 - Bug Bot on 2018-05-20T18:01:56.045Z
+
+
+### Can reproduce.
+CR. Tested idling in server I owned with no game open and with game open, but no inputs on keyboard or mouse. 1 minute timeout. Windows 10 Pro 1803, Desktop Canary 15665
+
+lego#8917 - Bug Bot on 2018-05-20T18:02:01.236Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 15665
+
+webhp#1337 - Bug Bot on 2018-05-20T18:02:06.191Z
+
+
+### Verified, Canary 15996, Windows 10 - Clayton on 2018-05-23T22:44:19.256Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-23T22:44:27.029Z
+
+
+### I tested this bug during the Trello Cleanup Event more than once by following the reproduction steps. I can still reproduce this bug on Windows 10 Home x64 with Discord Canary Build 18317. I set my AFK timer for one minute, and went idle but I was not moved to my AFK channel. 
+
+This ticket will remain here. - Ghoul on 2018-07-08T04:58:47.818Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

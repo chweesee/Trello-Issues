@@ -1,0 +1,95 @@
+[Archived] Speaker icon remains lit up when sound comes from iPhone, not speakers. (https://trello.com/c/me8QKz6D)
+
+None
+
+Created: 2019-06-20T12:09:12.907Z
+Latest Update: 2019-09-18T10:01:21.763Z
+
+Reported by Mauve Ode Iffier#6602
+
+####Steps to reproduce:
+- Start a call. 
+- Press on the speaker icon, then choose "Speakers". 
+- Notice that the speaker icon turns white. 
+- End call. 
+- Start a call again.
+
+####Expected result:
+Either the speaker icon should turn black because sound comes from iPhone, or sound should continue to come from speakers.
+####Actual result:
+Speaker icon is white, but sound comes from iPhone, not speakers.
+####Client settings:
+TestFlight 3.0.4 (15896)
+####System settings:
+iPhone X iOS 12.4
+
+37911
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-20T12:09:12.907Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 4) - TestFlight 3.0.4 (15896)
+
+Xylium#5800 - Bug Bot on 2019-06-20T12:09:20.353Z
+
+
+### Can reproduce.
+CR, iPhone Xs, iOS 12.3.1, TestFlight 3.0.4 (15896)
+
+maximd#1122 - Bug Bot on 2019-06-20T12:09:25.288Z
+
+
+### Can reproduce.
+CR // iPhone Xs Max (iOs 12.3.2) // Discord TF 3.0.4
+
+Indiana#6009 - Bug Bot on 2019-06-20T12:09:30.248Z
+
+
+### Moved from New Issues to Claimed Fixed Bugs by Fanghao on 2019-06-21T05:41:45.185Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 Stable 3.0.4
+
+binchlord#0998 - Bug Bot on 2019-06-22T11:43:57.566Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 (dev beta 4) - Stable 3.0.4
+
+Xylium#5800 - Bug Bot on 2019-06-22T12:09:40.126Z
+
+
+### Can reproduce.
+Can repro, iPhone 7, iOS 12.4 (Dev Beta 4) , TestFlight 3.0.4 (15896)
+
+ryan#0570 - Bug Bot on 2019-06-23T03:35:09.690Z
+
+
+### Can't reproduce.
+iphone 5c ios 10.3.3, Stable 3.0.4
+
+OrangeM24#5746 - Bug Bot on 2019-06-23T18:14:48.579Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-23T18:14:48.813Z
+
+
+### Can reproduce.
+iPhone 6s iOS 12.3.1 - TF 3.0.4 (15896)
+
+Jasοn#0001 - Bug Bot on 2019-06-23T20:06:37.786Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:21.774Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/alex83925693) - No Bio

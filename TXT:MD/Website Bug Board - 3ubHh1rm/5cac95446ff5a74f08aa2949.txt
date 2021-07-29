@@ -1,0 +1,107 @@
+No errors when submitting empty Address info when buying a Dev App License. (https://trello.com/c/d0x5BOfU)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-04-09T12:51:17.049Z
+Latest Update: 2019-07-19T14:09:57.703Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Note: Use the fake payment info from my attached GIF. 
+- Go to the Developer Portal > New Application. 
+- Click the "Check it out" button in the sidebar. 
+- Click "Buy" > Credit Card. 
+- Enter valid but non-existent payment info (see the GIF). 
+- Proceed and leave all fields empty on next page. 
+- Click "Next".
+
+####Expected result:
+It should highlight the invalid fields and say that they're invalid, like when leaving Payment Information (in the previous step) empty.
+####Actual result:
+No errors appear when proceeding with empty information.
+####Client settings:
+Chrome 72.0.3626.122 (x64)
+####System settings:
+HP Chromebook G5 11 ~ Chrome 72.0.3626.122 (x64)
+
+32359
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-09T12:51:17.049Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cac95446ff5a74f08aa2949/6bce8e971ce5a6fa5072a4e80d31275b/fcwzRpL.gif added by Bug Bot on 2019-04-09T12:51:22.503Z
+
+
+### Can reproduce.
+Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+warp#4660 - Bug Bot on 2019-04-09T12:51:24.458Z
+
+
+### Can reproduce.
+HP ChromeBook Version 69.0.3497.120 (Official Build) (64-bit) Chrome Web Browser 72.0.3626.122
+
+Killtracity#0001 - Bug Bot on 2019-04-09T12:51:29.605Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 35116 Chrome 73.0
+
+Delite#0001 - Bug Bot on 2019-04-09T12:51:34.442Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1809 (OS Build 17763.404),Canary 35116,Chrome 73.0.3683
+
+||Kissa||#1337 - Bug Bot on 2019-04-09T14:00:24.219Z
+
+
+### Can reproduce.
+- Windows 10 Pro x64 (1809) - Canary 35116 - Chrome 72.0.3626.122
+
+Jengas#7777 - Bug Bot on 2019-04-09T14:11:39.841Z
+
+
+### Can reproduce.
+Win 10 Pro x64 (1809) | Chrome 73
+
+Clay#0001 - Bug Bot on 2019-04-09T19:04:01.049Z
+
+
+### Can reproduce.
+macos 10.14.5, chrome 73
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-10T02:44:30.523Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Google Chrome  73.0.3683.103
+
+Daffyduck#5364 - Bug Bot on 2019-04-11T03:36:56.307Z
+
+
+### Can reproduce.
+Windows 10 Home; Google Chrome 73.0.3683.103
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-12T12:30:14.130Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Pascal on 2019-06-15T17:53:02.935Z
+
+
+### Verified » Windows 10 Pro x64, Chrome Version 75.0.3770.142 (64-bit) - Aeria on 2019-07-19T14:09:54.490Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Aeria on 2019-07-19T14:09:57.667Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

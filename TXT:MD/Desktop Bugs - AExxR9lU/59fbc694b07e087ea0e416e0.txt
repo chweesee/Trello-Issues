@@ -1,0 +1,78 @@
+[Archived] resize cursor usable at the bottom of window when maximized (https://trello.com/c/sCYPMeFY)
+
+P3: Will get fixed eventually
+
+Created: 2017-11-03T01:29:56.825Z
+Latest Update: 2018-10-22T20:16:32.742Z
+
+Reported by Grimsbane (YTSpitler2)#2353
+
+####Steps to reproduce:
+- Maximize the window. 
+- Put mouse on the bottom of the window near the taskbar. 
+- Drag the resize cursor up.
+
+####Expected result:
+Nothing happens, as the resize cursor shouldn't appear.
+####Actual result:
+The application resizes itself and no longer is maximized.
+####Client settings:
+Release Channel: stable, Build Number: 6721, Version Hash: 2cdeb5b43fd361c72bf807c299fdf5e286d69361
+####System settings:
+Windows 7 x64
+
+6022
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-03T01:29:56.825Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.169, AMD Radeon RX 460, Windows 10 x64 Creators Update
+
+xizbow#5513 - Bug Bot on 2017-11-03T01:30:04.254Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Fall Creators Update, Discord Canary Build 6746
+
+FireController1847#3577 - Bug Bot on 2017-11-03T01:30:09.278Z
+
+
+### Can reproduce.
+Windows 7 x64, Canary Build 6772
+
+skyllful#8516 - Bug Bot on 2017-11-03T01:30:14.229Z
+
+
+### Can't reproduce.
+OS X Yosemite (10.10.5), Canary 0.0.248 (Build 6721)
+
+holroyMcpe#4637 - Bug Bot on 2017-11-03T01:44:03.924Z
+
+
+### Verified - Clayton on 2017-11-03T05:30:59.140Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:31:01.473Z
+
+
+### This ticket was checked during the Trello cleaning event, and as of Discord Canary Build 18226 on Windows 10 Pro x64, it is still reproducible. Because of this bug being reproducible, I will leave it to be. - Ghoul on 2018-07-06T04:17:01.941Z
+
+
+### 54D#1357 - undefined added by Bug Bot on 2018-07-15T10:25:02.475Z
+
+
+### 54D#1357 - https://youtu.be/S47tueDgsQc added by Bug Bot on 2018-07-15T10:31:04.024Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:32.744Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,51 @@
+When plugging in an external USB audio device, "input device" setting locks to the connected device's mirror (https://trello.com/c/VBssauf2)
+
+P3: Will eventually be fixed,
+mid
+
+Created: 2018-09-29T04:23:28.358Z
+Latest Update: 2018-10-01T21:47:53.606Z
+
+Reported by ٩( ᐛ )و#8648
+
+####Steps to reproduce:
+- Plug in an external audio device (such as an USB DAC) 
+- Discord automatically changes the input device
+
+####Expected result:
+Input device should not change.
+####Actual result:
+The "mirror of the audio device" is used as the default. Changing it to the proper device in Settings doesn't work.
+####Client settings:
+Release Channel: canary, Build Number: 20790, Version Hash: 9325dbaf2de6baf5ed84081a4a3198639008dc5f
+####System settings:
+Arch Linux x64, using latest ALSA + PulseAudio
+
+16898
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-29T04:23:28.358Z
+
+
+### Can reproduce.
+As soon as I plug in the USB audio device (in my case, Dualshock 4 v2, as that controller has headphone jack and Discord reads it as an I/O audio device), the input from built-in disappears. Turns out GNOME setting overrides this setting, so if you change device in Discord, it will not affect, because GNOME setting set the controller audio jack as input device as soon as I plug in the controller. When I change it manually in GNOME setting, Discord reflects that as well (but the selected device in Discord setting is unchanged). ArchLinux x64 - Linux Kernel 4.17.11-1 - GNOME 3.28.2 - Discord Canary Build 20849, uses pulseaudio 12.2-2
+
+Frances Picard#6209 - Bug Bot on 2018-09-29T04:23:35.687Z
+
+
+### Can reproduce.
+Archlinux, Canary 24978
+
+IcyPebbles#5833 - Bug Bot on 2018-09-29T04:23:40.658Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-10-01T21:47:53.589Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,79 @@
+Discord HypeSquad page `.disabledNotice a` elements have a 1.05:1 contrast ratio on `:hover`. (https://trello.com/c/dAYIsgzm)
+
+None
+
+Created: 2020-03-23T11:54:27.584Z
+Latest Update: 2020-03-24T21:36:35.854Z
+
+Reported by ch#0001
+
+####Steps to reproduce:
+- Go to 
+
+- Scroll down to the bottom of the page, where the second "Apply" button is.
+
+- Hover over the  href.
+
+- Observe.
+
+####Expected result:
+The text is supposed to be readable. Web Content Accessibility Guidelines (WCAG AAA) suggests a contrast ratio of 7:1.
+####Actual result:
+The `:hover` text has a contrast ratio of 1.05:1, which does not pass any WCA Guidelines whatsoever.
+####Client settings:
+[WIN] Chrome 80.0.3987.149 - Build won't affect the bug at hand
+####System settings:
+Windows 10 Home (64-bit), 1903
+
+53647
+
+Card Log
+========
+### Added by Bug Bot on 2020-03-23T11:54:27.584Z
+
+
+### ch#0001 - https://www.youtube.com/watch?v=zejleMM1yIk added by Bug Bot on 2020-03-23T11:54:30.030Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909 (10.0.18363), Chrome 80.0.3987.149
+
+Jean20B#4668 - Bug Bot on 2020-03-23T11:54:35.019Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1909 | Chrome 80.0.3987.149
+
+WishFuly#3152 - Bug Bot on 2020-03-23T11:54:40.037Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.3; Discord Web Canary & PTB & stable on Google Chrome 80.0.3987.132
+
+Jiralite#1207 - Bug Bot on 2020-03-23T11:54:45.033Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1909 | Chrome Vers. 80.0.3987.149
+
+Clay#0001 - Bug Bot on 2020-03-23T23:46:23.185Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Mozilla Firefox 74.0
+
+SSalt#5041 - Bug Bot on 2020-03-24T11:32:31.679Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Chrome 80.0.3987.149.
+
+Alister#0018 - Bug Bot on 2020-03-24T21:36:35.869Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

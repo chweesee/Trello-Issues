@@ -1,0 +1,61 @@
+[Archived] Keybinds set for only one USB device will trigger on a similar connected controller/USB device (https://trello.com/c/UYxJX6FV)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-11-22T19:40:07.784Z
+Latest Update: 2018-10-22T20:17:03.171Z
+
+Reported by Penguin#0001
+
+####Steps to reproduce:
+- Plug in 2+ USB devices, such as an Xbox One controller 
+- Set a keybind on the first controller 
+- Try using the new keybind on the first controller
+
+####Expected result:
+The keybind only triggers for one controller
+####Actual result:
+If a similar button is on both USB devices, both USB devices will activate
+####Client settings:
+Discord Canary, build 7502
+####System settings:
+Windows 10
+
+6524
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T19:40:07.784Z
+
+
+### Can reproduce.
+Verified using two XBox One controllers
+
+Dabbit Prime#0896 - Bug Bot on 2017-11-22T19:40:15.141Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (16299), Canary 0.0.180 (7569) with 2 x Xbox One controllers
+
+mouse91#3089 - Bug Bot on 2017-11-22T19:40:20.144Z
+
+
+### Can reproduce.
+Since I can repro this, there's no reason to keep it in the queue longer.
+
+Dabbit Prime#0896 - Bug Bot on 2017-11-22T19:40:25.192Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-28T19:55:47.958Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:03.173Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

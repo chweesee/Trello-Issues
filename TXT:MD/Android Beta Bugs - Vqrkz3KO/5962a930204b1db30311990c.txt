@@ -1,0 +1,74 @@
+[Archived] Verify phone number window disappears when exiting the app (https://trello.com/c/wz7BiwRV)
+
+P2 - Can wait a while
+
+Created: 2017-07-09T22:07:44.597Z
+Latest Update: 2017-12-02T15:57:40.123Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Go to a server that requires phone number verification 
+- Click on Verify Phone 
+- Enter your phone number 
+- Exit the app/press the home button (do not close the app entirely) 
+- Reopen the app and notice that it is gone, if you try completing the verification again, you will get the rate limited error message.
+
+####Expected result:
+You should be able to just enter the code
+####Actual result:
+You are unable to enter the code and have to start all over again
+####Client settings:
+Android Discord Alpha 3.9.8 (397)
+####System settings:
+Samsung Galaxy s7 edge, https://discord.gg/gskDSmV Android
+
+2119
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-09T22:07:44.597Z
+
+
+### Mr.Caleb#8593 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5962a930204b1db30311990c/d53f7b4e1c88426fb4805de71bd21f61/20170709_130759.png added by Bug Bot on 2017-07-09T22:07:47.598Z
+
+
+### Can reproduce.
+CR  Samsung Galaxy J5 (2016) SM-J510FN, Android 6.0.1 Marshmallow lastest alpha
+
+WolfGang1710#6782 - Bug Bot on 2017-07-09T22:07:52.230Z
+
+
+### Can reproduce.
+ Android Alpha 3.9.8 (397) 《☆》 Samsung Galaxy S8+ Nougat 7.0
+
+Mr.Caleb#8593 - Bug Bot on 2017-07-09T22:07:57.278Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8, Android 3.9.8
+
+Joseph#1718 - Bug Bot on 2017-07-09T22:08:02.219Z
+
+
+### Verified.  - Clayton on 2017-07-27T23:38:38.064Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-27T23:43:27.157Z
+
+
+### Moved from Verified Bugs to Won't Fix by Jared on 2017-10-06T20:57:10.648Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T15:57:37.982Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T15:57:40.126Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

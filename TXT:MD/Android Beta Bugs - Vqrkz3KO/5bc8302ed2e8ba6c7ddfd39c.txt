@@ -1,0 +1,110 @@
+[Archived] If the invite people screen gives no results, the search bar vanishes (https://trello.com/c/Hhj19IL5)
+
+None
+
+Created: 2018-10-18T07:03:10.191Z
+Latest Update: 2019-01-01T23:22:45.353Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to the new Invite people screen 
+- Write nonsense stuff in the search user box
+
+####Expected result:
+It gives empty results and the searchbar stays in place
+####Actual result:
+The search bar vanishes along with results
+####Client settings:
+Discord Alpha 7.7.5
+####System settings:
+Huawei Mate 9 Android 8.0
+
+21550
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-18T07:03:10.191Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.7.5
+
+Hole#0001 - Bug Bot on 2018-10-18T07:03:17.523Z
+
+
+### Can reproduce.
+Pixel XL 2 - Android 9.0 - Alpha 7.7.4
+
+mrkirby153#7840 - Bug Bot on 2018-10-18T07:03:22.517Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 mini, Android 6.0.1, Alpha 775
+
+Nashorn#3450 - Bug Bot on 2018-10-18T07:03:27.480Z
+
+
+### Intended. Nothing to search, so it's misleading - Sam Shih on 2018-10-18T07:24:31.179Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Sam Shih on 2018-10-18T07:24:42.930Z
+
+
+### Archived by Sam Shih on 2018-10-18T07:24:44.177Z
+
+
+### Unarchived by Sam Shih on 2018-10-18T07:24:52.386Z
+
+
+### Can reproduce.
+Samsung Galaxy Core Plus sm-g350, 4.2.2, Alpha, 7.7.5
+
+「Fortune's Endbringer」#3134 - Bug Bot on 2018-10-18T07:38:34.631Z
+
+
+### @lytefast Despite your comment I don't really understand how this is intended. When you have no results in the invite user list, not only the results disappear, but also the searchbar itself. That's basically what the report is saying. Just in case you misunderstood it, let me explain why we thought it was clearly a bug and why we filed it:
+1) After the searchbar goes invisible, the keyboard stays open. This gives the impression that you can type in the void, and that you can still soemhow interact with the searchbar without seeing it. 
+2) While you're in this state, pressing Backspace on the keyboard might bring back the searchbar, because it actually erases characters from your search query
+3) If you close your keyboard after an unsuccessful search, there is no way to bring it back. You are forced to close the invite screen entirely and reopen it in order to perform a new search. Not really nice in terms of user experience :/
+4) It is inconsistent with Desktop behavior, as well as with other search engines anywhere else in the app (quick switcher, message searching, bans searching, etc don't hide the searchbar when you have no results)
+
+Alex1304#9704 - Bug Bot on 2018-10-18T08:37:48.518Z
+
+
+### Can reproduce.
+Can reproduce. Huawei Nova Android 7.0 Discord Alpha 7.7.5
+
+hyper#5504 - Bug Bot on 2018-10-18T13:03:58.753Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.7.5
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-18T13:17:01.390Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.5.5
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-18T13:38:12.687Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 8.1, Discord Alpha 7.7.5
+
+Haru😍💜#6660 - Bug Bot on 2018-10-18T13:53:39.885Z
+
+
+### Archived due to being inactive in "Won't fix" list for 30+ days - Tarek on 2019-01-01T23:22:44.399Z
+
+
+### Archived by Tarek on 2019-01-01T23:22:45.356Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

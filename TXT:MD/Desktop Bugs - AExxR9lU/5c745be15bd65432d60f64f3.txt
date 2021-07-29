@@ -1,0 +1,170 @@
+[Archived] Attempting to import games causes the client to crash. Also breaks access to your game library. (https://trello.com/c/zFRlk8kW)
+
+P1: Severe,
+High
+
+Created: 2019-02-25T21:19:29.903Z
+Latest Update: 2019-06-10T12:00:45.790Z
+
+Reported by Micky-kun#3836
+
+####Steps to reproduce:
+- When asked if you want to import your games, click "Import Games". The client crashes. 
+- When attempting to Reload, the client will continue to crash. Manually close out Canary. 
+- After starting the client, navigate to your Library. Doing so will cause the client to crash!
+
+####Expected result:
+It suppose to import all your currently installed games on your computer.
+####Actual result:
+Just crashes Discord, and makes the library inaccessable.
+####Client settings:
+Discord Canary 32759
+####System settings:
+Windows 10 Education v1803 x64 (Build 17134)
+
+29807
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-25T21:19:29.903Z
+
+
+### Super#8276 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c745be15bd65432d60f64f3/422321cb1a4da3a72f99550f86e0cb24/Kb1e8B5U6n.gif added by Bug Bot on 2019-02-25T21:19:34.722Z
+
+
+### Can reproduce.
+CR, Windows 10 Home Edition x64, canary build 32759 | Extension: anyone who's ever imported games to the discord library also instantly crashes.
+
+brxxn#1337 - Bug Bot on 2019-02-25T21:19:37.275Z
+
+
+### Can reproduce.
+CR, Discord Desktop Canary Build 32759 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+Super#8276 - Bug Bot on 2019-02-25T21:19:42.233Z
+
+
+### Can reproduce.
+W10 Pro x64 (1809), Canary 32759 (just opening Library tab crashes Discord)
+
+dafaqed#1312 - Bug Bot on 2019-02-25T21:19:47.344Z
+
+
+### Can reproduce.
+Windows 10 Pro Build 15063, Desktop Canary Build 32668
+
+SAVAGE#6841 - Bug Bot on 2019-02-25T21:20:08.953Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32759. Just refreshing the client to go to the Library tab crashes.
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-25T21:22:30.022Z
+
+
+### when going to home discord will crash if home button direct you to library [https://cdn.discordapp.com/attachments/540374211395584020/549703255001923604/EIPvT4Eiuy.gif]
+
+Super#8276 - Bug Bot on 2019-02-25T21:25:07.122Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32759
+
+Daffyduck#5364 - Bug Bot on 2019-02-25T22:03:15.589Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2019-02-26T00:32:40.660Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Michael Peterson on 2019-02-26T02:26:21.275Z
+
+
+### Can reproduce.
+Discord Canary v0.0.232 Build 32796 - Windows 10 Pro x64 v1809 -- I still crash upon opening the Library.
+
+webhp#1337 - Bug Bot on 2019-02-26T02:29:25.791Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1809 - Discord Canary 0.0.232 Build 32800 -- Still can reproduce
+
+webhp#1337 - Bug Bot on 2019-02-26T02:37:37.473Z
+
+
+### Can reproduce.
+Still reproducing it, Discord Canary (Build 32796), Windows 10 x64 v1809
+
+Doges#0001 - Bug Bot on 2019-02-26T02:50:54.471Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home x64 (1809), Canary 32800
+
+TheForbiddenAi#7549 - Bug Bot on 2019-02-26T02:56:50.783Z
+
+
+### Can reproduce.
+Can also reproduce a similar bug by opening Activity page. It crashes that tab but not the entire client. Windows 10 Home x64 (1809), Canary 32800
+
+Solo#0007 - Bug Bot on 2019-02-26T03:18:18.622Z
+
+
+### Can reproduce.
+Can still reproduce when opening library with Import Games toggled on. Also, clicking the Activity tab crashes within that tab, but the app itself does not crash. Finally, if you toggle of Import Games, the old Activity page displays instead. Windows 10 Home x64 (1809), Canary 32800
+
+Solo#0007 - Bug Bot on 2019-02-26T03:20:58.128Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-02-26T03:20:58.354Z
+
+
+### Can't reproduce.
+CNR. Fixed? Windows 10 x64 1809 (17763), Discord Canary with Build number 32800
+
+Frances Picard#6209 - Bug Bot on 2019-02-26T03:40:00.911Z
+
+
+### Can reproduce.
+Windows 10 Home
+
+tech_dude1#9855 - Bug Bot on 2019-02-26T05:47:38.296Z
+
+
+### Can't reproduce.
+Can not reproduce anymore, [https://cdn.discordapp.com/attachments/548242781987012620/549928972398362624/1d1VU3d4sM.gif] Discord Desktop Canary Build 32805 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+Super#8276 - Bug Bot on 2019-02-26T12:22:51.022Z
+
+
+### Can reproduce.
+Windows 10 Canary 32759
+
+Mr. Proper#2394 - Bug Bot on 2019-02-26T12:48:53.036Z
+
+
+### Can't reproduce.
+CNR; Windows 7 Ultimate x64 - Canary 32805
+
+Waff#0267 - Bug Bot on 2019-02-26T20:46:24.222Z
+
+
+### Cannot reproduce anymore on Canary 34858, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-02T17:29:07.000Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-04-02T17:29:12.327Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-11T11:40:48.639Z
+
+
+### Archived by Bug Bot on 2019-06-10T12:00:45.810Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

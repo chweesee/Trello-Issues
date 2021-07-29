@@ -1,0 +1,94 @@
+[Archived] Adding a strikethrough to a mention with space between the tildes and mention breaks the line (https://trello.com/c/CfrB8vhl)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-25T12:24:22.251Z
+Latest Update: 2019-11-03T19:55:09.068Z
+
+Reported by that15fine#9275
+
+####Steps to reproduce:
+Send a message with a mention with a mention that is striked through 
+- leave a space between the mention and the ~~ (refer second screenshot) 
+-  Observe the strike through bar -You have to mention someone else, it doesn't work if you mention yourself.
+
+####Expected result:
+The strike-through goes all the way through the message
+####Actual result:
+The strike-through is split (Refer screenshot)
+####Client settings:
+Canary 26915
+####System settings:
+Windows 10 Home 64-bit (1803)
+
+22102
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-25T12:24:22.251Z
+
+
+### that15fine#9275 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bd1b5f655e4be38008a9e9b/c582b76f8e05614f318eee3d7d0c9ffc/unknown.png added by Bug Bot on 2018-10-25T12:24:24.558Z
+
+
+### that15fine#9275 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bd1b5f655e4be38008a9e9b/a0470b8b6b8b00ee69a0922526442c8c/unknown.png added by Bug Bot on 2018-10-25T12:24:24.688Z
+
+
+### Can reproduce.
+Can repro. Windows 10 Pro x64 - Canary 26915
+
+zephr#1634 - Bug Bot on 2018-10-25T12:24:29.494Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 64x 1709, Stable 26902 Chrome v70.0.3538.77
+
+Alipoodle#5025 - Bug Bot on 2018-10-25T12:24:34.523Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Pro x64 (1809) - Canary 26915
+
+Jengas#7777 - Bug Bot on 2018-10-25T12:24:39.510Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26915
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-25T12:42:32.631Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26915
+
+Neiron#7777 - Bug Bot on 2018-10-25T16:47:33.517Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 26946
+
+Solo#0007 - Bug Bot on 2018-10-25T19:27:24.412Z
+
+
+### minor - Clayton on 2018-10-25T20:52:03.469Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-25T20:52:11.221Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 26991
+
+Frances Picard#6209 - Bug Bot on 2018-10-26T01:26:25.947Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:24.324Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

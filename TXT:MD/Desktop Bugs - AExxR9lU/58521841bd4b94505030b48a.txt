@@ -1,0 +1,85 @@
+[Archived] [Bug Bounty] Audio issues (https://trello.com/c/JFM8M1ue)
+
+None
+
+Created: 2016-12-15T04:12:49.932Z
+Latest Update: 2019-01-11T00:02:49.890Z
+
+https://www.reddit.com/r/discordapp/comments/5hm4em/mic_randomly_mutes_itself/db5kpjg/?context=10
+This thread is exactly what has happened to me and others. Shortly after entering chat room, my mic will stop working. Out of nowhere. The only thing I've been able to link it to is playing Overwatch currently.
+Other threads: https://www.reddit.com/r/discordapp/comments/5g88fn/the_bug_that_ruined_discord_for_me/ https://www.reddit.com/r/discordapp/comments/58nwil/solution_to_mic_dropout/ https://www.reddit.com/r/discordapp/comments/55v4au/help_mic_stops_receiving_input_when_i_open/ https://www.reddit.com/r/discordapp/comments/50og7b/issuemicrophone_keeps_muting_itself/
+We have tried all forms of fixing this bug that are available. Reinstalling mic drivers, reinstalling discord, nothing works. Hope this helps.
+
+Card Log
+========
+### Added by Jared on 2016-12-15T04:12:49.932Z
+
+
+### Info within this reddit thread https://www.reddit.com/r/discordapp/comments/66p5im/a_year_and_a_half_later_discord_is_still_broken/dgkabah/ points to Networking issue. Suspect QoS w/ some routers (particularly Netgear) after reading some more threads. Firmware issue pertaining to QoS? This user here on Reddit changed QoS settings and it seems to be working with them https://www.reddit.com/r/discordapp/comments/66paxb/help_discord_goes_silent/dgkhr7o/. I noted this in my comments here https://www.reddit.com/r/discordapp/comments/66p5im/a_year_and_a_half_later_discord_is_still_broken/dgkjfrk/.
+
+Sir#1236 - Bug Bot on 2017-04-21T19:18:15.009Z
+
+
+### I did some testing for dolphin when they were having a similiar problem with the netplaying. It turns out some large portion of popular ISP's use routers which have problems with UDP and transmitting through UDP (they seemed okay for receiving but they would choke up after a while when receiving) I personally never found a solution to this, other then upgrading the the router.
+
+Some of the routers:
+
+Technicolour (these were soooooo terrible, like damn this company makes hot garbage routers)
+netgear (this was mostly the cheaper/older ones)
+ - Cole Norman on 2017-04-22T00:17:51.619Z
+
+
+### https://www.reddit.com/r/discordapp/comments/66paxb/help_discord_goes_silent/dgkhr7o/ Another Reddit user was using a Netgear N300 but now uses Netgear R6220, the exact model another user mentioned using. Suspicions of Firmware/QoS related issues are still showing.
+
+Sir#1236 - Bug Bot on 2017-04-22T13:41:57.241Z
+
+
+### It might be making a get request to the electron to enable microphone and it’s sending codes other than 200 which is causing to print the “wrong debugging microphone…” etc. So basically the issue persists in the npm start command meaning the electron app. The new version of Chromium has implemented a security “feature” that won’t let it access media hardware without a secured connection.
+
+Mr.Caleb#8593 - Bug Bot on 2017-08-04T06:01:13.446Z
+
+
+### Can't reproduce.
+Win10 pro 64 bit latest build The issue appears to be router related. I did some research based on the comments and the info I could find for those routers appears to have UDP issues. Discord uses UDP for voice chat and after a while those Routers stop working right. This issue is known in the MechWarrior: Living Legends community as well.
+"I get disconnected a lot during the game, the error reads "Malformed packet"
+A: It is not known where exactly this error comes from, and the dev team is looking into it with a high priority. It can happen to some players more than others. Some players report that restarting or even replacing their network router works around it."
+
+Senhara#5373 - Bug Bot on 2017-11-09T00:28:25.018Z
+
+
+### Can reproduce.
+This issue occurs in another voice program that I use aswell, If you join a channel and no packets are sent or recieved after a certain amount of time, the router will close (or something along those lines) the port so no data can be recieved.
+
+tannerS#7458 - Bug Bot on 2017-11-30T08:22:28.250Z
+
+
+### Can reproduce.
+pc
+
+Betarded Ghost(withouthk)#3820 - Bug Bot on 2018-01-26T01:29:33.697Z
+
+
+### Can reproduce.
+happens in pms it will bug either of us, when i call him he get bugged and when he call me i get bugged
+
+Betarded Ghost(withouthk)#3820 - Bug Bot on 2018-01-26T01:32:02.435Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:43.535Z
+
+
+### bug bounty, unarchiving - Tim on 2018-10-24T19:11:36.912Z
+
+
+### Unarchived by Tim on 2018-10-24T19:11:38.941Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:49.893Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

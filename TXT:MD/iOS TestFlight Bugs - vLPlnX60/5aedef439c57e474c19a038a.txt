@@ -1,0 +1,120 @@
+[Archived] Language for code block for pin/delete message modal shown (https://trello.com/c/y6vl6twl)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-05-05T17:52:03.062Z
+Latest Update: 2019-06-01T05:30:21.345Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to any text channel and write a message with a code block (3 backticks) 
+- Make sure that this code block has any language (e.g. css) after the first three backticks 
+- Long hold the message and select either "Delete Message" or "Pin message" 
+- Observe the message preview there
+
+####Expected result:
+The code block in the message preview for these modals should NOT show the language for code blocks.
+####Actual result:
+It shows the language.
+####Client settings:
+TestFlight 2.3.1 (4051)
+####System settings:
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 3
+
+12026
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-05T17:52:03.062Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5aedef439c57e474c19a038a/40f18459b7534faac334ca778c551411/CP288tj.jpg added by Bug Bot on 2018-05-05T17:52:05.489Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.4 PB3, TestFlight 2.3.1 (4051)
+
+mouse#0091 - Bug Bot on 2018-05-05T17:52:10.424Z
+
+
+### Can reproduce.
+iPhone iOS 10.2.1, TestFlight 2.3.1 (4051)
+
+Pyros#2326 - Bug Bot on 2018-05-05T17:52:15.443Z
+
+
+### Can reproduce.
+Can reproduce iPhone 8 +, iOS 11.4 - Public Beta 3; Discord TestFlight 2.3.1 (4051)
+
+Ghoul#0009 - Bug Bot on 2018-05-05T17:52:20.429Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS  11.3, TestFlisht 2.3.1 (4051)
+
+Don#9396 - Bug Bot on 2018-05-05T18:23:29.214Z
+
+
+### Verified.  - Clayton on 2018-05-08T19:35:38.523Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-08T19:35:53.320Z
+
+
+### Can reproduce.
+Still able to repro; iOS 12 Dev Beta 2, TestFlight 2.3.4 (5560)
+
+mouse#0091 - Bug Bot on 2018-07-01T18:34:13.373Z
+
+
+### I can still reproduce of Discord TestFlight 2.3.4 (5560). I can see the language (css for example). I used iPhone 8 + running iOS 12 (Dev Beta 2).
+
+Because I am still able to reproduce this bug, I will leave it to be here. - Ghoul on 2018-07-03T01:36:23.295Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:21.469Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.1 (14524) with iPad Pro 11" running iOS 12.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-01T20:22:09.706Z
+
+
+### Unarchived by Pascal on 2019-05-01T20:22:15.606Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-05-01T20:22:26.383Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14524)
+
+Daffyduck#5364 - Bug Bot on 2019-05-01T20:29:23.790Z
+
+
+### Can't reproduce.
+TestFlight 3.0.1 (14524) • iPhone 7 Plus • iOS 12.2
+
+Soulmagic#2997 - Bug Bot on 2019-05-02T01:31:43.881Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.3 (dev beta 3) - TestFlight 3.0.1 (14524)
+
+Xylium#5800 - Bug Bot on 2019-05-02T05:20:46.117Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-02T05:20:46.333Z
+
+
+### Archived by Bug Bot on 2019-06-01T05:30:21.359Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

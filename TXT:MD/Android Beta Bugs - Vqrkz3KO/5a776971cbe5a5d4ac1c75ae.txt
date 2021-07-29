@@ -1,0 +1,95 @@
+[Archived] In French language, when there are no members to prune, the message on the modal will say "Pruning will kick 1 member [...]" instead of 0. (https://trello.com/c/Rp0FbIrN)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-02-04T20:13:37.984Z
+Latest Update: 2019-06-10T20:43:09.370Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Switch language to French 
+- Create a new server (simpler than looking for one where there are no members to prune) 
+- Go to Server Settings > Members > 3dots > Prune 
+- Observe the small message on the modal
+
+####Expected result:
+Should say "Purger expulsera 0 membre" (literally "Pruning will kick 0 members")
+####Actual result:
+it says "Purger expulsera 1 membre". **The string is correctly translated through i18n and this doesn't happen on Desktop!**
+####Client settings:
+Discord Alpha 6.1.9
+####System settings:
+Huawei Mate 9 Android 7.0
+
+8488
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-04T20:13:37.984Z
+
+
+### Can reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.9
+
+mrkirby153#7840 - Bug Bot on 2018-02-04T20:13:45.297Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab S2, Android 6.0.1
+
+Realex78#2193 - Bug Bot on 2018-02-04T20:13:50.278Z
+
+
+### Can reproduce.
+Pixel 2 XL, Android 8.1 - Android Alpha 6.1.9
+
+Lewis#7087 - Bug Bot on 2018-02-04T20:13:55.281Z
+
+
+### Can reproduce.
+OnePlus 3t, Android 8.0.0, Discord Beta 6.1.7
+
+Lulucmy#7087 - Bug Bot on 2018-02-04T20:38:26.729Z
+
+
+### Verified.  - Clayton on 2018-02-08T23:57:39.282Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-08T23:57:49.802Z
+
+
+### due to how we share strings across platforms and how they differ, this is extremely difficult to fix. What you see is a patched localization system between the client.
+
+The solution is to have proper i18n logic for pluralization. Such as http://icu-project.org/apiref/icu4j/com/ibm/icu/text/PluralRules.html. However pulling in less resources and integrated with android. - Sam Shih on 2018-03-27T23:42:27.505Z
+
+
+### Standards page: 
+http://userguide.icu-project.org/formatparse/messages - Sam Shih on 2018-03-27T23:42:57.512Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a776971cbe5a5d4ac1c75ae/bd96008357d819babf958c7cc1ceed84/TRUWthF.png added by Bug Bot on 2018-07-15T12:10:29.840Z
+
+
+### Archived by Clayton on 2018-08-22T01:19:33.756Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord Alpha 889
+
+Jean20B#4287 - Bug Bot on 2019-05-03T20:08:41.173Z
+
+
+### Unarchived by Bug Bot on 2019-05-03T20:30:05.708Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:09.384Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

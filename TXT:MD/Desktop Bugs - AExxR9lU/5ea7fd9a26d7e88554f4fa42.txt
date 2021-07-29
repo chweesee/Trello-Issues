@@ -1,0 +1,48 @@
+Bad things happen when nitro expires, you've picked a custom tag, and your name has 9999 other people with it. (https://trello.com/c/uFHeHqLb)
+
+Need more Information
+
+Created: 2020-04-28T09:55:38.808Z
+Latest Update: 2020-06-12T15:53:06.252Z
+
+Reported by Liam#0242
+
+####Steps to reproduce:
+- Have discord nitro 
+- Pick short name with only 1 available number left (this is hard to reproduce, i'll grant you!) 
+- Let nitro expire 
+- Discord will try to reallocate your tag number when on any api call to a /users/@me endpoint 
+- This call will fail with the error "{"username": ["Too many users have this username, please try another."]}"" 
+- This isn't usually an issue unless you try to update something about yourself, but, if you're sent an "important message from discord" and try to acknowledge that, it goes to /users/@me, and fails, so you're effectively locked out of discord until you pay for nitro again.
+
+####Expected result:
+Discord is able to reallocate your tag number.
+####Actual result:
+Error (as detailed) to any /users/@me call.
+####Client settings:
+Happens on anything. Mobile, Web, Desktop as it's API based.
+####System settings:
+Any
+
+55258
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-28T09:55:38.808Z
+
+
+### Can reproduce.
+Impossible to repro, will forward it to a dev.
+
+Tarek#1337 - Bug Bot on 2020-04-28T09:55:46.279Z
+
+
+### Imported from https://trello.com/b/57f2d333b99965a6ba8cd7e0 by Tarek on 2020-04-28T09:56:52.074Z
+
+List
+====
+Notable Issues
+
+Members
+=======
+None

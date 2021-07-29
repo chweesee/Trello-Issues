@@ -1,0 +1,83 @@
+[Archived] Jumping to pinned when there are messages unread jumps back to where you were (https://trello.com/c/FMcjNMfY)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-07-28T12:24:42.269Z
+Latest Update: 2020-03-06T21:00:08.148Z
+
+Reported by -Shadow-#6754
+
+####Steps to reproduce:
+- Have people send messages in a channel, as many as possible so they get outside of your Render range 
+- Try to jump to a pinned message outside of the current chat history (meaning outside of the "load more messages" range) 
+- Observe as it jumps back to a chat history before the pinned message ("a chat history" means a block between the bottom "load more messages" and the top "load more messages") 
+- If it doesn't work, please try a few more times.
+
+####Expected result:
+You jump to the pinned message
+####Actual result:
+It jumps to the closest block of chat history, not the pinned message
+####Client settings:
+Canary 20174
+####System settings:
+macOS 10.13.5, MacBook Pro 2016 13inch
+
+16182
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-28T12:24:42.269Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 64 bit Lenovo Yoga, Canary 20174
+
+aj834#1640 - Bug Bot on 2018-07-28T12:24:49.781Z
+
+
+### Can reproduce.
+Windows 10 Version 1709, x64 - Discord Canary 20174
+
+Homie PinkGuy#1386 - Bug Bot on 2018-07-28T12:24:54.803Z
+
+
+### Can reproduce.
+Can reproduce, Discord Canary 20174, Firefox Quantum 61.0.1, Windows 10 Pro x64 (1803)
+
+Delite#0001 - Bug Bot on 2018-07-28T12:24:59.807Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit
+
+OddsomeOddy#1998 - Bug Bot on 2018-07-28T12:43:57.304Z
+
+
+### macos 10.12.6, canary 20336 - Clayton on 2018-08-01T00:50:28.252Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-01T00:50:44.886Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:47.303Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) canary 52491
+
+myacorn#6534 - Bug Bot on 2020-01-11T09:22:28.648Z
+
+
+### Unarchived by Bug Bot on 2020-01-11T09:30:05.227Z
+
+
+### Archived by Bug Bot on 2020-03-06T21:00:08.164Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

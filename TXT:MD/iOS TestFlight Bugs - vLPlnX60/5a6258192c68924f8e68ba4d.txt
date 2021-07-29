@@ -1,0 +1,124 @@
+[Archived] Rich embed title link doesn't work when using Markdown (https://trello.com/c/IVQAwKPm)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-19T20:42:01.529Z
+Latest Update: 2019-09-18T10:01:08.889Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Create an rich embed with a bot or webhook 
+- Add a title with a link to this rich embed 
+- Use Markdown for this link (e.g. `**`) 
+- Now go to Discord and try to click on this title link with your iOS device
+
+####Expected result:
+Embed title should link to the page you have added.
+####Actual result:
+Link doesn't work (note only the Markdown part doesn't link, so crossing out the full title makes it completely not linkable)
+####Client settings:
+TestFlight 2.2.1 (2202)
+####System settings:
+iPhone 6s, iOS 11.2.2 | iPad Air 2, iOS 11.2.5 PB 6
+
+7960
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-19T20:42:01.529Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.2.5 beta 6, TestFlight 2.2.1 (2202). Text links in the description of the embed don't even show blue - they appear white as if they were plain text.
+
+saber#7368 - Bug Bot on 2018-01-19T20:42:08.803Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.1.2, TestFlight 2.2.1 (build 2202)
+
+JustGamer#2542 - Bug Bot on 2018-01-19T20:42:13.798Z
+
+
+### Can reproduce.
+iPhone 5s; iOS 9.0.2 TestFlight  2.2.1 (2202)
+
+mrkirby153#7840 - Bug Bot on 2018-01-19T20:42:18.793Z
+
+
+### Moved from User Reported Bugs to Chat rewrite bugs by Fanghao on 2018-01-19T22:30:40.778Z
+
+
+### Can't reproduce.
+The option to tap/click Link titles are no longer available. Iphone SE, 2.2.3
+
+ChaosKadir#3764 - Bug Bot on 2018-02-23T15:08:11.436Z
+
+
+### Verified Fixed in 2.2.6 - Jared on 2018-03-19T23:20:53.068Z
+
+
+### Moved from Chat rewrite bugs to Verified Fixed by Jared on 2018-03-19T23:20:58.324Z
+
+
+### Can still reproduce it: iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054)
+Make sure to try to click on the link.
+
+Pascal#0929 - Bug Bot on 2018-03-20T19:33:08.163Z
+
+
+### I can still reproduce, reopening.
+
+Discord 2.2.9, iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-10T04:59:42.505Z
+
+
+### Moved from Verified Fixed to Reopened by Alexandru Todea on 2018-04-10T04:59:47.285Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 Developer Beta 12, TestFlight 2.3.8 (7049)
+
+Alfie#1582 - Bug Bot on 2018-09-07T20:03:34.398Z
+
+
+### Cannot reproduce anymore as of Stable 3.0.7 with iPad Pro (11 inch) running iOS 12.4. 
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-20T08:50:27.138Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Pascal on 2019-07-20T08:50:35.026Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 4) - Stable 3.0.7
+
+Xylium#5800 - Bug Bot on 2019-07-20T10:23:03.360Z
+
+
+### Can't reproduce.
+CNLR. iPhone XR - iOS 13.0 - TestFlight 3.0.6 (16208)
+
+Rage#9991 - Bug Bot on 2019-07-20T10:34:59.912Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.6 (16208)
+
+binchlord#0998 - Bug Bot on 2019-07-20T12:32:09.062Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-20T12:32:09.432Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:08.902Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,108 @@
+[Archived] message content not shown in delete prompt when only URL and exceeding 80 characters (https://trello.com/c/yxzPtb4e)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-09-13T09:48:38.328Z
+Latest Update: 2019-06-01T02:00:20.027Z
+
+Reported by Favna#2846
+
+####Steps to reproduce:
+- Get a URL of 81 or more characters (recommended: Google search url) 
+- Send it as a message with no other content 
+- open the delete message confirmation prompt
+
+####Expected result:
+Delete prompt to show part of the URL cut off by ellipses
+####Actual result:
+Delete prompt only shows ellipses
+####Client settings:
+iOS TestFlight v1.9.1 (629)
+####System settings:
+iOS 11 Developer Beta 10, iPhone 7+
+
+4170
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-13T09:48:38.328Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11 Developer Beta Golden Master
+
+Dru#7700 - Bug Bot on 2017-09-13T09:48:45.769Z
+
+
+### Can reproduce.
+CR, iOS 11 Developer Beta 10, iPad Air 2, TestFlight 1.9.1 (629)
+
+CreeperzEdge#9243 - Bug Bot on 2017-09-13T09:48:50.746Z
+
+
+### Can reproduce.
+Shows up with "Joshek:..." for me iPad Mini 2 iOS 10
+
+Joshek#3388 - Bug Bot on 2017-09-13T09:48:55.742Z
+
+
+### Can reproduce.
+iPhone 5S, iOS 11 GM, TF 1.9.1
+
+Lasse#4890 - Bug Bot on 2017-09-13T11:02:26.809Z
+
+
+### Not 100% convinced this is actually a bug. But I'll let it through. Super minor either way. - Jared on 2017-09-18T21:05:06.772Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-09-18T21:05:16.088Z
+
+
+### QwakGoesDuck#0420 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59b8fef6358ffa6c43aa8f4d/6b79d8f36f43cd7110e3fd5225981884/image.png added by Bug Bot on 2018-07-14T05:13:07.218Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:29.911Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.1 (14524) with iPad Pro 11" running iOS 12.2. Ellipses are no longer shown.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-01T20:54:41.529Z
+
+
+### Unarchived by Pascal on 2019-05-01T20:54:50.732Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-05-01T20:55:07.945Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14524)
+
+Daffyduck#5364 - Bug Bot on 2019-05-01T21:05:02.077Z
+
+
+### Can't reproduce.
+ipad mini 3 ios 11.4.1, tf 3.0.1 (14524)
+
+OrangeM24#2020 - Bug Bot on 2019-05-01T21:26:00.071Z
+
+
+### Can't reproduce.
+iPhone 6s iOS 12.2 Testflight 3.0.1
+
+GlenMerlin#2119 - Bug Bot on 2019-05-02T01:33:36.310Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-02T01:33:36.567Z
+
+
+### Archived by Bug Bot on 2019-06-01T02:00:20.037Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

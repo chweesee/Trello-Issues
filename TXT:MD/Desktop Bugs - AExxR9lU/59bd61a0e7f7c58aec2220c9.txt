@@ -1,0 +1,193 @@
+[Archived] Expanding an Audit Log Entry after filtering by an Action Type crashes Discord (https://trello.com/c/59byIZ08)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-09-16T17:38:40.907Z
+Latest Update: 2019-08-03T13:52:25.283Z
+
+Reported by Tiemen#0107
+
+####Steps to reproduce:
+- Open Server Settings ->Audit Log 
+- Filter by an Action Type (doesn't seem to work with all actions types, so try some different ones then) 
+- Expand one of the entries
+
+####Expected result:
+The entry gets expended and you can read the changes
+####Actual result:
+Discord crashes and shows the new crash screen
+####Client settings:
+Canary 0.0.163 (build 4358)
+####System settings:
+Windows 10 Pro x64 Creators Update (1703)
+
+4401
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-16T17:38:40.907Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59bd61a0e7f7c58aec2220c9/cd7d8d761e91edc27babfb3561b6e024/2017-09-16_19-28-39.gif added by Bug Bot on 2017-09-16T17:38:43.846Z
+
+
+### Can reproduce.
+Canary v0.0.163 Windows 10 64-bit
+
+Vap0r1ze#9585 - Bug Bot on 2017-09-16T17:38:48.364Z
+
+
+### Can reproduce.
+Canary v0.0.163 Windows 10 Pro x64
+
+Jake S.#8787 - Bug Bot on 2017-09-16T17:38:53.539Z
+
+
+### Can reproduce.
+Tried with Kick Members (didn't work), but trying any other one crashed. Possibly a React 16 bug? Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.163 (Build 4358)
+
+SuperSajuuk#7265 - Bug Bot on 2017-09-16T17:38:58.357Z
+
+
+### Can reproduce.
+Crashed when expanding in 'update channel permissions' Windows 7 64-bit, Discord Canary build 4358
+
+Zollak#4578 - Bug Bot on 2017-09-16T17:43:59.033Z
+
+
+### Can reproduce.
+Windows 10 Home x64
+
+lolPants#2319 - Bug Bot on 2017-09-17T13:41:57.282Z
+
+
+### Can reproduce.
+Win 10 Enterprise 1703 x64, Canary 4358 (not PTB though)
+
+Josedolf Staller#2859 - Bug Bot on 2017-09-18T02:56:56.577Z
+
+
+### Can reproduce.
+Win 10 Enterprise 1703 x64, Canary 4361
+
+Josedolf Staller#2859 - Bug Bot on 2017-09-18T03:02:55.127Z
+
+
+### Verified.  - Clayton on 2017-09-19T20:24:27.250Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T20:25:17.151Z
+
+
+### Can reproduce.
+PTB 0.0.31 Mac Sierra 64 bit, Canary 0.0.155 Mac Sierra 64 bit | Regualr Client 0.0.248 Mac Sierra 64 bit
+
+Starfield_9#8660 - Bug Bot on 2017-10-05T23:42:12.705Z
+
+
+### Works for Update Member Roles but only when selecting a user as well
+
+belungawhale#4813 - Bug Bot on 2017-10-14T01:33:05.335Z
+
+
+### Can reproduce.
+Windows 10, Stable: Build 5837
+
+Doctors#5417 - Bug Bot on 2017-10-16T16:55:04.747Z
+
+
+### Doctors#5417 - https://youtu.be/mKMompT5zMA added by Bug Bot on 2017-10-16T16:55:43.360Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:49:16.927Z
+
+
+### Can reproduce.
+Chrome / Windows
+
+Andrew#2274 - Bug Bot on 2017-11-09T16:45:19.640Z
+
+
+### Can reproduce.
+Surface Book Performance Base 8 GB, Windows 10 Pro x64 (Fall Creator's Update) Version 1709 Discord Canary build 7194
+
+andritolion#0007 - Bug Bot on 2017-11-13T01:51:50.802Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1709 (Build 16229.64); Discord Canary 0.0.180
+
+Fixator10#7133 - Bug Bot on 2017-11-22T12:33:55.659Z
+
+
+### Can reproduce.
+Windows 7 Home Premium x64; Discord Canary v0.0.180, build 7814
+
+dross#1913 - Bug Bot on 2017-12-02T02:39:48.623Z
+
+
+### MatrixTunnel#7348 - https://youtu.be/7VCd3VElNAc added by Bug Bot on 2017-12-12T03:01:57.160Z
+
+
+### Can reproduce.
+Mac 10.11.6 (El Capitan), Discord 0.0.249
+
+ThepicGamerYT#7177 - Bug Bot on 2017-12-27T01:29:35.908Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.194 (Build 9070), Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2018-01-02T08:44:32.714Z
+
+
+### Can reproduce.
+Windows 10 Professional x64, Fall Creators Update, Discord Canary Build 9280
+
+Ghoul#4567 - Bug Bot on 2018-01-05T20:00:37.126Z
+
+
+### Moved from Next up for investigation to Fix made, not yet released by Michael Fong on 2018-01-11T21:53:02.007Z
+
+
+### Fixed! No crashes after going through every action type and every person listed in DTesters audit logs anymore.
+Canary 9486, moving to claimed fixed. - Tarek on 2018-01-12T06:36:46.493Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2018-01-12T06:36:57.370Z
+
+
+### Can't reproduce.
+CNR, does not crash, logs open fine, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T21:06:24.353Z
+
+
+### Can't reproduce.
+Canary Build Number 9959, Google Chrome  63.0.3239.132, Windows 10 Home
+
+Xamtheking#0001 - Bug Bot on 2018-01-26T21:47:01.112Z
+
+
+### Can't reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9959
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T23:20:22.145Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2018-01-27T01:28:44.079Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:25:42.288Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:25:43.056Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

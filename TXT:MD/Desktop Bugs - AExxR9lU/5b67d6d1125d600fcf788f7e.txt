@@ -1,0 +1,70 @@
+[Archived] issues with mic input showing as always broadcasting, even if no audio is picked up - for client and other users in voice (https://trello.com/c/rMP3C1Sb)
+
+None
+
+Created: 2018-08-06T05:04:17.083Z
+Latest Update: 2018-10-22T20:36:01.272Z
+
+Reported by goose#0001
+
+####Steps to reproduce:
+- Use any kind of input for voice that doesn't actually broadcast audio (or has some kind of hardware mute) 
+- Insure that mic input sensitivity is manually set to -100dB 
+- The bubble in voice should appear illuminated.  
+Note that having a sensitivty of -99dB will work as expected.
+
+####Expected result:
+Voice chat bubble will only illuminate when it is actually receiving input
+####Actual result:
+Voice chat bubble will appear always on, but *only* when sensitivity is at -100dB
+####Client settings:
+stable 20579
+####System settings:
+Windows 10 x64, v1803 - Build 17134.165
+
+16850
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-06T05:04:17.083Z
+
+
+### Can reproduce.
+CR, I completely muted the microphone hardware wise and software wise. Windows 10 Home 64-bit, Canary 20849
+
+shay#3503 - Bug Bot on 2018-08-06T05:04:24.539Z
+
+
+### Can reproduce.
+CR with several different input devices, hardware muted and muted in device properties - Windows 10 Pro x64 - PTB 20579
+
+vegeta897#7777 - Bug Bot on 2018-08-06T05:04:29.618Z
+
+
+### Can reproduce.
+[CR] Surprisingly, it does illuminate. || Windows 10 Home (x64, 1803), Discord Canary 20849
+
+Marc#5983 - Bug Bot on 2018-08-06T05:04:34.553Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Samseon Meteor Mic, Canary 20849
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-06T09:21:17.183Z
+
+
+### CNR - Clayton on 2018-08-16T21:20:44.000Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-08-16T21:20:48.004Z
+
+
+### Archived by Clayton on 2018-10-22T20:36:01.274Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

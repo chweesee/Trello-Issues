@@ -1,0 +1,72 @@
+can open server settings/overview without permission by clicking "change icon" at top of default channel (https://trello.com/c/Kl08QoEv)
+
+None
+
+Created: 2020-04-03T11:48:14.376Z
+Latest Update: 2020-07-16T21:26:06.179Z
+
+Reported by hopeless#1227
+
+####Steps to reproduce:
+- join a server where you have no special permissions 
+- find the default or first channel in the server 
+- scroll to the oldest message/top area where there's welcome text 
+- click "customize your server with an awesome name and icon" 
+- observe 
+- click members list for further investigation (it'll briefly flash up before closing)
+
+####Expected result:
+you can't view overview/settings of a server if you don't have permissions to
+####Actual result:
+you can view server settings/overview without permission
+####Client settings:
+stable 57177
+####System settings:
+Win10 v1709 x64 build 16299.1625 Education, chrome dev 82.0.4062.3
+
+54106
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-03T11:48:14.376Z
+
+
+### hopeless#1227 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e87227e09c6dc408b7305f0/dace47d65c9a377cbce9434574b4e411/sgwrIhi.png added by Bug Bot on 2020-04-03T11:48:17.697Z
+
+
+### Can reproduce.
+canary 57177 MacBook Air - MacOS (10.12.6 Sierra)
+
+myacorn#6534 - Bug Bot on 2020-04-03T11:48:21.986Z
+
+
+### Can reproduce.
+Lenovo Ideapad (Windows 10.0.18363) - 57177
+
+rijsberhp#5975 - Bug Bot on 2020-04-03T11:48:27.031Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Canary 57250 Host 0.0.264
+
+SSalt#5041 - Bug Bot on 2020-04-03T11:48:32.014Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary (Build 57334)
+
+Bryth#1086 - Bug Bot on 2020-04-06T11:42:31.883Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary (Build 57347)
+
+Bryth#1086 - Bug Bot on 2020-04-06T11:43:49.504Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,92 @@
+[Archived] Audit Logs user filter inexistent if you are in another server (https://trello.com/c/9VCg2ZiH)
+
+None
+
+Created: 2017-04-29T08:10:54.051Z
+Latest Update: 2017-10-17T20:30:22.566Z
+
+Reported by Immotay#2748
+
+####Steps to reproduce: 
+- Be in a server 
+- Right Click a server where you can see the audit logs 
+- Navigate to Sever Settings > Audit Logs 
+
+####Expected result:
+ Filter User list shows the users from the server you're seeing the logs 
+####Actual result:
+ Only available option in the Filter User field is "All" 
+####System settings:
+ Windows 10 X64 & Canary
+
+1278
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-29T08:10:54.051Z
+
+
+### Can reproduce.
+Windows 10 CU, Latest Canary
+
+King - Vlad#0815 - Bug Bot on 2017-04-29T08:10:54.595Z
+
+
+### Can reproduce.
+Windows 10 x64, Latest Canary
+
+Aeokieek#1574 - Bug Bot on 2017-04-29T08:10:56.574Z
+
+
+### Can reproduce.
+Win 7 Pro x64 - Latest Canary
+
+EMT#3690 - Bug Bot on 2017-04-29T08:10:58.508Z
+
+
+### In my testing it seems that right-clicking a server you don't have in focus and going straight to Server Settings > Audit Logs, the filter is empty and just shows "All". However, going to any other section and then clicking into Audit Logs, the filter is populated by admins/mods of the server currently in focus instead of the one you're actually trying to configure.
+
+Chrees#4389 - Bug Bot on 2017-04-29T08:25:27.080Z
+
+
+### Dupe of https://trello.com/c/NFJZS0X2/568-filter-by-user-shows-no-users-or-users-from-another-server-when-opening-audit-logs-from-a-server-context-menu?menu=filter&filter=color
+
+Dabbit has been made aware, may take until monday (when he's in the office) for them to be moved. - Alexander (DJScias) on 2017-04-29T12:31:09.049Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Anniversary Update, Latest Discord Canary
+
+Zoddo#5860 - Bug Bot on 2017-04-29T15:00:57.471Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Jared on 2017-05-01T20:32:02.443Z
+
+
+### Can reproduce.
+Windows 10 CU x64, Latest Canary
+
+SilverMight#1302 - Bug Bot on 2017-05-02T10:52:53.327Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Michael Peterson on 2017-05-02T22:43:48.760Z
+
+
+### Verified fixed. - Jared on 2017-05-02T23:23:06.569Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-05-02T23:23:09.306Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:30:21.936Z
+
+
+### Archived by Jared on 2017-10-17T20:30:22.569Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/michaelpeterson26) - No Bio

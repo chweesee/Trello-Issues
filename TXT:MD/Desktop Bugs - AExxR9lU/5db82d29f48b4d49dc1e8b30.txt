@@ -1,0 +1,83 @@
+Using the new Audio Capture Crashes the Client (https://trello.com/c/CCHwuPLE)
+
+None
+
+Created: 2019-10-29T12:14:33.686Z
+Latest Update: 2020-07-16T21:26:05.415Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Make sure that Settings -> Video & Audio -> "Use an experimental method to capture audio from games" is On. (Reset client full as well) 
+- Start a Game and Go Live in a channel.  
+- **METHOD 1:** 
+- Stop the Stream by using the "Picture in Picture" in Discord. 
+- **METHOD 2a (Seems to be Direct X specific):** 
+- Close the game without Stopping Go Live.  
+- **METHOD 2b (Direct X specific):** 
+- Tabbing out while TRUE full screen.
+
+####Expected result:
+Client should work Fine
+####Actual result:
+Client Soft Crashes to Login Screen (Dev tools open) / Reloads.
+####Client settings:
+Canary 48134 (0.0.258)
+####System settings:
+Win10 64x (1903)
+
+46411
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-29T12:14:33.686Z
+
+
+### Can reproduce.
+Canary 48134 - Windows 10 18363.449 - Tested with Mini Metro
+
+OneNormalUsername#7636 - Bug Bot on 2019-10-29T12:14:41.190Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.258 Build 48134
+
+Daffyduck#5364 - Bug Bot on 2019-10-29T12:14:46.205Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1903 | Stable 48208
+
+WishFuly#0666 - Bug Bot on 2019-10-29T12:14:51.281Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64: 1903, Canary 48208
+
+Sanjay#0540 - Bug Bot on 2019-10-29T16:59:52.767Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 48208 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-29T19:37:53.199Z
+
+
+### Can reproduce.
+CR Windows 10 Pro 1903, Discord Canary 48270
+
+Rex#2222 - Bug Bot on 2019-10-29T19:41:48.249Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Discord Canary 48208
+
+Best_Pro#7066 - Bug Bot on 2019-10-29T19:57:58.006Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

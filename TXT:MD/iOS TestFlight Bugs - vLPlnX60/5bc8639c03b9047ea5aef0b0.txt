@@ -1,0 +1,66 @@
+[Archived] Activating Speech-to-Text on iOS prior to selecting the emoji picker keeps STT active (https://trello.com/c/k7FGMQqQ)
+
+P3 - Will be fixed eventually
+
+Created: 2018-10-18T10:42:36.081Z
+Latest Update: 2019-01-31T19:59:47.786Z
+
+Reported by SleepaDru#7700
+
+####Steps to reproduce:
+- Enable STT by pressing the microphone button near the spacebar 
+- Activate the Emoji picker by pressing the 'smiley face' 
+- Start/continue talking
+
+####Expected result:
+When activating the Emoji picker, Discord should deactivate Speech-to-text, like it does when you try to attach an image
+####Actual result:
+Speech-to-Text remains active, capturing your voice
+####Client settings:
+TestFlight 2.3.9 (8385)
+####System settings:
+iPhone 8+ \\ iOS 12.0 (16A366)
+
+21528
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-18T10:42:36.081Z
+
+
+### Can reproduce.
+[CR] iPhone XS Max, iOS 12.0.1, Discord TestFlight 2.3.9 (8385)
+
+54D#1357 - Bug Bot on 2018-10-18T10:42:43.422Z
+
+
+### Can reproduce.
+CR, iPhone 6S, iOS 12.0, TestFlight 2.3.9 (8385)
+
+Toby 🎃#5609 - Bug Bot on 2018-10-18T10:42:48.574Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12, Testflight 2.3.9 (8385)
+
+Pyros#2326 - Bug Bot on 2018-10-18T10:42:53.369Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 12.0, TestFlight 2.3.9 (8385)
+
+Ryan13#0460 - Bug Bot on 2018-10-18T15:35:49.817Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-26T19:00:03.164Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:47.797Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,128 @@
+[Archived] (Android 7.0+, possibly Huawei specific but unsure) Splitting your screen while Discord is active will make some UI elements diseappear, until you scroll the screen a bit. Bahavior is a bit different depending on which screen you are viewing (https://trello.com/c/NFBvwjwW)
+
+P3 - Will be fixed eventually,
+Split Screen Bugs
+
+Created: 2017-10-28T13:24:10.278Z
+Latest Update: 2018-10-23T07:36:12.611Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Let's consider 3 cases: 
+- Case 1) View any text channel, DM, or friend list 
+- Split your screen using the Android 7.0 feature 
+- Case 2) View any settings page or user profile (e.g Server settings)  
+- Split your screen 
+- Case 3 (more specific)) View Recent mentions 
+- Split your screen, and then restore your screen back
+
+####Expected result:
+In all cases, splitting your screen should have no effect on any UI elements
+####Actual result:
+In case 1, all UI elements are gone except the menu icon at the top left // In case 2, only some text and profile pictures diseappear // In case 3, it just removes the recent mentions content, but this time the content won't come back after restoring the screen.
+####Client settings:
+Discord Alpha 5.5.1
+####System settings:
+Huawei Mate 9 Android 7.0
+
+5866
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-28T13:24:10.278Z
+
+
+### Alex1304#9704 - https://youtu.be/JvjmsEB5Bc8 added by Bug Bot on 2017-10-28T13:24:12.724Z
+
+
+### Can reproduce.
+CR, I think it's Android 7.0+ only ; Android 7.0, Huawei p8 lite 2017, alpha 5.5.1
+
+Mathéo ~ fujh🎃fn#0878 - Bug Bot on 2017-10-28T13:24:17.691Z
+
+
+### Can reproduce.
+Nexus 6 Android 7.1.2 Discord 5.5.1
+
+MelodyConcerto#5328 - Bug Bot on 2017-10-28T13:24:22.710Z
+
+
+### Can reproduce.
+CR Moto G4 Android 7.0 Alpha 5.5.1 could be related to https://trello.com/c/kpKpfbCN/ but these could be separate issues as well
+
+Azrael#9808 - Bug Bot on 2017-10-28T13:24:27.688Z
+
+
+### I can confirm this is **not** Huawei specific, it just doesn't seem to happen on Samsung devices.
+
+Alex1304#9704 - Bug Bot on 2017-10-28T13:31:14.812Z
+
+
+### Can reproduce.
+HTC 10 Lineage OS 7.1.2
+
+Sam ^ω^#6710 - Bug Bot on 2017-10-29T06:24:55.621Z
+
+
+### Can reproduce.
+I had Discord up while YouTube was running as a pop out. I accidentally made it go into split screen resulting in Discord going blank until I tapped on it. Samsung Galaxy S6, 7.0, 551
+
+Xander#0259 - Bug Bot on 2017-10-29T22:18:13.298Z
+
+
+### Verified.  - Clayton on 2017-11-01T20:06:37.729Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-01T20:06:41.451Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-28T14:16:17.969Z
+
+
+### Cannot reproduce anymore, Discord Alpha 6.1.6 on OnePlus 5 Android 8.
+
+ - Tarek on 2018-01-28T14:16:40.133Z
+
+
+### @tarek1337 I can still reproduce. Split screen related issues don't seem to affect some devices. CR -a
+
+Alex1304#9704 - Bug Bot on 2018-01-28T15:46:25.044Z
+
+
+### Original reported seems to be able to reproduce still , moving back. - Tarek on 2018-01-28T15:49:12.341Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Tarek on 2018-01-28T15:49:41.823Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:58.795Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 9.0, Discord Alpha 7.4.2 - Still reproducable
+
+Haru😍💜#6660 - Bug Bot on 2018-08-31T18:03:47.778Z
+
+
+### Unarchived by Clayton on 2018-08-31T18:30:03.974Z
+
+
+### Split screen bugs are unsupported - Tarek on 2018-09-08T00:18:01.394Z
+
+
+### Moved from Verified Bugs to Won't Fix by Tarek on 2018-09-08T00:18:05.066Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than a month without any activity. - Ghoul on 2018-10-23T07:36:11.142Z
+
+
+### Archived by Ghoul on 2018-10-23T07:36:12.614Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

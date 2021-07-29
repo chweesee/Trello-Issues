@@ -1,0 +1,68 @@
+Discord Client Window Becomes Unresponsive and Drags Pixel When Set to Min Width in i3 (https://trello.com/c/TSPaLgSX)
+
+P3: Will eventually be fixed,
+low
+
+Created: 2018-06-15T04:46:26.710Z
+Latest Update: 2018-08-30T22:03:58.744Z
+
+Reported by ￷￷￷￷#7730
+
+####Steps to reproduce:
+- Start up Discord from terminal(used terminator) 
+- Place Discord on the Right side in i3 
+- Hold ctrl-win and drag Discord to the right (to the edge)
+- Drag Discord to the left after
+
+####Expected result:
+The Discord client should not be frozen and appear regular after dragging to the left just like normally resizing window
+####Actual result:
+Discord becomes unresponsive and drags pixels when dragged. Requires killing of all Discord processes or reinstallation
+####Client settings:
+Discord 0.0.5 (AUR)
+####System settings:
+Manjaro 17.1.10 Hakoila; x86_64 Linux 4.9.99-1-MANJARO
+
+13020
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-15T04:46:26.710Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5b2344a2a4709bdd8219c732/db0cc7c657f4e374d17b163f7e1c4a9b/discordbug3.png added by Bug Bot on 2018-06-15T04:46:29.302Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5b2344a2a4709bdd8219c732/c11f7755f233cfe7b657d8cde559e93b/discordbug2.png added by Bug Bot on 2018-06-15T04:46:29.344Z
+
+
+### Can reproduce.
+Can reproduce, Debian Buster Cinnamon (x64 | 9.0) with Canary (15523)
+
+KiLO#0001 - Bug Bot on 2018-06-15T04:46:34.074Z
+
+
+### Can reproduce.
+CR on Debian Bustor Cinnamln x64 9 -> On Canary 15523
+
+HasanBrandsXD#4120 - Bug Bot on 2018-06-15T04:46:39.072Z
+
+
+### Can reproduce.
+CR ~ Linux Mint 19 (Tara) XFCE Edition (beta) ~ Discord Canary 16907
+
+FoxyKero#9941 - Bug Bot on 2018-06-15T04:46:44.050Z
+
+
+### i3 is a 3rd party program, minor - Clayton on 2018-08-30T22:03:54.817Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-08-30T22:03:58.729Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

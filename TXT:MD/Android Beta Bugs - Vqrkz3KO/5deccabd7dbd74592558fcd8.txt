@@ -1,0 +1,69 @@
+[Archived] App lock on Xiaomi restarts the CAPTCHA (https://trello.com/c/Ed5BWgPv)
+
+None
+
+Created: 2019-12-08T10:04:46.087Z
+Latest Update: 2020-02-20T21:32:06.427Z
+
+Reported by Flame#1327
+
+####Steps to reproduce:
+- Go to App lock under "Security" in your Xiaomi phone 
+- Lock the Discord app, so that every time you exit the app it locks "When device is locked or after exiting app"  
+- Try to login, and fill the CAPTCHA (If you get one, probably you will) 
+- After submitting the CAPTCHA the app lock will trigger and the discord app will get locked 
+- After opening quickly the app lock, the CAPTCHA will restart thus making an infinite loop of login tries 
+- *I know it sounds quite a specifc thing, but it happens to me quite a lot because sometimes discord decides to log me off. (probably connection issues)*
+
+####Expected result:
+Log in to your account (If you succeed the CAPTCHA)
+####Actual result:
+captcha restarts and you cannot log in. (One more thing, this isn't an issue about the captcha itself, for example, on the paypal app it does not do it!)
+####Client settings:
+9.9.3 (993)
+####System settings:
+Xiaomi Redmi note 4 and  Xiaomi Mi 9:  MIUI Version: 11.0.2 Stable Android: 10 (Checked on both of the devices)
+
+49314
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-08T10:04:46.087Z
+
+
+### Stig124#1591 - https://youtu.be/F-70nSawwbc added by Bug Bot on 2019-12-08T10:04:48.664Z
+
+
+### Can reproduce.
+CR, Discord 994, Redmi Note 4, Android 7
+
+Rohit#3523 - Bug Bot on 2019-12-08T10:04:53.584Z
+
+
+### Can reproduce.
+CR, Discord 9.8.1, Xioami Redmi 6, Android 8.1.0, NOTE: when turning phone landscape or vice versa it causes the captcha
+
+Arrowverse2001#2001 - Bug Bot on 2019-12-08T10:04:58.571Z
+
+
+### Can reproduce.
+CR, Xiaomi Redmi 4x, 7.1.2 N2G47H, Android alpha 1.0.0.0
+
+KlukCZ#6589 - Bug Bot on 2019-12-08T10:05:03.561Z
+
+
+### Can't reproduce.
+Xiaomi Redmi 7A - MIUI 11 (!) - Android 9 - Discord 1.0.0.0 (NOTE : Seems resolved in MIUI 11)
+
+Aeris One#9906 - Bug Bot on 2019-12-08T16:13:08.315Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:32:06.447Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

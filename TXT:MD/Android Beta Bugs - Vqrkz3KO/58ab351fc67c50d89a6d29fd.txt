@@ -1,0 +1,111 @@
+[Archived] DPI causes upload menu to gain a black box above (https://trello.com/c/2r9gfGMy)
+
+P3 - Will be fixed eventually
+
+Created: 2017-02-20T18:27:43.669Z
+Latest Update: 2018-03-03T04:45:34.024Z
+
+Reported by mralext20#8975
+
+####Steps to reproduce: -set DPI to something smaller than your default DPI 
+- access the upload menu 
+- 
+
+####Expected result:
+ upload menu scales properly with DPI 
+####Actual result:
+ upload menu grows a black top hat 
+####System settings:
+ Nexus 6 at DPI 493 discord ver 3.3.4
+
+1667
+
+Card Log
+========
+### Added by Jared on 2017-02-20T18:27:43.669Z
+
+
+### Can reproduce.
+Android 7.1.1, Discord 3.3.4, my guess is that the black box is always set as a margin from the edges of the screen and the file selector menu isn't set to actually use all the space of the black box
+
+MelodicStream#1336 - Jared on 2017-02-20T18:27:44.202Z
+
+
+### Can reproduce.
+Nexus 9 Android 7.1 Alpha 3.3.4
+
+Mikesky#3456 - Jared on 2017-02-20T18:27:46.250Z
+
+
+### Can reproduce.
+Android 7.1.1, Discord 3.3.4
+
+Chrees#4389 - Jared on 2017-02-20T18:27:48.152Z
+
+
+### Screenshot_20170218-194800.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58ab351fc67c50d89a6d29fd/87f447090d7e2ee75975ae1f9cbfd84f/Screenshot_20170218-194800.png added by Jared on 2017-02-20T18:27:59.548Z
+
+
+### Screenshot_20170217-223531.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58ab351fc67c50d89a6d29fd/47ea09d448b007adb1969201604fce0f/Screenshot_20170217-223531.png added by Jared on 2017-02-20T18:28:00.271Z
+
+
+### appears to have something to do with tablet UI
+
+mralext20#8975 - Jared on 2017-02-20T18:39:48.084Z
+
+
+### Yeah this is related to our tablet specific layouts. Not sure if it's worth addressing. At least it's low pri - Sam Shih on 2017-02-24T01:44:59.496Z
+
+
+### Can reproduce.
+android 7.1.1 nexus 6 dpi 493 discord 3.3.8
+
+mralext20#8975 - Jared on 2017-02-25T00:24:42.058Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-27T19:41:15.651Z
+
+
+### Can no longer reproduce. This was fixed not too long after the bug was submitted.
+Google Pixel XL, Android 8.0.0, Discord 5.2.6. - Chris Cox on 2017-09-30T06:35:41.551Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Chris Cox on 2017-09-30T06:35:47.378Z
+
+
+### Can't reproduce.
+-@
+
+B a ™ a n#7883 - Bug Bot on 2018-01-26T18:22:42.097Z
+
+
+### Can't reproduce.
+OnePlus 5, Android 8.0, Discord Alpha 6.1.2
+
+B a ™ a n#7883 - Bug Bot on 2018-01-26T18:25:24.184Z
+
+
+### Can't reproduce.
+Samsung Galaxy s2 sgh-t989, 6.0.1, alpha 6.1.6
+
+rauf#3260 - Bug Bot on 2018-01-28T15:36:43.641Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-29T12:27:52.192Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Alexandru Todea on 2018-01-29T12:27:55.984Z
+
+
+### Archiving as there has been no activity on this card for over a month. - Chris Cox on 2018-03-03T04:45:32.534Z
+
+
+### Archived by Chris Cox on 2018-03-03T04:45:34.027Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,72 @@
+[Archived] Links on web canary build open in a new popup window, ignoring user's browser preferences (https://trello.com/c/jgvnOCyv)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-12-09T06:57:10.654Z
+Latest Update: 2018-02-22T20:12:57.602Z
+
+Reported by vaindil#2314
+
+####Steps to reproduce:
+- Open canary version of Discord in browser 
+- Click any external link (not images hosted on the CDN)
+
+####Expected result:
+Link opens in either a new tab or window, depending on the user's browser settings
+####Actual result:
+Link is opened in a new popup window (the kind that browsers open for live chat or whatever, where mostly everything is disabled, no bookmarks bar, etc.). Middle-clicking to open in a new tab does work properly.
+####Client settings:
+in Chrome 63, Firefox 56
+####System settings:
+Windows 10 x64
+
+6888
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-09T06:57:10.654Z
+
+
+### Can reproduce.
+Google Chrome 62.0.3202.97 (x64), Discord Canary Webclient, Build Number: 8362.
+
+Senhara#5373 - Bug Bot on 2017-12-09T06:57:18.480Z
+
+
+### Can reproduce.
+Discord Canary Build 8372 on Chrome 64-bit 62.0.3202.94 and Windows 10 Pro 64-bit
+
+Tarek1337#0379 - Bug Bot on 2017-12-09T06:57:23.178Z
+
+
+### Can reproduce.
+CR, Discord Canary Webclient, Build 8372, Google Chrome 63.0.3239.84 (x64), Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2017-12-09T06:57:28.561Z
+
+
+### Can reproduce.
+Discord Canary Windows build 0.0.163, Windows 10 Home 64-bit Fall Creators Update (build 1709), gets "You'll need a new app to open this about"
+
+Nostalgia Ninja#8253 - Bug Bot on 2017-12-09T12:25:13.348Z
+
+
+### Cannot reproduce on Canary 8612, perhaps got fixed already? Chrome Stable 63.0.3239.84 - Tarek on 2017-12-15T09:48:17.200Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2017-12-15T09:48:22.036Z
+
+
+### Archived due to being inactive for a month without any further activity and is marked as Cannot reproduce. - Tarek on 2018-02-22T20:12:56.505Z
+
+
+### Archived by Tarek on 2018-02-22T20:12:57.605Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

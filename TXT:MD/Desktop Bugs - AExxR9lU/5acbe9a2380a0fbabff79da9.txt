@@ -1,0 +1,64 @@
+[Archived] OSX ONLY: Logitech G600 mouse cannot set MOUSE17+ for push-to-talk (confirmed supported https://i.imgur.com/asvmKL5.png) (https://trello.com/c/x0TCtG6B)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-09T22:30:58.387Z
+Latest Update: 2018-10-22T20:19:20.666Z
+
+Reported by eqqy#0044
+
+####Steps to reproduce:
+- settings -> voice & video -> push to talk -> shortcut 
+- click edit keybind 
+- push MOUSE19
+
+####Expected result:
+Registers either raw MOUSE19 (like it does for MOUSE1-16) or the key set in LGS (e.g. F10)
+####Actual result:
+Pressing MOUSE17, 18, 19, 20 does not register ANYTHING in Discord
+####Client settings:
+Release Channel: canary, Build Number: 10323, Version Hash: ec967a03e10ecc3feb42d017a7037098aa4a7954
+####System settings:
+OSX 10.13.2 (17C88)
+
+8548
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-09T22:30:58.387Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (12458) on Windows 10 Pro 64-bit (1709) I can reproduce this on Windows on my Steelseries mouse (Sensei RAW). Mouse 4 is not being recognized for PTT. I don't think this is Logitech or macOS specific.
+
+Tarek#1337 - Bug Bot on 2018-04-09T22:31:05.844Z
+
+
+### Can reproduce.
+iMac 27" (Mid 2010) - macOS 10.3.3. Discord Canary Build 12704. Mouse 4 wont work. | -w 12704, Mouse 4 won't work.
+
+Kyle#0420 - Bug Bot on 2018-04-09T22:31:10.787Z
+
+
+### Can reproduce.
+Can reproduce, took forever for the part to appear
+
+Dabbit Prime#0896 - Bug Bot on 2018-04-09T22:31:15.812Z
+
+
+### Verified.  - Clayton on 2018-04-10T22:29:01.497Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-10T22:29:05.922Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:20.669Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

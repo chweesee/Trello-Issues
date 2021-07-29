@@ -1,0 +1,97 @@
+[Archived] Standalone emotes in in-app notifications get shifted to the top left corner (https://trello.com/c/NMKaFIZE)
+
+P3 - Will be fixed eventually
+
+Created: 2018-12-01T16:56:11.245Z
+Latest Update: 2019-06-07T04:00:26.620Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Have someone send you a DM that contains only an emote 
+- Observe the position of the emote in the in-app notification 
+- Have the person then send you a DM that contains an emote followed by text 
+- Observe the postion of the emote in the second notification
+
+####Expected result:
+Emote is placed correctly in both notifications
+####Actual result:
+Emote gets shifted to the top left corner when by itself
+####Client settings:
+TestFlight 2.4.0 (9477)
+####System settings:
+iPhone 6s iOS 12.1.1 Dev Beta 3
+
+23871
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-01T16:56:11.245Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c02bd2b7797dc4373b4f784/053e5e3ad7c23c7def7697b43e617a28/image0.png added by Bug Bot on 2018-12-01T16:56:13.639Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c02bd2b7797dc4373b4f784/e5e4b5f76d07c740dbfee5fb3b33d1b0/image0.png added by Bug Bot on 2018-12-01T16:56:13.684Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1, TestFlight 2.4.0 (9477)
+
+Solo#0007 - Bug Bot on 2018-12-01T16:56:18.629Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1.1 (dev beta 3) - TestFlight 2.4.0 (9477)
+
+Xylium#5800 - Bug Bot on 2018-12-01T16:56:23.572Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1 - TestFlight 2.4.0 (9477)
+
+Daffyduck#5364 - Bug Bot on 2018-12-01T16:56:28.622Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1.1, Dev Beta 3 - TestFlight 2.4.0 (9477)
+
+Alfie#1582 - Bug Bot on 2018-12-02T00:33:27.749Z
+
+
+### Moved from New Issues to In-App Notifications by Jonathan Wu on 2018-12-06T18:00:18.795Z
+
+
+### Moved from In-App Notifications to Claimed Fixed Bugs by Fanghao on 2019-05-08T03:45:00.093Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 12.3 (16F5129d) - TestFlight 3.0.1 (14737)
+
+Isabel#0002 - Bug Bot on 2019-05-08T03:49:24.322Z
+
+
+### Can't reproduce.
+TestFlight 3.0.1 (14737) - iPhone 6s iOS 12.3 Dev Beta 3
+
+Rashaun#8467 - Bug Bot on 2019-05-08T03:56:18.695Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14737)
+
+Daffyduck#5364 - Bug Bot on 2019-05-08T03:58:18.161Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-08T03:58:18.362Z
+
+
+### Archived by Bug Bot on 2019-06-07T04:00:26.635Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

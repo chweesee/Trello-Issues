@@ -1,0 +1,77 @@
+[Archived] Server placeholder icon is displayed incorrectly when typing certain symbols (https://trello.com/c/M01btyHH)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-11T22:22:35.479Z
+Latest Update: 2018-10-22T20:14:13.504Z
+
+Reported by Polished#6034
+
+####Steps to reproduce:
+- Make a new server without putting an icon, generating a placeholder text one 
+- Go to Server Settings 
+- Change the name to have random strings of the following characters: ( ) & \* # $ @ !
+
+####Expected result:
+The server icon preview displays as normal
+####Actual result:
+The server icon displays the characters over the background, and even over the preview circle
+####Client settings:
+Canary 0.0.157
+####System settings:
+Windows 10 Standard x64
+
+1572
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-11T22:22:35.479Z
+
+
+### Super from NotDiscord™#5419 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593dc2ab7042722318546bb3/e9f8b2435c287abd2a9240825e112f08/8gm5gn.gif added by Bug Bot on 2017-06-11T22:22:38.814Z
+
+
+### Can reproduce.
+ Windows 7 Professional x64, Discord Stable
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-06-11T22:22:39.994Z
+
+
+### Can reproduce.
+ Windows 10 Pro x64 v1703, Canary 0.0.157
+
+My Dudes#1174 - Bug Bot on 2017-06-11T22:22:42.095Z
+
+
+### Can reproduce.
+ Windows 10 x64 Anniversary Update (1607) Canary 0.0.157
+
+OGNovuh#0014 - Bug Bot on 2017-06-11T22:22:43.988Z
+
+
+### Verified, but extremely minor. Maybe Won't Fix. - Jared on 2017-06-12T21:38:38.938Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-06-12T21:38:43.096Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T23:20:58.479Z
+
+
+### I can still reproduce. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T09:45:36.545Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:13.506Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

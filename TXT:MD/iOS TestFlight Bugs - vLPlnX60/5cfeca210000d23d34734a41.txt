@@ -1,0 +1,113 @@
+Scrolling up when “Load more messages” is shown does not always result in more messages being loaded (https://trello.com/c/AesKnwcZ)
+
+None
+
+Created: 2019-06-10T21:22:41.122Z
+Latest Update: 2019-10-13T02:08:50.967Z
+
+Reported by CzechCongo [¡¡¡]#8271
+
+####Steps to reproduce:
+- Select a text channel with more than 25 new messages to read.  
+- Scroll up so the red “new messages” line and the “load more messages” box are visible.  
+- Scroll up more.
+
+####Expected result:
+More messages should load.
+####Actual result:
+More messages do not always load. I have been unable to find 100% reproducible conditions for this.
+####Client settings:
+Testflight 3.0.3 (15638)
+####System settings:
+iPhone 7+ iOS 12.1.1 (16C50)
+
+36753
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-10T21:22:41.122Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS 12.3.1, TestFlight 3.0.3 (15638)
+
+Pascal#0929 - Bug Bot on 2019-06-10T21:22:48.515Z
+
+
+### Can reproduce.
+iPhone XR & iPad Air iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+binchlord#0998 - Bug Bot on 2019-06-10T21:22:53.694Z
+
+
+### Can reproduce.
+CR, iPhone 6s iOS 12.3.1 - TF 3.0.3 (15638)
+
+Jasοn#0001 - Bug Bot on 2019-06-10T21:22:58.488Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - TestFlight 3.0.3 (15638)
+
+Xylium#5800 - Bug Bot on 2019-06-10T21:44:27.118Z
+
+
+### Can reproduce.
+iPhone X iOS 12.3.1
+
+Colin#0670 - Bug Bot on 2019-06-11T00:45:50.888Z
+
+
+### Can reproduce.
+iphone 8 ios 12.4,  TestFlight 3.0.3 (15638)
+
+OrangeM24#5746 - Bug Bot on 2019-06-11T03:44:49.468Z
+
+
+### Can reproduce.
+IPhone XR, iOS 12.4 dev beta 3 TestFlight 3.0.3 (15685)
+
+SplashyFlame#4968 - Bug Bot on 2019-06-11T03:47:34.424Z
+
+
+### Can reproduce.
+iPad (2017), iOS 12.3.1 - TestFlight 3.0.3 (15685) - i have this all the time
+
+Soheab_#5757 - Bug Bot on 2019-06-11T08:25:52.908Z
+
+
+### does it never load or will load eventually just slow? - Fanghao on 2019-06-11T19:47:06.179Z
+
+
+### Moved from New Issues to Need more info by Fanghao on 2019-06-11T19:47:53.779Z
+
+
+### @fanghao2 It seems the bug only happens when you are at the top of the oldest visible new message and then it will never load when just scrolling to the top and not doing any of the workarounds mentioned below, at least that is how it happened for me. So if you open a channel and are at the bottom, the bug won’t happen.
+
+Of course there are several workaround to load more messages:
+
+- Scrolling a bit down and then scroll again to the top
+- Click on the new message since banner
+- Click on load more messages button
+
+I could make a screen recording if that would help. - Pascal on 2019-06-11T20:19:15.304Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.3 (15702)
+
+Daffyduck#5364 - Bug Bot on 2019-06-12T05:09:01.770Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.2; TestFlight 3.1.5 (17627)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-13T02:08:50.979Z
+
+List
+====
+Need more info
+
+Members
+=======
+None

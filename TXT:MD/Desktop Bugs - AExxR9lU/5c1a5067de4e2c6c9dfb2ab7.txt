@@ -1,0 +1,117 @@
+[Archived] The esc button from Hypesquad in settings disappears when changing the window size from minimum, and then back. (https://trello.com/c/m5ABg9cM)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-12-19T14:06:31.073Z
+Latest Update: 2019-01-19T22:00:03.009Z
+
+Reported by Tibix#5323
+
+####Steps to reproduce:
+- Make the Discord window size the lowest possible 
+- Go to the settings 
+- Select Hypesquad 
+- Make your window a bit bigger 
+- Make it small again
+
+####Expected result:
+The Esc button is supposed to scale with the window size properly
+####Actual result:
+It just decides to disappear, until you make your window almost max size, or maximize the window.
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 30033, Version Hash: 9d25a52474116409044621b62923905755015796
+####System settings:
+Windows 10 Enterprise x64 (Resolution 1366x768)
+
+24737
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-19T14:06:31.073Z
+
+
+### Santa DCON 🎄#6846 - https://i.imgur.com/QpmNMVj.gifv added by Bug Bot on 2018-12-19T14:06:33.461Z
+
+
+### Can reproduce.
+Seems to happen on all screens that have the (esc) escape button. The escape button seems to ignore the resize event after initial resizing - Windows 8.1 Pro x64 Stable Build Number: 30024
+
+Santa DCON 🎄#6846 - Bug Bot on 2018-12-19T14:06:38.383Z
+
+
+### Can reproduce.
+Windows 10 Pro (x64), PTB build number 30033
+
+chillman#6969 - Bug Bot on 2018-12-19T14:06:43.368Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Pro x64 (1809) - Canary 30033
+
+Jengas#7777 - Bug Bot on 2018-12-19T14:06:48.371Z
+
+
+### Can reproduce.
+CR Windows 10 Home (64-bit), Build 17134.285, Discord Canary Build 30033
+
+zapteryx#0004 - Bug Bot on 2018-12-19T14:27:56.260Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 29791
+
+Neiron#8475 - Bug Bot on 2018-12-19T15:25:57.706Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Version: 1803; Build: 17134.407; Desktop Canary, 30033
+
+Sosig#0001 - Bug Bot on 2018-12-19T18:09:36.441Z
+
+
+### Can reproduce.
+Release Channel: canary, Build Number: 30033, Version Hash: 9d25a52474116409044621b62923905755015796, Windows 10 Home x64
+
+Talon#0027 - Bug Bot on 2018-12-19T19:32:21.721Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 30033
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-12-19T20:40:44.054Z
+
+
+### Can reproduce.
+Windows 10 Home x64 build 17763.xxx
+
+a cat#3492 - Bug Bot on 2018-12-19T23:04:23.959Z
+
+
+### minor - Clayton on 2018-12-20T04:35:14.633Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-20T04:35:22.048Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Discord Stable 30162
+
+1Storm#0001 - Bug Bot on 2018-12-20T12:45:21.024Z
+
+
+### Can reproduce.
+Can reproduce. Windows 7 Home Premium x64 v7601, Canary 30168
+
+Solo#0007 - Bug Bot on 2018-12-20T21:58:29.280Z
+
+
+### Archived by Bug Bot on 2019-01-19T22:00:03.013Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

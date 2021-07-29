@@ -1,0 +1,61 @@
+When typing, and you have a string of non-whitespace characters in your textbox that is wraps to the next line, you can't move the cursor to the end of the line full of characters, only to after the penultimate character of that line (https://trello.com/c/lZkkYbok)
+
+None
+
+Created: 2020-05-08T16:14:05.961Z
+Latest Update: 2020-07-16T05:46:30.626Z
+
+Reported by Ana940#0001
+
+####Steps to reproduce:
+- Type a string of characters that are non-whitespace and is long enough that it wraps to the next line 
+- Try to move the cursor to the end of the first line
+
+####Expected result:
+You can move the cursor to the end of the first line
+####Actual result:
+Cursor only goes to just before the final character on the first line, and can't go just after that character
+####Client settings:
+Android 21.2 (1131)
+####System settings:
+Moto G5, Android 8.1.0
+
+55706
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-08T16:14:05.961Z
+
+
+### Ana940#0001 - https://youtu.be/-sGN4LptDXg added by Bug Bot on 2020-05-08T16:14:08.477Z
+
+
+### Can reproduce.
+[CR] Samsung S10+, Android 10.0, Discord 21.2 (1131)
+
+" Tibo#2001 - Bug Bot on 2020-05-08T16:14:13.524Z
+
+
+### Can reproduce.
+Xiaomi mi a2 lite, Android 9, Discord 20.6 (1130)
+
+Dolphln#8766 - Bug Bot on 2020-05-08T16:14:18.458Z
+
+
+### Can reproduce.
+CR; Samsung Galaxy A70, Android 10, Discord v21.2 (1131)
+
+RileyTheSnom#3724 - Bug Bot on 2020-05-08T16:14:23.451Z
+
+
+### This also happens in other apps like Whatsapp, and is more intended that the user goes to start of the next line instead of the end.
+
+Alipoodle#5025 - Bug Bot on 2020-07-02T10:08:41.917Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

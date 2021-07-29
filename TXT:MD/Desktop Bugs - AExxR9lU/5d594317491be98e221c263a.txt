@@ -1,0 +1,85 @@
+Published messages from announcement channels do not change to "[Original Message Deleted]" when the original message is deleted via the bulk deletion endpoint (https://trello.com/c/sJLbyFTN)
+
+None
+
+Created: 2019-08-18T12:22:47.982Z
+Latest Update: 2020-07-16T21:26:04.880Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Have a server with an announcement channel 
+- Follow that channel in another channel 
+- Send a message in the announcement channel and publish it 
+- Using a bot or manually with a bot token, delete the message with the bulk deletion endpoint
+
+####Expected result:
+The message should be edited to say "[Original Message Deleted]" in all channels were it was crossposted in
+####Actual result:
+It does not edit
+####Client settings:
+Discord Canary v0.0.254 Build 43884
+####System settings:
+Windows 10 Pro x64 v1903 Build 18912.1001
+
+42326
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-18T12:22:47.982Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), ​‌‌​‌‌​‍‌​​​‌‌​​‍‌​​‌‌‌‌​‍‌​​‌‌‌​‌‍‌​​‌‌​‌​‍‌​​‌​​‌‌‍‌‌​‌‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌‌‌‌‍‌‌​​‌‌‌‌‍‌‌​​‌‌​‌‍‌‌​‌‌‌‌‌‍‌​​‌​​​​‍‌​​​‌‌​‌‍‌​​‌​‌‌​‍‌​​‌‌​​​‍‌​​‌​‌‌​‍‌​​‌​​​‌‍‌​​‌‌‌‌​‍‌​​‌​​‌‌‍‌​​‌​​‌‌‍‌​​​​‌‌​‍‌‌​‌‌‌‌‌‍‌​​‌‌​‌‌‍‌​​‌​‌‌​‍‌​​‌‌​‌‌‍‌‌​‌‌‌‌‌‍‌​​​‌​‌‌‍‌​​‌​‌‌‌‍‌​​‌​‌‌​‍‌​​​‌‌​​‍‌‌​‌‌‌‌‌‍‌​​‌‌‌‌​‍‌​​‌‌‌​​‍‌​​​‌​‌‌‍‌​​‌​‌‌​‍‌​​‌​​​​‍‌​​‌​​​‌‍‌‌​‌​​​‌macOS v10.15 Beta (19A526h) - Canary 43884
+
+Isabel#0002 - Bug Bot on 2019-08-18T12:22:55.552Z
+
+
+### Can reproduce.
+Can reproduce, macOS High Sierra, Version: 10.13.6 - Discord Canary 43884
+
+Leaf#0001 - Bug Bot on 2019-08-18T12:23:00.408Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 43884 (0.0.254)
+
+Alipoodle#5025 - Bug Bot on 2019-08-18T12:23:05.396Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.175), Discord Canary 43884
+
+Kissa#1337 - Bug Bot on 2019-08-18T14:49:28.017Z
+
+
+### Can reproduce.
+Canary 43884, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-08-18T18:57:14.299Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 43884 (Host 0.0.254)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-18T20:53:25.692Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 x Lenovo [CANARY] 43884
+
+Jake R#0001 - Bug Bot on 2019-08-18T22:06:24.571Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 43884
+
+AHkhan#6518 - Bug Bot on 2019-08-19T10:05:07.728Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

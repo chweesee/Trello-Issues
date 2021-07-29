@@ -1,0 +1,83 @@
+[Archived] When trying to send a message which starts with an underscore, then follows with a space, and then with an emoji which the name of ends with an underscore, it completely glitches. (https://trello.com/c/gVznhER3)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-02T09:06:55.104Z
+Latest Update: 2018-08-22T01:22:01.933Z
+
+Reported by FocusFon#1337
+
+####Steps to reproduce:
+Find or make an emoji which the name of ends with an underscore. In my case, it's <:o_:422323233623375873> Then, send a message in the following syntax: an underscore, a space, and the emoji ending with an underscore. In my case, `_ <:o_:422323233623375873>`.
+
+####Expected result:
+The message appears as an underscore, the space, and the emoji.
+####Actual result:
+The underscore and the space appear correctly, but the emoji doesn't appear. Instead, it gives a string of numbers
+####Client settings:
+Discord for Android, v.6.5.6
+####System settings:
+Android 6.0.1 (Marshmallow)
+
+11760
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-02T09:06:55.104Z
+
+
+### Can reproduce.
+You don't even need the first emote, just an underscore followed by an emote ending by an underscore is enough. Discord Alpha 6.5.9,  Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-05-02T09:07:02.510Z
+
+
+### Can reproduce.
+Can reproduce, the first emote is not required though to repro it, OnePlus 2, Android 6.0.1, Discord Alpha 6.6.0
+
+Marshadow#5095 - Bug Bot on 2018-05-02T09:07:07.528Z
+
+
+### Can reproduce.
+Also affects MacOS; Samsung J7 Prime, Android 6.0.1, Discord Alpha 6.5.9 & -m
+
+KingMarine#5676 - Bug Bot on 2018-05-02T09:07:12.533Z
+
+
+### Can reproduce.
+CR \ Redmi 5 Plus \ Android 7.1.2 \ Discord Alpha 6.5.9.
+
+/hash/#0001 - Bug Bot on 2018-05-02T09:14:02.093Z
+
+
+### Can't reproduce.
+Samsumg galaxy S7  Discord Alpha
+
+TheFinest#2561 - Bug Bot on 2018-05-02T12:16:51.488Z
+
+
+### Can reproduce.
+Can reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 Nougat ~ Discord Alpha 6.6.0
+
+DefinitelyNotLava#9562 - Bug Bot on 2018-05-02T14:26:44.021Z
+
+
+### Verified.  - Clayton on 2018-05-02T21:12:33.258Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-02T21:12:38.988Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ae97faf889b5f90ac2957ea/2e2e3901165a154fdf4292f906aafa60/g1nvjwi.gif added by Bug Bot on 2018-07-15T17:02:40.321Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:01.936Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

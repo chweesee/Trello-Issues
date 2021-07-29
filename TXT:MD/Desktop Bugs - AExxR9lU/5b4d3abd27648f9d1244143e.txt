@@ -1,0 +1,90 @@
+[Archived] Option to add reactions is present even when the reactions permission is denied (https://trello.com/c/VUWPkBFB)
+
+None
+
+Created: 2018-07-17T00:39:25.808Z
+Latest Update: 2019-04-22T07:47:35.698Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Be in a channel where your add reactions permission is denied 
+- Scroll over a message in the channel and observe the add reaction button is present 
+- Try to add a reaction
+
+####Expected result:
+Add Reaction button is not present when permission is denied
+####Actual result:
+Add Reaction button is present when permission is denied
+####Client settings:
+Canary Build 18911
+####System settings:
+Win 10 x64 1803
+
+15488
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-17T00:39:25.808Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b4d3abd27648f9d1244143e/0d3e4235bc6d71758d3aba98f4552fe3/unknown.png added by Bug Bot on 2018-07-17T00:39:28.381Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary (18911)
+
+Ten 🌈#8152 - Bug Bot on 2018-07-17T00:39:33.224Z
+
+
+### Can reproduce.
+Got fixed in the build revertion. Pushing for archival reasons
+
+Ghoul#0009 - Bug Bot on 2018-07-17T00:39:38.252Z
+
+
+### Can reproduce.
+Pushing for archival, was fixed in the build reversion.
+
+webhp#1337 - Bug Bot on 2018-07-17T00:39:43.249Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Clayton on 2018-07-17T01:56:33.780Z
+
+
+### I can repro this on 18958. Moving to Message update bugs. - Tarek on 2018-07-17T17:10:45.174Z
+
+
+### Moved from Claimed Fixed, needs Verification to Message Update Bugs by Tarek on 2018-07-17T17:10:49.441Z
+
+
+### Can reproduce.
+Windows 10 x64 Enterprise E3 | Discord Canary Build: 18958
+
+SweetSofiMC#8821 - Bug Bot on 2018-07-17T18:02:13.980Z
+
+
+### Moved from Message Update Bugs to Fix made, not yet released by Shadi Isber on 2018-07-18T00:22:25.955Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Joey Baker on 2018-07-18T18:08:41.304Z
+
+
+### Can reproduce.
+Windows 10 Enterprise E3 x64 Discord Canary Build 19091
+
+SweetSofiMC#8821 - Bug Bot on 2018-07-18T18:22:38.996Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:25:26.511Z
+
+
+### Archived by Jared on 2018-08-21T23:25:27.395Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

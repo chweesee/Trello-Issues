@@ -1,0 +1,76 @@
+[Archived] On the View Backup Codes screen: If you change your theme on another device, the app will exit back to Account settings. (https://trello.com/c/liWkKKy9)
+
+None
+
+Created: 2019-01-30T03:27:48.740Z
+Latest Update: 2019-03-07T01:30:21.534Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Have 2FA enabled. 
+- Navigate to User Settings > Account > View Backup Codes. 
+- Enter your password and enter the screen. 
+- On another device, change your theme.
+
+####Expected result:
+The app stays in the View Backup Codes screen.
+####Actual result:
+The app exits back to Account settings.
+####Client settings:
+TestFlight 2.4.4 (10993)
+####System settings:
+iPhone 6s, iOS 12.1.3 Beta (16D5032a)
+
+27356
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-30T03:27:48.740Z
+
+
+### Can reproduce.
+Can reproduce. This might be intentional though, since the theme change is probably triggering a re-render so it might be hiding the sensitive information. iPhone 6S, iOS 12.2, TestFlight 2.4.4 (10993)
+
+Rajiv Shah#5322 - Bug Bot on 2019-01-30T03:27:56.104Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 2.4.4 (10993)
+
+Lentralkestor#2016 - Bug Bot on 2019-01-30T03:28:01.151Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.1.2 TestFlight 2.4.4
+
+Tracer / Emma#6969 - Bug Bot on 2019-01-30T03:28:06.104Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.1.2 -TestFlight 2.4.4 (10993)
+
+ryan#0570 - Bug Bot on 2019-01-30T05:15:02.869Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.4.4 (10993)
+
+Jengas#7777 - Bug Bot on 2019-01-30T13:17:44.614Z
+
+
+### Moved from New Issues to Account Settings by Alex on 2019-01-31T21:10:32.031Z
+
+
+### Moved from Account Settings to Won't Fix by Alex on 2019-02-05T01:18:58.991Z
+
+
+### Archived by Bug Bot on 2019-03-07T01:30:21.545Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

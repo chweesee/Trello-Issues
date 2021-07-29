@@ -1,0 +1,104 @@
+[Archived] [Edge] [MASTER TICKET for cursor issues] When closing a popup (e.g. Change Log), there will be a typing indicator in the user settings (bottom left) (https://trello.com/c/SZbnlVcI)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-30T18:50:06.084Z
+Latest Update: 2019-12-30T13:00:26.440Z
+
+Reported by » a r i a#1593
+
+####Steps to reproduce:
+- log in to your Discord account via Edge 17 
+- Go to your user settings and click on "Changelog", "View Backup Codes" or other options that bring up popups 
+- Close the popup (press x, esc or just clicking out of it) and observe
+
+####Expected result:
+No typing indicator is visible on the bottom left where the textbar is
+####Actual result:
+There is a typing indicator and you can even type something into the textbar behind the user settings
+####Client settings:
+Stable 20174, Edge 42.17134.1.0 / EdgeHTML 17.17134
+####System settings:
+Windows 10 Pro x64
+
+16454
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-30T18:50:06.084Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5f5dde94470caa1e44bc59/f406163e5a6276874ad9d0cd16f2d78d/9e7d6c.png added by Bug Bot on 2018-07-30T18:50:09.375Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64 (1803) - EdgeHTML 17.17134 (You must be in a channel where you can type)
+
+Mippy#0001 - Bug Bot on 2018-07-30T18:50:13.686Z
+
+
+### Can reproduce.
+Discord Stable 20174 Edge 42.17134.1.0 Windows 10 Pro x64 v1803
+
+webhp#3302 - Bug Bot on 2018-07-30T18:50:18.598Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Edge 17.17134
+
+mrkirby153#7840 - Bug Bot on 2018-07-30T18:50:23.594Z
+
+
+### Moved from User Reported Bugs to Edge Specific by Clayton on 2018-07-31T21:10:57.315Z
+
+
+### minor - Clayton on 2018-08-30T23:28:26.824Z
+
+
+### Moved from Edge Specific to Verified Bugs by Clayton on 2018-08-30T23:28:31.219Z
+
+
+### Archived by Clayton on 2018-10-22T20:26:42.260Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 31854, Microsoft Edge 44.17763.1.0 Microsoft EdgeHTML 18.17763
+
+TheForbiddenAi#0001 - Bug Bot on 2019-02-06T03:44:30.876Z
+
+
+### Unarchived by Bug Bot on 2019-02-06T04:00:06.987Z
+
+
+### On Edge (42.17134.1.0), going to the developer portal > application > clicking on any of the options on the side and then going back to it gives a random cursor that you can type to see move.
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-19T18:08:27.106Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:28.597Z
+
+
+### Can reproduce.
+[Extension]
+- Go to an announcement channel 
+- Click "Follow" 
+- If a server is already there by default, the cursor is there anyway blinking.
+
+MacBook Pro: macOS Catalina 10.15; Discord Canary 48112
+
+Jiralite#1207 - Bug Bot on 2019-10-26T16:49:22.511Z
+
+
+### Unarchived by Bug Bot on 2019-10-26T17:00:05.585Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:26.454Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

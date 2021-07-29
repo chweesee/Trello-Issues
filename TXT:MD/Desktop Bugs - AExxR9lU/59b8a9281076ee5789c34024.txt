@@ -1,0 +1,117 @@
+[Archived] Notification Overrides is exposing private categories (https://trello.com/c/dHLJWEln)
+
+P2: Fix can wait a while
+
+Created: 2017-09-13T03:42:32.330Z
+Latest Update: 2018-07-06T17:44:16.030Z
+
+Reported by advent#5267
+
+####Steps to reproduce:
+- View notification settings in Discord Testers. 
+- Notification overrides section is exposing Moderators category.
+
+####Expected result:
+Category is hidden unless given proper permission.
+####Actual result:
+Private channel categories are shown.
+####Client settings:
+Desktop Canary, build 4175
+####System settings:
+Windows 10 (1703)
+
+4218
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-13T03:42:32.330Z
+
+
+### Zacatero#5839 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59b8a9281076ee5789c34024/b906f517f4536d2d247241117c516a83/Screen_Shot_2017-09-12_at_8.36.13_PM.png added by Bug Bot on 2017-09-13T03:42:35.475Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163, Windows 10 Pro x64 Version 1703
+
+Elix 🍭#4604 - Bug Bot on 2017-09-13T03:42:39.901Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-13T03:42:44.891Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update, Discord 0.0.163 (4120)
+
+Chrees#4389 - Bug Bot on 2017-09-13T03:42:49.895Z
+
+
+### Can reproduce.
+Discord Canary 0.0.154 (Build 4175), macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-09-13T03:49:11.577Z
+
+
+### Also happens on stable
+
+Zacatero#5839 - Bug Bot on 2017-09-13T03:49:33.577Z
+
+
+### Can reproduce.
+Discord Stable 0.0.298 on Windows 7 (x64), Thinkpad x120e
+
+HighDefinition#6635 - Bug Bot on 2017-09-13T03:50:06.482Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Version 1607, Discord Canary 0.0.163
+
+Magikarp#8118 - Bug Bot on 2017-09-13T07:11:42.839Z
+
+
+### Can reproduce.
+Windows 10 64-bit Discord Canary 0.0.163
+
+masterlegobuilders#6764 - Bug Bot on 2017-09-13T20:01:13.533Z
+
+
+### Verified.  - Clayton on 2017-09-13T22:56:49.313Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-13T22:56:55.079Z
+
+
+### @amadeus90 we should fix this. - Stanislav Vishnevskiy on 2017-10-09T23:17:18.278Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:41:15.613Z
+
+
+### Cannot reproduce anymore, Canary 7460
+
+Moving to claimed - Tarek on 2017-11-17T04:32:42.553Z
+
+
+### Moved from Next up for investigation to Claimed Fixed, needs Verification by Tarek on 2017-11-17T04:32:52.575Z
+
+
+### Moving to verified Fixed.  - Clayton on 2017-11-30T00:14:39.546Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-11-30T00:14:52.192Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-30T08:31:52.034Z
+
+
+### Archived by Alexandru Todea on 2017-12-30T08:31:54.662Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

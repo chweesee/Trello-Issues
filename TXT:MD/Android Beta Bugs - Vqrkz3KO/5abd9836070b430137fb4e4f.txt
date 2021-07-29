@@ -1,0 +1,103 @@
+[Archived] When the debug log is very long, attempting to share it may crash Discord (https://trello.com/c/CAuS9uz6)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2018-03-30T01:51:50.429Z
+Latest Update: 2019-06-10T20:44:11.601Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have a very long debug log. For that, use the app intensively or let it open for a long time. If the scrollbar looks tiny, then you're probably good to go 
+- Go to Debug log and tap Share button at top right. Note that sometimes you need to do it several times to reproduce it (close Share menu and tap button again)
+
+####Expected result:
+Sharing debug log should work regardless of the length
+####Actual result:
+Discord crashes upon pressing Share button. Usually it doesn't crash instantly, first the button will simply not work, and when pressed repeatedly the crash happens
+####Client settings:
+Discord Alpha 6.4.5
+####System settings:
+Huawei Mate 9 Android 7.0
+
+10002
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-30T01:51:50.429Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 6.4.5 - I am not crashing but when clicking the back button to leave the debug menu it shows a black screen and freezes.
+
+webhp#1337 - Bug Bot on 2018-03-30T01:51:57.881Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 645 I hit share and  cancelled it several times then I went and selected share to Discord which failed. So I attempted to share again and Discord locked up and froze.
+
+Xander#0259 - Bug Bot on 2018-03-30T01:52:02.872Z
+
+
+### Can reproduce.
+CR, At the first try (after forming the giant log), the share button stopped to respond, pressed the back button, Discord froze, Discord Alpha 6.4.3, Asus Zenfone 3, Android 7.0
+
+joaoh1#0123 - Bug Bot on 2018-03-30T01:52:07.856Z
+
+
+### Can reproduce.
+CR, At the first try (after forming the giant log), the share button stopped to respond, pressed the back button, Discord and phone froze, Discord Alpha 6.4.3, Asus Zenfone 3, Android 7.0
+
+joaoh1#0123 - Bug Bot on 2018-03-30T01:53:33.577Z
+
+
+### Hitting share debug then cancelling the share will result in duplicates in the debug
+
+Xander#0259 - Bug Bot on 2018-03-30T02:04:38.145Z
+
+
+### Hitting share debug then cancelling the share will result in duplicates in the debug, exiting the log removes the duplicates
+
+Xander#0259 - Bug Bot on 2018-03-30T02:30:29.155Z
+
+
+### Can reproduce.
+Cherry Mobile Spin Max 6.0.1 - Crashed on the first try. It redirected me back to my user settings before discord loads.
+
+BakugouDeku#2560 - Bug Bot on 2018-03-30T05:26:32.786Z
+
+
+### Verified.  - Clayton on 2018-03-31T00:11:10.028Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-31T00:11:14.327Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:31.086Z
+
+
+### Can reproduce.
+Was fixed besides @andygarron1 with lowering the logged amount in the debug, is now back in 8.3.4g -- Samsung Galaxy S6, Android 7.0, Discord Alpha
+
+Law of Royale#6825 - Bug Bot on 2019-01-24T01:01:10.605Z
+
+
+### Unarchived by Bug Bot on 2019-01-24T01:30:04.812Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 8.1 (Oreo) • Discord Alpha 8.4.4G (844)
+
+FoxyKero#1029 - Bug Bot on 2019-02-11T15:44:11.257Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:11.614Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

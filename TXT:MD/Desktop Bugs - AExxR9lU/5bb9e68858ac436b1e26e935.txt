@@ -1,0 +1,66 @@
+[Archived] Joining a Spotify listening party through a party invite from a listener shows that listener as the host, and breaks your listening party when the user leaves (Requires Spotify Premium) (https://trello.com/c/4kbQg0GA)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-07T10:57:12.148Z
+Latest Update: 2019-01-11T00:00:57.069Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Have two or more people in a Spotify listening party 
+- Have someone other than the host send an invite to the party 
+- Join the listening party via that invite 
+- During a song, have the user who made the invite leave the party 
+- Wait for the song to end and watch the listening party status and your Spotify status
+
+####Expected result:
+Either the correct host is shown and your status updates when the song ends, or you leave the party when the user that created the invite leaves
+####Actual result:
+When the song ends, you remain in the listening party, but your status is stuck at the end of that song
+####Client settings:
+Canary Build 24461
+####System settings:
+Windows 10 Home x64 1803
+
+19999
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-07T10:57:12.148Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 25623
+
+» a r i a#1593 - Bug Bot on 2018-10-07T10:57:19.595Z
+
+
+### Can reproduce.
+Canary 25648 - Windows 10, 1083
+
+Logiz#0001 - Bug Bot on 2018-10-07T10:57:24.488Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary 25648
+
+Olcay#8683 - Bug Bot on 2018-10-07T10:57:29.489Z
+
+
+### verified, macos 10.12.6, canary 25683 - Clayton on 2018-10-09T00:34:09.243Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-09T00:34:19.832Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:57.072Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

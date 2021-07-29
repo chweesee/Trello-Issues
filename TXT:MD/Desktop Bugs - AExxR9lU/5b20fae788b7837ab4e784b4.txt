@@ -1,0 +1,70 @@
+[Archived] Crash when changing afk channel if you were kicked/banned (https://trello.com/c/koiWOJvC)
+
+None
+
+Created: 2018-06-13T11:07:19.548Z
+Latest Update: 2019-11-28T02:53:53.217Z
+
+Reported by Rauf#9245
+
+####Steps to reproduce:
+- Have permission to change server settings 
+- open server settings 
+- have someone kick/ban you from the server 
+- change afk channel
+
+####Expected result:
+no crash. should tell you error and kick you out of server settings since you arent in the server anymore
+####Actual result:
+crash
+####Client settings:
+16868
+####System settings:
+Windows 10 Home x64 v1803
+
+14113
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-13T11:07:19.548Z
+
+
+### Rauf#9245 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b20fae788b7837ab4e784b4/b8ffe96ef7e63aeba3b007c175e00cea/hEO3A.gif added by Bug Bot on 2018-06-13T11:07:22.648Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Pro x64 v1803, Discord Canary (Build 16868)
+
+Doges#0001 - Bug Bot on 2018-06-13T11:07:26.961Z
+
+
+### Can reproduce.
+Ubuntu 18.04 XFCE4 Canary, Build Number: 16868, Version Hash: 8f88a8462186c8db01d2a312ebe743de15b2e5ad
+
+digmorepaka#9032 - Bug Bot on 2018-06-13T11:07:31.939Z
+
+
+### Can reproduce.
+Release Channel: canary, Build Number: 16868, Version Hash: 63554ab99dba1f15e5254b147c4fde54adff3d26 ; Windows 10 Home (x64), Version 1803, OS Build 17134.81
+
+Renerrix#9999 - Bug Bot on 2018-06-13T11:07:36.954Z
+
+
+### Verified. Low priority as the chances of hitting this are next to none. - Jared on 2018-06-14T21:16:57.424Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-14T21:17:11.145Z
+
+
+### Extension of https://trello.com/c/5MaxNVjn/757-server-modals-do-not-automatically-close-after-server-removal - Jared on 2018-07-05T19:14:46.958Z
+
+
+### Archived by Jared on 2018-07-05T19:14:48.167Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

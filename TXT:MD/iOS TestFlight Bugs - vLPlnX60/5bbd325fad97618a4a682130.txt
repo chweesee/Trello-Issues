@@ -1,0 +1,62 @@
+[Archived] Putting Discord in the background for a few minutes while new messages are sent, then coming back and typing, will remove some of the text you’ve typed (https://trello.com/c/J0BOUCFe)
+
+P3 - Will be fixed eventually
+
+Created: 2018-10-09T22:57:35.942Z
+Latest Update: 2019-01-31T19:59:37.550Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Open Discord and go to a channel where people are actively sending messages 
+- Put Discord in the background for around 2-3 minutes, and open an app you had open in the background 
+- After the 2-3 minutes have passed, go back to Discord, making sure the app hasn't refreshed from being in the background for too long 
+- Start typing right as you get back to the app, and continue typing up through when Discord loads the messages received while in the background 
+- Observe the text you're typing as the messages load in, but make sure to continue typing, even as the messages are being loaded in
+
+####Expected result:
+Nothing happens to the text
+####Actual result:
+Some of the text you type gets deleted from your message box
+####Client settings:
+TestFlight 2.3.9 (8116)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta 2
+
+20872
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-09T22:57:35.942Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 DB2, TestFlight 2.3.9 (8116)
+
+THIS SIDE // 45 RPM#7076 - Bug Bot on 2018-10-09T22:57:43.257Z
+
+
+### Can reproduce.
+iPhone 6 Plus, iOS 12.1, 2.3.9 (8116)
+
+Scottmg#2966 - Bug Bot on 2018-10-09T22:57:48.197Z
+
+
+### Can reproduce.
+CR - iPhone 8 64GB - iOS 12.0 Public Beta 3 (16A5327f) - Discord TestFlight 2.3.9(8116)
+
+0_3#5964 - Bug Bot on 2018-10-09T22:57:53.208Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-19T19:00:02.233Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:37.565Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

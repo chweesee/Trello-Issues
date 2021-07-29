@@ -1,0 +1,60 @@
+[Archived] Android: Ghost users are appearing in voice channels but disappear when you join the channel. (https://trello.com/c/R0zT4nug)
+
+None
+
+Created: 2016-12-09T19:48:42.021Z
+Latest Update: 2017-09-29T18:01:38.611Z
+
+Original Report:
+
+"When on the android app I can see that people are in the call but when I join the call they aren't there and it even says they are offline"
+
+-Happens on both the stable and beta versions.
+-Users are not online when this happens.
+
+Currently, there is no additional information available.
+
+Card Log
+========
+### Added by Jared on 2016-12-09T19:48:42.021Z
+
+
+### Ghost users appearing in voice channels [#bug-bounties] 
+Steps to Reproduce: - Step 1: Join with account X - Step 2: Connect with both accounts - Step 3: Connect with Account X on a different device (Phone) - Step 4: Join with Account Y
+Expected Result: X should be kicked and everyone should see that
+Actual Result: X gets a logged out message but still appears until Y joins
+
+[LW001#8654] - Jared on 2016-12-09T20:29:04.913Z
+
+
+### Cannot reproduce Derumisis's steps
+
+🎁 FireController1847#9085 - Jared on 2016-12-09T20:47:35.905Z
+
+
+### Ghost users appearing in voice channels [#bug-bounties]
+Steps to Reproduce:
+
+ - Step 1: Join with account X 
+- Step 2: Connect with both accounts 
+- Step 3: Connect with Account X on a different device (Phone) 
+- Step 4: Join with Account Y
+
+Expected Result: X should be kicked and everyone should see that
+Actual Result: X gets a logged out message but still appears until Y joins
+
+[LW001#8654] - Cole Norman on 2016-12-10T10:02:30.053Z
+
+
+### Bounty Claimed in https://trello.com/c/hIaQxGUM with correct repro steps. - Mike Nisbet on 2017-09-29T18:01:36.988Z
+
+
+### Archived by Mike Nisbet on 2017-09-29T18:01:38.613Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

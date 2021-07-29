@@ -1,0 +1,81 @@
+[Archived] Lock doesn't show up on text channels when denying "Read Text Channels & See Voice Channels" permission for the `@everyone` role (https://trello.com/c/X09XSnZG)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-03T18:51:04.434Z
+Latest Update: 2018-10-22T20:26:58.431Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Be in a server where at least one channel is public 
+- Go to Server Settings > Roles 
+- Turn off "Read Text Channels & See Voice Channels" for the `@everyone` role 
+- Ensure you have permission still to view the channel 
+- Look at the channel's icon
+
+####Expected result:
+A lock icon appears next to the channel as it's no longer a public channel
+####Actual result:
+No lock icon appears
+####Client settings:
+Canary 23031
+####System settings:
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.6
+
+18913
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-03T18:51:04.434Z
+
+
+### mrkirby153#7840 - https://youtu.be/k_f6dCV-WZ8 added by Bug Bot on 2018-09-03T18:51:06.828Z
+
+
+### Can reproduce.
+CR. Desktop Canary 23012 iMac macOS High Sierra 10.13.6
+
+George#0069 - Bug Bot on 2018-09-03T18:51:11.715Z
+
+
+### Can reproduce.
+Can Reproduce this on iOS as well. iPhone 6, iOS 12 (dev beta 12) - Stable 2.3.7
+
+Xylium#1480 - Bug Bot on 2018-09-03T18:51:16.727Z
+
+
+### Can reproduce.
+CR on Windows 10 Home; Canary Build 23013
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-09-03T18:51:21.769Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 23013
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-03T18:57:36.097Z
+
+
+### Can reproduce.
+Microsoft Surface 2 Windows 8.1 RT with Nvidia Tegra 4 processor 32 bit ARM
+
+Kaden303#4560 - Bug Bot on 2018-09-04T00:27:16.912Z
+
+
+### verified, macos 10.12.6, 23018 - Clayton on 2018-09-04T20:23:48.269Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-04T20:23:58.432Z
+
+
+### Archived by Clayton on 2018-10-22T20:26:58.436Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

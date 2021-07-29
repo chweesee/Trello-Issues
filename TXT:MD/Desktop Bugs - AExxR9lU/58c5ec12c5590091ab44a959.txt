@@ -1,0 +1,93 @@
+Clicking on a deleted text channel that was linked via a post sends the client into confusion (https://trello.com/c/syEfhF3X)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-03-13T00:47:14.444Z
+Latest Update: 2019-09-23T22:30:07.910Z
+
+Reported by Dru#6043
+
+####Steps to reproduce: 
+- Open a server and post a link to another channel 
+- Delete said other channel 
+- Return to post and attempt to visit now nonexistent channel 
+- Listen to https://www.youtube.com/watch?v=PGNiXGX2nLU as the client sits forever trying to load channel. 
+
+####Expected result:
+ It just doesn't link, or changes the hyperlink to #deleted-channel like it normally would 
+####Actual result:
+ Client has fun trying to figure out exactly what happened 
+####System settings:
+ Windows 8.1 PRO, Latest Canary
+
+1962
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-13T00:47:14.444Z
+
+
+### Can reproduce.
+Win10 x64 Canary 0.0.153
+
+Mikesky#3456 - Bug Bot on 2017-03-13T00:47:15.324Z
+
+
+### Can reproduce.
+macOS CAnary
+
+Harrison#9100 - Bug Bot on 2017-03-13T00:47:17.327Z
+
+
+### Can reproduce.
+arch linux 0.15
+
+Alex from Alaska#8575 - Bug Bot on 2017-03-13T00:47:19.266Z
+
+
+### 3f3da652.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58c5ec12c5590091ab44a959/f8a2e07c707d74870337920b34344120/3f3da652.gif added by Bug Bot on 2017-03-13T00:47:30.651Z
+
+
+### Verified. - Jared on 2017-03-14T23:30:51.830Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-03-14T23:30:57.184Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T07:04:40.119Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-16T19:17:54.110Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T20:26:58.442Z
+
+
+### Can reproduce - Jared on 2017-10-16T22:48:06.978Z
+
+
+### Low P2 - Jared on 2017-10-17T07:14:52.562Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 Home x64 v1709
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T15:53:51.158Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

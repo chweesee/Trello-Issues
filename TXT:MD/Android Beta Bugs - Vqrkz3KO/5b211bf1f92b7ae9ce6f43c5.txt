@@ -1,0 +1,77 @@
+[Archived] When the app loads user's nicknames from mutual servers in the Quick Switcher, the channel suggestions get abruptly reordered (https://trello.com/c/NvS8miYq)
+
+None
+
+Created: 2018-06-13T13:28:17.333Z
+Latest Update: 2018-08-31T00:11:59.411Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- First, fill out the suggestions of the Quick Switcher by switching channels and some DMs to users that have nicknames in mutual servers 
+- Minimize the app using Home button, then reopen. This is to trigger the caching process, so now the client will remember the suggestions of the Quick Switcher next time you force-close the app 
+- Force-close the app 
+- Reopen it, and while the app is loading, open Quick Switcher 
+- Wait for the user's nicknames from mutual servers to load
+
+####Expected result:
+The nicknames should just appear below the concerned user's name and that's it
+####Actual result:
+It does show the nicknames as intended, but then the suggestions list gets reordered for no reason
+####Client settings:
+Discord Alpha 6.8.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14112
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-13T13:28:17.333Z
+
+
+### Can reproduce.
+CR on Huawei CANL-11, EMUI 5.0.1, Android 7.0, Discord Beta 6.8.9
+
+HasanBrandsXD#4120 - Bug Bot on 2018-06-13T13:28:24.713Z
+
+
+### Can reproduce.
+Can Reproduce -- Xioami Mi A1, Android 8.0.0 -- Discord Alpha 6.8.9
+
+Ori#1908 - Bug Bot on 2018-06-13T13:28:29.737Z
+
+
+### Can reproduce.
+Can reproduce. Alcatel 3C, 7.0.0 Discord Alpha 6.8.9
+
+StefanFX#2952 - Bug Bot on 2018-06-13T13:28:34.693Z
+
+
+### Can't reproduce.
+[cnr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.8.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-14T03:23:24.866Z
+
+
+### CNR, samsung s6 edge, android 7.0, alpha 6.9.5 - Clayton on 2018-06-18T20:40:01.051Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-06-18T20:40:07.523Z
+
+
+### Can repro but this behavior is intentional. It gets reordered by UserId - Jared on 2018-07-11T22:13:47.054Z
+
+
+### Moved from Cannot Reproduce to Won't Fix by Jared on 2018-07-11T22:13:55.564Z
+
+
+### Archived by Clayton on 2018-08-31T00:11:59.414Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

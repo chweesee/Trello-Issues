@@ -1,0 +1,67 @@
+[Archived] When reordering whole categories, your channel list will scroll down by a random amount (https://trello.com/c/mAEFZxTi)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-07T14:55:38.067Z
+Latest Update: 2018-10-07T20:00:03.518Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have a server with a lot of channels and categories 
+- Make sure you are scrolled all the way up in channel list 
+- Go to Server Settings > Channels 
+- Select Category Sort mode 
+- Move a bottom category to the very top 
+- Close Settings, open your channel drawer and observe
+
+####Expected result:
+You should stay scrolled at the top
+####Actual result:
+You scroll down by a random amount
+####Client settings:
+Discord Alpha 7.4.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+19159
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-07T14:55:38.067Z
+
+
+### Can reproduce.
+Can Reproduce. Lenovo vibe K5+, 5.1.1 | Discord Alpha 747 . Actually, the position isn't random. It remembers your position you were in the channel list before sorting it. For example: If your top category was X and you brought the bottom category to the top, you're at the place where X is.
+
+The Lunala#7777 - Bug Bot on 2018-09-07T14:55:45.409Z
+
+
+### Can reproduce.
+CR, Oneplus 3, 8.1.0, Alpha 7.4.7
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-07T14:55:50.670Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 7.0 • Discord Alpha 7.4.7 (747)
+
+FoxyKero#9941 - Bug Bot on 2018-09-07T14:55:55.334Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.4.7 - Clayton on 2018-09-07T19:49:44.280Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-07T19:49:50.741Z
+
+
+### Archived by Clayton on 2018-10-07T20:00:03.520Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

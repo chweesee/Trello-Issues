@@ -1,0 +1,65 @@
+[Archived] The Discord overlay will "fight" with other overlay software, causing certain game features/utilites to stop working (https://trello.com/c/uCVrYPXw)
+
+None
+
+Created: 2017-12-21T23:30:05.755Z
+Latest Update: 2019-04-28T18:38:11.307Z
+
+Reported by Lemon#6947
+
+####Steps to reproduce:
+- With MSI Afterburner or Steam installed, check if you can open the Steam Overlay or see the In Game Rivatuner info 
+- Try to open the Discord Overlay
+
+####Expected result:
+Overlay showing without messing with the game/Rivatunner Info
+####Actual result:
+Is impredecible, but Discord Overlay not Showing and Steam/Rivatunner working and viceversa are the most common ones. Also both can stop working.
+####Client settings:
+Canary 0.0.189, en-EN (Tested Games are Saints Row 3 and 4 )
+####System settings:
+Windows 10 x64 version 1709 build 16299.125 / Steam version 1513371133 / Rivatuner 7.0.
+
+7206
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-21T23:30:05.755Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 Version 1709 (OS Build 16299.125), Discord Canary 0.0.191 (Build 8941), Alternative keybind didn't fix, Non-Steam games works,Steam Overlay is most likely the issue, EDIT: Works in some games using Steam overlay (CS:GO works)
+
+HeroGamers#4574 - Bug Bot on 2017-12-21T23:30:13.326Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Version 1709 with Discord Canary 0.0.191 (Build 8964). I tried on Surgery Simulation 2013 (could reproduce at first, and then couldn't afterwards) and Garry's Mod (could reproduce.)
+
+💜Christmas Kitty💗#4567 - Bug Bot on 2017-12-21T23:30:18.139Z
+
+
+### Can reproduce.
+CR: Windows 10 Developer's Edition; Fall Creators Update. Canary 0.0.192, tried it in X-Plane 11.
+
+Sam#8380 - Bug Bot on 2017-12-21T23:30:25.503Z
+
+
+### Running multiple overlays simultaneously is not supported. Its more a limitation of overlays than a bug with Discord. - Jared on 2018-01-02T19:05:56.211Z
+
+
+### Archived due to being inactive for a month without any further activity and is marked as Won't fix. - Tarek on 2018-02-22T20:01:26.352Z
+
+
+### Archived by Tarek on 2018-02-22T20:01:28.966Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-04-28T18:38:11.192Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

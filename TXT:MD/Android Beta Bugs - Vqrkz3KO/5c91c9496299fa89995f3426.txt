@@ -1,0 +1,103 @@
+[Archived] In the last text field (zip code text field) of the edit payment method page of a credit card, the the modified enter button on your virtual keyboard (which takes you to the next text field), doesn't change to checkmark which causes the text field to get unfocused when clicked. (https://trello.com/c/y9gZPnJm)
+
+None
+
+Created: 2019-03-20T05:02:01.874Z
+Latest Update: 2019-06-05T23:47:04.976Z
+
+Reported by The Lunala#6877
+
+####Steps to reproduce:
+- Have a Credit card as a payment option. 
+- Go to Settings>Billing>Edit credit card. 
+- Click on the zip code text field. 
+- Click on the modified enter button on your virtual keyboard.
+
+####Expected result:
+The button changes to a checkmark like in edit account page.
+####Actual result:
+The button remains the thing that takes you to the next text field which when clicked keeps the keyboard open with no text field focused.
+####Client settings:
+Discord Alpha 861
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+31331
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-20T05:02:01.874Z
+
+
+### Can reproduce.
+CR. Tested personally on my irl friend's account. Intex Aqua N7, Android 5 App Information 8.6.1
+
+Stardust#2476 - Bug Bot on 2019-03-20T05:02:09.937Z
+
+
+### Can reproduce.
+The keyboard remains up because the text field just switches back to the name field. However I believe the enter button should indeed be the checkmark. | Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.6.1
+
+Clay#0001 - Bug Bot on 2019-03-20T05:02:14.254Z
+
+
+### Can reproduce.
+CR on Honor 6x 7.0 [EMUI 5.0.2] ,alpha 860
+
+fizy#9347 - Bug Bot on 2019-03-20T05:02:19.280Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.6.1
+
+Skyla#0002 - Bug Bot on 2019-03-20T11:01:20.689Z
+
+
+### Can reproduce.
+CR. Also happens with Paypal option ('Next' button becomes 'enter' button with no visible text field focuses). Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0.1, Discord Alpha 8.6.1
+
+Frances Picard#6209 - Bug Bot on 2019-03-20T11:04:48.494Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.6.1
+
+Lily#2624 - Bug Bot on 2019-03-20T14:44:44.668Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H (MIUI 10.1 Stable), Discord Alpha 8.6.1
+
+Defracted#7777 - Bug Bot on 2019-03-20T15:19:18.686Z
+
+
+### Moved from User Reported Bugs to Nitro Purchase Bugs by Jeff Cailteux on 2019-03-20T15:46:25.264Z
+
+
+### Can reproduce.
+Android 7.0 U16 Max Discord Alpha 8.6.1
+
+Delite#0001 - Bug Bot on 2019-03-20T17:36:28.003Z
+
+
+### Ene#0808 - undefined added by Bug Bot on 2019-03-22T04:45:40.382Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 8.6.1
+
+Quad#1887 - Bug Bot on 2019-03-25T05:10:50.789Z
+
+
+### Moved from Nitro Purchase Bugs to Claimed Fixed, needs Verification by Sam Shih on 2019-03-27T00:27:40.701Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:04.986Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

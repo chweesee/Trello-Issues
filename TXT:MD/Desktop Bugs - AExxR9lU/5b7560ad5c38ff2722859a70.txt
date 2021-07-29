@@ -1,0 +1,83 @@
+[Archived] Help modal's text field only focuses the first time you open the modal (https://trello.com/c/gWXNMtmt)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-16T11:31:57.439Z
+Latest Update: 2018-10-22T20:24:20.588Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Refresh your client 
+- Open the Help modal and observe how the text field focuses 
+- Close the modal 
+- Re-open it again and observe how the text field no longer goes into focus
+
+####Expected result:
+The text field should go into focus every time the modal is opened, as it does with other modals
+####Actual result:
+The text field stops going into focus after having opened it once before
+####Client settings:
+Discord Canary 0.0.211, Build 22011
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+17646
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-16T11:31:57.439Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 21980
+
+Rauf#9245 - Bug Bot on 2018-08-16T11:32:04.715Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Version 10.0.17134), Discord Canary (Build 22011)
+
+korg m1 piano16 preset#8647 - Bug Bot on 2018-08-16T11:32:09.830Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 Canary 22011
+
+Delite#0001 - Bug Bot on 2018-08-16T11:32:14.741Z
+
+
+### Can't reproduce.
+Cannot Reproduce - MacBook Pro (13"), macOS 10.13.6 - Canary 22011
+
+Mippy#0001 - Bug Bot on 2018-08-16T12:36:39.543Z
+
+
+### Can reproduce.
+Canary 22011 on Arch Linux (kernel: Linux version 4.18.0-arch1-1-ARCH) (64-bit).
+
+Midona#0158 - Bug Bot on 2018-08-16T15:39:50.759Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 22036
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-16T20:23:49.441Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T21:37:53.310Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T21:38:01.404Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:20.590Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

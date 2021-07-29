@@ -1,0 +1,86 @@
+[Archived] Different behavior while giving roles in desktop and Android versions (https://trello.com/c/OOZiLRko)
+
+P2 - Can wait a while
+
+Created: 2017-08-09T08:20:16.583Z
+Latest Update: 2019-03-02T12:57:51.562Z
+
+Reported by Wyderar#0882
+
+####Steps to reproduce:Be a role with role giving ability (Role 2) 
+- Have a role higher than you (Role 1) and lower than you (Role 3) 
+- Try to give role 3 to someone with role 1
+
+####Expected result:
+You can add role 3 to person with role higher that you have
+####Actual result:
+Desktop version - all ok. Android version - you cannot modify users with roles higher than your role
+####Client settings:
+Discord Alpha 4.0.4(404), Discord Desktop Canary 0.0.163
+####System settings:
+Meizu M3s 5.1 Flyme 6.7.7.11 beta, Windows 10 x64 Ent LTSB
+
+2968
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-09T08:20:16.583Z
+
+
+### Can reproduce.
+Motorola 3rd gen. Android 6.0. Discord Alpha 4.0.4
+
+Verdant#9104 - Bug Bot on 2017-08-09T08:20:23.960Z
+
+
+### Can reproduce.
+4.0.3 (403) - OnePlus 3T - Android 7.1.2 (LineageOS)
+
+jasch#4447 - Bug Bot on 2017-08-09T08:20:28.952Z
+
+
+### Can reproduce.
+I can manage roles of a person above me on the role list on desktop, but it stops me from even accessing user management for that user on mobile. [Canary 0.0.163, Android Alpha 4.0.4 (404)]
+
+fuj1n 🔫#7255 - Bug Bot on 2017-08-09T08:20:33.959Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 (2016) SM-J510FN, Android 6.0.1 Marshmallow Discord Alpha 4.0.4 (404)
+
+WolfGang1710#6782 - Bug Bot on 2017-08-09T08:21:32.741Z
+
+
+### Can reproduce.
+GT-19195 Android 4.4.2, Discord 4.0.4. (404)
+
+Souji#4629 - Bug Bot on 2017-08-09T08:26:30.532Z
+
+
+### Verified.  - Clayton on 2017-08-09T23:13:37.992Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T23:13:42.371Z
+
+
+### Can reproduce.
+Discord 4.0.2 (401), Ticket #1234516
+
+Penguin#0001 - Bug Bot on 2017-08-16T23:10:18.611Z
+
+
+### Dupe of https://trello.com/c/5vYAWfve/652-managing-roles-of-members-whose-highest-role-is-same-as-yours-is-not-permitted-in-android-stable-alpha-but-possible-in-desktop - Tarek on 2018-01-13T00:55:45.250Z
+
+
+### Dupe below! - Clayton on 2018-01-24T00:20:37.532Z
+
+
+### Archived by Clayton on 2018-01-24T00:20:40.099Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,87 @@
+[Archived] Android Alpha 3.1.9 Code tags in message prevent links from being tappable (https://trello.com/c/blHvplRG)
+
+P2 - Can wait a while
+
+Created: 2016-12-03T20:50:24.856Z
+Latest Update: 2017-10-02T16:49:20.817Z
+
+Reported by Lord Ptolemy#0768
+
+####Steps to reproduce: 
+- Send a message with a simple code tag (backtick) or code block (triple backtick) and a link outside of the code region. 
+
+####Expected result:
+ The link would be tappable 
+####Actual result:
+ Can't tap the link
+
+Card Log
+========
+### Added by Jared on 2016-12-03T20:50:24.856Z
+
+
+### Credits to Pyker#4853
+
+FireController1847#9085 - Jared on 2016-12-03T20:50:54.152Z
+
+
+### Lord Ptolemy#0768 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58433010d59e939585ab2435/95d198386d13072d0c5fa12a80fcbaea/WE5HuuY.png added by Jared on 2016-12-03T20:52:16.724Z
+
+
+### Can reproduce.
+Android 5.0, Samsung Galazy S5
+
+FireController1847#9085 - Jared on 2016-12-03T20:53:23.329Z
+
+
+### Can reproduce.
+Android 4.2.2, Samsung Galaxy Core Plus
+
+Pyker#4853 - Jared on 2016-12-03T20:54:06.368Z
+
+
+### Can reproduce.
+Android 6.0.1, Samsung Galaxy S5
+
+xutesan#1952 - Jared on 2016-12-03T20:55:37.449Z
+
+
+### Can reproduce.
+Lollipop 5.1.1 / Marshmallow 6.0.1
+
+Robin#0052 - Jared on 2016-12-04T00:45:10.835Z
+
+
+### Verified. - Jared on 2016-12-07T19:01:07.988Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-07T19:01:11.297Z
+
+
+### Tested in 3.7.1:
+
+Links show up normally behind code tags and code blocks as far as I can see. Can no longer reproduce.
+
+This fix may be related to v3.3.1 (28 January):
+
+`[F] Code block rendering oddities (keep your eyes peeled for stragglers)` - Alexander (DJScias) on 2017-04-24T19:46:27.214Z
+
+
+### Verified Fixed. - Jared on 2017-07-31T18:05:38.428Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2017-07-31T18:05:42.093Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:49:20.126Z
+
+
+### Archived by Jared on 2017-10-02T16:49:20.820Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

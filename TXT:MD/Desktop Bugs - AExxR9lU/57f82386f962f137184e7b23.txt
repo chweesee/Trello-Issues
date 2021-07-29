@@ -1,0 +1,149 @@
+[Archived] Discord sometimes jumps significantly back in message history even if your last position is at the most recent message. (https://trello.com/c/lfWKywJk)
+
+P2: Fix can wait a while
+
+Created: 2016-10-07T22:36:54.793Z
+Latest Update: 2018-02-22T19:47:36.982Z
+
+Short Description:  Discord sometimes jumps significantly back in message history even if your last position is at the most recent message.
+Steps to Reproduce:
+
+1) Scroll a channel to the most recently left message
+2) Idle for a while or click to other servers
+3) Come back to the channel a little later.
+Expected Result: Should always go back to position where you left it
+Actual Result: Jumps significantly far back in message history, forcing rescrolling.
+
+Settings: W10 x64 on Discord Canary(edited)
+
+Ammendment : This issue is caused by a user deleting a message you have not read yet.
+
+Card Log
+========
+### Added by Jared on 2016-10-07T22:36:54.793Z
+
+
+### Cannot reproduce - Jared on 2016-10-24T22:39:17.098Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-10-24T22:39:19.358Z
+
+
+### Can reproduce.
+Windows10 canary latest
+
+lahrsean#9501 - Jared on 2016-10-26T00:08:42.554Z
+
+
+### Can reproduce.
+Can repro, happens at toally random intervals. Windows 10 Anniversary Update x64
+
+A Generic Gamer#4775 - Jared on 2016-10-26T08:40:34.233Z
+
+
+### Can reproduce.
+Windows 8.1 x64 Happens when someone deletes a message in a channel you have not read yet.
+
+星空 凛 ★★★★#9667 - Jared on 2016-11-02T21:13:39.864Z
+
+
+### Here's what I did:
+
+1)  Sign in with Users A and B.
+2)  User A creates a server, fills it with multiple pages of spam.
+3)  User B joins A's server, scrolls to the bottom.
+4)  Unread messages notificator disappears.
+5)  B switches active servers.
+6)  A posts a new message.
+7)  Unread notificator appears for B again.
+8)  A deletes a bunch of messages from earlier.
+9) B goes into the relevant channel.
+
+Result: The chat remains scrolled to the bottom of the screen, unread chat notificator disappears.
+
+Still cannot reproduce. - Jared on 2016-11-04T18:34:07.516Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2016-11-04T19:50:44.713Z
+
+
+### Credit goes to Kwando, Liara and Cole. And Dinos. - Jared on 2016-11-04T19:52:23.164Z
+
+
+### Can reproduce.
+Win 10 Anniversary, Canary (Also keeps mention number on the server icon as well)
+
+Rocks the Squirrel#2134 - Jared on 2016-11-04T20:06:01.374Z
+
+
+### Can reproduce.
+Only happens when everything else in the server has been read, except for the deleted message and the new message. (credit goes to <@114189842513920002> finding that)
+
+Liara#0478 - Jared on 2016-11-04T20:27:27.329Z
+
+
+### Can reproduce.
+Win 10 Anniversary, Canary
+
+𝅳𝅳#5756 - Jared on 2016-11-04T21:27:34.189Z
+
+
+### Personally, I hate this bug and want it fixed quickly, but it is a P2 bug. - Jared on 2017-01-10T22:11:34.084Z
+
+
+### Can reproduce.
+Latest Canary Build on latest OS X El Capitan, latest iOS build
+
+͏͏͏͏#5956 - Jared on 2017-02-16T17:26:29.919Z
+
+
+### Can reproduce.
+latest Canary macOS 10.12
+
+FlopseyFlow#0179 - Bug Bot on 2017-05-18T20:15:10.301Z
+
+
+### Can reproduce.
+Motorola E3, Android 6.0
+
+sustained#2329 - Bug Bot on 2017-07-18T07:22:12.314Z
+
+
+### Can reproduce.
+Fedora 25, Discord 0.0.21-1.fc25
+
+sustained#2329 - Bug Bot on 2017-07-18T07:22:45.994Z
+
+
+### There is a pin claiming this to be fixed, but this is still happening as of Canary 0.0.163 (Build 4361)
+
+SuperSajuuk#7265 - Bug Bot on 2017-09-17T14:54:50.068Z
+
+
+### Can reproduce.
+Windows 10 x64 on Canary. Only happens when one monitor is scaled 50% or more in difference to another
+
+SexualRhinoceros#9388 - Bug Bot on 2017-10-03T08:29:49.684Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jared on 2017-10-04T20:58:06.030Z
+
+
+### Stan fixed this. Praise the Stan! - Jared on 2018-01-17T00:36:14.986Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:36:19.335Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:47:32.400Z
+
+
+### Archived by Tarek on 2018-02-22T19:47:36.984Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

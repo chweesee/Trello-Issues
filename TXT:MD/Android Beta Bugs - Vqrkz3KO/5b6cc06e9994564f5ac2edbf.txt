@@ -1,0 +1,75 @@
+[Archived] Foreground service for game detection prevents the current channel from being marked as read upon closing/reopening Discord, even after a long time spent on another app (https://trello.com/c/SVsen0Bc)
+
+None
+
+Created: 2018-08-09T22:30:06.458Z
+Latest Update: 2019-01-01T23:23:19.458Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Enable Foregound service for game detection 
+- Find a channel with a few unread messages (less than 50) 
+- Switch to that channel. If you see the New messages separator and the X new messages banner at the top, you're good 
+- Close Discord 
+- Open a game and play it for a while. Actually it can be any app, not related to the game detection feature itself 
+- Reopen Discord
+
+####Expected result:
+It should show only the messages sent after step 4 as unread
+####Actual result:
+The channel is in the same unread state as observed in step 3
+####Client settings:
+Discord Alpha 7.2.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+17200
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-09T22:30:06.458Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.2.8
+
+Danijel#9000 - Bug Bot on 2018-08-09T22:30:13.887Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 7.2.8
+
+Bencey_#8587 - Bug Bot on 2018-08-09T22:30:19.082Z
+
+
+### Can reproduce.
+Can Reproduce, Asus Zenfone 3, Android 7.0, Discord Alpha 7.2.8
+
+Doges#0001 - Bug Bot on 2018-08-09T22:30:23.900Z
+
+
+### Moved from User Reported Bugs to Game Detection Bugs by Clayton on 2018-08-09T23:11:22.513Z
+
+
+### Can reproduce.
+CR, Oneplus 3, 8.1.0, Alpha 7.2.9
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-10T09:19:59.029Z
+
+
+### Moved from Game Detection Bugs to Won't Fix by Jeff Cailteux on 2018-11-08T20:30:07.594Z
+
+
+### Archived due to being inactive in "Won't fix" list for 30+ days - Tarek on 2019-01-01T23:23:18.722Z
+
+
+### Archived by Tarek on 2019-01-01T23:23:19.460Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

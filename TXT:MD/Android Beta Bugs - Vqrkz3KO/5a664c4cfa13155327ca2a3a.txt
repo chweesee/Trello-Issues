@@ -1,0 +1,88 @@
+[Archived] "RTC Connecting..." for a few seconds followed by you getting kicked out and Discord's call notification stuck. (https://trello.com/c/InUyrZEZ)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-01-22T20:40:44.997Z
+Latest Update: 2018-07-06T18:38:07.763Z
+
+Reported by 王劲骢皇帝#1989
+
+####Steps to reproduce:
+- Connect to a network connection that specifically has Discord's VoIP service blocked (for me, a public library) 
+- Join a Voice Channel of your choice (I was using the server location US West) 
+- Wait a few moments, you should get kicked out 
+- Go to your notification bar and voila, you can't get rid of it unless you "Force Stop" Discord. (See:  for Video of It)
+
+####Expected result:
+Discord should've removed the Call notification when the call was forcibly closed.
+####Actual result:
+When Discord abruptly closes the call, you cannot remove the notification.
+####Client settings:
+Android Discord Version 6.0.5
+####System settings:
+ASUS Nexus 7 2013 v6.0.1 ()
+
+8006
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-22T20:40:44.997Z
+
+
+### Ghoul#4567 - https://youtu.be/kRxvlqEbJKo added by Bug Bot on 2018-01-22T20:40:47.598Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.1.0, OnePlus 3T, Oxygen OS 5.0.1, Android 8.0.0
+
+JohnyTheCarrot#0368 - Bug Bot on 2018-01-22T20:40:52.518Z
+
+
+### Can reproduce.
+CR, Lenovo Tab 2 A7-10, Android 5.0, Android Alpha 6.1.0
+
+jul545454#0530 - Bug Bot on 2018-01-22T20:40:57.478Z
+
+
+### Can reproduce.
+CR, ZTE obsidian Android 5.1, Discord alpha 6.1.0
+
+Lunʌrᴮᵒᵗ#5846 - Bug Bot on 2018-01-22T20:41:02.498Z
+
+
+### Cannot reproduce.  - Clayton on 2018-04-11T23:39:48.863Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-04-11T23:39:49.183Z
+
+
+### Still cannot reproduce. The information provided during the CNR event is not helpful in this case as neither the ticket nor the people who said they can reproduce the issue mention anything about a VPN.
+
+And even if they did that would just invalidate the bug, not make it reproducible. - Jared on 2018-04-23T22:01:31.333Z
+
+
+### Can reproduce.
+Galaxy Tab S2, Android Alpha: 6.7.4
+
+BasiliskHill#9535 - Bug Bot on 2018-05-21T05:59:41.492Z
+
+
+### Can reproduce.
+I can get it to work in a school environment where they proxy that type of thing, Galaxy Tab S2, Android Alpha: 6.7.4
+
+BasiliskHill#9535 - Bug Bot on 2018-05-21T06:02:52.299Z
+
+
+### Closing as this bug has been CNR for 30 or more days with no reproductions or new steps. - Jared on 2018-07-06T18:38:06.608Z
+
+
+### Archived by Jared on 2018-07-06T18:38:07.766Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

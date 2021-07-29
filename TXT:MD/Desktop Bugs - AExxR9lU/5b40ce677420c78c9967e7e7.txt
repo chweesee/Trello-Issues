@@ -1,0 +1,73 @@
+[Archived] Discord crash when internet disconnects during update downloading (https://trello.com/c/mLlOu6DF)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-07-07T14:29:59.221Z
+Latest Update: 2018-10-22T20:23:13.130Z
+
+Reported by zabszk#5292
+
+####Steps to reproduce:
+- Just disconnect the internet connection when Discord will be downloading updates during startup
+
+####Expected result:
+Message like "failed to download" should appear (like when there is no internet connection when Discord is starting).
+####Actual result:
+Error box "A JavaScript error occured in the main process" appears and Discord stuck (startup window without prog. bar).
+####Client settings:
+Release Channel: canary, Build Number: 18108, Version Hash: 37823a4013302e76fd7f8f7f59b906bb4ce278bf
+####System settings:
+Windows 10 x64 [Version 10.0.17134.112]
+
+15127
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-07T14:29:59.221Z
+
+
+### zabszk#5292 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b40ce677420c78c9967e7e7/f8c24a8409692fc75acc86b124206ad5/2018-07-04_091749.png added by Bug Bot on 2018-07-07T14:30:02.065Z
+
+
+### zabszk#5292 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b40ce677420c78c9967e7e7/fe12df5c0be1a37554eb76a056f440cb/2018-07-04_091708.png added by Bug Bot on 2018-07-07T14:30:02.156Z
+
+
+### Can reproduce.
+Can reproduce | Lenovo 7373FGM, 1280 x 1024 Display, Microsoft Windows 10 Pro [x64] Version 1803 Build 17134.122, Discord Canary Build 18108 (updating from) => now on Discord Canary Build 18197
+
+Cairo#2098 - Bug Bot on 2018-07-07T14:30:06.901Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 18164-18197
+
+webhp#1337 - Bug Bot on 2018-07-07T14:30:11.945Z
+
+
+### Can reproduce.
+Windows 10 X64 - Discord Canary, 18317
+
+Scottmg#2966 - Bug Bot on 2018-07-07T14:30:16.910Z
+
+
+### verified, win 10, canary 18491 - Clayton on 2018-07-11T00:42:56.484Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-11T00:43:07.632Z
+
+
+### Seems to be a dupe or extension of: https://trello.com/c/tJGhJozq/
+
+Rage#9991 - Bug Bot on 2018-07-15T10:02:02.607Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:13.133Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

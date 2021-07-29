@@ -1,0 +1,87 @@
+Adding a tester to an application doesn't put keyboard focus back on the input (https://trello.com/c/FECKTZXl)
+
+None
+
+Created: 2018-12-30T06:40:07.652Z
+Latest Update: 2019-04-25T22:03:49.975Z
+
+Reported by ginkoid#8888
+
+####Steps to reproduce:
+- Go to the developer portal 
+- Create an application, or go to an existing one 
+- Go to the "App Whitelist" panel 
+- Enter a non-existent username, and press the enter key 
+- The keyboard focus is now not on the username field 
+- This problem also occurs if the username does exist, but this isn't as much of an issue
+
+####Expected result:
+The keyboard focus should be back on the username field
+####Actual result:
+The keyboard focus is not on anything
+####Client settings:
+The developer portal doesn't have a version in the console.... so, just canary the developer portal on 2018-12-29
+####System settings:
+Windows Home 1809, Discord Canary 30302
+
+25325
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-30T06:40:07.652Z
+
+
+### Can reproduce.
+CR; Windows 10 Home x64, Chrome Version 73.0.3655.0 (Official Build) canary (64-bit)
+
+Talon#8727 - Bug Bot on 2018-12-30T06:40:14.977Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 | Chrome 71.0.3578.98
+
+charleskimbac#6492 - Bug Bot on 2018-12-30T06:40:19.946Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Google Chrome 71.0.3578.98
+
+Daffyduck#5364 - Bug Bot on 2018-12-30T06:40:24.953Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,Chrome Version 71.0.3578.98 (Official Build) (64-bit)
+
+Octillion#6666 - Bug Bot on 2018-12-30T14:23:16.807Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Chrome 71.0.3578.98
+
+HarpMiner#2734 - Bug Bot on 2018-12-30T17:07:02.282Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 30302
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-12-30T18:38:05.258Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Pro, Discord Canary 30302
+
+1Storm#0001 - Bug Bot on 2018-12-31T03:56:31.664Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Chrome 71.0.3578.98
+
+Neiron#8475 - Bug Bot on 2018-12-31T09:14:25.466Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

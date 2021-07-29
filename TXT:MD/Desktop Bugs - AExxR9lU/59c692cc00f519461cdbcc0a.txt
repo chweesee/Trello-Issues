@@ -1,0 +1,97 @@
+[Archived] Lock icon on voice channels missing when denying `View channel` permission for `@everyone` (https://trello.com/c/PoqOgM9J)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-23T16:58:52.191Z
+Latest Update: 2017-12-02T17:18:24.770Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create or have a voice channel 
+- Deny the permission to view the channel for the `@​everyone` role 
+- Make sure you are using the `View channel` and not the `Connect` permission 
+- Observe the channel icon
+
+####Expected result:
+The voice channel should have a lock icon because the `@everyone` role can't view it and you need certain roles/permission to view
+####Actual result:
+Nothing is shown, it looks like a normal voice channel.
+####Client settings:
+Discord Canary, 0.0.154
+####System settings:
+MacBook Pro 13" (2016), macOS Sierra 10.12.6
+
+4758
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-23T16:58:52.191Z
+
+
+### Can reproduce.
+Discord Canary: Build 4743, Windows 10 64 bit (Laptop)
+
+!  Ender 🏹#3042 - Bug Bot on 2017-09-23T16:58:59.536Z
+
+
+### Can reproduce.
+CR Discord Canary 4782, Ubuntu 16.04 x64 bits
+
+Alex1304#9704 - Bug Bot on 2017-09-23T16:59:04.540Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163
+
+AviationMaster#4793 - Bug Bot on 2017-09-23T16:59:09.542Z
+
+
+### Can reproduce.
+Discord Canary, Windows 10 Family
+
+iAmaury#9979 - Bug Bot on 2017-09-23T19:19:50.864Z
+
+
+### Verified.  - Clayton on 2017-09-27T22:26:45.361Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-27T22:26:49.899Z
+
+
+### Can't repro - b1naryth1ef on 2017-10-02T20:39:43.009Z
+
+
+### Can still reproduce as of build 5141 - Mike Nisbet on 2017-10-02T21:17:14.157Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by b1naryth1ef on 2017-10-02T21:31:58.924Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by b1naryth1ef on 2017-10-05T18:40:19.425Z
+
+
+### I am no longer able to reproduce, the channel has a lock icon. 
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5438
+ - Alexandru Todea on 2017-10-06T12:05:25.524Z
+
+
+### Verified Fixed - Jared on 2017-10-17T23:14:57.111Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-10-17T23:15:01.703Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:18:23.679Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:18:24.772Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

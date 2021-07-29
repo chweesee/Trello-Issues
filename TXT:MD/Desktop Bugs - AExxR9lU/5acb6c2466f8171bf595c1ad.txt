@@ -1,0 +1,72 @@
+[Archived] You doesn't appear on filter by user server logs menu while you're the only user on it (https://trello.com/c/PZFPcmv9)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-09T13:35:32.363Z
+Latest Update: 2018-07-06T18:31:46.308Z
+
+Reported by Axel | Azn9#4783
+
+####Steps to reproduce:
+- Create a server. 
+- Do some logged actions (create role for example). 
+- Look to the server logs: your actions should appear. 
+- Look on the filter by user menu. 
+- After, invite someone on thee server and redo the previous steps.
+
+####Expected result:
+you should appear on the list when you're the only user and when you're two on it.
+####Actual result:
+You doesn't appear on the menu first, then after someone else joined, you'll appear.
+####Client settings:
+Discord stable 0.0.4 and Discord-ptb 0.0.7.
+####System settings:
+Ubuntu 17.10 with GNOME and Xorg.
+
+10465
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-09T13:35:32.363Z
+
+
+### Can reproduce.
+Can reproduce - MS Windows 10 Pro x64 (v1709) - Canary 13313 - Username not seen in the list when no other user had joined
+
+ahoZiorce#3115 - Bug Bot on 2018-04-09T13:35:39.866Z
+
+
+### Can reproduce.
+username doesnt show even after inviting someone Windows 10 Home 1709 64-Bit Build 16299.309, [BUILD INFO] Release Channel: canary, Build Number: 13313, Version Hash: fa8d1a877bc13f374d4663d2932a7b6d1daab0f9
+
+420 Cringe Lord#8570 - Bug Bot on 2018-04-09T13:35:44.883Z
+
+
+### Can reproduce.
+CR, but as said by Ene, only users with a role will show up in the Audit Log. Unclear if intended behavior. Windows 7, Release: Stable, Build Number: 13009
+
+RandomGamer123#5222 - Bug Bot on 2018-04-09T13:35:49.818Z
+
+
+### Cannot reproduce. Created new server, changed nickname, checked audit log, actions appeared. - Jared on 2018-04-11T21:03:49.714Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-04-11T21:03:54.013Z
+
+
+### Still cannot reproduce. - Jared on 2018-04-23T20:38:49.426Z
+
+
+### Archiving as this ticket has been CNR for more than 30 days. - Jared on 2018-07-06T18:31:44.903Z
+
+
+### Archived by Jared on 2018-07-06T18:31:46.311Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

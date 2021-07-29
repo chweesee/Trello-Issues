@@ -1,0 +1,76 @@
+[Archived] Chat automatically scrolls back in message history when opening a channel with a very long new embed (https://trello.com/c/eRxTkpep)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-02-11T01:44:27.738Z
+Latest Update: 2019-09-03T14:48:48.822Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- With your alt account or bot write a very long message with any kind of long embed (it should go off-screen) and send it in a channel with some message history 
+- Be inactive for 1-2 hours (time is not exactly clear and might be not needed) with your main account (make sure the channel where you have posted with your alt is not opened) 
+- Open the channel where the message was posted with your main account 
+- If that didn’t cause the bug for you, don't scroll there, just press the home button and do the last 2 steps 
+- Force close Discord via the app switcher 
+- Reopen the channel and try it again
+
+####Expected result:
+Chat should keep position (at the beginning of the new unread message).
+####Actual result:
+It automatically scrolls back in message history. Note: This issue also happens without force closing the app and waiting a long time but haven't found steps for it so far. It might happen when the channel must completely reload and the embed loads after all the messages.
+####Client settings:
+TestFlight 2.4.5 (11113)
+####System settings:
+iPhone 8 Plus & iPad Pro 11" - iOS 12.1.4
+
+28546
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-11T01:44:27.738Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.2 (dev beta) - TestFlight 2.4.5 (11113)
+
+Xylium#5800 - Bug Bot on 2019-02-11T01:44:35.134Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, TestFlight 2.4.5 (11113)
+
+M24#0272 - Bug Bot on 2019-02-11T01:44:40.220Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11113)
+
+Solo#0007 - Bug Bot on 2019-02-11T01:44:45.275Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11113)
+
+Daffyduck#5364 - Bug Bot on 2019-02-11T12:06:12.616Z
+
+
+### Can reproduce.
+Iphone X ios 12 TestFlight 2.4.5
+
+Mr. Proper#2394 - Bug Bot on 2019-02-11T17:50:54.625Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-02-22T19:00:05.998Z
+
+
+### Archived by Bug Bot on 2019-03-24T19:30:04.113Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

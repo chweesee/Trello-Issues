@@ -1,0 +1,90 @@
+I'm hand generating a PNG image, and discord is failing to load it for pretty much everyone I've given it. I believe the issue may be related to the IDAT chunk, because I believe something to do with the zlib compression may be incorrect (specifically, the header/checksum. I'm using a library to do the compression, however it doesn't include the alder32 checksum or zlib headers, so I calculate those myself). However, the image loads in firefox for me so I don't understand why discord has an issue loading it. (https://trello.com/c/pkIahbbM)
+
+None
+
+Created: 2019-11-17T00:48:44.302Z
+Latest Update: 2020-07-16T21:26:05.675Z
+
+Reported by SirJosh#3917
+
+####Steps to reproduce:
+- Please paste this link in any text channel, and it will not load.
+
+####Expected result:
+The image should load - but it is not.
+####Actual result:
+Discord either spins around with blocks for a bit trying to load it, or poop may appear after a while.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 49715, Version Hash: e4d5f2c42895bb56657cfa3e526ee9e8d87a4259
+####System settings:
+Windows 8.1 Industry Embedded Pro
+
+48235
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-17T00:48:44.302Z
+
+
+### TheRudeDude#6040 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dd098ec367e6c760243eaf4/391514af907a97697a40cb3f38b839df/world.png added by Bug Bot on 2019-11-17T00:48:47.208Z
+
+
+### Can reproduce.
+Win 10 V. 1903 Discord Build 49715 (Note: Clicking the image actually loads it, but the "preview" version doesn't)
+
+Keayne#8608 - Bug Bot on 2019-11-17T00:48:51.772Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 49715
+
+RPS1222#5127 - Bug Bot on 2019-11-17T00:48:56.786Z
+
+
+### Can reproduce.
+Can reproduce | Dell OptiPlex 5040 running Windows 10 Pro x64 | Canary 49715
+
+Kaden303#4560 - Bug Bot on 2019-11-17T00:49:01.805Z
+
+
+### I think the issue is only related to this picture as I could only reproduce the bug, but when I tested with other pictures, I couldn't reproduce it.
+
+Kaden303#4560 - Bug Bot on 2019-11-17T00:50:13.154Z
+
+
+### Can reproduce.
+Win 10 Pro, Canary 49746
+
+Action Potential#6862 - Bug Bot on 2019-11-17T01:36:05.335Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903, - Discord Canary, Build Number: 49748
+
+.Gloria.#9606 - Bug Bot on 2019-11-17T03:06:20.971Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 49748 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-17T04:42:54.101Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro (1903), Discord Canary 49715
+
+TheRudeDude#6040 - Bug Bot on 2019-11-17T18:18:29.304Z
+
+
+### Can reproduce.
+Windows 10 Home and Canary 49748
+
+hufflepuff15560#9709 - Bug Bot on 2019-11-18T02:42:29.517Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

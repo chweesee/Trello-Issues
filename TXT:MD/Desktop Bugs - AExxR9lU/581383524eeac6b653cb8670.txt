@@ -1,0 +1,83 @@
+[Archived] Remove From Group button doesn't go away when viewing the profile of someone who's no longer in a group DM (https://trello.com/c/0AE1FqCG)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2016-10-28T16:56:51.011Z
+Latest Update: 2018-08-30T23:15:19.790Z
+
+Reported by shadowjoe323#5274
+
+####Steps to reproduce: 
+- Start a Group DM 
+- Remove one of the members. 
+- Tap their username from the message that says that you removed them. 
+
+####Expected result:
+ The "Profile" and "Message" buttons are the only ones shown. 
+####Actual result:
+ The "Remove From Group" button is still there and tapping it does nothing. 
+####Client version:
+ 1.7.7, iOS 9.3.3 iPhone 6
+
+Card Log
+========
+### Added by Jared on 2016-10-28T16:56:51.011Z
+
+
+### https://imgur.com/a/qzYv5 - https://imgur.com/a/qzYv5 added by Sam on 2016-10-28T16:57:56.177Z
+
+
+### Can reproduce.
+iPhone SE 9.3.2
+
+Dazzap#6722 - Jared on 2016-10-28T17:01:02.553Z
+
+
+### Can reproduce.
+iPhone SE Latest iOS
+
+Jack#5403 - Jared on 2016-10-28T17:38:01.840Z
+
+
+### Verified, but very minor issue. - Jared on 2016-10-28T18:12:17.037Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-10-28T18:12:19.362Z
+
+
+### Verified this issue still occurs as of iOS TestFlight 1.8.0 (56) - Jared on 2016-12-19T22:28:12.330Z
+
+
+### Can reproduce.
+This is still happening a year later. I tested it with iPhone 8 +, iOS 11.2.5 (Beta) and Discord TestFlight 2.2.0 (1910).
+
+Ghoul#4567 - Bug Bot on 2017-12-16T08:38:26.432Z
+
+
+### I can reproduce on Windows 10 Pro, x64, Fall Creators Update with Discord Canary Build 9070. Apparently, it is also happening on Canary, instead of just iOS. I think it might happen on Linux as well.. Android would not count for this bug because of the missing feature.
+
+Ghoulish-Fantasy#4567 - Bug Bot on 2017-12-31T09:51:27.202Z
+
+
+### Can reproduce on Windows 10 Pro 64-bit 1709, on Canary 9070. Moving to desktop board. - Tarek on 2017-12-31T09:56:22.896Z
+
+
+### Imported from https://trello.com/b/57f2d333b99965a6ba8cd7e0 by Tarek on 2017-12-31T09:56:43.820Z
+
+
+### This is not a bug for the same reasoning given here: https://trello.com/c/p7QZCIWk/37-discord-still-gives-the-option-to-kick-someone-although-hes-not-in-the-server - Jared on 2018-07-10T19:25:06.750Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2018-07-10T19:25:13.584Z
+
+
+### Archived by Clayton on 2018-08-30T23:15:19.792Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

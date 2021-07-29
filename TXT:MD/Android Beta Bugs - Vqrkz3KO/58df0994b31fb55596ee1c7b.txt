@@ -1,0 +1,133 @@
+[Archived] User volume adjusts itself randomly, eventually leading to a crash after manually altering it. (https://trello.com/c/qtwJhbcM)
+
+P3 - Will be fixed eventually
+
+Created: 2017-04-01T01:59:48.473Z
+Latest Update: 2019-06-05T23:49:25.696Z
+
+Reported by Terminator966#1194
+
+####Steps to reproduce: 
+- Be on a server where you have perms to kick/ban 
+- Open someone's profile (that you can kick or ban) and scroll down all the way. 
+- Move user volume slider while sliding up quickly (vid attached) 
+
+####Expected result:
+ Volume slider moves normaly. 
+####Actual result:
+ Volume slider glitches side to side slightly. (vid attached). 
+####System settings:
+ Android 7.0 - Latest Discord Alpha.
+
+2248
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-01T01:59:48.473Z
+
+
+### Can reproduce.
+discord v3.5.7 android 6.0.1
+
+Yatopotato 🍭#1745 - Bug Bot on 2017-04-01T01:59:49.258Z
+
+
+### Can reproduce.
+Android 5.0 Discord 3.5.7
+
+OGNovuh#2697 - Bug Bot on 2017-04-01T01:59:51.293Z
+
+
+### Can reproduce.
+Android 7.1, Nexus 9, Alpha 3.5.7
+
+Mikesky#3456 - Bug Bot on 2017-04-01T01:59:53.252Z
+
+
+### https://youtu.be/PwKOg8I7Cic - https://youtu.be/PwKOg8I7Cic added by Bug Bot on 2017-04-01T02:00:04.204Z
+
+
+### Bug found by: Yatopotato 🍭#1745
+
+Terminator966#1194 - Bug Bot on 2017-04-01T02:00:49.996Z
+
+
+### Can reproduce.
+android 5.0, Discord 3.5.7
+
+Krotchmonster#9387 - Bug Bot on 2017-04-01T02:15:36.102Z
+
+
+### Can reproduce.
+Discord 3.5.7
+
+WolfGang1710#6782 - Bug Bot on 2017-04-02T06:25:29.565Z
+
+
+### Cannot reproduce. - Jared on 2017-04-04T20:49:33.965Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-04-04T20:50:16.535Z
+
+
+### Steps to reproduce: - open a users profile - try moving the white circle left or right whilst moving upwards (basically diagonal) - watch as the volume slider has a rave party as discord lags to the point of crashing
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-04-09T00:09:44.153Z
+
+
+### Can reproduce.
+Android 5.1 Discord 3.5.7
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-04-09T00:11:09.362Z
+
+
+### Can reproduce.
+3.5.7
+
+Azrael#6867 - Bug Bot on 2017-04-09T00:15:58.176Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2017-04-10T20:39:37.786Z
+
+
+### Note that this only seems to happen on specific devices. Does not occur on a Samsung Galaxy S6/7, but does on S4/5 - Jared on 2017-04-10T20:40:15.774Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2017-04-10T20:40:26.916Z
+
+
+### On my phone (RR, 7.1.1) the application hangs until an ANR when I fling the volume slider horizontally. Logs (logcat, ANR traces after several attempts) attached
+
+MrWasdennnoch#8185 - Bug Bot on 2017-04-10T21:04:06.673Z
+
+
+### MrWasdennnoch#8185 - https://drive.google.com/file/d/0Bx9Qxb5rvPggTGdQOTNFRlFfVjg/view added by Bug Bot on 2017-04-10T21:04:25.369Z
+
+
+### I can't reproduce the crash. I left it sitting for hours and didn't get ANR - Jared on 2017-04-10T23:16:27.230Z
+
+
+### Moved from Serious Issues to Verified Bugs by Jared on 2017-04-10T23:16:36.059Z
+
+
+### Duplicate report verified by @clayton301 https://trello.com/c/CXSrmtEV/524-when-repeatedly-turning-offing-the-volume-from-the-volume-bar-the-bar-glitches  - Generic on 2017-09-29T11:18:36.025Z
+
+
+### Can no longer reproduce. Alpha 5.5.6 Android 8.0 - Mike Nisbet on 2017-11-06T18:33:08.716Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-11-06T18:33:18.035Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-05T09:29:40.576Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:25.708Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

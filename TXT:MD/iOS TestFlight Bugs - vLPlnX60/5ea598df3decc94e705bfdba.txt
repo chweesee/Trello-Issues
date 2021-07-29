@@ -1,0 +1,77 @@
+DM text gets converted and locked in another read-only channel. (https://trello.com/c/6kamPu9G)
+
+None
+
+Created: 2020-04-26T14:21:20.116Z
+Latest Update: 2020-05-01T23:18:37.053Z
+
+Reported by Kyumura 崎#0006
+
+####Steps to reproduce:
+- Have a server owner/mod to create a read-only channel. (You must be unable to type) 
+- In any DM, type something random and do not send it. 
+- Whilst in DM, let the owner/mod send a message in said channel. (banner notifications has to be enabled) 
+- Click on the message notification from said owner within the App. 
+- You'll hop to said channel, close the application and re-launch it again.
+
+####Expected result:
+You'd have a blank text tab says "Channel is read-only"
+####Actual result:
+Your entire draft-text from the DM gets converted in this Channel draft-stuck forever. Can't send or delete.
+####Client settings:
+17.0
+####System settings:
+iPhone X, iOS 13.4.1
+
+55164
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-26T14:21:20.116Z
+
+
+### ramune#7777 - https://youtu.be/DT4LPTOVCJ4 added by Bug Bot on 2020-04-26T14:21:22.628Z
+
+
+### Can reproduce.
+This is not limited to direct messages. iPhone 7: iOS 13.4.1; TestFlight 19.0 (19670) & iPad 7: iPadOS 13.4.1; TestFlight 19.0 (19670)
+
+Jiralite#1207 - Bug Bot on 2020-04-26T14:21:27.619Z
+
+
+### Can reproduce.
+iPad Pro 10.5, iPad OS 13.4.5 beta, TestFlight 19.0 (19670)
+
+Apple#3697 - Bug Bot on 2020-04-26T14:21:32.631Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 13.4.1, TestFlight 19.0 (19670)
+
+Thunderstruck#2071 - Bug Bot on 2020-04-26T14:21:37.688Z
+
+
+### **Extension of this**
+- Go to any text channel
+- Send an invite to a read-only channel (Important: It must be a server that you’ve already joined) 
+- Type some text in the chat box 
+- While the keyboard is on-screen, tap the invite embed (not the invite link) - When you enter the server, you should see the send button is now white instead of gray 
+- Go to another channel or server then come back to the read-only channel - Observe the result.
+
+*Credit to Jimmi#3030 for finding this extension.* - Daffyduck on 2020-04-26T21:36:14.810Z
+
+
+### Could be similar to typing text in a channel and then having your send messages permission revoked.
+
+Jiralite#1207 - Bug Bot on 2020-04-27T18:23:55.987Z
+
+
+### Moved from New Issues to Text Chat by Fanghao on 2020-05-01T23:16:53.826Z
+
+List
+====
+Text Chat
+
+Members
+=======
+Unknown User (https://trello.com/shidonglin3) - No Bio

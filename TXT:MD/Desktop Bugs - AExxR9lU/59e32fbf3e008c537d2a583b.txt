@@ -1,0 +1,83 @@
+[Archived] Moving cursor around in Discord window makes CPU spike (https://trello.com/c/Uz4sutaR)
+
+High,
+P2: Fix can wait a while
+
+Created: 2017-10-15T09:51:59.831Z
+Latest Update: 2017-12-02T17:11:41.660Z
+
+Reported by Downy#5863
+
+####Steps to reproduce:
+- Move your cursor around within the Discord window
+
+####Expected result:
+Nothing.
+####Actual result:
+Your CPU spikes. The faster you move your cursor the higher your CPU will spike.
+####Client settings:
+Discord Canary 0.0.165 (5843)
+####System settings:
+Windows 10 Pro x64
+
+5414
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-15T09:51:59.831Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 1709 (16299.15) Discord Canary 0.0.165 (5843)
+
+DaFri_Nochiterov#4289 - Bug Bot on 2017-10-15T09:52:07.342Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 1703, Discord Canary 0.0.165
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-15T09:52:12.309Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.165 (Build 5843) on Windows 10 Pro 64-bit (Build 1607) | Jumps from 0% cpu usage to 35%
+
+Tarek1337#0379 - Bug Bot on 2017-10-15T09:52:17.349Z
+
+
+### Can't reproduce.
+Windows 10 Home 64 Bit (1703) (Canary build 5843, v 0.0.165) Doesn't even hit 1%.
+
+Niklas#3627 - Bug Bot on 2017-10-15T15:44:26.859Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.165 (5843)
+
+Tiemen#0107 - Bug Bot on 2017-10-15T15:44:37.754Z
+
+
+### Verified. - Jared on 2017-10-26T22:05:19.692Z
+
+
+### Moved from User Reported Bugs to Next up for investigation by Jared on 2017-10-26T22:05:43.674Z
+
+
+### I talked to Stan and we're marking this as a Won't Fix. The problem is that when you mouse over a bunch of stuff you're making some animations happen (the three dots), and browsers kind of suck at animations, they eat up a ton of CPU. The only way we could fix this would be to remove that animation, which we're not going to do. - Jared on 2017-10-26T22:33:50.726Z
+
+
+### Moved from Next up for investigation to Won't Fix. Dead Bug by Jared on 2017-10-26T22:33:54.717Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:11:40.488Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:11:41.662Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

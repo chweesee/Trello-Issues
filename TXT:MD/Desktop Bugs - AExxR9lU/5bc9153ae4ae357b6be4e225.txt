@@ -1,0 +1,68 @@
+[Archived] "Sync Permissions" doesn't work when there is too many roles. (https://trello.com/c/7TUL9aLf)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-18T23:20:26.591Z
+Latest Update: 2019-01-11T00:01:10.094Z
+
+Reported by Zoop#0001
+
+####Steps to reproduce:
+- create category with 180 roles 
+- enable each role with a certain permission 
+- create channel within that category 
+- go to channel settings and press sync permissions
+
+####Expected result:
+Channel should have the category permissions
+####Actual result:
+Nothing happens
+####Client settings:
+stable, Build Number: 26433
+####System settings:
+Windows 10
+
+21600
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-18T23:20:26.591Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bc9153ae4ae357b6be4e225/682eec49ab5926e3be578624371a5f4b/PRVfvIp.png added by Bug Bot on 2018-10-18T23:20:28.969Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit 1809 October 2018 Update Build 17763.55 [BUILD INFO] Release Channel: canary, Build Number: 26497, Version Hash: a7e734f3d68420588823536f6b96e40ff7fa017c Can Reproduce on a fresh Test Server with the full 180 Roles after further testing
+
+Blastoise186#7194 - Bug Bot on 2018-10-18T23:20:33.909Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 x64 - Discord Canary 26497. I created the 180 roles with a bot and assigned them to a category with the bot as well. I was unable to move the channel into the category when I tried to sync the permissions.
+
+webhp#1337 - Bug Bot on 2018-10-18T23:20:39.000Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Professional x64 (Version 1803) - Discord Canary Build 26538
+
+Ghoul#0099 - Bug Bot on 2018-10-18T23:20:43.869Z
+
+
+### minor - Clayton on 2018-10-19T01:24:10.164Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-19T01:24:19.743Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:10.097Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

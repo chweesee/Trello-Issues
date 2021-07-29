@@ -1,0 +1,121 @@
+[Archived] App crashes when instantly switching to an server after DMing a person who is not friends or does not share server (https://trello.com/c/84H4zZGH)
+
+None
+
+Created: 2018-01-20T19:41:57.234Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by -M4D SCI3NTIST-#8791
+
+####Steps to reproduce:
+- DM person who has blocked messages from any other member except friends  
+- Clyde bot will show up 
+- Immediately switch to any server
+
+####Expected result:
+Selected Server will open up normally
+####Actual result:
+App crashes
+####Client settings:
+TestFlight 2.2.1
+####System settings:
+iPhone 8, iOS 11.2.2
+
+8000
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-20T19:41:57.234Z
+
+
+### Ghoul#4567 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a639b85272b6307d5405868/0850290fbc0ab21f26923d9e77951386/image.png added by Bug Bot on 2018-01-20T19:41:59.761Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.2.5 (PB7), Discord TestFlight 2.2.1 (2202) | Also, to add to the reproduction steps in order to get the screenshot I have attached, you need to send any messages. And then you would end up making Clyde to say whatever you want.
+
+Ghoul#4567 - Bug Bot on 2018-01-20T19:42:04.602Z
+
+
+### Can reproduce.
+iPhone 6S Plus, iOS 11.2.2, TestFlight 2.2.1, able to reproduce.
+
+Zenith#3232 - Bug Bot on 2018-01-20T19:42:09.583Z
+
+
+### Can reproduce.
+Able to reproduce. iPhone X, iOS 11.2.2, Testflight 2.2.1 (2202)
+
+Kokorone#1874 - Bug Bot on 2018-01-20T19:42:14.666Z
+
+
+### There are two parts of the extension for this bug, the following steps can be used to reproduce by: 
+- Following the first two steps from this report.
+- Take a moment, then switch to any server. 
+- You will see the Clyde message following you. 
+
+The second part was: 
+
+- When Clyde message has followed you, send any message. You will then see that you can make Clyde to say whatever you want it to say. See the attached screenshot in the report.
+
+Ghoul#4567 - Bug Bot on 2018-01-20T20:08:15.635Z
+
+
+### there is one more extension for the bug, the following steps can be used to reproduce it:
+-follow the first and second part of bug extension stated by ghoul#4567
+-immediately switch to any server. 
+Result: App crashes and closes automatically.
+
+-M4D SCI3NTIST-#8791 - Bug Bot on 2018-01-20T20:31:50.471Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Fanghao on 2018-01-20T22:55:49.287Z
+
+
+### Can't reproduce.
+iPhone 8 +, iOS 11.2.5 (PB7), iOS TestFlight 2.2.1 (2224)
+
+Ghoul#4567 - Bug Bot on 2018-01-20T23:19:46.586Z
+
+
+### I can no longer reproduce, switching servers no longer causes the app to crash.
+
+Discord 2.2.1 (2224), iOS 11.2.2, iPhone 8 Plus - Alexandru Todea on 2018-01-21T06:08:39.227Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2018-01-21T06:08:49.991Z
+
+
+### Can't reproduce.
+CNR, app does not crash, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T21:02:09.897Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T23:32:19.670Z
+
+
+### Can't reproduce.
+iPhone 8 +, iOS 11.3 (PB1), Discord TestFlight 2.2.1 (2236)
+
+Ghoul#0009 - Bug Bot on 2018-01-27T01:27:08.225Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Tarek on 2018-01-27T01:27:24.201Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T08:54:47.849Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T08:54:49.750Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

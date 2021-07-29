@@ -1,0 +1,94 @@
+[Archived] Discord crashes when attempting to jump to deleted messages in Search. Note: Crashes appear to occur sporadically, similar to the Audit Log crashes, so this could take several attempts. (https://trello.com/c/V1H965Um)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-12-19T07:43:06.909Z
+Latest Update: 2018-02-27T00:09:18.730Z
+
+Reported by Ene#3002
+
+####Steps to reproduce:
+- Open Search & search for "From: <you>" 
+- Delete some older messages that are separate from each other so you can jump 
+- Attempt jumping to the deleted messages
+
+####Expected result:
+You jump to the message, even if was deleted
+####Actual result:
+Discord crashes
+####Client settings:
+Discord Canary 0.0.187, Build 8849
+####System settings:
+Windows 10 Home x64
+
+7190
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-19T07:43:06.909Z
+
+
+### Ten 🎁#1723 - https://www.youtube.com/watch?v=JcXRHeK-57c added by Bug Bot on 2017-12-19T07:43:09.389Z
+
+
+### Ene#3002 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a38c30ac0335ba31044afcc/435f1a7e7e325ec9642c3fac8290bf54/YG4yTIa.png added by Bug Bot on 2017-12-19T07:43:09.405Z
+
+
+### Ene#3002 - https://i.imgur.com/vhFj6F0.gifv added by Bug Bot on 2017-12-19T07:43:09.436Z
+
+
+### Can reproduce.
+Windows 10 x64 Fall Creators Update;  Release Channel: canary, Build Number: 8849
+
+Centenar.ian#8529 - Bug Bot on 2017-12-19T07:43:14.300Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary  0.0.189 (8849). Might have to retry the steps multiple times before it crashes. It's not a 100% repro bug but it does happen every now and then. Try pressing the Jump button to the deleted message more than once as well.
+
+Ten 🎁#1723 - Bug Bot on 2017-12-19T07:43:19.323Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 Fall Creators Update, Canary 8849. Happens very sparingly, try to spam around when jumping. Happens like 5% of the time for me...
+
+HyperKids#4976 - Bug Bot on 2017-12-19T07:43:24.339Z
+
+
+### Can reproduce.
+Latest Discord Stable Web, Windows 10 Home.
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-20T10:29:26.384Z
+
+
+### Cannot reproduce. I just to the location where the deleted message had been and the client continues unabated. - Jared on 2018-01-02T20:42:08.386Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-01-02T20:42:15.297Z
+
+
+### Can't reproduce.
+CNR, app no longer crashes, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T21:16:37.198Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T23:01:57.581Z
+
+
+### Archiving due to age and no activity. - Mike Nisbet on 2018-02-27T00:09:17.190Z
+
+
+### Archived by Mike Nisbet on 2018-02-27T00:09:18.733Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

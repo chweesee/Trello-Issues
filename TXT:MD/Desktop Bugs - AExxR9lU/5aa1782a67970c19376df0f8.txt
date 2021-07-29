@@ -1,0 +1,79 @@
+[Archived] Clicking near the X button on the search bar but not on it still closes the search menu, the hitbox for it isn't accurate. (https://trello.com/c/DspXLsPp)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-08T17:51:38.820Z
+Latest Update: 2018-10-22T20:18:45.436Z
+
+Reported by XCVII#4244
+
+####Steps to reproduce:
+- Search for something. 
+- Go close to the X button so that the cursor is near it but it hasn't changed colour to indicate that it's hovering over it. 
+- Left click.
+
+####Expected result:
+It should place a cursor in the search bar and let you edit your search query, do nothing or change the colour of the X button to indicate clicking there would cancel the search.
+####Actual result:
+It closes the search menu with no visual indicators that it will.
+####Client settings:
+Desktop Canary Build 11585.
+####System settings:
+macOS 10.13.2
+
+9434
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-08T17:51:38.820Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1709 (Canary build 11753)
+
+TimThe#1118 - Bug Bot on 2018-03-08T17:51:46.315Z
+
+
+### Can reproduce.
+CR, MacBook Air (11-inch, Early 2015), MacOS High Sierra 10.13.3, Discord Canary 0.0.186
+
+DynomiteCentral#4808 - Bug Bot on 2018-03-08T17:51:51.343Z
+
+
+### Can reproduce.
+CR. Win 10 Pro x64 - Stable, 11724
+
+nuke#1337 - Bug Bot on 2018-03-08T17:51:56.513Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (Canary build 11784)
+
+Kot#0750 - Bug Bot on 2018-03-09T01:07:01.736Z
+
+
+### Verified.  - Clayton on 2018-03-09T01:14:18.736Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-09T01:14:22.968Z
+
+
+### Can reproduce.
+Windows 10 64 home canary 11719 (using better discord)
+
+_Bluie#0748 - Bug Bot on 2018-03-09T08:58:16.369Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aa1782a67970c19376df0f8/5acc6bc9d9000921e6a335e4f65dca8c/5KVZ9oE.gif added by Bug Bot on 2018-07-14T06:21:24.532Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:45.439Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

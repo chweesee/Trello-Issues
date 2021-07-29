@@ -1,0 +1,85 @@
+[Archived] [iPhone X] Certain audit log entries get cut off when clearing filters (https://trello.com/c/4zqYUs5E)
+
+P3 - Will be fixed eventually
+
+Created: 2018-12-11T02:01:28.600Z
+Latest Update: 2019-01-31T20:00:43.808Z
+
+Reported by mouse#0091
+
+####Steps to reproduce:
+- Ensure your username is less than 7 characters long (excluding discriminator) 
+- Go to a server you have manage permissions on 
+- Create a category with the name "test1" 
+- Edit the category and deny two permissions for the everyone role (e.g. connect and speak) 
+- Create a category with the name "test2" 
+- Open the audit log 
+- Tap Filter, then Filter by Action, then select any action 
+- Change the filter back to All Actions 
+- Observe the third entry in the log
+
+####Expected result:
+All audit log entries should be fully visible
+####Actual result:
+The third entry (created overrides) stops wrapping so the text goes off screen
+####Client settings:
+TestFlight 2.4.0 (9477)
+####System settings:
+iPhone X, iOS 12.1
+
+23882
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-11T02:01:28.600Z
+
+
+### mouse#0091 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c0f1a7880c4035cd9b82996/1ced36153bf58fac14baced96690fedf/70c7JFH.jpg added by Bug Bot on 2018-12-11T02:01:30.981Z
+
+
+### Can reproduce.
+iPhone X iOS 12.1, TestFlight 2.4.0 (9477)
+
+mouse#5134 - Bug Bot on 2018-12-11T02:01:35.903Z
+
+
+### Can reproduce.
+CR; iPhone XS Max; iOS 12.1; TestFlight 2.4.0 (9714)
+
+DoNotSpamPls#8787 - Bug Bot on 2018-12-11T02:01:40.892Z
+
+
+### Can reproduce.
+[CR] // Can reproduce on Discord TestFlight 2.4.0 (9714) // iPhone XS, iOS 12.1 PB2
+
+Marc#1261 - Bug Bot on 2018-12-11T02:01:45.971Z
+
+
+### Can reproduce.
+iPhone X; iOS 12.1.1 Dev Beta 3; TestFlight 2.4.0 (9714)
+
+Sausage Claus#0002 - Bug Bot on 2018-12-11T03:30:21.061Z
+
+
+### Duplicate of https://trello.com/c/23ymccGT
+
+Alfie#1582 - Bug Bot on 2018-12-11T17:31:23.115Z
+
+
+### Not actually a duplicate of the ticket I linked - this is a completely separate bug.
+
+Alfie#1582 - Bug Bot on 2018-12-11T18:22:57.161Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2018-12-21T19:00:03.482Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:00:43.821Z
+
+List
+====
+Backlog
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

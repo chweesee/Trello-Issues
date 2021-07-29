@@ -1,0 +1,96 @@
+[Archived] Markdown formatting with linebreak (\n\n) in embed not shown (https://trello.com/c/PkkIvZhk)
+
+None
+
+Created: 2017-08-07T15:10:34.958Z
+Latest Update: 2019-07-20T08:51:20.046Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Use a bot with Discord rich embed 
+- add boldness text with \*\* inside the bot's embed message 
+- send the message in a chat and view it with an iOS device
+
+####Expected result:
+Text should be shown bold and not with \*\*
+####Actual result:
+Text won't be shown with boldness and just `**` before and after the text. This issue probably also applies for other Markdown formatting.
+####Client settings:
+TestFlight 1.8.9 (83)
+####System settings:
+iPhone 6S, iOS 10.3.3
+
+2902
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-07T15:10:34.958Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/598882ea2c2b98312e8bd1db/61fe6a0c827a8772dd88281b3e002496/TYycsde.jpg added by Bug Bot on 2017-08-07T15:10:37.765Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/598882ea2c2b98312e8bd1db/86d828f2912d613d9e483642684047ea/image.jpg added by Bug Bot on 2017-08-07T15:10:38.527Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11 beta 4, TF 1.8.9 (83). Could reproduce with the code in the attachment; you'll need \n\n inside your bold text
+
+Tiemen#0107 - Bug Bot on 2017-08-07T15:10:42.412Z
+
+
+### Can reproduce.
+iPhone 6, iOS 10.3.3, TF 1.8.9 (83); can repro with \n\n within the text
+
+mouse91#3089 - Bug Bot on 2017-08-07T15:10:47.396Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 10.2, TestFlight 1.8.9 (83). Reproduced with \n\n in the bold text, in description or field
+
+[object Object]#0001 - Bug Bot on 2017-08-07T15:10:52.443Z
+
+
+### Verified - Jared on 2017-08-14T22:33:40.004Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-14T22:33:45.160Z
+
+
+### I can still reproduce. 
+
+Discord 2.2.1 (2236), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-01-28T12:52:40.098Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:27.086Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2, applies to backticks too
+
+vaderworld#2398 - Bug Bot on 2019-04-12T13:16:13.451Z
+
+
+### After some investigation and testing I have come to the conclusion that this ticket is an extension of https://trello.com/c/r83EsHrP
+
+The problem mentioned there happens with every Markdown formatting and applies for embeds too.
+
+Moving back to New Issues and archiving. - Pascal on 2019-04-12T13:25:08.972Z
+
+
+### Unarchived by Pascal on 2019-04-12T13:25:33.737Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-04-12T13:25:40.026Z
+
+
+### Archived by Pascal on 2019-04-12T13:25:43.536Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

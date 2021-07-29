@@ -1,0 +1,67 @@
+[Archived] Long usernames break the Transfer Ownership modal (https://trello.com/c/I1et2nae)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-19T02:53:35.557Z
+Latest Update: 2019-01-11T00:01:13.898Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Have a user with a long username such as "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW" 
+- Go to Members in Server Settings 
+- Right click on the user and click Transfer Ownership
+
+####Expected result:
+The username correctly truncates in the modal.
+####Actual result:
+It does not truncate and the modal breaks. You can click the middle of the modal to be able to access the toggle.
+####Client settings:
+Discord Canary 26538
+####System settings:
+Windows 10 Pro x64 v1809
+
+21629
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-19T02:53:35.557Z
+
+
+### webhp#1337 - https://i.imgur.com/mmnfVvn.gifv added by Bug Bot on 2018-10-19T02:53:38.101Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26538
+
+Hole#0001 - Bug Bot on 2018-10-19T02:53:42.906Z
+
+
+### Can reproduce.
+[CR] OS X El Capitan 10.11.6, Discord Canary 26468
+
+54D#1357 - Bug Bot on 2018-10-19T02:53:47.883Z
+
+
+### Can reproduce.
+Can reproduce; MacOS Mojave 10.14; Discord Canary, Build 26538
+
+S6out#1111 - Bug Bot on 2018-10-19T02:53:52.873Z
+
+
+### minor - Clayton on 2018-10-20T01:24:46.324Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-20T01:24:54.524Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:13.901Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

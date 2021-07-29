@@ -1,0 +1,83 @@
+[Archived] In the screen to enter the XBox Live PIN code, if you enter many characters in the last field, the app will be flooded with toasts (https://trello.com/c/DvbElZiy)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-27T18:58:57.413Z
+Latest Update: 2018-07-06T21:18:16.234Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to your account settings > Connections 
+- Add > XBox Live 
+- Enter the 5 first digits of the code 
+- When you are at the last digit, try to enter many characters before all the fields get erased
+
+####Expected result:
+It should stop attempting to input letters as soon as the last one gets filled
+####Actual result:
+Each extra character will replace the content of the previous character at the last position, and for each of them a new pair of toasts "invalid pin" and "404 not found" will be generated
+####Client settings:
+Discord Alpha 6.5.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+11423
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-27T18:58:57.413Z
+
+
+### Can reproduce.
+ZTE obsidian Android 5.1, Discord alpha 6.5.8, I'm in Xbox insider and this happens when even when I got my account connected
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-04-27T18:59:05.136Z
+
+
+### Can reproduce.
+Can Reproduce, Asus Zenfone 3, Android 7.0, Discord Alpha 6.5.8
+
+Doges#0001 - Bug Bot on 2018-04-27T18:59:10.100Z
+
+
+### Can reproduce.
+Can Reproduce Samsung Galaxy s6 edge. Android 7.0 discord 6.5.8
+
+Traveller#0001 - Bug Bot on 2018-04-27T18:59:15.061Z
+
+
+### Verified. Android 7.0, Samsung S6 Edge - Clayton on 2018-04-27T21:27:16.161Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T21:27:27.674Z
+
+
+### Can reproduce.
+Samsung Galaxy S8+, 8.0
+
+Perseus Elizabeth Kane#3217 - Bug Bot on 2018-04-27T21:34:37.929Z
+
+
+### Can reproduce.
+Samsung Galaxy S8+ (SM-G955U), Android 8.0, Discord Alpha 6.5.9
+
+Perseus Elizabeth Kane#3217 - Bug Bot on 2018-04-27T21:36:55.271Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-04-30T20:15:36.074Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:18:15.242Z
+
+
+### Archived by Jared on 2018-07-06T21:18:16.237Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

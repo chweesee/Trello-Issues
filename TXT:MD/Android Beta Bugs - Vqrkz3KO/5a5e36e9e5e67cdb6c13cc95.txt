@@ -1,0 +1,72 @@
+[Archived] cut off links in i.e youtube embeds arent sent to browser as whole despite being recognised as URL (https://trello.com/c/QIzAHpwn)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-01-16T17:31:21.126Z
+Latest Update: 2018-08-22T01:20:31.195Z
+
+Reported by ks0908#8526
+
+####Steps to reproduce:
+- post link to i.e youtube video  that will show link in description (i.e patreon or other channel) 
+- tap on cut off link ((i.e ))
+
+####Expected result:
+link should be sent to browser as whole
+####Actual result:
+only visible part of link is sent to briwser resulting in invalid URL
+####Client settings:
+Alpha 6.1.0
+####System settings:
+LG Xpower 6.0.1
+
+7850
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-16T17:31:21.126Z
+
+
+### ks0908#8526 - https://youtu.be/6kc7MWl_QY4 added by Bug Bot on 2018-01-16T17:31:23.474Z
+
+
+### Can reproduce.
+Pixel XL 2, Android 8.1; Alpha 6.1.0
+
+mrkirby153#7840 - Bug Bot on 2018-01-16T17:31:28.430Z
+
+
+### Can reproduce.
+ZTE Blade Spark, Android 7.1.1, Alpha 6.1.0
+
+Bananyog#3147 - Bug Bot on 2018-01-16T17:31:33.464Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.1.0, Huawei Mate 9 Android 7.0. The link lust be near the third line of the description and long enough for better results
+
+Alex1304#9704 - Bug Bot on 2018-01-16T17:31:38.442Z
+
+
+### Nothing here is being "sent to browser" incorrectly.
+
+Our link unfurler is getting a correct description which is then being truncated bc we truncate descriptions on Android. Desktop doesn't show this description at all.
+
+This is an involved fix -- we'll need to tap-to-untruncate or something similar.
+
+This bug has likely been in the Android client since the dawn of time. - Andy Garron on 2018-01-16T21:21:48.065Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-16T21:31:26.299Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:31.198Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

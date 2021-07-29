@@ -1,0 +1,70 @@
+[Archived] You can move members to voice channels without permissions for it (https://trello.com/c/wud60ug3)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-06-03T18:41:28.356Z
+Latest Update: 2018-09-04T23:13:55.242Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create a role with the voice permission `Move members` 
+- Have or create at least 2 voice channels 
+- Create permission overrides for one of this voice channel and deny the permission for everyone to move members 
+- Assigns the role you have created before to any account that is not an admin 
+- Join a voice channel and don't leave it 
+- Open your second account (the one with the role you have assigned) 
+- Click on the voice channel your first account has joined 
+- Click on the 3 dots 
+- Observe the channels for the move member option and try to move it to a voice channel where you don't have the permission for it
+
+####Expected result:
+Only voice channels where you have move member options should be shown and work for moving members.
+####Actual result:
+All voice channels work when you have the move member role permission.
+####Client settings:
+Stable 2.3.3
+####System settings:
+iPhone 6s - iOS 11.4, iPad Air 2 - iOS 11.4.1 PB
+
+13750
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-03T18:41:28.356Z
+
+
+### Can reproduce.
+Discord TestFlight 2.3.2, Build 4760, iOS 11.2.6, iPhone 5s
+
+Ene#0808 - Bug Bot on 2018-06-03T18:41:35.824Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4.1 Stable 2.3.3
+
+Xylium#1480 - Bug Bot on 2018-06-03T18:41:40.875Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 Stable 2.3.3
+
+Agorcatl#0440 - Bug Bot on 2018-06-03T18:41:45.810Z
+
+
+### verified, ios 11, ipadpro, 2.3.4 - Clayton on 2018-06-05T02:18:49.522Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-05T02:19:02.790Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:55.244Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

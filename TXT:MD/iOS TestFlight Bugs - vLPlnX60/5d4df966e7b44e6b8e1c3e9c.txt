@@ -1,0 +1,98 @@
+[Archived] Search is very inconsistent in generating non consecutive search terms in the same comment (see video) (https://trello.com/c/D13sKS2a)
+
+None
+
+Created: 2019-08-09T22:53:26.337Z
+Latest Update: 2019-09-10T16:00:37.832Z
+
+Reported by ijm8710#8288
+
+####Steps to reproduce:
+- Create a string of unique words in a comment and search them out of order 
+- You will see at first it will generate money consecutive or out of order words 
+- You will see at times like in the video it doesn’t find a result
+
+####Expected result:
+It should generate a result automatically regardless of capitalization or order but merely being in the comment string like how Apple notes and Apple messages works .
+####Actual result:
+It inconsistently will fetch results or fail to do so
+####Client settings:
+Discord 3.1.0 (16734)
+####System settings:
+iPhone X, iOS 13
+
+41718
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-09T22:53:26.337Z
+
+
+### 🌴nickWtn🌴#3789 - https://i.imgur.com/bMHXSLk.gifv added by Bug Bot on 2019-08-09T22:53:28.875Z
+
+
+### Can reproduce.
+iPhone X, iOS 13 (beta 3), TestFlight 3.1.0 (16734)
+
+Noah#0004 - Bug Bot on 2019-08-09T22:53:34.148Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.0 (16734)
+
+Jeffrey#1234 - Bug Bot on 2019-08-09T22:53:39.034Z
+
+
+### Can reproduce.
+Can reproduce; iPhone 8 iOS 12.4; Discord TestFlight: 3.0.10 (16734)
+
+Boss#0006 - Bug Bot on 2019-08-09T22:53:44.018Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.4, TestFlight 3.1.0 (16734)
+
+.Gloria.#9606 - Bug Bot on 2019-08-10T00:11:40.360Z
+
+
+### Can reproduce.
+CR - iPhone Xs, iOS 13 PB 5, TestFlight Build 3.1.0 (16734)
+
+maximd#1122 - Bug Bot on 2019-08-10T02:18:28.566Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.1.0 (16734)
+
+binchlord#0998 - Bug Bot on 2019-08-10T04:29:23.854Z
+
+
+### Can reproduce.
+iPad Air (1st gen), iOS 12.4 - TF 3.1.0 (16734)
+
+Nicholas#4669 - Bug Bot on 2019-08-10T05:54:53.901Z
+
+
+### That is not an iOS Discord app bug, nor a client side one. It looks more like an underlying issue with the search API or elastic search.
+
+Moving to Not a bug. - Pascal on 2019-08-11T11:06:45.861Z
+
+
+### Moved from New Issues to Not a bug by Pascal on 2019-08-11T11:06:54.079Z
+
+
+### Can reproduce.
+Cr; iPhone XS, iOS 12.3.1, TestFlight 3.1.0 (16734)
+
+Error 404#4040 - Bug Bot on 2019-08-11T15:48:45.111Z
+
+
+### Archived by Bug Bot on 2019-09-10T16:00:37.848Z
+
+List
+====
+Not a bug
+
+Members
+=======
+None

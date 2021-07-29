@@ -1,0 +1,69 @@
+Receiving messages while you have the blue new message bar clears the new message bar (https://trello.com/c/lbFgd9sz)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-01-22T20:38:26.867Z
+Latest Update: 2018-09-10T21:13:26.550Z
+
+Reported by RunTime256#0264
+
+####Steps to reproduce:
+- Go to a channel with multiple unread messages (easily reproducible with 50+) 
+- Receive a new message in the channel while there are still unread messages
+
+####Expected result:
+Unread messages gets 1 more added to it, and bar remains there
+####Actual result:
+Unread message bar is cleared, marking all messages as read
+####Client settings:
+TestFlight 2.2.1 (2236)
+####System settings:
+iPhone 6s, 11.2.2
+
+8064
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-22T20:38:26.867Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.1 (2236)
+
+mrkirby153#7840 - Bug Bot on 2018-01-22T20:38:34.523Z
+
+
+### Can reproduce.
+iPhone 6 iOS 11.2.1  v2.2.0
+
+Ecstabis#6859 - Bug Bot on 2018-01-22T20:38:39.711Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 11.2.2 - TestFlight 2.2.1 (2336)
+
+webhp#5546 - Bug Bot on 2018-01-22T20:38:44.422Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.2 | iPad Air 2, iOS 11.2.5 PB 7, TestFlight (2336)
+
+Pascal#0929 - Bug Bot on 2018-01-22T20:44:27.191Z
+
+
+### Moved from User Reported Bugs to Chat rewrite bugs by Jared on 2018-01-22T21:08:16.341Z
+
+
+### Moved from Chat rewrite bugs to Verified Bugs by Fanghao on 2018-05-08T23:23:22.503Z
+
+
+### Moved from Backlog to Reopened by Victoria on 2018-09-10T21:13:26.531Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

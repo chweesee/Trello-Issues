@@ -1,0 +1,94 @@
+[Archived] Whenever a new game is played, the discord overlay automatically reverts to the top server on your server list. (https://trello.com/c/do4VR3xK)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2018-08-07T04:08:19.795Z
+Latest Update: 2019-01-01T15:51:24.284Z
+
+Reported by ZingBing#2609
+
+####Steps to reproduce:Launch discord canary 
+- go to server of choice
+- open game of choice 
+- press overlay keybind (shift & `)
+
+####Expected result:
+The overlay *should* initially be on the server that the player is in on the canary application
+####Actual result:
+The first time the overlay is opened in a game after it is launched, it always opens general chat on the top server
+####Client settings:
+Release Channel: canary, Build Number: 20849
+####System settings:
+Windows 10 Home Build 17134
+
+17071
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-07T04:08:19.795Z
+
+
+### Can reproduce.
+CR. Windows 10 Home SL 1803 x64 • Canary 20849
+
+MakiTheLegend#5027 - Bug Bot on 2018-08-07T04:08:27.104Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (20849) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-08-07T04:08:32.089Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 20849
+
+Frances Picard#6209 - Bug Bot on 2018-08-07T04:08:37.186Z
+
+
+### Can reproduce.
+[CR] Canary 20849 - Windows 10 Home x64
+
+VR#5448 - Bug Bot on 2018-08-07T04:44:04.097Z
+
+
+### Can't reproduce.
+Microsoft Surface 2 Windows 8.1 RT with Nvidia Tegra 4 processor 32 bit ARM
+
+Kaden303#4560 - Bug Bot on 2018-08-07T15:05:41.196Z
+
+
+### Moved from User Reported Bugs to Overlay Redesign Bugs by Clayton on 2018-08-07T21:39:42.479Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 20849
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-08T08:57:39.274Z
+
+
+### Verified - Jared on 2018-08-21T17:00:32.548Z
+
+
+### can no longer reproduce, it remembers the last place you viewed, submitted as part of the cleanup event - Tim on 2018-10-02T19:06:41.954Z
+
+
+### Moved from Overlay Redesign Bugs to Claimed Fixed, needs Verification by Tim on 2018-10-02T19:07:12.423Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-14T04:04:14.441Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:51:16.772Z
+
+
+### Archived by Tarek on 2019-01-01T15:51:24.285Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

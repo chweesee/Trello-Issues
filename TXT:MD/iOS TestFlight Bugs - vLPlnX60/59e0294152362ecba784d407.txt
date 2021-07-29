@@ -1,0 +1,92 @@
+[Archived] In a server or DM, rotating the image viewer then going to respective channel/friends list causes it to appear empty (https://trello.com/c/PvIjK5Lt)
+
+None
+
+Created: 2017-10-13T02:47:29.584Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by homonovus#4445
+
+####Steps to reproduce:
+- Open any image preview 
+- Rotate screen to view sideways 
+- Exit viewer and look at friends list
+
+####Expected result:
+Friends list to be populated
+####Actual result:
+Friends list is empty
+####Client settings:
+Testflight 1.9.2, build 953
+####System settings:
+iPhone 6+, iOS 10.2.1
+
+5374
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-13T02:47:29.584Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59e0294152362ecba784d407/7f7a0f4bddeba3c3ad98a4a872fab0e4/Uaaz8Y9.png added by Bug Bot on 2017-10-13T02:47:32.221Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59e0294152362ecba784d407/f2553102e81a71e36ee57c9250f6cf42/B73weYy.png added by Bug Bot on 2017-10-13T02:47:32.272Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3, TestFlight 1.9.2 (953). You must rotate your screen twice (first rotate for landscape mode and second rotate for the portrait mode). The reporter probably meant with friend list the list of your direct messages.
+
+Pascal#0929 - Bug Bot on 2017-10-13T02:47:37.177Z
+
+
+### Can reproduce.
+iOS 11.0.3 (15A432), iPhone 6, TestFlight 1.9.2 (953)
+
+Ten 🎃#1723 - Bug Bot on 2017-10-13T02:47:42.056Z
+
+
+### Can reproduce.
+CR, open image, rotate landscape, rotate back to portrait, close image and check friends list, TestFlight 1.9.2 (953), iPhone 7, iOS 11.0.2
+
+QwakGoesDuck#9672 - Bug Bot on 2017-10-13T02:47:47.050Z
+
+
+### Can reproduce.
+iPhone 6S ios 11.0.1 Testflight 1.9.2 (953)
+
+Fonytony#4268 - Bug Bot on 2017-10-16T02:10:26.341Z
+
+
+### @shadiisber prob need to add 'extraData' to list while rotate. - Fanghao on 2017-10-16T18:26:10.243Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Shadi Isber on 2017-10-21T00:10:57.425Z
+
+
+### I am no longer able to reproduce, the friend list is not empty after closing the image.
+
+​Discord 1.9.3 (1268), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-24T14:58:51.061Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2017-10-24T14:59:01.498Z
+
+
+### Can't reproduce, marking as Verified Fixed. - Jared on 2017-10-25T19:36:55.920Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-10-25T19:36:59.061Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:29:50.623Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:29:52.765Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

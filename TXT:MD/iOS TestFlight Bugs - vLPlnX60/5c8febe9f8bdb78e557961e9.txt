@@ -1,0 +1,85 @@
+[Archived] Attempting to sync a linked twitch account that has its password changed fails silently (https://trello.com/c/zdWcz7hK)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-18T19:05:13.390Z
+Latest Update: 2019-05-09T20:30:06.813Z
+
+Reported by evilpauwse#9985
+
+####Steps to reproduce:
+- Link a twitch to your account that has subscriptions enabled 
+- Go to the integrations tab 
+- Change the password on the twitch channel  
+- Press the "sync" button on the integrations tab
+
+####Expected result:
+It should error out instantly as you don't have access to the account anymore
+####Actual result:
+It loads infinitely
+####Client settings:
+TF 12095
+####System settings:
+iPhone SE - iOS 12.0.0
+
+31246
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-18T19:05:13.390Z
+
+
+### Can reproduce.
+TestFlight 12095 iPhone 7+ iOS 12.0
+
+! DreaMMM#4257 - Bug Bot on 2019-03-18T19:05:20.951Z
+
+
+### Can reproduce.
+iphone 8 ios 12.1.4, tf 2.4.6 ( 12095)
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-18T19:05:25.885Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight  2.4.6 (12095)
+
+Killtracity#0001 - Bug Bot on 2019-03-18T19:05:30.953Z
+
+
+### Can reproduce.
+cr, iPhone 8 iOS 12.1.4 - Discord Testflight V2.4.6
+
+tonite#0001 - Bug Bot on 2019-03-18T22:45:21.886Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.6 (12095)
+
+Daffyduck#5364 - Bug Bot on 2019-03-19T04:09:55.673Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.1.4, TestFlight 2.4.6 (12026)
+
+tech_dude1#9855 - Bug Bot on 2019-03-19T04:43:01.221Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 2.4.6 (12095)
+
+Skyla#0002 - Bug Bot on 2019-03-20T15:45:47.181Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-03-29T19:00:04.400Z
+
+
+### Archived by Bug Bot on 2019-05-09T20:30:06.826Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

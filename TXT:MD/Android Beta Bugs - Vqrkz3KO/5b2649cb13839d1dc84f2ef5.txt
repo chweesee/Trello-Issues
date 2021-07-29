@@ -1,0 +1,82 @@
+[Archived] New quick switcher window leaves a bit of space at the bottom while in split screen mode. (https://trello.com/c/BcOzjK8X)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-17T11:45:15.598Z
+Latest Update: 2019-01-01T23:09:39.475Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Open Discord and toggle split screen mode. 
+- Resize Discord so that it occupies 1/3rd (minimum) size of the screen and tap on it to focus the Discord app. 
+- Slide from left to right, to open side panel and click on quick switcher icon at the bottom. 
+- Notice the keyboard pops up, close it using navigation back button on your device. 
+- Now at the end, resize Discord to 1/2 screen size (occupying half of the screen) while the quick switcher is open and keyboard closed. 
+- Retry from step one if you don't get it at the first time.
+
+####Expected result:
+Quick switcher should adjust itself to size of Discord app while in split screen mode.
+####Actual result:
+Quick switcher leaves an empty space at the bottom ONLY when doing the reproducible steps above accurately!
+####Client settings:
+Discord Alpha 6.9.5
+####System settings:
+Xiaomi Mi A1, Android 8.0.0
+
+14269
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-17T11:45:15.598Z
+
+
+### Ori#1908 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b2649cb13839d1dc84f2ef5/4100d0218727ed8a0899460add9f60c4/Screenshot_20180617-144650-01.jpeg added by Bug Bot on 2018-06-17T11:45:18.075Z
+
+
+### Can reproduce.
+Can reproduce, but at one point quickswitcher reopens if you resize discord too big ~ Samsung Galaxy J7 Prime ~ Android 7.0 SE 8.1 ~ Discord Alpha 695
+
+Lava#9562 - Bug Bot on 2018-06-17T11:45:22.930Z
+
+
+### Can reproduce.
+Discord Alpha 6.9.5, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-06-17T11:45:27.928Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 6.9.5
+
+Bencey_#8587 - Bug Bot on 2018-06-17T11:45:32.938Z
+
+
+### Verified, samsung s6 edge, android 7.0, alpha 6.9.5 - Clayton on 2018-06-18T21:48:51.112Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-18T21:48:57.735Z
+
+
+### cnr, 7.0.5 - Clayton on 2018-07-11T23:10:22.130Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Clayton on 2018-07-11T23:10:27.693Z
+
+
+### Moved from Cannot Reproduce to Fixed Bugs by Clayton on 2018-07-11T23:10:38.465Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:09:38.758Z
+
+
+### Archived by Tarek on 2019-01-01T23:09:39.478Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

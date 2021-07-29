@@ -1,0 +1,161 @@
+Chat scrolls up a bit when adding a reaction (https://trello.com/c/ddsggCFC)
+
+low,
+P2 - Can wait a while
+
+Created: 2017-10-25T11:54:39.727Z
+Latest Update: 2019-12-02T23:26:26.227Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Find a very long (the longer the better) message with some reactions 
+- Scroll a bit in this channel (bug doesn’t work when you are at the end of the chat) 
+- Try to add a reaction by clicking on present reactions (I would recommend to try it with the first row reactions)
+
+####Expected result:
+The chat position should stay when adding a reaction.
+####Actual result:
+It automatically scrolls up a bit and changes chat position.
+####Client settings:
+TestFlight 1.9.3 (1286)
+####System settings:
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5
+
+5751
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-25T11:54:39.727Z
+
+
+### Can reproduce.
+CR, needed to repro a few times before the bug appeared. iPhone 6s, ios 11.0.3 with testflight 1.9.3 (1286)
+
+Jakob#6834 - Bug Bot on 2017-10-25T11:54:47.387Z
+
+
+### Can reproduce.
+CR, iPhone 8+, iOS 11.0.3, Discord TestFlight 1.9.3 (1286)
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-25T11:54:52.421Z
+
+
+### Can reproduce.
+CR, iphone6s, ios 11.0.3, Testfligr 1.9.1 (1286) | while scrolling up a bunch then down, my scroll bar was jumpy and inconsistent aswell
+
+Blizzyrd#7909 - Bug Bot on 2017-10-25T11:54:57.396Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.1 Public Beta 5, Discord TestFlight 1.9.3 (1286)
+
+TheGamateers#6918 - Bug Bot on 2017-10-25T20:47:42.664Z
+
+
+### I can no longer reproduce, the chat doesn’t move at all. 
+
+Discord 1.9.3 (1336), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-26T14:23:53.157Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed Bugs by Alexandru Todea on 2017-10-26T14:24:07.233Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-26T20:29:06.458Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T21:38:30.511Z
+
+
+### Can't reproduce.
+iPhone 6 10.3.2 TestFlight 2.2.1 (2236)
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T22:21:45.802Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T23:20:53.654Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:15:29.187Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:15:33.358Z
+
+
+### Moving to reopened as dupe ticket https://trello.com/c/scJRxDPW submitted - Mike Nisbet on 2018-03-08T19:01:06.675Z
+
+
+### Moved from Verified Fixed to Reopened by Mike Nisbet on 2018-03-08T19:01:13.320Z
+
+
+### I can no longer reproduce, chat position doesn't change.
+
+Discord 2.2.5 (3054), iOS 11.2.6, iPhone 8 Plus - Alexandru Todea on 2018-03-16T18:20:58.569Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Alexandru Todea on 2018-03-16T18:21:03.566Z
+
+
+### Can reproduce.
+iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054)
+Can still reproduce, maybe this extra info here https://trello.com/c/scJRxDPW can help. Seems it is also limited to user messages, not working with bots.
+
+Pascal#0929 - Bug Bot on 2018-03-16T22:49:04.230Z
+
+
+### Pascal#0929 - https://i.imgur.com/Iy9JT7p.gifv added by Bug Bot on 2018-04-10T15:08:18.403Z
+
+
+### I can still reproduce this bug on iPhone 8 Plus running iOS 12 (Developer Beta) with Discord Stable 2.3.3. The chat automatically scrolls back a slightly. You will need to use Falco / Clayton's message in announcements in DTesters in order to reproduce. 
+
+So because I was able to reproduce. I am moving this back to Reopened again.  - Ghoul on 2018-06-06T01:21:26.686Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Ghoul on 2018-06-06T01:21:35.445Z
+
+
+### I checked this ticket during the Trello Event and I am STILL able to reproduce this bug as of Discord TestFlight 2.3.4 (5560). When I have the message with the emojis partly at the button, and I react with one of the emojis, my chat will automatically scroll up a bit. 
+
+I used iPhone 8 + running iOS 12 (Dev Beta 2), but I will leave this ticket where it is. - Ghoul on 2018-07-02T23:51:18.242Z
+
+
+### Can reproduce.
+Can still Reproduce this on: iPhone 6, iOS 12 (dev beta 12) - Stable 2.3.7
+
+Xylium#1480 - Bug Bot on 2018-09-05T21:41:31.292Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1.4 - TestFlight 2.4.6 (12095)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-03-21T16:45:53.166Z
+
+
+### Can reproduce.
+iPhone XS Max 12.3.1, Stable 3.0.2
+
+SPHHAX#0001 - Bug Bot on 2019-06-06T20:00:48.277Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.3.1
+
+Sabrina Spellman#2500 - Bug Bot on 2019-06-09T13:23:30.201Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

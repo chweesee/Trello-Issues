@@ -1,0 +1,80 @@
+[Archived] Discord window grows every time it's opened (after being closed or minimised) (https://trello.com/c/8uYsp5nq)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-10-19T23:27:29.052Z
+Latest Update: 2019-01-11T00:01:11.490Z
+
+Reported by OmenemO#0322
+
+####Steps to reproduce:
+- Set Windows 10 display scale to a custom factor (eg. 120%) 
+- open discord 
+- minimise discord 
+- restore discord window
+
+####Expected result:
+The discord window would remember it's size and location
+####Actual result:
+The discord window grows in size every time it's bought back from being closed or minimised.
+####Client settings:
+Release Channel: stable, Build Number: 26433, Version Hash: 10db165fe35858dfb89d6508a46717c1296b3ebc
+####System settings:
+Windows 10
+
+21619
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-19T23:27:29.052Z
+
+
+### Blastoise186#7194 - https://youtu.be/_HOds0cwPzc added by Bug Bot on 2018-10-19T23:27:31.494Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 26581 -  This shows the width of Discord at each up and down. (Last one I hit the peak for height so it was smaller increase) https://puu.sh/BNGqr/7f36045ce4.png
+
+Alipoodle#5025 - Bug Bot on 2018-10-19T23:27:36.411Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26581
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-19T23:27:41.382Z
+
+
+### Can reproduce.
+can reproduce Windows 10 Pro x64 canary build 26622
+
+Azrael#6867 - Bug Bot on 2018-10-19T23:27:46.379Z
+
+
+### verified, win10 - Clayton on 2018-10-20T01:09:12.045Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-20T01:09:18.673Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26655
+
+Hole#0001 - Bug Bot on 2018-10-20T04:22:16.871Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26655
+
+Neiron#7777 - Bug Bot on 2018-10-20T06:44:53.313Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:11.493Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

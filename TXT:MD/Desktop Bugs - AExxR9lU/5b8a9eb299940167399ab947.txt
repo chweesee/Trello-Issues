@@ -1,0 +1,82 @@
+[Archived] Underline formatting doesn't get escaped for category names for category synced/not synced info (https://trello.com/c/7mXEzhEI)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-01T14:14:10.184Z
+Latest Update: 2018-10-22T20:26:56.232Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Make sure you have manage channels permission 
+- Create a category with a underline formatting in its name (e.g. `__Test__`) 
+- Add a channel to this category 
+- Edit the channel 
+- Go to permissions 
+- Observe the permissions sync/not synced with category warning
+
+####Expected result:
+Underline should get escaped as all other Markdown formatting.
+####Actual result:
+You see the category name as underlined.
+####Client settings:
+Canary Build 23013
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6
+
+18810
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-01T14:14:10.184Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b8a9eb299940167399ab947/16a833dbfafe5d9420db616544598e28/Zqp93PT.png added by Bug Bot on 2018-09-01T14:14:12.535Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (23013) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-09-01T14:14:17.505Z
+
+
+### Can reproduce.
+When I try to view the permissions on iOS, Discord crashes. Desktop Canary displays as shown in attached image. MacBook Pro 13" 10.13.6, Canary 23013 - iPhone X, iOS 12 Developer Beta 12, TestFlight 2.3.7 (6968)
+
+Alfie#1582 - Bug Bot on 2018-09-01T14:14:22.512Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 21013
+
+Frances Picard#6209 - Bug Bot on 2018-09-01T14:14:27.516Z
+
+
+### Can reproduce.
+CR on Windows 10 Home; Canary Build 23013
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-09-02T02:36:31.104Z
+
+
+### Can reproduce.
+Macbook Air • macOS Sierra 10.12.6 • Canary 23013
+
+Rage#9991 - Bug Bot on 2018-09-02T14:19:22.928Z
+
+
+### verified, macos 10.12.6, canary 23018 - Clayton on 2018-09-04T19:49:29.107Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-04T19:49:36.638Z
+
+
+### Archived by Clayton on 2018-10-22T20:26:56.234Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

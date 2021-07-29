@@ -1,0 +1,99 @@
+[Archived] Banner may go invisible after window size change when hidden (https://trello.com/c/8AcMbgcD)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-08T19:24:39.147Z
+Latest Update: 2019-10-23T23:02:25.194Z
+
+Reported by KazWolfe#2896
+
+####Steps to reproduce:
+- Navigate to a verified guild with a banner without channel scrollbar (you may need to collapse categories if you can't find one) 
+- Open Inspector or change window size so the scrollbar appears 
+- Scroll down enough to hide banner 
+- Switch to a guild without banner 
+- Resize the window back to full, or close Inspector 
+- Switch back to original bannered guild
+
+####Expected result:
+The banner should appear again instead of disappearing and leaving a blank space
+####Actual result:
+The banner is invisibile and the guild acts as though there is no banner, but a space is present.
+####Client settings:
+Discord Canary 33599, 80% zoom on screen
+####System settings:
+Ubuntu 18.04 LTS, Gnome 3.28.2 - Screen size 3840x2160
+
+30532
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-08T19:24:39.147Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 33599
+
+Aeria#9096 - Bug Bot on 2019-03-08T19:24:46.542Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Canary build 33599
+
+SerbianPG#2287 - Bug Bot on 2019-03-08T19:24:51.613Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 33599
+
+Clay#0001 - Bug Bot on 2019-03-08T19:24:56.564Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Canary 33633
+
+average idiot on the internet#0274 - Bug Bot on 2019-03-08T23:58:23.464Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 33633
+
+Daffyduck#5364 - Bug Bot on 2019-03-09T00:09:38.055Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 33633
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-09T02:19:31.380Z
+
+
+### Can reproduce.
+CR; Canary: 33633, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-09T11:45:55.919Z
+
+
+### Can reproduce.
+CR MacOS 10.12.6 Sierra Mac Pro (Mid 2010) Canary Build 33683
+
+Starfield_9#8660 - Bug Bot on 2019-03-10T23:54:19.750Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T20:58:47.274Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 36318
+
+Isabel#0002 - Bug Bot on 2019-04-25T09:02:19.734Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:25.206Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

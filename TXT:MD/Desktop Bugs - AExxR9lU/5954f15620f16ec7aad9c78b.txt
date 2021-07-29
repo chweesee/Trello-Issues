@@ -1,0 +1,77 @@
+[Archived] When using the substitute command (s/text/text here) and try to replace text with an emoji, the emoji doesn't parse (https://trello.com/c/5vaG63ds)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-29T12:23:50.571Z
+Latest Update: 2018-10-22T20:14:26.158Z
+
+Reported by NdT3#0717
+
+####Steps to reproduce:
+- Send a message 
+- Use the substitution command to add a GLOBAL emoji to the end of the message
+
+####Expected result:
+The global emoji should parse correctly into an emoji like it does if the same steps are followed with normal emojis
+####Actual result:
+The global emoji keeps the colons on the side and doesn't show properly
+####Client settings:
+Discord Canary 0.0.157
+####System settings:
+Windows 10
+
+1942
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-29T12:23:50.571Z
+
+
+### NdT3#0717 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5954f15620f16ec7aad9c78b/aba3aeef1ef1495c59f40fb95801ef55/5d02e4.gif added by Bug Bot on 2017-06-29T12:23:53.404Z
+
+
+### NdT3#0717 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5954f15620f16ec7aad9c78b/810351e15383e7ded52c0d50989e8aef/5ead3c.gif added by Bug Bot on 2017-06-29T12:23:53.417Z
+
+
+### Can reproduce.
+Reproduced, Windows 10 x64 Creators Update, Stable 0.0.297
+
+Pretty Lightningreed (PL)#0875 - Bug Bot on 2017-06-29T12:23:55.438Z
+
+
+### Can reproduce.
+Can repro, Windows 10 x64 Creators, latest Canary
+
+TTtie#4900 - Bug Bot on 2017-06-29T12:23:57.428Z
+
+
+### Can reproduce.
+CR Windows 10 pro 64-bit Build 1607 Discord Stable 0.0.297
+
+Tarek1337#0379 - Bug Bot on 2017-06-29T12:23:59.900Z
+
+
+### Verified.  - Clayton on 2017-06-29T19:47:56.708Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-29T19:48:04.384Z
+
+
+### Can reproduce.
+Gentoo 64-bit default/linux/amd64/13.0, Canary 0.0.19
+
+Info Teddy#3737 - Bug Bot on 2017-07-03T01:45:26.893Z
+
+
+### Unsure if bug or feature request. Low-mid priority - Jared on 2017-10-17T06:46:38.495Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:26.160Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

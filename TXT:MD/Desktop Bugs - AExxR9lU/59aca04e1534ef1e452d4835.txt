@@ -1,0 +1,77 @@
+[Archived] When playing GIFS, individual frame times are ignored. (https://trello.com/c/CHG1UvUf)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-04T00:37:34.888Z
+Latest Update: 2018-10-22T20:15:29.149Z
+
+Reported by Kapten-N#0629
+
+####Steps to reproduce:
+- Create a GIF with 40 ms frames. 
+- Make the last frame 2000 ms. 
+- Create same GIF but make the last frame 40 ms and repeat it 50 times instead. Ensure that the program doesn't optimise it to a single 2000 ms frame! With Screen To Gif (free tool) you can do this by unchecking "Detect unchanged pixels" when saving. 
+- Upload both gifs in a Discord chat. Or upload on imgur or Gfycat and post a link. I think imgur has the same problem, but Gfycat doesn't. 
+- In the first GIF the last frame is played as fast as the other frames. The second GIF plays as intended though.
+
+####Expected result:
+Discord should take individual frame times into account. If the last frame is 2 s long it should be shown for 2 s.
+####Actual result:
+If the other frames are 40 ms, the last frame will be shown for 40 ms, even if it is set as 2 s.
+####Client settings:
+Stable 0.0.298
+####System settings:
+Windows 7 Professional SP1 Version 6.1 Build 7601
+
+3887
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-04T00:37:34.888Z
+
+
+### Tobias#5233 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59aca04e1534ef1e452d4835/0b759677c2bb77b98862c20fd085a82f/SafeParallelDogwoodtwigborer-size_restricted.gif added by Bug Bot on 2017-09-04T00:37:39.850Z
+
+
+### Tobias#5233 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59aca04e1534ef1e452d4835/48d9b351f0711676149d4b7e234d50ee/SpicyHardDassie-size_restricted.gif added by Bug Bot on 2017-09-04T00:37:40.287Z
+
+
+### Can reproduce.
+Can repro, on the first link attached is last frame is very quickly skipped, while the second one is correctly waited for the set time. - Windows 10 x64 B1703 - Discord Canary 0.0.163 B3838
+
+Tobias#5233 - Bug Bot on 2017-09-04T00:37:43.214Z
+
+
+### Can reproduce.
+CR, Discord Canary v0.0.163, Windows 10 Home (Creator's Update) x64
+
+P4risAndStuff#7243 - Bug Bot on 2017-09-04T00:37:48.072Z
+
+
+### Can reproduce.
+Windows 10 Home (Creators Update) x64, Canary 0.0.163
+
+DeJay#3628 - Bug Bot on 2017-09-04T00:37:53.038Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary (Latest Version)
+
+Zacatero#5839 - Bug Bot on 2017-09-04T06:13:09.179Z
+
+
+### Verified.  - Clayton on 2017-09-04T23:35:49.248Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-04T23:35:56.387Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:29.155Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

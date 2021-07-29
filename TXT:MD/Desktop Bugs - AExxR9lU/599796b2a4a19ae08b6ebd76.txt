@@ -1,0 +1,86 @@
+Modifying the "View Channel" permission incorrectly records as "Read Messages" in the audit logs. (https://trello.com/c/nghQnVYp)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-08-19T01:38:58.303Z
+Latest Update: 2019-09-23T22:30:07.389Z
+
+Reported by Tyler#0130
+
+####Steps to reproduce:
+- Click on the settings cog for a voice channel. 
+- Select the Permissions tab. 
+- Change the new "View Channel" permission to allow or deny. 
+- Go to Server Settings and select "Audit Log" to view how it records.
+
+####Expected result:
+I would expect the audit log to report that the "View Channel" permission was modified.
+####Actual result:
+The audit log reports that the "Read Messages" setting was modified (probably just an oversight).
+####Client settings:
+Discord Canary (v0.0.154)
+####System settings:
+Mac OS 10.10
+
+3390
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-19T01:38:58.303Z
+
+
+### Can reproduce.
+MacBook Pro 13" 2012, macOS Sierra 10.12.4 Discord Canary 0.0.154
+
+Sade66#0115 - Bug Bot on 2017-08-19T01:39:05.789Z
+
+
+### Can reproduce.
+W10 x64 Canary 0.0.163
+
+HyperCoder#2975 - Bug Bot on 2017-08-19T01:39:10.890Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-19T01:39:15.779Z
+
+
+### Can reproduce.
+Windows 7 Home Premium x64, Discord Canary v0.0.163
+
+dross#1913 - Bug Bot on 2017-08-19T15:41:05.454Z
+
+
+### The "View Channel" permission appears to have been removed currently. Skipping this for now until I know what's going on. - Jared on 2017-08-21T20:40:05.836Z
+
+
+### Verified.  - Clayton on 2017-09-08T21:01:00.700Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-08T21:01:09.357Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:49:11.953Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:44:48.968Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599796b2a4a19ae08b6ebd76/d85be523298f3de658d86ec7641bfdad/fEcFT3T.gif added by Bug Bot on 2018-07-14T09:36:29.696Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 36128
+
+Isabel#0002 - Bug Bot on 2019-04-21T13:17:53.811Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

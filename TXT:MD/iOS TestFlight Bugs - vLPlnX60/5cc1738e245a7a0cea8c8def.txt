@@ -1,0 +1,122 @@
+[Archived] Entering an emote and deleting all text while emoji keyboard is open will not trigger auto caps (https://trello.com/c/NfwxsZGk)
+
+None
+
+Created: 2019-04-25T08:45:02.137Z
+Latest Update: 2019-05-31T20:30:20.391Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Open the emoji keyboard in a channel you can type in 
+- Make sure you have auto caps turned on 
+- Tap on any emote 
+- Delete all the text 
+- Switch to the ABC keyboard 
+- Verify caps is off 
+- Try tapping the delete button (this would normally trigger auto-caps if you turned caps off)
+
+####Expected result:
+Caps should turn on due to auto-caps
+####Actual result:
+Caps does not turn on until you type and send a message
+####Client settings:
+TestFlight 2.5.2 (14408)
+####System settings:
+iPhone 6s iOS 12.3 Dev Beta 2
+
+33441
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-25T08:45:02.137Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.3 (dev beta 2) - Stable 3.0.0
+
+Xylium#5800 - Bug Bot on 2019-04-25T08:45:09.495Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 2.5.2 (14408)
+
+Skyla#0002 - Bug Bot on 2019-04-25T08:45:14.561Z
+
+
+### Can reproduce.
+CR iPhone 8  TF 2.5.2 (14408) | iOS 12.3
+
+tonite#0001 - Bug Bot on 2019-04-25T08:45:19.514Z
+
+
+### Can reproduce.
+iPhone 6, IOS 12.3, tfl 2.5.2
+
+[CLASSIFIED]#9999 - Bug Bot on 2019-04-25T09:11:22.255Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.2 | TestFlight 2.5.2 (14408)
+
+Clay#0001 - Bug Bot on 2019-04-25T21:18:02.608Z
+
+
+### Can reproduce.
+CR - Can Reproduce - iPhone 6s - iOS 12.1 - TestFlight 2.5.2 (14408)
+
+jedi3#0001 - Bug Bot on 2019-04-25T22:38:39.923Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2 - TestFlight 2.5.2 (14408)
+
+Daffyduck#5364 - Bug Bot on 2019-04-26T00:14:19.396Z
+
+
+### Can reproduce.
+ipad air 2 ios 12.2, tf 2.5.2 (14408)
+
+Pain#2020 - Bug Bot on 2019-04-26T01:25:03.314Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.5.2 (14408)
+
+Jengas#7777 - Bug Bot on 2019-04-26T08:28:18.461Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.2, TestFlight 2.5.2 (14408)
+
+Solo#0007 - Bug Bot on 2019-04-26T21:45:17.377Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.5.2 (14408)
+
+Killtracity#0001 - Bug Bot on 2019-04-27T01:35:02.202Z
+
+
+### I cannot reproduce this bug as of iPhone XS Max running iOS 12.3 Dev Beta 1 on iOS TestFlight 3.0.1 (14476).
+
+I've tried this bug multiple times, but I did not have any success. So I'm going to move this ticket to Cannot Reproduce, but I will take a look if you feel like there is a better reproduction steps that would help me to test and repro. - Ghoul on 2019-04-30T06:42:05.032Z
+
+
+### Moved from New Issues to Cannot Reproduce by Ghoul on 2019-04-30T06:42:16.139Z
+
+
+### The bug in this is that when you select and delete a custom emote from the emoji picker, switching to the ABC keyboard will act like the name of the emote is still typed in the message bar
+
+Rashaun#8467 - Bug Bot on 2019-05-01T20:12:25.084Z
+
+
+### Archived by Bug Bot on 2019-05-31T20:30:20.403Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,96 @@
+[Archived] Tutorial messages are getting in the way of screen readers and I can't dismiss them without sighted assistance. (https://trello.com/c/n6tcApsP)
+
+None
+
+Created: 2019-05-09T22:09:36.599Z
+Latest Update: 2020-06-27T04:30:42.993Z
+
+Reported by SightlessKombat#0701
+
+####Steps to reproduce:
+- Using NVDA on Windows 10, go into discord. 
+- The first screen after the client loads should just read as blank blank blank when pressing up and down arrows, with the occasional reading of "dialogue. 
+- Find the line that says "dialogue" and press enter on it, at which point the tutorial message or other content should clear and allow for correct browsing of the window, even if some elements aren't interacting correctly (something for future bug reports).
+
+####Expected result:
+The tutorial messages should read and be dismissable via keyboard commands with a screen reader, but aren't at present
+####Actual result:
+Nothing reads with the screen reader until enter is pressed on "dialogue"
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 36945, Version Hash: 66570549bcc9af50b39b677f0523cbc35f382ac1
+####System settings:
+Microsoft Windows 10 Version 1803 (OS Build 17134.706)
+
+34056
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-09T22:09:36.599Z
+
+
+### Can reproduce.
+Windows 10 PRO 64 Bit (Version 1903), Release Channel: canary, Build Number: 37179, Version Hash: 8da1f28dd34da4de7bfd195737a28b92aead12b5
+
+Cam#7527 - Bug Bot on 2019-05-09T22:09:43.970Z
+
+
+### Can reproduce.
+canary, Build Number: 37253, Version Hash: 818758a6ad5e844be56a5ff543f0db672f01bc1c windows 10 64 bit version 1803 NVDA version 2019.1
+
+thetechguy#6929 - Bug Bot on 2019-05-09T22:09:48.967Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 37253
+
+Action Potential#2494 - Bug Bot on 2019-05-09T22:09:54.026Z
+
+
+### Moved from User Reported Bugs to a11y by Tarek on 2019-05-11T22:16:51.212Z
+
+
+### Can reproduce.
+Windows 10 Insider Preview build 18898
+
+Ridge#0765 - Bug Bot on 2019-06-04T12:07:12.702Z
+
+
+### Can reproduce.
+Windows 10 Insider Preview build 18898, Discord Canary 39048, NVDA 2019.1.1.17041
+
+Ridge#0765 - Bug Bot on 2019-06-04T12:08:38.638Z
+
+
+### Moved from a11y to Claimed Fixed, needs Verification by Joey Baker on 2020-02-11T00:32:15.994Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Pro, Canary 54954
+
+Action Potential#1999 - Bug Bot on 2020-02-23T19:04:57.356Z
+
+
+### Can't reproduce.
+Can no longer reproduce, Windows 10 Home 64 bit, Discord Canary 55309.
+
+Alister#0018 - Bug Bot on 2020-03-01T21:27:01.041Z
+
+
+### Can't reproduce.
+couldnt reproduce, Windows 10, PTB 60661
+
+OrangeM24#5746 - Bug Bot on 2020-05-28T04:14:58.942Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2020-05-28T04:14:59.290Z
+
+
+### Archived by Bug Bot on 2020-06-27T04:30:43.000Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

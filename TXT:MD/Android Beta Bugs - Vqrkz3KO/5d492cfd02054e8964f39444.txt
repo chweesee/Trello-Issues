@@ -1,0 +1,92 @@
+[Archived] If you click on a OAuth2 link with a scope that doesn't exist, the splash screen will close immediately with a strange toast saying "0" (https://trello.com/c/Rc1WGgBw)
+
+None
+
+Created: 2019-08-06T07:32:14.083Z
+Latest Update: 2020-02-20T21:33:28.118Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Post a dummy OAuth2 link with any client ID and a scope that doesn't exist (e.g xxx) 
+- Click the link
+
+####Expected result:
+It should tell you that scope is unsupported / non-existant in a proper way
+####Actual result:
+The error message is just a  toast saying "0"
+####Client settings:
+Discord Alpha 9.3.8-SAO-HEATHCLIFF
+####System settings:
+Huawei Mate 9 Android 9.0
+
+41483
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-06T07:32:14.083Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Android 5.0 Android Alpha 9.3.8-SAO-Heathcliff
+
+Karasu#0013 - Bug Bot on 2019-08-06T07:32:21.590Z
+
+
+### Can reproduce.
+CR on Windows 10, Canary 42647, seems it's cross platform
+
+Gugu72#2059 - Bug Bot on 2019-08-06T07:32:26.582Z
+
+
+### Can reproduce.
+[CR] Xiaomi Redmi 4x, 7.1.2 N2G47H, Android alpha 9.3.3
+
+KlukCZ#6589 - Bug Bot on 2019-08-06T07:32:31.620Z
+
+
+### Can reproduce.
+LG K7, 5.1.1 - Alpha 9.3.8
+
+Ness#5718 - Bug Bot on 2019-08-06T07:37:25.730Z
+
+
+### Can reproduce.
+LG Stylo 4 | Android 8.1 | alpha 938
+
+charleskimbac#6492 - Bug Bot on 2019-08-06T10:24:34.654Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.3.8
+
+AHkhan#6518 - Bug Bot on 2019-08-06T11:41:19.878Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 9.3.8
+
+Skyla#0002 - Bug Bot on 2019-08-06T18:01:57.303Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.3.8
+
+Krobo#4784 - Bug Bot on 2019-08-07T09:03:23.404Z
+
+
+### Can reproduce.
+Can reproduce, Discord 938 - Redmi Note 3 - Android 6.0.1 - MIUI Global 10.2
+
+Hawlucha#2061 - Bug Bot on 2019-08-12T02:44:03.692Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:28.128Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,94 @@
+[Archived] Toggline the NSFW channel option on/off and pressing save shows the toggle in the previous position when closing (https://trello.com/c/0VFgCuwM)
+
+None
+
+Created: 2018-10-07T22:48:23.291Z
+Latest Update: 2019-10-17T13:27:31.450Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to a server where you can manage channels 
+- Go into the channel settings of a random channel 
+- Toggle the NSFW channel option on/off 
+- Leaving the NSFW channel toggle in view, tap save 
+- Observe the toggle as the channel settings close
+
+####Expected result:
+NSFW channel toggle stays in the position you toggled it to
+####Actual result:
+NSFW channel toggle flashes as the previous toggle when the page is closing
+####Client settings:
+TestFlight 2.3.9 (8085)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta 2
+
+20799
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-07T22:48:23.291Z
+
+
+### Can reproduce.
+Can reproduce, iPad Mini 2 running iOS 11.0.3; TestFlight 2.3.9 (8085)
+
+red#7992 - Bug Bot on 2018-10-07T22:48:30.618Z
+
+
+### Can reproduce.
+with a couple attempts i Can Reproduce but also need to watch closely. iPhone 6, iOS 12.1 (dev beta 2) - TestFlight 2.3.9 (8085)
+
+Xylium#1480 - Bug Bot on 2018-10-07T22:48:35.701Z
+
+
+### Can reproduce.
+iPhone 7 Plus IOS 12; TestFlight 2.3.9 (8085)
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-07T22:48:40.601Z
+
+
+### Can't reproduce.
+Cannot reproduce. iPhone XS Max, iOS 12.1 Dev Beta 2 - TestFlight 2.3.9 (8085)
+
+Alfie#1582 - Bug Bot on 2018-10-07T22:49:05.012Z
+
+
+### Can't reproduce.
+iPhone 8, iOS 12.0.1
+
+DuckMasterAl#0001 - Bug Bot on 2018-10-15T19:54:01.869Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-19T19:00:02.455Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:38.099Z
+
+
+### Can reproduce.
+Also happens with slowmode value - iPhone SE, iOS 11.1.2 - Discord TestFlight 2.4.4 (11051)
+
+Arnold0#7514 - Bug Bot on 2019-02-05T16:50:47.435Z
+
+
+### Unarchived by Bug Bot on 2019-02-05T17:00:04.759Z
+
+
+### I am moving this ticket to Won't Fix because the NSFW toggle was removed from the iOS application to comply with the Apple's Terms of Service.
+
+However, as for the mentioned extension - slowmode value and the fact that you have to watch it closely. I'm going to declare this as Too Minor, regardless of whether the NSFW toggle was removed or not. - Ghoul on 2019-04-02T04:55:32.145Z
+
+
+### Moved from Backlog to Won't Fix by Ghoul on 2019-04-02T04:55:37.540Z
+
+
+### Archived by Bug Bot on 2019-05-02T05:00:19.546Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

@@ -1,0 +1,64 @@
+[Archived] using auto fill on phone verification number attempts to auto fill both county code and actual number (https://trello.com/c/4enp8Qrx)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-10-02T17:13:23.056Z
+Latest Update: 2018-11-02T00:30:02.018Z
+
+Reported by meddling.dystrophy#2835
+
+####Steps to reproduce:
+- enter a server with a level 5 verification security with an account with an unverified number 
+- click verify phone 
+- click the auto fill suggested number and observe
+
+####Expected result:
+the number will auto fill correctly
+####Actual result:
+it appears to attempt to fill both the country code and actual number
+####Client settings:
+Android Alpha 7.5.7 (757)
+####System settings:
+Google Pixel 2 ; Android 9
+
+20342
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-02T17:13:23.056Z
+
+
+### Can reproduce.
+CR. Motorola G 2015, Android 8.1, Discord Alpha 7.6.1 - It fills the starting of your number in the country code till it gets filled to its max.
+
+Avenger™#6259 - Bug Bot on 2018-10-02T17:13:30.488Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.6.0
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-02T17:13:35.497Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8; 7.6.0
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-02T17:13:40.493Z
+
+
+### verified, samsung s6 edge, android 7.0, 7.6.2 - Clayton on 2018-10-03T00:00:08.483Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-03T00:00:17.539Z
+
+
+### Archived by Clayton on 2018-11-02T00:30:02.020Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

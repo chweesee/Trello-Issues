@@ -1,0 +1,84 @@
+[Archived] While sorting any list, if you try to move the last element to the bottom or the topmost element to the top, the whole list loads for no reason. (https://trello.com/c/K7CuZAPW)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-02T15:22:05.070Z
+Latest Update: 2018-09-02T00:30:02.273Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Long press on any server where you have manage channels permission. 
+- Open server settings. 
+- Click on "Channels". 
+- Click on the three lines and select any option. 
+- Try to move the channel at the bottom, down and lift your finger.
+
+####Expected result:
+Nothing special happens.
+####Actual result:
+The whole screen loads like some changes were made and a toast appears saying "Channel order updated". Similar thing happens when you try the repro steps when sorting a server.
+####Client settings:
+Discord Alpha 721
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+16775
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T15:22:05.070Z
+
+
+### Can reproduce.
+CR • I can't repro the server list, but can repro the channel, category and voice channel list • Samsung Galaxy J5 2017 • Android 7.0 Nougat • Discord Alpha 7.2.1
+
+Vanished#0001 - Bug Bot on 2018-08-02T15:22:12.482Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0.0 - Discord Alpha 7.2.1
+
+Hole#8769 - Bug Bot on 2018-08-02T15:22:17.438Z
+
+
+### Can reproduce.
+Can reproduce on channel list, Discord Alpha  7.2.1 Android 7.0
+
+Delite#0001 - Bug Bot on 2018-08-02T15:22:22.517Z
+
+
+### Can reproduce.
+Can repro, Samsung Galaxy S5 • Build: 6.0.1 • Discord Aplha • Build: 7.2.1
+
+White Falcon#0001 - Bug Bot on 2018-08-02T15:34:54.193Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 7.2.1 (721) - Android 5.1
+
+Diogolo#5292 - Bug Bot on 2018-08-02T17:02:31.927Z
+
+
+### Can reproduce.
+CR, Oneplus 3, 8.1.0, Alpha 7.2.1
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-02T22:53:53.470Z
+
+
+### verified, samsung s6 edge, android 7.0, 7.2.1 - Clayton on 2018-08-03T00:15:28.459Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-03T00:15:35.339Z
+
+
+### Archived by Clayton on 2018-09-02T00:30:02.274Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,109 @@
+[Archived] the X in RTC debug is too large or off center (https://trello.com/c/GKfhoCcd)
+
+P2: Fix can wait a while
+
+Created: 2017-08-08T03:41:02.712Z
+Latest Update: 2017-11-15T19:29:53.912Z
+
+Reported by advaith#9121
+
+####Steps to reproduce:
+- join a voice channel 
+
+- click the ℹ️ button (near "Voice Connected" at the bottom)
+
+- click Debug 
+
+- click Flags 
+
+- look at a <:redTick:312314733816709120>
+
+####Expected result:
+The X will be centered in the red square
+####Actual result:
+the X is toward the bottom right
+####Client settings:
+Canary 0.0.154
+####System settings:
+macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+2925
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-08T03:41:02.712Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598932ce3de0a92802feaafb/d3831d8ce26265a64f265af9aea129c3/Screen_Shot_2017-08-07_at_8.26.40_PM.png added by Bug Bot on 2017-08-08T03:41:05.536Z
+
+
+### sorry the str gor screwed up while editing
+
+advaith#9121 - Bug Bot on 2017-08-08T03:41:08.654Z
+
+
+### Can reproduce.
+Can Reproduce (MacBook Air 10.12.6, Desktop Canary 0.0.154), also effects ticks
+
+ItsPugle#5963 - Bug Bot on 2017-08-08T03:41:10.302Z
+
+
+### Can reproduce.
+w10 Home x64 v1703 Canary 0.0.163
+
+Verdant#9104 - Bug Bot on 2017-08-08T03:41:15.189Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS, Discord Canary 0.0.24
+
+Link#2436 - Bug Bot on 2017-08-08T03:41:20.187Z
+
+
+### Can reproduce.
+canary 0.0.163 Windows 10 Anniversary update
+
+Cygan#7117 - Bug Bot on 2017-08-08T03:42:09.435Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598932ce3de0a92802feaafb/b2602870dc4016acda6901bad80adfb8/Screen_Shot_2017-08-07_at_8.26.40_PM.png added by Bug Bot on 2017-08-08T04:37:01.628Z
+
+
+### Can reproduce.
+CR, -2
+
+brian#0632 - Bug Bot on 2017-08-09T02:17:51.891Z
+
+
+### Verified - Clayton on 2017-08-09T21:36:07.165Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T21:36:14.924Z
+
+
+### I can't reproduce, no longer a valid report because the debug info page has been fully redesigned.
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5085 - Alexandru Todea on 2017-09-29T14:02:21.653Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-29T14:02:52.336Z
+
+
+### Fixed, debug info was reworked.  - Clayton on 2017-10-04T00:52:38.811Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T00:52:45.656Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:29:52.928Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:29:53.914Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

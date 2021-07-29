@@ -1,0 +1,83 @@
+[Archived] Discord becomes mostly unresponsive when viewing member list in certain channels on large servers. (https://trello.com/c/tH6QLQ8x)
+
+None
+
+Created: 2018-04-01T00:50:05.930Z
+Latest Update: 2018-06-01T00:29:06.498Z
+
+Reported by LBPPlayer7 (Toru) 🦊#4579
+
+####Steps to reproduce:
+- Go to the Discord Testers server 
+- Go to the <#197038744908333066> chat 
+- Tap on Member List 
+- Try to tap anything.
+
+####Expected result:
+Discord responds to every tap without a very noticeable delay.
+####Actual result:
+Discord doesn't respond to most if not all taps and when it does respond it's with a ridiculous delay.
+####Client settings:
+Stable, 2.2.8
+####System settings:
+iPhone 5c, iOS 10.3.3
+
+10077
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-01T00:50:05.930Z
+
+
+### Can reproduce.
+Tried on both DAPI and this server and could reproduce easily. The amount of servers you're in could be related to this. iPhone 6 (A1586) with iOS 11.3 beta 6 | TestFlight 2.2.7 (3519)
+
+Midnight Star#1145 - Bug Bot on 2018-04-01T00:50:13.412Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 11.3 - TestFlight 2.2.7 (3159)
+
+webhp#1337 - Bug Bot on 2018-04-01T00:50:18.380Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s 11.2.6, Discord Stable Build 2.2.7. My phone isn't really powerful but in big servers it lags a lot indeed.
+
+Hazel#5205 - Bug Bot on 2018-04-01T00:50:23.443Z
+
+
+### Possibly related/ext of https://trello.com/c/WhHtVGD2
+
+Midnight Star#1145 - Bug Bot on 2018-04-01T00:52:35.547Z
+
+
+### Might be not a bug according to Miguel's comment there: https://trello.com/c/LajJvl0X
+
+Pascal#0929 - Bug Bot on 2018-04-01T10:26:34.600Z
+
+
+### Can reproduce.
+iPhone SE - iOS 11.3 - TestFlight 2.2.7 (3519)
+
+Shakenbacon#1769 - Bug Bot on 2018-04-03T06:55:57.934Z
+
+
+### This isn't a bug. When you open the member list it takes up a ton of CPU as it's trying to load a couple thousand people into memory. - Jared on 2018-04-12T21:10:13.803Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2018-04-12T21:10:17.921Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than one month with no new activity.  - Ghoul on 2018-06-01T00:29:03.775Z
+
+
+### Archived by Ghoul on 2018-06-01T00:29:06.500Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

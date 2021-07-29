@@ -1,0 +1,94 @@
+[Archived] In languages where "Server Owner" was translated into one word, the tooltip goes out of the client if the Owner has a lengthy name (https://trello.com/c/JrE1ShhI)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-11-10T12:48:48.464Z
+Latest Update: 2019-01-11T00:01:51.773Z
+
+Reported by Aeria#9096
+
+####Steps to reproduce:
+- Be the Owner of a Server that shows the Owner Crown and change the length of your name to get truncated in the member list 
+- Change your language to German (and restart your client) 
+- Hover over the Server Owner Crown and observe the tooltip
+
+####Expected result:
+The tooltip is moved to the left to fit into the client (as e.g. the Help tooltip does)
+####Actual result:
+THe tooltip gets out of bounds and you are unable to read what it says
+####Client settings:
+Discord Canary 27804
+####System settings:
+Windows 10 Pro x64
+
+22940
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-10T12:48:48.464Z
+
+
+### Can reproduce.
+Can repro. Windows 10 Pro x64 - Canary 27804
+
+zephr#1634 - Bug Bot on 2018-11-10T12:48:55.728Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Home x64, Canary 27701
+
+AppӀe#0001 - Bug Bot on 2018-11-10T12:49:00.796Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 27804
+
+Rage#9991 - Bug Bot on 2018-11-10T12:49:05.749Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 v1803, Canary 27804
+
+Solo#0007 - Bug Bot on 2018-11-10T14:22:15.727Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 27804
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-10T19:00:29.811Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 27804
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-10T19:11:03.905Z
+
+
+### Can reproduce.
+Windows 7 Ultimate 64x, canary, Build Number: 27811
+
+Muzan 「Fortune's Endbringer」#3134 - Bug Bot on 2018-11-10T19:45:17.345Z
+
+
+### Can reproduce.
+Windows 10.0 Build 17134, Discord Build 27814
+
+aditya#0001 - Bug Bot on 2018-11-11T07:55:53.445Z
+
+
+### minor - Clayton on 2018-11-12T21:49:16.065Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-12T21:49:22.675Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:51.774Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,90 @@
+[Archived] There’s no extra padding in the channel topic when opening a channel topic from another channel first (https://trello.com/c/L7rL53Xe)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-07-29T06:15:07.341Z
+Latest Update: 2019-09-08T19:30:06.612Z
+
+Reported by Xylium#5800
+
+####Steps to reproduce:
+- Be in discord-testers 
+- Go to ios-client-chat 
+- Tap on the channel topic (in members list) so it expands 
+- swipe left until you see the channel list 
+- Go to bug-hunter-gen-chat (assuming you don’t have the topic expanded) open members and observe
+
+####Expected result:
+There should be padding since if u double tap it goes back to where’s extra padding
+####Actual result:
+There’s no extra padding
+####Client settings:
+Stable 3.0.8
+####System settings:
+iPhone 6, iOS 12.4
+
+40900
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-29T06:15:07.341Z
+
+
+### Xylium#5800 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5d3e8eeb7450612be7b88a93/8c47cd466591b63f2ca5671e5cc59936/image0.png added by Bug Bot on 2019-07-29T06:15:10.410Z
+
+
+### Can reproduce.
+CR; iPhone 7 Plus, iOS 13 Dev Beta 4, TestFlight 3.0.8 (16488)
+
+Jeffrey#1234 - Bug Bot on 2019-07-29T06:15:15.226Z
+
+
+### Can reproduce.
+CR. The expanded size is not updated for current channel topic, and have to double tap it to update the expanded size. iPhone Xʀ - iOS 13 Dev Beta 4 (17A5534F) - Discord TestFlight 3.0.8 (16488)
+
+Frances Picard#6209 - Bug Bot on 2019-07-29T06:15:20.318Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 7, iOS 13 (Public Beta 3) , Testflight 3.0.8 (16488)
+
+ryan#0570 - Bug Bot on 2019-07-29T06:15:25.223Z
+
+
+### Can reproduce.
+can reproduce: iPhone 8 iOS 12.4; Discord Stable Version: 3.0.9
+
+Boss#0006 - Bug Bot on 2019-07-29T07:31:08.816Z
+
+
+### Can reproduce.
+iPhone X iOS 13 (Beta 4), TestFlight v3.0.8 (16488)
+
+Noah#0004 - Bug Bot on 2019-07-29T08:58:04.171Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.8 (16488)
+
+binchlord#0998 - Bug Bot on 2019-07-29T14:33:12.469Z
+
+
+### Can reproduce.
+iPhone 7, 12.1.3
+
+KindleTune#8570 - Bug Bot on 2019-07-30T09:25:40.930Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-08-09T19:00:08.994Z
+
+
+### Archived by Bug Bot on 2019-09-08T19:30:06.625Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

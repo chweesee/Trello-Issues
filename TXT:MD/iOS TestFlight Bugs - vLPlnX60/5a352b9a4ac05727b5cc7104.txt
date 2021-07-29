@@ -1,0 +1,85 @@
+[Archived] Notification Overrides' text overlap, if category name is too long. (https://trello.com/c/rsMB0YHR)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-12-16T14:20:10.925Z
+Latest Update: 2019-01-31T19:58:45.562Z
+
+Reported by HeroGamers#4574
+
+####Steps to reproduce:
+- Create a new category with at least 20 characters. 
+- Create a new text channel in that category. Length of name is not important. 
+- Go to Notification Settings. 
+- Scroll down to Notification Overrides. 
+- Create an override for that text channel, that is in the category.
+
+####Expected result:
+The box seperating the overrides should expand, making space for the category with a long name.
+####Actual result:
+The box around the override doesn't expand, making the text overlap existing overrides.
+####Client settings:
+2.1.2
+####System settings:
+iPhone 5s, iOS 10.0.1
+
+7118
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-16T14:20:10.925Z
+
+
+### TimThe#7618 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a352b9a4ac05727b5cc7104/37e13d1d1a86c163085b269a3183e362/image.png added by Bug Bot on 2017-12-16T14:20:13.356Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a352b9a4ac05727b5cc7104/8f079504e764de4b3b5fd14e29ee2e2b/JIrI5aK.png added by Bug Bot on 2017-12-16T14:20:13.432Z
+
+
+### Can reproduce.
+CR, iPhone SE, iOS 10.3.2, TestFlight 2.2.0 (1910)
+
+TimThe#7618 - Bug Bot on 2017-12-16T14:20:18.319Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.2.1, TestFlight 2.2.0 (1910). Can be easier reproduced/seen when the category name is longer than 2 lines that can be displayed in the notification overrides' screen
+
+Pascal#0929 - Bug Bot on 2017-12-16T14:20:23.648Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.1, TestFlight 2.2.0 (1910)
+
+mouse91#3089 - Bug Bot on 2017-12-16T14:20:28.395Z
+
+
+### I can reproduce this P3, moving to Verified Bugs.
+
+Discord 2.2.0 (1910), iOS 11.2.1, iPhone 8 Plus - Alexandru Todea on 2017-12-21T09:48:34.029Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2017-12-21T09:48:44.578Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236) | Can still reproduce it with a very long category name like `WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW`
+
+Pascal#0929 - Bug Bot on 2018-01-27T10:42:06.278Z
+
+
+### I can still reproduce. 
+
+Discord 2.2.1 (2236), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-01-28T09:38:55.501Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:45.573Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

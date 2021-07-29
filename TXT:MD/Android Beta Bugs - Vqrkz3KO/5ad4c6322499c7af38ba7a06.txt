@@ -1,0 +1,106 @@
+[Archived] Rotating the channel settings menu causes it to believe you have unsaved changes. (https://trello.com/c/9Hxh8WX2)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-16T15:50:10.564Z
+Latest Update: 2020-02-20T21:34:11.577Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Open channel settings. 
+- Rotate your device. 
+- Click the back button.
+
+####Expected result:
+It should exit the menu.
+####Actual result:
+It asks if you want to save your unsaved changes.
+####Client settings:
+Moto G5 Plus Android 8.1
+####System settings:
+Discord Alpha 6.4.9
+
+10808
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-16T15:50:10.564Z
+
+
+### Can reproduce.
+Can reproduce - OnePlus5T - Android Oreo 8.0.0 (Oxygen OS) - Discord Alpha 6.4.7
+
+ahoZiorce#3115 - Bug Bot on 2018-04-16T15:50:17.997Z
+
+
+### Can reproduce.
+CR but doesn't happen if the channel is named "general". Discord Alpha 6.4.9, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-04-16T15:50:23.027Z
+
+
+### Can reproduce.
+CR, but it only happens once. repeating it without leaving the settings menu wont make it happen again. Alpha 6.4.9. Samsung Galaxy s9+
+
+Zacatero#0001 - Bug Bot on 2018-04-16T15:50:28.103Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 Emerge, Android 6.0.1, Alpha 6.4.9
+
+Purpzie#0001 - Bug Bot on 2018-04-16T21:51:12.746Z
+
+
+### Can't reproduce.
+Samsung Galaxy J7 Prime, Android 7.0, Discord Alpha 6.4.9
+
+Master Adit ᵛᵉʳᶦᶠᶦᵉᵈ#8363 - Bug Bot on 2018-04-17T02:22:44.401Z
+
+
+### Can't reproduce.
+Oukitel k6000plus, Android 7.0, Discord Alpha 6.4.9
+
+Raizyr#0007 - Bug Bot on 2018-04-17T09:38:08.154Z
+
+
+### Can't reproduce.
+[cnr] Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.9
+
+fujhofn.#0878 - Bug Bot on 2018-04-17T20:02:30.428Z
+
+
+### Verified.  - Clayton on 2018-04-17T22:54:02.798Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-17T22:54:05.696Z
+
+
+### I checked this ticket during the Trello Cleanup Event, and I am still able to reproduce this bug as of Android Alpha 7.0.3 with ZTE Blade Vantage running Android 7.1.1. However, because I am still able to reproduce this bug, I will leave it to be. - Ghoul on 2018-07-04T02:22:19.117Z
+
+
+### Frances Picard#6209 - undefined added by Bug Bot on 2018-07-15T18:22:30.441Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:43.487Z
+
+
+### Can reproduce.
+CR with password change top Samsung Galaxy Tab A - Android 8.1 - Discord 9.5.1
+
+Suspense#4615 - Bug Bot on 2019-09-07T16:26:39.701Z
+
+
+### Unarchived by Bug Bot on 2019-09-07T16:30:05.129Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:11.592Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] [Huawei specific] Sending a message with a non-image file attached using the native Huawei file explorer will break the attachment (https://trello.com/c/rowWZfZA)
+
+P3 - Will be fixed eventually
+
+Created: 2017-11-13T23:43:11.133Z
+Latest Update: 2019-06-10T20:43:18.600Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a channel you have perms to send messages with attachments 
+- Click the `+` button 
+- Click the Import icon at top left 
+- In the popup, select your native Huawei file explorer 
+- Find a file that is NOT an image and select it (e.g PDF or ZIP files). Also works with *some* images located in a folder containing a . nomedia file. To reproduce this step you can also long press on any file or folder in your explorer and then tap "Compress" to quickly create a ZIP file 
+- Send the message with the attachment
+
+####Expected result:
+The attachment is sent normally in chat
+####Actual result:
+the filename is replaced by a number and the file extension is gone
+####Client settings:
+Discord Alpha 5.5.1
+####System settings:
+Huawei Mate 9 Android 7.0
+
+5924
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-13T23:43:11.133Z
+
+
+### Alex1304#9704 - https://youtu.be/MNelvj51qXo added by Bug Bot on 2017-11-13T23:43:13.561Z
+
+
+### Can reproduce.
+Can reproduce ; Huawei p8 lite 2017,  Android 7.0, alpha 5.5.1
+
+Mathéo ~ fujh🎃fn#0878 - Bug Bot on 2017-11-13T23:43:18.537Z
+
+
+### Can reproduce.
+Admin pushing through due to how long it's been in the queue.
+
+Dabbit Prime#0896 - Bug Bot on 2017-11-13T23:43:23.652Z
+
+
+### Only happens with EMUI 5.0 (Android 7.0)
+
+Alex1304#9704 - Bug Bot on 2017-11-14T00:01:22.656Z
+
+
+### Verified, can repro in-house.  - Clayton on 2017-11-15T22:33:39.292Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-15T22:33:43.382Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:18.278Z
+
+
+### Can reproduce.
+Huawei Y7, Android 8.0.0, Discord 8.8.8 • Issue still occuring since 2017.
+
+Bullseye#8200 - Bug Bot on 2019-04-27T22:04:13.659Z
+
+
+### Unarchived by Bug Bot on 2019-04-27T22:30:05.313Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:18.615Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

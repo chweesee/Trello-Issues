@@ -1,0 +1,71 @@
+[Archived] Joining a voice channel with a user permission overwrite to not connect will refer to role permissions in the toast (https://trello.com/c/NF3Hk3eK)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-10T19:00:12.197Z
+Latest Update: 2018-08-22T01:22:47.110Z
+
+Reported by Lava#9562
+
+####Steps to reproduce:
+- Ask a friend who can manage channels in a server 
+- Tell them to add a user(you) permission overwrite to a voice channel 
+- Let them deny your permissions to Connect 
+- Click on the VC 
+- Click on the greyed out Channel Locked bar
+
+####Expected result:
+A toast saying something along the lines of "You do not have permission to access this channel."
+####Actual result:
+A toast referring to roles even though it is a user permission overwrite, which is "Your role does not have permission to access this channel."
+####Client settings:
+Discord Alpha 689
+####System settings:
+Samsung Galaxy J7 Prime ~ Android 7.0 SE 8.1
+
+13983
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-10T19:00:12.197Z
+
+
+### Can reproduce.
+[Can Reproduce] Huawei Honor 8 Lite, Android 7.0 w/ Discord Alpha 6.8.9
+
+Smanbg#9524 - Bug Bot on 2018-06-10T19:00:19.997Z
+
+
+### Can reproduce.
+Can reproduce. Alcatel 3C, 7.0.0 Discord Alpha 6.8.9
+
+StefanFX#5684 - Bug Bot on 2018-06-10T19:00:25.011Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy J7 running Android 7.0, Discord Alpha 6.8.9
+
+FoxyKero#9941 - Bug Bot on 2018-06-10T19:00:29.992Z
+
+
+### most likely not a bug, but feature/enchantment request string reporter tell should be there don't exist at all per crowdin <https://cdn.discordapp.com/attachments/420995378582913030/455442682853195806/Screenshot_20180610-204628.png> therefore it can't be used by client
+
+ks#7898 - Bug Bot on 2018-06-10T19:01:45.824Z
+
+
+### verified, one plus 6, android 8.0, 6.8.9 - Clayton on 2018-06-11T21:00:17.889Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-11T21:00:23.844Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:47.113Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,67 @@
+[Archived] Discord Overlay blocks keyboard input on Planetside 2 (https://trello.com/c/tIVtet9V)
+
+None
+
+Created: 2018-02-19T23:38:02.822Z
+Latest Update: 2018-07-06T17:46:49.025Z
+
+Reported by Zido#0001
+
+####Steps to reproduce:
+- Ensure overlay is enabled on discord and for the game Planetside 2. (It is a verified entry) 
+- Upon starting the game the overlay will show its enabled. 
+- Attempt to use ingame keyboard inputs, and find they are not responsive 
+- If overlay is disabled and discord is running keyboard input works normally.
+
+####Expected result:
+Once loaded into the game keyboard commands should work, (WASD movement, ESC menu button, other keyboard shortcuts in the game)
+####Actual result:
+All keyboard input is ignored in the game, Alt+Tab and Ctrl+Alt+Delete is your only way out.
+####Client settings:
+Discord Canary Build: 10557
+####System settings:
+Win 10 x64
+
+8706
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-19T23:38:02.822Z
+
+
+### Can reproduce.
+Canary 10141, Windows 10 x64 Version 10.0.16299 Build 16299
+
+tomGER#7462 - Bug Bot on 2018-02-19T23:38:10.433Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10904
+
+webhp#1337 - Bug Bot on 2018-02-19T23:38:15.443Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Canary 0.0.202 [10904]
+
+Gimo#7777 - Bug Bot on 2018-02-19T23:38:20.438Z
+
+
+### This isn't a bug that's related to Planetside 2. The same thing is happen in minecraft and we're looking to fix it. The overlay isn't rendering. This never should have gone through as it's own bug, there are existing overlay tickets it should have been added to. - Jared on 2018-02-20T20:59:43.110Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2018-02-20T20:59:52.632Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:46:47.540Z
+
+
+### Archived by Jared on 2018-07-06T17:46:49.027Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

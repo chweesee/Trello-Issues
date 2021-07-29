@@ -1,0 +1,86 @@
+[Archived] when viewing channel information, it gives the option to delete the channel. Also gives the warning message when you click delete channel. Once clicking accept, an error pops up saying "unknown network error as occurred" (https://trello.com/c/bPesfkDj)
+
+P3 - Will be fixed eventually,
+Mod can no longer reproduce
+
+Created: 2016-11-16T22:24:37.433Z
+Latest Update: 2019-06-05T23:49:23.376Z
+
+Reported by Maxie#2334
+
+####Steps to reproduce: 
+- Open up any channel info. (that you dont have perms to delete) 
+- Click on the 3 dots. 
+- click delete channel and Okay. 
+
+####Expected result:
+ "you dont have Permission to do that" 
+####Actual result:
+ network error pops up 
+####System settings:
+ Discord Alpha
+
+Card Log
+========
+### Added by Jared on 2016-11-16T22:24:37.433Z
+
+
+### Maxie#2334 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/582cdca5d8e5196480184813/5df4031a7618bdfa2c3fd4cb03953026/.eJwNyMsNwyAMANBduBeM-WeNDlAhgiBSgiNwT1V3b9_xfcR7nmITnflem1L7sQrNXS6mmVuVjaidNd_HkoUulZlz6VcdvBSCSRAcmgApJutdUGijC5jsPzwiOOvUs8xax-rELwTttdb-Ad5FNPIeTXx_woonUA.ZUO-csAlayFI5XOYqIYYj-5IkOI added by Jared on 2016-11-16T22:25:13.355Z
+
+
+### Verified. - Jared on 2016-12-01T23:27:03.650Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-01T23:27:08.270Z
+
+
+### artemisbot#6237 can reproduce on Android 7.0, Latest Alpha. - Jared on 2016-12-21T16:20:50.875Z
+
+
+### Tested on version 3.7.1:
+
+This no longer causes a network error, just a mention of "Missing Permissions".
+
+Very possible that this was fixed as parts of the changelog on 18 March (v3.5.2):
+
+`[F] Users can no longer modify channel settings without the appropriate permissions.`
+
+Will only tag you @andygarron1 but not move it yet as I /could/ be wrong and reading the patch note wrong. - Alexander (DJScias) on 2017-04-24T19:33:16.581Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 edge (SM-G935F), Android Nougat 7.0, Discord Alpha 4.0.2 (401)
+
+Curse Broken#8659 - Bug Bot on 2017-07-29T07:40:19.891Z
+
+
+### Can't reproduce.
+as of Alpha 5.2.7(527) I can no longe rreproduce this
+
+Azrael#9808 - Bug Bot on 2017-10-03T09:00:19.163Z
+
+
+### Can no longer reproduce. Pixel XL alpha 5.2.7 - Mike Nisbet on 2017-10-03T09:23:33.758Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-10-03T09:23:45.471Z
+
+
+### Can't reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.2
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T23:53:48.659Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-22T12:18:13.972Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:23.387Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

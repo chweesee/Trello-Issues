@@ -1,0 +1,137 @@
+[Archived] Link preview creates an invalid message on the client side if the message with the link was deleted right before the preview shows up (https://trello.com/c/rRSjbkqX)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-09-15T18:00:19.638Z
+Latest Update: 2019-09-10T08:14:35.023Z
+
+Reported by PLAYER_CHAR#2874
+
+####Steps to reproduce:
+- Find a link that has a preview 
+- Post it 
+- Delete it right before the preview will be shown 
+- If you cannot keep up, you can find a website which loads not very quickly (I used <>) and append "?r=<random letters here>" to the link to stop Discord caching the response.
+
+####Expected result:
+The message disappears, all is fine
+####Actual result:
+The message disappears, but then an invalid empty message with the preview of the link shows up
+####Client settings:
+5.1.2 (512)
+####System settings:
+Android 5.1
+
+4333
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-15T18:00:19.638Z
+
+
+### PLAYER_CHAR#2874 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59bc1533b9b07bc567c4410a/dd6bd80f391937ed1a43c5e9102f2cd4/S70915-19380871.jpg added by Bug Bot on 2017-09-15T18:00:23.118Z
+
+
+### Can reproduce.
+cr VFD 600 @ Android 6.0.1 alpha 5.1.6
+
+TTtie#4900 - Bug Bot on 2017-09-15T18:00:27.738Z
+
+
+### Can reproduce.
+Discord Alpha 5.1.6, Moto E (2.Gen) LTE, Android 6.0 and Discord Canary 0.0.24, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2017-09-15T18:00:32.818Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 5.1.6; usually seen when a bot posts a link
+
+Xander#0259 - Bug Bot on 2017-09-15T18:00:37.691Z
+
+
+### I could reproduce it on Discord Canary 0.0.24 on Ubuntu 17.04. Maybe it is a general Bug?
+
+Anorak#5830 - Bug Bot on 2017-09-15T18:02:16.906Z
+
+
+### Verified.  - Clayton on 2017-10-31T22:49:06.969Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-31T22:49:13.100Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2018-03-23T23:39:31.225Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-23T23:39:38.537Z
+
+
+### Moved from Fixed Bugs to Verified Bugs by Jared on 2018-03-23T23:39:42.295Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2018-03-23T23:39:44.694Z
+
+
+### Can reproduce.
+CR Android 5.1 Discord 646
+
+Okori#0902 - Bug Bot on 2018-04-03T05:11:41.503Z
+
+
+### best way to reproduce this is with a music bot that deletes request as soon as they appear
+
+Okori#0902 - Bug Bot on 2018-04-03T05:13:36.553Z
+
+
+### can still reproduce, if a bot deletes a message with a image link (that has not been cached yet) instantly the bug occurs
+
+moving to re-opened - Tim on 2018-06-08T10:49:01.346Z
+
+
+### Moved from Fixed Bugs to Reopened by Tim on 2018-06-08T10:49:19.157Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Clayton on 2019-01-12T00:34:18.639Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Clayton on 2019-01-12T00:34:21.442Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Clayton on 2019-01-14T22:41:58.367Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Clayton on 2019-01-14T22:42:00.164Z
+
+
+### Can reproduce.
+Samsung galaxy a6, Android 9, Discord 9.0.9'
+
+InfernoPhoenikz#1138 - Bug Bot on 2019-06-18T20:17:28.347Z
+
+
+### Can reproduce.
+Galaxy S5, AOSP Extended Pie 9.0
+
+Leopardnose#0157 - Bug Bot on 2019-07-04T12:04:04.506Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 8.0.0, Discord 9.0.9
+
+Vexel#4139 - Bug Bot on 2019-07-24T21:21:39.319Z
+
+
+### Can reproduce.
+The message was deleted instantly by a bot. Xiaomi Mi A2 Lite, Android 9, Discord 9.5.2
+
+NorbiPeti#1869 - Bug Bot on 2019-09-10T08:14:35.038Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

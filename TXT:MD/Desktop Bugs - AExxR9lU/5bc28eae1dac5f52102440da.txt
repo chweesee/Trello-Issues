@@ -1,0 +1,89 @@
+[Archived] The user info popup box does not move when the window shrinks (https://trello.com/c/C8xi2z1Y)
+
+None
+
+Created: 2018-10-14T00:32:46.814Z
+Latest Update: 2019-01-01T15:21:25.231Z
+
+Reported by Augy.#8622
+
+####Steps to reproduce:
+- Make sure your Discord window can be resized by moving the shrinking cursor 
+- Go to a server 
+- In the member list, click on any user 
+- The user info popup box should appear 
+- Shrink the window horizontally from right to left 
+- Observe the popup box
+
+####Expected result:
+The popup box should move with the window
+####Actual result:
+The popup box stays in the same position and disappears from view as the window gets smaller
+####Client settings:
+Discord Canary 26143
+####System settings:
+Windows 10 Home x64 (1803)
+
+21194
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-14T00:32:46.814Z
+
+
+### Augy.#8622 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bc28eae1dac5f52102440da/b8c8a9c3f97a8cf2d90da30df19f14b0/zc1C8wW.png added by Bug Bot on 2018-10-14T00:32:49.286Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 pro, Discord stable 26016
+
+Moonlight#1111 - Bug Bot on 2018-10-14T00:32:54.226Z
+
+
+### Can reproduce.
+[Windows 10 Home, x64, v1511, Canary Build 26143 (0.0.215)]
+
+shrimp#6969 - Bug Bot on 2018-10-14T00:32:59.187Z
+
+
+### Can reproduce.
+macos 10.14.1; Canary 26143
+
+OrangeM24#5746 - Bug Bot on 2018-10-14T00:33:04.233Z
+
+
+### Can reproduce.
+MacOS 10.14 (Mojave) - Discord Canary 26143
+
+DamonOnYT#5465 - Bug Bot on 2018-10-14T06:20:18.089Z
+
+
+### Can reproduce.
+Windows 10 Pro, build 1809, Discord Stable Build 26016
+
+EastBalance#0001 - Bug Bot on 2018-10-14T06:25:27.649Z
+
+
+### This is not a bug, as pop-up modal don't update retroactively per https://trello.com/c/sXwCyX1y
+
+Ene#0808 - Bug Bot on 2018-10-14T22:40:43.093Z
+
+
+### NAB - Clayton on 2018-10-15T22:30:31.030Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2018-10-15T22:30:36.327Z
+
+
+### Archived due to being inactive for 30+ days in NAB list. - Tarek on 2019-01-01T15:21:24.338Z
+
+
+### Archived by Tarek on 2019-01-01T15:21:25.233Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

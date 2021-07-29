@@ -1,0 +1,97 @@
+[Archived] Text cursor stays on screen when guild drawer is opened. (https://trello.com/c/ktqsWV46)
+
+P3 - Will be fixed eventually
+
+Created: 2017-09-08T02:25:17.897Z
+Latest Update: 2017-11-16T20:07:49.842Z
+
+Reported by Xander#0259
+
+####Steps to reproduce:
+- Bring up your keyboard (for me it's Gboard) 
+- Long press to bring up the copy/paste and text scroll cursor 
+- close the keyboard and open the guild drawer (try to do it quickly, it can be time sensitive) -
+
+####Expected result:
+The text cursor doesn't clip through the guild drawer
+####Actual result:
+It clips through the guild drawer then disappears after a short time, 10 seconds or so.
+####Client settings:
+Alpha 5.1.2
+####System settings:
+Samsung Galaxy S6, 7.0,
+
+3995
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-08T02:25:17.897Z
+
+
+### Xander#0259 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59b1ff8d3f513453bed30686/784e468af1b1baf9426e892f25be1e2a/20170907_214431.png added by Bug Bot on 2017-09-08T02:25:20.843Z
+
+
+### Can reproduce.
+CR, Android Alpha 5.1.2, Samsung Galaxy A3 2017, Android Nougat 7.0
+
+Elix 🍭#4604 - Bug Bot on 2017-09-08T02:25:25.400Z
+
+
+### Can reproduce.
+CR, Alpha 5.1.2, LG X Power, Android Marshmallow 6.0.1
+
+Hexexpeck#8781 - Bug Bot on 2017-09-08T02:25:30.405Z
+
+
+### Can reproduce.
+Samsung Galaxy S2 (sgh-t989) running LineageOS 14.1 (7.1.2)  with Discord Alpha 5.1.2 (512)
+
+Rauf#3260 - Bug Bot on 2017-09-08T02:25:35.435Z
+
+
+### Can reproduce.
+BLU Life One 4G, Android 5.0.2, Discord Alpha 5.1.2 (512)
+
+Doodleguy#0441 - Bug Bot on 2017-09-08T07:00:16.176Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android Nougat 7.0, Discord Android Alpha v5.1.2
+
+Zacatero#5839 - Bug Bot on 2017-09-08T07:16:34.762Z
+
+
+### The copy/paste and clipboard option also clips if you swipe the guild drawer out instead of using the back button.
+
+Xander#0259 - Bug Bot on 2017-09-08T16:41:39.510Z
+
+
+### Can reproduce.
+Go Keyboard - 5.1.2(512) - HTC Desire 530 6.0.1
+
+Nyadeelif (Nyad)#8930 - Bug Bot on 2017-09-08T18:55:27.725Z
+
+
+### Verified.  - Clayton on 2017-09-09T00:21:03.997Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-09T00:21:13.308Z
+
+
+### You can also have the clipboard open as well if you follow the repro steps and swipe the guild list out.
+
+Xander#0259 - Bug Bot on 2017-09-16T07:36:43.307Z
+
+
+### Dupe of https://trello.com/c/QHFZjokD - Alexandru Todea on 2017-09-29T16:24:52.240Z
+
+
+### Archived by Alexandru Todea on 2017-09-29T16:24:57.042Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

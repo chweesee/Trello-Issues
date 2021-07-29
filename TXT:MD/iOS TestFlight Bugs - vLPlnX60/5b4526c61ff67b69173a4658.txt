@@ -1,0 +1,146 @@
+[Archived] Uploading a picture taken in Take Photo or Video while the keyboard is up causes the app to crash (iOS 10-11 only) (https://trello.com/c/l627NbO2)
+
+None
+
+Created: 2018-07-10T21:36:06.449Z
+Latest Update: 2019-01-31T20:09:43.878Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go into a channel and open your keyboard 
+- Click the paperclip to upload an image and choose Take Photo or Video 
+- Take a quick picture and attempt to upload it
+
+####Expected result:
+You're taken into the upload window to add a comment
+####Actual result:
+The app crashes upon pressing "Use Photo"
+####Client settings:
+Discord TestFlight 2.3.4, Build 5616
+####System settings:
+iOS 11.2.6, iPhone 5s
+
+15302
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-10T21:36:06.449Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight Build 2.3.4 (5616)
+
+Kuuhaku#4503 - Bug Bot on 2018-07-10T21:36:13.890Z
+
+
+### Can reproduce.
+Can reproduce on iPad 2017 Model running iOS 11.4 with Discord TestFlight 2.3.4 (5616)
+
+Ghoul the Kitty#0009 - Bug Bot on 2018-07-10T21:36:18.929Z
+
+
+### Can reproduce.
+iPhone 7s 11.3.2 Stable 2.3.4
+
+Dabbit Prime#0896 - Bug Bot on 2018-07-10T21:36:23.957Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed Bugs by Victoria on 2018-07-10T23:58:53.934Z
+
+
+### Can reproduce.
+iPhone X, IOS 11.4, Testflight Build 2.3.4
+
+Shealynn#9448 - Bug Bot on 2018-07-11T01:02:40.002Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.4, Testflight 2.3.4
+
+ChaseTug13#1213 - Bug Bot on 2018-07-11T02:03:01.445Z
+
+
+### Can reproduce.
+iPhone 7 11.4.1 Testflight 2.3.4 (5616)
+
+KaKtus#1359 - Bug Bot on 2018-07-11T02:24:37.959Z
+
+
+### Can't reproduce.
+CNR. iPhone 6s - iOS 11.0 - TestFlight 2.3.6 (6095)
+
+Rage#9991 - Bug Bot on 2018-07-26T20:07:33.354Z
+
+
+### Can't reproduce.
+CNR, iPod Touch 6th generation, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-07-30T23:50:31.289Z
+
+
+### Can reproduce.
+Can Reproduce - iPhone 6s, iOS 12 Public Beta Build 16A5366a - TestFlight 2.3.8 (7106)
+
+Mippy#0001 - Bug Bot on 2018-09-08T06:03:08.368Z
+
+
+### My reproduction should be a Cannot Reproduce instead, sorry
+
+Mippy#0001 - Bug Bot on 2018-09-08T06:05:41.890Z
+
+
+### Can reproduce.
+Testflight 2.3.8 Build 7106, iPhone 6s+ iOS 11.4.1
+
+macplox#9104 - Bug Bot on 2018-09-13T13:23:15.374Z
+
+
+### I can reproduce this bug once again on iPhone 5S running iOS 11.4.1 with Discord TestFlight 2.3.8 (7106). The application instantly crashes if I have my keyboard up before sending a photo.
+
+Reopening. - Ghoul on 2018-09-13T14:12:07.457Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Ghoul on 2018-09-13T14:12:12.850Z
+
+
+### Moved from Reopened to Emoji Keyboard Bugs by Victoria on 2018-09-13T19:56:18.798Z
+
+
+### Moved from Emoji Keyboard Bugs to Notable Issues by Victoria on 2018-09-13T19:56:26.130Z
+
+
+### 2.3.8 only - Victoria on 2018-09-13T21:07:19.360Z
+
+
+### Extension to this is: 
+- Be in a voice chat
+- Force close discord
+- After opening and being put back in vc, try and take a picture. 
+This is how i can reproduce this on iPhone 6, iOS 12 - TestFlight 2.3.8 (7167) 
+If u can’t reproduce it with a different device, use an iPhone 6 on iOS 12, I definitely keep crashing everytime i do these steps.
+
+Xylium#1480 - Bug Bot on 2018-09-14T12:31:32.497Z
+
+
+### Moved from Notable Issues to Voice Chat by Victoria on 2018-09-15T01:13:58.265Z
+
+
+### Moved from Voice Chat to Need more info by Victoria on 2018-09-15T01:14:16.383Z
+
+
+### Moved from Need more info to Fix made, not yet released by Victoria on 2018-09-15T01:14:44.756Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Victoria on 2018-09-19T18:19:35.373Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:09:43.887Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

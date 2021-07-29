@@ -1,0 +1,99 @@
+[Archived] Cannot uncollapse muted channels when there's less than four (https://trello.com/c/wy703XsG)
+
+P2: Fix can wait a while
+
+Created: 2017-08-02T11:57:35.021Z
+Latest Update: 2017-11-15T19:30:20.226Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce:
+- Mute four random channels in a server. 
+- Collapse the list. 
+- Enter a muted channel and then unmute it. 
+- Exit to another channel and observe.
+
+####Expected result:
+You see muted channels normally.
+####Actual result:
+The muted channels are completely gone and cannot be made visible (but can be linked/entered normally), without getting 4 muted channels again.
+####Client settings:
+Discord Canary 0.0.162 (Build 2739)
+####System settings:
+Windows 10 Pro (64-bit), Anniversary Update (Build 1607)
+
+2765
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-02T11:57:35.021Z
+
+
+### SuperSajuuk#7265 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5981be2e48467d7375e90826/971a54db60e7e3ef2b06044af5890b8f/unknown.png added by Bug Bot on 2017-08-02T11:57:37.552Z
+
+
+### SuperSajuuk#7265 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5981be2e48467d7375e90826/4584a1edfa441e84b434a8a2cc0877e9/unknown.png added by Bug Bot on 2017-08-02T11:57:37.665Z
+
+
+### Can reproduce.
+CR Canary 0.0.163 - Windows 10 Home x64 v1703
+
+Souji#4629 - Bug Bot on 2017-08-02T11:57:42.354Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.163 (Build 2739)
+
+Curse Broken#8659 - Bug Bot on 2017-08-02T11:57:47.351Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.153, Discord Stable 0.0.247, MacOS 10.12.6
+
+Nelson1348#9190 - Bug Bot on 2017-08-02T11:57:52.350Z
+
+
+### Only on Canary not on Stable**
+
+Nelson1348#9190 - Bug Bot on 2017-08-02T12:01:32.895Z
+
+
+### This is intended, per Dabbit: https://i.imgur.com/hibwJDm.png
+
+Tiemen#0107 - Bug Bot on 2017-08-02T13:32:20.245Z
+
+
+### "Functioning as intended..." "...However, that's not the functionality we want it to have. When I asked Stan about it, he said we're planning on making it a proper feature one day and to report it so it doesn't get overlooked during the redesign."
+
+Tiemen#0107 - Bug Bot on 2017-08-02T15:38:57.205Z
+
+
+### Verified.  - Clayton on 2017-08-02T19:46:49.758Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-02T19:46:56.413Z
+
+
+### I can't reproduce this now that channel categories are a thing, I can simply unhide the channels by right clicking the server icon and then selecting the Hide Muted Channels option. 
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5085 - Alexandru Todea on 2017-09-29T15:20:08.087Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-29T15:20:29.674Z
+
+
+### Fixed.  - Clayton on 2017-10-04T00:58:54.777Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:30:19.162Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:30:20.228Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

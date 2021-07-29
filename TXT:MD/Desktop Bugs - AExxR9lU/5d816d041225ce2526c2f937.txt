@@ -1,0 +1,46 @@
+[a11y] [screen reader needed to reproduce] When discord is not in full screen and you navigate by channels by button NVDA says dialog. (https://trello.com/c/PKbp6SZU)
+
+None
+
+Created: 2019-09-17T23:32:20.480Z
+Latest Update: 2020-07-16T21:26:05.182Z
+
+Reported by thetechguy#6929
+
+####Steps to reproduce:
+- turn on NVDA. 
+- go to a server. 
+- press shift+d to go to the top of the channel list. 
+- navigate by button using the B key. 
+- notice that while your navigating NVDA suddenly stops speaking. 
+- use up and down arrows. 
+- you will here NVDA say "dialog"
+
+####Expected result:
+NVDA should continue reading the channel list like in the previous update.
+####Actual result:
+NvDA says "dialog" while navigating the channel list.
+####Client settings:
+discord canary, Build Number: 40522, Version Hash: 88d9937cf4f0b94d6d932888c1c786cd0fb23c11
+####System settings:
+Windows 10 home 64 bit version 1903. NVDA version 2019.1.
+
+38834
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-17T23:32:20.480Z
+
+
+### Can reproduce.
+pushing this one through due to age as well
+
+IcyPebbles#5833 - Bug Bot on 2019-09-17T23:32:28.474Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,249 @@
+[Archived] Discord does not keep a bot muted after restart. (https://trello.com/c/UkNEavqc)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2017-10-09T13:05:27.703Z
+Latest Update: 2019-12-08T01:00:39.036Z
+
+Reported by Dancho#9091
+
+####Steps to reproduce:
+
+- Join a channel with a bot constantly streaming audio
+- Right click the bot and mute it, not a server mute
+- Reload Discord after verifying the bot is muted and you cannot hear it
+
+####Expected result:
+The bot should be muted and the user not able to hear anything from it.
+####Actual result:
+The bot appears to be muted but the user can hear audio without any indication around the avatar.
+####Client settings:
+app-0.0.298 latest non beta
+####System settings:
+Windows 8.1 missing some updates
+
+5253
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-09T13:05:27.703Z
+
+
+### Can reproduce.
+CR , Windows 10 (x64) , Discord Canary 0.0.164 (5517)  , You Can also Mute  & Refresh Discord while in vc .
+
+Anu#6474 - Bug Bot on 2017-10-09T13:05:35.208Z
+
+
+### Can reproduce.
+CR, Windows 10 64-Bit (1703), Desktop Canary 5517
+
+Maika#9523 - Bug Bot on 2017-10-09T13:05:40.221Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5517)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-09T13:05:45.204Z
+
+
+### Can reproduce.
+Discord Canary 0.0.164 (Build 5517) on Windows 10 Home x64 (Build 1703)
+
+OminousCry#2331 - Bug Bot on 2017-10-09T14:36:10.921Z
+
+
+### Cannot reproduce. After both restarting the client, and closing the client and relaunching the bot is always muted on resume. - Jared on 2017-10-09T21:33:51.829Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-10-09T21:34:02.391Z
+
+
+### I am able to reproduce this, you don't need to reload your client, you can just leave and rejoin the voice channel after muting the bot. Here are my repro steps: 
+
+- Join a voice channel and have a bot play music in it, I personally used FredBoat and had my alt join the voice channel too so it wouldn't automatically pause when I leave
+- Mute the bot (not server mute)
+- Reload your client or leave and rejoin the voice channel
+
+ - Alexandru Todea on 2017-10-15T06:39:43.288Z
+
+
+### ​I was able to reproduce, steps provided by DeJay#3628: 
+
+- Join a channel with a bot constantly streaming audio
+- Right click the bot and mute it, not a server mute
+- Reload Discord after verifying the bot is muted and you cannot hear it
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 6489 - Alexandru Todea on 2017-10-28T08:33:17.819Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-10-28T08:33:25.274Z
+
+
+### Verified.  - Clayton on 2017-11-03T06:57:04.667Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T06:57:28.011Z
+
+
+### Can reproduce.
+CR, Does not have to be a bot, can be a normal user, Discord Canary Build 7502, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2017-11-20T18:10:24.866Z
+
+
+### Can reproduce.
+Win10Pro Version 10.0.15063 Build 15063,  Discord Stable, 10906, Discord PTB 10905, Discord Canary 11221 [all versions]
+
+Reece#4504 - Bug Bot on 2018-02-27T16:03:05.135Z
+
+
+### Can't reproduce.
+Windows 10 Home SL 1709 x64 • Canary 13753
+
+BakugouDeku#0602 - Bug Bot on 2018-04-17T19:23:07.315Z
+
+
+### Can reproduce.
+Client Settings: Canary Build 15665 System Settings: Windows 10 Home x64 Version 1709 Build 16299.431
+
+HarryThorpe#0864 - Bug Bot on 2018-05-20T16:50:33.402Z
+
+
+### Can reproduce.
+Happens with people too. Windows 10 x64 1803 discord stable 20174
+
+Cronos#6935 - Bug Bot on 2018-07-31T04:13:04.508Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:46.640Z
+
+
+### Can reproduce.
+Windows 10 1809
+
+james58899#7215 - Bug Bot on 2018-10-23T11:16:24.706Z
+
+
+### Can reproduce.
+Cr.  canary, Build Number: 28393 Windows 10 x64
+
+Toasty#9566 - Bug Bot on 2018-11-23T14:33:41.194Z
+
+
+### Can reproduce.
+stable 34340 Windows 10 Pro 1803 17134.648
+
+(1)[H]nZ88#3107 - Bug Bot on 2019-03-22T17:46:06.040Z
+
+
+### Unarchived by Bug Bot on 2019-03-22T18:00:07.732Z
+
+
+### Cannot reproduce anymore on Canary 34858, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-01T22:00:58.367Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-04-01T22:01:02.513Z
+
+
+### Can't reproduce.
+macos 10.14.5, canary 34858
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-02T04:26:49.756Z
+
+
+### Can't reproduce.
+macOS Mojave 10.14 - Canary 34858
+
+Rage#9991 - Bug Bot on 2019-04-02T07:20:15.872Z
+
+
+### Can't reproduce.
+CNR, macOS 10.14.4, PTB 34858
+
+Action Potential#2494 - Bug Bot on 2019-04-02T11:44:56.949Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-04-02T11:44:57.168Z
+
+
+### Archived by Bug Bot on 2019-05-02T12:00:33.035Z
+
+
+### Can reproduce again on Canary 44396, Windows 10 Home 64-bit (v1903). - Ene on 2019-08-24T02:39:40.156Z
+
+
+### Moved from Verified Fixed to Notable Issues by Ene on 2019-08-24T02:39:42.992Z
+
+
+### Unarchived by Ene on 2019-08-24T02:39:43.082Z
+
+
+### Can reproduce.
+I would just like to note, they say this only applies to music bots, I've confirmed it applies to any muted user, at least for me, if they are transmitting voice while you join.
+
+paper product#1989 - Bug Bot on 2019-08-24T04:11:03.575Z
+
+
+### Can reproduce.
+Also works if you join another server and rejoin the bot's channel
+
+Flamenate™#1940 - Bug Bot on 2019-08-27T23:32:10.356Z
+
+
+### Can't reproduce.
+CNR on Windows 10 Home Version 1903; Regular Build 47941
+
+RPS1222#5127 - Bug Bot on 2019-10-25T01:18:40.942Z
+
+
+### Can't reproduce.
+MacBook Pro: macOS Catalina 10.15; Discord Canary 48134
+
+Jiralite#1207 - Bug Bot on 2019-10-26T22:09:40.851Z
+
+
+### Cannot reproduce anymore on Canary 48875, Windows 10 Home 64-bit (v1903).
+
+Moving to Claimed Fixed. - Ene on 2019-11-07T22:44:39.088Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Ene on 2019-11-07T22:44:42.358Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.258 Build 48875
+
+Daffyduck#5364 - Bug Bot on 2019-11-07T22:59:52.021Z
+
+
+### Can't reproduce.
+Can no longer reproduce, Windows 10 Pro x64, Discord Canary 0.0.258 Build 48875
+
+ryan#0570 - Bug Bot on 2019-11-07T23:04:38.174Z
+
+
+### Can't reproduce.
+windows 10 home [BUILD INFO] Release Channel: stable, Build Number: 48816, Version Hash: 0dda2e886805d9579f735920dc5eeddff886f6c8
+
+Antatchi#0003 - Bug Bot on 2019-11-07T23:19:42.415Z
+
+
+### Moving to Verified Fixed as three users have added a Cannot Reproduce to this ticket. - Ene on 2019-11-08T00:32:24.908Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Ene on 2019-11-08T00:32:28.387Z
+
+
+### Archived by Bug Bot on 2019-12-08T01:00:39.047Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

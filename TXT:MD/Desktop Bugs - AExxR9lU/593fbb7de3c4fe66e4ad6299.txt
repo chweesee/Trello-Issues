@@ -1,0 +1,72 @@
+[Archived] Changing the invite channel for the widget creates an audit log entry involving the channel id not name (https://trello.com/c/Q960OOSx)
+
+None
+
+Created: 2017-06-13T10:16:29.559Z
+Latest Update: 2017-10-17T21:21:53.400Z
+
+Reported by Ω¹²#8421
+
+####Steps to reproduce:
+- Change the invite channel for the widget 
+- Go to audit log 
+- Expand the most recent entry
+
+####Expected result:
+It should show the name of the channel that the invite will lead to
+####Actual result:
+It shows the channel id instead of the name
+####Client settings:
+Desktop Discord Canary 0.0.157
+####System settings:
+Win 7 SP1
+
+1596
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-13T10:16:29.559Z
+
+
+### Mr.Caleb#8593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593fbb7de3c4fe66e4ad6299/80e5a1b24d537383729ae3604a04f61a/7QDcJVP.png added by Bug Bot on 2017-06-13T10:16:32.248Z
+
+
+### Mr.Caleb#8593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593fbb7de3c4fe66e4ad6299/aa846e8ad7640bce5236a292b1889b4a/20170613_010309.png added by Bug Bot on 2017-06-13T10:16:32.577Z
+
+
+### Can reproduce.
+ Windows 10 x64 bit, Canary 0.0.157
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-13T10:16:34.980Z
+
+
+### Can reproduce.
+ Windows 10 x64 1607 - Canary 0.0.157
+
+Dunciboy#2559 - Bug Bot on 2017-06-13T10:16:36.063Z
+
+
+### Can reproduce.
+Windows 10 x64 - Canary 0.0.157
+
+AwesomeFlink#9333 - Bug Bot on 2017-06-13T10:16:38.051Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-06-16T21:01:05.799Z
+
+
+### Extremely minor edge case. I'm declaring it a Won't Fix. - Jared on 2017-06-16T21:01:59.929Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:21:51.767Z
+
+
+### Archived by Jared on 2017-10-17T21:21:53.404Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+Unknown User (https://trello.com/michaelpeterson26) - No Bio

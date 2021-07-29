@@ -1,0 +1,44 @@
+[Archived] [Master ticket] REST API errors when doing certain actions in the app. (https://trello.com/c/Z4gGBotb)
+
+None
+
+Created: 2019-04-07T16:32:08.011Z
+Latest Update: 2019-06-05T23:47:05.754Z
+
+**These issues are specific to 8.7.1**
+
+There is currently several reports of the Discord client throwing ``An unknown network error has occurred`` when doing one of the below actions. I will update the ticket when more issues comes in.
+
+If you found an another action causing this toast message, leave a note or a !canrepro, thanks.
+
+
+Relevant tickets: https://trello.com/c/VKsf8eRZ/, https://trello.com/c/2sBB05CB/
+
+
+
+Card Log
+========
+### Added by Tarek on 2019-04-07T16:32:08.011Z
+
+
+### Can reproduce.
+Happens also upon text channel deletion. When clicking Confirm on the Delete Text Channel modal, the modal won't close and the same error gets thrown in debug logs. Though I don't get the Unknown Network error toast in this instance.
+
+Alex1304#9704 - Bug Bot on 2019-04-09T11:28:35.072Z
+
+
+### We are on this and will have a fix in the next release - Sam Shih on 2019-04-09T18:24:06.372Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Sam Shih on 2019-04-09T18:24:12.290Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:05.765Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

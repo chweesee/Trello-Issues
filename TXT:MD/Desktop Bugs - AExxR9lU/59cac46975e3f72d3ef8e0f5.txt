@@ -1,0 +1,81 @@
+[Archived] Window overflow bug (https://trello.com/c/hotRnAgW)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-26T21:19:37.111Z
+Latest Update: 2018-10-07T15:19:05.751Z
+
+Reported by samdd#3245
+
+####Steps to reproduce:
+- Open up channel settings 
+- Click into the channel topic text area 
+- Press `Page UP` key
+
+####Expected result:
+Only the textarea should scroll, not the main container DIV
+####Actual result:
+Window scrolls down, past boundaries
+####Client settings:
+Discord Canary, latest
+####System settings:
+Win 10 x64
+
+4873
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-26T21:19:37.111Z
+
+
+### SilverMight#1302 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59cac46975e3f72d3ef8e0f5/6fc38a886ade9889ae20080aa8666878/aq946.gif added by Bug Bot on 2017-09-26T21:19:39.697Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.24 (Build 4820), Ubuntu 17.04
+
+Anorak#5830 - Bug Bot on 2017-09-26T21:19:44.452Z
+
+
+### Can reproduce.
+Windows 10 x64 CU, Discord Canary v0.0.163
+
+SilverMight#1302 - Bug Bot on 2017-09-26T21:19:50.147Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10 xfce, Discord Canary 0.0.24 Build 4820
+
+Starshine Dust#2189 - Bug Bot on 2017-09-26T21:19:54.493Z
+
+
+### Verified.  - Clayton on 2017-10-04T02:13:32.340Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-04T02:14:13.923Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-21T17:30:40.018Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T17:30:45.410Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:58:08.116Z
+
+
+### Archived by Jared on 2018-07-06T17:58:14.575Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 Canary: 25648
+
+Neiron#2406 - Bug Bot on 2018-10-07T15:19:05.752Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

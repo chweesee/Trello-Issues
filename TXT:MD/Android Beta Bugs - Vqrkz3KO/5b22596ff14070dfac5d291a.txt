@@ -1,0 +1,118 @@
+[Archived] Voice channels are treated as categories (https://trello.com/c/j3vDWSbN)
+
+P3 - Will be fixed eventually,
+Mid,
+Mod can still reproduce
+
+Created: 2018-06-14T12:02:55.361Z
+Latest Update: 2019-06-05T23:47:47.585Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a server with manage channel perms 
+- Long press a voice channel 
+- Notice the presence of a "mark as read" and "mute" option 
+- Now enter settings
+
+####Expected result:
+On the long press sheet I should be seeing a Connect to Voice button, if I'm connected I should be seeing a Disconnect button as well as the pfp of connected users, and I should certainly not be seeing option to mark as read and mute the voice channel. Entering settings should allow me to edit bitrate and user limit
+####Actual result:
+There is no Connect/Disconnect button ; no pfp of connected users ; there is a mark as read and a mute option ; and I can't edit bitrate/user limit when entering settings, instead I'm given tbe option to see pinned messages and change notification settings
+####Client settings:
+Discord Alpha 6.9.1
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14154
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-14T12:02:55.361Z
+
+
+### Can reproduce.
+Can Reproduce -- Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.9.1
+
+Ori#1908 - Bug Bot on 2018-06-14T12:03:04.948Z
+
+
+### Can reproduce.
+Discord Alpha 6.9.1 OnePlus 5 Android 8.1 (Oreo)
+
+Tarek#1337 - Bug Bot on 2018-06-14T12:03:09.992Z
+
+
+### Can reproduce.
+Can reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 SE 8.1 ~ Discord Alpha 691
+
+Lava#9562 - Bug Bot on 2018-06-14T12:03:14.985Z
+
+
+### Verified - Jared on 2018-06-15T22:40:52.333Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-15T22:40:59.308Z
+
+
+### Fixed in 692
+
+Lava#9562 - Bug Bot on 2018-06-15T23:07:20.836Z
+
+
+### Moved from Verified Bugs to Serious Issues by Clayton on 2018-06-21T23:42:39.695Z
+
+
+### Moved from Serious Issues to Claimed Fixed, needs Verification by Andy Garron on 2018-06-26T22:26:55.276Z
+
+
+### Appears to be fixed. - Andy Garron on 2018-06-26T22:27:07.423Z
+
+
+### This bug was back in around alpha 693-695
+
+Lava#9562 - Bug Bot on 2018-06-27T14:13:00.340Z
+
+
+### I can still reproduce this on Alpha 7.0.6, reopening ticket. - Tarek on 2018-07-12T04:07:54.057Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-07-12T04:08:02.147Z
+
+
+### Lava#9562 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b22596ff14070dfac5d291a/870dc52e303eae681416b3d6ad07efc3/4bd86da8.jpg added by Bug Bot on 2018-07-14T04:59:00.609Z
+
+
+### Lava#9562 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b22596ff14070dfac5d291a/70458335a48b48e6c454f27f2daf8c0a/1403c381.jpg added by Bug Bot on 2018-07-14T04:59:38.986Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-07-17T21:22:36.427Z
+
+
+### I can still reproduce this on Android Alpha 7.0.8 OnePlus 5, Android 8.1. Reopening ticket. - Tarek on 2018-07-20T20:17:50.088Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-07-20T20:17:53.942Z
+
+
+### Can't reproduce.
+I cannot reproduce this anymore as of Alpha 7.6.3 Nexus 5x Android 8.1.0
+
+Azrael#6867 - Bug Bot on 2018-10-09T00:00:01.744Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-10-09T16:50:31.700Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-03T21:37:09.896Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:47.598Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

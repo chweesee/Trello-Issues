@@ -1,0 +1,148 @@
+[Archived] New invite model is bugged when opening it while being in a channel without the "Create Instant Invite" permission (https://trello.com/c/CjsBOkLx)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-03T15:08:11.157Z
+Latest Update: 2019-10-23T23:03:03.061Z
+
+Reported by Zoddo#0001
+
+####Steps to reproduce:
+- In a server, allow "Create Instant Invite" for @everyone 
+- Create a new channel and deny "Create Instant Invite" for a user (which is not the server owner) 
+- With this user, open the channel. When hovering the channel name, you notice the button to generate an invite doesn't appear. 
+- While you are still in this channel, click the server name then "Invite People"
+
+####Expected result:
+A message should tell you that you can't create an invite for this channel
+####Actual result:
+The new invite modal is unable to fetch your friends list, and the  link doesn't contain any code.
+####Client settings:
+Discord Stable (build 33117)
+####System settings:
+Windows 10 Pro 1809
+
+30213
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-03T15:08:11.157Z
+
+
+### Zoddo#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7beddb288a9a2dd94d7ba0/a2048f0bf93ad2011c94f53a5ac08304/a1HGdYS.png added by Bug Bot on 2019-03-03T15:08:14.609Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro, Version 1809, Build 17763.316; Discord Canary (33117);
+
+Fabio#1234 - Bug Bot on 2019-03-03T15:08:18.593Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.117 (x64) · Web Canary 33117
+
+Casper#9999 - Bug Bot on 2019-03-03T15:08:23.576Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Home (x64) Build 17134; Canary Build 33117;
+
+Ink#0001 - Bug Bot on 2019-03-03T15:08:28.519Z
+
+
+### Can reproduce.
+Cr, Windows 10 Home: 1809
+
+Sanjay#0540 - Bug Bot on 2019-03-03T15:18:18.552Z
+
+
+### Can reproduce.
+Cr, Windows 10 Home: 1809, Canary 33117
+
+Sanjay#0540 - Bug Bot on 2019-03-03T15:18:28.202Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.117 (x64) · Web Canary 33117
+
+Casper#9999 - Bug Bot on 2019-03-03T15:35:48.704Z
+
+
+### Can reproduce.
+W10 Pro x64 (1809), Canary 33117
+
+dafaqed#1312 - Bug Bot on 2019-03-03T17:27:49.290Z
+
+
+### Can reproduce.
+Windows 10 home, Canary 33117
+
+Mr. Proper#2394 - Bug Bot on 2019-03-03T17:59:58.051Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 33117
+
+Clay#0001 - Bug Bot on 2019-03-03T22:30:36.938Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 bit (Version 1803) - Canary build 33076
+
+Bastizzle#0001 - Bug Bot on 2019-03-04T00:36:26.984Z
+
+
+### Can reproduce.
+[CR] • Windows 10 Home (1809) • Desktop Canary (33117)
+
+k_fizzel#8616 - Bug Bot on 2019-03-04T00:54:00.487Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 33117
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-04T01:54:42.427Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64 - Version 1809 Build 17763 - Canary 33117
+
+Noxillio#0001 - Bug Bot on 2019-03-04T04:14:44.315Z
+
+
+### Can reproduce.
+CR; Canary: 33117, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-04T11:49:58.476Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 33117
+
+Lelantos#4866 - Bug Bot on 2019-03-04T17:17:19.382Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-05T22:31:00.059Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 33760
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-13T01:11:28.811Z
+
+
+### Can reproduce.
+Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+||warp||#4660 - Bug Bot on 2019-04-12T16:46:54.736Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:03.073Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

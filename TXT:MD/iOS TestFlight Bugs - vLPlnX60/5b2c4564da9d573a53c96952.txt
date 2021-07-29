@@ -1,0 +1,87 @@
+[Archived] Incorrect screen when joining a DM call (https://trello.com/c/OGJNvgTq)
+
+low,
+P0 - Need an immediate fix
+
+Created: 2018-06-22T00:40:04.357Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Darth Atroxa 💞#1982
+
+####Steps to reproduce:
+- Step 1 
+- Start/Join a call in a DM or Group DM Step 2 
+- Observe the results
+
+####Expected result:
+You should see the voice call/video call properly
+####Actual result:
+You see the screen that appears when you aren't connected at all
+####Client settings:
+TestFlight 2.3.4 (5330)
+####System settings:
+iPhone 7, iOS 11.4
+
+14479
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-22T00:40:04.357Z
+
+
+### Ghoul#1882 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b2c4564da9d573a53c96952/968be408aaea3cfa28e8b909bbd9ce92/image.png added by Bug Bot on 2018-06-22T00:40:06.998Z
+
+
+### Can reproduce.
+CR, iPad Mini 2, iOS 11.2.6, TF 2.3.4 (5330). There's no way to hang up, mute the mic, etc.
+
+[object Object]#0001 - Bug Bot on 2018-06-22T00:40:11.996Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 12 Dev Beta 2 - TestFlight 2.3.4 (5330)
+
+webhp#1337 - Bug Bot on 2018-06-22T00:40:16.896Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.3 - TestFlight 2.3.4 (3350) - Note: You cannot disconnect from calls as theds is no disconnect button anymore, this means you need to join a server vc to disconnect from that.
+
+CustomName#9999 - Bug Bot on 2018-06-22T00:40:21.888Z
+
+
+### As noted by CustomName, as this is the incorrect screen, it has the side effect  of not being able to end a call. - Mike Nisbet on 2018-06-22T00:46:43.469Z
+
+
+### Because of this ticket seeming to be related to the chat rewrite, I am moving this ticket to the Chat Rewrite list. - Ghoul on 2018-06-22T03:12:31.667Z
+
+
+### Moved from User Reported Bugs to Chat Rewrite Bugs by Ghoul on 2018-06-22T03:12:38.935Z
+
+
+### It’s not related to chat rewrite - Fanghao on 2018-06-23T06:44:23.884Z
+
+
+### Moved from Chat Rewrite Bugs to Serious Issues by Fanghao on 2018-06-23T06:44:31.917Z
+
+
+### Moved from Serious Issues to Fix made, not yet released by Fanghao on 2018-06-25T20:33:02.907Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5548). I can now hang up in the calls that I am in without any issues. I used iPhone 8 + running iOS 12 (Developer Beta 2).
+
+Because I was unable to reproduce this bug anymore, I am moving it to Claimed Fixed. - Ghoul on 2018-06-30T02:45:06.155Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Ghoul on 2018-06-30T02:45:19.162Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:50.618Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

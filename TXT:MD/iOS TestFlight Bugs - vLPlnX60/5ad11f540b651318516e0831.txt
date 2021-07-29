@@ -1,0 +1,84 @@
+[Archived] Display bug with multitasking on the nicks list (https://trello.com/c/oG0LxR8Y)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-04-13T21:21:25.029Z
+Latest Update: 2019-10-17T13:18:28.712Z
+
+Reported by Thakeax#5020
+
+####Steps to reproduce:
+- Step 1 : Open Discord
+- Step 2 : Go to the main menu with the home button
+- Step 3 : Start any application
+- Step 4 : Use multitasking
+
+####Expected result:
+You should see the nicks list correctly
+####Actual result:
+A part of the list is buggy. You can only see part of the profile picture
+####Client settings:
+Discord 2.2.9
+####System settings:
+IOS 11.2.5, iPad mini 4
+
+10658
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-13T21:21:25.029Z
+
+
+### Pascal#0929 - https://youtu.be/oiM7Hg6hQKk added by Bug Bot on 2018-04-13T21:21:27.443Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 11.4 PB 1, TestFlight 2.3.0 (3740)
+Only happens when a channel with a member list was opened before using Discord in Slide Over mode. Temporary problem because closing and reopening member list fixes the issue.If you can't reproduce it, fully close Discord via Multitasking and try it again.
+
+Pascal#0929 - Bug Bot on 2018-04-13T21:21:32.417Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 11.3, TestFlight 2.3.0 (3740)
+
+Rexogamer#1183 - Bug Bot on 2018-04-13T21:21:37.374Z
+
+
+### Can reproduce.
+iPad Mini 4
+
+Bowser V2 ✔#5788 - Bug Bot on 2018-04-13T21:21:42.379Z
+
+
+### Can't reproduce, iPad Pro, iOS 11.2.5, Testflight 2.3.1 - Clayton on 2018-04-27T00:35:15.304Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-04-27T00:35:20.128Z
+
+
+### I checked this ticket during the Trello Event with the new reproduction steps provided by Pascal#0929:
+- Prerequisite: Force close Discord
+- Go to any server and open a channel with a member list
+- Close Discord by pressing the home button
+- Open any other iOS app
+- Open Discord in Slider Over mode (not Split View)
+- Now open the member list of the channel
+
+Unfortunately, I was not able to reproduce as I tried multiple times on two different iPads. :( 
+
+I used iPad Air 1st Generation running iOS 11.4 and iPad 2017 Model (5th Generation) running iOS 11.2.6. Both iPads have Discord TestFlight 2.3.4 (5560).
+
+Since I was not able to reproduce, this ticket will not go anywhere, unfortunately.  - Ghoul on 2018-07-03T00:24:30.468Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:27.394Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

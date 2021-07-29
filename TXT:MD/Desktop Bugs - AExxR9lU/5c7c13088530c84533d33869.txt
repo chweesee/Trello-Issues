@@ -1,0 +1,163 @@
+[Archived] Clicking ESC while creating or joining a server will mark channel as read (https://trello.com/c/xkw2xELb)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-03T17:46:48.405Z
+Latest Update: 2019-10-23T23:02:02.155Z
+
+Reported by dafaqed#1312
+
+####Steps to reproduce:
+
+- Open any text channel and scroll above a bit 
+- Open Add a server modal and create new server or join in existing 
+- Type anything in text box 
+- Press ESC on a keyboard
+
+####Expected result:
+Modal will close
+####Actual result:
+Channel are marked as read
+####Client settings:
+Canary 33117
+####System settings:
+W10 Pro x64
+
+30226
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-03T17:46:48.405Z
+
+
+### Can reproduce.
+CR Windows 10 Pro 64-bit (1809), canary 33117
+
+Defracted#1337 - Bug Bot on 2019-03-03T17:46:56.003Z
+
+
+### Can reproduce.
+CR MacOS 10.12.6 Sierra Mac Pro (Mid 2010) Canary Build 33117
+
+Starfield_9#8660 - Bug Bot on 2019-03-03T17:47:01.014Z
+
+
+### Can reproduce.
+Can reproduce on macOS High Sierra, Version: 10.13.6 - Discord Canary 0.0.215
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-03-03T17:47:05.958Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Canary build 33117
+
+SerbianPG#2287 - Bug Bot on 2019-03-03T17:47:44.841Z
+
+
+### Can reproduce.
+Windows 10 home, Canary 33117
+
+Mr. Proper#2394 - Bug Bot on 2019-03-03T17:59:42.670Z
+
+
+### Can reproduce.
+[CR] • Windows 10 Home (1809) • Desktop Canary (33117)
+
+k_fizzel#8616 - Bug Bot on 2019-03-03T18:03:48.113Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 33117
+
+charleskimbac#6492 - Bug Bot on 2019-03-03T18:13:40.212Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Discord Canary 33117
+
+Killtracity#0001 - Bug Bot on 2019-03-03T19:13:27.628Z
+
+
+### Can reproduce.
+CR Windows 10 Home v10.0.1734 Canary 33117
+
+Killtracity#0001 - Bug Bot on 2019-03-03T20:10:11.317Z
+
+
+### Can reproduce.
+Windows 10 Education (18342), Canary Build 33117
+
+Keons#0001 - Bug Bot on 2019-03-03T20:32:11.018Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 33117
+
+Clay#0001 - Bug Bot on 2019-03-03T22:25:47.537Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 33117
+
+Daffyduck#5364 - Bug Bot on 2019-03-03T23:12:05.305Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 33117
+
+Delite#0001 - Bug Bot on 2019-03-04T00:16:03.515Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 bit (Version 1803) - Canary build 33076
+
+Bastizzle#0001 - Bug Bot on 2019-03-04T00:33:55.642Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 33117
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-04T01:54:11.392Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 33117
+
+Zacatero#0001 - Bug Bot on 2019-03-04T02:27:37.599Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 33117
+
+Solo#0007 - Bug Bot on 2019-03-04T02:51:14.936Z
+
+
+### This can be reproduced on other popups with textboxes in them, so it's probably related to https://trello.com/c/gb3gkbpE - The reason the popups do not close when hitting ESC is because the cursor is in a textbox which looks to be jumping to bottom of chat history in the background rather than acting on the popup itself.
+
+Solo#0007 - Bug Bot on 2019-03-04T02:53:18.560Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.117 (x64) · Web Canary 33117
+
+Casper#9999 - Bug Bot on 2019-03-04T04:57:10.490Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 33117
+
+Lelantos#4866 - Bug Bot on 2019-03-04T17:16:19.691Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-05T22:30:19.965Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:02.171Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

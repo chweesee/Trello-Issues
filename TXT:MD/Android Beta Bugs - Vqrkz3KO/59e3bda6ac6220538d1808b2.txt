@@ -1,0 +1,67 @@
+[Archived] Markdown bold syntax (`**text**`) is parsed in Playing Status text (https://trello.com/c/hNH1E1IL)
+
+Low,
+P3 - Will be fixed eventually
+
+Created: 2017-10-15T19:57:26.670Z
+Latest Update: 2018-08-22T01:20:39.935Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- You need two accounts : one logged in on Desktop, another one on an Android device 
+- On Desktop, change the Playing status to something that contains text between `**` (only works with bold Markdown syntax, doesnt work with `~~text~~` or `__text__` for example)  
+- On your Android device, observe the Playing status of your other account
+
+####Expected result:
+The markdown should be escaped/ignored as it's not supported in Playing status
+####Actual result:
+The text between `**` is displayed non-bold
+####Client settings:
+Discord Alpha 5.3.9
+####System settings:
+Huawei Mate 9 Android 7.0
+
+5426
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-15T19:57:26.670Z
+
+
+### Starshine Dust#2189 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59e3bda6ac6220538d1808b2/011043803399ed086c85d7b368334b9b/photo_2017-10-15_19-33-59.jpg added by Bug Bot on 2017-10-15T19:57:29.320Z
+
+
+### Can reproduce.
+Seems to also italicize the text if the entire Now Playing status is italicized, but strangely does not if only part of it is. It should be ignoring/escaping all markdown. Google Pixel XL, Android 8.0.0, Discord 5.3.9
+
+Chrees#4389 - Bug Bot on 2017-10-15T19:57:34.219Z
+
+
+### Can reproduce.
+CR, Google/LG Nexus 5, Android 6.0.1, Discord Alpha 5.3.9
+
+Starshine Dust#2189 - Bug Bot on 2017-10-15T19:57:39.497Z
+
+
+### Can reproduce.
+alpha 5.3.9, android 4.4.4, viva h8 lte
+
+Symplyfyed#4047 - Bug Bot on 2017-10-15T19:57:44.192Z
+
+
+### Verified. - Clayton on 2017-10-31T23:20:47.258Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-31T23:20:51.473Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:39.937Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

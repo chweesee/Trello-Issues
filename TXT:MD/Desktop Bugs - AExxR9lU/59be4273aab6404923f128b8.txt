@@ -1,0 +1,144 @@
+[Archived] Selecting options to customize an invite's duration or number of usages cannot be selected. (https://trello.com/c/6zhZcLhN)
+
+P1: Severe
+
+Created: 2017-09-17T09:37:55.940Z
+Latest Update: 2017-12-02T17:20:20.433Z
+
+Reported by lluvia#3624
+
+####Steps to reproduce:
+- Have permission to create an invite for the server (either through administrator or create invite permission). 
+- Click the gear to customize options. 
+- Select an option from "expire after" or "max number of uses". 
+- Observe that the options render the box with faded-out (deselected) gray filler text that says "Select...", as if nothing was selected.
+
+####Expected result:
+The option you clicked on should show up as selected in the box.
+####Actual result:
+The option shows the "Select..." filler text:
+####Client settings:
+Mac Discord Canary, 0.0.154 (0.0.154)
+####System settings:
+macOS Sierra, 10.12.6
+
+4435
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-17T09:37:55.940Z
+
+
+### lluvia#3624 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59be4273aab6404923f128b8/473569574f963650e37ddccd80cd669a/mfw2imb.png added by Bug Bot on 2017-09-17T09:37:58.501Z
+
+
+### lluvia#3624 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59be4273aab6404923f128b8/51bb20c8fca2cc71f458f980940af207/fOtj7Ee.png added by Bug Bot on 2017-09-17T09:37:58.546Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS Sierra 10.12.6, Discord Canary 0.0.154
+
+Pascal#0929 - Bug Bot on 2017-09-17T09:38:03.680Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163
+
+AviationMaster#4793 - Bug Bot on 2017-09-17T09:38:08.503Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 4361) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-17T09:38:13.417Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (4361)
+
+Tiemen#0107 - Bug Bot on 2017-09-17T12:00:53.447Z
+
+
+### Verified.  - Clayton on 2017-09-19T20:00:52.803Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T20:01:22.075Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS Sierra 10.12.6, Discord Canary, 0.0.154, Seems to be fixed
+
+Pascal#0929 - Bug Bot on 2017-09-24T09:50:15.392Z
+
+
+### I can't reproduce, the selected option always shows up for both "Expire after" and "Max number of uses". 
+
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.163, Build 4820 - Alexandru Todea on 2017-09-24T10:47:46.515Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-24T10:50:30.133Z
+
+
+### Verified fixed.  - Clayton on 2017-09-27T23:26:14.858Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-09-27T23:26:17.982Z
+
+
+### Can reproduce.
+Discord Canary 0.0.164 (Build 5267) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-10-04T06:34:05.596Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13, Discord Canary 0.0.155, Happens again
+
+Pascal#0929 - Bug Bot on 2017-10-04T09:27:40.537Z
+
+
+### This bug is now back. I am able to reproduce it on Windows 10 Home 64-bit v1703, Discord Canary, Build 5311.
+
+
+ - Alexandru Todea on 2017-10-04T13:43:42.098Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Alexandru Todea on 2017-10-04T13:44:09.750Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Mike Greer on 2017-10-06T20:51:09.294Z
+
+
+### I am no longer able to reproduce, the selected option is always shown. 
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5478
+ - Alexandru Todea on 2017-10-07T07:13:31.707Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexandru Todea on 2017-10-07T07:13:43.370Z
+
+
+### Can't reproduce.
+Fixed, Mac 10.12.6 Desktop Canary 0.0.155
+
+Starfield_9#8660 - Bug Bot on 2017-10-09T14:49:57.446Z
+
+
+### Fixed - Jared on 2017-10-23T23:34:39.696Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-10-23T23:34:44.162Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:20:18.274Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:20:20.438Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

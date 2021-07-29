@@ -1,0 +1,83 @@
+[Archived] Long names and status overflow profile (https://trello.com/c/NZQVgOOH)
+
+None
+
+Created: 2017-06-17T23:54:13.151Z
+Latest Update: 2017-10-17T21:21:57.637Z
+
+Reported by Tortoise#5926
+
+####Steps to reproduce:
+- Set your name to something quite long (32 chars) and your status to the maximum 
+- The name overflows the "..." context menu.
+
+####Expected result:
+The name should fit nicely.
+####Actual result:
+<https://snag.gy/m2gCtV.jpg> <-- The name overflows.
+####Client settings:
+Discord Canary 0.0.157
+####System settings:
+Windows 10 x64
+
+1752
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-17T23:54:13.151Z
+
+
+### Joseph#9413 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5945c125bc7e54b415cb360e/01e504c602b9cdc7e73c07c80d9fa042/m2gCtV.jpg added by Bug Bot on 2017-06-17T23:54:16.994Z
+
+
+### Can reproduce.
+ Win 7 SP1 Canary 0.0.157
+
+aaaaaaaaaaaaaaaaaaaaaaaabaaaaaaa#8421 - Bug Bot on 2017-06-17T23:54:18.062Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary 0.0.157
+
+Joseph#9413 - Bug Bot on 2017-06-17T23:54:20.022Z
+
+
+### Can reproduce.
+CR if user has a badge  Windows 10 Home x64, Canary 0.0.157
+
+Ten#1723 - Bug Bot on 2017-06-17T23:54:21.987Z
+
+
+### Doesn't overflow if there's no badge. http://puu.sh/wn2BA.jpg
+
+Ten#1723 - Bug Bot on 2017-06-17T23:54:55.790Z
+
+
+### Definitely an issue regarding \`badges\` that may need addressing.
+
+Joseph#9413 - Bug Bot on 2017-06-17T23:55:18.245Z
+
+
+### Only usually happens if the status pushes the name higher on the panel.
+
+Joseph#9413 - Bug Bot on 2017-06-17T23:58:30.336Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-06-19T18:47:11.358Z
+
+
+### Verified, but this is so minor it's not worth fixing. - Jared on 2017-06-19T18:47:24.156Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:21:56.686Z
+
+
+### Archived by Jared on 2017-10-17T21:21:57.640Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,70 @@
+When changing name of game in "Game Activity" in the "Now Playing" box Discord does not save the new name of the game (https://trello.com/c/rXAppkGa)
+
+P3: Will eventually be fixed,
+high
+
+Created: 2019-01-20T16:41:47.529Z
+Latest Update: 2019-01-27T17:05:00.945Z
+
+Reported by idl#5710
+
+####Steps to reproduce:-Using Ubuntu 18.04 start Discord -Start a game (I specifically have this happen with Caves of Qud on Steam) -Click Gear to go to User Settings -Click Game Activity -In the green "Now Playing" box type a new name for the game you are currently playing (for Caves of Qud I changed it from 'CavesOfQud Configuration' to 'Caves of Qud') -Shut down the game you are playing -Completely close the Discord app (make sure it's not still running in background) -Reopen Discord and go back to Game Activity -Start the same game again -See that the name in the "Now Playing" box has changed back
+
+####Expected result:
+Discord should retain the custom input names of games after restarting the application.
+####Actual result:
+Discord loses the custom game display name data.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 30756, Version Hash: d7b9e87f48754e4701926d49df18c47364a39459
+####System settings:
+Ubuntu 18.04.1
+
+26067
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-20T16:41:47.529Z
+
+
+### Can reproduce.
+Lubuntu 18.04, Canary build 31115
+
+Seikatsu#0001 - Bug Bot on 2019-01-20T16:41:54.867Z
+
+
+### Can reproduce.
+Can reproduce, Ubuntu 18.04, Canary Build 31115
+
+Anorak#5830 - Bug Bot on 2019-01-20T16:41:59.914Z
+
+
+### Can reproduce.
+Ubuntu 18.10, Stable Build 31115
+
+gmcabrita#0001 - Bug Bot on 2019-01-20T16:42:04.939Z
+
+
+### Can reproduce.
+Ubuntu 18.10, Stable Build 31115
+
+gmcabrita#0001 - Bug Bot on 2019-01-20T16:46:34.580Z
+
+
+### verified, ubuntu 16.04, canary 31316 - Clayton on 2019-01-25T08:06:11.714Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2019-01-25T08:06:21.824Z
+
+
+### Can reproduce.
+Lubuntu 18.04 , Canary 31115
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-27T17:05:00.946Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

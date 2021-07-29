@@ -1,0 +1,96 @@
+[Archived] Clicking on Discord icon in taskbar resizes the window (https://trello.com/c/9l3k2ZKW)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-09T01:28:00.892Z
+Latest Update: 2018-08-30T23:34:09.245Z
+
+Reported by Charles#1934
+
+####Steps to reproduce:
+- minimize Discord to taskbar (optional) 
+- click the Discord icon on the taskbar
+
+####Expected result:
+Window should have opened in it's previous location and size.
+####Actual result:
+Window resizes and relocates to the center of the screen.
+####Client settings:
+Desktop Canary, 0.0.163
+####System settings:
+Windows 10 Pro (10.0.15063 Build 15063)
+
+2956
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-09T01:28:00.892Z
+
+
+### Can reproduce.
+must not be in fullscreen | Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-09T01:28:08.420Z
+
+
+### Can reproduce.
+CR Window resizes and relocates to the top left for me, but only once per session (needs client restart in-between repros) [Discord Canary 0.0.163, Windows 10 Pro x64 1703]
+
+fuj1n 🔫#7255 - Bug Bot on 2017-08-09T01:28:13.361Z
+
+
+### Can reproduce.
+CR | Windows 10 Home x64 Creator's Update, Discord Canary 0.0.163 | Very specific repro steps. Maximize Discord, close the client *entirely*, reopen it, unmaximize the window, then minimize and unminimize.
+
+Cubular#6460 - Bug Bot on 2017-08-09T01:28:18.374Z
+
+
+### Verified.  - Clayton on 2017-08-09T21:32:34.502Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T21:32:52.020Z
+
+
+### This is more of an annoyance that anything else. I'd call it a high priority P3. - Jared on 2017-10-17T01:27:06.921Z
+
+
+### also causes it to reapear resized on a different monitor sometimes
+
+AEnterprise#4693 - Bug Bot on 2017-10-22T20:03:45.635Z
+
+
+### I can no longer reproduce, the window doesn't get resized. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T11:50:40.727Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-28T11:50:44.329Z
+
+
+### Can reproduce.
+CR; Windows 7 ultimate x64 ; Desktop Canary 10018; Client resizes back to it previous state only if it was full screen before getting minimized
+
+GospodinCrni#2565 - Bug Bot on 2018-01-30T08:58:25.345Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-04-03T10:46:07.484Z
+
+
+### I can still reproduce this following the previous note from GospodingCrni. Reopening ticket. Canary 13034 - Tarek on 2018-04-03T10:46:13.371Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-07-11T19:40:23.935Z
+
+
+### Moved from Reopened to Verified Fixed by Jared on 2018-07-11T19:40:27.715Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:09.247Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,85 @@
+[Archived] [Audit Log] editing channel perms for a user will show the user's name as "null" in the expanded entry (https://trello.com/c/8AzALrUf)
+
+None
+
+Created: 2018-10-05T22:10:53.580Z
+Latest Update: 2019-06-05T23:47:48.416Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- create a new channel 
+- add a user to channel permissions and give him one perm 
+- save 
+- go to channel permissions of that user again and give him a second perm 
+- save 
+- go to audit logs 
+- expand latest entry
+
+####Expected result:
+it should tell the name of the user u added perms to
+####Actual result:
+instead of the name, it sais "null"
+####Client settings:
+Alpha 7.6.3
+####System settings:
+Samsung Galaxy S5 Mini Android 6.0.1
+
+20663
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-05T22:10:53.580Z
+
+
+### Nashorn#3450 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bb7e16d5eae343a5a8d4785/3f40f9f716764a02c83dfebbdc1ea141/1538743480423.png added by Bug Bot on 2018-10-05T22:10:55.954Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.6.3
+
+coolalmostchilly#7777 - Bug Bot on 2018-10-05T22:11:00.923Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8; 7.6.3
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-05T22:11:05.932Z
+
+
+### Can reproduce.
+Can reproduce Kyocera Hydro Wave Android 5.1 Discord 763
+
+Okori#0902 - Bug Bot on 2018-10-05T22:11:10.905Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Clayton on 2018-10-06T00:48:43.062Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.6.3
+
+Hole#0001 - Bug Bot on 2018-10-06T01:17:58.580Z
+
+
+### Can reproduce.
+cr, Samsung Galaxy Core Plus sm-g350, 4.2.2, Alpha, 7.6.3
+
+「Fortune's Endbringer」#9616 - Bug Bot on 2018-10-06T07:09:12.981Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-10-08T19:18:38.531Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-03T21:42:03.699Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:48.427Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

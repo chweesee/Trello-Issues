@@ -1,0 +1,112 @@
+[Archived] [Android Pie Specific] Server/GDM Notifications do not include a profile picture (https://trello.com/c/7Z6w7wOV)
+
+None
+
+Created: 2018-12-20T01:52:05.321Z
+Latest Update: 2019-10-02T11:25:59.136Z
+
+Reported by DeJay#1337
+
+####Steps to reproduce:
+- Receive a mention or a message while the discord app is not running
+
+####Expected result:
+The notifications icon is the sender's profile picture
+####Actual result:
+The notifications icon is the sender's profile initial (ex: DeJay sends as a D)
+####Client settings:
+Android Beta 8.1.4
+####System settings:
+Samsung Galaxy S9, Android 9 (Pie)
+
+24579
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-20T01:52:05.321Z
+
+
+### DeJay#1337 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c1af5c548f2fa175c80db18/bceb522377714dd6fe402ae895716982/Screenshot_20181216-233808_Reddit.jpg added by Bug Bot on 2018-12-20T01:52:07.731Z
+
+
+### Can reproduce.
+The notification has been showing the profile picture until recently, seemed to have gone broken with 8.0.0 as I've confirmed it working on 7.9.5 - Xiaomi Mi A1, Android 9.0 (December Patch), Discord Alpha 8.1.4
+
+Haru 💗#6660 - Bug Bot on 2018-12-20T01:52:12.703Z
+
+
+### Can reproduce.
+CR Google Pixel 2 XL, Android 9.0 (Dec Patch) w/ Discord Alpha 8.1.7
+
+aditya#1337 - Bug Bot on 2018-12-20T01:52:17.699Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 9.0 Discord Alpha 8.1.8
+
+webhp#1337 - Bug Bot on 2018-12-20T01:52:22.696Z
+
+
+### Can reproduce.
+Pixel 2 Android 9.0 (Build PQ1A.181205.002) Discord Alpha 8.1.8
+
+AsrielD#6969 - Bug Bot on 2018-12-20T21:03:55.979Z
+
+
+### You have no idea how annoying android notification system is...
+Fixed. - Sam Shih on 2018-12-21T01:33:12.225Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Sam Shih on 2018-12-21T01:33:17.747Z
+
+
+### Edit: fixed for DMs, but Group DMs have a higher barrier to fix that's not worth making now since it'll make the code really unperformant and ugly. We don't want to slow it down either since android OS now restricts the time we get to generate a notification. - Sam Shih on 2018-12-21T01:34:31.975Z
+
+
+### Can reproduce.
+(CR) Xiaomi Pocophone F1 • Android 9 with MIUI Global 10.1 • Discord 8.2.2
+
+dragiceviccv#1312 - Bug Bot on 2019-01-05T20:07:58.742Z
+
+
+### Can reproduce.
+Samsung Galaxy S9; One UI versions: 1.0; Android version: 9; Discord Android Alpha 8.2.7 (827)
+
+Pyknus#0001 - Bug Bot on 2019-01-14T23:49:45.176Z
+
+
+### This issue was resolved for DMs, but still occurs for GDMs and server notifications, I edited the ticket and reopened as appropriate.
+
+Reproducible on OnePlus 5 Android 9.0 Discord Alpha 8.3.5G  - Tarek on 2019-01-30T23:23:20.135Z
+
+
+### Moved from Claimed Fixed, needs Verification to Notification Bugs by Tarek on 2019-01-30T23:23:25.457Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9.0.0, Discord Alpha 8.6.1
+
+Alex the foxxo#2287 - Bug Bot on 2019-03-21T12:18:04.396Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:35.865Z
+
+
+### Can reproduce.
+Motorola Moto G6 Play, Android 9, Android Alpha
+
+mesub#0556 - Bug Bot on 2019-09-12T18:27:22.031Z
+
+
+### Can reproduce.
+Moto g7 supra, Android 9 pie, Discord Android alpha  9.6.2 (962) server notification.
+
+moomoo#7300 - Bug Bot on 2019-10-02T11:25:59.152Z
+
+List
+====
+Notification Bugs
+
+Members
+=======
+None

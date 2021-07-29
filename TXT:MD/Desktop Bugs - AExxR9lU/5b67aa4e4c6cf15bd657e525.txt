@@ -1,0 +1,90 @@
+[Archived] If you open in browser an invite link formatted as `discord(dot)gg/XXXX` with XXXX containing invalid characters (such as ' or &), you will be taken to discord's website homepage, while it does display the invalid invite screen if you're using the `discordapp(dot)com/invite/XXXX` format of same invite (https://trello.com/c/DOAXhO58)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-06T01:54:22.561Z
+Latest Update: 2018-10-22T20:24:18.377Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Copy the following invite link (make sure to replace (dot) with an actual dot) : `https://discord(dot)gg/abc&def` 
+- Paste it in browser URL bar and hit Enter 
+- Notice how you're redirected to homepage 
+- Now copy the following invite link : `https://discordapp(dot)com/invite/abc&def` 
+- Notice how this takes you to the invalid invite screen
+
+####Expected result:
+Both links should take you to the same page, as they have the same invite code
+####Actual result:
+One takes you to Discord's homepage while the other takes you to invalid invite screen
+####Client settings:
+Firefox for Android 61.0
+####System settings:
+Huawei Mate 9 Android 8.0
+
+16981
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-06T01:54:22.561Z
+
+
+### Can reproduce.
+Archlinux x64 4.17.6-1  -  Firefox (lol)
+
+Chester#2084 - Bug Bot on 2018-08-06T01:54:29.880Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1803), Google Chrome Canary 70.0.3513.0
+
+Mustard#2117 - Bug Bot on 2018-08-06T01:54:34.847Z
+
+
+### Can reproduce.
+Windows 10 Home (1803) x64, Chrome Stable 67.0.3396.99
+
+DeJay#1337 - Bug Bot on 2018-08-06T01:54:39.854Z
+
+
+### Can reproduce.
+Windows 10 x64, Google Chrome Stable 68.0.3440.84
+
+👑 Swim 👑#0875 - Bug Bot on 2018-08-06T02:00:50.478Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Chrome 68.0.3440.84
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-06T11:32:10.665Z
+
+
+### Can reproduce.
+Windows 10 home 64-bit (1803); Discord Canary Build 21209, Chrome Version 68.0.3440.84
+
+Blitz#7736 - Bug Bot on 2018-08-08T13:29:22.529Z
+
+
+### Can reproduce.
+Can reproduce - MS Windows 10 Pro x64 (v1803) - Canary 21931
+
+aosync#3115 - Bug Bot on 2018-08-15T13:25:01.247Z
+
+
+### verified.  - Clayton on 2018-08-16T21:32:43.382Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T21:32:49.034Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:18.379Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

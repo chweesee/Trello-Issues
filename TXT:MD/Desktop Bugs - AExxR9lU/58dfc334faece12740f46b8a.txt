@@ -1,0 +1,99 @@
+[Archived] Box not stretching to fit the Japanese text (https://trello.com/c/TNsHzbd0)
+
+P2: Fix can wait a while
+
+Created: 2017-04-01T15:11:48.323Z
+Latest Update: 2018-07-06T18:24:57.728Z
+
+Reported by そのプールクイーン#1414
+
+####Steps to reproduce: 
+- Have Discord in Japanese. 
+- Drag whatever file over Discord to trigger the drop icon. 
+- Observe. 
+
+####Expected result:
+ Everything should stretch to fit the Japanese text inside the box. 
+####Actual result:
+ Blue background doesn't stretch out with the rest of the box. 
+####System settings:
+ Windows 10 14393 x64, Latest Canary.
+
+2249
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-01T15:11:48.323Z
+
+
+### Can reproduce.
+Win10 x64 Discord Canary
+
+Dillon#5984 - Bug Bot on 2017-04-01T15:11:49.162Z
+
+
+### Can reproduce.
+macOS Canary
+
+Harrison#9100 - Bug Bot on 2017-04-01T15:11:51.041Z
+
+
+### Can reproduce.
+ガリウムOS 2.1、最新カナリア (GaOS 2.1, Latest Canary)
+
+Ben Z.#1327 - Bug Bot on 2017-04-01T15:11:53.048Z
+
+
+### DiscordCanary_2017-04-01_11-29-38.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58dfc334faece12740f46b8a/9d2ffd4725736fb44d525d8d4ae6f309/DiscordCanary_2017-04-01_11-29-38.png added by Bug Bot on 2017-04-01T15:12:04.403Z
+
+
+### Can reproduce.
+
+
+apap04✔#7823 - Bug Bot on 2017-04-01T21:25:07.165Z
+
+
+### I don't believe that this is a bug. Quoting Dabbit Prime, who quotes Stan on the issue of "translations breaking the UI": 
+"If the translation breaks the UI in that it's not functional, It's a bug.  If the text is cut off and making it two lines would fix it, it's a bug.  If the text is cut off and the UI would need to be redesigned to fix it, it's not a bug."
+
+This seems like it falls within the latter definition, but I will wait for Dabbit (or any other Employee) to confirm this.
+
+SuperSajuuk#7265 - Bug Bot on 2017-04-01T21:30:00.522Z
+
+
+### Verified. - Jared on 2017-04-04T17:26:40.610Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-04-04T17:26:44.495Z
+
+
+### Can reproduce.
+latest canary
+
+Mippy#1483 - Bug Bot on 2017-04-14T00:56:14.427Z
+
+
+### Can reproduce.
+discord canary (windows,mac)
+
+Mippy#1483 - Bug Bot on 2017-04-14T04:34:43.782Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:41:00.779Z
+
+
+### Moved from Next up for investigation to Claimed Fixed, needs Verification by Shadi Isber on 2018-05-21T20:27:11.228Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:24:56.238Z
+
+
+### Archived by Jared on 2018-07-06T18:24:57.730Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

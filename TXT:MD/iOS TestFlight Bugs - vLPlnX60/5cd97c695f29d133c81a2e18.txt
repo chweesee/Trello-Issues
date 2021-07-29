@@ -1,0 +1,138 @@
+[Archived] Server Banner is visible behind channel list while the server is loading. (https://trello.com/c/keETEiZP)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2019-05-13T14:17:13.404Z
+Latest Update: 2019-07-10T21:30:28.991Z
+
+Reported by Tjaz#0001
+
+####Steps to reproduce:
+- Open a big server with a banner not loaded before (e.g. Discord Testers) (preferably after restarting the app) 
+- Scroll down the channels list a bit 
+- Observe the server banner (while the server is still loading)
+
+####Expected result:
+The server banner should fade away
+####Actual result:
+The banner does not fade and is seen behind the list of channels
+####Client settings:
+TestFlight 3.0.2 (14873)
+####System settings:
+iPhone 7, iOS 12.0
+
+34527
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-13T14:17:13.404Z
+
+
+### Keons#0001 - https://youtu.be/PYHgvd0y81Q added by Bug Bot on 2019-05-13T14:17:16.062Z
+
+
+### Can reproduce.
+CR, iPhone 6 on iOS 12.1.1 and iPad Mini 2 on iOS 11.2.6, TF 3.0.2 (14873)
+
+[object Object]#0001 - Bug Bot on 2019-05-13T14:17:20.875Z
+
+
+### Can reproduce.
+Can Reproduce - TestFlight 3.0.2 (14873) iPhone 6s iOS 12.3 Dev Beta 6
+
+Rashaun#8467 - Bug Bot on 2019-05-13T14:17:25.906Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.2 (14873)
+
+Daffyduck#5364 - Bug Bot on 2019-05-13T14:17:30.902Z
+
+
+### Can't reproduce.
+CNR, iPhone X, iOS 12.3 (Dev Beta 6), TestFlight 3.0.2 (14873) (I do not think this could be reproduced on iPhone X devices and it could be only limited to 5-inch devices)
+
+Keons#0001 - Bug Bot on 2019-05-13T14:18:57.446Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.3 (dev beta 5) - Testflight 3.0.2 (14902)
+
+Xylium#5800 - Bug Bot on 2019-05-13T19:42:17.327Z
+
+
+### Moved from New Issues to Banner by Jonathan Wu on 2019-05-13T20:18:46.326Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, Testflight 3.0.2 (14902)
+
+OrangeM24#5746 - Bug Bot on 2019-05-13T20:24:09.232Z
+
+
+### Can reproduce.
+iPhone X iOS 12.3 TestFlight 3.0.2
+
+Darth#9386 - Bug Bot on 2019-05-13T21:30:45.788Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.2 | TestFlight 3.0.2 (14902)
+
+Clay#0001 - Bug Bot on 2019-05-13T22:50:41.021Z
+
+
+### Can't reproduce.
+iPhone XS Max | TestFlight 3.0.2 (15022) | iOS 12.4 (Keons is correct, have tried on numerous iPhone X models.)
+
+bea#0001 - Bug Bot on 2019-05-17T23:02:12.743Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.2 (15173) with iPad Pro (11 inch) running iOS 12.3. Note: There is a similar issue that still happens: https://trello.com/c/FIeWThsd
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-23T13:18:39.042Z
+
+
+### Moved from Banner to Claimed Fixed Bugs by Pascal on 2019-05-23T13:18:45.085Z
+
+
+### Moved from Claimed Fixed Bugs to Banner by Pascal on 2019-05-23T14:27:18.766Z
+
+
+### Moved from Banner to Claimed Fixed Bugs by Pascal on 2019-05-23T18:28:35.388Z
+
+
+### Can't reproduce.
+iPhone XR, iOS 12.2 TestFlight 3.0.2 (15173) bug still present
+
+binchlord#0998 - Bug Bot on 2019-05-24T15:38:33.700Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.2 TestFlight 3.0.2 (15173)
+
+binchlord#0998 - Bug Bot on 2019-05-24T16:11:44.733Z
+
+
+### Can't reproduce.
+iPhone XR & iPad Air iOS 12.2 TestFlight 3.0.2 (15253)
+
+binchlord#0998 - Bug Bot on 2019-05-25T22:22:05.728Z
+
+
+### Moving to Verified Fixed list because EvilDabbit was not able to handle this ticket due to a issue it has with handling tickets that were in Claimed Fixed previously. - Pascal on 2019-05-29T08:56:05.578Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Pascal on 2019-05-29T08:56:13.338Z
+
+
+### Archived by Bug Bot on 2019-07-10T21:30:29.005Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

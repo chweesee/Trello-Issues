@@ -1,0 +1,94 @@
+[Archived] Invite links dont work in croatian language on android (https://trello.com/c/B5ChIj41)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2017-12-15T12:19:02.326Z
+Latest Update: 2018-07-06T21:23:08.509Z
+
+Reported by KratΩs#7871
+
+####Steps to reproduce:
+- go to pc settings, select the croatian language 
+- sync with your mobile android 
+- open Discord in android 
+- try using an invite link for a server
+
+####Expected result:
+You should enter the server
+####Actual result:
+It shows the invite link expired or is invalid
+####Client settings:
+Discord alpha, 5.8.3
+####System settings:
+oneplus 3t android 7.0
+
+7055
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-15T12:19:02.326Z
+
+
+### Can reproduce.
+CR; Lenovo Moto G5 Plus, 7.0; Discord 5.8.4
+
+Xiang#2232 - Bug Bot on 2017-12-15T12:19:09.661Z
+
+
+### Can reproduce.
+CR; Samsung XCOVER 4, Android 7.0, Discord 5.8.4, Doesn't seem to effect partnered servers?
+
+Viktor#5064 - Bug Bot on 2017-12-15T12:19:14.630Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 mini, Android 6.0.1, Alpha 5.8.6
+
+PokéPixelBoy#8431 - Bug Bot on 2017-12-15T12:19:19.700Z
+
+
+### Can reproduce.
+Samsung galaxy S6, Android 7.0
+
+TheElfLord#3836 - Bug Bot on 2017-12-15T17:29:15.390Z
+
+
+### Verified - Tarek on 2017-12-16T09:45:23.186Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-16T09:45:27.548Z
+
+
+### Worked with TheElfLord#3836 to pin down the cause as well. (T1724170)
+
+Penguin#0001 - Bug Bot on 2017-12-18T23:52:03.240Z
+
+
+### we are missing the translation for this plural message in hr-HR locale. The invite actually resolves correctly, but we error out on the rendering. - Sam Shih on 2018-01-03T01:34:46.854Z
+
+
+### should be fixed in the release after 6.0.3 - Sam Shih on 2018-01-03T01:58:21.158Z
+
+
+### @lytefast It seems to be happening to Lithuanian too, probably all the new languages since previous API deploy. - Tarek on 2018-01-22T09:26:37.250Z
+
+
+### @tarek1337 found and fixed the issue in lt and el. I relaxed our crowdin to android transformer rules so we should see this less now. - Sam Shih on 2018-01-27T07:57:04.269Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Sam Shih on 2018-02-07T21:37:35.412Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:23:07.629Z
+
+
+### Archived by Jared on 2018-07-06T21:23:08.512Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

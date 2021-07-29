@@ -1,0 +1,107 @@
+[Archived] If an uncached user profile takes too long to load because of a bad connection, the profile ends up to auto close (https://trello.com/c/DraeDAcz)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-04T15:21:44.175Z
+Latest Update: 2019-04-12T22:00:17.825Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+
+- Prerequisite: you have been on Discord for quite some time and have already visited a few active channels during this session 
+- Turn on airplane mode to simulate a temporary connection loss. If you have a very bad/slow connection, this step might not even be required. 
+- Switch to one of the channels you previously visited 
+- Find a message in chat from a user that is uncached, i.e that doesn't have their role color, server nickname and pfp loaded. If you can't find any, try another channel, and make sure new users are constantly sending new messages in those channels  
+- Long press the message of the uncached user 
+- On the message action sheet, click Profile (or the avatar). If the profile appears completely blank, you're good to go 
+- Wait 5-10 seconds
+
+####Expected result:
+You should stay in the user profile screen until the profile loads eventually
+####Actual result:
+If the user profile still haven't loaded after 5-10 seconds, you will automatically be taken back to chat
+####Client settings:
+Discord Alpha 8.5.5
+####System settings:
+Huawei Mate 9 Android 8.0
+
+30280
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-04T15:21:44.175Z
+
+
+### Can reproduce.
+This requires a very bad connection. I couldn't reproduce at first but then could do it. Lenovo Vibe K5+, 5.1.1 | Discord Alpha 855
+
+The Lunala#6877 - Bug Bot on 2019-03-04T15:21:51.935Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.5.5
+
+nescix#0510 - Bug Bot on 2019-03-04T15:21:56.936Z
+
+
+### Can reproduce.
+cr. Alpha 8.5.5 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-03-04T15:22:01.893Z
+
+
+### Can reproduce.
+Samsung S8, Android 9.0, 8.5.5
+
+Mr. Proper#2394 - Bug Bot on 2019-03-04T15:34:22.301Z
+
+
+### Can reproduce.
+Can reproduce, can even recall that it used to happen with Clyde's profile. Discord Alpha 8.5.5 / Xiaomi Mi3W / Android 7.1.2 / LineageOS
+
+Hawlucha#2061 - Bug Bot on 2019-03-04T17:43:37.774Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (8.1.0) | Discord Alpha 8.5.5
+
+Clay#0001 - Bug Bot on 2019-03-04T18:15:56.607Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8, Android 8, Alpha 8.5.5
+
+Action Potential#2494 - Bug Bot on 2019-03-04T19:44:42.456Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.5
+
+Skyla#0002 - Bug Bot on 2019-03-05T11:56:35.176Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 8.5.5
+
+AmirAmani#0102 - Bug Bot on 2019-03-05T13:53:34.892Z
+
+
+### Can reproduce.
+Intex Aqua N7, Android 5 855
+
+Stardust#2476 - Bug Bot on 2019-03-05T14:28:32.628Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T21:50:02.718Z
+
+
+### Archived by Bug Bot on 2019-04-12T22:00:17.837Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

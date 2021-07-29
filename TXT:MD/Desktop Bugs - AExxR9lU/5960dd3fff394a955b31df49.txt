@@ -1,0 +1,70 @@
+[Archived] Buttons and timers on server join/account verification are slightly covered when someone in the current channel is typing (https://trello.com/c/gIprYi6q)
+
+P3: Will get fixed eventually
+
+Created: 2017-07-08T13:25:19.230Z
+Latest Update: 2018-10-22T20:14:37.683Z
+
+Reported by Pointy#5565
+
+####Steps to reproduce:
+- Open an instance of discord on a brand new, unverified account (this can be done by opening a chrome incognito window and opening discord) 
+- Make the account join a testing server with medium verification 
+- Observe the Claim Account button, and then simulate typing in the channel with an alternate account or someone else 
+- While they are typing, observe the button until they stop typing 
+- Claim the account (or just rejoin on an alt account with the server set to tableflip verification) 
+- Observe the timer, and then simulate typing as instructed before 
+- While they are typing, observe the timer until they stop typing
+
+####Expected result:
+The typing bar should be behind these buttons/timers
+####Actual result:
+The typing bar is marginally in front of the buttons/timers, partially obscuring them (I assume this happens for all buttons and timers, however I have only tested with the above)
+####Client settings:
+Desktop Canary 0.0.157 (Build 2044)
+####System settings:
+Win 10 Pro x64 v1607
+
+2031
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-08T13:25:19.230Z
+
+
+### Pointy#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5960dd3fff394a955b31df49/bb2b64c70a4525fd393a30678428c265/4d63d1.gif added by Bug Bot on 2017-07-08T13:25:22.766Z
+
+
+### Can reproduce.
+Can repro, but not sure if bug.  Windows 10 (Creators Update) x64, Canary 0.0.157
+
+DeJay#3628 - Bug Bot on 2017-07-08T13:25:26.731Z
+
+
+### Can reproduce.
+ Macbook Pro 2015 Screen resolution: 15,4-inch (2880 x 1800), MacOS Sierra: Version 10.12.5 Discord Canary 0.0.149
+
+xLars#5484 - Bug Bot on 2017-07-08T13:25:31.738Z
+
+
+### Can reproduce.
+Windows 10 Creator's Update and Discord Canary 0.0.157
+
+joaoh1#0567 - Bug Bot on 2017-07-08T13:25:36.750Z
+
+
+### Verified, extremely minor. - Jared on 2017-07-10T21:18:32.566Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-07-10T21:18:36.017Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:37.686Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

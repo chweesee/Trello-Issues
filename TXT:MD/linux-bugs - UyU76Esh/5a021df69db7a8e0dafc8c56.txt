@@ -1,0 +1,121 @@
+[Archived] Joining a voice channel causes a infinite reload loop (https://trello.com/c/Dsu76DKP)
+
+P1: Severe,
+On Github
+
+Created: 2017-11-07T20:56:22.789Z
+Latest Update: 2018-02-27T00:17:19.314Z
+
+Reported by Starshine Dust#2189
+
+####Steps to reproduce:
+- update to Build 6926 
+- connect to a voice channel
+
+####Expected result:
+You join a voice channel and can use Discord normally
+####Actual result:
+it goes into a infinite reload loop
+####Client settings:
+Discord Canary 0.0.25 ( Build 6926 )
+####System settings:
+Ubuntu 17.04/Linux 4.10
+
+6169
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-07T20:56:22.789Z
+
+
+### Can reproduce.
+Kubuntu 17.10 x64, Canary 0.0.25 Build 6926
+
+kiroma#1608 - Bug Bot on 2017-11-07T20:56:30.153Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.10/Linux 4.13, Canary 0.0.25 (Build 6926)
+
+juj#5114 - Bug Bot on 2017-11-07T20:56:35.163Z
+
+
+### Can reproduce.
+CR, Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits Discord Canary Build 6926
+
+Alex1304#9704 - Bug Bot on 2017-11-07T20:56:40.183Z
+
+
+### Can reproduce.
+Arch Linux x64, Canary 0.0.25 Build 6926
+
+SilverMight#1302 - Bug Bot on 2017-11-07T20:57:58.310Z
+
+
+### Can reproduce.
+Linux mint 17.3/4.2.0-22 Canary 0.0.25 build 6926
+
+mark9064#4401 - Bug Bot on 2017-11-07T21:00:52.389Z
+
+
+### Can reproduce.
+!storeinfo
+
+sadaharu#3422 - Bug Bot on 2017-11-07T21:02:54.749Z
+
+
+### Can reproduce.
+Debian 9 x64/Linux 4.9, KDE 5.28.0, Discord Canary 0.0.25
+
+sadaharu#3422 - Bug Bot on 2017-11-07T21:03:35.075Z
+
+
+### Can reproduce.
+Linux Mint 18.2/4.4.0, Canary 0.0.26 (Build 6926)
+
+Brianna💛#4109 - Bug Bot on 2017-11-07T21:09:02.542Z
+
+
+### Not fixed in 0.0.26 -- <@297760521590145024>
+
+SilverMight#1302 - Bug Bot on 2017-11-07T21:09:40.552Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Jared on 2017-11-08T03:57:19.836Z
+
+
+### Not fixed on Canary 0.0.27 Build 6985. After some research, it seems that the client is attempting to FAST CONNECT with the wrong gatewayURL mismatch: wss://gateway.discord.gg/?encoding=etf&v=6&compress=zlib-stream !== wss://gateway.discord.gg/?encoding=json&v=6&compress=zlib-stream
+
+DeJay#3628 - Bug Bot on 2017-11-08T14:37:40.372Z
+
+
+### Can reproduce.
+Arch Linux x64, Canary 0.0.25 Build 6926
+
+NovaFox#9749 - Bug Bot on 2017-11-08T14:43:20.517Z
+
+
+### Can reproduce.
+Canary 0..27
+
+TheMasteredPanda#5042 - Bug Bot on 2017-11-08T19:12:33.662Z
+
+
+### Moved from Discord Verified Bugs to Verified Fixed by Jared on 2018-01-06T02:53:37.225Z
+
+
+### Fixed a long time ago - Jared on 2018-01-06T02:53:46.796Z
+
+
+### Archiving due to age and no activity. - Mike Nisbet on 2018-02-27T00:17:17.552Z
+
+
+### Archived by Mike Nisbet on 2018-02-27T00:17:19.317Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,99 @@
+switching from PTT to VAD back to PTT whilst talking makes the mic stay open on PTT (https://trello.com/c/fKcMXtVn)
+
+P2: Fix can wait a while
+
+Created: 2017-05-06T19:11:39.629Z
+Latest Update: 2019-09-23T22:30:07.960Z
+
+Reported by Daan#3356
+
+####Steps to reproduce: 
+- Setup a keybind to switch between push to talk and voice activation
+- Start on Push to Talk
+- Whilst taking switch to Voice Activation using keybind
+- While you are still talking switch back to Push to Talk
+
+####Expected result:
+ it should switch back to PTT without the mic being open when you don't touch the ptt button
+####Actual result:
+ the mic stays open until you press the ptt button after toggling 
+####System settings:
+ windows 10 x64 latest canary
+
+1447
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-06T19:11:39.629Z
+
+
+### Can reproduce.
+Win10 x64, Canary
+
+Seth#4431 - Bug Bot on 2017-05-06T19:11:40.280Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary latest
+
+NdT3#0717 - Bug Bot on 2017-05-06T19:11:42.259Z
+
+
+### Can reproduce.
+Windows 10 Discord Canary
+
+Kristoffer#3299 - Bug Bot on 2017-05-06T19:11:44.280Z
+
+
+### 0gWfg.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/590e1febe87d3ea4eab17d8c/6c7975fdf1ee1ae4810b2508501591db/0gWfg.gif added by Bug Bot on 2017-05-06T19:11:56.413Z
+
+
+### Verified.  - Clayton on 2017-05-12T02:27:29.692Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-12T02:27:36.211Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-16T20:04:16.737Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T22:05:22.159Z
+
+
+### I can't reproduce this any more. - Jared on 2017-10-16T22:05:26.992Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jared on 2017-10-16T22:05:32.744Z
+
+
+### I am able to reproduce this bug using the steps below, provided by QuakGoesDuck#9672. The device I tested on is running Windows 10 Pro x64, Fall Creators Update, Discord Canary 0.0.168 (6558).
+
+- Setup a keybind to switch between push to talk and voice activation
+- Start on Push to Talk
+- Whilst taking switch to Voice Activation using keybind
+- While you are still talking switch back to Push to Talk
+Expected: Back to using Push to Talk
+Actual: Mic stays lit up even after swapping channels - Chris Cox on 2017-10-30T04:44:21.851Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Chris Cox on 2017-10-30T04:46:02.861Z
+
+
+### Can repro as of: 11/2 - Clayton on 2017-11-03T06:33:11.830Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T06:33:42.593Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

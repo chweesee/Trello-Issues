@@ -1,0 +1,77 @@
+[Archived] Changing the "use speaker" setting while in-call causes all other audio to switch speakers after the call ends. (https://trello.com/c/koXugHaB)
+
+P3 - Will be fixed eventually,
+High,
+Mod can no longer reproduce
+
+Created: 2017-12-16T17:24:40.093Z
+Latest Update: 2018-07-06T21:22:42.989Z
+
+Reported by MaybeMaybe#2921
+
+####Steps to reproduce:
+- be in a DM call 
+- open the voice settings 
+- switch the state of the "use speaker" setting 
+- exit call 
+- play audio from another app
+
+####Expected result:
+the audio plays on system speakers
+####Actual result:
+the audio plays on call speakers. Redoing the steps will switch the speakers back.
+####Client settings:
+Discord 5.8.3
+####System settings:
+Oneplus 2, Android 6.0.1
+
+6980
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-16T17:24:40.093Z
+
+
+### Can reproduce.
+CR, Discord 5.8.3, LG G6 Android 7.0
+
+StartForKillerMC#8184 - Bug Bot on 2017-12-16T17:24:47.492Z
+
+
+### Can reproduce.
+CR Discord 5.8.7 Kyocera Hydro Wave Android 5.1
+
+Okori#0902 - Bug Bot on 2017-12-16T17:24:52.466Z
+
+
+### Can reproduce.
+CR LG xpower 6.0.1 on alpha 5.8.7
+
+ks0908#8526 - Bug Bot on 2017-12-16T17:24:57.483Z
+
+
+### Verified. - Mike Nisbet on 2017-12-29T15:20:50.163Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Mike Nisbet on 2017-12-29T15:20:53.351Z
+
+
+### I can no longer reproduce this, moving to Claimed Fixed.
+Google Pixel XL, Android 8.1.0, Discord 6.3.0 - Chris Cox on 2018-03-03T02:29:25.330Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Chris Cox on 2018-03-03T02:29:32.341Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:22:42.448Z
+
+
+### Archived by Jared on 2018-07-06T21:22:42.991Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

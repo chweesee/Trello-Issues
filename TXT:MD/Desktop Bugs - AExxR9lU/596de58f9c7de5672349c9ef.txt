@@ -1,0 +1,94 @@
+[Archived] TTS read ID rather than mention (https://trello.com/c/312rsIIB)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-07-18T10:40:15.099Z
+Latest Update: 2019-04-22T07:47:34.700Z
+
+Reported by Mathis#3775
+
+####Steps to reproduce:
+- Send a message with /tts @mention -
+
+####Expected result:
+TTS must read the mention's name
+####Actual result:
+TTS read ID of the mention
+####Client settings:
+Desktop Canary 0.0.150
+####System settings:
+MacOS Sierra
+
+2325
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-18T10:40:15.099Z
+
+
+### Can reproduce.
+Can only repro with role mentions, macOS Sierra, Canary 0.0.150
+
+mouse91#3089 - Bug Bot on 2017-07-18T10:40:22.866Z
+
+
+### Can reproduce.
+Doesn't even TTS it on Windows. Windows 10 Home Creators Update x64, Canary 0.0.158
+
+TTtie#4900 - Bug Bot on 2017-07-18T10:40:27.916Z
+
+
+### Can reproduce.
+Can reproduce, no TTS for role mentions. Windows 10 Home 64-bit v1703, Discord Canary 0.0.158
+
+Curse Broken#8659 - Bug Bot on 2017-07-18T10:40:32.936Z
+
+
+### Verified. Only for role mentions.  - Clayton on 2017-07-20T19:10:14.884Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-20T19:10:32.076Z
+
+
+### Low P2 - Jared on 2017-10-17T06:24:26.239Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:48:20.444Z
+
+
+### Moved from Next up for investigation to Fix made, not yet released by Shadi Isber on 2017-11-13T02:48:36.441Z
+
+
+### Checked on canary build 7256:
+
+I can no longer reproduce this myself. Using `/tts @mention` used the mention's name and not ID. - Alexander (DJScias) on 2017-11-13T15:08:16.544Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexander (DJScias) on 2017-11-13T15:08:21.030Z
+
+
+### Can't reproduce.
+Beta version of Windows 10
+
+Josh Reid#9062 - Bug Bot on 2017-12-13T18:59:17.307Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:28:27.482Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:28:30.909Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:38:59.941Z
+
+
+### Archived by Tarek on 2018-02-22T19:39:00.783Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,69 @@
+No notification icon on Ubuntu 17.04 (https://trello.com/c/KGTeLgKo)
+
+P2: Can wait awhile,
+low
+
+Created: 2017-04-23T20:35:21.327Z
+Latest Update: 2018-01-10T01:22:10.922Z
+
+Reported by aescapedshadow#4497
+
+####Steps to reproduce: 
+- Install Discord 
+- Start it 
+
+####Expected result:
+ Should have icon in notification area 
+####Actual result:
+ No icon shows up normally but a temporary workaround is to start with "XDG_CURRENT_DESKTOP=Unity discord-canary" for it to work 
+####System settings:
+ Ubuntu 17.04 discord-canary 0.0.15
+
+1170
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-23T20:35:21.327Z
+
+
+### Can reproduce.
+Ubuntu 17.04, Canary v0.0.15
+
+TTtie#5937 - Bug Bot on 2017-04-23T20:35:21.930Z
+
+
+### Can reproduce.
+Ubuntu 17.04, Discord Canary
+
+Noahkiq#2451 - Bug Bot on 2017-04-23T20:35:23.895Z
+
+
+### Can reproduce.
+dont mind me, just pushing this through
+
+Alex from Alaska#9760 - Bug Bot on 2017-04-23T20:35:25.923Z
+
+
+### Here is a example of logic to fix this from a unrelated program that already fixed the problem. https://launchpadlibrarian.net/248638978/fix-non-pure-unity.patch
+
+aescapedshadow#4497 - Bug Bot on 2017-04-23T20:40:32.695Z
+
+
+### Verified.  - Clayton on 2017-05-26T23:05:19.934Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2017-05-26T23:05:23.504Z
+
+
+### Fix coming from electron soon https://github.com/electron/electron/pull/9716 - Chris Marsh on 2017-06-19T19:56:40.746Z
+
+
+### Moved from Discord Verified Bugs to Claimed Fixed by Clayton on 2018-01-10T01:22:10.900Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

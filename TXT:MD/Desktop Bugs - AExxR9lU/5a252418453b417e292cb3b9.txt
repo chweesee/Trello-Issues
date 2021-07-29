@@ -1,0 +1,95 @@
+[Archived] Non-Default colored roles on profile card do not highlight when mousing over them. (https://trello.com/c/XWQOKmuC)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2017-12-04T10:31:52.323Z
+Latest Update: 2018-01-16T21:01:56.403Z
+
+Reported by QwakGoesDuck#9672
+
+####Steps to reproduce:
+- Be on a server where you have permission to manage roles. 
+- Find or create a role and don't change it from its default color. 
+- Click on the user so that the profile card shows up. 
+- Hover over the default color role and a colored role.
+
+####Expected result:
+Roles with default color and roles with a color should both highlight when moused over.
+####Actual result:
+Only the default colored role highlights when moused over.
+####Client settings:
+Canary 0.0.181
+####System settings:
+Windows 10 Home x64 Version 1703
+
+6815
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-04T10:31:52.323Z
+
+
+### QwakGoesDuck#9672 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a252418453b417e292cb3b9/041e4fca0c496ad9d6f0d8a491262996/iZPonGal.gif added by Bug Bot on 2017-12-04T10:31:55.880Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (Fall Creators Update), Canary 0.0.181 (build 7968)
+
+xSolidFigure#0594 - Bug Bot on 2017-12-04T10:31:59.729Z
+
+
+### Can reproduce.
+Windows 10 + Canary 0.0.181 + build# 7963
+
+Oasis#4730 - Bug Bot on 2017-12-04T10:32:04.745Z
+
+
+### Can reproduce.
+Sounds possibly intended, but I can reproduce the issue as described. Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.181 (Build 7968)
+
+SuperSajuuk#7265 - Bug Bot on 2017-12-04T10:32:09.719Z
+
+
+### Can reproduce.
+Windows 10 Pro (x64), Fall Creators Update (1709), Canary 0.0.181 (7968), probably intentional but can repro as listed.
+
+sladewatkins#2439 - Bug Bot on 2017-12-05T00:37:56.921Z
+
+
+### Verified  - Tarek on 2017-12-05T05:20:16.356Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-05T05:20:20.123Z
+
+
+### Can reproduce.
+MacBook Air (Early 2015) macOS High Sierra 10.13, Discord Stable Version 0.0.248 (Build #7889)
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-05T08:59:25.933Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a252418453b417e292cb3b9/48b831dd8a1e1dabdee62cf6b6935d9e/image.png added by Tarek on 2017-12-06T05:11:12.785Z
+
+
+### After the new profile UI update, it does not hover on any color. Not sure if it was an intended change or not. Keeping the ticket alive though in case this UI gets reverted. - Tarek on 2017-12-06T05:11:50.094Z
+
+
+### Moved from Verified Bugs to Not a Bug by Mike Nisbet on 2017-12-10T23:21:02.712Z
+
+
+### Not a bug - night - Mike Nisbet on 2017-12-10T23:21:13.063Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2018-01-16T21:01:55.607Z
+
+
+### Archived by Alexander (DJScias) on 2018-01-16T21:01:56.406Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,94 @@
+[Archived] [Redesign] When opening the Nitro Server Boost menu Discord throw "Uncaught TypeError: t.props.onClose is not a function" (https://trello.com/c/TR1xs1m8)
+
+None
+
+Created: 2019-09-08T16:26:59.136Z
+Latest Update: 2019-09-11T04:44:45.538Z
+
+Reported by Leaf#0001
+
+####Steps to reproduce:
+- Open the Nitro Server Boost menu from the dropdown button on a guild name 
+- Observe the error
+
+####Expected result:
+Discord shouldn't throw an error
+####Actual result:
+Discord throw an error
+####Client settings:
+Discord Canary 45325
+####System settings:
+macOS High Sierra, Version: 10.13.6
+
+43731
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-08T16:26:59.136Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 45325 (0.0.257) - This effects all Server drop down items.
+
+Alipoodle#5025 - Bug Bot on 2019-09-08T16:27:06.865Z
+
+
+### Can reproduce.
+CR; Windows 10 v1903, build 18362.30 Pro, canary 45325
+
+badstagram#0001 - Bug Bot on 2019-09-08T16:27:11.892Z
+
+
+### Can reproduce.
+CR, macOS 10.15, Canary 45325
+
+Action Potential#6862 - Bug Bot on 2019-09-08T16:27:16.901Z
+
+
+### Can't reproduce.
+Windows 10 x64 Canary Build: 45325
+
+Scrumpy#0200 - Bug Bot on 2019-09-08T17:19:19.699Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 45325 host 0.0.257
+
+Jean20B#4668 - Bug Bot on 2019-09-08T18:11:14.802Z
+
+
+### Same error for https://trello.com/c/kJdoRFRo
+
+Jean20B#4668 - Bug Bot on 2019-09-08T18:13:27.819Z
+
+
+### Can reproduce.
+Windows 10 pro 1903, canary 43731
+
+Drachenfrucht1#4901 - Bug Bot on 2019-09-08T19:50:32.425Z
+
+
+### Extension of https://trello.com/c/kJdoRFRo - Ene on 2019-09-08T22:03:24.061Z
+
+
+### Archived by Ene on 2019-09-08T22:03:24.910Z
+
+
+### Can't reproduce.
+ArchLinux Rolling (Linux Kernel 5.2.13-arch-1-1) - i3 - Discord Canary 45338 784f3069c4e6607e5f05d9ac550b8513850a9fdb
+
+chanbakjsd#7968 - Bug Bot on 2019-09-09T07:27:18.639Z
+
+
+### Can't reproduce.
+CNR MacBook Air - MacOS (10.12.6 Sierra) canary 45491
+
+myacorn#6534 - Bug Bot on 2019-09-11T04:44:45.548Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

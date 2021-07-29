@@ -1,0 +1,102 @@
+[Archived] Message that suggest server name is over size appears although the name isn’t (https://trello.com/c/h09p6PAs)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-05-06T08:35:14.329Z
+Latest Update: 2019-10-15T23:58:43.246Z
+
+Reported by MeowthenA#9256
+
+####Steps to reproduce:
+- create a server with random name
+- open the server and start editing for a new name
+- type long server name over 100 characters and press save
+- message saying that it must exist in between 2-100 characters appears.
+- delete characters and press save 
+- message still appears
+
+####Expected result:
+message warning that’s its over the limited should be gone after you click save.
+####Actual result:
+it still exists and telling users that it’s oversize.
+####Client settings:
+2.3.1
+####System settings:
+iphone 5s ios 11.3.1
+
+12046
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-06T08:35:14.329Z
+
+
+### Tarek#1337 - https://www.youtube.com/watch?v=c3jbIu7NFdk&feature=youtu.be added by Bug Bot on 2018-05-06T08:35:16.698Z
+
+
+### Can reproduce.
+CR; Even renaming the server to something normal instead of an emoji makes it keep saying "Server name (must be between 2 and 100 in length) iPhone 6 - iOS 11.4 TestFlight 2.3.1 (4051)"
+
+Xylium#1480 - Bug Bot on 2018-05-06T08:35:21.643Z
+
+
+### Can reproduce.
+warning doesnt disappear, even though the server name is accepted iPhone 7 Plus, iOS 11.3, iOS TestFlight 2.3.1 4051
+
+ash#0001 - Bug Bot on 2018-05-06T08:35:26.652Z
+
+
+### Can reproduce.
+CR. For me the warning didn't disappear but the server name went through and got saved. iPhone 6s, iOS 11.0, Discord 2.2.8
+
+Rage#0001 - Bug Bot on 2018-05-06T08:35:31.620Z
+
+
+### Can reproduce.
+CR For me the warning didn't disappear but the server name went through and got saved. iPhone 6s, iOS 11.0, Discord TestFlight 2.3.1 (4051)
+
+Rage#0001 - Bug Bot on 2018-05-06T08:36:35.386Z
+
+
+### Probably extension of https://trello.com/c/8OtwCttz
+
+Pascal#0929 - Bug Bot on 2018-05-06T08:43:47.567Z
+
+
+### Verified.  iOS 11, iPad Pro, TestFlight 2.3.1. - Clayton on 2018-05-08T19:45:37.222Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-08T19:45:45.697Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:22.529Z
+
+
+### This does looks like an extension of https://trello.com/c/8OtwCttz/630-error-message-for-nickname-change-not-possible-will-be-shown-for-all-server-members to me after a closer look. I'm going to come back to this later to make sure it's OK to archive permanently as an extension.  - Ghoul on 2019-02-16T16:30:42.059Z
+
+
+### Unarchived by Bug Bot on 2019-02-16T17:00:06.656Z
+
+
+### Checked with Icy. Archiving this ticket as an extension of https://trello.com/c/8OtwCttz/630-error-message-for-nickname-change-not-possible-will-be-shown-for-all-server-members - Ghoul on 2019-02-19T21:36:51.850Z
+
+
+### Moved from Backlog to New Issues by Ghoul on 2019-02-19T21:36:58.750Z
+
+
+### Archived by Ghoul on 2019-02-19T21:37:02.817Z
+
+
+### Can reproduce.
+Testflight 3.1.5 (17627), iPhone XR, iOS 13.1.2
+
+SplashyFlame#0067 - Bug Bot on 2019-10-15T23:58:43.258Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

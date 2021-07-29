@@ -1,0 +1,80 @@
+[Archived] When you join a server in russian with TableFlip secure level (or low or medium) there will be incorrect Unicode characters. (https://trello.com/c/TnDPSWXE)
+
+P2: Fix can wait a while
+
+Created: 2017-04-02T19:10:22.082Z
+Latest Update: 2017-11-15T19:01:43.716Z
+
+Reported by apap04✔#7823
+
+####Steps to reproduce: 
+- Step 1 
+- Switch language to Russian 
+- Step 2 
+- Join a server with TableFlip verification (or lower) 
+
+####Expected result:
+ Should say the normal message without the unknown Unicode symbol. 
+####Actual result:
+ Shows 2 unknown Unicode symbols 
+####System settings:
+ Windows 10 Pro, Discord Canary.
+
+2260
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-02T19:10:22.082Z
+
+
+### Can reproduce.
+macOS, Canary
+
+Francis#6565 - Bug Bot on 2017-04-02T19:10:23.140Z
+
+
+### Can reproduce.
+win 10, latest canary
+
+Andrew.#6465 - Bug Bot on 2017-04-02T19:10:25.484Z
+
+
+### Can reproduce.
+windows 10 latest canary
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-04-02T19:10:27.187Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58e14c9eb4e882f6fca48144/1fcf58c7f51c5d7aff5ad3ece12e4275/unknown.png added by Bug Bot on 2017-04-02T19:10:38.443Z
+
+
+### Verified. - Jared on 2017-04-04T17:25:58.141Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-04-04T17:26:01.165Z
+
+
+### Can reproduce.
+(The UTF-8 Broken Characters Bug, occurs randomly in packed translated strings on unicode characters)
+
+PLAYER_CHAR#2874 - Bug Bot on 2017-05-01T11:13:44.956Z
+
+
+### This is an i18n issue. - Jared on 2017-10-04T21:37:06.755Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2017-10-04T21:37:11.815Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:01:43.170Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:01:43.719Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

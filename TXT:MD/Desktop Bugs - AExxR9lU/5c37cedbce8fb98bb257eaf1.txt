@@ -1,0 +1,79 @@
+[Archived] Invoking macOS' native dictation while in a voice channel or call causes Discord to crash (possibly T2 chip Mac's only) (https://trello.com/c/g24y9h4p)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-01-10T23:01:47.287Z
+Latest Update: 2019-10-23T23:03:53.919Z
+
+Reported by Adam#3075
+
+####Steps to reproduce:
+- Be in a voice channel or call. 
+- Select a text input field (e.g. "Message #channel" or "Search"). 
+- Invoke dictation through Edit > Start Dictation or the shortcut.
+
+####Expected result:
+Dictation should work in text input fields as it does when you are not in a voice channel or call.
+####Actual result:
+Discord hangs momentarily before crashing and restarting.
+####Client settings:
+Discord Stable 27458
+####System settings:
+macOS Mojave 10.14.1
+
+22756
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-10T23:01:47.287Z
+
+
+### Alfie#1582 - https://youtu.be/bVo2Kt912ZA added by Bug Bot on 2019-01-10T23:01:49.765Z
+
+
+### Can reproduce.
+Can reproduce. MacOS HS 10.13.6, MacBook Pro
+
+Dabbit Prime#0896 - Bug Bot on 2019-01-10T23:01:54.659Z
+
+
+### verified.  - Clayton on 2019-01-11T02:42:12.067Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-11T02:42:19.941Z
+
+
+### Archived by Bug Bot on 2019-02-10T03:00:03.269Z
+
+
+### Can't reproduce.
+macOS 10.14.4, Canary: 34822
+
+Thiago#3958 - Bug Bot on 2019-03-31T16:21:34.417Z
+
+
+### Can't reproduce.
+macOS 10.14.4, Canary: 34822 (MacBook Pro 2018)
+
+Thiago#3958 - Bug Bot on 2019-03-31T16:22:18.289Z
+
+
+### Unarchived by Bug Bot on 2019-03-31T16:30:06.525Z
+
+
+### Can't reproduce.
+CNR. Nothing happens. MacBook Pro 13" 2018 - Discord Canary 34858
+
+Frances Picard#6209 - Bug Bot on 2019-04-02T11:32:57.193Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:53.984Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,98 @@
+[Archived] When Discord is minimized, re-opening it through a push notification will not bring you to the channel you were mentioned, if and only if you are opening the notification in the opposite screen orientation from when you minimized Discord. (https://trello.com/c/EYXDtdss)
+
+Mid,
+P1 - Severe
+
+Created: 2018-02-11T23:16:27.937Z
+Latest Update: 2018-07-06T18:47:30.253Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- First, **kill** Discord completely from Recent Tasks (this may be an important step) 
+- Open Discord, and be viewing a random channel. 
+- Take note of your current screen orientation. Example: **Portrait** 
+- Minimize Discord using the Home button 
+- Open another random app on your device 
+- Change your screen orientation to **the opposite** of the one noted at step 3. In my case, **Landscape** 
+- Have someone mention you in a channel, different than the one you were viewing at step 2. This is to trigger a push notification. 
+- **While keeping the screen orientation of step 6**, open the push notification
+
+####Expected result:
+You are brought to the channel you were mentioned
+####Actual result:
+You are brought to the same channel you were viewing at step 2
+####Client settings:
+Discord Alpha 6.2.4
+####System settings:
+Huawei Mate 9 Android 7.0
+
+8694
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-11T23:16:27.937Z
+
+
+### Can reproduce.
+CR lg Xpower 6.0.1 on alpha 6.2.4
+
+ks#0908 - Bug Bot on 2018-02-11T23:16:35.337Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 7.0 Alpha 6.2.4
+
+webhp#1337 - Bug Bot on 2018-02-11T23:16:40.331Z
+
+
+### Can reproduce.
+CR Discord stable 6.2.4 HTC 10 Android 8.0
+
+Luca#8366 - Bug Bot on 2018-02-11T23:16:45.365Z
+
+
+### This is particularly annoying when you open Discord through a notification while you are playing a mobile game that is Landscape mode only, such as Clash of Clans or Geometry Dash
+
+Alex1304#9704 - Bug Bot on 2018-02-12T12:07:18.864Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S7, Android Nougat 7.0
+
+Zacatero#0001 - Bug Bot on 2018-02-12T18:26:29.070Z
+
+
+### Verified - Tarek on 2018-02-14T00:05:30.136Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-02-14T00:05:34.167Z
+
+
+### Moved from Verified Bugs to Serious Issues by Sam Shih on 2018-03-02T23:54:37.944Z
+
+
+### Cannot reproduce. Might've been fixed with the latest notifciation fixes I pushed in 6.7.4 - Sam Shih on 2018-05-18T22:34:24.621Z
+
+
+### Moved from Serious Issues to Claimed Fixed, needs Verification by Sam Shih on 2018-05-18T22:34:36.023Z
+
+
+### Can no longer reproduce as well.  - Clayton on 2018-05-18T23:20:59.445Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-05-18T23:21:05.477Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:47:29.566Z
+
+
+### Archived by Jared on 2018-07-06T18:47:30.255Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

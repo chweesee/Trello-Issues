@@ -1,0 +1,87 @@
+[Archived] Keyboard doesn't pop up automatically when opening Add Friend or Change Nickname modal, even though the field seem to be focused (https://trello.com/c/JV7VPA3v)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-24T14:37:43.535Z
+Latest Update: 2019-06-10T20:43:54.714Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Friends tab 
+- Tap the Add a Friend icon 
+- Alternative method: 
+- Go to any server where you can change nickname  
+- Long press the server and select Change Nickname
+
+####Expected result:
+Either keyboard pops up automatically when the modal opens, or it doesn't and then the field shouldn't appear focused at all (i.e no blinking typing cursor, no blue underline, and in the case of the Add Friend field, the placeholder text should stay inside the field instead of moving above in small characters)
+####Actual result:
+The keyboard doesn't appear, but you can see that the field still has a blinking typing cursor, a blue underline, and when opening the Add Friend modal, the placeholder text makes an animation where it moves upwards outside the field and the font size decreases. I believe all of this shows that the field is actually focused
+####Client settings:
+Discord Alpha 6.7.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13294
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-24T14:37:43.535Z
+
+
+### Can reproduce.
+Able to Reproduce with both ways stated; Samsung Galaxy A3 2017; Android 7.0; Discord Alpha 6.7.9 (679).
+
+Costpap#2158 - Bug Bot on 2018-05-24T14:37:51.118Z
+
+
+### Can reproduce.
+Can reproduce both ways - Huawei P10 Lite, Android 7.0, Discord 6.7.9
+
+Vulpus Maximus#1400 - Bug Bot on 2018-05-24T14:37:56.183Z
+
+
+### Can reproduce.
+reproduced both ways; Huawei Y5 II Android 5.1.0; Discord Alpha 6.7.9
+
+hurricane (DM 4 Partner)#2245 - Bug Bot on 2018-05-24T14:38:01.208Z
+
+
+### Can reproduce.
+Huawei P9 Lite, Android 7.0, Discord 6.7.9
+
+Deco#1601 - Bug Bot on 2018-05-24T16:55:06.951Z
+
+
+### Verified, Samsung S6 edge, android 7.0, 6.8.7 - Clayton on 2018-05-30T00:56:51.501Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-30T00:56:58.873Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b06ce376d55335c4e112a78/5928cf242b1c8c48e61f7df463fd1ad2/pQ6Nlk4.gif added by Bug Bot on 2018-07-15T16:02:46.772Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:27.797Z
+
+
+### Can reproduce.
+Mi A2, Android 9, January 2019 Update | Android Alpha 8.4.4g - this also happens in the Change Password UI
+
+Bsian#1803 - Bug Bot on 2019-02-11T16:19:24.905Z
+
+
+### Unarchived by Bug Bot on 2019-02-11T16:30:05.435Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:54.730Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

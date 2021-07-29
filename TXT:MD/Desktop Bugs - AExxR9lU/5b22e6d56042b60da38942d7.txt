@@ -1,0 +1,96 @@
+[Archived] [Master Ticket] No Mic Audio When Streaming Dark Souls Remastered (https://trello.com/c/qt0HbYX8)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2018-06-14T22:06:13.864Z
+Latest Update: 2019-01-01T15:49:59.903Z
+
+Reported by fariel#9280
+
+####Steps to reproduce:
+- Be in a call with 2 or more people 
+- Stream Dark Souls: Remastered 
+- Attempt to speak through your microphone
+
+####Expected result:
+Microphone should function and people in call should be able to hear both game audio and microphone audio.
+####Actual result:
+Game audio sometimes works, microphone sometimes works, sometimes one or the other will fail to send audio. Discord reads as picking up the audio (green circles flash when recieving input, etc), but no audio is heard by others in call.
+####Client settings:
+Current non-beta version.
+####System settings:
+Windows 10 x64. Mic is Blue Yeti.
+
+13967
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-14T22:06:13.864Z
+
+
+### Can reproduce.
+[Can Reproduce] Windows 10 Home x64 1803 w/ Discord Canary 16727 | Had the exactly same problem with Rust yesterday !
+
+Smanbg#9524 - Bug Bot on 2018-06-14T22:06:21.679Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 1803 Canary 16727
+
+Brish#3095 - Bug Bot on 2018-06-14T22:06:26.386Z
+
+
+### Can reproduce.
+CR, Windows 10 Professional 64 bit, v1803, Canary 16907 ~ tested with an alt
+
+FoxyKero#9941 - Bug Bot on 2018-06-14T22:06:31.410Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Same issue with Payday 2 and Gmod
+
+Zach#7958 - Bug Bot on 2018-06-15T00:11:23.900Z
+
+
+### verified, win 10, canary 17454, garry's mod - Clayton on 2018-06-21T22:39:40.694Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-21T22:39:47.532Z
+
+
+### Also happens on other games
+
+Zacatero#0001 - Bug Bot on 2018-06-28T06:13:08.087Z
+
+
+### Can reproduce.
+(Fortnite) Canary 17826  Windows 10 Pro
+
+Zacatero#0001 - Bug Bot on 2018-06-28T06:13:48.447Z
+
+
+### I have a fix for Garry's mod. Please let me know other games that you see this issue. - Jozsef Vass on 2018-08-28T16:55:12.558Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jozsef Vass on 2018-08-28T16:56:01.845Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jozsef Vass on 2018-08-30T22:14:41.703Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-09T05:01:08.426Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:49:59.379Z
+
+
+### Archived by Tarek on 2019-01-01T15:49:59.904Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

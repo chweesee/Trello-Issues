@@ -1,0 +1,75 @@
+[Archived] iOS client doesn't respect per shard game statuses (https://trello.com/c/a09m6dkX)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2016-12-24T15:06:40.823Z
+Latest Update: 2017-12-23T10:53:51.878Z
+
+Reported by dinos#0649
+
+####Steps to reproduce: 
+- Have a bot on two different shards. Set a different playing status for each shard.
+- FULLY close out of all running instances of Discord. (Go to task manager on computer, etc.)
+- Open Discord, then open the bot's profile FROM a server on shard #1. Observe the game. When you go to a server on shard #2, the bot's game is still the same.
+
+####Expected result:
+ you see a different status in the member list of servers that belong to different shards 
+####Actual result:
+ you only see whichever shard's game status was loaded first
+
+Card Log
+========
+### Added by Jared on 2016-12-24T15:06:40.823Z
+
+
+### Can reproduce.
+iPad Mini
+
+rovertdude#3439 - Jared on 2016-12-24T15:06:41.326Z
+
+
+### Can reproduce.
+no
+
+/dev/null#0012 - Jared on 2016-12-24T15:06:43.904Z
+
+
+### Need some example servers to test this on. - Jared on 2017-02-06T23:25:24.714Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-02-06T23:25:31.509Z
+
+
+### I can reproduce using the steps provided by Matthew#2334:
+
+- Have a bot on two different shards. Set a different playing status for each shard.
+- FULLY close out of all running instances of Discord. (Go to task manager on computer, etc.)
+- Open Discord, then open the bot's profile FROM a server on shard #1. Observe the game. When you go to a server on shard #2, the bot's game is still the same.
+
+Discord 1.9.3 (1340), iOS 11.0.3, iPhone 8 Plus
+
+**Additional note from Matthew:** PM me if you would like to use the two servers I set up. After testing this, both playing statuses are the same on desktop too.
+
+
+ - Alexandru Todea on 2017-10-28T17:04:13.885Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-10-28T17:05:05.935Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-11-14T00:44:51.553Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-23T10:53:50.302Z
+
+
+### Archived by Alexandru Todea on 2017-12-23T10:53:51.880Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

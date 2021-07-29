@@ -1,0 +1,73 @@
+discord shows improper screen when joining a server with no channels you are allowed to see (https://trello.com/c/zYwemEiD)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-08-09T05:09:10.110Z
+Latest Update: 2019-09-23T22:30:07.421Z
+
+Reported by westlyroots#4986
+
+####Steps to reproduce:
+- make a server 
+- turn all text channels so everone can't read messages 
+- invite someone
+
+####Expected result:
+discord shows intented screen when no text channels are available
+####Actual result:
+discord shows an empty channel without messages and a non functioning more messages at the top, and shows a list of who can see the channel normally at the right.
+####Client settings:
+Canary, 0.0.163
+####System settings:
+win 10 x64
+
+2963
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-09T05:09:10.110Z
+
+
+### Can reproduce.
+Win10 Canary 0.0.163 & Stable 0.0.289
+
+ThatsNoMoon#0175 - Bug Bot on 2017-08-09T05:09:17.472Z
+
+
+### Can reproduce.
+arch linux canary 0.0.24
+
+Alex from Alaska#9760 - Bug Bot on 2017-08-09T05:09:22.502Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.163 (Build 2984)
+
+Curse Broken#8659 - Bug Bot on 2017-08-09T05:09:27.458Z
+
+
+### Verified.  - Clayton on 2017-08-09T21:24:07.946Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T21:24:13.577Z
+
+
+### Can still reproduce, does not show the "you find yourself in strange place" screen. - Jared on 2017-10-17T01:29:28.465Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:48:40.163Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:45:08.028Z
+
+
+### Wolterhon#3938 - https://i.imgur.com/yn2saiv.gifv added by Bug Bot on 2018-07-14T10:37:48.247Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

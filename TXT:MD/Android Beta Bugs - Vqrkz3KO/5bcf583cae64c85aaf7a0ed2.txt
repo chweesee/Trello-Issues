@@ -1,0 +1,95 @@
+[Archived] When you get an in app notification that has a link that continues for multiple lines and click on the link, the in app notification goes to the the end of the link and when you close the custom chrome tab (or get back to the app) the text in the notification stays in the same place. (https://trello.com/c/T8CwhU4W)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-10-23T17:19:56.074Z
+Latest Update: 2019-06-10T20:44:28.588Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Get an in app notification that contains a long link (that contains multiple lines) 
+- Click on the link. 
+- Get back to the app after closing the page of the link. 
+- Observe the in app notification now.
+
+####Expected result:
+The message in the notification is displayed from the start.
+####Actual result:
+The message is displayed from the place the link ends.
+####Client settings:
+Discord Alpha 779
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+21978
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-23T17:19:56.074Z
+
+
+### Can reproduce.
+cr, Samsung Galaxy S5 mini, Android 6.0.1, Alpha 778
+
+Nashorn#3450 - Bug Bot on 2018-10-23T17:20:03.392Z
+
+
+### Can reproduce.
+Can reproduce. Alpha 778, Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9566 - Bug Bot on 2018-10-23T17:20:08.396Z
+
+
+### Can reproduce.
+Can reproduce. Google Pixel, Android 9.0, Alpha 778
+
+Fzzy#0001 - Bug Bot on 2018-10-23T17:20:13.407Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.7.9
+
+Hole#0001 - Bug Bot on 2018-10-23T18:29:34.172Z
+
+
+### verified, android 7.0, alpha 7.7.9 - Clayton on 2018-10-23T20:58:13.666Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-23T20:58:22.953Z
+
+
+### Can reproduce.
+Can reproduce. Google Pixel 2 XL, Android 9.0.0 (Oct 5 Patch), Discord Alpha 7.7.8
+
+Dark#7270 - Bug Bot on 2018-10-24T03:22:51.792Z
+
+
+### Can reproduce.
+Redmi 4, Android Noughat - Discord Aplha 7.7.9
+
+iona Dev#8394 - Bug Bot on 2018-10-24T06:23:36.643Z
+
+
+### Archived by Clayton on 2018-11-23T06:30:01.881Z
+
+
+### Can reproduce.
+Can reproduce Kyocera Hydro Wave Android 5.1 discord 814
+
+Okori#0902 - Bug Bot on 2018-12-15T21:06:19.744Z
+
+
+### Unarchived by Bug Bot on 2018-12-15T21:30:04.488Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:28.601Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

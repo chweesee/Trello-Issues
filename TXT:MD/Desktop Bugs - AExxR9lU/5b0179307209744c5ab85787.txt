@@ -1,0 +1,69 @@
+[Archived] On Firefox, When in the notification options modal, opening the drop down channel selector box causes the scrollbar to behave unexpectedly. (https://trello.com/c/xvgUWQkl)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-20T13:33:36.605Z
+Latest Update: 2018-10-22T20:21:03.874Z
+
+Reported by lego#8917
+
+####Steps to reproduce:
+- Open a server's notification settings. 
+- Scroll to the bottom of the modal 
+- Click the "Select a channel or category..." drop down. 
+- Scroll down the new, extra space in the modal. Your scrollbar should remain flush with the bottom of the modal. 
+- Close the drop down menu by clicking the arrow again.
+
+####Expected result:
+Modal window is re-sized correctly, and the scroll bar remains flush with the bottom of the modal as before. When the drop down is opened, extra space between the scroll bar and the bottom of the modal is created, and can be scrolled correctly. Verified on Chrome 66
+####Actual result:
+Modal is resized, but the scrollbar's position does not change, and can be continued to be scrolled until it is underneath the bottom of the modal (clipped at the rounded bottom). When the drop down is closed, the modal is resized, but there is now a gap between the scroll bar and the bottom of the modal that cannot be closed until the modal is reopened.
+####Client settings:
+Discord Stable 15435
+####System settings:
+Windows 10 Pro 1803, Firefox 60
+
+12937
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-20T13:33:36.605Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS Sierra 10.12.6, Discord Canary (Build 15524) Firefox Quantum 60.0.1 (64-bit)
+
+Rage#1337 - Bug Bot on 2018-05-20T13:33:44.175Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home x64, Discord Stable 15435, The scrollbar does not change position.
+
+1Storm#0001 - Bug Bot on 2018-05-20T13:33:49.102Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.4, Canary Build 15665, Firefox 60.0.1
+
+Pascal#0929 - Bug Bot on 2018-05-20T13:33:54.079Z
+
+
+### Verified, MacOS 10.12.6, Firefox 59.0.2 - Clayton on 2018-05-21T21:24:01.468Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T21:24:09.937Z
+
+
+### This ticket was checked during the Trello cleaning event, and it is still reproducible on Windows 10 Pro x64 with Discord Canary Build 18226. Because it is still reproducible, I am leaving it to be. - Ghoul on 2018-07-06T05:24:25.978Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:03.875Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

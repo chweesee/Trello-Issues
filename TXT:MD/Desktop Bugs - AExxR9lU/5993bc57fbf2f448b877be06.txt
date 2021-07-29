@@ -1,0 +1,118 @@
+[Archived] Video Chat and Screen Share Overload CPU (https://trello.com/c/rcqCtpFE)
+
+None
+
+Created: 2017-08-16T03:30:31.191Z
+Latest Update: 2017-12-02T17:17:41.815Z
+
+Reported by Sade66#0115
+
+####Steps to reproduce:
+- Start a video call with your best friend. 
+- Open your OS's CPU monitoring program. 
+- Discord Canary/Discord Canary Helper will be using around 40-50% of your CPU. 
+- Start sharing your screen. 
+- Discord will now be using up to 80% of your CPU, and your computer will begin lagging.
+
+####Expected result:
+Video calls and scharing your screen won't cause large CPU usage and lag.
+####Actual result:
+Discord CPU usage jumps to 70-90% and entire computer begins lagging.
+####Client settings:
+Discord Canary, 0.0.154
+####System settings:
+macOS Sierra Version 10.12.4
+
+3113
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-16T03:30:31.191Z
+
+
+### Can reproduce.
+CR, Discord uses up 104-140% cpu usage when screenshare, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro
+
+Nelson1348#9190 - Bug Bot on 2017-08-16T03:30:38.875Z
+
+
+### Can reproduce.
+without vc on : 40-50% cpu is in use | with vc on : 100% cpu use | Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-16T03:30:43.850Z
+
+
+### Can reproduce.
+huge jump in CPU usage Windows 10 Pro x64
+
+Azrael#6867 - Bug Bot on 2017-08-16T03:30:48.828Z
+
+
+### Can reproduce.
+CR, Discord uses up 104-140% cpu usage when screenshare, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro, i5-7200U 2.7Ghz
+
+Nelson1348#9190 - Bug Bot on 2017-08-16T06:11:06.563Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Creator's Update, Discord Canary 0.0.163 | While my CPU is pretty kick-butt, SS still eats up more than most games do, taking about ~15% at any given time.
+
+Cubular#6460 - Bug Bot on 2017-08-16T06:15:11.343Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Insider Preview, Discord Canary 0.0.163
+
+Jeremias#8432 - Bug Bot on 2017-08-16T08:48:57.581Z
+
+
+### Can reproduce.
+Windows 7 Home Premium x64 Build 7601 (SP1), Discord 0.0.298 (also PTB and Canary)
+
+LicaVlbg#0851 - Bug Bot on 2017-08-16T09:25:25.597Z
+
+
+### Moved from User Reported Bugs to Screenshare/Video Calls by Jared on 2017-08-17T18:11:07.920Z
+
+
+### Nelson1348#9190 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5993bc57fbf2f448b877be06/6a3bef5e610e33b682e5c577415675a4/Screen_Shot_2017-08-13_at_00.25.37.png added by Bug Bot on 2017-08-21T17:46:23.357Z
+
+
+### Can reproduce.
+Discord Canary 0.0.154, macOS 10.12.6, baseline 2016 MacBook Pro
+
+Penguin#0001 - Bug Bot on 2017-08-23T23:30:07.455Z
+
+
+### For me it even crashes my laptop
+
+xLars#5484 - Bug Bot on 2017-09-02T10:13:47.961Z
+
+
+### Can reproduce.
+Macbook Pro 2015 Screen resolution: 15,4-inch (2880 x 1800), MacOS Sierra: Version 10.12.6
+
+xLars#5484 - Bug Bot on 2017-09-02T10:14:01.653Z
+
+
+### Moved from Screenshare/Video Calls to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2017-10-07T21:47:21.196Z
+
+
+### Looks fine to me. Marking as Verified Fixed. - Jared on 2017-10-17T22:00:41.652Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-10-17T22:00:48.651Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:17:40.482Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:17:41.819Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

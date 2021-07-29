@@ -1,0 +1,85 @@
+[Archived] Playing a local song on Spotify breaks any integration until Canary is restarted (https://trello.com/c/xd5NGSuM)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-03-02T21:25:57.009Z
+Latest Update: 2019-01-01T15:45:36.181Z
+
+Reported by Rune#2553
+
+####Steps to reproduce:
+- Play a song available on Spotify 
+- Play a local song on your PC through Spotify 
+- Switch back to another song streamed on Spotify
+
+####Expected result:
+Even though local songs aren't supported by Discord rich presence, playing anything else from the Spotify library after would still work, and the status would carry on updating properly
+####Actual result:
+The whole Spotify integration breaks, status will no longer update and will eventually disappear, and playing a song through someone's rich presence doesn't work either, until Discord is restarted
+####Client settings:
+Discord Canary build 11514
+####System settings:
+Win 10 x64
+
+9249
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-02T21:25:57.009Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Build 16299) | Discord Canary (Build 11514)
+
+hello hello#8022 - Bug Bot on 2018-03-02T21:26:04.501Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 11466
+
+mrkirby153#7840 - Bug Bot on 2018-03-02T21:26:09.477Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Discord Canary, Build 11514
+
+Realex78#2193 - Bug Bot on 2018-03-02T21:26:14.489Z
+
+
+### Can reproduce.
+Windows 10 Home Version 1709 (OS Build 16299.248) Discord Desktop stable, Build Number: 11517
+
+1384trungh#1642 - Bug Bot on 2018-03-03T03:42:54.179Z
+
+
+### Can reproduce.
+Windows Home x64 - Discord Canary - Build 11585 - Version Hash d2304de11a7f723d98a60a88f8b279d5b5fcb3ed - This may be related to the fact that Spotify's API only send out Spotify tracks instead of local tracks.
+
+PillGP#2767 - Bug Bot on 2018-03-06T13:42:30.743Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-03-27T20:30:04.514Z
+
+
+### Verified on [BUILD INFO] Release Channel: canary, Build Number: 12704, Version Hash: 6e4e7bc28e48e0d1d24a21ccda4c11280034f68b - Jared on 2018-03-27T20:30:24.105Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T06:26:39.132Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T06:26:44.926Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:45:35.251Z
+
+
+### Archived by Tarek on 2019-01-01T15:45:36.182Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

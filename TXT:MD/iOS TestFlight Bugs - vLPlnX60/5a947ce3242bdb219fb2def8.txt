@@ -1,0 +1,119 @@
+[Archived] Photo loses Transparency when saving on Discord. (https://trello.com/c/ooNRVvrq)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2018-02-26T21:32:19.910Z
+Latest Update: 2020-04-12T17:00:07.144Z
+
+Reported by Ghoul#0009
+
+####Steps to reproduce:
+- Find a photo with a transparent background. 
+- Upload it onto Discord. 
+- Click on it. 
+- Click on the three dots. 
+- Click Save Content. 
+- Upload the photo you just saved. 
+- Observe.
+
+####Expected result:
+Photo has transparent in the background when uploaded.
+####Actual result:
+Photo no longer has transparent background, the background is now white.
+####Client settings:
+Discord TestFlight 2.2.1, 2.2.2, and 2.2.3 (including 2671)
+####System settings:
+iPhone 8 +, iOS 11.3 Public Beta 3.
+
+9123
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-26T21:32:19.910Z
+
+
+### Can reproduce.
+iPhone 6s & iPad Air 2, iOS 11.3 PB 3, Stable 2.2.4 | You can also observe the saved photo directly in the photos app, there you will see that it has a white background now and is a .jpg
+
+Pascal#0929 - Bug Bot on 2018-02-26T21:32:27.325Z
+
+
+### Can reproduce.
+CR, also shows up w/ a white background when you see it in the quick image selector. Stable 2.2.4, iOS 11.2.5, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-02-26T21:32:32.283Z
+
+
+### Can reproduce.
+iPad Mini 3 (iOS 11.2.6) - TestFlight 2.2.3 - Photo loses all transparency
+
+Mas#0001 - Bug Bot on 2018-02-26T21:32:37.359Z
+
+
+### Can reproduce.
+CR, iPhone 6S, iOS 9.1 (13B143), Discord TestFlight 2.2.5 (2798) | All transparency has been replaced with white. Any non transparent pixels are still the same color.
+
+zjtech123#6743 - Bug Bot on 2018-02-27T02:37:00.292Z
+
+
+### Verified.  - Clayton on 2018-03-02T01:10:14.950Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-02T01:10:18.334Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a947ce3242bdb219fb2def8/d6f61d0ed1b2123f252c2e74138e362d/giphy.gif added by Bug Bot on 2018-07-14T09:26:13.758Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:52.992Z
+
+
+### Can reproduce.
+iPhone se, iOS 12.3.1, TestFlight 3.1.2
+
+Timemaster111#8292 - Bug Bot on 2019-09-01T16:19:57.630Z
+
+
+### Unarchived by Bug Bot on 2019-09-01T16:30:05.752Z
+
+
+### Can reproduce.
+Can reproduce, iphone 5, IOS 10.3.3, Testflight 3.1.2 (17133)
+
+Midou#9637 - Bug Bot on 2019-09-01T16:32:47.998Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.4.1, TestFlight 3.1.2 (17237)
+
+.Gloria.#9606 - Bug Bot on 2019-09-10T03:10:44.302Z
+
+
+### Can reproduce.
+Can Reproduce On An iPhone XS, iOS 13.1 Running TestFlight 3.1.5 (17627)
+
+Error 404#4040 - Bug Bot on 2019-10-18T06:37:03.781Z
+
+
+### Archived by Bug Bot on 2019-11-17T07:00:02.730Z
+
+
+### Can reproduce.
+<iPad 5th Gen, iOS 11.4 - Discord Stable 3.2.0>
+
+Major-General Bunk#8232 - Bug Bot on 2020-02-22T02:40:50.946Z
+
+
+### Unarchived by Bug Bot on 2020-02-22T03:00:05.132Z
+
+
+### Archived by Bug Bot on 2020-04-12T17:00:07.154Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

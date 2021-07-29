@@ -1,0 +1,105 @@
+[Archived] using an autofill service to insert a password in the edit account tab will revert the changes made to your Discrim/Email (https://trello.com/c/YP2taxQk)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2019-02-17T10:16:28.576Z
+Latest Update: 2019-06-10T20:43:25.423Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- open settings > My Account 
+- click on edit account 
+- make some changes then click on the "Enter your password..." text field 
+- when the autofill popup appears, select a saved password 
+- observe
+
+####Expected result:
+the password should be inserted without other text fields being affected
+####Actual result:
+all changes made to Email/discrim are reverted
+####Client settings:
+Alpha 8.4.8
+####System settings:
+Samsung Galaxy Note 8, Android 8.0
+
+29061
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-17T10:16:28.576Z
+
+
+### Can reproduce.
+Samsung Galaxy S9+ Android 9.0 8.4.5G
+
+Zacatero#0001 - Bug Bot on 2019-02-17T10:16:36.253Z
+
+
+### Can reproduce.
+Alpha 8.4.5g, Samsung Galaxy A6+, Android 8.0.0
+
+Niel#3558 - Bug Bot on 2019-02-17T10:16:41.359Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 848
+
+AHkhan#2436 - Bug Bot on 2019-02-17T10:16:48.972Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 8.4.5G
+
+TheFutureKnight#7664 - Bug Bot on 2019-02-17T11:12:07.393Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.4.8
+
+Skyla#7948 - Bug Bot on 2019-02-17T15:58:26.440Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.4.8G
+
+Lily#2624 - Bug Bot on 2019-02-17T16:10:28.843Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 848
+
+charleskimbac#6492 - Bug Bot on 2019-02-18T08:07:04.018Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-21T00:23:33.683Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 849
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-21T19:40:16.149Z
+
+
+### Archived by Bug Bot on 2019-03-23T20:00:03.244Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H (MIUI 10.1 Stable), Discord Alpha 8.6.7 (managed to repro this by editing username, discrim and email but without saving and then clicking home button and then opening discord via quick apps)
+
+Defracted#7777 - Bug Bot on 2019-03-27T14:23:28.982Z
+
+
+### Unarchived by Bug Bot on 2019-03-27T14:30:06.817Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:25.436Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

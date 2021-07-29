@@ -1,0 +1,72 @@
+[Archived] Invites saying they are expired on Android Chrome. BUG BOUNTY. (https://trello.com/c/aVHb9e7V)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-22T17:28:46.491Z
+Latest Update: 2018-07-05T18:39:36.548Z
+
+Reported by Nico#8189
+
+####Steps to reproduce:
+- Click on an invite link. 
+- Have your internet connection disconnect for a few seconds while loading the page. 
+- Look at the invite box.
+
+####Expected result:
+Page shouldn't fully load and have nothing show up.
+####Actual result:
+Invite box shows an empty server icon and a join server button for a few seconds before switching to expired invite link. Also, the text at the left/top shows up after.
+####Client settings:
+Discord Alpha 6.7.4 and Chrome 66
+####System settings:
+Acer Iconia One 10 B3-A20, Android 5.1
+
+13182
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-22T17:28:46.491Z
+
+
+### Can reproduce.
+I can reproduce on other browsers than Chrome, so not sure if it's the bounty they're looking for. But I can repro this way, and even if it's not the bounty that's still a bug imo. Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-05-22T17:28:54.076Z
+
+
+### Can reproduce.
+CR, weird thing is, when i do it through discord gg on Samsung Internet, it pops up expired in the browser even with a valid invite, and when i click learn more it takes me to the app where the invite is valid, note this doesnt occur through discordapp com. Samsung Galaxy J7 running Android 7.0, Discord Alpha 6.7.4
+
+FoxyKero#9941 - Bug Bot on 2018-05-22T17:28:59.123Z
+
+
+### Can reproduce.
+Samsung Galaxy A3 2017 (SM-A320FL), Android 7.0 Nougat Stable 672 it does happen to me on Chrome but given the connection gets cut off I wonder if that's related
+
+Blastoise186#7194 - Bug Bot on 2018-05-22T17:29:04.105Z
+
+
+### This may also be caused due to slow broadband or broadband dropouts.
+
+Whupa#1644 - Bug Bot on 2018-05-22T19:05:42.269Z
+
+
+### Verified, Samsung s6 edge, android 7.0, 6.7.6, though I don't think this is the bug bounty =[ - Clayton on 2018-05-23T22:50:31.058Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-23T22:50:39.158Z
+
+
+### Clayton approved this for the july trello event - Jared on 2018-07-05T18:39:25.451Z
+
+
+### Archived by Jared on 2018-07-05T18:39:36.552Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

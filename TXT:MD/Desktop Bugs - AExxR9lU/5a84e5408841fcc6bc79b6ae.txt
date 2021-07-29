@@ -1,0 +1,72 @@
+[Archived] When uploading an image, even when it is smaller than 10MB it will still not display. (https://trello.com/c/qY2Hh0Ep)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2018-02-15T01:41:20.671Z
+Latest Update: 2018-07-06T18:02:04.418Z
+
+Reported by Purpzie#0001
+
+####Steps to reproduce:
+- Upload a file to a channel with the extention in all caps.
+- Image does not display.
+
+####Expected result:
+The image displays underneath the message.
+####Actual result:
+It displays as a downloadable file.
+####Client settings:
+Release Channel: canary, Build Number: 10778, Version Hash: c672b71adc4091f068c2ad1d3952a20bd4fb97d9
+####System settings:
+Windows 10 x64
+
+8804
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-15T01:41:20.671Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 10778 // Only affects file extensions in all caps
+
+mrkirby153#7840 - Bug Bot on 2018-02-15T01:41:28.066Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary The bug has to do with the image extension being capitalized such as .PNG rather than .png
+
+webhp#1337 - Bug Bot on 2018-02-15T01:41:33.120Z
+
+
+### Can reproduce.
+Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 10778. Apparently it seems to be an issue with some files and how they are in an extension. For example an file name with png extension in lower case will not result into an reproduction, but if it is in all caps like PNG, you will get the said result.
+
+Ghoul#0009 - Bug Bot on 2018-02-15T01:41:38.100Z
+
+
+### Verified.  - Clayton on 2018-02-15T22:16:30.312Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T22:17:08.000Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-21T21:26:31.172Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T21:26:34.590Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:02:03.651Z
+
+
+### Archived by Jared on 2018-07-06T18:02:04.420Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

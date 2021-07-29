@@ -1,0 +1,81 @@
+Slowmode timer stops counting down while the app is in the background (https://trello.com/c/EssMJnhG)
+
+P3 - Will be fixed eventually
+
+Created: 2018-09-27T23:29:21.852Z
+Latest Update: 2020-07-17T21:00:05.623Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to a channel with slowmode being enabled (set it to a bigger time interval to notice the bug) 
+- Make sure you don't have manage channels or manage messages permission 
+- Send a message 
+- Observe the timer that appears now 
+- Close the app (force closing not needed) 
+- Go back to the app after some seconds 
+- Check the timer again
+
+####Expected result:
+Timer should continue counting down when the app is in the background.
+####Actual result:
+The timer no longer counts down when the app is backgrounded.
+####Client settings:
+TestFlight 2.3.8 (7416)
+####System settings:
+iPhone 8 Plus - iOS 12 & iPad Air 2 - iOS 12.1 Public Beta 1
+
+20237
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-27T23:29:21.852Z
+
+
+### Can reproduce.
+CR, ipod touch 6th generation, ios 12, Stable  2.3.8
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-09-27T23:29:32.411Z
+
+
+### Can reproduce.
+iPhone 7 iOS 12.0 TestFlight Build 2.3.8 (7416)
+
+Kuuhaku#4503 - Bug Bot on 2018-09-27T23:29:37.400Z
+
+
+### Can reproduce.
+Can Reproduce - TestFlight 2.3.8 (7416) iPhone 6s iOS 12.1 Dev Beta
+
+Rashaun#9295 - Bug Bot on 2018-09-27T23:29:42.365Z
+
+
+### Extension to this: the slowmode timer also jumps instantly to the countdown timer it currently is when typing something. If this note isn't clear, please see the gif i attached! Hopefully that makes it clear.
+
+Xylium#1480 - Bug Bot on 2018-09-28T20:41:03.013Z
+
+
+### Xylium#1480 - https://cdn.discordapp.com/attachments/486087384715493396/495334057928949771/ezgif-5-7ee880915a.gif added by Bug Bot on 2018-09-28T20:41:30.362Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-05T19:00:03.283Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:20.718Z
+
+
+### Can reproduce.
+iPhone X, iOS 13.5.1, Stable 30.0
+
+Juergie#8671 - Bug Bot on 2020-07-16T18:33:07.095Z
+
+
+### Unarchived by Bug Bot on 2020-07-16T19:00:05.509Z
+
+List
+====
+Backlog
+
+Members
+=======
+Unknown User (https://trello.com/andygarron1) - No Bio

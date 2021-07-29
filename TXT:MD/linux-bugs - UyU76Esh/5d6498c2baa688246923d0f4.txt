@@ -1,0 +1,136 @@
+Voice chat lags client until it crashes, when there is voice input from others (https://trello.com/c/h8y40Myt)
+
+None
+
+Created: 2019-08-27T02:43:14.755Z
+Latest Update: 2020-07-06T02:44:10.741Z
+
+Reported by Lavandy#3638
+
+####Steps to reproduce:
+- Start or join an individual or group call or server voice chat, as long as someone else (or a music bot) is transmitting audio 
+- Wait 20-30 minutes and client will progressively slow until it disconnects or crashes
+
+####Expected result:
+Client remains stable and does not crash during voice chat
+####Actual result:
+Client slows considerably over time until it crashes (sometimes it will disconnect and reconnect a few times first)
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 43320, Version Hash: ede6cca863a0d0aabb6f3f8f645dede422967eeb
+####System settings:
+Linux Mint 18.3 Cinnamon
+
+41971
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-27T02:43:14.755Z
+
+
+### Can reproduce.
+LM Cinnamon 18.3 canary build 43480
+
+mark9064#4401 - Bug Bot on 2019-08-27T02:43:22.182Z
+
+
+### Can reproduce.
+Could reproduce, Ubuntu 18.04.02 LTS, PTB 44333
+
+Action Potential#6862 - Bug Bot on 2019-08-27T02:43:27.260Z
+
+
+### Can reproduce.
+Reproducible | Pop_Os 18.04 LTS | Canary 44396
+
+Love Up#0045 - Bug Bot on 2019-08-27T02:43:32.243Z
+
+
+### Can reproduce.
+CR; Arch Linux 5.2.9-arch1-1-ARCH; Release Channel: canary, Build Number: 44396
+
+Emma#6775 - Bug Bot on 2019-08-27T14:03:42.924Z
+
+
+### Can reproduce.
+Ubuntu 18.04.1 LTS 64-bit  • Discord version stable • Build  44004
+
+Wyrd rëisa#7128 - Bug Bot on 2019-08-27T17:21:34.244Z
+
+
+### Can reproduce.
+Fedora 30. Discord version stable Build 44433
+
+Link#1685 - Bug Bot on 2019-08-28T16:37:53.499Z
+
+
+### Can reproduce.
+Pop!_OS 19.04 - [BUILD INFO] Release Channel: stable, Build Number: 46872, Version Hash: 0e21e94624c83f3547cb859f41424de6d795bc9f
+
+ElectronicManuel#0007 - Bug Bot on 2019-10-08T23:19:30.320Z
+
+
+### Can reproduce.
+Linux Mint 19.2
+
+Alkaris#1722 - Bug Bot on 2019-11-01T21:44:48.417Z
+
+
+### Can reproduce.
+CR, Ubuntu 19.04, Discord canary: 50474
+
+Krol#5630 - Bug Bot on 2019-11-29T18:03:07.337Z
+
+
+### Can reproduce.
+Arch Linux (5.4.2) • i3 • Discord stable build 51469
+
+eli#0579 - Bug Bot on 2019-12-15T23:45:22.657Z
+
+
+### Can reproduce.
+Fedora 31 GNOME
+
+vypr#0001 - Bug Bot on 2019-12-19T05:42:51.023Z
+
+
+### Can reproduce.
+Fedora 31 GNOME - Release Channel: stable, Build Number: 51726, Version Hash: 0a6999f146adca10d14570ac879e67195c3465f8
+
+vypr#0001 - Bug Bot on 2019-12-19T05:45:37.068Z
+
+
+### Can reproduce.
+elementary OS 5.1 Hera
+
+Praxis#3852 - Bug Bot on 2020-01-03T20:20:35.811Z
+
+
+### Can reproduce.
+elementary OS 5.1 Hera, Discord Stable: 51893
+
+Praxis#3852 - Bug Bot on 2020-01-03T20:21:38.250Z
+
+
+### I just tested on Ubuntu 18.04.3 with VirtualBox, Sennheiser USB headset connected to VM. Discord Canary client. DM call with one participants continuously sending and receiving audio. I did not notice memory issue even after an hour.
+
+From log file: `Linux PulseAudio APIs will be utilized` - Jozsef Vass on 2020-01-08T21:18:26.923Z
+
+
+### Can reproduce.
+distro: Ubuntu 16.04.1 Window Manager: Neon by kde, Stock unity, I3   kernal version: 4.15.0-72 build 52446
+
+Redd (iz neko)#6969 - Bug Bot on 2020-01-11T13:54:37.938Z
+
+
+### Can't reproduce.
+I usually stay in group calls for very long periods of times (more than 3 hours everyday), have never experienced any slowdown or memory issues. Arch Linux (kernel 5.4.6-lqx3-1-lqx) with i3wm, Canary 0.0.98 Build 52710
+
+Lava#3374 - Bug Bot on 2020-01-15T23:18:26.934Z
+
+List
+====
+User Reported
+
+Members
+=======
+None

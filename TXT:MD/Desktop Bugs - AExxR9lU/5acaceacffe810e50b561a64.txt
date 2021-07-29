@@ -1,0 +1,103 @@
+[Archived] Channel jumps to the latest message when the last message is deleted (https://trello.com/c/GgTXIjpL)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-09T02:23:40.311Z
+Latest Update: 2018-08-21T23:34:39.391Z
+
+Reported by ahoZiorce#3115
+
+####Steps to reproduce:
+- Send a message (happens also if you aren't the author) 
+- Scroll up (it happens UNLESS  the option "JUMP TO PRESENT" is visible, so if you have it, scroll down a bit until you don't see it anymore) 
+- Ask someone or a bot to delete the latest message
+
+####Expected result:
+The message should be deleted and you should still be where you were before
+####Actual result:
+The message is deleted and you "jump back to present"
+####Client settings:
+Canary 13313
+####System settings:
+MS Windows 10 Pro x64 (v1709)
+
+10473
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-09T02:23:40.311Z
+
+
+### Can reproduce.
+Windows 10 Home 1709 64-Bit Build 16299.309, [BUILD INFO] Release Channel: canary, Build Number: 13313, Version Hash: fa8d1a877bc13f374d4663d2932a7b6d1daab0f9
+
+420 Cringe Lord#8570 - Bug Bot on 2018-04-09T02:23:47.704Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Canary Build 13313
+
+mrkirby153#7840 - Bug Bot on 2018-04-09T02:23:52.677Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (Build 13313), Windows 10 Education x64 1709 (OS Build 16299.309)
+
+OminousCry#2331 - Bug Bot on 2018-04-09T02:23:57.725Z
+
+
+### Can't reproduce.
+Macbook Air 13" (2013), macOS Sierra 10.12.6, Discord Canary 13313
+
+Ideate#6184 - Bug Bot on 2018-04-09T11:05:09.710Z
+
+
+### Can't reproduce.
+Win 10 Pro 64-bit, v1709 (Build 16299.309), Discord Canary Build 13313
+
+GamesForDays#1985 - Bug Bot on 2018-04-09T15:34:10.884Z
+
+
+### Can't reproduce.
+Windows 10 Home Version 10.0.16299 Build 16299 / Discord Canary 13313
+
+Ed#4290 - Bug Bot on 2018-04-09T18:29:41.332Z
+
+
+### Can't reproduce.
+Windows 10 Home x64, Discord Canary Build nº 13344
+
+PillGP#2767 - Bug Bot on 2018-04-10T00:56:49.903Z
+
+
+### Cannot reproduce. - Jared on 2018-04-11T20:50:29.811Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-04-11T20:50:34.312Z
+
+
+### Can reproduce if you delete the message on a different device. - Jared on 2018-04-23T20:32:08.016Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2018-04-23T20:32:15.804Z
+
+
+### Cannot reproduce anymore, Canary 18051. Moving to claimed fixed. - Tarek on 2018-07-03T04:17:14.994Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-03T04:17:18.668Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:34:38.377Z
+
+
+### Archived by Jared on 2018-08-21T23:34:39.392Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

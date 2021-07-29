@@ -1,0 +1,73 @@
+[Archived] Foreground Game Detection service turns itself back on after disabling (visual bug) (https://trello.com/c/HnFwUCtu)
+
+None
+
+Created: 2018-08-07T23:50:46.422Z
+Latest Update: 2019-02-25T08:49:17.661Z
+
+Reported by OddsomeOddy#1998
+
+####Steps to reproduce:
+- Open Game settings  
+- Enable Foreground Service For Game Detection  
+- Leave settings  
+- Open a game (in this case Clash Royale)  
+- Go back to game settings  
+- Disable Foreground Game Detection  
+- Wait and observe
+
+####Expected result:
+Switch for Game Detection service should stay disabled
+####Actual result:
+Switch for Foreground Game Detection service turns itself back on after a few seconds.
+####Client settings:
+Alpha 7.2.7
+####System settings:
+Oneplus 3, Android 8.1.0
+
+17119
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-07T23:50:46.422Z
+
+
+### OddsomeOddy#1998 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b6a3056b590a443f7ae1974/bc4cf8fb89a76871851a6f7a52774b22/ezgif-5-acdc162ef9.gif added by Bug Bot on 2018-08-07T23:50:49.184Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 7.2.7, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-08-07T23:50:53.830Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 android 8.0.0 discord alpha 7.2.6
+
+Bencey_#8587 - Bug Bot on 2018-08-07T23:50:58.839Z
+
+
+### Can reproduce.
+turns out it does work for me, I just didnt wait long enough Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.2.7
+
+Danijel#9000 - Bug Bot on 2018-08-07T23:51:03.846Z
+
+
+### Moved from User Reported Bugs to Game Detection Bugs by Clayton on 2018-08-08T02:02:58.023Z
+
+
+### Moved from Game Detection Bugs to Won't Fix by Jeff Cailteux on 2018-09-27T17:41:25.705Z
+
+
+### Archived due to being inactive in "Won't fix" list for 30+ days - Tarek on 2019-01-01T23:21:36.888Z
+
+
+### Archived by Tarek on 2019-01-01T23:21:37.792Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

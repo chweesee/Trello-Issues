@@ -1,0 +1,67 @@
+[Archived] Embed shows for files uploaded directly to Discord that larger than 10 MB (https://trello.com/c/LCtBZlaZ)
+
+None
+
+Created: 2018-08-28T13:46:22.341Z
+Latest Update: 2018-10-22T20:35:32.923Z
+
+Reported by Frances Picard#6209
+
+####Steps to reproduce:
+- NOTE: You must have Discord Nitro to reproduce this 
+- Have a video or image larger than 10 MB but smaller than 50 MB 
+- Make sure that "When uploaded directly to Discord" is enabled in User Settings > Text & Images 
+- Upload it and observe the uploaded file
+
+####Expected result:
+They shouldn't embed and only shows the filename, file size, and download button
+####Actual result:
+The embed for the file shown, conflicting the description in the option that we enabled earlier
+####Client settings:
+Discord Canary 22665
+####System settings:
+Windows 10 1803 x64
+
+18546
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-28T13:46:22.341Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b85522e9a0a190c992a5028/2666cdcc3bcdeae125074c9e057bfebb/jodi.png added by Bug Bot on 2018-08-28T13:46:25.697Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (22665) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-08-28T13:46:29.823Z
+
+
+### Can reproduce.
+Windows 10 x64 1803, Discord Stable 22658
+
+Haru😍💜#6660 - Bug Bot on 2018-08-28T13:46:35.103Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 22665
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-28T13:46:39.816Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-08-28T21:00:14.511Z
+
+
+### This is not a bug. This options hides the preview when THE PREVIEW is greater than 10mb. Not the file. - Jared on 2018-08-28T21:00:39.263Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:32.925Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,132 @@
+The volume of a user is not applied correctly when re-joining a voice channel (https://trello.com/c/oSeFNm8J)
+
+P3 - Will be fixed eventually,
+High,
+Mod can no longer reproduce
+
+Created: 2018-02-03T22:26:19.650Z
+Latest Update: 2020-05-27T00:30:04.785Z
+
+Reported by Realex78#2193
+
+####Steps to reproduce:
+- Join a voice channel with another user in it 
+- Set the user volume to 10% (Just for demostration purposes) 
+- Leave the voice channel 
+- Join again the voice channel
+
+####Expected result:
+The user should sound as on Step 2
+####Actual result:
+The user sounds as 100%, but in the UI it is registered as 10%
+####Client settings:
+6.1.7 (617)
+####System settings:
+Samsung Galaxy Tab S2, Android 6.0.1
+
+8459
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-03T22:26:19.650Z
+
+
+### Can reproduce.
+CR; Lenovo Moto G5 Plus, 7.0 ; Discord 6.1.9
+
+Xiang#2232 - Bug Bot on 2018-02-03T22:26:27.237Z
+
+
+### Can reproduce.
+CR Discord beta 6.1.7 Android 6.0
+
+cutelilberry#5423 - Bug Bot on 2018-02-03T22:26:32.270Z
+
+
+### Can reproduce.
+CR, Samsung J7 Pro, Android 7.0, 5.8.0.
+
+Blitz#6666 - Bug Bot on 2018-02-03T22:26:37.302Z
+
+
+### Can reproduce.
+CR, OnePlus 3t, Android 8.0.0, Discord Beta 6.1.7
+
+Lulucmy#7087 - Bug Bot on 2018-02-04T07:30:07.461Z
+
+
+### Cannot reproduce, Discord Alpha 6.2.4 on OnePlus 5 Android 8. - Tarek on 2018-02-13T23:45:44.315Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2018-02-13T23:45:52.658Z
+
+
+### Can still reproduce as of: 3/22/18 - Clayton on 2018-03-22T23:58:05.615Z
+
+
+### Moved from Cannot Reproduce to Fixed Bugs by Clayton on 2018-03-22T23:58:10.118Z
+
+
+### Moved from Fixed Bugs to Verified Bugs by Tarek on 2018-05-03T09:47:14.496Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4 Prada, Android 6.0.1, Discord Android 6.8.7
+
+96LORD#5175 - Bug Bot on 2018-06-10T01:44:29.462Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:04.139Z
+
+
+### Can reproduce.
+Discord Alpha 7.4.0, Samsung Galaxy S9, Android 8.0
+
+Ene#0808 - Bug Bot on 2018-08-22T23:53:04.510Z
+
+
+### Unarchived by Clayton on 2018-08-23T00:00:03.159Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:44.211Z
+
+
+### Can reproduce.
+<Model: OnePlus 5T, Android 9.0, Discord ver 8.6.0>
+
+noobzy#0227 - Bug Bot on 2019-03-21T07:20:28.920Z
+
+
+### Can reproduce.
+<Xiaomi redmi note 4. MiUI global 10.2 (android 7.0 NRD90M) >
+
+noobzy#0227 - Bug Bot on 2019-03-21T07:21:34.841Z
+
+
+### Unarchived by Bug Bot on 2019-03-21T07:30:06.107Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:25.766Z
+
+
+### Can reproduce.
+Cannot repro following outlined steps, but can repro by: Joining VC with another user, lowering the other user's volume below 100%, then getting the other user to leave and rejoin. Samsung Galaxy A8, Android 9, 10.1.2
+
+besvi#5010 - Bug Bot on 2020-01-26T06:25:24.015Z
+
+
+### Unarchived by Bug Bot on 2020-01-26T06:30:05.528Z
+
+
+### Can reproduce.
+-а
+
+PRAVODA#7213 - Bug Bot on 2020-04-11T18:05:33.092Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

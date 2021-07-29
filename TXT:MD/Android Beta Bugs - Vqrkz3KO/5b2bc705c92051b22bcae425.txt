@@ -1,0 +1,68 @@
+[Archived] When you have Sync across clients enabled, if you change your Discord language but for some reason fails to sync with other clients (e.g internet cuts out), the new language will also fail to apply locally, even though changing a local setting by definition doesn't require internet (https://trello.com/c/vFqcvSqy)
+
+P4, unlikely to ever be fixed.
+
+Created: 2018-06-21T15:40:53.675Z
+Latest Update: 2019-06-05T23:46:12.799Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Settings > Language 
+- Make sure Sync across clients is enabled 
+- Turn off your Internet connection 
+- Attempt to change language, notice it doesn't work 
+- Notice it works when you disable sync
+
+####Expected result:
+Language is a local setting, so by definition you don't need internet to change it. The only thing that requires internet is the sync phase. So in this situation, the language is supposed to change locally on your internetless client, the only thing that is supposed to fail is the syncing process
+####Actual result:
+When Sync across clients is enabled, you cannot switch language at all, not even locally
+####Client settings:
+Discord Alpha 6.9.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14413
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-21T15:40:53.675Z
+
+
+### Can reproduce.
+CR, Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 6.9.6, even though I am pretty sure that this is intended because it changes after the app sure it uploads the language setting successfully.
+
+Frances Picard#6209 - Bug Bot on 2018-06-21T15:41:01.330Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 6.9.6
+
+webhp#1337 - Bug Bot on 2018-06-21T15:41:06.706Z
+
+
+### Can reproduce.
+Can Reproduce, K20 V Android 7.0, Discord alpha 6.9.6
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-06-21T15:41:11.418Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-21T21:44:34.079Z
+
+
+### verified, samsung s6 edge, 6.9.6, android 7.0 - Clayton on 2018-06-21T21:44:42.713Z
+
+
+### Frances Picard#6209 - https://i.imgur.com/NR1lAZH.gif added by Bug Bot on 2018-07-15T14:00:00.820Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:12.813Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

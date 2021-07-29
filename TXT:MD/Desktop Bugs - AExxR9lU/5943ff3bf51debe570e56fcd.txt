@@ -1,0 +1,68 @@
+[Archived] Using the substitution syntax for message editing (`s//`) breaks if you want to replace with a string featuring trailing spaces (https://trello.com/c/j6645Vmy)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-16T15:54:35.990Z
+Latest Update: 2018-10-22T20:14:23.074Z
+
+Reported by Bobbo#4095
+
+####Steps to reproduce:
+- Send a message, e.g., `abc` 
+- Do substitution to replace with a string with trailing spaces, e.g., 's/b/ '
+
+####Expected result:
+`a c`
+####Actual result:
+`ac`
+####Client settings:
+0.0.1
+####System settings:
+Ubuntu 14.04.5 LTS
+
+1718
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-16T15:54:35.990Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary 0.0.157
+
+mouse91#3089 - Bug Bot on 2017-06-16T15:54:40.660Z
+
+
+### Can reproduce.
+Windows 7 x86, Canary 0.0.157
+
+Windows Destroyer (Ticha)#2648 - Bug Bot on 2017-06-16T15:54:42.708Z
+
+
+### Can reproduce.
+ Windows 10 (x64) Build 15063.293 @ Version 1703, Discord Canary Version 0.0.157
+
+Joseph#9413 - Bug Bot on 2017-06-16T15:54:44.669Z
+
+
+### Verification of this ticket is on hold. I asked Amadeus to confirm if this is the correct behavior or not, I'm waiting on a response from him. - Jared on 2017-06-16T20:29:15.596Z
+
+
+### Amadeus confirms it is a bug, just low priority. - Jared on 2017-06-19T19:21:59.774Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-06-19T19:22:03.260Z
+
+
+### mouse#0091 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5943ff3bf51debe570e56fcd/9d45ce86ccf0ec7eeb86ebcb67a3b3f5/VdGx3tI.gif added by Bug Bot on 2018-07-15T14:01:24.611Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:23.077Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

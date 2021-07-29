@@ -1,0 +1,38 @@
+[Archived] Force closing the app can allow the user to have a blank role name. (https://trello.com/c/tQ6Uy81v)
+
+None
+
+Created: 2016-10-05T18:27:35.634Z
+Latest Update: 2016-10-14T23:51:02.783Z
+
+Steps to Reproduce:
+
+1)  Progress to the Role menu.
+2)  Create a new role.
+3)  Select that role.
+4)  Tap on the text entry field directly under Role name.
+5)  Delete all of the text.
+6)  Force close the application.
+7)  Relaunch.
+8)  Progress back to the roles menu.
+
+Buggy event:  The previously edited role has no name.
+Expected:  Previous name should appear instead.
+
+Card Log
+========
+### Added by Jared on 2016-10-05T18:27:35.634Z
+
+
+### Moved from User Reported Bugs to Fixed Bugs by Jared on 2016-10-06T23:13:18.039Z
+
+
+### Archived by Shadi Isber on 2016-10-14T23:51:02.787Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

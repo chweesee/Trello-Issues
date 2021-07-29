@@ -1,0 +1,72 @@
+[Archived] When mentioned in a channel you are already looking at, the mention shows up next to the server icon on another device. (https://trello.com/c/hFCUjXsj)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-11-29T23:22:40.780Z
+Latest Update: 2019-01-11T00:02:12.816Z
+
+Reported by Solo#0007
+
+####Steps to reproduce:
+- Open a channel in any server on device 1 
+- Have device 2 in front of you logged into the same Discord account, but not selected on the same channel 
+- Have someone mention you in the channel you are observing with device 1 
+- Observe the server icon on device 2 
+- Notice how the mention appears for ~1-2 seconds and then disappears again
+
+####Expected result:
+Since you immediately see the mention on device 1, the mention shouldn't show up on device 2 at all.
+####Actual result:
+The red 1 icon temporarily displays next to the server icon you were mentioned on on device 2.
+####Client settings:
+Canary 28567 & Testflight 2.4.0 (9370)
+####System settings:
+Windows 10 Home x64 v1803 & iOS 12.1 (tested on iPhone 5s and iPad mini 3 which both worked)
+
+23775
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-29T23:22:40.780Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 (1809) w/ Discord Canary 28393
+
+OwO#1234 - Bug Bot on 2018-11-29T23:22:48.246Z
+
+
+### Can reproduce.
+CR Discord Stable 28533 Win 10 x64, happens with DMs as well, lasts longer for DMs
+
+JustPaul#0001 - Bug Bot on 2018-11-29T23:22:53.265Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (1809), Discord Canary Build 28567 and iPhone XS Max running iOS 12.1.1 Dev Beta 3. I saw the mention for a few seconds before it disappeared.
+
+Ghoul#1399 - Bug Bot on 2018-11-29T23:22:58.288Z
+
+
+### verified, macos 10.12.6, canary 28603 - Clayton on 2018-11-30T00:11:57.464Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-30T00:12:02.993Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 28642 | LG Fortune, Android 6.0.1 - Discord Alpha 8.0.3
+
+Hole#0001 - Bug Bot on 2018-11-30T02:46:25.814Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:12.819Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

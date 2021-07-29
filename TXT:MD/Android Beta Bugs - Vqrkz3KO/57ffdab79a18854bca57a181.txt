@@ -1,0 +1,108 @@
+[Archived] Android member list is not loading all members at all, even with scroll. Can only be found with search. (https://trello.com/c/o8GpPm2x)
+
+P2 - Can wait a while,
+Mod can no longer reproduce
+
+Created: 2016-10-13T19:04:23.787Z
+Latest Update: 2019-01-01T23:14:25.709Z
+
+**Short Description:**  Android member list is not loading all members at all, even with scroll. Can only be found with search.
+**Steps to Reproduce:**
+1) Scroll down to where you expect a user to be
+2) User not there on mobile, on there on desktop
+3) Can cause major problems with bans
+
+**Expected Result:** It should show all users
+**Actual Result:** http://i.imgur.com/If0G34S.png vs https://cdn.discordapp.com/attachments/203907523709894657/235235753678864387/Screenshot_20161010-205930.png
+
+**System Settings:**  Android Alpha, Android N, Nexus 6P
+
+Card Log
+========
+### Added by Cole Norman on 2016-10-13T19:04:23.787Z
+
+
+### If0G34S.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57ffdab79a18854bca57a181/aa589c6a2cdc4128824a3cd7bf1ccf6c/If0G34S.png added by Cole Norman on 2016-10-13T19:04:45.696Z
+
+
+### Screenshot_20161010-205930.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57ffdab79a18854bca57a181/bf3d018bf915710cb458dd664f38ad9e/Screenshot_20161010-205930.png added by Cole Norman on 2016-10-13T19:04:52.412Z
+
+
+### Moved from User Reported Bugs to Serious Issues by Jared on 2016-10-13T19:05:46.487Z
+
+
+### Is this actually a bug? As far as I know this is exactly what desktop does too.
+
+It does not load all members unless you search.
+
+@andygarron1  - Miguel Gaeta on 2016-10-13T23:08:42.182Z
+
+
+### The way desktop works is that when you load the member list on desktop it loads all the users at once.
+
+Search and stuff is then done locally (on desktop) from cache. - Cole Norman on 2016-10-16T18:17:13.964Z
+
+
+### I picked a number of completely random accounts and verified they all appeared in the members list without searching.  Cannot reproduce.
+
+@colenorman Can you still reproduce this issue? - Jared on 2016-12-01T21:33:23.281Z
+
+
+### @jared627 Can still recreate, I am doing this on large servers, choosing someone who is offline. - Cole Norman on 2016-12-01T23:48:19.199Z
+
+
+### Can Reproduce.
+
+Alpha Build 3.2.0 & Xiaomi Redmi Note 4 (MIUI 8 lastest stable version based on Android 6.0)
+
+kyra#2490 - Sam on 2016-12-17T11:55:37.243Z
+
+
+### Can reproduce.
+
+Android Alpha 3.2.0, Android 4.4.2
+
+3spooky5u#3348 - Sam on 2016-12-17T12:45:20.314Z
+
+
+### Steps to reproduce: - Restart or Power on phone - Enter Discord - Switch to a different server ( with more than 100+ members)  before or while the Connecting Banner is visible - Pull member list
+
+3spooky5u#3348 - Jared on 2016-12-17T21:04:00.529Z
+
+
+### Moved from Serious Issues to Verified Bugs by Jared on 2016-12-21T19:14:42.288Z
+
+
+### Can't reproduce, haven't seen any reports of this in a long time. - Jared on 2017-07-28T18:37:38.812Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jared on 2017-07-28T18:37:45.754Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Cole Norman on 2017-07-31T23:59:47.174Z
+
+
+### I am unable to reproduce this, it seems to be displaying all users. 
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord 5.2.6
+ - Alexandru Todea on 2017-10-01T13:03:13.093Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-10-01T13:03:16.499Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-11-29T02:03:05.673Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:14:25.033Z
+
+
+### Archived by Tarek on 2019-01-01T23:14:25.711Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

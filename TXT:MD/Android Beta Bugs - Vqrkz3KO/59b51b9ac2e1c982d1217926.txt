@@ -1,0 +1,115 @@
+[Archived] there is no padding between the user bar and the bottom most collapsed channel category (https://trello.com/c/UrOBsEQ7)
+
+Mod can no longer reproduce
+
+Created: 2017-09-10T11:01:46.152Z
+Latest Update: 2017-12-02T16:19:24.638Z
+
+Reported by Polished#6034
+
+####Steps to reproduce:
+- Go to a channel with categories enabled 
+- Collapse the bottom most category 
+- Scroll down to the bottom of the channel list
+
+####Expected result:
+The channel list should show up with some space/padding between the user bar and channel category
+####Actual result:
+The bottom most category is too close to the user bar and there is no padding between the user bar and category area
+####Client settings:
+Android Alpha 5.1.4
+####System settings:
+LG G Stylo, Android 6.0.1
+
+4112
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-10T11:01:46.152Z
+
+
+### Polished#6034 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59b51b9ac2e1c982d1217926/287c5616e8da40392f409df3a42b1867/Screenshot_2017-09-09-10-51-07.png added by Bug Bot on 2017-09-10T11:01:48.920Z
+
+
+### Can reproduce.
+CR Moto G4 Android 7.0 Alpha 5.1.4
+
+Azrael#6867 - Bug Bot on 2017-09-10T11:01:53.680Z
+
+
+### Can reproduce.
+That is if you have so many channels. Android Alpha 5.1.4, Samsung Galaxy S5 6.0.1 Marshmallow
+
+AviationMaster#4793 - Bug Bot on 2017-09-10T11:01:59.035Z
+
+
+### Can reproduce.
+CR, Android Alpha 5.1.4(Build 514) OnePlus 5 on Android 7.1.1
+
+Tarek1337#0379 - Bug Bot on 2017-09-10T11:02:03.879Z
+
+
+### Can reproduce.
+CR | Samsung Galaxy S7 Edge, Android 7.0, Discord Android Alpha 5.1.4 (514)
+
+Cubular#6460 - Bug Bot on 2017-09-10T11:50:41.886Z
+
+
+### Can reproduce.
+Samsung Galaxy A5, Android 6.0.1, Alpha 5.1.4 (514)
+
+Damion8980#1189 - Bug Bot on 2017-09-10T22:08:59.473Z
+
+
+### Moved from User Reported Bugs to Channel Category Bugs by Alexandru Todea on 2017-09-11T18:44:48.597Z
+
+
+### Moved from Channel Category Bugs to Fix made, not yet released by Jeff Cailteux on 2017-09-12T17:27:11.006Z
+
+
+### It seems a kinda-fix was pushed for this, but instead of the intended effect of adding padding to collapsed categories, it added a permanent bar at the bottom of the channel scroller (inc. friends list)
+
+Pointy#9109 - Bug Bot on 2017-09-15T14:33:14.952Z
+
+
+### Pointy#9109 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59b51b9ac2e1c982d1217926/5a982f3d04ea10ec261dcd4066970689/unknown.png added by Bug Bot on 2017-09-15T14:34:04.092Z
+
+
+### Ah yes, this is less than ideal, lets get it right - Jeff Cailteux on 2017-09-15T16:37:50.962Z
+
+
+### Moved from Fix made, not yet released to Verified Bugs by Jeff Cailteux on 2017-09-15T16:38:09.624Z
+
+
+### Moved from Verified Bugs to Channel Category Bugs by Jeff Cailteux on 2017-09-15T20:04:57.786Z
+
+
+### Moved from Channel Category Bugs to Fix made, not yet released by Jeff Cailteux on 2017-09-15T20:29:04.390Z
+
+
+### Can't reproduce, there's some padding between them now.
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.1.7 (517) - Alexandru Todea on 2017-09-16T05:48:55.523Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-16T05:48:59.842Z
+
+
+### Verified Fixed - Jared on 2017-10-02T20:00:26.518Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T20:00:30.896Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:19:23.176Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:19:24.641Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

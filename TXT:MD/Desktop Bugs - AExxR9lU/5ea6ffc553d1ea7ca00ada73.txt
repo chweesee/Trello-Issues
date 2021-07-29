@@ -1,0 +1,64 @@
+Resizing the emoji picker on a zoom level higher or lower than 100 will incorrectly follow your cursor (https://trello.com/c/nITEzYgI)
+
+None
+
+Created: 2020-04-27T15:52:37.341Z
+Latest Update: 2020-04-29T20:16:08.384Z
+
+Reported by SSalt#5041
+
+####Steps to reproduce:
+- Set zoom level to anything below/higher than 100 
+- Open emoji picker 
+- Resize emoji picker 
+- Observe
+
+####Expected result:
+Follow the cursor correctly
+####Actual result:
+The picker will move faster or slower than your cursor depending on your zoom level
+####Client settings:
+Canary 58895 Host 0.0.264
+####System settings:
+Windows 10 Home x64 v1909
+
+55210
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-27T15:52:37.341Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Canary (Build 58895)
+
+Bryth#1086 - Bug Bot on 2020-04-27T15:52:44.885Z
+
+
+### Can reproduce.
+CR, Canary 58895, Windows 10 Pro 1909 64-bit
+
+ShockTr#8097 - Bug Bot on 2020-04-27T15:52:49.785Z
+
+
+### Can reproduce.
+Samsung Galaxy S10+ Android 10
+
+Console.Write("Hakkı AKYOL");#8065 - Bug Bot on 2020-04-27T15:52:55.797Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 58895 (28eb498), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-04-27T17:01:24.143Z
+
+
+### Moved from User Reported Bugs to Gif/Emoji picker update by Daffyduck on 2020-04-29T20:16:08.346Z
+
+List
+====
+Gif/Emoji picker update
+
+Members
+=======
+None

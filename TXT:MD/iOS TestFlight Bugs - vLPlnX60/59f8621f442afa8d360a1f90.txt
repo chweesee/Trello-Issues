@@ -1,0 +1,121 @@
+[Archived] Portrait Mode photos either send in a tiny pixelated thumbnail or a 0kb .jpg file (https://trello.com/c/2Hjzr6X0)
+
+P2 - Can wait a while,
+mid
+
+Created: 2017-10-31T11:44:31.744Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Kokorone#1874
+
+####Steps to reproduce:
+- Take Portrait Mode photo 
+- Attempt to upload on Discord
+
+####Expected result:
+Upload the picture
+####Actual result:
+Pixelated thumbnail uploads or 0kb  file sends.
+####Client settings:
+TestFlight 1.9.3 (1340)
+####System settings:
+iPhone 7 Plus 11.1 Dev Beta 5
+
+5932
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-31T11:44:31.744Z
+
+
+### Can reproduce.
+CR, tested with builds from 953 to 1340, issue is present since 1286 (with the HEIF change). iPhone 8 Plus, iOS 11.1 (PB5), Discord TestFlight 1.9.3 (1340)
+
+🎃 Spoopy juj 🎃#5114 - Bug Bot on 2017-10-31T11:44:39.141Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 11.1 beta 5, TF 1340
+
+tri'ngle#9036 - Bug Bot on 2017-10-31T11:44:44.120Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.0.3, Discord iOS TestFlight 1.9.3 (1340)
+
+🎃 Spoopy Ghoul 🎃#4567 - Bug Bot on 2017-10-31T11:44:49.131Z
+
+
+### Cannot reproduce. The image comes through and is clear in every orientation that I tried.
+
+iPhone 8 Plus11.0.3 - Jared on 2017-11-06T22:01:57.510Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-11-06T22:02:25.981Z
+
+
+### Issue only occurs if high efficiency (HEIF) format is enabled, depth photos send properly on "most compatible" (JPG) format.
+
+juj#5114 - Bug Bot on 2017-11-06T22:36:43.934Z
+
+
+### I can reproduce, the HEIF format needs to be enabled from Settings > Camera > Formats > High Efficiency 
+
+Discord 2.0.1 (1610), iOS 11.1.2, iPhone 8 Plus - Alexandru Todea on 2017-12-02T07:18:18.530Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-12-02T07:18:30.543Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-12-12T21:57:40.687Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2018-01-04T23:48:55.396Z
+
+
+### I can no longer reproduce, the client displays the whole image now. 
+
+Discord 2.2.0 (2073), iOS 11.2.1, iPhone 8 Plus - Alexandru Todea on 2018-01-05T11:58:49.942Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2018-01-05T11:58:55.901Z
+
+
+### Certain edited HEIF images used to get uploaded in their non-edited form too, this is no longer the case now.  - Alexandru Todea on 2018-01-08T17:23:18.153Z
+
+
+### This bug was able to be reproduced on iPhone 7 or above.
+
+Ghoul#0009 - Bug Bot on 2018-01-26T21:40:13.551Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-26T23:15:41.339Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T08:23:07.341Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T08:26:20.612Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T08:26:24.477Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:02:36.798Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:02:37.124Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,95 @@
+[Archived] The Wumpus animation (+ moving background) on the Discord Nitro payment and redeem code dialogs uses A LOT of CPU (https://trello.com/c/ROJfUEVp)
+
+None
+
+Created: 2018-08-24T12:58:17.676Z
+Latest Update: 2018-10-22T20:35:32.368Z
+
+Reported by iDroid#4441
+
+####Steps to reproduce:
+- Open Discord (Stable, PTB or Canary) on web or desktop 
+- Look at the CPU usage 
+- Go in your User Settings 
+- Either go to the payment dialog or redeem code dialog 
+- Look once again at the CPU usage
+
+####Expected result:
+The CPU usage shouldn't become crazy
+####Actual result:
+It never goes below 50% ~ (on a Intel Celeron N3350)
+####Client settings:
+Discord Canary (Web) 22496
+####System settings:
+Windows 10 x64 Professionnal 1803
+
+18316
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-24T12:58:17.676Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (22496) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-08-24T12:58:25.103Z
+
+
+### Can reproduce.
+CR,  Discord Canary 0.0.211 (22496), WIndows 10 Pro x64
+
+Schlaubi#0001 - Bug Bot on 2018-08-24T12:58:30.200Z
+
+
+### Can reproduce.
+Windows 10 Home, Canary, Build 22496
+
+Ossyishere#2281 - Bug Bot on 2018-08-24T12:58:35.030Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 22496
+
+Delite#0001 - Bug Bot on 2018-08-24T14:19:25.000Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22496
+
+Frances Picard#6209 - Bug Bot on 2018-08-24T17:04:35.734Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-08-24T18:29:13.700Z
+
+
+### Animations are extremely taxing. Hover over a normal gif in chrome and watch your CPU usage. - Jared on 2018-08-24T18:29:35.406Z
+
+
+### Can't reproduce.
+CNR,  Microsoft Windows 10 Home Insider Build: Version 1803 (OS Build: 17713 1002), seems like a computer issue
+
+S0ftwareUpd8#9999 - Bug Bot on 2018-08-24T22:43:30.338Z
+
+
+### Can reproduce.
+CR Windows 10 x64, Stable 22189
+
+Nitrousoxide#3667 - Bug Bot on 2018-08-25T07:41:35.418Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 23836 AMD FX(tm)-4300 Quad-Core Processor
+
+Neiron#2406 - Bug Bot on 2018-09-16T14:12:04.749Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:32.369Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

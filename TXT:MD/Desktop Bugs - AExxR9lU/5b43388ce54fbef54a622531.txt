@@ -1,0 +1,69 @@
+[Archived] Client jumps back to previously visited jumped to message after switching language (https://trello.com/c/4Zq0yyTB)
+
+High,
+P3: Will get fixed eventually
+
+Created: 2018-07-09T10:27:24.378Z
+Latest Update: 2018-10-22T20:22:43.720Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go into a channel 
+- Jump to a message in the channel (can use search, pinned, or recent mentions) 
+- Press the ESC key to jump back to the recent messages of the chat 
+- Go into your User Settings -> Language and switch to another language then exit your User Settings 
+- Observe that you're now jumped back to the previously jumped to message
+
+####Expected result:
+You're kept at the most recent messages as before you changed your client language
+####Actual result:
+You're jumped back to the previously jumped to message in chat
+####Client settings:
+Discord Canary 0.0.211, Build 18361
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+15247
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-09T10:27:24.378Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (18361) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-07-09T10:27:31.710Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 18361
+
+webhp#1337 - Bug Bot on 2018-07-09T10:27:36.724Z
+
+
+### Can reproduce.
+Windows 10 Home x64 -- Discord Canary 18361
+
+Sam#1757 - Bug Bot on 2018-07-09T10:27:41.726Z
+
+
+### verified, macos 10.12.6, canary 18361 - Clayton on 2018-07-09T21:17:06.463Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-09T21:17:13.854Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b43388ce54fbef54a622531/98c8ae0e654ae8879c2143b2edd8a353/k9QUKv5.gif added by Bug Bot on 2018-07-14T08:50:32.296Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:43.724Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

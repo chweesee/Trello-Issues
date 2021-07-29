@@ -1,0 +1,85 @@
+If text is more than one line, spamming a format will cause the highlight to move (https://trello.com/c/CzNvDeDP)
+
+None
+
+Created: 2020-01-17T05:46:10.818Z
+Latest Update: 2020-07-16T21:26:06.024Z
+
+Reported by Fabio A.#6301
+
+####Steps to reproduce:
+Create text with a line break in it, with text on the second line 
+- Highlight the text with your mouse, the formatting window will appear 
+- Toggle the same formatting style more than once 
+- Observe
+
+####Expected result:
+The text that was originally highlighted should be kept
+####Actual result:
+The highlight moves back 1 character each time a format is toggled
+####Client settings:
+Desktop Canary, Build Number: 52710
+####System settings:
+Windows 10, build 17763
+
+51748
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-17T05:46:10.818Z
+
+
+### Can reproduce.
+CR, W10 x64 1903, Discord Canary 52818; Only seems to work when applying and removing the same markdown effect
+
+Llamaglotapice#7664 - Bug Bot on 2020-01-17T05:46:18.396Z
+
+
+### Can reproduce.
+Desktop Canary 52710 (4300a40), Windows 10 64-Bit (10.0.18362)
+
+╳(͜͡𝓪𝓷𝓖 ⑆#5512 - Bug Bot on 2020-01-17T05:46:23.411Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 52818. CNR with a message longer than one line; CR with a message containing 2+ line breaks.
+
+carter#0001 - Bug Bot on 2020-01-17T05:46:28.383Z
+
+
+### Can't reproduce.
+Windows 10 Home 1809 x64, Canary version 51364
+
+Kubert#8745 - Bug Bot on 2020-01-17T15:14:52.088Z
+
+
+### Can't reproduce.
+Windows 10 Home 1809 x64, Canary version 52818
+
+Kubert#8745 - Bug Bot on 2020-01-17T15:22:41.355Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 x64, Canary version 52818
+
+Kubert#8745 - Bug Bot on 2020-01-17T15:27:18.701Z
+
+
+### Can't reproduce.
+Windows 10 Home 1809 x64, Canary version 52818
+
+Kubert#8745 - Bug Bot on 2020-01-17T15:30:38.975Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) web stable 52909 on chromium browser
+
+myacorn#6534 - Bug Bot on 2020-01-19T02:59:45.954Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

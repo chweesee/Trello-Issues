@@ -1,0 +1,91 @@
+[Mozilla Firefox & Safari] Sending a string with no spaces long enough that it can go onto the next line leaves a noticeable gap between your name and the text sent. (https://trello.com/c/4pR1s1GR)
+
+None
+
+Created: 2019-12-09T19:20:06.650Z
+Latest Update: 2020-07-16T21:26:05.876Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:
+- Type "Firefox" with no spaces over and over until it's long enough to go onto the next line 
+- Send the message
+
+####Expected result:
+Message sends normally and looks OK.
+####Actual result:
+There is a noticeable gap when you send your message at the beginning.
+####Client settings:
+Discord Web Canary 50980 on Mozilla Firefox 71.0
+####System settings:
+MacBook Pro: macOS Catalina 10.15.1
+
+49981
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-09T19:20:06.650Z
+
+
+### Jiralite#1207 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dee9e66aab9ae8cbcb91e13/de4aed79d19c00d35fce020118f18f7a/Screenshot_2019-12-09_at_19.09.04.png added by Bug Bot on 2019-12-09T19:20:10.042Z
+
+
+### Can reproduce.
+Windows 10 Home | Discord Canary 50980 | Firefox 71.0
+
+Smokepurpp#6012 - Bug Bot on 2019-12-09T19:20:14.328Z
+
+
+### Can reproduce.
+Window 10 // Discord Canary 50980 // Firefox 71.0
+
+Falkio#0001 - Bug Bot on 2019-12-09T19:20:19.351Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:70.0) Gecko/20100101 Firefox/70.0
+
+Spooker#0001 - Bug Bot on 2019-12-09T19:20:24.398Z
+
+
+### An extension of this issue is that if you edit the message, the (edited) message does not wrap correctly. This is reproducible on desktop canary, so I am assuming this is reproducible pretty much on all desktop/browser platforms. You'll need to follow the steps to reproduce in this report then try editing where it is near the end of the line. GIF: https://gyazo.com/3d0c68f5780d83e6610068e1c867a529
+
+Jiralite#1207 - Bug Bot on 2019-12-09T19:35:23.647Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 51028; Firefox Quantum 70.0.1
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-09T23:24:55.237Z
+
+
+### Can reproduce.
+CR, macOS 10.15.2, Canary 51044, Firefox 71
+
+Action Potential#6862 - Bug Bot on 2019-12-10T02:16:49.002Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit (v1909), Web Canary 51074, Mozilla Firefox 71.0 (64-bit)
+
+ryan#0570 - Bug Bot on 2019-12-10T03:31:22.197Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51074, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-10T14:35:42.652Z
+
+
+### Can reproduce.
+Canary 50588, Windows 7
+
+Rohit#3523 - Bug Bot on 2019-12-12T09:56:07.780Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

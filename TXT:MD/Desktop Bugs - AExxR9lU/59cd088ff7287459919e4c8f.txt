@@ -1,0 +1,81 @@
+green progress bar on spotify embeds is still moving when song in playlist isnt choosen (https://trello.com/c/GKSFInKf)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-28T14:34:55.194Z
+Latest Update: 2018-03-29T18:05:16.418Z
+
+Reported by Okori#0902
+
+####Steps to reproduce:
+- have the spotify app installed 
+- paste a spotify playlist in chat 
+- choose a song to play on the app from the playlist 
+- on the app choose a different song to play (not on/from the playlist)  
+-  go back to the embed and hover over the title of the embed
+
+####Expected result:
+the green bar shouldnt be moving at all cause no songs in the playlist are playing
+####Actual result:
+its moving and continues to move after a new song automatically plays
+####Client settings:
+canary 0.0.163
+####System settings:
+Windows 10 x64
+
+4909
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-28T14:34:55.194Z
+
+
+### Can reproduce.
+MacBook Air, macOS 10.13 Canary 0.0.155 Build 5005
+
+Mikesky#3456 - Bug Bot on 2017-09-28T14:35:02.709Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Creators Update | Canary 0.0.164
+
+Rauf#3260 - Bug Bot on 2017-09-28T14:35:07.711Z
+
+
+### Can reproduce.
+CR Mac Mini, macOS High Sierra v10.13, Discord Canary v0.0.154
+
+Zacatero#5839 - Bug Bot on 2017-09-28T14:35:12.715Z
+
+
+### Verified.  - Clayton on 2017-10-04T02:39:36.989Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-04T02:40:23.765Z
+
+
+### Verified Fixed - Jared on 2018-03-22T22:12:54.045Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-22T22:12:58.304Z
+
+
+### Can reproduce.
+Can still reproduce as written | Discord Canary 0.0.204, Build 12704, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-03-27T04:03:07.087Z
+
+
+### I can still reproduce this using the original repro steps.
+Windows 10 Pro x64, Fall Creators Update, Discord Canary (12831) - Chris Cox on 2018-03-29T18:04:58.242Z
+
+
+### Moved from Verified Fixed to Reopened by Chris Cox on 2018-03-29T18:05:16.383Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

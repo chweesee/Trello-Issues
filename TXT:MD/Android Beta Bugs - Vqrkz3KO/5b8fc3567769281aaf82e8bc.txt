@@ -1,0 +1,99 @@
+[Archived] When you hit the 256 characters limit on user notes and still keep on adding new characters, the keyboard recognizes the input of new characters and the field recognizes it too but the characters just don't show up because of the limit and you need to hit backspace the number of times you've tried to add new characters to start the real cleanup process of the note. (https://trello.com/c/64ORKwfj)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-05T11:51:50.879Z
+Latest Update: 2018-10-09T04:30:02.340Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Open someone's profile. 
+- Start spamming in the note field (cross the 256 characters limit).
+
+####Expected result:
+After you reach the 256th character, the field should not accept any more characters.
+####Actual result:
+The field does accept the input of new characters; they just don't show up but when you hit backspace after the 266th (or higher) character, the number in the below the field doesn't start to go down until you have cleared all the "invisible" characters.
+####Client settings:
+Discord Alpha 746
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+19036
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-05T11:51:50.879Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 7.4.2
+
+fujhofn.#0007 - Bug Bot on 2018-09-05T11:51:58.216Z
+
+
+### Can reproduce.
+Sony Xperia Z2, Android 6.0.1 - Alpha 7.4.6
+
+mc#7394 - Bug Bot on 2018-09-05T11:52:03.277Z
+
+
+### Can reproduce.
+Could repro only with GBoard, CNR with SwiftKey keyboard. Seems like keyboard specific. Discord Alpha 7.4.6, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-09-05T11:52:08.207Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.4.6
+
+Frances Picard#6209 - Bug Bot on 2018-09-05T12:05:34.117Z
+
+
+### Can't reproduce.
+Cannot reproduce at all, even when using the exact same keyboard (same versiom too) - Xiaomi Mi A1, Android 9.0, Discord Alpha 7.4.6
+
+Haru😍💜#6660 - Bug Bot on 2018-09-05T12:21:00.411Z
+
+
+### Can reproduce.
+OnePlus 3T, A8, D746 - A lot of testing went into this. Found out that it has to do with Keyboard's Autocorrect. On GBoard it lets you go over the limit for it to eventually provide you with a "correct" word. Once you've been given a correct word it will return to the normal limit. With Keyboards like Swift key, it will allow for you to type 1 letter over the limit, realise it's over and return to normal. TL;DR GBoard with Autocorrect suggestions allows for you to type over, but only if 1 word.
+
+Alipoodle#5025 - Bug Bot on 2018-09-05T13:38:58.401Z
+
+
+### Can reproduce.
+Huawei P8 Lite (ALE-L21), Android 6.0, Discord Alpha 7.4.6, Tried GBoard and Huawei Swype
+
+Infinity#2354 - Bug Bot on 2018-09-05T16:13:00.361Z
+
+
+### verified, android 7.0, samsung s6 7, alpha 7.4.6 - Clayton on 2018-09-05T19:31:09.264Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-05T19:31:13.519Z
+
+
+### Can't reproduce.
+Cannot reproduce with my default keyboard, seems to be keyboard specific, Samsung Galaxy S7 • Android 7.0 • Discord Alpha 7.4.6
+
+ByteReader#0001 - Bug Bot on 2018-09-05T23:35:54.110Z
+
+
+### Can't reproduce.
+Moto Z Force Droid Edition, Android 8.0 [July SP] • Discord 7.4.8 [Alpha]
+
+Industrial_Strength#1402 - Bug Bot on 2018-09-09T04:30:00.643Z
+
+
+### Archived by Clayton on 2018-10-09T04:30:02.341Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

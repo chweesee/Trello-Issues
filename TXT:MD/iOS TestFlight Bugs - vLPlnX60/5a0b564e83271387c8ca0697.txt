@@ -1,0 +1,87 @@
+[Archived] Locking, Multitasking, Control Panel and Notification Centre will mark current text channel as read (https://trello.com/c/HC9eMqMo)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-11-14T20:47:10.164Z
+Latest Update: 2019-01-31T19:58:42.552Z
+
+Reported by Psyche#6574
+
+####Steps to reproduce:
+- Find a main text channel with >50 new messages (seems to specifically need manually loadable messages, does not occur when <50 messages are already visible) 
+- Swipe up from bottom to bring up the Control Panel or swipe down from top to bring down the Notification Centre (or the unlocked lock screen or whatever it's called now) or double-press the home button to go to the Multitasking interface or press lock button 
+- Swipe or tap as appropriate (down from top, up from bottom, tap in middle, respectively, or unlock) to return to Discord and the text channel with new messages
+
+####Expected result:
+Unread indicators, counts and banners remain
+####Actual result:
+Channel marked as read, all indicators, counts and banners disappear
+####Client settings:
+Stable 1.9.5
+####System settings:
+iPhone 6, iOS 11.1.1
+
+6396
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-14T20:47:10.164Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 11.2 Public Beta 3, TestFlight 1.10.0 (1574)
+
+Inner Sense#0404 - Bug Bot on 2017-11-14T20:47:17.672Z
+
+
+### Can reproduce.
+CR, iPod touch 6gn, iOS 10.3.3, TestFlight 1.10.0 (1574)
+
+🦃nickWtn🦃#3789 - Bug Bot on 2017-11-14T20:47:22.575Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th Generation, iOS 11.1.1, TestFlight 1.10.0 (1574)
+
+jake 🍂#6298 - Bug Bot on 2017-11-14T20:47:27.583Z
+
+
+### Can reproduce.
+iPhone 8, iOS 11.1.1, TestFlight 1.10.0 (1574)
+
+Minibeast#2763 - Bug Bot on 2017-11-15T20:08:44.316Z
+
+
+### Can reproduce.
+Discord: Testflight 2.0.1 (1610) IOS: 11.2 PB4 Model: iPad Pro 9.7
+
+nathanielcwm#3522 - Bug Bot on 2017-11-20T22:39:46.325Z
+
+
+### I can reproduce this P3, moving to Verified Bugs.
+
+Discord 2.0.1 (1610), iOS 11.1.2, iPhone 8 Plus - Alexandru Todea on 2017-11-28T08:11:58.979Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2017-11-28T08:12:29.887Z
+
+
+### Verified - Jared on 2017-11-29T20:24:11.892Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.1.2, TestFlight 2.2.0 (build 1982) - Any message count between 50+ and 99+ seems to cause this, having 100+ unread messages in the banner does not cause this to occur.
+
+JustGamer#2542 - Bug Bot on 2018-01-02T05:32:50.795Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:42.567Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

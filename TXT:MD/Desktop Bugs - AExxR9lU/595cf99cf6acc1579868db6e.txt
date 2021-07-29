@@ -1,0 +1,88 @@
+[Archived] No error message when hitting login on the 2FA code screen without entering a 2FA code (https://trello.com/c/DNdm27xW)
+
+P3: Will get fixed eventually
+
+Created: 2017-07-05T14:37:17.012Z
+Latest Update: 2018-08-21T23:34:31.396Z
+
+Reported by Pointy#5565
+
+####Steps to reproduce:
+- Make sure you have 2FA enabled on your account 
+- Logout of the client via User Settings 
+- Log in with your email and password 
+- Press login on the 2FA screen without typing in a 2FA code
+
+####Expected result:
+A popup error should appear saying "This field is required", as is the case with the main login screen.
+####Actual result:
+It stays blank, implying nothing is wrong, allowing you to be ratelimited if you end up spamming it.
+####Client settings:
+Desktop Canary 0.0.157 (Build 2012)
+####System settings:
+Win 10 Pro x64 v1607
+
+1993
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-05T14:37:17.012Z
+
+
+### Pointy#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/595cf99cf6acc1579868db6e/02e4c59c4b3d113cece52764b368ff88/3f6c9e.gif added by Bug Bot on 2017-07-05T14:37:20.916Z
+
+
+### Can reproduce.
+CR|  macOS Sierra 10.12.4 • MacBook Air Early 2014 • Canary 0.0.149
+
+ItsPugle#5963 - Bug Bot on 2017-07-05T14:37:24.469Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Creators Edition, Canary 0.0.157
+
+Mippy#1483 - Bug Bot on 2017-07-05T14:37:29.471Z
+
+
+### Can reproduce.
+CR  Windows 10 Pro build 1703 Canary 0.0.157
+
+Ana#0950 - Bug Bot on 2017-07-05T14:37:34.508Z
+
+
+### Verified.  - Clayton on 2017-07-05T20:00:22.231Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-05T20:00:28.515Z
+
+
+### Mid P3 - Jared on 2017-10-17T06:44:41.445Z
+
+
+### Extension to the bug:
+- Follow the original ticket's reproduction steps.
+- Join a new server.
+Expected Result: The 2FA requirement should not disappear from the servers that has the 2FA lock.
+Actual Result: The 2FA requirement disappears from the servers that has the 2FA lock. This will be in effect until you restart the client. 
+
+Kayygee found this extension, and wanted me to comment on this ticket. - Ghoul on 2018-06-06T18:00:04.913Z
+
+
+### Cannot repro anymore, canary 18051. moving to claimed fixed. - Tarek on 2018-07-02T18:42:17.523Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-02T18:42:22.480Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:34:30.411Z
+
+
+### Archived by Jared on 2018-08-21T23:34:31.398Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

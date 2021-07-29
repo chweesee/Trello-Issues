@@ -1,0 +1,112 @@
+After exiting the undo menu which can be triggered by shaking the device, the keyboard goes white on dark mode (https://trello.com/c/ltNkuU9o)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2018-06-21T23:17:53.865Z
+Latest Update: 2019-08-07T05:32:52.603Z
+
+Reported by CustomName#9999
+
+####Steps to reproduce:
+- Open the text box 
+- Start typing 
+- Shake your device to trigger undo feature.
+- Close the undo menu 
+- Observe the keyboard and keyboard colour
+
+####Expected result:
+The keyboard should stay dark/ grey
+####Actual result:
+The keyboard goes white for a split second before returning the correct colour.
+####Client settings:
+TestFlight 2.3.4 (5330)
+####System settings:
+iPhone X, 11.3
+
+14472
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-21T23:17:53.865Z
+
+
+### CustomName#9999 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b2c3221e2133dcd1e0d4fc6/45fe581b298569986192567d733d47a5/image.png added by Bug Bot on 2018-06-21T23:17:56.388Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 Dev Beta 2, TestFlight 2.3.4 (5330)
+
+mouse#0091 - Bug Bot on 2018-06-21T23:18:01.306Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 {Dev Beta 2} TestFlight 2.3.4 (5330)
+
+Xylium#1480 - Bug Bot on 2018-06-21T23:18:06.354Z
+
+
+### Can reproduce.
+iPhone 6s - iOS 11.4, iPad Air 2 - iOS 11.4.1 PB, TestFlight 2.3.4 (5330)
+
+Pascal#0929 - Bug Bot on 2018-06-21T23:18:11.300Z
+
+
+### Moved from User Reported Bugs to Chat Rewrite Bugs by Fanghao on 2018-06-21T23:23:09.555Z
+
+
+### Moved from Chat Rewrite Bugs to Fix made, not yet released by Fanghao on 2018-06-29T21:44:16.324Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5548). The keyboard stays the same color, as if nothing happened instead of changing colors. I used iPhone 8 + running iOS 12 (Developer Beta 2).
+
+Because I was not able to reproduce this bug, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-06-30T05:46:17.663Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Ghoul on 2018-06-30T05:46:29.099Z
+
+
+### I can reproduce this bug again as of Discord TestFlight 2.3.7 (6930) on iPhone 8 +, running iOS 12 - Dev Beta 8. Instead, I have to shake my device to trigger a undo menu which I can then proceed to close which will cause my keyboard to become white for a few seconds before returning to the original colour. I edited the ticket for the remaining case.
+
+Reopening this. - Ghoul on 2018-08-26T05:40:15.111Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Ghoul on 2018-08-26T05:40:19.611Z
+
+
+### Can reproduce.
+CR with the curent steps with the shaking to undo but I highly beleive it is an iOS bug as I can repro on multiple apps using the dark keybaord including Youtube, twitch and VLC as well as on the default iOS clock and stocks apps (on the search field of these) iPhone 8 iOS 12.2 Beta 6 Discord Stable 2.5.0
+
+Arnold0#7514 - Bug Bot on 2019-03-19T13:58:21.535Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.6 (12095)
+
+Daffyduck#5364 - Bug Bot on 2019-03-20T05:29:28.210Z
+
+
+### Can reproduce.
+iOS 12.2 iPhone 6s discord testflight 2.5.2
+
+GlenMerlin#2119 - Bug Bot on 2019-04-26T05:26:10.414Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.3 (Dev beta 4) - Testflight 3.0.1 (14614).
+
+Baddles#3497 - Bug Bot on 2019-05-07T13:06:47.641Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.4 TestFlight 3.0.10 (16576)
+
+binchlord#0998 - Bug Bot on 2019-08-07T05:32:52.616Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

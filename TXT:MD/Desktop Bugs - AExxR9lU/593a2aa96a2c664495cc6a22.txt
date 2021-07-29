@@ -1,0 +1,107 @@
+Backslash doesn't escape backticks at end of one line code block (https://trello.com/c/p7GYudTf)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-09T04:57:14.015Z
+Latest Update: 2020-07-06T19:30:06.531Z
+
+Reported by zer0ney#0025
+
+####Steps to reproduce:
+- Copy this message: <https://hastebin.com/fuvarobefu> 
+- Paste and send
+
+####Expected result:
+Backticks should be escaped like any other markdown
+####Actual result:
+The backticks don't escape, better example: <http://i.imgur.com/VzqSqlN.png>
+####Client settings:
+Desktop Stable Latest
+####System settings:
+Windows 7 x64, Ubuntu 17.04, Windows 10 x64 1703
+
+1522
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-09T04:57:14.015Z
+
+
+### Can reproduce.
+ windows 10 creators update Canary 0.0.155
+
+Alex from Alaska#9760 - Bug Bot on 2017-06-09T04:57:18.623Z
+
+
+### Can reproduce.
+Canary 0.0.155  Windows 10 Home x64
+
+Apollo#4765 - Bug Bot on 2017-06-09T04:57:20.509Z
+
+
+### Can reproduce.
+Win10 Creators Update canary 0.0.155
+
+Mippy#1483 - Bug Bot on 2017-06-09T04:57:22.519Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1703, Canary 0.0.115
+
+My Dudes#1174 - Bug Bot on 2017-06-09T20:22:09.004Z
+
+
+### Verified.  - Clayton on 2017-06-15T21:06:50.819Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-15T21:06:56.905Z
+
+
+### Still happens, P3 - Clayton on 2017-10-07T03:48:20.738Z
+
+
+### 54D#1357 - https://youtu.be/80b6yHLZ8h4 added by Bug Bot on 2018-07-15T09:43:20.152Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:15.438Z
+
+
+### Can reproduce.
+CR; Appears on all Markdown formatting, closing `\*` and `\**` don't escape, but `\*\*` does; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 29657
+
+Longinus#0293 - Bug Bot on 2018-12-14T10:39:50.067Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:37.684Z
+
+
+### Can reproduce.
+Ubuntu 18.04 canary build 40824, occurs on the ending character of any markdown
+
+Xavienth#0536 - Bug Bot on 2019-07-08T23:00:43.932Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:44.224Z
+
+
+### Can reproduce.
+MacBook Pro (13-inch, Late 2013), 10.15.5 (19F101); Canary 62028 (89ee84d) & -i
+
+Wiz#0003 - Bug Bot on 2020-06-22T16:58:23.343Z
+
+
+### Can reproduce.
+MacBook Pro (13-inch, Late 2013), 10.15.5 (19F101); Canary 62028 (89ee84d) & iPhone X, iOS 13.6 (17G5045c); 27.0 (20464)
+
+Wiz#0003 - Bug Bot on 2020-06-22T16:59:06.780Z
+
+
+### Unarchived by Bug Bot on 2020-06-22T17:00:06.467Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

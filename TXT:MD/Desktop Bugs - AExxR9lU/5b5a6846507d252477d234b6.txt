@@ -1,0 +1,72 @@
+[Archived] [Backend issue affecting all clients] Website embeds may cut off the description text in the middle of an HTML entity (https://trello.com/c/8DEuSgv9)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-07-27T00:33:10.379Z
+Latest Update: 2018-10-22T20:24:07.613Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have a website with a long description, with an HTML entity near the character limit that the embed can show (very uncommon case so try with the link in attachment) 
+- Post the link of this website in Discord
+
+####Expected result:
+If a character represented by an HTML entity doesn't fit in description, it should be removed completely
+####Actual result:
+The HTML entity is half cut off making it render bad near the spot where the text truncates.
+####Client settings:
+Discord Alpha 7.1.6 (affects all clients)
+####System settings:
+Huawei Mate 9 Android 8.0
+
+16088
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-27T00:33:10.379Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5a6846507d252477d234b6/d22c965c7e0ad17ec38d87f1e1757d33/IMG_20180727_012538.jpg added by Bug Bot on 2018-07-27T00:33:13.056Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Canary Build 19931
+
+Pascal#0929 - Bug Bot on 2018-07-27T00:33:17.846Z
+
+
+### Can reproduce.
+Win  10 x64, Canary build 19931
+
+JellyPies#1849 - Bug Bot on 2018-07-27T00:33:22.789Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 19931
+
+webhp#1337 - Bug Bot on 2018-07-27T00:33:28.155Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 x64 Home Edition - Discord Canary 19931
+
+brxxn#0632 - Bug Bot on 2018-07-27T01:30:28.222Z
+
+
+### Verified Canary 20540. W10 1803. - Tarek on 2018-08-03T02:54:18.886Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-08-03T02:54:23.796Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:07.616Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

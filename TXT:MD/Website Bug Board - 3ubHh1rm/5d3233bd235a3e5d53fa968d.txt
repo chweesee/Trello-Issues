@@ -1,0 +1,83 @@
+Unable to Delete Rich Presence Cover & Asset Images (https://trello.com/c/RnXUyBwg)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-07-19T21:18:53.850Z
+Latest Update: 2019-08-04T14:20:17.283Z
+
+Reported by Aeria#9096
+
+####Steps to reproduce:
+- Visit /developers and select an Application or make a new one 
+- Go to the Rich Presence Tab 
+- Upload a valid Invite/Cover Image or Asset Image and save your changes 
+- Observe how it loads a bit 
+- Now click the "Remove" Button under the Cover Image or the X on the Asset Image and click save again 
+- Observe how the save Button immediately vanishes 
+- Reload the page and observe
+
+####Expected result:
+The image should get deleted and not re-appear on a reload
+####Actual result:
+The Cover Image stays. For Asset Images, removing multiple times leads to an Error and they vanish eventually.
+####Client settings:
+Chrome Version 75.0.3770.142 (64-bit)
+####System settings:
+Windows 10 Pro x64
+
+40014
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-19T21:18:53.850Z
+
+
+### Aeria#9096 - https://trello-attachments.s3.amazonaws.com/5cc22e6be84de608c791fdb6/5d3233bd235a3e5d53fa968d/a40a4792b8ae900d66966deeedcad174/2ucmFJw.png added by Bug Bot on 2019-07-19T21:18:56.796Z
+
+
+### Can reproduce.
+macOS Mojave 10.14.5, Chrome Version 75.0.3770.142
+
+Rage#9991 - Bug Bot on 2019-07-19T21:19:01.502Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Google Chrome 75.0.3770.142
+
+Daffyduck#5364 - Bug Bot on 2019-07-19T21:19:06.469Z
+
+
+### Can reproduce.
+CR; Windows 10 Home x64 - Google Chrome Version 75.0.3770.142 (Official Build) (64-bit)
+
+Jeffrey#1234 - Bug Bot on 2019-07-19T21:19:11.508Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Aeria on 2019-07-19T22:39:54.176Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro // macOS Sierra (10.12.6) // Chrome: 75.0.3770.142 (Official Build) (64-bit)
+
+xTeal#7702 - Bug Bot on 2019-07-20T21:37:51.036Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Chrome 75.0.3770.142
+
+Jean20B#4668 - Bug Bot on 2019-07-22T10:00:22.647Z
+
+
+### Can reproduce.
+Windows 10 Professional,Canary 42647Chrome
+
+Typhoon#7906 - Bug Bot on 2019-08-04T14:20:17.292Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,159 @@
+[Archived] Jump to message doesn't work twice for the same message (https://trello.com/c/iEOJeXH3)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-19T08:50:27.353Z
+Latest Update: 2019-04-01T09:00:42.498Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Open pinned messages for example 
+- Click "Jump" for any pinned message 
+- Scroll a bit in message history to make sure the pinned message is out of sight 
+- Open pinned messages again 
+- Click again "Jump" for the same pinned message
+
+####Expected result:
+It should jump again to the pinned message.
+####Actual result:
+Nothing happens, "jump" button doesn't work.
+####Client settings:
+Discord Canary 0.0.154
+####System settings:
+MacBook Pro 13" (2016), macOS Sierra 10.12.6
+
+4533
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-19T08:50:27.353Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 4429) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-19T08:50:34.748Z
+
+
+### Can reproduce.
+CR, MacBook Pro 2015, MacOS 10.12.6, Canary 0.0.154
+
+LordOfTheUndead#7368 - Bug Bot on 2017-09-19T08:50:39.761Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163
+
+AviationMaster#4793 - Bug Bot on 2017-09-19T08:50:44.770Z
+
+
+### Could be related to https://trello.com/c/xNWDjVTS/, but now the jump to message actually work, but not twice on the same message.
+
+Tarek1337#0379 - Bug Bot on 2017-09-19T08:51:38.195Z
+
+
+### Can reproduce.
+MacBook Air (13-inch, Early 2015),  Discord Canary 0.0.154
+
+Cheezybob99#9866 - Bug Bot on 2017-09-19T17:05:04.064Z
+
+
+### Verified.  - Clayton on 2017-09-19T19:20:43.457Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T19:20:49.054Z
+
+
+### I can still reproduce this, pressing the Jump button a second time after the message out of sight does nothing.
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5085 - Alexandru Todea on 2017-09-29T15:08:24.860Z
+
+
+### Can reproduce.
+Can still reproduce and is super annoying xD. Windows 10 x64, Fall Creators Update, Canary Build 6746
+
+FireController1847#3577 - Bug Bot on 2017-11-02T21:56:21.436Z
+
+
+### Can reproduce.
+Also a issue when pasting a link to a message (with jump function) and clicking it twice, Discord Canary, Build Number: 16727, Version Hash: d3400266c1788b6d6174c229e39842e66a9336bf, Windows 10 Home, v10.0.17134
+
+André Paulo#8446 - Bug Bot on 2018-06-10T18:02:43.871Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59c0da5375671368bd2e5a98/295e9ecb416624e1d28d0c9f3e06721f/FvQkZ71.gif added by Bug Bot on 2018-07-14T11:25:04.982Z
+
+
+### Can reproduce.
+macOS 10.13.5, MacBook Pro 2016 13inch, Canary 20174 - can still repro in July 2018 lol
+
+-Shadow-#6754 - Bug Bot on 2018-07-28T07:54:56.991Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:49.660Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 27913
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-13T02:58:04.426Z
+
+
+### Can reproduce.
+Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 29129
+
+Longinus#0293 - Bug Bot on 2018-12-07T19:23:32.502Z
+
+
+### Can reproduce.
+Can reproduce - Occurs for any normal message that is jumped onto from search | Canary: 30706, Windows 7 64-bit
+
+Skyla#9999 - Bug Bot on 2019-01-10T08:24:06.720Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:22.557Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 31974
+
+TheForbiddenAi#0001 - Bug Bot on 2019-02-08T02:55:15.621Z
+
+
+### Fixed with the new jumping functionality. Canary 33117. Moving to claimed fixed - Tarek on 2019-03-02T08:28:14.851Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2019-03-02T08:28:19.913Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Discord Canary 33117
+
+Daffyduck#5364 - Bug Bot on 2019-03-02T08:29:55.238Z
+
+
+### Can't reproduce.
+Can no longer reproduce | Discord Canary 0.0.232, Build 33117, Windows 10 Home 64-bit (v1803)
+
+Ene#0808 - Bug Bot on 2019-03-02T08:30:46.158Z
+
+
+### Can't reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.117 (x64) · Canary Web 33117
+
+Casper#9999 - Bug Bot on 2019-03-02T08:31:47.525Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-03-02T08:31:47.790Z
+
+
+### Archived by Bug Bot on 2019-04-01T09:00:42.512Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

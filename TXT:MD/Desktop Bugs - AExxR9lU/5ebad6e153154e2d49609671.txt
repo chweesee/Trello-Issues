@@ -1,0 +1,67 @@
+When clicking "open original" on a linked image preview, the confirmation is shown under the image (https://trello.com/c/wryDJu1B)
+
+None
+
+Created: 2020-05-12T17:03:29.485Z
+Latest Update: 2020-07-16T21:26:06.329Z
+
+Reported by Rajiv Shah#5322
+
+####Steps to reproduce:
+- Send a message with a link that shows an image in its preview (e.g. a link to a post from Instagram)
+
+- Click on the image
+
+- Click "open original"
+
+####Expected result:
+The alert that says "HOLD UP: This link will take you to..." appears in front of the image
+####Actual result:
+The alert shows behind the image, so the user can't see it and doesn't know why the original was not opened
+####Client settings:
+Release Channel: stable, Build Number: 59879, Version Hash: 2446cbb20e427fc1e7130ec73569b52873d79964
+####System settings:
+macOS Catalina 10.15.5 (19F72f)
+
+55883
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-12T17:03:29.485Z
+
+
+### Can reproduce.
+CR, stable 59984, Win10 v1709 x64 build 16299.1625 Education, chrome dev 84.0.4128.3
+
+hopeless#1227 - Bug Bot on 2020-05-12T17:03:36.915Z
+
+
+### Can reproduce.
+[CR] Windows 10 Home x64; Version 1903 (18362.778); Stable (59984) & Linux 3.18.0, Stable (59984)
+
+AmusingDev#7879 - Bug Bot on 2020-05-12T17:03:41.911Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 59984 (f3380b6), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-05-12T17:03:46.929Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Canary (Build 60008)
+
+Bryth#1086 - Bug Bot on 2020-05-12T22:06:26.182Z
+
+
+### Works for any pop-up (like errors) which come up behind the image preview
+
+Jiralite#1207 - Bug Bot on 2020-05-12T22:07:21.710Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

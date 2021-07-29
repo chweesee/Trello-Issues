@@ -1,0 +1,80 @@
+[Archived] scenario on no audio on default audio device with bluetooth device (https://trello.com/c/gdqyhXnX)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-04-27T18:11:25.490Z
+Latest Update: 2018-08-30T23:34:17.402Z
+
+Reported by Linley#7952
+
+####Steps to reproduce: 
+- Set discord audio output to default 
+- set system audio output device (in my case: headphones) 
+- connect Bluetooth speaker 
+- change system audio output device again (in my case: headphones) 
+
+####Expected result:
+ Sound comes out of headphones 
+####Actual result:
+ sound is coming out of Bluetooth speaker. 
+####System settings:
+ Windows 10 Pro Version 1607 (Build 14393.953) Discord PTB
+
+1149
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-27T18:11:25.490Z
+
+
+### Can reproduce.
+Windows 10 Builder Update, Discord Canary. Did not trigger when initially connecting bluetooth, had to switch twice. Must be audio coming from a voice channel (not playback of youtube video in embed)
+
+eslachance#4611 - Bug Bot on 2017-04-27T18:11:26.085Z
+
+
+### Can reproduce.
+Win 10 x64 Pro, Latest Canary
+
+Packer#9020 - Bug Bot on 2017-04-27T18:11:28.289Z
+
+
+### Can reproduce.
+macOS canary
+
+nullpixel#0012 - Bug Bot on 2017-04-27T18:11:30.070Z
+
+
+### https://www.youtube.com/watch?v=Nc92t2s8GvQ - https://www.youtube.com/watch?v=Nc92t2s8GvQ added by Bug Bot on 2017-04-27T18:11:41.145Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Q Q on 2017-07-06T20:41:25.222Z
+
+
+### Verified. Can reproduce.
+
+Latest Canary, Windows 10 Ultimate x64 - Q Q on 2017-07-06T20:41:49.060Z
+
+
+### Can reproduce.
+A possible solution could be that the fault lies with Windows, not Discord itself.  You have to make sure that the default communication output is set to headphones and not the Bluetooth speaker.  To change it, right click on the output source, select 'Set as Default Communication Device' and hit OK.  Here is a video that can walk you through step by step: https://youtu.be/DhbLZ2vF2Z0.  Apologies if you don't hear any audio from my end.  I had muted myself through OBS when I was recording, but the green circle should tell you that I am talking.
+
+Sanji Himura#0361 - Bug Bot on 2018-02-22T23:06:09.905Z
+
+
+### cnr, fixed - Clayton on 2018-07-12T19:13:19.260Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-07-12T19:13:39.680Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:17.405Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

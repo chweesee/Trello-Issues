@@ -1,0 +1,98 @@
+[Archived] Searching with a specific symbol rather than just plain text for search filters causes unexpected issues (https://trello.com/c/BwCU9PCv)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-11-29T14:46:00.516Z
+Latest Update: 2019-01-31T21:30:03.272Z
+
+Reported by aditya 🍣#0001
+
+####Steps to reproduce:
+- Open search in a channel 
+- Use the ``in:`` filter 
+- Type in a ``#`` and then observe that the channels eligible are shown 
+- Type in another character to filter from channels 
+- Notice how all the filtered results go away as if you typed something invalid
+
+####Expected result:
+The list gets narrowed down.
+####Actual result:
+The suggestions dissapear even if you typed something valid
+####Client settings:
+Discord Alpha 8.0.2. (802)
+####System settings:
+Google Pixel 2 XL, Android 9.0 (Nov Patch)
+
+23771
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-29T14:46:00.516Z
+
+
+### Can reproduce.
+CR Xiaomi Mi A2 Lite, Android 8.1.0, Discord Alpha 8.0.2
+
+zapteryx#6161 - Bug Bot on 2018-11-29T14:46:07.885Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0 discord alpha 8.0.2
+
+sloth_.on._tabasco#0001 - Bug Bot on 2018-11-29T14:46:12.852Z
+
+
+### Can reproduce.
+Can reproduce. Oneplus 3, Android 9, Alpha 8.0.2
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-29T14:46:17.876Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1, Alpha 8.0.3
+
+dnvk#2948 - Bug Bot on 2018-11-29T15:05:11.481Z
+
+
+### Can reproduce.
+CR | Moto x4 | Android 8.1.0 | Discord alpha 8.0.1
+
+Spencer#3616 - Bug Bot on 2018-11-29T15:08:41.445Z
+
+
+### Can reproduce.
+CR. Alpha 8.0.2 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9566 - Bug Bot on 2018-11-29T15:10:32.973Z
+
+
+### Duplicate of https://trello.com/c/gB0hyL38
+
+Alex1304#9704 - Bug Bot on 2018-11-29T15:16:12.918Z
+
+
+### I actually think we want to say no matching channels. - Sam Shih on 2018-11-29T19:17:03.779Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 8.1.7 - Clayton on 2018-12-20T06:09:27.065Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-20T06:09:36.408Z
+
+
+### Can reproduce.
+applicable with mentions: filter as well , Asus Zenfone max pro m1 Android 8.1.0, alpha 8.2.2
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-01T20:35:48.504Z
+
+
+### Archived by Bug Bot on 2019-01-31T21:30:03.289Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/andygarron1) - No Bio

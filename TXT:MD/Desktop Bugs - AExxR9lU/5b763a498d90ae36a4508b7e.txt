@@ -1,0 +1,89 @@
+[Archived] In User Settings, the "Test Video" button is still showing as clickable after pressing it (https://trello.com/c/YRF5l3AD)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-17T03:00:25.304Z
+Latest Update: 2019-07-21T21:12:46.929Z
+
+Reported by dogo#2651
+
+####Steps to reproduce:
+- Open User Settings and go to > Voice and Video 
+- Scroll down to Video Settings 
+- (opt) Select a Camera 
+- Click Test Video and keep your cursor at this position 
+- Move your cursor down
+
+####Expected result:
+The video settings preview panel is clear or interactive items after starting the test
+####Actual result:
+The Test Video goes transparent and is animated down/grow larger. It is however still clickable at the div level
+####Client settings:
+Release Channel: stable, Build Number: 22036, Version Hash: 305e872586fccb6738305bf6569725267600ea01
+####System settings:
+Windows 10
+
+17685
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-17T03:00:25.304Z
+
+
+### Can reproduce.
+The cursur changes after I moved it down. Windows 10 x64 1803 (17134), Discord Canary with Build number 22083
+
+Frances Picard#6209 - Bug Bot on 2018-08-17T03:00:32.633Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 22083 Windows 10 x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-08-17T03:00:37.713Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 22083
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-17T03:00:42.667Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 22036
+
+Delite#0001 - Bug Bot on 2018-08-17T18:10:02.804Z
+
+
+### Can reproduce.
+MacBook Pro 13" 10.13.6, Canary 22112
+
+AlfiePops#1582 - Bug Bot on 2018-08-17T18:50:54.671Z
+
+
+### verified, macos 10.12.6, canary 22333 - Clayton on 2018-08-23T00:30:59.205Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-23T00:31:05.357Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:04.178Z
+
+
+### Extension of master ticket https://trello.com/c/XsGzBWxE/
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-26T01:04:12.270Z
+
+
+### Unarchived by Bug Bot on 2019-02-26T01:30:06.223Z
+
+
+### Archived by Aeria on 2019-07-21T21:12:46.943Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

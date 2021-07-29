@@ -1,0 +1,90 @@
+[<1080 px width-specific in Windows and Chrome OS] Horizontal scrolling is possible in the Jobs page. (https://trello.com/c/FlgzT0L4)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-03T19:54:53.911Z
+Latest Update: 2019-07-20T08:22:18.843Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Change the browser width to less than 1080 px.  
+- Go to Discord's website > Jobs (in the navbar). 
+- Try to scroll horizontally on the page.
+
+####Expected result:
+You're not supposed to be able to scroll horizontally and meet a white empty margin to the right.
+####Actual result:
+It's possible to scroll horizontally and meet a white empty margin to the right.
+####Client settings:
+Web Canary 33117
+####System settings:
+HP Chromebook G5 11 · Chrome 72.0.3626.117 (x64)
+
+30120
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-03T19:54:53.911Z
+
+
+### Can reproduce.
+CR on Windows 10, if I change the width to less than 1080px. The Horizontal scrollbar is added due to to the types of jobs
+
+André Paulo#8446 - Bug Bot on 2019-03-03T19:55:01.393Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 (1809) - Chrome 72.0.3626.119
+
+Arnold0#7514 - Bug Bot on 2019-03-03T19:55:06.359Z
+
+
+### Can reproduce.
+can reproduce windows 10 x64 1809
+
+tech_dude1#9855 - Bug Bot on 2019-03-03T19:55:11.324Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7c310d6ff14809f3ffdbf1/ea3093cf7a9ad077641e2c4b016679fc/JXNgclL.gif added by Bug Bot on 2019-03-03T19:55:14.291Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 33117 Chrome 72.0
+
+Delite#0001 - Bug Bot on 2019-03-03T22:28:31.427Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 33117 | Chrome 72
+
+Clay#0001 - Bug Bot on 2019-03-03T22:51:44.457Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 33117
+
+Zacatero#0001 - Bug Bot on 2019-03-04T02:26:20.318Z
+
+
+### Can reproduce.
+CR; Canary: 33117, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-04T11:55:34.170Z
+
+
+### Can reproduce.
+Windows 10 home, Canary 33117
+
+Mr. Proper#2394 - Bug Bot on 2019-03-04T15:37:30.553Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Pascal on 2019-07-20T08:22:18.597Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

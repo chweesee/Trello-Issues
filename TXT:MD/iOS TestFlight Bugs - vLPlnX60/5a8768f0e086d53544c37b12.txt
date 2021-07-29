@@ -1,0 +1,105 @@
+[Archived] Last option for message interaction for webhook messages with red color (https://trello.com/c/alSjZjCz)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-02-16T23:27:44.711Z
+Latest Update: 2018-10-04T23:55:29.385Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Send/receive a webhook message 
+- Long hold the webhook message 
+- Observe the color of the message options
+
+####Expected result:
+Only the option to report the message (which doesn't exist for webhook messages) should be red colored.
+####Actual result:
+The last message option is red colored (for example delete message).
+####Client settings:
+TestFlight 2.2.3 (2671)
+####System settings:
+iPhone 6s & iPad Air 2, iOS 11.3 PB 2
+
+8867
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-16T23:27:44.711Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a8768f0e086d53544c37b12/2619c30b209d1cd1fb5f3d16ab4211d1/t7vq4Ow.jpg added by Bug Bot on 2018-02-16T23:27:47.269Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.3 PB2, Discord TF 2.2.3 (2671)
+
+Ghoul#0009 - Bug Bot on 2018-02-16T23:27:52.109Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.3 (2671)
+
+mrkirby153#7840 - Bug Bot on 2018-02-16T23:27:57.131Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight 2.2.3 (2671)
+
+Kuuhaku#4503 - Bug Bot on 2018-02-16T23:28:02.150Z
+
+
+### Can reproduce.
+iPod Touch 6th generation, iOS 11.2.5, TestFlight 2.2.3 (2671)
+
+☘nickWtn☘#3789 - Bug Bot on 2018-02-16T23:44:51.168Z
+
+
+### Verified.  - Clayton on 2018-03-02T02:02:46.916Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-02T02:02:53.599Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.6, TestFlight 2.2.5 (3054)
+
+mouse#0091 - Bug Bot on 2018-03-16T08:33:49.480Z
+
+
+### Verified Fixed in build 2.2.6 - Jared on 2018-03-19T23:22:33.228Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-19T23:22:36.744Z
+
+
+### Can still reproduce it: iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054)
+Make sure to test it with webhook messages and not normal messages.
+
+Pascal#0929 - Bug Bot on 2018-03-20T19:38:25.405Z
+
+
+### photo.jpg - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a8768f0e086d53544c37b12/05e5af47a60a272aec4e011391b94baf/photo.jpg added by Alexandru Todea on 2018-04-10T04:34:44.255Z
+
+
+### I can still reproduce, reopening.
+
+Discord 2.2.9, iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-10T04:35:03.809Z
+
+
+### Moved from Verified Fixed to Reopened by Alexandru Todea on 2018-04-10T04:35:10.788Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Victoria on 2018-08-14T22:34:24.131Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:29.388Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

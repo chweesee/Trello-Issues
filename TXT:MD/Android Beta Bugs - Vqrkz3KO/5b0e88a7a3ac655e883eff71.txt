@@ -1,0 +1,75 @@
+[Archived] Sending newline in markdown will not appear(but is still there) if there's a message cluster (https://trello.com/c/GxYcQPEP)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-30T11:19:03.238Z
+Latest Update: 2018-08-22T01:22:32.604Z
+
+Reported by Lava#9562
+
+####Steps to reproduce:
+- Send a message 
+- Send a newline in markdown, eg \`\n\` with the \n being a newline 
+- Observe how it doesn't appear 
+- Delete the first message 
+- It appears with a flash
+
+####Expected result:
+The empty markdown appears
+####Actual result:
+They don't but are there
+####Client settings:
+Discord Alpha 687
+####System settings:
+Samsung Galaxy J7 Prime ~ Android 7.0 SE 8.1
+
+13558
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-30T11:19:03.238Z
+
+
+### Lava#9562 - https://youtu.be/qCOyIeSGtFE added by Bug Bot on 2018-05-30T11:19:05.964Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6, Android 7.0.0 - Discord Alpha 6.8.7
+
+Hole#0001 - Bug Bot on 2018-05-30T11:19:10.789Z
+
+
+### Can reproduce.
+Can reproduce. Moto E4 Plus, Android 7.1.1 (Nougat) Discord Alpha 6.8.7
+
+StupidDroid#6253 - Bug Bot on 2018-05-30T11:19:15.761Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 6.8.7, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-05-30T11:19:20.802Z
+
+
+### Can reproduce.
+Can reproduce, OnePlus 2, Android 6.0.1, Discord Alpha 6.8.7 (687)
+
+Marshadow#5095 - Bug Bot on 2018-05-30T13:08:39.814Z
+
+
+### verified, android 7.0, 6.8.7, samsung s6 edge - Clayton on 2018-05-30T19:47:45.947Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-30T19:47:54.107Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:32.606Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

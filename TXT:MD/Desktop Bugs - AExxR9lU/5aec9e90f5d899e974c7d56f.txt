@@ -1,0 +1,80 @@
+[Archived] TTS not playing the full message (https://trello.com/c/9xgojdNB)
+
+None
+
+Created: 2018-05-04T17:55:28.825Z
+Latest Update: 2018-07-06T17:50:24.170Z
+
+Reported by AlwaysMyFault#4051
+
+####Steps to reproduce:
+- Go in a server with TTS enabled 
+- do /tts <really long message, over 400 ish
+
+####Expected result:
+TTS should play the entire message
+####Actual result:
+TTS only plays around the first line of characters, for me it was 144 characters
+####Client settings:
+Discord Canary 14570
+####System settings:
+Windows 10 x64 v1809
+
+11902
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-04T17:55:28.825Z
+
+
+### Can reproduce.
+it played the first 190 of 524, Windows 10 Pro x64 v1709 (Canary build 14632)
+
+TimThe#1118 - Bug Bot on 2018-05-04T17:55:37.075Z
+
+
+### Can reproduce.
+It works only up to ~180 symbols. - Windows 10 Pro x64 - Discord Stable
+
+Jengas#7777 - Bug Bot on 2018-05-04T17:55:41.122Z
+
+
+### Can reproduce.
+Only played 185 out of 605. - Discord Canary Build 14632; Windows 10 Pro x64; Build 1803.
+
+Costpap#2158 - Bug Bot on 2018-05-04T17:55:46.153Z
+
+
+### Can't reproduce.
+TTS isnt able to do it, since it will mess up words of the sentence and it has a limit, which is set Regarding on the symbols you use. It is not a bug
+
+TheFinest#2561 - Bug Bot on 2018-05-04T18:33:16.207Z
+
+
+### Can reproduce.
+Windows 10 Home SL x64 ,Version - 1709, OS Build 16299.371, Canary 14558
+
+Skeletor#3935 - Bug Bot on 2018-05-05T01:03:04.309Z
+
+
+### This is working as intended. - Jake Heinz on 2018-05-05T01:46:23.182Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-05-08T18:15:35.367Z
+
+
+### TTS has never been intended to read an entire message, just a limited number of characters. See Jake's comment. - Jared on 2018-05-08T18:15:56.274Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:50:22.243Z
+
+
+### Archived by Jared on 2018-07-06T17:50:24.173Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

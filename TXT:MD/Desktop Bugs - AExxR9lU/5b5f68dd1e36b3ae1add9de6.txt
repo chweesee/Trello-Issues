@@ -1,0 +1,83 @@
+[Archived] [Edge] Microphone permission message is incorrectly placed (https://trello.com/c/M0FADNND)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-07-30T19:37:01.330Z
+Latest Update: 2019-06-12T15:00:05.991Z
+
+Reported by mouse#0091
+
+####Steps to reproduce:
+- Open Edge and go to Settings -> Advanced Settings 
+- Click Manage under Website Permissions and remove any existing entries for Discord 
+- Open the Discord webapp and sign in/create an account 
+- Click the Mute button next to your username
+
+####Expected result:
+The 'Allow Discord access...' message should appear and point to the bar at the bottom
+####Actual result:
+The 'Allow Discord access...' message appears in the middle of the screen pointing to the top
+####Client settings:
+Stable 20174, Edge 42.17134.1.0, EdgeHTML 17.17134
+####System settings:
+Windows 10 Pro x64 (17134)
+
+16463
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-30T19:37:01.330Z
+
+
+### mouse#0091 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5f68dd1e36b3ae1add9de6/4d1770537ba495a35b896e0384d28537/9dPNkAY.png added by Bug Bot on 2018-07-30T19:37:04.067Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64 (1803) - EdgeHTML 17.17134
+
+Mippy#0001 - Bug Bot on 2018-07-30T19:37:08.917Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 (1803) - Microsoft EdgeHTML 17.17134
+
+Jengas#7777 - Bug Bot on 2018-07-30T19:37:13.888Z
+
+
+### Can reproduce.
+Tested with Edge 42.17134.1.0, EdgeHTML 17.17134. (Windows 10 Familial 64 bits)
+
+Danny Hpy#0001 - Bug Bot on 2018-07-30T19:37:18.948Z
+
+
+### Moved from User Reported Bugs to Edge Specific by Clayton on 2018-07-31T21:08:35.858Z
+
+
+### verified, win 10, edge 42.17 - Clayton on 2018-08-30T23:24:01.274Z
+
+
+### Moved from Edge Specific to Verified Bugs by Clayton on 2018-08-30T23:24:05.690Z
+
+
+### Archived by Clayton on 2018-10-22T20:26:35.421Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Edge 44.17763.1.0, HTML 18.17763 | Stable 31048
+
+charleskimbac#6492 - Bug Bot on 2019-01-19T00:45:03.439Z
+
+
+### Unarchived by Bug Bot on 2019-01-19T01:00:04.995Z
+
+
+### Archived by Bug Bot on 2019-06-12T15:00:06.049Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] The keyboard does not close when hitting Send if the friend request fails. On some devices this prevents you from being able to see the error message if you're in Landscape mode (https://trello.com/c/MJ2vngLe)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-10T16:25:34.887Z
+Latest Update: 2018-09-18T08:00:04.022Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Switch to Landscape mode and keep this orientation until the end 
+- Go to Friends Tab > Add a friend 
+- Enter an invalid Discord tag 
+- Send while keeping keyboard open
+
+####Expected result:
+The keyboard should close as when the friend request sends successfully. This would allow you to see the error message without having to manually close the keyboard. This is particulaly a problem if your keyboard is fullscreen as seen in the attachment
+####Actual result:
+On some devices the keyboard covers the whole screen in Landscape, and since the keyboard won't retract after hitting OK, you are unable to see the error message if the friend request fails
+####Client settings:
+Discord Alpha 7.2.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+17286
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-10T16:25:34.887Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b6dbc7eee8219315b1209c6/70123fb53ca957c68cf80648c8f600f4/Screenshot_20180810-165526.jpg added by Bug Bot on 2018-08-10T16:25:37.390Z
+
+
+### Can reproduce.
+CR • I am using my device's default keyboard • Samsung Galaxy J5 • Android 7.0 Nougat • Discord Alpha 7.2.9
+
+Vanished#0001 - Bug Bot on 2018-08-10T16:25:42.187Z
+
+
+### Can reproduce.
+Can reproduce, the keyboard does indeed not retract when hitting OK but I don't get the white textbox, the keyboard still covers up the error message on my device though, Samsung Galaxy J7 Prime, LineageOS 15.1 (Oreo 8.1), Discord Alpha 729, AOSP Android Keyboard
+
+Lava#9562 - Bug Bot on 2018-08-10T16:25:47.176Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.2.9
+
+Danijel#9000 - Bug Bot on 2018-08-10T16:25:52.227Z
+
+
+### verified, samsung s6 android 7.0, alpha 7.2.9 - Clayton on 2018-08-10T21:45:21.287Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-10T21:45:31.253Z
+
+
+### Can reproduce.
+CR, Oneplus 3, 8.1.0, Alpha 7.2.9
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-11T09:51:31.527Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 738
+
+The Lunala#7777 - Bug Bot on 2018-08-19T07:40:15.333Z
+
+
+### Archived by Clayton on 2018-09-18T08:00:04.024Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

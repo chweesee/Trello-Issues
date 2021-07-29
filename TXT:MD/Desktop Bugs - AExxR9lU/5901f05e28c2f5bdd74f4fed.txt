@@ -1,0 +1,78 @@
+[Archived] Clicking "Upload Image" for the Server icon opens the dialog even when the user doesn't have permission to change it (https://trello.com/c/7Sn4PYOY)
+
+P2: Fix can wait a while
+
+Created: 2017-04-27T13:21:34.603Z
+Latest Update: 2019-04-22T07:47:34.167Z
+
+Reported by Matt | WizardCM#3776
+
+####Steps to reproduce: 
+- Give a user Kick & Ban permissions 
+- As the user, open the new settings menu 
+- Click "Upload Image" 
+
+####Expected result:
+ Nothing should happen, the button should be hidden/disabled. 
+####Actual result:
+ User is able to select an image and click 'Open', and is then unable to close the Settings until they click 'Reset' 
+####System settings:
+ Win 10 x64 build 16170, Discord Canary
+
+1244
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-27T13:21:34.603Z
+
+
+### Can reproduce.
+latest canary, win10
+
+Mippy | Discord BH#1483 - Bug Bot on 2017-04-27T13:21:35.074Z
+
+
+### Can reproduce.
+Win 10 Pro x64 1703, Canary 146
+
+Tiemen#0107 - Bug Bot on 2017-04-27T13:21:37.149Z
+
+
+### Can reproduce.
+Windows 7, Discord Canary
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-04-27T13:21:39.031Z
+
+
+### 2017-04-21_23-30-48.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5901f05e28c2f5bdd74f4fed/b033bdac7b07ab5e8536ecf1d39724a6/2017-04-21_23-30-48.gif added by Bug Bot on 2017-04-27T13:21:53.030Z
+
+
+### Moved from User Reported Bugs to Server Settings Redesign Bugs by Jared on 2017-04-27T17:36:52.166Z
+
+
+### Moved from Server Settings Redesign Bugs to Claimed Fixed, needs Verification by Amadeus on 2017-05-02T22:45:47.251Z
+
+
+### Cannot reproduce as of the latest canary update. Fixed. - Mike Nisbet on 2017-05-02T23:19:22.139Z
+
+
+### Tested on latest canary as of writing:
+
+Just like Mike, I can't reproduce this any longer myself. - Alexander (DJScias) on 2017-05-02T23:33:53.372Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexander (DJScias) on 2017-05-02T23:45:49.880Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:20:10.679Z
+
+
+### Archived by Jared on 2017-10-17T20:20:11.673Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

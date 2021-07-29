@@ -1,0 +1,89 @@
+[Archived] Immediately after finishing 2FA, entering SMS Backup Authentication screen then exiting it returns you to the first step of 2FA. (https://trello.com/c/2Dr08ICy)
+
+None
+
+Created: 2019-01-31T16:44:09.585Z
+Latest Update: 2019-03-25T06:30:21.957Z
+
+Reported by Mauve Ode Iffier#6602
+
+####Steps to reproduce:
+- Go to settings -> account. 
+- Make sure 2FA is disabled. 
+- Go through the auth steps to enable 2FA. Do not exit the success screen. 
+- Tap on SMS Authentication option. 
+- Exit the screen now.
+
+####Expected result:
+You return to the success screen.
+####Actual result:
+You return to the first step of 2FA and can do the entire process again.
+####Client settings:
+Discord TestFlight 2.4.4 (10993)
+####System settings:
+iPhone XS Max, iOS 12.0.1
+
+27358
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-31T16:44:09.585Z
+
+
+### Can reproduce.
+iOS 12.1.2 ~ iPad ~ TestFlight 2.4.4
+
+.–. LOLnt ._.#3405 - Bug Bot on 2019-01-31T16:44:17.139Z
+
+
+### Can reproduce.
+CR but only can be reporduced one out of a few times, iPhone 7 Plus iOS 12.2.1 - TestFlight 2.4.4
+
+Killtracity#0001 - Bug Bot on 2019-01-31T16:44:22.154Z
+
+
+### Can reproduce.
+iphone 8 ios 12.1.2, TestFlight 2.4.4 (11030)
+
+Lentralkestor#2016 - Bug Bot on 2019-01-31T16:44:27.156Z
+
+
+### Moved from New Issues to Account Settings by Alex on 2019-01-31T21:09:33.750Z
+
+
+### Moved from Account Settings to Fix made, not yet released by Alex on 2019-02-06T01:52:34.373Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alex on 2019-02-20T00:56:21.357Z
+
+
+### Can't reproduce.
+CNR - iPhone 6s, iOS 12.2 (16E5191d) - TestFlight 2.4.5 (11524)
+
+Isabel#0002 - Bug Bot on 2019-02-23T02:39:51.304Z
+
+
+### Can't reproduce.
+iPad Air 2 IOS 12.1.4, TestFlight 2.4.5 (11524)
+
+M24#0272 - Bug Bot on 2019-02-23T03:56:54.745Z
+
+
+### Can't reproduce.
+TestFlight 2.4.5 (11524) iPhone 6s iOS 12.2 Dev Beta 3
+
+Rashaun#8467 - Bug Bot on 2019-02-23T06:08:37.208Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-02-23T06:08:37.439Z
+
+
+### Archived by Bug Bot on 2019-03-25T06:30:21.968Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

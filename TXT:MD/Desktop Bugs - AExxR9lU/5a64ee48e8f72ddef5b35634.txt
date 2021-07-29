@@ -1,0 +1,78 @@
+[Archived] Can't enter the emoji tab or upload an emoji while using Greek as Discord's language (https://trello.com/c/rKnBI84y)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2018-01-21T19:47:20.104Z
+Latest Update: 2018-08-21T23:33:40.483Z
+
+Reported by cutelilberry#5423
+
+####Steps to reproduce:
+- Go to user settings and change the language to Greek 
+- Go to server settings and click the Emoji menu/tab 
+- Try uploading an Emoji
+
+####Expected result:
+Upload an emoji as usual or edit existing ones
+####Actual result:
+The "Well, this is awkward Looks like Discord has crashed unexpectedly...." message pops up and gives you the option to reload. After reloading i can't even enter the emoji tab, the crash message pops up immediately.
+####Client settings:
+Current stable 0.0.300
+####System settings:
+Win 10 x64
+
+8030
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-21T19:47:20.104Z
+
+
+### Can reproduce.
+CR, Discord Canary 9670 - Windows 10 Pro 1709
+
+webhp#5546 - Bug Bot on 2018-01-21T19:47:27.925Z
+
+
+### Can reproduce.
+Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 9714
+
+Ghoul#4567 - Bug Bot on 2018-01-21T19:47:32.586Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9714
+
+Kuuhaku#4503 - Bug Bot on 2018-01-21T19:47:37.575Z
+
+
+### Verified.  - Clayton on 2018-01-24T00:55:42.612Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-24T00:55:49.265Z
+
+
+### Also, while using Greek as Discord's language try to edit the user limit of a Voice channel, app crashes with the same message.
+
+cutelilberry#5423 - Bug Bot on 2018-01-27T13:01:35.100Z
+
+
+### Cannot repro anymore, Canary 18051. This was a Crowdin issue originally because of invalid Syntax. Moving to claimed fixed. - Tarek on 2018-07-02T16:40:50.845Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-02T16:41:03.087Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:33:39.515Z
+
+
+### Archived by Jared on 2018-08-21T23:33:40.485Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

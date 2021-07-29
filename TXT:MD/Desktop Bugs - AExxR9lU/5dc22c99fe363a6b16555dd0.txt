@@ -1,0 +1,147 @@
+[Archived] The volume sliders in the Voice & Video sub menu don't consistently change to the desired percentage (https://trello.com/c/QRBvFOxg)
+
+None
+
+Created: 2019-11-06T02:14:49.809Z
+Latest Update: 2019-12-06T16:00:41.835Z
+
+Reported by ryan#0570
+
+####Steps to reproduce:
+- Right-click on the User Settings gear icon to bring up the context menu 
+- Mouse over the Voice & Video button to bring up the sub menu 
+- Put either your Input or Output to 0% 
+- Now try changing it to say 8% and observe
+
+####Expected result:
+Your Input/Output volume should be set to 8%
+####Actual result:
+The volume slider jumps to 20%. It will also jump by 3% to 10% randomly when changing it from above 20%
+####Client settings:
+Discord Canary 0.0.258, Build 48645
+####System settings:
+Windows 10 Pro x64 (v1903)
+
+47215
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-06T02:14:49.809Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.258 Build 48645
+
+Daffyduck#5364 - Bug Bot on 2019-11-06T02:14:57.548Z
+
+
+### Can reproduce.
+MacBook Pro 2018, macOS Mojave 10.14.6 - Discord Canary 48586
+
+Adam#3075 - Bug Bot on 2019-11-06T02:15:02.532Z
+
+
+### Can reproduce.
+Discord Canary 0.0.258, Build 48676, Windows 10 Home 64-bit (v1903)
+
+Ene#0808 - Bug Bot on 2019-11-06T02:15:07.519Z
+
+
+### Cannot reproduce anymore on Canary 48706, Windows 10 Home 64-bit (v1903).
+
+Moving to Claimed Fixed. - Ene on 2019-11-06T03:02:40.355Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Ene on 2019-11-06T03:02:45.011Z
+
+
+### Can't reproduce.
+Windows 10 Home v1903 x64 - Discord Canary 48706
+
+Daffyduck#5364 - Bug Bot on 2019-11-06T03:03:37.988Z
+
+
+### Can't reproduce.
+Can no longer reproduce, Windows 10 Pro x64 (v1903), Discord Canary 0.0.258 Build 48706
+
+ryan#0570 - Bug Bot on 2019-11-06T03:42:01.449Z
+
+
+### Can't reproduce.
+Windows 10 Home; Canary Build 48706 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-06T03:46:32.683Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-11-06T03:46:33.039Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary (48586)
+
+MikeTheSpike#0350 - Bug Bot on 2019-11-06T03:51:52.590Z
+
+
+### Can't reproduce.
+Win 10 x64 1903 - Stable 48706
+
+Flubberlutsch#0001 - Bug Bot on 2019-11-06T09:04:06.534Z
+
+
+### Can't reproduce.
+Win 10 x64 1903 - Canary 48706
+
+Flubberlutsch#0001 - Bug Bot on 2019-11-06T09:04:21.204Z
+
+
+### Can't reproduce.
+Linux Mint 19.1 Cinnamon - Discord Canary 48706 - Maybe this was fixed?
+
+f78#0078 - Bug Bot on 2019-11-06T13:08:32.172Z
+
+
+### Can't reproduce.
+Linux Mint 19.1 Cinnamon - Discord Canary 48706 - Might be fixed in this build.
+
+f78#0078 - Bug Bot on 2019-11-06T13:08:56.706Z
+
+
+### Can't reproduce.
+Discord Canary 48706, tested on both Linux Mint 19.1 Cinnamon and Windows 10 Home x64 v1903
+
+f78#0078 - Bug Bot on 2019-11-06T13:21:18.932Z
+
+
+### Can't reproduce.
+Discord Canary 48706, tested on both Linux Mint 19.1 Cinnamon and Windows 10 Home x64 v1903. This issue was probably fixed in this build.
+
+f78#0078 - Bug Bot on 2019-11-06T13:21:52.824Z
+
+
+### Can't reproduce.
+CNR on MacBook Air (10.15 Catalina); Canary Build 48586
+
+RPS1222#5127 - Bug Bot on 2019-11-06T14:24:15.130Z
+
+
+### Can't reproduce.
+Cannot Reproduce on Discord Canary 48706, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2019-11-06T15:03:48.683Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 1903, Canary 48706 host 0.0.258
+
+Jean20B#4668 - Bug Bot on 2019-11-06T15:41:59.417Z
+
+
+### Archived by Bug Bot on 2019-12-06T16:00:41.870Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

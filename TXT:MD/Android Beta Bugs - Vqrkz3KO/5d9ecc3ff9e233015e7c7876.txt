@@ -1,0 +1,123 @@
+[Archived] Options menu for webhooks on Android is broken. (https://trello.com/c/rG66lfYv)
+
+None
+
+Created: 2019-10-10T06:14:23.234Z
+Latest Update: 2020-02-20T21:35:02.283Z
+
+Reported by Qufy#3726
+
+####Steps to reproduce:
+- Create a Discord webhook (on a desktop of course) 
+- Make a POST request with any content to the URL of the webhook 
+- Long tap on the webhook "user" next to the message the webhook sent (on the Android device)
+
+####Expected result:
+The options menu for the webhook should show its name and there shouldn't be block/unblock/unfriend options.
+####Actual result:
+Webhook name isn't shown and a bunch of other options appear (Note that external webhooks (MEE6, Announements channels etc) show properly)
+####Client settings:
+Android Beta 9.6.8 (968)
+####System settings:
+Xiaomi Mi A2 Lite, Android 9 Pie
+
+45410
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-10T06:14:23.234Z
+
+
+### SpOwOwOwOwOwOky KerOwOwO#5245 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5d9ecc3ff9e233015e7c7876/d0ac70cc9f690a73cce2a96a11e5c2af/Screenshot_20191010-001143.png added by Bug Bot on 2019-10-10T06:14:26.329Z
+
+
+### Can reproduce.
+can reproduce Kyocera Hydro Wave Android 5.1 Discord 969
+
+Okori#0902 - Bug Bot on 2019-10-10T06:14:30.661Z
+
+
+### Can reproduce.
+CR • Huawei P10 Lite • Android 8.0.0 • Discord Alpha 9.7.0
+
+Karate Wumpus#0001 - Bug Bot on 2019-10-10T06:14:35.694Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8 Android 8, Alpha 9.6.9
+
+Action Potential#6862 - Bug Bot on 2019-10-10T06:14:40.664Z
+
+
+### Can reproduce.
+CR, Huawei P smart 2019 9.0.1 ● Android 9 ●  Alpha 9.7.0
+
+Dragonic#0025 - Bug Bot on 2019-10-10T06:26:22.244Z
+
+
+### Can reproduce.
+cr; Alcatel A30 Fierce, Android 7.0 - Discord 9.7.0
+
+Spoopy Ness {🎃}#0101 - Bug Bot on 2019-10-10T08:08:05.775Z
+
+
+### Can reproduce.
+Samsung Galaxy s8, Android 9.0 - 9.6.8
+
+Fictional#0001 - Bug Bot on 2019-10-10T13:28:59.884Z
+
+
+### Can reproduce.
+Motorola Moto G6 Play, Android 9, Discord Version 970
+
+mesub#0556 - Bug Bot on 2019-10-10T15:38:53.119Z
+
+
+### Thanks for reporting this! We're going to update the behavior to not open the user sheet at all for webhook users to be consistent with the desktop app. - Donald Chen on 2019-10-10T23:31:39.181Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-10-11T17:52:53.947Z
+
+
+### Can't reproduce.
+Discord version 9.7.1, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-10-11T23:40:58.105Z
+
+
+### Can't reproduce.
+CNLR; Asus Zenfone 2, Android 5.0, Discord 9.7.1
+
+Karasu#0013 - Bug Bot on 2019-10-11T23:44:11.427Z
+
+
+### Can't reproduce.
+discord 9.7.1 android 10 pixel 3
+
+GlenMerlin#2119 - Bug Bot on 2019-10-12T00:42:49.119Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-10-12T00:42:49.465Z
+
+
+### Can reproduce.
+Honor 8X, Android 9, Discord 971
+
+Leaf#0001 - Bug Bot on 2019-10-13T13:38:22.579Z
+
+
+### Can reproduce.
+CR, Redmi 6A, Android 8.1.0, Discord 9.9.2
+
+Piggy#5630 - Bug Bot on 2019-11-27T20:12:53.556Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:35:02.295Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/donaldchen13) - No Bio

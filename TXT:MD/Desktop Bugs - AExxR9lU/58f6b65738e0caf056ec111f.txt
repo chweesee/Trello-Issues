@@ -1,0 +1,100 @@
+[Archived] macOS Discord Canary output devices are cameras (https://trello.com/c/k1abQ6e9)
+
+None
+
+Created: 2017-04-19T00:59:03.381Z
+Latest Update: 2017-10-30T17:24:20.611Z
+
+Reported by Harrison#9100
+
+####Steps to reproduce: 
+- open up Discord Canary on MacOS 
+- go to user settings and select the voice tab 
+- observe the output devices dropdown menu 
+
+####Expected result:
+ dropdown menu contains speakers or other output audio devices 
+####Actual result:
+ dropdown menu contains camera devices 
+####System settings:
+ macOS 10.12.3 Discord Canary Latest
+
+2514
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-19T00:59:03.381Z
+
+
+### Can reproduce.
+macOS 10.12.3, Canary 0.0.144
+
+Mikesky#3456 - Bug Bot on 2017-04-19T00:59:04.021Z
+
+
+### Can reproduce.
+MacOS 10.12.4, latest canary
+
+Mippy#1483 - Bug Bot on 2017-04-19T00:59:05.990Z
+
+
+### Can reproduce.
+Mac OS 10.12.4, Latest Canary
+
+宮水 三葉★★★★#9667 - Bug Bot on 2017-04-19T00:59:08.064Z
+
+
+### http://image.prntscr.com/image/ab46219903c34c6abe3bd9f78a499552.png - http://image.prntscr.com/image/ab46219903c34c6abe3bd9f78a499552.png added by Bug Bot on 2017-04-19T00:59:18.870Z
+
+
+### the canary version for refrence is 0.0.144
+
+Harrison#9100 - Bug Bot on 2017-04-19T01:00:24.273Z
+
+
+### Cannot reproduce. - Jared on 2017-05-02T22:33:15.679Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-05-02T22:33:19.233Z
+
+
+### Can reproduce.
+Windows 10 64bit Creator Update, Canary 0.0.154
+
+Jenoki#8148 - Bug Bot on 2017-05-18T20:25:47.022Z
+
+
+### Jenoki#8148 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58f6b65738e0caf056ec111f/fa135d411c14784e2294326b337b4cc2/unknown.png added by Bug Bot on 2017-05-18T20:27:00.685Z
+
+
+### For me, this seems to happen every time I switch on/restart my computer and discord first launches. If I restart the client, my audio devices show up again.
+
+Jenoki#8148 - Bug Bot on 2017-05-18T20:31:04.595Z
+
+
+### Yemper#2609 submitted these steps, but I could not reproduce.
+My system: MacOS 10.13, Canary build 6558. I was an original reproducer on this issue and haven't got it for months.
+
+Yemper#2609:
+Reproduced on MacOS 10.12.6, Canary 0.0.156 , MacBook Pro
+Repro Steps:
+1) Open Discord Canary as usual.
+2) Open user settings
+3) Sleect "Voice & Video"
+4) Look at the output devices dropdown list
+Expected: Has speakers and other output audios
+Actual: Has camera devices - Mike Nisbet on 2017-10-30T13:41:28.234Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:24:17.733Z
+
+
+### Archived by Jared on 2017-10-30T17:24:20.613Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

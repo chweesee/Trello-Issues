@@ -1,0 +1,96 @@
+[Archived] Mobile push notifications dont switch off when muting a server like it does on desktop (must have sync across clients on) (https://trello.com/c/Tx5WStgS)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-06-15T19:00:40.607Z
+Latest Update: 2018-09-04T23:14:03.193Z
+
+Reported by Xylium#1480
+
+####Steps to reproduce:
+
+- go to any server (like Discord Testers) > on mobile 
+
+
+- click on the server name so it opens the notifications settings etc. 
+
+
+- click on notification settings (now u should see mute {server name etc. on mobile) turn mobile push notifications on 
+
+
+- switch to desktop 
+
+
+- open the notification server settings (on desktop) 
+
+
+- Mute (for example: Discord Testers) and notice mobile push notifications turns off 
+
+
+- go back to your mobile (you should have notification settings still open) 
+
+
+- mute discord testers server on desktop and notices mobile push notifications button doesnt switch off
+
+####Expected result:
+Mobile push notification button should sync like it does on desktop
+####Actual result:
+Mobile push notification doesnt switch off on mobile even if u have it synced with desktop
+####Client settings:
+Discord Stable 2.3.3
+####System settings:
+iPhone 6 - iOS 12 {Dev Beta 1}
+
+14203
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-15T19:00:40.607Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b240cd8143719b7f29d0cb6/1be9a85ff68df92930b31985111822a8/ApzTA.gif added by Bug Bot on 2018-06-15T19:00:44.013Z
+
+
+### Xylium#1480 - https://youtu.be/k1NikzlMWoQ added by Bug Bot on 2018-06-15T19:00:46.693Z
+
+
+### Can reproduce.
+iPhone 6s - iOS 11.4, iPad Air 2 - iOS 11.4.1 PB, Stable 2.3.3
+
+Pascal#0929 - Bug Bot on 2018-06-15T19:00:48.071Z
+
+
+### Can reproduce.
+iOS 11.2.2 (15C202), iPhone 6, TestFlight 2.3.2 (4760)
+
+Ten 🌈#8152 - Bug Bot on 2018-06-15T19:00:53.063Z
+
+
+### Can reproduce.
+iPhone 7 ~ iOS 11.4 ~ TestFlight 2.3.3
+
+FoxyKero#9941 - Bug Bot on 2018-06-15T19:00:58.102Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4.1 PB - TestFlight 2.3.2 (4760)
+
+Yoskazwa#1066 - Bug Bot on 2018-06-16T00:16:40.278Z
+
+
+### verified, ios 9.3.5, tf 2.3.4 - Clayton on 2018-06-22T23:02:43.870Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-22T23:02:50.213Z
+
+
+### Archived by Clayton on 2018-09-04T23:14:03.195Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

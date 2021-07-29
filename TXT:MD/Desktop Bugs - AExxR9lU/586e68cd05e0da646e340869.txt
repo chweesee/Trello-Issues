@@ -1,0 +1,71 @@
+[Archived] When editing /nik to /nick a blank message is produced (https://trello.com/c/PIVVjrRo)
+
+None
+
+Created: 2017-01-05T15:39:57.975Z
+Latest Update: 2019-01-01T23:25:30.898Z
+
+Reported by Djammiafda#4273
+
+####Steps to reproduce: 
+- write /nik 
+- edit the message to /nick 
+
+####Expected result:
+ Nickname reset 
+####Actual result:
+ Leaves a blank space with (edited) in chat
+
+Card Log
+========
+### Added by Jared on 2017-01-05T15:39:57.975Z
+
+
+### Can reproduce.
+osx canary
+
+harrison#6336 - Jared on 2017-01-05T15:39:58.501Z
+
+
+### Can reproduce.
+latest canary, the nickname does get changed but the blank message is obviously unintended behaviour.
+
+SuperSajuuk#7265 - Jared on 2017-01-05T15:39:58.633Z
+
+
+### Can reproduce.
+Win 10 Pro x64 AU, Canary
+
+Tiemen#0107 - Jared on 2017-01-05T15:42:50.051Z
+
+
+### Can reproduce.
+Windows 10 Home Insider Preview build 14986 (x64), Discord Canary 0.0.151 (Windows)
+
+Tinh1000000#4437 - Jared on 2017-01-05T17:11:19.665Z
+
+
+### Can reproduce.
+latest canary + windows 10 (nick does also get changed as SuperSajuuk said)
+
+Oasis#4730 - Jared on 2017-01-15T09:20:41.949Z
+
+
+### Valid but such an extreme edgecase that we're not going to spend resources fixing it. - Jared on 2017-01-17T20:58:59.199Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-01-17T20:59:05.986Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:19:56.784Z
+
+
+### Archived by Jared on 2017-10-17T21:19:58.494Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,107 @@
+[Archived] Links in messages containing other content cannot be interacted with by double tapping with voiceover enabled (https://trello.com/c/8UL25lJW)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2019-06-01T10:24:41.705Z
+Latest Update: 2019-10-03T07:45:11.121Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Enable voiceover 
+- Try to interact with a message containing a link and other text
+
+####Expected result:
+Link should be selectable, double tapping should open link
+####Actual result:
+Links in messages with other content are not selectable or interactable and will just be read aloud
+####Client settings:
+TestFlight 3.0.2 (15283)
+####System settings:
+iPhone XR & iPad Air iOS 12.2
+
+35769
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-01T10:24:41.705Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.3 (16F5129d) - TestFlight 3.0.2 (15283)
+
+Isabel#0002 - Bug Bot on 2019-06-01T10:24:49.010Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - Stable 3.0.2
+
+Xylium#5800 - Bug Bot on 2019-06-01T10:24:54.029Z
+
+
+### Can reproduce.
+CR, iPhone 7 Plus | iOS 12.2 | TestFlight: 3.0.2 (15283)
+
+AHkhan#0002 - Bug Bot on 2019-06-01T10:24:59.087Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, TestFlight 3.0.2 (15283)
+
+OrangeM24#5746 - Bug Bot on 2019-06-01T11:21:30.618Z
+
+
+### this also happens in messages containing only links that dont have .filetype at the end, all links besides .gif, .png, etc. are completely uninteractable with VO enabled
+
+binchlord#0998 - Bug Bot on 2019-06-01T18:06:03.314Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.2 (15283)
+
+Skyla#0002 - Bug Bot on 2019-06-01T18:15:18.572Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.2 (15283)
+
+Daffyduck#5364 - Bug Bot on 2019-06-02T03:09:33.083Z
+
+
+### Upon further testing: Certain links (.gif, .png) are selectable in a message only containing a link. Certain links (trello) do not work in messages with or w/o other content, if allowed to embed, the link contained in the embed works. Certain links (Wikipedia) do not work in a message by themselves but do work in messages containing other text, if allowed to embed, the link contained in the embed does not work
+
+binchlord#0998 - Bug Bot on 2019-06-02T13:27:57.906Z
+
+
+### Tap on an incoming friend request, Swipe right, Double tap while the invisible accept button is selected, the users profile opens, reading their username, accept and reject again, but still selecting the hidden and now uninteractable elements
+
+binchlord#0998 - Bug Bot on 2019-06-04T00:27:46.823Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-06-14T19:00:04.814Z
+
+
+### Archived by Bug Bot on 2019-08-13T11:30:06.504Z
+
+
+### Now linked in the new master ticket https://trello.com/c/7SjhxZrX
+
+Therefore moving back to New Issues. - Pascal on 2019-10-03T07:44:58.684Z
+
+
+### Unarchived by Pascal on 2019-10-03T07:45:04.758Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-10-03T07:45:10.097Z
+
+
+### Archived by Pascal on 2019-10-03T07:45:11.134Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

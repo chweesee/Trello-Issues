@@ -1,0 +1,44 @@
+[Archived] High Latency CPU when not using PulseAudio (https://trello.com/c/2hx27ZFm)
+
+None
+
+Created: 2016-12-13T03:02:59.767Z
+Latest Update: 2017-10-17T21:16:51.104Z
+
+Reported by Doctors#5417
+
+####Steps to reproduce: 
+- Use an alternative audio device managers such as alsa 
+- Observe High CPU usage from discord 
+
+####Expected result:
+ Simular CPU usage as when using PulseAudio 
+####Actual result:
+ High CPU usage by discord when using something like alsa (Ported from https://github.com/crmarsh/discord-linux-bugs/issues/16)
+
+Card Log
+========
+### Added by Jared on 2016-12-13T03:02:59.767Z
+
+
+### I have this fixed in master, will be in next release. - Chris Marsh on 2016-12-13T17:36:31.154Z
+
+
+### Moved from User Reported to Claimed Fixed by Chris Marsh on 2016-12-14T17:05:17.860Z
+
+
+### Moved from Claimed Fixed to Verified Fixed by Jared on 2017-01-05T22:36:20.533Z
+
+
+### Archiving as this ticket as been Verified Fixed for over a month. - Mike Nisbet on 2017-10-17T21:16:50.400Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:16:51.107Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

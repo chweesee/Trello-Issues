@@ -1,0 +1,149 @@
+[Archived] When mentioning a voice channel and including text after it, Discord will instead mention a text channel (https://trello.com/c/ufYlGZdZ)
+
+None
+
+Created: 2019-05-17T13:21:06.735Z
+Latest Update: 2019-06-29T00:00:31.979Z
+
+Reported by Xignotic#0001
+
+####Steps to reproduce:
+- Mention a voice channel (e.g #General) 
+- Including text after it (e.g #General join me) 
+- Outcome: (e.g #general join me) which is a text channel
+
+####Expected result:
+Discord shouldn't default the voice channel to a text channel if the names are the same when including text.
+####Actual result:
+Discord defaults voice channels to text channels when mentioning them if text is written after the mention
+####Client settings:
+Discord Stable latest version
+####System settings:
+Windows v.1809
+
+34750
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-17T13:21:06.735Z
+
+
+### Can reproduce.
+Can reproduce, Arch Linux 5.1.2 KDE, Discord Canary 0.0.77 Build 37801
+
+Tonkku#0107 - Bug Bot on 2019-05-17T13:21:14.305Z
+
+
+### Can reproduce.
+CR, iOS testflight 3.0.2
+
+Eli#1000 - Bug Bot on 2019-05-17T13:21:19.322Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64bit, Discord Stable 37729
+
+RyotaK#2929 - Bug Bot on 2019-05-17T13:21:24.225Z
+
+
+### Can reproduce.
+Windows 10 Pro x32, Canary 37801
+
+Karasu#0013 - Bug Bot on 2019-05-17T13:25:03.878Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Discord PTB 37729
+
+Birdy#4914 - Bug Bot on 2019-05-17T14:43:43.559Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 37801
+
+Lily#2624 - Bug Bot on 2019-05-17T16:44:49.051Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 37801
+
+Darth#9386 - Bug Bot on 2019-05-17T19:26:05.598Z
+
+
+### Can reproduce.
+Windows 7 Starter 64-bit, Canary 37253
+
+undermaster#3126 - Bug Bot on 2019-05-17T19:31:27.811Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 37801
+
+AHkhan#9999 - Bug Bot on 2019-05-18T11:14:37.853Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 37999
+
+Clay#0001 - Bug Bot on 2019-05-18T21:45:30.045Z
+
+
+### OS/Client correction: Windows 10 x64 build #1809, Canary build #37921
+
+Eli#1000 - Bug Bot on 2019-05-19T01:28:59.893Z
+
+
+### Can reproduce.
+macOS High Sierra, Version: 10.13.6 - Canary 0.0.221 (38013)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-05-19T04:12:29.643Z
+
+
+### Can reproduce.
+WIndows 10
+
+Katzi☭#8915 - Bug Bot on 2019-05-19T10:06:41.515Z
+
+
+### Can't reproduce.
+CNR, might have been fixed in Canary 28023 , Windows 10 Pro Inider Build 18898, Ryzen 5 2600 @3.9Ghz, GTx 1050 Ti
+
+ScarVite#6606 - Bug Bot on 2019-05-19T19:46:03.526Z
+
+
+### Can't reproduce.
+CNR, might have been fixed in Canary 38023 , Windows 10 Pro Inider Build 18898, Ryzen 5 2600 @3.9Ghz, GTx 1050 Ti
+
+ScarVite#6606 - Bug Bot on 2019-05-19T19:46:39.965Z
+
+
+### Can't reproduce.
+Windows 10 Pro 64 Bit // Discord Canary Version 38044
+
+Cam#9999 - Bug Bot on 2019-05-20T16:38:48.621Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.238 Build 38071
+
+Daffyduck#5364 - Bug Bot on 2019-05-21T01:56:12.814Z
+
+
+### Can't reproduce.
+Cannot Reproduce, Windows 10 Home 1803, Discord Canary 38151, Probably has been fixed by now
+
+Llamaglotapi#7664 - Bug Bot on 2019-05-21T06:29:28.697Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Emmy Lim on 2019-05-29T23:59:35.560Z
+
+
+### Archived by Bug Bot on 2019-06-29T00:00:31.987Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

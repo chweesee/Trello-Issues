@@ -1,0 +1,70 @@
+[Archived] Image urls with escaped characters (like %20 for space) dont generate a preview and dont show up in bot embeds while image urls with no escaped characters work fine (https://trello.com/c/KC23XtND)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-08-10T19:09:37.997Z
+Latest Update: 2018-10-22T20:16:51.071Z
+
+Reported by Strum355#1180
+
+####Steps to reproduce:
+- In bot: have image url 
+- Escape it (eg space -> %20) 
+- Send url as user or in embed as bot
+
+####Expected result:
+Image should be shown. As url from user, url + image should show up
+####Actual result:
+Image isnt shown. As user, url only is shown without image. As bot, the embed is empty. As can be seen in the attached images below, only one of the links shows a preview. This also causes bot embeds that contain said images to not display an image
+####Client settings:
+Discord Linux 0.0.2 deb and Android 4.0.2
+####System settings:
+LG G3 Android 6.0 and Linux Mint 18
+
+3007
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-10T19:09:37.997Z
+
+
+### Cygan#7117 - http://noahsc.xyz/2Bot/images/149612775587446784_dis%20guy.gif added by Bug Bot on 2017-08-10T19:09:41.300Z
+
+
+### Cygan#7117 - undefined added by Bug Bot on 2017-08-10T19:09:44.238Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163, Windows 10 x64 16257.1
+
+fuj1n 🔫#7255 - Bug Bot on 2017-08-10T19:09:45.800Z
+
+
+### Can reproduce.
+Canary 0.0.163, Windows 10 Home x86
+
+Hexexpeck#8781 - Bug Bot on 2017-08-10T19:09:50.575Z
+
+
+### Can reproduce.
+Can reproduce, VFD 600 @ Android 6.0.1, Alpha 4.0.4
+
+TTtie#4900 - Bug Bot on 2017-08-10T19:09:55.582Z
+
+
+### Verified, extremely low priority. - Jared on 2017-11-14T19:10:08.126Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-14T19:10:13.495Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:51.073Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

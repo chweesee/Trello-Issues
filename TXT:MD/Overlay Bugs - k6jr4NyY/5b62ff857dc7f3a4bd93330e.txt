@@ -1,0 +1,80 @@
+[Archived] usernames from text overlay is thinner if you are using dark color against lighter color which is thicker. (https://trello.com/c/d4rsQndN)
+
+None
+
+Created: 2018-08-02T12:56:37.093Z
+Latest Update: 2019-04-28T18:37:30.615Z
+
+Reported by MakiTheLegend#5027
+
+####Steps to reproduce:
+- open overlay from a game. go to a server with colored roles.  
+- go to a text channel. find a user with dark shade of colored role. 
+- compare username colors from desktop client and overlay
+
+####Expected result:
+the nickname/username of a user from overlay and desktop client should be same
+####Actual result:
+a user who has dark role color is displays as thinner against the other one who uses light color
+####Client settings:
+Canary 20535
+####System settings:
+Windows 10 Home SL 1803 x64
+
+16731
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T12:56:37.093Z
+
+
+### MakiTheLegend#5027 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b62ff857dc7f3a4bd93330e/97d0b539a0fee25ffe3cf1448e799231/HxgjomB.png added by Bug Bot on 2018-08-02T12:56:40.168Z
+
+
+### MakiTheLegend#5027 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b62ff857dc7f3a4bd93330e/a82667718d2562d6e1aa35c101cd7922/HxgjyXX.png added by Bug Bot on 2018-08-02T12:56:40.228Z
+
+
+### Can reproduce.
+CR, Windows 10 home 64-bit (1803); Discord Canary Build 20316
+
+Blitz#7736 - Bug Bot on 2018-08-02T12:56:44.544Z
+
+
+### Can reproduce.
+Can Reproduce on Windows 10 Home x64 1803 and Canary 20540
+
+TheMegaEagle#9909 - Bug Bot on 2018-08-02T12:56:49.433Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.211 (Build 20540) on Windows 10 Education 1803 x64 (Build 17134.165)
+
+OminousCry#2331 - Bug Bot on 2018-08-02T12:56:54.444Z
+
+
+### the first attachment is the actual chat in the desktop client. the second attachment is the overlay text chat.
+
+MakiTheLegend#5027 - Bug Bot on 2018-08-02T15:42:37.369Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 20540
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-02T22:12:43.263Z
+
+
+### This is probably an issue with electron which won't get rectified until we update Electron... which might not happen for a bit... - Amadeus on 2018-08-14T21:19:13.039Z
+
+
+### Archived by Clayton on 2018-10-22T20:33:29.906Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-04-28T18:37:30.493Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

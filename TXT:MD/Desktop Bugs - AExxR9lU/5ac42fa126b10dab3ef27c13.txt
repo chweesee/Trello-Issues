@@ -1,0 +1,89 @@
+[Archived] server-specific information is missing when you click their picture in a collapsed categoy (https://trello.com/c/WbTphbDN)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-04-04T01:51:29.329Z
+Latest Update: 2019-10-23T23:04:28.753Z
+
+Reported by Tobsda#3497
+
+####Steps to reproduce:
+- Collapes a category with a voice channel that has people chatting 
+- click on any one of the people in the voice channel
+
+####Expected result:
+The same profile view should open as if you were to click their name anywhere else on the server
+####Actual result:
+the profile view doesn't contain server-specific information, i.e. roles are missing and the server-specific name is switched for the regular Discord name
+####Client settings:
+Release Channel: stable, Build Number: 13009
+####System settings:
+Win 10 x64
+
+10216
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-04T01:51:29.329Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1709, Discord Canary (Build 13034)
+
+Doges#0001 - Bug Bot on 2018-04-04T01:51:37.138Z
+
+
+### Can reproduce.
+CR, Canary 0.0.204 (13034), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-04-04T01:51:42.102Z
+
+
+### Can reproduce.
+CR, added note: The bug is only on accounts that are not yourself, if you try doing it by clicking on your own account, it will show as normal. Windows 7, Release: Stable, Build Number: 13009
+
+RandomGamer123#5222 - Bug Bot on 2018-04-04T01:51:47.136Z
+
+
+### Bug only occurs when you are not in the voice channel that you click on.
+
+RandomGamer123#5222 - Bug Bot on 2018-04-04T01:57:55.867Z
+
+
+### Verified on [BUILD INFO] Release Channel: canary, Build Number: 13228, Version Hash: a6423b5c52a41c71781e77204cb85e06e619c1b0 - Jared on 2018-04-06T18:21:08.872Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-06T18:21:13.145Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac42fa126b10dab3ef27c13/d1bfe39c2e712248ba75b46d5c814969/mQfrWBc.gif added by Bug Bot on 2018-07-14T06:43:43.820Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:17.160Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 32213
+
+Solo#0007 - Bug Bot on 2019-02-14T03:24:19.895Z
+
+
+### Unarchived by Bug Bot on 2019-02-14T03:30:05.635Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | canary 42585
+
+charleskimbac#6492 - Bug Bot on 2019-08-03T05:41:47.078Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:28.765Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

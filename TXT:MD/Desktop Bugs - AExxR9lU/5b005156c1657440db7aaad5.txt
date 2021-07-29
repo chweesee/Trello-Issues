@@ -1,0 +1,65 @@
+[Archived] On Firefox, servers with obscenely large members lists (like this one) have no scrollbar "handle" and behave very poorly. (https://trello.com/c/sLssU9VJ)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-19T16:31:19.002Z
+Latest Update: 2018-10-22T20:20:55.843Z
+
+Reported by lego#8917
+
+####Steps to reproduce:
+- Be in a server who's user list is very long. The Discord Testers server is perfect for this.
+
+####Expected result:
+There is an (albeit) small scroll handle, that you can click and drag to quickly scroll through the list, or return to the top. (Verified working on Chrome 66)
+####Actual Result:
+There is no visible scroll handle, or, at certain client heights (1300px), there is a 1px tall scroll handle. Clicking in the scrollbar causes the client to scroll as normal, however, outside of wearing out your mouse wheel, there is no way to quickly rescroll to the very top of the list. The 1px tall scroll handle isn't suitable compared to the ~25px tall scroll handle in chrome
+####Client settings:
+Discord Canary 15523
+####System settings:
+Win 10 x64, Firefox 60.0.1
+
+13006
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-19T16:31:19.002Z
+
+
+### Can reproduce.
+macOSX 10.12.6, Firefox 59.0.2,
+
+IcyPebbles!#5833 - Bug Bot on 2018-05-19T16:31:26.662Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Pro x64 1803 (17134.48), Canary 15598, Firefox 60.0.1
+
+oxygencraft#8884 - Bug Bot on 2018-05-19T16:31:31.399Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS Sierra 10.12.6, Discord Canary (Build 15598) Firefox Quantum 60.0.1
+
+Rage#1337 - Bug Bot on 2018-05-19T16:31:36.569Z
+
+
+### lego#8917 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b005156c1657440db7aaad5/b78d8c8e11b2b2462bd6df65fd5c3f9a/hfQnQM4.png added by Bug Bot on 2018-05-19T16:55:11.024Z
+
+
+### lego#8917 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b005156c1657440db7aaad5/c4650570a8b14981f044cb2eec589d26/ty354U9.png added by Bug Bot on 2018-05-19T16:55:42.982Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T21:10:03.532Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:55.846Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,83 @@
+Focussing and blurring on the redirect text field makes the developer portal say you have unsaved changes (https://trello.com/c/Cu8Hyxvt)
+
+None
+
+Created: 2019-02-04T03:51:33.753Z
+Latest Update: 2019-07-12T16:48:25.229Z
+
+Reported by ginkoid#8888
+
+####Steps to reproduce:
+- Go to an application in the developer portal 
+- Click on "OAuth2" in the sidebar 
+- Either use an existing redirect, or create a new one and save changes 
+- Once changes have fully saved, click on the text field of one of the redirects, but don't modify the redirect url 
+- Click somewhere else on the page
+
+####Expected result:
+The unsaved changes bar should not open
+####Actual result:
+The unsaved changes bar opens, even though nothing was modified
+####Client settings:
+Chrome Stable 71
+####System settings:
+Windows Home 1809
+
+28002
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-04T03:51:33.753Z
+
+
+### Super#8276 - undefined added by Bug Bot on 2019-02-04T03:51:38.887Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Web Stable 31784 - Firefox v65.0 (64-bit)
+
+Isabel#0002 - Bug Bot on 2019-02-04T03:51:41.156Z
+
+
+### Can reproduce.
+CR , Windows 10 Home x64 (1809), Canary 31785 Brave Beta Version 0.60.19 Chromium: 72.0.3626.81 P.S. Ignore Super#8276's gif it was attached to the wrong report
+
+TheForbiddenAi#0001 - Bug Bot on 2019-02-04T03:51:46.637Z
+
+
+### Can reproduce.
+CR, Google Chrome 71.0.3578.98 (Official Build) (64-bit) (cohort: Stable) | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+Super#8276 - Bug Bot on 2019-02-04T03:51:51.148Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Opera 59.0.3211.0
+
+average idiot on the internet#0274 - Bug Bot on 2019-02-04T04:53:25.757Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE, Chrome OS 71 (64-bit), Canary Build 31792 + Google Chrome 71.0.3578.127 (Official Build) (64-bit)
+
+Casper#9999 - Bug Bot on 2019-02-04T07:00:58.787Z
+
+
+### Can reproduce.
+CR; Firefox browser Version 65 (64-bit), (Discord Canary 31774, Windows 7)
+
+Skyla#7948 - Bug Bot on 2019-02-04T15:21:53.687Z
+
+
+### Can reproduce.
+Windows 10 Home; Google Chrome 72.0.3626.81
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-10T03:37:30.085Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

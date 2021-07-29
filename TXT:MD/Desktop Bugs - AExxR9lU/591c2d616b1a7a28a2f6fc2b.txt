@@ -1,0 +1,66 @@
+[Archived] the characters ⎝⎞ ⎛⎠ ⎨⎬ (U+239D, U+239E, U+239B, U+23A0, U+23A8, and U+23AC) will overlap the above message when used. (https://trello.com/c/gWxG5PuB)
+
+None
+
+Created: 2017-05-17T11:00:49.492Z
+Latest Update: 2017-10-17T21:09:33.233Z
+
+Reported by Snapshot#2469
+
+####Steps to reproduce:use any of the mentioned characters observe behavior
+
+####Expected result:
+Characters would render correctly without overlapping the above line
+####Actual result:
+Characters will overlap the previous line
+####Client settings:
+Desktop Canary 0.0.297
+####System settings:
+Windows 8.1 x64
+
+1052
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-17T11:00:49.492Z
+
+
+### Can reproduce.
+Windows 8.1 x64 Discord Canary 0.0.154
+
+Techno#1745 - Bug Bot on 2017-05-17T11:00:53.879Z
+
+
+### Not a bug, Discord doesn't support unicode characters that overflow. Bug Bot "bugged" and sent this to trello without going through queue...
+
+SuperSajuuk#7265 - Bug Bot on 2017-05-17T11:44:08.906Z
+
+
+### Apparently the mods can't edit or delete comments. Here's a clarity note: the last sentence in my previous note is invalid, although the bot did bug in some way. The other sentences are valid (nab, not supported etc)
+
+SuperSajuuk#7265 - Bug Bot on 2017-05-17T12:19:01.415Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2017-05-17T20:16:49.273Z
+
+
+### Unicode characters are not supported. This is not a bug, won't fix. - Jared on 2017-05-17T20:16:49.379Z
+
+
+### Not a bug, the unicode characters will overlap most chat systems.
+
+Mr.Caleb#8593 - Bug Bot on 2017-05-18T05:42:14.172Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:09:28.325Z
+
+
+### Archived by Jared on 2017-10-17T21:09:33.236Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

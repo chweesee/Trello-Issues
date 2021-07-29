@@ -1,0 +1,79 @@
+[Archived] Discord has abnormally high cpu usage when screen sharing on mac os which does not happen on windows (https://trello.com/c/EvkZTwtH)
+
+None
+
+Created: 2018-12-02T20:27:31.980Z
+Latest Update: 2019-10-06T20:01:08.660Z
+
+Reported by Muffinabus#6969
+
+####Steps to reproduce:
+- Run discord on mac os 
+- screen share at 720/1080p 
+- open activity monitor 
+- see that discord consumes ~200 to 300% cpu
+
+####Expected result:
+Discord should consume an average amount of cpu and the operating system should be minimally affected without lag
+####Actual result:
+Discord consumes an unnaturally high amount of cpu and causes the os to become jittery and unusable
+####Client settings:
+Desktop canary version 0.0.38 and desktop stable version 0.0.251
+####System settings:
+Mac os mojave 10.14.1
+
+23855
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-02T20:27:31.980Z
+
+
+### C4Navar#5799 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c044033d9a2061d767f05e3/7362ea67b634babec74e6771e3fac3b6/macos_discord_1080_high_cpu.png added by Bug Bot on 2018-12-02T20:27:34.606Z
+
+
+### Can reproduce.
+CR. Discord Stable 28657, macOS Mojave 10.14.1. It took me up to ~250%, definitely makes the Mac slower and affects the rest of the applications.
+
+Rage#9991 - Bug Bot on 2018-12-02T20:27:39.426Z
+
+
+### Can reproduce.
+can reproduce - canary 28704 macOS High Sierra 10.13.6 - Takes up about 200% cpu
+
+addmeondiscord#6969 - Bug Bot on 2018-12-02T20:27:44.806Z
+
+
+### Can reproduce.
+CR, MacBook Pro 2017, macOS Mojave 10.14.2 Beta, Canary Build 28704, Screensharing uses around 130%, although video calling takes up more than 200%
+
+Keons#0001 - Bug Bot on 2018-12-02T20:27:49.511Z
+
+
+### Can't reproduce.
+Cannot Reproduce - MacBook Pro (13", Mid-2012), macOS v10.14.1 (Mojave) - Canary 28704
+
+Isabel#0002 - Bug Bot on 2018-12-03T03:14:07.510Z
+
+
+### Can reproduce.
+MacOS 10.14 Mojave Macbook Pro 15inch mid 2018, Discord rubs at 150-200% when using screenshare or video calling
+
+Si1ence#4073 - Bug Bot on 2018-12-03T15:15:38.231Z
+
+
+### CNR, macos 10.12.6, canary 28796 - Clayton on 2018-12-05T20:27:58.856Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-12-05T20:28:53.798Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:50.815Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

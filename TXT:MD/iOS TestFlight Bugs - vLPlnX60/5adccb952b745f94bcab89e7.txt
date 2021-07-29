@@ -1,0 +1,69 @@
+[Archived] Deleting channel/category while having its overview opened won't close this menu (https://trello.com/c/YajOOsTI)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-04-22T17:51:17.162Z
+Latest Update: 2018-09-04T23:13:14.412Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Open any channel or a category 
+- Go to its setting overview (with channel topic, etc.) by editing the channel or category 
+- Keep this section opened and go to a second device 
+- Delete the channel or the category (that you have opened with your first device) with the second device 
+- Go back to your first device and observe the channel or category overview
+
+####Expected result:
+The overview/menu should automatically get closed after deleting.
+####Actual result:
+It won't get closed automatically. It looks like you have no permission to edit it. Also opening the notification settings shows nothing.
+####Client settings:
+TestFlight 2.3.0 (3817)
+####System settings:
+iPhone 6s, iOS 11.3 & iPad Air 2, iOS 11.4 PB 2
+
+11115
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-22T17:51:17.162Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5adccb952b745f94bcab89e7/9763ec31d849c8ce748ea17acc3fbf16/5P8BBE7.jpg added by Bug Bot on 2018-04-22T17:51:19.948Z
+
+
+### Can reproduce.
+CR; iPhone 6 - iOS 11.4 TestFlight 2.3.0 (3817) & iPad 2nd generation iOS 9.3.5 - Stable 2.3.0
+
+Xylium#1480 - Bug Bot on 2018-04-22T17:51:24.897Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.2.1, TestFlight 2.3.0 (3817)
+
+Pyros#2326 - Bug Bot on 2018-04-22T17:51:29.903Z
+
+
+### Can reproduce.
+CR; iPhone 6s iOS 11.4; TestFlight 2.3.0 (3817)
+
+dal#0780 - Bug Bot on 2018-04-22T17:51:34.894Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:45:13.097Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:45:17.133Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:14.415Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

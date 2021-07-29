@@ -1,0 +1,68 @@
+[Archived] lack of i18n of #deleted-channel while it have been i18n-ed on android client as #invalid-channel (https://trello.com/c/2BskgKam)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-12-19T18:32:35.064Z
+Latest Update: 2018-10-22T20:17:27.867Z
+
+Reported by qunow#9516
+
+####Steps to reproduce:
+- Read a message include link to a channel that have been deleted 
+- Use Traditional Chinese Interface 
+- On Android, the string deleted-channel would have be translated (as invalid-channel ?) 
+- On desktop it would not
+
+####Expected result:
+string translated like on android platforn
+####Actual result:
+string not translated
+####Client settings:
+UI language Chinese, Japanese being tried
+####System settings:
+web
+
+7196
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-19T18:32:35.064Z
+
+
+### qunow#9516 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a395b42e746e9be516411cc/52b20f0804c4c0586528ce3c44ad51d0/x3Wy7ZH.png added by Bug Bot on 2017-12-19T18:32:37.609Z
+
+
+### Can reproduce.
+CR, Android Alpha 5.8.7 Pixel²ROM 8.0.0, works on JP as well
+
+Sheik#0200 - Bug Bot on 2017-12-19T18:32:42.486Z
+
+
+### Can reproduce.
+CR, str is NOT translated in iOS as well, and occurs on ALL languages (except some lang which the translations haven't been approved [e.g. Danish]), Str number: #2063, Discord Stable 5.8.3, Android 7.0, Samsung S8 & TF 2.2.0, iPhone 6s, iOS 11.1
+
+Nelson1348#9190 - Bug Bot on 2017-12-19T18:32:47.481Z
+
+
+### Can reproduce.
+CR, used Discord Canary Build 8862 on Windows 10 Pro x64 (Fall Creators Update), iPhone 8 +, iOS 11.2.5 (Beta) with iOS TestFlight 2.2.0 (1910), and Moto E 2nd Generation, Android 5.1, Discord Alpha 5.8.8 | For me it says deleted-channel on desktop and iOS, but invalid-channel which looks like it can be clicked but can be translated into some languages in Android.
+
+💜Christmas Kitty💗#4567 - Bug Bot on 2017-12-19T18:32:52.491Z
+
+
+### Verified.  - Clayton on 2017-12-19T22:42:19.864Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-19T22:42:32.381Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:27.870Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

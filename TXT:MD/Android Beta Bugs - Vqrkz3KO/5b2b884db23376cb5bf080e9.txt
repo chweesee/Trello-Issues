@@ -1,0 +1,97 @@
+When you toggle split screen in user management screen, the usernames are messed up in Kick/Ban options, and a lock icon will appear next to the Nickname field even if you have permissions to edit it (https://trello.com/c/SZk6l6Pu)
+
+P3 - Will be fixed eventually,
+Mid,
+Split Screen Bugs
+
+Created: 2018-06-21T11:13:17.772Z
+Latest Update: 2020-05-12T22:51:14.387Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a server where you have the following permissions: Kick, Ban, Manage nicknames 
+- Select a user in member list and enter Manage User 
+- Toggle split screen (Android 7+ only)
+
+####Expected result:
+Kick/Ban options should display correctly, and nickname field should not appear locked unless you actually don't have perms to edit them
+####Actual result:
+Username in Kick/Ban options are replaced by a weird string of symbols, and the lock icon will appear next to Nickname field regardless of your actual permsissions. In addition to that there are also things disappearing like the role list, but that's a known bug with split screen.
+####Client settings:
+Discord Alpha 6.9.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14411
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-21T11:13:17.772Z
+
+
+### digmorepaka#9032 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b2b884db23376cb5bf080e9/f5644d1ea96b5498e09894caf2ca7e5a/Screenshot_Settings_20180621-114958.png added by Bug Bot on 2018-06-21T11:13:20.598Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b2b884db23376cb5bf080e9/e6b5fc8f26f7105ba45464a177adbf76/IMG_20180621_114235.jpg added by Bug Bot on 2018-06-21T11:13:20.630Z
+
+
+### Can reproduce.
+Can reproduce Mi A1 8.1 AEX 5.4 Discord alpha 6.9.2
+
+digmorepaka#9032 - Bug Bot on 2018-06-21T11:13:25.495Z
+
+
+### Can reproduce.
+Can Reproduce, also, seems like splitting screen makes some elements disappear, glitchy or even add elements in some cases unless the app is focused. text messes up in translation page after i18n link, in notifications settings after "mute" and adds "vanity URL"in server settings -- Xioami Mi A1, Android 8.0.0 -- Discord Alpha 6.9.6
+
+Ori#1908 - Bug Bot on 2018-06-21T11:13:30.469Z
+
+
+### Can reproduce.
+Can Reproduce, try doing this in a server with one or two alts and no roles,I toggled split screen by both the multitasking menu and holding the multitasking (square) button and scrolling up Android 7.0, Moto G4 Android 6.9.5
+
+Azrael#6867 - Bug Bot on 2018-06-21T11:13:35.447Z
+
+
+### verified, android 7.0, samsung s6 edge, 6.9.6 - Clayton on 2018-06-21T21:44:03.131Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-21T21:44:11.980Z
+
+
+### similarly, 2FA input field appears when splitting screen while "delete server" or "change password" model is opened.
+
+Ori#1908 - Bug Bot on 2018-06-22T12:08:22.141Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:03.553Z
+
+
+### Split screen bugs are unsupported - Tarek on 2018-09-08T00:17:09.535Z
+
+
+### Unarchived by Clayton on 2018-09-08T00:30:03.716Z
+
+
+### Can't reproduce.
+Split Screen bugs are invalid bugs according to Dabbit. Evidence: https://cdn.discordapp.com/attachments/477344260136370176/494982380562546689/SmartSelect_20180927-162155_Discord.jpg
+
+Danijel#9000 - Bug Bot on 2018-09-27T21:23:36.729Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:45:06.717Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jeff Cailteux on 2020-05-12T22:51:14.286Z
+
+
+### Unarchived by Jeff Cailteux on 2020-05-12T22:51:14.371Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

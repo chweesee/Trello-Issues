@@ -1,0 +1,106 @@
+[Archived] Slowmode info tooltip doesn't disappear for the upload modal (https://trello.com/c/8j0rkt8M)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-02T12:22:45.796Z
+Latest Update: 2019-10-23T23:01:50.903Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to a channel with slowmode being enabled (set it to a bigger time interval to notice the bug) 
+- Make sure you don't have manage channels or manage messages permission 
+- Send a message 
+- Click on the "+" button to upload something 
+- Mouseover the upload button 
+- Remove your mouse from the button
+
+####Expected result:
+The tooltip should disappear once you have removed your mouse from it.
+####Actual result:
+The slowmode info tooltip doesn't disappear
+####Client settings:
+Canary Build 25202
+####System settings:
+MacBook Pro 13" (2016), macOS Mojave 10.14
+
+20466
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-02T12:22:45.796Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bb36315ac839573d6999c54/d8a6425338bab89c5d73b73abe5ec909/VyQXPTM.png added by Bug Bot on 2018-10-02T12:22:48.189Z
+
+
+### Can reproduce.
+Windows 10 Pro, Discord Canary 25195
+
+Wolf 🐺#9626 - Bug Bot on 2018-10-02T12:22:53.028Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 25202
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-02T12:22:58.036Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary:  25202
+
+Neiron#2406 - Bug Bot on 2018-10-02T12:23:03.019Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Canary Build 25202
+
+Nasi#3450 - Bug Bot on 2018-10-02T12:54:01.303Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Canary 25202
+
+Zimm#5220 - Bug Bot on 2018-10-02T14:43:14.595Z
+
+
+### Can reproduce.
+Macbook Air • macOS Sierra 10.12.6 • Canary 25202
+
+Rage#9991 - Bug Bot on 2018-10-02T19:24:23.396Z
+
+
+### verified, macos 10.12.6, canary 25202 - Clayton on 2018-10-02T20:56:38.997Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-02T20:56:54.466Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:48.913Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 35334
+
+TheForbiddenAi#7549 - Bug Bot on 2019-04-10T20:04:35.776Z
+
+
+### Unarchived by Bug Bot on 2019-04-10T20:30:06.060Z
+
+
+### Can reproduce.
+Desktop Canary 37253 running on Windows 10 Home (64 bit)
+
+Talon#1337 - Bug Bot on 2019-05-10T14:24:16.625Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:50.914Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

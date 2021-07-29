@@ -1,0 +1,71 @@
+Playing an uploaded video with sound on does not pause audio that is already playing (https://trello.com/c/iqEQ3UR2)
+
+None
+
+Created: 2020-04-17T07:12:52.882Z
+Latest Update: 2020-07-16T05:46:30.467Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Have sound playing (music like Spotify or Google Play Music, or something else) 
+- Play an uploaded video, either inline or fullscreen, with sound on
+
+####Expected result:
+It should pause the audio that was already playing in order to play the audio that is now starting
+####Actual result:
+It plays both at the same time, with the audio overlapping
+####Client settings:
+Android 18.0-Alpha4 (1095)
+####System settings:
+Moto G7, Android 9
+
+54453
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-17T07:12:52.882Z
+
+
+### Can reproduce.
+CR, Huawei P8 Lite, Android 6.0, Discord 18.0-alpha4 (1095)
+
+dev#3346 - Bug Bot on 2020-04-17T07:13:00.364Z
+
+
+### Can reproduce.
+[CR] Samsung A10 - Android 9 - Discord 18-Alpha9 (1100)
+
+Cookie#3165 - Bug Bot on 2020-04-17T07:13:05.381Z
+
+
+### Can reproduce.
+CR Samsung Galaxy A3 2015, LineageOS 14.1 18-a9
+
+G-Man#3131 - Bug Bot on 2020-04-17T07:13:10.346Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 7, Android 9, 18.0-alpha11
+
+Slow#1357 - Bug Bot on 2020-04-18T08:55:00.321Z
+
+
+### Can reproduce.
+LG K8, Android 8.1.0., 18.0-Alpha 11 (1103)
+
+dont be sad, be h a p p y#0517 - Bug Bot on 2020-04-18T16:03:39.413Z
+
+
+### Can reproduce.
+CR, Moto G5, Android 8.1.0, Discord 18.0-alpha7 (1098)
+
+Ana940#9858 - Bug Bot on 2020-04-18T16:36:24.267Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

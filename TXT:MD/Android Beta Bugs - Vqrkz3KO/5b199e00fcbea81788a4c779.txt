@@ -1,0 +1,78 @@
+[Archived] Having single line codeblocks in messages containing linebreaks makes the height of the codeblocks very inconsistent (https://trello.com/c/53RRwcCh)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-07T21:05:04.684Z
+Latest Update: 2018-07-06T21:07:05.841Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- First, send a message with just one line of text including a piece of inline codeblock. Take note of the upper and lower paddings in the codeblock 
+- Now write a second message with multiple lines, the first line being an inline codeblock, the second line being normal text, and the third line being another inline codeblock 
+- Compare the height/paddings between all codeblocks
+
+####Expected result:
+All inline codeblocks should have same height/padding (unless there is an emoji near the codeblock, which is the subject of another report)
+####Actual result:
+Inline codeblocks height/padding will vary depending on whether the message is single line or multi line, whether it's in the first line or last line of the message, whether there is text near the codeblock or if the line is entirely made of codeblock... In a nutshell, very inconsistent.
+####Client settings:
+Discord Alpha 6.8.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13917
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-07T21:05:04.684Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b199e00fcbea81788a4c779/f6c457876b58ea6f55c56af66c134628/IMG_20180607_214304.jpg added by Bug Bot on 2018-06-07T21:05:07.225Z
+
+
+### Can reproduce.
+Can reproduce. Alcatel 3C, 7.0.0 Discord Alpha 6.8.8
+
+StefanFX#5684 - Bug Bot on 2018-06-07T21:05:12.066Z
+
+
+### Can reproduce.
+can reproduce Huawei P20 lite android 8.0.0 Discord alpha 6.8.8 (688)
+
+rainbow hurricane#2245 - Bug Bot on 2018-06-07T21:05:17.066Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy J7 running Android 7.0, Discord Alpha 6.8.8 (688)
+
+FoxyKero#9941 - Bug Bot on 2018-06-07T21:05:22.060Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.8.7
+
+fujhofn.#0003 - Bug Bot on 2018-06-07T21:07:02.618Z
+
+
+### verified, one plus 6, android 8.0, 6.8.9 - Clayton on 2018-06-11T20:31:07.944Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-11T20:31:14.606Z
+
+
+### This ticket is an extension of https://trello.com/c/lhDXgSWe/1304-putting-text-in-to-a-triple-code-block-three-ticks-then-editing-into-a-one-code-blockone-tick-the-black-bar-surrounding-the-text while checked during the Trello cleanup event. I believe that it is an extension because of the same end result (you can compare the photos provided in both tickets, and they look the same to me for the end result), but have different reproduction steps.
+
+Because of this ticket being an extension, I am archiving it. - Ghoul on 2018-07-06T21:06:55.728Z
+
+
+### Archived by Ghoul on 2018-07-06T21:07:05.843Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

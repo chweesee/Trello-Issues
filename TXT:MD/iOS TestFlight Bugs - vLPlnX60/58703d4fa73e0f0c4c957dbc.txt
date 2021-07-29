@@ -1,0 +1,125 @@
+[Archived] Discord based links (ie channel and user mentions) format in a weird way (https://trello.com/c/TBIdQHDt)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-01-07T00:58:55.433Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce: 
+- Write a message with a channel and/or user mention at the end. 
+
+####Expected result:
+ The mention, if it doesn't fit, will line break. 
+####Actual result:
+ the link will partially line break with a long box left behind. 
+####System settings:
+ iOS 9.3.5, latest TestFlight, iPad 4th gen
+
+Card Log
+========
+### Added by Jared on 2017-01-07T00:58:55.433Z
+
+
+### Can reproduce.
+iOS 10.2, Latest TF, iPhone 5S
+
+Mikesky#3097 - Jared on 2017-01-07T00:58:56.022Z
+
+
+### Can reproduce.
+iOS 10.2.1 Developer Beta, Latest TestFlight, iPhone 6s
+
+Dru#8209 - Jared on 2017-01-07T00:58:56.115Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/58703d4fa73e0f0c4c957dbc/b75f5cbe7d324f70d055a4bfe347795d/image.png added by Jared on 2017-01-07T00:59:11.616Z
+
+
+### Can't reproduce.
+iPhone 7 Plus, iOS 10.2.1 Public Beta 2, TestFlight 1.8.1
+
+Tinh1000000#4437 - Jared on 2017-01-07T03:01:06.515Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 10.2.1 Public Beta 2, TestFlight 1.8.1
+
+Tinh1000000#4437 - Jared on 2017-01-07T03:12:53.828Z
+
+
+### Scratch my cannot reproduce message (I was using underscores that time), I was able to reproduce it. It seems that the bug only happens if there is dashes within the mention/channel link, similar to how dashes are used when cutting out a lengthy word to fit the message within a certain length (in a book for example).
+
+Tinh1000000#4437 - Jared on 2017-01-07T03:12:58.069Z
+
+
+### Can reproduce.
+10.2
+
+hammer065#5180 - Jared on 2017-01-07T16:14:52.923Z
+
+
+### Can reproduce.
+iPhone 5 iOS 10.2.1 beta 2 (14D15)
+
+Rocks the Squirrel#2134 - Jared on 2017-01-08T02:07:03.493Z
+
+
+### Can reproduce.
+IOS 10.2, iPhone 5s, Discord Stable
+
+fluffycq#6938 - Jared on 2017-01-14T16:56:33.907Z
+
+
+### Verified, but extremely minor. - Jared on 2017-01-27T19:12:03.334Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-27T19:12:06.852Z
+
+
+### I can no longer reproduce, no long box is left behind anymore. 
+
+Discord 2.2.1 (2202), iOS 11.2.2, iPhone 8 Plus - Alexandru Todea on 2018-01-20T08:33:47.685Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-01-20T08:33:53.579Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T21:01:36.114Z
+
+
+### Can't reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.1 (2236)
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T01:32:20.566Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T02:38:52.824Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:43:05.270Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:43:09.190Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T08:59:14.815Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T08:59:15.339Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

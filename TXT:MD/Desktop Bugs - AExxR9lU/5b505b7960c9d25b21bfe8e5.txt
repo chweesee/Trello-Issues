@@ -1,0 +1,76 @@
+[Archived] Full screening while screensharing in a server makes every button unresponsive forcing you to disconnect (https://trello.com/c/KNQlQR5J)
+
+None
+
+Created: 2018-07-19T09:35:53.861Z
+Latest Update: 2018-10-22T20:35:58.979Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Join a voice channel on a server with screenshare 
+- Start screensharing 
+- Click on the server name on the RTC modal on the bottom above your name to open the screenshare 
+- Go to fullscreen mode on the screenshare 
+- Attempt to click the button to exit full screen
+
+####Expected result:
+After going to full screen you're able to exit full screen
+####Actual result:
+You're unable to exit full screen mode and are forced to disconnect from the voice channel
+####Client settings:
+Canary Build 19154
+####System settings:
+Win 10 x64 1803
+
+15637
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-19T09:35:53.861Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (19154) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-07-19T09:36:01.288Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 19154
+
+webhp#1337 - Bug Bot on 2018-07-19T09:36:06.283Z
+
+
+### Can reproduce.
+Doesn't seem to be an issue with only Windows, canrepro on Mac as well. Canary 19154, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-19T09:36:11.320Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary 19105
+
+ThorWolf#6841 - Bug Bot on 2018-07-19T15:06:47.028Z
+
+
+### cnr, macos 10.12.6, canary 19879 - Clayton on 2018-07-26T23:01:11.552Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-07-26T23:01:16.114Z
+
+
+### Can no longer reproduce this bug if I am screensharing, can only reproduce if I am not sharing my screen
+
+Rashaun#9295 - Bug Bot on 2018-09-17T03:18:17.358Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:58.981Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

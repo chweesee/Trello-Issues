@@ -1,0 +1,80 @@
+[Archived] Scrolling channels list causes animated emojis to "lag" (https://trello.com/c/Nh8TGHW1)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-01-14T12:45:00.945Z
+Latest Update: 2018-02-22T20:07:08.486Z
+
+Reported by Martini#0840
+
+####Steps to reproduce:
+- Be able to send animated emojis 
+- Go to a server where you can scroll channels 
+- Send animated emojis 
+- Scroll the channels list, or point mouse to a channel name and try to scroll
+
+####Expected result:
+The animated emojis should just continue to move without "lag" or stopping movements
+####Actual result:
+The animated emojis lags and sometimes stop until you don't scroll anymore
+####Client settings:
+Desktop Release Channel: ptb, Build Number: 9535
+####System settings:
+Desktop Windows 10 Home
+
+7817
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-14T12:45:00.945Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1709 (Canary build 9542, v 0.0.197)
+
+TimThe#7618 - Bug Bot on 2018-01-14T12:45:08.649Z
+
+
+### Can reproduce.
+Discord Canary 0.0.197 (9542) on Windows 10 Pro 64-bit (1709)
+
+Tarek1337#0379 - Bug Bot on 2018-01-14T12:45:13.389Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 - Fall Creators Update, Discord Canary Build 9542 (0.0.197)
+
+Ghoul#4567 - Bug Bot on 2018-01-14T12:45:18.377Z
+
+
+### Can't reproduce.
+Canary 0.0.197 Build (9542), Windows 10 x64 Version 1603 | Emojis run fine while scrolling
+
+QwakGoesDuck#9672 - Bug Bot on 2018-01-14T12:59:43.507Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-01-16T21:55:35.838Z
+
+
+### Verified, extremely low priority. I don't know if this is _actually_ a bug or not, will ask. - Jared on 2018-01-16T21:56:00.995Z
+
+
+### According to one of our engineers, this is not a valid bug, just performance with animated emoji, which are inherently resource heavy. - Jared on 2018-01-19T19:40:46.737Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2018-01-19T19:40:50.454Z
+
+
+### Archived due to being inactive for a month without any further activity and is marked as Not a bug. - Tarek on 2018-02-22T20:07:07.382Z
+
+
+### Archived by Tarek on 2018-02-22T20:07:08.488Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

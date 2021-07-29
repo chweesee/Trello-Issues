@@ -1,0 +1,120 @@
+Modifying numbers that have scientific notation(Ex: 1.23e+21) in them causes the value to set itself to the first digit (https://trello.com/c/KglNYNNC)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-04-08T23:06:18.047Z
+Latest Update: 2019-08-17T14:29:05.472Z
+
+Reported by TheForbiddenAi#7549
+
+####Steps to reproduce:
+- Go to the developer portal 
+- Go to applications 
+- Go to rich presence 
+- Go to visualizer 
+- Go to start or end timestamp 
+- Enter a number so large it puts it in scientific notation (2222222222222222000002) 
+- Try to modify the number (Ex: Remove a digit) 
+- Observe how it sets the value to the first digit
+
+####Expected result:
+Nothing
+####Actual result:
+The value sets itself to the first digit
+####Client settings:
+Chrome 73
+####System settings:
+Windows 10 Home x64 (1809)
+
+32344
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-08T23:06:18.047Z
+
+
+### TheForbiddenAi#7549 - https://i.imgur.com/b80QsMu.gifv added by Bug Bot on 2019-04-08T23:06:20.505Z
+
+
+### Can reproduce.
+Android 9.0.0 / Chrome 73
+
+Pweenzor#4242 - Bug Bot on 2019-04-08T23:06:25.466Z
+
+
+### Can reproduce.
+Can Repro. | Canary Web Chrome 73
+
+Clay#0001 - Bug Bot on 2019-04-08T23:06:30.535Z
+
+
+### Can reproduce.
+Can repro / Firefox 66.02 Windows 10 Pro Education, v10.0.17134 Build 17134.
+
+MrStefan#0001 - Bug Bot on 2019-04-08T23:06:35.453Z
+
+
+### Can reproduce.
+Can repro; Windows 10 Pro x32, Chrome 73.0.3683.103
+
+Karasu#0013 - Bug Bot on 2019-04-08T23:32:49.339Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 35116 Chrome 73.0
+
+Delite#0001 - Bug Bot on 2019-04-08T23:46:22.439Z
+
+
+### Can reproduce.
+macos 10.14.5, Chrome 73
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-09T00:22:11.631Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 ~ Chrome 72.0.3626.122 (x64)
+
+Casper#9999 - Bug Bot on 2019-04-09T05:00:02.344Z
+
+
+### Can reproduce.
+Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+warp#4660 - Bug Bot on 2019-04-09T08:01:27.157Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Google Chrome  73.0.3683.86
+
+Daffyduck#5364 - Bug Bot on 2019-04-09T08:09:38.789Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 35116
+
+Killtracity#0001 - Bug Bot on 2019-04-09T10:28:30.809Z
+
+
+### Can reproduce.
+Windows 10 Home; Google Chrome 73.0.3683.103
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-11T16:06:39.329Z
+
+
+### Verified. - Tarek on 2019-08-17T14:28:33.715Z
+
+
+### & moving to the website bugs list - Tarek on 2019-08-17T14:28:46.067Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Tarek on 2019-08-17T14:28:53.216Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

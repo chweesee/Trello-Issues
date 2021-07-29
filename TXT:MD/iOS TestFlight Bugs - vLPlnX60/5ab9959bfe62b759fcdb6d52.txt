@@ -1,0 +1,74 @@
+[Archived] Server options do not disappear when going to home screen and re-open from a notification. (https://trello.com/c/tNiM9XQT)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-27T00:51:39.847Z
+Latest Update: 2018-09-04T23:12:58.843Z
+
+Reported by unreal#0001
+
+####Steps to reproduce:
+- On any server, open server options. (Three dot menu alongside server name) 
+- While server options are open, go to home screen. 
+- On home screen, open any Discord notification that goes to a different server or DM. 
+- Observe.
+
+####Expected result:
+Server options should automatically dismiss itself when moving away from associated server.
+####Actual result:
+Server options do not dismiss itself when the notification tells the app to go to a different server/channel or DM.
+####Client settings:
+TestFlight 2.2.6 (3440)
+####System settings:
+iPhone 7 Plus, iOS 11.3 Dev Beta 6
+
+9869
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-27T00:51:39.847Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS 11.2.6. TestFlight 2.2.6 (3440)
+
+ZenKing#2104 - Bug Bot on 2018-03-27T00:51:47.580Z
+
+
+### Can reproduce.
+CR, it gives the settings for the server you go to. iPhone SE, iOS 10.3.2, TestFlight 2.2.6 (3440)
+
+TimThe#1118 - Bug Bot on 2018-03-27T00:51:52.689Z
+
+
+### Can reproduce.
+CR, iPad Mini 2, iOS 11.2.6, TF 2.2.6 (3440)
+
+[object Object]#0001 - Bug Bot on 2018-03-27T00:51:57.511Z
+
+
+### Verified.  - Clayton on 2018-03-30T23:18:53.577Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-30T23:18:57.386Z
+
+
+### Can reproduce.
+iOS 11.3 Testflight 2.2.7 (3519)
+
+C4Navar#1337 - Bug Bot on 2018-04-05T07:10:47.354Z
+
+
+### 54D#1357 - https://youtu.be/EplAF5S8RV4 added by Bug Bot on 2018-07-15T12:08:03.158Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:58.846Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

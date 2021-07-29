@@ -1,0 +1,84 @@
+Undo history doesn't clear after you send a message (https://trello.com/c/4HyWL9Dl)
+
+None
+
+Created: 2020-02-28T17:51:28.179Z
+Latest Update: 2020-07-16T21:26:06.143Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Write any message 
+- Send it 
+- Press Ctrl+Z
+
+####Expected result:
+Nothing should happen, as undo history is expected to be wiped when you send a message
+####Actual result:
+The content of the message you just sent is restored back into the message box
+####Client settings:
+Discord Canary 55309
+####System settings:
+Ubuntu 18.04 LTS (stock GNOME desktop env), 64-bit processor Ryzen 7 2700X
+
+52938
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-28T17:51:28.179Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.3; Discord Canary 55309
+
+Jiralite#1207 - Bug Bot on 2020-02-28T17:51:38.349Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903 [Build 18362.657], Canary 55309
+
+Maah#0040 - Bug Bot on 2020-02-28T17:51:43.402Z
+
+
+### Can reproduce.
+Can Repro, MacBook Air (2018), MacOS 10.15.3, Discord Canary 0.0.245 55309
+
+DeJay#1337 - Bug Bot on 2020-02-28T17:51:48.370Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64 bit, Discord Canary 55309.
+
+Alister#0001 - Bug Bot on 2020-02-28T23:40:26.685Z
+
+
+### Can reproduce.
+[CR] Windows 10 64-Bit (10.0.17763) - Canary 55347
+
+light#3239 - Bug Bot on 2020-02-29T00:36:14.636Z
+
+
+### Can reproduce.
+Windows 10 Home x64, version 1909 - Canary 55393 host 0.0.263
+
+anonymous kitten#5379 - Bug Bot on 2020-03-01T03:13:59.193Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) canary 55393
+
+myacorn#6534 - Bug Bot on 2020-03-01T03:48:29.932Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary (Build 55555)
+
+Bryth#1086 - Bug Bot on 2020-03-06T16:38:50.174Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

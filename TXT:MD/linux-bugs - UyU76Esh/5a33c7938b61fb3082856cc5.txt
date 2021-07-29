@@ -1,0 +1,105 @@
+Right click icon to log out, locks discord after couple attemps. (https://trello.com/c/o2AzD0Wg)
+
+P1: Severe,
+low
+
+Created: 2017-12-15T13:01:07.972Z
+Latest Update: 2018-07-03T06:06:37.093Z
+
+Reported by The Synthasist#1063
+
+####Steps to reproduce:
+- Step 1 
+- Right Click Discord Icon, choose logout -
+
+####Expected result:
+You should see discord shutdown and close.
+####Actual result:
+First attempt, it opens a secondary window, and then relogs you back in. Second attempt to try to shut down discord, and it locks up. Two windows are there. Client is locked up, not possible to shut down, unless I reboot linux or log out of linux session.
+####Client settings:
+Not sure, all I see is Discord Nitro. Unknown what version this is.
+####System settings:
+Linux Mint Cinnamon 18.3.
+
+6740
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-15T13:01:07.972Z
+
+
+### Can reproduce.
+CR, Archlinux 4.13, Discord Canary 0.0.31 (Build 7913) -- It doesn't happen every time. Force killing the process closes it.
+
+Starshine Dust#2189 - Bug Bot on 2017-12-15T13:01:15.338Z
+
+
+### Can reproduce.
+Could repro whild Discord was busy (like loading), Discord Canary Build 8409, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2017-12-15T13:01:20.274Z
+
+
+### Can reproduce.
+Discord Canary 8612 on Linux Ubuntu 16.04.2
+
+Tarek1337#0379 - Bug Bot on 2017-12-15T13:01:25.317Z
+
+
+### Can still repreoduce, repro steps invalid though. Canary 9280 0.0.44
+Linux Ubuntu 16.04.2
+
+Proper repro steps:
+
+ - Log out from your Discord account from the user settings.
+ - Quit Discord from the tray menu or taskbar.
+ - Observe - Tarek on 2018-01-06T03:56:26.135Z
+
+
+### Verified.  - Clayton on 2018-01-07T07:31:25.399Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-01-07T07:31:28.464Z
+
+
+### Can reproduce.
+Discord 0.0.4 running as a flatpak (https://github.com/flathub/com.discordapp.Discord) on ArchLinux with Gnome as desktop environment
+
+KK#4270 - Bug Bot on 2018-01-20T14:39:00.728Z
+
+
+### Can reproduce.
+Fedora 27 KDE
+
+Asahammer#7610 - Bug Bot on 2018-01-23T16:15:08.433Z
+
+
+### Can reproduce.
+Issue related to libatomic; issue disappears if you uninstall libatomic
+
+Asahammer#7610 - Bug Bot on 2018-01-23T16:18:10.057Z
+
+
+### Can reproduce.
+Arch 
+linux kernel 4.15.3-1 
+plasma-desktop 5.12.1-1 
+Closing any way including ksystem manager reproduces the results.
+
+TrillKnight#9163 - Bug Bot on 2018-02-16T04:53:53.200Z
+
+
+### I was not able to reproduce this bug as of Discord Canary Build 18108. My Discord client shuts down normally without any issues, and it did not lock up in any way or form. I used Ubuntu 18.04 LTS for this bug.
+
+Because I was not able to reproduce this bug, I am moving this to Claimed Fixed. - Ghoul on 2018-07-03T06:06:26.670Z
+
+
+### Moved from Discord Verified Bugs to Claimed Fixed by Ghoul on 2018-07-03T06:06:37.072Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

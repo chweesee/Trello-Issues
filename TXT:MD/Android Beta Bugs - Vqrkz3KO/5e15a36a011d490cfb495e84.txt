@@ -1,0 +1,79 @@
+[Archived] There's a bug which doesn't let you create invite links anymore (https://trello.com/c/vt7hExDd)
+
+None
+
+Created: 2020-01-08T09:39:56.049Z
+Latest Update: 2020-02-20T21:35:51.216Z
+
+Reported by Dem#0003
+
+####Steps to reproduce:
+- Create a server 
+- Delete all categories and channels 
+- Click on server settings 
+- Click on "Channels" 
+- Click on the + symbol and create a category 
+- Exit the settings and add a voice channel to that category, now swipe to the left and your friend list should be shown 
+- Swipe to the right again to see your server again 
+- Click on "Create Invite" and it should say ""
+
+####Expected result:
+A valid invite should appear
+####Actual result:
+An invalid and not usable invite appears
+####Client settings:
+1018
+####System settings:
+Samsung Galaxy S7, Android Version 8.0.0
+
+51225
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-08T09:39:56.049Z
+
+
+### carter#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5e15a36a011d490cfb495e84/17405a3d6a7113f6ac0ddc50e682c9b2/DbKm8zf.png added by Bug Bot on 2020-01-08T09:39:59.345Z
+
+
+### Can reproduce.
+The issue seems to be the fact that the Create Invite button shows, when the server has no text channels but has a voice channel and/or category. CR on Nexus 5, Android 6.0.1, Alpha 10.1.8
+
+carter#0001 - Bug Bot on 2020-01-08T09:40:03.580Z
+
+
+### Can reproduce.
+CR, Discord 10.1.8, Huawei P20 Lite, Android 9.0
+
+Geek#8405 - Bug Bot on 2020-01-08T09:40:08.593Z
+
+
+### Can reproduce.
+CR, Discord 10.1.8, Samsung Galaxy A20, Android 9.
+
+Nighty963#4151 - Bug Bot on 2020-01-08T09:40:13.581Z
+
+
+### Duplicate: https://trello.com/c/zVZtHCI6
+
+Jiralite#1207 - Bug Bot on 2020-01-08T10:20:16.740Z
+
+
+### Can't reproduce.
+Extension of https://trello.com/c/zVZtHCI6
+
+Dalevine1024#3388 - Bug Bot on 2020-01-09T17:03:16.116Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jeff Cailteux on 2020-01-14T17:01:42.785Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:35:51.239Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

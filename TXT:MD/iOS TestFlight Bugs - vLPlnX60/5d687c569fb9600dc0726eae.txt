@@ -1,0 +1,70 @@
+Server Settings Channel list will not fully populate on iPhone if connected on a VC channel (https://trello.com/c/mXkOD0eh)
+
+None
+
+Created: 2019-08-30T01:31:02.396Z
+Latest Update: 2019-09-04T10:14:15.570Z
+
+Reported by Jaymacibe#8037
+
+####Steps to reproduce:
+- Have more than 12 channels in a server. Needs to be large enough where you have to scroll down to see them all in Server Settings > Channels 
+- Join a VC channel in the same server. Doesn’t seem to matter what VC channel it is.  
+- Attempt to go to Server Settings > Settings > Channels. After loading the list gets cut off but the app still lets you scroll, thinking there are channels but won’t populate.  
+- Leave the VC and go to Server Settings > Settings > Channels and now the list will fully populate.
+
+####Expected result:
+The Channels screen should show all Categories, Text Channels and Voice Channels
+####Actual result:
+List only generates the first screen but can still scroll down showing the rest blank
+####Client settings:
+3.1.1
+####System settings:
+iOS 12.4
+
+43061
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-30T01:31:02.396Z
+
+
+### Can reproduce.
+Can reproduce; iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.1 (16961)
+
+Jeffrey#1234 - Bug Bot on 2019-08-30T01:31:10.161Z
+
+
+### Can reproduce.
+Can Reproduce, iPhone XS x iOS 12.3.1 x TestFlight 3.1.1 (16961)
+
+Error 404#4040 - Bug Bot on 2019-08-30T01:31:15.163Z
+
+
+### Can reproduce.
+Can reproduce, iPhone XS Max, iOS 12.4, TestFlight 3.1.1 (16961)
+
+Shreddie#3635 - Bug Bot on 2019-08-30T01:31:20.171Z
+
+
+### Can reproduce.
+iPhone X, iOS 13.1 (dev beta) - Testflight 3.1.2 (17133)
+
+Xylium#5800 - Bug Bot on 2019-08-31T02:22:10.402Z
+
+
+### Moved from New Issues to Action Sheets by Fanghao on 2019-09-03T19:00:58.369Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.4, TestFlight 3.1.2 (17140) - It shows most of the channels I put but not all the channels.
+
+.Gloria.#9606 - Bug Bot on 2019-09-04T10:14:15.584Z
+
+List
+====
+Action Sheets
+
+Members
+=======
+None

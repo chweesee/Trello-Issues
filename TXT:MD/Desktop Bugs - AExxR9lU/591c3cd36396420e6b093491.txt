@@ -1,0 +1,63 @@
+[Archived] chat font scaling makes some of the preview messages hidden or shown (https://trello.com/c/vFLqhZoc)
+
+None
+
+Created: 2017-05-17T12:06:43.289Z
+Latest Update: 2017-10-17T21:09:39.933Z
+
+Reported by InkxtheSquid#8052
+
+####Steps to reproduce:
+- go to settings 
+- click Appearence 
+- set message display to compact 
+- scale text to 180 
+- OR 
+- set message display to cozy 
+- scale text to 80
+
+####Expected result:
+the preview box changes.
+####Actual result:
+in the Compact message display with chat scaling at 180, the "Oh here it is!" won't be seen in the preveiw. in the Cozy message display with chat scaling at 80, the "Waiting for the day when" is roughly seen in the preview.
+####Client settings:
+canary
+####System settings:
+undefined
+
+1047
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-17T12:06:43.289Z
+
+
+### Can reproduce.
+macOS Sierra 10.12.4 • MacBook Air Early 2014 • Canary 0.0.145
+
+ItsPugle#5963 - Bug Bot on 2017-05-17T12:06:47.916Z
+
+
+### This issue also applies to the Guild Selector, the Guild Channel Selector and the Member List.
+
+ItsPugle#5963 - Bug Bot on 2017-05-17T12:07:32.397Z
+
+
+### This isn't a bug. The preview is shows you how it would appear in that situation with those settings. It's not supposed to show all the text all the time as that would render the function useless. - Jared on 2017-05-18T18:26:26.014Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2017-05-18T18:26:30.052Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:09:37.945Z
+
+
+### Archived by Jared on 2017-10-17T21:09:39.935Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,122 @@
+(possibly mac-only) Attempting to move a role above a certain point drags the window instead. (https://trello.com/c/skziI2XY)
+
+None
+
+Created: 2019-06-09T06:10:40.765Z
+Latest Update: 2020-07-16T21:26:04.138Z
+
+Reported by Drifter#0001
+
+####Steps to reproduce:
+- Have a role hierarchy that can be scrolled downwards. 
+- Scroll downwards in the hierarchy, so that not all roles are visible. 
+- Attempt to drag a role at the top of the screen.T
+
+####Expected result:
+The role is picked up and dragged correctly.
+####Actual result:
+The role is not dragged, but the client window is.
+####Client settings:
+Canary 39367
+####System settings:
+MacBook Air (13-inch, Early 2014), macOS v0.14.5 (18F132)
+
+36543
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-09T06:10:40.765Z
+
+
+### Drifter#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cfca2e0efd1688d735ddbd7/b9fa8fc3cc377752637da5493460c1de/1IIE1Qs.gif added by Bug Bot on 2019-06-09T06:10:47.676Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.5 (18F132) - Canary 39397
+
+Isabel#0002 - Bug Bot on 2019-06-09T06:10:48.279Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 39397
+
+OrangeM24#5746 - Bug Bot on 2019-06-09T06:10:53.335Z
+
+
+### Can reproduce.
+CR, macOS 10.14.5, PTB 39387
+
+Action Potential#2494 - Bug Bot on 2019-06-09T06:10:58.338Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64; Canary 39387
+
+Boss#0006 - Bug Bot on 2019-06-09T06:13:01.763Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra), Canary 39387
+
+myacorn#6534 - Bug Bot on 2019-06-09T08:27:41.241Z
+
+
+### Can't reproduce.
+Windows 10 Pro, 10.0.16299 Build 16299. Canary Build 39387
+
+Kenzzer#0001 - Bug Bot on 2019-06-09T13:05:11.916Z
+
+
+### Can't reproduce.
+Windows 10 Pro v1809
+
+Daffy#7906 - Bug Bot on 2019-06-09T18:58:29.411Z
+
+
+### CNR Windows 10 Pro v1809, Canary 39387 (forgot to add my Build # in)
+
+Daffy#7906 - Bug Bot on 2019-06-09T19:00:28.409Z
+
+
+### Can't reproduce.
+CNR - MacBook 12" 2017, MacOS 10.15, Canary 39387
+
+maximd#1122 - Bug Bot on 2019-06-09T20:09:03.199Z
+
+
+### Can't reproduce.
+Windows 10 Home v1803 Build 17134.766 - Canary Build 39387
+
+ryanr49#2940 - Bug Bot on 2019-06-09T20:15:34.786Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro, macOS Sierra 10.12.6 : Discord Canary 39387
+
+xTeal#7702 - Bug Bot on 2019-06-09T20:47:20.106Z
+
+
+### Can't reproduce.
+cnr; windows 10 education (1809) [canary 39387]
+
+uwu#3785 - Bug Bot on 2019-06-10T02:11:44.013Z
+
+
+### Can't reproduce.
+Windows 10 x64, 1809, Stable 39387
+
+fuzzysearch#0404 - Bug Bot on 2019-06-10T20:25:21.234Z
+
+
+### Can reproduce.
+This is not limited to roles. Anything that can be interacted with at the top of the client will have their functionality overridden (from whatever they were to moving the client window). MacBook Pro: macOS Catalina 10.15.3; Discord Canary 55808
+
+Jiralite#1207 - Bug Bot on 2020-03-11T10:04:11.807Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

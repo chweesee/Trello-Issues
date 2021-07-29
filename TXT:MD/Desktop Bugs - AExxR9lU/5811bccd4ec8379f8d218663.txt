@@ -1,0 +1,47 @@
+[Archived] Client thinks you can add emotes to webhook messages, API disagrees (https://trello.com/c/9sPvZ7W0)
+
+None
+
+Created: 2016-10-27T08:37:33.412Z
+Latest Update: 2016-11-11T01:45:31.458Z
+
+Reported by Fre_d#2939
+
+####Steps to reproduce: 
+- Add a reaction to a webhook message 
+
+####Expected result:
+ Either the client doesn't allow you to do this, or the API completes the request 
+####Actual result:
+ The API returns 500 and the reaction is then removed from the client 
+####System settings:
+ Canary 
+####Client version:
+ Windows 10 Anniversary
+
+Card Log
+========
+### Added by Jared on 2016-10-27T08:37:33.412Z
+
+
+### Moved from User Reported Bugs to Reaction Bugs by Jared on 2016-10-27T17:05:13.283Z
+
+
+### Can reproduce.
+Windows 10 Discord Canary
+
+Jack#0757 - Jared on 2016-10-27T21:47:15.511Z
+
+
+### Moved from Reaction Bugs to Fixed by Jake Heinz on 2016-10-28T22:00:28.420Z
+
+
+### Archived by Jake Heinz on 2016-11-11T01:45:31.462Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/jhgg) - No Bio

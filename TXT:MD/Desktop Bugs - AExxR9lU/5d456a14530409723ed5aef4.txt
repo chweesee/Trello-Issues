@@ -1,0 +1,108 @@
+[Archived] [Chrome Specific] Watching a Go Live stream will cause " DOMException: Failed to execute 'setLocalDescription' on 'RTCPeerConnection' " Error. (https://trello.com/c/tOqwNG08)
+
+None
+
+Created: 2019-08-03T11:03:48.759Z
+Latest Update: 2019-09-13T23:55:31.696Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open console 
+- Join a stream
+
+####Expected result:
+Error Free
+####Actual result:
+DOMException: Failed to execute 'setLocalDescription' on 'RTCPeerConnection': Failed to set local offer sdp: Called in wrong state: kHaveRemoteOffer
+####Client settings:
+Web PTB 41758, Chrome V75.0.3770.142
+####System settings:
+Win10 64x (1903)
+
+40431
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-03T11:03:48.759Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d456a14530409723ed5aef4/001be336e78477ccb40ed81817db1b4f/1LnLxdL.png added by Bug Bot on 2019-08-03T11:03:51.638Z
+
+
+### Can reproduce.
+Windows 10 Home; PTB Build 42319; Google Chrome 75.0.3770.142
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-03T11:03:56.239Z
+
+
+### Can reproduce.
+CR; MacOS 10.14.4, Canary Build: 42408, Google Chrome 75
+
+Jeffrey#1234 - Bug Bot on 2019-08-03T11:04:01.244Z
+
+
+### Can reproduce.
+Can repro; Windows 10 Home, Discord Web Stable 42408, Google Chrome 75.0.3770.142
+
+lesi002#5458 - Bug Bot on 2019-08-03T11:04:06.237Z
+
+
+### Can't reproduce.
+Windows 10, Canary 42647
+
+Gugu72#2059 - Bug Bot on 2019-08-03T11:19:52.597Z
+
+
+### Can't reproduce.
+Windows 10, Canary 42547, Chrome 76.0.3809.87
+
+Gugu72#2059 - Bug Bot on 2019-08-03T11:20:45.340Z
+
+
+### Can't reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 42647, Chrome 76
+
+B.O.S.S#0251 - Bug Bot on 2019-08-03T13:18:16.292Z
+
+
+### Can reproduce.
+macOS High Sierra, Version: 10.13.6 - Discord Canary 42647
+
+Vanki#0001 - Bug Bot on 2019-08-03T13:19:41.240Z
+
+
+### Can reproduce.
+CR Windows 10 Professional,Canary 42647
+
+Typhoon#7906 - Bug Bot on 2019-08-03T13:44:22.344Z
+
+
+### Can reproduce.
+macOS 10.14.5, Canary 42647
+
+Noah#0004 - Bug Bot on 2019-08-03T21:30:49.342Z
+
+
+### This is a known issue and should not cause any error. We re-try it and then it succeeds. This happens when you join a voice channel and was like this forever. Do you have any issue seeing the video stream?
+ - Jozsef Vass on 2019-08-09T04:24:38.046Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jozsef Vass on 2019-08-09T04:25:53.082Z
+
+
+### Archived by Bug Bot on 2019-09-08T04:30:37.565Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 45748 | chrome 76.0.3809.132
+
+charleskimbac#6492 - Bug Bot on 2019-09-13T23:55:31.712Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

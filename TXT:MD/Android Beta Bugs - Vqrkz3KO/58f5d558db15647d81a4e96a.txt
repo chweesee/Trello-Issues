@@ -1,0 +1,124 @@
+[Archived] First emoji name picked from emoji picker placed in the start of a message is not highlighted (https://trello.com/c/1MNhe6yR)
+
+None
+
+Created: 2017-04-18T08:59:04.803Z
+Latest Update: 2017-10-30T17:59:58.316Z
+
+Reported by AlFas#2783
+
+####Steps to reproduce: 
+- Enter the message typing box 
+- Open the emoji picker 
+- Place an emoji at the start of the message 
+- Observe non-highlighted emoji name 
+
+####Expected result:
+ The emoji name is highlighted (bold) 
+####Actual result:
+ Not highlighted
+
+2497
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-18T08:59:04.803Z
+
+
+### Can reproduce.
+7.1.2 3.6.7
+
+💜 Gwen Oddball 💜#2867 - Bug Bot on 2017-04-18T08:59:05.379Z
+
+
+### Can reproduce.
+Android 6.0.1 Discord 3.6.7
+
+Freud 📱#1764 - Bug Bot on 2017-04-18T08:59:07.372Z
+
+
+### Can reproduce.
+Android 7.0 Discord 3.6.7
+
+Azrael#6867 - Bug Bot on 2017-04-18T08:59:09.301Z
+
+
+### Can reproduce.
+3.6.7
+
+Flex#0501 - Bug Bot on 2017-04-18T13:55:15.122Z
+
+
+### Can't reproduce.
+3.6.7
+
+sladeiam#0642 - Bug Bot on 2017-04-18T14:20:36.017Z
+
+
+### Can't reproduce.
+3.6.7 android 4.4.4
+
+Jesse/Max#8621 - Bug Bot on 2017-04-18T17:45:50.847Z
+
+
+### Can't reproduce.
+Nexus 6P, Android Or Preview, Discord 3.6.7
+
+Chrees#4389 - Bug Bot on 2017-04-18T17:53:44.426Z
+
+
+### Can reproduce.
+3.6.7
+
+ILiKChikun#1550 - Bug Bot on 2017-04-18T21:54:06.730Z
+
+
+### I have no idea what is supposed to be happening here. I need a better explanation of this bug, preferably a screenshot. - Jared on 2017-04-18T22:55:11.501Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-04-18T22:55:16.691Z
+
+
+### Can reproduce.
+Nexus 4, Android 5.1.1, Discord 3.6.7
+
+Chrees#4389 - Bug Bot on 2017-04-18T23:01:45.854Z
+
+
+### I'm not sure why some people can repro and others can't, but for those who can it seems to be related to time? Using the emoji picker, all custom emoji picked within just under 1 second will have non-bolded text in the text box when they should be bold. If a custom emoji is picked after ~1 second, the text all turns bold as it should be. e.g. spam :customemoji: 5 times quickly, text is all normal. Add a 6th emoji after about 1 second and all the text turns bold as it should've been in the first place
+
+Chrees#4389 - Bug Bot on 2017-04-18T23:06:54.951Z
+
+
+### Chrees#4389 - https://gfycat.com/CrispAgreeableBernesemountaindog added by Bug Bot on 2017-04-18T23:17:30.027Z
+
+
+### Can reproduce.
+Android 7.1.1 Discord 3.6.7
+
+Raichu Nuzzles You ⚡#5328 - Bug Bot on 2017-04-19T02:23:25.580Z
+
+
+### I am not able to reproduce even if I am using the steps Chrees provided in his canrepro. 
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord 5.2.6
+ - Alexandru Todea on 2017-09-30T08:50:05.062Z
+
+
+### Can no longer reproduce. Emoji text does not bold immediately, but it does after about a second, whereas previously it would not bold until another emoji was added (see my previous comment & attachment). Seems to have been fixed.
+Google Pixel XL, Android 8.0.0, Discord 5.2.6
+Nexus 4, Android 5.1.1, Discord 4.0.2 & 5.2.6 - Chris Cox on 2017-09-30T08:56:21.748Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:59:57.187Z
+
+
+### Archived by Jared on 2017-10-30T17:59:58.341Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

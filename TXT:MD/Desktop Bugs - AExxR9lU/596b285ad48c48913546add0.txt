@@ -1,0 +1,71 @@
+[Archived] Minor bug: Newline created in textfield after opening a menu (https://trello.com/c/3HBsJJyL)
+
+P3: Will get fixed eventually
+
+Created: 2017-07-16T08:48:26.996Z
+Latest Update: 2018-08-21T23:34:43.182Z
+
+Reported by TwerpOco#6801
+
+####Steps to reproduce:
+- Open the reactions menu on a message, or add a reaction, or click on a user, or click on options for another message 
+- Press Enter once (while mouse isn't hovered over something selectable like a reaction in the reaction menu) -
+
+####Expected result:
+Either sending the message that was in the text field as normal or nothing.
+####Actual result:
+A newline is inserted into whatever message was being typed, even in an empty message.
+####Client settings:
+Discord Stable 0.0.297
+####System settings:
+Windows 10 Home 64 bit
+
+2299
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-16T08:48:26.996Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.158
+
+Curse Broken#8659 - Bug Bot on 2017-07-16T08:48:34.509Z
+
+
+### Can reproduce.
+I can only do it once  Windows 10 Home (Creators Update) x64, Canary 0.0.158
+
+DeJay#3628 - Bug Bot on 2017-07-16T08:48:39.523Z
+
+
+### Can reproduce.
+ Windows x64 Stable 0.0.297 Creators Update
+
+Pretty Lightningreed (PL)#0875 - Bug Bot on 2017-07-16T08:48:44.502Z
+
+
+### Verified.  - Clayton on 2017-07-19T19:52:08.631Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-19T19:52:14.577Z
+
+
+### Cannot reproduce Canary 18051. Moving to claimed fixed. - Tarek on 2018-07-03T04:19:24.928Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-03T04:19:29.808Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:34:42.353Z
+
+
+### Archived by Jared on 2018-08-21T23:34:43.183Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,108 @@
+[Archived] reactions get reordered (https://trello.com/c/JsonY35V)
+
+P3: Will get fixed eventually
+
+Created: 2016-12-07T21:41:22.997Z
+Latest Update: 2018-10-22T20:16:31.309Z
+
+Reported by FrostLuma#1769
+
+####Steps to reproduce: 
+- Be in a server with some custom emojis 
+- Post a message 
+- Put a custom reaction on it 
+- After that put a non-custom reaction on it 
+- Tell someone to click on reactions on your message in any order 
+- Reload your Discord client and look at your message
+
+####Expected result:
+ The reactions stay in the same order they were submitted in 
+####Actual result:
+ The reactions changed order
+
+Card Log
+========
+### Added by Jared on 2016-12-07T21:41:22.997Z
+
+
+### FrostLuma#1769 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584882026c611a4a2d3cdee6/3c496024811236f717372ed2f3f3dbff/ZMioIzX.png added by Jared on 2016-12-07T21:42:41.852Z
+
+
+### Can reproduce.
+0.0.246, OSX 10.11.6
+
+luchaos#5572 - Jared on 2016-12-07T21:47:48.289Z
+
+
+### There has to be more to it than that. I've attached a screenshot of a post from two months ago that still spell out "soonTM". - Jared on 2016-12-07T22:28:57.624Z
+
+
+### upload 12/7/2016 at 2:28:57 PM.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584882026c611a4a2d3cdee6/b1183e8011d457ef01ff382f8c58bc03/upload_12_7_2016_at_2_28_57_PM.png added by Jared on 2016-12-07T22:28:58.299Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-12-07T22:29:04.140Z
+
+
+### Can't reproduce.
+Windows 10 - 64bit
+
+Derumisis#7928 - Jared on 2016-12-07T22:42:48.999Z
+
+
+### The way that the reactions get sorted is based on the snowflake id of the emoji's. example attached two photos
+
+Alex from Alaska#8575 - Jared on 2017-03-07T18:16:55.521Z
+
+
+### Alex from Alaska#8575 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584882026c611a4a2d3cdee6/2be1abff5352a8f9c9eae6fdb67de16e/Screenshot_from_2017-03-07_09-08-54.png added by Jared on 2017-03-07T18:17:20.311Z
+
+
+### Alex from Alaska#8575 - undefined added by Jared on 2017-03-07T18:18:08.408Z
+
+
+### Alex from Alaska#8575 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584882026c611a4a2d3cdee6/53afb86f2f277bda8fb8b068333b1de0/Screenshot_from_2017-03-07_09-17-47.png added by Jared on 2017-03-07T18:19:04.188Z
+
+
+### also happens on Android
+
+๖ۣۜOkori❧#0902 - Jared on 2017-03-07T21:34:54.634Z
+
+
+### Can reproduce.
+Bug doesn't depend on client and system settings. Steps to Reproduce: - Be in a server with some custom emojis - Post a message and put custom and non-custom reactions on it - Tell someone to click on reactions on your message in random order - Reload your Discord client and look at your message Expected Result: Reactions are in the same order Actual Result: Reactions are messed up, custom ones got to the right side
+
+PLAYER\_CHAR#2874 - Bug Bot on 2017-05-27T17:34:06.868Z
+
+
+### I was able to reproduce this, steps to reproduce provided by PLAYER_CHAR#2874: 
+
+- Be in a server with some custom emojis 
+- Post a message 
+- Put a custom reaction on it 
+- After that put a non-custom reaction on it 
+- Tell someone to click on reactions on your message in any order 
+- Reload your Discord client and look at your message
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 6489
+
+ - Alexandru Todea on 2017-10-28T07:22:15.659Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-10-28T07:28:29.133Z
+
+
+### Verified.  - Clayton on 2017-11-03T05:24:58.268Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:25:01.937Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:31.312Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

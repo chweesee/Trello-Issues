@@ -1,0 +1,78 @@
+[Archived] Discord crashes when a message fails to send due to losing wifi connection (https://trello.com/c/43DHumJJ)
+
+None
+
+Created: 2018-09-09T20:06:10.169Z
+Latest Update: 2019-02-15T03:30:21.114Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Type a message 
+- Send the message, and turn off your wifi before the message sends so it fails to send 
+- Alternatively, you can move around until you lose the wifi while sending the message
+
+####Expected result:
+Discord says the message failed to send and to retry
+####Actual result:
+Discord crashes
+####Client settings:
+TestFlight 2.3.8 (7106)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 12
+
+19346
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-09T20:06:10.169Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 12) - TestFlight 2.3.8 (7106)
+
+Xylium#1480 - Bug Bot on 2018-09-09T20:06:22.475Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 Developer Beta 12, TestFlight 2.3.8 (7106)
+
+Alfie#1582 - Bug Bot on 2018-09-09T20:06:24.998Z
+
+
+### Can reproduce.
+Could reproduce; iPhone 8, IOS 11.4.1; Testflight 2.3.8 (7106)
+
+OrangeM24#5746 - Bug Bot on 2018-09-09T20:06:29.038Z
+
+
+### Can reproduce.
+iPhone 5s, iOS 11.4.1 - TestFlight 2.3.8 (7106)
+
+juuyokka .#9097 - Bug Bot on 2018-09-10T18:26:27.648Z
+
+
+### Can reproduce.
+iPhone 6s • iOS 11.4.1 • TestFlight 2.3.8 (7106)
+
+Rage#9991 - Bug Bot on 2018-09-12T13:13:41.126Z
+
+
+### Moved from New Issues to Notable Issues by Clayton on 2018-09-20T00:22:54.550Z
+
+
+### Moved from Notable Issues to Claimed Fixed Bugs by Victoria on 2018-09-20T20:06:36.670Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Clayton on 2019-01-16T03:01:52.534Z
+
+
+### Archived by Bug Bot on 2019-02-15T03:30:21.124Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

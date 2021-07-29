@@ -1,0 +1,56 @@
+[Canary or PTB only] Twitch embeds wont play (https://trello.com/c/61Mcn7ju)
+
+None
+
+Created: 2020-07-16T11:11:56.641Z
+Latest Update: 2020-07-16T21:26:03.673Z
+
+Reported by Arnold0#7514
+
+####Steps to reproduce:
+- Be on canary or PTB 
+- Find a twitch embed you can play (can be a clip or live, does not matter) 
+- Try to play it 
+- Notice it does not load and stay grey on client, or show an error message on browsers 
+- Now try on stable and notice it plays fine there
+
+####Expected result:
+The twitch embed should play fine on canary/PTB like it does on stable
+####Actual result:
+Twitch embed stay grey on client/show an error message on browser
+####Client settings:
+Discord Canary 63333 / PTB 63325
+####System settings:
+Windows 10 x64 (2004), Canary client/Chrome 83.0.4103.116/Firefox 78.0.2
+
+58905
+
+Card Log
+========
+### Added by Bug Bot on 2020-07-16T11:11:56.641Z
+
+
+### Can reproduce.
+[CR] Windows, Mozilla Firefox, Discord Canary build 63380 (cbe7209c198a8f8c2a2fbc89dbb76e579b616ad6) //CR on PTB build too. Browser seems to be blocking the video from playing because of content security policy
+
+PerryPlatypus | NPTpn#0818 - Bug Bot on 2020-07-16T11:12:04.145Z
+
+
+### Can reproduce.
+[CR] Canary 63513 (4ff819c) - Windows 10 64-Bit (10.0.18362)
+
+UwU#3480 - Bug Bot on 2020-07-16T11:12:09.134Z
+
+
+### Can reproduce.
+PTB 63476 (743bb49) - Host 0.0.52 - Windows 10 64-Bit (10.0.19551)
+
+Lenny#7809 - Bug Bot on 2020-07-16T11:12:14.142Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

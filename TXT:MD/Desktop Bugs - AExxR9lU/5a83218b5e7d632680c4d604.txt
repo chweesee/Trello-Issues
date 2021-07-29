@@ -1,0 +1,66 @@
+[Archived] [macOS] Attempting to play Youtube in client while blocked by SelfControl causes client restart (https://trello.com/c/UjItkoWS)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-02-13T17:34:03.819Z
+Latest Update: 2018-07-05T19:34:32.884Z
+
+Reported by gupti#1210
+
+####Steps to reproduce:
+- Install and configure SelfControl to block , then run it 
+- Hit the play triangle on a youtube video thumbnail in chat to attempt to watch video within Discord
+
+####Expected result:
+Not reboot the client, perhaps display an error?
+####Actual result:
+Reboots the client back to the loading/quote screen
+####Client settings:
+Release Channel: stable, Build Number: 10394, Version Hash: 7553b167d8f0276f19ff85cf3d50ee41b0e7b752
+####System settings:
+MacBookAir7,1 , OS X 10.11.6
+
+8669
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-13T17:34:03.819Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 10601
+
+mrkirby153#7840 - Bug Bot on 2018-02-13T17:34:11.281Z
+
+
+### Can reproduce.
+CR, Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 10601
+
+Kuuhaku#4503 - Bug Bot on 2018-02-13T17:34:16.262Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.186 (Build: 10636)
+
+Pascal#0929 - Bug Bot on 2018-02-13T17:34:21.229Z
+
+
+### Verified.  - Clayton on 2018-02-15T23:08:21.386Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T23:08:24.702Z
+
+
+### Dupe of https://trello.com/c/YXqTQXuk/1490-discord-crash-if-twitter-is-blocked-when-loading-video - Jared on 2018-07-05T19:34:32.035Z
+
+
+### Archived by Jared on 2018-07-05T19:34:32.886Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

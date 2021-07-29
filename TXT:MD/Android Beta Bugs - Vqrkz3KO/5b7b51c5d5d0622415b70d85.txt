@@ -1,0 +1,71 @@
+[Archived] When there is a member whose Rich Presence's max party size exceeds the max signed Int32 value (2 ^ 31 - 1), the Android client becomes unusable in that server and the member list doesn't load due to an Exception being thrown which causes the WebSocket to infinitely restart. `Unable to parse model. java lang NumberFormatException: Expected an int but was 9007199254740991 at line 1 column 457 path $[0][1]` (https://trello.com/c/gYUFMSC3)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-20T23:41:57.227Z
+Latest Update: 2018-10-23T07:32:29.556Z
+
+Reported by Savannah🌿#4874
+
+####Steps to reproduce:
+- Join a server that has a member whose Rich Presence's max party size exceeds the signed Int32 max value
+
+####Expected result:
+The server shouldn't lag, the WebSocket's connection shouldn't be destroyed and restarted constantly, everything should be smooth in that server
+####Actual result:
+The server becomes laggy and the member list doesn't load
+####Client settings:
+Android Alpha 7.3.7
+####System settings:
+Android 6.0
+
+17950
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-20T23:41:57.227Z
+
+
+### Can reproduce.
+Can Reproduce ▪ Android v8.0.0 ▪ Samsung Galaxy S7 ▪ Discord Alpha v7.3.8
+
+Robin#1111 - Bug Bot on 2018-08-20T23:42:04.516Z
+
+
+### Can reproduce.
+Can Reproduce - Huawei P20 Android 8.1.0 - Discord Alpha 7.3.8 - Got my dev to give himself a rich presence that had a party size over the Int32 limit, caused the Discord Client to be infinitely connecting and refused to load member list, profiles or roles but could load messages fine and sending messages worked perfectly fine as well. [Repro'd this twice by having him enable it for a bit, disable it to see if the client went back to normal and then enable it again]
+
+SyntaxPrime#4495 - Bug Bot on 2018-08-20T23:42:09.572Z
+
+
+### Can reproduce.
+Can Reproduce | Samsung Galaxy S7 Edge, Android 8.0, Discord Alpha 7.3.8
+
+volcanicer#1122 - Bug Bot on 2018-08-20T23:42:14.590Z
+
+
+### Can reproduce.
+Lenovo Vibe C, Android 5.1.1
+
+Pridumalsam#8836 - Bug Bot on 2018-08-21T08:30:40.112Z
+
+
+### rare use case, moving to won't fix.  - Clayton on 2018-08-30T20:59:14.869Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Clayton on 2018-08-30T20:59:19.189Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than a month without any new activity. - Ghoul on 2018-10-23T07:32:28.760Z
+
+
+### Archived by Ghoul on 2018-10-23T07:32:29.559Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

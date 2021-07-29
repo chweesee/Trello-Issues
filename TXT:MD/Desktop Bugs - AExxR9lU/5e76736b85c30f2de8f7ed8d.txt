@@ -1,0 +1,73 @@
+Using context menu to paste in Firefox can result in a double paste (https://trello.com/c/uOsstK1g)
+
+None
+
+Created: 2020-03-21T20:04:59.826Z
+Latest Update: 2020-07-16T21:26:06.163Z
+
+Reported by vaindil#7363
+
+####Steps to reproduce:
+- Open Discord (stable or canary) in Firefox 
+- Put something on your clipboard 
+- Click outside of Firefox so that Firefox loses focus 
+- Right-click on the input box in Discord and choose Paste (paste might not be available the first time you right-click, so you may have to click out of Firefox and do it a second time)
+
+####Expected result:
+Contents of the clipboard should be pasted one time
+####Actual result:
+Contents of the clipboard are pasted twice
+####Client settings:
+Release Channel: stable, Build Number: 56252, Version Hash: a0f34898c1c82aa63ce17b93829fb4c67a74720c
+####System settings:
+Windows 10, Firefox 74.0 (stable)
+
+53572
+
+Card Log
+========
+### Added by Bug Bot on 2020-03-21T20:04:59.826Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.3; Discord Web Canary 56306 on Mozilla Firefox 74.0
+
+Jiralite#1207 - Bug Bot on 2020-03-21T20:05:07.451Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Web Canary (Build 56306), Mozilla Firefox 74.0
+
+Bryth#1086 - Bug Bot on 2020-03-21T20:05:12.426Z
+
+
+### Can reproduce.
+CR, stable 56417, Firefox Dev 75.0b6, Win10 v1709 x64 build 16299.1625 Education
+
+hopeless#1227 - Bug Bot on 2020-03-21T20:05:17.435Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Web Canary 56488, Mozilla Firefox 74.0
+
+SSalt#5041 - Bug Bot on 2020-03-24T11:29:46.753Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Discord Canary 56488 (Web), Firefox 74.0.
+
+Alister#0018 - Bug Bot on 2020-03-24T21:33:02.753Z
+
+
+### Can reproduce.
+CR. OS: Windows 10, Release Channel: stable, Build Number: 59879, Version Hash: 2446cbb20e427fc1e7130ec73569b52873d79964. Note: Using Ctrl+V also pastes twice.
+
+Nyan cat#8349 - Bug Bot on 2020-05-10T05:42:04.798Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

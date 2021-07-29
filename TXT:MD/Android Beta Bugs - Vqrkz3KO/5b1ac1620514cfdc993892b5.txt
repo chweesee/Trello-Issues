@@ -1,0 +1,87 @@
+[Archived] Scrolling down in channel list of a server and then switching to another server with unread messages in the first channels only will crash Discord upon tapping the New Unreads button (https://trello.com/c/ADy3GEk7)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2018-06-08T17:48:18.026Z
+Latest Update: 2019-01-01T23:07:29.181Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have two servers A and B with a lot of channels. There is one requirement: the server A mustn't have any uncategorized channels. It is easier to repro in Landscape mode as there is less channels in sight. 
+- In the server A, have all channels marked as read except the second one in the list (might work for first channel but inconsistent for me). It is important that no unread channel is present at the bottom 
+- Switch to server B 
+- Scroll all the way down in the channel list 
+- Switch to server A. You should see the New Unreads button at the top (appearing for no reason but whatever) 
+- Tap on it
+
+####Expected result:
+Nothing should happen. The button shouldn't even be there in the first place
+####Actual result:
+Discord crashes
+####Client settings:
+Discord Alpha 6.8.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13949
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-08T17:48:18.026Z
+
+
+### Can reproduce.
+Can Reproduce - Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.8.9
+
+Ori#1908 - Bug Bot on 2018-06-08T17:48:25.394Z
+
+
+### Can reproduce.
+Can reproduce - SM-G900F, Android 7.1.2 -- Discord Alpha 6.8.9
+
+BonusPlay#3122 - Bug Bot on 2018-06-08T17:48:30.377Z
+
+
+### Can reproduce.
+Can Reproduce, K20 V Android 7.0, Discord alpha 6.8.9
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-06-08T17:48:35.358Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.8.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-09T08:15:27.539Z
+
+
+### alternative repro steps related to: https://trello.com/c/cXaP4Ttn/1517-unread-indicator-does-not-update-dynamically-while-you-are-scrolling
+
+scroll up/down so there is an more unreads button, scroll up/down so all unreads are within view but do not release your finger, tap the unreads button with another finger (don't release your scroll finger) and it will crash - Tim on 2018-06-10T06:25:58.076Z
+
+
+### verified, one plus 6, android 8.0, 6.8.9 - Clayton on 2018-06-11T20:41:53.649Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-11T20:42:02.013Z
+
+
+### can no longer reproduce as of 6.9.6 - Clayton on 2018-06-20T23:18:05.862Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Clayton on 2018-06-20T23:18:10.854Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:07:28.244Z
+
+
+### Archived by Tarek on 2019-01-01T23:07:29.183Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

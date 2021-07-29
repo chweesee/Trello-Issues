@@ -1,0 +1,126 @@
+[Archived] Long pressing on a message while in landscape mode will cause the pop up to appear lower in the screen than expected (https://trello.com/c/hhdRaV4C)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-12-24T15:58:03.096Z
+Latest Update: 2020-02-20T21:35:07.677Z
+
+Reported by [TRED] AlFas#2783
+
+####Steps to reproduce:
+- Change to landscape mode 
+- Long press on a message 
+- Wait for the pop up to appear
+
+####Expected result:
+The pop up appears and with its appearance some options for the message  are shown
+####Actual result:
+When the pop up appears not even the header bar is fully visible (app probably takes the portrait mode offset into consideration)
+####Client settings:
+Discord Alpha 5.9.7
+####System settings:
+Android 7.0
+
+7335
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-24T15:58:03.096Z
+
+
+### Can reproduce.
+Xperia Z5 - Android 7.1.1, Alpha 5.9.7. You can pull the screen up to see the rest of the options on my screen only the title bar appears and the message text at first.
+
+Dunciboy#2559 - Bug Bot on 2017-12-24T15:58:10.690Z
+
+
+### Can reproduce.
+CR Kyocera Hydro Wave Android 5.1 Discord 5.9.7
+
+Okori#0902 - Bug Bot on 2017-12-24T15:58:15.731Z
+
+
+### Can reproduce.
+Can Reproduce, ZTE obsidian, Android 5.1, Discord 5.9.7
+
+Lunʌrᴮᵒᵗ#5846 - Bug Bot on 2017-12-24T15:58:20.695Z
+
+
+### This is very likely desired behavior given that in landscape mode the screen is not tall enough.
+
+Could use a bit of padding though. - Miguel Gaeta on 2017-12-25T19:56:16.858Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-28T08:23:12.546Z
+
+
+### Lava#9562 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a3fce8bb35541b6422674df/c3fb5cc447fdf5188df1dd67fb6b84e9/wo1f.png added by Bug Bot on 2018-07-16T03:52:17.074Z
+
+
+### Lava#9562 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a3fce8bb35541b6422674df/7f61257c07520527e74edd8f6d7d1428/v078.png added by Bug Bot on 2018-07-16T03:52:45.971Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:50.947Z
+
+
+### Can reproduce.
+Samsung Galaxy S9+ Android 9.0 8.5.8
+
+Zacatero#0001 - Bug Bot on 2019-03-16T01:38:18.252Z
+
+
+### Unarchived by Bug Bot on 2019-03-16T02:00:06.786Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:28.070Z
+
+
+### Can reproduce.
+CR, Android Alpha 9.8.6 Huawei P Smart, Android 9
+
+Dragonic#0007 - Bug Bot on 2019-11-17T12:06:19.779Z
+
+
+### Unarchived by Bug Bot on 2019-11-17T12:30:04.783Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Donald Chen on 2019-11-21T21:30:17.122Z
+
+
+### Can't reproduce.
+Huawei Honor 8 Pro, Android 9, Alpha 9.9.1
+
+Niko#8828 - Bug Bot on 2019-11-23T02:27:34.502Z
+
+
+### Can't reproduce.
+CNR, Huawei Honor 8 Pro, Android 9, Alpha 9.9.1
+
+Niko#8828 - Bug Bot on 2019-11-23T05:18:49.462Z
+
+
+### Can't reproduce.
+CNR, Samsung Galaxy S8 Android 8, Alpha 9.9.1
+
+Action Potential#6862 - Bug Bot on 2019-11-23T19:35:55.228Z
+
+
+### Can't reproduce.
+CNR, OnePlus 6, Android 9, Discord 9.9.1
+
+Krypton#3342 - Bug Bot on 2019-11-24T01:56:57.932Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-11-24T01:56:58.315Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:35:07.691Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/donaldchen13) - No Bio

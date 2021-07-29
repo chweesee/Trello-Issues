@@ -1,0 +1,33 @@
+Creating a server template and moving a channel to uncategorized does not sync in preview (https://trello.com/c/4fzKb5Em)
+
+None
+
+Created: Unknown
+Latest Update: 2020-06-10T15:06:06.923Z
+
+**Short Description:** Creating a server template and moving a channel to uncategorized does not sync in preview
+**Steps to reproduce:**
+-have a server with a channel in a category
+-create a server template
+-move the channel to uncategorized above all the channels
+-go to server template in settings
+-click sync
+-press preview 
+
+**Expected Results:** The channel syncs in preview, shows the channel above all channels in uncategorized
+**Actual Results:** The channel does not sync in preview, and remains in the category that the template was first created with
+**Client Settings:** Canary 56789 (fc465d8)
+**System Settings:** Windows 10 64-Bit (10.0.18362)
+
+
+Card Log
+========
+None
+
+List
+====
+Server Templates!
+
+Members
+=======
+None

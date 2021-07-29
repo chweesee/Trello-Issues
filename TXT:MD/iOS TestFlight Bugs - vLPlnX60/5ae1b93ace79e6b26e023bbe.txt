@@ -1,0 +1,126 @@
+[Archived] Friend request button stays grey when adding and removing them in profile (Also Visible/beeing seen on iPad) (https://trello.com/c/uSDlm1ru)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-04-26T11:34:18.810Z
+Latest Update: 2019-09-22T15:00:29.839Z
+
+Reported by Xylium#1480
+
+####Steps to reproduce:
+- (I used my alt) Go to your alt its profile 
+- Add it as friend 
+- Click the 3 dots in profile  
+- Click add friend 
+- Let them accept 
+- Remove them via the alt account
+
+####Expected result:
+The grey button should turn back green
+####Actual result:
+Green button stays grey for a while
+####Client settings:
+TestFlight 2.3.0 (3871)
+####System settings:
+iPhone 6, iOS 11.4 & iPad 2nd generation iOS 9.3.5 - Stable 2.3.0
+
+11326
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-26T11:34:18.810Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ae1b93ace79e6b26e023bbe/d6e522d1c243e2d71be4fdaba7f766d0/image.png added by Bug Bot on 2018-04-26T11:34:21.234Z
+
+
+### Can reproduce.
+Can Reproduce iPhone 6s iOS 11.2.6 TestFlight 2.3.0 (3817) - iPad 2nd generation iOS 9.3.5 Stable 2.3.0 - This also results in showing that you sent a request from the second account despite not having sent one
+
+Rashaun#9295 - Bug Bot on 2018-04-26T11:34:26.114Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 2, TestFlight 2.3.0 (3817) - It only happens when your alt account removes you as a friend
+
+Pascal#0929 - Bug Bot on 2018-04-26T11:34:31.135Z
+
+
+### Can reproduce.
+My alt has to remove me. iPhone 6 11.2.3, Testflight 2.3.0 & iPhone 6 9.3.5, Discord 2.3.0
+
+Gamefre1#0894 - Bug Bot on 2018-04-26T11:34:36.293Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:53:02.458Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:53:05.414Z
+
+
+### only happens when your alt removes u
+
+Xylium#1480 - Bug Bot on 2018-07-01T01:40:14.768Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:16.059Z
+
+
+### **Extension to this issue**
+Accept/ignore friend request button not working: https://trello.com/c/cgy4ZMzN - Pascal on 2019-06-15T12:54:41.603Z
+
+
+### Unarchived by Bug Bot on 2019-06-15T13:00:05.380Z
+
+
+### Archived by Bug Bot on 2019-07-15T13:30:04.795Z
+
+
+### Can reproduce.
+iPad Air 3, Discord 3.0.9 also happens after you send a friend request, then block, then unblock them
+
+SomethingMysterious#3933 - Bug Bot on 2019-08-03T18:55:34.745Z
+
+
+### Unarchived by Bug Bot on 2019-08-03T19:00:09.304Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.1 (16898) with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-08-22T20:22:21.213Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-08-22T20:22:34.478Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.4 TestFlight 3.1.1 (16958)
+
+binchlord#0998 - Bug Bot on 2019-08-22T23:41:23.403Z
+
+
+### Can't reproduce.
+iphone 5c ios 10.3.3, TestFlight 3.1.1 (16958)
+
+OrangeM24#5746 - Bug Bot on 2019-08-23T04:39:21.036Z
+
+
+### Can't reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.1 (16958)
+
+Jeffrey#1234 - Bug Bot on 2019-08-23T14:48:42.978Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-08-23T14:48:43.693Z
+
+
+### Archived by Bug Bot on 2019-09-22T15:00:29.851Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,98 @@
+Discord application tester emails have an object address instead of the game's name (https://trello.com/c/ty7OfUWy)
+
+None
+
+Created: 2019-01-26T12:04:29.431Z
+Latest Update: 2019-07-27T10:21:35.309Z
+
+Reported by ginkoid#8888
+
+####Steps to reproduce:
+- Go to the discord developer console (https://discordapp.com/developers/applications) 
+- Use an existing application or Create a new application 
+- Go to "app whitelist" on the sidebar 
+- Invite an alt account 
+- Observe the game name in the email that you received on the alt account's email
+
+####Expected result:
+The game's name should be in the email
+####Actual result:
+The game's name is replaced by a memory address on the discord server (like "object at 0x7f2f9f4ec650")
+####Client settings:
+There's no version in the console, so the canary developer portal on 2019-01-26
+####System settings:
+Chrome Stable 71.0.3578.98, Windows Home 1809
+
+27066
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-26T12:04:29.431Z
+
+
+### Can reproduce.
+Can reproduce, Firefox browser Version 64.0.2 (64-bit), Windows 7 (Discord Canary 31316, Windows 7 64-bit)
+
+Skyla#7948 - Bug Bot on 2019-01-26T12:04:36.822Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Google Chrome 71.0.3578.98
+
+Daffyduck#5364 - Bug Bot on 2019-01-26T12:04:41.768Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803 Google Chrome Version 71.0.3578.98
+
+Spooker#0001 - Bug Bot on 2019-01-26T12:04:46.804Z
+
+
+### Spooker#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c4c4ccd6bcae623aaf9b82b/52f2fb5e56133a111e6f07df8958c75a/Screenshot_72.png added by Bug Bot on 2019-01-26T12:05:57.200Z
+
+
+### Can reproduce.
+CR, macOS 10.14.3, Chrome 71.0.3578.98
+
+Action Potential#2494 - Bug Bot on 2019-01-26T14:28:12.673Z
+
+
+### Can reproduce.
+Chrome 71.0 Windows 10 Pro x64
+
+Delite#0001 - Bug Bot on 2019-01-30T15:24:31.797Z
+
+
+### Can reproduce.
+Windows 10 Home; Google Chrome Chrome 71.0.3578.98
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-01T01:18:52.423Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Web Stable 31908 - Firefox v65.0 (64-bit)
+
+Isabel#0002 - Bug Bot on 2019-02-09T02:20:19.892Z
+
+
+### Can Not Reproduce - Also the unstyled text "You've been invited" is also fixed: Windows 10 Pro x64, Chrome Version 75.0.3770.100 (64-bit)
+Moving to Claimed Fixed. - Aeria on 2019-07-12T16:35:47.655Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-07-12T16:35:50.957Z
+
+
+### Cannot reproduce with MacBook Pro 13" (2016) running macOS Mojave 10.14.5.
+
+Moving to Verified Fixed list. - Pascal on 2019-07-18T15:11:09.170Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Pascal on 2019-07-18T15:11:16.642Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

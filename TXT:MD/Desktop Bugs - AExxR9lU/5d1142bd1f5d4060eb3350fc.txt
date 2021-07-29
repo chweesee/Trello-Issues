@@ -1,0 +1,137 @@
+[Archived] Using the new Streaming feature while in a voice channel in a different server causes you to go Live momentarily (https://trello.com/c/oh3f6kRY)
+
+None
+
+Created: 2019-06-24T21:38:06.026Z
+Latest Update: 2019-08-21T04:30:41.207Z
+
+Reported by Matcha#0004
+
+####Steps to reproduce:
+- Run a streamable game 
+- Join voice channel in any server 
+- Switch to server with Streaming feature 
+- Click the Stream button above user info 
+- Click 'Go Live' 
+- Switch back to the voice server
+
+####Expected result:
+Upon clicking 'Go Live' it should begin streaming, or alert you that you're in a different server.
+####Actual result:
+Everyone in the call will hear the 'Live' sound ping and the 'Live' tag will appear quickly before disappearing.
+####Client settings:
+Release Channel: stable, Build Number: 40281, Version Hash: 79ba12598fc535bfa88b727dd89757e8b7c3b3f0
+####System settings:
+Windows 10 Pro
+
+38386
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-24T21:38:06.026Z
+
+
+### mrphilip#7368 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d1142bd1f5d4060eb3350fc/4baacb6ec89b359bce32b4a10104c562/jRxUfXD.gif added by Bug Bot on 2019-06-24T21:38:11.333Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 40281 (0.0.245) ~ doesn't work if muted
+
+Alipoodle#5025 - Bug Bot on 2019-06-24T21:38:13.635Z
+
+
+### Can reproduce.
+cr Windows 10 1903 canary 40281
+
+GlenMerlin#2119 - Bug Bot on 2019-06-24T21:38:18.621Z
+
+
+### Can reproduce.
+CR // Windows 10 // Stable 40281
+
+Indiana#6009 - Bug Bot on 2019-06-24T21:38:23.614Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.175), Discord Canary 40281
+
+||Kissa||#1337 - Bug Bot on 2019-06-24T21:56:25.535Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) / Discord stable, Build Number:40281.
+
+Titanbus#6969 - Bug Bot on 2019-06-24T23:09:15.489Z
+
+
+### Can reproduce.
+Windows 10, x64, canary, Build Number: 40273
+
+PepsiPlayzz#2800 - Bug Bot on 2019-06-25T00:47:55.435Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.245 Build 40281
+
+Daffyduck#5364 - Bug Bot on 2019-06-25T05:01:50.592Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 40281
+
+AHkhan#4760 - Bug Bot on 2019-06-25T06:55:41.497Z
+
+
+### Can reproduce.
+CR Windows 10 Professional Canary 40821
+
+Typhoon#3514 - Bug Bot on 2019-06-25T14:38:11.508Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40281
+
+Xylium#5800 - Bug Bot on 2019-06-25T15:01:31.705Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 40281
+
+Jasοn#0001 - Bug Bot on 2019-06-25T16:48:25.588Z
+
+
+### Can reproduce.
+CR Windows 10 Home v1803 (64-bit) Canary Build Number: 40281
+
+ImmortaLemur#2998 - Bug Bot on 2019-06-25T19:25:38.346Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) / Discord stable, Build Number:40271.
+
+Krybskytten#8992 - Bug Bot on 2019-06-25T22:33:42.118Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 40522 (Host 0.0.245)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-01T13:25:09.750Z
+
+
+### Cannot reproduce on Canary 41583, Windows 10 Home 64-bit (v1903).
+
+Moving to Cannot Reproduce. - Ene on 2019-07-22T04:02:38.461Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Ene on 2019-07-22T04:02:42.540Z
+
+
+### Archived by Bug Bot on 2019-08-21T04:30:41.218Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,93 @@
+[Archived] Users actions in audit logs show the same user for doing the action and receiving the action (https://trello.com/c/7074E161)
+
+None
+
+Created: 2018-10-25T04:59:04.673Z
+Latest Update: 2019-02-15T03:30:19.607Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to a server where you can view the audit log 
+- Have a bot update roles for a user, or update roles for another user 
+- Go into the audit log and view the entry about updating roles
+
+####Expected result:
+Entry shows both usersA
+####Actual result:
+Audit log shows the user who did the action in both spots
+####Client settings:
+TestFlight 2.4.0 (8616)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta 4
+
+22077
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-25T04:59:04.673Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1 Beta (16B5084a) - TestFlight 2.4.0 (8616)
+
+william#0002 - Bug Bot on 2018-10-25T04:59:12.015Z
+
+
+### Can reproduce.
+iPhone XS Max running iOS 12.1 Dev Beta 2, TF 2.4.0 (8616)
+
+Ghoul#0099 - Bug Bot on 2018-10-25T04:59:16.988Z
+
+
+### Can reproduce.
+CR, iPod touch 6th generation, iOS 12.0.1, TestFlight 2.3.9 (8616)
+
+🍂nickWtn🍂#3789 - Bug Bot on 2018-10-25T04:59:21.959Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 (dev beta 5) - TestFlight 2.4.0 (8616)
+
+Xylium#1480 - Bug Bot on 2018-10-25T07:20:08.571Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1 Dev Beta 5 - TestFlight 2.4.0 (8616)
+
+Alfie#1582 - Bug Bot on 2018-10-25T07:45:13.767Z
+
+
+### Can reproduce.
+iPhone XS, iOS 12.1 dev beta 5, TF 2.4.0 (8616)
+
+Tiemen#0001 - Bug Bot on 2018-10-25T13:18:18.007Z
+
+
+### Moved from New Issues to Audit Log Bugs by Jeff Cailteux on 2018-10-25T16:31:31.210Z
+
+
+### Moved from Audit Log Bugs to Fix made, not yet released by Jeff Cailteux on 2018-10-25T17:20:42.656Z
+
+
+### Can reproduce.
+iPhone 5S, iOS 12, App version: 2.4.0
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-25T18:25:33.954Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Victoria on 2018-11-02T22:04:54.678Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Clayton on 2019-01-16T03:00:48.292Z
+
+
+### Archived by Bug Bot on 2019-02-15T03:30:19.622Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

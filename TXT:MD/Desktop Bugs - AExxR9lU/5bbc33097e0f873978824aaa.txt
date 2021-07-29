@@ -1,0 +1,90 @@
+[Archived] On Electron 3.0.3/Canary 0.0.215 there is no warnings in console anymore about running stuff in console (https://trello.com/c/cpbtsCXc)
+
+None
+
+Created: 2018-10-09T04:48:09.852Z
+Latest Update: 2019-01-01T15:51:46.742Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Be on Electron 3.0.3/Canary 0.0.215/0.0.195/0.0.55 
+- Open the dev console with CTRL + SHIFT + I (CMD + SHIFT + I on macOS) 
+- Observe there is no warnings at all about running stuff in console (the warning to stop social engineering)
+
+####Expected result:
+There should be big warnings about running copying/pasting stuff into console
+####Actual result:
+There is no warnings
+####Client settings:
+Discord Canary 0.0.215 (25718)
+####System settings:
+Windows 10 Pro 64-bit (1809)
+
+20853
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-09T04:48:09.852Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64 (17134). Discord Canary 25718
+
+coolalmostchilly#1015 - Bug Bot on 2018-10-09T04:48:17.142Z
+
+
+### Can reproduce.
+Can Reproduce Windows 10.0 Build 17134, Discord Build 25718, only works after refreshing Discord (Ctrl+R) after the update
+
+aditya#0001 - Bug Bot on 2018-10-09T04:48:22.200Z
+
+
+### Can reproduce.
+Can Reproduce - This has been happening to me for several days - Canary Build 25718 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-10-09T04:48:27.150Z
+
+
+### This seems to be a race bug, my suspicion is that it happens straight after a native build update and not JS updates.   - Tarek on 2018-10-09T04:49:05.567Z
+
+
+### Moved from User Reported Bugs to Electron 3.0.1 Update Bugs 🍒 by Tarek on 2018-10-09T04:49:10.098Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 25718
+
+Neiron#2406 - Bug Bot on 2018-10-09T18:32:05.603Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709, Canary 26007
+
+zephr#1634 - Bug Bot on 2018-10-11T12:30:01.314Z
+
+
+### I can't repro this anymore? The HOLD UP message appears to still be there? - Amadeus on 2018-10-23T20:21:35.926Z
+
+
+### I can't repro this either. /shrug - Clayton on 2018-11-07T05:03:10.083Z
+
+
+### Moved from Electron 3.0.1/3.0.3/3.0.5 Update Bugs 🍒 to Claimed Fixed, needs Verification by Clayton on 2018-11-07T05:03:18.717Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-14T21:11:14.947Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:51:46.146Z
+
+
+### Archived by Tarek on 2019-01-01T15:51:46.745Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

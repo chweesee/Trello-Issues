@@ -1,0 +1,112 @@
+[Archived] Voice chat debug menu does not recognize when you mute your mic (https://trello.com/c/R2YtgzUs)
+
+P2: Fix can wait a while
+
+Created: 2017-08-13T16:37:53.374Z
+Latest Update: 2017-11-15T19:30:31.385Z
+
+Reported by My Dudes#1174
+
+####Steps to reproduce:
+- Go into voice chat 
+- Click the Connection Info button in the bottom left next to the disconnect 
+- Click Debug in the bottom left 
+- Click Flags 
+- Mute your client with a bind
+
+####Expected result:
+The "Not Muted" flag should turn into an X
+####Actual result:
+The flag stays checked whether your mic is muted or not.
+####Client settings:
+Discord Canary 0.0.163
+####System settings:
+Windows 10 Pro x64 (v1703)
+
+3181
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-13T16:37:53.374Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro
+
+Nelson1348#9190 - Bug Bot on 2017-08-13T16:38:01.192Z
+
+
+### Can reproduce.
+Can reproduce, bug also works when you muted yourself in advance. | Windows 10 x64 1703 - Discord canary 0.0.163
+
+Tobias#5233 - Bug Bot on 2017-08-13T16:38:06.206Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163, Windows 10 Home x64
+
+Derpyhsi#8115 - Bug Bot on 2017-08-13T16:38:11.207Z
+
+
+### Can reproduce.
+MacBook Air 10.12.4, Desktop Canary 0.0.154
+
+Shadow#8337 - Bug Bot on 2017-08-13T17:57:59.179Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-14T01:29:01.952Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Windows 7 x86
+
+Lord GabeN#9378 - Bug Bot on 2017-08-14T07:33:34.842Z
+
+
+### Can reproduce.
+Windows 10 x64 Discord 0.0.163 (Canary)
+
+wv#3076 - Bug Bot on 2017-08-14T12:39:31.749Z
+
+
+### Can reproduce.
+Windows 10 x64 Discord 0.0.163 (Canary)
+
+wv#3076 - Bug Bot on 2017-08-14T12:40:16.211Z
+
+
+### Verified.  - Clayton on 2017-08-14T19:22:40.467Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-14T19:23:01.458Z
+
+
+### I can no longer reproduce this, it's not a valid report anymore with the new debug menu. 
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5085 - Alexandru Todea on 2017-09-29T15:31:06.401Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-29T15:31:12.615Z
+
+
+### Fixed/obsolete - Clayton on 2017-10-04T01:00:13.209Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T01:00:17.250Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:30:30.047Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:30:31.387Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

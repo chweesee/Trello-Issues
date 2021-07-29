@@ -1,0 +1,89 @@
+[Archived] Leaving a server causes the emojis of other servers you visited previously to disappear (https://trello.com/c/8F3huTHG)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-06-03T10:57:39.437Z
+Latest Update: 2019-01-01T23:09:43.455Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Be part of 4 servers (let's say A, B, C, D) with custom emojis added. You can test with much more than 4 servers, it may increase your success rate 
+- Boot up the app 
+- Switch to server A 
+- Open your emoji picker to ensure emojis from server A are correctly loaded 
+- Do the same for servers B and C  
+- Now switch to server D 
+- Leave the server D 
+- Return to servers A, B and C and check the emoji picker for each of them 
+- If you cannot reproduce, try again after clearing your app data or uninstall/reinstall Discord and login back. The cache may cause inconsistencies.
+
+####Expected result:
+Custom emojis for all servers should always be available
+####Actual result:
+Some of the servers you previously visited will have their custom emojis disapear from your emoji picker, and you cannot use them, even when typed out, until app is restarted
+####Client settings:
+Discord Alpha 6.8.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13708
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-03T10:57:39.437Z
+
+
+### Can reproduce.
+Can Reproduce, tried multiple times with multiple server combinations, both using clear data method and uninstalling method. Can also be Reproduced if joining a new server at the end, instead of leaving one keeping all the other steps same -- Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.8.7
+
+Ori#1908 - Bug Bot on 2018-06-03T10:57:46.924Z
+
+
+### Can reproduce.
+Android 7.0 Discord 6.8.7 (LG Stylo 3)
+
+Melody#7777 - Bug Bot on 2018-06-03T10:57:51.900Z
+
+
+### Can reproduce.
+This has happened to me before but I couldn't get solid repro steps. Thanks! Moto E4 Plus - Android 7.1.1 (Nougat) - Discord Alpha 6.8.7
+
+StupidDroid#6253 - Bug Bot on 2018-06-03T10:57:56.907Z
+
+
+### Leaving a server is definitely not the only way to trigger this bug. It may also happen randomly while chatting. But those steps are the only ones I found to reproduce this bug consistently
+
+Alex1304#9704 - Bug Bot on 2018-06-03T12:08:16.519Z
+
+
+### In some cases the emojis don't disappear immediately, you need to wait a while with the app open
+
+Alex1304#9704 - Bug Bot on 2018-06-03T13:16:49.112Z
+
+
+### verified, android 7.0, samsung s6 edge, 6.8.7 - Clayton on 2018-06-04T21:40:24.972Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-04T21:40:36.864Z
+
+
+### cnr 7.0.5 - Clayton on 2018-07-11T23:18:20.933Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Clayton on 2018-07-11T23:18:25.604Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:09:42.624Z
+
+
+### Archived by Tarek on 2019-01-01T23:09:43.457Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

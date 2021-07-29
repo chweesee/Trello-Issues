@@ -1,0 +1,72 @@
+Linux Stable Requires glibc 2.18 (https://trello.com/c/NkeobXwA)
+
+None
+
+Created: 2019-05-29T02:26:43.960Z
+Latest Update: 2019-09-17T11:12:50.310Z
+
+Reported by apt-get moo#4431
+
+####Steps to reproduce:
+- Check which version of glibc you are running: `file ` -> ` symbolic link to \`'` (rhel; for other distros it might be in ) 
+- If you are running glibc < 2.18, launch Discord as normal 
+- See the console for the traceback indicating glibc 2.18 is not found
+
+####Expected result:
+Discord launches as normal -- or indicates through dependencies that glibc 2.18 is required.
+####Actual result:
+The Discord crash screen is displayed.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 37253, Version Hash: 818758a6ad5e844be56a5ff543f0db672f01bc1c
+####System settings:
+Scientific Linux release 7.5, from RHEL 7.5. Kernel
+
+34381
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-29T02:26:43.960Z
+
+
+### Can reproduce.
+Admin approving, brought up the ticket to a dev. they'll look into it tomorrow ish.
+
+Tarek#1337 - Bug Bot on 2019-05-29T02:26:51.390Z
+
+
+### Moved from User Reported to Notable Issues by Tarek on 2019-05-29T02:27:13.080Z
+
+
+### It is the `discord_zstd` node nodule that requires glibc 2.18. All other modules require at most 2.17. - Jozsef Vass on 2019-05-29T20:13:17.031Z
+
+
+### Moved from Notable Issues to Claimed Fixed by Jozsef Vass on 2019-06-03T16:15:18.566Z
+
+
+### Can't reproduce.
+CNR; Release Channel: stable, Build Number: 43884, Version Hash: db395cd15e857cf24b37959a16ab3dc574cb7fa0
+
+Visual#0404 - Bug Bot on 2019-08-17T14:51:52.433Z
+
+
+### Can't reproduce.
+CNR; Arch Linux 5.2.8-arch1-1-ARCH | Release Channel: stable, Build Number: 43884, Version Hash: db395cd15e857cf24b37959a16ab3dc574cb7fa0
+
+Visual#0404 - Bug Bot on 2019-08-17T14:54:45.459Z
+
+
+### Can't reproduce.
+Can no longer reproduce; Ubuntu 19.04; PTB 45429
+
+Dam#6862 - Bug Bot on 2019-09-11T01:51:10.857Z
+
+
+### Moved from Claimed Fixed to Verified Fixed by Aeria on 2019-09-17T11:12:50.272Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

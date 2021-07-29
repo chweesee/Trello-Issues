@@ -1,0 +1,83 @@
+[Archived] Streamer mode stuck (https://trello.com/c/Zcw25NuJ)
+
+P2: Fix can wait a while
+
+Created: 2016-12-22T15:35:27.463Z
+Latest Update: 2017-11-15T18:56:55.878Z
+
+Reported by Traderain#3279
+
+####Steps to reproduce: 
+- launch obs 
+- restart pc 
+- Launch Discord
+
+####Expected result:
+ Normal discord 
+####Actual result:
+ You are in streamer mode even tho obs isnt running 
+####System settings:
+ Win7 Home Premium Latest Stable Discord
+
+Card Log
+========
+### Added by Jared on 2016-12-22T15:35:27.463Z
+
+
+### Can reproduce.
+Canary Windows 10
+
+Minn⛄#6688 - Jared on 2016-12-22T15:36:11.574Z
+
+
+### Can reproduce.
+Windows 7 x64, Latest Canary
+
+Ian Murray#8701 - Jared on 2016-12-22T15:39:01.947Z
+
+
+### Sidenote: Stuck is not a good word to describe this, you stay in streamer mode upon restarting but you can turn it off by clicking the button on the banner
+
+Dougley#6248 - Jared on 2016-12-22T15:40:15.539Z
+
+
+### Faster way to repro:
+* Launch OBS
+* Force Kill Discord (taskkill /im DiscordCanary.exe /f in Run prompt or CMD)
+* Close OBS
+* Open Discord
+Steps by Ian Murray#8701
+
+Dougley#6248 - Jared on 2016-12-22T15:41:46.463Z
+
+
+### Can reproduce.
+linux arch 0.11
+
+mralext20#8975 - Jared on 2016-12-22T17:57:33.626Z
+
+
+### Verified. - Jared on 2017-01-03T19:16:06.330Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T19:27:59.399Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2017-10-04T21:07:25.990Z
+
+
+### Won't fix, it's just the way the system works. - Jared on 2017-10-04T21:07:55.716Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T18:56:55.267Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T18:56:55.880Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,76 @@
+[Archived] When opening Steam URL links like for Steam Controller configurations, after closing the window Discord will un-maximize (https://trello.com/c/Otq5Z1dj)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-17T02:29:21.285Z
+Latest Update: 2018-10-22T20:27:52.418Z
+
+Reported by Helmic#3865
+
+####Steps to reproduce:
+- Send this URL in a message in Discord: steam://controllerconfig/750920/1514956276 
+- Click the link 
+- When the window pops up, close it.
+
+####Expected result:
+Discord isn't supposed to be stealing focus or changing window size when you're working in other windows.
+####Actual result:
+Discord un-maximizes or un-minimizes, stealing focus despite the fact you closed a completely unrelated window..
+####Client settings:
+Windows 10 Stable, build number 23837
+####System settings:
+Windows 10 Pro version 1803
+
+19765
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-17T02:29:21.285Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Build 1803, Canary Build Number: 23837
+
+JVC Almeos#1984 - Bug Bot on 2018-09-17T02:29:28.634Z
+
+
+### Can reproduce.
+Can repro on Windows 10 Home; Canary Build 23837
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-09-17T02:29:33.686Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1803), Discord Canary 23011
+
+54D#1357 - Bug Bot on 2018-09-17T02:29:38.614Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 23837
+
+Neiron#2406 - Bug Bot on 2018-09-17T13:37:01.844Z
+
+
+### verified, win10, canary 23837 - Clayton on 2018-09-17T22:03:44.905Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-17T22:03:52.520Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 23990
+
+Frances Picard#6209 - Bug Bot on 2018-09-18T12:43:18.511Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:52.420Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

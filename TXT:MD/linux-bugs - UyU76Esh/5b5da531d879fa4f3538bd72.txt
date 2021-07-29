@@ -1,0 +1,88 @@
+[VIDEO] You are able to open the @ mention button on the top right without actually pressing on the button (https://trello.com/c/B1NIhEZ2)
+
+P3: Will eventually be fixed,
+low
+
+Created: 2018-07-29T11:29:53.442Z
+Latest Update: 2018-09-01T05:07:46.508Z
+
+Reported by Jiiro#0001
+
+####Steps to reproduce:
+- Open Discord 
+- Go to a Discord server 
+- Press around the @ mention button without trying to make the cursor curl up into a point (if that makes sense)
+
+####Expected result:
+Mentions aren't supposed to open if it isn't being selected
+####Actual result:
+Mentions can be opened without actually clicking on the icon
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 20174
+####System settings:
+[SPECIFIC DISTRO AND VERSION] - OS: Ubuntu 18.04.1 LTS x86_64
+
+16256
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-29T11:29:53.442Z
+
+
+### Jiiro#0001 - https://www.youtube.com/watch?v=7R9Q--X5EKc added by Bug Bot on 2018-07-29T11:29:55.794Z
+
+
+### Can reproduce.
+You can open it, but you can't close it with the same cursor position. ArchLinux x64 - Linux Kernel 4.17.10-1 - GNOME 3.28.2 - Discord Canary Build 20174
+
+Frances Picard#6209 - Bug Bot on 2018-07-29T11:30:00.759Z
+
+
+### Can reproduce.
+Can reproduce, Ubuntu 18.04 amd64, Canary 0.0.53 Build 20088
+
+Lava#9562 - Bug Bot on 2018-07-29T11:30:05.742Z
+
+
+### Can reproduce.
+Can reproduce. Arch Linux, Kernel 4.17.10-1-ARCH, KDE Plasma 5.13.5, Canary 0.0.53 (20174)
+
+Tonkku#0950 - Bug Bot on 2018-07-29T11:30:10.753Z
+
+
+### Can reproduce.
+CR "mentions" open on click under @. Ubuntu 16.04 x86_64 4.15.0-29-generic , Discord Canary Build 20174
+
+Frovy#6820 - Bug Bot on 2018-07-29T11:35:39.640Z
+
+
+### Can reproduce.
+Debian 9.5 Stretch Canary 20174
+
+R0shi#9716 - Bug Bot on 2018-07-29T13:53:11.744Z
+
+
+### Can reproduce.
+Linux 4.15.0-24-generic x86_64 - Discord Stable Build: 22066
+
+Demiture#0069 - Bug Bot on 2018-08-17T10:08:01.053Z
+
+
+### verified, ubuntu 16.04 - Clayton on 2018-08-30T21:56:49.165Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-08-30T21:56:55.211Z
+
+
+### Can reproduce.
+also reproduced the open-only behavior reported by <@!141176098938421248> 4.17.0-kali3-amd64 #1 SMP Debian 4.17.17-1kali1 (2018-08-21), discord-ptb 0.0.9
+
+macplox#9104 - Bug Bot on 2018-09-01T05:07:46.509Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

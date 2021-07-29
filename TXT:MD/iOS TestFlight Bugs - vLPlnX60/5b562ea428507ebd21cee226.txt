@@ -1,0 +1,69 @@
+[Archived] Closing keyboard for any modal shows the page behind the modal (https://trello.com/c/wAwmI3YH)
+
+None
+
+Created: 2018-07-23T19:38:12.098Z
+Latest Update: 2018-09-19T17:14:59.283Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Open any modal that can open the keyboard (open the Quick Switcher for example) 
+- Close your keyboard 
+- Observe the bottom part (the part where your keyboard is placed) while closing your keyboard very closely
+
+####Expected result:
+You should see the normal background color of the modal/menu (in this case black for Quick Switcher)
+####Actual result:
+You will see the page/menu behind the current one during the closing animation of the keyboard.
+####Client settings:
+TestFlight 2.3.6 (6000)
+####System settings:
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 3
+
+15909
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-23T19:38:12.098Z
+
+
+### Can reproduce.
+CR, however you need to pay close attention as it happens very quickly. iPhone 7, iOS 12 Public Beta 3, TestFlight 2.3.6
+
+Marc#5983 - Bug Bot on 2018-07-23T19:38:19.635Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 (dev beta 4), TestFlight 2.3.6 (6000)
+
+Xylium#1480 - Bug Bot on 2018-07-23T19:38:24.619Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th generation, iOS 11.4.1, TestFlight 2.3.6 (6000)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-07-23T19:38:29.620Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Victoria on 2018-07-25T23:35:05.420Z
+
+
+### Can reproduce.
+CR. iPhone 6s - iOS 11.0 - TestFlight 2.3.6 (6095)
+
+Rage#9991 - Bug Bot on 2018-07-26T19:50:44.348Z
+
+
+### Archiving this ticket due to being in Won't Fix for more than a month with inactivity.  - Ghoul on 2018-09-19T17:14:55.335Z
+
+
+### Archived by Ghoul on 2018-09-19T17:14:59.284Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

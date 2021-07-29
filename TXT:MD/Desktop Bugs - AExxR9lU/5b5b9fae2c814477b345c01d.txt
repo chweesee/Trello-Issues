@@ -1,0 +1,120 @@
+[Archived] Discord cannot output emoji in code blocks (https://trello.com/c/N2InxTfA)
+
+None
+
+Created: 2018-07-27T22:41:50.929Z
+Latest Update: 2018-08-30T23:15:27.154Z
+
+Reported by Jiiro#0001
+
+####Steps to reproduce:
+- Use this: ```if (('`123')) {
+        ('1⃣')(r => {
+            ('2⃣')(r=> {
+                ('3⃣');
+            });
+        });
+    }``` 
+- You will see that the emojis don't output correctly 
+- Try to copy the 1 2 3 boxes and it will output correctly outside of the code blocks 
+- If you copy from the code blocks above to VSC or Atom, it will show the text as it is, try Googling the 2 Emoji and paste it into Discord, VSC, and Atom, they will render it correctly, Discord cannot render the number emojis in code blocks but renders basically everything else 
+- REMEMBER TO COPY AND REPLACE 2⃣ WITH 2️⃣
+
+####Expected result:
+Number emojis are supposed to render in code blocks, other emojis work
+####Actual result:
+Number emojis don't render in code blocks and frustrates the user
+####Client settings:
+Tested on: - Discord Canary Desktop v20088 -
+####System settings:
+Tested on: - Windows 10 Pro x64 1803
+
+16157
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-27T22:41:50.929Z
+
+
+### Can reproduce.
+can reproduce on Windows 10 Home 1803 x64, Discord Canary 20088
+
+violet#7184 - Bug Bot on 2018-07-27T22:41:58.354Z
+
+
+### Can reproduce.
+Discord Canary 19710, Windows 10 Home X64
+
+Scottmg#2966 - Bug Bot on 2018-07-27T22:42:03.269Z
+
+
+### Can reproduce.
+[Can Reproduce] Windows 10 Home x64 1803 w/ Discord Canary 20088
+
+Smanbg#9524 - Bug Bot on 2018-07-27T22:42:08.374Z
+
+
+### Can't reproduce.
+macOS 10.13.5, Canary 20044
+
+-Shadow-#6754 - Bug Bot on 2018-07-27T22:43:23.870Z
+
+
+### Can reproduce.
+MacBook Pro (13-inch, Mid 2012) High Sierra 10.13.4 Canary 0.0.251
+
+InkxtheSquid#0069 - Bug Bot on 2018-07-27T22:46:43.448Z
+
+
+### Happens on Chrome too in the search bar https://i.imgur.com/A3JJQHX.png
+
+Moving to not a bug, even the code block on Trello renders it incorrectly. - Tarek on 2018-07-27T22:46:49.479Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Tarek on 2018-07-27T22:46:55.322Z
+
+
+### Can't reproduce.
+macOS 10.13.5, MacBook Pro 2016 13inch, Canary 20044
+
+-Shadow-#6754 - Bug Bot on 2018-07-27T23:06:52.169Z
+
+
+### Ok, regarding my last comment. It's bit incorrect. Though still not a bug
+
+A few unicode emojis has this character http://www.fileformat.info/info/unicode/char/20e3/index.htm in the unicode characters. As you can see under the "Emoji" tab. - Tarek on 2018-07-27T23:07:24.778Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (April 2018) , Discord canary 20088
+
+Flame#9168 - Bug Bot on 2018-07-27T23:07:38.429Z
+
+
+### Can reproduce.
+Arch linux, discord canary
+
+GNUGradyn(っ◔◡◔)っ#0069 - Bug Bot on 2018-07-28T01:27:45.706Z
+
+
+### Can reproduce.
+Solus 3.999 Kernel 4.17.6-82 x64 16GB RAM -> Discord canary 20174
+
+TheOnlyArtz#5743 - Bug Bot on 2018-07-28T04:27:36.426Z
+
+
+### Can reproduce.
+Discord Canary 20174, Firefox Quantum 61.0.1, Windows 10 Pro x64 (1803)
+
+Delite#0001 - Bug Bot on 2018-07-28T12:17:45.884Z
+
+
+### Archived by Clayton on 2018-08-30T23:15:27.155Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

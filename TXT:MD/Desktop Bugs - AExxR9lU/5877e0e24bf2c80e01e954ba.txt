@@ -1,0 +1,78 @@
+[Archived] Cannot Reject Call From Private Call if Person Has Removed You as a Friend (https://trello.com/c/SJ626g4c)
+
+P2: Fix can wait a while
+
+Created: 2017-01-12T20:02:42.465Z
+Latest Update: 2018-07-06T17:44:16.030Z
+
+Reported by 七海 千秋 ★★★★#9667
+
+####Steps to reproduce: 
+- Add someone as a friend 
+- Send them a call 
+- Remove the friendship or block the user 
+
+####Expected result:
+ The other user will be able to reject the call 
+####Actual result:
+ The other user cannot reject the call, and is forced to accept it.
+
+Card Log
+========
+### Added by Jared on 2017-01-12T20:02:42.465Z
+
+
+### Can reproduce.
+Linux 0.13
+
+mralext20#8975 - Jared on 2017-01-12T20:02:43.088Z
+
+
+### Can reproduce.
+Win 10 Pro x64 AU, Canary
+
+Tiemen#0107 - Jared on 2017-01-12T20:02:43.198Z
+
+
+### Verified. - Jared on 2017-01-17T21:14:04.471Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-17T21:14:52.014Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Stanislav Vishnevskiy on 2017-10-09T06:28:35.490Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2017-10-11T08:27:21.090Z
+
+
+### Can't reproduce.
+MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-16T19:02:25.220Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T19:25:16.101Z
+
+
+### Cannot reproduce. Marking as Verified Fixed. - Jared on 2017-10-16T20:45:59.952Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-10-16T20:46:02.937Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:15:51.998Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:15:52.929Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/svishnevskiy) - No Bio

@@ -1,0 +1,75 @@
+[Archived] CSS width for file names are borked (https://trello.com/c/3jKlW5ng)
+
+None
+
+Created: 2016-11-15T17:48:50.156Z
+Latest Update: 2017-10-17T20:24:05.931Z
+
+Reported by Logiz#9321
+
+####Steps to reproduce: 
+- Upload file (.js file in my case) 
+- Observe the file name 
+
+####Expected result:
+ Width being wider to show at least some, if not all of the name 
+####Actual result:
+ Name is split into one letter on each line
+####System settings:
+Windows 10
+####Client version:
+Canary
+
+Card Log
+========
+### Added by Jared on 2016-11-15T17:48:50.156Z
+
+
+### eyJ1cmwiOiJodHRwOi8vcy5sb2dpei5uZXQvRGlzY29yZENhbmFyeV8yMDE2LTExLTE1XzE4LTQzLTQ4LnBuZyJ9.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/582b4a81e2dc554b6d3ac495/cc49a6e45842c5c252e65449f9e1d689/eyJ1cmwiOiJodHRwOi8vcy5sb2dpei5uZXQvRGlzY29yZENhbmFyeV8yMDE2LTExLTE1XzE4LTQzLTQ4LnBuZyJ9.png added by Jared on 2016-11-15T17:48:55.757Z
+
+
+### Can't reproduce.
+CSS seems not borked, on Latest, Ubuntu 16.04, Tried same filename
+
+Arsen#3291 - Jared on 2016-11-15T17:52:49.725Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Sam on 2016-11-15T17:59:27.919Z
+
+
+### Can reproduce.
+3jKlW5ng
+
+Dougley#6248 - Jared on 2016-11-15T18:14:05.099Z
+
+
+### Can reproduce.
+Windows 10 Pro Anniversary x64, Canary
+
+ThaTiemsz#5517 - Jared on 2016-11-15T18:18:22.295Z
+
+
+### Can't reproduce.
+Latest Canary, Win 10 AU
+
+Dragon5232#1841 - Jared on 2017-01-03T21:55:12.143Z
+
+
+### This was fixed a while back. - Jared on 2017-01-05T20:46:59.308Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-01-05T20:47:02.394Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:24:04.657Z
+
+
+### Archived by Jared on 2017-10-17T20:24:05.933Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

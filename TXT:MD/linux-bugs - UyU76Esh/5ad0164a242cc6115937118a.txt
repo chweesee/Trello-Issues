@@ -1,0 +1,66 @@
+Discord freezes when no notification daemon is running (https://trello.com/c/6nbEJpi2)
+
+P3: Will eventually be fixed,
+high
+
+Created: 2018-04-13T02:30:34.529Z
+Latest Update: 2020-01-12T14:29:00.821Z
+
+Reported by Joseph#8035
+
+####Steps to reproduce:
+- Open Discord and set status to online, enable desktop push notifications 
+- force kill the notification daemon 
+- Get someone to trigger notification (DM or server mention)
+
+####Expected result:
+Discord fails silently but continues to work
+####Actual result:
+Discord freezes, either until restart or for a long amount of time, most likely due to the notification send being blocked by no notification daemon
+####Client settings:
+Discord Canary build #11072
+####System settings:
+Arch Linux 4.15.3-1-ARCH, i3 version 4.14.1
+
+9105
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-13T02:30:34.529Z
+
+
+### simonizor#2560 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5ad0164a242cc6115937118a/02354b243656f5ee7f7bea6df38af033/RjR2l.png added by Bug Bot on 2018-04-13T02:30:37.633Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.45, build 11798, openSUSE Tumbleweed 20180307.  Discord freezes for about 30 seconds or so every time a notificatin is sent if the user does not have a notification daemon installed.  As there are multiple notification daemons that a user could have installed (and not just notify-osd), the real solution here is to make Discord aware that it failed to send a notification and not try to spam sending them which is what causes the client to freeze.  It's not really obvious that notifications are causing this to happen without the user doing a good deal of digging, so the option to turn off notifications is not sufficient for solving this issue.
+
+simonizor#2560 - Bug Bot on 2018-04-13T02:30:41.915Z
+
+
+### Can reproduce.
+CR, Discord Canary build 13532, Ubuntu 16.04
+
+IcyPebbles!#5833 - Bug Bot on 2018-04-13T02:30:46.873Z
+
+
+### Verified.  - Clayton on 2018-04-13T02:41:30.068Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-04-13T02:41:35.592Z
+
+
+### Discord uses Electron for notification. For Linux, Electron uses `libnotify` for desktop notification. Unfortunately, `libnotify` blocks when cannot send notification: https://github.com/GNOME/libnotify/blob/master/libnotify/notification.c#L595-#L610. Unfortunately, not many updates to this project.
+
+You can turn off Desktop Notification in Notification Settings or install a notification server (https://wiki.archlinux.org/index.php/Desktop_notifications). - Jozsef Vass on 2018-07-10T17:15:14.038Z
+
+
+### Moved from Discord Verified Bugs to Won't Fix/Not A Bug by Clayton on 2018-07-11T00:53:24.667Z
+
+List
+====
+Won't Fix/Not A Bug
+
+Members
+=======
+None

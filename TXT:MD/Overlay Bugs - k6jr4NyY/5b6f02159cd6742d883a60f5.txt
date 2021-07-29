@@ -1,0 +1,91 @@
+Clicking current voice channel in Overlay leads to a non-existent text channel (https://trello.com/c/HgYxXy2L)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-11T15:34:45.654Z
+Latest Update: 2019-11-09T22:44:20.634Z
+
+Reported by pixl#0001
+
+####Steps to reproduce:
+- Start game with overlay
+ 
+- Join a voice channel
+ 
+- Click voice channel link under Voice Connected
+
+####Expected result:
+Leads to the server and text client leads to a text chat in the server
+####Actual result:
+Leads to the server and opens voice chat as a text chat in the text client
+####Client settings:
+Release Channel: stable, Build Number: 21681
+####System settings:
+Windows 10 1607 x64
+
+17322
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-11T15:34:45.654Z
+
+
+### Can reproduce.
+CR, Windows 10 home 64-bit (1803); Discord Canary Build 21681
+
+Blitz#7736 - Bug Bot on 2018-08-11T15:34:52.969Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64-bit canary, Build Number: 21584(edited)
+
+Fibrous#0002 - Bug Bot on 2018-08-11T15:34:58.088Z
+
+
+### Can reproduce.
+CR, Windows 10 x64. Canary, 21425
+
+Zak - Inactive till 18th August#5879 - Bug Bot on 2018-08-11T15:35:03.032Z
+
+
+### Can reproduce.
+Win 10 home Single Language x64. Canary 21681
+
+Mr. Black#5859 - Bug Bot on 2018-08-11T16:04:00.802Z
+
+
+### verified, win 10, canary 22791 - Clayton on 2018-08-30T22:28:00.328Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 23506 it should be noted that it now it leads you  to the default/first channel all the way to the top of that channel now
+
+Azrael#6867 - Bug Bot on 2018-09-12T16:41:42.718Z
+
+
+### CNR - Clayton on 2018-10-05T23:43:36.318Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:48:15.871Z
+
+
+### Archived by Tarek on 2019-01-01T15:48:16.664Z
+
+
+### Reproducible on Windows 10 Home x64 v1903 - Discord Canary 0.0.258 Build 48618
+Moving to Reopened. - Aeria on 2019-11-05T16:10:37.653Z
+
+
+### Unarchived by Aeria on 2019-11-05T16:10:43.625Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-11-09T22:44:20.343Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

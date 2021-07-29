@@ -1,0 +1,110 @@
+Marking any message as unread if the message is the first message in the channel, makes the notification say the date correctly but the year as 1975 (https://trello.com/c/jgB3OSb8)
+
+None
+
+Created: 2020-02-23T20:56:07.302Z
+Latest Update: 2020-07-16T05:46:30.223Z
+
+Reported by serge#1560
+
+####Steps to reproduce:
+- Go to any new channel or channel without messages 
+- Send a message  
+- Go to any window that isn't that channel (I use the invite members screen) 
+- Go back to the channel 
+- See that the notification says the date correctly but the year is 1975
+
+####Expected result:
+It should say the year correctly
+####Actual result:
+It says the year is 1975
+####Client settings:
+Android Alpha 10.5.0(1038)
+####System settings:
+Samsung Galaxy S7 Edge, Android 8.0.0
+
+52774
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-23T20:56:07.302Z
+
+
+### Rohit#3523 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5e52e6e7ee1aa83ea8a14156/8b4d8d44f217be15df6f1a57c9a2616b/Screenshot_20200221-132737_Discord.jpg added by Bug Bot on 2020-02-23T20:56:10.537Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy S9+, Android 9.0, Discord 10.5.0
+
+Creedoo#3626 - Bug Bot on 2020-02-23T20:56:14.771Z
+
+
+### Can reproduce.
+cr, Samsung Galaxy A70, Android 10, discord 10.5.0
+
+ThaddeusKKR#4193 - Bug Bot on 2020-02-23T20:56:19.766Z
+
+
+### Can reproduce.
+CR; Samsung Galaxy J7 (2016) Android 8.1; Discord 1039
+
+ごるじょ-kun#0655 - Bug Bot on 2020-02-23T20:56:24.768Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 8.0.0, Discord 1037
+
+yoshi32#5034 - Bug Bot on 2020-02-23T21:01:10.671Z
+
+
+### Can reproduce.
+Discord 10.5.1 (1040), Samsung Galaxy A20, Android 9
+
+Nighty963#0001 - Bug Bot on 2020-02-23T21:01:46.184Z
+
+
+### Can't reproduce.
+Samsung Galaxy J5, Android 6.0.1, Discord 10.5.0 (1038)
+
+Khan10#0658 - Bug Bot on 2020-02-24T18:39:14.828Z
+
+
+### Thanks for reporting this! It looks like this is happening in app version 10.4.2 as well, so 10.5.0 isn't the first release with this bug. - Donald Chen on 2020-02-24T23:56:52.394Z
+
+
+### Can't reproduce.
+Samsung Galaxy Tab A, android 9, discord 11.0
+
+DragonCat116#6224 - Bug Bot on 2020-02-25T00:40:13.483Z
+
+
+### Can't reproduce.
+Cannot reproduce, Samsung Galaxy S10e, Discord 11.0, Android 10.
+
+Alister#0001 - Bug Bot on 2020-02-25T03:09:26.604Z
+
+
+### Can reproduce.
+Samsung Galaxy A70, Android 9, 10.5.0
+
+Ana940#0069 - Bug Bot on 2020-02-25T11:39:10.897Z
+
+
+### Can reproduce.
+HTC U12+, Android 9.0 - Alpha 11.4
+
+anonymous kitten#5379 - Bug Bot on 2020-03-01T03:11:50.694Z
+
+
+### Can reproduce.
+Moto G7, Android 9, Discord 20.4 (1126). Better described as "oldest" message, sounds possibly related to https://trello.com/c/oEztlVJu
+
+wakfi#6999 - Bug Bot on 2020-05-03T05:33:26.782Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,107 @@
+[Archived] Reset Voice Settings Loop (https://trello.com/c/Qog07qjj)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-31T11:45:48.160Z
+Latest Update: 2018-08-21T23:36:06.853Z
+
+Reported by Rauf#3260
+
+####Steps to reproduce:
+- Go to settings 
+- go to the voice & video section
+- scroll down to the bottom 
+- press on reset voice settings 
+- press enter
+
+####Expected result:
+It should accept that you want to reset voice settings, and carry on
+####Actual result:
+The Reset Voice modal shows up again. The more you press Enter, the more it comes up
+####Client settings:
+Canary 0.0.163
+####System settings:
+Windows 10 Home x64 CU
+
+
+3837
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-31T11:45:48.160Z
+
+
+### Can reproduce.
+Destkop Canary - Windows 10 Insider Preview Build 16251.rs3_release
+
+Honza#2974 - Bug Bot on 2017-08-31T11:45:55.660Z
+
+
+### Can reproduce.
+CR | Windows 10 Home x64 Creator's Update, Discord Canary 0.0.163 (Build 3788) | The modal seems to be opening a copy of itself on top of itself every time you press enter, meaning that pressing "close" doesn't return you to the settings menu. Instead, it reopens the modal, and will do that repeatedly until you've closed every existing copy of it.
+
+Cubular#6460 - Bug Bot on 2017-08-31T11:46:00.696Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163, Windows 10 x64
+
+Tetey#6918 - Bug Bot on 2017-08-31T11:46:05.681Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-04T07:57:30.108Z
+
+
+### Verified.  - Clayton on 2017-09-08T22:09:32.068Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-08T22:09:38.140Z
+
+
+### Cannot reproduce. Client resets. - Jared on 2017-10-16T23:16:11.596Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jared on 2017-10-16T23:17:00.303Z
+
+
+### ​I was able to reproduce with the steps provided by the original reporter. QwakGoesDuck#9672 pointed out that this bug can be reproduced.
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 6489 - Alexandru Todea on 2017-10-28T07:53:15.014Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-10-28T07:53:57.937Z
+
+
+### Can still reproduce - Clayton on 2017-11-03T05:19:39.350Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:19:42.325Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12159
+
+cutelilberry#5423 - Bug Bot on 2018-03-16T12:28:35.882Z
+
+
+### I tested this bug during the Trello cleanup event, and was not able to reproduce as of Discord Canary Build 18317 on Windows 10 Home x64 (1803). My client just carries on and refreshes, as if I have accepted that I wanted my voice settings reset. So I am moving it to Claimed Fixed.  - Ghoul on 2018-07-08T05:07:30.398Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ghoul on 2018-07-08T05:07:36.049Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:36:06.118Z
+
+
+### Archived by Jared on 2018-08-21T23:36:06.854Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

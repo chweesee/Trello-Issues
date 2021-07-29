@@ -1,0 +1,96 @@
+[Archived] Youtube links that end in "mp4" don't play embedded properly (https://trello.com/c/BwGZLDbi)
+
+P2: Fix can wait a while
+
+Created: 2017-07-20T04:36:58.469Z
+Latest Update: 2017-12-02T17:05:45.769Z
+
+Reported by EISAAAAAAAAA#7659
+
+####Steps to reproduce:
+- Have a youtube url that ends in "mp4" (ex: <https://youtu.be/Nc\_O-xq1mp4>) 
+- Send it on discord 
+- Click the play button
+
+####Expected result:
+It will play like normal
+####Actual result:
+A different playback bar appears and the video dosen't play, possibly due to the client trying to interpret it as a ".mp4" link
+####Client settings:
+Discord Stable
+####System settings:
+https://youtu.be/Nc_O-xq1mp4 .mp4 Win
+
+2381
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-20T04:36:58.469Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Discord Canary 0.0.155
+
+Crosmanairsoft#8544 - Bug Bot on 2017-07-20T04:37:07.533Z
+
+
+### Can reproduce.
+windows 10 home 64, Discord Canary 0.0.161
+
+Onyx Android#0872 - Bug Bot on 2017-07-20T04:37:12.533Z
+
+
+### Can reproduce.
+ Win 7 SP1 Canary 0.0.157 Forgot to click play
+
+omega12#8421 - Bug Bot on 2017-07-20T04:37:17.516Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 1607, Discord Canary Desktop 0.0.161
+
+Ali365Dash#5036 - Bug Bot on 2017-07-20T10:55:38.752Z
+
+
+### Can reproduce.
+Win 10 pro 64-Bit, Discord Canary 0.0.161
+
+TheLazyHatGuy#9340 - Bug Bot on 2017-07-20T11:45:58.041Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.161 (2400)
+
+Tiemen#0107 - Bug Bot on 2017-07-20T13:08:32.739Z
+
+
+### Verified.  - Clayton on 2017-07-20T18:56:33.223Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-20T18:56:40.370Z
+
+
+### Can reproduce.
+MacOS 10.13 Public Beta, Desktop Canary 0.0.151
+
+Abequinn#5368 - Bug Bot on 2017-07-23T00:56:48.783Z
+
+
+### This is not a bug. That's a URL that redirects to a page, not the link itself. It doesn't contain any metadata to display. - Jared on 2017-10-17T06:25:27.535Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2017-10-17T06:25:35.178Z
+
+
+### Archiving this card because it's been in the Not a Bug list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:05:43.930Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:05:45.771Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

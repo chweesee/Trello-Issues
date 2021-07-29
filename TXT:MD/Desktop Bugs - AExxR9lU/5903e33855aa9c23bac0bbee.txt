@@ -1,0 +1,109 @@
+[Archived] Filter by User shows no users (or users from another server) when opening Audit Logs from a server context menu (https://trello.com/c/NFJZS0X2)
+
+None
+
+Created: 2017-04-29T00:50:00.372Z
+Latest Update: 2017-10-17T20:28:21.137Z
+
+Reported by Tiemen#0107
+
+####Steps to reproduce: 
+- Right click a server's icon or name where you have permission to view audit logs 
+- Click Filter by User 
+
+####Expected result:
+ It shows a list users that did stuff worthy logging 
+####Actual result:
+ It doesn't show anybody until you click on another tab and go back to Audit Logs 
+####System settings:
+ Win 10 Pro x64 1703, latest Canary
+
+1273
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-29T00:50:00.372Z
+
+
+### Can reproduce.
+linux arch canary 0.15
+
+Alex from Alaska#9760 - Bug Bot on 2017-04-29T00:50:00.908Z
+
+
+### Can reproduce.
+Windows 7, Discord Canary (latest)
+
+Tyler#0130 - Bug Bot on 2017-04-29T00:50:02.885Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Latest Canary
+
+DJScias#0812 - Bug Bot on 2017-04-29T00:50:04.964Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5903e33855aa9c23bac0bbee/cd9531458f74b862fc90abab15361f1c/unknown.png added by Bug Bot on 2017-04-29T00:50:16.140Z
+
+
+### Can reproduce.
+win10x64 Canary 0.0.153
+
+Mikesky#3456 - Bug Bot on 2017-04-29T00:50:37.898Z
+
+
+### If you reproduce this bug whilst you're in a different server, then it will show the members (with permission I guess) of the server you're currently (instead of the server you want to see the audit logs of) after clicking on another tab in Server Settings and going back to Audit Logs
+
+Tiemen#0107 - Bug Bot on 2017-04-29T00:52:56.672Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5903e33855aa9c23bac0bbee/e768280938f892ef8c05bdb92e678757/2017-04-29_02-50-49.gif added by Bug Bot on 2017-04-29T00:54:25.614Z
+
+
+### Can reproduce.
+Windows 10, latest Canary
+
+Exanimem#3112 - Bug Bot on 2017-04-29T01:12:43.727Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Anniversary Update, Latest Discord Canary
+
+Zoddo#5860 - Bug Bot on 2017-04-29T13:16:47.657Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Jared on 2017-05-01T20:30:35.205Z
+
+
+### Can reproduce.
+Windows 10 x64 CU, Latest Canary
+
+SilverMight#1302 - Bug Bot on 2017-05-02T19:50:24.695Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Michael Peterson on 2017-05-02T22:43:38.449Z
+
+
+### Verified Fixed. - Jared on 2017-05-02T23:14:50.627Z
+
+
+### Tested on latest canary as of writing:
+
+I can no longer reproduce this myself. Right-clicked on another server, went to audit logs and checked the filter. All users were there. - Alexander (DJScias) on 2017-05-02T23:14:53.531Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-05-02T23:14:54.371Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:28:20.080Z
+
+
+### Archived by Jared on 2017-10-17T20:28:21.141Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/michaelpeterson26) - No Bio

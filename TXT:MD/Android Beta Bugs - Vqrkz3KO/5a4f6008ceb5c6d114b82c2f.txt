@@ -1,0 +1,121 @@
+[Archived] Cannot open channel drawer switching orientation while member list is open (https://trello.com/c/XPhOmM86)
+
+P2 - Can wait a while,
+Low
+
+Created: 2018-01-05T11:22:48.587Z
+Latest Update: 2018-03-03T04:09:27.348Z
+
+Reported by B a ™ a n#7883
+
+####Steps to reproduce:
+- Open discord initially in portrait mode 
+- Go to a server and switch to landscape mode 
+- Click on the members icon  
+- Click on any user and open his profile 
+- Lurk there for a while (didn't work for me until I waited at least 10-15 seconds) 
+- Close their profile but do not close the member list yet 
+- Switch back to portrait mode and close the member list 
+- Click on the 3 lines on top left to open the channel drawer
+
+####Expected result:
+The channel drawer should open
+####Actual result:
+Nothing happens. This is kinda random, might not be able to reproduce the first time.
+####Client settings:
+Android Alpha 6.0.6
+####System settings:
+OnePlus 5, Android 8.0
+
+7635
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-05T11:22:48.587Z
+
+
+### Can reproduce.
+CR OnePlus 5T, Android 7.1.1, Discord 6.0.4
+
+Snissel#6141 - Bug Bot on 2018-01-05T11:22:56.008Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.0.6, Samsung Galaxy A3 2017 Nougat 7.0
+
+Elix 🍭#4604 - Bug Bot on 2018-01-05T11:23:01.003Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.0.5, OnePlus 3T, OnePlus 3T, Oxygen OS 4.1.7, Android 7.1.1
+
+JohnyTheCarrot#0368 - Bug Bot on 2018-01-05T11:23:06.048Z
+
+
+### Can reproduce.
+CR, I experienced this bug several times a while ago (at version 6.0.2 or so) but couldn't figure out how to reproduce. With your repro steps I can reproduce this consistently, so respect for finding this. Discord Alpha 6.0.6, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-01-05T13:03:54.217Z
+
+
+### The only thing that triggers this bug is switching orientation while member list is opened. You don't even need to open a user profile to reproduce this.
+
+Alex1304#9704 - Bug Bot on 2018-01-05T13:06:09.065Z
+
+
+### Verified. Only need to switch orientation while member list is open.  - Clayton on 2018-01-10T00:37:55.426Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-10T00:39:12.801Z
+
+
+### Confirmed, good report. - Miguel Gaeta on 2018-01-11T01:27:01.522Z
+
+
+### Fix attempted in 6.0.8 - Miguel Gaeta on 2018-01-11T02:58:52.204Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Miguel Gaeta on 2018-01-11T02:58:57.055Z
+
+
+### I just wanted to let you know that I can still reproduce this bug as of Android Alpha 6.0.8 running on OnePlus 5, Android 8.0
+
+B a ™ a n#7883 - Bug Bot on 2018-01-11T16:59:40.032Z
+
+
+### Can't reproduce.
+OnePlus 5, Android 8.0, Discord Alpha 6.1.2
+
+B a ™ a n#7883 - Bug Bot on 2018-01-26T18:11:54.312Z
+
+
+### Can't reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.2
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T23:49:38.874Z
+
+
+### Can't reproduce.
+Xiaomi Redmi 3, Android 5.1.1, MIUI 9 beta, Android Alpha 6.1.6
+
+NorbiPeti#1869 - Bug Bot on 2018-01-28T16:52:21.520Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-29T12:20:23.037Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Alexandru Todea on 2018-01-29T12:20:31.128Z
+
+
+### Archiving as there has been no activity on this card for over a month. - Chris Cox on 2018-03-03T04:09:24.739Z
+
+
+### Archived by Chris Cox on 2018-03-03T04:09:27.351Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

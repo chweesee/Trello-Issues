@@ -1,0 +1,84 @@
+[Archived] Scrolling does not work properly using scroll wheel in DM channels. When you try to scroll earlier into a channel (from the bottom) the scroll bar will keep moving back to the bottom of the channel a couple times until it eventually works. (https://trello.com/c/znNyGEbG)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-08-18T11:18:10.692Z
+Latest Update: 2018-10-03T03:12:44.074Z
+
+Reported by Nitrousoxide#3667
+
+####Steps to reproduce:
+- Go to a DM channel 
+- Attempted to scroll earlier into the channel.
+
+####Expected result:
+The scroll bar will go up and you will be able to scroll through the channel
+####Actual result:
+The scroll bar will go up then back to the bottom again a few times then eventually work.
+####Client settings:
+Stable Build 22189
+####System settings:
+Windows 10 Home x64 17134
+
+17821
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-18T11:18:10.692Z
+
+
+### Can reproduce.
+CR - Seemingly random, does not happen 100% of the time: Windows 10 Pro x64, Build 17134
+
+Thundy#1055 - Bug Bot on 2018-08-18T11:18:18.037Z
+
+
+### Can reproduce.
+Can Repro - Win10 Pro x64 - Canary Build 22112 - Not reliable, but does break sometimes.
+
+specialpng#8555 - Bug Bot on 2018-08-18T11:18:22.959Z
+
+
+### Can reproduce.
+Win10 Pro 1804, Canary 22210 and several prior builds. Have seen intermittently for over a month.
+
+SunburntRock89#6617 - Bug Bot on 2018-08-18T11:18:27.929Z
+
+
+### Can reproduce.
+CR, happens only sometimes for me though. Windows 10 Home 64-bit, Canary 22210
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-18T15:46:07.321Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 22112
+
+Delite#0001 - Bug Bot on 2018-08-18T17:28:33.628Z
+
+
+### Can reproduce.
+Can Reproduce : Windows 10 Pro x64, Canary - 22210
+
+jc124games#9460 - Bug Bot on 2018-08-18T22:26:32.009Z
+
+
+### Cannot reproduce. The earlier messages load just fine. - Jared on 2018-08-28T21:01:34.552Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-08-28T21:01:38.687Z
+
+
+### Extension of https://trello.com/c/tjGIIaWe - Clayton on 2018-10-03T03:12:42.673Z
+
+
+### Archived by Clayton on 2018-10-03T03:12:44.076Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

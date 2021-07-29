@@ -1,0 +1,92 @@
+[Archived] Using the <> tags for links without spaces parses incorrectly (https://trello.com/c/w91SlN1h)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-07T16:34:41.689Z
+Latest Update: 2019-01-01T15:45:57.559Z
+
+Reported by Dunciboy#2559
+
+####Steps to reproduce:
+Step 1: Post a message with the following content from here: https://pastebin.com/ME4jybGV.
+Step 2: Copy link or click on link. You will notice the links goes to a discord page that ends with the text that is marked blue
+
+####Expected result:
+The < > signs should be shown and the link should be parsed separately.
+####Actual result:
+Link gets parsed like everything between < > without spaces is a link and when certain characters are in the string the current <location.href> is prefixed to the link
+####Client settings:
+Discord 0.0.155
+####System settings:
+Windows 10 x64 1607
+
+1484
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-07T16:34:41.689Z
+
+
+### Can reproduce.
+Can Reproduce,  MacBook Pro Late-2014, OSX 10.12.4, Latest Canary
+
+NubbyTM#6817 - Bug Bot on 2017-06-07T16:34:46.158Z
+
+
+### Can reproduce.
+can reproduce,  Windows 10 Home x64 v1703 (Canary v 0.0.155)
+
+Tim_The#7618 - Bug Bot on 2017-06-07T16:34:48.168Z
+
+
+### Can reproduce.
+After updating the repro steps can repro, Win10 1704 x64
+
+TTtie#9926 - Bug Bot on 2017-06-07T16:34:50.167Z
+
+
+### New repro steps: !edit 1484 | body | Step 1: Post a message with the following content from here: https://pastebin.com/ME4jybGV.
+Step 2: Copy link or click on link. You will notice the links goes to a discord page that ends with the text that is marked blue
+
+Dunciboy#2559 - Bug Bot on 2017-06-07T16:38:56.809Z
+
+
+### Verified.  - Clayton on 2017-06-07T18:44:36.312Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-07T18:44:45.512Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T13:05:56.223Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12159
+
+cutelilberry#5423 - Bug Bot on 2018-03-16T16:43:07.427Z
+
+
+### Wolterhon#3938 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59382b21e4bf804decdcfd01/659e6c7297125bfbf8b29f38d345aa4c/U5RKYMq.gif added by Bug Bot on 2018-07-15T07:04:56.437Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T22:13:41.814Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T22:13:53.030Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:45:56.686Z
+
+
+### Archived by Tarek on 2019-01-01T15:45:57.561Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

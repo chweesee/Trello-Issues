@@ -1,0 +1,81 @@
+safe direct messaging setting flickers (https://trello.com/c/G2JEykAm)
+
+None
+
+Created: 2017-09-14T05:49:41.870Z
+Latest Update: 2017-10-04T09:51:37.667Z
+
+Reported by Anorak#5830
+
+####Steps to reproduce:
+- Go to  Settings 
+- Go to "Privacy & Safety" 
+- Click two options of "safe direct messaging" as fast as you can (sometimes you need more than one try)
+
+####Expected result:
+The last option you clicked should be selected
+####Actual result:
+The selection flickers back and forth between the clicked options twice and the option you clicked last is selected.
+####Client settings:
+Discord Canary 0.0.24
+####System settings:
+Ubuntu 17.10
+
+4262
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-14T05:49:41.870Z
+
+
+### ThatsNoMoon#0175 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/59ba18758d71de3635134b7e/95ce8141f17a9e906556c9ee5bdbff61/bug.gif added by Bug Bot on 2017-09-14T05:49:44.396Z
+
+
+### Can reproduce.
+Discord Canary 4175, Ubuntu GNOME 16.04.3
+
+ThatsNoMoon#0175 - Bug Bot on 2017-09-14T05:49:49.248Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.24 (Build 4175( on Linux Ubuntu 16.04.2 | To repro this easier, click on 2 options like almost at the same moment, so you click on the third one then instant try to click on the second one, easiest way to repro
+
+Tarek1337#0379 - Bug Bot on 2017-09-14T05:49:54.289Z
+
+
+### Can reproduce.
+Cr, Ubuntu 17.04/Linux 4.10 XFCE4 && Archlinux/Linux 4.12 I3wm, Discord Canary 0.0.24 Build 4175 -- Seems to work on Windows aswell
+
+Starshine Dust#2189 - Bug Bot on 2017-09-14T05:49:59.282Z
+
+
+### Can reproduce.
+Discord Canary 0.0.24 (Build 4175) on Void Linux glibc amd64
+
+gio#0335 - Bug Bot on 2017-09-14T12:29:19.779Z
+
+
+### Moved from User Reported to Claimed Fixed by Mike Nisbet on 2017-09-29T19:06:41.889Z
+
+
+### Moved from Claimed Fixed to User Reported by Mike Nisbet on 2017-09-29T19:07:13.074Z
+
+
+### Cannot reproduce. Build 5085 Mint 17 - Mike Nisbet on 2017-09-29T19:20:19.831Z
+
+
+### Moved from User Reported to Claimed Fixed by Mike Nisbet on 2017-09-29T19:20:27.746Z
+
+
+### Can reproduce.
+Discord: Canary, Distro: Debian Buster (Testing)
+
+nathanielcwm#3522 - Bug Bot on 2017-10-04T09:51:37.669Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

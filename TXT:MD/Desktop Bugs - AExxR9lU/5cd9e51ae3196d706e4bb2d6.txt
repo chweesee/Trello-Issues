@@ -1,0 +1,125 @@
+[Archived] When un-selecting a highlighted message when search, the search box jumps to the top of the search query instead of staying at the same message. (https://trello.com/c/5f7Cvcyl)
+
+None
+
+Created: 2019-05-13T21:43:54.589Z
+Latest Update: 2019-07-18T07:30:42.332Z
+
+Reported by Baddles#3497
+
+####Steps to reproduce:(Not really sure how to reproduce this but here are the steps) 
+- Search for a message that is below a really long message (?), for example, the keyword "via" in <#441688182833020939>. 
+- Click on the highlighted message. On the above example, there should be a message that says "have a quick question about Discord?...", click that message (don't click jump to message button on the top right, but rather click on the middle of the message, or you could click the place where the link is in that message). 
+- Message gets jumped into the top one.
+
+####Expected result:
+It should stay on the same message that was highlighted.
+####Actual result:
+It jumps to the top of the search query, in this case the middle of the previous message.
+####Client settings:
+Discord Canary 36869 & Discord Web Safari (Not sure build version, as Console logs does not give any build info at all).
+####System settings:
+macOS 10.14.5 developer beta 4, MacBook Pro 13-inch 2017 no Touch Bar.
+
+33863
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-13T21:43:54.589Z
+
+
+### 💐nickWtn💐#3789 - https://youtu.be/FuhcmH0atEM added by Bug Bot on 2019-05-13T21:43:57.140Z
+
+
+### GlenMerlin#2119 - https://youtu.be/L8FQWVlNZMM added by Bug Bot on 2019-05-13T21:43:57.146Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 Bit // Discord Canary Version 37458
+
+Cam#7527 - Bug Bot on 2019-05-13T21:44:02.165Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 bit  // Discord Canary Build 37458
+
+Xelphos#0001 - Bug Bot on 2019-05-13T21:44:07.068Z
+
+
+### Can reproduce.
+CR, WIndows 10 Pro, Canary 37458
+
+Action Potential#2494 - Bug Bot on 2019-05-13T21:44:12.105Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 37501
+
+Clay#0001 - Bug Bot on 2019-05-13T22:46:50.771Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 37519
+
+Xylium#5800 - Bug Bot on 2019-05-13T23:25:11.411Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) | Canary 37519
+
+charleskimbac#6492 - Bug Bot on 2019-05-14T05:31:38.626Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 37458
+
+Darth#9386 - Bug Bot on 2019-05-14T08:28:50.807Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 37519
+
+OrangeM24#5746 - Bug Bot on 2019-05-14T16:35:06.786Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 37519
+
+Lily#2624 - Bug Bot on 2019-05-14T20:38:57.255Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Discord Canary 37519
+
+Birdy#4914 - Bug Bot on 2019-05-14T23:58:14.780Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.237 Build 37519
+
+Daffyduck#5364 - Bug Bot on 2019-05-15T01:13:59.972Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 37731 (Host 0.0.237)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-17T01:57:55.707Z
+
+
+### Cannot reproduce on Canary 39914, Windows 10 Home 64-bit (v1903).
+
+Moving to Cannot Reproduce. - Ene on 2019-06-18T07:21:11.968Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Ene on 2019-06-18T07:21:16.002Z
+
+
+### Archived by Bug Bot on 2019-07-18T07:30:42.344Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

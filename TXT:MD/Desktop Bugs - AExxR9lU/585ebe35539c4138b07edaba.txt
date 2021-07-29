@@ -1,0 +1,64 @@
+[Archived] incorrect parsing of custom emoji (https://trello.com/c/juXsVJgC)
+
+P3: Will get fixed eventually
+
+Created: 2016-12-24T18:28:05.939Z
+Latest Update: 2017-04-25T18:05:10.034Z
+
+Reported by harrison#6336
+
+####Steps to reproduce: 
+- type a custom emoji with a colon before (example: ::customemoji:)  
+
+####Expected result:
+ custom emoji shows right after colon 
+####Actual result:
+ custom emoji doesn't show  (NOTE: this bug only occurs with custom server emoji, regular emojis work as expected)
+
+Card Log
+========
+### Added by Jared on 2016-12-24T18:28:05.939Z
+
+
+### Can reproduce.
+It parses the emoji weird .3. Discord Canary, Windows 7
+
+Dru#8209 - Jared on 2016-12-24T18:28:06.441Z
+
+
+### Can reproduce.
+Windows 8.1, Latest Canary
+
+小原 鞠莉 ★★★★#9667 - Jared on 2016-12-24T18:28:06.524Z
+
+
+### Can reproduce.
+Discord Canary Web
+
+Abhijith Ganesan#5206 - Jared on 2016-12-24T19:00:04.278Z
+
+
+### Can reproduce.
+Windows 7 x64, Canary v0.0.149
+
+Ian Murray#8701 - Jared on 2016-12-25T00:07:20.955Z
+
+
+### Verified, but extremely minor. - Jared on 2017-01-03T18:52:40.664Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T18:52:43.595Z
+
+
+### Duplicate of https://trello.com/c/k8kacdlN (mentioned to Dabbit) - Alexander (DJScias) on 2017-04-25T01:57:10.996Z
+
+
+### Archived by Jared on 2017-04-25T18:05:10.041Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

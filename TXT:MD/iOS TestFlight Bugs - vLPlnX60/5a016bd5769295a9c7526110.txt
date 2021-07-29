@@ -1,0 +1,106 @@
+[Archived] Disconnecting and reconnecting to video call while camera swaps causes app to freeze. (https://trello.com/c/OQc88alT)
+
+P2 - Can wait a while,
+low
+
+Created: 2017-11-07T08:16:21.660Z
+Latest Update: 2019-10-12T17:58:57.198Z
+
+Reported by QwakGoesDuck#9672
+
+####Steps to reproduce:
+- Join/Start a video call. 
+- Enable your camera. 
+- Spam the swap camera button a couple of times (Just enough so that it takes a few seconds to swap cameras). 
+- Disconnect from the call. 
+- Reconnect to the call.
+
+####Expected result:
+You seamlessly rejoin the video call.
+####Actual result:
+App freezes (might freeze for only 3 seconds but could be longer).
+####Client settings:
+TestFlight 1.10.0 Build 1540
+####System settings:
+iOS 11.0.3, iPhone 7
+
+6155
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-07T08:16:21.660Z
+
+
+### Can reproduce.
+CR. After trying to reconnect to the call, the app will freeze for a few seconds and then it’ll be stuck at “RTC reconnecting” for several seconds, causing considerable slowness on my phone. iPhone 6, iOS 11.2 Public Beta 1, TestFlight 1.10.0 (1505)
+
+Inner Sense#0404 - Bug Bot on 2017-11-07T08:16:29.107Z
+
+
+### Can reproduce.
+CR | iPhone 6S Plus, iOS 11.1 > TestFlight 1.10.0 (Build 1505)
+
+Ben#4331 - Bug Bot on 2017-11-07T08:16:34.045Z
+
+
+### Can reproduce.
+CR. App ends up crashing for me while performing the bug too. iPhone 8 +, iOS 11.1, TestFlight 1.10.0 (Build 1505)
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-11-07T08:16:39.050Z
+
+
+### Moved from User Reported Bugs to Video Chat Bugs by Jared on 2017-11-07T19:04:58.966Z
+
+
+### Moved from Video Chat Bugs to User Reported Bugs by Jared on 2017-11-20T20:07:05.207Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-20T20:07:21.352Z
+
+
+### Verified issue still occurs as written. - Jared on 2018-01-08T18:30:17.395Z
+
+
+### I can still reproduce. 
+
+Discord 2.2.1 (2236), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-01-28T09:43:06.601Z
+
+
+### Cannot reproduce anymore as of TestFlight 2.5.2 (13014) with iPhone 8 Plus running iOS 12.2. I instantly rejoin the call.
+
+Moving to Claimed Fixed list. - Pascal on 2019-04-12T15:06:02.854Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-04-12T15:06:09.444Z
+
+
+### Can't reproduce.
+iphone 5c ios 10.3.3, TestFlight 2.5.2 (13014)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-12T15:33:47.523Z
+
+
+### Can't reproduce.
+CNLR. iPhone XR, iOS 12.1, TestFlight 2.5.2 (13014)
+
+Rage#9991 - Bug Bot on 2019-04-12T15:57:00.114Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 2.5.2 (13730)
+
+Daffyduck#5364 - Bug Bot on 2019-04-15T16:14:48.242Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-15T16:14:48.505Z
+
+
+### Archived by Bug Bot on 2019-05-15T16:30:21.531Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

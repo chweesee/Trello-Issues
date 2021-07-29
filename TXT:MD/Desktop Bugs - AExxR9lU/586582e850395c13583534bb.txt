@@ -1,0 +1,79 @@
+[Archived] Certain messages seem to have weird behaviours when sent. (https://trello.com/c/GXpk1AIL)
+
+None
+
+Created: 2016-12-29T21:40:56.116Z
+Latest Update: 2017-10-17T21:18:16.709Z
+
+Reported by its_notjack#0174
+
+####Steps to reproduce: 
+- Step 1: Type the message `s/(town/city)/country` 
+- Step 2: Type the message `s/reg/ex`  
+
+####Expected result:
+ Both messages are posted normally. People are amused by your regex joke. 
+####Actual result:
+ The first message fails to send at all. It's removed from the chatbox, and the session continues as if you'd sent no message at all. The second message appears to delete the message you've just posted.
+
+Card Log
+========
+### Added by Jared on 2016-12-29T21:40:56.116Z
+
+
+### Can reproduce.
+Arch x64 Cinnamon
+
+Khionu#8708 - Jared on 2016-12-29T21:40:56.684Z
+
+
+### Can reproduce.
+MacOS 10.12.1
+
+Adryd#4738 - Jared on 2016-12-29T21:40:56.693Z
+
+
+### 2016-12-29_21-53-30.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/586582e850395c13583534bb/706dca3ee95896f3a19ed25111f75801/2016-12-29_21-53-30.gif added by Jared on 2016-12-29T21:41:12.339Z
+
+
+### Can't reproduce.
+Latest Canary, Windows 10
+
+Programmix#0748 - Jared on 2016-12-30T00:01:45.087Z
+
+
+### This is intended behaviour as s/message/edit is supposed to edit messages.
+
+Noahkiq#9675 - Jared on 2016-12-30T00:38:32.925Z
+
+
+### Can reproduce.
+Windows 8.1, Canary Latest
+
+FireController1847 🗻#9085 - Jared on 2016-12-31T05:27:51.667Z
+
+
+### Can reproduce.
+Windows 10, Latest Canary
+
+Grinjr#5084 - Jared on 2016-12-31T19:22:58.082Z
+
+
+### This is not a bug. This is a keyboard shortcut functionality. - Jared on 2017-01-03T17:37:32.779Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-01-03T17:37:39.077Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:18:15.934Z
+
+
+### Archived by Jared on 2017-10-17T21:18:16.712Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

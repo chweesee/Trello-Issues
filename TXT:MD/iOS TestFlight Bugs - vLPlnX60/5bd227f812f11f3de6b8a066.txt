@@ -1,0 +1,83 @@
+[Archived] When denied changing your nickname in Server Settings' Members list, the error message attempts to use markdown but it doesn't work. (https://trello.com/c/P8YOOSe5)
+
+P3 - Will be fixed eventually
+
+Created: 2018-10-25T20:30:48.420Z
+Latest Update: 2019-01-31T19:59:57.584Z
+
+Reported by william#0002
+
+####Steps to reproduce:
+- Create a new server on an alternate account (can be done on desktop). 
+- On that new server, allow the `@everyone` role to View Audit Log, and deny Change Nickname & Manage Nicknames (can be done on desktop). 
+- Join the server (all following steps on iOS). 
+- Make sure you don't have any additional roles. 
+- Open Server Settings. 
+- Tap Members. 
+- Tap yourself. 
+- Try to change your nickname.
+
+####Expected result:
+The error message shouldn't attempt to use markdown.
+####Actual result:
+The error message shows failed markdown.
+####Client settings:
+TestFlight 2.4.0 (8616)
+####System settings:
+iPhone 6s, iOS 12.1 Beta (16B5084a) - TestFlight 2.4.0 (8616)
+
+22088
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-25T20:30:48.420Z
+
+
+### william#0002 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5bd227f812f11f3de6b8a066/756793c2c643e974821a532b4e5f1cef/iCBpOgUv.png added by Bug Bot on 2018-10-25T20:30:50.770Z
+
+
+### MoonlightCapital#0554 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5bd227f812f11f3de6b8a066/d2e95aeff284779d7610a8a363f88e6c/unknown.png added by Bug Bot on 2018-10-25T20:30:50.804Z
+
+
+### Can reproduce.
+Can reproduce. iPhone XS Max, iOS 12.0.1, TestFlight 2.4.0 (8616)
+
+coolalmostchilly#2019 - Bug Bot on 2018-10-25T20:30:55.735Z
+
+
+### Can reproduce.
+iPhone 5S, iOS 12, App version: 2.4.0
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-25T20:31:00.882Z
+
+
+### Can reproduce.
+iPhone XS Max running iOS 12.1 (Dev Beta 2) with iOS TestFlight 2.4.0 (8616)
+
+Ghoul#0099 - Bug Bot on 2018-10-25T20:31:05.791Z
+
+
+### Can reproduce.
+iPhone 5s iOS 12.0.1, Testflight 2.4.0
+
+Solo#0007 - Bug Bot on 2018-10-26T00:36:52.850Z
+
+
+### Can reproduce.
+iPhone 8 + iOS 12.0.1 TF 2.4.0
+
+iiTigerDude160#5673 - Bug Bot on 2018-10-26T10:24:55.358Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-11-01T03:36:49.927Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:57.597Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

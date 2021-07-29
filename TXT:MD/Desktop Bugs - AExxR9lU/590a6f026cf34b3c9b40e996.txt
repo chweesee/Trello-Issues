@@ -1,0 +1,89 @@
+[Archived] When you upload too many images to someone's DM's the last 2 get stuck permanently and are never really uploaded. (https://trello.com/c/ugRiDFe7)
+
+P3: Will get fixed eventually
+
+Created: 2017-05-04T00:00:02.407Z
+Latest Update: 2018-08-21T23:36:10.597Z
+
+Reported by Roukaysa#7162
+
+####Steps to reproduce: 
+- Download the desktop version of Discord 
+- Go to someone's DM's 
+- Click the upload button on the left side of the chat box 
+- Browse a folder and select some images (I selected 15) 
+- Spam the button send button/enter key on your keyboard until all of the pictures are "sent" 
+
+####Expected result:
+ All of the pictures should be sent. 
+####Actual result:
+ 2 of them will be stuck on loading until next restart as can be seen in the attachment. 
+####System settings:
+ Windows 7 x32, Discord Canary
+
+1357
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-04T00:00:02.407Z
+
+
+### Can reproduce.
+Win10 Latest Canary
+
+Mr.Caleb#8593 - Bug Bot on 2017-05-04T00:00:02.998Z
+
+
+### Can reproduce.
+Latest Discord Canary
+
+rovertdude#3439 - Bug Bot on 2017-05-04T00:00:04.993Z
+
+
+### Can reproduce.
+Win10 Latest canary
+
+The Oddball#2867 - Bug Bot on 2017-05-04T00:00:07.082Z
+
+
+### https://gyazo.com/1aa160dce2f61f7776d5a3dfe7c56713 - https://gyazo.com/1aa160dce2f61f7776d5a3dfe7c56713 added by Bug Bot on 2017-05-04T00:00:17.975Z
+
+
+### W0K4Zzu.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/590a6f026cf34b3c9b40e996/8abf30a78652f952ea65322c64f5d837/W0K4Zzu.png added by Bug Bot on 2017-05-04T00:00:18.510Z
+
+
+### Can reproduce.
+Windows 10 x64 CU, Latest Canary
+
+SilverMight#1302 - Bug Bot on 2017-05-04T00:18:31.789Z
+
+
+### Verified.  - Clayton on 2017-05-12T19:53:24.553Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-12T19:53:29.231Z
+
+
+### This happens randomly where some of the a large file upload just fails. As it's not too common that you want to send 10+ images all at once, this is low-mid priority. - Jared on 2017-10-17T07:05:54.400Z
+
+
+### I checked this ticket during the Trello cleaning event. and I was not able to reproduce as of Discord Canary Build 18317 on Windows 10 Home x64 (1803). I uploaded several images with some gifs (up to almost 10MB), but all of them was able to be uploaded without any issues. 
+
+Because of this I am moving it to Claimed Fixed. - Ghoul on 2018-07-08T05:19:14.260Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ghoul on 2018-07-08T05:19:28.833Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:36:09.775Z
+
+
+### Archived by Jared on 2018-08-21T23:36:10.599Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

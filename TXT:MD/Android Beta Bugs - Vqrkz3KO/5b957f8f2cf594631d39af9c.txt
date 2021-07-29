@@ -1,0 +1,74 @@
+[Archived] The app says that the server icon is required to have a minimum size of 128x128, although it lets you upload images that don't respect this constraint (https://trello.com/c/EMFQ0FlE)
+
+None
+
+Created: 2018-09-09T20:16:15.540Z
+Latest Update: 2018-10-23T07:44:05.746Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Server Settings > Overview 
+- Remove the server icon. Notice that the Remove button is replaced by a text "Minimum size: 128x128" when there is no icon 
+- Pick a new server icon that is under 128x128 format
+
+####Expected result:
+As the text says, it shouldn't accept icons under 128x128
+####Actual result:
+The picture still goes through and you can save the changes just fine
+####Client settings:
+Discord Alpha 7.4.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+19303
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-09T20:16:15.540Z
+
+
+### Can reproduce.
+OnePlus 3T, Android 8, Discord 7.4.8
+
+Alipoodle#5025 - Bug Bot on 2018-09-09T20:16:22.936Z
+
+
+### Can reproduce.
+CR - would expect a toast | Google Pixel 2, Android 9.0.0 ; Android Alpha 7.4.8 (748)
+
+brilaverance#2835 - Bug Bot on 2018-09-09T20:16:27.897Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 7.4.8
+
+Law of Royale#6825 - Bug Bot on 2018-09-09T20:16:33.025Z
+
+
+### Can reproduce.
+Honor 7x, Android 7.0, Discord 7.4.8
+
+Vortrix#1330 - Bug Bot on 2018-09-10T01:33:21.210Z
+
+
+### Not a bug according to Dabbit on this image https://i.imgur.com/zb4gdkS.png
+
+Thank you Ene for the image. Moving to not a bug. - Tarek on 2018-09-10T03:09:11.752Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Tarek on 2018-09-10T03:09:18.702Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than a month without any activity. - Ghoul on 2018-10-23T07:44:04.304Z
+
+
+### Archived by Ghoul on 2018-10-23T07:44:05.748Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

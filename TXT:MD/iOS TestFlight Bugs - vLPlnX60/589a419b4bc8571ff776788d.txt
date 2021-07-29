@@ -1,0 +1,52 @@
+[Archived] When in landscape mode with Light Appearance, the battery information at the top right is hidden. (https://trello.com/c/mcSOQXZZ)
+
+P3 - Will be fixed eventually,
+low
+
+Created: Unknown
+Latest Update: 2018-09-20T20:00:01.872Z
+
+Reported by User: Overhill (385681)
+
+####Steps to Reproduce: 
+- Login to Discord on a iDevice.
+- Start with Dark Theme and open a server. You can see the info at the top right is visible.
+- Change appearance to Light Theme.
+- Go back to server, swipe right / left and observe the top corners (right on member list, left on channel list)
+
+####Expected Result:
+Text should be shown in the light theme section. 
+####Actual Result:
+Verified it on my iPad. The top right information always displays unless you're in Light Theme, Landscape. If you're using Portrait Light Theme, the information at the top right changes to black text.
+On iPhone, it will show part of the text in dark theme, and you won't be able to see it in light theme.
+
+Card Log
+========
+### Can reproduce.
+iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-27T11:14:38.322Z
+
+
+### Also happens with iPhone when one of the sidabars is opened.
+
+Pascal#0929 - Bug Bot on 2018-08-21T14:02:17.170Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/589a419b4bc8571ff776788d/860e241eb3a030b144681407c524902d/C7f4gzi.jpg added by Bug Bot on 2018-08-21T14:35:24.517Z
+
+
+### I can reproduce this bug on iPhone 8 + running iOS 12, Dev Beta 8 on iOS TestFlight 2.3.7 (6823). Part of the text is unable to be seen, but that sounds similar to something else. May most likely be the part that won't be fixed for a while as the light theme is not completed yet. 
+
+I've updated the ticket regarding that in steps to repro and title. - Ghoul on 2018-08-21T19:50:20.851Z
+
+
+### Archived by Clayton on 2018-09-20T20:00:01.875Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

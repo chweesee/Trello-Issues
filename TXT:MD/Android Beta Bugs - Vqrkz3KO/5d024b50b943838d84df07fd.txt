@@ -1,0 +1,94 @@
+[Archived] android, when verifying french spaced phone number from a chat the spaces between the characters don't match country code (https://trello.com/c/llE6D9SP)
+
+None
+
+Created: 2019-06-13T13:10:40.511Z
+Latest Update: 2019-08-16T21:24:12.038Z
+
+Reported by MakethPanda#0069
+
+####Steps to reproduce:
+- using a discord account with a non verified phone number  
+- join a server which requires phone verification to chat (ex: pride  ) 
+- press the "verify phone number" button where text should be 
+- type in french country code "+33", then french phone number (ex: 6 01 23 45 67 )
+
+####Expected result:
+the phone number should be indented with french spacing, so every 2 characters after the initial number
+####Actual result:
+the phone number appears with american spacing
+####Client settings:
+9.0.9 (909)
+####System settings:
+Nexus 6P 8.1 (up to date), Pixel 3a 9.0
+
+36955
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-13T13:10:40.511Z
+
+
+### Can reproduce.
+Can reproduce, Moto E4 (Android 7.1.1), Discord Alpha 9.0.9
+
+Loe#1182 - Bug Bot on 2019-06-13T13:10:47.970Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy S8, Android 9.0.0, Discord Alpha 9.0.9
+
+Alеx#2287 - Bug Bot on 2019-06-13T13:10:52.953Z
+
+
+### Can reproduce.
+Android 9.0,Oppo Find X,Discord 9.0.9
+
+Typhoon#3514 - Bug Bot on 2019-06-13T13:10:58.011Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 9.0.9
+
+Lily#2624 - Bug Bot on 2019-06-13T14:12:20.437Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Discord Alpha 9.0.9
+
+Danijel#9000 - Bug Bot on 2019-06-13T15:42:07.516Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 9.0.9
+
+Skyla#0002 - Bug Bot on 2019-06-13T18:00:22.201Z
+
+
+### Can reproduce.
+CR; Huawei Y7, Android 8.0.0, Alpha 909
+
+Bullseye#8200 - Bug Bot on 2019-06-13T20:13:21.327Z
+
+
+### Can reproduce.
+EXTENSION: works with multiple other phone numbers (such as austrian)
+
+MakethPanda#0069 - Bug Bot on 2019-06-15T19:36:57.955Z
+
+
+### Can reproduce.
+Redmi Note 6 Pro, Android 9, Discord Beta 9.0.9
+
+fuzzysearch#0404 - Bug Bot on 2019-06-17T19:22:01.105Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:24:12.052Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,79 @@
+[Archived] Tapping selectors in search doesn't fill them in and the selectors don't highlight in black (https://trello.com/c/Qj04tpoJ)
+
+None
+
+Created: 2017-02-27T14:14:14.005Z
+Latest Update: 2017-10-17T20:57:07.713Z
+
+Reported by MattBSG#9263
+
+####Steps to reproduce: 
+- goto any channel and open search 
+
+####Expected result:
+ Selectors can complete by tapping them and show highlighted 
+####Actual result:
+ It does nothing (autocomplete or highlighting if you type them manually) 
+####System settings:
+ iOS 10.2.1 TestFlight 1.8.3 (70)
+
+1815
+
+Card Log
+========
+### Added by Jared on 2017-02-27T14:14:14.005Z
+
+
+### Can reproduce.
+Confirmed with Search -> From User: Sajuuk in my own server. iPad 4th Gen, iOS 9.3.5 on TF v1.8.3 build 70
+
+SuperSajuuk#7265 - Jared on 2017-02-27T14:14:14.627Z
+
+
+### Can reproduce.
+iPhone 6S Plus iOS 10.3 Beta 3 TF 1.8.3(70)
+
+Xelphos#7508 - Jared on 2017-02-27T14:14:16.602Z
+
+
+### Can reproduce.
+Approving for Sajuuk
+
+Dabbit Prime#0896 - Jared on 2017-02-27T14:14:18.645Z
+
+
+### Just to clarify: the search options "do" work, if you tap search after you are taken to search home. The bug is that the search query box is devoid of any text of the query you are performing, so you have no visual reference that it's going to do anything.
+
+SuperSajuuk#7265 - Jared on 2017-02-27T14:20:25.375Z
+
+
+### Can reproduce.
+iPhone 6, iOS 10.2, Discord TF 1.8.3(70)
+
+ItsNovaHere#1575 - Jared on 2017-02-27T21:53:27.121Z
+
+
+### Can reproduce.
+iPhone 6 Latest ios testflight 70
+
+Harrison#9100 - Jared on 2017-02-27T23:25:22.131Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed Bugs by Fanghao on 2017-02-28T00:44:10.958Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-02-28T23:14:09.370Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:57:06.732Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:57:07.715Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

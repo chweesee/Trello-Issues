@@ -1,0 +1,81 @@
+[Archived] HEIC to jpg encoding is very inefficient, uploaded jpg ends up being huge in size (https://trello.com/c/XiRduhVL)
+
+None
+
+Created: 2017-10-21T12:41:35.920Z
+Latest Update: 2017-11-26T08:30:21.852Z
+
+Reported by juj#5114
+
+####Steps to reproduce:
+- Make sure to have High Efficiency selected as Formats in Camera 
+- Take a normal photo with the camera app 
+- Upload said photo in Discord from camera roll 
+- Download the uploaded picture from Discord (Open Original and then Save As in the CDN link) 
+- Copy the original photo from phone to desktop via USB 
+- Compare photo sizes
+
+####Expected result:
+The  that's uploaded to Discord has a decent file size (like other apps that create a  from a HEIC picture)
+####Actual result:
+Discord's  is way bigger, around twice the size of the original, thus HEIC pictures easily overshoot the 8MB limit
+####Client settings:
+Discord TestFlight 1.9.2 (953)
+####System settings:
+iPhone 8 Plus, iOS 11.1 (PB2)
+
+5488
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-21T12:41:35.920Z
+
+
+### juj#5114 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59eb407f5dd6b1a9b29aed05/90bb167ece8b5d397c557b7083901827/ixOXgLo.png added by Bug Bot on 2017-10-21T12:41:38.380Z
+
+
+### Can reproduce.
+Can Repro that, as I am having this issue... Make sure to test it with iPhone 7, 7 +, 8, or 8 +.. iPhone 8 +, iOS 11.0.3, Discord App Version 1.9.2
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-21T12:41:43.249Z
+
+
+### Can reproduce.
+Discord 1.9.2, iOS 11, iPhone 8 Plus and Windows 10 Home 64-bit v1703
+
+Curse Broken#8659 - Bug Bot on 2017-10-21T12:41:48.273Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.0.3. Discord Stable 1.9.2
+
+Pascal#0929 - Bug Bot on 2017-10-21T12:41:53.274Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 11.1 Dev. Beta 5, TF 1.9.3 (1165)
+
+Jeremias#8432 - Bug Bot on 2017-10-23T20:31:09.749Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed Bugs by Fanghao on 2017-10-24T23:31:06.927Z
+
+
+### Cannot reproduce. Marking as Verified Fixed. - Jared on 2017-10-25T19:24:30.603Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-10-25T19:24:35.973Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:30:20.375Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:30:21.854Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

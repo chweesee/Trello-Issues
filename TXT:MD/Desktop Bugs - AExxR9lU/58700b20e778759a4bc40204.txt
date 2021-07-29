@@ -1,0 +1,74 @@
+[Archived] adding a period after a link (to end a sentence) messes up the rich embed link (https://trello.com/c/utIxHBPk)
+
+P3: Will get fixed eventually
+
+Created: 2017-01-06T21:24:48.860Z
+Latest Update: 2018-07-06T17:52:37.802Z
+
+Reported by #s#8059
+
+####Steps to reproduce: 
+- send a message like this: My documentation is available at http://lessis.moe/projects/utilibot. 
+- click on the link of the rich embed 
+
+####Expected result:
+ The embed links to <http://lessis.moe/projects/utilibot> (without period). 
+####Actual result:
+ the embed links to <http://lessis.moe/projects/utilibot.> (with period)
+
+Card Log
+========
+### Added by Jared on 2017-01-06T21:24:48.860Z
+
+
+### Can reproduce.
+Can repro, Win10 AU, Canary 0.0.151
+
+𝅳𝅳#5756 - Jared on 2017-01-06T21:24:49.428Z
+
+
+### Can reproduce.
+canrepro macOS latest canary
+
+nullpixel#0012 - Jared on 2017-01-06T21:24:49.527Z
+
+
+### upload 1/17/2017 at 1:07:17 PM.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58700b20e778759a4bc40204/1e7e5e3cda7af9337c4ec292bb36c770/upload_1_17_2017_at_1_07_17_PM.png added by Jared on 2017-01-17T21:07:36.230Z
+
+
+### Cannot reproduce. See attached screenshot. - Jared on 2017-01-17T21:07:52.401Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-01-17T21:07:57.058Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2017-02-27T23:35:30.853Z
+
+
+### The embed for the link is different if it has the "." or not - Jared on 2017-02-27T23:35:54.578Z
+
+
+### Can reproduce.
+Different embed if period is added, Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T06:56:16.963Z
+
+
+### Appears to be working now. Marking as Verified Fixed. - Jared on 2018-03-22T21:13:56.510Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-22T21:14:01.691Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:52:31.911Z
+
+
+### Archived by Jared on 2018-07-06T17:52:37.805Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

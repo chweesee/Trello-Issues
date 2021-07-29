@@ -1,0 +1,50 @@
+Long usernames in stream previews aren't truncated. (https://trello.com/c/qshYOWyC)
+
+Investigating
+
+Created: 2019-04-28T02:39:46.689Z
+Latest Update: 2019-06-17T22:08:20.354Z
+
+**Steps to Reproduce:**
+1. Change your username to 32 W's.
+2. Begin a stream.
+
+**Expected Result:** Your username is properly truncated in the stream preview.
+
+**Actual Result:** The username doesn't appear outside the preview, but it isn't truncated either.
+
+**Client Settings:** Canary 36529
+
+**System Settings:** MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226)
+
+Card Log
+========
+### Added by Isabel Lomas on 2019-04-28T02:39:46.689Z
+
+
+### Example - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5cc51272e892f383bdaebbd5/80fd16821af889a8d833b51c970b6f18/unknown.png added by Isabel Lomas on 2019-04-28T02:39:54.231Z
+
+
+### CR Canary 36529 -- Windows 10 Pro x64 v1809 Build 11875.1000 - webhp on 2019-04-28T02:40:54.886Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 36529
+ - Daffyduck on 2019-04-28T02:40:58.727Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by Isabel Lomas on 2019-04-28T02:41:01.078Z
+
+
+### Moved from Tested Bugs to Game Specific Issues by Athena Yao on 2019-05-31T01:29:41.748Z
+
+
+### Moved from Game Specific Issues to Claimed Fixed, Needs Verification by Athena Yao on 2019-05-31T01:38:37.632Z
+
+List
+====
+Claimed Fixed, Needs Verification
+
+Members
+=======
+None

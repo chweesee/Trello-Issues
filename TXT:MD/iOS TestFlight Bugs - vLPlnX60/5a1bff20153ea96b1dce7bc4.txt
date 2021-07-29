@@ -1,0 +1,120 @@
+[Archived] backslash-escaped emojis break rendering of text (https://trello.com/c/ffDzhDQQ)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2017-11-27T12:03:44.391Z
+Latest Update: 2019-05-05T10:30:22.856Z
+
+Reported by TellowKrinkle#5281
+
+####Steps to reproduce:
+- Have someone post an emoji prefixed by a backslash in a sentence 
+- View it from the iOS app 
+- This might cause it right here, \🍩 this text will probably not be shown on an iOS device.
+
+####Expected result:
+The emoji is shown as a part of the sentence
+####Actual result:
+The emoji and all the text after it until a new formatting mark will not be rendered
+####Client settings:
+Discord iOS 2.1.0
+####System settings:
+iPhone 7, iOS 10.3.3 (14G60)
+
+6653
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-27T12:03:44.391Z
+
+
+### Can reproduce.
+CR, iOS 11.1 Public Beta, iPad Air 1, TF 2.0.1 1610, I think you got your TF version messed up, 2.0.1 is the latest
+
+TBNRShadowPlayz#1468 - Bug Bot on 2017-11-27T12:03:51.708Z
+
+
+### Can reproduce.
+CR, iPhone X, iOS 11.2 PB 3, TestFlight 2.0.1 (1610)
+
+ara#9039 - Bug Bot on 2017-11-27T12:03:56.732Z
+
+
+### Can reproduce.
+CR, {iPhone 6s Plus, iOS 11.2 Beta 4 (15C5110b), Discord TF Beta 1610} {iPad Pro 9.7-inch, iOS 11.2 Beta 4 (15C5110b), Discord Store version 2.1.0}
+
+Teyloll#4694 - Bug Bot on 2017-11-27T12:04:06.222Z
+
+
+### Can reproduce.
+CR, iPhone 6S, TF 2.0.1 (1610), iOS 11.2 Developer Beta
+
+Lasse#4890 - Bug Bot on 2017-11-28T07:47:00.855Z
+
+
+### Verified.  - Clayton on 2017-11-29T22:25:57.973Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-29T22:28:01.598Z
+
+
+### QwakGoesDuck#0420 - https://www.youtube.com/watch?v=Gld90nOF_JE added by Bug Bot on 2018-07-14T05:21:17.024Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:58.637Z
+
+
+### Can reproduce.
+Cr, This bug still happens as testflight 2.3.8 (7049) and happens just like Qwacks video in the report, ipod Touch 6th generation ios 11.4.1
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-09-07T21:16:10.888Z
+
+
+### Unarchived by Clayton on 2018-09-07T21:30:04.565Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:18.803Z
+
+
+### Cannot reproduce as of iOS TestFlight 2.5.2 (13014) on iPhone XS Max running iOS 12.2 Dev Beta 6.
+
+Moving this ticket to Claimed Fixed. - Ghoul on 2019-04-02T05:09:16.390Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Ghoul on 2019-04-02T05:09:20.748Z
+
+
+### Unarchived by Ghoul on 2019-04-02T05:09:20.822Z
+
+
+### Can't reproduce.
+iPhone SE iOS 12.1.4 - TestFlight 2.5.2 (13014)
+
+Daffyduck#5364 - Bug Bot on 2019-04-02T05:35:27.278Z
+
+
+### Can't reproduce.
+Now it shows the name of the emoji as text, iPhone 8 Plus & iPad Pro (11 inch) - iOS 12.2 - TestFlight 2.5.2 (13014)
+
+Pascal#0929 - Bug Bot on 2019-04-02T10:37:35.357Z
+
+
+### Can't reproduce.
+iphone 8 ios 12.2, tf 2.5.2 (13014)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-02T11:43:51.362Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-02T11:43:51.613Z
+
+
+### Archived by Bug Bot on 2019-05-05T10:30:22.868Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

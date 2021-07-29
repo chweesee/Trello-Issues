@@ -1,0 +1,80 @@
+[Archived] Screen sharing breaks macOS "Unlock with Apple Watch" feature (https://trello.com/c/iCNg2oEy)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-10T13:42:09.180Z
+Latest Update: 2019-10-23T23:02:16.861Z
+
+Reported by JBYoshi#5551
+
+####Steps to reproduce:
+- Link a Mac and an Apple Watch to the same Apple ID 
+- In System Preferences on the Mac, go to "Security" and enable "Allow your Apple Watch to unlock your Mac" (if you don't see it, use a different computer) 
+- Start a video call and share your screen 
+- End the call 
+- Lock your screen (there's an option for this under the Apple menu) 
+- Wait for the screen to turn off -Press any key to turn the screen on, with the Apple Watch near the computer
+
+####Expected result:
+The Mac automatically unlocks, because screen sharing was ended
+####Actual result:
+The login window says "Unlocking with Apple Watch is not supported while your screen is being shared"
+####Client settings:
+Canary 33418
+####System settings:
+macOS 10.14.3, 2017 MacBook Pro
+
+30418
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-10T13:42:09.180Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 33633
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-10T13:42:16.665Z
+
+
+### Can reproduce.
+macOS 10.14.3
+
+tech_dude1#9855 - Bug Bot on 2019-03-10T13:42:21.708Z
+
+
+### Can reproduce.
+MacOS 10.14.3
+
+Akihiro#7711 - Bug Bot on 2019-03-10T13:42:26.691Z
+
+
+### Can reproduce.
+macOS Mojave 10.14.3, Canary: 33683
+
+Thiago#3958 - Bug Bot on 2019-03-10T19:10:58.477Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 33683
+
+Zacatero#0001 - Bug Bot on 2019-03-11T01:37:30.787Z
+
+
+### Sorry I did the wrong shortcut. My repro was on: Mac Mini (Late 2012) macOS 10.14.3
+
+Zacatero#0001 - Bug Bot on 2019-03-11T04:06:24.825Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T20:37:38.806Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:16.875Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

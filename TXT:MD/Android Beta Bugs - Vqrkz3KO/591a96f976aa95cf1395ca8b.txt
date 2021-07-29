@@ -1,0 +1,104 @@
+[Archived] Server Settings Remove Server Icon not working (https://trello.com/c/zE0C7idu)
+
+P1 - Severe
+
+Created: 2017-05-16T06:06:49.223Z
+Latest Update: 2018-07-06T21:25:10.035Z
+
+Reported by 4JR#4355
+
+####Steps to reproduce:
+- Go to Server Settings of a server that you have Manage Server permission 
+- Try to remove the channel icon
+
+####Expected result:
+Icon turns into initials of the channel title
+####Actual result:
+Group icon doesn't even get removed Video: <https://streamable.com/mdgn6>
+####Client settings:
+Android 6.0.1 Galaxy S6
+####System settings:
+Discord 3.8.6
+
+1014
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-16T06:06:49.223Z
+
+
+### Can reproduce.
+Android 6.0.1 on Nexus 5 running Discord 3.8.6
+
+LW001#8654 - Bug Bot on 2017-05-16T06:06:53.610Z
+
+
+### Can reproduce.
+Note 3 with Android 5.0, Discord 3.8.6
+
+Krotchmonster#9387 - Bug Bot on 2017-05-16T06:06:55.602Z
+
+
+### Can reproduce.
+Nexus 6P, Android 7.1.2, Discord 3.8.6
+
+Chrees#4389 - Bug Bot on 2017-05-16T06:06:57.595Z
+
+
+### Verified.  - Clayton on 2017-05-19T01:03:17.982Z
+
+
+### Moved from User Reported Bugs to Serious Issues by Clayton on 2017-05-19T01:10:50.085Z
+
+
+### Can reproduce.
+If you remove the server icon the server initials will appear. However, if you change the initials to a new server avatar, the original one appears instead. Samsung Galaxy S8+ 7.0 Nougat 《☆》 Discord Alpha 3.9.7 (396)
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-25T02:26:54.158Z
+
+
+### Can reproduce.
+Android 7.0 - Discord Beta
+
+TheToxicGamer#9220 - Bug Bot on 2017-08-13T13:03:58.633Z
+
+
+### Moved from Serious Issues to Fix made, not yet released by Jeff Cailteux on 2017-10-10T20:27:18.815Z
+
+
+### The Play Store patch notes for Alpha 5.3.9 say that this bug got fixed, but it doesn't seem 100% fixed. After you press Remove in the Server Settings, it looks like the icon got deleted and replaced by the initials. However, once you save the changes, the icon's right back until you restart the app.
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.3.9
+ - Alexandru Todea on 2017-10-15T11:22:27.763Z
+
+
+### Moved from Fix made, not yet released to User Reported Bugs by Alexandru Todea on 2017-10-15T16:13:10.855Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Jeff Cailteux on 2017-10-24T16:48:41.143Z
+
+
+### Next time file a new bug for the new issue. This issue is fixed but there was a new bug introduced, the icon not updating right away. Either way, its all fixed now. - Jeff Cailteux on 2017-10-24T16:49:20.247Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jeff Cailteux on 2017-10-26T18:33:31.957Z
+
+
+### Can't reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.5
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T22:15:17.966Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:25:08.967Z
+
+
+### Archived by Jared on 2018-07-06T21:25:10.038Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

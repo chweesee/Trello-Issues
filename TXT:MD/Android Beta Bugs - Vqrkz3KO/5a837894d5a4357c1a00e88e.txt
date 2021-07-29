@@ -1,0 +1,112 @@
+[Archived] Channel linking issue (https://trello.com/c/vlIFoXLF)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-02-13T23:45:24.264Z
+Latest Update: 2018-07-06T18:47:15.884Z
+
+Reported by SHARDcoder#6636
+
+####Steps to reproduce:
+- Have a channel (for testing sake, #abc) 
+- Have a channel (for testing sake, #abcdef) (must have other channel name at start) 
+- Tag the 2nd channel in a message
+
+####Expected result:
+Tags second channel
+####Actual result:
+Tags first channel then adds text afterwards for rest of 2nd channel's name
+####Client settings:
+Discord 6.2.4
+####System settings:
+Samsung Android 6.0.1
+
+8765
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-13T23:45:24.264Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S7, Android Nougat 7.0, Discord Android v6.2.4
+
+Zacatero#0001 - Bug Bot on 2018-02-13T23:45:31.650Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.2.4, Xiaomi Mi 5 Nougat 7.1.2
+
+Elix 🍭#6969 - Bug Bot on 2018-02-13T23:45:36.649Z
+
+
+### Can reproduce.
+CR Discord Alpha 6.2.4 Android 6.0
+
+cutelilberry#5423 - Bug Bot on 2018-02-13T23:45:41.640Z
+
+
+### Can reproduce.
+Discord Alpha 6.2.4,  Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-02-14T00:37:23.920Z
+
+
+### Can reproduce.
+Discord 6.2.4, Samsung Galaxy Core Prime, Android 5.1.1
+
+Azn9#4783 - Bug Bot on 2018-02-14T17:38:37.231Z
+
+
+### Verified.  - Clayton on 2018-02-15T22:05:59.571Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T22:06:12.857Z
+
+
+### https://trello.com/c/vlIFoXLF/1120-channel-linking-issue# - undefined added by Clayton on 2018-02-15T22:06:13.850Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a837894d5a4357c1a00e88e/b8bf56a977d3d0289574301694d667c8/pgG8ApV.png added by Bug Bot on 2018-02-19T04:34:13.140Z
+
+
+### Moved from Verified Bugs to Serious Issues by Sam Shih on 2018-02-25T12:02:16.057Z
+
+
+### Probably just need to try and do longest consecutive match - Sam Shih on 2018-02-25T12:02:35.253Z
+
+
+### Moved from Serious Issues to Fixed Bugs by Sam Shih on 2018-03-01T01:59:57.013Z
+
+
+### The same thing occurs with role/user mentions that overlap
+
+AEnterprise#4693 - Bug Bot on 2018-03-03T09:38:15.997Z
+
+
+### Moved from Fixed Bugs to Reopened by Jared on 2018-03-23T23:47:24.755Z
+
+
+### Re-opening as issue still occurs. - Jared on 2018-03-23T23:47:31.694Z
+
+
+### I fixed this again in 6.4.6 - Sam Shih on 2018-04-09T18:28:12.979Z
+
+
+### Moved from Reopened to Fixed Bugs by Sam Shih on 2018-04-09T18:28:18.771Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:47:14.639Z
+
+
+### Archived by Jared on 2018-07-06T18:47:15.889Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio
+Unknown User (https://trello.com/mrkcsc) - No Bio

@@ -1,0 +1,65 @@
+substitution messages does not work while under the effects of slowmode (https://trello.com/c/0wmWsXvh)
+
+None
+
+Created: 2020-01-09T17:03:26.178Z
+Latest Update: 2020-07-16T21:26:05.986Z
+
+Reported by Alex from Alaska#2020
+
+####Steps to reproduce:
+- send a message to a slow mode channel 
+- attempt to edit the message with the s/foo/bar sub string replace method
+
+####Expected result:
+the message gets edited
+####Actual result:
+Shakey discord, as if you are trying to send a message
+####Client settings:
+stable, Build Number: 52249
+####System settings:
+Windows 10, x64
+
+51320
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-09T17:03:26.178Z
+
+
+### Can reproduce.
+Discord Canary Build 52155, Windows 10 Pro Build 18362.295
+
+Creedoo#3626 - Bug Bot on 2020-01-09T17:03:33.824Z
+
+
+### Can reproduce.
+Canary 52249 Win10 10.0.18363)
+
+Just A Regular Talking Box#5472 - Bug Bot on 2020-01-09T17:03:38.809Z
+
+
+### Can reproduce.
+Windows 10 Pro - Discord Canary 52249
+
+iced#1337 - Bug Bot on 2020-01-09T17:03:43.801Z
+
+
+### Can't reproduce.
+Windows 10, Canary 52491
+
+McDublets#7559 - Bug Bot on 2020-01-11T05:14:42.100Z
+
+
+### Can't reproduce.
+Cannot reproduce, Windows 10 Home 64 bit, Discord Canary 52491.
+
+Alister#0001 - Bug Bot on 2020-01-11T17:02:11.052Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

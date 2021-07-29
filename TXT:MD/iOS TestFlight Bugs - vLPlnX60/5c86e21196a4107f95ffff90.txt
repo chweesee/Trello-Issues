@@ -1,0 +1,145 @@
+[Archived] Audio from "GIFs with sounds" plays regardless of ring/silent setting (https://trello.com/c/li9LCy0R)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-11T22:32:49.576Z
+Latest Update: 2019-05-05T10:30:25.392Z
+
+Reported by Tiemen#0001
+
+####Steps to reproduce:
+- Put your device on silent with the physical switch 
+- Make sure autoplaying GIFs is enabled 
+- Post a GIF with sound in a channel, such as this one or if there's already one in the channel, make sure you're scrolled up to the message with the gif
+
+####Expected result:
+The sound from the GIF shouldn't be playing when your device is on silent, or preferably not at all since I don't think anyone wants to randomly hear sounds from gifs
+####Actual result:
+The sound from the GIF plays regardless if your device is on silent or not
+####Client settings:
+TF 2.4.6 (12026)
+####System settings:
+iPhone XS, iOS 12.2 dev beta 3
+
+30681
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-11T22:32:49.576Z
+
+
+### Can reproduce.
+Can Reproduce - TestFlight 2.4.6 (12026) iPhone 6s iOS 12.2 Dev Beta 4
+
+Rashaun#8467 - Bug Bot on 2019-03-11T22:32:57.027Z
+
+
+### Can reproduce.
+iphone 8 ios 12.1.4, TestFlight 2.4.6 (12026)
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-11T22:33:02.063Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.2 (dev beta 4) - TestFlight 2.4.6 (12026)
+
+Xylium#5800 - Bug Bot on 2019-03-11T22:33:07.218Z
+
+
+### This is the “gif with sound” https://gfycat.com/pleasingacidicboubou-sandwich-furious-kitchen-gordon-hells
+
+☃nickWtn☃#3789 - Bug Bot on 2019-03-11T22:34:10.324Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.1.4 | TestFlight 2.4.6 (12026)
+
+Clay#0001 - Bug Bot on 2019-03-11T23:10:53.467Z
+
+
+### Can reproduce.
+CR, note that a gif with sound isn’t a regular gif file however. iPhone 8, iOS 12.2 Beta 5 - Discord TestFlight 2.4.6 (12026)
+
+Arnold0#7514 - Bug Bot on 2019-03-12T00:07:40.322Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.6 (12026)
+
+Daffyduck#5364 - Bug Bot on 2019-03-12T00:32:27.368Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.4.6 (12026)
+
+Killtracity#0001 - Bug Bot on 2019-03-12T02:10:52.319Z
+
+
+### Can reproduce.
+Can Reproduce - TestFlight 2.4.6 (12026) iPhone 6s iOS 12.2 Dev Beta
+
+tech_dude1#9855 - Bug Bot on 2019-03-12T03:09:52.257Z
+
+
+### Can reproduce.
+CR // iPhone 8 Plus // iOS 12.1.4 // TestFlight 2.4.6 (12026)
+
+Falkio#0001 - Bug Bot on 2019-03-12T05:46:01.988Z
+
+
+### Having your ringer switched to silent does not have any effect on this bug, because iOS keeps the ringer volume and phone volume (for apps and music) separate from each other
+
+Rashaun#8467 - Bug Bot on 2019-03-12T23:06:48.780Z
+
+
+### Can reproduce.
+iPhone 8, 12.1.4
+
+maku#0001 - Bug Bot on 2019-03-13T16:08:55.303Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-03-22T19:00:05.953Z
+
+
+### Moved from Backlog to Fix made, not yet released by Victoria on 2019-03-22T22:35:03.927Z
+
+
+### Multiple Bug Hunters has reported that they are not able to reproduce this ticket anymore. Since I was not able to test on my own - I asked Xylium to go ahead and test. 
+iPhone 6, iOS 12.3 (dev beta) - TestFlight 2.5.2 (12856) for me it doesn’t play sounds anymore even though i un-silent it
+
+So moving to Claimed Fixed for confirmation. - Ghoul on 2019-03-28T19:56:46.893Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Ghoul on 2019-03-28T19:56:51.543Z
+
+
+### Can't reproduce.
+iPhone Xs, iOS 12.3 dev beta 1, Discord TF 2.5.2 (12856)
+
+Tiemen#0001 - Bug Bot on 2019-03-28T19:59:50.526Z
+
+
+### Can't reproduce.
+ipad mini 3 ios 11.4.1, tf 2.5.2 (12856)
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-28T20:00:48.259Z
+
+
+### Can't reproduce.
+iPhone Xr, iOS 12.1.4, TF: 2.4.6 (12856)
+
+Thiago#3958 - Bug Bot on 2019-03-28T23:29:15.429Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-03-28T23:29:15.643Z
+
+
+### Archived by Bug Bot on 2019-05-05T10:30:25.403Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,85 @@
+[BLOCKED] Moving voice box on top of close button makes the button move and eventually disappears (https://trello.com/c/ZjU5161B)
+
+None
+
+Created: 2018-07-28T07:59:30.672Z
+Latest Update: 2019-08-17T15:30:38.665Z
+
+Reported by Azrael#6867
+
+####Steps to reproduce:
+- Launch your game and Discord 
+- Turn on your overlay and join a voice channel 
+- Move your voice box all the way to the right hand corner 
+- Move your voice box all the way to the left hand corner
+
+####Expected result:
+The close button should move to the the right hand corner again
+####Actual result:
+The close button moves to the middle of the screen and when you move the voice box there it disappears
+####Client settings:
+Canary Build 20174 and Stable Build 20040
+####System settings:
+Windows 10 Pro x64
+
+16184
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-28T07:59:30.672Z
+
+
+### Azrael#6867 - https://youtu.be/ohrNaLgfcBk added by Bug Bot on 2018-07-28T07:59:33.340Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 20174
+
+Frances Picard#6209 - Bug Bot on 2018-07-28T07:59:38.191Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 April 2018 Update x64, Canary 20174
+
+TTtie#4900 - Bug Bot on 2018-07-28T07:59:43.108Z
+
+
+### Can reproduce.
+CR, Windows Home x64, Canary 20174
+
+-Shadow-#6754 - Bug Bot on 2018-07-28T07:59:48.123Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 20316
+
+Frances Picard#6209 - Bug Bot on 2018-07-31T11:34:54.611Z
+
+
+### will fix - Christina Zou on 2018-08-03T23:27:27.230Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24461
+
+Neiron#2406 - Bug Bot on 2018-09-23T16:22:31.869Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:47.196Z
+
+
+### Unarchived by Pascal on 2019-07-19T15:27:38.225Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Pascal on 2019-07-19T16:04:16.701Z
+
+
+### Blocked by https://trello.com/c/N7fVOmTp - Aeria on 2019-07-20T15:23:18.867Z
+
+List
+====
+Fix made, not yet released
+
+Members
+=======
+None

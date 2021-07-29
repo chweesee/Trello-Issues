@@ -1,0 +1,104 @@
+[Archived] Unlike for static emotes, messages in servers cannot be searched via the name of an animated emote it contains. (https://trello.com/c/Ev0mQs7I)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-02-04T18:38:24.701Z
+Latest Update: 2019-03-13T04:00:02.626Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go in any server where you can manage emojis 
+- Create a new static emote and name it "abcdef"  
+- Send a message containing the emote in this server 
+- Do Ctrl+F and type in "abcdef". Notice how your message containing the emote shows up in search results 
+- Now create a new emote, *animated* this time. Name it let's say "uvwxyz"  
+- Send a message containing this animated emote 
+- Do Ctrl + F again and search for "uvwxyz"
+
+####Expected result:
+The message containing the animated emote should show up in the results
+####Actual result:
+The message doesn't show up. Apparently it works if you prepend the emote name with "a:" in your search query, but I don't see why it would be required since the search engine usually ignores special characters like ":"
+####Client settings:
+Canary 31792
+####System settings:
+Ubuntu 18.04 LTS (stock GNOME desktop env), 64-bit processor Ryzen 7 2700X
+
+28060
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-04T18:38:24.701Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 (1809) - Discord Canary 31792
+
+Arnold0#7514 - Bug Bot on 2019-02-04T18:38:32.176Z
+
+
+### Can reproduce.
+Windows 10 Profesional Education x64, Stable 31784
+
+maink - jankul studio#0690 - Bug Bot on 2019-02-04T18:38:37.174Z
+
+
+### Can reproduce.
+LMint 19.1 Cinnamon (4.0.8) - Canary 31792
+
+dafaqed#1312 - Bug Bot on 2019-02-04T18:38:42.204Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 31792
+
+Solo#0007 - Bug Bot on 2019-02-04T18:42:32.892Z
+
+
+### Can reproduce.
+Can repro, Windows Home 1809, Discord Canary 31819
+
+ginkoid#8888 - Bug Bot on 2019-02-04T21:36:50.009Z
+
+
+### verified, canary 31792, win 10 - Clayton on 2019-02-05T11:27:55.250Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-05T11:28:01.957Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Canary 31795
+
+Defracted#0001 - Bug Bot on 2019-02-05T12:56:31.937Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 31795
+
+Lily#2624 - Bug Bot on 2019-02-05T13:34:12.482Z
+
+
+### Can reproduce.
+CR; Canary: 31795, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-05T15:14:29.994Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31974
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-11T03:54:59.684Z
+
+
+### Archived by Bug Bot on 2019-03-13T04:00:02.639Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

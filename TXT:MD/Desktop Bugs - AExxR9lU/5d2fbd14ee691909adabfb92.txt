@@ -1,0 +1,96 @@
+(Requires 2 servers with custom status) Custom Status updating in wrong server (https://trello.com/c/LjGB8AwZ)
+
+None
+
+Created: 2019-07-18T00:28:04.244Z
+Latest Update: 2020-07-16T21:26:04.464Z
+
+Reported by GlenMerlin#2119
+
+####Steps to reproduce:
+- (You must be in two servers that have custom status) 
+- set a status in one server 
+- go to another server with custom status and try setting your status 
+- notice that it updates the other server when you change it instead of the one your focused on 
+- try clearing you status and then change it 
+- notice that even though you cleared your status on the first server it will change the status for the first server instead of the one you are focused on
+
+####Expected result:
+The status should update for the server you are focused and clearing it should let you change it for the second server
+####Actual result:
+Status is only updating on the first server
+####Client settings:
+Canary 41186
+####System settings:
+Windows 10 1903
+
+39756
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-18T00:28:04.244Z
+
+
+### GlenMerlin#2119 - https://youtu.be/heyw-W2hYus added by Bug Bot on 2019-07-18T00:28:07.429Z
+
+
+### Can reproduce.
+Windows 10 Enterprise 1803 x64, Canary 41246
+
+MiTonder#0001 - Bug Bot on 2019-07-18T00:28:12.470Z
+
+
+### Can reproduce.
+can repro, canary 41300, though this might be how the experiment works
+
+IcyPebbles#5833 - Bug Bot on 2019-07-18T00:28:17.375Z
+
+
+### Can reproduce.
+macos 10.15, canary 41300
+
+OrangeM24#5746 - Bug Bot on 2019-07-18T00:28:22.602Z
+
+
+### Can reproduce.
+iPhone 7 Plus iOS 13 Dev beta 2, TestFlight 3.0.6 (16208)
+
+Jeffrey#1234 - Bug Bot on 2019-07-18T01:32:07.612Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 41390
+
+charleskimbac#6492 - Bug Bot on 2019-07-18T01:57:47.563Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Discord Canary Build Number: 41257
+
+Jeffrey#1234 - Bug Bot on 2019-07-18T02:01:10.916Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 43100
+
+Jasοn#0001 - Bug Bot on 2019-07-18T02:47:20.798Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, v1903 - Canary 41426
+
+Nicholas#4669 - Bug Bot on 2019-07-18T23:07:39.141Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 41583 (Host 0.0.247)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-22T20:57:51.241Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

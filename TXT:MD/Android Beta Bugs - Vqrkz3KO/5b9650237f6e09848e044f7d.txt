@@ -1,0 +1,67 @@
+[Archived] When you click on a debug message that is just two lines long or is completely viewable without expanding  of that message, the bottom line moves up and down like it's trying to expand. [Specific to devices with screen sizes LESS THAN or equal to 5.00 inches (diagonally)] (https://trello.com/c/SEslh5xN)
+
+None
+
+Created: 2018-09-10T11:06:11.475Z
+Latest Update: 2019-01-01T15:28:03.611Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Open debug log. 
+- Find a small debug message like `[MessageLoader] Loaded 50 messages for channel [462618014614028288], all loaded: false.` 
+- Click on the message. 
+- Observe the bottom line.
+
+####Expected result:
+Nothing happens because the message need not be expanded because it is completely viewable expanding.
+####Actual result:
+The bottom line moves up and down a bit like it's trying to expand or something.
+####Client settings:
+Discord Alpha 746
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+18867
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-10T11:06:11.475Z
+
+
+### Can reproduce.
+Samsung Galaxy S3 Mini (4 Inch), Android 4.1, Discord Alpha 7.4.6
+
+Law of Royale#6825 - Bug Bot on 2018-09-10T11:06:18.733Z
+
+
+### Can reproduce.
+CR Discord Alpha 746,748, Vodafone Smart Ultra 6, Android 6.0.1
+
+Yamboy1#3959 - Bug Bot on 2018-09-10T11:06:23.782Z
+
+
+### Can reproduce.
+Can reproduce, 6.0.1 Samsung Galaxy a5 2016, Alpha 7.3.9
+
+FocusFon#1337 - Bug Bot on 2018-09-10T11:06:28.737Z
+
+
+### CNR, android 7.0, alpha 7.4.8, samsung s6 edge - Clayton on 2018-09-10T20:46:22.074Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-09-10T20:46:26.265Z
+
+
+### Archived due to being inactive for 30+ days in cannot reproduce list. - Tarek on 2019-01-01T15:28:02.836Z
+
+
+### Archived by Tarek on 2019-01-01T15:28:03.614Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

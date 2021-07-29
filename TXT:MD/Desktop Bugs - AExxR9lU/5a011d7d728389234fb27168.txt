@@ -1,0 +1,73 @@
+[Archived] After sending a message with an unescaped Trello URL, editing in a set of <> brackets around the URL won't remove preview/embed (https://trello.com/c/9NEcmrIa)
+
+None
+
+Created: 2017-11-07T02:42:05.805Z
+Latest Update: 2017-11-07T19:47:16.766Z
+
+Reported by juj#5114
+
+####Steps to reproduce:
+- Send a message containing a Trello URL, link preview should appear under the message 
+- Edit the message and add <> around the Trello URL and save the edit
+
+####Expected result:
+The preview of the Trello URL disappears, like it'd with other links (you can try sending an Imgur link and then editing <> around it for example, the preview disappears)
+####Actual result:
+The Trello link preview stays below the message, even though the link is escaped with <> around it (which is visible if you edit/copy the message)
+####Client settings:
+Canary 0.0.170 (Build 6864), also happens on iOS (and possible other) platform
+####System settings:
+Windows 10 Pro 1709 x64
+
+6152
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-07T02:42:05.805Z
+
+
+### Can reproduce.
+Surface Book Performance Base 8 GB, Windows 10 Pro x64 (Fall Creator's Update) Version 1709 Discord Stable build 6768
+
+andritolion#0007 - Bug Bot on 2017-11-07T02:42:13.370Z
+
+
+### Can reproduce.
+Dell Inspiron 15 Windows 10 Creators Update Discord Canary 6864
+
+Tiger Gaming™#6437 - Bug Bot on 2017-11-07T02:42:18.337Z
+
+
+### Can reproduce.
+Also occurs with twitter embed links. Desktop Stable build 6768, Win10 x64
+
+Usoka#6021 - Bug Bot on 2017-11-07T02:42:23.332Z
+
+
+### andritolion#0007 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a011d7d728389234fb27168/303315c8d23ec5b0e4b3013e9f20361f/2017-11-06_20_286_29.png added by Bug Bot on 2017-11-07T02:59:19.788Z
+
+
+### Can reproduce.
+Occurs with any URL which uses Rich Embed for preview (Trello, Twitter, XKCD, etc.) - Desktop Stable build 6768, Win10 x64
+
+Usoka#6021 - Bug Bot on 2017-11-07T03:33:04.868Z
+
+
+### Dupe of https://trello.com/c/OapIvE5a
+
+Tarek1337#0379 - Bug Bot on 2017-11-07T05:53:39.395Z
+
+
+### Dupe of https://trello.com/c/OapIvE5a - Alexandru Todea on 2017-11-07T08:01:18.366Z
+
+
+### Archived by Jared on 2017-11-07T19:47:16.768Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

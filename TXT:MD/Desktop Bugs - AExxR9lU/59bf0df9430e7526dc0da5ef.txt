@@ -1,0 +1,82 @@
+[Archived] Filling the message bar with a single character for 1.5 lines causes the top/bottom padding to be broken (https://trello.com/c/IoHgmMjS)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-18T00:06:17.919Z
+Latest Update: 2018-11-21T14:38:45.062Z
+
+Reported by Super from NotDiscord™#5419
+
+####Steps to reproduce:
+- Click the message bar, in any channel you have the permission to do so 
+- Hold shift (or turn on Caps Lock) 
+- Hold down any of the letter keys (A, B, C, etc.) 
+- Observe the padding when a new line is started
+
+####Expected result:
+The top/bottom padding on the message bar will be properly adjusted to accomodate the new line
+####Actual result:
+The padding remains the same, as if the second line didn't even exist. This fixes itself halfway down the line.
+####Client settings:
+Discord Stable 0.0.298
+####System settings:
+Windows 7 Professional x64
+
+4479
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-18T00:06:17.919Z
+
+
+### Can reproduce.
+Canary Build 4361, Windows 10 x64
+
+Jake S.#8787 - Bug Bot on 2017-09-18T00:06:25.681Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary Build 4361
+
+Azrael#6867 - Bug Bot on 2017-09-18T00:06:30.598Z
+
+
+### Can reproduce.
+Win10, Canary Build 4361
+
+Jesse#1246 - Bug Bot on 2017-09-18T00:06:35.641Z
+
+
+### Super from NotDiscord™#5419 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59bf0df9430e7526dc0da5ef/ad1a0233d130cc15bf0d05185ad647aa/unknown.png added by Bug Bot on 2017-09-18T00:07:53.503Z
+
+
+### Can reproduce.
+Win 10 Enterprise 1703 x64, Canary 4361, PTB 4402
+
+Josedolf Staller#2859 - Bug Bot on 2017-09-18T18:53:55.712Z
+
+
+### Verified.  - Clayton on 2017-09-19T02:18:35.194Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T02:18:45.694Z
+
+
+### Checked as per the bug event, I can still reproduce this in Canary build 12159 as shown here: https://i.imgur.com/zhezb3E.png - Alexander (DJScias) on 2018-03-16T17:14:46.471Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:49.064Z
+
+
+### Can reproduce.
+Windows 10 home x64 (1803) - Canary 28325
+
+J1#0088 - Bug Bot on 2018-11-21T14:38:45.063Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

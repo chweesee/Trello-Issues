@@ -1,0 +1,71 @@
+[Archived] Changing language to Spanish will not change it to Spanish and will throw errors in console (https://trello.com/c/kgTAAFCs)
+
+None
+
+Created: 2018-02-01T03:57:28.251Z
+Latest Update: 2018-03-14T14:05:09.885Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Go to user settings 
+- Change language to Spanish
+
+####Expected result:
+The client changes language to Spanish
+####Actual result:
+It stays in English and throw "Unsupported locale" warning and "ERR_CONTENT_DECODING_FAILED" error
+####Client settings:
+Discord Canary 0.0.201 (10094)
+####System settings:
+Windows 10 Pro 64-bit (1709)
+
+8335
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-01T03:57:28.251Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a72902884c6a59f9b74f914/bc352819fb3ac1c7db52c0563647becf/zoXYhdc.png added by Bug Bot on 2018-02-01T03:57:30.709Z
+
+
+### Can reproduce.
+cr Windows 10 Home x64 (Fall Creators Update), canary 10094
+
+Rauf#9245 - Bug Bot on 2018-02-01T03:57:35.569Z
+
+
+### Can reproduce.
+Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 10094
+
+Ghoul#0009 - Bug Bot on 2018-02-01T03:57:40.580Z
+
+
+### Can reproduce.
+Windows 10 (Fall Creators Update) + Canary Build# 10094 (happened on french for me, not spanish)
+
+Oasis#4730 - Bug Bot on 2018-02-01T03:57:45.564Z
+
+
+### Note, this seems to be happening for random x users, and random languages. - Tarek on 2018-02-01T03:57:56.029Z
+
+
+### Cannot reproduce. I checked every single language and it changed over correctly 100% of the time. - Jared on 2018-02-02T23:08:57.743Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-02-02T23:09:01.961Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T14:05:09.189Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T14:05:09.888Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

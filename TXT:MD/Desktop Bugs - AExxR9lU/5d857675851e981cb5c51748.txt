@@ -1,0 +1,69 @@
+Spotify detection of local files still runs even though you quit spotify (https://trello.com/c/pocVyZp4)
+
+None
+
+Created: 2019-09-21T01:01:41.128Z
+Latest Update: 2020-07-16T21:26:05.235Z
+
+Reported by Hagen#0001
+
+####Steps to reproduce:
+- Make sure to use discord on a web browser 
+- Download a mp3 song  
+- Open Spotify  
+- Play some local files 
+- Check your profile (it should show spotify status)  
+- quit spotify while you're listening to the song
+
+####Expected result:
+Spotify detection should disappear
+####Actual result:
+Spotify detection still appears, and show that you still listens to "x" song even though you quited spotify
+####Client settings:
+web Stable 45554
+####System settings:
+Windows 10 x64
+
+44036
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-21T01:01:41.128Z
+
+
+### Can reproduce.
+CR, Windows 10 home (1903) canary, Build Number: 45429
+
+The_killerbanana#9999 - Bug Bot on 2019-09-21T01:01:48.584Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 45990 | chrome 77.0.3865.75
+
+charleskimbac#6492 - Bug Bot on 2019-09-21T01:01:53.568Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, PTB 46174
+
+Action Potential#6862 - Bug Bot on 2019-09-21T01:01:58.795Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 46174 (Host 0.0.257); Spotify 1.1.14.475
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-21T16:28:21.108Z
+
+
+### Can reproduce.
+Only seems to work with shorter songs Windows 10 Professional,Canary 46198
+
+Typhoon#9981 - Bug Bot on 2019-09-22T14:37:43.827Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

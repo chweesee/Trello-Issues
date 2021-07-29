@@ -1,0 +1,75 @@
+[Archived] Emoji picker doesn't hide Voice Connected indicator (https://trello.com/c/He8GnSK0)
+
+P2 - Can wait a while
+
+Created: 2017-02-19T07:50:23.745Z
+Latest Update: 2019-06-10T20:45:14.525Z
+
+Reported by Flex#5917
+
+####Steps to reproduce: 
+- Join a voice channel 
+- Open emoji picker 
+
+####Expected result:
+ - Voice connected indicator is hidden 
+####Actual result:
+ - Voice connected indicator is still there and the height of both the indicator and emoji picker obscure view of chat
+
+1688
+
+Card Log
+========
+### Added by Jared on 2017-02-19T07:50:23.745Z
+
+
+### Can reproduce.
+3.3.4
+
+Peri#9606 - Jared on 2017-02-19T07:50:24.640Z
+
+
+### Can reproduce.
+client 3.3.4.1, Android 6.0.1
+
+teamvista#9576 - Jared on 2017-02-19T07:50:26.291Z
+
+
+### Can reproduce.
+KitKat 4.4.2 Discord 3.3.4.1
+
+WolfgGang1710#6782 - Jared on 2017-02-19T07:50:28.358Z
+
+
+### Can reproduce.
+3.3.4-alpha
+
+Birdie♫#6017 - Jared on 2017-02-19T14:30:08.211Z
+
+
+### Verified. - Jared on 2017-02-22T21:14:37.983Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-22T21:14:40.439Z
+
+
+### I can still reproduce this as of 9/20 
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.2.0 (520) - Alexandru Todea on 2017-09-20T05:40:15.201Z
+
+
+### The voice UI along the bottom was roughly 2x as tall back when this report was made, so I can see how it could severely obstruct the chat with the emoji picker open. It's probably not as big of an issue since slimming down the UI (though it may be for smaller screens). However, the voice UI does hide when opening the regular keyboard, so it should probably do the same for the emoji picker for consistency's sake. - Chris Cox on 2017-09-29T19:26:24.953Z
+
+
+### Okori#0902 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58a94e3ff4c41e57f3bce052/53793cc89f4a600006aecd4d50ea0316/Screenshot_2018-07-14-01-06-58.png added by Bug Bot on 2018-07-14T05:08:06.682Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:45:14.542Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

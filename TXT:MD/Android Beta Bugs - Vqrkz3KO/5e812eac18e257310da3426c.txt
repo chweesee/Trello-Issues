@@ -1,0 +1,83 @@
+When you the emoji menu and clicking on the search emoji text box, the keyboard lies above the box for about 5 seconds but you can still type in the search box [Looks like Android 5 specific]. (https://trello.com/c/Ezjunc9H)
+
+None
+
+Created: 2020-03-29T23:26:36.480Z
+Latest Update: 2020-04-28T22:27:23.717Z
+
+Reported by The Lunala#7412
+
+####Steps to reproduce:
+- Click on the emoji icon in text box. 
+- Click on the search emoji button.
+
+####Expected result:
+The emoji box doesn't get hid by the keyboard or you cannot interact with it when it is hidden.
+####Actual result:
+The emoji box is hidden and you can even react with it.
+####Client settings:
+Discord 1084
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+53981
+
+Card Log
+========
+### Added by Bug Bot on 2020-03-29T23:26:36.480Z
+
+
+### Can reproduce.
+Intex Aqua N7 Android 5 ; App Information 16 alpha 6
+
+Stardust#2476 - Bug Bot on 2020-03-29T23:26:44.073Z
+
+
+### Can reproduce.
+CR, Android 7.0, Samsung Galaxy J3 Prime Discord 16-alpha6, I can reproduce this on Android 7.0, so it isn't Android 5.0 specific
+
+spin~#1337 - Bug Bot on 2020-03-29T23:26:49.174Z
+
+
+### Can reproduce.
+Can repro, to clarify you need to press the search emoji bar not the magnifying glass (search emoji button) Samsung Galaxy S6, 7.0, 16 alpha 6 not specific to Android 5
+
+Xander#2027 - Bug Bot on 2020-03-29T23:26:54.072Z
+
+
+### I cannot repro this. Need users/devices with repro steps. - Jeff Cailteux on 2020-03-30T18:35:52.259Z
+
+
+### Moved from User Reported Bugs to Keyboard + Input Bugs by Jeff Cailteux on 2020-04-23T19:56:36.086Z
+
+
+### Moved from Keyboard + Input Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2020-04-23T20:22:01.266Z
+
+
+### Moved from Claimed Fixed, needs Verification to Cannot Reproduce by Jeff Cailteux on 2020-04-23T20:22:08.065Z
+
+
+### Can't reproduce.
+CNLR, Discord 19.5 (1116), Samsung Galaxy A70, Android 10
+
+Ana940#9858 - Bug Bot on 2020-04-27T18:47:38.529Z
+
+
+### Can't reproduce.
+CNLR, Samsung Galaxy Grand Prime, Android 5.1.1, Discord 20.1 (1120)
+
+Bryth#1086 - Bug Bot on 2020-04-28T21:42:43.924Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Grand Prime, Android 5.1.1, Discord 20.1 (1120). When Discord is running normally, the keyboard stays above the emoji tab for ~1s. When there are other apps running in the background, it lasts longer (the most I tested with was 19 other apps open and the emoji tab stayed for around 5 seconds). It seems the less available memory you have the longer the bug lasts, which leads me to believe this is an OOM issue.
+
+Bryth#1086 - Bug Bot on 2020-04-28T22:27:23.727Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

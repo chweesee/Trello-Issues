@@ -1,0 +1,72 @@
+[Archived] Trying to move a channel into a non-existent category crashes the client. (https://trello.com/c/dhLcRSaM)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-02-21T07:44:48.486Z
+Latest Update: 2018-09-04T23:12:50.555Z
+
+Reported by zjtech123#6743
+
+####Steps to reproduce:
+- Create a testing category and a voice or text channel. 
+- Go to the voice/text channel's settings, then go to the category section. 
+- Delete the category on another device, then try to tap the category on the iOS Device to move the channel to that category.
+
+####Expected result:
+The client should not crash, and the category should be removed from the category list.
+####Actual result:
+The category stays in the list, and when tapped, the client crashes.
+####Client settings:
+Discord TestFlight 2.2.3 (2671)
+####System settings:
+iPhone 6S, iOS 9.1
+
+8974
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-21T07:44:48.486Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 11.3 PB2 - TestFlight 2.2.3 (2671)
+
+webhp#1337 - Bug Bot on 2018-02-21T07:44:55.868Z
+
+
+### Can reproduce.
+CR; iPad Pro 12.9" (Gen 1) - iOS 11.2.5 (15D60) - TestFlight 2.2.3 (2671)
+
+HyperKids#4976 - Bug Bot on 2018-02-21T07:45:00.918Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.3 (2671)
+
+mrkirby153#7840 - Bug Bot on 2018-02-21T07:45:05.890Z
+
+
+### Verified.  - Clayton on 2018-02-23T23:25:59.123Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-23T23:26:02.072Z
+
+
+### I am still able to reproduce this bug as of Discord TestFlight 2.3.4 (5560), when I click on the Text Category after deleting it, my application just crashes. I used iPhone 8 + running iOS 12 (Dev Beta 2).
+
+Because I am still able to reproduce, I will leave this ticket to be. - Ghoul on 2018-07-03T01:44:27.893Z
+
+
+### 54D#1357 - https://youtu.be/GE8_YDedcSU added by Bug Bot on 2018-07-14T05:51:57.772Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:50.558Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

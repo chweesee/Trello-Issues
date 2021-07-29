@@ -1,0 +1,75 @@
+[Archived] [Audit Log] setting channel topic for the first time is incorrectly shown in audit log (https://trello.com/c/NTeAbE1U)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-05T14:53:24.641Z
+Latest Update: 2019-01-11T00:00:54.167Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- set a channel topic in a channel, that never had a topic before (if u arent sure bout that, just create a new channel) 
+- save 
+- observe audit log entry
+
+####Expected result:
+entry should say: "set the topic to _text_"
+####Actual result:
+instead it sais: "set the topic of to _text_"
+####Client settings:
+Canary 25540
+####System settings:
+Windwos 10 Pro x64
+
+20671
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-05T14:53:24.641Z
+
+
+### Can reproduce.
+Can reproduce, Tested on Windows 10 Home 64-bit (1803) with Discord Canary Build 25439
+
+that15fine#9275 - Bug Bot on 2018-10-05T14:53:31.951Z
+
+
+### Can reproduce.
+CR on Windows 10 Home; Canary Build 25540
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-05T14:53:36.978Z
+
+
+### Can reproduce.
+CNR, Windows 10 Pro, Canary 25540
+
+DowDaw#0008 - Bug Bot on 2018-10-05T14:53:41.937Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 25540
+
+Neiron#2406 - Bug Bot on 2018-10-05T18:43:59.831Z
+
+
+### verified, macos 10.12.6, canary 25540 - Clayton on 2018-10-05T21:42:41.534Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-05T21:42:50.008Z
+
+
+### Duplicate of https://trello.com/c/sXbh63V4
+
+Ene#0808 - Bug Bot on 2018-10-05T22:26:09.770Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:54.170Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,67 @@
+The contents of the last text channel show after deleting it if it's NSFW and the 18+ prompt hasn't been accepted (https://trello.com/c/HZdyXEyy)
+
+None
+
+Created: 2020-07-13T20:49:41.757Z
+Latest Update: 2020-07-16T05:46:30.838Z
+
+Reported by Lime#9898
+
+####Steps to reproduce:
+- Create a new server or open an existing one that you haven't accepted the NSFW 18+ prompt in yet 
+- Ensure only one text channel exists 
+- Send at least one message if the channel is empty 
+- Edit the channel and mark it as NSFW 
+- Exit the channel settings and make sure you see the 18+ prompt (but don't press continue) 
+- Go back into the channel settings and delete the channel 
+- Observe the message view
+
+####Expected result:
+The view is empty and doesn't contain any messages because there are no text channels
+####Actual result:
+Despite showing "No Text Channels" in the title bar, the contents of the now deleted NSFW channel are displayed
+####Client settings:
+31-alpha2 (1196)
+####System settings:
+Samsung Galaxy S10+, Android 10
+
+58865
+
+Card Log
+========
+### Added by Bug Bot on 2020-07-13T20:49:41.757Z
+
+
+### Lime#9898 - https://youtu.be/MOFfJI2kaug added by Bug Bot on 2020-07-13T20:49:44.366Z
+
+
+### Can reproduce.
+Can reproduce, Casper Via M3,Android 7.0, Discord 31-Alpha2 (1196)
+
+Shiny#1000 - Bug Bot on 2020-07-13T20:49:49.376Z
+
+
+### Can reproduce.
+CR, Huawei Mate 8, Android 8.0.0, EMUI 8.0.0. Discord 31-Alpha2 (1196)
+
+Wumpus#7334 - Bug Bot on 2020-07-13T20:49:54.313Z
+
+
+### Can reproduce.
+Can Reproduce • Xiaomi Redmi 5 Plus, Android 8.1.0, Discord 31-Alpha2 (1196)
+
+Sky.#2009 - Bug Bot on 2020-07-13T20:49:59.339Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S9, Android 9, Discord 31-alpha2 • Also works in older servers and channels with more than a single message. Seems the only requirement is no other channels exist.
+
+OBS#9231 - Bug Bot on 2020-07-13T21:23:24.663Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

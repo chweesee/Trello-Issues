@@ -1,0 +1,73 @@
+[Archived] 2FA broken On Android after setting it up on PC (Credits to Joshek for the assistance on reproducing) (**MUST TEST ON ANDROID FOR BUG**) (https://trello.com/c/Ek92LfFG)
+
+P3 - Will be fixed eventually
+
+Created: 2017-09-24T21:03:34.319Z
+Latest Update: 2018-06-02T17:25:37.239Z
+
+Reported by JustCore#0973
+
+####Steps to reproduce:
+- Remove 2FA account on any device 
+- Exit discord app mobile, and setup 2FA on PC 
+- Once setup, go to your android app again. 
+- You should now see old messages(no new messages show, and a "loop" of the connecting that never goes away)
+
+####Expected result:
+2 Factor Auth. Should activate and work across devices
+####Actual result:
+You get a "connecting" screen and user profile looks offline. Along with not being able to do any functions of course.
+####Client settings:
+Android Alpha 5.2.6
+####System settings:
+Samsung Galaxy 7, Android 7.0
+
+4797
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-24T21:03:34.319Z
+
+
+### Can reproduce.
+Google Pixel 8.0.0 Android Alpha 5.2.6
+
+SilverMight#1302 - Bug Bot on 2017-09-24T21:03:41.947Z
+
+
+### Can reproduce.
+Samsung J3-6 Android Alpha 5.2.6, Sometimes breaks as well when disabling 2FA on Desktop then going to Phone.
+
+Kashall#1307 - Bug Bot on 2017-09-24T21:03:46.870Z
+
+
+### Can reproduce.
+CR (Samsung Galaxy S7, Android Nougat 7.0, Discord Android Alpha v5.2.5)
+
+Zacatero#5839 - Bug Bot on 2017-09-24T21:03:51.857Z
+
+
+### Verified.  - Clayton on 2017-10-26T00:21:08.910Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-26T00:21:12.733Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-03-22T23:38:09.023Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Clayton on 2018-03-22T23:38:14.731Z
+
+
+### archiving for being fixed over 30 days without activity - Tim on 2018-06-02T17:25:07.167Z
+
+
+### Archived by Tim on 2018-06-02T17:25:37.241Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

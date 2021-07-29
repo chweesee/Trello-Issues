@@ -1,0 +1,69 @@
+[Archived] Nicknames visual display bug (https://trello.com/c/cqDNw6Yb)
+
+None
+
+Created: 2017-08-04T16:45:02.640Z
+Latest Update: 2017-10-17T21:10:54.023Z
+
+Reported by Namjies#2994
+
+####Steps to reproduce:
+- Set a server with nickname permission disabled for all roles 
+- Add a user to observe server 
+- Add a user with the username RandomNick and nickname ThemedNick to server 
+- Have the user change his username to ThemedNick. 
+- Have the user change his username to BadWord. 
+- From observer account, observe that user who changed their username to BadWord now appear as BadWord in the online list.
+
+####Expected result:
+For users with a nickname set to keep being shown as that user.
+####Actual result:
+User will be shown as their new username for everyone on the server, until people reload/refresh, at which point user will be shown again with their actual enforced nickname. Since users can change username twice per hour, they could constantly update it to keep appearing under a different nickname for everyone else online.
+####Client settings:
+Desktop 0.0.297
+####System settings:
+Windows 7 Home x64
+
+2749
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-04T16:45:02.640Z
+
+
+### Can reproduce.
+CR for userlist on the right, new messages are sent under the  correct nickname,  Canary 0.0.163 - Windows 10 Home x64 v1703
+
+Souji#4629 - Bug Bot on 2017-08-04T16:45:10.404Z
+
+
+### Can reproduce.
+Windows 10 x 64 Canary ver 0.0.163
+
+AwesomeFlink#9333 - Bug Bot on 2017-08-04T16:45:15.411Z
+
+
+### Can reproduce.
+Discord Stable 0.0.297 Windows 10 Pro 64-Bit on Build 1607
+
+Tarek1337#0379 - Bug Bot on 2017-08-04T16:45:20.460Z
+
+
+### This is not a bug. This is the desired functionality. If you have the ability to change your nickname, you can change your nickname. If you change your username, the nickname no longer applies. - Jared on 2017-08-21T19:52:09.713Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2017-08-21T19:52:13.696Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:10:53.000Z
+
+
+### Archived by Jared on 2017-10-17T21:10:54.026Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

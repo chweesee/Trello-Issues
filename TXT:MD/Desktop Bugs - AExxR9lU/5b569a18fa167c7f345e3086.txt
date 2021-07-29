@@ -1,0 +1,87 @@
+[Archived] Wikipedia embeds show wrong article if linked article title has a forward slash in it (https://trello.com/c/yY4GsMy1)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-24T03:16:40.851Z
+Latest Update: 2019-08-13T15:30:42.064Z
+
+Reported by 132ikl#5281
+
+####Steps to reproduce:
+- Find wikipedia article with forward slash in title, for example "Cygwin/X" or "Parabola GNU/Linux-libre" 
+- Paste article link into Discord
+
+####Expected result:
+Embed shows information for the article link in message
+####Actual result:
+Embed shows information for the article that follows the /, for example "X" and "Linux-libre"
+####Client settings:
+0.0.53-1 Build 19560
+####System settings:
+Linux 4.17.8-1-ARCH x86_64 GNU/Linux
+
+15938
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-24T03:16:40.851Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Canary 19560
+
+mrkirby153#7840 - Bug Bot on 2018-07-24T03:16:48.370Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 19560
+
+webhp#1337 - Bug Bot on 2018-07-24T03:16:53.312Z
+
+
+### Can reproduce.
+Windows 10 Home | canary 19560
+
+KaKtus#1359 - Bug Bot on 2018-07-24T03:16:58.311Z
+
+
+### Can reproduce.
+Manjaro Linux 18.0 (Illyria) - Kernel Version 4.17.9-1-MANJARO - KDE Plasma 5.13.3 - Canary Build 19588
+
+Kydros Elizabeth LeSaki#3217 - Bug Bot on 2018-07-24T05:33:33.188Z
+
+
+### verified, macos 10.12.6, canary 19623 - Clayton on 2018-07-24T23:45:18.363Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-24T23:45:28.316Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1803), Canary 20088
+
+Mippy#0001 - Bug Bot on 2018-07-27T23:41:59.085Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:29.062Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 31744
+
+Delite#0001 - Bug Bot on 2019-02-02T18:28:20.334Z
+
+
+### Unarchived by Bug Bot on 2019-02-02T18:30:04.654Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:42.077Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

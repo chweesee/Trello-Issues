@@ -1,0 +1,109 @@
+[Archived] Shift-delete does not skip confirmation of messages with attachments (https://trello.com/c/5AWv1xLy)
+
+P3: Will get fixed eventually
+
+Created: 2016-10-26T02:21:16.063Z
+Latest Update: 2017-10-17T20:29:29.622Z
+
+Reported by Khionu#8708
+
+####Steps to reproduce: 
+- Send picture 
+- Hold shift while clicking MessageGear => Delete 
+
+####Expected result:
+ skip confirmation 
+####Actual result:
+ Who do you think you are, making me click one more time to do what I want??? 
+####System settings:
+ Canary 
+####Client version:
+ Ubuntu 14 x64
+
+Card Log
+========
+### Added by Jared on 2016-10-26T02:21:16.063Z
+
+
+### Can reproduce.
+Windows10 Canary
+
+lahrsean#9501 - Jared on 2016-10-26T02:51:31.915Z
+
+
+### Can't reproduce.
+Windows7 Canary
+
+cyberiumshadow#7057 - Jared on 2016-10-26T05:25:22.892Z
+
+
+### Can reproduce.
+Windows7 Canary
+
+cyberiumshadow#7057 - Jared on 2016-10-26T05:33:00.086Z
+
+
+### Can reproduce.
+Windows 10 Canary
+
+Fre_d#2939 - Jared on 2016-10-26T07:00:29.302Z
+
+
+### Can reproduce.
+macOS Sierra Canary
+
+Francis#6565 - Jared on 2016-10-26T07:16:31.314Z
+
+
+### Can't reproduce.
+Windows 10 Build 10586.633 x64
+
+DoNotSpamPls#8787 - Jared on 2016-10-26T10:25:03.623Z
+
+
+### Can't reproduce.
+Windows 10 Anniversary Update x64
+
+A Generic Gamer#4775 - Jared on 2016-10-26T10:28:10.789Z
+
+
+### Can reproduce.
+w10 Canary
+
+Logiz#9321 - Jared on 2016-10-26T10:48:58.301Z
+
+
+### Can reproduce.
+Ubuntu 16.04 Latest <:canary:230435859097190412> with a normal text message and one described
+
+Arsen#3291 - Jared on 2016-10-26T10:56:59.918Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-10-28T18:11:42.149Z
+
+
+### Tested on latest canary as of writing:
+
+I can no longer reproduce this myself. Sending a picture and then holding shift with a right-click delete messages removes it instantly.
+
+Clicking the three dots and choosing delete while holding shift doesn't do this though, but this behaviour is mimic'd by normal messages which also don't do this. - Alexander (DJScias) on 2017-04-25T00:48:55.050Z
+
+
+### Verified Fixed. - Jared on 2017-07-31T21:28:30.425Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T21:28:37.112Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:29:28.214Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:29:29.624Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

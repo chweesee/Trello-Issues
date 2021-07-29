@@ -1,0 +1,88 @@
+[Archived] Certain invalid credit card numbers are considered valid by the "Add New Payment Method" dialog (https://trello.com/c/GzewZdjG)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-08-12T22:32:11.039Z
+Latest Update: 2018-10-22T20:24:32.341Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Open up the billing page 
+- Click "Add a Payment Method" 
+- Enter an invalid credit card number (i.e 111111111111) and notice the error saying something is wrong with the credit card number 
+- Enter one of the following invalid numbers "1865258576", "3054052414", "78475108631", "13371337133", "0160330460" — All of these numbers are shorter than the minimum card length that Stripe will accept (13 digits).
+
+####Expected result:
+The "There is something wrong with your credit card number" message displays, or Discord notifies you that the card was declined by Stripe
+####Actual result:
+The credit card is falsely considered valid and if you continue adding the payment method, it silently fails at the final step when being declined by Stripe
+####Client settings:
+Canary 21705
+####System settings:
+Windows 10 Home x64
+
+17426
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-12T22:32:11.039Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13"), macOS 10.13.6 - Canary 21705
+
+Mippy#0001 - Bug Bot on 2018-08-12T22:32:18.467Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 Canary 21681
+
+Delite#0001 - Bug Bot on 2018-08-12T22:32:23.539Z
+
+
+### Can reproduce.
+CR on Windows 10 Proffesional; Canary Build 21705
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-12T22:32:28.477Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 | Microsoft Edge 42.17134.1.0
+
+Boop Dog#7177 - Bug Bot on 2018-08-13T07:52:42.018Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 | Microsoft Edge 42.17134.1.0 | Web Stable 21705
+
+Boop Dog#7177 - Bug Bot on 2018-08-13T07:53:03.704Z
+
+
+### On Edge (Haven't tried it on anything else), continuing with a fake address and clicking next a few times actually crashes Discord
+
+Boop Dog#7177 - Bug Bot on 2018-08-13T07:54:42.920Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 21705
+
+Frances Picard#6209 - Bug Bot on 2018-08-14T00:16:54.773Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T21:58:58.216Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T21:59:07.330Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:32.343Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

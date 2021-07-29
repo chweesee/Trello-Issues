@@ -1,0 +1,75 @@
+[Archived] Emojis with non-square resolution (width smaller than height) are misaligned in Server Settings > Emojis (https://trello.com/c/TpL1J4sK)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-07-04T23:24:28.021Z
+Latest Update: 2018-10-22T20:23:10.637Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Server Settings > Emojis 
+- Upload an emoji that has a resolution with width smaller than height (e.g 80x128) 
+- Observe emoji in the list
+
+####Expected result:
+They should be centered so they are well aligned vertically with other emojis
+####Actual result:
+They are aligned to the left
+####Client settings:
+Canary 18108
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+15130
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-04T23:24:28.021Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b3d572bab280080b0e8c9e2/239962466d6866d9ac6fd0b936299490/unknown.png added by Bug Bot on 2018-07-04T23:24:30.581Z
+
+
+### Can reproduce.
+[Can Reproduce] Windows 10 Home x64 1803 w/ Discord Canary 18108
+
+Smanbg#9524 - Bug Bot on 2018-07-04T23:24:35.460Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.211 and Windows 10 April Update.
+
+joaoh1#3657 - Bug Bot on 2018-07-04T23:24:40.474Z
+
+
+### Can reproduce.
+Can reproduce | Lenovo 7373FGM, 1280 x 1024 Display, Microsoft Windows 10 Pro [x64] Version 1803 Build 17134.122, Discord Canary Build 18108
+
+Cairo#2098 - Bug Bot on 2018-07-04T23:24:45.462Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b3d572bab280080b0e8c9e2/6bba7d035d5b2c09e97df516e67e5871/380497778251399179.png added by Bug Bot on 2018-07-05T01:12:13.969Z
+
+
+### Just attached an example emoji. You can use it to test the bug
+
+Alex1304#9704 - Bug Bot on 2018-07-05T01:12:51.915Z
+
+
+### verified, macos 10.12.6, canary 18361 - Clayton on 2018-07-09T22:28:05.345Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-09T22:28:12.284Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:10.639Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

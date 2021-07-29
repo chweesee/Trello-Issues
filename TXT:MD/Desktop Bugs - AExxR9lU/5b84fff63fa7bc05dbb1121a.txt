@@ -1,0 +1,85 @@
+[Archived] While viewing older message and you have new unread messages, loading more messages by scroll down will mark the channel as read (https://trello.com/c/twToXRCU)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-28T07:55:34.323Z
+Latest Update: 2018-10-22T20:25:57.769Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go into a server with enough messages to scroll up so that you're viewing older ones 
+- Scroll up and then have someone else send a new message 
+- Scroll down until you reach the point where it loads new messages and observe the unread banner disappearing
+
+####Expected result:
+Scrolling down while viewing older messages should not be marking the channel as read
+####Actual result:
+Scrolling down will keep marking the channel as read every time it loads in new messages, even occasionally continuously marking the channel as read while you're not even scrolling
+####Client settings:
+Discord Canary 0.0.211, Build 22665
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+18539
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-28T07:55:34.323Z
+
+
+### Ene#0808 - https://i.imgur.com/om6qczN.gifv added by Bug Bot on 2018-08-28T07:55:36.714Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (22665) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-08-28T07:55:41.595Z
+
+
+### Can reproduce.
+CR, Win10 Pro x64 | Canary Build 22283
+
+xXLeoXxOne#5292 - Bug Bot on 2018-08-28T07:55:46.742Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22665
+
+Frances Picard#6209 - Bug Bot on 2018-08-28T07:55:51.588Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 22587
+
+Delite#0001 - Bug Bot on 2018-08-28T17:01:57.910Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 22665
+
+Delite#0001 - Bug Bot on 2018-08-28T17:02:43.764Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 22665
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-28T23:10:48.906Z
+
+
+### verified, macos 10.12.6, canary 22665 - Clayton on 2018-08-29T02:20:35.509Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-29T02:20:41.852Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:57.772Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

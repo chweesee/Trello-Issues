@@ -1,0 +1,76 @@
+[Archived] Keyboard swaps back from numbers to alphabet mode after each digit typed in the Xbox pin input (https://trello.com/c/qeWIWAsI)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-04-27T20:52:04.353Z
+Latest Update: 2018-06-01T00:32:57.499Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to your user settings 
+- Open connections 
+- Click on the add button in the top right corner 
+- Select `Xbox Live` 
+- Switch the keyboard to number mode by clicking on `.?123` 
+- Type 1 digit
+
+####Expected result:
+The keyboard should stay in the number mode after typing 1 digit.
+####Actual result:
+The keyboard always swaps back to the alphabet mode.
+####Client settings:
+TestFlight 2.3.1 (4015)
+####System settings:
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 2
+
+11433
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-27T20:52:04.353Z
+
+
+### Can reproduce.
+CR, TestFlight 2.3.1 (4025), iOS 11.3.0, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-04-27T20:52:11.815Z
+
+
+### Can reproduce.
+CR; iPhone 6 - iOS 11.4 TestFlight 2.3.1 (4025)
+
+Xylium#1480 - Bug Bot on 2018-04-27T20:52:16.840Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.2.1, TestFlight 2.3.1 (4025)
+
+Pyros#2326 - Bug Bot on 2018-04-27T20:52:21.784Z
+
+
+### Verified. iOS 11.2.6, iPad pro.  - Clayton on 2018-04-27T21:17:41.052Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T21:17:47.615Z
+
+
+### Won't fix, same root cause as android issue, and moot point, since key is getting switched to letters only - Clayton on 2018-04-27T23:49:21.385Z
+
+
+### Moved from Verified Bugs to Won't Fix by Clayton on 2018-04-27T23:49:25.307Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than one month with no new activity.  - Ghoul on 2018-06-01T00:32:52.102Z
+
+
+### Archived by Ghoul on 2018-06-01T00:32:57.501Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

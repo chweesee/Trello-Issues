@@ -1,0 +1,75 @@
+[Archived] When looking at an invite embed to a server you're already in, the wrong string is used for the "JOINED" text (https://trello.com/c/RTEZ2JwN)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-06-23T09:32:00.738Z
+Latest Update: 2018-10-22T20:22:41.458Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find an invite embed to a server you're already in 
+- If your language is set to English, you should be seeing "JOINED" inside the button 
+- Now switch to a different language, in my case French
+
+####Expected result:
+I checked Crowdin and there are two strings that say "JOINED". It should be using the one adapted to server invite context.
+####Actual result:
+It's using the other "JOINED" string, which is used in the context of joined voice channels, causing weird translations like "Connecté" in French meaning  "Connected [to voice channel]".
+####Client settings:
+Discord Alpha 6.9.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14653
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-23T09:32:00.738Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b2e139074e44c63ce3ba1a8/9905059ceadc857d174ef3af29f812f0/IMG_20180623_104850.jpg added by Bug Bot on 2018-06-23T09:32:03.316Z
+
+
+### Can reproduce.
+CR ~ Samsung Galaxy J7 running Android 7.0 ~ Discord Alpha 6.9.9 (699)
+
+FoxyKero#9941 - Bug Bot on 2018-06-23T09:32:08.198Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.9.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-23T09:32:13.179Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 6.9.9
+
+Bencey_#8587 - Bug Bot on 2018-06-23T09:32:18.209Z
+
+
+### verified, samsung s6 edge, android 7.0, 6.9.9 - Clayton on 2018-06-25T22:26:49.934Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-25T22:26:57.705Z
+
+
+### This ticket was checked during the Trello Cleanup Event, and I am able to reproduce this ticket on Windows 10 Home x64 (1803) on Discord Canary Build 18197. I also can reproduce on iPhone 8 +, running iOS 12 (Dev Beta 3) and Discord TestFlight 2.3.4 (5616).
+
+Because this is reproducible on ALL platforms now. I am transferring this ticket to the desktop board. - Ghoul on 2018-07-06T02:04:01.383Z
+
+
+### Imported from https://trello.com/b/57f2a306ca14741151990900 by Ghoul on 2018-07-06T02:04:21.001Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:41.461Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

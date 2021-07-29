@@ -1,0 +1,156 @@
+[Archived] When using search the clients freezes (https://trello.com/c/bVqbtSEN)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-12T13:11:38.830Z
+Latest Update: 2018-03-14T13:33:27.707Z
+
+Reported by TimThe#7618
+
+####Steps to reproduce:
+- search for something 
+- while it is searching try switching channel or open a modal like user settings
+
+####Expected result:
+You can switch channel or open user settings while you are searching
+####Actual result:
+The client freezes a moment while you are searching
+####Client settings:
+Canary build 3189, v 0.0.163
+####System settings:
+Windows 10 Pro x64 v1703
+
+3108
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-12T13:11:38.830Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 Build 1607, Discord Canary Desktop 0.0.163
+
+Ali365Dash#5036 - Bug Bot on 2017-08-12T13:11:46.547Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 1607, DiscordPTB 0.0.34
+
+Chester#2084 - Bug Bot on 2017-08-12T13:11:51.528Z
+
+
+### Can reproduce.
+CR, Canary 0.0.163, Windows 10 Home x86
+
+Hexexpeck#8781 - Bug Bot on 2017-08-12T13:11:56.531Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, x64-based processor
+
+AviationMaster#4793 - Bug Bot on 2017-08-12T15:12:53.327Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (3189)
+
+Tiemen#0107 - Bug Bot on 2017-08-14T18:51:21.169Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-14T21:30:47.554Z
+
+
+### Verified, but only happens with large servers whos results aren't cached. Try going into DTesters and searching for "bug", then immediately open the user settings after hitting enter. Should be 2-3 seconds before the UI becomes responsive. - Jared on 2017-08-14T21:31:42.642Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.163 , Windows 10 x64 Pro
+
+Tent#1619 - Bug Bot on 2017-08-23T21:31:07.986Z
+
+
+### Can reproduce.
+This is not exclusive to large servers, it happens on my server with only 100 members (it resulted in the "crap, we dropped the magnifying glass" error). Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.163 (Build 4820)
+
+SuperSajuuk#7265 - Bug Bot on 2017-09-24T16:19:28.121Z
+
+
+### Can reproduce.
+Can STILL reproduce on Windows 10 Pro x64 Creators Update (1703), Canary 0.0.164 (build 5478). Freezing happens on every server regardless of size, even when just pressing Ctrl + F.
+
+Tiemen#0107 - Bug Bot on 2017-10-07T20:51:01.949Z
+
+
+### Can reproduce.
+This is extremely easy to reproduce and I don't understand why it's a P3. Client freezing is (imo) a P1/P0 issue. Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.164 (Build 5478)
+
+SuperSajuuk#7265 - Bug Bot on 2017-10-07T20:51:20.898Z
+
+
+### Discord also uses up to 30% of my CPU when it's frozen.
+
+Tiemen#0107 - Bug Bot on 2017-10-07T22:10:17.568Z
+
+
+### Can reproduce.
+Discord Canary 0.0.165 (Build 5787) on Windows 10 Pro 64-bit (Build 1607), this is a severe issue since, When I try to search Discord will fully crash, because it starts using 40-50% CPU on my 4690k which is overclocked to 4,3 GHz. 
+
+Search is pretty much useless on Canary as of right now, on stable this doesn't occur at all.
+
+Tarek1337#0379 - Bug Bot on 2017-10-12T12:47:45.856Z
+
+
+### Can reproduce.
+canary 0.0.24 ubuntu 17.04
+
+FrostLuma#0005 - Bug Bot on 2017-10-14T18:55:03.211Z
+
+
+### Can reproduce.
+Windows 7 x64 on Thinkpad x120e. It's a real pain to stop the freezing.
+
+HighDefinition#6635 - Bug Bot on 2017-10-27T21:24:43.317Z
+
+
+### Cannot reproduce anymore, Canary 9856. Moving to claimed fixed. - Tarek on 2018-01-24T13:47:37.986Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-24T13:47:43.039Z
+
+
+### Can't reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9959
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T18:15:12.183Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T21:25:31.590Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T23:40:10.049Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:15:09.255Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-27T07:15:13.259Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:33:26.961Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:33:27.710Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

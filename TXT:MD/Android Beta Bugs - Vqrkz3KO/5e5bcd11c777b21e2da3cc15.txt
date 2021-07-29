@@ -1,0 +1,135 @@
+Pressing the back button with the channel drawer or member list open closes the app (https://trello.com/c/aBhYuOhU)
+
+None
+
+Created: 2020-03-01T14:56:17.612Z
+Latest Update: 2020-03-07T02:56:21.214Z
+
+Reported by thewozardofiz#5129
+
+####Steps to reproduce:
+- Open channel drawer or member list 
+- Press the back button
+
+####Expected result:
+When pressing the back button with channel drawer or member list open it should close the channel drawer or member list
+####Actual result:
+The app closes
+####Client settings:
+Android Alpha 12.0-Alpha1(1047)
+####System settings:
+OnePlus 3 - Android 9 - Oxygen OS 9.0.6
+
+52991
+
+Card Log
+========
+### Added by Bug Bot on 2020-03-01T14:56:17.612Z
+
+
+### Can reproduce.
+Discord version 12.0-alpha1, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2020-03-01T14:56:25.157Z
+
+
+### Can reproduce.
+Cr, 12.0-alpha1 - OnePlus 5T Android Pie
+
+OneNormalUsername#7636 - Bug Bot on 2020-03-01T14:56:30.190Z
+
+
+### Can reproduce.
+CR, Google Pixel 3a, Android 11, 12.0-alpha1
+
+Sanjay#0540 - Bug Bot on 2020-03-01T14:56:35.162Z
+
+
+### Can reproduce.
+Android Alpha 1047, Samsung Galaxy A3 2015, LineageOS 14.1
+
+G-Man#3131 - Bug Bot on 2020-03-01T15:15:47.196Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4x, 7.1.2 N2G47H, Discord 12.0-ALPHA1
+
+KlukCZ#6589 - Bug Bot on 2020-03-01T15:17:53.319Z
+
+
+### Can reproduce.
+HTC U12+, Android 9.0 - Alpha 12.0-alpha1
+
+anonymous kitten#5379 - Bug Bot on 2020-03-01T18:10:58.433Z
+
+
+### The shortcut to open Quick Switcher (double tap on back button) does not work either.
+
+Alex1304#9704 - Bug Bot on 2020-03-01T19:44:53.866Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S10e, Discord 12.0-alpha1, Android 10.
+
+Alister#0018 - Bug Bot on 2020-03-01T21:40:48.811Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord 12.0-ALPHA1 (1047)
+
+Jean20B#4668 - Bug Bot on 2020-03-02T15:53:51.380Z
+
+
+### Thanks for reporting this! This is the actual behavior observed here is the new expected behavior. When the left drawer is closed, clicking the system back button opens the drawer. When the left drawer is opened, clicking the system back button exists the app. - Donald Chen on 2020-03-03T20:40:59.304Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Donald Chen on 2020-03-03T20:42:11.627Z
+
+
+### Actually, after discussing this with the team, we're going to restore the old back button behavior for now (where pressing back when the drawer is open closes the drawer).
+
+We'll reintroduce the new drawer behavior together with other navigation changes in the future. - Donald Chen on 2020-03-03T21:09:20.900Z
+
+
+### Moved from Not a Bug to Claimed Fixed, needs Verification by Donald Chen on 2020-03-03T21:09:30.129Z
+
+
+### Can't reproduce.
+CNLR, Pixel 3a, Android 11, 12.2(1053)
+
+Sanjay#0540 - Bug Bot on 2020-03-04T03:27:36.100Z
+
+
+### Can't reproduce.
+CNLR; Discord 12.2 (1053), Samsung Galaxy A20, Android 9
+
+Nighty963#0001 - Bug Bot on 2020-03-04T06:07:55.639Z
+
+
+### Can't reproduce.
+CNLR, Xiaomi Redmi 4x, Android 7.1.2 N2G47H, Discord 12.2
+
+KlukCZ#6589 - Bug Bot on 2020-03-04T06:32:09.367Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2020-03-04T06:32:09.718Z
+
+
+### Can't reproduce.
+Samsung Galaxy S7, Android 8.0.0, Discord 12.3 (1054)
+
+Bryth#1086 - Bug Bot on 2020-03-06T11:32:22.179Z
+
+
+### Can reproduce.
+CR, Tabs UI, Discord 13-alpha1 (1059), LG G7 (LM-G710ULM20d), Android 9. Looks like this came back, or the revert wasn't added to 1056
+
+hopeless#1227 - Bug Bot on 2020-03-07T02:56:21.226Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

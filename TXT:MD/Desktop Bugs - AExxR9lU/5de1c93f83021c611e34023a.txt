@@ -1,0 +1,142 @@
+Having an undefined platform in a connection will cause discord to crash due to an uncaught error. (https://trello.com/c/H0ky9mdW)
+
+None
+
+Created: 2019-11-30T01:43:27.851Z
+Latest Update: 2020-07-16T21:26:05.795Z
+
+Reported by Pierce#2657
+
+####Steps to reproduce:
+- View user profile with a connection without a platform type
+
+####Expected result:
+Discord should probably just catch this error and display the broken connection with text.
+####Actual result:
+Discord throws an exeption and crashes
+####Client settings:
+Browser Stable 50474
+####System settings:
+Windows OS 10
+
+49090
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-30T01:43:27.851Z
+
+
+### Can reproduce.
+CR, macOS 10.13.6, Canary 50474
+
+leaf#0001 - Bug Bot on 2019-11-30T01:43:35.410Z
+
+
+### Can reproduce.
+Discord Canary 50474 on Arch Linux w/ kernel 5.3.11
+
+Violet#5417 - Bug Bot on 2019-11-30T01:43:40.403Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build 19002.1 - Discord Canary v0.0.258 Build 50474
+
+webhp#1337 - Bug Bot on 2019-11-30T01:43:45.389Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Web Canary 50474 on Google Chrome 78.0.3904.108
+
+Jiralite#1207 - Bug Bot on 2019-11-30T01:55:05.527Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 50474 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-30T03:48:47.333Z
+
+
+### Can reproduce.
+Could reproduce, macOS 10.15.2, Canary 50474
+
+Action Potential#6862 - Bug Bot on 2019-11-30T04:19:31.884Z
+
+
+### Can reproduce.
+Canary 50127, Windows 10
+
+Rohit#3523 - Bug Bot on 2019-11-30T06:06:46.740Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit (v1909), Discord Canary 0.0.259 Build 50474
+
+ryan#0570 - Bug Bot on 2019-11-30T06:39:20.211Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1903) - Discord Canary 50474 (Host 0.0.258)
+
+Jamalek#0025 - Bug Bot on 2019-11-30T07:38:09.730Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 x64, Stable 50474
+
+Warwick#9999 - Bug Bot on 2019-11-30T07:54:37.371Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Discord stable: 50474
+
+Dog#5630 - Bug Bot on 2019-11-30T09:22:05.154Z
+
+
+### Can't reproduce.
+CNR Windows 10 Pro 1903 x64 - Canary 50474
+
+Socket#1010 - Bug Bot on 2019-11-30T16:01:25.261Z
+
+
+### Can reproduce.
+Windows 10 64bits Version 1903, Discord Stable 50474
+
+Philip#0001 - Bug Bot on 2019-11-30T16:57:38.047Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Discord Canary Version: 50474
+
+Boss 🎄#0006 - Bug Bot on 2019-11-30T17:57:19.061Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro (1903), Discord Canary 50474
+
+TheRudeDude#6040 - Bug Bot on 2019-11-30T19:47:10.406Z
+
+
+### Can reproduce.
+Windows 10 x64 Home 1903 - Discord Canary 50474
+
+Niko#8828 - Bug Bot on 2019-12-01T02:58:07.997Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x86 Discord Canary 50474
+
+Creative#0007 - Bug Bot on 2019-12-01T13:47:30.734Z
+
+
+### Can reproduce.
+Safari Discord Web Canary, Build Number: 50474
+
+𝓬𝓪𝓵𝓪𝓶𝓲𝓽𝔂.#5813 - Bug Bot on 2019-12-02T01:28:05.497Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

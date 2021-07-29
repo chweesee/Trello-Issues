@@ -1,0 +1,91 @@
+[Archived] Sharing images in app and then pressing the back key exits discord. (https://trello.com/c/zxltYd0H)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-07-22T08:22:53.112Z
+Latest Update: 2018-03-16T17:45:59.380Z
+
+Reported by Xander#0259
+
+####Steps to reproduce:
+- Open an image 
+- use the share button 
+- share to another server 
+- press the back key -
+
+####Expected result:
+Back key opens the app drawer
+####Actual result:
+Back key closes out of the app and the issue persists until you completely close out of Discord.
+####Client settings:
+Discord Canary, 3.9.9 Android
+####System settings:
+Samsung Galaxy S6, 7.0
+
+2454
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-22T08:22:53.112Z
+
+
+### Can reproduce.
+CR - Android Alpha 3.9.9 - Google Pixel - Android 7.1.2 - Issue doesn't persist, however I can repro the closing issue
+
+Pointy#5565 - Bug Bot on 2017-07-22T08:23:00.625Z
+
+
+### Can reproduce.
+ Tablet Allview VivaH8LTE, Android KitKat 4.4.4, Discord Android Alpha 4.0.0 | After testing this, my device glitched. Can't describe fully what happens.
+
+Simply#4913 - Bug Bot on 2017-07-22T08:23:05.521Z
+
+
+### Can reproduce.
+ Android​ 5.1 discord 4..0.0 must have back button opens channel draw enabled
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-07-22T08:23:10.674Z
+
+
+### Can't reproduce.
+tapping share just copies the link to clipboard and displays a message, pasting that link into a server doesn't do anything weird (Samsung Galaxy Tab A 6 (SM-T280), Android Lollipop 5.1.1, Discord 3.9.9 (398))
+
+advaith#9121 - Bug Bot on 2017-07-22T17:32:41.829Z
+
+
+### Verified.  - Clayton on 2017-07-24T11:40:03.315Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-24T11:40:09.080Z
+
+
+### Cannot repro - Jeff Cailteux on 2018-01-12T17:28:30.764Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jeff Cailteux on 2018-01-12T17:28:39.771Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Clayton on 2018-01-25T23:32:00.254Z
+
+
+### Can still reproduce on 6.1.2, clearer repro steps are: 
+
+1. Enable: "Back button opens channel drawer."
+2. Open an image in-app
+3. Share
+4. Press back - Clayton on 2018-01-25T23:35:31.946Z
+
+
+### dupe of https://trello.com/c/ZYcPNEyb/, archiving. - Tarek on 2018-03-16T17:45:56.991Z
+
+
+### Archived by Tarek on 2018-03-16T17:45:59.382Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

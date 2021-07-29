@@ -1,0 +1,80 @@
+[Archived] When you block a user in DM, the number of blocked messages shown are less than that of original number of messages and it keeps on loading/refreshing that number. (https://trello.com/c/xtGKciAY)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-19T08:42:35.194Z
+Latest Update: 2018-08-22T01:22:22.894Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Get a lot of DM messages from any user in a row (150+) [in my case around 160] 
+- Open the the users DM and click on profile, then block the user 
+- Go back to the DM by pressing the back button, you can still be seeing all the messages for a few more seconds 
+- Notice that all the messages collapse under "x blocked messages" where x is the number of blocked (all messages)
+
+####Expected result:
+The number of blocked messages should be exactly the same as the total number of messages sent as they were all sent in a row
+####Actual result:
+The number of blocked messages are shown less than the total number of messages and also the number of blocked messages keeps on refreshing infinitely (and sometimes you can see the "you're viewing older messages" bar at the bottom while there are no messages to show as they all are collapsed. Also, if you block some messages sent on a different date but in a row with messages sent on another date, there won't be two separate dates above "x number of blocked messages"
+####Client settings:
+Discord Alpha 6.7.4
+####System settings:
+Xiaomi Mi A1, Android 8.0.0
+
+13024
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-19T08:42:35.194Z
+
+
+### Ori#1908 - https://youtu.be/ozoxgy3x2s4 added by Bug Bot on 2018-05-19T08:42:37.730Z
+
+
+### Can reproduce.
+Can reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 Nougat ~ Discord Alpha 6.7.4 (674)
+
+DefinitelyNotLava#9562 - Bug Bot on 2018-05-19T08:42:42.618Z
+
+
+### Can reproduce.
+[cr] I test the bug with a very good friends. That means we send a lot of PM. Every of my messages are being deleted (and his answer too) when I block him. And blocked messages switch between 100 and 50 blocked messages. | Huawei P8Lite 2016, Emui v3.1.1 • Android 5.1 • Alpha 6.7.4
+
+fujhofn.#0878 - Bug Bot on 2018-05-19T08:42:47.650Z
+
+
+### Can reproduce.
+Can reproduce LG Bello,5.0.2 Discord Alpha 6.7.4
+
+StefanFX#9682 - Bug Bot on 2018-05-19T08:42:52.684Z
+
+
+### Can reproduce.
+Discord Alpha 6.7.4, Oppo R11s Android 7.1.1 (Nougat)
+
+Cairo#2098 - Bug Bot on 2018-05-19T21:51:34.458Z
+
+
+### Can reproduce.
+Discord Alpha 673, Symphony P6, Android 5.0
+
+MONGCHAW#1813 - Bug Bot on 2018-05-20T03:12:32.294Z
+
+
+### Verified. Discord Alpha 6.7.4, Android 7.0, Samsung S6 edge - Clayton on 2018-05-21T23:19:21.821Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T23:20:55.877Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:22.896Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

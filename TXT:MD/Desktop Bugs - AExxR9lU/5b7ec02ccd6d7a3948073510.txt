@@ -1,0 +1,63 @@
+[Archived] [Cross platform bug] If you post several links in the same message, if only ONE link has an embed detected as explicit, then ALL embeds will break (https://trello.com/c/emNufyfR)
+
+None
+
+Created: 2018-08-23T14:09:48.224Z
+Latest Update: 2018-10-22T20:35:31.873Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Be in a channel where you have Embed Links permissions, and where explicit content filter is enabled  
+- In the same message, post several links that produce an embed each, with ONE link that's gonna be detected as explicit 
+- Send the message in chat
+
+####Expected result:
+Only the embed detected as explicit shouldn't show up
+####Actual result:
+ALL embeds will break, even those that aren't explicit
+####Client settings:
+N/A (cross-platform). Personally tested on Discord Alpha 7.4.0 (Android client)
+####System settings:
+Huawei Mate 9 Android 8.0
+
+18208
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-23T14:09:48.224Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Discord Stable 22333 + Xiaomi Mi A1, Android 9.0, Discord Alpha 7.4.0
+
+Haru😍💜#6660 - Bug Bot on 2018-08-23T14:09:55.688Z
+
+
+### Can reproduce.
+CR, Win10 Pro x64 | Canary Build 22283
+
+xXLeoXxOne#5292 - Bug Bot on 2018-08-23T14:10:00.585Z
+
+
+### Can reproduce.
+Can Reproduce | Microsoft Windows 7 (64-bit) [Version 6.1.7601] | Desktop Canary Build 22364
+
+Harmon758#0004 - Bug Bot on 2018-08-23T14:10:05.579Z
+
+
+### This is not a bug. The embed permission is done per message, not per link. - Jared on 2018-08-23T18:44:53.866Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-08-23T18:44:58.931Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:31.875Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

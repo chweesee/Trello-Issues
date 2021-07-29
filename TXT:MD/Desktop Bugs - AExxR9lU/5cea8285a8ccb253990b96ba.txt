@@ -1,0 +1,102 @@
+Not collapsing channels when marking as read on mobile (https://trello.com/c/Ct4tEJaV)
+
+None
+
+Created: 2019-05-26T12:11:49.195Z
+Latest Update: 2020-07-16T21:26:03.978Z
+
+Reported by TheCrazyMaffin#2986
+
+####Steps to reproduce:
+- Collapse a category with unread channels on Desktop 
+- Mark them as read on mobile (Android for me)
+
+####Expected result:
+On Desktop the channels should disappear since they aren't unread anymore and the category is collapsed
+####Actual result:
+The unread mark disappears but the channels stays there and does not collapse
+####Client settings:
+Release Channel: canary, Build Number: 38570, Version Hash: f3af8b4edeea5374244921c309e410a4b1a72e06
+####System settings:
+Win10pro x64 17763
+
+35392
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-26T12:11:49.195Z
+
+
+### TheCrazyMaffin#2986 - https://imgur.com/a/QllN6kn.gif added by Bug Bot on 2019-05-26T12:11:51.578Z
+
+
+### Can reproduce.
+Linux Mint 19.1 Cinnamon 4.0.9 - Canary 38570
+
+dafaqed#4375 - Bug Bot on 2019-05-26T12:11:56.542Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10, Release Channel: canary, Build Number: 38570
+
+Xignotic#0001 - Bug Bot on 2019-05-26T12:12:01.539Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 38570 host 0.0.238 (Mobile: Samsung Galaxy J5 2016, Android 7.1.1, Discord Alpha 903)
+
+Jean20B#4287 - Bug Bot on 2019-05-26T12:12:06.579Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS, GNOME 3.28.2, [BUILD INFO] Release Channel: stable, Build Number: 38570, Version Hash: f3af8b4edeea5374244921c309e410a4b1a72e06 (Mobile: Samsung Galaxy J5 2016, Android 7.1.1, Discord 8.9.7 (897))
+
+ShawnCZek#7777 - Bug Bot on 2019-05-26T12:34:00.889Z
+
+
+### Can reproduce.
+Discord client: 38570 (canary) System information: Windows 10 Home with a 64 bit processor. and -a
+
+Talon#4419 - Bug Bot on 2019-05-26T15:17:25.423Z
+
+
+### Android: Android Alpha 8.0.3 with Samsung Galaxy J8 (2018)
+
+Talon#4419 - Bug Bot on 2019-05-26T15:18:06.995Z
+
+
+### Can't reproduce.
+Canary 38570, Windows 10 Home x64 Build: 17134, (Mobile: Xperia XA1, Android 8, Discord 897 (Beta))
+
+Fyffey#0001 - Bug Bot on 2019-05-26T19:18:07.218Z
+
+
+### Can't reproduce.
+Windows 10 1809 canary 38570
+
+GlenMerlin#2119 - Bug Bot on 2019-05-26T20:50:00.776Z
+
+
+### iOS 12.3.1 iPhone 6s TF 3.0.2 (15253)
+
+GlenMerlin#2119 - Bug Bot on 2019-05-26T20:51:06.087Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1903 - Canary 38570
+
+anonymous kitten#8929 - Bug Bot on 2019-05-27T15:10:39.933Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 41168
+
+Xylium#5800 - Bug Bot on 2019-07-15T12:45:48.145Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,66 @@
+If Discord does not have access to the camera, it does not alert you when you try to connect to the audio channel with video and it will return forever. (https://trello.com/c/XAPvC2st)
+
+None
+
+Created: 2020-06-23T09:16:05.702Z
+Latest Update: 2020-07-16T05:46:30.773Z
+
+Reported by Shiny#0003
+
+####Steps to reproduce:First, disable the Camera permission from the permissions section by entering Discord in the phone settings. 
+- Now come to a voice channel. 
+- Try connecting to the audio channel by pressing the camera button. 
+- Observe.
+
+####Expected result:
+It says Discord does not have access to the camera permission and does not allow you to connect.
+####Actual result:
+It connects you to voice channel, but your camera won't turn on. It goes into an infinite loop.
+####Client settings:
+Discord 28.0 (1168)
+####System settings:
+Casper Via M3, Android 7.0
+
+57998
+
+Card Log
+========
+### Added by Bug Bot on 2020-06-23T09:16:05.702Z
+
+
+### Shiny#0003 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ef1c855c6b0e16cabd57f0d/19a6845d00377cbac6e23103e32feb98/cqXTau5w.png added by Bug Bot on 2020-06-23T09:16:09.222Z
+
+
+### Shiny#0003 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ef1c855c6b0e16cabd57f0d/cad54be1e41cabb4b51634e3dd854682/XF2eQr7.gif added by Bug Bot on 2020-06-23T09:16:12.942Z
+
+
+### Can reproduce.
+Can Reproduce • Xiaomi Redmi 5 Plus, Android 8.1.0, Discord 28.0 (1168)
+
+Sky.#2012 - Bug Bot on 2020-06-23T09:16:13.279Z
+
+
+### Can reproduce.
+[CR] Panasonic P91, Android 7, Discord 28.0 (1168)
+
+sohamb03#0001 - Bug Bot on 2020-06-23T09:16:18.297Z
+
+
+### Can reproduce.
+<CR> | Samsung Galaxy A5 2017, Android 8.0.0, Discord 28.0 (1168)
+
+Linkoss_Link#2441 - Bug Bot on 2020-06-23T09:16:23.553Z
+
+
+### Can reproduce.
+CR Samsung Galaxy A5 (2017), SM-A520F, Android 8.0.0, Discord 28.0 (1168)
+
+apoetaetoe#0366 - Bug Bot on 2020-06-24T04:53:44.071Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

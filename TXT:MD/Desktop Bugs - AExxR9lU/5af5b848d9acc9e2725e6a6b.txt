@@ -1,0 +1,93 @@
+Having any zoom level over 100 or under 100, causes Discord to resize loading animation when starting up Discord. (https://trello.com/c/cDaZhh9P)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-11T15:35:36.094Z
+Latest Update: 2019-04-02T20:41:58.392Z
+
+Reported by Rage#1337
+
+####Steps to reproduce:
+- Set zoom level to anything under or over 100 
+- Restart Discord 
+- Observe
+
+####Expected result:
+It isn't supposed to do a resize animation
+####Actual result:
+It resizes logo right before you can start to use Discord
+####Client settings:
+Discord Canary (Build 15032)
+####System settings:
+Macbook Air (Early 2015), macOS Sierra 10.12.6
+
+12424
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-11T15:35:36.094Z
+
+
+### Rage#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af5b848d9acc9e2725e6a6b/0110671b1aebe81ccde2423ed8914c04/giphy.gif added by Bug Bot on 2018-05-11T15:35:39.241Z
+
+
+### Rage#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af5b848d9acc9e2725e6a6b/2d12250d2d42b116d3135d810bfebeaf/giphy.gif added by Bug Bot on 2018-05-11T15:35:39.731Z
+
+
+### Can reproduce.
+cr, win 8.1 x64 canary, Build Number: 15032
+
+bird#0001 - Bug Bot on 2018-05-11T15:35:43.591Z
+
+
+### Can reproduce.
+[BUILD INFO] Release Channel: ptb, Build Number: 14896, Version Hash: 44d9d2dc23e67b538a6206151ec08ecd0ffbe467 Windows 10 Home 1803 64-Bit Build 17134.48 Can Reproduce as long as I don't look away from the screen for too long. In some cases this requires focus and a few tries, I managed to Repro by using the zoom level set to 67% and screen resolution of 1920 x 1080
+
+Blastoise186#7194 - Bug Bot on 2018-05-11T15:35:48.630Z
+
+
+### Can reproduce.
+Windows 10 x64 v1809, Discord Canary 15032
+
+AlwaysMyFault#4051 - Bug Bot on 2018-05-11T15:35:53.617Z
+
+
+### Verified, Canary 15059, macOS 10.12.6 - Clayton on 2018-05-11T19:56:14.241Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-11T19:56:25.181Z
+
+
+### Can reproduce.
+Can reproduce ( though I thought it was normal at first, been from the start for me ); emoji selection was rejected. Windows 8.1 x64, Stable, Build Number: 15154
+
+Ditto Duck Penguin#0802 - Bug Bot on 2018-05-13T18:35:58.382Z
+
+
+### can no longer reproduce - Clayton on 2018-10-04T01:41:52.758Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-04T01:41:58.154Z
+
+
+### Can reproduce.
+Windows 10 Home, Build 17134, Build 28796
+
+Bsian#4647 - Bug Bot on 2018-12-05T19:57:32.973Z
+
+
+### Can reproduce again as of Discord Canary Build 28951 on Windows 10 Home x64 (1809). You need to set your zoom to 110% and fully close your client before opening it again. You will see it for a brief second.
+
+Reopening. - Ghoul on 2018-12-05T20:35:02.676Z
+
+
+### Moved from Verified Fixed to Reopened by Ghoul on 2018-12-05T20:35:09.201Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

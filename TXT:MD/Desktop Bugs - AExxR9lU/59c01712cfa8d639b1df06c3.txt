@@ -1,0 +1,102 @@
+[Archived] When in either dropdown (arrow button) or fullscreen video mode, not focused on any participant and there is movement on a camera, a portion of the camera will get stuck to on a frame of your camera while the rest of the camera is as normal (https://trello.com/c/0VSwuCbA)
+
+P2: Fix can wait a while
+
+Created: 2017-09-18T18:57:22.866Z
+Latest Update: 2018-07-06T17:57:49.812Z
+
+Reported by Exanimem#3112
+
+####Steps to reproduce:
+- Start a video call 
+- Click the arrow or fullscreen button 
+- Have a person with a camera move something in view of the camera or the camera itself (if it isn't glitched already)
+
+####Expected result:
+Camera captures as usual
+####Actual result:
+A portion of the camera gets stuck on a frame of your camera while the rest captures as usual
+####Client settings:
+Canary 0.0.163
+####System settings:
+Windows 10 Home x64, Creators Update
+
+4457
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-18T18:57:22.866Z
+
+
+### Exanimem#3112 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59c01712cfa8d639b1df06c3/f0e2171f8b3e394c3ce3cebfc95c7499/fpcFsv3.jpg added by Bug Bot on 2017-09-18T18:57:25.462Z
+
+
+### Chrees#4389 - https://i.imgur.com/fVtQHHW.gifv added by Bug Bot on 2017-09-18T18:57:25.465Z
+
+
+### Can reproduce.
+Happens on both webcam and screenshare. Video is fine while Discord is in focus, but when clicking off of Discord (e.g. to second monitor) about half of the video freezes. Windows 10 Pro x64 Creators Update, Discord Canary (4361)
+
+Chrees#4389 - Bug Bot on 2017-09-18T18:57:30.404Z
+
+
+### Can reproduce.
+iMac (Retina 4K, 21.5-inch, Late 2015), OS X El Capitan 10.11.6 (15G1421), Canary 0.0.154
+
+Rauf I.#3260 - Bug Bot on 2017-09-18T18:57:35.429Z
+
+
+### Can reproduce.
+Canary Build 4361, Windows 10 x64
+
+Jake S.#8787 - Bug Bot on 2017-09-18T18:57:40.409Z
+
+
+### Can reproduce.
+Windows 10 x64
+
+MelonCola#2938 - Bug Bot on 2017-09-19T04:32:10.633Z
+
+
+### Verified.  - Clayton on 2017-09-19T22:10:17.020Z
+
+
+### Moved from User Reported Bugs to Screenshare/Video Calls by Clayton on 2017-09-19T22:10:32.327Z
+
+
+### Moved from Screenshare/Video Calls to Next up for investigation by Jared on 2017-10-17T18:48:54.698Z
+
+
+### Moved from Next up for investigation to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2018-01-28T08:15:13.202Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 10018
+
+mrkirby153#7840 - Bug Bot on 2018-01-28T21:04:10.243Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.185 (Build: 10018)
+
+Pascal#0929 - Bug Bot on 2018-01-28T22:34:36.036Z
+
+
+### Verified Fixed - Jared on 2018-02-23T18:39:47.071Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-02-23T18:39:53.164Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:57:48.291Z
+
+
+### Archived by Jared on 2018-07-06T17:57:49.814Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

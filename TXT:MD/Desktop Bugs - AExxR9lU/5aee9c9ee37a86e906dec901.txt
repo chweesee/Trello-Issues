@@ -1,0 +1,76 @@
+[Archived] Unread Desktop Alerts in Windows 10 do not appear in the Action Centre if you missed them (https://trello.com/c/2aRC2sh6)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-05-06T06:11:42.974Z
+Latest Update: 2018-10-22T20:20:26.195Z
+
+Reported by ☇Déãd☠§høţ🔫#8775
+
+####Steps to reproduce:
+- Enable Full Alerts in a Server 
+- Switch to another program that is NOT Discord OR switch to another Channel/Server 
+- ask someone (or wait) to post a message in the Channel you enabled Alerts on but are not looking at 
+- ignore the Desktop Alert but do not Dismiss it 
+- check the Action Centre
+
+####Expected result:
+You should be able to see the Alert in the Action Centre because you have not acted on it
+####Actual result:
+the Alert vanishes and never reaches the Action Centre
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 14651, Version Hash: 05273b109bbf775536938c01a1ba710d1c61d86c
+####System settings:
+Windows 10 Home 64-bit 1803 Build 17134.1
+
+12033
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-06T06:11:42.974Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 14718
+
+Rauf#9245 - Bug Bot on 2018-05-06T06:11:50.360Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 64-Bit on Build 17134.1 [BUILD INFO] Release Channel: stable, Build Number: 14651, Version Hash: 05273b109bbf775536938c01a1ba710d1c61d86c the Alert only stays for a few seconds but there's no trace afterwards
+
+Blastoise186#7194 - Bug Bot on 2018-05-06T06:11:55.320Z
+
+
+### Can reproduce.
+Able to Reproduce; Samsung Galaxy A3 2017; Android 7.0; Discord 6.6.1 (661).
+
+Costpap#2158 - Bug Bot on 2018-05-06T06:12:00.304Z
+
+
+### I meant to do -w, I just keep messing it up with -a. Anyways, proper client and settings info are the following: Windows 10 Pro x64;  Build 1803; Discord Canary Build 14720.
+
+Costpap#2158 - Bug Bot on 2018-05-06T06:14:27.790Z
+
+
+### Verified
+
+Win 10 x64 [BUILD INFO] Release Channel: canary, Build Number: 14720, Version Hash: 9f6a3c8afec95316065e5fc7297cc4b39a7ffad5 - Jared on 2018-05-08T19:27:31.278Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-08T19:27:41.875Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aee9c9ee37a86e906dec901/44dd90fd3077434753bc15acd56c0462/QViE8tf.gif added by Bug Bot on 2018-07-14T15:29:37.227Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:26.198Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,85 @@
+[Archived] Using keyboard combos kicks you out of the server in guest mode but starts the create server process (https://trello.com/c/s1jLvLmP)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-02-15T07:44:32.678Z
+Latest Update: 2019-10-23T23:03:33.832Z
+
+Reported by Azrael#6867
+
+####Steps to reproduce:
+- Join a server in guest mode on Chrome 
+- Click on the server if you aren't on it's first channel already  
+- Do Ctrl+Alt+LeftArrow
+
+####Expected result:
+You get kicked out the server and in turn the entire web client
+####Actual result:
+You get kicked out of the server in guest mode but the "Welcome to Discord" dialogue appears and the next screen shows an "Unknown Region" for server
+####Client settings:
+Canary Build 32273 Chrome 71.0.3578.98
+####System settings:
+Windows 10 Home x64
+
+28871
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-15T07:44:32.678Z
+
+
+### Azrael#6867 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c666de04a4b8c1bc8cb4b19/452d038e761ae7f5bb33d307da947bff/ZQ6wyWN.png added by Bug Bot on 2019-02-15T07:44:35.718Z
+
+
+### Azrael#6867 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c666de04a4b8c1bc8cb4b19/bbba4eb12ded28418743ef8b1998c14d/b5pPGjA.png added by Bug Bot on 2019-02-15T07:44:35.718Z
+
+
+### Azrael#6867 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c666de04a4b8c1bc8cb4b19/ca7a082ed6942579a10e560989ac3503/Jwm3bRE.png added by Bug Bot on 2019-02-15T07:44:35.792Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE (11.6") - Chrome OS 71.0.3578.127 (64-bit) - Web Canary 32273
+
+Casper#9999 - Bug Bot on 2019-02-15T07:44:40.235Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 32273 - Google Chrome 72.0.3626.109
+
+Daffyduck#5364 - Bug Bot on 2019-02-15T07:44:45.169Z
+
+
+### Can reproduce.
+Windows 10 Pro 1809 x64, Discord Canary (stable) 32273 - Google Chrome 72.0.3626.109
+
+Harsh#8888 - Bug Bot on 2019-02-15T07:44:50.289Z
+
+
+### verified, win10, chrome 72 - Clayton on 2019-02-15T11:19:17.123Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-15T11:19:33.080Z
+
+
+### Can reproduce.
+Windows 7 Pro x64,  Canary build 32407
+
+Артём#1337 - Bug Bot on 2019-02-19T09:14:10.217Z
+
+
+### Can reproduce.
+CR; Canary: 33262, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-05T12:04:44.245Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:33.846Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

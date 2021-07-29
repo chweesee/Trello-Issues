@@ -1,0 +1,66 @@
+[Archived] Embed fields can run on longer than the message size (https://trello.com/c/FdLQgsah)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2016-12-28T18:04:11.862Z
+Latest Update: 2018-07-06T17:52:22.118Z
+
+Reported by Programmix#0748
+
+####Steps to reproduce: 
+- Create an embed with inline fields 
+- Set a field to something longer than your client's max line length 
+
+####Expected result:
+ Field text is wrapped 
+####Actual result:
+ Field text continues on and overflows past the width of the chat
+
+Card Log
+========
+### Added by Jared on 2016-12-28T18:04:11.862Z
+
+
+### Can reproduce.
+Latest PTB on Windows 10
+
+HyperCoder#2975 - Jared on 2016-12-28T18:04:12.504Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Latest Discord
+
+Skeletonarcher12#3697 - Jared on 2016-12-28T18:04:12.587Z
+
+
+### c5kvxqD.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5863fe9bd98999f1ccb520f9/5c30f00ac223770333c7c63909d76a47/c5kvxqD.png added by Jared on 2016-12-28T18:04:27.782Z
+
+
+### Verified, Night will look into it as he is able. - Jared on 2017-01-05T19:11:01.523Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-05T19:11:05.081Z
+
+
+### Not a very common use case and can be solved by not writing bad code. Mid P3. - Jared on 2017-10-17T18:03:04.782Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-21T21:09:46.235Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T21:09:50.656Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:52:20.947Z
+
+
+### Archived by Jared on 2018-07-06T17:52:22.120Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

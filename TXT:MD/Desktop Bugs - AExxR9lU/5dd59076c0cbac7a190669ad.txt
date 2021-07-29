@@ -1,0 +1,103 @@
+Having a long gif url will result to a weird embed text (https://trello.com/c/44L8jfnX)
+
+None
+
+Created: 2019-11-20T19:13:58.321Z
+Latest Update: 2020-07-16T21:26:05.706Z
+
+Reported by Nedran#4100
+
+####Steps to reproduce:
+- Import discord 
+- Copy paste my code (code in attachment) 
+- Observe
+
+####Expected result:
+The embed shouldn't be weird and the gif is outside of the embed
+####Actual result:
+The gif is outside of the embed
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 49868
+####System settings:
+,Win10 x64, Build Number: 49400
+
+48491
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-20T19:13:58.321Z
+
+
+### Nedran#4100 - https://cdn.discordapp.com/attachments/643128095691505689/646441951482347538/unknown.png https://cdn.discordapp.com/attachments/643128095691505689/646442054188007434/unknown.png added by Bug Bot on 2019-11-20T19:14:01.213Z
+
+
+### Can reproduce.
+The issue is that the footer text is too long. Once the footer text is too long, it'll wrap outside of the embed. Once used in conjunction with a thumbnail, it causes the text to appear once per character on separate lines. MacBook Pro: macOS Catalina 10.15.1; Discord Canary 49954
+
+Jiralite#1207 - Bug Bot on 2019-11-20T19:14:05.802Z
+
+
+### Can reproduce.
+The footer text is too long, making the thumbnail outside the embed. With a title, the title appears as one character per line; Windows 10 x64 Home V1909 - Discord Canary Build 49841
+
+je n'ai plus d'idées#0101 - Bug Bot on 2019-11-20T19:14:10.795Z
+
+
+### Can reproduce.
+CR, macOS 10.13.6, Canary 49954
+
+leaf#0001 - Bug Bot on 2019-11-20T19:14:15.788Z
+
+
+### Here is the code, https://hastebin.com/vubadaweca.sql
+
+Nedran#4100 - Bug Bot on 2019-11-20T19:22:03.940Z
+
+
+### Can reproduce.
+CR, The footer text is too long, making the thumbnail outside the embed. With a title, the title appears as one character per line, macOS 10.14.3, Canary Build 49954
+
+Masterpiece#0001 - Bug Bot on 2019-11-20T19:31:37.062Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.388), Discord Canary 49954
+
+Kissa#1337 - Bug Bot on 2019-11-20T19:51:47.181Z
+
+
+### Can reproduce.
+Windows 10 Home and Canary 49954
+
+hufflepuff15560#9709 - Bug Bot on 2019-11-20T21:38:01.714Z
+
+
+### Can reproduce.
+Windows 10 Home and Canary 49954
+
+hufflepuff15560#9709 - Bug Bot on 2019-11-20T21:43:08.169Z
+
+
+### Sorry, wrong ID
+
+hufflepuff15560#9709 - Bug Bot on 2019-11-20T22:21:50.174Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 50042 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-21T18:17:55.064Z
+
+
+### Can reproduce.
+Canary 50127, Windows 10
+
+Rohit#3523 - Bug Bot on 2019-12-01T08:11:48.587Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

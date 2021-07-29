@@ -1,0 +1,139 @@
+[Archived] New Inline video player embeds webms, which can not be played natively (https://trello.com/c/hgq8Pzh1)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-08-05T13:03:08.142Z
+Latest Update: 2019-09-18T10:01:05.465Z
+
+Reported by Kanzuke#1117
+
+####Steps to reproduce:
+- Upload or Hotlink a Webm video to discord (Not gfycat) 
+- Observe first frame in embed on iOS 
+- Click Play
+
+####Expected result:
+I don't expect discord to add software decoding for VP8/9, so webms should not embed, or better yet ask to be opened in an app like VLC
+####Actual result:
+Video attempts to load forever
+####Client settings:
+TF 3.0.10 (16641)
+####System settings:
+iPhone 6s, iOS 12.2
+
+41433
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-05T13:03:08.142Z
+
+
+### Can reproduce.
+CR, On previous versions of testflight, webm files would be redirected to be 'downloaded/opened' in a different app via Safari/Browser. It should not be a valid target for the inline video player. iPhone XS Max, iOS 13 Public Beta 4 - Testflight 3.0.10 (16641)
+
+CyberiumShadow#1507 - Bug Bot on 2019-08-05T13:03:15.920Z
+
+
+### Can reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 5) - TestFlight 3.0.10 (16641)
+
+Xylium#5800 - Bug Bot on 2019-08-05T13:03:21.099Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 3.0.10 (16641)
+
+OrangeM24#5746 - Bug Bot on 2019-08-05T13:03:25.949Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 Dev Beta 5 — TestFlight 3.0.10 (16641)
+
+Nith#1337 - Bug Bot on 2019-08-05T13:13:48.147Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 13 Dev Beta 5, TestFlight 3.0.10 (16641)
+
+Alpha_Stream#2652 - Bug Bot on 2019-08-05T17:29:23.142Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.10  (16641)
+
+Skyla#0002 - Bug Bot on 2019-08-05T18:45:57.312Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 7, iOS 13 (Public Beta 3) , Testflight 3.0.10 (16641)
+
+ryan#0570 - Bug Bot on 2019-08-05T19:00:30.385Z
+
+
+### Moved from New Issues to Fix made, not yet released by Fanghao on 2019-08-06T00:58:28.761Z
+
+
+### Can reproduce.
+CR - iPhone Xs, iOS 13 Public Beta 4, Discord TestFlight Build 3.0.10 (16641)
+
+maximd#1122 - Bug Bot on 2019-08-06T02:48:17.945Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.2x, TestFlight 3.0.10 (16641)
+
+Noah#0004 - Bug Bot on 2019-08-06T08:53:36.425Z
+
+
+### Can reproduce.
+CR, iPhone 7, iOS 12.4, Discord Testflight 3.0.10
+
+KindleTune#8570 - Bug Bot on 2019-08-06T09:26:39.697Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 4, TestFlight 3.0.10 (16641)
+
+Jeffrey#1234 - Bug Bot on 2019-08-06T14:49:56.491Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2019-08-08T04:52:38.583Z
+
+
+### Can't reproduce.
+ can no longer reproduce iPhone 6s iOS 13 (public beta 4) testflight 3.0.10 (16720)
+
+GlenMerlin#2119 - Bug Bot on 2019-08-08T04:57:48.590Z
+
+
+### Can't reproduce.
+can no longer reproduce iPhone 6s iOS 13 (public beta 4) testflight 3.1.0 (16720)
+
+GlenMerlin#2119 - Bug Bot on 2019-08-08T05:04:50.078Z
+
+
+### Can't reproduce.
+CNR - iOS 13.0 (17A5522f) - TestFlight 3.1.0 (16720)
+
+Isabel#0002 - Bug Bot on 2019-08-08T05:09:39.977Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 5) - TestFlight 3.0.10 (16720)
+
+Xylium#5800 - Bug Bot on 2019-08-08T05:16:33.314Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-08-08T05:16:33.636Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:05.519Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

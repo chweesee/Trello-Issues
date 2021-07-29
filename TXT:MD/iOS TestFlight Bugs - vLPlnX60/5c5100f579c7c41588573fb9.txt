@@ -1,0 +1,102 @@
+[Archived] Invalid phone number warning in SMS authentication backup screen doesn't disappear unless app is restarted. (https://trello.com/c/OIl1Wz4e)
+
+None
+
+Created: 2019-01-30T01:42:13.496Z
+Latest Update: 2019-03-21T22:15:57.788Z
+
+Reported by Darkbeast#2997
+
+####Steps to reproduce:
+- Go to User Settings > Account > SMS Backup Authentication (SMS BA has to be off initially) 
+- Type in random numbers to get the invalid phone number warning 
+- Close that screen and get out of User Settings completely 
+- Repeat the first step
+
+####Expected result:
+The invalid phone number warning shouldn't be there.
+####Actual result:
+The invalid phone number warning is stuck there until app restart.
+####Client settings:
+TestFlight 2.4.4 (10993)
+####System settings:
+iPhone 7 Plus, iOS 12.1.3
+
+27339
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-30T01:42:13.496Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.3 Beta (16D5032a) - TestFlight 2.4.4 (10993)
+
+Isabel#0002 - Bug Bot on 2019-01-30T01:42:21.394Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.1.3, Testflight 2.4.4 (10993)
+
+ChaseTug13#1213 - Bug Bot on 2019-01-30T01:42:25.908Z
+
+
+### Can reproduce.
+CR | iPhone 5s iOS 12.2.2 Dev Beta, v2.4.4 (10993)
+
+Daniel#4226 - Bug Bot on 2019-01-30T01:42:30.925Z
+
+
+### Possible related/extension of https://trello.com/c/8OtwCttz since both are about error messages not disappearing
+
+Pascal#0929 - Bug Bot on 2019-01-30T18:18:58.645Z
+
+
+### Moved from New Issues to Account Settings by Alex on 2019-01-31T21:11:46.389Z
+
+
+### Moved from Account Settings to Fix made, not yet released by Alex on 2019-02-05T00:17:23.904Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alex on 2019-02-20T00:56:20.591Z
+
+
+### Can't reproduce.
+CNLR // iPad 9.7 ~ iOS 12.4.1 ~ Testflight 2.4.5 11416
+
+ΖΧ LOLnt ////#3405 - Bug Bot on 2019-02-20T14:48:49.759Z
+
+
+### Can't reproduce.
+iphone 8 ios 12.1.4, Testflight 2.4.5 11416
+
+M24#0272 - Bug Bot on 2019-02-20T17:02:56.694Z
+
+
+### Can't reproduce.
+CNLR // iPad 9.7 ~ iOS 12.1.4 ~ Testflight 2.4.5 11416
+
+ΖΧ LOLnt ////#3405 - Bug Bot on 2019-02-20T21:28:12.679Z
+
+
+### Can't reproduce.
+iPhone 7 plus, iOS 12.1.4, TestFlight 2.4.5 (11416)
+
+Darkbeast#2997 - Bug Bot on 2019-02-20T21:54:52.382Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-02-20T21:54:52.610Z
+
+
+### This ticket has been in Verified Fixed for more than a month with no activity. So archiving. - Ghoul on 2019-03-21T22:15:53.310Z
+
+
+### Archived by Ghoul on 2019-03-21T22:15:57.799Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

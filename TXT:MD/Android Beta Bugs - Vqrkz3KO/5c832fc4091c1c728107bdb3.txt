@@ -1,0 +1,116 @@
+[Archived] clicking a timed youtube link embed doesnt open video at the time (https://trello.com/c/0TIMaMYv)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-09T03:15:16.276Z
+Latest Update: 2019-04-12T22:00:07.076Z
+
+Reported by Zacatero#0001
+
+####Steps to reproduce:
+- (I am going to post this exactly how I did it, there may be extra steps that arent necessary) 
+- Have already posted a video in a chat via a desktop version of Discord 
+- The link needs to be one that starts the video at a specified time 
+- Go to Android 
+- Click the play button in the video in the embed
+
+####Expected result:
+The link should open at the proper time
+####Actual result:
+The video opens but it starts at the beginning
+####Client settings:
+Alpha 8.5.5
+####System settings:
+Samsung Galaxy S9+ Android 9.0
+
+30552
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-09T03:15:16.276Z
+
+
+### Can reproduce.
+Happens when clicking the play button in embed, but not when clicking the link directly. Tested it by appending `&t=500` at he end of a random youtube link. Discord Alpha 8.5.6, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2019-03-09T03:15:23.814Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.5.6
+
+keuzel#0510 - Bug Bot on 2019-03-09T03:15:28.793Z
+
+
+### Can reproduce.
+Google Pixel 3 XL - Android 9 Pie (Rooted) - Alpha 856
+
+Noxillio#0001 - Bug Bot on 2019-03-09T03:15:33.729Z
+
+
+### Can reproduce.
+Moto G6, Android O, Alpha 856
+
+Sanjay#0540 - Bug Bot on 2019-03-09T03:47:53.857Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8 Android 8, Alpha 8.5.6
+
+Action Potential#2494 - Bug Bot on 2019-03-09T04:56:12.121Z
+
+
+### Can reproduce.
+cr. Alpha 8.5.6 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-03-09T06:34:45.756Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (8.1.0) | Discord Alpha 8.5.6
+
+Clay#0001 - Bug Bot on 2019-03-09T06:54:04.129Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0.1, Discord Alpha 8.5.6
+
+Frances Picard#6209 - Bug Bot on 2019-03-09T09:56:08.782Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H (MIUI 10.1 Stable), Discord Alpha 8.5.6
+
+Defracted#7777 - Bug Bot on 2019-03-09T12:45:47.935Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.5.6
+
+Lily#2624 - Bug Bot on 2019-03-09T17:44:06.682Z
+
+
+### Can't reproduce.
+Samsung Galaxy Note 8, Android 9.0 - Alpha 8.5.6 for some reason i cannot repro this bug
+
+J1#0088 - Bug Bot on 2019-03-09T18:59:58.923Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 856
+
+The Lunala#6877 - Bug Bot on 2019-03-10T16:46:00.563Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T21:40:42.613Z
+
+
+### Archived by Bug Bot on 2019-04-12T22:00:07.089Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

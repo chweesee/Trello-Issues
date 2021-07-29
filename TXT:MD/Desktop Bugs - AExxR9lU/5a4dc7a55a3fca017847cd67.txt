@@ -1,0 +1,72 @@
+[Archived] When using Shift+Ctrl+(Key) and Ctrl+(Key) to mute/deafen causes deafen to become stuck (https://trello.com/c/NDtW68YR)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-01-04T06:20:21.124Z
+Latest Update: 2018-10-22T20:17:53.010Z
+
+Reported by !Surg#4149
+
+####Steps to reproduce:
+- Set a mute keybind to Ctrl+p(any key works) 
+- Set a Deafen keybind to Ctrl+Shift+p 
+- Enter any voice channel 
+- Use Ctrl+p to mute (or don't) -Then use Ctrl+Shift+p to deafen 
+- Use it again to undeafen
+
+####Expected result:
+You undeafen and still are muted (or if you didn't mute first, you are unmuted)
+####Actual result:
+You quickly get undeafened and deafened again. You must use your Mute keybind to undeafen.(Some times it will work correctly depending on the timing of pressing keys...)
+####Client settings:
+Canary (9209)
+####System settings:
+Win 10 Pro 64-bit
+
+7597
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-04T06:20:21.124Z
+
+
+### Can reproduce.
+Win 7 SP1 Canary [BUILD INFO] Release Channel: canary, Build Number: 9209, Version Hash: 3095493abadc19fab057b308eb78e3b2e8635a92 Problem is that multiple shortcuts are firing at the same time
+
+omega12#8421 - Bug Bot on 2018-01-04T06:20:28.539Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 9227
+
+mrkirby153#7840 - Bug Bot on 2018-01-04T06:20:33.526Z
+
+
+### Can reproduce.
+Discord Cnary 0.0.194 (9231) Windows 10 Pro 64-bit (1709)
+
+Tarek1337#0379 - Bug Bot on 2018-01-04T06:20:38.541Z
+
+
+### Verified - Tarek on 2018-01-12T02:14:34.916Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-01-12T02:14:38.564Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12217
+
+cutelilberry#5423 - Bug Bot on 2018-03-17T17:55:32.768Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:53.012Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

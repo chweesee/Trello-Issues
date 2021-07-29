@@ -1,0 +1,107 @@
+[Chrome OS + Chrome on Windows] Console error when switching regions in call. (https://trello.com/c/Etf6wcdo)
+
+None
+
+Created: 2019-04-08T18:01:08.423Z
+Latest Update: 2020-07-16T21:26:03.694Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Use the web client in Chrome OS or Chrome on Windows. 
+- Have someone call you — accept the call. 
+- Have the other user quickly switch regions between Central and Western Europe. 
+- Press CTRL + SHIFT + I > Console. 
+- Observe console error(s) on both sides.
+
+####Expected result:
+No console error(s) should appear.
+####Actual result:
+Console error(s) does appear.
+####Client settings:
+Web Canary 35116 + Web Stable 35116
+####System settings:
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64)
+
+32313
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-08T18:01:08.423Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cab8c64068471815ec86d70/c2ab76c3551fa97a3c59c7db1fdafec8/Jy0LKFt.png added by Bug Bot on 2019-04-08T18:01:12.251Z
+
+
+### Can reproduce.
+Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+warp#4660 - Bug Bot on 2019-04-08T18:01:16.615Z
+
+
+### Can reproduce.
+Windows 10 x64, Web Canary 35116, Chrome 73
+
+Lelantos#4866 - Bug Bot on 2019-04-08T18:01:21.618Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 35116 Chrome 73.0
+
+Delite#0001 - Bug Bot on 2019-04-08T18:01:26.591Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1809 (OS Build 17763.404), Canary 35116, Chrome 73.0.3683
+
+||Kissa||#1337 - Bug Bot on 2019-04-08T19:22:08.565Z
+
+
+### Can reproduce.
+Windows 10 Pro x32, Canary 35116, Chrome 73.0.3683.103 (32x)
+
+Karasu#0013 - Bug Bot on 2019-04-08T19:31:14.715Z
+
+
+### Can reproduce.
+CR - W10 Home x64, 1809 17763.379, Canary 35116
+
+c1#1337 - Bug Bot on 2019-04-08T22:27:38.008Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Web Canary 35301 - Google Chrome 73.0.3683.86
+
+Daffyduck#5364 - Bug Bot on 2019-04-09T08:08:59.181Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 35116 w/ Chrome 73.0.3626.122
+
+Killtracity#0001 - Bug Bot on 2019-04-09T10:18:28.248Z
+
+
+### Can reproduce.
+cr, Win10 Pro - Canary 35301; Chrome 73
+
+tonite#0001 - Bug Bot on 2019-04-09T18:25:56.675Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 35470; Google Chrome 73.0.3683.103
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-11T02:05:37.170Z
+
+
+### Can reproduce.
+Windows 10 Home, Chrome 73.0.3683.86, Canary 35470
+
+Ossyishere#2281 - Bug Bot on 2019-04-11T02:07:17.151Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

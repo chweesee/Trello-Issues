@@ -1,0 +1,89 @@
+[Archived] marking server as read with hotkeys does not remove 'new messages' line (https://trello.com/c/1V8fTKgq)
+
+None
+
+Created: 2017-10-08T09:21:00.307Z
+Latest Update: 2018-09-30T18:54:42.767Z
+
+Reported by AEnterprise#4693
+
+####Steps to reproduce:
+- go to a channel with unread messages 
+- use shift+esc to mark the entire server as read 
+- notice that the red line is still there (if there where a lot of messages and it scrolled you down just scroll up again to to find it)
+
+####Expected result:
+the red line marker is removed (like it does when you mark just the channel as read with esc)
+####Actual result:
+the new messages red line stays untill you go to another channel and return or mark the channel as read with esc
+####Client settings:
+canary 0.0.164, build 5517
+####System settings:
+Windows 10 x64
+
+5229
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-08T09:21:00.307Z
+
+
+### Can reproduce.
+Windows 10 + Canary 0.0.164
+
+Oasis#4730 - Bug Bot on 2017-10-08T09:21:07.803Z
+
+
+### Can reproduce.
+MacBook Air (13-inch, Early 2015) MacOS High Sierra, Discord Canary 0.0.155
+
+Cheezybob99#9866 - Bug Bot on 2017-10-08T09:21:12.809Z
+
+
+### Can reproduce.
+Dell inspiron 15R-5520 (2015 model) Windows 10 Pro 64-bit, x64-based processor, Discord Canary 0.0.164
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-08T09:21:17.831Z
+
+
+### Only can repro when all other channels in server have been read except the one you are in.
+
+Cheezybob99#9866 - Bug Bot on 2017-10-08T09:25:11.084Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1703) (Discord Canary 0.0.164, Build 5517)
+
+OminousCry#2331 - Bug Bot on 2017-10-08T12:53:27.745Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Canary 0.0.164
+
+loser#5005 - Bug Bot on 2017-10-08T18:27:09.084Z
+
+
+### Reproduced. But this is so minor it's not worth the resources to fix it. - Jared on 2017-10-09T22:03:15.955Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-10-09T22:03:19.810Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:07:38.269Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:07:39.105Z
+
+
+### Can reproduce.
+MacBook Pro 13", macOS Mojave 10.14, Canary 25046
+
+Alfie#1582 - Bug Bot on 2018-09-30T18:54:42.768Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

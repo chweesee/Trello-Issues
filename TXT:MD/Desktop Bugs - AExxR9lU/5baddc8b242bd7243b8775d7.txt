@@ -1,0 +1,75 @@
+Places with half hour timezones with respect to GMT (Like +5:30 GMT) have a 30 in place of a 00 in the slow mode timer. (https://trello.com/c/m7Yb4wiY)
+
+None
+
+Created: 2018-09-28T07:47:23.120Z
+Latest Update: 2019-04-02T20:42:06.819Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Go to/stay in a country with half hour timezone. 
+- Open a channel with slow mode enabled. 
+- Type something and send it.
+
+####Expected result:
+The timer says 00:0x
+####Actual result:
+The timer says 30:0x
+####Client settings:
+Discord Alpha 756
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+20247
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-28T07:47:23.120Z
+
+
+### The Lunala#7777 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5baddc8b242bd7243b8775d7/2aa9caad459cde181bc9cba79d34e547/20180928_063149.jpg added by Bug Bot on 2018-09-28T07:47:25.446Z
+
+
+### Can reproduce.
+Can reproduce Samsung Galaxy S7 Edge, Android 8.0.0, Alpha 7.5.7
+
+Wasps#5797 - Bug Bot on 2018-09-28T07:47:30.382Z
+
+
+### Can reproduce.
+Samsung S5mini, 6.0.1, 756
+
+Nashorn#7193 - Bug Bot on 2018-09-28T07:47:35.366Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.5.7
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-28T07:47:40.361Z
+
+
+### Happens on desktop as well apparently, can't test it since I live in Sweden. Nor can any mod. Moving to desktop board. - Tarek on 2018-09-28T08:42:44.963Z
+
+
+### Imported from https://trello.com/b/57f2a306ca14741151990900 by Tarek on 2018-09-28T08:42:53.529Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Andy Garron on 2018-09-29T19:39:35.706Z
+
+
+### seems to still happen, re-opening - Tim on 2018-12-22T19:00:40.044Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tim on 2018-12-22T19:00:46.720Z
+
+
+### aditya#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5baddc8b242bd7243b8775d7/c2008f316063df21402cc8d63b20e42e/OljdGRI.jpg added by Bug Bot on 2018-12-22T19:11:02.730Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

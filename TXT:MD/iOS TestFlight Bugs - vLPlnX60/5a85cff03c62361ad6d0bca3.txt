@@ -1,0 +1,116 @@
+[Archived] You can't share multiple files at once with the new share extension (https://trello.com/c/3YddbRHS)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-02-15T18:22:40.923Z
+Latest Update: 2019-07-12T07:34:37.717Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Prerequisite: Enable the new Discord share extension 
+- Go to the iOS photo app and open any folder or all photos 
+- Click on select and select more than 1 image 
+- Now hit the share button 
+- Select Discord 
+- Send it and observe the result in the Discord app
+
+####Expected result:
+All images or other files should be send with multiple messages.
+####Actual result:
+Only the first image/file will be send.
+####Client settings:
+TestFlight 2.2.3 (2617)
+####System settings:
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 2
+
+8815
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-15T18:22:40.923Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.3 (2617)
+
+mrkirby153#7840 - Bug Bot on 2018-02-15T18:22:48.378Z
+
+
+### Can reproduce.
+IPod Touch 6 generation, iOS 11.2.5, TestFlight 2.2.3 (2617)
+
+❤nickWtn❤#3789 - Bug Bot on 2018-02-15T18:22:53.343Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.1.2, TestFlight 2.2.3 (2617)
+
+Rashaun#9295 - Bug Bot on 2018-02-15T18:22:58.355Z
+
+
+### Verified.  - Clayton on 2018-02-15T21:48:49.350Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T21:48:57.265Z
+
+
+### I checked this ticket during the Trello Event, but I am still able to reproduce this bug as of Discord TestFlight 2.3.4 (5560). I selected five photos with text to be sent, but unfortunately only one picture was sent. :(
+
+I used iPhone 8 + running iOS 12 Dev Beta 2. I will leave this ticket as I am still able to reproduce. - Ghoul on 2018-07-03T00:30:47.231Z
+
+
+### 54D#1357 - https://youtu.be/6V0rwrQx5GM added by Bug Bot on 2018-07-14T05:45:20.896Z
+
+
+### It seems still to happen, test it with more images and you should see the issue. Uploading more than 8 images only shows some of it but not all
+
+Pascal#0929 - Bug Bot on 2018-07-21T12:50:46.520Z
+
+
+### Also happens with the pasting images feature
+
+Pascal#0929 - Bug Bot on 2018-08-06T23:19:09.012Z
+
+
+### Archived by Clayton on 2018-09-05T23:30:02.171Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.5 (16102) with iPhone 8 Plus running iOS 12.3.2.
+
+Tested it with 10 images. The extension below would be a missing feature.
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-10T07:09:22.587Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-07-10T07:09:35.094Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 3) - Stable 3.0.5
+
+Xylium#5800 - Bug Bot on 2019-07-10T09:44:14.806Z
+
+
+### Can't reproduce.
+iPhone XR & iPad Air iOS 12.3.1 TestFlight 3.0.5 (16102)
+
+binchlord#0998 - Bug Bot on 2019-07-10T11:25:12.630Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 13 (Public Beta 2) , TestFlight 3.0.5 (16102)
+
+ryan#0570 - Bug Bot on 2019-07-10T23:28:09.730Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-10T23:28:10.102Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

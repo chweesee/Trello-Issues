@@ -1,0 +1,101 @@
+[Archived] Search filters mysteriously reappear when typing out a Discord tag as search query (https://trello.com/c/fmBTxcPl)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-17T23:50:02.610Z
+Latest Update: 2018-10-23T02:30:02.330Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a server 
+- Go to Search 
+- In the searchbar, type anything that is formatted as a Discord tag, eg `user#0000` 
+- Notice that when you start typing the name, the search filters disappear, which is normal. Observe how they reappear as soon as you finish to type the 4th digit of the discriminator
+
+####Expected result:
+The search filters should remain hidden
+####Actual result:
+The search filters unexpectedly pop up again. This also happens when the search query is a random string starting with a # (which would correspond to a channel tag)
+####Client settings:
+Discord Alpha 7.5.2
+####System settings:
+Huawei Mate 9 Android 8.0
+
+19793
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-17T23:50:02.610Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ba03daa9ec04530226a6572/a542d5bfb2a7a402f75d5d109e398fee/IMG_20180918_003229.jpg added by Bug Bot on 2018-09-17T23:50:04.934Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ba03daa9ec04530226a6572/752c9c6a26c9ff9fc86f8e17ff96d504/IMG_20180918_003218.jpg added by Bug Bot on 2018-09-17T23:50:04.938Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Alpha 7.5.2 - Samsung Galaxy Note 8, Android 8.0
+
+Danijel#9000 - Bug Bot on 2018-09-17T23:50:09.915Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 7.5.2
+
+Bencey_#8587 - Bug Bot on 2018-09-17T23:50:14.897Z
+
+
+### Can reproduce.
+Huawei Honor 10 view (BKL-L09), Android 8.0.0, Discord Alpha 752
+
+Almeos#1984 - Bug Bot on 2018-09-17T23:50:19.895Z
+
+
+### verified, android 7.0, alpha 7.5.2, samsung s6 edge - Clayton on 2018-09-18T02:44:00.121Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-18T02:44:07.022Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 9.0, Discord Alpha 7.5.2
+
+Haru😍💜#6660 - Bug Bot on 2018-09-18T06:48:08.502Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.5.2
+
+Frances Picard#6209 - Bug Bot on 2018-09-18T12:45:53.197Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.5.2
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-18T18:01:39.278Z
+
+
+### Can reproduce.
+HUAWEI P6-U06 Android: 4.2.2 Alpha:7.5.3
+
+Neiron#2406 - Bug Bot on 2018-09-20T13:01:18.975Z
+
+
+### Can reproduce.
+Moto Z Force Droid Edition, Android 8.0 [July SP] • Discord 7.5.4 [Alpha]
+
+Industrial_Strength#1402 - Bug Bot on 2018-09-23T02:21:14.811Z
+
+
+### Archived by Clayton on 2018-10-23T02:30:02.333Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

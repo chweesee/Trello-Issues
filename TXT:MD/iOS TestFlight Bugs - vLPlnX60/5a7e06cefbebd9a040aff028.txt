@@ -1,0 +1,74 @@
+[Archived] Movie files show up as empty image placeholders (https://trello.com/c/q3k9QYtA)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2018-02-09T20:38:38.270Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by FanStalin#0001
+
+####Steps to reproduce:
+- Upload a movie file from your phone 
+- Someone else can upload a file too 
+- Try to click on the placeholder
+
+####Expected result:
+There should be a clickable link of the video file which launches your default web-browser to view movie file
+####Actual result:
+Discord shows the default image placeholder (the one before preview generated) and says "Failed to load the image."
+####Client settings:
+Discord TestFlight v2.2.2 (2352)
+####System settings:
+iPhone 7+ iOS 11.3 beta 2 (15E5178f)
+
+8634
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-09T20:38:38.270Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 2 | TestFlight 2.2.2 (2352) | That is a general problem with movie files, also uploading them via Desktop don't show them in the iOS client
+
+Pascal#0929 - Bug Bot on 2018-02-09T20:38:45.584Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight 2.2.2 (2352)
+
+Kuuhaku#4503 - Bug Bot on 2018-02-09T20:38:50.538Z
+
+
+### I can reproduce this P3 (the file has to be under 8MB for the preview to be displayed though), moving to Verified Bugs.
+
+Discord 2.2.2 (2352), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-02-10T08:00:53.274Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2018-02-10T10:44:47.797Z
+
+
+### Can't reproduce.
+iPhone 6s & iPad Air 2, iOS 11.3 PB 2, TestFlight 2.2.3 (2671)
+
+Pascal#0929 - Bug Bot on 2018-02-18T19:51:25.006Z
+
+
+### I can no longer reproduce as of Discord TestFlight 2.3.4 (5560), there is no default image placeholder that will tell me that it has failed to save the image. It will open the .mov file just fine as I am able to view it. I used iPhone 8 + running iOS 12 (Dev Beta 2).
+
+Because I was not able to reproduce anymore, I am moving it to Claimed Fixed. - Ghoul on 2018-07-03T00:40:14.400Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T00:40:30.261Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:50.454Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

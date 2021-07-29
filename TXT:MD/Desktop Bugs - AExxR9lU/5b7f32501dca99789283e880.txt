@@ -1,0 +1,83 @@
+[Archived] Direct user invite uses first channel even if it's restricted to @everyone (https://trello.com/c/5I62siFE)
+
+None
+
+Created: 2018-08-23T22:16:48.626Z
+Latest Update: 2018-08-23T22:29:01.518Z
+
+Reported by Max Mustermann#0815
+
+####Steps to reproduce:
+- have a server with a text channel at the top where read message is denied for everyone 
+- invite a user by right click -> Invite to Server -> Your Server
+
+####Expected result:
+The invite link should refer to either the first visible channel or the default channel
+####Actual result:
+The user can see the channel name and topic of a channel which shouldn't be visible to him.
+####Client settings:
+Release Channel: stable, Build Number: 22333
+####System settings:
+Windows 10 Build 1803
+
+18261
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-23T22:16:48.626Z
+
+
+### Can reproduce.
+Can reproduce, Desktop Canary 22333 MacBook Air (13", early 2014) macOS High Sierra 10.13.6
+
+George#0069 - Bug Bot on 2018-08-23T22:16:55.917Z
+
+
+### Can reproduce.
+Misread. Can reproduce. Windows 7 Professional x64, Stable, 22333
+
+Fallen.exe 💔#6661 - Bug Bot on 2018-08-23T22:17:00.901Z
+
+
+### Can reproduce.
+Can reproduce. Tested with my test account. Even tho the messages aren't showing, the channel and the channel topic is shown. Windows 10 Pro, x64 (v1803) - Discord Canary Build 22364
+
+Hole#0001 - Bug Bot on 2018-08-23T22:17:05.976Z
+
+
+### Duplicate of https://trello.com/c/KPy2vYQC. Ignore my approval.
+
+Hole#0001 - Bug Bot on 2018-08-23T22:18:46.507Z
+
+
+### Can't reproduce.
+Dupe of https://trello.com/c/KPy2vYQC
+
+Hole#0001 - Bug Bot on 2018-08-23T22:19:29.272Z
+
+
+### Dupe below. - Ghoul on 2018-08-23T22:20:47.316Z
+
+
+### dupe of https://trello.com/c/KPy2vYQC
+
+George#0069 - Bug Bot on 2018-08-23T22:22:54.194Z
+
+
+### Dupe of https://trello.com/c/KPy2vYQC
+
+Hole#0001 - Bug Bot on 2018-08-23T22:23:23.318Z
+
+
+### dupe below.  - Clayton on 2018-08-23T22:29:00.692Z
+
+
+### Archived by Clayton on 2018-08-23T22:29:01.519Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

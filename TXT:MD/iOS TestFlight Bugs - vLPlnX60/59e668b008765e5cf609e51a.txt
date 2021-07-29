@@ -1,0 +1,70 @@
+[Archived] Cannot scroll to bottom of chat window because every new message auto scrolls back to New Message line. (https://trello.com/c/BGH3My5w)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-10-17T20:31:44.711Z
+Latest Update: 2017-11-26T09:10:02.917Z
+
+Reported by Niklas#3627
+
+####Steps to reproduce:
+- Get on a Discord where many people write many messages (1msg per sec is minimum I think)
+
+- Try scrolling up
+
+####Expected result:
+You can read the messages normally
+####Actual result:
+You will be scrolled down to the new messages
+####Client settings:
+iOS 11.1 (Dev Build 2), Discord TestFlight 1.9.2(953)
+####System settings:
+iPhone 6s Plus
+
+5492
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-17T20:31:44.711Z
+
+
+### wild binary#0802 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59e668b008765e5cf609e51a/bf4d89f67bc5b39a8db0279c3c8e552e/hrnFBLZ.jpg added by Bug Bot on 2017-10-17T20:31:47.343Z
+
+
+### Can reproduce.
+CR, this can also work if a message got deleted and if the text channel has a lot of messages that are super long (like bug-bot's reports for example). Also works on desktop. iPhone SE, iOS 11.0.3, Discord TF build 1.9.2 (953) and MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-17T20:31:52.079Z
+
+
+### Can reproduce.
+CR. iPad Mini 4 (iOS 11.0.3) and iPhone 5C (iOS 10.3.3). Works better with really flooded servers with something even quicker than 1 mps (message per second). Attachment shows my friend spamming a phrase on my server and me trying to reach the bottom.
+
+wild binary#0802 - Bug Bot on 2017-10-17T20:31:57.097Z
+
+
+### Can reproduce.
+CR, this happens more on big servers with multiple conversations going on, as you said a speed of ~1mps. Iphone 6, iOS 11.0.0, TF 1.9.2(953)
+
+Xur, Agent of The Nine#6761 - Bug Bot on 2017-10-17T20:32:02.308Z
+
+
+### Cannot reproduce. I am seeing buggy behavior where I can't scroll at all, but it is not jumping back to the New Message Line. - Jared on 2017-10-26T20:25:47.175Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-10-26T20:25:50.631Z
+
+
+### Archiving this card because it has been in the Cannot Reproduce list for more than a month with no new action. - Alexandru Todea on 2017-11-26T09:10:01.555Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T09:10:02.920Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

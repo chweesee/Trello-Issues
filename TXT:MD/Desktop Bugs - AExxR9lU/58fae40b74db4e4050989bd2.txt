@@ -1,0 +1,84 @@
+[Archived] Sending a message and switching to another channel sometimes leaves the unread marker (https://trello.com/c/R2y3F1kD)
+
+P2: Fix can wait a while
+
+Created: 2017-04-22T05:03:07.255Z
+Latest Update: 2017-11-15T19:04:23.479Z
+
+Reported by eslachance#4611
+
+####Steps to reproduce: 
+- Click on a server that with an unread message marker, where only one channel has an unread message.  
+- Type a message 
+- Switch to another server immediately 
+
+####Expected result:
+ Server has no unread marker 
+####Actual result:
+ A marker is present, and only disappears when switching to the same server and back. 
+####System settings:
+ Windows 10, Canary App Latest
+
+1167
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-22T05:03:07.255Z
+
+
+### Can reproduce.
+Windows 10 latest canary
+
+Exanimem#3112 - Bug Bot on 2017-04-22T05:03:07.943Z
+
+
+### Can reproduce.
+Win 10, Latest Canary
+
+Cyberium#9972 - Bug Bot on 2017-04-22T05:03:09.848Z
+
+
+### Can reproduce.
+macOS 10.12.4 Discord Canary
+
+Harrison#9100 - Bug Bot on 2017-04-22T05:03:11.884Z
+
+
+### unreadmarker.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58fae40b74db4e4050989bd2/8e2768c57a81a37eeb3bfaf0b417f05f/unreadmarker.gif added by Bug Bot on 2017-04-22T05:03:23.157Z
+
+
+### This happens on iOS and Android also, and is definitely not app-specific.
+
+eslachance#4611 - Bug Bot on 2017-04-22T11:25:31.544Z
+
+
+### Verified.  - Clayton on 2017-04-28T21:21:02.742Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-28T21:21:10.845Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (2739)
+
+Tiemen#0107 - Bug Bot on 2017-08-02T17:14:47.007Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2017-10-04T21:47:51.452Z
+
+
+### Race condition when the server is slow, not worth fixing. - Jared on 2017-10-04T21:48:02.123Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:04:22.271Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:04:23.484Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

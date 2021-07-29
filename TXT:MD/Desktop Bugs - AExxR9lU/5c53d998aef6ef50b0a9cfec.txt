@@ -1,0 +1,84 @@
+Clicking "Join" button when at max guilds in lurker mode loads infinitely (https://trello.com/c/uAUXQqBU)
+
+None
+
+Created: 2019-02-01T05:31:04.329Z
+Latest Update: 2020-06-08T22:47:03.818Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Join 100 guilds 
+- Join a server in lurker mode (via server discovery) 
+- Click the "Join" button
+
+####Expected result:
+An error saying you can't join the server
+####Actual result:
+Nothing. The button loads infinitely
+####Client settings:
+Canary 31700
+####System settings:
+MacBook Pro 15" (2017) - macOS 10.14.3 Mojave
+
+27629
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-01T05:31:04.329Z
+
+
+### Can reproduce.
+Discord Canary 0.0.230 (31700) Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2019-02-01T05:31:11.857Z
+
+
+### Can reproduce.
+Windows 10 home x64 v.1803 - Canary 31700
+
+J1#0088 - Bug Bot on 2019-02-01T05:31:16.839Z
+
+
+### Can reproduce.
+W10 Pro / Canary#31700
+
+kabii#0001 - Bug Bot on 2019-02-01T05:31:21.814Z
+
+
+### Moved from User Reported Bugs to Server discovery! by Tarek on 2019-02-01T06:44:10.318Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31792; Google Chrome 72.0.3626.81
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-04T14:29:55.156Z
+
+
+### Can reproduce.
+Windows 10 Pro, Discord Canary Build 33990 https://i.imgur.com/62eWyjt.png
+
+Thaun_#9748 - Bug Bot on 2019-03-15T22:48:26.748Z
+
+
+### This also happens when the server in the discovery list is at the online cap presence limit. The server outage icon will be shown, and it will load infinitely until you are allowed in. - Ghoul on 2019-03-17T19:51:28.797Z
+
+
+### Can reproduce.
+CR; Win10 Pro x64, Stable 37729
+
+Bullseye#8200 - Bug Bot on 2019-05-16T11:29:34.894Z
+
+
+### Can reproduce.
+This also occurs when trying to join a discovery server when banned from the server. There is no error handling for joining discovery servers yet it seems. (Windows Home 10 1909 - Canary Build 61245)
+
+Netail#0513 - Bug Bot on 2020-06-08T22:47:03.829Z
+
+List
+====
+Server discovery!
+
+Members
+=======
+None

@@ -1,0 +1,103 @@
+[Archived] "X" isn't centered in the circle in settings on 50 zoom (https://trello.com/c/jDmMpRj8)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-17T22:40:31.410Z
+Latest Update: 2019-10-23T23:04:21.821Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Open user settings 
+- Go to appearance and change the zoom level to 50 
+- Observe the close button
+
+####Expected result:
+The "x" is centered
+####Actual result:
+The "x" isn't centered
+####Client settings:
+Canary Build 22112
+####System settings:
+Win 10 x64 1803
+
+17793
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-17T22:40:31.410Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b774edfbf4f7d7175809515/14b52195cd8589101fe645240331c487/unknown.png added by Bug Bot on 2018-08-17T22:40:33.785Z
+
+
+### Can reproduce.
+CR - Ubuntu 18.04 LTS on stable build 22118
+
+Kef#8576 - Bug Bot on 2018-08-17T22:40:38.691Z
+
+
+### Can reproduce.
+CR, might depend on the resolution on your display, seems to affect the lowest three zoom levels, caused by there being a lack of pixels to have enough on each side equally. Windows 10 Home 64x (Build 17134) Canary 22118
+
+Suprnova#0001 - Bug Bot on 2018-08-17T22:40:43.702Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Canary - 22112
+
+jc124games#9460 - Bug Bot on 2018-08-17T22:40:48.737Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Pro x64, Discord Canary 22118.
+
+pe#5323 - Bug Bot on 2018-08-18T01:31:36.459Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22196
+
+Frances Picard#6209 - Bug Bot on 2018-08-18T04:12:08.589Z
+
+
+### Can reproduce.
+MacBook Pro 13" 10.13.6, Canary 22210
+
+AlfiePops#1582 - Bug Bot on 2018-08-18T15:46:43.305Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 22112
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-18T17:12:50.576Z
+
+
+### verified, macos 10.12.6, canary 22283 - Clayton on 2018-08-21T23:46:05.341Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-21T23:46:10.871Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:49.979Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 33015 | Also happens to the white dot in the toggle switches
+
+TheForbiddenAi#7549 - Bug Bot on 2019-02-28T23:04:54.943Z
+
+
+### Unarchived by Bug Bot on 2019-02-28T23:30:05.863Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:21.835Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,86 @@
+[Archived] Display status message toggle clips into gray background (https://trello.com/c/bl5AGfKJ)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2017-10-21T11:08:47.934Z
+Latest Update: 2017-12-02T17:29:25.221Z
+
+Reported by MatrixTunnel#7348
+
+####Steps to reproduce:
+- Go into the `Game` menu in settings and switch the toggle on and off
+
+####Expected result:
+It shouldn't clip into the background
+####Actual result:
+It clips into the background
+####Client settings:
+Canary, build 6115
+####System settings:
+Windows 10 x64
+
+5644
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-21T11:08:47.934Z
+
+
+### Can reproduce.
+CR when I spam the toggle, occurs with any toggle; dot manages to escape the right-hand side of the slider bounds -  Stable Build 5942, Win 10
+
+Usoka#6021 - Bug Bot on 2017-10-21T11:08:55.253Z
+
+
+### Can reproduce.
+Dell inspiron 15R-5520 (2015 model) Windows 10 Pro 64-bit, x64-based processor, Discord Canary 0.0.165
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-21T11:09:00.239Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 0.0.167
+
+Okori#0902 - Bug Bot on 2017-10-21T11:09:05.220Z
+
+
+### Can reproduce.
+Linux Mint 18 + Openbox, Discord Canary 0.0.24
+
+cloudrac3r#5547 - Bug Bot on 2017-10-21T21:14:22.940Z
+
+
+### https://gfycat.com/RichTalkativeIndri
+
+MatrixTunnel#7348 - Bug Bot on 2017-10-22T17:12:24.323Z
+
+
+### Cannot reproduce - Jared on 2017-10-23T23:26:12.754Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-10-23T23:26:17.064Z
+
+
+### ​I was unable to reproduce, steps provided by Ghoulish-Nightmare#4567:
+
+- Go to your settings
+- Click on Games
+- Click on the toggle bar as fast that you can. 
+- Observe the result as you toggle the bar as fast that you can. You will see it clipping into the background, abusing it.
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 6489 - Alexandru Todea on 2017-10-28T07:57:17.883Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:29:24.514Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:29:25.223Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

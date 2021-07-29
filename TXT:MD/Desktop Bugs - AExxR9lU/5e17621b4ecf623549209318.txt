@@ -1,0 +1,61 @@
+While purchasing Nitro with an invalid card, the UI will not automatically return to the credit card input 'page (https://trello.com/c/HC6z0W62)
+
+None
+
+Created: 2020-01-09T17:25:48.087Z
+Latest Update: 2020-07-16T21:26:05.987Z
+
+Reported by myacorn#6534
+
+####Steps to reproduce:
+- Put a bunch of random numbers and names on the credit card and address page 
+- Click next 
+- Observe that NEXT has been clicked, but nothing happens 
+- Manually hit BACK 
+- Notice the invalid credit card notice
+
+####Expected result:
+It should automatically move back to the card page with the alert
+####Actual result:
+It does not move (and you get confused)
+####Client settings:
+Canary 52223
+####System settings:
+MacOS (10.12.6  Sierra)
+
+51313
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-09T17:25:48.087Z
+
+
+### Can reproduce.
+CR; Windows 10, x64 - Canary 52155
+
+IamSushi#0001 - Bug Bot on 2020-01-09T17:25:55.589Z
+
+
+### Can reproduce.
+Discord Stable Release Build 52155, Windows 10 Pro Build 18362.295
+
+Creedoo#3626 - Bug Bot on 2020-01-09T17:26:00.591Z
+
+
+### Can reproduce.
+Canary 52249 Win10 1909
+
+Just A Regular Talking Box#5472 - Bug Bot on 2020-01-09T17:26:05.625Z
+
+
+### Duplicate: https://trello.com/c/GzewZdjG
+
+Jiralite#1207 - Bug Bot on 2020-01-09T17:26:52.822Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

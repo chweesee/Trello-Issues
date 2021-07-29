@@ -1,0 +1,32 @@
+[Archived] If someone else (or you on another client) deletes the template, it will not update on the other client's end, rendering them unable to change anything template-related (https://trello.com/c/MjCiCLV4)
+
+None
+
+Created: Unknown
+Latest Update: 2020-05-01T09:00:39.983Z
+
+**Short Description:** If someone else (or you on another client) deletes the template, it will not update on the other client's end, rendering them unable to change anything template-related
+**Steps to reproduce:**
+- Create a template
+- Have someone else, or a browser client, delete the template
+- Attempt to sync, delete, or modify the template
+
+**Expected Results:** The client will update the current server's template settings (i.e. there being none) and you'll have to create another
+**Actual Results:** The client will only get this information on a reload, leading to "Unknown guild template" errors
+**Client Settings:** Canary 56783
+**System Settings:** Windows 10 64-Bit (10.0.18363)
+
+Card Log
+========
+### Moved from Server Templates! to Won't Fix. Dead Bug by Daffyduck on 2020-04-01T08:35:49.324Z
+
+
+### Archived by Bug Bot on 2020-05-01T09:00:39.991Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

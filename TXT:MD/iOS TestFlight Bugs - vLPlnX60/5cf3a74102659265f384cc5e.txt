@@ -1,0 +1,98 @@
+[Archived] Voiceover loops between last message in a channel and in app notification popup (https://trello.com/c/8vRzERBZ)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-06-02T10:38:57.370Z
+Latest Update: 2019-08-13T11:30:05.973Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Select the last element (last message or last reaction if reactions are present) in a channel 
+- Get a server notification or dm, swipe right immediately as it becomes visible 
+- Swipe right a few more times
+
+####Expected result:
+Voiceover should select the next element on the page when you swipe
+####Actual result:
+Voiceover loops between the last element in the channel and the notification, even after the notification is no longer visible
+####Client settings:
+TestFlight 3.0.2 (15283)
+####System settings:
+iPad Air iOS 12.2
+
+35765
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-02T10:38:57.370Z
+
+
+### Can reproduce.
+Took a lot of try’s but did it, Iphone 8 IOS 12.3.1 Testflight 15283
+
+Classified#0001 - Bug Bot on 2019-06-02T10:39:04.696Z
+
+
+### Can reproduce.
+Reproduced on iPad Pro 11" (3rd Gen), Discord iOS TestFlight 3.0.2 (15283), iOS 12.3
+
+Ayu#0001 - Bug Bot on 2019-06-02T10:39:09.711Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.3 (16F5129d) - TestFlight 3.0.2 (15283)
+
+Isabel#0002 - Bug Bot on 2019-06-02T10:39:14.677Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - Stable 3.0.2
+
+Xylium#5800 - Bug Bot on 2019-06-02T12:55:43.159Z
+
+
+### Can reproduce.
+ipad air 2 ios 12.3.1, TestFlight 3.0.2 (15283)
+
+OrangeM24#5746 - Bug Bot on 2019-06-02T14:20:22.095Z
+
+
+### Can reproduce.
+iPhone 7 Plus | iOS 12.2 | TestFlight: 3.0.2 (15283)
+
+AHkhan#0001 - Bug Bot on 2019-06-02T15:56:53.361Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.2 (15283)
+
+Daffyduck#5364 - Bug Bot on 2019-06-04T00:28:36.459Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.3.1, TestFlight 3.0.2 (15283)
+
+Quad#1887 - Bug Bot on 2019-06-04T21:04:58.252Z
+
+
+### Can reproduce.
+iPad 6th gen iOS 12.2, Testflight Discord 3.0.3 (15443)
+IPhone 6S, IOS 12.3.1, Testflight Discord 3.0.3 (15283)
+
+Gar#1865 - Bug Bot on 2019-06-07T20:06:00.030Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-06-14T19:00:03.110Z
+
+
+### Archived by Bug Bot on 2019-08-13T11:30:05.994Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

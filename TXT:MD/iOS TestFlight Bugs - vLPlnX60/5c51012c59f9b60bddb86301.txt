@@ -1,0 +1,92 @@
+[Archived] Tapping country code selection button more than once opens the selector multiple times. (https://trello.com/c/bcpy9UNU)
+
+None
+
+Created: 2019-01-30T01:43:08.794Z
+Latest Update: 2019-03-25T03:00:24.696Z
+
+Reported by Mauve Ode Iffier#6602
+
+####Steps to reproduce:
+- Go to settings -> acccount -> SMS Backup Authentication. Make sure it is currently off 
+- Enable it. 
+- Tap the country code selection button multiple times while the first country code selector is sliding upwards.
+
+####Expected result:
+The country code selector should open once, just like any other button.
+####Actual result:
+The selector is opened multiple times.
+####Client settings:
+Discord TestFlight 2.4.4 (10993)
+####System settings:
+iPhone XS Max, iOS 12.0.1
+
+27337
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-30T01:43:08.794Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 12.2, TestFlight 2.4.4 (10993)
+
+Rajiv Shah#5322 - Bug Bot on 2019-01-30T01:43:16.334Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.3 Beta (16D5032a) - TestFlight 2.4.4 (10993)
+
+Isabel#0002 - Bug Bot on 2019-01-30T01:43:21.178Z
+
+
+### Can reproduce.
+CR | iPhone 5s iOS 12.2.2 Dev Beta, v2.4.4 (10993)
+
+Daniel#4226 - Bug Bot on 2019-01-30T01:43:26.168Z
+
+
+### Extension of https://trello.com/c/iwY7WGNT - Both are about the issue that multiple tabs open multiple windows/menus
+
+Pascal#0929 - Bug Bot on 2019-01-30T18:22:36.389Z
+
+
+### Moved from New Issues to Account Settings by Alex on 2019-01-31T21:11:38.737Z
+
+
+### Moved from Account Settings to Fix made, not yet released by Alex on 2019-02-04T23:49:26.253Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alex on 2019-02-20T00:56:16.922Z
+
+
+### Can't reproduce.
+TestFlight 2.4.5 (11416), iPhone 7 Plus, iOS 12.1.4
+
+Darkbeast#2997 - Bug Bot on 2019-02-20T21:59:49.015Z
+
+
+### Can't reproduce.
+iphone 5c ios 10.3.3, TestFlight 2.4.5 (11416)
+
+M24#0272 - Bug Bot on 2019-02-21T01:41:42.550Z
+
+
+### Can't reproduce.
+CNR - iPhone 6s, iOS 12.2 (16E5191d) - TestFlight 2.4.5 (11524)
+
+Isabel#0002 - Bug Bot on 2019-02-23T02:46:34.802Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-02-23T02:46:35.003Z
+
+
+### Archived by Bug Bot on 2019-03-25T03:00:24.706Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

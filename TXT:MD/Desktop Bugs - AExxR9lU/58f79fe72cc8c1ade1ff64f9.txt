@@ -1,0 +1,78 @@
+[Archived] Trying to resolve 2FA in servers with admin perms turns the whole client gray. (https://trello.com/c/tyxpsAsk)
+
+P1: Severe
+
+Created: 2017-04-19T17:35:35.101Z
+Latest Update: 2019-04-22T07:47:33.755Z
+
+Reported by Andrew.#6465
+
+####Steps to reproduce: 
+- Don't have 2FA on
+- Have admin priviliges on a server which uses server wide 2FA
+- In the server, click 'Resolve' on the prompt to enable 2FA
+####Expected result:
+ The 2FA user settings pop up 
+####Actual result:
+ client turns gray 
+####System settings:
+ latest canary on win 10 x64
+
+2518
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-19T17:35:35.101Z
+
+
+### Can reproduce.
+arch canary 0.15
+
+Alex from Alaska#9760 - Bug Bot on 2017-04-19T17:35:35.963Z
+
+
+### Can reproduce.
+win10x64CU, Canary 0.0.153
+
+Mikesky#3456 - Bug Bot on 2017-04-19T17:35:37.765Z
+
+
+### Can reproduce.
+win 10 canary
+
+Melroy#5344 - Bug Bot on 2017-04-19T17:35:39.731Z
+
+
+### tq28d.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58f79fe72cc8c1ade1ff64f9/ef273881343f57240c4136a251987fad/tq28d.png added by Bug Bot on 2017-04-19T17:35:51.400Z
+
+
+### k5w00.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58f79fe72cc8c1ade1ff64f9/8befce21510c6182233a2db71335bd78/k5w00.png added by Bug Bot on 2017-04-19T17:35:51.522Z
+
+
+### Verified.  - Clayton on 2017-04-20T18:47:13.915Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-20T18:49:44.829Z
+
+
+### Moved from Verified Bugs to Server Settings Redesign Bugs by Shadi Isber on 2017-04-20T20:13:09.104Z
+
+
+### Moved from Server Settings Redesign Bugs to Claimed Fixed, needs Verification by Amadeus on 2017-04-21T08:25:47.095Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Amadeus on 2017-04-22T01:55:15.401Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:27:52.887Z
+
+
+### Archived by Jared on 2017-10-17T20:27:53.701Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

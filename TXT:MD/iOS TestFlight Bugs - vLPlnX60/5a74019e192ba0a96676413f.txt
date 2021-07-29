@@ -1,0 +1,89 @@
+[Archived] Pinning a message crashes the app if your language is set to Romanian (https://trello.com/c/eG9oru8M)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-02-02T06:13:50.988Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Curse#0001
+
+####Steps to reproduce:
+- Go to User Settings > Language and select the Romanian language 
+- Pin a message
+
+####Expected result:
+Discord should not crash the moment you view the system message saying that you pinned a message
+####Actual result:
+Discord crashes the moment you view the system message saying that you pinned a message
+####Client settings:
+Discord 2.2.2 (2352)
+####System settings:
+iOS 11.2.5, iPhone 8 Plus
+
+8397
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-02T06:13:50.988Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.3 PB1, Discord TestFlight 2.2.2 (2352)
+
+Ghoul#0009 - Bug Bot on 2018-02-02T06:13:58.333Z
+
+
+### Can reproduce.
+Pinning doesn't crash, but restarting client and viewing what would be the pinned message crashes it, TestFlight 2.2.2 (2352), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-02-02T06:14:03.350Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.2 (2352)
+
+mrkirby153#7840 - Bug Bot on 2018-02-02T06:14:08.358Z
+
+
+### Can't reproduce.
+Did not crash even when I viewed the pin once I restarted, iOS 11.2.1, iPhone 8, TestFlight 2.2.2 (2352)
+
+Minibeast#2763 - Bug Bot on 2018-02-02T14:52:54.822Z
+
+
+### Verified. I had to restart discord and go to the channel for the crash to occur. - Mike Nisbet on 2018-02-08T19:19:32.927Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Mike Nisbet on 2018-02-08T19:19:36.375Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-19T17:34:21.473Z
+
+
+### I had originally marked this a Verified Fixed, but after messing around with it a bit, I was still able to reproduce by pinning multiple message and then restarting the application. It crashed 100% on launch until I switched language on Desktop - Jared on 2018-03-19T17:47:49.390Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Alexandru Todea on 2018-04-10T06:55:21.096Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5560). When I pin multiple times and restart the application, there is no form of crashing anymore. I used iPhone 8 +, running iOS 12 (Dev Beta 2)
+
+However, there is a remaining of this: https://cdn.discordapp.com/attachments/391356859971534858/463459144360394763/image.png which I was told by a proof-reader that it was an translation issue with Romanian.
+
+Because I am no longer able to reproduce this bug (at least with the crashing), I am moving this ticket to Claimed Fixed.
+ - Ghoul on 2018-07-02T21:52:56.015Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-02T21:53:07.178Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:47.879Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

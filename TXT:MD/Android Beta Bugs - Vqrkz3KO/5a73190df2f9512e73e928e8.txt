@@ -1,0 +1,71 @@
+[Archived] If there are tons of search results in quick switcher, the app can freeze during loading time (https://trello.com/c/R7O2FmG6)
+
+Mod can no longer reproduce
+
+Created: 2018-02-01T13:41:33.717Z
+Latest Update: 2018-07-06T21:20:22.122Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Be in a lot of average sized servers (personally I'm in 80 servers) 
+- Search for something that will generate a lot of results (e.g just one letter, "a" or "e") 
+- Wait 3-5 seconds
+
+####Expected result:
+Search results should be loading in a separate thread in the background so it doesn't freeze the UI. Could eventually be designed with a loading circle on the UI or something
+####Actual result:
+A few seconds after typing one letter, the app will start freezing. If search results appear for you before that delay of 3-5 seconds, then it didn't generate enough results to reproduce bug
+####Client settings:
+Discord Alpha 6.1.9
+####System settings:
+Huawei Mate 9 Android 7.0
+
+8341
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-01T13:41:33.717Z
+
+
+### Can reproduce.
+OnePlus 5, Android 8.0, discord alpha 6.1.9. Discord freezes for a while for me
+
+B a ™ a n#7883 - Bug Bot on 2018-02-01T13:41:41.069Z
+
+
+### Can reproduce.
+cr Samsung Galaxy s2 sgh-t989, 6.0.1, alpha 6.1.9
+
+Rauf#9245 - Bug Bot on 2018-02-01T13:41:46.091Z
+
+
+### Can reproduce.
+Xperia ZL - Android 5.0.2 - Discord Alpha 619
+
+~♪☆ yuudachi_IJN ☆♪~#7699 - Bug Bot on 2018-02-01T13:41:51.060Z
+
+
+### I limited the results to only 100 users, and can't repro on 6.2.2 - Sam Shih on 2018-02-08T00:13:06.735Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Sam Shih on 2018-02-08T00:13:30.027Z
+
+
+### Tested on Android Alpha 6.3.7:
+
+I can no longer reproduce this myself. Quickswitcher handles this pretty well now with a limit. - Alexander (DJScias) on 2018-03-14T20:42:56.322Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:20:21.332Z
+
+
+### Archived by Jared on 2018-07-06T21:20:22.123Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

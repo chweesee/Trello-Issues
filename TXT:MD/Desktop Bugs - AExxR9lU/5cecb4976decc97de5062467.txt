@@ -1,0 +1,134 @@
+[Archived] Game pop-up can be opened multiple times, stacking them one over the other (https://trello.com/c/opEBuWMf)
+
+None
+
+Created: 2019-05-28T04:09:59.767Z
+Latest Update: 2019-06-29T03:00:29.494Z
+
+Reported by Micael Jarniac#0001
+
+####Steps to reproduce:
+- Open the profile of a user that has the in-game status 
+- Click on either the game name or the icon, the game pop-up should appear 
+- On the pop-up, repeat the steps above by clicking on the user and then on the game name or icon 
+- Another game pop-up should have appeared, over the previous one 
+- You can now close the pop-ups by clicking outside them, and notice that only the most recent one goes away, and to get rid of them all this has to be repeated that many times
+
+####Expected result:
+When in the game pop-up, opening another pop-up shouldn't be possible, or it should replace the current one, not stack
+####Actual result:
+The pop-ups stack and to get out of them, they have to be closed one by one
+####Client settings:
+Desktop Canary, build 38594, host 0.0.238
+####System settings:
+Windows 10
+
+35520
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-28T04:09:59.767Z
+
+
+### 💐nickWtn💐#3789 - https://i.imgur.com/raBzoEt.gifv added by Bug Bot on 2019-05-28T04:10:02.778Z
+
+
+### Can reproduce.
+Discord client: 38594 (canary) System information: Windows 10 Home with a 64 bit processor.
+
+Talon#4419 - Bug Bot on 2019-05-28T04:10:07.328Z
+
+
+### Can reproduce.
+CR; Windows 10 (17763) ~ Canary 38594 ~ Chrome 74
+
+Lengo#0001 - Bug Bot on 2019-05-28T04:10:12.329Z
+
+
+### Can reproduce.
+CR canary, Build Number: 38474 - Windows 10 Pro Ver. 1803 build 17134.765
+
+Valcrye#0001 - Bug Bot on 2019-05-28T04:10:17.304Z
+
+
+### Can reproduce.
+Can reproduce on Discord Canary 38594, Windows 10 Home v. 1803 (64-bit)
+
+ImmortaLemur#2998 - Bug Bot on 2019-05-28T04:14:48.018Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 38594
+
+charleskimbac#6492 - Bug Bot on 2019-05-28T04:49:16.977Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 38594
+
+Isabel#0002 - Bug Bot on 2019-05-28T05:34:28.488Z
+
+
+### Can reproduce.
+Windows 10 Enterprise ~ Stable 38570
+
+ImFirstPlace#3965 - Bug Bot on 2019-05-28T05:51:11.987Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 38594
+
+AHkhan#9999 - Bug Bot on 2019-05-28T06:23:49.608Z
+
+
+### Can reproduce.
+Windows 8.1 Enterprise (64-bit), [BUILD INFO] Release Channel: stable, Build Number: 38570, Version Hash: f3af8b4edeea5374244921c309e410a4b1a72e06
+
+ShawnCZek#7777 - Bug Bot on 2019-05-28T11:30:27.177Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 38594
+
+Darth#9386 - Bug Bot on 2019-05-28T12:04:48.575Z
+
+
+### Can reproduce.
+CR - Canary 38570, Windows 10 Home x64 Build: 17134
+
+Fyffey#0001 - Bug Bot on 2019-05-28T14:22:47.337Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38594
+
+Xylium#5800 - Bug Bot on 2019-05-28T15:12:30.743Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 38594
+
+Lily#2624 - Bug Bot on 2019-05-28T17:46:16.519Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 38594 | Same thing happens with many buttons on android
+
+Clay#0001 - Bug Bot on 2019-05-28T21:29:51.873Z
+
+
+### Not a bug, you're telling the client to open another modal and it is. - Ene on 2019-05-30T02:42:00.975Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Ene on 2019-05-30T02:42:05.239Z
+
+
+### Archived by Bug Bot on 2019-06-29T03:00:29.504Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

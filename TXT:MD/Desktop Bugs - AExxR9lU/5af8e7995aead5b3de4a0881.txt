@@ -1,0 +1,101 @@
+[Archived] Backslashes are replaced by normal slashes in URLs when used to escape an emoji. The link still works but won't display any thumbnail because of the additional slash. (https://trello.com/c/INbMUKvk)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-14T01:34:17.884Z
+Latest Update: 2019-04-27T08:17:37.119Z
+
+Reported by Dorian V.#6013
+
+####Steps to reproduce:
+- type `https://\👌` or `https:/\/\👌` (Note that the `\` here is used to get `👌` instead of `xn--xp8`)
+
+####Expected result:
+a click-able `https://👌` with a thumbnail.
+####Actual result:
+a click-able `https:///👌` without any thumbnail, or if you typed `https:/\/\👌`, a non-click-able `https://👌` without any thumbnail
+####Client settings:
+Discord PTB, Build Number: 15139, Version Hash: b28705dbd4f7ebb2b9b87af2ffad32d1f62bb55c
+####System settings:
+Win 10 x64
+
+12620
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-14T01:34:17.884Z
+
+
+### Can reproduce.
+Windows 10 (Fall Creators Update) + Canary Build# 15123
+
+Oasis#4730 - Bug Bot on 2018-05-14T01:34:25.214Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 15123
+
+webhp#1337 - Bug Bot on 2018-05-14T01:34:30.229Z
+
+
+### Can reproduce.
+Windows 10 x64 1709 Canary 15120
+
+Bencey_#8587 - Bug Bot on 2018-05-14T01:34:35.199Z
+
+
+### Can reproduce.
+Can Reproduce in Windows 8.1 x64, Discord Canary Build Number: 15139
+
+Yoginth#9339 - Bug Bot on 2018-05-14T02:46:11.267Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 - 1703 - Canary 15123
+
+chaco#1870 - Bug Bot on 2018-05-14T04:44:42.247Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary Build Number: 15120
+
+BasiliskHill#9535 - Bug Bot on 2018-05-14T10:26:25.907Z
+
+
+### Can reproduce.
+64 Bit Windows 10 Home (V1709) ptb, Build Number: 14712.
+
+memetrollsXD#0001 - Bug Bot on 2018-05-14T14:13:19.420Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit Version 1803, Discord stable build 15154
+
+Luchs#1312 - Bug Bot on 2018-05-14T20:02:18.281Z
+
+
+### Can reproduce.
+Windows 10 Home SL x64, Version 1709, OS Build 16299.371, Canary 15251
+
+Skeletor#3935 - Bug Bot on 2018-05-15T14:57:57.781Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-16T20:28:01.697Z
+
+
+### Verified - Jared on 2018-05-16T20:28:04.605Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af8e7995aead5b3de4a0881/d82d503a3b3ae9e68a3c7eef3b29efba/hxs9lGs.gif added by Bug Bot on 2018-07-14T07:30:26.630Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:51.182Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

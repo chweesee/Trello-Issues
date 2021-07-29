@@ -1,0 +1,126 @@
+[Archived] [macOS and Safari specific] Links in browser will no longer be opened in the foreground (https://trello.com/c/T4omtE0i)
+
+Mac
+
+Created: 2019-04-07T19:30:52.905Z
+Latest Update: 2019-08-03T04:30:46.714Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Find or post any link 
+- Click on the link 
+- Observe that the Discord app is still in the foreground
+
+####Expected result:
+Your default browser should be opened in the foreground.
+####Actual result:
+The Discord window is still in the foreground and focused.
+####Client settings:
+Canary Build 35116
+####System settings:
+MacBook Pro 13" (2016), macOS Mojave 10.14.4
+
+32279
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-07T19:30:52.905Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 35116
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-07T19:31:00.319Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 35116. CR only with Safari.
+
+Rage#9991 - Bug Bot on 2019-04-07T19:31:05.409Z
+
+
+### Can reproduce.
+Can reproduce on macOS High Sierra, Version: 10.13.6 - Canary 0.0.217; Happens on Safari.
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-04-07T19:31:10.358Z
+
+
+### Can reproduce.
+CR. Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+warp#4660 - Bug Bot on 2019-04-08T19:36:09.245Z
+
+
+### Cannot reproduce anymore as of Canary 38474 with MacBook Pro 13" (2016) running macOS Mojave 10.14.5.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-24T13:28:35.791Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Pascal on 2019-05-24T13:28:43.337Z
+
+
+### Can't reproduce.
+macos 10.14.6, canary 38474
+
+OrangeM24#5746 - Bug Bot on 2019-05-24T15:42:46.768Z
+
+
+### Can't reproduce.
+CNR, macOS 10.14.5, Canary 38474
+
+Action Potential#2494 - Bug Bot on 2019-05-24T17:05:12.163Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Mid-2012), macOS v10.14.4 (18E226) - Canary 38556
+
+Isabel#0002 - Bug Bot on 2019-05-25T16:09:35.396Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-05-25T16:09:35.592Z
+
+
+### Can reproduce again as of Canary Build 39321 with MacBook Pro 13" (2016) running macOS Mojave 10.14.5.
+
+Moving to Reopened list. - Pascal on 2019-06-07T10:38:27.763Z
+
+
+### Moved from Verified Fixed to Reopened by Pascal on 2019-06-07T10:38:42.495Z
+
+
+### The bug has gotten worse now. If you don't have safari running in the foreground and click on a link, then it will cause the Safari icon to just jump on the dock (and it will keep jumping until you manually click on the Safari icon yourself).
+
+OrangeM24#5746 - Bug Bot on 2019-06-07T14:47:59.342Z
+
+
+### And fixed again as of Canary Build 39387. - Pascal on 2019-06-09T18:18:25.332Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Pascal on 2019-06-09T18:18:34.002Z
+
+
+### Can't reproduce.
+Can no longer reproduce again. - MacBook Pro (13", Mid-2012), macOS v10.14.5 (18F132) - Canary 39833
+
+Isabel#0002 - Bug Bot on 2019-06-17T07:37:54.814Z
+
+
+### Can't reproduce.
+MacBook Air Early 2015 on macOS Mojave 10.14.2, Discord Stable 39827
+
+Brightness™#2238 - Bug Bot on 2019-06-17T20:00:00.092Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Pascal on 2019-06-19T12:04:26.537Z
+
+
+### Archived by Bug Bot on 2019-08-03T04:30:46.725Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

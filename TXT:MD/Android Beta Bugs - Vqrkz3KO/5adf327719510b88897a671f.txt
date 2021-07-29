@@ -1,0 +1,73 @@
+[Archived] Automatically reduces the size of some emotes and post two different emotes when selecting just one, everything while selecting emotes from device keyboard and not Discord emote box. (https://trello.com/c/LAKGGYPY)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-24T13:34:47.328Z
+Latest Update: 2018-08-22T01:21:52.289Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Click on text field so as to pop-up your device keyboard (GBoard in my case) 
+- Select the emote just same as frowning2 in discord emoji box. 
+- Select woman farmer or woman teacher emoji from the GBoard
+
+####Expected result:
+Emojis like frowning2 and skull_crossbones should be posted in normal size as they are using Discord emoji box or previous Android versions and emoji like woman teacher or woman farmer should be posted just as they are.
+####Actual result:
+Emoji like frowning2 and skull_crossbones if posted just without any text are small in size and emoji like woman teacher if posted using GBoard post 2 different emoji woman and school and in the small size that usual.
+####Client settings:
+Discord beta 6.5.6
+####System settings:
+Xiaomi Mi A1, Android 8.0.0
+
+11187
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-24T13:34:47.328Z
+
+
+### Can reproduce.
+The "2" in "frowning2" seems to be incorrectly rendered, preventing the emote from being big. Discord Alpha 6.5.6, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-04-24T13:34:54.748Z
+
+
+### Can reproduce.
+Discord Beta 6.5.6, Samsung Note II Android 4.4.2. I think the reason causing this is because GBoard types in the emoji in the form of Unicode which causes the emoji to not be Wumboji.
+
+Zaem#0596 - Bug Bot on 2018-04-24T13:34:59.714Z
+
+
+### Can reproduce.
+Can reproduce, LG G2 - D802, Android 5.0.2 - Discord Alpha 6.5.6
+
+mcicu5#7394 - Bug Bot on 2018-04-24T13:35:04.720Z
+
+
+### Can't reproduce.
+Samsung Galaxy S8 (Android 8.0.0) - Discord Alpha 6.5.6
+
+Serban#1820 - Bug Bot on 2018-04-24T16:33:09.401Z
+
+
+### Verified.  - Clayton on 2018-04-26T20:45:48.532Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-26T20:45:57.802Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5adf327719510b88897a671f/3de1dd728e6097f168821cf31ef37b85/dvvyDaT.gif added by Bug Bot on 2018-07-16T12:36:28.123Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:52.291Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

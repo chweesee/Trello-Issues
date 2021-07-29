@@ -1,0 +1,98 @@
+trying to go live with spotify gives an error in console and doesn't automatically close the 'go live' popup(it worked before) (https://trello.com/c/EhCofvPf)
+
+None
+
+Created: 2019-08-04T17:22:49.307Z
+Latest Update: 2020-07-16T21:26:04.695Z
+
+Reported by charleskimbac#6492
+
+####Steps to reproduce:
+- open spotify 
+- go to user settings > game activity and manually add spotify 
+- try to go live
+
+####Expected result:
+the popup closes and no error appears
+####Actual result:
+the popup doesn't close and an error appears
+####Client settings:
+canary 42647
+####System settings:
+windows 10 home
+
+41390
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-04T17:22:49.307Z
+
+
+### -=Teo338=-#0338 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d471469ddcfff7c04fe2063/74b8e8f35694eb28d8ee312a29198b77/CLuhiNP.png added by Bug Bot on 2019-08-04T17:22:52.179Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 42647 (0.0.251) - https://i.imgur.com/CLuhiNP.png Error: Uncaught TypeError: Cannot read property 'map' of undefined
+
+Alipoodle#5025 - Bug Bot on 2019-08-04T17:22:56.725Z
+
+
+### Can reproduce.
+CR; Windows 10 Home, 64bit, Discord Canary Build: 42647
+
+Jeffrey#1234 - Bug Bot on 2019-08-04T17:23:01.730Z
+
+
+### Can reproduce.
+Canary 42647, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-08-04T17:23:06.746Z
+
+
+### Can reproduce.
+Win 10 Pro x64 1809 | Canary 42647
+
+Clay#0001 - Bug Bot on 2019-08-04T18:02:02.176Z
+
+
+### Can reproduce.
+macOS High Sierra, Version: 10.13.6 - Discord Canary 42647
+
+Vanki#0001 - Bug Bot on 2019-08-04T18:43:14.248Z
+
+
+### Can reproduce.
+Cnr; macOS 10.14.5, Canary 42647
+
+Noah#0004 - Bug Bot on 2019-08-04T23:06:26.598Z
+
+
+### Can reproduce.
+Cr; macOS 10.14.5, Canary 42647
+
+Noah#0004 - Bug Bot on 2019-08-04T23:06:59.559Z
+
+
+### Supposed to say Cr, not Cnr
+
+Noah#0004 - Bug Bot on 2019-08-04T23:12:26.337Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 42647
+
+Jasοn#0001 - Bug Bot on 2019-08-04T23:31:47.345Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 42877 (Host 0.0.252)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-07T03:16:34.616Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

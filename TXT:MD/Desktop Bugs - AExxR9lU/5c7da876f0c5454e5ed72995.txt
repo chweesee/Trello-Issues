@@ -1,0 +1,108 @@
+[Archived] removing a connection on another device while having the disconnect popup open and then clicking on disconnect will remove another connected account (https://trello.com/c/pCy0NbHO)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-04T22:36:38.593Z
+Latest Update: 2019-10-23T23:02:00.945Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- have at least 2 connected accounts 
+- go to settings > connections then click the X on the first connected account 
+- disconnect the same account from another device 
+- observe that the disconnect popup doesn't close 
+- click disconnect and observe that it disconnected the second account
+
+####Expected result:
+either the disconnect confirmation popup should close or not remove another account
+####Actual result:
+it doesn't close when the account is removed and for some reason removes a different account
+####Client settings:
+Canary 33150
+####System settings:
+Windows 10 home x64 v.1809
+
+30307
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-04T22:36:38.593Z
+
+
+### J1#0088 - https://i.imgur.com/Kc5En6N.gifv added by Bug Bot on 2019-03-04T22:36:41.000Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Discord Canary Build 33160
+
+KolkiesDev#0001 - Bug Bot on 2019-03-04T22:36:45.934Z
+
+
+### Can reproduce.
+canary, Build Number: 33150
+Windows 10 version 1803
+
+Towy#3052 - Bug Bot on 2019-03-04T22:36:50.967Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 33177
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-04T22:36:55.951Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 33177
+
+Delite#0001 - Bug Bot on 2019-03-04T23:04:40.700Z
+
+
+### Can reproduce.
+W10 Pro x64 (1809), Canary 33177
+
+dafaqed#1312 - Bug Bot on 2019-03-04T23:05:26.012Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 33150
+
+Clay#0001 - Bug Bot on 2019-03-04T23:15:08.328Z
+
+
+### Can reproduce.
+CR; Canary: 33262, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-05T11:47:15.197Z
+
+
+### Can reproduce.
+Windows 10 home, Canary 33262
+
+Mr. Proper#2394 - Bug Bot on 2019-03-05T14:30:14.680Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 33262
+
+Solo#0007 - Bug Bot on 2019-03-05T19:11:47.935Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 33262
+
+Lily#2624 - Bug Bot on 2019-03-05T19:44:04.207Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-05T22:26:30.392Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:00.958Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

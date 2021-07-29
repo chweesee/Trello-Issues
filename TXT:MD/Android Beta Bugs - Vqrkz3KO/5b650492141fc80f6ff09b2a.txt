@@ -1,0 +1,72 @@
+[Archived] "Display currently running game as a status message." works if the detection toggle is off. (https://trello.com/c/MiCydfd5)
+
+None
+
+Created: 2018-08-04T01:42:42.317Z
+Latest Update: 2019-06-05T23:49:24.469Z
+
+Reported by webhp#3302
+
+####Steps to reproduce:
+- Press the toggle for showing the status message. 
+- Observe the toggle flash back to off 
+- Press it again.
+
+####Expected result:
+The toggle should be grayed out and disabled if detection is not enabled.
+####Actual result:
+The toggle attempts to work.
+####Client settings:
+Discord Alpha 7.2.4
+####System settings:
+Moto G5 Plus Android 8.1
+
+16881
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-04T01:42:42.317Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy J7 Prime, LineageOS 15.1 (Oreo 8.1), Discord Alpha 724
+
+Lava#9562 - Bug Bot on 2018-08-04T01:42:49.700Z
+
+
+### Can reproduce.
+CR: Discord 724 Android 7.0
+
+Melody#7777 - Bug Bot on 2018-08-04T01:42:54.665Z
+
+
+### Can reproduce.
+The switch moves to the on position, but resets upon returning to the Games section of app settings. Tested on ZTE Blade A602, Android Nougat 7.0, Discord Android Alpha 7.2.4 (724).
+
+Ghostly#0001 - Bug Bot on 2018-08-04T01:42:59.799Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0 - Discord Alpha 7.2.5
+
+Hole#8769 - Bug Bot on 2018-08-04T03:25:10.373Z
+
+
+### Moved from User Reported Bugs to Game Detection Bugs by Tarek on 2018-08-04T05:26:47.374Z
+
+
+### Moved from Game Detection Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-08-06T22:07:50.931Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-05T09:28:41.620Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:24.477Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

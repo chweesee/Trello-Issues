@@ -1,0 +1,80 @@
+[Archived] Notification Badges stay after being forcibly logged out of your account from disabling 2FA. (https://trello.com/c/jZUit3lr)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-10-04T18:31:39.484Z
+Latest Update: 2018-09-04T23:11:44.148Z
+
+Reported by Ten#1723
+
+####Steps to reproduce:
+- Enable 2FA 
+- Get Notification Badges 
+- On PC, remove 2FA 
+- Login again in iOS 
+- Get more Notification Badges
+
+####Expected result:
+Notification Badges go away when logged out, and the number shown reflects the actual amount of notifs you're supposed to have.
+####Actual result:
+The notification badges gets an additional count based on how many you had before you got logged out from disabling 2FA.
+####Client settings:
+TestFlight 1.9.2 (930)
+####System settings:
+iOS 11.0.1 (15A402), iPhone 6
+
+5025
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-04T18:31:39.484Z
+
+
+### Ten#1723 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59d5290b175c759849f8c5e5/2d9d82ad116838100d2f54fb42bb1a54/7a0f5d691e2eb4e8b9ae0d85303a8680.gif added by Bug Bot on 2017-10-04T18:31:42.063Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 11.0.0, TestFlight 1.9.2 (930)
+
+Skeletonarcher12#3697 - Bug Bot on 2017-10-04T18:31:46.863Z
+
+
+### Can reproduce.
+iPhone 6S with iOS 11.0.2 & iPad Air 2 with iOS 11.1 PB 1, TestFlight 1.9.2 (930)
+
+Pascal#0929 - Bug Bot on 2017-10-04T18:31:51.898Z
+
+
+### Can reproduce.
+CR, iPhone6s, iOS 11.1, TF 1.9.1 (953)
+
+Blizzyrd#7909 - Bug Bot on 2017-10-04T18:31:56.891Z
+
+
+### Can reproduce.
+iOS 11.1 Developer Beta, TF 1.9.2 (953), iPhone 5S
+
+Lasse#4890 - Bug Bot on 2017-10-05T17:44:06.968Z
+
+
+### Would like to add that the additional badge count seems to be account bound as I tried to see if the badge count would also increase indifferent account logged in.
+
+Ten 🎃#1723 - Bug Bot on 2017-10-05T21:14:57.925Z
+
+
+### Verified, minor. - Jared on 2017-10-09T23:31:26.866Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-09T23:31:34.886Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:44.150Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

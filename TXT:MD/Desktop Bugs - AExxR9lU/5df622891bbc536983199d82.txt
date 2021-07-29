@@ -1,0 +1,107 @@
+[Go Live] Channels which you cannot join because they are full are still suggested in Go Live menu (https://trello.com/c/jpWDF2sb)
+
+None
+
+Created: 2019-12-15T12:09:45.218Z
+Latest Update: 2020-07-16T21:26:05.929Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Find / Create a server you can Go Live in. 
+- Find / Create a voicechannel with a Member cap 
+- Fill that Member cap 
+- Open a game. 
+- Click Go Live in bottom right while not in a voice channel
+
+####Expected result:
+The voice channel which has reached Member Cap is disabled.
+####Actual result:
+The voice channel which has reached member cap is enabled, trying joining it will not join but "fake" starting go Live.
+####Client settings:
+Canary 51469
+####System settings:
+Win10 64x (1903)
+
+50430
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-15T12:09:45.218Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5df622891bbc536983199d82/3ece05cffa8bdea4568ada127177fb67/5bzdMJ5.png added by Bug Bot on 2019-12-15T12:09:48.272Z
+
+
+### Can reproduce.
+CR // Windows 10 Home x64 (1909) // Discord Canary Build: 51469
+
+Xelphos#0001 - Bug Bot on 2019-12-15T12:09:52.631Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary 51469
+
+Karasu#0013 - Bug Bot on 2019-12-15T12:09:57.633Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51469, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-15T12:10:02.681Z
+
+
+### Can reproduce.
+CR , Windows 10 Home, Discord Canary, 51469
+
+Smokepurpp#6012 - Bug Bot on 2019-12-15T12:23:33.447Z
+
+
+### Can reproduce.
+CR; Win10 Home 1909 | Canary 51469
+
+TollyThaWally#0001 - Bug Bot on 2019-12-15T13:22:34.486Z
+
+
+### Can reproduce.
+CR Windows 10 Professional,Canary 51469
+
+Typhoon#1337 - Bug Bot on 2019-12-15T16:59:26.944Z
+
+
+### Can reproduce.
+cr; Windows 10 x64 Build 1803 canary, Build Number: 51469
+
+Spooker#0001 - Bug Bot on 2019-12-15T17:20:32.589Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 51469 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-16T00:34:31.964Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit (v1909), Discord Canary 0.0.259 Build 51469
+
+ryan#0570 - Bug Bot on 2019-12-16T02:51:35.227Z
+
+
+### Can reproduce.
+Windows 10 Home and Canary 51515
+
+hufflepuff15560#9709 - Bug Bot on 2019-12-16T22:16:46.756Z
+
+
+### Can reproduce.
+Windows 10 Pro, v1903, Discord 51667
+
+Hufy#0001 - Bug Bot on 2019-12-19T00:43:52.369Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

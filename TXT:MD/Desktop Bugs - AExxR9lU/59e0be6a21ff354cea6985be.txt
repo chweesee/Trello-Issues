@@ -1,0 +1,75 @@
+[Archived] Access to mic persists after logging out on browser (https://trello.com/c/jv355eBD)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-13T13:23:54.225Z
+Latest Update: 2018-10-22T20:16:16.257Z
+
+Reported by Usoka#6021
+
+####Steps to reproduce:
+- Open browser (works both Chrome and Firefox) 
+- Navigate to  
+- Log in 
+- Make sure microphone is enabled (and it's allowed in the browser) 
+- Log out of Discord, getting redirected to /login page 
+- Tab still reports that recording is in use
+
+####Expected result:
+Page should update and stop using recording input (and make browser recognise)
+####Actual result:
+Browser keeps reporting that recording input is being used
+####Client settings:
+Browser client, 0.0.298
+####System settings:
+Windows 10; Chrome 61.0.3163.100 or Mozilla Firefox 56.0 (64-bit)
+
+5382
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-13T13:23:54.225Z
+
+
+### Can reproduce.
+CR: Version 61.0.3163.100 (Official Build) (64-bit), macOS High Sierra 10.13
+
+ItsPugle#5963 - Bug Bot on 2017-10-13T13:24:01.704Z
+
+
+### Can reproduce.
+CR on Chrome 61 64bit on Windows 8.1 x64
+
+Joshek#3388 - Bug Bot on 2017-10-13T13:24:06.703Z
+
+
+### Can reproduce.
+iMac (Retina 4K, 21.5-inch, Late 2015), OS X El Capitan 10.11.6 (15G1421) | Chrome v61
+
+Rauf#3260 - Bug Bot on 2017-10-13T13:24:11.691Z
+
+
+### Can reproduce.
+Firefox for Manjaro 55.0.3 (64-bit) , Manjaro 64-bit Gnome 3.24.2
+
+Ashmogh#6719 - Bug Bot on 2017-10-13T15:08:26.893Z
+
+
+### Verified.  - Clayton on 2017-10-17T22:18:44.168Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-17T22:18:51.324Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59e0be6a21ff354cea6985be/b6fe3ae41ba25b24e0be335eee372bfe/SJuHsIx.gif added by Bug Bot on 2018-07-14T11:37:57.104Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:16.260Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

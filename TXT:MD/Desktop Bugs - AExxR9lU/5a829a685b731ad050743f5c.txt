@@ -1,0 +1,78 @@
+[Archived] Opening invite link in chrome crashes discord app. (https://trello.com/c/D89wEZZm)
+
+None
+
+Created: 2018-02-13T07:57:28.157Z
+Latest Update: 2018-07-06T18:30:42.102Z
+
+Reported by Magnaboy#7556
+
+####Steps to reproduce:
+- Open Internet Browser 
+- Visit discord.gg/discord-testers OR discord.gg/quikblend (Other links may/may not crash too) 
+- The Discord client will crash.
+
+####Expected result:
+The Invite Link should not crash the discord app, and should open in the app allowing you to join a server.
+####Actual result:
+Discord crashes (requiring to reload it)
+####Client settings:
+10620
+####System settings:
+Windows 7 x64
+
+8740
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-13T07:57:28.157Z
+
+
+### QwakGoesDuck#0420 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a829a685b731ad050743f5c/55820d7929d49c693c1eeab8fc31a506/2ArMjdA.png added by Bug Bot on 2018-02-13T07:57:30.674Z
+
+
+### Can reproduce.
+Discord Canary 0.0.202, Build 10620, Windows 10 Home 64-bit (v1709) | Issue appears to be due to a partnered server having a large splash art, however some can reproduce with servers without a splash art.
+
+Ene#0808 - Bug Bot on 2018-02-13T07:57:35.556Z
+
+
+### Can reproduce.
+Crashed with multiple different invites, Canary 0.0.202 (10620), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-02-13T07:57:40.571Z
+
+
+### Can reproduce.
+Discord Canary 0.0.202 (10636) on Windows 10 Pro 64-bit (1709)
+
+Tarek#1337 - Bug Bot on 2018-02-13T07:57:45.605Z
+
+
+### Can reproduce.
+MacOS High Sierra 10.13.3 (17D47)
+
+Elite Lucky Gamers#0001 - Bug Bot on 2018-02-13T18:54:04.246Z
+
+
+### Cannot reproduce - Clayton on 2018-02-15T23:10:31.942Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Clayton on 2018-02-15T23:10:35.833Z
+
+
+### Moved from Verified Fixed to Cannot Reproduce by Clayton on 2018-02-15T23:12:44.734Z
+
+
+### Archiving as this ticket has been CNR for more than 30 days. - Jared on 2018-07-06T18:30:40.559Z
+
+
+### Archived by Jared on 2018-07-06T18:30:42.105Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

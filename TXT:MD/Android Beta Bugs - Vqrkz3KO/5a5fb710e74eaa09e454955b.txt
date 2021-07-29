@@ -1,0 +1,79 @@
+[Archived] Displaying the NSFW warning without accepting it still marks the channel as read once you leave it (https://trello.com/c/9JIane2p)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-01-17T20:50:25.074Z
+Latest Update: 2018-02-27T00:38:49.364Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to an NSFW channel in a new server which has unread messages 
+- When you see warning message, switch to a non-NSFW channel without doing anything with the warning 
+- Look at channel list
+
+####Expected result:
+Since the warning hides the chat, it shouldn't be marked as read by simply switching to it, you would need either to accept the warning or mark it as read manually
+####Actual result:
+The channel has no longer unread messages
+####Client settings:
+Discord Alpha 6.1.0
+####System settings:
+Huawei Mate 9 Android 7.0
+
+7881
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-17T20:50:25.074Z
+
+
+### Can reproduce.
+Pixel XL 2, Android 8.1; Alpha 6.1.0
+
+mrkirby153#7840 - Bug Bot on 2018-01-17T20:50:32.353Z
+
+
+### Can reproduce.
+LG X Power, Android 6.0.1. 6.1.0(610)
+
+Keru Aldan the Avali [ArcTic]کے#0633 - Bug Bot on 2018-01-17T20:50:37.375Z
+
+
+### Can reproduce.
+CR Pixel 2 XL, Oreo 8.1.0, Alpha 6.1.0
+
+Potts#4157 - Bug Bot on 2018-01-17T20:50:42.367Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.1.0, Android 6.0, Moto E (2.Gen) LTE
+
+Anorak#5830 - Bug Bot on 2018-01-17T20:51:14.940Z
+
+
+### Can reproduce.
+6.1.0(610) - HTC Desire 530 6.0.1
+
+Nyad#8930 - Bug Bot on 2018-01-17T20:55:40.987Z
+
+
+### Not a bug. You're going to the channel, so it's marking it as read. - Jared on 2018-01-22T22:24:12.038Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2018-01-22T22:24:17.100Z
+
+
+### Archiving due to age and no activity. - Mike Nisbet on 2018-02-27T00:38:48.713Z
+
+
+### Archived by Mike Nisbet on 2018-02-27T00:38:49.366Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

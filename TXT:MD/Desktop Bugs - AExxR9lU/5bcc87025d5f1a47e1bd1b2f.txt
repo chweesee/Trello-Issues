@@ -1,0 +1,114 @@
+[Archived] When you open OBS and streamer mode enables, it will not display on Discord at they streamer is live till after it over. (https://trello.com/c/88m0Mj4v)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2018-10-21T14:02:42.062Z
+Latest Update: 2019-03-13T21:30:33.547Z
+
+Reported by Itty Bitty Kitten#0001
+
+####Steps to reproduce:First you Open OBS and make sure streamer mode is enabled and start the stream 
+- Once the stream is started it will not display you are live on  
+- End Stream and quit OBS and Discord will then display you are live when the stream is ended and stay displaying you are live up to 30min around after the stream ends 
+- Disabling streamer mode after stream has still keeps the status you are live.
+
+####Expected result:
+Streamer mode was suppose to display I was streaming and when my stream ends, it was meant to turn off.
+####Actual result:
+Streamer mode doesn't display I am live and when I end my stream, it display I am live after it ended for 30min-ish
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 26432, Version Hash: 10db165fe35858dfb89d6508a46717c1296b3ebc
+####System settings:
+Windows 10 Home 1809 OS build - 17763.104
+
+21538
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-21T14:02:42.062Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bcc87025d5f1a47e1bd1b2f/5664dcd7315339554ca1cba3d730f41b/spgHQHO.png added by Bug Bot on 2018-10-21T14:02:44.645Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 26538 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-10-21T14:02:49.414Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26655
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-21T14:02:54.402Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit,Canary 26655 {CR}
+
+Outbøob#6666 - Bug Bot on 2018-10-21T14:02:59.352Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 26655 - - Happens with several friends as well
+
+Solo#0007 - Bug Bot on 2018-10-22T20:02:13.118Z
+
+
+### verified, win10, 26902 - Clayton on 2018-10-25T03:07:43.078Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-25T03:07:49.883Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 canary build 28567 streamer mode starts when I start obs and start streaming and ends when I quit OBS
+
+Azrael#6867 - Bug Bot on 2018-11-29T06:00:32.879Z
+
+
+### I am unable to reproduce anymore as of Discord Canary Build 28567 on Windows 10 Home x64 (1809). My stream status disappeared as soon that I ended my stream and turned off streamer mode.
+
+Moving to Claimed Fixed. - Ghoul on 2018-11-29T06:19:19.283Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ghoul on 2018-11-29T06:19:26.868Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Jared on 2019-02-06T14:47:38.371Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jared on 2019-02-06T14:47:39.782Z
+
+
+### Can't reproduce.
+CLNR, showed me as streaming as soon as I started and swapped back to online as soon as I stopped. - Windows 10 x64 (1809) - Discord Canary 31974
+
+Arnold0#7514 - Bug Bot on 2019-02-10T00:11:42.330Z
+
+
+### Can't reproduce.
+Can no longer reproduce on a Windows 10 Pro 64-bit, Stable 31908. I was streaming last 3-4 days and I never noticed my status as Streaming after it is ended
+
+Defracted#1337 - Bug Bot on 2019-02-10T10:07:29.608Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Pro, Canary 31974. Streaming status has been cutting off properly
+
+Zacatero#0001 - Bug Bot on 2019-02-11T21:09:30.520Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-02-11T21:09:30.707Z
+
+
+### Archived by Bug Bot on 2019-03-13T21:30:33.559Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

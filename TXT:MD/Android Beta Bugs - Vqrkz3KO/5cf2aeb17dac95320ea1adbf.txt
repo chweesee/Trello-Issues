@@ -1,0 +1,165 @@
+[Archived] Scrolling down in Audit logs will throw an error in debug for each entry involving a deletion of channel/role (https://trello.com/c/OZGRWVrA)
+
+None
+
+Created: 2019-06-01T16:58:25.515Z
+Latest Update: 2019-08-16T21:24:20.402Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+
+- Go to a server you can manage 
+- Delete a channel or a role 
+- Go to Audit logs 
+- Go back 
+- View debug logs
+
+####Expected result:
+No error should be thrown
+####Actual result:
+You get errors `Audit Logs -> Failed to get string for action id: XX and change: name` where XX is `12` for channel deletion and `32` for role deletion
+####Client settings:
+Discord Alpha 9.0.5
+####System settings:
+Huawei Mate 9 Android 9.0
+
+35796
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-01T16:58:25.515Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5cf2aeb17dac95320ea1adbf/a4d67a5d9624563e3309d45f3b9dd78d/Screenshot_20190601_183415.jpg added by Bug Bot on 2019-06-01T16:58:28.627Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 9.0.6
+
+Law of Royale#4167 - Bug Bot on 2019-06-01T16:58:33.067Z
+
+
+### Can reproduce.
+CR; Asus Zenfone 2, Android 5.0, Discord Alpha 9.0.6
+
+Karasu#0013 - Bug Bot on 2019-06-01T16:58:38.052Z
+
+
+### Can reproduce.
+CR - OnePlus 2 - Android 8.1.0 - LineageOS 15.1 - Discord Alpha 9.0.6 (906)
+
+VR#0124 - Bug Bot on 2019-06-01T16:58:43.050Z
+
+
+### Can reproduce.
+LG Stylo 4 | Android 8.1 | Alpha 905
+
+charleskimbac#6492 - Bug Bot on 2019-06-01T17:08:46.289Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Discord Alpha 9.0.6
+
+Danijel#9000 - Bug Bot on 2019-06-01T17:18:41.744Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 9.0.6
+
+Skyla#0002 - Bug Bot on 2019-06-01T18:14:16.251Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1 - Alpha 906
+
+netvs#0071 - Bug Bot on 2019-06-01T18:50:00.377Z
+
+
+### Can reproduce.
+CR; Huawei Y7, Android 8.0.0, Alpha 905
+
+Bullseye#8200 - Bug Bot on 2019-06-01T22:24:08.972Z
+
+
+### Can reproduce.
+• Android 6.0.1 • Samsung Galaxy s5, Android Alpha 9.0.6
+
+Krobo#4784 - Bug Bot on 2019-06-02T01:01:40.717Z
+
+
+### Can reproduce.
+Honor 9 Lite, EMUI 8.0.0, Android 8.0.0, Alpha 905
+
+irin#4560 - Bug Bot on 2019-06-02T02:43:23.781Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 906
+
+undermaster#3126 - Bug Bot on 2019-06-02T06:46:21.639Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6 Edge Android 7.0.0, Client Settings: 8.9.7
+
+Strife#1727 - Bug Bot on 2019-06-02T08:14:39.906Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.0.6
+
+AHkhan#0001 - Bug Bot on 2019-06-02T09:25:38.076Z
+
+
+### Can reproduce.
+CR - Samsung Galaxy S6 Edge, 7.0.0 - Alpha 905
+
+Solaack_#1071 - Bug Bot on 2019-06-02T10:17:56.482Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 9.0.6
+
+Lily#2624 - Bug Bot on 2019-06-02T11:25:47.452Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 9.0.5
+
+Quad#1887 - Bug Bot on 2019-06-02T18:43:33.368Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 9.0.6
+
+OddsomeOddy#1998 - Bug Bot on 2019-06-03T11:34:41.047Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 4 - Android 7.0 - Alpha 9.0.6 (906)
+
+voldemort#6931 - Bug Bot on 2019-06-04T10:18:05.468Z
+
+
+### Can reproduce.
+Samsung Galaxy S6 Edge Android 7.0.0, Client Settings: 8.9.7
+
+Strife#1727 - Bug Bot on 2019-06-04T13:40:53.072Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9, Discord Alpha 9.0.9 , discord Alpha 9.0.9
+
+HeavyBlurrySoul#1931 - Bug Bot on 2019-06-08T22:42:17.667Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:24:20.413Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,117 @@
+[Archived] Members in the recently spoken list while attempting to mention show up as offline despite being online (has to be a big server, and the member cannot be within view in the member list) (https://trello.com/c/o3CI8Mgb)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-05-14T23:21:18.282Z
+Latest Update: 2018-10-22T20:21:34.720Z
+
+Reported by BasiliskHill#9535
+
+####Steps to reproduce:
+- Enter a big server
+- Choose someone online you can't see on the Members List (to the right), including above and below view. You cannot have an open DM channel with this user)
+- Restart Discord
+- Have this user speak
+- Type "@"
+- Observe the Mentions List that appears and the user's presence bubble in this list
+- Click on this user's name in chat
+
+
+####Expected result:
+Everyone shows up with the correct status
+####Actual result:
+Anyone except you and the people you can see in the Member List show up as offline
+####Client settings:
+Desktop Canary 15120
+####System settings:
+Windows 10 Home x64
+
+12675
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-14T23:21:18.282Z
+
+
+### korzq#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5afa19eee33cafde93b6aa3a/dc7541cd99aaa1708e19b955e30d9528/SnapShot20180515T065234.jpg added by Bug Bot on 2018-05-14T23:21:20.762Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (Version 1803), Discord Canary Build 15223
+
+Ghoul#0009 - Bug Bot on 2018-05-14T23:21:25.622Z
+
+
+### Can reproduce.
+Can reproduce. Window 10 free version x64, stable, Build Number: 15154
+
+MeowthenA#9256 - Bug Bot on 2018-05-14T23:21:30.618Z
+
+
+### Can reproduce.
+MacBook Air (13-inch Early 2015) MacOS X El Capitan 10.11.6, Discord Canary Build Number: 14965
+
+Ganinko#9720 - Bug Bot on 2018-05-14T23:21:35.635Z
+
+
+### Can reproduce.
+Can Reproduce in Windows 8.1 x64, Discord Canary Build Number: 15251
+
+Yoginth#9339 - Bug Bot on 2018-05-15T02:42:28.071Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 17134 - Discord Canary Build 15253
+
+chaco#1870 - Bug Bot on 2018-05-15T04:22:31.667Z
+
+
+### Can reproduce.
+64 Bit Windows 10 Home (V1709) ptb, Build Number: 14712.
+
+memetrollsXD#0001 - Bug Bot on 2018-05-15T14:34:12.352Z
+
+
+### Can't reproduce. Canary 15376, macOS 10.12.6 - Clayton on 2018-05-16T20:56:42.531Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-05-16T20:56:49.031Z
+
+
+### New Repro Steps:
+- Enter a big server
+- Choose someone online you can't see on the Members List (to the right), including above and below view. You cannot have an open DM channel with this user)
+- Restart Discord
+- Have this user speak
+- Type "@"
+- Observe the Mentions List that appears and the user's presence bubble in this list
+- Click on this user's name in chat
+
+BasiliskHill#9535 - Bug Bot on 2018-06-02T15:43:18.526Z
+
+
+### can reproduce with the new steps provided (updated them above)
+although it's easier to test if you just go to a large server, wait for new chat and then try to @ someone who just spoke but you don't have a DM thread with
+
+moving back to user reported - Tim on 2018-06-02T17:06:00.892Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Tim on 2018-06-02T17:06:14.844Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-04T17:35:34.945Z
+
+
+### Verified. Lazy Guild bug - Jared on 2018-06-04T17:35:41.194Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:34.722Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

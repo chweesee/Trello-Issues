@@ -1,0 +1,127 @@
+[Archived] If someone edits a message containing an everyone tag after you restarted the app, the ping indicator will come back and get stuck (Bounty of ticket HIYQTipa) (https://trello.com/c/E0nNssH1)
+
+High,
+P1 - Severe
+
+Created: 2018-01-09T18:57:39.195Z
+Latest Update: 2019-01-01T23:13:12.505Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+
+- Have user A on Desktop with everyone perms, and user B on Android, both users on same server but viewing different channels 
+- User A sends an @ everyone 
+- User B reads the ping and goes back to a different channel 
+- User B restarts Discord by killing the app from Recent Tasks and reopens it 
+- Have user A edit his message containing the everyone tag
+
+####Expected result:
+Ping shouldn't remain stuck in anyway
+####Actual result:
+You are in a situation where channel has no unreads but still has a ping indicator. This ping is persistent : it cannot be removed unless you view it on Desktop or wait for new messages to be sent in this channel. Restarting Discord or even clearing the cache doesn't remove it.
+####Client settings:
+Discord Alpha 6.0.6
+####System settings:
+Huawei Mate 9 Android 7.0
+
+7727
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-09T18:57:39.195Z
+
+
+### Can reproduce.
+CR; Pixel XL 2, Android 8.1; Discord 6.0.6
+
+mrkirby153#7840 - Bug Bot on 2018-01-09T18:57:46.559Z
+
+
+### Can reproduce.
+CR, Moto E 2nd Gen, Android 5.1, Android Alpha 6.0.6
+
+Ghoul#4567 - Bug Bot on 2018-01-09T18:57:51.599Z
+
+
+### Can reproduce.
+OnePlus 5T, Android 7.1.1, Discord 6.0.6
+
+Snissel#6141 - Bug Bot on 2018-01-09T18:57:56.566Z
+
+
+### Can reproduce.
+Xiami Redmi 3, Android 5.0, Discord 6.0.8
+
+NorbiPeti#1869 - Bug Bot on 2018-01-14T15:28:50.031Z
+
+
+### Verified.  - Clayton on 2018-01-16T22:18:52.666Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-16T22:19:52.417Z
+
+
+### Moved from Verified Bugs to Serious Issues by Sam Shih on 2018-02-25T11:26:09.546Z
+
+
+### Can reproduce.
+Amazon Fire 7, 5.0.1
+Clearing the cache removed the ping
+
+NDC🔹Splat | HypeSquid#0001 - Bug Bot on 2018-02-25T11:38:35.831Z
+
+
+### Can reproduce.
+Parts of that bug seem to be fixed, but not everything. So here's what I did: Discord was fully closed on my phone, I read the announcement for the new Alpha (6.3.5), updated the app and opened it. Jethro thinks it might have something to do with the role being made mentionable and unmentionable again.
+
+Anorak#5830 - Bug Bot on 2018-03-12T21:16:03.794Z
+
+
+### Can reproduce.
+CR, can still reproduce with the same steps, Alpha 6.3.7. OnePlus 3T, Oxygen OS 5.0.1, Android 8.0.0
+
+JohnyTheCarrot#0001 - Bug Bot on 2018-03-14T07:11:44.919Z
+
+
+### I slightly edited this report so it no longer references https://trello.com/c/6DLWMeYC/ , as I figured out that those are not related to each other
+
+Alex1304#9704 - Bug Bot on 2018-03-16T13:10:18.102Z
+
+
+### @mrkcsc I think you fixed this? - Sam Shih on 2018-03-27T22:37:55.707Z
+
+
+### Can reproduce.
+LG G2 - D802, Android 5.0.2 - Discord Alpha 6.5.6
+
+mcicu5#7394 - Bug Bot on 2018-04-22T19:21:58.323Z
+
+
+### Fixed in 7.0.0 - Miguel Gaeta on 2018-06-27T20:47:58.031Z
+
+
+### Moved from Serious Issues to Claimed Fixed, needs Verification by Miguel Gaeta on 2018-06-27T20:48:13.189Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 7.4.8
+
+Law of Royale#6825 - Bug Bot on 2018-09-12T23:43:17.390Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-11-28T10:28:47.319Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:13:11.690Z
+
+
+### Archived by Tarek on 2019-01-01T23:13:12.507Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

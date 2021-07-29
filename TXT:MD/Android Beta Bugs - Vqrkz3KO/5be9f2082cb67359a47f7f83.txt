@@ -1,0 +1,92 @@
+[Archived] You can see categories without any channels on Notification Overrides. (https://trello.com/c/2frwnf8W)
+
+None
+
+Created: 2018-11-12T21:35:04.656Z
+Latest Update: 2019-01-01T23:23:56.665Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- ON YOUR ALT, create a server, and create Category A, Category B, and Category C. 
+- On Category A and C, create some channels, but on Category B, don't have any channels. 
+- Then, send an invite to your MAIN ACCOUNT, and join it. Make sure your main account doesn't have "Manage channels" permission. 
+- On your main account, click on the 3 dots next to the server name, and click on Notification Settings. 
+- Scroll down to Notification Overrides, and select "Add a Channel or Category". 
+- Observe how Category B can be seen.
+
+####Expected result:
+Category B should not be seen on your main, because there are no channels in the category, and your main does not have Manage Channel permission.
+####Actual result:
+You can see category B.
+####Client settings:
+Discord Alpha 7.8.8
+####System settings:
+LG Fortune, Android 6.0.1
+
+23071
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-12T21:35:04.656Z
+
+
+### Hole#0001 - https://i.imgur.com/ofjVpSz.gifv added by Bug Bot on 2018-11-12T21:35:06.979Z
+
+
+### Hole#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5be9f2082cb67359a47f7f83/1ea79b7c1ed495d9965c64aebd14c70f/Screenshot_2018-11-12-10-06-00.png added by Bug Bot on 2018-11-12T21:35:06.987Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.8.8
+
+Danijel#9000 - Bug Bot on 2018-11-12T21:35:12.004Z
+
+
+### Can reproduce.
+Discord Alpha 7.8.8, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-11-12T21:35:17.011Z
+
+
+### Can reproduce.
+Could reproduce, Oneplus 3, Android 9, Alpha 7.8.8
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-12T21:35:22.105Z
+
+
+### Can reproduce.
+can repro android
+
+Hloool#2584 - Bug Bot on 2018-11-12T21:36:22.733Z
+
+
+### Intended. You can set overrides for categories. Even if you dont' see anything under them - Sam Shih on 2018-11-12T22:50:45.955Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Sam Shih on 2018-11-12T22:50:50.859Z
+
+
+### This has been originally reported because it's inconsistent with Desktop. Normally, you aren't even supposed to *see* empty categories (unless you have Manage Channels perm). Desktop doesn't allow to edit notification overrides on empty categories simply because without Manage Channels you shouldn't even be able to know that the category exists in the first place.
+
+Alex1304#9704 - Bug Bot on 2018-11-12T23:01:43.250Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 7.9.0
+
+AmirAmani#0102 - Bug Bot on 2018-11-13T13:45:24.449Z
+
+
+### Archived due to being inactive in "Won't fix" list for 30+ days - Tarek on 2019-01-01T23:23:54.972Z
+
+
+### Archived by Tarek on 2019-01-01T23:23:56.668Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

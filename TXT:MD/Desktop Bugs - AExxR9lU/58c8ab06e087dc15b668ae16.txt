@@ -1,0 +1,96 @@
+[Archived] text does not highlight in search if you put a underscore between words (https://trello.com/c/RelVfUR6)
+
+P3: Will get fixed eventually
+
+Created: 2017-03-15T02:46:30.431Z
+Latest Update: 2018-10-22T20:13:42.862Z
+
+Reported by 3spooky5u#1000
+
+####Steps to reproduce: 
+- Put an underscore instead of a space between 2 words 
+- Search for that term 
+
+####Expected result:
+ Result would be highlighted or just the underscore excempted 
+####Actual result:
+ Nothing is highlighted
+
+####System settings:
+ Windows 7, Canary
+
+1988
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-15T02:46:30.431Z
+
+
+### Can reproduce.
+macOS, latest Canary
+
+GerdSattler#5873 - Bug Bot on 2017-03-15T02:46:31.676Z
+
+
+### Can reproduce.
+macOS Canary
+
+Harrison#9100 - Bug Bot on 2017-03-15T02:46:33.513Z
+
+
+### Can reproduce.
+nexus 6 Android 7.1.1 discord 3.5.1
+
+Alex from Alaska#8575 - Bug Bot on 2017-03-15T02:46:35.663Z
+
+
+### Can reproduce.
+8.1 canary
+
+LetsPlayNintendoITA#0167 - Bug Bot on 2017-03-15T02:52:39.070Z
+
+
+### Can reproduce.
+win 10 latest canary
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-03-15T03:43:48.376Z
+
+
+### Verified.  - Clayton on 2017-03-15T19:03:52.543Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-03-15T19:03:58.530Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T07:11:29.260Z
+
+
+### I am still able to reproduce, the text still doesn't get highlighted. However, Discord doesn't search for the terms separately now if that was even the case. 
+
+If I send four messages: cat, dog, cat dog and cat_dog, then search for cat_dog, the only search result displayed will be cat_dog. 
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5141
+ - Alexandru Todea on 2017-09-30T05:45:27.617Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 Home x64 v1709
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T15:54:53.709Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58c8ab06e087dc15b668ae16/222e6631289fd274557261746dd219a6/5lvPXgS.gif added by Bug Bot on 2018-07-14T10:05:10.318Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:42.864Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

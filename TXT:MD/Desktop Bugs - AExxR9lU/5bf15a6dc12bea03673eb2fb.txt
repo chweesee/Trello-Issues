@@ -1,0 +1,91 @@
+[Archived] [Overlay] Pinning Chat and Server/Channel list together while Chat is on far right, causes it to expect window to be larger. (https://trello.com/c/XcXBUg68)
+
+None
+
+Created: 2018-11-18T12:26:21.112Z
+Latest Update: 2019-02-15T17:30:31.334Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a lovely game with overlay 
+- Open the overlay 
+- Pin Chat + Server/Channel list together (So unpin chat from showing) 
+- Make the window slightly large. 
+- Unpin chat from the server/channel list. 
+- Make Chat window small (width), and drag to far right of the screen 
+- Pin Chat + Server/Channel list together (Again)
+
+####Expected result:
+They join together and the chat window is correctly sized
+####Actual result:
+They join together and the chat window is incorrectly sized causing the window to assume chat is larger and hide a bit of chat + the pin button.
+####Client settings:
+Canary 28192, 0.0.222
+####System settings:
+Windows 10 64x (1809)
+
+23270
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-18T12:26:21.112Z
+
+
+### Alipoodle#5025 - https://puu.sh/C3mxS/866dd8c9bb.gif added by Bug Bot on 2018-11-18T12:26:23.416Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bf15a6dc12bea03673eb2fb/3c0a95176f47b0b7d77e74994260fa12/bf2724751a.png added by Bug Bot on 2018-11-18T12:26:23.522Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 28197
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-18T12:26:28.438Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,Canary 28197, [CR]
+
+Octillion#6666 - Bug Bot on 2018-11-18T12:26:33.451Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home 64-bit, Canary 28197
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-18T12:26:38.633Z
+
+
+### Can reproduce.
+CR. Windows 10 x64 ,  Canary 28197
+
+Toasty#9566 - Bug Bot on 2018-11-18T19:05:26.903Z
+
+
+### Moved from User Reported Bugs to Overlay Redesign Bugs by Joey Baker on 2018-11-19T17:28:03.973Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Enterprise x64 and macOS High Sierra 10.13.1, Canary 28197
+
+sladewatkins#2439 - Bug Bot on 2018-11-20T00:15:59.974Z
+
+
+### Moved from Overlay Redesign Bugs to Fix made, not yet released by Amadeus on 2018-12-12T07:42:44.404Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Amadeus on 2018-12-12T07:47:30.186Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-12-20T06:43:53.484Z
+
+
+### Archived by Bug Bot on 2019-02-15T17:30:31.345Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

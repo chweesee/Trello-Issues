@@ -1,0 +1,174 @@
+In the Online Friends tab, you can see incoming friend requests that you haven't accepted yet, as well as users you have blocked, if and only if they are either IDLE or DND (https://trello.com/c/Tr9Vo5N2)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-10T14:06:58.619Z
+Latest Update: 2020-05-27T00:30:04.835Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have some people send you a friend request so they appear in the Pending tab with mention "Incoming Friend Request". MAKE SURE THEY ARE EITHER IDLE OR DND, won't work if they are Online. 
+- Alternative Method : find any user that is IDLE or DND and block him 
+- Go to Online Friends tab and scroll through list
+
+####Expected result:
+You should see only people you have accepted as friend
+####Actual result:
+You see people that you haven't accepted as friend, and even people you've blocked
+####Client settings:
+Discord Alpha 6.8.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14025
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-10T14:06:58.619Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b1d3082d00d58fa2018b1a7/a7ff7e8e279a22c91bcd7c5ccf9d7501/IMG_20180610_150041.jpg added by Bug Bot on 2018-06-10T14:07:03.291Z
+
+
+### Can reproduce.
+Can Reproduce, works also if someone is blocked and is on dnd/idle, shows both in blocked list as well as online list -- Xioami Mi A1, Android 8.0.0 -- Discord Alpha 6.8.9
+
+Ori#1908 - Bug Bot on 2018-06-10T14:07:05.974Z
+
+
+### Can reproduce.
+Can Reproduce. This occurred on both Invites and blocked users. Tested on ZTE Blade A602, Android Nougat 7.0, Discord Android Alpha 6.8.9 (689).
+
+Ghostly#1337 - Bug Bot on 2018-06-10T14:07:10.975Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 6.8.9 -- Occurs with blocked users and users with pending friend requests.
+
+webhp#1337 - Bug Bot on 2018-06-10T14:07:15.926Z
+
+
+### Also happens when you have sent someone a friend request
+
+Pineapple#9568 - Bug Bot on 2018-06-10T14:11:02.316Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.8.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-11T05:27:47.683Z
+
+
+### verified, one plus 6, android 8.0, 6.8.9 - Clayton on 2018-06-11T20:51:38.637Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-11T20:51:45.588Z
+
+
+### Can reproduce.
+Discord Stable 6.9.3, Lenovo A100
+
+Mahmoud#5843 - Bug Bot on 2018-07-12T00:56:36.835Z
+
+
+### FoxyKero#9941 - https://www.youtube.com/watch?v=YjbXxjfA2Bc added by Bug Bot on 2018-07-12T01:00:37.767Z
+
+
+### Xylium#1480 - https://youtu.be/YjbXxjfA2Bc added by Bug Bot on 2018-07-12T01:05:01.016Z
+
+
+### Can reproduce.
+Honor 7x , 7.0
+
+[TÛ] Hope#2849 - Bug Bot on 2018-07-23T21:22:00.233Z
+
+
+### Archived by Clayton on 2018-08-22T21:30:02.429Z
+
+
+### Can reproduce.
+As of 7.3.9 I can still reproduce this. I kinda believe it's a low P2 or something but well ¯\__(ツ)__/¯
+
+Alex1304#9704 - Bug Bot on 2018-08-22T21:36:09.840Z
+
+
+### Unarchived by Clayton on 2018-08-22T22:00:03.487Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:45.870Z
+
+
+### Can reproduce.
+OnePlus 5T Android 8.1 App version 779
+
+OneNormalUsername#7636 - Bug Bot on 2018-11-16T02:04:22.427Z
+
+
+### Unarchived by Clayton on 2018-11-16T02:30:03.905Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H, Discord Alpha 8.3.5G
+
+Defracted#0001 - Bug Bot on 2019-01-27T12:28:15.532Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 848
+
+The Lunala#7777 - Bug Bot on 2019-02-18T15:36:00.988Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9.0.0, Discord Alpha 8.9.1
+
+Аlex#2287 - Bug Bot on 2019-05-06T12:52:37.522Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.3.8
+
+Krobo#4784 - Bug Bot on 2019-08-14T10:29:41.018Z
+
+
+### Unarchived by Bug Bot on 2019-08-14T10:30:06.465Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab A (2016) | Android 8.1 | Discord Beta Build: 9.3.3
+
+Suspense#4615 - Bug Bot on 2019-08-14T10:32:19.539Z
+
+
+### Can reproduce.
+!storeinfo
+
+codebyter#7018 - Bug Bot on 2019-12-17T00:44:47.228Z
+
+
+### Can reproduce.
+Galaxy S6, Android 7.0
+
+Dracorin#2163 - Bug Bot on 2020-01-15T22:25:30.664Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:17.065Z
+
+
+### Can reproduce.
+Huawei Nova Plus, Android 8.0
+
+❄Wish🌙🌊Snow❄✦#5570 - Bug Bot on 2020-04-25T18:12:29.772Z
+
+
+### Unarchived by Bug Bot on 2020-04-25T18:30:04.332Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

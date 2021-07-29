@@ -1,0 +1,87 @@
+keyboard stays up after viewing someone’s connected account in discord browser (https://trello.com/c/AqkA9eBm)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2018-04-26T12:45:45.148Z
+Latest Update: 2019-10-05T12:47:38.319Z
+
+Reported by the real banana man#1234
+
+####Steps to reproduce:
+- click on the message bar 
+- view someone’s profile (has to be someone who sent a recent message), don't click out of keyboard 
+- view one of their connected accounts in discord’s browser (steam, reddit) 
+- exit out of that and go back to chat
+
+####Expected result:
+You should be sent back to chat with normal viewing.
+####Actual result:
+The keyboard covers half the screen and there is no message bar.
+####Client settings:
+TF 2.3.0
+####System settings:
+iPhone 6s, iOS 11.4 PB 2
+
+11305
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-26T12:45:45.148Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ae1c9f9dfa3a3cf534ceca5/daf2bccec108b9159c70b01c4fa9dabd/image.png added by Bug Bot on 2018-04-26T12:45:48.093Z
+
+
+### Can reproduce.
+Can Reproduce IPhone 7 Plus iOS 10.3.2 TestFlight 2.3
+
+aj834#1640 - Bug Bot on 2018-04-26T12:45:52.649Z
+
+
+### Can reproduce.
+Can Reproduce iPhone 6s iOS 11.2.6 TestFlight 2.3.0 (3817)
+
+Rashaun#9295 - Bug Bot on 2018-04-26T12:45:57.737Z
+
+
+### Can reproduce.
+CR; but might also be an extension of https://trello.com/c/Kt7iYljL/ iPhone 6 - iOS 11.4 TestFlight 2.3.0 (3817)
+
+Xylium#1480 - Bug Bot on 2018-04-26T12:46:02.563Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:54:27.815Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:54:32.374Z
+
+
+### I can no longer reproduce as of iPhone 8 +, running iOS 12 (Dev Beta 2) with Discord TestFlight 2.3.4 (5560). The keyboard is already down as soon that I get back to the channel, and I can see the message bar just fine.
+
+Because I was not able to reproduce this bug anymore, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-07-02T23:59:19.252Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-02T23:59:26.590Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:48.922Z
+
+
+### Can reproduce again as of TestFlight 2.5.2 (13014) with iPad Pro (11 inch) running iOS 12.2. The issue slightly changed, now the keyboard will only overlap with the linked accounts in the user profile.
+
+Moving to Reopened list. - Pascal on 2019-04-04T15:21:39.305Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Pascal on 2019-04-04T15:21:47.676Z
+
+
+### Unarchived by Pascal on 2019-04-04T15:21:47.754Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

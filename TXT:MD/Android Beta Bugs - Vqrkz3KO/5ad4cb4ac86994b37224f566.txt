@@ -1,0 +1,100 @@
+[Archived] Resuming the session after switching to Discord from another app spams the debug log with ZipExceptions (https://trello.com/c/4CjxMd0z)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-16T16:11:54.078Z
+Latest Update: 2019-01-01T23:09:18.464Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- (optional) Kill Discord to clear the debug log, and ensure that no error is shown already 
+- Either minimize Discord using Home button and open another app, or open a link from Discord in order to open YouTube, Trello, etc. Either way, do NOT kill the app, leave it running in background 
+- Go back to Discord and check debug log
+
+####Expected result:
+Nothing special to be seen there
+####Actual result:
+It's spammed with ` incorrect header check`. Number of times it's spammed may vary
+####Client settings:
+Discord Alpha 6.4.9
+####System settings:
+Huawei Mate 9 Android 7.0
+
+10807
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-16T16:11:54.078Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ad4cb4ac86994b37224f566/86287c86b6101b7b4e3f4134608d213c/Screenshot_20180416-171448.png added by Bug Bot on 2018-04-16T16:11:56.692Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 6.4.9 -- I only got one error.
+
+webhp#1337 - Bug Bot on 2018-04-16T16:12:01.514Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 Edge, Android 7.0 (Nougat), Android Alpha 6.4.9; Only a few errors.
+
+DeJay#1337 - Bug Bot on 2018-04-16T16:12:06.528Z
+
+
+### Can reproduce.
+Axon 7 Mini,  Android 7.1.1, Discord Alpha 6.4.9; Only received three-four errors.
+
+Frost#3230 - Bug Bot on 2018-04-16T16:12:11.522Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime ~ Android 7.0 ~ Discord Alpha 6.4.9
+
+Lava#9562 - Bug Bot on 2018-04-17T08:45:19.827Z
+
+
+### Can reproduce.
+Samsung Galaxy J7, Android 8.0, Discord Alpha 6.4.9 | it spammed over 70 times for me.
+
+FoxyKero#1269 - Bug Bot on 2018-04-17T15:24:46.765Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.9
+
+fujhofn.#0878 - Bug Bot on 2018-04-17T20:03:46.629Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 4, Android 7.0, Discord Alpha 6.4.9, ~30 errors
+
+Der Fooler🌠#9999 - Bug Bot on 2018-04-17T21:14:05.364Z
+
+
+### Verified.  - Clayton on 2018-04-17T22:53:27.482Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-17T22:53:30.676Z
+
+
+### Cannot reproduce, marking as Verified Fixed. - Jared on 2018-07-11T22:53:31.716Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2018-07-11T22:53:35.863Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:09:17.612Z
+
+
+### Archived by Tarek on 2019-01-01T23:09:18.466Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,136 @@
+[Archived] Permission related strings are always the English ones instead of the selected language (https://trello.com/c/xJ9Laaym)
+
+P2 - Can wait a while,
+low
+
+Created: 2017-10-26T18:39:55.041Z
+Latest Update: 2019-11-04T14:00:55.576Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Change your language to something other than English 
+- Progress to the Channel Permission page of any channel 
+- For example go to channel settings, open permission and click on any member or role
+
+####Expected result:
+The permissions should be in the language you've set in Discord
+####Actual result:
+The permissions are always in English instead of the selected language.
+####Client settings:
+TestFlight 1.9.3 (1336)
+####System settings:
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5
+
+5813
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-26T18:39:55.041Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59f22bfa8bcf15c5955ad252/74c31f42eb05d70f2517654ea74f42b4/Lpr0AvE.jpg added by Bug Bot on 2017-10-26T18:39:57.515Z
+
+
+### Can reproduce.
+CR, iPod 5th Generation, iOS 11.0.3, Discord TestFlight 1.9.3 (1336)
+
+jake 🎃#6241 - Bug Bot on 2017-10-26T18:40:02.542Z
+
+
+### Can reproduce.
+CR, iPhone 6S iOS 11.0.3, Testflight 1.9.3 (1336)
+
+Habchy#1665 - Bug Bot on 2017-10-26T18:40:07.502Z
+
+
+### Can reproduce.
+CR, iphone6s, ios 11.1, TestFlight 1.9.3 (1340)
+
+Blizzyrd#7909 - Bug Bot on 2017-10-26T18:40:12.477Z
+
+
+### Verified, only happens with channel Permissions. Editing bug to reflect this. - Jared on 2017-10-26T19:46:49.802Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-26T19:46:55.031Z
+
+
+### Now there is a new problem: All permission related strings are always the English ones.
+
+Pascal#0929 - Bug Bot on 2018-01-10T15:08:42.446Z
+
+
+### I can no longer reproduce, they are now all translated. 
+
+Discord 2.2.5 (3054), iOS 11.2.6, iPhone 8 Plus - Alexandru Todea on 2018-03-16T18:35:49.951Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-03-16T18:36:01.398Z
+
+
+### Can reproduce.
+iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054) 
+Please read my note below, the issue has slightly changed. Now it is always English and not the selected language
+
+Pascal#0929 - Bug Bot on 2018-03-16T21:49:54.038Z
+
+
+### I can actually reproduce this, reopening.
+
+Discord 2.2.9, iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-10T05:05:29.633Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Alexandru Todea on 2018-04-10T05:05:35.232Z
+
+
+### Can't reproduce.
+Cannot reproduce on Spanish and German. iPhone XS Max, iOS 12.1.1, Dev Beta 2.
+
+Alfie#1582 - Bug Bot on 2018-11-22T19:48:05.469Z
+
+
+### The issue changed a second time:
+
+Now the permissions language will change to the correct selected language but when changing the language a second time it won‘t change again, you have to restart your app first. - Pascal on 2019-07-29T14:37:18.008Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.4 (17575) with iPad Pro (11-inch) running iPadOS 13.1.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-10-05T12:36:58.474Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Pascal on 2019-10-05T12:37:08.449Z
+
+
+### Can't reproduce.
+iPhone XR iOS 13.1.2 TestFlight 3.1.4 (17575)
+
+binchlord#0998 - Bug Bot on 2019-10-05T12:45:48.221Z
+
+
+### Can't reproduce.
+CNR, iPhone 7 Plus iOS 13.1.2, TestFlight 3.1.4 (17575)
+
+Action Potential#6862 - Bug Bot on 2019-10-05T13:34:17.201Z
+
+
+### Can't reproduce.
+iPhone 11, iOS 13.2 (dev beta) - TestFlight 3.1.4 (17575)
+
+Xylium#5800 - Bug Bot on 2019-10-05T13:42:31.174Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-10-05T13:42:31.492Z
+
+
+### Archived by Bug Bot on 2019-11-04T14:00:55.648Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

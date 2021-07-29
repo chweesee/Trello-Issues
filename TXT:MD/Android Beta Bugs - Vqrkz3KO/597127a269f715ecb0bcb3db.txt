@@ -1,0 +1,74 @@
+[Archived] In Debugging while scrolling/looking all the way up, when new debug messages are being written by, it scrolls down agressively even while at the top where it says "application initialized" (https://trello.com/c/VYAkL9xe)
+
+P2 - Can wait a while,
+Low,
+Mod can no longer reproduce
+
+Created: 2017-07-20T21:58:58.093Z
+Latest Update: 2019-06-05T23:49:16.849Z
+
+Reported by Nyadeelif (Nyad)#8930
+
+####Steps to reproduce:
+- Open Debugging (or debug as it says) 
+- scroll up and wait untill new debugging status messages appear 
+- look how the debugging new status messages appear and make the screen scroll all the way down
+
+####Expected result:
+The debug screen should remain at where you're reading
+####Actual result:
+The whole debug screen scrolls you down when new debug status messages come
+####Client settings:
+3.9.9(398)
+####System settings:
+HTC Desire 526, 5.1
+
+2404
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-20T21:58:58.093Z
+
+
+### Can reproduce.
+CR; Samsung Galaxy S8; Nougat 7.0; Discord Beta 3.9.9
+
+Penple#8839 - Bug Bot on 2017-07-20T21:59:05.565Z
+
+
+### Can reproduce.
+Canrepro,  Samsung Galaxy S7 Edge, Android 7.0, Discord Alpha 3.9.9 (398)
+
+Cubular#6460 - Bug Bot on 2017-07-20T21:59:10.625Z
+
+
+### Can reproduce.
+can repro, Android 6.0.1 (cyanogenmod)
+
+endy#3192 - Bug Bot on 2017-07-20T21:59:15.557Z
+
+
+### Verified.  - Clayton on 2017-07-20T22:11:31.387Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-20T22:11:36.787Z
+
+
+### Cannot reproduce anymore, Android Alpha 6.1.6, on OnePlus 5 Android 8 - Tarek on 2018-01-28T14:46:23.150Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-28T14:46:32.048Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-22T12:04:08.150Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:16.863Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

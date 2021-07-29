@@ -1,0 +1,95 @@
+[Archived] Channel name with `_` not displayed properly on android notifications (https://trello.com/c/qRBxacbQ)
+
+P2 - Can wait a while
+
+Created: 2017-08-26T18:07:07.805Z
+Latest Update: 2019-06-05T23:46:33.875Z
+
+Reported by WreckRox#3064
+
+####Steps to reproduce:
+- Make a text channel with `_` in the name somewhere (Middle preferred) 
+- get mentioned 
+- see the channel name incorrect in the notifications.
+
+####Expected result:
+The `_` should be placed on the correct place like in `#test_channel`
+####Actual result:
+The `_` is placed before the channel name like `_#testchannel`
+####Client settings:
+Latest alpha branch (26-AUG-2017).
+####System settings:
+Sony Xperia Z5 Premium, everything default including font.
+
+3667
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-26T18:07:07.805Z
+
+
+### Starshine Dust#2189 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59a1b8cb1456731c494d8520/c5f907fa612de623485010cfc67e4708/jMpf7mW.png added by Bug Bot on 2017-08-26T18:07:10.466Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 4.1.1 (506)
+
+Curse Broken#8659 - Bug Bot on 2017-08-26T18:07:15.297Z
+
+
+### Can reproduce.
+Samsung Galaxy S2 running Marshamallow 6.0.1 with Discord Alpha 4.1.0 (505)
+
+Rauf#3260 - Bug Bot on 2017-08-26T18:07:20.304Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 4.1.1 channel name is displayed as _channel using multiple "_" in a channel name results in _channel_name
+
+Xander#0259 - Bug Bot on 2017-08-26T18:07:25.360Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 7.0, Discord Beta 4.0.7
+
+Speed#5138 - Bug Bot on 2017-08-26T18:41:24.598Z
+
+
+### Verified.  - Clayton on 2017-08-30T01:48:36.693Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-30T01:48:42.289Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 • Android 7.0 • Discord Alpha 7.0.3 (703)
+
+FoxyKero#9941 - Bug Bot on 2018-06-30T07:35:53.404Z
+
+
+### on Android 8.0.0 Discord 6.2.4 the channel name italicization would also be broken by channel name underscore
+
+qunow#9516 - Bug Bot on 2018-07-17T04:47:27.650Z
+
+
+### qunow#9516 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59a1b8cb1456731c494d8520/c7b87d705e5613741e99d2ed4525c2c1/Screenshot_20180717-105417.png added by Bug Bot on 2018-07-17T04:48:23.668Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 • Android 8.1 (Oreo) • Discord Alpha 7.7.5 (775)
+
+FoxyKero#9941 - Bug Bot on 2018-10-18T15:48:59.862Z
+
+
+### Moved from Verified Bugs to Notification Bugs by Sam Shih on 2018-11-09T21:21:12.616Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:33.885Z
+
+List
+====
+Notification Bugs
+
+Members
+=======
+None

@@ -1,0 +1,98 @@
+[iOS 13 Specific] Predictive Text is last to disappear after swiping the keyboard closed. (https://trello.com/c/f9yVTF4o)
+
+None
+
+Created: 2019-09-17T17:35:14.290Z
+Latest Update: 2019-11-20T00:46:52.481Z
+
+Reported by Ghoul#3232
+
+####Steps to reproduce:
+- Ensure that you have predictive text enabled. 
+- Go to a channel that you have send_messages permission to send messages in. 
+- Open your keyboard. 
+- Swipe downwards to close your keyboard. 
+- Observe the message box.
+
+####Expected result:
+You should not see any trace of the keyboard, even the predictive text.
+####Actual result:
+You see the Predictive Text bar for a few seconds before it disappears.
+####Client settings:
+iOS TextFlight 3.1.3 (17314)
+####System settings:
+iPhone XS Max running iOS 13.1 Dev Beta
+
+44328
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-17T17:35:14.290Z
+
+
+### Can reproduce.
+iPhone X, iOS 13.1 (dev beta 3) - TestFlight 3.1.3 (17314)
+
+Xylium#5800 - Bug Bot on 2019-09-17T17:35:21.896Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.3 (17314)
+
+Jeffrey#1234 - Bug Bot on 2019-09-17T17:35:26.899Z
+
+
+### Can reproduce.
+iPhone 7, iOS 13.1 (Developer Beta 3), TestFlight 3.1.23(17314)
+
+username#6666 - Bug Bot on 2019-09-17T17:35:31.877Z
+
+
+### Can reproduce.
+iPhone XS (iOS 13.1 PB 3), TestFlight Build 3.1.3 (17314)
+
+kiosion#0001 - Bug Bot on 2019-09-18T00:26:49.615Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 3), TestFlight 3.1.3 (17341)
+
+.Gloria.#9606 - Bug Bot on 2019-09-18T05:56:22.536Z
+
+
+### Moved from New Issues to iOS 13 by Pascal on 2019-09-19T19:24:34.329Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.0 TestFlight 3.1.3 (17389)
+
+binchlord#0998 - Bug Bot on 2019-09-20T11:35:18.955Z
+
+
+### Can reproduce.
+iPhone 7 Plus - iOS 13.0 - TestFlight 3.1.3 (17389)
+
+Ayu#0001 - Bug Bot on 2019-09-22T22:58:33.136Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13; TestFlight 3.1.3 (17389)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-25T05:05:03.832Z
+
+
+### Moved from iOS 13 to Text Chat by Fanghao on 2019-09-25T06:43:21.117Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.2.3; TestFlight 3.1.7 (18209)
+
+Jiralite#1207 - Bug Bot on 2019-11-20T00:46:52.494Z
+
+List
+====
+Text Chat
+
+Members
+=======
+None

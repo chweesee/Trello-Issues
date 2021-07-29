@@ -1,0 +1,75 @@
+[Archived] When clicking on the author of an embed with no link, it will link to "!!!!" which then errors on windows. (https://trello.com/c/5N8SMsPQ)
+
+P3: Will get fixed eventually
+
+Created: 2016-12-03T07:47:25.583Z
+Latest Update: 2017-10-17T20:31:22.373Z
+
+Reported by FireController1847#9085
+
+####Steps to reproduce: 
+- Send a message with an embed 
+- Set the author of the embed to url "" or do not set the url at all 
+- Click on the author's name 
+
+####Expected result:
+ It is not clickable. 
+####Actual result:
+ You can click on the link bringing you to an invalid URL.
+
+Card Log
+========
+### Added by Jared on 2016-12-03T07:47:25.583Z
+
+
+### FireController1847#9085 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5842788de6a86e07c0410b98/a609bfde06a1cd63b8e67cbc4bd8cb39/hLEBYAK.png added by Jared on 2016-12-03T07:47:34.769Z
+
+
+### Can reproduce.
+Windows 10 - Latest Canary
+
+Seriel#0757 - Jared on 2016-12-03T07:47:45.881Z
+
+
+### FireController1847#9085 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5842788de6a86e07c0410b98/84e81e1a829f8b1c9d5db16e885d5aa5/unknown.png added by Jared on 2016-12-03T07:48:34.227Z
+
+
+### FireController1847#9085 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5842788de6a86e07c0410b98/5285500812feb8fb922c28f570d1bfed/unknown.png added by Jared on 2016-12-03T07:48:39.963Z
+
+
+### Can reproduce.
+Win10 Home, Canary Latest
+
+EJH2#0245 - Jared on 2016-12-03T16:30:31.980Z
+
+
+### Can reproduce.
+Canary, Win 10
+
+xutesan#1952 - Jared on 2016-12-03T21:09:38.923Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-06T21:34:27.357Z
+
+
+### This bug is Verified. Night will investigate a fix. - Jared on 2017-01-05T19:11:33.348Z
+
+
+### Night fixed this ages ago. - Jared on 2017-07-31T18:23:04.463Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T18:23:09.492Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:31:21.033Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:31:22.376Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

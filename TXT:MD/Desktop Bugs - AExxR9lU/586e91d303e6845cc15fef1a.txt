@@ -1,0 +1,93 @@
+[Archived] Uploading a large .GIF as server avatar locks up CPU. (https://trello.com/c/i4CQ0Ho7)
+
+P3: Will get fixed eventually
+
+Created: 2017-01-05T18:34:59.684Z
+Latest Update: 2018-03-14T13:46:26.559Z
+
+Reported by MetalChain2#6372
+
+####Steps to reproduce: 
+- Download the attached .GIF file (23MB) 
+- Try and upload the .GIF as a server avatar. 
+
+####Expected result:
+ Discord should either commit the changes, or have a filesize limit on avatars, like messages do. 
+####Actual result:
+ Discord tries to commit the changes and locks up the CPU a fair bit, disabling use of other buttons, forcing you to close it in task manager.
+
+Card Log
+========
+### Added by Jared on 2017-01-05T18:34:59.684Z
+
+
+### Can reproduce.
+dabbit approved
+
+Mikesky#3097 - Jared on 2017-01-05T18:35:01.111Z
+
+
+### Can reproduce.
+win 10
+
+Dabbit Prime#0896 - Jared on 2017-01-05T18:35:01.209Z
+
+
+### 9gkRPr9.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/586e91d303e6845cc15fef1a/905a5d9ab08883e4c8eafdb0316bdd69/9gkRPr9.png added by Jared on 2017-01-05T18:35:16.290Z
+
+
+### https://www.dropbox.com/s/ks22qfsewkeh67l/Puncharoo.gif?dl=0 - https://www.dropbox.com/s/ks22qfsewkeh67l/Puncharoo.gif?dl=0 added by Jared on 2017-01-05T18:35:16.545Z
+
+
+### Can't reproduce.
+Windows 10 Home Insider Preview build 14986 (x64), Discord Canary 0.0.151 (Windows), Intel Core i7-4710MQ
+
+Tinh1000000#4437 - Jared on 2017-01-06T00:52:29.949Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-17T21:03:55.324Z
+
+
+### I'd say this is fixed in Canary 7913, I am only able to upload images, it's only allowing image file types. No gifs shows up in my folder. Moving to claimed. - Tarek on 2017-12-01T14:37:57.435Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2017-12-01T14:38:03.344Z
+
+
+### Can't reproduce.
+can cancel properly now Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-27T01:07:36.776Z
+
+
+### Can't reproduce.
+CNR, other buttons can be clicked, no need to close out via task manager, Canary 0.0.201 (10011), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:14:36.073Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 10015 | Can cancel properly now
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T21:56:22.518Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-28T08:31:33.622Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-28T08:31:39.931Z
+
+
+### Archiving ticket due to one month of no action.
+ - Alexander (DJScias) on 2018-03-14T13:46:25.638Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:46:26.561Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

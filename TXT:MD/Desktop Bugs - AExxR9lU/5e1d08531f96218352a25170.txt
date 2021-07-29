@@ -1,0 +1,126 @@
+Quote a message that has a user mention via the `>` character then delete the character it also deletes the mention. (https://trello.com/c/PTDqppxj)
+
+None
+
+Created: 2020-01-14T00:16:19.841Z
+Latest Update: 2020-07-16T21:26:06.013Z
+
+Reported by Happier#5005
+
+####Steps to reproduce:
+- Put the `>` character 
+- write a message that has a user mentioned in it 
+- Go back and delete the `>` character 
+- It also deletes the mention with it
+
+####Expected result:
+The `>` Character would be removed, the quoting will be gone and the user mention stays.
+####Actual result:
+The user mention gets deleted when the `>` character gets deleted.
+####Client settings:
+Release Channel: canary, Build Number: 52502, Version Hash: e576af8f1a740ff287b087ba986256ee0b508f0b
+####System settings:
+Windows 10 Home
+
+51624
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-14T00:16:19.841Z
+
+
+### Can reproduce.
+CR, Windows 8.1 x64, Discord Canary 52521
+
+olcay#8683 - Bug Bot on 2020-01-14T00:16:27.336Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Discord Canary 52521.
+
+Alister#0001 - Bug Bot on 2020-01-14T00:16:32.328Z
+
+
+### Can reproduce.
+cr Windows 10 1909 canary 52521
+
+GlenMerlin#2119 - Bug Bot on 2020-01-14T00:16:37.334Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1909) Discord stable 52446
+
+elmo came#1435 - Bug Bot on 2020-01-14T00:21:08.314Z
+
+
+### Can reproduce.
+CR // Windows 10 home (1909) // Canary 52521
+
+Encrium#0004 - Bug Bot on 2020-01-14T00:38:21.283Z
+
+
+### Can reproduce.
+Windows 10 Home x64, version 1909 - canary 52511 host 0.0.259 slate/dtesters
+
+anonymous kitten#5379 - Bug Bot on 2020-01-14T02:11:50.546Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) canary 52521
+
+myacorn#6534 - Bug Bot on 2020-01-14T05:55:16.769Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary: 52521, (host 0.0.259)
+
+MyLife#9696 - Bug Bot on 2020-01-14T14:50:50.305Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 52627
+
+Action Potential#6862 - Bug Bot on 2020-01-14T23:53:29.279Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 52710
+
+RPS1222#5127 - Bug Bot on 2020-01-16T01:36:14.245Z
+
+
+### This happens with emotes too
+
+Just a Regular Talking Box#5472 - Bug Bot on 2020-01-18T17:40:53.774Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Canary 52909 \\Work with emojis.
+
+Smokepurpp#6012 - Bug Bot on 2020-01-20T12:58:59.316Z
+
+
+### Can reproduce.
+[CR] Windows 10 64-Bit (10.0.18363) - Canary 55439
+
+light#3239 - Bug Bot on 2020-03-04T01:39:03.537Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Version 1909, Desktop Canary 57177
+
+Ana940#9858 - Bug Bot on 2020-04-02T12:11:13.926Z
+
+
+### Can reproduce.
+All emotes in the message are affected too, Windows 10 Home 64-bit, Version 1909, Desktop Canary 57177
+
+Ana940#9858 - Bug Bot on 2020-04-02T12:11:57.969Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

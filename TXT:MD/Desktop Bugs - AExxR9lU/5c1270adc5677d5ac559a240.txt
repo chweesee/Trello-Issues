@@ -1,0 +1,92 @@
+[Archived] Discord.exe is making large amounts of redundant registry accesses even when idle (https://trello.com/c/fJZB6SdY)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-12-13T14:46:05.170Z
+Latest Update: 2019-01-17T18:00:27.658Z
+
+Reported by Wist#7790
+
+####Steps to reproduce:
+- Make sure the Discord client is running. It does not matter whether it is visible or idle or being interacted with. 
+- Download procmon from and run it. 
+- Disable all activity filters on procmon's toolbar except for Show Registry Activity. 
+- Hold the `End` key and observe that a vast majority of the events zipping by are from , happen every second and are related to msvideo and/or Driver.
+
+####Expected result:
+I expected to only see the registry activity when Discord was visible and being interacted with
+####Actual result:
+Exactly as described in the description and repro steps
+####Client settings:
+"Release Channel: stable, Build Number: 29445, Version Hash: b7fbda1fde750c0db4d7e7e81dd4a573c89b3a7", also reproducible in a build at least 2 weeks old.
+####System settings:
+Windows 8.1
+
+24282
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-13T14:46:05.170Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c1270adc5677d5ac559a240/0ce76c09090e8f020030eb5b656da9db/32nO2Ei.png added by Bug Bot on 2018-12-13T14:46:07.626Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c1270adc5677d5ac559a240/9aa52d925ab22ac7e2e93afbc6178dde/NakyOFb.png added by Bug Bot on 2018-12-13T14:46:07.686Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c1270adc5677d5ac559a240/c556ff3216b834dc823f49c849e8dc05/yNClm3z.png added by Bug Bot on 2018-12-13T14:46:07.716Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 x64 - Discord Canary 0.0.224 Build 29471
+
+webhp#1337 - Bug Bot on 2018-12-13T14:46:12.643Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x,Canary 29471
+
+Octillion#6666 - Bug Bot on 2018-12-13T14:46:17.572Z
+
+
+### Can reproduce.
+CR; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 29532
+
+Longinus#0293 - Bug Bot on 2018-12-13T14:46:22.594Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 v1803, Canary 29532
+
+Solo#0007 - Bug Bot on 2018-12-13T15:53:46.537Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 29532
+
+Neiron#8475 - Bug Bot on 2018-12-13T18:41:23.576Z
+
+
+### verified, win 10, canary 29791 - Clayton on 2018-12-18T11:45:45.803Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-18T11:45:57.469Z
+
+
+### Spoke to Andy about this, while technically valid it's a Won't Fix.It's just polling for video devices. - Jared on 2018-12-18T17:33:56.835Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2018-12-18T17:34:00.948Z
+
+
+### Archived by Bug Bot on 2019-01-17T18:00:27.663Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

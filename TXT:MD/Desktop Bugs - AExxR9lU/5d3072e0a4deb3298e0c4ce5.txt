@@ -1,0 +1,66 @@
+You get disconnected from a server Voice Channel after 5 minutes if you joined it after being in a DM call (https://trello.com/c/xbq4uL4Q)
+
+None
+
+Created: 2019-07-18T13:23:44.587Z
+Latest Update: 2020-07-16T21:26:04.465Z
+
+Reported by Zenorant#0140
+
+####Steps to reproduce:
+- Leave a call with one other person being the last person in the call. 
+- Enter a call in a server with the same person (no one else) 
+- Wait five minutes and the original call should time out kicking you from the call with that person.
+
+####Expected result:
+You shouldn't be kick from the new call at all.
+####Actual result:
+As you enter into the new call the five minute timeout timer continues, kicking you from the call.
+####Client settings:
+Release Channel: stable, Build Number: 41168
+####System settings:
+Windows 10 Version 1809
+
+39672
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-18T13:23:44.587Z
+
+
+### Can reproduce.
+can repro, win 10, canary 41300
+
+IcyPebbles#5833 - Bug Bot on 2019-07-18T13:23:52.519Z
+
+
+### Can reproduce.
+macos 10.15, canary 41390
+
+OrangeM24#5746 - Bug Bot on 2019-07-18T13:23:57.357Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 41390
+
+AHkhan#9999 - Bug Bot on 2019-07-18T13:24:02.421Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | canary 41426
+
+charleskimbac#6492 - Bug Bot on 2019-07-18T22:05:48.607Z
+
+
+### Can reproduce.
+Windows 8.1 Professional x64 | Discord Stable, Build Number: 46787
+
+Peasant of Eternal Destruction#4860 - Bug Bot on 2019-10-07T17:09:36.759Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

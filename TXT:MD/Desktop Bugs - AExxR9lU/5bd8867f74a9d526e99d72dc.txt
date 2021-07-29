@@ -1,0 +1,122 @@
+[Archived] Viewing invite links pointing to voice channels causes an instant crash (https://trello.com/c/1ytGUMAa)
+
+P1: Severe,
+Low
+
+Created: 2018-10-30T16:27:43.613Z
+Latest Update: 2019-06-01T07:25:02.244Z
+
+Reported by Niflheim#0064
+
+####Steps to reproduce:
+- Generate an invite link pointing to a voice channel
+- Post the invite in a text channel
+- Observe how the client instantly crashes, and when clicking the reload button you crash once again.
+
+####Expected result:
+Invite is supposed to load
+####Actual result:
+Canary client crashes irrecoverably with an error in the console
+####Client settings:
+Desktop Canary Build 27140
+####System settings:
+Windows 10 Version 17134
+
+22430
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-30T16:27:43.613Z
+
+
+### Solo#0007 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bd8867f74a9d526e99d72dc/69779b7cc1c736e4a671db1a1bc9b24e/CRN29gE.png added by Bug Bot on 2018-10-30T16:27:46.016Z
+
+
+### Solo#0007 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bd8867f74a9d526e99d72dc/be1c8e329c23d668b6edde8688724bab/XFmw5hp.gif added by Bug Bot on 2018-10-30T16:27:46.203Z
+
+
+### Can reproduce.
+Discord Canary 0.0.216 (27140) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-10-30T16:27:51.894Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 27140 - - cr
+
+Solo#0007 - Bug Bot on 2018-10-30T16:27:56.243Z
+
+
+### Can reproduce.
+The issue is specifically caused by voice channel invites posted into the chat. You can remove them by using Stable Web app. Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.492), Canary 0.0.216 (Build 27140)
+
+SuperSajuuk#0001 - Bug Bot on 2018-10-30T16:28:00.954Z
+
+
+### Can reproduce.
+Canary build 27140; Windows 10 Pro build 17134
+
+SnowyLuma#0001 - Bug Bot on 2018-10-30T16:39:05.212Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 27140
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-30T16:42:31.803Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 27140
+
+Neiron#7777 - Bug Bot on 2018-10-30T16:44:44.963Z
+
+
+### Can reproduce.
+Windows 10 home v1803 x64 Canary 27140
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-30T20:32:32.911Z
+
+
+### verified, macos 10.12.6, canary 27140 - Clayton on 2018-10-30T23:52:51.585Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-30T23:52:58.836Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Joey Baker on 2018-10-31T05:27:57.400Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Joey Baker on 2018-10-31T05:39:29.388Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-08T04:06:58.415Z
+
+
+### Bug is back on Canary 27802. Moving to reopened. :ohnuu: - Tarek on 2018-11-10T03:14:40.063Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2018-11-10T03:14:45.184Z
+
+
+### This little sweetie bug is fixed again in 27804. Back to rest you go
+Moving to claimed fixed. - Tarek on 2018-11-10T03:41:34.191Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Tarek on 2018-11-10T03:41:38.198Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-14T04:02:58.880Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:51:05.151Z
+
+
+### Archived by Tarek on 2019-01-01T15:51:06.068Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

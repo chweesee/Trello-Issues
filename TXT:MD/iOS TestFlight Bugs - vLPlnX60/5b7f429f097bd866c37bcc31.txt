@@ -1,0 +1,98 @@
+[Archived] Nearby Feature: Discord doesn't ask for Location Services permission (https://trello.com/c/P2joLnyA)
+
+P1 - Severe
+
+Created: 2018-08-23T23:26:24.015Z
+Latest Update: 2018-10-05T00:01:09.202Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to your friends screen 
+- Click on the add friends button 
+- Click on `Find Friends` 
+- If necessary, click a second time
+
+####Expected result:
+Discord should ask for location services permission.
+####Actual result:
+Nothing happens, Discord doesn't ask for this permission and you don't see it in your iOS settings.
+####Client settings:
+TestFlight 2.3.7 (6914)
+####System settings:
+iPhone 8 Plus, iPad Air 2 - iOS 12 Public Beta 8
+
+18275
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-23T23:26:24.015Z
+
+
+### Can reproduce.
+iPhone 6s iOS 11.4.1, TF 2.3.7 (6914)
+
+George#0069 - Bug Bot on 2018-08-23T23:26:31.500Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 10) - TestFlight 2.3.7 (6914)
+
+Xylium#1480 - Bug Bot on 2018-08-23T23:26:36.253Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 Developer Beta 10, TestFlight 2.3.7 (6914)
+
+Alfie#1582 - Bug Bot on 2018-08-23T23:26:41.277Z
+
+
+### Moved from New Issues to Nearby Friends Bugs by Victoria on 2018-08-23T23:26:50.688Z
+
+
+### Can reproduce.
+Can Reproduce - iPhone 6s, iOS 11.4.1 - TestFlight 2.3.7 (6914)
+
+Mippy#0001 - Bug Bot on 2018-08-23T23:26:54.646Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 11.4.1, TF 2.3.7 (6914)
+
+Rexogamer#1183 - Bug Bot on 2018-08-24T11:41:08.430Z
+
+
+### Can reproduce.
+Can Reproduce , TestFlight 2.3.7 (6914) iPhone 7 iOS 11.4.1
+
+Scrumpy#2763 - Bug Bot on 2018-08-24T15:29:30.476Z
+
+
+### Also happens with Bluetooth and WiFi, there is no popup message for enabling it.
+
+Pascal#0929 - Bug Bot on 2018-08-24T16:54:00.015Z
+
+
+### Not sure this is required by Apple and/or Google for this feature. - Jeff Cailteux on 2018-08-24T21:46:13.956Z
+
+
+### I think it doesnt ask location perm for non beacon messages. But we added the description to info.plist anyway since apple detects the possible location usage from the nearby dependency. 
+
+Also I suggest to update location description in info.plist to something generic. - Fanghao on 2018-08-25T07:33:48.037Z
+
+
+### Moved from Nearby Friends Bugs to Fix made, not yet released by Jeff Cailteux on 2018-08-27T19:52:52.051Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-08-28T02:41:24.307Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:09.204Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

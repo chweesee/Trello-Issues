@@ -1,0 +1,120 @@
+Hitting re-open window with a paypal window already open causes an Uncaught (in promise) Error (https://trello.com/c/Snh49SGP)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-04-09T04:04:54.749Z
+Latest Update: 2019-07-19T14:28:01.830Z
+
+Reported by TheForbiddenAi#7549
+
+####Steps to reproduce:
+- Go to the developer portal 
+- Select an application in a team 
+- Click check it out 
+- Click buy 
+- Open console using control + shift + i 
+- Click paypal 
+- While the paypal window is open hit re-open window on menu 
+- Observe the Uncaught (in promise) error in console
+
+####Expected result:
+No Uncaught (in promise) error should appear
+####Actual result:
+An Uncaught (in promise) error appears
+####Client settings:
+Chrome 73
+####System settings:
+Windows 10 Home x64 (1809)
+
+32350
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-09T04:04:54.749Z
+
+
+### TheForbiddenAi#7549 - https://i.imgur.com/RjfVyOF.gifv added by Bug Bot on 2019-04-09T04:04:57.167Z
+
+
+### Can reproduce.
+Windows 10.0.17134, Chrome 73
+
+MrFluent#5139 - Bug Bot on 2019-04-09T04:05:02.094Z
+
+
+### Can reproduce.
+macos 10.14.5, chrome 73
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-09T04:05:07.128Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809
+
+tech_dude1#9855 - Bug Bot on 2019-04-09T04:05:12.087Z
+
+
+### Can reproduce.
+Windows 10 Pro x32, Chrome 73.0.3683.103
+
+Karasu#0013 - Bug Bot on 2019-04-09T04:36:25.933Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 ~ Chrome 72.0.3626.122 (x64)
+
+Casper#9999 - Bug Bot on 2019-04-09T04:56:20.648Z
+
+
+### Can reproduce.
+CR Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+warp#4660 - Bug Bot on 2019-04-09T07:59:39.879Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Google Chrome  73.0.3683.86
+
+Daffyduck#5364 - Bug Bot on 2019-04-09T08:11:47.928Z
+
+
+### Can reproduce.
+W10 Home x64, 1809 17763.379, Chrome 73.0
+
+c1#1337 - Bug Bot on 2019-04-09T09:16:28.918Z
+
+
+### Can reproduce.
+Win 10 Pro x64 (1809) | Chrome 73
+
+Clay#0001 - Bug Bot on 2019-04-09T19:01:58.240Z
+
+
+### Can't reproduce.
+MacOs High Sierra 10.13.6 MacBook Pro (Retina, 15-inch, Mid 2014), - No error appears
+
+MoonlightCapital#0554 - Bug Bot on 2019-04-09T20:02:22.804Z
+
+
+### Can't reproduce.
+macOS High Sierra, Version: 10.13.6 - Safari Version 12.1 (13607.1.40.1.5) nor Chrome Version 73.0.3683.86 (Official Build) (64-bit)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-04-10T02:05:08.224Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-06-09T03:22:07.057Z
+
+
+### Verified » Windows 10 Pro x64, Chrome Version 75.0.3770.142 (64-bit) - Aeria on 2019-07-19T14:27:58.876Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Aeria on 2019-07-19T14:28:01.798Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

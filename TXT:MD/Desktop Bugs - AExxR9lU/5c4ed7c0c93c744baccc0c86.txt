@@ -1,0 +1,70 @@
+[Archived] [Edge specific] 2FA picture enlarges after you enter an invalid two factor code, unlike in Chrome or Opera (https://trello.com/c/Bbdv0DDT)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-01-28T10:21:52.125Z
+Latest Update: 2019-03-22T03:00:02.867Z
+
+Reported by charleskimbac#6492
+
+####Steps to reproduce:
+- Go to User Settings 
+- Click 'Enable Two-Factor Auth' 
+- Click Activate with nothing entered in the text box
+
+####Expected result:
+The photo should remain the same size, like in Chrome or Opera.
+####Actual result:
+The phone picture enlarges if you type in a wrong two factor code
+####Client settings:
+Stable 31316
+####System settings:
+Windows 10 Home; EdgeHTML 18.17763
+
+27192
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-28T10:21:52.125Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home Microsoft EdgeHTML 17.17134
+
+Bencey_#8587 - Bug Bot on 2019-01-28T10:21:59.455Z
+
+
+### Can reproduce.
+Can reproduce; EdgeHTML 17.17134 Windows 10  Home x64
+
+Skyla#7948 - Bug Bot on 2019-01-28T10:22:04.525Z
+
+
+### Can reproduce.
+CR | win 10 x64 | EdgeHTML 17.17134
+
+Mr.Freezing#4304 - Bug Bot on 2019-01-28T10:22:09.546Z
+
+
+### verified, win10, edgehtml 18.177 - Clayton on 2019-01-29T05:03:42.017Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-29T05:03:49.771Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32470; MS Edge 42.17134.1.0
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-20T02:56:26.229Z
+
+
+### Archived by Bug Bot on 2019-03-22T03:00:02.878Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

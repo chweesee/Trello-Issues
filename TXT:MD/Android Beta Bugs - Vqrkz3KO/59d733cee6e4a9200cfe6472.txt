@@ -1,0 +1,70 @@
+[Archived] Viewing recent mentions after reading the new unread messages in a channel will scroll you back to the New messages red bar (https://trello.com/c/EF3iqJPK)
+
+P3 - Will be fixed eventually
+
+Created: 2017-10-06T07:42:06.197Z
+Latest Update: 2018-08-22T01:20:07.496Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Choose any active text channel, and make sure you're out of it so you can get the unread messages indicator 
+- Wait a few minutes for new messages, then go to this channel. It should bring you to the "new messages" red separator. If the last sent message is offscreen, you're good to go. 
+- Scroll down until you reach the last sent message 
+- Without leaving the channel, click the `@` button to see recent mentions 
+- Close the recent mentions panel
+
+####Expected result:
+You should be still scrolled at the last sent message
+####Actual result:
+It scrolled back to the New messages red line separator
+####Client settings:
+Discord Android Alpha 5.2.7
+####System settings:
+Huawei Mate 9 Android 7.0
+
+5142
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-06T07:42:06.197Z
+
+
+### Can reproduce.
+CR LG Xpower 6.0.1 on alpha 5.2.8
+
+ks0908#8526 - Bug Bot on 2017-10-06T07:42:13.832Z
+
+
+### Can reproduce.
+CR on Samsung Galaxy S5, Android 6.0.1 using Alpha 5.2.8
+
+Zak_Patat#9077 - Bug Bot on 2017-10-06T07:42:18.867Z
+
+
+### Can reproduce.
+CR, Google/LG Nexus 5, Android 6.0.1, Discord Alpha 5.2.8
+
+Starshine Dust#2189 - Bug Bot on 2017-10-06T07:42:23.855Z
+
+
+### Verified.  - Clayton on 2017-10-13T00:30:51.016Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-13T00:30:54.435Z
+
+
+### As of 5.8.8 I can't reproduce with those repro steps. But instead of going to recent mentions you can just rotate your screen, rotating the screen will always bring you back to the New Messages red separator.
+
+Alex1304#9704 - Bug Bot on 2017-12-20T00:02:10.402Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:07.498Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

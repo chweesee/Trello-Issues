@@ -1,0 +1,72 @@
+[Archived] Apostrophes show as "&#039" in link embeds (https://trello.com/c/7UzKMWDL)
+
+P2: Fix can wait a while
+
+Created: 2017-04-20T17:49:41.607Z
+Latest Update: 2017-10-17T20:30:26.255Z
+
+Reported by King - Vlad#0815
+
+####Steps to reproduce: 
+- Embed a Link (I used <https://blogs.msdn.microsoft.com/friis/2016/08/25/setup-iis-with-url-rewrite-as-a-reverse-proxy-for-real-world-apps/>) 
+- Look at the Author part (small text above everything, in this case it says "Blog de l&#039..") 
+
+####Expected result:
+ Apostrophe shows where "&#039" is 
+####Actual result:
+ Apostrophe is replaced with "&#039" 
+####System settings:
+ Windows 10 x64 Creator Update, latest Canary
+
+1104
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-20T17:49:41.607Z
+
+
+### Can reproduce.
+Latest canary, win10
+
+Mippy | Discord BH#1483 - Bug Bot on 2017-04-20T17:49:42.434Z
+
+
+### Can reproduce.
+VFD 600, latest Alpha, Android 6.0.1
+
+TTtie#5937 - Bug Bot on 2017-04-20T17:49:44.440Z
+
+
+### Can reproduce.
+arch 0.15 canary
+
+Alex from Alaska#9760 - Bug Bot on 2017-04-20T17:49:46.400Z
+
+
+### 80x5V7.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58f8f4b5d416b9c82ae5ecb3/9d4a0cd7357ca934bb512c7578b62813/80x5V7.png added by Bug Bot on 2017-04-20T17:49:57.652Z
+
+
+### Verified.  - Clayton on 2017-04-20T18:43:30.414Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-20T18:43:38.104Z
+
+
+### Verified Fixed. - Jared on 2017-07-31T21:19:18.682Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T21:19:22.667Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:30:24.801Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:30:26.258Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

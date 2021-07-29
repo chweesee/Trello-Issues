@@ -1,0 +1,85 @@
+[Archived] Search does not highlight text in code blocks (https://trello.com/c/NHgMn1Y3)
+
+P3: Will get fixed eventually
+
+Created: 2017-02-15T18:36:10.405Z
+Latest Update: 2018-07-06T18:10:52.299Z
+
+Reported by EMT#2524
+
+####Steps to reproduce: 
+- Write out a code block 
+- Attempt to search for it 
+- etc 
+
+####Expected result:
+ Search should highlight any words matching the search 
+####Actual result:
+ Search ignores code blocks FeelsBadMan 
+####System settings:
+ Windows 7 x64, Canary 0.0.153
+
+1640
+
+Card Log
+========
+### Added by Jared on 2017-02-15T18:36:10.405Z
+
+
+### Can reproduce.
+macOS Discord Canary
+
+Harrison#9100 - Jared on 2017-02-15T18:36:10.998Z
+
+
+### Can reproduce.
+Win10 x64, Canary 0.0.153
+
+Concerned Hobbit#6295 - Jared on 2017-02-15T18:36:13.404Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 0.0.153
+
+Chrees#4389 - Jared on 2017-02-15T18:36:15.246Z
+
+
+### Verified, but minor. - Jared on 2017-02-15T19:48:18.344Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-15T19:48:22.381Z
+
+
+### This issue still occurs as of 7/28 - Jared on 2017-07-28T23:35:34.582Z
+
+
+### Cannot reproduce anymore, Canary 9959. Moving to claimed fixed. - Tarek on 2018-01-26T21:03:30.928Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-26T21:03:38.028Z
+
+
+### Can reproduce.
+CR this on multiline code blocks but CNR on single line code blocks. It makes this a bit inconvenient when searching for code. Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 10189
+
+Kuuhaku#4503 - Bug Bot on 2018-02-02T18:52:57.173Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1709 on Canary 12092
+
+railworks2#1234 - Bug Bot on 2018-03-16T00:34:18.730Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:10:51.569Z
+
+
+### Archived by Jared on 2018-07-06T18:10:52.301Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

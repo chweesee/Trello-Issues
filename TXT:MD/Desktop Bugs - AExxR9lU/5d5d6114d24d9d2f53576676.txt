@@ -1,0 +1,102 @@
+'Set this link to never expire' option does not work under certain conditions when creating invite link (https://trello.com/c/5DcyqJgU)
+
+None
+
+Created: 2019-08-21T15:19:48.860Z
+Latest Update: 2020-07-16T21:26:04.930Z
+
+Reported by dora#9999
+
+####Steps to reproduce:
+- Open the 'Invite People' menu. 
+- In Link Settings, set to expire 'after 30 minutes or 1 use'. 
+- Click 'cancel'. 
+- set to expire 'after 1 hour or 5 uses'. 
+- Click 'cancel'. 
+- Click 'Set this link to never expire'.
+
+####Expected result:
+The invitation link will not expire.
+####Actual result:
+The invitation link is set to expire after 30 minutes or 5 uses. (a new link is created.)
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 44004, Version Hash: 880291f174f7218938b7da87be24dca41b211f1a
+####System settings:
+Windows 10 x64 (Version 1903), OS Build 18362.295
+
+42551
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-21T15:19:48.860Z
+
+
+### Can reproduce.
+CR - Windows 10 Home x64 (1809) - Discord Stable 44004
+
+TBS | Best_Pro#7066 - Bug Bot on 2019-08-21T15:19:56.267Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home x64, Version 1803, Discord Stable 44004
+
+RussianWaffles#3743 - Bug Bot on 2019-08-21T15:20:01.272Z
+
+
+### Can reproduce.
+CR - Windows 10 , Discord Canary 44004
+
+shiboos#1385 - Bug Bot on 2019-08-21T15:20:06.309Z
+
+
+### dora#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d5d6114d24d9d2f53576676/d274722845b4bd58d417876b752f356f/gR2LtIJ.gif added by Bug Bot on 2019-08-21T15:20:08.768Z
+
+
+### Can reproduce.
+CR; Windows 10; Release Channel: stable, Build Number: 44004
+
+Emma#6775 - Bug Bot on 2019-08-21T16:17:37.579Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 44004
+
+B.O.S.S#0251 - Bug Bot on 2019-08-21T17:28:38.069Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1803) • Discord version stable • Build  44004
+
+Wyrd rëisa#7128 - Bug Bot on 2019-08-21T21:07:49.867Z
+
+
+### Can reproduce.
+macOS High Sierra, Version: 10.13.6 - Discord Canary 44115
+
+Leaf#0001 - Bug Bot on 2019-08-22T20:08:05.003Z
+
+
+### Can reproduce.
+44115
+
+Jeffrey#1234 - Bug Bot on 2019-08-22T21:02:18.792Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 44281 (Host 0.0.2554)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-23T03:06:37.421Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 44396
+
+Neiron#8475 - Bug Bot on 2019-08-26T12:59:35.016Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

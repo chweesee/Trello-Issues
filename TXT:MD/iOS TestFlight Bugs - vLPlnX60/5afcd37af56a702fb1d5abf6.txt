@@ -1,0 +1,87 @@
+App crashes when you try changing webhooks and dont have correct permissions (https://trello.com/c/6tK4QPQ6)
+
+P2 - Can wait a while,
+mid
+
+Created: 2018-05-17T00:57:30.150Z
+Latest Update: 2019-10-04T20:19:29.621Z
+
+Reported by Eleventy#0042
+
+####Steps to reproduce:
+- Have permissions to manage server, manage channels, and manage roles (DO NOT HAVE ADMIN)
+
+- Go to any text channel
+
+- Select permissions
+
+-  Select any role
+
+-  Change "Manage webhooks" from neutral, to false or positive (doesnt matter which one)
+
+####Expected result:
+App warns you that you cannot change that permission (like it does on PC), or nothing happens
+####Actual result:
+App completely crashes
+####Client settings:
+iOS app version: 2.3.1
+####System settings:
+iOS 11.2.1
+
+12872
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-17T00:57:30.150Z
+
+
+### Can reproduce.
+Can Reproduce; not with the steps that been said in the report, but with:
+- Go to channel settings 
+- Make sure @ everyone has “Send message” as X 
+- Add a role named “Muted” and add it to the channel permission 
+- Give the “muted” role permission to “read message” as X (click on it) 
+- Observe the crash. iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4460)
+
+Xylium#1480 - Bug Bot on 2018-05-17T00:57:37.700Z
+
+
+### Can reproduce.
+Can reproduce on iPhone X iOS 11.3.1 - Testflight 2.3.2 (4460).
+
+DreaM#0001 - Bug Bot on 2018-05-17T00:57:42.770Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 8 +, iOS 11.4 (PB5) with Discord TestFlight 2.3.2 (4460)
+
+Ghoul#0009 - Bug Bot on 2018-05-17T00:57:47.703Z
+
+
+### Can reproduce.
+Can Reproduce; iPhone X , iOS 11.4, TestFlight 2.3.2 (4528)
+
+Yoginth#9339 - Bug Bot on 2018-05-17T02:50:13.040Z
+
+
+### Verified - Jared on 2018-05-17T22:24:00.714Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-17T22:24:05.558Z
+
+
+### mouse#0091 - https://www.youtube.com/watch?v=dcnDo-yimUk added by Bug Bot on 2018-07-15T09:10:58.509Z
+
+
+### Can reproduce.
+Happened to me with the Manage Messages permission. Discord via TestFlight (v2.4.6, Build 12026), iOS 12.1.1 on iPad Pro 2nd Gen
+
+SuperSajuuk#0001 - Bug Bot on 2019-03-11T12:20:11.300Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

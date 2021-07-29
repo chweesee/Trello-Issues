@@ -1,0 +1,68 @@
+[Archived] On Electron 3.x, client is very slow at everything without hardware acceleration (https://trello.com/c/DY2UIFbp)
+
+None
+
+Created: 2018-10-04T07:26:11.324Z
+Latest Update: 2018-10-04T07:30:01.517Z
+
+Reported by Raqbit#9227
+
+####Steps to reproduce:
+- Open Discord 
+- Turn hardware acceleration off 
+- Restart discord
+
+####Expected result:
+Discord should not be sluggish and perform like with the previous electron version
+####Actual result:
+Discord is sluggish, animations are slow, loads are slow. It does perform like normal when the developer-tab is open.
+####Client settings:
+Desktop Canary, Build 25434
+####System settings:
+Ubuntu 18.04
+
+20589
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-04T07:26:11.324Z
+
+
+### Can reproduce.
+Discord Canary 0.0.214 (25434) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-10-04T07:26:18.651Z
+
+
+### Can reproduce.
+Discord Canary 0.0.214, Build 25434, Windows 10 Home 64-bit (v1803)
+
+Ene#0808 - Bug Bot on 2018-10-04T07:26:23.641Z
+
+
+### Can reproduce.
+Windows 10 1803 x64, canary build 25434
+
+AEnterprise#4693 - Bug Bot on 2018-10-04T07:26:28.709Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary Build 25434
+
+Nashorn#3450 - Bug Bot on 2018-10-04T07:26:33.651Z
+
+
+### bugbot got confused and duped the ticket, the working one is https://trello.com/c/exBVjeB6/3083-on-electron-3x-client-is-very-slow-at-everything-without-hardware-acceleration
+
+archiving to clean up - Tim on 2018-10-04T07:29:56.814Z
+
+
+### Archived by Tim on 2018-10-04T07:30:01.520Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

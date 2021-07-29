@@ -1,0 +1,141 @@
+[Archived] Small problem with pinned messages (https://trello.com/c/cJfG4dNs)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-02-06T17:29:56.048Z
+Latest Update: 2019-07-31T02:19:29.337Z
+
+Reported by stealth200#6754
+
+####Steps to reproduce:-first step
+- make sure to go to a server channel that you know has pinned messages in it -second step
+- make sure the pinned messages icon has the red dot next to it to say there is a new pinned message-third step
+- click the pin icon to open the pinned messages-end-
+
+####Expected result:
+should show no pinned messiges then show the pinned messiges.
+####Actual result:
+it quickly shows no pinned messiges sad face then shows you the pinned messges
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 31908, Version Hash: 49b36f530c405dc21ef5b303a03b4e38a2ef3522
+####System settings:
+windows 10 home - verson 1709
+
+28231
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-06T17:29:56.048Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 - Canary 31908; Initially I was unable to reproduce this however after tinkering around using dev tools and throttling connection speed, I was able to get it to display for a good second or two after the loading GIF. Seems to affect low-bandwidth users.
+
+SyntaxPrime#0001 - Bug Bot on 2019-02-06T17:30:03.641Z
+
+
+### Can reproduce.
+CR: Razer Blade Pro, Ubuntu 18.04.1 LTS (64-bit), Gnome 3.28.2, Discord Canary 31908. Loading GIF shows and "no pinned messages" will appear for about a quarter second or some other extremely short timespan before being replaced by pins.
+
+KazWolfe#2896 - Bug Bot on 2019-02-06T17:30:08.999Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017), High Sierra 10.13.6 Canary: 31908
+
+XiuhcoatlSlayer#5248 - Bug Bot on 2019-02-06T17:30:13.631Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 31908
+
+Delite#0001 - Bug Bot on 2019-02-06T17:48:52.042Z
+
+
+### Can reproduce.
+CR, Shows for a split second in between loading gif and actual messages, Windows 10 x64 (1809) - Discord Canary 31908
+
+Arnold0#7514 - Bug Bot on 2019-02-06T18:22:14.801Z
+
+
+### Can reproduce.
+MacBook Pro 2017 (13” W/ touchbar) - Mojave 10.14 -Discord Canary (31908)
+
+CustomName#9999 - Bug Bot on 2019-02-06T21:54:11.701Z
+
+
+### Can reproduce.
+CR, Stable : Build Number : 31908, Windows 10 Home x64
+
+2Fst4Gas#9999 - Bug Bot on 2019-02-06T22:02:54.548Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 31941
+
+Frances Picard#6209 - Bug Bot on 2019-02-07T03:26:01.048Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE (11.6") - Chrome OS 71.0.3578.127 (64-bit) - Web Canary 31941 — After changing my Network throttling inside DevTools to "Slow 3G", this seems to affect low-bandwidth users.
+
+Casper#9999 - Bug Bot on 2019-02-07T06:50:16.474Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Canary 31941
+
+Defracted#0001 - Bug Bot on 2019-02-07T14:33:50.561Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 31941
+
+TheForbiddenAi#0001 - Bug Bot on 2019-02-07T22:24:17.265Z
+
+
+### Can reproduce.
+Windows 8.1 (x64) - Canary (31974)
+
+gianna#0248 - Bug Bot on 2019-02-08T17:03:17.497Z
+
+
+### Can reproduce.
+CR; Windows 7 Ultimate x64 - Canary 31974
+
+Waff#0267 - Bug Bot on 2019-02-08T21:45:52.637Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Canary 31974
+
+Isabel#0002 - Bug Bot on 2019-02-09T02:17:31.636Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Canary 31974
+
+Isabel#0002 - Bug Bot on 2019-02-09T02:17:31.944Z
+
+
+### the message sent twice ._. ignore second repro please
+
+Isabel#0002 - Bug Bot on 2019-02-09T02:17:55.225Z
+
+
+### verified, macos 10.12.6, canary 31974 - Clayton on 2019-02-09T02:40:13.523Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-09T02:40:19.958Z
+
+
+### Archived by Bug Bot on 2019-03-11T03:00:04.208Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

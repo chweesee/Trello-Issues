@@ -1,0 +1,93 @@
+[Archived] In-app camera will bounce if you spam click the area above the in-app camera (https://trello.com/c/ztp3imLF)
+
+None
+
+Created: 2018-10-31T03:11:42.886Z
+Latest Update: 2019-01-01T15:28:25.765Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go in a text channel and tap the + button 
+- Go to in-app camera tab 
+- Spam click the area above the popup
+
+####Expected result:
+The first click shoud close the popup and any other click should be registered by the chat behind
+####Actual result:
+The in-app camera popup bounces as you spam click and somehow prevents it from closing immediately
+####Client settings:
+Discord Alpha 7.8.3
+####System settings:
+Huawei Mate 9 Android 8.0
+
+22464
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-31T03:11:42.886Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bd91d6e3e47b66e420fad90/db9b8de204ed6733470a1ae600d46c36/record_20181031_012329.gif added by Bug Bot on 2018-10-31T03:11:45.333Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bd91d6e3e47b66e420fad90/aa25ab26ca41625192b022a4e0eac9d6/record_20181031_011803.gif added by Bug Bot on 2018-10-31T03:11:45.358Z
+
+
+### Can reproduce.
+[cr] Google Pixel 3 XL 128 GB (G013C), Android 9.0 (Build P1DA.180720.030), Discord Alpha 7.8.3 - You really need to be quicking very quickly to trigger this
+
+KazWolfe#2896 - Bug Bot on 2018-10-31T03:11:50.198Z
+
+
+### Can reproduce.
+Can reproduce | Samsung Galaxy note 8, Discord Alpha 7.8.3. (way easier to repro on front cam for me)
+
+J1#0088 - Bug Bot on 2018-10-31T03:11:55.208Z
+
+
+### Can reproduce.
+[CR] OnePlus 2 - Android 6.0.1 - Discord Alpha 7.8.3 (783) - Took a few tries to repro
+
+VR#5448 - Bug Bot on 2018-10-31T03:12:00.202Z
+
+
+### Can reproduce.
+[CR] Razer Phone, Android 8.1.0, Discord Alpha 7.8.3
+
+Ardia#7038 - Bug Bot on 2018-10-31T04:28:57.358Z
+
+
+### Can't reproduce.
+Tried multiple times, can't seem to get this to work. LG Fortune, Android 6.0.1 - Discord Alpha 7.8.3
+
+Hole#0001 - Bug Bot on 2018-10-31T13:31:49.320Z
+
+
+### I can't repro on S8 - Sam Shih on 2018-10-31T23:34:10.301Z
+
+
+### Not sure this is a something worth exploring. What happens when you just single click? Is this something that only happens if you do the weird behaviour? - Sam Shih on 2018-10-31T23:44:58.900Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Sam Shih on 2018-10-31T23:45:13.054Z
+
+
+### Can't reproduce.
+Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Alpha 786
+
+avror#0001 - Bug Bot on 2018-11-08T20:01:19.792Z
+
+
+### Archived due to being inactive for 30+ days in cannot reproduce list. - Tarek on 2019-01-01T15:28:24.775Z
+
+
+### Archived by Tarek on 2019-01-01T15:28:25.769Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,83 @@
+[Archived] Every channel category creation entry in the audit log will say "Unmarked the channel as NSFW" (https://trello.com/c/xOUnooGO)
+
+None
+
+Created: 2017-09-09T02:01:49.472Z
+Latest Update: 2017-11-15T19:11:24.855Z
+
+Reported by Tiemen#0107
+
+####Steps to reproduce:
+- Create a category 
+- Go to Server Settings -> Audit Log 
+- Click on the category audit log entry you just created
+
+####Expected result:
+it should only say "Set the name to x"
+####Actual result:
+it'll also say "Unmarked the channel as NSFW" with every category you create, even though you can't set categories as NSFW in the first place
+####Client settings:
+Canary 0.0.163 (build 4053)
+####System settings:
+Windows 10 Pro x64 Creators Update (1703)
+
+4024
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-09T02:01:49.472Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59b34b8d7c9ba02c25a62bce/3e71416151cd082647f74db1432a5c4b/unknown.png added by Bug Bot on 2017-09-09T02:01:52.088Z
+
+
+### Can reproduce.
+CR, Fedora 26, Gnome 3, Discord Canary 0.0.24
+
+hanss314#0128 - Bug Bot on 2017-09-09T02:01:57.004Z
+
+
+### Can reproduce.
+Canary 0.0.163 + Windows 10
+
+Oasis#4730 - Bug Bot on 2017-09-09T02:02:01.999Z
+
+
+### Can reproduce.
+Canary 0.0.163, Windows 10 Pro v1703
+
+Joel#9294 - Bug Bot on 2017-09-09T02:02:07.032Z
+
+
+### Moved from User Reported Bugs to Channel catagories by Cole Norman on 2017-09-09T02:05:49.228Z
+
+
+### Moved from Channel catalgories to Fix made, not yet released by Amadeus on 2017-09-18T07:58:14.138Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Amadeus on 2017-09-22T10:26:15.228Z
+
+
+### Tested on discord build 4743:
+
+I can no longer reproduce this myself. Audit log no longer mentions anything about NSFW when you create a category. - Alexander (DJScias) on 2017-09-22T14:51:33.541Z
+
+
+### Verified fixed - Clayton on 2017-09-27T23:25:28.306Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-09-27T23:25:32.303Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:11:24.146Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:11:24.858Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

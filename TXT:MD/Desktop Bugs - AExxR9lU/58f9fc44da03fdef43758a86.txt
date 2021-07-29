@@ -1,0 +1,74 @@
+[Archived] Server Invite Codes don't visibly expand in the new Server Settings if they don't fit (https://trello.com/c/JFrA4ISw)
+
+None
+
+Created: 2017-04-21T12:34:12.812Z
+Latest Update: 2019-04-22T07:47:34.086Z
+
+Reported by Matt | WizardCM#3776
+
+####Steps to reproduce: 
+- Looks like the prerequisite is to have an "old format" invite code on your server (the long ones) 
+- Open Server Settings 
+- Go to User Management>Invites 
+- Attempt to view the full invite code of one that is truncated (with an elipsis) 
+
+####Expected result:
+ To see the full invite code 
+####Actual result:
+ You can only visibly see the first portion (roughly 9 characters) before the rest is truncated. Right clicking does nothing, and hovering does not show a longer version. Note that if you double click the invite code and copy it, pasting it elsewhere will show the full code 
+####System settings:
+ Win 10 x64 build 16170, Discord Canary
+
+1142
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-21T12:34:12.812Z
+
+
+### Can reproduce.
+canary win8.1
+
+Yatopotato 🍭#1745 - Bug Bot on 2017-04-21T12:34:13.380Z
+
+
+### Can reproduce.
+Latest Discord Canary, Windows 10 Ultimate x64
+
+DJScias#0812 - Bug Bot on 2017-04-21T12:34:15.430Z
+
+
+### Can reproduce.
+Discord Canary, Windows 10 x64
+
+AlFas#2783 - Bug Bot on 2017-04-21T12:34:17.439Z
+
+
+### 2017-04-21_20-53-57.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58f9fc44da03fdef43758a86/de859d9efd2c17c22907d7a4760f05d3/2017-04-21_20-53-57.gif added by Bug Bot on 2017-04-21T12:34:30.502Z
+
+
+### Moved from User Reported Bugs to Server Settings Redesign Bugs by Jared on 2017-04-21T17:30:17.410Z
+
+
+### Moved from Server Settings Redesign Bugs to Claimed Fixed, needs Verification by Amadeus on 2017-04-24T07:46:54.617Z
+
+
+### Can confirm this is fixed as of the last canary deploy. Needs official Discord Employee verification as well. - Alexander (DJScias) on 2017-04-24T12:57:13.030Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexander (DJScias) on 2017-05-02T23:45:49.885Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:20:10.602Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:20:11.024Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

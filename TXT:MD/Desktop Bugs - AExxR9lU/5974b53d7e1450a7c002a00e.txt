@@ -1,0 +1,76 @@
+[Archived] Bot audio output is always mono, even if transmitting in stereo (https://trello.com/c/FBYtfufI)
+
+None
+
+Created: 2017-07-23T14:39:57.422Z
+Latest Update: 2017-10-17T20:19:38.380Z
+
+Reported by TheBlackParrot#1352
+
+####Steps to reproduce:
+- Get a bot to play stereo audio (like a YouTube music video or etc.) in a 96kbps voice channel
+
+####Expected result:
+Audio should be output as stereo
+####Actual result:
+Audio is output as mono
+####Client settings:
+Linux Canary 0.0.21
+####System settings:
+Arch Linux x86\_64, kernel 4.11.9 + pulseaudio 10.0
+
+2335
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-23T14:39:57.422Z
+
+
+### Can reproduce.
+ Windows 10 x64 Creator's Update Canary 0.0.161
+
+Mikesky#3456 - Bug Bot on 2017-07-23T14:40:04.934Z
+
+
+### Can reproduce.
+Discord canary 0.0.21,  arch linux  -- does no happen on stable 0.0.1
+
+Alex from Alaska#9760 - Bug Bot on 2017-07-23T14:40:09.943Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary 0.0.161
+
+TheAggravatedHipster#8554 - Bug Bot on 2017-07-23T14:40:14.892Z
+
+
+### Can reproduce.
+Windows 10 x64 Creator's Update Canary 0.0.161 (Mikesky)
+
+Tarek1337#0379 - Bug Bot on 2017-07-23T14:40:19.956Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Ben Morse on 2017-07-25T23:41:51.133Z
+
+
+### Moved from Fix made, not yet released to Verified Fixed by Jared on 2017-09-04T17:03:43.492Z
+
+
+### Can reproduce.
+macOS 10.12.4
+
+NubbyTM#6817 - Bug Bot on 2017-09-20T20:11:47.881Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:19:35.750Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:19:38.383Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/benmorse9) - No Bio

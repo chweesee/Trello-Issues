@@ -1,0 +1,88 @@
+"Loading Note" text is displayed on top of "Tap to add a note" text when the note field is being loaded in a mini profile (https://trello.com/c/FEHMfPAU)
+
+None
+
+Created: 2020-06-06T20:58:59.283Z
+Latest Update: 2020-07-16T05:46:30.709Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Go to a server 
+- Open the member list 
+- Turn off your data/WiFi 
+- Tap any user and scroll to the note field. Note that it resolves after several seconds
+
+####Expected result:
+It should say only "Loading Note" and not "Tap to add a note" while loading, and then after loading remove "Loading note" and replace it with "Tap to add a note"
+####Actual result:
+Both strings are displayed simultaneously over-top of each other while loading, and then after loading the "Loading note" string is removed leaving the "Tap to add a note" string
+####Client settings:
+Discord 22.2 (1141)
+####System settings:
+Moto G7, Android 9
+
+56061
+
+Card Log
+========
+### Added by Bug Bot on 2020-06-06T20:58:59.283Z
+
+
+### wakfi#6999 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5edc03939f9785845a6882fa/9e82d015fbc4823e64922119dab927c3/FMCE2e0.png added by Bug Bot on 2020-06-06T20:59:02.653Z
+
+
+### Can reproduce.
+[Can Repro] Android 9, Motorola G7, Discord v22.1 (1138)
+
+CodeWritten#4044 - Bug Bot on 2020-06-06T20:59:07.015Z
+
+
+### Can reproduce.
+CR, Motorola e4 - Android 7 - Discord v22.2(1141)
+
+Mian#2183 - Bug Bot on 2020-06-06T20:59:12.114Z
+
+
+### Can reproduce.
+CR, Huawei P20 Pro, Android 9, Discord 25.2 (1154)
+
+Squidja#2098 - Bug Bot on 2020-06-06T20:59:17.048Z
+
+
+### Can reproduce.
+CR, Redmi 8, Android 9, Discord 25.2 (1154)
+
+dduke2#2723 - Bug Bot on 2020-06-06T21:38:29.742Z
+
+
+### Can reproduce.
+Android 10, Google Pixel 3, Discord Alpha25-1
+
+YouKyi#5606 - Bug Bot on 2020-06-09T15:50:35.608Z
+
+
+### Can reproduce.
+Android 10, Samsung Galaxy S10+, Discord Alpha25-1
+
+Joshument#2489 - Bug Bot on 2020-06-09T22:43:49.781Z
+
+
+### Can't reproduce.
+Asus Zenfone 5z Android 10 Discord 26.1 (1158)
+
+HardstyleToaster#7399 - Bug Bot on 2020-06-12T19:05:37.544Z
+
+
+### Can reproduce.
+CR - Casper Via M3, Android 7.0, Discord 29.0 (1176)
+
+Shiny#0003 - Bug Bot on 2020-06-30T07:31:58.485Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

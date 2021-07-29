@@ -1,0 +1,77 @@
+[Archived] Creating a private channel without selecting any role will create a channel that nobody can access, not even yourself (unless you have full admin privileges) (https://trello.com/c/24YjJKsl)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-03-14T02:38:17.887Z
+Latest Update: 2019-06-14T09:39:25.928Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go in a server you have permission to create text channels, preferably without Administrator permission
+
+- Open the menu to create a new channel 
+
+- Enable "Private channel" 
+
+- Without selecting any role, tap the checkmark to submit channel creation
+
+####Expected result:
+As on Desktop, you shouldn't even be able to submit the channel creation until you select at least 1 role
+####Actual RESULT:
+The app lets you submit it, and that will create a channel that nobody can see, except for admins/owner. This means that if you don't have Administrator privileges, you won't even be able to see the channel you just created.
+####Client settings:
+Discord Alpha 6.3.7
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9581
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-14T02:38:17.887Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 6.3.7
+
+webhp#1337 - Bug Bot on 2018-03-14T02:38:25.346Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 2016, Android 7.0, alpha 6.3.7
+
+Ticha#2648 - Bug Bot on 2018-03-14T02:38:30.444Z
+
+
+### Can reproduce.
+OnePlus 5, Android 8.0, discord alpha 6.3.7
+
+B a ™ a n#7883 - Bug Bot on 2018-03-14T02:38:35.390Z
+
+
+### Can reproduce.
+Asus Zenfone 3, Android 7.0 Discord Alpha 6.3.7
+
+Doges OWO#0001 - Bug Bot on 2018-03-14T16:29:27.485Z
+
+
+### Verified.  - Clayton on 2018-03-15T22:31:36.081Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-15T22:31:38.927Z
+
+
+### Lava#9562 - https://youtu.be/DPrmxL9w2Ys added by Bug Bot on 2018-07-16T10:13:47.753Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:25.550Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

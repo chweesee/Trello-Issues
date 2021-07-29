@@ -1,0 +1,76 @@
+You randomly jump up in chat when looking at analytics for specific announcement channel (https://trello.com/c/MoakHnak)
+
+None
+
+Created: 2019-10-07T10:30:04.282Z
+Latest Update: 2020-07-16T21:26:05.344Z
+
+Reported by O.O. Gold the Dank Meme Lord#4151
+
+####Steps to reproduce:
+- Have manage server permissions in a server that has the Publishing feature 
+- Have atleast 2 announcement channels, with atleast one of them being marked as an NSFW channel 
+- Have a previous message published in the NSFW announcement channel from a couple of messages farther up in chat history 
+- Make sure to be at the bottom of the NSFW announcement channel 
+- Head to Server Settings > Analytics > Announcements 
+- From the announcement channel dropdown, click on the NSFW channel you are in 
+- Exit the settings page
+
+####Expected result:
+You should be at the bottom of the NSFW announcement chat
+####Actual result:
+You are jumped up in chat to the last time something was published in that channel, despite you not clicking on the announcement
+####Client settings:
+Discord Canary Build 46505 (Host 0.0.257)
+####System settings:
+Windows 10 Home x64 (1903)
+
+44951
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-07T10:30:04.282Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.257 Build 46741
+
+Daffyduck#5364 - Bug Bot on 2019-10-07T10:30:11.825Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro, Canary 46787
+
+Action Potential#6862 - Bug Bot on 2019-10-07T10:30:16.797Z
+
+
+### Can reproduce.
+cr; Windows 10 x64 - Canary 46787
+
+Fictional#0001 - Bug Bot on 2019-10-07T10:30:21.872Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.388), Discord Canary 46787
+
+Kissa#1337 - Bug Bot on 2019-10-07T17:45:12.085Z
+
+
+### Can reproduce.
+iMac (Late 2015) • macOS High Sierra 10.13.6 • Canary 46787
+
+Leaf#0001 - Bug Bot on 2019-10-07T17:50:50.600Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary: 46787
+
+Scrumpy#0200 - Bug Bot on 2019-10-07T22:00:23.614Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

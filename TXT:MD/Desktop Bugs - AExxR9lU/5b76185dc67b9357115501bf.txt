@@ -1,0 +1,81 @@
+[Archived] Strange Unicode Characters breaks "Playing" status (https://trello.com/c/NFOJSFm3)
+
+None
+
+Created: 2018-08-17T00:35:41.263Z
+Latest Update: 2018-10-22T20:35:22.225Z
+
+Reported by SyntaxPrime#4495
+
+####Steps to reproduce:
+- Have an open game or application that doesn't use Rich Presence. 
+- Rename the game/application to   ๊  in the discord client 
+- observe your game status.
+
+####Expected result:
+The playing status says "Playing  ๊"
+####Actual result:
+Playing status actually appears as "Playi..."
+####Client settings:
+Stable 22036
+####System settings:
+Windows 10 Home x64 v1709
+
+17688
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-17T00:35:41.263Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 22066
+
+» a r i a#1593 - Bug Bot on 2018-08-17T00:35:48.606Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 22066
+
+webhp#1337 - Bug Bot on 2018-08-17T00:35:53.694Z
+
+
+### Can reproduce.
+Windows 10 Home Edition x64, Release Channel: canary 22066
+
+brxxn#0632 - Bug Bot on 2018-08-17T00:35:58.660Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64, Release Channel: Canary 22066
+
+CuteLittlePyro#6632 - Bug Bot on 2018-08-17T00:41:45.410Z
+
+
+### Can reproduce.
+Win 10 home x64. Canary 22066
+
+Mr. Black#5859 - Bug Bot on 2018-08-17T01:34:04.388Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22196
+
+Frances Picard#6209 - Bug Bot on 2018-08-18T04:15:11.513Z
+
+
+### Strange Unicode characters are not supported. This is not a bug. - Jared on 2018-08-20T19:08:41.860Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-08-20T19:08:47.313Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:22.227Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,94 @@
+[Archived] Invalid character encoding in Russian and strings using system language (https://trello.com/c/kXU0q21K)
+
+P2: Fix can wait a while
+
+Created: 2017-03-25T22:47:47.126Z
+Latest Update: 2017-11-15T19:00:35.150Z
+
+Reported by DarkMind#2782
+
+####Steps to reproduce:
+
+- Select Russian language. 
+- Open 'User settings'. 
+- See on "Enable in-game overlay". 
+
+####Expected result:
+ All shall be fine like as you selected English or any different language. 
+####Actual result:
+In 'Overlay', string 'Enable in-game overlay' is showing not correctly in-Russian. 
+####System settings:
+ Win10 x64, DiscordCanary.
+
+2165
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-25T22:47:47.126Z
+
+
+### Can reproduce.
+MacOS (latest), Discord Canary (Latest)
+
+xLars#5484 - Bug Bot on 2017-03-25T22:47:47.886Z
+
+
+### Can reproduce.
+macOS Discord Canary
+
+Harrison#9100 - Bug Bot on 2017-03-25T22:47:49.820Z
+
+
+### Can reproduce.
+Window 10 Canary
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-03-25T22:47:51.796Z
+
+
+### EwUJMvD.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58d6f393593af50e1309f803/0c49cfc866f764b908d122f9db7cca08/EwUJMvD.png added by Bug Bot on 2017-03-25T22:48:02.961Z
+
+
+### Verified, though might just be a translation error on crowd in.  - Clayton on 2017-03-25T23:37:56.599Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-03-25T23:38:07.224Z
+
+
+### Can reproduce.
+(The UTF-8 Broken Characters Bug, occurs randomly in packed translated strings on unicode characters)
+
+PLAYER_CHAR#2874 - Bug Bot on 2017-05-01T11:13:15.496Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T07:36:25.486Z
+
+
+### DarkMind187#2782 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58d6f393593af50e1309f803/5ef71a6e4dbfb08e9ed8889e266f2d28/58iW0BK.png added by Bug Bot on 2017-08-30T17:47:04.968Z
+
+
+### Bug with letters on first screenshot was fixed. Found the same bug, which still not fixed. I have been already attached a screenshot, now I want rewrite 'Steps to reproduce'.
+
+DarkMind187#2782 - Bug Bot on 2017-08-30T18:03:24.110Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2017-10-04T21:33:35.066Z
+
+
+### This is an i18n issue. - Jared on 2017-10-04T21:33:42.032Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:00:34.366Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:00:35.152Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

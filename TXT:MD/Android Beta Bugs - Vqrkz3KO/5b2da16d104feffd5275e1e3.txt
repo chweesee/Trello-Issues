@@ -1,0 +1,68 @@
+[Archived] Sorting multiple channels by moving them to different categories while you have a weak connection may cause weird errors to show up (https://trello.com/c/clqlLblB)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-23T01:25:01.945Z
+Latest Update: 2018-08-22T01:23:15.397Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to your mobile data settings of your Android device and select option to force 2G. This is the best way to simulate a weak connection.  
+- Open Server Settings > Channels 
+- Select either text or voice sorting mode (personally it occured more often when sorting voice channels, but that might be just me)  
+- Try to sort several channels successively by moving them into different categories. Try to be as quick as possible (without making it a destructive behavior either) : move another channel as soon as you released your finger to move a channel
+
+####Expected result:
+The client should queue your actions properly, so everything is sorted fine at the end, even if you have to wait for quite a while since your internet is slow
+####Actual result:
+The client tries to do everything at the same time and may produce conflicts, causing weird toasts to appear such as "only one channel can have a parent_id modified at a time". Usually when those errors show up your channels won't be sorted properly at the end
+####Client settings:
+Discord Alpha 6.9.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14564
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-23T01:25:01.945Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b2da16d104feffd5275e1e3/9812e8cdcb37989f76f33645087487e3/Screenshot_20180622-130739.jpg added by Bug Bot on 2018-06-23T01:25:04.636Z
+
+
+### Can reproduce.
+Can reproduce, Meizu M5 Note, Android 7.0, Android Alpha 6.9.6
+
+OminousCry#2331 - Bug Bot on 2018-06-23T01:25:09.384Z
+
+
+### Can reproduce.
+Can reproduce. Alcatel 3C, 7.0.0 Discord Alpha 6.9.6
+
+StefanFX#2952 - Bug Bot on 2018-06-23T01:25:14.435Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 6.9.6
+
+Bencey_#8587 - Bug Bot on 2018-06-23T01:25:21.560Z
+
+
+### verified, samsung s6 edge, android 7.0, 6.9.9 - Clayton on 2018-06-26T21:28:46.077Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-26T21:28:55.494Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:15.399Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

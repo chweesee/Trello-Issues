@@ -1,0 +1,87 @@
+[Archived] [Android Oreo] While in a voice call, putting Discord in the background creates a persistent unneeded notification (https://trello.com/c/1b3dpnY6)
+
+Low,
+P3 - Will be fixed eventually
+
+Created: 2017-09-08T17:07:40.089Z
+Latest Update: 2017-12-09T08:57:23.640Z
+
+Reported by Pointy#9109
+
+####Steps to reproduce:
+- Join a voice call or channel 
+- Put the application in the background (e.g. going to the home screen, switching apps, etc.) 
+- Open the notification bar
+
+####Expected result:
+Discord call controls should appear (this is related to the following: <https://trello.com/c/1JZH4yg5/>)
+####Actual result:
+A persistent notification is displayed by Android System, telling you the app is running (this should theoretically persist even when the above bug is fixed), please see the following XDA Devs post: <https://www.xda-developers.com/hide-app-running-background-notification-android-oreo/>
+####Client settings:
+Android Alpha 5.1.2
+####System settings:
+Google Pixel - Android 8.0.0
+
+3990
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-08T17:07:40.089Z
+
+
+### Pointy#9109 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59b2ce5c0a76a25bb77ca16a/ad9436e83f3742b13722092e416670da/95d383.png added by Bug Bot on 2017-09-08T17:07:43.336Z
+
+
+### Can reproduce.
+Google Pixel XL, Android 8.0.0, Discord 5.1.2
+
+Chrees#4389 - Bug Bot on 2017-09-08T17:07:47.662Z
+
+
+### Can reproduce.
+Google Pixel, Android 8.0.0, Alpha 5.1.2
+
+Mikesky#3456 - Bug Bot on 2017-09-08T17:07:52.669Z
+
+
+### Can reproduce.
+Google Pixel, Android 8.0.0, 512
+
+Liru#7091 - Bug Bot on 2017-09-08T17:07:57.705Z
+
+
+### Can no longer reproduce as of 5.3.1 (531) with the reintroduction of the persistent voice notification.
+
+Chrees#4389 - Bug Bot on 2017-10-07T03:47:00.088Z
+
+
+### Can't reproduce.
+CNR - Android Alpha 5.3.1 - Google Pixel - Android 8.0.0
+
+Pointy#9109 - Bug Bot on 2017-10-07T10:35:50.856Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-31T22:48:40.297Z
+
+
+### Moved from Verified Bugs to User Reported Bugs by Clayton on 2017-10-31T22:48:53.060Z
+
+
+### This was fixed - Jared on 2017-11-07T17:53:29.293Z
+
+
+### Moved from User Reported Bugs to Fixed Bugs by Jared on 2017-11-07T17:53:32.818Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-09T08:57:21.299Z
+
+
+### Archived by Alexandru Todea on 2017-12-09T08:57:23.642Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

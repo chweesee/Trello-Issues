@@ -1,0 +1,88 @@
+[4 Inch Specific] Tag drawer skips first name when sending image (https://trello.com/c/ssTN05o9)
+
+low,
+P2 - Can wait a while
+
+Created: 2018-08-12T01:30:43.841Z
+Latest Update: 2019-10-04T20:19:29.643Z
+
+Reported by ChaosKadir#6510
+
+####Steps to reproduce:
+- Add an image to your message 
+- Now type @ 
+- Attempt to see first name
+
+####Expected result:
+The drawer should start at the first name
+####Actual result:
+Drawer skips first name and starts at sec
+####Client settings:
+TestFlight 2.3.6 (6691)
+####System settings:
+iPhone SE, iOS Beta 12.0
+
+17378
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-12T01:30:43.841Z
+
+
+### ChaosKadir#6510 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b6f8dc3c6fb78381c145320/8cf8c8e565e72141d0af36912dcaa63c/image0.png added by Bug Bot on 2018-08-12T01:30:46.206Z
+
+
+### ChaosKadir#6510 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b6f8dc3c6fb78381c145320/1f4b9c276eb3aae49e59c7ae429490d9/image0.png added by Bug Bot on 2018-08-12T01:30:46.220Z
+
+
+### ChaosKadir#6510 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b6f8dc3c6fb78381c145320/0ba14448810f0fb7f8bb7044e614c98b/image0.png added by Bug Bot on 2018-08-12T01:30:46.243Z
+
+
+### Can reproduce.
+Can repro, guys make sure to scroll up on the draw. iPhone SE, iOS 11.4.1 - Testflight 2.3.6 (6691)
+
+evilpauwse#9985 - Bug Bot on 2018-08-12T01:30:51.210Z
+
+
+### Can reproduce.
+Can repo - iPhone 5s, iOS 11.2.6, Testflight 2.3.6 (6691)
+
+Boop Dog#7177 - Bug Bot on 2018-08-12T01:30:56.197Z
+
+
+### Can reproduce.
+Can reproduce - iPhone 5S running iOS 11.4.1, Discord TestFlight 2.3.6 (6691). I could scroll up to the first name, but I am unable to click on it.
+
+Ghoul#0009 - Bug Bot on 2018-08-12T01:31:01.123Z
+
+
+### Moved from User Reported Bugs to Chat Rewrite Bugs by Victoria on 2018-08-23T01:30:56.722Z
+
+
+### **Extension to this issue which is iPad only**
+
+- Go to any text channel
+- Click on the message text field to open the keyboard
+- Write at least 5 lines of text
+- Open the mention, emoji or channel drawer
+- Make sure the drawer has at least 4 suggestions
+- Try to scroll to the first suggestion
+
+Pascal#0929 - Bug Bot on 2018-09-14T19:26:32.005Z
+
+
+### Can reproduce.
+iPhone 5S iOS 12.1 Public Beta 1
+
+Rodry#4020 - Bug Bot on 2018-09-30T23:00:58.662Z
+
+
+### Moved from Text Chat to Backlog by Clayton on 2018-10-19T02:25:06.535Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

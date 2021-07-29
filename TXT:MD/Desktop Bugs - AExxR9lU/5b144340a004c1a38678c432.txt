@@ -1,0 +1,101 @@
+[Archived] Discord Canary restarts when playing Rainbow Six Siege (https://trello.com/c/iSeTwWqm)
+
+None
+
+Created: 2018-06-03T19:36:32.800Z
+Latest Update: 2018-07-06T18:33:28.139Z
+
+Reported by Tralec [Max]#0964
+
+####Steps to reproduce:
+- I use Discord Canary to chat and speak to other people in the community. 
+
+- I launch Rainbow Six Siege via Steam. 
+
+- Discord Canary crashes and restarts multiple times during my playsession. The interval of the crashes differs every time.
+
+- I also have Spotify up and playing during the launch of the game with Steam.
+
+####Expected result:
+Discord Canary isn't supposed to randomly crash during games.
+####Actual result:
+Discord Canary randomly crashes and restarts. When I'm in a voice channel it does rejoin after Discord has restarted.
+####Client settings:
+Discord Canary buildnumber: 16234
+####System settings:
+Windows 10 Home v.1803
+
+13581
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-03T19:36:32.800Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b144340a004c1a38678c432/2e9c078687f2d8aa385c3d1e9baef400/06368f.png added by Bug Bot on 2018-06-03T19:36:36.791Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 16275 | Can reproduce with Spotify or while Streaming. Spammed console, see attached.
+
+» a r i a#1593 - Bug Bot on 2018-06-03T19:36:40.159Z
+
+
+### Can reproduce.
+can reproduce, WIN10 home, Canary 16445
+
+Uptightjoker#0001 - Bug Bot on 2018-06-03T19:36:45.245Z
+
+
+### Can reproduce.
+Can reproduce with Fortnite as well, don't think it's a game specific thing. Might be overlay or something. I've had this crash/restart on Fortnite, Minecraft, Overwatch, and sometimes when I'm not doing anything at all. Windows 10 x64 v1803, Discord Canary 16445
+
+AlwaysMyFault#4051 - Bug Bot on 2018-06-03T19:36:50.256Z
+
+
+### Can reproduce.
+Happens with me occasionally with Overwatch and Osu, seems completely random to me, don't use spotify.
+
+ExtraCrafTX#5775 - Bug Bot on 2018-06-03T21:19:15.497Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 16445?
+
+ExtraCrafTX#5775 - Bug Bot on 2018-06-03T21:21:09.304Z
+
+
+### S2wBwcO.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b144340a004c1a38678c432/6c0cf19557c7ed2b678ab6cab5c06aea/S2wBwcO.png added by Tarek on 2018-06-04T03:39:27.798Z
+
+
+### This is the bug bounty Icy posted it in testers: https://i.imgur.com/S2wBwcO.png 
+
+Also, Aria's screenshot is irrelevant, Rich presence does that. 
+
+This is related to all type of rich presence integrations.  - Tarek on 2018-06-04T03:39:59.397Z
+
+
+### Can reproduce.
+Windows 10 April 2018 Update (version 1803, build 17134.48). This not only happens with R6, tested with Noel's Discord Rich Presence for Visual Studio Code + Spotify at the same time.
+
+Lemon#6947 - Bug Bot on 2018-06-04T05:22:56.531Z
+
+
+### Cannot reproduce. I had spotify and R6S going for over an hour and the discord client didn't restart once. - Jared on 2018-06-04T18:39:25.559Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-06-04T18:39:31.564Z
+
+
+### Archiving as this ticket has been CNR for more than 30 days. - Jared on 2018-07-06T18:33:27.253Z
+
+
+### Archived by Jared on 2018-07-06T18:33:28.142Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

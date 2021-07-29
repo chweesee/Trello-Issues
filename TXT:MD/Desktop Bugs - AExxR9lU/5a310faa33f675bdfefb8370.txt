@@ -1,0 +1,79 @@
+[Archived] Code Block Deleting Letters (https://trello.com/c/MR7aN0o8)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-12-13T11:31:54.757Z
+Latest Update: 2018-07-06T18:00:07.415Z
+
+Reported by Austin#8221
+
+####Steps to reproduce:
+- Find a block of code over 2,000 lines 
+- Use the ``` header, paste it 
+- Try and end the ```
+
+####Expected result:
+Discord should let you press enter and notify you that the message is too big
+####Actual result:
+Discord prevents you from typing anything at the end of the block
+####Client settings:
+Latest Release (Windows)
+####System settings:
+Win 10 x64
+
+6959
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-13T11:31:54.757Z
+
+
+### Can reproduce.
+CR, also not able to send the message, hitting enter just adds a newline that gets deleted, Canary  0.0.182 (8464), Windows 10 Home Version 1703
+
+QwakGoesDuck#9672 - Bug Bot on 2017-12-13T11:32:02.231Z
+
+
+### Can reproduce.
+CR, got a huge code, put after ``` and wasn't able to put any chars (just deletes) or enter (adds and removes new line). canary 8684, macOS 10.13.1
+
+dotJS#2125 - Bug Bot on 2017-12-13T11:32:08.919Z
+
+
+### Can reproduce.
+CR, Windows 7 Professional X64 (7601), Discord Canary Build 8541
+
+GoldenPheonix#6248 - Bug Bot on 2017-12-13T11:32:12.878Z
+
+
+### Verified.  - Clayton on 2017-12-15T01:45:42.379Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-15T01:45:45.672Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12159
+
+cutelilberry#5423 - Bug Bot on 2018-03-16T19:12:03.253Z
+
+
+### Verified Fixed, though this was never a bug. It was an intentional change that jake made. - Jared on 2018-03-22T21:23:51.953Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-22T21:23:56.768Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:00:05.421Z
+
+
+### Archived by Jared on 2018-07-06T18:00:07.418Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

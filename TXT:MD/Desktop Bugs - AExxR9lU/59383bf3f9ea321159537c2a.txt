@@ -1,0 +1,126 @@
+[Archived] Recieving Ice check then no route in a loop (https://trello.com/c/kMjwHxo7)
+
+P2: Fix can wait a while
+
+Created: 2017-06-07T17:46:27.999Z
+Latest Update: 2017-12-02T17:18:37.378Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Call a user from the web client 
+- Let the web client user answer the call
+
+####Expected result:
+Connection should go through
+####Actual result:
+Stuck in a loop in "Ice checking" then goes to "No route" then starts over again
+####Client settings:
+Latest on Client and chrome version is Version 58.0.3029.110 (64-bit)
+####System settings:
+Windows 10 64-bit Build 1607
+Attachement of the console log in the web browser: 
+<https://gyazo.com/31d61694ef5e6dc57babbfe53f0f60f0>
+
+1485
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-07T17:46:27.999Z
+
+
+### Dunciboy#2559 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59383bf3f9ea321159537c2a/3f9dc93fc7ec7de6ef748003b2bc0cf3/931a378abe549117c00f330b16ee1495.gif added by Bug Bot on 2017-06-07T17:46:31.006Z
+
+
+### Pointy#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59383bf3f9ea321159537c2a/a5a6dc7bd2bd3eeb1e563656998b0076/90100a.gif added by Bug Bot on 2017-06-07T17:46:31.128Z
+
+
+### Can reproduce.
+CR - Web Client Stable (Build 1114) - Chrome 59.0.3071.86 - Desktop Canary 0.0.155 (Build 1240) - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-06-07T17:46:32.532Z
+
+
+### Can reproduce.
+ Windows 10 x64 Anniversary Update (1607) Canary 0.0.155 and PTB 0.0.32. This is not a Web Client only bug, I can reproduce it on PTB AND Canary.
+
+OGNovuh#0014 - Bug Bot on 2017-06-07T17:46:34.534Z
+
+
+### Can reproduce.
+ MacBook Pro Late-2014, OSX 10.12.4, Latest Canary, Chrome Canary build
+
+NubbyTM#6817 - Bug Bot on 2017-06-07T17:46:36.504Z
+
+
+### Can reproduce.
+can reproduce - Webclient stable (v58.0.3029.110) 64bit,  Windows 10 Home x64 v1703 (Canary v 0.0.155)
+
+Tim_The#7618 - Bug Bot on 2017-06-07T17:47:45.807Z
+
+
+### Verified.  - Clayton on 2017-06-07T18:51:17.159Z
+
+
+### I can only reproduce this with Central Europe + Web Browser version.  - Clayton on 2017-06-08T00:16:17.069Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-08T00:16:22.312Z
+
+
+### CR also on western europe after playing around a bit, web browser version.
+
+Tarek1337#0379 - Bug Bot on 2017-07-17T09:04:08.568Z
+
+
+### This is a console log from the issue. https://pastebin.com/jecQtzTG
+
+Tarek1337#0379 - Bug Bot on 2017-07-30T07:16:14.576Z
+
+
+### Can no longer reproduce on Central Europe with web. - Mike Nisbet on 2017-08-15T15:10:08.994Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-08-15T16:18:32.039Z
+
+
+### Can reproduce.
+Seems like the issue is back on Discord Canary 0.0.163 (Build 4429) on Windows 10 Pro 64-bit (Build 1607), Before the issues were fully resolved even after trying to repro it for 2 hours 15th august) now it's instantly on "No route/ice checking" on every eu-central so far.
+
+Tarek1337#0379 - Bug Bot on 2017-09-19T19:44:46.377Z
+
+
+### Can reproduce.
+Stable Web B4378, Opera
+
+Jake S.#8787 - Bug Bot on 2017-09-19T19:44:58.033Z
+
+
+### to my previous canrepro I had issues with eu-central388 and eu-central351
+
+Tarek1337#0379 - Bug Bot on 2017-09-19T19:50:11.611Z
+
+
+### I contacted support regarding this and reported the dead servers. IT'S not related to this ticket at all, (sorry about that). TicketID: #1470031
+
+Tarek1337#0379 - Bug Bot on 2017-09-23T12:45:41.856Z
+
+
+### This was a client issue that was fixed. Other reports are server issues. - Jared on 2017-10-17T23:20:32.772Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-10-17T23:20:36.388Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:18:36.178Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:18:37.380Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

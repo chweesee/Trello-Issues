@@ -1,0 +1,46 @@
+Client error spams if you fail to lurk a previously Discoverable server. (https://trello.com/c/Xv304l7o)
+
+None
+
+Created: 2020-06-30T23:07:23.634Z
+Latest Update: 2020-07-16T21:26:06.402Z
+
+Reported by Cerberus#0005
+
+####Steps to reproduce:
+- Have two servers: Discoverable server and server 2 
+- Have a Discoverable server with a followable Announcement channel 
+- Follow the announcement channel from discoverable server into a separate server 
+- Click the "has followed channel" system message with a user not in the discoverable server 
+- Go to server settings and disable "Discoverable" 
+- Click the "has followed channel" system message again 
+- Click "View Server"
+
+####Expected result:
+It should just fail.
+####Actual result:
+It does not fail, client becomes randomly laggy, and client randomly spams 404 errors especially when switching servers, trying to leave the discoverable server... which it's not in.
+####Client settings:
+Ptb 62522 (5c490db)
+####System settings:
+Windows 10 Pro v2004 (OS Build 19041.329)
+
+58297
+
+Card Log
+========
+### Added by Bug Bot on 2020-06-30T23:07:23.634Z
+
+
+### Can reproduce.
+Reproducible, Discord Canary 0.0.266 (62533) on Windows 10 Pro 64-bit (1909)
+
+Tarek#1337 - Bug Bot on 2020-06-30T23:07:31.486Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

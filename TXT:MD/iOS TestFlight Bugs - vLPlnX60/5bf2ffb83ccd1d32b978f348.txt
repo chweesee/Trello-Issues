@@ -1,0 +1,105 @@
+[Archived] VoiceOver detects elements behind the settings menu (https://trello.com/c/BxDLKiJD)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2018-11-19T18:23:52.899Z
+Latest Update: 2019-12-08T17:30:11.923Z
+
+Reported by Suprnova#0001
+
+####Steps to reproduce:
+- Go to your iPhone settings and enable VoiceOver 
+- Go into Discord 
+- Open settings while in a server with channels 
+- Touch down on the location where a channel was
+
+####Expected result:
+VoiceOver only selects elements on the Settings menu
+####Actual result:
+VoiceOver detects the elements behind the settings menu, and will select and read them off.
+####Client settings:
+TF 2.4.0 (8921)
+####System settings:
+iPhone 8+ iOS 12.0
+
+23149
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-19T18:23:52.899Z
+
+
+### Can reproduce.
+Can Reproduce | iPhone 6s iOS 12.0.1 | TF (8921)
+
+FPDrεας#4133 - Bug Bot on 2018-11-19T18:24:00.307Z
+
+
+### Can reproduce.
+iPhone 6s, IOS 12.; TestFlight, Version 8921;
+
+S6out#1111 - Bug Bot on 2018-11-19T18:24:05.580Z
+
+
+### Can reproduce.
+CR; iPhone 7, iOS 10.12, Discord Testflight 2.4.0 (8841)
+
+Noobly#3578 - Bug Bot on 2018-11-19T18:24:10.345Z
+
+
+### Can reproduce.
+iPad 5, iOS 12.1 - Testflight 2.4.0 (8921)
+
+SM | SoheabMalik#2228 - Bug Bot on 2018-11-20T16:59:24.637Z
+
+
+### Can reproduce.
+iPad mini 2. iOS 12. TestFlight 2.4.0
+
+Loquax#2844 - Bug Bot on 2018-11-21T12:21:37.883Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-11-30T19:00:02.646Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:00:16.246Z
+
+
+### Can reproduce.
+iPhone XR & iPad Air iOS 12.2 TestFlight 3.0.2 (15283) this issue also allows you to have channel names read by clicking the member list, members read by clicking a chat channel, servers read by clicking a chat channel and various other elements that shouldn’t be interactable because they are not visible and are “covered” by other menus
+
+binchlord#0998 - Bug Bot on 2019-05-29T13:44:03.018Z
+
+
+### Unarchived by Bug Bot on 2019-05-29T14:00:06.287Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-05-29T15:14:35.508Z
+
+
+### Archived by Pascal on 2019-05-29T15:14:41.171Z
+
+
+### Unarchived by Pascal on 2019-10-04T20:19:14.240Z
+
+
+### Moved from New Issues to Backlog by Pascal on 2019-10-04T20:19:29.283Z
+
+
+### **Extensions of the issue**
+- VoiceOver reads "connecting ellipses" at the top of a channel or DMs: Select something on the screen below the channel or DM header, swipe left until the VoiceOver focus is on the three bars to open the server list, swipe left one more time, VoiceOver selects an element that isn't visible and reads "connecting ellipses"
+- Two finger swipe reads the entire server list when used in a channel in a server or in DMs
+- In the Friends tab, slightly down and to the left of "Add by ID", you can select a circular element that will read a server.
+- Selecting slightly above “Nearby Scan” will select a rectangle that reads “Find or start a conversation” - Pascal on 2019-10-19T20:55:56.396Z
+
+
+### Archived by Bug Bot on 2019-12-08T17:30:11.935Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

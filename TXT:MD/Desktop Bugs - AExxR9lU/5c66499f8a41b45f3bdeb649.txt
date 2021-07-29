@@ -1,0 +1,105 @@
+[Archived] When anything clickable is slightly behind the guest mode banner, you can not click it. (https://trello.com/c/AEew5Vzp)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-02-15T05:09:51.456Z
+Latest Update: 2019-10-23T23:03:33.239Z
+
+Reported by Solo#0007
+
+####Steps to reproduce:
+- Open guest mode 
+- Scroll a channel so a user mention, channel mention, link, or voice/text channel  is slightly behind the guest mode banner 
+- Hover over the clickable item 
+- Try to click it 
+- Please note, does not work with users on the members list
+
+####Expected result:
+The clicking cursor should appear, and you should be able to click it
+####Actual result:
+You can not click, and the selection cursor does not appear.
+####Client settings:
+Stable 32273
+####System settings:
+Windows 10 Home x64 (1809), Chrome 74.0.3705.0 and EdgeHTML 18.17763
+
+28845
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-15T05:09:51.456Z
+
+
+### Can reproduce.
+Chrome 72.0.3626.82 - Canary 32273. Windows 10 home x64 v.1809
+
+J1#0088 - Bug Bot on 2019-02-15T05:09:58.919Z
+
+
+### Can reproduce.
+Can repro, but only on left side of screen because the image is covering, Windows Home 1809, Discord Canary 32273, Chrome Stable 72
+
+ginkoid#8888 - Bug Bot on 2019-02-15T05:10:03.926Z
+
+
+### Solo#0007 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c66499f8a41b45f3bdeb649/9c2207b26ecf5b9c98b4915741a12745/b5ce7b5e8cca77b206238860a689c859.gif added by Bug Bot on 2019-02-15T05:10:07.007Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE (11.6") - Chrome OS 71.0.3578.127 (64-bit) - Web Canary 32273
+
+Casper#9999 - Bug Bot on 2019-02-15T05:10:08.996Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Chrome 72.0.3626.109 | Canary 32273 - You can't highlight text that is close to the image either
+
+charleskimbac#6492 - Bug Bot on 2019-02-15T06:01:23.085Z
+
+
+### minor - Clayton on 2019-02-15T11:19:49.509Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-15T11:19:57.181Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro x64 - Firefox 65.0, web Canary 32273
+
+StrangeThoughts#0001 - Bug Bot on 2019-02-15T14:15:43.791Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Canary 32273, Chrome 72.0.3626.109
+
+Defracted#1337 - Bug Bot on 2019-02-15T15:48:22.030Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 32373 - Google Chrome 72.0.3626.109
+
+Daffyduck#5364 - Bug Bot on 2019-02-16T08:01:21.136Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32373
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-16T22:45:06.436Z
+
+
+### Can reproduce.
+CR; Firefox browser Version 66 (64-bit), (Discord Canary 33262, Windows 7)
+
+Skyla#0002 - Bug Bot on 2019-03-05T12:05:18.126Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:33.252Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

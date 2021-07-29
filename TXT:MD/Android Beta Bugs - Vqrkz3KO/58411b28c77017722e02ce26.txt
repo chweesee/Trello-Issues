@@ -1,0 +1,80 @@
+[Archived] When tagging people with @ everyone without permission, the user will still get tagged. (https://trello.com/c/dyWCb022)
+
+None
+
+Created: 2016-12-02T06:56:40.849Z
+Latest Update: 2017-10-02T16:43:39.310Z
+
+Reported by FireController1847#9085
+
+####Steps to reproduce: 
+- Have a user without permission to @ everyone tag everyone. 
+
+####Expected result:
+ It does not tag everyone. 
+####Actual result:
+ The user is tagged.
+
+Card Log
+========
+### Added by Jared on 2016-12-02T06:56:40.849Z
+
+
+### Originally reported by Seriel  ( <@228574821590499329> )
+
+FireController1847#9085 - Jared on 2016-12-02T07:00:52.097Z
+
+
+### Can reproduce.
+Huawei Y560 - CM13 - Latest Alpha
+
+Seriel#0757 - Jared on 2016-12-02T14:58:01.727Z
+
+
+### Cannot reproduce.  No tagging happened.  Here are my steps:
+
+1) Account A = Server owner on Windows.
+2) Disable @everyone permission from role: "Role".
+3)  Give "Role" to Account B (on Android).
+4) A switches active servers and backgrounds the application.
+5)  B posts "hello @everyone" into chat.
+
+Result:  The text "hello @everyone" appears but is not a mention and A does not receive a badge notification.  - Jared on 2016-12-02T18:21:28.277Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-12-02T18:21:42.281Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Jared on 2016-12-08T04:04:14.010Z
+
+
+### Moved from User Reported Bugs to Serious Issues by Jared on 2016-12-08T16:34:05.903Z
+
+
+### On my step 5, User C on Windows who has been given the role "Role" uses @everyone. - Jared on 2016-12-08T16:34:44.126Z
+
+
+### Verified Fixed in build 3.2.3 (Alpha). - Jared on 2016-12-20T19:48:46.448Z
+
+
+### Moved from Serious Issues to Fixed Bugs by Jared on 2016-12-20T19:48:50.150Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:43:32.874Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:43:35.680Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:43:38.212Z
+
+
+### Archived by Jared on 2017-10-02T16:43:39.312Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

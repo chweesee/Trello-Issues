@@ -1,0 +1,84 @@
+[Archived] Rich Embeds with thumbnails in the first 50 messages loaded cause subtle scrolling (https://trello.com/c/NtK2HoT8)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-05-23T18:51:38.641Z
+Latest Update: 2018-10-22T20:14:33.393Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce:
+- Have a bot that can post a rich embed. 
+- Send rich embed content to the bot. (ensure it has a thumbnail included!) 
+- Have a few users post a few messages. 
+- Observe.
+
+####Expected result:
+The channel doesn't scroll up and stays at the normal position.
+####Actual result:
+The channel will scroll up subtlely (about the size of a message or two) and must be rescrolled down until the embed is outside the latest 50 messages.
+####Client settings:
+Discord Canary 0.0.154 (Build 810)
+####System settings:
+Windows 10 Pro (64-bit), Anniversary Update (Build 1607).
+
+1186
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-23T18:51:38.641Z
+
+
+### Can reproduce.
+-l
+
+Pointy#5565 - Bug Bot on 2017-05-23T18:51:43.073Z
+
+
+### Can reproduce.
+Discord Canary latest Win 10 pro Creators edition x64
+
+eslachance#4611 - Bug Bot on 2017-05-23T18:51:45.088Z
+
+
+### Can reproduce.
+Windows 10 Home 64bit, Discord Canary
+
+sladeiam#0642 - Bug Bot on 2017-05-23T22:12:59.378Z
+
+
+### Verified.  - Clayton on 2017-07-06T01:52:32.190Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-06T01:52:38.841Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T15:58:06.059Z
+
+
+### Any bug that can be described as "subtle" will never be a P2. This is a low P3. - Jared on 2017-10-17T06:35:49.963Z
+
+
+### This issue has been fixed for a while, but as of the past week or two, whenever an embed is generated where the "thumbnail" part (image in top right of the embed) is loading a "frozen gif", the subtle scrolling returns, which can only be solved by either deleting the embed post or getting it out of shot.
+
+SuperSajuuk#7265 - Bug Bot on 2017-11-22T17:20:15.393Z
+
+
+### Should note that this returned on Canary 0.0.180 (Build 7569) (or a few builds/versions before this)
+
+SuperSajuuk#7265 - Bug Bot on 2017-11-22T17:24:38.193Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:33.400Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

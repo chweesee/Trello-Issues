@@ -1,0 +1,47 @@
+[Archived] when I set discord to autostart, it doesn't minimize to the system tray until it's loaded. (https://trello.com/c/IUOBtZyf)
+
+None
+
+Created: 2019-10-30T21:25:28.517Z
+Latest Update: 2019-11-02T03:49:06.149Z
+
+Reported by Jacob;#6238
+
+####Steps to reproduce:
+- set open discord setting to true 
+- set start minimized to true
+
+####Expected result:
+discord should not be visible once windows starts however the application ui is displayed whilst it is loading.
+####Actual result:
+discord doesn't minimize to the system tray and instead opens like a normal window, then minimizes itself once loaded
+####Client settings:
+Desktop, Build Number: 47262
+####System settings:
+Windows 10 64bit Home, version 1903, build 18326.356
+
+45595
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-30T21:25:28.517Z
+
+
+### Can reproduce.
+can reproduce, win10, canary 48397
+
+IcyPebbles#5833 - Bug Bot on 2019-10-30T21:25:36.387Z
+
+
+### Duplicate of https://trello.com/c/KxR2rJfB - Ene on 2019-11-02T03:49:03.665Z
+
+
+### Archived by Ene on 2019-11-02T03:49:06.164Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

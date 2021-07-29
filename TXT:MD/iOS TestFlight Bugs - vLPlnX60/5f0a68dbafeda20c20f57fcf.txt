@@ -1,0 +1,65 @@
+Being in a channel when every currently loaded message is deleted by someone else causes the load more messages button to disappear, so you can't view any messages in the channel without restarting (https://trello.com/c/xzzQi62A)
+
+None
+
+Created: 2020-07-12T01:35:23.195Z
+Latest Update: 2020-07-13T03:36:50.797Z
+
+Reported by TollyThaWally#0001
+
+####Steps to reproduce:
+- Get someone to send 25+ messages in a channel you haven't opened since starting the app 
+- Open the channel and get the person to delete their messages (don't press the button to load more messages, they may have to delete pretty quickly, getting a bot to do it might be easier)
+
+####Expected result:
+The load more messages button should stay so you can read more messages in the channel
+####Actual result:
+The load more messages button vanishes and the channel is blank, the only way to view messages in the channel is to restart the app
+####Client settings:
+TestFlight 19.0 (19670)
+####System settings:
+iPhone 6S, iOS 13.4.1
+
+55212
+
+Card Log
+========
+### Added by Bug Bot on 2020-07-12T01:35:23.195Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.4.1; TestFlight 20.0 (19727)
+
+Jiralite#1207 - Bug Bot on 2020-07-12T01:35:31.108Z
+
+
+### Can reproduce.
+can reproduce iPhone XR iOS 13.5.1 TestFlight 30.0 (20664)
+
+binchlord#0998 - Bug Bot on 2020-07-12T01:35:35.978Z
+
+
+### Can reproduce.
+iPhone 11, iOS 14 (dev beta 2) - Testflight 30.0 (20664)
+
+Xylium#0001 - Bug Bot on 2020-07-12T01:35:40.891Z
+
+
+### Can reproduce.
+iPhone XR - iOS 14 Public Beta - TestFlight 30.0 (20664)
+
+JayRy27#0001 - Bug Bot on 2020-07-12T01:37:32.438Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.6 Public Beta 3, TestFlight 30.0 (20664)
+
+.Gloria.#9606 - Bug Bot on 2020-07-13T03:36:50.808Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

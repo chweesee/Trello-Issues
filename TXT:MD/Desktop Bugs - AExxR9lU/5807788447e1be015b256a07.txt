@@ -1,0 +1,67 @@
+[Archived] Sometimes Discord doesn't load a user properly, and when clicking on the user in the vc, it totally bugs the client. No sound more coming from the voice channel when you reconnected. You can't go to other servers, Discord thinks you're moving channels. It's not responsive at all sometimes (https://trello.com/c/LCgNnD2s)
+
+None
+
+Created: 2016-10-19T13:43:32.676Z
+Latest Update: 2017-10-30T17:13:54.894Z
+
+Reported by Dougley#6248
+
+####Steps to reproduce: 
+- Put an invisible person in a voice channel on a large server 
+- Join the server while the other person is in the voice channel, this won't reliably work if you have joined the server beforehand 
+
+####Expected result:
+ Users load normally and don't show up as '...' and Discord shouldn't become unresponsive when clicking on such unloaded user while he's in vc. 
+####Actual result:
+ Users rarely don't load completely and clicking on them while they're in a voice channel causes the client to be unresponsive.
+
+Card Log
+========
+### Added by Sam on 2016-10-19T13:43:32.676Z
+
+
+### 2016-10-04_18-51-35.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5807788447e1be015b256a07/cd4cefb264ccd083c60fac4543328929/2016-10-04_18-51-35.gif added by Sam on 2016-10-19T13:44:09.790Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5807788447e1be015b256a07/e01eefbb8baeff26b5b590fc7cb6b7af/unknown.png added by Sam on 2016-10-19T16:11:12.108Z
+
+
+### 2016-10-19_18-10-04.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5807788447e1be015b256a07/b4b29117481e5aa95515988740318b2d/2016-10-19_18-10-04.gif added by Sam on 2016-10-19T16:13:36.862Z
+
+
+### I can't reproduce this.  Need repro steps. - Jared on 2016-10-25T17:20:40.567Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-10-25T17:20:43.186Z
+
+
+### Can reproduce.
+Repo steps are a correct, It just takes a few tries. After approximately of refreshing discord, browsing some other servers, then checking discord.fm. It seems to only happen consitently in discord.fm and in other servers with a high volume of users in voice. Windows 10 x64, Latest Canary. http://i.imgur.com/pCnm7Nn.png
+
+A Generic Gamer#4775 - Jared on 2016-11-08T09:28:04.373Z
+
+
+### Can reproduce.
+Repro steps are correct, reloading while focussed on a server with a high voice usage seems to work too sometimes http://i.imgur.com/kdiZxuf.png
+
+Dougley#6248 - Jared on 2016-11-12T19:49:50.026Z
+
+
+### The bug seems to be easily producable with Dougley's steps but, it seems like the client doesn't turn unresponsive more when clicking on the unloaded user's profile picture
+
+Pepe#2761 - Jared on 2016-12-05T17:48:21.621Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:13:53.208Z
+
+
+### Archived by Jared on 2017-10-30T17:13:54.896Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

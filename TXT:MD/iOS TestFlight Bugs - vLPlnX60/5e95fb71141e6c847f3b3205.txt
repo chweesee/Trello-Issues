@@ -1,0 +1,66 @@
+cancelling a join stream while in a dm call changes the call banner to say you’re in the stream despite saying cancel (https://trello.com/c/GLLgfvYZ)
+
+None
+
+Created: 2020-04-14T18:05:37.255Z
+Latest Update: 2020-06-06T04:44:53.640Z
+
+Reported by enamored#1222
+
+####Steps to reproduce:
+- start a private call  
+- find someone who is streaming in a public channel  
+- click the stream but select cancel rather than joining  
+- observe the green call banner
+
+####Expected result:
+it should cancel as usual and the banner should display who you’re in call with.
+####Actual result:
+after selecting cancel it says you’re in the users steam along with the user you’re in a prive call with. after selecting the voice channel that the user is streaming in a second time it says the stream has failed to start.
+####Client settings:
+TestFlight 15.0 (19408)
+####System settings:
+iPhone 11, iOS 13.3.1
+
+53911
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-14T18:05:37.255Z
+
+
+### enamored#1222 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5e95fb71141e6c847f3b3205/fc878052b8d4bc33931d1865c66d2c49/6rsELcF.gif added by Bug Bot on 2020-04-14T18:05:40.485Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.4.1; TestFlight 18.0 (19553) & iPad 7: iPadOS 13.4.1; TestFlight 18.0 (19553)
+
+Jiralite#1207 - Bug Bot on 2020-04-14T18:05:44.821Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.4.1, TestFlight 18.0 (19553)
+
+.Gloria.#9606 - Bug Bot on 2020-04-14T18:05:49.825Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.4.5 (dev beta) - Testflight 18.0 (19553)
+
+Xylium#0001 - Bug Bot on 2020-04-14T18:05:54.848Z
+
+
+### Moved from New Issues to Voice Chat by Kamilla Karthigesu on 2020-04-17T18:05:44.570Z
+
+
+### while watching a stream, the person leaves the call it still displays as watching their stream
+
+enamored#1222 - Bug Bot on 2020-06-06T04:44:53.649Z
+
+List
+====
+Voice Chat
+
+Members
+=======
+None

@@ -1,0 +1,76 @@
+[Archived] Discord Canary, does not notify the user that they have joined a new servers voice channel. (https://trello.com/c/348BlmYt)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-13T12:39:41.942Z
+Latest Update: 2018-10-22T20:16:02.648Z
+
+Reported by AD#1632
+
+####Steps to reproduce:
+- Create a server or join a server or go to existing server
+- If user creates a server, they will automatically join voice channel, else user goes to existing server and joins voice channel-
+
+####Expected result:
+Notification sound prompting user that they joined voice channel, helps when user joins accidentally.
+####Actual result:
+Sound notification is not given to user, when they join a voice channel.
+####Client settings:
+Discord Canary (Desktop), 0.0.163
+####System settings:
+HP, Windows 10 Home , Version 1703
+
+4229
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-13T12:39:41.942Z
+
+
+### Can reproduce.
+Can Reproduce - Discord Canary [0.0.154], MacBook Air [13" 2014 Model, 10.12.6] (does send left channel one though)
+
+ItsPugle#5963 - Bug Bot on 2017-09-13T12:39:49.215Z
+
+
+### Can reproduce.
+Canary 0.0.163, Windows 10 x64
+
+Adam#5940 - Bug Bot on 2017-09-13T12:39:54.237Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-13T12:40:00.212Z
+
+
+### You can reproduce this 100% of the time by creating a new server, going to an existing server worked fine for me
+
+Adam#5940 - Bug Bot on 2017-09-13T14:01:42.766Z
+
+
+### Verified.  - Clayton on 2017-09-13T22:43:52.248Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-13T22:43:59.243Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-09-27T20:34:31.955Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Jared on 2017-09-27T20:38:02.736Z
+
+
+### This isn't a P2, lowering priority. - Jared on 2017-10-16T23:05:07.919Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:02.650Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

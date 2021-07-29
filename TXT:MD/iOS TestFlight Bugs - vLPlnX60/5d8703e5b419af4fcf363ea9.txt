@@ -1,0 +1,88 @@
+[Archived] Video Calling on iOS with unread notifications causes a graphical cut-off (https://trello.com/c/uFh1mFZ7)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-09-22T05:17:25.942Z
+Latest Update: 2019-11-03T21:00:03.544Z
+
+Reported by Ayu#0001
+
+####Steps to reproduce:
+- Have at least 1 unread notification/ping 
+- Start a DM video call with a friend or a test account 
+- Observe the top left corner where the notifications number is at
+
+####Expected result:
+The top left corner should show your notifications count properly
+####Actual result:
+The top left corner shows your notifications count with the bottom slightly cut off
+####Client settings:
+TestFlight 3.1.3 (17389)
+####System settings:
+iPhone 7 Plus (iOS 13.0) & iPad Pro 11” [3rd Gen] (iOS 12.4.1)
+
+44531
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-22T05:17:25.942Z
+
+
+### Ayu#0001 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5d8703e5b419af4fcf363ea9/2e29ece6cb1262146f60daad7dc2ea6d/image0.png added by Bug Bot on 2019-09-22T05:17:28.825Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 4), TestFlight 3.1.3 (17389) - It’s much easier to see it if you have 10 or more notifications. If you have less than 10 notifications then it cuts off a tiny bit until you get to 10 notifications. Changing the text size also helps. Smaller text size makes it a bit easier to see than large text size if there is more than 10 notifications.
+
+.Gloria.#9606 - Bug Bot on 2019-09-22T05:17:33.533Z
+
+
+### Can reproduce.
+cr iPhone 6s iOS 13.1 (beta 4) TestFlight 3.1.3 (17341)
+
+GlenMerlin#2119 - Bug Bot on 2019-09-22T05:17:38.522Z
+
+
+### Can reproduce.
+CR (Can Reproduce) • iPhone 6s - iOS 12.4.1 - TestFlight 3.1.3 (17389)
+
+Freiik#9999 - Bug Bot on 2019-09-22T05:17:43.549Z
+
+
+### Can reproduce.
+iPhone SE, iOS 13.0, Discord TestFlight 3.1.3 (17389)
+
+Rex#9142 - Bug Bot on 2019-09-22T20:37:30.991Z
+
+
+### Can reproduce.
+iPhone XS (iOS 13.1 PB 4), TestFlight Build 3.1.3 (17389)
+
+kiosion#0001 - Bug Bot on 2019-09-23T15:39:35.983Z
+
+
+### Can reproduce.
+Could reproduce, iPhone 7 Plus iOS 13, Testflight 3.1.3 (17389)
+
+Action Potential#6862 - Bug Bot on 2019-09-23T16:16:03.298Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13; TestFlight 3.1.3 (17389)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-24T22:30:54.252Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-04T19:00:05.060Z
+
+
+### Archived by Bug Bot on 2019-11-03T21:00:03.559Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

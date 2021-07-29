@@ -1,0 +1,113 @@
+[Archived] Camera process stays open in background when it should close, only on certain phones (https://trello.com/c/9m9vt3kS)
+
+P2 - Can wait a while,
+High,
+Mod can no longer reproduce
+
+Created: 2017-11-05T01:31:59.267Z
+Latest Update: 2019-01-01T23:13:32.527Z
+
+Reported by Cobaltknight#7200
+
+####Steps to reproduce:
+- Open the camera in discord in fullscreen mode 
+- Take an image 
+- Leave the image in the message bar 
+- Switch to another app using the button on your phone 
+- Try to use camera or flashlight
+
+####Expected result:
+It works like normal
+####Actual result:
+Flashlight won't start, camera says it's used by another application
+####Client settings:
+Discord Alpha 5.5.6
+####System settings:
+Xperia X Performance, Android 7.1.1. *Exclusive to Android 7 and certain phone models (beyond my own also some Samsung S7/S8 and possibly others)*
+
+6108
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-05T01:31:59.267Z
+
+
+### Oasis#4730 - https://youtu.be/ZkXTZBsIajw added by Bug Bot on 2017-11-05T01:32:01.728Z
+
+
+### Can reproduce.
+I had to use full screen then use the image, keep it in the message bar, hit home then hit another app (tested with Twitch app) and got the error. Samsung Galaxy S6, 7.0, 556
+
+Xander#0259 - Bug Bot on 2017-11-05T01:32:06.682Z
+
+
+### Can reproduce.
+Kyocera Hydro Wave Android​ 5.1 Discord 5.5.6
+
+Okori#0902 - Bug Bot on 2017-11-05T01:32:11.695Z
+
+
+### Can reproduce.
+Samsung Galaxy S8+, 7.0, Alpha 5.5.5
+
+Jake S.#8787 - Bug Bot on 2017-11-05T01:32:16.671Z
+
+
+### Can't reproduce.
+Samsung galaxy grand prime Android 5.1.1 Alpha 5.5.5
+
+XeMoPHOs#4022 - Bug Bot on 2017-11-05T07:57:46.164Z
+
+
+### Can reproduce.
+Can reproduce ; Huawei p8 lite 2017, Android 7.0, alpha 5.5.6
+
+Mathéo ~ fujh🍂fn#0878 - Bug Bot on 2017-11-05T10:52:48.770Z
+
+
+### Can't reproduce.
+Samsung 7, Android 7.0, discord 5.5.6
+
+tomGER#7462 - Bug Bot on 2017-11-05T15:11:52.497Z
+
+
+### Verified.  - Clayton on 2017-11-07T21:40:06.828Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-07T21:40:10.757Z
+
+
+### Can't reproduce.
+Samsung Galaxy J2, Android 5.1.1
+
+Garry#4825 - Bug Bot on 2017-11-25T12:59:20.383Z
+
+
+### Upping priority as this is a continual drain on battery. - Jared on 2018-04-09T17:43:27.391Z
+
+
+### Will be fixed with the new flexinput release.
+Commit here: https://github.com/lytefast/flex-input/commit/0fa1e8189db0a470fcc5553c94cf9ad3a020ed45 - Sam Shih on 2018-06-22T23:24:58.606Z
+
+
+### I can't repro this at all anymore. Discord Alpha 6.9.9 on OnePlus 5 running Android 8.1 moving to claimed fixed. - Tarek on 2018-06-28T08:04:15.919Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-06-28T08:04:22.536Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-11-28T10:30:28.101Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:13:31.695Z
+
+
+### Archived by Tarek on 2019-01-01T23:13:32.530Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

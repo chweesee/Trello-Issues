@@ -1,0 +1,128 @@
+[Archived] Pressing the share button in the debug menu and your phone's native "back" button at the same time causes your screen to flash black for a second (https://trello.com/c/KU7oF9pb)
+
+None
+
+Created: 2018-09-13T15:32:25.680Z
+Latest Update: 2018-09-23T02:30:58.325Z
+
+Reported by Danijel#9000
+
+####Steps to reproduce:
+- Open the debug menu 
+- Press the share button and your phone's native "back" button 
+- Observe
+
+####Expected result:
+Whatever button you pressed second should overpower the button you pressed first
+####Actual result:
+Both actions are done at the same time, causing your client to bug out and show a black screen for a second
+####Client settings:
+Discord Alpha 7.4.8
+####System settings:
+Samsung Galaxy Note 8, Android 8.0
+
+19560
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-13T15:32:25.680Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 8.1 (Oreo) • Discord Alpha 7.4.9 (749) • it goes back, and shows the share menu (may be OS/device specific, CNR on Note 4, Android 6.0.1, alpha 749)
+
+FoxyKero#9941 - Bug Bot on 2018-09-13T15:32:33.012Z
+
+
+### Can reproduce.
+[CR] It takes me back to the user menu and keeps the share menu open. | Xiaomi Redmi 5 Plus, Android 8.1.0 Alpha 7.4.8 (748)
+
+Lost#0001 - Bug Bot on 2018-09-13T15:32:38.048Z
+
+
+### Can reproduce.
+Can reproduce. Goes back to the user menu with the share menu open | Samsung Galaxy S6 (SAMSUNG-SM-G920A), Android 7.0, Discord Alpha 7.4.9
+
+coolalmostchilly#5019 - Bug Bot on 2018-09-13T15:32:42.957Z
+
+
+### Only occurs on Android 8.-
+
+Danijel#9000 - Bug Bot on 2018-09-13T16:35:45.448Z
+
+
+### Thanks for the report but given the rare use case and the dev nature of this bug, I don't think we will dive into a fix for this. - Sam Shih on 2018-09-13T17:32:17.230Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Sam Shih on 2018-09-13T17:32:20.773Z
+
+
+### Can't reproduce.
+Huawei Honor 10 view (BKL-L09), Android 8.0.0, Discord Alpha 750
+
+JVC Almeos#1984 - Bug Bot on 2018-09-13T22:23:48.143Z
+
+
+### Can reproduce.
+Android Alpha 7.5.2, Samsung Galaxy J3 (2017) (SM-J330F), Android 8.0
+
+haru#9073 - Bug Bot on 2018-09-14T04:51:19.820Z
+
+
+### Can't reproduce.
+OnePlus 3T, Android 8, Discord 7.5.2
+
+Alipoodle#5025 - Bug Bot on 2018-09-14T09:59:51.475Z
+
+
+### Can reproduce.
+Can Reproduce. Samsung Galaxy S7, Android 8.0.0 , Discord 7.4.9
+
+Console.Write("Peewd");#9543 - Bug Bot on 2018-09-14T13:15:45.069Z
+
+
+### Can't reproduce.
+LG K7 (X210ds), Android 5.1, Discord 7.5.2
+
+Inspector Soviet#6971 - Bug Bot on 2018-09-14T19:04:37.139Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha/Beta 7.5.2
+
+Law of Royale#6825 - Bug Bot on 2018-09-14T19:54:58.461Z
+
+
+### Archived by Sam Shih on 2018-09-15T00:54:05.038Z
+
+
+### Can't reproduce.
+Moto Z Force Droid Edition, Android 8.0 [July SP] • Discord 7.5.2 [Alpha]
+
+Industrial_Strength#1402 - Bug Bot on 2018-09-15T03:57:25.866Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 8.0, Discord Alpha 7.4.9
+
+Triangular Cloud#8914 - Bug Bot on 2018-09-15T21:02:02.732Z
+
+
+### Can't reproduce.
+CNR, Discord Stable, Huawei Y6 2017, Android 6.0. However, hitting back while the share operation is being committed, the button does nothing.
+
+Banana#5334 - Bug Bot on 2018-09-15T21:13:22.906Z
+
+
+### Can't reproduce.
+Moto Z Force Droid Edition, Android 8.0 [July SP] • Discord 7.5.4 [Alpha]
+
+Industrial_Strength#1402 - Bug Bot on 2018-09-23T02:30:58.325Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

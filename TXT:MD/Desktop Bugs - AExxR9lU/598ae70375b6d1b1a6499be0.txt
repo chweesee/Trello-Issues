@@ -1,0 +1,83 @@
+[Archived] Discord does not update voice output device when the system default changes. (https://trello.com/c/88FlhM4A)
+
+None
+
+Created: 2017-08-09T10:42:11.625Z
+Latest Update: 2019-05-09T01:10:13.584Z
+
+Reported by Akai#0064
+
+####Steps to reproduce:Two audio output devices are needed for this (referred to as device A and device B) 
+- Set device A as default output device. 
+- Set Discord's output to default. 
+- Verify voice chat from device A. 
+- Set device B as default output device. 
+- Reconnect to voice server. 
+- Verify voice chat is still from device A. 
+- Disable device A. 
+- Verify loss of voice output.
+
+####Expected result:
+As soon as device B is set to default, Discord should switch audio to device B. Failing that, it should at least update when the device is explicitly disabled.
+####Actual result:
+As noted in steps: At no point does Discord switch to the new default sound device, even when the device it is using is disabled by Windows.
+####Client settings:
+Desktop Canary 0.0.163
+####System settings:
+Windows 10 Pro v1703 (Build 15063.413)
+
+2964
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-09T10:42:11.625Z
+
+
+### Can reproduce.
+Win10 15063 Canary 0.0.163 & Stable 0.0.289
+
+ThatsNoMoon#0175 - Bug Bot on 2017-08-09T10:42:19.010Z
+
+
+### Can reproduce.
+CR, the voice is still coming out of device A, but notifications are coming out of device B as intended. [Windows 10 Pro x64 16257.1, Discord Canary 0.0.163]
+
+fuj1n 🔫#7255 - Bug Bot on 2017-08-09T10:42:23.975Z
+
+
+### Can reproduce.
+CR on Windows 10 15063, Canary 0.0.163 (Stable: 0.0.289)
+
+HasanBrandsXD#4120 - Bug Bot on 2017-08-09T10:42:28.954Z
+
+
+### Can reproduce.
+CR on Windows 10 10 15063 Canary 0.0.163
+
+Infinityy#3960 - Bug Bot on 2017-08-09T16:08:23.309Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Discord Canary 0.0.163
+
+Infinityy#3960 - Bug Bot on 2017-08-09T16:11:09.565Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2017-08-09T21:14:53.338Z
+
+
+### Feature request at the moment, not a bug. You're able to switch to the new default sound device by refreshing the app.  - Clayton on 2017-08-09T21:16:39.369Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:10:45.543Z
+
+
+### Archived by Jared on 2017-10-17T21:10:46.472Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,47 @@
+TestFlight 3.1.1 (16961) (https://trello.com/c/NELtOrTg)
+
+None
+
+Created: Unknown
+Latest Update: 2019-08-29T19:49:21.303Z
+
+Add a `!canrepro` to this ticket if you find any places with **performance issues** in this build and describe where and how the issue happens.
+
+Something you can add here are these kind of issues:
+
+- The app being slow
+- The app taking a long time to respond to an input
+- Unclean scrolling (like when you scroll, it bumps up and down a million of times)
+- Lag in an area, like emojis, server members, etc.
+
+Crashes are **not** something that should be added and should always get their own new ticket.
+
+Card Log
+========
+### Can reproduce.
+Short Description: The edit role button lags for a second or 2
+
+Steps to Reproduce: 
+- Make sure you have edit perms or Administrator on a server. Not Ownership
+- Have a user type in that same server 
+- Now block that user and wait for the ‘{} Deleted Message(s)’ and press it to bring up the original message
+- press the users avatar 
+- press ‘Manage’ 
+- press ‘Edit Roles’
+- Observe the little lag spike 
+
+Expected Result: It should show a nice clean animation into the edit roles page
+
+Actual Result: There is a slight 1 or 2 second delay
+
+System: iPhone XS, iOS 12.3.1
+
+Error 404#4040 - Bug Bot on 2019-08-28T01:34:20.966Z
+
+List
+====
+Performance Issues
+
+Members
+=======
+None

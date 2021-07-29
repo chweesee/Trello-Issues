@@ -1,0 +1,71 @@
+[Archived] Giving a backup code a null value will not give you an error message (https://trello.com/c/Q7Qxe7Hr)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-09-03T11:18:12.703Z
+Latest Update: 2018-09-04T23:11:31.005Z
+
+Reported by Matthew#2334
+
+####Steps to reproduce:
+- Enable 2FA on your discord account 
+- Logout of discord 
+- Click Login 
+- Enter your credentials 
+- Click the three dots in the top right corner 
+- Click backup codes 
+- Leave the box blank and click ok
+
+####Expected result:
+Discord should prompt you that the backup code is wrong (it does this if you enter a wrong code)
+####Actual result:
+It takes you back to the page where you enter your auth code
+####Client settings:
+Discord testflight 1.9.1
+####System settings:
+iphone 5S iOS 10.3.3
+
+3891
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-03T11:18:12.703Z
+
+
+### Can reproduce.
+Not sure if a bug or not- iPhone6s, iOs 10.3.3, testflight 1.9.1
+
+Blizzyrd#7909 - Bug Bot on 2017-09-03T11:18:20.144Z
+
+
+### Can reproduce.
+iPhone 6S Plus, iOS 11.0.9 (Beta 9) > TestFlight 1.9.1
+
+Ben#4331 - Bug Bot on 2017-09-03T11:18:25.153Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 10.3.3, TestFlight 1.9.1, but maybe more a suggestion than a bug
+
+Pascal#0929 - Bug Bot on 2017-09-03T11:18:30.155Z
+
+
+### extremely minor - Jared on 2017-09-18T22:50:10.736Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-09-18T22:50:17.409Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59abe4f48d39dc27628bff19/3e344e26b422daccb929567c293a0200/ezgif-4-a1536bc8b2-2.gif added by Bug Bot on 2018-07-14T12:34:58.608Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:31.008Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

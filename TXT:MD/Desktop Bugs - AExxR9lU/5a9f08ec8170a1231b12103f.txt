@@ -1,0 +1,98 @@
+Can't unmute self in browser (https://trello.com/c/e2RKFPIS)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-03-06T21:32:28.026Z
+Latest Update: 2020-05-11T23:15:37.341Z
+
+Reported by Shaidan#1040
+
+####Steps to reproduce:
+- join voice channel in chrome 
+- grant mic permission 
+- mute self 
+- reload page 
+- unmute self
+
+####Expected result:
+Mic is unmuted
+####Actual result:
+Nothing happens
+####Client settings:
+Discord Stable, Chrome 64
+####System settings:
+Win 10 x64
+
+9371
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-06T21:32:28.026Z
+
+
+### Can reproduce.
+Discord Stable 11587, Chrome 64 Windows 10 Pro 1709 64-bit | Can Repro Looks like it's also impossible to Unmute without Revoking and Re-granting the Mic Permissions in Chrome
+
+Blastoise186#7194 - Bug Bot on 2018-03-06T21:32:35.398Z
+
+
+### Can reproduce.
+Chrome canary Version 67.0.3360.0 (64) MacBook Pro (Retina, 13-inch, Early 2015) MacOS High Sierra 10.13.2 (17C88)
+
+korzq#0001 - Bug Bot on 2018-03-06T21:32:40.478Z
+
+
+### Can reproduce.
+Chrome 64 Official Build; Discord Stable, Build 11587
+
+Realex78#2193 - Bug Bot on 2018-03-06T21:32:45.394Z
+
+
+### Verified.  - Clayton on 2018-03-06T23:10:54.223Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-06T23:10:58.256Z
+
+
+### Can reproduce.
+Chrome 64 Official build, Windows 7 Pro 32-bit.
+
+Flamenate#7200 - Bug Bot on 2018-03-07T13:21:25.577Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a9f08ec8170a1231b12103f/be207bb67aa27615e4337cfa060143de/giphy.gif added by Bug Bot on 2018-07-16T07:51:20.775Z
+
+
+### Can reproduce.
+Chrome Browser - Version 67.0.3396.99 (Official Build) (64-bit) | Release Channel: stable, Build Number: 20795, Version Hash: bf9f3a2fe5b87141a9e6e1677ef8d75b66234290
+> My issue is similar to the one in the trello report. However, I am able to unmute myself if I go into my Discord Settings and toggle the settings in Voice & Video > Voice Activity and Push to Talk (Limited)
+> I normally toggle between the two until I hear the unmute noise
+> Or I can spam click the unmute button over and over, go into settings and then it unmutes itself???
+
+Demonic Despair#8681 - Bug Bot on 2018-08-04T09:53:44.151Z
+
+
+### Can't reproduce.
+Win 10 Pro x64, Canary Browser 35709
+
+Polyzer#9085 - Bug Bot on 2019-04-16T22:23:53.048Z
+
+
+### Can reproduce.
+Dell OptiPlex 5040 running Windows 10 Pro x64 | Canary 59951
+
+Kaden303#4560 - Bug Bot on 2020-05-11T23:14:35.376Z
+
+
+### This bug is a regression  | Apparently it was not archived after being marked as fixed. | Browser canary specific
+
+Kaden303#4560 - Bug Bot on 2020-05-11T23:15:37.351Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

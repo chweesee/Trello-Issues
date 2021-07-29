@@ -1,0 +1,92 @@
+[Archived] Bot embed code blocks do not show a horizontal scrollbar but cut off text. (https://trello.com/c/cBD1pSe4)
+
+None
+
+Created: 2017-12-12T03:58:22.310Z
+Latest Update: 2018-02-22T19:38:32.475Z
+
+Reported by Ryudragon98#2237
+
+####Steps to reproduce:
+- Have a bot create a code block in an embed with lots of text in the code block 
+- observe how the code block gets cut off and you can not read the whole code block making it hard to work with
+
+####Expected result:
+A horizontal scrollbar appears so all code block text can be read.
+####Actual result:
+the code block get cut off in embeds and are hard to really work with in discord.
+####Client settings:
+stable, Build Number: 8433,
+####System settings:
+windows 10
+
+6930
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-12T03:58:22.310Z
+
+
+### DJScias#0812 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a2f53de357fe3ef010945cf/32a32c87bee926a093bff3e8827d1242/rgdj9FZ.png added by Bug Bot on 2017-12-12T03:58:25.062Z
+
+
+### Can reproduce.
+Used webhook Win 7 x64 SP1 app-0.0.182
+
+omega12#8421 - Bug Bot on 2017-12-12T03:58:29.923Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary  0.0.182 (8440)
+
+Ten 🎁#1723 - Bug Bot on 2017-12-12T03:58:34.886Z
+
+
+### Can reproduce.
+Happens in description, but not in body of an embed field. macOS 10.13.1, Canary 8440
+
+dotJS#2125 - Bug Bot on 2017-12-12T03:58:39.869Z
+
+
+### Can reproduce.
+Windows 10 Pro, Discord Canary 0.0.182 (8440).... Used FlareBot for the mute.
+
+Ghoul#4567 - Bug Bot on 2017-12-12T04:00:03.880Z
+
+
+### Ghoul#4567 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a2f53de357fe3ef010945cf/bda449f1911b66bd257a0a91fb03962c/would_this_work.png added by Bug Bot on 2017-12-12T04:00:13.094Z
+
+
+### dotJS#2125 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a2f53de357fe3ef010945cf/332e80b6c71c448b487bba4a577c2110/Screen_Shot_2017-12-12_at_12.00.08_PM.png added by Bug Bot on 2017-12-12T04:02:00.522Z
+
+
+### Moved to claimed fix due to the scrollbar having been reverted after community feedback, this is a functionality change. - Alexander (DJScias) on 2017-12-12T20:05:13.043Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Alexander (DJScias) on 2017-12-12T20:05:23.566Z
+
+
+### Can't reproduce.
+MacBook Pro (late 2013), macOS  Sierra 10.12.1, Canary build 9070
+
+JustGamer#2542 - Bug Bot on 2018-01-02T04:48:23.963Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:23:08.258Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:23:12.232Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:38:31.390Z
+
+
+### Archived by Tarek on 2018-02-22T19:38:32.478Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

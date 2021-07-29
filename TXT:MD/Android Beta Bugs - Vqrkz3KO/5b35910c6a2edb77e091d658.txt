@@ -1,0 +1,70 @@
+[Archived] Able to prevent frequently used emojis from being reset upon logging out/back in (https://trello.com/c/G2w4dGPv)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-29T01:53:16.461Z
+Latest Update: 2018-07-11T00:33:07.120Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Make sure you have some emojis in frequently used 
+- Log out of Discord 
+- Log back in. Your frequently used emojis will still be available in emoji picker, which is normal because they are still cached in your session memory. They will effectively be gone next time client is restarted... unless you follow next steps  
+- Open your emoji picker in any chat and just use 1 random emote 
+- Trigger the local data persister, which is done by pressing Home button, waiting a few seconds and reopening Discord 
+- Now you can restart Discord using force-close
+
+####Expected result:
+All frequently used emojis that were present before logging out are supposed to be gone next time client is restarted, and only the one you used at step 4 should remain
+####Actual result:
+Using 1 random emote will cause ALL of your cached frequently used to be persisted back into the app data, so they won't be reset upon client restart
+####Client settings:
+Discord Alpha 6.9.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14481
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-29T01:53:16.461Z
+
+
+### Can reproduce.
+Can Reproduce. Lenovo vibe K5+, 5.1.1 | Discord Alpha 701.
+
+The Lunala#7777 - Bug Bot on 2018-06-29T01:53:23.748Z
+
+
+### Can reproduce.
+Wiko LENNY2 version 8, Android 5.1, | Alpha 7.0.1
+
+MoonlightCapital#0554 - Bug Bot on 2018-06-29T01:53:28.740Z
+
+
+### Can reproduce.
+Can Reproduce | Samsung Galaxy S7 Edge, Android 8.0, Discord Alpha 7.0.1
+
+volcanicer#1122 - Bug Bot on 2018-06-29T01:53:33.727Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.0.2 - Clayton on 2018-06-29T23:31:48.905Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-29T23:32:00.999Z
+
+
+### extension of: https://trello.com/c/seDV3xEt/1214-there-are-still-frequently-used-emojis-even-after-fresh-install-data-wipe-of-discord - Clayton on 2018-07-11T00:33:04.505Z
+
+
+### Archived by Clayton on 2018-07-11T00:33:07.124Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

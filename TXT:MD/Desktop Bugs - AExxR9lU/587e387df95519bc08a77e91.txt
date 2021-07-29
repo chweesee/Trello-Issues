@@ -1,0 +1,68 @@
+[Archived] Textbox does not resize correctly (https://trello.com/c/m1jpo8PE)
+
+P3: Will get fixed eventually
+
+Created: 2017-01-17T15:30:05.197Z
+Latest Update: 2017-10-17T20:34:35.342Z
+
+Reported by score#6846
+
+####Steps to reproduce: 
+- Type a message with wide characters (ｆｕｌｌｗｉｄｔｈ　ｃｈａｒａｃｔｅｒｓ or just lots of wide capital letters), enough to fill about a line of the textbox 
+- Continue typing until the text wraps 
+
+####Expected result:
+ The textbox should resize to fit the newly wrapped text 
+####Actual result:
+ The textbox only displays a single line of text and must be scrolled with the cursor keys
+
+Card Log
+========
+### Added by Jared on 2017-01-17T15:30:05.197Z
+
+
+### Can reproduce.
+Discord Canary (textbox resizes after typing a little less than 2 lines)
+
+WhoCaresAboutThat#2467 - Jared on 2017-01-17T15:30:06.087Z
+
+
+### Can reproduce.
+May be the same with other Unicode characters
+
+DoNotSpamPls#8787 - Jared on 2017-01-17T15:30:06.172Z
+
+
+### WhoCaresAboutThat#2467 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/587e387df95519bc08a77e91/d2d32e6d3c211aa56576473bc5a076d8/pbD834A.gif added by Jared on 2017-01-17T16:41:17.699Z
+
+
+### ` ｆ`use this <--- - Jared on 2017-01-17T21:39:37.273Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-17T21:39:47.097Z
+
+
+### Can reproduce.
+Windows 7 Enterprise (64-Bit)
+
+AKSKL#7155 - Jared on 2017-01-18T02:11:21.400Z
+
+
+### Cannot reproduce. Works correctly for me. Marking ticket as Verified Fixed. - Jared on 2017-07-28T21:43:58.039Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-28T21:44:03.451Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:34:34.271Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:34:35.361Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

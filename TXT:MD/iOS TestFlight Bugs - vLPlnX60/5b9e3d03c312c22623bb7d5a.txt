@@ -1,0 +1,112 @@
+[Archived] App crashes when trying to take a photo or video with disabled camera app (https://trello.com/c/61g9fH3g)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2018-09-16T11:22:43.717Z
+Latest Update: 2019-09-18T10:00:50.411Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to your iOS settings app 
+- Open Screen Time > Restrictions (for iOS 11 and below go to General > Restrictions) 
+- Enable Restrictions 
+- Go to Allowed Apps and toggle the Camera app 
+- Now go back to the Discord app 
+- Click on the paperclip 
+- Try to take a photo or video
+
+####Expected result:
+The app should show you an error message that the camera is disabled.
+####Actual result:
+The app crashes.
+####Client settings:
+TestFlight 2.3.8 (7233)
+####System settings:
+iPhone 8 Plus, iPad Air 2 - iOS 12 Golden Master
+
+19737
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-16T11:22:43.717Z
+
+
+### Can reproduce.
+Can Reproduce - TestFlight 2.3.8 (7233) iPhone 6s iOS 12 Golden Master
+
+Rashaun#9295 - Bug Bot on 2018-09-16T11:22:51.070Z
+
+
+### Can reproduce.
+Can Reproduce - iPhone 6s, iOS 12.0 GM (16A366) - TestFlight 2.3.8 (7233)
+
+Mippy#0001 - Bug Bot on 2018-09-16T11:22:56.025Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 - TestFlight 2.3.8 (7233)
+
+Xylium#1480 - Bug Bot on 2018-09-16T11:23:00.986Z
+
+
+### Can reproduce.
+CR iPhone 6, iOS 11.4.1 Testflight 2.3.8 (7233)
+
+CoolSuperDude754#0001 - Bug Bot on 2018-09-16T21:58:37.961Z
+
+
+### Can reproduce.
+iPhone 6s+, iOS 12, Testflight 2.3.8 (7233)
+
+Hyper#0003 - Bug Bot on 2018-09-17T07:28:07.034Z
+
+
+### Moved from New Issues to Backlog by Victoria on 2018-09-17T23:42:12.092Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:08.429Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.8 (16488) with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-29T13:25:03.023Z
+
+
+### Unarchived by Pascal on 2019-07-29T13:25:19.449Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-07-29T13:25:23.379Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 4) - Stable 3.0.8
+
+Xylium#5800 - Bug Bot on 2019-07-29T13:42:16.086Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.8 (16488)
+
+binchlord#0998 - Bug Bot on 2019-07-29T14:30:46.484Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.4 - TestFlight 3.0.8 (16488)
+
+Daffyduck#5364 - Bug Bot on 2019-07-30T04:01:41.626Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-30T04:01:42.057Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:00:50.428Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

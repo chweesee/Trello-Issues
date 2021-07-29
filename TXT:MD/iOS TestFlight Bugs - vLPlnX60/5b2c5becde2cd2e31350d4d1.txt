@@ -1,0 +1,85 @@
+[Archived] Channel name in message box now takes up two lines (https://trello.com/c/aaRrRSo2)
+
+None
+
+Created: 2018-06-22T02:16:12.145Z
+Latest Update: 2019-08-27T12:08:55.127Z
+
+Reported by 🐎nickWtn🐎#3789
+
+####Steps to reproduce:
+- Go to a channel (I tested with bug hunter general chat) 
+- Look at the typing box for sending messages
+
+####Expected result:
+The channel name should fight on one line
+####Actual result:
+The channel name takes up two lines
+####Client settings:
+TestFlight 2.3.4
+####System settings:
+iPod Touch 6th generation, iOS 11.4
+
+14471
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-22T02:16:12.145Z
+
+
+### 🐎nickWtn🐎#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b2c5becde2cd2e31350d4d1/4732e144d74fdf6a9b5bdd5a40dd9ae9/8UqBHcC.jpg added by Bug Bot on 2018-06-22T02:16:14.522Z
+
+
+### 🐎nickWtn🐎#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b2c5becde2cd2e31350d4d1/2059348d73ec1d1e5a0328f20b11fcdf/WzbNfyH.jpg added by Bug Bot on 2018-06-22T02:16:14.662Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.4 - TestFlight 2.3.4 (5330) - Very long channel names were just shorten with three dots before, only a specific length was completely shown in one line
+
+Pascal#0929 - Bug Bot on 2018-06-22T02:16:19.480Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 12 Dev Beta 2 - TestFlight 2.3.4 (5530) - I'm getting 3 lines but it has to a very specific length depending on the screen size of the device, as I could not repro with bug-hunter-general-chat but with a channel name consisting of 79 characters.
+
+webhp#1337 - Bug Bot on 2018-06-22T02:16:24.491Z
+
+
+### Can reproduce.
+[CR] iPhone 6S, iOS 10.2.1, TestFlight 2.3.4 (5330); Seems like how long a channel name needs to be depends on your screen.
+
+54D#1357 - Bug Bot on 2018-06-22T02:16:29.483Z
+
+
+### Because of this ticket seeming to be related to the Chat rewrite, I am moving this ticket to the appropriate list - Chat Rewrite.  - Ghoul on 2018-06-22T03:10:57.615Z
+
+
+### Moved from User Reported Bugs to Chat Rewrite Bugs by Ghoul on 2018-06-22T03:11:06.080Z
+
+
+### Can reproduce.
+CR. iPhone 6s - iOS 11.0 - TestFlight 2.3.4 (Build 5330)
+
+Rage#9991 - Bug Bot on 2018-06-22T06:38:16.698Z
+
+
+### Moved from Chat Rewrite Bugs to Fix made, not yet released by Victoria on 2018-06-29T01:35:23.285Z
+
+
+### I can no longer reproduce as of Discord TestFlight 2.3.4 (5548). The message bar no longer automatically change size when there are more than a specific amount of characters. It is now cut off by the three dots.
+
+I used iPhone 8 + running iOS 12 (Developer Beta 2). However, because I am no longer able to reproduce this bug, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-06-30T02:18:52.300Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Ghoul on 2018-06-30T02:19:06.561Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:50.059Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

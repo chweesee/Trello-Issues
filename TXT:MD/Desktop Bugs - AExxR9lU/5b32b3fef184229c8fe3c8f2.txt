@@ -1,0 +1,64 @@
+[Archived] When you join a server (that has the deafault welcome messages enabled) through an invite created from a channel other than that of the welcome message channel, the welcome message channel is marked read. (https://trello.com/c/TxEAl6mm)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-26T21:45:34.748Z
+Latest Update: 2018-10-22T20:22:17.672Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Ask someone to create an invite link for a server that has the default welcome messages enabled (make sure that they create the invite for a channel other than the channel that has the messages enabled). 
+- Join the server. 
+- Observe the channel list.
+
+####Expected result:
+All channels should be marked unread.
+####Actual result:
+All the channels except the one that has the default welcome messages enabled are unread.
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 17576, Version Hash d68f92d7da04ff99
+####System settings:
+Windows 8.1 x64
+
+14828
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-26T21:45:34.748Z
+
+
+### Can reproduce.
+[CR] Desktop Canary 17668 - Windows 7 x64
+
+TheGamingBolt#2695 - Bug Bot on 2018-06-26T21:45:42.227Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary version 17668
+
+MoonlightCapital#0554 - Bug Bot on 2018-06-26T21:45:47.215Z
+
+
+### Can reproduce.
+Discord Stable (17626) Version Hash: d3e3f2c3d99299b0fb35f08a64252761d68ed06d, Windows 7 Home Editon x64
+
+Adora Steele 💞#1982 - Bug Bot on 2018-06-26T21:45:52.213Z
+
+
+### verified, macos 10.12.6, canary 17739 - Clayton on 2018-06-26T23:41:03.416Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-26T23:41:12.607Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:17.675Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

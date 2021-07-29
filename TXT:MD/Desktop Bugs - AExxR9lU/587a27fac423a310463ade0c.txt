@@ -1,0 +1,67 @@
+[Archived] Channel permissions can be viewed without having the permission to do so (https://trello.com/c/kJi1OvZx)
+
+None
+
+Created: 2017-01-14T13:30:34.112Z
+Latest Update: 2017-10-17T21:20:16.405Z
+
+Reported by Tiemen#0107
+
+####Steps to reproduce: 
+- Go into a server where you have both Manage Roles and Manage Channels permissions 
+- Go to a channel's permissions 
+- Now click out of it and go to a different server where you only have the Manage Channels permissions, but not Manage Roles 
+- Go to a channel's settings in that server 
+- See what happens 
+
+####Expected result:
+ You can't view the channel permissions 
+####Actual result:
+ Once you open the channel settings the page defaults to its permissions, even if you don't have the Manage Roles permission 
+####System settings:
+ Windows 10 Pro x64 Anniversary Update, Canary build 17316
+
+Card Log
+========
+### Added by Jared on 2017-01-14T13:30:34.112Z
+
+
+### Can reproduce.
+win 7 canary 0.0.151
+
+FrostLuma#1769 - Jared on 2017-01-14T13:30:34.617Z
+
+
+### Can reproduce.
+Windows 10 canary
+
+AwesomeFlink#1060 - Jared on 2017-01-14T13:30:34.811Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/587a27fac423a310463ade0c/42e95de17106724a898f0c5f8875450f/unknown.png added by Jared on 2017-01-14T13:30:50.170Z
+
+
+### Can reproduce.
+Canary Desktop W8.1
+
+Parallax\#2752 - Jared on 2017-01-14T13:59:54.521Z
+
+
+### Very very low priority. I don't think we're going to spend the resources to fix it. - Jared on 2017-01-17T21:42:42.232Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-01-17T21:42:48.418Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:20:15.491Z
+
+
+### Archived by Jared on 2017-10-17T21:20:16.411Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,66 @@
+[Archived] (Edge Panel/Phones with an infinity display specific) Enabling then disabling the Nearby Scanning feature in the Add Friends page then opening Smart Select from your Edge Panel causes the Nearby Scanning button to re-enable even though you haven't pressed the "Start Nearby Scanning" button (https://trello.com/c/kWmJGZm7)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-12T21:00:52.644Z
+Latest Update: 2018-10-13T00:00:03.118Z
+
+Reported by Danijel#9000
+
+####Steps to reproduce:
+- Press the "Add Friend" button in the top right 
+- Press "Start Nearby Scanning" 
+- Turn off Nearby Scanning 
+- Open your Edge Panel and press "Smart Select" (doesn't matter which one you press; Also if you dont have the Smart Select feature in your Edge Panel, make sure to download it from the store/enable it in the settings) 
+- Observe
+
+####Expected result:
+The "Start Nearby Scanning" button should still be turned off
+####Actual result:
+The "Start Nearby Scanning" button is selected even though you havent pressed it
+####Client settings:
+Discord Alpha 7.4.8
+####System settings:
+Samsung Galaxy Note 8, Android 8.0
+
+19304
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-12T21:00:52.644Z
+
+
+### Can reproduce.
+Can Reproduce, do not need to turn on and off, just open edge panel and select an option (eg Rectangle) Samsung Galaxy S7 Edge, Android 8.0.0, Alpha 7.4.8
+
+Wasps#5797 - Bug Bot on 2018-09-12T21:01:00.199Z
+
+
+### Can reproduce.
+CR - Huawei Honor 10 views (BKL-L09), Android 8.0.0, Discord Alpha 748 - Working too if you just the open switching app panel and switch back to Discord
+
+JVC Almeos#1984 - Bug Bot on 2018-09-12T21:01:05.245Z
+
+
+### Can reproduce.
+Could reproduce; Samsung Galaxy S8, Android 8; Alpha 7.4.8
+
+OrangeM24#5746 - Bug Bot on 2018-09-12T21:01:10.159Z
+
+
+### verified, android 7.0, samsung s6 edge, alpha 7.4.8 - Clayton on 2018-09-12T23:36:08.645Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-12T23:36:15.042Z
+
+
+### Archived by Clayton on 2018-10-13T00:00:03.120Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

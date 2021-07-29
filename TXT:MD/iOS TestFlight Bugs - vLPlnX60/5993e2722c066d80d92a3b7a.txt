@@ -1,0 +1,77 @@
+[Archived] Server settings option does not show up in server options. (https://trello.com/c/7n3nYmT9)
+
+P2 - Can wait a while,
+mid
+
+Created: 2017-08-16T06:13:06.837Z
+Latest Update: 2018-10-05T00:01:55.867Z
+
+Reported by Speeeding#1813
+
+####Steps to reproduce:
+- let somebody create a server / join a server 
+- obtain manage nickname permissions 
+- observe that you can't see server settings for ios, while still being able to see the server settings for android / desktop (member list) 
+
+####Expected result:
+The option Server Settings should pop up along with Notification Settings and Leave Server (if not owner)
+####Actual result:
+The server settings option does not pop up>
+####Client settings:
+Discord 1.8.8
+####System settings:
+iOS 11 Beta 4
+
+3270
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-16T06:13:06.837Z
+
+
+### Can reproduce.
+Discord 1.8.9, iOS 10.3.3, iPhone 6
+
+Ten#1723 - Bug Bot on 2017-08-16T06:13:14.485Z
+
+
+### Can reproduce.
+iPhone 6 iOS 11 Beta 4, Discord TestFlight 1.8.9 (83)
+
+Charles#1934 - Bug Bot on 2017-08-16T06:13:19.542Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11 Dev version 5, TestFlight 1.8.9
+
+Mippy#1483 - Bug Bot on 2017-08-16T06:13:24.505Z
+
+
+### Verified. - Jared on 2017-08-21T21:47:33.230Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T21:47:37.847Z
+
+
+### The same issue happens with the kick permission, you don't have access to server settings.
+
+Pascal#0929 - Bug Bot on 2018-01-03T12:47:01.059Z
+
+
+### I checked this ticket during the Trello cleanup event, and I can no longer reproduce as of iPhone 8 + running iOS 12 (Dev Beta 3) and Discord TestFlight 2.3.4 (5660). 
+
+I can now see the Server Settings option, but I cannot see it with the kick perms which is related to this ticket: https://trello.com/c/dUJ1fP6p which appears to be cross platform. So I will be moving it to Claimed Fixed. - Ghoul on 2018-07-07T01:58:48.389Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-07T01:58:57.977Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:55.868Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

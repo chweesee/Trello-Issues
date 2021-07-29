@@ -1,0 +1,122 @@
+[Archived] Editing a message may sometimes cause part of previous message to appear (https://trello.com/c/Nnkj5D0W)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-17T16:32:50.995Z
+Latest Update: 2019-08-13T15:30:52.323Z
+
+Reported by Kaoffie#4112
+
+####Steps to reproduce:
+- On any text channel, send a message with 4 lines separated by new lines such that lines 1 and 3 begin with formatted text and line 2 ends with a period 
+- Edit message into anything with a small codeblock in it (single backticks)
+
+####Expected result:
+Message is edited as per normal
+####Actual result:
+Formatted part of line 3 in previous message appears at the beginning of the line that contains the codeblock in the edited message until you exit and reenter the channel.
+####Client settings:
+Canary Build 4361
+####System settings:
+Windows 10 Pro
+
+4447
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-17T16:32:50.995Z
+
+
+### Can reproduce.
+Canary Build 4361, Windows 10 x64
+
+Jake S.#8787 - Bug Bot on 2017-09-17T16:32:58.415Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163, Windows 10 Creators Update
+
+brxxn#0632 - Bug Bot on 2017-09-17T16:33:03.408Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf I.#3260 - Bug Bot on 2017-09-17T16:33:08.789Z
+
+
+### Can reproduce.
+Win 10 Enterprise 1703 x64, Discord Canary 4361 (not PTB though)
+
+Josedolf Staller#2859 - Bug Bot on 2017-09-18T02:46:54.368Z
+
+
+### Verified.  - Clayton on 2017-09-19T19:52:43.583Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T19:52:49.688Z
+
+
+### Can no longer repro. Canary build 5005 win 10 x64 - Mike Nisbet on 2017-09-28T22:44:23.448Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-09-28T22:44:27.647Z
+
+
+### Can repro.  - Clayton on 2017-10-04T00:19:06.763Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Clayton on 2017-10-04T00:19:11.335Z
+
+
+### Can reproduce.
+Using steps: Test *test test. -> Edit to change middle test to bold.
+
+rocode#3625 - Bug Bot on 2018-06-20T01:46:13.891Z
+
+
+### Can reproduce.
+Windows 10 Pro Build 1803, Discord Canary Build 19430
+
+Galarzaa#8515 - Bug Bot on 2018-07-23T14:00:31.563Z
+
+
+### Can reproduce.
+Windows 8.1 Release Channel: ptb, Build Number: 25638, Version Hash: f15ca06af6585c4876517507b671eec2b4b70ddb
+
+Danny#0007 - Bug Bot on 2018-10-07T03:20:05.983Z
+
+
+### Can reproduce.
+CNR with these steps, but it appears when editing a message by boldening a word with Markdown, saving, then editing again by boldening a preceding comma; the said boldened word will be duplicated; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 30291
+
+Longinus#0293 - Bug Bot on 2018-12-24T23:42:01.341Z
+
+
+### Archived by Bug Bot on 2019-01-24T00:00:02.586Z
+
+
+### Can reproduce.
+Canary Build Number: 31241, Ubuntu 18.04; is an issue on browser and Windows versions, has been for a year and a half now, doesn't impact android. https://cdn.discordapp.com/attachments/538060798237474836/538060829271261215/ezgif-4-b52274da72b4.gif (notice text garbles on editing more and more until a channel change takes place, this fixes it)
+
+flitt3r#8309 - Bug Bot on 2019-01-24T18:29:47.125Z
+
+
+### Unarchived by Bug Bot on 2019-01-24T18:30:05.743Z
+
+
+### Can reproduce.
+Windows 10 64 Bit Using Google Chrome Version: 72.0.3626.121
+
+karl-police#3660 - Bug Bot on 2019-03-09T21:37:57.136Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:52.340Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

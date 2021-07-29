@@ -1,0 +1,97 @@
+You can stream Spotify songs over screen share/sound share in guild video (doesnt work in DMs) (https://trello.com/c/kIdoSbQM)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-08-01T19:00:01.574Z
+Latest Update: 2019-09-23T22:30:07.826Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Be part of the 5% servers that has this feature 
+- Join a voice channel and start streaming Spotify with sound
+
+####Expected result:
+It should cut off the audio after 30 seconds
+####Actual result:
+It continues to play forever
+####Client settings:
+Discord Canary 0.0.211 (20433)
+####System settings:
+Windows 10 Pro 64-bit (1803)
+
+16642
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-01T19:00:01.574Z
+
+
+### Can reproduce.
+windows 10 home, x64 20433, canary.
+
+JustAlex#0001 - Bug Bot on 2018-08-01T19:00:09.258Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 20433
+
+Frances Picard#6209 - Bug Bot on 2018-08-01T19:00:13.921Z
+
+
+### Can reproduce.
+Can Reproduce Windows 10 Home x64 1803 Canary 0.0.211 Build 20433
+
+Okori#0902 - Bug Bot on 2018-08-01T19:00:19.151Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 20447
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-01T19:59:47.746Z
+
+
+### Can reproduce.
+Can repro Win 7 x64, Discord Canary 20447
+
+Raizyr#0007 - Bug Bot on 2018-08-01T20:29:13.130Z
+
+
+### This was already fixed by night a while back. - Jared on 2018-08-27T19:40:49.443Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Jared on 2018-08-27T19:40:55.058Z
+
+
+### I can still reproduce this on Canary 23836. Moving to user reported bugs. (only in guilds though, not DMs) - Tarek on 2018-09-15T12:39:14.870Z
+
+
+### Moved from Verified Fixed to User Reported Bugs by Tarek on 2018-09-15T12:39:20.774Z
+
+
+### verified, macos 10.12.6, canary 23837 - Clayton on 2018-09-18T03:48:43.455Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-18T03:48:48.150Z
+
+
+### I spoke with Night about this and we both agreed it is a low priority, as this is an experiment currently.
+
+For what its worth, Night said he has not fixed this in the past. - John Furrow on 2018-11-12T23:55:16.243Z
+
+
+### @jfurrow I think Jared meant night fixed this for DMs. 
+
+Since this used to happen in direct messages as well now it doesn't.  - Tarek on 2018-11-13T02:58:27.731Z
+
+
+### @tarek1337 Ahh that makes sense, sorry for the misinterpretation. - John Furrow on 2018-11-13T21:14:39.840Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,87 @@
+[Archived] The individual server settings pane stays open when you open global user preferences on MacOS (https://trello.com/c/GeJsPCgM)
+
+P3: Will get fixed eventually
+
+Created: 2017-05-05T18:48:31.707Z
+Latest Update: 2018-10-22T20:13:58.101Z
+
+Reported by ItsPugle#5963
+
+####Steps to reproduce: 
+- Click on the server specific Settings Pane 
+- Click on Discord Canary in the Task Bar 
+- Click on preferences 
+
+####Expected result:
+ When the user settings menu opens, the server settings pane should close 
+####Actual result:
+ The server settings pane stays open and overlaps the user settings 
+####System settings:
+ MacOS Sierra - Canary 0.0.144
+
+1392
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-05T18:48:31.707Z
+
+
+### Can reproduce.
+Can repro, MacOS 10.12.5 (beta), latest canary
+
+Mippy#1483 - Bug Bot on 2017-05-05T18:48:32.357Z
+
+
+### Can reproduce.
+Latest Canary at Windows 10 (Use CTRL+, to reproduce)
+
+TTtie#5937 - Bug Bot on 2017-05-05T18:48:34.515Z
+
+
+### Can reproduce.
+Win 10 Pro x64 1703, latest Canary. Opened user settings with the Ctrl + , shortcut (thanks TTtie#5937)
+
+Tiemen#0107 - Bug Bot on 2017-05-05T18:48:36.418Z
+
+
+### https://youtu.be/aBlYt0bPij0 - https://youtu.be/aBlYt0bPij0 added by Bug Bot on 2017-05-05T18:48:47.317Z
+
+
+### nbx7crh8ob.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/590cc8ff24039a58854c7ea0/fa69e722a985b3c36f64029a0a5b3bd6/nbx7crh8ob.png added by Bug Bot on 2017-05-05T18:48:47.964Z
+
+
+### The issue is also known to be reproducible on Windows, use `CTRL+,` to reproduce.
+
+TTtie#5937 - Bug Bot on 2017-05-05T18:50:56.759Z
+
+
+### TTtie#5937 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/590cc8ff24039a58854c7ea0/2f9713720ad8601dcac6640e78427f46/04203c.png added by Bug Bot on 2017-05-05T18:51:13.262Z
+
+
+### Can reproduce.
+macOS Sierra 10.12.4 Canary 0.0.144
+
+sladeiam#0642 - Bug Bot on 2017-05-05T20:23:07.524Z
+
+
+### Can reproduce.
+Can reproduce on Discord Linux Canary. Using `Ctrl` + `,` opens the Preferences window and any modals (user profile, server settings pane, channel description) stay open.
+
+Feierwoerx#9761 - Bug Bot on 2017-05-08T17:42:29.273Z
+
+
+### Verified.  - Clayton on 2017-05-11T22:58:43.288Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-11T22:58:52.928Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:58.105Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

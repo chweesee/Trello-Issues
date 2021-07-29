@@ -1,0 +1,84 @@
+[Archived] Underscore markdown is read alowed in /tts (https://trello.com/c/ruWBlXbC)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-01T07:17:04.925Z
+Latest Update: 2019-02-01T00:02:44.724Z
+
+Reported by Scrumpy#2763
+
+####Steps to reproduce:
+- Go into a guild call 
+- In a channel in the same guild type '/tts `__words__`'
+
+####Expected result:
+You will hear '[Username] said "Words"' as the Underscores are markdown, You can prove that markdown is not supposed to be read allowed by typing "/tts `**words**` You will hear the narrator just saying "Words" instead of "asterisk asterisk Words asterisk asterisk"
+####Actual result:
+You hear '[Username] said "Underscore Underscore Words Underscore Underscore"'
+####Client settings:
+Windows Canary Build 22978
+####System settings:
+Widows 10 64x Home
+
+18762
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-01T07:17:04.925Z
+
+
+### Scrumpy#2763 - https://youtu.be/rwBYBGhYIIM added by Bug Bot on 2018-09-01T07:17:07.410Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22978. Yeah looks like Windows specific
+
+Frances Picard#6209 - Bug Bot on 2018-09-01T07:17:12.314Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1803), Discord Canary 23011
+
+54D#1357 - Bug Bot on 2018-09-01T07:17:17.265Z
+
+
+### Can reproduce.
+Can reproduce, you don't need to be in a call. Canary 22930 on Windows 10 Home 64-bit (1803).
+
+that15fine#9275 - Bug Bot on 2018-09-01T07:17:22.283Z
+
+
+### Can't reproduce.
+MacBook Pro 13" 10.13.6, Canary 23011
+
+Alfie#1582 - Bug Bot on 2018-09-01T07:28:17.805Z
+
+
+### verified, win10, canary 22978 - Clayton on 2018-09-01T07:43:23.616Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-01T07:43:28.397Z
+
+
+### Can't reproduce.
+NAB; This is an issue with Windows tts, not Discord (notice how it does say 'asterisk' if you type '/tts * test *'); Windows 10 Pro x64 (Version 1803)
+
+Kaoffie#9001 - Bug Bot on 2018-09-01T12:17:43.103Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24227
+
+Neiron#2406 - Bug Bot on 2018-09-21T15:03:39.617Z
+
+
+### Archived by Clayton on 2018-10-22T20:26:55.175Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

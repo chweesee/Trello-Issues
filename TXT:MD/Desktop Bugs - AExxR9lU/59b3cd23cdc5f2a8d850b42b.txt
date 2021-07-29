@@ -1,0 +1,85 @@
+[Archived] When you delete a category with a long name, it will go to the exact end of the delete box. (https://trello.com/c/BhlPGqmQ)
+
+None
+
+Created: 2017-09-09T11:14:43.736Z
+Latest Update: 2017-11-15T19:15:08.418Z
+
+Reported by JohnyTheCarrot#0368
+
+####Steps to reproduce:
+- Create a category with a long name (without any spaces) 
+- Try to delete the category
+
+####Expected result:
+The name of the category has adequate padding on either side
+####Actual result:
+It does not, with the right side having no padding at all
+####Client settings:
+Discord Canary (Build 4053, 0.0.163)
+####System settings:
+Windows 10 Home (Version 1703)
+
+4058
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-09T11:14:43.736Z
+
+
+### RisedSky#1250 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59b3cd23cdc5f2a8d850b42b/5e6aa8144f79069b056e884a069315f9/cipmodmSQuuqDI8_uq0Afg.png added by Bug Bot on 2017-09-09T11:14:46.264Z
+
+
+### JohnyTheCarrot#0368 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59b3cd23cdc5f2a8d850b42b/7060f70448296932ab09e7332f906d0e/c18a51e212c69d6fe0b0efe3105890a7.png added by Bug Bot on 2017-09-09T11:14:46.349Z
+
+
+### Can reproduce.
+CR, 0.0.163 Windows 7 (x64) Familial Premium
+
+RisedSky#1250 - Bug Bot on 2017-09-09T11:14:51.508Z
+
+
+### Can reproduce.
+Only works if there is no spaces. Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163
+
+AviationMaster#4793 - Bug Bot on 2017-09-09T11:14:56.212Z
+
+
+### Can reproduce.
+Canary 0.0.163 + Windows 10
+
+Oasis#4730 - Bug Bot on 2017-09-09T11:15:01.562Z
+
+
+### Moved from User Reported Bugs to Channel catalgories by Alexander (DJScias) on 2017-09-10T09:05:00.616Z
+
+
+### Moved from Channel catalgories to Fix made, not yet released by Amadeus on 2017-09-10T19:47:25.772Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Amadeus on 2017-09-10T20:01:31.451Z
+
+
+### Tested on discord build 4782:
+
+I can no longer reproduce this myself. The long channel name gets cut off with a "..." and doesn't fall out anymore. - Alexander (DJScias) on 2017-09-23T11:04:19.606Z
+
+
+### Fixed.  - Clayton on 2017-10-03T21:29:04.855Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-03T21:29:10.264Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:15:07.519Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:15:08.420Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,181 @@
+[Archived] invalid invites sent from a different channel throw 404 errors in console (https://trello.com/c/75Ss46K5)
+
+None
+
+Created: 2019-05-07T21:52:15.107Z
+Latest Update: 2019-06-13T19:00:40.044Z
+
+Reported by evilpauwse#9985
+
+####Steps to reproduce:
+- Have a friend send an invalid invite to a different channel 
+- Watch console
+
+####Expected result:
+You shouldn't get spammed with console errors
+####Actual result:
+You get spammed with console errors
+####Client settings:
+Canary 37140
+####System settings:
+WIndows 10 x64 - Education Edition
+
+34184
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-07T21:52:15.107Z
+
+
+### evilpauwse#9985 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cd1fe0f945a6d5b62ef79aa/5896fc4865d3b30d6065026152af60e4/9N3Apu0.png added by Bug Bot on 2019-05-07T21:52:18.072Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 37140 Host 0.0.236 Windows 10 Home x64 1809
+
+Rashaun#8467 - Bug Bot on 2019-05-07T21:52:22.641Z
+
+
+### Can reproduce.
+Am seeing console output despite not looking at the server it's coming from. Canary 0.0.236 (Build 37140), Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547)
+
+SuperSajuuk#0001 - Bug Bot on 2019-05-07T21:52:27.733Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.236 Build 37140
+
+Daffyduck#5364 - Bug Bot on 2019-05-07T21:52:32.743Z
+
+
+### Can reproduce.
+Windows 10 Pro x32, Canary 37140 (host 0.0.236)
+
+Karasu#0013 - Bug Bot on 2019-05-07T21:56:04.417Z
+
+
+### Also occurs when said server is muted
+
+evilpauwse#9985 - Bug Bot on 2019-05-07T21:58:40.019Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Discord Canary 37140
+
+Birdy#4914 - Bug Bot on 2019-05-07T21:59:26.276Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home (64-bit), Canary 37140
+
+average idiot on the internet#0274 - Bug Bot on 2019-05-08T00:30:59.836Z
+
+
+### Can reproduce.
+macos 10.14.5, canary Canary 37140
+
+OrangeM24#5746 - Bug Bot on 2019-05-08T02:21:24.414Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) | Stable 36945 - Can only repro once I open the channel up, then go to a different server
+
+charleskimbac#6492 - Bug Bot on 2019-05-08T03:30:30.688Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 37179
+
+Isabel#0002 - Bug Bot on 2019-05-08T04:21:54.251Z
+
+
+### Can reproduce.
+macOS High Sierra, Version: 10.13.6 - Canary 0.0.219 (37140)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-05-08T05:26:59.178Z
+
+
+### Can reproduce.
+Windows 10 Education Version 1809 (OS Build 17763.439), RC: Canary  370
+
+sabeer#1456 - Bug Bot on 2019-05-08T06:25:47.616Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 37140
+
+Darth#9386 - Bug Bot on 2019-05-08T06:42:43.944Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, Canary 37179 host 0.0.236
+
+Jean20B#4287 - Bug Bot on 2019-05-08T07:09:07.696Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64, Release Channel: Canary 37179
+
+Aeria#9096 - Bug Bot on 2019-05-08T07:19:37.089Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1809, Release Channel: canary, Build Number: 37179
+
+fuzzysearch#5609 - Bug Bot on 2019-05-08T08:12:54.624Z
+
+
+### Can reproduce.
+Mac os sierra canary, Build Number: 37031, Version Hash: 73707425608812bc41774fc5d086351dd359ce72
+
+Krobo#4784 - Bug Bot on 2019-05-08T08:28:13.203Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Host; 0.0.236, Build; 37140
+
+Lily#2624 - Bug Bot on 2019-05-08T10:53:24.543Z
+
+
+### Can reproduce.
+Windows 10 Education (18362), Canary Build 37179
+
+Keons#0001 - Bug Bot on 2019-05-08T11:22:18.281Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 37179
+
+nani?#8690 - Bug Bot on 2019-05-08T14:20:09.526Z
+
+
+### Can't reproduce.
+Windows 10 PRO 64 Bit (Version 1903), Release Channel: canary, Build Number: 37238, Version Hash: b233b35ddef5dde6a87cfad063b5a06c52b77532
+
+Cam#7527 - Bug Bot on 2019-05-08T19:40:53.043Z
+
+
+### Can't reproduce.
+Windows 10 Home (x64), 1809 (OS Build 17763.437),  Canary 37238
+
+c1rcl#3677 - Bug Bot on 2019-05-08T19:43:52.997Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Bug Bot on 2019-05-10T23:53:07.691Z
+
+
+### this isn't technically a bug, the 404's are how we invalidate invites (showing the Invalid Invite message).  - Jixuan Wang on 2019-05-14T18:32:38.013Z
+
+
+### Moved from Notable Issues to Not a Bug by Jixuan Wang on 2019-05-14T18:32:54.499Z
+
+
+### Archived by Bug Bot on 2019-06-13T19:00:40.059Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

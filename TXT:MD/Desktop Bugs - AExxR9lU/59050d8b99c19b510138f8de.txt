@@ -1,0 +1,101 @@
+Attempting to mention a user that leaves the channel may mention other user (https://trello.com/c/rc3xq904)
+
+P2: Fix can wait a while
+
+Created: 2017-04-29T22:02:51.589Z
+Latest Update: 2019-09-23T22:30:07.435Z
+
+Reported by eslachance#4611
+
+####Steps to reproduce: 
+- Attempt to ping a user, in this instance `@Maxwell#7793`  
+- User Maxwell leaves server 
+- Send message after user has left 
+
+####Expected result:
+ `@Maxwell#7793` should appear as plain text (as if the user was invisible for example) 
+####Actual result:
+ Another *completely different user*, in this case `@max#2476` , is mentionned instead. This can be *very* bad when it's in a command to ban a user. 
+####System settings:
+ Canary 10 latest on Windows 10 Creator update.
+
+1291
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-29T22:02:51.589Z
+
+
+### Can reproduce.
+Windows 10 x64, Latest Canary
+
+Aeokieek#1574 - Bug Bot on 2017-04-29T22:02:52.177Z
+
+
+### Can reproduce.
+Windows 10 Discord Canary ver 153
+
+apap04#7823 - Bug Bot on 2017-04-29T22:02:54.200Z
+
+
+### Can reproduce.
+Windows 10 x64 Latest Canary
+
+OGNovuh#0014 - Bug Bot on 2017-04-29T22:02:56.136Z
+
+
+### bJJzdGI.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59050d8b99c19b510138f8de/2d5d643970fafff60284abe296772fed/bJJzdGI.png added by Bug Bot on 2017-04-29T22:03:07.771Z
+
+
+### Important note: for this to work, there must be a user of which the username consitutes the *beginning* of the other user's username. For example here `max` is the beginning of `maxwell`. `eslach` would be pinged instead of `eslachance`. `b1n` could be pinged instead of `b1nzy`, so on and so forth.
+
+eslachance#4611 - Bug Bot on 2017-04-29T22:04:33.761Z
+
+
+### Can reproduce.
+Windows 10 Pro x64. This has been an issue for a long time, even happens with invisible users. Discord's mentioning system is too eager to mention whoever it wants, and it's a real pain, especially when you work with bots to ban users.
+
+SuperSajuuk#7265 - Bug Bot on 2017-04-30T10:35:31.456Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Anniversary Update, Latest Discord Canary
+
+Zoddo#5860 - Bug Bot on 2017-04-30T12:57:24.925Z
+
+
+### Verified.  - Clayton on 2017-05-03T20:00:33.983Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-03T20:04:30.149Z
+
+
+### Happens 100% if you try to mention an invisible or offline user, midst there is of course another user starting with a first part of the user you want to mention.
+
+Tiemen#0107 - Bug Bot on 2017-07-04T18:37:50.402Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:41:03.491Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:45:28.499Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 42647
+
+Neiron#8475 - Bug Bot on 2019-08-03T15:48:18.298Z
+
+
+### Can reproduce.
+Windows 10 1803 Canary 42647
+
+CyberiumShadow#1507 - Bug Bot on 2019-08-05T07:16:37.648Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,185 @@
+[Archived] Muting yourself using mute toggled on in your profile card in a Direct Message call does not mute yourself. (https://trello.com/c/wnLdWUSp)
+
+P3 - Will be fixed eventually
+
+Created: 2019-11-15T17:50:30.924Z
+Latest Update: 2020-06-02T09:30:32.994Z
+
+Reported by .Gloria.#9606
+
+####Steps to reproduce:
+- Call someone in Direct Message (don’t mute yourself with the mute button when calling) 
+- Tap on your profile icon to open the profile card 
+- In voice settings, toggle mute to on 
+- Close your profile card 
+- Speak 
+- Observe
+
+####Expected result:
+The green ring when speaking should not appear when mute is toggled on in the profile card and the mute button should appear (like if you were muting the other person using the steps).
+####Actual result:
+The green ring when speaking and the mute icon both show when mute is toggled on in the profile card.
+####Client settings:
+TestFlight 3.1.6 (18021)
+####System settings:
+iPhone 8, iOS 13.2
+
+47251
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-15T17:50:30.924Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.2.2; TestFlight 3.1.7 (18081) [Tabs Experiment]
+
+Jiralite#1207 - Bug Bot on 2019-11-15T17:50:38.468Z
+
+
+### Can reproduce.
+iPhone XS Max: iOS 13.1.2; TestFlight 3.1.7 (18081)
+
+Masterpiece#0001 - Bug Bot on 2019-11-15T17:50:43.450Z
+
+
+### Can reproduce.
+Could reproduce, iPhone 7+ iOS 13.2.2, Testflight 3.1.7 (18195)
+
+Action Potential#6862 - Bug Bot on 2019-11-15T17:50:48.468Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro 1903, Discord Canary 49525
+
+TheRudeDude#6040 - Bug Bot on 2019-11-15T18:08:24.313Z
+
+
+### (Edit for my repro below) CR : -i
+
+TheRudeDude#6040 - Bug Bot on 2019-11-15T18:09:44.649Z
+
+
+### (Edit) CR : iPhone X, iOS 13.1.2, TestFlight 3.1.7 (18081)
+
+TheRudeDude#6040 - Bug Bot on 2019-11-15T18:11:15.230Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.2.2 TestFlight 3.1.7 (18209)
+
+binchlord#0998 - Bug Bot on 2019-11-16T05:00:38.903Z
+
+
+### This also seems to happen in server voice chats as well except that you don’t see the mute icon on the side but you do see the green circle.
+
+.Gloria.#9606 - Bug Bot on 2019-11-16T06:23:22.473Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4.3 — TestFlight 3.1.7 (18209)
+
+Nith#3883 - Bug Bot on 2019-11-16T14:25:56.671Z
+
+
+### Can reproduce.
+Can reproduce - iPhone XS (iOS 13.1.2), TestFlight Build 3.1.7 (18209)
+
+kiosion#0001 - Bug Bot on 2019-11-16T18:28:14.191Z
+
+
+### Can reproduce.
+CR on iPhone 6s; iOS Version 13.2; TestFlight 3.1.7 (18209)
+
+RPS1222#5127 - Bug Bot on 2019-11-18T00:49:36.086Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.2.2; TestFlight 3.1.7 (18209)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-18T05:47:18.176Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 7, iOS 13.3 (Public Beta 2), TestFlight 3.1.7 (18209)
+
+ryan#0570 - Bug Bot on 2019-11-18T08:41:30.259Z
+
+
+### Can reproduce.
+iPhone X (iOS 13.2.2), Testflight 3.1.7 (18209)
+
+MikeTheSpike#0350 - Bug Bot on 2019-11-20T16:52:13.537Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-11-22T19:00:03.581Z
+
+
+### Archived by Bug Bot on 2019-12-22T19:30:02.658Z
+
+
+### Can't reproduce.
+iPhone 8, iOS 13.3.1, TestFlight 3.2.0 (19099)
+
+.Gloria.#9606 - Bug Bot on 2020-02-21T07:05:14.909Z
+
+
+### Unarchived by Bug Bot on 2020-02-21T07:30:05.442Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.3.1, TestFlight 3.2.2 (19220) - TestFlight 3.2.0 (19099) didn't have it until it happened on 3.2.1 (19150) for me again. I can still reproduce right now on the current version I am on also. (Same with server vcs from my note.)
+
+.Gloria.#9606 - Bug Bot on 2020-03-04T05:31:10.902Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.3.1, TestFlight 3.2.2 (19220)
+
+enamored#1222 - Bug Bot on 2020-03-04T12:26:35.525Z
+
+
+### Archived by Bug Bot on 2020-04-12T17:00:07.659Z
+
+
+### Cannot reproduce anymore.
+iPhone SE, iOS 13.4.1 - TestFlight 21.0 (19807)
+Moving to Claimed Fixed. - Daffyduck on 2020-05-03T02:41:22.021Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Daffyduck on 2020-05-03T02:41:24.006Z
+
+
+### Unarchived by Daffyduck on 2020-05-03T02:41:24.054Z
+
+
+### Can't reproduce.
+iPhone 7: iOS 13.4.1; TestFlight 20.0 (19811)
+
+Jiralite#1207 - Bug Bot on 2020-05-03T02:43:47.572Z
+
+
+### Can't reproduce.
+iPhone 8, iOS 13.4.1, TestFlight 21.0 (19807)
+
+.Gloria.#9606 - Bug Bot on 2020-05-03T02:50:26.896Z
+
+
+### Can't reproduce.
+iphone XR, IOS 13.4.1, Testflight 21.0 (19807)
+
+Denariooo#3352 - Bug Bot on 2020-05-03T09:29:01.499Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2020-05-03T09:29:02.066Z
+
+
+### Archived by Bug Bot on 2020-06-02T09:30:33.005Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

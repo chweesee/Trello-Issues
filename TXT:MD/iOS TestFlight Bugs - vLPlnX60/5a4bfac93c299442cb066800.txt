@@ -1,0 +1,95 @@
+[Archived] [Dark theme only] In-app browser: Status bar with wrong color for images opened in browser (https://trello.com/c/5PgThaWd)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-01-02T21:34:01.453Z
+Latest Update: 2018-06-01T01:38:57.771Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to your user settings 
+- Go to web browser 
+- Change your browser to the in-app one 
+- Upload any image to Discord or link one 
+- Click on this image to open image preview 
+- Click again on this image and open the image in the browser by clicking on the 3 dots 
+- Observe the status bar
+
+####Expected result:
+Status bar should be colored correct to be good visible
+####Actual result:
+The status bar has the wrong color.
+####Client settings:
+TestFlight 2.2.0 (1982)
+####System settings:
+iPhone 6s, iOS 11.2.1 & iPad Air 2, iOS 11.2.5 Public Beta 2
+
+7549
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-02T21:34:01.453Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a4bfac93c299442cb066800/ae6c8794645d95fbe43ced58526fa5f8/e7yYy09.jpg added by Bug Bot on 2018-01-02T21:34:04.294Z
+
+
+### Can reproduce.
+CR, iPhone 8+, iOS 11.2.5 (Public Beta 2), Discord TestFlight 2.2.0 (1982)
+
+Ghoul#4567 - Bug Bot on 2018-01-02T21:34:09.151Z
+
+
+### Can reproduce.
+CR, iPhone 6s Plus, iOS 11.2.5 PB2, TestFlight 2.2.0 (1910)
+
+New Year, New Mustard#6390 - Bug Bot on 2018-01-02T21:34:14.109Z
+
+
+### Can reproduce.
+CR, iPhone 5c, iOS 10.3.3, TestFlight 2.2.0 (1910)
+
+Jimmi#3030 - Bug Bot on 2018-01-02T21:34:19.129Z
+
+
+### Other general problem with light and dark theme is that the status bar has no background. If you scroll a bit there, you can see it.
+
+Pascal#0929 - Bug Bot on 2018-01-02T21:45:02.526Z
+
+
+### I can reproduce this P3, moving to Verified Bugs. 
+
+Discord 2.2.0 (2042), iOS 11.2.1, iPhone 8 Plus - Alexandru Todea on 2018-01-03T06:43:59.889Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2018-01-03T06:45:22.410Z
+
+
+### yrKn3Wt.jpg - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a4bfac93c299442cb066800/ddde56f62c907278c5b12790cb56ada8/yrKn3Wt.jpg added by Alexandru Todea on 2018-01-03T07:12:42.239Z
+
+
+### This bug happens on light theme, but you have to do a few extra repo steps after "- Click again on this image and open the image in the browser by clicking on the 3 dots". You must then, -Click done after the images opens - Observe the status bar, once you are back... you should depending on your battery (charging or low) either see it or not, as the only thing on the status bar..
+
+❤nickWtn❤#3789 - Bug Bot on 2018-01-03T07:16:59.713Z
+
+
+### Verified Fixed as of 2.2.6 - Jared on 2018-03-19T21:43:58.782Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-19T21:44:03.330Z
+
+
+### Archiving this ticket as it has been in Verified Fixed for more than a month with no new activity.  - Ghoul on 2018-06-01T01:38:54.054Z
+
+
+### Archived by Ghoul on 2018-06-01T01:38:57.774Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

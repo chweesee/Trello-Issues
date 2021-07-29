@@ -1,0 +1,64 @@
+It is impossible to fully scroll through the recent mentions tab because of a "jump up" after the completion of the "loading further mentions" animation (https://trello.com/c/kjlAJlVW)
+
+None
+
+Created: 2020-04-17T14:44:50.442Z
+Latest Update: 2020-07-16T21:26:06.255Z
+
+Reported by aosync#3115
+
+####Steps to reproduce:
+- Have been mentioned several times in the previous days 
+- Go in the Recent Mentions tab 
+- Scroll down 
+- At one point, start to pay attention to the mentions you're seeing and try to remember some (in order to recognize them after the post-animation jump up)
+
+####Expected result:
+The "loading further mentions" animations does not make you jump a bunch of mentions higher, making you able to scroll fully through the recent mentions tab.
+####Actual result:
+The "loading futher mentions" animations, once finished, makes you jump a bunch of mentions higher. If you retry to scroll, the animation will happen again, making you unable to scroll through the entirety of the recent mentions tab.
+####Client settings:
+Canary 58406
+####System settings:
+MS Windows 10 Enterprise x64 (v1903)
+
+54802
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-17T14:44:50.442Z
+
+
+### aosync#3115 - https://cdn.discordapp.com/attachments/411978355953631244/700672807180304384/2020-04-17_13-32-37.gif added by Bug Bot on 2020-04-17T14:44:53.033Z
+
+
+### Can reproduce.
+Inbox MacBook Pro: macOS Catalina 10.15.4; Discord Canary 58406 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-04-17T14:44:57.970Z
+
+
+### Can reproduce.
+Windows 10, 64-Bit - Canary 58406
+
+Sinora#6504 - Bug Bot on 2020-04-17T14:45:02.987Z
+
+
+### Can reproduce.
+Windows 10 Home, Version 1909, Discord Canary 58406
+
+Just a Regular Talking Box#5472 - Bug Bot on 2020-04-17T14:45:07.965Z
+
+
+### Can reproduce.
+CR, Canary 58406 (16465ee), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-04-17T22:51:57.869Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

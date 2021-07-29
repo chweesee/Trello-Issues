@@ -1,0 +1,128 @@
+[Archived] Bot disconnecting from an audio server in mutual Guild stops playback in current VoiceChannel (https://trello.com/c/fVzj57Pa)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2016-11-28T19:10:22.695Z
+Latest Update: 2018-01-20T09:18:50.246Z
+
+Reported by 𝅳𝅳#5756
+
+####Steps to reproduce: 
+- Join a VoiceChannel (VC) in Guild A 
+- Have a bot join the same VC in Guild A 
+- Have the bot join a VC in Guild B, a mutually shared Guild 
+- Have the bot play audio in the VC of Guild A. Playback could have also have been started before bot joined VC in Guild B 
+- Have the bot sever the audio connection to the VC in Guild B (leave, not just switch channels) 
+
+####Expected result:
+ no change to the audio playback from the bot in the VC of Guild A 
+####Actual result:
+ audio playback of the bot is immediately stopped. Leaving and rejoining the VC will fix the issue. [Submitted for DV8FromTheWorld#6297]
+
+Card Log
+========
+### Added by Jared on 2016-11-28T19:10:22.695Z
+
+
+### Can't reproduce.
+Canary
+
+austinhuang#1076 - Jared on 2016-11-28T20:26:53.926Z
+
+
+### Can reproduce.
+Linux/Browser/OSX Canary
+
+abalabahaha#9421 - Jared on 2016-11-28T22:29:19.986Z
+
+
+### Can reproduce.
+OSX-Canary
+
+austinhuang#1076 - Jared on 2016-11-28T22:32:59.072Z
+
+
+### Can't reproduce.
+Mac OSX, Stable
+
+Jack#0305 - Jared on 2016-11-28T23:30:01.984Z
+
+
+### Can reproduce.
+canary [win10]
+
+𝅳𝅳#5756 - Jared on 2016-11-28T23:52:16.053Z
+
+
+### Can reproduce.
+Latest
+
+dinos#0649 - Jared on 2016-11-29T05:42:25.521Z
+
+
+### Can reproduce.
+Discord Canary?
+
+Minn⛄#6688 - Jared on 2016-11-29T10:20:21.340Z
+
+
+### Can reproduce.
+Win 10 anniversary, Current Discord Canary
+
+Rocks the Squirrel#2134 - Jared on 2016-11-29T21:19:37.757Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-11-30T19:03:47.699Z
+
+
+### Can reproduce.
+Canary Latest, Windows 8.1
+
+FireController1847#9085 - Jared on 2016-12-01T20:37:07.165Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jared on 2017-10-04T20:57:01.072Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jared on 2017-10-17T23:24:07.725Z
+
+
+### Can reproduce.
+I am still able to reproduce this. Windows 10 Creators Update (Build 1703) x64, Discord Canary (Build 6652)
+
+Wirlie#8384 - Bug Bot on 2017-11-01T05:30:13.040Z
+
+
+### Can reproduce.
+Canary 0.0.182, Build 8409, Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2017-12-11T05:31:05.774Z
+
+
+### I can still reproduce this, Canary 8409 on Windows 10.
+
+Moving to user reported for verification. - Tarek on 2017-12-11T05:49:24.538Z
+
+
+### Moved from Claimed Fixed, needs Verification to User Reported Bugs by Tarek on 2017-12-11T05:49:30.121Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-12-18T22:51:01.272Z
+
+
+### I can't reproduce this since it was fixed before. - Jared on 2017-12-18T22:51:09.128Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2018-01-20T09:18:48.848Z
+
+
+### Archived by Alexandru Todea on 2018-01-20T09:18:50.247Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

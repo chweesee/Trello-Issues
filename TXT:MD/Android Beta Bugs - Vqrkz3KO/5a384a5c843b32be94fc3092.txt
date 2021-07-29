@@ -1,0 +1,85 @@
+[Archived] A gap is seen during window resizing in split-screen mode (https://trello.com/c/nafHp12e)
+
+P3 - Will be fixed eventually,
+Low,
+Split Screen Bugs
+
+Created: 2017-12-18T23:08:12.250Z
+Latest Update: 2018-10-23T07:35:20.510Z
+
+Reported by Penguin#0001
+
+####Steps to reproduce:
+- Launch the app. 
+- Put the device into split-screen mode. 
+- Click on "+" icon in the "general" text channel. 
+- Click on the camera icon to show camera preview. 
+- Resize the split screen window.
+
+####Expected result:
+The app should redraw its contents quickly without any considerable delays.
+####Actual result:
+The app is taking around 2 seconds to redraw it's contents which makes an undesirable user experience.
+####Client settings:
+Android stable, 5.8.3
+####System settings:
+Android Oreo on a Pixel C
+
+7179
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-18T23:08:12.250Z
+
+
+### Penguin#0001 - https://www.youtube.com/watch?v=YojDA8UQBgU added by Bug Bot on 2017-12-18T23:08:14.624Z
+
+
+### Can reproduce.
+CR, Android 7.0, Discord 5.8.3, LG G6
+
+StartForKillerMC#8184 - Bug Bot on 2017-12-18T23:08:19.608Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Alpha 583
+
+Maraly#9842 - Bug Bot on 2017-12-18T23:08:24.616Z
+
+
+### Can reproduce.
+CR Android 7.1.2, S5 Mini, Discord 587
+
+Fabi#7776 - Bug Bot on 2017-12-18T23:08:29.595Z
+
+
+### Verified.  - Clayton on 2017-12-19T23:34:40.544Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-19T23:34:44.905Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:46.472Z
+
+
+### Split screen bugs are unsupported - Tarek on 2018-09-08T00:16:07.965Z
+
+
+### Moved from Verified Bugs to Won't Fix by Tarek on 2018-09-08T00:16:18.204Z
+
+
+### Unarchived by Tarek on 2018-09-08T00:16:18.285Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than a month without any activity. - Ghoul on 2018-10-23T07:35:19.481Z
+
+
+### Archived by Ghoul on 2018-10-23T07:35:20.514Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

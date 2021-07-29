@@ -1,0 +1,76 @@
+[Archived] Creating a Text Channel with Restricted Access doesn't grant Read to selected Role(s) (https://trello.com/c/Kafv54ef)
+
+P3: Will get fixed eventually
+
+Created: 2016-12-07T09:58:45.428Z
+Latest Update: 2017-10-17T20:29:10.978Z
+
+Reported by Khionu#8708
+
+####Steps to reproduce: 
+- Create a new Text channel, following prompt to restrict to a specific role 
+
+####Expected result:
+ Said Role has Read permission 
+####Actual result:
+ Overwrite is added, with 0 perms Client: Win 7 x64
+
+Card Log
+========
+### Added by Jared on 2016-12-07T09:58:45.428Z
+
+
+### Can reproduce.
+Canary 0.0.149 , Windows 7 64 Bit
+
+FrostLuma#1769 - Jared on 2016-12-07T11:06:39.961Z
+
+
+### Can reproduce.
+0.0.149, Windows 10
+
+Tajniak#3513 - Jared on 2016-12-07T18:10:56.232Z
+
+
+### Can reproduce.
+Canary 0.0.149, Windows 10 x64
+
+Pyker#4853 - Jared on 2016-12-07T18:11:59.718Z
+
+
+### Can reproduce.
+linux 0.11
+
+mralext20#8975 - Jared on 2016-12-07T18:13:10.714Z
+
+
+### Can reproduce.
+Windows 7 x64, Canary 0.0.149
+
+Ian Murray#8701 - Jared on 2016-12-07T21:30:00.369Z
+
+
+### Verified. - Jared on 2016-12-07T22:11:41.491Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-07T22:11:48.013Z
+
+
+### This was fixed a very long time ago. - Jared on 2017-07-31T21:46:03.218Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T21:46:10.343Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:29:08.816Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:29:10.980Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

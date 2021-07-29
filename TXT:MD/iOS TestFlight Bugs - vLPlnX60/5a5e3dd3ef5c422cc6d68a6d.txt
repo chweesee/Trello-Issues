@@ -1,0 +1,103 @@
+[Archived] Mentions in confirmation messages are clickable and link to the user (https://trello.com/c/9jCqBQ63)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-16T18:00:51.897Z
+Latest Update: 2019-06-01T08:00:22.198Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Write any message which contains a user mention at the beginning (mentioning yourself doesn't work) 
+- Delete this message, pin it or something else that causes a confirmation message 
+- Click on the mention in the confirmation pop-up
+
+####Expected result:
+The mention shouldn't be clickable (like Desktop client) and doesn't link to the user
+####Actual result:
+You can click on this mention and the user profile opens. Also the confirmation message still persists but doesn't work anymore
+####Client settings:
+TestFlight 2.2.0 (2121)
+####System settings:
+iPhone 6s, iOS 11.2.2 & iPad Air 2, iOS 11.2.5 Public Beta 5
+
+7851
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-16T18:00:51.897Z
+
+
+### Can reproduce.
+CR iPhone 8 +, iOS 11.2.5 (PB4), Discord TestFlight 2.2.0 (2121)
+
+Ghoul#4567 - Bug Bot on 2018-01-16T18:00:59.666Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th Generation, iOS 11.2.2, TestFlight 2.2.0 (2080); It brought me to direct messages when I tapped on the mentioned name in the confirmation message. I was still able to interact with the confirmation message afterwords.
+
+JaKe#1817 - Bug Bot on 2018-01-16T18:01:04.663Z
+
+
+### Can reproduce.
+CR iPhone7 iOS 11.0.3 Discord TestFlight 2.2.0
+
+MLG Golden#9086 - Bug Bot on 2018-01-16T18:01:09.638Z
+
+
+### Verified - Clayton on 2018-01-17T13:07:22.406Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-17T13:07:30.508Z
+
+
+### 54D#1357 - https://youtu.be/nnmzRs_HJeI added by Bug Bot on 2018-07-14T05:34:05.808Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:12.949Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.1 (14524) with iPad Pro 11" running iOS 12.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-01T20:20:47.277Z
+
+
+### Unarchived by Pascal on 2019-05-01T20:20:50.704Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-05-01T20:21:00.074Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14524)
+
+Daffyduck#5364 - Bug Bot on 2019-05-01T20:23:33.486Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.3 (dev beta 3) - TestFlight 3.0.1 (14524)
+
+Xylium#5800 - Bug Bot on 2019-05-02T05:21:02.604Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 12.2 - TestFlight 3.0.1 (14524)
+
+KolkiesDev#0001 - Bug Bot on 2019-05-02T07:54:30.392Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-02T07:54:30.595Z
+
+
+### Archived by Bug Bot on 2019-06-01T08:00:22.211Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

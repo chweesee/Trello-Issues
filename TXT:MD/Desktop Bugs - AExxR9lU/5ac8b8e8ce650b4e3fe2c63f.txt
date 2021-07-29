@@ -1,0 +1,74 @@
+[Archived] Formatting italics with underscores followed by text (doesn't work with special characters) doesn't format correctly (https://trello.com/c/qPf7bXUw)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-07T12:26:17.079Z
+Latest Update: 2020-05-02T01:06:42.849Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Format some text with underscores on both sides and end it with any non-special character
+
+####Expected result:
+Text between the underscores is formatted in italics
+####Actual result:
+Text between the underscores fails to format as italics
+####Client settings:
+Discord Canary 0.0.204, Build 13313
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+10409
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-07T12:26:17.079Z
+
+
+### Ene#0808 - https://i.imgur.com/uMKZoFX.gifv added by Bug Bot on 2018-04-07T12:26:19.539Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1709 (Canary build 13313)
+
+TimThe#1118 - Bug Bot on 2018-04-07T12:26:24.516Z
+
+
+### Can reproduce.
+CR - MS Windows 10 Pro 64x (v1709) - Canary 13313 - Seems to fails formatting only when the last underscore is followed by a number
+
+ahoZiorce#3115 - Bug Bot on 2018-04-07T12:26:29.517Z
+
+
+### Can reproduce.
+also happens when you want to format parts of a word, not only numbers | Windows 10 Pro x64, Release Channel: Canary 13306
+
+» a r i a#1593 - Bug Bot on 2018-04-07T12:26:34.521Z
+
+
+### Can reproduce.
+MacBook Air 13" (2013), macOS Sierra 10.12.6, Canary 0.0.186 (Build 13313)
+
+Ideate#6184 - Bug Bot on 2018-04-08T04:19:57.969Z
+
+
+### Verified - Jared on 2018-04-11T18:40:18.810Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-11T18:40:23.332Z
+
+
+### This ticket was checked during the Trello cleanup event, however it is still reproducible on Windows 10 Home x64 with Discord Canary Build 18240. So because of this bug still be able to be reproduced, I will leave it to be. - Ghoul on 2018-07-06T19:29:28.439Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:31.971Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

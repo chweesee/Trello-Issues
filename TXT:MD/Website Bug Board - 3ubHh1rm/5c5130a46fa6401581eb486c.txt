@@ -1,0 +1,112 @@
+Trying to create a team with a long name results in an error saying it's probably Discord's fault (https://trello.com/c/r0QycSUl)
+
+None
+
+Created: 2019-01-30T05:05:40.798Z
+Latest Update: 2019-07-27T10:21:35.302Z
+
+Reported by ginkoid#8888
+
+####Steps to reproduce:
+- Have 2FA on 
+- Go to the Discord developer portal 
+- Click on "teams" on the top bar, and click on "new team" 
+- Enter more than 128 characters into the name field, and click "confirm"
+
+####Expected result:
+The error should say something like "Must be between 2 and 128 in length. (name)", just like the error when you try to create an application with a long name
+####Actual result:
+The error says "Oops! You've caught an ultra rare error. This is probably our fault, so please try again or check our status page."
+####Client settings:
+There's no version in the console, so the canary developer console on 2019-01-29
+####System settings:
+Windows Home 1809, Chrome Stable 71
+
+27369
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-30T05:05:40.798Z
+
+
+### Can reproduce.
+Can reproduce; Google Chrome Version 71.0.3578.98 (Official Build) (64-bit), Windows 10 Pro
+
+Harsh#0001 - Bug Bot on 2019-01-30T05:05:48.159Z
+
+
+### Can reproduce.
+CanRepro; Google Chrome Version 71.0.3578.98 (Official Build) (64-bit), Windows 10 Home
+
+aj834#1640 - Bug Bot on 2019-01-30T05:05:53.949Z
+
+
+### Can reproduce.
+CR, macOS 10.14.3, Chrome 71.0.3578.98
+
+Action Potential#2494 - Bug Bot on 2019-01-30T05:05:58.098Z
+
+
+### Can reproduce.
+CR; Firefox browser Version 64.0.2 (64-bit)
+
+Skyla#7948 - Bug Bot on 2019-01-30T13:57:22.376Z
+
+
+### Can reproduce.
+CR; Windows 7 Ultimate SP1 x64, Firefox Developer Edition 66.0b3
+
+Waff#0267 - Bug Bot on 2019-01-30T16:30:58.271Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 Google Chrome Version 71.0.3578.98
+
+Spooker#0001 - Bug Bot on 2019-01-30T21:56:15.339Z
+
+
+### Can reproduce.
+Windows 10 Home; Google Chrome 71.0.3578.98
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-31T02:11:16.944Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809) Chrome Canary 74.0.3688.0
+
+Solo#0007 - Bug Bot on 2019-01-31T03:09:32.685Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Chrome 72.0.3626.96
+
+charleskimbac#6492 - Bug Bot on 2019-02-09T03:53:24.135Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE (11.6") - Chrome OS 71.0.3578.127 (64-bit) - Web Canary 31974
+
+Casper#9999 - Bug Bot on 2019-02-09T07:01:38.849Z
+
+
+### Can Not Reproduce: Windows 10 Pro x64, Chrome Version 75.0.3770.100 (64-bit)
+Moving to Claimed Fixed. - Aeria on 2019-07-12T13:40:43.445Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-07-12T13:40:48.409Z
+
+
+### Cannot reproduce with MacBook Pro 13" (2016) running macOS Mojave 10.14.5 and Safari Version 12.1.1.
+
+Moving to Verified Fixed list. - Pascal on 2019-07-18T14:57:32.130Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Pascal on 2019-07-18T14:57:42.852Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

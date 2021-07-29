@@ -1,0 +1,84 @@
+[Archived] Activity feed causing high CPU/GPU consumption (+10%) when on foreground and when scrolling (+20%) (https://trello.com/c/IWLOTDuj)
+
+None
+
+Created: 2019-05-17T08:48:46.977Z
+Latest Update: 2019-06-18T06:06:34.781Z
+
+Reported by Passes-moi la Sot-cière#4779
+
+####Steps to reproduce:
+- Open the Activity Feed 
+- Disable the material acceleration (if you wish to see the full result) 
+- Scroll on the Activity Feed (fast if possible)
+
+####Expected result:
+It should be smooth and neither CPU nor GPU intensive. Everything else, including GIFs, is usually ok (less than 3% CPU/GPU)
+####Actual result:
+The CPU usage gets from 0-2% to around 20-30% (near 100% on one thread) and the frame rates are dropping (or at least it feels laggy) when the material acceleration is turned off. We can notice the same thing on the GPU when it's turned on but I do not lag (older cards may)
+####Client settings:
+Release Channel: stable, Build Number: 37729, Version Hash: 00a46bd3005673e6f73f92a75547778160088c09
+####System settings:
+Windows 10 version 1809 (KB4497932) running on an Intel i7-7740X (running at 4.98 GHz)
+
+34726
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-17T08:48:46.977Z
+
+
+### Can reproduce.
+CPU usage goes up to 35% when scrolling - Windows 10 Home x64 1809, Intel Core i5-7300HQ 2.5-3.5GHz, GeForce GTX 1050 Ti, Canary 37801 host 0.0.237
+
+Jean20B#4287 - Bug Bot on 2019-05-17T08:48:54.316Z
+
+
+### Can reproduce.
+Can Reproduce, CPU usage maxed out at 67.3% while scrolling | Windows 10 Pro x64, Version 1809 Canary 37801
+
+Lost#9999 - Bug Bot on 2019-05-17T08:48:59.305Z
+
+
+### Can reproduce.
+CPU usage up to around 35% while scrolling, Windows 10 Education (Version 1903 Build 18362), Canary Build 37801, GeForce RTX 2060
+
+Keons#0001 - Bug Bot on 2019-05-17T08:49:04.351Z
+
+
+### Can reproduce.
+CR, CPU usage up to 22.3% from 1.5%, Windows 10 Pro (Version 1803), CPU i5-8259U 2.30GHz, Discord Stable 37729
+
+RyotaK#2929 - Bug Bot on 2019-05-17T13:01:18.424Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) | Canary 37999
+
+charleskimbac#6492 - Bug Bot on 2019-05-18T05:09:12.595Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.238 Build 38071
+
+Daffyduck#5364 - Bug Bot on 2019-05-21T02:09:25.003Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38248 (Host 0.0.238)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-22T02:46:40.380Z
+
+
+### Duplicate of https://trello.com/c/Uz4sutaR - Ene on 2019-06-18T06:06:33.506Z
+
+
+### Archived by Ene on 2019-06-18T06:06:34.794Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

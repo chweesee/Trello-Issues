@@ -1,0 +1,116 @@
+Unchecking "Run Discord when my computer starts" doesn't prevent autostartup (https://trello.com/c/9b0JVoTI)
+
+None
+
+Created: 2017-01-30T21:22:38.187Z
+Latest Update: 2018-07-10T20:55:50.816Z
+
+Reported by Khionu#8708
+
+####Steps to reproduce: 
+- Uncheck said box 
+- Restart 
+
+####Expected result:
+ Discord lets me start my smaller programs first 
+####Actual result:
+ Abusive Discord chooses my friends for me
+
+Card Log
+========
+### Added by Jared on 2017-01-30T21:22:38.187Z
+
+
+### Can reproduce.
+arch discord canary ver 0.15
+
+mralext20#8975 - Jared on 2017-01-30T21:22:38.797Z
+
+
+### Can reproduce.
+dabbit asked to c:
+
+MelodicStream#1336 - Jared on 2017-01-30T21:22:40.757Z
+
+
+### Can reproduce.
+Dabbit told me to
+
+七海 千秋 ★★★★#9667 - Jared on 2017-01-30T21:22:42.749Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Jared on 2017-02-02T18:53:52.200Z
+
+
+### Can't reproduce.
+Arch Linux XFCE - `discord-canary 0.0.15-3` (from AUR)
+
+「Ｓｅｒｉｅｌ」#0757 - Jared on 2017-02-02T20:32:56.333Z
+
+
+### Can reproduce.
+0.0.1
+
+'Kᴀʏᴅᴀx'#8965 - Jared on 2017-02-04T05:44:04.209Z
+
+
+### Cannot reproduce. Canary build 5085 Mint 17. - Mike Nisbet on 2017-09-29T19:23:59.009Z
+
+
+### Moved from Discord Verified Bugs to Claimed Fixed by Mike Nisbet on 2017-09-29T19:24:03.305Z
+
+
+### This bug is now reproduceable with the "Open Discord on start up " Option in the Linux settings.
+
+Starshine Dust#2189 - Bug Bot on 2017-11-25T21:16:08.470Z
+
+
+### Can reproduce.
+CR, Discord Build 9070, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2017-12-24T12:25:57.526Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS x64, Discord Canary build 10310
+
+NorbiPeti#1869 - Bug Bot on 2018-02-06T15:31:14.994Z
+
+
+### Can't reproduce.
+Ubuntu 16.04 LTS x64, Discord Canary build 10310, I had an older `discord-undefined` autostart entry from dec 18 2017
+
+NorbiPeti#1869 - Bug Bot on 2018-02-06T16:34:49.038Z
+
+
+### Discord uses a setting which isn't universal. In the file in ~/.config/autostart/ it sets X-GNOME-Autostart-enabled instead of Hidden or deleting the autostart file altogether on disable.
+
+NorbiPeti#1869 - Bug Bot on 2018-02-07T21:57:46.462Z
+
+
+### This bug is still happening to non gnome distros. Several reports in DLinux.
+
+Reopening ticket. - Tarek on 2018-04-13T23:50:55.617Z
+
+
+### Moved from Claimed Fixed to Reopened by Tarek on 2018-04-13T23:50:59.025Z
+
+
+### Moved from Reopened to Fix made, not yet released by Jozsef Vass on 2018-07-10T19:13:12.470Z
+
+
+### My approach was to remove the file when autostart is disabled. - Jozsef Vass on 2018-07-10T19:13:40.840Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed by Jozsef Vass on 2018-07-10T20:54:06.640Z
+
+
+### Available in canary 0.0.53, please test (it needed a full client update). - Jozsef Vass on 2018-07-10T20:55:24.528Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

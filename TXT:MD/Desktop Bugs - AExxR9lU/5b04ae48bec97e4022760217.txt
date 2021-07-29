@@ -1,0 +1,61 @@
+Xbox game presence stays on profile even when game isn't being played. (https://trello.com/c/7PAkhglk)
+
+High,
+P2: Fix can wait a while
+
+Created: 2018-05-22T23:56:56.820Z
+Latest Update: 2019-09-23T22:30:07.923Z
+
+Reported by Vinxe#8187
+
+####Steps to reproduce:
+- Link Discord account to Xbox account 
+- Start playing a game, have the game show up on your profile as being played 
+- Stop playing game
+
+####Expected result:
+The game should stop appearing as being played.
+####Actual result:
+The game still appears as being played.
+####Client settings:
+Android Alpha 6.7.4
+####System settings:
+Samsung Galaxy S7 Edge, Android 7.0
+
+13021
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-22T23:56:56.820Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab S2; Android Nougat 7.0; Discord Alpha, 6.7.3 with Xbox One S, Insider Beta, Version 10.0.17134.3036. Tried with 2 games (Fortnite Battle Royale and Forza Horizon 3). The only way to update the status is by reloading the app.
+
+Realex78#2193 - Bug Bot on 2018-05-22T23:57:04.182Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 674 I've also had it telling people what I'm playing even when I'm offline but that might be a separate issue
+
+Xander#0259 - Bug Bot on 2018-05-22T23:57:09.119Z
+
+
+### Can reproduce.
+Can reproduce Discord alpha 6.7.2 Nokia 5 Android 8.0.0
+
+Bencey_#8587 - Bug Bot on 2018-05-22T23:57:14.164Z
+
+
+### known internally + cross platform - Clayton on 2018-05-23T23:49:43.297Z
+
+
+### Imported from https://trello.com/b/57f2a306ca14741151990900 by Clayton on 2018-05-23T23:53:39.475Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

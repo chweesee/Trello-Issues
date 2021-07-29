@@ -1,0 +1,70 @@
+[Archived] When scrolling up with mouse to the point that 'Loading More Messages' shows at the top, chat sometimes jumps to a random spot (only happens when using scroll bar with mouse; canary only?) (https://trello.com/c/m7ixoIn1)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-24T05:44:19.591Z
+Latest Update: 2018-08-30T23:34:14.331Z
+
+Reported by simonizor#0420
+
+####Steps to reproduce:
+- Scroll up until you see 'Load More Messages' 
+- Sometimes after messages load, you end up with a different message in view than before loading 
+- Sometimes you end up with the same message in view as before loading
+
+####Expected result:
+The message that was in view before loading should stay in view.
+####Actual result:
+Discord sometimes jumps to a seemingly random message rather than staying in the same spot after loading more messages (may have to test multiple times to get random jump)
+####Client settings:
+Discord Canary 0.0.52 build 17486
+####System settings:
+openSUSE Tumbleweed 20180618
+
+14598
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-24T05:44:19.591Z
+
+
+### Can reproduce.
+canary 17486 arch linux kernel 4.17.2
+
+E5ten#3510 - Bug Bot on 2018-06-24T05:44:27.192Z
+
+
+### Can reproduce.
+Can repo (It's if you scroll up when message are loading, the screen moove fast up after the loading of the messages !)  - Windows 10 Pro x64 Release Channel: stable, Build Number: 17491 and on Release Channel: canary, Build Number: 17576
+
+OmnesTV 💔#0001 - Bug Bot on 2018-06-24T05:44:32.171Z
+
+
+### Can reproduce.
+Windows 10 + Canary Build# 17576
+
+Oasis#4730 - Bug Bot on 2018-06-24T05:44:37.212Z
+
+
+### verified, macos 10.12.6, canary 17580 - Clayton on 2018-06-25T20:46:22.969Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-25T20:46:30.147Z
+
+
+### Cannot reproduce. Marking as Verified Fixed. - Jared on 2018-07-11T22:58:03.893Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-11T22:58:07.820Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:14.333Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

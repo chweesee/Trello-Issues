@@ -1,0 +1,127 @@
+[Archived] [Mac/Linux + Firefox only] Right-click context menu disappears before I can use it (https://trello.com/c/ph5DMFbE)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-11-09T02:04:24.547Z
+Latest Update: 2019-10-23T23:04:27.504Z
+
+Reported by jruderman#9286
+
+####Steps to reproduce:
+- This problem started yesterday; it worked properly in the past. 
+- Move the cursor over someone's name (in a chat channel) 
+- Tap lightly with two fingers on the trackpad, or right-click with the mouse
+
+####Expected result:
+A Discord-specific context menu should appear with items including "Profile" and "Mention"
+####Actual result:
+The context menu appears for 0-50 ms and then disappears. (Sometimes this happens so quickly that it seems nothing happe
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 27687, Version Hash: 396d79a0dd30abd96a0c2c86ea8d61b9977e4241
+####System settings:
+Firefox 63.0.1 (64-bit); macOS Mojave 10.14.1 (18B75)
+
+22886
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-09T02:04:24.547Z
+
+
+### Alfie#1582 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5be4eb28c2cde145ac7630ba/ff1fa7e6046c88444c353fe110b81353/DabbitBug2.gif added by Bug Bot on 2018-11-09T02:04:27.088Z
+
+
+### Can reproduce.
+MacBook Pro 13", macOS Mojave 10.14, Firefox 63.0.1 (64-bit)
+
+Alfie#1582 - Bug Bot on 2018-11-09T02:04:32.049Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13", Mid-2012), macOS v10.14.1 (Mojave) - Firefox v63.0.1 (x64) - Web Canary 27701 - (If you can't reproduce, try on a different zoom level.)
+
+william#0002 - Bug Bot on 2018-11-09T02:04:36.999Z
+
+
+### Can reproduce.
+MacBook Air 2017 1.8GHz, Firefox Nightly 65.0a1 - The menu stays on screen for as long as you hold down right click, if you drag the cursor away from the name while holding down the menu stays.
+
+Helvetica#7256 - Bug Bot on 2018-11-09T02:04:42.127Z
+
+
+### verified, firefox 63.0.1 - Clayton on 2018-11-09T04:03:54.315Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-09T04:04:35.647Z
+
+
+### Can reproduce.
+GNU/Linux, Debian Debian 4.9.130-2 (2018-10-27), Firefox Web Client, GNOME, Kernel: 4.9.0-8-amd64
+
+jokebookservice1#5422 - Bug Bot on 2018-11-19T22:40:42.763Z
+
+
+### Can reproduce.
+KDE neon 5.14, Firefox 63.0.3 (64-bit)
+
+JLinks22#1419 - Bug Bot on 2018-12-10T00:16:27.932Z
+
+
+### Can reproduce.
+Firefox 63.0.3 on ubuntu 16.04, workaround: in about:config, set ui.context_menus.after_mouseup to true
+
+echuber2#5295 - Bug Bot on 2018-12-10T03:07:40.281Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 30387
+
+Rage#9991 - Bug Bot on 2019-01-04T21:41:38.865Z
+
+
+### Archived by Bug Bot on 2019-02-03T22:00:03.087Z
+
+
+### Can reproduce.
+Firefox 65.0; Fedora 29; Release Channel: stable, Build Number: 32407, Version Hash: c146721bbbd760e1ade89402e8685b0867140a6c
+
+Coffee2Code#7352 - Bug Bot on 2019-02-19T23:44:37.767Z
+
+
+### Can reproduce.
+Adding video: https://youtu.be/ZyUWL0Y1ntw
+
+Coffee2Code#7352 - Bug Bot on 2019-02-19T23:55:09.047Z
+
+
+### Can reproduce.
+This issue is not Linux or OSX specific, it's UNIX specific. This also probably happens due to the way UNIX systems handle input, this issue also does not happen under Windows 10 1809 with Firefox 65.0.1 on the Discord version I reproduced this bug on under Fedora 29. Please upscale this issue from low priority though, it makes using Discord in a browser nigh impossible and very irritating.
+
+Coffee2Code#7352 - Bug Bot on 2019-02-19T23:58:04.464Z
+
+
+### Unarchived by Bug Bot on 2019-02-20T00:00:07.605Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS/Linux 4.15.0-54-generic/Firefox 67.0.4/Discord Stable Build 40393
+
+LogalDeveloper#6919 - Bug Bot on 2019-07-03T17:15:15.327Z
+
+
+### Can reproduce.
+Linux Mint 19.1 Cinnamon, 4.15.0-20generic kernel, Firefox 64.0 (built in)
+
+moomoo#5351 - Bug Bot on 2019-07-20T20:18:50.228Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:27.518Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

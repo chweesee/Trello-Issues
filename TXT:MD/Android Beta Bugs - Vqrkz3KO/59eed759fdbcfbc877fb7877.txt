@@ -1,0 +1,149 @@
+[Archived] A mysterious error occurs if you rotate your screen while viewing Recent mentions (https://trello.com/c/BetuqoBc)
+
+P2 - Can wait a while
+
+Created: 2017-10-24T06:02:01.227Z
+Latest Update: 2018-03-03T04:19:18.255Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Recent mentions screen 
+- Rotate the screen
+
+####Expected result:
+it should display the recent mentions in landscape mode
+####Actual result:
+An error message with a wumpus appears instead. When pressing back the app seems to function normally again, but you can see a NullPointerException message in the debug screen
+####Client settings:
+Discord Alpha 5.4.4
+####System settings:
+Huawei Mate 9 Android 7.0
+
+5711
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-24T06:02:01.227Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59eed759fdbcfbc877fb7877/1fbcf5306a4a5ae281b8d8a40aeb9320/IMG_20171024_075502.png added by Bug Bot on 2017-10-24T06:02:03.596Z
+
+
+### Xander#0259 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59eed759fdbcfbc877fb7877/c97d39322c81c0d24ddd6445b0012712/Screenshot_20171024-015933.png added by Bug Bot on 2017-10-24T06:02:03.664Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 544
+
+Xander#0259 - Bug Bot on 2017-10-24T06:02:08.600Z
+
+
+### Can reproduce.
+CR lg xpower 6.0.1 on alpha 5.4.4
+
+ks0908#8526 - Bug Bot on 2017-10-24T06:02:13.555Z
+
+
+### Can reproduce.
+CR, Discord Alpha 5.4.4 on OnePlus 5 on Android 7.1.1
+
+Tarek1337#0379 - Bug Bot on 2017-10-24T06:02:18.588Z
+
+
+### Can reproduce.
+CR, BLU Life One 4G, Android 5.0.2 Discord Alpha 5.4.4
+
+Doodleguy#0441 - Bug Bot on 2017-10-24T06:11:17.306Z
+
+
+### This also happens when you rotate the sceeen while viewing pinned messages
+
+Alex1304#9704 - Bug Bot on 2017-10-24T07:27:24.561Z
+
+
+### Can't reproduce.
+CNR Galaxy Note8, Android 7.1.1, Discord Alpha 5.4.4 (both on recent mentions and pinned messages)
+
+Akemi#3352 - Bug Bot on 2017-10-24T07:42:16.872Z
+
+
+### Can no longer reproduce after update 5.4.5
+
+Alex1304#9704 - Bug Bot on 2017-10-24T07:59:11.902Z
+
+
+### Can reproduce.
+CR Samsung Galaxy Note8 & Samsung Galaxy S5, 7.1.1, Discord Alpha 5.4.5 (applies to both) still reproducable on 5.4.5
+
+Akemi#3352 - Bug Bot on 2017-10-24T09:29:56.524Z
+
+
+### Actually I can still reproduce for pinned messages, but not for recent mentions in 5.4.5.
+
+Alex1304#9704 - Bug Bot on 2017-10-24T09:47:48.711Z
+
+
+### Can reproduce.
+Nexus 6 Android 7.1.2 Discord 5.4.6
+
+MelodyConcerto#5328 - Bug Bot on 2017-10-24T10:13:19.453Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-24T22:36:57.724Z
+
+
+### Can no longer reproduce for either recent mentions or pinned messages. Pixel XL Android 8.0 Alpha 5.4.7 - Mike Nisbet on 2017-10-25T10:15:43.749Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-10-25T10:15:55.217Z
+
+
+### Can't reproduce.
+OnePlus 5, Android 8.0, Discord Alpha 6.1.2
+
+B a ™ a n#7883 - Bug Bot on 2018-01-26T18:19:41.411Z
+
+
+### Can't reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.2
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T00:54:05.839Z
+
+
+### Can't reproduce.
+Xiaomi Redmi 3, Android 5.1.1, MIUI 9 beta, Discord Alpha 6.1.6
+
+NorbiPeti#1869 - Bug Bot on 2018-01-28T12:51:41.835Z
+
+
+### Can't reproduce.
+Samsung Galaxy s2 sgh-t989, 6.0.1, alpha 6.1.6
+
+rauf#3260 - Bug Bot on 2018-01-28T15:57:29.302Z
+
+
+### Can't reproduce.
+Discord Beta 6.1.6 Xperia C4 Android 6.0
+
+cutelilberry#5423 - Bug Bot on 2018-01-28T20:27:19.787Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Alexandru Todea on 2018-01-29T12:26:08.836Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-29T12:26:16.919Z
+
+
+### Archiving as there has been no activity on this card for over a month. - Chris Cox on 2018-03-03T04:19:14.060Z
+
+
+### Archived by Chris Cox on 2018-03-03T04:19:18.258Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

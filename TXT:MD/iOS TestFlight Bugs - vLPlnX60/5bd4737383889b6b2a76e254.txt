@@ -1,0 +1,81 @@
+[Archived] Audit logs don't move back up when collapsing an expandable audit log entry at bottom of scroll. (https://trello.com/c/t9Uy4wqg)
+
+P3 - Will be fixed eventually
+
+Created: 2018-10-27T14:17:23.450Z
+Latest Update: 2019-01-22T22:56:02.022Z
+
+Reported by 54D#6602
+
+####Steps to reproduce:
+- Go to audit log. 
+- Scroll to bottom of logs. 
+- See if the bottom entry is expandable. 
+- If yes, expand it. 
+- Scroll down again to reach the new bottom. 
+- Collapse it.
+
+####Expected result:
+All logs move downwards.
+####Actual result:
+All logs stay in same position. There is a blank space replacing the collapsed area. Trying to scroll will cause the screen to suddenly jump back to normal position.
+####Client settings:
+Discord TestFlight 2.4.0 (8667)
+####System settings:
+iPhone XS Max, iOS 12.0.1
+
+22247
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-27T14:17:23.450Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1 Dev Beta 5 - TestFlight 2.4.0 (8667)
+
+Alfie#1582 - Bug Bot on 2018-10-27T14:17:30.772Z
+
+
+### Can reproduce.
+Can Reproduce, iPad Air 2, iOS 12 TestFlight 2.4.0 (8667)
+
+1Storm#0001 - Bug Bot on 2018-10-27T14:17:35.753Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s iOS 12.0.1, TestFlight 2.4.0 (8667)
+
+Solo#0007 - Bug Bot on 2018-10-27T14:17:40.852Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1 Beta (16B5089b) - TestFlight 2.4.0 (8667)
+
+william#0002 - Bug Bot on 2018-10-28T08:53:53.645Z
+
+
+### Can reproduce.
+Can Reproduce; iPhone 6s, IOS 12.0.1; TestFlight 2.4.0 (8667);
+
+S6out#1111 - Bug Bot on 2018-10-29T05:35:26.826Z
+
+
+### Moved from New Issues to Audit Log Bugs by Victoria on 2018-11-01T03:16:01.806Z
+
+
+### Moved from Audit Log Bugs to Won't Fix by Jeff Cailteux on 2018-11-02T18:20:35.233Z
+
+
+### This ticket has been in Won't Fix for no activity for over 30 days. So archiving this ticket due to the inactivity. - Ghoul on 2019-01-22T22:55:59.633Z
+
+
+### Archived by Ghoul on 2019-01-22T22:56:02.024Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

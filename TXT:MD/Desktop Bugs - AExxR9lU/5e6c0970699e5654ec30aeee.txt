@@ -1,0 +1,76 @@
+[Reduced Motion] Dozen locations where Animated Profile picture activates without mouse being focused on/near the picture (https://trello.com/c/paLWDQIs)
+
+None
+
+Created: 2020-03-13T22:30:08.302Z
+Latest Update: 2020-03-17T09:03:58.781Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Mini Profile: Select a user with an Animated profile picture 
+- Large Profile: Right click user, Select Profile 
+- Settings Page: Open settings in bottom left, Notice profile in My Account 
+- Embed Footer/Author: Create an Embed with an GIF for the Footer Icon 
+- Server invites in chat: Find a server with an Animated Icon, Paste Invite into chat
+
+####Expected result:
+Items will only Animate when mouse is placed on a nearby object or directly on top of picture
+####Actual result:
+Item animates all the time no matter where the mouse is.
+####Client settings:
+Canary 55934 (33ebf2e)
+####System settings:
+Win10 64x 1809 // Chrome 80.0.3987.132
+
+53395
+
+Card Log
+========
+### Added by Bug Bot on 2020-03-13T22:30:08.302Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1909 Build: 18363.657 - Discord canary, Build Number: 55934
+
+Xylium#0001 - Bug Bot on 2020-03-13T22:30:16.074Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.3; Discord Canary 55934
+
+Jiralite#1207 - Bug Bot on 2020-03-13T22:30:21.002Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Canary 55934 Host 0.0.263
+
+SSalt#5041 - Bug Bot on 2020-03-13T22:30:25.991Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909 (10.0.18363), Canary 55934 host 0.0.263 reduced-motion
+
+Jean20B#4668 - Bug Bot on 2020-03-14T06:30:22.696Z
+
+
+### Moved from User Reported Bugs to Reduced Motion by Daffyduck on 2020-03-15T04:01:43.641Z
+
+
+### As of now: User avatars always animating in user popouts, profiles, and the settings page is Not A Bug.
+
+Embeds and Server invites are valid issues. Expected behavior for Server Invites is that server avatars will never animate in the chat view. In the sidebar, they should animate on hover. - Jon Egeland on 2020-03-17T06:59:23.948Z
+
+
+### Can reproduce.
+reduced motion override canary 56106 on MacBook Air - MacOS (10.12.6 Sierra)
+
+myacorn#6534 - Bug Bot on 2020-03-17T09:03:58.798Z
+
+List
+====
+Reduced Motion
+
+Members
+=======
+None

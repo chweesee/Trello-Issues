@@ -1,0 +1,86 @@
+[Archived] Trying to share an image via Discord in a read-only channel possible when it was your last viewed channel (https://trello.com/c/wYKrpPLD)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2018-04-05T12:00:37.635Z
+Latest Update: 2019-11-03T20:30:15.799Z
+
+Reported by 54D#0001
+
+####Steps to reproduce:
+- Open an image sent in a read-only channel. 
+- Click on the top right hand corner to open the share dialogue. 
+- Select Discord.
+
+####Expected result:
+You must select a valid share to channel, else the image cannot be posted.
+####Actual result:
+Share to channel is defaulted to the read-only channel and only changes if another valid channel is manually selected. Pressing Post will produce "Unable to share. A network error has occurred or you are not currently logged in. Launch Discord, check your network settings, and try again." error.
+####Client settings:
+Discord stable 2.2.9
+####System settings:
+iPhone 6S, iOS 10.2.1
+
+10301
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-05T12:00:37.635Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th generation, iOS 11.2.6, Stable 2.2.9
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-04-05T12:00:45.167Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.4 - Discord Stable 2.2.9
+
+Ghoul#0001 - Bug Bot on 2018-04-05T12:00:50.267Z
+
+
+### Can reproduce.
+CR; iPhone 6 - iOS 11.4 Stable 2.2.9
+
+Xylium#1480 - Bug Bot on 2018-04-05T12:00:55.340Z
+
+
+### Can reproduce.
+iPhone SE, iOS 11.3, Stable 2.2.9
+
+Shakenbacon#1769 - Bug Bot on 2018-04-05T15:08:27.303Z
+
+
+### You also get the wrong error message when trying to share an image with a comment that has more than 2000 chars
+
+Pascal#0929 - Bug Bot on 2018-04-12T14:39:54.577Z
+
+
+### You got the wrong bug here. The problem is that you can try to share to a channel you don't have the permissions to. The network error is actually expected in this situation. Archiving. - Jared on 2018-04-12T22:03:51.879Z
+
+
+### Archived by Jared on 2018-04-12T22:03:55.244Z
+
+
+### Unarchived by Pascal on 2019-08-20T18:27:08.055Z
+
+
+### Updated the ticket to include the real bug: You can try to share an image in an read-only channel when it was your last viewed channel.
+
+Reopening and verifying with iPhone 8 Plus, iOS 12.4 and Discord TestFlight 3.1.1 (16898). - Pascal on 2019-08-20T18:28:02.192Z
+
+
+### Moved from New Issues to Backlog by Pascal on 2019-08-20T18:29:00.993Z
+
+
+### Archived by Bug Bot on 2019-11-03T20:30:15.813Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

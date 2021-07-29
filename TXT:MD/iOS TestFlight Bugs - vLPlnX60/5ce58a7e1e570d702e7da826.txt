@@ -1,0 +1,78 @@
+[Archived] Pressing "save to files" button on an image when the files app is uninstalled brings up a white screen and closes the white screen without any errors (https://trello.com/c/byroDPta)
+
+None
+
+Created: 2019-05-22T17:44:30.147Z
+Latest Update: 2019-06-22T22:30:18.639Z
+
+Reported by evilpauwse#9985
+
+####Steps to reproduce:
+- Uninstall the files app 
+- Send an image link 
+- Open the image  
+- Hit the share button 
+- Press "save to files" 
+- Observe
+
+####Expected result:
+The save process shouldn't fail silently
+####Actual result:
+The save process opens a white screen and then closes it
+####Client settings:
+TF 15113
+####System settings:
+iPhone SE - iOS 12.0.0
+
+35048
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-22T17:44:30.147Z
+
+
+### evilpauwse#9985 - https://youtu.be/8hdBA-4JU1Y added by Bug Bot on 2019-05-22T17:44:32.619Z
+
+
+### Can reproduce.
+iOS 12.3 iPhone 6s testflight 3.0.2
+
+GlenMerlin#2119 - Bug Bot on 2019-05-22T17:44:37.598Z
+
+
+### Can reproduce.
+TestFlight 3.0.2 (15113) • iPhone 7 Plus • iOS 12.3
+
+✨✨#0001 - Bug Bot on 2019-05-22T17:44:42.647Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.2 Testflight 3.0.2(15113)
+
+undermaster#3126 - Bug Bot on 2019-05-22T17:44:47.564Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.2 TestFlight 3.0.2 (15113)
+
+binchlord#0998 - Bug Bot on 2019-05-22T18:40:18.158Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 2) - TestFlight 3.0.2 (15113)
+
+Xylium#5800 - Bug Bot on 2019-05-22T18:54:22.627Z
+
+
+### Moved from New Issues to Won't Fix by Victoria on 2019-05-23T22:16:21.882Z
+
+
+### Archived by Bug Bot on 2019-06-22T22:30:18.648Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

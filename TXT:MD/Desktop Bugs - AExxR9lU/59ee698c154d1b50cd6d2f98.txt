@@ -1,0 +1,112 @@
+[Archived] User settings: My account: long user name overflows (https://trello.com/c/0xEVaRj9)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2017-10-23T22:13:33.029Z
+Latest Update: 2018-10-22T20:16:25.464Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Open user settings 
+- Go to my account 
+- Change your username to something very long like `WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW` 
+- Observe it
+
+####Expected result:
+The long user name should be truncated with "..."
+####Actual result:
+The long user name overflows and overlaps with the edit button.
+####Client settings:
+Web Canary (Build 6190), Google Chrome 62.0.3202.62
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13, Discord Canary 0.0.156 (Build:
+
+5687
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-23T22:13:33.029Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59ee698c154d1b50cd6d2f98/70cf9e3d0922ddba7d748fa5dadcfd6f/pl252lo.png added by Bug Bot on 2017-10-23T22:13:35.558Z
+
+
+### Can reproduce.
+CR, Discord desktop app build 5942, Windows 10
+
+Stiggimy#1116 - Bug Bot on 2017-10-23T22:13:40.482Z
+
+
+### Can reproduce.
+Windows 10 x64 Fall Creator's Update Canary build 6190
+
+Mikesky#3456 - Bug Bot on 2017-10-23T22:13:45.480Z
+
+
+### Can reproduce.
+MacOS 10.13 Discord Canary 0.0156, can only produce with a small window, not with fullscreen.
+
+Greebo#0397 - Bug Bot on 2017-10-23T22:13:50.481Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-23T23:25:04.931Z
+
+
+### Barely a bug - Jared on 2017-10-23T23:25:09.185Z
+
+
+### Extension to this issue:
+
+User profile: long user name with set nickname will be cut off
+**Steps to Reproduce:**
+
+- Change your username to a very long one that must be shown in 2 or more lines for the user profile (for example `WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW`)
+- Set your account to any nickname at any server
+- Click on the user to open the user profile at this server
+
+**Expected Result:** Long user name should be shown in multiple lines (like without a nickname)
+**Actual Result:** User name for the user profile will be cut off. (see second attached screenshot)
+**Client Settings:** Discord Canary 0.0.184 (Build: 9280)
+**System Settings:** MacBook Pro 13" (2016), macOS High Sierra 10.13.2
+
+Pascal#0929 - Bug Bot on 2018-01-08T20:51:13.480Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59ee698c154d1b50cd6d2f98/fb1fe7c58e61ecbf40ed54361cb6a391/BSIOBlF.png added by Bug Bot on 2018-01-08T20:51:17.431Z
+
+
+### **Another extension to this issue:** 
+**Short description:** Long user name gets cut off for the mention drawer
+**Steps to reproduce:**
+
+- Change your user name to a very long name like `WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW`
+- Make sure that this user has no nickname (very long nickname would work though)
+- Go to any text channel with this user
+- Try to mention this user
+- Observe the mention drawer
+
+**Expected result:** The full username with the discriminator should be shown, the nickname should be shorten to show it.
+**Actual result:** The full username is not visible.
+**Client settings:** Discord Canary 0.0.186 (Build 12704) | TestFlight 2.2.6 (3440)
+**System settings:** MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | iPhone 6s, iOS 11.3 PB 6
+
+Pascal#0929 - Bug Bot on 2018-03-27T13:29:01.506Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59ee698c154d1b50cd6d2f98/4916e4244d62275fe72f8275fbc3b316/AwDNBhR.png added by Bug Bot on 2018-03-27T13:30:18.825Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59ee698c154d1b50cd6d2f98/82cf6638038034b885b859baf4be95fd/2wglBLV.jpg added by Bug Bot on 2018-03-27T13:30:37.347Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:25.466Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

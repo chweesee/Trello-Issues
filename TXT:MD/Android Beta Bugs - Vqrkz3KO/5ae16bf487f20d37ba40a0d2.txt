@@ -1,0 +1,75 @@
+[Archived] (Android 6+) Toast showing up when changing avatar without giving the app storage permissions is referring to message attachments (https://trello.com/c/sPQX5RlN)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-26T06:04:36.504Z
+Latest Update: 2018-08-22T01:21:55.822Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Make sure Discord isn't granted permission to access your phone's storage 
+- Go to your account settings where you can change avatar. Also works when changing server and group DM icons  
+- Tap your avatar 
+- When Discord is requesting access to your storage, choose Refuse 
+- Observe the error toast showing up
+
+####Expected result:
+Should say something like "The app needs to access your storage so you can change avatar"
+####Actual result:
+It's actually saying something like "The app needs to access your storage so you send attachments", which is out of context
+####Client settings:
+Discord Alpha 6.5.6
+####System settings:
+Huawei Mate 9 Android 7.0
+
+11274
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-26T06:04:36.504Z
+
+
+### Can reproduce.
+CR Galaxy S8 android 8.0, alpha 6.5.7
+
+AEnterprise#4693 - Bug Bot on 2018-04-26T06:04:43.961Z
+
+
+### Can reproduce.
+can reproduce HTC Desire 526 Android 6.0.1 Discord Alpha 6.5.6
+
+420 Cringe Lord#8570 - Bug Bot on 2018-04-26T06:04:48.996Z
+
+
+### Can reproduce.
+Can Reproduce - Xiaomi Mi A1 Android 8.0.0 - Discord Alpha 6.5.8
+
+Ori#1908 - Bug Bot on 2018-04-26T06:04:53.981Z
+
+
+### Can reproduce.
+LG G5 (Android 7.0) - Discord Alpha 6.5.6
+
+CinnamonCian#8384 - Bug Bot on 2018-04-26T10:47:18.369Z
+
+
+### Verified.  - Clayton on 2018-04-26T21:25:57.266Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-26T21:26:05.935Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ae16bf487f20d37ba40a0d2/4407db43d2e49abd591a4ce3609680b1/O5OJdg1.gif added by Bug Bot on 2018-07-15T17:26:11.782Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:55.824Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,100 @@
+[Archived] When deleting a role, pressing <enter> closes and reopens the dialog, but doesn't delete the role. (https://trello.com/c/zWFMFG5e)
+
+Low,
+P2: Fix can wait a while
+
+Created: 2017-07-05T10:57:18.421Z
+Latest Update: 2018-08-21T23:34:05.415Z
+
+Reported by ItsPugle#5963
+
+####Steps to reproduce:
+- Find a role that you want/can delete with Administrator privelages 
+- Click on Delete 
+- Press Enter on the dialog
+
+####Expected result:
+The role is deleted.
+####Actual result:
+The dialog box closes and reopens, and for everytime you press enter, once you've stopped pressing enter and start clicking OKAY it doesn't work. E.g. 3x Enter = 6x dialog (3x enter causing another box + 3x clicking open another box) before it'll work.
+####Client settings:
+Desktop Canary - Build 0.0.149
+####System settings:
+MacBook Air Early 2014 - macOS Sierra 10.12.5
+
+2018
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-05T10:57:18.421Z
+
+
+### Can reproduce.
+ Windows 10 (Creators Update) x64, Canary 0.0.157
+
+DeJay#3628 - Bug Bot on 2017-07-05T10:57:25.935Z
+
+
+### Can reproduce.
+ Windows x64 Stable 0.0.297 Creators Update
+
+Pretty Lightningreed (PL)#0875 - Bug Bot on 2017-07-05T10:57:30.883Z
+
+
+### Can reproduce.
+CR  Windows 10 Pro build 1703 Canary 0.0.157
+
+Ana#0950 - Bug Bot on 2017-07-05T10:57:35.891Z
+
+
+### Verified.  - Clayton on 2017-07-05T20:02:09.865Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-05T20:02:14.833Z
+
+
+### Can reproduce.
+Gentoo 64-bit default/linux/amd64/13.0, Canary 0.0.19
+
+Info Teddy#3737 - Bug Bot on 2017-07-05T23:41:47.886Z
+
+
+### Can reproduce.
+Win 7 x64, Canary 0.0.157
+
+dross#1913 - Bug Bot on 2017-07-11T07:17:07.238Z
+
+
+### Can reproduce.
+Discord 0.0.248 MacBook Pro Retina 13" Late 2014 macOS High Sierra 10.13
+
+fratik#9865 - Bug Bot on 2017-10-10T18:19:59.307Z
+
+
+### Low P2. - Jared on 2017-10-17T06:39:34.035Z
+
+
+### Can reproduce.
+Windows 10, Windows 7, Windows 8.1, Windows XP, Discord Stable (All builds), Discord PTB (Most Builds), Discord Canary (Most Builds), Discord Online (Latest Builds)
+
+NEXO#8392 - Bug Bot on 2018-05-02T06:24:53.337Z
+
+
+### Cannot repro anymore, Canary 18051. moving to claimed fixed. - Tarek on 2018-07-02T17:09:14.865Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-02T17:09:18.584Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:34:04.614Z
+
+
+### Archived by Jared on 2018-08-21T23:34:05.417Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,138 @@
+[Archived] NSFW can be watched in pinned messages on Android (not similar to #1248) (https://trello.com/c/uSZPtz9c)
+
+P1 - Severe
+
+Created: 2017-08-11T00:45:11.479Z
+Latest Update: 2018-07-06T21:25:05.945Z
+
+Reported by Rult#0684
+
+####Steps to reproduce:
+- Go to any NSFW channel 
+- Open "Pinned Messages"
+
+####Expected result:
+Pinned Messages button in NSFW channel shouldn't be available until you enter the channel
+####Actual result:
+You can watch pinned and nearest to it messages in NSFW channels even if you didn't confirm your age
+####Client settings:
+4.0.4
+####System settings:
+Android 6.0.1
+
+3039
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-11T00:45:11.479Z
+
+
+### Can reproduce.
+CR GT-19195 Android 4.4.2, Discord 4.0.4. (404)
+
+Souji#4629 - Bug Bot on 2017-08-11T00:45:18.932Z
+
+
+### Can reproduce.
+CR - LG Xpower 6.0.1, Alpha 4.0.4
+
+ks0908#8526 - Bug Bot on 2017-08-11T00:45:23.891Z
+
+
+### Can reproduce.
+4.0.4 Galaxy S6, S7, or S8+, Android 7.0
+
+ザ・オッドボール#2867 - Bug Bot on 2017-08-11T00:45:28.905Z
+
+
+### Can reproduce.
+(Using unverified email) I  made a server and set a channel as NSFW, then I entered it and I was able to read Pinned messages on the verification page, and when I pressed verify it just let me enter Huawei Mate 8 NXT-AL10 Android 7.0 - Discord Beta 4.0.4
+
+TheToxicGamer#9220 - Bug Bot on 2017-08-13T14:08:56.299Z
+
+
+### Verified.  - Clayton on 2017-08-17T19:24:48.723Z
+
+
+### Moved from User Reported Bugs to Serious Issues by Clayton on 2017-08-17T19:24:57.820Z
+
+
+### Fix committed, shipping in in 5.7.8 - Miguel Gaeta on 2017-10-26T00:02:01.480Z
+
+
+### Moved from Serious Issues to Claimed Fixed, needs Verification by Miguel Gaeta on 2017-10-26T00:02:08.144Z
+
+
+### Can reproduce.
+I can still reproduce as of 5.4.8
+
+Azrael#9808 - Bug Bot on 2017-10-26T03:25:20.682Z
+
+
+### I meant to say 5.4.9  - Miguel Gaeta on 2017-10-26T03:27:51.648Z
+
+
+### can still access pins by going in channel settings -> pinned messages , so close
+
+Okori#0902 - Bug Bot on 2017-10-26T05:28:09.206Z
+
+
+### Can reproduce.
+as well once you do verify the pins option doesn't come back, and can still repo my note below Android​ 5.1 Discord 5.5.1
+
+🎃Okori🎃#0902 - Bug Bot on 2017-10-29T02:59:49.212Z
+
+
+### Can reproduce with the steps below, from entering pins via channel settings. Android 8.0, Alpha 5.5.7 - Mike Nisbet on 2017-11-07T01:05:02.636Z
+
+
+### Moved from Claimed Fixed, needs Verification to Serious Issues by Mike Nisbet on 2017-11-07T01:05:07.086Z
+
+
+### Can reproduce.
+CR Samsung Galaxy J7 2016, 7.0, alpha 5.6.1
+
+Ticha#2648 - Bug Bot on 2017-11-09T02:58:32.732Z
+
+
+### Moved from Serious Issues to Fix made, not yet released by Andy Garron on 2017-12-12T20:42:12.515Z
+
+
+### I cnr but the pin option in the drop down menu still doesn't come back until you view a different screen
+
+Okori#0902 - Bug Bot on 2017-12-16T05:43:05.170Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Miguel Gaeta on 2017-12-28T07:33:44.638Z
+
+
+### Can't reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.2
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T21:44:05.256Z
+
+
+### Can't reproduce.
+Samsung Galaxy s2 sgh-t989, 6.0.1, alpha 6.1.6
+
+rauf#3260 - Bug Bot on 2018-01-28T06:07:55.416Z
+
+
+### Can't reproduce.
+OPPO f1 5.1.1, Android Alpha 6.6.0
+
+Destroyer#9344 - Bug Bot on 2018-05-02T02:15:41.817Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:25:04.947Z
+
+
+### Archived by Jared on 2018-07-06T21:25:05.948Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

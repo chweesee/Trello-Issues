@@ -1,0 +1,75 @@
+5-minute timeout is reset if you reset voice settings when you are alone in a private voice call. (https://trello.com/c/U1xk6sDe)
+
+None
+
+Created: 2019-12-11T13:15:54.952Z
+Latest Update: 2020-07-16T21:26:05.889Z
+
+Reported by Smokepurpp#6012
+
+####Steps to reproduce:Make a voice call to a friend. But your friend is not supposed to take the call. 
+- Stay on call for 2 minutes. (don't leave the voice call) 
+- Now press the small Settings button on the call and scroll down and press the "Reset Voice Settings" button. 
+- Observe without leaving call for 5 minutes.
+
+####Expected result:
+Because there was only one person on call, call had to be automatically closed after 5 minutes.
+####Actual result:
+If the voice settings are reset after 2 minutes, the timeout period of 5 minutes is reset, even though the call is on its own.
+####Client settings:
+Discord 50980 - Microsoft Edge 44.19030.1.0
+####System settings:
+Windows 10 Home
+
+50073
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-11T13:15:54.952Z
+
+
+### Smokepurpp#6012 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5df0ec0a85b14b7eadf14abb/e40ac54d4fe0d1895bdcca710f833706/unknown.png added by Bug Bot on 2019-12-11T13:15:58.425Z
+
+
+### Can reproduce.
+CR //  Windows 10 Home x64 //  Microsoft Edge 44.18362.449.0
+
+Xelphos#0001 - Bug Bot on 2019-12-11T13:16:02.737Z
+
+
+### Can reproduce.
+Windows 10 Home Microsoft Edge 44.18362.449.0
+
+hasankayra04#2753 - Bug Bot on 2019-12-11T13:16:07.710Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro - Microsoft Edge 44.18362.449.0 - Discord 51182
+
+YasinDalbudak#8500 - Bug Bot on 2019-12-11T13:16:12.688Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 51257; MS Edge 44.18362.449.0
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-12T02:39:11.450Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51469, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-14T11:45:45.959Z
+
+
+### Can reproduce.
+Canary 50588, Windows 7
+
+Rohit#3523 - Bug Bot on 2019-12-15T14:24:54.907Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

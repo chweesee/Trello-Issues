@@ -1,0 +1,77 @@
+[Archived] Entire server order resets after moving an icon while Discord is loading (https://trello.com/c/tZSncqN5)
+
+None
+
+Created: 2019-06-11T22:44:56.561Z
+Latest Update: 2019-07-12T16:30:29.513Z
+
+Reported by ImmortaLemur#2998
+
+####Steps to reproduce:
+- Make sure you are in a lot of servers (50+), and note the positioning. 
+- Move any server (DTesters will be optimal in this situation) all the way to the top, and stay there. 
+- Close all app processes, and reopen Discord. 
+- Open Discord, and while the app is loading in, move the position of the server you selected in step 2 BEFORE Discord finishes loading in. Make sure that the verified server icon does not appear, otherwise that shows that the app has loaded in. If so, start again from step 3. 
+- Note how your server placement has reset.
+
+####Expected result:
+Your server icons should stay the way they are
+####Actual result:
+Your server icon placement resets.
+####Client settings:
+TestFlight 3.0.3 (15443)
+####System settings:
+iPhone 8, iOS 12.3.1
+
+36312
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-11T22:44:56.561Z
+
+
+### xTeal#7702 - https://youtu.be/7NQIq1PUnzc added by Bug Bot on 2019-06-11T22:44:59.084Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.3 (15638) (could repro on 15443 as well)
+
+binchlord#0998 - Bug Bot on 2019-06-11T22:45:04.436Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, TestFlight 3.0.3 (15638)
+
+OrangeM24#5746 - Bug Bot on 2019-06-11T22:45:09.073Z
+
+
+### Can reproduce.
+iPhone 7plus iOS 13, Testflight 3.0.3 Build 15638
+
+DreaMMM#4257 - Bug Bot on 2019-06-11T22:45:14.022Z
+
+
+### Moved from New Issues to Won't Fix by Fanghao on 2019-06-11T23:45:45.940Z
+
+
+### Can reproduce.
+ipad 2018 iOS 12.4 , TestFlight 3.0.3 (15702)
+
+18.58.9.9.26#9531 - Bug Bot on 2019-06-12T03:53:23.210Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 12.3.1, TestFlight 3.0.3 (15638)
+
+hypnosis#7992 - Bug Bot on 2019-06-12T16:18:32.734Z
+
+
+### Archived by Bug Bot on 2019-07-12T16:30:29.526Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

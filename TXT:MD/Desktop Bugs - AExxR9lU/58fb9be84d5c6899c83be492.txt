@@ -1,0 +1,106 @@
+[Archived] When editing channel topic, *sometimes* what you add/delete may flash once when clicking save changes (https://trello.com/c/AyrjxUJ1)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-04-22T18:07:36.744Z
+Latest Update: 2018-07-06T18:15:35.264Z
+
+Reported by Exanimem#3112
+
+####Steps to reproduce: 
+- Go to channel settings 
+- Add something or delete something from it
+- Click save changes 
+
+####Expected result:
+ Nothing happens, your changes are saved 
+####Actual result:
+ Added/deleted part flashes once 
+####System settings:
+ Windows 10, Discord Canary
+
+1171
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-22T18:07:36.744Z
+
+
+### Can reproduce.
+Windows 7 Pro x64 - Latest Canary (0.0.153 per /updates?platform=win)
+
+EMT#3690 - Bug Bot on 2017-04-22T18:07:37.373Z
+
+
+### Can reproduce.
+Discord Canary, Windows 10 x64 - Only happens while deleting something from the channel's description.
+
+AlFas#2783 - Bug Bot on 2017-04-22T18:07:39.378Z
+
+
+### Can reproduce.
+win 10 x64 canary
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-04-22T18:07:41.446Z
+
+
+### https://i.imgur.com/t2iwdRJ.gifv - https://i.imgur.com/t2iwdRJ.gifv added by Bug Bot on 2017-04-22T18:07:52.285Z
+
+
+### https://i.imgur.com/kQo1qLV.gifv - https://i.imgur.com/kQo1qLV.gifv added by Bug Bot on 2017-04-22T18:07:52.336Z
+
+
+### Verified.  - Clayton on 2017-04-28T21:15:14.363Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-28T21:15:21.554Z
+
+
+### Moved from Verified Bugs to Server Settings Redesign Bugs by Clayton on 2017-04-28T21:17:22.458Z
+
+
+### Moved from Server Settings Redesign Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2017-05-02T22:50:48.081Z
+
+
+### Tested as of latest canary:
+
+I can still reproduce this. The flickering still exists occasionally when I click save. - Alexander (DJScias) on 2017-05-02T23:22:42.026Z
+
+
+### The flickering has been tricky to pin down, and probably will be filed as a low priority issue - Amadeus on 2017-05-02T23:30:50.196Z
+
+
+### Moved from Claimed Fixed, needs Verification to Server Settings Redesign Bugs by Shadi Isber on 2017-05-03T00:12:09.688Z
+
+
+### Moved from Server Settings Redesign Bugs to Verified Bugs by Jared on 2017-05-09T19:04:35.042Z
+
+
+### I reproduced this on my first try. - Jared on 2017-07-31T21:24:33.911Z
+
+
+### Can reproduce.
+Discord Canary 0.0.202, Build 10904, Windows 10 Home 64-bit (v1709) | Also occurs when changing a role's name.
+
+Ene#0808 - Bug Bot on 2018-02-18T06:20:21.675Z
+
+
+### can no longer reproduce on windows 10, canary build 18051, moving to claimed fixed - Tim on 2018-07-02T17:31:07.253Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tim on 2018-07-02T17:31:21.838Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:15:34.063Z
+
+
+### Archived by Jared on 2018-07-06T18:15:35.267Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

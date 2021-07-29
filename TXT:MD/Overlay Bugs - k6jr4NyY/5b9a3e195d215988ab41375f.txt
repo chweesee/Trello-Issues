@@ -1,0 +1,102 @@
+Video players continue to play after closing the Overlay (https://trello.com/c/5r6p1Kpf)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-09-13T10:38:17.424Z
+Latest Update: 2019-11-20T22:24:17.446Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Open the Overlay in a game 
+- Find a YouTube video and play it (preferably one that has sound) 
+- Close the Overlay and observe
+
+####Expected result:
+The video should either pause completely or temporarily pause until you re-open the Overlay
+####Actual result:
+The video continues to play as if the Overlay is still open
+####Client settings:
+Discord Canary 0.0.211, Build 23554
+####System settings:
+Windows 10 Home 64-bit (v1803)
+
+19533
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-13T10:38:17.424Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (23554) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-09-13T10:38:25.026Z
+
+
+### Can reproduce.
+Windows 10 Pro build 1803, 4K DPI scaled, Canary 23554
+
+JakeMakesStuff#0001 - Bug Bot on 2018-09-13T10:38:29.806Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 Canary 23506
+
+Delite#0001 - Bug Bot on 2018-09-13T10:38:34.720Z
+
+
+### Can reproduce.
+Win 10 64x (1803), Discord Canary 23554
+
+Alipoodle#5025 - Bug Bot on 2018-09-13T14:45:02.539Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 23554
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-09-13T20:56:31.839Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Build 1803, Canary Build Number: 23589
+
+JVC Almeos#1984 - Bug Bot on 2018-09-13T22:36:51.471Z
+
+
+### verified, win10, canary 23589 - Clayton on 2018-09-13T22:45:02.399Z
+
+
+### Can reproduce.
+Microsoft Surface 2 Windows 8.1 RT with Nvidia Tegra 4 processor 32 bit ARM
+
+Kaden303#4560 - Bug Bot on 2018-09-14T01:05:01.234Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 23990
+
+Neiron#2406 - Bug Bot on 2018-09-19T12:31:56.326Z
+
+
+### CNR - Clayton on 2018-10-05T23:52:04.544Z
+
+
+### Can still reproduce this on Discord Canary 0.0.226 (30302) `discord_overlay2 version 12`. Moving back to the overlay redesign board. - Tarek on 2019-01-01T15:11:51.665Z
+
+
+### This is not a bug:
+https://support.discordapp.com/hc/en-us/articles/217659737-Games-Overlay-101
+Under pinning section
+"Need more convincing of this heckin coolness? How does surviving the ARK while watching cute cat videos sound?" with a full opacity Video playing while in game.
+
+Alipoodle#5025 - Bug Bot on 2019-11-20T22:24:17.459Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

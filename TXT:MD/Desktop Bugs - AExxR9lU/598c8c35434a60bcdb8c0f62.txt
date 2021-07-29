@@ -1,0 +1,129 @@
+[Archived] In the role and notes profile viewer, long nicknames or usernames get cut off (https://trello.com/c/p6qMLinS)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-10T16:39:17.157Z
+Latest Update: 2018-08-21T23:35:54.680Z
+
+Reported by advaith#9121
+
+####Steps to reproduce:
+- set your nickname (or someone else's) to a long one that's under 33 chars, for example `TheLordofGaming/TheLordofHTMLhi` 
+- click yourself/them in the user list
+
+####Expected result:
+The nickname should all fit on the screen, either by wrapping to multiple lines or by making the popup wider
+####Actual result:
+The ends of the name get cut off
+####Client settings:
+Canary 0.0.154
+####System settings:
+macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+3014
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-10T16:39:17.157Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598c8c35434a60bcdb8c0f62/324e65f6856feedd7c6f4d8286069169/Screen_Shot_2017-08-10_at_8.56.27_AM.png added by Bug Bot on 2017-08-10T16:39:19.908Z
+
+
+### Can reproduce.
+CR, Windows 10 Creator's Update and Discord Canary 0.0.163
+
+joaoh1#0567 - Bug Bot on 2017-08-10T16:39:24.651Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 15063, Discord Canary 0.0.163
+
+Charles#1934 - Bug Bot on 2017-08-10T16:39:32.986Z
+
+
+### Can reproduce.
+CR, Canary 0.0.163, Windows 10 Home x86
+
+Hexexpeck#8781 - Bug Bot on 2017-08-10T16:39:34.510Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598c8c35434a60bcdb8c0f62/4fe92e931f32e1dc26d08322f7cb30cd/Screen_Shot_2017-08-10_at_8.56.27_AM.png added by Bug Bot on 2017-08-10T16:40:36.326Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598c8c35434a60bcdb8c0f62/1ed0ecefe4cb27996f1f163800d016fc/Screen_Shot_2017-08-10_at_8.56.27_AM.png added by Bug Bot on 2017-08-10T16:41:31.026Z
+
+
+### Reproduced, extremely minor. - Jared on 2017-08-21T20:00:49.104Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T20:00:53.447Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.1, Discord Canary 0.0.171 (Build 8121). Got fixed with profile UI change
+
+Pascal#0929 - Bug Bot on 2017-12-06T14:07:18.095Z
+
+
+### Can no longer reproduce. Win10x64 FCU, Build 8323 - Mike Nisbet on 2017-12-08T22:54:11.220Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-12-08T22:54:15.144Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-27T01:19:32.577Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (10011), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:40:32.500Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 10015
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T22:00:00.107Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-28T08:32:40.453Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-28T08:32:44.639Z
+
+
+### Canary 11221. this issue seems to be back. Reopening ticket. - Tarek on 2018-02-27T04:54:52.416Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2018-02-27T04:54:58.067Z
+
+
+### With a group pow-wow we've discovered that the username only goes out of the modal when the user has a nickname.
+
+QwakGoesDuck#0420 - Bug Bot on 2018-03-17T08:01:24.512Z
+
+
+### This bug was checked during the Trello Cleanup Event, and is no longer reproducible at this time. Device used was Windows 10 Pro x 64 with Discord Canary Build 18197.
+
+Because of the ticket being non-reproducible any longer, I am moving it to Claimed Fixed. - Ghoul on 2018-07-06T00:36:18.492Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Ghoul on 2018-07-06T00:36:27.040Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:35:53.616Z
+
+
+### Archived by Jared on 2018-08-21T23:35:54.682Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

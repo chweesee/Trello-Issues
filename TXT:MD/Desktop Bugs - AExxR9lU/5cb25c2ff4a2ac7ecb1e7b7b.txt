@@ -1,0 +1,128 @@
+[Archived] [Billing] Hitting backspace while in an empty Country Select box gives "Cannot read property 'value' of null" error (https://trello.com/c/Q0IPxZf3)
+
+None
+
+Created: 2019-04-13T22:01:19.858Z
+Latest Update: 2019-09-16T17:00:48.666Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Go Settings > Billing > Add Payment Method 
+- Select Credit Card 
+- Get to the second tab with the Country selector 
+- Open console to get error 
+- Hit backspace while the Country field is Empty.
+
+####Expected result:
+No Error
+####Actual result:
+"Cannot read property 'value' of null" error
+####Client settings:
+Canary 35581
+####System settings:
+Win10 64x (1809)
+
+32627
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-13T22:01:19.858Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cb25c2ff4a2ac7ecb1e7b7b/42f7f90aff4a4d94e20cc41f53855ba9/5cddb6b12e.png added by Bug Bot on 2019-04-13T22:01:22.657Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 35581
+
+Rage#9991 - Bug Bot on 2019-04-13T22:01:27.277Z
+
+
+### Can reproduce.
+macOS Macbook Air 10.14.2 Canary 35540
+
+Nitecloud#2019 - Bug Bot on 2019-04-13T22:01:32.491Z
+
+
+### Can reproduce.
+Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+||warp||#4660 - Bug Bot on 2019-04-13T22:01:37.247Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 35540
+
+TheForbiddenAi#7549 - Bug Bot on 2019-04-13T22:06:50.783Z
+
+
+### Can reproduce.
+W10 Pro x64 (1809), Canary 35540
+
+Veljko#1804 - Bug Bot on 2019-04-13T22:29:49.639Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 35540
+
+Clay#0001 - Bug Bot on 2019-04-14T00:17:41.927Z
+
+
+### Can reproduce.
+Intel® Braswell Chromebook ~ Chrome 72.0.3626.122 (x64) ~ Canary 35540
+
+Casper#9999 - Bug Bot on 2019-04-15T07:04:53.144Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.234 Build 35540
+
+Daffyduck#5364 - Bug Bot on 2019-04-15T09:17:38.897Z
+
+
+### Can reproduce.
+openSUSE Tumbleweed 20190412 - Canary 35540
+
+voldemort#6931 - Bug Bot on 2019-04-15T11:18:25.971Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: stable, Build Number: 35540, Version Hash: 79342e2f831bb6e56439c5501a4cb0ebfc54e619
+
+CDM#7527 - Bug Bot on 2019-04-15T14:28:15.193Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 35540
+
+Lily#2624 - Bug Bot on 2019-04-15T15:21:05.847Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 35540
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-15T16:18:11.577Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 35709 (Host 0.0.234)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-17T01:52:53.118Z
+
+
+### Cannot reproduce, Canary 43884 W10 1903. - Tarek on 2019-08-17T16:52:31.473Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2019-08-17T16:52:35.478Z
+
+
+### Archived by Bug Bot on 2019-09-16T17:00:48.677Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

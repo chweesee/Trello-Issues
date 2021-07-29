@@ -1,0 +1,196 @@
+[Archived] If you're looking at a user's profile when he has no rich presence, updating that users rich presence causes the presence icon to be overlayed with the placeholder ? (https://trello.com/c/HBVsNGR6)
+
+None
+
+Created: 2019-08-19T10:37:09.186Z
+Latest Update: 2020-02-20T21:35:06.467Z
+
+Reported by Typhoon#1337
+
+####Steps to reproduce:
+- Open someone's profile (for the sake of simplicity open your own) 
+- Make sure they have no status or rich presence 
+- Start playing/ask them to start playing a game/song  
+- Don't close their profile and await for the rich presence to appear  
+- Observe (check attached image)
+
+####Expected result:
+The icon for the game/spotify displays normally
+####Actual result:
+The icon for the game/spotify is overlayed with the placeholder "?"
+####Client settings:
+Android 9.0 Oppo find X
+####System settings:
+Discord 9.4.0
+
+42346
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-19T10:37:09.186Z
+
+
+### Typhoon#1337 - https://i.imgur.com/wE7RBIE.gifv added by Bug Bot on 2019-08-19T10:37:12.192Z
+
+
+### Can reproduce.
+CR OnePlus 3T, Android 9, Discord 9.4.2 - only reproduce with uncached images. Some times happens on games but harder to reproduce.
+
+Alipoodle#5025 - Bug Bot on 2019-08-19T10:37:17.104Z
+
+
+### Can reproduce.
+CR Samsung Galaxy A5 (2016) × Androd 7.0 × Discord 9.4.0
+
+B.O.S.S#0251 - Bug Bot on 2019-08-19T10:37:21.997Z
+
+
+### Can reproduce.
+CR - Xiaomi Redmi Note 4 - Android 7.0 - Discord 9.3.3
+
+TBS | Best_Pro#7066 - Bug Bot on 2019-08-19T10:37:27.080Z
+
+
+### Can reproduce.
+LG K7, 5.1.1 - Alpha 9.4.2-SA
+
+Ness(13 days)#0001 - Bug Bot on 2019-08-19T10:41:46.130Z
+
+
+### Can reproduce.
+Htc One a9, 7.0 Htc One A9, Android 7, Discord 9.4.0
+
+KitCat#8324 - Bug Bot on 2019-08-19T13:34:53.016Z
+
+
+### Can reproduce.
+CR Htc One a9, Android  7, Discord 9.4.0
+
+KitCat#8324 - Bug Bot on 2019-08-19T13:36:04.465Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.4.0
+
+AHkhan#6518 - Bug Bot on 2019-08-19T17:14:14.246Z
+
+
+### Can reproduce.
+Honor 8X, Android 9.0.1 - Discord Alpha 9.4.2
+
+Leaf#0001 - Bug Bot on 2019-08-19T19:00:57.726Z
+
+
+### Can reproduce.
+Samsung Galaxy Grand 2 (SM-G7102), Android 6.0.1, Discord Alpha 9.4.0
+
+TheS4#7170 - Bug Bot on 2019-08-19T23:41:52.702Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.4.4
+
+Krobo#4784 - Bug Bot on 2019-08-21T06:16:46.469Z
+
+
+### Can reproduce.
+LG Stylo 3, Android 7.0, Discord 9.4.4
+
+Melody#5767 - Bug Bot on 2019-08-21T17:58:58.685Z
+
+
+### Can reproduce.
+Honor 9 Lite, Android 8.0.0, Discord Alpha 9.4.0
+
+irin#4560 - Bug Bot on 2019-08-21T19:20:15.718Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Jeff Cailteux on 2019-08-22T21:49:50.507Z
+
+
+### Can reproduce.
+LG G7+ThinQ, Android 9, Discord Alpha 9.4.7
+
+dora#9999 - Bug Bot on 2019-08-23T14:16:09.733Z
+
+
+### Can reproduce.
+New steps to reproduce in mini profile:
+- Go any server and open member list
+- Open random use has no rich present and close it
+- Open another user has rich present
+attachments: https://cdn.discordapp.com/attachments/429253669083676682/621842264276336661/Screenshot_2019-09-13-01-58-40_1.jpg
+Asus Zenfone 2, Android 5.0, Discord Alpha 9.5.4
+
+Karasu#0013 - Bug Bot on 2019-09-13T08:15:21.369Z
+
+
+### Can reproduce.
+Alcatel A30 Fierce, Android 7.0 - Alpha 9.5.4
+
+Ness#7343 - Bug Bot on 2019-09-14T17:21:24.933Z
+
+
+### Can reproduce.
+Moto E5 8.0.0, Discord alpha: 9.5.5
+
+Astolfo#2578 - Bug Bot on 2019-09-14T17:27:57.523Z
+
+
+### Can reproduce.
+HTC U12+, Android 9.0 - Alpha 9.5.9
+
+anonymous kitten#3732 - Bug Bot on 2019-09-17T22:08:08.565Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Android Alpha 9.5.9
+
+Danijel#9000 - Bug Bot on 2019-09-18T00:43:15.022Z
+
+
+### Can reproduce.
+Samsung SM-G900F (S5), LineageOS 16.0, Android 9 "Pie"
+
+Leopardnose#0157 - Bug Bot on 2019-09-18T17:05:44.712Z
+
+
+### Can't reproduce.
+Cannot Reproduce, Huawei P smart 2019 9.0.1 ● Android 9 ●  Alpha 9.5.9
+
+Dragonic#0025 - Bug Bot on 2019-09-25T05:47:17.192Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-11-04T17:17:11.345Z
+
+
+### Can't reproduce.
+CNR, Samsung Galaxy Note9, Android 9.0, Discord 980
+
+professor farnsworth#0414 - Bug Bot on 2019-11-04T19:46:11.101Z
+
+
+### Can't reproduce.
+CNR, Samsung Galaxy S8 Android 8, 9.8.1
+
+Action Potential#6862 - Bug Bot on 2019-11-06T02:21:30.123Z
+
+
+### Can't reproduce.
+CNR, Samsung Galaxy J3, Android 9, Discord Alpha 9.8.0
+
+AlexejheroYTB#1636 - Bug Bot on 2019-11-06T22:51:42.157Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-11-06T22:51:42.521Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:35:06.480Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

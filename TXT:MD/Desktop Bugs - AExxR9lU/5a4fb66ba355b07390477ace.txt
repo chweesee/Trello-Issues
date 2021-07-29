@@ -1,0 +1,85 @@
+[Archived] The name of a webhook in the pop-out modal reverts to an old name if that name is loaded in client (https://trello.com/c/QZWOLCgW)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-05T17:31:23.413Z
+Latest Update: 2019-10-23T23:00:56.895Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce:
+- Create a webhook with a set name (eg: Webhook A). 
+- Make the webhook post a few times in the channel. 
+- Change the name of the webhook to something else (eg Webhook B). 
+- Make sure the old posts are pushed out of sight (so they're not loaded within the first 50). 
+- Make the webhook post with the new name. 
+- Change to another server, then reload the client so your cache is empty. 
+- Click profile for your webhook's new name and observe name. 
+- Scroll up chat history so the old name and new name of the same webhook are loaded in your client. 
+- Click profile for your webhook's new name with the old ones loaded and observe.
+
+####Expected result:
+Like with users, the latest name/metadata would be shown in the pop-out of the recent posts.
+####Actual result:
+The old name gets used on the more recent posts that uses the newer name all the time.
+####Client settings:
+Desktop Canary 0.0.194 (Build 9258)
+####System settings:
+Windows 10 Pro (64-bit), Anniversary Update (Build 1607)
+
+7639
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-05T17:31:23.413Z
+
+
+### SuperSajuuk#7265 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a4fb66ba355b07390477ace/aad6d830056c5411d653b0782406419a/2f14eda4b8a972b64f1ecdf98d56e7fc.gif added by Bug Bot on 2018-01-05T17:31:27.316Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1709 (Canary build 9258, v 0.0.194)
+
+TimThe#7618 - Bug Bot on 2018-01-05T17:31:32.245Z
+
+
+### Can reproduce.
+CR win10 x64 on canary 9258
+
+ks0908#8526 - Bug Bot on 2018-01-05T17:31:36.916Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.2, Discord Canary 0.0.184 (Build: 9258)
+
+Pascal#0929 - Bug Bot on 2018-01-05T17:31:41.906Z
+
+
+### Verified, I used postman to make a webhook. - Tarek on 2018-01-12T01:28:09.808Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-01-12T01:28:15.223Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:44.888Z
+
+
+### Can reproduce.
+Dell Optiplex 5040 with Intel i3-6100 at 3.7 and Intel HD 530 running Discord for Chrome. Canary 40281
+
+Kaden303#4560 - Bug Bot on 2019-06-24T23:19:01.022Z
+
+
+### Unarchived by Bug Bot on 2019-06-24T23:30:07.347Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:56.908Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,99 @@
+[Archived] Link with URL-encoded non-breaking space does not function properly (https://trello.com/c/zKgowkQA)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-02-11T02:45:00.986Z
+Latest Update: 2019-03-14T04:30:03.683Z
+
+Reported by Harmon758#0004
+
+####Steps to reproduce:
+- Send a message with a link containing a URL-encoded non-breaking space (i.e. "%A0" in the link; for example, such a link can be obtained by going to the Old School RuneScape hiscores and clicking any name with a space) 
+- Observe what happens when you click the link
+
+####Expected result:
+Left clicking the link should open it in the default browser. Right clicking it should show options to copy and open it.
+####Actual result:
+Left clicking the link does nothing. Right clicking the link does not show the usual options to copy or open it.
+####Client settings:
+Desktop Canary Build 31974
+####System settings:
+Microsoft Windows 7 (64-bit) [Version 6.1.7601]
+
+28555
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-11T02:45:00.986Z
+
+
+### Can reproduce.
+CR; Mac OS Mojave: Version: 10.14 (18A391); Discord Stable
+
+Codingpro#2705 - Bug Bot on 2019-02-11T02:45:08.364Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 31974
+
+M24#0272 - Bug Bot on 2019-02-11T02:45:13.367Z
+
+
+### Can reproduce.
+Could reproduce this, macOS 10.14.4, PTB 31908
+
+Action Potential#2494 - Bug Bot on 2019-02-11T02:45:18.365Z
+
+
+### Can reproduce.
+CR, but right click works for me half the time, MacBookPro 13" (2017) Mojave 10.14.3, Canary 31974
+
+Mano#4566 - Bug Bot on 2019-02-11T08:07:34.085Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Stable 31908
+
+Defracted#1337 - Bug Bot on 2019-02-11T15:09:09.719Z
+
+
+### Can reproduce.
+CR; Canary: 31974, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-11T15:37:30.379Z
+
+
+### Can reproduce.
+Can repro, Windows Home 1809, Discord Canary 32063
+
+ginkoid#8888 - Bug Bot on 2019-02-11T22:50:56.901Z
+
+
+### verified, macos 10.12.6, canary 32063 - Clayton on 2019-02-12T02:25:23.599Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-12T02:25:32.204Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Canary 32063
+
+average idiot on the internet#0274 - Bug Bot on 2019-02-12T03:03:18.727Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 32063
+
+Solo#0007 - Bug Bot on 2019-02-12T04:16:45.798Z
+
+
+### Archived by Bug Bot on 2019-03-14T04:30:03.700Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

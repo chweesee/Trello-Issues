@@ -1,0 +1,119 @@
+[Archived] Right-clicking a channel or a user in the member list a few times will minimize Discord for no reason (https://trello.com/c/qnkCS01s)
+
+None
+
+Created: 2018-03-10T05:21:25.095Z
+Latest Update: 2018-07-06T18:02:49.828Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+Right click on a channel or a user a few times in the member list
+
+####Expected result:
+It shouldn't minimize the client
+####Actual result:
+It minimize the client to the trayD
+####Client settings:
+Discord Canary 0.0.203 (11865)
+####System settings:
+Windows 10 Pro 64-bit (1709)
+
+9474
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-10T05:21:25.095Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary 11865
+
+Q__Q#8008 - Bug Bot on 2018-03-10T05:21:33.985Z
+
+
+### Can reproduce.
+Discord Canary 0.0.203, Build 11865, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-03-10T05:21:37.481Z
+
+
+### Can reproduce.
+CR Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 11865. I only need to do it twice.
+
+Ghoul#0009 - Bug Bot on 2018-03-10T05:21:42.546Z
+
+
+### Can reproduce.
+Ubuntu 17.10 x64, Canary 11873; Actually it can close discord out entirely too
+
+KJP12#3880 - Bug Bot on 2018-03-10T05:22:26.017Z
+
+
+### Seems like it's happening to everywhere a right-click is possible. - Tarek on 2018-03-10T05:23:17.181Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Amadeus on 2018-03-10T06:02:20.509Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Amadeus on 2018-03-10T06:09:43.514Z
+
+
+### Can't reproduce.
+Ubuntu 17.10 x64, Canary 11882; Seems fixed
+
+KJP12#3880 - Bug Bot on 2018-03-10T06:23:27.325Z
+
+
+### I can still reproduce this on Canary 11885 by following an another way provided by Ene#0808
+Reopening ticket
+
+- Server settings 
+- Members 
+- Right click on a user to get context menu
+- Then use escape to close it down. What happens is that Discord minimizes 
+
+Edit:
+
+Seems like like it's 100% reproduce able when you use escape when a context menu is shown everywhere, (in chat, member list, channel menu etc) - Tarek on 2018-03-11T09:27:30.009Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-03-11T09:27:41.339Z
+
+
+### Can reproduce.
+CR with the note below; Ubuntu 17.10 x64, Canary 118855
+
+KJP12#3880 - Bug Bot on 2018-03-11T11:54:48.001Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 11885 - Only when following the steps in the note.
+
+webhp#1337 - Bug Bot on 2018-03-11T23:46:49.088Z
+
+
+### Seems to be fixed in 11951. Moving to claimed fixed. - Tarek on 2018-03-13T04:40:37.503Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Tarek on 2018-03-13T04:40:51.085Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-05-02T23:53:04.077Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-05-02T23:53:30.860Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:02:48.620Z
+
+
+### Archived by Jared on 2018-07-06T18:02:49.831Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

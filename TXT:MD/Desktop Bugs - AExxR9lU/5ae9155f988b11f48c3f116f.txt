@@ -1,0 +1,135 @@
+[Archived] You are able to discover if a user is in a "hidden" or "private" voice channel by clicking their name (https://trello.com/c/CSPX9zfj)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-05-02T01:33:19.077Z
+Latest Update: 2020-06-04T21:30:03.146Z
+
+Reported by Zeta#7000
+
+####Steps to reproduce:
+ - Have a private or hidden voice channel with people in it. 
+ - find someone you think that's in the hidden voice channel in the member list, and then proceed to click their name. If they're connected to the VC, a "Server Mute" and "Server Deafen" will show up under their name upon clicking them.
+
+####Expected result:
+You are not supposed to find out if a user is connected in a hidden voice channel. Also, Mute/Deafen should not show up.
+####Actual result:
+You are able to find people that are connected to a hidden voice channel you don't have permission to see.
+####Client settings:
+Version 2.3.0
+####System settings:
+iPhone 7+ iOS 11.0 (15A372)
+
+11716
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-02T01:33:19.077Z
+
+
+### Can reproduce.
+Can Reproduce; iPhone 6 - iOS 11.4 TestFlight 2.3.1 (4051)
+
+Xylium#1480 - Bug Bot on 2018-05-02T01:33:26.571Z
+
+
+### Can reproduce.
+iPhone iOS 10.2.1, TestFlight 2.3.1 (4051)
+
+Pyros#2326 - Bug Bot on 2018-05-02T01:33:31.553Z
+
+
+### Can reproduce.
+CR; iPhone 6s 11.4, TestFlight 2.3.1 (4051)
+
+dal#0780 - Bug Bot on 2018-05-02T01:33:36.591Z
+
+
+### Can reproduce.
+iPhone 8, iOS 11.2.5 - Discord TF v2.3.1 (4051)
+
+ScenicJaguar101#9629 - Bug Bot on 2018-05-02T01:34:33.291Z
+
+
+### Can reproduce.
+iPhone SE, iOS 11.4 Public Beta  - TestFlight 2.3.1 (4051)
+
+Zachary#0001 - Bug Bot on 2018-05-03T10:07:37.236Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS  11.3, TestFlisht 2.3.1 (4051)
+
+Don#9396 - Bug Bot on 2018-05-03T15:14:46.027Z
+
+
+### Verified, iOS 11.0, iPad Pro, 2.3.2 need Mute and Deafen perms.  - Clayton on 2018-05-03T23:10:03.537Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-03T23:10:15.158Z
+
+
+### This is reproducible on Canary 22587 running Windows 10 Pro 64-bit (1803). Moving this over to desktop. - Tarek on 2018-08-25T03:58:26.940Z
+
+
+### Imported from https://trello.com/b/57f2d333b99965a6ba8cd7e0 by Tarek on 2018-08-25T03:58:56.957Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.4; Discord TestFlight: 3.1.0 (16734)
+
+Boss#0006 - Bug Bot on 2019-08-14T06:15:52.769Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:57.547Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.2.2 TestFlight 3.1.7 (18081) (also able to move members out of channels that you cannot see, which the description of the move members permission explicitly says you should not be able to do)
+
+binchlord#0998 - Bug Bot on 2019-11-12T01:29:35.461Z
+
+
+### Unarchived by Bug Bot on 2019-11-12T01:30:06.096Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:10.758Z
+
+
+### Can reproduce.
+the in a vc icon can also be seen in the member list when users are in a vc you do not have access to iPhone XR iOS 13.3 TestFlight 3.1.9 (18591)
+
+binchlord#0998 - Bug Bot on 2020-01-22T16:41:28.374Z
+
+
+### Unarchived by Bug Bot on 2020-01-22T17:00:05.506Z
+
+
+### Archived by Bug Bot on 2020-03-06T21:00:06.109Z
+
+
+### Can reproduce.
+CR iPhone 7 Plus • iOS 13.3.1 • TestFlight 13.0 (19259)
+
+Ayu#0001 - Bug Bot on 2020-03-11T22:36:51.679Z
+
+
+### Unarchived by Bug Bot on 2020-03-11T23:00:06.849Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.4, TestFlight 15.0 (19367)
+
+.Gloria.#9606 - Bug Bot on 2020-03-26T21:25:29.157Z
+
+
+### Archived by Bug Bot on 2020-06-04T21:30:03.157Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

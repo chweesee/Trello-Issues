@@ -1,0 +1,64 @@
+[Archived] Connection Bug after Standby with AutoLock (https://trello.com/c/kIkPMaw8)
+
+None
+
+Created: 2017-02-19T21:07:02.700Z
+Latest Update: 2017-10-30T17:23:52.968Z
+
+Reported by GerdSattler#3221
+
+####Steps to reproduce: : 
+- Turning on Auto-Lock in Deep-Sleep mode 
+- Putting Computer to sleep with discord focused 
+- Waking up computer 
+
+####Expected result:
+  Discord working fine as it always does 
+####Actual result:
+  Inability to send/receive messages or open a text channel which has not yet been opened in the current session, probaply because Discord can't recover from temporary WiFi disconnect 
+####System settings:
+ macOS 10.12.2, Discord Canary
+
+1674
+
+Card Log
+========
+### Added by Jared on 2017-02-19T21:07:02.700Z
+
+
+### Can reproduce.
+can repro, macOS 10.12.whatever Discord canary
+
+nullpixel#0012 - Jared on 2017-02-19T21:07:03.654Z
+
+
+### Can reproduce.
+latest stable macOS and latest discord canary
+
+xLars#5484 - Jared on 2017-02-19T21:07:05.387Z
+
+
+### Can reproduce.
+macOS 10.12.2 Latest Canary
+
+Mikesky#3456 - Jared on 2017-02-19T21:07:07.268Z
+
+
+### Cannot reproduce. Discord continues to function normally. - Jared on 2017-04-17T22:52:13.896Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-04-17T22:52:17.516Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:23:51.673Z
+
+
+### Archived by Jared on 2017-10-30T17:23:52.971Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

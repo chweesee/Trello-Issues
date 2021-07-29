@@ -1,0 +1,84 @@
+[Archived] Discord crash if Twitter is blocked when loading video (https://trello.com/c/YXqTQXuk)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2017-12-25T07:45:25.124Z
+Latest Update: 2019-10-23T23:04:23.557Z
+
+Reported by Rigner#0468
+
+####Steps to reproduce:
+- Be in a country where Twitter is blocked (e.g China) 
+- Click on the play button on a video
+
+####Expected result:
+As it's blocked, should display error message (timing out)
+####Actual result:
+Discord crashes and restarts
+####Client settings:
+Release Channel: stable, Build Number: 9059, Version Hash: b96cf53b97d87f030d4f72d41c8bea427742e9d1
+####System settings:
+Windows 10 Pro N, Falls Creators Update
+
+7302
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-25T07:45:25.124Z
+
+
+### Can reproduce.
+Discord Canary 0.0.194 (Build 9502) on Windows 10 Pro 64-bit (Build 1709) I used my ASUS AC66-U to blacklist twitter, it won't crash though just freeze the client for a second then reloads automatically
+
+Tarek1337#0379 - Bug Bot on 2017-12-25T07:45:32.678Z
+
+
+### Can reproduce.
+CR, used my router settings to change my access to Twitter. It just freezes for a couple of seconds and then reloads everytime, it doesn't crash the client. Discord Canary 0.0.194 (Build 9070), Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-12-25T07:45:37.658Z
+
+
+### Can reproduce.
+CR: Windows 10 Developer's Edition; Fall Creators Update. Canary 0.0.194
+
+Sam#8380 - Bug Bot on 2017-12-25T07:45:42.669Z
+
+
+### Verified - Tarek on 2017-12-26T06:27:21.923Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-26T06:27:26.587Z
+
+
+### YouTube does the same according to someone in desktop chat. - Tarek on 2018-02-24T10:52:53.478Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:30.102Z
+
+
+### Can reproduce.
+Windows 10,  stable, Build Number: 32859, Version Hash: 95037ac40b753cbfd1cb06606a7420fb22c24049
+
+qwerty#6768 - Bug Bot on 2019-02-27T04:01:20.043Z
+
+
+### Can reproduce.
+Windows 10,  stable, Build Number: 32859, Version Hash: 95037ac40b753cbfd1cb06606a7420fb22c24049
+
+qwerty#6768 - Bug Bot on 2019-02-27T04:01:34.018Z
+
+
+### Unarchived by Bug Bot on 2019-02-27T04:30:05.915Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:23.569Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

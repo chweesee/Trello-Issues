@@ -1,0 +1,65 @@
+[Archived] (Headphones) Audio bitrate and volume lowered when entering voice settings (https://trello.com/c/nNAZH1ce)
+
+None
+
+Created: 2018-03-05T17:10:28.450Z
+Latest Update: 2018-03-07T22:47:57.616Z
+
+Reported by HeroGamers#0001
+
+####Steps to reproduce:
+- Open preferred music app (Spotify) 
+- Start some music 
+- Open Discord, open settings (gear icon), and open Voice, under App Settings
+
+####Expected result:
+Voice settings should open without affecting current audio in background
+####Actual result:
+Voice settings open, lowering the bitrate and leaving your music really low. (If not using headphones, the audio will switch from main speaker to the one you use in a call with someone)
+####Client settings:
+TestFlight 2.2.5 (2894)
+####System settings:
+iPhone 5s, iOS 10.0.1
+
+9312
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-05T17:10:28.450Z
+
+
+### Can reproduce.
+CR; iPhone 7 IOS 11.3 TF 2.2.5
+
+korzq#0001 - Bug Bot on 2018-03-05T17:10:35.822Z
+
+
+### Can reproduce.
+Discord Testflight 2.2.5 (2894), iOS 11.2.6, iPhone 5s
+
+Ene#0808 - Bug Bot on 2018-03-05T17:10:42.008Z
+
+
+### Can reproduce.
+CR, Discord TestFlight 2.2.5, iOS 11.3.0
+
+descrates#1000 - Bug Bot on 2018-03-05T17:10:45.810Z
+
+
+### Might be related to this one https://trello.com/c/IaXUsTPM ?
+
+Pascal#0929 - Bug Bot on 2018-03-05T17:52:48.886Z
+
+
+### Extension of: https://trello.com/c/2Cbpz4MC/457-bluetooth-music-bitrate-lowered-drastically-after-joining-leaving-a-voice-call - Clayton on 2018-03-07T22:47:55.205Z
+
+
+### Archived by Clayton on 2018-03-07T22:47:57.618Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

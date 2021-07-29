@@ -1,0 +1,164 @@
+[Archived] Search "in" parameter doesn't appear in list. (https://trello.com/c/Fl90y9Oj)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2017-09-01T02:03:17.289Z
+Latest Update: 2019-07-22T18:30:30.140Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce:
+- Go to a discord channel. 
+- Tap the search magnifying glass. 
+- Look for the "in" parameter.
+
+####Expected result:
+You should be able to tap "in".
+####Actual result:
+There is no parameter listed, but you can manually type it in.
+####Client settings:
+Discord 1.9.1 (Build 524, Latest TF)
+####System settings:
+iOS 9.3.5 on iPad 4th Gen
+
+3847
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-01T02:03:17.289Z
+
+
+### SuperSajuuk#7265 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59a8bfe591b0666e0c37c3cb/959996ac58d9cff01e82bf1782a1d1ad/image.png added by Bug Bot on 2017-09-01T02:03:20.337Z
+
+
+### Can reproduce.
+CR iPad mini 1st gen, iOS 9.3.5, TF 1.9.1 and iPhone 6+, iOS 10.2, TF 1.9.1, you need to switch channels once before bug triggers
+
+tri'ngle#9036 - Bug Bot on 2017-09-01T02:03:24.846Z
+
+
+### Can reproduce.
+CR, iPad Mini 2, iOS 10.2, TestFlight 1.9.1
+
+[object Object]#0001 - Bug Bot on 2017-09-01T02:03:29.767Z
+
+
+### Can reproduce.
+Doesn't need channel switching. Just press magnifying glass, cancel, magnifying glass again. Testflight 1.9.1, iOS 10.3.3, iPhone 6
+
+Ten#1723 - Bug Bot on 2017-09-01T02:03:34.747Z
+
+
+### CR - -I -- Please don't say "lastest tf", type the exact version.
+
+DeadlyFirex#9350 - Bug Bot on 2017-09-01T10:43:19.053Z
+
+
+### Can reproduce.
+iPhone 6S Plus, iOS 11.0.9 (Beta 9) > TestFlight 1.9.1
+
+Ben#4331 - Bug Bot on 2017-09-01T10:54:42.547Z
+
+
+### It appears now. Marking as fixed. - Jared on 2017-09-18T22:52:56.733Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Jared on 2017-09-18T22:53:00.114Z
+
+
+### Can reproduce.
+iPhone 6S with iOS 11.0.2 & iPad Air 2 with iOS 11.1 PB 1, TestFlight 1.9.2 (953), This still happens. Also with other steps: - Open the search - Use the `in:#channel` search option - Search for something  - Click on `Cancel`, make sure you are **not** clicking on the icon to close the search. The bug only happens with the `Cancel` button. - Open the search again and observe the search options
+
+Pascal#0929 - Bug Bot on 2017-10-08T00:36:34.494Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Jared on 2017-10-09T15:17:02.369Z
+
+
+### Can still be reproduced by opening and closing the search menu. - Jared on 2017-10-09T15:17:20.820Z
+
+
+### Can reproduce.
+See Jared's steps on how to reproduce (you must have opened the search menu once before for this issue to appear). You can get back the "In: " suggestion by typing anything in the search field and deleting it. iPhone 8 Plus, iOS 11.1 (PB3), Discord TestFlight 1.9.3 (1165)
+
+juj#5114 - Bug Bot on 2017-10-18T14:51:25.373Z
+
+
+### Can't reproduce.
+CNR, iPod Touch 6th Generation, iOS 11.2.1, TestFlight 2.2.0 (1910); It shows up for me.
+
+JaKe#1817 - Bug Bot on 2017-12-27T03:02:26.676Z
+
+
+### Can reproduce.
+IPod touch 6 generation, iOS 10.3.3, TestFlight 2.2.0 (1910)
+
+🍾nickWtn🍾#3789 - Bug Bot on 2017-12-27T03:09:21.355Z
+
+
+### Can still reproduce. See my previous note. - Jared on 2018-01-08T17:29:57.372Z
+
+
+### Can reproduce.
+CR. Still can reproduce. Macbook Air (Early 2015), macOS Sierra 10.12.6 Discord Canary (Build 18043)
+
+Rage#9991 - Bug Bot on 2018-06-30T22:37:42.281Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 Developer Beta 12, TestFlight 2.3.7 (6968)
+
+Alfie#1582 - Bug Bot on 2018-09-01T03:33:39.850Z
+
+
+### Archived by Clayton on 2018-10-01T04:00:02.388Z
+
+
+### Can reproduce.
+iPad Air  iOS 12.2 TestFlight 3.0.2 (15240)
+
+binchlord#0998 - Bug Bot on 2019-05-24T23:37:56.874Z
+
+
+### Unarchived by Bug Bot on 2019-05-25T00:00:05.560Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.2 (15823) with iPad Pro (11 inch) running iOS 12.3.1.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-29T14:39:08.983Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-05-29T14:39:18.705Z
+
+
+### Can't reproduce.
+iPhone XS Max, iOS 12.2, Discord TestFlight 3.0.2 (15283)
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-05-29T14:45:54.748Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - Testflight 3.0.2 (15283)
+
+Xylium#5800 - Bug Bot on 2019-05-29T14:46:14.909Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.2 TestFlight 3.0.2 (15283)
+
+binchlord#0998 - Bug Bot on 2019-05-29T14:47:23.395Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-29T14:47:23.623Z
+
+
+### Archived by Bug Bot on 2019-07-22T18:30:30.172Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

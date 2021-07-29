@@ -1,0 +1,64 @@
+[Archived] On Firefox, must press Up twice to edit image/file caption/message (https://trello.com/c/RY04JX1H)
+
+None
+
+Created: 2018-06-20T11:52:14.020Z
+Latest Update: 2018-08-30T23:15:15.409Z
+
+Reported by nobody1089#3719
+
+####Steps to reproduce:
+- Open Discord channel on Firefox 
+- Drag a file or image into Discord 
+- (optionally add description) and press Enter 
+- Press up-arrow key
+
+####Expected result:
+Message becomes editable text field (on Chrome and Electron app)
+####Actual result:
+Message is not editable until you press Up twice.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 17111, Version Hash: 5a0c1d221f9ab325b7e67af74777147c3319ae78
+####System settings:
+Firefox Dev 62.0b1 (64-bit)
+
+14364
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-20T11:52:14.020Z
+
+
+### Can reproduce.
+Can Reproduce; Stable 17111, Firefox Q 60.0.2 - however this may not be a bug as the first up-arrow focuses the input box
+
+ash#0001 - Bug Bot on 2018-06-20T11:52:21.448Z
+
+
+### Can reproduce.
+[CR] Discord Stable 17111. This is due to the issue that after dropping a file Firefox does not automatically refocus to input area, unlike other clients.
+
+54D#1357 - Bug Bot on 2018-06-20T11:52:26.430Z
+
+
+### Can reproduce.
+CR, Discord Canary Web (Build 17333), Firefox Quantum (60.0.2), Windows 10 Education 1803 (Build 17134.1)
+
+OminousCry#2331 - Bug Bot on 2018-06-20T11:52:31.416Z
+
+
+### NAB, first arrow input focuses the text box, this happens across all apps - Clayton on 2018-06-20T22:36:40.681Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2018-06-20T22:36:48.665Z
+
+
+### Archived by Clayton on 2018-08-30T23:15:15.411Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

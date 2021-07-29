@@ -1,0 +1,80 @@
+[Archived] if you have a slow connection and if you fail to connect the first two tries, the API refuses to connect and ends with code 1000 unless the app is restarted (https://trello.com/c/bZ6QODhb)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2017-05-16T22:04:58.079Z
+Latest Update: 2020-01-25T01:28:29.979Z
+
+Reported by Melroy#5344
+
+####Steps to reproduce:
+- have a shit connection 
+- open debugging 
+- wait for the app to fail to connect to the gateway two times 
+- go outside to get good reception 
+- watch it fail unless you restart app
+
+####Expected result:
+app connects fine
+####Actual result:
+app doesn't connect
+####Client settings:
+3.8.6 alpha
+####System settings:
+undefined
+
+1027
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-16T22:04:58.079Z
+
+
+### Melroy#5344 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/591b778a326f618c011ec148/16971c8625c364cbd2677dcd97fe670c/Screenshot_20170516-185226.png added by Bug Bot on 2017-05-16T22:05:00.893Z
+
+
+### Melroy#5344 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/591b778a326f618c011ec148/02aa436167053d5082300cc7296235d6/Screenshot_20170516-185226.png added by Bug Bot on 2017-05-16T22:05:00.910Z
+
+
+### Can reproduce.
+Nexus 6 Android 7.1.2 Discord 3.8.5
+
+Raichu Nuzzles You ⚡#5328 - Bug Bot on 2017-05-16T22:05:02.565Z
+
+
+### Easy to reproduce if you restricted mobile data to 2G only via Settings. {Consult your manual or Google for how to do this for your phone/Android version}
+
+Raichu Nuzzles You ⚡#5328 - Bug Bot on 2017-05-16T22:08:25.082Z
+
+
+### Kao#9678 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/591b778a326f618c011ec148/a697bd3b8775c6a0b8b8a412a1248e31/Screenshot_20170414-234338.png added by Bug Bot on 2017-05-17T11:02:22.711Z
+
+
+### Kao#9678 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/591b778a326f618c011ec148/2bf8eb7fc9eb1a9a7db264de731e8bf3/Screenshot_20170517-185823.png added by Bug Bot on 2017-05-17T11:03:23.674Z
+
+
+### Cannot reproduce - Clayton on 2017-11-01T18:08:05.380Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-11-01T18:08:14.097Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:35:55.299Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:35:56.932Z
+
+
+### Can reproduce.
+Might only be a problem on phones with "Notches"
+
+InterCityAPT#0370 - Bug Bot on 2020-01-25T01:28:29.990Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,103 @@
+[Archived] On Dark theme, channel permissions override that you can't revoke because "it would remove them from you" have a wrong background color (https://trello.com/c/cwMJfX52)
+
+P3 - Will be fixed eventually,
+High,
+Mod can still reproduce
+
+Created: 2018-02-25T15:22:56.175Z
+Latest Update: 2019-01-01T23:10:10.937Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Set your theme to Dark 
+- Be in a role with Manage channels but not Administrator 
+- Have an admin set permissions override in a channel so your role has more perms in it 
+- Go to Channel settings > Permissions > Your role
+
+####Expected result:
+The permission that you can't revoke because "it would remove it from you" should be just grayed out
+####Actual result:
+They have a background color that doesn't fit Dark theme at all
+####Client settings:
+Discord Alpha 6.2.8
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9093
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-25T15:22:56.175Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a92d4d03173147a5ec94017/d2a7b0d82674ffbb5f2484daa7159fac/Screenshot_20180225-115532.png added by Bug Bot on 2018-02-25T15:22:59.383Z
+
+
+### Can reproduce.
+Discord Alpha 6.2.8 OnePlus 5 Android 8.0 (Oreo)
+
+Tarek#1337 - Bug Bot on 2018-02-25T15:23:04.289Z
+
+
+### Can reproduce.
+Huawei P10 Lite (Android 7.0) - Alpha Build  6.2.8
+
+Mas#0001 - Bug Bot on 2018-02-25T15:23:09.279Z
+
+
+### Can reproduce.
+CR, ZTE obsidian Android 5.1, Discord alpha 6.2.8
+
+Lunʌrᴮᵒᵗ#5846 - Bug Bot on 2018-02-25T15:23:14.309Z
+
+
+### Verified.  - Clayton on 2018-03-01T21:59:41.447Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-01T21:59:49.743Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-03-05T19:40:27.818Z
+
+
+### Tested on Android Alpha 6.3.7:
+
+I can still reproduce this myself as shown here: https://i.imgur.com/wSsgQM4.jpg
+
+Re-opening the issue. - Alexander (DJScias) on 2018-03-14T19:50:01.255Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Alexander (DJScias) on 2018-03-14T19:50:12.245Z
+
+
+### I can still reproduce when editing the @ everyone role or integration-managed roles, as seen in the attachment above
+
+Alex1304#9704 - Bug Bot on 2018-05-26T18:57:24.169Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a92d4d03173147a5ec94017/4bbe616d880b294f7f0801473bb1bf78/IMG_20180526_205534.jpg added by Bug Bot on 2018-05-26T18:57:36.708Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a92d4d03173147a5ec94017/5020af6bf91ed97ee5086c4df68c31e2/image.png added by Sam Shih on 2018-09-13T22:56:11.560Z
+
+
+### Fixed - Sam Shih on 2018-09-13T22:56:14.448Z
+
+
+### Moved from Reopened to Fixed Bugs by Sam Shih on 2018-09-13T22:56:26.356Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:10:09.928Z
+
+
+### Archived by Tarek on 2019-01-01T23:10:10.940Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/andygarron1) - No Bio
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

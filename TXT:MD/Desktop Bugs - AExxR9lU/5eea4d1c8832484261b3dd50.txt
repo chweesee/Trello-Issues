@@ -1,0 +1,71 @@
+You can't scroll down when channel-permission list covers the page (https://trello.com/c/t3658nqc)
+
+None
+
+Created: 2020-06-17T17:04:28.301Z
+Latest Update: 2020-07-16T21:26:06.368Z
+
+Reported by Toasty#0001
+
+####Steps to reproduce:Go to a channel's permission settings (in order to reproduce that bug, you need bunch of roles) 
+- If the roles are enough to cover the page, add more roles. 
+- Observe that section is not scrollable, which does not allow you to edit roles that is not shown on the page.
+
+####Expected result:
+You should be able to scroll down between role list. Also if you add any role, you will not be able to manage them.
+####Actual result:
+You can't scroll in the permission list part. The page behaves frozen. (That also happens in role list, you can't scroll down on roles in server setting)
+####Client settings:
+Canary Build Number: 61803
+####System settings:
+Windows 10 Home
+
+57675
+
+Card Log
+========
+### Added by Bug Bot on 2020-06-17T17:04:28.301Z
+
+
+### Toasty#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5eea4d1c8832484261b3dd50/7dd673150b9e9e3a9a7ffd8bbd239bb8/9eNNGPN.png added by Bug Bot on 2020-06-17T17:04:31.584Z
+
+
+### Toasty#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5eea4d1c8832484261b3dd50/371112545dbc8d6ee7f5e18be93d3c22/3HcuLmk_2.png added by Bug Bot on 2020-06-17T17:04:31.722Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64: Canary 60191 (3e1c9ba)
+
+Rellorts#1337 - Bug Bot on 2020-06-17T17:04:35.979Z
+
+
+### Can reproduce.
+Can just go to the server's role list instead MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 61803 ~ Host 0.0.250
+
+Jiralite#1207 - Bug Bot on 2020-06-17T17:04:40.912Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Pro x64 - Discord Canary 61803
+
+Best_Pro#7066 - Bug Bot on 2020-06-17T17:04:45.922Z
+
+
+### Can reproduce.
+Windows 10 Home x64, version 2004 - Canary 61875 host 0.0.266 - affects server role list too
+
+anonymous kitten#6881 - Bug Bot on 2020-06-17T21:49:18.524Z
+
+
+### Can reproduce.
+Can reproduce - Windows 7 Ultimate - Discord Canary 62028
+
+Shiny#0003 - Bug Bot on 2020-06-20T14:20:30.022Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

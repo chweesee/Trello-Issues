@@ -1,0 +1,79 @@
+[Archived] Mutual server icon on online/all friend list and other tabs' member list member is off if the server has no icon and the letters don't fit in the icon when the user appears for the first time in the list (https://trello.com/c/MAX7P4vJ)
+
+P2 - Can wait a while
+
+Created: 2017-08-13T00:59:09.116Z
+Latest Update: 2018-06-02T17:53:37.279Z
+
+Reported by [TRED] AlFas#2783
+
+####Steps to reproduce:
+- Be a member of a server with no server icon and a big name causing text overflow in the server icon 
+- Have someone else that appears in one of those friend lists be a member of that server as well 
+- Change tab as many times as needed so that the user appears in the list without being in the previous list 
+- Look at the mutual server icon being moved down
+
+####Expected result:
+The server icon is normally placed
+####Actual result:
+The server icon is moved down for a few pixels
+####Client settings:
+Discord Alpha 4.0.3
+####System settings:
+Android 6.0
+
+3104
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-13T00:59:09.116Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S5, 6.0.1, Discord v4.0.6
+
+AviationMaster#4793 - Bug Bot on 2017-08-13T00:59:16.817Z
+
+
+### Can reproduce.
+DiscordApp 4.0.2, Android 4.4.3
+
+Chester#2084 - Bug Bot on 2017-08-13T00:59:21.838Z
+
+
+### Can reproduce.
+Samsung Galaxy S5, Android 5.0, Android Alpha 4.0.7
+
+hanss314#0128 - Bug Bot on 2017-08-13T00:59:26.808Z
+
+
+### Can't reproduce.
+Samsung Galaxy A5, 6.0.1
+
+Damion8980#1189 - Bug Bot on 2017-08-14T00:51:40.575Z
+
+
+### Verified.  - Clayton on 2017-08-17T23:01:53.355Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-17T23:01:59.419Z
+
+
+### Cannot reproduce. Marking as Verified Fixed. - Jared on 2018-03-23T21:19:11.439Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2018-03-23T21:19:18.225Z
+
+
+### archiving for being fixed over 30 days without activity - Tim on 2018-06-02T17:53:34.621Z
+
+
+### Archived by Tim on 2018-06-02T17:53:37.282Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

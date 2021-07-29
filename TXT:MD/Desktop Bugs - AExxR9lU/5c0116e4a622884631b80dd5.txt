@@ -1,0 +1,93 @@
+[Archived] You can set Notification Overrides for categories with "Read Text/Voice channels" for @ everyone permission off. (https://trello.com/c/i9YDzdoE)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-11-30T10:54:28.397Z
+Latest Update: 2019-01-11T00:02:13.707Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- Create Category A, and make it a private category, with "Read Text/Voice channels" for @ everyone being disabled. 
+- Next, create a channel in that same category. However, on the "Read Channel permission for @ everyone, either put it in the middle or allow it. Then, with another account that has @ everyone permission (default), check the notification settings and find the Category A.
+
+####Expected result:
+Notification overrides for Category A isn't supposed to be shown, since it's disabled for everyone.
+####Actual result:
+You can see the Category A on the Notification Overrides list. (On Android, it's different. You cannot see the category).
+####Client settings:
+Discord Canary 28385
+####System settings:
+Windows 10 Pro, x64 (v1803)
+
+23526
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-30T10:54:28.397Z
+
+
+### Hole#0001 - https://i.imgur.com/LBfxYBP.gifv added by Bug Bot on 2018-11-30T10:54:30.815Z
+
+
+### Hole#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c0116e4a622884631b80dd5/ad611154edeca45ba1b1b2636e83ffb9/Screenshot_2018-11-22-23-38-09.png added by Bug Bot on 2018-11-30T10:54:30.848Z
+
+
+### Can reproduce.
+CR, Windows 10.0 Build 17134, Discord Build 28642
+
+aditya 🍣#0001 - Bug Bot on 2018-11-30T10:54:35.695Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - (1803) OS Build: 17134.441 - Discord Canary 28642
+
+Daffyduck#5364 - Bug Bot on 2018-11-30T10:54:40.669Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,Canary 28642 [CR]
+
+Octillion#6666 - Bug Bot on 2018-11-30T10:54:45.659Z
+
+
+### Can reproduce.
+CR. canary, Build Number: 28642 Windows 10 x64
+
+Toasty#9566 - Bug Bot on 2018-11-30T19:16:33.437Z
+
+
+### Can reproduce.
+I can reproduce, but I'm not too sure this is a bug. Seems more helpful than not. - Windows 10 Home x64 v1803, Canary 28658
+
+Solo#0007 - Bug Bot on 2018-11-30T20:14:55.292Z
+
+
+### verified, macos 10.12.6, canary 28704 - Clayton on 2018-12-01T04:49:12.439Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-01T04:49:18.230Z
+
+
+### Can reproduce.
+Discord Canary 28642
+
+wonderlandpark#0233 - Bug Bot on 2018-12-01T17:10:31.818Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 28942
+
+Neiron#8475 - Bug Bot on 2018-12-05T17:56:57.132Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:13.710Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

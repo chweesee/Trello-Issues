@@ -1,0 +1,136 @@
+Useless scrollbar in the custom status "Clear After" drop down at 16px chat font scaling and length of drop down menu varies depending on chat font scaling setting (https://trello.com/c/eMXlJEJ7)
+
+None
+
+Created: 2019-10-26T12:55:03.542Z
+Latest Update: 2019-10-27T19:39:40.132Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Make sure your font size is set to 16px in appearance -> chat font scaling 
+- Open the custom status modal and select the "Clear After" drop down 
+- Try to scroll 
+- Repeat these steps with 15px and 18px chat font scaling
+
+####Expected result:
+Changing the chat font scaling has no impact on the "Clear After" dropdown in Custom Status
+####Actual result:
+Changing the chat font scaling changes the length of the dropdown, cutting of words at lower chat font scaling and making scrolling necessary, and there is an unnecessary scrollbar at the default chat font scaling
+####Client settings:
+Desktop Canary 48112
+####System settings:
+Dell Inspiron Windows 10
+
+46297
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-26T12:55:03.542Z
+
+
+### binchlord#0998 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5db4422719193283160fc5fa/4a2fcd03f81acbd55be9004e3744c5cc/MOEOtqD.png added by Bug Bot on 2019-10-26T12:55:06.805Z
+
+
+### binchlord#0998 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5db4422719193283160fc5fa/e836750986947f5b2da3738798d0c7fa/BgQhkwW.png added by Bug Bot on 2019-10-26T12:55:06.948Z
+
+
+### Can reproduce.
+Windows 10 Home 1903 - Canary 48112
+
+TollyThaWally#1621 - Bug Bot on 2019-10-26T12:55:11.238Z
+
+
+### Can reproduce.
+Windows 10 (x64 v1803) - Discord Canary 48112
+
+Error 404#4040 - Bug Bot on 2019-10-26T12:55:16.272Z
+
+
+### Can reproduce.
+CR: Windows 10 Pro 1903, Discord Canary 48112
+
+Rex#2222 - Bug Bot on 2019-10-26T12:55:21.231Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15; Discord Canary 48112
+
+Jiralite#1207 - Bug Bot on 2019-10-26T13:00:21.724Z
+
+
+### Can reproduce.
+CR - Windows 10 Pro, 32-bit. Discord Canary 48112
+
+NOTci/Chop#6000 - Bug Bot on 2019-10-26T13:23:01.954Z
+
+
+### Can reproduce.
+macOS 10.13.6, Canary 48112
+
+leaf#0001 - Bug Bot on 2019-10-26T14:34:00.452Z
+
+
+### Can reproduce.
+CR, Win10 Pro x64, Stable 48112
+
+Bullseye#8200 - Bug Bot on 2019-10-26T16:49:48.831Z
+
+
+### Can reproduce.
+Windows 10 x64 - Canary 48112
+
+Fictional#0001 - Bug Bot on 2019-10-26T22:37:03.133Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Discord Canary 48112
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-27T00:31:39.398Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 48134 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-27T00:39:31.880Z
+
+
+### Can reproduce.
+Windows 10 Home, Canary 48134
+
+Timo#1337 - Bug Bot on 2019-10-27T02:43:26.468Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 48134
+
+Action Potential#6862 - Bug Bot on 2019-10-27T04:08:53.438Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary (48112)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-27T05:09:56.345Z
+
+
+### Moved from User Reported Bugs to Custom Status by Ene on 2019-10-27T07:28:35.271Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 48112 host 0.0.258
+
+Jean20B#4668 - Bug Bot on 2019-10-27T10:02:38.161Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1709, Canary 48134
+
+Purpzie#0001 - Bug Bot on 2019-10-27T19:39:40.144Z
+
+List
+====
+Custom Status
+
+Members
+=======
+None

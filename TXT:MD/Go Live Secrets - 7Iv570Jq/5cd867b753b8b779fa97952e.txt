@@ -1,0 +1,35 @@
+Stream Invite embed still says person is still streaming even if person isn't streaming. (https://trello.com/c/ImthSF6E)
+
+None
+
+Created: 2019-05-12T18:36:39.517Z
+Latest Update: 2019-06-19T18:48:08.371Z
+
+**Short Description:**
+Stream Invite embed still says person is still streaming even if person isn't streaming.
+**Steps to reproduce:**
+- Make an invite to someone's stream.
+- Paste it in chat.
+- Wait for stream to end and the streamer to leave the channel.
+
+**Expected Results:**
+Invite embed would not show that streamer's still streaming.
+**Actual Results:**
+Invite embed still shows the streamer's still streaming. Even if you repost the invite, it'll still say streamer's streaming.
+**System Settings:** Windows 10 Home x64
+**Client Settings:** Canary 37458
+
+Card Log
+========
+### Added by Ten on 2019-05-12T18:36:39.517Z
+
+
+### this is an embed limitation that's fairly tricky to fix, so leaving as is for now - Christina Zou on 2019-06-19T18:48:08.352Z
+
+List
+====
+Bug Reports from Testers!
+
+Members
+=======
+None

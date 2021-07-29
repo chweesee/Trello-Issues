@@ -1,0 +1,91 @@
+If you have CAPS LOCK on while being on slowmode, that mode will reset upon the expiration of the slowmode limit (https://trello.com/c/ShBtHUPc)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-10-11T16:59:06.584Z
+Latest Update: 2020-05-27T00:30:04.820Z
+
+Reported by enkiel#8029
+
+####Steps to reproduce:
+- Go in a channel with slowmode enabled 
+- Enable CAPS LOCK and type in CAPS until the little timer expires 
+- continue typing some more 
+- observe the case
+
+####Expected result:
+The message is all Caps
+####Actual result:
+The message, after the point where slowmode ended, is in low caps
+####Client settings:
+Discord Alpha @ 766
+####System settings:
+Huawei P8 LITE, Android 6
+
+21053
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-11T16:59:06.584Z
+
+
+### Can reproduce.
+[CR] OnePlus 2 - Android 6.0.1 - Discord Alpha 7.6.7 (767)
+
+VR#5448 - Bug Bot on 2018-10-11T16:59:14.005Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android v6.0.1 • Discord Alpha v7.6.7
+
+fujhofn.#0007 - Bug Bot on 2018-10-11T16:59:19.195Z
+
+
+### Can reproduce.
+Discord Alpha 7.6.7, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-10-11T16:59:23.985Z
+
+
+### Can't reproduce.
+Android 4.4.3, Alpha 767
+
+taco#3335 - Bug Bot on 2018-10-11T17:35:53.450Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.6.8
+
+Hole#0001 - Bug Bot on 2018-10-11T21:46:30.085Z
+
+
+### minor - Clayton on 2018-10-12T02:50:37.132Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-12T02:50:44.690Z
+
+
+### Archived by Clayton on 2018-11-11T03:00:04.152Z
+
+
+### Can reproduce.
+Samsung Galaxy A70, Android 10, Discord 16.2 (1089)
+
+Ana940#9858 - Bug Bot on 2020-04-04T22:55:53.205Z
+
+
+### Also now occurs when mentioning someone - v16.2 (1089)
+
+Ana940#9858 - Bug Bot on 2020-04-04T22:56:17.131Z
+
+
+### Unarchived by Bug Bot on 2020-04-04T23:00:04.718Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

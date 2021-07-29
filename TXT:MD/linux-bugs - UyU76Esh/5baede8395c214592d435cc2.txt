@@ -1,0 +1,81 @@
+Sound gets delayed when joining a channel or a call and you're using HDMI/DP (https://trello.com/c/2IIjKAk9)
+
+P3: Will eventually be fixed,
+high
+
+Created: 2018-09-29T02:08:03.137Z
+Latest Update: 2019-03-02T17:12:54.316Z
+
+Reported by 14Developing#9436
+
+####Steps to reproduce:
+- You should be using pulseaudio to reproduce this error 
+- Set HDMI/DP as default audio system 
+- Play some music,video... 
+- Join an audio channel
+
+####Expected result:
+Just listen all normally without any delay
+####Actual result:
+The audio gets some seconds delayed
+####Client settings:
+Release Channel: canary, Build Number: 20351, Version Hash: 3923c91ef7e7f48e90b89873865285a1ba5fe6f6
+####System settings:
+Antergos x86_64 - Kernel Version 4.17.10-1-ARCH
+
+16554
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-29T02:08:03.137Z
+
+
+### Can reproduce.
+The sound skip happens when I join and leave voice channel ArchLinux x64 - Linux Kernel 4.17.11-1 - GNOME 3.28.2 - Discord Canary Build 20644 with pulseaudio-12.2-2
+
+Frances Picard#6209 - Bug Bot on 2018-09-29T02:08:10.688Z
+
+
+### Can reproduce.
+CR, Ubuntu 16.04
+
+IcyPebbles#5833 - Bug Bot on 2018-09-29T02:08:15.493Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-10-01T21:47:44.508Z
+
+
+### Can reproduce.
+!storeinfo
+
+German Goergs#7200 - Bug Bot on 2019-03-02T17:11:25.773Z
+
+
+### Can reproduce.
+!systeminfo As the discord team might know, there's a bug on the linux client, which leads to a delayed audio when using DP or HDMI output.
+
+As I found out, that does not happen, when an update is installed and it doesn't matter of throughout the app itself or with an app manager.
+I don't know if you maybe already knew it, but I hope it helps you to localize the spring of this annoying bug.
+
+Also, it doesn't happen in the web version of discord.
+
+Or is already a fix in work?
+
+Thanks in advance,
+I hope I could help you! 😃
+
+EDIT: I just found a temporary fix, I have to close the discord app and delete the 0.0.71 folder in ~/.config/discordcanary/ and when discord restarts it works without problems!
+EDIT 2: It's actually enough to remove the installed.json in ~/.config/discordcanary/0.0.71/modules/
+since then it also downloads 5 "updates" and then it's fixed.
+
+So maybe you should have a look at what happens when an update is installed. 😃
+
+German Goergs#7200 - Bug Bot on 2019-03-02T17:12:54.324Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

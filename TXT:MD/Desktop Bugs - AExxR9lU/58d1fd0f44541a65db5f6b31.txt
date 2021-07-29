@@ -1,0 +1,79 @@
+[Archived] Changing the language can completely break the client/make it inoperable (https://trello.com/c/aI0DV7Da)
+
+None
+
+Created: 2017-03-22T04:26:55.462Z
+Latest Update: 2017-10-30T17:22:54.751Z
+
+Reported by sliceofcode#8768
+
+####Steps to reproduce: 
+- Open the settings UI 
+- Click Language 
+- Click Spanish 
+- Wait for Discord to reload 
+- Close the settings UI 
+- Open the settings UI 
+- Click Idioma 
+- Try clicking on the other settings tabs, clicking doesn't work. Exiting the settings UI and trying to send messages works, but you can't see them. Errors are spammed in console. "cannot read property _currentElement of null" You can fix this by reloading. 
+
+####Expected result:
+ Discord works as normal. 
+####Actual result:
+ Discord "breaks". Errors are spammed in the console and everything seems unstable. 
+####System settings:
+ Arch Linux x64
+
+2131
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-22T04:26:55.462Z
+
+
+### Can reproduce.
+Discord Canary Arch Linux
+
+Kurai#1637 - Bug Bot on 2017-03-22T04:26:58.160Z
+
+
+### Can reproduce.
+Windows 10 AU Canary
+
+Enharmonic#3999 - Bug Bot on 2017-03-22T04:27:01.737Z
+
+
+### sliceofcode#8768 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58d1fd0f44541a65db5f6b31/e7f4b621197f9496da3e89b4ebe0f732/2017-03-21-185407.png added by Bug Bot on 2017-03-22T04:36:12.608Z
+
+
+### sliceofcode#8768 - https://gfycat.com/FlawlessRareCondor added by Bug Bot on 2017-03-22T04:39:09.862Z
+
+
+### Exhibits additionally bizzare behavior on W10 Canary. After changing the language once, attaching files via Ctrl+V becomes broken on the guild that was open when you changed the language, causing the Uncaught TypeErrors. Switching guilds will show the file upload box. However, switching back to the guild you were in when changing the settings causes the client to ignore all message events. Changing the language again will cause the Settings UI to completely freeze after the loading. Fixed only by Ctrl+R. Appears to have a chance to cause a 429 error response from Sentry.
+
+Enharmonic#3999 - Bug Bot on 2017-03-22T07:37:17.576Z
+
+
+### Enharmonic#3999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58d1fd0f44541a65db5f6b31/3679fa36a31abce1542161eaf4f873a7/rateLimitSentryError.png added by Bug Bot on 2017-03-22T07:38:41.939Z
+
+
+### Everything continues to function normally for me. Maybe this was already fixed? - Jared on 2017-03-27T20:46:14.821Z
+
+
+### May be fixed.
+
+slice#2147 - Bug Bot on 2017-03-31T22:47:35.710Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:22:53.357Z
+
+
+### Archived by Jared on 2017-10-30T17:22:54.755Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

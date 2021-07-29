@@ -1,0 +1,84 @@
+[Archived] Cursor goes to wrong place in friends search (https://trello.com/c/j0CmKMns)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-17T18:07:00.254Z
+Latest Update: 2018-07-06T17:56:17.472Z
+
+Reported by quaris#9905
+
+####Steps to reproduce:
+- Go to <discordapp.com/channels/@me> 
+- click the box labeled "Find or start a conversation" in the upper left 
+- type a letter into the box, X for example
+
+####Expected result:
+pop up text box should contain @X\_ with the cursor at the end where the underscore is
+####Actual result:
+pop-up text box contains \_@X with the cursor at the beginning
+####Client settings:
+Discord Web Client
+####System settings:
+Windows 10, 64 bit
+
+3346
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-17T18:07:00.254Z
+
+
+### TTtie#4900 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5995db4494c522aee1fb28aa/25b62a915243ec36a4962f34982b16ea/5e4c59.gif added by Bug Bot on 2017-08-17T18:07:03.418Z
+
+
+### Can reproduce.
+Can reproduce. Discord Web Client, Firefox v55.0.2
+
+TTtie#4900 - Bug Bot on 2017-08-17T18:07:07.979Z
+
+
+### Can reproduce.
+CR Discord Stable Web Client on Chrome (Version 62.0.3187.0 (Official Build) canary (64-bit)) (only in web version, not desktop)
+
+advaith#9121 - Bug Bot on 2017-08-17T18:07:12.995Z
+
+
+### Can reproduce.
+can reproduce, Discord Web ONLY,  Chrome 60.0.3112.90
+
+Mikesky#3456 - Bug Bot on 2017-08-17T18:07:18.098Z
+
+
+### Verified. - Jared on 2017-08-21T20:31:36.962Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T20:31:40.368Z
+
+
+### Can reproduce.
+CR - Web Stable (Build 3391) - Chrome Stable 60.0.3112.90 x64 - Win 10 Pro x64 v1607
+
+Pointy#9109 - Bug Bot on 2017-08-24T15:26:29.950Z
+
+
+### This isn't a P2. - Jared on 2017-10-17T00:34:34.896Z
+
+
+### Verified Fixed - Jared on 2018-03-21T17:54:30.996Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T17:54:35.295Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:56:15.781Z
+
+
+### Archived by Jared on 2018-07-06T17:56:17.475Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

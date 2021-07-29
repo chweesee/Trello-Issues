@@ -1,0 +1,87 @@
+[Archived] Reactions interface gets stretched out (https://trello.com/c/MierrmfQ)
+
+P2: Fix can wait a while
+
+Created: 2017-06-03T18:30:12.379Z
+Latest Update: 2017-10-17T20:23:26.938Z
+
+Reported by Dunciboy#2559
+
+####Steps to reproduce:
+- Step 1 get long nickname or username without spaces 
+- Step 2 add reaction emote 
+- Step 3 open reactions menu
+
+####Expected result:
+Text recurrence
+####Actual result:
+ No text recurrence because there are no spaces in the name.
+####Client settings:
+ Canary 0.0.155
+####System settings:
+Win 10 x64
+
+1408
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-03T18:30:12.379Z
+
+
+### Scrummer#8218 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593300348e9167827b3f1f92/e401c70b55cbd9a4404cf2cf3a6d0d78/89f57486c27e600c64d787795661248f.png added by Bug Bot on 2017-06-03T18:30:15.187Z
+
+
+### Scrummer#8218 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593300348e9167827b3f1f92/ebe289a2646d783b074fd1e025e35785/image.png added by Bug Bot on 2017-06-03T18:30:15.226Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593300348e9167827b3f1f92/8a03532fb5aed97290b45d3f481c42f3/image.png added by Bug Bot on 2017-06-03T18:30:15.272Z
+
+
+### Can reproduce.
+CR,  Windows 10 Home x64, Discord Canary 0.0.155
+
+Joseph#9413 - Bug Bot on 2017-06-03T18:30:16.964Z
+
+
+### Can reproduce.
+CR, macos sierra v10.12.5, canary 0.0.147
+
+Scrummer#8218 - Bug Bot on 2017-06-03T18:30:19.052Z
+
+
+### Can reproduce.
+ Windows 10 Pro x64 Creators Update (1703), Canary 0.0.155 (1169)
+
+Tiemen#0107 - Bug Bot on 2017-06-03T18:30:24.035Z
+
+
+### Can't reproduce.
+CNR Windows 10, Discord Canary 0.0.155
+
+Chewie#5684 - Bug Bot on 2017-06-03T22:22:42.188Z
+
+
+### Verified.  - Clayton on 2017-06-07T18:55:13.822Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-07T18:55:30.454Z
+
+
+### Cannot reproduce. Text trails off as expected. - Jared on 2017-07-31T22:36:42.081Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T22:36:46.116Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:23:25.027Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:23:26.941Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

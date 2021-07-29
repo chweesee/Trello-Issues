@@ -1,0 +1,85 @@
+[Archived] Formatting in Audit Log causes half escaping or ingorance of formatting in the log entry. (https://trello.com/c/aKpz887k)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-19T02:05:21.429Z
+Latest Update: 2018-07-06T18:11:12.618Z
+
+Reported by Alkali_Metal#7806
+
+####Steps to reproduce:
+- Change a channel description to something with bold, or italics in it. 
+- Look at the entry for it in the Audit Log 
+- See how it either doesn't escape the formatting correctly (bold) or it just causes none of the formatting to work (italic)
+
+####Expected result:
+The formatting gets escaped correctly.
+####Actual result:
+The formatting either gets ignored from what I can tell or it escapes it in a weird way causing it to look abnormal <(http://imgur.com/a/cH5C7>)
+####Client settings:
+Desktop Canary 0.0.19
+####System settings:
+Ubuntu 16.04 LTS
+
+1777
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-19T02:05:21.429Z
+
+
+### Can reproduce.
+CR,  MacBook Pro Late-2014, OSX 10.12.4, Latest Canary
+
+NubbyTM#6817 - Bug Bot on 2017-06-19T02:05:26.069Z
+
+
+### Can reproduce.
+ Windows 10 x64 Anniversary Update (1607) Canary 0.0.157.
+
+OGNovuh#0014 - Bug Bot on 2017-06-19T02:05:28.491Z
+
+
+### Can reproduce.
+ Windows 10 Pro x86, Discord Canary Desktop v0.0.157
+
+4g0tt3nSou1#5187 - Bug Bot on 2017-06-19T02:05:30.121Z
+
+
+### Could be on purpose, but formatting doesn't show at the header of the channel , only in the opened description
+
+4g0tt3nSou1#5187 - Bug Bot on 2017-06-19T02:08:58.962Z
+
+
+### Verified, minor. - Jared on 2017-06-19T18:30:10.697Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-06-19T18:30:15.767Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T15:48:36.582Z
+
+
+### I can no longer reproduce, the formatting gets escaped correctly. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T11:56:10.061Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-28T11:56:14.577Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:11:11.563Z
+
+
+### Archived by Jared on 2018-07-06T18:11:12.621Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

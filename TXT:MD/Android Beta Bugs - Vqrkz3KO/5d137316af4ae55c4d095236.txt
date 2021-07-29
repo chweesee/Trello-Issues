@@ -1,0 +1,127 @@
+[Archived] Opening an oauth url without a scope assigned will crash the app (https://trello.com/c/ch9XqvCT)
+
+None
+
+Created: 2019-06-26T13:28:54.762Z
+Latest Update: 2019-08-16T21:25:39.804Z
+
+Reported by Bsian | CarrieLamStepDown#1803
+
+####Steps to reproduce:
+- Grab a working oauth URL 
+- Remove the `scope=` part (however can't just be `/oauth2/authorize` in the URL) 
+- Paste in chat 
+- Open the oauth link
+
+####Expected result:
+Oauth opens saying that it's an invalid oauth url
+####Actual result:
+Application crashes
+####Client settings:
+Android Alpha 911
+####System settings:
+Mi A2, Android 9, June 2019 update
+
+38588
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-26T13:28:54.762Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy S5, Android 6.0.1 • Android Alpha 9.1.1
+
+Krobo#4784 - Bug Bot on 2019-06-26T13:29:02.198Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord Alpha 911
+
+Jean20B#4668 - Bug Bot on 2019-06-26T13:29:07.182Z
+
+
+### Can reproduce.
+CR, Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.1.1
+
+AHkhan#4760 - Bug Bot on 2019-06-26T13:29:12.211Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 911
+
+Lelantos#4866 - Bug Bot on 2019-06-26T13:35:05.980Z
+
+
+### Can reproduce.
+CR; OnePlus 5 Android 7.1.1, Discord 9.1.1
+
+||Kissa||#1337 - Bug Bot on 2019-06-26T13:52:58.208Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Android 5.0, Discord Alpha 9.1.1
+
+Karasu#0013 - Bug Bot on 2019-06-26T14:07:26.781Z
+
+
+### Can reproduce.
+Samsung Galaxy J1 ace, Android 5.1.1 | Alpha 911
+
+legendarylol#8215 - Bug Bot on 2019-06-26T14:29:07.759Z
+
+
+### Can reproduce.
+LG K7, Android 5.1.1 ~ Discord Alpha 9.1.1
+
+Ness#5718 - Bug Bot on 2019-06-26T15:54:12.790Z
+
+
+### Can reproduce.
+Discord 9.0.9 Android 9 Oppo find X
+
+Typhoon#3514 - Bug Bot on 2019-06-26T16:56:25.650Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 9.1.1
+
+Skyla#0002 - Bug Bot on 2019-06-26T17:40:46.665Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 911
+
+The Lunala#4308 - Bug Bot on 2019-06-26T18:10:21.761Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 9.1.1
+
+Lily#2624 - Bug Bot on 2019-06-26T19:15:13.672Z
+
+
+### Can reproduce.
+LG Stylo 4 | Android 8.1 | Alpha 911
+
+charleskimbac#6492 - Bug Bot on 2019-07-03T05:16:25.465Z
+
+
+### Can reproduce.
+Android Alpha, 9.1.1 on Sony Xperia Z5 Premium, 5.1
+
+Alex T.js#0001 - Bug Bot on 2019-07-05T06:04:23.739Z
+
+
+### Moved from User Reported Bugs to Fixed Bugs by Sam Shih on 2019-07-17T21:08:27.454Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:25:39.818Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

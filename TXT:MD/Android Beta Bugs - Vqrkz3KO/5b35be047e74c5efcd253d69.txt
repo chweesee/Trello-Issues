@@ -1,0 +1,80 @@
+[Archived] Invite stuck at resolving state when losing connection and getting it back (https://trello.com/c/RUxt0vEe)
+
+None
+
+Created: 2018-06-29T05:05:08.340Z
+Latest Update: 2019-01-01T15:27:43.180Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Switch to a channel to load the last 50 messages, and that you know one of these messages contains an invite. This message must be offscreen so that the invite won't load as soon as you switch to channel 
+- Simulate a connection loss by disabling wifi and mobile data 
+- Scroll up to where the invite embed is 
+- Notice the embed is saying "resolving"  
+- Now enable your connection back and observe
+
+####Expected result:
+Invite embed should load when getting your connection back
+####Actual result:
+It's stuck to resolving state until you scroll the chat to bring the embed out of the viewport and scroll back to it
+####Client settings:
+Discord Alpha 7.0.1
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14940
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-29T05:05:08.340Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 7.0.1
+
+fujhofn.#0003 - Bug Bot on 2018-06-29T05:05:15.775Z
+
+
+### Can reproduce.
+Can Reproduce | Samsung Galaxy S7 Edge, Android 8.0, Discord Alpha 7.0.1
+
+volcanicer#1122 - Bug Bot on 2018-06-29T05:05:20.793Z
+
+
+### Can reproduce.
+Huawei P10, Android 8.0, Alpha 6.9.9
+
+Maika#9523 - Bug Bot on 2018-06-29T05:05:25.783Z
+
+
+### CNR, samsung s6 edge, android 7.0, alpha 7.0.2 - Clayton on 2018-06-29T23:02:41.693Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-06-29T23:02:45.752Z
+
+
+### This ticket was checked during the Trello Cleanup event with the following reproduction steps by Alex1304#9704:
+- Post an invite in chat 
+- Post a bunch of long messages to push the invite embed offscreen 
+- Force-close Discord 
+- Reopen Discord 
+- Disable your internet connection 
+- Scroll up to where the invite embed is. If it's already resolved then it wasn't offscreen enough, repeat step 2 
+- Enable you internet back and don't touch anything
+
+It was tested on Moto G4 running Android 7.0 with Android Alpha 7.0.3, but unfortunately, there was no reproduction. So this ticket will be staying. - Ghoul on 2018-07-06T01:49:07.479Z
+
+
+### Archived due to being inactive for 30+ days in cannot reproduce list. - Tarek on 2019-01-01T15:27:42.574Z
+
+
+### Archived by Tarek on 2019-01-01T15:27:43.182Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

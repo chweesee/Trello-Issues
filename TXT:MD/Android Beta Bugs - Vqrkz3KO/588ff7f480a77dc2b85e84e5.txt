@@ -1,0 +1,80 @@
+[Archived] Links with `**` at either end (`**[link text](http://url.url)**`) remove the first set of `**` and dosnt make link bold (https://trello.com/c/QAqgPhTm)
+
+P3 - Will be fixed eventually
+
+Created: 2017-01-31T02:35:32.164Z
+Latest Update: 2019-06-05T23:49:26.667Z
+
+Reported by JoeZwet#1704
+
+####Steps to reproduce: 
+- Post a link in any channel with webhook or bot using the following format `**[text](url)**` 
+
+####Expected result:
+ The link is bold. 
+####Actual result:
+ Link is left normal and first set of `**` is removed while second is left. 
+####System settings:
+ Android 5.1.1, Discord 3.3.1
+
+Card Log
+========
+### Added by Jared on 2017-01-31T02:35:32.164Z
+
+
+### Can reproduce.
+Android 7.1, Discord 3.3.4
+
+MelodicStream#1336 - Jared on 2017-01-31T02:35:32.627Z
+
+
+### Can reproduce.
+v3.3.1 on Android 4.4.2
+
+Ian Murray#8701 - Jared on 2017-01-31T02:35:34.652Z
+
+
+### Can reproduce.
+Archos Alba 5 - Android 5.1
+
+Seriel#0757 - Jared on 2017-01-31T02:35:36.612Z
+
+
+### Can reproduce.
+3.3.1
+
+secret_online#9684 - Jared on 2017-01-31T05:32:38.629Z
+
+
+### Reproduced, but very minor. - Jared on 2017-02-07T18:24:00.151Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-07T18:24:07.559Z
+
+
+### Can no longer reproduce, moving to Claimed Fixed.
+Google Pixel XL, Android 8.1.0, Discord 6.1.2 - Chris Cox on 2018-01-25T08:28:21.395Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Chris Cox on 2018-01-25T08:28:26.384Z
+
+
+### Can't reproduce.
+Mi A2, Android 9 - Android Alpha 8.2.4
+
+Bsian#1803 - Bug Bot on 2019-01-05T11:38:54.992Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-11T08:47:38.267Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:26.678Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio
+Unknown User (https://trello.com/andygarron1) - No Bio

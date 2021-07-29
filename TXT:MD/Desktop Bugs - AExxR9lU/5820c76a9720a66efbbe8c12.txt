@@ -1,0 +1,44 @@
+[Archived] Can't choose between users with the same username when mentioning users in streamer mode (https://trello.com/c/bTD590ie)
+
+None
+
+Created: 2016-11-07T18:26:50.459Z
+Latest Update: 2017-10-17T21:05:29.353Z
+
+Reported by ```Macdja38#7770
+
+####Steps to reproduce: 
+- Enable streamer mode 
+- Try to mention a user that has the same username and a larger descriminator than another user 
+
+####Expected result:
+ mentions the user you tab/return completed 
+####Actual result:
+ mentions the user with the lower descriminator.
+
+Card Log
+========
+### Added by Jared on 2016-11-07T18:26:50.459Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-11-08T21:01:21.960Z
+
+
+### This is working as intended. The disambiguation code is turned off in streamer mode. The only way we know which one you selected is by the descrim. Since we're no longer showing discrims or inserting it into the chat text area, we can't disambiguate. - Jake Heinz on 2016-11-22T09:20:10.423Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jake Heinz on 2016-11-22T09:20:18.409Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:05:28.671Z
+
+
+### Archived by Jared on 2017-10-17T21:05:29.355Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

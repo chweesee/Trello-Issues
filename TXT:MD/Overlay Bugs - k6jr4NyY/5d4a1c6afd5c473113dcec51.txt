@@ -1,0 +1,63 @@
+[Go Live] While Streaming, After moving a voice channel to the bottom half, the voice widget will be placed higher than expected. (https://trello.com/c/KHjbZrg9)
+
+None
+
+Created: 2019-08-07T00:33:46.866Z
+Latest Update: 2020-04-04T16:18:20.033Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game with Overlay, and Go Live  
+- Start moving the voice around the center  
+- Let go ON THE BOTTOM HALF
+
+####Expected result:
+Voice widget is dropped in the same place you put it.
+####Actual result:
+The whole of the Voice widget is shifted upwards as it does account for the Go Live bar
+####Client settings:
+Canary 42408 (0.0.250)
+####System settings:
+Win10 64x (1903)
+
+41176
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-07T00:33:46.866Z
+
+
+### Alipoodle#5025 - https://i.imgur.com/P6jyZEy.gifv added by Bug Bot on 2019-08-07T00:33:49.223Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro x64 Canary: 42647
+
+Neiron#8475 - Bug Bot on 2019-08-07T00:33:54.289Z
+
+
+### Can reproduce.
+CR; Windows 10 Home, 64bit, Discord Canary Build: 42647
+
+Jeffrey#1234 - Bug Bot on 2019-08-07T00:33:59.311Z
+
+
+### Can reproduce.
+CR; Windows 10 x64; Canary 42647
+
+IPv4#0004 - Bug Bot on 2019-08-07T00:34:05.071Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 43131
+
+B.O.S.S#0251 - Bug Bot on 2019-08-09T11:55:49.572Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

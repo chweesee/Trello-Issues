@@ -1,0 +1,73 @@
+Audit log entry of 1 second slowmode when creating or cloning a text or announcement channel (https://trello.com/c/JggkXa9q)
+
+None
+
+Created: 2020-05-03T18:38:16.122Z
+Latest Update: 2020-07-16T21:26:06.303Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:
+- Create or clone a text or announcement channel 
+- Visit the recently created audit log entry
+
+####Expected result:
+The slowmode to result in 0 seconds.
+####Actual result:
+The slowmode is displayed as being set to 1 second in the audit log, but there isn't actually a slowmode present.
+####Client settings:
+Discord Canary 59390 & TestFlight 20.0 (19811)
+####System settings:
+MacBook Pro (Mid 2015): macOS Catalina 10.15.4 & iPad 7: iPadOS 13.4.1
+
+55487
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-03T18:38:16.122Z
+
+
+### Jiralite#1207 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5eaf0f9701042261ac374b0b/3065aa395aba3aaa9b65360514003670/fDEvrdE.png added by Bug Bot on 2020-05-03T18:38:19.509Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64: 1909, Canary 59390, Shows 1 on desktop, 0 on android.
+
+Sanjay#0540 - Bug Bot on 2020-05-03T18:38:23.871Z
+
+
+### Can reproduce.
+MacBook Pro (2018), macOS Catalina 10.15.4; Discord Canary 59390 (14ffb94) & iPhone XS, iOS 13.3
+
+Aaron#9999 - Bug Bot on 2020-05-03T18:38:28.863Z
+
+
+### Can reproduce.
+CR: Canary 59390, Windows 10 x64 (0 seconds on Android)
+
+ramune#7777 - Bug Bot on 2020-05-03T18:38:33.870Z
+
+
+### When changing the slow mode of an existing channel, it is always displayed as a second.
+
+Thunderstruck#2071 - Bug Bot on 2020-05-10T13:56:47.311Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 59879 (2446cbb), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-05-11T20:52:36.675Z
+
+
+### Can reproduce.
+MacBook Pro (2017) - macOS Catalina 10.15.4 - Discord PTB 60315
+
+DuckMasterAl#0001 - Bug Bot on 2020-05-29T18:40:33.835Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

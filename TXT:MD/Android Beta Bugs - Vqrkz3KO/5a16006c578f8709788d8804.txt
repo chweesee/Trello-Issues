@@ -1,0 +1,70 @@
+[Archived] Android uses wrong plural argument for servers in outage warning (https://trello.com/c/SSgwbXVE)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-11-22T22:55:40.205Z
+Latest Update: 2018-08-22T01:20:42.191Z
+
+Reported by DaFri_Nochiterov#4289
+
+####Steps to reproduce:
+- Switch language to one that requires "few" plural argument (In my example it's Russian) 
+- Have servers in outage that matches "few" plural argument (2-4, 22-24) 
+- Click on the icon of outage warning
+
+####Expected result:
+Client uses "few" plural argument - "24 серверА недоступны ..." (Russian example)
+####Actual result:
+Client uses "other" argument - "24 серверОВ недоступны ..."
+####Client settings:
+Discord Alpha 5.7.2
+####System settings:
+Android 6.0.1 (LineageOS 13.0), Alcatel Idol 3 4.7
+
+6467
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T22:55:40.205Z
+
+
+### DaFri_Nochiterov#4289 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a16006c578f8709788d8804/2cd75dacbe589a2ae6ad314240221bf7/8Y3otnC.png added by Bug Bot on 2017-11-22T22:55:42.623Z
+
+
+### DaFri_Nochiterov#4289 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a16006c578f8709788d8804/3ad0a0fdfed7c39cb44edaee566d3ba1/UJdqwjX.png added by Bug Bot on 2017-11-22T22:55:42.655Z
+
+
+### Can reproduce.
+Moto G4 Android 7.0 Alpha 5.7.3
+
+Azrael#9808 - Bug Bot on 2017-11-22T22:55:47.485Z
+
+
+### Can reproduce.
+LG X135 @ Android 4.4.2 Alpha 5.7.3
+
+MobButcher#3738 - Bug Bot on 2017-11-22T22:55:52.509Z
+
+
+### Can reproduce.
+Verified null
+
+Dabbit Prime#0896 - Bug Bot on 2017-11-22T22:55:57.490Z
+
+
+### Verified.  - Clayton on 2017-11-28T21:30:26.182Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-28T21:30:29.479Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:42.198Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

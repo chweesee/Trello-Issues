@@ -1,0 +1,105 @@
+[Archived] [Canary] receiving a Spotify invite without having a account linked causes a weird `;`to appear under the invite embed (https://trello.com/c/Y6KttKpL)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-30T09:13:21.942Z
+Latest Update: 2019-01-11T00:01:31.203Z
+
+Reported by J1#0088
+
+####Steps to reproduce:don't have a Spotify account linked 
+- ask someone to send you a Spotify party invite 
+- observe
+
+####Expected result:
+i should receive a "connect Spotify" embed without a `;`
+####Actual result:
+a black?! `;`shows under the invite embed
+####Client settings:
+Discord Canary Build Number: 27140
+####System settings:
+Windows 10 Home 64 bit (1803)
+
+22415
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-30T09:13:21.942Z
+
+
+### J1#0088 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bd820b1d2d6d46422dc46d6/fd1d3057fcbac999bae0f920d6ed5f12/unknown.png added by Bug Bot on 2018-10-30T09:13:24.364Z
+
+
+### Can reproduce.
+Can reproduce, windows 10 x64 Pro 1803 (17134.285),  Discord Canary 27140
+
+avror#0001 - Bug Bot on 2018-10-30T09:13:29.304Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 27140 | Appears only on dark theme
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-30T09:13:34.291Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home, Discord Canary 27140
+
+1Storm#0001 - Bug Bot on 2018-10-30T09:13:39.573Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 27140
+
+Solo#0007 - Bug Bot on 2018-10-30T14:17:16.603Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 27140
+
+Classic#9999 - Bug Bot on 2018-10-30T14:37:57.640Z
+
+
+### Can't reproduce.
+[CNR] Windows 7 (lastest) x64, Discord for Windows, lastest
+
+Alexa(Ping = Besoin d'aide trad)#0410 - Bug Bot on 2018-10-30T15:02:23.921Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary Build 27140 I can repro this while having an account connected
+
+Azrael#6867 - Bug Bot on 2018-10-30T18:36:17.791Z
+
+
+### Azrael#6867 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bd820b1d2d6d46422dc46d6/fb652063978f5f437521b58893bc5639/71z7F6t.png added by Bug Bot on 2018-10-30T18:36:41.162Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 27140
+
+Hole#0001 - Bug Bot on 2018-10-30T19:00:32.224Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS 10.14 Mojave - Canary Build 27140 -- This affects all RP invites
+
+mrkirby153#7840 - Bug Bot on 2018-10-30T22:40:11.638Z
+
+
+### verified, macos 10.12.6, canary 27140 - Clayton on 2018-10-31T00:06:52.374Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-31T00:06:59.722Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:31.207Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

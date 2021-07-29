@@ -1,0 +1,79 @@
+[Archived] Screenshare window shrinks as text is sent in DM/group channel. (https://trello.com/c/bUUVxnkN)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-08-08T14:06:57.452Z
+Latest Update: 2018-10-22T20:25:06.295Z
+
+Reported by shay#3503
+
+####Steps to reproduce:
+- Call someone or group 
+- Enable screenshare on main monitor 
+- Start typing in channel until text reaches boundary between channel and screenshare window 
+- Analyze 
+- Type a few more lines 
+- Analyze
+
+####Expected result:
+Screenshare window should stay at a constant size
+####Actual result:
+Screenshare window starts to shrink dramatically
+####Client settings:
+Release Channel: canary, Build Number: 21209
+####System settings:
+Windows 10 Home x64
+
+17141
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-08T14:06:57.452Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1709) - Discord Canary Build 21209
+
+Hole#8769 - Bug Bot on 2018-08-08T14:07:04.953Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 21209
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-08T14:07:09.848Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Pro x64 Canary 21209
+
+Delite#0001 - Bug Bot on 2018-08-08T14:07:14.915Z
+
+
+### Can reproduce.
+[CR] | Windows 10 Home (x64, 1803), Discord Canary 20209
+
+Marc#5983 - Bug Bot on 2018-08-08T23:35:46.108Z
+
+
+### Can reproduce.
+[CR] | Windows 10 Home (x64, 1803), Discord Canary 21209
+
+Marc#5983 - Bug Bot on 2018-08-08T23:36:01.136Z
+
+
+### verified, macos 10.12.6, canary 22333 - Clayton on 2018-08-23T01:18:13.972Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-23T01:18:18.231Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:06.297Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

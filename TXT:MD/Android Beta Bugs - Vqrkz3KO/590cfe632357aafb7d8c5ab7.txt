@@ -1,0 +1,79 @@
+[Archived] Custom emojis which work fine on PC send as system emoji on Android (https://trello.com/c/M99sOXDV)
+
+P2 - Can wait a while,
+Mod can no longer reproduce
+
+Created: 2017-05-05T22:36:19.757Z
+Latest Update: 2019-06-05T23:49:02.823Z
+
+Reported by Gemma#5566
+
+####Steps to reproduce: 
+- Have custom emoji with similar name to system emoji, in this case "face_palm" is system emoji and "facepalm" is custom emoji 
+- Select custom emoji from emoji picker and send message 
+- 
+
+####Expected result:
+ Custom emoji sends 
+####Actual result:
+ System emoji sends 
+####System settings:
+ Android 7.0, Most recent Discord Alpha, LG G6
+
+1389
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-05T22:36:19.757Z
+
+
+### Can reproduce.
+CR Android 5.0.2 Discord 3.8.2
+
+LW001#8654 - Bug Bot on 2017-05-05T22:36:20.593Z
+
+
+### Can reproduce.
+Discord 3.8.2 on Android 6.0.1
+
+ItsPugle#5963 - Bug Bot on 2017-05-05T22:36:22.489Z
+
+
+### Can reproduce.
+7.0 latest canary
+
+Gwen Oddball#2867 - Bug Bot on 2017-05-05T22:36:24.425Z
+
+
+### Can reproduce.
+Android 7.0 Discord 3.8.2
+
+Finn the Robot#7199 - Bug Bot on 2017-05-06T00:53:27.242Z
+
+
+### Verified.  - Clayton on 2017-05-19T00:54:19.684Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-19T00:54:24.230Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Sam Shih on 2018-03-01T00:01:53.460Z
+
+
+### Tested on Android Alpha 6.3.7:
+
+I can no longer reproduce this myself. It seems custom emoji that have the same name as system emoji now get a `facepalm-1` notation and it doesn't seem to cause any issues. - Alexander (DJScias) on 2018-03-14T20:09:38.018Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-19T04:30:39.782Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:02.834Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

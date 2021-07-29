@@ -1,0 +1,44 @@
+[Archived] You can't join voice channels using invite links if you are in 100 guilds. (https://trello.com/c/HxR3xTEx)
+
+None
+
+Created: 2019-04-27T21:14:31.303Z
+Latest Update: 2019-04-27T23:03:31.056Z
+
+####Steps to Reproduce###
+* Be in 100 guilds
+* Get an invite to join a voice channel where someone is live
+* Click the invite and observe.
+
+####Expected Result###
+You can join the voice channel because it's just part of the guild
+####Actual Result####
+You can't join and you get a console error about being in 100 guilds, despite the fact you aren't actually joining a new guild, but joining a voice channel in a guild you're already in.
+####Client Settings####
+Canary 0.0.235 (Build 36529)
+####System Settings####
+Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547)
+
+Card Log
+========
+### Added by Boruto on 2019-04-27T21:14:31.303Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5cc4c637e5b0ae802cd456b9/9d1eb5af2cc4db4a4cd9a4cc0a3b1f99/unknown.png added by Boruto on 2019-04-27T21:17:20.469Z
+
+
+### Not a bug, confirmed by Tarek, this happens with every invite, even in servers you’re a member of. - Boruto on 2019-04-27T23:02:44.660Z
+
+
+### Moved from Bug Reports from Testers! to Wont Fix / Not A Bug by TheForbiddenAi on 2019-04-27T23:03:06.484Z
+
+
+### Archived by Boruto on 2019-04-27T23:03:17.700Z
+
+List
+====
+Wont Fix / Not A Bug
+
+Members
+=======
+None

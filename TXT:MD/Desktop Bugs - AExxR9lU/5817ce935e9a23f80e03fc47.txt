@@ -1,0 +1,126 @@
+Clicking a server while holding the windows key causes the client to crash (https://trello.com/c/ydtWrXjz)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2016-10-31T23:06:59.395Z
+Latest Update: 2020-04-25T01:55:49.814Z
+
+Reported by 𝅳𝅳𝅳#5756
+
+####Steps to reproduce: 
+- Hold the windows key 
+- Click a server. 
+
+####Expected result:
+ Server is opened... maybe. 
+####Actual result:
+ Client resets. Found by @85257659694993408
+
+Card Log
+========
+### Added by Jared on 2016-10-31T23:06:59.395Z
+
+
+### 𝅳𝅳𝅳#5756 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5817ce935e9a23f80e03fc47/c06270c6ec2fbfd1b41ca49e6e30b179/2016-10-31_18-50-55.gif added by Jared on 2016-10-31T23:07:17.908Z
+
+
+### Can reproduce.
+Latest Canary
+
+Mason#6824 - Jared on 2016-10-31T23:08:53.118Z
+
+
+### Can reproduce.
+Latest Canary
+
+```Macdja38#7770 - Jared on 2016-10-31T23:38:40.527Z
+
+
+### Can reproduce.
+Latest windows canary
+
+lahrsean#9501 - Jared on 2016-11-01T04:21:43.413Z
+
+
+### Can reproduce.
+Latest canary
+
+Dougley#6248 - Jared on 2016-11-01T07:53:50.959Z
+
+
+### Can reproduce.
+Latest canary
+
+A Generic Gamer#4775 - Jared on 2016-11-01T10:38:20.357Z
+
+
+### Can reproduce.
+macOS 10.12/x64 latest canary
+
+Lᴧᴜɢʜ ᴏᴜᴛ ʟᴏᴜD#5544 - Jared on 2016-11-01T17:07:08.695Z
+
+
+### Can't reproduce.
+Cannot reproduce reliably on macOS 10.12/x64 latest canary
+
+Lᴧᴜɢʜ ᴏᴜᴛ ʟᴏᴜD#5544 - Jared on 2016-11-01T17:08:48.050Z
+
+
+### Can't reproduce.
+Doesn't really cause a crash, but just makes the app refresh. Windows 10 x64 on latest Canary
+
+SuperSajuuk#7265 - Jared on 2016-11-01T17:43:33.794Z
+
+
+### Pasted image at 2016_11_01 15_10.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5817ce935e9a23f80e03fc47/96b97cfae1ae6cb9f59691ddb817a844/Pasted_image_at_2016_11_01_15_10.png added by Jared on 2016-11-01T22:11:18.753Z
+
+
+### Chris managed to repro.  This error appeared in his console, Mac something something something. - Jared on 2016-11-01T22:11:38.924Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-11-01T22:11:43.184Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-29T16:35:24.143Z
+
+
+### Can reproduce.
+I can reproduce this bug. Discord Canary 0.0.189 Build 8903
+
+💜Christmas Kitty💗#4567 - Bug Bot on 2017-12-20T02:08:54.957Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2018-01-05T18:16:21.288Z
+
+
+### Moved from Won't Fix. Dead Bug to Verified Bugs by Jared on 2018-01-05T18:16:41.699Z
+
+
+### Can reproduce.
+Xiaomi Mi A2 Lite, 8.1.0
+
+zapteryx#6161 - Bug Bot on 2018-11-28T17:32:59.189Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 32897
+
+charleskimbac#6492 - Bug Bot on 2019-02-27T22:46:30.190Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 58861 (e350530), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-04-25T01:55:49.823Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

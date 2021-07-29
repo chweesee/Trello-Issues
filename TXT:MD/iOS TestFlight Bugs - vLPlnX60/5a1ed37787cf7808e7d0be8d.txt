@@ -1,0 +1,92 @@
+[Archived] Downloading gif only saves one frame (https://trello.com/c/UEQanU7a)
+
+P3 - Will be fixed eventually
+
+Created: 2017-11-29T15:34:15.214Z
+Latest Update: 2019-10-04T03:18:53.784Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Find any gif 
+- Open this gif in the image preview 
+- Click on the 3 dots 
+- Save it to your photos app 
+- Open the photos app and observe the image
+
+####Expected result:
+Gif should be saved with all frames and the animation. Note: Only since iOS 11 you can play gif animations in the photos app, lower iOS version can only save the gifs but not play the animations there. Sharing the gif with other app that supports the animation should show it for all iOS versions.
+####Actual result:
+Gif will be saved with only one unanimated frame.
+####Client settings:
+Discord Stable 2.1.0
+####System settings:
+iPhone 6s, iOS 11.1.2 & iPad Air 2, iOS 11.2 Public Beta 5
+
+6709
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-29T15:34:15.214Z
+
+
+### Can reproduce.
+CR, iPhone SE, iOS 10.3.2, TestFlight 2.0.1 (1610) , this is not a iOS issue. I can save a gif from other apps and play it in the camera roll app
+
+TimThe#7618 - Bug Bot on 2017-11-29T15:34:22.663Z
+
+
+### Can reproduce.
+Can reproduce, Discord 2.0.1 (1610), iOS 11.1.2, iPhone 8 Plus
+
+Curse Broken#8659 - Bug Bot on 2017-11-29T15:34:27.573Z
+
+
+### Can reproduce.
+CR, iPhone 8 +, iOS 11.2 (Public Beta 5), Discord Stable 2.1.0
+
+🎄Ghoul🎄#4567 - Bug Bot on 2017-11-29T15:34:32.575Z
+
+
+### Verified.  - Clayton on 2017-11-29T22:44:48.260Z
+
+
+### EDIT: Clayton could only reproduce it on iOS. Apparently the "it also works on desktop" thing is a ruse. - Alexander (DJScias) on 2017-11-29T22:51:03.670Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Alexander (DJScias) on 2017-11-29T23:02:49.693Z
+
+
+### Can reproduce.
+CR,  iPhone 6, iOS 11.1 w/ Discord TestFlight 2.1.0 (1610)
+
+JustGamer#2542 - Bug Bot on 2017-12-01T01:26:27.348Z
+
+
+### Can reproduce.
+Iphone SE, 2.2.3
+
+ChaosKadir#3764 - Bug Bot on 2018-02-23T13:48:32.104Z
+
+
+### removed the save option for gif for now - Fanghao on 2018-04-27T21:31:11.967Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than one month with no new activity. - Ghoul on 2018-06-01T00:31:24.597Z
+
+
+### Archived by Ghoul on 2018-06-01T00:31:29.139Z
+
+
+### Can reproduce.
+TestFlight 3.1.4 (17524), iPhone XR, iOS 13.1.2
+
+SplashyFlame#0067 - Bug Bot on 2019-10-04T03:18:53.795Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

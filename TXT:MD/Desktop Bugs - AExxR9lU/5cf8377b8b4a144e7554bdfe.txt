@@ -1,0 +1,108 @@
+[Archived] Server Icon Quality degrades upon Saving Changes after changing icon (https://trello.com/c/9oiBTtUW)
+
+None
+
+Created: 2019-06-05T21:43:23.641Z
+Latest Update: 2019-07-10T10:00:41.833Z
+
+Reported by Forgi_Forgeth#7294
+
+####Steps to reproduce:
+- Open a Discord server that you can fully manage 
+- Get a high-quality 512x512 image (or any image) and upload it to change the server icon 
+- Save the server settings 
+- Whilst keeping the server settings tab open observe the changes and the quality of the image 
+- You can try this with other images 
+- Also note that this isn't an image compression since the files are under 100 kb and has even worked with files under 50 kb
+
+####Expected result:
+The quality of the image should not degrade upon saving the server changes especially when it is an image uploaded at 512x512
+####Actual result:
+The quality of the image does degrade upon saving the server changes and also degrades noticeably at 512x512 (which is the recommended resolution)
+####Client settings:
+Canary 0.0.218 (37031)
+####System settings:
+macOS High Sierra, Version: 10.13.6
+
+34074
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-05T21:43:23.641Z
+
+
+### Forgi_Forgeth#7294 - https://cdn.discordapp.com/attachments/465198939503853568/574811974270058517/Screen_Shot_2019-05-05_at_9.15.26_PM.png added by Bug Bot on 2019-06-05T21:43:26.078Z
+
+
+### Forgi_Forgeth#7294 - https://cdn.discordapp.com/attachments/465198939503853568/574811975230554113/Screen_Shot_2019-05-05_at_9.16.11_PM.png added by Bug Bot on 2019-06-05T21:43:26.319Z
+
+
+### Can reproduce.
+cr, is a bug + has been here for a while
+
+IcyPebbles#5833 - Bug Bot on 2019-06-05T21:43:31.329Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1809 (OS Build 17763.404), Discord Canary 39185
+
+||Kissa||#1337 - Bug Bot on 2019-06-05T23:37:22.948Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809, Canary 39206
+
+Daffy#7906 - Bug Bot on 2019-06-06T00:40:54.155Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 39214
+
+charleskimbac#6492 - Bug Bot on 2019-06-06T02:09:18.841Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 39214
+
+OrangeM24#5746 - Bug Bot on 2019-06-06T03:45:17.696Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 39074
+
+AHkhan#0001 - Bug Bot on 2019-06-06T08:40:04.523Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 39214
+
+Lily#2624 - Bug Bot on 2019-06-06T15:19:28.949Z
+
+
+### This is not a bug. We never guarantee quality will be lossless when you upload. We download image sizes in our clients which fit the size they are being displayed. For example, if you upload a 500x500 image we're displaying at 50x50, we'd download a 50x50 copy from our server. - nightwalker on 2019-06-06T18:46:14.134Z
+
+
+### Moved from User Reported Bugs to Not a Bug by nightwalker on 2019-06-06T18:46:20.774Z
+
+
+### Can't reproduce.
+CNR; Windows 10 (build 17763) ~ Canary 39214
+
+Lengo#0001 - Bug Bot on 2019-06-06T22:19:14.615Z
+
+
+### Can't reproduce.
+Windows 10 Home Version 10.0.17763 Build 17763 - Canary 39312
+
+Ice#9999 - Bug Bot on 2019-06-07T04:33:00.324Z
+
+
+### Archived by Bug Bot on 2019-07-10T10:00:41.860Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,120 @@
+[Archived] Pinning a "mod pinned message" alert causes discord to give you a pin limit message (https://trello.com/c/mDJlBwfp)
+
+None
+
+Created: 2016-10-25T20:50:31.134Z
+Latest Update: 2017-10-17T21:13:59.488Z
+
+Reported by Logiz#9321
+
+####Steps to reproduce: 
+- Write a message 
+- Pin that message 
+- Attempt to pin the pin alert 
+
+####Expected result:
+ either: "You can't pin that!" or "pinned :)" 
+####Actual result:
+ "You already have 50 pinned messages" 
+####System settings:
+ Canary 
+####Client version:
+ Win 10 x64 https://cdn.discordapp.com/attachments/197038744908333066/240570888242593792/unknown.png
+
+Card Log
+========
+### Added by Jared on 2016-10-25T20:50:31.134Z
+
+
+### Initially reported by Opheriaux#3599 - Sam on 2016-10-25T20:53:07.952Z
+
+
+### Can reproduce.
+Windows (Discord Canary)
+
+Jaren#1338 - Jared on 2016-10-25T20:58:19.789Z
+
+
+### Can reproduce.
+Windows (Discord Canary)
+
+Weeajew#3674 - Jared on 2016-10-25T20:58:53.797Z
+
+
+### Can reproduce.
+Windows 10 Anniversary (Discord Canary)
+
+deframet#0249 - Jared on 2016-10-25T21:02:47.815Z
+
+
+### Can reproduce.
+Win10 x64 Anniversary, Discord Canary
+
+Noahkiq#5529 - Jared on 2016-10-25T21:09:19.169Z
+
+
+### Can reproduce.
+Windows 7 x64, Discord Canary
+
+~/Liara/pandentia.py#0478 - Jared on 2016-10-25T21:29:54.456Z
+
+
+### Can't reproduce.
+Windows10 canary latest
+
+lahrsean#9501 - Jared on 2016-10-26T00:12:34.828Z
+
+
+### Can reproduce.
+Windows10 canary latest
+
+lahrsean#9501 - Jared on 2016-10-26T00:21:12.463Z
+
+
+### Can reproduce.
+Windows (Discord Canary)
+
+Wolfstorm#0986 - Jared on 2016-10-26T00:22:48.436Z
+
+
+### Can reproduce.
+Windows 8.1, Discord Canary
+
+小原鞠莉 ★★★★#9667 - Jared on 2016-10-26T00:30:07.447Z
+
+
+### Can reproduce.
+Windows10
+
+A Generic Gamer#4775 - Jared on 2016-10-26T02:42:31.701Z
+
+
+### Can reproduce.
+Windows 10 Build 10586.633 x64
+
+DoNotSpamPls#8787 - Jared on 2016-10-26T10:23:19.688Z
+
+
+### This has been happening since day 1 of the pinned messages feature, it was known before we launched with it.  It's not really a problem and we will likely not be dedicating resources to fixing it. - Jared on 2016-10-27T17:07:43.697Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-10-27T17:07:47.413Z
+
+
+### Seems to have been fixed in Canary build 667.
+
+Tiemen#0107 - Sam on 2017-05-15T22:53:06.400Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:13:58.674Z
+
+
+### Archived by Jared on 2017-10-17T21:13:59.491Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

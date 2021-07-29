@@ -1,0 +1,103 @@
+Custom status dialog silently closes if API request fails. (https://trello.com/c/Dx7eVewt)
+
+None
+
+Created: 2019-11-09T20:38:06.301Z
+Latest Update: 2020-07-16T21:26:05.569Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Open Developer Tools (CTRL + Shift + I) → Network tab. 
+- Set a custom status. 
+- Right-click the `settings` entry in Network output → Block Request URL. 
+- Try setting a custom status again.
+
+####Expected result:
+If the API request fails (which we simulated by manually blocking it), a visual error should appear.
+####Actual result:
+No visual error, instead the custom status is rendered client side, but not server side.
+####Client settings:
+Discord Canary, Build 49174
+####System settings:
+Windows 10 OS Version 1809 (Build 17763.805)
+
+47600
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-09T20:38:06.301Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build 19002.1 - Discord Canary v0.0.258 Build 49174
+
+webhp#1337 - Bug Bot on 2019-11-09T20:38:14.002Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 49174, Windows 10 Pro 1909 (18363.388)
+
+EK M. | Çağan#7659 - Bug Bot on 2019-11-09T20:38:18.999Z
+
+
+### Can reproduce.
+CR Windows 10 Pro 1903 x64 - Canary 49174
+
+npm#0001 - Bug Bot on 2019-11-09T20:38:24.049Z
+
+
+### Can reproduce.
+Can reproduce - MacBook Pro 2019 (MacOS 10.14.6), Canary Build 49182
+
+kiosion#0001 - Bug Bot on 2019-11-09T23:05:57.118Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64: 1903, Canary 49174
+
+Sanjay#0540 - Bug Bot on 2019-11-10T01:31:59.102Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 49186
+
+Action Potential#6862 - Bug Bot on 2019-11-10T02:33:15.139Z
+
+
+### Can reproduce.
+Windows 8.1 Pro 64 - Canary 49186
+
+andromeda#9990 - Bug Bot on 2019-11-10T06:53:08.633Z
+
+
+### Can reproduce.
+CR, macOS 10.13.6, Canary 49196
+
+leaf#0001 - Bug Bot on 2019-11-10T09:41:39.870Z
+
+
+### Can reproduce.
+Windows 10 Pro 1903, Canary 49174
+
+TheRudeDude#6040 - Bug Bot on 2019-11-10T10:25:48.395Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 49186 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-10T17:02:09.225Z
+
+
+### Can reproduce.
+Windows 10 Home 10.0.17763 - Discord Canary 49525
+
+Samsamson33#0913 - Bug Bot on 2019-11-14T16:50:58.306Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

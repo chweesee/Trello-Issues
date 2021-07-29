@@ -1,0 +1,83 @@
+[Archived] Android O Beta DP4 8.0 Discord Crashes (https://trello.com/c/TeZKzctp)
+
+None
+
+Created: 2017-08-04T20:14:47.945Z
+Latest Update: 2017-10-02T16:51:04.359Z
+
+Reported by 🌈Kipperdoodles🍩🍌#2908
+
+####Steps to reproduce:
+- Download Discord 
+- Sign in 
+- close app 
+- open app 
+- crash occurs
+
+####Expected result:
+Discord should open normally and be usable
+####Actual result:
+Discord has stopped, If you force close the app and then open again it will never properly open. The only time you can sign in and use app successfully is after fresh install or clearing cache and then signing in again. Eventually the app will start crashing again once the background process ends. People say that it isn't supported because Android O is beta, however the public release is rumored to be next week.
+####Client settings:
+Mobile Android 4.0.2
+####System settings:
+Google Pixel 8.0.0, Build Number: OPP4.170623.014
+
+2797
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-04T20:14:47.945Z
+
+
+### Can reproduce.
+Nexus 6P, Android O Developer Preview 4, Discord 4.0.2. Seems to only happen after a fresh install, as I've never had any issues from just updating normally.
+
+Chrees#4389 - Bug Bot on 2017-08-04T20:14:55.801Z
+
+
+### Can reproduce.
+Already fixed but not yet pushed
+
+Dabbit Prime#0896 - Bug Bot on 2017-08-04T20:15:00.773Z
+
+
+### Can reproduce.
+Google Pixel, 8.0.0, build (OPP4.170623.014) Discord Alpha 4.0.2 (401)
+
+Link#2436 - Bug Bot on 2017-08-05T06:30:59.631Z
+
+
+### Can reproduce.
+Nexus 5x, Android O DP4, Discord v4.0.2;  Stack trace suggests updating Kryo dependency will fix ( https://github.com/EsotericSoftware/kryo/issues/515 )
+
+nja#9666 - Bug Bot on 2017-08-05T11:10:03.492Z
+
+
+### Can reproduce.
+Pixel XL OP4 (Discord 4.0.2)
+
+Kalan#3694 - Bug Bot on 2017-08-05T20:43:17.865Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-08-07T17:09:00.714Z
+
+
+### This was fixed a while ago. - Jared on 2017-09-28T18:53:14.313Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-09-28T18:53:20.160Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:51:03.548Z
+
+
+### Archived by Jared on 2017-10-02T16:51:04.362Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

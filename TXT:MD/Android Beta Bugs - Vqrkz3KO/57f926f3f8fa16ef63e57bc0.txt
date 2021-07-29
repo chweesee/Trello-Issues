@@ -1,0 +1,94 @@
+[Archived] [Bug Bounty] Discord doesn't receive personal messages when switching to the app while it's already open. (https://trello.com/c/bUPn7eTC)
+
+None
+
+Created: 2016-10-08T17:03:47.814Z
+Latest Update: 2019-06-05T23:49:50.152Z
+
+Short Description: Discord doesn't receive personal messages when switching to the app while it's already open.
+
+Steps to reproduce:
+
+1. Open Discord on Android
+2. Open another application
+3. Using the app switcher, navigate back to Discord
+or
+1. Open Discord on Android
+2. Lock the screen
+3. Unlock your device and use Discord again
+
+Expected Result: Messages should be received normally and viewed.
+
+Actual Result: Partner's messages are not viewed until Discord is closed and re-opened.
+
+Discord 3.0.5
+
+Card Log
+========
+### Added by Jared on 2016-10-08T17:03:47.814Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Cole Norman on 2016-10-12T18:41:06.405Z
+
+
+### Moved from Verified Bugs to User Reported Bugs by Cole Norman on 2016-10-12T18:41:21.670Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-10-24T19:02:26.093Z
+
+
+### I was unable to reproduce this issue, even with the new steps & information below provided by Xander#0259. The devices I tested on were a Pixel XL running Android 8.1.0 DP and a Nexus 4 running Android 5.1.1.
+
+- open Discord and then hit your devices' home button
+- leave Discord running in the background for a while, like 30 minutes or so
+- have a friend DM you after the 30 minutes 
+- notice that most times you won't receive a ping for a new DM
+
+I believe this issue to be linked to the issue where servers have new messages but a server will not update until you tap on a new server. It's as though the client becomes stale and doesn't consistently refresh the session - Chris Cox on 2017-10-30T00:23:38.454Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:55:41.711Z
+
+
+### Archived by Jared on 2017-10-30T17:55:42.607Z
+
+
+### Unarchived by Mike Nisbet on 2017-11-15T19:03:49.315Z
+
+
+### This is a bug bounty, unarchiving. - Mike Nisbet on 2017-11-15T19:03:50.812Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 - Android 7.0 - Discord 6.4.7
+
+187#0001 - Bug Bot on 2018-04-21T04:44:22.512Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0, Discord 7.1.8 (718)
+
+ShadowMaster2403#8690 - Bug Bot on 2018-08-12T17:48:40.476Z
+
+
+### Can't reproduce.
+Samsung Galaxy Tab A (2016) - Android 7.0 - Kernel 3.18.14-13839138 - Knox 2.8 - Security Patch 1. June 2018 - No Root
+
+Lala Sabathil#7777 - Bug Bot on 2018-09-06T18:20:09.916Z
+
+
+### Can't reproduce.
+Huawei P9 Lite, Android 7.0 - Alpha 7.7.8
+
+Nicolai9852#6731 - Bug Bot on 2018-10-23T11:14:44.312Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:50.161Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

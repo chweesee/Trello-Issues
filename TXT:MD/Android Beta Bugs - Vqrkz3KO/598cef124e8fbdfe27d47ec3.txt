@@ -1,0 +1,110 @@
+[Archived] Pressing "Nope" on NSFW channels of newly created servers doesn't do anything (https://trello.com/c/ljH1kZi0)
+
+P2 - Can wait a while,
+Mod can still reproduce
+
+Created: 2017-08-10T23:41:06.296Z
+Latest Update: 2019-01-01T23:10:42.696Z
+
+Reported by Souji#4629
+
+####Steps to reproduce:
+- create a new server (do NOT use an already existing one) 
+- create a new channel 
+- make it NSFW 
+- when prompted with the NSFW message press "Nope"
+
+####Expected result:
+you are taken to a safe channel
+####Actual result:
+nothing happens (probably because of the NSFW modal using the legacy logic of serverID = defaultchannelID)
+####Client settings:
+Discord 4.0.4. (404)
+####System settings:
+GT-19195 Android 4.4.2
+
+3040
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-10T23:41:06.296Z
+
+
+### Can reproduce.
+CR - Android Alpha 4.0.4 - Google Pixel - Android 7.1.2
+
+Pointy#9109 - Bug Bot on 2017-08-10T23:41:13.740Z
+
+
+### Can reproduce.
+CR alpha 4.0.4 LG Xpower 6.0.1
+
+ks0908#8526 - Bug Bot on 2017-08-10T23:41:18.708Z
+
+
+### Can reproduce.
+Android Alpha 4.0.4 Samsung S6 Edge - Android 7.0\
+
+IcyPebbles#5833 - Bug Bot on 2017-08-10T23:41:23.777Z
+
+
+### Verified.  - Clayton on 2017-08-11T00:05:24.566Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-11T00:05:30.834Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Sam Shih on 2018-03-26T22:42:00.459Z
+
+
+### Clicking "NOPE" punts you back to the last channel selected. If that's not the case we can reopen this bug, but I can't repro - Sam Shih on 2018-03-26T22:42:37.550Z
+
+
+### I can repro this on 6.5.6 running Oreo on my OnePlus 5, reopening ticket. - Tarek on 2018-04-22T19:14:06.743Z
+
+
+### Moved from Fixed Bugs to Reopened by Tarek on 2018-04-22T19:14:14.679Z
+
+
+### Can reproduce.
+Xperia XA1 Ultra, Android 8.0.0, Discord Alpha 6.5.6
+
+figgyc#0168 - Bug Bot on 2018-04-22T19:15:19.016Z
+
+
+### Can reproduce.
+LG G2 - D802, Android 5.0.2 - Discord Alpha 6.5.6
+
+mcicu5#7394 - Bug Bot on 2018-04-22T19:15:41.972Z
+
+
+### Lava#9562 - https://youtu.be/zFNfJbfAiyc added by Bug Bot on 2018-07-14T04:53:33.845Z
+
+
+### Can reproduce.
+Huawei Honor 10 View (BKL-L09) Android 8.0.0 / It's working also with old servers and channels.
+
+JVC Almeos#1984 - Bug Bot on 2018-09-10T00:24:06.047Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 Edge, Android 8.0 | Discord Alpha 7.8.1
+
+camperboy1000#6191 - Bug Bot on 2018-10-27T03:31:29.218Z
+
+
+### Moved from Reopened to Fixed Bugs by Sam Shih on 2018-11-01T17:48:29.576Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:10:41.609Z
+
+
+### Archived by Tarek on 2019-01-01T23:10:42.698Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

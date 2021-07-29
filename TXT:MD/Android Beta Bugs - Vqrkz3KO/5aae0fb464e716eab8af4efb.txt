@@ -1,0 +1,73 @@
+[Archived] Embeds with masked links that aren't links or don't have a handler crash discord when tapped (https://trello.com/c/WYNTQK93)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2018-03-18T07:05:24.310Z
+Latest Update: 2018-05-24T18:13:00.189Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Ensure "Use Chrome Custom Tabs" is enabled 
+- Send an embed that has a masked link that isn't a valid link or doesn't have a handler. Example markdown: `[test](.)` 
+- Tap it
+
+####Expected result:
+Discord should bring up the dialog that says no application can handle the link
+####Actual result:
+Disocrd crashes
+####Client settings:
+Alpha 6.3.8
+####System settings:
+Pixel 2 XL - Android 8.1
+
+9673
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-18T07:05:24.310Z
+
+
+### Can reproduce.
+CR, Asus Zenfone 3, Android 8.0, Alpha 6.3.5
+
+Doges#0001 - Bug Bot on 2018-03-18T07:05:31.688Z
+
+
+### Can reproduce.
+Discord Alpha 6.3.8 OnePlus 5 Android 8.0 (Oreo)
+
+Tarek#1337 - Bug Bot on 2018-03-18T07:05:36.708Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.3.8
+
+fujhofn.#0878 - Bug Bot on 2018-03-18T07:05:41.665Z
+
+
+### Can reproduce.
+Discord Alpha 6.3.8 | Samsung Galaxy J7 | Android 7.0
+
+Россия (Kero)#1269 - Bug Bot on 2018-03-18T23:38:15.054Z
+
+
+### Cannot reproduce. Android 7.0, Samsung S6 Edge Discord 6.4.6 - Clayton on 2018-04-11T22:15:09.143Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-04-11T22:15:15.973Z
+
+
+### Archived due to being in the CNR list for a month without any further action to make place for newer bugs. - Tarek on 2018-05-24T18:12:59.075Z
+
+
+### Archived by Tarek on 2018-05-24T18:13:00.191Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

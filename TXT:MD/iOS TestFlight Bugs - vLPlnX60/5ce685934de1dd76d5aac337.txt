@@ -1,0 +1,142 @@
+[Archived] Returning to unloaded Discord causes server banner to appear while channel list is scrolled down. (https://trello.com/c/FIeWThsd)
+
+P3 - Will be fixed eventually
+
+Created: 2019-05-23T11:35:47.985Z
+Latest Update: 2019-07-10T21:30:41.105Z
+
+Reported by Mauve Ode Iffier#6602
+
+####Steps to reproduce:
+- Go to any server with a server banner. 
+- Go to channels list and scroll to the top to fully reveal the server banner. 
+- Scroll down so the server banner is no longer visible. 
+- Switch to other applications but do not end Discord in the multitasking screen. 
+- Use phone as normal until Discord is unloaded. 
+- Head to home screen. 
+- Go to Discord via the home screen. (not verified if this is the only way to trigger the bug.) 
+- Observe.
+
+####Expected result:
+Server banner does not appear.
+####Actual result:
+Server banner appears and is partially obstructed by category bars, if any.
+####Client settings:
+Discord TestFlight 3.0.2 (15113)
+####System settings:
+iPhone XS Max, iOS 12.2
+
+35147
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-23T11:35:47.985Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 2) - TestFlight 3.0.2 (15173)
+
+Xylium#5800 - Bug Bot on 2019-05-23T11:35:55.321Z
+
+
+### Can reproduce.
+iPad (2017), iOS 12.1 - TestFlight 3.0.2 (15173) - happens to other apps too could be iOS.
+
+Soheab_#6669 - Bug Bot on 2019-05-23T11:36:00.359Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.2 Testflight 3.0.2(15113)
+
+undermaster#3126 - Bug Bot on 2019-05-23T11:36:05.413Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.2 TestFlight 3.0.2 (15113)
+
+binchlord#0998 - Bug Bot on 2019-05-23T12:07:02.606Z
+
+
+### Can reproduce.
+iOS 12.3 iPhone 6s TF 3.0.2 (15173)
+
+GlenMerlin#2119 - Bug Bot on 2019-05-23T15:27:38.432Z
+
+
+### Can reproduce.
+iphone 8 ios 12.2, Testflight 3.0.2 (15113)
+
+OrangeM24#5746 - Bug Bot on 2019-05-23T16:01:41.824Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3 - TestFlight 3.0.2 (15173)
+
+Daffyduck#5364 - Bug Bot on 2019-05-24T04:02:31.867Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.3 (16F5129d) - TestFlight 3.0.2 (15253)
+
+Isabel#0002 - Bug Bot on 2019-05-25T15:56:33.868Z
+
+
+### Can reproduce.
+TestFlight 3.0.2
+
+floof#6265 - Bug Bot on 2019-05-28T21:28:08.415Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-05-31T19:00:10.608Z
+
+
+### Moving to Server Nitro category as it seems to be related to it. - Pascal on 2019-05-31T21:34:44.923Z
+
+
+### Moved from Backlog to Server Nitro by Pascal on 2019-05-31T21:34:51.498Z
+
+
+### Can reproduce.
+iphone 8, iOS 12.2 TestFlight 3.0.2 (15113)
+
+Quad#1887 - Bug Bot on 2019-06-06T13:37:43.746Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.3 (15443) with iPhone 8 Plus running iOS 12.3.1.
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-07T13:12:26.801Z
+
+
+### Moved from Server Nitro to Claimed Fixed Bugs by Pascal on 2019-06-07T13:12:34.373Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - TestFlight 3.0.3 (15443)
+
+Xylium#5800 - Bug Bot on 2019-06-07T13:14:13.086Z
+
+
+### Can't reproduce.
+iPhone XR; iOS 12.3.1; TestFlight 3.0.3 (15443)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-07T13:22:01.794Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.3 (15443)
+
+binchlord#0998 - Bug Bot on 2019-06-07T13:22:59.851Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-07T13:23:00.155Z
+
+
+### Archived by Bug Bot on 2019-07-10T21:30:41.118Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

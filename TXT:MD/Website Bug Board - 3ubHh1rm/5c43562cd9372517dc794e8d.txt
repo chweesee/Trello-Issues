@@ -1,0 +1,64 @@
+When signing up for an account through the homepage and you uncheck the GDPR box before solving the captcha. Discord will error out with `Please update Discord to continue.`. (https://trello.com/c/26xvrJXA)
+
+None
+
+Created: 2019-01-19T16:54:04.987Z
+Latest Update: 2019-04-25T22:03:49.961Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Be in a country with GDPR. (You can use a VPN to achieve this.) 
+- Go to Discord's homepage. 
+- If you're currently signed in, sign out then return to the homepage. 
+- Click "Open Discord in your browser." 
+- Enter a username, and check the box stating you've read the terms. 
+- When the Captcha appears, uncheck the terms box. 
+- Solve the Captcha.
+
+####Expected result:
+The site should prompt to check the box.
+####Actual result:
+`Please update Discord to continue.`
+####Client settings:
+Build 31082 - Firefox v64.0.2 (64-bit)
+####System settings:
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave)
+
+26647
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-19T16:54:04.987Z
+
+
+### Can reproduce.
+Google Chrome - Version 71.0.3578.98 (Official build) (64 bits) - Macbook Pro 13" (2015), MacOS Mojave 10.14.2
+
+maquilaque#1640 - Bug Bot on 2019-01-19T16:54:12.593Z
+
+
+### Can reproduce.
+macos 10.14.3, chrome 71.0.3578.98, used a VPN to achieve this
+
+Lentralkestor#0404 - Bug Bot on 2019-01-19T16:54:17.500Z
+
+
+### Can reproduce.
+CR - Chrome 71.0.3578 Windows 10 Pro x64
+
+Delite#0001 - Bug Bot on 2019-01-19T16:54:22.533Z
+
+
+### Can reproduce.
+Firefox browser Version 64.0.2 (64-bit), Windows 7
+
+Skyla#9999 - Bug Bot on 2019-01-20T05:47:59.978Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

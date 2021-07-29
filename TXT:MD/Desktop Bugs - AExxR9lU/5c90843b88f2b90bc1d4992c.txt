@@ -1,0 +1,172 @@
+[Archived] Tagging users by ID fails while having a user in the server with a numerical discord username that matches the start of the ID. (https://trello.com/c/V12et1t7)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-19T05:55:07.725Z
+Latest Update: 2019-10-23T23:00:46.322Z
+
+Reported by Ciaran#0001
+
+####Steps to reproduce:
+- Have a server with a user with a numerical Discord account name (e.g 21) 
+- Have another user, who's Discord User ID begins with 21, e.g 210526466226651136 
+- Copy the second user's ID using development (beginning with 21) 
+- Attempt to tag the second user using the tag format <@USER ID> e.g <@210526466226651136>
+
+####Expected result:
+The user with the User ID 210526466226651136 should be tagged.
+####Actual result:
+The user with the Discord name 21 is tagged instead, rather than the user with the written User ID. See:
+####Client settings:
+Release Channel: stable, Build Number: 33990, Version Hash: 974de20ff51d728495208255060dc04f76425ebd
+####System settings:
+Microsoft Windows 10 Pro 10.0.17763 Build 17763
+
+31283
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-19T05:55:07.725Z
+
+
+### Pacblinky#8276 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c90843b88f2b90bc1d4992c/a95ccebb86f2d06039f88e1cf87d89b0/WHnCfg8.png added by Bug Bot on 2019-03-19T05:55:11.548Z
+
+
+### Can reproduce.
+Windows 10 Home 1809, Discord Stable Build 33990
+
+Llamaglotapi#2456 - Bug Bot on 2019-03-19T05:55:15.244Z
+
+
+### Can reproduce.
+can repro Windows 10 Home Discord Stable Build 33990
+
+tech_dude1#9855 - Bug Bot on 2019-03-19T05:55:20.192Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64) · Web Canary 34188
+
+Casper#9999 - Bug Bot on 2019-03-19T05:55:25.190Z
+
+
+### Can reproduce.
+Macbook Pro, MacOS Mojave (10.14.13) Discord PTB Build 34132
+
+Tilowil#0001 - Bug Bot on 2019-03-19T07:24:54.783Z
+
+
+### Can reproduce.
+macOS 10.14.3, Canary: 34188
+
+Thiago#3958 - Bug Bot on 2019-03-19T11:06:18.292Z
+
+
+### Can reproduce.
+CR, macos 10.14.4, Canary 34188
+
+Action Potential#2494 - Bug Bot on 2019-03-19T14:34:04.889Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 34188
+
+Delite#0001 - Bug Bot on 2019-03-19T14:34:26.824Z
+
+
+### Can reproduce.
+win10 pro (64-bit, build 1809), canary 34188
+
+Defracted#7777 - Bug Bot on 2019-03-19T15:19:15.790Z
+
+
+### Can reproduce.
+Canary: 34188, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-19T15:20:25.686Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 34188
+
+Neiron#8475 - Bug Bot on 2019-03-19T17:23:05.899Z
+
+
+### Can reproduce.
+cr, - w
+
+tonite#0001 - Bug Bot on 2019-03-19T19:08:33.549Z
+
+
+### Can reproduce.
+CR; W10 Home x64, 1809 17763.379, Canary 34132
+
+c1rcl#1337 - Bug Bot on 2019-03-19T20:53:36.793Z
+
+
+### Can reproduce.
+cr, Win10 Pro - Canary 34220
+
+tonite#0001 - Bug Bot on 2019-03-19T23:53:59.926Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1809) - Canary 34220
+
+HeyWhatsInThatTree#0887 - Bug Bot on 2019-03-20T00:03:39.948Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 34282
+
+Daffyduck#5364 - Bug Bot on 2019-03-20T05:30:40.450Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 34282
+
+Lily#2624 - Bug Bot on 2019-03-20T13:57:55.414Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 34308
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-21T03:55:33.249Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 34463
+
+Killtracity#0001 - Bug Bot on 2019-03-22T21:20:52.309Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-04-01T22:23:20.834Z
+
+
+### Archived by Bug Bot on 2019-05-01T22:30:15.090Z
+
+
+### Can reproduce.
+CR, canary, Build Number: 41168, running Windows 10 x64
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-16T22:18:24.430Z
+
+
+### Unarchived by Bug Bot on 2019-07-16T22:30:08.462Z
+
+
+### Can reproduce.
+Windows 10 Enterprise, Discord Build 41186, also applicable to role names, not only user names
+
+Mokry148#6275 - Bug Bot on 2019-07-18T08:07:23.494Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:46.336Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

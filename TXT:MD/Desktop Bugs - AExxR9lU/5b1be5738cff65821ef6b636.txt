@@ -1,0 +1,106 @@
+[Archived] Wrong date format used for some languages for "Request all of my Data" text (https://trello.com/c/kX4XaJIx)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-09T14:34:27.146Z
+Latest Update: 2018-10-22T20:21:46.897Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Prerequisite: Make sure you have already requested a copy of all your data 
+- Go to your User Settings by clicking on the cog 
+- Change your language to any language with the date format DMY (for example German) 
+- Open "Privacy & Safety" 
+- Scroll down to "Request all of my Data" 
+- Observe the date format there
+
+####Expected result:
+It should use the correct date format for the respective language. E.g. for German `23. Juni 2018` (DMY).
+####Actual result:
+It always uses the format MDY (e.g. for German `Juni 23. 2018`)
+####Client settings:
+Canary Build 16727
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.5
+
+13975
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-09T14:34:27.146Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b1be5738cff65821ef6b636/1f974c87066f75396acbea46a0f0dc3b/lscNqlo.png added by Bug Bot on 2018-06-09T14:34:30.920Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Mojave (18A293u) Canary Build 16727, tested with English UK and German
+
+Kuuhaku#4503 - Bug Bot on 2018-06-09T14:34:36.154Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1709), Discord Canary 16581
+
+54D [Hibernation]#1357 - Bug Bot on 2018-06-09T14:34:41.986Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 16727
+
+webhp#1337 - Bug Bot on 2018-06-09T14:34:48.056Z
+
+
+### Can reproduce.
+Same for Dutch. Windows 10 PRO (Build: 16299.431) - Discord Canary (Build:16445)
+
+Skwaleks#2794 - Bug Bot on 2018-06-09T14:37:18.546Z
+
+
+### Can reproduce.
+Can Reproduce with German Fujitsu Lifebook S751, Windows 7 Professional x64, Discord Canary (Build 16445)
+
+Mad Luffy#3039 - Bug Bot on 2018-06-09T15:23:22.786Z
+
+
+### Verified. Very low priority. - Jared on 2018-06-11T19:31:32.781Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-11T19:31:42.594Z
+
+
+### ```u.default.Messages.DATA_DOWNLOAD_REQUESTED_STATUS_NOTE.format(
+    {
+        date: (0,f.default)(r.created_at).add(
+            j.REQUEST_DATA_LIMIT_DAYS,
+            "days"
+        ).format(
+            "MMMM Do YYYY"
+        )
+    }
+)
+
+
+The correct code should be:
+u.default.Messages.DATA_DOWNLOAD_REQUESTED_STATUS_NOTE.format(
+    {
+        date: r.created_at?(0,f.default)(r.created_at)
+        .toDate()
+        .setDate(
+            r.created_at?(0,f.default)(r.created_at).toDate().getDate() + j.REQUEST_DATA_LIMIT_DAYS
+        )
+    }
+)``` - Jared on 2018-06-18T20:50:38.030Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:46.901Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] In streamer mode, cannot mention a user whose username starts with the name of a role in the server. (https://trello.com/c/ymFvMejS)
+
+None
+
+Created: 2018-09-09T14:01:13.077Z
+Latest Update: 2018-09-10T19:38:44.122Z
+
+Reported by Ender#4384
+
+####Steps to reproduce:
+- Enable streamer mode 
+- Take the first N characters of someone's handle and make that a role in the server 
+- Try to mention that person
+
+####Expected result:
+The 'someone' should be mentioned
+####Actual result:
+The role is mentioned
+####Client settings:
+Desktop Canary 23017
+####System settings:
+Windows 7
+
+19322
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-09T14:01:13.077Z
+
+
+### Can reproduce.
+can reproduce Windows 10 Pro x64 Canary Build 23321
+
+Azrael#6867 - Bug Bot on 2018-09-09T14:01:20.394Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64-bit, Canary 23321
+
+Inspector Soviet#6971 - Bug Bot on 2018-09-09T14:01:25.357Z
+
+
+### Can reproduce.
+CR | Canary, 23017 | windows 10 home, x64
+
+I_Am_Alex#0001 - Bug Bot on 2018-09-09T14:01:30.386Z
+
+
+### Can reproduce.
+MacBook Pro 13", macOS 10.13.6, Canary 23321
+
+Alfie#1582 - Bug Bot on 2018-09-09T14:07:47.879Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 23321
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-09-09T19:16:45.454Z
+
+
+### Can reproduce.
+Tested on Windows 10 Home 64-bit (1803) with Discord Canary Build 23321
+
+that15fine#9275 - Bug Bot on 2018-09-09T19:37:06.147Z
+
+
+### I would say this is an extension of https://trello.com/c/3J2CSCnC as per Jake's comment in https://trello.com/c/bTD590ie the client can no longer differentiate users without the discriminator.
+
+Ene#0808 - Bug Bot on 2018-09-10T01:06:04.294Z
+
+
+### Archived by Clayton on 2018-09-10T19:38:44.124Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

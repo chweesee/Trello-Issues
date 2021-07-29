@@ -1,0 +1,91 @@
+[Archived] When editing a message with a mention, it shows the id (https://trello.com/c/0uQFORV4)
+
+None
+
+Created: 2017-09-15T23:04:50.697Z
+Latest Update: 2017-11-15T19:10:37.704Z
+
+Reported by advaith#9121
+
+####Steps to reproduce:
+- Mention a user in a message 
+- Edit the message (press the up arrow key)
+
+####Expected result:
+The mention will show as `@username#0000`
+####Actual result:
+The mention shows as `<@123456789>`
+####Client settings:
+Discord Canary 0.0.154 (Build 4331)
+####System settings:
+macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+4357
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-15T23:04:50.697Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 4331) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-15T23:04:58.162Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (4331)
+
+Tiemen#0107 - Bug Bot on 2017-09-15T23:05:03.225Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf I.#3260 - Bug Bot on 2017-09-15T23:05:08.211Z
+
+
+### Moved from User Reported Bugs to React 16 bugs by Cole Norman on 2017-09-16T01:53:44.873Z
+
+
+### Can reproduce.
+Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.163 (Build 4358)
+
+SuperSajuuk#7265 - Bug Bot on 2017-09-16T10:49:28.194Z
+
+
+### Can reproduce.
+WIndows 10 x64 v1703, Discord Canary v0.0.163
+
+Bytewave#4055 - Bug Bot on 2017-09-16T18:54:53.549Z
+
+
+### Moved from React 16 bugs to Fix made, not yet released by Mike Greer on 2017-09-19T03:45:41.488Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Mike Greer on 2017-09-19T03:45:49.460Z
+
+
+### Tested on discord build 4743:
+
+I can no longer reproduce this myself. Editing a message with a mention does not display any sort of ID to me. - Alexander (DJScias) on 2017-09-22T14:47:39.073Z
+
+
+### Verified fixed! - Clayton on 2017-09-27T23:23:59.281Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-09-27T23:24:02.856Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:10:36.718Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:10:37.706Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] invite link from server context menu doesn't work when there are no text channels (https://trello.com/c/ZY92iTff)
+
+P2: Fix can wait a while
+
+Created: 2017-08-09T07:14:42.264Z
+Latest Update: 2017-10-17T21:11:11.023Z
+
+Reported by Oasis#4730
+
+####Steps to reproduce:
+- create a server and delete the text channel 
+- try to invite via the server context menu 
+- discord says its not possible to create an invite due to no channels 
+- try creating an invite with the icon next to the voice channel's name 
+- invite is created
+
+####Expected result:
+invite is created
+####Actual result:
+invite is not created
+####Client settings:
+canary 0.0.163
+####System settings:
+Windows 10
+
+2960
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-09T07:14:42.264Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 15063, Discord Canary 0.0.163
+
+Charles#1934 - Bug Bot on 2017-08-09T07:14:49.660Z
+
+
+### Can reproduce.
+canary 0.0.163 Windows 10 x64
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-08-09T07:14:54.654Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home Creators Update x64, Canary 0.0.163
+
+TTtie#4900 - Bug Bot on 2017-08-09T07:14:59.666Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-09T11:42:07.685Z
+
+
+### Verified.  - Clayton on 2017-08-09T21:22:35.629Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T21:22:42.526Z
+
+
+### This isn't a bug. It's referring to text channels, not voice channels. I mentioned this to Stan when we were testing this UI update and confirmed it was functioning correctly. - Jared on 2017-08-24T23:02:13.270Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2017-08-24T23:02:17.678Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:11:10.439Z
+
+
+### Archived by Jared on 2017-10-17T21:11:11.026Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

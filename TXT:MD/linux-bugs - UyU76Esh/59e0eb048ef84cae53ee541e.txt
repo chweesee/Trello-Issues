@@ -1,0 +1,82 @@
+Discord freezes on attempt to use a pulseaudio instance that no longer exists (https://trello.com/c/gDOMTp8f)
+
+P3: Will eventually be fixed,
+high
+
+Created: 2017-10-13T16:34:12.185Z
+Latest Update: 2019-11-13T23:33:42.035Z
+
+Reported by outfrost#5543
+
+####Steps to reproduce:
+- Launch Discord 
+- Restart pulseaudio (e.g. with `$ pulseaudio -k`) 
+- Once a new instance of pulseaudio is up, try to connect to voice chat
+
+####Expected result:
+Discord either finds the correct sound server instance and plugs into it, or displays an error message that no sound server was found and a Discord restart is probably needed
+####Actual result:
+Discord freezes indefinitely
+####Client settings:
+BUILD INFO] Release Channel: stable, Build Number: 5837, Version Hash: 8debf1d516c07d99a603ec25688324b473c2de43
+####System settings:
+Mint 18.2, KDE Plasma 5.8.7, pulseaudio 8.0, aplay 1.1.0, Linux 4.8.0-53-generic amd64
+
+5387
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-13T16:34:12.185Z
+
+
+### Can reproduce.
+Kubuntu 17.10 x64 Beta 2, 4.13.0-15-generic, Canary Build 5843
+
+kiroma#1608 - Bug Bot on 2017-10-13T16:34:19.489Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-13T16:34:24.433Z
+
+
+### Can reproduce.
+CR, Discord Canary 5843, Ubuntu 16.04, 64 bits
+
+Alex1304#9704 - Bug Bot on 2017-10-13T16:34:29.521Z
+
+
+### Can reproduce.
+Linux Mint 18 + Openbox / Discord Canary 0.0.24
+
+cloudrac3r#5547 - Bug Bot on 2017-11-07T03:46:23.417Z
+
+
+### Verified.  - Clayton on 2017-11-08T22:47:26.120Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2017-11-08T22:47:36.216Z
+
+
+### For more info: https://github.com/crmarsh/discord-linux-bugs/issues/50 - Clayton on 2017-12-06T00:42:48.780Z
+
+
+### Can reproduce.
+Ubuntu MATE 16.04.3 LTS, Canary
+
+1024x2#7761 - Bug Bot on 2018-01-06T20:06:01.310Z
+
+
+### Can reproduce.
+Arch Linux kernel 4.20 AND Kubuntu 18.04
+
+Zleet#1558 - Bug Bot on 2019-01-12T08:39:18.530Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

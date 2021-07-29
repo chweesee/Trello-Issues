@@ -1,0 +1,77 @@
+[Archived] Joining a voice channel on Android keeps you in the channel after reconnecting on PC (https://trello.com/c/QY8DKG9S)
+
+P3 - Will be fixed eventually,
+Mod can no longer reproduce
+
+Created: 2017-01-26T14:31:19.084Z
+Latest Update: 2017-11-17T18:10:04.217Z
+
+Reported by EMT#2524
+
+####Steps to reproduce: 
+- Join a voice channel on PC (Untested on iOS) 
+- Connect to the same voice channel on an Android device 
+- Reconnect on PC 
+
+####Expected result:
+ The Android device should be kicked out of the voice channel 
+####Actual result:
+ The Android device stays in connected to the voice channel (will not transmit voice though) 
+####System settings:
+ Windows 7 Pro x64, latest Discord Canary, Android 5.1, Discord Alpha v3.2.8
+
+Card Log
+========
+### Added by Jared on 2017-01-26T14:31:19.084Z
+
+
+### Can reproduce.
+ZTE Grand X Max 2, 6.0.1, Discord 3.2.8. Note: While it shows its connected and sometimes may disconnect after a bit, its not really connected as I tested out with an alt account as well. Its just the Android side not receiving the DC command at times it seems.
+
+Rocks the Squirrel#2134 - Jared on 2017-01-26T14:31:19.729Z
+
+
+### Can reproduce.
+Win10 x64 Canary latest, Android 4.2.2 Discord Alpha latest
+
+Ristarg#3840 - Jared on 2017-01-26T14:31:21.551Z
+
+
+### Can reproduce.
+Canary Linux 0.0.14, Android Alpha 3.2.8 (Android 4.4.4)
+
+Chrys#1856 - Jared on 2017-01-26T14:31:23.618Z
+
+
+### Visual bug, verified, low priority. - Jared on 2017-02-07T18:29:09.423Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-07T18:29:15.746Z
+
+
+### Can't reproduce, I get disconnected from the VC on mobile.
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.2.0 (520) - Alexandru Todea on 2017-09-20T05:34:57.365Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-20T06:26:39.961Z
+
+
+### Verified Fixed - Jared on 2017-10-02T20:41:37.137Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T20:56:05.915Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-17T18:10:02.922Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-17T18:10:04.220Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

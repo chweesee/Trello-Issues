@@ -1,0 +1,113 @@
+[Archived] Audit Log becomes untoggable/unexpandable when repeated toggled slowly and throws error in debug logs (https://trello.com/c/01C8DkJX)
+
+None
+
+Created: 2019-04-09T15:59:44.234Z
+Latest Update: 2019-06-05T23:47:20.596Z
+
+Reported by Xnehaxixh#2892
+
+####Steps to reproduce:
+- Open Audit Logs 
+- Keep toggling a single log repeatedly (once in every 2 seconds)  
+- Important Note: Do not repeatedly toggle the log too quickly otherwise it will crash/reload your app (where you get a black screen) so keep it toggled once in every 2 seconds and don't crash the app 
+- Additional Note: You need to keep it toggling till you reach the point where it doesn't toggle anymore. It can take 2 to 20 toggles (and maybe more than that) so maybe toggle like 50 times before giving up 
+- Once it stops toggling, check the debug logs for text in red colour
+
+####Expected result:
+The logs should not stop toggling and should work indefinitely
+####Actual result:
+The logs stop toggling and error is thrown in debug logs
+####Client settings:
+Discord 871
+####System settings:
+Redmi 3S Prime, MIUI 10, Android 6.0.1
+
+32372
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-09T15:59:44.234Z
+
+
+### Xnehaxixh#2892 - https://youtu.be/6i0PbTerDwo added by Bug Bot on 2019-04-09T15:59:46.705Z
+
+
+### Can reproduce.
+CR - Samsung Galaxy S6 Edge, 7.0.0 - Alpha 871 ( 4 failovers were enough for me, actual presence of an error in the debug log )
+
+ZεɾMმl 『 Kօყმ | Dεղνεɾ | Tφ』#1071 - Bug Bot on 2019-04-09T15:59:51.641Z
+
+
+### Can reproduce.
+CR - OnePlus 2 - Android 8.1.0 - LineageOS 15.1 - Discord Alpha 8.7.1 (871)
+
+VR#0124 - Bug Bot on 2019-04-09T15:59:56.610Z
+
+
+### Can reproduce.
+S6 edge G925F - Android 7.0 - Discord 871 (after around 10 toggles)
+
+Kéké#8966 - Bug Bot on 2019-04-09T16:00:01.624Z
+
+
+### Can reproduce.
+Personally I crash. Discord Alpha 8.7.1, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-04-09T16:01:12.536Z
+
+
+### Can reproduce.
+Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 8.7.1
+
+Lelantos#4866 - Bug Bot on 2019-04-09T16:36:49.615Z
+
+
+### Can reproduce.
+Honor 6x 7.0 [EMUI 5.0.2] ,alpha 871
+
+fizy#9347 - Bug Bot on 2019-04-09T16:43:36.958Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 871
+
+Quad#1887 - Bug Bot on 2019-04-09T17:20:21.693Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.7.0
+
+Skyla#0002 - Bug Bot on 2019-04-09T17:46:38.597Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.7.1 | CR Might have something to do with this https://trello.com/c/4wQOaOcF
+
+Clay#0001 - Bug Bot on 2019-04-09T19:00:31.636Z
+
+
+### Can reproduce.
+CR; Galaxy S7, 7.0, Alpha 871
+
+c1#3677 - Bug Bot on 2019-04-09T19:59:20.037Z
+
+
+### Can reproduce.
+Alcatel 3C, 7.0.0 Discord Alpha 871
+
+StefanFX#1109 - Bug Bot on 2019-04-09T20:17:43.741Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Sam Shih on 2019-04-09T23:32:21.455Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:20.607Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

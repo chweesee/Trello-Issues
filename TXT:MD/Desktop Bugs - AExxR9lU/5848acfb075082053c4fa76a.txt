@@ -1,0 +1,52 @@
+[Archived] Moving member without permission moves voice channel instead (https://trello.com/c/2yNTFEb4)
+
+None
+
+Created: 2016-12-08T00:44:43.540Z
+Latest Update: 2017-10-17T21:18:00.471Z
+
+Reported by DaFri_Nochiterov#1542
+
+####Steps to reproduce: 
+- Have "Move members" and "Manage channel" permissions and try to move user 
+- Remove "Move members" permission and try to move user again 
+
+####Expected result:
+ Absolutely no reaction 
+####Actual result:
+ Moves voice channel
+
+Card Log
+========
+### Added by Jared on 2016-12-08T00:44:43.540Z
+
+
+### http://i.imgur.com/FnI7oT0.gif First - with permission, second - without
+
+DaFri_Nochiterov#1542 - Jared on 2016-12-08T00:46:25.838Z
+
+
+### Can reproduce.
+Windows 7 x64, Canary 0.0.149
+
+Ian Murray#8701 - Jared on 2016-12-08T00:54:14.412Z
+
+
+### I don't understand how this is a bug.  You can't move members, but can move voice channels.  That's what those permissions are for. - Jared on 2016-12-09T18:54:00.978Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-12-09T18:54:05.479Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:17:58.327Z
+
+
+### Archived by Jared on 2017-10-17T21:18:00.472Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

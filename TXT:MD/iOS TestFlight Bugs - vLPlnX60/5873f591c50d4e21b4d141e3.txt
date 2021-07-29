@@ -1,0 +1,62 @@
+[Archived] group dm notifications still show up if cellular data is off for Discord (https://trello.com/c/fz1pT5sS)
+
+None
+
+Created: 2017-01-09T20:41:53.811Z
+Latest Update: 2017-10-17T21:15:05.568Z
+
+Reported by harrison#6336
+
+####Steps to reproduce: 
+- go off wifi and onto cellular data 
+- turn off cellular data for discord only 
+- wait for a notification from a group dm 
+
+####Expected result:
+ dm doesn't show up as data is off for the app 
+####Actual result:
+ notifications show up (indicating cellular data is used even though it's toggled off)
+
+Card Log
+========
+### Added by Jared on 2017-01-09T20:41:53.811Z
+
+
+### Can reproduce.
+iOS 9.3.3, latest TestFlight
+
+七海 千秋 ★★★★#9667 - Jared on 2017-01-09T20:41:54.355Z
+
+
+### Can reproduce.
+iPhone 5S iOS 10.2 Latest TF
+
+Mikesky#3097 - Jared on 2017-01-09T20:41:54.485Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5873f591c50d4e21b4d141e3/3a5c7ec51ed2d469670594c9a0e001d7/unknown.png added by Jared on 2017-01-09T20:42:10.070Z
+
+
+### Not just group DM notifications, but also regular mentions as well.
+
+七海 千秋 ★★★★#9667 - Jared on 2017-01-09T20:42:26.781Z
+
+
+### This is not something discord has any control over. We do not dictate whether things come over data or not.  If it's coming over data when you have the option disabled, it's because the notifications aren't coming from the discord app.  Push notifications come from Apple. - Jared on 2017-01-09T22:55:16.594Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-01-09T22:55:31.621Z
+
+
+### Archiving as this ticket as been Won't Fix for over a month. - Mike Nisbet on 2017-10-17T21:15:04.382Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:15:05.573Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

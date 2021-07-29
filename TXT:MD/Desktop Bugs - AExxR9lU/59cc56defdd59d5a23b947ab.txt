@@ -1,0 +1,73 @@
+[Archived] Can grant @-everyone channel permissions that you don't have access to (https://trello.com/c/VUcn3v3y)
+
+None
+
+Created: 2017-09-28T01:56:46.223Z
+Latest Update: 2017-11-15T18:52:03.920Z
+
+Reported by DokaDoka#8094
+
+####Steps to reproduce:
+- have the `manage roles` permission 
+- lack another perm such as `manage webhooks` or `manage messages` 
+- edit a channel and go to the permissions tab 
+- for the @-everyone role, enable the permission you lack
+
+####Expected result:
+A Dialog box appears telling you that you don't have permission
+####Actual result:
+The changes go through
+####Client settings:
+Discord Stable, 0.0.298 & Discord Canary, 0.0.163
+####System settings:
+Win 8.1 x64
+
+4904
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-28T01:56:46.223Z
+
+
+### Can reproduce.
+Canary 0.0.163 + Windows 10
+
+Oasis#4730 - Bug Bot on 2017-09-28T01:56:53.614Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary 0.0.163
+
+Rauf#3260 - Bug Bot on 2017-09-28T01:56:58.654Z
+
+
+### Can reproduce.
+Discord 0.0.2 Arch linux build 4906
+
+GNUGradyn(っ◔◡◔)っ#1882 - Bug Bot on 2017-09-28T01:57:03.623Z
+
+
+### Can reproduce.
+Windows 10 Creators Update, Discord Canary (0.0.163)
+
+Vermenthruaxx#2866 - Bug Bot on 2017-09-28T02:11:55.546Z
+
+
+### Not a bug, manage roles also gives manage channel perms - Clayton on 2017-10-04T17:38:27.339Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2017-10-04T17:38:31.237Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T18:44:46.016Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T18:52:03.921Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

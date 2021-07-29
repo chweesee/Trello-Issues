@@ -1,0 +1,112 @@
+[Archived] Categories doesn't show right permission settings (https://trello.com/c/MauR7oOm)
+
+P2 - Can wait a while,
+mid
+
+Created: 2017-09-13T23:43:06.534Z
+Latest Update: 2019-03-01T12:00:24.937Z
+
+Reported by Jakob#6834
+
+####Steps to reproduce:
+- Have a server with administrator permission 
+- Make a new category 
+-  make a subchannel in that category 
+- Press and hold the category you just created 
+- Go to perms 
+- Add a role or edit a role
+
+####Expected result:
+You would see settings, custom for categories
+####Actual result:
+You see the permissions setting for a voicechannel
+####Client settings:
+Discord testflight 1.9.1 (629)
+####System settings:
+Iphone 6s 16gb ios 10.3.3
+
+4250
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-13T23:43:06.534Z
+
+
+### Can reproduce.
+Subchannel not needed to repro the bug, channel only shows voice perms but no channel perms, CR, TestFlight 1.9.1 (629), iPhone 7, iOS 10.3.3
+
+QwakGoesDuck#9672 - Bug Bot on 2017-09-13T23:43:13.877Z
+
+
+### Can reproduce.
+Can reproduce |  Ios 11 (dev) Iphone 6 discord tf 1.9.1
+
+Tobias#5233 - Bug Bot on 2017-09-13T23:43:18.916Z
+
+
+### Can reproduce.
+Can repo on Testflight 1.9.1 with iPad Mini 2 iOS 11 GM
+
+Joshek#3388 - Bug Bot on 2017-09-13T23:43:23.883Z
+
+
+### Can reproduce.
+subchannel not need, iPhone 5S, iOS 11 GM, TF 1.9.1
+
+Lasse#4890 - Bug Bot on 2017-09-14T05:41:02.159Z
+
+
+### This is not a bug. It's setting the permissions for any channel you move into that category by default. So what settings a voice channel should have if you move it into the category. - Jared on 2017-09-18T21:03:32.787Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-09-18T21:03:37.639Z
+
+
+### This is a bug. All text channel permissions like `Send Messages`, `Manage Messages` etc. and the permission `Read Text Channels & See Voice channels` are missing.  For Desktop version they are shown.
+
+Pascal#0929 - Bug Bot on 2017-10-01T21:13:29.813Z
+
+
+### Moved from Won't Fix to Verified Bugs by Jared on 2017-10-02T15:25:31.378Z
+
+
+### Moved from Verified Bugs to Next up for Investigation by Jared on 2017-12-05T19:15:42.367Z
+
+
+### Can reproduce.
+iPhone 5s, IOS 11.3
+
+JustNotWillem©#2375 - Bug Bot on 2018-08-03T07:49:00.332Z
+
+
+### Can no longer reproduce as of TestFlight 2.4.0 (9370). Category permissions are shown correctly now.
+
+Xylium#5800 - Bug Bot on 2018-11-29T12:20:54.139Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.1.1 (dev beta 3) - TestFlight 2.4.0 (9370). Permissions are shown correctly as of build 9370.
+
+Xylium#5800 - Bug Bot on 2018-11-29T12:21:42.871Z
+
+
+### Cannot reproduce anymore on iPhone XS Max running iOS 12.1.1 Dev Beta 3 with iOS TestFlight 2.4.0 (9370). I tested in House of Brilliance, and I was able to see the text permission settings.
+
+Moving over to Claimed Fixed.  - Ghoul on 2018-11-29T21:04:46.396Z
+
+
+### Moved from Next up for Investigation to Claimed Fixed Bugs by Ghoul on 2018-11-29T21:04:52.450Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Clayton on 2019-01-30T11:32:45.478Z
+
+
+### Archived by Bug Bot on 2019-03-01T12:00:24.950Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

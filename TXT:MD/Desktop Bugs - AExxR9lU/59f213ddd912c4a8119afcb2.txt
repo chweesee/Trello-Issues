@@ -1,0 +1,93 @@
+User selection "flickers" at the bottom of the member list (https://trello.com/c/os1PqixO)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-10-26T16:57:01.815Z
+Latest Update: 2019-12-20T18:58:26.444Z
+
+Reported by Evie.Codes#4611
+
+####Steps to reproduce:
+- Go to any sufficiently large server (largest = happens more) 
+- Hover over any user. Move the mouse around to see a constant flicker effect
+
+####Expected result:
+The hover (grey background) stays there as long as the use list doesn't visually move.
+####Actual result:
+Updates in the member list removes the "selection" of the user. Moving the mouse around causes a flicker.
+####Client settings:
+Canary Web on Chrome
+####System settings:
+Windows 10, Chrome 61.0.3163.100
+
+5815
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-26T16:57:01.815Z
+
+
+### Evie.Codes#4611 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59f213ddd912c4a8119afcb2/6fa56bf003b2b9ef3d2343ccbd64df1e/wrPLVga.gif added by Bug Bot on 2017-10-26T16:57:04.719Z
+
+
+### Can reproduce.
+Discord Canary 0.0.167 (Build 6420) on Windows 10 Pro 64-bit (Build 1607) | Tested with HS.
+
+Tarek1337#0379 - Bug Bot on 2017-10-26T16:57:09.656Z
+
+
+### Can reproduce.
+CR, Winodws 7 Professional x64 (Build 7601), Discord Canary 0.0.167 (Build 6420)
+
+jake 🎃#6241 - Bug Bot on 2017-10-26T16:57:15.143Z
+
+
+### Can reproduce.
+I get this often in fairly large servers (DDevs, Blob Emoji). Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.167 (Build 6420)
+
+SuperSajuuk#7265 - Bug Bot on 2017-10-26T16:57:20.175Z
+
+
+### Verified - Jared on 2017-10-26T21:47:42.775Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-26T21:47:48.050Z
+
+
+### CNR - Clayton on 2018-07-11T23:17:26.123Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-07-11T23:17:35.770Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:15.011Z
+
+
+### Can reproduce.
+Windows 10, [BUILD INFO] Release Channel: canary, Build Number: 40274, Version Hash: 7ee65925bd613109d7311da93f9d8f557762ff77 System Settings: Windows 10
+
+AndrewSmith#1285 - Bug Bot on 2019-06-22T13:56:43.752Z
+
+
+### Can repro, canary 40274 W10 1903, reopening. - Tarek on 2019-06-22T14:08:26.574Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2019-06-22T14:08:33.666Z
+
+
+### Unarchived by Tarek on 2019-06-22T14:08:33.811Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909, Canary 51792 host 0.0.259
+
+Jean20B#4668 - Bug Bot on 2019-12-20T18:58:26.458Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

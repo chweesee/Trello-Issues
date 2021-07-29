@@ -1,0 +1,79 @@
+[Archived] The Privacy settings toggle animates weirdly when opening the long-press menu on servers (https://trello.com/c/g2b4PLpi)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-12-22T22:27:01.618Z
+Latest Update: 2018-08-22T01:20:50.153Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Pick any server, preferably without acces to Server settings and change nickname so you can see the Provacy settings option without having to scroll down 
+- Make sure that DMs from members of this server are *enabled* 
+- Long-press on this server in the server list and observe closely the Privacy settings toggle
+
+####Expected result:
+The toggle shouldn't animate
+####Actual result:
+It animates like if the option was toggling itself on.
+####Client settings:
+Discord Alpha 5.9.5
+####System settings:
+Huawei Mate 9 Android 7.0
+
+7308
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-22T22:27:01.618Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 595, I also believe that this is somewhat related to https://trello.com/c/SIZ5k8e2/765 as both involve the settings icon "flickering" briefly. Very briefly in the case of 7308
+
+Xander#0259 - Bug Bot on 2017-12-22T22:27:09.153Z
+
+
+### Can reproduce.
+CR, changing nickname wasn't necessary for me; Discord Canary 5.9.5, Samsung Galaxy S5, Android 6.0.1
+
+Cancer#2954 - Bug Bot on 2017-12-22T22:27:14.119Z
+
+
+### Can reproduce.
+alpha 5.9.5 ZTE zmax pro (Z981)
+
+Link#8451 - Bug Bot on 2017-12-22T22:27:19.147Z
+
+
+### Can reproduce.
+CR tecno c9 Android 6.0 alpha 5.9.5
+
+Gon#0248 - Bug Bot on 2017-12-23T10:00:47.387Z
+
+
+### Can reproduce.
+CR, changing nickname wasn't necessary for me; Discord Alpha 5.9.5, Samsung Galaxy S5, Android 6.0.1
+
+Cancer#2954 - Bug Bot on 2017-12-23T10:04:52.667Z
+
+
+### Verified - Clayton on 2017-12-28T08:20:14.264Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-28T08:20:17.767Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a3d86b5838495428c7fe182/868e02cf523328386572e617e792108d/jrwuYBw.gif added by Bug Bot on 2018-07-16T06:29:04.258Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:50.155Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

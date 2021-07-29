@@ -1,0 +1,65 @@
+[Archived] Discord windows snapping only work every other time on Win 10 1803 (https://trello.com/c/p18ZGnid)
+
+None
+
+Created: 2018-05-03T21:43:02.374Z
+Latest Update: 2018-05-07T16:11:22.928Z
+
+Reported by H4ndy#1879
+
+####Steps to reproduce:
+- Grab Discord title bar and move to desktop top edge 
+- Release mouse to snap window to fullscreen 
+- Grab title bar again and drag down to reset window size 
+- Repeat
+
+####Expected result:
+Discord window should fill the whole desktop
+####Actual result:
+Every other time, the Discord window will be too small and display a white bar (video: )
+####Client settings:
+Channel: canary, Build Number: 14570, Version Hash: 6b70553727700e4e9cfe317040f4ff45fc2b4688
+####System settings:
+Windows 10 Pro x64 Version 1803 (Build 17134.1)
+
+11890
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-03T21:43:02.374Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 14558
+
+Rauf#9245 - Bug Bot on 2018-05-03T21:43:09.767Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 64-Bit on Build 17134.1 [BUILD INFO] Release Channel: stable, Build Number: 14457, Version Hash: 3b2bbc09cb6eff6066e846f118bb93dce41fdbd8 Can Repro roughly one in every 2 tries but otherwise is reliable to Repro
+
+Blastoise186#7194 - Bug Bot on 2018-05-03T21:43:19.679Z
+
+
+### Not a Discord bug; This is a bug in Windows 1803 with all applications that do not utilize the native titlebar. This bug also occurs with e.g. Spotify
+
+RME#3050 - Bug Bot on 2018-05-03T23:45:57.811Z
+
+
+### Dupe of https://trello.com/c/405FvAO6/
+
+PeteTeradactyl#1023 - Bug Bot on 2018-05-03T23:48:49.946Z
+
+
+### Dupe as noted - Jared on 2018-05-07T16:11:21.687Z
+
+
+### Archived by Jared on 2018-05-07T16:11:22.931Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

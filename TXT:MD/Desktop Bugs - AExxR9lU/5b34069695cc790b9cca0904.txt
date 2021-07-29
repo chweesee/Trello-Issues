@@ -1,0 +1,74 @@
+[Archived] Discord chat voice bubble not displaying in private, off-server calls. (https://trello.com/c/VvNEkOVk)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-06-27T21:50:14.466Z
+Latest Update: 2018-08-30T23:34:11.562Z
+
+Reported by Curious#5137
+
+####Steps to reproduce:
+- Call friend/group
+
+####Expected result:
+Should displaying green circle around person speaking
+####Actual result:
+Either sticks and stay green, or nothing at all
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 17800, Version Hash: 8314505c9f83cab169825fcba71df6fb11281735
+####System settings:
+Windows 10 x64
+
+14899
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-27T21:50:14.466Z
+
+
+### Can reproduce.
+Can Reproduce - Canary, Build Number: 17800, Windows 10 x64 v1709 - For me, I saw the bubble appear, only if the person was speaking when you join the call, and when they stop, it remains. Seems more like the bug is that the "bubble" gets stuck in whatever state that it was in when the user joined the call.
+
+HarryThorpe#0864 - Bug Bot on 2018-06-27T21:50:22.098Z
+
+
+### Can reproduce.
+CR Windows 10 pro x64 Canary Build: 17800, you have to tab in and out between servers and the voice call for the green circle to even update properly, it does get stuck depending on who's talking when you are in another server and tab back into the DM voice call
+
+Azrael#6867 - Bug Bot on 2018-06-27T21:50:27.036Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803 PTB 17800 -- Cannot reproduce Canary 17826, pushing for archival.
+
+webhp#1337 - Bug Bot on 2018-06-27T21:50:32.069Z
+
+
+### Can reproduce.
+Canary build 17795, Windows 10 Version 1803
+
+bayleaf#5049 - Bug Bot on 2018-06-27T22:28:46.979Z
+
+
+### verified, macos 10.12.6, canary 17937 - Clayton on 2018-06-29T21:36:33.109Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-29T21:36:42.255Z
+
+
+### Verified Fixed - Jared on 2018-07-11T21:36:28.266Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-11T21:36:32.796Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:11.564Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

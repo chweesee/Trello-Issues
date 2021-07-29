@@ -1,0 +1,76 @@
+[Archived] Wrapping invite link in '< >' does not hide embed. Happens only in the stable Discord web browser version. (https://trello.com/c/gGLTYbRw)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-05-28T21:03:35.626Z
+Latest Update: 2018-10-22T20:21:22.178Z
+
+Reported by Zathor#1337
+
+####Steps to reproduce:
+- Post a  invite link with '< >' (< https://discordapp.com/invite/discord-testers >) (without space)
+
+####Expected result:
+Embed should be disabled for the link
+####Actual result:
+Embed is still enabled for the link
+####Client settings:
+Discord web browser version, 7913
+####System settings:
+Win 10 x64
+
+13499
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-28T21:03:35.626Z
+
+
+### Can reproduce.
+Discord Stable 0.0.301 (16162) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-05-28T21:03:43.289Z
+
+
+### Can reproduce.
+Macbook Air (Early 2015), macOS Sierra 10.12.6, Discord Stable (Build 16162)
+
+Rage#1337 - Bug Bot on 2018-05-28T21:03:48.029Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 pro discord stable 16162
+
+Bencey_#8587 - Bug Bot on 2018-05-28T21:03:53.017Z
+
+
+### Verified, macOS 10.12.6 - Clayton on 2018-05-29T20:31:53.116Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-29T20:31:57.714Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 v1803, Discord Application
+
+Thundy#2018 - Bug Bot on 2018-06-07T06:34:35.225Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b0c6ea74ce45a93d7577c07/dce4bc0c86ffb33c51a12dcaa0681088/LJ7hoPg.gif added by Bug Bot on 2018-07-14T07:43:32.911Z
+
+
+### It also happens with Canary but only with full clickable invite links
+
+Pascal#0929 - Bug Bot on 2018-07-22T11:43:16.178Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:22.180Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

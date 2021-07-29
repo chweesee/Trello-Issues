@@ -1,0 +1,56 @@
+Streaming a Game before Overlay starts will still prompt you with "What to Stream GAME to your friends in SERVER" (https://trello.com/c/uo9WLLAn)
+
+None
+
+Created: 2019-07-20T03:13:46.837Z
+Latest Update: 2020-04-04T16:18:20.014Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Join a Voice channel with Go Live 
+- Open a Game with Go Live 
+- Start Streaming that game before Overlay is ready 
+- Notice the Start-up notification. 
+- (NOTE: If you fail to get Go Live controls within the Voice widget then try reproducing this until you get it.)
+
+####Expected result:
+The Start up notification shows how to open Overlay like before
+####Actual result:
+The Start up notification still shows the "What to Stream GAME to your friends in SERVER" even though you are already live
+####Client settings:
+Canary 41229
+####System settings:
+Win10 64x (1809)
+
+39792
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-20T03:13:46.837Z
+
+
+### Can reproduce.
+can repro,  canary 41300, win 10
+
+IcyPebbles#5833 - Bug Bot on 2019-07-20T03:13:54.473Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.247 Build 41485
+
+Daffyduck#5364 - Bug Bot on 2019-07-20T03:13:59.442Z
+
+
+### Can reproduce.
+windwos 10 x64, Canary 41544
+
+OrangeM24#5746 - Bug Bot on 2019-07-20T03:14:04.444Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

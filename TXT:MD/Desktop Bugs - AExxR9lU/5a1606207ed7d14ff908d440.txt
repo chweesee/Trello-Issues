@@ -1,0 +1,54 @@
+[Archived] Discord doesn't take controller activity into account for AFK (https://trello.com/c/0AxssX0U)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-11-22T23:20:00.292Z
+Latest Update: 2019-08-03T13:52:25.283Z
+
+Reported by tgp1994#1690
+
+####Steps to reproduce:
+- Play a game with a DXInput controler (e.g a Wired XBox 360 Controller) 
+- eventually get moved to the AFK channel
+
+####Expected result:
+Discord properly recognizes that the user is present
+####Actual result:
+Discord thinks I'm AFK, and moves me to the specified channel
+####Client settings:
+Release Channel: ptb, Build Number: 7441, Version Hash: b10f6907b1bd17e7668f1e0f36b2c3788e8a4fe9
+####System settings:
+Windows 10 Pro Version 1703
+
+6447
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T23:20:00.292Z
+
+
+### Can reproduce.
+Reproduced using an xbox one controller with the wireless adapter.
+
+Dabbit Prime#0896 - Bug Bot on 2017-11-22T23:20:07.989Z
+
+
+### Can reproduce.
+Windows 10 Pro, 64-bit, Fall Creators Update, Canary 0.0.170, reproduced using wired Xbox 360 controller
+
+sladewatkins#2439 - Bug Bot on 2017-11-24T01:40:32.021Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-28T19:54:33.143Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:02.649Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

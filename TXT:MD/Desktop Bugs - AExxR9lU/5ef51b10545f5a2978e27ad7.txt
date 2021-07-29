@@ -1,0 +1,63 @@
+The client will hit up the avatar of a speaking user in a dm voice call as a gif regardless of whether or not they have a gif avatar. (https://trello.com/c/QEC3FLz8)
+
+None
+
+Created: 2020-06-25T21:45:52.300Z
+Latest Update: 2020-07-16T21:26:06.390Z
+
+Reported by JohnyTheCarrot#0001
+
+####Steps to reproduce:
+- join a private dm call 
+- have a non moving avatar 
+- talk
+
+####Expected result:
+it should not request a gif avatar if the user does not have one
+####Actual result:
+it does request a gif avatar even if the user doesn't have one
+####Client settings:
+Canary 62269 (21e66e2)
+####System settings:
+Linux 64-Bit (5.4.0-7634-Generic)
+
+58132
+
+Card Log
+========
+### Added by Bug Bot on 2020-06-25T21:45:52.300Z
+
+
+### Can reproduce.
+MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 62269 ~ Host 0.0.250
+
+Jiralite#1207 - Bug Bot on 2020-06-25T21:45:59.973Z
+
+
+### Fenix#1111 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ef51b10545f5a2978e27ad7/84244e358fee7d9949960518e33a48c2/vuyLh27.gif added by Bug Bot on 2020-06-25T21:46:00.505Z
+
+
+### Can reproduce.
+Discord Canary 62269, OS X 10.15.5, MacBook Air
+
+Farkas#0001 - Bug Bot on 2020-06-25T21:46:04.984Z
+
+
+### Can reproduce.
+CR, Dell E6530, Linux 64-bit (5.6.16-1), Discord Canary 62269
+
+Fenix#1111 - Bug Bot on 2020-06-25T21:46:09.997Z
+
+
+### Can reproduce.
+Windows 7 Ultimate, Discord Canary 62269
+
+away from discord#0001 - Bug Bot on 2020-06-25T21:56:33.944Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

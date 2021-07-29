@@ -1,0 +1,73 @@
+[Archived] Ending a DM call (or being automatically disconnected for AFKing) when friend doesn't answer sometimes restarts the client (with Experimental audio subsystem) (https://trello.com/c/zPlvn6BH)
+
+None
+
+Created: 2018-06-07T16:20:09.295Z
+Latest Update: 2018-08-21T23:25:52.953Z
+
+Reported by Newe#6184
+
+####Steps to reproduce:
+- Call a friend 
+- Leave the call or get automatically disconnected
+
+####Expected result:
+Call ends cleanly
+####Actual result:
+Client can restart
+####Client settings:
+Discord Canary 16581
+####System settings:
+Win 10 Pro x64
+
+13887
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-07T16:20:09.295Z
+
+
+### Can reproduce.
+[CR] Needs quite a lot of tries.  Windows 10 x64 (1709), Discord Canary 16581
+
+54D [Hibernation]#1357 - Bug Bot on 2018-06-07T16:20:17.171Z
+
+
+### Can reproduce.
+[A lot of tries are needed] Windows 10 Education, Version 1703, MacBook Air 2017 (Using Bootcamp, not VM), Discord Canary 16581
+
+KingMarine#5676 - Bug Bot on 2018-06-07T16:20:22.171Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 x64 1803 (17134), Discord Canary with Build number 16581. Tried connecting and disconnecting from same voice channel a few times makes client restarts (it's either once, few times, or a lot of times).
+
+Frances Picard#6209 - Bug Bot on 2018-06-07T16:20:27.167Z
+
+
+### Moved from User Reported Bugs to Voice Module Bugs by Tim on 2018-06-07T16:59:30.728Z
+
+
+### This also happens when disconnecting before the connection strength bars have loaded/lit up.
+
+Ghostly#1337 - Bug Bot on 2018-06-10T05:46:24.965Z
+
+
+### This was fixed about a month ago.  Sorry that it was stuck in this column so long, my bad! - Ben Morse on 2018-07-17T23:21:21.442Z
+
+
+### Moved from Voice Module Bugs to Claimed Fixed, needs Verification by Ben Morse on 2018-07-17T23:21:43.859Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:25:52.179Z
+
+
+### Archived by Jared on 2018-08-21T23:25:52.954Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

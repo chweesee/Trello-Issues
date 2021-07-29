@@ -1,0 +1,97 @@
+[Archived] Getting the permission to send a message removed while you're typing will forever freeze the typebox of that channel until you have the permission back. (https://trello.com/c/gbRXnnMm)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-08T09:45:42.014Z
+Latest Update: 2019-05-08T18:21:12.623Z
+
+Reported by JohnyTheCarrot#0368
+
+####Steps to reproduce:
+- Get 2 accounts. 1st one to revoke talk perms,  can be any platform. The second to talk, iOS for this one.  
+- Use the second account to type (NOT POST, JUST TYPE) in a channel.  
+- Get account 1 to revoke talk perms of account 2. 
+- Notice how on the second account, on iOS, the text you typed cannot be removed,  even after reboot it will still be there.
+
+####Expected result:
+(account 2) Text in typebox is removed.
+####Actual result:
+Text will forever stay there until account 2 gets their perms back to remove the text in it. Even after reboot this text remains.
+####Client settings:
+TestFlight 2.2.0 (build 2080)
+####System settings:
+iPhone 6, iOS 11.1.2
+
+7686
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-08T09:45:42.014Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 11.1.2, TestFlight 2.2.0 (2080)
+
+JustGamer#2542 - Bug Bot on 2018-01-08T09:45:49.305Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.1 & iPad Air 2, iOS 11.2.5 Public Beta 3, TestFlight 2.2.0 (2080)
+
+Pascal#0929 - Bug Bot on 2018-01-08T09:45:54.298Z
+
+
+### Can reproduce.
+CR iPhone 8 +, iOS 11.2.5 (PB3), Discord TestFlight 2.2.0 (2080)
+
+Ghoul#4567 - Bug Bot on 2018-01-08T09:45:59.312Z
+
+
+### Can reproduce.
+CR iPad Air iOS 11.2.5 PB3 Testflight 2.2.0 (2080)
+
+boomt#3214 - Bug Bot on 2018-01-08T09:57:24.623Z
+
+
+### Seems like an extension of https://trello.com/c/Sidn8Fjv
+
+Ene#3002 - Bug Bot on 2018-01-09T10:43:27.281Z
+
+
+### Verified - Clayton on 2018-01-19T03:11:09.263Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-19T03:11:13.866Z
+
+
+### 54D#1357 - https://youtu.be/4Zi7P3qnHyQ added by Bug Bot on 2018-07-15T12:30:44.605Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:23.564Z
+
+
+### Can reproduce.
+This also happens with images if you lose your perms to send messages/upload files while selecting an image - TestFlight 2.3.8 (7347) iPhone 6s iOS 12.1 Dev Beta
+
+Rashaun#9295 - Bug Bot on 2018-09-20T19:03:50.031Z
+
+
+### Unarchived by Clayton on 2018-09-20T19:30:04.492Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12, Testflight 2.3.8 (7416)
+
+Pyros#2326 - Bug Bot on 2018-09-26T01:54:53.161Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:07.246Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

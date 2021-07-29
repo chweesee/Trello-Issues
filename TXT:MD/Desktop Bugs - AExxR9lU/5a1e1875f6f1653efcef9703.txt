@@ -1,0 +1,110 @@
+[Archived] Toggle button animation is broken in Notification Settings. (https://trello.com/c/D7Vy3iYI)
+
+P3: Will get fixed eventually
+
+Created: 2017-11-29T02:16:21.714Z
+Latest Update: 2018-07-06T17:59:53.463Z
+
+Reported by mcmacker4#5958
+
+####Steps to reproduce:
+- In any server open Notification Settings 
+- Try changing any of the "toggle" settings 
+- (Note that the underlying setting does change but you have to close and reopen the modal for the changes to appear)
+
+####Expected result:
+The toggle button slides to the opposite side.
+####Actual result:
+The toggle button tries sliding but goes back to its original position.
+####Client settings:
+Desktop Canary build 7711
+####System settings:
+Windows 10 x64
+
+6693
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-29T02:16:21.714Z
+
+
+### Can reproduce.
+CR, macOS High Sierra with Canary 7711 on Chrome Browser
+
+TBNRShadowPlayz#1468 - Bug Bot on 2017-11-29T02:16:29.223Z
+
+
+### Can reproduce.
+CR, macOS Sierra 10.12.1 with Desktop Canary build # 7711
+
+JustGamer#2542 - Bug Bot on 2017-11-29T02:16:34.232Z
+
+
+### Can reproduce.
+CR MacBook Pro 2017 13-inch, macOS High Sierra 10.13
+
+JBYoshi#5551 - Bug Bot on 2017-11-29T02:16:39.226Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.180 (Build 7750) on Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-11-29T14:21:08.459Z
+
+
+### Verified.  - Clayton on 2017-11-29T21:19:19.697Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-29T21:19:25.846Z
+
+
+### Can reproduce.
+Windows 7 Home Premium x64; Discord Canary v0.0.180, build 7814 / Only toggles to the opposite setting. E.g. clicking the mute slider any number of times presents the result of muting [twice should mute, then unmute]).
+
+dross#1913 - Bug Bot on 2017-11-30T04:13:51.092Z
+
+
+### Can reproduce.
+Alienware M17 R4, Windows 10 Home x64 1703, Canary 7557
+
+YouSoShady#9007 - Bug Bot on 2017-11-30T15:09:35.017Z
+
+
+### I can no longer reproduce, the toggle slides to the opposite side. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T12:30:36.538Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-28T12:30:40.701Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 10018
+
+mrkirby153#7840 - Bug Bot on 2018-01-28T22:06:21.337Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.185 (Build: 10018)
+
+Pascal#0929 - Bug Bot on 2018-01-28T22:46:00.076Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-05-03T00:23:54.032Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-05-03T00:23:59.870Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:59:52.367Z
+
+
+### Archived by Jared on 2018-07-06T17:59:53.466Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

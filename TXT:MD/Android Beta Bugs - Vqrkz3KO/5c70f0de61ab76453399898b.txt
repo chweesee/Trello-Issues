@@ -1,0 +1,142 @@
+[Archived] Uploading a PNG emoji will save a copy of it with a JPG extension in your phone storage, even though it's actually a png (https://trello.com/c/B3Gmu2TF)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2019-02-23T07:06:06.379Z
+Latest Update: 2019-06-10T20:43:09.704Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Server Settings > Emoji 
+- Upload emoji 
+- Select a PNG image (preferably with a transparent background for more evidence) 
+- Once the emoji has been uploaded, close Discord and go to your file explorer 
+- Navigate to `[Local Storage]/Pictures/Discord/` 
+- Find the emoji you just uploaded
+
+####Expected result:
+It should have a PNG extension
+####Actual result:
+The file has a JPG extension, even though it's actually a PNG as you can notice it does have the transparent background, which is impossible for an actual JPG image.
+####Client settings:
+Discord Alpha 8.5.0
+####System settings:
+Huawei Mate 9 Android 8.0
+
+29576
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-23T07:06:06.379Z
+
+
+### Can reproduce.
+CR Samsung Galaxy Note 9, 128GB Snapdragon
+
+Kyle B.#0007 - Bug Bot on 2019-02-23T07:06:13.902Z
+
+
+### Can reproduce.
+Can repro Alpha 850, Samsung Galaxy A6+, Android 8.0.0
+
+Niel#3558 - Bug Bot on 2019-02-23T07:06:18.898Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H (MIUI 10.1 Stable), Discord Alpha 8.5.0
+
+Defracted#1337 - Bug Bot on 2019-02-23T07:06:23.925Z
+
+
+### Can reproduce.
+Samsung S8, Android 8.0, 8.5.0
+
+Mr. Proper#2394 - Bug Bot on 2019-02-23T08:07:53.612Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.5.0
+
+nescix#5152 - Bug Bot on 2019-02-23T08:46:13.281Z
+
+
+### Can reproduce.
+Pocophone F1, Android 9 with MIUI 10.2, Alpha 8.5.0
+
+dafaqed#1312 - Bug Bot on 2019-02-23T11:39:02.085Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 9 (Pie),Discord Alpha 8.5.0
+
+Octillion#6666 - Bug Bot on 2019-02-23T12:08:30.949Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.0
+
+Skyla#7948 - Bug Bot on 2019-02-23T15:23:46.920Z
+
+
+### Can reproduce.
+Can reproduce. Discord Alpha 8.5.0 / Xiaomi Mi3W / Android 7.1.2 / LineageOS
+
+Hawlucha#2061 - Bug Bot on 2019-02-23T16:53:08.177Z
+
+
+### Can reproduce.
+cr. Alpha 8.5.0 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-02-23T17:55:26.758Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8 Android 8, Alpha 8.5.0
+
+Action Potential#2494 - Bug Bot on 2019-02-24T03:44:55.917Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-27T00:14:16.653Z
+
+
+### Moved from Verified Bugs to Emoji Bugs by Clayton on 2019-02-27T00:57:05.529Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.5.1
+
+Lily#2624 - Bug Bot on 2019-02-27T12:12:36.952Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.5.4
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-03-02T20:41:09.582Z
+
+
+### Moved from Emoji Bugs to Verified Bugs by Jeff Cailteux on 2019-03-18T15:49:25.816Z
+
+
+### Archived by Bug Bot on 2019-04-17T16:00:03.475Z
+
+
+### Can reproduce.
+can still reproduce Kyocera Hydro Wave Android 5.1 discord 888
+
+Okori#0902 - Bug Bot on 2019-05-01T03:30:35.422Z
+
+
+### Unarchived by Bug Bot on 2019-05-01T04:00:05.723Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:09.717Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

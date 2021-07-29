@@ -1,0 +1,31 @@
+Stream settings maintain quality and FPS settings from localstorage even if the user does not have Nitro (https://trello.com/c/Y593Enoj)
+
+None
+
+Created: 2019-06-14T01:07:07.708Z
+Latest Update: 2019-06-17T22:03:58.117Z
+
+**Steps to reproduce:**
+- Have an account with Nitro and an account without Nitro
+- Start a stream on the account with Nitro and go to stream settings and select source.
+- Sign out and start a stream on the account without Nitro on the same client.
+- Open stream settings.
+**Expected Results:** As the account does not have Nitro, it should not show the Nitro settings being used.
+**Actual Results:** It shows the Nitro settings being used and the Nitro text is invisible.
+**System Settings:** Windows 10 Pro x64 v1903 18912.1001  
+**Client Settings:** Canary 39690 
+
+Card Log
+========
+### Added by webhp on 2019-06-14T01:07:07.708Z
+
+
+### qIiJnka.png - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5d02f33b9d4ded7a302e0e3a/bbfa3496dd60bc20bd00898737a51ca3/qIiJnka.png added by webhp on 2019-06-14T01:10:13.283Z
+
+List
+====
+Bug Reports from Testers!
+
+Members
+=======
+None

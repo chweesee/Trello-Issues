@@ -1,0 +1,95 @@
+Buttons do not adjust to String-lengths of non-English languages (https://trello.com/c/fmo2vvgn)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-26T19:39:26.746Z
+Latest Update: 2018-11-07T04:49:17.685Z
+
+Reported by Aeria#9096
+
+####Steps to reproduce:
+- Set your language to German 
+- Rightclick a server and click on the blurple "Invite People" button ("Leute einladen" is the currently used String) 
+- Observe
+
+####Expected result:
+The buttons adjust to the actual String-length, so that it is fully readable
+####Actual result:
+The "Invite" and "Copy" button are cut off and continued by a "...", making it hard to understand what the buttons mean
+####Client settings:
+Discord Canary 26991
+####System settings:
+Windows 10 Pro x64
+
+22174
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-26T19:39:26.746Z
+
+
+### Aeria#9096 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bd36d6ee0c99c35793dc069/5a51354dbea3986c0825c2696d7bed89/f0f563.png added by Bug Bot on 2018-10-26T19:39:29.506Z
+
+
+### Can reproduce.
+Canary 26991 - Windows 10, 1803
+
+Logiz#0001 - Bug Bot on 2018-10-26T19:39:34.434Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26991
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-26T19:39:39.656Z
+
+
+### Can reproduce.
+can reproduce Win 10 Home x64, Canary 26991
+
+Hornet#1050 - Bug Bot on 2018-10-26T19:39:44.409Z
+
+
+### Moved from User Reported Bugs to Visual and Functional Language bugs by Sam on 2018-10-26T19:41:24.937Z
+
+
+### The same Copy button is also displayed when you try to invite friends to a group DM
+This works - and was tested - in these languages:
+Hrvatski (only Invite), Lithuanian, Hungarian, Dutch (only Copy), Polish (only Invite), Brazilian (only Invite), Romanian (only Copy), Swedish, Turkish, Czech (only Copy), Greek, Bulgarian (only Copy), Russian, Ukranian and Korean (only Invite)
+
+Aeria#9096 - Bug Bot on 2018-10-26T19:54:58.110Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 27040
+
+Hole#0001 - Bug Bot on 2018-10-27T07:04:04.161Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 27040
+
+Neiron#7777 - Bug Bot on 2018-10-27T20:30:02.358Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 27040
+
+Frances Picard#6209 - Bug Bot on 2018-10-28T15:49:29.093Z
+
+
+### Can reproduce.
+Win 10 Home, Discord Stable 27050
+
+Classic#9999 - Bug Bot on 2018-10-28T15:53:34.414Z
+
+
+### verified, macos 10.12.6, canary 27065 - Clayton on 2018-11-07T04:49:11.121Z
+
+List
+====
+Visual and Functional Language Issues
+
+Members
+=======
+None

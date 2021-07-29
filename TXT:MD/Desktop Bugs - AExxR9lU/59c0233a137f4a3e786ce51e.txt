@@ -1,0 +1,75 @@
+[Archived] The list of players connected to a voice channel gets duped. (https://trello.com/c/oDSQ85Lp)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-18T19:49:14.327Z
+Latest Update: 2018-07-06T17:57:54.307Z
+
+Reported by StriderOfTheWest#3820
+
+####Steps to reproduce:
+- Join a voice channel 
+- hide the names using the key combo (ctrl+shift+a) 
+- quit the channel
+
+####Expected result:
+There should be only one list
+####Actual result:
+After quitting, there are two lists of clients without names
+####Client settings:
+Canary Build 4361
+####System settings:
+Win 10 x64
+
+4497
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-18T19:49:14.327Z
+
+
+### Chrees#4389 - https://i.imgur.com/hIpHyz4.gifv added by Bug Bot on 2017-09-18T19:49:16.715Z
+
+
+### Can reproduce.
+Windows 10 Home Edition x64 Canary Build 4361, CR.
+
+Striker#7250 - Bug Bot on 2017-09-18T19:49:21.693Z
+
+
+### Can reproduce.
+Number of text/voice channels is irrelevant, but it only happens in voice channels that are NOT under a category. MUST use keyboard shortcut to hide names as well. Windows 10 Pro x64 Creators Update, Discord Canary (4361)
+
+Chrees#4389 - Bug Bot on 2017-09-18T19:49:26.710Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.24, Ubuntu 17.04
+
+Anorak#5830 - Bug Bot on 2017-09-18T19:49:31.713Z
+
+
+### Verified.  - Clayton on 2017-09-19T02:00:46.895Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T02:01:03.578Z
+
+
+### Verified Fixed - Jared on 2018-03-21T17:29:24.664Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T17:29:29.994Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:57:52.793Z
+
+
+### Archived by Jared on 2018-07-06T17:57:54.310Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

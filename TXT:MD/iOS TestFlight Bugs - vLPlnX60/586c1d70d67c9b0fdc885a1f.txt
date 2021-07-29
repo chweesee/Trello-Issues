@@ -1,0 +1,92 @@
+[Archived] URLs with characters not present in the latin alphabet (or accented characters) crash the in-app browser (https://trello.com/c/NBWKjwBf)
+
+P2 - Can wait a while
+
+Created: 2017-01-03T21:53:52.419Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by dinos#0649
+
+####Steps to reproduce: 
+- Find a link that contains non-latin alphabet characters (this does not include accented latin characters)
+- Send the link in a message 
+- Make sure you've set the in-app browser as your selected browser in settings 
+- Tap on the link ( e.g.: http://www.uom.gr/orologia/informatics/ΤΕΠ-ΠΠΣ-ΩΠΔ-ΧΕ1617-8.pdf ) 
+
+####Expected result:
+ The website opens normally 
+####Actual result:
+ The entire app crashes.
+
+Card Log
+========
+### Added by Jared on 2017-01-03T21:53:52.419Z
+
+
+### Can reproduce.
+iphone 6 latest app/ios
+
+harrison#6336 - Jared on 2017-01-03T21:53:53.358Z
+
+
+### Can reproduce.
+iOS 10.2.1 Developer Beta, iPhone 6s
+
+Dru#8209 - Jared on 2017-01-03T21:53:53.992Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.1.1 Discord 1.8.1
+
+Relative#2600 - Jared on 2017-01-03T21:56:02.664Z
+
+
+### Can reproduce.
+iPhone 6s iOS 10.1.1 Discord 1.8.1
+
+Dragon5232#1841 - Jared on 2017-01-03T21:57:51.074Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T23:34:36.966Z
+
+
+### Verified. - Jared on 2017-01-03T23:34:48.385Z
+
+
+### http://☃.net/ seems to crash it as well
+
+dinos#0649 - Jared on 2017-01-04T22:04:58.242Z
+
+
+### Can reproduce.
+iOS 10.3 Beta 1 Discord. This bug also occurs in the app and web browser.
+
+Andrew#7823 - Jared on 2017-02-04T00:41:27.549Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Fanghao on 2017-10-24T23:25:56.032Z
+
+
+### I can no longer reproduce, the app opens the provided link just fine.
+
+Discord 1.9.3, iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-25T15:55:08.752Z
+
+
+### Verified Fixed - Jared on 2017-10-25T19:27:58.284Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-10-25T19:28:01.499Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:30:14.409Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:30:15.363Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

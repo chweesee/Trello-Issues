@@ -1,0 +1,180 @@
+[Archived] When Undoing (CTRL Z) a Paste of large text, Discord will sometimes crash (https://trello.com/c/83M606Dt)
+
+None
+
+Created: 2019-05-29T03:36:53.220Z
+Latest Update: 2019-09-01T19:14:24.031Z
+
+Reported by Kaspyre#1841
+
+####Steps to reproduce:
+- 1) Paste a block of text (possibly multiple times) 
+- 2) CTRL-Z with the pasted block of text Will only occur sometimes, though does happen after rapid successions of CTRL V, CTRL Z
+
+####Expected result:
+The text pasted should be undid, and Discord stay running.
+####Actual result:
+Discord will crash and restart. (Discord closes, then reopens on Default monitor)
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 38594, Version Hash: 7976f88a87902aec1c900cbf24488e0e7be79eea
+####System settings:
+Windows 10 Pro V 1809 (Build 17763.503)
+
+35579
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-29T03:36:53.220Z
+
+
+### Can reproduce.
+Verified Crashing when CTRL+Z to large block of text on canary, Build Number: 38474 - Windows 10 Pro Ver. 1803 build 17134.765
+
+Valcrye#0001 - Bug Bot on 2019-05-29T03:37:00.535Z
+
+
+### Can reproduce.
+CR, and signed me out of Discord. Windows 10 Pro x64 Version 1809, Build Number: 38674 (Canary)
+
+Jason 🖤#0001 - Bug Bot on 2019-05-29T03:37:05.615Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (Version 1803 Build 17134.765) | Discord Build 38594
+ADDITIONAL NOTES:
+File discord.exe(cutable) crashed on my system and also crashes Chrome as well.
+
+gigitac#0389 - Bug Bot on 2019-05-29T03:37:10.566Z
+
+
+### Can't reproduce.
+MacBook Air - MacOS (10.12.6 Sierra), Canary build 38674
+
+myacorn#6534 - Bug Bot on 2019-05-29T04:28:40.347Z
+
+
+### Can't reproduce.
+Windows 10 home (Build 17763) | Discord stable V0.0.305 | Discord Canary V0.0.238
+
+Mennoplays#0645 - Bug Bot on 2019-05-29T07:00:41.953Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 38694
+
+AHkhan#0002 - Bug Bot on 2019-05-29T07:47:15.400Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 38674
+
+Isabel#0002 - Bug Bot on 2019-05-29T09:06:19.017Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 38674
+
+AHkhan#0002 - Bug Bot on 2019-05-29T09:08:00.147Z
+
+
+### Can't reproduce.
+Ubuntu 18.04.2 LTS, GNOME 3.28.2, [BUILD INFO] Release Channel: stable, Build Number: 38594, Version Hash: 7976f88a87902aec1c900cbf24488e0e7be79eea
+
+ShawnCZek#7777 - Bug Bot on 2019-05-29T10:28:14.653Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 38674 host 0.0.238
+
+Jean20B#4287 - Bug Bot on 2019-05-29T13:07:33.056Z
+
+
+### Can't reproduce.
+Windows 10 64 bit, stable, build number 38556,
+
+Strife#1727 - Bug Bot on 2019-05-29T14:41:48.490Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38674
+
+Xylium#5800 - Bug Bot on 2019-05-29T16:29:09.783Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 38674
+
+OrangeM24#5746 - Bug Bot on 2019-05-29T16:29:54.739Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Version 1903 Build 18362.30, Canary 38674
+
+Noxillio#0001 - Bug Bot on 2019-05-29T17:20:07.849Z
+
+
+### Can't reproduce.
+Canary 38674, Windows 10 Home x64 Build: 17134
+
+Fyffey#0001 - Bug Bot on 2019-05-29T23:41:47.400Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.238 Build 38751 - Have a block of text that is more then 2k characters copied onto your clipboard, paste it a few times in Discord, then begin to  CTRL + Z one at a time. Discord will crash and may log you out of your session.
+
+Daffyduck#5364 - Bug Bot on 2019-05-30T00:18:35.237Z
+
+
+### Can't reproduce.
+Manjaro Linux Unstable, Xfce 4.13 Canary 38751
+
+chaNcharge#6081 - Bug Bot on 2019-05-30T02:27:03.636Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 38751
+
+Lily#2624 - Bug Bot on 2019-05-30T14:28:05.957Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38815 (Host 0.0.238)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-31T00:10:16.626Z
+
+
+### Can't reproduce.
+canary, Build Number: 38863, Version Hash: 102a86591e7dd2db23854f15a97f4ca6e1fa48d5 windows 10 home 64 bit version 1803
+
+thetechguy#6929 - Bug Bot on 2019-05-31T10:06:03.291Z
+
+
+### Can reproduce.
+Canary: 38950, Host 0.0.238, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-06-02T13:44:16.654Z
+
+
+### Cannot reproduce on Canary 39914, Windows 10 Home 64-bit (v1903).
+
+Moving to Cannot Reproduce. - Ene on 2019-06-18T03:35:31.077Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Ene on 2019-06-18T03:35:34.454Z
+
+
+### Archived by Bug Bot on 2019-07-18T04:00:47.505Z
+
+
+### Can reproduce.
+windows 10 home latest. desktop stable 44905 Text block must bee 100+characters pasted mutiple times totaling over 3000 characters
+
+Fidgetice#5615 - Bug Bot on 2019-09-01T19:14:24.043Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

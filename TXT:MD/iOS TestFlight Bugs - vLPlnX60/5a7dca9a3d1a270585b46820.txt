@@ -1,0 +1,178 @@
+Discord crashes when quickly closing out of channels in server settings (https://trello.com/c/jJikz0Di)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2018-02-09T16:21:46.766Z
+Latest Update: 2020-03-13T13:42:22.971Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to any server where you have manage channels permission 
+- Open the server settings 
+- Open the section `Channels` 
+- Hit the close/back button as fast as you can 
+- Try it multiple times with different servers when you can't reproduce it with the first try
+
+####Expected result:
+Server settings should close.
+####Actual result:
+Discord crashes.
+####Client settings:
+TestFlight 2.2.2 (2352)
+####System settings:
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 2
+
+8629
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-09T16:21:46.766Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.2 (2352)
+
+HeroGamers#0001 - Bug Bot on 2018-02-09T16:21:54.074Z
+
+
+### Can reproduce.
+CR, iPhone 7 iOS 11.2.5, Discord TestFlight 2.2.2 Build 2352
+
+MLG Golden#0001 - Bug Bot on 2018-02-09T16:21:59.086Z
+
+
+### Can reproduce.
+iPhone 8 + , iOS 11.3 (PB2) with Discord TestFlight 2.2.2 (2352) . Took several tries.
+
+Ghoul#0009 - Bug Bot on 2018-02-09T16:22:04.141Z
+
+
+### I'm confident this is a dupe but I can't find the ticket. - Jared on 2018-02-09T21:26:04.379Z
+
+
+### Dupe of https://trello.com/c/caPXDR6h, but since the other one is archived, I'm OK with leaving this as is, for now. - Jared on 2018-02-13T21:25:18.696Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-13T21:25:24.587Z
+
+
+### I cannot reproduce this bug as of Discord TestFlight 2.3.4 (5560 and 5589), the application no longer crashes and I have tried it multiple times on iPhone 8 + running iOS 12 (Dev Beta 2).
+
+Because I am not able to reproduce anymore, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-07-03T02:02:27.975Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T02:02:36.249Z
+
+
+### **Extension to this issue**
+It also happens with the security tab with the same steps. The only difference is that you see a new crash screen.
+
+Pascal#0929 - Bug Bot on 2018-07-28T19:56:36.391Z
+
+
+### I can reproduce this ticket, along with the extension that Pascal has mentioned. If you try the original reproduction steps, you will just crash instantly without any crash screens. However, if you do it from security settings, you will see the crash screen.
+
+Used iPhone 8 + running iOS 12, Dev Beta 8 with iOS TestFlight 2.3.7 (6823). I am moving it to reopened. - Ghoul on 2018-08-18T16:29:49.731Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Ghoul on 2018-08-18T16:29:55.703Z
+
+
+### Can reproduce.
+iPhone 6, IOS 12.0.1
+
+MrRaKaN#0975 - Bug Bot on 2018-11-09T09:32:49.423Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1.4 - TestFlight 2.5.2 (13014)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-04-04T06:43:55.584Z
+
+
+### Can reproduce.
+Can reproduce with channels and security settings iPhone 7 Plus, iOS 13 Dev Beta 4, Discord Stable Release 3.0.7
+
+Jeffrey#1234 - Bug Bot on 2019-07-22T20:54:06.928Z
+
+
+### When doing this with channels I got a full app crash, while doing this with security I got a in app crash
+
+Jeffrey#1234 - Bug Bot on 2019-07-22T20:55:04.191Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.4 TestFlight 3.1.1 (16961)
+
+binchlord#0998 - Bug Bot on 2019-08-30T13:34:33.100Z
+
+
+### Can reproduce.
+iPhone 8+ , iOS 13.1.2 , discord version 3.1.5
+
+lotan#8739 - Bug Bot on 2019-10-27T19:24:17.178Z
+
+
+### Can reproduce.
+Iphone 6+, ios 12.4.1. testflight 3.1.6 (18021)
+
+kitten#6957 - Bug Bot on 2019-11-03T02:45:25.974Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.3.1, TestFlight 3.2.0 (19073) - This issue seems to happen in Security but only when 2FA is enabled.
+
+.Gloria.#9606 - Bug Bot on 2020-02-18T01:29:56.270Z
+
+
+### Cannot reproduce anymore.
+iPhone SE, iOS 13.3.1 - TestFlight 3.2.1 (19209)
+Moving to Claimed Fixed. - Daffyduck on 2020-02-29T03:13:31.761Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Daffyduck on 2020-02-29T03:13:44.690Z
+
+
+### Can't reproduce.
+iPhone 7: iOS 13.3.1; TestFlight 3.2.1 (19209) & iPad 7: iPadOS 13.3.1; TestFlight 3.2.1 (19209)
+
+Jiralite#1207 - Bug Bot on 2020-02-29T03:14:56.588Z
+
+
+### Can't reproduce.
+iPhone X - iOS 13.3.1 - TestFlight 3.2.1 (19209)
+
+jere#0010 - Bug Bot on 2020-02-29T03:15:00.331Z
+
+
+### Can't reproduce.
+iPhone 11, iOS 13.3.1, Testflight 3.2.1 (19209)
+
+Tricky#0001 - Bug Bot on 2020-02-29T03:15:17.112Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2020-02-29T03:15:17.468Z
+
+
+### Original issue seems to be fixed, however i can still reproduce this when closing out the Security page in server settings when you have 2FA enabled on your account. iPhone SE running iOS 13.3.1 - TestFlight 13.0 (19259).
+
+Moving this to reopened! - Daffyduck on 2020-03-13T13:29:15.431Z
+
+
+### Moved from Verified Fixed to Reopened by Daffyduck on 2020-03-13T13:29:22.380Z
+
+
+### Can reproduce.
+Can reproduce with the steps listed from Daffyduck below. iPhone 7: iOS 13.3.1; TestFlight 13.0 (19259) & iPad 7: iPadOS 13.3.1; TestFlight 13.0 (19259)
+
+Jiralite#1207 - Bug Bot on 2020-03-13T13:42:22.985Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

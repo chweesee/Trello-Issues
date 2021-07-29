@@ -1,0 +1,109 @@
+[Archived] Delete role modal shows empty description field (https://trello.com/c/qOdmdwGG)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-09-23T12:30:55.588Z
+Latest Update: 2019-11-03T20:30:05.318Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to server settings 
+- Open `Roles` 
+- Click on `Edit` 
+- Delete any role
+
+####Expected result:
+A description for the delete action should be shown in the modal dialog.
+####Actual result:
+Nothing is shown, you just see the buttons for `Yes` and `No`
+####Client settings:
+iOS Discord (Stable), 1.9.1
+####System settings:
+iPhone 6S & iPad Air 2, iOS 11.0
+
+4727
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-23T12:30:55.588Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59c653ff65a1d51530f52ac3/a04ca8853c9ce6d714368b2df9d71cbb/9aaGhic.jpg added by Bug Bot on 2017-09-23T12:30:58.239Z
+
+
+### Can reproduce.
+Testflight 1.9.1, iOS 11.0 (15A372), iPhone 6
+
+Ten#1723 - Bug Bot on 2017-09-23T12:31:03.036Z
+
+
+### Can reproduce.
+CNR, TF 1.9.1(665), iOS 10.3.3, iPhone 6. This sounds more like a spacing error, afaik you can't ass descriptions to roles(correct me if i'm wrong)
+
+Xur, Agent of The Nine#6761 - Bug Bot on 2017-09-23T12:31:08.024Z
+
+
+### Can reproduce.
+iPhone 7 IOS 11.0 - TestFlight 1.9.1
+
+Koen02#5408 - Bug Bot on 2017-09-23T12:31:13.110Z
+
+
+### Can reproduce.
+Discord: Latest test flight (1.9.1), IOS: 11 GM, Model iPad Pro 9.7
+
+nathanielcwm#3522 - Bug Bot on 2017-09-23T15:05:36.860Z
+
+
+### Can reproduce.
+iPhone 5S, iOS 11 GM, TF 1.9.1
+
+Lasse#4890 - Bug Bot on 2017-09-24T11:08:05.246Z
+
+
+### This also applies for the delete permission override modal dialog for channels: https://i.imgur.com/VmJcjrn.jpg
+
+Pascal#0929 - Bug Bot on 2017-09-25T20:21:55.579Z
+
+
+### Verified.  - Clayton on 2017-09-27T23:18:05.380Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-27T23:18:20.718Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:43.024Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1 Dev Beta 5 - TestFlight 2.4.0 (8921)
+
+Alfie#1582 - Bug Bot on 2018-11-06T20:17:57.807Z
+
+
+### Can reproduce.
+Can reproduce on iPhone XS Max running iOS 12.1, Dev Beta 2 with iOS TestFlight 2.4.0 (8921)
+
+Mr. Ghoul#1399 - Bug Bot on 2018-11-07T09:28:49.219Z
+
+
+### Can reproduce.
+TestFlight 3.1.4 (17524), iPhone XR, IOS 13.1.2
+
+SplashyFlame#0067 - Bug Bot on 2019-10-01T18:21:27.933Z
+
+
+### Unarchived by Bug Bot on 2019-10-01T18:30:07.463Z
+
+
+### Archived by Bug Bot on 2019-11-03T20:30:05.331Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

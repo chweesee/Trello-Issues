@@ -1,0 +1,73 @@
+[Archived] Server Muting via role application doesn't immediately server mute (https://trello.com/c/feWU5vNF)
+
+P2: Fix can wait a while
+
+Created: 2017-08-25T01:11:10.003Z
+Latest Update: 2017-12-02T17:10:36.631Z
+
+Reported by Tobiah#8452
+
+####Steps to reproduce:
+- Create a role that is disallowed from speaking (not just using VA) in a voice channel 
+- Have a user (someone without permissions that would already override the server mute setting) join that voice channel 
+- Apply role to user 
+- User speaks
+
+####Expected result:
+User's speech isn't transmitted
+####Actual result:
+User's speech is transmitted
+####Client settings:
+Desktop Canary, 0.0.163
+####System settings:
+Windows 10 Enterprise version 1703 build 15063.540
+
+3546
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-25T01:11:10.003Z
+
+
+### Can reproduce.
+Discord Desktop 0.0.298 on Win7 x64
+
+╳(͜͡𝓪𝓷𝓖 ⑆#5512 - Bug Bot on 2017-08-25T01:11:17.649Z
+
+
+### Can reproduce.
+Mac OSX 10.12, 0.0.154
+
+IcyPebbles#5833 - Bug Bot on 2017-08-25T01:11:22.488Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 0.0.163
+
+Azrael#6867 - Bug Bot on 2017-08-25T01:11:27.550Z
+
+
+### Verified.  - Clayton on 2017-08-25T01:40:53.464Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-25T01:41:03.861Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2017-10-17T18:33:47.839Z
+
+
+### Rules are only applied when you join a channel. Won't Fix. - Jared on 2017-10-17T18:33:59.259Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:10:35.702Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:10:36.632Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

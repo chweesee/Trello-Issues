@@ -1,0 +1,153 @@
+[Archived] Spotify track bar resets after exiting and entering dicord (https://trello.com/c/RcNw3ZRy)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-12-22T09:26:05.957Z
+Latest Update: 2019-06-05T23:46:46.739Z
+
+Reported by sloth_.on._tabasco#9015
+
+####Steps to reproduce:
+
+- Play a song on Spotify and wait for discord to detect it 
+- Exit discord a wait a few seconds 
+- Re enter discord
+
+####Expected result:
+The songs trackbar should not reset and should continue according to the song
+####Actual result:
+The track bar resets back to 0:00 making it seem like you're playing the song from the beginning
+####Client settings:
+Alpha 8.2.2
+####System settings:
+ASUS Zenfone max pro m1 Android 8.1.0
+
+24964
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-22T09:26:05.957Z
+
+
+### Can reproduce.
+CR: Mi A2, Android 9 - Android Alpha 8.2.2
+
+Bsian#5203 - Bug Bot on 2018-12-22T09:26:13.295Z
+
+
+### Can reproduce.
+CR; timer also resets if you switch to the Spotify app and switch back to Discord without changing your position in the song. Samsung Galaxy J3, Android 7.1.1, Alpha 8.2.2
+
+dorothyoka#9078 - Bug Bot on 2018-12-22T09:26:18.234Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, android 8.0 Discord Ver: 8.1.7
+
+Critiql#6666 - Bug Bot on 2018-12-22T09:26:23.231Z
+
+
+### Can reproduce.
+Moto E5, Pixel experience 9.0.0, Alpha: 8.2.2
+
+Aya#5374 - Bug Bot on 2018-12-22T11:56:36.051Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 8.2.2 - Clayton on 2018-12-22T11:57:47.477Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-22T11:57:54.609Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8,Android 8.0.0,Alpha 8.2.2
+
+Octillion#6666 - Bug Bot on 2018-12-22T14:25:47.375Z
+
+
+### Can reproduce.
+CR. Alpha 8.2.2 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#2019 - Bug Bot on 2018-12-22T18:44:28.942Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 version 8.1.0
+
+Steenkzzisback {Martijn}#0001 - Bug Bot on 2018-12-22T21:57:23.437Z
+
+
+### track bar resets after any opening any app, not exclusive to Spotify
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-24T06:22:02.757Z
+
+
+### track bar resets after opening any app, not exclusive to Spotify
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-24T08:19:28.361Z
+
+
+### Can reproduce.
+Can Repro: Google Pixel 3 XL (G013C), Android 9.0 (Build PQ1A.181205.006), Discord Alpha 8.2.2
+
+KazWolfe#2896 - Bug Bot on 2018-12-25T04:36:18.581Z
+
+
+### reproducibile by simply turning off the screen and waiting for a while as well
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-01T07:54:21.920Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-01-02T19:22:03.992Z
+
+
+### I can still reproduce as of Alpha 8.2.3 (823) (Samsung Galaxy J7 running Android 8.1) with new reproduction steps: -go to your own profile, -press the song title (not the "you played yourself" button), -go back to Discord, -observe the time the song has played.
+
+FoxyKero#6969 - Bug Bot on 2019-01-04T12:19:12.832Z
+
+
+### Can reproduce.
+Google Pixel 2 XL // Android 9.0.0 // December 5th Patch // Android Alpha Version 8.2.4
+
+aditya#1337 - Bug Bot on 2019-01-09T21:32:28.180Z
+
+
+### Can reproduce.
+Google Pixel 2 XL // Android 9.0.0 // December 5th Patch // Android Alpha Version 8.2.4
+
+aditya#1337 - Bug Bot on 2019-01-09T21:38:09.106Z
+
+
+### Can reproduce.
+OnePlus 5T w/ Android 9.0 w/ Discord Alpha 8.2.5
+
+rubisco#4310 - Bug Bot on 2019-01-09T21:38:42.865Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-12T09:12:31.959Z
+
+
+### can reproduce with alpha 8.2.7, the problem seems to be local only, if you check the timing on another device, you see the correct progress, but if you do the steps and check the progress on android, you see the incorrect (restarted) one
+
+moving to re-opened - Tim on 2019-01-12T10:32:24.942Z
+
+
+### Moved from Fixed Bugs to Reopened by Tim on 2019-01-12T10:32:32.415Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Clayton on 2019-01-15T01:38:07.824Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Clayton on 2019-01-15T01:38:10.272Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:46.753Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

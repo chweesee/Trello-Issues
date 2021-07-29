@@ -1,0 +1,63 @@
+[Archived] Discord doesn't respect macOS DND mode (https://trello.com/c/5TaVsVfp)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-02-01T00:23:25.515Z
+Latest Update: 2018-10-22T20:18:23.096Z
+
+Reported by TellowKrinkle#5281
+
+####Steps to reproduce:
+- Open Notification Center, scroll above the top of the notification list, and enable do not disturb mode 
+- Do something that would cause Discord to send a notification
+
+####Expected result:
+The notification silently gets added to the Notification Center list without appearing on screen
+####Actual result:
+No notification appears, but Discord still plays the notification sound
+####Client settings:
+Desktop 0.0.250 (0.0.250)
+####System settings:
+macOS High Sierra 10.13.2 (17C205), 2014 15" MacBook Pro
+
+8307
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-01T00:23:25.515Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 10018
+
+mrkirby153#7840 - Bug Bot on 2018-02-01T00:23:32.908Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.185 (Build: 10018)
+
+Pascal#0929 - Bug Bot on 2018-02-01T00:23:37.880Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 10094
+
+Kuuhaku#4503 - Bug Bot on 2018-02-01T00:23:42.917Z
+
+
+### Verified - Jared on 2018-02-06T18:50:31.783Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-06T18:50:35.533Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:23.097Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

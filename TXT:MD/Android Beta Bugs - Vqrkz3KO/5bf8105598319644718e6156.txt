@@ -1,0 +1,107 @@
+[Archived] Google Smart Lock autofill is triggered in chat textfield when the channel has a specific name (https://trello.com/c/W4CI2uJy)
+
+None
+
+Created: 2018-11-23T14:36:05.310Z
+Latest Update: 2019-06-05T23:49:26.220Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Enable Google Smart Lock autofill service in your phone settings (I think it's only available on Android 6+) 
+- Go to User settings > My account, change your password and go back. If you did step 1 correctly, it should prompt you to save your password in Smart Lock. Accept. 
+- Create a new text channel, and name it `#password` 
+- Send a message mentionning the channel (`#password`) and click the channel link to jump to it 
+- Focus the textfield and try to send a message
+
+####Expected result:
+Google Smart Lock should never flag the chat textfield as a username or password field
+####Actual result:
+Google Smart Lock is triggered on channels named such as `#username`, `#password`, `#email`, `#mobile`, etc
+####Client settings:
+Discord Alpha 7.9.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+23434
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-23T14:36:05.310Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bf8105598319644718e6156/9e3d030ef05fc5d57af21711567ef874/YVO96R1.jpg added by Bug Bot on 2018-11-23T14:36:07.635Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bf8105598319644718e6156/8110e62bd4beaa6bb27d580ace4a37f2/GYmaWgu.jpg added by Bug Bot on 2018-11-23T14:36:07.653Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bf8105598319644718e6156/fa95752541263a352eb6b8bd6fdc6e42/JcljYxe.jpg added by Bug Bot on 2018-11-23T14:36:07.694Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bf8105598319644718e6156/e2c70b02f6a0ce61f3d9cb93f1831339/xN0ceFW.jpg added by Bug Bot on 2018-11-23T14:36:07.806Z
+
+
+### Can reproduce.
+CR, Galaxy Note 8 - Alpha 800 - Google smart lock HAS to be set as  the default autofill service for this to work
+
+J1#0088 - Bug Bot on 2018-11-23T14:36:12.642Z
+
+
+### Can reproduce.
+little fiddly to reproduce but did. OnePlus 3T, Android 8, Discord 8.0.0
+
+Alipoodle#5025 - Bug Bot on 2018-11-23T14:36:17.602Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8,Discord Alpha 8.0.0,Android 8.0.0 {CR}
+
+Octillion#6666 - Bug Bot on 2018-11-23T14:36:22.640Z
+
+
+### Can reproduce.
+Samsung Galaxy S4, Android 7.1.2 (LineageOS) Discord Alpha 8.0.0
+
+emptixo#6252 - Bug Bot on 2018-11-23T20:16:16.645Z
+
+
+### Can reproduce.
+CR. Alpha 800 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9566 - Bug Bot on 2018-11-23T22:05:54.698Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab A, Android 7.1.1 - Discord Alpha 8.0.0
+
+Hole#0001 - Bug Bot on 2018-11-24T06:00:42.849Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Tarek on 2018-11-27T02:46:24.648Z
+
+
+### I think I know what's happening. Attempted fix in 804. - Sam Shih on 2018-11-29T21:57:57.953Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Sam Shih on 2018-11-29T21:58:11.904Z
+
+
+### Can't reproduce.
+Samsung Galaxy Note 8 Android 8.0 - Alpha 8.1.3
+
+J1#0088 - Bug Bot on 2018-12-16T12:46:30.578Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-05T09:30:49.747Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:26.229Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

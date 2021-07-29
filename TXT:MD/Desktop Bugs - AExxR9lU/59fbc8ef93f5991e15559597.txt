@@ -1,0 +1,72 @@
+[Archived] When emojis aren't Discord-style and in a URL, they aren't searchable https://i.imgur.com/yYDZzKQ.png (https://trello.com/c/pBB7JwBw)
+
+P3: Will get fixed eventually
+
+Created: 2017-11-03T01:39:59.764Z
+Latest Update: 2017-12-09T09:06:38.084Z
+
+Reported by inventor02#4201
+
+####Steps to reproduce:
+- Create a URL with emoji in it 
+- they can't be the Discord ones, they need to be the "default" ones (they appear small) 
+- Search for the emojis, and the URL will not appear in the results
+
+####Expected result:
+The message should appear in search results
+####Actual result:
+The message does not appear
+####Client settings:
+Canary 6643
+####System settings:
+Windows 10 Home x64
+
+5982
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-03T01:39:59.764Z
+
+
+### Can reproduce.
+Windows 10 Home (1709) x64, Canary 0.0.169 (Build 6723)
+
+DeJay#3628 - Bug Bot on 2017-11-03T01:40:07.355Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Fall Creators Update, Discord Canary Build 6746
+
+FireController1847#3577 - Bug Bot on 2017-11-03T01:40:12.330Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 1607 x64, Canary 0.0.169 (Build 6746)
+
+juj#5114 - Bug Bot on 2017-11-03T01:40:17.292Z
+
+
+### Verified.  - Clayton on 2017-11-03T06:28:53.299Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T06:28:56.057Z
+
+
+### won't fix on this one as it'd require mucking about the tokenizer way too much for a rather obscure edgecase. - Jake Heinz on 2017-11-06T21:06:23.782Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jake Heinz on 2017-11-06T21:06:29.627Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-09T09:06:35.867Z
+
+
+### Archived by Alexandru Todea on 2017-12-09T09:06:38.086Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

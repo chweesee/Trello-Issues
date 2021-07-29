@@ -1,0 +1,107 @@
+[Archived] Ability to see messages in NSFW channels while not accepting the fact that you are over 18 years of age. (https://trello.com/c/iu6TUlnt)
+
+P1: Severe
+
+Created: 2017-07-03T08:59:22.013Z
+Latest Update: 2017-11-15T18:52:21.439Z
+
+Reported by Jake#6842
+
+####Steps to reproduce:1 
+- not accept NSFW warning(saying you are over 18 years old) 2 
+- don't mute notifications 3 
+- get notifications of chats happening in nsfw channel
+
+####Expected result:
+no notifications from a channel which you are not allowed to be in.
+####Actual result:
+a notification from that channel
+####Client settings:
+aur/discord 0.0.1-7(i'm unsure where else I can get my version number)
+####System settings:
+Antergos (4.11.3-1-ARCH)
+
+1978
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-03T08:59:22.013Z
+
+
+### LW001#8654 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/595a0769116a7968f5ea9102/4007735edc72a082a0cfcf6f06f35d10/24c101.png added by Bug Bot on 2017-07-03T08:59:24.839Z
+
+
+### LW001#8654 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/595a0769116a7968f5ea9102/09e5eeac6b10d324b18e882a02bee5c7/bbdcb3.png added by Bug Bot on 2017-07-03T08:59:25.078Z
+
+
+### Can reproduce.
+ Gentoo 64-bit default/linux/amd64/13.0, Canary 0.0.19
+
+Info Teddy#3737 - Bug Bot on 2017-07-03T08:59:29.533Z
+
+
+### Can reproduce.
+Can reproduce - MacOS 10.12.5, Canary 0.0.149
+
+LordOfTheUndead#7368 - Bug Bot on 2017-07-03T08:59:34.501Z
+
+
+### Can reproduce.
+Discord Stable 0.0.297 on Windows 10 Pro 64-bit build 1607.
+
+Tarek1337#0379 - Bug Bot on 2017-07-03T08:59:39.486Z
+
+
+### Can reproduce.
+Stable 0.0.297 Windows 10 Creators Update x64
+
+Pretty Lightningreed (PL)#0875 - Bug Bot on 2017-07-03T11:04:31.637Z
+
+
+### Verified - Jared on 2017-07-03T22:03:06.115Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-07-03T22:03:12.455Z
+
+
+### Still happens, as of 7/28 - Clayton on 2017-07-28T23:41:13.792Z
+
+
+### Can reproduce.
+Discord Canary 0.0.153, macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-08-02T02:49:51.133Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163, Windows 10 Pro x64 Build 1607
+
+Ali365Dash#5036 - Bug Bot on 2017-08-11T21:23:34.650Z
+
+
+### Also seems to appear in recent mentions if said notifications were mentions.
+
+Pointy#9109 - Bug Bot on 2017-08-29T16:57:05.896Z
+
+
+### According to Stan there is nothing we can do to prevent this. However, since images don't appear in notifications, it's a non-issue. - Jared on 2017-09-26T01:02:11.645Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jared on 2017-09-26T01:02:20.185Z
+
+
+### We could theoretically fix this for desktop notifications i believe? But mobile would require some more things. - Amadeus on 2017-09-26T01:56:45.074Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T18:49:36.284Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T18:52:21.440Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

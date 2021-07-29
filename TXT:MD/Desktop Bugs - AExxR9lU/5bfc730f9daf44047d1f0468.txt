@@ -1,0 +1,120 @@
+[Archived] Memory leaks occur every time you click on channels with unread messages (https://trello.com/c/FyleGLyX)
+
+None
+
+Created: 2018-11-26T22:26:23.680Z
+Latest Update: 2019-01-01T15:57:00.804Z
+
+Reported by SuperSajuuk#0001
+
+####Steps to reproduce:
+- Open Task Manager. 
+- Open Discord. 
+- Find a server with unread messages. 
+- Click a channel which has unread messages (even if there are none there). 
+- Observe memory usage in Task Manager.
+
+####Expected result:
+Going to any channel would keep memory at nominal levels of 250MB.
+####Actual result:
+Even if you don't mark the channel read, clicking unread channels increases memory by 8-10MB for every message that was posted into the channel. This continues until your client crashes.
+####Client settings:
+Canary 0.0.224 (Build 28412)
+####System settings:
+Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547)
+
+23655
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-26T22:26:23.680Z
+
+
+### SuperSajuuk#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bfc730f9daf44047d1f0468/ed2c5ff67dfa2db4e6285466bbb60bed/unknown.png added by Bug Bot on 2018-11-26T22:26:26.122Z
+
+
+### Can reproduce.
+Win10 64x (1809), Discord Canary 28412 (0.0.224)
+
+Alipoodle#5025 - Bug Bot on 2018-11-26T22:26:31.267Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 28412 Windows 10 Home x64 1803
+
+Rashaun#8467 - Bug Bot on 2018-11-26T22:26:36.379Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (1809), Discord Canary Build 28412, Already got up to 1.3GB in 16 minutes.
+
+Ghoul#1399 - Bug Bot on 2018-11-26T22:26:41.572Z
+
+
+### Can reproduce.
+Win7 Pro 64bits (7601), Discord Canary 28412
+
+Longinus#0293 - Bug Bot on 2018-11-26T22:29:25.673Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 x64 - Discord Canary 0.0.224 Build 28412 -- I can also reproduce by scrolling up in a channel with a bunch of images.
+
+webhp#1337 - Bug Bot on 2018-11-26T22:30:26.822Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 28412
+
+Hole#0001 - Bug Bot on 2018-11-26T22:36:36.884Z
+
+
+### Can reproduce.
+Got up to 1.2gb by simply cycling through servers and text channels within ~10 minutes - Windows 10 x64 v1809, Discord Canary 28412
+
+Haru 🥰#6660 - Bug Bot on 2018-11-26T22:37:14.060Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 28412
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-26T22:39:23.241Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 28412
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-27T01:13:24.035Z
+
+
+### This issue has been fixed as of Discord Canary Build 28421 by SEAPUNK. He confirmed that it was an issue that all clients were having in the past few weeks, which the fix was reverted. 
+
+I've checked the fix as SEAPUNK confirmed that it was out, and I can no longer reproduce as of Discord Canary Build 28421 on Windows 10 Home x64 (Version 1809).
+
+Leaving this comment so that Dabbit / Icy can decide what they want to do about this ticket. - Ghoul on 2018-11-27T04:14:55.350Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Clayton on 2018-11-28T05:16:25.772Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-28T07:03:43.525Z
+
+
+### Can reproduce.
+Windows 10 Home, Discord Canary 28567
+
+1Storm#0001 - Bug Bot on 2018-11-29T06:24:52.799Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:56:59.904Z
+
+
+### Archived by Tarek on 2019-01-01T15:57:00.806Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

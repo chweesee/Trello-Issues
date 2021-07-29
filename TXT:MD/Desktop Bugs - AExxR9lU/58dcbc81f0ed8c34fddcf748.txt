@@ -1,0 +1,116 @@
+[Archived] Clyde Gives Error For Link With Embeds Enabled (https://trello.com/c/xMNdJ5Ka)
+
+P2: Fix can wait a while
+
+Created: 2017-03-30T08:06:25.529Z
+Latest Update: 2017-10-17T20:28:36.991Z
+
+Reported by 西木野真姫★★★★#9667
+
+####Steps to reproduce: 
+- Type in `https://wcs.starcraft2.com/en-us/news/20659264/2017-WCS-Challenger-North-America---Ruling/` without any formatting 
+
+####Expected result:
+ You can send the message 
+####Actual result:
+ Clyde says you can't 
+####System settings:
+ Windows 8.1x64, Canary 0.0.153
+
+2226
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-30T08:06:25.529Z
+
+
+### Can reproduce.
+Windows 10 64-Bit, Latest Desktop Canary
+
+DJScias#0812 - Bug Bot on 2017-03-30T08:06:26.438Z
+
+
+### Can reproduce.
+W10 Canary
+
+Logiz#9321 - Bug Bot on 2017-03-30T08:06:28.485Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 AU, Canary. Very strange
+
+Tiemen#0107 - Bug Bot on 2017-03-30T08:06:30.394Z
+
+
+### throws an error 400 - Bad request and gives back an array of embeds, which contains one empty embed (JSON attached) {"embeds": ["0"]}
+
+GerdSattler#0525 - Bug Bot on 2017-03-30T08:14:26.804Z
+
+
+### Sometimes it works on servers you own, but not always.
+
+GerdSattler#0525 - Bug Bot on 2017-03-30T08:24:03.518Z
+
+
+### 西木野真姫★★★★#9667 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58dcbc81f0ed8c34fddcf748/56d1c909a58ab9ce8981f3dcb84d7a5e/Screenshot_2017-03-30_at_10.24.38.png added by Bug Bot on 2017-03-30T08:25:53.090Z
+
+
+### Can reproduce.
+Latest Canary build (0.0.153) on Windows 10 Pro x64. Not sure why Clyde thinks it's a bad link, maybe it doesn't like "Rulin" in the context it's being used?
+
+SuperSajuuk#7265 - Bug Bot on 2017-03-30T08:27:11.388Z
+
+
+### GerdSattler#0525 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58dcbc81f0ed8c34fddcf748/57866ad94635264e5e68201e8e658df9/Screen_Shot_2017-03-30_at_16.22.32.png added by Bug Bot on 2017-03-30T08:31:49.162Z
+
+
+### Has *most likely* to do with the borked image metadata `<meta property="og:image" content="http://wcs.starcraft2.comhttps://static-wcs.starcraft2.com/media/images/WCS_OpenGraph_Share.jpg"><meta property="og:image:secuire_url" content="https://wcs.starcraft2.comhttps://static-wcs.starcraft2.com/media/images/WCS_OpenGraph_Share.jpg">`
+
+Tiemen#0107 - Bug Bot on 2017-03-30T08:34:59.620Z
+
+
+### Can reproduce.
+Win10 x64 Latest Canary
+
+Remy#6634 - Bug Bot on 2017-03-30T10:50:37.369Z
+
+
+### Can reproduce.
+Windows 10 x64, newest
+
+tomGER#7462 - Bug Bot on 2017-03-30T12:38:28.671Z
+
+
+### Daan#3356 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58dcbc81f0ed8c34fddcf748/cf37e61d219168250389c3f7c413971e/tseZ4Qb.png added by Bug Bot on 2017-03-30T12:40:59.181Z
+
+
+### Can reproduce.
+macOS Discord Canary
+
+Harrison#9100 - Bug Bot on 2017-03-30T14:53:54.565Z
+
+
+### Verified.  - Clayton on 2017-03-30T19:09:32.215Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-03-30T19:10:06.350Z
+
+
+### Can no longer reproduce. Marking as Fixed. - Jared on 2017-07-31T22:13:11.826Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T22:13:16.405Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:28:34.204Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:28:36.994Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

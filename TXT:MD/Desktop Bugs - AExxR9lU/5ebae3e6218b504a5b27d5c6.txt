@@ -1,0 +1,63 @@
+External servers are displayed in the categories of the emoji picker but are mapped to normal categories in the emoji picker of the new Welcome Screen (https://trello.com/c/6tQ71R9u)
+
+None
+
+Created: 2020-05-12T17:59:02.338Z
+Latest Update: 2020-07-16T21:26:06.329Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Open the server settings of a public server in which you have "Manage Server" permission and navigate to "Welcome Screen" 
+- Create a new recommended channel or edit an existing one, and open the emoji picker 
+- Look at the categories/servers on the left side, and click on different ones and notice where the picker moves to
+
+####Expected result:
+Only Frequently Used, the current server, and the standard emojis should be shown as categories on the side
+####Actual result:
+All servers are shown as normal, however the first several "servers" navigate the picker to standard emoji categories because they don't represent actual categories, while further servers/categories do nothing
+####Client settings:
+Host 0.0.264, Canary 59984 (f3380b6)
+####System settings:
+Dell Precision 5520: Windows 10 64-Bit (10.0.18363)
+
+55865
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-12T17:59:02.338Z
+
+
+### wakfi#6999 - https://youtu.be/dsbu3YJb1cs added by Bug Bot on 2020-05-12T17:59:04.943Z
+
+
+### Can reproduce.
+CR, Canary 59984, Windows 1909, Emoji Categories are not working for Welcome emoji picker.
+
+wonderlandpark#9999 - Bug Bot on 2020-05-12T17:59:10.041Z
+
+
+### Can reproduce.
+CR; canary, Build Number: 59984, Version Hash: f3380b6a84fac7bdc8cbfc1ecde148c61450593a
+
+IamSushi#0001 - Bug Bot on 2020-05-12T17:59:14.880Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 59984 (f3380b6)
+
+Alipoodle#5025 - Bug Bot on 2020-05-12T17:59:19.822Z
+
+
+### Can reproduce.
+MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 59984 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-05-12T17:59:30.870Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

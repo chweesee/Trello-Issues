@@ -1,0 +1,71 @@
+[Archived] Mentioning users with roles named after them mentions the role instead of the user (https://trello.com/c/ctAjHQwK)
+
+P3 - Will be fixed eventually,
+Mod can no longer reproduce
+
+Created: 2016-10-22T22:22:03.814Z
+Latest Update: 2019-06-05T23:49:14.219Z
+
+####Steps to Reproduce:
+-  Create role named the same as a user
+-  Mention the user
+
+####Expected Result: 
+Should mention the user, not the role
+####Actual Result:
+Mentions the role and not the user
+
+####Client Version:
+Alpha, 3.1.3
+####System Settings:  
+Android 6.0.1
+
+Card Log
+========
+### Added by Sam on 2016-10-22T22:22:03.814Z
+
+
+### DiscordCanary_2016-10-23_00-18-38.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/580be68becb3107e0e75dad8/c71e01285707916aad5618173ef4ab12/DiscordCanary_2016-10-23_00-18-38.png added by Sam on 2016-10-22T22:23:49.301Z
+
+
+### Can still reproduce. Google Pixel XL, Android 8.0.0, Discord 5.2.6 - Chris Cox on 2017-09-29T05:13:27.574Z
+
+
+### Can reproduce.
+Discord Canary 0.0.155 (Build 5141), macOS High Sierra 10.13 (17A365) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-10-01T22:08:01.502Z
+
+
+### Can reproduce.
+OnePlus 3T, Android 7.1.1, Discord 5.2.6
+This bug is actually worse than its description and the description ought to be updated to “Mentioning users whose usernames starts with a role name mentions the role instead of the user”. It's actually impossible to mention a user whose discord username starts with the name of a role.
+Look the result here with a "DJ" role and a few "DJ" users:
+https://media.discordapp.net/attachments/362139089451089920/365469230084390912/discord-bug.png
+The @DJ♪Kiwii is correctly shown because his discord username is actually Kiwii-#9085 and thus does not start with DJ.
+
+DJ♪Buxy#3722 - Bug Bot on 2017-10-05T12:18:34.750Z
+
+
+### Will be fixed in the next release (6.2.0) - Sam Shih on 2018-02-01T22:47:14.746Z
+
+
+### Can no longer reproduce, moving to Claimed Fixed.
+Google Pixel XL, Android 8.1.0, Discord 6.2.0 - Chris Cox on 2018-02-07T12:20:13.439Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Chris Cox on 2018-02-07T12:20:21.898Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-21T05:13:14.915Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:14.233Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

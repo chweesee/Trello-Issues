@@ -1,0 +1,88 @@
+[Archived] Suggestion to add phone to 2FA when it's already added, but SMS Auth not enabled (https://trello.com/c/ynPtT7lH)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-31T13:13:16.682Z
+Latest Update: 2019-10-23T23:00:17.543Z
+
+Reported by su#5262
+
+####Steps to reproduce:
+- Have phone already **added** to 2FA, **but** SMS Auth **not enabled**. 
+- Login to Discord in desktop app or in browser. 
+- Close suggestions like `Need system-wide PTT?` and `Connect Facebook`.
+
+####Expected result:
+Suggestion like `We suggest` **`enabling your phone in`** `2 factor authentication settings as a backup.`
+####Actual result:
+Suggestion `We suggest adding a phone to your 2 factor authentication settings as a backup.` appears
+####Client settings:
+Canary 22930, `b1b49aa182bea50b5ab6ed560df335b509c19c16` and Firefox 61.0.2
+####System settings:
+Linux arch 4.18.5-arch1-1-ARCH x64
+
+18731
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-31T13:13:16.682Z
+
+
+### » a r i a#1593 - https://imgur.com/uGMmaln.png added by Bug Bot on 2018-08-31T13:13:19.104Z
+
+
+### MakiTheLegend#5027 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b893eecf43ef61820db24a0/635619ecf3b8a024ae215d5ba24468b6/YomwXWt.png added by Bug Bot on 2018-08-31T13:13:19.505Z
+
+
+### Can reproduce.
+Can reproduce, Canary 22930 on Windows 10 Home 64-bit (1803)
+
+that15fine#9275 - Bug Bot on 2018-08-31T13:13:23.993Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home 1803 , Microsoft EdgeHTML 17.17134
+
+Aimarekin#3063 - Bug Bot on 2018-08-31T13:13:28.959Z
+
+
+### Can reproduce.
+Can reproduce. Desktop Canary, build 22930. MacOs Sierra 10.12.6
+
+octavelr#0297 - Bug Bot on 2018-08-31T13:13:34.069Z
+
+
+### Can reproduce.
+Windows 10.0.17134 Build 17134 (Windows 10) - Discord Build 22587
+
+aditya#0001 - Bug Bot on 2018-08-31T19:09:54.145Z
+
+
+### minor - Clayton on 2018-08-31T19:31:26.437Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-31T19:31:31.480Z
+
+
+### Archived by Clayton on 2018-10-22T20:26:52.413Z
+
+
+### Can reproduce.
+HP Spectre x360 Convertable 13-w0XX, Windows Home Version 1803
+
+Sasial#1865 - Bug Bot on 2019-08-24T03:58:35.796Z
+
+
+### Unarchived by Bug Bot on 2019-08-24T04:00:05.939Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:17.554Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,129 @@
+Server name initials works differently with Latin and Cyrillic symbols (https://trello.com/c/XqzClRUD)
+
+None
+
+Created: 2019-07-12T15:29:18.490Z
+Latest Update: 2020-07-16T21:26:04.441Z
+
+Reported by defracted#8618
+
+####Steps to reproduce:
+- Click on «Create Server» button 
+- Type in the name input field something with at least two spaces using Latin symbols (e.g. `asd asd asd`) 
+- Now type in the field something with at least two spaces using Cyrillic symbols (e.g. `фыв фыв фыв`) 
+- Compare the server icons
+
+####Expected result:
+Server name initials in the icon should show only first letter of each word with Cyrillic symbols
+####Actual result:
+Server name initials in the icon shows whole word instead of the first letter
+####Client settings:
+Stable 41102
+####System settings:
+Windows 10 Pro (1903)
+
+39587
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-12T15:29:18.490Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 41102
+
+TheForbiddenAi#0403 - Bug Bot on 2019-07-12T15:29:26.334Z
+
+
+### Can reproduce.
+CR, Windows 7 Ultimate 64-bit , Canary 41102
+
+shard#9042 - Bug Bot on 2019-07-12T15:29:31.300Z
+
+
+### Can reproduce.
+CR on Windows 10 Enterprise 1803 x64, Stable 41102
+
+MiTonder#0001 - Bug Bot on 2019-07-12T15:29:36.342Z
+
+
+### defracted#8618 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d28a74ee6006c3c8166f083/e3fb662e304658a5c9f4dd8a4f7b9455/9NiKni5.gif added by Bug Bot on 2019-07-12T15:29:51.280Z
+
+
+### Also happens on dev portal
+
+TheForbiddenAi#0403 - Bug Bot on 2019-07-12T15:33:32.211Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 41102
+
+Xylium#5800 - Bug Bot on 2019-07-12T16:38:40.117Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 41102 host 0.0.246
+
+Jean20B#4668 - Bug Bot on 2019-07-12T17:48:35.170Z
+
+
+### Can reproduce.
+Canary 41102, Host 0.0.246, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-12T18:30:55.189Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 41102
+
+Lily#2624 - Bug Bot on 2019-07-12T19:47:35.702Z
+
+
+### Can reproduce.
+Mac OS X HighSierra 10.13.6 , Canary 41102
+
+Lhoste#0001 - Bug Bot on 2019-07-12T22:39:29.632Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 41102
+
+AHkhan#9999 - Bug Bot on 2019-07-13T08:21:16.084Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 41168
+
+Jasοn#0001 - Bug Bot on 2019-07-13T20:07:45.945Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1903 - Canary 41168
+
+anonymous kitten#5379 - Bug Bot on 2019-07-13T21:09:33.252Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (1903), Canary build 41168
+
+ImCreativeJonny#4752 - Bug Bot on 2019-07-14T04:26:37.229Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 41426
+
+charleskimbac#6492 - Bug Bot on 2019-07-18T22:46:58.289Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 41583 (Host 0.0.247)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-20T20:07:41.836Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

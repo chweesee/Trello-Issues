@@ -1,0 +1,174 @@
+[Archived] Suppressed message won't disappear on voice channel when pressing okay. (https://trello.com/c/5EZasckx)
+
+high,
+P2 - Can wait a while
+
+Created: 2019-06-30T04:07:01.124Z
+Latest Update: 2019-09-18T10:01:03.605Z
+
+Reported by .Gloria.#9606
+
+####Steps to reproduce:
+- Open Discord 
+- Go to a Discord Server that has a voice channel
+- Make sure you are not an Admin and the permission "Use Voice Activity" is denied for you
+- Join the voice channel 
+- Try pressing okay after you get the suppress message 
+- You should be able to see who is in the voice channel after the suppress message disappear
+
+####Expected result:
+Be able to press okay after joining the voice channel and then it should show the list on who is in the voice channel.
+####Actual result:
+Infinite load when pressing okay, unable to leave the voice channel. (Tried restarting, reinstalling, opening the app, closed the app, and tried waiting 10 minutes off the app or more which could possibly be the only resolution at the moment.)
+####Client settings:
+TestFlight 3.0.5 (15973)
+####System settings:
+iPhone 5s, IOS 12.3.1
+
+38815
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-30T04:07:01.124Z
+
+
+### GlenMerlin#2119 - https://youtu.be/d4q4874pD3M added by Bug Bot on 2019-06-30T04:07:04.105Z
+
+
+### Can reproduce.
+iPhone 6s iOS 13 (Public Beta) testflight 3.0.5 (15973)
+
+GlenMerlin#2119 - Bug Bot on 2019-06-30T04:07:09.061Z
+
+
+### Can reproduce.
+CR - iPhone Xs, iOS 13 (Dev Beta 2), TestFlight 3.0.5 (15973)
+
+maximd#1122 - Bug Bot on 2019-06-30T04:07:14.118Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 7, iOS 13 (Public Beta) , TestFlight 3.0.5 (15973)
+
+ryan#0570 - Bug Bot on 2019-06-30T04:07:19.083Z
+
+
+### this bug only happens if you have voice activity perms turned off
+
+GlenMerlin#2119 - Bug Bot on 2019-06-30T04:08:55.042Z
+
+
+### Can reproduce.
+Can reproduce, iPad mini 3, iOS 12.3.1, Discord TestFlight Version 3.0.5 (15973).
+
+Alister#0018 - Bug Bot on 2019-06-30T04:12:54.839Z
+
+
+### Can reproduce.
+Cr with activity perms turned off. iPhone 6, iOS 12.4 (dev beta 5) - TestFlight 3.0.5 (15973)
+
+Xylium#5800 - Bug Bot on 2019-06-30T04:15:44.235Z
+
+
+### Can reproduce.
+iPad Air (1st gen), iOS 12.3.1 - TF 3.0.5 (15973)
+
+Nicholas#4669 - Bug Bot on 2019-06-30T04:46:53.483Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.5 (15973)
+
+Skyla#0002 - Bug Bot on 2019-06-30T05:29:59.725Z
+
+
+### Can reproduce.
+iPhone 7 Plus | iOS 12.2 | TestFlight: 3.0.5 (15973)
+
+AHkhan#0001 - Bug Bot on 2019-06-30T05:44:48.149Z
+
+
+### Moving to Notable Issues since it causes a crash loop you cannot escape until you reinstall the app. - Pascal on 2019-06-30T14:16:15.165Z
+
+
+### Moved from New Issues to Notable Issues by Pascal on 2019-06-30T14:16:21.782Z
+
+
+### to get the crash loop you may have to delete the voice channel while someone is stuck with the prompt
+
+GlenMerlin#2119 - Bug Bot on 2019-06-30T14:25:40.457Z
+
+
+### Can reproduce.
+iPhone 6s iOS 13 (Public Beta) - TF 3.0.5 (15973)
+
+Jasοn#7914 - Bug Bot on 2019-07-01T03:07:34.899Z
+
+
+### Moved from Notable Issues to New Issues by Jonathan Wu on 2019-07-02T01:29:56.492Z
+
+
+### Moved from New Issues to Notable Issues by Jonathan Wu on 2019-07-02T01:30:06.578Z
+
+
+### Moved from Notable Issues to New Issues by Jonathan Wu on 2019-07-02T17:57:51.903Z
+
+
+### I am not able to reproduce. Is this still happening? - Jonathan Wu on 2019-07-02T22:13:53.938Z
+
+
+### @jonathanwu41 I can still reproduce it with the build 16089. Any other info you need for that issue? - Pascal on 2019-07-03T12:02:27.944Z
+
+
+### Can reproduce.
+iPhone 8; iOS 12.4, Stable 3.0.5
+
+Blair#7777 - Bug Bot on 2019-07-11T13:19:22.637Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-07-12T19:00:09.401Z
+
+
+### Moved from Backlog to Voice Chat by Pascal on 2019-07-13T09:58:24.596Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.8 (16488) with iPad Pro (11 inch) running iOS 12.4.
+
+I see this new window now: https://i.imgur.com/FCHtVMa.png
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-26T14:03:03.923Z
+
+
+### Moved from Voice Chat to Claimed Fixed Bugs by Pascal on 2019-07-26T14:03:13.122Z
+
+
+### Can't reproduce.
+iPad Air 2 iOS 12.3.1, Stable 3.0.8
+
+OrangeM24#5746 - Bug Bot on 2019-07-28T03:16:22.484Z
+
+
+### Can't reproduce.
+iPhone 6s iOS 13 (Public Beta 3) 3.0.8 (16488)
+
+GlenMerlin#2119 - Bug Bot on 2019-07-28T04:47:26.015Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 4) - Stable 3.0.8
+
+Xylium#5800 - Bug Bot on 2019-07-28T08:20:02.255Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-28T08:20:02.619Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:03.627Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

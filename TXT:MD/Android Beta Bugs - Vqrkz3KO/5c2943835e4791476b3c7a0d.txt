@@ -1,0 +1,132 @@
+[Archived] Nearby scanning doesn't stop after denying permission (https://trello.com/c/wCuLfuku)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2018-12-30T22:15:31.477Z
+Latest Update: 2019-06-10T20:43:42.568Z
+
+Reported by ginkoid#8888
+
+####Steps to reproduce:
+- Go to Android Settings > Google > Nearby > Settings cog, and make sure Discord is off 
+- Restart Discord 
+- Go to Friends > Add Friends, and tap the "start nearby scanning" button 
+- When the Nearby permission modal opens (it might take a while for it to open), tap "deny" 
+- Observe that Discord thinks it's still scanning, even though it doesn't have the permission to do so
+
+####Expected result:
+Discord Nearby scanning should stop
+####Actual result:
+Discord continues to think it's scanning
+####Client settings:
+8.2.2
+####System settings:
+Pixel 3 XL, Android 9 PQ1A.181205.006, Discord 8.2.2
+
+25379
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-30T22:15:31.477Z
+
+
+### Can reproduce.
+Can reproduce, Google pixel 3, Android 9.0.0, Alpha 8.2.2
+
+phencyclidine father#0986 - Bug Bot on 2018-12-30T22:15:38.916Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 9.0 (December Patch), Discord Alpha 8.2.2
+
+Haru💗#6660 - Bug Bot on 2018-12-30T22:15:45.606Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 8.2.2
+
+coolalmostchilly#1313 - Bug Bot on 2018-12-30T22:15:48.839Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.2.2
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-30T22:25:09.202Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8,Android 8.0.0,Discord Alpha 8.2.2
+
+Octillion#6666 - Bug Bot on 2018-12-31T00:24:23.524Z
+
+
+### Can reproduce.
+CR. Alpha 8.2.2 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#2019 - Bug Bot on 2018-12-31T00:53:47.918Z
+
+
+### Can reproduce.
+Android Alpha 8.2.2, Samsung Galaxy Tab A, Android 7.1.1
+
+Talon#1337 - Bug Bot on 2018-12-31T01:00:00.101Z
+
+
+### Can reproduce.
+8.0 LG Aristo 2 8.17
+
+Kaden303#4560 - Bug Bot on 2018-12-31T01:18:28.671Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy S8, Android 8.0.0, Discord alpha 8.2.2.
+
+SerbianPG#2287 - Bug Bot on 2018-12-31T12:23:55.729Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Beta 8.2.1
+
+charleskimbac#6492 - Bug Bot on 2018-12-31T21:04:18.666Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 8.2.2 - Clayton on 2019-01-05T09:25:16.674Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-05T09:25:23.047Z
+
+
+### Can reproduce.
+Mi A2, Android 9 - Android Alpha 8.2.4
+
+Bsian#1803 - Bug Bot on 2019-01-05T11:50:14.020Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 8.2.4
+
+OddsomeOddy#1998 - Bug Bot on 2019-01-08T16:48:55.288Z
+
+
+### Archived by Bug Bot on 2019-02-07T17:00:02.747Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 851
+
+The Lunala#6877 - Bug Bot on 2019-02-27T04:55:25.251Z
+
+
+### Unarchived by Bug Bot on 2019-02-27T05:00:05.296Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:42.582Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

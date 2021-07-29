@@ -1,0 +1,72 @@
+[Archived] The dropdown to change the channel for welcome messages/AFK channel doesn't have any effect if you've no permission to change it. (https://trello.com/c/1Sr2JzWB)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-18T02:01:39.484Z
+Latest Update: 2018-07-06T17:57:43.198Z
+
+Reported by Jake S.#8787
+
+####Steps to reproduce:
+- Create a server and invite a friend. 
+- Give the friend a role that has **manage_roles** and **manage_messages** but DOESN'T have **manage_server** 
+- Get the friend to attempt to edit the default welcome message dropdown box
+
+####Expected result:
+The box to be greyed out/show a stop cursor on hover
+####Actual result:
+Box works as normal, doesn't open on click nor show any icon on hover.
+####Client settings:
+Discord Canary, B4361
+####System settings:
+Win 10 x64
+
+4456
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-18T02:01:39.484Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 Canary Build 4361
+
+Azrael#6867 - Bug Bot on 2017-09-18T02:01:47.004Z
+
+
+### Can reproduce.
+Win10, Canary Build 4361
+
+Jesse#1246 - Bug Bot on 2017-09-18T02:01:52.054Z
+
+
+### Can reproduce.
+Win 10 Enterprise 1703 x64, Canary 4361, PTB 4376
+
+Josedolf Staller#2859 - Bug Bot on 2017-09-18T02:05:55.021Z
+
+
+### Verified.  - Clayton on 2017-09-19T19:26:39.010Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T19:26:44.980Z
+
+
+### Verified Fixed - Jared on 2018-03-20T21:37:28.068Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-20T21:37:34.162Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:57:42.254Z
+
+
+### Archived by Jared on 2018-07-06T17:57:43.200Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,73 @@
+[Archived] Toast asking for correct input password length varies when entering a really long password in current password field and when entering a single letter password in new password field in account settings>change password (https://trello.com/c/GenCMrLP)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-04T21:04:57.759Z
+Latest Update: 2018-08-22T01:22:38.259Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Go to user settings>change password 
+- First, click on change password and in current password text field, type a really long password (anything longer that 128 characters). Click on change password and notice the toast saying "must be between 1 and 128 in length" 
+- Now go back, click on change password again, and enter a password in current password (not long, for example type sjsjdkdkd) and in new password type a single letter (for example "a"), click on change password and notice the toast saying "password must be 6-128 characters long"
+
+####Expected result:
+Toast should either say the minimum length of password to be 6 (more suitably) or 1
+####Actual result:
+Toast shows minimum password length to be 6 in one case and 1 in another
+####Client settings:
+Discord Alpha 6.8.7
+####System settings:
+Xiaomi Mi A1, Android 8.0.0
+
+13758
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-04T21:04:57.759Z
+
+
+### Ori#1908 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b15a979e5fa63c3ca946113/bbccb7d67f4dc76b9586bd89e79dd640/1528067360296.jpg added by Bug Bot on 2018-06-04T21:05:00.452Z
+
+
+### Can reproduce.
+Discord Alpha 6.8.7, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-06-04T21:05:05.250Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 android 8.0.0 discord alpha 6.8.7
+
+Bencey_#8587 - Bug Bot on 2018-06-04T21:05:10.296Z
+
+
+### Can reproduce.
+CR, K20 V Android 7.0, Discord alpha 6.8.7
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-06-04T21:05:15.373Z
+
+
+### Can reproduce.
+CR, Motorola Moto Z (Android 8.0.0) Discord Alpha 6.6.8
+
+Anthony#3912 - Bug Bot on 2018-06-06T14:53:15.044Z
+
+
+### verified, android 7.0, alpha 6.8.7 - Clayton on 2018-06-06T20:47:53.869Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-06T20:48:00.854Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:38.262Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

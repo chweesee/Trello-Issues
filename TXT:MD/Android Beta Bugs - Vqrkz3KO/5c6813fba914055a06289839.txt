@@ -1,0 +1,144 @@
+[Archived] When use any method to navigate to a channel of a server filled with expired invites(or a server you're already in), the join button flashes instead of mention or create new invite for a split second. [Might not work on high end devices] (https://trello.com/c/AuVm0UmG)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2019-02-16T13:45:31.126Z
+Latest Update: 2019-08-16T21:24:55.042Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Create an invite that links to your server. 
+- Spam the invite in any channel of your server. 
+- Get out of the channel once all the invites are resolved. 
+- Use any method to navigate the channel that doesn't involve opening the channel drawer (like by clicking #channel-name, through in app notification, through quick switcher, through message jump link, through invites directed to the channel, etc.). 
+- As soon as you navigate, you should see that all the invites show join for a split second.
+
+####Expected result:
+All invites show joined button from the start.
+####Actual result:
+All of them show the joined button for a split second.
+####Client settings:
+Discord Alpha 845
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+28982
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-16T13:45:31.126Z
+
+
+### Can reproduce.
+The key step is indeed to jump to the channel without using channel drawer. Tried with a channel jump link and I could repro. Discord Alpha 8.4.5G, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2019-02-16T13:45:38.417Z
+
+
+### Can reproduce.
+CR. Used #channel to navigate. And this bug is also valid for expired links. Xiaomi Redmi 3S Prime, MIUI 10, Android 6.0.1 Discord 8.4.5g
+
+Xnehaxixh#2892 - Bug Bot on 2019-02-16T13:45:43.418Z
+
+
+### Can reproduce.
+Can reproduce on Galaxy s5 Android 6.0.1 while CNR on Asus Zenfone max pro m1 Android 8.1.0, alpha both w/ 845G
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-16T13:45:48.430Z
+
+
+### Can reproduce.
+Honor 6x 7.0 [EMUI 5.0.2] alpha845g
+
+fizy#9347 - Bug Bot on 2019-02-16T14:32:30.894Z
+
+
+### Can reproduce.
+Motorola Moto C+, Android 7.0, Discord 845G
+
+idk123#0088 - Bug Bot on 2019-02-16T14:59:35.684Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.4.5G
+
+Lily#2624 - Bug Bot on 2019-02-16T15:43:09.676Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H, Discord Alpha 8.4.5G
+
+Defracted#1337 - Bug Bot on 2019-02-16T15:43:56.471Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.4.5G
+
+Skyla#7948 - Bug Bot on 2019-02-16T16:06:16.671Z
+
+
+### Can reproduce.
+Seems to work only in a link that navigates to the channel discord Alpha 8.4.5G / Xiaomi Mi3W / Android 7.1.2 / LineageOS
+
+Hawlucha#2061 - Bug Bot on 2019-02-16T16:20:01.456Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 8.4.5G
+
+Danijel#9000 - Bug Bot on 2019-02-16T16:20:17.461Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 8.4.5G
+
+TheFutureKnight#7664 - Bug Bot on 2019-02-16T16:24:46.014Z
+
+
+### Can reproduce.
+Android 8.0 Samsung S8, 8.4.5G
+
+Mr. Proper#2394 - Bug Bot on 2019-02-16T18:53:38.526Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 848
+
+charleskimbac#6492 - Bug Bot on 2019-02-17T07:01:06.386Z
+
+
+### Can reproduce.
+Alpha 8.4.8, Samsung Galaxy A6+, Android 8.0.0
+
+Niel#3558 - Bug Bot on 2019-02-18T19:14:28.904Z
+
+
+### minor - Clayton on 2019-02-21T00:18:56.521Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-21T00:19:01.863Z
+
+
+### Archived by Bug Bot on 2019-03-23T00:30:04.721Z
+
+
+### Can reproduce.
+Moto G, Android 5.1 / Alpha 9.0.9. Also works when rotating screen orientation.
+
+metr0#2951 - Bug Bot on 2019-06-24T21:58:35.867Z
+
+
+### Unarchived by Bug Bot on 2019-06-24T22:00:05.929Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:24:55.053Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

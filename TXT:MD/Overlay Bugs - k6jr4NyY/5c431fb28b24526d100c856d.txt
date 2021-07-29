@@ -1,0 +1,87 @@
+{Overlay} moving/resizing the Taskbar causes a unused space in the overlay that can only be fixed by restarting (https://trello.com/c/de0SYZ8c)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-01-19T13:01:38.343Z
+Latest Update: 2019-05-12T11:40:13.268Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- open the overlay in a supported game 
+- move the Taskbar around while having the game opened and change its size 
+- observe the unused space by the overlay
+
+####Expected result:
+the overlay should not get affected and/or adapt to new Taskbar position when undoing changes
+####Actual result:
+the new Taskbar position/size causes a gap that can only fixed by restarting
+####Client settings:
+Canary 0.0.228 - 31048
+####System settings:
+Windows 10 home x64 v. 1803
+
+26540
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-19T13:01:38.343Z
+
+
+### J1#0088 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c431fb28b24526d100c856d/f4abe347f97a1bb0a5458d45d363360f/VxNlNRI.png added by Bug Bot on 2019-01-19T13:01:42.184Z
+
+
+### J1#0088 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c431fb28b24526d100c856d/68e1c3eafab8057c54bb698130102aff/hMd2I9l.png added by Bug Bot on 2019-01-19T13:01:42.389Z
+
+
+### J1#0088 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c431fb28b24526d100c856d/9497eec5e6dd297625aef8cc3c7f7a25/xAbnY7K.png added by Bug Bot on 2019-01-19T13:01:42.434Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 31048  only happened in Windowed / Borderless - Extension of Archived Verf Fixed: https://trello.com/c/gqcKGEnH/
+
+Alipoodle#5025 - Bug Bot on 2019-01-19T13:01:45.809Z
+
+
+### Can reproduce.
+Can reproduce, Canary: 31082, Windows 7 64-bit
+
+Skyla#9999 - Bug Bot on 2019-01-19T13:01:50.848Z
+
+
+### Can reproduce.
+CR Windows 10 Home Version; Canary 31048 - An extension of an archived verified fix: https://trello.com/c/gqcKGEnH/
+
+jedi3#0001 - Bug Bot on 2019-01-19T13:01:55.800Z
+
+
+### Can reproduce.
+CR with SSF2; Windows 10 Home; Canary Build 31082
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-19T21:11:31.105Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.229 Build 31115
+
+Daffyduck#5364 - Bug Bot on 2019-01-22T09:17:57.314Z
+
+
+### Cannot reproduce anymore on Canary 36529, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-29T19:15:15.587Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-04-29T19:15:20.584Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-12T11:40:13.285Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

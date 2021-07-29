@@ -1,0 +1,65 @@
+[Archived] Trying to pin a message when the pin limit has been reached silently fails (https://trello.com/c/l6DOLJwx)
+
+P2 - Can wait a while
+
+Created: 2017-01-17T08:53:50.546Z
+Latest Update: 2017-10-02T16:50:48.291Z
+
+Reported by Griffin#2583
+
+####Steps to reproduce: 
+- Pin enough messages to reach the pin limit 
+- Attempt to pin another message by long pressing 
+
+####Expected result:
+ Discord tells you the pin limit has been reached 
+####Actual result:
+ The pin button seems unresponsive and no error is displayed and you become confused
+
+Card Log
+========
+### Added by Jared on 2017-01-17T08:53:50.546Z
+
+
+### Can reproduce.
+Android 5.1.1 latest Discord Beta
+
+skrillex#8446 - Jared on 2017-01-17T08:53:51.041Z
+
+
+### Can reproduce.
+Android 5.0.2 discord latest beta
+
+LW001#8654 - Jared on 2017-01-17T08:53:51.154Z
+
+
+### Screenshot_2017-01-17-07-44-09.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/587ddb9ee1cc9287d76ff399/37c155ecb19361f152713d19a6865d55/Screenshot_2017-01-17-07-44-09.png added by Jared on 2017-01-17T08:54:06.331Z
+
+
+### Can reproduce.
+Android Canary
+
+ItsPugle#5963 - Jared on 2017-01-17T12:48:49.348Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-25T17:57:26.709Z
+
+
+### A proper error appears now. Verified Fixed. - Jared on 2017-07-31T23:03:28.170Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2017-07-31T23:03:30.835Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:50:47.511Z
+
+
+### Archived by Jared on 2017-10-02T16:50:48.295Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

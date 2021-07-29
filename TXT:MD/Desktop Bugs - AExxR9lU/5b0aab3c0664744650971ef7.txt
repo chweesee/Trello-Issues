@@ -1,0 +1,92 @@
+[Archived] Editing a message to contain only a space and clicking save will save an empty message (https://trello.com/c/lrhZDaXR)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-27T12:57:32.276Z
+Latest Update: 2018-07-06T18:21:48.564Z
+
+Reported by iii#8595
+
+####Steps to reproduce:
+- Send a message 
+- Edit it 
+- Replace the content with a space 
+- Click save
+
+####Expected result:
+Delete modal comes up(as happens if you press enter)
+####Actual result:
+Message gets saved without any content, and if you try to edit it it won't even have the space
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 16162, Version Hash: 905c666082c26511971c48bdfd2640e44683e187
+####System settings:
+Win 10 64-bit, x64-based processor
+
+13467
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-27T12:57:32.276Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.4, Canary Build 16167
+
+Pascal#0929 - Bug Bot on 2018-05-27T12:57:39.785Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 64-Bit Stable 16162  Also related to https://github.com/discordapp/discord-api-docs/issues/595
+
+Blastoise186#7194 - Bug Bot on 2018-05-27T12:57:44.781Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 16167 -- Related to https://github.com/discordapp/discord-api-docs/issues/595
+
+webhp#1337 - Bug Bot on 2018-05-27T12:57:49.773Z
+
+
+### Can reproduce.
+Windows 7 SP 1, Canary 16167
+
+Wolterhon#3938 - Bug Bot on 2018-05-27T16:07:40.535Z
+
+
+### Can reproduce.
+Windows 10 Home, 64-bit
+
+TheMarkz#0001 - Bug Bot on 2018-05-28T18:23:39.528Z
+
+
+### Can't reproduce.
+Windows 10 Home x64, Canary 16167
+
+CominAtYou#2626 - Bug Bot on 2018-05-29T01:36:52.947Z
+
+
+### Verified, Win10, Canary 16167 - Clayton on 2018-05-29T21:01:41.528Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-29T21:01:48.634Z
+
+
+### can no longer reproduce, moving to claimed fixed, windows 10, canary 18051 - Tim on 2018-07-02T17:11:16.800Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tim on 2018-07-02T17:11:45.280Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:21:47.672Z
+
+
+### Archived by Jared on 2018-07-06T18:21:48.566Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

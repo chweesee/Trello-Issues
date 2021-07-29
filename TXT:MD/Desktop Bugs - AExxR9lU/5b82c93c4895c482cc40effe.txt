@@ -1,0 +1,83 @@
+[Archived] When there are several GIFs posted in a row in a channel and you scroll up, all GIFs will restart everytime a new GIF gets in view (https://trello.com/c/ClnQtyyq)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-26T15:37:32.641Z
+Latest Update: 2018-10-22T20:25:44.494Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a GIF image (preferably with long duration so you can observe the bug more easily) 
+- Make sure Autoplay GIFs is enabled 
+- Post it 5-6 times in a channel. Make it so the first GIFs you posted go offscreen 
+- Now scroll up slowly to show the gifs that are offscreen. While doing that, observe the GIFs at the bottom.
+
+####Expected result:
+When a new GIF gets in view, it shouldn't cause all the other GIFs that were already in view to restart
+####Actual result:
+All visible GIFs restart from first frame everytime a new GIF gets in view
+####Client settings:
+Discord Canary 22587
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+18453
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-26T15:37:32.641Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803 x64, Discord Canary 22587
+
+Pyros#2326 - Bug Bot on 2018-08-26T15:37:40.008Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803 (Canary build 22587)
+
+TimThe#1118 - Bug Bot on 2018-08-26T15:37:44.981Z
+
+
+### Can reproduce.
+Desktop Canary 22333 iMac macOS High Sierra 10.13.6
+
+KSI should’ve won#0069 - Bug Bot on 2018-08-26T15:37:50.123Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 22587
+
+Delite#0001 - Bug Bot on 2018-08-26T16:53:13.995Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 22587
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-26T21:57:30.387Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 22587
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-27T09:38:09.621Z
+
+
+### verified, macos 10.12.6, canary 22587 - Clayton on 2018-08-27T21:53:32.378Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-27T21:53:37.951Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:44.496Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

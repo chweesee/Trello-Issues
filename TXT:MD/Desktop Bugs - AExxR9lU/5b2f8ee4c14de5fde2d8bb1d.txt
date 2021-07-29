@@ -1,0 +1,71 @@
+[Archived] Dots (kebab) menu in the new games tab appears and disappears when hovered over, but stops disappearing once clicked. (https://trello.com/c/kvHIGbuC)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-06-24T12:30:28.399Z
+Latest Update: 2018-10-22T20:22:17.142Z
+
+Reported by JonasUJ#8382
+
+####Steps to reproduce:
+- Go to the new Games Tab 
+- Hover over a game in the "What's new" section 
+- Play button and a menu button appear 
+- Stop hovering, they disappear 
+- Click menu, if developer tools is on "Copy id" will be a option, if the game is installed "Play game" is an option, otherwise it does nothing 
+- Stop hovering 
+- Menu and play button doesn't disappear
+
+####Expected result:
+It disappears even though it's been clicked, and maybe the menu shouldn't be there if the game isn't installed and you don't have dev tools on.
+####Actual result:
+It stays as if you are still hovering over the game.
+####Client settings:
+Release Channel: stable, Build Number: 17618, Version Hash: d279ff17194f8412b207e6656d100fbb9e095f46
+####System settings:
+Windows 10 Home 64-bit (10.0, Build 17134)
+
+14740
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-24T12:30:28.399Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 1803. Discord Canary Build 17580
+
+ItzTacoTimee#0001 - Bug Bot on 2018-06-24T12:30:35.736Z
+
+
+### Can reproduce.
+CR. Discord Canary 17580 - Windows 7 x64
+
+TheGamingBolt#2695 - Bug Bot on 2018-06-24T12:30:40.724Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 (Canary build 17580)
+
+TimThe#1118 - Bug Bot on 2018-06-24T12:30:45.761Z
+
+
+### verified, macos 10.12.6, canary 17580 - Clayton on 2018-06-25T20:55:50.776Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-25T20:56:00.172Z
+
+
+### 54D#1357 - https://youtu.be/9Rjza3AVrko added by Bug Bot on 2018-07-14T12:38:18.159Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:17.144Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

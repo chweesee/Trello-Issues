@@ -1,0 +1,67 @@
+[Archived] Discord's during:CORRECTION: "During:YYYY-MM" search parameter fails to display results beyond the first day of the month searched. (https://trello.com/c/vdfoYKq4)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-20T03:04:52.029Z
+Latest Update: 2018-10-22T20:18:07.757Z
+
+Reported by liblung#2648
+
+####Steps to reproduce:
+- Open the search bar 
+- Search using the "during:" parameter 
+- Enter a date in this fashion: YYYY-MM
+
+####Expected result:
+The user should get a list of posts taking place during that entire month.
+####Actual result:
+You only get posts for the first day of that month.
+####Client settings:
+x64, current Stable version as of 1-19-2018
+####System settings:
+Windows 10 x64
+
+7974
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-20T03:04:52.029Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Discord Stable Build 9672 | When input as "during 2018-01", it takes the first day of january, ex the client recognizes it as "YYYY-DD". When turned into "2018-01-02", is recognized as "YYYY-MM-DD". Confirmed initial theory by finding "2018-02" to be only posts from the 2nd of January 2018
+
+Xamtheking#8197 - Bug Bot on 2018-01-20T03:04:59.367Z
+
+
+### Can reproduce.
+Mac OS X 10.10.5, Discord 0.0.250
+
+ROBLOXFORGOTMYOLDPAS#7962 - Bug Bot on 2018-01-20T03:05:04.363Z
+
+
+### Can reproduce.
+Win10x64 Desktop Stable build 9672
+
+Usoka#6021 - Bug Bot on 2018-01-20T03:05:09.352Z
+
+
+### Verified.  - Clayton on 2018-01-25T22:57:50.062Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-25T22:57:53.132Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a62b1d3dd9a2d01855c261a/9e32f09fdf08e34f08542c5b2d8694e1/at6aS1z.gif added by Bug Bot on 2018-07-14T06:00:53.433Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:07.762Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

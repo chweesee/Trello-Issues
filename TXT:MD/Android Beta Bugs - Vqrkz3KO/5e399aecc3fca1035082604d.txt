@@ -1,0 +1,96 @@
+When I try to mention a Discord user in Korean, there is no item to mention. (https://trello.com/c/iVhvs6w4)
+
+None
+
+Created: 2020-02-04T16:25:17.085Z
+Latest Update: 2020-02-19T23:11:37.656Z
+
+Reported by 라고솔로가말했습니다#1274
+
+####Steps to reproduce:
+- Mention by typing the user in Korean 
+- Observe while typing
+
+####Expected result:
+Unless you see a typo, you should still be able to see who you are trying to mention.
+####Actual result:
+If you try to mention a user in Korean even though you typed it correctly, you won't see the person you want to mention.
+####Client settings:
+Discord 1024
+####System settings:
+Android 5.1 Galaxy Alpha
+
+51825
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-04T16:25:17.085Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy S9+, Android 9.0, Discord 10.3.0
+
+Creedoo#3626 - Bug Bot on 2020-02-04T16:25:24.797Z
+
+
+### Can reproduce.
+Can reproduce, Discord Version 10.2.8, Android 5.0.0
+
+Sabin#9478 - Bug Bot on 2020-02-04T16:25:29.762Z
+
+
+### Can reproduce.
+Android 9.0, Discord 10.3.2
+
+치노싼#4053 - Bug Bot on 2020-02-04T16:25:34.803Z
+
+
+### 라고솔로가말했습니다#1274 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5e399aecc3fca1035082604d/dfe8609b833760cb9d23d57ca9ef65e4/ezgif-2-3a4cbde6039f.gif added by Bug Bot on 2020-02-04T16:25:44.838Z
+
+
+### Can't reproduce.
+Samsung Galaxy A20s, 9.0, Discord 1032
+
+bagusnl#2938 - Bug Bot on 2020-02-04T16:28:22.300Z
+
+
+### I think I've identified the issue, and have a workaround for now.
+
+Issue: when the "builder" characters are fused, our autocomplete text doesn't get the notification of the new fused character. This means that we are matching, say `a + e` instead of `ae`. 
+
+Workaround: hit space to cancel autocomplete, then backspace, and the matcher should work again. - Sam Shih on 2020-02-06T22:12:28.866Z
+
+
+### i believe I have a fix for this in the next release 1035+. Additionally did some micro optimizations and other bugfixes for performance of autocomplete. - Sam Shih on 2020-02-07T22:33:02.303Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Sam Shih on 2020-02-07T22:33:07.221Z
+
+
+### Can't reproduce.
+CNLR, Samsung Galaxy S9+, Android 9.0, Discord 10.4.1
+
+Creedoo#3626 - Bug Bot on 2020-02-15T11:06:37.812Z
+
+
+### Can't reproduce.
+Could no longer reproduce; Discord 10.4.1 (1037), Samsung Galaxy A20, Android 9
+
+Nighty963#0001 - Bug Bot on 2020-02-17T23:36:40.975Z
+
+
+### Can't reproduce.
+CNR, Samsung Galaxy S8 Android 8, Discord 10.4.1
+
+Action Potential#1999 - Bug Bot on 2020-02-19T23:11:37.193Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2020-02-19T23:11:37.668Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,312 @@
+[Archived] JavaScript error when trying to press CTRL + Y in text field (https://trello.com/c/oBoZJSBc)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2017-12-25T23:07:10.149Z
+Latest Update: 2019-03-01T04:00:32.922Z
+
+Reported by Fabiolous#4960
+
+####Steps to reproduce:
+- Go to any channel 
+- Click into the text field 
+- Press CTRL + Y
+
+####Expected result:
+Nothing should happen
+####Actual result:
+JavaScript error in main process
+####Client settings:
+Release Channel: canary, Build Number: 9070, Version Hash: f546e8dff486ff50228e2ae54d8502fbfc9ba766
+####System settings:
+Windows 10 Education, Version 1709, OS Build 16299.125, x64-based
+
+7368
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-25T23:07:10.149Z
+
+
+### JaKe#1817 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a41849e05295b0d3d6c7012/076f05858991ece8ab95d4fbadf660e8/57b92f.png added by Bug Bot on 2017-12-25T23:07:12.585Z
+
+
+### Can reproduce.
+CR win 10 x64 on canary 9070
+
+ks0908#8526 - Bug Bot on 2017-12-25T23:07:17.504Z
+
+
+### Can reproduce.
+CR, Canary 0.0.194 (9070), Windows 10 Home Version 1703
+
+QwakGoesDuck#9672 - Bug Bot on 2017-12-25T23:07:22.531Z
+
+
+### Can reproduce.
+Discord Canary 0.0.192 (Build 9070) on Windows 10 Pro 64-bit (Build 1709)
+
+Tarek1337#0379 - Bug Bot on 2017-12-25T23:07:27.470Z
+
+
+### Can reproduce.
+CR, Windows 10x64 Canary Build 9070
+
+Zacatero#5839 - Bug Bot on 2017-12-26T02:29:15.166Z
+
+
+### Verified - Tarek on 2017-12-26T06:26:43.619Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-26T06:26:47.351Z
+
+
+### Happens to CTRL + Z, as well. - Tarek on 2017-12-28T16:51:37.411Z
+
+
+### Can reproduce.
+Discord Canary 0.0.194 (Build 9070) pn Windows 10 Home Fall Creators Update x64 (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2018-01-02T08:53:22.081Z
+
+
+### Can reproduce.
+CR, only happens when there's nothing to redo anymore, Discord Canary Build 10549, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-02-11T21:46:07.170Z
+
+
+### Can reproduce.
+CR, Kubuntu 17.10, Discord 0.0.45, Does break on ctl-z as well
+
+RadioactiveHydra#2570 - Bug Bot on 2018-02-19T03:27:13.860Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12217
+
+cutelilberry#5423 - Bug Bot on 2018-03-17T17:50:13.192Z
+
+
+### Can reproduce.
+Occurs with ctrl+z & ctrl+windows+a as well | Discord Canary 0.0.300, Build 14027, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-04-25T01:28:36.519Z
+
+
+### Can reproduce.
+Discord Canary (Build 14632) on Windows 8.1 64-bit
+
+Scopettone#9178 - Bug Bot on 2018-05-04T20:21:13.383Z
+
+
+### Also happens when you press ctrl+a in the an empty text box
+
+duncte123#1245 - Bug Bot on 2018-05-06T11:44:06.301Z
+
+
+### Can reproduce.
+Windows 10 x64, v1803 (OS Build 17134.1)
+
+kvadratrot#1337 - Bug Bot on 2018-05-09T06:20:55.402Z
+
+
+### Can reproduce.
+canary, Build Number: 18749 win10 home build 17134.165 version 1803
+
+Zaphoo#1169 - Bug Bot on 2018-07-13T10:01:43.930Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211
+
+</> Emmanuel#2543 - Bug Bot on 2018-07-20T16:22:37.095Z
+
+
+### Can reproduce.
+Canary, Build Number: 25439 - Windows 10 Pro x64
+
+Spook Dog#7177 - Bug Bot on 2018-10-04T12:22:39.056Z
+
+
+### Can't reproduce.
+Unable to repro anymore on DIscord Canary 25661, Windows 10 Home x64 v1809
+
+Haru😍💜#6660 - Bug Bot on 2018-10-08T12:31:05.765Z
+
+
+### Can't reproduce.
+Tested on Windows 10 Home 64-bit (1803) with Discord Canary Build 25661 - also CNR with Ctrl + A, Ctrl + Win + A and Ctrl + Z (extensions reported in comments)
+
+that15fine#9275 - Bug Bot on 2018-10-08T12:31:32.206Z
+
+
+### Can reproduce.
+Discord Canary Build 25661, Windows 10 Home x64 (1803) - also with Ctrl + A. However I CNR Ctrl + Win + A and Ctrl + Z.
+
+nicex000#0001 - Bug Bot on 2018-10-08T12:53:19.599Z
+
+
+### Can reproduce.
+Desktop Canary, 25661 System Settings: Win10 Home
+
+lieuwe_berg#8662 - Bug Bot on 2018-10-08T15:57:50.749Z
+
+
+### Can't reproduce.
+Can't reproduce anymore - Windows 10 x64 v1809, Discord Canary 26151
+
+Haru😍💜#6660 - Bug Bot on 2018-10-15T12:43:02.344Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary 26344
+
+zephr#1634 - Bug Bot on 2018-10-17T10:26:34.922Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 26655
+
+Aeria#9096 - Bug Bot on 2018-10-21T17:01:28.009Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1803 | Discord Canary Build 27040
+
+camperboy1000#6191 - Bug Bot on 2018-10-28T16:11:32.627Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64 - Discord Canary 27482
+
+Daffyduck#5364 - Bug Bot on 2018-11-05T15:12:25.551Z
+
+
+### Can reproduce.
+Razer Blade Pro, Ubuntu 18.04 LTS 64-bit, Gnome 3.28.2, Discord Canary, Discord Canary 27574 - Tested with Ctrl-A
+
+KazWolfe#2896 - Bug Bot on 2018-11-07T16:00:16.948Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Insider Build v1809, Stable 28393
+
+someone#9999 - Bug Bot on 2018-11-26T00:45:14.663Z
+
+
+### Can reproduce.
+<Windows 8.1 Release Channel: canary, Build Number: 28704, Version Hash: 71ee6db4c5394461faa83b9fb8ed6a9a65e960d2>
+
+DIDIx13#1337 - Bug Bot on 2018-12-03T19:08:13.786Z
+
+
+### Can reproduce.
+Windows 10 Home x64 V 1803, Release Channel: Canary 29240
+
+TacticalTechJay#8380 - Bug Bot on 2018-12-09T03:53:20.699Z
+
+
+### Can reproduce.
+also occurs for CTRL+A. Win 10, home, x64, Canary 29791
+
+dotmicron#8669 - Bug Bot on 2018-12-17T20:53:58.478Z
+
+
+### Can reproduce.
+Release Channel: canary, Build Number: 29791, Version Hash: 91fe31a6f31528f785ea3181dddce496e79e8ae2, Windows 10 Home x64 also sometimes works with ctrl + a
+
+Talon#5491 - Bug Bot on 2018-12-18T00:31:09.772Z
+
+
+### Can reproduce.
+Windows 7 x86 Canary 30284
+
+Marcel#1000 - Bug Bot on 2018-12-22T22:55:24.242Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803
+
+Nikguin04#6969 - Bug Bot on 2019-01-08T11:30:16.030Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 w/ Discord Canary 30591
+
+rubisco#4310 - Bug Bot on 2019-01-08T18:39:04.674Z
+
+
+### Can reproduce.
+windows 8.1 64 bit, canary build 30652
+
+RjGunner111#2001 - Bug Bot on 2019-01-10T14:49:40.061Z
+
+
+### Can reproduce.
+Microsoft Windows 10 Pro (10.0.17763), Canary (30706)
+
+Jojo#1234 - Bug Bot on 2019-01-10T21:10:41.724Z
+
+
+### Can reproduce.
+Can reproduce with Discord Canary 30794, Manjaro Linux x64 with kernel 4.19.12, Xfce 4.13
+
+Aranym#6778 - Bug Bot on 2019-01-12T01:02:42.463Z
+
+
+### Can reproduce.
+Discord Stable, Windows 10 Home Insider 18305.1003
+
+CyanoTex#2342 - Bug Bot on 2019-01-16T17:45:02.857Z
+
+
+### Can't reproduce.
+CNR Ctrl + Y , Ctrl + Z , Ctrl + A , Ctrl + T anymore, -  Canary - Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+Super#8276 - Bug Bot on 2019-01-17T04:05:05.302Z
+
+
+### Can reproduce.
+Release Channel: canary, Build Number: 30945, Version Hash: 4da68a253ad110d760d1c822dd664bfde3eef959 - WIndows 10 64-bit
+
+Lucifer#0066 - Bug Bot on 2019-01-17T04:36:15.812Z
+
+
+### As far as I can tell, I can't reproduce this anymore on Canary 0.0.300 31492. Windows 10 Pro 64-bit (1809). Moving to claimed fixed. - Tarek on 2019-01-30T03:29:21.644Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2019-01-30T03:29:26.428Z
+
+
+### Can't reproduce.
+Canary Build 31492 Host 0.0.229 Windows 10 Home x64 1803
+
+Rashaun#8467 - Bug Bot on 2019-01-30T03:30:43.425Z
+
+
+### Can't reproduce.
+Canary Build 31492 - Windows 7 Ultimate
+
+Super#8276 - Bug Bot on 2019-01-30T03:30:53.282Z
+
+
+### Can't reproduce.
+CNR anymore. -w 31492
+
+Frances Picard#6209 - Bug Bot on 2019-01-30T03:30:59.259Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-01-30T03:30:59.470Z
+
+
+### Archived by Bug Bot on 2019-03-01T04:00:32.937Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,69 @@
+Uploading the same image twice in a single message causes it to show as if it's uploading both but have only one image appear (https://trello.com/c/yrPQfMkO)
+
+None
+
+Created: 2020-04-18T17:43:53.065Z
+Latest Update: 2020-04-21T16:32:39.930Z
+
+Reported by shnx#8169
+
+####Steps to reproduce:
+- Add an image to your message by pressing the '+' sign and choosing from Discord image preview 
+- Add the same image to the same message again by pressing the '+' sign, then pressing the 'More options' icon (box with arrow coming out of it) 
+- Send message and observe
+
+####Expected result:
+Either only one image should load and only one be sent, or both images load and both be sent.
+####Actual result:
+Discord appears as if it will send both images but only sends one.
+####Client settings:
+Discord Beta 10.1.1
+####System settings:
+LG Stylo 3, Android 7.0
+
+50692
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-18T17:43:53.065Z
+
+
+### Can reproduce.
+CR, Discord 14-alpha1 (1060), LG G7 (LM-G710ULM20d), Android 9
+
+hopeless#1227 - Bug Bot on 2020-04-18T17:44:00.655Z
+
+
+### Can reproduce.
+Samsung Galaxy S6 Edge: Android Nougat 7.0; Discord 18.0-alpha7 (1098)
+
+Jiralite#1207 - Bug Bot on 2020-04-18T17:44:05.663Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha7 (1098)
+
+Ana940#9858 - Bug Bot on 2020-04-18T17:44:10.646Z
+
+
+### Can reproduce.
+CR, Moto G7, Android 9, Discord 18.0-Alpha7 (1098)
+
+wakfi#6999 - Bug Bot on 2020-04-18T19:24:54.355Z
+
+
+### Can reproduce.
+CR, Huawei P8 Lite, Android 6.0, Discord 17.1 (1101)
+
+dev#3346 - Bug Bot on 2020-04-18T22:23:16.235Z
+
+
+### Moved from User Reported Bugs to Keyboard + Input Bugs by Jeff Cailteux on 2020-04-21T16:32:39.994Z
+
+List
+====
+Keyboard + Input Bugs
+
+Members
+=======
+None

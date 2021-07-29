@@ -1,0 +1,133 @@
+All text remove doesn't work for quotes (https://trello.com/c/wh0NQIVr)
+
+None
+
+Created: 2019-12-13T14:43:04.513Z
+Latest Update: 2020-07-16T21:26:05.907Z
+
+Reported by Bsian | 光復香港，時代革命#1803
+
+####Steps to reproduce:
+- Type `>` to show the quote input box 
+- Type some text in 
+- Ctrl A, then backspace/Ctrl X to remove everything 
+- Note that this happened with code blocks as well, however that was fixed prior to the release of the new chat input box
+
+####Expected result:
+Everything including the quote should be cleared
+####Actual result:
+The quote doesn't clear, however if you Ctrl X then paste on a clean text box or in a text editor, the `>` is copied
+####Client settings:
+Canary 51387
+####System settings:
+Windows 10 Home v1903 Build 18362.476
+
+50331
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-13T14:43:04.513Z
+
+
+### Can reproduce.
+CR // Windows 10 Home x64 (1909) // Discord Canary Build: 51387
+
+Xelphos#0001 - Bug Bot on 2019-12-13T14:43:12.292Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Canary Build: 51387
+
+IamSushi#0001 - Bug Bot on 2019-12-13T14:43:17.381Z
+
+
+### Can reproduce.
+CR // Windows 10 // Discord Canary 51279
+
+Falkio#0001 - Bug Bot on 2019-12-13T14:43:22.310Z
+
+
+### Can reproduce.
+CR, Discord Canary 51279, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2019-12-13T17:22:31.278Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 51395 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-13T19:32:36.051Z
+
+
+### Can reproduce.
+Windows 10 Pro, v1903, Discord Canary 51395
+
+Hufy#0001 - Bug Bot on 2019-12-13T19:58:47.195Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.388), Discord Canary 51387
+
+Kissa#1337 - Bug Bot on 2019-12-13T23:22:33.542Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51395, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-13T23:26:57.310Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit (v1909), Discord Canary 0.0.259 Build 51425
+
+ryan#0570 - Bug Bot on 2019-12-14T00:15:16.592Z
+
+
+### Can reproduce.
+windows 10 home (1903) canary 51395
+
+Encrium#0004 - Bug Bot on 2019-12-14T01:48:07.504Z
+
+
+### Can reproduce.
+Windows 10 Home x64, version 1909 - Canary 51469 host 0.0.259
+
+anonymous kitten#5379 - Bug Bot on 2019-12-14T05:29:58.523Z
+
+
+### Can reproduce.
+Windows 10 64bit Version 1903, Discord Canary 51279
+
+Philip#0001 - Bug Bot on 2019-12-14T07:00:52.967Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) stable 51425 on chrome 78
+
+myacorn#6534 - Bug Bot on 2019-12-14T08:09:04.338Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 51469
+
+RPS1222#5127 - Bug Bot on 2019-12-14T18:10:49.490Z
+
+
+### Can reproduce.
+CR; W10 Home x64, 1903, Canary 51469
+
+Drakon#8640 - Bug Bot on 2019-12-16T02:17:57.232Z
+
+
+### Can reproduce.
+Windows 7, Discord Canary 51182
+
+Rohit#3523 - Bug Bot on 2019-12-19T09:41:20.199Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

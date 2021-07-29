@@ -1,0 +1,116 @@
+[Archived] The share extension does not remember your sharing location when upgrading to a major version of discord (https://trello.com/c/WQhyNzTK)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-24T15:29:40.127Z
+Latest Update: 2019-11-04T01:30:31.966Z
+
+Reported by ☘nickWtn☘#3789
+
+####Steps to reproduce:
+- First downgrade to any version of TestFlight 2.2.5 or if you have stable 2.2.5 stay on that 
+- Launch discord and let it start up  
+- Go to pictures and select a picture  
+- Tap the upload arrow and choose discord  
+- Select a location and upload it 
+- Now then, you can upgrade back to 2.2.6 TestFlight or 2.2.6 Stable  
+- Launch discord again and let it load 
+- Now go back to pictures  
+- Select an image and hit the upload arrow  
+- Select discord and observe where the location is
+
+####Expected result:
+The location is the same one you selected before upgrading like it does when you updated to a new TestFlight build (like going from 3415 to 3440)
+####Actual result:
+The location changes to DM’s
+####Client settings:
+TestFlight 2.2.6 (3440)
+####System settings:
+iPod Touch 6th generation, iOS 11.2.6
+
+9828
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-24T15:29:40.127Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.5 (3054) -> 2.2.6 (3440)
+
+mrkirby153#7840 - Bug Bot on 2018-03-24T15:29:47.474Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.6 (3440) from TestFlight 2.2.5 (3054); It updates again by switching channel and back again.
+
+HeroGamers#0001 - Bug Bot on 2018-03-24T15:29:52.488Z
+
+
+### Can reproduce.
+iPhone SE, iOS 10.3.2, TestFlight 2.2.5 (3054) , from TestFlight 2.2.5 (3054)
+
+TimThe#1118 - Bug Bot on 2018-03-24T15:29:57.510Z
+
+
+### Can reproduce.
+iPhone SE, iOS 10.3.2, TestFlight 2.2.6 (3440) , from TestFlight 2.2.5 (3054)
+
+TimThe#1118 - Bug Bot on 2018-03-24T15:31:31.759Z
+
+
+### I can reproduce this P3, moving to Verified Bugs.
+
+Discord 2.2.7 (3519), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-05T06:17:49.119Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2018-04-05T06:17:59.810Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:47.284Z
+
+
+### Unarchived by Pascal on 2019-10-03T16:32:48.428Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.4 (17524) with iPad Pro (11-inch) running iPadOS 13.1.2.
+
+Note: The share extension should also use your last viewed channel when there was one selected. 
+
+Moving to Claimed Fixed list. - Pascal on 2019-10-03T16:34:17.861Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-10-03T16:34:24.854Z
+
+
+### Can't reproduce.
+CNR, iPad iOS 12.4.2, TestFlight 3.1.4 (17524)
+
+Action Potential#6862 - Bug Bot on 2019-10-04T15:03:42.485Z
+
+
+### Can't reproduce.
+iPhone XR iOS 13.1.2 TestFlight 3.1.4 (17575)
+
+binchlord#0998 - Bug Bot on 2019-10-05T00:23:03.949Z
+
+
+### Can't reproduce.
+iPhone 11, iOS 13.2 (dev beta) - TestFlight 3.1.4 (17575)
+
+Xylium#5800 - Bug Bot on 2019-10-05T01:00:42.670Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-10-05T01:00:43.082Z
+
+
+### Archived by Bug Bot on 2019-11-04T01:30:31.980Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

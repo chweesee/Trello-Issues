@@ -1,0 +1,82 @@
+[Archived] When you type the 2FA code manually in the enable 2FA text field, the keyboard remains open. (https://trello.com/c/WCPJe3ZR)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-12T02:47:39.768Z
+Latest Update: 2019-04-12T22:00:02.623Z
+
+Reported by The Lunala#6877
+
+####Steps to reproduce:
+- Disable 2FA if you have it enabled. 
+- Go to Settings>My Account>Enable 2FA. 
+- Do as you are asked to. 
+- In the second step, after entering the key in authy/google authenticator app, don't copy the code. 
+- Go back to Discord. 
+- Open keyboard. 
+- Type the code manually.
+
+####Expected result:
+The keyboard closes after 2FA is successfully enabled.
+####Actual result:
+The keyboard remains open even after 2FA has successfully been enabled.
+####Client settings:
+Discord Alpha 856
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+30769
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-12T02:47:39.768Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.5.6
+
+neuzoid#0510 - Bug Bot on 2019-03-12T02:47:47.231Z
+
+
+### Can reproduce.
+Intex Aqua N7, Android 5 856
+
+Stardust#2476 - Bug Bot on 2019-03-12T02:47:52.211Z
+
+
+### Can reproduce.
+Samsung Galaxy S9+ Android 9.0 8.5.6
+
+Zacatero#0001 - Bug Bot on 2019-03-12T02:47:57.218Z
+
+
+### Can reproduce.
+[CR] Xiaomi Redmi 5A, Android 7.1.2 N2G47H (MIUI 10.1.1.0 Global Stable), Discord Alpha 856. Note: Steps 2-7 is not required, keyboard remains on the end of step 1
+
+StrangeThoughts#4752 - Bug Bot on 2019-03-12T06:15:13.331Z
+
+
+### Can reproduce.
+Samsung S8, Android 9.0, 8.5.6
+
+Mr. Proper#2394 - Bug Bot on 2019-03-12T16:19:38.595Z
+
+
+### Can reproduce.
+CR. Alpha 8.5.6 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-03-13T13:29:58.421Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T21:30:06.251Z
+
+
+### Archived by Bug Bot on 2019-04-12T22:00:02.635Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

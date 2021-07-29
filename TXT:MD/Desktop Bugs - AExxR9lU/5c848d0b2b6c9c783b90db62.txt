@@ -1,0 +1,84 @@
+Screen sharing is turning MacOS "binoculars icon" ON, but never turning OFF (https://trello.com/c/QNhRAdA2)
+
+P2: Fix can wait a while
+
+Created: 2019-03-10T04:05:31.973Z
+Latest Update: 2019-11-18T22:11:06.656Z
+
+Reported by Thiago#3958
+
+####Steps to reproduce:
+- Be on MacOS 
+- Lock your screen (ctrl+cmd+q), you shouldn't see any binoculars icon there. (unless something else is recording your screen) 
+- Go back to Discord, call someone (he/she doesn't even need to accept the call), start screen sharing. 
+- Before the call ends, lock your screen again, the binoculars icon is going to be there. 
+- Go back to Discord, end the call and check the login screen again, icon still there. 
+- Cmd+Q on Discord to finally remove the binoculars icon. (and stop whatever he is still doing)
+
+####Expected result:
+Discord should close/end whatever OS API/hook that indicates that your screen is being recorded.
+####Actual result:
+Discord isn't closing/ending whatever OS API/hook that indicates that your screen is being recorded.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 33595, Version Hash: 94aaffb8f10756bbbf0ec4c8fb61af0493cbf487
+####System settings:
+macOS Mojave 10.14.3
+
+30526
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-10T04:05:31.973Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Canary 33683
+
+Isabel#0002 - Bug Bot on 2019-03-10T04:05:39.331Z
+
+
+### Can reproduce.
+Macbook Air (13", 2017), MacOS Mojave 10.14.3, Stable build 33683
+
+Helvetica#7256 - Bug Bot on 2019-03-10T04:05:44.317Z
+
+
+### Can reproduce.
+CR, macos 10.14.4, Canary 33683
+
+Action Potential#2494 - Bug Bot on 2019-03-10T04:05:49.328Z
+
+
+### Can reproduce.
+macos 10.14.4, Canary 33683
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-10T16:25:21.940Z
+
+
+### Can reproduce.
+macos 10.14.4,
+
+tech_dude1#9855 - Bug Bot on 2019-03-10T22:48:08.568Z
+
+
+### Can reproduce.
+CR; MacBook Pro 13" 2016, macOS Mojave 10.14.3, Canary 33683
+
+Skyla#0002 - Bug Bot on 2019-03-11T08:13:29.910Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T20:39:31.867Z
+
+
+### Can reproduce.
+mbp 2018, 10.15.1
+
+nepcwч#3886 - Bug Bot on 2019-11-18T22:11:06.670Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

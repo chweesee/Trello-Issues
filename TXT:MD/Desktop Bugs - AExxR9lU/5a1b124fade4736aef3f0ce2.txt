@@ -1,0 +1,82 @@
+[Archived] When you mark a whole server as read, the unread white dot indicators won't diseappear until you Ctrl+R Discord (https://trello.com/c/IhSqkzjn)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-11-26T19:13:19.307Z
+Latest Update: 2017-12-30T08:33:07.332Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a server with many unread channels 
+- Right click on server icon and "Mark as Read". Only reproducable for servers, not for channels or categories
+
+####Expected result:
+All channels in the server are marked as read and all unread indicators will go away instantly
+####Actual result:
+The channels are actually marked as read, but the unread indicators will stay until your refresh Discord with Ctrl+R
+####Client settings:
+Discord Canary 7653
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+6636
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-26T19:13:19.307Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1709 (Canary build 7653, v 0.0.180)
+
+TimThe#7618 - Bug Bot on 2017-11-26T19:13:30.397Z
+
+
+### Can reproduce.
+Windows 7 Professional x64, Latest Discord Canary
+
+fluffycq#6938 - Bug Bot on 2017-11-26T19:13:32.108Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 1703 Canary 0.0.180
+
+ZenIsBestWolf#0446 - Bug Bot on 2017-11-26T19:13:36.786Z
+
+
+### Can reproduce.
+Google Chrome    62.0.3202.82 (Official Build) (64-bit), Release Channel: canary, Build Number: 7653 [Canary Webclient. Currently Supported.] The messages are not marked as read as all.
+
+Senhara#5373 - Bug Bot on 2017-11-26T19:14:59.655Z
+
+
+### Possibly just due to the incident happening and not an actual bug.
+
+Ten 🎁#1723 - Bug Bot on 2017-11-26T19:41:24.085Z
+
+
+### Indeed this was linked to the recent incident with Direct messages for some reason. Bug fixed
+
+Alex1304#9704 - Bug Bot on 2017-11-26T20:20:29.901Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2017-11-28T21:16:20.692Z
+
+
+### Related to server outages - Clayton on 2017-11-28T21:16:29.346Z
+
+
+### Archiving this card because it's been in the Not a Bug list for more than a month with no new activity. - Alexandru Todea on 2017-12-30T08:33:05.759Z
+
+
+### Archived by Alexandru Todea on 2017-12-30T08:33:07.335Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

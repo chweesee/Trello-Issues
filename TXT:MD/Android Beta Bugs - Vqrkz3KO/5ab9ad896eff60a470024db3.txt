@@ -1,0 +1,79 @@
+[Archived] When switching between read channels that both contain blocked messages the chat will jump up towards (presumably) the oldest loaded blocked message (https://trello.com/c/vfQolTke)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-03-27T02:33:45.894Z
+Latest Update: 2019-06-10T20:44:13.793Z
+
+Reported by RME#3050
+
+####Steps to reproduce:
+- Have two channels in which messages have been posted by users you blocked (the messages don't have to be from the same user; for the best result make sure the blocked messages are a little bit up) 
+- Switch from channel A to B 
+- Observe your position in the chat
+
+####Expected result:
+Your position in chat should still be at the bottom as you've already caught up with everything.
+####Actual result:
+You're being jumped back to the earliest blocked message that has been loaded by the app.
+####Client settings:
+Alpha 6.4.4
+####System settings:
+OnePlus 3T Android O (8.0.0)
+
+9879
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-27T02:33:45.894Z
+
+
+### RME#3050 - https://youtu.be/y04UK6usOW8 added by Bug Bot on 2018-03-27T02:33:48.378Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.4
+
+fujhofn.#0878 - Bug Bot on 2018-03-27T02:33:53.271Z
+
+
+### Can reproduce.
+The blocked message must not be the latest message to observe that bug. Discord Alpha 6.4.4, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-03-27T02:33:58.258Z
+
+
+### Can reproduce.
+CR Discord 6.4.4 Kyocera Hydro Wave Android 5.1
+
+Okori#0902 - Bug Bot on 2018-03-27T02:34:03.273Z
+
+
+### Verified.  - Clayton on 2018-04-06T09:05:13.552Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-06T09:05:16.496Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:37.933Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 832
+
+The Lunala#7777 - Bug Bot on 2019-01-20T16:25:21.363Z
+
+
+### Unarchived by Bug Bot on 2019-01-20T16:30:04.512Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:13.812Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

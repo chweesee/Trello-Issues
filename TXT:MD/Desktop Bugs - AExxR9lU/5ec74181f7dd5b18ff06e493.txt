@@ -1,0 +1,69 @@
+[a11y] when slowmode at 2 minutes+, keyboard arrow keys get stuck for the slider (https://trello.com/c/ERZ4dNGx)
+
+None
+
+Created: 2020-05-22T03:05:37.227Z
+Latest Update: 2020-05-26T20:02:15.758Z
+
+Reported by hopeless#1227
+
+####Steps to reproduce:
+- use arrow keys to set slowmode when slowmode less than 2 minutes 
+- set slowmode to 2 minutes or more 
+- attempt to use arrow keys to set slowmode when slowmode is 2 minutes or more
+
+####Expected result:
+slowmode values larger than 2 minutes can be set with arrow keys
+####Actual result:
+arrow keys get stuck on the slider past 2 minutes
+####Client settings:
+stable 60516
+####System settings:
+Win10 v1709 x64 build 16299.1625 Education, chrome dev 84.0.4143.2
+
+56350
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-22T03:05:37.227Z
+
+
+### Can reproduce.
+MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 60530 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-05-22T03:05:44.635Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 60561 (0224963), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-05-22T03:05:49.647Z
+
+
+### Can reproduce.
+Can reproduce, Canary 60561 (0224963) Host 0.0.248 OS X 10.15.4 (19.4.0)
+
+JBYoshi#5551 - Bug Bot on 2020-05-22T03:05:54.656Z
+
+
+### Can reproduce.
+[CR] Windows 10 Home x64; Version 1903 (18362.778); Canary (60661) & Linux 3.18.0, Canary (60661)
+
+AmusingDev#7879 - Bug Bot on 2020-05-22T10:45:25.577Z
+
+
+### Can reproduce.
+Windows 10 Pro // Canary 60661 (578c2e8)
+
+nicO#7232 - Bug Bot on 2020-05-24T21:48:11.995Z
+
+
+### Moved from User Reported Bugs to a11y by Jon Egeland on 2020-05-26T20:02:15.772Z
+
+List
+====
+a11y
+
+Members
+=======
+None

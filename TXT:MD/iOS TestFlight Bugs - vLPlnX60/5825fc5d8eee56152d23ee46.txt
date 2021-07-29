@@ -1,0 +1,45 @@
+[Archived] Embedded gifs don't show the gif tag while uploads do (https://trello.com/c/1WF4Z1Ac)
+
+None
+
+Created: 2016-11-11T17:14:05.741Z
+Latest Update: 2019-04-22T07:47:40.672Z
+
+Reported by Dougley#6248
+
+####Steps to reproduce: 
+- Upload a gif to a chat 
+- Paste a link to a gif in the chat 
+- Notice the difference 
+
+####Expected result:
+ Both have a gif tag 
+####Actual result:
+ Only the link has a gif tag System: Latest testflight ios 10.2 PB2
+
+Card Log
+========
+### Added by Jared on 2016-11-11T17:14:05.741Z
+
+
+### 107904023901777920 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5825fc5d8eee56152d23ee46/de8cd82b647394686badce80dc7e22f1/IMG_0961.PNG added by Jared on 2016-11-11T21:06:39.557Z
+
+
+### This is because when you would upload a gif, it converts it to an image.  This has been a bug since forever.  Should be fixed soon though~~~ - Shadi Isber on 2016-11-19T06:35:49.192Z
+
+
+### Imported from https://trello.com/b/57aa5eeb2d5beb81981c05aa by Shadi Isber on 2016-11-23T23:11:12.455Z
+
+
+### I was wrong, there was a bug.  Fixed in testflight. - Shadi Isber on 2016-11-23T23:11:42.999Z
+
+
+### Archived by Fanghao on 2016-11-30T06:05:04.629Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

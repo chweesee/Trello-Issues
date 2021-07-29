@@ -1,0 +1,101 @@
+jump urls dont work if masked (https://trello.com/c/WD5FyVBu)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-06-11T22:55:04.341Z
+Latest Update: 2020-04-14T01:07:31.470Z
+
+Reported by Sinbad#0001
+
+####Steps to reproduce:
+- Have a bot format a message jump url to provide context to a quote
+
+####Expected result:
+clicking the masked link should still jump
+####Actual result:
+browser opens, which then jumps to the message
+####Client settings:
+Linux Desktop client, latest stable
+####System settings:
+Ubuntu 18.04, DE: KDE plasma, can also repro on Win7
+
+14045
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-11T22:55:04.341Z
+
+
+### Can reproduce.
+Discord Canary 0.0.210 (16727) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-06-11T22:55:11.754Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Mojave (18A293u) Canary Build 16727
+
+Kuuhaku#4503 - Bug Bot on 2018-06-11T22:55:16.829Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 16727
+
+Xylium#1480 - Bug Bot on 2018-06-11T22:55:21.812Z
+
+
+### Can reproduce.
+Windows 10 Education 64-bit (1803), Canary 16727
+
+dasnull#0001 - Bug Bot on 2018-06-12T01:31:08.743Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-14T20:48:16.673Z
+
+
+### Verified - Jared on 2018-06-14T20:48:19.990Z
+
+
+### mouse#0091 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b1efdc8c1d6f17d94410234/0445555cda4e80a71782b4aa682cfcc8/k14X36W.gif added by Bug Bot on 2018-07-15T22:07:30.884Z
+
+
+### Cannot repro anymore Canary 25648, moving to claimed fixed - Tarek on 2018-10-06T15:25:48.311Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-10-06T15:25:53.948Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-21T05:20:38.579Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:56:36.866Z
+
+
+### Archived by Tarek on 2019-01-01T15:56:37.691Z
+
+
+### Unarchived by Clayton on 2019-03-02T03:31:50.991Z
+
+
+### Moved from Verified Fixed to Reopened by Clayton on 2019-03-02T03:32:05.347Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary 52491
+
+Grandma#1234 - Bug Bot on 2020-01-11T22:36:06.912Z
+
+
+### Can't reproduce.
+CNR, Canary 58016 (2816534), Host 0.0.264, Windows 10 64-Bit (10.0.18363). Cannot repro using masked jump link in an embed, I don't know another way to mask a link on Discord
+
+wakfi#6999 - Bug Bot on 2020-04-14T01:07:31.480Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

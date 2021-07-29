@@ -1,0 +1,84 @@
+[Archived] Audit log displays wrong info about pruning members action (https://trello.com/c/7CXD1pqt)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-05T11:31:03.489Z
+Latest Update: 2018-07-06T18:17:25.540Z
+
+Reported by dzikakulka#2544
+
+####Steps to reproduce:
+- Open server settings, Members, click "Prune" 
+- Choose the "more than 30 days ago" option, confirm "Prune" 
+- Open server settings, Audit Log, expand recent prune action entry
+
+####Expected result:
+Audit Log entry states that action was performed with the "30 days of inactivity" option
+####Actual result:
+Audit Log entry states that prune was performed "For a day of inactivity"
+####Client settings:
+Desktop Stable 0.0.298
+####System settings:
+Windows 7 x64 Professional N
+
+3952
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-05T11:31:03.489Z
+
+
+### Can reproduce.
+CR, it should have shown "more than 30 days" of inactivity. Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163
+
+AviationMaster#4793 - Bug Bot on 2017-09-05T11:31:10.963Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-09-05T11:31:15.876Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (3838)
+
+Tiemen#0107 - Bug Bot on 2017-09-05T11:31:20.990Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-05T19:18:47.634Z
+
+
+### Verified.  - Clayton on 2017-09-06T01:54:54.416Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-06T01:55:00.458Z
+
+
+### This isn't a P2, down grading priority. - Jared on 2017-10-17T00:13:48.949Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jake Heinz on 2018-02-21T08:46:28.515Z
+
+
+### Cannot reproduce anymore, Discord Canary 11055. Moving to claimed fixed. - Tarek on 2018-02-22T15:35:53.142Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2018-02-22T15:35:58.939Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:17:24.338Z
+
+
+### Archived by Jared on 2018-07-06T18:17:25.542Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/jhgg) - No Bio

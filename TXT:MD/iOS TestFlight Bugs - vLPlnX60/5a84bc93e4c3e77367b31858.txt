@@ -1,0 +1,79 @@
+[Archived] Share extension doesn’t give the “discord doesn’t have access to your photos message”, when you have photos disabled for discord. (https://trello.com/c/8nTgvjxv)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2018-02-14T22:47:47.086Z
+Latest Update: 2019-08-13T11:30:02.637Z
+
+Reported by ❤nickWtn❤#3789
+
+####Steps to reproduce:
+- Go to iOS settings, and scroll down to discord  
+- Select discord and go to the photo permissions 
+- Select never and close out of settings  
+- Now go to photos and find a picture you want to share  
+- Hit the square with a arrow pointing up 
+- Scroll over to discord and select it 
+- Set the server location and hit post
+
+####Expected result:
+you should get a notification saying discord doesn’t have access to photos
+####Actual result:
+It posts the image
+####Client settings:
+TestFlight 2.2.3 ( 2617)
+####System settings:
+iPod Touch 6 generation, iOS 11.2.5
+
+8799
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-14T22:47:47.086Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 2 | TestFlight 2.2.3 (2617)
+
+Pascal#0929 - Bug Bot on 2018-02-14T22:47:54.483Z
+
+
+### Can reproduce.
+CR, TestFlight 2.2.3 (2617), iOS 11.2.5, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-02-14T22:47:59.479Z
+
+
+### Can reproduce.
+CR, iPhone 8 +, iOS 11.3, Discord TestFlight 2.2.3 (2617)
+
+Ghoul#0009 - Bug Bot on 2018-02-14T22:48:04.468Z
+
+
+### Might be an iOS bug because this also happens with other apps.
+
+Pascal#0929 - Bug Bot on 2018-02-15T11:43:11.181Z
+
+
+### Verified.  - Clayton on 2018-02-15T21:54:58.915Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T21:55:10.890Z
+
+
+### This bug was reported in t he 3/16 trello cleaning event as being "NAB". I am writing this as confirmation that it is indeed a bug. - Jared on 2018-03-19T18:19:14.056Z
+
+
+### 54D#1357 - https://youtu.be/MCdCO9LGgtg added by Bug Bot on 2018-07-14T05:47:34.209Z
+
+
+### Archived by Bug Bot on 2019-08-13T11:30:02.657Z
+
+List
+====
+Backlog
+
+Members
+=======
+Unknown User (https://trello.com/mrkcsc) - No Bio

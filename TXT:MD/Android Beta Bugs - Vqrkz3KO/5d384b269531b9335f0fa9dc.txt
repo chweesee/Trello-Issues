@@ -1,0 +1,95 @@
+Clicking on Quick Switch two Voice Channels on the same guild will spam unlimited requests and attempt to connect 'til it errors oit (https://trello.com/c/qAZ7IbPk)
+
+P1 - Severe,
+Low
+
+Created: 2019-07-24T12:12:22.784Z
+Latest Update: 2020-06-28T13:50:08.195Z
+
+Reported by Law of Royale#4167
+
+####Steps to reproduce:
+- Start Discord 
+- Open the Quick Switch 
+- Add the Voice Channel filter or the cheat '!' 
+- Now hold two voice channels from the Quick Switch that are in the same guild 
+- Let it free
+
+####Expected result:
+Just connects to a voice channel
+####Actual result:
+Switches in an extremely fast way the focus and attempts connect to both voice channels
+####Client settings:
+Discord 9.2.3
+####System settings:
+Motorola Moto One Vision, Android 9.0
+
+40360
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-24T12:12:22.784Z
+
+
+### Law of Royale#4167 - https://youtu.be/ilnk2tuo7fw added by Bug Bot on 2019-07-24T12:12:25.490Z
+
+
+### Can reproduce.
+CR, if done with more then 2 the app crashes for me Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.2.3
+
+Krobo#4784 - Bug Bot on 2019-07-24T12:12:30.493Z
+
+
+### Can reproduce.
+CR — Huawei Y9, Android 9 — Alpha 923 — Can be done with 3 or more channels. But that might crash Discord.
+
+Bullseye#8200 - Bug Bot on 2019-07-24T12:12:35.489Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 8.1 (Oreo) • Discord Alpha 9.2.3 (923) • I get this in Debug: 
+"streamVoiceChannelSelected
+android.net.ConnectivityManager$TooManyRequestsException"
+
+FoxyKero#5245 - Bug Bot on 2019-07-24T12:12:40.544Z
+
+
+### Can reproduce.
+CR. Huawei P20 Lite (ANE-LX1) Android EMUI 9.1, Alpha 9.2.3
+
+Lasagna#1019 - Bug Bot on 2019-07-24T14:36:57.952Z
+
+
+### Can reproduce.
+LG K7, Android 5.1.1 - Alpha 9.2.3
+
+Ness#5718 - Bug Bot on 2019-07-24T15:22:32.927Z
+
+
+### Something to fix, but given the nature of this bug, probably rare so deprioritizing. It's also an easy state to exit. - Sam Shih on 2019-07-24T17:38:04.906Z
+
+
+### Can't reproduce.
+Samsung Galaxy Tab A, Android 8.1, Discord 9.4.8
+
+Suspense#4615 - Bug Bot on 2019-09-02T15:39:15.744Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord Alpha 953
+
+Jean20B#4668 - Bug Bot on 2019-09-11T17:38:29.473Z
+
+
+### Can't reproduce.
+Motorola Moto G6+, Android 9, Discord 28.3 (1173)
+
+ent3r_#8868 - Bug Bot on 2020-06-28T13:50:08.207Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

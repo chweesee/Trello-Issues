@@ -1,0 +1,86 @@
+[Archived] Discord removing all audio output devices except default (https://trello.com/c/obXxmtQl)
+
+P2: Fix can wait a while
+
+Created: 2017-05-03T23:09:12.992Z
+Latest Update: 2017-12-02T17:27:01.734Z
+
+Reported by NuclearCore.#7762
+
+####Steps to reproduce: 
+- Go to Windows audio settings 
+- Select any other playback / recording device 
+- Set it as default 
+- (optional) Change it back to what it was before 
+- Go to Discord Client Settings 
+- Go to voice 
+- Open Dropdown menu "Output Device" 
+
+####Expected result:
+ Being able to change output devices however you want. 
+####Actual result:
+  Only "Default" appears and cannot be changed. 
+####System settings:
+ Win 10 x64, latest Discord Canary build
+
+1353
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-03T23:09:12.992Z
+
+
+### Can reproduce.
+Win10 s64 Latest Canary
+
+OGNovuh#0014 - Bug Bot on 2017-05-03T23:09:13.880Z
+
+
+### Can reproduce.
+Win10(x64), Discord Canary
+
+WorseDoughnut 🍩#4827 - Bug Bot on 2017-05-03T23:09:15.589Z
+
+
+### Can reproduce.
+Windows 10 x64 & Latest Canary
+
+Immotay#2748 - Bug Bot on 2017-05-03T23:09:17.795Z
+
+
+### Verified. An app refresh restores them.  - Clayton on 2017-05-19T03:19:57.335Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-19T03:20:02.587Z
+
+
+### Can reproduce.
+Windows 10 Professional x64, Canary 0.0155
+
+IzzyBizzy#2088 - Bug Bot on 2017-06-06T04:06:57.407Z
+
+
+### Cannot reproduce - Jared on 2017-10-16T21:53:36.903Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jared on 2017-10-16T21:53:41.334Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T23:36:11.023Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:27:00.670Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:27:01.737Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

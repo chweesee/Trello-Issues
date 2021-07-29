@@ -1,0 +1,87 @@
+[Archived] Sending a message that causes a revealed spoiler to go partially out of view rehides the spoiler (https://trello.com/c/61o0eGGd)
+
+None
+
+Created: 2019-02-20T14:30:47.689Z
+Latest Update: 2019-03-28T08:00:25.120Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Send a multi-line spoiler message 
+- Send a few messages until the spoiler goes partially off the top of the screen 
+- Observe the spoiler when it goes partially out of view
+
+####Expected result:
+Spoiler remains revealed because it is still in view
+####Actual result:
+Spoiler rehides when it goes partially out of view
+####Client settings:
+TestFlight 2.4.5 (11416)
+####System settings:
+iPhone 6s iOS 12.2 Dev Beta 2
+
+29293
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-20T14:30:47.689Z
+
+
+### Can reproduce.
+CR (only with multi line spoilers as mentioned in report) - iPhone 7 iOS 12.2 dev beta 2 TF 2.4.5 (11416)
+
+Marek#0691 - Bug Bot on 2019-02-20T14:30:55.095Z
+
+
+### Can reproduce.
+CR // iPhone 8 Plus // iOS 12.1.4 // TestFlight 2.4.5 (11416) // NOTE: Only works with multi line spoilers as it’s said in the report
+
+Falkio#0001 - Bug Bot on 2019-02-20T14:31:00.116Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.2 (dev beta 3) - TestFlight 2.4.5 (11416)
+
+Xylium#5800 - Bug Bot on 2019-02-20T14:31:05.146Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11416) - - Looks like when the keyboard is open, it causes the app to think the spoiler is further up than it actually is, hiding the spoiler since it's so far out of view.
+
+Solo#0007 - Bug Bot on 2019-02-20T14:33:09.118Z
+
+
+### Can reproduce.
+iPhone X iOS 12.1.4 TestFlight 2.4.5
+
+Darth#9386 - Bug Bot on 2019-02-20T14:35:36.118Z
+
+
+### Can reproduce.
+iPhone X, IOS 12, TestFlight 2.4.5
+
+Mr. Proper#2394 - Bug Bot on 2019-02-20T15:16:34.561Z
+
+
+### Moved from New Issues to Spoilers by Jonathan Wu on 2019-02-20T19:15:09.616Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11460)
+
+Daffyduck#5364 - Bug Bot on 2019-02-21T21:19:26.181Z
+
+
+### Moved from Spoilers to Won't Fix by Fanghao on 2019-02-26T07:56:23.300Z
+
+
+### Archived by Bug Bot on 2019-03-28T08:00:25.128Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

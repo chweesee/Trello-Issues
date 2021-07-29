@@ -1,0 +1,68 @@
+[Archived] Default server icon with long names are cut off in Settings (https://trello.com/c/vM8RsWwT)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-06-30T05:10:51.274Z
+Latest Update: 2018-10-22T20:14:29.166Z
+
+Reported by brian#0632
+
+####Steps to reproduce:
+- Open Server Settings on a server without an icon 
+- Change the server name to something with more than 6 words separated by spaces 
+- (Note: when exiting the server settings, look at the side, and see how it isn't cut-off)
+
+####Expected result:
+The server icon rendered at the side is like the one in the settings.
+####Actual result:
+The server icon on the settings has cut-off words (which also are ignoring the circular frame)
+####Client settings:
+0.0.157 Canary (Latest)
+####System settings:
+Windows 10 15063.413
+
+1955
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-30T05:10:51.274Z
+
+
+### Can reproduce.
+CR, macOS 10.12.4
+
+NubbyTM#6817 - Bug Bot on 2017-06-30T05:10:55.741Z
+
+
+### can repro  windows 10 pro x64
+
+Melroy#5344 - Sam on 2017-06-30T17:36:27.416Z
+
+
+### Win 10 x64 Canary v0.0.157
+
+Sloofy#9106 - Sam on 2017-06-30T17:36:40.389Z
+
+
+### Verified - Clayton on 2017-07-05T20:12:44.256Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-05T20:12:53.066Z
+
+
+### Long names = P3. Low priority. - Jared on 2017-10-17T06:36:56.284Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5955dd5b0892e2df7b5faf56/9a5fe3caec863a3cb5c5d6858852f3f9/44J8yGv.png added by Bug Bot on 2018-07-14T10:45:13.948Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:29.168Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

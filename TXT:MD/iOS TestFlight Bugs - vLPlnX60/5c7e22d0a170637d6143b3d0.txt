@@ -1,0 +1,116 @@
+[Archived] Reinstalling discord and immediately going to channel list in server settings and closing out causes a crash [SE Specific] (https://trello.com/c/LzNreBBD)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-05T07:18:40.948Z
+Latest Update: 2019-05-24T07:30:20.349Z
+
+Reported by evilpauwse#9985
+
+####Steps to reproduce:
+- Make sure discord isn't running in the background 
+- Uninstall discord 
+- Install the latest TestFlight build.
+- Log into discord 
+- before doing anything else go to a server where you have manage channel 
+- Open the channel menu 
+- close out of the channel menu (speed doesn't matter) 
+- close out of server settings
+
+####Expected result:
+It should return you to the chat
+####Actual result:
+Discord hard crashes to the home screen
+####Client settings:
+TestFlight 11756
+####System settings:
+iPhone SE - iOS 12.0.0
+
+30324
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-05T07:18:40.948Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.6 (11756)
+
+Daffyduck#5364 - Bug Bot on 2019-03-05T07:18:48.340Z
+
+
+### Can reproduce.
+can repro took multiple tries  iPhone SE, iOS 12.1.4 - TestFlight 2.4.6 (11756)
+
+tech_dude1#9855 - Bug Bot on 2019-03-05T07:18:53.350Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.4.6 (11756)
+
+Jengas#7777 - Bug Bot on 2019-03-05T07:18:58.328Z
+
+
+### Can reproduce.
+iPhone X, IOS 12, TestFlight 2.4.6
+
+Mr. Proper#2394 - Bug Bot on 2019-03-05T14:31:22.899Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.6 (11756)
+
+Trash™#3939 - Bug Bot on 2019-03-05T19:25:30.798Z
+
+
+### Can reproduce.
+not iphone se specific; iphone 5c ios 10.3.3, tf 2.4.6 (11756)
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-05T20:18:30.263Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.4.6
+
+Killtracity#0001 - Bug Bot on 2019-03-05T23:25:54.568Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-03-15T19:00:05.025Z
+
+
+### I was told that this bug has been fixed as of iOS TestFlight 2.5.2 (14408) by a Bug Hunter who have iPhone SE. So moving to Claimed Fixed so they can verify. - Ghoul on 2019-04-24T01:40:36.478Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Ghoul on 2019-04-24T01:40:42.342Z
+
+
+### Can't reproduce.
+CNR iPhone SE - iOS 12.0.0 - TF 14408
+
+evilpauwse#9985 - Bug Bot on 2019-04-24T01:43:21.851Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 2.5.2 (14408)
+
+Daffyduck#5364 - Bug Bot on 2019-04-24T01:46:59.672Z
+
+
+### Can't reproduce.
+CNLR, iPhone 7+ iOS 12.2, Testflight 2.5.2 (14408)
+
+Clay#0001 - Bug Bot on 2019-04-24T07:25:20.451Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-24T07:25:20.641Z
+
+
+### Archived by Bug Bot on 2019-05-24T07:30:20.363Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

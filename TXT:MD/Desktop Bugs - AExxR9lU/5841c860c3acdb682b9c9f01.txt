@@ -1,0 +1,40 @@
+[Archived] Razer Kraken Chroma 7.1: notification sounds randomly spike loudly when clicking mic/deafen icons. (https://trello.com/c/JTxcfhWb)
+
+None
+
+Created: 2016-12-02T19:15:44.626Z
+Latest Update: 2017-08-16T19:56:55.108Z
+
+Several reports that users using this specific headset + razer synapse will randomly get loud volume spikes and/or clicking noises.
+
+Card Log
+========
+### Added by Jared on 2016-12-02T19:15:44.626Z
+
+
+### Hotfixed by opening mixer in razer synapse and changing audio slider to another position then back
+
+MattBSG#9263 - Jared on 2016-12-02T19:46:46.097Z
+
+
+### Can reproduce.
+macOS 10.12.6  This happens but it's worse in the new build. Sounds like a helecopter on steriods and voice channels sound quality sounds worse than a broken record. Makes discord unusable. On the most recent both stable (0.0248) and canary build (0.0.154) but not the last stable build.
+
+darkmastermindz#7841 - Bug Bot on 2017-08-09T09:37:21.762Z
+
+
+### Moved from Cannot Reproduce to Not a Bug by Jared on 2017-08-09T16:32:07.571Z
+
+
+### We've narrowed this down to a problem with Synapse. It installs "audio enhancements" that sometimes get corrupted during initial installation. Reinstalling Synapse has fixed this issue in previous situations. - Jared on 2017-08-09T16:32:48.834Z
+
+
+### Archived by Jared on 2017-08-16T19:56:55.112Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

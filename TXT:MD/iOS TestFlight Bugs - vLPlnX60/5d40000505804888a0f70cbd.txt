@@ -1,0 +1,103 @@
+When scrolling down certain member lists Discord crashes [BLOCKED] (https://trello.com/c/JAiS6Teg)
+
+None
+
+Created: 2019-07-30T08:29:57.305Z
+Latest Update: 2019-09-25T06:44:18.100Z
+
+Reported by danny#9999
+
+####Steps to reproduce:
+- Open Discord on phone 
+- Find a server that has a lot of members and no hoisted roles (Discord Developers for example) 
+- Scroll to a channel and look for the loading screen or lines on the member list 
+- Attempt to scroll down
+
+####Expected result:
+Discord should disallow it or load members
+####Actual result:
+Discord crashes
+####Client settings:
+Testflight 3.0.8 16488
+####System settings:
+iPhone 7, iOS 13.0 Beta 3
+
+40989
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-30T08:29:57.305Z
+
+
+### Ghoul#3232 - https://www.youtube.com/watch?v=43e6nqCGNjA&feature=youtu.be added by Bug Bot on 2019-07-30T08:29:59.958Z
+
+
+### Can reproduce.
+Can reproduce on iPhone XS Max running iOS 13 Dev Beta 3 on iOS Stable 3.0.8
+
+Ghoul#3232 - Bug Bot on 2019-07-30T08:30:05.053Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.4 - TestFlight 3.0.8 (16488)
+
+Daffyduck#5364 - Bug Bot on 2019-07-30T08:30:10.078Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 - Stable 3.0.8 if you are in the server, make sure you force close discord first and then open the members list immediately and scroll
+
+Xylium#5800 - Bug Bot on 2019-07-30T08:30:15.151Z
+
+
+### Can't reproduce.
+Cannot reproduce; iPhone 7, 12.1.3
+
+KindleTune#8570 - Bug Bot on 2019-07-30T09:21:40.816Z
+
+
+### Can't reproduce.
+Cnr; iPhone X, iOS 13 (beta 3), TestFlight 3.0.8 (16488)
+
+Noah#0004 - Bug Bot on 2019-07-30T10:26:57.687Z
+
+
+### Can reproduce.
+iPhone 5s, iOS 12.4, TestFlight 3.0.8 (16488) - On the Discord Developers server for example, the member list does crash and when you open it again to the member list on the server, it will either not load completely (aka infinity load), it would be blank, and/or it would blank and show the channel topic, depending on if you switch to another channel that has a channel topic on the server. (This could mostly happen when there is so many people on the server which makes it more difficult to load all the users, both online and offline. Although, Discord Developers did hid showing the offline member list. So it could be disabled for offline only or maybe both online or offline but I am not sure.)
+
+.Gloria.#9606 - Bug Bot on 2019-07-30T18:32:26.268Z
+
+
+### Can't reproduce.
+iPhone XR, iOS 13.0 Public Beta, Testflight 3.0.8
+
+Kokichi#4464 - Bug Bot on 2019-07-30T19:55:51.957Z
+
+
+### Can't reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 4, TestFlight 3.0.8 (16488)
+
+Jeffrey#1234 - Bug Bot on 2019-07-31T01:17:07.394Z
+
+
+### Can reproduce.
+iPhone 5s, iOS 12.4, TestFlight 3.0.8 (16488)
+
+.Gloria.#9606 - Bug Bot on 2019-07-31T09:18:59.719Z
+
+
+### Moved from New Issues to Notable Issues by Jonathan Wu on 2019-08-09T18:02:11.241Z
+
+
+### This issue is currently not reproducible due to a backend change that was made to revert the 100k server member hiding feature. - Ghoul on 2019-08-21T21:18:29.807Z
+
+
+### Moved from Notable Issues to Text Chat by Fanghao on 2019-09-25T06:44:18.077Z
+
+List
+====
+Text Chat
+
+Members
+=======
+None

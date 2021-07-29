@@ -1,0 +1,100 @@
+[Archived] Search result runs off screen with long one words in embeds (https://trello.com/c/9uzG40i1)
+
+P3: Will get fixed eventually
+
+Created: 2017-03-17T03:28:21.273Z
+Latest Update: 2017-12-09T09:06:55.631Z
+
+Reported by 3spooky5u#1000
+
+####Steps to reproduce: 
+- Paste <https://github.com/SpongePowered/SpongeCommon/issues/1574> by itself in a message and send it.
+- Search for the link.
+- Notice the title wraps off the side of the search results screen.
+
+####Expected result:
+ Search result would just span out longer vertically. 
+####Actual result:
+ Search Result runs off page 
+####System settings:
+ Discord Canary, Windows 7
+
+2025
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-17T03:28:21.273Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary 20909 (latest)
+
+DJScias#0812 - Bug Bot on 2017-03-17T03:28:21.874Z
+
+
+### Can reproduce.
+macOS Canary
+
+Harrison#9100 - Bug Bot on 2017-03-17T03:28:23.919Z
+
+
+### Can reproduce.
+arch linux 0.15
+
+Alex from Alaska#8575 - Bug Bot on 2017-03-17T03:28:25.935Z
+
+
+### Cannot reproduce. Word wraps as normal. - Jared on 2017-03-21T22:06:22.727Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-03-21T22:06:26.106Z
+
+
+### Can reproduce.
+Windows 7 Latest canary
+
+Cerulean#7014 - Bug Bot on 2017-04-22T20:28:40.117Z
+
+
+### AlFas#2783 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58cb57d58972302ee4ff792e/04c66385a61b3c5c3b17b7f3c5b91297/YiV8Goh.png added by Bug Bot on 2017-04-22T20:31:17.749Z
+
+
+### DiscordCanary_2017-10-28_10-30-09.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58cb57d58972302ee4ff792e/a038c7acf97c29f0235e07144d1514c8/DiscordCanary_2017-10-28_10-30-09.png added by Alexandru Todea on 2017-10-28T07:30:15.641Z
+
+
+### I was able to reproduce with the steps provided by JBYoshi#5551: 
+
+- Paste <https://github.com/SpongePowered/SpongeCommon/issues/1574> by itself in a message and send it.
+- Search for the link.
+- Notice the title wraps off the side of the search results screen.
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 6489 - Alexandru Todea on 2017-10-28T07:30:25.336Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-10-28T07:31:16.179Z
+
+
+### Verified.  - Clayton on 2017-11-03T05:18:11.996Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:18:16.414Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jake Heinz on 2017-11-06T21:00:33.937Z
+
+
+### Not a bug on this one. It's deliberately supposed to cut off if it gets too big. Attachments and other media do the same thing. - Jake Heinz on 2017-11-06T21:01:23.687Z
+
+
+### Archiving this card because it's been in the Not a Bug list for more than a month with no new activity. - Alexandru Todea on 2017-12-09T09:06:53.873Z
+
+
+### Archived by Alexandru Todea on 2017-12-09T09:06:55.635Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

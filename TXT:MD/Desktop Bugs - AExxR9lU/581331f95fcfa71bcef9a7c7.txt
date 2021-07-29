@@ -1,0 +1,59 @@
+[Archived] Long Guild names break the emoji picker (https://trello.com/c/oK1Mq1vq)
+
+None
+
+Created: 2016-10-28T11:09:45.320Z
+Latest Update: 2017-10-17T21:14:12.118Z
+
+Reported by dinos#0649
+
+####Steps to reproduce: 
+- Join/Create a guild with a long name (maybe exploit?) [in the attachment below, the unicode chars used to get the results are U+115F and U+FFFD] 
+- Add some spicy emotes to the guild 
+- Click on the emoji picker 
+
+####Expected result:
+ The guild name is trimmed or its actual length is somehow reduced 
+####Actual result:
+ The whole name is used in the picker, which results in it having an extremely large width
+
+Card Log
+========
+### Added by Jared on 2016-10-28T11:09:45.320Z
+
+
+### dinos#0649 - https://i.imgur.com/kOcbumP.gifv added by Jared on 2016-10-28T11:10:15.651Z
+
+
+### Can reproduce.
+Windows 10 Aniv, Canary
+
+Joseph#5756 - Jared on 2016-10-28T14:40:52.895Z
+
+
+### Can reproduce.
+Windows 10 Canary
+
+lahrsean#9501 - Jared on 2016-10-28T14:52:38.094Z
+
+
+### It doesn't "break it", it just resizes to fit the longer name while it's visible.
+
+Won't Fix. - Jared on 2016-10-28T17:16:31.483Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-10-28T17:16:34.274Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:14:11.027Z
+
+
+### Archived by Jared on 2017-10-17T21:14:12.121Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,245 @@
+[Win 7/8 specific] You Dont get Pop - Up notifications on screen even if you arent DND (https://trello.com/c/Cbs87bzn)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-10-29T23:19:57.016Z
+Latest Update: 2020-07-08T05:05:41.413Z
+
+Reported by iona Dev#8394
+
+####Steps to reproduce:
+- Make Someone Ping You / DM You 
+- Observe.
+
+####Expected result:
+You Should Get Pop - up notification
+####Actual result:
+You Dont Get Pop - up Notification
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 27040, Version Hash: b630e547429da7fbd071f5d67abf1367976d42cc
+####System settings:
+Windows 7 Professional
+
+22288
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-29T23:19:57.016Z
+
+
+### Can reproduce.
+Can Reproduce, No popup notification appears - Windows 7 Professional, Discord Stable 27047
+
+1Storm#0001 - Bug Bot on 2018-10-29T23:20:04.383Z
+
+
+### Can reproduce.
+Can reproduce, Checked my xp with the bot on phone then left dm- no popup on desktop, Windows 7 home premium, canary, Build Number: 26902, Version Hash: e11a33f56327217d09fe247c03bb1f13b4a328d2
+
+¯\_(ツ)_/¯Spencer#3616 - Bug Bot on 2018-10-29T23:20:09.369Z
+
+
+### Can reproduce.
+Can reproudce, Dell Prescision m4700, Windows 7 pro 64x SP1, Canary 27065
+
+🍂nickWtn🍂#3789 - Bug Bot on 2018-10-29T23:20:14.441Z
+
+
+### Can't reproduce.
+[NAB] Notification halfs-popup Windows 7 (lastest) x64, Discord for Windows, lastest
+
+Alexa(Ping = Besoin d'aide trad)#0410 - Bug Bot on 2018-10-30T15:05:49.598Z
+
+
+### Can reproduce.
+Windows 7 Ultimate 64-Bit - - https://www.youtube.com/watch?v=R655QqgT1AM [Observe the right hand side of the screen]
+
+Daffyduck#5364 - Bug Bot on 2018-11-01T14:49:55.544Z
+
+
+### Can reproduce.
+Windows 7 Ultimate 64-Bit canary, Build Number: 27353 - - https://www.youtube.com/watch?v=R655QqgT1AM [Observe the right hand side]
+
+Daffyduck#5364 - Bug Bot on 2018-11-01T17:00:39.495Z
+
+
+### verified w/VM win 7 - Clayton on 2018-11-02T02:54:27.193Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-02T02:54:38.885Z
+
+
+### Can reproduce.
+[BUILD INFO] Release Channel: canary, Build Number: 27466, Version Hash: 0cbeff24135dfc7464326da81f4c35db546472c8
+
+Marcel#5514 - Bug Bot on 2018-11-05T16:02:45.368Z
+
+
+### Can reproduce.
+[BUILD INFO] Release Channel: canary, Build Number: 27466, Version Hash: 0cbeff24135dfc7464326da81f4c35db546472c8 Windows 7 32-Bit
+
+Marcel#5514 - Bug Bot on 2018-11-05T16:04:26.178Z
+
+
+### Can't reproduce.
+I know get pop ups on 27841, so this is at least fixed for me. Dell Precision  M4700 , windows 7 64x pro SP1 , Canary 27841
+
+🍂nickWtn🍂#3789 - Bug Bot on 2018-11-12T06:52:00.691Z
+
+
+### Can reproduce.
+Windows 7 Home 64-Bit Discord Canary 28013
+
+Naomi#0832 - Bug Bot on 2018-11-15T12:14:42.205Z
+
+
+### Can reproduce.
+Windows 8.1 Release Channel: ptb, Build Number: 30302, Version Hash: db622561b65eae5128bc8eab9db7679a4527c3fb I suspect the notification is going UNDER discord & other windows rather than OVER them.
+
+Neat-o#5892 - Bug Bot on 2019-01-01T20:31:20.766Z
+
+
+### Can't reproduce.
+i can't reproduce it anymore and i get DesktopNotification but i found some bugs with themes
+How it look like in windows 7 classic theme https://i.imgur.com/tCUswp2.gifv (small white screen behind the notification) 
+while in windows 7 aero theme it works fine https://i.imgur.com/3w6gDJt.gif |  Desktop Build 31115 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+Super#8276 - Bug Bot on 2019-01-20T14:50:55.870Z
+
+
+### Can reproduce.
+I still don't get pop ups, Dell Precision M4700, Windows 7 pro 64x Sp 1, Canary 31115
+
+☃nickWtn☃#3789 - Bug Bot on 2019-01-22T05:22:08.685Z
+
+
+### Can reproduce.
+Windows 8.1 Pro Don't get any notifications but I hear the sound and the taskbar Discord flashes and shows the red 1
+
+KuhakuORIGIN#1288 - Bug Bot on 2019-01-23T19:09:44.352Z
+
+
+### Archived by Bug Bot on 2019-02-22T19:30:03.455Z
+
+
+### Apparently happens to Windows 8.1 as well - Tarek on 2019-04-22T03:22:09.606Z
+
+
+### Unarchived by Bug Bot on 2019-04-22T03:30:06.065Z
+
+
+### Moved from Verified Bugs to Notable Issues by Tarek on 2019-05-02T03:36:19.357Z
+
+
+### we unable to repro this on current canary - Jixuan Wang on 2019-05-17T17:41:36.475Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Jixuan Wang on 2019-05-18T00:08:04.232Z
+
+
+### @jixuanwang1 What OS did you try this on? - Tarek on 2019-05-18T01:40:09.398Z
+
+
+### i tried on windows 10 and macos - Jixuan Wang on 2019-05-18T06:28:55.216Z
+
+
+### @jixuanwang1 This bug is exclusive to Canary on Windows 7/8/8.1 - Tarek on 2019-05-18T11:58:56.944Z
+
+
+### Edit, looks like Canary 0.0.238 moved back to Electron stable 4.0.8 and this bug  is resolved. _For now_ - Tarek on 2019-05-18T23:19:01.432Z
+
+
+### Moved from Claimed Fixed, needs Verification to Notable Issues by Jixuan Wang on 2019-05-20T20:51:17.283Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Jixuan Wang on 2019-05-20T20:52:49.360Z
+
+
+### Can't reproduce.
+Still can reproduce with ping, but can no longer reproduce with DM
+
+ImCreativeJonny#4752 - Bug Bot on 2019-06-02T05:04:58.773Z
+
+
+### Can't reproduce.
+Still can reproduce with ping, but can no longer reproduce with DM | Windows 10 Pro x64, Canary build 38950
+
+ImCreativeJonny#4752 - Bug Bot on 2019-06-02T05:06:23.031Z
+
+
+### Can't reproduce.
+I still not recieving pop-up notifications with ping, but i recieving notifications with DM | Windows 10 Pro x64, Canary build 38950
+
+ImCreativeJonny#4752 - Bug Bot on 2019-06-02T05:07:15.611Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1803 - Discord Canary 39214
+
+Sweevle#0001 - Bug Bot on 2019-06-07T08:24:51.658Z
+
+
+### Can't reproduce.
+Discord Canary (BUILD 39387) on Windows 10 x64 (1809 Update)
+
+Procrastinator Adam#4226 - Bug Bot on 2019-06-08T15:11:23.177Z
+
+
+### Can't reproduce.
+notifications are received. macOS 10.14.2 canary 41583
+
+Ghostly#0001 - Bug Bot on 2019-07-22T10:17:40.137Z
+
+
+### Can't reproduce.
+macOS High Sierra, Version: 10.13.6 - Discord Canary 41918
+
+Vanki#0001 - Bug Bot on 2019-07-25T23:00:34.918Z
+
+
+### Can't reproduce.
+W10 Pro x64 (1903), Canary 42111
+
+dragiceviccv#4375 - Bug Bot on 2019-07-27T22:37:02.541Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-07-27T22:37:02.990Z
+
+
+### Archived by Bug Bot on 2019-08-26T23:00:38.543Z
+
+
+### Can reproduce.
+Windows 7 SP1 Professional, Release Channel: ptb, Build Number: 45114
+
+Sesshoumaru#9570 - Bug Bot on 2019-09-05T21:12:34.632Z
+
+
+### Reopening as this was wrongly moved to Verified Fixed and is still occurring. - Ene on 2019-09-05T21:28:10.788Z
+
+
+### Moved from Verified Fixed to Notable Issues by Ene on 2019-09-05T21:28:14.575Z
+
+
+### Unarchived by Ene on 2019-09-05T21:28:14.648Z
+
+
+### Can reproduce.
+[BUILD INFO] Release Channel: canary, Build Number: 48208, Version Hash: e2cb4583858ce2cb2d306d9aa8c99f857d91fca6
+
+XxINFINITY_KIWIxX#1796 - Bug Bot on 2019-10-29T22:25:05.993Z
+
+
+### Can't reproduce.
+MacBook Pro (15-inch, Mid 2014), Catalina 10.15.4 (19E287); Release Channel: canary, Build Number: 59616, Version Hash: f64f8aa76e594af789a8442b3f62a3935f98bb39. (Don't know if this is still in notable issue by accident or if it's been fixed, but I thought I'd put a cannot repro anyways since it's in Notable Issues).
+
+Wiz#0003 - Bug Bot on 2020-05-07T18:05:50.677Z
+
+List
+====
+Notable Issues
+
+Members
+=======
+None

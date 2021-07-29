@@ -1,0 +1,53 @@
+[Archived] Refresh rate bug when starting discord from autorun while using a higher than 60hz monitor (https://trello.com/c/iN9SVwvW)
+
+None
+
+Created: 2017-09-13T17:02:28.806Z
+Latest Update: 2017-12-09T17:29:17.463Z
+
+Reported by SpecialBomb#0627
+
+####Steps to reproduce:
+- Set Discord to automatically start on login 
+- Restart computer or log out and back in
+
+####Expected result:
+Client will run at monitor's refresh rate
+####Actual result:
+Client runs at 60hz reguardless of refresh rate
+####Client settings:
+Public Linux Discord 0.0.2
+####System settings:
+64 bit Debian 9 stable with KDE
+
+3398
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-13T17:02:28.806Z
+
+
+### Can reproduce.
+I think I managed to reproduce this. Using admin powers to push through.
+
+Dabbit Prime#0896 - Bug Bot on 2017-09-13T17:02:36.236Z
+
+
+### Moved from User Reported to Won't Fix/Not A Bug by Jared on 2017-10-26T23:05:16.630Z
+
+
+### The fix is too expensive to justify the resources. - Jared on 2017-10-26T23:05:32.685Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-09T17:29:16.326Z
+
+
+### Archived by Alexandru Todea on 2017-12-09T17:29:17.465Z
+
+List
+====
+Won't Fix/Not A Bug
+
+Members
+=======
+None

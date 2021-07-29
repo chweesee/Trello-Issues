@@ -1,0 +1,103 @@
+Can't exit fullscreen from an embedded youtube video when Discord is in fullscreen on mac (https://trello.com/c/O1yUDwVU)
+
+Mac,
+P2: Fix can wait a while,
+Mid
+
+Created: 2019-07-25T18:50:30.922Z
+Latest Update: 2020-05-19T01:53:02.991Z
+
+Reported by Cy#0051
+
+####Steps to reproduce:
+- Put Discord Canary into fullscreen mode (On macOS) 
+- Watch a YouTube video in fullscreen mode that's been embedded 
+- Try to exit fullscreen mode, only works by restarting client
+
+####Expected result:
+It should allow you to exit fullscreen mode using the following: Escape, pressing "f", double clicking the screen
+####Actual result:
+You can't exit YouTube's fullscreen mode, the only way to do so is to reload the entire client
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 41893, Version Hash: d7d9a2ac7bdb4e225a57b2bcfa86dec42ead490b
+####System settings:
+MacOS Mojave 10.14.4
+
+40475
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-25T18:50:30.922Z
+
+
+### Can reproduce.
+MacBook Pro 2015, macOS Mojave 10.14.4, Desktop Canary 41893
+
+Lasagna#1019 - Bug Bot on 2019-07-25T18:50:38.937Z
+
+
+### Can reproduce.
+Can reproduce, macOS High Sierra, Version: 10.13.6 - Discord Canary 41893
+
+Vanki#0001 - Bug Bot on 2019-07-25T18:50:43.934Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14.5 • Canary 41907
+
+Rage#9991 - Bug Bot on 2019-07-25T18:50:48.992Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64; Discord Canary Version: 41877
+
+Boss#0006 - Bug Bot on 2019-07-25T19:08:41.516Z
+
+
+### Wrong version, I am on Canary 41893
+
+Boss#0006 - Bug Bot on 2019-07-25T19:09:00.952Z
+
+
+### Can reproduce.
+MacBook Pro, macOS Mojave 10.14.1, Discord Canary 41907
+
+sladewatkins#6549 - Bug Bot on 2019-07-25T19:52:39.565Z
+
+
+### Can reproduce.
+MacOS 10.14.4, Canary Build: 41907
+
+Jeffrey#1234 - Bug Bot on 2019-07-25T22:18:58.016Z
+
+
+### Can reproduce.
+CR Windows 10 x64, Canary build: 41942
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-25T23:46:40.376Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home (64-bit), Discord Canary 41893.
+
+Alister#0018 - Bug Bot on 2019-07-26T03:50:23.421Z
+
+
+### Verified with MacBook Pro 13" (2016) running macOS Mojave 10.14.6 and Canary Build 42103. - Pascal on 2019-07-27T10:13:45.673Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Pascal on 2019-07-27T10:14:36.179Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 48548
+
+Jiralite#1207 - Bug Bot on 2019-11-02T16:07:04.463Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

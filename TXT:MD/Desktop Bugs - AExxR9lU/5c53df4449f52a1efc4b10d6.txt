@@ -1,0 +1,103 @@
+If you leave a server in lurker mode by right-clicking then pressing "leave server", it gives you the "you won't be able to rejoin the server without an invite". (https://trello.com/c/51LUqGr7)
+
+None
+
+Created: 2019-02-01T05:55:16.961Z
+Latest Update: 2020-06-22T15:39:28.986Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- Join a server in lurkers mode. 
+- Right-click on the server name, and press "leave server". 
+- Notice how it gives you the warning "You won't be able to rejoin the server without an invite", when you were never part of the server in the first place. 
+- OPTIONAL: Left-click on the server-name and press "leave server". Notice how it doesn't give you the warning and lets you leave the server.
+
+####Expected result:
+When leaving by right-clicking on the server name, it should not give the warning, as you were never part of the server.
+####Actual result:
+It gives you the warning like you were part of the server.
+####Client settings:
+Discord Canary 31700
+####System settings:
+Windows 10 Pro, x64 (v1803)
+
+27639
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-01T05:55:16.961Z
+
+
+### Hole#0001 - https://i.imgur.com/vFecKfI.gifv added by Bug Bot on 2019-02-01T05:55:19.608Z
+
+
+### Can reproduce.
+Win8.1 ~ Tested on PTB and Canary [31700]
+
+.–. LOLnt ._.#3405 - Bug Bot on 2019-02-01T05:55:24.636Z
+
+
+### Can reproduce.
+CR - Windows 10 Pro x64 - Canary 31700
+
+evilpauwse#9985 - Bug Bot on 2019-02-01T05:55:29.575Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 17134 Canary 31700
+
+Pyros#9216 - Bug Bot on 2019-02-01T05:55:34.600Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.230 Build 31700
+
+Daffyduck#5364 - Bug Bot on 2019-02-01T06:09:00.653Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Canary 31700
+
+Viruz#9907 - Bug Bot on 2019-02-01T06:40:14.328Z
+
+
+### Moved from User Reported Bugs to Server discovery! by Tarek on 2019-02-01T06:44:05.359Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31792; Google Chrome 72.0.3626.81
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-04T16:33:56.198Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Canary 31974
+
+Isabel#0002 - Bug Bot on 2019-02-09T05:24:40.802Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64 (1809), Canary 32137
+
+TheForbiddenAi#0001 - Bug Bot on 2019-02-13T03:41:18.951Z
+
+
+### Can reproduce.
+CR, stable 52818, Win10 v1709 x64 build 16299.665 Education, chrome dev 81.0.4021.2+. Clicking the leave server button in the warning doesn't actually work and won't let you leave.
+
+hopeless#1227 - Bug Bot on 2020-01-17T03:39:14.317Z
+
+
+### Can reproduce.
+Leave Server option while lurking doesn't work | Steps to Reproduce: - Go to Server Discovery and pick a random server, click and start lurking. - Right click on this server and select Leave Server. - Observe. Expected Result: You should have quit the lurking session. Actual Result: Lurking session does not end when you click Leave Server. Client Settings: [BUILD INFO] Release Channel: canary, Build Number: 62028, Version Hash: 89ee84d9483a589ce99aca349d4d15059dfff58b System Settings: Windows 10 Home 64-bit, version 1909
+
+Snowy ✨#1000 - Bug Bot on 2020-06-22T15:39:29.000Z
+
+List
+====
+Server discovery!
+
+Members
+=======
+None

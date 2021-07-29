@@ -1,0 +1,90 @@
+[Archived] Granting permission like manage server to a user who already has server menu open will override an option for new option (https://trello.com/c/UOtAc6J8)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-11T06:40:22.902Z
+Latest Update: 2019-10-23T23:04:23.044Z
+
+Reported by oxygencraft#8884
+
+####Steps to reproduce:Open the server menu 
+- Grant a permission that adds an option to the server menu 
+- An option (maybe the first one) gets overwritten 
+- If you revert the changes, it goes back to normal 
+- If you remove a permission that adds an option to the server menu to someone who already has the server menu open then it'll remove that option without removing the space 
+- Can be fixed by reopening the server menu
+
+####Expected result:
+The server menu should make an additional space for that the new option, if removing permissions, should remove space
+####Actual result:
+The new option overrides an existing option, if removing, the space for the option doesn't get removed
+####Client settings:
+Desktop Canary, 15032
+####System settings:
+Windows 10 Pro x64 1803, Build 17134.1
+
+12416
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-11T06:40:22.902Z
+
+
+### SweetSofiMC#8821 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af53ad69ca69603c5b3cacf/475e3d33d0d057d9c8b2333766cc69cb/2018-05-11_00-55-34.gif added by Bug Bot on 2018-05-11T06:40:25.938Z
+
+
+### Can reproduce.
+Can reproduce Windows 8 (6.2) Build 9200 x64 Discord Canary 15032 | It doesn't get overrided, but instead it shows a completely gray screen that disappears either when adding the role back or pressing escape. This only happens under moderation menu for me.
+
+SweetSofiMC#8821 - Bug Bot on 2018-05-11T06:40:30.345Z
+
+
+### Can reproduce.
+Windows 10 Home 64-Bit 10.0.16299 Discord Canary 15032 | Shows a completely gray screen instead of getting overridden
+
+1Storm#0001 - Bug Bot on 2018-05-11T06:40:35.358Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 1709 Canary 14388
+
+Bencey_#8587 - Bug Bot on 2018-05-11T06:40:40.367Z
+
+
+### Verified.  - Clayton on 2018-05-11T23:04:46.981Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-11T23:04:52.246Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:39.206Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903; Canary 32878; Still able to reproduce this, to be precise, adding the Change Nickname permission to a user who already has a guild menu open will cause the "Leave Server" item to be pushed out of the menu from the addition of a "Change Name" being pushed onto the Menu.
+
+SyntaxPrime#0001 - Bug Bot on 2019-02-27T20:53:56.396Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 32862 | I don't think that gif is related to this bug
+
+TheForbiddenAi#7549 - Bug Bot on 2019-02-27T20:59:06.431Z
+
+
+### Unarchived by Bug Bot on 2019-02-27T21:00:07.157Z
+
+
+### TheForbiddenAi#7549 - https://i.imgur.com/N5m3cJH.gifv added by Bug Bot on 2019-02-27T21:03:53.471Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:23.066Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

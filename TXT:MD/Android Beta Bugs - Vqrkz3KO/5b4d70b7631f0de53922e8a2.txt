@@ -1,0 +1,86 @@
+[Archived] The toggle for embed links does not apply correctly until Discord is restarted (https://trello.com/c/2i1NdT3H)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-07-17T04:29:43.384Z
+Latest Update: 2019-06-10T20:44:17.549Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a channel full of messages with rich embeds. For example a bot's log 
+- Toggle the "Show website preview info from links pasted into chat." switch in Settings > Text & images 
+- Switch to a different channel and switch back to the one you found at step 1 
+- Scroll through chat and observe
+
+####Expected result:
+No idea if this setting is supposed to apply retroactively, but all embeds should follow the same rule: either they all show, either none of them show
+####Actual result:
+The setting is partially applied: some of the embeds show, others don't. Restarting the app fixes it.
+####Client settings:
+Discord Alpha 7.0.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+15460
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-17T04:29:43.384Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b4d70b7631f0de53922e8a2/37d2a9c48eed769f1a48b2158327b0d8/Screenshot_20180716-131750.jpg added by Bug Bot on 2018-07-17T04:29:46.939Z
+
+
+### Can reproduce.
+Can Reproduce. Lenovo vibe K5+, 5.1.1 | Discord Alpha 707  As you keep scrolling up and down, strange things start happening. For some messages, embeds appear and when you scroll down again, they disappear. Scroll up and back down, they disappear, scroll...
+
+The Lunala#7777 - Bug Bot on 2018-07-17T04:29:51.057Z
+
+
+### Can reproduce.
+samsung s6, android 7.0, 7.0.7
+
+IcyPebbles#5833 - Bug Bot on 2018-07-17T04:29:55.957Z
+
+
+### Can reproduce.
+Can Reproduce, K20 V Android 7.0, Discord alpha 7.0.8
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-07-17T04:30:01.024Z
+
+
+### verified.  - Clayton on 2018-07-17T21:25:42.254Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-17T21:25:46.348Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:35.326Z
+
+
+### Unarchived by Clayton on 2018-08-22T04:08:12.851Z
+
+
+### Archived by Clayton on 2018-10-11T00:31:03.258Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0, Discord Alpha 8.2.5
+
+Law of Royale#6825 - Bug Bot on 2019-01-11T07:42:03.986Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T08:00:05.810Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:17.562Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

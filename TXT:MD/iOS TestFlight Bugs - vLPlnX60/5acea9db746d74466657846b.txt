@@ -1,0 +1,85 @@
+[Archived] Share extension: Wrong default server icon and user avatar shown (https://trello.com/c/uUScyMmp)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-04-12T00:35:40.052Z
+Latest Update: 2020-04-12T17:00:05.330Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Open any iOS app (e.g. the Photos app) that has the ability to share something with other apps 
+- Select something (e.g. a photo) 
+- Click on the share button and choose Discord 
+- Tap on `Share in` and search for a server that has no own icon but the default one 
+- Also select Direct Messages, tap on `Share to` and search for users with default avatars
+
+####Expected result:
+The correct server icon und user avatar should be shown for the share extension
+####Actual result:
+You will always see the same avatar/icon (the Discord logo) for the users and user with now own avatar/icon.
+####Client settings:
+TestFlight 2.3.0 (3740)
+####System settings:
+iPhone 6s, iOS 11.3 & iPad Air 2, iOS 11.4 PB 1
+
+10613
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-12T00:35:40.052Z
+
+
+### Can reproduce.
+Can Reproduce: iPhone SE, iOS 11.3, TF 2.2.9 (Stable)
+
+CP Intermediate#2265 - Bug Bot on 2018-04-12T00:35:48.588Z
+
+
+### Can reproduce.
+iPod Touch 6th generation, iOS 11.2.6, TestFlight 2.3.0 (3740)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-04-12T00:35:52.399Z
+
+
+### Can reproduce.
+CR; iPhone 6 - iOS 11.4 TestFlight 2.3.0 (3740)
+
+Xylium#1480 - Bug Bot on 2018-04-12T00:35:57.436Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5acea9db746d74466657846b/de205513f52a62266ab91ac38aa02239/mfouYH5.jpg added by Bug Bot on 2018-04-12T10:45:01.569Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5acea9db746d74466657846b/8a4614afe684d3d87265c44ad75a6c1b/gccvapS.jpg added by Bug Bot on 2018-04-12T10:45:43.677Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:28:59.790Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:29:03.382Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:03.149Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.3.1; TestFlight 13.0 (19259)
+
+Jiralite#1207 - Bug Bot on 2020-03-10T12:51:17.668Z
+
+
+### Unarchived by Bug Bot on 2020-03-10T13:00:07.188Z
+
+
+### Archived by Bug Bot on 2020-04-12T17:00:05.341Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,70 @@
+[Archived] Embeds that have fields with invalid links crash on click (https://trello.com/c/Llo0C9Db)
+
+None
+
+Created: 2016-12-18T02:01:45.011Z
+Latest Update: 2017-10-02T16:44:08.020Z
+
+Reported by Flex#5917
+
+####Steps to reproduce: 
+- Send an embed with a field that has an invalid link like [asdf](asdf) 
+- Click link 
+
+####Expected result:
+ Link shows as [asdf](asdf) 
+####Actual result:
+ Link is clickable and crashes Discord if clicked 
+####System settings:
+ Android 5.1.1, LG K7
+
+Card Log
+========
+### Added by Jared on 2016-12-18T02:01:45.011Z
+
+
+### Can reproduce.
+Android Alpha 3.2.0
+
+DJScias#0812 - Jared on 2016-12-18T02:03:27.698Z
+
+
+### Can reproduce.
+LG LT
+
+rovertdude#3439 - Jared on 2016-12-18T02:04:29.843Z
+
+
+### Can reproduce.
+Latest android alpha
+
+NotSoSuper#8800 - Jared on 2016-12-18T05:00:48.586Z
+
+
+### Verified. - Jared on 2016-12-20T23:14:32.587Z
+
+
+### `curl 'https://discordapp.com/api/channels/CHANNEL_ID/messages' -H 'content-type: application/json' -H 'authorization: TOKEN' --data-binary '{"embed":{"fields":[{"name": "test name", "value": "[bad link](asdf/)"}]}}'` - Jared on 2016-12-20T23:15:45.087Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-20T23:15:56.171Z
+
+
+### Night fixed this. - Jared on 2017-01-23T22:34:21.816Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2017-01-23T22:34:24.604Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:44:07.562Z
+
+
+### Archived by Jared on 2017-10-02T16:44:08.022Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

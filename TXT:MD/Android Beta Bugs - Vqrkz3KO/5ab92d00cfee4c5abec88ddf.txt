@@ -1,0 +1,73 @@
+[Archived] Attempting to share a space character will enable the Send button, and will trigger a "Unable to preprocess file" toast if pressed repeatedly (https://trello.com/c/Hd5j90tu)
+
+None
+
+Created: 2018-03-26T17:25:20.886Z
+Latest Update: 2018-07-06T18:46:51.128Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Share something to Discord that isn't a file 
+- Delete the content of the "comment" box 
+- Input a space character in the comment box 
+- select a server text channel and Send
+
+####Expected result:
+The Send button shouldn't be there in the first place
+####Actual result:
+It is here, and when pressed you will see a loading icon for a second. If you press it repeatedly you may see a "Unable to preprocess file" toast appear
+####Client settings:
+Discord Alpha 6.4.4
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9833
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-26T17:25:20.886Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 Emerge, Android 6.0.1, Alpha 6.4.4
+
+Purpzie#0001 - Bug Bot on 2018-03-26T17:25:28.411Z
+
+
+### Can reproduce.
+Can Repro, Samsung Galaxy S7 Edge, Android 7.0 (Nougat), Android Alpha 6.4.4
+
+DeJay#1337 - Bug Bot on 2018-03-26T17:25:33.374Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.4
+
+fujhofn.#0878 - Bug Bot on 2018-03-26T17:25:38.603Z
+
+
+### Fixed in 645 - Sam Shih on 2018-03-26T18:54:06.078Z
+
+
+### Moved from User Reported Bugs to Fixed Bugs by Sam Shih on 2018-03-26T18:54:18.947Z
+
+
+### Can reproduce.
+Moto G 4, Android 7.1.1, Discord Alpha 6.4.4
+
+Xia#0001 - Bug Bot on 2018-03-28T02:15:43.808Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:46:49.017Z
+
+
+### Archived by Jared on 2018-07-06T18:46:51.130Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

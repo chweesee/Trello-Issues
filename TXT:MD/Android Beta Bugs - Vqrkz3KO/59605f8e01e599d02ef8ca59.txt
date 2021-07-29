@@ -1,0 +1,68 @@
+[Archived] If you sync a language to your browser then un-sync the original language does not reset. (https://trello.com/c/UuRvdPzS)
+
+None
+
+Created: 2017-07-08T04:29:02.381Z
+Latest Update: 2017-10-17T21:12:15.552Z
+
+Reported by ˢᵐᵃᶫᶫ ᵇᵒʸ#7235
+
+####Steps to reproduce:
+- Open "User Settings" 
+- Go to "Language" 
+- Enable "Sync Across Clients" 
+- Select a language different from English. (On both phone and desktop it should update) 
+- Deselect "Sync Across Clients" (Go check Desktop it should stay as the synced language even after restarting)
+
+####Expected result:
+In this case once a user deselects "Sync Across Clients" the language should reset to original.
+####Actual result:
+Following the steps can result into a flaw in the system which doesn't re-roll the language.
+####Client settings:
+Android Discord 3.9.7
+####System settings:
+Samsung Galaxy S7, Android version 7.0
+
+2043
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-08T04:29:02.381Z
+
+
+### Can reproduce.
+ Samsung Galaxy S8+ Nougat 《☆》 Discord Alpha 3.9.7 (396)
+
+Mr.Caleb#8593 - Bug Bot on 2017-07-08T04:29:09.753Z
+
+
+### Can reproduce.
+Samsung Tab E6 / Windows 10 Home
+
+Whupa#1644 - Bug Bot on 2017-07-08T04:29:14.698Z
+
+
+### Can reproduce.
+Samsung Galaxy s7 edge, Android 7.0, Discord Alpha 3.9.8
+
+Curse Broken#8659 - Bug Bot on 2017-07-08T04:29:19.760Z
+
+
+### I don't think this is a bug, it seems more like a feature request.  - Clayton on 2017-07-19T20:57:31.742Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Clayton on 2017-07-19T20:57:34.247Z
+
+
+### Archiving as this ticket as been Won't Fix for over a month. - Mike Nisbet on 2017-10-17T21:12:14.853Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:12:15.554Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

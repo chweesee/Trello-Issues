@@ -1,0 +1,94 @@
+[Archived] [Visual bug] [Non 4" devices only] You have the option to add yourself as a friend/send a message to yourself (https://trello.com/c/RfxOuvLl)
+
+None
+
+Created: 2018-02-10T19:16:00.274Z
+Latest Update: 2018-10-05T00:00:49.825Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Optional step to make sure it works: Fully close Discord (remove it via the app switcher) 
+- Open Discord again 
+- Go to any server 
+- Click on your account in the member list or hold on a message you have sent 
+- Click on "Profile"
+
+####Expected result:
+You shouldn't get an option to add yourself as a friend or send a message to yourself.
+####Actual result:
+You see both options. After clicking one of them they disappear until fully closing Discord.
+####Client settings:
+TestFlight 2.2.2 (2352)
+####System settings:
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 2
+
+8655
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-10T19:16:00.274Z
+
+
+### Can reproduce.
+CR but you have to fully close Discord and it'll only happen once. Needless to say, the buttons does nothing, iPhone 6 iOS 10.3.2 TestFlight 2.2.2 (2352)
+
+Kuuhaku#4503 - Bug Bot on 2018-02-10T19:16:08.067Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.3 beta 2, TF 2352
+
+Shadek#9089 - Bug Bot on 2018-02-10T19:16:13.078Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.3 developer beta 2, TF 2.2.2 (2352)
+
+Tiemen#0001 - Bug Bot on 2018-02-10T19:16:17.986Z
+
+
+### I could not reproduce on iPhone 8 + running iOS 11.3 PB2, Discord TF 2.2.2 (2352). From what I was told, this MAY be iPhone 6 and 7 Models only (if not for the iPad Air 2.)
+
+Ghoul#0009 - Bug Bot on 2018-02-10T19:19:22.071Z
+
+
+### Cannot reproduce. Tried with a 4.7" inch screen and a 10.5" screen, there is no option appearing. - Jared on 2018-02-13T21:23:55.652Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-02-13T21:24:05.202Z
+
+
+### Still cannot reproduce. iPad Pro 11.2.6, Testflight 2.2.6 - Jared on 2018-03-19T21:24:39.002Z
+
+
+### Can still reproduce it: iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054)
+Maybe it is device or OS specific? I get the issue all the time.
+
+Pascal#0929 - Bug Bot on 2018-03-20T19:36:12.437Z
+
+
+### It seems the issue got fixed with version 2.2.6, can no longer reproduce it
+
+Pascal#0929 - Bug Bot on 2018-03-21T22:56:27.901Z
+
+
+### I can't reproduce with the steps provided by Jengad#7777:
+
+- Open Discord
+- Open Any Server
+- Click on yor profile in member list
+- Click on **profile**
+
+Discord 2.3.0 (3817), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-22T10:23:50.833Z
+
+
+### Archived by Clayton on 2018-10-05T00:00:49.827Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

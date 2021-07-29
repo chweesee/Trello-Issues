@@ -1,0 +1,87 @@
+[Overlay] The overlay is completely broken if you log out and in and it doesn't render keybinds or the overlay itself besides the QS. (https://trello.com/c/ToU0pktQ)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-12-14T12:10:02.033Z
+Latest Update: 2019-05-06T13:56:19.343Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Log out 
+- Log back in to your account 
+- Start a game 
+- Open your overlay with your keybind 
+- Observe how where it says "ESC" is just "???"  also there is really no overlay besides that the client gets bit darkened.​
+
+####Expected result:
+There should be a pretty overlay. ✨
+####Actual result:
+No overlay
+####Client settings:
+Discord Canary 0.0.224 (29653) discord_overlay2 version 60
+####System settings:
+Windows 10 Pro 64-bit (1809)
+
+24406
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-14T12:10:02.033Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c139d9917c37464429150dd/f9af29a01ee7302389e9f39ec812b5d8/kzHU8DM.jpg added by Bug Bot on 2018-12-14T12:10:04.414Z
+
+
+### Can reproduce.
+Discord Canary 0.0.224, Build 29657, Windows 10 Home 64-bit (v1803)
+
+Ene#0808 - Tim on 2018-12-14T12:20:54.666Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.224 Build 29657
+
+Daffyduck#5364 - Tim on 2018-12-14T12:21:09.411Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit - Discord Canary Build 29657
+
+Yunus#1903 - Tim on 2018-12-14T12:21:23.104Z
+
+
+### added missing approve's below - Tim on 2018-12-14T12:21:44.638Z
+
+
+### Can reproduce.
+Can reproduce. Windows 7 Home Premium x64 v7601, Canary 29657
+
+Solo#0007 - Bug Bot on 2018-12-14T17:23:38.247Z
+
+
+### This is not a bug. If you log out of Discord the overlay can't function and isn't supposed to. It's like pulling the plug on a monitor. - Jared on 2018-12-14T19:49:10.255Z
+
+
+### tarek clarified a bit more in dms, you don't need the overlay running at first - Clayton on 2018-12-18T02:58:06.437Z
+
+
+### verified, win 10, canary 29791 - Clayton on 2018-12-18T11:49:10.757Z
+
+
+### Overlay bug. - Tarek on 2018-12-18T21:50:55.272Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 37031
+
+Alipoodle#5025 - Bug Bot on 2019-05-06T13:56:19.353Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

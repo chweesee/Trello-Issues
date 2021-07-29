@@ -1,0 +1,78 @@
+[Archived] Mention's underlines get cut off near the @ (https://trello.com/c/aGUYTBLm)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-04T06:36:47.899Z
+Latest Update: 2019-01-01T15:21:41.376Z
+
+Reported by Rage#9991
+
+####Steps to reproduce:
+- Mention a user 
+- Observe the underline near the @
+
+####Expected result:
+The underline goes through the @ as well
+####Actual result:
+It gets cut off
+####Client settings:
+Canary 25434
+####System settings:
+Macbook Air, macOS Sierra 10.12.6
+
+20579
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-04T06:36:47.899Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bb5b4ff700ba41ad098759a/78b9fcb1a9e996b50c2a24d3a962f584/Screen_Shot_2018-10-04_at_08.36.56.png added by Bug Bot on 2018-10-04T06:36:50.317Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bb5b4ff700ba41ad098759a/31425b41992df4ad62d98111d3e7a23b/Screen_Shot_2018-10-04_at_08.36.08.png added by Bug Bot on 2018-10-04T06:36:50.412Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 25434 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-10-04T06:36:55.233Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64, Canary Build Number: 25434, also worst with emoji in name
+
+Wolf 🐺#9626 - Bug Bot on 2018-10-04T06:37:00.203Z
+
+
+### Can reproduce.
+MacBook Air, macOS 10.14.1; Canary 25434
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-04T06:37:05.222Z
+
+
+### Moved from User Reported Bugs to Electron 3.0.1 Update Bugs 🍒 by Tarek on 2018-10-04T12:14:59.364Z
+
+
+### verified, macos 10.12.6, canary 25439 - Clayton on 2018-10-04T22:45:48.599Z
+
+
+### This is a feature not a bug. It's a feature of CSS that we enabled a while back - but the older clients of chrome didn't support it. Now they do. - Amadeus on 2018-10-23T20:17:46.583Z
+
+
+### Moved from Electron 3.0.1/3.0.3/3.0.5 Update Bugs 🍒 to Not a Bug by Amadeus on 2018-11-30T18:55:00.299Z
+
+
+### Archived due to being inactive for 30+ days in NAB list. - Tarek on 2019-01-01T15:21:39.218Z
+
+
+### Archived by Tarek on 2019-01-01T15:21:41.378Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

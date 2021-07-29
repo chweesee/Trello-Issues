@@ -1,0 +1,170 @@
+[Archived] [Cross Platform] Kicking a bot will still show its integrated role in role settings (if it has one) (https://trello.com/c/YecT4I6q)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2019-06-12T23:10:23.609Z
+Latest Update: 2019-09-09T16:00:50.476Z
+
+Reported by Danijel#9000
+
+####Steps to reproduce:
+- Invite a bot with an integrated role 
+- Observe role list 
+- Kick the bot 
+- Observe the role list again
+
+####Expected result:
+The bot's role shouldn't be there since it is no longer in the server
+####Actual result:
+It is still in the server and there is nothing you can do about it
+####Client settings:
+Discord Alpha 9.0.9
+####System settings:
+Samsung Galaxy Note 8, Android 9
+
+37101
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-12T23:10:23.609Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Version: 1803 Build: 17134.829 - Canary 39549 & iPhone XR, iOS 12.3.1, TestFlight 3.0.3 (15702)
+
+joshua#0666 - Bug Bot on 2019-06-12T23:10:30.960Z
+
+
+### Can reproduce.
+Win10 Pro x64 | Canary build: 39549 | This is more likely a backend issue
+
+legendarylol#8215 - Bug Bot on 2019-06-12T23:10:35.897Z
+
+
+### Can reproduce.
+CR; Win10 Pro x65 | Canary 39549 || Huawei Y7, Android 8.0.0, Alpha 909
+
+Bullseye#8200 - Bug Bot on 2019-06-12T23:10:40.936Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary build: 39549
+
+Loe#1182 - Bug Bot on 2019-06-12T23:12:21.275Z
+
+
+### Can't reproduce.
+Windows 10 Pro v1809 Canary 39549, Essential PH-1, Android P, Alpha 909
+
+Daffy#7906 - Bug Bot on 2019-06-12T23:13:15.398Z
+
+
+### Can reproduce.
+Win10 Pro x64, Canary build 39549
+
+thewsomeguy#0001 - Bug Bot on 2019-06-12T23:50:02.981Z
+
+
+### Can reproduce.
+Windows 10 Pro x32, Canary 39549 | Asus Zenfone 2, Android 5.0, Discord Alpha 9.0.9
+
+Karasu#0013 - Bug Bot on 2019-06-12T23:56:02.604Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, 10.0.16299 Build 16299. Canary Build 3959
+
+Kenzzer#0001 - Bug Bot on 2019-06-13T09:52:32.149Z
+
+
+### Can reproduce.
+CR Windows 10 Pro Canary 39597
+
+Typhoon#3514 - Bug Bot on 2019-06-13T16:47:47.597Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Version 10.0.17763 Build 17763 - Canary 39636
+
+Ice#9999 - Bug Bot on 2019-06-13T18:46:39.655Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14.5 • Canary 39443
+
+Rage#9991 - Bug Bot on 2019-06-13T19:30:12.803Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 39818 (Host 0.0.243)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-16T19:06:36.882Z
+
+
+### Verified on Canary 39833, Windows 10 Home 64-bit (v1903). - Ene on 2019-06-17T08:48:43.142Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Ene on 2019-06-17T08:48:47.958Z
+
+
+### Can reproduce.
+Windows 10 1903 canary 39926
+
+GlenMerlin#2119 - Bug Bot on 2019-06-18T21:41:51.618Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Tarek on 2019-06-20T18:45:36.924Z
+
+
+### Based of https://github.com/discordapp/discord-api-docs/issues/990#issuecomment-504125037 - Tarek on 2019-06-20T18:45:58.315Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Version 1903 Build 18362.175, Canary 39968
+
+Noxillio#0001 - Bug Bot on 2019-06-20T21:37:46.866Z
+
+
+### Fixed - Tarek on 2019-06-22T23:56:33.641Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2019-06-22T23:56:37.164Z
+
+
+### Can reproduce.
+Windows 10 18362 - Release Channel: stable, Build Number: 40393 & iOS 12.4 dev beta 5 & iOS 13 dev beta 2 TF : 3.0.5 - 15973.
+
+djsmithuk#0007 - Bug Bot on 2019-06-27T20:56:30.303Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-07-05T13:45:00.309Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Discord Canary Build Number: 41476
+
+Jeffrey#1234 - Bug Bot on 2019-07-19T01:35:53.408Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.3.8
+
+Krobo#4784 - Bug Bot on 2019-08-08T12:27:57.526Z
+
+
+### Can reproduce.
+HP Laptop 17-ca0xxx - Windows 10 64bit v1903
+
+SPCMarion3831#0521 - Bug Bot on 2019-08-10T15:55:04.565Z
+
+
+### Archived by Bug Bot on 2019-09-09T16:00:50.489Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

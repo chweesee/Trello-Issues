@@ -1,0 +1,112 @@
+Cannot scroll role list downwards while saving confirmation is open. (https://trello.com/c/zF8NHNWU)
+
+None
+
+Created: 2019-06-06T20:37:15.708Z
+Latest Update: 2020-07-16T21:26:04.083Z
+
+Reported by Drifter#0001
+
+####Steps to reproduce:
+- Have a role list large enough to scroll. 
+- Scroll up in the list. 
+- Make a change to roles to make the confirmation dialogue appear. 
+- Click and drag a role. 
+- Drag the role to the bottom of the page.
+
+####Expected result:
+The role list scrolls downwards.
+####Actual result:
+The role list does not scroll.
+####Client settings:
+Release Channel: canary, Build Number: 39185
+####System settings:
+macOS Mojave 10.14.5
+
+36327
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-06T20:37:15.708Z
+
+
+### xTeal#7702 - https://imgur.com/a/eDKBETi.gif added by Bug Bot on 2019-06-06T20:37:18.578Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.5 (18F132) - Canary 39214
+
+Isabel#0002 - Bug Bot on 2019-06-06T20:37:23.636Z
+
+
+### Can reproduce.
+can reproduce, canary 39214 | macos 10.14.3
+
+IcyPebbles#5833 - Bug Bot on 2019-06-06T20:37:28.569Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (1809) on Discord Canary Build 39214. This also happens on Windows, and makes it extremely hard to scroll down.
+
+Ghoul#0003 - Bug Bot on 2019-06-06T20:37:33.522Z
+
+
+### Can reproduce.
+CR; Windows 10 (build 17763) ~ Canary 39214
+
+Lengo#0001 - Bug Bot on 2019-06-06T22:22:32.830Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 (OS Build 17134.765), Discord Canary 39214
+
+Nad#3478 - Bug Bot on 2019-06-06T22:28:56.904Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 39214 (Host 0.0.240)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-06T23:27:12.392Z
+
+
+### Can reproduce.
+macOS Mojave v. 10.14 (18A391) - Canary 39185
+
+ImFirstPlace#3965 - Bug Bot on 2019-06-07T00:27:24.130Z
+
+
+### The reason why the list isn't scrolling down is because the "Careful - you have unsaved changes!" Box is blocking the bottom few roles.
+
+ImFirstPlace#3965 - Bug Bot on 2019-06-07T00:29:39.266Z
+
+
+### Can reproduce.
+macOS Mojave v. 10.14 (18A391) - Canary 39291
+
+ImFirstPlace#3965 - Bug Bot on 2019-06-07T00:49:41.119Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1903 - Canary 39291
+
+anonymous kitten#8929 - Bug Bot on 2019-06-07T01:39:17.190Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.240 Build 39397
+
+Daffyduck#5364 - Bug Bot on 2019-06-08T03:19:00.048Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 41168
+
+Xylium#5800 - Bug Bot on 2019-07-13T18:39:19.675Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

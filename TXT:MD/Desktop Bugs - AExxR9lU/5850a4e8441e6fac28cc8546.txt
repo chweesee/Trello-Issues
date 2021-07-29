@@ -1,0 +1,130 @@
+[Archived] Pressing `enter` while the "Delete Message" popup is open does nothing. (https://trello.com/c/WB9qJ8iQ)
+
+None
+
+Created: 2016-12-14T01:48:24.153Z
+Latest Update: 2016-12-29T23:58:03.126Z
+
+Reported by Noahkiq#9675
+
+####Steps to reproduce: 
+- Press the up arrow while in the chat to edit your latest message 
+- Delete everything and press enter 
+- Press the enter key while the delete message popup is showing 
+
+####Expected result:
+ Message is deleted as if you pressed Delete 
+####Actual result:
+ Message isn't deleted System Settings: Win10 x64, Canary
+
+Card Log
+========
+### Added by Jared on 2016-12-14T01:48:24.153Z
+
+
+### Can reproduce.
+Win 10AU Canary 0.0.149
+
+𝅳𝅳𝅳𝅳𝅳#5756 - Jared on 2016-12-14T01:51:33.229Z
+
+
+### This seems like a feature request more than anything.
+
+Joe#0816 - Jared on 2016-12-14T01:56:33.746Z
+
+
+### Can't reproduce.
+v0.0.149 on Windows 7 x64
+
+Ian Murray#8701 - Jared on 2016-12-14T01:57:30.498Z
+
+
+### Can reproduce.
+linux 0.11
+
+mralext20#8975 - Jared on 2016-12-14T02:36:14.857Z
+
+
+### Can reproduce.
+Win 10, latest Canary
+
+DaFri_Nochiterov#1542 - Jared on 2016-12-14T07:54:14.135Z
+
+
+### Can reproduce.
+Latest Canary on the latest macOS Version
+
+xLars#5484 - Jared on 2016-12-14T08:48:55.434Z
+
+
+### Can't reproduce.
+Lastest canary
+
+Dougley#6248 - Jared on 2016-12-14T08:54:27.667Z
+
+
+### Can reproduce.
+win10 latest canary
+
+Weeajew#3674 - Jared on 2016-12-14T09:58:22.744Z
+
+
+### Can reproduce.
+Latest canary, Windows 10
+
+TheEvilSocks#0023 - Jared on 2016-12-14T13:07:17.189Z
+
+
+### Works after clicking anywhere on the popup and then pressing enter \👌
+
+TheEvilSocks#0023 - Jared on 2016-12-14T13:08:31.526Z
+
+
+### Can reproduce.
+Win 10 Pro x64 AU, Canary. Very annoying. Would also like to note that the cause of this bug is because the focus is on the message text field, not the delete form. Pressing enter still works fine, if you get to the delete modal by right clicking and message and clicking the delete message button.
+
+ThaTiemsz#5517 - Jared on 2016-12-14T15:12:48.796Z
+
+
+### Can't reproduce.
+Mint 18 x64
+
+Khionu#8708 - Jared on 2016-12-14T15:27:52.104Z
+
+
+### Verified. - Jared on 2016-12-14T19:11:57.403Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-14T19:11:59.160Z
+
+
+### Can reproduce.
+Win10 x64 Canary
+
+cyberiumshadow#7057 - Jared on 2016-12-14T22:07:21.542Z
+
+
+### Can reproduce.
+Canary 0.0.149, Windows 10 x64
+
+Pyker#4853 - Jared on 2016-12-14T22:39:10.387Z
+
+
+### Can't reproduce.
+Latest win10 Stable
+
+ɯɐǝɹp uɐɔ I#8520 - Jared on 2016-12-15T08:06:47.654Z
+
+
+### Dupe https://trello.com/c/XqFT0b62/234-messages-are-editable-in-the-delete-modal - Sam on 2016-12-29T23:58:01.814Z
+
+
+### Archived by Sam on 2016-12-29T23:58:03.131Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

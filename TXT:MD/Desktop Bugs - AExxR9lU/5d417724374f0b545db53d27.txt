@@ -1,0 +1,96 @@
+Cannot scroll while moving user to a voice call while there are unread notifications above the new voice call (https://trello.com/c/0I2kdNHD)
+
+None
+
+Created: 2019-07-31T11:10:28.188Z
+Latest Update: 2020-07-16T21:26:04.633Z
+
+Reported by jamzs#3264
+
+####Steps to reproduce:
+- Have a voice channel lower down on the channel list, and one higher up separated by other text channels so that while viewing the lower voice channel the higher one is not visible 
+- Have an unread notification between the lower voice channel and the higher voice channel 
+- Try to move the user by dragging them to the top of the channel list to scroll up to the higher voice channel
+
+####Expected result:
+The channel list should scroll upwards
+####Actual result:
+The channel list does not scroll upwards as it is blocked by the Unread Messages notification bubble
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 42191, Version Hash: 007fffd4985783f48adffb81b648270c95e822df
+####System settings:
+Windows 10 Home Version 1803 (OS Build 17134.885)
+
+41033
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-31T11:10:28.188Z
+
+
+### Can reproduce.
+Stable - Windows 10 Home Single Language - x64 OS -  Version 1803 - Build: 42319
+
+TheAHMguy (GloriousBeliever)#9272 - Bug Bot on 2019-07-31T11:10:35.948Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64 1903, Canary 42319
+
+B.O.S.S#0251 - Bug Bot on 2019-07-31T11:10:40.930Z
+
+
+### Can reproduce.
+CR Windows 10 • x64 • 17134 • Discord Canary • 42319
+
+White Falcon#0001 - Bug Bot on 2019-07-31T11:10:45.901Z
+
+
+### Can reproduce.
+Windows 10 Professional,Canary 42319
+
+Typhoon#7906 - Bug Bot on 2019-07-31T11:52:59.808Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 42319
+
+AHkhan#6518 - Bug Bot on 2019-07-31T16:37:56.260Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64x 1903, Discord Canary Build Number: 42329
+
+pro6_dog#3800 - Bug Bot on 2019-07-31T20:26:17.630Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64x 1903, Discord Canary Build Number: 42329
+
+pro6_dog#3800 - Bug Bot on 2019-07-31T20:45:31.548Z
+
+
+### Can reproduce.
+MacOS 10.14.4, Canary Build: 42329
+
+Jeffrey#1234 - Bug Bot on 2019-07-31T21:55:00.235Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 42319
+
+Jasοn#0001 - Bug Bot on 2019-07-31T22:07:21.717Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 42408 (Host 0.0.251)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-02T21:45:48.723Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

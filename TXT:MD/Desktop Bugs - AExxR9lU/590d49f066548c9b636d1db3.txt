@@ -1,0 +1,72 @@
+[Archived] When in the Member Settings tab and a bot is added that makes its own role, role filter switches to the newly created role. (https://trello.com/c/oSEdpWwu)
+
+P3: Will get fixed eventually
+
+Created: 2017-05-06T03:58:40.549Z
+Latest Update: 2018-10-22T20:13:59.347Z
+
+Reported by paint.net 4.0.16#4562
+
+####Steps to reproduce: 
+- Navigate to Server Settings > Members 
+- Add a bot to server
+
+
+####Expected result:
+ nothing happens; role filter remains at its existing setting
+
+####Actual result:
+ role filter is set to the role that was just created for the new bot (IF APPLICABLE)
+
+####System settings:
+ Windows 7, Latest Canary
+
+1424
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-06T03:58:40.549Z
+
+
+### Can reproduce.
+Windows 10, latest version of Discord Canary.
+
+Mapleroot#1366 - Bug Bot on 2017-05-06T03:58:41.170Z
+
+
+### Can reproduce.
+Discord 0.0.144 MacOS Sierra
+
+ItsPugle#5963 - Bug Bot on 2017-05-06T03:58:43.218Z
+
+
+### Can reproduce.
+win10 latet canary
+
+Gwen Oddball#2867 - Bug Bot on 2017-05-06T03:58:45.199Z
+
+
+### Verified.  - Clayton on 2017-05-12T19:57:04.153Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-12T19:57:09.070Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 Home x64 v1709 - Something else to note, the role filter changes but doesn't display the new bot which has the role.
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T16:34:30.481Z
+
+
+### Wolterhon#3938 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/590d49f066548c9b636d1db3/606794ed7f6c0365233c135c4286d827/iBVhzEs.gif added by Bug Bot on 2018-07-15T06:57:04.529Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:59.349Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

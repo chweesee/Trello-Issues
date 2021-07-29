@@ -1,0 +1,108 @@
+[Archived] If a server is on outage and you try to access recent mentions if you been mentioned in that server, the client will instantly crash upon trying to load the mention (https://trello.com/c/cF5lK4rA)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-04-24T00:04:48.699Z
+Latest Update: 2019-08-15T00:30:04.479Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Get mentioned in a server 
+- Somehow get that server go on outage 
+- Try to access recent mentions tab (where the mention would show up and the affected server)
+
+####Expected result:
+Not crash and possibly hide the mention since the server is on outage where the ping originates from
+####Actual result:
+The client will instantly crash if you even try to view the ping when the server is on outage
+####Client settings:
+Discord Canary 0.0.204 (14021)
+####System settings:
+Windows 10 Pro 64-bit (1709)
+
+11189
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-24T00:04:48.699Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ade74a0c0299c1a0d46065e/be38de02677e6777858f605f556234c9/srFonAV.png added by Bug Bot on 2018-04-24T00:04:51.539Z
+
+
+### Can reproduce.
+CR; iPhone 6 - iOS 11.4 TestFlight 2.3.0 (3817)
+
+Xylium#1480 - Bug Bot on 2018-04-24T00:04:56.149Z
+
+
+### Can reproduce.
+Can Reproduce; iPhone 8 +, iOS 11.4 - Discord TestFlight 2.3.0 (3817). — When Discord Feedback was on an outage, I attempted to open my Recent Mentions and saw my screen going black as if my client is about to crash. But my client never finishes crashing as the application is non-responsive and you have to force close it. That’s how it was on iOS.
+
+Ghoul#0001 - Bug Bot on 2018-04-24T00:05:02.064Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS 10.12.6 Sierra, Discord Canary (Build 13963)
+
+Rage#0001 - Bug Bot on 2018-04-24T00:05:06.136Z
+
+
+### As a small note, this is a cross platform bug. Happening on Android, iOS and Desktop.
+
+And not directly related to the outage that happened yesterday, this happens on any outage. Since I tested this in my server and put it on outage and could still repro. - Tarek on 2018-04-24T14:09:41.091Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Discord Canary (14116).
+
+/hash#0001 - Bug Bot on 2018-04-25T15:57:35.964Z
+
+
+### Verified.  - Clayton on 2018-04-28T00:32:29.691Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-28T00:32:33.810Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:12.403Z
+
+
+### Can reproduce.
+Windows 7 Home Premium 64-bit, Build Number: 31908
+
+Prellolord#2650 - Bug Bot on 2019-02-07T08:00:45.685Z
+
+
+### Unarchived by Bug Bot on 2019-02-07T08:30:05.704Z
+
+
+### Can reproduce.
+Windows 10 insider build 18346.19h1_release.190222-1556 Discord Canary version 33046
+
+Rodry#4020 - Bug Bot on 2019-03-01T18:45:33.211Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2
+
+onedigit1#6828 - Bug Bot on 2019-03-31T17:27:42.645Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.3.1 TestFlight 3.0.6 (16208)
+
+ImmortaLemur#2998 - Bug Bot on 2019-07-16T00:05:47.317Z
+
+
+### Archived by Bug Bot on 2019-08-15T00:30:04.494Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,88 @@
+[Archived] Getting a notification (it does help if you are getting multiple notifications from the same location; someone typing repeated short messages and sending them) and going into Discord manually (so in any way aside from clicking or pressing on the notification itself) doesn’t to clear the notifications from the Notification Center. (https://trello.com/c/zmagn6Nl)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-27T01:02:43.130Z
+Latest Update: 2019-01-11T00:00:48.418Z
+
+Reported by Nimbus#0001
+
+####Steps to reproduce:
+- Join a server and allow desktop notifications 
+- Receive a message from the server 
+- Go to the server and clear the “New Message” notification
+
+####Expected result:
+The notification should be cleared from the Notification Center
+####Actual result:
+The notifications stick although they were read by going into the chat. Again, clicking or pressing on the notification itself will bring you into said chat and delete the notification (as expected), but going into Discord and reading chats that pushed notifications to you do not dismiss themselves despite being read.
+####Client settings:
+Discord Canary, Build Number: 19429
+####System settings:
+Mac OS High Sierra 10.13.1
+
+15838
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-27T01:02:43.130Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Canary Build 19931 - Only get it when spamming very much messages (my notification settings were all messages)
+
+Pascal#0929 - Bug Bot on 2018-07-27T01:02:50.754Z
+
+
+### Can reproduce.
+MacBook Pro (late 2012), macOS Mojave 10.14 Beta 4 (18A336e), Canary 0.0.193 (19931)
+
+mouse#0091 - Bug Bot on 2018-07-27T01:02:55.590Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 1803 x64, Canary 19931
+
+Marc#5983 - Bug Bot on 2018-07-27T01:03:00.657Z
+
+
+### Can reproduce.
+CR with both macOS 10.13.5 and Windows 10 Home x64 - Canary 19931
+
+-Shadow-#6754 - Bug Bot on 2018-07-27T03:50:51.470Z
+
+
+### Can't reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 19880
+
+MoonlightCapital#0554 - Bug Bot on 2018-07-27T04:35:18.605Z
+
+
+### Can't reproduce.
+Notifications clear fine for me WIN7 Enterprise, canary 20433
+
+Uptightjoker#0001 - Bug Bot on 2018-08-01T15:08:04.312Z
+
+
+### CNR - Clayton on 2018-08-16T21:16:37.654Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-08-16T21:16:42.085Z
+
+
+### can repro - Clayton on 2018-10-02T02:00:24.770Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Clayton on 2018-10-02T02:00:30.299Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:48.420Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

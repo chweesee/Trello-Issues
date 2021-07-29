@@ -1,0 +1,64 @@
+[Archived] Entering a hyperlink that contains the same text as a Twitch synced subscriber emote will render the link with the emote (https://trello.com/c/qvQJ0P9v)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-01-12T16:54:00.972Z
+Latest Update: 2018-08-22T01:20:26.214Z
+
+Reported by z00z#9825
+
+####Steps to reproduce:
+- Get a name of one of your synced Twitch sub emotes (the ones that don't need to be used with colons). 
+- In a text channel, or Direct Message, enter a link like "[domain dot com]/[twitch emote name] dot png", no brackets. 
+- Observe that an emote will be placed in the URL instead of text.
+
+####Expected result:
+A clickable URL with only text and no emotes in the middle of it.
+####Actual result:
+The emote will appear where its name is in the URL, breaking the URL.
+####Client settings:
+Android 6.0.5 (605)
+####System settings:
+Pixel 2, Android 8.1.0
+
+7771
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-12T16:54:00.972Z
+
+
+### Can reproduce.
+Disccord Alpha 6.0.8 OnePlus 5 Android 8.0 (Oreo)
+
+Tarek1337#0379 - Bug Bot on 2018-01-12T16:54:08.556Z
+
+
+### Can reproduce.
+Google Pixel XL, Android 8.0 alpha 6.0.8
+
+Mikesky#3456 - Bug Bot on 2018-01-12T16:54:13.563Z
+
+
+### Can reproduce.
+Nexus 6 Android 7.1.2 Discord 6.0.8
+
+MelodyConcerto#5328 - Bug Bot on 2018-01-12T16:54:18.556Z
+
+
+### Verified.  - Clayton on 2018-01-16T22:17:56.269Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-16T22:18:12.950Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:26.216Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

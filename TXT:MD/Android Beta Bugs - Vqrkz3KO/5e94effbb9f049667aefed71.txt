@@ -1,0 +1,105 @@
+When entering a channel, mentioning or quoting a message will cause the keyboard to open before closing almost immediately afterwards (https://trello.com/c/fk36vwiK)
+
+None
+
+Created: 2020-04-13T23:04:27.827Z
+Latest Update: 2020-04-23T19:56:22.799Z
+
+Reported by Ana940#9858
+
+####Steps to reproduce:
+- Enter a channel that you're not currently focused on 
+- Quote a message, or mention a user
+
+####Expected result:
+Keyboard should pop up and stay up
+####Actual result:
+Keyboard opens then almost immediately closes
+####Client settings:
+Android 18.0-alpha7 (1098)
+####System settings:
+Moto G5, Android 8.1.0
+
+54623
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-13T23:04:27.827Z
+
+
+### Can reproduce.
+CR, Moto G7, Android 9, Discord 18.0-Alpha7 (1098)
+
+wakfi#6999 - Bug Bot on 2020-04-13T23:04:35.551Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha7 (1098)
+
+RileyTheSnom#3724 - Bug Bot on 2020-04-13T23:04:40.580Z
+
+
+### Can reproduce.
+CR, Redmi Note 8, Android 9, Discord 18.0 alpha-7(1098)
+
+Himandroid#8293 - Bug Bot on 2020-04-13T23:04:45.614Z
+
+
+### Editing a message upon entering a channel has the same effect as quoting and mentioning too.
+
+Ana940#9858 - Bug Bot on 2020-04-13T23:27:53.331Z
+
+
+### Quoting, mentioning and editing all have the collapsing bug exclusively, as in it'll collapse the first time you mention upon entering the channel, as well as collapse the first time you quote, and the first time you edit
+
+Ana940#9858 - Bug Bot on 2020-04-13T23:31:33.174Z
+
+
+### Does not occur on these actions if the keyboard is opened at least once normally before taking these actions, even if you close it before taking the action
+
+wakfi#6999 - Bug Bot on 2020-04-13T23:36:43.503Z
+
+
+### Also when swiping member list open, then refocusing the chat
+
+Ana940#9858 - Bug Bot on 2020-04-14T00:15:26.793Z
+
+
+### Can reproduce.
+[CR] Samsung A10 - Android 9 - Discord 18.0-Alpha7 (1089)
+
+Cookie#3165 - Bug Bot on 2020-04-14T00:17:16.647Z
+
+
+### Can reproduce.
+[CR] Samsung A10, Android 9, Discord 18.0-Alpha7 (1098)
+
+Cookie#3165 - Bug Bot on 2020-04-14T00:18:43.537Z
+
+
+### Can reproduce.
+CR, Y9s, Android 10, Discord 18-alpha 7 (1098)
+
+Zynb#2984 - Bug Bot on 2020-04-14T08:32:21.809Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy S7 Edge, Android 8.0.0, Discord 18.0-Alpha7 (1098)
+
+TigerYT#0001 - Bug Bot on 2020-04-14T14:18:01.378Z
+
+
+### Similar occurs in 19.2 (1108), mentioning closes the keyboard (though it doesn't reopen then close, if the keyboard is open it closes automaticay
+
+Ana940#9858 - Bug Bot on 2020-04-23T13:57:03.484Z
+
+
+### Moved from User Reported Bugs to Keyboard + Input Bugs by Jeff Cailteux on 2020-04-23T19:56:22.777Z
+
+List
+====
+Keyboard + Input Bugs
+
+Members
+=======
+None

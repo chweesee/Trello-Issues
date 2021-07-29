@@ -1,0 +1,77 @@
+[Archived] Channel mentioning fails when multiple channels with same name mentioned and message is edited. (https://trello.com/c/0P38g5pX)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-09T13:50:34.851Z
+Latest Update: 2018-10-11T03:44:14.312Z
+
+Reported by BlazeBoss#3412
+
+####Steps to reproduce:Create a discord server 
+- create 3 text channels with the exact same name 
+- send a message in any channel that mentions all three channels 
+- use, for example, general~1, general~2 to mention them 
+- check all mentions work and take you to the correct channels 
+- edit the message and see that the ~1 thing is gone
+
+####Expected result:
+The channels stay mentioned correctly with the correct ~ thing when message is edited
+####Actual result:
+The ~ thing disappears
+####Client settings:
+Release Channel: ptb, Build Number: 25724, Version Hash: d4cb76f1774bcbf6ad18bf1a8132f5d92f456bd0
+####System settings:
+Windows 10 Home
+
+20861
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-09T13:50:34.851Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 25683
+
+» a r i a#1593 - Bug Bot on 2018-10-09T13:50:42.478Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 25718
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-09T13:50:47.217Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 25718
+
+Neiron#2406 - Bug Bot on 2018-10-09T13:50:52.286Z
+
+
+### minor - Clayton on 2018-10-09T21:19:34.262Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-09T21:19:41.912Z
+
+
+### Duplicate of https://trello.com/c/5Qd0jehp
+
+Ene#0808 - Bug Bot on 2018-10-10T06:00:16.191Z
+
+
+### Dupe below - Tarek on 2018-10-10T07:37:04.650Z
+
+
+### dupe below - Clayton on 2018-10-11T03:44:12.604Z
+
+
+### Archived by Clayton on 2018-10-11T03:44:14.314Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

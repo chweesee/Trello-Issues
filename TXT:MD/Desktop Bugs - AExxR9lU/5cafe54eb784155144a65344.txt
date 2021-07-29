@@ -1,0 +1,99 @@
+[Archived] When attaching a reason to the 'X-Audit-Log-Reason' header when deleting an invite, it does not show up in audit logs (https://trello.com/c/tZf82bci)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-04-12T01:09:34.974Z
+Latest Update: 2019-09-16T17:00:03.679Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Delete an invite via the API and include the 'X-Audit-Log-Reason' header with a reason 
+- Open the audit logs in your server and observe how you can't expand the action and see the reason
+
+####Expected result:
+Show the reason for the deleted invite
+####Actual result:
+You can't expand the action
+####Client settings:
+Discord Canary 0.0.234 (35470)
+####System settings:
+Windows 10 Pro 64-bit (1809)
+
+32451
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-12T01:09:34.974Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cafe54eb784155144a65344/f55fd3b50bf47635ecca19f43dd9d060/1yamd2e.png added by Bug Bot on 2019-04-12T01:09:37.606Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cafe54eb784155144a65344/d3ca463e3c7da315a21a69351d5f4973/SkpI5zQ.png added by Bug Bot on 2019-04-12T01:09:37.746Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.6 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 35470
+
+MoonlightCapital#0554 - Bug Bot on 2019-04-12T01:09:42.294Z
+
+
+### Can reproduce.
+Macbook Pro Early 2015, OSX 10.14, Canary 35483
+
+Wumpus#0001 - Bug Bot on 2019-04-12T01:09:47.356Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 35470
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-12T01:09:52.407Z
+
+
+### Can reproduce.
+CR, macOS 10.14.5, PTB 35470
+
+Action Potential#2494 - Bug Bot on 2019-04-12T01:27:39.279Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 35470
+
+Neiron#8475 - Bug Bot on 2019-04-12T10:49:02.242Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 35483
+
+Lelantos#4866 - Bug Bot on 2019-04-12T13:41:10.309Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 ~ Chrome 72.0.3626.122 (x64) ~ Canary 35540
+
+Casper#9999 - Bug Bot on 2019-04-13T18:43:06.831Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 35540 (Host 0.0.234)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-14T19:41:43.991Z
+
+
+### Still reproducible.  - Tarek on 2019-08-17T16:37:32.663Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2019-08-17T16:37:41.078Z
+
+
+### Archived by Bug Bot on 2019-09-16T17:00:03.695Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

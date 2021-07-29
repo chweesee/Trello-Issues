@@ -1,0 +1,76 @@
+[Archived] Spotify embeds stop playing if unfocused (unlike their video counterparts) (https://trello.com/c/uTNgKi2V)
+
+P2: Fix can wait a while
+
+Created: 2017-09-21T19:03:02.173Z
+Latest Update: 2017-11-15T18:52:18.282Z
+
+Reported by Pointy#9109
+
+####Steps to reproduce:
+- Ensure you are on Canary Web _or_ Desktop Canary **without** Spotify installed locally 
+- Post a Spotify media link (e.g. /track/) 
+- Play the track preview from the embedded player 
+- Scroll so the player is no longer in focus (can be up or down)
+
+####Expected result:
+The player should continue to play until the message is no longer loaded, as is the case with YouTube videos and such
+####Actual result:
+The player stops immediately after leaving the visible portion of the screen
+####Client settings:
+Canary Web (Build 4585) - Chrome Stable 60.0.3112.113 x64
+####System settings:
+Win 10 Pro x64 v1607
+
+4628
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-21T19:03:02.173Z
+
+
+### Can reproduce.
+it reloads the whole embed | iMac (Retina 4K, 21.5-inch, Late 2015), OS X El Capitan 10.11.6 (15G1421), Canary 0.0.154
+
+Rauf I.#3260 - Bug Bot on 2017-09-21T19:03:09.807Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10 xfce4, Discord Canary 0.0.24 Build 4663
+
+Starshine Dust#2189 - Bug Bot on 2017-09-21T19:03:14.810Z
+
+
+### Can reproduce.
+CR, Windows 10 Home Edition x64, Discord Canary 4663, Entire embed reloads.
+
+Striker#7250 - Bug Bot on 2017-09-21T19:03:19.791Z
+
+
+### Striker#7250 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59c40ce6665e284f61e55581/fe9f7512d3d885e727a53138639768b8/videotogif_2017.09.21_20.24.09.gif added by Bug Bot on 2017-09-21T19:30:51.863Z
+
+
+### Verified.  - Clayton on 2017-09-21T20:56:11.119Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-21T20:56:16.346Z
+
+
+### By design. Intended to only play correctly if spotify is on the computer. this is to avoid performance issues with the way the embed works. - Stanislav Vishnevskiy on 2017-10-09T23:15:55.098Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Stanislav Vishnevskiy on 2017-10-09T23:16:10.322Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T18:48:53.979Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T18:52:18.283Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

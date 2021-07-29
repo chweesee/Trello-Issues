@@ -1,0 +1,71 @@
+[Archived] [Audit Log] creating, editing and deleting a voice channel or a category puts a "#" in front of the name (https://trello.com/c/ZFW1eeBJ)
+
+None
+
+Created: 2018-10-05T21:20:11.281Z
+Latest Update: 2019-06-05T23:47:49.135Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- create / delete / edit a voice channel or category 
+- observe Audit Log
+
+####Expected result:
+Audit Log entry shows: "User created voice channel name"
+####Actual result:
+create entry shows: "User created voice channel **#name**"
+####Client settings:
+Alpha 763
+####System settings:
+Samsung Galaxy S5 mini, Android 6.0.1
+
+20652
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-05T21:20:11.281Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 763
+
+The Lunala#7777 - Bug Bot on 2018-10-05T21:20:18.702Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.6.3
+
+coolalmostchilly#7777 - Bug Bot on 2018-10-05T21:20:23.648Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8; 7.6.3
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-05T21:20:28.633Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Clayton on 2018-10-05T22:10:03.731Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.6.3
+
+Hole#0001 - Bug Bot on 2018-10-06T07:50:56.522Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-10-08T19:11:54.178Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-03T21:43:33.658Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:49.143Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

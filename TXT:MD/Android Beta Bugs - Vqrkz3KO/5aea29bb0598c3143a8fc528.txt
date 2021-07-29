@@ -1,0 +1,87 @@
+[Archived] Irregular and improper width of navigate role tab in server settings>members (https://trello.com/c/QHgK57ZB)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-02T21:12:27.171Z
+Latest Update: 2018-08-22T01:22:02.487Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Create a role in a server with a name with the max possible chatacters/ a really long named role. 
+- Go to server settings of a server you have admin perms in and navigate to members setting. 
+- Right next to the text field where you can search members, there's a tab to sort/navigate members role. 
+- Click on a role with short name, now click on the role with really long name and notice the difference in the width. 
+- Just after clicking the long named role, click on any role above.
+
+####Expected result:
+The width of the tab should reset according to role name length.
+####Actual result:
+The width of the tab remains expanded even after clicking on short named role when u select it after clicking on long role. (Approx 14 roles above or below, the width remain the same as according to long named role and not to the selected role)
+####Client settings:
+Discord Alpha 6.6.0
+####System settings:
+Xiaomi Mi A1, Android 8.0.0
+
+11812
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-02T21:12:27.171Z
+
+
+### Can reproduce.
+Can Reproduce on Allview Viva H8 LTE, Android 4.4.4, & Allview P6 Plus, Android 6.0 - Discord 6.6.0
+
+Zenkoder#4047 - Bug Bot on 2018-05-02T21:12:34.636Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 6.5.9
+
+Bencey_#8587 - Bug Bot on 2018-05-02T21:12:39.581Z
+
+
+### Can reproduce.
+Couldn't reproduce until I created a LOT of roles that I placed above the one with the very long name. Also the width reset correctly when I clicked on the everyone role. Discord Alpha 6.6.0, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-05-02T21:12:44.541Z
+
+
+### Verified.  - Clayton on 2018-05-02T21:16:27.309Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-02T21:16:36.533Z
+
+
+### Can't reproduce.
+Lg Aristo (LGMS210) Android version 7.0 Can't reproduce in a small 10 member server Discord 6.5.9
+
+Helic#4668 - Bug Bot on 2018-05-02T21:35:24.620Z
+
+
+### Can't reproduce.
+Couldn't Reproduce, OnePlus 2, Android 6.0.1, Discord Alpha 6.6.0
+
+Marshadow#5095 - Bug Bot on 2018-05-03T01:53:01.511Z
+
+
+### Can reproduce.
+Can reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 Nougat ~ Discord Alpha 6.6.1
+
+DefinitelyNotLava#9562 - Bug Bot on 2018-05-03T08:39:01.867Z
+
+
+### Lava#9562 - https://youtu.be/WWxDjKHQga4 added by Bug Bot on 2018-07-16T07:47:56.672Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:02.489Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

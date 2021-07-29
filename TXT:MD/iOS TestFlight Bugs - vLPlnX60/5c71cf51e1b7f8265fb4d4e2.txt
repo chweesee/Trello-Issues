@@ -1,0 +1,91 @@
+[Archived] [Potentially 4” Specific] If you open a popup in Account Settings after recently closing the keyboard, the animation for SMS popup is affected by keyboard (https://trello.com/c/W55bj9fM)
+
+P3 - Will be fixed eventually
+
+Created: 2019-02-23T22:55:13.990Z
+Latest Update: 2019-06-27T19:00:04.246Z
+
+Reported by Solo#0007
+
+####Steps to reproduce:
+- Navigate to Account Settings 
+- Tap Remove 2FA 
+- Type something in and hit cancel 
+- Tap the toggle for turning of SMS Authentication
+
+####Expected result:
+The popup should have the usual animation, and not be moved by keyboard opening.
+####Actual result:
+The animation is affected by keyboard opening.
+####Client settings:
+TestFlight 2.4.5 (11524)
+####System settings:
+iPhone 5s, iOS 12.1.4
+
+29637
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-23T22:55:13.990Z
+
+
+### Solo#0007 - https://imgur.com/a/EAPY0f8.gif added by Bug Bot on 2019-02-23T22:55:16.346Z
+
+
+### Can reproduce.
+CR, just happens a little less, IPhone 7+, iOS 12.1.4
+
+Canine8_YT#4263 - Bug Bot on 2019-02-23T22:55:21.416Z
+
+
+### Can reproduce.
+CR, but not exactly the same behavior as the gif, I can sometimes see the window jump by doing the same steps, happens very rarely. iPhone SE, iOS 12.1.2 - Discord TestFlight 2.4.5 (11524)
+
+Arnold0#7514 - Bug Bot on 2019-02-23T22:55:26.424Z
+
+
+### Can reproduce.
+CR iPhone 7 Plus 12.1 (16B92) TestFlight 2.4.5
+
+Killtracity#0001 - Bug Bot on 2019-02-23T22:55:31.421Z
+
+
+### Can reproduce.
+iPhone X, IOS 12, TestFlight 2.4.5
+
+Mr. Proper#2394 - Bug Bot on 2019-02-24T09:41:00.004Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, TestFlight 2.4.5 (11524)
+
+M24#0272 - Bug Bot on 2019-02-24T15:51:47.749Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11524)
+
+Daffyduck#5364 - Bug Bot on 2019-02-24T21:35:23.606Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-03-08T19:00:10.863Z
+
+
+### This sounds like it should belong into Account Settings Category. So moving there. - Ghoul on 2019-04-02T04:59:28.821Z
+
+
+### Moved from Backlog to Account Settings by Ghoul on 2019-04-02T04:59:32.247Z
+
+
+### Moved from Account Settings to Backlog by Victoria on 2019-05-28T18:38:27.063Z
+
+
+### Archived by Bug Bot on 2019-06-27T19:00:04.259Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

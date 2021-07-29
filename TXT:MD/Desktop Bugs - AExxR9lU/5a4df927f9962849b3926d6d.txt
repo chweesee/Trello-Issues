@@ -1,0 +1,170 @@
+[Archived] When right clicking on an image then copy link, it won't copy the actual image link, instead it will copy a long URL which links to the same image, but it's a long weird URL (https://trello.com/c/kOTyQhtH)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2018-01-04T09:51:35.740Z
+Latest Update: 2018-07-06T18:19:20.093Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Post an image in Discord that's linked from an another image host such as imgur 
+- Right click on the image then copy link 
+- Observe the link
+
+####Expected result:
+It should be the imgur link
+####Actual result:
+It's a long URL leading to the actual image, but it's not actually the original imgur link
+####Client settings:
+Discord Canary 0.0.194 (9231)
+####System settings:
+Windows 10 Pro 64-bit (1709)
+
+7617
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-04T09:51:35.740Z
+
+
+### Tarek1337#0379 - https://i.imgur.com/mLlM7c4.gifv added by Bug Bot on 2018-01-04T09:51:38.206Z
+
+
+### Can reproduce.
+CR, Canary 0.0.194 (9231), Windows 10 Home Version 1703
+
+QwakGoesDuck#9672 - Bug Bot on 2018-01-04T09:51:43.120Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.194, Build 9231, Windows 10 Home x64 | Note: Only works for static images
+
+Ene#3002 - Bug Bot on 2018-01-04T09:51:48.180Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.194 Build 9231, Windows 10 Pro 64-bit, Can confirm static images only.
+
+Q__Q#0489 - Bug Bot on 2018-01-04T09:51:53.124Z
+
+
+### only happens to static images, not gifs. - Tarek on 2018-01-04T10:04:27.130Z
+
+
+### Verified - Jared on 2018-01-04T19:39:34.427Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-01-04T19:39:38.070Z
+
+
+### CNR anymore. Canary 9532. Moving to claimed fixed - Tarek on 2018-01-13T10:51:26.646Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-13T10:51:31.297Z
+
+
+### Moving back to verified bugs.. This is happening again on Canary 9616.. - Tarek on 2018-01-17T18:50:21.194Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Tarek on 2018-01-17T18:50:26.890Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Stanislav Vishnevskiy on 2018-01-20T23:24:16.736Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jake Heinz on 2018-01-23T03:52:45.995Z
+
+
+### Can't reproduce.
+CNR, MacBook Pro (late 2013), macOS  Sierra 10.12.1, Discord Canary build 9959
+
+JustGamer#9787 - Bug Bot on 2018-01-26T23:49:07.172Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-27T01:12:20.619Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (10011), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:31:18.976Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:54:32.791Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-27T07:54:39.173Z
+
+
+### Bug is still happening to images, which are expanded..
+Discord Canary 0.0.201 (10251) on Windows 10 Pro 64-bit (1709)
+Check GIF below
+https://i.imgur.com/qjR9sgO.gifv
+
+Moving back to verified bugs.: - Tarek on 2018-02-05T12:35:59.626Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Tarek on 2018-02-05T12:36:07.581Z
+
+
+### https://i.imgur.com/qjR9sgO.gifv - https://i.imgur.com/qjR9sgO.gifv added by Tarek on 2018-02-05T12:37:34.101Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 10251
+
+» a r i a#1593 - Bug Bot on 2018-02-05T12:38:37.094Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2018-02-13T22:19:16.155Z
+
+
+### Bug reopened, since it's still happening as of Canary 10904
+
+This is still happening to static images uploaded with an URL, A directly uploaded image won't work. Follow my repro steps in my most previous note to reproduce this. - Tarek on 2018-02-19T16:17:08.394Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-02-19T16:17:13.065Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1709 on Canary 12092
+
+railworks2#1234 - Bug Bot on 2018-03-16T00:31:14.616Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12159
+
+cutelilberry#5423 - Bug Bot on 2018-03-16T12:15:10.419Z
+
+
+### Checked as part of the bug event, I can still reproduce the different linking when copying the image directly as seen here:
+
+`https://i.imgur.com/xk7BMAH.png`
+`https://images-ext-1.discordapp.net/external/ceu50COVZbX5aMgQvRr_wMzJXxvggg4U1VmLomBdUok/https/i.imgur.com/xk7BMAH.png?width=292&height=270` - Alexander (DJScias) on 2018-03-16T16:17:10.759Z
+
+
+### can no longer reproduce, windows 10, canary build 18108, moving to claimed fixed - Tim on 2018-07-03T07:13:52.611Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Tim on 2018-07-03T07:14:04.826Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:19:19.092Z
+
+
+### Archived by Jared on 2018-07-06T18:19:20.096Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/svishnevskiy) - No Bio

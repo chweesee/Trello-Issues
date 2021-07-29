@@ -1,0 +1,125 @@
+Edited custom status disappears after page reload (https://trello.com/c/7dvS44V6)
+
+None
+
+Created: 2019-07-20T03:04:22.494Z
+Latest Update: 2020-07-16T21:26:04.484Z
+
+Reported by Bladexer#4205
+
+####Steps to reproduce:
+- Click avatar on bottom left corner 
+- Click 'Set Custom Status' 
+- Enter a custom status 
+- Set to 'Don't Clear' 
+- Click 'Save' 
+- Note status under user on the right bar 
+- Reload page 
+- Note empty status
+
+####Expected result:
+After the page reload, the status should remain stateful and not disappear if it wasn't set to clear within a time frame
+####Actual result:
+The status is cleared and I have to re-enter it for it to show again
+####Client settings:
+Browser Release Channel: stable, Build Number: 40795
+####System settings:
+MacOS 10.14.5 and Windows 10 Pro x64
+
+39401
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-20T03:04:22.494Z
+
+
+### Can reproduce.
+can reproduce, but may revoke, will look into this
+
+IcyPebbles#5833 - Bug Bot on 2019-07-20T03:04:30.252Z
+
+
+### Can reproduce.
+macos 10.15, canary 41390
+
+OrangeM24#5746 - Bug Bot on 2019-07-20T03:04:35.250Z
+
+
+### Can reproduce.
+CR, macOS 10.14.5, PTB 41567
+
+Action Potential#2494 - Bug Bot on 2019-07-20T03:04:40.216Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 41583
+
+charleskimbac#6492 - Bug Bot on 2019-07-20T05:54:09.491Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1903, Discord Canary 41583
+
+ryan#0570 - Bug Bot on 2019-07-20T06:44:22.340Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14.5 • Canary 41583
+
+Rage#9991 - Bug Bot on 2019-07-20T10:44:18.932Z
+
+
+### Can reproduce.
+Canary 41583, Host 0.0.247, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-20T17:09:25.530Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary Build: 41583
+
+Jeffrey#1234 - Bug Bot on 2019-07-20T22:09:03.544Z
+
+
+### Can reproduce.
+Windows 10 Home - [BUILD INFO] Canary, Build Number: 41583
+
+Jäger#0010 - Bug Bot on 2019-07-21T11:23:14.986Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 41583
+
+Neiron#8475 - Bug Bot on 2019-07-21T14:41:39.983Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 41583
+
+Jasοn#0001 - Bug Bot on 2019-07-21T19:59:34.378Z
+
+
+### Can reproduce.
+CR,  Windows 10 x64, stable 41567
+
+Jones#9015 - Bug Bot on 2019-07-22T00:55:29.606Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 41583
+
+Lily#2624 - Bug Bot on 2019-07-22T07:35:20.515Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 41877 (Host 0.0.247)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-25T02:00:17.082Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,78 @@
+When sizing the window to the smallest height on the follow channel menu, UI elements will overlay with the follow button. (https://trello.com/c/IHiYd1Nw)
+
+None
+
+Created: 2019-05-24T19:16:03.851Z
+Latest Update: 2020-07-16T21:26:03.960Z
+
+Reported by JohnyTheCarrot#0001
+
+####Steps to reproduce:
+- Go to a server channel with following enabled 
+- Click follow 
+- When on the menu, size the window down until the button area overlaps with the other UI elements and some of the text even goes out of modal.
+
+####Expected result:
+The UI elements should be behind the button area.
+####Actual result:
+The UI elements are merging with the button area.
+####Client settings:
+Discord Canary 38474
+####System settings:
+Windows 10 Home 1809
+
+35256
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-24T19:16:03.851Z
+
+
+### JohnyTheCarrot#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ce842f3e255317edd0e7cf6/94f2210e127b0288a9e43c95dce18f19/5zVGzC5mIK.png added by Bug Bot on 2019-05-24T19:16:06.760Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 38474
+
+TheForbiddenAi#0001 - Bug Bot on 2019-05-24T19:16:11.339Z
+
+
+### Can reproduce.
+CR - Windows 10 x64 - Education Edition - Canary 38474
+
+evilpauwse#9985 - Bug Bot on 2019-05-24T19:16:16.395Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38474
+
+Xylium#5800 - Bug Bot on 2019-05-24T19:16:21.294Z
+
+
+### JohnyTheCarrot#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ce842f3e255317edd0e7cf6/0f2b56929bea12f18e990b9c549ecbc8/ZkAWXKdbvf.gif added by Bug Bot on 2019-05-24T19:16:28.708Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38474 (Host 0.0.238)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-25T01:18:25.474Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit (1803), Discord Canary 38556
+
+tristanfarkas#0001 - Bug Bot on 2019-05-25T15:38:01.682Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15; Discord Canary 48030 - I cannot reproduce this, but I have an extension off this (according to bug hunters). My Notification Settings window does not scale to the current window size. It's always a set height, and thus if you have a small window, it will not adjust itself accordingly.
+
+Jiralite#1207 - Bug Bot on 2019-10-26T06:12:46.400Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

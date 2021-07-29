@@ -1,0 +1,95 @@
+[Archived] Closing a DM while in a DM call breaks the call (https://trello.com/c/Hwrg3lc5)
+
+None
+
+Created: 2019-09-18T07:40:02.525Z
+Latest Update: 2020-02-20T21:33:08.001Z
+
+Reported by mr bear#8308
+
+####Steps to reproduce:
+- Open a DM and start/answer a call (other user needs to join) 
+- After both users are in call, Close the DM 
+- **Make sure the other user stays in the call** 
+- Find user in friend list and tap on their profile to open their DMs 
+- Observe what has happened
+
+####Expected result:
+DM should close and call should properly hang up/end
+####Actual result:
+DM call is still going and says "2 Connected" but in reality only one person is connected and won't let you rejoin
+####Client settings:
+Discord 9.5.1 (951)
+####System settings:
+Samsung Galaxy J3 Prime, Android 7.0
+
+43727
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-18T07:40:02.525Z
+
+
+### Can reproduce.
+Can Reproduce • Samsung Galaxy Tab A - Android 8.1 - Discord 9.5.1
+
+Suspense#4615 - Bug Bot on 2019-09-18T07:40:10.237Z
+
+
+### Can reproduce.
+Could reproduce, Samsung Galaxy S8 Android 8, Alpha 9.5.9
+
+Action Potential#6862 - Bug Bot on 2019-09-18T07:40:15.250Z
+
+
+### Can reproduce.
+Can reproduce, Xiaomi Redmi Note 4 MIUI 10 Android 7.0, Discord Alpha 9.5.9
+
+SharifPoetra#8030 - Bug Bot on 2019-09-18T07:40:20.256Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9, Alpha 9.5.9
+
+Akanyahtsu#6669 - Bug Bot on 2019-09-18T09:21:08.438Z
+
+
+### Can reproduce.
+Alcatel A30 Fierce, Android 7.0 - Alpha 9.5.9
+
+Ness#7343 - Bug Bot on 2019-09-18T09:46:35.433Z
+
+
+### Can reproduce.
+Samsung Galaxy S8  - Android 9 - Discord version: 9.5.9
+
+Redblueflame#8260 - Bug Bot on 2019-09-18T10:31:40.261Z
+
+
+### Can reproduce.
+CR, Discord 9.5.9 / Android 6.0.1 / Redmi Note 3 MIUI 10 Global
+
+Hawlucha#2061 - Bug Bot on 2019-09-18T14:07:38.262Z
+
+
+### Can reproduce.
+Samsung Galaxy S8  - Android 9 - Discord version: 9.5.9
+
+Redblueflame#8260 - Bug Bot on 2019-09-18T18:06:48.748Z
+
+
+### Can reproduce.
+CR, Redmi 6A, Android 8.1.0, Discord 9.9.2
+
+Piggy#5630 - Bug Bot on 2019-11-27T20:20:30.232Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:08.010Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,72 @@
+[Archived] When microphone permissions are denied voice channels continue to work without a prompt to grant mic permissions. (https://trello.com/c/BB1nzhmm)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-01-20T01:55:09.872Z
+Latest Update: 2018-09-04T23:12:39.954Z
+
+Reported by webhp#5546
+
+####Steps to reproduce:
+- Disable the microphone permission in settings 
+- Join a voice channel
+
+####Expected result:
+The app should notify the user that they have denied microphone permissions and need to grant it to use voice channels.
+####Actual result:
+The voice channel is joined and it acts as if no audio is going through the microphone.
+####Client settings:
+iOS Testflight 2.2.1 (2202)
+####System settings:
+iPad Mini 2, iOS 11.2.2
+
+7971
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-20T01:55:09.872Z
+
+
+### Can reproduce.
+CR - iPhone 7 - iOS 11.1 - TestFlight 2.2.1 (2202)
+
+Neko#3664 - Bug Bot on 2018-01-20T01:55:17.289Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.1 (2202)
+
+mrkirby153#7840 - Bug Bot on 2018-01-20T01:55:22.284Z
+
+
+### Can reproduce.
+iPhone7 iOS 11.0.3, Discord TestFlight 2.2.1 build 2202
+
+MLG Golden#9086 - Bug Bot on 2018-01-20T01:55:27.334Z
+
+
+### Verified.  - Clayton on 2018-02-14T20:33:20.724Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-14T20:33:24.646Z
+
+
+### **Extension to this issue**
+Discord also doesn't show a popup when opening the "Take Photo or Video" tab without permissions for the camera
+
+Pascal#0929 - Bug Bot on 2018-06-24T16:27:04.274Z
+
+
+### 54D#1357 - https://youtu.be/fDW8iT6u7N0 added by Bug Bot on 2018-07-14T05:42:10.475Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:39.957Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,40 @@
+[Archived] [image picker] Upload indicator remains indefinitely after attempting to upload an image that no longer exists (https://trello.com/c/5FvP8QrB)
+
+None
+
+Created: Unknown
+Latest Update: 2017-10-17T21:14:02.720Z
+
+Steps to Reproduce:
+
+1)  Tap on the paper clip icon to open the image picker.
+2)  Background the application.
+3)  Open Photos.
+4)  Delete the latest image in the camera roll.
+5)  Return to the Discord application.
+
+Buggy event 1:  The now non-existent image still appears in the image picker.
+
+6)  Select the non-existent image.
+
+Buggy event 2:  The loading bar appears indefinitely.
+Note:  They can be stacked! See attached screenshot.
+Expected:  Image should not appear once it's been deleted.
+
+Card Log
+========
+### Moved from User Reported Bugs to Won't Fix by Jared on 2016-10-25T21:39:56.630Z
+
+
+### Archiving as this ticket as been Won't Fix for over a month. - Mike Nisbet on 2017-10-17T21:14:01.973Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:14:02.723Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

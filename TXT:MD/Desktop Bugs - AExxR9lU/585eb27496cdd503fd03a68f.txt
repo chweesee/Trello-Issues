@@ -1,0 +1,54 @@
+[Archived] Incorrect description of reaction count (https://trello.com/c/i9Io2KSL)
+
+None
+
+Created: 2016-12-24T17:37:56.948Z
+Latest Update: 2017-10-17T21:18:45.285Z
+
+Reported by jagrosh#4824
+
+####Steps to reproduce: 
+- Have two people react to a message 
+- Hover over the reaction to show the usernames (`User1 and User2 reacted with :emoji:`) 
+- Without moving your mouse and losing the popup, have one user remove their reaction, so only one reaction remains 
+
+####Expected result:
+ The message should change from `User1 and User2 reacted with :emoji:` to `User1 reacted with :emoji:` 
+####Actual result:
+ The message changes from `User1 and User2 reacted with :emoji:` to `User1 and 1 other reacted with :emoji:` (implying that there are 2 total reactions, not just one). By moving your mouse (and leaving the popup), and returning, the correct message is displayed. Example of the incorrect message: <http://i.imgur.com/knDGSPr.png>
+
+Card Log
+========
+### Added by Jared on 2016-12-24T17:37:56.948Z
+
+
+### Can reproduce.
+Windows 10
+
+Mapleroot#1366 - Jared on 2016-12-24T17:37:57.505Z
+
+
+### Can reproduce.
+Discord Windows 10
+
+Abhijith Ganesan#5206 - Jared on 2016-12-24T17:37:57.718Z
+
+
+### This is another instance of things not updating until the start of an event, in this case mouse hover start. I don't think it's even technically possible to fix and even if it is it's not high enough priority to dedicated resources to fixing. - Jared on 2017-01-03T18:54:05.212Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-01-03T18:54:10.879Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:18:44.314Z
+
+
+### Archived by Jared on 2017-10-17T21:18:45.296Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

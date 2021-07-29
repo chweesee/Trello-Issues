@@ -1,0 +1,83 @@
+[Archived] Putting an emote on a linebreak moves the previous word to the next line (https://trello.com/c/tpARHBIC)
+
+P3 - Will be fixed eventually
+
+Created: 2019-02-17T09:37:04.041Z
+Latest Update: 2019-03-31T19:30:07.077Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Type a sentence that ends before a linebreak 
+- Type the name of an emote long enough to go to the next line 
+- Observe the word right before the emote, and the extra space in the first line 
+- Insert a word between the emote and the previous word 
+- Observe what the word does
+
+####Expected result:
+Emote should not bring the previous word to the new line
+####Actual result:
+Emote brings the previous word to the new line, even if there’s space for that word on the previous line
+####Client settings:
+TestFlight 2.4.5 (11113)
+####System settings:
+iPhone 6s iOS 12.2 Dev Beta 2
+
+29059
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-17T09:37:04.041Z
+
+
+### J1#0088 - https://youtu.be/LLhrcZTOIzk added by Bug Bot on 2019-02-17T09:37:06.450Z
+
+
+### Can reproduce.
+CR // iPhone 8 Plus // iOS 12.1.4 // TestFlight 2.4.5
+
+Falkio#0001 - Bug Bot on 2019-02-17T09:37:11.405Z
+
+
+### Can reproduce.
+Can reproduce iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11113)
+
+Solo#0007 - Bug Bot on 2019-02-17T09:37:16.475Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11113)
+
+Daffyduck#5364 - Bug Bot on 2019-02-17T09:37:21.434Z
+
+
+### Can reproduce.
+iPhone 7 Plus 12.1 (16B92) TestFlight 2.4.5
+
+Killtracity#0001 - Bug Bot on 2019-02-17T17:16:11.257Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.1.4 TestFlight 2.4.5
+
+ImmortaLemur#2112 - Bug Bot on 2019-02-17T19:46:06.692Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 2.4.5 (11113)
+
+M24#0272 - Bug Bot on 2019-02-18T04:36:51.193Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-03-01T19:00:07.340Z
+
+
+### Archived by Bug Bot on 2019-03-31T19:30:07.087Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

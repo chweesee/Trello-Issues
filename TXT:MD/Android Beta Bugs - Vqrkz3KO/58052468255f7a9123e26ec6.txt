@@ -1,0 +1,96 @@
+[Archived] [Bug Bounty] Mention icon stays after reading a message with a mention (https://trello.com/c/HIYQTipa)
+
+None
+
+Created: 2016-10-17T19:20:08.214Z
+Latest Update: 2018-01-29T21:28:00.580Z
+
+Steps to Reproduce:
+1) Turn off ALL discords but Android
+2) Get notified by having an everyone mention in the same message with a @Role mention for a role you're in
+Expected Result: Read message, all mentions gone.
+Actual Result: Read message, one mention stays.
+
+Client Verison: 3.1.0
+System Settings:  Android 5.1 Tesla Smartphone 6.1
+Message: http://i.imgur.com/G1OFYG4.png
+Video: https://youtu.be/XDo9yfyO9xU(edited)
+
+Card Log
+========
+### Added by Jared on 2016-10-17T19:20:08.214Z
+
+
+### Cannot reproduce.  The notification badge disappears when channel is read. - Jared on 2016-10-24T20:20:30.122Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-10-24T20:20:34.279Z
+
+
+### Can reproduce.
+android 4.4, discord 3.5.1 alpha/beta
+
+Melroy#5344 - Bug Bot on 2017-03-16T17:01:44.847Z
+
+
+### Can reproduce.
+Android 5.1 Discord Alpha 3.5.0
+
+OGNovuh | Developer#2697 - Bug Bot on 2017-03-16T17:03:04.604Z
+
+
+### HTC Desire 526 Android v.5.1.0, Discord alpha 3.9.7(396)  Got mentioned by (at)everyone in a channel which isn't used at all, and the server has more than 10k members.
+
+Nyadeelif (Nyad)#8930 - Bug Bot on 2017-07-13T15:08:51.532Z
+
+
+### HTC Desire 526 Android v.5.1.0, Discord alpha 3.9.7(396) CR
+
+Nyadeelif (Nyad)#8930 - Bug Bot on 2017-07-13T15:11:11.041Z
+
+
+### Can't reproduce.  - Clayton on 2017-07-28T23:36:58.205Z
+
+
+### Was not able to reproduce with the following steps provided by Xander#0259:
+
+- Receive a rank or everyone mention in a channel you are not currently looking at
+- Read the channel with the mention
+-Switch out of the channel with the mention (seems to happen most often in channels you don't have typing perms in)
+- leave Discord running in the background for a while
+- tab back into Discord 
+- notice the mention ping is back and doesn't go away
+
+Having someone type in the channel seems to fix the issue - Chris Cox on 2017-10-28T23:33:14.560Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:56:18.242Z
+
+
+### Archived by Jared on 2017-10-30T17:56:18.920Z
+
+
+### Unarchived by Mike Nisbet on 2017-11-15T19:04:23.585Z
+
+
+### This is a bug bounty, unarchiving. - Mike Nisbet on 2017-11-15T19:04:26.462Z
+
+
+### Can reproduce.
+Moto G4 alpha 590 doesnt need @ everyone or @ here
+
+WindFreaker#9458 - Bug Bot on 2017-12-21T21:30:07.659Z
+
+
+### https://trello.com/c/E0nNssH1/1030-bounty-https-trellocom-c-hiyqtipa-done-by-exploiting-https-trellocom-c-6dlwmeyc - Jared on 2018-01-29T21:27:59.710Z
+
+
+### Archived by Jared on 2018-01-29T21:28:00.581Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

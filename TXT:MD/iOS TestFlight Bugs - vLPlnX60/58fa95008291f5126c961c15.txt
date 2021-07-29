@@ -1,0 +1,82 @@
+[Archived] Channels containing excessive reactions take forever to load and sometimes glitch load into another channel (https://trello.com/c/i8QqamDz)
+
+None
+
+Created: 2017-04-21T23:25:52.276Z
+Latest Update: 2017-10-30T17:10:25.973Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce: 
+- find a channel containing thousands of reactions. 
+- attempt to load it. 
+
+####Expected result:
+ the channel loads fairly instantly. 
+####Actual result:
+ the channel loads nothing at all for a long time. Clicking to another channel will cause the previous channel to be losded in the newly selected one. 
+####System settings:
+ ios 9.3.5, ipad 4th gen on latest testflight/stable build
+
+1158
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-21T23:25:52.276Z
+
+
+### Can reproduce.
+iOS Developer Update 10.3 (14E5249d), iPhone 6s
+
+Dru#7700 - Bug Bot on 2017-04-21T23:25:52.828Z
+
+
+### Can reproduce.
+iOS 10.3.1 TF 1.8.3
+
+Mikesky#3456 - Bug Bot on 2017-04-21T23:25:54.905Z
+
+
+### Can reproduce.
+iOS 1.10.2 iPhone 5
+
+DeJay#8746 - Bug Bot on 2017-04-21T23:25:56.721Z
+
+
+### Cannot reproduce. The channel loads within a few seconds.
+
+iPhone 7, 10.2.1
+iPhone 6S, 10.2.1 - Jared on 2017-05-02T21:34:30.942Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-05-02T21:34:34.442Z
+
+
+### Can reproduce.
+iOS 10.3.1 iPhone 6S, discord 1.8.5
+
+rufioh#9358 - Bug Bot on 2017-05-08T08:49:28.041Z
+
+
+### the `load more messages` button takes longer and longer to respond the further back you try to go, i was able to press the button a total of 3 times before loading into another channel failed and only showed me messages from the previous channel
+
+rufioh#9358 - Bug Bot on 2017-05-08T08:58:58.161Z
+
+
+### a screenshot of the glitch affecting loading into a channel on another server after encountering the glitch https://i.imgur.com/z7uQ6KI.png the glitch was encountered on the announcements channel of a partnered server
+
+rufioh#9358 - Bug Bot on 2017-05-12T15:17:04.408Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:10:24.853Z
+
+
+### Archived by Jared on 2017-10-30T17:10:25.976Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

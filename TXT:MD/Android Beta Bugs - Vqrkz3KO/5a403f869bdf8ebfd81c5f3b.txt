@@ -1,0 +1,111 @@
+[Archived] crash when sending picture from camera [most likely LG specific] (https://trello.com/c/5iSn5f0S)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2017-12-25T00:00:06.173Z
+Latest Update: 2018-08-22T01:19:31.700Z
+
+Reported by ks0908#8526
+
+####Steps to reproduce:
+- press "+" button on typing field 
+- go to camera option to take picture live 
+- take picture and attemp to send it
+
+####Expected result:
+Picture should send without issue
+####Actual result:
+app crash
+####Client settings:
+alpha 5.9.7
+####System settings:
+lg Xpower 6.0.1
+
+7347
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-25T00:00:06.173Z
+
+
+### ks0908#8526 - https://youtu.be/rTWBeT7iy0M added by Bug Bot on 2017-12-25T00:00:08.703Z
+
+
+### Can reproduce.
+5.9.7 Android 7.0 Samsung XCOVER 4 (Crashes immediately seems broken)
+
+Viktor#5064 - Bug Bot on 2017-12-25T00:00:13.634Z
+
+
+### Can reproduce.
+CR on Samsung Galaxy S5, Android 6.0.1 using Discord Alpha v5.9.7
+
+Zak_Patat#9077 - Bug Bot on 2017-12-25T00:00:18.701Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, 7.0, Alpha 5.9.7 (only happens when camera preview isn't visible)
+
+Nathan#5867 - Bug Bot on 2017-12-25T00:00:23.610Z
+
+
+### Didn't follow instructions properly, didn't wait till camera load
+
+Nathan#5867 - Bug Bot on 2017-12-25T00:09:16.233Z
+
+
+### It does not appear to happen on Android 5.1. Tested using Moto E 2nd Generation, Android 5.1, Android Alpha 5.9.7 Maybe specific to Android 6 and 7 on some specific device like LG and Samsung? Not really sure, tbh.
+
+Ghoul#4567 - Bug Bot on 2017-12-25T15:53:08.968Z
+
+
+### Can reproduce.
+Oreo 8.1 Pixel XL with 5.9.3
+
+Sergeant Steve#2743 - Bug Bot on 2017-12-25T21:19:15.033Z
+
+
+### Verified, only can repro when camera preview isn't visible.  - Clayton on 2017-12-28T08:22:21.503Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-28T08:22:26.379Z
+
+
+### Can reproduce.
+<Samsung Galaxy J7 Sky Pro> | <tried to send a picture from the gallery but crashed the app>
+
+Belial#4310 - Bug Bot on 2017-12-28T23:35:57.729Z
+
+
+### Not reproducible on
+- Huawei Honor 7.0, alpha 6.0.4
+- Galaxy S5 4.4.2, stable 5.9.1
+- LG G6 7.0, alpha 6.0.4 - Sam Shih on 2018-01-05T19:35:40.890Z
+
+
+### 3rd party library  - https://github.com/google/cameraview added by Sam Shih on 2018-01-29T22:24:49.493Z
+
+
+### I added a try catch to mitigate the issue, but for now our efforts on in app camera are low priority since there's an easy workaround (external app).
+
+Some background: we rely on a [3rd party library](https://github.com/google/cameraview) which is currently inactive, and there aren't any good alternatives that use the Camera2 API.
+
+More info: we actually open sourced this aspect of the app here: [FlexInput](https://github.com/lytefast/flex-input/tree/master/flexinput) and I have an issue to track the progress on alternatives https://github.com/lytefast/flex-input/issues/37 - Sam Shih on 2018-01-29T22:27:43.389Z
+
+
+### Can't reproduce.
+LG Stylo 2 Android 6.1.1 Discord Beta 6.5.6
+
+YaaBoiiCheesecake#6580 - Bug Bot on 2018-04-26T17:09:24.927Z
+
+
+### Archived by Clayton on 2018-08-22T01:19:31.702Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

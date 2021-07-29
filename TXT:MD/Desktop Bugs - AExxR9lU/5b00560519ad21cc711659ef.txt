@@ -1,0 +1,79 @@
+[Archived] Unread marker doesn't appear instantly after unmuting a server (https://trello.com/c/6lUMCqez)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-19T16:51:18.026Z
+Latest Update: 2018-10-22T20:20:55.267Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Open any muted (or mute any) server with new unread messages 
+- Right click the server icon and untick "Mute Server" 
+- Change the server and observe the server icon for the server with unread messages
+
+####Expected result:
+Unread marker for the server and a badge for the Discord icon for the unread messages should instantly be shown.
+####Actual result:
+You have to reopen the server, switch channels in the server or wait for other new message to see it.
+####Client settings:
+Discord Canary 0.0.191 (Build 15598)
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.4
+
+13028
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-19T16:51:18.026Z
+
+
+### Can reproduce.
+MacBook Air 2017 High Sierra 10.13.4, Build Number: 15598
+
+KingMarine#5676 - Bug Bot on 2018-05-19T16:51:25.445Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 (Canary build 15598)
+
+TimThe#1118 - Bug Bot on 2018-05-19T16:51:30.419Z
+
+
+### Can reproduce.
+CR. Win 10 1803, Firefox Developer Edition 61.05b, Discord Canary 15598, It's important that the server not receive any messages during this time for the repro.
+
+lego#8917 - Bug Bot on 2018-05-19T16:51:35.443Z
+
+
+### Can't reproduce.
+Windows 10 Pro Insider Preview x64, v10.0.17672 Build 17672, Discord Canary Build 15598
+
+Cairo#2098 - Bug Bot on 2018-05-19T23:28:52.189Z
+
+
+### Verified, MacOS 10.12.6, Canary 15701 - Clayton on 2018-05-21T21:07:34.909Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T21:07:41.655Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1803), Opera Stable 53.0.2907.68
+
+Aethernolt#5954 - Bug Bot on 2018-06-07T03:31:52.969Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b00560519ad21cc711659ef/830f53e6e050b48d4006723df0b828e9/hbH7036.gif added by Bug Bot on 2018-07-14T07:37:13.246Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:55.269Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,98 @@
+[OVERLAY] Drag will be stuck if the mouse goes to a second screen/monitor (https://trello.com/c/kZqa93CO)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-08-02T20:31:29.740Z
+Latest Update: 2019-10-08T18:30:16.445Z
+
+Reported by Imanolix🐺#6969
+
+####Steps to reproduce:
+- Open your Discord Overlay on any game 
+- Left Clic on any part of the overlay and drag it around 
+- Drag your mouse to your second screen 
+- Release your mouse clic on your second screen
+
+####Expected result:
+The drag will stop once you switch to your second monitor
+####Actual result:
+When going back to the screen with the overlay, the drag is still active and you can still move the overlay around.
+####Client settings:
+Discord Canary, 20540
+####System settings:
+Windows 10 x64
+
+16741
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T20:31:29.740Z
+
+
+### Can reproduce.
+CR, Windows 10 home 64-bit (1803); Discord Canary Build 20316
+
+Blitz#7736 - Bug Bot on 2018-08-02T20:31:37.424Z
+
+
+### Can reproduce.
+Can reproduce - Desktop Canary 20540 | Windows 10 Home 64-bit
+
+Remceau#3241 - Bug Bot on 2018-08-02T20:31:42.412Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 20540
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-02T20:31:47.512Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Canary 20316
+
+averysumner#6969 - Bug Bot on 2018-08-03T00:24:44.869Z
+
+
+### Can reproduce. - Jared on 2018-08-20T23:30:59.127Z
+
+
+### Can reproduce.
+Windows 10 Enterprise E3 x64 - Discord Canary Build 22496. I can reproduce without a second monitor, when I change game resolution and toggle fullscreen I can't move text chat box.
+
+SweetSofiMC#8821 - Bug Bot on 2018-08-24T03:05:27.057Z
+
+
+### I thought it was an extension of this, but I'm not sure.
+
+SweetSofiMC#8821 - Bug Bot on 2018-08-24T03:08:31.480Z
+
+
+### Can't reproduce.
+The drag stop once I switch to my second monitor, maybe fixed - Windows 10 Home x64 Build 1803, Canary Build Number: 24227
+
+JVC Almeos#1984 - Bug Bot on 2018-09-20T03:14:13.498Z
+
+
+### Can Not Reproduce Anymore » Windows 10 Pro x64, Discord Canary 43884
+Moving to Claimed Fixed. - Aeria on 2019-08-17T16:18:35.248Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-08-17T16:18:39.368Z
+
+
+### Can't reproduce.
+Windows 10 Home, 64bit, Discord Canary Build: 44896
+
+Jeffrey#1234 - Bug Bot on 2019-08-31T20:22:13.097Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Pascal on 2019-10-08T18:30:16.422Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

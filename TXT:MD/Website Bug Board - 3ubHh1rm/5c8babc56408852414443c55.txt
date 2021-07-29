@@ -1,0 +1,90 @@
+You get the "Your payout information is currently being... verdict" message even if you haven't entered any information. (https://trello.com/c/nZe8S7Gh)
+
+None
+
+Created: 2019-03-15T13:42:30.057Z
+Latest Update: 2019-04-25T22:03:48.290Z
+
+Reported by The Lunala#6877
+
+####Steps to reproduce:
+-  Go to the developer portal>Teams. 
+- Select a team. 
+- Go to payout settings. 
+- Wait for the page to get completely get loaded. 
+- When all the text fields (where you enter your information) appear, go back to the teams page and refresh/reload page. 
+- Go to payout settings.
+
+####Expected result:
+The page opens with no message because you haven't entered anything.
+####Actual result:
+The page opens and there's a message saying "Your payout information... verdict" in a green box.
+####Client settings:
+Chrome 72.0.3626.121
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+31030
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-15T13:42:30.057Z
+
+
+### tonite#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c8babc56408852414443c55/1d1c9ed79de567a98c637b405997200e/a2b2384da658b5a8645a81ba85ba26e3.png added by Bug Bot on 2019-03-15T13:42:32.888Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Pro - Chrome 72.0.3626.121
+
+tonite#0001 - Bug Bot on 2019-03-15T13:42:37.457Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, Chrome 73.0.3683.75
+
+Jean20B#4287 - Bug Bot on 2019-03-15T13:42:42.481Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Google Chrome 73.0.3683.75
+
+Daffyduck#5364 - Bug Bot on 2019-03-15T13:42:47.492Z
+
+
+### Can reproduce.
+Firefox v67, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-15T14:58:58.455Z
+
+
+### Can reproduce.
+Could reproduce this, Samsung Galaxy S8 Android 8, Chrome 72
+
+Action Potential#2494 - Bug Bot on 2019-03-15T16:11:47.677Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2, Chrome 72
+
+Defracted#7777 - Bug Bot on 2019-03-15T17:19:21.459Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64) · Web Canary
+
+Casper#9999 - Bug Bot on 2019-03-15T19:17:04.863Z
+
+
+### Can reproduce.
+Win 10 Pro x64 (1809) | Chrome 72
+
+Clay#0001 - Bug Bot on 2019-03-15T21:19:30.675Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

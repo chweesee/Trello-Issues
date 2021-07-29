@@ -1,0 +1,75 @@
+[Archived] Tapping on the 1Password icon while the keyboard is up will not show a context menu most of the time. (https://trello.com/c/eqCUe5aX)
+
+None
+
+Created: 2019-01-30T02:48:18.026Z
+Latest Update: 2019-03-08T05:00:20.448Z
+
+Reported by Darkbeast#2997
+
+####Steps to reproduce:
+- Have a third party password manager installed 
+- Go to user settings 
+- Go to account 
+- Tap on change password 
+- Tap on any of the text fields to keep keyboard open (optional) 
+- Tap on the 1Password icon
+
+####Expected result:
+A context menu should show upon the initial interaction.
+####Actual result:
+No context menu is shown upon interaction, forcing you to tap on the icon a second time to show a context menu.
+####Client settings:
+TestFlight 2.4.4 (10973)
+####System settings:
+iPhone 7 Plus, iOS 12.1.3
+
+27319
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-30T02:48:18.026Z
+
+
+### Darkbeast#2997 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c5110712f8ef05ae407f764/4feb6bb0922512327fb6ce4385dabac5/5vrXniT.jpg added by Bug Bot on 2019-01-30T02:48:21.021Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 6S, iOS 12.2, TestFlight 2.4.4 (10973). The first press dismisses the keyboard, but the menu should be shown at the same time to avoid the need for a second press.
+
+Rajiv Shah#5322 - Bug Bot on 2019-01-30T02:48:25.533Z
+
+
+### Can reproduce.
+Can repo | iOS 12.2.2 Dev Beta, v2.4.4 (10993)
+
+Daniel#4226 - Bug Bot on 2019-01-30T02:48:30.432Z
+
+
+### Can reproduce.
+ipad mini 3 ios 12.1.1 ios 11.4.1, TestFlight 2.4.4 (10993)
+
+Lentralkestor#2016 - Bug Bot on 2019-01-30T02:48:35.424Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1.3, TestFlight 2.4.4 (10973)
+
+Solo#0007 - Bug Bot on 2019-01-30T02:54:38.505Z
+
+
+### Moved from New Issues to Account Settings by Alex on 2019-01-31T21:10:58.609Z
+
+
+### Moved from Account Settings to Won't Fix by Alex on 2019-02-06T04:46:36.385Z
+
+
+### Archived by Bug Bot on 2019-03-08T05:00:20.531Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

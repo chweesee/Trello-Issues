@@ -1,0 +1,75 @@
+[Archived] Whitespace doesn't get stacked under your message or by itself in the message box after it hits the end of it, it goes through the box in a line. (https://trello.com/c/IouTdlOe)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-11T19:39:42.179Z
+Latest Update: 2019-01-01T15:44:34.042Z
+
+Reported by nuke#1337
+
+####Steps to reproduce:
+- Spam whitespace character alone or after other characters in the message box, use copy+paste to make this easier 
+- Observe, and optionally, try to come up with a broken combination with it
+
+####Expected result:
+Whitespace gets stacked under after it hits the end of the message box like any other character.
+####Actual result:
+Whitespace goes through the message box end in a straight line.
+####Client settings:
+Stable, Build: 11828
+####System settings:
+Windows 10 Pro x64
+
+9492
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-11T19:39:42.179Z
+
+
+### nuke#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aa585fe05db0325bcd7c89b/383225f3b4135c89eb2fd3c59d8683bb/r.gif added by Bug Bot on 2018-03-11T19:39:44.628Z
+
+
+### Can reproduce.
+CR; W7 Professional x64 ; Desktop Canary Build 11882
+
+Xiang#2232 - Bug Bot on 2018-03-11T19:39:49.502Z
+
+
+### Can reproduce.
+CR; MacBookAir7,1, MacOS High Sierra v. 10.13.3, Desktop Stable 0.0.250
+
+Abequinn#5368 - Bug Bot on 2018-03-11T19:39:54.501Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Canary Build 11882
+
+Mas#0001 - Bug Bot on 2018-03-11T19:39:59.570Z
+
+
+### Verified. Windows 10, Canary 11990 - Clayton on 2018-03-13T23:34:17.703Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-13T23:34:21.544Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T01:39:54.068Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T01:39:59.954Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:44:33.114Z
+
+
+### Archived by Tarek on 2019-01-01T15:44:34.043Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

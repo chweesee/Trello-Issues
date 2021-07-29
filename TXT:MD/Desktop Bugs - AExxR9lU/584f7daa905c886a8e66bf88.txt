@@ -1,0 +1,70 @@
+[Archived] Scrolling down then Search in the Members list causes the scrollbar to become unresponsive for a short amount of time (https://trello.com/c/rRl0MtGI)
+
+None
+
+Created: 2016-12-13T04:48:42.334Z
+Latest Update: 2017-10-17T21:18:10.628Z
+
+Reported by LackingAGoodName#1740
+
+####Steps to reproduce: 
+- Server Settings > Members 
+- Scroll down the list a bit 
+- Search an uncommon name that won't return many results 
+- Attempt to use the scrollbar 
+
+####Expected result:
+ Scrollbar will automatically resize and become responsive/usable if needed 
+####Actual result:
+ Scrollbar is entirely unresponsive for roughly 10 seconds, then resizes and goes back to normal. System settings: Windows 10 Professional, Canary Build
+
+Card Log
+========
+### Added by Jared on 2016-12-13T04:48:42.334Z
+
+
+### LackingAGoodName#1740 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584f7daa905c886a8e66bf88/c49a291d047f84f08ce9e10a383fe4eb/iP09wdh.gif added by Jared on 2016-12-13T04:50:11.721Z
+
+
+### Can reproduce.
+Latest Canary 0.0.149
+
+LackingAGoodName#1740 - Jared on 2016-12-13T06:10:22.692Z
+
+
+### Can't reproduce.
+Latest macOS Version , Latest Canary
+
+xLars#5484 - Jared on 2016-12-13T08:16:17.669Z
+
+
+### Verified. The amount of time you're stuck is really very short though, so this is a low priority bug.  So low that I don't think we're ever going to fix it.  Yeah, definitely a Won't Fix. - Jared on 2016-12-14T19:33:46.369Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-12-14T19:33:50.451Z
+
+
+### Can't reproduce.
+Win 10 Anniversary, Canary
+
+Rocks the Squirrel#2134 - Jared on 2016-12-19T13:13:28.615Z
+
+
+### Can't reproduce.
+Win10AU latest canary
+
+Mikesky#3097 - Jared on 2016-12-19T13:15:20.759Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:18:09.608Z
+
+
+### Archived by Jared on 2017-10-17T21:18:10.631Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

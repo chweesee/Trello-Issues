@@ -1,0 +1,159 @@
+Gif files only play if the url ends with <dot>gif (Resubmit with test url) (https://trello.com/c/QUzPKw6A)
+
+None
+
+Created: 2019-06-26T20:53:38.112Z
+Latest Update: 2020-07-16T21:26:04.337Z
+
+Reported by Florian#1338
+
+####Steps to reproduce:
+- Post an url to a gif file where the content-type served by the webserver is "image/gif", but the url does not end with "<dot>gif" into a chat 
+- Click on it so you see the preview 
+- There will be a test url attached to this post (soon™). Just post it into a chat and you'll see the preview is a still image, while it works in the browser
+
+####Expected result:
+The gif should be played in the preview, if the content type is "image/gif", even if the url does not end with ""
+####Actual result:
+It's previewed as a static image of the gif's first frame
+####Client settings:
+Release Channel: ptb, Build Number: 40281 (also happens on stable)
+####System settings:
+Windows 10 / 1903
+
+38620
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-26T20:53:38.112Z
+
+
+### metr0#2951 - https://s.mmichaelb.pw/59JLRL.gif added by Bug Bot on 2019-06-26T20:53:41.080Z
+
+
+### Can reproduce.
+Windows 10 x64 1903 Build 18362.175 | Release Channel: stable, Build Number: 40281, Version Hash: 79ba12598fc535bfa88b727dd89757e8b7c3b3f0
+
+Visual#0069 - Bug Bot on 2019-06-26T20:53:45.543Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, version 1809 / Canary 40366
+
+metr0#2951 - Bug Bot on 2019-06-26T20:53:50.501Z
+
+
+### Can reproduce.
+CR; Windows 10 Home - 64-Bit - 40281 - Stable
+
+Senpai?#0555 - Bug Bot on 2019-06-26T20:53:55.606Z
+
+
+### Can reproduce.
+Windows 10 Pro v1903 Canary 40354
+
+Daffy#7906 - Bug Bot on 2019-06-26T22:52:18.498Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40366
+
+Xylium#5800 - Bug Bot on 2019-06-26T23:08:12.997Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro, macOS Sierra 10.12.6 : Discord Canary 40393
+
+xTeal#7702 - Bug Bot on 2019-06-27T01:07:33.463Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Discord Canary 40354.
+
+Alister#0018 - Bug Bot on 2019-06-27T01:15:06.822Z
+
+
+### Can reproduce.
+Windows 10 x64 (1809), Discord Canary 40366
+
+Scream#1337 - Bug Bot on 2019-06-27T04:45:04.052Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 40354 host 0.0.245
+
+Jean20B#4668 - Bug Bot on 2019-06-27T06:46:16.845Z
+
+
+### Can reproduce.
+Windows 7 Home Premium | x64 | stable | Build Number 40274
+
+ryzen_harry#0001 - Bug Bot on 2019-06-27T10:51:45.506Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) / Discord stable, Build Number:40281.
+
+Titanbus#6969 - Bug Bot on 2019-06-27T11:13:00.819Z
+
+
+### Can't reproduce.
+Windows 10 Pro | 64-bit (v1803) / Discord stable, Build Number:40271.
+
+Krybskytten#8992 - Bug Bot on 2019-06-27T11:14:12.264Z
+
+
+### Can reproduce.
+Windows 10 Professional Canary 40394
+
+Typhoon#3514 - Bug Bot on 2019-06-27T12:46:37.086Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 40393
+
+Lelantos#0001 - Bug Bot on 2019-06-27T12:48:33.665Z
+
+
+### Can reproduce.
+Canary 40393, Host 0.0.245, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-06-27T19:26:10.944Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 40450
+
+Jasοn#7914 - Bug Bot on 2019-06-27T20:30:39.065Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | Canary 40450
+
+charleskimbac#6492 - Bug Bot on 2019-06-27T22:03:15.359Z
+
+
+### Can't reproduce.
+Windows 10 1903 canary 40450
+
+GlenMerlin#2119 - Bug Bot on 2019-06-27T22:09:37.901Z
+
+
+### Can't reproduce.
+Windows 10 Pro | 64-bit (v1803) / Discord stable, Build Number:40271.
+
+Krybskytten#8992 - Bug Bot on 2019-06-28T11:21:16.685Z
+
+
+### Can't reproduce.
+cnr; windows 10 education x64 (1809) - stable 40281
+
+uwu#3785 - Bug Bot on 2019-06-28T12:28:49.179Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

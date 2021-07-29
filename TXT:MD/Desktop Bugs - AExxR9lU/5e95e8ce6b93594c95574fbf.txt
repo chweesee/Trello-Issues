@@ -1,0 +1,62 @@
+Trying to select an invalid role mention that displays as <@350312403377979402>-role by highlighting the text does not work and skips over the mention (https://trello.com/c/dx6nvNCL)
+
+None
+
+Created: 2020-04-14T16:46:06.788Z
+Latest Update: 2020-07-16T21:26:06.231Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Type out a role mention in <@&ID> format 
+- Copy the message outside of the server where the role is 
+-  Attempt to select the mention by dragging the cursor across the screen
+
+####Expected result:
+The <@350312403377979402>-role text should be highlighted/selected
+####Actual result:
+The <@350312403377979402>-role text is not highlighted/selected and some characters around it are also skipped by the highlight/selection
+####Client settings:
+Desktop Canary 51128
+####System settings:
+Dell Inspiron Windows 10
+
+50110
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-14T16:46:06.788Z
+
+
+### binchlord#0998 - https://youtu.be/7nDumqpKsOo added by Bug Bot on 2020-04-14T16:46:09.524Z
+
+
+### Can reproduce.
+CR Win10 64x (1809) // Chrome/80.0.3987.132 - This only seems to effect when it is at the end of a sentence. And Behaviour on Chrome/now is just moving the Cursor instead of highlighting.
+
+Alipoodle#5025 - Bug Bot on 2020-04-14T16:46:14.467Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 bit, V.1903, Discord Version Canary: 58100
+
+mrphilip#0882 - Bug Bot on 2020-04-14T16:46:19.452Z
+
+
+### Can reproduce.
+Works if you begin highlighting at the deleted role area. MacBook Pro: macOS Catalina 10.15.4; Discord Canary 58100 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-04-14T16:46:24.471Z
+
+
+### title, expected & actual should read “@ deleted-role” without a space
+
+binchlord#0998 - Bug Bot on 2020-04-14T16:48:49.590Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

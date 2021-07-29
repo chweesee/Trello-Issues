@@ -1,0 +1,78 @@
+[Archived] discord loses position on message bar when alt-tab or clicking on another application (https://trello.com/c/0AVPYRLN)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-29T12:00:18.006Z
+Latest Update: 2017-11-15T19:29:05.138Z
+
+Reported by Tecnic#7491
+
+####Steps to reproduce:
+- Click on message bar 
+- atl-tab / click on another application 
+- alt-tab / click on discord
+
+####Expected result:
+The cursor is supposed to stay in the message bar
+####Actual result:
+The cursor does not stay in the message, you have to tab once or click on it
+####Client settings:
+Desktop app-0.0.298 on windows 10 but its been there for a few updates already
+####System settings:
+Windows 10 creators update, bug happens on two different pcs
+
+3772
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-29T12:00:18.006Z
+
+
+### Can reproduce.
+canary 0.0.163 + win10
+
+Oasis#4730 - Bug Bot on 2017-08-29T12:00:25.712Z
+
+
+### Can reproduce.
+CR. Even though the cursor is missing, you can type directly into the message box without having to click on it or pressing tab. Discord Canary 0.0.163, Windows 10 x64
+
+Tetey#6918 - Bug Bot on 2017-08-29T12:00:30.692Z
+
+
+### Can reproduce.
+CAR, Discord Canary 0.0.163 (Build 3661) on Windows 10 Pro 64-bit (Build 1607) \o/
+
+Tarek1337#0379 - Bug Bot on 2017-08-29T12:00:35.695Z
+
+
+### Verified.  - Clayton on 2017-08-29T19:38:04.063Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-29T19:38:15.268Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Generic on 2017-09-29T02:26:39.074Z
+
+
+### Appears to be fixed, cannot reproduce. - Generic on 2017-09-29T02:26:41.563Z
+
+
+### Fixed.  - Clayton on 2017-10-04T00:24:32.510Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T00:24:35.806Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:29:04.300Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:29:05.141Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

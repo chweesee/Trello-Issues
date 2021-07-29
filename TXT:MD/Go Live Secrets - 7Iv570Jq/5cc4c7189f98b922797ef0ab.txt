@@ -1,0 +1,49 @@
+Getting disconnected from another location and reattempting to join a streaming channel on desktop will not put you in the channel. (https://trello.com/c/tOFe7zcW)
+
+None
+
+Created: 2019-04-27T21:18:16.945Z
+Latest Update: 2019-06-17T22:03:58.416Z
+
+**Short Description:** Getting disconnected from another location and reattempting to join a streaming channel on desktop will not put you in the channel.
+**Steps to reproduce:**
+- Be in a channel viewing a stream
+- Join the channel on your mobile device
+- Leave the channel on your mobile device
+- Attempt to rejoin the channel
+**Expected Results:** It joins the channel
+**Actual Results:** You can't join, but can view stream
+**System Settings:** macOS Mojave 10.14
+**Client Settings:** Canary 36529
+
+-------------------------------------------------------------------------------------------------
+
+**Short Description:** Joining a VC on another client does not disconnect you from viewing a stream in that VC, and if you join a VC on another client and then click Watch Stream, you will be able to view the stream without being in the voice channel on that client
+**Steps to reproduce:**
+- Join a VC with someone streaming on another client
+- Click watch stream
+or
+- Join a VC with someone streaming and connect to the stream
+- Connect to the same VC on another client
+**Expected Result:** You should only be able to view the stream if you are connected to the VC on that client
+**Actual Results:** You are able to view the stream as long as you are connected to a VC somewhere, which might cause you not to be able to hear the streamer
+**System Settings:** Windows 10 Pro x64 v1809 Build 18875.1000
+**Client Settings:** Canary 36529
+
+Card Log
+========
+### Added by Rage on 2019-04-27T21:18:16.945Z
+
+
+### CR Canary 36529 -- Windows 10 Pro x64 v1809 Build 18875.1000 added an extension to this that I found - webhp on 2019-04-28T15:37:05.802Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by webhp on 2019-05-09T11:02:34.215Z
+
+List
+====
+Tested Bugs
+
+Members
+=======
+None

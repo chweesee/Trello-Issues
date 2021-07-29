@@ -1,0 +1,86 @@
+[Archived] Message drafts are occasionally replaced when viewing a channel from a push notification (https://trello.com/c/nGoISKCF)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2017-12-15T19:40:47.789Z
+Latest Update: 2018-07-06T18:43:59.254Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Close all other instances of discord to ensure mobile push notifications are sent 
+- Ensure Discord is not running in the background by closing it via the app switcher 
+- Open the app, type a message in the message box but don't send it 
+- Close the app, but ensure it's still running in the background (Home Button, App Switcher, etc.) 
+- Receive a push notification in the same channel you originally had a draft in 
+- Open the push notification 
+- If the draft isn't immediately replaced, the draft gets saved somewhere 
+- Type another (different) message in the box but again, don't send it 
+- Close out of the app again, ensuring it is running in the background 
+- Receive and open another push notification in the same channel as before 
+- Observe the message has been replaced 
+- Note: This doesn't appear to be 100% consistent in presenting itself. If the draft doesn't get replaced, repeat steps 7 to 11. It should present itself within a few tries 
+- See attached YouTube video for a demonstration
+
+####Expected result:
+The draft is not overwritten
+####Actual result:
+The draft gets overwritten occasionally with something else
+####Client settings:
+Alpha 5.8.6; Only seems to affect Alpha 5.8.4 and newer
+####System settings:
+Pixel 2 XL Android 8.1
+
+7088
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-15T19:40:47.789Z
+
+
+### PokéPixelBoy#8431 - https://youtu.be/k7TS3dvDj7U added by Bug Bot on 2017-12-15T19:40:50.314Z
+
+
+### Can reproduce.
+Didn't work from first try, second try CR samsung galaxy j2, android 5.1.1, discord alpha 5.8.6
+
+Garry#4825 - Bug Bot on 2017-12-15T19:40:55.308Z
+
+
+### Can reproduce.
+Couldn't repro first try, second try was successful. Discord Alpha 5.8.6, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2017-12-15T19:41:00.258Z
+
+
+### Can reproduce.
+CR; Lenovo Moto G5 Plus; Discord 5.8.6
+
+Xiang#2232 - Bug Bot on 2017-12-15T19:41:05.275Z
+
+
+### Verified - Tarek on 2017-12-16T09:21:14.159Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-16T09:21:17.435Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2018-03-23T23:25:54.147Z
+
+
+### Verified Fixed. Also, I think this was a dupe. - Jared on 2018-03-23T23:26:06.299Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:43:57.948Z
+
+
+### Archived by Jared on 2018-07-06T18:43:59.259Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

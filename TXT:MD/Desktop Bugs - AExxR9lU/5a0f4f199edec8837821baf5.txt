@@ -1,0 +1,72 @@
+[Archived] Changing a role permission on a channel causes it to blink back to what it used to be and go back. (https://trello.com/c/cU1GQliZ)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-11-17T21:05:29.978Z
+Latest Update: 2018-10-22T20:17:00.245Z
+
+Reported by QwakGoesDuck#9672
+
+####Steps to reproduce:
+- Go to a channel where you can add/edit roles. 
+- Add a new role. 
+- Give it a checkmark or an X with a permission of your choosing. 
+- Save the changes. 
+- If you gave the role a checkmark, give it an X or vice versa. 
+- You should see it blink back to what it was and go back to your new choice. 
+- If not, do the prior step again [It seems to only happen 50% of the time]. 
+- Now try and select the perm it was before you saved.
+
+####Expected result:
+You are able to save the permission as what it was before you saved.
+####Actual result:
+You are unable to revert your save back to what is was until you exit the permission and open it again.
+####Client settings:
+Canary 0.0.179 (7442)
+####System settings:
+Windows 10 Home x64 Version 1703
+
+6451
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-17T21:05:29.978Z
+
+
+### QwakGoesDuck#9672 - https://www.youtube.com/watch?v=-u9ZEUzPTok added by Bug Bot on 2017-11-17T21:05:32.311Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (Fall Creators Update, v1709), Discord Canary (build 7460, v0.0.179)
+
+xSolidFigure#0594 - Bug Bot on 2017-11-17T21:05:37.316Z
+
+
+### Can reproduce.
+CR,  Discord Canary Build 7460, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2017-11-17T21:05:42.376Z
+
+
+### Can reproduce.
+CR, Discord Canary Release Channel: canary, Build Number: 7460, Version Hash: 12c2c08bcaf422569d870381114dc3eb8762268f, Windows 10 Insider Build 16299
+
+brxxn#0632 - Bug Bot on 2017-11-17T21:05:47.448Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-17T22:04:08.422Z
+
+
+### Verified - Jared on 2017-11-17T22:04:12.682Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:00.247Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,76 @@
+[Archived] No thousands separator for invites for some languages (https://trello.com/c/lgtOJf4e)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-21T13:23:01.696Z
+Latest Update: 2018-10-22T20:24:51.688Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Send or view an invite of a server with more than 1000 online and offline members (e.g Discord Testers invite) 
+- Change your language to German or French (also works with others) 
+- Observe the invite again and look for thousands separator for the offline and online member count
+
+####Expected result:
+You should see some digit grouping (thousands separator) for all languages.
+####Actual result:
+Some languages only show the thousands separator for the online members or neither of them.
+####Client settings:
+Canary Build 22283
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6
+
+18063
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-21T13:23:01.696Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64; stable, Build Number: 22283, Version Hash: cc68535efeb13cba9796ee0c4299e603b72bdf94
+
+Pake#0001 - Bug Bot on 2018-08-21T13:23:09.032Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (Discord Canary 22283)
+
+CosiGames#2000 - Bug Bot on 2018-08-21T13:23:14.035Z
+
+
+### Can reproduce.
+CR, MacOS X El Capitan v10.11.6, Discord Stable 22283
+
+André Paulo#8446 - Bug Bot on 2018-08-21T13:23:19.013Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 22283
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-21T19:28:46.586Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 22283
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-21T20:39:06.181Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-22T21:02:29.732Z
+
+
+### verified, macos 10.12.6, canary 22283 - Clayton on 2018-08-22T21:02:37.340Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:51.689Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

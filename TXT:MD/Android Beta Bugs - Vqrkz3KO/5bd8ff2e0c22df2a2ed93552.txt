@@ -1,0 +1,108 @@
+[Archived] On devices with a screen pixel density grater than 430 DPI, profile pictures are blurrier than in Alpha 7.8.2 (https://trello.com/c/ghM2iFry)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-10-31T01:02:38.754Z
+Latest Update: 2019-06-10T20:44:15.963Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Look at profile pictures in chat, in voice channel user list, or in server member list 
+- Compare quality of profile pictures with previous version of Discord
+
+####Expected result:
+Quality should be sharp and nice
+####Actual result:
+The greater your screen pixel density is, the blurrier are all profile pictures. It doesn't happen everywhere: it happens in chat, in VC user list, and in member list, but not in profile, in message actionsheets or in quick switcher for example
+####Client settings:
+Discord Alpha 7.8.3
+####System settings:
+Huawei Mate 9 Android 8.0
+
+22462
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-31T01:02:38.754Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bd8ff2e0c22df2a2ed93552/d8ce12e1926179cdcf26d3fe8c2d1127/IMG_20181031_010936.jpg added by Bug Bot on 2018-10-31T01:02:41.221Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bd8ff2e0c22df2a2ed93552/cc1a51421dc80100255e44eebefa7c71/IMG_20181031_011120.jpg added by Bug Bot on 2018-10-31T01:02:41.221Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bd8ff2e0c22df2a2ed93552/8beea1ad04f6a08f96533d0744c7e756/IMG_20181031_010816.jpg added by Bug Bot on 2018-10-31T01:02:41.409Z
+
+
+### Can reproduce.
+Can reproduce | Samsung Galaxy Note 8 running android 8.0 (449) DPI, Discord Alpha 7.8.3
+
+J1#0088 - Bug Bot on 2018-10-31T01:02:46.133Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.8.3
+
+Danijel#9000 - Bug Bot on 2018-10-31T01:02:51.223Z
+
+
+### Can reproduce.
+Can reproduce, Android 8.0, galaxy s9, 571 dpi
+
+Wolftallemo#0666 - Bug Bot on 2018-10-31T01:02:56.175Z
+
+
+### Can reproduce.
+Nexus 5x Android 8.1.0 alpha 783 this also happens with emojis as they look blurry/unsharpened
+
+Azrael#6867 - Bug Bot on 2018-10-31T01:43:57.026Z
+
+
+### Can reproduce.
+Moto G5 Plus, Android 9.0 (Custom ROM) 457 DPI, Discord Alpha 7.8.3 (same with emojis, guild icon and images. Everything looks blurry and unsharpened)
+
+Blue Slime#9228 - Bug Bot on 2018-10-31T02:11:46.383Z
+
+
+### I've heard that this only happens on the first load, but subsequent loads into the cache for the image fix this? - Sam Shih on 2018-10-31T23:35:31.070Z
+
+
+### @lytefast Nope, that was about a different bug (which also involved changing DPI), but it has been denied anyways. This bug just says that it's specific to devices with high DPI. So if you device has natively a high DPI, you don't need to change it to reproduce this bug, you just need to compare the quality of pictures with older versions.
+Personally my device has a native pixel density of 432 DPI, and I notice the difference compared to previous update. People who approved this bug also saw the difference. All small images such as profile pictures and some emojis are blurry, it's just that people with low DPI won't notice it.
+
+Alex1304#9704 - Bug Bot on 2018-10-31T23:43:59.327Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-02T03:02:00.260Z
+
+
+### Can reproduce.
+Wiko LENNY2 version 8, Android 5.1, Alpha 7.8.6
+
+MoonlightCapital#0554 - Bug Bot on 2018-11-04T09:00:27.817Z
+
+
+### Archived by Bug Bot on 2018-12-27T17:30:09.018Z
+
+
+### Can reproduce.
+Moto G5 Plus, Android 9.0 Pie (ArrowOS)
+
+ilikestalker#6460 - Bug Bot on 2019-01-14T12:43:04.464Z
+
+
+### Unarchived by Bug Bot on 2019-01-14T13:00:05.306Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:15.976Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,88 @@
+[Archived] The slowmode slider briefly flashes its previous setting when hitting reset after pressing "save changes". (https://trello.com/c/fwaxGMoJ)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-12T10:25:08.541Z
+Latest Update: 2019-01-11T00:01:04.399Z
+
+Reported by shrimp#6969
+
+####Steps to reproduce:
+- Change the slowmode setting to any point on the slider. 
+- Click "Save Changes". 
+- Immediately hit "Reset" before the 'unsaved changes' bar disappears.
+
+####Expected result:
+The slowmode bar should stay put at its new changed setting.
+####Actual result:
+The slowmode setting briefly flashes its previous setting, even if "save changes" button was hit first.
+####Client settings:
+Release Channel: canary, Build Number: 26049, Version Hash: 21b20081da6cede396ca25b8e4e9cf3df4ecbc25
+####System settings:
+Windows 10 Home x64 version 1511
+
+21092
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-12T10:25:08.541Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26049
+
+Hole#0001 - Bug Bot on 2018-10-12T10:25:16.041Z
+
+
+### Can reproduce.
+macos 10.14.1 canary 26049
+
+OrangeM24#5746 - Bug Bot on 2018-10-12T10:25:21.062Z
+
+
+### Can reproduce.
+- Windows 10 Pro x64 (1809) - Discord Canary Build 26049
+
+Jengas#7777 - Bug Bot on 2018-10-12T10:25:26.070Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1803), Discord Canary 26049
+
+🎃👻 MagicA550 👻🎃#2379 - Bug Bot on 2018-10-12T15:01:14.317Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary 26049
+
+zephr#1634 - Bug Bot on 2018-10-12T15:13:21.054Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26049
+
+Neiron#5555 - Bug Bot on 2018-10-12T17:22:22.809Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1803), Discord Canary 26049
+
+Augy.#8622 - Bug Bot on 2018-10-12T20:26:05.655Z
+
+
+### verified, macos 10.12.6, canary 26090 - Clayton on 2018-10-13T03:43:24.310Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-13T03:43:33.985Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:04.401Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

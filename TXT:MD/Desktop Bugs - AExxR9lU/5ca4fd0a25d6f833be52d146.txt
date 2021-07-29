@@ -1,0 +1,100 @@
+[Archived] Discord Canary instantly exits after loading the main window (https://trello.com/c/ZqN0sVZD)
+
+P0: Need an immediate fix
+
+Created: 2019-04-03T18:35:55.007Z
+Latest Update: 2019-05-03T22:00:30.235Z
+
+Reported by Starshine Dust#2189
+
+####Steps to reproduce:
+- start the Canary version of Discord
+
+####Expected result:
+The client should start normally
+####Actual result:
+As soon as the main window opens the client exits with no shown reason
+####Client settings:
+Discord Canary 0.0.72, Build Version 35006
+####System settings:
+Ubuntu Studio 18.04
+
+32083
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-03T18:35:55.007Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 October 2018 Update (1809), Canary (build 35006)
+
+Tiemen#0001 - Bug Bot on 2019-04-03T18:36:02.564Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS Mojave 10.14.4, Canary Build 35006
+
+Pascal#0929 - Bug Bot on 2019-04-03T18:36:07.520Z
+
+
+### Can reproduce.
+macOS High Sierra
+
+alpha#9432 - Bug Bot on 2019-04-03T18:36:12.538Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Ghoul on 2019-04-03T18:39:11.806Z
+
+
+### Verified as P0, and moved to Notable issues. - Ghoul on 2019-04-03T18:39:20.012Z
+
+
+### "Uncaught TypeError: t is not a function" in console using Web Canary 35006.
+
+Casper#9999 - Bug Bot on 2019-04-03T18:40:36.539Z
+
+
+### Cannot reproduce as of 35013 on Windows 10 Home x64 (1809)
+
+Moving to Claimed Fixed. - Ghoul on 2019-04-03T18:46:18.801Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Ghoul on 2019-04-03T18:46:23.975Z
+
+
+### Can't reproduce.
+CNR Win10 64x 1809, Discord Canary 35013
+
+Alipoodle#5025 - Bug Bot on 2019-04-03T18:48:06.584Z
+
+
+### Can't reproduce.
+Win10 x64 1809, Canary 35013
+
+Tiemen#0001 - Bug Bot on 2019-04-03T18:48:38.196Z
+
+
+### Can't reproduce.
+Windows 10 x64 1903, Canary 35013
+
+Noxillio#0001 - Bug Bot on 2019-04-03T18:56:13.368Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-04-03T18:56:13.776Z
+
+
+### This is fixed now as of Build 35013
+
+Alipoodle#5025 - Bug Bot on 2019-04-03T21:42:51.056Z
+
+
+### Archived by Bug Bot on 2019-05-03T22:00:30.247Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

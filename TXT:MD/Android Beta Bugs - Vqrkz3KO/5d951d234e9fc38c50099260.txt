@@ -1,0 +1,77 @@
+[Archived] [Go Live] Joining and Leaving a Go Live will Disable the Microphone for a noticeable amount of time and cause a AUDIO_RECORD_START_STATE_MISMATCH error in console. (https://trello.com/c/qSZeSUn7)
+
+P4, unlikely to ever be fixed.
+
+Created: 2019-10-02T21:56:51.693Z
+Latest Update: 2020-02-20T21:33:52.863Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Have a friend (or alt) on another PC that is live and you can hear their audio 
+- Join / Leave a Go Live while talking. 
+- Notice how you cannot hear yourself for a few seconds while it loads. 
+- Open the Debug Menu (Settings > 3 Dot menu > Debug) and see the error: `WebRtcAudioRecord -> Start recording error: AUDIO_RECORD_START_STATE_MISMATCH.  failed 
+- incorrect state :1`
+
+####Expected result:
+Your voice is transmitted just fine while Loading / Leaving Go Live
+####Actual result:
+You are cut off for a Few seconds, More while you leave.
+####Client settings:
+Discord 9.6.4
+####System settings:
+OnePlus 3T, Android 9
+
+45028
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-02T21:56:51.693Z
+
+
+### Can reproduce.
+Can Reproduce Kyocera Hydro Wave Android 5.1 Discord 964
+
+Okori#0902 - Bug Bot on 2019-10-02T21:56:59.208Z
+
+
+### Can reproduce.
+I noticed this earlier today but assumed it was just my client taking its time to connect to the steam CR Android 9.0 Discord 964
+
+Typhoon#9981 - Bug Bot on 2019-10-02T21:57:04.216Z
+
+
+### Can reproduce.
+Can reporoduce: Samsung galaxy a6, android 9.0.0 | build 964
+
+The_killerbanana#9999 - Bug Bot on 2019-10-02T21:57:09.208Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Android 5.0, Discord 9.6.4
+
+Karasu#0013 - Bug Bot on 2019-10-02T22:54:35.109Z
+
+
+### Can reproduce.
+Alcatel A30 Fierce, Android 7.0 - Discord 9.6.4
+
+Ness#0101 - Bug Bot on 2019-10-03T00:09:42.557Z
+
+
+### Moved from User Reported Bugs to Go Live by Jeff Cailteux on 2019-10-04T18:09:48.168Z
+
+
+### Moved from Go Live to Verified Bugs by Andy Garron on 2020-02-19T20:36:59.563Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:52.883Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

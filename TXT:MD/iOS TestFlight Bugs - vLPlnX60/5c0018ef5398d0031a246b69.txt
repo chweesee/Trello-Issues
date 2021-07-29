@@ -1,0 +1,104 @@
+[Archived] Clicking on a message notification that comes from a direct message when the user list is open, it keeps the user list open with no users in it (https://trello.com/c/IYsNfNVy)
+
+P2 - Can wait a while
+
+Created: 2018-11-29T16:50:55.344Z
+Latest Update: 2019-09-18T10:01:18.505Z
+
+Reported by KolkiesDev#0001
+
+####Steps to reproduce:
+- Make sure that your in app message notifications are enabled in the settings 
+- Go into a random server where you are in 
+- Go into a random channel in the server where you are in 
+- Open the user list 
+- Receive a direct message 
+- Click on the received message notification
+
+####Expected result:
+The user list would quit and the message would show
+####Actual result:
+You are being taken to the message that was send with the user list still open which is now blank without users in it
+####Client settings:
+TestFlight 2.4.0 (9370)
+####System settings:
+iPhone 7, iOS 12.1
+
+23773
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-29T16:50:55.344Z
+
+
+### AEnterprise#4693 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c0018ef5398d0031a246b69/97f266bcaddde1ddbd4075cd937d86b2/image0.png added by Bug Bot on 2018-11-29T16:50:57.705Z
+
+
+### Can reproduce.
+CR iPad Air 1, iOS 12.1, Discord TestFlight 2.4.0 (9370)
+
+zapteryx#6161 - Bug Bot on 2018-11-29T16:51:02.735Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1.1 (dev beta 3) - TestFlight 2.4.0 (9370)
+
+Xylium#5800 - Bug Bot on 2018-11-29T16:51:07.633Z
+
+
+### Can reproduce.
+iPhone 7 plus iOS 12.1 testflight 2.4.0 (9370)
+
+sloth_.on._tabasco#0001 - Bug Bot on 2018-11-29T16:51:12.772Z
+
+
+### Can reproduce.
+Can Reproduce, iPad Air 2, iOS 12.0, TestFlight 2.4.0 (9370)
+
+1Storm#0001 - Bug Bot on 2018-11-30T01:21:26.009Z
+
+
+### Moved from New Issues to In-App Notifications by Jonathan Wu on 2018-12-06T19:51:49.343Z
+
+
+### Moved from In-App Notifications to Backlog by Victoria on 2019-05-28T18:38:35.797Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.6 (16185) with iPhone 8 Plus running iOS 12.3.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-12T18:03:32.281Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-07-12T18:03:45.667Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 3) - Testflight 3.0.6 (16185)
+
+Xylium#5800 - Bug Bot on 2019-07-12T18:08:36.955Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 13 (Public Beta 2), TestFlight 3.0.6 (16185)
+
+ryan#0570 - Bug Bot on 2019-07-12T21:01:39.155Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.6 (16204)
+
+binchlord#0998 - Bug Bot on 2019-07-13T01:20:19.487Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-13T01:20:19.826Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:18.520Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

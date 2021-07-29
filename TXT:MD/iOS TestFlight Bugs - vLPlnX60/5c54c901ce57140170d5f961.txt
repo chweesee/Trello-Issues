@@ -1,0 +1,101 @@
+[Archived] Emote/mention suggestion drawer does not fully reset position when closed after scrolling down the list (https://trello.com/c/I7wDZL2s)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-02-01T22:32:33.371Z
+Latest Update: 2019-08-25T10:21:01.283Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Open either the mention suggestion drawer or the emote suggestion drawer 
+- Scroll to the bottom of the drawer, or close to the bottom 
+- Either select an emote or a mention, or close the drawer 
+- Reopen the suggestion drawer again, and observe the position in the drawer
+
+####Expected result:
+Suggestion drawer resets position to the top of the drawer
+####Actual result:
+Suggestion drawer position is moved halfway past the top suggestion
+####Client settings:
+TestFlight 2.4.4 (11051)
+####System settings:
+iPhone 6s iOS 12.2 Dev Beta
+
+27739
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-01T22:32:33.371Z
+
+
+### Can reproduce.
+CR - IOS 12.1.1 TestFlight 2.4.4 (11051)
+
+Infinity#8495 - Bug Bot on 2019-02-01T22:32:41.280Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.2 (dev beta) - Testflight 2.4.4 (11051)
+
+Xylium#5800 - Bug Bot on 2019-02-01T22:32:46.406Z
+
+
+### Can reproduce.
+CR when closing it then reopening but CNR when selecting emoji then reopen - iPhone SE iOS 11.1.2 - Discord TestFlight 2.4.4 (11051)
+
+Arnold0#7514 - Bug Bot on 2019-02-01T22:32:51.293Z
+
+
+### Can't reproduce.
+iOS iPod Touch 6th Generation 12.0, 2.4.4
+
+OldWampa#7897 - Bug Bot on 2019-02-01T22:34:32.377Z
+
+
+### Can reproduce.
+CR; iPhone 7; iOS 12.2; Discord TestFlight (2.4.4)
+
+Puyodead1#0001 - Bug Bot on 2019-02-01T23:20:59.051Z
+
+
+### Puyodead1#0001 - https://youtu.be/uNYi5PDyT5c added by Bug Bot on 2019-02-01T23:21:06.832Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, TestFlight 2.4.4 (11051)
+
+Lentralkestor#2016 - Bug Bot on 2019-02-02T00:04:16.206Z
+
+
+### Can't reproduce.
+iPhone XS Max, iOS 12.0.1, Discord TestFlight 2.4.4 (11051)
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-02-02T03:49:35.688Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.3 - TestFlight 2.4.4 (11051)
+
+Daffyduck#5364 - Bug Bot on 2019-02-02T06:34:41.646Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1.3, TestFlight 2.4.4 (11051)
+
+Solo#0007 - Bug Bot on 2019-02-02T16:31:46.326Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-02-15T19:00:06.557Z
+
+
+### Archived by Bug Bot on 2019-03-17T19:30:04.628Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

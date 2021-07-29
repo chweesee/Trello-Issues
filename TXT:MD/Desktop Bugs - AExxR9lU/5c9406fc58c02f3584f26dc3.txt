@@ -1,0 +1,73 @@
+[Archived] When scrolling up quickly the new indicator goes above the home button (https://trello.com/c/cDA6qjoJ)
+
+None
+
+Created: 2019-03-21T21:49:48.413Z
+Latest Update: 2019-04-20T23:30:29.643Z
+
+Reported by TheForbiddenAi#7549
+
+####Steps to reproduce:
+- Have enough servers so that you have to scroll to see the home button 
+- Have a friend DM you 
+- Scroll down so you can't see the DM notification and so the new indicator appears 
+- Scroll up quickly(or just click the indicator) 
+- Observe how the new indicator goes above the home button for a second
+
+####Expected result:
+The new indicator should disappear when the DM becomes visible
+####Actual result:
+The new indicator goes above the home button
+####Client settings:
+Canary 34384
+####System settings:
+Windows 10 Home x64 (1809)
+
+31428
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-21T21:49:48.413Z
+
+
+### TheForbiddenAi#7549 - https://i.imgur.com/q7vsXxd.gifv added by Bug Bot on 2019-03-21T21:49:51.130Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64) · Web Canary 34384
+
+Casper#9999 - Bug Bot on 2019-03-21T21:49:55.815Z
+
+
+### Can reproduce.
+cr, Win10 Pro - Canary 34324
+
+tonite#0001 - Bug Bot on 2019-03-21T21:50:00.826Z
+
+
+### Can reproduce.
+Can reproduce bug with specified reproduction steps. Client information: Release Channel: canary, Build Number: 34340, Version Hash: e51c1dc1170cb6191100e0ec22ed06bb642b93ea\System information: Windows 10 Home x64
+
+Talon#5447 - Bug Bot on 2019-03-21T21:50:05.801Z
+
+
+### Not a bug, that's just the animation - Tarek on 2019-03-21T22:26:54.044Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Tarek on 2019-03-21T22:27:02.041Z
+
+
+### Not a bug. The "new" indicator animation has to play out, and scrolling up fast doesn't give it enough time.
+
+Clay#0001 - Bug Bot on 2019-03-21T23:10:40.421Z
+
+
+### Archived by Bug Bot on 2019-04-20T23:30:29.653Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

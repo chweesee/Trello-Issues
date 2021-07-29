@@ -1,0 +1,75 @@
+[Archived] Tapping the 1Password icon to login crashes the app (only on iPad, not iPhone) (https://trello.com/c/7SSWBZ4J)
+
+P2 - Can wait a while,
+low
+
+Created: 2018-05-15T21:50:16.032Z
+Latest Update: 2018-10-05T00:01:46.471Z
+
+Reported by Lukii4#9604
+
+####Steps to reproduce:
+- When not logged in tap on login 
+- Tap the 1Password icon at the right of the password field
+
+####Expected result:
+it should open the share sheet where I can choose my password manager to automatically enter my credentials
+####Actual result:
+the app crashes (the screen goes black for a short moment and then I'm back on my homescreen)
+####Client settings:
+iOS Testflight 2.3.2 (4460)
+####System settings:
+iPad Pro 10.5", iOS 11.4 Beta 5
+
+12726
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-15T21:50:16.032Z
+
+
+### Can reproduce.
+iPad Air 2 - iOS 11.4 Public Beta, TestFlight 2.3.2 (4460)
+
+Pascal#0929 - Bug Bot on 2018-05-15T21:50:23.366Z
+
+
+### Can reproduce.
+CR, iPad Mini 2, iOS 11.2.6, TF 2.3.2 (4460). I use LastPass, in case that's relevant
+
+[object Object]#0001 - Bug Bot on 2018-05-15T21:50:28.362Z
+
+
+### Can reproduce.
+Can Repro, iPad Air 2 - iOS 11.0, TestFlight 2.3.2 (4460)
+
+1Storm#0001 - Bug Bot on 2018-05-15T21:50:33.395Z
+
+
+### Can reproduce.
+CR; iPhone X , iOS 11.4, TestFlight 2.3.2 (4460)
+
+Yoginth#9339 - Bug Bot on 2018-05-16T01:59:01.820Z
+
+
+### Verified, iPad Pro TF 2.3.2 - Jared on 2018-05-18T17:29:05.710Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-18T17:29:09.776Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2018-05-21T17:47:28.910Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-05-24T00:51:19.238Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:46.473Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/mrkcsc) - No Bio

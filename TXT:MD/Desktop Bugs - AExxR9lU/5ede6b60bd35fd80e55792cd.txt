@@ -1,0 +1,88 @@
+Joining a voice channel without microphone will get you in an endless crashing loop (https://trello.com/c/XdPlRib4)
+
+None
+
+Created: 2020-06-08T16:46:24.477Z
+Latest Update: 2020-07-16T21:26:06.353Z
+
+Reported by Rubenvds#0001
+
+####Steps to reproduce:
+- be sure you have no microphone on your computer 
+- Join a voice channel with the canary client 
+- see the client crash/close and you cann't restart it because it will crash immediately
+
+####Expected result:
+you should join the voice channel and be able to listen what other people say
+####Actual result:
+the client crashes and you won't be able to restart it, because it will crash immediately
+####Client settings:
+Desktop Canary 61218
+####System settings:
+Windows 10 Home version 2004 Build 19041.264
+
+57273
+
+Card Log
+========
+### Added by Bug Bot on 2020-06-08T16:46:24.477Z
+
+
+### Tarek#1337 - https://youtu.be/Jhv8kZszrPc added by Bug Bot on 2020-06-08T16:46:27.136Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ede6b60bd35fd80e55792cd/543e441273729216e1f7b9f0ef52cf59/WehUPP4.png added by Bug Bot on 2020-06-08T16:46:27.843Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 61218 (6fcec58), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-06-08T16:46:31.980Z
+
+
+### Can reproduce.
+CR, Canary 61218 (6fcec58), Host 0.0.264, Windows 10 64-Bit (10.0.18363) - Seems to possibly be related to having no mic.
+
+BrightSkyz#2627 - Bug Bot on 2020-06-08T16:46:37.073Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v2004 Build 19608.1006 - Discord Canary v0.0.264 Build 61218 -- all mics must be disabled
+
+webhp#1337 - Bug Bot on 2020-06-08T16:46:41.994Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary (Build 61218)
+
+Bryth#1086 - Bug Bot on 2020-06-08T17:57:32.845Z
+
+
+### Can reproduce.
+Windows 10 Home x64 2004 (10.0.19041), Canary 61245 host 0.0.264, mic disabled - Can also repro it on a PC without microphone, Windows 10 Home 32-bit (10.0.17134)
+
+Jean20B#4668 - Bug Bot on 2020-06-08T21:26:47.206Z
+
+
+### Can reproduce.
+Stable 61327 (dd367d1)
+Host 0.0.306
+Windows 10 64-Bit (10.0.18363)
+
+YouKyi#5606 - Bug Bot on 2020-06-11T02:20:48.839Z
+
+
+### Can reproduce.
+Canary 61440 (bc04eef)
+Host 0.0.265
+Windows 10 64-Bit (10.0.18363)
+
+YouKyi#5606 - Bug Bot on 2020-06-11T02:21:38.978Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

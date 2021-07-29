@@ -1,0 +1,76 @@
+If you delete an un-spoiled message (or attachment) above other un-spoiled content, those messages will re-spoil. (https://trello.com/c/RMRUI98x)
+
+None
+
+Created: 2019-01-31T22:31:39.932Z
+Latest Update: 2019-04-01T07:57:45.985Z
+
+Reported by Gisgar3#3047
+
+####Steps to reproduce:
+- Send a message
+- Send a message marked as a spoiler
+- Reveal the spoiler message
+- Delete the non-spoiler message from step 1
+
+####Expected result:
+The other messages should stay un-spoiled.
+####Actual result:
+The other messages re-spoil themselves and must be un-spoiled again.
+####Client settings:
+Release Channel: canary, Build Number: 31642, Version Hash: b9271b21e346f0b6d8d516cfc82bb210e524c959
+####System settings:
+Windows 10 x64 1809
+
+27563
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-31T22:31:39.932Z
+
+
+### Can reproduce.
+Windows 10 64bit v1803, Stable 31642 & Canary 31642
+
+aj834#1640 - Bug Bot on 2019-01-31T22:31:47.456Z
+
+
+### Can reproduce.
+Win8.1 ~ Tested on PTB and Canary [31642]
+
+.–. LOLnt ._.#3405 - Bug Bot on 2019-01-31T22:31:52.494Z
+
+
+### Can reproduce.
+Can repro, Windows Home 1809, Discord Canary 31642
+
+ginkoid#8888 - Bug Bot on 2019-01-31T22:31:57.454Z
+
+
+### Can reproduce.
+W10 Pro x64 - Canary 31642
+
+dafaqed#1312 - Bug Bot on 2019-01-31T22:51:16.462Z
+
+
+### Can reproduce.
+Windows 10 Home x64 build 17763.xxx Canary 31642
+
+a cat#4876 - Bug Bot on 2019-02-01T00:09:02.045Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 canary, Build Number: 31642
+
+Spooker#0001 - Bug Bot on 2019-02-01T00:30:10.554Z
+
+
+### Moved from User Reported Bugs to Spoilers! by Clayton on 2019-02-01T10:05:00.050Z
+
+List
+====
+Spoilers!
+
+Members
+=======
+None

@@ -1,0 +1,106 @@
+[Archived] If you tap on a search history entry with a filter followed by a content, a space will be added between the filter and the content (https://trello.com/c/Py0ImPH2)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-02-15T01:03:29.079Z
+Latest Update: 2019-01-01T23:11:03.105Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- In any server, tap Search 
+- Input any filter followed by a content (e.g `in:#channel mycontent`) 
+- After submitting search, go back and close Search 
+- Open Search again. An entry should've been created in the search history. 
+- Tap on it 
+- Repeat from step 3 through step 5 as many times as you want
+
+####Expected result:
+The exact same search should be done each time you repeat step 3-5
+####Actual result:
+Every new search you make this way will add an extra space between the filter and the content. In this example, the first time it will be `in:#channel mycontent`, the second time `in:#channel  mycontent`, the third time `in:#channel    mycontent`, and so on.
+####Client settings:
+Discord Alpha 6.2.4
+####System settings:
+Huawei Mate 9 Android 7.0
+
+8801
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-15T01:03:29.079Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a84dc61ac13177e922e09e9/fa0f64bd4697745eda31c395c27c7e7c/IMG_20180215_002911.png added by Bug Bot on 2018-02-15T01:03:31.981Z
+
+
+### Can reproduce.
+CR lg Xpower 6.0.1 on alpha 6.2.4
+
+ks#0908 - Bug Bot on 2018-02-15T01:03:36.753Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 7.0 Alpha 6.2.4
+
+webhp#1337 - Bug Bot on 2018-02-15T01:03:41.759Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.2.4, Xiaomi Mi 5 Nougat 7.1.2
+
+Elix 🍭#6969 - Bug Bot on 2018-02-15T01:03:46.654Z
+
+
+### Cannot reproduce.  - Clayton on 2018-02-15T22:11:12.011Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T22:11:20.331Z
+
+
+### Can reproduce.
+CR, ZTE Nubia Z7 Max (NX505J), Android 5.1.1, Discord 6.2.4 (624)
+
+.....#3882 - Bug Bot on 2018-03-05T07:27:31.918Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:10.115Z
+
+
+### Can reproduce.
+Wiko LENNY2 version 8, Android 5.1, Alpha 7.8.6
+
+MoonlightCapital#0554 - Bug Bot on 2018-11-03T20:08:05.513Z
+
+
+### Unarchived by Clayton on 2018-11-03T20:30:03.246Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.8.6
+
+Hole#0001 - Bug Bot on 2018-11-03T20:33:01.510Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Alpha 786
+
+avror#0001 - Bug Bot on 2018-11-04T09:43:42.352Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Sam Shih on 2018-11-09T01:05:52.140Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:11:02.356Z
+
+
+### Archived by Tarek on 2019-01-01T23:11:03.107Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/andygarron1) - No Bio

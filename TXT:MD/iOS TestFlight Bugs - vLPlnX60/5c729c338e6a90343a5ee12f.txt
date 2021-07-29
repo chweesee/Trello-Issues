@@ -1,0 +1,88 @@
+[Archived] Changing your username to an extremely long name causes it to be cut off in the new account page (iPhone and iPod only) (https://trello.com/c/rMQXXE8r)
+
+None
+
+Created: 2019-02-24T13:29:23.236Z
+Latest Update: 2019-03-28T08:30:23.330Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Go to the new account page in settings 
+- Change your username to something very long, like 32 W’s 
+- Go to the main account page, where you select edit account, change password, etc 
+- Observe your username in the page
+
+####Expected result:
+Username either ellipses or is scaled to fit
+####Actual result:
+Username does not scale or ellipse, causing it to run off screen
+####Client settings:
+TestFlight 2.4.5 (11524)
+####System settings:
+iPhone 6s iOS 12.2 Dev Beta 3
+
+29705
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-24T13:29:23.236Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c729c338e6a90343a5ee12f/24c15b5b3898097006064f9e5dd17390/image0.png added by Bug Bot on 2019-02-24T13:29:26.274Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 12.1.4 - TestFlight 2.4.5 (11524) - The issue only happens with iPhone because for the iPad it can be shown in one single line
+
+Pascal#0929 - Bug Bot on 2019-02-24T13:29:30.720Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.2 (dev beta 3) - TestFlight 2.4.5 (11524)
+
+Xylium#5800 - Bug Bot on 2019-02-24T13:29:35.681Z
+
+
+### Can reproduce.
+Can reproduce iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11524)
+
+Solo#0007 - Bug Bot on 2019-02-24T13:29:40.837Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11524)
+
+Daffyduck#5364 - Bug Bot on 2019-02-24T13:53:41.271Z
+
+
+### Can't reproduce.
+CNR, ipad mini 3 ios 11.4.1,  TestFlight 2.4.5 (11524)
+
+M24#0272 - Bug Bot on 2019-02-24T15:50:51.440Z
+
+
+### Can reproduce.
+iPhone X, IOS 12, TestFlight 2.4.5
+
+Mr. Proper#2394 - Bug Bot on 2019-02-24T16:46:26.641Z
+
+
+### Can reproduce.
+iPhone SE // iOS 12.1.4 // TestFlight 2.4.5 [11460]
+
+Trash™#3939 - Bug Bot on 2019-02-24T21:08:37.089Z
+
+
+### Moved from New Issues to Won't Fix by Fanghao on 2019-02-26T08:06:06.814Z
+
+
+### Archived by Bug Bot on 2019-03-28T08:30:23.345Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

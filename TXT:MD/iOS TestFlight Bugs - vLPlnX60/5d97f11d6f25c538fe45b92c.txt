@@ -1,0 +1,88 @@
+[Archived] Moving the cursor over a user tag while typing a message causes the movement to cancel (https://trello.com/c/kvejiiJQ)
+
+None
+
+Created: 2019-10-05T01:25:49.434Z
+Latest Update: 2019-10-08T23:08:13.673Z
+
+Reported by SplashyFlame#0067
+
+####Steps to reproduce:
+- Type out someone’s discord tag 
+- Hold space on the keyboard so that you can move the cursor 
+- Move the cursor over the tag 
+- Observe the movement cancel as soon as mention suggestions opens
+
+####Expected result:
+You should be able to continue manually moving the cursor
+####Actual result:
+The movement cancels once the mention suggestion box opens
+####Client settings:
+TestFlight 3.1.4 (17575)
+####System settings:
+iOS 13.1.2, IPhone XR
+
+45190
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-05T01:25:49.434Z
+
+
+### SplashyFlame#0067 - https://youtu.be/jWeTz0vcv7A added by Bug Bot on 2019-10-05T01:25:51.994Z
+
+
+### Can reproduce.
+CR - iPhone 8 - iOS 13.1.2 - TestFlight 3.1.4 (17575)
+
+zxcmember#0527 - Bug Bot on 2019-10-05T01:25:57.008Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.4 (17575)
+
+.Gloria.#9606 - Bug Bot on 2019-10-05T01:26:02.001Z
+
+
+### Can reproduce.
+iPhone XS (iOS 13.1.2), TestFlight Build 3.1.4 (17575)
+
+kiosion#0001 - Bug Bot on 2019-10-05T01:26:07.024Z
+
+
+### EXTENSION: This also works with channel tags
+
+SplashyFlame#0067 - Bug Bot on 2019-10-05T01:32:52.611Z
+
+
+### EXTENSION: This also works with emotes
+
+SplashyFlame#0067 - Bug Bot on 2019-10-05T01:33:49.301Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.1.2 TestFlight 3.1.4 (17575) [extension: if you move the cursor by holding down on the message field, as opposed to space, it will allow you to continue moving after triggering the mention suggestion, but the cursor will no longer be visible]
+
+binchlord#0998 - Bug Bot on 2019-10-05T02:36:47.381Z
+
+
+### Extension of https://trello.com/c/ICZv5gWq and https://trello.com/c/pSSEPiAB
+
+Archiving the ticket. - Pascal on 2019-10-05T08:37:10.769Z
+
+
+### Archived by Pascal on 2019-10-05T08:37:15.646Z
+
+
+### Can reproduce.
+iPhone X (iOS 13.1.2), Stable (3.1.4)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-08T23:08:13.684Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

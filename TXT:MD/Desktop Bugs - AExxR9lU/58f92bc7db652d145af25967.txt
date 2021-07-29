@@ -1,0 +1,77 @@
+[Archived] Creating a webhook and clicking Cancel leaves it on the list (https://trello.com/c/6tg23YvY)
+
+P2: Fix can wait a while
+
+Created: 2017-04-20T21:44:39.299Z
+Latest Update: 2017-10-17T21:05:14.227Z
+
+Reported by JBYoshi#5551
+
+####Steps to reproduce: 
+- Open the Server Settings on any server 
+- Click Webhooks 
+- Click Create Webhook 
+- Click Cancel 
+
+####Expected result:
+ The webhook list remains the same as it was before clicking Create Webhook 
+####Actual result:
+ There is a new webhook on the list
+
+1122
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-20T21:44:39.299Z
+
+
+### Can reproduce.
+windows 10 edu canary 
+
+also happens on stable
+
+Alex from Alaska#9760 - Bug Bot on 2017-04-20T21:44:39.800Z
+
+
+### Can reproduce.
+Win10 x64 & Latest Canary
+
+Immotay#2748 - Bug Bot on 2017-04-20T21:44:41.862Z
+
+
+### Can reproduce.
+Window 10 x64 Canary
+
+DeJay#8746 - Bug Bot on 2017-04-20T21:44:43.760Z
+
+
+### Verified.  - Clayton on 2017-04-20T22:19:15.850Z
+
+
+### Moved from User Reported Bugs to Server Settings Redesign Bugs by Clayton on 2017-04-20T22:19:38.537Z
+
+
+### Can reproduce.
+Win10 x64 Latest Canary
+
+slice#0594 - Bug Bot on 2017-04-21T00:11:30.649Z
+
+
+### Technically this is by design. We can't give you the URL without creating the Webhook, we can't really assume a deletion on cancel either. - Amadeus on 2017-04-21T06:49:38.348Z
+
+
+### Moved from Server Settings Redesign Bugs to Not a Bug by Shadi Isber on 2017-04-21T21:23:21.943Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:05:13.251Z
+
+
+### Archived by Jared on 2017-10-17T21:05:14.229Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

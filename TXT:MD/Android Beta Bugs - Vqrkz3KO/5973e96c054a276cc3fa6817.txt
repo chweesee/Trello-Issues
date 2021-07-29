@@ -1,0 +1,149 @@
+[Archived] Hidden channels show themselves automatically (https://trello.com/c/Xc7flcAi)
+
+P2 - Can wait a while,
+Mod can no longer reproduce
+
+Created: 2017-07-23T00:10:20.408Z
+Latest Update: 2018-07-06T21:27:03.574Z
+
+Reported by AlmostBonelessTom#2117
+
+####Steps to reproduce:
+- Go to a few server and hide muted channels 
+- Show muted channels on one server 
+- close and remove Discord from recent apps 
+- Open the app
+
+####Expected result:
+Hidden channels stay hidden
+####Actual result:
+Hidden Channels in all servers are no longer hidden
+####Client settings:
+Alpha 4.0.0
+####System settings:
+Android 5.1 Lollipop, BLU Advance 5.0
+
+2495
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-23T00:10:20.408Z
+
+
+### Can reproduce.
+ Samsung Galaxy S8+ 7.0 Nougat 《☆》 Android Alpha 4.0.0 (399)
+
+Mr.Caleb#8593 - Bug Bot on 2017-07-23T00:10:27.803Z
+
+
+### Can reproduce.
+This bug is very peculiar and happens randomly  Android​ 5.1 Discord 4.0.0
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-07-23T00:10:32.800Z
+
+
+### Can reproduce.
+Android 5.0.2 Discord A4.0.0
+
+LW001#8654 - Bug Bot on 2017-07-23T00:10:37.810Z
+
+
+### Can't reproduce.
+Samsung galaxy J3 android 6.0.1 alpha 4.0.0
+
+Apollo#4765 - Bug Bot on 2017-07-23T11:40:48.042Z
+
+
+### Can reproduce.
+Samsung galaxy J3 android 6.0.1 alpha 4.0.0
+
+Apollo#4765 - Bug Bot on 2017-07-23T11:42:29.094Z
+
+
+### Can't reproduce.
+Android 7.1.2 Latest PureNexus Build Latest MagiskSU Alpha 4.0.0
+
+Marf#4177 - Bug Bot on 2017-07-23T15:20:05.042Z
+
+
+### Can reproduce.
+Android 7.1.2 Latest PureNexus Build Latest MagiskSU Alpha 4.0.0. Hiding then showing muted channels on another server is important.
+
+Marf#4177 - Bug Bot on 2017-07-23T15:22:13.622Z
+
+
+### Can reproduce.
+OnePlus 5, Android 7.1.1; Discord 4.0.0
+
+DerNoobikeks#4874 - Bug Bot on 2017-07-23T18:59:56.246Z
+
+
+### I found some reproducible steps:
+- Mute then hide some channels in server A
+- Close then open Discord
+- Go to Server B then mute and hide some channels
+- close then open Discord again
+- Go back to server A then observe
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-07-24T03:15:15.797Z
+
+
+### Verified.  - Clayton on 2017-07-24T11:14:32.711Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-24T11:14:40.499Z
+
+
+### Moved from Verified Bugs to Won't Fix by Jeff Cailteux on 2017-09-12T20:36:33.454Z
+
+
+### Moved from Won't Fix to Channel Category Bugs by Jeff Cailteux on 2017-09-20T23:53:35.922Z
+
+
+### I am no longer able to reproduce, I hid the muted channels in three servers, then selected the option to show them in the first server. After I killed and reopened the app, the muted channels were still hidden for the last two servers. 
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Stable 5.2.6
+
+EDIT: I can still reproduce this using the steps Okori listed in his canrepro below. Moving the card back to Channel Category Bugs. - Alexandru Todea on 2017-09-26T13:31:12.115Z
+
+
+### Moved from Channel Category Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-26T13:31:24.238Z
+
+
+### I am still able to reproduce Android 5.1 Discord 5.2.6
+
+Okori#0902 - Bug Bot on 2017-09-27T19:14:53.462Z
+
+
+### Moved from Claimed Fixed, needs Verification to Channel Category Bugs by Alexandru Todea on 2017-09-28T14:19:47.248Z
+
+
+### Moved from Channel Category Bugs to Fix made, not yet released by Jeff Cailteux on 2017-10-03T18:37:38.084Z
+
+
+### I am no longer able to reproduce even if I am following Okori's steps.
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.2.8 - Alexandru Todea on 2017-10-06T08:32:38.853Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexandru Todea on 2017-10-06T08:32:56.514Z
+
+
+### Can reproduce.
+I can still repro, Discord 6.3.8, Android 6.0, Moto E (2.Gen) LTE
+
+Anorak#5830 - Bug Bot on 2018-03-17T13:13:46.340Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:27:02.486Z
+
+
+### Archived by Jared on 2018-07-06T21:27:03.576Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,103 @@
+[Archived] Switching directly from group call to group call causes Leave Call to fail, and does not put the caller into the call. (https://trello.com/c/r8rITDpy)
+
+P3: Will get fixed eventually
+
+Created: 2019-06-21T05:16:37.257Z
+Latest Update: 2019-07-23T11:30:03.643Z
+
+Reported by Naethure#5592
+
+####Steps to reproduce:
+- Person A calls Person B in a group call (or directly) 
+- Without either person leaving the call, Person A calls Person B in a different group call (or directly, if Step 1 was not a direct call) 
+- Note that Person A is not properly added to the call and must press Join Call to enter. Person A presses Join Call to enter the call. 
+- Person B presses Leave Call. Continue speaking and note that Person B has not actually left the call, even though their UI shows that they are not in the call. Person B must press the Join Call button on the UI, then the Leave Call button again to successfully leave.
+
+####Expected result:
+In Step 3, Person A should have been automatically added to the call they started. In Step 4, Person B should have left.
+####Actual result:
+In Step 3, Person A is not added to the call. In Step 4, Person B remains in the call even though the UI shows they left
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 39443, Version Hash: 973aedd7ab4b9dbc41137bb6ac1f0c28258bb2f0
+####System settings:
+Microsoft Windows 10 Pro, Version 10.0.17763.529
+
+36888
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-21T05:16:37.257Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home 64-bit, Canary 40149
+
+Lapras#0001 - Bug Bot on 2019-06-21T05:16:44.695Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 - Canary - 40175
+
+Jason 💔#0001 - Bug Bot on 2019-06-21T05:16:49.786Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, PTB 40201
+
+Action Potential#2494 - Bug Bot on 2019-06-21T05:16:54.763Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 40201
+
+charleskimbac#6492 - Bug Bot on 2019-06-21T05:25:28.904Z
+
+
+### Can reproduce.
+CR on Windows 10 (x64); Discord Stable, Build Number 39974
+
+Dann#3477 - Bug Bot on 2019-06-21T07:08:39.967Z
+
+
+### Can reproduce.
+cr; windows 10 education (1809) - canary 40175
+
+uwu#3785 - Bug Bot on 2019-06-21T09:53:33.245Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40201
+
+Xylium#5800 - Bug Bot on 2019-06-21T11:39:10.684Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40201
+
+Lily#2624 - Bug Bot on 2019-06-21T15:16:33.138Z
+
+
+### Can reproduce.
+Windows 10 Pro Canary 40175
+
+Typhoon#3514 - Bug Bot on 2019-06-21T15:52:29.853Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-06-21T22:58:40.603Z
+
+
+### Can reproduce.
+Windows 7 Home Premium, x64, Stable 40274
+
+harry#0001 - Bug Bot on 2019-06-23T11:14:57.433Z
+
+
+### Archived by Bug Bot on 2019-07-23T11:30:03.664Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

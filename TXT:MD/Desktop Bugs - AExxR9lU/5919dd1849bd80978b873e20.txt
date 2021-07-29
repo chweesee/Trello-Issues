@@ -1,0 +1,84 @@
+[Archived] Server Splash upload not properly greyed out with Audit Log permission (https://trello.com/c/iSVqU0Ck)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2017-05-15T16:53:44.282Z
+Latest Update: 2018-07-06T18:15:02.369Z
+
+Reported by MelodicStream#1336
+
+####Steps to reproduce: 
+- Be on a parner server 
+- Have no admin permissions 
+- Have "read audit logs" permission 
+- Go to server settings 
+- Scroll down 
+
+####Expected result:
+ The "Server Invite Background" is greyed out because you aren't allowed to change it 
+####Actual result:
+ It's not greyed out and it allows you to open the upload dialogue 
+####System settings:
+ Windows 10 Creators Edition With latest update to prevent that Warcry ransomware thing, Discord Canary Latest(tm)
+
+1629
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-15T16:53:44.282Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (AU 1607), the server background can be changed even though I don't have permission to change this stuff. Not related to audit log permission however.
+
+SuperSajuuk#7265 - Bug Bot on 2017-05-15T16:53:45.104Z
+
+
+### Can reproduce.
+can reproduce, macOS 10.12.4, web stable
+
+Mikesky#3456 - Bug Bot on 2017-05-15T16:53:47.089Z
+
+
+### Can reproduce.
+Win 8.1 Canary Latest
+
+Techno#1745 - Bug Bot on 2017-05-15T16:53:49.080Z
+
+
+### Can reproduce.
+Windows 10 Professional x64, Canary 0.0155
+
+IzzyBizzy#2088 - Bug Bot on 2017-06-04T07:18:53.748Z
+
+
+### Verified.  - Clayton on 2017-06-22T19:28:02.640Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-22T19:28:08.088Z
+
+
+### This doesn't seem like a common use case at all, but I could see it happening somewhere. High P3. - Jared on 2017-10-17T06:50:47.265Z
+
+
+### It's not really grayed out, but I can't open the upload dialogue, so I am marking this as Claimed Fixed. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T12:43:58.812Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-28T12:44:03.125Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:15:01.253Z
+
+
+### Archived by Jared on 2018-07-06T18:15:02.371Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

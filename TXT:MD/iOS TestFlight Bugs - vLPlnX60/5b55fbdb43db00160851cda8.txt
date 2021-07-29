@@ -1,0 +1,73 @@
+[Archived] “x new messages” bar flashes while channel is loading on poor connection (works best when you get a mention in an unloaded channel and doesn’t always happen) (https://trello.com/c/CmS19LQs)
+
+None
+
+Created: 2018-07-23T16:01:31.069Z
+Latest Update: 2018-09-19T17:11:53.654Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Make sure you have poor connection 
+- Go to a channel with unread messages 
+- Watch the top of the screen as the channel loads 
+- If it doesn’t work try having someone mention you in another unread channel and try again
+
+####Expected result:
+“x new messages” bar doesn’t appear until the channel loads in
+####Actual result:
+“x new messages” bar loads in before channel does and flashes on and off
+####Client settings:
+TestFlight 2.3.6 (6000)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 4
+
+15860
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-23T16:01:31.069Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b55fbdb43db00160851cda8/d89158f75a5964bde874cae60fb4556c/image.png added by Bug Bot on 2018-07-23T16:01:33.632Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th generation, iOS 11.4.1, TestFlight 2.3.6 (6000)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-07-23T16:01:38.695Z
+
+
+### Can reproduce.
+CR, iPhone 7 iOS 12 Beta 3, TestFlight 2.3.6 (6000)
+
+Marc#5983 - Bug Bot on 2018-07-23T16:01:43.444Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 3, TestFlight 2.3.6 (6000) - it seems only not intended that the new message bar appears before the message have been loaded, flashing might happen because it instantly disappears because all messages are marked as read
+
+Pascal#0929 - Bug Bot on 2018-07-23T16:01:48.450Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 (dev beta 4), TestFlight 2.3.6 (6000)
+
+Xylium#1480 - Bug Bot on 2018-07-23T21:14:38.062Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Victoria on 2018-07-25T23:34:40.815Z
+
+
+### This ticket has been in Won't Fix list for more than a month without any new activity. I am archiving this ticket due to inactivity and being in Won't Fix for more than a month.  - Ghoul on 2018-09-19T17:11:51.988Z
+
+
+### Archived by Ghoul on 2018-09-19T17:11:53.657Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

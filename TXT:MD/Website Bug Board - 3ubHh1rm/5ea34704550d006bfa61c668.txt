@@ -1,0 +1,55 @@
+[Domain Migration] Canary WEB overlay is broken with Client (https://trello.com/c/qe8U0TYV)
+
+None
+
+Created: 2020-04-24T20:07:32.685Z
+Latest Update: 2020-04-24T20:07:52.701Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open canary(dot)discord(dot)com/overlay 
+- Notice the lack of Overlay working 
+- Open discordapp(dot)com/overlay 
+- Notice overlay works fine.
+
+####Expected result:
+Overlay works fine like on Stable.
+####Actual result:
+Overlay fails to load, and rejects connection
+####Client settings:
+Client: Canary 58812 (273efab) // Web: Canary 58812 (273efab) + Chrome v81.0.4044.122
+####System settings:
+Win10 64x (1903)
+
+55119
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-24T20:07:32.685Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Web Canary 58812, Chrome v81.0.4044.122 (64-bit)
+
+SSalt#5041 - Bug Bot on 2020-04-24T20:07:42.698Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1909, Web Canary 58812, Chrome v81.0.4044.122 (64-bit)
+
+ShockTr#8097 - Bug Bot on 2020-04-24T20:07:47.696Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1909), Web Canary 58812, Chrome v81.0.4044.122 (64-Bit)
+
+EzZz#0001 - Bug Bot on 2020-04-24T20:07:52.710Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

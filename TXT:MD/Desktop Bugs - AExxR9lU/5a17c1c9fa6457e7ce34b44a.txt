@@ -1,0 +1,83 @@
+[Archived] You appear to be able to DM yourself after a name change (https://trello.com/c/7JtUrijC)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-11-24T06:52:57.679Z
+Latest Update: 2018-07-06T18:15:07.365Z
+
+Reported by CheatTriggers#4367
+
+####Steps to reproduce:
+- Send a message in a public server and make sure its not deleted and dont get it out of sight, you will need it later 
+- Change your Discord username (USERNAME not nickname!) 
+- Go back to the channel where you sent the message in Step 1 and send another message 
+- Click your name in the message sent in Step 3, it should show you the regular profile youre already used to see when you click your own profile (Notice it has no "Message @user" box) 
+- Now close that and click your name in the message sent in Step 1, it should show your old profile with your old username, and it will consider that it is another account instead of you, note it DOES have the "Message @user" box at the bottom now
+
+####Expected result:
+Old profile should update to the new profile and/or old profile still be detected as the user itself
+####Actual result:
+Old profile doesnt update to the new one and it is considered as another user instead of the same user
+####Client settings:
+Release Channel: canary, Build Number: 7502, Version Hash: 853b0be25dd5c703b56a814367e6b3f7f027c53a
+####System settings:
+Dell i5 Notebook, Windows 10.1 Home Edition
+
+6587
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-24T06:52:57.679Z
+
+
+### Can reproduce.
+CR, Discord Stable 7157, Windows 10 Home x64
+
+Daddy#6759 - Bug Bot on 2017-11-24T06:53:05.130Z
+
+
+### Can reproduce.
+Discord Canary build 7653, macOS High Sierra
+
+The One And Only SmoothModeler#3669 - Bug Bot on 2017-11-24T06:53:10.160Z
+
+
+### Can reproduce.
+CR,  Discord Stable build 7651,  macOS Sierra 10.12.1
+
+JustGamer#2542 - Bug Bot on 2017-11-24T06:53:15.110Z
+
+
+### Can reproduce.
+Discord Canary 0.0.180 (Build 7653) on Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+CryOminous#2331 - Bug Bot on 2017-11-25T07:48:06.953Z
+
+
+### Verified.  - Clayton on 2017-11-28T22:20:40.602Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-28T22:20:43.920Z
+
+
+### I can no longer reproduce, the profile gets updated and there's no Message user box. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T12:49:07.465Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-28T12:49:12.349Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:15:05.848Z
+
+
+### Archived by Jared on 2018-07-06T18:15:07.368Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

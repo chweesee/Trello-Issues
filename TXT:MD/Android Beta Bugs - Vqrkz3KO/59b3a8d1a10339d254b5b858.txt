@@ -1,0 +1,84 @@
+[Archived] Muting a channel on the channel settings does not actually mute it and every time the mute button is pressed the switch remains in the on position without actually working (https://trello.com/c/fU6Tw2Zm)
+
+P2 - Can wait a while,
+Mod can no longer reproduce
+
+Created: 2017-09-09T08:39:45.675Z
+Latest Update: 2017-12-02T16:19:36.359Z
+
+Reported by [TRED] AlFas#2783
+
+####Steps to reproduce:
+- Be in a server with text channels 
+- Tap the "Mute <channel name>" button 
+- Tap again as many times as you wish
+
+####Expected result:
+The channel gets muted and then tapping on the mute button the mute switch turns on/off
+####Actual result:
+The channel does not ever get muted and every time the switch is pressed it remains on
+####Client settings:
+Discord Alpha 5.1.4 (514)
+####System settings:
+Android 6.0
+
+4051
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-09T08:39:45.675Z
+
+
+### Can reproduce.
+The switch gets stuck until you leave and open the channel config again, however the channel does mute for me. (Partial repro, I guess?) Discord Alpha 5.1.4 & Moto G5+, Android 7.0
+
+Immotay#7475 - Bug Bot on 2017-09-09T08:39:53.204Z
+
+
+### Can reproduce.
+Moto G4 Android 7.0 Alpha 5.1.4 the switch does get stuck but I can mute and unmute the channel after getting out of the channel config
+
+Azrael#6867 - Bug Bot on 2017-09-09T08:39:58.204Z
+
+
+### Can reproduce.
+Just stuck in "unmute" after couple of times. Android Alpha 5.1.4, Samsung Galaxy S5 6.0.1 Marshmallow
+
+AviationMaster#4793 - Bug Bot on 2017-09-09T08:40:03.203Z
+
+
+### Verified. - Clayton on 2017-09-12T22:07:53.162Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-12T22:08:14.324Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jeff Cailteux on 2017-09-15T20:06:08.490Z
+
+
+### Can't reproduce.
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.1.7 (517) - Alexandru Todea on 2017-09-16T05:53:28.782Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-16T05:53:34.871Z
+
+
+### Verified Fixed - Jared on 2017-10-02T20:01:19.071Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T20:01:25.684Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:19:35.444Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:19:36.361Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

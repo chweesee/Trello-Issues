@@ -1,0 +1,99 @@
+[Archived] Pictures taken from iOS 11 (using the new HEIF format) upload as "unknown" to Discord (https://trello.com/c/9SDdBes8)
+
+None
+
+Created: 2017-08-04T21:48:44.460Z
+Latest Update: 2017-11-18T10:55:05.986Z
+
+Reported by Tiemen#0107
+
+####Steps to reproduce:
+- Make sure you're on iOS 11 
+- (Optional step if you have this option disabled, go to Settings -> Camera -> Formats and choose the High Efficiency option) 
+- Take a picture using the native Camera app 
+- Upload the picture you've just taken to Discord
+
+####Expected result:
+The picture should either be uploaded as .heic or automatically be converted to .jpeg by iOS itself
+####Actual result:
+The picture is uploaded as "unknown"
+####Client settings:
+Discord TF 1.8.9
+####System settings:
+iPhone 7, iOS 11 beta 4­
+
+2774
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-04T21:48:44.460Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5984ebbc19dbf93121e8a16e/fc685a98dfee7f2ec70eaf3cb151f593/image.png added by Bug Bot on 2017-08-04T21:48:47.347Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5984ebbc19dbf93121e8a16e/f85f0bf7881a3ba79b5a0fe7276ae558/unknown.png added by Bug Bot on 2017-08-04T21:48:47.427Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11 developer beta 4,  Discord TF 1.8.9
+
+nullpixel#0012 - Bug Bot on 2017-08-04T21:48:52.224Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11 Public Beta 3, Discord 1.8.9
+
+MattBSG#6310 - Bug Bot on 2017-08-04T21:48:57.217Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 11 Public Beta 3
+
+Grummy#0478 - Bug Bot on 2017-08-04T21:49:02.180Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5984ebbc19dbf93121e8a16e/96e9ce89c43bc65f463ce808ccdc3316/unknown.png added by Bug Bot on 2017-08-04T22:47:51.028Z
+
+
+### Moved from User Reported Bugs to iOS 11 issues by Jared on 2017-09-12T22:14:46.324Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 11 GM (Final Build), TF 1.9.1
+
+Penguin#0001 - Bug Bot on 2017-09-14T00:03:09.267Z
+
+
+### High Efficency option is enabled by default on iOS 11, meaning all photos taken once iOS 11 is installed will corrupt unless the user manually disables this feature.
+
+Penguin#0001 - Bug Bot on 2017-09-14T00:05:22.925Z
+
+
+### convert to JPEG in next stable 1.9.1 release - Fanghao on 2017-09-20T05:20:35.423Z
+
+
+### Moved from iOS 11 issues to Fix made, not yet released by Fanghao on 2017-09-20T05:21:00.415Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2017-10-02T19:07:09.126Z
+
+
+### Verified Fixed - Jared on 2017-10-03T16:38:21.968Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-10-03T16:38:28.140Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-18T10:54:37.116Z
+
+
+### Archived by Alexandru Todea on 2017-11-18T10:55:05.991Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

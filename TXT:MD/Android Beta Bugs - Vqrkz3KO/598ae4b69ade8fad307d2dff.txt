@@ -1,0 +1,86 @@
+[Archived] Changing email page doesn't work when having unverified email, and pressing verify button, on a server that requires to have it verified (https://trello.com/c/Hm2SzyFo)
+
+P2 - Can wait a while
+
+Created: 2017-08-09T10:32:22.432Z
+Latest Update: 2018-02-27T00:33:17.636Z
+
+Reported by Symplyfyed#4913
+
+####Steps to reproduce:
+- Create a new account 
+- Do not verify the email 
+- Join a sever that requires you to verify the email  
+- Go to server, and where you should press to chat, press "verify" or whatever the button for verification is called 
+- Press "change email" in the window that pops up 
+- Enter a new email, and the correct password 
+- Observe that even if the password is correct, you cannot press the verify account button.  
+- Additional information: the password is not censored. This may be a bug too.
+
+####Expected result:
+You should be able to verify the account when you try to change the email
+####Actual result:
+You cannot press the verify account button, even if all the info is typed correctly. (More: the password is not censored)
+####Client settings:
+DiscordApp, Android Alpha 4.0.4
+####System settings:
+Android 4.4.4, Tablet Allview VivaH8LTE
+
+2949
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-09T10:32:22.432Z
+
+
+### Symplyfyed#4913 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/598ae4b69ade8fad307d2dff/665536843db2bd984a12964acddd1e61/Screenshot_2017-08-07-19-26-02.png added by Bug Bot on 2017-08-09T10:32:25.190Z
+
+
+### Symplyfyed#4913 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/598ae4b69ade8fad307d2dff/cfb1107312ff8fda69fa109e17c42b13/Bug.png added by Bug Bot on 2017-08-09T10:32:25.239Z
+
+
+### Can reproduce.
+LG X Power, Android Alpha 4.0.4
+
+Hexexpeck#8781 - Bug Bot on 2017-08-09T10:32:29.826Z
+
+
+### Can reproduce.
+Samsung Galaxy S5, Android 5.0 Android Alpha 4.0.3
+
+hanss314#0128 - Bug Bot on 2017-08-09T10:32:34.795Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 4.0.4
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-08-09T10:32:39.863Z
+
+
+### Verified.  - Clayton on 2017-08-09T23:02:17.288Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-10T00:21:30.935Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-01-12T18:01:19.147Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-01-25T23:28:49.015Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-01-25T23:28:55.887Z
+
+
+### Archiving due to age and no activity. - Mike Nisbet on 2018-02-27T00:33:16.041Z
+
+
+### Archived by Mike Nisbet on 2018-02-27T00:33:17.640Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

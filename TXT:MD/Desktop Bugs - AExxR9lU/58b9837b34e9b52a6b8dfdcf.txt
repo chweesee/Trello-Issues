@@ -1,0 +1,97 @@
+[Archived] Gets an call notification, close the DM without rejecting it, can't reject but can accept, but cilent will be unresponsive. (https://trello.com/c/pjD1y2zC)
+
+P2: Fix can wait a while
+
+Created: 2017-03-03T14:53:47.252Z
+Latest Update: 2018-07-06T17:44:16.030Z
+
+Reported by Hans5958#0969
+
+####Steps to reproduce: 
+- Wait for a call from other account. 
+- While the notification is on, close the DM. 
+- Click the red button (reject button), not working 
+- Click the green button (accept button), Discord will be unresponsive 
+
+####Expected result:
+ Either the call will be disappear, or rejectable. 
+####Actual result:
+ "Reject Call" button won't work, but clicking the "Accept Call" button makes the Discord cilent unresponsive. 
+####System settings:
+ Windows 8, Stable version.
+
+1845
+
+Card Log
+========
+### Added by Jared on 2017-03-03T14:53:47.252Z
+
+
+### Can reproduce.
+W10 Canary
+
+Logiz#9321 - Jared on 2017-03-03T14:53:47.993Z
+
+
+### Can reproduce.
+Windows 10, latest canary
+
+DoNotSpamPls#8787 - Jared on 2017-03-03T14:53:50.247Z
+
+
+### Can reproduce.
+macOS 10.12.3 Discord Canary
+
+Harrison#9100 - Jared on 2017-03-03T14:53:51.888Z
+
+
+### https://www.youtube.com/watch?v=DyzC47Q9ApU - https://www.youtube.com/watch?v=DyzC47Q9ApU added by Jared on 2017-03-03T14:54:02.840Z
+
+
+### Can't reproduce.
+Win10 Canary x64
+
+tomGER#7462 - Jared on 2017-03-05T13:29:06.190Z
+
+
+### Can reproduce.
+Win10 x64 Canary
+
+tomGER#7462 - Jared on 2017-03-05T13:29:42.031Z
+
+
+### Verified.  - Clayton on 2017-03-08T20:28:16.986Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-03-08T20:28:24.488Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Stanislav Vishnevskiy on 2017-10-09T06:28:38.117Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2017-10-11T08:27:14.466Z
+
+
+### Checked on canary build 7256:
+
+I can no longer reproduce this myself. Closing the DM removes the calling noise and popup. If you re-open the DM conversation (through search) and the other person is still calling the calling noise will restart and the popup will show itself again. - Alexander (DJScias) on 2017-11-13T14:40:13.415Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T19:17:55.663Z
+
+
+### Verified Fixed - Jared on 2018-01-17T19:18:01.435Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:48:04.188Z
+
+
+### Archived by Tarek on 2018-02-22T19:48:05.255Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/svishnevskiy) - No Bio

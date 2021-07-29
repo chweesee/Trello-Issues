@@ -1,0 +1,87 @@
+[Archived] Discord auto resolves mentions if user is pinged without discrim in a channel that they don't have access to. (https://trello.com/c/O7tXeyzm)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-01-24T22:53:23.899Z
+Latest Update: 2019-05-11T17:00:04.036Z
+
+Reported by rauf#3260
+
+####Steps to reproduce:
+- Have a private channel that people don't have access to. 
+- Find someone to test ping. 
+- Try to ping with discrim included. ex. @turkey#1234 
+- May or may not work. 
+- Now try without discrim. ex. @turkey
+
+####Expected result:
+2nd mention shouldn't resolve as the user is not in the channel, like the 1st mention
+####Actual result:
+2nd mention resolves and shows that the user is mentioned
+####Client settings:
+Canary 9837
+####System settings:
+Windows 10 Home Fall CU x64
+
+8115
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-24T22:53:23.899Z
+
+
+### rauf#3260 - https://i.imgur.com/ONoYxPL.gifv added by Bug Bot on 2018-01-24T22:53:26.313Z
+
+
+### Can reproduce.
+CR Discord Canary 9861, Stable  9672, Win 10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-01-24T22:53:31.265Z
+
+
+### Can reproduce.
+CR, Discord Canary Build 9861, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-01-24T22:53:36.274Z
+
+
+### Can reproduce.
+CR Windows 10 x64 Canary 0.0.199 build 9873
+
+Okori#0902 - Bug Bot on 2018-01-24T22:53:41.261Z
+
+
+### Verified.  - Clayton on 2018-01-25T23:13:50.502Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-25T23:13:54.893Z
+
+
+### Can reproduce.
+CR Windows 10 x64 Canary Build9959
+
+Zacatero#0001 - Bug Bot on 2018-01-26T07:00:46.136Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:08.375Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Build 30945
+
+Isabel#0002 - Bug Bot on 2019-01-17T08:35:31.423Z
+
+
+### Unarchived by Bug Bot on 2019-01-17T09:00:05.495Z
+
+
+### Archived by Bug Bot on 2019-05-11T17:00:04.077Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

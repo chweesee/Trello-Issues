@@ -1,0 +1,117 @@
+[Archived] When trying to connect to Voice Chat, The Redial button appears and will not go away. (https://trello.com/c/OK9DuQDy)
+
+P1 - Severe,
+Mod can no longer reproduce
+
+Created: 2017-09-15T05:05:49.911Z
+Latest Update: 2017-12-02T16:14:06.446Z
+
+Reported by Finny#0633
+
+####Steps to reproduce:
+- Create a Voice Channel 
+- Tap on the channel
+
+####Expected result:
+The Voice Chat should show who is in the channel
+####Actual result:
+The Voice Channel fails to connect, And gives me a redial button that won't work
+####Client settings:
+Android Alpha v5.1.6
+####System settings:
+Motorolla Droid Ultra XT1080 Android 4.4 KitKat
+
+4308
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-15T05:05:49.911Z
+
+
+### Chrees#4389 - https://www.youtube.com/watch?v=2-k0Z3yVt3A added by Bug Bot on 2017-09-15T05:05:52.378Z
+
+
+### Can reproduce.
+Samsung Galaxy 5, Discord 5.1.6 Alpha
+
+ZestOfLife~#1757 - Bug Bot on 2017-09-15T05:05:57.382Z
+
+
+### Can reproduce.
+Can reproduce Samsung Galaxy S6, 7.0, 5.1.6; The actual issue here is 5.1.6 broke VoIP apparently because I cannot connect to any lobbies. It just sits on that screen
+
+Xander#0259 - Bug Bot on 2017-09-15T05:06:02.383Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 5.1.6, LG X Power, Android Marshmallow 6.0.1
+
+Hexexpeck#8781 - Bug Bot on 2017-09-15T05:06:07.374Z
+
+
+### Can reproduce.
+Nexus 6, Android 7.1.2, Discord 5.1.6 (516)
+
+MelodyConcerto#5328 - Bug Bot on 2017-09-15T06:02:41.550Z
+
+
+### MelodyConcerto#5328 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59bb5fad1b46554721f0ff5e/6b7df71a1f314a53e431f2d75faf45f5/Screenshot_20170915-010345.png added by Bug Bot on 2017-09-15T06:04:09.881Z
+
+
+### Can reproduce.
+Can reproduce Google Pixel, 8.0.0, 5.1.6
+
+Zollak#4578 - Bug Bot on 2017-09-15T06:16:48.387Z
+
+
+### Bug is caused due to no input mode being selected on default
+
+ZestOfLife~#1757 - Bug Bot on 2017-09-15T07:04:00.113Z
+
+
+### Can reproduce.
+Discord Alpha 5.1.6, -1
+
+RisedSky#1250 - Bug Bot on 2017-09-15T10:21:28.207Z
+
+
+### Can reproduce.
+BLU Life One 4G, Android 5.0.2 Discord Alpha 5.1.6
+
+Doodleguy#0441 - Bug Bot on 2017-09-15T13:46:08.881Z
+
+
+### Moved from User Reported Bugs to Serious Issues by Cole Norman on 2017-09-16T02:07:45.472Z
+
+
+### this is because updating from Alpha 5.1.5 to 5.1.6 your selection for either "Voice Activity" or  "Push to Talk" was removed and neither are selected in the "Voice" tabin your User Settings, selecting one will fix this
+
+Azrael#6867 - Bug Bot on 2017-09-17T18:58:51.815Z
+
+
+### Moved from Serious Issues to Claimed Fixed, needs Verification by Andy Garron on 2017-09-19T21:11:17.678Z
+
+
+### Tested on discord beta 5.2.6:
+
+I can no longer reproduce this myself. It shows the connected users in the voice channel just fine. No issues anymore. - Alexander (DJScias) on 2017-09-23T11:21:45.945Z
+
+
+### Cannot reproduce. Moving to Verified Fixed. - Jared on 2017-10-02T16:59:12.282Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T16:59:19.393Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:14:05.350Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:14:06.449Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

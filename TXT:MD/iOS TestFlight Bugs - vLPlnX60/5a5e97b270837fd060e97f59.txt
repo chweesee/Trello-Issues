@@ -1,0 +1,70 @@
+[Archived] When calling someone who is not in your friends list (such as a bot), the "need to be friends with x" popup appears, but the "Connect to Voice" menu appears behind it - popup should only appear on top of the DM channel. (https://trello.com/c/vCOJWPeS)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-17T00:24:18.272Z
+Latest Update: 2018-09-04T23:12:12.100Z
+
+Reported by JustGamer#2542
+
+####Steps to reproduce:
+- Find a user that is not in your friends list (such as a bot). 
+- Call this user. 
+- When the popup appears, press "Okay" 
+- Let the magic happen and the "Connect to Voice" menu with voice settings should appear. 
+- May require one or two attempts, appears everytime for myself. 
+- This may be inconsistency across devices but is a valid bug as of right now.
+
+####Expected result:
+The add friend to call popup should only appear on top of the DM chat not the connect menu.
+####Actual result:
+The popup appears with the connect menu behind it, pressing "Okay" keeps the menu until closing that as well.
+####Client settings:
+Discord TestFlight 2.2.0 (2121)
+####System settings:
+iPhone 6, iOS 11.1.2
+
+7856
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-17T00:24:18.272Z
+
+
+### JustGamer#2542 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a5e97b270837fd060e97f59/c1b6fc4026fa9036fb1bd95260bc74d9/image.png added by Bug Bot on 2018-01-17T00:24:21.034Z
+
+
+### Can reproduce.
+CR iPhone 8 +, iOS 11.2.5 (PB4), Discord TestFlight 2.2.0 (2121)
+
+Ghoul#4567 - Bug Bot on 2018-01-17T00:24:25.991Z
+
+
+### Can reproduce.
+CR iPhone X, iOS 11.2.1, Discord Testflight 2.2.0 (2121)
+
+Jason P#3334 - Bug Bot on 2018-01-17T00:24:30.991Z
+
+
+### Can reproduce.
+CN, I tried it with 3 bots 6 times, iPod touch 6 generation, iOS 10.3.3, TestFlight 2.2.0 (2080)
+
+❤nickWtn❤#3789 - Bug Bot on 2018-01-17T00:24:36.174Z
+
+
+### Verified - Clayton on 2018-01-17T12:59:22.064Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-17T12:59:29.044Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:12.103Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

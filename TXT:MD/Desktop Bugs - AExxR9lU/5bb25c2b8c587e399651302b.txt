@@ -1,0 +1,83 @@
+[Archived] Discord makes you think you joined `voice_chan_2` while in reality you are still in `voice_chan_1`! And it's also spooky (https://trello.com/c/jEaxg41w)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-01T17:40:59.679Z
+Latest Update: 2019-01-11T00:00:47.217Z
+
+Reported by FaSciCake#3694
+
+####Steps to reproduce:Perfect scenario for a bug to work: 
+- Channel permissions: 
+- 1st channel: View-off and Connect-on 
+- 2nd channel: optional(View-on) and Connect-off 
+- 1) User_1 ANYHOW joins the 1st channel (gets dragged into / uses invite-link); 
+- 2) User_1 uses the 2nd channel's invite-link; 
+- = Now User_1 thinks&sees he's in the 2nd channel, while, in fact, he's still in the 1st channel. 
+- = Everyone (but User_1) can observe that User_1 is still in the 1st channel. 
+- 3) User_2 joins the 1st channel; 
+- 4) ??? 
+- 5) SPOOKY VOICES!!! Try it out with your friends and family!
+
+####Expected result:
+-1) ...; -2) User_1 attempts to join it, but gets just thrown to oblivion (default)
+####Actual result:
+User_1 cheats! Try it yourself (mb with a dev-friend or a BOT) - it'll be more clear. Just follow the steps in [2].
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 25070
+####System settings:
+Windows 10. Version 1803 (OS Build 17134.285)
+
+20422
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-01T17:40:59.679Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10, Discord Canary 25069.
+
+davfsa#7026 - Bug Bot on 2018-10-01T17:41:07.056Z
+
+
+### Can reproduce.
+cr, Windows 10 Pro x64, Canary Build 25069
+
+Nasi#3450 - Bug Bot on 2018-10-01T17:41:12.103Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 25069
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-01T17:41:17.079Z
+
+
+### verified, macos 10.12.6, canary 25070 - Clayton on 2018-10-01T21:47:06.295Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-01T21:47:15.327Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 25195
+
+Hole#0001 - Bug Bot on 2018-10-02T07:28:07.891Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 25313
+
+Neiron#2406 - Bug Bot on 2018-10-03T16:04:25.114Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:47.220Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

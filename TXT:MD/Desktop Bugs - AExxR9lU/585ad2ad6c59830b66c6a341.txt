@@ -1,0 +1,115 @@
+[Archived] Typing usernames as part of an email auto-resolves to a mention (https://trello.com/c/wVXfvci5)
+
+P2: Fix can wait a while
+
+Created: 2016-12-21T19:06:21.281Z
+Latest Update: 2017-10-17T20:18:07.560Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce: 
+- Type an email address that has someone's username in it 
+
+####Expected result:
+ No mention resolving 
+####Actual result:
+ The username is automatically resolved without discriminator. System Specs: Latest Canary on W10 x64
+
+Card Log
+========
+### Added by Jared on 2016-12-21T19:06:21.281Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary 0.0.149
+
+DJScias#0812 - Jared on 2016-12-21T19:06:50.751Z
+
+
+### Can reproduce.
+Canary Web
+
+Abhijith Ganesan#5206 - Jared on 2016-12-21T19:06:51.093Z
+
+
+### Affects iOS as well
+
+Dru#8209 - Jared on 2016-12-21T19:07:34.253Z
+
+
+### SuperSajuuk#7265 - https://gyazo.com/da13c9c0d56637ed1391b57a17dfcf98 added by Jared on 2016-12-21T19:07:49.661Z
+
+
+### Can reproduce.
+Win 10 Pro AU x64, latest Canary
+
+ThaTiemsz#5517 - Jared on 2016-12-21T19:08:07.223Z
+
+
+### Can reproduce.
+Latest
+
+Nevexmess#3876 - Jared on 2016-12-21T21:34:43.497Z
+
+
+### Can reproduce.
+Mentioning without Discrim is still a bug. :^) Canary Latest Win10 AU
+
+𝅳𝅳#5756 - Jared on 2016-12-21T21:38:29.936Z
+
+
+### Can reproduce.
+Windows 10, All clients.
+
+Enharmonic#3999 - Jared on 2016-12-21T23:56:31.997Z
+
+
+### Can reproduce.
+windows 7 Discord Canary
+
+Equinox#3625 - Jared on 2016-12-22T02:03:16.415Z
+
+
+### Enharmonic#3999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/585ad2ad6c59830b66c6a341/2f6aa9b8fc67c9032f9e3edb0db1fb6e/nvgiti.gif added by Jared on 2016-12-22T02:04:05.267Z
+
+
+### duplicate of wVXfvci5
+
+greenbigfrog#4461 - Jared on 2016-12-23T12:46:59.844Z
+
+
+### This bug is also effecting trying to mention users that have a name matching a mentionable role. The role takes priority in the mention, even if the Discrim is added to the user's name.
+
+Enharmonic#3999 - Jared on 2016-12-23T19:58:30.959Z
+
+
+### Enharmonic#3999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/585ad2ad6c59830b66c6a341/194c29b86dcc47dd80f5e2fe9a11bffa/721890a8ed.png added by Jared on 2016-12-23T20:01:52.265Z
+
+
+### Can reproduce.
+OS: Windows, Discord: Canary
+
+Doctors#5417 - Jared on 2016-12-23T21:50:34.027Z
+
+
+### Verified, but low priority. - Jared on 2017-01-03T22:11:39.933Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T22:11:43.353Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Alexander (DJScias) on 2017-06-01T23:14:33.462Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:18:05.651Z
+
+
+### Archived by Jared on 2017-10-17T20:18:07.566Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

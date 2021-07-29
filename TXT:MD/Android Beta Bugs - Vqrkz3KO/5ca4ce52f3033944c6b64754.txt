@@ -1,0 +1,99 @@
+Discord crashes twice after changing fonts scale and sometimes indefinitely (https://trello.com/c/7jrnN19q)
+
+P1 - Severe
+
+Created: 2019-04-03T15:16:34.157Z
+Latest Update: 2019-04-05T17:06:42.137Z
+
+Reported by Xnehaxixh#2892
+
+####Steps to reproduce:
+- Go to Appreance Tab and change your font scale  
+- Tap back twice IMMEDIATELY  
+- You will see the font has not scaled yet. Exit discord immediately.  
+- Open Discord again, it should immediately crash.  
+- Open Discord again, it should immediately crash again.  
+- [Extended Bug]  
+- After changing the font and exit discord immediately  
+- Open Discord again, it will crash.  
+- The previous step will loop and discord will keep on crashing indefinitely.  
+- It will keep on crashing until it's cache is cleared or reinstalled.  
+- Specifically mention in the comments of you were able to reproduce the extended bug. 
+- Note: Both the bugs might be only reproducible on Android 6 or below. Do comment if you were able to reproduce it on above versions.
+
+####Expected result:
+Discord should not crash at all/more than once.
+####Actual result:
+It crashes twice and in some case indefinitely, making discord unusable.
+####Client settings:
+Discord 869
+####System settings:
+MIUI 10, Android 6.0.1
+
+32050
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-03T15:16:34.157Z
+
+
+### Can reproduce.
+Intex Aqua N7 Android 5 ; App Information 869
+
+Stardust#2476 - Bug Bot on 2019-04-03T15:16:41.718Z
+
+
+### Can reproduce.
+Can repro by changing the font scale multiple times without exiting the tab, and then when back it's stuck in a crash loop. Samsung Galaxy J5 Prime Android 8.0.0, Discord Alpha 8.6.9
+
+Mr. Black#7477 - Bug Bot on 2019-04-03T15:16:46.711Z
+
+
+### Can reproduce.
+CR, Xiaomi Redmi 4, Android 7.1.2 N2G47H, Discord Alpha 8.5.9
+
+RedstoneMiner27#1027 - Bug Bot on 2019-04-03T15:16:51.716Z
+
+
+### Can reproduce.
+Huawei Honor 5X, Android 6.0.1 - Discord Alpha 8.6.9
+
+Rushaly#6969 - Bug Bot on 2019-04-03T15:21:06.161Z
+
+
+### Can reproduce.
+CR; OnePlus 5 Android 7.7.1, Discord 8.6.9
+
+||Kissa||#1337 - Bug Bot on 2019-04-03T15:35:55.738Z
+
+
+### Can reproduce.
+CR: LG Stylo 3 Discord 8.6.9 - Very severe crash loop; must escape by clearing Discord App data and logging back in.
+
+Melody#5767 - Bug Bot on 2019-04-03T16:29:21.202Z
+
+
+### Can reproduce.
+Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 8.6.9
+
+Lelantos#4866 - Bug Bot on 2019-04-03T16:59:33.820Z
+
+
+### Can reproduce.
+Can reproduce the crash loop even on 8.7.0 on Lenovo Vibe K5+
+
+The Lunala#7777 - Bug Bot on 2019-04-05T11:17:15.359Z
+
+
+### Moved from User Reported Bugs to Font Scaling Issues by Jeff Cailteux on 2019-04-05T15:44:45.492Z
+
+
+### Moved from Font Scaling Issues to Cannot Reproduce by Jeff Cailteux on 2019-04-05T17:06:42.117Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

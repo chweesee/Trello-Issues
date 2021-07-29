@@ -1,0 +1,88 @@
+Discord hangs on blank windows when pass SIGTERM (https://trello.com/c/lQ5pkgsV)
+
+P2: Can wait awhile,
+low
+
+Created: 2017-11-08T00:36:33.231Z
+Latest Update: 2018-08-03T12:47:27.189Z
+
+Reported by mark9064#4401
+
+####Steps to reproduce:Run killall -s TERM DiscordCanary
+
+####Expected result:
+Discord exits cleanly
+####Actual result:
+Discord hangs with multiple grey boxes. I am reporting this as this could be the root cause of crashes under GNOME when trying to quit discord. These crashes give a similar behaviour to what happens when you pass SIGTERM to discord processes.
+####Client settings:
+Discord Canary 0.024 Build 6581
+####System settings:
+Linux Mint 17.3/4.2.0-22-generic
+
+5963
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-08T00:36:33.231Z
+
+
+### DeJay#3628 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5a025191a23c23465d4fc1c2/fbd48c22928a2078384770ded5671b36/image.png added by Bug Bot on 2017-11-08T00:36:35.800Z
+
+
+### Can reproduce.
+CR, even though I can't repro 5925, weird. Ubuntu 17.10/Linux 4.13, Canary 0.0.24 (Build 6799)
+
+juj#5114 - Bug Bot on 2017-11-08T00:36:40.580Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04 GNOME, Canary 0.0.27 (Build 6943)
+
+DeJay#3628 - Bug Bot on 2017-11-08T00:36:45.610Z
+
+
+### Can reproduce.
+CR Ubuntu 17.04, Canary 0.0.27
+
+IcyPebbles#5833 - Bug Bot on 2017-11-08T00:36:50.607Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2017-11-08T21:10:39.715Z
+
+
+### Can reproduce.
+Linux Mint 18 + Openbox / Discord Canary 0.0.27
+
+cloudrac3r#5547 - Bug Bot on 2017-11-09T04:47:25.199Z
+
+
+### Can reproduce.
+Debian Buster, Discord Canary 0.0.27 , had to xkill the blank window
+
+notonewith#5354 - Bug Bot on 2017-11-09T20:51:32.612Z
+
+
+### Can reproduce.
+4.13.12-1-ARCH x86_64 GNU/Linux, Canary Build ( 7460 )
+
+Feanor#2954 - Bug Bot on 2017-11-17T11:44:03.312Z
+
+
+### Can reproduce.
+Discord Stable 0.0.4 build 13537, openSUSE Tumbleweed 20180410.  About 1/10 times that I close Discord, it tries to restart itself.  Note: SIGTERM is the normal way of closing processes on Linux, so this actually has a chance of happening every time Discord is closed and not just through abnormal methods.
+
+simonizor#0420 - Bug Bot on 2018-04-14T19:12:05.954Z
+
+
+### Can reproduce.
+ArchLinux x64 - Linux Kernel 4.17.11-1 - GNOME 3.28.2 - Discord Canary Build 20644
+
+Frances Picard#6209 - Bug Bot on 2018-08-03T12:47:27.190Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

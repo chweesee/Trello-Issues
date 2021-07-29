@@ -1,0 +1,140 @@
+[Archived] When you try to link a channel, the picker stays after you finish, making it impossible to send (https://trello.com/c/BM5x967N)
+
+P0: Need an immediate fix
+
+Created: 2017-08-24T09:29:34.647Z
+Latest Update: 2017-10-17T20:24:06.765Z
+
+Reported by advaith#9121
+
+####Steps to reproduce:
+- Start typing a channel name to link it 
+- Choose a channel from the picker and click it or press enter, alternatively type out the name and press space
+
+####Expected result:
+The picker should disappear.
+####Actual result:
+The picker stays, even after the space, and enter doesn't work.
+####Client settings:
+Discord Canary 0.0.154 (Build 3571)
+####System settings:
+macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+3563
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-24T09:29:34.647Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599e9c7e5de157548ff4046c/156f048aaf84065c28d051fa1a6e41ed/Screen_Shot_2017-08-24_at_2.20.20_AM.png added by Bug Bot on 2017-08-24T09:29:37.328Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599e9c7e5de157548ff4046c/e98d0142cc1594ce8f87d4c8c13eafcc/fc0b06.gif added by Bug Bot on 2017-08-24T09:29:37.401Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro Early 2015
+
+Nelson1348#9190 - Bug Bot on 2017-08-24T09:29:42.101Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home Creators Update x64, Canary 0.0.163
+
+TTtie#4900 - Bug Bot on 2017-08-24T09:29:47.086Z
+
+
+### Can reproduce.
+CR Discord Canary 0.0.163 (Build 3571) Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-08-24T09:29:52.108Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599e9c7e5de157548ff4046c/27b563d1f8c262eb0023cf0caa85e978/Screen_Shot_2017-08-24_at_2.20.20_AM.png added by Bug Bot on 2017-08-24T09:58:38.183Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599e9c7e5de157548ff4046c/8cc5976536599ea6945814457cc2c132/fc0b06.gif added by Bug Bot on 2017-08-24T09:59:03.608Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599e9c7e5de157548ff4046c/28a5d2fd322fb798319102c2662cff24/Screen_Shot_2017-08-24_at_2.20.20_AM.png added by Bug Bot on 2017-08-24T10:00:01.985Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599e9c7e5de157548ff4046c/4125e9419fa75eb6d097ec8643984f63/Screen_Shot_2017-08-24_at_2.20.20_AM.png added by Bug Bot on 2017-08-24T10:01:54.059Z
+
+
+### Can reproduce.
+This is very annoying and makes sending posts ending in a link difficult. Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.163 (Build 3571)
+
+SuperSajuuk#7265 - Bug Bot on 2017-08-24T12:50:46.080Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (3571)
+
+Tiemen#0107 - Bug Bot on 2017-08-24T13:00:26.877Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.163 (Build 3571) - Win 10 Pro x64 v1607
+
+Pointy#9109 - Bug Bot on 2017-08-24T13:58:58.164Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Creator's Update, Discord Canary 0.0.163
+
+Cubular#6460 - Bug Bot on 2017-08-24T16:14:14.049Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.163 (Build 3571)
+
+Curse Broken#8659 - Bug Bot on 2017-08-24T16:18:01.068Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-24T19:18:17.930Z
+
+
+### Do note that this can be circumvented by adding an extra space, it's just the autocomplete failing to remove itself.
+
+Pointy#9109 - Bug Bot on 2017-08-24T19:20:25.299Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Amadeus on 2017-08-24T20:21:53.860Z
+
+
+### Fixed as of build 3596
+
+Tiemen#0107 - Bug Bot on 2017-08-24T20:28:17.525Z
+
+
+### Can confirm this is fixed as of build 3609.
+
+advaith#9121 - Bug Bot on 2017-08-25T00:33:12.503Z
+
+
+### Can't reproduce.
+CNR - Desktop Canary 0.0.163 (Build 3609) - Win 10 Pro x64 v1607 - Seems to be fixed
+
+Pointy#9109 - Bug Bot on 2017-08-25T00:35:16.827Z
+
+
+### Verified Fixed! - Clayton on 2017-08-25T00:38:18.497Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-08-25T00:38:23.021Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:24:04.319Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:24:06.768Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

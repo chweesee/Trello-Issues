@@ -1,0 +1,83 @@
+[Archived] Game popup in Activity tab covers any other popups. (https://trello.com/c/BMNYLaMW)
+
+None
+
+Created: 2018-09-01T15:03:38.980Z
+Latest Update: 2018-09-04T20:20:55.665Z
+
+Reported by 54D#1357
+
+####Steps to reproduce:
+- Go to Activity tab. 
+- Scroll down and click on any game. 
+- Click on any user in recently played area in the game box. Do not click anywhere else outside the box.
+
+####Expected result:
+User profile is on top of game info box, since it opened later than the game info box.
+####Actual result:
+User profile is overlapped by game info box. Clicking twice in any dimmed area twice to dismiss the game info box.
+####Client settings:
+Discord Canary 23011
+####System settings:
+Windows 10 x64 (1803)
+
+18803
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-01T15:03:38.980Z
+
+
+### Can reproduce.
+Can reproduce. The game info box stays even after clicking on servers, and switching text channels. Windows 10 Pro 1709, stable 23012
+
+SnowyBall#3734 - Bug Bot on 2018-09-01T15:03:46.462Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 23013
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-01T15:03:51.499Z
+
+
+### Can reproduce.
+MacBook Pro 13" 10.13.6, Canary 23013
+
+Alfie#1582 - Bug Bot on 2018-09-01T15:03:56.477Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home x64 • Discord Canary • Build Number: 23013
+
+ByteReader#0001 - Bug Bot on 2018-09-01T15:09:11.805Z
+
+
+### Dupe of https://trello.com/c/uSCqj93l
+
+mouse#0091 - Bug Bot on 2018-09-01T15:16:59.815Z
+
+
+### Can reproduce.
+Windows 64x Home
+
+d3_c17_01.vmf#9119 - Bug Bot on 2018-09-01T16:28:06.714Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 23013, also a duplicate of report https://trello.com/c/uSCqj93l/2450-game-info-modals-in-the-games-tab-open-in-front-of-user-profiles
+
+Frances Picard#6209 - Bug Bot on 2018-09-02T08:33:49.720Z
+
+
+### dupe below.  - Clayton on 2018-09-04T20:20:54.153Z
+
+
+### Archived by Clayton on 2018-09-04T20:20:55.667Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

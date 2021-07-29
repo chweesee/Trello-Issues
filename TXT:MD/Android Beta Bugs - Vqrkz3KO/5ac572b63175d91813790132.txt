@@ -1,0 +1,111 @@
+[Archived] Following a specific series of steps will cause an old and half-typed text to appear in the textbox (https://trello.com/c/bvV84k8c)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-05T00:49:58.661Z
+Latest Update: 2018-08-22T01:21:32.152Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Let's imagine you want to send the following message : `Hello! My name is Dabbit.` 
+- Choose a channel and start to type the message: `Hello! My nam` (cut here) 
+- Let's consider you need to search for a message immediately, it cannot wait for you to finish typing the messqge. Tap the magnifying glass and search for anything 
+- In the search results, pick any message and jump to it 
+- Go back to the channel you were typing the message in 
+- Finish typing your message and send it 
+- Now, minimize Discord using the Home button of your phone 
+- Re-open Discord using the shortcut icon on your homescreen (NOT VIA MULTI-TASKING) 
+- Look at the textfield
+
+####Expected result:
+The textfield should stay empty
+####Actual result:
+It's filled with the half typed out message, (in this example, `Hello! My nam`)
+####Client settings:
+Discord Alpha 6.4.6
+####System settings:
+Huawei Mate 9 Android 7.0
+
+10277
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-05T00:49:58.661Z
+
+
+### Can reproduce.
+It took me a few tries, and I was ready to deny this when it finally repro'd for me. Moto G 4, Android 7.1.1, Discord Alpha 6.4.6
+
+Xia#0001 - Bug Bot on 2018-04-05T00:50:06.170Z
+
+
+### Can reproduce.
+Xiaomi Mi Mix Android 7.0 Alpha 6.4.6
+
+XCVII#4244 - Bug Bot on 2018-04-05T00:50:11.167Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 7.0 using Discord Alpha v6.4.6
+
+Zak_Patat#1111 - Bug Bot on 2018-04-05T00:50:16.167Z
+
+
+### Can't reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.6
+
+fujhofn. 🐛#0878 - Bug Bot on 2018-04-05T05:39:59.746Z
+
+
+### At step 2 you MUST NOT send the message, open Search while leaving the text in the textfield
+
+Alex1304#9704 - Bug Bot on 2018-04-05T06:22:38.701Z
+
+
+### Can reproduce.
+Samsung Galaxy S6 Edge (SM-G925F), Android 7.0.0
+
+Ridge#0001 - Bug Bot on 2018-04-06T00:01:17.564Z
+
+
+### Can reproduce.
+Samsung Galaxy S6 Edge (SM-G925F), Android 7.0.0, Discord Alpha 6.4.6
+
+Ridge#0001 - Bug Bot on 2018-04-06T00:01:52.507Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 | Android 7.0 | | Discord Alpha 6.4.6 | this does work regardless if it is a channel that has permissions set in it, just a quick note.
+
+Kero The Foxy Fox#1269 - Bug Bot on 2018-04-06T02:18:56.011Z
+
+
+### Verified.  - Clayton on 2018-04-06T07:06:11.003Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-06T07:06:14.298Z
+
+
+### Can't reproduce.
+Samsung Galaxy Grand Prime, Android 7.1.2, LineageOS 14.1, Discord Canary 6.4.6
+
+Justin#3922 - Bug Bot on 2018-04-07T15:39:22.241Z
+
+
+### Clayton approved this for the july trello event - Jared on 2018-07-05T18:37:59.264Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ac572b63175d91813790132/c3ff73cdb240a65aa37b371d7b4eacaa/RLwh7Iu.gif added by Bug Bot on 2018-07-16T12:53:05.793Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:32.155Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

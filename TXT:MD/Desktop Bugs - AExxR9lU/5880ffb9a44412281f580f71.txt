@@ -1,0 +1,103 @@
+[Archived] UpArrow doesn't edit last message after pinning it (https://trello.com/c/uVsu1qgZ)
+
+P3: Will get fixed eventually
+
+Created: 2017-01-19T18:04:41.522Z
+Latest Update: 2019-10-23T23:00:24.639Z
+
+Reported by Khionu#8708
+
+####Steps to reproduce: 
+- Send a message 
+- Pin it 
+- Use UpArrow to edit your last message 
+
+####Expected result:
+ Editing your last message 
+####Actual result:
+ Nothing (System Message in the way?)
+
+Card Log
+========
+### Added by Jared on 2017-01-19T18:04:41.522Z
+
+
+### Can reproduce.
+Can reproduce macOS canary
+
+nullpixel#0012 - Jared on 2017-01-19T18:04:42.009Z
+
+
+### Can reproduce.
+I made you don't tell me what to do
+
+Dabbit Prime#0896 - Jared on 2017-01-19T18:04:43.976Z
+
+
+### Can reproduce.
+Win 10 Pro x64 AU, Canary
+
+Tiemen#0107 - Jared on 2017-01-19T18:14:29.100Z
+
+
+### Can reproduce.
+linux 
+
+deleteing the system message allows editing again
+
+mralext20#8975 - Jared on 2017-01-19T18:19:23.079Z
+
+
+### Verified, but extremely minor. - Jared on 2017-01-20T18:48:05.120Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-20T18:48:10.778Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-29T17:36:05.764Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 Home x64 v1709 - Appears to be caused by the system message created when you pin the message, does not occur if the message is pinned by someone else.
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T15:12:17.747Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5880ffb9a44412281f580f71/7ba8c53ba1f868063509716cabd908aa/ezgif-4-e14562f94d.gif added by Bug Bot on 2018-07-14T11:16:10.335Z
+
+
+### Can reproduce.
+Desktop Stable 25070 - Windows 7 Ultimate x64 - Happens with call messages as well, which can not be deleted. Meaning a single call will render the uparrow useless for everything that happened before it.
+
+chiakii#1890 - Bug Bot on 2018-10-03T00:19:44.032Z
+
+
+### Only happens when the Pinned Message message is by you, implying that the client is considering that message as yours when it shouldn't.
+
+Ene#0808 - Bug Bot on 2018-10-18T06:12:55.357Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:03.523Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 43636
+
+charleskimbac#6492 - Bug Bot on 2019-08-15T02:50:34.623Z
+
+
+### Unarchived by Bug Bot on 2019-08-15T03:00:07.173Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:24.653Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

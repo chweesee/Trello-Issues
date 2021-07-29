@@ -1,0 +1,83 @@
+[Archived] When zooming in to 200% and out to 125% while watching a trailer for a game, it will mute you for all other trailers. Unless you mainly unmute yourself. (https://trello.com/c/zhfAerSI)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-20T16:35:00.903Z
+Latest Update: 2019-01-11T00:01:16.267Z
+
+Reported by S6out#1111
+
+####Steps to reproduce:
+- Go to a game in the "Store". 
+- Click on a game ( I clicked on Bad North). 
+- Zoom in to 200% with ctrl + or command + (the video will also restart) 
+- then zoom out to 125% with ctrl 
+- or command 
+- (it will restart again) 
+- Your audio for the stores game trailers will be muted. To unmute them you can go to the bottom right of your video and click the audio button, or pause and play the video.
+
+####Expected result:
+The trailer should not mute your audio.
+####Actual result:
+The trailer will mute you from it's audio, and the audio from all other game trailers.
+####Client settings:
+Discord Canary, Build 26644
+####System settings:
+MacOS Mojave, Version 10.14
+
+21751
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-20T16:35:00.903Z
+
+
+### S6out#1111 - https://youtu.be/Qecgf4W0ogc added by Bug Bot on 2018-10-20T16:35:03.516Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Enterprise 64-bit, Discord Stable Build 26659
+
+AmirAmani#0102 - Bug Bot on 2018-10-20T16:35:08.735Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64, Canary Build 26655
+
+Nashorn#3450 - Bug Bot on 2018-10-20T16:35:13.462Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary Build
+
+dragiceviccv™#1786 - Bug Bot on 2018-10-20T16:35:18.536Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26655
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-20T16:45:26.447Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26655
+
+Hole#0001 - Bug Bot on 2018-10-21T06:43:42.680Z
+
+
+### minor - Clayton on 2018-10-22T19:23:41.390Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-22T19:23:49.073Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:16.270Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

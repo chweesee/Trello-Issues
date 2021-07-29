@@ -1,0 +1,143 @@
+[Archived] Pressing left arrow while all text is selected does not move the cursor to the beginning of the text (https://trello.com/c/EnFQ3Rbv)
+
+None
+
+Created: 2019-12-12T19:11:39.160Z
+Latest Update: 2020-01-13T18:30:41.237Z
+
+Reported by Drakon#8640
+
+####Steps to reproduce:
+- Type anything into the message box 
+- Use control + a to select all text 
+- Press the left arrow
+
+####Expected result:
+The text cursor should jump to the beginning of the block of text, as it does in older builds of Discord
+####Actual result:
+The text cursor only moves back one character as if the text was not selected at all
+####Client settings:
+Desktop Canary, 51279
+####System settings:
+W10 Home x64, 1903
+
+50249
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-12T19:11:39.160Z
+
+
+### Can reproduce.
+CR, canary 51279, macOS 10.15.1
+
+kadybat#0001 - Bug Bot on 2019-12-12T19:11:47.387Z
+
+
+### Can reproduce.
+CR // Windows 10 // Discord Canary 51279
+
+Falkio#0001 - Bug Bot on 2019-12-12T19:11:51.707Z
+
+
+### Can reproduce.
+CR // Windows 10 Home x64 // Discord Canary Build: 51279
+
+Xelphos#0001 - Bug Bot on 2019-12-12T19:11:56.759Z
+
+
+### Can reproduce.
+cr; Windows 10 x64 Build 1803 canary, Build Number: 51279
+
+Spooker#0001 - Bug Bot on 2019-12-12T19:14:23.082Z
+
+
+### Can reproduce.
+CR; Windows 10 Home, x64 - Canary Build: 51279
+
+IamSushi#0001 - Bug Bot on 2019-12-12T19:31:52.567Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit (v1909), Discord Canary 0.0.259 Build 51279
+
+ryan#0570 - Bug Bot on 2019-12-12T19:48:20.226Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.2; Discord Canary 51279
+
+Jiralite#1207 - Bug Bot on 2019-12-12T20:09:33.579Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home 1903 x64, Discord Canary 51279
+
+Squeegee#3239 - Bug Bot on 2019-12-12T20:20:51.021Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by AJ Palkovic on 2019-12-12T20:25:22.200Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home, Discord Canary 51279
+
+Smokepurpp#6012 - Bug Bot on 2019-12-12T21:43:27.959Z
+
+
+### Can reproduce.
+Windows 10, x64 | Discord Canary (51257)
+
+light#9899 - Bug Bot on 2019-12-12T23:24:20.285Z
+
+
+### Can't reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.388), Discord Canary 51336
+
+Kissa#1337 - Bug Bot on 2019-12-12T23:59:06.342Z
+
+
+### CNR not CR. My bad.
+
+Kissa#1337 - Bug Bot on 2019-12-13T00:05:30.302Z
+
+
+### Can't reproduce.
+Windows 10 Pro, v1903, Discord 51375
+
+Hufy#0001 - Bug Bot on 2019-12-13T04:31:44.054Z
+
+
+### Can't reproduce.
+Cannot reproduce; Desktop Canary 51387, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-13T05:02:24.690Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 v1909, - Discord Canary, Build Number: 51387
+
+.Gloria.#9606 - Bug Bot on 2019-12-13T07:42:28.511Z
+
+
+### Can reproduce.
+Desktop Canary 51279 - Windows 10 Home x64
+
+Ura Yukimitsu#7045 - Bug Bot on 2019-12-13T12:36:21.376Z
+
+
+### Can't reproduce.
+CNR on Windows 10 Home Version 1903; Canary Build 51469
+
+RPS1222#5127 - Bug Bot on 2019-12-14T18:16:13.825Z
+
+
+### Archived by Bug Bot on 2020-01-13T18:30:41.258Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

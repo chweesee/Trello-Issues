@@ -1,0 +1,79 @@
+[Archived] Allowing Discord to disconnect itself by keeping it in background then opening it through the recent apps and opening search and then searching something, waiting until Discord reconnects causes the connection problems in appear even if you've connected. (https://trello.com/c/hOjUabSg)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-11T20:37:35.280Z
+Latest Update: 2018-10-13T18:00:02.786Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Have a poor connection that is enough to show you the connection problems in app notification. 
+- Close Discord but keep it running in background. 
+- Open it after it has disconnected itself(not killed. Just disconnected). 
+- While it's connecting, click on search and search something that gives results. 
+- Stay on the results page for a while. 
+- When Discord has reconnected, close the search.
+
+####Expected result:
+The connection problems in app notification doesn't show because you have successfully connected.
+####Actual result:
+The in app notification still shows up.
+####Client settings:
+Discord Alpha 748
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+19241
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-11T20:37:35.280Z
+
+
+### Can reproduce.
+can reproduce. Honor 9 Lite, Oreo 8.0.0 • Discord Alpha 748
+
+MakiTheLegend#5027 - Bug Bot on 2018-09-11T20:37:42.723Z
+
+
+### Can reproduce.
+OnePlus 3T, Android 8, Discord 7.4.8
+
+Alipoodle#5025 - Bug Bot on 2018-09-11T20:37:47.695Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 7.4.8
+
+Law of Royale#6825 - Bug Bot on 2018-09-11T20:37:52.629Z
+
+
+### Can reproduce.
+Samsung Note 9, Android 8, Discord 7.4.8
+
+despresso#0001 - Bug Bot on 2018-09-12T01:32:25.057Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.4.8
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-12T10:11:21.795Z
+
+
+### verified, android 7.0, samsung s6 edge, alpha 7.4.8 - Clayton on 2018-09-12T23:37:34.545Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-12T23:37:41.757Z
+
+
+### Archived by Clayton on 2018-10-13T18:00:02.788Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

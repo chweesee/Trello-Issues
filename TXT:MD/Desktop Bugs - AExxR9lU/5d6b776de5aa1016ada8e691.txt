@@ -1,0 +1,101 @@
+Discord's video player displays the length of a video found in metadata, not the actual length, causing some videos to display an invalid length (https://trello.com/c/PRUZzgxN)
+
+None
+
+Created: 2019-09-01T07:46:53.223Z
+Latest Update: 2020-07-16T21:26:05.010Z
+
+Reported by PintsizedSix40#5424
+
+####Steps to reproduce:
+- Upload videofile with incorrect length metadata (only tested with webm) 
+- Watch video and look at time
+
+####Expected result:
+Discord's video player displays the actual length of a video
+####Actual result:
+Discord's video player displays the length of the video found in the metadata - (minus) the actual length for current time that is displayed, and the metadata length for the video length that is displayed. Firefox correctly displays the current length, although it is padded with zeros to match the broken video length. Chrome has the same result as Desktop.
+####Client settings:
+Build 44861 for desktop and browser.
+####System settings:
+Windows and Firefox
+
+43186
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-01T07:46:53.223Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 x64 Build: 44825
+
+Scrumpy#0200 - Bug Bot on 2019-09-01T07:47:00.677Z
+
+
+### Can reproduce.
+cr, Windows 10 x64, Canary 44825
+
+Hagen#0001 - Bug Bot on 2019-09-01T07:47:05.666Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 | Stable 44905
+
+▽ WishFuly#0532 - Bug Bot on 2019-09-01T07:47:10.677Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 44909 host 0.0.256 (tested with https://cdn.discordapp.com/attachments/602294516388724757/604274522610335744/cursed_video.webm )
+
+Jean20B#4668 - Bug Bot on 2019-09-01T10:13:42.541Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 44909
+
+Neiron#8475 - Bug Bot on 2019-09-01T16:44:34.684Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 44909 (Host 0.0.256)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-02T06:37:18.605Z
+
+
+### Can reproduce.
+Ubuntu 19.04, canary 44909
+
+Drachenfrucht1#4901 - Bug Bot on 2019-09-02T11:58:12.571Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 44930
+
+charleskimbac#6492 - Bug Bot on 2019-09-03T00:55:14.142Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1903) - Discord Canary 44930
+
+TBS | Best_Pro#7066 - Bug Bot on 2019-09-03T15:39:14.844Z
+
+
+### Can reproduce.
+Canary 44741, Windows 7 64-bit
+
+Skyla#6111 - Bug Bot on 2019-09-03T18:52:09.776Z
+
+
+### Can reproduce.
+Windows 10 v1903, build 18362.30 Pro, web canary 45491
+
+badstagram#0001 - Bug Bot on 2019-09-11T09:35:14.275Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

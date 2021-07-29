@@ -1,0 +1,106 @@
+[Archived] don't convert text@possible_mention to a mention (https://trello.com/c/Ye3ra3ty)
+
+P2: Fix can wait a while
+
+Created: 2016-10-17T19:36:32.790Z
+Latest Update: 2017-11-15T19:34:02.214Z
+
+**Steps to Reproduce:**
+1) create a user called plug.dj
+2) try writing support@plug.dj
+**Expected Result:** not render a mention if theres text right in front of it
+**Actual Result:** rendering text,mention
+
+**Client Verison:** Canary latest
+**System Settings:**  Arch latest
+
+(Probably works with all domains)
+https://cdn.discordapp.com/attachments/197038744908333066/237650902595534850/Screenshot_2016-10-17_20-57-46.png
+
+
+Card Log
+========
+### Added by Sam on 2016-10-17T19:36:32.790Z
+
+
+### Screenshot_2016-10-17_20-57-46.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58052840eaf42e8133e8ae2b/10d60d659ab933d033066d860630c233/Screenshot_2016-10-17_20-57-46.png added by Sam on 2016-10-19T21:03:00.384Z
+
+
+### upload 10/25/2016 at 10:09:41 AM.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58052840eaf42e8133e8ae2b/cffdf15cbff8dc92c4119a2dab2a03ee/upload_10_25_2016_at_10_09_41_AM.png added by Jared on 2016-10-25T17:09:43.489Z
+
+
+### Cannot reproduce.  See uploaded image. - Jared on 2016-10-25T17:09:54.626Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-10-25T17:10:00.065Z
+
+
+### Can reproduce.
+Must be the username, not nickname.
+
+«DG»MyHogs#3999 - Jared on 2016-11-04T20:09:29.921Z
+
+
+### KockaAdmiralac#9306 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58052840eaf42e8133e8ae2b/17d5bf7df135badc584c53aa83e1066e/iGf5UXc.png added by Jared on 2016-11-15T19:27:18.366Z
+
+
+### http://i.imgur.com/bwkTTfR.png does it to roles too (done on behalf of <@97788939196182528>)
+
+tntbomb1919#9119 - Jared on 2016-11-15T19:32:37.721Z
+
+
+### Can reproduce.
+Canary Latest, Win 8.1
+
+tntbomb1919#9119 - Sam on 2016-11-15T20:26:44.992Z
+
+
+### Can reproduce
+Windows 10, Canary
+
+KockaAdmiralac#9306 - Sam on 2016-11-15T20:27:08.217Z
+
+
+### I get it, this only works with actual names, not nicknames. - Jared on 2017-03-08T00:19:20.393Z
+
+
+### I guess I get the bonus XP because no one helped me with this one. Goooo Dabbit - Jared on 2017-03-08T00:21:26.135Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2017-03-08T00:21:35.166Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.158 (Build 2272) - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-07-17T13:13:50.341Z
+
+
+### This has been fixed for at least 2 months now. Obviously if you don't format as a real email address, it'll break, but the core purpose of this ticket was to report it for emails, which is fixed. Needs to be moved to Verified Fixed imo
+
+SuperSajuuk#7265 - Bug Bot on 2017-07-17T13:22:01.458Z
+
+
+### Will mention if the discrim is invalid, which ties in with the short description
+
+Pointy#5565 - Bug Bot on 2017-07-17T13:25:11.857Z
+
+
+### Pointy#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58052840eaf42e8133e8ae2b/195601adb446caa2080b3fcb559ae1ba/898b12.gif added by Bug Bot on 2017-07-17T13:25:31.623Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-04T21:23:12.289Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:34:01.306Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:34:02.217Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

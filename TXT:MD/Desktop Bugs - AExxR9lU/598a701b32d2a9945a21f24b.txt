@@ -1,0 +1,81 @@
+[Archived] Long channel names overflow (https://trello.com/c/adRtHt5p)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-09T02:14:51.404Z
+Latest Update: 2017-11-16T19:48:37.470Z
+
+Reported by ThatsNoMoon#0175
+
+####Steps to reproduce:
+- Join a server with a long channel name, or make one 
+- Look at it with a window size that is not as wide as the channel name itself
+
+####Expected result:
+The channel name should cut off with "..."
+####Actual result:
+The channel name does not cut off, and instead continues to to the edge of the Discord window, making it impossible to use the search bar, recent mentions, etc.
+####Client settings:
+Desktop Stable, 0.0.298
+####System settings:
+Windows 10 Home Edition, 15063
+
+2957
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-09T02:14:51.404Z
+
+
+### Verdant#9104 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598a701b32d2a9945a21f24b/20ecf94ac6442d4d8a1cbf8434c2de1a/unknown.png added by Bug Bot on 2017-08-09T02:14:54.123Z
+
+
+### Can reproduce.
+w10 Home x64 v1703 Canary 0.0.163
+
+Verdant#9104 - Bug Bot on 2017-08-09T02:14:58.760Z
+
+
+### Can reproduce.
+higher resolution displays might not have the issue | Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-09T02:15:03.781Z
+
+
+### Can reproduce.
+CR, Latest version of Canary (0.0.158), Windows 10 15063.413
+
+brian#0632 - Bug Bot on 2017-08-09T02:15:08.822Z
+
+
+### Can reproduce.
+CR, less severe on higher resolutions, Canary 0.0.163 Windows 10 Anniversary update
+
+Cygan#7117 - Bug Bot on 2017-08-09T02:16:12.194Z
+
+
+### This wasn't made apparent in the bug report, however it seems that this is for the channel name at the top of the window, not on the channel list.
+
+ItsPugle#5963 - Bug Bot on 2017-08-09T02:19:09.441Z
+
+
+### Dupe of https://trello.com/c/3S2jKHGo/
+
+Pointy#9109 - Bug Bot on 2017-08-09T02:23:05.349Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Q Q on 2017-08-09T18:30:56.168Z
+
+
+### Verified & Dupe of https://trello.com/c/3S2jKHGo/304-ctrl-f-on-a-channel-with-an-extremely-long-name-misaligns-the-interface. Low Priority. - Q Q on 2017-08-09T18:31:46.822Z
+
+
+### Archived by Mike Nisbet on 2017-10-23T19:33:41.413Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,120 @@
+Selecting multiple files, but deleting one of them results in none of them sending. (https://trello.com/c/vCoc4Rc5)
+
+P3 - Will be fixed eventually
+
+Created: 2019-10-22T10:47:35.331Z
+Latest Update: 2019-10-24T05:57:49.621Z
+
+Reported by RPS1222#5127
+
+####Steps to reproduce:
+- Click the photo button to open the photo selector 
+- Select 2 or more photos (Taking photos works too; You can also add a message) 
+- Switch to the photos app and delete one of the photos 
+- Switch back to discord 
+- Send the message 
+- Discord will act like it sent it by deleting the photos and message from the type section, but nothing will actually get sent. The current messages in the channel glitch out a little when you send it, but it corrects itself.
+
+####Expected result:
+The non-deleted image and/or message should be sent
+####Actual result:
+Nothing gets sent and the messages bug out a bit once sent.
+####Client settings:
+TestFlight Version 3.1.6
+####System settings:
+iPhone 6s; iOS Version 13.1.3
+
+45996
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-22T10:47:35.331Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 13.1.3, TestFlight 3.1.6 (17811)
+
+RexTheMon#0016 - Bug Bot on 2019-10-22T10:47:43.148Z
+
+
+### Can reproduce.
+CR; iphone XR, IOS 13.2, Testflight 3.1.6 (17811)
+
+Denariooo#3352 - Bug Bot on 2019-10-22T10:47:48.139Z
+
+
+### Can reproduce.
+CR (Can Reproduce) • iPhone 6s - iOS 13.0 - TestFlight 3.1.6 (17811)
+
+Freiik.#9999 - Bug Bot on 2019-10-22T10:47:53.077Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.1.3 TestFlight 3.1.6 (17811)
+
+binchlord#0998 - Bug Bot on 2019-10-22T11:06:15.078Z
+
+
+### Can reproduce.
+CR: iPhone SE, iOS 13.1.3, Discord TestFlight 3.1.6 (17811)
+
+Rex#2222 - Bug Bot on 2019-10-22T12:42:20.495Z
+
+
+### Can reproduce.
+iPhone XS, iOS 13.1 Running TestFlight 3.1.6 (17811)
+
+Error 404#4040 - Bug Bot on 2019-10-22T17:50:00.462Z
+
+
+### Can reproduce.
+iPad Pro 12.9” (iPadOS 13.1.3), Testflight 3.1.6 (17811)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-22T17:54:40.832Z
+
+
+### Can reproduce.
+Can reproduce - iPhone XS (iOS 13.1.2), TestFlight Build 3.1.6 (17811)
+
+kiosion#0001 - Bug Bot on 2019-10-23T00:14:22.967Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.3; TestFlight 3.1.6 (17811)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-23T01:05:09.668Z
+
+
+### Can reproduce.
+CR - Can Reproduce - iOS 13.1.3 - iPhone 6s - Testflight 3.1.6 (17811)
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-23T01:19:26.094Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.6 (17811)
+
+.Gloria.#9606 - Bug Bot on 2019-10-23T06:07:22.589Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13 - TestFlight 3.1.6 (17811)
+
+Fictional#0001 - Bug Bot on 2019-10-23T18:56:21.951Z
+
+
+### Moved from New Issues to Media & Emoji Keyboard by Jonathan Wu on 2019-10-23T19:40:13.856Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.2 (dev beta 4) - TestFlight 3.1.6 (17811)
+
+Xylium#5800 - Bug Bot on 2019-10-24T05:57:49.634Z
+
+List
+====
+Media & Emoji Keyboard
+
+Members
+=======
+None

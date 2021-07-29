@@ -1,0 +1,92 @@
+Server banner cut off by "This server requires 2FA" message (https://trello.com/c/4HIbPFeV)
+
+None
+
+Created: 2019-09-18T00:57:14.905Z
+Latest Update: 2020-07-16T21:26:05.187Z
+
+Reported by Ayu#0001
+
+####Steps to reproduce:
+- Be in a server that has a server banner 
+- Make sure that the server has server-wide 2FA enabled 
+- Make sure the account you are testing on does not have 2FA enabled 
+- Give the test account a role that has powers normally blocked by server-wide 2FA requirement 
+- Observe the banner and the "Resolve 2FA" popup when fully scrolled up on the channel list
+
+####Expected result:
+The banner should not be mixed with the "Resolve 2FA" popup
+####Actual result:
+The banner is mixed with the "Resolve 2FA" popup
+####Client settings:
+Canary Build 45748
+####System settings:
+Windows 10 Enterprise
+
+44105
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-18T00:57:14.905Z
+
+
+### Ayu#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d8180eacf65a56035c9e097/e623532b1dd7f3cabf30c182bbbb0e03/aCWaO5f.png added by Bug Bot on 2019-09-18T00:57:17.769Z
+
+
+### YoggieS#7404 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d8180eacf65a56035c9e097/68882cc3360f0811bd76138a6205425d/426374edd51d89ffbf489784891d12b1.png added by Bug Bot on 2019-09-18T00:57:17.882Z
+
+
+### Can reproduce.
+cr, W10 Home x64, stable 45765/canary 45770
+
+YoggieS#7404 - Bug Bot on 2019-09-18T00:57:22.364Z
+
+
+### Can reproduce.
+can reproduce, macos 10.14.3, canary 45867
+
+IcyPebbles#5833 - Bug Bot on 2019-09-18T00:57:27.366Z
+
+
+### Can reproduce.
+MacBook Air, MacOS Mojave 10.14.6, Canary 45867
+
+username#6666 - Bug Bot on 2019-09-18T00:57:32.329Z
+
+
+### Can reproduce.
+CR, WIndows 10 Pro, PTB 45867
+
+Action Potential#6862 - Bug Bot on 2019-09-18T01:24:46.966Z
+
+
+### Can reproduce.
+Release Channel: canary, Build Number: 45770 / Windows 10 Enterprise Insider Preview, build 18932
+
+Redblueflame#8260 - Bug Bot on 2019-09-18T10:33:43.674Z
+
+
+### Can reproduce.
+Windows 10 Professional,Canary 45770
+
+Typhoon#9981 - Bug Bot on 2019-09-18T15:41:15.964Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 45867
+
+B.O.S.S#0251 - Bug Bot on 2019-09-18T19:55:15.348Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 45990 (Host 0.0.257)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-19T02:01:39.074Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

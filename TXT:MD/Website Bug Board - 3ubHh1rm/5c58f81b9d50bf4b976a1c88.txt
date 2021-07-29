@@ -1,0 +1,58 @@
+[Safari Specific] In application settings on the dev portal, the Rich Presence category's arrow gets stretched out and displays in the wrong direction when clicked. (https://trello.com/c/17eHpz5O)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-02-05T02:42:35.760Z
+Latest Update: 2019-07-20T07:28:28.568Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Open the dev portal. 
+- Open an application. 
+- Click "Rich Presence" on the left.
+
+####Expected result:
+The arrow should not be stretched and it should appear to point down.
+####Actual result:
+The arrow gets stretched horizontally and appears pointing to the right.
+####Client settings:
+Web Canary 31785 - Safari 12.0.2 (14606.3.4)
+####System settings:
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave)
+
+28013
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-05T02:42:35.760Z
+
+
+### Isabel#0002 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c58f81b9d50bf4b976a1c88/5e63c331a307235ff882fe424c8781a3/unknown.png added by Bug Bot on 2019-02-05T02:42:38.781Z
+
+
+### Can reproduce.
+Can reproduce, macOS 10.14.2 (Mojave), Safari 12.0.2 (14606.3.4)
+
+-Shadow-#9999 - Bug Bot on 2019-02-05T02:42:43.335Z
+
+
+### Can reproduce.
+CR, macOS 10.14.4, Canary 31792, Safari 12.0.2
+
+Action Potential#2494 - Bug Bot on 2019-02-05T02:42:48.395Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 31795, Safari 12
+
+M24#0272 - Bug Bot on 2019-02-05T02:42:53.306Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

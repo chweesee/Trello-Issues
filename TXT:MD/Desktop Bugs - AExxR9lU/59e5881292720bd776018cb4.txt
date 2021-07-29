@@ -1,0 +1,88 @@
+[Archived] people who go invisible don’t have the offline icon. This bug is a hit and miss, could take a couple of tries to repro (https://trello.com/c/FbIju2Xj)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-17T04:33:22.530Z
+Latest Update: 2019-06-28T15:49:27.910Z
+
+Reported by Charmeh#0295
+
+####Steps to reproduce:go into/make a group dm with more than one person – ask a friend to go invisible 
+- notice the offline icon doesn’t show to the person that’s invisible
+
+####Expected result:
+offline icon should show up when they invisible.
+####Actual result:
+no icon is shown at all.
+####Client settings:
+Stable Discord 0.0.298
+####System settings:
+Windows 10 x64
+
+5393
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-17T04:33:22.530Z
+
+
+### Can reproduce.
+Dell inspiron 15R-5520 (2015 model) Windows 10 Pro 64-bit, x64-based processor, Discord Canary 0.0.165
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-17T04:33:29.934Z
+
+
+### Can reproduce.
+I have seen this bug before on multiple occasions with Discord Stable 0.0.298 and Windows 8.1, it does appear to be hit or miss
+
+Joshek#3388 - Bug Bot on 2017-10-17T04:33:34.921Z
+
+
+### Can reproduce.
+I've seen this happen when tryin gto @mention someone, they will show up on the list but not show the status icon Lenovo Thinkpad 2008 Wwindows 10 Prox x64 Canary build 5843
+
+Azrael#9808 - Bug Bot on 2017-10-17T04:33:39.948Z
+
+
+### Can't reproduce.  - Clayton on 2017-10-17T21:24:48.332Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-10-17T21:24:52.397Z
+
+
+### Can reproduce.
+I was able to reproduce this bug after the user removed me as a friend
+
+JustCore#0973 - Bug Bot on 2017-10-20T14:49:01.386Z
+
+
+### Can reproduce.
+Have a friend add you to a Group DM with at least one other person that you are not friends with and don't share a server with, then have them both go offline. Only your friend will display the offline icon. Based on this, it's more likely that this is a privacy feature, rather than a bug. Possibly consider showing a '?' symbol inside of gray circle instead of no indicator, and also apply to user icons in the small profile cards and full profiles.
+
+Theleo#0920 - Bug Bot on 2017-11-20T03:36:28.572Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-23T10:46:09.128Z
+
+
+### Archived by Alexandru Todea on 2017-12-23T10:46:11.321Z
+
+
+### Can reproduce.
+Windows 10 1809 discord canary 36279; I'm in a group DM and the other two people there are both offline and i can only see their offline icon if i click on their profile
+
+GlenMerlin#2119 - Bug Bot on 2019-04-24T21:40:08.547Z
+
+
+### Can reproduce.
+CR with a user offline that is not added as your friend; Windows 10 Home x64 | Canary 40489
+
+charleskimbac#6492 - Bug Bot on 2019-06-28T15:49:27.917Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

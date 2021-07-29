@@ -1,0 +1,113 @@
+[Archived] Connection issues on 664 (https://trello.com/c/hFZTlyvP)
+
+Mod can no longer reproduce
+
+Created: 2018-05-09T01:41:47.586Z
+Latest Update: 2018-07-06T18:47:19.737Z
+
+Reported by Xander#0259
+
+####Steps to reproduce:
+- update to 664 
+- load Discord 
+- notice name colors aren't loading, Discord loses connection and then reestablishes it and messages flash randomly
+
+####Expected result:
+Discord functions as you'd expect
+####Actual result:
+Discord acts as if it is constantly losing connection even if it doesn't say "connecting" and even if your connection to the internet is perfectly fine
+####Client settings:
+664
+####System settings:
+Samsung Galaxy S6, 7.0,
+
+12249
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-09T01:41:47.586Z
+
+
+### Xander#0259 - https://youtu.be/mXrm3z67xc8 added by Bug Bot on 2018-05-09T01:41:50.829Z
+
+
+### Can reproduce.
+Pixel XL 2 - Android 8.1 - Alpha 6.6.4
+
+mrkirby153#7840 - Bug Bot on 2018-05-09T01:41:54.925Z
+
+
+### Can reproduce.
+CR Kyocera Hydro Wave Android 5.1 Discord 664
+
+Okori#0902 - Bug Bot on 2018-05-09T01:41:59.920Z
+
+
+### Can reproduce.
+OnePlus 3T, Android 8.0.0, OxygenOS 5.0.1 , Android Alpha 6.6.4
+
+DJScias#0812 - Bug Bot on 2018-05-09T01:42:04.918Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 2016, Android 5.1.1, Android Alpha 6.6.4
+
+AwesomeSkittle#1912 - Bug Bot on 2018-05-09T01:45:56.638Z
+
+
+### Need to go into a DM and then into a server in order for the bug to trigger
+
+Xander#0259 - Bug Bot on 2018-05-09T02:04:38.837Z
+
+
+### Can reproduce.
+Xperia Z3 Compact, Android 6.0.1, Discord Alpha 6.6.3
+
+Anonymous#4039 - Bug Bot on 2018-05-09T02:33:34.271Z
+
+
+### Quick note: I can still reproduce this myself on Android Alpha 6.6.5 by doing the following:
+1. Wait for a channel to have new messages
+2. Close discord and re-open it
+3. Go to a DM chat
+4. Go back to the previous channel and name colors will be broken again plus it'll constantly pull me down to the bottom. - Alexander (DJScias) on 2018-05-09T02:54:56.446Z
+
+
+### Can reproduce.
+Can Reproduce, OnePlus 2, android 6.0.1, Discord Alpha 6.6.5
+
+Marshadow#5095 - Bug Bot on 2018-05-09T03:16:54.743Z
+
+
+### Can reproduce.
+Disc 6.3.3 Pixel XL2, Android P (9.0)
+
+C0DE#3301 - Bug Bot on 2018-05-09T03:25:15.574Z
+
+
+### Checked on Android Alpha 6.6.6:
+
+I can no longer reproduce this. Going to a DM no longer causes all these awkward issues. Apparently, as Andy said, the android app was trying to subscribe (lazy thing) to non-existent channels (AKA DM channels). - Alexander (DJScias) on 2018-05-09T13:30:53.858Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Andy Garron on 2018-05-09T17:51:02.551Z
+
+
+### I can't reproduce as well.  - Clayton on 2018-05-09T20:18:28.174Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-05-09T20:18:34.869Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:47:18.775Z
+
+
+### Archived by Jared on 2018-07-06T18:47:19.742Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

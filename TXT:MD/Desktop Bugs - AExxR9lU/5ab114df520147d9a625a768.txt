@@ -1,0 +1,97 @@
+[Archived] URL text is mutated in a specific situation (https://trello.com/c/cPncJb9E)
+
+P3: Will get fixed eventually,
+Low,
+text chat
+
+Created: 2018-03-20T14:04:15.847Z
+Latest Update: 2019-10-23T23:02:39.428Z
+
+Reported by Avi#0665
+
+####Steps to reproduce:
+- Send text containing a URL with a non-numeric port
+
+####Expected result:
+Text should be stylized as sent
+####Actual result:
+Text is stylized with an extra / before the port
+####Client settings:
+Multiple - Canary 12324, PTB 12328, Stable 12336, iOS Testflight 2.2.5 (3054)
+####System settings:
+Win 7 x32, Win 7 x64, Win 10 x64, Chrome Dev 67.0.3371.0, Firefox 59.0.1, iOS 11.3.6b
+
+9729
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-20T14:04:15.847Z
+
+
+### Avi#0665 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ab114df520147d9a625a768/f1f988b0f23d78576f1ae024b6373017/ZMZgGNR.png added by Bug Bot on 2018-03-20T14:04:18.398Z
+
+
+### Avi#0665 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ab114df520147d9a625a768/225682fb602acb9da07f012150366b27/QqqoYzB.png added by Bug Bot on 2018-03-20T14:04:18.413Z
+
+
+### Can reproduce.
+Worked on iOS and Windows | Windows 10 Home x64 (1709), Canary 12324 | iOS 11.3 PB6, iPhone 6s Plus, TestFlight 2.2.5 (3054)
+
+Mustard#2117 - Bug Bot on 2018-03-20T14:04:23.311Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (12348) on Windows 10 Pro 64-bit (1709)
+
+Tarek#1337 - Bug Bot on 2018-03-20T14:04:28.274Z
+
+
+### Can reproduce.
+CR Win10 x64 Canary 12292
+
+cutelilberry#5423 - Bug Bot on 2018-03-20T14:04:33.282Z
+
+
+### Can reproduce.
+Discord Canary Build (12357) Windows 10 Pro 64-bit
+
+ZeRoGaming7893#1337 - Bug Bot on 2018-03-20T20:24:53.365Z
+
+
+### The thing about "non numeric ports" is inconsequential. It's that the URL is changing that's the bug.
+
+Verified on [BUILD INFO] Release Channel: canary, Build Number: 12704, Version Hash: 6e4e7bc28e48e0d1d24a21ccda4c11280034f68b
+
+ - Jared on 2018-03-27T22:31:02.037Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-03-27T22:31:32.290Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:03.446Z
+
+
+### Can reproduce.
+CR; The port and other parts are moved in other situations: `https://yolo::45/ar:1` => `https://yolo:45/:/ar:1` and `http://fe80::1:1` => `http://fe80:1/::1`; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 30317
+
+Longinus#0293 - Bug Bot on 2019-01-03T01:35:05.692Z
+
+
+### Can reproduce.
+Windows 10 // Home Edition // Build 1809 // Discord Canary Build 30733
+
+aditya#1337 - Bug Bot on 2019-01-10T23:47:09.950Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:21.149Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:39.445Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

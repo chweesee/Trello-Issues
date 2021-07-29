@@ -1,0 +1,148 @@
+[Archived] Bolded invite links cause an embed to show as well as the join server button (https://trello.com/c/2begc1Tu)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-08-22T15:29:13.776Z
+Latest Update: 2019-11-21T17:30:03.172Z
+
+Reported by heatingdevice#1212
+
+####Steps to reproduce:
+- Obtain an invite link (for example <discord.gg/testers>) 
+- Send the invite link like this (include \*s for bold) \*\*<https://discord.gg/testers>\*\* 
+- Observe the added embed
+
+####Expected result:
+The join server button would show and the embed would not show
+####Actual result:
+The join server button shows but there is also an embed below it
+####Client settings:
+Discord Canary 0.0.154
+####System settings:
+macOS Sierra 10.12.3 (16D32)
+
+3510
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-22T15:29:13.776Z
+
+
+### heatingdevice#1212 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599c4dc9db8084f26c377c59/0e994eec559ca8dfd7908c233f98612d/unknown.png added by Bug Bot on 2017-08-22T15:29:16.503Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (3466). Will probably end up as a won't fix though
+
+Tiemen#0107 - Bug Bot on 2017-08-22T15:29:21.260Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro Early 2015 (Should be a P3 Bug)
+
+Nelson1348#9190 - Bug Bot on 2017-08-22T15:29:26.173Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 3466) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-08-22T15:29:31.304Z
+
+
+### Verified.  - Clayton on 2017-09-04T23:27:22.507Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-04T23:27:27.967Z
+
+
+### Fixed in 4974 - b1naryth1ef on 2017-09-27T23:31:29.595Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by b1naryth1ef on 2017-09-27T23:31:34.827Z
+
+
+### Tested on build 5005:
+
+I can still reproduce this myself. Using **https://discord.gg/testers** in a channel (bolded) still shows an embed and invite link. - Alexander (DJScias) on 2017-09-28T17:57:43.686Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Alexander (DJScias) on 2017-09-28T18:01:50.442Z
+
+
+### Can reproduce.
+cr | Windows 10 Home x64 (Fall Creators Update), canary 9507
+
+rauf#3260 - Bug Bot on 2018-01-13T01:28:08.571Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599c4dc9db8084f26c377c59/bace760959c2331f5de365049342da91/image.png added by Bug Bot on 2018-02-16T22:40:06.741Z
+
+
+### It is now happening in iOS, expect that the Discord embed is showing up. I can reproduce on iPhone 8 +, iOS 11.3 PB2 and Discord TestFlight 2.2.3 (2671)
+
+Ghoul#0009 - Bug Bot on 2018-02-16T22:40:56.086Z
+
+
+### This Bug also now is reproduceable if you add any special symbol like *()\/]. Directly behind the Invite. It also happens on all Clients and OS.
+
+Starshine Dust#2189 - Bug Bot on 2018-02-16T22:43:17.089Z
+
+
+### Archived by Tarek on 2018-05-19T13:35:53.377Z
+
+
+### Unarchived by Tarek on 2018-05-19T13:36:02.623Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:54.105Z
+
+
+### Can reproduce.
+this also happens on Android with spoiler tags on Alpha 8.2.7 - Samsung Galaxy Note 8, Android 8.0
+
+J1#0088 - Bug Bot on 2019-01-12T12:09:14.476Z
+
+
+### Unarchived by Bug Bot on 2019-01-12T12:30:04.820Z
+
+
+### Can reproduce.
+Windows 10 Pro (x64), Canary 36635
+
+Bullseye#8200 - Bug Bot on 2019-04-30T23:51:42.972Z
+
+
+### Can reproduce.
+Windows 10 1903 canary 39387
+
+GlenMerlin#2119 - Bug Bot on 2019-06-10T18:32:01.030Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 40604, Windows 10 Home, Google Chrome 75.0.3770.90 (Official Build) (64-bits)
+
+Dragonic#0001 - Bug Bot on 2019-07-03T08:59:17.888Z
+
+
+### Can reproduce.
+Windows 7 Ultimate 64-bit • Release Channel: canary, Build Number: 41186
+
+shard#9042 - Bug Bot on 2019-07-16T10:18:50.963Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 47432, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0025 - Bug Bot on 2019-10-22T17:09:56.577Z
+
+
+### Archived by Bug Bot on 2019-11-21T17:30:03.187Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

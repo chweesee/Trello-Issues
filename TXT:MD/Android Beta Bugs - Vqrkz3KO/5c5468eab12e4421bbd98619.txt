@@ -1,0 +1,129 @@
+[Archived] Spoiler images don't show up in pinned messages. (https://trello.com/c/veklLhpz)
+
+None
+
+Created: 2019-02-01T15:42:34.218Z
+Latest Update: 2019-06-05T23:47:03.620Z
+
+Reported by Monster#8929
+
+####Steps to reproduce:
+- Send a random image on a server from your computer. 
+- Select mark as spoiler in the option menu. 
+- Pin the message. 
+- View the pinned message from your android phone. 
+- Attempt to click on the image to remove the spoiler.
+
+####Expected result:
+The spoiler overlay should normally be removed and you can see the image.
+####Actual result:
+The spoiler is still there.
+####Client settings:
+Discord Alpha 8.3.9g
+####System settings:
+Oppo A3s (CPH103), Android 8.1.0
+
+27686
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-01T15:42:34.218Z
+
+
+### Can reproduce.
+[CR] Xiaomi Redmi 4X, Android 7.1.2 N2G47H, Discord Alpha 8.3.9G
+
+Defracted#0001 - Bug Bot on 2019-02-01T15:42:41.722Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy S9, Android 8.0.0, Discord Alpha 8.3.9G
+
+Lily#2624 - Bug Bot on 2019-02-01T15:42:46.754Z
+
+
+### Can reproduce.
+CR - Moto G5s, Android 8.1.0 - Discord 839g
+
+spudpotato#2019 - Bug Bot on 2019-02-01T15:42:51.679Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 9 (Pie),Discord Alpha 8.3.9g
+
+Octillion#6666 - Bug Bot on 2019-02-01T15:56:27.750Z
+
+
+### Can reproduce.
+CR. Alpha 8.3.9G Samsung Galaxy S7, Android 8.0.0
+
+Smh#0001 - Bug Bot on 2019-02-01T16:17:13.816Z
+
+
+### Moved from User Reported Bugs to Spoiler tag bugs! by Jeff Cailteux on 2019-02-01T18:09:20.580Z
+
+
+### Can reproduce.
+OnePlus 2, Android 7.1, Alpha 8.3.9g
+
+criptixo#0001 - Bug Bot on 2019-02-01T23:58:59.269Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 839G
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-03T14:24:21.340Z
+
+
+### Moved from Spoiler tag bugs! to Claimed Fixed, needs Verification by Sam Shih on 2019-02-05T00:27:49.389Z
+
+
+### From my PR:
+```
+Bug: we were consuming and updating the spoiler state when the user clicked on the spoiler overlay in the pinned messages view. We however (intentionally) don't update the pinned messages view so there's no user feedback.
+The correct behaviour, as is also on desktop, is to just jump the user to the appropriate message in the chat view.
+``` - Sam Shih on 2019-02-05T00:28:26.501Z
+
+
+### Can't reproduce.
+Samsung Galaxy S9+. Android 8.0 Alpha 8.3.9G
+
+Zacatero#0001 - Bug Bot on 2019-02-05T00:28:45.356Z
+
+
+### Can reproduce.
+ CR ASUS Zenfone max pro m1 Android 8.1.0 alpha 843G upon clicking it jumps to the message
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-07T02:41:55.290Z
+
+
+### Can reproduce.
+Can still reproduce; Redmi Note 4, Android v8, Discord Alpha 8.3.G
+
+Skyla#7948 - Bug Bot on 2019-02-07T04:25:34.013Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8 Android 8, Alpha 8.4.3G
+
+Action Potential#2494 - Bug Bot on 2019-02-07T05:30:19.583Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-02-07T05:30:19.787Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Sam Shih on 2019-02-08T01:17:32.288Z
+
+
+### fixed in 844 - Sam Shih on 2019-02-08T01:17:41.169Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:03.628Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

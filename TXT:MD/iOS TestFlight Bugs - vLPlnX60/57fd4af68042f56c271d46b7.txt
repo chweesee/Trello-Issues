@@ -1,0 +1,49 @@
+[Archived] mark read state is not being sent to the server, so reopening the app causes unread message indicators to act as if nothing was read. (https://trello.com/c/xR2IAxQg)
+
+None
+
+Created: Unknown
+Latest Update: 2017-10-30T17:08:26.880Z
+
+Steps to Reproduce:
+1) load the app
+2) go through all unread markers
+3) close the app, either by just going to home (you may need to browse other apps if up going to just home) or completely closing it
+4) reopen the app
+Expected Result: mark read indicators disappear after being read
+Actual Result: they keep coming back.
+Notes: the markers go away on mobile but only after posting a message or by marking them read on the desktop app. Happens on iOS 9.3.5 under latest TestFlight.(edited)
+
+Card Log
+========
+### Cannot reproduce.  The unread message state remains cleared. - Jared on 2016-10-25T21:47:26.983Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-10-25T21:47:30.057Z
+
+
+### I can't reproduce using the steps provided by Matthew#2334: 
+
+- Open up Discord and load a server with unread messages.
+- Scroll down until "50 new messages since [x]" has disappeared.
+- Fully close the app.
+- Launch the app again, and go to the same channel.
+
+Discord 1.9.3 (1340), iOS 11.0.3, iPhone 8 Plus
+
+
+ - Alexandru Todea on 2017-10-28T16:09:38.751Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:08:16.170Z
+
+
+### Archived by Jared on 2017-10-30T17:08:26.884Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

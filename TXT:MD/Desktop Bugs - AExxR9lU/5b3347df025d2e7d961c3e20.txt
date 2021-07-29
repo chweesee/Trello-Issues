@@ -1,0 +1,106 @@
+[Archived] When you move the slider in the right click menu of Voice & Video settings, if your mouse goes outside the context menu it will immediately close and the slider position won't save (https://trello.com/c/z9frcSUw)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-06-27T08:16:31.111Z
+Latest Update: 2019-10-23T23:01:04.195Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Right click the cog icon that you usually click when you want to go to user settings 
+- In the context menu, hover over Voice & Video 
+- Two slidebars will appear, grab one of them with your mouse 
+- Move the slider to the maximum (either right or left) and continue sliding until the mouse goes out of the context menu
+
+####Expected result:
+The context menu isn't supposed to close until you release your mouse, and even if this is the intended behavior, the slidebar should've at least saved its position to where it was before it closed
+####Actual result:
+The part of the context menu containing the slidebars closes as soon as the mouse goes out of the menu, and when you reopen it, you notice that the slidebar got reset to initial position
+####Client settings:
+Canary 17668
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+14865
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-27T08:16:31.111Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b3347df025d2e7d961c3e20/474a6de9e48a2ce6037cde7e56ff9bd0/bug-voice-slider.png added by Bug Bot on 2018-06-27T08:16:33.952Z
+
+
+### Alex1304#9704 - https://cdn.discordapp.com/attachments/253923313460445184/461270821608882177/bug-voice-slider.png added by Bug Bot on 2018-06-27T08:16:34.106Z
+
+
+### Can reproduce.
+Can reproduce Canary 17739 Windows 10 x64
+
+ExtraCrafTX#5775 - Bug Bot on 2018-06-27T08:16:38.819Z
+
+
+### Can reproduce.
+Can repro on stable build - Windows 10 Pro x64 Release Channel: stable, Build Number: 17491
+
+OmnesTV#0001 - Bug Bot on 2018-06-27T08:16:43.816Z
+
+
+### Can reproduce.
+Can reproduce ~ Ubuntu 18.04 Bionic Beaver LTS amd64 ~ Canary 0.0.51 Build 17794
+
+Lava#9562 - Bug Bot on 2018-06-27T08:16:48.834Z
+
+
+### I meant Discord 0.0.52 and not 0.0.51
+
+Lava#9562 - Bug Bot on 2018-06-27T08:17:30.884Z
+
+
+### Can reproduce.
+Can repro Canary 17800 - macOS High Sierra
+
+TigerWolf#4843 - Bug Bot on 2018-06-27T08:20:06.696Z
+
+
+### Can reproduce.
+CR; Windows 10 Home x64 Release Channel: canary, Build Number: 17826, Version Hash: 5fc51407f8608e05a057b1e62405ad457565e7df
+
+ChaosKadir#6510 - Bug Bot on 2018-06-27T22:21:05.659Z
+
+
+### verified, macos 10.12.6, canary 17826 - Clayton on 2018-06-27T23:51:16.984Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-27T23:51:24.629Z
+
+
+### Can reproduce.
+W10 x64 1803, Canary 20174
+
+MrWasdennnoch#0443 - Bug Bot on 2018-07-28T15:10:25.120Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:18.867Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 39387 host 0.0.241
+
+Jean20B#4287 - Bug Bot on 2019-06-08T18:19:19.951Z
+
+
+### Unarchived by Bug Bot on 2019-06-08T18:30:06.645Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:04.216Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

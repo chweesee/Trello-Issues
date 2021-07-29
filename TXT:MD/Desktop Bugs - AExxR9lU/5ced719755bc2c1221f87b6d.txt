@@ -1,0 +1,59 @@
+Discord Crashes Windows 10 when broadcasting First Person games. (https://trello.com/c/HY98HbfA)
+
+None
+
+Created: 2019-05-28T17:36:23.931Z
+Latest Update: 2020-07-16T21:26:04.017Z
+
+Reported by gigitac#0389
+
+####Steps to reproduce:
+- First, open any First Person Game. 
+- Open ***Discord*** Build 38594 ``STABLE`` 
+- Video-call someone 
+- Move your mouse towards the window at the top broadcasting you and your friend, and press ``RMB``. 
+- Select the "Broadcast ``[Insert Game Here]``" button provided 
+- Allow any required permissions 
+- Open the First Person game using ``ALT + TAB`` 
+- Return to the ***Discord*** client using ``ALT + TAB``
+
+####Expected result:
+The Client should broadcast your game as usual.
+####Actual result:
+Due to the centralization of the mouse, the system locks in the centre of the window above the textboxes. Sometimes it then forces the use of ``CTRL+ALT+DEL`` or may Crash the Operating System on it's own, such as when playing ***Subnautica*** or ***Counter Strike: Global Offensive***.
+####Client settings:
+``Discord Stable Build 38594``
+####System settings:
+``Windows 10 Home, Version 1803 (OS Build 17134.765)``
+
+35524
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-28T17:36:23.931Z
+
+
+### Can reproduce.
+CR, tried with Minecraft and Subnautica --- Minecraft: Following the steps leads to a game crash --- Subnautica: The cursor is locked in the center --- Windows 10 Home x64 1903, Canary 38594 host 0.0.238
+
+Jean20B#4287 - Bug Bot on 2019-05-28T17:36:31.745Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro, PTB 38594
+
+Action Potential#2494 - Bug Bot on 2019-05-28T17:36:36.465Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Version 1809,  Build Number: 38570 (Stable) | Tried with Minecraft
+
+Jason 🖤#1000 - Bug Bot on 2019-05-28T17:36:41.458Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

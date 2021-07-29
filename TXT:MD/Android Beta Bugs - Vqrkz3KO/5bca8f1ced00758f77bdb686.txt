@@ -1,0 +1,80 @@
+[Archived] Opening Discord from a notification for a DM from an account you've never DMed before fails with a toast notification saying "You are unauthorized to perform this request." (https://trello.com/c/Zvxv0gbq)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-10-20T02:12:44.745Z
+Latest Update: 2018-11-19T15:00:01.715Z
+
+Reported by jl91569#1301
+
+####Steps to reproduce:
+- Create a throwaway account (that's the easiest way to get an account you've never talked to before) 
+- Close Discord on your "main" account to make sure you'll get the notification (completely close it from the app switcher) 
+- Send a message from your throwaway account to your main 
+- Open it from the notification
+
+####Expected result:
+Discord should open and show the correct conversation
+####Actual result:
+Discord opens and shows you the last chat you were in with a toast notification saying "You are unauthorized to perform this request."
+####Client settings:
+Android 7.6.9
+####System settings:
+Samsung Galaxy S7, Android 8.0 with August security patches (R16NW.G930FXXU2ERH4)
+
+21705
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-20T02:12:44.745Z
+
+
+### 🍂nickWtn🍂#3789 - https://youtu.be/o5YnIa-EKhI added by Bug Bot on 2018-10-20T02:12:47.160Z
+
+
+### Can reproduce.
+Only works with accounts you have not DMed before. Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.7.5
+
+Danijel#9000 - Bug Bot on 2018-10-20T02:12:52.185Z
+
+
+### Can reproduce.
+Created a new account to test this. LG Fortune, Android 6.0.1 - Discord Alpha 7.7.5
+
+Hole#0001 - Bug Bot on 2018-10-20T02:12:57.122Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord Alpha 7.7.5
+
+Bencey_#8587 - Bug Bot on 2018-10-20T02:13:02.342Z
+
+
+### verified, android 7.0, alpha 7.7.5 - Clayton on 2018-10-20T03:14:31.462Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-20T03:14:40.776Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8 ,Android 8.0,Discord Alpha 7.7.5
+
+Outbøob#6666 - Bug Bot on 2018-10-20T10:35:08.943Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S7, Android 8.0.0, Discord Alpha 7.7.5
+
+Toasty#9566 - Bug Bot on 2018-10-20T14:42:34.591Z
+
+
+### Archived by Clayton on 2018-11-19T15:00:01.718Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

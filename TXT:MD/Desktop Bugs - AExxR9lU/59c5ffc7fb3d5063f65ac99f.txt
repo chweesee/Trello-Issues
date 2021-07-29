@@ -1,0 +1,78 @@
+[Archived] When you click an invite link in a channel description, you don't get a join modal (https://trello.com/c/pxO6zTye)
+
+P2: Fix can wait a while
+
+Created: 2017-09-23T06:31:36.006Z
+Latest Update: 2017-11-15T18:52:09.068Z
+
+Reported by ItsPugle#5963
+
+####Steps to reproduce:
+- Find a server where a channel description has a partner invite link to a server you aren't currently in 
+- Click that invite link 
+- Observe
+
+####Expected result:
+A join server modal opens like when you click a link in a browser.
+####Actual result:
+It just makes you join without a modal
+####Client settings:
+Discord Canary 0.0.154
+####System settings:
+macOS Sierra 10.12.6 MacBook Air 13" 2013
+
+4680
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-23T06:31:36.006Z
+
+
+### Can reproduce.
+CR: Discord Canary Build 4730, Windows 10 Home x64
+
+Morv#5419 - Bug Bot on 2017-09-23T06:31:43.459Z
+
+
+### Can reproduce.
+CR Canary 4743 W10x64 - Instajoins guild on click
+
+IPv4#6434 - Bug Bot on 2017-09-23T06:31:48.453Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Stable 0.0.298
+
+Flamanis#7150 - Bug Bot on 2017-09-23T06:31:53.892Z
+
+
+### Can reproduce.
+Windows 10, 64 bit Canary 0.0.163
+
+Lasse#4890 - Bug Bot on 2017-09-25T12:51:06.044Z
+
+
+### Verified.  - Clayton on 2017-09-27T22:29:51.365Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-27T22:29:56.618Z
+
+
+### This is intentional, it behaves the same way links in chat do. - b1naryth1ef on 2017-10-02T20:37:39.925Z
+
+
+### Moved from Verified Bugs to Not a Bug by b1naryth1ef on 2017-10-02T20:37:46.554Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T18:45:47.603Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T18:52:09.070Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

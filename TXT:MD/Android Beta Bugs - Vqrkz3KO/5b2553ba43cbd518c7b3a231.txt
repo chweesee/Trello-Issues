@@ -1,0 +1,76 @@
+[Archived] Accessing Join a server screen via Quick Switcher and trying to jump to a server after you accepted it will reopen the invite sceen (https://trello.com/c/1cfzLa5Q)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-06-16T18:15:22.856Z
+Latest Update: 2019-06-05T23:49:22.286Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Quick Switcher 
+- Write a query that shows no results 
+- Tap Join a server button 
+- Input a valid invite and join the server 
+- Reopen Quick Switcher 
+- Try to jump to a server
+
+####Expected result:
+Should jump to the server and that's it. If you do it without following the previous steps your Discord will crash but that's not the subject of the report
+####Actual result:
+The invite screen of the server you just joined pops up again. If you had your keyboard open when tapping the server, the keyboard will stay open in the invite screen
+####Client settings:
+Discord Alpha 6.9.5
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14235
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-16T18:15:22.856Z
+
+
+### Can reproduce.
+[Can Reproduce] Huawei Honor 8 Lite, Android 7.0, EMUI 5.0 w/ Discord Alpha 6.9.5
+
+Smanbg#9524 - Bug Bot on 2018-06-16T18:15:30.182Z
+
+
+### Can reproduce.
+Can Reproduce -- Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.9.5
+
+Ori#1908 - Bug Bot on 2018-06-16T18:15:35.161Z
+
+
+### Can reproduce.
+Can Reproduce, K20 V Android 7.0, Discord alpha 6.9.5
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-06-16T18:15:40.161Z
+
+
+### Verified, samsung s6 edge, android 7.0, alpha 6.9.5 - Clayton on 2018-06-18T20:41:52.219Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-18T20:42:01.872Z
+
+
+### This bug was checked during the Trello Cleanup Event, and it is no longer reproducible as of Android Alpha 7.0.3 on Moto G4 running Android 7.0. Because of this bug no longer being able to be reproduced, I am moving this to Claimed Fixed. - Ghoul on 2018-07-06T04:55:56.217Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ghoul on 2018-07-06T04:56:04.640Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-22T12:17:21.681Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:22.298Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

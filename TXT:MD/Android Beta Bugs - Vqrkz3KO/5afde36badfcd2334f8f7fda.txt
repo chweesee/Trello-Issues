@@ -1,0 +1,133 @@
+[Archived] Going back from Channel Settings after removing the content of the Name field will display the Unsaved changes modal, even though there's nothing to save (https://trello.com/c/mf5UxN1z)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-17T20:17:47.465Z
+Latest Update: 2020-02-20T21:34:12.531Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Channel Settings  
+- Make the Name field empty 
+- Press Back
+
+####Expected result:
+Before pressing Back, notice that the Save button is not here: this means that there are no unsaved changes. Indeed, there's nothing to save here. That's why it's not suposed to show the unsaved changes modal and just ignore the fact that you emptied the field
+####Actual result:
+The Unsaved changes modal is still shown even though you can't save anything in that case
+####Client settings:
+Discord Alpha 6.7.2
+####System settings:
+Huawei Mate 9 Android 8.0
+
+12919
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-17T20:17:47.465Z
+
+
+### Can reproduce.
+Discord 6.6.1 & Samsung Galaxy J5 Prime
+
+spark#9023 - Bug Bot on 2018-05-17T20:17:55.896Z
+
+
+### Can reproduce.
+Can reproduce; Discord 6.6.9(669) - Wiko LENNY2 - Android 5.1
+
+Diogolo#0796 - Bug Bot on 2018-05-17T20:18:00.621Z
+
+
+### Can reproduce.
+CR: Discord 6.5.6 - Samsung Galaxy Grand Prime - Android 5.1.1
+
+Vortrix#1330 - Bug Bot on 2018-05-17T20:18:05.636Z
+
+
+### Can reproduce.
+Moto E4+, Android 7.1.1 Discord Alpha 6.7.2
+
+StupidDroid#6253 - Bug Bot on 2018-05-17T20:19:44.540Z
+
+
+### Can reproduce.
+Moto E4+, Android 7.1.1 Discord Alpha 6.7.3
+
+StupidDroid#6253 - Bug Bot on 2018-05-17T23:41:45.865Z
+
+
+### Can reproduce.
+LG Bello,5.0.2 Discord Alpha 6.7.3
+
+StefanFX#9682 - Bug Bot on 2018-05-18T02:20:37.808Z
+
+
+### Can reproduce.
+Discord 6.7.3 - Samsung Galaxy S6 Edge, Android 7.0
+
+Angel_0#9354 - Bug Bot on 2018-05-18T06:27:03.148Z
+
+
+### Can reproduce.
+Symphony P6, Android 5.0 , Discord 6.6.9(669) Beta
+
+MONGCHAW#1813 - Bug Bot on 2018-05-18T07:59:14.179Z
+
+
+### Can reproduce.
+Notice ; that also happens with server name Samsung Galaxy S6 Edge - Android 7.0 - Discord 6.7.4
+
+Angel_0#9354 - Bug Bot on 2018-05-18T18:31:57.985Z
+
+
+### Verified.  - Clayton on 2018-05-18T21:27:12.603Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-18T21:27:19.921Z
+
+
+### Can reproduce.
+Discord Alpha 6.7.4, Oppo R11s Android 7.1.1 (Nougat)
+
+Cairo#2098 - Bug Bot on 2018-05-19T22:06:32.230Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5afde36badfcd2334f8f7fda/e8c2fb2c31513519b4061d38c0ac57f4/B1TYYzQ.gif added by Bug Bot on 2018-07-15T16:24:08.085Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:22.356Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 8.3.4g
+
+charleskimbac#6492 - Bug Bot on 2019-01-25T05:04:05.227Z
+
+
+### Unarchived by Bug Bot on 2019-01-31T21:30:06.915Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:08.671Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab A, Android 8.1, Discord 9.4.8
+
+Suspense#4615 - Bug Bot on 2019-09-03T18:40:20.159Z
+
+
+### Unarchived by Bug Bot on 2019-09-03T19:00:06.193Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:12.548Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

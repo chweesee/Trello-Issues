@@ -1,0 +1,120 @@
+[Archived] When you leave a server through someones mutual servers, it stays no matter how many times you try to leave. (https://trello.com/c/eIB65w35)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-16T10:00:54.215Z
+Latest Update: 2019-01-01T15:33:48.474Z
+
+Reported by xizbow#5513
+
+####Steps to reproduce:
+- Go to someones profile 
+- Go to Mutual Servers 
+- Right-Click on a server, leave it 
+- It stays, presumably.
+- Try to leave it again
+
+####Expected result:
+When you leave the server through mutuals, it vanishes from the list
+####Actual result:
+The server remains, and will be like that until the profile is closed and reopened.
+####Client settings:
+Everything default, except zoomed out once
+####System settings:
+AMD Radeon RX 460, Windows 10 Home, Creators Update(edited)
+
+5439
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-16T10:00:54.215Z
+
+
+### Can reproduce.
+CR, Dell Inspiron 15, Windows 10 x64, Discord Canary build 5843
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-16T10:01:01.511Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary build 5843
+
+Mippy#8370 - Bug Bot on 2017-10-16T10:01:06.518Z
+
+
+### Can reproduce.
+CR, you actually leave the server but it's not removed from the list, windows 10 x64, Canary build 5843
+
+AEnterprise#4693 - Bug Bot on 2017-10-16T10:01:11.524Z
+
+
+### Can reproduce.
+Sorry about being late submitting the report. Accidentally left this server during this bug testing.. either way.. I can repro it. | Dell Latitude e5540, Windows 10 Pro, x64.. Version 1703.. Discord Canary Version 0.0.165
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-16T21:30:34.369Z
+
+
+### Verified.  - Clayton on 2017-10-17T22:11:31.413Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-17T22:11:35.603Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-01-05T19:11:33.455Z
+
+
+### This is no longer possible to do with the redesign of the profiles - Jared on 2018-01-05T19:11:42.919Z
+
+
+### I can still reproduce this by leaving a server in someone's mutual server list instead of your own because of the redesign. Canary 11055 - Tarek on 2018-02-22T19:28:41.964Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2018-02-22T19:28:45.761Z
+
+
+### Client no longer crashes, server is still showing until you reopen the user profile
+
+TimThe#1118 - Bug Bot on 2018-03-16T12:23:54.001Z
+
+
+### Crash is fixed, which was the "bug of a bug". However, the initial bug still has not been fixed. - Jared on 2018-03-21T21:59:34.684Z
+
+
+### This ticket is still reproducible as of Discord Canary Build 18197 on Windows 10 Pro x64 during the Trello Cleanup Event. However, it no longer crashes but the server will remain. 
+
+I will leave this ticket to be, but it will be edited to be the remaining case.  - Ghoul on 2018-07-06T00:39:31.355Z
+
+
+### Wolterhon#3938 - https://i.imgur.com/snJ2BBp.gifv added by Bug Bot on 2018-07-14T10:09:11.123Z
+
+
+### Can reproduce.
+DIscord Canary (BUILD 21930) on Windows 10 x64 (1803 Update) // You do leave the server but it remains on the list, as if you hadn't
+
+Procrastinator Adam#4226 - Bug Bot on 2018-08-20T00:51:58.901Z
+
+
+### can no longer reproduce - Clayton on 2018-10-04T00:22:43.973Z
+
+
+### Moved from Reopened to Verified Fixed by Clayton on 2018-10-04T00:22:48.177Z
+
+
+### Can reproduce.
+Win 10 Pro 64x, Canary Build 27040
+
+C4Navar#5799 - Bug Bot on 2018-10-27T10:27:49.930Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:33:47.064Z
+
+
+### Archived by Tarek on 2019-01-01T15:33:48.477Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

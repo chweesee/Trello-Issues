@@ -1,0 +1,73 @@
+Certain combinations of square brackets cannot be escaped in Markdown hyperlinks (https://trello.com/c/CzAUdXtb)
+
+None
+
+Created: 2019-09-20T13:25:54.136Z
+Latest Update: 2020-07-16T21:26:05.231Z
+
+Reported by Christianuss#3423
+
+####Steps to reproduce:
+- Use a bot account to send an embed 
+- In the embed, create a Markdown hyperlink by providing a string (e.g., in the description) like `[\]Text\[]()`, i.e., make sure the text within the (non-escaped) square brackets contains an escaped _right_ square bracket, and an escaped _left_ square bracket (in this order)
+
+####Expected result:
+The embed should display a hyperlink with text: `]Text[`
+####Actual result:
+The embed displays `[]Text[]()` (no hyperlink is created)
+####Client settings:
+Desktop Canary, 45990, bfddca8ff8df4d6e9752fe6eca34f454f8c5548a
+####System settings:
+Windows 10 Home, 10.0.18362
+
+44419
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-20T13:25:54.136Z
+
+
+### Janel#1437 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d84d35fc9764586523e2370/1310e2ef7f3868ee257f2fbe876f476e/2019-09-20-00-25-35.jpg added by Bug Bot on 2019-09-20T13:25:59.261Z
+
+
+### Can reproduce.
+CR; using a bot, Alpha 9.5.9, Android 6.0.1, Samsung Galaxy S5
+
+Janel#1437 - Bug Bot on 2019-09-20T13:26:03.830Z
+
+
+### Can reproduce.
+CR Discord 959 Android 9 Oppo find x
+
+Typhoon#9981 - Bug Bot on 2019-09-20T13:26:09.045Z
+
+
+### Can reproduce.
+CR; Windows 10 (x64) - Canary 45990
+
+RevokedCookie#0001 - Bug Bot on 2019-09-20T13:26:13.829Z
+
+
+### Sorry I used the wrong storeinfo tag,my correct system settings are -w 45990
+
+Typhoon#9981 - Bug Bot on 2019-09-20T15:19:38.984Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro, PTB 46174
+
+Action Potential#6862 - Bug Bot on 2019-09-21T01:04:11.761Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 46174 (Host 0.0.257)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-21T16:18:37.638Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

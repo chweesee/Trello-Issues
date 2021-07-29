@@ -1,0 +1,138 @@
+[Archived] Editing a message containing default emojis will always display the unicode system emoji instead of the alias in the typing box (https://trello.com/c/ZYNNsoQ5)
+
+P3 - Will be fixed eventually,
+Mod can still reproduce
+
+Created: 2017-11-09T22:49:27.560Z
+Latest Update: 2019-08-31T13:11:26.865Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Send a message containing a default emoji using the Discord emoji picker (e.g 🤔) 
+- Long press on message and press Edit
+
+####Expected result:
+In the typing box, the content of the message will appear with the emoji alias between `::` (e.g **\:thinking\:**)
+####Actual result:
+In the typing box, the content of the message will appear with the unicode system emoji (e.g \🤔)
+####Client settings:
+Discord Alpha 5.6.2
+####System settings:
+Huawei Mate 9 Android 7.0
+
+6231
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-09T22:49:27.560Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a04db77e1da60af679b9834/2215391e021aec9ee066fcc2e0475879/IMG_20171109_225419.png added by Bug Bot on 2017-11-09T22:49:29.984Z
+
+
+### Can reproduce.
+Andoid 6.0 Huawei P8Lite Discord 5.6.2
+
+Bail Organa#2139 - Bug Bot on 2017-11-09T22:49:34.951Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 562
+
+Xander#0259 - Bug Bot on 2017-11-09T22:49:39.924Z
+
+
+### Can reproduce.
+CR, Android Alpha 5.6.2, Xiaomi Mi 5 Nougat 7.1.2
+
+Elix 🍭#4604 - Bug Bot on 2017-11-09T22:49:44.943Z
+
+
+### Can reproduce.
+Google Pixel 2, Android 8.0.0, Alpha 5.6.2
+
+Zaicon#1719 - Bug Bot on 2017-11-09T23:38:23.292Z
+
+
+### Can reproduce.
+HP Chromebook x360 - 11-ae010nr.
+Platform 9765.85.0 (Official Build) stable-channel setzer
+Firmware Version Google_Setzer.7287.360.0
+(Mobile App)
+
+Senhara#5373 - Bug Bot on 2017-11-10T00:30:20.718Z
+
+
+### Verified.  - Clayton on 2017-11-15T22:00:06.276Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-15T22:00:09.588Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Sam Shih on 2018-03-01T02:01:20.413Z
+
+
+### I can repro this on Alpha 6.7.4 on OnePlus 5 Android 8 (Oreo). reopening ticket. - Tarek on 2018-05-22T10:40:49.788Z
+
+
+### Moved from Fixed Bugs to Reopened by Tarek on 2018-05-22T10:40:55.207Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Clayton on 2019-01-12T00:37:44.328Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Clayton on 2019-01-12T00:37:46.552Z
+
+
+### Moved from Reopened to Fixed Bugs by Clayton on 2019-01-12T00:39:48.409Z
+
+
+### Moved from Fixed Bugs to Reopened by Clayton on 2019-01-12T00:40:00.712Z
+
+
+### Moved from Reopened to Fixed Bugs by Clayton on 2019-01-12T01:49:49.412Z
+
+
+### Moved from Fixed Bugs to Reopened by Clayton on 2019-01-12T01:50:10.119Z
+
+
+### Moved from Reopened to Fixed Bugs by Clayton on 2019-01-12T01:52:12.865Z
+
+
+### Moved from Fixed Bugs to Reopened by Clayton on 2019-01-12T01:52:22.275Z
+
+
+### Moved from Reopened to Fixed Bugs by Clayton on 2019-01-12T01:53:42.788Z
+
+
+### Moved from Fixed Bugs to Reopened by Clayton on 2019-01-12T01:54:04.713Z
+
+
+### Moved from Reopened to Fixed Bugs by Clayton on 2019-01-12T01:56:39.764Z
+
+
+### Moved from Fixed Bugs to Reopened by Clayton on 2019-01-12T01:57:01.452Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Clayton on 2019-01-15T00:27:54.104Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Clayton on 2019-01-15T00:27:56.181Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:47.440Z
+
+
+### Can reproduce.
+Android 8.1 - Alpha 9.5.0;
+
+HarryThorpe#1566 - Bug Bot on 2019-08-31T13:11:26.878Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

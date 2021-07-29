@@ -1,0 +1,177 @@
+[Archived] When clicking no on NSFW warnings, the client glitches out when returning to friends list (https://trello.com/c/5cyCYqxR)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-02T02:31:17.417Z
+Latest Update: 2019-01-01T23:13:51.531Z
+
+Reported by Delextris#0001
+
+####Steps to reproduce:
+- Go to a channel marked as NSFW 
+- Say "nope" to the NSFW warning 
+- observe
+
+####Expected result:
+Returns to the friends list just fine
+####Actual result:
+Glitches out and displays both the content of the NSFW channel and your friends list
+####Client settings:
+Discord 7.1.8 Stable
+####System settings:
+Samsung Galaxy S7, Android 8.0
+
+16717
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T02:31:17.417Z
+
+
+### FoxyKero-vacation (3 days)#9941 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b626cf5908b6855d5d8c6d6/060551d0dc2ac425604bd4d4f9b0f55e/Screenshot_20180801-220816_Discord.jpg added by Bug Bot on 2018-08-02T02:31:20.182Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 7.0 • Discord Alpha 7.2.1
+
+FoxyKero-vacation (3 days)#9941 - Bug Bot on 2018-08-02T02:31:24.951Z
+
+
+### Can reproduce.
+can reproduce (Also if you have another NSFW channel, it'll show the content on the page as if the filter wasn't even there) Samsung Galaxy Note 8, Android 8.0 - Android Alpha 7.2.1
+
+Danijel#9000 - Bug Bot on 2018-08-02T02:31:29.999Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy J7 Prime, LineageOS 15.1 (Oreo 8.1), Discord Alpha 721
+
+Lava#9562 - Bug Bot on 2018-08-02T02:31:35.197Z
+
+
+### Can reproduce.
+Alpha 7.2.1, SAMSUNG® Galaxy Grand Neo I9060 (Android 4.2.2 / Kernel 3.4.5-2872630).
+
+Midona#0158 - Bug Bot on 2018-08-02T09:29:17.576Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 7.2.1 (721) - Android 5.1
+
+Diogolo#5292 - Bug Bot on 2018-08-02T09:43:48.510Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2018-08-03T00:27:14.336Z
+
+
+### Moved from Notable Issues to Verified Bugs by Clayton on 2018-08-03T00:32:56.840Z
+
+
+### Moved from Verified Bugs to User Reported Bugs by Clayton on 2018-08-03T00:33:37.190Z
+
+
+### CNR, 7.2.2, android 7.0, samsung s6 edge, plz ignore me moving this everywhere - Clayton on 2018-08-03T00:34:11.057Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-08-03T00:34:15.422Z
+
+
+### Can reproduce.
+Moto G, 3rd Gen (Android 5.1/Discord 7.1.8)
+
+metr0#2951 - Bug Bot on 2018-08-21T12:41:39.206Z
+
+
+###  I can still reproduce this on OnePlus 5 Android 8.1 with Discord Alpha 7.4.8. Though with different reproduction steps.
+
+ - Get mentioned in a NSFW channel
+ - Enter recent mentions then press on the mention
+ - Click nope on the NSFW warning 
+ - Observe how the NSFW channel is merged with your friend list on the same screen.
+
+Also when testing this bug, please keep in mind that this bug https://trello.com/c/ljH1kZi0 breaks the nope button, So this must be tested on an older channel. (33x snowflake or less). Reopening ticket. - Tarek on 2018-09-10T15:17:55.426Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Tarek on 2018-09-10T15:18:06.702Z
+
+
+### Can reproduce.
+can reproduce as of alpha 748. Honor 9 Lite, Oreo 8.0.0 • Discord Alpha 7.4.8
+
+MakiTheLegend#5027 - Bug Bot on 2018-09-10T15:27:57.705Z
+
+
+### verified with tarek's repro steps, android 7.0, alpha 7.4.8, samsung s6 edge - Clayton on 2018-09-10T20:43:17.110Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-10T20:43:23.736Z
+
+
+### Archived by Clayton on 2018-10-10T21:00:02.019Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy S7 Edge, Android 8.0 | Discord Alpha 7.8.1
+
+camperboy1000#6191 - Bug Bot on 2018-10-26T19:51:21.816Z
+
+
+### Unarchived by Clayton on 2018-10-26T20:00:03.386Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Laser (ZE550KL), Android 6.0 - Discord 7.7.9
+
+The Otter#1311 - Bug Bot on 2018-10-29T02:08:46.340Z
+
+
+### Can't reproduce.
+Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Alpha 786
+
+avror#0001 - Bug Bot on 2018-11-04T09:45:35.085Z
+
+
+### I believe this was fixed via a root cause fix.
+I cannot repro. - Sam Shih on 2018-11-09T18:22:58.887Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Sam Shih on 2018-11-09T18:23:07.755Z
+
+
+### Can reproduce.
+Can reproduce when the nsfw content channel is on the top of the channel list. Alpha 7.8.6 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9566 - Bug Bot on 2018-11-09T18:44:04.196Z
+
+
+### Can reproduce.
+Discord Alpha 7.8.6, Huawei Mate 9 Android 8.0. The NSFW channel needs to be the topmost channel of the server for this to occur. Otherwise you get redirected to the top channel of the server instead of the friends list.
+
+Alex1304#9704 - Bug Bot on 2018-11-09T18:44:41.676Z
+
+
+### Can reproduce.
+Can repro with Tarek's steps and if the NSFW channel is at the top of the list. Samsung Galaxy J5, Android 7.0, Alpha 7.8.6
+
+zephr#1634 - Bug Bot on 2018-11-09T18:46:18.293Z
+
+
+### Wait for the next release. I'm preemptively clearing these bugs - Sam Shih on 2018-11-09T21:45:01.915Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-11-29T01:03:10.437Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:13:50.036Z
+
+
+### Archived by Tarek on 2019-01-01T23:13:51.534Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

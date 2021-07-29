@@ -1,0 +1,111 @@
+[Archived] The cursor hitbox/range is off for friends highlight box in direct message list. (https://trello.com/c/MoADfexA)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-11T12:48:08.058Z
+Latest Update: 2018-10-22T20:27:35.455Z
+
+Reported by Matthew#9001
+
+####Steps to reproduce:Go to "Home" 
+- Look at your dm list to the left 
+- Place your cursor to the very left outside the highlighted box of a friend's username 
+- Observe the cursor icon 
+- It should be a hand, not the default/pointer 
+- Right click 
+- Menu should open 
+- Left click 
+- Nothing should happen 
+- Do the same for any server's text channel 
+- Both left and right click should work just outside the highlighted box 
+- Do the same to the very right of the friend highlighted box 
+- Neither work and cursor doesn't change 
+- Either both clicks should work or neither 
+- This bug applies to all desktop builds/browsers + OS
+
+####Expected result:
+Either both clicks or neither clicks should work to the left of the friend box.
+####Actual result:
+Only right click works; left click does not to the left of the highlighted box.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 23017, Version Hash: ff85ea5ba61f12b4cac137b048a25ed0dd5648de
+####System settings:
+macOS High Sierra 10.13.6\
+
+19421
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-11T12:48:08.058Z
+
+
+### Can reproduce.
+Right-clicking brings up the right-click menu, but left-clicking does not open the DM. Discord Canary 23401, Ubuntu 18.04.1 LTS, GNOME 3.28.2
+
+CominAtYou#2626 - Bug Bot on 2018-09-11T12:48:15.421Z
+
+
+### Can reproduce.
+Can reproduce, Tested on Windows 10 Home 64-bit (1803) with Discord Canary Build 23401.
+
+that15fine#9275 - Bug Bot on 2018-09-11T12:48:20.362Z
+
+
+### Can reproduce.
+CR Win 10 64x (1803), Discord Canary 23327
+
+Alipoodle#5025 - Bug Bot on 2018-09-11T12:48:25.328Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Canary 23401
+
+Inspector Soviet#6971 - Bug Bot on 2018-09-11T12:57:52.678Z
+
+
+### Can reproduce.
+Windows 10 Pro 17744 (Slow Ring), Canary 23401
+
+glitchperfect#0001 - Bug Bot on 2018-09-11T17:53:38.190Z
+
+
+### verified, macos 10.12.6 canary 23401 - Clayton on 2018-09-11T20:00:15.444Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-11T20:00:28.391Z
+
+
+### Can reproduce.
+Windows 10 x64 v1803, Discord Canary 23446
+
+Haru😍💜#6660 - Bug Bot on 2018-09-11T22:22:24.659Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Discord  Canary  23327
+
+sd3rl0#0001 - Bug Bot on 2018-09-11T22:32:08.665Z
+
+
+### Can reproduce.
+Canary Build 23709 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-09-14T03:01:10.891Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 Canary: 24227
+
+Neiron#2406 - Bug Bot on 2018-09-20T13:48:12.991Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:35.457Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

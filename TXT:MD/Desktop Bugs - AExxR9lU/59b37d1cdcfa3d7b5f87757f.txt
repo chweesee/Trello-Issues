@@ -1,0 +1,108 @@
+[Archived] Image for "no friends in common" is broken on web canary (https://trello.com/c/OX5yhVpf)
+
+P2: Fix can wait a while
+
+Created: 2017-09-09T05:33:16.974Z
+Latest Update: 2018-07-06T17:44:16.030Z
+
+Reported by CreeperzEdge#9243
+
+####Steps to reproduce:
+- Open someones profile 
+- Go to mutual friends 
+- Observe image
+
+####Expected result:
+Image would look correct like it does in the app
+####Actual result:
+Image breaks and looks weird
+####Client settings:
+Opera Stable 46.0.2597.57 (PGO)
+####System settings:
+Win 10 x64 Build 1607
+
+4044
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-09T05:33:16.974Z
+
+
+### Rauf#3260 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59b37d1cdcfa3d7b5f87757f/9508399753c9db1a9bd023566cc54ade/ofFwkqn.png added by Bug Bot on 2017-09-09T05:33:19.535Z
+
+
+### Zacatero#5839 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59b37d1cdcfa3d7b5f87757f/bb1b3ba6f8ac2dc0ff092cae955e4329/nqNbmFc.png added by Bug Bot on 2017-09-09T05:33:19.587Z
+
+
+### Can reproduce.
+CR - canary.discordapp.com
+
+Zacatero#5839 - Bug Bot on 2017-09-09T05:33:24.504Z
+
+
+### Can reproduce.
+Chrome Stable 60.0.3112.113 (Official Build) (64-bit), Windows 10 Home x64 CU
+
+Rauf#3260 - Bug Bot on 2017-09-09T05:33:29.517Z
+
+
+### Can reproduce.
+CR Chrome Stable 60.0.3112.113 Windows 10 Pro x64
+
+Azrael#6867 - Bug Bot on 2017-09-09T05:33:34.527Z
+
+
+### Verified.  - Clayton on 2017-09-19T22:27:31.948Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T22:27:38.952Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2017-10-09T23:16:45.218Z
+
+
+### I am still able to reproduce this, the image looks the same as in the provided screenshots. 
+
+Web Canary, Build 5588, Google Chrome 61.0.3163.100 - Alexandru Todea on 2017-10-10T12:11:22.623Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Stanislav Vishnevskiy on 2017-10-11T08:44:57.108Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jared on 2017-10-17T23:23:56.223Z
+
+
+### It still looks like in the provided screenshots on my end. 
+
+Web Canary, Build 6174, Google Chrome 61.0.3163.100 - Alexandru Todea on 2017-10-22T15:54:25.251Z
+
+
+### Can't reproduce.
+MacBook Pro (late 2013), macOS  Sierra 10.12.1, Canary build 9070; no mutual friends image seems to have been redesigned and fixed at this point.
+
+JustGamer#2542 - Bug Bot on 2018-01-02T05:10:55.309Z
+
+
+### This has been fixed with the new use profile design. 
+
+Web Canary, Build 9070, Google Chrome 63.0.3239.84 - Alexandru Todea on 2018-01-02T18:25:15.560Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T19:39:24.522Z
+
+
+### Verified Fixed - Jared on 2018-01-17T19:39:28.184Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:57:38.652Z
+
+
+### Archived by Tarek on 2018-02-22T19:57:39.555Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

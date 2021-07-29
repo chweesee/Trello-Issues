@@ -1,0 +1,65 @@
+[Archived] opengraph handling of `<` and `>` (https://trello.com/c/1I6X7dkY)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-28T02:35:38.722Z
+Latest Update: 2018-10-22T20:19:13.156Z
+
+Reported by 𝓶𝓼𝓬#3261
+
+####Steps to reproduce:
+- Send a link to a site with opengraph metadata that has `&lt;foo bar&gt;` or `<foo bar>`
+
+####Expected result:
+The embedded information should display `<foo bar>`. It should not be (and is not) treated as html tags, but be displayed as **literal text**.
+####Actual result:
+The text is **not displayed** at all.
+####Client settings:
+Discord Canary Build 12217
+####System settings:
+Win10 x64
+
+9924
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-28T02:35:38.722Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5abaff7a176b757bacd35246/333816e9bd0d00e34a32d441bf1fdb2b/KJ4w0EA.png added by Bug Bot on 2018-03-28T02:35:41.188Z
+
+
+### Can reproduce.
+can reproduce on Windows 10 Home x64 1709 build 16299.309, Discord Canary 12704
+
+cole#0855 - Bug Bot on 2018-03-28T02:35:46.091Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 12704 -- Firefox treats them as text and not html tags.
+
+webhp#1337 - Bug Bot on 2018-03-28T02:35:51.154Z
+
+
+### Can reproduce.
+CR Windows 10 x64 Canary 0.0.204 Build 12767
+
+Okori#0902 - Bug Bot on 2018-03-28T02:35:56.061Z
+
+
+### Verified - Jared on 2018-04-06T18:10:20.671Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-06T18:10:25.842Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:13.159Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

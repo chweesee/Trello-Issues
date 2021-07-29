@@ -1,0 +1,74 @@
+[Archived] Blocking a user while they are typing in a DM and the typing thing appears below the chat box will make the Unblock button to send a message be overlapped by that typing strip (https://trello.com/c/uSAzkfpr)
+
+None
+
+Created: 2017-08-16T20:42:01.436Z
+Latest Update: 2017-10-17T21:19:58.485Z
+
+Reported by [TRED] AlFas#2783
+
+####Steps to reproduce:
+- Have someone keep typing some message in your DM 
+- Block them while they are typing 
+- Notice the Unblock button on the bottom of the screen being overlapsed
+
+####Expected result:
+The typing strip disappears and the Unblock button is there without being overlapped
+####Actual result:
+The Unblock button is overlapped by the typing strip which is not supposed to be there
+####Client settings:
+Discord Canary 0.0.163
+####System settings:
+Windows 10 x64
+
+3308
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-16T20:42:01.436Z
+
+
+### HighDefinition#6635 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5994ae1908db91b9947d4f54/66ac1869fe87f6f4e6ae556a4d15a2f9/L5fBnb.png added by Bug Bot on 2017-08-16T20:42:04.094Z
+
+
+### Can reproduce.
+Discord Stable 0.0.298 on Windows 7 (x64), Thinkpad x120e
+
+HighDefinition#6635 - Bug Bot on 2017-08-16T20:42:08.907Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-16T20:42:13.949Z
+
+
+### Can reproduce.
+Can repro Windows 10 Home (Creators Update) x64, Canary 0.0.163
+
+DeJay#3628 - Bug Bot on 2017-08-16T20:42:18.928Z
+
+
+### Very similar to https://trello.com/c/gIprYi6q
+
+DeJay#3628 - Bug Bot on 2017-08-16T20:42:35.890Z
+
+
+### This is such an obscure edge case and a minor issue that it's straight up not worth fixing. - Jared on 2017-08-21T20:25:48.791Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-08-21T20:25:56.575Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Mike Nisbet on 2017-10-17T21:19:57.301Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:19:58.505Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

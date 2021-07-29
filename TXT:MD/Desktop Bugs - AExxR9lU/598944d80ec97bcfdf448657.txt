@@ -1,0 +1,107 @@
+When using the Mac app in fullscreen, the close and minimize buttons don't work. (https://trello.com/c/p5cNfvQs)
+
+Mid
+
+Created: 2017-08-08T04:58:00.081Z
+Latest Update: 2020-01-15T00:52:27.030Z
+
+Reported by advaith#9121
+
+####Steps to reproduce:
+- put Discord in fullscreen mode by clicking the green button at the top left 
+- then click the close (red) or minimize (green) button
+
+####Expected result:
+The minimize button should be grayed out, and when you click the close button, the window should close.
+####Actual result:
+Nothing.
+####Client settings:
+Canary 0.0.154
+####System settings:
+macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+2924
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-08T04:58:00.081Z
+
+
+### Can reproduce.
+canary 0.0.154, macOS 10.12.5
+
+seven8time🎼#5914 - Bug Bot on 2017-08-08T04:58:07.523Z
+
+
+### Can reproduce.
+Can Reproduce (MacBook Air 10.12.6, Desktop Canary 0.0.154)
+
+ItsPugle#5963 - Bug Bot on 2017-08-08T04:58:12.554Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro
+
+Nelson1348#9190 - Bug Bot on 2017-08-08T04:58:17.512Z
+
+
+### Verified.  - Clayton on 2017-08-09T21:50:52.550Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T21:50:59.803Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:48:45.480Z
+
+
+### Can reproduce.
+macOS High Sierra, Discord Stable 0.0.249. 
+
+The fullscreen button on the window also doesn't switch to the un-fullscreen button while in fullscreen.
+
+perryprog#9657 - Bug Bot on 2017-12-24T19:58:36.080Z
+
+
+### Can reproduce.
+macOS High Sierra, 10.13.2. Discord Build Number: 9072, Discord Version: 0.0.249
+
+perryprog#9657 - Bug Bot on 2017-12-26T00:54:26.565Z
+
+
+### The close button also doesn't work non-fullscreen, it hides the window instead. It should A) Close the window and app (different per app, for example macOS Dictionary vs macOS Preview) or, B) Just close the window, like Preview. Hiding the window is done with CMD+H.
+
+perryprog#9657 - Bug Bot on 2017-12-26T00:58:24.772Z
+
+
+### This really should be a P3 - it's a quality of life thing that we'd need to build a special store for unfortunately. - Amadeus on 2018-03-28T23:32:26.958Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:45:05.865Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598944d80ec97bcfdf448657/0c573def02c069975977f304743f67a9/ezgif-4-6d4aea4a55.gif added by Bug Bot on 2018-07-14T11:41:10.896Z
+
+
+### The buttons also don't work then the app is not focused.
+
+Pascal#0929 - Bug Bot on 2018-10-07T12:27:35.052Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro 13" // macOS High Sierra (10.13.6) // canary 48208
+
+xTeal#7702 - Bug Bot on 2019-10-29T03:49:02.143Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 50127
+
+Jiralite#1207 - Bug Bot on 2019-11-22T12:47:07.178Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

@@ -1,0 +1,77 @@
+[Archived] Typing :[insertemojinamehere]: results in the first letter you typed being changed but only specific letters & I haven't tried all of them, i.e. :sn changes to :an. NB (s->a, h->b are known constants for me) NOT all letters do this. But s & h do. (https://trello.com/c/ZE0Ay2rl)
+
+None
+
+Created: 2018-08-21T23:06:16.907Z
+Latest Update: 2018-10-05T00:01:12.483Z
+
+Reported by OJParker#0001
+
+####Steps to reproduce:
+- Type a message  
+- Add an emoji by typing i.e. `:snail:` reverts to :anail:
+
+####Expected result:
+It should stay the original letter
+####Actual result:
+It changes the first letter typed
+####Client settings:
+TestFlight 2.3.7
+####System settings:
+iPhone X, iOS 11.4.1
+
+18092
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-21T23:06:16.907Z
+
+
+### Can reproduce.
+This took a bit to do, sometimes it changes the second letter some times the first. iPhone SE - iOS 11.4.1. TestFlight 6846
+
+evilpauwse#9985 - Bug Bot on 2018-08-21T23:06:25.002Z
+
+
+### Can reproduce.
+Can reproduce, the autocorrect is going crazy for me when typing emotes. iPhone 6s iOS 11.4.1, TF 2.3.7 (6846)
+
+George#6982 - Bug Bot on 2018-08-21T23:06:29.935Z
+
+
+### Can reproduce.
+Can repro, autocorrect is going crazy for me too, iPhone X, iOS 12 Developer Beta 8, TestFlight 2.3.7 (6846)
+
+Alfie#1582 - Bug Bot on 2018-08-21T23:06:34.932Z
+
+
+### Pascal#0929 - https://youtu.be/5HuUptQxjiE added by Bug Bot on 2018-08-21T23:11:17.181Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iPad Air 2 - iOS 12 Public Beta 7, TestFlight 2.3.7 (6846) - It seems the autocorrect still gets in the way of emojis, channels and mentions for the first two letters followed after the prefix and can sometimes cause this issue
+
+Pascal#0929 - Bug Bot on 2018-08-21T23:13:40.361Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Fanghao on 2018-08-21T23:27:33.227Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-08-21T23:38:38.216Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 9) - TestFlight 2.3.7 (6870)
+
+Xylium#1480 - Bug Bot on 2018-08-22T06:49:24.961Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:12.486Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

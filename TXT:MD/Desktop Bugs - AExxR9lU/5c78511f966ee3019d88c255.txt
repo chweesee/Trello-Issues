@@ -1,0 +1,125 @@
+[Archived] When on Canary 32982, Joining a VC in a server that has about 30 People will completely break Canary, restart won't fix (https://trello.com/c/bFC6J9Ej)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2019-02-28T21:22:39.940Z
+Latest Update: 2019-08-03T04:30:56.002Z
+
+Reported by Clay#0001
+
+####Steps to reproduce:
+- Be on Canary 32982 
+- Join a VC in a server that has about 30-40 people 
+- (Maybe also a fast moving text channel in the same server?) 
+- Observe Canary clinet
+
+####Expected result:
+The Canary client is supposed to be working smoothly, like my stable client was in the GIF.
+####Actual result:
+The Canary client completely breaks, and ending task in task manager and restarting canary won't fix it.
+####Client settings:
+canary, Build Number: 32982, Version Hash: 48a50ea2ceed8b163528fea3183e6be2cec7b8e6
+####System settings:
+Win10 Pro x64 (1809)
+
+30026
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-28T21:22:39.940Z
+
+
+### Clay#0001 - https://i.imgur.com/r69wKFz.gifv added by Bug Bot on 2019-02-28T21:22:42.431Z
+
+
+### Clay#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c78511f966ee3019d88c255/a85969a2c036954a58ecd7ba2a024419/65ysNMk.png added by Bug Bot on 2019-02-28T21:22:42.717Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 32982
+
+Lelantos#4866 - Bug Bot on 2019-02-28T21:22:47.336Z
+
+
+### Can reproduce.
+macOs 10.14.4, Canary 32982
+
+M24#0272 - Bug Bot on 2019-02-28T21:22:52.364Z
+
+
+### Can reproduce.
+Could reproduce, macOs 10.14.4, Canary 32982
+
+Action Potential#2494 - Bug Bot on 2019-02-28T21:22:57.366Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Canary build 32982
+
+SerbianPG#2287 - Bug Bot on 2019-02-28T21:27:04.321Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2019-03-01T22:34:08.992Z
+
+
+### Can reproduce.
+Windows 10 home, Canary 33046
+
+Mr. Proper#2394 - Bug Bot on 2019-03-02T14:51:55.095Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 33046
+
+Darth#9386 - Bug Bot on 2019-04-20T22:05:39.983Z
+
+
+### Can't reproduce.
+MacBook Air Early 2015 on macOS Mojave 10.14.2, Canary 40522
+
+Brightness™#2238 - Bug Bot on 2019-07-01T20:11:29.019Z
+
+
+### Can't reproduce.
+Cannot Reproduce, Discord Canary 40522, Windows 10 Home, Google Chrome 75.0.3770.90 (Official Build) (64-bits)
+
+Dragonic#0001 - Bug Bot on 2019-07-01T20:17:05.074Z
+
+
+### CNR, Canary 40522 W10 1903, worked fine with 36 users. - Tarek on 2019-07-01T20:19:39.015Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Tarek on 2019-07-01T20:19:42.611Z
+
+
+### Can't reproduce.
+Windows 10 Home v1903 x64 - Discord Canary 40522
+
+Daffyduck#5364 - Bug Bot on 2019-07-01T20:20:51.272Z
+
+
+### Can't reproduce.
+Windows 10 Enterprise 1803 x64 - Canary 40522
+
+MiTonder#1792 - Bug Bot on 2019-07-01T20:22:28.028Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1803 x64 - Canary 40522
+
+mrphilip#0001 - Bug Bot on 2019-07-01T20:23:16.949Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-07-01T20:23:17.195Z
+
+
+### Archived by Bug Bot on 2019-08-03T04:30:56.015Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

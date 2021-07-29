@@ -1,0 +1,80 @@
+[Archived] If you create a server on Android while the Desktop client is minimized to system tray, the invite screen will pop up upon reopening the Desktop client (https://trello.com/c/ErHUvnin)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-26T17:58:56.153Z
+Latest Update: 2019-01-01T15:35:30.553Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Launch Discord on Desktop and minimize to system tray 
+- Create a server on Android 
+- Dismiss the initial invite screen on Android (to ensure it's not caused by that) 
+- Close Android and Reopen Desktop
+
+####Expected result:
+You get back to Discord normally
+####Actual result:
+A wild invite modal has appeared
+####Client settings:
+Canary 14116
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+11363
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-26T17:58:56.153Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (14116) Windows 10 Pro 64-bit (1709) I can reproduce this without minimizing Discord
+
+Tarek#1337 - Bug Bot on 2018-04-26T17:59:06.922Z
+
+
+### Can reproduce.
+Can reproduce - OnePlus5T - Android Oreo 8.0.0 (Oxygen OS) and MS Windows 10 Pro x64 (v1709) - Discord Alpha 6.5.6 and Canary 14116
+
+ahoZiorce#3115 - Bug Bot on 2018-04-26T17:59:08.590Z
+
+
+### Can reproduce.
+Can Reproduce ! Discord 6.4.7, Galaxy S5
+
+xX_WhatsTheGeek_Xx#8606 - Bug Bot on 2018-04-26T17:59:13.588Z
+
+
+### Verified.  - Clayton on 2018-04-26T22:40:25.132Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-26T22:40:29.192Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.204 (14225) on Windows 10 Education 1709 x64 (Build 16299.371) | Works without minimizing and reopening Discord Canary.
+
+OminousCry#2331 - Bug Bot on 2018-04-27T04:25:14.805Z
+
+
+### can no longer reproduce - Clayton on 2018-10-04T01:25:39.162Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-04T01:25:44.876Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:35:29.852Z
+
+
+### Archived by Tarek on 2019-01-01T15:35:30.555Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,110 @@
+Broken markdown parsing creates blockquote in mid of sentence (https://trello.com/c/EpiTNHrE)
+
+None
+
+Created: 2019-07-29T05:50:40.246Z
+Latest Update: 2020-07-16T21:26:04.603Z
+
+Reported by Alula#0001
+
+####Steps to reproduce:
+- Use a bot/webhook to send an embed containing this sequence: `X> X\n[`, where X is any alphanumeric string and \n is a newline. **edit: doesn't require an embed, happens in regular messages sent by users as well** 
+- on desktop client we can see a blockquote where there shouldn't be any (look at attachment)
+
+####Expected result:
+This sequence shouldn't create a blockquote.
+####Actual result:
+This sequence creates a blockquote for some reason, breaking eg. help messages in some bots
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 42113, Version Hash: cc0eadfac03a04469552660482f227ff0e730a80
+####System settings:
+Debian GNU/Linux 10 / desktop app
+
+40917
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-29T05:50:40.246Z
+
+
+### Daved#0021 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d3e8930c85c3e8b939ecee7/39ee380c119f4ce4a72b10de72d56ee9/unknown.png added by Bug Bot on 2019-07-29T05:50:43.449Z
+
+
+### Daved#0021 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d3e8930c85c3e8b939ecee7/774dbdcbb8cb580b9f817f5692e62013/unknown.png added by Bug Bot on 2019-07-29T05:50:43.475Z
+
+
+### Can reproduce.
+Win10 Pro x64, Canary 42113
+
+! craftxbox#4738 - Bug Bot on 2019-07-29T05:50:48.078Z
+
+
+### Can reproduce.
+Win10 Pro x64, Canary 42113
+
+stupid cat#8160 - Bug Bot on 2019-07-29T05:50:53.136Z
+
+
+### stupid cat#8160 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d3e8930c85c3e8b939ecee7/2d3b185b329bc4f249f2894a2ad12b3e/6fXnLrw.gif added by Bug Bot on 2019-07-29T05:50:55.420Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 42113 host 0.0.250
+
+Jean20B#4668 - Bug Bot on 2019-07-29T05:50:58.130Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Discord Canary Version: 42111
+
+Boss#0006 - Bug Bot on 2019-07-29T07:19:07.138Z
+
+
+### Can reproduce.
+Windows 10 Professional,Canary 42113
+
+Typhoon#1337 - Bug Bot on 2019-07-29T10:38:35.365Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 42113
+
+B.O.S.S#0251 - Bug Bot on 2019-07-29T10:53:06.143Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 42113
+
+AHkhan#6518 - Bug Bot on 2019-07-29T16:57:51.616Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 42113
+
+B.O.S.S#0251 - Bug Bot on 2019-07-29T19:54:14.383Z
+
+
+### Can reproduce.
+macOS High Sierra, Version: 10.13.6 - Discord Canary 42132
+
+Vanki#0001 - Bug Bot on 2019-07-29T22:29:09.414Z
+
+
+### Can reproduce.
+W10 Pro x64 (1903), Canary 42149
+
+dragiceviccv#4375 - Bug Bot on 2019-07-30T00:30:35.932Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 42329 (Host 0.0.250)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-31T20:49:15.699Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

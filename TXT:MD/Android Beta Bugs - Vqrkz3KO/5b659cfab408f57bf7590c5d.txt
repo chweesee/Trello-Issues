@@ -1,0 +1,107 @@
+[Archived] Sometimes when changing your presence (online, idle, dnd, etc), it doesn't update in the member list of the server you were viewing at this moment, but updates fine in others. It's a bit inconsistent so try several times please (https://trello.com/c/XkmMFXBZ)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-04T12:32:58.459Z
+Latest Update: 2019-06-10T20:45:05.149Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to any server, preferably one where you are high placed in member list 
+- Close Discord completely by removing it from recent apps and reopen 
+- Open member list of the server (just to check your current status) and close it 
+- Now switch your presence to a different status (idle, dnd, etc) 
+- Reopen member list of same server
+
+####Expected result:
+Presence should uniformly update in all servers
+####Actual result:
+It won't update in the current server you're in, but if you switch to a different server and open member list, the correct status will show. I fail to reproduce this issue sometimes, make sure to give it a few tries (success rate is around 75% for me)
+####Client settings:
+Discord Alpha 7.2.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+16913
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-04T12:32:58.459Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy S8 V.0.0, Discord Alpha 724
+
+Thundy#2018 - Bug Bot on 2018-08-04T12:33:05.771Z
+
+
+### Can reproduce.
+CR; Samsung Galaxy A5 17, Android 8.0, Alpha 7.2.6
+
+FelsFaser#0001 - Bug Bot on 2018-08-04T12:33:10.775Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J5 2017 • Android 7.0 Nougat •Discord Alpha 7.2.6
+
+Vanished#0001 - Bug Bot on 2018-08-04T12:33:15.747Z
+
+
+### Extension of this issue: if at step 4 you choose Invisible as new status, you will have the grey dot but you will still be in the online list in member list. Also this bug won't occur if your initial status is Invisible.
+
+Alex1304#9704 - Bug Bot on 2018-08-04T12:36:06.080Z
+
+
+### Can reproduce.
+CR, discord alpha 7.2.6, android 5.1
+
+Diogolo#9833 - Bug Bot on 2018-08-04T20:48:02.230Z
+
+
+### Can reproduce.
+a-
+
+Jdm90s#1998 - Bug Bot on 2018-08-05T04:10:30.871Z
+
+
+### Can reproduce.
+Redmi Note 5 AI, Android 8.1.0
+
+Jdm90s#1998 - Bug Bot on 2018-08-05T04:11:39.994Z
+
+
+### Can reproduce.
+Android 7.0 Discord Alpha 7.2.7
+
+Delite#0001 - Bug Bot on 2018-08-09T18:39:47.829Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.2.8 - Clayton on 2018-08-09T22:27:18.266Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-09T22:27:24.313Z
+
+
+### Archived by Clayton on 2018-09-08T22:30:03.024Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.5.4
+
+Danijel#9000 - Bug Bot on 2018-09-22T17:24:40.766Z
+
+
+### Unarchived by Clayton on 2018-09-22T17:30:03.691Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:45:05.163Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

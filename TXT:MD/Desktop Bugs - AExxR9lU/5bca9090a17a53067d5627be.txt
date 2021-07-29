@@ -1,0 +1,143 @@
+[Archived] Discord Profile and RP still shows you are streaming even after you stop (https://trello.com/c/bWDQiM1I)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2018-10-20T02:18:56.768Z
+Latest Update: 2019-03-16T04:00:33.678Z
+
+Reported by Q__Q#8008
+
+####Steps to reproduce:
+- Make sure Streamer Mode is enabled & using OBS 
+- Stream [I streamed for 7 hours when this occurred] 
+- Witness yourself go live on Discord. 
+- After clicking 'Stop Streaming', do NOT exit OBS or turn off Streamer Mode on Discord. 
+- View yourself on Discord.
+
+####Expected result:
+Rich Presence and Viewing Mini/Regular Profile doesn't show you are streaming.
+####Actual result:
+Rich Presence, Mini, and Regular Profile still shows you are streaming. (Seen on PC and iOS)
+####Client settings:
+Discord Canary 26538
+####System settings:
+Windows 10 Pro x64, OBS 21.1.0 64-bit
+
+21647
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-20T02:18:56.768Z
+
+
+### Can reproduce.
+can repro Windows 10 Pro x64 canary build 26622
+
+Azrael#6867 - Bug Bot on 2018-10-20T02:19:04.148Z
+
+
+### Can reproduce.
+MacBook Pro (13-inch, Mid 2012) High Sierra 10.13.4 Discord Canary 26622
+
+InkxtheSquid#0069 - Bug Bot on 2018-10-20T02:19:09.146Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Professional x64 (Version 1803) - Discord Canary Build 26622. I was streaming for about an hour, playing some Minion Masters.
+
+Ghoul#0099 - Bug Bot on 2018-10-20T02:19:14.163Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 x64 Build Number: 26659
+
+Toasty#9566 - Bug Bot on 2018-10-20T07:05:48.767Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26655
+
+Neiron#7777 - Bug Bot on 2018-10-20T07:28:34.410Z
+
+
+### verified, win10, 26902 - Clayton on 2018-10-25T03:09:43.190Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-25T03:09:51.940Z
+
+
+### Can reproduce.
+Can still repro, but after a 13 hour stream this time. Windows 10 Pro x64 Discord Canary 27869
+
+Q__Q [ollybits]#8008 - Bug Bot on 2018-11-12T22:49:04.773Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 canary build 28567
+
+Azrael#6867 - Bug Bot on 2018-11-29T06:03:24.101Z
+
+
+### I am unable to reproduce anymore as of Discord Canary Build 28567 on Windows 10 Home x64 (1809). My stream status disappeared after about 5-7 minutes instead of a couple of hours after ending the stream like stated previously.
+
+Moving to Claimed Fixed. - Ghoul on 2018-11-29T06:28:11.760Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ghoul on 2018-11-29T06:28:18.484Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Jared on 2019-02-06T14:47:42.561Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jared on 2019-02-06T14:47:43.943Z
+
+
+### Can't reproduce.
+I was streaming yesterday. While the presence of OBS does trigger Streamer Mod, it does not show me as streaming once i stop the stream to twitch.
+
+Zacatero#0001 - Bug Bot on 2019-02-11T21:11:09.773Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Pro, Canary 31974, I was streaming yesterday. While the presence of OBS does trigger Streamer Mod, it does not show me as streaming once i stop the stream to twitch.
+
+Zacatero#0001 - Bug Bot on 2019-02-11T21:24:45.176Z
+
+
+### Can't reproduce.
+Cannot reproduce Windows 10 home - Canary 31974
+
+Bencey_#8587 - Bug Bot on 2019-02-11T22:29:58.759Z
+
+
+### Can reproduce.
+I was just streaming and it happened again. I was stopped streaming for 5 minutes and it still didnt take me off of the streaming purple status. Windows 10 Pro. Canary 32063
+
+Zacatero#0001 - Bug Bot on 2019-02-12T02:23:23.221Z
+
+
+### Can't reproduce.
+Cannot reproduce went away almost immediately Windows 10 Home canary build 32213
+
+Azrael#6867 - Bug Bot on 2019-02-14T02:15:57.885Z
+
+
+### Can't reproduce.
+No longer can be reproduced! Windows 10 Pro Canary 32237
+
+Q__Q [ollybits]#8008 - Bug Bot on 2019-02-14T03:43:46.631Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-02-14T03:43:46.900Z
+
+
+### Archived by Bug Bot on 2019-03-16T04:00:33.690Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

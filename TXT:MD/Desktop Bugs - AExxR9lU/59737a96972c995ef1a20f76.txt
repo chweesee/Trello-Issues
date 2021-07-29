@@ -1,0 +1,84 @@
+[Archived] Audit Log doesn't Log nsfw changes properly. http://i.imgur.com/AcI5DfA.png (https://trello.com/c/INugNLpl)
+
+P2: Fix can wait a while
+
+Created: 2017-07-22T16:17:26.705Z
+Latest Update: 2017-11-15T19:21:22.092Z
+
+Reported by MrLar#8117
+
+####Steps to reproduce:
+- go to any channel 
+- toggle nsfw on or off 
+- visit audit logs 
+- expand the entry for the channel change and notice its empty
+
+####Expected result:
+The audit log to say "toggled nsfw"
+####Actual result:
+An empty log.
+####Client settings:
+Discord Stable 0.0.297
+####System settings:
+Win 7 x64
+
+2476
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-22T16:17:26.705Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.161 (Build 2481) - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-07-22T16:17:35.524Z
+
+
+### Can reproduce.
+CR - Canary 0.0.161,  Windows 10 Pro x64 (1607)
+
+Immotay#7475 - Bug Bot on 2017-07-22T16:17:40.443Z
+
+
+### Can reproduce.
+CR - Discord Stable 0.0.297  Windows 10 Pro 64-Bit on Build 1607
+
+Tarek1337#0379 - Bug Bot on 2017-07-22T16:17:45.437Z
+
+
+### Verified.  - Clayton on 2017-07-23T04:37:19.376Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-23T04:37:24.727Z
+
+
+### Fixed as of build 3571
+
+Tiemen#0107 - Bug Bot on 2017-08-24T12:52:45.760Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-09-01T13:47:00.307Z
+
+
+### Can no longer reproduce, Win10 Canary 0.0.163 Build 3838 - Mike Nisbet on 2017-09-01T13:47:46.745Z
+
+
+### Fixed.  - Clayton on 2017-10-04T00:04:53.999Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T00:04:57.925Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:21:21.523Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:21:22.094Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,83 @@
+Hitbox of mentions placed at the end of a message expands through the whole line (https://trello.com/c/uqW5Gx7g)
+
+None
+
+Created: 2020-06-18T21:13:30.078Z
+Latest Update: 2020-07-16T05:46:30.743Z
+
+Reported by Squidja#2098
+
+####Steps to reproduce:
+- Send a message ending by a mention 
+- Tap the message next to the mention
+
+####Expected result:
+Profile opening should not be triggered. Only when typing on the mention.
+####Actual result:
+Profile is opening.
+####Client settings:
+27.0 (1165)
+####System settings:
+Huawei P20 Pro, Android 10
+
+57752
+
+Card Log
+========
+### Added by Bug Bot on 2020-06-18T21:13:30.078Z
+
+
+### Squidja#2098 - https://i.imgur.com/87cx0sZ.gifv added by Bug Bot on 2020-06-18T21:13:32.739Z
+
+
+### Can reproduce.
+[Can reproduce] Samsung S10+, Android 10.0, Discord 27-alpha6 (1163), the hitbox of emojis are also extended to the whole line.
+
+" Tibo.#0001 - Bug Bot on 2020-06-18T21:13:37.744Z
+
+
+### Can reproduce.
+CR, Huawei P8 Lite, Android 6.0, Discord 27.0 (1165)
+
+.dev#3346 - Bug Bot on 2020-06-18T21:13:42.705Z
+
+
+### Can reproduce.
+CR, Zenfone 5z, Android 10, Discord 27.0(1165)
+
+Bear#3437 - Bug Bot on 2020-06-18T21:13:47.706Z
+
+
+### Hitbox of channel mention has the same behavior too when placed at the end of a message
+
+Squidja#2098 - Bug Bot on 2020-06-18T21:18:38.146Z
+
+
+### Can reproduce.
+Discord v28-Alpha 1 Xiaomi Redmi Note 8, Android 9 PKQ1.190616.001 (Security Patch - May 2020) Discord Alpha (latest version)
+
+Riday 💙#7468 - Bug Bot on 2020-06-19T01:20:22.828Z
+
+
+### Can reproduce.
+[CR], Huawei P20 Android 9, Discord 27 Alpha 6 (1163)
+
+No Username Idea#2802 - Bug Bot on 2020-06-19T01:51:34.623Z
+
+
+### Hitbox of URL placed at the end of a message has also the same behavior
+
+Squidja#2098 - Bug Bot on 2020-06-19T11:29:08.716Z
+
+
+### dupe of: https://trello.com/c/NAweip2s
+
+BUG#3165 - Bug Bot on 2020-06-19T20:46:57.730Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

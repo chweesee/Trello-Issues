@@ -1,0 +1,151 @@
+[Archived] You can only format text within the spoiler tags; you cannot use bold, underline, strikethrough, etc outside of spoiler. (https://trello.com/c/N0MdBAWA)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2019-01-19T06:28:58.307Z
+Latest Update: 2019-08-08T18:30:04.668Z
+
+Reported by noahb2308#9907
+
+####Steps to reproduce:
+- Go to a server and prepare a message that you want to be in bold, or have underlined, etc. 
+- Use the spoiler tag symbols before and after your text as you would normally, but then also add markdown (bold, underline, whatever you feel) before and after the spoiler tags. 
+- It will only be a spoiler; does not include the other formats unless done within the spoiler tag symbols.
+
+####Expected result:
+Should not matter which order your text formatting is in.
+####Actual result:
+It will not make your spoiler text bold, underlined, etc. if you have the other formatting symbols outside of spoiler.
+####Client settings:
+TestFlight 2.4.2 (10773)
+####System settings:
+iPhone 6s Plus, iOS 12.1.2
+
+26639
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-19T06:28:58.307Z
+
+
+### ☃nickWtn☃#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c42c3aa489e4643ce61819c/107abe8b048404a6db08cff2680221c7/x774Dfe.jpg added by Bug Bot on 2019-01-19T06:29:01.150Z
+
+
+### ☃nickWtn☃#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c42c3aa489e4643ce61819c/7fda1ef1bd603a1534808e31d5b5ded2/Qkert0s.jpg added by Bug Bot on 2019-01-19T06:29:01.209Z
+
+
+### Can reproduce.
+CR; iPad Air, iOS 12.1.1, TF 2.4.2 (10773)
+
+charleskimbac#6492 - Bug Bot on 2019-01-19T06:29:05.645Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1.3 (dev beta 4) - Testflight 2.4.2 (10773)
+
+Xylium#5800 - Bug Bot on 2019-01-19T06:29:10.652Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, tf 2.4.2 (10773)
+
+Lentralkestor#0404 - Bug Bot on 2019-01-19T06:29:15.565Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.3 Beta (16D5032a) - TestFlight 2.4.2 (10773)
+
+Isabel#0002 - Bug Bot on 2019-01-19T06:31:33.216Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 12.1.1, TF 2.4.2 (10773)
+
+Maltzant#9154 - Bug Bot on 2019-01-19T08:57:41.752Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.4.2 (10773)
+
+Jengas#7777 - Bug Bot on 2019-01-19T10:32:30.254Z
+
+
+### Can reproduce.
+CR; iPhone 6S, iOs 12.1.2,  TestFlight 2.4.2 (10773)
+
+Spooker#0001 - Bug Bot on 2019-01-19T18:08:43.955Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1.2, TestFlight 2.4.2 (10773)
+
+Solo#0007 - Bug Bot on 2019-01-20T03:56:21.733Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.2 - TestFlight 2.4.2 (10773)
+
+Daffyduck#5364 - Bug Bot on 2019-01-20T05:44:03.094Z
+
+
+### Moved from New Issues to Spoiler by Fanghao on 2019-01-22T18:33:10.653Z
+
+
+### Moved from Spoiler to Fix made, not yet released by Fanghao on 2019-01-23T21:07:42.799Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2019-01-25T01:03:43.979Z
+
+
+### Can reproduce.
+I can still reproduce. iPhone 7 Plus, iOS 12.1.3, TF 2.4.3 (10846)
+
+Darkbeast#3882 - Bug Bot on 2019-01-25T01:14:36.402Z
+
+
+### Can't reproduce.
+Cant reproduce. I am able to format a spoiler. iPhone SE, iOS 12.1.3 - TestFlight 2.4.3 (10846)
+
+Daffyduck#5364 - Bug Bot on 2019-01-25T03:57:20.816Z
+
+
+### Can't reproduce.
+Cannot reproduce, can format spoiler properly, iPhone X, iOS 12.1.3 (Dev Beta 4), TestFlight 2.4.3 (10846)
+
+Keons#0001 - Bug Bot on 2019-01-25T03:59:33.050Z
+
+
+### Can reproduce.
+CR, iPhone 6s Plus, iOS 12.1.2, TestFlight 2.4.3 (10846) - you can now bolden and italicise text outside of spoiler tags, but other markdown formats (e.g. bold italics, underline, and strikethrough) do not work when outside of spoiler tags.
+
+noahb2308#9907 - Ghoul on 2019-01-25T05:18:47.282Z
+
+
+### Can reproduce.
+Still happens with Strikethrough and Underlined text, other Markdown formatting is shown - keep in mind that multiple Markdown (e.g. bold and italic is a different bug https://trello.com/c/FbeX8F4z) - iPhone 8 Plus, iOS 12.1.3 - TestFlight 2.4.3 (10846)
+
+Pascal#0929 - Bug Bot on 2019-01-25T06:26:06.063Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-01-25T06:26:06.272Z
+
+
+### Moved from Verified Fixed to Backlog by Bug Bot on 2019-01-25T06:26:06.739Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.0.1, Discord TestFlight 2.4.3 (10928)
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-01-26T08:03:10.296Z
+
+
+### Archived by Bug Bot on 2019-08-08T18:30:04.693Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

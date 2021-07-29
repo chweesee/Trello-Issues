@@ -1,0 +1,109 @@
+[Archived] Enabling screenshare on macOS causes the app to crash (https://trello.com/c/jfq26mj4)
+
+P2: Fix can wait a while,
+High
+
+Created: 2017-10-31T21:26:51.461Z
+Latest Update: 2018-03-14T13:47:45.389Z
+
+Reported by nabeel#4280
+
+####Steps to reproduce:
+- Make a video call 
+- enable screenshare
+
+####Expected result:
+Screenshare is supposed to work
+####Actual result:
+The application crashes
+####Client settings:
+Desktop Stable October 5 2017 release
+####System settings:
+macOS 13
+
+5822
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-31T21:26:51.461Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13, Discord Canary 0.0.158 (Build: 6489). For me the app only crashes/is unusable when clicking on application window. If you can't reproduce it, try clicking on "Your Entire Screen" and then "Application Window" again.
+
+Pascal#0929 - Bug Bot on 2017-10-31T21:26:59.181Z
+
+
+### Can reproduce.
+CR: Discord Canary [0.0.158], MacBook Air [13" 2014], High Sierra [10.13] :: Only happens sometimes. Tested with <@142896175085912064>
+
+ItsPugle#5963 - Bug Bot on 2017-10-31T21:27:04.182Z
+
+
+### Can reproduce.
+MacBook Air, macOS 10.13 Canary build 6643
+
+Spooksky#3456 - Bug Bot on 2017-10-31T21:27:09.155Z
+
+
+### Can't reproduce.
+MacOs Sierra 10.12.6 Canary 0.0.158
+
+jan358#0664 - Bug Bot on 2017-11-01T17:11:34.350Z
+
+
+### Verified.  - Clayton on 2017-11-03T04:41:54.540Z
+
+
+### Moved from User Reported Bugs to Screenshare/Video Calls by Clayton on 2017-11-03T04:41:58.482Z
+
+
+### Can reproduce.
+macOS High Sierra Version 10.13.1 (17B1003)
+
+boltfox20#2561 - Bug Bot on 2017-12-05T00:41:53.534Z
+
+
+### Can no longer reproduce. macOS 10.13, Build 9198. - Mike Nisbet on 2018-01-03T17:46:12.940Z
+
+
+### Moved from Screenshare/Video Calls to Claimed Fixed, needs Verification by Mike Nisbet on 2018-01-03T17:46:16.636Z
+
+
+### Can't reproduce.
+MacBook Pro (late 2013), macOS  Sierra 10.12.1, Discord Canary build 9959
+
+JustGamer#9787 - Bug Bot on 2018-01-26T20:46:52.607Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.185 (Build 10015)
+
+Pascal#0929 - Bug Bot on 2018-01-27T13:36:51.777Z
+
+
+### Can't reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9959
+
+Kuuhaku#4503 - Bug Bot on 2018-01-27T17:42:27.743Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-28T08:35:37.735Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-28T08:35:42.637Z
+
+
+### Archiving ticket due to one month of no action.
+ - Alexander (DJScias) on 2018-03-14T13:47:30.413Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:47:45.392Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

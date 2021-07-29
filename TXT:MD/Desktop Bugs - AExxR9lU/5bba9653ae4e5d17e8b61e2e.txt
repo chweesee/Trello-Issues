@@ -1,0 +1,65 @@
+[Mojave specific] Discord doesn't ask again for camera and microphone permission (https://trello.com/c/NeEgOBEO)
+
+MOJAVE!
+
+Created: 2018-10-07T23:27:15.232Z
+Latest Update: 2019-09-23T22:30:07.463Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Make sure Discord already asked one time for your microphone or camera permission 
+- Go to your System Settings 
+- Open Security & Privacy 
+- Go to Privacy 
+- Remove the permission to access your microphone or camera 
+- Go back to Discord and join any voice channel or start a video call 
+- Observe it
+
+####Expected result:
+Discord should ask a second time for the camera and microphone permissions.
+####Actual result:
+It only asks one time for the permissions. If you join a voice channel, you will also see the warning that Discord is not detecting any input from your mic.
+####Client settings:
+Canary Build 25439
+####System settings:
+MacBook Pro 13" (2016), macOS Mojave 10.14
+
+20627
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-07T23:27:15.232Z
+
+
+### Can reproduce.
+MacBook Air 2017 13'', MacOS Mojave 10.14, Stable build 25580
+
+Helvetica#7256 - Bug Bot on 2018-10-07T23:27:22.563Z
+
+
+### Can reproduce.
+MacBook Air, macOS 10.14.1; 25648
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-07T23:27:27.641Z
+
+
+### Can reproduce.
+MacBook Pro Retina 2015, macOS Mojave v10.14, Discord Canary Build 25638
+
+Noobly#3578 - Bug Bot on 2018-10-07T23:27:32.638Z
+
+
+### Moved from User Reported Bugs to Mojave Specific Issues by Clayton on 2018-10-08T23:56:38.493Z
+
+
+### Moved from Mojave Specific Issues to Verified Bugs by Clayton on 2018-10-26T20:00:33.311Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

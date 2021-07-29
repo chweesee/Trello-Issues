@@ -1,0 +1,89 @@
+[Archived] The emoji list keeps going up and down while editing. (https://trello.com/c/UFMYfb3U)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-01T13:01:35.999Z
+Latest Update: 2019-06-22T18:11:18.899Z
+
+Reported by Jimmi#3030
+
+####Steps to reproduce:
+- Type `:` and a character, the emoji list should then appear 
+- Continue typing characters that matches one of the (custom) emoji's name (but don't type the whole name) 
+- Don't type the second `:`, instead double-tap the word after the `:`. You will then be in editing mode 
+- Move the editing mark around the word next to the `:`
+
+####Expected result:
+You would then move the editing mark around the word normally.
+####Actual result:
+The emoji list goes up and down (or down and up) every time you move the editing mark in the word, and if you move the editing mark out of the `:` and back to the word, the emoji list will no longer appear until you exit out of editing mode.
+####Client settings:
+Discord 2.1.2
+####System settings:
+iPhone 5c, iOS 10.3.3
+
+7509
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-01T13:01:35.999Z
+
+
+### Can reproduce.
+CR, iPhone 6s+, iOS 11.2.1, Testflight 2.2.0 (1910) ; I think this might be an apple/iOS thing, as it interferes with the way Discord reads the text box to display reccommended emojis. If proven to be apple's issue, then I will revoke this approval.
+
+New Year, New Mustard#6390 - Bug Bot on 2018-01-01T13:01:43.426Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.0 (1982); Maybe NAB, due to the way the iOS editor works.
+
+HeroGamers#4574 - Bug Bot on 2018-01-01T13:01:48.478Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.1.2, TestFlight 2.2.0 (build 1982) - Curse confirmed it seems to be a Discord issue rather than an Apple issue so should be passed through as a bug.
+
+JustGamer#2542 - Bug Bot on 2018-01-01T13:01:53.444Z
+
+
+### I can reproduce this P3, moving to Verified Bugs.
+
+Discord 2.2.0 (2042), iOS 11.2.1, iPhone 8 Plus - Alexandru Todea on 2018-01-03T06:49:45.716Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2018-01-03T06:49:50.576Z
+
+
+### This bug can also be reproduced with the mention list when typing @.
+
+Jimmi#3030 - Bug Bot on 2018-01-04T03:40:06.798Z
+
+
+### And the channel list when typing #.
+
+Jimmi#3030 - Bug Bot on 2018-01-04T05:04:05.546Z
+
+
+### Verified issue still occurs as written. - Jared on 2018-01-08T17:40:44.488Z
+
+
+### This one is also a wont-fix for now until we re-write the way we render the chat list. - Miguel Gaeta on 2018-03-17T00:41:16.940Z
+
+
+### Moved from Verified Bugs to Won't Fix by Miguel Gaeta on 2018-03-17T00:41:22.275Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than one month with no new activity. - Ghoul on 2018-06-01T00:16:07.864Z
+
+
+### Archived by Ghoul on 2018-06-01T00:16:12.139Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

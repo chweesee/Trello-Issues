@@ -1,0 +1,90 @@
+[Archived] If you switch servers while member list is open, the member list will never load (https://trello.com/c/PhFunJkJ)
+
+None
+
+Created: 2018-05-26T18:51:17.503Z
+Latest Update: 2019-06-05T23:49:11.817Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open both channel drawer and member list at the same time by tapping on both buttons simultaneously  
+- Wait for member list to load 
+- Switch to another server using the other drawer
+
+####Expected result:
+Member list of the newly switched server should load
+####Actual result:
+Member list never loads until you scroll around the member list
+####Client settings:
+Discord Alpha 6.8.1
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13434
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-26T18:51:17.503Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b09aca5875c13bdadbcc9a0/5578ea4d99347578248b3b85224dab04/Screenshot_20180526-202419.jpg added by Bug Bot on 2018-05-26T18:51:20.122Z
+
+
+### Can reproduce.
+Strange bug. It also loads if I turn my phone off and back on again. Moto E4 Plus, Android 7.1.1 (Nougat) Discord Alpha 6.8.1
+
+StupidDroid#6253 - Bug Bot on 2018-05-26T18:51:25.032Z
+
+
+### Can reproduce.
+Huawei P10 Lite, Android 7.0, Discord 6.8.1
+
+Vulpus Maximus#1400 - Bug Bot on 2018-05-26T18:51:29.999Z
+
+
+### Can reproduce.
+can reproduce Huawei P20 lite android 8.0.0  discord 6.8.1
+
+hurricane (DM 4 Partner)#2245 - Bug Bot on 2018-05-26T18:51:34.945Z
+
+
+### Can reproduce.
+Lenovo vibe K5+,5.1.1 | Discord Alpha 6.8.1
+
+The Lunala#0001 - Bug Bot on 2018-05-26T23:21:28.559Z
+
+
+### Possibly an extension on https://trello.com/c/ZDzhPEvp
+
+The Lunala#0001 - Bug Bot on 2018-05-27T00:00:22.236Z
+
+
+### Can't reproduce.
+Behaves as normal, switches list without me doing anything but changing the servers (this included letting the first one load) | Oppo R11s, ColorOS 3.2, Android 7.1.1 (Nougat), Discord Alpha 6.8.3
+
+Cairo#2098 - Bug Bot on 2018-05-27T02:24:40.001Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Andy Garron on 2018-05-27T04:50:31.748Z
+
+
+### As of Alpha 6.9.5 I can repro again with a bit different steps:
+- Open Member list and Channel drawer at the same time
+- Switch to a server and then immediately switch to another server before the other one finished loading members. Both servers must not have their members already cached, so a Discord restart might be required before doing this. Also a slow connection is helpful in case member list loads so fast that you can't keep up.
+
+Alex1304#9704 - Bug Bot on 2018-06-17T11:56:47.909Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-21T05:07:27.479Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:11.828Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

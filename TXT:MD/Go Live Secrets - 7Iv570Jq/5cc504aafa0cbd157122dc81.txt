@@ -1,0 +1,62 @@
+Stream preview shows in debug menu when the stream is popped out (https://trello.com/c/SFMGJh60)
+
+Investigating
+
+Created: 2019-04-28T01:40:58.411Z
+Latest Update: 2019-08-11T05:29:43.948Z
+
+**Short Description:** Stream preview shows in debug menu when the stream is popped out
+**Steps to reproduce:**
+1. Watch someone streaming
+2. Open the popup
+3. Then go back to the client and click the i button next to the disconnect button
+4. Click the debug hyperlink
+5. Observe how the preview shows even though the player is popped out
+**Expected Result:** The preview doesn't show like it does everywhere else
+**Actual Result:** The preview shows with the screen saying "Player Popped Out"
+**Client Settings:** Canary 36529
+**System Settings:** Windows 10 Home x64 (1809)
+
+Card Log
+========
+### Added by TheForbiddenAi on 2019-04-28T01:40:58.411Z
+
+
+### h2fdrRX.png - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5cc504aafa0cbd157122dc81/f570c3aed17fed654e874f7ac92e28b8/h2fdrRX.png added by TheForbiddenAi on 2019-04-28T01:44:33.863Z
+
+
+### CR Canary 36529 -- Windows 10 Pro x64 v1809 Build 11875.1000 - webhp on 2019-04-28T01:46:11.220Z
+
+
+### Can Reproduce
+
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 36529 - Isabel Lomas on 2019-04-28T01:55:16.210Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by Isabel Lomas on 2019-04-28T01:55:24.491Z
+
+
+### Moved from Tested Bugs to Game Specific Issues by Athena Yao on 2019-05-31T01:29:24.869Z
+
+
+### Moved from Game Specific Issues to Claimed Fixed, Needs Verification by Athena Yao on 2019-05-31T01:38:36.773Z
+
+
+### CNR Canary 39690 -- Windows 10 Pro x64 v1903 18912.1001 - webhp on 2019-06-14T00:53:27.623Z
+
+
+### Moved from Claimed Fixed, Needs Verification to Verified Fixed by webhp on 2019-06-14T00:53:33.308Z
+
+
+### Can reproduce, Canary 43372 0.0.252 Windows 10 1903. - Tarek on 2019-08-11T05:29:36.355Z
+
+
+### Moved from Verified Fixed to Tested Bugs by Tarek on 2019-08-11T05:29:43.961Z
+
+List
+====
+Tested Bugs
+
+Members
+=======
+None

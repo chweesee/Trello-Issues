@@ -1,0 +1,73 @@
+[Archived] The captcha on firefox appears when loading and doesn't disappear until you click anywhere in the client. (https://trello.com/c/hWKYXPAR)
+
+None
+
+Created: 2018-06-02T02:04:10.617Z
+Latest Update: 2018-07-06T18:33:22.556Z
+
+Reported by Cairo#2098
+
+####Steps to reproduce:
+- Open firefox and make sure you aren't signed into any accounts 
+- Get an invite link and paste it in the URL bar 
+- Type in a random name 
+- Complete the captcha and don't click anywhere else apart from in the captcha 
+- Observe
+
+####Expected result:
+The captcha should go away after you have successfully verified and the green tick should appear.
+####Actual result:
+The captcha still appears after completion.
+####Client settings:
+Discord Stable Build 16234
+####System settings:
+Lenovo 7373FGM, 1280 x 1024 Display, Windows 10 Pro Insider Preview x64 v10.0.17677 Build 17677, Firefox Quantum 60.0.1
+
+13658
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-02T02:04:10.617Z
+
+
+### Cairo#2098 - https://youtu.be/12u7rQYzXpQ added by Bug Bot on 2018-06-02T02:04:13.097Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Firefox Quantum 60.0.1
+
+Realex78#2193 - Bug Bot on 2018-06-02T02:04:18.011Z
+
+
+### Can reproduce.
+Firefox Developer 61.0b10
+
+ash#0001 - Bug Bot on 2018-06-02T02:04:22.956Z
+
+
+### Can reproduce.
+Can reproduce Firefox 60.0.1 Windows 10 Pro x64 1803 (17134.48), Stable 16234
+
+oxygencraft#8884 - Bug Bot on 2018-06-02T02:04:28.065Z
+
+
+### Cannot reproduce. The captcha cleared immediately.
+
+FF 60.0.1 - Jared on 2018-06-04T17:42:31.656Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-06-04T17:42:36.481Z
+
+
+### Archiving as this ticket has been CNR for more than 30 days. - Jared on 2018-07-06T18:33:20.923Z
+
+
+### Archived by Jared on 2018-07-06T18:33:22.558Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

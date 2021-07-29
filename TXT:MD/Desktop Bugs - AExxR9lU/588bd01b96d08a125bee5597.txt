@@ -1,0 +1,75 @@
+[Archived] Being in wow then muting your mic with a hotkey then unmuting your microphone will break voice input (https://trello.com/c/2gztT2Es)
+
+P1: Severe
+
+Created: 2017-01-27T22:56:27.040Z
+Latest Update: 2017-10-17T20:25:38.816Z
+
+Reported by Cole#0440
+
+####Steps to reproduce: 
+
+- mute your mic with a hokey (Mine is shift + \) 
+- after a little bit (like 30+ seconds) unmute your mic, it will work for a little bit then completly break 
+- The only way to fix this is to restart discord completly 
+
+####Expected result:
+ Just unmutes normally 
+####Actual result:
+ Discord can no longer accept voice input till restarting it completly 
+####System settings:
+ windows 10 anni
+
+Card Log
+========
+### Added by Jared on 2017-01-27T22:56:27.040Z
+
+
+### Can reproduce.
+Was able to reproduce this in Blacklight Retribution last night. Using a Blue Snowball microphone (NOT iCE version!). Windows 10 x64 Pro on the latest Canary build.
+
+SuperSajuuk#7265 - Jared on 2017-01-27T22:56:27.657Z
+
+
+### Can reproduce.
+WoW
+
+Dabbit Prime#0896 - Jared on 2017-01-27T22:56:29.529Z
+
+
+### Can reproduce.
+Windows 10 Canary
+
+Ebear#8746 - Jared on 2017-01-27T22:56:31.637Z
+
+
+### Note: Must be in a voice channel with another user who is not muted. - Jared on 2017-01-27T23:01:11.973Z
+
+
+### awesome repro - looking into it now. sadly, m56 does not fix this - Ben Morse on 2017-01-27T23:32:28.155Z
+
+
+### when it breaks, the audio coming into the AudioInputPostProcessObserver is all zero amplitude (so VAD won't trigger, but even if it did, there's no audio to transmit) - Ben Morse on 2017-01-28T00:22:40.277Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-31T19:44:59.920Z
+
+
+### this was a webrtc bug, and -should- be fixed in latest canary! - Ben Morse on 2017-02-02T23:01:37.029Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-02-17T18:18:58.359Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:25:37.375Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:25:38.819Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

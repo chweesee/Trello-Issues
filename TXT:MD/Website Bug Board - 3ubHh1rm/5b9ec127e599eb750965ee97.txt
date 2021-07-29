@@ -1,0 +1,79 @@
+On the website, zh-HK should default to zh-TW instead of zh-CN. (https://trello.com/c/A8DLIbKu)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-16T20:46:31.340Z
+Latest Update: 2019-07-20T08:20:29.392Z
+
+Reported by Raymonf#0172
+
+####Steps to reproduce:
+- Go to your browser settings 
+- Add Chinese (Hong Kong) as the primary language 
+- Open  without being logged in
+
+####Expected result:
+Because Hong Kong is a country that uses the traditional script mainly, it should default to Chinese (Taiwan).
+####Actual result:
+It gives the Chinese (China) localization, which is simplified with different terminology.
+####Client settings:
+Release Channel: canary, Build Number: 23589, Version Hash: 4161549c3da529359ac49ee349c0ad229ba5e62b
+####System settings:
+Windows 10, Chrome
+
+19613
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-16T20:46:31.340Z
+
+
+### Can reproduce.
+CR, macos 10.12.6, chrome 68.0
+
+IcyPebbles#5833 - Bug Bot on 2018-09-16T20:46:38.716Z
+
+
+### Can reproduce.
+CR. macOS Sierra 10.12.6, Chrome 68.0 (64-bit)
+
+Rage#9991 - Bug Bot on 2018-09-16T20:46:43.784Z
+
+
+### Can reproduce.
+macOS Mojave 10.14; Chrome 68
+
+OrangeM24#5746 - Bug Bot on 2018-09-16T20:46:48.647Z
+
+
+### Can reproduce.
+Windows 10 1803, Chrome 69.0
+
+Frances Picard#6209 - Bug Bot on 2018-09-17T01:35:45.194Z
+
+
+### verified, macos 10.12.6, chrome 68.0 - Clayton on 2018-09-17T21:59:15.274Z
+
+
+### Can reproduce.
+Win10 x64 1803, Chrome 69.0
+
+Neiron#2406 - Bug Bot on 2018-09-18T09:15:38.384Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:51.912Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Pascal on 2019-07-20T08:20:18.738Z
+
+
+### Unarchived by Pascal on 2019-07-20T08:20:29.373Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

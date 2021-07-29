@@ -1,0 +1,126 @@
+[Archived] When game detection service is running and you use another app than Discord for a good while, going back to Discord may cause it to have trouble to connect to websocket (https://trello.com/c/3vwN3uHD)
+
+None
+
+Created: 2018-11-27T05:10:59.893Z
+Latest Update: 2019-06-05T23:46:59.921Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Enable game detection service  
+- Exit Discord 
+- Use another app or play a game for a good 2-3 minutes  
+- Reopen Discord, either via multi-tasking or via a push notification (for me the effect was more violent when opening through a push notification)
+
+####Expected result:
+Discord should connect just fine
+####Actual result:
+In the best case, your app will successfully connect but will still constantly throw errors in debug logs. In the worst case, Discord will be stuck in Connecting state with other errors in debug logs
+####Client settings:
+Discord Alpha 8.0.1
+####System settings:
+Huawei Mate 9 Android 8.0
+
+23666
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-27T05:10:59.893Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bfcd1e35c0e5f1fa7c11018/770aba805f542499901b0f7735035de7/IMG_20181127_030714.jpg added by Bug Bot on 2018-11-27T05:11:02.332Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bfcd1e35c0e5f1fa7c11018/94c78d35c982125fa960ccf148a2cf2f/IMG_20181127_030742.jpg added by Bug Bot on 2018-11-27T05:11:02.375Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bfcd1e35c0e5f1fa7c11018/821cfbfd79ce0d58703f1a39cc35b34d/IMG_20181127_031329.jpg added by Bug Bot on 2018-11-27T05:11:02.441Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8 Android 8.0- Alpha 8.0.1
+
+J1#0088 - Bug Bot on 2018-11-27T05:11:07.219Z
+
+
+### Can reproduce.
+Galaxy S9, Android 8.0.0, Alpha 8.0.1, Did not happen for me via multi tasking
+
+Wolftallemo#0666 - Bug Bot on 2018-11-27T05:11:12.281Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 8.0.1
+
+Hole#0001 - Bug Bot on 2018-11-27T05:11:17.232Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 8.0.1
+
+AmirAmani#0102 - Bug Bot on 2018-11-27T06:46:34.506Z
+
+
+### Can reproduce.
+CR. Tested with Ingress Prime. Oneplus 3, Android 9, Alpha 8.0.1
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-27T08:25:39.815Z
+
+
+### Can reproduce.
+Android 8.0.0, Zenfone 3, Discord Alpha 8.0.0
+
+MelodicStream#1336 - Bug Bot on 2018-11-27T13:45:26.813Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 Edge, Android 6.0.1 8.0.1
+
+M.A#4999 - Bug Bot on 2018-11-27T13:46:31.331Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 8.1 (Oreo) • Discord Alpha 8.0.1 (801) • reproduced this with DB Legends, which said it was detected, but not showing as status. Also was in DB Legends for only a few seconds.
+
+FoxyKero#9941 - Bug Bot on 2018-11-27T15:11:18.287Z
+
+
+### Can reproduce.
+Moto E5, Android 8.0.0, Discord 8.0.1
+
+Aya#5374 - Bug Bot on 2018-11-27T16:50:02.949Z
+
+
+### Moved from User Reported Bugs to Game Detection Bugs by Jeff Cailteux on 2018-11-27T17:48:00.715Z
+
+
+### Moved from Game Detection Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-11-27T22:11:01.546Z
+
+
+### Can reproduce.
+samsung s6 edge, android 7.0, alpha 8.0.1
+
+IcyPebbles#5833 - Bug Bot on 2018-11-28T03:02:42.853Z
+
+
+### Can reproduce.
+On 8.0.2 I can still reproduce this issue, however it doesn't occur instantly after enabling game detection. A few hours after enabling the detection service, I started getting the same errors again. Disabling and reenabling game detection cleared the errors, now let's see if I'll get them again
+
+Alex1304#9704 - Bug Bot on 2018-11-28T17:33:42.447Z
+
+
+### looks like it's been fixed, can't reproduce it on Discord Alpha 8.0.3
+
+emptixoTheSmoker#6252 - Bug Bot on 2018-11-29T10:26:57.306Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:59.939Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,138 @@
+When pressing on pinned audio and having multiple pinned audio files the audio stops (Tested and reproduced on Windows and Linux) (https://trello.com/c/DEexXSPU)
+
+None
+
+Created: 2019-06-28T14:06:49.034Z
+Latest Update: 2020-07-16T21:26:04.350Z
+
+Reported by HeavyBlurrySoul#0001
+
+####Steps to reproduce:
+- Drop 2 audio files in a channel  
+- pin both of them 
+- Hover over both of the audio files 
+- start playing one of the audio files 
+- go to pinned messages and press on a pinned audio file 
+- listen
+
+####Expected result:
+the audio should continue playing since jumping to a message from pins doesnt interact with that message
+####Actual result:
+The audio stops
+####Client settings:
+canary, Build Number: 39493
+####System settings:
+Arch linux 5.1.7-arch1-1-ARCH
+
+36899
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-28T14:06:49.034Z
+
+
+### HeavyBlurrySoul#0001 - https://youtu.be/JEAXXtCdiYU added by Bug Bot on 2019-06-28T14:06:52.033Z
+
+
+### Can reproduce.
+CR: Manjaro Linux Unstable, Xfce 4.13 Canary 40450
+
+chaNcharge#6969 - Bug Bot on 2019-06-28T14:06:56.962Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary 40489
+
+Lelantos#0001 - Bug Bot on 2019-06-28T14:07:01.983Z
+
+
+### Can reproduce.
+CR Ubuntu Budgie 18.04.2 LTS canary 40450
+
+GlenMerlin#2119 - Bug Bot on 2019-06-28T14:07:06.960Z
+
+
+### Can reproduce.
+Windows 10 Pro v1903 Canary  40489
+
+Daffy#7906 - Bug Bot on 2019-06-28T14:09:45.196Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.175), Discord Canary 40489
+
+||Kissa||#1337 - Bug Bot on 2019-06-28T14:12:23.225Z
+
+
+### Can reproduce.
+Windows 10 Professional Canary 40489
+
+Typhoon#1337 - Bug Bot on 2019-06-28T14:12:46.079Z
+
+
+### Can reproduce.
+Canary 40489, Host 0.0.245, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-06-28T17:53:49.681Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Discord Canary 40489.
+
+Alister#0018 - Bug Bot on 2019-06-28T21:12:07.717Z
+
+
+### Can reproduce.
+Windows 10 // Discord 40218
+
+Indiana#6009 - Bug Bot on 2019-06-29T01:11:32.864Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 40522
+
+Jasοn#7914 - Bug Bot on 2019-06-29T02:08:16.181Z
+
+
+### Can reproduce.
+Windows 10 (1809) x64, Canary 40489
+
+Scream#1337 - Bug Bot on 2019-06-29T02:27:49.322Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40522
+
+Lily#2624 - Bug Bot on 2019-06-29T12:43:20.724Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40522
+
+Xylium#5800 - Bug Bot on 2019-06-29T14:30:46.214Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Discord Canary 40489.
+
+Alister#0018 - Bug Bot on 2019-06-29T19:32:03.364Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64 [BUILD INFO] Release Channel: canary, Build Number: 40771, Version Hash: 762773b2b3c3969664191f2e0453280ed29d0392
+
+shard#9042 - Bug Bot on 2019-07-04T00:07:19.966Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 40795 (Host 0.0.246)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-05T20:41:25.106Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

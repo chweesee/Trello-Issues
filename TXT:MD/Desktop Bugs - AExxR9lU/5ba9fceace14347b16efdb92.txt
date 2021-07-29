@@ -1,0 +1,104 @@
+[macOS Mojave] Small white line on top of Discord window (https://trello.com/c/E8pnIosx)
+
+MOJAVE!
+
+Created: 2018-09-25T09:16:26.920Z
+Latest Update: 2019-09-23T22:30:07.490Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Use macOS Mojave  
+- Open Discord in window mode (not fullscreen) 
+- Observe the top of the Discord window
+
+####Expected result:
+There is a small white line on the top.
+####Actual result:
+There shouldn't be one.
+####Client settings:
+Canary Build 24492
+####System settings:
+MacBook Pro 13" (2016), macOS Mojave 10.14
+
+20018
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-25T09:16:26.920Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ba9fceace14347b16efdb92/4f70d99ea498c8f986471bd4e37cb7e2/9QPFhNQ.png added by Bug Bot on 2018-09-25T09:16:31.889Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS 10.14 Mojave - Canary Build 24492
+
+mrkirby153#7840 - Bug Bot on 2018-09-25T09:16:34.180Z
+
+
+### Can reproduce.
+Also present on PTB and Stable; macOS Mojave 10.14; Canary 24492
+
+OrangeM24#5746 - Bug Bot on 2018-09-25T09:16:39.203Z
+
+
+### Can reproduce.
+can reproduce Discord canary 24580 Macbook air 13" MacOS mojave 10.14
+
+Bencey_#8587 - Bug Bot on 2018-09-25T09:16:44.229Z
+
+
+### Can reproduce.
+MacBook Air 13" (2013) - MacOS Mojave 10.14 - Stable 24492
+
+Alpha#5960 - Bug Bot on 2018-09-25T09:20:21.160Z
+
+
+### This seems to be macOS behavior, maybe there is a workaround to prevent this white line or make it a bit thinner.
+
+Enable the macOS dark theme to see this issue, not really visible with light theme.
+
+Pascal#0929 - Bug Bot on 2018-09-25T14:19:36.390Z
+
+
+### Moved from User Reported Bugs to Mojave Specific Issues by Clayton on 2018-09-27T00:49:30.247Z
+
+
+### That might actually be an Electron or Chromium issue: https://github.com/electron/electron/issues/13164
+
+Pascal#0929 - Bug Bot on 2018-09-28T21:42:35.450Z
+
+
+### Can reproduce.
+Discord Canary Build 25046 on a MacBook Air 13" (Early 2014) running macOS Mojave 10.14
+
+ItsPugle#5963 - Bug Bot on 2018-09-29T12:17:04.309Z
+
+
+### Can reproduce.
+MacBook Pro 13", macOS Mojave 10.14, Canary 25046
+
+Alfie#1582 - Bug Bot on 2018-09-30T11:59:39.932Z
+
+
+### Also happens with the Discord Updater mini window
+
+Alfie#1582 - Bug Bot on 2018-10-20T15:47:10.912Z
+
+
+### Moved from Mojave Specific Issues to Verified Bugs by Clayton on 2018-10-26T20:00:32.052Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 37458
+
+Isabel#0002 - Bug Bot on 2019-05-11T10:14:12.720Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

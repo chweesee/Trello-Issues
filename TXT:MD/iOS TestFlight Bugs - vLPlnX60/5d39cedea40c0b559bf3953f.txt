@@ -1,0 +1,132 @@
+[Archived] Server folders will be shown with grey color when iOS action sheets are opened (https://trello.com/c/ZY83Uehx)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-07-25T15:46:39.041Z
+Latest Update: 2019-12-03T09:00:02.414Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create a server folder with a different color than grey 
+- Go to any text channel 
+- Make sure the server list is opened 
+- Long hold the channel
+
+####Expected result:
+The server folders should keep the original color.
+####Actual result:
+The server folders are shown with grey color when they are shown in the background behind an action sheet
+####Client settings:
+TestFlight 3.0.8 (16436)
+####System settings:
+iPhone 8 Plus & iPad Pro 11" - iOS 12.4
+
+40513
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-25T15:46:39.041Z
+
+
+### Can reproduce.
+CR; iPhone 8, iOS 13 Dev Beta 4 - Discord TestFlight 3.0.8 (16436)
+
+Arnold0#7514 - Bug Bot on 2019-07-25T15:46:46.689Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.8 (16436)
+
+Daffyduck#5364 - Bug Bot on 2019-07-25T15:46:51.713Z
+
+
+### Can reproduce.
+CR. iPhone XR - iOS 13.0 - TestFlight 3.0.8 (16436)
+
+Rage#9991 - Bug Bot on 2019-07-25T15:46:56.712Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 13 (Public Beta) - TestFlight 3.0.8 (16488)
+
+ThomasR#4323 - Bug Bot on 2019-07-26T09:14:45.503Z
+
+
+### Can reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 4) - TestFlight 3.0.8 (16488)
+
+Xylium#5800 - Bug Bot on 2019-07-26T19:37:40.597Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 6, iOS 12.4 Dev Beta 5 — TestFlight 3.0.8 (16488).
+
+Nith#1337 - Bug Bot on 2019-07-27T09:06:54.081Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.8 (16488)
+
+binchlord#0998 - Bug Bot on 2019-07-30T04:16:31.666Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13.0 (17A5522f) - TestFlight 3.0.8 (16488)
+
+Isabel#0002 - Bug Bot on 2019-08-01T00:12:13.899Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-08-02T19:00:06.532Z
+
+
+### Can reproduce.
+Also happens with the status icon in an user profile.
+
+IslaWoof#2222 - Bug Bot on 2019-08-06T15:07:59.242Z
+
+
+### Can reproduce.
+iPhone se and iPad 5, iOS 12.3.1, TestFlight 3.1.2
+
+Timemaster111#8292 - Bug Bot on 2019-09-02T12:50:06.186Z
+
+
+### Can reproduce.
+iPad (6th generation) - iOS 12.4.1 - TestFlight 3.1.1
+
+TBS | Best_Pro#7066 - Bug Bot on 2019-09-11T23:28:53.780Z
+
+
+### Can reproduce.
+iPad 6th generation, iPadOS 13.1 dev beta 4, TestFlight 3.1.2 (17237)
+
+Keons#0001 - Bug Bot on 2019-09-21T10:22:13.447Z
+
+
+### forgot to add a note in my CR about how this also affects the add server button, status icons, channel icons (barely noticeable by a few shades), etc.
+
+Keons#0001 - Bug Bot on 2019-09-21T10:26:24.137Z
+
+
+### That might actually be intended because you can also observe that in other first party iOS apps.
+
+But I think only buttons/elements should be grayed out when they are clickable. - Pascal on 2019-10-09T14:14:51.846Z
+
+
+### Can reproduce.
+iPhone 7 Plus - iOS 13.1.2 - TestFlight 3.1.6 (18021)
+
+Ayu#0001 - Bug Bot on 2019-11-03T08:31:21.881Z
+
+
+### Archived by Bug Bot on 2019-12-03T09:00:02.438Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

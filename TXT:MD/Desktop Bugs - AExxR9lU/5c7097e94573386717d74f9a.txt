@@ -1,0 +1,111 @@
+[Archived] Game modals shrink in width when on the lower half of the screen (https://trello.com/c/TI3bsYx2)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-02-23T00:46:33.631Z
+Latest Update: 2019-10-23T23:03:12.405Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Go to the new activity tab 
+- Click on a game icon that's near the top of the screen 
+- Observe the width of the modal 
+- Click on one of the game icons near the bottom of the screen 
+- Observe the width of the game modal
+
+####Expected result:
+Game modals are always the same width and height
+####Actual result:
+Game modals opened from the lower part of the screen have less width and more height than those opened near the top
+####Client settings:
+Canary Build 32668 Host 0.0.232
+####System settings:
+Windows 10 Home x64 1809
+
+29565
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-23T00:46:33.631Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7097e94573386717d74f9a/239352c279a816c8d1ee03c663ed8391/bc370f.png added by Bug Bot on 2019-02-23T00:46:37.136Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7097e94573386717d74f9a/574dd65d99f0e810d17b88e0f1a0f198/5701de.png added by Bug Bot on 2019-02-23T00:46:37.376Z
+
+
+### Can reproduce.
+Can reproduce. When the game icon is just barely below the halfway point, the top of the popup gets clipped off by the top of the screen as well. Windows 10 Home x64 (1809), Canary 32668
+
+Solo#0007 - Bug Bot on 2019-02-23T00:46:41.057Z
+
+
+### Can reproduce.
+CR: Windows 10 x64 Professional Canary 32668
+
+Darth#9386 - Bug Bot on 2019-02-23T00:46:46.122Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32668
+
+Daffyduck#5364 - Bug Bot on 2019-02-23T00:46:51.113Z
+
+
+### Can reproduce.
+CR - Windows 10 Pro x64 Canary 32668
+
+Delite#0001 - Bug Bot on 2019-02-23T01:23:29.244Z
+
+
+### Can reproduce.
+CR; Canary: 32668, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-23T05:34:55.882Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 - Chrome 72.0.3626.117 (x64) - Web Canary 32668
+
+Casper#9999 - Bug Bot on 2019-02-23T06:53:46.979Z
+
+
+### Can reproduce.
+Windows 10 home 64bit, Release Channel: stable, Build Number: 32470, Version Hash: f0f7fcf0c570893de08e915de9c9e78a3d2c5eef
+
+Mr. Proper#2394 - Bug Bot on 2019-02-23T08:09:37.216Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32668
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-23T13:24:27.618Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), canary 32668
+
+Defracted#1337 - Bug Bot on 2019-02-23T15:58:47.914Z
+
+
+### Can reproduce.
+W10 Pro x64 (1809), Canary 32668
+
+dafaqed#1312 - Bug Bot on 2019-02-24T14:14:27.078Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-26T23:58:57.490Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:12.421Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

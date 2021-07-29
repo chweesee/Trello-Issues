@@ -1,0 +1,109 @@
+[Archived] Attempting to DM a member of a server you're lurking and then joining the server afterwards will break the user's profile. (https://trello.com/c/AJYFb8Yi)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-16T02:23:52.437Z
+Latest Update: 2019-05-01T22:30:03.251Z
+
+Reported by jhmaster2000#0360
+
+####Steps to reproduce:
+- Go to Server Discovery 
+- Click View on any server (Ex: Move or Die) 
+- Pick someone on the user list that is not a bot and has a role, then open their full profile 
+- Check if you dont have any mutual servers with them 
+- Click the menu button next to Send Friend Request to open the menu and select "Message" 
+- Attempt to DM them something, it should fail due to no servers in common 
+- Go back to Server Discovery and view the same server 
+- Open the mini-profile of the user you attempted to DM, it should still display his roles 
+- With the mini-profile still open, click Join on the Server Discovery prompt to join the server 
+- Watch as the roles of the user you attempted to DM before disappear and Discord treats them as a user that left the server.
+
+####Expected result:
+The DM'ed user's roles display as usual
+####Actual result:
+Their mini-profile displays like the one of someone who left the server. (No roles section/Quick message box)
+####Client settings:
+Canary 33990
+####System settings:
+Win 10 Pro x64 (1809)
+
+31071
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-16T02:23:52.437Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home x64 (1809), Canary 33990
+
+TheForbiddenAi#7549 - Bug Bot on 2019-03-16T02:23:59.905Z
+
+
+### Can reproduce.
+Can Reproduce, W10 Home x64, 1809 17763.379, Release Channel: canary, Build Number: 33990
+
+c1rcl#1337 - Bug Bot on 2019-03-16T02:24:04.919Z
+
+
+### Can reproduce.
+Windows 10 Pro 1809 (OS Build 17763.379), Discord Canary 33990
+
+Kissa#1337 - Bug Bot on 2019-03-16T02:24:09.933Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Canary 33990
+
+average idiot on the internet#0274 - Bug Bot on 2019-03-16T02:31:33.533Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 33990
+
+Daffyduck#5364 - Bug Bot on 2019-03-16T02:58:11.718Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 33990
+
+Clay#0001 - Bug Bot on 2019-03-16T03:59:09.740Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 33990
+
+-40 °C = -40 °F#2020 - Bug Bot on 2019-03-16T04:39:36.925Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809)
+
+tech_dude1#9855 - Bug Bot on 2019-03-16T06:16:45.307Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64) · Web Canary 34126
+
+Casper#9999 - Bug Bot on 2019-03-16T06:31:04.297Z
+
+
+### Can reproduce.
+Canary: 34126, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-16T14:58:39.369Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-04-01T22:01:45.783Z
+
+
+### Archived by Bug Bot on 2019-05-01T22:30:03.268Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

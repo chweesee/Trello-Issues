@@ -1,0 +1,89 @@
+[Archived] control+tab and control+shift+tab switch server shortcuts do not work if message bar is in focus (https://trello.com/c/UbP3xWIE)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-07-03T20:20:28.988Z
+Latest Update: 2019-01-01T15:35:12.651Z
+
+Reported by Muffinlord#3403
+
+####Steps to reproduce:
+- press control+tab or control+shift+tab when the message bar is in focus
+
+####Expected result:
+Discord switches to the next server (or wraps around to last DM or friends/game tab). Discord switches down if control+tab was pressed and up if control+shift+tab was pressed.
+####Actual result:
+Nothing happense
+####Client settings:
+Canary build 18108
+####System settings:
+Windows 8.1 64 bit (wont be reproduceable on web as control+tab and control+shift+tab change tabs in most browsers)
+
+15110
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-03T20:20:28.988Z
+
+
+### Can reproduce.
+Can reproduce (only Canary) | Discord 18108 - Windows 10 Family Insider Preview, Build 17704
+
+Harfeur#3633 - Bug Bot on 2018-07-03T20:20:36.369Z
+
+
+### Can reproduce.
+[CR] Discord Canary 18108 - Windows 10 Pro x86_64 (v1803)
+
+💖 Cecillia 💖#0001 - Bug Bot on 2018-07-03T20:20:41.418Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64, Release Channel: canary, Build Number: 18108, Version Hash: 37823a4013302e76fd7f8f7f59b906bb4ce278bf
+
+zabszk#5292 - Bug Bot on 2018-07-03T20:20:46.387Z
+
+
+### verified, macos 10.12.6, 18108 - Clayton on 2018-07-03T20:25:38.023Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-03T20:25:46.011Z
+
+
+### Can reproduce.
+Discord Canary, Build Number: 18108 System Settings: Windows 10 x64 (1803 Update)
+
+Procrastinator Adam#4226 - Bug Bot on 2018-07-05T20:33:01.938Z
+
+
+### Can't reproduce.
+I am not able to reproduce this anymore as of 18854. m
+
+Rage#9991 - Bug Bot on 2018-07-16T11:03:22.376Z
+
+
+### Can't reproduce.
+I am not able to reproduce this anymore as of 18854. Macbook Air (Early 2015), macOS Sierra 10.12.6 Discord Canary (Build 18854)
+
+Rage#9991 - Bug Bot on 2018-07-16T11:03:29.527Z
+
+
+### can no longer reproduce - Clayton on 2018-10-04T01:16:09.671Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-04T01:16:14.452Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:35:11.884Z
+
+
+### Archived by Tarek on 2019-01-01T15:35:12.653Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

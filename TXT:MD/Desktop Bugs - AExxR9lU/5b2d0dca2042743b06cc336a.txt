@@ -1,0 +1,80 @@
+[Archived] Pressing F while watching a YouTube video in the Games tab makes the video restart (https://trello.com/c/hPHk8UBl)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-22T14:55:06.092Z
+Latest Update: 2018-08-21T23:34:14.268Z
+
+Reported by νøιdeη#7878
+
+####Steps to reproduce:
+- Go to the Games tab 
+- Play a YouTube video 
+- Pause and play the video to make it focused (else the player won't recognize the keystrokes) 
+- press F
+
+####Expected result:
+The video is supposed to enter fullscreen mode and keep playing
+####Actual result:
+The player goes into fullscreen mode for a split second, then exits, then you jump to the top of the page again, and then the video starts over again. Also if you ARE in fullscreen mode and press esc, you exit fullscreen, go to the top, and the video starts over. The same thing also happens when you've started a youtube video and the page gets updated (someone starts/stops playing a game)
+####Client settings:
+Release Channel: stable, Build Number: 17491, Version Hash: 94bdaea25aa31a3d69a408a644701345e9ff7a83
+####System settings:
+Windows 10, version 1803, OS build 17134.112
+
+14586
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-22T14:55:06.092Z
+
+
+### Can reproduce.
+Can Reppro - Windows 10 Pro x64 Release Channel: stable, Build Number: 17491
+
+OmnesTV 💔#0001 - Bug Bot on 2018-06-22T14:55:13.589Z
+
+
+### Can reproduce.
+Can Reproduce - Macbook Pro 2017 (13" with Touchbar), macOS High Sierra 10.13.4. Discord Stable Build: 17491.
+
+CustomName#9999 - Bug Bot on 2018-06-22T14:55:18.607Z
+
+
+### Can reproduce.
+Can reproduce, same problem when exiting fullscreen - Windows 10 Family Insider Preview, Build 17692
+
+Harfeur#3633 - Bug Bot on 2018-06-22T14:55:23.618Z
+
+
+### Can reproduce.
+Windows 10, 64-bit (v1709) Canary 17486
+
+Anima Vestra#2216 - Bug Bot on 2018-06-22T16:07:48.761Z
+
+
+### verified, windows 10, canary 17529 - Clayton on 2018-06-22T21:15:41.124Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-22T21:15:48.671Z
+
+
+### Cannot reproduce anymore, Canary 18051. Moving to claimed fixed. - Tarek on 2018-07-02T17:54:51.958Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-02T17:54:55.968Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:34:13.439Z
+
+
+### Archived by Jared on 2018-08-21T23:34:14.270Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

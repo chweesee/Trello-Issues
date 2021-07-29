@@ -1,0 +1,37 @@
+[Archived] Desktop: Creating a new role doesn't inherit current @everyone permissions; pulls server default permissions. (https://trello.com/c/rIirGShg)
+
+P2: Fix can wait a while
+
+Created: Unknown
+Latest Update: 2017-10-17T20:27:06.365Z
+
+Steps to Reproduce:
+
+1) Progress to the Roles tab of Server Settings.
+2) Edit the Everyone permission to have any set of basic permissions.
+3) Click on the "Roles +" button.
+
+Buggy event:  The basic set of permissions the new role is given upon creation is different from the base set in the everyone role.
+
+Expected: The basic set of permissions is identical to those in the edited everyone role.
+
+Card Log
+========
+### This was fixed a long time ago. - Jared on 2017-07-31T22:08:44.513Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T22:08:47.790Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:27:05.267Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:27:06.368Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

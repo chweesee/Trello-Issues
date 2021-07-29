@@ -1,0 +1,200 @@
+When using an emoji or formatted text before an inline code block, an extra backtick is added. (https://trello.com/c/vv5X8oE4)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2019-08-31T03:13:33.278Z
+Latest Update: 2019-09-18T21:45:28.847Z
+
+Reported by logan#0001
+
+####Steps to reproduce:
+- Type an emoji or formatted text (bolded, italics, etc.) 
+- Type an inline code block afterwards.
+
+####Expected result:
+An extra backtick should not be added.
+####Actual result:
+An extra backtick is added and can really mess up the formatting of a message if there are multiple code blocks.
+####Client settings:
+Release Channel: canary, Build Number: 44861, Version Hash: 7b48adaadc18a1ce51a90138856d63e6da701cd1
+####System settings:
+Windows 10 Enterprise Build
+
+43150
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-31T03:13:33.278Z
+
+
+### Jeffrey#1234 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d69e5ddb02ff01625f1ea12/d23f3eb6aa57f9b6bc44b9fe43473c69/u91cEaM.png added by Bug Bot on 2019-08-31T03:13:36.457Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64: 1903, Canary 44861
+
+Sanjay#0540 - Bug Bot on 2019-08-31T03:13:40.982Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 44861
+
+CominAtYou#2626 - Bug Bot on 2019-08-31T03:13:45.983Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 x64 v1803 x Discord Canary 44861 x Host 0.0.256
+
+Error 404#4040 - Bug Bot on 2019-08-31T03:13:50.982Z
+
+
+### Can reproduce.
+CR, stable 44861, Win10 v1709 x64 build 16299.665 Education, chrome dev v78.3887+
+
+hopeless#1227 - Bug Bot on 2019-08-31T03:14:45.451Z
+
+
+### Can reproduce.
+Windows 8.1 Canary 44861
+
+Danny#0007 - Bug Bot on 2019-08-31T08:40:03.725Z
+
+
+### Can reproduce.
+Windows 10 x64 - Canary 44861
+
+Hagen#0001 - Bug Bot on 2019-08-31T09:30:22.310Z
+
+
+### Can reproduce.
+CR, stable 44861, Windows 10  Home x64 1903
+
+Evildog255#4816 - Bug Bot on 2019-08-31T09:46:42.996Z
+
+
+### Verified » Windows 10 Pro x64, Discord Canary 44861
+
+This only happens if either a linebreak or space was added in between the formatted text and the codeblock; and it will look as if there is no space/linebreak when posted. Still shows it correctly when trying to edit. Behaves "normally" if no space was added. - Aeria on 2019-08-31T10:30:27.949Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Aeria on 2019-08-31T10:30:42.005Z
+
+
+### Can reproduce.
+CR - Windows 10 Home x64 (1903) - Discord Canary 44861
+
+TBS | Best_Pro#7066 - Bug Bot on 2019-08-31T11:15:14.396Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1803), Canary 44861
+
+Augy.#8622 - Bug Bot on 2019-08-31T14:45:26.984Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 44861
+
+Neiron#8475 - Bug Bot on 2019-08-31T16:08:18.653Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary 44861
+
+Affluent Avo#6099 - Bug Bot on 2019-08-31T16:13:43.474Z
+
+
+### Can reproduce.
+Windows 10 x64 (1903) , Discord Canary 44861
+
+Camil35#8658 - Bug Bot on 2019-08-31T17:19:02.972Z
+
+
+### Can reproduce.
+Canary 44861, Windows 7 64-bit
+
+Skyla#6111 - Bug Bot on 2019-08-31T17:24:14.300Z
+
+
+### Can reproduce.
+Discord 0.0.255 (0.0.255)
+macOS 10.13.6
+MacBookPro8,2
+
+MeLlamanHokage#6774 - Bug Bot on 2019-08-31T17:32:48.714Z
+
+
+### Seems fixed on Windows 10 Pro x64, Discord Canary 44893 - Aeria on 2019-08-31T18:32:51.476Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-08-31T18:32:55.950Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 v1903 Build 18912.1001 - Discord Canary v0.0.254 Build 44893
+
+webhp#1337 - Bug Bot on 2019-08-31T18:33:53.786Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 v1903 Build 18912.1001 - Discord Canary v0.0.256 Build 44893
+
+webhp#1337 - Bug Bot on 2019-08-31T18:35:01.284Z
+
+
+### Can't reproduce.
+Windows 10 Home v1903 x64 - Discord Canary 44893
+
+Daffyduck#5364 - Bug Bot on 2019-08-31T18:35:29.830Z
+
+
+### Can't reproduce.
+Windows 10 Home; Canary Build 44893 (Host 0.0.256)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-31T18:35:46.628Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-08-31T18:35:47.236Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 44896
+
+B.O.S.S#0251 - Bug Bot on 2019-08-31T20:14:31.448Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Aeria on 2019-09-01T11:14:29.129Z
+
+
+### Can't reproduce.
+Windows 10 x64 Build: 44909
+
+Scrumpy#0200 - Bug Bot on 2019-09-01T14:25:25.475Z
+
+
+### Can reproduce.
+iPad (6th Generation)
+iOS 13.1
+
+MeLlamanHokage#6774 - Bug Bot on 2019-09-01T17:07:12.940Z
+
+
+### Can reproduce.
+iPhone 6, TestFlight 3.1.2 (17133)
+
+TollyThaWally#1621 - Bug Bot on 2019-09-02T08:52:57.596Z
+
+
+### Can't reproduce.
+Windows 10 pro 1903, canary 44930
+
+Drachenfrucht1#4901 - Bug Bot on 2019-09-03T12:44:54.539Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

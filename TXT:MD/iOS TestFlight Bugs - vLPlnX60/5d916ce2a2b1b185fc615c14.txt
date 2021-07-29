@@ -1,0 +1,96 @@
+[Archived] When on an external call (Like a phone call), you cannot play video files on iOS (https://trello.com/c/jLMMlE2U)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2019-09-30T02:48:02.986Z
+Latest Update: 2019-12-01T12:00:02.958Z
+
+Reported by Ayu#0001
+
+####Steps to reproduce:
+- Be in an external call (Like a phone call). If you don't have a friend, you can try dialing your own phone number (It worked for me to allow enough time to repro, but it may be provider-dependent to call yourself) 
+- Try to click the "Play" button on a video file in Discord
+
+####Expected result:
+The video should play; The audio should be a bit lower since you are also in an external call
+####Actual result:
+The video does not play at all. Clicking the play button causes it to go away for a second and then reappear.
+####Client settings:
+TestFlight 3.1.3 (17389)
+####System settings:
+iPhone 7 Plus - iOS 13.0
+
+44894
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-30T02:48:02.986Z
+
+
+### Can reproduce.
+CR only with iOS CallKit Integration disabled iPhone XR iOS 13.1 TestFlight 3.1.3 (17389)
+
+binchlord#0998 - Bug Bot on 2019-09-30T02:48:10.612Z
+
+
+### Can reproduce.
+cr with callkit off iPhone 6s iOS 13.1 (beta 4) TestFlight 3.1.3 (17341)
+
+GlenMerlin#2119 - Bug Bot on 2019-09-30T02:48:15.603Z
+
+
+### Can reproduce.
+Cr with both iOS CallKit Integration on and off. It also works with FaceTime + FaceTime audio. iPhone 8, iOS 13.1 (Dev Beta 4), TestFlight 3.1.3 (17389)
+
+.Gloria.#9606 - Bug Bot on 2019-09-30T02:48:20.626Z
+
+
+### Can reproduce.
+CR (Can Reproduce) • iPhone 6s - iOS 13.0 - TestFlight 3.1.3 (17389). This bug works also with FaceTime.
+
+Freiik#9999 - Bug Bot on 2019-09-30T04:00:55.935Z
+
+
+### Can reproduce.
+Could reproduce, Iphone 7 Plus iOS 13.1, TestFlight 3.1.3 (17389)
+
+Action Potential#6862 - Bug Bot on 2019-09-30T04:08:10.073Z
+
+
+### Can't reproduce.
+Cannot reproduce, iPhone X (iOS 13.1.1), Testflight 3.1.3 (17389)
+
+MikeTheSpike#0350 - Bug Bot on 2019-09-30T04:18:08.708Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.1.2 - Stable 3.1.3
+
+Xylium#5800 - Bug Bot on 2019-09-30T21:15:54.149Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.2; TestFlight 3.1.3 (17389)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-01T00:10:19.139Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-11T19:00:12.156Z
+
+
+### Can't reproduce.
+can no longer reproduce iPhone XR iOS 13.2 TestFlight 3.1.6 (17924)
+
+binchlord#0998 - Bug Bot on 2019-11-01T11:58:52.194Z
+
+
+### Archived by Bug Bot on 2019-12-01T12:00:02.970Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

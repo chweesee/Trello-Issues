@@ -1,0 +1,88 @@
+Pasted images cannot be previewed correctly in a browser (https://trello.com/c/RCl3UqGq)
+
+mid,
+P2 - Can wait a while
+
+Created: 2018-08-07T01:04:18.835Z
+Latest Update: 2019-10-10T12:14:25.219Z
+
+Reported by mouse#0091
+
+####Steps to reproduce:
+- Go to Settings -> Web Browser and select In-App Browser or Safari 
+- Go to any text channel 
+- Paste any image into the text field 
+- Tap the image to load the preview 
+- Tap the ellipses (3 dots) and then Open in Browser
+
+####Expected result:
+The browser should open and display the image. Alternatively, the Open in Browser option should be removed for pasted images
+####Actual result:
+The browser opens and displays an error message stating the URL cannot be shown, with a partial data URI in the address bar
+####Client settings:
+TestFlight 2.3.6 (6427)
+####System settings:
+iPhone X, iOS 12 (dev beta 6)
+
+17064
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-07T01:04:18.835Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 5, TestFight 2.3.6 (6427) - Same applies for the copy image feature
+
+Pascal#0929 - Bug Bot on 2018-08-07T01:04:26.188Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS 12 Dev Beta 5, TestFlight 2.3.6 (6427)
+
+Mustard#2117 - Bug Bot on 2018-08-07T01:04:31.372Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 12 Dev Beta 5, Testflight 2.3.6 (6427)
+
+TheMegaEagle#9909 - Bug Bot on 2018-08-07T01:04:36.193Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.4.1, TestFlight 2.3.6 (6427)
+
+Mippy#0001 - Bug Bot on 2018-08-07T04:02:18.745Z
+
+
+### Can't reproduce.
+iPhone 8+ RED  ios 12 Beta
+
+Krokofant#3521 - Bug Bot on 2018-08-07T06:57:41.606Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 5) - TestFlight 2.3.6 (6427)
+
+Xylium#1480 - Bug Bot on 2018-08-07T07:53:31.864Z
+
+
+### mouse#0091 - https://www.youtube.com/watch?v=kLHQwqW2lPk added by Bug Bot on 2018-08-07T10:32:16.867Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-08-23T21:40:16.127Z
+
+
+### The ticket is partially blocked because the open in browser option got removed and it is unclear whether this was intended.
+
+The copy image issue mentioned below still happens.
+
+Update: The feature was removed intentionally, so only the copy image issue is still valid. - Pascal on 2019-08-23T14:09:44.360Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

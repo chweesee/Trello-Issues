@@ -1,0 +1,78 @@
+[Archived] Spellcheck seems to treat a word as two words if there's a wrong punctuation. (https://trello.com/c/gmY8ZEPM)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-02-16T20:37:58.522Z
+Latest Update: 2018-05-22T03:35:59.403Z
+
+Reported by Kuuhaku#4503
+
+####Steps to reproduce:
+- Type any word with a punctuation in it (should not be an apostrophe) such as `l;ife`, `l;ook`, `m,ine`, `p[ine` etc 
+- Attempt to correct the typo you've made
+
+####Expected result:
+The entire word should have a redline under it and should give you options to correct the typo
+####Actual result:
+Spellcheck treats it as two different words and only has a redline on the letters before and/or after the punctuation and only gives you option to correct those letters and not the word itself
+####Client settings:
+Canary Build 10878
+####System settings:
+macOS 10.12.6
+
+8860
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-16T20:37:58.522Z
+
+
+### Can reproduce.
+CR. Windows 10 Insiders V17035. Discord Canary 10878.
+
+Tiger Gaming HD X#9194 - Bug Bot on 2018-02-16T20:38:05.971Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 10878
+
+mrkirby153#7840 - Bug Bot on 2018-02-16T20:38:10.921Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10878
+
+webhp#1337 - Bug Bot on 2018-02-16T20:38:16.017Z
+
+
+### Verified, but this sounds like it could be intentional. - Jared on 2018-02-20T21:33:07.113Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-20T21:33:11.106Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary Build nº 11430, Version Hash 1b951ef9aa3e9933d540bcf2fef73501b71f113e
+
+PillGP#2767 - Bug Bot on 2018-03-03T00:25:05.915Z
+
+
+### Not a bug as per Stan's comment here: https://cdn.discordapp.com/attachments/420995378582913030/423584178865438720/unknown.png - Jared on 2018-03-22T18:24:33.280Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2018-03-22T18:24:38.310Z
+
+
+### Archived due to being inactive for a month in the NAB list without further action. - Tarek on 2018-05-22T03:35:57.394Z
+
+
+### Archived by Tarek on 2018-05-22T03:35:59.406Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

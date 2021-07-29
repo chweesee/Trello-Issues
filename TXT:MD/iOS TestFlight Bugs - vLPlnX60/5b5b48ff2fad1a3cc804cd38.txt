@@ -1,0 +1,178 @@
+[Archived] [Master Ticket] Tapping objects multiple times that only handle single taps causes it to break (https://trello.com/c/leSrj5oX)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-07-27T16:31:59.431Z
+Latest Update: 2020-06-22T15:00:02.824Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Have someone add a reaction to a message 
+- Quickly tap the reaction multiple times (I tapped twice each time) 
+- Observe what happens to the reaction 
+- Repeat tapping the reaction quickly multiple times, observing what happens each time
+
+####Expected result:
+Discord registers the number of taps you do
+####Actual result:
+Discord registers the wrong number of taps
+####Client settings:
+TestFlight 2.3.6 (6095)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 4
+
+16133
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-27T16:31:59.431Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+» a r i a#1593 - Bug Bot on 2018-07-27T16:32:06.881Z
+
+
+### Can reproduce.
+can reproduce, iOS 11.3.1, iPhone 6s, TestFlight 2.3.6 (6095)
+
+brxxn#0632 - Bug Bot on 2018-07-27T16:32:11.808Z
+
+
+### Can reproduce.
+CR, TestFlight 2.3.6 (6094), iOS 11.4.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-07-27T16:32:16.942Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12 (dev beta 4), TestFlight 2.3.6 (6095)
+
+Xylium#1480 - Bug Bot on 2018-07-27T19:31:43.868Z
+
+
+### Can reproduce.
+iPhone 6s - iOS 11.0 - TestFlight 2.3.6 (6095)
+
+Rage#9991 - Bug Bot on 2018-07-27T21:12:37.712Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1, TestFlight 2.3.1 (4025)
+
+InkxtheSquid#0069 - Bug Bot on 2018-07-27T22:39:15.578Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 12 Dev beta 4, Testflight 2.3.6 (6095)
+
+TheMegaEagle#9909 - Bug Bot on 2018-07-27T22:51:15.153Z
+
+
+### Can reproduce.
+CR: iOS 12 Dev Beta 4, Testflight 2.3.6 (6095), iPhone 8+
+
+TheMegaEagle#9909 - Bug Bot on 2018-07-27T22:56:52.269Z
+
+
+### Can reproduce.
+iOS 12 (PTB #3), Discord TestFlight 2.3.6
+
+Marc#5983 - Bug Bot on 2018-07-28T06:01:40.446Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+Mippy#0001 - Bug Bot on 2018-07-29T08:52:25.667Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th generation, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-07-29T19:58:35.310Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.2.1, TestFlight 2.3.6 (6095)
+
+Pyros#2326 - Bug Bot on 2018-07-30T02:36:03.654Z
+
+
+### I can also reproduce on Android (Samsung Galaxy J7 running Android 7.0 Discord Alpha 7.2.6 (726)) so it seems to be cross-platform
+
+FoxyKero#9941 - Bug Bot on 2018-08-05T04:09:05.989Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-08-23T21:40:17.119Z
+
+
+### Archived by Clayton on 2018-09-22T22:00:04.204Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS 12.1.3, TestFlight 2.4.4 (10936)
+
+Pascal#0929 - Bug Bot on 2019-01-30T18:32:40.589Z
+
+
+### Unarchived by Bug Bot on 2019-01-31T20:09:10.603Z
+
+
+### https://cdn.discordapp.com/attachments/420995378582913030/477226842856620032/unknown.png - Jared on 2019-02-06T02:27:21.859Z
+
+
+### Archived by Bug Bot on 2019-05-09T20:30:09.141Z
+
+
+### Unarchived by Pascal on 2019-09-29T08:16:36.454Z
+
+
+### Can reproduce.
+iPhone SE iOS 12.4.1, 3.1.5 (17627)
+
+Short description: In settings if you press close and press any option at the right time, the wrong screen is displayed when opened again.
+Steps to reproduce: 
+- Open the user settings menu. 
+- When you are in the user settings menu, hold the close button and while it closes, try to press an option in the settings menu, for example ''connections'' 
+- You can see the user settings menu swiping to the left. 
+- When closed, open the user settings menu again and observe. 
+- Down below you can find a video tutorial on how to reproduce this bug!
+Expected result: When pressed on the user settings icon, you should always be redirected to main user settings section.
+Actual result: The section you went to while closing user settings is still being displayed when opening user settings again.
+
+Video Tutorial: https://youtu.be/ggnK0HYxZb8
+
+Red~#6439 - Bug Bot on 2019-10-13T22:29:59.348Z
+
+
+### Archived by Bug Bot on 2019-11-16T13:30:03.126Z
+
+
+### Can reproduce.
+Iphone 11, IOS 13.3; TestFlight 3.1.9 (18591)
+
+kitten#6660 - Bug Bot on 2019-12-19T05:14:59.628Z
+
+
+### Unarchived by Bug Bot on 2019-12-19T05:30:05.419Z
+
+
+### Archived by Bug Bot on 2020-01-18T06:00:03.018Z
+
+
+### Unarchived by Daffyduck on 2020-05-23T14:48:14.098Z
+
+
+### Archived by Bug Bot on 2020-06-22T15:00:02.839Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

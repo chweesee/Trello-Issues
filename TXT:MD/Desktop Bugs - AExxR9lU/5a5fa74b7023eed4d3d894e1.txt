@@ -1,0 +1,93 @@
+[Archived] Discord fails to display few plural forms (https://trello.com/c/NwPuSuMp)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-01-17T19:43:07.666Z
+Latest Update: 2018-10-22T20:17:57.854Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Find a crowdin translation that uses the few plural argument  
+- View the translation on Discord in a case in which the few plural form should be displayed
+
+####Expected result:
+Discord should display the few plural form
+####Actual result:
+Discord ignores the few plural form and displays the other plural form instead
+####Client settings:
+Discord Canary, Build 9591
+####System settings:
+Windows 10 Home 64-bit, v1709
+
+7880
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-17T19:43:07.666Z
+
+
+### Can reproduce.
+CR, Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 9616
+
+Ghoul#4567 - Bug Bot on 2018-01-17T19:43:15.071Z
+
+
+### Can reproduce.
+Discord Canary 0.0.197 (9616) on Windows 10 Pro 64-bit (1709)
+
+Tarek1337#0379 - Bug Bot on 2018-01-17T19:43:20.028Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.197 (9616) on Windows 10 Home x64 Fall Creators Update (1709)
+
+OminousCry#2331 - Bug Bot on 2018-01-17T19:43:24.942Z
+
+
+### OminousCry#2331 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a5fa74b7023eed4d3d894e1/6db49c65de4a2ced40501bddedc3c177/rRI6Mbq.png added by Bug Bot on 2018-01-17T20:08:58.970Z
+
+
+### I will add some more examples to this card. The string in OminousCry's screenshot is https://crowdin.com/translate/discord/2/enus-ro#12396 - Alexandru Todea on 2018-01-18T11:43:17.041Z
+
+
+### xDU42QW.png - undefined added by Alexandru Todea on 2018-01-18T11:43:55.984Z
+
+
+### 3286 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a5fa74b7023eed4d3d894e1/bee2224e1c069a03870cfcf34071210b/LycT5KF.png added by Alexandru Todea on 2018-01-18T11:46:51.681Z
+
+
+### https://crowdin.com/translate/discord/2/enus-ro#3286 - Alexandru Todea on 2018-01-18T11:47:07.472Z
+
+
+### 287 - undefined added by Alexandru Todea on 2018-01-18T11:49:38.767Z
+
+
+### 287 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a5fa74b7023eed4d3d894e1/952e9fa1654e9b361531b931cc00b5e4/dI1vfyR.png added by Alexandru Todea on 2018-01-18T11:50:15.425Z
+
+
+### https://crowdin.com/translate/discord/2/enus-ro#287 - Alexandru Todea on 2018-01-18T11:50:33.118Z
+
+
+### 1312 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a5fa74b7023eed4d3d894e1/4b6c1eb8593896260cae6e41976c565f/Nkaynh5.png added by Alexandru Todea on 2018-01-18T11:51:53.159Z
+
+
+### https://crowdin.com/translate/discord/2/enus-ro#1312 - Alexandru Todea on 2018-01-18T11:52:01.269Z
+
+
+### Verified, can reproduce with the duration string. - Tarek on 2018-01-25T16:06:32.578Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-01-25T16:06:38.736Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:57.857Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

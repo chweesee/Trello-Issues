@@ -1,0 +1,74 @@
+Game activity doesn't allow streaming in AFK channels while 'Go Live' does. (https://trello.com/c/ew6qmgI4)
+
+None
+
+Created: 2019-12-18T22:44:22.986Z
+Latest Update: 2020-07-16T21:26:05.941Z
+
+Reported by Owehttamy#4679
+
+####Steps to reproduce:
+- 1. Turn on 'Game Activity' 
+- 2. Select a game to display you're playing 
+- 3. Join a server's selected AFK channel 
+- 4. Try streaming via 'Game Activity' panel 
+- 5. Try streaming via 'Voice Connected' panel (Next to disconnect button)
+
+####Expected result:
+Either streaming isn't possible in AFK Channels or Game Activity streaming is possible in AFK
+####Actual result:
+A contradiction is created because you can't stream via Game Activity but can stream through normal Voice Chat panel
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 51667
+####System settings:
+Microsoft Windows 10 Home Version 10.0.18362 Build 18362
+
+50720
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-18T22:44:22.986Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64, Version 1903, Discord Stable 51593 and Canary 51664
+
+SlavicWaffles#0001 - Bug Bot on 2019-12-18T22:44:30.451Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Worked on Discord Stable (51593) and Discord Canary (51664).
+
+Alister#8365 - Bug Bot on 2019-12-18T22:44:35.437Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64 v1909 (Build 18363.476), Discord Canary 51667 and Stable 51593
+
+StefanFX#1109 - Bug Bot on 2019-12-18T22:44:40.461Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 51667 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-18T23:06:38.673Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64 (1803), Stable, Build Number: 51726
+
+reacher#6699 - Bug Bot on 2019-12-19T12:36:07.961Z
+
+
+### Can reproduce.
+CR, Discord Canary 51642, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2019-12-19T14:37:34.699Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

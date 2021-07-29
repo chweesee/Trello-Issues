@@ -1,0 +1,103 @@
+[Archived] Pasting an image in a channel you can't upload files, and then sending a message will fail to send the message (https://trello.com/c/tYDqLgW7)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2018-12-03T19:36:49.709Z
+Latest Update: 2019-12-16T18:00:03.552Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Go to a channel where you can't upload files 
+- Copy an image from your phone or the web 
+- Paste the image in that channel, making sure it doesn't show up 
+- Type some text so the send button highlights, and send the message 
+- Observe your screen after sending the message
+
+####Expected result:
+Your message with text sends
+####Actual result:
+Discord attempts to upload the image despite not having perms and your message gets lost
+####Client settings:
+TestFlight 2.4.0 (9477)
+####System settings:
+iPhone 6s iOS 12.1.1 Dev Beta 3
+
+23932
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-03T19:36:49.709Z
+
+
+### Can reproduce.
+iPhone 7 - iOS 12.1 - Discord TestFlight 2.4.0 (9477)
+
+KolkiesDev#0001 - Bug Bot on 2018-12-03T19:36:57.117Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1, TestFlight 2.4.0 (9477)
+
+Solo#0007 - Bug Bot on 2018-12-03T19:37:02.239Z
+
+
+### Can reproduce.
+CR on iPhone 6 - iOS 12.1, Testflight 2.4.0
+
+AppIe#0001 - Bug Bot on 2018-12-03T19:37:07.127Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.1 Beta (16C5050a) - TestFlight 2.4.0 (9595)
+
+Isabel#0002 - Bug Bot on 2018-12-05T01:46:29.052Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2018-12-14T19:00:04.243Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:00:30.989Z
+
+
+### **Extension to this issue**
+The comment for an image also disappears when your image/file is too big to upload and you are trying to send it.
+
+Pascal#0929 - Bug Bot on 2019-04-01T14:18:57.906Z
+
+
+### Unarchived by Bug Bot on 2019-04-01T14:30:06.340Z
+
+
+### Archived by Bug Bot on 2019-05-09T20:30:07.720Z
+
+
+### **Another extension**
+If images fail to upload silently (e.g. the user has blocked you, doesn‘t share any mutual servers or the explicit content filter blocked your image), the text also disappears. - Pascal on 2019-07-04T18:42:48.316Z
+
+
+### Unarchived by Bug Bot on 2019-07-04T19:00:07.165Z
+
+
+### Archived by Bug Bot on 2019-09-15T13:00:18.141Z
+
+
+### Can reproduce.
+Reproduced on iPhone 11, iOS 13.2
+
+ptit lemay#0002 - Bug Bot on 2019-11-16T17:04:38.332Z
+
+
+### Unarchived by Bug Bot on 2019-11-16T17:30:07.138Z
+
+
+### Archived by Bug Bot on 2019-12-16T18:00:03.566Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

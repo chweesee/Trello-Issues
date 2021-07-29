@@ -1,0 +1,134 @@
+[Archived] Invite links without a https not recognised as links anymore when they have a text before them. (https://trello.com/c/eDJtCZ3B)
+
+None
+
+Created: 2019-03-18T15:10:21.993Z
+Latest Update: 2019-06-05T23:46:20.162Z
+
+Reported by The Lunala#6877
+
+####Steps to reproduce:
+- Type something in the text box. 
+- Paste an invite link but remove the https and colon and the 2 backslashes in it.
+
+####Expected result:
+It is recognised as a link.
+####Actual result:
+It isn't recognised as a link.
+####Client settings:
+Discord Alpha 859
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+31250
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-18T15:10:21.993Z
+
+
+### The Lunala#6877 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c8fb4dd7b448785ba7d1eb9/58b8c6b9c99af89ca51dac6adcf1b661/20190318_203139.jpg added by Bug Bot on 2019-03-18T15:10:24.754Z
+
+
+### The Lunala#6877 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c8fb4dd7b448785ba7d1eb9/85a9cd6e29cfce5e256d827f8cd09704/20190318_203127.jpg added by Bug Bot on 2019-03-18T15:10:24.775Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 859
+
+charleskimbac#6492 - Bug Bot on 2019-03-18T15:10:29.392Z
+
+
+### Can reproduce.
+CR OnePlus 3T, Android 8, Discord 8.5.9
+
+Alipoodle#5025 - Bug Bot on 2019-03-18T15:10:34.341Z
+
+
+### Can reproduce.
+Intex Aqua N7, Android 5 App Information 8.5.9
+
+Stardust#2476 - Bug Bot on 2019-03-18T15:10:39.950Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 8.5.9
+
+Danijel#9000 - Bug Bot on 2019-03-18T15:10:50.958Z
+
+
+### Intended change for security purposes; links are only recognized if they start with http/http scheme. However there is a bug here in that discord.gg links should still be recognized as invites and have rich content. - Sam Shih on 2019-03-18T17:01:57.235Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.5.9
+
+Clay#0001 - Bug Bot on 2019-03-18T17:12:57.348Z
+
+
+### Can reproduce.
+CR on Honor 6x 7.0 [EMUI 5.0.2] ,alpha 859
+
+fizy#9347 - Bug Bot on 2019-03-18T18:14:40.425Z
+
+
+### Can reproduce.
+Can repro without having any text before, Pixel XL, Android 10, Alpha 859
+
+Fabian#1540 - Bug Bot on 2019-03-18T19:18:44.465Z
+
+
+### fixed in next release. also now adds rich content for detected invites - Sam Shih on 2019-03-18T20:15:45.668Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Sam Shih on 2019-03-18T20:16:02.602Z
+
+
+### Can reproduce.
+Can still reproduce, however when I reproduce it, it now says YOU SENT AN INVITE TO JOIN A SERVER but the link is still not a blue hyperlink and is not clickable. Samsung Galaxy S7 Edge, Android 8.0.0, Discord Alpha 8.6.0
+
+HeyWhatsInThatTree#0887 - Bug Bot on 2019-03-19T05:11:16.193Z
+
+
+### Can't reproduce.
+Can no longer reproduce on Xiaomi Redmi 4X, Android 7.1.2, Discord 8.6.0
+
+Defracted#7777 - Bug Bot on 2019-03-19T05:31:53.624Z
+
+
+### Can reproduce.
+Can still reproduce; Redmi Note 4, Android v7, Discord Alpha 8.6.0
+
+Skyla#0002 - Bug Bot on 2019-03-19T05:43:15.918Z
+
+
+### Can reproduce.
+Can still reproduce, invite is not hyperlinked. Mi A2, Android 9, Feb 2019 update. Android Alpha 8.6.0
+
+Bsian#0060 - Bug Bot on 2019-03-19T07:27:21.359Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-03-19T07:27:21.632Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1,discord 8.5.7 beta
+
+Quad#1887 - Bug Bot on 2019-03-20T08:35:53.284Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.6.1
+
+nellurk#0510 - Bug Bot on 2019-03-20T10:20:50.144Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:20.173Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

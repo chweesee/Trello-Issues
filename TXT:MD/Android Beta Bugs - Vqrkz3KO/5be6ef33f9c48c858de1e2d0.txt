@@ -1,0 +1,87 @@
+[Archived] Long category names cause horrible overlaps and overflows to happen in notification overrides (https://trello.com/c/H9L8M0vp)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-11-10T14:46:11.350Z
+Latest Update: 2018-12-27T17:30:12.042Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Create a category wity a very long name 
+- Create a few channels in it 
+- Change notification settings for some of these channels 
+- Go to server notification settings 
+- Scroll down to see the list of notification overrides
+
+####Expected result:
+No overlaps and overflows
+####Actual result:
+Category names cross over notification info and touch the border of the screen
+####Client settings:
+Discord Alpha 7.8.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+22943
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-10T14:46:11.350Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5be6ef33f9c48c858de1e2d0/3af29b6bf5648fbba8a2aa3abdfb6612/IMG_20181110_122008.jpg added by Bug Bot on 2018-11-10T14:46:14.278Z
+
+
+### Can reproduce.
+[CR] Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Alpha 788
+
+avror#0001 - Bug Bot on 2018-11-10T14:46:19.208Z
+
+
+### Can reproduce.
+OnePlus 6 (Version 9.0), Alpha 7.8.8
+
+Aeria#9096 - Bug Bot on 2018-11-10T14:46:24.174Z
+
+
+### Can reproduce.
+Discord Alpha 7.8.8 OnePlus 5 Android 8.1 (Oreo) also congratulations on your badge.
+
+Tarek#1337 - Bug Bot on 2018-11-10T14:46:29.225Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.8.8
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-10T15:00:53.306Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 7.8.8
+
+AmirAmani#0102 - Bug Bot on 2018-11-10T17:23:18.403Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.8.8
+
+Hole#0001 - Bug Bot on 2018-11-10T17:51:51.769Z
+
+
+### minor - Clayton on 2018-11-13T02:26:44.902Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-13T02:26:52.998Z
+
+
+### Archived by Bug Bot on 2018-12-27T17:30:12.044Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

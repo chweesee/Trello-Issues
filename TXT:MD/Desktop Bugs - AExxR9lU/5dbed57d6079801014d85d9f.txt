@@ -1,0 +1,96 @@
+When you click into a youtube video and hit play, if they have a poll in the info card, you can get stuck in youtube (https://trello.com/c/LgWeBzhU)
+
+None
+
+Created: 2019-11-03T13:26:22.057Z
+Latest Update: 2020-07-16T21:26:05.502Z
+
+Reported by Parzival#6283
+
+####Steps to reproduce:
+- Have a YouTube video with an info card that has a poll in it 
+- Get the link to the YouTube video 
+- Post the link in discord 
+- Click the info card 
+- The poll will prompt you to sign in with Google/YouTube account 
+- Sign in 
+- Congrats! You are now stuck in YouTube on Discord! 
+- Closing Discord is not enough to get out, you have to also close it from the tray 
+- After I reopened Discord, I got stuck infinitely updating my Discord, it kept opening and closing saying "Update 1 of 1", although I'm not sure if this is related or not.
+
+####Expected result:
+You get stuck in YouTube, in the Discord Client. No way out.
+####Actual result:
+It literally traps you in a desktop app of YouTube named Discord Canary (I forgot to mention I'm on Canary)
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 48548, Version Hash: e84d08202beb59304d09ed5bd17d7870a3511131
+####System settings:
+I'm on Windows 10, Latest Update as of 11/02/19
+
+46996
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-03T13:26:22.057Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build 19002.1 - Discord Canary v0.0.258 Build 48586
+
+webhp#1337 - Bug Bot on 2019-11-03T13:26:29.523Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 1903, Discord Canary 0.0.258 Build 48548
+
+ryan#0570 - Bug Bot on 2019-11-03T13:26:34.580Z
+
+
+### Can reproduce.
+CR Windows 10 Pro (x64) V1903; Discord Canary Build 48548
+
+sora#1199 - Bug Bot on 2019-11-03T13:26:39.528Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 48548 host 0.0.258
+
+Jean20B#4668 - Bug Bot on 2019-11-03T16:11:33.035Z
+
+
+### Can reproduce.
+Windows 10 Home (x64 v1803) - Canary 48548
+
+Error 404#4040 - Bug Bot on 2019-11-03T21:25:05.711Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Discord Canary 48548
+
+Best_Pro#7066 - Bug Bot on 2019-11-03T23:00:54.812Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 48548
+
+Action Potential#6862 - Bug Bot on 2019-11-03T23:02:14.226Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 48548 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-04T04:43:46.285Z
+
+
+### Can't reproduce.
+CNR, maybe because it fix, Win 10 Pro x64, Discord stable: 50260
+
+nynxx#5630 - Bug Bot on 2019-11-26T09:52:35.881Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

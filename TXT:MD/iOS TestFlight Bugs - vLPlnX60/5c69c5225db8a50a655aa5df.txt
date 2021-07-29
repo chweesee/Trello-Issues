@@ -1,0 +1,120 @@
+[Archived] Having a custom emote at the end of a long message shows the custom emote instead of ellipses in in-app notifs (https://trello.com/c/sLUkQMRo)
+
+P2 - Can wait a while
+
+Created: 2019-02-17T20:33:38.929Z
+Latest Update: 2019-06-01T05:30:20.231Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Make sure you are able to receive in-app notifications 
+- Have someone mention you in a very long message and include a custom emote at the very end of the message 
+- Observe the end of the message in the in-app notification 
+- Optional: Include the mention further in the message for a different result
+
+####Expected result:
+Custom emote does not show because it is at the end of the message
+####Actual result:
+Custom emote shows in the in-app notification, and replaces the ellipses
+####Client settings:
+TestFlight 2.4.5 (11113)
+####System settings:
+iPhone 6s iOS 12.2 Dev Beta 2
+
+29090
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-17T20:33:38.929Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c69c5225db8a50a655aa5df/63cd1c1fdcb9793cc99a8aa618d4e2f1/image0.png added by Bug Bot on 2019-02-17T20:33:42.059Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c69c5225db8a50a655aa5df/c1a8302c85e2e110e59bf8cd27ae1bc7/image0.png added by Bug Bot on 2019-02-17T20:33:42.210Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11113)
+
+Daffyduck#5364 - Bug Bot on 2019-02-17T20:33:46.738Z
+
+
+### Can reproduce.
+Can reproduce, iPhone XR, iOS 12.1, TestFlight 2.4.5 (11113)
+
+☃nickWtn☃#3789 - Bug Bot on 2019-02-17T20:33:51.738Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 2.4.5 (11113)
+
+M24#0272 - Bug Bot on 2019-02-17T20:33:56.747Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.1.4 - TestFlight 2.4.5 (11113)
+
+ImmortaLemur#2112 - Bug Bot on 2019-02-17T20:44:50.179Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11113)
+
+Solo#0007 - Bug Bot on 2019-02-18T02:50:40.883Z
+
+
+### Can reproduce.
+CR, iPhone 7 Plus 12.1 (16B92) TestFlight 2.4.5
+
+Killtracity#0001 - Bug Bot on 2019-02-18T14:20:30.214Z
+
+
+### Can reproduce.
+CR iPhone X iOS 12.1.4 TestFlight 2.4.5
+
+Darth#9386 - Bug Bot on 2019-02-18T18:47:24.226Z
+
+
+### Moved from New Issues to In-App Notifications by Jonathan Wu on 2019-02-19T22:02:52.955Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.1 (14524) with iPad Pro 11" running iOS 12.2. There are no longer ellipses shown at all for in app notifications.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-01T19:59:02.822Z
+
+
+### Moved from In-App Notifications to Claimed Fixed Bugs by Pascal on 2019-05-01T19:59:07.925Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14524)
+
+Daffyduck#5364 - Bug Bot on 2019-05-01T20:02:38.026Z
+
+
+### Can't reproduce.
+ipad air 2 ios 12.2, TestFlight 3.0.1 (14524)
+
+OrangeM24#2020 - Bug Bot on 2019-05-01T21:54:17.313Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.3 (dev beta 3) - TestFlight 3.0.1 (14524)
+
+Xylium#5800 - Bug Bot on 2019-05-02T05:18:22.417Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-02T05:18:22.664Z
+
+
+### Archived by Bug Bot on 2019-06-01T05:30:20.243Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

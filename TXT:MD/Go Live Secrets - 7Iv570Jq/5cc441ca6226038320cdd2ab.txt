@@ -1,0 +1,46 @@
+You can click Watch Stream on the "Live" popout even if you don't have permission to join the channel. (https://trello.com/c/kYYq7SQb)
+
+Investigating
+
+Created: 2019-04-27T11:49:30.360Z
+Latest Update: 2019-06-17T22:08:20.471Z
+
+**Steps to Reproduce:**
+1. Have someone begin a "Live" session in a channel you don't have access to.
+2. Hover your cursor over them to show the "Live" popout.
+3. Click "Watch Stream."
+
+**Expected Result:** Maybe the button should be gr(e/a)yed out?
+
+**Actual Result:** Discord thinks you joined the channel and highlights it white. Reloading will ask if you want to rejoin the channel. While in this state you can also hear if people join or leave etc.
+
+**Client Settings:** Canary 36525
+
+**System Settings:** MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226)
+
+Card Log
+========
+### Added by Isabel Lomas on 2019-04-27T11:49:30.360Z
+
+
+### "Live" Popout - undefined added by Isabel Lomas on 2019-04-27T11:49:56.403Z
+
+
+### CR Canary 36525 -- Windows 10 Pro x64 v1809 Build 11875.1000 - webhp on 2019-04-28T01:27:43.090Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by webhp on 2019-04-28T15:02:25.917Z
+
+
+### CNR Canary 39715 -- Windows 10 Pro x64 v1903 18912.1001 - webhp on 2019-06-14T17:38:25.987Z
+
+
+### Moved from Tested Bugs to Verified Fixed by webhp on 2019-06-14T17:38:31.370Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

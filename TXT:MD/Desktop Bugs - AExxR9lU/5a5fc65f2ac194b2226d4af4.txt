@@ -1,0 +1,91 @@
+[Archived] Getting kicked from a server while in Server/Channel Settings crashes the client (https://trello.com/c/vlczxasv)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-17T21:55:43.183Z
+Latest Update: 2019-01-11T00:00:10.334Z
+
+Reported by » a r i a#1593
+
+####Steps to reproduce:
+- have a role where you can manage channels or server 
+- get into the channel settings (or server settings) 
+- get kicked while being in there
+
+####Expected result:
+You get thrown out the settings or get a message saying you're not on the server anymore
+####Actual result:
+The client crashes
+####Client settings:
+Discord Canary Version 0.0.197, Build Number: 9625, Version Hash: 451841d5b2705f328d792d8b2db5c8e50960e125
+####System settings:
+Windows 10 Pro Version 10.0.16299 Build 16299
+
+7884
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-17T21:55:43.183Z
+
+
+### SleepaDru#7700 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a5fc65f2ac194b2226d4af4/c148e1eb4629c01a93e97a4ccbf74cbb/a06f81.png added by Bug Bot on 2018-01-17T21:55:46.662Z
+
+
+### Can reproduce.
+Was able to get this bug working by opening channel settings and being kicked, but server settings just hangs and floods the console with JS errors. | System Settings: Windows 10 PRO | Client Settings: Release Channel: canary, Build Number: 9625, Version Hash: 451841d5b2705f328d792d8b2db5c8e50960e125
+
+SleepaDru#7700 - Bug Bot on 2018-01-17T21:55:50.732Z
+
+
+### Can reproduce.
+Macbook Pro 15" (2017) macOS High Sierra 10.13.2; Canary Build 9625 | Server settings just froze, was able to repro by going into a channel's settings
+
+mrkirby153#7840 - Bug Bot on 2018-01-17T21:55:55.704Z
+
+
+### Can reproduce.
+CR when kicked while in channel settings, but not server settings. | Windows 10 Pro x64 (build 16299), Canary 9625
+
+Potts#4157 - Bug Bot on 2018-01-17T21:56:00.662Z
+
+
+### Can reproduce.
+CR, being kicked while in Server Settings just freezes your client and spams the console with errors, but it crashes if you're kicked while being in Channel Settings | Discord Canary 0.0.197 (9640) on Windows 10 Home x64 Fall Creators Update (1709)
+
+OminousCry#2331 - Bug Bot on 2018-01-18T15:59:23.692Z
+
+
+### Verified.  - Clayton on 2018-01-25T22:40:24.028Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-25T22:40:29.682Z
+
+
+### Can reproduce.
+MacBook Pro 13" 10.13.6, Canary 22943
+
+Alfie#1582 - Bug Bot on 2018-08-31T21:16:15.219Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary Build 26151, discord doesn't give the crash message, it just closes
+
+Nashorn#3450 - Bug Bot on 2018-10-15T16:01:00.986Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary Build 26655
+
+D a n n#4900 - Bug Bot on 2018-10-22T18:14:52.056Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:10.338Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

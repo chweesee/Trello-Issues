@@ -1,0 +1,107 @@
+[Archived] Text display collision on welcome to server message after creation of a discord server with smaller client windows (https://trello.com/c/vokp6XkO)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-18T17:14:42.014Z
+Latest Update: 2019-12-30T13:00:07.749Z
+
+Reported by VoidWhisperer#5905
+
+####Steps to reproduce:
+- Resize the discord client to a smaller size (the initial bug was found with the client docked to half of a 1920x1080 screen) 
+- Make your name atleast 10-16 characters long 
+- Create a discord server 
+- Check the 'welcome to your server' message.
+
+####Expected result:
+The text should show up correctly and not overlap
+####Actual result:
+Welcome text overlaps on multiple lines:
+####Client settings:
+Discord Stable 9631
+####System settings:
+Widows 10 Home x64
+
+7894
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-18T17:14:42.014Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Fall Creators Update, Discord Stable Version 9631
+
+Ghoul#4567 - Bug Bot on 2018-01-18T17:14:49.570Z
+
+
+### Can reproduce.
+CR, Windows 7 Professional x64 (7601), Stable 0.0.300 (Build 9631); Note: The username has to be at least 18 characters/letters long for it to work.
+
+JaKe#1817 - Bug Bot on 2018-01-18T17:14:54.585Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.197 (9640) on Windows 10 Home x64 Fall Creators Update (1709)
+
+OminousCry#2331 - Bug Bot on 2018-01-18T17:14:59.506Z
+
+
+### Verified.  - Clayton on 2018-01-25T22:46:03.320Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-25T22:46:06.386Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:58.999Z
+
+
+### Can reproduce.
+CR, macOS Mojave v. 10.14 (18A391) - Canary 3896 [NOTE] Also zooming the discord causes the same bug it can sometimes go into 3 lines.
+
+ImFirstPlace#3965 - Bug Bot on 2019-06-03T11:25:30.837Z
+
+
+### Unarchived by Bug Bot on 2019-06-03T11:30:05.908Z
+
+
+### Can reproduce.
+CR, Discord Canary 41485, Windows 10 Home, Google Chrome 75.0.3770.90 (Official Build) (64-bits)
+
+Dragonic#0001 - Bug Bot on 2019-07-21T18:42:58.628Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 41485, Windows 10 Home, Google Chrome 75.0.3770.90 (Official Build) (64-bits)
+
+Dragonic#0001 - Bug Bot on 2019-07-22T19:26:02.979Z
+
+
+### Can reproduce.
+[BUILD INFO] Release Channel: canary, Build Number: 46505, Version Hash: fb56522df8e3fa7e26143ad9c0ead64bb8146941
+
+SplashyFlame#0067 - Bug Bot on 2019-10-01T19:20:19.730Z
+
+
+### Archived by Bug Bot on 2019-10-31T19:30:03.910Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10, Host 0.0.259, Canary Build 49715
+
+binchlord#0998 - Bug Bot on 2019-11-16T05:02:28.559Z
+
+
+### Unarchived by Bug Bot on 2019-11-16T05:30:05.001Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:07.763Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

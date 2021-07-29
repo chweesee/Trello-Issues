@@ -1,0 +1,80 @@
+[Archived] The animated avatar of a user with Nitro flashes when they receive a role (https://trello.com/c/7NQLMVZW)
+
+Mod can no longer reproduce
+
+Created: 2017-09-19T18:37:17.052Z
+Latest Update: 2017-10-02T16:58:08.028Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Go to a server you have the Manage Roles permission for 
+- Open the profile of a Nitro user with an animated avatar on mobile 
+- Wait for the user's profile to fully load 
+- Give the user a role on desktop
+
+####Expected result:
+The user's animated avatar should not flash and the user details should just be updated with the user's new role
+####Actual result:
+The user's avatar flashes, not an instance of lazy loading because the information was already on screen
+####Client settings:
+Discord Alpha 5.1.9 (519) and Discord Canary 0.0.163 (Build 4429)
+####System settings:
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0 and Windows 10 Home 64-bit v1703
+
+4542
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-19T18:37:17.052Z
+
+
+### Curse Broken#8659 - https://youtu.be/5y3zatKySOE added by Bug Bot on 2017-09-19T18:37:19.833Z
+
+
+### Can reproduce.
+CR Moto G4 Android 7.0 Aalpha 5.1.9 -w Canary Build 4429
+
+Azrael#6867 - Bug Bot on 2017-09-19T18:37:24.791Z
+
+
+### Can reproduce.
+Samsung Galaxy s2 sgh-t989, 7.1.2, Alpha 5.1.9
+
+Rauf I.#3260 - Bug Bot on 2017-09-19T18:37:29.769Z
+
+
+### Can reproduce.
+CR, Google/LG Nexus 5, Android 6.0.1, Discord Alpha 5.1.9 (519)
+
+Starshine Dust#2189 - Bug Bot on 2017-09-19T18:37:34.816Z
+
+
+### Do the same when muting them when pressing local mute in Android.
+
+RisedSky#1250 - Bug Bot on 2017-09-19T19:09:15.094Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Andy Garron on 2017-09-19T23:26:34.122Z
+
+
+### Tested on discord beta 5.2.6:
+
+I can no longer reproduce this myself. The avatar does not flash after receiving a role or local mute being applied. - Alexander (DJScias) on 2017-09-23T11:20:43.767Z
+
+
+### Verified Fixed - Jared on 2017-10-02T16:58:02.434Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T16:58:07.084Z
+
+
+### Archived by Jared on 2017-10-02T16:58:08.031Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

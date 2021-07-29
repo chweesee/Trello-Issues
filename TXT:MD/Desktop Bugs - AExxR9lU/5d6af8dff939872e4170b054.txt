@@ -1,0 +1,89 @@
+Cannot select which channel to stream & attempting to stream ends stream immediately after replacing a Desktop live connection with a voice connection on a mobile client. (https://trello.com/c/3vEqnP2G)
+
+None
+
+Created: 2019-08-31T22:46:55.780Z
+Latest Update: 2020-07-16T21:26:05.010Z
+
+Reported by 54D#1357
+
+####Steps to reproduce:
+- Go to your Desktop client. 
+- Connect to any voice channel. 
+- Start any game. 
+- Go Live. 
+- Go to your mobile phone. 
+- Connect to any channel in the same server. 
+- Go to your Desktop client. 
+- Attempt to press "Go Live" button in the game bar.
+
+####Expected result:
+I can choose which voice channel to go live in as I am not connected to any channel in Desktop. Going live does not end stream immediately.
+####Actual result:
+I am forced to go live in the voice channel I was connected. Going live ends stream immediately.
+####Client settings:
+Discord Canary 44396; Discord TestFlight 3.1.1 (16961)
+####System settings:
+Windows 10 x64 (1809); iPhone XS, iOS 13.0 (Developer Beta 6)
+
+42780
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-31T22:46:55.780Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 44825; -a alpha 948
+
+charleskimbac#6492 - Bug Bot on 2019-08-31T22:47:03.582Z
+
+
+### Can reproduce.
+Could reproduce, WIndows 10 Pro, PTB 44861
+
+Action Potential#6862 - Bug Bot on 2019-08-31T22:47:08.609Z
+
+
+### Can reproduce.
+macos 10.15, canary 44741
+
+OrangeM24#5746 - Bug Bot on 2019-08-31T22:47:13.629Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 44909 (Host 0.0.256) and iPhone XR; iOS 12.4.1; TestFlight 3.1.2 (17133)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-01T03:58:18.265Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 44896
+
+B.O.S.S#0251 - Bug Bot on 2019-09-01T13:57:38.155Z
+
+
+### Can reproduce.
+Windows 10 x64, Build: 44909
+
+Scrumpy#0200 - Bug Bot on 2019-09-01T14:13:00.986Z
+
+
+### Can't reproduce.
+Windows 10 x64 Build: 44909
+
+Scrumpy#0200 - Bug Bot on 2019-09-01T14:20:56.967Z
+
+
+### Can't reproduce.
+CNR, Cannot reproduce, Windows 10 Home Version 10.0.17763 Build 17763 - Canary 45111
+
+Ice#9999 - Bug Bot on 2019-09-05T02:48:09.987Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

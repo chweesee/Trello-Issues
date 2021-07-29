@@ -1,0 +1,100 @@
+[Archived] User without other permissions to view server settings cannot view audit logs (https://trello.com/c/gIg4CXJB)
+
+None
+
+Created: 2017-04-29T01:07:43.979Z
+Latest Update: 2017-10-17T20:31:44.864Z
+
+Reported by HyperCoder#2975
+
+####Steps to reproduce: 
+- Make a role without any permissions 
+- Give it to a use and make sure they can't view the server settings tab 
+- Give role "View Audit Logs" permission 
+
+####Expected result:
+ User can see Server Settings tab to view audit logs 
+####Actual result:
+ User cannot view audit logs
+
+1274
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-29T01:07:43.979Z
+
+
+### Can reproduce.
+Discord Canary (latest), WIndows 7
+
+Tyler#0130 - Bug Bot on 2017-04-29T01:07:44.805Z
+
+
+### Can reproduce.
+Win 10 Pro x64, Latest Canary
+
+Packer#9020 - Bug Bot on 2017-04-29T01:07:46.608Z
+
+
+### Can reproduce.
+Windows 10, latest Canary
+
+Exanimem#3112 - Bug Bot on 2017-04-29T01:07:48.630Z
+
+
+### Can reproduce.
+macos 10.12.4 discord canary
+
+Harrison#9100 - Bug Bot on 2017-04-29T01:09:29.233Z
+
+
+### Can reproduce.
+8.1x64 Canary
+
+LetsPlayNintendoITA#0167 - Bug Bot on 2017-04-29T03:45:08.408Z
+
+
+### Can reproduce.
+Windows 10 64 bit, Canary build
+
+Chaten#3330 - Bug Bot on 2017-04-30T12:02:17.751Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Jared on 2017-05-01T20:32:06.140Z
+
+
+### This just seems like it's the same as when a user is given the "Manage Permissions" permission, but not "Manage Channel", which means they can't actually manage the permissions at all. If this particular issue is considered a bug (ie with audit logs), theoretically, that means the issue I described is also a bug, no?
+
+SuperSajuuk#7265 - Bug Bot on 2017-05-02T08:20:27.154Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Michael Peterson on 2017-05-02T22:43:51.128Z
+
+
+### Tested as of latest canary:
+
+I can no longer reproduce this. Giving a role only "View Audit Logs" shows up three options though:
+
+Overview (normal), Audit Logs (fixed) but also Members.
+
+I'm not sure if the last part (Members) is intended, but I did not give the rank anything else except for view audit logs. - Alexander (DJScias) on 2017-05-02T23:30:21.547Z
+
+
+### Verified Fixed - Jared on 2017-06-27T20:17:13.082Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T20:17:17.440Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:31:44.205Z
+
+
+### Archived by Jared on 2017-10-17T20:31:44.867Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/michaelpeterson26) - No Bio

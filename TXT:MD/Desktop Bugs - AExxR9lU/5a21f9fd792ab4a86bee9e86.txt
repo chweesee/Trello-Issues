@@ -1,0 +1,77 @@
+[Archived] Drag&Dropping a file from an "Open file" window will leave the "Open file" window open and freeze Discord when closed (https://trello.com/c/aYrCKgOE)
+
+High,
+P3: Will get fixed eventually
+
+Created: 2017-12-02T00:55:25.775Z
+Latest Update: 2018-02-22T20:12:50.831Z
+
+Reported by GospodinCrni#2565
+
+####Steps to reproduce:
+- Go to a channel where you can upload files 
+- Press on "+" button to open the "Open file" window 
+- Drag&Drop one of the files from that window into Discord client 
+- Press Upload or Cancel in Discord window
+
+####Expected result:
+"Open file" window should close after drag&drop or prevent drag & drop
+####Actual result:
+"Open file" window remains open and puts Discord into not respoding state after it's manually closed
+####Client settings:
+Desktop Canary 7913
+####System settings:
+Windows 7 ultimate x64
+
+6771
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-02T00:55:25.775Z
+
+
+### GospodinCrni#2565 - https://i.imgur.com/xO20fcx.gifv added by Bug Bot on 2017-12-02T00:55:28.134Z
+
+
+### Can reproduce.
+CR, Discord Canary build 7750, Windows 10 home 64-bit.
+
+Blitz#5197 - Bug Bot on 2017-12-02T00:55:33.044Z
+
+
+### Can reproduce.
+CR, using Discord Canary 7913 on browser and it crashed my whole browser, not just Discord. Also Win 10 x64
+
+descrates#3050 - Bug Bot on 2017-12-02T00:55:38.089Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.180, Windows 10 Home x64 1703
+
+ZenIsBestWolf#0446 - Bug Bot on 2017-12-02T00:55:43.078Z
+
+
+### Can reproduce.
+MacBook Air (Early 2015) macOS High Sierra 10.13, Discord Stable Version 0.0.248 (Build #7889)
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-02T01:49:19.189Z
+
+
+### Cannot reproduce? Canary 8055, moving to CNR. - Tarek on 2017-12-05T05:17:42.978Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2017-12-05T05:17:48.309Z
+
+
+### Archived due to being inactive for a month without any further activity and is marked as Cannot reproduce. - Tarek on 2018-02-22T20:12:49.939Z
+
+
+### Archived by Tarek on 2018-02-22T20:12:50.833Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

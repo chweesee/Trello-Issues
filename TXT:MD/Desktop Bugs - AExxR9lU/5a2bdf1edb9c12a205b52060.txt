@@ -1,0 +1,235 @@
+[Archived] Clicking links in Discord Canary will trigger the " You need a new app to open this file" window. (https://trello.com/c/QZveRutg)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-12-09T13:03:26.419Z
+Latest Update: 2018-02-22T19:52:26.208Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Click a link 
+- Observe
+
+####Expected result:
+It shouldn't trigger this modal
+####Actual result:
+It triggers the "You need a new app to open this file type (about)"
+####Client settings:
+Discord Canary 0.0.182 (Build 8394)
+####System settings:
+Windows 10 Pro 64-bit (Build 1607) Chrome Stable 62.0.3202.94
+
+6891
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-09T13:03:26.419Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a2bdf1edb9c12a205b52060/c7597ac18bc4f275f62d3833419e915a/OMpqxqs.png added by Bug Bot on 2017-12-09T13:03:29.254Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1709 (Canary build 8394, v 0.0.182)
+
+TimThe#7618 - Bug Bot on 2017-12-09T13:03:33.905Z
+
+
+### Can reproduce.
+CR, Canary  0.0.182 (8394), Windows 10 Home Version 1703
+
+QwakGoesDuck#9672 - Bug Bot on 2017-12-09T13:03:38.989Z
+
+
+### Can reproduce.
+Windows 10 Latest Canary v8394
+
+Generic#5555 - Bug Bot on 2017-12-09T13:03:43.925Z
+
+
+### Can reproduce.
+Windows 10 Home - Fall Creators Update x64 (Canary Build 8394 - 0.0.182)
+
+Tornado#1878 - Bug Bot on 2017-12-09T14:39:53.520Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Canary 0.0.182 Build 8394
+
+Gimo#0916 - Bug Bot on 2017-12-09T16:24:06.539Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1709) Canary Build 8394
+
+SgtMaster#4159 - Bug Bot on 2017-12-09T16:47:09.716Z
+
+
+### Can reproduce.
+More or less same symptom on Xubuntu; getting a dialog saying the URI "about:blank" could not be opened. Discord Canary build 8394 on Xubuntu 17.10
+
+Dav999#3322 - Bug Bot on 2017-12-09T17:49:09.772Z
+
+
+### Can reproduce.
+Windows 10 Professional x64, Canary 0.0.182 Build 8394 ... Also, while it triggers the new app modal, it opens it anyways in normal browser??
+
+🎄Ghoul🎄#4567 - Bug Bot on 2017-12-09T18:00:20.850Z
+
+
+### Can reproduce.
+Pretty easily reproduced this with any link, quite aggrieving. Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.182 (Build 8394)
+
+SuperSajuuk#7265 - Bug Bot on 2017-12-09T18:39:10.473Z
+
+
+### Can reproduce.
+Windows 10 Home 64-Bit Version 1709
+
+FireController1847#3577 - Bug Bot on 2017-12-09T23:16:27.931Z
+
+
+### Can reproduce.
+Dell Inspiron 15 Windows 10 Creators Update Discord Canary 8394
+
+Christmas Tiger™ 🎄#6437 - Bug Bot on 2017-12-09T23:46:50.772Z
+
+
+### Can't reproduce.
+MacBook Air(Early 2015) macOS High Sierra 10.13, Discord stable 8377
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-10T00:19:00.364Z
+
+
+### Can't reproduce.
+MacBook Air(Early 2015) macOS High Sierra 10.13, Discord stable 8399
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-10T00:22:08.770Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1709, i7 4770k, 1060 3GB
+
+pr3cast#3421 - Bug Bot on 2017-12-10T00:23:49.663Z
+
+
+### Can reproduce.
+CR, Windows 10 Home Build 16362, Discord Canary Build 8394
+
+Radiant Anarchy#1398 - Bug Bot on 2017-12-10T00:43:27.532Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary 8394 (0.0.182)
+
+Tantusar#7835 - Bug Bot on 2017-12-10T02:10:51.682Z
+
+
+### Can't reproduce.
+Windows 10 x64 Canary build 8362
+
+MelonCola#2938 - Bug Bot on 2017-12-10T02:16:57.810Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary Build 8394
+
+B4shful#6016 - Bug Bot on 2017-12-10T19:40:48.118Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary build 8394
+
+MelonCola#2938 - Bug Bot on 2017-12-10T20:49:14.896Z
+
+
+### Can reproduce.
+!storeinfo
+
+RSP16#7349 - Bug Bot on 2017-12-10T22:57:57.012Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 (Canary 8394, v0.0.182)
+
+thewsomeguy#5025 - Bug Bot on 2017-12-10T22:57:58.836Z
+
+
+### Can reproduce.
+Windows 10 Home 15063
+
+Pixel#8044 - Bug Bot on 2017-12-10T23:12:40.146Z
+
+
+### Danny fixed this bug, and I no longer can reproduce this bug.
+
+Ghoul#4567 - Bug Bot on 2017-12-11T00:00:38.751Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary v8394
+
+bayat#6740 - Bug Bot on 2017-12-11T00:14:58.398Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Tarek on 2017-12-11T05:00:31.446Z
+
+
+### Moved from Claimed Fixed, needs Verification to User Reported Bugs by Tarek on 2017-12-11T05:32:31.819Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-12-12T18:41:55.746Z
+
+
+### Can no longer reproduce - Jared on 2017-12-12T18:42:01.315Z
+
+
+### There's supposed to be another asterisk between the quotes on the 2nd step
+
+Dabbit Prime#0896 - Bug Bot on 2017-12-13T17:53:35.113Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-01-05T18:25:29.441Z
+
+
+### This was fixed. - Jared on 2018-01-05T18:25:36.049Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10011
+
+webhp#1337 - Bug Bot on 2018-01-27T05:13:54.279Z
+
+
+### Can't reproduce.
+Canary 10015 Win 10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-01-27T22:35:42.056Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home x64 Version 1709 (OS Build 16299.125), Discord Canary 0.0.201 (Build 10018)
+
+HeroGamers#0001 - Bug Bot on 2018-01-28T15:23:37.768Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.185 (Build: 10018)
+
+Pascal#0929 - Bug Bot on 2018-01-28T15:34:49.807Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:52:24.963Z
+
+
+### Archived by Tarek on 2018-02-22T19:52:26.211Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

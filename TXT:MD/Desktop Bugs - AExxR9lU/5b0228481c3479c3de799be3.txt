@@ -1,0 +1,67 @@
+[Archived] Long channel names don't truncate properly in the Invites section of Server Settings (https://trello.com/c/VSIniXoA)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-21T02:00:40.690Z
+Latest Update: 2018-10-22T20:21:05.044Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Create a channel with a somewhat lengthy name 
+- Create an invite directed to that channel 
+- Enter the Invites section of Server Settings and observe the cut off channel name
+
+####Expected result:
+Channel name truncates with "..."
+####Actual result:
+Channel name appears cut off
+####Client settings:
+Discord Canary 0.0.209, Build 15665
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+13112
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-21T02:00:40.690Z
+
+
+### Ene#0808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b0228481c3479c3de799be3/9b279dca3d2e09f45ec8c6a639d835b4/jpm81ao.png added by Bug Bot on 2018-05-21T02:00:43.767Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home x64 (Version 1803), Discord Canary Build 15665
+
+Ghoul#4567 - Bug Bot on 2018-05-21T02:00:48.180Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 15665
+
+webhp#1337 - Bug Bot on 2018-05-21T02:00:53.230Z
+
+
+### Can reproduce.
+CR, channel name is cut off (no ...) Windows 1803, Desktop Canary 15665
+
+lego#8917 - Bug Bot on 2018-05-21T02:00:58.296Z
+
+
+### Verified, MacOS 10.12.6, Canary 15701 - Clayton on 2018-05-21T21:32:38.551Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T21:32:49.547Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:05.046Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

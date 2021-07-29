@@ -1,0 +1,86 @@
+[Archived] Long channel name doesn't get truncated when using "in:" search filter (https://trello.com/c/ZHweZgiT)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-29T15:13:50.955Z
+Latest Update: 2018-10-22T20:19:06.924Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create or have a channel with a very long name (e.g. `bug-hunter-announcements`) 
+- Open the search 
+- Click on the `in:` search option 
+- Observe the very long channel name there
+
+####Expected result:
+The long channel name should get truncated to fit in one line.
+####Actual result:
+It doesn't get truncated.
+####Client settings:
+Discord Canary 0.0.186 (Build: 12831)
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3
+
+9988
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-29T15:13:50.955Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5abd02aedad55b850bc426eb/1ae41800433caccedcaf76b5a6121a31/vTfGFXc.png added by Bug Bot on 2018-03-29T15:13:53.398Z
+
+
+### Can reproduce.
+CR, -iMac 27" (Mid 2010) - macOS 10.3.3. Discord Canary Build 12831
+
+Kyle#0420 - Bug Bot on 2018-03-29T15:13:58.427Z
+
+
+### Can reproduce.
+CR ,Windows 10 Pro x64 v1709 (Canary build 12831)
+
+TimThe#1118 - Bug Bot on 2018-03-29T15:14:03.303Z
+
+
+### Can reproduce.
+MacBook Air 11" (2010) - OS X Yosemite 10.10.3 - Discord Canary Build 12831
+
+~♪☆ yuudachi_IJN ☆♪~#7699 - Bug Bot on 2018-03-29T15:14:08.281Z
+
+
+### Can reproduce.
+Discord Canary - Windows 10 Education x64 Build 16299.309 (1709)
+
+Dark#9876 - Bug Bot on 2018-03-30T00:13:03.621Z
+
+
+### Can reproduce.
+MacOS High Sierra 10.13.3 [BUILD INFO] Release Channel: canary, Build Number: 12874, Version Hash: 3be39f933b19963205e9623dacccdd4e0a314dc3
+
+MoonlightCapital#0554 - Bug Bot on 2018-03-30T08:51:35.947Z
+
+
+### Verified.  - Clayton on 2018-03-30T23:57:33.837Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-30T23:57:51.601Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 21681
+
+Delite#0001 - Bug Bot on 2018-08-12T19:50:51.535Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:06.926Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

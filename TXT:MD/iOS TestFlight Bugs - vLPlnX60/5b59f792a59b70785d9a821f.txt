@@ -1,0 +1,89 @@
+[Archived] Text overlaps scrollbar in message fields, and ban reasons (requires the right amount of characters to repro with your screen size) (https://trello.com/c/RihdLE55)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-07-26T16:32:19.040Z
+Latest Update: 2018-09-04T23:14:18.126Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Type a message in the message field long enough to generate a scroll bar (I found copy pasting the example bug report worked for me) 
+- Make sure you you characters that go onto right edge of the message area 
+- After you get enough text to generate a scroll bar, start scrolling up and down, watching the scroll bar 
+- If you can’t repro on the first try, try typing enough text to where the last character moves the word to a new line, and try replacing it with letters until you find one that doesn’t go to a new line
+
+####Expected result:
+Text wraps before the scroll bar area
+####Actual result:
+Text doesn’t wrap when hitting the scroll bar area, creating a bleeding effect where the text and scroll bar overlap
+####Client settings:
+TestFlight 2.3.6 (6095)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 4
+
+16063
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-26T16:32:19.040Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b59f792a59b70785d9a821f/249d6271840315b24456785fa399671e/image.png added by Bug Bot on 2018-07-26T16:32:21.729Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b59f792a59b70785d9a821f/38a5942a5259b87e4bcd0064560a5be2/image.png added by Bug Bot on 2018-07-26T16:32:22.568Z
+
+
+### Can reproduce.
+Can reproduce, iPhone SE - iOS 11.3.1 (15E302), Testflight 2.3.6.
+
+evilpauwse#9985 - Bug Bot on 2018-07-26T16:32:26.535Z
+
+
+### Can reproduce.
+iPhone SE, iOS 10.3.2, TestFlight 2.3.6 (6000)
+
+TimThe#1118 - Bug Bot on 2018-07-26T16:32:31.594Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12 (dev beta 4) - TestFlight 2.3.6 (6095)
+
+Xylium#1480 - Bug Bot on 2018-07-26T16:32:36.438Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 (Dev Beta 3), TestFlight 2.3.4 (Build 5616)
+
+Rem-rin#0001 - Bug Bot on 2018-07-26T19:33:23.232Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 (Dev Beta 4), TestFlight 2.3.6 (6095)
+
+Rem-rin#0001 - Bug Bot on 2018-07-26T19:45:00.574Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 3, TestFlight 2.3.6 (6095) - Might be intended behavior though because there is not very much free space for the scrollbar
+
+Pascal#0929 - Bug Bot on 2018-07-26T20:15:02.438Z
+
+
+### verified, iphone x, ios 11.1, testflight 2.3.6 (6095) - Clayton on 2018-07-27T00:58:32.415Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-27T00:58:40.419Z
+
+
+### Archived by Clayton on 2018-09-04T23:14:18.128Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

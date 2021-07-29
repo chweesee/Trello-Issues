@@ -1,0 +1,104 @@
+[Archived] Error message for nickname change not possible will be shown for all server members (https://trello.com/c/8OtwCttz)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-15T16:10:51.201Z
+Latest Update: 2018-09-04T23:13:02.031Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to server settings 
+- Open `Members` 
+- Open any member 
+- Try to change the nickname to a too long name (more than 32 chars) 
+- Go to another member 
+- Observe the error message there
+
+####Expected result:
+The error message should only be shown for the user for whom you've tried to change the nick.
+####Actual result:
+The error message is shown for all members.
+####Client settings:
+TestFlight 2.2.5 (3054)
+####System settings:
+iPhone 6s & iPad Air 2, iOS 11.3 PB 5
+
+9622
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-15T16:10:51.201Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.3 PB5 - Discord TestFlight 2.2.5 (3054). You only need to reset your name then click on it in order to reproduce, but may be an extension to this bug.
+
+Ghoul#0009 - Bug Bot on 2018-03-15T16:10:58.706Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS 11.3 PB4, TestFlight 2.2.5 (3054) - Can be reset with a refresh.
+
+Mustard#2117 - Bug Bot on 2018-03-15T16:11:03.690Z
+
+
+### Can reproduce.
+iPad Mini 3 (iOS 11.2.6) - TestFlight 2.2.5 (3054)
+
+Mas#0001 - Bug Bot on 2018-03-15T16:11:08.701Z
+
+
+### **Extension to the issue**
+- Follow the original bug reproduction steps. 
+- Exit out member list
+- Come back 
+- Click on your name. 
+- Observe. 
+
+**Actual Result:** You will see the same error even though you haven’t done anything or touched the nickname section.
+
+Ghoul#0009 - Bug Bot on 2018-03-15T20:33:20.921Z
+
+
+### Cannot reproduce.  - Clayton on 2018-03-30T23:36:46.231Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-03-30T23:36:50.137Z
+
+
+### I can reproduce with the steps provided by Duck: 
+
+- Server Settings
+- Members
+- Choose Member
+- Make nickname longer than 32 chars
+- Observe error
+- Go to other member
+- Observe error
+
+Discord 2.3.0 (3817), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-22T10:20:21.705Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2018-04-22T10:20:33.995Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:18:18.707Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:18:23.391Z
+
+
+### 54D#1357 - https://youtu.be/SE5Zb43nqg0 added by Bug Bot on 2018-07-14T06:03:28.903Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:02.034Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

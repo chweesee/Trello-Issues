@@ -1,0 +1,73 @@
+[Archived] [Window widths < 1375px] On 175% Zoom, the Upload and Emoji buttons swap places when looking at search results (https://trello.com/c/HpGRM7Ut)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-20T12:34:31.179Z
+Latest Update: 2018-10-22T20:24:48.636Z
+
+Reported by VR#5448
+
+####Steps to reproduce:
+- Switch to 175% Zoom 
+- Search anything and look at the results 
+- Notice how the Emoji and Upload buttons swap places
+
+####Expected result:
+They're supposed to stay in the same place
+####Actual result:
+They swap places.
+####Client settings:
+Canary 22210
+####System settings:
+Windows 10 Home x64 (1803)
+
+17986
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-20T12:34:31.179Z
+
+
+### VR#5448 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b7ab557813c176a8ba9492a/3659056a9a82e8cb55f5ef784a3c6283/AzzH5Cp.png added by Bug Bot on 2018-08-20T12:34:33.663Z
+
+
+### Can reproduce.
+Can reproduce, depends on screen resolution: only reproducible on window widths less than 1375px. Likely occurs at other zoom levels. Canary 22210, MacOS 10.13.1, MacBook Air 13" (Late 2015)
+
+ori#4696 - Bug Bot on 2018-08-20T12:34:38.506Z
+
+
+### Can reproduce.
+If your text chat input is larger than what provide in the screenshot, please set it to windowed and adjust width of window until the size matches with the screenshot provided. Windows 10 x64 1803 (17134), Discord Canary with Build number 22210
+
+Frances Picard#6209 - Bug Bot on 2018-08-20T12:34:43.499Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 Canary 22210
+
+Delite#0001 - Bug Bot on 2018-08-20T12:34:48.523Z
+
+
+### verified, macos 10.12.6, canary 22283 - Clayton on 2018-08-21T22:41:12.505Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-21T22:41:18.561Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 Canary: 23990
+
+Neiron#2406 - Bug Bot on 2018-09-19T12:46:48.999Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:48.638Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

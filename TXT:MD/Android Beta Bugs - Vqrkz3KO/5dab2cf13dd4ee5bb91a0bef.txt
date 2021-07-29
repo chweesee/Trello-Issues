@@ -1,0 +1,149 @@
+[Archived] On the mini profile, if you click an empty note or remove an existing note, an error is printed in debug logs (https://trello.com/c/n13VkSsj)
+
+None
+
+Created: 2019-10-19T15:34:09.164Z
+Latest Update: 2020-02-20T21:34:32.275Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open any user's mini profile 
+- Click the Note field 
+- Leave it empty or remove its content 
+- Close mini-profile and open debug logs in the app settings
+
+####Expected result:
+No error should be printed
+####Actual result:
+The following error is printed: `updateNote
+java. lang. IllegalArgumentException: Parameter specified as non-null is null: method com. discord. widgets. user. usersheet. WidgetUserSheetViewModel$updateUserNote$ 1. invoke, parameter it`
+####Client settings:
+Discord version 9.7.4
+####System settings:
+Huawei Mate 9 Android 9.0
+
+45880
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-19T15:34:09.164Z
+
+
+### Can reproduce.
+cr; Alcatel A30 Fierce, Android 7.0 - Discord 9.7.4
+
+Spoopy Ness#0101 - Bug Bot on 2019-10-19T15:34:16.703Z
+
+
+### Can reproduce.
+Motorola Moto G6 Play, Android 9, Discord Version 974
+
+mesub#0556 - Bug Bot on 2019-10-19T15:34:21.730Z
+
+
+### Can reproduce.
+CR, Xiaomi Redmi 4x, 7.1.2 N2G47H, Android alpha 9.7.4
+
+KlukCZ#6589 - Bug Bot on 2019-10-19T15:34:27.096Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 9.7.4
+
+undermaster#3126 - Bug Bot on 2019-10-19T15:44:41.940Z
+
+
+### Can reproduce.
+Samsung Galaxy s10, Android 9 Pie (One UI 1.1) alpha/beta 974
+
+CentralPier9#5471 - Bug Bot on 2019-10-19T19:35:55.941Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Android Alpha 9.7.4
+
+Danijel#9000 - Bug Bot on 2019-10-19T19:36:23.422Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Android 5.0, Discord 9.7.4
+
+Karasu#0013 - Bug Bot on 2019-10-19T19:45:03.591Z
+
+
+### Can reproduce.
+Galaxy A20 - Android 9.0 - 9.7.4
+
+Not Batman#7098 - Bug Bot on 2019-10-20T05:26:47.798Z
+
+
+### Can reproduce.
+Android 9.0 Oppo find X Discord 974
+
+Typhoon#9981 - Bug Bot on 2019-10-20T12:49:28.460Z
+
+
+### Can reproduce.
+Honor 8X, Android 9, Discord 974
+
+Leaf#0001 - Bug Bot on 2019-10-20T13:43:10.110Z
+
+
+### Can reproduce.
+CR — Huawei Y9, Android 9 — Alpha 974
+
+Bullseye#8200 - Bug Bot on 2019-10-21T08:16:13.020Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Donald Chen on 2019-10-21T16:26:31.713Z
+
+
+### Can reproduce.
+CR Android 9 Oppo find X https://i.imgur.com/fi4Z5sr.png
+
+Typhoon#9981 - Bug Bot on 2019-10-22T11:31:00.993Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy Note 8, Android 9 - Android Alpha 9.7.5
+
+Danijel#9000 - Bug Bot on 2019-10-23T04:34:04.320Z
+
+
+### Can reproduce.
+Can repro on 975 - OnePlus 5T Android Pie
+
+OneNormalUsername#7636 - Bug Bot on 2019-10-23T04:34:06.258Z
+
+
+### Can reproduce.
+Can still reproduce, Motorola Moto G6 Play, Android 9, Discord Version 975
+
+mesub#0556 - Bug Bot on 2019-10-23T06:42:36.317Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-10-23T06:42:36.731Z
+
+
+### Can reproduce.
+Can Reproduce, Huawei P smart 2019 9.0.1 ● Android 9 ●  Alpha 9.7.6
+
+Dragonic#0025 - Bug Bot on 2019-10-25T05:47:37.111Z
+
+
+### Can reproduce.
+CR, Redmi 6A, Android 8.1.0, Discord: 9.9.4
+
+Dog#5630 - Bug Bot on 2019-11-30T09:42:21.858Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:32.284Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

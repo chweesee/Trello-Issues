@@ -1,0 +1,94 @@
+[Archived] app crash if you try to back from channel sorting [virtual navigation buttons only] (https://trello.com/c/xNZEIK0K)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2017-10-14T23:50:16.267Z
+Latest Update: 2018-01-26T20:35:40.489Z
+
+Reported by ks0908#8526
+
+####Steps to reproduce:
+- On a server you have Manage channels perms
+- Go to Channels, click the Sort icon and choose Text channel mode.
+- Hold any channel and move it around. Keep holding it, do NOT release it yet.
+- Press the Back button of your Android device **while you are still holding the channel**
+
+####Expected result:
+channel order should be reverted to one from before starting to move channel
+####Actual result:
+app crashes
+####Client settings:
+alpha client 5.3.8
+####System settings:
+LG xpower on android 6.0.1
+
+5412
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-14T23:50:16.267Z
+
+
+### ks0908#8526 - https://youtu.be/9CfRNwtidZQ added by Bug Bot on 2017-10-14T23:50:18.764Z
+
+
+### Can reproduce.
+cr, alpha 5.3.8, android 4.4.4, tablet viva h8 lte
+
+Symplyfyed#4047 - Bug Bot on 2017-10-14T23:50:23.705Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 5.3.8
+
+Okori#0902 - Bug Bot on 2017-10-14T23:50:28.698Z
+
+
+### Can reproduce.
+CR Moto G4 Android 7.0 Alpha 5.3.8
+
+Azrael#9808 - Bug Bot on 2017-10-14T23:50:33.698Z
+
+
+### Cannot reproduce.  - Clayton on 2017-10-26T23:43:22.863Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-10-26T23:43:26.605Z
+
+
+### Was able to reproduce using the following steps provided by Alex1304#9704:
+
+- On a server you have Manage channels perms
+- Go to Channels, click the Sort icon and choose Text channel mode.
+- Hold any channel and move it around. Keep holding it, do NOT release it yet.
+- Press the Back button of your Android device **while you are still holding the channel**
+Expected Result: You exit sorting mode normally
+Actual Result: It will exit the sorting mode and go back to the Server Settings, but 1 second later app crashes.
+
+The devices I reproduced on were a Pixel XL running Android 8.1.0 DP and a Nexus 4 running Android 5.1.1. - Chris Cox on 2017-10-29T00:47:57.106Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Chris Cox on 2017-10-29T00:48:15.765Z
+
+
+### You can do this without the back button at all, just tap on Done instead of the back button.
+
+Verified, but this is intentionally destructive behavior, low priority. - Jared on 2017-11-07T17:02:32.265Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-07T17:02:41.717Z
+
+
+### Dupe of https://trello.com/c/9w2zQNJT/ - Tarek on 2018-01-26T20:35:38.385Z
+
+
+### Archived by Tarek on 2018-01-26T20:35:40.492Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

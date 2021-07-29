@@ -1,0 +1,108 @@
+Dragging the scroll indicator to the bottom of a server member list and hovering over an user makes the cursor flicker (https://trello.com/c/vlXr4eIE)
+
+None
+
+Created: 2019-09-15T00:34:55.329Z
+Latest Update: 2020-07-16T21:26:05.137Z
+
+Reported by Ondratra#5826
+
+####Steps to reproduce:
+- Go to a server with a big amount of members (DTesters) and show the member list 
+- Grab the scroll indicator and drag it near/to the bottom of the list 
+- Hover over any user 
+- The cursor will flicker between clickable and not clickable
+
+####Expected result:
+The cursor doesn't flicker and allows to always click on the user profile
+####Actual result:
+The cursor flickers between being clickable and not clickable; while not clickable, it's not possible to click on a user
+####Client settings:
+Desktop PTB build 45765
+####System settings:
+Windows 10 version 1903
+
+44142
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-15T00:34:55.329Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Home x64 v1903 - Release Channel: ptb, Build Number: 45765, Version Hash: 07c13eb6871f67305509b40dd1d731cf80e4ed93
+
+ParallelRyan#3924 - Bug Bot on 2019-09-15T00:35:03.012Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903, Build: 18362.356 - Discord Canary, Build Number: 45765
+
+.Gloria.#9606 - Bug Bot on 2019-09-15T00:35:07.964Z
+
+
+### Can reproduce.
+CR | Dell OptiPlex 5040 running Windows 10 Pro x64 | Canary 45765
+
+Kaden303#4560 - Bug Bot on 2019-09-15T00:35:12.970Z
+
+
+### Can reproduce.
+cr Windows 10 1903 canary 45765
+
+GlenMerlin#2119 - Bug Bot on 2019-09-15T00:41:38.607Z
+
+
+### Can reproduce.
+Windows 7 Ultimate 64-bit • Release Channel: canary, Build Number: 45765
+
+shard#9042 - Bug Bot on 2019-09-15T00:43:00.949Z
+
+
+### Extension of https://trello.com/c/JBVUjoZH/
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-15T00:50:00.539Z
+
+
+### Can reproduce.
+Windows 10 Enterprise - Canary Build 45765
+
+Ayu#0001 - Bug Bot on 2019-09-15T05:05:21.731Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary Build: 45765
+
+Scrumpy#0200 - Bug Bot on 2019-09-15T20:45:32.451Z
+
+
+### Can't reproduce.
+Microsoft Windows 10 Home Version 1809, OS Build: 17763.678; Canary, Build Number: 45765
+
+Celeron#2757 - Bug Bot on 2019-09-15T22:41:36.005Z
+
+
+### Can reproduce.
+Windows 10 Pro (1903, Build 18362.329), Canary Build 45765
+
+kiosion#0001 - Bug Bot on 2019-09-16T03:39:02.129Z
+
+
+### Can reproduce.
+iMac (Late 2015) • macOS High Sierra 10.13.6 • Canary 45770
+
+Leaf#0001 - Bug Bot on 2019-09-16T18:30:58.377Z
+
+
+### Can reproduce.
+Chromium | Pop!_OS 18.04 - Release Channel: stable, Build Number: 45765, Version Hash: 07c13eb6871f67305509b40dd1d731cf80e4ed93
+
+GoofballMichelle#9215 - Bug Bot on 2019-09-17T18:13:23.820Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

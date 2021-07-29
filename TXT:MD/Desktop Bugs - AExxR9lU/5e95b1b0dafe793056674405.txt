@@ -1,0 +1,64 @@
+Previewing emojis causes Discord to stop responding if you type a specific type of message (https://trello.com/c/qUbKZOKm)
+
+None
+
+Created: 2020-04-14T12:50:56.446Z
+Latest Update: 2020-07-16T21:26:06.219Z
+
+Reported by Blue#6405
+
+####Steps to reproduce:
+- ```
+:emote:` :emote:*`
+```
+
+- 'Preview emotes, mentions and markdown syntax as you type' (wysiwyg) needs to be enabled
+
+- Any characters can replace *, as long as they don't change the rendering.
+
+- Before the first :emote, there needs to be at least a number of characters equal to the length of the second :emote: plus colons (:emote: would need at least 7 characters to break).
+
+- The first :emote: can be any emote, even standard ones.
+
+- The second :emote: needs to be a custom emote from a server you're in; Nitro is not required
+
+####Expected result:
+The chatbox should render the first emote, not the second and any surrounding text
+####Actual result:
+Discord stops responding completely and needs to be restarted
+####Client settings:
+Canary 58100 (26efe4c)
+####System settings:
+Windows 10 64-Bit (10.0.18363)
+
+54681
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-14T12:50:56.446Z
+
+
+### Can reproduce.
+CR, Canary 58100 (26efe4c), Host 0.0.264, Windows 10 64-Bit (10.0.18363). Can build required pattern in any order, when final character is entered crash occurs
+
+wakfi#6999 - Bug Bot on 2020-04-14T12:51:04.482Z
+
+
+### Can reproduce.
+CR, Canary 58100 (26efe4c), Host 0.0.248, OS X 10.14.6 (18.7.0)
+
+Brightness™#0492 - Bug Bot on 2020-04-14T12:51:09.516Z
+
+
+### Can reproduce.
+Windows 10 Pro Version 1909 • Release Channel: canary, Build Number: 58100
+
+shard#9042 - Bug Bot on 2020-04-14T12:51:14.397Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

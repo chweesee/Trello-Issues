@@ -1,0 +1,67 @@
+[Archived] Role mentions dont work in embeds (https://trello.com/c/lgc7nswf)
+
+None
+
+Created: 2016-12-29T17:33:27.799Z
+Latest Update: 2019-05-16T22:19:37.068Z
+
+Reported by Aaron#7079
+
+####Steps to reproduce: 
+- Create an embed with role mentions 
+- Watch them not work? 
+
+####Expected result:
+ Role mentions appear as links 
+####Actual result:
+ Roles shown as `@deleted-role`
+
+Card Log
+========
+### Added by Jared on 2016-12-29T17:33:27.799Z
+
+
+### Can reproduce.
+Windows 10 LTSB - Latest Canary
+
+Seriel#0757 - Jared on 2016-12-29T17:33:28.246Z
+
+
+### Can reproduce.
+Win 10 Pro x64 AU, Canary
+
+Tiemen#0107 - Jared on 2016-12-29T17:33:28.335Z
+
+
+### Image%202016-12-29%20at%2008.50.33.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/586548e787e0162028590823/1517277a6b5f10910edeca53acf300d4/Image_202016-12-29_20at_2008.50.33.png added by Jared on 2016-12-29T17:33:44.660Z
+
+
+### Can reproduce.
+Windows 10 LTSB - Latest Canary
+
+Seriel#0757 - Jared on 2016-12-29T17:34:01.348Z
+
+
+### This is part of a larger "bug" that embeds don't actually exist in the scope of the server. Try mentioning a role from one server in another server; the same thing happens. Also, try mentioning a user and clicking the mention inside the embed. It's not the Member pop-up (with roles), it's the User pop-up. If the intention is for all Guild entities to be mentionable in embeds, then this would be fixed along with that. Otherwise, this seems like intentional behavior.
+
+jagrosh#4824 - Jared on 2017-01-03T17:48:36.498Z
+
+
+### According to Night "mentions are a Won't Fix.". - Jared on 2017-01-05T19:05:32.897Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-01-05T19:05:36.661Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:19:15.845Z
+
+
+### Archived by Jared on 2017-10-17T21:19:16.510Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

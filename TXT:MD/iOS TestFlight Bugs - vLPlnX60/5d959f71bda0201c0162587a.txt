@@ -1,0 +1,98 @@
+Spamming the mute button in a Direct Message call and/or in a Group Direct Message call causes the profile picture icon to flicker. (https://trello.com/c/O7smi3eL)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-10-03T07:12:49.181Z
+Latest Update: 2019-10-19T14:44:34.675Z
+
+Reported by .Gloria.#9606
+
+####Steps to reproduce:
+- Open Discord 
+- Call someone in Direct Message and/or multiple people in a Group Direct Message call (either works) 
+- Have you and/or the other person spam the mute button (either way works + this also works on desktop as well with the deafen button if one is using iOS on TestFlight 3.1.4 (17524) and the other using desktop) 
+- Observe. (This may take a couple of tries)
+
+####Expected result:
+The profile picture icon of yours and/or the other person's icon is not supposed to flicker when muting.
+####Actual result:
+The profile picture icon of yours and/or the other person's icon starts to flicker.
+####Client settings:
+TestFlight 3.1.4 (17524)
+####System settings:
+iPhone 8, iOS 13.1.2
+
+45016
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-03T07:12:49.181Z
+
+
+### .Gloria.#9606 - https://youtu.be/KfNbjqC_Z1E added by Bug Bot on 2019-10-03T07:12:51.719Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 7 Plus - iOS 13.0 - TestFlight 3.1.4 (17524) This spamming also “queues” sounds of mute and unmute, which may persist beyond the call
+
+Ayu#0001 - Bug Bot on 2019-10-03T07:12:56.734Z
+
+
+### Can reproduce.
+CR, iPad Pro 12.9” (2018), iPadOS 13.1.2, Testflight 3.1.4 (17524), very brief flicker but it is there
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-03T07:13:01.665Z
+
+
+### Can reproduce.
+CR; iphone XR, IOS 13.1, Testflight 3.1.4 (17524)
+
+Denariooo#3352 - Bug Bot on 2019-10-03T07:13:06.689Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.1.2 TestFlight 3.1.4 (17524)
+
+binchlord#0998 - Bug Bot on 2019-10-03T21:09:19.955Z
+
+
+### Can reproduce.
+iPad 6 (iPadOS 13.1 PB 4), TestFlight 3.1.4 (17524)
+
+kiosion#0001 - Bug Bot on 2019-10-03T22:07:13.019Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.2; TestFlight 3.1.4 (17524)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-04T00:33:23.243Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13 - TestFlight 3.1.4 (17524)
+
+Fictional#0001 - Bug Bot on 2019-10-04T12:23:24.416Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-11T19:00:05.992Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13 - TestFlight 3.1.5 (17627)
+
+Fictional#0001 - Bug Bot on 2019-10-17T16:24:05.012Z
+
+
+### Moved from Backlog to Voice call refresh by Pascal on 2019-10-19T14:42:17.550Z
+
+
+### It might also cause the mute icon to not show the correct current state: https://trello.com/c/Om7H5P6e - Pascal on 2019-10-19T14:44:34.688Z
+
+List
+====
+Voice call refresh
+
+Members
+=======
+None

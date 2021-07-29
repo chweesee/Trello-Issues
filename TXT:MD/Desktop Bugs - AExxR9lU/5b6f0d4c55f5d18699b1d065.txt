@@ -1,0 +1,115 @@
+[Archived] You can upload things in channels where you don't have permission (https://trello.com/c/hsaqF8cj)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-11T16:22:36.291Z
+Latest Update: 2019-01-01T15:34:00.785Z
+
+Reported by KingMarine#5676
+
+####Steps to reproduce:
+- Go to a channel where you can't upload files/can't send messages 
+- Use Shift+Cmd+U 
+- Select any file 
+- Send
+
+####Expected result:
+The finder shouldn't open
+####Actual result:
+You can upload files (The upload fails though)
+####Client settings:
+Canary 21681
+####System settings:
+MacOS Mojave 18A347e, MacBook Air 2017
+
+17350
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-11T16:22:36.291Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64-bit (1803), Canary 21681
+
+that15fine#9275 - Bug Bot on 2018-08-11T16:22:43.722Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 x64. Canary, 21425
+
+Zak - Inactive till 18th August#5879 - Bug Bot on 2018-08-11T16:22:48.817Z
+
+
+### Can reproduce.
+Can Reproduce. Windows 10 Home x64. Canary 21681
+
+Sam#1757 - Bug Bot on 2018-08-11T16:22:53.738Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 21681
+
+Delite#0001 - Bug Bot on 2018-08-11T19:56:55.200Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 21705
+
+Frances Picard#6209 - Bug Bot on 2018-08-12T16:52:40.412Z
+
+
+### Can reproduce.
+CR Windows 10 x64, Discord Canary 21705
+
+zarrros#2910 - Bug Bot on 2018-08-12T23:30:55.189Z
+
+
+### Can reproduce.
+Can reproduce - MS Windows 10 Pro x64 (v1803) - Canary 21705
+
+aosync#3115 - Bug Bot on 2018-08-13T08:44:11.660Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T21:51:06.250Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T21:51:17.336Z
+
+
+### can no longer reproduce - Clayton on 2018-10-04T00:46:59.554Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-04T00:47:04.973Z
+
+
+### Can reproduce.
+New repro steps: - Create a channel with perms to view messages, but not to send. And with permission to attach files. - With another account with default perms, drag a file to the channel you created - You'll see the pop up for attaching files, although you can't write anything but you can click on upload and Discord will show an error message. | Discord Canary Build 27629 - Windows 10 Enterprise E3 x64
+
+SweetSofiMC#8821 - Bug Bot on 2018-11-08T08:28:55.628Z
+
+
+### SweetSofiMC#8821 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6f0d4c55f5d18699b1d065/7dc7a613e7497ccff6a33de3b87d40cd/PtPDrS6.gif added by Bug Bot on 2018-11-08T08:30:42.023Z
+
+
+### Can reproduce.
+Canary 28226 on Fedora 28 with KDE & 4.18.17-200 kernel; Also happens in Chrome 70.0.3538.102
+Secondary Steps: Drag & drop a file in a channel you cannot send messages in.
+The channel you're trying to reproduce in must allow Attach Files, but not allow Send Messages in order to reproduce.
+
+KJP12#3880 - Bug Bot on 2018-11-19T22:59:35.159Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:33:59.800Z
+
+
+### Archived by Tarek on 2019-01-01T15:34:00.786Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

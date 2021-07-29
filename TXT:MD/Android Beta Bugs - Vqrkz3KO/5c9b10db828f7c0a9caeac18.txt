@@ -1,0 +1,117 @@
+[Archived] If you enter 3 symbols as password and invalid email the discrim error silently goes away (https://trello.com/c/6j9rr63i)
+
+None
+
+Created: 2019-03-27T05:57:47.522Z
+Latest Update: 2019-06-05T23:49:47.202Z
+
+Reported by Defracted#7777
+
+####Steps to reproduce:
+- Go to user settings 
+- Change your discrim to 0000 and enter more than 6 random symbols as your password 
+- Hit save and observe the error 
+- Now do not change your bad discrim 
+- Change your email to something invalid like "no" 
+- Enter 3 random symbols as your password 
+- Observe that error from discrim vanishes
+
+####Expected result:
+The error on discrim field stays
+####Actual result:
+The error on discrim field vanishes
+####Client settings:
+8.6.7
+####System settings:
+Xiaomi Redmi 4X, Android 7.1.2
+
+31733
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-27T05:57:47.522Z
+
+
+### Defracted#7777 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c9b10db828f7c0a9caeac18/db73a8a9fcc3f5365718254a6fc3faa8/Screenshot_2019-03-27-07-52-59-261_com.discord.png added by Bug Bot on 2019-03-27T05:57:50.576Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 867
+
+The Lunala#7777 - Bug Bot on 2019-03-27T05:57:55.076Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.6.7
+
+Skyla#0002 - Bug Bot on 2019-03-27T05:58:00.041Z
+
+
+### Can reproduce.
+CR, Samsung S7 Edge - Android 8 - Discord Alpha 8.6.7
+
+Mils#0004 - Bug Bot on 2019-03-27T05:58:05.032Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.6.7
+
+Clay#0001 - Bug Bot on 2019-03-27T06:05:22.414Z
+
+
+### Can reproduce.
+Advan i5K, Android 6.0, Discord Alpha 8.6.6
+
+FrostingBit#9595 - Bug Bot on 2019-03-27T08:20:13.388Z
+
+
+### Can reproduce.
+Samsung Galaxy Light v4.2.2 BaseBand T399UVUAQE1 Discord Alpha 8.6.7
+
+Killtracity#0001 - Bug Bot on 2019-03-27T11:06:42.611Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.6.3
+
+Lily#2624 - Bug Bot on 2019-03-27T11:14:01.125Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 866
+
+charleskimbac#6492 - Bug Bot on 2019-03-27T14:00:37.259Z
+
+
+### Moved from User Reported Bugs to Nitro Purchase Bugs by Jeff Cailteux on 2019-03-27T17:55:59.573Z
+
+
+### Moved from Nitro Purchase Bugs to Cannot Reproduce by Sam Shih on 2019-03-27T17:58:39.544Z
+
+
+### Cannot reproduce. I see that the disrim error is the only one that shows up as we check for that to be valid first - Sam Shih on 2019-03-27T17:59:26.341Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.6.6
+
+trocide#0510 - Bug Bot on 2019-03-27T17:59:41.779Z
+
+
+### actually... I see the confusion here. The error coming from the server, but the other errors in the screenshot are client side.
+
+The fix is to add a client side check for empty discrim. - Sam Shih on 2019-03-27T18:00:53.795Z
+
+
+### Moved from Cannot Reproduce to Fixed Bugs by Sam Shih on 2019-03-27T18:05:17.005Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:47.214Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

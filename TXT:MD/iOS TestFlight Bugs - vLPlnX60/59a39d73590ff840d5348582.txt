@@ -1,0 +1,89 @@
+[Archived] Channel topic compresses description with empty lines and Markdown formatting (https://trello.com/c/dLizyz3y)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-08-28T04:34:59.950Z
+Latest Update: 2018-10-04T23:55:38.471Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Have/create a channel topic with the following conditions (see attached picture for an example): 
+- First line of channel topic with normal text without Markdown formatting 
+- Second line of channel topic is an empty line 
+- Third line of channel topic uses Markdown formatting (for example bold text)
+
+####Expected result:
+Empty line should be shown after the first line. Although empty line doesn't seem to be supported for iOS, at least space should be shown.
+####Actual result:
+Space between first and third line is missing.
+####Client settings:
+TestFlight 1.9.1
+####System settings:
+iPhone 6S, iOS 10.3.3
+
+3732
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-28T04:34:59.950Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59a39d73590ff840d5348582/3d6751b16e2d3863b6e3cf634a20ac7a/gUmaYAy.jpg added by Bug Bot on 2017-08-28T04:35:02.603Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59a39d73590ff840d5348582/9ecda4854eb31294370e7583d4fe535b/aG2d8qH.png added by Bug Bot on 2017-08-28T04:35:02.690Z
+
+
+### Can reproduce.
+Tried again on my sister's iPhone 6s iOS 10.3.3. worked this time. sorry
+
+Speed#5138 - Bug Bot on 2017-08-28T04:35:07.409Z
+
+
+### Can reproduce.
+iPhone 6+, iOS 10.2, TF 1.9.1, can repro without formatting on third line too
+
+tri'ngle#9036 - Bug Bot on 2017-08-28T04:35:12.387Z
+
+
+### Can reproduce.
+iPhone 6S Plus, iOS 11.0.7 (Beta 7) > TestFlight 1.9.1
+
+Ben#4331 - Bug Bot on 2017-08-28T04:35:17.388Z
+
+
+### Same bug https://trello.com/c/NyCTiRGz/335-empty-lines-not-shown - Jared on 2017-09-18T22:57:01.788Z
+
+
+### Archived by Jared on 2017-09-18T22:57:02.894Z
+
+
+### Unarchived by Mike Nisbet on 2018-03-20T19:20:50.715Z
+
+
+### Unarchived based on Jared's comments on the dupe ticket; this should stand as it's own bug. https://trello.com/c/NyCTiRGz - Mike Nisbet on 2018-03-20T19:21:53.837Z
+
+
+### Verified.  - Clayton on 2018-03-30T23:17:44.801Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-30T23:17:50.920Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2018-05-16T00:09:32.959Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-05-24T00:51:18.903Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:38.473Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

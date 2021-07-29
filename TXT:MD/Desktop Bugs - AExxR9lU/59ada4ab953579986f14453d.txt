@@ -1,0 +1,85 @@
+[Archived] Triple tapping on non text opens Mac Dictionary app (https://trello.com/c/9hGVjImu)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-04T19:08:27.202Z
+Latest Update: 2018-08-21T23:26:49.548Z
+
+Reported by Technocoder#9418
+
+####Steps to reproduce:
+- Move your cursor over an area that is not text 
+- Triple tap on the trackpad which activates the Look Up gesture
+
+####Expected result:
+Nothing should end up happening
+####Actual result:
+The dictionary application opens and the last text that you highlighted (does not have to be currently highlighted) is copied into the search box at the top right
+####Client settings:
+Stable 0.0.248
+####System settings:
+macOS Sierra 10.12.6, Retina 15-inch Mid 2014
+
+3925
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-04T19:08:27.202Z
+
+
+### Can reproduce.
+Can Reproduce - Discord Canary [0.0.154], MacBook Air [13" 2014 Model, 10.12.6]
+
+ItsPugle#5963 - Bug Bot on 2017-09-04T19:08:35.767Z
+
+
+### Can reproduce.
+MacBook Pro (2016), macOS Sierra 10.12.6, Canary 0.0.154
+
+Pascal#0929 - Bug Bot on 2017-09-04T19:08:40.931Z
+
+
+### Can reproduce.
+Can Reproduce - Mac Os Sierra Version 10.12.4 Canary: 0.0.154 (0.0.154)
+
+crabbynick9#7258 - Bug Bot on 2017-09-04T19:08:45.702Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord 0.0.298
+
+ducklife9000#2621 - Bug Bot on 2017-09-04T22:29:28.901Z
+
+
+### Verified.  - Clayton on 2017-09-05T20:21:29.636Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-05T20:21:34.205Z
+
+
+### Can reproduce.
+Macbook Pro Early 2015 MacOS Highsierra 10.13.2 Beta (17C85a) Discord Canary 8746
+
+Luca#8366 - Bug Bot on 2017-12-17T13:49:31.015Z
+
+
+### Also works when using the force click feature to look up the dictionary
+
+Luca#8366 - Bug Bot on 2017-12-17T13:52:59.198Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Gregory Rizzo on 2018-07-11T18:24:18.991Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:26:48.835Z
+
+
+### Archived by Jared on 2018-08-21T23:26:49.550Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

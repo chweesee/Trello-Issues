@@ -1,0 +1,66 @@
+[Archived] Word wrapping failure with text after a code block (https://trello.com/c/ivdM40Sm)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-21T09:13:38.154Z
+Latest Update: 2018-10-22T20:16:06.667Z
+
+Reported by Flamanis#7150
+
+####Steps to reproduce:
+- Have monitor on 1440x900 resolution 
+- Have discord fullscreen on that 
+- Enable compact mode on Discord 
+- Type in a codeblock, and then an amount of text after it, and it will fail to wordwrap towards the end sometimes 
+- My test phrase: This phrase might just run off of the page because it's a bit longer than stuff that gets discord antidisestablishmentarianism display 
+- Put that after an empty or even full code block, but on the same line as the \`\`\`
+
+####Expected result:
+It wraps antidisestablishmentarianism correctly
+####Actual result:
+It does not wrap it, and instead a few characters are cut off
+####Client settings:
+Discord windows desktop client
+####System settings:
+Win 10 x64
+
+4614
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-21T09:13:38.154Z
+
+
+### Can reproduce.
+Canary Build 4585, Windows 10 x64
+
+Jake S.#8787 - Bug Bot on 2017-09-21T09:13:45.610Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163, Windows 10 x64
+
+Tetey#6918 - Bug Bot on 2017-09-21T09:13:50.574Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163 with Dell E1909W(Analog) with 1400x900 resolution
+
+AviationMaster#4793 - Bug Bot on 2017-09-21T09:13:55.555Z
+
+
+### Verified.  - Clayton on 2017-10-04T17:52:44.786Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-04T17:52:50.449Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:06.670Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

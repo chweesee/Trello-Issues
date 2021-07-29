@@ -1,0 +1,70 @@
+[Archived] Huge grey wall of nothingness below chat (https://trello.com/c/CfcahRmd)
+
+None
+
+Created: 2017-09-01T16:39:48.411Z
+Latest Update: 2017-10-30T17:26:33.167Z
+
+Reported by TDCWeiss#4476
+
+####Steps to reproduce:
+- Go to a user with a bunch of roles which shows avatar off the top, then type something to jump to it, it should jump below
+
+####Expected result:
+Can't see what you typed, discord should be normal
+####Actual result:
+Discord jumps to "send this user a message"; <https://gyazo.com/b734a5484dabc74f54467ec71ffed93c>
+####Client settings:
+Canary Desktop 0.0.163
+####System settings:
+Acer Predator 17, WIN10 64bit
+
+3865
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-01T16:39:48.411Z
+
+
+### mcmacker4#0079 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59a98d545a652d16b6c9dc41/97550816ad95e2f5962c436248786288/b734a5484dabc74f54467ec71ffed93c.png added by Bug Bot on 2017-09-01T16:39:51.750Z
+
+
+### Can reproduce.
+repro steps need to be formatted better, but it works. | Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-09-01T16:39:56.244Z
+
+
+### Can reproduce.
+Finally got it to work, sorry for doubting
+
+Speed#5138 - Bug Bot on 2017-09-01T16:40:01.250Z
+
+
+### Can reproduce.
+managed to repro but only does this if you open the profile while the roles are being added (not when the roles are already there), as the profile expands downwards the textfield exits screen and as soon as you press a key, instead of just the profile, the whole discord goes upwards until the text field is in the viewport - Canary 0.0.163 (3801) Win10 x64 (CU)
+
+mcmacker4#0079 - Bug Bot on 2017-09-01T16:40:06.259Z
+
+
+### Rauf#3260 - undefined added by Bug Bot on 2017-09-02T01:34:57.661Z
+
+
+### Can't repro.  - Clayton on 2017-09-08T23:03:27.930Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-09-08T23:03:33.236Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:26:32.288Z
+
+
+### Archived by Jared on 2017-10-30T17:26:33.169Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,132 @@
+[Archived] Ghost text channels are opened by tapping links that go to voice channels (https://trello.com/c/0P9aQ7YT)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-07-28T02:08:42.810Z
+Latest Update: 2019-07-13T20:00:14.147Z
+
+Reported by SuperSajuuk#0001
+
+####Steps to reproduce:
+- Go to a server with a voice channel. 
+- Craft a  link to a voice channel in the server (ask others for ids if needed) 
+- Tap the link and observe.
+
+####Expected result:
+you open the drawer sheet for a voice channel.
+####Actual result:
+you just end up in a ghost text channel.
+####Client settings:
+Discord via TestFlight (v2.3.6, Build 6095)
+####System settings:
+iOS 11.3.0 on iPad Pro 2nd Gen
+
+16166
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-28T02:08:42.810Z
+
+
+### SuperSajuuk#0001 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b5bd02a131b8680fb5f5a5e/7da411b48e151a2e1612638f7f8e7ed6/image.png added by Bug Bot on 2018-07-28T02:08:45.809Z
+
+
+### Can reproduce.
+Can Reproduce: iPhone 8+, iOS 12 Dev Beta 4, Testflight 2.3.6 (6095) — It takes me to my welcome channel with no messages at first, but on second click, the messages of the main channel load. But however, voice invites dont take you to the voice channel on both tests.
+
+TheMegaEagle#9909 - Bug Bot on 2018-07-28T02:08:50.348Z
+
+
+### Can reproduce.
+[CR] iPhone 6S, iOS 10.2.1, Discord TestFlight 2.3.6 (6095)
+
+54D#1357 - Bug Bot on 2018-07-28T02:08:55.322Z
+
+
+### Can reproduce.
+Can Reproduce - TestFlight 2.3.6 (6095) iPhone 6s iOS 12 Dev Beta 4
+
+Rashaun#9295 - Bug Bot on 2018-07-28T02:09:00.385Z
+
+
+### Can reproduce.
+iOS 12 (PTB #3), Discord TestFlight 2.3.6
+
+Marc#5983 - Bug Bot on 2018-07-28T06:00:50.069Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 3, TestFlight 2.3.6 (6095)
+You need a link with the following format https://discordapp.com/channels/{guildid}/{voicechannelid} (Canary and PTB link don't work). The expected result might be to open the welcome (first channel) in your server because that is what the Desktop app does
+
+Pascal#0929 - Bug Bot on 2018-07-28T13:41:16.328Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12 (dev beta 4), TestFlight 2.3.6 (6095)
+
+Xylium#1480 - Bug Bot on 2018-07-28T13:45:36.215Z
+
+
+### Can reproduce.
+TestFlight 2.3.6 (6095), iPhone 6s
+
+Mattybilly1#0001 - Bug Bot on 2018-07-28T13:48:21.612Z
+
+
+### Can reproduce.
+CR. iPhone 6s - iOS 11.0 - TestFlight 2.3.6 (6095)
+
+Rage#9991 - Bug Bot on 2018-07-28T20:53:52.453Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+Mippy#0001 - Bug Bot on 2018-07-29T00:37:52.486Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.2.1, TestFlight 2.3.6 (6095)
+
+Pyros#2326 - Bug Bot on 2018-07-30T02:33:17.230Z
+
+
+### Verified on iPhone 8 + running iOS 12, Dev Beta 4 with iOS TestFlight 2.3.6 (6095). After following the link with (https://discordapp.com/channels/<serverID>/<channelID>), it leads me to a empty text channel.
+
+Moving this ticket to Verified Bugs. - Ghoul on 2018-08-02T23:59:03.248Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ghoul on 2018-08-02T23:59:10.903Z
+
+
+### It wont open a ghost chat if you are in the guild where the voice invite will take you to, but the invite modal will say Open Guild server even if already opened
+
+Pyros#2326 - Bug Bot on 2018-08-06T14:50:20.201Z
+
+
+### Archived by Clayton on 2018-09-05T22:30:02.522Z
+
+
+### Also happens with the new voice channel linking feature now. - Pascal on 2019-05-17T13:14:50.896Z
+
+
+### Unarchived by Bug Bot on 2019-05-17T13:30:05.718Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.3.1
+
+SplashyFlame#4968 - Bug Bot on 2019-06-05T01:37:40.324Z
+
+
+### Archived by Bug Bot on 2019-07-13T20:00:14.158Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,67 @@
+[Archived] Links ending in numbers do not show embeds if there is a comma at the end. (https://trello.com/c/cuu2Bv8z)
+
+P3: Will get fixed eventually,
+Low,
+Client side,
+Embeds
+
+Created: 2018-02-17T10:44:06.832Z
+Latest Update: 2018-10-22T20:18:34.461Z
+
+Reported by null byte#1337
+
+####Steps to reproduce:
+- Send this message: "https ,"
+
+####Expected result:
+An embed appears
+####Actual result:
+An embed does not appear. Note that the "," doesn't otherwise break the link.
+####Client settings:
+Release Channel: stable, Build Number: 10394, Version Hash: 7553b167d8f0276f19ff85cf3d50ee41b0e7b752
+####System settings:
+Ubuntu Linux 17.10
+
+8877
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-17T10:44:06.832Z
+
+
+### Can reproduce.
+Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 10878. You actually do not need the number in the end of the link in order to reproduce.
+
+Ghoul#0009 - Bug Bot on 2018-02-17T10:44:14.555Z
+
+
+### Can reproduce.
+CR with pretty much all links except the provided trello links Windows 10 1709 x64, Canary build 10878
+
+AEnterprise#4693 - Bug Bot on 2018-02-17T10:44:19.566Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 64-bit | CR with a number of different links, it doesn't happen to all of them but it does happen to several
+
+Blastoise186#7194 - Bug Bot on 2018-02-17T10:44:24.565Z
+
+
+### You can repro this by doing `https://google.com,` - Jared on 2018-02-20T21:10:13.855Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-20T21:10:21.511Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a8807761a3dd92718aefe5b/dfc2338eb8273e27b422350a51f884e9/R8wHXUo.gif added by Bug Bot on 2018-07-14T06:07:08.870Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:34.463Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

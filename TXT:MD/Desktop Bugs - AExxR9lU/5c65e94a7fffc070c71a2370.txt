@@ -1,0 +1,76 @@
+Trying to leave a server in guest mode causes 500 error (https://trello.com/c/Jr7Ieco4)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-02-14T22:18:50.071Z
+Latest Update: 2019-04-02T20:38:30.754Z
+
+Reported by davfsa#7026
+
+####Steps to reproduce:
+- Enter guest mode 
+- Right click on the server and try to leave it 
+- Check the console
+
+####Expected result:
+The option to leave the server is not there
+####Actual result:
+You get a 500 error
+####Client settings:
+Canary 32259
+####System settings:
+Windows 10
+
+28799
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-14T22:18:50.071Z
+
+
+### davfsa#7026 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c65e94a7fffc070c71a2370/e85069b46698615cb129466a743f2183/unknown.png added by Bug Bot on 2019-02-14T22:18:54.004Z
+
+
+### Can reproduce.
+Can reproduce, Release Channel: canary, Build Number: 32259 - Windows 10 Pro x64 with Chrome Canary 71
+
+richard#1337 - Bug Bot on 2019-02-14T22:18:57.599Z
+
+
+### Can reproduce.
+CR, creates error in console - Windows 10 x64 Professional, Chrome 32259
+
+Darth#9386 - Bug Bot on 2019-02-14T22:19:02.595Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 32259 | Chrome 72.0.3626.109
+
+charleskimbac#6492 - Bug Bot on 2019-02-14T22:19:07.584Z
+
+
+### Can reproduce.
+W10 Pro x64 - Canary 32249, Chrome 72.0.3626.96
+
+dafaqed#1312 - Bug Bot on 2019-02-14T22:49:29.587Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 32249
+
+Delite#0001 - Bug Bot on 2019-02-14T23:58:46.230Z
+
+
+### Moved from User Reported Bugs to Server discovery! by Clayton on 2019-02-15T02:08:59.308Z
+
+
+### verified, win10, chrome 72 - Clayton on 2019-02-15T11:24:02.994Z
+
+List
+====
+Server discovery!
+
+Members
+=======
+None

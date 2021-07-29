@@ -1,0 +1,83 @@
+[Archived] Spam-tapping an image when uploading from Camera Roll crashes Discord (https://trello.com/c/MCu26RTo)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-10-30T14:13:14.212Z
+Latest Update: 2017-12-23T10:54:53.852Z
+
+Reported by skyllful#8516
+
+####Steps to reproduce:
+- Tap the paper clip. 
+- Choose to upload from Camera Roll. 
+- Spam-tap an image from the Camera Roll a considerable amount of times.
+
+####Expected result:
+Discord should only upload one image, or allow the user to upload multiple images in succession.
+####Actual result:
+Discord crashes.
+####Client settings:
+Stable 1.9.4
+####System settings:
+iPhone 6s, iOS 11.0.3
+
+5956
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-30T14:13:14.212Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5, Discord Stable 1.9.4
+
+Pascal#0929 - Bug Bot on 2017-10-30T14:13:21.599Z
+
+
+### Can reproduce.
+iPhone 6 with iOS 11.1 PB5, TF 1.9.3 (1340)
+
+Inner Sense#0404 - Bug Bot on 2017-10-30T14:13:26.658Z
+
+
+### Can reproduce.
+CR, iPhone 8 Plus, iOS 11.1 (PB5), Discord TestFlight 1.9.3 (1340)
+
+🎃 Spoopy juj 🎃#5114 - Bug Bot on 2017-10-30T14:13:31.598Z
+
+
+### Possibly related to <https://trello.com/c/caPXDR6h>?
+
+🎃 Spoopy juj 🎃#5114 - Bug Bot on 2017-10-30T14:14:05.802Z
+
+
+### Low priority as this is intentionally destructive behavior
+ - Jared on 2017-11-06T21:27:51.240Z
+
+
+### Can't reproduce. - Jared on 2017-11-14T00:34:35.141Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-11-14T00:34:38.678Z
+
+
+### Can still reproduce with TestFlight 2.0.1 (1610)
+iPhone 6s, iOS 11.1.2 & iPad Air 2, iOS 11.2 Public Beta 4
+Make sure to test it with the camera roll and not the recent images.
+
+Pascal#0929 - Bug Bot on 2017-11-18T11:26:13.148Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-23T10:54:53.248Z
+
+
+### Archived by Alexandru Todea on 2017-12-23T10:54:53.855Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,74 @@
+[Archived] Each first time muting a category and the first time only, it collapses the channels first causing the read channels in that category to collapse before the unread channels in an unsmooth way. (https://trello.com/c/9roTv2tg)
+
+P3: Will get fixed eventually,
+Low,
+Client side,
+Channel Categories
+
+Created: 2018-03-12T15:38:17.013Z
+Latest Update: 2018-10-22T20:18:53.866Z
+
+Reported by nuke#1337
+
+####Steps to reproduce:
+- Be in a server that has a category that contains both read and unread channels and that you haven't muted before 
+- Mute that category
+
+####Expected result:
+The category collapses smoothly like it does after on.
+####Actual result:
+The category collapses in an unsmooth 2 step way.
+####Client settings:
+Stable build 11828
+####System settings:
+Windows 10 Pro x64
+
+9527
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-12T15:38:17.013Z
+
+
+### nuke#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aa69ee8177d36b4b88b0409/56bdd1d525f84462da05bad504a316e6/b.gif added by Bug Bot on 2018-03-12T15:38:20.068Z
+
+
+### Can reproduce.
+CR Canary 11885 Win10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-03-12T15:38:24.999Z
+
+
+### Can reproduce.
+CR Windows 10 x64 Canary 11885
+
+Nova#9411 - Bug Bot on 2018-03-12T15:38:29.919Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Version 1803 Canary Build 11885
+
+RME#3050 - Bug Bot on 2018-03-12T15:38:34.934Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1709) Canary 11935
+
+Purpzie#0001 - Bug Bot on 2018-03-12T23:21:06.486Z
+
+
+### Can reproduce. I don't know if there's a word in the english language to describe how minor of an issue this is, so I'm going to invent one: terrabual. This is a terrabual bug. - Jared on 2018-03-27T21:48:28.969Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-03-27T21:48:33.477Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:53.868Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

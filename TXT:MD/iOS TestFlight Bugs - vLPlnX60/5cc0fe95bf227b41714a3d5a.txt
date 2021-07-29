@@ -1,0 +1,98 @@
+[Archived] Tapping on an in-app Notification while server list is showing only hides the server list (https://trello.com/c/8Wof6wBu)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2019-04-25T00:25:57.952Z
+Latest Update: 2019-05-27T02:00:02.095Z
+
+Reported by Andeh#0001
+
+####Steps to reproduce:
+- Swipe left to show server/channel list 
+- Receive in-app notification 
+- Tap on in-app notification
+
+####Expected result:
+After tapping, notification should send you to wherever it was received from
+####Actual result:
+Server list goes hidden and you have to tap on notification again
+####Client settings:
+Discord iOS Canary 2.5.2
+####System settings:
+iPhone X, iOS 12.2
+
+32950
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-25T00:25:57.952Z
+
+
+### Can reproduce.
+Can reproduce, iPhone XR, iOS 12.1, TestFlight 2.5.2 (14408)
+
+💐nickWtn💐#3789 - Bug Bot on 2019-04-25T00:26:05.267Z
+
+
+### Can reproduce.
+Can reproduce - iPhone X - iOS 12.1.3 - Discord TestFlight 2.5.2 (14408)
+
+CustomName#9999 - Bug Bot on 2019-04-25T00:26:10.257Z
+
+
+### Can reproduce.
+cr, iphone 8 ios 12.2, tf 2.5.2 (14408)
+
+Pain#2020 - Bug Bot on 2019-04-25T00:26:15.290Z
+
+
+### I can reproduce on iPhone XS Max running iOS 12.3 Dev Beta 1 on iOS TestFlight 2.5.2 (14408), When I click on the in-app notification, it only closes the channel / server list and I have to click it again if I want to go to my DMs.
+
+I am verifying this as P3 Mid, while it's a minor bug - it does feels like an annoying bug that would bother people. But since you are still able to access the DMs in the notification by clicking twice, I wouldn't see this as having too much impact on usage other than annoyance. 
+
+Moving to Backlogs. - Ghoul on 2019-04-25T00:34:07.067Z
+
+
+### Moved from New Issues to Backlog by Ghoul on 2019-04-25T00:34:17.892Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.2 | TestFlight 2.5.2 (14408)
+
+Clay#0001 - Bug Bot on 2019-04-25T06:22:24.023Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 2.5.2 (14408)
+
+Skyla#0002 - Bug Bot on 2019-04-25T14:47:32.515Z
+
+
+### Can reproduce.
+iPhone XR - iOS 12.2 - TestFlight (14408)
+
+Rage#9991 - Bug Bot on 2019-04-25T21:01:09.468Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2 - TestFlight 2.5.2 (14408)
+
+Daffyduck#5364 - Bug Bot on 2019-04-26T00:12:26.739Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.5.2 (14408)
+
+Killtracity#0001 - Bug Bot on 2019-04-27T01:34:17.721Z
+
+
+### Archived by Bug Bot on 2019-05-27T02:00:02.108Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

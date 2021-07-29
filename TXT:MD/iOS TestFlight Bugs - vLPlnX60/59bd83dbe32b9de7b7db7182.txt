@@ -1,0 +1,95 @@
+[Archived] Collapsed category with voice channel won't show other users who are in a voice channel (https://trello.com/c/Bn39TsAQ)
+
+None
+
+Created: 2017-09-16T20:04:43.883Z
+Latest Update: 2019-10-17T13:42:05.599Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Have a category with at least one voice channel 
+- Make sure that any other member joined a voice channel in this category 
+- Make sure that you aren't in a voice channel 
+- Collapse the category 
+- Observe the category
+
+####Expected result:
+The user who is in a voice channel will be displayed with his user profile like it is for the Desktop version (a user withouth username should be shown below the category in the first picture like it is at the Desktop version).
+####Actual result:
+Nothing will be shown below the category.
+####Client settings:
+TestFlight 1.9.1 (665)
+####System settings:
+iPhone 6S, iOS 10.3.3 & iPad Air 2, iOS 11 Golden Master
+
+4402
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-16T20:04:43.883Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59bd83dbe32b9de7b7db7182/18eed5e8d5ba3e832bb83ce543e0ff9b/kmGCQx1.jpg added by Bug Bot on 2017-09-16T20:04:46.404Z
+
+
+### Can reproduce.
+iPhone 6 Plus, iOS 11.0 GM, iOS Testflight 1.9.1
+
+Silox#8632 - Bug Bot on 2017-09-16T20:04:51.324Z
+
+
+### Can reproduce.
+CR, iPhone 6s, ios 10.3.3 with testflight 1.9.1
+
+Jakob#6834 - Bug Bot on 2017-09-16T20:04:56.330Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 10.3.3, TF 1.9.1(665)
+
+Xur, Agent of The Nine#6761 - Bug Bot on 2017-09-16T20:05:01.345Z
+
+
+### Can reproduce.
+Discord: Latest test flight (1.9.1), IOS: 11 GM, Model iPad Pro 9.7
+
+nathanielcwm#3522 - Bug Bot on 2017-09-17T00:53:46.363Z
+
+
+### Verified. - Jared on 2017-09-18T20:29:36.046Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-09-18T20:29:46.439Z
+
+
+### Moved from Verified Bugs to Channel Category Bugs by Jared on 2017-09-18T20:29:50.061Z
+
+
+### Technically not a bug. We left the feature out do some technical limitations in our old version of React Native. We have now upgraded to a newer version of React Native that would make this feature easier to add, it just has to go into the queue now. - Amadeus on 2017-10-23T19:46:33.851Z
+
+
+### Moved from Channel Category Bugs to Verified Bugs by Jared on 2017-11-07T19:21:46.968Z
+
+
+### Moved from Verified Bugs to Won't Fix by Jared on 2017-12-05T18:44:52.381Z
+
+
+### This is actually a feature request and not bug as per Amadeus' comment. - Jared on 2017-12-05T18:45:35.515Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2018-01-06T11:25:13.904Z
+
+
+### Archived by Alexandru Todea on 2018-01-06T11:25:14.700Z
+
+
+### Moved from Won't Fix to Not a bug by Pascal on 2019-10-17T13:19:17.168Z
+
+List
+====
+Not a bug
+
+Members
+=======
+None

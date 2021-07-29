@@ -1,0 +1,68 @@
+[Archived] Pasting text on a line above the last line causes a form of a bleed effect. (https://trello.com/c/FkWO2PGp)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-06-30T00:12:29.045Z
+Latest Update: 2018-09-04T23:14:04.756Z
+
+Reported by QwakGoesDuck#0420
+
+####Steps to reproduce:
+- Copy some text to your clipboard. 
+- Type a message that is over one line in the text box and do not send it. 
+- Go to any line that is not the bottom line. 
+- Paste the text.
+
+####Expected result:
+Text gets pasted and text sorts itself normally.
+####Actual result:
+The line you pasted the text to gets some weird bleed effect that falls into the lower lie.
+####Client settings:
+TestFlight 2.3.4 (5425)
+####System settings:
+iOS 11.3.1, iPhone 7
+
+15008
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-30T00:12:29.045Z
+
+
+### QwakGoesDuck#0420 - https://youtu.be/dDYQklbN5bI added by Bug Bot on 2018-06-30T00:12:31.504Z
+
+
+### Can reproduce.
+CR on TF 2.3.4 build 5425, on iPhone 6s iOS 12 Public Beta
+
+CMDJojo#4230 - Bug Bot on 2018-06-30T00:12:36.479Z
+
+
+### Can reproduce.
+Can reproduce - iPhone X, iOS 11.3 - TestFlight 2.3.4 (5425)
+
+CustomName#9999 - Bug Bot on 2018-06-30T00:12:41.433Z
+
+
+### Can reproduce.
+Can Reproduce - iPhone 6s iOS 12 Public Beta - TestFlight 2.3.4 (5425)
+
+Rashaun#9295 - Bug Bot on 2018-06-30T00:12:46.453Z
+
+
+### verified, iphone X, ios 11.1, 2.3.4 - Clayton on 2018-06-30T02:51:41.162Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-30T02:51:50.052Z
+
+
+### Archived by Clayton on 2018-09-04T23:14:04.758Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

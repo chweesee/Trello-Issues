@@ -1,0 +1,94 @@
+[FIREFOX] Entering an invalid email on signup, clicking out, and clicking back in causes blurple and red to overlap. (https://trello.com/c/pygkOmZZ)
+
+None
+
+Created: 2019-09-16T16:48:37.917Z
+Latest Update: 2020-07-16T21:26:05.156Z
+
+Reported by Celeron#2757
+
+####Steps to reproduce:
+- Go to the signup page 
+- Enter an invalid email 
+- Click outside of the input 
+- Click the input again
+
+####Expected result:
+The highlight around the input should be either blurple or red.
+####Actual result:
+The highlight around the input is both blurple and red.
+####Client settings:
+Release Channel: ptb, Build Number: 45765, Version Hash: 07c13eb6871f67305509b40dd1d731cf80e4ed93
+####System settings:
+Microsoft Windows 10 Home Version 1809, OS Build: 17763.678; Firefox Version: 69.0 (32 bit)
+
+44223
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-16T16:48:37.917Z
+
+
+### Celeron#2757 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d7fbce5b57ac039afa2167c/7587f3b184284cc96892955eafd8cf12/5481T3d.png added by Bug Bot on 2019-09-16T16:48:41.363Z
+
+
+### Can reproduce.
+CR; Windows 10 v1903, build 18362.30 Pro, firefox 63.0.3
+
+badstagram#0001 - Bug Bot on 2019-09-16T16:48:45.663Z
+
+
+### Can reproduce.
+CR Lenovo × Windows 10 Home x64 1903 × Canary 45770, Chrome 76
+
+B.O.S.S#0251 - Bug Bot on 2019-09-16T16:48:50.723Z
+
+
+### Can reproduce.
+Windows 10 Pro (1903, Build 18362.329), Canary Build 45770
+
+kiosion#0001 - Bug Bot on 2019-09-16T16:48:55.655Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 45770; Firefox 63.0.3
+
+Neiron#8475 - Bug Bot on 2019-09-16T18:05:46.135Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Firefox 69.0, Web Canary 45770
+
+Jean20B#4668 - Bug Bot on 2019-09-16T18:09:46.239Z
+
+
+### Can reproduce.
+iMac (Late 2015) • macOS High Sierra 10.13.6 • Canary 45770 - Microsoft Edge Canary 78.0.276.0
+
+Leaf#0001 - Bug Bot on 2019-09-16T18:22:03.825Z
+
+
+### Can't reproduce.
+Release Channel: canary, Build Number: 45770 / Windows 10 Enterprise Insider Preview, build 18932 ; Firefox 70
+
+Redblueflame#8260 - Bug Bot on 2019-09-16T21:23:41.687Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 45844; Firefox Quantum 69.0
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-18T00:47:52.725Z
+
+
+### Can reproduce.
+CR on Web Stable 45933 & Web Canary 45933 Firefox 69.0 Windows 10
+
+binchlord#0998 - Bug Bot on 2019-09-19T00:43:35.895Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,73 @@
+[Archived] The country code is not level with the phone number on enabling SMS authentication. (https://trello.com/c/zbaFshVe)
+
+P3 - Will be fixed eventually
+
+Created: 2019-01-30T04:42:41.436Z
+Latest Update: 2019-03-10T19:30:08.169Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Have SMS auth disabled. 
+- Open User Settings. 
+- Tap Account. 
+- Tap the SMS Authentication switch. 
+- Enter a number. 
+-   
+- Note this also happens in the Edit Account section with the # and discriminator.
+
+####Expected result:
+The phone number should be level with the country code.
+####Actual result:
+The phone number and country code are visibly on different height levels.
+####Client settings:
+TestFlight 2.4.4 (10993)
+####System settings:
+iPhone 6s, iOS 12.1.3 Beta (16D5032a)
+
+27351
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-30T04:42:41.436Z
+
+
+### Isabel#0002 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c512b41f349a5353efb5cf0/1e11631d7e74659d3e7978fe10131b85/IMG_0704.jpg added by Bug Bot on 2019-01-30T04:42:44.072Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 12.1.3, TestFlight 2.4.4 (10993)
+
+Darkbeast#2997 - Bug Bot on 2019-01-30T04:42:48.752Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 12.2, TestFlight 2.4.4 (10993)
+
+Rajiv Shah#5322 - Bug Bot on 2019-01-30T04:42:53.737Z
+
+
+### Can reproduce.
+iphone 8 ios 12.1.2, TestFlight 2.4.4 (10993)
+
+Lentralkestor#2016 - Bug Bot on 2019-01-30T04:42:58.769Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.0.1, Discord TestFlight 2.4.4 (10993)
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-01-30T05:05:59.496Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-02-08T19:00:08.826Z
+
+
+### Archived by Bug Bot on 2019-03-10T19:30:08.180Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

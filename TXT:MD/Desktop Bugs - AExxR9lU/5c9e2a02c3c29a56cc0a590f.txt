@@ -1,0 +1,128 @@
+[Archived] Sharing video from MPC-HC x64 or MPC-BE shrinks shared video to one side of screen share. (https://trello.com/c/dpCxCwQY)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-03-29T14:21:54.553Z
+Latest Update: 2020-03-24T22:36:51.885Z
+
+Reported by Endraill#9829
+
+####Steps to reproduce:
+- Join private call 
+- Press "Turn on Screen Share" 
+- Choose "Application Window" tab 
+- Choose MPC-HC x64 or MPC-BE window 
+- Press play in chosen media player
+
+####Expected result:
+The video should show centered in the chat window with black bars to either side depending on horizontal window size.
+####Actual result:
+While paused, video is centered. While media plays, video is shunted to the side of the window.
+####Client settings:
+Desktop Canary Build 34771, PTB Build 34771, Stable Build 34710
+####System settings:
+Windows 10 Home
+
+31814
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-29T14:21:54.553Z
+
+
+### Pacblinky#8276 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c9e2a02c3c29a56cc0a590f/a1b3ae74a966188c7900566788390a78/7OIpZaz.png added by Bug Bot on 2019-03-29T14:21:57.910Z
+
+
+### Pacblinky#8276 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c9e2a02c3c29a56cc0a590f/d7edd2204772bdf2bf522d8fc02b59a8/pivem6R.png added by Bug Bot on 2019-03-29T14:21:58.439Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 (1809), Canary 34771 (tried with MPC-HC x64 media player)
+
+Defracted#7777 - Bug Bot on 2019-03-29T14:22:01.917Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro x64 (1809), Discord Canary 34771 (Tried with MPC-HC)
+
+ImCreativeJonny#4752 - Bug Bot on 2019-03-29T14:22:06.935Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 34771
+
+Zacatero#0001 - Bug Bot on 2019-03-29T14:22:11.909Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Canary 34625
+
+SportLeader#0001 - Bug Bot on 2019-03-29T17:00:45.448Z
+
+
+### Can reproduce.
+CR with MPC-HC x64, CNR with VLC - Windows 10 Home x64 1809, Canary 34771
+
+Jean20B#4287 - Bug Bot on 2019-03-29T17:46:08.911Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 34771
+
+Lily#2624 - Bug Bot on 2019-03-29T18:02:06.968Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 34625
+
+Lelantos#4866 - Bug Bot on 2019-03-29T20:58:38.844Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 34771
+
+Delite#0001 - Bug Bot on 2019-03-29T23:08:55.926Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 34771
+
+Killtracity#0001 - Bug Bot on 2019-03-29T23:51:41.933Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 34822
+
+Daffyduck#5364 - Bug Bot on 2019-03-30T01:56:18.985Z
+
+
+### CNR, Canary 36132 W10 1809 - Tarek on 2019-04-22T03:35:02.861Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2019-04-22T03:35:06.278Z
+
+
+### Archived by Bug Bot on 2019-06-07T00:30:33.629Z
+
+
+### Can reproduce with MPC-HC x64, but not VLC, on Canary 44004, Windows 10 Home 64-bit (v1903).
+
+Updating the ticket + moving to Verified Bugs. - Ene on 2019-08-21T07:56:26.146Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Ene on 2019-08-21T07:56:31.246Z
+
+
+### Unarchived by Ene on 2019-08-21T07:56:31.439Z
+
+
+### Archived by Bug Bot on 2019-09-20T08:00:03.402Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

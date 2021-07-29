@@ -1,0 +1,35 @@
+Streaming Microsoft Store apps prompts for admin perms, then has no audio. (https://trello.com/c/bPLzIcNU)
+
+None
+
+Created: 2019-06-13T20:23:12.964Z
+Latest Update: 2019-06-13T21:19:33.642Z
+
+**Steps to reproduce:**
+- Launch Discord as admin
+- When client appears, launch a Microsoft store app
+- Go live, experience https://trello.com/c/M5EPuPFf
+- Stop streaming
+- Wait 4-5 minutes before going live again, and confirm
+**Expected Results:** You should go live, without being prompted for admin.
+**Actual Results:** You will be prompted for admin in-client, to enable sound, and even when granted, there will be no sound, with a yellow indicator in the top-right of the preview.
+**System Settings:** Windows 10 Pro x64 (1809) (DxDiag attached from SoT), tested with Sea of Thieves and Fallout Shelter
+**Client Settings:** Canary 39636
+
+Card Log
+========
+### Added by MetalChain on 2019-06-13T20:23:12.964Z
+
+
+### DxDiag-SoT-Launch2.txt - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5d02b0b0d8a6f757f3811689/1eb3ed51e24f5e8eb8ce18dd36fcef0a/DxDiag-SoT-Launch2.txt added by MetalChain on 2019-06-13T20:23:39.113Z
+
+
+### Indicator icon + tooltip - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5d02b0b0d8a6f757f3811689/fe222fedee69a33e6cb5002a2f2adf3d/PCCs1b3.png added by MetalChain on 2019-06-13T20:24:07.507Z
+
+List
+====
+Bug Reports from Testers!
+
+Members
+=======
+Unknown User (https://trello.com/metalchain) - No Bio

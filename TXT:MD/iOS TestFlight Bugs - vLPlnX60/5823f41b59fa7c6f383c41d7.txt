@@ -1,0 +1,62 @@
+[Archived] Upload fails to resume on network connection change (https://trello.com/c/wZnBrX2v)
+
+None
+
+Created: 2016-11-10T04:14:19.184Z
+Latest Update: 2017-10-17T21:14:56.233Z
+
+Reported by Dabbit Prime#0896
+
+####Steps to reproduce: 
+- 1) Start upload and interupt the connection 
+- 2)Restore the connection or provide alternative (Wifi connection is lost and celluar takes its place) 
+
+####Expected result:
+ Upload resumes or restarts 
+####Actual result:
+ Upload hangs, does not resume Settings: iPhone 6s Plus,  iOS 10.1.1 Latest Testflight 1.7.8 (43)
+
+Card Log
+========
+### Added by Jared on 2016-11-10T04:14:19.184Z
+
+
+### Can reproduce.
+Note: Was in the last TestFlight Build as well // iPhone 6 Plus, iOS 10.1.1 Latest TestFlight 1.7.8(43)
+
+Wolfstorm#0986 - Jared on 2016-11-10T07:36:55.802Z
+
+
+### Can reproduce.
+latest TestFlight, iOS 10.0.2, iPhone SE
+
+/dev/null#5164 - Jared on 2016-11-10T07:52:58.522Z
+
+
+### Known issue. Same thing happens on the desktop application (not with cellular data obvs, but losing/regaining internet connectivity). - Jared on 2016-11-21T23:22:34.153Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-11-21T23:22:39.505Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Jared on 2016-12-19T23:21:38.987Z
+
+
+### This is actually a feature request, not a bug. - Jared on 2016-12-19T23:22:06.878Z
+
+
+### Moved from Claimed Fixed Bugs to Won't Fix by Jared on 2016-12-19T23:22:10.217Z
+
+
+### Archiving as this ticket as been Won't Fix for over a month. - Mike Nisbet on 2017-10-17T21:14:48.238Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:14:56.235Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

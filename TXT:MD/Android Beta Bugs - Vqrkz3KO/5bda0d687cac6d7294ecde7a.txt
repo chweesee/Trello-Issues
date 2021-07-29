@@ -1,0 +1,83 @@
+[Archived] Moving whole categories on Android does not update channel indexes (https://trello.com/c/SM7ESBPT)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-10-31T20:15:36.908Z
+Latest Update: 2018-12-27T17:30:07.893Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Create a new server with the channel configuration given in the attached screenshot 
+- On Android, go to Create Instant Invite and expand the dropdown menu where you can select a channel. Make sure that the channels are ordered as the following in the dropdown: `a, b, c, d, e, f` 
+- On Desktop, move the category 2 above the category 1 
+- Repeat step 2 on Android, the order should be now: `d, e, f, a, b, c` 
+- On Desktop, revert the category order as it was before step 3 
+- On Android, go to Server Settings > Channels, enter Category sort mode and move Category 2 above Category 1 again 
+- Return to Create Instant Invite and now observe the order
+
+####Expected result:
+Android client should re-assign channel position indexes properly when sorting categories. If the bug didn't occur, I should have seen `d, e, f, a, b, c` after following steps above
+####Actual result:
+Android does not re-assign position indexes of channels when moving categories, resulting in having the channel ordering in an inconsistent state. After following the steps above I'm seeing `a, b, c, d, e, f` in dropdown menus while the actual order in server list is `d, e, f, a, b, c`
+####Client settings:
+Discord Alpha 7.8.3
+####System settings:
+Huawei Mate 9 Android 8.0
+
+22524
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-31T20:15:36.908Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bda0d687cac6d7294ecde7a/fa77c3313351a6832dee71cb0707be05/IMG_20181031_190244.jpg added by Bug Bot on 2018-10-31T20:15:39.340Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 7.8.3
+
+AmirAmani#0102 - Bug Bot on 2018-10-31T20:15:44.318Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.8.3
+
+coolalmostchilly#6969 - Bug Bot on 2018-10-31T20:15:49.271Z
+
+
+### Can reproduce.
+Google Pixel 3 XL 128 GB (G013C), Android 9.0 (Build P1DA.180720.030), Discord Alpha 7.8.3
+
+KazWolfe#2896 - Bug Bot on 2018-10-31T20:15:54.296Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.8.3
+
+Hole#0001 - Bug Bot on 2018-10-31T22:21:37.422Z
+
+
+### Can reproduce.
+cr, Samsung Galaxy S5 mini, Android 6.0.1, Alpha 783
+
+Nashorn#3450 - Bug Bot on 2018-10-31T22:40:41.060Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.8.4 - Clayton on 2018-11-01T02:51:58.063Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-01T02:52:07.113Z
+
+
+### Archived by Bug Bot on 2018-12-27T17:30:07.895Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

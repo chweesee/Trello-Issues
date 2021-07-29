@@ -1,0 +1,69 @@
+[Archived] When trying to pin a message, if you loose mod with the confirmation message opens, you get a rate limit error (https://trello.com/c/5nEEJrWQ)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-02T13:45:40.210Z
+Latest Update: 2018-10-22T20:18:40.832Z
+
+Reported by descrates#1000
+
+####Steps to reproduce:
+- Have a role with admin powers 
+- Click "pin" on a message but don't confirm in the warning it gives you 
+- Have someone take away that role 
+- Once it's gone, try to allow the pin 
+- Observe
+
+####Expected result:
+You get an unmoded error or you are kicked out of the confirmation
+####Actual result:
+You get a "50 pins limit reached" message, which is not true
+####Client settings:
+Stable 11460
+####System settings:
+Win 10 x64
+
+9232
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-02T13:45:40.210Z
+
+
+### Can reproduce.
+CR; MacBook Pro (Retina, 13-inch, Early 2015) MacOS High Sierra 10.13.2 (17C88)
+
+korzq#0001 - Bug Bot on 2018-03-02T13:45:47.579Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 11466
+
+webhp#1337 - Bug Bot on 2018-03-02T13:45:52.625Z
+
+
+### Can reproduce.
+CR Stable 11571 Win10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-03-02T13:45:57.638Z
+
+
+### Verified.  - Clayton on 2018-03-06T23:42:30.633Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-06T23:42:35.101Z
+
+
+### 54D#1357 - https://youtu.be/1F4PaYqB7Dg added by Bug Bot on 2018-07-14T15:14:34.003Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:40.835Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,127 @@
+[Archived] Image / Screenshots don't send with iCloud Photo Library enabled. (https://trello.com/c/I9Y0SZ8q)
+
+P1 - Severe
+
+Created: 2017-09-24T20:40:00.975Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by ' Umji || R ♡#9867
+
+####Steps to reproduce:
+- Enable iCloud Photo Library. If already Enabled, disable and then reenable it.
+- Take a screenshot or find a picture in your camera roll 
+- Try to send it to a DM or to a server (This bug  doesn't work 100% of the times)
+
+####Expected result:
+The pictures send
+####Actual result:
+Sometimes it doesn't send and you need to leave / rejoin the discord to make them send
+####Client settings:
+iOS Discord (Stable) 1.9.1
+####System settings:
+Iphone 7 iOS, 11.0
+
+4818
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-24T20:40:00.975Z
+
+
+### Can reproduce.
+iPhone 6S & iPad Air 2, iOS 11.0, TestFlight 1.9.1 (665) and Stable 1.9.1. At the moment always happens with screenshots, other images work fine. Might be an issue with iCloud photo library and iOS 11
+
+Pascal#0929 - Bug Bot on 2017-09-24T20:40:08.397Z
+
+
+### Can reproduce.
+iPad air 2 iOS 10.3.3 only happens on stable version 1.9.1 for me.
+
+LegendofOwls#3853 - Bug Bot on 2017-09-24T20:40:13.428Z
+
+
+### Can reproduce.
+iPhone 6 - TestFlight - 1.9.1 IOS 11
+
+A²#1954 - Bug Bot on 2017-09-24T20:40:18.411Z
+
+
+### You should also have a look at png files, they also doesn’t upload
+
+Pascal#0929 - Bug Bot on 2017-09-24T21:01:49.766Z
+
+
+### Can reproduce.
+iPhone 5s, iOS 11.0, Discord Stable (1.9.1). It happens sometimes
+
+iAmaury#9979 - Bug Bot on 2017-09-24T21:11:18.324Z
+
+
+### Can reproduce.
+iPhone 6S+, iOS 10.2, Discord TestFlight 1.9.1
+
+Vermenthruaxx#2866 - Bug Bot on 2017-09-27T15:00:37.646Z
+
+
+### Can reproduce.
+iPhone 7 Plus 256GB, iOS 11.1 (15B5066f), Discord v1.9.2 (953)
+
+Andy#4082 - Bug Bot on 2017-10-03T02:30:05.560Z
+
+
+### Moved from User Reported Bugs to Serious Issues by Jared on 2017-10-16T19:41:26.106Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.0.3, Discord Stable (1.9.2). Happens 99.9% of the time I try to send any new picture, be it saved, screenshotted, or taken using the camera in-app/externally. Only started happening when I updated to iOS 11. Only happens with iCloud photo library enabled; works fine when it's disabled. Only way to fix AFAIK is to end discord's process, relaunch, end process before it fully loads, and relaunch again (or just wait for the process to refresh automatically).
+
+s.#6606 - Bug Bot on 2017-10-18T15:06:00.080Z
+
+
+### Moved from Serious Issues to Fix made, not yet released by Jared on 2017-10-23T23:35:14.246Z
+
+
+### I can no longer reproduce, the images send just fine. 
+
+​Discord 1.9.3 (1268), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-24T15:18:06.898Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2017-10-24T15:18:12.049Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T22:09:59.003Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T08:49:30.971Z
+
+
+### Can't reproduce.
+CNR,  iPhone 8, iOS 11.2.2, TestFlight 2.2.1 (build 2236)
+
+JustGamer#7127 - Bug Bot on 2018-01-27T08:56:43.789Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T08:56:55.169Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T08:57:06.746Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:02:56.743Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:02:57.060Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

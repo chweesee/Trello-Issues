@@ -1,0 +1,67 @@
+[Archived] Opening a recent mention preview that is not near the bottom of chat flashes newer messages when loading the preview (https://trello.com/c/kNavngL2)
+
+None
+
+Created: 2018-09-27T00:11:23.371Z
+Latest Update: 2019-01-22T22:48:51.941Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Have a recent mention that has a lot of messages sent after the mention (Using one from several hours ago should work) 
+- Open your recent mentions drawer 
+- Tap on a mention to open the preview 
+- Observe the messages as the preview loads
+
+####Expected result:
+The preview loads with the mention at the top
+####Actual result:
+The preview flashes newer messages for a split second before showing the mention
+####Client settings:
+TestFlight 2.3.8 (7416)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta
+
+20138
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-27T00:11:23.371Z
+
+
+### Rashaun#9295 - https://imgur.com/vzHO3SI.gifv added by Bug Bot on 2018-09-27T00:11:25.895Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12, Testflight 2.3.8 (7416)
+
+Pyros#2326 - Bug Bot on 2018-09-27T00:11:30.679Z
+
+
+### Can reproduce.
+It seems the flash effect is the mention message being aligned to top of window. iPhone X, iOS 12, TestFlight 2.3.8 (7416)
+
+Lekic#0001 - Bug Bot on 2018-09-27T00:11:35.732Z
+
+
+### Can reproduce.
+iPad Mini 3, IOS 11.4.1; TestFlight 2.3.8 (7416)
+
+OrangeM24#5746 - Bug Bot on 2018-09-27T00:11:40.648Z
+
+
+### Moved from New Issues to Won't Fix by Fanghao on 2018-09-27T00:52:47.777Z
+
+
+### This ticket has been in Won't Fix for no activity for over 30 days. So archiving this ticket due to the inactivity. - Ghoul on 2019-01-22T22:48:47.925Z
+
+
+### Archived by Ghoul on 2019-01-22T22:48:51.945Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

@@ -1,0 +1,78 @@
+[Archived] Slowmode countdown doesn't appear again after adding and removing bypass while Countdown is on (https://trello.com/c/nMzSNw7A)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-01T02:38:10.716Z
+Latest Update: 2019-01-11T00:00:44.726Z
+
+Reported by Nash#7193
+
+####Steps to reproduce:
+- put slowmode to 120 (to have enough time) 
+- write a message without Slowmode bypass 
+- add slowmode bypass to the account 
+- wait until it shows that u have bypass 
+- remove bypass again
+
+####Expected result:
+Countdown is still counting down in the background (even if u have bypass in that amount of time) so the Countown should appear again.
+####Actual result:
+it only says "Countdown is enabled" and the Countdown is still hidden. AND: if u post a message during that hidden Countdown, there won't be that shake animation and the Message will just tun red for not beeing sent
+####Client settings:
+canary, Build Number: 6372
+####System settings:
+Windows 10
+
+20273
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-01T02:38:10.716Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS Mojave 10.14, Canary Build 25046
+
+Pascal#0929 - Bug Bot on 2018-10-01T02:38:18.057Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10, Canary 25058
+
+davfsa#7026 - Bug Bot on 2018-10-01T02:38:23.083Z
+
+
+### Can reproduce.
+macOS Mojave 10.14.1 Beta; Canary 25061
+
+OrangeM24#5746 - Bug Bot on 2018-10-01T02:38:28.045Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Canary 24227
+
+Trigstur#5919 - Bug Bot on 2018-10-01T05:59:27.647Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 25069
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-01T08:02:38.591Z
+
+
+### verified, macos 10.12.6, canary 25046 - Clayton on 2018-10-01T20:11:52.451Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-01T20:11:58.592Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:44.728Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

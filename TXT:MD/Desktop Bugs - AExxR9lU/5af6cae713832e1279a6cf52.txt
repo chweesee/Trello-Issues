@@ -1,0 +1,138 @@
+[Archived] The word 'Enter' is added to the input when pressing enter (https://trello.com/c/Hhxhhl4M)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-12T11:07:19.229Z
+Latest Update: 2018-07-06T18:23:44.817Z
+
+Reported by Etrenak#5190
+
+####Steps to reproduce:
+- Go to a server where you can manage roles 
+- Type something in the message box (don't send) 
+- Open server settings, edit a role and save changes 
+- Close settings with the (X) 
+- Press enter to send your message
+
+####Expected result:
+The message is sent with the text that was still there
+####Actual result:
+The word "Enter" is added to the input and the message isn't sent
+####Client settings:
+Discord Linux Canary 0.0.49 (Build 15120)
+####System settings:
+Ubuntu Xenial 16.04.4 LTS
+
+12499
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-12T11:07:19.229Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 x64 1803, Discord Canary build 15120
+
+Fam0r#9655 - Bug Bot on 2018-05-12T11:07:26.701Z
+
+
+### Can reproduce.
+Debian Stretch, Gnome 3.22, Discord Linux Canary 0.0.49 (Build 15120)
+
+Robin#0610 - Bug Bot on 2018-05-12T11:07:31.694Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 x64, Discord Canaray 15120;
+
+zanluka#6790 - Bug Bot on 2018-05-12T11:07:36.648Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 x64 1803 (17134), Build number 15120. Actually, just click anywhere in the chat window and presses enter triggers the bug too
+
+Frances Picard#6209 - Bug Bot on 2018-05-12T11:07:41.711Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Build 1803; Discord Canary; Build 15120. Also happens if you have the Server Menu where you can leave and else open.
+
+Costpap#2158 - Bug Bot on 2018-05-12T11:12:24.124Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Version 1803; Discord Public; Build 15154. Going into a call/moving to another call does it too.
+
+Suhosin#6488 - Bug Bot on 2018-05-12T11:17:34.013Z
+
+
+### Oasis#4730 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af6cae713832e1279a6cf52/6a541f62d2133f14d591ec47ef89e4d5/c078373e6c3340e69efb69505f03f161.gif added by Bug Bot on 2018-05-12T11:19:05.768Z
+
+
+### Can reproduce.
+Stable, Build Number: 15154
+
+Ditto Duck Penguin#0802 - Bug Bot on 2018-05-12T11:20:50.270Z
+
+
+### Can reproduce.
+Can reproduce; Windows 8.1 x64, Stable, Build Number: 15154
+
+Ditto Duck Penguin#0802 - Bug Bot on 2018-05-12T11:22:26.159Z
+
+
+### Can reproduce.
+can repro windows 8
+
+Silberpfeil ⚒#0001 - Bug Bot on 2018-05-12T11:52:50.174Z
+
+
+### Can reproduce
+
+Discord Canary 0.0.208 (15120) on Windows 10 Pro 64-bit (1803)
+As mentioned below you can just click anywhere and it will put "Enter" in the chat box. - Tarek on 2018-05-12T12:36:59.282Z
+
+
+### Can reproduce.
+windows 10 x64, just click away from message bar, no need for manage role perms
+
+Amazig Jj#8894 - Bug Bot on 2018-05-12T13:56:38.023Z
+
+
+### Can reproduce.
+Windows 10 Home 16299 x64
+
+Baelish#0001 - Bug Bot on 2018-05-12T14:01:38.135Z
+
+
+### Verified, Windows 10, Build 15123 - Clayton on 2018-05-13T01:15:58.135Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-13T01:16:07.639Z
+
+
+### Can reproduce.
+64 Bit Windows 10 Home (V1709) ptb, Build Number: 14712.
+
+memetrollsXD#0001 - Bug Bot on 2018-05-14T16:41:20.326Z
+
+
+### Cannot reproduce, DIscord Canary 0.0.208 (15253) on Windows 10 Pro 64-bit (1803). Moving to claimed fixed. - Tarek on 2018-05-15T04:20:30.739Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-05-15T04:20:35.094Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:23:43.770Z
+
+
+### Archived by Jared on 2018-07-06T18:23:44.820Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

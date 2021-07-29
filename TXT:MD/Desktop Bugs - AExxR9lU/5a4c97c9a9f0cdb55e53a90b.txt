@@ -1,0 +1,137 @@
+ESC button jumps out of its original place when the Unsaved Changes causes the screen to shake due to attempting to exit the page while it is present (https://trello.com/c/byprsY31)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-03T08:43:53.389Z
+Latest Update: 2019-10-08T09:28:19.120Z
+
+Reported by Ene#3002
+
+####Steps to reproduce:
+- Open Channel Settings or Server Settings and make a permission change to a role 
+- Attempt to exit out of the page or enter another. Note: Don't use ESC to exit the page, as there's a bug not yet fixed that causes it to exit through the Unsaved Changes message.
+
+####Expected result:
+ESC button stays in place
+####Actual result:
+ESC button jumps out of place until you exit and re-enter the settings page.
+####Client settings:
+Discord Canary 0.0.194, Build 9193
+####System settings:
+Windows 10 Home x64
+
+7567
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-03T08:43:53.389Z
+
+
+### Ene#3002 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a4c97c9a9f0cdb55e53a90b/02ab7c34c24f3e227492bc86b27d3628/u82vYCE.gif added by Bug Bot on 2018-01-03T08:43:55.826Z
+
+
+### Ene#3002 - https://i.imgur.com/oc2QVVl.gifv added by Bug Bot on 2018-01-03T08:43:55.861Z
+
+
+### Can reproduce.
+cr | Windows 10 Home x64 (Fall Creators Update), canary 9193
+
+rauf#3260 - Bug Bot on 2018-01-03T08:44:00.709Z
+
+
+### Can reproduce.
+Win10 Home x64 FCU, Canary build 9193 ; Scoots up a handful of times before stopping
+
+New Year, New Mustard#6390 - Bug Bot on 2018-01-03T08:44:05.859Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (Fall Creators Update), Canary 9193
+
+Elix 🍭#4604 - Bug Bot on 2018-01-03T08:44:10.703Z
+
+
+### Can reproduce.
+Windows 10 Home Insider Preview x64 Discord Canary 9198
+
+Tiger Gaming X#6437 - Bug Bot on 2018-01-03T16:45:54.837Z
+
+
+### Verified.  - Clayton on 2018-01-03T22:56:34.478Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-03T22:56:38.388Z
+
+
+### This ticket was checked during the Trello Cleanup event, and is still reproducible to this date. The device used was Windows 10 Pro x64 with Discord Canary Build 18197.
+
+Because of this ticket still be reproducible, I am leaving it here. - Ghoul on 2018-07-06T00:19:30.173Z
+
+
+### Can reproduce.
+Discord Canary 19710, Windows 10 Home X64
+
+Scottmg#2966 - Bug Bot on 2018-07-27T22:32:37.512Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit ver. 1803, Discord Canary Build: 24922
+
+tristanfarkas#0001 - Bug Bot on 2018-09-28T09:37:38.690Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:09.064Z
+
+
+### Cannot reproduce anymore on Canary 37031, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-05-05T23:44:51.478Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-05-05T23:44:56.875Z
+
+
+### Unarchived by Ene on 2019-05-05T23:44:57.032Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Discord Canary 37031
+
+Daffyduck#5364 - Bug Bot on 2019-05-05T23:47:47.608Z
+
+
+### Can't reproduce.
+macos 10.14.5, canary 37031
+
+OrangeM24#5746 - Bug Bot on 2019-05-06T00:00:41.381Z
+
+
+### Can't reproduce.
+Windows 10 Home; Canary Build 37031 (Host 0.0.235)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-06T00:02:09.726Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-05-06T00:02:09.953Z
+
+
+### Archived by Bug Bot on 2019-06-05T00:30:27.971Z
+
+
+### Can Reproduce again » Windows 10 Pro x64, Discord Canary 46657
+Moving to Reopened. - Aeria on 2019-10-08T09:28:06.042Z
+
+
+### Moved from Verified Fixed to Reopened by Aeria on 2019-10-08T09:28:18.835Z
+
+
+### Unarchived by Aeria on 2019-10-08T09:28:19.090Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

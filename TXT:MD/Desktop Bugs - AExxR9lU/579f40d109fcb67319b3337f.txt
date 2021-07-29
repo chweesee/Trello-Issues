@@ -1,0 +1,53 @@
+[Archived] In two specific servers, images can be uploaded to a text channel with chat disabled. (https://trello.com/c/996XGmlo)
+
+None
+
+Created: 2016-08-01T12:30:09.698Z
+Latest Update: 2017-10-17T21:05:09.989Z
+
+Short Description: Images can be pasted into chats that disallow messages, the message will send but not appear in the channel
+Steps to Reproduce:
+1) Find channel that is read only
+2) Screenshot something using ShareX or any other way to put an image on your clipboard
+3) Ctrl+V into that channel
+Expected Result: Pressing Ctrl+V in that channel shouldn't do anything
+Actual Result: The image send confirmation box appears and 'upload' is clickable  but the image isn't actually sent in the channel
+System Settings:  Windows 10 Discord Stable 1/08/16
+Note: Could only get to reproduce on two servers 
+Gif: http://zounce.ga/46750B.gif
+Gif: http://zounce.ga/6g6l9l.gif(edited)
+
+Card Log
+========
+### Added by Jared on 2016-08-01T12:30:09.698Z
+
+
+### 46750B.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/579f40d109fcb67319b3337f/6c50ed1a4f3ff23249f12d42abb26dc5/46750B.gif added by Sam on 2016-10-19T20:51:34.853Z
+
+
+### 6g6l9l.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/579f40d109fcb67319b3337f/660a02bfc6cdd927634b71dcb168bd34/6g6l9l.gif added by Sam on 2016-10-19T20:51:54.610Z
+
+
+### This is a permissions issue.  Basically, they don't have send messages permissions, but they do have Attach Files permission.  This will allow you to upload a copy/pasted image, but then it doesn't show.
+
+Not a bug. - Jared on 2016-10-24T21:50:23.672Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce/Won't Fix. Dead Bug by Jared on 2016-10-24T21:50:30.599Z
+
+
+### Moved from Cannot Reproduce/Won't Fix. Dead Bug to Not a Bug by Jared on 2016-10-24T21:50:38.881Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:05:09.193Z
+
+
+### Archived by Jared on 2017-10-17T21:05:09.991Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

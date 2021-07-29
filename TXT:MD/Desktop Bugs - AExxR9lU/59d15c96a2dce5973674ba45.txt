@@ -1,0 +1,78 @@
+[Archived] When moved from AFK channel, the popup shows "suppressed" (https://trello.com/c/JwApMH2z)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-01T21:22:30.533Z
+Latest Update: 2018-07-06T17:58:24.550Z
+
+Reported by dsf190#5214
+
+####Steps to reproduce:
+- Be in a non-AFK voice channel 
+- Have an admin move you to an AFK channel.  If you haven't disabled the popup, it should tell you that you are AFK. 
+- Have an admin move you back to any voice channel.  For a split second, the text on the popup box will change to "suppressed" and tell you that you don't have permission to speak.
+
+####Expected result:
+The popup text should stay the same and close.
+####Actual result:
+The text changes to "suppressed" and closes.
+####Client settings:
+Discord Canary Build 5085
+####System settings:
+Win 10 x64
+
+4958
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-01T21:22:30.533Z
+
+
+### dsf190#5214 - https://i.imgur.com/cvyFKIb.gifv added by Bug Bot on 2017-10-01T21:22:32.867Z
+
+
+### dsf190#5214 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59d15c96a2dce5973674ba45/2a5e3ded054ba66e97c49e24202077ce/kdf59YA.png added by Bug Bot on 2017-10-01T21:22:33.087Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Creators Update | Canary 0.0.164 | it took many attempts, but I finally got it
+
+Rauf#3260 - Bug Bot on 2017-10-01T21:22:38.068Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1703, Discord Canary 0.0.164
+
+Skeletonarcher12#3697 - Bug Bot on 2017-10-01T21:22:42.869Z
+
+
+### Can reproduce.
+Windows 10 x64 canary 0.0.164
+
+Okori#0902 - Bug Bot on 2017-10-01T21:22:47.844Z
+
+
+### Verified.  - Clayton on 2017-10-04T01:34:26.206Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-04T01:34:32.237Z
+
+
+### Cannot reproduce, marking as Verified Fixed - Jared on 2018-03-20T21:50:47.091Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-20T21:50:52.684Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:58:23.059Z
+
+
+### Archived by Jared on 2018-07-06T17:58:24.552Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

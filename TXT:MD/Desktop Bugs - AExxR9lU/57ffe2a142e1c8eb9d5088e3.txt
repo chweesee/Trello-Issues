@@ -1,0 +1,75 @@
+[Archived] Notifications that were sent in a channel you were removed from remain indefinitely. (https://trello.com/c/YJU73QNk)
+
+P2: Fix can wait a while
+
+Created: 2016-10-13T19:38:09.661Z
+Latest Update: 2017-12-02T17:15:31.515Z
+
+Short Description:
+Server Mention Bubble (tells you unread amount of mentions) that were sent in a channel you were removed from (ex. permission-only channels) remain.
+Steps to reproduce
+
+1) Have a buddy give you a permission which adds you to a channel.
+2) Have them mention you in said channel.
+3) Have your buddy remove the permission after a few seconds (when your phone reports you of the mention).
+4) Now check that server on your android phone, the red unread mention bubble is there but no text channel is viewable to remove it
+
+Expected Result
+No unread red mention bubble at the server's icon, just like on Desktop.
+
+Actual Result
+There's an unread red mention bubble at the server's icon from the 'hidden'/ghost text channel which can't be removed unless you use your desktop version (as the channel you were originally mentioned in can't be 'read').
+Proof images
+
+Card Log
+========
+### Added by Cole Norman on 2016-10-13T19:38:09.661Z
+
+
+### Screenshot_20161005-064336.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57ffe2a142e1c8eb9d5088e3/258f649d4db5ea3b43f65b6a4e8b07b2/Screenshot_20161005-064336.png added by Cole Norman on 2016-10-13T19:38:37.520Z
+
+
+### Screenshot_20161005-063849.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57ffe2a142e1c8eb9d5088e3/ba25f58cf2c92fa192b81836f66d8054/Screenshot_20161005-063849.png added by Cole Norman on 2016-10-13T19:39:34.490Z
+
+
+### DiscordCanary_2016-10-05_06-49-06.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57ffe2a142e1c8eb9d5088e3/24c5aa470cf68fd0af6bd5345e259898/DiscordCanary_2016-10-05_06-49-06.png added by Cole Norman on 2016-10-13T19:39:42.498Z
+
+
+### This is a backend issue as it also happens on desktop.  You can reproduce it by deleting the message.
+
+I CANNOT reproduce this by deleting the channel.  This is being moved to general/canary bugs. - Jared on 2016-10-24T20:11:23.001Z
+
+
+### Imported from https://trello.com/b/57f2a306ca14741151990900 by Jared on 2016-10-24T20:11:30.715Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-10-25T17:21:42.544Z
+
+
+### This had been happening on desktop but no longer occurs.  This is once again an android only issue. - Jared on 2017-03-30T19:40:16.554Z
+
+
+### Can't reproduce.
+MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-16T18:49:21.669Z
+
+
+### This is no longer a valid canary bug. - Jared on 2017-10-16T20:41:45.707Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-16T20:41:52.133Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:15:30.039Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:15:31.518Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

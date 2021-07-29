@@ -1,0 +1,126 @@
+[Archived] Posting an image blocked by the explicit filter silently fails. (https://trello.com/c/468tvXq1)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-08-04T18:09:22.211Z
+Latest Update: 2019-06-23T21:30:20.446Z
+
+Reported by QwakGoesDuck#0420
+
+####Steps to reproduce:
+- Find an image that gets tagged as explicit. 
+- Post it.
+
+####Expected result:
+You get some sort of error about not being able to post the picture.
+####Actual result:
+Picture upload bars goes through but image does not upload.
+####Client settings:
+TestFlight 2.3.6 (6095)
+####System settings:
+iOS 11.4.1, iPhone 7
+
+16932
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-04T18:09:22.211Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 5) - TestFlight 2.3.6 (6095)
+
+Xylium#1480 - Bug Bot on 2018-08-04T18:09:29.543Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.2.1, TestFlight 2.3.6 (6095)
+
+Pyros#2326 - Bug Bot on 2018-08-04T18:09:34.596Z
+
+
+### Can reproduce.
+iPad Mini 3 (iOS 11.4.1) - TestFlight v2.3.6 (6095)
+
+Mas#0001 - Bug Bot on 2018-08-04T18:09:39.526Z
+
+
+### do note that on desktop it gives clyde telling u that the owner turned explicit filters on. Android gives an error or toast, for android reference: https://trello.com/c/2w9Fu1MX
+
+Xylium#1480 - Bug Bot on 2018-08-04T18:13:49.298Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 4, TestFlight 2.3.6 (6095)
+
+Pascal#0929 - Bug Bot on 2018-08-04T18:53:34.072Z
+
+
+### Can reproduce.
+[CR] iPhone 7, Can Reproduce || iPhone 7, iOS 12 PTB #4, Discord TestFlight 2.3.6 (6095)
+
+Marc#5983 - Bug Bot on 2018-08-06T04:39:05.025Z
+
+
+### Can't reproduce.
+[CNR] iPhone 7, Can’t Reproduce || iPhone 7, iOS 12 PTB #4, Discord TestFlight 2.3.6 (6095)
+
+Marc#5983 - Bug Bot on 2018-08-06T04:40:38.383Z
+
+
+### Verified on iPhone 8 + running iOS 12, Dev Beta 6 with DIscord TestFlight 2.3.6 (6427). I used a image that was falsely flagged to reproduce this bug, and the image upload bar only hits at least 25% before disappearing without any form of the error messages.
+
+Moving this bug to Verified. - Ghoul on 2018-08-08T06:58:22.890Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ghoul on 2018-08-08T06:58:27.429Z
+
+
+### Archived by Clayton on 2018-09-07T07:00:02.431Z
+
+
+### **Extension**
+There is also no error message when trying to upload an image to a user who blocked DMs. You should get the common Clyde message and best would be that the text does not disappear.
+
+Pascal#0929 - Bug Bot on 2018-10-30T05:55:32.011Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.4.1 - TestFlight 2.4.0 (8667)
+
+Tarmac#9559 - Bug Bot on 2018-10-31T21:38:25.219Z
+
+
+### Can reproduce.
+CR, iPhone X, iOS 12.1, TestFlight 2.5.2 (13014)
+
+TheForbiddenAi#7549 - Bug Bot on 2019-04-09T20:17:20.212Z
+
+
+### Unarchived by Bug Bot on 2019-04-09T20:30:05.842Z
+
+
+### Archived by Bug Bot on 2019-05-09T21:00:02.907Z
+
+
+### This is actually a missing feature and not a bug according to Victoria.
+
+Therefore moving to not a bug. - Pascal on 2019-05-24T21:23:47.779Z
+
+
+### Unarchived by Pascal on 2019-05-24T21:23:52.220Z
+
+
+### Moved from Backlog to Not a bug by Pascal on 2019-05-24T21:24:00.769Z
+
+
+### Archived by Bug Bot on 2019-06-23T21:30:20.456Z
+
+List
+====
+Not a bug
+
+Members
+=======
+None

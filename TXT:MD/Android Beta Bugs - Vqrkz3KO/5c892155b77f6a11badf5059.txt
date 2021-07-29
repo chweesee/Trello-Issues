@@ -1,0 +1,119 @@
+[Archived] Editing a user's discriminator in search doesn't trigger caching of the user (https://trello.com/c/39MbJvY4)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-13T15:27:18.051Z
+Latest Update: 2019-06-10T20:43:11.731Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+
+- Find a user that is offline/invisible in a large guild 
+- Use the `from:` search filter to search messages from this user 
+- After successfully searching, Force-close Discord in order to clear cache 
+- Re-open Discord, re-open Search, and tap on the search history entry corresponding to the search of previous step 
+- In the prefilled searchbar, delete the last 1-2 digits of the discriminator 
+- Wait indefinitely. Notice how the user will never appear in the autocomplete 
+- Continue deleting characters until the discriminator is fully gone, and again, wait indefinitely. Notice how the user will end up to show up in autocomplete
+
+####Expected result:
+Adding/deleting characters in the discriminator of the user should trigger its caching
+####Actual result:
+The user will stay uncached no matter how long you wait, only editing the username will make it cached eventually (you know that a user becomes "cached" when they appear in autocomplete of the `from:` filter)
+####Client settings:
+Discord Alpha 8.5.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+30843
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-13T15:27:18.051Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c892155b77f6a11badf5059/6fe56abe66f6788eb1e69f1a4eabf22f/IMG_20190313_161206.jpg added by Bug Bot on 2019-03-13T15:27:20.963Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c892155b77f6a11badf5059/2a247db4dd0c44ca1e3637b6038f0eee/IMG_20190313_161143.jpg added by Bug Bot on 2019-03-13T15:27:21.223Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0, Discord Alpha 8.5.6
+
+Law of Royale#6825 - Bug Bot on 2019-03-13T15:27:25.535Z
+
+
+### Can reproduce.
+Can reproduce. Alpha 8.5.6 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-03-13T15:27:30.582Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.5.6
+
+neuzoid#0510 - Bug Bot on 2019-03-13T15:27:35.543Z
+
+
+### Can reproduce.
+CR - Samsung Galaxy S6 Edge, 7.0.0 - Alpha 856
+
+ZεɾMმl 『 Kօყმ | Dεղνεɾ | Tφ』#1071 - Bug Bot on 2019-03-13T15:55:28.383Z
+
+
+### Can reproduce.
+Could reproduce, Samsung Galaxy S8 Android 8, Alpha 8.5.6
+
+Action Potential#2494 - Bug Bot on 2019-03-13T19:21:47.814Z
+
+
+### Can reproduce.
+Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 30843
+
+Lelantos#4866 - Bug Bot on 2019-03-13T20:40:14.675Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.5.6
+
+Lily#2624 - Bug Bot on 2019-03-13T21:09:44.734Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T21:14:58.937Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1,discord 8.5.6 (beta)
+
+Quad#1887 - Bug Bot on 2019-03-14T08:30:13.530Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.6.0
+
+Skyla#0002 - Bug Bot on 2019-03-19T15:22:41.068Z
+
+
+### Archived by Bug Bot on 2019-04-18T15:30:03.205Z
+
+
+### Can reproduce.
+can still reproduce Kyocera Hydro Wave Android 5.1 discord 888
+
+Okori#0902 - Bug Bot on 2019-05-01T03:27:54.406Z
+
+
+### Unarchived by Bug Bot on 2019-05-01T03:30:04.956Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:11.744Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

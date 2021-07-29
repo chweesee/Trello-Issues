@@ -1,0 +1,112 @@
+[Archived] iOS 11 screenshots do not display on Android 8 devices (https://trello.com/c/64BTknpf)
+
+High,
+P2 - Can wait a while,
+Mod can no longer reproduce
+
+Created: 2017-11-14T17:32:11.470Z
+Latest Update: 2018-07-06T21:24:44.479Z
+
+Reported by Penguin#0001
+
+####Steps to reproduce:
+- Take a screenshot on an iOS 11 device 
+- Send it to a user running Android 8.
+
+####Expected result:
+The screenshot is displayed properly in-line
+####Actual result:
+The screenshot does not load properly.
+####Client settings:
+Sent on iOS app version 1.10.0, received on Android app version 5.6.6
+####System settings:
+Send on iPhone X, iOS 11.1.1, received on Google Pixel XL 2, Android 8.0.1 Oreo
+
+6372
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-14T17:32:11.470Z
+
+
+### Can reproduce.
+CR, screenshot sent from iPhone 7 Plus, iOS 11.2 beta 3, discord 1.10.0, received on Google Pixel XL, Android 8.0.0, discord 5.6.7
+
+crater#8252 - Bug Bot on 2017-11-14T17:32:18.758Z
+
+
+### Can reproduce.
+Screenshot sent from iPhone 8+, iOS 11.1.1, Discord 1.10.0. My guess is that it's related to Android 8 rather than Pixel devices. Google Pixel XL, Android 8.1.0 Developer Preview, Discord 5.6.7
+
+Chrees#4389 - Bug Bot on 2017-11-14T17:32:23.828Z
+
+
+### Can reproduce.
+CR, Screenshot from iPhyone 7, iOS 11.1.1, Discord 1.10.0 (1574). Sent to Google Pixel 2, Android 8.0.0, Discord 5.6.1
+
+LordOfTheUndead#7368 - Bug Bot on 2017-11-14T17:32:28.756Z
+
+
+### Can reproduce.
+CR, sent from IPhone7, iOS 11.1 to Sony Xperia XZ Premium, Android 8.0.0 (Sedcuritypatch 1. Nov. 2017). This is most likely just Oreo judging by my non Pixel device doing the same.
+
+BigBrainAFK#6465 - Bug Bot on 2017-11-17T09:00:41.876Z
+
+
+### Verified - Clayton on 2017-11-29T23:31:10.237Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-29T23:31:13.410Z
+
+
+### Can reproduce.
+Pixel 2
+
+stimut#8151 - Bug Bot on 2018-01-18T20:11:32.042Z
+
+
+### Further testing has me convinced that this is not a Pixel issue, but rather an issue with Android 8 and up. The version of iOS seems to also affect it, as a screenshot from an iPhone 5S running 9.0.1 displays just fine. - Chris Cox on 2018-01-20T18:58:47.429Z
+
+
+### Upon further investigation, it looks like there is an issue with displaying all images encoded with a 16-bit color depth on Android 8.0 and above, not just iPhone screenshots. It appears that iOS versions prior to 11.1.2 encoded screenshots using an 8-bit color depth, while versions after use 16-bit color depth. Thus screenshots from those iOS versions don't display correctly.
+
+mrkirby153#7840 - Bug Bot on 2018-01-21T22:36:28.721Z
+
+
+### Can verify what Chris and Kirby said. This is happening to all Android 8 devices. And screenshots taken from iOS 11 or so.
+
+Bug bumped up to P2 and edited the title and reproduction steps after an approval from the overlord. - Tarek on 2018-01-22T02:41:05.889Z
+
+
+### fixed in 6.1.4. Kirby's analysis was correct. The 3rd party library we use to cache and display images had a bug in it that they since fixed in the latest release: https://github.com/facebook/fresco/releases/tag/v1.8.0.
+
+We've pulled in the new release and it should render correctly now. - Sam Shih on 2018-01-27T07:52:15.069Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Sam Shih on 2018-01-27T07:53:59.427Z
+
+
+### @lytefast Me and kirby still has issues with this on 6.1.5, I'm using OnePlus 5 on Android 8.0 and Kirby uses 8.1. I'm moving this to verified bugs. - Tarek on 2018-01-28T02:48:23.867Z
+
+
+### Moved from Fixed Bugs to Verified Bugs by Tarek on 2018-01-28T02:48:29.748Z
+
+
+### Cannot reproduce anymore, Discord Alpha 6.2.4 on OnePlus 5 Android 8.. Moving to claimed fixed. - Tarek on 2018-02-10T07:54:50.362Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-02-10T07:54:54.952Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:24:43.415Z
+
+
+### Archived by Jared on 2018-07-06T21:24:44.482Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

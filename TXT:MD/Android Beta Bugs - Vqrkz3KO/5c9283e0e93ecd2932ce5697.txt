@@ -1,0 +1,79 @@
+[Archived] Role with no name is not formatted correctly in the audit log (https://trello.com/c/pGSlonnt)
+
+P4, unlikely to ever be fixed.
+
+Created: 2019-03-20T18:18:08.712Z
+Latest Update: 2019-06-05T23:47:24.354Z
+
+Reported by AlexejheroYTB#1636
+
+####Steps to reproduce:
+- Create a role with no name (not even a space) 
+- Make changes to it 
+- Open the audit log 
+- Observe
+
+####Expected result:
+It should say: `**user#dscr** made changes to {snowflake}` (Since the role doesnt have a name, the bold stars shouldnt be included in the audit log message)
+####Actual result:
+It says: `**user#dscr** made changes to ****` (The stars are included in the message, and since there is nothing between them, they display normally as 4 stars)
+####Client settings:
+Android Alpha 8.5.5
+####System settings:
+Samsung Galaxy Note 3, Android 5.0
+
+31357
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-20T18:18:08.712Z
+
+
+### Can reproduce.
+Discord Alpha 8.6.1 OnePlus 5 Android 9 (Pie)
+
+Tarek#1337 - Bug Bot on 2019-03-20T18:18:16.162Z
+
+
+### Can reproduce.
+Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 8.6.1
+
+Lelantos#4866 - Bug Bot on 2019-03-20T18:18:21.204Z
+
+
+### Can reproduce.
+Can Recreate Perfectly, Samsung Galaxy Note 8, Android 8.0.0
+
+SportLeader#0001 - Bug Bot on 2019-03-20T18:18:26.250Z
+
+
+### On Desktop and iOS, it shows the role snowflake instead. So I think that's the expected behavior. - Tarek on 2019-03-20T18:19:26.078Z
+
+
+### AlexejheroYTB#1636 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c9283e0e93ecd2932ce5697/3df0e34c6270ea85e6f6621be457b811/Screenshot_2019-03-20-19-31-58.jpg added by Bug Bot on 2019-03-20T18:45:25.273Z
+
+
+### Can't reproduce.
+cannotrepro : Android Samsung Galaxy S9 9.0.0, 8.6.1 : I can't even save a role with no name. Even if I edit permissions and color.
+
+OldWampa#7897 - Bug Bot on 2019-03-21T01:05:41.694Z
+
+
+### Can't reproduce.
+Lenovo TB3-701F, 5.0.1, discord 8.6.2 (cannot produce a role with no name)
+
+Quad#1887 - Bug Bot on 2019-03-25T05:09:45.552Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jeff Cailteux on 2019-04-17T18:09:35.770Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:24.365Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

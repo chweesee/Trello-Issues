@@ -1,0 +1,76 @@
+[Archived] In DM's users with a longer name than the "user is typing" container uses the default chrome scrolling bar, doesn't match the discord UI (https://trello.com/c/iN22ae3m)
+
+P3: Will get fixed eventually
+
+Created: 2017-02-20T03:00:11.663Z
+Latest Update: 2017-03-16T19:46:02.678Z
+
+Reported by Clyv#9551
+
+####Steps to reproduce: 
+- Get a user with a really long name (long characters) 
+- make them type into the dm box  
+
+####Expected result:
+ it should overflow into a non CSS scroll - 
+####Actual result:
+ Uses CSSs default overflow-x - 
+####System settings:
+ Win10 x64, canary
+
+1699
+
+Card Log
+========
+### Added by Jared on 2017-02-20T03:00:11.663Z
+
+
+### Can reproduce.
+Win 10 AU, Discord Canary 0.0.153
+
+Mikesky#3456 - Jared on 2017-02-20T03:00:12.438Z
+
+
+### Can reproduce.
+Windows 7 x64, Canary 0.0.153
+
+Ian Murray#8701 - Jared on 2017-02-20T03:00:14.311Z
+
+
+### Can reproduce.
+Latest Discord Client
+
+ColdVolcano#0489 - Jared on 2017-02-20T03:00:16.325Z
+
+
+### 9VmUuIc.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58aa5bbb62033fc346a1d865/5c34cfdb49a83183fcb180597eef9273/9VmUuIc.png added by Jared on 2017-02-20T03:00:27.465Z
+
+
+### Can reproduce.
+macOS Sierra, Latest canary
+
+GerdSattler#3221 - Jared on 2017-02-20T09:40:30.630Z
+
+
+### Can reproduce
+MacOS 10.11.6, Canary 0.0.144 - Clayton on 2017-02-23T01:15:43.886Z
+
+
+### I used: ﷽ over and over.... - Clayton on 2017-02-23T01:15:59.929Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-02-23T01:16:16.429Z
+
+
+### Archived by Clayton on 2017-03-16T19:45:33.182Z
+
+
+### Dupe of: https://trello.com/c/u2n5MHxF/105-excessively-long-usernames-will-break-the-typing-indicator - Clayton on 2017-03-16T19:46:02.680Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

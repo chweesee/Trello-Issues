@@ -1,0 +1,74 @@
+[Archived] User avatars and status indicators shrink in the mention drawer when repeatedly changing the size (https://trello.com/c/Zma30yUp)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-09-19T23:45:09.816Z
+Latest Update: 2019-01-31T19:59:05.802Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go into a channel where multiple users have sent messages 
+- Open the mention drawer, and type some letters that will shrink the drawer but not close it 
+- Delete the letters you typed and observe the mention drawer 
+- Repeatedly do this multiple times in a row and observe the user avatars and status indicators as you do so
+
+####Expected result:
+User avatars and status indicators stay the same size
+####Actual result:
+User avatars and status indicators shrink more with each time you change the size of the drawer
+####Client settings:
+TestFlight 2.3.8 (7308)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta
+
+19846
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-19T23:45:09.816Z
+
+
+### Rashaun#9295 - https://imgur.com/5FOzhT7.gifv added by Bug Bot on 2018-09-19T23:45:12.460Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 dev beta - TestFlight 2.3.8 (7308)
+
+Xylium#1480 - Bug Bot on 2018-09-19T23:45:17.416Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12, Testflight 2.3.8 (7347)
+
+Pyros#2326 - Bug Bot on 2018-09-19T23:45:22.557Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight Build 2.3.8 (7347) also affects the BOT tag as well
+
+Kuuhaku#4503 - Bug Bot on 2018-09-19T23:45:27.396Z
+
+
+### verified, ios 11.0, iphone 5s, 2.3.8 (7347) - Clayton on 2018-09-20T00:15:57.192Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-09-20T00:16:04.848Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.0 - TestFlight 2.3.8 (7416)
+
+Google61#9199 - Bug Bot on 2018-09-21T10:54:32.191Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:05.813Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

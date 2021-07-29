@@ -1,0 +1,88 @@
+[Archived] Using mark as read function show up black loading box (https://trello.com/c/XX7vW8Li)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-30T20:36:12.693Z
+Latest Update: 2019-01-01T15:35:05.904Z
+
+Reported by Skwaleks#2794
+
+####Steps to reproduce:
+- Go to an server 
+- set a channel as (mark as read) 
+- open the channel 
+- look at the top of the channel
+
+####Expected result:
+The messages are needed to load in normally like it does when you don't use "Mark as read"
+####Actual result:
+There is a black box appearing "Load more messages"
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 16234, Version Hash: 7baf7542f6a7e89f350dd0ae187accdb88fc7a35
+####System settings:
+Windows 10 PRO (Build: 16299.431), 64x, Dell
+
+13582
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-30T20:36:12.693Z
+
+
+### Skwaleks#2794 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b0f0b3c365dabf7a75a7698/b60730d6bd47986eda79c71abea7f3e2/57f3b966b161f2a98bb6f405da91f9ac.gif added by Bug Bot on 2018-05-30T20:36:16.548Z
+
+
+### Can reproduce.
+Windows 10 (10240), Canary Build (16234) - Notice, to repro channel you mark as read should have at least +50 messages
+
+Angel_0#9354 - Bug Bot on 2018-05-30T20:36:20.330Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803, Discord Canary 16234
+
+Pyros#2326 - Bug Bot on 2018-05-30T20:36:25.333Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (Version 1803), Discord Canary Build Canary 16167 and 16234. You need to make sure that you have more than 50+ messages, or you won't see that black box.
+
+Ghoul the Kitty#5678 - Bug Bot on 2018-05-30T20:36:30.322Z
+
+
+### Verified, macos 10.12.6, Canary 16275 - Clayton on 2018-05-31T01:37:38.314Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-31T01:37:44.763Z
+
+
+### This ticket was checked during the Trello clean up event, but can still be reproduced on Windows 10 Pro x64 with Discord Canary Build 18226. 
+
+Because of this ticket still being able to be reproduced, I will leave it to be. - Ghoul on 2018-07-06T04:06:34.760Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24461
+
+Neiron#2406 - Bug Bot on 2018-09-23T15:57:22.234Z
+
+
+### can no longer reproduce.  - Clayton on 2018-10-04T01:14:04.649Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-04T01:14:09.652Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:35:05.206Z
+
+
+### Archived by Tarek on 2019-01-01T15:35:05.907Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

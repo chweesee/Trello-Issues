@@ -1,0 +1,149 @@
+[Archived] Cursor moves left in the last digit when putting invalid 2fa code (https://trello.com/c/GBPwT3Ze)
+
+None
+
+Created: 2019-02-21T16:40:01.627Z
+Latest Update: 2019-06-05T23:46:17.573Z
+
+Reported by Toasty#0001
+
+####Steps to reproduce:
+- Make sure you have enabled 2fa on your account 
+- Log out from your account 
+- Type your mail and password to log in 
+- When the 2fa auth code requester page comes, spam an integer 
+- Observe that in the last digit, before it gives invalid 2fa code error, at the time it clears themself the cursor moves left
+
+####Expected result:
+Cursor should not move to the left of last digit
+####Actual result:
+Just for a quick time, It moves the left side of the last integer
+####Client settings:
+8.4.9
+####System settings:
+Samsung Galaxy S7 Android 8.0.0
+
+29437
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-21T16:40:01.627Z
+
+
+### Can reproduce.
+CR // Honor 7S, Android 8.1 // Android Alpha 8.4.9
+
+mesub#0556 - Bug Bot on 2019-02-21T16:40:09.603Z
+
+
+### Can reproduce.
+CR on Honor 6x 7.0 [EMUI 5.0.2] ,alpha. and I found it to be really irritating
+
+fizy#9347 - Bug Bot on 2019-02-21T16:40:14.577Z
+
+
+### Can reproduce.
+Samsung S8, Android 8.0, 8.4.9
+
+Mr. Proper#2394 - Bug Bot on 2019-02-21T16:40:19.555Z
+
+
+### Can reproduce.
+CR on Honor 6x 7.0 [EMUI 5.0.2] ,alpha849
+
+fizy#9347 - Bug Bot on 2019-02-21T16:44:18.769Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 849
+
+The Lunala#6877 - Bug Bot on 2019-02-21T16:50:47.301Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-02-21T17:17:49.136Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 9 (Pie),Discord Alpha 8.4.9
+
+Octillion#6666 - Bug Bot on 2019-02-21T17:38:49.328Z
+
+
+### Can reproduce.
+CR. // Samsung S8+, Android 8.0.0 // Discord Alpha 8.4.9
+
+azuos#7777 - Bug Bot on 2019-02-21T17:58:49.552Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.4.9
+
+Lily#2624 - Bug Bot on 2019-02-21T21:52:57.042Z
+
+
+### Can reproduce.
+Samsung Galaxy S9+ Android 9.0 8.4.9
+
+Zacatero#0001 - Bug Bot on 2019-02-22T00:31:33.454Z
+
+
+### Can't reproduce.
+CNLR Alpha 8.5.0 Samsung galaxy S7 Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-02-22T04:28:09.919Z
+
+
+### Can reproduce.
+Can reproduce. Discord Alpha 29437 / Xiaomi Mi3W / Android 7.1.2 / LineageOS
+
+Hawlucha#2061 - Bug Bot on 2019-02-22T06:48:54.599Z
+
+
+### Can reproduce.
+CR, Android Alpha 8.5.0, Mi A2 Android 9, Jan 2019 update. It actually stays on the left side of the number for me, about 18/20 times. 1/20 it did switch back to the right side, 1/20 worked as intended.
+
+Bsian#1803 - Bug Bot on 2019-02-22T07:53:32.788Z
+
+
+### Can reproduce.
+CR with alpha 850 on ASUS Zenfone max pro m1 Android 8.1.0
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-22T13:15:05.977Z
+
+
+### Can't reproduce.
+Can no longer Reproduce. Samsung Galaxy S9+ Android 9.0 8.5.0
+
+Zacatero#0001 - Bug Bot on 2019-02-22T17:34:46.950Z
+
+
+### Can reproduce.
+CR, Android Alpha 850. Honor 7S Android 8.1
+
+mesub#0556 - Bug Bot on 2019-02-22T19:45:35.456Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-02-22T19:45:35.669Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.5.1
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-27T18:31:18.337Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.6.1
+
+Skyla#0002 - Bug Bot on 2019-03-20T06:14:19.777Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:17.583Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

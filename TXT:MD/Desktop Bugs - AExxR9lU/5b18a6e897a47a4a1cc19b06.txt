@@ -1,0 +1,76 @@
+[Archived] If experimental is selected in audio subsystem, the client will crash and restarts when switching microphone devices (https://trello.com/c/Oiyjf31A)
+
+None
+
+Created: 2018-06-07T03:30:48.774Z
+Latest Update: 2018-08-21T23:27:22.730Z
+
+Reported by Frances Picard#6209
+
+####Steps to reproduce:
+- Make sure you installed more than one (or two) microphone devices (not sure if virtual device counts) 
+- Go to User Settings > Voice & Video > use Voice Activity 
+- Still in same settings, go to Audio subsystem and select experimental, press okay and let Discord do its reload (if its already in experimental, do reload manually by pressing Ctrl + R) 
+- Go to User Settings > Voice & Video and switch microphone devices a few times
+
+####Expected result:
+Discord changes the setting successfully without crash
+####Actual result:
+Discord crash and restarts (but that new settings is applied successfully)
+####Client settings:
+Discord Canary 16581
+####System settings:
+Windows 10 1803 x64
+
+13859
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-07T03:30:48.774Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 16581 -- Related to 13855 but I can't repro that so it's probably not an extension.
+
+webhp#1337 - Bug Bot on 2018-06-07T03:30:56.155Z
+
+
+### Can reproduce.
+Discord Canary 0.0.210 (16581) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-06-07T03:31:01.187Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 16581
+
+Rauf#9245 - Bug Bot on 2018-06-07T03:31:06.194Z
+
+
+### Moved from User Reported Bugs to Voice Module Bugs by Tarek on 2018-06-07T06:47:10.044Z
+
+
+### Can't reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 16868
+
+webhp#1337 - Bug Bot on 2018-06-13T16:16:52.177Z
+
+
+### Cannot reproduce anymore, Discord Canary 0.0.210 (16868) on Windows 10 Pro 64-bit (1803). Moving to calimed fixed. - Tarek on 2018-06-13T16:32:00.210Z
+
+
+### Moved from Voice Module Bugs to Claimed Fixed, needs Verification by Tarek on 2018-06-13T16:32:04.219Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:27:21.775Z
+
+
+### Archived by Jared on 2018-08-21T23:27:22.732Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

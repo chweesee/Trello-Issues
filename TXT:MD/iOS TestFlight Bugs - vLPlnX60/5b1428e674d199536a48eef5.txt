@@ -1,0 +1,75 @@
+[Archived] App crashes when looking through list of reactions (https://trello.com/c/xBG1X15m)
+
+None
+
+Created: 2018-06-03T17:44:06.653Z
+Latest Update: 2018-09-19T16:32:01.439Z
+
+Reported by BREEZLET#0926
+
+####Steps to reproduce:
+- Hold down on a message 
+- Press on the "Add Reaction" button 
+- Scroll down the reaction list "very slowly" and for at least a minute (Also make sure you have Nitro)
+
+####Expected result:
+App is not supposed to crash when looking at reactions
+####Actual result:
+App crashes when looking at reactions
+####Client settings:
+TestFlight 2.3.2 (4760)
+####System settings:
+iPhone X - iOS 11.4.1 Dev Beta 1, iPad Air (1st Gen.) - iOS 10.3.3
+
+13749
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-03T17:44:06.653Z
+
+
+### BREEZLET#0926 - https://youtu.be/fMbG-6taHPI added by Bug Bot on 2018-06-03T17:44:09.162Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4.1 Stable 2.3.3
+
+Xylium#1480 - Bug Bot on 2018-06-03T17:44:14.123Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th generation, iOS 11.3.1, Stable 2.3.3
+
+🐎nickWtn🐎#3789 - Bug Bot on 2018-06-03T17:44:19.180Z
+
+
+### Can reproduce.
+Discord TestFlight 2.3.2, Build 4760, iOS 11.2.6, iPhone 5s | I feel like this issue is related to animated emojis, perhaps ones that are over 250k that were uploaded after the limit having been added, as I've always crashed after a certain point between three servers that I know have a lot of animated emojis pre-limit.
+
+Ene#0808 - Bug Bot on 2018-06-03T17:44:24.107Z
+
+
+### Can't reproduce.
+iOS 12 developer beta iPhone 8+
+
+Andrew814#7777 - Bug Bot on 2018-06-05T01:52:28.906Z
+
+
+### This isn't a Discord bug. This is the OS killing the application because it's loading too much into memory. Moving to Not A Bug. - Jared on 2018-06-05T16:40:23.825Z
+
+
+### Moved from User Reported Bugs to Not a bug by Jared on 2018-06-05T16:40:28.322Z
+
+
+### This ticket has been in Not a Bug list for more than a month without any new activity. I am archiving this ticket due to inactivity and being in Not a Bug since June. - Ghoul on 2018-09-19T16:31:59.260Z
+
+
+### Archived by Ghoul on 2018-09-19T16:32:01.442Z
+
+List
+====
+Not a bug
+
+Members
+=======
+None

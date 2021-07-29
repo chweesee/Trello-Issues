@@ -1,0 +1,72 @@
+[Archived] Editing a message containing a role mention will display the raw text with roleID in the chat box instead of the bolded @ role name (https://trello.com/c/MzYLOpzQ)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2017-11-22T04:05:19.725Z
+Latest Update: 2018-08-22T01:20:32.445Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Send a message that contains a mentionnable role tag 
+- Long press and edit this message
+
+####Expected result:
+In the chat box, it's formatted as regular mentions, e.g `@role` in bold
+####Actual result:
+It appears as raw text with roleID, e.g `<@&364870197078786049>`
+####Client settings:
+Discord Alpha 5.7.3
+####System settings:
+Huawei Mate 9 Android 7.0
+
+6537
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T04:05:19.725Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a14f77f278e438c176c8f30/c2584e49ba558a469e6cf079f440bc6a/IMG_20171121_235443.png added by Bug Bot on 2017-11-22T04:05:22.080Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 574
+
+Xander#0259 - Bug Bot on 2017-11-22T04:05:27.041Z
+
+
+### Can reproduce.
+CR, Discord Alpha 5.7.4, Sony Xperia X Compact running Android 7.1.1
+
+MrOverlord12#1880 - Bug Bot on 2017-11-22T04:05:32.053Z
+
+
+### Can reproduce.
+CR Tecno c9, Android 6.0,Discord alpha 5.7.4
+
+Gon#0248 - Bug Bot on 2017-11-22T04:05:37.091Z
+
+
+### Can reproduce.
+Samsung Galaxy J3, 6.0.1; Discord v5.7.5 (575) (Android Alpha)
+
+dross#1913 - Bug Bot on 2017-11-25T18:16:27.290Z
+
+
+### Verified.  - Clayton on 2017-11-28T21:37:06.613Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-28T21:37:10.400Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:32.448Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

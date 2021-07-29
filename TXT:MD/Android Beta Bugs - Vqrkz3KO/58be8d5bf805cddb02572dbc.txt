@@ -1,0 +1,95 @@
+Second custom emoji doesn't render when sending the same two custom emoji next to each other without a space separating them (https://trello.com/c/UORIuLjU)
+
+P3 - Will be fixed eventually
+
+Created: 2017-03-07T10:37:15.396Z
+Latest Update: 2020-05-27T00:30:04.803Z
+
+Reported by JulianAssange#5780
+
+####Steps to reproduce: 
+- Go into a server that has at least 1 custom emoji uploaded
+- Type out the name of one of the custom emoji and make sure there isn't a space after last colon
+- Type out the same emoji right after it
+- Send the message containing the two emoji and observe
+
+####Expected result:
+Both emojis should render 
+####Actual result:
+The second emoji does not render
+####System settings:
+ Discord v3.3.3. on Android 6.0 mobile device: LG G4 smartphone
+
+1879
+
+Card Log
+========
+### Added by Jared on 2017-03-07T10:37:15.396Z
+
+
+### Can reproduce.
+Android 7.1.1 nexus 6 discord v 3.4.2
+
+Alex from Alaska#8575 - Jared on 2017-03-07T10:37:15.998Z
+
+
+### Can reproduce.
+Android Marshmallow, latest canary
+
+GerdSattler#3221 - Jared on 2017-03-07T10:37:18.023Z
+
+
+### Can reproduce.
+Android 5.0.2 • Discord latest
+
+LW001#8654 - Jared on 2017-03-07T10:37:20.233Z
+
+
+### Verified.  - Clayton on 2017-03-08T21:00:51.894Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-03-08T21:00:58.232Z
+
+
+### Can reproduce.
+Android 7.0, 3.8.1 only for identical consecutive custom emoji but not different
+
+HugoYuGou#5994 - Bug Bot on 2017-05-05T12:23:35.392Z
+
+
+### dupe of https://trello.com/c/1IZPF11a/1014-emoji-inside-emoji-will-indicate-that-the-one-inside-of-the-emoji-text-counts-as-a-emoji-but-will-still-send-the-code - Jared on 2018-03-22T23:52:16.341Z
+
+
+### Archived by Jared on 2018-03-22T23:52:17.435Z
+
+
+### Unarchived by Clayton on 2018-05-29T21:14:29.068Z
+
+
+### Archived by Jared on 2018-07-10T17:34:15.622Z
+
+
+### Unarchiving as this is not related to the below ticket it was archived as a duplicate of. - Ene on 2019-11-04T06:07:52.011Z
+
+
+### Unarchived by Ene on 2019-11-04T06:07:57.083Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:31.405Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 Note, Android Stable 10.4.2 (1039) - Bug does not occur when using emojis cross-server, only when using custom emojis native to a server.  Bug does not occur with *animated* emojis regardless of origin server (though I recommend someone who actually has Nitro confirm this, as I had to work secondhand).
+
+TheBiggerFish#6981 - Bug Bot on 2020-02-26T09:05:34.250Z
+
+
+### Unarchived by Bug Bot on 2020-02-26T09:30:05.119Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

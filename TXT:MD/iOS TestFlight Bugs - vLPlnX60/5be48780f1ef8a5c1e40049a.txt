@@ -1,0 +1,82 @@
+[Archived] "Forgot your password?" doesn't work with VoiceOver enabled (https://trello.com/c/OB2T8NSw)
+
+None
+
+Created: 2018-11-08T18:59:12.084Z
+Latest Update: 2019-01-31T20:09:51.498Z
+
+Reported by Kuuhaku#4503
+
+####Steps to reproduce:
+- Log out of Discord 
+- Go to Settings > General > Accessibility > VoiceOver and turn on VoiceOver 
+- Go back to Discord and tap on `Login` 
+- Attempt to tap on the blue `Forgot your password?` text
+
+####Expected result:
+After double tapping on the text, a pop-up should appear, as it does with VoiceOver disabled
+####Actual result:
+Nothing happens, the pop-up doesn't appear
+####Client settings:
+TestFlight Build 2.4.0 (8921)
+####System settings:
+iOS 12.0.1
+
+22880
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-08T18:59:12.084Z
+
+
+### Can reproduce.
+CR, TestFlight 2.4.0 (8921), iOS 12.0
+
+Toby#5609 - Bug Bot on 2018-11-08T18:59:19.471Z
+
+
+### Can reproduce.
+Can reproduce - iPhone SE, iOS 12.0.1, TestFlight 2.4.0 (8921)
+
+Daffyduck#5364 - Bug Bot on 2018-11-08T18:59:24.534Z
+
+
+### Can reproduce.
+Can also reproduce it on appstore, iPhone 6 iOS 12, Testflight 2.4.0 (8921)
+
+Pyros#2326 - Bug Bot on 2018-11-08T18:59:29.465Z
+
+
+### Moved from New Issues to Fix made, not yet released by Fanghao on 2018-11-08T22:15:36.862Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1 - - TestFlight (8921)
+
+Solo#0007 - Bug Bot on 2018-11-10T14:29:06.520Z
+
+
+### Can reproduce.
+iPhone 8+ iOS 12.0 TF 8921
+
+Suprnova#0001 - Bug Bot on 2018-11-14T13:11:18.781Z
+
+
+### Can reproduce.
+iPhone 8+ iOS 12.0 TF 8921 It is worth noting that there are multiple elements in the Discord application that cannot be selected by VoiceOver, including but not limited to the “Add Reaction” button and the server list.
+
+Suprnova#0001 - Bug Bot on 2018-11-19T20:47:46.640Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-12-01T05:36:20.580Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:09:51.508Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

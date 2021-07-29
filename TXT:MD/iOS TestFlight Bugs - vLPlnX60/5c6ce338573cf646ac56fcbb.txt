@@ -1,0 +1,140 @@
+[Archived] Cannot change a user’s role or nick name, someone’s you can but it takes a few seconds for the option to appear (https://trello.com/c/p69NmGQQ)
+
+P3 - Will be fixed eventually
+
+Created: 2019-02-20T05:18:48.433Z
+Latest Update: 2019-05-05T10:30:23.367Z
+
+Reported by Quantum Octoling#0712
+
+####Steps to reproduce:
+- Try to edit nickname or role of user
+
+####Expected result:
+Can edit roles or nicknames
+####Actual result:
+Cannot edit them
+####Client settings:
+TestFlight 2.4.5
+####System settings:
+iPhone XS Max, ios 12.2 beta 3
+
+29267
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-20T05:18:48.433Z
+
+
+### Can reproduce.
+CR: iPhone XS Max iOS 12.1.3 (I could change nicknames at first but couldn't when I tried again. Also unable to kick or ban)
+
+chaNcharge#7023 - Bug Bot on 2019-02-20T05:18:55.910Z
+
+
+### Can reproduce.
+iOS 12.2 Beta 2, iPad 6 - TestFlight 2.4.5 (11416)
+
+_Adam_#2917 - Bug Bot on 2019-02-20T05:19:01.132Z
+
+
+### Can reproduce.
+iPad Air 2 iOS 12.1.3, tf 2.4.5 (11416)
+
+M24#0272 - Bug Bot on 2019-02-20T05:19:05.952Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11416)
+
+Daffyduck#5364 - Bug Bot on 2019-02-20T09:50:57.477Z
+
+
+### Can reproduce.
+Can reproduce iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11416)
+
+Solo#0007 - Bug Bot on 2019-02-20T12:16:40.455Z
+
+
+### Can reproduce.
+iPhone X iOS 12.1.4 TestFlight 2.4.5
+
+Darth#9386 - Bug Bot on 2019-02-20T12:23:51.610Z
+
+
+### Can reproduce.
+iPhone X, IOS 12, TestFlight 2.4.5
+
+Mr. Proper#2394 - Bug Bot on 2019-02-20T15:17:38.546Z
+
+
+### Moved from New Issues to Notable Issues by Jonathan Wu on 2019-02-20T19:16:12.214Z
+
+
+### Moved from Notable Issues to New Issues by Victoria on 2019-02-20T19:38:24.856Z
+
+
+### I believe this one is also related to the changes we made on PermissionMixin @meishuu 
+
+Essentially there's a delay on setting "canManageRoles" which creates this jarring experience (GuildSettingsModalMemberEdit.js) - Jonathan Wu on 2019-02-20T22:27:30.892Z
+
+
+### Moved from New Issues to Notable Issues by Bug Bot on 2019-02-25T05:27:16.536Z
+
+
+### Moved from Notable Issues to New Issues by Fanghao on 2019-02-26T07:53:34.582Z
+
+
+### Can reproduce.
+iPhone 8 ios 12.1.4, TestFlight 2.4.5 (11561)
+
+tech_dude1#9855 - Bug Bot on 2019-02-26T18:03:08.038Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-03-01T19:00:02.896Z
+
+
+### Archived by Bug Bot on 2019-03-31T19:30:02.587Z
+
+
+### Cannot reproduce as of iOS TestFlight 2.5.2 (13014) on iPhone XS Max running iOS 12.2 Dev Beta 6.
+
+Moving to Claimed Fixed. - Ghoul on 2019-04-02T05:11:07.395Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Ghoul on 2019-04-02T05:11:14.026Z
+
+
+### Unarchived by Ghoul on 2019-04-02T05:11:14.066Z
+
+
+### Can't reproduce.
+can’t reproduce, iPhone XR, iOS 12.1, TestFlight 2.5.2 (13014)
+
+💐nickWtn💐#3789 - Bug Bot on 2019-04-02T05:24:44.854Z
+
+
+### Can't reproduce.
+iPhone SE iOS 12.1.4 - TestFlight 2.5.2 (13014)
+
+Daffyduck#5364 - Bug Bot on 2019-04-02T05:28:58.921Z
+
+
+### Can't reproduce.
+iPhone XR, iOS 12.1 - TestFlight 2.5.2 (13014)
+
+Rage#9991 - Bug Bot on 2019-04-02T07:24:50.757Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-02T07:24:51.159Z
+
+
+### Archived by Bug Bot on 2019-05-05T10:30:23.378Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

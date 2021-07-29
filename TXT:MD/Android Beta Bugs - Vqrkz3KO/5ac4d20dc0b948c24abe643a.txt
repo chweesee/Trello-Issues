@@ -1,0 +1,78 @@
+[Archived] When you use inertia to scroll down in Recent Mentions, the scrolling will brutally interrupt instead of loading more messages, making you think there is no more messages (https://trello.com/c/QEZq9sog)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-04T13:24:29.846Z
+Latest Update: 2018-08-22T01:21:33.854Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Recent mentions (@ icon at the bottom of channel sidebar) 
+- Swipe up and release your finger to make it scroll down with inertia
+
+####Expected result:
+When it reaches the end of cached messages, it should be immediately loading more messages and lets you continue to scroll down, exactly like in regular chat
+####Actual result:
+The scrolling stops, and you have to swipe down again to load more messages and continue scrolling down
+####Client settings:
+Discord Alpha 6.4.6
+####System settings:
+Huawei Mate 9 Android 7.0
+
+10238
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-04T13:24:29.846Z
+
+
+### Can reproduce.
+Discord first loads mentions then it continue to scroll with inertia | I think it just Discord don't load enough mentions | Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.6
+
+fujhofn. 🐛#0878 - Bug Bot on 2018-04-04T13:24:37.198Z
+
+
+### Can reproduce.
+Pixel 2 XL, Android 8.1 - Android Alpha 6.4.6
+
+Lewis#0334 - Bug Bot on 2018-04-04T13:24:42.195Z
+
+
+### Can reproduce.
+Samsung s6 edge, Android 7.0 - Android alpha 6.4.6
+
+Traveller#0001 - Bug Bot on 2018-04-04T13:24:47.213Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 2016, Android 5.1.1, Discord Alpha 6.4.6
+
+AwesomeSkittle#1912 - Bug Bot on 2018-04-04T17:42:41.723Z
+
+
+### Verified.  - Clayton on 2018-04-06T08:03:39.920Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-06T08:03:45.031Z
+
+
+### Can reproduce.
+Samsung Galaxy Grand Prime, Android 7.1.2, LineageOS 14.1, Discord Canary 6.4.6
+
+Justin#3922 - Bug Bot on 2018-04-07T14:51:51.543Z
+
+
+### 54D#1357 - https://youtu.be/BVTa0Iq3MTc added by Bug Bot on 2018-07-16T11:19:15.881Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:33.861Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

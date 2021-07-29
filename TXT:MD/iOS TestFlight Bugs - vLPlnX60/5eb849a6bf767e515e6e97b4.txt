@@ -1,0 +1,98 @@
+[Archived] Swiping down on an ended stream has a delayed animation (https://trello.com/c/Jqcz32Bb)
+
+None
+
+Created: 2020-05-10T18:36:22.532Z
+Latest Update: 2020-07-19T18:30:36.926Z
+
+Reported by AmusingDev#7879
+
+####Steps to reproduce:
+- Join a voice channel 
+- Open someone’s stream 
+- Wait for the other person to end the stream 
+- Swipe down to close the ended stream
+
+####Expected result:
+The stream should close smoothly
+####Actual result:
+The stream's closing animation has a delay
+####Client settings:
+Stable 19.0
+####System settings:
+Iphone XR; IOS 13.3.1
+
+55787
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-10T18:36:22.532Z
+
+
+### KlukCZ#6589 - https://imgur.com/a/OqnQCcq.gif added by Bug Bot on 2020-05-10T18:36:25.529Z
+
+
+### Can reproduce.
+iPhone 7 | 13.3.1 | TestFlight 20.0 (19727)
+
+Atom#6666 - Bug Bot on 2020-05-10T18:36:30.293Z
+
+
+### Can reproduce.
+There is a slight pause too whilst streaming. Currently need to test in a server with less than 1,000 members to have this layout. iPhone 7: iOS 13.4.1; TestFlight 21.0 (19880)
+
+Jiralite#1207 - Bug Bot on 2020-05-10T18:36:35.302Z
+
+
+### Can reproduce.
+CR, iPhone 7 Plus iOS 13.4.1, TestFlight 21.0 (19880)
+
+Action Potential#2655 - Bug Bot on 2020-05-10T18:36:40.349Z
+
+
+### Can reproduce.
+iPhone X: iOS 13.4.1, TestFlight 21.0 (19880)
+
+ugh🍂#2003 - Bug Bot on 2020-05-10T18:41:23.215Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 13.4.1; TestFlight 22.0 (19935)
+
+Thunderstruck#2071 - Bug Bot on 2020-05-10T18:49:14.118Z
+
+
+### Test in a server with over 1k members*
+
+Jiralite#1207 - Bug Bot on 2020-05-11T03:51:44.488Z
+
+
+### Moved from New Issues to Server Video by Jonathan Wu on 2020-05-11T18:23:48.493Z
+
+
+### Moved from Server Video to Fix made, not yet released by Jonathan Wu on 2020-05-26T16:27:21.210Z
+
+
+### Cannot reproduce anymore.
+iPhone SE, iOS 13.5.1 - TestFlight 27.0 (20464)
+Moving to Claimed Fixed. - Daffyduck on 2020-06-19T10:54:20.582Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Daffyduck on 2020-06-19T10:54:23.089Z
+
+
+### Can't reproduce.
+iPhone 7: iOS 13.5.1; TestFlight 27.0 (20464)
+
+Jiralite#1207 - Bug Bot on 2020-06-19T18:13:36.989Z
+
+
+### Archived by Bug Bot on 2020-07-19T18:30:36.935Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

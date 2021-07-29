@@ -1,0 +1,78 @@
+[Archived] Able to edit a message while it's sending, even though nothing happens (https://trello.com/c/KDPTPgHO)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-09-12T20:35:13.813Z
+Latest Update: 2020-04-12T17:00:05.855Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Make sure you have a connection where messages take a few seconds to send, but is still stable connection 
+- Type a message and send it 
+- While the message is sending, long press and tap "Edit message" 
+- Edit the message and press save 
+- Check the message once it sends to see if any changes were made
+
+####Expected result:
+Either shouldn't be able to edit the message while sending, or message gets edited
+####Actual result:
+Nothing happens to the message, it sends as it was before trying to edit
+####Client settings:
+TestFlight 2.3.8 (7106)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 12
+
+19522
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-12T20:35:13.813Z
+
+
+### Can reproduce.
+spamming some letters multiple times seems to work as well. iPhone 6, iOS 12 (dev beta 12) - TestFlight 2.3.8 (7106)
+
+Xylium#1480 - Bug Bot on 2018-09-12T20:35:21.219Z
+
+
+### Can reproduce.
+Can reproduce. For me the save button doesn't work and the message becomes highlighted. TF 2.3.8 (7106), iPhone 6s iOS 11.4.1
+
+George#0069 - Bug Bot on 2018-09-12T20:35:26.111Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iPad Air 2 - iOS 12 Golden Master, TestFlight 2.3.8 (7106) - Possibly related to https://trello.com/c/TOZBabvu
+
+Pascal#0929 - Bug Bot on 2018-09-12T20:35:32.636Z
+
+
+### minor - Clayton on 2018-09-20T00:25:53.680Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-09-20T00:26:01.177Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:08.818Z
+
+
+### Can reproduce.
+Iphone 11 pro, ios 13.3.1,  discord 13.0
+
+tonineXtalliya#0107 - Bug Bot on 2020-03-10T07:37:40.603Z
+
+
+### Unarchived by Bug Bot on 2020-03-10T08:00:06.336Z
+
+
+### Archived by Bug Bot on 2020-04-12T17:00:05.864Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,66 @@
+Discord errored out and won't launch, also stays in system tray. (https://trello.com/c/5Qj6q7Bs)
+
+None
+
+Created: 2017-03-07T06:50:58.503Z
+Latest Update: 2017-09-29T19:21:56.018Z
+
+Reported by CyberRonin#5517
+
+####Steps to reproduce: 
+- Try to fullscreen a YouTube video when it's loading -If it doesn't do it on the first go, I found that pausing/playing and trying to toggle fullscreen can get it to reproduce. 
+
+####Expected result:
+  The YouTube video properly displaying in fullscreen  
+
+####Actual result:
+  Discord froze, so I ended the process. I then deleted `/tmp/discord.sock` for it to work again. After deleting `/tmp/discord.sock` it still remains in the system tray. 
+####System settings:
+ Linux Mint 18.1 Cinnamon 64-bit Discord Version - Newest Release (non Canary) .deb http://i.imgur.com/idNgmAX.png http://i.imgur.com/eY1b62w.png http://i.imgur.com/Bhn5tDC.png
+
+1839
+
+Card Log
+========
+### Added by Jared on 2017-03-07T06:50:58.503Z
+
+
+### Can reproduce.
+Arch 0.15. this bug was talked about in linux-general, and we discovered that it only occours when using hardware accel
+
+mralext20#8975 - Jared on 2017-03-07T06:50:59.222Z
+
+
+### Can reproduce.
+Ubuntu 16.04, Latest discord canary (can't get version number sorry 😐)
+
+nullpixel#0012 - Jared on 2017-03-07T06:51:01.089Z
+
+
+### Can reproduce.
+Ubuntu, latest non-canary
+
+GerdSattler#3221 - Jared on 2017-03-07T06:51:03.946Z
+
+
+### http://imgur.com/eY1b62w - http://imgur.com/eY1b62w added by Jared on 2017-03-07T06:51:14.036Z
+
+
+### http://imgur.com/Bhn5tDC - http://imgur.com/Bhn5tDC added by Jared on 2017-03-07T06:51:14.061Z
+
+
+### http://imgur.com/idNgmAX - http://imgur.com/idNgmAX added by Jared on 2017-03-07T06:51:14.098Z
+
+
+### Cannot reproduce, canary build 5085 Mint 17. - Mike Nisbet on 2017-09-29T19:21:42.757Z
+
+
+### Moved from User Reported to Claimed Fixed by Mike Nisbet on 2017-09-29T19:21:55.991Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

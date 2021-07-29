@@ -1,0 +1,83 @@
+[Archived] Able to set server pictures smaller than the required minimum (https://trello.com/c/M6CPh836)
+
+None
+
+Created: 2017-04-21T02:12:56.880Z
+Latest Update: 2017-10-17T21:08:26.392Z
+
+Reported by Immotay#2748
+
+####Steps to reproduce: 
+- Upload a picture smaller than 128² (I did it with 16x16 icons) 
+- Click either Save Changes or Reset 
+
+####Expected result:
+ if you click Save, it should display an error as the image is smaller than it should. If you click reset it should revert back to the old picture 
+####Actual result:
+ When clicking Save nothing changes. And when clicking Reset it doesnt change your picture back to the old one, leaving you with a low res server icon. 
+####System settings:
+ Windows 10 x64 & Canary
+
+1124
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-21T02:12:56.880Z
+
+
+### Can reproduce.
+Latest canary
+
+JBYoshi#5551 - Bug Bot on 2017-04-21T02:12:57.378Z
+
+
+### Can reproduce.
+Can repro, latest canary win10 x64
+
+Mippy | Discord BH#1483 - Bug Bot on 2017-04-21T02:12:59.422Z
+
+
+### Can reproduce.
+Windows 10 Home (x64), Latest Canary
+
+Skyllful#8516 - Bug Bot on 2017-04-21T02:13:01.410Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58f96aa81eecf1c93bd0a23b/dc379d4950eb0c81b989e3e1cae9782c/unknown.png added by Bug Bot on 2017-04-21T02:13:12.603Z
+
+
+### The save changes no longer saves them. If you don't press reset you can't get out of the settings screen even if the picture is of the correct size
+
+LetsPlayNintendoITA#0167 - Bug Bot on 2017-04-21T02:28:48.541Z
+
+
+### Can reproduce.
+Canary
+
+sladeiam#0642 - Bug Bot on 2017-04-21T03:12:16.970Z
+
+
+### Can reproduce.
+8.1 canary
+
+LetsPlayNintendoITA#0167 - Bug Bot on 2017-04-21T03:16:35.012Z
+
+
+### This isn't a bug, it's bad messaging.  We don't mean "the smallest image you can upload is 128x128", we mean that any image smaller than that is going to be upscaled to 128x128. NAB. - Jared on 2017-04-21T17:32:24.619Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2017-04-21T17:32:29.842Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:08:25.530Z
+
+
+### Archived by Jared on 2017-10-17T21:08:26.395Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

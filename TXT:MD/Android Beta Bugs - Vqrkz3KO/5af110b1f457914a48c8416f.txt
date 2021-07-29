@@ -1,0 +1,96 @@
+[Archived] Lazy Guild Members List is on wrong server (https://trello.com/c/gZOozxyP)
+
+None
+
+Created: 2018-05-08T02:51:29.225Z
+Latest Update: 2018-07-06T21:18:00.091Z
+
+Reported by Okori#0902
+
+####Steps to reproduce:
+- be in a lazy guild server 
+- opens members list that is unloaded 
+- wait till it loads close it 
+- go to another channel in the lazy guild 
+- opens members list that is unloaded 
+- wait till it loads 
+- close it 
+- go to a different server without lazy guild and opens members list
+
+####Expected result:
+the correct members list
+####Actual result:
+it's the wrong members list
+####Client settings:
+Discord 6.6.2
+####System settings:
+Kyocera Hydro Wave Android 5.1
+
+12180
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-08T02:51:29.225Z
+
+
+### Okori#0902 - https://youtu.be/a-stxysHhNU added by Bug Bot on 2018-05-08T02:51:31.929Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 6.6.2 -- The Lazy Guild's list must not be cached. They also appear to be merging somehow.
+
+webhp#1337 - Bug Bot on 2018-05-08T02:51:36.799Z
+
+
+### Can reproduce.
+Can reproduce, OnePlus 2, Android 6.0.1, Discord Alpha 6.6.2 (662)
+
+Marshadow#5095 - Bug Bot on 2018-05-08T02:51:41.903Z
+
+
+### Can reproduce.
+CR, K20 V Android 7.0, Discord Alpha 6.6.2
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-05-08T02:51:46.914Z
+
+
+### Can reproduce.
+Can reproduce, the two guilds merge and just looks extremely weird ~ Samsung Galaxy J7 Prime ~ Android 7.0 Nougat ~ Discord Alpha 6.6.2
+
+DefinitelyNotLava#9562 - Bug Bot on 2018-05-08T06:28:53.668Z
+
+
+### Can reproduce.
+Discord seems to crash upon scrolling down the member list too far. Sony Xperia G3311, Android 7.0, Discord 6.6.3
+
+Hyper Dragon#8369 - Bug Bot on 2018-05-08T09:08:47.993Z
+
+
+### You can also repro by - Load a non-lazy channel's members list - Switch to a lazy guild - Load part of its members list - Switch back to the first channel. Also, Discord will crash if you scroll over the first channel's member list length
+
+DefinitelyNotLava#9562 - Bug Bot on 2018-05-08T15:04:57.937Z
+
+
+### Moved from User Reported Bugs to Lazy Guild Issues by Tarek on 2018-05-08T17:43:58.187Z
+
+
+### Tested on Android Alpha 6.6.4:
+
+I can no longer reproduce this myself, whatever variant of this I tried that worked for me in 6.6.3 doesn't reproduce it for me anymore now. - Alexander (DJScias) on 2018-05-09T01:33:02.800Z
+
+
+### Moved from Lazy Guild Issues to Claimed Fixed, needs Verification by Andy Garron on 2018-05-09T05:17:31.789Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:17:58.927Z
+
+
+### Archived by Jared on 2018-07-06T21:18:00.093Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

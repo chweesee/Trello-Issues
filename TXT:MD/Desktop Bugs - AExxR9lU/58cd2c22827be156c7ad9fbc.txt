@@ -1,0 +1,78 @@
+[Archived] Messages glitch out in the client when using mentions (https://trello.com/c/jubvWZF0)
+
+None
+
+Created: 2017-03-18T12:46:26.954Z
+Latest Update: 2017-10-17T21:07:44.516Z
+
+Reported by Feierwoerx#9761
+
+####Steps to reproduce: 
+- Make a message that has almost or exactly 2000 characters (Character Limit) and include a mention of a channel or user in it. Example: "BlaBla [...] Bla#my-channel" 
+- Send it to any discord channel (Make sure the channel/user exists) 
+- Enjoy the redness 
+
+####Expected result:
+ The message appears or you get an error message that it did not work 
+####Actual result:
+ The message turns red and you do not get an error message. This is probably because Discord will interpret your #my-channel mention as <#my-channel-id> making it way longer, longer than 2000 chars. Because of that it won't send. 
+####System settings:
+ Linux Chrome Web App
+
+2050
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-18T12:46:26.954Z
+
+
+### Can reproduce.
+Windows 7, Canary
+
+3spooky5u#1000 - Bug Bot on 2017-03-18T12:46:27.544Z
+
+
+### Can reproduce.
+Arch Linux, Canary
+
+Kurai#1637 - Bug Bot on 2017-03-18T12:46:29.562Z
+
+
+### Can reproduce.
+the text should never be sent if it is more than 2000 characters
+
+Melroy#5344 - Bug Bot on 2017-03-18T12:46:31.601Z
+
+
+### the text should never be sent if it is more than 2000 characters
+
+Melroy#5344 - Bug Bot on 2017-03-18T12:47:03.404Z
+
+
+### Kurai#1637 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58cd2c22827be156c7ad9fbc/c6f1e95e0dcb99b542e782b4100dbf3d/uPKwyNW.png added by Bug Bot on 2017-03-18T12:53:32.442Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary
+
+Erlite#2215 - Bug Bot on 2017-03-20T11:23:08.119Z
+
+
+### I swear I commented on this already. Weird. Anyway, the message is over 2000 characters because things like #general are sent through the server as <#394230492432893094> or whatever. Not a bug. - Jared on 2017-03-21T21:53:52.344Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2017-03-21T21:53:55.656Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:07:42.991Z
+
+
+### Archived by Jared on 2017-10-17T21:07:44.518Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

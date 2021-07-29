@@ -1,0 +1,67 @@
+[Archived] emotes like \:P won't be translated if followed by line breaker (https://trello.com/c/Eeuu6EPA)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-26T17:01:55.652Z
+Latest Update: 2018-07-11T22:03:02.859Z
+
+Reported by ks#0908
+
+####Steps to reproduce:
+- type in emoji such as \:P 
+- add line break after it (without space!) 
+- send message
+
+####Expected result:
+emote should be translated to twemoji
+####Actual result:
+emote stays in text variant
+####Client settings:
+canary 9959
+####System settings:
+windows 10 x64 build 1709
+
+8161
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-26T17:01:55.652Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T17:02:03.039Z
+
+
+### Can reproduce.
+There has to be text after the line break for this bug to work, Discord Canary Build 9959, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-01-26T17:02:08.074Z
+
+
+### Can reproduce.
+CR, MacBook Pro (late 2013), macOS  Sierra 10.12.1, Discord Canary build 9959
+
+JustGamer#9787 - Bug Bot on 2018-01-26T17:02:13.034Z
+
+
+### Verified.  - Clayton on 2018-01-30T23:52:20.171Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-30T23:52:26.752Z
+
+
+### Dupe of https://trello.com/c/e5WSWyIh/56-text-that-would-normally-would-be-autoreplaced-with-an-emoji-wont-if-at-the-end-of-a-line-before-a-new-line - Jared on 2018-07-11T22:02:59.632Z
+
+
+### Archived by Jared on 2018-07-11T22:03:02.862Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

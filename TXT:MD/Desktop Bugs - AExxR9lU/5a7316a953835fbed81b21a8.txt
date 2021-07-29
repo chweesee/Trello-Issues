@@ -1,0 +1,73 @@
+[Archived] When changing password in user settings, then verifying the process with 2FA. You will receive a 400 (Bad request) (https://trello.com/c/jI6lUXAO)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2018-02-01T13:31:21.124Z
+Latest Update: 2018-10-22T20:18:21.479Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Go to user settings 
+- Change password and verify it with 2FA 
+- Observe the console
+
+####Expected result:
+It should change the password without throwing any errors
+####Actual result:
+It changes password, BUT.. It's still throws a bad request, with the response "Invalid two-factor code"
+####Client settings:
+Discord Canary 0.0.201 (10137)
+####System settings:
+Windows 10 Pro 64-bit (1709)
+
+8342
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-01T13:31:21.124Z
+
+
+### Can reproduce.
+CR Canary 10137 and Stable 10097 Win 10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-02-01T13:31:28.449Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10097
+
+webhp#1337 - Bug Bot on 2018-02-01T13:31:33.490Z
+
+
+### Can reproduce.
+Windows 10 1709 x64, Canary build 10137
+
+AEnterprise#4693 - Bug Bot on 2018-02-01T13:31:38.431Z
+
+
+### Verified.  - Clayton on 2018-02-02T21:23:49.004Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-02T21:23:51.991Z
+
+
+### Can reproduce.
+Windows 10 Home 64-Bit Version 1709
+
+FireController1847#3577 - Bug Bot on 2018-02-16T05:39:55.819Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a7316a953835fbed81b21a8/bd8ee44a52b18231d29cc7191a2f2e94/WhfS2YB.gif added by Bug Bot on 2018-07-14T12:20:59.190Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:21.481Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

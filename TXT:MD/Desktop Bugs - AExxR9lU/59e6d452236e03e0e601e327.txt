@@ -1,0 +1,181 @@
+[Archived] Pin modal is behind pin list (https://trello.com/c/qTRdGovp)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-18T04:10:58.980Z
+Latest Update: 2018-07-06T18:23:49.552Z
+
+Reported by Azrael#9808
+
+####Steps to reproduce:
+- Have "Manage Messages" perm in a server 
+- Pin then unpin a message
+
+####Expected result:
+The pin modal pops to the front making everything behind it darker
+####Actual result:
+The pin modal pops but it's covered by the pin list, the pin list also doesn't get darker
+####Client settings:
+Canary Build 6008
+####System settings:
+Windows 10 Pro x64
+
+5525
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-18T04:10:58.980Z
+
+
+### Azrael#9808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59e6d452236e03e0e601e327/603588a81fce620db351398f8c223b71/unknown.png added by Bug Bot on 2017-10-18T04:11:02.271Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary 0.0.165 (6008)
+
+Ten 🎃#1723 - Bug Bot on 2017-10-18T04:11:06.449Z
+
+
+### Can reproduce.
+Windows 10 + Canary 0.0.165
+
+Oasis#4730 - Bug Bot on 2017-10-18T04:11:11.483Z
+
+
+### Can reproduce.
+Custom Built PC, Windows 10 Professional x64, Discord Canary 0.0.165 (6008)
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-18T04:11:16.456Z
+
+
+### Can reproduce.
+Win7 Pro x64 Canary 0.0.165
+
+Ashdoll ♫#0988 - Bug Bot on 2017-10-18T06:28:32.813Z
+
+
+### Verified.  - Clayton on 2017-10-18T07:48:43.632Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-18T07:48:50.250Z
+
+
+### This looks related to zindex refactor. - Jake Heinz on 2017-10-22T02:16:44.971Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jake Heinz on 2017-10-22T02:16:50.838Z
+
+
+### Can't reproduce.
+Got fixed with latest update. MacBook Pro 13" (2016), macOS High Sierra 10.13, Discord Canary 0.0.156 (Build: 6174)
+
+Pascal#0929 - Bug Bot on 2017-10-23T08:54:37.806Z
+
+
+### Can no longer reproduce. Win 10 x64 Fall Creator's Canary Build 6190 - Mike Nisbet on 2017-10-23T12:32:44.208Z
+
+
+### Moved from Next up for investigation to Claimed Fixed, needs Verification by Mike Nisbet on 2017-10-23T12:32:49.600Z
+
+
+### Can reproduce on build 6880, moving back. - Mike Nisbet on 2017-11-06T19:26:01.559Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Mike Nisbet on 2017-11-06T19:26:06.960Z
+
+
+### Can reproduce.
+Windows 10 x64 1709, [BUILD INFO] Release Channel: canary, Build Number: 9070, Version Hash: f546e8dff486ff50228e2ae54d8502fbfc9ba766
+
+Dunciboy#2559 - Bug Bot on 2017-12-26T00:29:59.839Z
+
+
+### Can reproduce.
+macOS High Sierra, 10.13.2. Discord Build Number: 9072, Discord Version: 0.0.249
+
+perryprog#9657 - Bug Bot on 2017-12-26T00:30:21.543Z
+
+
+### Dunciboy#2559 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59e6d452236e03e0e601e327/bf593a04c92dd8002b291628c5101122/unknown.png added by Bug Bot on 2017-12-26T00:33:19.606Z
+
+
+### Can reproduce.
+Ubuntu 17.10 − Discord Canary, Build: 9280 − If there are a lot of pins it *can* block the "unpin" button
+
+Alkali Metal#7806 - Bug Bot on 2018-01-07T06:17:34.776Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.2, Discord Canary 0.0.185 (Build: 9405)
+
+Pascal#0929 - Bug Bot on 2018-01-10T12:01:25.835Z
+
+
+### Cannot reproduce anymore, Canary Build 0.0.45 9405 on Linux Ubuntu 16.04.2, moving to Claimed fixed.  - Tarek on 2018-01-10T12:10:57.610Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-10T12:11:03.761Z
+
+
+### This seems to be happening again on canary 9959, but only on small screens. Or you can resize your screen to a bit smaller and it will occur again.. Moving back to verified bugs. - Tarek on 2018-01-26T06:50:14.632Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Tarek on 2018-01-26T06:50:21.861Z
+
+
+### I can no longer reproduce, the pin modal is not covered by the pin list when unpinning the message. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T11:22:53.135Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-28T11:22:57.158Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.185 (Build: 10018) | This still happens sometimes, not sure what are the best repro steps for it
+
+Pascal#0929 - Bug Bot on 2018-01-29T12:30:39.361Z
+
+
+### Can reproduce again, Discord Canary 0.0.202 10874 on Windows 10 Pro 64-bit (1709). Moving to verified bugs again.  - Tarek on 2018-02-16T08:15:54.407Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Tarek on 2018-02-16T08:16:00.354Z
+
+
+### I can't reproduce this and the STR are not very clear. Assuming I did everything right, I'm moving this to Verified Fixed. - Jared on 2018-03-22T18:29:30.256Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-22T18:29:35.078Z
+
+
+### Can reproduce this as of Canary build 15268. Win10 x64, 1803 - Mike Nisbet on 2018-05-15T17:50:38.366Z
+
+
+### Moved from Verified Fixed to Reopened by Mike Nisbet on 2018-05-15T17:50:55.598Z
+
+
+### Moved from Reopened to CSS Chunking by Mike Nisbet on 2018-05-15T18:26:20.740Z
+
+
+### This happens to all sorts of modal as of build 15268, per Mike. - Alexander (DJScias) on 2018-05-15T18:52:26.415Z
+
+
+### Cannot reproduce anymore, Discord Canary 0.0.208 (15301) on Windows 10 Pro 64-bit (1803). Moving to claimed fixed. - Tarek on 2018-05-16T04:17:08.724Z
+
+
+### Moved from CSS Chunking to Claimed Fixed, needs Verification by Tarek on 2018-05-16T04:17:12.876Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:23:48.482Z
+
+
+### Archived by Jared on 2018-07-06T18:23:49.557Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

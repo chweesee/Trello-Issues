@@ -1,0 +1,86 @@
+[Archived] When two messages are sent almost simultaneously with less than ~30 milliseconds of delay, the messages seem to be displayed in a random order (or possibly alphabetically with the message content, not sure) (https://trello.com/c/qJAwqqZK)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-10-23T12:06:50.538Z
+Latest Update: 2017-12-09T08:56:15.244Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- There are many ways to reproduce, but I think the easiest is to find a bot with a really fast response time, and that introduces a ping command. A fast internet in terms of ping is also recommended. 
+- Go to a channel where you have perms to send messages and where the bot is operating 
+- Run the ping command several times, and pay more attention to those which display a response time < 30 ms
+
+####Expected result:
+All messages should be sorted by timestamp with a precision of 1 millisecond
+####Actual result:
+At random times, the response message sent by the bot is displayed above your message containing the command
+####Client settings:
+Discord Alpha 5.4.3
+####System settings:
+Huawei Mate 9 Android 7.0
+
+5683
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-23T12:06:50.538Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59eddb5afe609f8d3b0162b3/696e15d03368bdfd236c4569e3084881/IMG_20171023_125702.png added by Bug Bot on 2017-10-23T12:06:53.256Z
+
+
+### Can reproduce.
+repro ; Android 7.0, Huawei p8 lite 2017,  Alpha 5.4.3
+
+Mathéo ~ fujh🎃fn#0878 - Bug Bot on 2017-10-23T12:06:57.907Z
+
+
+### Can reproduce.
+CR lg xpower 6.0.1 on alpha 5.4.3
+
+ks0908#8526 - Bug Bot on 2017-10-23T12:07:02.912Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 5.4.3
+
+Okori#0902 - Bug Bot on 2017-10-23T12:07:07.896Z
+
+
+### Is this a problem just with the Android app or discord in general? - Jeff Cailteux on 2017-10-23T17:46:58.130Z
+
+
+### On desktop it does not happen, however if you view the channel on Desktop and Android at the same time, you can see that messages are displayed in the right order on Desktop but not on Android. And if you do Ctrl + R, the wrong order will finally be displayed on Desktop as well
+
+Alex1304#9704 - Bug Bot on 2017-10-23T18:10:44.269Z
+
+
+### It sounds like the ordering from the backend is wrong rather the clients. - Jeff Cailteux on 2017-10-23T18:32:26.273Z
+
+
+### I observed this bug on Android and I couldn't reproduce on Desktop first (I noticed the Ctrl+R thingy afterwards). If you find out that it's really a backend issue and not from the Android client, then I'm sorry :/
+
+Alex1304#9704 - Bug Bot on 2017-10-23T19:05:22.423Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-11-07T18:20:19.568Z
+
+
+### This is not a bug. They're displayed in the order they resolve. - Jared on 2017-11-07T18:20:31.153Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-09T08:56:11.775Z
+
+
+### Archived by Alexandru Todea on 2017-12-09T08:56:15.247Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

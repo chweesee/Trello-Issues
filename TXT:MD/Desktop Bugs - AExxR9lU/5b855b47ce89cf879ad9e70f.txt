@@ -1,0 +1,81 @@
+[Archived] After connecting to a call from another location, Discord doesn't turn off webcam properly. (https://trello.com/c/xTZlzWWT)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-08-28T14:25:11.498Z
+Latest Update: 2019-01-11T00:02:46.346Z
+
+Reported by Steets#0001
+
+####Steps to reproduce:
+- Start up a call 
+- Open Discord on another device or in another window 
+- Connect to the same call
+
+####Expected result:
+Discord should recognize that you're no longer in the call on that device and turn off the webcam appropriately.
+####Actual result:
+Discord fails to turn off the webcam, leaving it and the activity light on.
+####Client settings:
+Stable 22658
+####System settings:
+Windows (1709 Home and 1803 Pro)
+
+18538
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-28T14:25:11.498Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 1803, Discord Stable 22658
+
+Haru😍💜#6660 - Bug Bot on 2018-08-28T14:25:19.037Z
+
+
+### Can reproduce.
+Windows 7 Professional x64, Stable, 22658
+
+Daddy Fallen.exe#1337 - Bug Bot on 2018-08-28T14:25:24.122Z
+
+
+### Can reproduce.
+Windows 10 Pro (64-bit), 17134.228; Desktop Stable, 22658
+
+Iffabled#0001 - Bug Bot on 2018-08-28T14:25:29.010Z
+
+
+### verified, win 10, canary 22791 - Clayton on 2018-08-30T22:42:13.170Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-30T22:42:18.715Z
+
+
+### It appears this is the API used when disconnecting:
+https://github.com/discordapp/discord/blob/master/discord_app/stores/MediaEngineStore.js#L203-L205
+
+So `setVideoInputDevice` is invoked with the string `'disabled'`
+
+ - John Furrow on 2018-11-13T23:57:11.649Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jozsef Vass on 2018-11-19T21:39:19.480Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jozsef Vass on 2018-11-22T01:43:13.765Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-12-11T03:04:46.316Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:46.349Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

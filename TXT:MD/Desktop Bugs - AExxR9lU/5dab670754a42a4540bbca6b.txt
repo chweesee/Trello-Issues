@@ -1,0 +1,66 @@
+The channel analytics "post" column is empty if the published message does not have a text body. (https://trello.com/c/1bQzIV8J)
+
+None
+
+Created: 2019-10-19T19:41:59.790Z
+Latest Update: 2020-07-16T21:26:05.371Z
+
+Reported by MegaXLR#1337
+
+####Steps to reproduce:
+- Post an embed-only message in an announcement channel 
+- Go to the Analytics page 
+- Observe how the "post" column for that message is empty.
+
+####Expected result:
+I expected it to show the title of the message embed, or if the message only consists of an image, to see a thumbnail
+####Actual result:
+The Post column is empty, leaving the table looking fairly strangely formatted with a big empty space in the middle.
+####Client settings:
+Desktop Canary Build Number: 45867&46096
+####System settings:
+Debian 10 GNU/Linux
+
+44497
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-19T19:41:59.790Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 47521
+
+Alipoodle#5025 - Bug Bot on 2019-10-19T19:42:07.577Z
+
+
+### Can reproduce.
+CR; Windows 10 Enterprise 15063
+
+AlexejheroYTB#1636 - Bug Bot on 2019-10-19T19:42:12.517Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro, Canary 47630
+
+Action Potential#6862 - Bug Bot on 2019-10-19T19:42:17.528Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 47630 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-20T04:29:31.775Z
+
+
+### Can reproduce.
+CR; macOS 10.13.6, Canary 47630
+
+Leaf#0001 - Bug Bot on 2019-10-20T13:35:56.218Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,94 @@
+[Archived] In Channel Settings, Permissions, Add a Member, sometimes selecting a member causes the channel name to be pushed to the next line, even though there is plenty of room (https://trello.com/c/8u7xQRpV)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-10-19T04:23:22.512Z
+Latest Update: 2018-11-19T03:30:03.208Z
+
+Reported by FoxyKero#9941
+
+####Steps to reproduce:
+- Go to Channel Settings 
+- Go to Permissions 
+- Click Add a Member 
+- Click a member 
+- Observe the channel name in the top right
+
+####Expected result:
+It should be in one line
+####Actual result:
+It is in two lines even though there is plenty of space
+####Client settings:
+Alpha 7.7.5 (775)
+####System settings:
+Samsung Galaxy J7 running Android 8.1.0 (Oreo)
+
+21632
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-19T04:23:22.512Z
+
+
+### FoxyKero#9941 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bc95c3a61a4a4850dfdcda7/779dd3920e9d63a5456fd598a779e001/20181018_205356.jpg added by Bug Bot on 2018-10-19T04:23:24.963Z
+
+
+### Can reproduce.
+I can reproduce this on LG Fortune but not on Samsung Galaxy Tab A. I am sure this bug report depends on the screen size and the length of the channel name. LG Fortune, Android 6.0.1 and Samsung Galaxy Tab A, Android 7.1.1 - Discord Alpha 7.7.5
+
+Hole#0001 - Bug Bot on 2018-10-19T04:23:29.919Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord Alpha 7.7.5 | Seems to happen when the channel name is over 8 characters
+
+Bencey_#8587 - Bug Bot on 2018-10-19T04:23:35.045Z
+
+
+### Can reproduce.
+LG Stlyo 2 Android 7.0.0 Discord 7.6.9 | appears to happen with any channel name over 7 characters
+
+FPDrεας#4133 - Bug Bot on 2018-10-19T04:23:40.441Z
+
+
+### Can't reproduce.
+Cannot reproduce seems fine on me. It can happen in other sizes of other models. Samsung Galaxy S7, Anroid 8.0
+0 , Discord alpha 7.5.5
+
+Toasty#9566 - Bug Bot on 2018-10-19T11:04:32.103Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.7.5
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-19T13:55:56.634Z
+
+
+### Can reproduce.
+Samsung  Galaxy A8 (Android: 8.0.0 ↕ Discord: 7.5.5)
+
+c h e l s e a ♥#0030 - Bug Bot on 2018-10-19T15:06:56.733Z
+
+
+### Can reproduce.
+cr, Samsung Galaxy S5 mini, Android 6.0.1, Alpha 775
+
+Nashorn#3450 - Bug Bot on 2018-10-19T16:21:35.827Z
+
+
+### minor - Clayton on 2018-10-20T03:17:51.813Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-20T03:17:58.210Z
+
+
+### Archived by Clayton on 2018-11-19T03:30:03.209Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

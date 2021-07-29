@@ -1,0 +1,85 @@
+[Archived] Editing a message after opening the emoji picker keeps emoji picker active in the background (https://trello.com/c/afVokiOH)
+
+P3 - Will be fixed eventually
+
+Created: 2018-11-27T03:37:46.316Z
+Latest Update: 2019-01-31T20:00:21.175Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Go into any server 
+- Send a message 
+- Open the emoji picker 
+- Long press your message and select edit 
+- Press either cancel or save 
+- Observe the emoji picker icon 
+- Try to type out an emoji using a colon
+
+####Expected result:
+Emoji picker closes and lets you use the abc keyboard normally
+####Actual result:
+Emoji picker collapses but stays active in the background, letting you type while having the emoji picker limitations
+####Client settings:
+TestFlight 2.4.0 (8921)
+####System settings:
+iPhone 6s iOS 12.1.1 Dev Beta 3
+
+23644
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-27T03:37:46.316Z
+
+
+### Rashaun#8467 - https://youtu.be/hYCt6tXRJqQ added by Bug Bot on 2018-11-27T03:37:48.666Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1 - TestFlight 2.4.0 (8921)
+
+Daffyduck#5364 - Bug Bot on 2018-11-27T03:37:53.614Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1 - - TestFlight (8921)
+
+Solo#0007 - Bug Bot on 2018-11-27T03:37:58.611Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1.1 (dev beta 3) - TestFlight 2.4.0 (8921)
+
+Xylium#5800 - Bug Bot on 2018-11-27T03:38:03.623Z
+
+
+### Can reproduce.
+iPad mini 2. iOS 12. TestFlight 2.4.0
+
+Loquax#2844 - Bug Bot on 2018-11-28T11:53:32.164Z
+
+
+### Can reproduce.
+iPhone 8+ iOS 12.0 TF 8921
+
+Suprnova#0001 - Bug Bot on 2018-11-28T12:19:06.982Z
+
+
+### Can reproduce.
+iPad Air 1, iOS 12.1 TestFlight 2.4.0 (9349)
+
+zapteryx#6161 - Bug Bot on 2018-11-28T19:59:24.767Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2018-12-07T19:00:05.643Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:00:21.186Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

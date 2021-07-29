@@ -1,0 +1,82 @@
+WIN10: Discord forgetting window state on restart (which monitor it has been assigned to). (https://trello.com/c/RKe8zAIY)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-01-19T01:49:19.408Z
+Latest Update: 2020-07-14T12:00:06.109Z
+
+Reported by lindhespoon#5905
+
+####Steps to reproduce:
+- Start app, place at secondary monitor and maximize window 
+- Minimize app to tray by pressing X and re-open (location and size restored correctly) 
+- close/restart program, (size remembered but window defaults to your main monitor).
+
+####Expected result:
+It should remember the size and which monitor to be presented on. Like all other programs I've used (chrome, steam etc).
+####Actual result:
+The discord app window does not save its window state, it defaults to the main monitor after restart.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 30825, Version Hash: d0daca1a90d1d8a50c4f37081b4b58784faaaa4d
+####System settings:
+Windows 10 Pro, version 1709
+
+26350
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-19T01:49:19.408Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803 canary, Build Number: 30945
+
+Spooker#0001 - Bug Bot on 2019-01-19T01:49:27.050Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 1803, Discord Canary 30945
+
+HarpMiner#2734 - Bug Bot on 2019-01-19T01:49:31.964Z
+
+
+### Can reproduce.
+CR, win10, canary 31048
+
+IcyPebbles#5833 - Bug Bot on 2019-01-19T01:49:37.040Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-19T03:24:09.671Z
+
+
+### Can reproduce.
+- Windows 10 Pro x64 (1809) - Canary 31113
+
+Jengas#7777 - Bug Bot on 2019-01-20T11:07:07.676Z
+
+
+### Archived by Bug Bot on 2019-02-19T11:30:04.727Z
+
+
+### Unarchived by Clayton on 2019-06-10T21:00:33.547Z
+
+
+### Archived by Bug Bot on 2019-07-10T21:30:04.696Z
+
+
+### Can reproduce.
+CR, also happen when Ctrl+R; Windows 10 x64 (2004) - Discord Canary 63333
+
+Arnold0#7514 - Bug Bot on 2020-07-14T11:39:33.496Z
+
+
+### Unarchived by Bug Bot on 2020-07-14T12:00:06.074Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

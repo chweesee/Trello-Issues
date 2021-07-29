@@ -1,0 +1,91 @@
+[Archived] Audit log: Markdown formatting for changed channel topic not shown correctly (https://trello.com/c/BK1mgwsD)
+
+P2: Fix can wait a while
+
+Created: 2017-08-15T17:53:29.668Z
+Latest Update: 2017-09-05T16:00:30.976Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Change a channel topic to a text with markdown formatting like bold or italic text 
+- Go to the audit log 
+- See the action for changing channel topic 
+- Click on the action to open the details and see your channel topic
+
+####Expected result:
+Formatting of the changed channel topic event shouldn't be overwritten by the markdown formatting of your channel topic
+####Actual result:
+Formatting of audit log will be overwritten by markdown formatting for you channel topic
+####Client settings:
+Discord Canary 0.0.154
+####System settings:
+macOS Sierra 10.12.6, MacBook Pro (2016)
+
+3268
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-15T17:53:29.668Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599335195d3d6d2a54be83b7/899486b687a2ed779c609f5df6110b81/7mEgyAK.png added by Bug Bot on 2017-08-15T17:53:32.596Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599335195d3d6d2a54be83b7/09bef1a4ad841e795c45826c6874c39f/iooZagZ.png added by Bug Bot on 2017-08-15T17:53:32.652Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Canary 0.0163 and Stable 0.0.298
+
+Killer Miller#1914 - Bug Bot on 2017-08-15T17:53:37.436Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home Creators Update x64, Canary 0.0.163
+
+TTtie#4900 - Bug Bot on 2017-08-15T17:53:42.429Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10, Discord Canary 0.0.163
+
+NdT3#0717 - Bug Bot on 2017-08-15T17:53:47.417Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro
+
+Nelson1348#9190 - Bug Bot on 2017-08-15T17:54:01.383Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163, Windows 10 Pro (Version 1703)
+
+TheRealProcyon 💖#5768 - Bug Bot on 2017-08-15T17:57:21.563Z
+
+
+### Can reproduce.
+Discord Canary 0.0.24-1 on Arch Linux x86_64
+
+Lord GabeN#9378 - Bug Bot on 2017-08-15T21:45:24.850Z
+
+
+### Verified. - Jared on 2017-08-21T20:20:57.614Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T20:21:03.372Z
+
+
+### Dupe of https://trello.com/c/aKpz887k - Mike Nisbet on 2017-09-01T13:49:42.474Z
+
+
+### Archived by Jared on 2017-09-05T16:00:30.979Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

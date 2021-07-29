@@ -1,0 +1,107 @@
+[Archived] Searching with links doesn't generate results (https://trello.com/c/0GcUsMFl)
+
+P3: Will get fixed eventually
+
+Created: 2017-01-05T19:19:27.919Z
+Latest Update: 2018-07-06T17:52:27.533Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce: 
+- Enter a channel with known links (eg twitch.tv) 
+- Search "twitch.tv" (sans quotes) 
+
+####Expected result:
+ The search should find all instances of that link. 
+####Actual result:
+ No results are generated, even when there are links. 
+####System settings:
+ Latest Canary on W10 x64
+
+Card Log
+========
+### Added by Jared on 2017-01-05T19:19:27.919Z
+
+
+### Can reproduce.
+Win10AU, Latest Canary
+
+Mikesky#3097 - Jared on 2017-01-05T19:19:28.392Z
+
+
+### Can reproduce.
+macOS latest canary (4th Jan)
+
+nullpixel#0012 - Jared on 2017-01-05T19:19:28.479Z
+
+
+### twitch_links_no_search.PNG - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/586e9c3f29e43b5c8b4b7679/c2f9b0c91ecfa705ba1063d8bf02c3e0/twitch_links_no_search.PNG added by Jared on 2017-01-05T19:19:43.856Z
+
+
+### This is actually a really weird bug. Searching for "theoblivinator" or "twitch" works, but "twitch.tv" doesn't.  But, Verified. - Jared on 2017-01-05T21:06:05.310Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-05T21:06:08.844Z
+
+
+### Can't reproduce.
+Latest Canary on W10 x64
+
+Charmeh#0295 - Jared on 2017-01-05T21:23:08.260Z
+
+
+### Tested on latest canary as of writing:
+
+I can reproduce this only when the link I'm searching doesn't have `www.` appended to it. Searching for those works just fine with `www.twitch.tv`.
+
+Although it's not wrong to assume that using partial link names like `twitch.tv` should also resolve to `www.twitch.tv` search-wise which is probably where the bug comes from. - Alexander (DJScias) on 2017-04-25T11:21:46.678Z
+
+
+### Can reproduce.
+windows 10 enterprise
+
+Mr. Potato#0118 - Bug Bot on 2017-09-17T12:07:04.833Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T20:57:01.193Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T21:47:28.951Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T22:15:45.714Z
+
+
+### Can't reproduce.
+Canary Build Number 9959, Google Chrome  63.0.3239.132, Windows 10 Home
+
+Xamtheking#2048 - Bug Bot on 2018-01-26T22:35:57.726Z
+
+
+### It does now. Verified Fixed - Jared on 2018-03-21T17:38:37.143Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T17:38:42.541Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:52:25.409Z
+
+
+### Archived by Jared on 2018-07-06T17:52:27.536Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

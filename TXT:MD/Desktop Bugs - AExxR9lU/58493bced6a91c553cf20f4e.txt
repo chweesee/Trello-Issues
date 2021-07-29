@@ -1,0 +1,46 @@
+[Archived] When you try to join a guild and you are already on 100 guilds, you (in the past) got a "Maximum Guilds Reached (100)" message. Now, it acts like the link is expired or invalid, even if it's the guild cap causing the issue. (https://trello.com/c/uF1iLHpA)
+
+P3: Will get fixed eventually
+
+Created: 2016-12-08T10:54:06.979Z
+Latest Update: 2019-10-28T00:16:30.315Z
+
+Reported by EJH2#0245
+
+####Steps to reproduce: 
+- Join 100 guilds. 
+- Attempt to join a valid invite link 
+
+####Expected result:
+ Guild cap message 
+####Actual result:
+ Invalid or Expired link message. Submitted for [ jagrosh ]#5344 (194257036828082176)
+
+Card Log
+========
+### Added by Jared on 2016-12-08T10:54:06.979Z
+
+
+### EJH2#0245 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58493bced6a91c553cf20f4e/a8ead81b504cbce6164847ad2a4372ad/Ik2zqRZ.png added by Jared on 2016-12-08T10:55:55.027Z
+
+
+### Additionally, valid links used to pop up the ✅ bubble, even at 100 servers, and only changed to a ❌ when clicked. Now, they all appear expired.
+
+EJH2#0245 - Jared on 2016-12-08T10:58:19.838Z
+
+
+### I checked with the devs, there never was an appropriate error message, it just errored. There should be an appropriate error message I agree.  But very low priority. - Jared on 2016-12-12T19:43:31.494Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-12T19:43:35.172Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:27.611Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

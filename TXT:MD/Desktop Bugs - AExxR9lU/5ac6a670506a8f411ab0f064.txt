@@ -1,0 +1,84 @@
+[Archived] It's possible to do a Someone Mention even though the Someone Mention is Disabled and there is no User with that name (https://trello.com/c/t67PRzFq)
+
+None
+
+Created: 2018-04-05T22:42:56.126Z
+Latest Update: 2018-05-22T05:56:47.827Z
+
+Reported by Blastoise186#7194
+
+####Steps to reproduce:
+- Create a new Server 
+- Access a Text Channel 
+- Send any message that includes the Someone Mention
+
+####Expected result:
+There should be no trace of a Mention because the Someone Mention has been Disabled and there is no User called Someone
+####Actual result:
+The Someone Mention appears as if it is a valid Mention, but does NOT Mention anyone or show the Rainbow
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 13185, Version Hash: 7a6009ff7fb1d1c9d86a43a0e1829d40a3722b55
+####System settings:
+Windows 10 Home 1709 64-Bit Build 16299.334
+
+10335
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-05T22:42:56.126Z
+
+
+### Can reproduce.
+can reproduce on Windows 10 Home x64 1709 build 16299.309, Discord Canary 13176
+
+cole#6969 - Bug Bot on 2018-04-05T22:43:03.626Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 13176
+
+webhp#1337 - Bug Bot on 2018-04-05T22:43:08.702Z
+
+
+### Can reproduce.
+CR, Windows Home x64, Canary 13176
+
+TBNRShadowPlayz#1468 - Bug Bot on 2018-04-05T22:43:13.672Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit
+
+GamesForDays#1985 - Bug Bot on 2018-04-05T23:01:55.393Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1709 Build 16299 Release Channel: canary, Build Number: 13154, Version Hash: d5eb173b115ecfd5e40ed5e67e52c2861747830b
+
+TechPanda#0001 - Bug Bot on 2018-04-06T00:10:38.497Z
+
+
+### not a bug, we just haven't reverted the code that ran the "@someone" experiment. - Jake Heinz on 2018-04-06T08:00:04.144Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jake Heinz on 2018-04-06T08:00:10.157Z
+
+
+### Can reproduce.
+Macbook Pro 13" (2017) - macOS High Sierra 10.13.3 (17D47) - Canary Build 13313
+
+0_3#5964 - Bug Bot on 2018-04-07T05:11:37.446Z
+
+
+### Archived due to being in the NAB list for over a month without any further action. - Tarek on 2018-05-22T05:56:46.134Z
+
+
+### Archived by Tarek on 2018-05-22T05:56:47.830Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

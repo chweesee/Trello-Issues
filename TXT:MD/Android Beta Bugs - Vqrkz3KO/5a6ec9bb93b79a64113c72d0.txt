@@ -1,0 +1,105 @@
+[Archived] [Android 7+, seems specific to some devices, can still repro as of 6.1.9] Splitting your screen on channel settings allows you to edit the channel name and topic, regardless of your permissions (https://trello.com/c/8e5AR8gw)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-01-29T07:14:03.191Z
+Latest Update: 2018-03-03T04:49:11.670Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a server where you don't have Manage channels permission 
+- Pick any channel and go to settings 
+- Split your screen
+
+####Expected result:
+Nothing special has to be noticed
+####Actual result:
+You can now edit the channel name and the channel topic. Fortunately when you hit Save it says Missing Permissions
+####Client settings:
+Discord Alpha 6.1.9 (noticed on 6.1.6)
+####System settings:
+Huawei Mate 9 Android 7.0
+
+8271
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-29T07:14:03.191Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a6ec9bb93b79a64113c72d0/b03ca422150c9452191dca5731c9754d/IMG_20180128_115659.png added by Bug Bot on 2018-01-29T07:14:05.593Z
+
+
+### Can reproduce.
+CR, OnePlus 5T, Android 7.1.1, Discord 6.1.9
+
+snissel#0001 - Bug Bot on 2018-01-29T07:14:10.479Z
+
+
+### Can reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.9
+
+mrkirby153#7840 - Bug Bot on 2018-01-29T07:14:15.488Z
+
+
+### Can reproduce.
+CR, Android 7.0.0, Discord 6.1.7
+
+StartForKillerMC#8184 - Bug Bot on 2018-01-29T07:14:20.489Z
+
+
+### Can reproduce.
+!storeinfo
+
+casungo#2990 - Bug Bot on 2018-01-29T08:25:56.349Z
+
+
+### Can reproduce.
+!storeinfo Samsung Galaxy S5 Mini Modded w/LineageOS 14.1 Discord Alpha 6.1.7
+
+casungo#2990 - Bug Bot on 2018-01-29T08:27:10.066Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 Mini Modded w/LineageOS 14.1 Discord Alpha 6.1.7
+
+casungo#2990 - Bug Bot on 2018-01-29T08:27:33.975Z
+
+
+### Cannot reproduce.  - Clayton on 2018-01-30T22:37:21.142Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-01-30T22:37:24.477Z
+
+
+### Can't reproduce.
+OnePlus 3t, Android 8.0.0, Discord 6.1.7
+
+Lulucmy#7087 - Bug Bot on 2018-02-01T06:13:16.326Z
+
+
+### Can reproduce.
+Sony Xperia XA1 Ultra, Android 7.0 , discord 6.1.7
+
+Luka2810#4006 - Bug Bot on 2018-02-01T16:39:23.186Z
+
+
+### I can still repro this as written, I just don't know which category of devices is affected. Seems reproducible on Huawei, Xiaomi and Sony devices so far
+
+Alex1304#9704 - Bug Bot on 2018-02-01T16:57:12.813Z
+
+
+### Archiving as there has been no activity on this card for over a month. - Chris Cox on 2018-03-03T04:49:10.689Z
+
+
+### Archived by Chris Cox on 2018-03-03T04:49:11.673Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,71 @@
+[Archived] [SwiftKey keyboard specific] When the textfield has extra spaces in Add a Friend screen, each tap on the Enter key of the keyboard will erase one space (https://trello.com/c/diKjYJqC)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-16T02:03:33.905Z
+Latest Update: 2018-09-29T22:30:02.383Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Add a Friend screen 
+- Write something then add extra spaces (e.g `"xxx          "` without quotes) 
+- Tap on Enter key on your keyboard. Make sure you're using SwiftKey keyboard (it's the default one installed on Huawei devices, also downloadable from Play store). I was unable to reproduce with GBoard 
+- Repeat step above a few times
+
+####Expected result:
+Nothing should happen besides displaying the invalid message
+####Actual result:
+A space is removed everytime you hit the Enter key of your keyboard
+####Client settings:
+Discord Alpha 7.3.1
+####System settings:
+Huawei Mate 9 Android 8.0
+
+17604
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-16T02:03:33.905Z
+
+
+### Can reproduce.
+can reproduce. Huawei Honor 9 Lite, Oreo 8.0.0 • Discord Alpha 732
+
+MakiTheLegend#5027 - Bug Bot on 2018-08-16T02:03:41.236Z
+
+
+### Can reproduce.
+Can reproduce - OnePlus5T - Android Oreo 8.1.0 (Oxygen OS) - Discord Alpha 731
+
+aosync#3115 - Bug Bot on 2018-08-16T02:03:46.181Z
+
+
+### Can reproduce.
+Can Reproduce | - a Alpha 7.3.2 (732)
+
+Lost#0001 - Bug Bot on 2018-08-16T02:03:51.288Z
+
+
+### Can reproduce.
+CR, Oneplus 3, 8.1.0, SwiftKey, Alpha 7.3.2
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-16T13:37:35.173Z
+
+
+### device specific, minor - Clayton on 2018-08-30T22:06:34.861Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-30T22:06:38.261Z
+
+
+### Archived by Clayton on 2018-09-29T22:30:02.385Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

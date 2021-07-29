@@ -1,0 +1,75 @@
+when in overlay and try to give roles to a member, the list doesn't show all the roles, sometimes shows roles that are above your higher role and you can't remove roles from a member if that role doesn't appear in the list (https://trello.com/c/cEeof7UI)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-08-21T17:28:29.814Z
+Latest Update: 2019-04-24T00:53:10.720Z
+
+Reported by Mr. Black#5859
+
+####Steps to reproduce:
+- in a game (tested in osu, minecraft, rayman origins and TBOIA+) open the overlay 
+- make sure that you are in a server you didn't create, you don't own and has over 12 roles 
+- you need to have either admin perms or manage roles perms 
+- make sure to not update nor change perms of any role while the game is open 
+- click on a user that has only 1 or 2 roles 
+- click "+" to add more roles 
+- observe how many roles there are in the list and wich ones 
+- close the game, go to the same server and repeat steps 5, 6 and 7 with the same member
+
+####Expected result:
+you should see the same roles in the list in both cases
+####Actual result:
+in overlay, some roles are missing, sometimes you can't removes some roles from the member (depends of which roles has someone) and sometimes roles that are above your higher role will appear
+####Client settings:
+Canary 22283
+####System settings:
+Win 10 home x64
+
+18072
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-21T17:28:29.814Z
+
+
+### Mr. Black#5859 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b7c4bbd6e5561117e59ffdd/d9458b04457ce415d51a892dc27d3d0c/tEjClqw.png added by Bug Bot on 2018-08-21T17:28:32.580Z
+
+
+### Mr. Black#5859 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b7c4bbd6e5561117e59ffdd/055eeaca269080a3b2c563a64f1ede98/z9nbyaR.png added by Bug Bot on 2018-08-21T17:28:32.641Z
+
+
+### Can reproduce.
+CR, works with more than 2 roles too, win 10 pro, canary 22283
+
+xXLeoXxOne#5292 - Bug Bot on 2018-08-21T17:28:37.651Z
+
+
+### Can reproduce.
+Can Reproduce, Win10 Pro x64 1803, Canary 22283
+
+Mikesky#0001 - Bug Bot on 2018-08-21T17:28:42.463Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home x64  1804, Canary 22283
+
+nop#4961 - Bug Bot on 2018-08-21T17:28:47.376Z
+
+
+### Can reproduce.
+CR on Windows 10 Home; Canary Build 22283
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-21T18:57:40.560Z
+
+
+### verified, win 10, canary 22791 - Clayton on 2018-08-30T22:24:05.964Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

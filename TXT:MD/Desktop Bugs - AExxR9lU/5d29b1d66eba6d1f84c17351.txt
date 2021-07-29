@@ -1,0 +1,184 @@
+[Archived] Emoji-Conversion isn't working in front of a code block (https://trello.com/c/GYexRsKD)
+
+None
+
+Created: 2019-07-13T10:26:30.449Z
+Latest Update: 2019-08-14T02:36:02.656Z
+
+Reported by Timo#1337
+
+####Steps to reproduce:
+- Check that `Automatically convert emoticons in your messages to emoji` is enabled 
+- Go to any channel you want 
+- Type a message with `:D` in front of a code block (see attachments)
+
+####Expected result:
+The Emoji should be converted to 😄
+####Actual result:
+It stays `:D`
+####Client settings:
+Stable 41168
+####System settings:
+Windows 10 Home
+
+39627
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-13T10:26:30.449Z
+
+
+### Timo#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d29b1d66eba6d1f84c17351/1f68f63d334cf667fa691ef1c1a3441f/g8KmAMl.png added by Bug Bot on 2019-07-13T10:26:33.670Z
+
+
+### Timo#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d29b1d66eba6d1f84c17351/fe51133228f11bd6b544dfbafb7be6b2/KZ1pmsc.png added by Bug Bot on 2019-07-13T10:26:33.709Z
+
+
+### Can reproduce.
+CR; Microsoft Windows 10 Home Version 10.0.17134 Build 17134
+
+Achromatopsium#3999 - Bug Bot on 2019-07-13T10:26:38.263Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1903, Canary; build number: 40824
+
+darwan#2946 - Bug Bot on 2019-07-13T10:26:43.233Z
+
+
+### Can reproduce.
+Windows 10 Pro x64,  Canary 41102
+
+MrWay#0001 - Bug Bot on 2019-07-13T10:26:48.218Z
+
+
+### The issue is in the first line, when you try to put an emoji in the first line then the second line, the emoji will stay in characters and won't be changed.
+
+darwan#2946 - Bug Bot on 2019-07-13T10:27:34.986Z
+
+
+### Can reproduce.
+Can Reproduce Discord Canary 40794, Windows 10 Home, Google Chrome 75.0.3770.90 (Official Build) (64-bits)
+
+Dragonic#0001 - Bug Bot on 2019-07-13T10:28:29.598Z
+
+
+### darwan#2946 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d29b1d66eba6d1f84c17351/03fc9de5f5f2cf9075a3072c12fd3e19/test.png added by Bug Bot on 2019-07-13T10:29:24.118Z
+
+
+### Can reproduce.
+Windows 10 Enterprise 1803 x64, Stable 41168
+
+MiTonder#0001 - Bug Bot on 2019-07-13T12:54:25.588Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10 Home & Student, Host 0.0.246, Canary Build 41168
+
+binchlord#0998 - Bug Bot on 2019-07-13T12:58:09.136Z
+
+
+### Extension of https://trello.com/c/e5WSWyIh
+
+Archiving the ticket. - Pascal on 2019-07-13T13:11:30.912Z
+
+
+### Archived by Pascal on 2019-07-13T13:11:35.078Z
+
+
+### Can reproduce.
+Macbook Air • macOS Mojave 10.14.5 • Canary 41168
+
+Rage#9991 - Bug Bot on 2019-07-13T13:20:30.561Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 41168
+
+AHkhan#9999 - Bug Bot on 2019-07-13T15:24:12.345Z
+
+
+### Can reproduce.
+Windows 10 1903 canary 41168
+
+GlenMerlin#2119 - Bug Bot on 2019-07-13T17:14:11.108Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro // macOS Sierra (10.12.6) //  Discord Canary: 41168
+
+xTeal#7702 - Bug Bot on 2019-07-13T17:42:11.956Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 41168
+
+Jasοn#0001 - Bug Bot on 2019-07-13T20:06:56.135Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary Build 41168
+
+uhKevinMC#1285 - Bug Bot on 2019-07-13T20:48:41.072Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1903 - Canary 41168
+
+anonymous kitten#5379 - Bug Bot on 2019-07-13T21:10:37.512Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 41168
+
+Lily#2624 - Bug Bot on 2019-07-14T04:11:00.075Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (1903), Canary build 41168
+
+ImCreativeJonny#4752 - Bug Bot on 2019-07-14T04:21:00.963Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (1903), Canary build 41168
+
+ImCreativeJonny#4752 - Bug Bot on 2019-07-14T04:25:35.746Z
+
+
+### Can reproduce.
+CR - MacBook Pro (13", 2019), MacOS 10.14.5, Discord Canary Build 41168
+
+maximd#1122 - Bug Bot on 2019-07-14T07:30:29.501Z
+
+
+### Can reproduce.
+Canary 41168, Host 0.0.246, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-14T17:59:34.703Z
+
+
+### Can reproduce.
+Windows 10, canary 41168
+
+laglobul#0001 - Bug Bot on 2019-07-14T22:36:56.679Z
+
+
+### Can reproduce.
+MacOS 10.14.4, Discord Canary Build 41282
+
+Jeffrey#1234 - Bug Bot on 2019-07-17T05:07:09.982Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 43480
+
+charleskimbac#6492 - Bug Bot on 2019-08-14T02:36:02.668Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

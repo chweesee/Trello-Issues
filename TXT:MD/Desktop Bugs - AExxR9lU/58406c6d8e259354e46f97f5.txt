@@ -1,0 +1,108 @@
+[Archived] having extreme amounts of roles tends to lag the list and make it extremely difficult to move them (https://trello.com/c/Rl6ktuHu)
+
+P2: Fix can wait a while
+
+Created: 2016-12-01T18:31:09.721Z
+Latest Update: 2017-12-02T17:15:37.331Z
+
+Reported by MiniorDebry | きつね#7588
+
+####Steps to reproduce: 
+- Have about 100+ roles  
+- Try and sort them 
+
+####Expected result:
+ Roles should move flawlessly and sort correctly 
+####Actual result:
+ Roles take a long time to sort and end up sorting incorrectly when moving them
+
+Card Log
+========
+### Added by Jared on 2016-12-01T18:31:09.721Z
+
+
+### This is Enharmonic#3999's bug report
+
+KockaAdmiralac#9306 - Jared on 2016-12-01T18:35:00.414Z
+
+
+### KockaAdmiralac#9306 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58406c6d8e259354e46f97f5/894e837209b05015f70e541a993671b5/rolesEditingGlitch.gif added by Jared on 2016-12-01T18:36:26.743Z
+
+
+### Can reproduce.
+All clients including Google Chrome, not just on Canary. Occurs for me with less than 100 roles in the server.
+
+Enharmonic#3999 - Jared on 2016-12-01T18:37:11.418Z
+
+
+### Can reproduce.
+iOS 9.3.5 and Win 8.1 x64
+
+MattBSG#9263 - Jared on 2016-12-01T18:41:10.791Z
+
+
+### Verified.  Low priority though. - Jared on 2016-12-01T19:06:02.888Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-01T19:06:09.378Z
+
+
+### Can reproduce.
+macOS Sierra Canary
+
+datitisev#4934 - Jared on 2016-12-01T22:06:10.780Z
+
+
+### Can reproduce.
+Win7/All
+
+highpawn#5717 - Jared on 2016-12-02T14:13:03.225Z
+
+
+### MiniorDebry | きつね#7588 submitted this - Cole Norman on 2016-12-03T05:58:21.528Z
+
+
+### Can reproduce.
+Win 10, Canary
+
+xutesan#1952 - Jared on 2016-12-04T18:19:38.991Z
+
+
+### I think that this bug may be causing incorrect 50013 errors if trying to move roles underneath a locked role 90-95% of the time now, making it extremely frustrating to try and rearrange things.
+
+Enharmonic#3999 - Jared on 2016-12-23T06:48:43.979Z
+
+
+### Enharmonic#3999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58406c6d8e259354e46f97f5/30dad0e67e0cdef31ca8202fa2f5c51d/5716484905.gif added by Jared on 2016-12-23T06:48:53.583Z
+
+
+### Can't reproduce.
+MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-16T18:52:41.690Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T19:11:12.477Z
+
+
+### This screen was removed a long time ago, the lag cannot be reproduced. - Jared on 2017-10-16T20:43:27.196Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-16T20:43:31.011Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:15:36.355Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:15:37.334Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

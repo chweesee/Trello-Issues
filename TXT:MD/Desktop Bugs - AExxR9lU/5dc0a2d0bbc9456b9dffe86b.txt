@@ -1,0 +1,73 @@
+Wrong Content-Type Header Response causes chromium based browsers to download .m4a files with .mp3 extension (https://trello.com/c/6izUQVly)
+
+None
+
+Created: 2019-11-04T22:14:40.345Z
+Latest Update: 2020-07-16T21:26:05.516Z
+
+Reported by DeadPhoenix#8091
+
+####Steps to reproduce:
+- Upload any .m4a file anywhere on discord (sample files can be found on google) 
+- Download the file with a recent chromium browser 
+- note that many servers report the wrong mimetype and thus trigger this behavior, slack for example does report the correct mimetype and does not have this bug
+
+####Expected result:
+The file is supposed to download with the m4a extension. (Content-Type Header audio/mp4)
+####Actual result:
+The file downloads with the mp3 extension. (Content-Type Header audio/mpeg)
+####Client settings:
+Discord Web
+####System settings:
+Version 77.0.3865.120 (Offizieller Build) (64-Bit) - Reproducible on Chromium on Linux aswell
+
+46116
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-04T22:14:40.345Z
+
+
+### Can reproduce.
+Pop!_OS 19.04; stable, Build Number: 47918; Chromium Version 76.0.3809.100; (Also works on Arch linux)
+
+HeavyBlurrySoul#8699 - Bug Bot on 2019-11-04T22:14:47.935Z
+
+
+### Can reproduce.
+Windows 10; Browser Stable 47918; Chrome Dev Version: 79.0.3945.8
+
+npm#1337 - Bug Bot on 2019-11-04T22:14:52.937Z
+
+
+### Can reproduce.
+Windows 10 Home x64: 1903, Canary 48523
+
+Sanjay#0540 - Bug Bot on 2019-11-04T22:14:57.946Z
+
+
+### Can reproduce.
+Chromium Version 78.0.3904.70 (Official Build) snap (64-bit), Ubuntu 16.04, 
+Discord stable 48470
+
+Krish12003#5393 - Bug Bot on 2019-11-04T22:26:54.244Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 48618
+
+Action Potential#6862 - Bug Bot on 2019-11-05T05:35:25.876Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 48618 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-05T18:02:07.405Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,152 @@
+[Archived] Textbox does not collapse after keyboard disappears (https://trello.com/c/ZvwjDT7e)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-06-22T03:53:33.125Z
+Latest Update: 2019-03-26T12:30:27.594Z
+
+Reported by Xeno#0001
+
+####Steps to reproduce:
+- Open the textbox in any channel 
+- Click the search button 
+- Click "Cancel"
+
+####Expected result:
+Textbox should collapse with the keyboard
+####Actual result:
+Only keyboard collapses and textbox remains extended
+####Client settings:
+TestFlight 2.3.4 (5330)
+####System settings:
+iPhone X, iOS 12 (Dev Beta 2)
+
+14491
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-22T03:53:33.125Z
+
+
+### Xeno#0001 - https://youtu.be/XyTebPh4QQo added by Bug Bot on 2018-06-22T03:53:35.575Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 {Dev Beta 2} TestFlight 2.3.4 (5330)
+
+Xylium#1480 - Bug Bot on 2018-06-22T03:53:40.509Z
+
+
+### Can reproduce.
+[CR] iPhone 6S, iOS 10.2.1, TestFlight 2.3.4 (5330)
+
+54D#1357 - Bug Bot on 2018-06-22T03:53:45.477Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 (Dev Beta 2), TestFlight 2.3.4 (5330)
+
+XtraFreckle#8764 - Bug Bot on 2018-06-22T03:53:50.509Z
+
+
+### Can reproduce.
+iPhone 6s Plus (iOS 11.3) - TestFlight 2.3.4
+
+PixelProne#2523 - Bug Bot on 2018-06-22T13:52:43.352Z
+
+
+### verified, ios 9.3.5, testflight 2.3.4 - Clayton on 2018-06-22T22:07:11.758Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-22T22:07:28.750Z
+
+
+### Can reproduce.
+Can reproduce, iPad Air 2 on iOS 11.4. TestFlight 2.3.4 (5330)
+
+ItzTacoTimee#0001 - Bug Bot on 2018-06-24T15:45:36.342Z
+
+
+### As of TestFlight 2.3.4 (5560), the textbox collapses but the keyboard remains open
+
+mouse#0091 - Bug Bot on 2018-07-01T18:42:22.558Z
+
+
+### photo.jpg - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b2c72bdda42e417439c01a5/72c5b28614f9706022b4bf1236d36b7a/photo.jpg added by Ghoul on 2018-07-07T01:26:29.711Z
+
+
+### I checked this bug during the Trello Cleanup Event, and I can still somewhat reproduce as of Discord TestFlight 2.3.4 (5660) on iPhone 8 + running iOS 12 (Dev Beta 3). The message bar does disappear, but the keyboard will remain. So I think this bug is still happening, but partly fixed.
+
+Because of this, I'll leave this ticket to be. You can see the image below. - Ghoul on 2018-07-07T01:28:59.341Z
+
+
+### **Extension to the issue that still happens:**
+- Make sure you have kick or ban members permission
+- Open any channel
+- Click on the message bar so the keyboard opens
+- Long hold a user
+- Click on user settings
+- Select Kick or Ban
+- Open the keyboard again by clicking on the reason field
+- Close it and go back to the chat
+
+Pascal#0929 - Bug Bot on 2018-08-21T17:40:03.804Z
+
+
+### **Another extension to this issue (iPad only)**
+
+- Go to a server
+- Open Discord in Split View mode
+- Open the keyboard in the app that is in Split View mode with Discord
+- If the message input field doesn't rise up, close and reopen the keyboard
+- Swipe left or right in Discord to open member or channel list
+- Close the keyboard
+
+Pascal#0929 - Bug Bot on 2018-08-29T18:52:54.553Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Fanghao on 2018-09-27T00:54:43.826Z
+
+
+### Moved from Claimed Fixed Bugs to Cannot Reproduce by Fanghao on 2018-09-27T00:54:55.967Z
+
+
+### Archived by Tarek on 2019-01-01T23:38:38.326Z
+
+
+### Unarchived by Tarek on 2019-01-02T00:16:34.242Z
+
+
+### Can reproduce.
+With predictive text turned off, the result that I got after following the steps was: the keyboard doesn't hide and the chat bar turns invisible. (Screenshot: https://i.imgur.com/Pz4RfG3.jpg) iPhone 7 Plus, iOS 12.1.3, TestFlight 2.4.3 (10936)
+
+Darkbeast#2997 - Bug Bot on 2019-01-27T19:14:51.217Z
+
+
+### Can reproduce.
+iPhone XS Max iOS 12.2 Beta 1
+
+Scrubish#0001 - Bug Bot on 2019-02-04T19:52:43.164Z
+
+
+### **Another Extension to this issue (iPad only)**
+
+- Open any other app in Slide Over mode with Discord
+- Remove the other app from Slide Over mode (by swiping the app to the right)
+- Now go to any text channel and click on the message field to open the keyboard
+- Swipe from the bottom a bit up to open the iPad dock
+- Click on the app you have recently opened in Slide Over mode to open it again in Slide Over mode
+
+Pascal#0929 - Bug Bot on 2019-02-24T12:16:51.823Z
+
+
+### Archived by Bug Bot on 2019-03-26T12:30:27.615Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

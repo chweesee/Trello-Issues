@@ -1,0 +1,49 @@
+[Archived] general Discord audio outputs only to one audio channel on external audio interface (https://trello.com/c/LUMrKtwh)
+
+P3: Will get fixed eventually
+
+Created: 2017-05-15T18:03:27.483Z
+Latest Update: 2018-10-22T20:13:59.976Z
+
+Reported by Kw1q51|v3r_Vorian#0469
+
+####Steps to reproduce: 
+- Use Focusrite Saffire Pro 24 as system output device 
+- Play any audio from Discord (inculdes notifications and voice channel audio) 
+- Comment: Reproducibility probably very low due to practical reasons relating to specialised hardware 
+
+####Expected result:
+ Audio from Discord plays through Output channels 1 and 2 at equal levels 
+####Actual result:
+ Audio only plays through Output channel 1 (Left side of stereo output) 
+####System settings:
+ Macbook Pro 10,1 (Retina, 15" early 2013), Mac OS X El Capitan 10.11.6, Discord Mac client v0.0.247, Focusrite Saffire MixControl 3.7, Saffire Pro 24 Firmware version 2761
+
+1576
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-15T18:03:27.483Z
+
+
+### Can reproduce.
+I don't know about the Focusrite Saffire Pro 24, but I do have this exact same bug with a different piece of hardware. It's all the same root cause.
+
+Dabbit Prime#0896 - Bug Bot on 2017-05-15T18:03:28.121Z
+
+
+### Verified. I'll leave this in the verified bugs for now, so it's public. It's also on the internal board.  - Clayton on 2017-05-19T01:13:11.053Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-19T01:13:17.585Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:59.978Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

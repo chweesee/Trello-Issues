@@ -1,0 +1,85 @@
+[Archived] App crashes when trying to jump in search, when there exists a discord invite link around the message that hasn't been cached. (https://trello.com/c/a84CG3M8)
+
+P2 - Can wait a while,
+mid
+
+Created: 2018-05-18T20:10:28.580Z
+Latest Update: 2018-10-05T00:00:48.690Z
+
+Reported by Geralt#0007
+
+####Steps to reproduce:
+- Note: You can't post the link and try to search it since it would be in your cache. Try looking for an old message with the invite link. BUT, once you see the invite link, it gets cached, so you have to restart your app to clear it. 
+- First, try searching something like "invite link"  
+- Tap some message that's not an actual invite link. (Jumping directly to the invite link works) 
+- If there's an invite link around that message, it will crash.
+
+####Expected result:
+Jumps without crashing
+####Actual result:
+App crashes
+####Client settings:
+TF 2.3.2 (4528)
+####System settings:
+iPhone X 11.1.2
+
+13003
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-18T20:10:28.580Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4528)
+
+Xylium#1480 - Bug Bot on 2018-05-18T20:10:36.340Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 8 + with iOS 11.4 (PB5) - Discord TestFlight 2.3.2 (4528)
+
+Ghoul#0009 - Bug Bot on 2018-05-18T20:10:41.074Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 - iPad Air 2, iOS 11.4 Public Beta, TestFlight 2.3.2 (4528) - Might be an extension of https://trello.com/c/rpXlax8i
+
+Pascal#0929 - Bug Bot on 2018-05-18T20:10:46.424Z
+
+
+### Geralt#0007 - https://youtu.be/atMUuMmezuU added by Bug Bot on 2018-05-18T20:11:45.903Z
+
+
+### Verified.
+
+Slightly easier repro steps:
+- On PC, post a message with any content that's easily searchable
+- Post a valid invite link to any server.
+- On your iOS Device, relaunch the app.
+- Search for the specific message from step 1
+- Tap on the result to progress to the "Jump to Chat" screen
+Buggy event: App crashes - Jared on 2018-05-18T21:34:56.902Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-18T21:35:04.200Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2018-05-21T21:22:05.428Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-05-24T00:51:19.408Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Clayton on 2018-05-24T01:32:51.429Z
+
+
+### Archived by Clayton on 2018-10-05T00:00:48.692Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

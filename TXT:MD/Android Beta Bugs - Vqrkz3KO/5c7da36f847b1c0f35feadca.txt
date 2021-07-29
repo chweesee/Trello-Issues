@@ -1,0 +1,122 @@
+[Archived] New line followed by emote spoiler with no space followed by emote from another user causes the unused newline to appear while revealing the spoiler (https://trello.com/c/SIMxvCCA)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-04T22:15:11.923Z
+Latest Update: 2019-06-10T20:43:29.027Z
+
+Reported by sloth_.on._tabasco#9015
+
+####Steps to reproduce:
+- Read the steps carefully it's easy to make a mistake 
+- You need two users for this bug say A and B  
+- From A, send any message to a channel/DM 
+- Again From A, Press enter making a new line then insert an emote inside a spoiler (please note that there should be no spaces separating the emote from the spoiler ) 
+- From B, send an emote  
+- From B, reveal the spoiler
+
+####Expected result:
+The unused new line should not be visible while revealing the spoiler
+####Actual result:
+The new line is visible and emote is revealed on a new line, but upon re-revealing the spoiler (switching to another channel and coming back) the line disappears
+####Client settings:
+Alpha 8.5.5
+####System settings:
+ASUS Zenfone max pro m1 Android 8.1.0
+
+30308
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-04T22:15:11.923Z
+
+
+### sloth_.on._tabasco#9015 - https://youtu.be/9flsXq1wUdM added by Bug Bot on 2019-03-04T22:15:14.514Z
+
+
+### sloth_.on._tabasco#9015 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c7da36f847b1c0f35feadca/5a54c1d4eb5f2c456ad1e66536b68161/IMG_20190305_012128.jpg added by Bug Bot on 2019-03-04T22:15:14.841Z
+
+
+### Can reproduce.
+CR, Samsung S7 Edge - Android 8 - Discord Alpha 8.5.5
+
+Mils#0004 - Bug Bot on 2019-03-04T22:15:19.477Z
+
+
+### Can reproduce.
+canrepro : Android Samsung Galaxy S9 9.0.0, 8.5.5
+
+OldWampa#7897 - Bug Bot on 2019-03-04T22:15:24.421Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 9 (Pie),Discord Alpha 8.5.5
+
+Octillion#6666 - Bug Bot on 2019-03-04T22:15:29.441Z
+
+
+### Can reproduce.
+Cr, Moto G6, Android O, Alpha 855
+
+Sanjay#0540 - Bug Bot on 2019-03-05T00:56:58.644Z
+
+
+### Can reproduce.
+CR - Samsung Galaxy Light v4.2.2 BaseBand T399UVUAQE1 Discord Alpha 8.5.5
+
+Killtracity#0001 - Bug Bot on 2019-03-05T02:27:00.228Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (8.1.0) | Discord Alpha 8.5.5
+
+Clay#0001 - Bug Bot on 2019-03-05T03:17:15.809Z
+
+
+### Can reproduce.
+cr. Alpha 8.5.5 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-03-05T04:46:17.250Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 855
+
+charleskimbac#6492 - Bug Bot on 2019-03-05T04:55:05.618Z
+
+
+### Extension of https://trello.com/c/6DrG4KUo - Not specific to spoilers.
+
+Alex1304#9704 - Bug Bot on 2019-03-05T07:25:21.859Z
+
+
+### Can reproduce.
+Samsung S8, Android 9.0, 8.5.5
+
+Mr. Proper#2394 - Bug Bot on 2019-03-05T08:27:53.203Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8, Alpha 8.5.5
+
+Action Potential#2494 - Bug Bot on 2019-03-06T04:10:25.988Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T21:49:20.054Z
+
+
+### Archived by Clayton on 2019-03-13T23:39:15.637Z
+
+
+### Unarchived by Bug Bot on 2019-03-14T00:00:06.372Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:29.042Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

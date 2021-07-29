@@ -1,0 +1,81 @@
+[Archived] Toggle Overlay Lock Keybind is not working in games & you can't set it via Overlay Settings, it resets itself every time (https://trello.com/c/KnzjJCq8)
+
+P2: Fix can wait a while,
+High
+
+Created: 2017-11-25T21:15:57.984Z
+Latest Update: 2020-02-29T14:07:50.805Z
+
+Reported by OminousCry#2331
+
+####Steps to reproduce:
+- Open Settings 
+- Go to Overlay section and set a Keybind for Toggle Overlay Lock 
+- Go to i.e. Voice & Video settings, then come back to Overlay ones and see the result for yourself 
+- After that, try to set this specific Keybind in Keybinds section 
+- Open any game and try to use it
+
+####Expected result:
+It should be recorded in Overlay settings and working as usual in games if additionally set at Keybinds settings
+####Actual result:
+It automatically resets itself after following the aforementioned steps and is not working at all
+####Client settings:
+Discord Canary 0.0.180 (Build 7653)
+####System settings:
+Windows 10 Home x64 Fall Creators Update (Build 1709, 16299.64)
+
+6596
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-25T21:15:57.984Z
+
+
+### Can reproduce.
+i can reproduce the overlay not opening part. the keybind reseting itself is not happening. Windows 10 Pro x64 v1709 (Canary build 7653, v 0.0.180)
+
+TimThe#7618 - Bug Bot on 2017-11-25T21:16:05.552Z
+
+
+### Can reproduce.
+Can Repro (Have also had this issue before) Windows 10 Home (1709) x64, Canary 0.0.180 (Build 7653)
+
+DeJay#3628 - Bug Bot on 2017-11-25T21:16:10.429Z
+
+
+### Can reproduce.
+CR, Dell i5 Notebook - Windows 10.1 Home , Build Number: 7653 [canary]
+
+jhmaster2000#4367 - Bug Bot on 2017-11-25T21:16:15.402Z
+
+
+### Cannot reproduce.  - Clayton on 2017-11-29T23:29:50.220Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-11-29T23:29:54.731Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-30T08:28:49.557Z
+
+
+### Archived by Alexandru Todea on 2017-12-30T08:28:51.798Z
+
+
+### Can reproduce.
+Can Repro, Windows 10 Home x64, Build Number: 46964 (Stable), (keybinding in Overlay constantly resets, creates blank bind under Keybinds)
+
+Alighierian#2444 - Bug Bot on 2019-10-10T17:14:11.187Z
+
+
+### Can reproduce.
+Keybind resets via both overlay and keybinds tab and doesn't open the overlay, Windows 10 Home x64 v1909, Canary 55393 Host 0.0.263
+
+SSalt#5041 - Bug Bot on 2020-02-29T14:07:50.817Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,88 @@
+[Archived] Emojis don't scale properly according to screen pixel density (https://trello.com/c/wB4EPLVO)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-06T19:29:45.043Z
+Latest Update: 2018-10-09T04:30:03.314Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have two devices with completely different pixel densities OR 
+- Find a setting in your developer options to manually change DPI 
+- Find a channel with a few text and emojis posted 
+- Compare emoji size between the different DPI configurations
+
+####Expected result:
+Since the rest of the UI is pixel dependent, the emojis should be too
+####Actual result:
+The emojis keep the same physical size (pixel independency) while the rest of the app is scaled, causing the emojis to appear tiny on low DPI and enormous on high DPI devices (see screenshots)
+####Client settings:
+Discord Alpha 7.4.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+19075
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-06T19:29:45.043Z
+
+
+### Alex1304#9704 - https://cdn.discordapp.com/attachments/253923313460445184/487200542670716929/Screenshot_20180906-114724.jpg added by Bug Bot on 2018-09-06T19:29:47.438Z
+
+
+### Alex1304#9704 - https://cdn.discordapp.com/attachments/253923313460445184/487200462659911690/Screenshot_20180906-114647.jpg added by Bug Bot on 2018-09-06T19:29:47.446Z
+
+
+### Can reproduce.
+OnePlus 3T, Android 8, Discord 7.4.6 - Default 411 DPI and 600 DPI
+
+Alipoodle#5025 - Bug Bot on 2018-09-06T19:29:52.532Z
+
+
+### Can reproduce.
+CR, tried with Samsung Galaxy S3 Mini/S4/J2/S6/S9+, Android 4.1/4.4.1/5.1/7.0/8.0, Discord Alpha 7.4.7
+
+Law of Royale#6825 - Bug Bot on 2018-09-06T19:29:57.550Z
+
+
+### Can reproduce.
+Huawei P10 Lite, 8.0.0.363; Android Beta, 740
+
+Iffabled#0001 - Bug Bot on 2018-09-06T19:30:02.474Z
+
+
+### In high DPI configs, emojis appear enormous in reactions too
+
+Alex1304#9704 - Bug Bot on 2018-09-06T19:31:35.852Z
+
+
+### verified, android 7.0, alpha 7.4.6, samsung s6 edge - Clayton on 2018-09-06T20:44:27.534Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-06T20:44:33.865Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 7.4.7
+
+Bencey_#8587 - Bug Bot on 2018-09-07T01:46:48.872Z
+
+
+### Can reproduce.
+Moto Z Force Droid Edition, Android 8.0 [July SP] • Discord 7.4.8 [Alpha]
+
+Industrial_Strength#1402 - Bug Bot on 2018-09-09T04:22:49.079Z
+
+
+### Archived by Clayton on 2018-10-09T04:30:03.316Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

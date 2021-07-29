@@ -1,0 +1,121 @@
+Uncaught range error occurs when right clicking a game image on nitro page when pulling it (https://trello.com/c/cwMvIgtA)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-06-02T04:35:23.465Z
+Latest Update: 2019-07-19T13:43:46.366Z
+
+Reported by TheForbiddenAi#0001
+
+####Steps to reproduce:
+- Go to discordapp(dot)com/nitro 
+- Open console 
+- Go to the last card in either list 
+- Start pulling that card such that you can see white space between the card and the left (or right depending on which end you went to) side 
+- Right click the card while holding it 
+- Observe the uncaught range error (or on edge "0: Out of stack space")
+
+####Expected result:
+There should be no error
+####Actual result:
+There is an error
+####Client settings:
+Chrome 74
+####System settings:
+Windows 10 Home x64 (1809)
+
+35849
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-02T04:35:23.465Z
+
+
+### TheForbiddenAi#0001 - https://i.imgur.com/cHlA0z7.gifv added by Bug Bot on 2019-06-02T04:35:25.930Z
+
+
+### TheForbiddenAi#0001 - https://trello-attachments.s3.amazonaws.com/5cc22e6be84de608c791fdb6/5cf3520b1243715e1e0fd5b3/b634640d9ce8cfb7d6bf2540d5b9be63/scH4keL.png added by Bug Bot on 2019-06-02T04:35:26.247Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Google Chrome 74.0.3729.169
+
+Daffyduck#5364 - Bug Bot on 2019-06-02T04:35:30.784Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro x64, Firefox 67.0
+
+ImCreativeJonny#4752 - Bug Bot on 2019-06-02T04:35:40.834Z
+
+
+### Can reproduce.
+Windows 10 1809 firefox 67
+
+GlenMerlin#2119 - Bug Bot on 2019-06-02T04:45:30.777Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | 38950
+
+Classified#0001 - Bug Bot on 2019-06-02T04:50:00.700Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Chrome 74.0.3729.169
+
+Jean20B#4287 - Bug Bot on 2019-06-02T12:14:20.681Z
+
+
+### Can reproduce.
+Win 10 Pro x64 (1809) | Web Canary 38950 | Chrome 74.0.3729.169 | Also ruins the springing back into place action of the game cards.
+
+Clay#0001 - Bug Bot on 2019-06-03T00:33:31.803Z
+
+
+### Can reproduce.
+macos 10.14.6, firefox 67
+
+OrangeM24#5746 - Bug Bot on 2019-06-05T18:15:18.647Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 - Google chrome 74.0.3729.169
+
+FreeDjaga#0001 - Bug Bot on 2019-06-08T11:20:53.824Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809, 38967
+
+FreeDjaga#0001 - Bug Bot on 2019-06-08T15:09:51.246Z
+
+
+### Can reproduce.
+CR; Windows 10 (build 17763) ~ Canary 39493 ~ Chrome 74
+
+Lengo#0001 - Bug Bot on 2019-06-11T18:05:01.378Z
+
+
+### Moved from Verified Bugs to User Reported Bugs by Ene on 2019-06-17T21:00:52.531Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1903 Build 18362.175 | Firefox Quantum 67.0.4
+
+Visual | RIP Etika#0069 - Bug Bot on 2019-06-26T11:07:05.754Z
+
+
+### Verified » Windows 10 Pro x64, Chrome Version 75.0.3770.142 (64-bit) - Aeria on 2019-07-19T13:43:35.204Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Aeria on 2019-07-19T13:43:39.618Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

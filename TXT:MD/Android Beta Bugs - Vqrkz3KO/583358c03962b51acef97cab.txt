@@ -1,0 +1,88 @@
+[Archived] Disconnecting from voice using the disconnect button in the dropdown menu doesn't remove you from voice chat, but does disconnect you (https://trello.com/c/gEvhwK8J)
+
+P3 - Will be fixed eventually
+
+Created: 2016-11-21T20:27:44.785Z
+Latest Update: 2018-06-02T17:28:09.186Z
+
+Reported by Logiz#9321
+
+####Steps to reproduce: 
+- Join voice chat 
+- Disconnect from the notification bar (image) 
+- Look at voice chat from mobile 
+
+####Expected result:
+ Should remove you from voice chat when you disconnect 
+####Actual result:
+ Says that you're still in voice chat and shows to others that you're still in voice chat too System Settings: Android 6.0.1 
+####System settings:
+ Android 6.0.1 
+####Client version:
+ Alpha 3.1.5
+
+Card Log
+========
+### Added by Jared on 2016-11-21T20:27:44.785Z
+
+
+### Logiz#9321 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/583358c03962b51acef97cab/af506c40f1fdcbea3c20abcfffc1e194/Screenshot_20161121-205422.png added by Jared on 2016-11-21T20:27:46.652Z
+
+
+### After a client restart I'm having a hard time to reproduce it
+
+Logiz#9321 - Jared on 2016-11-21T20:28:05.408Z
+
+
+### @logiz_ I don't know what you mean by "Disconnect from the notification bar".  Could you please elaborate? Also, can you still reproduce this? - Jared on 2016-12-01T23:07:04.231Z
+
+
+### Can't reproduce.
+Android 5.0, Samsung Galaxy S5
+
+FireController1847#9085 - Jared on 2016-12-03T05:13:45.421Z
+
+
+### Can't reproduce. - Jared on 2016-12-07T19:12:58.050Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-12-07T19:13:01.345Z
+
+
+### I am able to reproduce after following the steps provided by Xander#0259. When I reopen the app, it just goes to the first text channel, but my name is stuck in the voice channel member list.
+
+- Join a voice chat
+- Exit the app by pressing the home button
+- Disconnect via the drop-down option in the notification shade
+- Reopen the app 
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord 5.2.6 - Alexandru Todea on 2017-09-30T06:00:40.370Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-09-30T06:51:56.970Z
+
+
+### Verified.  - Clayton on 2017-10-13T00:09:05.504Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-13T00:10:40.441Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-03-22T23:40:50.755Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Clayton on 2018-03-22T23:40:54.156Z
+
+
+### archiving for being fixed over 30 days without activity - Tim on 2018-06-02T17:28:07.959Z
+
+
+### Archived by Tim on 2018-06-02T17:28:09.191Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,66 @@
+Clicking into the search bar while a right-click context menu is open causes the search modal to get stuck (https://trello.com/c/PlkEBXeQ)
+
+None
+
+Created: 2020-05-03T02:43:12.031Z
+Latest Update: 2020-07-16T21:26:06.293Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Right click a user profile (or the message text field, a server, a channel, user settings, etc) to open the context menu 
+- Click into search bar to open it (bug has occurred here, now demonstrate) 
+- Notice that the cursor stops blinking. Click other modals to open them, such as pins, emoji picker, user profiles, or even user settings
+
+####Expected result:
+The search modal should go away when something else is clicked
+####Actual result:
+The search modal does not go away and is stuck on the screen until it is interacted with again
+####Client settings:
+Canary 59390 (14ffb94), Host 0.0.264
+####System settings:
+Dell Precision 5520, Windows 10 64-Bit (10.0.18363)
+
+55433
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-03T02:43:12.031Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Canary (Build 59390)
+
+Bryth#1086 - Bug Bot on 2020-05-03T02:43:22.074Z
+
+
+### Can reproduce.
+CR. MacBook Pro (15-inch, Mid 2014), Catalina 10.15.4 (19E287); Canary 59390
+
+Wiz#0003 - Bug Bot on 2020-05-03T02:43:27.075Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Stable 59381
+
+GKasparov#8714 - Bug Bot on 2020-05-03T02:43:32.076Z
+
+
+### Can reproduce.
+Windows 10 Home v1909, Canary 59315 (c8ffe19), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+Façade#0594 - Bug Bot on 2020-05-03T06:05:40.011Z
+
+
+### Can reproduce.
+Windows 10 Home x64, version 1909 - Canary 59616 host 0.0.264
+
+anonymous kitten#6881 - Bug Bot on 2020-05-07T19:47:25.511Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

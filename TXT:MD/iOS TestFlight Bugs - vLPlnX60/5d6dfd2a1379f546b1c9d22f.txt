@@ -1,0 +1,77 @@
+[Archived] iOS Audio is screwed up when playing a video [possibly iPad only because of multitask requirement] (https://trello.com/c/owN57EAV)
+
+None
+
+Created: 2019-09-03T05:42:02.316Z
+Latest Update: 2019-09-29T15:16:37.978Z
+
+Reported by ZX ////#3405
+
+####Steps to reproduce:
+- Open discord 
+- Find an available VC 
+- Join it and leave [time shouldnt matter] 
+- Open YouTube in multitasking mode 
+- Play a video, preferably one with bass 
+- Notice how the audio sounds flat 
+- Click home 
+- Open YT in full screen and play the video again 
+- Observe how the sound is better and is more full 
+- Open discord in multitasking mode 
+- Notice how the sound pauses and starts sounding worse again 
+- NOTE: The iOS screen recording software doesnt actually capture this bug
+
+####Expected result:
+The audio just shouldnt
+####Actual result:
+The audio pauses for a sec and sounds much worse
+####Client settings:
+TF 3.1.1 [16961]
+####System settings:
+iPad 5, iOS 12.4
+
+42797
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-03T05:42:02.316Z
+
+
+### Can reproduce.
+CR; iPad 9.7"(6th gen) iOS 13.0(PB6), TF 3.1.1(16961)
+
+bryant#1011 - Bug Bot on 2019-09-03T05:42:10.327Z
+
+
+### Can reproduce.
+ipad pro 3 ios 12.4, testflight 3.1.1 (16961)
+
+OrangeM24#5746 - Bug Bot on 2019-09-03T05:42:14.816Z
+
+
+### Can reproduce.
+Can reproduce this on an iPad Pro 11", iPadOS 13; Testflight 3.1.2 (17140)
+
+Action Potential#6862 - Bug Bot on 2019-09-03T05:42:19.800Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-09-13T19:00:03.570Z
+
+
+### Extension of https://trello.com/c/2Cbpz4MC
+
+Archiving the ticket. - Pascal on 2019-09-29T15:16:26.283Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-09-29T15:16:33.721Z
+
+
+### Archived by Pascal on 2019-09-29T15:16:34.733Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

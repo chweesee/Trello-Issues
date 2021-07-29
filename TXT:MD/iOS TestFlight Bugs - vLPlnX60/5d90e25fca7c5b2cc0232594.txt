@@ -1,0 +1,114 @@
+[Archived] When using a bluetooth keyboard, the enter key no longer allows for a message to be sent. (https://trello.com/c/vkVEUOED)
+
+low,
+P2 - Can wait a while
+
+Created: 2019-09-29T16:57:03.196Z
+Latest Update: 2019-12-15T08:30:23.172Z
+
+Reported by Gar#1865
+
+####Steps to reproduce:
+- Open the Discord app. 
+- Navigate to any channel in which you have write permissions. 
+- With a bluetooth keyboard enabled, type a message. 
+- Hit enter to send the message.
+
+####Expected result:
+The message should be sent to the channel you are in.
+####Actual result:
+Nothing happens. You need to find and hit the send button to send a message.
+####Client settings:
+Testflight 3.1.3 build 17389
+####System settings:
+IPad 6th generation, iPad OS 13.1 Public Beta 4
+Keyboard: ZAGG Folio Case with Wireless Backlit Keyboard for 2017 [Gen 5] and 2018 [Gen 6] Apple iPad 9.7" - Black
+
+44525
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-29T16:57:03.196Z
+
+
+### Can reproduce.
+iPad Air iOS 12.4.1 TestFlight 3.1.3 (17389) w/ Logitech Keys-to-Go Appears to be iPad specific, CNR on iPhone XR iOS 13.0 (same TF build)
+
+binchlord#0998 - Bug Bot on 2019-09-29T16:57:10.648Z
+
+
+### Can reproduce.
+Pushing for archival reasons, devs have confirmed the fix for it: https://support.discordapp.com/hc/en-us/articles/360034415151--FIXED-Hardware-Keyboard-Troubles-on-iOS
+
+Pascal#0929 - Bug Bot on 2019-09-29T16:57:15.680Z
+
+
+### Moved from New Issues to Claimed Fixed Bugs by Pascal on 2019-09-29T16:57:30.490Z
+
+
+### Can't reproduce.
+iPad Air iPadOS 13.1 TestFlight 3.1.3 (17389)
+
+binchlord#0998 - Bug Bot on 2019-09-29T17:28:45.035Z
+
+
+### Can't reproduce.
+CNR, iPhone 7 Plus iOS 13.1, TestFlight 3.1.3 (17389)
+
+Action Potential#6862 - Bug Bot on 2019-09-29T22:52:28.629Z
+
+
+### Can reproduce.
+iPad Pro 12.9” (2018) on iPadOS 13.1.2, previously fixed after OTA but bug returned
+
+Grine_#9440 - Bug Bot on 2019-10-01T23:44:30.083Z
+
+
+### Can't reproduce.
+CNR. Fixed? iPad Pro 10" (2017) - iPadOS 13.1.2 - Testflight 3.1.4 (17524). Using Magic Keyboard 1
+
+Frances Picard#6209 - Bug Bot on 2019-10-04T04:43:31.835Z
+
+
+### Can't reproduce.
+CNR, iPad Pro 12.9” (iPadOS 13.1.2), Testflight (17575), Logitech slim folio pro
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-07T04:24:45.809Z
+
+
+### Can't reproduce.
+iPad Pro (11-inch), iPadOS 13.1.2 - Stable 3.1.4
+
+Pascal#0929 - Bug Bot on 2019-10-08T18:21:41.426Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-10-08T18:21:41.732Z
+
+
+### Can reproduce.
+CR, TestFlight 3.1.7 (18081), 2018 iPad Pro 11", iPadOS 13.3
+
+momo!#5194 - Bug Bot on 2019-11-13T02:09:17.757Z
+
+
+### Can reproduce.
+iPad Pro 12.9" (iPadOS 13.2.2), Testflight 3.1.7 (18150), It’s back!
+
+MikeTheSpike#0350 - Bug Bot on 2019-11-13T06:52:26.799Z
+
+
+### Can reproduce.
+iPad Pro 11", iOS 13.2, Discord TF 3.1.7 (18209), iPad Smart Keyboard
+
+Fiz#2000 - Bug Bot on 2019-11-15T08:21:54.196Z
+
+
+### Archived by Bug Bot on 2019-12-15T08:30:23.182Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

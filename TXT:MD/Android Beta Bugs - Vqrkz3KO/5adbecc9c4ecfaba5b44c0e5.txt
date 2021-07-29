@@ -1,0 +1,86 @@
+[Archived] Android's content recognition feature won't work if there's a codeblock somewhere in the message (https://trello.com/c/H6Jg8EaW)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-22T02:00:41.325Z
+Latest Update: 2019-06-10T20:43:27.431Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Write a message with a content that the Android system is able to parse into a link. For example, a link without HTTP, a phone number, or a Google Map address 
+- Send the message, you will see it working as normal (the content will render as a clickable link 
+- Now either edit the message, or create a new one with the same content, and add a codeblock anywhere in the message (works with both single line and multi line codeblocks) 
+- Send and observe
+
+####Expected result:
+Content recognition feature of Android should work regardless of the presence of a codeblock
+####Actual result:
+Android won't parse content if a codeblock is present
+####Client settings:
+Discord Alpha 6.5.5
+####System settings:
+Huawei Mate 9 Android 7.0
+
+11083
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-22T02:00:41.325Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5adbecc9c4ecfaba5b44c0e5/6c48ad1cc6efa0cfd38ea9db0afbc430/IMG_20180422_003829.png added by Bug Bot on 2018-04-22T02:00:44.441Z
+
+
+### Can reproduce.
+CR: Xperia XA1 Ultra, 8.0.0, Discord Beta 6.4.7
+
+figgyc#0168 - Bug Bot on 2018-04-22T02:00:49.251Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab S2; Android Nougat 7.0; Discord Alpha, 6.5.5
+
+Realex78#2193 - Bug Bot on 2018-04-22T02:00:54.286Z
+
+
+### Can reproduce.
+Pixel XL  -  Android P DP1  -  Discord Alpha 6.5.5
+
+desk#0100 - Bug Bot on 2018-04-22T02:00:59.306Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 • Android 7.0 • Discord Alpha 6.5.6
+
+Chbollig#0001 - Bug Bot on 2018-04-22T10:27:16.133Z
+
+
+### Verified.  - Clayton on 2018-04-25T20:16:12.715Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-25T20:16:21.786Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:48.140Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0, Discord Alpha 8.5.9
+
+Law of Royale#6825 - Bug Bot on 2019-03-17T00:26:12.688Z
+
+
+### Unarchived by Bug Bot on 2019-03-17T00:30:05.871Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:27.451Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,91 @@
+When i send a video to a friend it started from the beginning instead of the timestamp i put on it (https://trello.com/c/mNivUbUM)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-02-20T16:43:10.481Z
+Latest Update: 2020-01-19T15:08:46.330Z
+
+Reported by ninja rdisbest#1798
+
+####Steps to reproduce:
+- find a youtube video (seems to affect only videos in a playlist) 
+- right click Copy Video URL At Current Time -paste into a discord chat
+
+####Expected result:
+the video should load up in the embed at the time indicated by the url
+####Actual result:
+the video starts at 0:00 (only encountered this bug after new video embed rework)
+####Client settings:
+Build Number: 10906
+####System settings:
+Windows 10 Version 1709 OS Build 16299.248
+
+8959
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-20T16:43:10.481Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10912
+
+webhp#1337 - Bug Bot on 2018-02-20T16:43:18.135Z
+
+
+### Can reproduce.
+Discord Canary 0.0.202 (Build 10912), Windows 10 Education 1709 (Build 16299.12)
+
+OminousCry#2331 - Bug Bot on 2018-02-20T16:43:23.156Z
+
+
+### Can reproduce.
+CR, Discord Canary Build 10912, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-02-20T16:43:28.187Z
+
+
+### Cannot reproduce. Every video is starting at the timestamp. https://cdn.discordapp.com/attachments/240546517172092928/415611712847347722/unknown.png
+
+All videos I tested with were part of a playlist - Jared on 2018-02-20T20:53:16.265Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-02-20T20:53:20.161Z
+
+
+### Verified, Can repro as of 3/31/18 - Clayton on 2018-03-31T20:22:44.266Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Clayton on 2018-03-31T20:23:20.280Z
+
+
+### Still can't reproduce. No idea how icy repro'd it. - Jared on 2018-07-05T22:51:44.941Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jared on 2018-07-05T22:51:50.334Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:47.358Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909 - Discord Canary 0.0.259 Build 52909
+
+Can reproduce when the URL has a `t=XmYs` at the end of it rather then `t=Xs`
+
+Moving to Reopened! - Daffyduck on 2020-01-19T15:08:36.534Z
+
+
+### Moved from Cannot Reproduce to Reopened by Daffyduck on 2020-01-19T15:08:46.256Z
+
+
+### Unarchived by Daffyduck on 2020-01-19T15:08:46.312Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

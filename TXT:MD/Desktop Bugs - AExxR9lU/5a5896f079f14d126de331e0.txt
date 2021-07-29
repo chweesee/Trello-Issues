@@ -1,0 +1,69 @@
+[Archived] [macOS specific] When receiving a call in Streamer Mode whilst in another window, the application bounces on the dock. (https://trello.com/c/ExWlILTc)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-01-12T11:07:28.192Z
+Latest Update: 2018-02-22T20:06:50.033Z
+
+Reported by JustGamer#2542
+
+####Steps to reproduce:
+- Enable Streamer Mode. 
+- Click/CMD+Tab into another window. 
+- Have someone call you. 
+- Notice the application bounce. 
+- If nothing happens, try full screening the application you navigate to, then repeat the steps.
+
+####Expected result:
+The application should not bounce as Streamer Mode behaves the same as DND.
+####Actual result:
+The application bounces on the dock when receiving the call, unlike what happens in DnD.
+####Client settings:
+Discord Canary 0.0.185 (build 9486)
+####System settings:
+MacBook Pro (late 2013), macOS Sierra 10.12.1
+
+7774
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-12T11:07:28.192Z
+
+
+### Can reproduce.
+Macbook Pro 15" (2017) macOS High Sierra 10.13.2; Canary Build 9486
+
+mrkirby153#7840 - Bug Bot on 2018-01-12T11:07:35.553Z
+
+
+### Can reproduce.
+CR: Discord Canary [0.0.185], MacBook Air [13" 2014], High Sierra [10.13.2] (Nice catch!)
+
+ItsPugle#5963 - Bug Bot on 2018-01-12T11:07:40.550Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.2, Discord Canary 0.0.185 (Build: 9510). The application only bounces in general when the person who is calling you is your Discord friend.
+
+Pascal#0929 - Bug Bot on 2018-01-12T11:07:45.550Z
+
+
+### I feel like this is intentional behavior. Streamer mode is not intended to be analogous to DnD. - Jared on 2018-01-17T00:14:28.950Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-01-17T00:14:32.635Z
+
+
+### Archived due to being inactive for a month without any further activity and is marked as Not a bug. - Tarek on 2018-02-22T20:06:46.926Z
+
+
+### Archived by Tarek on 2018-02-22T20:06:50.036Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

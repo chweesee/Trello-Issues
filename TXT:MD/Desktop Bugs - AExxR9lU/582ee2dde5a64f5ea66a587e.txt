@@ -1,0 +1,67 @@
+[Archived] Using an external emoji in a message in a server you can't use external emojis in, will break every other server emoji (but not integrated emoji) in that message. (https://trello.com/c/eRuRIQtc)
+
+None
+
+Created: 2016-11-18T11:15:41.675Z
+Latest Update: 2016-11-30T18:28:16.417Z
+
+Reported by Wolfstorm#0986
+
+####Steps to reproduce: 
+- Be in two servers. 
+- In server 1, upload an emoji: emoji1. 
+- In server 2, upload an emoji: emoji2. 
+- In server 1, send a message: :emoji1: :emoji2:. -The message will appear as text rather than emojis, despite emoji1 being part of the server. This is because emoji2 is an external emoji of server2 and does not work in server1. However, sending the messages separately has normal, expected results. 
+
+####Expected result:
+. Expected result: emoji1 should appear as the emoji, but emoji2 should appear as text as it is an external emoji. 
+####Actual result:
+ Both emojis appear as text. Environment: Windows 10, Firefox 47.0.2. Probably happens on Firefox 50 too. (Originally by <@106765406982660096> )
+
+Card Log
+========
+### Added by Jared on 2016-11-18T11:15:41.675Z
+
+
+### Can reproduce.
+Windows 10 64-bit, Latest Canary
+
+Joe#0816 - Jared on 2016-11-18T13:02:16.805Z
+
+
+### Can reproduce.
+Canary win8.1
+
+tntbomb1919#9119 - Jared on 2016-11-18T16:25:31.538Z
+
+
+### Can reproduce.
+iOS 9.3.3, iPhone 5s (so this is presumably a discord wide issue)
+
+大室 櫻子 ★★★★#9667 - Jared on 2016-11-18T17:25:45.762Z
+
+
+### Can reproduce.
+Windows 10, Canary
+
+KockaAdmiralac#9306 - Jared on 2016-11-18T18:51:54.566Z
+
+
+### Can reproduce.
+Win10 x64 Canary - Duplicate of an earlier report
+
+Noahkiq#9675 - Jared on 2016-11-18T23:10:41.021Z
+
+
+### Dupe of: https://trello.com/c/eUK9GzzG/67-attempting-to-put-an-emoji-from-a-different-server-in-your-message-will-strip-all-custom-emojis-from-the-message - Jared on 2016-11-30T18:28:07.717Z
+
+
+### Archived by Jared on 2016-11-30T18:28:16.422Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

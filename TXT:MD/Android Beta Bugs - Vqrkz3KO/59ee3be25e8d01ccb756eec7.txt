@@ -1,0 +1,100 @@
+[Archived] Minimizing and maximizing the app reloads all server pictures, which can cause a noticeable (but not so significant) mobile data usage if performed repeatedly and if you are in a lot of servers. (https://trello.com/c/zPuevUJP)
+
+P3 - Will be fixed eventually
+
+Created: 2017-10-23T18:58:42.615Z
+Latest Update: 2019-06-05T23:49:17.668Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Discord, and swipe to the right to view the server list. 
+- Scroll through your entire server list to load all pictures 
+- Press the Recent Tasks button on your Android device, then select Discord to return to the app.
+
+####Expected result:
+Server pictures shouldn't be all reloaded
+####Actual result:
+Server pictures are all reloaded. You can observe it by noticing that all pictures displays the default Discord icon for a split second after re-opening app or scrolling again through the list, or by checking the mobile data usage of your app each time you repeat the steps above. Also happens with regular user profile pictures that you already loaded before.
+####Client settings:
+Discord Alpha 5.4.3
+####System settings:
+Huawei Mate 9 Android 7.0
+
+5693
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-23T18:58:42.615Z
+
+
+### Can reproduce.
+CR Moto G4 Android 7.0 Alpha 5.4.3
+
+Azrael#9808 - Bug Bot on 2017-10-23T18:58:50.004Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 543
+
+Xander#0259 - Bug Bot on 2017-10-23T18:58:55.005Z
+
+
+### Can reproduce.
+CR LG G4 Android 6.0.1 Alpha 5.4.3
+
+Evie.Codes#4611 - Bug Bot on 2017-10-23T18:58:59.982Z
+
+
+### Can reproduce.
+BLU Life One 4G, Android 5.0.2 Discord Alpha 5.4.3
+
+Doodleguy#0441 - Bug Bot on 2017-10-24T00:49:31.765Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8, 7.1.1, 5.4.3
+
+Akemi#3352 - Bug Bot on 2017-10-24T01:55:23.928Z
+
+
+### Verified.  - Clayton on 2017-10-24T22:38:32.764Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-24T22:38:49.764Z
+
+
+### Can reproduce.
+Android Alpha 5.4.7, Samsung Galaxy A7, and Samsung Galaxy S5. Both running 6.0.1 Marshmallow. Its pretty annoying, as it did happened in previous builds
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-25T20:26:00.602Z
+
+
+### Can no longer reproduce since update 5.5.1
+
+Alex1304#9704 - Bug Bot on 2017-10-27T11:08:28.166Z
+
+
+### Don't mind my previous note, I can still reproduce it
+
+Alex1304#9704 - Bug Bot on 2017-10-27T14:35:43.017Z
+
+
+### Cannot reproduce anymore, Discord Alpha 6.1.6, OnePlus 5, Android 8 - Tarek on 2018-01-28T15:29:26.695Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-28T15:29:32.897Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-22T12:06:13.523Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:17.684Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

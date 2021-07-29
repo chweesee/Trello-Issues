@@ -1,0 +1,113 @@
+[Archived] Right-Click "Add Reaction" on alert pins should be removed as they actually show up on Android (possibly iOS) (https://trello.com/c/quFQGA4k)
+
+P3: Will get fixed eventually
+
+Created: 2017-04-21T13:38:14.492Z
+Latest Update: 2018-07-06T17:53:53.126Z
+
+Reported by DJScias#0812
+
+####Steps to reproduce: 
+- Right-click a "pinned a message to this channel" alert and add a reaction to it 
+- Check the pin alert on an Android device (possible iOS) 
+- There are reactions showing up. 
+
+####Expected result:
+ No "add reactions" right-click option on alert pins, Andy mentioned this should be fixed on the desktop-level. 
+####Actual result:
+ Right-click "add reactions" option on alert pins 
+####System settings:
+ Windows 10 Ultimate x64, latest Desktop Canary as of writing
+
+1147
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-21T13:38:14.492Z
+
+
+### Can reproduce.
+Windows 10 Latest Canary
+
+OGNovuh#0014 - Bug Bot on 2017-04-21T13:38:15.835Z
+
+
+### Can reproduce.
+Win10x64CU, Canary 0.0.153. Viewable on Android but not on iOS
+
+Mikesky#3456 - Bug Bot on 2017-04-21T13:38:17.100Z
+
+
+### Can reproduce.
+Windows 10 Prox x64, latest Canary
+
+Azrael#6867 - Bug Bot on 2017-04-21T13:38:19.200Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58fa0b4661e307facae459df/2a8fbec2c5e27cbf6cedadf980b53ae4/unknown.png added by Bug Bot on 2017-04-21T13:38:30.288Z
+
+
+### Screenshot_20170421-151214.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58fa0b4661e307facae459df/7d413fd79fe3507036a6f2d5e0076871/Screenshot_20170421-151214.png added by Bug Bot on 2017-04-21T13:38:30.300Z
+
+
+### To be perfectly clear: we should decide our stance on reactions to system messages. If they can be added, they should be displayed, if they shouldn't be displayed, they shouldn't be able to be added.
+
+Right now Desktop can add them but doesn't display them, Android can't add them but does display them. - Andy Garron on 2017-04-21T17:30:29.897Z
+
+
+### Verified.  - Clayton on 2017-04-21T20:31:03.565Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-21T20:31:26.574Z
+
+
+### right now you can add a reraction to a system message useing the \`+:emoji:\` syntax on desktop.
+
+Alex from Alaska#9760 - Bug Bot on 2017-05-21T20:02:39.797Z
+
+
+### I can still reproduce this using `+:emoji:` from desktop, it appears on android. - Jared on 2017-07-31T22:15:48.381Z
+
+
+### Can't reproduce.
+CNR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843
+
+Starshine Dust#2189 - Bug Bot on 2017-10-16T19:10:35.802Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T20:53:43.404Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843)  -- CR, just lagged on my last try to the is invalid.
+
+Starshine Dust#2189 - Bug Bot on 2017-10-16T20:55:09.305Z
+
+
+### Can still reproduce. - Jared on 2017-10-16T22:41:47.004Z
+
+
+### This isn't a P2 though, changing to a P3. - Jared on 2017-10-16T22:42:49.960Z
+
+
+### They have indeed been removed. Marking as Verified Fixed - Jared on 2018-03-21T17:47:19.117Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T17:47:27.998Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:53:48.937Z
+
+
+### Archived by Jared on 2018-07-06T17:53:53.129Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

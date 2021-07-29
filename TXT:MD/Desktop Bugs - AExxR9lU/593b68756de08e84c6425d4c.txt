@@ -1,0 +1,99 @@
+[Archived] Search does not find text in between periods, but works for other punctuation such as commas or hyphens (https://trello.com/c/131wew4x)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-06-10T03:33:09.252Z
+Latest Update: 2018-10-22T20:14:24.837Z
+
+Reported by crunchprank#5479
+
+####Steps to reproduce:
+- Type a message such as this in chat: <find.this.text> 
+- Do a search (channel or server) for any of those words
+
+####Expected result:
+To find that message by searching for find, this, or text
+####Actual result:
+It returns no search results
+####Client settings:
+Discord Stable, 0.0.297
+####System settings:
+Win 10 x64
+
+1540
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-10T03:33:09.252Z
+
+
+### Roukaysa#7162 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593b68756de08e84c6425d4c/25247c36fbd158f06f2177272580250c/unknown.png added by Bug Bot on 2017-06-10T03:33:11.987Z
+
+
+### DeJay#3628 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/593b68756de08e84c6425d4c/a3fcc93d380ee07959faa1cfefc62c33/RSoAdIi.png added by Bug Bot on 2017-06-10T03:33:12.298Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x32, Latest Canary
+
+Roukaysa#7162 - Bug Bot on 2017-06-10T03:33:13.715Z
+
+
+### Can reproduce.
+ Windows 10 x64, Canary 0.0.157
+
+DeJay#3628 - Bug Bot on 2017-06-10T03:33:15.802Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 x64, Canary 0.0.157
+
+Mippy#1483 - Bug Bot on 2017-06-10T03:33:17.710Z
+
+
+### `this` and `and` are stop words.  Try another more complicated word between periods, should work. - Shadi Isber on 2017-06-10T03:34:35.863Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2017-06-10T03:34:41.263Z
+
+
+### You do not need the brackets to surround the text, you may simply use the words between the brackets. Note by request of submitter
+
+Dru#7700 - Bug Bot on 2017-06-10T04:17:16.756Z
+
+
+### Can reproduce.
+Windows 10 Home 64bit, Discord Canary
+
+sladeiam#0642 - Bug Bot on 2017-06-10T14:45:22.457Z
+
+
+### Can't reproduce.
+Gentoo 64-bit default/linux/amd64/13.0, Canary 0.0.19
+
+Info Teddy#3737 - Bug Bot on 2017-06-10T20:31:47.848Z
+
+
+### Checked as of latest canary:
+
+I can still reproduce this myself. I tried it with string `I.really.love.cake` and then searched on each of these words separately. Search wasn't able to find the line.
+
+On the other hand, using `I,really,love,cake` and then searching on any of those words worked just fine in search. - Alexander (DJScias) on 2017-06-23T23:11:53.030Z
+
+
+### I can still reproduce this as written. - Jared on 2017-06-27T21:02:04.987Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Jared on 2017-06-27T21:02:10.340Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:24.840Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

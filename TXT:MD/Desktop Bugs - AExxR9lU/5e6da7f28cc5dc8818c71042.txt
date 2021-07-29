@@ -1,0 +1,64 @@
+[feature/reduced-motion] HypeSquad test does not fade with reduced motion enabled (https://trello.com/c/BPNZ5CYZ)
+
+None
+
+Created: 2020-03-15T03:58:42.298Z
+Latest Update: 2020-03-15T13:03:23.776Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:
+- Enable Reduced Motion 
+- Navigate to HypeSquad in settings 
+- Proceed to take or retake the test 
+- Click on the "next question" button once you've answered the question
+
+####Expected result:
+A sort of fade between questions.
+####Actual result:
+The usual animation is still in place, swinging us to the next question.
+####Client settings:
+Discord Canary 55934
+####System settings:
+MacBook Pro: macOS Catalina 10.15.3
+
+53397
+
+Card Log
+========
+### Added by Bug Bot on 2020-03-15T03:58:42.298Z
+
+
+### Can reproduce.
+CR Win10 64x (1809) - Canary 55934 (33ebf2e) [reduced-motion]
+
+Alipoodle#5025 - Bug Bot on 2020-03-15T03:58:49.823Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Canary 55934 Host 0.0.263
+
+SSalt#5041 - Bug Bot on 2020-03-15T03:58:54.884Z
+
+
+### Can reproduce.
+CR, stable & canary 55934 (reduced motion override), Win10 v1709 x64 build 16299.1625 Education, chrome dev 82.0.4062.3+
+
+hopeless#1227 - Bug Bot on 2020-03-15T03:58:59.837Z
+
+
+### Moved from User Reported Bugs to Reduced Motion by Daffyduck on 2020-03-15T04:01:02.789Z
+
+
+### Can reproduce.
+CR, Discord Canary 55934, Windows 7 Ultimate
+
+Sh¡ny#2302 - Bug Bot on 2020-03-15T13:03:23.786Z
+
+List
+====
+Reduced Motion
+
+Members
+=======
+None

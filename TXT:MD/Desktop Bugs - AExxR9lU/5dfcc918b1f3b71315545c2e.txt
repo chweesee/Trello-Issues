@@ -1,0 +1,120 @@
+Cursor text pointer CTRL + Arrows positioned wrong next to rendered converted emote in pre-text textbox (https://trello.com/c/W5WMhPjU)
+
+None
+
+Created: 2019-12-20T13:14:00.875Z
+Latest Update: 2020-07-16T21:26:05.956Z
+
+Reported by karl-police#3660
+
+####Steps to reproduce:
+- Write something like, "Hello bla bla bla? 🤔" 
+- Move the cursor text pointer at the end of the text, so right after 🤔 
+- Use CTRL + Left, it should go infront of 🤔 since there is a space, technically
+
+####Expected result:
+It should go infront of 🤔 since there is a space, technically
+####Actual result:
+It doesn't move at the first time
+####Client settings:
+Newest Discord, Browser version
+####System settings:
+Windows 10 64 Bit
+
+50404
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-20T13:14:00.875Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909, Canary 51726 host 0.0.259
+
+Jean20B#4668 - Bug Bot on 2019-12-20T13:14:08.372Z
+
+
+### Can reproduce.
+CR, Windows 10 Home, Discord Canary 51726
+
+Smokepurpp#6012 - Bug Bot on 2019-12-20T13:14:13.382Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64, Version 1903, Discord Stable 51593
+
+SlavicWaffles#0001 - Bug Bot on 2019-12-20T13:14:18.545Z
+
+
+### Can reproduce.
+CR; Windows 10 Home x64 1903, Discord Canary Build 51792
+
+Nykloon#0002 - Bug Bot on 2019-12-20T13:48:04.939Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51792, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-20T14:52:02.212Z
+
+
+### Can reproduce.
+CR, Discord Canary 51726, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#7083 - Bug Bot on 2019-12-20T16:38:35.754Z
+
+
+### Can reproduce.
+Windows 10 Pro, 1909 (OS Build 18363.535); Canary, 51792
+
+Leo#5142 - Bug Bot on 2019-12-20T17:34:49.140Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Discord Canary 51726.
+
+Alister#0018 - Bug Bot on 2019-12-20T19:27:04.671Z
+
+
+### Can reproduce.
+Windows 10 Pro Version 1809 17763.348 Build 17763
+
+epic_ziver_D#6552 - Bug Bot on 2019-12-20T21:34:06.213Z
+
+
+### Can reproduce.
+cr Windows 10 1909 canary 51893
+
+GlenMerlin#2119 - Bug Bot on 2020-01-04T00:26:25.287Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Discord Canary 52006.
+
+Alister#0001 - Bug Bot on 2020-01-05T01:05:21.456Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 51905
+
+RPS1222#5127 - Bug Bot on 2020-01-05T01:55:49.880Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) stable 51988 on Chromium 78
+
+myacorn#6534 - Bug Bot on 2020-01-06T08:05:32.433Z
+
+
+### Can reproduce.
+CR: Windows 10 Pro
+
+SnowBowman#1888 - Bug Bot on 2020-01-06T17:01:56.624Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

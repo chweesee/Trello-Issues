@@ -1,0 +1,113 @@
+[Archived] Rich embed: Author name overlaps with thumbnail (https://trello.com/c/3YaoGKKc)
+
+None
+
+Created: 2018-01-19T21:06:49.730Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create an rich embed with a bot or webhook 
+- Add an author name and a thumbnail to this embed (note: don't add an image, otherwise thumbnail wouldn't be visible) 
+- Make the author name very long (length depends on the display size) 
+- Observe it with the iOS device
+
+####Expected result:
+Author name and thumbnail shouldn't overlap each other.
+####Actual result:
+A part of the author name will be overlapped by the thumbnail.
+####Client settings:
+TestFlight 2.2.1 (2202)
+####System settings:
+iPhone 6s, iOS 11.2.2 | iPad Air 2, iOS 11.2.5 PB 6
+
+7965
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-19T21:06:49.730Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a625de9ddc2104374beb784/9e27159d7b130830b4a65c0f2d9d3810/TTwkvYR.jpg added by Bug Bot on 2018-01-19T21:06:52.198Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.2.5 PB6, with Discord TF 2.2.1 (2202). Note: For plus models, you need to switch to zoom in settings on Display and Brightness in settings
+
+Ghoul#4567 - Bug Bot on 2018-01-19T21:06:57.128Z
+
+
+### Can reproduce.
+iPhone 5s; iOS 9.0.2 TestFlight 2.2.1 (2202)
+
+mrkirby153#7840 - Bug Bot on 2018-01-19T21:07:02.135Z
+
+
+### Can reproduce.
+iPod touch 6 generation, iOS 10.3.3, TestFlight 2.2.1 (2202)
+
+❤nickWtn❤#3789 - Bug Bot on 2018-01-19T21:07:07.216Z
+
+
+### Not easy to reproduce this issue. Best way to see the bug is to use an very, very long author name that can't be displayed in one line and must be wrapped **without** spaces.
+
+Pascal#0929 - Bug Bot on 2018-01-19T21:35:01.892Z
+
+
+### Moved from User Reported Bugs to Chat rewrite bugs by Fanghao on 2018-01-19T22:22:40.174Z
+
+
+### Moved from Chat rewrite bugs to Fix made, not yet released by Fanghao on 2018-01-19T22:35:14.087Z
+
+
+### Can't reproduce.
+iPhone 8 +, iOS 11.2.5 (PB7), iOS TestFlight 2.2.1 (2224)
+
+Ghoul#4567 - Bug Bot on 2018-01-20T23:21:31.482Z
+
+
+### I can no longer reproduce, author name and thumbnail no longer overlap.
+
+Discord 2.2.1 (2224), iOS 11.2.2, iPhone 8 Plus - Alexandru Todea on 2018-01-21T06:16:16.934Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2018-01-21T06:16:36.329Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T21:22:05.967Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-27T00:04:57.855Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T08:10:13.302Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T08:15:34.863Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T08:15:38.864Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:02:27.618Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:02:28.208Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

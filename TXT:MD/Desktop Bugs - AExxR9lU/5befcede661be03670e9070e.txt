@@ -1,0 +1,120 @@
+[Archived] (Desktop app specific) The green circle from another user is still shown even when you leave the voice channel OR when you view the bot in voice channel from another server when you joined voice channel with that same bot (https://trello.com/c/R8RwCrmR)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-11-17T08:18:38.089Z
+Latest Update: 2019-12-30T13:00:12.562Z
+
+Reported by Frances Picard#6209
+
+####Steps to reproduce:
+
+- Make someone that can constantly transmit voice join a voice channel (like a user or a music bot) 
+- Join that voice channel and observe the green circle from that other user 
+- Leave that voice channel 
+- (OR if you use a bot and that bot is producing a sound in another channel in another server, observe that bot in that another server with you still joined in the voice channel from second step)
+
+####Expected result:
+The green circle disappears after you leave the voice channel OR it's not showing in another server
+####Actual result:
+The green circle is still there
+####Client settings:
+Discord Canary 28176
+####System settings:
+Windows 10 1809 x64
+
+23257
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-17T08:18:38.089Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 28176
+
+Hole#0001 - Bug Bot on 2018-11-17T08:18:45.444Z
+
+
+### Can reproduce.
+Can repro; Windows 10 Home x64 (v1803), Discord Canary 28176
+
+Ardia#7038 - Bug Bot on 2018-11-17T08:18:50.453Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home, Discord Canary 28176
+
+1Storm#0001 - Bug Bot on 2018-11-17T08:18:55.394Z
+
+
+### Can reproduce.
+Windows 10 Home Build 17134, Discord Canary Build 28192
+
+Bsian#4647 - Bug Bot on 2018-11-17T13:29:58.430Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 28176
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-17T16:17:32.515Z
+
+
+### verified, macos 10.12.6, canary 28226 - Clayton on 2018-11-20T04:10:00.693Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-20T04:10:20.919Z
+
+
+### Can reproduce.
+Windows 10 Home Build 17134, Discord Canary 29240 - update from earlier CR: Also shows when you have your bot playing music and you join another server where the same bot is playing music on that server
+
+Bsian#4647 - Bug Bot on 2018-12-08T09:33:03.333Z
+
+
+### Can reproduce.
+CR; Also appears when in a call with someone using two clients to connect to a different vocal chat; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 29791
+
+Longinus#0293 - Bug Bot on 2018-12-17T22:55:25.840Z
+
+
+### Archived by Bug Bot on 2019-01-16T23:00:02.669Z
+
+
+### Can reproduce.
+CNR with current steps but I still CR if I use the method reported by Bsian. Will update the steps. Windows 10 x64 1809 (17763), Discord Canary with Build number 33595
+
+Frances Picard#6209 - Bug Bot on 2019-03-08T10:07:34.087Z
+
+
+### Unarchived by Bug Bot on 2019-03-08T10:30:05.383Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:09.419Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1903), Canary 49207
+
+Derrios#0001 - Bug Bot on 2019-11-11T17:09:38.661Z
+
+
+### Can reproduce.
+Can Reproduce Windows 10 (1903), Discord Canary Build (49207)
+
+Masterpiece#0001 - Bug Bot on 2019-11-11T17:15:34.075Z
+
+
+### Unarchived by Bug Bot on 2019-11-11T17:30:06.177Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:12.577Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

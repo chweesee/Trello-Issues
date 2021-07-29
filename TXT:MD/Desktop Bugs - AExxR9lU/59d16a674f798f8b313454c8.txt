@@ -1,0 +1,183 @@
+[Archived] Writing text, making a new line, then putting an discord.gg invite link doesnt emebed (https://trello.com/c/z89EgnnE)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-01T22:21:27.570Z
+Latest Update: 2019-01-01T15:32:03.941Z
+
+Reported by Pierce#7555
+
+####Steps to reproduce:
+- type text 
+- newline, paste invite 
+- link doesnt embed
+
+####Expected result:
+Link embeds like normal
+####Actual result:
+Doesnt embed, as seen here
+####Client settings:
+Discord Canary 0.0.164
+####System settings:
+Windows 10 Home x64 Creators Update
+
+5009
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-01T22:21:27.570Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59d16a674f798f8b313454c8/5efc3a2c51cd29dcb19ec2234451c7e9/4cf9f8.png added by Bug Bot on 2017-10-01T22:21:30.390Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.164 (5141)
+
+Tiemen#0107 - Bug Bot on 2017-10-01T22:21:35.124Z
+
+
+### Can reproduce.
+Windows 10 x64 Creators Update, Canary Build 0.0.164
+
+EJH2#0330 - Bug Bot on 2017-10-01T22:21:40.178Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 0.0.164
+
+Okori#0902 - Bug Bot on 2017-10-01T22:21:45.152Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary v0.0.164
+
+Zacatero#5839 - Bug Bot on 2017-10-02T01:55:51.159Z
+
+
+### Can reproduce.
+MacBook Air (13-inch, Early 2015) MacOS High Sierra, Discord Canary 0.0.155
+
+Cheezybob99#9866 - Bug Bot on 2017-10-02T05:41:47.315Z
+
+
+### Can reproduce.
+Discord Canary 0.0.155 MacBook Pro Retina 13" Late 2014 macOS High Sierra 10.13
+
+fratik#9865 - Bug Bot on 2017-10-02T15:57:54.320Z
+
+
+### Can't reproduce.
+Windows 10 x64 using discord canary 0.0.164
+
+Jakob#6834 - Bug Bot on 2017-10-02T16:13:48.615Z
+
+
+### Can't reproduce.
+Windows 10 x64 DiscordOfficial 0.0.298
+
+Loïc#2747 - Bug Bot on 2017-10-02T20:05:07.479Z
+
+
+### Can't reproduce.
+Linux Mint 18 + Openbox, Discord Canary 0.0.24
+
+cloudrac3r#5547 - Bug Bot on 2017-10-03T03:56:04.993Z
+
+
+### Can reproduce.
+iMac (Retina 4K, 21.5-inch, Late 2015), OS X El Capitan 10.11.6 (15G1421), Canary 0.0.154
+
+Rauf#3260 - Bug Bot on 2017-10-03T12:37:54.796Z
+
+
+### Can repro, extremely minor. - Jared on 2017-10-03T18:17:00.277Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-03T18:17:10.219Z
+
+
+### Can't reproduce.
+Windows 10 Home Edition
+
+Fonytony#4268 - Bug Bot on 2017-10-04T01:42:24.731Z
+
+
+### Can reproduce.
+Still seems reproducible, was hoping it would have been fixed unintentionally with new embeds. Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.173 (Build 7041)
+
+SuperSajuuk#7265 - Bug Bot on 2017-11-09T15:31:44.491Z
+
+
+### Verified Fixed - Jared on 2018-03-21T20:08:08.515Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T20:08:12.810Z
+
+
+### Can reproduce.
+Still occurs as written | Discord Canary 0.0.204, Build 12458, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-03-22T04:58:54.196Z
+
+
+### Ene#0808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59d16a674f798f8b313454c8/8ba072e8d275891fa340870ff03dc40c/3LEaBmx.png added by Bug Bot on 2018-03-22T04:59:11.115Z
+
+
+### I can still reproduce this using the original repro steps.
+Windows 10 Pro x64, Fall Creators Update, Discord Canary (12831) - Chris Cox on 2018-03-29T17:58:22.551Z
+
+
+### Moved from Verified Fixed to Reopened by Chris Cox on 2018-03-29T17:58:27.620Z
+
+
+### Can reproduce.
+Only happens if the link doesn't start with http:// otherwise the issue does not occur. - Canary, Build 15598 - Windows 10 Home x64 Version 1709 Build 16299.431
+
+HarryThorpe#0864 - Bug Bot on 2018-05-19T21:12:36.732Z
+
+
+### cnr, fixed.  - Clayton on 2018-07-11T23:39:01.699Z
+
+
+### Moved from Reopened to Verified Fixed by Clayton on 2018-07-11T23:39:05.987Z
+
+
+### Can reproduce.
+Write the embed as plaintext, not a url | Discord Canary 0.0.211, Build 20044, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-07-27T08:39:48.374Z
+
+
+### I can reproduce on Canary 20316.
+
+Reopening ticket. - Tarek on 2018-07-31T07:25:39.972Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2018-07-31T07:25:44.376Z
+
+
+### Can't reproduce.
+Tested on Windows 10 Home 64-bit (1803) with Discord Canary Build 25046
+
+that15fine#9275 - Bug Bot on 2018-09-29T12:21:46.255Z
+
+
+### can no longer reproduce.  - Clayton on 2018-10-03T01:34:32.996Z
+
+
+### Moved from Reopened to Verified Fixed by Clayton on 2018-10-03T01:34:38.311Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:32:03.298Z
+
+
+### Archived by Tarek on 2019-01-01T15:32:03.944Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

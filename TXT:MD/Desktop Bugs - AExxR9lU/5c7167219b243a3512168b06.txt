@@ -1,0 +1,87 @@
+[Archived] In the new Activity page, if someone's in a voice channel, the voice icon isn't appearing as clickable even though it is (https://trello.com/c/TQPqbUIu)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-02-23T15:30:42.105Z
+Latest Update: 2019-07-21T21:33:30.026Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Be in Canary 32668 or above, go the the Activity page 
+- Make sure to have any of your friends in a voice channel somewhere 
+- Hover your mouse over the server icon, and the voice icon, try to click at both of them
+
+####Expected result:
+You can click at both of them, but the voice icon should also appear as clickable (click-cursor on hover)
+####Actual result:
+You can click at both of them, but the voice icon doesn't appear as clickable (no click-cursor on hover)
+####Client settings:
+Web Canary 32668
+####System settings:
+HP Chromebook G5 11 - Chrome 72.0.3626.97 (x64)
+
+29602
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-23T15:30:42.105Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 32668
+
+Frances Picard#6209 - Bug Bot on 2019-02-23T15:30:49.695Z
+
+
+### Can reproduce.
+Windows 10 pro x64, Canary 32668
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-23T15:30:54.763Z
+
+
+### Can reproduce.
+macos 10.14.4, Canary 32668, Chrome 72
+
+M24#0272 - Bug Bot on 2019-02-23T15:30:59.692Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7167219b243a3512168b06/9cddf1ef3eb8417914327e2a0411e903/wO9XaGq.gif added by Bug Bot on 2019-02-23T15:31:05.448Z
+
+
+### Can reproduce.
+Windows 10 home, Canary 32668
+
+Mr. Proper#2394 - Bug Bot on 2019-02-23T16:37:39.317Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32668
+
+Daffyduck#5364 - Bug Bot on 2019-02-23T21:34:39.387Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32668
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-25T16:14:13.859Z
+
+
+### Extension of master ticket https://trello.com/c/XsGzBWxE
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-26T01:12:24.765Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-26T23:46:05.115Z
+
+
+### Archived by Aeria on 2019-07-21T21:33:30.039Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

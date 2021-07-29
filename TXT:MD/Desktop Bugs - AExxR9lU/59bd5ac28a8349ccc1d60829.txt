@@ -1,0 +1,83 @@
+[Archived] Searching for a message in a channel that's not yet deleted, then deleting the channel on another device, and then jumping to the message, reopening the channel will crash discord. (https://trello.com/c/zrsqRVI2)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-16T17:09:22.824Z
+Latest Update: 2018-08-21T23:49:36.068Z
+
+Reported by JohnyTheCarrot#0368
+
+####Steps to reproduce:
+- Search for a message in a channel 
+- delete the channel on another device ***(the device used in the attachment is not a VM, but teamviewer for android)*** Press 'jump' on the message 
+- See the loading channel load for ever 
+- Go to a random server 
+- Go back to the server where you deleted the channel.
+
+####Expected result:
+The search menu updates/closes when the channel where it's searching in is deleted, thus preventing the user from jumping to a message in a deleted channel.
+####Actual result:
+The menu does not update/close and I can still jump to the message.
+####Client settings:
+Discord Canary 0.0.163, build 4358.
+####System settings:
+Windows 10 Home (Version 1703)
+
+4394
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-16T17:09:22.824Z
+
+
+### JohnyTheCarrot#0368 - https://i.imgur.com/YJrlRNo.gifv added by Bug Bot on 2017-09-16T17:09:25.342Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary v0.0.163 (Also Samsung Galaxy S7, Android Nougat 7.0, Discord Android Alpha v5.1.6 for part 2)
+
+Zacatero#5839 - Bug Bot on 2017-09-16T17:09:30.246Z
+
+
+### Can reproduce.
+CR Discord Canary 0.0.163 (Build 4358) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-16T17:09:35.277Z
+
+
+### Can reproduce.
+Windows 10 64Bit, Samsung J3 6 v6.0.1
+
+Kashall#1307 - Bug Bot on 2017-09-16T17:09:40.543Z
+
+
+### Verified.  - Clayton on 2017-09-19T20:48:01.876Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T20:50:18.388Z
+
+
+### No longer crashes, but search no longer works until you refresh. - Mike Nisbet on 2017-09-29T18:20:29.521Z
+
+
+### This is a pretty out there edge case. Lowering priority as it no longer crashes. - Jared on 2017-10-16T23:07:50.898Z
+
+
+### No longer crashes. Marking as Verified Fixed. - Jared on 2018-07-05T21:25:58.748Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-05T21:26:03.313Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:49:35.055Z
+
+
+### Archived by Jared on 2018-08-21T23:49:36.075Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

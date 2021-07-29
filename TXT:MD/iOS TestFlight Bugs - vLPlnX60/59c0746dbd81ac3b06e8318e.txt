@@ -1,0 +1,91 @@
+[Archived] Editing a channel to have an invalid name displays the invalid name red text for only a fraction of a second before closing the edit channel screen. (https://trello.com/c/CTkPfMEa)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-09-19T01:35:41.708Z
+Latest Update: 2020-01-18T06:00:04.269Z
+
+Reported by Lucario 🌀 ∝ x²#9656
+
+####Steps to reproduce:
+- Open the Channel Edit menu for a text channel. 
+- Edit the channel name to be something invalid (i.e. a single hyphen). 
+- The red invalid name text appears briefly before the edit menu is closed.
+
+####Expected result:
+The invalid name message should appear, and the edit menu should stay.
+####Actual result:
+The invalid name message appears, but the edit menu immediately closes.
+####Client settings:
+iOS TestFlight 1.9.1 (665)
+####System settings:
+iOS 9.3.5, iPhone 6S
+
+4509
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-19T01:35:41.708Z
+
+
+### Can reproduce.
+CR, iPhone6s, iOS 11, TF 1.9.1
+
+Blizzyrd#7909 - Bug Bot on 2017-09-19T01:35:49.065Z
+
+
+### Can reproduce.
+CR, iOS 11 GM; TestFlight 1.9.1 (665); iPhone 6S
+
+brxxn#0632 - Bug Bot on 2017-09-19T01:35:54.053Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11 GM
+
+XtraFr3ckle#8764 - Bug Bot on 2017-09-19T01:35:59.149Z
+
+
+### Can reproduce.
+iPad Air, iOS 10.1.1 TF 1.9.1
+
+JosiahDH#4111 - Bug Bot on 2017-09-19T02:38:50.743Z
+
+
+### Verified.  - Clayton on 2017-09-22T01:37:39.708Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-22T01:38:03.804Z
+
+
+### **Extension to this issue**
+It also happens with the channel topic. If you trying to save a channel topic with more than 1024 chars, you will see an error message for a fraction of a second before the menu gets closed.
+
+Pascal#0929 - Bug Bot on 2018-04-22T14:07:18.555Z
+
+
+### QwakGoesDuck#0420 - https://www.youtube.com/watch?v=0_RvzzlA1kM added by Bug Bot on 2018-07-14T05:16:03.606Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:40.585Z
+
+
+### Can reproduce.
+CR, iPhone Xʀ, iOS 13.3 - TestFlight 3.1.9 (18591)
+
+rushly#0666 - Bug Bot on 2019-12-17T08:25:23.253Z
+
+
+### Unarchived by Bug Bot on 2019-12-17T08:30:06.378Z
+
+
+### Archived by Bug Bot on 2020-01-18T06:00:04.281Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

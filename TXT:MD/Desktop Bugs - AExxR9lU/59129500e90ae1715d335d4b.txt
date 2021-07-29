@@ -1,0 +1,70 @@
+[Archived] sending text that has linebreaks/multiple lines to a webhook in rich embed form fails to send (https://trello.com/c/GtY6IhpV)
+
+None
+
+Created: 2017-05-10T04:20:16.630Z
+Latest Update: 2017-10-30T17:27:56.825Z
+
+Reported by Rohul1997#6787
+
+####Steps to reproduce: 
+- using a web automation app like zapier create a twitter trigger, making sure that the tweet your trying to send has multiple lines. 
+- Go through the whole process of creating a custom request and use the webhook link from discord. 
+- Fill in the data section so it sends in rich embed form, include the twitter text as 1 of the embed fields. 
+- Finalize the process and begin the test 
+
+####Expected result:
+ The webhook should send the rich embed and if the tweet has multi lines it should output the results in multi lines 
+####Actual result:
+ The webhook doesn't send the rich embed 
+####System settings:
+ Win 10 x64, Discord Canary
+
+1472
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-10T04:20:16.630Z
+
+
+### Can reproduce.
+Win 10 x64, Discord Canary
+
+Birdie♫#6017 - Bug Bot on 2017-05-10T04:20:17.252Z
+
+
+### Can reproduce.
+Win10 x64, Canary
+
+Seth#4431 - Bug Bot on 2017-05-10T04:20:19.277Z
+
+
+### Can reproduce.
+macOS Sierra // Discord Canary 0.0.145
+
+ItsPugle#5963 - Bug Bot on 2017-05-10T04:20:21.220Z
+
+
+### also happens if message cointains " (&quot;)
+
+Birdie♫#6017 - Bug Bot on 2017-06-24T19:56:46.274Z
+
+
+### Can't repro.  - Clayton on 2017-08-10T00:27:17.088Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-08-10T00:27:21.579Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:27:55.911Z
+
+
+### Archived by Jared on 2017-10-30T17:27:56.827Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

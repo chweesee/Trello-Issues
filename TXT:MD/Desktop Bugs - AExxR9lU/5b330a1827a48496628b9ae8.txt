@@ -1,0 +1,69 @@
+[Archived] Permissions viewer isn't refreshing when displaying to other channel (https://trello.com/c/yNIinFl7)
+
+None
+
+Created: 2018-06-27T03:52:56.246Z
+Latest Update: 2018-08-21T23:48:53.209Z
+
+Reported by zabszk#5292
+
+####Steps to reproduce:
+- open editing one channel 
+- navigate to "Permissions tab" 
+- close the viewer 
+- open editing other channel 
+- navigate to permissions tab 
+- you can see permissions configured for the first channel (it "works" with the invites too)
+
+####Expected result:
+It is supposed to show permissions and invites for the second channel, not for the first opened previously.
+####Actual result:
+It displays permissions and invites from FIRST edited channel after launching Discord, even from channel in other server
+####Client settings:
+Discord Canary 0.0.211
+####System settings:
+Windows 10 (Version 10.0.17134.112)
+
+14872
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-27T03:52:56.246Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211, Build 17739, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-06-27T03:53:03.638Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 17739 -- Fixed as of 17794, pushing for archival.
+
+webhp#1337 - Bug Bot on 2018-06-27T03:53:08.645Z
+
+
+### Can reproduce.
+Pushing for archival; fixed in 17794
+
+Oasis#4730 - Bug Bot on 2018-06-27T03:53:13.608Z
+
+
+### can no longer reproduce, pushing to verified fixed.  - Clayton on 2018-06-27T22:37:54.808Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Clayton on 2018-06-27T22:38:00.453Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:48:52.224Z
+
+
+### Archived by Jared on 2018-08-21T23:48:53.212Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

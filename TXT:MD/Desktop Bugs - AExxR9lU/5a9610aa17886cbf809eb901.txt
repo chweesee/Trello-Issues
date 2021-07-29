@@ -1,0 +1,89 @@
+[Archived] Trying to open giphy or tenor causes discord to crash (https://trello.com/c/rCTkbyXf)
+
+P1: Severe,
+Mid,
+Client side,
+Crash
+
+Created: 2018-02-28T02:15:06.618Z
+Latest Update: 2018-07-06T18:02:23.740Z
+
+Reported by JulianPH454#0970
+
+####Steps to reproduce:
+- Step 1 
+- type `/giphy` or `/tenor` followed by  any character
+
+####Expected result:
+Giphy or tenor window opens with gifs
+####Actual result:
+Discord crashes, in console there's an error `TypeError: en[n] is not a function`
+####Client settings:
+Discord stable
+####System settings:
+Windows 10x64 and Chrome 64
+
+9161
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-28T02:15:06.618Z
+
+
+### Can reproduce.
+Windows 10 x64 - Discord stable - Build Number: 11283 - Version Hash: c6f0a3a85e379d3be072221e6be20eb0a2cbbc29
+
+Fisgerman#2824 - Bug Bot on 2018-02-28T02:15:14.063Z
+
+
+### Can reproduce.
+Discord Canary 0.0.203, Build 11297, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-02-28T02:15:19.261Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 11297
+
+webhp#1337 - Bug Bot on 2018-02-28T02:15:24.124Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Discord PTB, Build 11279
+
+Realex78#2193 - Bug Bot on 2018-02-28T02:17:18.655Z
+
+
+### Can reproduce.
+Windows 10 Home (1709) x64, Canary 0.0.202
+
+DeJay#1337 - Bug Bot on 2018-02-28T02:19:35.398Z
+
+
+### Cannot reproduce anymore, Discord Canary 11323. Moving to claimed fixed. - Tarek on 2018-02-28T05:14:13.291Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Tarek on 2018-02-28T05:14:18.510Z
+
+
+### Can't reproduce.
+Windows 10 Home x64, Discord Canary Build nº 11430, Version Hash 1b951ef9aa3e9933d540bcf2fef73501b71f113e (maybe fixed by now?)
+
+PillGP#2767 - Bug Bot on 2018-03-03T00:17:37.835Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-05-02T23:08:17.841Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:02:22.725Z
+
+
+### Archived by Jared on 2018-07-06T18:02:23.744Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

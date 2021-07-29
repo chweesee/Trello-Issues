@@ -1,0 +1,139 @@
+[Archived] [Web Canary] Clicking the login button twice with nothing in both fields clears the "This Field is Required" warning. (https://trello.com/c/1IRdF9J6)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-04-27T01:27:08.579Z
+Latest Update: 2019-06-09T03:00:02.980Z
+
+Reported by Cam#7527
+
+####Steps to reproduce:
+- Open Discord Web Canary 
+- Ensure you are logged out 
+- Go to the login page 
+- Don't type anything 
+- Click "Login" 
+- Observe the "This Field is Required" message goes away
+
+####Expected result:
+The "This Field is Required" message should stay there
+####Actual result:
+The "This Field is Required" message sometimes disappears.
+####Client settings:
+Release Channel: canary, Build Number: 36442, Version Hash: a546e1ea0316031947e5321a4cf398f07baa5235
+####System settings:
+Windows 10 Pro x64
+
+33552
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-27T01:27:08.579Z
+
+
+### Can reproduce.
+CR, vanished after 10 clicks - Win10x64 Web Canary 36442
+
+Darth#9386 - Bug Bot on 2019-04-27T01:27:15.938Z
+
+
+### Can reproduce.
+CR - Can Reproduce - It vanished after 5 through 12 clicks each time I tried to reproduce it - Windows 10 Home x64 - Web Canary 36442 - Google Chrome Version 74.0.3729.108
+
+jedi3#0001 - Bug Bot on 2019-04-27T01:27:20.911Z
+
+
+### Can reproduce.
+CR, Vanished after 12 clicks , Windows 10 home 64bit , Discord Canary 36442
+
+Arun Kapil#9916 - Bug Bot on 2019-04-27T01:27:25.947Z
+
+
+### Can reproduce.
+Windows 10 1809 Webcanary 36503
+
+GlenMerlin#2119 - Bug Bot on 2019-04-27T02:10:24.661Z
+
+
+### Can reproduce.
+Win10x64 1809 - Canary 36442 - Chrome 73.0.3683.103
+
+Cubity_First#0001 - Bug Bot on 2019-04-27T02:13:26.474Z
+
+
+### Can reproduce.
+Win 10 Pro x64 (1809), Chrome 73 | Web Canary 36503
+
+Clay#0001 - Bug Bot on 2019-04-27T02:53:55.609Z
+
+
+### Can reproduce.
+Windows 10 Pro x32, Canary 36503, Chrome 74.0.3729.108
+
+Karasu#0013 - Bug Bot on 2019-04-27T03:27:35.918Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 36503, chrome 73
+
+Pain#2020 - Bug Bot on 2019-04-27T04:30:30.241Z
+
+
+### Can reproduce.
+Windows 10 home, Canary 3503 Chrome 73
+
+Mr. Proper#2394 - Bug Bot on 2019-04-27T07:05:02.166Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Web Canary 36525 - Google Chrome 74.0.3729.108
+
+Daffyduck#5364 - Bug Bot on 2019-04-27T09:28:34.086Z
+
+
+### Can reproduce.
+There doesn't seem to be a strict pattern, might have something to do with clicking it in row quickly - Windows 10 Home (x64) Build:1809 v17763.437, Canary 36525
+
+CoolMan1342#7049 - Bug Bot on 2019-04-27T10:16:05.756Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary 36529
+
+Lekic#0001 - Bug Bot on 2019-04-28T04:00:24.595Z
+
+
+### Can reproduce.
+CR, vanishes after 2 clicks on stable on Windows 10 Pro x64 (1809) - Stable 36215
+
+Rushly#9433 - Bug Bot on 2019-04-28T07:06:22.256Z
+
+
+### Verified on Canary Webclient 37031, Google Chrome 74.0.3729.131 (64-bit), Windows 10 Home 64-bit (v1809). - Ene on 2019-05-06T22:26:10.723Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ene on 2019-05-06T22:26:22.095Z
+
+
+### Can reproduce.
+Windows 10 Pro, V.1803, x64, Canary, Build Number: 37031
+
+mrphilip#0001 - Bug Bot on 2019-05-07T18:08:50.581Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 37253; Google Chrome 74.0.3729.131
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-10T02:33:24.251Z
+
+
+### Archived by Bug Bot on 2019-06-09T03:00:02.996Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

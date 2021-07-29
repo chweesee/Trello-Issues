@@ -1,0 +1,83 @@
+[Archived] Wrapping a custom server emoji with an underscore in the name in italics breaks the italics (https://trello.com/c/EaUsvB53)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-09T17:12:20.663Z
+Latest Update: 2019-10-23T23:01:15.627Z
+
+Reported by Throne3d#2479
+
+####Steps to reproduce:
+- Create a custom server emoji with an underscore in the name (e.g. `:test_this:`) 
+- Wrap it in underscores and send a message with it (`_:test_this:_`)
+
+####Expected result:
+It should (as with `_:test:_` or the non-custom `_:flag_gb:_`) not break italics – this is noticeable if you put words beside it or use it in a "/me" action
+####Actual result:
+It breaks the italics of surrounding words and shows the underscores around it, unlike other emoji
+####Client settings:
+Desktop Canary, 0.0.24
+####System settings:
+Arch Linux (kernel 4.12.4-1-ARCH), Cinnamon DE (3.4.4-1), Muffin WM (3.4.0-1)
+
+2983
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-09T17:12:20.663Z
+
+
+### Can reproduce.
+CR Discord Canary 0.0.154, macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-08-09T17:12:28.156Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro
+
+Nelson1348#9190 - Bug Bot on 2017-08-09T17:12:33.313Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 15063, Discord Canary 0.0.163
+
+Charles#1934 - Bug Bot on 2017-08-09T17:12:38.119Z
+
+
+### Verified.  - Clayton on 2017-08-09T21:10:19.141Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T21:10:24.356Z
+
+
+### P3 - Jared on 2017-10-17T01:29:52.491Z
+
+
+### Checked as per the bug event, I can still reproduce this in Canary build 12159 as shown there: https://i.imgur.com/GzTmuGd.png - Alexander (DJScias) on 2018-03-16T17:28:47.274Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598b42749f33e352c4a7657f/da6e197e8addc7dc484ec88f93dc2e7f/unknown.png added by Bug Bot on 2018-07-15T09:11:52.439Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:56.371Z
+
+
+### Can reproduce.
+Client Settings: Desktop Stable 0.0.255 38058 System Settings: macOS 10.14.5 Beta (18F127a) -- This bug makes it so that using /me with a custom emote with an underscore in it doesn't work properly, but if this bug still hasn't been fixed at this point the other one could be fixed by simply making /me wrap with asterisks instead
+
+Pearl#1846 - Bug Bot on 2019-05-21T00:36:32.932Z
+
+
+### Unarchived by Bug Bot on 2019-05-21T01:00:08.084Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:15.643Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

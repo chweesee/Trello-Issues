@@ -1,0 +1,91 @@
+[Archived] Android Oreo no notifications (https://trello.com/c/1JZH4yg5)
+
+None
+
+Created: 2017-08-24T17:28:32.925Z
+Latest Update: 2017-12-02T16:14:57.018Z
+
+Reported by Liru#7091
+
+####Steps to reproduce:
+- Have app running runner in the background 
+- Receive a message from someone (or a mention, or anything that gets a notification normally for you)
+
+####Expected result:
+A notification should appear
+####Actual result:
+No notifications show, not even in the System Notification Log
+####Client settings:
+Alpha 4.0.9 (504)
+####System settings:
+Android 8.0.0 Pixel
+
+3520
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-24T17:28:32.925Z
+
+
+### Can reproduce.
+Nexus 6P, Android 8.0.0, Discord 4.0.9
+
+Chrees#4389 - Bug Bot on 2017-08-24T17:28:40.282Z
+
+
+### Can reproduce.
+Google pixel 8.0, discord 4.0.9
+
+Link#2436 - Bug Bot on 2017-08-24T17:28:45.226Z
+
+
+### Can reproduce.
+CR - Android Alpha 4.0.9 - Google Pixel - Android 8.0.0
+
+Pointy#9109 - Bug Bot on 2017-08-24T17:28:50.210Z
+
+
+### Since Android 8 (Oreo/API 26), all apps targeting the platform must implement the new Notification Channels to be able to send notifications (one channel for all notifications is possible, but it still needs to be implemented manually, there is no default automatic channel). Since Discord since version 4.1 targets Oreo, the platform will not show notifications because it doesn't define Notification Channels.
+
+Speed#5138 - Bug Bot on 2017-08-29T00:16:25.388Z
+
+
+### Can reproduce.
+Google Pixel 8.0, Discord 5.1.2
+
+SilverMight#1302 - Bug Bot on 2017-09-02T02:10:22.027Z
+
+
+### Can reproduce.
+Google Pixel XL, 8.0.0
+
+Jarvenis#8371 - Bug Bot on 2017-09-02T16:50:28.177Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2017-09-11T16:48:08.513Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Jeff Cailteux on 2017-09-11T16:48:13.674Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Mike Nisbet on 2017-09-15T10:59:35.109Z
+
+
+### Verified Fixed - Jared on 2017-10-02T17:21:41.878Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T17:21:46.001Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:14:55.649Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:14:57.020Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

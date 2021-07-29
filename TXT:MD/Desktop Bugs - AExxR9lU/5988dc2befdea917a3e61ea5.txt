@@ -1,0 +1,71 @@
+Switching server with PTT stops you from talking (https://trello.com/c/9QSV5GuM)
+
+P2: Fix can wait a while,
+High
+
+Created: 2017-08-07T21:31:23.344Z
+Latest Update: 2019-09-23T22:30:07.395Z
+
+Reported by TimThe#7618
+
+####Steps to reproduce:
+- Have PTT activated 
+- join a voice channel 
+- hold the PTT button down 
+- switch voice channel in another server
+
+####Expected result:
+you keep talking
+####Actual result:
+You stop talking and have to release the PTT button to start talking again
+####Client settings:
+Canary build 2834, v 0.0.163
+####System settings:
+Windows 10 Pro x64 v1703
+
+2916
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-07T21:31:23.344Z
+
+
+### Can reproduce.
+Canary 0.0.163, Windows 10 Pro x64 (1703)
+
+Immotay#7475 - Bug Bot on 2017-08-07T21:31:30.828Z
+
+
+### Can reproduce.
+CR. Canary 0.0.154, macOS 10.12.6 (16G29)
+
+slice#4274 - Bug Bot on 2017-08-07T21:31:35.801Z
+
+
+### Can reproduce.
+w10 Home x64 v1703 Canary 0.0.163
+
+Verdant#9104 - Bug Bot on 2017-08-07T21:31:40.853Z
+
+
+### Verified.  - Clayton on 2017-08-09T22:01:11.362Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T22:01:19.965Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:48:48.364Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:44:58.568Z
+
+
+### Wolterhon#3938 - https://i.imgur.com/nxtYu5E.gifv added by Bug Bot on 2018-07-14T10:41:31.767Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,68 @@
+[Archived] Someone's invalid presence may cause reconnection cycle to other users (https://trello.com/c/dh0JJRES)
+
+P2 - Can wait a while,
+Low
+
+Created: 2017-11-13T07:36:30.575Z
+Latest Update: 2018-07-06T21:24:49.046Z
+
+Reported by DaFri_Nochiterov#4289
+
+####Steps to reproduce:
+- Somewhere on random server member has an invalid presence 
+- (invalid timestamp format in my case) 
+- You open up Discord 
+- It starts connection and soon receives READY payload that contains this invalid presence
+
+####Expected result:
+Discord ignores an invalid presence and ready to use
+####Actual result:
+Discord invalidates READY payload as incorrect and starts re-connection cycle
+####Client settings:
+Discord Alpha 5.6.6
+####System settings:
+Android 6.0 (LineageOS 13.0), Alcatel Idol 3 4.7
+
+6343
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-13T07:36:30.575Z
+
+
+### ks0908#8526 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a094b7e185a57bac03c249e/3c1d7e545224d8ea4f9eabc70433dfc2/Capture_2017-11-13-07-29-24.png added by Bug Bot on 2017-11-13T07:36:33.090Z
+
+
+### Can reproduce.
+approve LG xpower 6.0.1 on alpha 5.6.6
+
+ks0908#8526 - Bug Bot on 2017-11-13T07:36:38.049Z
+
+
+### Can reproduce.
+Can Reproduce, pretty much locks you out of Discord past the REST API Xiaomi Redmi Note 3 Pro, Android 6.0.1
+
+King - Vlad#8339 - Bug Bot on 2017-11-13T07:36:43.056Z
+
+
+### Can reproduce.
+CR, prevents most discord functions from working, Discord 5.6.6, Google Pixel XL, Android 8.0.0
+
+crater#8252 - Bug Bot on 2017-11-13T07:36:48.044Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jared on 2017-12-05T00:23:08.060Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:24:48.057Z
+
+
+### Archived by Jared on 2018-07-06T21:24:49.050Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

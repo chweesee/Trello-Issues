@@ -1,0 +1,182 @@
+[Archived] Searching for an emoji, then tapping on a category, will cause the channel list animation to break (https://trello.com/c/bdtPY94K)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-04-13T02:41:40.109Z
+Latest Update: 2019-10-28T14:20:15.834Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Go to any channel 
+- Open the emoji picker 
+- Open emoji picker search 
+- Search for any emoji 
+- Tap on any of the bottom categories 
+- Close the emoji picker 
+- Swipe to open the channel list 
+- Note: Animation may not always break, make sure to try multiple times
+
+####Expected result:
+Animation is entirely smooth
+####Actual result:
+Animation breaks, showing the current channel after opening the list, and jumping around
+####Client settings:
+TestFlight 2.5.2 (13730)
+####System settings:
+iPhone 6s iOS 12.3 Dev Beta 2
+
+32579
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-13T02:41:40.109Z
+
+
+### 💐nickWtn💐#3789 - undefined added by Bug Bot on 2019-04-13T02:41:43.100Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.3 (dev beta 2) - Testflight 2.5.2 (13730)
+
+Xylium#5800 - Bug Bot on 2019-04-13T02:41:47.552Z
+
+
+### Can reproduce.
+Can reproduce, the animation gets really bad for me after the fact until I restart, like flashing when switching between other channels and DM’s, iPhone XR, iOS 12.1, TestFlight 2.5.2 (13730)
+
+💐nickWtn💐#3789 - Bug Bot on 2019-04-13T02:41:52.634Z
+
+
+### Can reproduce.
+Can Reproduce on iPhone 6, iOS 12.2 - TestFlight 2.5.2 (13730)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-04-13T02:41:57.770Z
+
+
+### Can reproduce.
+iPhone X iOS 12.2 Testflight 2.5.2 (13730)
+
+Valcrye#0001 - Bug Bot on 2019-04-13T02:50:49.083Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.2 TestFlight 2.5.2 13730
+
+chaNcharge#7023 - Bug Bot on 2019-04-13T05:02:58.476Z
+
+
+### Can reproduce.
+iPad Air (iOS 12.1.4) - TestFlight 2.5.2 (13730)
+
+gianna#0248 - Bug Bot on 2019-04-13T05:06:45.098Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, tf 2.5.2 (13730)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-13T06:48:28.591Z
+
+
+### Can't reproduce.
+CNR. iPhone XR • iOS 12.2 • TestFlight 2.5.2 (13730)
+
+Rage#9991 - Bug Bot on 2019-04-13T12:46:32.017Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.5.2 (13730)
+
+Killtracity#0001 - Bug Bot on 2019-04-13T13:43:58.020Z
+
+
+### Can reproduce.
+iphone 6s iOS 12.2 Testflight 2.5.2
+
+GlenMerlin#2119 - Bug Bot on 2019-04-13T15:33:54.673Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2 - TestFlight 2.5.2 (13730)
+
+Daffyduck#5364 - Bug Bot on 2019-04-13T21:05:14.550Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.3 (16F5129d) - TestFlight 2.5.2 (13730)
+
+Isabel#0002 - Bug Bot on 2019-04-13T22:15:12.249Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 2.5.2 (13730)
+
+Skyla#0002 - Bug Bot on 2019-04-14T14:31:32.123Z
+
+
+### Can reproduce.
+2.5.2 (13786) | After my second try I was able to repro. The channel list animation blinked really fast and bugged out.
+
+Clay#0001 - Bug Bot on 2019-04-16T06:07:47.743Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.2 | TestFlight  2.5.2 (13786) | Forgot to add system settings in previous cr.
+
+Clay#0001 - Bug Bot on 2019-04-16T06:09:55.475Z
+
+
+### Moved from New Issues to Backlog by Victoria on 2019-04-16T22:47:13.980Z
+
+
+### Can reproduce.
+CR; iPhone 6, iOS 12.2 - TestFlight 2.5.2 (13786)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-04-19T17:40:59.235Z
+
+
+### Deleting image because it was meant to be a gif, not an image. - Ghoul on 2019-04-30T06:46:33.509Z
+
+
+### 💐nickWtn💐#3789 - https://imgur.com/a/3oFaCd3.gif added by Bug Bot on 2019-04-30T06:47:04.740Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.3 (15638) with iPad Pro (11 inch) running iOS 12.3.1.
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-09T19:18:45.017Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-06-09T19:19:03.244Z
+
+
+### Can't reproduce.
+iPhone XR & iPad Air (Portrait Mode) iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+binchlord#0998 - Bug Bot on 2019-06-09T21:12:12.066Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 13.0 (17A5492t) - TestFlight 3.0.3 (15638)
+
+Isabel#0002 - Bug Bot on 2019-06-10T04:58:49.185Z
+
+
+### Can't reproduce.
+iPhone XR, iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+SplashyFlame#4968 - Bug Bot on 2019-06-10T12:35:52.998Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-10T12:35:53.399Z
+
+
+### Archived by Bug Bot on 2019-07-10T21:30:37.027Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

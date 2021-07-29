@@ -1,0 +1,87 @@
+[Archived] Sending an edited picture sends a very tiny thumbnail (120x90, usually, sometimes a blank jpg of 0 bytes) instead of the full sized picture (HEIF only) (https://trello.com/c/e517Oadz)
+
+None
+
+Created: 2017-11-21T04:47:25.510Z
+Latest Update: 2019-08-09T12:02:30.892Z
+
+Reported by 🍁 juj 🍁#5114
+
+####Steps to reproduce:
+- Make sure HEIF (High Efficiency) format is enabled in Camera => Formats. Using default Camera app with Live Photo on, default Photo mode. 
+- Take a picture in the Camera app. 
+- Go to Photos app and edit the picture you just took, seemingly any edit (cropping a bit, rotating, auto tune etc) works, then save the edit with Done. 
+- Upload the just edited picture with Paperclip => Tap the picture in the recent list there. Browsing the picture in Camera Roll won't produce the issue.
+
+####Expected result:
+(Edited) Picture uploads in full size format, like it would unedited (or as it does for non-HEIF pictures, or pictures browsed from Camera Roll, even edited).
+####Actual result:
+The resulting uploaded image is a tiny thumbnail, usually a 120 x 90 sized picture.
+####Client settings:
+Discord TestFlight 2.0.1 (Build 1610)
+####System settings:
+iPhone 8 Plus, iOS 11.2 (PB4)
+
+6507
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-21T04:47:25.510Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 11.1.2, TestFlight 2.0.1. Uploaded a .jpg file of 0 kB.
+
+skyllful#8516 - Bug Bot on 2017-11-21T04:47:32.951Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 8 +, iOS 11.1.1, Discord TestFlight 2.0.1. | Uploads 0kb most of the time but sends a 120 x 90 sized picture as well.
+
+🍁 Ghoul 🍁#4567 - Bug Bot on 2017-11-21T04:47:37.871Z
+
+
+### Can reproduce.
+Can reproduce. Also occurs with bokeh photos taken using an iPhone Plus series phone in “Portrait Mode”. iPhone X, iOS 11.1.2, Discord TestFlight 2.0.1
+
+Kokorone#1874 - Bug Bot on 2017-11-21T04:47:42.864Z
+
+
+### I can reproduce this P3, moving to Verified Bugs.
+
+Discord 2.0.1 (1610), iOS 11.1.1, iPhone 8 Plus - Alexandru Todea on 2017-11-26T09:34:45.821Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2017-11-26T09:34:53.705Z
+
+
+### Verified - Jared on 2017-11-29T20:21:54.739Z
+
+
+### Sound like a dupe of https://trello.com/c/2Hjzr6X0 - Tarek on 2018-01-05T03:03:28.356Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-01-08T17:23:12.451Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Jared on 2018-01-08T17:26:58.268Z
+
+
+### Archived by Jared on 2018-03-19T21:54:17.186Z
+
+
+### Unarchived by Pascal on 2019-08-09T12:02:09.573Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-08-09T12:02:16.848Z
+
+
+### Archived by Pascal on 2019-08-09T12:02:22.053Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

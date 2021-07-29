@@ -1,0 +1,97 @@
+[Archived] When system emotes are sent in a message, they convert to Twemoji but don't enlarge (https://trello.com/c/bO7FULA0)
+
+None
+
+Created: 2019-05-23T19:04:24.549Z
+Latest Update: 2019-08-16T21:24:25.864Z
+
+Reported by VR#0124
+
+####Steps to reproduce:
+- Send a system emoji (without escaping)e.g. the heart 
+- Observe the size 
+- Send a Twemoji in a message (e.g. \:heart:) 
+- Observe the noticeable size difference
+
+####Expected result:
+The emote should be enlarge
+####Actual result:
+It's stays small as if you sent an escaped system emote
+####Client settings:
+Discord Alpha 9.0.2 (902)
+####System settings:
+OnePlus 2 - Android 8.1.0 - LineageOS 15.1
+
+35179
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-23T19:04:24.549Z
+
+
+### VR#0124 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ce6eeb8df3cdb5caea2c096/180f27e806a643fa7f88626569f2a360/Screenshot_20190523-224756_Discord2.png added by Bug Bot on 2019-05-23T19:04:27.350Z
+
+
+### Can reproduce.
+HTC U12+, Android 8.0.0 - Alpha 9.0.2
+
+anonymous kitten#8929 - Bug Bot on 2019-05-23T19:04:32.010Z
+
+
+### Can reproduce.
+Samsung Galaxy J8 (2018) running on OneUI 1.0.0 runs Android Alpha 9.0.2 (902). Only works with the heart emoji. I tried reproducing it with others but it didn't work.
+
+Talon#1337 - Bug Bot on 2019-05-23T19:04:36.973Z
+
+
+### Can reproduce.
+Pocophone F1, Android 9, MIUI 10.3, Alpha 902
+
+dafaqed#4375 - Bug Bot on 2019-05-23T19:04:42.093Z
+
+
+### Can't reproduce.
+CNR, tried with multiple emojis, they show the same size | Samsung Galaxy J1 ace, Android 4.1.1, alpha 9.0.2
+
+legendarylol#8215 - Bug Bot on 2019-05-23T19:14:04.609Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.0.2
+
+AHkhan#9999 - Bug Bot on 2019-05-23T19:33:43.158Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 4 - Android 7.0 - Alpha 9.0.2 (902) - with heart emoji
+
+voldemort#6931 - Bug Bot on 2019-05-23T20:04:23.189Z
+
+
+### Can reproduce.
+• Android 6.0.1 • Samsung Galaxy s5, Android Alpha 9.0.3
+
+Krobo#4784 - Bug Bot on 2019-05-24T09:00:26.839Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 9.0.2
+
+Quad#1887 - Bug Bot on 2019-05-28T19:24:31.107Z
+
+
+### Can't reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 9.0.5
+
+TheFutureKnight#7664 - Bug Bot on 2019-05-30T01:41:12.146Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:24:25.875Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

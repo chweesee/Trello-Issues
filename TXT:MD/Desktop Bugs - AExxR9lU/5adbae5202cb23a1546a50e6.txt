@@ -1,0 +1,69 @@
+[Archived] GIF server icon transparency is broken (https://trello.com/c/wpAQMKIS)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-21T21:34:10.953Z
+Latest Update: 2018-10-22T20:20:05.743Z
+
+Reported by figgyc#0168
+
+####Steps to reproduce:
+- Upload a transparent GIF (non animated or animated) to the server icon 
+- Click apply
+
+####Expected result:
+The transparency is grey like it is for PNGs
+####Actual result:
+The transparency is black
+####Client settings:
+Canary build 13990
+####System settings:
+win10 x64 1709
+
+11074
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-21T21:34:10.953Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64 - Discord canary, Build Number: 13990
+
+Xylium#1480 - Bug Bot on 2018-04-21T21:34:18.415Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord canary, Build Number: 13990
+
+huhen#0143 - Bug Bot on 2018-04-21T21:34:23.487Z
+
+
+### Can reproduce.
+CR, the background turned into a pinkish color for me. Macbook Air (Early 2015), macOS 10.12.6 Sierra, Discord Canary (Build 13963)
+
+Rage#0001 - Bug Bot on 2018-04-21T21:34:28.397Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 1703, Discord Canary, Build Number: 13990
+
+Serban#1820 - Bug Bot on 2018-04-22T16:41:06.725Z
+
+
+### Verified.  - Clayton on 2018-04-25T00:11:32.013Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-25T00:11:38.413Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:05.744Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

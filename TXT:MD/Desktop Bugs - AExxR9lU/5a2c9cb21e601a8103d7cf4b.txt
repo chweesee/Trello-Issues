@@ -1,0 +1,86 @@
+[Archived] Opening discord via invite accepted page (in chrome 63.0.3239.84 64 bit) with discord (canary) closed starts an empty discord window. (https://trello.com/c/55HjrHB3)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-12-10T02:32:18.854Z
+Latest Update: 2018-08-30T23:34:12.646Z
+
+Reported by Thirteen#2362
+
+####Steps to reproduce:Close discord 
+- Open invite link 
+- Accept invite 
+- When prompted "open discord canary" accept 
+- Discord fails to open
+
+####Expected result:
+Discord should load to the main / default view
+####Actual result:
+An empty window loads with no content
+####Client settings:
+Release Channel: canary, Build Number: 8394, Version Hash: 5a1c548f726f8ba4b531e2cd2c3ae8849ffe8749
+####System settings:
+Windows 10 Pro [Version 1607, Build 14393.1914]
+
+6895
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-10T02:32:18.854Z
+
+
+### GospodinCrni#2565 - https://i.imgur.com/CVy6oJA.gifv added by Bug Bot on 2017-12-10T02:32:21.544Z
+
+
+### Can reproduce.
+CR; Windows 7 ultimate x64; Desktop Canary 8394; Opened the invite link in firefox 57.0.2 (64-bit)
+
+GospodinCrni#2565 - Bug Bot on 2017-12-10T02:32:26.430Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1709 (Canary build 8394, v 0.0.182)
+
+TimThe#7618 - Bug Bot on 2017-12-10T02:32:31.448Z
+
+
+### Can reproduce.
+CR, Canary 0.0.182, Build 8394, Google Chrome 63.0.3239.84 (x64), Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2017-12-10T02:32:36.431Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709; Canary 8394, v0.0.182; Google Chrome 63.0.3239.84 (64-bit)
+
+thewsomeguy#5025 - Bug Bot on 2017-12-10T23:04:28.253Z
+
+
+### Can reproduce.
+Windows 10 Home 15063
+
+Pixel#8044 - Bug Bot on 2017-12-10T23:11:15.204Z
+
+
+### Verified!  - Tarek on 2017-12-15T09:42:11.443Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-15T09:42:15.995Z
+
+
+### Cannot reproduce. Marking as Verified Fixed. - Jared on 2018-07-11T22:16:39.936Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-11T22:16:45.654Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:12.648Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

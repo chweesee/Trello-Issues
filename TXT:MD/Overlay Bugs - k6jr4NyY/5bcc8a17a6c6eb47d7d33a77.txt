@@ -1,0 +1,64 @@
+Overlay goes really small when hooked by OBS game capture in SOMA (https://trello.com/c/nkl8NSG2)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-21T14:15:51.647Z
+Latest Update: 2019-08-12T19:40:09.991Z
+
+Reported by Fzzy#0001
+
+####Steps to reproduce:
+- Start SOMA 
+- Start OBS, make a game capture source and select SOMA 
+- Bug occurs as soon as the game capture finds SOMA
+
+####Expected result:
+The overlay should open and display its usual stuff
+####Actual result:
+The overlay gets shoved into what looks like a 100x100 pixel box in the top left of the screen
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 26344, Version Hash: dd79c191e1c3276e7afc28da7fa1ae2230b60708
+####System settings:
+Windows 10 build 17134.285
+
+21424
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-21T14:15:51.647Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 26432 - OBS Studio 64x 22.0.2
+
+Alipoodle#5025 - Bug Bot on 2018-10-21T14:15:58.981Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,Discord Canary 26655,OBS studio 64x 22.0.2 {CR}
+
+Outbøob#6666 - Bug Bot on 2018-10-21T14:16:03.971Z
+
+
+### Can reproduce.
+Windows 10 Home 64x; Discord Canary 26655; OBS studio 64x 22.0.2;
+
+S6out#1111 - Bug Bot on 2018-10-21T14:16:08.944Z
+
+
+### minor - Clayton on 2018-11-07T05:31:19.300Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord canary 43381 (0.0.252) - Was able to reproduce with osu! Previously haven't had this issue, but has happened again.
+
+Alipoodle#5025 - Bug Bot on 2019-08-12T19:40:10.004Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

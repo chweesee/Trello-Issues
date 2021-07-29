@@ -1,0 +1,104 @@
+[Archived] Swapping from search to friends list in the ios testflight app causes an effect that requires you to restart the app (https://trello.com/c/QzQmWUo8)
+
+P3 - Will be fixed eventually
+
+Created: 2019-11-14T19:47:38.130Z
+Latest Update: 2019-11-18T19:09:09.539Z
+
+Reported by Neocvy#6875
+
+####Steps to reproduce:
+- Go to any discord server NOTE this requires the new discord ios UI so don’t try if you don’t it by new ui I meant the one that has all options on the bottom 
+- Press the search option 
+- (This won’t work the first time you do this so try atleast 9 times) Press cancel and then as your ios keyboard is dissapearing press the friends list button repeat this step atleast 8 times untill you get it to work. Also you may need to slide to the left side of your screen while doing this not sure tho.
+
+####Expected result:
+You should get into your friends list screen without any problem.
+####Actual result:
+You get into the friends list screen but at the bottom of your screen there should be a message saying channel is read-only/send message/follow and you won’t be able to exit the friends list tab unless you close discord
+####Client settings:
+TestFlight 3.17
+####System settings:
+Iphone 8. Ios 13.1.3
+
+47781
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-14T19:47:38.130Z
+
+
+### 🎃nickWtn🎃#3789 - https://youtu.be/igrJ7twL9Kw added by Bug Bot on 2019-11-14T19:47:40.704Z
+
+
+### 🎃nickWtn🎃#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5dcdaf5976e95d3ddbadf1e5/d9a431afd70849739d1c0e2deb260688/MVCQb1P.png added by Bug Bot on 2019-11-14T19:47:41.702Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.2.2; TestFlight 3.1.7 (18081) [Tabs Experiment]
+
+Jiralite#1207 - Bug Bot on 2019-11-14T19:47:45.831Z
+
+
+### Can reproduce.
+TestFlight 3.1.7 (18195),iPhone XR, iOS 13.2 This worked without using the keyboard at all, I just had to press the bottom friends button while swiping into the text channel from the channel list
+
+SplashyFlame#0067 - Bug Bot on 2019-11-14T19:47:50.701Z
+
+
+### Can reproduce.
+iphone 6+ ios 12.4.1 , testflight 3.1.7 (18195)
+
+kitten#6957 - Bug Bot on 2019-11-14T19:47:55.728Z
+
+
+### Can reproduce.
+iOS 12.4.3; TestFlight 3.1.7 (18195); iPhone 6
+
+Puyodead1#0001 - Bug Bot on 2019-11-14T19:49:29.278Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.3 (dev beta 2) - TestFlight 3.1.7 (18195)
+
+Xylium#5800 - Bug Bot on 2019-11-14T20:01:40.838Z
+
+
+### Can reproduce.
+CR : iPhone X, iOS 13.3, TestFlight 3.1.7 (18195)
+
+TheRudeDude#6040 - Bug Bot on 2019-11-14T20:15:59.128Z
+
+
+### Can reproduce.
+iPhone 7, iOS 13.1.4 , TestFlight 3.1.7 (18209)
+
+baecon#0666 - Bug Bot on 2019-11-14T23:47:57.743Z
+
+
+### Can reproduce.
+iPhone X (iOS 13.2), Testflight 3.1.6 (18209)
+
+MikeTheSpike#0350 - Bug Bot on 2019-11-15T06:38:21.588Z
+
+
+### Duplicate: https://trello.com/c/3nbGMmnd
+
+Jiralite#1207 - Bug Bot on 2019-11-15T13:05:25.181Z
+
+
+### Moved from New Issues to Won't Fix by Jonathan Wu on 2019-11-15T16:50:17.258Z
+
+
+### Extension of https://trello.com/c/3nbGMmnd - Daffyduck on 2019-11-18T19:09:07.533Z
+
+
+### Archived by Daffyduck on 2019-11-18T19:09:09.556Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

@@ -1,0 +1,68 @@
+[Archived] Opening discord from taskbar opens another instance of Discord. **Win8.1 Specific** (https://trello.com/c/jE6dftZx)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-11-16T21:33:49.544Z
+Latest Update: 2019-06-27T18:12:41.342Z
+
+Reported by KryskZ09#0738
+
+####Steps to reproduce:
+- Set discord on the task bar 
+- launch discord 
+- close the app once loaded (x button, not full close) 
+- click the task bar discord 
+- wait until discord loads 
+- repeat 
+- discord should know be open 2+ times as separate instances
+
+####Expected result:
+Discord should just open right where it was left at, like tabbing back into the app.
+####Actual result:
+Multiple instances of discord opens, each one with its own loading screen
+####Client settings:
+Release Channel: stable, Build Number: 27818, Version Hash: 7d13aa7bcb796cc0880c4307679f090bc3a6d442
+####System settings:
+Microsoft Windows 8.1
+
+23044
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-16T21:33:49.544Z
+
+
+### Can reproduce.
+Can Reproduce, System Settings: Windows 8.1 64-bit. Client Settings: stable, Build Number: 27841, Version Hash: a8e3edd8b4330eba5e01b0cb3b15f9cdaf2bfa1b
+
+Pet Rock#9259 - Bug Bot on 2018-11-16T21:33:57.019Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 8.1, Discord 27841
+
+1Storm#0001 - Bug Bot on 2018-11-16T21:34:01.951Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 • x64 • 17134 • Discord Canary • 28106
+
+White Falcon#9218 - Bug Bot on 2018-11-16T21:34:06.986Z
+
+
+### verified, win 8.1, canary 28176 - Clayton on 2018-11-17T04:31:19.997Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-17T04:31:31.938Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:59.311Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

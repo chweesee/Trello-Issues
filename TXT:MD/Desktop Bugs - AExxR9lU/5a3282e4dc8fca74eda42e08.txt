@@ -1,0 +1,90 @@
+[Archived] Wikipedia embeds ignores everything that's posted before the last slash in the URL (https://trello.com/c/zoQcJlF6)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-12-14T13:55:48.680Z
+Latest Update: 2018-07-06T18:00:16.642Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Write a message that is: https://en.wikipedia.org/wiki/Discord_(software)
+- then post a second message with any content you want before discord software, here's an example: https://en.wikipedia.org/wiki/ILoveBugHunters/Discord_(software)
+
+####Expected result:
+It shouldn't show an embed since the wikipedia page doesn't exist
+####Actual result:
+It shows an embed of the discordapp wikipedia page
+####Client settings:
+Discord Canary 0.0.185 (Build 8541)
+####System settings:
+Windows 10 Pro 64-bit (Build 1607)
+
+7037
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-14T13:55:48.680Z
+
+
+### Tarek1337#0379 - undefined added by Bug Bot on 2017-12-14T13:55:51.042Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a3282e4dc8fca74eda42e08/db68771adbf230a8b6df8e04b5cd7aeb/ylfQWVk.png added by Bug Bot on 2017-12-14T13:55:51.111Z
+
+
+### Can reproduce.
+CR, macOS 10.13.1, Canary 8541. Note that it may be a wikipedia bug however.
+
+dotJS#2125 - Bug Bot on 2017-12-14T13:55:56.140Z
+
+
+### Can reproduce.
+CR Windows 10 x64 on canary 8541
+
+ks0908#8526 - Bug Bot on 2017-12-14T13:56:00.997Z
+
+
+### Can reproduce.
+CR, Windows 10 Fall Creator's Update, Discord Canary 0.0.185
+
+joaoh1#0567 - Bug Bot on 2017-12-14T13:56:06.180Z
+
+
+### Can reproduce.
+CR, happens on all platforms. I reproduced on Android (Alpha 5.8.4), Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2017-12-14T13:56:48.930Z
+
+
+### https://en.wikipedia.org/wiki/Discord_(software) - https://en.wikipedia.org/wiki/Discord_(software) added by Clayton on 2017-12-15T01:12:46.550Z
+
+
+### https://en.wikipedia.org/wiki/Discord_(software) - https://en.wikipedia.org/wiki/Discord_(software) added by Clayton on 2017-12-15T01:12:46.690Z
+
+
+### Verified.  - Clayton on 2017-12-15T01:13:03.638Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-15T01:13:07.144Z
+
+
+### Verified Fixed, there is no embed any more. - Jared on 2018-03-21T19:14:10.482Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T19:14:15.390Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:00:15.301Z
+
+
+### Archived by Jared on 2018-07-06T18:00:16.645Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

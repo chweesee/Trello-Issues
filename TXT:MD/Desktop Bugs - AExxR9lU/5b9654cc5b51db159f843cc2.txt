@@ -1,0 +1,81 @@
+[Archived] Cursor hover icon/display does not change in another's profile in between Send Request/Message and Three Dots. (https://trello.com/c/UHsbBYyq)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-10T11:26:04.899Z
+Latest Update: 2018-10-22T20:27:12.714Z
+
+Reported by Matthew#9001
+
+####Steps to reproduce:
+- Open anyone's profile besides you 
+- Place your cursor on top of "Send Friend Request" (if non-friend's profile) or "Send Message" (if friend's profile) 
+- Observe cursor icon change from pointer/default to hand 
+- Place your cursor on top of the Three Vertical Dots which opens the option menu (block, message) 
+- Observe cursor icon change from the pointer/default to hand 
+- Place your cursor in between "Send Friend Request" or "Send Message" and the three dots option menu 
+- Observe for any changes in your cursor's icon when hovering 
+- Click to open the three vertical dots option menu
+
+####Expected result:
+The cursor icon/display is supposed to change from the pointer/default to the hand.
+####Actual result:
+The cursor icon/display, does not change in a small but noticeable window in between the two.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 23017, Version Hash: ff85ea5ba61f12b4cac137b048a25ed0dd5648de
+####System settings:
+macOS High Sierra 10.13.6
+
+19373
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-10T11:26:04.899Z
+
+
+### Can reproduce.
+CR: Windows 10 Home 64-bit, Canary 23321
+
+Inspector Soviet#6971 - Bug Bot on 2018-09-10T11:26:12.172Z
+
+
+### Can reproduce.
+ArchLinux x64 - Linux Kernel 4.18.16-1 - GNOME 3.28.2 - Discord Canary Build 23321
+
+Frances Picard#6209 - Bug Bot on 2018-09-10T11:26:17.175Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 Canary 23321
+
+Delite#0001 - Bug Bot on 2018-09-10T11:26:22.157Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 23321
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-10T11:30:51.371Z
+
+
+### verified, macos 10.12.6, canary 23321 - Clayton on 2018-09-10T20:21:05.595Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-10T20:21:14.181Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 23990
+
+Neiron#2406 - Bug Bot on 2018-09-18T17:07:50.224Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:12.717Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,87 @@
+Login screen shown when rotation your screen on the transaction history page (https://trello.com/c/oce3emsC)
+
+None
+
+Created: 2020-03-05T08:21:30.169Z
+Latest Update: 2020-07-16T05:46:30.237Z
+
+Reported by Bryth#1086
+
+####Steps to reproduce:
+- Go to User Settings > Billing 
+- Go to the Transaction history tab 
+- Rotate your screen 
+- A login page shows
+
+####Expected result:
+The login page shouldn't be shown
+####Actual result:
+The login page appears (see attachement)
+####Client settings:
+Discord 12.2 (build 1053)
+####System settings:
+Samsung Galaxy S7 • Android 8.0.0
+
+53061
+
+Card Log
+========
+### Added by Bug Bot on 2020-03-05T08:21:30.169Z
+
+
+### KlukCZ#6589 - https://youtu.be/EllNb4Ca3wo added by Bug Bot on 2020-03-05T08:21:32.679Z
+
+
+### Can reproduce.
+CR; Samsung S7, Android 8.1 - Discord 12.2 (1053)
+
+IamSushi#0001 - Bug Bot on 2020-03-05T08:21:37.653Z
+
+
+### Can reproduce.
+CR Samsung Galaxy A5, Android 8.0.0 - 12.2
+
+yTroll#0705 - Bug Bot on 2020-03-05T08:21:42.668Z
+
+
+### Can reproduce.
+CR InFocus M680, android 6.0, discord 12.2(1053)
+
+Apple#3697 - Bug Bot on 2020-03-05T08:21:47.667Z
+
+
+### Can reproduce.
+Samsung Galaxy A70, Android 9, Discord 12.3 (1054)
+
+Ana940#0001 - Bug Bot on 2020-03-05T17:55:27.396Z
+
+
+### This shouldn't have been pushed through in my opinion. The login screen appears since transaction history is pulled externally. Furthermore rotating your screen refreshes the page as if your loading it again(which I beleive is intended), Which explains why it appears.
+
+Sanjay#0540 - Bug Bot on 2020-03-05T18:48:42.613Z
+
+
+### Can't reproduce.
+Samsung Galaxy A70, Android 9, Discord 13-ALPHA1 (1056), NAB?
+
+Ana940#9858 - Bug Bot on 2020-03-08T08:50:47.415Z
+
+
+### Can't reproduce.
+Samsung Galaxy A10e (Android 9), Discord 13-Alpha 1 (1056)
+
+WickedAriaArtist#9814 - Bug Bot on 2020-03-09T21:44:35.524Z
+
+
+### Can't reproduce.
+Pixel 3a, Android 10, Discord 17 (1091)
+
+Kanade Tachibana#7086 - Bug Bot on 2020-04-09T23:06:03.532Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

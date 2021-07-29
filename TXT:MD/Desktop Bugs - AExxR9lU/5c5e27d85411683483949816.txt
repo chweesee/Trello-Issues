@@ -1,0 +1,115 @@
+favouriting a gif in a embed may cause it to later post the wrong link. (https://trello.com/c/D0eTVDCe)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-02-09T01:07:36.832Z
+Latest Update: 2019-04-01T05:03:22.459Z
+
+Reported by Erk#2048
+
+####Steps to reproduce:
+- Create and embed that has a embedded gif and a link that is different than the url of the gif. 
+- Favorite the gif 
+- Post the gif again from your favorites
+
+####Expected result:
+The gif gets posted
+####Actual result:
+The link in the embed gets posted instead
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 31824, Version Hash: a8a044d9b4eda00e41539fc2c54181516844e6ed
+####System settings:
+Arch Linux, Gnome with X
+
+28203
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-09T01:07:36.832Z
+
+
+### alexa#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c5e27d85411683483949816/42ee170b7599043c9cccd992a9f5438d/XGpjCWW.png added by Bug Bot on 2019-02-09T01:07:39.828Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 31974 ~ Embed title URL is saved rather than Gif URL
+
+Alipoodle#5025 - Bug Bot on 2019-02-09T01:07:44.444Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017), High Sierra 10.13.6 Discord Canary 31974
+
+XiuhcoatlSlayer#5248 - Bug Bot on 2019-02-09T01:07:49.384Z
+
+
+### Can reproduce.
+Can Reproduce; Windows 10 Pro 1809; Discord Canary 31974
+
+Pyknus#0855 - Bug Bot on 2019-02-09T01:07:54.378Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 31974
+
+TheForbiddenAi#0001 - Bug Bot on 2019-02-09T01:17:49.618Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 31974
+
+Solo#0007 - Bug Bot on 2019-02-09T02:03:34.083Z
+
+
+### verified, macos 10.12.6, canary 31974 - Clayton on 2019-02-09T02:39:04.864Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-09T02:39:12.440Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 31974
+
+Daffyduck#5364 - Bug Bot on 2019-02-09T09:09:33.304Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Canary 31974
+
+Defracted#0001 - Bug Bot on 2019-02-09T14:46:09.607Z
+
+
+### Can reproduce.
+Windows 10 home Canary 31974
+
+Mr. Proper#2394 - Bug Bot on 2019-02-09T14:59:31.114Z
+
+
+### Can reproduce.
+CR; Canary: 31974, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-09T15:35:42.547Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 31974
+
+M24#0272 - Bug Bot on 2019-02-09T20:48:34.635Z
+
+
+### Archived by Bug Bot on 2019-03-11T21:00:03.368Z
+
+
+### Moved from Verified Bugs to Gif Picker Bugs! by Ene on 2019-04-01T05:03:22.294Z
+
+
+### Unarchived by Ene on 2019-04-01T05:03:22.438Z
+
+List
+====
+Gif Picker Bugs!
+
+Members
+=======
+None

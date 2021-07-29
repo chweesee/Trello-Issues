@@ -1,0 +1,96 @@
+[Archived] Rich embed thumbnail images does not point to the image link anymore, instead it points to an invalid Discord link when right clicking then clicking copy link (https://trello.com/c/r3yUaC38)
+
+High,
+P3: Will get fixed eventually
+
+Created: 2018-07-05T07:31:06.113Z
+Latest Update: 2019-10-23T23:04:18.723Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Get a bot to post a rich embed that has a thumbnail image (top right corner) 
+- Right click then copy link 
+- Observe the link
+
+####Expected result:
+It's supposed to give you a link to the image like it used to
+####Actual result:
+It gives you an invalid Discord link, and the format is {channelid}/{messageid}
+####Client settings:
+Discord Canary 0.0.211 (18164)
+####System settings:
+Windows 10 Pro 64-bit (1803)
+
+15145
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-05T07:31:06.113Z
+
+
+### Tarek#1337 - https://i.imgur.com/ypFgC3N.gifv added by Bug Bot on 2018-07-05T07:31:08.620Z
+
+
+### Can reproduce.
+Windows 10 home 1803; Lenovo ideapad 110-17iKB, Canary 18164
+
+MoonlightCapital#0554 - Bug Bot on 2018-07-05T07:31:13.480Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 18164
+
+Rauf#9245 - Bug Bot on 2018-07-05T07:31:18.493Z
+
+
+### Can reproduce.
+Can Reproduce. Tested on MacBook Air Early 2015, macOS High Sierra 10.13.4, Discord Canary 0.0.193, Build Number: 18051.
+
+Ghostly#0001 - Bug Bot on 2018-07-05T07:31:23.474Z
+
+
+### verified, macos 10.12.6, canary 18361 - Clayton on 2018-07-09T22:23:52.721Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-09T22:24:00.861Z
+
+
+### **Extension to this issue**
+If your embed title has any link, the copy link for the thumbnail will show the title link in that case.
+
+Pascal#0929 - Bug Bot on 2018-07-25T14:58:35.048Z
+
+
+### Can reproduce.
+W10 x64 1803, Canary 20174
+
+MrWasdennnoch#0443 - Bug Bot on 2018-07-28T15:12:50.068Z
+
+
+### Also affects link embeds such as YouTube & Twitch
+
+Ene#0808 - Bug Bot on 2018-08-15T08:22:38.009Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:09.440Z
+
+
+### Can reproduce.
+Windows 10 home x64 v.1809 - Canary 33117. also, it doesn't copy an invalid ID for me, it copies the jump link to the last channel/message you navigated to. so for example by jumping to a message through search and scrolling down and doing the same steps with an embed, it will copy the jump link of the message you jumped to.
+
+J1#0088 - Bug Bot on 2019-03-02T14:30:28.380Z
+
+
+### Unarchived by Bug Bot on 2019-03-02T15:00:06.221Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:18.736Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

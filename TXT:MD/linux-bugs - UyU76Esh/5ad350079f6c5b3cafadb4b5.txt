@@ -1,0 +1,85 @@
+Connecting to RTC server takes quite some time (Related to #9946, CPU is too busy to handle the RTC handshake) (https://trello.com/c/uhE93W4b)
+
+P1: Severe,
+high
+
+Created: 2018-04-15T13:13:43.075Z
+Latest Update: 2018-07-10T17:35:28.044Z
+
+Reported by RoccoDev#2837
+
+####Steps to reproduce:
+- Connect to a voice channel 
+- Observe
+
+####Expected result:
+Discord instantly reconnects to the voice channel
+####Actual result:
+When Discord attempts to connect you to the voice channel it will be stuck at "Connecting to RTC server" for quite some time, then it will eventually connect
+####Client settings:
+Canary 13602
+####System settings:
+Fedora 27 GNOME 3.26
+
+10737
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-15T13:13:43.075Z
+
+
+### Can reproduce.
+After a few retries, I managed to reproduce (happens about 1 in 5 times for me) Discord Linux 0.0.45 (Build 13602), Debian Stretch, Gnome 3.22
+
+Robin#0610 - Bug Bot on 2018-04-15T13:13:50.452Z
+
+
+### Can reproduce.
+Discord Linux Stable 0.0.4 (Build 13537) & Discord Linux Canary 0.0.45 (Build 13602), Ubuntu 16.04.2 LTS.
+
+Parcanss#0941 - Bug Bot on 2018-04-15T13:13:55.447Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Stable 0.0.4 build 13537, openSUSE Tumbleweed 20180410.  This may be related to the xdg-mime issue as it happens while my CPU is being ramped up from the many xdg-mime calls Discord makes when started.
+
+simonizor#0420 - Bug Bot on 2018-04-15T13:14:00.468Z
+
+
+### Verified. 
+ - Clayton on 2018-04-27T01:03:43.244Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-04-27T01:03:44.857Z
+
+
+### Can reproduce.
+Linux 4.9.0-6-amd64 #1 SMP Debian 4.9.88-1+deb9u1 (2018-05-07) x86_64
+
+bl4cksh3ep#9338 - Bug Bot on 2018-05-15T01:54:03.847Z
+
+
+### Can reproduce.
+Linux 4.9.0-6-amd64 #1 SMP Debian 4.9.88-1+deb9u1 (2018-05-07) [Debian 9, Stretch], Discord Canary 0.0.49, Gnome 3.22.2 -- terribly sorry for my incomplete repro post: mods feel free to remove the other one from me.
+
+bl4cksh3ep#9338 - Bug Bot on 2018-05-15T02:16:35.060Z
+
+
+### Can reproduce.
+Linux Mint 19
+
+Link#1685 - Bug Bot on 2018-07-04T12:53:42.451Z
+
+
+### We have fixed the xdg-mime issue, could you please retest this issue. The fix is stable now. - Jozsef Vass on 2018-07-10T17:29:08.493Z
+
+
+### Moved from Discord Verified Bugs to Claimed Fixed by Jozsef Vass on 2018-07-10T17:35:28.022Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

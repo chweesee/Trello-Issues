@@ -1,0 +1,63 @@
+oauth2 scope, open in browser crash discord [url must have /api/ before /oauth2/] (https://trello.com/c/gIFM0yTN)
+
+None
+
+Created: 2020-07-16T05:46:31.052Z
+Latest Update: 2020-07-16T09:15:15.094Z
+
+Reported by UwU#3480
+
+####Steps to reproduce:
+- open a discord bot invite url (in-app) 
+- click open in browser 
+- observe
+
+####Expected result:
+discord should not crash and open the invite in browser
+####Actual result:
+discord crash after hit open in browser button
+####Client settings:
+Discord 31-Alpha2 (1196)
+####System settings:
+Samsung A10 - Android 10
+
+58917
+
+Card Log
+========
+### Added by Bug Bot on 2020-07-16T05:46:31.052Z
+
+
+### PerryPlatypus | NPTpn#0818 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5f0fe9b6094c988ae1138d05/ba1b43351e3597797b88723a17a43564/Screenshot_20200714-201036.png added by Bug Bot on 2020-07-16T05:46:35.895Z
+
+
+### Can reproduce.
+Aquaris X Pro Android 8.1.0 31-alpha2 (1196). If asked if you want to open with browser or with Discord, you must select Discord. Then you will get to the screen that causes it to crash when clicking on "Open in browser" (attached screenshot is where it happens)
+
+PerryPlatypus | NPTpn#0818 - Bug Bot on 2020-07-16T05:46:39.499Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A5 (2017), Android 8.0.0, Discord 31-alpha2 (1196) //temporary workaround is to remove "/api" from the url
+
+apoetaetoe#0366 - Bug Bot on 2020-07-16T05:46:44.607Z
+
+
+### Can reproduce.
+Huawei Y6 2019, Android 9, 31.0 (1197)
+
+Frankowo#2310 - Bug Bot on 2020-07-16T05:46:49.490Z
+
+
+### Can reproduce.
+Redmi Note 7, Discord 31-Alpha2 (1196), Android 9
+
+EspersScythe#5074 - Bug Bot on 2020-07-16T09:15:15.106Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

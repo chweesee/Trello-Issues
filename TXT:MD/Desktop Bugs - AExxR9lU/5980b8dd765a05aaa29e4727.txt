@@ -1,0 +1,66 @@
+[Archived] Attenuation setting is ignored before first joining a channel (https://trello.com/c/Apm6Ge2v)
+
+None
+
+Created: 2017-08-01T17:22:37.202Z
+Latest Update: 2017-10-30T17:26:53.294Z
+
+Reported by Phil#3034
+
+####Steps to reproduce:
+- Turn off Attenuation (Set to 0%) 
+- Completely close discord 
+- Open discord
+
+####Expected result:
+Nothing, the Attenuation should be off
+####Actual result:
+The audio of other applications (ex. Spotify) is lowered until joining a channel.
+####Client settings:
+Desktop DiscordPTB 0.0.33
+####System settings:
+Windows 10 Version 1607 (Build 14393.1198)
+
+2656
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-01T17:22:37.202Z
+
+
+### Can reproduce.
+ Windows 10 Pro x64 v1703 (Canary build 2588, v 0.0.162)
+
+TimThe#7618 - Bug Bot on 2017-08-01T17:22:44.664Z
+
+
+### Can reproduce.
+Windows 8.1 - Discord Canary v. 0.0.297
+
+Simple#2069 - Bug Bot on 2017-08-01T17:22:49.554Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Canary 0.0.297
+
+Apollo#4765 - Bug Bot on 2017-08-01T17:22:54.572Z
+
+
+### Can't reproduce.  - Clayton on 2017-09-19T23:59:39.971Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-09-19T23:59:44.631Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:26:52.584Z
+
+
+### Archived by Jared on 2017-10-30T17:26:53.296Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

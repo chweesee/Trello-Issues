@@ -1,0 +1,66 @@
+[Archived] Whenever you get a call with callkit turned off, and you are not in the discord app, the red notification icon does not increase on the app until you go back inside the app (https://trello.com/c/eyt3JXjz)
+
+P3 - Will be fixed eventually
+
+Created: 2019-10-30T19:51:04.723Z
+Latest Update: 2019-12-08T19:30:09.352Z
+
+Reported by SplashyFlame#0067
+
+####Steps to reproduce:
+- Observe badge notifications number 
+- Get called by someone a couple times  
+- Observe the badge number not increase
+
+####Expected result:
+The badge notification number should increase with each call
+####Actual result:
+The number does not increase until you go in and out of the app
+####Client settings:
+TestFlight 3.1.5 (17627)
+####System settings:
+iPhone XR, iOS 13.1.2
+
+45474
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-30T19:51:04.723Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 11 iOS 13.1 on iOS TestFlight 3.1.6 (17924). This has been sitting in the queue for a while
+
+Ghoul#3232 - Bug Bot on 2019-10-30T19:51:12.625Z
+
+
+### Can reproduce.
+The number of notifications fixes itself whenever you receive a valid notification from Discord too iPhone 7: iOS 13.2; TestFlight 3.1.6 (17924)
+
+Jiralite#1207 - Bug Bot on 2019-10-30T19:52:50.356Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.2 TestFlight 3.1.6 (17924)
+
+binchlord#0998 - Bug Bot on 2019-10-30T22:58:37.868Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.6 (17924)
+
+.Gloria.#9606 - Bug Bot on 2019-10-31T03:20:49.380Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-11-08T19:00:12.802Z
+
+
+### Archived by Bug Bot on 2019-12-08T19:30:09.365Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

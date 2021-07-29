@@ -1,0 +1,75 @@
+[Archived] Excessive clicking of "set this link to never expire" when inviting people to server makes temporary link static in copy box. (https://trello.com/c/9Sq4NIBH)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-25T00:47:15.028Z
+Latest Update: 2018-05-22T03:40:04.216Z
+
+Reported by Q__Q#0489
+
+####Steps to reproduce:
+- Go to the server drop down menu @ top 
+- Click 'Invite People' 
+- Note what the current temporary link code is 
+- Click 'Set this link to never expire' over and over again. About 10 times.
+
+####Expected result:
+Link is suppose to change every time you click. Temporary code stays temporary. Permanent link stays Permanent
+####Actual result:
+The Copy Link won't change, even when you click 'Set this link to never expire' over and over again. Also notice that even if you exit and return back to the Invite Link, the link will STILL NOT CHANGE.
+####Client settings:
+Desktop Canary 0.0.163
+####System settings:
+Windows 10 Home 64-Bit, Razer Blade Stealth
+
+3594
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-25T00:47:15.028Z
+
+
+### Can reproduce.
+Can repro - windows 10 x64 B1703 - canary 0.0.163 B3596
+
+Tobias#5233 - Bug Bot on 2017-08-25T00:47:22.540Z
+
+
+### Can reproduce.
+CR on windows 10 home x64 using canary 0.0.163, if you stop spamming link start changing again though
+
+ks0908#8526 - Bug Bot on 2017-08-25T00:47:27.578Z
+
+
+### Can reproduce.
+Canary 0.0.154, Mac OSX 10.12
+
+IcyPebbles#5833 - Bug Bot on 2017-08-25T00:47:32.547Z
+
+
+### Verified.  - Clayton on 2017-08-25T01:41:34.021Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-25T01:41:41.029Z
+
+
+### This is what happens when you hit the rate limit. Not A Bug. - Jared on 2018-03-22T20:34:25.101Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2018-03-22T20:34:29.143Z
+
+
+### Archived due to being inactive for a month in the NAB list without further action.
+
+ - Tarek on 2018-05-22T03:39:59.287Z
+
+
+### Archived by Tarek on 2018-05-22T03:40:04.218Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

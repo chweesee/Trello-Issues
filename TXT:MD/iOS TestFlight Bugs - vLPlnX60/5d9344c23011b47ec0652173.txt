@@ -1,0 +1,84 @@
+TestFlight 3.1.5 (17627) (https://trello.com/c/mzuFpINE)
+
+None
+
+Created: Unknown
+Latest Update: 2020-06-23T01:01:55.843Z
+
+Add a `!canrepro` to this ticket if you find any places with **performance issues** in this build and describe where and how the issue happens.
+
+Something you can add here are these kind of issues:
+
+- The app being slow
+- The app taking a long time to respond to an input
+- Unclean scrolling (like when you scroll, it bumps up and down a million of times)
+- Lag in an area, like emojis, server members, etc.
+
+Crashes are **not** something that should be added and should always get their own new ticket.
+
+Card Log
+========
+### Can reproduce.
+Short Description: There is a awkward bar that stays on the left side of the screen for a little second then the screen flickers and eventually fully shows the member list
+
+Steps To Repro: 
+- find a big Discord server which you have view audit logs permissions
+- go to the servers server settings
+- press on Members
+- observe
+
+Expected Result:
+you should be shown the little members list immediately along with a nice little animation
+
+Actual Result:
+the beautiful animation doesn't occur and a strange bar invades the left side of the screen for a little moment
+
+Client Settings:
+TestFlight 3.1.4 (17524)
+
+System Settings:
+iPhone XS, iOS 13.1
+
+Error 404#4040 - Bug Bot on 2019-10-01T20:01:00.154Z
+
+
+### For the report below, to understand a bit more. Here is a video: https://www.youtube.com/watch?v=IONkRf1cFDY
+
+Error 404#4040 - Bug Bot on 2019-10-01T20:02:59.780Z
+
+
+### Issue mentioned below was also reported here https://trello.com/c/zKRyDFsR but got never added to the performance master ticket. - Pascal on 2019-10-03T08:04:14.161Z
+
+
+### Can reproduce.
+Laggy animation when changing tabs in the friends tab | Steps to Reproduce: - Go to the friends tab and move through tabs (all, online, pending, blocked) - observe Expected Result: The movement between tabs should be clean Actual Result: The movement is visibly choppy and laggy Client Settings: TestFlight 3.1.5 (17627) System Settings: iPhone XR, iOS 13.1.2
+
+SplashyFlame#0067 - Bug Bot on 2019-10-15T23:16:17.776Z
+
+
+### The issue mentioned below only applies to the old friends UI. Will remove it from the checklist when the new UI is live again. - Pascal on 2019-10-17T13:40:45.109Z
+
+
+### Can reproduce.
+Double Tapping User Name Brings Up User Profile Slowly/Sluggishly and not smooth in Chat 
+Steps to Reproduce: 
+- Do not be in the new messages part if messages are being sent 
+- Double click fast on a users profile picture (bug shows up better if  the other person that you are clicking on has sent mentions in chat) 
+- Observe (Note this may take a few tries) 
+Expected Result: Bring up user file smoothly from the bottom 
+Actual Result: It either shows up slowly, or comes up sluggishly 
+Client Settings: Testflight 3.1.5 (17627) 
+System Settings: iPhone 6s - iOS 13.1.2
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-19T03:50:32.612Z
+
+
+### Moved from Performance Issues to Reopened by Jerry Jiang on 2020-06-23T01:01:55.823Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

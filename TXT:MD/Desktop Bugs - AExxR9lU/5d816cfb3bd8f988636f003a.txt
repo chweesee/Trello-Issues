@@ -1,0 +1,43 @@
+[a11y(Accessibility bug)] buttons for adding/removing a role in the mini profile are not labeled. (https://trello.com/c/tA9tuFqs)
+
+None
+
+Created: 2019-09-17T23:32:11.320Z
+Latest Update: 2020-07-16T21:26:05.174Z
+
+Reported by thetechguy#6929
+
+####Steps to reproduce:
+- note, You need a screen reader to repro this bug. for windows there are 2 screen readers NVDA (non visual desktop access) which is free or JAWS (job access with speach) which is paid. you can use either one. 
+- click on a user to go to the mini profile. 
+- press the down arrows a couple of times until you here roles. 
+- observe, under the word roles is an unlabeled button. i think that's for adding a role.
+
+####Expected result:
+If the button is labeled then NVDA should read the label.
+####Actual result:
+NVDA just says "button"
+####Client settings:
+discord canary, Build Number: 40489, Version Hash: 83de6e6373ea87a819ab504d7d554e860448e876
+####System settings:
+Windows 10 home 64 bit version 1903.
+
+38733
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-17T23:32:11.320Z
+
+
+### Can reproduce.
+pushing this through due to age
+
+IcyPebbles#5833 - Bug Bot on 2019-09-17T23:32:18.822Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

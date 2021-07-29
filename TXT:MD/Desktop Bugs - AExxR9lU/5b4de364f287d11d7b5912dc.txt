@@ -1,0 +1,93 @@
+[Archived] precision touchpad scroll gesture delays scrolling with discord (https://trello.com/c/k6gjVMh6)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-17T12:39:00.913Z
+Latest Update: 2019-10-23T23:03:43.381Z
+
+Reported by MakiTheLegend#5027
+
+####Steps to reproduce:
+- be sure that you have precision touchpad in your laptop. idk if it works on legacy touchpads as well. 
+- scroll by swiping up and down with two finger gesture. observe
+
+####Expected result:
+scrolling with precision touchpads is just fine
+####Actual result:
+scrolling delays with precision touchpad
+####Client settings:
+Canary 18491
+####System settings:
+Windows Home SL 1803 x64 using Asus Precision Touchpad
+
+15330
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-17T12:39:00.913Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1803), Discord Canary 18491. Scrolled up and down quickly and the chat messages area was chaotic.
+
+54D#1357 - Bug Bot on 2018-07-17T12:39:08.200Z
+
+
+### Can reproduce.
+Windows 10 x64 1803, Discord Stable  18362, I scrolled up and there was a delay.
+
+W Λ Y D  Ξ#3722 - Bug Bot on 2018-07-17T12:39:13.197Z
+
+
+### Can reproduce.
+works fine for short scrolls, but for scrolling a long ways there is a delay and it seems like an incorrect input where it scrolls further than you want. WIN7 Enterprise, canary, Build Number: 18947
+
+Uptightjoker#0001 - Bug Bot on 2018-07-17T12:39:18.193Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary 18491
+
+ThorWolf#6841 - Bug Bot on 2018-07-17T12:41:41.638Z
+
+
+### Can reproduce.
+Discord Canary 19710, Windows 10 Home X64
+
+Scottmg#2966 - Bug Bot on 2018-07-27T23:01:47.163Z
+
+
+### verified, win 8, canary 22587 - Clayton on 2018-08-27T10:29:51.433Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-27T10:29:57.655Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:32.135Z
+
+
+### Can reproduce.
+Windows 10 Home  x64 (1809)  Canary  26991
+
+iiTigerDude160#5673 - Bug Bot on 2018-10-26T11:34:21.593Z
+
+
+### Can reproduce.
+Windows Precision Trackpad Driver version 10.0.17134.112, Lenovo Thinkpad X1 Extreme
+
+Finianb1#6510 - Bug Bot on 2018-12-14T21:37:42.016Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:37.106Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:43.394Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

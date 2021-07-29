@@ -1,0 +1,69 @@
+Linking an invite in a rich embed, then clicking it joins without consent/invite modal. (https://trello.com/c/GVSfZ6KV)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2018-06-11T06:55:19.000Z
+Latest Update: 2019-09-23T22:30:07.924Z
+
+Reported by NotSoSuper#0001
+
+####Steps to reproduce:
+- Send a rich embed with any property that allows markdown, which contains an invite link (raw embed: {"fields": [{"inline": true, "name": "test", "value": "[](INVITE LINK)"}], "type": "rich"}). 
+- Click the link in the rich embed -
+
+####Expected result:
+The invite pop-out is supposed to show with the guild information, and require confirmation to join.
+####Actual result:
+Guild referenced in the invite is automatically joined, without consent.
+####Client settings:
+Canary, 16727
+####System settings:
+Windows 10
+
+14041
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-11T06:55:19.000Z
+
+
+### Ghoul#1337 - https://i.imgur.com/yrB71bo.gif added by Bug Bot on 2018-06-11T06:55:21.527Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary 16727
+
+the real banana man#1234 - Bug Bot on 2018-06-11T06:55:26.481Z
+
+
+### Can reproduce.
+CR, Windows 10 Professional 64 bit 1803, Canary 16727
+
+FoxyKero#9941 - Bug Bot on 2018-06-11T06:55:31.619Z
+
+
+### Can reproduce.
+Discord Canary 0.0.210 (167279) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-06-11T06:55:36.510Z
+
+
+### Can reproduce.
+Windows 10 x 64 w/ Canary 16727
+
+VR#5448 - Bug Bot on 2018-06-11T07:02:14.928Z
+
+
+### Verified. - Jared on 2018-06-11T19:51:14.253Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-11T19:51:23.498Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

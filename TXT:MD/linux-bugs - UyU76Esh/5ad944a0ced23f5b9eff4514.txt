@@ -1,0 +1,67 @@
+Discord maked sound glitches when other program changes volume (https://trello.com/c/cLqNP7qS)
+
+P3: Will eventually be fixed,
+high
+
+Created: 2018-04-20T01:38:40.175Z
+Latest Update: 2018-04-28T16:44:04.576Z
+
+Reported by Qik#0647
+
+####Steps to reproduce:
+- Step 1 
+- Join A direct call or go to voice channel Step 2 
+-  Try to change volume in Firefox for example IMPORTANT: `TEST ON THE NEWEST KERNEL (4.15.13)`
+
+####Expected result:
+There should be no glitches
+####Actual result:
+WHen i change the volume i hear *pops*, its very annoying and sometimes huts ears when loud
+####Client settings:
+Default, added MSEC=30 to avoid other bug
+####System settings:
+Arch Linux x64, i74790K 8GB ram, PulseAudio
+
+9936
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-20T01:38:40.175Z
+
+
+### Can reproduce.
+Arch, KDE, pulse ver 11.1-1, discord 0.45, build 13854
+
+Alex from Alaska#2020 - Bug Bot on 2018-04-20T01:38:47.571Z
+
+
+### Can reproduce.
+Arch Linux x64, Kernel 4.15.15-1, Discord Stable (Build 13914), PulseAudio
+
+Doges#0001 - Bug Bot on 2018-04-20T01:38:52.476Z
+
+
+### Can reproduce.
+Can Reproduce, openSUSE Tumbleweed 20180416, Discord Canary 0.0.45 build 13912
+
+simonizor#0420 - Bug Bot on 2018-04-20T01:38:57.498Z
+
+
+### Verified, Arch Linux, Pulse - Clayton on 2018-04-27T21:09:13.010Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-04-27T21:09:21.771Z
+
+
+### Can reproduce.
+CR \ Ubuntu 17.10 x64 \ Discord Canary (14281).
+
+/hash#0001 - Bug Bot on 2018-04-28T16:44:04.578Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

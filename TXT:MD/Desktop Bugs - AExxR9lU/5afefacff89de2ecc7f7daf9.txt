@@ -1,0 +1,97 @@
+[Archived] Change Log doesn't resize with your browser window size on Firefox (https://trello.com/c/SqfNu7s3)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-18T16:09:51.648Z
+Latest Update: 2019-10-23T23:01:22.715Z
+
+Reported by Rage#1337
+
+####Steps to reproduce:
+- Go to Firefox 
+- Go to settings and open change log 
+- Make your Firefox browser window smaller 
+- Observe
+
+####Expected result:
+It is supposed to resize with the window, and become scrollable like on other browsers
+####Actual result:
+It goes out of window and no scroll bar appears
+####Client settings:
+Discord Canary (Build 15434)
+####System settings:
+Macbook Air (Early 2015), macOS Sierra 10.12.6, Firefox Quantum 60.0.1 (64-bit)
+
+12925
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-18T16:09:51.648Z
+
+
+### Rage#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5afefacff89de2ecc7f7daf9/9a4160c301344c72a19475fa75153dd0/zIP1FL8.png added by Bug Bot on 2018-05-18T16:09:55.948Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Stable 15523 - Firefox 60.0.1
+
+mrkirby153#7840 - Bug Bot on 2018-05-18T16:10:01.566Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), [BUILD INFO] Release Channel: canary, Build Number: 15524, Version Hash: 3973cdca4fa980f6249f55a1e824930a830ddbba, Firefox 60.0.1
+
+MoonlightCapital#0554 - Bug Bot on 2018-05-18T16:10:03.999Z
+
+
+### Can reproduce.
+Windows 10 x64, Firefox 60
+
+Kvviingu#1996 - Bug Bot on 2018-05-18T16:10:09.061Z
+
+
+### Can reproduce.
+Windows 10 (10240) on Nightly Firefox (Firefox in beta version) 62.0a1 (2018-05-18) (64 bits)
+
+Angel_0#9354 - Bug Bot on 2018-05-18T16:25:32.982Z
+
+
+### Can reproduce.
+Windows 10 1803, Firefox 60
+
+lego#8917 - Bug Bot on 2018-05-18T17:22:01.954Z
+
+
+### Verified - Jared on 2018-05-18T19:35:10.513Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-18T19:35:21.530Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:52.934Z
+
+
+### Can reproduce.
+Windows 10 Pro, V.1803, x64, Canary, Build Number: 37031
+
+mrphilip#0001 - Bug Bot on 2019-05-07T14:27:13.607Z
+
+
+### Unarchived by Bug Bot on 2019-05-07T14:30:06.222Z
+
+
+### Seems to be extension of https://trello.com/c/jXk2lG0G as they share the same root cause of not properly rescaling and allowing users to scroll.
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-05-07T14:41:19.270Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:22.728Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

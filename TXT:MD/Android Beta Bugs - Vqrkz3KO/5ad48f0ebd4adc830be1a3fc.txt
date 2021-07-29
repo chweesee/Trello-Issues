@@ -1,0 +1,87 @@
+[Archived] In the create invite screen, changing the duration of the link and tapping ouside the menu won't generate the link but the selection will persist (https://trello.com/c/aStGn5Xo)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2018-04-16T11:54:54.205Z
+Latest Update: 2018-08-22T01:19:32.550Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a server where you have perms to create invites 
+- Open Create an invite menu 
+- Take note of the link it generates at first for you 
+- Tap the gear icon and change the link duration 
+- Close the menu by tapping outside of it
+
+####Expected result:
+Either it discards the changes and revert your selection back to the initial link duration, or it takes your changes into account and generates the link immediately
+####Actual result:
+It doesn't generate the link, but if you tap the gear icon again you can see that your new duration is still selected. Also if you exit out of the Create invite screen and come back, the link will immediately be generated with the duration you selected
+####Client settings:
+Discord Alpha 6.4.9
+####System settings:
+Huawei Mate 9 Android 7.0
+
+10800
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-16T11:54:54.205Z
+
+
+### Can reproduce.
+CR lg Xpower 6.0.1 Alpha 6.4.9
+
+ks#0908 - Bug Bot on 2018-04-16T11:55:01.662Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.9
+
+fujhofn.#0878 - Bug Bot on 2018-04-16T11:55:06.688Z
+
+
+### Can reproduce.
+Can Repo: Moto E3 Android 6.0, Discord Alpha 6.4.9
+
+MrBlob#7101 - Bug Bot on 2018-04-16T11:55:11.665Z
+
+
+### Can reproduce.
+Samsung Galaxy J7, Android 8.0, Discord Alpha 6.4.9 |
+
+FoxyKero#1269 - Bug Bot on 2018-04-16T12:09:29.270Z
+
+
+### Can reproduce.
+Oukitel k6000plus, Android 7.0, Discord Alpha 6.4.9
+
+Raizyr#0007 - Bug Bot on 2018-04-17T09:43:38.546Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 4, Android 7.0, Discord Alpha 6.4.9
+
+Der Fooler🌠#9999 - Bug Bot on 2018-04-17T21:18:43.982Z
+
+
+### Verified.  - Clayton on 2018-04-17T23:15:04.568Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-17T23:15:30.372Z
+
+
+### Okori#0902 - https://youtu.be/Wy9AgErzKUs added by Bug Bot on 2018-07-14T04:46:09.757Z
+
+
+### Archived by Clayton on 2018-08-22T01:19:32.553Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

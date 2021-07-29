@@ -1,0 +1,89 @@
+[Archived] deleted messages while search is opened still jumps the results somewhere in the dated message (https://trello.com/c/j38NRwdq)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-03T12:53:34.020Z
+Latest Update: 2019-01-30T22:16:41.017Z
+
+Reported by BakugouDeku#2560
+
+####Steps to reproduce:
+- search your message 
+- jump to your search result 
+- delete it 
+- jump to present message 
+- repeat step 2
+
+####Expected result:
+it should not jump to the deleted message
+####Actual result:
+it jumped somewhere few steps away from the deleted original post
+####Client settings:
+PTB 13008
+####System settings:
+Windows 10 Home SL 1706
+
+10172
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-03T12:53:34.020Z
+
+
+### BakugouDeku#2560 - https://pasteboard.co/HeRGKj3.gif added by Bug Bot on 2018-04-03T12:53:40.278Z
+
+
+### Can reproduce.
+CR, Canary 13003, Windows 10 home x64
+
+duncte123#1245 - Bug Bot on 2018-04-03T12:53:41.423Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.204 (Build 13034), Windows 10 Education x64 1709 (OS Build 16299.309)
+
+OminousCry#2331 - Bug Bot on 2018-04-03T12:53:46.472Z
+
+
+### Can reproduce.
+CR, W10 x64 1709 (16299.309) - Canary: 13034
+
+Biscuit#0001 - Bug Bot on 2018-04-03T12:53:51.581Z
+
+
+### Verified.  - Clayton on 2018-04-03T21:39:59.804Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-03T21:40:04.967Z
+
+
+### I checked this ticket during the Trello cleanup event, and was not able to reproduce as of Discord Canary Build 18317 on Windows 10 Home x64 (1803). I can no longer jump to my deleted messages, as my client does nothing.
+
+I am moving it to Claimed Fixed. - Ghoul on 2018-07-08T04:45:10.752Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ghoul on 2018-07-08T04:45:22.215Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:36:02.758Z
+
+
+### Archived by Jared on 2018-08-21T23:36:03.660Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 canary, Build Number: 31523
+
+Spooker#0001 - Bug Bot on 2019-01-30T22:16:09.229Z
+
+
+### Spooker#0001 - https://youtu.be/yCyC6AmiCxc added by Bug Bot on 2019-01-30T22:16:41.016Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

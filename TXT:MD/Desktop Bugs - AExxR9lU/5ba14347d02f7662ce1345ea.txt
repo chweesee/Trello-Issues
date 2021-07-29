@@ -1,0 +1,79 @@
+[Archived] Notifications being instantly read on Desktop even when you are AFK for a set amount of time (https://trello.com/c/g61bstir)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-09-18T18:26:15.710Z
+Latest Update: 2018-10-22T20:27:54.643Z
+
+Reported by Azrael#6867
+
+####Steps to reproduce:
+- Have one phone and one computer, both signed into the same Discord account 
+- Go to your desktop client and to your User Settings 
+- Go to Notifications and set your "Push Notification AFK Timer" to 3 minutes (this might work with other times as well) 
+- Talk in a person's DMs make sure it's a conversation that will continue on 
+- Leave Discord on your friend's DM 
+- Go AFK from your computer, bringing your phone with you (side note: make sure your computer doesn't auto sleep/shutdown in your OS Settings) 
+- Make sure your friend is still sending you messages for a couple of minutes
+
+####Expected result:
+You should get your messages and they should stay as push notifications in your notification bar
+####Actual result:
+Your phone gets the notification but it becomes instantly read, so you don't know what the other user says until you go into Discord
+####Client settings:
+Canary Build 23321 and Android Alpha 7.4.8
+####System settings:
+Windows 10 Pro x64 Build v1803 and Nexus 5x Android 8.1.0
+
+19246
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-18T18:26:15.710Z
+
+
+### Can reproduce.
+Can Reproduce Win 10 home x64. Canary 23709
+
+Mr. Black#5859 - Bug Bot on 2018-09-18T18:26:23.006Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 23837
+
+Neiron#2406 - Bug Bot on 2018-09-18T18:26:27.982Z
+
+
+### Can reproduce.
+CR; macOS 10.14; Canary 23990
+
+OrangeM24#5746 - Bug Bot on 2018-09-18T18:26:33.029Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 23990
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-18T20:45:52.103Z
+
+
+### this happens with any channel you leave open on the desktop client, the only workaround for this currently is to remember to switch to the Friends tab so notifications can be properly sent
+
+Azrael#6867 - Bug Bot on 2018-09-18T22:05:08.500Z
+
+
+### can repro - Clayton on 2018-09-19T11:10:20.284Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-19T11:10:28.915Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:54.645Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

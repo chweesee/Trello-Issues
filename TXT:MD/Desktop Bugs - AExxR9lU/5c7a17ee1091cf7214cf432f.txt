@@ -1,0 +1,142 @@
+[Archived] Using the Upload Image method of Changing Icon shows the image as a narrow Preview, Using the method of clicking directly on the icon to change it is normal (https://trello.com/c/UUtV7iCD)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-02T05:43:10.754Z
+Latest Update: 2019-10-23T23:03:00.977Z
+
+Reported by Forgi_Forgeth#7294
+
+####Steps to reproduce:
+- Go to a server you can manage 
+- Click "Upload Image" white button and upload an image that has a much greater width than the height 
+- Expect your preview of the icon to be narrow 
+- To compare, click on the server icon directly and change it without using the white button on the side 
+- Remember to use the same image that is longer than it's height and only observe the previews. 
+- Please test the bug and don't call nab immediately 
+- Reminder: Do not save the icon because it is the preview bug that we are looking for
+
+####Expected result:
+Both methods of uploading a server icon should have the same preview.
+####Actual result:
+One of the methods (pressing white button that says "Upload Image") shows the preview as a narrow image which shouldn't happen and the other method (clicking directly on server icon to change it) is fine but both methods of changing server icon are messed up in their previews.
+####Client settings:
+Discord Canary 0.0.215
+####System settings:
+macOS High Sierra, Version: 10.13.6
+
+30114
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-02T05:43:10.754Z
+
+
+### J1#0088 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7a17ee1091cf7214cf432f/9c1875553170aec340f8fd95b097d6ee/Screen_Shot_2019-03-01_at_9.31.58_PM.png added by Bug Bot on 2019-03-02T05:43:13.585Z
+
+
+### J1#0088 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7a17ee1091cf7214cf432f/e6f6d172d5bbf2f97e23ac97c2dd44b3/Screen_Shot_2019-03-01_at_9.32.09_PM.png added by Bug Bot on 2019-03-02T05:43:13.662Z
+
+
+### Can reproduce.
+Windows 10 home x64 v.1809 - Canary 33117
+
+J1#0088 - Bug Bot on 2019-03-02T05:43:18.254Z
+
+
+### Can reproduce.
+Canary 33117, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-02T05:43:23.320Z
+
+
+### Can reproduce.
+can repro macOS High Sierra, Version: 10.13.6 Discord Canary 0.0.215 also I can repro on Discord Canary Build 32759 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+tech_dude1#9855 - Bug Bot on 2019-03-02T05:43:28.253Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.117 (x64) · Web Canary 33117
+
+Casper#9999 - Bug Bot on 2019-03-02T05:49:16.067Z
+
+
+### Can reproduce.
+Windows 10 x64 v1809 - Canary 33117
+
+Noxillio#0001 - Bug Bot on 2019-03-02T06:26:57.292Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 33117
+
+Neiron#8475 - Bug Bot on 2019-03-02T06:34:53.722Z
+
+
+### Can reproduce.
+Windows 10 home, Canary 33046
+
+Mr. Proper#2394 - Bug Bot on 2019-03-02T10:31:33.334Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 33117
+
+Lily#2624 - Bug Bot on 2019-03-02T14:29:33.467Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 33117
+
+Solo#0007 - Bug Bot on 2019-03-02T15:09:05.389Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 canary, Build Number: 33117
+
+Spooker#0001 - Bug Bot on 2019-03-02T16:57:17.882Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 - Discord Canary 32982 Canary 33117
+
+Killtracity#0001 - Bug Bot on 2019-03-02T18:39:12.453Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 33117
+
+Daffyduck#5364 - Bug Bot on 2019-03-02T23:02:49.957Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 33117
+
+Clay#0001 - Bug Bot on 2019-03-03T01:09:35.380Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-05T23:18:31.739Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 33381
+
+Lelantos#4866 - Bug Bot on 2019-03-06T18:13:27.889Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 33418
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-08T02:22:09.068Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:00.989Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

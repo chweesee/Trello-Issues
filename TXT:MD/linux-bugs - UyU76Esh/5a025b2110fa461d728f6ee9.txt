@@ -1,0 +1,49 @@
+Double scrollbars/vertical lines appear next to scrollbars depending on GTK theme and zoom level (https://trello.com/c/LE5oZrua)
+
+P3: Will eventually be fixed,
+mid
+
+Created: 2017-11-08T01:17:22.039Z
+Latest Update: 2018-01-06T02:43:34.976Z
+
+Reported by Psy-Q#3076
+
+####Steps to reproduce:
+- Use Plasma desktop environment 
+- Choose the default GTK3 theme (Breeze) as GTK theme in Settings -> Application Style 
+- Start Firefox, look at any Discord server where scrollbars would appear (chat, userlist or channel list need to be long enough to scroll)
+
+####Expected result:
+The style should look roughly the same as with the Electron app (no white vertical lines next to scrollbars, no double scrollbars)
+####Actual result:
+With a light Breeze color setting and a dark Discord theme setting, light grey vertical lines appear next to all custom scrollbars in Discord. When the page is zoomed out, a second set of scrollbars becomes visible next to the Discord custom ones
+####Client settings:
+Current web version
+####System settings:
+Debian 9, Plasma 5.8.4, gtk3-engines-breeze 5.8.4, Firefox 56.0.2.
+
+5994
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-08T01:17:22.039Z
+
+
+### Can reproduce.
+CR Firefox 54.0, Kubuntu 16.04
+
+IcyPebbles#5833 - Bug Bot on 2017-11-08T01:17:29.414Z
+
+
+### Verified.  - Clayton on 2017-11-08T20:59:21.047Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2017-11-08T20:59:27.185Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

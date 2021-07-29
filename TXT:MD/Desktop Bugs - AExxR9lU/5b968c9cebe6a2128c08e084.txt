@@ -1,0 +1,88 @@
+[Archived] When your spotify song is on loop and you pause it, it will be paused on spotify but it will continue counting on status (https://trello.com/c/WGAmU5Lp)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-10T15:24:12.774Z
+Latest Update: 2019-01-01T15:31:22.488Z
+
+Reported by Alice#0200
+
+####Steps to reproduce:-Have spotify account linked, and set it so the songs you're listening to can show up as your status. -Put your spotify song on repeat, and then pause the song.
+
+####Expected result:
+It should stop and show nothing, just like it does if you were to pause the song without it being on repeat
+####Actual result:
+On your status, the song will continue to count the time left until the song ends like the song is still playing.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 23017, Version Hash: ff85ea5ba61f12b4cac137b048a25ed0dd5648de
+####System settings:
+Edition: Windows 10 Pro Version: 1803 OS Build: 17134.228
+
+19358
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-10T15:24:12.774Z
+
+
+### Can reproduce.
+Macbook Pro, macOS 10.13.6, Discord Canary 23321.  Does not happen 100% of cases, but a lot.  Did many tests, still can't single out the condition which determines whether or not this bug happens for all cases.
+
+Matthew#9001 - Bug Bot on 2018-09-10T15:24:20.118Z
+
+
+### Can reproduce.
+CR | windows 10 home, x64 | Discord Canary 23017.
+
+I_Am_Alex#0001 - Bug Bot on 2018-09-10T15:24:25.114Z
+
+
+### Can reproduce.
+CR Win 10 64x (1803), Discord Canary 23321
+
+Alipoodle#5025 - Bug Bot on 2018-09-10T15:24:30.126Z
+
+
+### Can reproduce.
+Windows 10 Pro Insider Fast Ring "Next Version" 1803 ; Discord Canary 23321; Not always
+
+Lala Sabathil#7777 - Bug Bot on 2018-09-10T17:22:02.913Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 23321
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-10T19:43:21.544Z
+
+
+### verified, macos 10.12.6, canary 23321 - Clayton on 2018-09-10T19:49:19.415Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-10T19:49:26.678Z
+
+
+### Can't reproduce.
+Windows 10 Pro 17744 (Slow Ring), Canary 23401
+
+glitchperfect#0001 - Bug Bot on 2018-09-11T09:37:26.250Z
+
+
+### can no longer reproduce.  - Clayton on 2018-10-02T02:17:43.793Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-02T02:17:49.111Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:31:21.711Z
+
+
+### Archived by Tarek on 2019-01-01T15:31:22.490Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

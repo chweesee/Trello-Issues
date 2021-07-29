@@ -1,0 +1,76 @@
+[Archived] Creating a fake lurking channel will cause an Uncaught (in Promise) for an Unknown Guild in console (https://trello.com/c/LgBh9tdF)
+
+None
+
+Created: 2019-07-19T22:36:51.810Z
+Latest Update: 2019-11-15T16:30:55.803Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Create a lurker channel mention by doing "<" + "#0-0-Text Here" + ">" 
+- Open Console 
+- Click on this new Channel Link you have created
+
+####Expected result:
+Error Free console
+####Actual result:
+Uncaught (In Promise) error for a Missing guild is giving in console
+####Client settings:
+Canary 41485 (0.0.247)
+####System settings:
+Win10 64x (1803)
+
+39978
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-19T22:36:51.810Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14.5 • Canary 41485
+
+Rage#9991 - Bug Bot on 2019-07-19T22:36:59.528Z
+
+
+### Can reproduce.
+can repro, macos 10.14.2, canary 41485
+
+IcyPebbles#5833 - Bug Bot on 2019-07-19T22:37:04.864Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 41525 (Host 0.0.247)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-19T22:37:09.581Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home 64 bit, Discord Canary Build Number: 41476
+
+Jeffrey#1234 - Bug Bot on 2019-07-19T22:38:25.324Z
+
+
+### Can reproduce.
+Canary 41583, Host 0.0.247, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-20T17:11:12.611Z
+
+
+### The syntax for "Fake Lurker Channels" has been reverted as shown in https://github.com/discordapp/discord-api-docs/pull/1030
+Moving to Won't Fix. - Aeria on 2019-10-16T16:25:03.296Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Aeria on 2019-10-16T16:25:12.683Z
+
+
+### Archived by Bug Bot on 2019-11-15T16:30:55.813Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

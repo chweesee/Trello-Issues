@@ -1,0 +1,139 @@
+[Archived] Wrong error when changing discriminator to #0000 (https://trello.com/c/iAEeRUly)
+
+Low
+
+Created: 2019-03-31T10:21:14.309Z
+Latest Update: 2019-06-05T23:46:22.669Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Have Discord Nitro. 
+- Go to Settings>My Account>Edit Account. 
+- Click on the tag field and change it to #0000
+
+####Expected result:
+Like before, you get the "int value should be greater than 0" error.
+####Actual result:
+You get the "Tags must contain 4 digits" error.
+####Client settings:
+Discord Alpha 868
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+31896
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-31T10:21:14.309Z
+
+
+### Can reproduce.
+Intex Aqua N7, Android 5 App Information 868
+
+Stardust#2476 - Bug Bot on 2019-03-31T10:21:21.644Z
+
+
+### Can reproduce.
+CR OnePlus 3T, Android 8, Discord 8.6.8
+
+Alipoodle#5025 - Bug Bot on 2019-03-31T10:21:26.673Z
+
+
+### Can reproduce.
+CR Xiaomi Redmi 4X, Android 7.1.2 N2G47H (MIUI 10.1 Stable), Discord Alpha 8.6.8
+
+Defracted#7777 - Bug Bot on 2019-03-31T10:21:31.669Z
+
+
+### Can reproduce.
+Huawei Honor 5X  - Discord Alpha 8.6.8
+
+Rush#6969 - Bug Bot on 2019-03-31T10:30:25.493Z
+
+
+### Can reproduce.
+Samsung Galaxy Light v4.2.2 BaseBand T399UVUAQE1 Discord Alpha 8.6.7
+
+Killtracity#0001 - Bug Bot on 2019-03-31T17:08:04.102Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.6.8
+
+Skyla#0002 - Bug Bot on 2019-03-31T18:00:14.466Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.6.8
+
+Clay#0001 - Bug Bot on 2019-03-31T18:24:04.785Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.6.8
+
+Lily#2624 - Bug Bot on 2019-03-31T18:27:36.971Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.6.8
+
+trocide#0510 - Bug Bot on 2019-03-31T22:08:28.100Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 868
+
+charleskimbac#6492 - Bug Bot on 2019-04-01T03:52:42.226Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 868
+
+Quad#1887 - Bug Bot on 2019-04-02T18:51:28.127Z
+
+
+### Fix in review. There will be 2 error messages now. One for format, and one to make sure it's valid (non-zero). 
+Wait for next release - Sam Shih on 2019-04-04T01:17:50.582Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Sam Shih on 2019-04-04T01:18:34.554Z
+
+
+### Can reproduce.
+Can Still Reproduce • Samsung Galaxy J7 running Android 8.1.0 • Alpha 8.7.0 (870)
+
+FoxyKero#0005 - Bug Bot on 2019-04-04T10:25:31.648Z
+
+
+### Can reproduce.
+Can still reproduce the Tags must contain 4 digits error. Samsung Galaxy S8 V.9.0.0, Discord Alpha 8.7.0
+
+Thundy#2019 - Bug Bot on 2019-04-04T22:26:26.493Z
+
+
+### Can reproduce.
+Can reproduce. Discord Alpha 8.7.0 running on Samsung Galaxy S3 Neo
+
+Talon#1337 - Bug Bot on 2019-04-04T22:28:50.725Z
+
+
+### Can reproduce.
+Can still reproduce, LG Rebel(LGL58VL), Android 6.0.1 - Discord Alpha 8.7.0
+
+Seikatsu#0001 - Bug Bot on 2019-04-04T22:42:08.005Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-04-04T22:42:08.235Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:22.679Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

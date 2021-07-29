@@ -1,0 +1,119 @@
+In the Add Reaction right-click menu, emojis with a long width are not properly resized (https://trello.com/c/uHHKAzuw)
+
+None
+
+Created: 2019-11-14T19:54:58.452Z
+Latest Update: 2020-07-16T21:26:05.652Z
+
+Reported by Jean20B#4668
+
+####Steps to reproduce:
+- Create an image with a width longer than the height (example: width=100px and height=10px) 
+- (You can also use the small image I attached to the report) 
+- Add it as an emoji to a server 
+- Add a reaction with your emoji to a message 
+- Right-click a message, Add Reaction, and look at your emoji in the list
+
+####Expected result:
+The emoji is the same size as the others
+####Actual result:
+The emoji is big
+####Client settings:
+Canary 49525 host 0.0.258
+####System settings:
+Windows 10 Home x64 1903
+
+48014
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-14T19:54:58.452Z
+
+
+### Jean20B#4668 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dcdb11253c7d15aafeeb661/853ba3dc19fa4ec8b1c0715dd08e4bf5/wXuEKm3.png added by Bug Bot on 2019-11-14T19:55:01.625Z
+
+
+### Jean20B#4668 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dcdb11253c7d15aafeeb661/8760986811589d9c3209245638b9cdca/BJ1kT6P.png added by Bug Bot on 2019-11-14T19:55:01.765Z
+
+
+### Can reproduce.
+Windows 10 Home (x64 v1803) - Discord Canary 49525
+
+Error 404#4040 - Bug Bot on 2019-11-14T19:55:05.961Z
+
+
+### Can reproduce.
+CR on Windows 10 Home (x64 1803) Canary 49525, original CNR was due to me misreading the steps
+
+Deadlus#2721 - Bug Bot on 2019-11-14T19:55:10.917Z
+
+
+### Can reproduce.
+CR Windows 10 Pro 1903, Canary 49525
+
+Nyunn1x#3498 - Bug Bot on 2019-11-14T19:55:15.935Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Discord Canary 49525
+
+Lorio#0666 - Bug Bot on 2019-11-14T20:03:29.014Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro 1903, Discord Canary 49525
+
+TheRudeDude#6040 - Bug Bot on 2019-11-14T20:12:09.577Z
+
+
+### Can reproduce.
+CR, Windows 10 Family (1903 x64), Discord Canary 49525
+
+Zallom#0001 - Bug Bot on 2019-11-14T21:35:41.311Z
+
+
+### Can reproduce.
+CR :: Win 10 Home SL 1909 :: Desktop Canary 49633
+
+Kratøs#0001 - Bug Bot on 2019-11-15T08:56:55.835Z
+
+
+### Can reproduce.
+macOS 10.13.6, Canary 49633
+
+leaf#0001 - Bug Bot on 2019-11-15T17:22:52.655Z
+
+
+### Can reproduce.
+2017 MacBook Pro - macOS 10.15.1 Catalina - Canary 49633
+
+f78#7800 - Bug Bot on 2019-11-15T18:08:14.644Z
+
+
+### f78#7800 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dcdb11253c7d15aafeeb661/cd5335c253f7b3f78fe43dc594eb2411/RPh7Bmq.png added by Bug Bot on 2019-11-15T18:09:01.064Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 49715 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-16T04:12:41.574Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903, - Discord Canary, Build Number: 49664
+
+.Gloria.#9606 - Bug Bot on 2019-11-16T06:42:06.986Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1903) - Discord Canary 50415
+
+Jamalek#0025 - Bug Bot on 2019-11-27T11:14:10.094Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

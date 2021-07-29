@@ -1,0 +1,170 @@
+[Archived] Embed Footer/Timestamp and Description align to center of available space. (https://trello.com/c/v6yyuDDn)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2019-05-24T06:50:20.528Z
+Latest Update: 2020-02-20T21:35:46.561Z
+
+Reported by Alexis#0097
+
+####Steps to reproduce:
+- Make sure to have an embed which has a lot of available space thanks to a big title or field name, for example, but a short description and footer text (to better see how they align to center).
+
+####Expected result:
+Embed Footer text/Timestamp/Description are supposed to align to the left with other fields / title.
+####Actual result:
+Those embed elements go to the center of the place they can occupy.
+####Client settings:
+Beta 9.0.3
+####System settings:
+Android 8, Huawei P Smart
+
+35225
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-24T06:50:20.528Z
+
+
+### Isabel#0002 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ce7942cfede4212ba86ea34/7d9d45a2ac4bc007e13ccc0ed6e8047e/unknown.png added by Bug Bot on 2019-05-24T06:50:23.350Z
+
+
+### Can reproduce.
+CR, Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.0.3
+
+AHkhan#9999 - Bug Bot on 2019-05-24T06:50:27.904Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 9.0.3
+
+Law of Royale#4167 - Bug Bot on 2019-05-24T06:50:32.909Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 903
+
+The Lunala#7777 - Bug Bot on 2019-05-24T06:50:37.888Z
+
+
+### Can reproduce.
+Sony Xperia X Compact, Android 8.0, Discord Alpha 9.0.3
+
+Aok / 金木 研#8701 - Bug Bot on 2019-05-24T07:42:05.566Z
+
+
+### The code that I used, G4M3R' !embed command was here used:
+{
+  "plainText": "This is a plain text, wew!",
+  "title": "title  embeds  next spoiler2",
+  "description": "some test embeds with embeds,  but you'll never know description",
+  "color": 53380,
+  "footer": {
+    "text": "test  embeds"
+  },
+  "fields": [
+    {
+      "name": "field1 test",
+      "value": "value test",
+      "inline": true
+    },
+    {
+      "name": "field2 test test2",
+      "value": "value test value2 test",
+      "inline": true
+    }
+  ]
+}
+
+Law of Royale#4167 - Bug Bot on 2019-05-24T07:48:18.939Z
+
+
+### Can reproduce.
+Discord Alpha 9.0.3, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-05-24T10:34:41.112Z
+
+
+### Can reproduce.
+Andriod 9.0, Discord 
+alpha 9.0.3
+
+Arun Kapil#1745 - Bug Bot on 2019-05-24T10:38:30.607Z
+
+
+### Can reproduce.
+CR. Alcatel 3C, 7.0.0 Discord Alpha 903
+
+StefanFX#1109 - Bug Bot on 2019-05-24T10:41:58.902Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9.0.0, Discord Alpha 9.0.3
+
+Alеx#2287 - Bug Bot on 2019-05-24T11:17:35.055Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Discord Alpha 9.0.3
+
+Danijel#9000 - Bug Bot on 2019-05-24T14:09:45.373Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Bug Bot on 2019-05-24T14:10:49.333Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Android 5.0, Discord Alpha 9.0.3
+
+Karasu#0013 - Bug Bot on 2019-05-25T08:06:17.282Z
+
+
+### thanks! will be fixed - Sam Shih on 2019-05-25T08:28:29.337Z
+
+
+### Can reproduce.
+Pocophone F1, Android 9, MIUI 10.3, Alpha 903
+
+dafaqed#4375 - Bug Bot on 2019-05-25T16:59:29.636Z
+
+
+### Can reproduce.
+Huawei Y7, Android 8.0.0, Alpha 903
+
+Bullseye#8200 - Bug Bot on 2019-05-25T22:23:52.551Z
+
+
+### Can reproduce.
+• Android 6.0.1 • Samsung Galaxy s5, Android Alpha 9.0.3
+
+Krobo#4784 - Bug Bot on 2019-05-27T05:32:24.564Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 9.0.3
+
+Quad#1887 - Bug Bot on 2019-05-29T20:00:52.897Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 9.0.5
+
+TheFutureKnight#7664 - Bug Bot on 2019-05-30T01:38:20.857Z
+
+
+### Can Not Reproduce » OnePlus 6 (Version 9.0), Discord Alpha 9.2.2 - Aeria on 2019-07-22T14:05:50.919Z
+
+
+### Moved from Notable Issues to Cannot Reproduce by Aeria on 2019-07-22T14:05:57.308Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:35:46.575Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

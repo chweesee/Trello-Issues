@@ -1,0 +1,103 @@
+[Archived] Pressing Esc key in Server Settings don't close context menu (https://trello.com/c/UGmBi0Gj)
+
+P2: Fix can wait a while
+
+Created: 2017-04-29T15:49:01.952Z
+Latest Update: 2019-04-22T07:47:34.219Z
+
+Reported by PLAYER_CHAR#2874
+
+####Steps to reproduce: 
+- Open "Server Settings" > "Members" 
+- Click three dots or rightclick a member to open a context menu 
+- Press Esc key on your keyboard (not the cross button) 
+
+####Expected result:
+ Everything closes including the context menu 
+####Actual result:
+ Server settings close but the context menu stays opened 
+####System settings:
+ latest Discord Canary
+
+1288
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-29T15:49:01.952Z
+
+
+### Can reproduce.
+Discord Canary, Windows 10 CU x64
+
+AlFas#2783 - Bug Bot on 2017-04-29T15:49:02.668Z
+
+
+### Can reproduce.
+Win 10 Pro x64 1703, latest Canary
+
+Tiemen#0107 - Bug Bot on 2017-04-29T15:49:04.571Z
+
+
+### Can reproduce.
+macos 10.12.4 discord canary
+
+Harrison#9100 - Bug Bot on 2017-04-29T15:49:06.537Z
+
+
+### This happens not only to member context menu in Server Settings but to any context menu in any settings screen (for example, you can rightclick Server's name field or select text of any selectable text label in User Settings and then press Esc, the result will be the same, the context menu won't be hidden)
+
+PLAYER_CHAR#2874 - Bug Bot on 2017-04-29T16:57:03.425Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Anniversary Update, Latest Discord Canary
+
+Zoddo#5860 - Bug Bot on 2017-04-29T17:17:52.887Z
+
+
+### There is an exception: The role filter menu on the member tab is closed correctly on ESC
+
+Zoddo#5860 - Bug Bot on 2017-04-29T17:21:03.200Z
+
+
+### Can reproduce.
+latest canary win10
+
+Mippy | Discord BH#1483 - Bug Bot on 2017-04-29T17:24:09.137Z
+
+
+### Moved from User Reported Bugs to Server Settings Redesign Bugs by Jared on 2017-05-01T20:31:07.037Z
+
+
+### Technically this is a more generalized issue - no context menus close from pressing `Esc` - Amadeus on 2017-05-02T22:58:54.986Z
+
+
+### Moved from Server Settings Redesign Bugs to Verified Bugs by Amadeus on 2017-05-02T22:59:25.352Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2017-05-14T20:17:11.222Z
+
+
+### Tested as of latest canary:
+
+I can no longer reproduce this. Clicking escape closes the context menu that was opened now. - Alexander (DJScias) on 2017-05-14T22:25:00.337Z
+
+
+### Verified Fixed - Jared on 2017-06-27T20:56:19.954Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T20:56:23.007Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:32:16.466Z
+
+
+### Archived by Jared on 2017-10-17T20:32:21.173Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

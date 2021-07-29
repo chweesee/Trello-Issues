@@ -1,0 +1,114 @@
+[Archived] Cross-server text channel links are unclickable on iOS (https://trello.com/c/m7qCpS7A)
+
+P2 - Can wait a while,
+high
+
+Created: 2016-12-04T19:31:25.630Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Dru#8209
+
+####Steps to reproduce: 
+- Type <#channelidhere> EX: <#41975818338959360> (must be in Discord Developers server) 
+- Try to tap it 
+
+####Expected result:
+ It sends you to a channel on a different server 
+####Actual result:
+ It sits like it doesn't care what you think
+
+Card Log
+========
+### Added by Jared on 2016-12-04T19:31:25.630Z
+
+
+### Can't reproduce.
+Latest Testflight
+
+BoredBrandon#7373 - Jared on 2016-12-04T20:02:11.831Z
+
+
+### Example is badly worded, the bug is about not being able to click on channel tags that belong to a server you're not focussed on
+
+Dougley#6248 - Jared on 2016-12-04T20:07:49.336Z
+
+
+### Can reproduce.
+latest iOS
+
+/dev/null#5164 - Jared on 2016-12-04T20:08:04.838Z
+
+
+### Can reproduce.
+Latest testflight
+
+Dougley#6248 - Jared on 2016-12-04T20:08:47.100Z
+
+
+### Can reproduce.
+iOS 9.3.3, iPhone 5s, Latest Testflight
+
+霧雨 魔理沙 ★★★★#9667 - Jared on 2016-12-04T20:17:04.832Z
+
+
+### Can reproduce.
+latest TestFlight
+
+dinos#0649 - Jared on 2016-12-04T20:17:25.615Z
+
+
+### Can reproduce.
+iOS 9.3.5 on latest TestFlight
+
+SuperSajuuk#7265 - Jared on 2016-12-05T23:00:29.933Z
+
+
+### Verified.  Note that on desktop it does change servers. - Jared on 2016-12-08T18:45:26.646Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-08T18:45:29.652Z
+
+
+### Verified this issue still occurs as written as of 1.8.0 (56) - Jared on 2016-12-19T23:45:21.923Z
+
+
+### Does change channel once you go to the server the channel is from
+
+Chewie#5684 - Bug Bot on 2017-06-15T23:07:50.570Z
+
+
+### Moved from Verified Bugs to Next up for Investigation by Jared on 2017-12-05T18:51:08.773Z
+
+
+### Verified Issue still occurs as written. - Jared on 2018-01-08T17:45:21.551Z
+
+
+### Moved from Next up for Investigation to Fix made, not yet released by Fanghao on 2018-02-01T00:52:09.321Z
+
+
+### I can no longer reproduce, cross-server links now redirect me to the channels.
+
+Discord 2.2.3 (2572), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-02-14T07:10:01.637Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2018-02-14T07:10:10.217Z
+
+
+### Verified Fixed - Jared on 2018-04-03T21:23:37.329Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2018-04-03T21:23:40.981Z
+
+
+### Archiving this ticket as it has been in Verified Fixed for more than one month without any activity.  - Ghoul on 2018-06-01T02:30:45.620Z
+
+
+### Archived by Ghoul on 2018-06-01T02:30:47.712Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

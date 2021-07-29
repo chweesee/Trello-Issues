@@ -1,0 +1,82 @@
+[Archived] Chat automatically scrolls back in message history when opening a channel with a very new long message (https://trello.com/c/SaXU6ci0)
+
+None
+
+Created: 2018-06-09T23:08:29.773Z
+Latest Update: 2018-10-05T00:00:52.847Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- With one account write a very long message (it should go off-screen) and send it in a channel with some message history 
+- With other account open this channel 
+- Don't scroll there, just press the home button after opening the channel 
+- Force close Discord via the app switcher 
+- Go back to Discord
+
+####Expected result:
+Chat should keep position (at the beginning of the new unread message).
+####Actual result:
+It automatically scrolls back in message history. Note: This issue also happens without force closing the app but haven't found steps for it so far. It might happen when the channel must completely reload.
+####Client settings:
+Stable 2.3.3
+####System settings:
+iPhone 6s - iOS 11.4, iPad Air 2 - iOS 11.4.1 PB
+
+13987
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-09T23:08:29.773Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 6s iOS 11.4, Test Flight 2.3.2
+
+the real banana man#1234 - Bug Bot on 2018-06-09T23:08:37.254Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 {Dev Beta 1} Stable 2.3.3
+
+Xylium#1480 - Bug Bot on 2018-06-09T23:08:42.279Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12 Beta Stable 2.3.3
+
+Brish#3095 - Bug Bot on 2018-06-09T23:08:47.252Z
+
+
+### Cannot reproduce. iPhone 6s 11.4, 2.3.4 - Jared on 2018-06-11T20:15:56.439Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-06-11T20:16:00.921Z
+
+
+### Can reproduce.
+iPhone 7 Plus  iOS 12 Dev Beta 1 Test Flight 2.3.2
+
+Disegual#4088 - Bug Bot on 2018-06-14T17:39:38.467Z
+
+
+### I checked this bug during the Trello Cleanup event, and tried and tried many times to reproduce this bug. Unfortunately, I was not able to reproduce this bug, no matter how many times I tried. :(
+
+I used iPhone 8 + running iOS 12 (Dev Beta 3) with Discord TF 2.3.4 (5616). This ticket will remain. - Ghoul on 2018-07-07T19:39:49.804Z
+
+
+### Can reproduce.
+Still happens for me, iPhone 8 Plus, iPad Air 2 - iOS 12 Public Beta 10, TestFlight 2.3.7 (6968)
+
+Pascal#0929 - Bug Bot on 2018-09-01T00:13:17.163Z
+
+
+### Archived by Clayton on 2018-10-05T00:00:52.849Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

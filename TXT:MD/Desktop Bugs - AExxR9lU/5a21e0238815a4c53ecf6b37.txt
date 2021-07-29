@@ -1,0 +1,124 @@
+[Archived] The new "glamorized invite embeds" do not work on certain languages (https://trello.com/c/CDs7nhIx)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2017-12-01T23:05:07.735Z
+Latest Update: 2018-03-14T13:46:03.746Z
+
+Reported by Zathor#9578
+
+####Steps to reproduce:
+- Change language to Finnish 
+- Restart Discord 
+- Paste invite link
+
+####Expected result:
+You should see the new "glamorized invite embeds".
+####Actual result:
+You see the old style embed link instead of the new one.
+####Client settings:
+Discord Canary (Build 7750)
+####System settings:
+Windows 10 Home 64-bit
+
+6776
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-01T23:05:07.735Z
+
+
+### Can reproduce.
+Happening on multiple languages, not just Finnish. Might have to Ctrl + R a few times while in the other language for the bug to show. Windows 10 Home x64, Canary 0.0.180 (7913)
+
+Ten 🎁#1723 - Bug Bot on 2017-12-01T23:05:15.092Z
+
+
+### Can reproduce.
+CR; affects other languages aswell; Windows 7 ultimate x64, Desktop Canary 7913
+
+GospodinCrni#2565 - Bug Bot on 2017-12-01T23:05:20.079Z
+
+
+### Can reproduce.
+CR, Canary 7889, Win 10 x64
+
+descrates#3050 - Bug Bot on 2017-12-01T23:05:25.072Z
+
+
+### Can reproduce.
+Canary 7941, Win 10 x64
+
+Michael | ASIANBOI#9310 - Bug Bot on 2017-12-02T03:03:19.392Z
+
+
+### Can reproduce.
+CR, tested on multiple languages, can confirm it's affecting other languages, works everytime I change it to different language. Discord Canary 0.0.180 (Build 7941) on Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-12-02T06:19:59.625Z
+
+
+### Can't reproduce.
+MacBook Air (Early 2015) macOS High Sierra 10.13, Discord Stable Version 0.0.248 (Build #7889)
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-02T07:35:00.814Z
+
+
+### Verified,
+
+note: To be able to reproduce this, you first need to switch language, and after the automatic client reload, you need to reload again manually. - Tarek on 2017-12-05T05:10:40.056Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-05T05:10:45.040Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.2, Discord Canary 0.0.184 (Build: 9146)
+
+Pascal#0929 - Bug Bot on 2018-01-02T22:30:30.654Z
+
+
+### Cannot reproduce anymore, Canary 9146. Moving to claimed fixed. - Tarek on 2018-01-02T22:33:58.530Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-02T22:34:03.621Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-27T00:46:02.304Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (10011), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:13:36.409Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 10015
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T21:49:30.279Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-28T08:31:00.930Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-28T08:31:04.949Z
+
+
+### Archiving ticket due to one month of no action.
+ - Alexander (DJScias) on 2018-03-14T13:46:02.679Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:46:03.749Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

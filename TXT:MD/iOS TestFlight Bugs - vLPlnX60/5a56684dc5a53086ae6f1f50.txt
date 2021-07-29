@@ -1,0 +1,127 @@
+[Archived] Emote Menu Pops Up Randomly (https://trello.com/c/lsS4v98g)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-01-10T19:23:57.596Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Ghoul#4567
+
+####Steps to reproduce:
+- Send an still emote (Discord’s emote or custom emote) 
+- Have someone to send an animated emote (by itself). 
+- Observe what happens after you send it. 
+- If for some reason, you cannot reproduce, try that method several times with multiple different emotes. Make sure you’re not using the iOS default emotes.
+
+####Expected result:
+Emote menu should stay down, and it looks like you’re not browsing emotes to use.
+####Actual result:
+Emote menu pops up randomly and you’re not even typing. (Also happens randomly with still emotes, but you’d also find yourself being unable to scroll the chat)
+####Client settings:
+Discord TestFlight 2.2.0 (2080)
+####System settings:
+iPhone 8+, iOS 11.2.5 (PB4)
+
+7747
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-10T19:23:57.596Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.2 & iPad Air 2, iOS 11.2.5 Public Beta 4, TestFlight 2.2.0 (2080). Make sure to test it multiple times with different emote types and you should see the problem
+
+Pascal#0929 - Bug Bot on 2018-01-10T19:24:04.934Z
+
+
+### Can reproduce.
+iPhone7 iOS 11.0.3, Discord TestFlight 2.2.0; It also happens when someone sends custom emoji
+
+MLG Golden#9086 - Bug Bot on 2018-01-10T19:24:09.917Z
+
+
+### Can reproduce.
+iPhone 8, iOS 11.1.2, TF 2.2.0 (2080)
+
+Q__Q#0489 - Bug Bot on 2018-01-10T19:24:14.916Z
+
+
+### I wanted to explain that there has been issues related to the custom emotes in the past few months, but there hadn't been solid reproduction steps. It's not just the animated emotes that are having issues, but the normal emotes that brings the emote menu up is more random. 
+However, when you send an normal emote, and someone else sends an animated emote which results into the emote menu popping up. I was able to reproduce that everytime, so I think those are pretty solid reproduction steps. It may take a couple of times to be able to reproduce this bug sometimes.
+
+Ghoul#4567 - Bug Bot on 2018-01-10T20:08:02.069Z
+
+
+### JustGamer#2542 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a56684dc5a53086ae6f1f50/07b759730450ea63d7bc8343362d01a9/image.png added by Bug Bot on 2018-01-11T01:52:16.554Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.1.2, TestFlight 2.2.0 (build 2080) - seemed to happen to me without any animated emoji, required a full app restart to get the emoji menu to go away.
+
+JustGamer#2542 - Bug Bot on 2018-01-11T15:04:22.232Z
+
+
+### Can't reproduce.
+CNR as of TF 2.2.1 2202 on iPhone 8 + iOS 11.2.5 (PB6)
+
+Ghoul#4567 - Bug Bot on 2018-01-19T02:44:30.212Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 11.1.2, TestFlight 2.2.1 (build 2202) - seems to be fixed in the latest TF update(s).
+
+JustGamer#2542 - Bug Bot on 2018-01-19T02:48:17.512Z
+
+
+### I can no longer reproduce, this seems to have been fixed with the introduction of working animated emojis on iOS.
+
+Discord 2.2.1 (2202), iOS 11.2.2, iPhone 8 Plus - Alexandru Todea on 2018-01-19T07:15:26.042Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-01-19T07:15:38.741Z
+
+
+### Can't reproduce.
+Appears to be fixed as of iPhone 8 +, iOS 11.3 (PB1), Discord TestFlight 2.2.1 (2236)
+
+Ghoul#0009 - Bug Bot on 2018-01-26T18:39:10.848Z
+
+
+### Can't reproduce.
+iPhone 8, iOS 11.2.2, TestFlight 2.2.1 (build 2236)
+
+JustGamer#9787 - Bug Bot on 2018-01-26T20:54:06.731Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T23:28:59.590Z
+
+
+### Can't reproduce.
+CNR ,TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:50:30.165Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T08:00:08.220Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T08:00:11.679Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:01:31.593Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:01:32.257Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

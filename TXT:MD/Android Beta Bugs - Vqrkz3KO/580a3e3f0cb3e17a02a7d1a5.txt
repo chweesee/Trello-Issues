@@ -1,0 +1,79 @@
+[Archived] Forcefully logged out when changing avatar (https://trello.com/c/2OtCbOQ9)
+
+None
+
+Created: 2016-10-21T16:11:43.436Z
+Latest Update: 2017-10-02T16:43:24.247Z
+
+Prerequisite: Must be logged into a 2FA enabled account.
+
+Steps to Reproduce:
+
+1)  Go into settings and change avatar
+Expected Result: Avatar changed and everything works normally
+Actual Result: Avatar changes and forcefully logged out.
+
+Client Verison: 3.1.3 [ALPHA] 
+System Settings: Samsung Galaxy On5 Android 6.0.1
+
+Card Log
+========
+### Added by Jared on 2016-10-21T16:11:43.436Z
+
+
+### Cannot reproduce.  Avatar changes without problem.
+
+I find it likely that what happened was this user was logged in on their phone, then changed the password (or something similar) on desktop, which auto logs you out of every other platform.  When trying to take an action after that, the app finally updated and kicked him out. - Jared on 2016-10-24T21:35:14.927Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-10-24T21:35:18.664Z
+
+
+### @jared627 Can recreate this everytime, it flashes email is not verified and then logs you out. (changing my name)
+
+Another similiar report found here.
+
+https://trello.com/c/X9Ej221D/81-on-profileupdate-app-logs-out-of-discord - Cole Norman on 2016-11-02T17:50:02.381Z
+
+
+### Khionu can reproduce this on 3.1.4 on Google Pixel (Android 7.1) - Jared on 2016-11-02T17:55:32.411Z
+
+
+### I also have 2fa enabled
+
+So does khionu  - Cole Norman on 2016-11-02T17:58:28.648Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2016-11-02T18:01:52.217Z
+
+
+### Can reproduce.
+3.1.4
+
+A Festive Glass Of Milk#1244 - Jared on 2016-11-02T20:25:53.265Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2016-12-02T15:05:31.472Z
+
+
+### Note that this issue occurs when updating any account info, not just profile picture. - Jared on 2016-12-02T15:06:11.073Z
+
+
+### This has been fixed and will be shipping in version 3.2.0.  Good catch! - Miguel Gaeta on 2016-12-05T18:39:46.005Z
+
+
+### Moved from Serious Issues to Fixed Bugs by Miguel Gaeta on 2016-12-05T18:39:59.487Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:43:23.587Z
+
+
+### Archived by Jared on 2017-10-02T16:43:24.249Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

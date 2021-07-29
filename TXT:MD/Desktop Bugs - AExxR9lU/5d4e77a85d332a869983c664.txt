@@ -1,0 +1,221 @@
+[Archived] "Move Member" entries from deleted Voice Channels cause your client to crash when opening Audit Logs (https://trello.com/c/3Ngmj7N1)
+
+P1: Severe,
+High
+
+Created: 2019-08-10T07:52:08.601Z
+Latest Update: 2020-01-02T05:00:37.559Z
+
+Reported by Cheezybob99#9866
+
+####Steps to reproduce:
+- Have `View Audit Log`, `Manage Channels`, and `Move Members` permission in a server with at least two Voice Channels
+- Join one of the two Voice Channels
+- Drag yourself into the other Voice Channel
+- Delete the Voice Channel that you just dragged yourself into
+- Now open the server's Server Settings -> Audit Logs and observe
+
+####Expected result:
+Your client should not crash upon loading the "Move Member" entry from the deleted Voice Channel
+####Actual result:
+Your client crashes upon loading the "Move Member" entry from the deleted Voice Channel
+####Client settings:
+Discord Canary 43168
+####System settings:
+Macbook Air Early 2015 Macos 10.14.6
+
+41731
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-10T07:52:08.601Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, v1903 - Canary 43372
+
+Nicholas#4669 - Bug Bot on 2019-08-10T07:52:16.072Z
+
+
+### Can reproduce.
+CR; Windows 10 Home x64, Discord Canary Build: 41877
+
+Selene#0001 - Bug Bot on 2019-08-10T07:52:21.072Z
+
+
+### Can reproduce.
+CR Lenovo × Windows 10 Home x64 1903 × Canary 43131
+
+B.O.S.S#0251 - Bug Bot on 2019-08-10T07:52:26.056Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 43372
+
+Aggis15🇬🇷#1907 - Bug Bot on 2019-08-10T10:36:19.866Z
+
+
+### Can reproduce.
+Windows 10 Professional,Canary 43372
+
+Typhoon#7906 - Bug Bot on 2019-08-10T12:55:27.458Z
+
+
+### Can reproduce.
+Can repro; Windows 10 Home, Discord Canary 43320
+
+lesi002#5458 - Bug Bot on 2019-08-10T13:26:40.620Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 43372
+
+AHkhan#6518 - Bug Bot on 2019-08-10T13:27:32.415Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 43372 host 0.0.252
+
+Jean20B#4668 - Bug Bot on 2019-08-10T15:01:14.327Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 version 1903 - Canary 43372
+
+anonymous kitten#3732 - Bug Bot on 2019-08-11T01:35:23.922Z
+
+
+### Can reproduce.
+MacOS 10.14.4, Canary Build: 43372
+
+Jeffrey#1234 - Bug Bot on 2019-08-11T02:48:57.278Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Discord Canary 43372 - Windows 10 Home x64
+
+Jedi3 Cafè Manager#0001 - Bug Bot on 2019-08-11T03:58:02.151Z
+
+
+### Can't reproduce.
+Early 2015 Macbook Pro Retina 13" // macOS Sierra 10.12.6 // Canary 43372
+
+xTeal#7702 - Bug Bot on 2019-08-11T04:38:49.683Z
+
+
+### Can reproduce.
+Windows 7 Canary 43372
+
+Arrowverse2001#2001 - Bug Bot on 2019-08-11T14:22:25.485Z
+
+
+### Archived by Ene on 2019-08-11T21:01:03.191Z
+
+
+### Unarchived by Ene on 2019-08-11T21:01:05.300Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Ene on 2019-08-14T01:50:54.648Z
+
+
+### Verified on Canary 43480, Windows 10 Home 64-bit (v1903).
+
+The cause appears to be deleted messages entries from channels that no longer exist. - Ene on 2019-08-14T02:08:35.607Z
+
+
+### Cannot reproduce anymore on Canary 43618, Windows 10 Home 64-bit (v1903).
+
+Moving to Claimed Fixed. - Ene on 2019-08-15T08:18:45.963Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Ene on 2019-08-15T08:18:49.823Z
+
+
+### Can't reproduce.
+Windows 10 Home v1903 x64 - Discord Canary 43618
+
+Daffyduck#5364 - Bug Bot on 2019-08-15T08:37:46.520Z
+
+
+### Can't reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 43618
+
+B.O.S.S#0251 - Bug Bot on 2019-08-15T11:54:03.565Z
+
+
+### Can't reproduce.
+MacBook Air Early 2015 on macOS Mojave 10.14.2, Canary 43712
+
+Brightness™#0001 - Bug Bot on 2019-08-15T19:25:30.529Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-08-15T19:25:30.917Z
+
+
+### Can't reproduce.
+Windows 10 Pro 64-bit, release channel: stable, build number: 43975, host: 0.0.305, Version Hash 2a8cca1ab698ba17f8cf490c7af05df87fcd47ca
+
+result = None#2323 - Bug Bot on 2019-08-20T21:10:52.686Z
+
+
+### Archived by Bug Bot on 2019-09-19T21:30:38.087Z
+
+
+### Can reproduce again on Canary 50474, Windows 10 Home 64-bit (v1903).
+
+This is now occurring with "Move Member" entries from Voice Channels that no longer exist, so will edit the ticket to better clarify this. - Ene on 2019-12-01T08:41:06.835Z
+
+
+### Moved from Verified Fixed to Notable Issues by Ene on 2019-12-01T08:41:10.504Z
+
+
+### Unarchived by Ene on 2019-12-01T08:41:10.582Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 50474
+
+Jiralite#1207 - Bug Bot on 2019-12-01T12:09:42.692Z
+
+
+### Cannot reproduce anymore on Canary 50509, Windows 10 Home 64-bit (v1903).
+
+Moving to Claimed Fixed. - Ene on 2019-12-02T21:33:35.226Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Ene on 2019-12-02T21:33:40.040Z
+
+
+### Can't reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 50509
+
+Jiralite#1207 - Bug Bot on 2019-12-03T00:33:47.439Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 v1903, - Discord Canary, Build Number: 50588
+
+.Gloria.#9606 - Bug Bot on 2019-12-03T03:55:01.939Z
+
+
+### Can't reproduce.
+Can no longer reproduce, Windows 10 Pro 64-bit (v1909), Discord Canary 0.0.259 Build 50588
+
+ryan#0570 - Bug Bot on 2019-12-03T04:17:50.096Z
+
+
+### Moving to Verified Fixed as three users have added a Cannot Reproduce to this ticket. - Ene on 2019-12-03T04:39:42.099Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Ene on 2019-12-03T04:39:48.804Z
+
+
+### Archived by Bug Bot on 2020-01-02T05:00:37.570Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

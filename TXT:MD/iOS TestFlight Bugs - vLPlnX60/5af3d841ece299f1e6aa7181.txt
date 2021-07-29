@@ -1,0 +1,78 @@
+[Archived] Channel mention doesn't go away in quick switcher when viewing mention on another platform (https://trello.com/c/hgYUtVyr)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-05-10T05:27:29.326Z
+Latest Update: 2018-09-04T23:13:31.772Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Open up quick switcher on your iPhone 
+- Receive a mention while having the quick switcher open 
+- Clear the mention on another device 
+- Observe the mention section on the quick switcher
+
+####Expected result:
+Server icon with mention and mention section both disappear
+####Actual result:
+Only server icon disappears and mention section stays until you type something and them delete it in the quick switcher
+####Client settings:
+TestFlight 2.3.2 (4280)
+####System settings:
+iPhone 6s iOS 11.3.1
+
+12332
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-10T05:27:29.326Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5af3d841ece299f1e6aa7181/bd3ddae377a8ba550b2f5932e05627ac/image.png added by Bug Bot on 2018-05-10T05:27:31.874Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 3, TestFlight 2.3.2 (4280)
+
+Pascal#0929 - Bug Bot on 2018-05-10T05:27:36.778Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4280)
+
+Xylium#1480 - Bug Bot on 2018-05-10T05:27:41.768Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 - TestFlight 2.3.2 (4280)
+
+mrkirby153#7840 - Bug Bot on 2018-05-10T05:27:46.810Z
+
+
+### That also happens with unread channels. The unread marker disappears but the channel is still listed there.
+
+Pascal#0929 - Bug Bot on 2018-05-10T15:11:52.390Z
+
+
+### Verified, but seems very minor. iOS 11, iPad pro, 2.3.2  - Clayton on 2018-05-11T01:05:22.050Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-11T01:05:56.606Z
+
+
+### Also occurs with unread channels
+
+Beeen#0001 - Bug Bot on 2018-07-21T04:31:43.900Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:31.775Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

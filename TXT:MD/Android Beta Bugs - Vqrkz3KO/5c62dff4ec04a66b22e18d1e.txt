@@ -1,0 +1,122 @@
+[Archived] Animated emotes and tags break in embed when a reaction is used (https://trello.com/c/usrsFGjP)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2019-02-12T15:02:12.784Z
+Latest Update: 2020-02-20T21:34:18.244Z
+
+Reported by osso#1998
+
+####Steps to reproduce:
+- Create/find an embed message with a channel name/user tag/animated emote 
+- Add/remove reaction
+
+####Expected result:
+Nothing to the message should happen
+####Actual result:
+The animated emote reload, channel name/user tags becomes invalid then becomes normal again, and incase there was 2 embeds in 1 message, one of them will start jumping up down when you react
+####Client settings:
+8.4.2g
+####System settings:
+Android 8.0.0, oneplus 3t, oxygen os 5.0.8
+
+28639
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-12T15:02:12.784Z
+
+
+### Can reproduce.
+CR, Android 7.1, Xiaomi Note 5 pro, Alpha: 844g
+
+AHkhan#2436 - Bug Bot on 2019-02-12T15:02:20.232Z
+
+
+### Can reproduce.
+Canrepro in Honor 6x 7.0 [EMUI 5.0.2] , alpha 844g
+
+fizy#9347 - Bug Bot on 2019-02-12T15:02:25.255Z
+
+
+### Can reproduce.
+CR • Xiaomi Redmi 4X, Android 7.1.2 N2G47H, Discord Alpha 8.4.4G
+
+Defracted#1337 - Bug Bot on 2019-02-12T15:02:30.234Z
+
+
+### The animation of the animated emoji resetting is a duplicate of https://trello.com/c/GbcfpZ9s (added as a note by Ba™an to this report) and the invalid user thingy is a duplicate of https://trello.com/c/PhTcPhrL
+
+The Lunala#7777 - Bug Bot on 2019-02-12T15:13:18.374Z
+
+
+### Can reproduce.
+CR: Alpha 844g, Android 8.0.0, Samsung Galaxy A6+
+
+Niel#3558 - Bug Bot on 2019-02-12T15:51:18.993Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.4.4G
+
+Skyla#7948 - Bug Bot on 2019-02-12T16:54:46.631Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord 8.4.4G
+
+TheFutureKnight#7664 - Bug Bot on 2019-02-12T18:37:36.709Z
+
+
+### Can reproduce.
+CR. It actually happens whenever there is a mention (channel or user) in an embed, is subjected to change (by paginator, revealing Spoiler, adding reaction), it jumps, flickers, or jerks and the '@invalid-user' thing happens. Xiaomi Redmi 3S Prime, MIUI 10, Android 6.0.1 Discord 8.4.4g
+
+Xnehaxixh#2892 - Bug Bot on 2019-02-12T18:42:38.328Z
+
+
+### Can reproduce.
+Honor 6x 7.0 [EMUI 5.0.2], alpha 844g
+
+fizy#9347 - Bug Bot on 2019-02-13T02:22:20.697Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0.1, Discord Alpha 8.4.4G
+
+Frances Picard#6209 - Bug Bot on 2019-02-14T03:21:31.109Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 8.4.4 - Clayton on 2019-02-14T10:36:53.728Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-14T10:37:01.804Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 844G
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-14T12:13:34.981Z
+
+
+### Archived by Bug Bot on 2019-03-16T12:30:03.089Z
+
+
+### Can reproduce.
+LenovoPad A8-50LC, Android 5.1.0 • Discord Alpha 9.3.7
+
+shard#9042 - Bug Bot on 2019-08-09T14:43:39.864Z
+
+
+### Unarchived by Bug Bot on 2019-08-09T15:00:05.655Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:18.259Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

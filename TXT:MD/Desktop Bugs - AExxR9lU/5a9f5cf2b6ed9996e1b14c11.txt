@@ -1,0 +1,87 @@
+[Archived] trying to ping <@&259909937403133953> while having a role called "everyone" doesn't work. (https://trello.com/c/y1nmnpIR)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-03-07T03:30:58.839Z
+Latest Update: 2018-03-07T22:55:39.721Z
+
+Reported by Kot#8733
+
+####Steps to reproduce:
+- Make a role called everyone 
+- try to ping the actual <@&259909937403133953> -
+
+####Expected result:
+the actual built-in role <@&259909937403133953> is pinged.
+####Actual result:
+The role <@&259909937403133953> is pinged.
+####Client settings:
+Discord Canary 11585
+####System settings:
+Win 10 x64
+
+9387
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-07T03:30:58.839Z
+
+
+### Can reproduce.
+Can reproduce, ChromeOS
+
+Dabbit Prime#0896 - Bug Bot on 2018-03-07T03:31:06.240Z
+
+
+### Can reproduce.
+Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 11585
+
+Ghoul#0009 - Bug Bot on 2018-03-07T03:31:22.042Z
+
+
+### Can reproduce.
+Macbook Pro 10.12.6 (16G1036), Discord Canary Build 11585
+
+D0cR3d#0001 - Bug Bot on 2018-03-07T03:34:45.091Z
+
+
+### Can reproduce.
+Ubuntu 17.10 x64, Canary 11585
+
+KJP12#3880 - Bug Bot on 2018-03-07T03:34:53.823Z
+
+
+### Can reproduce.
+MacBookAir7,1, Happens with any of the same 2 roles according to https://trello.com/c/3J2CSCnC/819-you-can-only-submit-1-mention-from-2-roles-with-same-name. I'd imagine that the global <@&259909937403133953> role overrides the server everyone role. There should be a way to mention both roles, instead of just one of the roles showing up when you mention.
+
+Abequinn#5368 - Bug Bot on 2018-03-07T03:40:22.486Z
+
+
+### This makes no sense, we have a verified bug about this in Android but the other way around. So I don't know if this is a NAB or the Android ticket.
+
+Which is this: https://trello.com/c/wJdj3TLV/785-doing-an-everyone-ping-from-mobile-uses-real-everyone-instead-of-custom-role
+
+So this is quite confusing - Tarek on 2018-03-07T06:16:03.491Z
+
+
+### Possibly dupe/ext of https://trello.com/c/3J2CSCnC/
+
+Sade#2852 - Bug Bot on 2018-03-07T19:13:57.227Z
+
+
+### I'd argue that this is an extension of https://trello.com/c/wJdj3TLV/785-doing-an-everyone-ping-from-mobile-uses-real-everyone-instead-of-custom-role, since there should be a way to mention either role. Verified.  - Clayton on 2018-03-07T22:18:26.234Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-07T22:18:30.169Z
+
+
+### Archived by Clayton on 2018-03-07T22:55:39.723Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,78 @@
+[Archived] Channel Topic Mention Bug (https://trello.com/c/NYbVTvSz)
+
+None
+
+Created: 2019-10-05T08:15:33.945Z
+Latest Update: 2019-10-08T17:19:03.284Z
+
+Reported by Socket#0001
+
+####Steps to reproduce:
+- Go to a server where you can create a channel 
+- Go to channel settings and change the topic to <@userid> (person must be in the server). 
+- Close and go to members list 
+- Click on the mention.
+
+####Expected result:
+The profile should be displayed.
+####Actual result:
+The mention takes you to Direct Messages with blank member list.
+####Client settings:
+TestFlight 3.1.4(17575)
+####System settings:
+iPhone 7, iOS 13.2
+
+45206
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-05T08:15:33.945Z
+
+
+### username#6666 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5d9851252683730e5d3a5576/f3227e7536eb5868837e8f9475fbadc3/image0.png added by Bug Bot on 2019-10-05T08:15:37.009Z
+
+
+### Can reproduce.
+CR; iPhone 7, iOS 13.1.2, TestFlight 3.1.4 (17575) - My app completely freezes when clicking the mention
+
+KindleTune#8570 - Bug Bot on 2019-10-05T08:15:41.564Z
+
+
+### Can reproduce.
+iPad Pro 11" (3rd Gen) - iOS 12.4.1 - TestFlight 3.1.4 (17575)
+
+Ayu#0001 - Bug Bot on 2019-10-05T08:15:46.531Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.4 (17575) - It stays on the screen like the attached photo and then I tapped the left to close it. This also does the same to Server Channels kind of except that when you put another channel, it doesn’t take you to the channel, you stay in the current channel.
+
+.Gloria.#9606 - Bug Bot on 2019-10-05T08:15:51.874Z
+
+
+### Dupe of https://trello.com/c/RY7sckrO
+
+Archiving. - Pascal on 2019-10-05T08:29:02.762Z
+
+
+### Archived by Pascal on 2019-10-05T08:29:06.164Z
+
+
+### Can't reproduce.
+Duplicate of https://trello.com/c/RY7sckrO
+
+KindleTune#8570 - Bug Bot on 2019-10-05T08:39:35.875Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13 - TestFlight 3.1.4 (17524)
+
+Fictional#0001 - Bug Bot on 2019-10-08T17:19:03.298Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

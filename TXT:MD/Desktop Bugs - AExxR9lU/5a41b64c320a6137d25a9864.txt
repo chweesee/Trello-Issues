@@ -1,0 +1,71 @@
+[Archived] RP Elapsed time doesnt show properly if its over 24 hours (https://trello.com/c/j6sAR8Ty)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2017-12-26T02:39:08.635Z
+Latest Update: 2018-10-22T20:17:35.164Z
+
+Reported by ⌛.exe ¯\_(ツ)_/¯#5785
+
+####Steps to reproduce:
+- programm 24h same project in one piece  
+- dont sleep
+
+####Expected result:
+It should display "Yesterday" like on Android (where it works) or something else
+####Actual result:
+After 24h it does back to 0 and doesnt display one or probably more elapsed days
+####Client settings:
+Discord Canary, 0.0.194
+####System settings:
+Win 10 x64
+
+7314
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-26T02:39:08.635Z
+
+
+### Gimo#0916 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a41b64c320a6137d25a9864/e73d03ddb0b8030a89b8323946d50fe1/unknown.png added by Bug Bot on 2017-12-26T02:39:11.078Z
+
+
+### Can reproduce.
+Windows 10, Canary 9070
+
+Almighty Alpaca#6242 - Bug Bot on 2017-12-26T02:39:16.049Z
+
+
+### Can reproduce.
+Works with a full custom rich presence, and the normal just timetsamp rich presence. It wraps around to 0 minutes it seems. macOS High Sierra, 10.13.2. Discord Build Number: 9072, Discord Version: 0.0.249
+
+perryprog#9657 - Bug Bot on 2017-12-26T02:39:21.038Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.194, Build 9070, Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2017-12-26T02:39:26.042Z
+
+
+### It happens every 24 hours.
+
+⌛.exe ¯\_(ツ)_/¯#5785 - Bug Bot on 2017-12-27T10:52:17.733Z
+
+
+### Verified (with an assist from Mason) - Jared on 2018-01-02T19:35:42.100Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-01-02T19:35:46.253Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:35.167Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

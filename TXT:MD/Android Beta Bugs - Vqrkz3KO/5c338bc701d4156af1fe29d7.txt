@@ -1,0 +1,88 @@
+[Archived] Hard crashing of discord upon skipping songs on Spotify ( might take a few tries and lot of patience to reproduce) (https://trello.com/c/CVgmBCSx)
+
+None
+
+Created: 2019-01-07T17:26:32.037Z
+Latest Update: 2019-06-05T23:49:29.635Z
+
+Reported by sloth_.on._tabasco#9015
+
+####Steps to reproduce:
+- Have a Spotify account connected to discord  
+- Play a song on Spotify and wait for discord to detect it  
+- Play 3 to 4 songs without skipping  
+- Pause the song and go to another app (preferably YouTube) make sure you don't swipe discord or  Spotify away from recent apps 
+- Use the other app for sometime  (untill your OS automatically closes discord due to inactivity, might take upto half an hour 
+- Now go to Spotify and search a new song and play it  
+- Go back to discord via recent apps
+
+####Expected result:
+You should be able to use discord while listening to music
+####Actual result:
+App crashes badly
+####Client settings:
+Alpha 8.2.4
+####System settings:
+ASUS Zenfone max pro m1 Android 8.1.0
+
+25711
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-07T17:26:32.037Z
+
+
+### Can reproduce.
+Can Reproduce - i was listening to Coldplay when the app mysteriously crashed. Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 8.2.4
+
+Danijel#9000 - Bug Bot on 2019-01-07T17:26:39.456Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 8.1 (Oreo) • Discord Alpha 8.2.4 (824) • was listening to Capital Cities when Discord crashed and thought instantly of this bug. Happened after 15-20 minutes of listening.
+
+FoxyKero#6969 - Bug Bot on 2019-01-07T17:26:44.495Z
+
+
+### Can reproduce.
+Can repro, it happens even after on android 9 with battery saver and low battery, because the OS kills inactive apps more agressively, Pixel 3 XL, Android 9 PQ1A.181205.006, Discord 8.2.2
+
+ginkoid#8888 - Bug Bot on 2019-01-07T17:26:49.483Z
+
+
+### Can reproduce.
+Nexus 5x, Android 8.1, Alpha 8.2.4 this happened to me 3 times randomly yesterday, i also can repo following these steps.
+
+criptixo#0001 - Bug Bot on 2019-01-07T17:38:38.974Z
+
+
+### Fixed in next alpha - Jeff Cailteux on 2019-01-07T18:11:29.651Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-01-07T18:12:08.880Z
+
+
+### Can reproduce.
+CR. Alpha 8.2.4 Samsung Galaxy S7, Android 8.0.0
+
+Toasty Furkan#0001 - Bug Bot on 2019-01-07T18:15:38.609Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 8.0.0,Alpha 8.2.4
+
+Octillion#6666 - Bug Bot on 2019-01-08T19:24:19.865Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-12T09:08:39.892Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:29.647Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,75 @@
+[Archived] Selecting multiple lines from a channel topic or video comment selects more than intended (https://trello.com/c/rgFGRrCr)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2018-10-05T17:52:34.324Z
+Latest Update: 2019-09-15T13:00:16.629Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Click on any channel name and open the channel settings or upload any video 
+- Add a long comment to the video/channel topic (at least 5 lines) 
+- Select a word at the last line of your message 
+- Now move the cursor and select even more lines before (make it slowly to see the result e.g. try to select lines 5 to 3) 
+- Observe the result when selecting multiple lines
+
+####Expected result:
+It should only select the lines you are trying to select.
+####Actual result:
+When scrolling back (at the beginning of the message text field where the message is cut off and you have to scroll to see the other part) it will automatically select more lines than wanted (e.g. it will select lines 5 - 2 instead of 5 - 3).
+####Client settings:
+TestFlight 2.3.9 (8023)
+####System settings:
+iPhone 8 Plus - iOS 12 & iPad Air 2 - iOS 12.1 Public Beta 2
+
+20677
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-05T17:52:34.324Z
+
+
+### Pascal#0929 - https://youtu.be/40F3WL1ovAo added by Bug Bot on 2018-10-05T17:52:36.711Z
+
+
+### Can reproduce.
+CR, iPhone 6S, iOS 12.0, TestFlight 2.3.9 (8023)
+
+Toby#5609 - Bug Bot on 2018-10-05T17:52:41.687Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 6s iOS 11.4.1, TF 2.3.9 (8023)
+
+George#0069 - Bug Bot on 2018-10-05T17:52:46.706Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 6. iOS 12.0. TestFlight 2.3.9 (8023)
+
+coolalmostchilly#7777 - Bug Bot on 2018-10-05T17:52:51.659Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-12T19:00:02.779Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:21.901Z
+
+
+### No longer happens with video comments because the upload behavior changed a bit and shows the normal message field now. - Pascal on 2019-07-12T06:54:13.835Z
+
+
+### Unarchived by Bug Bot on 2019-07-12T07:00:08.918Z
+
+
+### Archived by Bug Bot on 2019-09-15T13:00:16.640Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

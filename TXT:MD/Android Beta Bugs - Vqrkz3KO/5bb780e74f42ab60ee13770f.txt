@@ -1,0 +1,66 @@
+[Archived] [Audit Log] creating an invite to a channel and deleting the channel afterwards let's the invite create entry show incorrectly (https://trello.com/c/A0lCgoEE)
+
+None
+
+Created: 2018-10-05T15:19:03.900Z
+Latest Update: 2019-06-05T23:47:58.432Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- create an invite to a channel 
+- delete that channel 
+- observe expand of the invite create entry
+
+####Expected result:
+entry should tell us the ID of the channel
+####Actual result:
+it sais: "for channel #null"
+####Client settings:
+Alpha 7.6.3
+####System settings:
+Samsung Galaxy S5 Mini Android 6.0.1
+
+20674
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-05T15:19:03.900Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.6.3
+
+coolalmostchilly#7777 - Bug Bot on 2018-10-05T15:19:11.129Z
+
+
+### Can reproduce.
+CR. Motorola G 2015, Android 8.1, Discord Alpha 763
+
+Avenger™#6259 - Bug Bot on 2018-10-05T15:19:16.329Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.6.3
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-05T15:19:21.225Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Jeff Cailteux on 2018-10-05T16:29:35.407Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-10-05T17:15:26.793Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-05T00:23:12.131Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:58.442Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

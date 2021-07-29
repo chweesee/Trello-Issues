@@ -1,0 +1,87 @@
+[Archived] [Huawei/Honor and OnePlus devices running Android 8+ only] When any overflow or dropdown menu is open, rotating the screen softcrashes the UI and shoots you back to chat (https://trello.com/c/zCqWPJcY)
+
+P2 - Can wait a while,
+Low
+
+Created: 2018-09-11T14:01:02.818Z
+Latest Update: 2019-01-01T15:28:37.342Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find any activity in the app featuring an overflow menu. For example User settings with the Debug option, Server settings with the Delete server option, Channel settings with Reset notification settings option, etc. It also happens with dropdown menus such as the channel dropdown in create invite screen and the role filter dropdown in Server Settings > Members 
+- Expand the overflow/dropdown menu 
+- While menu is open, rotate screen
+
+####Expected result:
+Nothing noticeable should happen
+####Actual result:
+After screen is rotated, the app blackscreens for a split second followed by you being thrown back in chat, closing all menus and cancelling everything you were doing. An error is thrown in the Android logcat: `android. view. WindowLeaked: Activity com. discord. app. AppActivity has leaked window android. widget. PopupWindow$PopupDecorView that was originally added here`
+####Client settings:
+Discord Alpha 7.4.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+19436
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-11T14:01:02.818Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.4.8
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-11T14:01:10.290Z
+
+
+### Can reproduce.
+can reproduce, it kicks you out of voice channel and exit discord in voice call. Honor 9 Lite, Oreo 8.0.0 • Discord Alpha 748
+
+MakiTheLegend#5027 - Bug Bot on 2018-09-11T14:01:15.144Z
+
+
+### Can reproduce.
+Huawei P8 lite (ALE-L21), Android 6.0.0, Discord Alpha @ 748 I experience the black screen and I get disconnected, but I can see no error in the logs
+
+enkiel#8029 - Bug Bot on 2018-09-11T14:01:20.134Z
+
+
+### The reproducibility of this bug is very inconsistent across devices. Even if you meet the requirements above (be on a Huawei/Honor/OnePlus device with Android 8+), you are still not 100% guaranteed that you can repro. Btw Enkiel's approval below is not valid because he can't repro the bug everywhere in the app, only in 1 or 2 screens.
+
+Alex1304#9704 - Bug Bot on 2018-09-11T14:19:38.691Z
+
+
+### I can reproduce this on OnePlus 5 running Android 8.1. On Discord Alpha 7.4.8 - Tarek on 2018-09-11T14:32:06.676Z
+
+
+### Can't reproduce.
+OnePlus 3T, Android 8, Discord 7.4.8 -  At most the dropdown / 3 dot menu would close.
+
+Alipoodle#5025 - Bug Bot on 2018-09-11T19:50:37.091Z
+
+
+### Can reproduce.
+Huawei Honor 10 view (BKL-L09), Android 8.0.0, Discord Alpha 748
+
+JVC Almeos#1984 - Bug Bot on 2018-09-12T22:36:56.310Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2018-09-13T00:40:28.479Z
+
+
+### Moved from Notable Issues to Cannot Reproduce by Sam Shih on 2018-11-09T18:27:32.198Z
+
+
+### Archived due to being inactive for 30+ days in cannot reproduce list. - Tarek on 2019-01-01T15:28:36.317Z
+
+
+### Archived by Tarek on 2019-01-01T15:28:37.344Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

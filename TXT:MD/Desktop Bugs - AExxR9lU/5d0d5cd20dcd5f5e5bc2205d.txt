@@ -1,0 +1,83 @@
+If someone sets a custom status in a private channel you don't have access to, you still get a notification about it and you can see the members inside it and hear people leave & join (https://trello.com/c/MJtSFBRI)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2019-06-21T22:40:18.641Z
+Latest Update: 2019-06-26T15:47:27.730Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Be in a guild with this experimental feature 
+- Ask someone to make a channel you don't have access to 
+- Tell them to set a custom status in there 
+- Observe how you still get a notification about joining them, and when joining you are semi added to the VC and you can see people, and hear them leave and join. But not their voices
+
+####Expected result:
+You should not get a notification nor be able to join the VC that way
+####Actual result:
+You get a notification about a private VC, can see the members inside it and hear people joining/leaving
+####Client settings:
+Discord Canary 0.0.245 (40201)
+####System settings:
+Windows 10 Pro 64-bit (1903)
+
+38095
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-21T22:40:18.641Z
+
+
+### Can reproduce.
+can reproduce, macos 10.14.3, canary 40201
+
+IcyPebbles#5833 - Bug Bot on 2019-06-21T22:40:26.124Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Pro x64 16299.1127, 40201
+
+TOXIC#0001 - Bug Bot on 2019-06-21T22:40:31.086Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40249
+
+Xylium#5800 - Bug Bot on 2019-06-21T22:40:36.095Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-06-21T22:45:49.762Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.245 Build 40249
+
+Daffyduck#5364 - Bug Bot on 2019-06-22T05:20:54.966Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 - Canary - 40274
+
+Jasοn#0001 - Bug Bot on 2019-06-22T16:20:17.819Z
+
+
+### Can reproduce.
+Windows 10 Professional Canary 40274
+
+Typhoon#3514 - Bug Bot on 2019-06-24T14:26:03.019Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 40354 (Host 0.0.245)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-26T15:47:27.737Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

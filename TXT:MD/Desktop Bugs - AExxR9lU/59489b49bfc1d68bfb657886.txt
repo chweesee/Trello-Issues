@@ -1,0 +1,71 @@
+[Archived] Embedded images are not displayed if their link is a redirect (https://trello.com/c/WELuZAS1)
+
+P2: Fix can wait a while
+
+Created: 2017-06-20T03:49:29.933Z
+Latest Update: 2017-12-02T17:06:07.366Z
+
+Reported by xinitrc#4201
+
+####Steps to reproduce:
+- create an embed with the link "<https://discordapp.com/api/users/118454446849130499/avatars/1ccb95ba31e13807c9138b9c0ed753e6.jpg>" 
+- create another embed with the link: "<https://images.discordapp.net/avatars/118454446849130499/1ccb95ba31e13807c9138b9c0ed753e6.jpg>" (they both point to the same picture)
+
+####Expected result:
+Both embeds to display the same image
+####Actual result:
+First embed would not have an image
+####Client settings:
+Discord Canary, 0.0.157
+####System settings:
+Win 10 x64
+
+1793
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-20T03:49:29.933Z
+
+
+### Can reproduce.
+can reproduce  Moto G 3rd Generation, 6.0
+
+Melroy#5344 - Bug Bot on 2017-06-20T03:49:34.363Z
+
+
+### Can reproduce.
+ arch linux discord 0.19
+
+Alex from Alaska#9760 - Bug Bot on 2017-06-20T03:49:36.353Z
+
+
+### Can reproduce.
+CR, Windows 8.1 x64, Discord Stable 0.0.297
+
+ashley#9434 - Bug Bot on 2017-06-20T03:49:38.368Z
+
+
+### Verified.  - Clayton on 2017-06-20T21:00:14.637Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-20T21:00:20.539Z
+
+
+### This isn't a bug. We can't display anything on a redirect, there's no information to grab. - Jared on 2017-10-17T06:53:29.237Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2017-10-17T06:53:35.314Z
+
+
+### Archiving this card because it's been in the Not a Bug list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:06:06.312Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:06:07.368Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

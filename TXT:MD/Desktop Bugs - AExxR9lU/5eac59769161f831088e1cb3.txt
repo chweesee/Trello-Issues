@@ -1,0 +1,67 @@
+[Stable/ptb] Spellcheck does not list suggested words, nor underline misspelled words & RPC errors (https://trello.com/c/vFfiHQmf)
+
+None
+
+Created: 2020-05-01T17:16:38.892Z
+Latest Update: 2020-07-16T21:26:06.291Z
+
+Reported by Cyadox#0615
+
+####Steps to reproduce:
+- Restart Discord 
+- Type a misspelled word in any chat 
+- Right-click the misspelled word (Note: will not be underlined in red)
+
+####Expected result:
+List of word suggestions should appear in context menu
+####Actual result:
+Suggestions do not appear, uncaught error appears in console
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 59298, Version Hash: 6349c551e7a9f26e3d763a049f99ee68760e6e25
+####System settings:
+Windows 10, Version 1909, 64-bit
+
+55394
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-01T17:16:38.892Z
+
+
+### Jiralite#1207 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5eac59769161f831088e1cb3/f3011a4df3d3ae95eace74361bb3ee8e/Screenshot_2020-05-01_at_17.55.28.png added by Bug Bot on 2020-05-01T17:16:42.348Z
+
+
+### Can reproduce.
+Multiple errors in the console upon startup. MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord PTB 59315 ~ Host 0.0.48 & Discord Stable 59315 ~ Host 0.0.257
+
+Jiralite#1207 - Bug Bot on 2020-05-01T17:16:46.455Z
+
+
+### Can reproduce.
+Can reproduce on Stable 59315 (c8ffe19) // Windows 10 64-Bit (10.0.18362)
+
+Encrium#0004 - Bug Bot on 2020-05-01T17:16:51.517Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 59315 (c8ffe19), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-05-01T17:16:56.446Z
+
+
+### Did not reproduce on canary. Reproduced on stable 59315.
+
+wakfi#6999 - Bug Bot on 2020-05-01T17:19:14.932Z
+
+
+### Host 0.0.306 for stable
+
+wakfi#6999 - Bug Bot on 2020-05-01T17:21:17.728Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

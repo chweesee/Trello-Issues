@@ -1,0 +1,100 @@
+[Archived] Uploading a .png avatar as Bot Avatar in new Dev Panel results in extremely pixelated 64x64 avatar. (https://trello.com/c/l4qP8Zev)
+
+None
+
+Created: 2018-07-21T14:41:45.010Z
+Latest Update: 2019-01-01T15:43:06.603Z
+
+Reported by Galkon#1337
+
+####Steps to reproduce:
+- Go to developer panel 
+- Create or edit a bot 
+- Upload a png avatar
+- Watch as it completely wrecks the quality of your image and only renders it as 64x64 everywhere
+
+####Expected result:
+It should act the same as it does for a , retain quality / resolution and not look pixelated
+####Actual result:
+The  with transparency is for whatever reason massively downscaled and never rendered larger than 64x64 by Discord
+####Client settings:
+Discord Developer Panel - was told to report it in desktop bugs.
+####System settings:
+Google Chrome Version 67.0.3396.99 (Official Build) (64-bit)
+How you ask is everythingCreate a typeform
+
+15754
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-21T14:41:45.010Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b534628a3220935bcdde951/f744a9fcc56ac355ea7021a64a3152a3/hlweBV5.png added by Bug Bot on 2018-07-21T14:41:47.570Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (1803) on Mozilla FireFox 61.0.1 on Discord Developer page on Bot. My image was 750 x 1000 pixels, but did not have any transparency.
+
+Ghoul#0009 - Bug Bot on 2018-07-21T14:41:52.416Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Canary Build 19418
+
+Pascal#0929 - Bug Bot on 2018-07-21T14:41:57.401Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 19429
+
+Xylium#1480 - Bug Bot on 2018-07-21T14:42:02.299Z
+
+
+### Edit the steps and title, since transparency and it being 1024x1024 was unrelated. 
+
+Related ticket about the same thing: https://github.com/discordapp/discord-api-docs/issues/631 - Tarek on 2018-07-22T21:32:57.620Z
+
+
+### Can reproduce.
+CR on : iPhone 7, iOS 11.3 - Windows 10, Vivaldi 1.15.1147.42 - Acer Chromebook 14 - Transparency and image size isn't needed.
+
+Aɴᴅʏ#1337 - Bug Bot on 2018-07-22T22:57:24.650Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Mason Sciotti on 2018-07-23T17:40:20.079Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Mason Sciotti on 2018-07-23T23:05:04.985Z
+
+
+### I can still reproduce this with the application icon itself. And not bot icon. Reopening ticket. - Tarek on 2018-07-30T04:14:38.275Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-07-30T04:14:41.872Z
+
+
+### Can reproduce.
+This also happens on jpg for me, Windows 10 Pro x64, Chrome Version 68.0.3440.75 (Official Build) (64-bit)
+
+» a r i a#1593 - Bug Bot on 2018-07-30T13:56:28.367Z
+
+
+### can no longer reproduce - Clayton on 2018-10-04T01:44:12.364Z
+
+
+### Moved from Reopened to Verified Fixed by Clayton on 2018-10-04T01:44:34.888Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:43:05.793Z
+
+
+### Archived by Tarek on 2019-01-01T15:43:06.605Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/masonsciotti) - No Bio

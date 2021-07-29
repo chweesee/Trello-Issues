@@ -1,0 +1,177 @@
+[Archived] Discord crashes when clicking on a link with a % (https://trello.com/c/ynRnzF2T)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-04-24T16:18:59.391Z
+Latest Update: 2020-01-18T06:00:07.393Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Post any link that contains a `%` at the end of the URL 
+- Click on that link
+
+####Expected result:
+The selected browser should be opened with that link (regardless of whether the link is valid or not).
+####Actual result:
+The app will crash after clicking the link.
+####Client settings:
+TestFlight 2.3.0 (3817)
+####System settings:
+iPhone 6s, iOS 11.3 & iPad Air 2, iOS 11.4 PB 2
+
+11234
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-24T16:18:59.391Z
+
+
+### Can reproduce.
+CR; iPhone 6 - iOS 11.4 TestFlight 2.3.0 (3817)
+
+Xylium#1480 - Bug Bot on 2018-04-24T16:19:06.900Z
+
+
+### Can reproduce.
+CR: iPhone 7 iOS 11.3, Testflight 2.3.0 (3817). Requires ?% for me
+
+BarnMS#3108 - Bug Bot on 2018-04-24T16:19:11.854Z
+
+
+### Can reproduce.
+CR; iPhone 7+, iOS 11.4 (Dev Beta 1), TF 2.3.0 (3817). Used test URL: https://www.google.com/?%
+
+unreal#0001 - Bug Bot on 2018-04-24T16:19:16.853Z
+
+
+### It seem to only work if there is a ? before the %
+
+Pyros#2326 - Bug Bot on 2018-04-24T16:30:27.527Z
+
+
+### Also seems to work with a # before the ?
+
+BarnMS#3108 - Bug Bot on 2018-04-24T17:30:36.165Z
+
+
+### Working with any link ending with % such as https://www.google.com/images#%
+
+BarnMS#3108 - Bug Bot on 2018-04-24T17:35:38.708Z
+
+
+### Can reproduce.
+null
+
+ScenicJaguar101#9629 - Bug Bot on 2018-04-24T23:36:25.567Z
+
+
+### Can reproduce.
+iPhone 8, iOS 11.2.5 - Discord Public Release v2.3.0
+
+ScenicJaguar101#9629 - Bug Bot on 2018-04-24T23:55:58.553Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:49:16.857Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:49:22.469Z
+
+
+### 54D#1357 - https://youtu.be/5ofkRfi9L1s added by Bug Bot on 2018-07-14T06:04:31.629Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:15.531Z
+
+
+### Can reproduce.
+iPhone SE - iOS 12 - TestFlight 8921 - This also crashes with #/# seems to be the scroll character causing it
+
+evilpauwse#9985 - Bug Bot on 2018-11-28T12:49:25.411Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1.1, Dev Beta 3 - TestFlight 2.4.0 (9370)
+
+Alfie#1582 - Bug Bot on 2018-11-30T20:43:13.443Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11113)
+
+Solo#0007 - Bug Bot on 2019-02-12T14:37:23.976Z
+
+
+### Unarchived by Bug Bot on 2019-02-12T15:00:06.587Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.3 (16F5129d) - TestFlight 2.5.2 (13786)
+
+Isabel#0002 - Bug Bot on 2019-04-21T13:52:09.264Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14577)
+
+Daffyduck#5364 - Bug Bot on 2019-05-04T00:15:45.320Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.4 (Dev Beta), TestFlight 3.0.2 (15022)
+
+Keons#0001 - Bug Bot on 2019-05-20T13:31:58.285Z
+
+
+### Archived by Bug Bot on 2019-07-13T20:00:26.390Z
+
+
+### Can reproduce.
+3.1.2 (17140)
+
+Infern0d#6856 - Bug Bot on 2019-09-05T22:52:10.772Z
+
+
+### Unarchived by Bug Bot on 2019-09-05T23:00:08.233Z
+
+
+### Can reproduce.
+iPad (6th generation) - iOS 12.4.1 - Discord 3.1.2
+
+Best_Pro#7066 - Bug Bot on 2019-09-24T17:00:54.900Z
+
+
+### Archived by Bug Bot on 2019-11-03T20:30:13.361Z
+
+
+### Can reproduce.
+CR // Works also when adding # at the end of a link like <link>/#support# // iPhone 11 // iOS 13.2.3 // TestFlight 3.1.9 (18456)
+
+Falkio#0001 - Bug Bot on 2019-12-08T23:20:44.948Z
+
+
+### A most wonderful yet pleasant extension of this immaculate issue is that if you (hang on buddy, this is in-app browser specific!) include a # after an / and at the end of the url or if there is another / in the url, have the # before that next one, clicking on it will crash. An example link of this is https://google.co.uk/#iOSbtw#
+
+Jiralite#1207 - Bug Bot on 2019-12-08T23:21:09.903Z
+
+
+### Can reproduce.
+Oh yeah, I can also reproduce this ticket lol iPhone 7: iOS 13.2.3; TestFlight 3.1.9 (18456)
+
+Jiralite#1207 - Bug Bot on 2019-12-08T23:22:44.780Z
+
+
+### Unarchived by Bug Bot on 2019-12-08T23:30:05.329Z
+
+
+### Archived by Bug Bot on 2020-01-18T06:00:07.406Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

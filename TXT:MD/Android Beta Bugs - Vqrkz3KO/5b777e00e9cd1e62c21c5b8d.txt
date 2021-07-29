@@ -1,0 +1,125 @@
+When an @ everyone tag is sent in a very large server (5+digit member count), all Android users that have read the ping and closed Discord before the push notification has propagated will get a stuck ping (https://trello.com/c/rUPikMSR)
+
+Low,
+P2 - Can wait a while
+
+Created: 2018-08-18T02:01:36.425Z
+Latest Update: 2019-11-26T11:29:15.331Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+
+- Make sure you don't have Discord running anywhere, except on your Android client which should be open 
+- Have someone mention everyone or a role with a lot of people in it 
+- As soon as you receive the ping: acknowledge it, add a reaction to the message (idk if it's required but that's what I did) and switch to a different channel. You must do all of that very quickly after receiving the ping! 
+- Minimize Discord by using your Home button (don't kill the app) and lock your phone 
+- Wait for a good 5 minutes, enough time for your previous Discord session to die. 
+- Unlock your phone, and reconnect to Discord. The stuck ping should be there
+
+####Expected result:
+The mention should stay read
+####Actual result:
+The ping comes back and gets stuck: impossible to get rid of it, even when marking as read again, until you view it on Desktop or someone posts a new message in the channel.
+####Client settings:
+First reported on Discord Alpha 7.3.3, steps to reproduce last updated on Discord Alpha 8.8.4
+####System settings:
+Huawei Mate 9 Android 8.0
+
+17804
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-18T02:01:36.425Z
+
+
+### Can reproduce.
+I was able to reproduce this when someone pinged in desktop-announcements and I was never able to find solid reproduction steps for this. |  Samsung Galaxy S7 Edge, Android 8.0, Discord Alpha 7.3.3
+
+volcanicer#1122 - Bug Bot on 2018-08-18T02:01:43.839Z
+
+
+### Can reproduce.
+Can Reproduce - Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.3.5
+
+Danijel#9000 - Bug Bot on 2018-08-18T02:01:48.714Z
+
+
+### Can reproduce.
+CR Samsung S5 neo 6.0.1 alpha 7.3.5 | Happens only with role pings to me
+
+ks#0908 - Bug Bot on 2018-08-18T02:01:53.737Z
+
+
+### Can reproduce.
+Can reproduce, also when you have over 1000+ pings in server instead of showing 1200 for example it gets stuck at 1...., Xiaomi Redmi Note 5 AI and OnePlus 5, (both On 7.3.3 Alpha with Android 8.1.0)
+
+Jdm90s#1998 - Bug Bot on 2018-08-18T03:12:02.982Z
+
+
+### verified, samsung s6 edge, alpha 7.4.2, android 7.0 - Clayton on 2018-08-29T21:25:24.239Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-29T21:25:28.057Z
+
+
+### Archived by Clayton on 2018-09-28T21:30:02.638Z
+
+
+### Can reproduce.
+Samsung galaxy A3, 6.0.1
+
+🎃SpookyGreekBanana🎃#0001 - Bug Bot on 2018-10-04T19:32:24.519Z
+
+
+### Unarchived by Clayton on 2018-10-04T20:00:03.483Z
+
+
+### In very large servers, there can be a huge delay between the moment when the @ everyone is posted and the moment when mobile push notification is received. This is the root cause: whenever you read a ping before the push notification has propagated, you will get the stuck ping upon reopening Discord.
+
+Alex1304#9704 - Bug Bot on 2018-11-08T23:49:24.022Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b777e00e9cd1e62c21c5b8d/49e9b2e0b470384426d19b8076d92851/IMG_20181109_002017.jpg added by Bug Bot on 2018-11-08T23:58:37.639Z
+
+
+### Moved from Verified Bugs to Notable Issues by Sam Shih on 2018-11-09T01:58:01.360Z
+
+
+### It is actually possible to clear the stuck ping using these steps:
+- Mark whole server as read
+- Kill Discord and restart
+
+Alex1304#9704 - Bug Bot on 2019-01-05T21:25:01.347Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 6.0.1, alpha 8.1.9 (819)
+
+W...W...WUMPUUUS#1234 - Bug Bot on 2019-01-07T08:14:13.184Z
+
+
+### Can reproduce.
+HUAWEI P9 lite 2017, device model PRA-LX1 and version 8.0.0
+
+🐺johnakos77🐺#9790 - Bug Bot on 2019-01-07T08:16:04.625Z
+
+
+### Can reproduce.
+Moto G7 Power, Android 9.0, Discord 983
+
+Saluki#7350 - Bug Bot on 2019-11-10T12:25:50.423Z
+
+
+### Can reproduce.
+CR, Redmi 6A, Android 8.1.0, Discord: 9.9.1
+
+NeverCookFirst#5630 - Bug Bot on 2019-11-26T11:29:15.349Z
+
+List
+====
+Notable Issues
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

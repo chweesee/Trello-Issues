@@ -1,0 +1,112 @@
+[Archived] If a server has many channels with the same name, searching with `in:#channel` will always bring up results for the same channel, no matter which suggestion you select in autocomplete (https://trello.com/c/lhTIVdrF)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-04T20:37:37.352Z
+Latest Update: 2019-06-10T20:43:48.489Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Be in a server with several channels with the same name. For example, DTesters has two channels named "rules" 
+- Go to Search 
+- Select the `in:` filter 
+- Type "rules". Both channels will show up in autocomplete. Select any and submit the query 
+- Now go back, and make a new search. Type the same thing as before, but this time select the other rules channel in the suggestions (the one you haven't selected the first time) 
+- Submit and observe results
+
+####Expected result:
+It should show results for the other channel
+####Actual result:
+It shows results for the same channel
+####Client settings:
+Discord Alpha 6.8.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13773
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-04T20:37:37.352Z
+
+
+### Can reproduce.
+Can Reproduce -- Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.8.7
+
+Ori#1908 - Bug Bot on 2018-06-04T20:37:44.807Z
+
+
+### Can reproduce.
+CR, K20 V Android 7.0, Discord alpha 6.8.7
+
+Lunʌrᴮᵒᵗ#4783 - Bug Bot on 2018-06-04T20:37:49.754Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 android 8.0.0 discord alpha 6.8.7
+
+Bencey_#8587 - Bug Bot on 2018-06-04T20:37:55.052Z
+
+
+### Can reproduce.
+Samsung Galaxy J5, Android 6.0.1, Discord Alpha 6.8.7
+
+Mad Luffy#3039 - Bug Bot on 2018-06-05T07:30:17.159Z
+
+
+### Can reproduce.
+Can reproduce Wiko LENNY2 - Android 5.1 - Discord 6.7.8(678)
+
+Diogolo#0796 - Bug Bot on 2018-06-05T16:40:42.237Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 6.8.7 - Clayton on 2018-06-06T21:06:17.598Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-06T21:06:25.615Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8.0.0
+
+Thundy#2018 - Bug Bot on 2018-06-07T06:13:12.734Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b15a31121e7085204e36465/f4aecfd945d0bab32d3467eae5f87416/EvY7xBZ.gif added by Bug Bot on 2018-07-15T15:07:42.939Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:39.492Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 740
+
+The Lunala#7777 - Bug Bot on 2018-08-23T17:13:27.623Z
+
+
+### Unarchived by Clayton on 2018-08-23T17:30:06.679Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:39.670Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 848
+
+The Lunala#7777 - Bug Bot on 2019-02-18T15:30:05.740Z
+
+
+### Unarchived by Bug Bot on 2019-02-18T16:00:08.664Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:48.505Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

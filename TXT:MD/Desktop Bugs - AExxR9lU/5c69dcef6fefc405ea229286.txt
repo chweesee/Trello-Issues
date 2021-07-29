@@ -1,0 +1,134 @@
+[Archived] Incoming ring sound continues to play even though you declined the call. (https://trello.com/c/gHY3egdt)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2019-02-17T22:15:11.458Z
+Latest Update: 2019-06-04T23:00:30.113Z
+
+Reported by Daffyduck#5364
+
+####Steps to reproduce:
+- Have someone call you. 
+- Switch to random servers (5 servers is usually a sweet spot). 
+- Decline the call. 
+- Observe the incoming ring sound still playing.
+
+####Expected result:
+The incoming ring sound should stop playing.
+####Actual result:
+It continues to play even though you declined.
+####Client settings:
+Discord Canary Host 0.0.232, Build 32395
+####System settings:
+Windows 10 Home x64 v1809
+
+29094
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-17T22:15:11.458Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 32395
+
+Zacatero#0001 - Bug Bot on 2019-02-17T22:15:18.822Z
+
+
+### Can reproduce.
+Can reproduce, not just declining calls, also answering them. Seems to happen at random (macOS 10.14.4 - Canary Build: 32395)
+
+LatencyPain#7893 - Bug Bot on 2019-02-17T22:15:23.796Z
+
+
+### Can reproduce.
+iMac 10,1 macOS 10.13.6, Canary 32395 (Reproduces when you click on the DM of the person who's calling you on the left menu)
+
+chaNcharge#7023 - Bug Bot on 2019-02-17T22:15:28.774Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 32403
+
+Solo#0007 - Bug Bot on 2019-02-18T02:46:16.949Z
+
+
+### Can reproduce.
+CR, macos 10.14.4, Canary 32395
+
+Action Potential#2494 - Bug Bot on 2019-02-18T03:52:23.896Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE (11.6") - Chrome OS 71.0.3578.127 (64-bit) - Web Canary 32395
+
+Casper#9999 - Bug Bot on 2019-02-18T05:53:01.061Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 canary, Build Number: 32403
+
+Spooker#0001 - Bug Bot on 2019-02-18T13:49:03.903Z
+
+
+### Can reproduce.
+CR; Canary: 32395, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-18T15:56:02.373Z
+
+
+### Can't reproduce.
+Windows 10 Pro 64-bit (1809), canary 32403
+
+Defracted#1337 - Bug Bot on 2019-02-18T16:10:45.873Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 32395
+
+Neiron#8475 - Bug Bot on 2019-02-18T18:49:02.951Z
+
+
+### Can reproduce.
+Windows 10 Pro, Build 17134, canary, Build Number: 32407
+
+Inno#7606 - Bug Bot on 2019-02-19T17:49:40.694Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2019-04-01T23:12:18.622Z
+
+
+### Can reproduce.
+<Steps to reproduce: 
+- Make sure Discord is not running in the background (terminate any process of it in Task Manager) 
+- Open up Discord and do NOT click on anything 
+- Have a friend video call you immediately once Discord opens 
+- Accept video call>
+
+shiniko#8052 - Bug Bot on 2019-04-03T08:46:43.189Z
+
+
+### new steps added below, moving back to reported - Tim on 2019-04-03T08:47:50.716Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Tim on 2019-04-03T08:47:56.699Z
+
+
+### Still cannot reproduce using either steps on Canary 37031, Windows 10 Home 64-bit (v1809).
+
+Moving to Cannot Reproduce. - Ene on 2019-05-05T22:33:17.453Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Ene on 2019-05-05T22:33:22.445Z
+
+
+### Archived by Bug Bot on 2019-06-04T23:00:30.125Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

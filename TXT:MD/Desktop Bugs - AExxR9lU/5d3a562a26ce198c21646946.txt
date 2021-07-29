@@ -1,0 +1,73 @@
+Voice data is transmitted when it is expected it shouldn't. (https://trello.com/c/CS1JdK9F)
+
+None
+
+Created: 2019-07-26T01:23:54.767Z
+Latest Update: 2020-07-16T21:26:04.532Z
+
+Reported by LogalDeveloper#6919
+
+####Steps to reproduce:
+- Open a packet monitor such as Wireshark. 
+- Join a voice channel. 
+- Ensure no green ring appears around your profile in the voice channel's member list. This can be by not talking loud enough or by muting yourself. 
+- Observe in the packet monitor that voice data is still transmitted.
+
+####Expected result:
+No data, other than the expected keep alive packets, should be transmitted to the relay server when not talking or muted.
+####Actual result:
+Voice data is continuously transmitted, even if physically muted, muted in Discord itself, or speaking below the sensitivity volume.
+####Client settings:
+Release Channel: stable, Build Number: 41486, Version Hash: 9c2be423d001c171c6b20e10698b68e83d461d90
+####System settings:
+Ubuntu 18.04.2 LTS/Linux 4.15.0-54-generic/Firefox 68.0
+
+39962
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-26T01:23:54.767Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14.5 • Canary 41583. This can also be reproduced just with the normal debug menu within Discord. Just monitor the Packets Sent section.
+
+Rage#9991 - Bug Bot on 2019-07-26T01:24:02.515Z
+
+
+### Can reproduce.
+macos 10.15, canary 41942
+
+OrangeM24#5746 - Bug Bot on 2019-07-26T01:24:07.576Z
+
+
+### Can reproduce.
+Could reproduce, macOS 10.14.5, PTB 41942
+
+Action Potential#2494 - Bug Bot on 2019-07-26T01:24:12.538Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 41994
+
+charleskimbac#6492 - Bug Bot on 2019-07-26T07:10:34.455Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 42113 (Host 0.0.250)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-28T19:55:55.803Z
+
+
+### Is this browser or desktop client? - Jozsef Vass on 2019-07-29T19:52:56.205Z
+
+
+### This is the normal behavior for browser client. We do send speaking indication over websocket to voice server and server only forwards audio when speaking. For Desktop client, we do not send audio when not speaking. Could you please confirm this behavior. - Jozsef Vass on 2019-07-29T20:58:54.752Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

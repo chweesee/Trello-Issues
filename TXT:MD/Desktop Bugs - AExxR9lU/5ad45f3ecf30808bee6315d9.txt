@@ -1,0 +1,75 @@
+[Archived] Text from a notification gets out of the desktop notification box if the DM group name is too long. (https://trello.com/c/Kn7r1LZH)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-16T08:30:54.711Z
+Latest Update: 2018-10-22T20:19:46.838Z
+
+Reported by pero bueno folagor#8247
+
+####Steps to reproduce:
+- Enable desktop notifications 
+- Create a DM group with a friend 
+- Give the DM group a long name (tested with a 67 letters name) 
+- Make your friend send a message 
+- Look at the desktop notification
+
+####Expected result:
+Shorten the name of the group so that it is visible part of the message sent by the friend.
+####Actual result:
+The text sent by the friend will bug out of the desktop notification
+####Client settings:
+Release Channel: canary, Build Number: 13630 (Version Hash: ca0e86c67ea5eb61da2c425687e546b95496ea3c)
+####System settings:
+Windows 7 Ultimate x64 with Service Pack 1 (Build 7601)
+
+10796
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-16T08:30:54.711Z
+
+
+### cole#6969 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ad45f3ecf30808bee6315d9/3540bf5e512c38bdbdd196d60988468e/2iikA7M.png added by Bug Bot on 2018-04-16T08:30:59.713Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1709 build 16299.309, Discord Canary 13630
+
+cole#6969 - Bug Bot on 2018-04-16T08:31:02.429Z
+
+
+### Can reproduce.
+Reason: CR | Windows 10 Home 64-Bit | [BUILD INFO] Release Channel: canary, Build Number: 13622
+
+LaBloske#5701 - Bug Bot on 2018-04-16T08:31:07.356Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64 Build 16299 | Discord Canary 13630
+
+Dustbin#0302 - Bug Bot on 2018-04-16T08:31:12.440Z
+
+
+### Can reproduce.
+СR, Windows 10 Pro x64 | Discord Canary (13630).
+
+/hash#0001 - Bug Bot on 2018-04-16T14:26:21.454Z
+
+
+### Verified - Tarek on 2018-04-18T04:40:39.688Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-04-18T04:40:43.237Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:46.840Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,109 @@
+[Archived] [Canary 39676 and Up] Uncaught in promise error on start (https://trello.com/c/WYm6RSJC)
+
+None
+
+Created: 2019-06-13T22:24:05.210Z
+Latest Update: 2019-08-03T04:30:39.959Z
+
+Reported by TheForbiddenAi#0001
+
+####Steps to reproduce:
+- Open Console 
+- Reload discord with control + r 
+- Observe your console is spammed with "Uncaught (in promise) Error: not embedded" errors
+
+####Expected result:
+There should be no errors
+####Actual result:
+There are errors, and overlay does not work at all, spotify detection and  game detection are also broken now
+####Client settings:
+Canary 39676
+####System settings:
+Windows 10 Home x64 (1809)
+
+37201
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-13T22:24:05.210Z
+
+
+### TheForbiddenAi#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d02cd055235903a0f236368/c1fe771d5c3d55f302aca8a7da79a7f3/31IfOXJ.png added by Bug Bot on 2019-06-13T22:24:09.532Z
+
+
+### Can reproduce.
+Win10 Pro x64 | Canary 39676
+
+legendarylol#8215 - Bug Bot on 2019-06-13T22:24:12.845Z
+
+
+### Can reproduce.
+Canary 39676 Windows 10 18362.175
+
+OneNormalUsername#7636 - Bug Bot on 2019-06-13T22:24:17.591Z
+
+
+### Can reproduce.
+Windows 10 Pro x32, Canary 39676
+
+Karasu#1545 - Bug Bot on 2019-06-13T22:24:22.578Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 39676 (Host 0.0.242)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-13T22:25:37.507Z
+
+
+### Appears overlay does not function at all due to this
+
+TheForbiddenAi#0001 - Bug Bot on 2019-06-13T22:28:54.715Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 39676 Host 0.0.242
+
+Salt#8690 - Bug Bot on 2019-06-13T22:40:26.986Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 39678
+
+Xylium#5800 - Bug Bot on 2019-06-13T22:58:22.500Z
+
+
+### Cannot reproduce anymore on Canary 39833, Windows 10 Home 64-bit (v1903).
+
+Moving to Claimed Fixed. - Ene on 2019-06-17T07:29:40.840Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Mid-2012), macOS v10.14.5 (18F132) - Canary 39833
+
+Isabel#0002 - Bug Bot on 2019-06-17T07:35:00.664Z
+
+
+### Can't reproduce.
+Windows 10 Home v1903 x64 - Discord Canary 39833
+
+Daffyduck#5364 - Bug Bot on 2019-06-17T07:36:57.402Z
+
+
+### Can't reproduce.
+Canary 39833, Windows 10 Home v1809 x64
+
+Skyla#0002 - Bug Bot on 2019-06-17T10:10:22.372Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-06-17T10:10:22.595Z
+
+
+### Archived by Bug Bot on 2019-08-03T04:30:39.970Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

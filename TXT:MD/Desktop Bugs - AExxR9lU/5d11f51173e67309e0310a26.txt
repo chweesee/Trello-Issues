@@ -1,0 +1,76 @@
+Desktop client no longer handles VARIATION SELECTOR-16 as it should and instead displays the emoji in Unicode form. (https://trello.com/c/S50t7Q6J)
+
+None
+
+Created: 2019-06-25T10:18:57.502Z
+Latest Update: 2020-07-16T21:26:04.314Z
+
+Reported by Middy#3643
+
+####Steps to reproduce:
+- Send a message containing an emoji with the VARIATION SELECTOR-16 property. This can be done using the iOS client and selecting a basic red heart emoji with the default iOS emoji picker.
+
+####Expected result:
+A small version of the default Discord red heart emoji should display, as it does alongside text.
+####Actual result:
+A raw Unicode version of the emoji appears instead and is displayed depending on how your OS supports emojis.
+####Client settings:
+Stable, build 40281
+####System settings:
+Windows 10 Home 64-bit
+
+38425
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-25T10:18:57.502Z
+
+
+### Can reproduce.
+Discord Canary 0.0.245 (40281) on Windows 10 Pro 64-bit (1903)
+
+Tarek#1337 - Bug Bot on 2019-06-25T10:19:04.972Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.245 Build 40281
+
+Daffyduck#5364 - Bug Bot on 2019-06-25T10:19:09.995Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40281
+
+Xylium#5800 - Bug Bot on 2019-06-25T10:19:15.288Z
+
+
+### Can reproduce.
+CR Had to borrow a phone lul  Windows 10 Professional Canary 40281
+
+Typhoon#3514 - Bug Bot on 2019-06-25T14:58:53.428Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 40281
+
+Jasοn#0001 - Bug Bot on 2019-06-25T16:42:50.793Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 40281
+
+Lelantos#4866 - Bug Bot on 2019-06-26T13:39:36.064Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 40604 (Host 0.0.245)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-02T13:29:41.184Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

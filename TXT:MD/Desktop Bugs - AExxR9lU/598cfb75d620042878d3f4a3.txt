@@ -1,0 +1,74 @@
+[Archived] Audit log can show infos about, and allows to jump to, a channel the user may not have access to (https://trello.com/c/3BapbjHs)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-11T00:33:57.315Z
+Latest Update: 2018-10-22T20:15:15.450Z
+
+Reported by Chester#2084
+
+####Steps to reproduce:
+- On a non-admin user, get audit log access 
+- Make a channel said user doesn't have access to 
+- As said user, on the audit log, open an entry mentionning the channel they cannot see, right-click on the channel name, click "Jump to channel"
+
+####Expected result:
+User should at least not be able to jump to the channel, and maybe not be able to see audit log's infos about channels they aren't part of?
+####Actual result:
+User can see infos they should maybe not be notified about, and can jump to a channel they cannot access (they can't actually send / see messages posted there, but can see the userlist)
+####Client settings:
+Web client
+####System settings:
+Archlinux
+
+3038
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-11T00:33:57.315Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 v1703, Discord Canary 0.0.163 (Build 3100)
+
+Souji#4629 - Bug Bot on 2017-08-11T00:34:04.908Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.163 (Build 3100) - Win 10 Pro x64 v1607
+
+Pointy#9109 - Bug Bot on 2017-08-11T00:34:10.028Z
+
+
+### Can reproduce.
+Windows 10 (creators update) 64 bits - canary 0.0.163
+
+Tobias#5233 - Bug Bot on 2017-08-11T00:34:14.929Z
+
+
+### Verified.  - Clayton on 2017-08-14T20:55:33.451Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-14T20:55:40.402Z
+
+
+### This isn't a very standard use case. The audit log isn't meant to be censored by it's nature. This is a low priority P3. - Jared on 2017-10-17T00:37:22.592Z
+
+
+### Extension for this issue: Right clicking on the jump to channel for voice chats or categories creates a not existing "ghost" text channel. There shouldn't be such a link at all for voice channels or categories.
+
+Pascal#0929 - Bug Bot on 2017-12-07T19:46:17.852Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598cfb75d620042878d3f4a3/e7658bba0c60f559e5659ccfb043dbdd/ezgif-4-53151a343b.gif added by Bug Bot on 2018-07-15T09:16:31.142Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:15.453Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

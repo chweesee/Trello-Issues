@@ -1,0 +1,90 @@
+[Archived] Image preview reversed on image upload by drag&drop (https://trello.com/c/X47Shz1S)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-11-07T21:22:37.123Z
+Latest Update: 2018-05-22T05:42:01.149Z
+
+Reported by Eyesofcreeper#4758
+
+####Steps to reproduce:
+- Go to a discord textual channel 
+- Upload an image by drag and dropping
+
+####Expected result:
+The small image preview in the corner should preview the image correctly
+####Actual result:
+The image preview is reversed
+####Client settings:
+Discord Canary 0.0.159
+####System settings:
+Mac OS 10.13.1 (17B48)
+
+6143
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-07T21:22:37.123Z
+
+
+### Cobaltknight#7200 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a02241dfb38f6b7f335c855/88e87cbd2202557c1d5c37b00e78edbb/2017-11-06_19-39-42-ob4rcuzwnw.jpg added by Bug Bot on 2017-11-07T21:22:40.557Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a02241dfb38f6b7f335c855/2d2a724809f8ed928fcb722bccf4f209/20171031_123502.jpg added by Bug Bot on 2017-11-07T21:22:40.815Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.1, Discord Canary 0.0.160 (Build: 6880). Only happens with some images like the second attached image (maybe special width/length)
+
+Pascal#0929 - Bug Bot on 2017-11-07T21:22:44.468Z
+
+
+### Can reproduce.
+CR; Canary, Build Number: 6880, Windows 10 Home X64 (1703)
+
+GoldenPheonix#6248 - Bug Bot on 2017-11-07T21:22:49.499Z
+
+
+### Can reproduce.
+CR win 10 x64 Falls creators update | canary build 6880
+
+ks0908#8526 - Bug Bot on 2017-11-07T21:22:54.465Z
+
+
+### Can reproduce.
+This only appears to occur with images which are rotated with the EXIF tags, meaning preview is not respecting them. Desktop stable build 6768, Win10 x64
+
+Usoka#6021 - Bug Bot on 2017-11-07T22:36:37.130Z
+
+
+### Can't reproduce.
+win 10 64x
+
+XeMoPHOs#4022 - Bug Bot on 2017-11-08T14:51:39.747Z
+
+
+### Verified.  - Clayton on 2017-11-16T00:09:15.739Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-16T00:09:21.941Z
+
+
+### What's interesting about this is that the image that Pascal added has the exact same effect on Trello. This tells me that this isn't a bug with Discord, but something weird with the image itself. This is Not A Bug. - Jared on 2018-03-22T21:36:32.189Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2018-03-22T21:36:36.313Z
+
+
+### Archived due to being inactive for a month in the NAB list without further action.  - Tarek on 2018-05-22T05:41:59.971Z
+
+
+### Archived by Tarek on 2018-05-22T05:42:01.152Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

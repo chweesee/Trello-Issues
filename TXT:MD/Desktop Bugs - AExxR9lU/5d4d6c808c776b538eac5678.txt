@@ -1,0 +1,118 @@
+"w" at end of name in sidebar gets slightly cut off at the end of a specific length of username. (https://trello.com/c/CkGZZeg3)
+
+None
+
+Created: 2019-08-09T12:52:17.124Z
+Latest Update: 2020-07-16T21:26:04.766Z
+
+Reported by FSM#0003
+
+####Steps to reproduce:
+- Set appearance to a zoom of 67 and a font scaling of 90 
+- Change nickname to "A Pink Cow" 
+- Seems to work with different letters substituted into name sometimes (certain combinations can replicate, others can't) but cut-off seems to change based on difference in letters used 
+- Seen in screenshot
+
+####Expected result:
+Name should display clearly with no cutoff.
+####Actual result:
+"w" slightly cut off in sidebar at the end of name "A Pink Cow" and other names similar in letters of same size.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 42895, Version Hash: 08dc839c8df939f93c7d86997164a9f3e96a7ea1
+####System settings:
+Windows 7 Professional
+
+41701
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-09T12:52:17.124Z
+
+
+### AEnterprise#4693 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d4d6c808c776b538eac5678/3efd73d971dde97915b180af31e47521/ffv4l5D.png added by Bug Bot on 2019-08-09T12:52:20.369Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home, Discord Canary 43131.
+
+YxriDev#5153 - Bug Bot on 2019-08-09T12:52:25.305Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Home, Discord Canary 42895
+
+lesi002#5458 - Bug Bot on 2019-08-09T12:52:30.267Z
+
+
+### Can reproduce.
+CR | Windows 7 | Discord Stable 42895
+
+Gedor#9710 - Bug Bot on 2019-08-09T12:52:35.328Z
+
+
+### Can reproduce.
+Windows 10,  Canary Build: 41486
+
+A Pink Cow#9990 - Bug Bot on 2019-08-09T14:12:18.498Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 43131
+
+AHkhan#6518 - Bug Bot on 2019-08-09T14:44:14.115Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 1903, Canary 43131 host 0.0.252
+
+Jean20B#4668 - Bug Bot on 2019-08-09T17:26:04.401Z
+
+
+### Can reproduce.
+Windows 10 Home, 64bit, Discord Canary Build: 43931
+
+Jeffrey#1234 - Bug Bot on 2019-08-09T21:28:34.750Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 43168
+
+charleskimbac#6492 - Bug Bot on 2019-08-09T22:32:11.415Z
+
+
+### Can reproduce.
+Windows 10 x Canary 42895
+
+IPv4#2876 - Bug Bot on 2019-08-10T02:14:06.483Z
+
+
+### Can't reproduce.
+Dell Inspiron Windows 10 Home & Student, Host 0.0.252, Canary Build 43372
+
+binchlord#0998 - Bug Bot on 2019-08-10T04:42:47.039Z
+
+
+### Can't reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 43131
+
+B.O.S.S#0251 - Bug Bot on 2019-08-10T07:58:37.801Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 43372 (Host 0.0.252)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-11T20:02:16.365Z
+
+
+### Can't reproduce.
+Windows 7 Ultimate - x32 - Stable - Build Number: 43412
+
+TheAHMguy (GloriousBeliever)#9272 - Bug Bot on 2019-08-14T08:02:59.842Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

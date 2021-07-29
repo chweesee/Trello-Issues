@@ -1,0 +1,101 @@
+Compact mode does not display the date for the first message in a text channel (https://trello.com/c/IYVqQV2g)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-11-14T03:41:56.215Z
+Latest Update: 2019-09-29T10:43:02.330Z
+
+Reported by Usoka#6021
+
+####Steps to reproduce:
+- Change view to Compact (User Settings > Appearance > Message Display) 
+- Scroll up to the top of any text channel
+
+####Expected result:
+Shows a line break with the date just above the first message
+####Actual result:
+There is no date shown for when the first message (or any messages on the first day) were originally posted
+####Client settings:
+Desktop Stable build 7157
+####System settings:
+Windows 10 x64
+
+6370
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-14T03:41:56.215Z
+
+
+### Can reproduce.
+CR, Windows 7 Professional x64 (7601), Stable 0.0.298 (Build 7157), In Cozy, it says "Today at xx:xx". In Compact, it only shows the time of the day it was sent.
+
+jake 🍂#6298 - Bug Bot on 2017-11-14T03:42:03.631Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 (Fall Creators Update).. Discord Canary Build 7285
+
+🍁 Ghoul 🍁#4567 - Bug Bot on 2017-11-14T03:42:08.621Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (Version 1709), Discord Canary (Build 7285)
+
+Inner Sense#0404 - Bug Bot on 2017-11-14T03:42:13.630Z
+
+
+### Can reproduce.
+Win 10 Home - Eval Copy - 16296.rs3_release.170919e
+
+Infinityy#3960 - Bug Bot on 2017-11-14T12:44:40.810Z
+
+
+### Can reproduce.
+CR, Windows 7 Ultimate x32 SP1, Stable 0.0.298 Build 7157
+
+[-TM-] TechyMan#3862 - Bug Bot on 2017-11-14T18:20:46.950Z
+
+
+### Verified.  - Clayton on 2017-11-15T00:01:29.816Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-15T00:01:42.542Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-22T19:59:43.910Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-22T19:59:49.311Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:59:33.598Z
+
+
+### Archived by Jared on 2018-07-06T17:59:34.586Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903, Build: 18362.356 - Discord Canary, Build Number: 46505
+
+.Gloria.#9606 - Bug Bot on 2019-09-28T06:28:12.064Z
+
+
+### Can reproduce again as of Canary Build 46505 with MacBook Pro 13" (2016) running macOS Mojave 10.14.6
+
+Moving to Reopened list. - Pascal on 2019-09-29T10:42:54.390Z
+
+
+### Moved from Verified Fixed to Reopened by Pascal on 2019-09-29T10:43:02.195Z
+
+
+### Unarchived by Pascal on 2019-09-29T10:43:02.313Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

@@ -1,0 +1,66 @@
+[Archived] Updated role's name is blank after the role is deleted (https://trello.com/c/3nuPE1Ow)
+
+None
+
+Created: 2018-09-25T02:44:54.539Z
+Latest Update: 2019-06-05T23:48:18.509Z
+
+Reported by Delite#0001
+
+####Steps to reproduce:
+- Create a role 
+- Edit it's permissions but don't edit the name 
+- Delete the role
+
+####Expected result:
+The audit log entry of the role update will show the role's name
+####Actual result:
+The role name is empty
+####Client settings:
+Android Alpha 7.5.5
+####System settings:
+Android 7.0.0
+
+20061
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-25T02:44:54.539Z
+
+
+### Can reproduce.
+Can reproduce. The role name shows as ****. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.5.5
+
+coolalmostchilly#5019 - Bug Bot on 2018-09-25T02:45:01.803Z
+
+
+### Can reproduce.
+Also happens with anything that gets deleted afterwards, like webhook. Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.5.5
+
+Frances Picard#6209 - Bug Bot on 2018-09-25T02:45:06.810Z
+
+
+### Can reproduce.
+Can reproduce; Samsung Galaxy S8, Android 8; Alpha 7.5.5
+
+OrangeM24#5746 - Bug Bot on 2018-09-25T02:45:11.823Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Tarek on 2018-09-25T10:43:16.103Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-09-26T18:13:27.797Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-07T05:35:00.645Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:48:18.519Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

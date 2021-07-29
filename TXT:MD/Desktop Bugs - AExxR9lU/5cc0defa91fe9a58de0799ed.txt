@@ -1,0 +1,115 @@
+[Archived] MEDAL and Streamable links fail to play in client (https://trello.com/c/56ZjAPk6)
+
+P2: Fix can wait a while
+
+Created: 2019-04-24T22:11:06.116Z
+Latest Update: 2020-01-08T13:06:37.660Z
+
+Reported by evilpauwse#9985
+
+####Steps to reproduce:
+- Find a MEDAL or Streamable link 
+- Click the play button 
+- Notice the lack of play and the 0:00 time code
+
+####Expected result:
+The video should play in the client
+####Actual result:
+The video doesn't play and gets stuck in 0:00 time code. It also throws a failed get error to console
+####Client settings:
+TF 36299
+####System settings:
+Windows 10 x64 - Education Edition
+
+33413
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-24T22:11:06.116Z
+
+
+### evilpauwse#9985 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cc0defa91fe9a58de0799ed/42d870174535c09fdb035b3039b544cf/unknown.png added by Bug Bot on 2019-04-24T22:11:09.055Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.235 Build 36299
+
+Daffyduck#5364 - Bug Bot on 2019-04-24T22:11:13.756Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Discord Canary 36292
+
+jedi3#0001 - Bug Bot on 2019-04-24T22:11:18.610Z
+
+
+### Can reproduce.
+CR - Windows 10 Pro Insider Preview x64 Build 1903; Discord Canary Build 36279
+
+Costpap#7667 - Bug Bot on 2019-04-24T22:11:23.679Z
+
+
+### Can reproduce.
+Windows 10 1809 Discord Canary 36279
+
+GlenMerlin#2119 - Bug Bot on 2019-04-24T22:12:25.805Z
+
+
+### Can reproduce.
+Win10x64 1809 - Canary 36299
+
+Cubity_First#0001 - Bug Bot on 2019-04-24T22:16:16.348Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2019-04-24T22:21:10.048Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 36299
+
+Clay#0001 - Bug Bot on 2019-04-24T22:25:12.290Z
+
+
+### Can reproduce.
+CR Windows 10 x64 build 1803 Canary, Build Number: 36279
+
+Andeh#0001 - Bug Bot on 2019-04-24T22:33:40.087Z
+
+
+### Can reproduce.
+Canary: 36318, Host 0.0.234, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-04-25T06:35:35.072Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 36318
+
+Rage#9991 - Bug Bot on 2019-04-25T08:58:49.296Z
+
+
+### I'm not convinced this is a bug, considering 502 is bad gateway, which is a server error.
+
+Which means either MEDAL's & Streamable's servers were down at the time, or Discord's media proxy was. The reason why the DOMException happens is because of the client is trying to play something that is not playable.
+
+Either way, I can't reproduce, Canary 36426 W10 1809.
+
+Tested it with these links:
+``
+https://medal.tv/clips/3169650/d1337dDYET5l
+https://streamable.com/gkn8f
+`` - Tarek on 2019-04-26T08:44:26.755Z
+
+
+### Moved from Notable Issues to Not a Bug by Tarek on 2019-04-26T08:44:31.982Z
+
+
+### Archived by Bug Bot on 2019-05-26T09:00:28.877Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

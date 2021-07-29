@@ -1,0 +1,169 @@
+Reading / scrolling to the bottom of a channel no longer automatically clears the channel as "read" (https://trello.com/c/zBxyYB73)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2018-08-20T21:40:11.580Z
+Latest Update: 2019-08-10T04:34:11.165Z
+
+Reported by Siaberwocki#9767
+
+####Steps to reproduce:
+- Using discord on a MAC 
+- with the latest version of Chrome causes this to occur
+
+####Expected result:
+Messages should automatically clear when scrolling to the last message of a channel
+####Actual result:
+The channel has to be manually cleared by clicking on "Mark as Read"
+####Client settings:
+Build Number: 22189, Version Hash: 81cb192b333eeafe2e866b97813a98b23a3b7931
+####System settings:
+OS X El Capitan Version 10.11.6
+
+18003
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-20T21:40:11.580Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home Edition x64, canary build 22210
+
+brxxn#0632 - Bug Bot on 2018-08-20T21:40:19.251Z
+
+
+### Can reproduce.
+CR Windows 10 Home 64x (Build 17134) Chrome 68.0.3440.106
+
+Suprnova#0001 - Bug Bot on 2018-08-20T21:40:24.262Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home x64, Canary 22210
+
+nop#4961 - Bug Bot on 2018-08-20T21:40:29.267Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-20T23:36:52.192Z
+
+
+### verified, macos 10.12.6, chrome 68.0.344 - Clayton on 2018-08-20T23:37:33.088Z
+
+
+### Can reproduce.
+CR on Windows 10 Home; Chrome 68.0; Stable Build 22333. Opening up to a different window or tab clears the notification
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-22T16:17:16.699Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), PTB 27065
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-30T11:21:31.287Z
+
+
+### Can reproduce.
+Can reproduce on Windows as well - - w 27818
+
+Solo#0007 - Bug Bot on 2018-11-11T17:10:09.993Z
+
+
+### Can reproduce.
+Windows 10 Build Number: 28105 | - have someone send an audio clip in a text channel - have them send a different text message in the same channel - click on the channel with the unread audio and text message - click away to a different text channel
+
+Murkus#1246 - Bug Bot on 2018-11-16T22:09:14.520Z
+
+
+### Can reproduce.
+Linux Kernel: 4.15.0-43-generic, Ubuntu Version: 18.04, Google Chrome: 71.0.3578.98 - - Desktop Canary, 0.0.68, Build 31082
+
+rubisco#4310 - Bug Bot on 2019-01-19T03:25:32.240Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 33599, Chrome 74
+
+Solo#0007 - Bug Bot on 2019-03-08T15:47:49.353Z
+
+
+### Can reproduce.
+Windows 10 x64 Web Stable 33595, Chrome Version 72.0.3626.121
+
+Zacatero#0001 - Bug Bot on 2019-03-08T15:49:14.091Z
+
+
+### Not mac specific, can reproduce on windows
+
+Zacatero#0001 - Bug Bot on 2019-03-08T15:49:58.381Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | Canary 34463 | Chrome 73.0.3683.86
+
+charleskimbac#6492 - Bug Bot on 2019-03-24T14:42:49.093Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Stable Build 34625
+
+Malakai* 🐲#7593 - Bug Bot on 2019-03-27T18:46:53.350Z
+
+
+### Cannot reproduce anymore on Canary Webclient 36271, Google Chrome 74.0.3729.108 (64-bit), Windows 10 Home 64-bit (v1809).
+I would also like to note that this bug was not specific to MacOS Chrome, but rather Chrome across all desktop platforms.
+
+Moving to Claimed Fixed. - Ene on 2019-04-24T17:58:51.829Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-04-24T17:59:02.676Z
+
+
+### Can't reproduce.
+Cannot reproduce, MacOs High Sierra 10.13.6 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 36271
+
+MoonlightCapital#0554 - Bug Bot on 2019-04-24T18:40:51.804Z
+
+
+### Can't reproduce.
+macOS Mojave 10.14, Canary 36271
+
+Rage#9991 - Bug Bot on 2019-04-24T19:11:16.859Z
+
+
+### Can't reproduce.
+macos 10.14.5, canary 36271
+
+Pain#2020 - Bug Bot on 2019-04-25T00:23:35.541Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-04-25T00:23:35.788Z
+
+
+### Can reproduce.
+MacBook Air 2015, macOS 10.14.4, Safari 12.1
+
+stdpderrick#7787 - Bug Bot on 2019-05-05T05:29:12.252Z
+
+
+### Can reproduce, Brave Version 0.64.77 Chromium: 74.0.3729.169
+
+Canary 38570, reopening. - Tarek on 2019-05-26T05:02:28.903Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2019-05-26T05:02:32.852Z
+
+
+### Can reproduce.
+CR on the Safari Client with 12.1.2 // Canary 43320 // Early 2015 Macbook Pro Retina 13" // macOS Sierra 10.12.6 // You have to reload the client then get messages for this to occur
+
+xTeal#7702 - Bug Bot on 2019-08-10T04:34:11.176Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

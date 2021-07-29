@@ -1,0 +1,91 @@
+In the emoji autocomplete menu, rows for tall and thin (1x128) emoji fill the entire screen. (https://trello.com/c/KlfOLg7E)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-07-22T18:18:14.194Z
+Latest Update: 2019-09-23T22:30:07.432Z
+
+Reported by noodlebox#0155
+
+####Steps to reproduce:
+
+- Add a tall emoji to a server, such as https://cdn.discordapp.com/emojis/338368557001998337.png 
+
+- Start typing its name in a channel
+
+####Expected result:
+Rows of completion options should have a uniform height
+####Actual result:
+Row for tall emoji fills the entire screen
+####Client settings:
+Desktop Canary, 0.0.22
+####System settings:
+https://cdn.discordapp.com/emojis/338368557001998337.png Ubuntu
+
+2484
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-22T18:18:14.194Z
+
+
+### Pointy#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/597396e66530946ca282b9fe/b31dba423c3416aa0c531746ca14b70e/ddc8c3.gif added by Bug Bot on 2017-07-22T18:18:18.718Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.161 (Build 2481) - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-07-22T18:18:23.062Z
+
+
+### Can reproduce.
+can reproduce,  Windows 10 Pro x64 v1703 (Canary build 2481, v 0.0.161 )
+
+TimThe#7618 - Bug Bot on 2017-07-22T18:18:28.055Z
+
+
+### Can reproduce.
+CR - Windows 10 x64, Canary 0.0.161
+
+TheAggravatedHipster#8554 - Bug Bot on 2017-07-22T18:18:33.053Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1703 Canary 0.0.161
+
+Marf#4177 - Bug Bot on 2017-07-23T01:00:30.948Z
+
+
+### Verified.  - Clayton on 2017-07-23T04:32:59.697Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-23T04:33:05.767Z
+
+
+### Also happens in pinned messages!
+
+P4risAndStuff#7243 - Bug Bot on 2017-10-04T22:29:20.428Z
+
+
+### This does still occur. Calling this a mid-P2 - Jared on 2017-10-17T06:22:59.147Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:48:22.822Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:45:20.528Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit v. 1803, Discord Canary 24922
+
+tristanfarkas#0001 - Bug Bot on 2018-09-28T09:06:01.269Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

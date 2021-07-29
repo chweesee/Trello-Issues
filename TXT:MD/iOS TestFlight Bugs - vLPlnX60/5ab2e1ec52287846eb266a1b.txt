@@ -1,0 +1,77 @@
+[Archived] The in-app browser doesn't work when the URL has certain chars (https://trello.com/c/8w6GBBpT)
+
+None
+
+Created: 2018-03-21T22:51:24.459Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by greyliances#1416
+
+####Steps to reproduce:
+- Open a link like this one here: https: 勤政殿 (remove whitespace) using the in-app browser
+
+####Expected result:
+The In-App browser should just open the link and direct you to this Wikipedia article on 勤政殿
+####Actual result:
+Discord will crash instead
+####Client settings:
+Discord iOS Release 2.2.5
+####System settings:
+iPad(4th generation), iOS 10.3.3
+
+9783
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-21T22:51:24.459Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 11.3 PB 6 - TestFlight 2.2.6 (3373)
+
+webhp#1337 - Bug Bot on 2018-03-21T22:51:31.833Z
+
+
+### Can reproduce.
+iPhone 6s & iPad Air 2, iOS 11.3 PB 6, TestFlight 2.2.6 (3373)
+
+Pascal#0929 - Bug Bot on 2018-03-21T22:51:36.856Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight Build 2.2.6 (3373) seems to happen with urls that contains a non english character
+
+Kuuhaku#4503 - Bug Bot on 2018-03-21T22:51:41.804Z
+
+
+### Example for this issue would be the link https://ja.m.wikipedia.org/wiki/勤政殿
+
+Pascal#0929 - Bug Bot on 2018-03-21T22:52:38.340Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11(latest)
+
+C4Navar#1337 - Bug Bot on 2018-03-22T20:41:11.444Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Fanghao on 2018-03-30T21:50:14.915Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-04-13T00:48:47.647Z
+
+
+### I can no longer reproduce, Discord does not crash upon clicking that link.
+
+Discord 2.3.0 (3817), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-14T05:37:25.443Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:40.679Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

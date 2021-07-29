@@ -1,0 +1,68 @@
+[Archived] User's can play spotify through their microphone without the auto pause function working (https://trello.com/c/zkPUJ2sb)
+
+None
+
+Created: 2018-05-31T17:50:45.151Z
+Latest Update: 2018-07-06T18:25:45.481Z
+
+Reported by OrangeFlare#1337
+
+####Steps to reproduce:
+- Screenshare Spotify by using the Share Application and Sound Function on 
+- Witness the ToS Breaking Stuff Going on
+
+####Expected result:
+It shouldn't allow you to share spotify's sound
+####Actual result:
+Completely Bypasses the 30 sec auto pause feature and breaks Spotify's ToS in the process
+####Client settings:
+Release Channel: stable, Build Number: 16162, Version Hash: 905c666082c26511971c48bdfd2640e44683e187
+####System settings:
+Win 10 Pro  17677.1000
+
+13551
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-31T17:50:45.151Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 16275 | Setup: Played spotify on desktop, was in voice chat on desktop. Tried both ptt and voice activity (both work), played a song continuously (esp with voice activity) and then stopped the time to assure 30 second timer. Both ways were able to reproduce the bug. Potential to break Spotify's ToS.
+
+» a r i a#1593 - Bug Bot on 2018-05-31T17:50:52.783Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 64-Bit Build 17134.81 [BUILD INFO] Release Channel: stable, Build Number: 16234, Version Hash: 7baf7542f6a7e89f350dd0ae187accdb88fc7a35 Can Reproduce with my Test Account (Test Account was using the Web app [BUILD INFO] Release Channel: stable, Build Number: 16234, Version Hash: 7baf7542f6a7e89f350dd0ae187accdb88fc7a35 on Google Chrome Stable Version 67.0.3396.62 (Official Build) (64-bit) which I'm adding for reference purposes) and Spotify for Windows Desktop Version 1.0.80.474.gef6b503e the test song I used did not pause at any point.
+
+Blastoise186#7194 - Bug Bot on 2018-05-31T17:50:57.798Z
+
+
+### Can reproduce.
+Night made a fix for this yesterday, should be out on Canary soon-ish
+
+Dabbit Prime#0896 - Bug Bot on 2018-05-31T17:51:02.788Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Jared on 2018-06-01T16:49:15.417Z
+
+
+### Cannot repro Canary 16354. I get the red banner after apox 30 seconds when streaming Spotify via screenshare + sound. Moving to claimed fixed - Tarek on 2018-06-01T17:00:21.078Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2018-06-01T17:00:29.312Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:25:43.696Z
+
+
+### Archived by Jared on 2018-07-06T18:25:45.484Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,84 @@
+[Archived] When you kick user from voice channel using bot with \`.setVoiceChannel(null)\` (discord.js), user disconnected but there are still indicators at the bottom that you are still connected (https://trello.com/c/UgI98pAX)
+
+None
+
+Created: 2019-08-22T20:22:27.812Z
+Latest Update: 2020-02-20T21:33:24.517Z
+
+Reported by irin#4560
+
+####Steps to reproduce:kick user from voice channel using bot with setVoiceChannel(null) (discordjs)
+
+####Expected result:
+user disconnected and no indicators at the bottom that show Voice Connected
+####Actual result:
+there are still indicators at the bottom that show voice connected
+####Client settings:
+Discord Alpha 9.4.4
+####System settings:
+Honor 9 Lite • Android 8.0.0
+
+42639
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-22T20:22:27.812Z
+
+
+### Can reproduce.
+Can reproduce, Honor 8X, Android 9.0.1 - Discord Alpha 9.4.6 — There is no indicators at the bottom but the channel name in white and the notification with "Disconnect"/"Mute"/"Deafen" stays
+
+Leaf#0001 - Bug Bot on 2019-08-22T20:22:35.550Z
+
+
+### Can reproduce.
+Nexus 5X, Android 8.1.0 - Discord 946
+
+lieuwe_berg#7122 - Bug Bot on 2019-08-22T20:22:41.187Z
+
+
+### Can reproduce.
+CR - Moto G5S Plus [Android 8.1.0] - Alpha Tester [9.4.5]
+
+Daved#0021 - Bug Bot on 2019-08-22T20:22:45.388Z
+
+
+### Can reproduce.
+Alcatel A30 Fierce, Android 7.0 - Alpha 9.4.6
+
+Ness(8 days)#0001 - Bug Bot on 2019-08-22T20:23:03.929Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.4.7
+
+Krobo#4784 - Bug Bot on 2019-08-23T05:48:24.149Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.4.7
+
+AHkhan#6518 - Bug Bot on 2019-08-23T05:51:45.356Z
+
+
+### Can reproduce.
+CR - Moto G4, Android 8.1.0 - Discord Alpha 9.4.7
+
+Hagen#0001 - Bug Bot on 2019-08-26T14:44:35.998Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 5; Android 9; DiscordAlpha 947
+
+Neiron#8475 - Bug Bot on 2019-08-27T19:49:52.878Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:24.527Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

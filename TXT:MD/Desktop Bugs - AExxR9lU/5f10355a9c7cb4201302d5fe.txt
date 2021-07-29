@@ -1,0 +1,60 @@
+If a message has a channel/user/role mention or emoji in it, triple tapping to select all text in the message bar and using control+x or control+c will only cut/copy the word you tapped on, instead of all of the text that is selected (https://trello.com/c/ap4P6Don)
+
+None
+
+Created: 2020-07-16T11:09:14.962Z
+Latest Update: 2020-07-16T21:26:06.424Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Type a few words in the message bar 
+- Add a channel/user/role mention or an emoji anywhere in the message 
+- Triple tap on the text to select everything 
+- Use control+x or control+c
+
+####Expected result:
+All of the selected text will be cut/copied
+####Actual result:
+Only the word that you started tapping on will be cut/copied, additionally, following the STR and then right clicking instead of using control x/c will unselect everything but the first word you tapped on
+####Client settings:
+Desktop Canary 63380
+####System settings:
+Dell Inspiron Windows 10
+
+58956
+
+Card Log
+========
+### Added by Bug Bot on 2020-07-16T11:09:14.962Z
+
+
+### Can reproduce.
+CR: Windows 10 2004 Discord Canary 63380
+
+AnnoyingRains Games#3325 - Bug Bot on 2020-07-16T11:09:22.592Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 (2004) - Discord Canary 63380
+
+Arnold0#7514 - Bug Bot on 2020-07-16T11:09:27.563Z
+
+
+### Can reproduce.
+Windows 10 x64 (2004) - PTB 63476 (743bb49) - Host 0.0.52
+
+Lenny#7809 - Bug Bot on 2020-07-16T11:09:32.557Z
+
+
+### Known per chatbox NAB list under "unlikely to fix" list https://imgur.com/a/34sIeeH and https://i.imgur.com/cBMRNgt.png
+
+hopeless#1227 - Bug Bot on 2020-07-16T15:29:16.685Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

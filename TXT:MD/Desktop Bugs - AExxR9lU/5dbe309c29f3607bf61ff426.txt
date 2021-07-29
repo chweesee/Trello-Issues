@@ -1,0 +1,119 @@
+If you hit the character limit on a channel name and description and you view the description the name goes offscreen (https://trello.com/c/vZoKfYRs)
+
+None
+
+Created: 2019-11-03T01:42:52.231Z
+Latest Update: 2020-07-16T21:26:05.499Z
+
+Reported by Hypernova#0001
+
+####Steps to reproduce:
+- create a channel 
+- make the name a string of 100 characters 
+- make the description a string of 1024 characters 
+- click on the description in the top bar 
+- observe channel name
+
+####Expected result:
+The channel name goes to the edge of the box and it makes a line break and continues on the next line
+####Actual result:
+The name goes offscreen
+####Client settings:
+Discord Canary 48548
+####System settings:
+Windows 10 Home 1903
+
+47004
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-03T01:42:52.231Z
+
+
+### Emshe#9012 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dbe309c29f3607bf61ff426/34b6113be82fd084f1e788a6d061bdd9/Csbt5BN.png added by Bug Bot on 2019-11-03T01:42:55.723Z
+
+
+### Can reproduce.
+CR you need to have a 100 character title and no dashes, macOS 10.15 Catalina, [BUILD INFO] Release Channel: ptb, Build Number: 48470
+
+Salinity#5993 - Bug Bot on 2019-11-03T01:42:59.919Z
+
+
+### Can reproduce.
+CR - Windows 10 Family, V.1903 - Canary 48586
+
+GrifGrif#0001 - Bug Bot on 2019-11-03T01:43:04.915Z
+
+
+### Can reproduce.
+CR macOS 10.15 Catalina
+
+Jayden Randhawa#0001 - Bug Bot on 2019-11-03T01:43:10.032Z
+
+
+### Can reproduce.
+Windows 10, Stable Release, Build Number: 48470
+
+Guy293#9782 - Bug Bot on 2019-11-03T08:33:20.846Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 48380, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0025 - Bug Bot on 2019-11-03T15:36:06.565Z
+
+
+### Can reproduce.
+Windows 10 x64 - Canary 48548
+
+Fictional#0001 - Bug Bot on 2019-11-03T21:54:23.763Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Discord Canary 48548
+
+Best_Pro#7066 - Bug Bot on 2019-11-03T23:04:20.570Z
+
+
+### Can reproduce.
+Can reproduce - MacBook Pro 2019 (MacOS 10.14.6), Canary Build 48523
+
+kiosion#0001 - Bug Bot on 2019-11-04T01:25:13.565Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 48548 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-04T04:36:59.175Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary (48586)
+
+MikeTheSpike#0350 - Bug Bot on 2019-11-04T04:48:29.129Z
+
+
+### Can reproduce.
+Win 10 x64 1903 - Stable 48470
+
+Flubberlutsch#0001 - Bug Bot on 2019-11-05T08:16:25.807Z
+
+
+### Can reproduce.
+Windows 10 Pro 1903 x64 - Canary 48816
+
+npm#0001 - Bug Bot on 2019-11-07T18:30:32.621Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10, Host 0.0.258, Canary Build 49384
+
+binchlord#0998 - Bug Bot on 2019-11-13T04:22:28.305Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

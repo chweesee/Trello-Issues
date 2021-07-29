@@ -1,0 +1,84 @@
+[Archived] When I try to create a role while waiting for changes to save, the client crashes. (https://trello.com/c/3XAEpQ1o)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-01-20T00:44:13.586Z
+Latest Update: 2018-03-14T14:04:43.673Z
+
+Reported by Xamtheking#8197
+
+####Steps to reproduce:
+- Open up server settings 
+- Click "Roles" 
+- Create a new role 
+- Name it 
+- Press Enter 
+- Click "Save Changes" 
+- While the changes are being saved, click the plus icon that creates a new role
+
+####Expected result:
+The client should just not save the role that it was attempting to save
+####Actual result:
+The discord client crashes and says "Well, this is awkward. Looks like Discord has crashed unexpectedly..."
+####Client settings:
+Release Channel: stable, Build Number: 9672, Version Hash: e8ecbdade16e008a41dca2c84f0e3d4aa4224223
+####System settings:
+Windows 10 Pro, 64-bit
+
+7969
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-20T00:44:13.586Z
+
+
+### Can reproduce.
+MacBook Pro (late 2013), macOS  Sierra 10.12.1, Discord Canary build 9681
+
+JustGamer#2542 - Bug Bot on 2018-01-20T00:44:21.309Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 9681
+
+» a r i a#1593 - Bug Bot on 2018-01-20T00:44:25.960Z
+
+
+### Can reproduce.
+Macbook Pro 15" (2017) macOS High Sierra 10.13.2; Canary Build 9681
+
+mrkirby153#7840 - Bug Bot on 2018-01-20T00:44:31.000Z
+
+
+### Can reproduce.
+Google Chrome 62.0.3202.97 (x64)
+Firmware Version: Google_Setzer.7287.360.0, Discord Stable (Build: 9672) [Webclient]
+
+Senhara#5373 - Bug Bot on 2018-01-20T00:47:49.178Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.197 (9681) on Windows 10 Home x64 Fall Creators Update (1709)
+
+OminousCry#2331 - Bug Bot on 2018-01-20T06:05:36.014Z
+
+
+### Cannot repro - Clayton on 2018-01-25T22:56:04.680Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-01-25T22:56:07.953Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T14:04:42.649Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T14:04:43.676Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

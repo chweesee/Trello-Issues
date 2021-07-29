@@ -1,0 +1,86 @@
+[Edge/Firefox] When dragging icons in the middle of their animation it doesn't reset to the first frame until you place it unlike chrome/desktop clients (https://trello.com/c/3Vy181C2)
+
+None
+
+Created: 2019-07-29T02:50:54.834Z
+Latest Update: 2020-07-16T21:26:04.597Z
+
+Reported by TheForbiddenAi#0403
+
+####Steps to reproduce:
+- Drag a server in the middle of it's animation 
+- Observe how the icon is still at the specific frame when dragging rather than from the first frame like chrome/desktop clients
+
+####Expected result:
+The icon goes back to the first frame
+####Actual result:
+The icon stays at the current frame
+####Client settings:
+Edge 44, Firefox 68.0.1, Canary 42113
+####System settings:
+Windows 10 Home x64 (1809)
+
+40898
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-29T02:50:54.834Z
+
+
+### TheForbiddenAi#0403 - https://i.imgur.com/I3sJIOl.gifv added by Bug Bot on 2019-07-29T02:50:57.365Z
+
+
+### Can reproduce.
+W10 Pro x64 (1903), Canary 42113 - Edge 44
+
+dragiceviccv#4375 - Bug Bot on 2019-07-29T02:51:02.358Z
+
+
+### Can reproduce.
+Windows 10 Pro, Edge 44, Canary 42113
+
+Rich#2392 - Bug Bot on 2019-07-29T02:51:07.351Z
+
+
+### Can reproduce.
+W10 Firefox Quantum 68.0.1
+
+binchlord#0998 - Bug Bot on 2019-07-29T02:51:12.383Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x86 64 Bit 1903, Canary Build Number: 42233 Edge 44
+
+pro6_dog#3800 - Bug Bot on 2019-07-30T19:50:31.168Z
+
+
+### Can reproduce.
+Windows 10 Home x64 , Canary 42262 , Edge 44
+
+SportLeader#2711 - Bug Bot on 2019-07-31T07:07:22.031Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 42329; Firefox Quantum 68.0.1
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-31T20:45:08.708Z
+
+
+### Can reproduce.
+canary 42961 | EdgeHTML 18.18362
+
+charleskimbac#6492 - Bug Bot on 2019-08-08T21:25:10.867Z
+
+
+### Can reproduce.
+CR, Discord Canary 51642, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2019-12-19T14:35:38.026Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

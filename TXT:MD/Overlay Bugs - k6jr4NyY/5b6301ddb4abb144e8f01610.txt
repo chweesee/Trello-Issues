@@ -1,0 +1,94 @@
+[Archived] Starting a game windowed and fullscreening said game causes overlay to improperly scale (https://trello.com/c/mdoQPCxr)
+
+None
+
+Created: 2018-08-02T13:06:37.928Z
+Latest Update: 2019-04-24T00:53:09.469Z
+
+Reported by Mustard#2117
+
+####Steps to reproduce:
+- Launch a game that launches windowed by default (ex: Minecraft 
+- Ensure the game launches and open the overlay 
+- Maximize the window 
+- Reopen overlay 
+- Observe
+
+####Expected result:
+The overlay scales correctly, the panels are moved and the exit overlay button is in the upper right corner
+####Actual result:
+Improper scaling occurs, leading to panels and the exit button being off
+####Client settings:
+Discord Canary 20540
+####System settings:
+Windows 10 Home x64 (1803), Minecraft 1.8.9
+
+16751
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T13:06:37.928Z
+
+
+### Mustard#2117 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6301ddb4abb144e8f01610/fc18bc01ed08c7ef7b9c60cfd07605e5/LinearAnchoredIrishwolfhound-size_restricted.gif added by Bug Bot on 2018-08-02T13:06:42.401Z
+
+
+### Can reproduce.
+can reproduce with osu!. Windows 10 Home SL 1803 x64 • Canary 20535
+
+MakiTheLegend#5027 - Bug Bot on 2018-08-02T13:06:45.285Z
+
+
+### Can reproduce.
+[cr] Can reproduce with Minecraft. | Win10, 64bits • Canary Build Number: 20540
+
+fujhofn.#0007 - Bug Bot on 2018-08-02T13:06:50.282Z
+
+
+### Can reproduce.
+Can reproduce with Minecraft - Windows 10 Home x64 - Canary 20540
+
+Remceau#3241 - Bug Bot on 2018-08-02T13:06:55.228Z
+
+
+### Not sure this is a bug - if you have launched the overlay before, and moved panels around, we remember and re-use your last positions. The close button can sometimes be at the top-middle of screen depending on your chosen position for panels. - Christina Zou on 2018-08-02T18:19:14.412Z
+
+
+### Can reproduce.
+CR in Minecraft, Windows 10 Home 64-bit, Canary 20540
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-02T20:18:18.463Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Can reproduce with LEGO Universe, Canary 20540
+
+averysumner#6969 - Bug Bot on 2018-08-03T02:13:36.714Z
+
+
+### Can reproduce.
+[CR] || Windows 10 Home (x64, 1803), Discord Canary 20540
+
+Marc#5983 - Bug Bot on 2018-08-03T03:48:20.733Z
+
+
+### i don't see the bug here? from the clip this behaves as expected - Christina Zou on 2018-08-03T23:02:38.461Z
+
+
+### Dupe of https://trello.com/c/gqcKGEnH
+
+SyntaxPrime#4495 - Bug Bot on 2018-08-29T19:30:36.651Z
+
+
+### dupe below.  - Clayton on 2018-08-30T22:36:07.354Z
+
+
+### Archived by Clayton on 2018-08-30T22:36:08.843Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

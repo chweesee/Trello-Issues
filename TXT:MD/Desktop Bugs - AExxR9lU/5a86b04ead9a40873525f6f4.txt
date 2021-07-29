@@ -1,0 +1,112 @@
+[Archived] Uploaded GIFs are missing a GIF indicator (https://trello.com/c/Va5IOlM2)
+
+P3: Will get fixed eventually,
+Mid,
+Images,
+Client side
+
+Created: 2018-02-16T10:19:58.686Z
+Latest Update: 2018-08-21T23:33:49.709Z
+
+Reported by GREY#8664
+
+####Steps to reproduce:
+- Make sure Automatically play GIFs when Discord is focused option is disabled 
+- Upload a GIF file (or post a link to a GIF, uploaded to Discord servers)
+
+####Expected result:
+GIF indicator is shown in the right-upper corner of the GIF
+####Actual result:
+GIF indicator is missing. Hovering mouse over the GIF will still play it, but resets to 1st frame when not hovering, unlike GIFs from other sources
+####Client settings:
+Discord Canary 10874
+####System settings:
+Windows 10 Pro 1709 x64
+
+8836
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-16T10:19:58.686Z
+
+
+### GREY#8664 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a86b04ead9a40873525f6f4/9051bbf1325e4466c25edb307a310b1e/2018-02-16_06-30-09.gif added by Bug Bot on 2018-02-16T10:20:01.352Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Version 1709), Discord Canary (Build 10874)
+
+houston#4668 - Bug Bot on 2018-02-16T10:20:06.129Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 10878
+
+mrkirby153#7840 - Bug Bot on 2018-02-16T10:20:11.101Z
+
+
+### Can reproduce.
+CR Windows 10 1709 x64, Canary build 10878
+
+AEnterprise#4693 - Bug Bot on 2018-02-16T10:20:16.137Z
+
+
+### Can reproduce.
+Windows 10 home x64, canary 10878
+
+duncte123#1245 - Bug Bot on 2018-02-16T13:26:47.600Z
+
+
+### Cannot reproduce. Gifs are showing the tag. - Jared on 2018-02-20T21:35:59.764Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-02-20T21:36:03.394Z
+
+
+### Can reproduce.
+W10 Pro 1709 x64, Canary 0.0.203 | the GIF tag is hidden behind the image, tested with a transparent gif.
+
+Dooley_labs#0001 - Bug Bot on 2018-02-23T05:28:11.960Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a86b04ead9a40873525f6f4/a3d337f84f931973d2d2b59280a44fc2/gmagik.gif added by Bug Bot on 2018-02-23T05:40:59.324Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a86b04ead9a40873525f6f4/40bb72230bbe9b7219926884fb1feb73/gmagik.gif added by Bug Bot on 2018-02-23T05:41:24.927Z
+
+
+### Uploaded two gifs at Dooley’s request. Dooley also explained about the gif tag hiding behind the image which can be compared with transparent and non-transparent gifs.
+
+Ghoul#0009 - Bug Bot on 2018-02-23T05:42:57.492Z
+
+
+### Can reproduce.
+MacBook (Retina, 12-inch, Early 2016), 10.13.2 (17C88)
+
+haykam#5331 - Bug Bot on 2018-02-26T02:24:34.697Z
+
+
+### Can reproduce. Bug is specifically GIF indicator behind image.  - Clayton on 2018-03-20T21:19:41.454Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Clayton on 2018-03-20T21:20:00.683Z
+
+
+### Cannot repro anymore, Canary 18051. Moving to claimed fixed. - Tarek on 2018-07-02T16:48:30.134Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-02T16:48:35.669Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:33:48.392Z
+
+
+### Archived by Jared on 2018-08-21T23:33:49.711Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

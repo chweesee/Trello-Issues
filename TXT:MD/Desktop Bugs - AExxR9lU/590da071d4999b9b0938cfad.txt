@@ -1,0 +1,94 @@
+[Archived] Audit Logs show the same role when chaning channel permissions for *multiple* roles (https://trello.com/c/JopgNOZl)
+
+P3: Will get fixed eventually
+
+Created: 2017-05-06T10:07:45.284Z
+Latest Update: 2018-10-22T20:13:57.472Z
+
+Reported by Kristoffer#3299
+
+####Steps to reproduce: 
+- Create some roles or use existing roles (in this case, I made `Role 1`,`Role 2`, and `Role 3`) 
+- Go to the channel permissions (`Edit Channel` Button > Permissions) 
+- Add the roles (don't change any permissions yet untill you add all the roles you will use) 
+- Grant or deny (a) permission/s for all the roles (they could be different permissions for each role) 
+- Click the `Save Changes` Button 
+- Go to the Audit Logs 
+
+####Expected result:
+ It will say ` Granted a permission for Role 1` `Granted a permission for Role 2` and `Granted a permission to Role 3` 
+####Actual result:
+ It all says `Granted a permission for Role 3` 
+####System settings:
+ Windows 10, Discord Canary
+
+1434
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-06T10:07:45.284Z
+
+
+### Can reproduce.
+Can reproduce, win10 latest canary
+
+Mippy#1483 - Bug Bot on 2017-05-06T10:07:46.079Z
+
+
+### Can reproduce.
+Windows 10 & Discord Canary
+
+Immotay#2748 - Bug Bot on 2017-05-06T10:07:48.045Z
+
+
+### Can reproduce.
+W8 - Canary
+
+PARALLAχ#7688 - Bug Bot on 2017-05-06T10:07:49.997Z
+
+
+### http://prntscr.com/f4pz9a - http://prntscr.com/f4pz9a added by Bug Bot on 2017-05-06T10:08:00.944Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary
+
+Kristoffer#3299 - Bug Bot on 2017-05-06T10:09:33.440Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary
+
+Gemma#5566 - Bug Bot on 2017-05-06T13:01:12.103Z
+
+
+### Verified.  - Clayton on 2017-05-11T22:52:16.465Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-11T22:52:22.527Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T10:46:38.023Z
+
+
+### Checked as part of our bug event, I can still reproduce this myself as seen here: https://i.imgur.com/8e1nDR9.png - Alexander (DJScias) on 2018-03-16T01:44:58.195Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 Home x64 v1709
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T16:29:01.670Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:57.474Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

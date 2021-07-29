@@ -1,0 +1,83 @@
+[Archived] When giving a role/channel override for priority speaker. It only says "Granted permission" in audit logs (https://trello.com/c/jaoJDHBw)
+
+P2: Fix can wait a while
+
+Created: 2018-08-01T02:52:03.692Z
+Latest Update: 2018-08-21T23:45:35.312Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Give a role "priority speaker" permission 
+- Observe audit logs
+
+####Expected result:
+It should say "Granted permission priority speaker"
+####Actual result:
+Says "Granted permission"
+####Client settings:
+Discord Canary 0.0.211 (20433)
+####System settings:
+Windows 10 Pro 64-bit (1803)
+
+16598
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-01T02:52:03.692Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b612053999b7aa123720326/3f4e161d7b4d39f71b1bb3bb83f59271/j58HWLJ.png added by Bug Bot on 2018-08-01T02:52:06.169Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 20433
+
+mrkirby153#7840 - Bug Bot on 2018-08-01T02:52:10.991Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary Build  20433
+
+Azrael#6867 - Bug Bot on 2018-08-01T02:52:16.028Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 20433
+
+webhp#3302 - Bug Bot on 2018-08-01T02:52:21.104Z
+
+
+### Moved from User Reported Bugs to Priority Speaker by Tarek on 2018-08-01T03:01:58.864Z
+
+
+### Can reproduce.
+Can Reproduce. Tested on MacBook Air Early 2015, macOS High Sierra 10.13.4, Discord Canary 0.0.193, Build Number: 20433.
+
+Ghostly#0001 - Bug Bot on 2018-08-01T08:40:32.725Z
+
+
+### Fixed in master. Will go out with next push. - Mark Smith on 2018-08-01T20:32:16.395Z
+
+
+### Moved from Priority Speaker to Fix made, not yet released by Mark Smith on 2018-08-01T20:35:14.315Z
+
+
+### CNR 20790, moving to claimed fixed - Tarek on 2018-08-04T06:05:52.686Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2018-08-04T06:05:56.833Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:45:34.273Z
+
+
+### Archived by Jared on 2018-08-21T23:45:35.315Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

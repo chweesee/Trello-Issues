@@ -1,0 +1,79 @@
+[Archived] Server region flags in DMs become misshapen on 80 zoom (1366x768 resolution specific) (https://trello.com/c/GeyTEVff)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-23T14:34:56.703Z
+Latest Update: 2019-01-11T00:01:19.525Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Start a voice call in DMs 
+- Change your zoom level to 80 
+- Open the rtc region selector and observe the flags
+
+####Expected result:
+Flags are not misshapen
+####Actual result:
+Several of the flags are misshapen
+####Client settings:
+Canary Build 26772
+####System settings:
+Windows 10 Home x64 1803
+
+21989
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-23T14:34:56.703Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bcf319053bffe0f4139818b/90cb4c998e9191afcaa31816ade2ca20/ftFoiGT.png added by Bug Bot on 2018-10-23T14:34:59.068Z
+
+
+### Can reproduce.
+Canary Build 26772 • Windows Home x64 (1803) • Japan And US South are misformed compared to the other flags
+
+enkiel#8029 - Bug Bot on 2018-10-23T14:35:04.063Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26772
+
+Neiron#7777 - Bug Bot on 2018-10-23T14:35:09.011Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 26772 - - Downscaled my screen to 1366x768 and encountered the problem
+
+Solo#0007 - Bug Bot on 2018-10-23T14:35:14.008Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 26760; 1366x768
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-23T17:08:52.673Z
+
+
+### Can reproduce.
+cr, Windows 10 Pro x64, Canary Build 26772
+
+Nashorn#3450 - Bug Bot on 2018-10-23T17:19:45.705Z
+
+
+### minor - Clayton on 2018-10-23T20:42:15.637Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-23T20:42:23.208Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:19.528Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

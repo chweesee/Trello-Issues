@@ -1,0 +1,121 @@
+[Archived] Slowmode timer disappears when reloading the client (https://trello.com/c/89WUEz2I)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-27T23:58:56.356Z
+Latest Update: 2019-10-23T23:01:31.853Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to a channel with slowmode being enabled (set it to a bigger time interval to notice the bug) 
+- Make sure you don't have manage channels or manage messages permission 
+- Send a message 
+- Observe the timer that appears now 
+- Reload your client 
+- Observe the timer/slowmode info in the channel again
+
+####Expected result:
+The slowmode timer should be shown after reloading the client.
+####Actual result:
+The timer disappears until you try to send a message again.
+####Client settings:
+Canary Build 24815
+####System settings:
+MacBook Pro 13" (2016), macOS Mojave 10.14
+
+20232
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-27T23:58:56.356Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), PTB 24781
+
+MoonlightCapital#0554 - Bug Bot on 2018-09-27T23:59:03.812Z
+
+
+### Can reproduce.
+Can reproduce Win 10 home x64. Canary 24853
+
+Mr. Black#5859 - Bug Bot on 2018-09-27T23:59:08.733Z
+
+
+### Can reproduce.
+CR on Windows 10 Home; Canary Build 24853
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-09-27T23:59:13.767Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 24853
+
+Nixtl#1677 - Bug Bot on 2018-09-28T00:05:24.226Z
+
+
+### verified, macos 10.12.6, canary 24853 - Clayton on 2018-09-28T02:15:04.381Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-28T02:15:11.864Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 24853
+
+Hole#0001 - Bug Bot on 2018-09-28T05:11:15.258Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 24853
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-28T08:25:30.484Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24925
+
+Neiron#2406 - Bug Bot on 2018-09-28T15:19:17.200Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 24925
+
+Frances Picard#6209 - Bug Bot on 2018-09-28T17:04:35.969Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:42.082Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64, Version 1903 Build 18875.1000, Canary 36430
+
+Noxillio#0001 - Bug Bot on 2019-04-26T17:18:11.907Z
+
+
+### Unarchived by Bug Bot on 2019-04-26T17:30:06.249Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) | Canary 38336
+
+charleskimbac#6492 - Bug Bot on 2019-05-23T14:07:33.525Z
+
+
+### Can reproduce.
+can reproduce Dell Inspiron Windows 10 Home & Student, Host 0.0.246, Canary Build 41168
+
+binchlord#0998 - Bug Bot on 2019-07-15T02:02:19.250Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:31.866Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

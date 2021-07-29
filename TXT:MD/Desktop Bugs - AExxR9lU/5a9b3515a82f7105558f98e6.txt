@@ -1,0 +1,110 @@
+[Archived] Unread message badge disappears after minimizing discord to tray (https://trello.com/c/ragR27sR)
+
+P3: Will get fixed eventually,
+Mid,
+Client side,
+Notifications
+
+Created: 2018-03-03T23:51:49.953Z
+Latest Update: 2020-05-22T01:30:02.382Z
+
+Reported by RME#3050
+
+####Steps to reproduce:
+- Have the unread message badge enabled, and have the close button minimize discord to tray 
+- Click the close button 
+- Open up Discord from tray again
+
+####Expected result:
+The unread message badge should still be displayed
+####Actual result:
+The badge has disappeared and you need to turn it off and on to make it show again
+####Client settings:
+Canary Build 11566
+####System settings:
+Windows 10 Pro x64
+
+9294
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-03T23:51:49.953Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 (Canary build 11566)
+
+TimThe#1118 - Bug Bot on 2018-03-03T23:51:57.514Z
+
+
+### Can reproduce.
+Windows 10 x64 Fall Creator's Update Canary build 11566
+
+Mikesky#0001 - Bug Bot on 2018-03-03T23:52:02.502Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 11566
+
+webhp#1337 - Bug Bot on 2018-03-03T23:52:07.544Z
+
+
+### Could be related to https://trello.com/c/1uBtXykh however, this is done by closing and reopening Discord not Windows Explorer.
+
+webhp#1337 - Bug Bot on 2018-03-03T23:53:45.971Z
+
+
+### This is different from https://trello.com/c/1uBtXykh/1518-when-we-restart-windows-explorer-the-red-and-white-dot-on-the-canary-logo-dissapear because this ticket does not require killing the process through the task manager, rather through our client. - Jared on 2018-03-05T21:17:11.793Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-03-05T21:19:59.157Z
+
+
+### Verified - Jared on 2018-03-05T21:20:02.707Z
+
+
+### 54D#1357 - https://youtu.be/33Qf1SbFKSM added by Bug Bot on 2018-07-14T15:23:27.922Z
+
+
+### Can reproduce.
+Win 10 home x64. Canary  22943
+
+Mr. Black#5859 - Bug Bot on 2018-08-31T20:32:04.236Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24480
+
+Neiron#2406 - Bug Bot on 2018-09-24T19:34:08.012Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T06:07:00.977Z
+
+
+### Can reproduce.
+Windows 10 and Canary 28393
+
+Oasis#4730 - Bug Bot on 2018-11-26T02:20:57.810Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:11.563Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Canary 58583 Host 0.0.264
+
+SSalt#5041 - Bug Bot on 2020-04-22T00:38:29.958Z
+
+
+### Unarchived by Bug Bot on 2020-04-22T01:00:06.250Z
+
+
+### Archived by Bug Bot on 2020-05-22T01:30:02.395Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

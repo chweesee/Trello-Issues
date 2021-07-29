@@ -1,0 +1,73 @@
+[Archived] Quotes not allowed in file names (https://trello.com/c/Yn9TBXXl)
+
+P3: Will get fixed eventually,
+Low,
+Client side,
+Images
+
+Created: 2018-02-21T14:17:08.262Z
+Latest Update: 2018-07-06T17:47:07.701Z
+
+Reported by Computermatronic#6991
+
+####Steps to reproduce:
+- Create a file with ' in the title 
+- Attempt to upload it to discord.
+
+####Expected result:
+File uploads to discord.
+####Actual result:
+File fails to upload.
+####Client settings:
+Discord, 0.0.300
+####System settings:
+Win 7 x64
+
+8982
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-21T14:17:08.262Z
+
+
+### Can reproduce.
+cr Windows 10 Home x64 (Fall Creators Update), canary 10978
+
+Rauf#9245 - Bug Bot on 2018-02-21T14:17:15.603Z
+
+
+### Can reproduce.
+CR Canary 10978 Win 10 x64 The file fails to upload if you have the ' at the end of the name and for pictures if you have the ' both at the start and the end
+
+cutelilberry#5423 - Bug Bot on 2018-02-21T14:17:20.605Z
+
+
+### Can reproduce.
+CR, I can only repro if there are two single-quotes in the name, Discord Canary Build 10978, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-02-21T14:17:25.586Z
+
+
+### This only works if the file name contains two single-quotes without a space between them.
+
+Anorak#5830 - Bug Bot on 2018-02-21T14:42:26.370Z
+
+
+### Verified with a file named `quote''quote`. This is such an edge case bug and reworking the file upload system is scary, so unless someone can figure out a more common reproduction case, I'm marking this as Won't Fix. - Jared on 2018-02-22T18:56:24.104Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2018-02-22T18:56:53.076Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:47:06.363Z
+
+
+### Archived by Jared on 2018-07-06T17:47:07.703Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,57 @@
+Updated emoji picker gets stuck in resizing if you drag too quickly right after clicking to expand (https://trello.com/c/u0RVI31j)
+
+None
+
+Created: 2020-05-01T20:30:21.197Z
+Latest Update: 2020-07-16T21:26:06.291Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Open emoji picker 
+- Click left side side to expand, near a server icon (need to be more on the left than the right of the space you can click and have the <--> arrow) 
+- Drag left really fast
+
+####Expected result:
+Emoji picker should get big really fast
+####Actual result:
+You see an image of the nearby server icon being dragged by the mouse, and then when you release the emoji picker follows your mouse resizing without you holding click
+####Client settings:
+Canary 58858 (d79f8df)
+####System settings:
+Windows 10 64-Bit (10.0.18363)
+
+55128
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-01T20:30:21.197Z
+
+
+### wakfi#6999 - https://youtu.be/ezMml7WSc-M added by Bug Bot on 2020-05-01T20:30:23.718Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Canary 58858 Host 0.0.264
+
+SSalt#5041 - Bug Bot on 2020-05-01T20:30:28.587Z
+
+
+### Can reproduce.
+[CR] Same result can be achieved when resizing the picker you alt+tab, release the mouse button and alt+tab back to the discord, Windows 10 Pro Build 18363.720, Canary Build 58861
+
+Creedoo#3626 - Bug Bot on 2020-05-01T20:30:33.622Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Canary (Build 59353)
+
+Bryth#1086 - Bug Bot on 2020-05-01T20:30:38.604Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,75 @@
+[Archived] Infinite loading when attempting to share a file that doesn't exist anymore (https://trello.com/c/IdzUQ1jz)
+
+None
+
+Created: 2018-03-24T17:20:08.825Z
+Latest Update: 2019-05-09T14:31:25.197Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open your file explorer  
+- Pick a file and share to Discord 
+- While being on the share screen, minimize Discord and go back to the file explorer 
+- Delete the file 
+- Go back to Discord 
+- Select a channel and Send
+
+####Expected result:
+Should fail saying the file is deleted
+####Actual result:
+Infinite loading
+####Client settings:
+Discord Alpha 6.4.4
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9834
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-24T17:20:08.825Z
+
+
+### Can reproduce.
+Discord alpha 6.4.4, RROS 6.0.0 (mido)
+
+Anki 👌😏#6068 - Bug Bot on 2018-03-24T17:20:16.251Z
+
+
+### Can reproduce.
+6.4.4
+
+Mas#0001 - Bug Bot on 2018-03-24T17:20:21.325Z
+
+
+### Can reproduce.
+Asus Zenfone 3, Android 7.0, Alpha 6.4.4
+
+Doges#0001 - Bug Bot on 2018-03-24T17:20:26.273Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Sam Shih on 2018-03-26T19:04:16.205Z
+
+
+### I couldn't repro an infinite loading screen, however this seems like a super rare exception, and we show a toast that says the message failed to load the attachment. I think that's sufficient for now. - Sam Shih on 2018-03-26T19:05:04.279Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:50:48.488Z
+
+
+### Archived by Jared on 2018-07-06T18:50:49.367Z
+
+
+### Can reproduce.
+Mi A2, Android 9, April 2019 update | Android Alpha 891 - happens also when uploading directly from Discord, spams debug logs in the meantime
+
+Bsian#1803 - Bug Bot on 2019-05-09T14:31:25.205Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,85 @@
+[Archived] [iPhone only] Mutual servers: Long server nicknames let the field go beyond the edge (https://trello.com/c/RP5aWqUp)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-10-23T20:12:42.367Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Have or a give a user a very long server nickname like `WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW` 
+- Open the profile of this user 
+- Go to `Mutual servers` 
+- Observe the field with the nickname
+
+####Expected result:
+Field with the nickname shouldn't go beyond the edge.
+####Actual result:
+The field with nickname and server is bigger than the field behind it.
+####Client settings:
+TestFlight 1.9.3 (1165)
+####System settings:
+iPhone 6s with iOS 11.0.3
+
+5686
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-23T20:12:42.367Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59ee4d3a91ec68b958825bdb/20e441cc0813ed31daa1f574f4cddb70/xBUfFpX.jpg added by Bug Bot on 2017-10-23T20:12:44.790Z
+
+
+### Can reproduce.
+CR, iPhone6s iOS 11.0.3, TF 1.9.3 (1165)
+
+Blizzyrd#7909 - Bug Bot on 2017-10-23T20:12:49.673Z
+
+
+### Can reproduce.
+CR, IPhone 5s iOS 11.0.3, TF 1.9.3 (1165)
+
+🌸 Luna Lovegood 🌸#4896 - Bug Bot on 2017-10-23T20:12:54.712Z
+
+
+### Can reproduce.
+CR, iPhone 5S, iOS 11.0.3, Discord Testflight 1.9.3 (1165)
+
+Kef#8576 - Bug Bot on 2017-10-23T20:12:59.682Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 11.1 Dev. Beta 5, TF 1.9.3 (1165)
+
+Jeremias#8432 - Bug Bot on 2017-10-23T20:28:31.692Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-23T23:36:46.112Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.2.5 (PB7), iOS TestFlight 2.2.1 (2224)
+
+Ghoul#4567 - Bug Bot on 2018-01-20T23:36:47.608Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5560). The profile has since been redesigned, and the nickname still goes into a new line, but fits more nicely into the box. Example Image can be found here: https://cdn.discordapp.com/attachments/391730272388907018/463511300698406912/image.png
+
+I used iPhone 8 + running iOS 12 (Dev Beta 2). Since I was not able to reproduce this, I am moving it to Claimed Fixed. - Ghoul on 2018-07-03T01:09:38.980Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T01:09:43.902Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:53.076Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

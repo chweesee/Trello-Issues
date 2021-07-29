@@ -1,0 +1,118 @@
+'Invite People' button sticks around to other servers (https://trello.com/c/nCKMzlzt)
+
+P2: Fix can wait a while
+
+Created: 2019-03-05T20:17:23.353Z
+Latest Update: 2019-09-23T22:30:07.710Z
+
+Reported by analog#9481
+
+####Steps to reproduce:
+- Start from viewing the Home page (i.e. not a Server) 
+- Enter a Server you can invite people into with the button, like a new Server. The button is the one near the profile picture icon with sparkles and the green '+' reading 'An adventure begins...' 
+- Enter a different Server that would ordinarily not display that box. 
+- Notice you can still see the box, and click the 'Invite People' though the link that appears inside does not match the link for the server (e.g. 'discord-testers' is missing after the `discord,gg/`)
+
+####Expected result:
+It should at least display the correct link, if it is supposed to remain in the second server.
+####Actual result:
+The button remains, and does not produce a valid server link.
+####Client settings:
+Discord PTB 33226
+####System settings:
+Windows 7 Professional
+
+30355
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-05T20:17:23.353Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary 33262
+
+Lelantos#4866 - Bug Bot on 2019-03-05T20:17:30.876Z
+
+
+### Can reproduce.
+Can Reproduce Bug, Windows 10 x64 Professional Canary 33262
+
+Darth#9386 - Bug Bot on 2019-03-05T20:17:35.768Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 33262
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-05T20:17:40.713Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 33262
+
+Solo#0007 - Bug Bot on 2019-03-05T20:44:47.066Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Canary 33262
+
+Clay#0001 - Bug Bot on 2019-03-05T21:39:25.366Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-05T22:24:12.449Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 33262
+
+Daffyduck#5364 - Bug Bot on 2019-03-05T23:44:26.608Z
+
+
+### Can reproduce.
+[CR] • Windows 10 Home (1809) • Desktop Canary (33294)
+
+k_fizzel#8616 - Bug Bot on 2019-03-06T00:03:44.194Z
+
+
+### Can reproduce.
+CR, macos 10.14.4, PTB 33363
+
+Action Potential#2494 - Bug Bot on 2019-03-06T04:09:30.500Z
+
+
+### Can reproduce.
+cr. Canary 33262 Windows 10 x64
+
+Toasty#0001 - Bug Bot on 2019-03-06T04:48:51.510Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.117 (x64) · Web Canary 33262
+
+Casper#9999 - Bug Bot on 2019-03-06T06:02:39.988Z
+
+
+### Can reproduce.
+CR; Canary: 33381, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-06T11:51:46.524Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 33381
+
+Lily#2624 - Bug Bot on 2019-03-06T19:52:08.055Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1809 Canary 33633
+
+anonymous kitten 😸#4876 - Bug Bot on 2019-03-09T04:34:40.938Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

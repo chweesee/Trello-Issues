@@ -1,0 +1,132 @@
+[Archived] PNG files exported from GIMP with both "Save thumbnail" and "Save color profile" ticked cannot be uploaded as emojis. (https://trello.com/c/ufWcxzJR)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-05-11T12:29:54.400Z
+Latest Update: 2019-06-16T02:00:03.396Z
+
+Reported by PikaDude#0001
+
+####Steps to reproduce:
+- Create/edit an image in GIMP (version 2.10.10 in my case). 
+- Export the image from GIMP as a PNG file, with BOTH "Save thumbnail" and "Save color profile" ticked. 
+- Upload the exported image to Discord as an emoji.
+
+####Expected result:
+The image uploads and Discord accepts it.
+####Actual result:
+Discord rejects the image and the client saying an irrelevant and incorrect error message.
+####Client settings:
+Release Channel: stable, Build Number: 37253, Version Hash: 818758a6ad5e844be56a5ff543f0db672f01bc1c
+####System settings:
+Windows 10 Home (1809, 17763.475)
+
+34404
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-11T12:29:54.400Z
+
+
+### Can reproduce.
+Discord Canary 0.0.237 (37454) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2019-05-11T12:30:01.780Z
+
+
+### Can reproduce.
+Windows 10 Education x64 (1809) -Canary 37454
+
+sabeer#1456 - Bug Bot on 2019-05-11T12:30:06.812Z
+
+
+### Can reproduce.
+Windows 10 Pro 64bit, Discord Canary 0.0.237
+
+DreaMMM#4257 - Bug Bot on 2019-05-11T12:30:11.772Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 37458
+
+Neiron#8475 - Bug Bot on 2019-05-11T12:33:06.887Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 (1809) - Discord Canary 37458
+
+Birdy#4914 - Bug Bot on 2019-05-11T17:42:12.654Z
+
+
+### Quite unsure if it's a bug caused by gimp or Discord, but verified regardless. 
+
+I'll let a dev decide on this. - Tarek on 2019-05-11T22:05:05.679Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2019-05-11T22:05:09.397Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 37458
+
+nani?#8690 - Bug Bot on 2019-05-11T22:55:16.740Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 37458
+
+Darth#9386 - Bug Bot on 2019-05-12T00:25:57.714Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 Bit // Discord Canary Version 37458
+
+Cam#7527 - Bug Bot on 2019-05-12T00:55:20.332Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 37458
+
+OrangeM24#5746 - Bug Bot on 2019-05-12T01:17:50.846Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 37458
+
+Xylium#5800 - Bug Bot on 2019-05-12T02:45:42.761Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.237 Build 37458
+
+Daffyduck#5364 - Bug Bot on 2019-05-12T21:08:48.381Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Canary build 37458
+
+Alеx#2287 - Bug Bot on 2019-05-13T17:18:15.524Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 37458
+
+Lily#2624 - Bug Bot on 2019-05-13T20:26:10.893Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 37731 (Host 0.0.237)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-17T01:54:04.990Z
+
+
+### Archived by Bug Bot on 2019-06-16T02:00:03.406Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

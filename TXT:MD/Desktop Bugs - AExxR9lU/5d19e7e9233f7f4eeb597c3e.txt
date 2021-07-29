@@ -1,0 +1,117 @@
+Category creation modal does not close when getting a desktop notification and clicking it. (https://trello.com/c/6LEbtwCF)
+
+None
+
+Created: 2019-07-01T11:00:57.857Z
+Latest Update: 2020-07-16T21:26:04.371Z
+
+Reported by Skyzar#0001
+
+####Steps to reproduce:
+- Have desktop notifications turned on. 
+- Go to a server where you can create a category. 
+- Create a category (just open the modal and don't actually create one). 
+- Get a DM from someone so that you get a desktop notification. 
+- Click on the notification. 
+- Your client will change to the DM page but the modal for creating the category will still be open.
+
+####Expected result:
+The "create category" modal is supposed to close.
+####Actual result:
+It doesn't close and you have to press cancel to close it.
+####Client settings:
+Release Channel: stable, Build Number: 40273, Version Hash: 7ee65925bd613109d7311da93f9d8f557762ff77
+####System settings:
+Windows 10 Pro, Version 1809, Build 17763.557
+
+38274
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-01T11:00:57.857Z
+
+
+### Can reproduce.
+cr Windows 10 1903 canary 40522
+
+GlenMerlin#2119 - Bug Bot on 2019-07-01T11:01:05.199Z
+
+
+### Can reproduce.
+CR on Windows 10 (x64); Discord Stable, Build Number: 40393
+
+Dann#3477 - Bug Bot on 2019-07-01T11:01:10.211Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary 40522
+
+Lelantos#0001 - Bug Bot on 2019-07-01T11:01:15.208Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) / Discord stable, Build Number:40271.
+
+Krybskytten#8992 - Bug Bot on 2019-07-01T12:48:39.405Z
+
+
+### Can reproduce.
+Windows 10 Pro 1903 - Stable 40393
+
+voldemort#6931 - Bug Bot on 2019-07-01T13:27:35.048Z
+
+
+### Can reproduce.
+Windows 10 Enterprise 1803 x64, Canary 40522
+
+MiTonder#1792 - Bug Bot on 2019-07-01T16:42:49.822Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40522
+
+Xylium#5800 - Bug Bot on 2019-07-02T00:38:24.373Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40522
+
+Lily#2624 - Bug Bot on 2019-07-02T13:21:01.787Z
+
+
+### Can reproduce.
+Canary 40604, Host 0.0.245, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-02T15:57:05.872Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 40675
+
+AHkhan#0001 - Bug Bot on 2019-07-03T11:59:14.094Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Discord Canary 40522.
+
+Alister#0018 - Bug Bot on 2019-07-03T14:27:21.293Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 40795
+
+charleskimbac#6492 - Bug Bot on 2019-07-07T18:28:02.735Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 40981 (Host 0.0.246)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-10T23:23:37.504Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

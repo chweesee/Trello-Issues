@@ -1,0 +1,66 @@
+[Archived] “Message channel” appears before text is fully deleted and typing indicator flashes in the message when deleting text (happens for a split second and is easier to see on poor connection) (https://trello.com/c/EI3W7NRI)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-08-07T01:07:17.836Z
+Latest Update: 2018-09-22T22:00:03.208Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Type some text in a channel (I find it works better with a long continuous string of text) 
+- Delete the text you’ve typed, making sure to hold the backspace button 
+- Observe the left side of the message bar as the typing indicator deletes the last of the text 
+- If you don’t notice it, watch closely and try again (you can also take a screen recording and go through frame by frame to see it if testing on good connection) 
+- If testing on poor connection it also works with deleting the text character by character depending on how poor your connection is
+
+####Expected result:
+“Message channel” doesn’t appear until the text is fully deleted
+####Actual result:
+“Message channel” message appears before the typing indicator is moved back fully to the left, causing the typing indicator to appear in the message
+####Client settings:
+TestFlight 2.3.6 (6095)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 5
+
+17050
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-07T01:07:17.836Z
+
+
+### Rashaun#9295 - https://youtu.be/9iT90aZ5pzk added by Bug Bot on 2018-08-07T01:07:20.333Z
+
+
+### Can reproduce.
+Happens in a brief second. iPhone 6, iOS 12 (dev beta 5) - TestFlight 2.3.6 (6095)
+
+Xylium#1480 - Bug Bot on 2018-08-07T01:07:25.203Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS 12 Dev Beta 5, TestFlight 2.3.6 (6427)
+
+Mustard#2117 - Bug Bot on 2018-08-07T01:07:30.194Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 12 Dev Beta 5, Testflight 2.3.6 (6427)
+
+TheMegaEagle#9909 - Bug Bot on 2018-08-07T01:07:35.167Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-08-23T21:40:15.837Z
+
+
+### Archived by Clayton on 2018-09-22T22:00:03.210Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

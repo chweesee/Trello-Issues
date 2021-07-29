@@ -1,0 +1,152 @@
+Encountering infinite loading when trying to watch a GoLive (https://trello.com/c/UTnTeEs2)
+
+None
+
+Created: 2020-05-01T22:49:34.950Z
+Latest Update: 2020-05-17T03:05:28.447Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Have someone start a GoLive from a desktop 
+- Join the stream
+
+####Expected result:
+You successfully join and can watch the stream
+####Actual result:
+Loading circle spins infinitely over stream preview without stream ever actually loading; in debug, there is an "AUDIO_RECORD_START_STATE_MISMATCH" error
+####Client settings:
+Discord 20.4 (1126)
+####System settings:
+Moto G7, Android 9
+
+55412
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-01T22:49:34.950Z
+
+
+### wakfi#6999 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5eaca77e2a83700afe6ee17f/43920b0b4eae8ddc24aeb7f36c1381a8/eeyeBZz.png added by Bug Bot on 2020-05-01T22:49:37.888Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 20.4 (1126)
+
+Ana940#9858 - Bug Bot on 2020-05-01T22:49:42.341Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S7, Android 8.0.0, Discord 20.4 (1126)
+
+Bryth#1086 - Bug Bot on 2020-05-01T22:49:47.358Z
+
+
+### Can reproduce.
+Samsung Galaxy A70, Android 10. Discord v20.4
+
+Professor Varox#2313 - Bug Bot on 2020-05-01T22:49:52.327Z
+
+
+### Can reproduce.
+Huawei P20 Android 9
+
+No Username Idea#2802 - Bug Bot on 2020-05-01T23:42:47.899Z
+
+
+### Can reproduce.
+Samsung A7. Android 8  , Discord 20.4
+
+Timmyturner#3238 - Bug Bot on 2020-05-01T23:48:30.313Z
+
+
+### Can reproduce.
+Samsung Galaxy A30 - Android v10 / Discord Beta 20.4 (1126)
+
+Sarhan#0001 - Bug Bot on 2020-05-02T00:19:11.510Z
+
+
+### Can reproduce.
+Huawei P10, Android 9 , Discord 20.4 (1126)
+
+OfficerDoggo#0001 - Bug Bot on 2020-05-02T07:12:21.714Z
+
+
+### Can reproduce.
+Samsung Galaxy J4, Android Pie 9.0, Discord 20.4 (1126)
+
+Kaio Duarte#8075 - Bug Bot on 2020-05-02T14:48:55.277Z
+
+
+### Can reproduce.
+Samsung Galaxy S10e, Android 10, Discord 20.4 (1126)
+
+InfiniteVortex#7241 - Bug Bot on 2020-05-02T16:03:12.425Z
+
+
+### Can reproduce.
+Samsung Galaxy S10e, Android 10, Discord 20.4 (1126)
+
+InfiniteVortex#7241 - Bug Bot on 2020-05-02T16:03:22.585Z
+
+
+### Can reproduce.
+Samsung A70 - Discord 20.4 (1126)
+
+TickJock#5105 - Bug Bot on 2020-05-03T11:05:24.567Z
+
+
+### Can reproduce.
+Xiaomi Redmi 7, Android 9.0, Discord Alpha 20.5 (build 1127)
+
+The Gray Nerd#2045 - Bug Bot on 2020-05-05T03:16:04.609Z
+
+
+### Can reproduce.
+Samsung Galaxy S9  - Discord Version 20.5
+
+Oliver S.#0001 - Bug Bot on 2020-05-05T06:13:51.655Z
+
+
+### Can reproduce.
+Xiaomi Mi 9T Pro (Pixel Experience Plus, Android Q)
+
+Shadow505#9981 - Bug Bot on 2020-05-05T22:54:00.558Z
+
+
+### Can reproduce.
+[addition to previous report] Discord Version 20.5
+
+Shadow505#9981 - Bug Bot on 2020-05-05T23:07:43.101Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2020-05-14T21:59:28.808Z
+
+
+### Can't reproduce.
+Moto G7, Android 9, Discord 22.1 (1138), mentioned error is still in debug but appears unrelated as the stream loads fine
+
+wakfi#6999 - Bug Bot on 2020-05-14T22:54:27.113Z
+
+
+### Can't reproduce.
+CNLR, Samsung Galaxy S7, Android 8.0.0, Discord 22.1 (1138) - The error still appears in debug but the stream loads fine
+
+Bryth#1086 - Bug Bot on 2020-05-15T18:00:47.089Z
+
+
+### Can't reproduce.
+CNR, Samsung Galaxy S8 Android 8, Discord 22.1 (1138)
+
+Action Potential#2655 - Bug Bot on 2020-05-17T03:05:27.931Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2020-05-17T03:05:28.459Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

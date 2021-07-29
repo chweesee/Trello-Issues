@@ -1,0 +1,119 @@
+[Archived] Profile tab content not scaling, effect is greatest when the user is playing something. When content is empty, the Wumpus images won't scale and goes out of bounds. (https://trello.com/c/330DRknA)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-10T19:43:35.393Z
+Latest Update: 2019-12-30T13:00:13.943Z
+
+Reported by JohnyTheCarrot#0368
+
+####Steps to reproduce:
+- Minimize Discord to it's minimum height 
+- search for a user who's playing something (also works with someone who isn't playing anything but the effect is far smaller) 
+- Try to scroll all the way to the bottom in user info. (you can't) 
+- When the mutual servers/mutual friends tab is empty, the poor Wumpus doesn't fit in the box (modal) because he isn't scaled.
+
+####Expected result:
+You can scroll all the way down in the info tab, and when the mutual friends/servers tab is empty, the Wumpus fits in the modal.
+####Actual result:
+You can't scroll all the way down in the info tab, and the poor Wumpus is cut off.
+####Client settings:
+Discord Canary 9405
+####System settings:
+Windows 10 Home, Version 1709
+
+7753
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-10T19:43:35.393Z
+
+
+### JohnyTheCarrot#0368 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a566ce76996e3df148f6122/e3adc61cc892f236ff116980b2b534c2/he4wla0.gif added by Bug Bot on 2018-01-10T19:43:37.982Z
+
+
+### Can reproduce.
+CR Windows 10 x64 canary 0.0.197 build 9405
+
+Okori#0902 - Bug Bot on 2018-01-10T19:43:42.674Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 [Canary 9045]
+
+Alexr03#1154 - Bug Bot on 2018-01-10T19:43:47.702Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 9405
+
+mrkirby153#7840 - Bug Bot on 2018-01-10T19:43:52.766Z
+
+
+### This occurs on stable as well, so not related to the new design overhaul.  - Tarek on 2018-01-11T15:03:44.690Z
+
+
+### Verified.  - Clayton on 2018-01-16T03:04:39.453Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-16T03:04:45.095Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:54.915Z
+
+
+### Can reproduce.
+web
+
+Shentino#3065 - Bug Bot on 2018-10-27T21:25:22.806Z
+
+
+### Can reproduce.
+Release Channel: canary, Build Number: 29791, Version Hash: 91fe31a6f31528f785ea3181dddce496e79e8ae2, Windows 10 Home x64
+
+Talon#5491 - Bug Bot on 2018-12-18T00:34:56.150Z
+
+
+### Can reproduce.
+applicable for normal users with presence from the user list ubuntu 18.04.1 firefox client
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-31T20:39:07.555Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:28.600Z
+
+
+### Can reproduce.
+Reproduced on Chrome OS 71.0.3578.94 (Official Build) (64-bit) - Discord Canary 31115
+
+Casper#9999 - Bug Bot on 2019-01-22T06:33:19.427Z
+
+
+### Can reproduce.
+W10 Pro x64, Canary 32407, Chrome 72.0.3626.109
+
+dafaqed#1312 - Bug Bot on 2019-02-19T12:24:27.336Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:33.579Z
+
+
+### Can reproduce.
+CR, Win10 Pro x64, Discord 48731
+
+Bullseye#8200 - Bug Bot on 2019-11-07T20:28:30.838Z
+
+
+### Unarchived by Bug Bot on 2019-11-07T20:30:06.046Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:13.954Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

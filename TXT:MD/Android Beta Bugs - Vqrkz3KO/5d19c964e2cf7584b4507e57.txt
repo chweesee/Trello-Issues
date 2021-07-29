@@ -1,0 +1,83 @@
+[Archived] Audio through auxiliary will play through phone speakers and mutes mic on Android when cell service is unstable. (https://trello.com/c/WrWdiUnY)
+
+None
+
+Created: 2019-07-01T08:50:44.989Z
+Latest Update: 2019-08-16T21:24:03.786Z
+
+Reported by Wishengrad#1337
+
+####Steps to reproduce:
+- Have Android device plugged into an auxiliary cable connected to an external speaker (in my case, a car radio). 
+- Open Discord and start a direct call. 
+- Have an unstable cell service (in my case, driving on the freeway with bad reception). 
+- Watch for the connection status to go from "Connected" to "Connecting" with a loading circle. 
+- Discord will stop picking up all microphone audio and move the call to the phone speakers.
+
+####Expected result:
+Normally, Discord will continue to play audio through auxiliary, even when cell service is unstable.
+####Actual result:
+Audio will play from the phone speakers and will disable the phone microphone.
+####Client settings:
+Android 9.0.9 (909)
+####System settings:
+OnePlus 5 (ONEPLUS A5000), Android 9, OxygenOS 9.0.6 (stock)
+
+38011
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-01T08:50:44.989Z
+
+
+### Can reproduce.
+I have already tried it , CR // Android 8 // Discord 9.0.9
+
+Indiana#6009 - Bug Bot on 2019-07-01T08:50:52.489Z
+
+
+### Can reproduce.
+Samsung Galaxy S9 - Android 9 - Discord Alpha 9.0.9
+
+Jasοn#7914 - Bug Bot on 2019-07-01T08:50:57.484Z
+
+
+### Can reproduce.
+CR on Samsung Galaxy J5, Android 7.1.1, Discord 9.1.1
+
+Dann#3477 - Bug Bot on 2019-07-01T08:51:02.493Z
+
+
+### Can reproduce.
+Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 911
+
+Lelantos#0001 - Bug Bot on 2019-07-01T10:36:22.951Z
+
+
+### Can reproduce.
+• Samsung Galaxy S5, Android 6.0.1 • Android Alpha 9.1.1
+
+Krobo#4784 - Bug Bot on 2019-07-01T12:21:42.791Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 9.1.1
+
+Lily#2624 - Bug Bot on 2019-07-01T12:54:03.124Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 9.1.1
+
+Skyla#0002 - Bug Bot on 2019-07-02T06:53:15.238Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:24:03.794Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

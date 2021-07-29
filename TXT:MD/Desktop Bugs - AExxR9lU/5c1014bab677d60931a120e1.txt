@@ -1,0 +1,84 @@
+[Archived] activating "Discord is not detecting any input from your mic" warning doesn't work if you enable it while being connected to a voice channel (https://trello.com/c/tgxyQeX2)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-12-11T19:49:14.372Z
+Latest Update: 2019-01-11T06:30:02.763Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- have a "extra fancy mic that silences itself" when you're not talking or mute it using its software/switch 
+- connect to a voice channel 
+- go to voice and video settings 
+- scroll down and toggle "Show a warning when Discord is not ..." on 
+- close settings and observe that after couple seconds there is no warning banner
+
+####Expected result:
+a warning should appear saying that no audio is detected
+####Actual result:
+no audio detection warning appears
+####Client settings:
+Canary 0.0.224 build 29240
+####System settings:
+Windows 10 home x64 v.1803
+
+24171
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-11T19:49:14.372Z
+
+
+### Can reproduce.
+CR; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 29340
+
+Longinus#0293 - Bug Bot on 2018-12-11T19:49:21.740Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 1803; Canary build 29340
+
+DoNotSpamPls#8787 - Bug Bot on 2018-12-11T19:49:26.775Z
+
+
+### Can reproduce.
+Can repro. Windows 10 Pro x64 - Canary 29340
+
+dancetothis#1634 - Bug Bot on 2018-12-11T19:49:31.731Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,Canary 29340
+
+Octillion#6666 - Bug Bot on 2018-12-11T20:55:47.056Z
+
+
+### Can reproduce.
+Can reproduce. Windows 7 Home Premium x64 v7601, Canary 29340
+
+Solo#0007 - Bug Bot on 2018-12-11T22:40:38.508Z
+
+
+### Can reproduce.
+CR. Canary 29458 Windows 10 x64
+
+Toasty#9999 - Bug Bot on 2018-12-12T04:49:17.402Z
+
+
+### minor - Clayton on 2018-12-12T06:03:41.680Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-12T06:03:48.056Z
+
+
+### Archived by Bug Bot on 2019-01-11T06:30:02.766Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

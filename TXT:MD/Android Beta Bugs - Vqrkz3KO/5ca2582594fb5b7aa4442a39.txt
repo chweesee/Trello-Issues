@@ -1,0 +1,103 @@
+[Archived] Autofill services in the Change Password form will unexpectedly fill in all fields, including the one for 2FA code which isn't even a password field protected by asterisks (https://trello.com/c/8nQzddwe)
+
+None
+
+Created: 2019-04-01T18:27:50.054Z
+Latest Update: 2019-06-10T20:42:49.413Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have an autofill service on with some passwords saved (e.g Google Smart Lock) 
+- Go to Settings > My account 
+- Click "Change Password"  
+- When the autofill service is triggered, tap on one of the suggestions
+
+####Expected result:
+The autofill service should either not work at all or only work for the "current password" field
+####Actual result:
+Your saved password is pasted into all 3 fields, including the one for 2FA code which isn't censored, exposing your password in clear in the field
+####Client settings:
+Discord Alpha 8.6.8
+####System settings:
+Huawei Mate 9 Android 9.0
+
+31953
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-01T18:27:50.054Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 8.6.7
+
+Lelantos#4866 - Bug Bot on 2019-04-01T18:27:57.679Z
+
+
+### Can reproduce.
+Can repro Samsung Galaxy A6+, Android 8.0.0, Alpha 8.6.8
+
+Niel#3558 - Bug Bot on 2019-04-01T18:28:02.693Z
+
+
+### Can reproduce.
+CR - Samsung Galaxy S6 Edge, 7.0.0 - Alpha 868
+
+ZεɾMმl 『 Kօყმ | Dεղνεɾ | Tφ』#1071 - Bug Bot on 2019-04-01T18:28:07.623Z
+
+
+### Can reproduce.
+CR; OnePlus 5 Android 7.7.1, Discord 8.6.8
+
+||Kissa||#1337 - Bug Bot on 2019-04-01T18:30:51.763Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.6.8
+
+Lily#2624 - Bug Bot on 2019-04-01T18:46:20.236Z
+
+
+### Can reproduce.
+HTC U12+, Android 8.0.0 Alpha 8.6.8
+
+anonymous kitten#4876 - Bug Bot on 2019-04-01T21:22:32.928Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.6.8
+
+Clay#0001 - Bug Bot on 2019-04-02T00:51:16.391Z
+
+
+### Can reproduce.
+Samsung Galaxy Light v4.2.2 BaseBand T399UVUAQE1 Alpha 8.6.8
+
+Killtracity#0001 - Bug Bot on 2019-04-02T06:21:03.807Z
+
+
+### Can reproduce.
+Samsung S8, Android 9.0, 8.6.7
+
+Mr. Proper#2394 - Bug Bot on 2019-04-02T06:30:37.756Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 868
+
+Quad#1887 - Bug Bot on 2019-04-02T18:50:52.714Z
+
+
+### Looks like this has been there since the new screens were introduced. Nothing on this screen was changed recently. - Sam Shih on 2019-04-03T20:32:37.050Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:42:49.427Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

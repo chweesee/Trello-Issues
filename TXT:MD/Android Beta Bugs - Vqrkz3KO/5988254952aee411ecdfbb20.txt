@@ -1,0 +1,86 @@
+[Archived] Discord returns wrong error message when reacting with an external emoji to a message that has reached the reaction limit (https://trello.com/c/3zUVecWZ)
+
+P2 - Can wait a while,
+Mod can no longer reproduce
+
+Created: 2017-08-07T08:31:06.010Z
+Latest Update: 2019-06-05T23:46:52.057Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Find a message that has the maximum number of emoji reactions (20) and make sure that the server you are in allows external emojis. 
+- React to it with an external emoji.
+
+####Expected result:
+It should return the message "Maximum number of reactions reached (20)" if external emojis are enabled.
+####Actual result:
+You get an error message saying "Uknown Emoji"
+####Client settings:
+Discord Alpha 4.0.2 (401)
+####System settings:
+Samsung Galaxy S7 edge (SM-G935F), Android Nougat 7.0
+
+2896
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-07T08:31:06.010Z
+
+
+### Verdant#9104 - undefined added by Bug Bot on 2017-08-07T08:31:08.771Z
+
+
+### Curse Broken#8659 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5988254952aee411ecdfbb20/e6e5d7557f4f53bbcc811507bab81425/Screenshot_20170807-103249.png added by Bug Bot on 2017-08-07T08:31:08.886Z
+
+
+### Curse Broken#8659 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5988254952aee411ecdfbb20/4165b5b410e158851b321703dd345f4c/Screenshot_20170807-103316.png added by Bug Bot on 2017-08-07T08:31:09.421Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 4.0.3
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-08-07T08:31:13.450Z
+
+
+### Can reproduce.
+if a channel doesn't allow external emojis, you will get the error if you try to attach one. Doesn't seem to require hitting the limit. (Samsung Galaxy Tab A 6 (SM-T280), Android Lollipop 5.1.1, Discord 4.0.2 (401))
+
+advaith#9121 - Bug Bot on 2017-08-07T08:31:18.428Z
+
+
+### Can reproduce.
+CR, Alcatel One Touch Pop Up Android 5.1.1, Discord 4.0.3 (403)
+
+D_EaN * STS#1723 - Bug Bot on 2017-08-07T08:31:23.418Z
+
+
+### Verified - Clayton on 2017-08-10T00:36:39.342Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-10T00:36:44.587Z
+
+
+### Cannot reproduce anymore, Discord Alpha 6.1.6 on OnePlus 5 Android 8.
+
+ - Tarek on 2018-01-28T14:25:48.429Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-28T14:25:52.923Z
+
+
+### Can't reproduce.
+Mi A2, Android 9 - Android Alpha 8.2.4
+
+Bsian#1803 - Bug Bot on 2019-01-05T11:34:55.324Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:52.070Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

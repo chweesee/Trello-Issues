@@ -1,0 +1,96 @@
+[Archived] Pressing DEL/ENTF doesn't delete marked text, when there is a blank line. (https://trello.com/c/MBgliQFd)
+
+None
+
+Created: 2019-12-11T06:26:17.413Z
+Latest Update: 2020-01-10T21:30:38.745Z
+
+Reported by Perzeuss#8076
+
+####Steps to reproduce:
+- enter some text in the input field of a text channel 
+- add a new line (shift+enter) 
+- add a second new line 
+- type something again (you may add more lines) 
+- mark everything now (with mouse or via CTRL + A) 
+- press DEL (delete key)
+
+####Expected result:
+The whole text should be deleted
+####Actual result:
+Only the text until the first blank line is being deleted. Console error:`DOMException:Failed to execute insertBefore..`
+####Client settings:
+Release Channel: canary, Build Number: 51128, Version Hash: 63b17a8dc39cb5644c4096361e6ec43a23d3187f
+####System settings:
+Microsoft Windows 10, Version 1903, Build 18362. 476
+
+50104
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-11T06:26:17.413Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 1903, canary, Build Number: 51113
+
+moomoo#7300 - Bug Bot on 2019-12-11T06:26:24.868Z
+
+
+### Can reproduce.
+Windows 10 home (1903) Discord canary, build number 51182
+
+Encrium#0004 - Bug Bot on 2019-12-11T06:26:29.865Z
+
+
+### Can reproduce.
+CR, Windows 7 Professional, Canary, Build Number: 51182
+
+Smokepurpp#6012 - Bug Bot on 2019-12-11T06:26:34.871Z
+
+
+### Can reproduce.
+CR, Windows 10, Discord Canary (51169)
+
+light#9899 - Bug Bot on 2019-12-11T14:13:20.532Z
+
+
+### Can reproduce.
+CR, Discord Canary 51182, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2019-12-11T16:50:31.351Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by AJ Palkovic on 2019-12-11T20:28:59.202Z
+
+
+### Can't reproduce.
+CNR // Windows 10 // Discord Canary 51208
+
+Falkio#0001 - Bug Bot on 2019-12-11T20:59:04.486Z
+
+
+### Can't reproduce.
+Windows 10 Home; Canary Build 51217 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-11T21:03:38.819Z
+
+
+### Can't reproduce.
+cnr, Windows 10, canary, Build Number: 51217
+
+Spooker#0001 - Bug Bot on 2019-12-11T21:05:09.586Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-12-11T21:05:09.955Z
+
+
+### Archived by Bug Bot on 2020-01-10T21:30:38.756Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

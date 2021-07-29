@@ -1,0 +1,126 @@
+[Archived] TypeError when closing a fullscreen video with focus on another window. (https://trello.com/c/OOwfKCNy)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-17T13:46:59.069Z
+Latest Update: 2019-10-23T23:00:59.613Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- This was reproduced in Web Canary + Stable w/ Chrome. 
+- Go to any video player (not YouTube embeds). 
+- Open up the console. 
+- Play the video in fullscreen. 
+- Exit fullscreen using `ESC` and quickly ... 
+- Switch focus to the console using `ALT` + `TAB`.
+
+####Expected result:
+No TypeError should appear in console.
+####Actual result:
+A TypeError does appear in console.
+####Client settings:
+Canary 34132
+####System settings:
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64)
+
+31196
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-17T13:46:59.069Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Web Canary 34132 - Google Chrome 73.0.3683.75
+
+Daffyduck#5364 - Bug Bot on 2019-03-17T13:47:06.478Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 34132. Chrome 73
+
+Frances Picard#6209 - Bug Bot on 2019-03-17T13:47:11.412Z
+
+
+### Can reproduce.
+cr, Windows 10 Pro - Canary 34126; Chrome 72.0.3626.121
+
+tonite#0001 - Bug Bot on 2019-03-17T13:47:16.820Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c8e4fd2a742eb14daa8bc7e/4189b1d77c8f67fe1f0d6425a1677522/YgSDTqJ.gif added by Bug Bot on 2019-03-17T13:47:21.016Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 34132 Chrome 72.0
+
+Delite#0001 - Bug Bot on 2019-03-17T14:37:25.431Z
+
+
+### Can reproduce.
+win10 pro (64-bit, build 1809), Web Stable 33990, Chrome 73.0.3683.75
+
+Defracted#7777 - Bug Bot on 2019-03-17T14:50:12.279Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Chrome 73
+
+Clay#0001 - Bug Bot on 2019-03-17T16:37:09.770Z
+
+
+### Can reproduce.
+macos 10.14.4, chrome 72, canary 34132
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-17T19:25:24.623Z
+
+
+### Can reproduce.
+Windows 7 64-bit, Canary 34126, Chrome v72
+
+Skyla#0002 - Bug Bot on 2019-03-18T15:36:53.091Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 34132
+
+Neiron#8475 - Bug Bot on 2019-03-18T16:43:51.074Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 34463
+
+Killtracity#0001 - Bug Bot on 2019-03-22T21:22:19.946Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-04-01T22:17:22.385Z
+
+
+### Archived by Bug Bot on 2019-05-01T22:30:12.290Z
+
+
+### Can reproduce.
+CR in main client; Windows 10 Home x64 | Canary 39833
+
+charleskimbac#6492 - Bug Bot on 2019-06-17T18:51:14.801Z
+
+
+### Unarchived by Bug Bot on 2019-06-17T19:00:07.534Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 44655; Google Chrome 76.0.3809.100
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-28T23:31:19.752Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:59.627Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

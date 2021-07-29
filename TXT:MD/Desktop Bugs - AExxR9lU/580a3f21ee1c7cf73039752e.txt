@@ -1,0 +1,83 @@
+[Archived] Text that would normally would be autoreplaced with an emoji won't, if at the end of a line before a new line. (https://trello.com/c/e5WSWyIh)
+
+P3: Will get fixed eventually
+
+Created: 2016-10-21T16:15:29.014Z
+Latest Update: 2019-08-13T15:30:26.324Z
+
+####Steps to reproduce:
+- Make sure "Automatically convert emotions in your message to emoji." is enabled
+- Copy this text and post it anywhere
+
+```
+<3 Test <3
+Test
+
+:D Test :D
+Test
+```
+
+####Expected Result:
+Both emotes are autoreplaced
+####Actual Result:
+The one before the end of the line is left unchanged.
+
+Card Log
+========
+### Added by Jared on 2016-10-21T16:15:29.014Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-29T16:50:15.745Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 64-Bit on Build 17134 [BUILD INFO] Release Channel: stable, Build Number: 14457, Version Hash: 3b2bbc09cb6eff6066e846f118bb93dce41fdbd8 Can Repro this Bug even though many Updates have come out since the Report was made
+
+Blastoise186#7194 - Bug Bot on 2018-05-03T18:57:52.368Z
+
+
+### Can reproduce.
+Canary 17937, Windows 10 Home 1709 - This bug can still be reproduced
+
+HarryThorpe#0864 - Bug Bot on 2018-06-29T22:10:57.075Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/580a3f21ee1c7cf73039752e/34477c8aad4bf13cb9fc08bc7ebb20b8/YrpTXfb.gif added by Bug Bot on 2018-07-14T09:48:37.455Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:17.759Z
+
+
+### Can reproduce.
+Can still reproduce - Windows 10 x64 v1809, Discord Canary 31941
+
+Haru💗#6660 - Bug Bot on 2019-02-07T14:05:09.256Z
+
+
+### Unarchived by Bug Bot on 2019-02-07T14:30:05.054Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 33809
+
+charleskimbac#6492 - Bug Bot on 2019-03-13T03:07:34.867Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 33809 (Can only reproduce if using the exact example in the steps. Any other combination of additional messages and duplicates doesnt produce the same issue)
+
+Zacatero#0001 - Bug Bot on 2019-03-13T03:12:55.318Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:26.339Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

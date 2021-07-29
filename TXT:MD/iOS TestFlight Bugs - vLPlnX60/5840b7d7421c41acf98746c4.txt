@@ -1,0 +1,75 @@
+[Archived] incorrect emotes get converted to invisible messages (https://trello.com/c/GmBi2upM)
+
+None
+
+Created: 2016-12-01T23:52:55.577Z
+Latest Update: 2016-12-15T04:00:47.718Z
+
+Reported by dinos#0649
+
+####Steps to reproduce: 
+- Start typing a message with : 
+- Type anything that comes to mind so long as it's not a valid emote and it doesn't contain spaces 
+- End the message with : 
+
+####Expected result:
+ You see the raw :text: message 
+####Actual result:
+ The client tries to render a non existent emote and thus creates an invisible/blank message
+
+Card Log
+========
+### Added by Jared on 2016-12-01T23:52:55.577Z
+
+
+### Can reproduce.
+iOS 9.3.3, iPhone 5s, Latest Testflight
+
+大室 櫻子 ★★★★#9667 - Jared on 2016-12-01T23:54:29.602Z
+
+
+### Can reproduce.
+latest TestFlight iOS 10.1.1
+
+Weeajew#3674 - Jared on 2016-12-01T23:55:29.462Z
+
+
+### Can reproduce.
+1.7.8 (50) iOS 10 Developer Beta 4 iPhone 6s
+
+Dru#8209 - Jared on 2016-12-01T23:58:24.901Z
+
+
+### Can reproduce.
+TF 50 iOS 9.3.5
+
+MattBSG#9263 - Jared on 2016-12-02T00:22:59.513Z
+
+
+### fixed - Fanghao on 2016-12-02T04:00:08.704Z
+
+
+### Moved from User Reported Bugs to Fixed Bugs by Fanghao on 2016-12-02T04:00:11.184Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 10.4b4, TF v1.7.8 (50)
+
+ThaTiemsz#5517 - Jared on 2016-12-02T06:46:23.355Z
+
+
+### Can't reproduce.
+Latest Tesflight, iOS 10.1.1 iPhone 6 Plus
+
+Wolfstorm#0986 - Jared on 2016-12-02T10:11:59.201Z
+
+
+### Archived by Shadi Isber on 2016-12-15T04:00:47.724Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

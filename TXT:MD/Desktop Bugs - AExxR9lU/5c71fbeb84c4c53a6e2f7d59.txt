@@ -1,0 +1,82 @@
+[Archived] If a user has a name that begins with "here" you cannot tag them without triggering the @​here ping. (https://trello.com/c/2r8kIAaW)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-02-24T02:05:31.473Z
+Latest Update: 2019-05-01T23:30:04.614Z
+
+Reported by Lelantos#4866
+
+####Steps to reproduce:
+- The server must have over 100+ members online in order to trigger the @​here warning when you attempt to ping the member. (You can ping the member if there are not more than 100 people online.) 
+- Make an alternative account with "here" at the beginning of the name. (E.g mine was called "hereforthemoney") 
+- Join the server with both your main account & alternative account & 100+ members. 
+- Use your main account to attempt to ping hereforthemoney. It prompts you with the @​here warning verifying you wanting to ping 100+ people who are online.
+
+####Expected result:
+You should've pinged @here.
+####Actual result:
+The user gets pinged despite the warning prompt saying you'll ping @here.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 32470, Version Hash: f0f7fcf0c570893de08e915de9c9e78a3d2c5eef
+####System settings:
+Edition: Windows 10 Home, Version: 1803, OS Build: 17134.590
+
+29647
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-24T02:05:31.473Z
+
+
+### Super#8276 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c71fbeb84c4c53a6e2f7d59/148c0af7bf0f3b0989f5ed2b9a0033d0/unknown.png added by Bug Bot on 2019-02-24T02:05:34.720Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 32668
+
+Solo#0007 - Bug Bot on 2019-02-24T02:05:38.909Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32668
+
+Daffyduck#5364 - Bug Bot on 2019-02-24T02:05:44.040Z
+
+
+### Can reproduce.
+CR, macos 10.14.4, canary 32668
+
+Action Potential#2494 - Bug Bot on 2019-02-24T02:05:48.926Z
+
+
+### Can reproduce.
+CR; Canary: 32668, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-24T09:35:41.948Z
+
+
+### Can reproduce.
+Windows 10 home Canary 32668
+
+Mr. Proper#2394 - Bug Bot on 2019-02-24T09:38:29.790Z
+
+
+### I asked the bug hunters to approve this bug if they could reproduce since, I want to separate the tickets between this https://trello.com/c/J7LHhbnP and the above ticket.(29647)
+
+To avoid confusion, because this bug has been denied in the past for a dupe of https://trello.com/c/C8UX89qF - Tarek on 2019-02-25T05:35:01.323Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-04-01T23:12:09.938Z
+
+
+### Archived by Bug Bot on 2019-05-01T23:30:04.626Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

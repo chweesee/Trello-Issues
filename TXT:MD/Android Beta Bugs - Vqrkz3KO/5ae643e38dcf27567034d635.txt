@@ -1,0 +1,110 @@
+[Archived] Toast isn't the same color between case where friend request input is invalid and case where user hasn't been found (https://trello.com/c/ENfR8y1e)
+
+None
+
+Created: 2018-04-29T22:15:00.013Z
+Latest Update: 2018-07-06T18:38:17.974Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Friends tab 
+- Tap Add a Friend icon 
+- Input random characters and submit 
+- Observe toast 
+- Now input a username that doesn't exist but is in valid format (e.g `user#0000`) 
+- Observe toast again
+
+####Expected result:
+They should be exactly the same
+####Actual result:
+In the first case the toast is dark with white text and in second case it's white with black text
+####Client settings:
+Discord Alpha 6.5.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+11607
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-29T22:15:00.013Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ae643e38dcf27567034d635/011f4fd94a6ed54ccd022339735f0f8f/IMG_20180430_000414.jpg added by Bug Bot on 2018-04-29T22:15:02.484Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ae643e38dcf27567034d635/71f92b524b21bd3b8e0bfbffcd01998b/IMG_20180430_000428.jpg added by Bug Bot on 2018-04-29T22:15:02.514Z
+
+
+### Can reproduce.
+Can Reproduce Zte blade x4 android 6.0.1 Discord alpha 6.5.9 not as severe but there is a difference
+
+GhostHunterModz#5856 - Bug Bot on 2018-04-29T22:15:07.358Z
+
+
+### Can reproduce.
+Pixel 2 XL on Android 8.1.0, Alpha 659
+
+Potts#0001 - Bug Bot on 2018-04-29T22:15:12.308Z
+
+
+### Can reproduce.
+CR, LG G2 - D802, Android 5.0.2 - Discord Alpha 6.5.9
+
+mcicu5#7394 - Bug Bot on 2018-04-29T22:15:17.335Z
+
+
+### Can't reproduce.
+Samsung Galaxy S8+ (SM-G955U), Android 8.0, Discord Alpha 6.5.9
+
+Perseus Elizabeth Kane#3217 - Bug Bot on 2018-04-30T04:57:16.018Z
+
+
+### Can reproduce.
+CR \ Redmi 5 Plus \ Android 7.1.2 \ Discord Alpha 6.5.9.
+
+/hash/#0001 - Bug Bot on 2018-04-30T05:04:54.076Z
+
+
+### Can't reproduce.  - Clayton on 2018-05-01T20:24:28.363Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-05-01T20:24:33.616Z
+
+
+### Can't reproduce.
+OPPO f1 5.1.1, Android Alpha 6.6.0 (660)
+
+Destroyer#9344 - Bug Bot on 2018-05-02T02:11:30.298Z
+
+
+### Can reproduce.
+LG G5 Model LS992 Android 7.0, Discord Alpha 6.5.9 (659)
+
+Amanda#1219 - Bug Bot on 2018-05-03T01:07:09.640Z
+
+
+### Can reproduce.
+Discord Alpha 6.7.4, Oppo R11s Android 7.1.1 (Nougat)
+
+Cairo#2098 - Bug Bot on 2018-05-20T03:30:30.908Z
+
+
+### This ticket was checked during the Trello cleanup event with the new information that it must be tried without a Samsung device with the same reproduction steps because the Samsung devices doesn't have multi-theme'd toasts.
+
+It was tested on Moto G4 running Android 7.0 and Android Alpha 7.0.3, but it was not reproducible, so this ticket will be staying. - Ghoul on 2018-07-06T01:30:48.441Z
+
+
+### Closing as this bug has been CNR for 30 or more days with no reproductions or new steps. - Jared on 2018-07-06T18:38:16.400Z
+
+
+### Archived by Jared on 2018-07-06T18:38:17.978Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

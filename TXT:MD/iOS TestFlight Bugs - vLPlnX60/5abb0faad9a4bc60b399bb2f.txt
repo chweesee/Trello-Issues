@@ -1,0 +1,66 @@
+[Archived] Discord Login has indefinite loading upon logging in after being logged out and inactive on the iDevice for at least 3-6 hours. (https://trello.com/c/4UB0rFeT)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-03-28T03:44:42.561Z
+Latest Update: 2018-09-04T23:12:56.718Z
+
+Reported by Ghoul#0009
+
+####Steps to reproduce:
+- Leave your device for the night, but allow Discord to run in the background. 
+- Using another device, change your password which will log out the iOS device (you don’t need to check it as it will do it.) 
+- Wait for at least 3 to 6 hours, probably a good time to sleep if it’s late. 
+- Come back to the iOS device, log in as usual. 
+- Observe
+
+####Expected result:
+iOS device logs in and shows the friends list.
+####Actual result:
+Indefinite loading. If you switch to another app then come back, the application will crash. You will need to force close it then open it again which will load the friend list normally.
+####Client settings:
+TestFlight 2.2.5 (2798)
+####System settings:
+iPad Air 1st Generation running iOS 11.2.5 (also used my iPhone 8 +, iOS 11.3 PB3 to change password.)
+
+9192
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-28T03:44:42.561Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.5 (2798); I couldn't even get to login screen, as it would show Connecting... forever. Done overnight, with atleast 10 hours of no use on phone before switching pass, and 10 hours after. No crash when switching app. Fixed by force close.
+
+HeroGamers#0001 - Bug Bot on 2018-03-28T03:44:49.940Z
+
+
+### Can reproduce.
+iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054) | Finally got time to test it. The waiting time is important, without that it can't be reproduced. Also I only was able to reproduce when switching to other app and then back to Discord.
+
+Pascal#0929 - Bug Bot on 2018-03-28T03:44:54.959Z
+
+
+### Can reproduce.
+Discord Stable 2.2.6, iOS 9.3.5, iPad Mini 1
+
+Ene#0808 - Bug Bot on 2018-03-28T03:44:59.948Z
+
+
+### Verified.  - Clayton on 2018-03-30T22:59:55.259Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-30T23:00:13.164Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:56.720Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

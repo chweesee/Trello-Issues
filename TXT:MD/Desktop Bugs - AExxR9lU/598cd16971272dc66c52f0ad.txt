@@ -1,0 +1,71 @@
+[Archived] Markdown has issues with backslash (\) escaping asterisks properly (`\*`) (https://trello.com/c/wbrHKpde)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-10T21:34:33.157Z
+Latest Update: 2018-11-14T13:02:07.921Z
+
+Reported by Casp3r#3994
+
+####Steps to reproduce:
+- `*\*test\**` 
+- etc
+
+####Expected result:
+An italicized `*test*`.
+####Actual result:
+*\*test\**
+####Client settings:
+Discord Canary
+####System settings:
+Windows 10
+
+3021
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-10T21:34:33.157Z
+
+
+### Can reproduce.
+Fedora 26, Gnome 3 DiscordCanary 0.0.24
+
+hanss314#0128 - Bug Bot on 2017-08-10T21:34:41.608Z
+
+
+### Can reproduce.
+CR, Canary 0.0.163, Windows 10 Home x86
+
+Hexexpeck#8781 - Bug Bot on 2017-08-10T21:34:46.533Z
+
+
+### Can reproduce.
+Linux Mint 18, Discord Stable 0.0.2
+
+Strum355#1180 - Bug Bot on 2017-08-10T21:34:51.540Z
+
+
+### Reproduced, but I'm not 100% sure this is a bug. I will get clarification, but for now it's a super-duper-ultra low priority bug. - Jared on 2017-08-14T21:15:53.010Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-14T21:15:57.661Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598cd16971272dc66c52f0ad/c88f918d11e666e5bde6dfa4571bd74b/l43ZqkP.gif added by Bug Bot on 2018-07-14T11:09:18.977Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:19.401Z
+
+
+### Can reproduce.
+Windows 10 Discord PTB Build 27964
+
+aqua ***`アーテッズィャン#9999 - Bug Bot on 2018-11-14T13:02:07.922Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,98 @@
+[Archived] Cannot select channels/categories the first time after scrolling (https://trello.com/c/9W0zJg8Q)
+
+None
+
+Created: 2020-01-10T16:10:38.530Z
+Latest Update: 2020-02-20T21:35:20.313Z
+
+Reported by Usered23812#9558
+
+####Steps to reproduce:
+- Swipe the channel selection with your finger strong enough (works even if it's nowhere to scroll in your direction) 
+- After it stops scrolling, tap with your finger on a channel or category until it pass 1,5 sec after swiping
+
+####Expected result:
+Channel/category gets selected and eventually opened, or if long pressed, its settings menu should open.
+####Actual result:
+Nothing happens, but scrolling *technically* stops.
+####Client settings:
+10.1.9
+####System settings:
+MIUI 11.0.5 (Android 9), Xiaomi Redmi 7A
+
+51392
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-10T16:10:38.530Z
+
+
+### Can reproduce.
+[CR] It looks like the scrolling keeps going even though it scrolls to nowhere, Samsung Galaxy S9+, Android 9.0, Discord 1019
+
+Creedoo#3626 - Bug Bot on 2020-01-10T16:10:46.026Z
+
+
+### Can reproduce.
+CR, taps not working for a few seconds, Samsung Galaxy S10+, Android 10, One UI 2.0 , Discord 1019
+
+Caus#0909 - Bug Bot on 2020-01-10T16:10:51.033Z
+
+
+### Can reproduce.
+CR, tapping doesn't work for a while, Redmi 6, Android 9 Alpha 1019
+
+Just A Regular Talking Box#5472 - Bug Bot on 2020-01-10T16:10:56.033Z
+
+
+### Can reproduce.
+CR, Huawei P smart 2019 9.0.1 ● Android 9 ●  Alpha 1018
+
+Dragonic#0007 - Bug Bot on 2020-01-10T17:57:52.205Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2020-01-10T18:51:14.866Z
+
+
+### Can reproduce.
+Alcatel A30 Fierce, Android 7.0 - Discord 10.1.9
+
+Ness#0961 - Bug Bot on 2020-01-10T19:27:40.078Z
+
+
+### Can reproduce.
+CR : Vivo Z1 Pro, Android 9, Discord 10.1.9
+
+TheRudeDude#6040 - Bug Bot on 2020-01-10T20:12:11.812Z
+
+
+### Can't reproduce.
+CNLR; Alcatel A30 Fierce • Android 7 • Discord 1022
+
+Ness#0961 - Bug Bot on 2020-01-16T02:02:32.801Z
+
+
+### Can't reproduce.
+CNR, Samsung Galaxy S8 Android 8, Alpha 10.2.3
+
+Action Potential#6862 - Bug Bot on 2020-01-17T02:49:58.123Z
+
+
+### Can't reproduce.
+CNLR Honor 7A, android 8.0, discord 1021
+
+Lumap#1887 - Bug Bot on 2020-01-17T14:20:45.379Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2020-01-17T14:20:45.810Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:35:20.324Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

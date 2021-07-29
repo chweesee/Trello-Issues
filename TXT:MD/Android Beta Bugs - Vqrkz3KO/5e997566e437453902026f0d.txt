@@ -1,0 +1,71 @@
+switching input methods while opening channel drawer caused discord to resize (https://trello.com/c/QuyZ9jwY)
+
+None
+
+Created: 2020-04-17T09:22:47.181Z
+Latest Update: 2020-07-16T05:46:30.479Z
+
+Reported by spin~#1337
+
+####Steps to reproduce:
+- have a 3rd party keyboard as current input method (preferably google gboard) 
+- tap on the text area to open keyboard 
+- hold on the space bar and choose a different input method (preferably default keyboard) 
+- as soon as you do step 3, immediately swipe to open the channel drawer (keep your fingers on the screen as you open the drawer for about 3 seconds) 
+- let go and observe what has happened, it should be resized
+
+####Expected result:
+after switching input method and opening channel drawer, the screen should not get stuck in a resized state
+####Actual result:
+the channel list, messages area, and member list all get resized and cut off (see video)
+####Client settings:
+Discord 16-alpha4
+####System settings:
+Android 7.0, Samsung Galaxy J3 Prime
+
+53839
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-17T09:22:47.181Z
+
+
+### spin~#1337 - https://youtu.be/CpYvWfx_fLY added by Bug Bot on 2020-04-17T09:22:49.671Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A10, Android Pie, Discord v16-alpha6.
+
+Satan#9315 - Bug Bot on 2020-04-17T09:22:54.699Z
+
+
+### Can reproduce.
+CR, Y9 Android 10, Discord 16-alpha 7 ; it works when change the input method to default keyboard and maybe not with other keyboards like ( SwiftKey, gboard.. etc)
+
+ABN_Zynb#2984 - Bug Bot on 2020-04-17T09:22:59.708Z
+
+
+### Can reproduce.
+[CR] Samsung A10 - Android 9 - Discord v18-alpha9 (1100)
+
+Cookie#3165 - Bug Bot on 2020-04-17T09:23:04.698Z
+
+
+### Can reproduce.
+CR, Huawei P8 Lite, Android 6.0, Discord 18alpha7 (1098)
+
+dev#3346 - Bug Bot on 2020-04-17T15:05:17.299Z
+
+
+### Can reproduce.
+CR, Moto G5, Android 8.1.0, Discord 18.0-alpha7 (1098)
+
+Ana940#9858 - Bug Bot on 2020-04-18T16:34:55.848Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

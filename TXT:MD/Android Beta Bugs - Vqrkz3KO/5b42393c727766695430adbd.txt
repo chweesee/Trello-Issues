@@ -1,0 +1,83 @@
+[Archived] In the user management screen, and only on this screen, if you open Kick or Ban modal, focus the reason field and close the modal, the keyboard will stay open (https://trello.com/c/2urpHFu4)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-07-08T16:18:04.729Z
+Latest Update: 2018-10-11T00:30:55.166Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a server with kick or ban permission 
+- Open someone's mini profile 
+- Tap Manage User 
+- Scroll down to below roles where Kick, Ban and Transfer Ownership options are located 
+- Open either Kick or Ban modal 
+- Focus Reason textfield 
+- Tap outside the modal to close it
+
+####Expected result:
+Both modal and keyboard should close
+####Actual result:
+Only the modal closes but not the keyboard. Note that it doesn't happen when using the Kick and Ban option directly on mini profile, only happens in user management screen
+####Client settings:
+Discord Alpha 7.0.5
+####System settings:
+Huawei Mate 9 Android 8.0
+
+15218
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-08T16:18:04.729Z
+
+
+### Can reproduce.
+Samsung Galaxy A6+, Android 8.0, Discord 7.0.5
+
+KingMarine#5676 - Bug Bot on 2018-07-08T16:18:12.196Z
+
+
+### Can reproduce.
+Can reproduce | Oppo R11s, ColorOS 3.2, Android 7.1.1 (Nougat), Discord Alpha 7.0.5
+
+Cairo#5772 - Bug Bot on 2018-07-08T16:18:17.183Z
+
+
+### Can reproduce.
+Wiko LENNY2 version 8, Android 5.1, Alpha 7.0.5
+
+MoonlightCapital#0554 - Bug Bot on 2018-07-08T16:18:22.192Z
+
+
+### verified, samsung s6 edge, android 7.0, 7.0.5 - Clayton on 2018-07-09T22:39:53.284Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-09T22:40:02.374Z
+
+
+### Can reproduce.
+OnePlus 5, Android 8.1 Oreo, Discord Alpha 705
+
+JoshyMare#0059 - Bug Bot on 2018-07-11T13:13:13.708Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b42393c727766695430adbd/f0f0aa9ca020fe26fa01e972837a97c7/iM2hxZ4.gif added by Bug Bot on 2018-07-16T07:11:39.804Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:26.144Z
+
+
+### Unarchived by Clayton on 2018-08-22T04:30:10.158Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:55.169Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,150 @@
+[Archived] Any text field that is on screen at the same time as the message field (except quickswitcher) causes client to focus message field (https://trello.com/c/9gLHc3XF)
+
+None
+
+Created: 2018-05-14T23:35:57.933Z
+Latest Update: 2018-07-06T18:05:13.984Z
+
+Reported by Rauf#9245
+
+####Steps to reproduce:
+
+- List of broken things: 
+- Edit Message 
+- Search 
+- Notes in miniprofile 
+- Quick DM in miniprofile 
+- Unfocusing message field to scroll up and down messages/users using up_arrow or down_arrow 
+- Emoji search via emoji picker 
+- To reproduce, choose any of the broken things and try to type in it
+
+####Expected result:
+These essential features work
+####Actual result:
+these features do not work; they just make the client focus the message bar
+####Client settings:
+Canary 15223
+####System settings:
+Windows 10 Home x64 v1803
+
+12677
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-14T23:35:57.933Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 15223 Windows 10 x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-05-14T23:36:05.315Z
+
+
+### Can reproduce.
+Can Reproduce MacBook Air (13-inch Early 2015) MacOS X El Capitan 10.11.6, Discord Canary Build Number: 15223
+
+Ganinko#9720 - Bug Bot on 2018-05-14T23:36:10.314Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 15223
+
+webhp#1337 - Bug Bot on 2018-05-14T23:36:15.267Z
+
+
+### To reproduce this bug, you will need to select on one of the broken features listed above, then try to type in, but you will see it typing into the message box instead.
+
+Ghoul#0009 - Bug Bot on 2018-05-14T23:42:14.950Z
+
+
+### Can reproduce.
+Can Reproduce Windows 10 Home x64 (Version 1803), Discord Canary Build 15223
+
+Ghoul#0009 - Bug Bot on 2018-05-14T23:42:43.759Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary Build nº 15223
+
+PillGP#2767 - Bug Bot on 2018-05-14T23:45:38.768Z
+
+
+### Can't reproduce.
+Cannot Reproduce anymore as of Windows 10 Home x64 (Version 1803), Discord Canary Build 15232. Thank you all for fixing this nasty bug!
+
+Ghoul#0009 - Bug Bot on 2018-05-15T00:33:37.797Z
+
+
+### Can't reproduce.
+Windows 10 Pro (1803), Canary 15232. Appears fixed.
+
+unreal#0001 - Bug Bot on 2018-05-15T00:34:34.525Z
+
+
+### Can't reproduce.
+Windows 10 Pro (1803), Canary 15232. Appears fixed. Users reading this ticket that are still able to repro should refresh their client.
+
+unreal#0001 - Bug Bot on 2018-05-15T00:35:22.140Z
+
+
+### Can reproduce.
+Can Reproduce in Windows 8.1 x64, Discord Canary Build Number: 15139
+
+Yoginth#9339 - Bug Bot on 2018-05-15T02:40:58.610Z
+
+
+### Can reproduce.
+new System
+
+YoRHa K7 清姫 ⚙🐉#7854 - Bug Bot on 2018-05-15T05:59:14.600Z
+
+
+### Can reproduce.
+Windows 10, 1709 Falls Creator Update
+
+xJKammder_#3179 - Bug Bot on 2018-05-15T15:48:24.958Z
+
+
+### This also has the side effect of having a stuck draft in the channel forever. - Mike Nisbet on 2018-05-15T18:33:50.571Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 15232 | Bug stopped "working" after I reloaded the client though and has not appeared ever since
+
+» a r i a#1593 - Bug Bot on 2018-05-15T23:09:06.744Z
+
+
+### Can no longer reproduce. Canary 15376, macOS 10.12.6 - Clayton on 2018-05-16T20:33:35.144Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Clayton on 2018-05-16T20:33:45.696Z
+
+
+### Can reproduce.
+Windows 8 (6.2) Build 9200 x64 Discord Canary 15434 The bug had been fixed, but now it's back again
+
+SweetSofiMC#8821 - Bug Bot on 2018-05-17T04:44:37.851Z
+
+
+### Some things are fixed, but scrolling with keyboard arrows doesn't work
+
+SweetSofiMC#8821 - Bug Bot on 2018-05-17T04:56:21.293Z
+
+
+### @clayton301 I can still repro this, but with an another ticket (which is https://trello.com/c/9IZLFuU0) 
+
+Dunno if you want to move this back to user reported bugs or archive, up to you. - Tarek on 2018-05-19T07:08:08.005Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:05:12.922Z
+
+
+### Archived by Jared on 2018-07-06T18:05:13.986Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

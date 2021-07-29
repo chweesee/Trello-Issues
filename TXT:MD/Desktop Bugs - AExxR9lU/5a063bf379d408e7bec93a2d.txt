@@ -1,0 +1,105 @@
+Everything before the forward slash is ignored when entering an invite into the Join a Server modal (https://trello.com/c/tO4S1wRG)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-11-10T23:53:23.082Z
+Latest Update: 2019-11-09T03:57:55.602Z
+
+Reported by Bjaker#7026
+
+####Steps to reproduce:
+- Click the + near the bottom of your server list
+- Click 'Join a server'
+- Enter a any number of characters followed by '/discord-testers'
+- Press 'Join' and observe
+
+####Expected result:
+Everything before the forward slash should not be ignored
+####Actual result:
+Everything before the forward slash is ignored, which can lead to you joining the wrong server if for example there's a server with the vanity 'discord-testers'  and a server with the vanity '/r/discord-testers', then entering the latter with result in you joining the first server
+####Client settings:
+Discord Stable, Build Number: 7127
+####System settings:
+Windows 10 Home - Version 1709
+
+6274
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-10T23:53:23.082Z
+
+
+### Can reproduce.
+Windows 10 x64 Fall Creator's Update Canary build 7125. it appears the regex ignores everything before a / and then counts anything after as the invite. in this case 'chat' is the invite to that server, no matter what the preceding URL is before it.
+
+Mikesky#3456 - Bug Bot on 2017-11-10T23:53:30.774Z
+
+
+### Can reproduce.
+CR Ubuntu 17.10, cairo-dock GNOME x64
+
+Iota#1651 - Bug Bot on 2017-11-10T23:53:35.938Z
+
+
+### Can reproduce.
+As Mike said, ignores anything before the slash, and uses the end as the invite. Even works with things like example.com/discord-developers. Desktop Stable build 7127, Win10 x64
+
+Usoka#6021 - Bug Bot on 2017-11-10T23:53:40.786Z
+
+
+### Can reproduce.
+Win10 Pro, Version 1703, 64-bit, x64, Release Channel: canary, Build Number: 7155.
+
+Senhara#5373 - Bug Bot on 2017-11-10T23:55:14.240Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (Build 1703)
+
+CodingGamerHD#7761 - Bug Bot on 2017-11-11T16:18:36.448Z
+
+
+### Can reproduce.
+Surface Book Performance Base 8 GB, Windows 10 Pro x64 (Fall Creator's Update) Version 1709 Discord Canary build 7194
+
+andritolion#0007 - Bug Bot on 2017-11-13T02:11:48.089Z
+
+
+### Verified.  - Clayton on 2017-11-14T23:57:36.816Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-14T23:57:40.427Z
+
+
+### I can no longer reproduce, the vanity url no longer works. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-29T17:53:22.081Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-29T17:53:26.699Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:16:13.306Z
+
+
+### Archived by Jared on 2018-07-06T18:16:14.243Z
+
+
+### Can reproduce again on Canary 49167, Windows 10 Home 64-bit (v1903).
+
+Moving to Reopened. - Ene on 2019-11-09T03:57:52.126Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Ene on 2019-11-09T03:57:55.526Z
+
+
+### Unarchived by Ene on 2019-11-09T03:57:55.585Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

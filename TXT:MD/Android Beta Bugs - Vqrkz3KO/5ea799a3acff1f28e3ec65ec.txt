@@ -1,0 +1,90 @@
+Links are spoopy only when clicking on embed (https://trello.com/c/MGho2zBO)
+
+None
+
+Created: 2020-04-28T02:49:07.386Z
+Latest Update: 2020-05-12T22:29:32.229Z
+
+Reported by Creedoo#3626
+
+####Steps to reproduce:
+- Click on the embed of untrusted website 
+- Notice how it says that this link is spoopy 
+- Don't click to trust this website !! Go back and click on the link now 
+- Discord goes to the website without the spoopy pop-up
+
+####Expected result:
+Discord should show that the website is untrusted no matter if I click on the link or the embed
+####Actual result:
+The untrusted pop-up shows up only when clicking on the embed
+####Client settings:
+Discord 20.1
+####System settings:
+Samsung Galaxy S9+, Android 10
+
+55237
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-28T02:49:07.386Z
+
+
+### Creedoo#3626 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ea799a3acff1f28e3ec65ec/647ee145d1e97b0061228ca11e2912ad/Screen_Recording_20200428-013426_1.gif added by Bug Bot on 2020-04-28T02:49:14.614Z
+
+
+### Can reproduce.
+CR, Huawei P8 Lite, Android 6.0, Discord 19.6 (1118)
+
+/dev#3346 - Bug Bot on 2020-04-28T02:49:15.065Z
+
+
+### Can reproduce.
+CR - Samsung Note 9 - Android 10 - Discord 20.1 (1120)
+
+MelonFruit#0001 - Bug Bot on 2020-04-28T02:49:20.005Z
+
+
+### Can reproduce.
+CR, Vivo Y91c, Android 8.1, Discord 20.1 (1120)
+
+Kimmy Turner#3095 - Bug Bot on 2020-04-28T02:49:25.510Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 8.0.0, Discord 20.1 (1120)
+
+Bryth#1086 - Bug Bot on 2020-04-28T06:56:40.894Z
+
+
+### Can reproduce.
+Discord 20.1 (1120), Samsung Galaxy A20, Android 9
+
+Nighty963#9288 - Bug Bot on 2020-04-28T09:00:34.966Z
+
+
+### Can reproduce.
+[CR] Samsung S10+, Android 10.0, Discord 20.1 (1120)
+
+" Tibo#1337 - Bug Bot on 2020-04-29T12:15:00.992Z
+
+
+### Can't reproduce.
+Samsung Galaxy S8, Android Oreo, 1117
+
+ywssp#3510 - Bug Bot on 2020-04-30T14:11:03.001Z
+
+
+### We may revisit this behavior in the future but right now this is intended.  We only show spoopy links on messages like these when the links are masked.
+
+Here the embed itself is a masked link - so while it happens to go to the same URL - it may not always.  So we warn. - Miguel Gaeta on 2020-05-12T22:29:21.374Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Miguel Gaeta on 2020-05-12T22:29:32.209Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

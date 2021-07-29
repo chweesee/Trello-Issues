@@ -1,0 +1,89 @@
+[Archived] Discord Private Calls always say connecting or dialing (https://trello.com/c/yltw5pDJ)
+
+None
+
+Created: 2019-05-28T02:57:51.330Z
+Latest Update: 2019-07-13T19:00:27.902Z
+
+Reported by Kenai#5153
+
+####Steps to reproduce:
+- Connect your phone to a device that displays call status(it also does this on the CallKit screen when connected to a device other than the watch) (ex: radio, watch.) 
+- Make a call on discord.
+
+####Expected result:
+Call should connect then start a timer showing the length of the call.
+####Actual result:
+The timer for the call never starts and the CallKit screen says “connecting...” forever. Any connected devices exhibit similar behavior with discord and never start the timer.
+####Client settings:
+TestFlight 3.0.2
+####System settings:
+iPhone 8, iOS 12.4, also happens on 12.3
+
+35453
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-28T02:57:51.330Z
+
+
+### Kenai#5153 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ceca3afbd340b325b1788b6/b1078ff6486c2b3898dfdbcd71dfbf27/image0.png added by Bug Bot on 2019-05-28T02:57:54.208Z
+
+
+### Kenai#5153 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ceca3afbd340b325b1788b6/bd4b386886d362a76e44e10ccffcf6c4/image0.png added by Bug Bot on 2019-05-28T02:57:54.335Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.2 TestFlight 3.0.2 (15253) watchOS 5.2.1 (16U113)
+
+binchlord#0998 - Bug Bot on 2019-05-28T02:57:58.767Z
+
+
+### Can reproduce.
+can reproduce iPhone X iOS 12.4 (Dev beta 2) TestFlight 3.0.2 (15253) watchOS 5.2.1
+
+Valcrye#0001 - Bug Bot on 2019-05-28T02:58:03.786Z
+
+
+### Can reproduce.
+CR: iPhone XS Max, iOS 12.3 and watchOS 4.3.2, TestFlight 3.0.2 15253
+
+chaNcharge#6081 - Bug Bot on 2019-05-28T02:58:08.787Z
+
+
+### Moved from New Issues to Call Kit by Jonathan Wu on 2019-05-28T18:58:47.338Z
+
+
+### Moved from CallKit to Claimed Fixed Bugs by Fanghao on 2019-06-11T23:43:12.044Z
+
+
+### Can't reproduce.
+iPhone XR & iPad Air iOS 12.3.1 TestFlight 3.0.3 (15702)
+
+binchlord#0998 - Bug Bot on 2019-06-12T04:17:43.056Z
+
+
+### Can't reproduce.
+iphone 8 ios 12.4, TestFlight 3.0.3 (15702)
+
+OrangeM24#5746 - Bug Bot on 2019-06-12T13:19:55.369Z
+
+
+### Can't reproduce.
+iPhone 8 Plus, iOS 12.3.2 - TestFlight 3.0.3 (15738)
+
+Pascal#0929 - Bug Bot on 2019-06-13T18:54:37.628Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-13T18:54:37.917Z
+
+
+### Archived by Bug Bot on 2019-07-13T19:00:27.912Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

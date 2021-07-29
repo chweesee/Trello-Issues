@@ -1,0 +1,74 @@
+[Archived] With PC + Android you can make a 200 characters server's name when the limit is at 100 /Android not counting PC's emojis (https://trello.com/c/CXcIJR6g)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-11T19:01:03.094Z
+Latest Update: 2018-10-12T10:30:02.425Z
+
+Reported by JVC Almeos#1984
+
+####Steps to reproduce:
+- Modify a server name on PC and put 100 emojis on his name like 🎄 for exemple (make it to the 100 characters limit)
+- Save his name 
+- On Android modify server's name by adding 100 emojis or 50 letters
+- Save his name
+
+####Expected result:
+You shouldn't be allowed to add another characters on Android
+####Actual result:
+You can override the 100 characters limit and make it to 150 or 200
+####Client settings:
+PC : Stable, Build Number: 23017 / Android : Android Alpha 7.4.8 (748)
+####System settings:
+PC : Windows 10 x64 / Android : Huawei Honor 10 View (BKL-L09) Android 8.0.0
+
+19463
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-11T19:01:03.094Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b9810efd49f988f244ec60c/1034c24f084971450e2e5f0eba40b951/2f751dd30e550a8a3b870fcc4945e565.png added by Bug Bot on 2018-09-11T19:01:05.744Z
+
+
+### Can reproduce.
+I can't add more than 100 emojis. But since 1 unicode emoji is supposed to take place of 2 characters (emojis are encoded on 2 bytes), you should be able to put 50 emojis max. Desktop doesnt' allow more than 50 emojis but you can put 100 on Android. Discord Alpha 7.4.8,  Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-09-11T19:01:10.591Z
+
+
+### Can reproduce.
+Windows 10 Build 1803, 4K DPI scaled, Canary 23327 - I could do 200 characters of that Christmas tree emoji without a issue
+
+JakeMakesStuff#0001 - Bug Bot on 2018-09-11T19:01:15.527Z
+
+
+### Can reproduce.
+Can Reproduce the desktop part but not the Android part. [BUILD INFO] Release Channel: stable, Build Number: 23327, Windows 10
+
+davfsa#7026 - Bug Bot on 2018-09-11T19:01:20.566Z
+
+
+### verified, android 7.0, alpha 7.4.8, samsung s6 edge - Clayton on 2018-09-11T19:42:38.987Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-11T19:42:50.169Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.4.8
+
+Frances Picard#6209 - Bug Bot on 2018-09-12T10:03:46.871Z
+
+
+### Archived by Clayton on 2018-10-12T10:30:02.431Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

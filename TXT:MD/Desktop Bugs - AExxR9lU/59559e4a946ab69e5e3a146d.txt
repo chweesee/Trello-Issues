@@ -1,0 +1,106 @@
+Right click -> Copy ID on a role mention copies the message_id instead of the role_id (https://trello.com/c/L1TnKk5G)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-06-30T00:41:46.513Z
+Latest Update: 2019-09-23T22:30:07.896Z
+
+Reported by Mason#1337
+
+####Steps to reproduce:
+- Enable developer mode 
+- Mention a role in a chat channel with some text 
+- Right click on the role mention and select "Copy ID" 
+- Paste the copied text 
+- Right click on the other text and select Copy ID 
+- Paste the copied text (they are the same)
+
+####Expected result:
+Selecting "Copy ID" when right clicking a role mention should copy the role\_id to your clipboard
+####Actual result:
+The message\_id of the message in which the role was mentioned is copied to your clipboard
+####Client settings:
+Desktop Canary, 0.0.149
+####System settings:
+macOS Sierra 10.12.5
+
+1952
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-30T00:41:46.513Z
+
+
+### Can reproduce.
+ Windows 10 Pro x64 Creators Update (1703), Canary 0.0.157 (1943)
+
+Tiemen#0107 - Bug Bot on 2017-06-30T00:41:51.312Z
+
+
+### Can reproduce.
+ Windows 10 x64 bit, Canary 0.0.157
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-30T00:41:53.069Z
+
+
+### Can reproduce.
+ Windows 10 x64 Anniversary Update (1607) Canary 0.0.157.
+
+OGNovuh#0014 - Bug Bot on 2017-06-30T00:41:55.062Z
+
+
+### Can reproduce.
+Gentoo 64-bit default/linux/amd64/13.0, Canary 0.0.19
+
+Info Teddy#3737 - Bug Bot on 2017-06-30T05:05:48.343Z
+
+
+### Can reproduce.
+Right clicking the mention gives up a different ID than from escaping.Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.157 (Build 1943)
+
+SuperSajuuk#7265 - Bug Bot on 2017-06-30T10:28:37.787Z
+
+
+### Verified.  - Clayton on 2017-07-06T00:01:53.053Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-06T03:14:12.268Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T15:58:54.095Z
+
+
+### Can reproduce.
+This also happens on copying the ID of a channel mention. Discord Stable 0.0.297 Windows 10 Pro 64-Bit on Build 1607
+
+Tarek1337#0379 - Bug Bot on 2017-08-01T15:44:26.273Z
+
+
+### Low P2, internal complaint, inconsistent behavior. - Jared on 2017-10-17T06:35:11.551Z
+
+
+### Can reproduce.
+Arch Linux x64, Canary 7653
+
+bb010g#5294 - Bug Bot on 2017-11-25T06:55:02.245Z
+
+
+### Can reproduce.
+Only in a group DM, right-clicking a mention ignores it and only shows message controls. Desktop Stable 0.0.250, MacBookAir7,2, MacOS 10.13.3
+
+Abequinn#5368 - Bug Bot on 2018-03-18T13:20:20.135Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59559e4a946ab69e5e3a146d/e8b8d82213dc2a35a3ed58974ff4f1a6/9ci2YZt.gif added by Bug Bot on 2018-07-14T10:47:37.557Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

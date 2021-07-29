@@ -1,0 +1,79 @@
+[Archived] Trying to save a server name with leading spaces results in no change made or error being given (https://trello.com/c/AYFIrc4L)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-02T13:39:04.193Z
+Latest Update: 2018-10-22T20:18:40.244Z
+
+Reported by Flame#9168
+
+####Steps to reproduce:
+- Go to server overview 
+- Change the server name to something that has a space as its first character 
+- Save changes
+
+####Expected result:
+The server name should change/An error message should pop up saying that you can't make a server name with a space
+####Actual result:
+Presssing the Save Changes button results in no change being made or error being shown. The save changes button remains in the same location.
+####Client settings:
+Release Channel: stable, Build Number: 11460, Version Hash: 368fc8fa6626eb89e55c3a6ef388567796990e33
+####System settings:
+Windows 10 Fall Creators Update
+
+9239
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-02T13:39:04.193Z
+
+
+### Can reproduce.
+can reproduce, Windows 10 Home x64 1709, Stable 11460
+
+scar#8268 - Bug Bot on 2018-03-02T13:39:11.500Z
+
+
+### Can reproduce.
+windows 10 1709 x64, Acer aspire VX,  Discord canary - Build number: 11491
+
+Eagler1997#7990 - Bug Bot on 2018-03-02T13:39:16.523Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64 (1709), Canary Build 11514
+
+Lewis#0334 - Bug Bot on 2018-03-02T13:39:21.471Z
+
+
+### Can reproduce.
+Windows 10 x64 - Discord Stable - Build Number: 11460 - Version Hash: 368fc8fa6626eb89e55c3a6ef388567796990e33
+
+St. Fisger's Day#9999 - Bug Bot on 2018-03-02T13:55:11.275Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary Build nº 11430, Version Hash 1b951ef9aa3e9933d540bcf2fef73501b71f113e
+
+PillGP#2767 - Bug Bot on 2018-03-03T00:13:37.131Z
+
+
+### Verified.  - Clayton on 2018-03-06T23:14:01.374Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-06T23:14:05.544Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a9953f835eb6437cd8e0987/1bd9ad8f99bce6ff9b3123583d412c07/j34acPv.gif added by Bug Bot on 2018-07-14T12:40:12.642Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:40.246Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

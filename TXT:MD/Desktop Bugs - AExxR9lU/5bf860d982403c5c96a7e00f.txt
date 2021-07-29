@@ -1,0 +1,114 @@
+[Archived] [Overlay] Playing a Video Embed (Twitch, Youtube) Crashes Overlay (https://trello.com/c/fMqumQFt)
+
+P2: Fix can wait a while
+
+Created: 2018-11-23T20:19:37.523Z
+Latest Update: 2019-02-04T09:30:29.042Z
+
+Reported by Aero#4359
+
+####Steps to reproduce:
+- Play a game (I was playing CSGO) then 
+- press your discord overlay lock key, and play a youtube video someone sends you.
+
+####Expected result:
+If this bug did not exist the youtube video should play and be fully viewable.
+####Actual result:
+With this bug whenever you play a youtube video it closes the overlay lock screen.
+####Client settings:
+Canary, Build Number: 28393
+####System settings:
+Windows 10 Pro 64-bit OS
+
+23549
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-23T20:19:37.523Z
+
+
+### Can reproduce.
+Win10 64x (1809), Discord Canary 28393 (Rocket League + YouTube & Twitch)
+
+Alipoodle#5025 - Bug Bot on 2018-11-23T20:19:44.876Z
+
+
+### Can reproduce.
+CR| Windows 10 64-bit| Canary,28393
+
+WxlfSans#4672 - Bug Bot on 2018-11-23T20:19:50.021Z
+
+
+### Can reproduce.
+cr Windows 10 Pro x64 canary Build 28393
+
+Azrael#6867 - Bug Bot on 2018-11-23T20:19:54.876Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 28393
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-23T20:36:15.420Z
+
+
+### Can reproduce.
+Can reproduce. Tested with Twitch. Windows 10 Home 64-bit, Canary 28393
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-23T20:39:10.746Z
+
+
+### Can reproduce.
+CR. Canary 28393 Windows 10 x64
+
+Toasty#9566 - Bug Bot on 2018-11-23T21:47:27.076Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 28393
+
+Hole#0001 - Bug Bot on 2018-11-23T22:18:03.759Z
+
+
+### Can reproduce.
+Can reproduce with youtube and twitch while in rocket league. Windows 10 Home x64 v1803, Canary 28393
+
+Solo#0007 - Bug Bot on 2018-11-25T22:24:30.757Z
+
+
+### Moved from User Reported Bugs to Overlay Redesign Bugs by Clayton on 2018-11-27T00:29:38.235Z
+
+
+### Hey folks, I'm trying to reproduce this issue and haven't been able to. Is this still happening for you? If so:
+
+- Does it happen every time you play an embedded video or just sometimes?
+- Does changing your video settings make any difference? Does windowed vs. fullscreen mode matter?
+- Does the resolution of the video matter? - Joey Baker on 2018-12-11T21:37:05.553Z
+
+
+### Can't reproduce.
+Cannot reproduce. tested with CSGO, Clustertruck and R6S. (used twitch/youtube embeds) Windows 10 home x64 v. 1803 - Canary 29340. might be somehow related to https://trello.com/c/YXqTQXuk/
+
+J1#0088 - Bug Bot on 2018-12-11T22:57:27.208Z
+
+
+### Can't reproduce.
+Can no longer reproduce this bug... This seemed to simply be a one off bad build of Overlay which caused Embeds to crash upon loading. And No this is not related with to XXXX being blocked on your network as shown below. Win10 64x (1809), Discord Canary 30296
+
+Alipoodle#5025 - Bug Bot on 2018-12-25T18:42:25.859Z
+
+
+### Moved from Overlay Redesign Bugs to Claimed Fixed, needs Verification by Joey Baker on 2019-01-04T18:22:35.126Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2019-01-05T09:27:03.318Z
+
+
+### Archived by Bug Bot on 2019-02-04T09:30:29.053Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

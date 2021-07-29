@@ -1,0 +1,158 @@
+[Archived] Sliding up and down on a banner server and switching to another banner server crashes the app (Android 6 specific) (https://trello.com/c/OWORPI8o)
+
+None
+
+Created: 2019-04-25T10:55:13.216Z
+Latest Update: 2019-08-16T21:24:41.538Z
+
+Reported by Krobo#4784
+
+####Steps to reproduce:
+- Find two banner server (let's use dtesters and dfeedback) 
+- Go to one of the banner server, slide down so the banner is hidden 
+- Slide up and down continuously 
+- Continuing the same movement switch to the other bannered server
+
+####Expected result:
+App should not crash and should behave normally
+####Actual result:
+App crashes or in some cases reloads / briefly shows you the log out screen
+####Client settings:
+Android alpha 8.8.4
+####System settings:
+Samsung Galaxy S5 Android 6.0.1
+
+33444
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-25T10:55:13.216Z
+
+
+### Krobo#4784 - https://youtu.be/yXpJOOcbK5Q added by Bug Bot on 2019-04-25T10:55:15.802Z
+
+
+### Can reproduce.
+Discord Alpha 8.8.4, Samsung Galaxy S5 Android 6.0.1
+
+Alex321#4640 - Bug Bot on 2019-04-25T10:55:21.229Z
+
+
+### Can reproduce.
+CR, Huawei Honor 5X, Android 6.0.1 - Discord Alpha 8.8.4
+
+Rushly#9433 - Bug Bot on 2019-04-25T10:55:25.825Z
+
+
+### Can reproduce.
+Android 8 (Honor 8x) - Discord 8.8.4
+
+Cubity_First#0001 - Bug Bot on 2019-04-25T10:55:30.878Z
+
+
+### Note 5 @ 6 w/ Latest Alpha (8.8.4) instead of my previous CR
+
+Cubity_First#0001 - Bug Bot on 2019-04-25T10:59:31.368Z
+
+
+### Can reproduce.
+CR. It happens on android 5.0 for me. I don't think it is only android 6.0 specific. Asus Zenfone 2, Android 5.0, Discord Alpha 8.8.4
+
+Karasu#0013 - Bug Bot on 2019-04-25T11:08:04.245Z
+
+
+### Can reproduce.
+Galaxy S7 (SM-G930F), 9.0, Alpha 884
+
+c1rcl#3677 - Bug Bot on 2019-04-25T13:46:07.745Z
+
+
+### Can reproduce.
+Samsung Galaxy S5, Android v6, Discord Alpha 8.8.4
+
+Skyla#0002 - Bug Bot on 2019-04-25T14:51:56.003Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.8.4
+
+Lily#2624 - Bug Bot on 2019-04-26T07:09:21.119Z
+
+
+### Can't reproduce.
+Xiaomi Redmi 4 Prime - MIUI 10 Stable - Discord v8.8.5
+
+Gecko#5181 - Bug Bot on 2019-04-26T08:07:47.443Z
+
+
+### Can't reproduce.
+Oppo F5, Android 7.1.1, Discord Alpha 8.8.3
+
+FrostingBit#9595 - Bug Bot on 2019-04-26T12:11:29.109Z
+
+
+### Can't reproduce.
+Samsung Galaxy J5 2017 • Android 8.1.0 • Discord Alpha 8.8.6
+
+Vanished#1111 - Bug Bot on 2019-04-26T14:51:58.581Z
+
+
+### Can't reproduce.
+Samsung Galaxy A5 (2017), Android 8.0.0, Discord Alpha  8.8.6
+
+Nite#2100 - Bug Bot on 2019-04-26T15:16:36.653Z
+
+
+### Can't reproduce.
+CNR, - a discord 8.8.5
+
+ScarVite#6606 - Bug Bot on 2019-04-26T21:08:12.978Z
+
+
+### Can't reproduce.
+CNR, Huawei P20 Lite Android 8.0 Discord v. 8.8.5
+
+ScarVite#6606 - Bug Bot on 2019-04-26T21:08:53.386Z
+
+
+### Can reproduce.
+Samsung Galaxy Light v4.2.2 BaseBand T399UVUAQE1 Discord Canary 8.8.8
+
+Killtracity#0001 - Bug Bot on 2019-04-27T01:30:06.931Z
+
+
+### Can't reproduce.
+Android Alpha, 8.8.8 on Samsung Galaxy A8, 8.0
+
+Mişu#0001 - Bug Bot on 2019-04-27T10:59:36.504Z
+
+
+### Can't reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord 888
+
+undermaster#3126 - Bug Bot on 2019-04-28T18:13:55.452Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 884
+
+Quad#1887 - Bug Bot on 2019-04-30T01:44:05.335Z
+
+
+### Also works with the following str:
+
+-Go to one of the banner server and slowly slide down
+- Counting the same behaviour, switch to the second banner server without letting go
+
+Krobo#4784 - Bug Bot on 2019-05-25T05:26:17.520Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:24:41.549Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

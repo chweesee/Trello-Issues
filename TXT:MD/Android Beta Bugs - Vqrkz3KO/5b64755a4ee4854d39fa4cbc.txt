@@ -1,0 +1,72 @@
+[Archived] The header of invite embeds have no padding to the right. Since the text is left-aligned it isn't noticeable when the text wraps in two lines, so it happens only if the name of the inviter has a particular length (https://trello.com/c/dfoSsY0M)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-03T15:31:38.523Z
+Latest Update: 2018-09-08T23:30:02.661Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find an invite made by someone who has a username short enough so the header doesn't wrap in two lines, but not too short so the header doesn't leave too much space to the right (this might be hard to get, as it may also depend on screen resolution) 
+- Look at the header of the embed
+
+####Expected result:
+The header should wrap when the text reaches the border of the invite minus a padding equal to the left side
+####Actual result:
+The text wraps only if it would completely go out of embed
+####Client settings:
+Discord Alpha 7.2.3
+####System settings:
+Huawei Mate 9 Android 8.0
+
+16833
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-03T15:31:38.523Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b64755a4ee4854d39fa4cbc/099b8d6df0d5a8f9961ce05fe6d0a354/IMG_20180803_154641.jpg added by Bug Bot on 2018-08-03T15:31:40.959Z
+
+
+### Can reproduce.
+Samsung Galaxy V8.0.0, Discord Alpha 721
+
+Thundy#2018 - Bug Bot on 2018-08-03T15:31:45.907Z
+
+
+### Can reproduce.
+Also works when the Invite gets split into two lines, Honor 9, Android 8.0.0, Discord Alpha 7.2.3
+
+イスラヌブ#2222 - Bug Bot on 2018-08-03T15:31:50.815Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6, Android 7.0 - Discord Alpha 7.2.3
+
+Hole#8769 - Bug Bot on 2018-08-03T15:31:55.810Z
+
+
+### Can reproduce.
+Can repro, Discord Alpha 7.2.1 (721) - Android 5.1
+
+Diogolo#4443 - Bug Bot on 2018-08-03T19:10:41.517Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.2.9 - Clayton on 2018-08-09T23:02:35.253Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-09T23:02:39.195Z
+
+
+### Archived by Clayton on 2018-09-08T23:30:02.664Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

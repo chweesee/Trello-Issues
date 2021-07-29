@@ -1,0 +1,116 @@
+[Archived] Emotes appearing very huge in field values (embeds) (https://trello.com/c/r3VxMUNz)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2019-02-16T20:14:34.241Z
+Latest Update: 2019-06-10T20:43:22.461Z
+
+Reported by KENTARO#2898
+
+####Steps to reproduce:
+- create the following embed { "embed": { "fields": [ { "name": " Field 1", "value": ":enabled:", "inline": true }, { "name": " Field 2", "value": " <@441762003992838155> \n <@455157940140113921>", "inline": true } ] } } 
+- replace :enabled: with any kind of emote u want 
+- post the embed in a channel 
+- the emote should be shown very huge now on android devices ....
+
+####Expected result:
+the emote is showing normal on iOS and also it worked good before in android too ... its a new bug
+####Actual result:
+The emote is not supposed to displayed THAT huge lol
+####Client settings:
+8.4.4G(844)
+####System settings:
+Samsung S7 Edge Android Version 8.0.0 same issue with Samsung Note 8 Android Version 8
+
+29022
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-16T20:14:34.241Z
+
+
+### Willzy 27#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c686f2a037079032c0d518c/920a87002d15ba0ff2e92811806a7240/Screenshot_20190216-193540_Discord.png added by Bug Bot on 2019-02-16T20:14:37.312Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J5 2017 • Android 8.1.0 • Discord Alpha 8.4.5G
+
+Vanished#1111 - Bug Bot on 2019-02-16T20:14:41.837Z
+
+
+### Can reproduce.
+Can repro, Pixel 3 XL, Android 9 PQ1A.181205.006, Discord 845G
+
+ginkoid#8888 - Bug Bot on 2019-02-16T20:14:46.818Z
+
+
+### Can reproduce.
+can reproduce Kyocera Hydro Wave Android 5.1 discord 845
+
+Okori#0902 - Bug Bot on 2019-02-16T20:14:51.827Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 8.4.5G
+
+Danijel#9000 - Bug Bot on 2019-02-16T21:26:52.612Z
+
+
+### Can reproduce.
+can reproduce Xperia Z4 | Android 6.0 | Discord Alpha 8.4.5
+
+DaSpeedyCrafter#0002 - Bug Bot on 2019-02-17T01:14:20.593Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 8.4.5G
+
+TheFutureKnight#7664 - Bug Bot on 2019-02-17T11:16:09.258Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.4.8
+
+Skyla#7948 - Bug Bot on 2019-02-17T16:07:23.051Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 848
+
+charleskimbac#6492 - Bug Bot on 2019-02-18T08:09:24.615Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-21T00:19:41.147Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 851
+
+The Lunala#6877 - Bug Bot on 2019-02-27T04:48:06.890Z
+
+
+### Archived by Bug Bot on 2019-03-29T05:00:02.457Z
+
+
+### Can reproduce.
+the emotes even appear bigger now. When the field value is just an emote. Discord 870, MIUI 10, Android 6.0.1
+
+Xnehaxixh#2892 - Bug Bot on 2019-04-04T05:26:10.402Z
+
+
+### Xnehaxixh#2892 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c686f2a037079032c0d518c/a334cf212b63ea7c0fb35bf31c4ae00b/Screenshot_20190404103819.jpg added by Bug Bot on 2019-04-04T05:27:46.907Z
+
+
+### Unarchived by Bug Bot on 2019-04-04T05:30:05.047Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:22.485Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

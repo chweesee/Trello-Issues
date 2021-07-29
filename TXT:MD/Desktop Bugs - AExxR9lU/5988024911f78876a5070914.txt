@@ -1,0 +1,90 @@
+[Archived] Joining a voice channel with one wifi than connecting to another wifi makes the disconnect button not function correctly (https://trello.com/c/T42o0gvL)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2017-08-07T06:01:45.101Z
+Latest Update: 2019-08-03T13:52:25.283Z
+
+Reported by riqard_draconis#8339
+
+####Steps to reproduce:
+- Join a voice channel 
+- Change your wifi from your current to a different wifi 
+- Try and use the disconnect button
+
+####Expected result:
+It's supposed to diconnect
+####Actual result:
+It does not disconnect
+####Client settings:
+Mac Discord Canary 0.0.154
+####System settings:
+MacOs Sierra Version 10.12.5 MacBook Air
+
+2890
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-07T06:01:45.101Z
+
+
+### Can reproduce.
+Can Reproduce (MacBook Air 10.12.6, Desktop Canary 0.0.154). After about 20 seconds, it disconnects.
+
+ItsPugle#5963 - Bug Bot on 2017-08-07T06:01:52.647Z
+
+
+### Can reproduce.
+CR, it disconnects after 5 seconds, Discord Canary 0.0.154, MacOS 10.12.6
+
+Nelson1348#9190 - Bug Bot on 2017-08-07T06:01:57.641Z
+
+
+### Can reproduce.
+CR. MacBook Pro with macOS Sierra 10.12.6 (16G29), Discord Canary 0.0.154. Disconnects after a ~10-20 seconds.
+
+slice#4274 - Bug Bot on 2017-08-07T06:02:02.647Z
+
+
+### It seems to me that you cannot reproduce this by switching between bands on the same network (2.4 ghz/5ghz). You need to connect to a completely different network.
+
+slice#4274 - Bug Bot on 2017-08-07T06:09:30.615Z
+
+
+### Can reproduce.
+Can repro using hotspot. Slice is right, switching bands or guest to non-guest does not work. It takes a while to disconnect. Used Discord Canary 0.0.153, macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-08-07T06:13:28.963Z
+
+
+### Can reproduce.
+MacBook Air 10.12.5 Canary 0.0.154
+
+riqard_draconis#8339 - Bug Bot on 2017-08-07T13:42:18.037Z
+
+
+### Verified.  - Clayton on 2017-08-09T22:33:30.655Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T22:33:46.086Z
+
+
+### I'd call this a low priority P2 as it's an unusual use case, but I could see it happening. - Jared on 2017-10-17T01:02:33.855Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Gregory Rizzo on 2018-07-11T18:45:31.348Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:36:24.424Z
+
+
+### Archived by Jared on 2018-08-21T23:36:25.173Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

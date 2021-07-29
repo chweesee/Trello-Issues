@@ -1,0 +1,68 @@
+[Archived] Invalid invite links like https : // discord . gg / invitehttps : discord . gg / invite don't do anything. (https://trello.com/c/7AbA3gaT)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-03T09:23:38.702Z
+Latest Update: 2018-08-22T01:22:35.518Z
+
+Reported by The Lunala#0001
+
+####Steps to reproduce:
+- Create an instant invite for a server. 
+- Paste it in the above format (without space). 
+- Click on the invite. 
+- Open it with Discord.
+
+####Expected result:
+The invite should take you to the invite screen and a toast should appear saying invalid invite.
+####Actual result:
+Nothing happens when we Open the link (the link should look like the attached image) with Discord. If we open it with chrome, it says invalid invalid invite but nothing if we open with Discord
+####Client settings:
+Discord Alpha 6.8.7
+####System settings:
+Lenovo vibe K5+,5.1.1
+
+13678
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-03T09:23:38.702Z
+
+
+### The Lunala#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b13b39ac620cddbec8edfbb/28ff12c72c95e004869b89c791537c92/20180602_114648.jpg added by Bug Bot on 2018-06-03T09:23:41.231Z
+
+
+### Can reproduce.
+Can reproduce, OnePlus 2, Android 6.0.1, Discord Alpha 6.8.7 (687)
+
+Marshadow#5095 - Bug Bot on 2018-06-03T09:23:46.143Z
+
+
+### Can reproduce.
+can reproduce now. Had the link wrong Huawei P20 lite android 8.0.0 Discord alpha 6.8.7
+
+hurricane#2245 - Bug Bot on 2018-06-03T09:23:51.161Z
+
+
+### Can reproduce.
+Can reproduce, more generally you can repro when there is a / in the invite code, e.g discord.gg/xxxx/xxx. Discord Alpha 6.8.7, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-06-03T09:23:56.108Z
+
+
+### verified, samsung s6 edge, android 7.0, 6.8.7 - Clayton on 2018-06-04T23:37:42.271Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-04T23:37:53.743Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:35.521Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

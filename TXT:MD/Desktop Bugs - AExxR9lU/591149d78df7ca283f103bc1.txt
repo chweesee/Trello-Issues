@@ -1,0 +1,84 @@
+[Archived] Disconnected notification sound repeating continually (https://trello.com/c/fhTCpO3D)
+
+P2: Fix can wait a while
+
+Created: 2017-05-09T04:47:19.709Z
+Latest Update: 2017-12-02T17:27:27.821Z
+
+Reported by Techno#1745
+
+####Steps to reproduce: 
+- Connects to voice channel 
+- Internet connection drops 
+- Green voice connected changes to red Disconnected 
+- Disconnected sound plays 
+- Sound continually repeats similar to about six months ago before resolved 
+
+####Expected result:
+ Sound is played once to show the disconnect 
+####Actual result:
+ The sound plays over, and over, and over 
+####System settings:
+ Win8.1 Latest Canary
+
+1479
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-09T04:47:19.709Z
+
+
+### Can reproduce.
+newer canary on ubuntu AND web version on chromebook, seems to repeat every 5 secs or so.
+
+GidoBOSSftw5731#6422 - Bug Bot on 2017-05-09T04:47:21.562Z
+
+
+### Can reproduce.
+MacOS 10.12.4, Discord Canary 0.0.145
+
+xLars#5484 - Bug Bot on 2017-05-09T04:47:22.821Z
+
+
+### Can reproduce.
+macOS Sierra running Discord 0.0.145
+
+ItsPugle#5963 - Bug Bot on 2017-05-09T04:47:24.880Z
+
+
+### Verified.  - Clayton on 2017-05-11T22:09:29.417Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-11T22:09:34.352Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-16T20:06:29.171Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T21:52:17.635Z
+
+
+### Cannot reproduce. As soon as the call changed to the red disconnected, the loading screen appeared and no sound played afterwards. - Jared on 2017-10-16T22:10:12.957Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jared on 2017-10-16T22:10:16.964Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:27:26.997Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:27:27.822Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

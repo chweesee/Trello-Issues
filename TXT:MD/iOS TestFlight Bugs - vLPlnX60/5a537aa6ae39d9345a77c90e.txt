@@ -1,0 +1,86 @@
+[Archived] Long pressing backspace interrupted by commands menu. (https://trello.com/c/pSSEPiAB)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2018-01-08T14:05:26.383Z
+Latest Update: 2019-06-22T18:11:18.899Z
+
+Reported by Q__Q#0489
+
+####Steps to reproduce:
+- Start by typing :, as if you are attempting to manually insert an emoji to text 
+- Put in some text as if you are attempting to type an emoji, try to use actual words instead of spam or gibberish.
+- After typing the words (or actually tapping an emoji from drop down menu), hold backspace
+
+####Expected result:
+All text will delete, including : command in beginning without stopping.
+####Actual result:
+Backspacing will stop short just at the first :, sometimes will stop mid emoji name or after the second : command. You would have to keep tapping backspace to delete everything.
+####Client settings:
+Test Flight 2.2.0 (2080)
+####System settings:
+iPhone 8, iOS 11.1.2
+
+7697
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-08T14:05:26.383Z
+
+
+### Can reproduce.
+Been able to repro this for a while, same with any "suggestions" based function (mentions/channels). iOS 11.0.2 on iPad Pro 2nd Gen, Discord via Testflight 2.2.0 (Build 2080)
+
+SuperSajuuk#7265 - Bug Bot on 2018-01-08T14:05:33.678Z
+
+
+### Can reproduce.
+CR iPhone 8 +, iOS 11.2.5 (PB3), Discord TestFlight 2.2.0 (2080)
+
+Ghoul#4567 - Bug Bot on 2018-01-08T14:05:38.692Z
+
+
+### Can reproduce.
+CR, TestFlight 2.2.0 (2042), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#9672 - Bug Bot on 2018-01-08T14:05:43.718Z
+
+
+### Moving to iOS board, not the right place. D: - Tarek on 2018-01-08T14:06:21.175Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Tarek on 2018-01-08T14:06:29.122Z
+
+
+### Might be an extension of https://trello.com/c/ICZv5gWq
+
+Pascal#0929 - Bug Bot on 2018-01-08T14:08:24.465Z
+
+
+### Verified - Jared on 2018-01-08T18:43:58.198Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-01-08T18:44:03.336Z
+
+
+### This bug is basically not fixable with the current implementation of our chat.
+
+**However** we have a larger task planned in the future that will basically re-do how we render our chat list.  Thus this is technically being fixed but not until that gets done. - Miguel Gaeta on 2018-03-17T00:15:21.832Z
+
+
+### Moved from Verified Bugs to Won't Fix by Miguel Gaeta on 2018-03-17T00:15:32.054Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than one month with no new activity.  - Ghoul on 2018-06-01T00:12:55.230Z
+
+
+### Archived by Ghoul on 2018-06-01T00:12:59.722Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

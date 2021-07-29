@@ -1,0 +1,80 @@
+[Archived] This GIF looks differently after being processed by Discord's coding and algorithms. (https://trello.com/c/Ort33NA3)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-07-08T12:54:29.954Z
+Latest Update: 2018-10-22T20:22:45.341Z
+
+Reported by NieDzejkob#2571
+
+####Steps to reproduce:
+- Download the image in question:  
+- See that only the yellow square is blinking 
+- Send the image with a message 
+- Click on the image to bring up the image to the center of the screen 
+- See that the image didn't change 
+- Click outside of the image to dismiss the enlarged view 
+- Look at the picture in the message, hovering over it if necessary 
+- Notice that the red area started changing into dark yellow too
+
+####Expected result:
+The red area stays red as in the original image
+####Actual result:
+The red result is changing even though it isn't in the original GIF
+####Client settings:
+Release Channel: stable, Build Number: 18280, Version Hash: 9fed7c903d2a5cd3fba8e16b269ed4b1f48c159f
+####System settings:
+Linux 4.17.3-1-ARCH #1 SMP PREEMPT; Firefox 61.0
+
+15226
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-08T12:54:29.954Z
+
+
+### TimThe#1118 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b4209859d980f3b9298c98b/60a4c31308f5ca3934d5e8772a3ecf0d/render.gif added by Bug Bot on 2018-07-08T12:54:32.397Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803 (Canary build 18317) to see how it has to look like open the link on your browser
+
+TimThe#1118 - Bug Bot on 2018-07-08T12:54:37.265Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 18317
+
+MoonlightCapital#0554 - Bug Bot on 2018-07-08T12:54:42.246Z
+
+
+### Can reproduce.
+Fedora 28 with KDE & Google Chrome 67.0.3396.99 (Official Build) (64-bit) & Discord Canary 18317
+
+KJP12#3880 - Bug Bot on 2018-07-08T12:54:47.293Z
+
+
+### If it helps, the image was generated using imageio.mimwrite(io.BytesIO(), frames, loop=0, duration=durations, format='GIF-PIL', subrectangles=True) in Python
+
+NieDzejkob#2571 - Bug Bot on 2018-07-08T13:12:09.762Z
+
+
+### Possibly related to https://github.com/discordapp/lilliput/issues/27 - Tarek on 2018-07-08T22:11:57.437Z
+
+
+### verified, macos 10.12.6, canary 18361 - Clayton on 2018-07-09T21:18:47.086Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-09T21:18:54.977Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:45.343Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

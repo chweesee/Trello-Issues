@@ -1,0 +1,104 @@
+[Archived] Message context menu has more priority than the message deletion modal when pressing ESC (https://trello.com/c/ZmHkJvnM)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-02-07T11:42:47.278Z
+Latest Update: 2018-08-21T23:40:11.695Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Click the three dots of a message 
+- Select the Delete option to open the modal 
+- Press ESC to attempt to close it
+
+####Expected result:
+Message deletion modal is closed
+####Actual result:
+The message context menu in the background is closed instead
+####Client settings:
+Discord Canary 0.0.201, Build 10328
+####System settings:
+Windows 10 Home 64-bit
+
+8564
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-07T11:42:47.278Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary 0.0.202, Build 10328
+
+Eagler1997#7990 - Bug Bot on 2018-02-07T11:42:54.644Z
+
+
+### Can reproduce.
+CR, Windows 10 1709 x64, Canary build 10328
+
+AEnterprise#4693 - Bug Bot on 2018-02-07T11:42:59.709Z
+
+
+### Can reproduce.
+Discord Canary 0.0.202 (10328) on Windows 10 Pro 64-bit (1709)
+
+Tarek#1337 - Bug Bot on 2018-02-07T11:43:04.653Z
+
+
+### Can reproduce.
+Windows 10 Pro Build 17083 (1709), Discord Canary 0.0.202 Build 10328
+
+bloxxerDTC#6982 - Bug Bot on 2018-02-07T12:10:12.313Z
+
+
+### Can reproduce.
+Win10 Home 64-bit, Canary 10382
+
+Ninjadude501#4710 - Bug Bot on 2018-02-08T06:01:38.708Z
+
+
+### Verified.  - Clayton on 2018-02-08T22:29:14.236Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-08T22:29:24.922Z
+
+
+### this also happens in the reactions modal
+
+brxxn#0632 - Bug Bot on 2018-03-11T03:08:48.299Z
+
+
+### This only occurs with the reactions modal.
+
+webhp#1337 - Bug Bot on 2018-07-02T16:59:07.020Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a7ae6373ef6e0f1851d13a8/313007a09dbfb54bf17df5bed65183f1/rUhr6Ia.gif added by Bug Bot on 2018-07-14T12:24:15.938Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.211 (20025) on Windows 10 Pro 64-bit (1803)
+
+BadWord#6818 - Bug Bot on 2018-07-27T06:38:52.849Z
+
+
+### Cannot reproduce anymore, Canary 20025, moving to claimed fixed. - Tarek on 2018-07-27T06:40:49.553Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-27T06:40:55.533Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:40:10.912Z
+
+
+### Archived by Jared on 2018-08-21T23:40:11.697Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

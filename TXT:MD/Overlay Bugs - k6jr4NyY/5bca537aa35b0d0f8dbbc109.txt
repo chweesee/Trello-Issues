@@ -1,0 +1,85 @@
+[Archived] When using the game invite modal you can send invites to channels where you don't have send message permissions. (https://trello.com/c/G8yzMfHi)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-19T21:58:18.262Z
+Latest Update: 2019-04-28T17:36:47.785Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Open a game that supports inviting through the overlay (I used King of the Hat) 
+- Click on the button in the game to open the invite modal in the overlay 
+- Type a channel in which you don't have send messages permissions.
+
+####Expected result:
+You are unable to click invite.
+####Actual result:
+It attempts to send the message and you get an incorrect error from Clyde.
+####Client settings:
+Discord Canary 25648
+####System settings:
+Windows 10 Pro x64 v1809
+
+20907
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-19T21:58:18.262Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bca537aa35b0d0f8dbbc109/be5a318d8ba2ecb2afd293d3ebe0ffff/Lhf4H5A.png added by Bug Bot on 2018-10-19T21:58:20.741Z
+
+
+### Can reproduce.
+can reproduce Windows 10 Pro x64 Canary Build 26151
+
+Azrael#6867 - Bug Bot on 2018-10-19T21:58:25.655Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26581
+
+Neiron#7777 - Bug Bot on 2018-10-19T21:58:30.557Z
+
+
+### Can reproduce.
+Can repro. Windows 10 Pro x64 - Canary 26622
+
+zephr#1634 - Bug Bot on 2018-10-19T21:58:35.574Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 26622
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-20T00:37:20.471Z
+
+
+### verified.  - Clayton on 2018-10-20T01:11:32.700Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26655
+
+Hole#0001 - Bug Bot on 2018-10-20T07:00:19.885Z
+
+
+### Can reproduce.
+Windows 10 Home x64 build 17763.xxx
+
+a cat#5379 - Bug Bot on 2018-12-25T20:13:00.038Z
+
+
+### Archived by Bug Bot on 2019-01-24T20:30:02.872Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-04-28T17:36:47.623Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,67 @@
+[Archived] small servers (tested with up to 6 members) mention suggestion list will show users who are no longer in the server (https://trello.com/c/I6wWANln)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-10T13:04:52.599Z
+Latest Update: 2018-10-22T20:24:24.192Z
+
+Reported by Uptightjoker#0001
+
+####Steps to reproduce:
+- Create a new server or be in a small server 
+- type @ in the message bar 
+- see suggestions of users to mention 
+- kick one of the members, or have one of them leave 
+- type @ in the message bar again 
+- see suggestions of users to mention
+
+####Expected result:
+only users/roles in the server should be suggested as mentions
+####Actual result:
+The user that left or was kicked still shows up in the suggestion list, even after reloading client and clearing cache
+####Client settings:
+Browser Canary (both Firefox 61.0.1 and Chrome 68.0) build number 21032
+####System settings:
+WIN7 enterprise
+
+17098
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-10T13:04:52.599Z
+
+
+### Can reproduce.
+Can reproduce, kicking the user did not work but having them leave themselves did. Even after a client restart the user is still in the mentions autocomplete Windows 10 Pro x64, Disccord Canary  20849
+
+Delite#0001 - Bug Bot on 2018-08-10T13:05:00.145Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 5, TestFlight 2.3.6 (6691) - Also happens with iOS
+
+Pascal#0929 - Bug Bot on 2018-08-10T13:05:05.413Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 6) - TestFlight 2.3.6 (6691)
+
+Xylium#1480 - Bug Bot on 2018-08-10T13:05:10.184Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T21:55:03.637Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T21:55:17.414Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:24.194Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

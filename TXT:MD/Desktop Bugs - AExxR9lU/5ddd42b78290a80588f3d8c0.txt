@@ -1,0 +1,154 @@
+The Bitrate in Debug settings always shows 600Kbps, no matter what you set the VC bitrate at. (https://trello.com/c/hea4I2kv)
+
+None
+
+Created: 2019-11-26T15:20:23.429Z
+Latest Update: 2020-07-16T21:26:05.770Z
+
+Reported by Krypton#3342
+
+####Steps to reproduce:
+- Join a Voice Channel. 
+- Set the bitrate of the voice channel to anything you want. (You can also keep it at default) 
+- Now click the little i symbol i.e "Connection Info" option beside the disconnect button and then click the "Debug" option. 
+- Observe the "Available Outgoing Bitrate".
+
+####Expected result:
+The bitrate should match the bitrate you have set in that voice channel.
+####Actual result:
+It always show 600Kbps no matter what you set the bitrate at.
+####Client settings:
+Release Channel: canary, Build Number: 50260, Version Hash: 37012beecbfe4bf62ccdaf018127dfca0ef4c075
+####System settings:
+Windows 10 Home x64
+
+48877
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-26T15:20:23.429Z
+
+
+### Krypton#3342 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ddd42b78290a80588f3d8c0/6855a6d08d67ea11a43d43faee3faec4/bit.PNG added by Bug Bot on 2019-11-26T15:20:28.210Z
+
+
+### Can reproduce.
+Stays at 300 for me | CR MacOS (10.1.3.6 High Sierra) on Browser (Chrome) stable 50260
+
+myacorn#6534 - Bug Bot on 2019-11-26T15:20:31.328Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Discord stable: 50260
+
+NeverCookFirst#5630 - Bug Bot on 2019-11-26T15:20:36.307Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1903) - Discord Canary 50260
+
+Jamalek#0025 - Bug Bot on 2019-11-26T15:20:41.301Z
+
+
+### Can reproduce.
+Windows 10 Home x86 - Discord Canary 50260
+
+Anatolia#0101 - Bug Bot on 2019-11-26T15:25:53.074Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 x64, Canary 50260
+
+Warwick#9999 - Bug Bot on 2019-11-26T15:42:47.213Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 50260
+
+RPS1222#5127 - Bug Bot on 2019-11-26T16:58:41.063Z
+
+
+### Can reproduce.
+Canary 50127, Windows 10
+
+Rohit#3523 - Bug Bot on 2019-11-26T17:13:24.033Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909, Canary 50260 host 0.0.259
+
+Jean20B#4668 - Bug Bot on 2019-11-26T18:00:42.903Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 50260
+
+Jiralite#1207 - Bug Bot on 2019-11-26T18:05:22.420Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro (1903), Discord Canary 50225
+
+TheRudeDude#6040 - Bug Bot on 2019-11-26T18:41:04.006Z
+
+
+### Can reproduce.
+Windows 10 Pro 1903, Discord Canary 50368
+
+Hufy#0001 - Bug Bot on 2019-11-26T22:20:36.635Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary (50368)
+
+MikeTheSpike#0350 - Bug Bot on 2019-11-26T22:25:59.921Z
+
+
+### Can reproduce.
+CR : MacBook Pro : macOS Mojave 10.14.6, Discord Canary 50353
+
+Alice 💜#0101 - Bug Bot on 2019-11-26T23:18:05.797Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 50413 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-27T02:35:51.695Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 50415
+
+Action Potential#6862 - Bug Bot on 2019-11-27T06:12:28.604Z
+
+
+### Can reproduce.
+Lenovo Helix Ultra 2 • Windows 10 v1803 • Discord Canary 50260
+
+CentralPier9#5471 - Bug Bot on 2019-11-28T19:54:47.355Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit (v1909), Discord Canary 0.0.259 Build 50474
+
+ryan#0570 - Bug Bot on 2019-11-29T05:01:47.570Z
+
+
+### Can reproduce.
+Windows 10 64bits Version 1903, Discord Stable 50474
+
+Philip#0001 - Bug Bot on 2019-11-29T06:02:36.488Z
+
+
+### Can reproduce.
+Canary 50127, Windows 10
+
+Rohit#3523 - Bug Bot on 2019-12-03T09:57:03.592Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,97 @@
+[Archived] [iOS 10+ only] [iPad with 11"/or smaller only] Text of the buttons after the first six ones disappears when closing keyboard (https://trello.com/c/kWfagxbA)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-15T15:36:10.961Z
+Latest Update: 2019-11-02T16:30:04.490Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Rotate your iPad to the landscape mode 
+- Make sure you have `Manage Messages` and `Add Reaction` permission (so all buttons appear) 
+- Go to a text channel and send any message 
+- In the same chat: Click on the message field to open the virtual keyboard 
+- Long press on the message you've sent before 
+- Close the virtual keyboard 
+- Observe the last two buttons for the message interaction
+
+####Expected result:
+All buttons for the message menu should be visible.
+####Actual result:
+The last 2 buttons (Delete message and Report) aren't visible. Only touching them makes it visible.
+####Client settings:
+TestFlight 2.2.0 (2080)
+####System settings:
+iPad Air 2, iOS 11.2.5 Public Beta 5
+
+7793
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-15T15:36:10.961Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a5cca6a29f8adc9fcb6c8fd/23fd68bf074bcf014eca7669e200cd24/PGEiB6w.jpg added by Bug Bot on 2018-01-15T15:36:13.363Z
+
+
+### HyperKids#4976 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a5cca6a29f8adc9fcb6c8fd/93ff503435dcfeb43deb01c78bee4f1f/io3RFgb.gif added by Bug Bot on 2018-01-15T15:36:13.569Z
+
+
+### Can reproduce.
+CR, iPad Air 1st Gen, iOS 11.1.2, Discord TestFlight 2.2.0 (2080). | If you do it without manage messages only, text for one of the buttons for message interactions would be missing.
+
+Ghoul#4567 - Bug Bot on 2018-01-15T15:36:18.280Z
+
+
+### Can reproduce.
+CR, Ipad air, ios 11 using discord testflight 2.2.0 build 2080
+
+Jakob#6834 - Bug Bot on 2018-01-15T15:36:23.245Z
+
+
+### Can reproduce.
+iPad 4, iOS 10.3.3, Discord Stable 2.2.0. Somehow I was able to reproduce this on my iPad too. Weird.
+
+Jimmi#3030 - Bug Bot on 2018-01-15T15:36:28.259Z
+
+
+### Verified. Extremely minor. - Jared on 2018-02-13T23:03:27.720Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-13T23:03:36.415Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:39.430Z
+
+
+### Unarchived by Pascal on 2019-10-03T11:13:11.568Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-10-03T11:13:17.084Z
+
+
+### Moved from Claimed Fixed Bugs to Backlog by Pascal on 2019-10-03T15:51:30.373Z
+
+
+### Bild.jpeg - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a5cca6a29f8adc9fcb6c8fd/bfb12ae91ea345be8154e2c8482f1925/Bild.jpeg added by Pascal on 2019-10-03T15:52:40.414Z
+
+
+### **Extension of the issue: server context menu**
+If you are clicking on the 3 dots to open server context menu and do the steps as mentioned below, some of the buttons no longer have text.
+
+- - -
+The original issue got fixed due to a redesign. - Pascal on 2019-10-03T16:04:53.602Z
+
+
+### Archived by Bug Bot on 2019-11-02T16:30:04.505Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

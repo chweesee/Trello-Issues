@@ -1,0 +1,60 @@
+With hardware acceleration enabled, Discord will not re-render the window unless the window is resized. (https://trello.com/c/9rZI9Uaq)
+
+P3: Will eventually be fixed,
+mid
+
+Created: 2018-10-09T02:39:31.957Z
+Latest Update: 2018-10-09T21:37:20.505Z
+
+Reported by MapleFlavoured#0048
+
+####Steps to reproduce:
+- Perform a clean installation of Discord or Discord Canary 
+- Open Discord [Canary] 
+- Focus any text field and type anything 
+- Observe the selected text field 
+- Resize the Discord [Canary] window a few times 
+- Observe the selected text field again 
+- Repeat the previous four (4) steps again 
+- Log in to Discord 
+- Open settings and disable Hardware Acceleration 
+- Let Discord [Canary] restart 
+- Go to any text field and type 
+- Observe the selected text field 
+- Resize the Discord [Canary] window a few times 
+- Observe the selected text field again
+
+####Expected result:
+Text fields change focus dynamically, text appears dynamically when typed, resizing the window does not make text appear
+####Actual result:
+Text fields do not change focus dynamically. Text does not appear dynamically. Resizing the window causes text to appear
+####Client settings:
+Desktop Canary build 24683
+####System settings:
+Arch x86_64 release 2018.09.01 (kernel 4.18.5) Xfce, Intel integrated graphics
+
+20199
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-09T02:39:31.957Z
+
+
+### Starshine Dust#2189 - https://youtu.be/75BbTL6uWq4 added by Bug Bot on 2018-10-09T02:39:34.290Z
+
+
+### Can reproduce.
+can repro, canary 25638, been sitting here a while so pushing through
+
+IcyPebbles#5833 - Bug Bot on 2018-10-09T02:39:39.546Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-10-09T21:37:20.491Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

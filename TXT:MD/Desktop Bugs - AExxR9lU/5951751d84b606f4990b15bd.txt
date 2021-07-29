@@ -1,0 +1,85 @@
+[Archived] Trying to delete a voice channel you have manage channel permissions to but not connect permissions to doesn't delete it. (https://trello.com/c/rFMiwFKc)
+
+P2: Fix can wait a while
+
+Created: 2017-06-26T20:57:01.403Z
+Latest Update: 2019-04-22T07:47:34.587Z
+
+Reported by Alkali_Metal#7806
+
+####Steps to reproduce:
+- Be in a server that you have manage channels permissions in but are not the server owner. 
+- Create a voice channel that you do not have permission to join. 
+- Right click it (or go into the full settings modal) and try to delete it.
+
+####Expected result:
+It deletes the voice channel.
+####Actual result:
+It doesn't do anything.
+####Client settings:
+Canary 0.0.19
+####System settings:
+Ubuntu 16.04 LTS
+
+1886
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-26T20:57:01.403Z
+
+
+### Can reproduce.
+ Gentoo 64-bit default/linux/amd64/13.0, Canary 0.0.19
+
+Info Teddy#3737 - Bug Bot on 2017-06-26T20:57:06.028Z
+
+
+### Can reproduce.
+Also prevents you from saving changes to the channel - Windows 10 Pro x64, Canary 0.0.157
+
+mouse91#3089 - Bug Bot on 2017-06-26T20:57:08.136Z
+
+
+### Can reproduce.
+CP buggy idd  Windows 10 Pro build 1703 Canary 0.0.157
+
+Ana#0950 - Bug Bot on 2017-06-26T20:57:10.030Z
+
+
+### Verified.  - Clayton on 2017-06-28T19:23:53.212Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-28T19:24:00.341Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Shadi Isber on 2017-06-29T19:23:14.544Z
+
+
+### Checked as of latest canary:
+
+I can no longer reproduce this myself. Delete/Edit is now hidden, checked with Flam and this is the new intended behaviour.
+
+As per Dabbit's new "you can move stuff into claimed fixed" thingy, I'm movin' it. - Alexander (DJScias) on 2017-07-01T12:52:16.255Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexander (DJScias) on 2017-07-01T12:52:20.648Z
+
+
+### Verified Fixed! - Jared on 2017-07-07T23:30:21.636Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-07-07T23:30:25.631Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:33:01.404Z
+
+
+### Archived by Jared on 2017-10-17T20:33:02.326Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

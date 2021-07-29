@@ -1,0 +1,77 @@
+[Archived] Benign visual glitch causing the channel drawer to incorrectly overlay the notification bar when in RTL layout. (https://trello.com/c/ZtryPncc)
+
+None
+
+Created: 2019-07-17T22:54:01.902Z
+Latest Update: 2020-02-20T21:33:44.157Z
+
+Reported by not skelutena#2223
+
+####Steps to reproduce:
+- Open phone settings 
+- Locate developer options 
+- Enable "Force RTL Layout" 
+- Launch Discord 
+- Open channel drawer
+
+####Expected result:
+Channel drawer overrides the background of the notification bar, while leaving notification icons visible on top
+####Actual result:
+Channel drawer overrides most of the background, but leaves a strange space toward the edge of the drawer
+####Client settings:
+Android Beta 9.0.9
+####System settings:
+Samsung Galaxy S7, Android Nougat 7.0
+
+39487
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-17T22:54:01.902Z
+
+
+### Can reproduce.
+CR Honor 7S, Android 8.1, Android Alpha 9.1.2-SA
+
+mesub#0556 - Bug Bot on 2019-07-17T22:54:09.629Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8 Android 8, Alpha 9.1.5
+
+Action Potential#2494 - Bug Bot on 2019-07-17T22:54:14.643Z
+
+
+### Can reproduce.
+can repro, samsung s6 edge, android 7.0, alpha 9.1.5
+
+IcyPebbles#5833 - Bug Bot on 2019-07-17T22:54:19.603Z
+
+
+### Can reproduce.
+CR; OnePlus 5 Android 7.1.1, Discord 9.1.5
+
+||Kissa||#1337 - Bug Bot on 2019-07-17T23:49:14.126Z
+
+
+### Can reproduce.
+Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.1.6
+
+Krobo#4784 - Bug Bot on 2019-07-18T01:35:57.376Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord Alpha 916
+
+Jean20B#4668 - Bug Bot on 2019-07-18T10:15:07.542Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:44.168Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,216 @@
+[Archived] Removing all reactions on a message causes Discord to crash (https://trello.com/c/k053fZpS)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-12-12T03:21:07.827Z
+Latest Update: 2019-08-03T13:52:25.283Z
+
+Reported by dotJS#2125
+
+####Steps to reproduce:
+- Open a channel where you have "Manage Messages" permission 
+- Press the 3 dots next to a message with 2 or more reactions 
+- Delete all the reactions by everyone, so there are none left 
+- Discord will crash when it's loading after you've deleted all reactions
+
+####Expected result:
+The "Reactions" popup should close
+####Actual result:
+Discord crashes
+####Client settings:
+Desktop Canary, 8440
+####System settings:
+macOS 10.13.1, MacBook Pro 13"
+
+6926
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-12T03:21:07.827Z
+
+
+### QwakGoesDuck#9672 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a2f4b232ba9e4b7bc898a65/f99922e0e3e08d38200027d2c3c7b157/qpuulUE.gif added by Bug Bot on 2017-12-12T03:21:10.859Z
+
+
+### Can reproduce.
+Macbook Pro 2015 Screen resolution: 15,4-inch (2880 x 1800), MacOS Sierra: Version 10.13.2 Discord Canary 0.0.172 (0.0.172) Build: 8440
+
+xLars#5484 - Bug Bot on 2017-12-12T03:21:15.155Z
+
+
+### Can reproduce.
+Dell Latitude E5540 with Windows 10 Fall Creators Update, Discord Canary 0.0.182 (Build 8440)
+
+Ghoul#4567 - Bug Bot on 2017-12-12T03:21:20.163Z
+
+
+### Can reproduce.
+CR, Canary 0.0.182, build 8440, Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2017-12-12T03:21:25.168Z
+
+
+### Can reproduce.
+Dell Inspiron 15 Windows 10 Creators Update Discord Canary 8440 Took 3 reactions from 2 reactions to crash discord.
+
+Christmas Tiger™ 🎄#6437 - Bug Bot on 2017-12-12T03:43:01.477Z
+
+
+### Possibly related to the upcoming fix here? https://trello.com/c/4VAmzrFd/248-when-deleting-reactions-it-leaves-the-loading-gif-behind
+
+The old card was the previous behaviour that happened before it crashed. - Alexander (DJScias) on 2017-12-12T04:01:37.280Z
+
+
+### Can reproduce.
+Windows 10 Creators Update x86
+
+Ticha#2648 - Bug Bot on 2017-12-12T04:16:32.324Z
+
+
+### Can reproduce.
+Windows 8.1 x86
+
+Ticha#2648 - Bug Bot on 2017-12-12T04:26:15.126Z
+
+
+### Verified. Only happens when manually deleting each reaction. - Jared on 2017-12-12T21:54:28.921Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-12-12T21:54:32.833Z
+
+
+### Seems to be fixed, Canary 8486
+
+dotJS#2125 - Bug Bot on 2017-12-13T07:20:02.189Z
+
+
+### Can reproduce.
+Windows 10x64 . Dell Inspiron 3847
+
+Sparky Kitty#5374 - Bug Bot on 2017-12-20T03:18:12.523Z
+
+
+### Right clicking a message and clicking "Remove all reactions" does NOT crash the client
+
+Zacatero#5839 - Bug Bot on 2017-12-27T14:06:49.023Z
+
+
+### Can't reproduce.
+I no longer crash, but it's just the infinite loading now. Windows 10 Professional x64, Fall Creators Update, Discord Canary Build 9258
+
+Ghoul#4567 - Bug Bot on 2018-01-05T19:39:55.775Z
+
+
+###  I'm still able to reproduce on 9280 - Tarek on 2018-01-05T19:44:19.890Z
+
+
+### Verified issue can still be reproduced as written. - Jared on 2018-01-08T19:20:19.447Z
+
+
+### Can reproduce.
+Client Settings: [BUILD INFO] Release Channel: ptb, Build Number: 10096, Version Hash: 8135a07927a2069f8160a0a1f569742b211ec307 System Settings: Windows 7 Ultimate SP1 x64
+
+ShoeMaker#2561 - Bug Bot on 2018-01-31T23:37:22.316Z
+
+
+### Can reproduce.
+https://i.imgur.com/fc0p0Yn.gifv Windows 10 Pro, Live Client.
+
+TripleCharged#3333 - Bug Bot on 2018-02-21T00:19:19.785Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Michael Fong on 2018-02-23T00:13:32.011Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Michael Fong on 2018-02-26T19:54:32.835Z
+
+
+### I can reproduce this again on Discord Canary 0.0.203 (11585). reopening ticket. - Tarek on 2018-03-06T22:57:51.688Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-03-06T22:57:56.650Z
+
+
+### Can reproduce.
+Linux Mint 18 Cinnamon DE stable 11964, Windows 10 PTB 12010
+
+ChrisJ#8703 - Bug Bot on 2018-03-14T06:27:33.396Z
+
+
+### Can reproduce.
+Can only reproduce when the last deleted reaction is not the logged in user. Works with just a single reaction.
+
+ChrisJ#8703 - Bug Bot on 2018-03-14T06:48:26.700Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12159
+
+cutelilberry#5423 - Bug Bot on 2018-03-16T12:12:15.254Z
+
+
+### Can reproduce.
+Windows 10 64-Bit (1709), Desktop Canary 12955
+
+Maika#9523 - Bug Bot on 2018-04-01T12:04:40.389Z
+
+
+### Can reproduce.
+Windows 8 (6.2) Build 9200 x64 Discord Canary Build 12955
+
+SweetSofiMC#8821 - Bug Bot on 2018-04-02T22:11:24.489Z
+
+
+### Cannot reproduce anymore, I just get the infinite loading animation now. Discord Canary 0.0.204 (13548) on Windows 10 Pro 64-bit (1709)
+
+Moving to claimed fixed. - Tarek on 2018-04-13T12:12:06.366Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Tarek on 2018-04-13T12:12:09.873Z
+
+
+### FeelsBadMan, appears to be happening when there is only one emoji reaction, if there is more than one. There will be no crash. Reopening ticket again. - Tarek on 2018-04-13T12:46:42.420Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-04-13T12:46:46.725Z
+
+
+### With the TestFlight versions 2.3.1 (4025), now that iOS users can see all reactions this also happens on iOS
+
+QwakGoesDuck#0420 - Bug Bot on 2018-04-26T20:37:37.457Z
+
+
+### Verified on iPhone 5s, ios 11 - Clayton on 2018-04-28T01:38:33.254Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 11.3.1
+
+Nukey6#4055 - Bug Bot on 2018-05-05T01:44:49.913Z
+
+
+### Can reproduce.
+iPhone 6 iOS 11.2.2, TestFlight 2.3.1
+
+missthesnow#1533 - Bug Bot on 2018-05-20T18:56:05.517Z
+
+
+### Cannot reproduce anymore Canary 16329, And I really hope this time it's fixed. :meowglare:  - Tarek on 2018-06-01T00:02:04.611Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Tarek on 2018-06-01T00:02:08.464Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-07-06T17:37:23.518Z
+
+
+### Archived by Jared on 2018-07-06T18:06:16.546Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/meishuu) - No Bio

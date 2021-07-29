@@ -1,0 +1,74 @@
+[Archived] If you click the "mention" button on a dead invite in a channel you don't have perms to type in, you'll have a draft in quick switcher (https://trello.com/c/1tGrbqTC)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-12-06T19:56:27.030Z
+Latest Update: 2018-08-21T23:49:09.286Z
+
+Reported by Dropheart#6441
+
+####Steps to reproduce:
+- Find a channel that you don't have perms to speak in, which contains a dead invite 
+- Click the "mention" button on the dead invite (you must have the new invites for this) 
+- Go to two other channels (to clear last channel) 
+- Click control + k and observe
+
+####Expected result:
+It shouldn't allow you to be able to use the mention button since you don't have permission to actually send messages
+####Actual result:
+It allows you to use the mention button, but the text box stays the same with the no perms message, and the channel appears in quick switcher under drafts
+####Client settings:
+Canary, Build Number: 8055
+####System settings:
+Zorin OS, based off of Ubuntu 16.04
+
+6839
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-06T19:56:27.030Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.1, Discord Stable Web Build 8119, Chrome 62.0.3202.94
+
+Pascal#0929 - Bug Bot on 2017-12-06T19:56:34.422Z
+
+
+### Can reproduce.
+CR Windows 10 1709 x64, Canary build 8121
+
+AEnterprise#4693 - Bug Bot on 2017-12-06T19:56:39.428Z
+
+
+### Can reproduce.
+CR, Discord Canary Web (Build 8119), Chrome 62.0.3202.94, Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-12-06T19:56:44.452Z
+
+
+### Verified.  - Clayton on 2017-12-12T23:21:40.956Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-12T23:21:44.352Z
+
+
+### Cannot reproduce. Marking as Verified Fixed. - Jared on 2018-07-05T17:20:23.927Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-05T17:20:29.430Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:49:08.528Z
+
+
+### Archived by Jared on 2018-08-21T23:49:09.287Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,102 @@
+[Archived] Mini profile of a user doesn’t show the correct server mute status when the user is server muted by default (https://trello.com/c/s0scGZt8)
+
+None
+
+Created: 2019-07-12T20:52:13.578Z
+Latest Update: 2019-08-18T20:30:27.487Z
+
+Reported by Calvandos ~DST#6666
+
+####Steps to reproduce:
+
+- Create a voice channel 
+- Deny the permission for everyone to *Speak*
+- Join the voice channel with an alt account that doesn’t have admin permissions and gets server muted in this voice channel
+- With your main account open the Voice Channel and Click on the profile of the alt account
+- Observe the server mute status in the mini profile
+
+####Expected result:
+The server mute toggle in the mini profile should show the correct status.
+####Actual result:
+The alt account is shown as not server muted even though they are. You have to server mute and server unmute to show the correct status.
+####Client settings:
+Stable 3.0.5
+####System settings:
+iPhone 7
+
+38907
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-12T20:52:13.578Z
+
+
+### Can reproduce.
+iPhone 6s iOS 13 (Public Beta) TestFlight 3.0.5 (16102) (if someone is muted by default by the voice channel the miniprofile doesn't reflect the change)
+
+GlenMerlin#2119 - Bug Bot on 2019-07-12T20:52:21.328Z
+
+
+### Can reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 3) - Testflight 3.0.6 (16185)
+
+Xylium#5800 - Bug Bot on 2019-07-12T20:52:26.308Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 Dev Beta 5 — TestFlight 3.0.6 (16182)
+
+Nith#1337 - Bug Bot on 2019-07-12T20:52:31.373Z
+
+
+### Cannot reproduce as of TestFlight 3.0.6 (16208) with iPad Pro (11 inch) running iOS 12.4.
+
+The server mute change is always shown instantly for me.
+
+Also **please make sure** to use a proper title, in general a more descriptive report and valid client and system settings in the future, the report is very unclear. I had to edit the whole report.
+
+Moving to Cannot Reproduce list. - Pascal on 2019-07-13T11:03:10.208Z
+
+
+### Moved from New Issues to Cannot Reproduce by Pascal on 2019-07-13T11:03:19.795Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.6 (16185)
+
+Skyla#0002 - Bug Bot on 2019-07-14T18:03:47.436Z
+
+
+### Can't reproduce.
+iPad Air (1st gen), iOS 12.3.1 - TF 3.0.6 (16208)
+
+Nicholas#4669 - Bug Bot on 2019-07-14T23:30:07.085Z
+
+
+### Can reproduce.
+iPhone 7 Plus (iOS 13 Developer Beta 3) - Testflight 3.0.6
+
+Jeffrey#1234 - Bug Bot on 2019-07-16T19:26:10.637Z
+
+
+### Can reproduce.
+iPhone 6s iOS 13 (Public Beta) - TF 3.0.6 (16208)
+
+Jasοn#0001 - Bug Bot on 2019-07-16T21:59:45.343Z
+
+
+### Can reproduce.
+iPhone 7, iOS 13 (Public Beta 2) , Testflight 3.0.6 (16208)
+
+ryan#0570 - Bug Bot on 2019-07-19T20:13:08.409Z
+
+
+### Archived by Bug Bot on 2019-08-18T20:30:27.498Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

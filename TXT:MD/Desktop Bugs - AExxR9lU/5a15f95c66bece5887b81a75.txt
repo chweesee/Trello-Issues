@@ -1,0 +1,87 @@
+[Archived] UI flickers when HW acceleration off [macOS specific problem] (https://trello.com/c/ufSyEbUc)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-11-22T22:25:32.741Z
+Latest Update: 2019-01-01T15:45:49.983Z
+
+Reported by Teyloll#4694
+
+####Steps to reproduce:
+- Turn off hardware acceleration 
+- Relaunch Discord 
+- Switch between joined servers randomly, hover mouse over different parts of Discord UI, repeatedly
+
+####Expected result:
+Discord displays smooth as butter
+####Actual result:
+Server icon list area and channel list flickers when mouse hovered over. Right part of Textbox disappears breifly.
+Clip1: <>  Clip2:
+ <>
+####Client settings:
+Discord Canary(7502) / PTB(7503), HW Acceleration [Off], Dev Mode [On]
+####System settings:
+MacBook Pro (Retina, 15-inch, Mid 2014), macOS High Sierra 10.13.2 Beta (17C79a), Automatic graphics switching [On]
+
+6514
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T22:25:32.741Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.1, Discord Canary 0.0.170 (Build: 7502)
+
+Pascal#0929 - Bug Bot on 2017-11-22T22:25:40.252Z
+
+
+### Can reproduce.
+Can repro, macOS 10.12.6. Canary 0.0.170
+
+IcyPebbles#5833 - Bug Bot on 2017-11-22T22:25:45.249Z
+
+
+### Can reproduce.
+Can reproduce, null
+
+Dabbit Prime#0896 - Bug Bot on 2017-11-22T22:25:50.294Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-28T19:55:08.524Z
+
+
+### Can reproduce.
+Happens with HW acceleration off, works fine with HW acceleration on. This only happens when the resolution of the window is >1920x1080 (I'm on a 4k Monitor).
+
+Petruslol#0001 - Bug Bot on 2018-05-03T17:19:48.665Z
+
+
+### Can reproduce.
+Happens with HW acceleration off, works fine with HW acceleration on. This only happens when the resolution of the window is >1920x1080 (I'm on a 4k Monitor). Win10, pro 16299
+
+Petruslol#0001 - Bug Bot on 2018-05-03T17:23:31.220Z
+
+
+### Kuuhaku#4503 - https://puu.sh/Aflqt/870c92903a.gif added by Bug Bot on 2018-05-03T17:27:23.384Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T06:29:29.565Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T06:29:36.189Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:45:49.135Z
+
+
+### Archived by Tarek on 2019-01-01T15:45:49.985Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

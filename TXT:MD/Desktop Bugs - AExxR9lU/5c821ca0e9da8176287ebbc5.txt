@@ -1,0 +1,76 @@
+[Archived] When pasting a unicode emoji into the server description field, it converts into twemoji (https://trello.com/c/23BIPlks)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-08T07:41:20.174Z
+Latest Update: 2019-10-23T23:02:26.968Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Have access to server settings to a VERIFIED server 
+- Go to server settings -> server overview 
+- Paste a unicode emoji 
+- Observe how it turns into : emoji_name :
+
+####Expected result:
+It should show the raw unicode emoji
+####Actual result:
+Outputs the twemoji variant with : emoji_name :
+####Client settings:
+Discord Canary 0.0.233 (33595)
+####System settings:
+Windows 10 Pro 64-bit (1809)
+
+30500
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-08T07:41:20.174Z
+
+
+### Tarek#1337 - https://i.imgur.com/CJMDh4Z.gifv added by Bug Bot on 2019-03-08T07:41:22.569Z
+
+
+### Can reproduce.
+MacBook Pro 15" - macOS 10.14.2 Mojave - Canary Build 33571
+
+mrkirby153#7840 - Bug Bot on 2019-03-08T07:41:27.473Z
+
+
+### Can reproduce.
+Canary 33595 - Windows 10, 1803
+
+Logiz#0001 - Bug Bot on 2019-03-08T07:41:32.527Z
+
+
+### Can reproduce.
+Windows 10 1809 x64, canary build 33595
+
+AEnterprise#4693 - Bug Bot on 2019-03-08T07:41:37.540Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1803) - Canary 33599
+
+Cave#9091 - Bug Bot on 2019-03-08T15:06:45.222Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 33595
+
+Lelantos#4866 - Bug Bot on 2019-03-08T19:17:30.878Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T21:09:58.441Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:26.981Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

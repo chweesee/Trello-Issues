@@ -1,0 +1,121 @@
+When trying to use the multi-line code block, pressing "Tab" indents the line and then skips to the end of the block. (https://trello.com/c/H4DV3oGE)
+
+None
+
+Created: 2019-11-13T02:12:08.907Z
+Latest Update: 2020-07-16T21:26:05.610Z
+
+Reported by Deadlus#2721
+
+####Steps to reproduce:
+- Make a new multi-line code block 
+- Write anything in it 
+- Press Tab to try to indent it 
+- Line will be indented but the point where you input text will be moved to the bottom of the code block
+
+####Expected result:
+The line is supposed to be indented without moving the text input point to the end of the code block
+####Actual result:
+Line is indented, the input point for text gets moved to the end of the code block
+####Client settings:
+Desktop Canary 49236
+####System settings:
+Windows 10
+
+47841
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-13T02:12:08.907Z
+
+
+### Can reproduce.
+Windows 10 Pro (1903 18362.418), Canary 49303
+
+Diggy#0649 - Bug Bot on 2019-11-13T02:12:16.344Z
+
+
+### Can reproduce.
+CR | windows 10 home 1903 (x64) | 49331
+
+the_killerbanana#6969 - Bug Bot on 2019-11-13T02:12:21.337Z
+
+
+### Can reproduce.
+CR | Windows 10 Home 1903, Canary 49236
+
+CaptainAether#4104 - Bug Bot on 2019-11-13T02:12:26.744Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 49384
+
+Jiralite#1207 - Bug Bot on 2019-11-13T02:24:26.501Z
+
+
+### Can reproduce.
+Windows 10 Home (x32 1607), Canary 49236
+
+octo#5800 - Bug Bot on 2019-11-13T03:05:10.879Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 49384
+
+Action Potential#6862 - Bug Bot on 2019-11-13T04:49:42.151Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 49384 host 0.0.258
+
+Jean20B#4668 - Bug Bot on 2019-11-13T07:38:49.796Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) Canary 49331
+
+myacorn#6534 - Bug Bot on 2019-11-13T08:47:03.763Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64, Canary 49400
+
+Lorio#0666 - Bug Bot on 2019-11-13T14:55:11.513Z
+
+
+### Can reproduce.
+Windows 8.1 Pro 64 , Canary 49400
+
+andromeda#9990 - Bug Bot on 2019-11-13T15:19:52.167Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 49400 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-13T17:24:25.990Z
+
+
+### Can reproduce.
+Windows 10 Pro 1903, Discord Canary 49207
+
+TheRudeDude#6040 - Bug Bot on 2019-11-13T18:44:34.809Z
+
+
+### Can reproduce.
+Windows 10 Home Build 17763 - Discord Canary Build 49492
+
+Samsamson33#0913 - Bug Bot on 2019-11-14T03:09:03.607Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Pro x64 (1903, Build 18362.476), Canary (49748)
+
+Cerberus#0005 - Bug Bot on 2019-11-17T06:37:28.855Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

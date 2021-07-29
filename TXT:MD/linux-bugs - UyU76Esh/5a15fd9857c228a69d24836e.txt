@@ -1,0 +1,71 @@
+First startup after a clean install will cause a crash-hang due to missing config folder, second try will start up normally. (https://trello.com/c/DXWmtAyt)
+
+P1: Severe,
+mid
+
+Created: 2017-11-22T22:43:36.564Z
+Latest Update: 2018-03-23T20:54:07.675Z
+
+Reported by kiroma#1608
+
+####Steps to reproduce:
+- Uninstall discord 
+- Delete the discord config folder 
+- Reinstall discord 
+- Start discord 
+- (Alternate method) Shut down discord 
+- Delete the discord config folder 
+- Attempt to start up discord
+
+####Expected result:
+Discord creates the directory and starts up normally.
+####Actual result:
+Discord crashed while attempting to find icons in the directory before creating it, causing it to hang.
+####Client settings:
+Canary 7194
+####System settings:
+Kubuntu 17.10 x64
+
+6338
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T22:43:36.564Z
+
+
+### Can reproduce.
+Mint 18 Cinnamon x64 , Canary build 7342
+
+Mikesky#3456 - Bug Bot on 2017-11-22T22:43:43.922Z
+
+
+### Can reproduce.
+It's been sitting here for a while, can reproduce, Kubuntu 17.04
+
+IcyPebbles#5833 - Bug Bot on 2017-11-22T22:43:48.868Z
+
+
+### Can reproduce.
+ArchLinux x64, Canary build: 7653
+
+OfficialBAMM#8049 - Bug Bot on 2017-11-24T09:33:43.738Z
+
+
+### Verified.  - Clayton on 2018-01-08T11:50:42.552Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-01-08T11:50:45.194Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-03-23T20:54:04.680Z
+
+
+### Moved from Discord Verified Bugs to Verified Fixed by Clayton on 2018-03-23T20:54:07.650Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

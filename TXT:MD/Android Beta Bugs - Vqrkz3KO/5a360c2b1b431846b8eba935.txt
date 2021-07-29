@@ -1,0 +1,72 @@
+[Archived] Inconsistent voice channel chatting in a server (https://trello.com/c/kcM1us39)
+
+None
+
+Created: 2017-12-17T06:18:19.485Z
+Latest Update: 2018-01-20T09:25:07.498Z
+
+Reported by [TRED] AlFas#2783
+
+####Steps to reproduce:
+- Be part of a server where you have permission to join any voice channel 
+- Join any of the ones you have permission to talk on 
+- Talk in there with other members using Voice Activity mode to send your voice (unsure if the bug occurs in PTT mode) 
+- Keep talking for a few minutes in a row
+
+####Expected result:
+You are able to talk normally on the voice channel forever
+####Actual result:
+At some point the app will stop keeping the call active, users in the channel will be no longer heard, their mute status will remain and your sound will not go through
+####Client settings:
+Alpha 5.8.6
+####System settings:
+Samsung Galaxy J7 (2016) - Android 7.0 (2GB RAM)
+
+7094
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-17T06:18:19.485Z
+
+
+### Can reproduce.
+Discord 5.8.7, Huawei P8Lite, Android 6.0
+
+Legolas#2139 - Bug Bot on 2017-12-17T06:18:26.827Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, in my experience it says you're still in VoIP even when VoIP is closed and reopening Discord causes it to open to a blank screen until it's been force stopped.
+
+Xander#0259 - Bug Bot on 2017-12-17T06:18:32.760Z
+
+
+### Can reproduce.
+Samsung Galaxy S5, 6.0.1
+
+squiddy#3313 - Bug Bot on 2017-12-17T06:18:36.838Z
+
+
+### Discord becomes unresponsive after joining a VC, you can't disconnect or join another VC. If you exit the app and rejoin you will be greeted with a grey screen and the only fix is to force close the app.
+
+squiddy#3313 - Bug Bot on 2017-12-17T06:24:39.875Z
+
+
+### Cannot reproduce.  - Clayton on 2017-12-19T23:14:52.321Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-12-19T23:14:56.699Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2018-01-20T09:25:06.290Z
+
+
+### Archived by Alexandru Todea on 2018-01-20T09:25:07.501Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

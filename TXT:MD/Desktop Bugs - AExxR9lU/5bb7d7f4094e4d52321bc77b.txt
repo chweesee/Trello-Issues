@@ -1,0 +1,106 @@
+[Archived] If you put an @ symbol inside a link, everything between the http:// and the @ disappears (https://trello.com/c/4xuWKNSw)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-10-05T21:30:28.377Z
+Latest Update: 2019-04-29T00:30:03.249Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Send a message containing a link with an @ symbol inside, e.g `http:// testbug @ dabbit`(make sure to remove spaces) 
+- Observe the message in Android client
+
+####Expected result:
+It should show the link as you typed it
+####Actual result:
+Everything between the protocol and the @ is gone. In this example, `testbug@` will vanish, leaving only `http:// dabbit` in the message view
+####Client settings:
+Discord Alpha 7.6.3
+####System settings:
+Huawei Mate 9 Android 8.0
+
+20691
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-05T21:30:28.377Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android v6.0.1 • Discord Alpha v7.6.3
+
+fujhofn.#0007 - Bug Bot on 2018-10-05T21:30:35.777Z
+
+
+### Can reproduce.
+Android 8 with EMUI; Android Beta 761
+
+Iffabled#0001 - Bug Bot on 2018-10-05T21:30:40.782Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8; 7.6.3
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-05T21:30:45.831Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.6.3 - Clayton on 2018-10-06T01:25:25.753Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-06T01:25:30.929Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.6.3
+
+Hole#0001 - Bug Bot on 2018-10-06T03:38:42.273Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 mini, Android 6.0.1, Alpha 763
+
+Nashorn#3450 - Bug Bot on 2018-10-06T12:48:06.786Z
+
+
+### Can reproduce.
+Samsung Galaxy S6. Android 7.0. Discord Alpha 7.6.3
+
+coolalmostchilly#1015 - Bug Bot on 2018-10-07T00:29:29.131Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 763
+
+The Lunala#7777 - Bug Bot on 2018-10-08T01:01:43.843Z
+
+
+### Archived by Clayton on 2018-11-07T01:30:01.873Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0, Discord Alpha 8.5.9
+
+Law of Royale#6825 - Bug Bot on 2019-03-17T00:04:00.761Z
+
+
+### Unarchived by Bug Bot on 2019-03-17T00:30:07.188Z
+
+
+### Apparently happens on desktop as well.
+Moving to the desktop board. - Tarek on 2019-03-25T07:47:46.878Z
+
+
+### Imported from https://trello.com/b/57f2a306ca14741151990900 by Tarek on 2019-03-25T07:48:03.633Z
+
+
+### Archived by Bug Bot on 2019-04-29T00:30:03.260Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

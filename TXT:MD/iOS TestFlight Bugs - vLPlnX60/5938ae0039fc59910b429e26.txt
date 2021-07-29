@@ -1,0 +1,114 @@
+[Archived] Users with manage roles permission look like they can edit server settings (nothing saves, which is correct) (https://trello.com/c/ke6dP7CU)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-06-08T01:53:04.421Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Ryry013#9234
+
+####Steps to reproduce:
+ - Receive"manage roles" permission, and no other administrative permissions (especially without manage server) 
+ - On iOS, view server settings 
+ - Try to change basic server settings, such as verification level.
+
+####Expected result:
+Without manage server, you should not be able to edit server settings
+####Actual result:
+You should be able to edit some basic server settings such as verification level, but nothing will save because in the end you don't have manage server permission (so, this is just a visual bug). <http://i.imgur.com/vnO1ofA.png>
+####Client settings:
+iOS 1.8.7
+####System settings:
+iPhone 6S - 10.0.1
+
+1495
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-08T01:53:04.421Z
+
+
+### Can reproduce.
+CR,  Windows 10 Home x64, Discord Canary 0.0.155
+
+Joseph#9413 - Bug Bot on 2017-06-08T01:53:08.865Z
+
+
+### Can reproduce.
+CR  iPhone 7 iOS 10.2.1, Discord 1.8.3
+
+Chewie#5684 - Bug Bot on 2017-06-08T01:53:10.945Z
+
+
+### Can reproduce.
+iPhone 6, iOS 10.3.2, Discord 1.8.7
+
+gustav341#7460 - Bug Bot on 2017-06-08T01:53:12.835Z
+
+
+### Verified.  - Clayton on 2017-06-08T21:56:27.096Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-08T21:56:31.803Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 11 Developer Beta 1, Stable 1.8.7
+
+Tinh1000000#4437 - Bug Bot on 2017-06-14T02:54:01.650Z
+
+
+### Can't reproduce.
+CNR, iPhone SE, iOS 10.3.2, TestFlight 2.2.0 (1910)
+
+TimThe#7618 - Bug Bot on 2017-12-16T22:35:58.242Z
+
+
+### vnO1ofA.png - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5938ae0039fc59910b429e26/e7dc05731d11c0c01ad7671dcd75bc38/vnO1ofA.png added by Tarek on 2017-12-17T04:35:34.247Z
+
+
+### I can no longer reproduce, there’s no longer a Server Settings option.
+
+Discord 2.2.0 (1910), iOS 11.2.1, iPhone 8 Plus - Alexandru Todea on 2017-12-17T04:38:30.674Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2017-12-17T04:38:40.873Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T22:36:20.852Z
+
+
+### Can't reproduce.
+CNR, dont have the option anymore, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:40:18.511Z
+
+
+### Can't reproduce.
+Options are either no longer available or greyed out; iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-27T08:26:20.935Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T08:27:07.769Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T08:27:11.358Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:02:40.765Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:02:41.339Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

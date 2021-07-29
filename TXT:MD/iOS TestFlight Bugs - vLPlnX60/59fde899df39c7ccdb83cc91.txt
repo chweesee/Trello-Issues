@@ -1,0 +1,133 @@
+[Archived] Linked images with unsecured connection (http) can't be opened in image preview (https://trello.com/c/4RKJz7TJ)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-11-04T16:19:37.633Z
+Latest Update: 2019-05-05T10:30:24.895Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Send a message with a linked image with unsecured connection (http)
+- Click on this image to open the image preview
+
+####Expected result:
+You should see the image in the image preview.
+####Actual result:
+You will get an error "Failed to load the image. Please try again.". This problem only happens with unsecured links because uploading the same image to imgur (secured) and linking it will show it.
+####Client settings:
+TestFlight 1.10.0 (1476)
+####System settings:
+iPhone 6s with iOS 11.1 & iPad Air 2 with iOS 11.2 PB 1
+
+6099
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-04T16:19:37.633Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59fde899df39c7ccdb83cc91/9d56712b9f9283a6cf6fd3d3be7b9b83/TnLyhcI.jpg added by Bug Bot on 2017-11-04T16:19:40.797Z
+
+
+### Can reproduce.
+I can reproduce, I have been having this issue for quite a while. iPhone 8 + with iOS 11.1, Discord TestFlight 1.10.0 (Build 1476)
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-11-04T16:19:45.314Z
+
+
+### Can reproduce.
+TestFlight 1.10.0 (1476), iPhone 5s, iOS 9.3.3
+
+GoldenPheonix#6248 - Bug Bot on 2017-11-04T16:19:50.369Z
+
+
+### Can reproduce.
+CR; iPhone 6, iOS 10.11.1, Canary 1.9.3 (1340)
+
+inventor02#4201 - Bug Bot on 2017-11-04T16:19:55.287Z
+
+
+### Here is the example http://www.nasa.gov/sites/default/files/thumbnails/image/38093765071_045d50699f_o.jpg (when using https instead of http the image will be loaded, that could cause the issue)
+
+Pascal#0929 - Bug Bot on 2017-11-04T16:48:52.528Z
+
+
+### Verified. Very minor edge case. - Jared on 2017-11-14T00:25:49.906Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-14T00:25:53.682Z
+
+
+### Seems to be occurring for gif images with the http links as well.
+
+🎄Ghoul🎄#4567 - Bug Bot on 2017-12-03T23:06:05.022Z
+
+
+### Also happens with images in embeds now that have an unsecured connection
+
+Pascal#0929 - Bug Bot on 2018-01-07T16:06:57.593Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:56.193Z
+
+
+### Also happens with the pasting gifs feature, the inline gif doesn't show a preview when clicking on it.
+
+Pascal#0929 - Bug Bot on 2018-09-08T12:25:32.852Z
+
+
+### Unarchived by Clayton on 2018-09-08T12:30:03.950Z
+
+
+### Can reproduce.
+Can still reproduce this , iPhone XR, ios 12.1, TestFlight 2.4.0 (8921)
+
+🍂nickWtn🍂#3789 - Bug Bot on 2018-11-28T03:58:03.819Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:17.609Z
+
+
+### Cannot reproduce as of iOS TestFlight 2.5.2 (13014) on iPhone XS Max running iOS 12.2 Dev Beta 6. All instances of unsecured connections seems to be working fine.
+
+Moving this into Claimed Fixed. - Ghoul on 2019-04-02T04:44:52.185Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Ghoul on 2019-04-02T04:44:58.766Z
+
+
+### Unarchived by Ghoul on 2019-04-02T04:44:58.846Z
+
+
+### Can't reproduce.
+can’t reproduce anymore, iPhone XR, iOS 12.1, TestFlight 2.5.2 (13014)
+
+💐nickWtn💐#3789 - Bug Bot on 2019-04-02T04:45:44.422Z
+
+
+### Can't reproduce.
+iPhone SE iOS 12.1.4 - TestFlight 2.5.2 (13014)
+
+Daffyduck#5364 - Bug Bot on 2019-04-02T04:46:03.677Z
+
+
+### Can't reproduce.
+TestFlight 2.5.2 (13014) iPhone 6s iOS 12.3 Dev Beta
+
+Rashaun#8467 - Bug Bot on 2019-04-02T04:52:04.362Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-02T04:52:04.598Z
+
+
+### Archived by Bug Bot on 2019-05-05T10:30:24.911Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

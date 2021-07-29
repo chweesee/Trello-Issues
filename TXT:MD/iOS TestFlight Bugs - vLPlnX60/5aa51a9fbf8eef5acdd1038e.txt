@@ -1,0 +1,89 @@
+[Archived] Mention suggestion pop-up appears when @mention is deleted (https://trello.com/c/8gUEcaCU)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-03-11T12:01:35.754Z
+Latest Update: 2019-12-03T00:18:35.998Z
+
+Reported by Coffee#3853
+
+####Steps to reproduce:
+- Go to a text channel. 
+- Type a mention in the form username#0000 (or select a user from the suggestion pop-up). 
+- Type a long string of text after the mention. You can paste in a long URL or type a bunch of random letters. 
+- Hold backspace. After a brief moment, iOS will begin deleting words instead of characters. 
+- Observe how the suggestion pop-up appears when the mention gets deleted. 
+- (Optional) Selecting a suggestion from the pop-up causes the app to crash.
+
+####Expected result:
+The suggestion pop-up should not appear when the mention gets deleted.
+####Actual result:
+The suggestion pop-up appears, and selecting something from the pop-up crashes the app.
+####Client settings:
+2.2.4
+####System settings:
+iPhone 7, iOS 11.2.6
+
+9498
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-11T12:01:35.754Z
+
+
+### Can reproduce.
+Discord TestFlight 2.2.5, Build 3054, iOS 11.2.6, iPhone 5s
+
+Ene#0808 - Bug Bot on 2018-03-11T12:01:43.239Z
+
+
+### Can reproduce.
+iPad Mini 3 (iOS 11.2.6) - TestFlight 2.2.5 (3054)
+
+Mas#0001 - Bug Bot on 2018-03-11T12:01:48.274Z
+
+
+### Can reproduce.
+iPhone 6s & iPad Air 2, iOS 11.3 PB 4, TestFlight 2.2.5 (3054) | Make sure to select something from the suggestion pop-up at the same time, then you should see the crash.
+
+Issue might be related to a won't fix: https://trello.com/c/ICZv5gWq
+
+Pascal#0929 - Bug Bot on 2018-03-11T12:01:53.241Z
+
+
+### Can reproduce.
+IPhone 5s IOS 11.1.2, Discord TestFlight 2.0.1 (1610)
+
+NBSgamesAT#3496 - Bug Bot on 2018-03-12T09:28:44.971Z
+
+
+### Verified.  - Clayton on 2018-03-30T23:32:21.236Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-30T23:32:28.886Z
+
+
+### I can no longer reproduce as of Discord TestFlight 2.3.4 (5560), the suggestion pop-up never appears as I'm deleting my text by holding the backspace. Because of this, I am not able to crash my app. I used iPhone 8 + running iOS 12 (Dev Beta 2).
+
+Due to being unable to reproduce this bug, I am moving it to Claimed Fixed.  - Ghoul on 2018-07-02T21:01:22.636Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-02T21:01:30.107Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:46.860Z
+
+
+### Can't reproduce.
+Cannot reproduce iPhone XR & iPad Air iOS & iPadOS 13.2.3 TestFlight 3.1.8 (18423)
+
+binchlord#0998 - Bug Bot on 2019-12-03T00:18:36.011Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

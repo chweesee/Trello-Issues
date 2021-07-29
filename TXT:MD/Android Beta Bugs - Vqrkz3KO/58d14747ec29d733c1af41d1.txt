@@ -1,0 +1,65 @@
+[Archived] Mentioning webhooks produces @invalid-user on mobile (https://trello.com/c/I6leRhwn)
+
+None
+
+Created: 2017-03-21T15:31:19.346Z
+Latest Update: 2017-03-23T19:51:37.364Z
+
+Reported by jimsug#4726
+
+####Steps to reproduce: 
+- Execute a webhook 
+- Have a bot user mention the webhook user 
+
+####Expected result:
+ @webhookusername is mentioned, as per desktop client 
+####Actual result:
+ @invalid-user is mentioned on Android client 
+####System settings:
+ Android 7.1.1 Discord 3.5.3
+
+2111
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-21T15:31:19.346Z
+
+
+### Can reproduce.
+android 5.0 Discord 3.5.3
+
+Krotchmonster#9387 - Bug Bot on 2017-03-21T15:31:20.021Z
+
+
+### Can reproduce.
+android KitKat Discord 3.5.2
+
+Melroy#5344 - Bug Bot on 2017-03-21T15:31:22.071Z
+
+
+### Can reproduce.
+Galaxy S4, Android 5.0.1
+
+Andrew.#6465 - Bug Bot on 2017-03-21T15:31:24.018Z
+
+
+### .eJwNxsENwyAMAMBd-BeDIaZkjQ5QIYIgUgIRdl5Vd2_vdR91z0OtqolcvAJsO-cxN80yZqpF1zHqUdK1s87jhCSScjtLFwYbIpnFRU9kwpNsIMDogo-Ii3PBIv0HrzxL6dyGvNHYYBziw1jrTdRXr-r7A8MLJ0c.-i6SflDgSvq0DmMuf1wDmN0Y9LE - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58d14747ec29d733c1af41d1/cd5503593299a03a3b7dc259eecd8285/.eJwNxsENwyAMAMBd-BeDIaZkjQ5QIYIgUgIRdl5Vd2_vdR91z0OtqolcvAJsO-cxN80yZqpF1zHqUdK1s87jhCSScjtLFwYbIpnFRU9kwpNsIMDogo-Ii3PBIv0HrzxL6dyGvNHYYBziw1jrTdRXr-r7A8MLJ0c.-i6SflDgSvq0DmMuf1wDmN0Y9LE added by Bug Bot on 2017-03-21T15:31:35.580Z
+
+
+### happens when you manually mention a person who is not on the server
+
+Melroy#5344 - Bug Bot on 2017-03-21T16:12:02.702Z
+
+
+### I'm very sure that this is a specific case of:  https://trello.com/c/HAuH5Unt/123-tagging-a-user-who-is-not-in-the-guild-the-author-sent-it-in-even-when-knowing-the-user-in-another-guild - Clayton on 2017-03-23T19:51:28.911Z
+
+
+### Archived by Clayton on 2017-03-23T19:51:37.368Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

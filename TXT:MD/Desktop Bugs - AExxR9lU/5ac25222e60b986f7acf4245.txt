@@ -1,0 +1,87 @@
+[Archived] Red line on new messages sometimes disappear when zoomed out [possibly macOS only] (https://trello.com/c/KelUGced)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-02T15:54:10.781Z
+Latest Update: 2018-04-03T20:21:15.459Z
+
+Reported by Biscuit#0001
+
+####Steps to reproduce:
+- go to user settings, appearance and change your zoom level to 90% 
+- continue using Discord normally, such as chatting, reading unread messages in different channels and servers
+
+####Expected result:
+- the new message line should always have a red line on the side
+####Actual result:
+- every now and then the new message bar will not have a red line
+####Client settings:
+Discord Canary 12955
+####System settings:
+macOS 10.13
+
+10131
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-02T15:54:10.781Z
+
+
+### Codingpro#9213 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac25222e60b986f7acf4245/e4208be5dafdb4c173a78281fcff7293/50c6378072fc103f43c0df0b0f00b88b.png added by Bug Bot on 2018-04-02T15:54:13.428Z
+
+
+### Can reproduce.
+CR Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 12955, it takes a while but it seems like there's a better chance of it appearing if theres 5 of less new messages
+
+Kuuhaku#4503 - Bug Bot on 2018-04-02T15:54:18.188Z
+
+
+### Can reproduce.
+MacOS High Sierra Version 10.13.1 (17B1003), takes a lot of attempts, but I can reproduce.
+
+Codingpro#9213 - Bug Bot on 2018-04-02T15:54:23.306Z
+
+
+### Can reproduce.
+CR; MacBook Pro (Retina, 13-inch, Early 2015) MacOS High Sierra 10.13.2 (17C88), Canary 12955
+
+korzq#0001 - Bug Bot on 2018-04-02T15:54:28.193Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64, Canary Build 12955
+
+LPerMike#4242 - Bug Bot on 2018-04-02T17:53:11.720Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 1709 Build 16299 Release Channel: canary, Build Number: 12955, Version Hash: 620d7c22aaa4dd19f283e66b35c9492ea027a171
+
+TechPanda#7416 - Bug Bot on 2018-04-02T19:15:10.274Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Version 1803; Canary Build 12955; Can happen with date separators as well
+
+RME#3050 - Bug Bot on 2018-04-02T22:10:44.818Z
+
+
+### Can't reproduce.
+CNR on Discord Stable Build 13009 on MacBook Air 2017 Model running OSX 10.11.6, on Google Chrome 58. It may be that the stable version may not have gotten the update yet, or my Google Chrome is too outdated. I tried with multiple servers but was not able to reproduce in any way.
+
+Ghoul#0001 - Bug Bot on 2018-04-03T02:25:59.682Z
+
+
+### Dupe of: https://trello.com/c/mRAzPiNB/756-the-red-line-that-shows-up-on-both-sides-of-new-messages-doesnt-show-up-if-you-change-scaling - Clayton on 2018-04-03T20:21:12.081Z
+
+
+### Archived by Clayton on 2018-04-03T20:21:15.461Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

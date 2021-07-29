@@ -1,0 +1,70 @@
+[Archived] Spotify Rich Presence disappears when you automatically go afk (10 min of no activity) (https://trello.com/c/B8zOeR3p)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-07-06T10:20:43.140Z
+Latest Update: 2019-01-11T00:00:18.220Z
+
+Reported by Rune#2553
+
+####Steps to reproduce:
+- Play any song, presence works fine 
+- Wait 10 minutes without touching your PC so you automatically go away on Discord 
+- Watch as Spotify status disappears
+
+####Expected result:
+Spotify status keeps going regardless if you go afk or not
+####Actual result:
+Spotify status disappears as soon as the 10 minutes of inactivity pass, once you come back to your PC, the status is back too
+####Client settings:
+Stable, Build Number: 18240, also happens on current Canary
+####System settings:
+Win 10 x64
+
+15163
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-06T10:20:43.140Z
+
+
+### Can reproduce.
+CR, this went away after 3-4 minutes of being on Discord as well (for me), MacBook Pro 2017, macOS 10.14 Mojave Beta (18A314h), Canary Build 18240
+
+Rem-rin#0001 - Bug Bot on 2018-07-06T10:20:50.644Z
+
+
+### Can reproduce.
+Can reproduce, this happened many times yet I always forgot to report it ~ Ubuntu 18.04 amd64 ~ Canary 0.0.52 Build 18240
+
+Lava#9562 - Bug Bot on 2018-07-06T10:20:55.673Z
+
+
+### Can reproduce.
+Windows 64-Bit Stable Build Number 18043
+
+Martini#0001 - Bug Bot on 2018-07-06T10:21:00.662Z
+
+
+### verified, macos 10.12.6, canary 18361 - Clayton on 2018-07-09T22:18:23.605Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-09T22:20:33.479Z
+
+
+### Can reproduce.
+Also happens with Fortnite - Canary Build 25648 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-10-07T22:54:30.018Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:18.223Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,64 @@
+[Archived] removing channel from welcome screen using right click freezes discord (https://trello.com/c/ga5jwGCi)
+
+None
+
+Created: 2020-05-19T00:25:13.143Z
+Latest Update: 2020-06-20T19:00:44.086Z
+
+Reported by hopeless#1227
+
+####Steps to reproduce:
+- have a channel in welcome screen 
+- try to remove it by right clicking on the channel -> remove channel -> confirm remove 
+- observe 
+- bonus: compare with using the edit button on the channel to remove (works fine)
+
+####Expected result:
+removes the channel from the welcome screen
+####Actual result:
+deprecation warning and freezes discord
+####Client settings:
+stable 60426 and canary 60444
+####System settings:
+Win10 v1709 x64 build 16299.1625 Education, chrome dev 84.0.4143.2
+
+56308
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-19T00:25:13.143Z
+
+
+### hopeless#1227 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ec327685b67da1e3e8be384/e2aa81e129a221e766b3b172b059119f/jC5KWZw.png added by Bug Bot on 2020-05-19T00:25:16.450Z
+
+
+### Can reproduce.
+MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 60444 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-05-19T00:25:20.723Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64: 1909, Canary 60444
+
+Sanjay#0540 - Bug Bot on 2020-05-19T00:25:25.730Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 60444 (3358786), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-05-19T00:25:30.722Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Kamilla Karthigesu on 2020-05-21T18:33:53.141Z
+
+
+### Archived by Bug Bot on 2020-06-20T19:00:44.095Z
+
+List
+====
+Fix made, not yet released
+
+Members
+=======
+None

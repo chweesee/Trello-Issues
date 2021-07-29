@@ -1,0 +1,86 @@
+[Archived] the "mark as read" button isn't clickable in a category if there are new messages. (https://trello.com/c/qRxyAZLp)
+
+None
+
+Created: 2017-09-15T21:17:55.334Z
+Latest Update: 2020-05-20T17:52:06.456Z
+
+Reported by Zak_Patat#9077
+
+####Steps to reproduce:
+- Make a category with a subtextchannel 
+- Open the subtextchannel
+- Have someone to type in the subtextchannel 
+- Right-click the category and click on "mark as read"
+
+####Expected result:
+Messages should be marked as read
+####Actual result:
+The button isn't clickable...
+####Client settings:
+Discord Canary 0.0.163
+####System settings:
+Windows 10 x64 version 1703
+
+4347
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-15T21:17:55.334Z
+
+
+### Does not work on all Servers. The servers that have this bug change.
+
+Anorak#5830 - Bug Bot on 2017-09-15T21:17:58.873Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 discord canary 0.0.163
+
+Jakob#6834 - Bug Bot on 2017-09-15T21:18:02.746Z
+
+
+### Can reproduce.
+CR Discord Canary 0.0.24, Ubuntu 17.04
+
+Anorak#5830 - Bug Bot on 2017-09-15T21:18:07.721Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163
+
+AviationMaster#4793 - Bug Bot on 2017-09-15T21:18:12.761Z
+
+
+### Verified - Clayton on 2017-09-15T22:01:56.045Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-15T22:02:07.232Z
+
+
+### Moved from Verified Bugs to Channel catalgories by Clayton on 2017-09-15T22:10:15.918Z
+
+
+### Pretty sure this is not actually a bug, but intended behavior. If you leave the channel and go somewhere else, the unread indicator will not show next to the channel, it is already considered read since you can see all the messages on screen. The mark as read is also disabled if you right click the channel, which shows that this is how it's always been. - Amadeus on 2017-09-18T07:57:42.122Z
+
+
+### Moved from Channel catalgories to Not a Bug by Clayton on 2017-09-19T21:48:31.357Z
+
+
+### Archiving as has been listed as NAB for more than a month. - Mike Nisbet on 2017-10-19T20:16:34.639Z
+
+
+### Archived by Mike Nisbet on 2017-10-19T20:16:35.580Z
+
+
+### Note for future bug reports: The NAB status of this card specifically represents the behavior of the "Mark as Read" menu item when you are actively looking at the channel that is receiving new messages, in which case the channel (and thus category) will have the Mark as Read option disabled, since those messages are immediately marked as read when they come in.
+
+Cases where the Mark as Read item is disabled when you are _not_ currently in the channel are separate from this issue, may be a bug, and should not be marked as duplicates of this card. - Jon Egeland on 2020-05-20T17:52:06.471Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

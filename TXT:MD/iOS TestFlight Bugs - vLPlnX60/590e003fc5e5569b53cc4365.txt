@@ -1,0 +1,78 @@
+[Archived] Cropping and using markup on a photo causes it to crash the app when uploading while iCloud Photo Library is on (https://trello.com/c/MCoBt8gu)
+
+P2 - Can wait a while,
+mid
+
+Created: 2017-05-06T16:56:31.845Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Fiz#2150
+
+####Steps to reproduce: 
+- have iCloud Photo Library on (optimize phone storage) 
+- crop any photo 
+- use markup to add anything to the photo 
+- attempt to upload the photo with the clip icon 
+- photo will not show up on the quick picker and must be selected from camera roll 
+- add a description 
+- click send 
+- crash 
+
+####Expected result:
+ photo is uploaded and displayed 
+####Actual result:
+ crash to springboard 
+####System settings:
+ iOS 10.3.2b5  Discord version 1.8.5 - iPhone 6sPlus using iCloud Photo Library with optimize phone storage.
+
+1438
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-06T16:56:31.845Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 10.3, Discord 1.8.5
+
+Seth#4431 - Bug Bot on 2017-05-06T16:56:32.549Z
+
+
+### Can reproduce.
+iOS 10.3.2b5 latest discord, iPhone 6s
+
+Mippy#1483 - Bug Bot on 2017-05-06T16:56:34.534Z
+
+
+### Can reproduce.
+iPhone 5, iOS 1.10.2
+
+DeJay#8746 - Bug Bot on 2017-05-06T16:56:36.498Z
+
+
+### 2017-05-06_00-36-24.gif - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/590e003fc5e5569b53cc4365/9d9ad17c00b7844b918fa74ebd5630ad/2017-05-06_00-36-24.gif added by Bug Bot on 2017-05-06T16:56:48.469Z
+
+
+### Verified - Jared on 2017-05-23T19:39:54.729Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-05-23T19:39:57.540Z
+
+
+### I can no longer reproduce, the photo shows up in the quick picker and if I choose to select it from the camera roll and add the comment, Discord doesn’t crash.
+
+Discord 2.2.2 (2352), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-02-04T12:58:33.445Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-02-04T12:59:00.227Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:36.617Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

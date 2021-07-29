@@ -1,0 +1,94 @@
+[Archived] Considerable lagg when switching servers on TestFlight 2.2.5 , that didn’t exist on stable 2.2.4 (https://trello.com/c/H1YHMORO)
+
+None
+
+Created: 2018-02-28T03:13:50.211Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by ☘nickWtn☘#3789
+
+####Steps to reproduce:
+- Download stable 2.2.4 
+- Go into discord and switch between some channels in different servers  
+- Observer that this happens with very minimal lag 
+- Now close out of discord and download TestFlight 2.2.5 
+- Now open discord and switch between channels and servers 
+- Observer discord notice that the motion is slowed considerably
+
+####Expected result:
+The motion should be fluid and not slow like stable 2.2.4
+####Actual result:
+It’s slowed down tremendously
+####Client settings:
+Stable 2.2.4 and TestFlight 2.2.5
+####System settings:
+iPod Touch 6th generation, iOS 11.2.6
+
+9149
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-28T03:13:50.211Z
+
+
+### ☘nickWtn☘#3789 - https://m.youtube.com/watch?v=Opf85HQknws added by Bug Bot on 2018-02-28T03:13:52.595Z
+
+
+### ☘nickWtn☘#3789 - https://m.youtube.com/watch?v=8K6xw6LWe4U added by Bug Bot on 2018-02-28T03:13:52.644Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.3 Public Beta 3 - Discord TestFlight 2.2.5 (2798). Sometimes lag can be bad, but most of the time it is a minor lag.
+
+Ghoul#0009 - Bug Bot on 2018-02-28T03:13:57.496Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.6, TestFlight 2.2.5 (2798).  This actually only happens with specific servers for me.  They don’t even need to be big, only ~100 members I found, but these servers happen consistently.  It doesn’t seem to affect all servers.
+
+Mattybilly1#0001 - Bug Bot on 2018-02-28T03:14:02.495Z
+
+
+### Can reproduce.
+Difference is definitely noticeable after I switched to 2.2.4 (buttery smooth). iPhone 6, iOS 11.3 beta 3, TestFlight 2.2.5 (2798)
+
+Vicar Amelia#3383 - Bug Bot on 2018-02-28T03:14:07.478Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Fanghao on 2018-03-01T22:28:59.086Z
+
+
+### Can't reproduce.
+Appears to have improved as of TestFlight 2.2.5 (2894) on iPhone 8 +, iOS 11.3 PB3. I like the animation much better now.
+
+Ghoul#0009 - Bug Bot on 2018-03-02T02:38:02.695Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.3 developer beta 3, TF 2.2.5 (2894). Can reproduce when swiping to open the members/servers list, however animations are smooth when manually tapping the buttons to open the members/servers list.
+
+Tiemen#0001 - Bug Bot on 2018-03-02T02:55:29.904Z
+
+
+### The majority of that lag has been fixed in 2.2.5 (2894), however there is lag that still exists, and can be reproduced by, 1. click on the slide over lines at the top of the screen 2. go to another server 3 . And slide back over to a channel in that other server. I think it’s kinda annoying but a few people say they can live with it. Just thought I’d pass things along.
+
+☘nickWtn☘#3789 - Bug Bot on 2018-03-02T04:08:08.273Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-03-21T00:10:27.694Z
+
+
+### I can no longer reproduce, I no longer notice the lag that was present in 2.2.5
+
+Discord 2.2.7 (3519), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-05T06:45:39.993Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:33.006Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

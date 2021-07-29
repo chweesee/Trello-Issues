@@ -1,0 +1,76 @@
+[Archived] Resizing a window being shared spams the network (https://trello.com/c/rtE3BPkA)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-10-07T03:49:02.418Z
+Latest Update: 2018-10-22T20:17:43.004Z
+
+Reported by NeatNit#9257
+
+####Steps to reproduce:
+- Open task manager. 
+- Switch to Performance tab. 
+- Select Ethernet (or wifi?). 
+- Start Discord call. 
+- Share screen 
+- select single window, pick task manager. Resize task manager continuously.
+
+####Expected result:
+Nothing weird.
+####Actual result:
+Massive network spam.
+####Client settings:
+Uhhh..?
+####System settings:
+Windows 10 x64
+
+5148
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-07T03:49:02.418Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (Version 1703)
+
+JohnyTheCarrot#0368 - Bug Bot on 2017-10-07T03:49:09.913Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1703 (Canary build 5438, v 0.0.164)
+
+TimThe#7618 - Bug Bot on 2017-10-07T03:49:14.897Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Creators Update | Canary 0.0.164
+
+Rauf#3260 - Bug Bot on 2017-10-07T03:49:19.906Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 0.0.164, Build 5478
+
+OminousCry#2331 - Bug Bot on 2017-10-07T07:16:19.159Z
+
+
+### Verified.  - Clayton on 2017-10-18T07:11:09.391Z
+
+
+### Moved from User Reported Bugs to Screenshare/Video Calls by Clayton on 2017-10-18T07:11:13.101Z
+
+
+### Moved from Screenshare/Video Calls to Verified Bugs by Clayton on 2018-01-04T09:11:40.219Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:43.006Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

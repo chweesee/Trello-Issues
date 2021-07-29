@@ -1,0 +1,92 @@
+[Archived] Discord not using correct input (https://trello.com/c/Wtmw6TjU)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-08-04T21:01:15.802Z
+Latest Update: 2017-12-02T17:11:53.023Z
+
+Reported by 100chilly#7493
+
+####Steps to reproduce:
+- Have VB-CABLE (Audio Device driver) installed 
+- Have something using CABLE Input device to output audio 
+- Be in voice channel 
+- Switch Discord Input Device to CABLE Output
+
+####Expected result:
+Discord should switch to CABLE Output and use as such
+####Actual result:
+Discord doesn't switch inputs correctly
+####Client settings:
+Desktop DiscordPTB, 0.0.33
+####System settings:
+Windows 10 Pro x64 15063.483
+
+2814
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-04T21:01:15.802Z
+
+
+### Can reproduce.
+Canary 0.0.163 - Windows 10 Home, 32Bit
+
+Azzeh#9167 - Bug Bot on 2017-08-04T21:01:23.461Z
+
+
+### Can reproduce.
+can reproduce with alternative devices so not driver specific. Windows 10 x64 Creator's Update Canary 0.0.163
+
+Mikesky#3456 - Bug Bot on 2017-08-04T21:01:28.470Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (2739). Joined a voice channel, plugged my headset in, switched input device to my headset.
+
+Tiemen#0107 - Bug Bot on 2017-08-04T21:01:33.792Z
+
+
+### Can reproduce.
+Windows 10 x64
+
+Grummy#0478 - Bug Bot on 2017-08-05T06:32:51.394Z
+
+
+### Can reproduce.
+Canary 0.0.163
+
+Grummy#0478 - Bug Bot on 2017-08-05T06:33:16.069Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 0.0.163
+
+Grummy#0478 - Bug Bot on 2017-08-05T06:33:37.914Z
+
+
+### Can reproduce.
+Windows 10 x64, DiscordOfficial 0.0.298 and Canary 0.0.164
+
+Loïc#2747 - Bug Bot on 2017-10-02T20:03:09.089Z
+
+
+### We don't really support VACs. But I'll look ask for confirmation. Edit: Confirmed. - Jared on 2017-10-26T22:18:41.922Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-10-26T23:28:01.380Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:11:52.107Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:11:53.026Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

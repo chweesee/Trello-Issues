@@ -1,0 +1,78 @@
+[Archived] Logitech C170 webcam detected for video chat in browser version but not in desktop (https://trello.com/c/4Kz2JZR9)
+
+P2: Fix can wait a while
+
+Created: 2017-08-21T23:07:21.768Z
+Latest Update: 2019-01-01T15:25:46.454Z
+
+Reported by sebovzeoueb#4305
+
+####Steps to reproduce:
+- own a Logitech C170 (also seen it reported with a C270) 
+- try to video chat
+
+####Expected result:
+I can actually video chat
+####Actual result:
+I can't video chat, webcam does not show up as a camera in voice & video settings. It does however show up as a mic, and also works in the browser version of discord just fine
+####Client settings:
+Discord Canary, 0.0.297
+####System settings:
+Win 10 x64
+
+3210
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-21T23:07:21.768Z
+
+
+### Can reproduce.
+win 10
+
+Dabbit Prime#0896 - Bug Bot on 2017-08-21T23:07:29.696Z
+
+
+### appears to happen with other versions of Logitech webcams
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-08-22T12:50:40.667Z
+
+
+### Moved from User Reported Bugs to Screenshare/Video Calls by Jared on 2017-08-23T16:53:45.423Z
+
+
+### Moved from Screenshare/Video Calls to Next up for investigation by Jared on 2017-10-17T18:48:56.651Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:44:41.220Z
+
+
+### c170.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599b67a9b396d0f293834c0a/380fd72db526cf624eb9d4d31ad42676/c170.png added by Ben Morse on 2018-10-05T17:33:02.564Z
+
+
+### unfortunately I cannot reproduce this on Win10 x64 in Discord 0.0.301 or Canary 0.0.214 [c170.png](https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599b67a9b396d0f293834c0a/380fd72db526cf624eb9d4d31ad42676/c170.png) 
+
+Didn't even install any drivers, just plugged it in and it worked.
+
+Can I get some more information about other webcam software that might be installed? - Ben Morse on 2018-10-05T17:34:51.056Z
+
+
+### I can no longer repro as well + the user who reported the issue left the server =/ - Clayton on 2018-10-19T02:15:09.060Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jozsef Vass on 2018-10-19T19:59:27.792Z
+
+
+### Archived due to being inactive for 30+ days in cannot reproduce list. - Tarek on 2019-01-01T15:25:45.693Z
+
+
+### Archived by Tarek on 2019-01-01T15:25:46.457Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+Unknown User (https://trello.com/benmorse9) - No Bio
+Unknown User (https://trello.com/jozsefvass2) - No Bio

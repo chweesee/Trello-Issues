@@ -1,0 +1,180 @@
+[Archived] Channel list updating sometimes have a delay (https://trello.com/c/mCmGka3f)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-06-12T12:04:12.100Z
+Latest Update: 2019-08-03T04:30:35.544Z
+
+Reported by -Shadow-#9999
+
+####Steps to reproduce:
+- Change servers 
+- Observe the channel list. If it doesn't happen, try a few more times. It's somewhat inconsistent, but I can reproduce it about 70% of the time. Yes, I have tried restarting Discord. It still happens.
+
+####Expected result:
+Channel list switches over to the new server, as expected
+####Actual result:
+Channel list shows channels the server you were on just before, if you click on the channels they send you to that channel in the previous server.
+####Client settings:
+Discord Canary 39515
+####System settings:
+Windows 10 Home x64 Version 10.0.17763 Build 17763
+
+37020
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-12T12:04:12.100Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro Insider Preview x64 1903; Discord Canary Build 39515. It is best to reproduce this in a server which you haven't cached and takes a long time to load.
+
+Costpap#7667 - Bug Bot on 2019-06-12T12:04:19.651Z
+
+
+### Can reproduce.
+Windows 10 Education (1809), Canary 39515. Didn't work first time but tried a server I hadn't loaded in like ages, worked then.
+
+uwur#3785 - Bug Bot on 2019-06-12T12:04:24.558Z
+
+
+### -Shadow-#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d00ea3b78b97679dce23a90/41a3ad3b2b223d9d4d505b1f394069ed/38382c21a555f518ea207781829c5b5f.gif added by Bug Bot on 2019-06-12T12:04:27.794Z
+
+
+### Can reproduce.
+CR,Took a few tries Windows 10 Pro,Discord Canary 39515
+
+Typhoon#1337 - Bug Bot on 2019-06-12T12:04:29.553Z
+
+
+### Can reproduce.
+CR: Windows 10.0.17134 Pro, Canary 39515
+
+Elliot#1347 - Bug Bot on 2019-06-12T12:17:35.041Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 39515
+
+OrangeM24#5746 - Bug Bot on 2019-06-12T13:24:21.799Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 39515
+
+Lily#2624 - Bug Bot on 2019-06-12T13:30:33.593Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 39515 Host 0.0.242
+
+Salt#8690 - Bug Bot on 2019-06-12T14:30:56.598Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 39515 Host 0.0.242
+
+Carma Cam#1557 - Bug Bot on 2019-06-12T14:31:21.419Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | Canary 39515
+
+charleskimbac#6492 - Bug Bot on 2019-06-12T15:18:33.424Z
+
+
+### Can't reproduce.
+Windows 10 Pro 64 Bit // Discord Canary Version 39515 // Tried several times, worked fine.
+
+Cam#9999 - Bug Bot on 2019-06-12T15:28:56.259Z
+
+
+### Can reproduce.
+Discord Canary (BUILD 39515) on Windows 10 x64 (1809 Update)
+
+Procrastinator Adam#4226 - Bug Bot on 2019-06-12T15:40:03.048Z
+
+
+### Can reproduce.
+Discord Client: 39515 (Canary) System Information: Windows 10 Pro with a 64 bit processor.
+
+Doc#4444 - Bug Bot on 2019-06-12T17:00:27.684Z
+
+
+### Can reproduce.
+Discord Client: 39515 (Canary) System Information: Windows 10 Pro with a 64 bit processor.
+
+Doc#4444 - Bug Bot on 2019-06-12T17:02:17.156Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 39549
+
+Xylium#5800 - Bug Bot on 2019-06-12T22:19:58.765Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Tarek on 2019-06-13T08:07:42.435Z
+
+
+### Verified. - Tarek on 2019-06-13T08:07:46.625Z
+
+
+### Can reproduce.
+Windows 10 x64 v1809, Discord Canary 39549
+
+Haru 💜🌸#6660 - Bug Bot on 2019-06-13T08:08:44.153Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.242 Build 39597
+
+Daffyduck#5364 - Bug Bot on 2019-06-13T08:09:22.400Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Amadeus on 2019-06-13T21:11:48.217Z
+
+
+### Can't reproduce.
+Windows 10 Pro Insider Preview x64 1903 - Discord Canary 39667
+
+Costpap#7667 - Bug Bot on 2019-06-13T21:21:25.769Z
+
+
+### Can't reproduce.
+Discord client: 39652 (canary) System information: Windows 10 Home with a 64 bit processor.
+
+Talon#4419 - Bug Bot on 2019-06-13T21:48:20.350Z
+
+
+### Can reproduce.
+Discord client: 39652 (canary) System information: Windows 10 Home with a 64 bit processor.
+
+Talon#4419 - Bug Bot on 2019-06-13T21:49:06.645Z
+
+
+### Can't reproduce.
+Discord client: 39652 (canary) System information: Windows 10 Home with a 64 bit processor.
+
+Talon#4419 - Bug Bot on 2019-06-13T21:53:47.621Z
+
+
+### Can't reproduce.
+macos 10.14.6, canary 39667
+
+OrangeM24#5746 - Bug Bot on 2019-06-14T00:55:26.876Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-06-14T00:55:27.134Z
+
+
+### Archived by Bug Bot on 2019-08-03T04:30:35.562Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

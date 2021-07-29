@@ -1,0 +1,65 @@
+[Archived] On firefox, lines indented with tabs only display a single indentation (https://trello.com/c/SCEtQjGo)
+
+None
+
+Created: 2017-10-02T16:18:32.706Z
+Latest Update: 2017-11-15T18:54:24.860Z
+
+Reported by EKW#0528
+
+####Steps to reproduce:
+- Be on firefox 
+- write, in a code block, a line with multiple tabs at the beginning
+
+####Expected result:
+The indentation of each line should be proportional to the number of tabs preceding them.
+####Actual result:
+Regardless of the number of tabs preceding a line, the line will be displayed as being indented only once. This does not appear to be a firefox bug, as   displays tabs correctly.
+####Client settings:
+Firefox, stable, build number 5010
+####System settings:
+macOS Sierra, 10.12.3
+
+5012
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-02T16:18:32.706Z
+
+
+### Can reproduce.
+Windows 10 + Canary 0.0.164 (the code block, once sent, will show the correct amount of tabs)
+
+Oasis#4730 - Bug Bot on 2017-10-02T16:18:41.296Z
+
+
+### Can reproduce.
+CR // Windows 10 Home (Creator's Update) 64-bit, Firefox Stable v56.0 (32-bit), Discord Web Stable (build number: 5010)
+
+P4risAndStuff#7243 - Bug Bot on 2017-10-02T16:18:45.272Z
+
+
+### Can reproduce.
+Windows 10 x64, Firefox Stable v56.0 32 bit, Discord Web (build 5010)
+
+Jakob#6834 - Bug Bot on 2017-10-02T16:18:50.254Z
+
+
+### Verified, but this is so minor I don't see the point of fixing it. - Jared on 2017-10-03T18:15:42.459Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-10-03T18:15:48.255Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T18:54:19.652Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T18:54:24.862Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,115 @@
+[Archived] Switching channels when a bot sends an unread message causes a stuck new messages banner to appear (https://trello.com/c/FiL92BXH)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2018-11-07T06:02:52.457Z
+Latest Update: 2019-09-18T10:01:00.141Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to a channel where you can use a bot that will invoke a response (I used Mantaro's trivia) 
+- Invoke a command that you can respond to (Optional only if you use a bot like Mantaro) 
+- Scroll up in the channel a little bit 
+- Invoke a response from the bot 
+- Make sure that the blue "New Messages" banner is on your screen 
+- Switch channels without letting the blue banner disappear 
+- Switch back to the first channel and observe the blue banner
+
+####Expected result:
+Blue banner disappears upon reentering the channel
+####Actual result:
+Blue banner is stuck and says "X new messages since 6:00pm"
+####Client settings:
+TestFlight 2.4.0 (8921)
+####System settings:
+iPhone 6s iOS 12.1.1 Dev Beta 1
+
+22817
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-07T06:02:52.457Z
+
+
+### Rashaun#9295 - https://youtu.be/dmdOnm9x9u8 added by Bug Bot on 2018-11-07T06:02:54.787Z
+
+
+### Can reproduce.
+Can reproduce; iPhone 6s, IOS 12.0.1; TestFlight 2.4.0 (8921);
+
+S6out#1111 - Bug Bot on 2018-11-07T06:02:59.725Z
+
+
+### Can reproduce.
+Can reproduce. iPhone SE - iOS 12.0.1, TestFlight 2.4.0 (8921)
+
+Daffyduck#5364 - Bug Bot on 2018-11-07T06:03:04.870Z
+
+
+### Can reproduce.
+Can reproduce. iPhone XS Max. iOS 12.1. TestFlight 2.4.0 (8921)
+
+coolalmostchilly#2023 - Bug Bot on 2018-11-07T06:03:09.775Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1 - - TestFlight (8921)
+
+Solo#0007 - Bug Bot on 2018-11-07T15:23:04.546Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-11-16T19:01:10.477Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:00:06.580Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.0 (16734) with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-08-10T13:24:44.293Z
+
+
+### Unarchived by Pascal on 2019-08-10T13:25:13.559Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-08-10T13:25:18.401Z
+
+
+### Can't reproduce.
+iPhone X, iOS 13 (dev beta 6) - Stable 3.0.1
+
+Xylium#5800 - Bug Bot on 2019-08-10T13:31:13.541Z
+
+
+### Can't reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, Stable 3.0.1
+
+Jeffrey#1234 - Bug Bot on 2019-08-10T22:53:26.151Z
+
+
+### Can't reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, Stable 3.1.0
+
+Jeffrey#1234 - Bug Bot on 2019-08-10T22:55:14.795Z
+
+
+### Can't reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 3.1.0 (16734)
+
+OrangeM24#5746 - Bug Bot on 2019-08-11T02:36:14.047Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-08-11T02:36:14.523Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:00.166Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

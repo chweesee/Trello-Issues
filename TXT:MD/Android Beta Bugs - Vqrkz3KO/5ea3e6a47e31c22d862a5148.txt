@@ -1,0 +1,72 @@
+After edit your message and the slowmode timer ends with keyboard closed, the message will go back to the original state and keyboard will open. (https://trello.com/c/nKfwAyUb)
+
+None
+
+Created: 2020-04-25T07:28:36.579Z
+Latest Update: 2020-07-16T05:46:30.536Z
+
+Reported by Cookie#3165
+
+####Steps to reproduce:
+
+- send a message in a channel with slowmode enabled 
+- edit your message (delete the mesage in the textbox, or add something), close the keyboard and wait for the timer end 
+- observe
+
+####Expected result:
+the message should not go back to the original state and the keyboard should not open
+####Actual result:
+Message go back to the original state and the keyboard opens
+####Client settings:
+Discord v20-Alpha2 (1109)
+####System settings:
+Samsung A10 - Android 9
+
+55019
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-25T07:28:36.579Z
+
+
+### Can reproduce.
+Moto G7, Android 9, Discord 19. 5 (1116)
+
+wakfi#6999 - Bug Bot on 2020-04-25T07:28:44.166Z
+
+
+### Can reproduce.
+CR // Y9s, Android 10, Discord 19.3 (1112)
+
+ABN_Zynb#2984 - Bug Bot on 2020-04-25T07:28:49.029Z
+
+
+### Can reproduce.
+CR: Samsung Galaxy S9, Android 10, Discord 19.2 (1108)
+
+ramune#7777 - Bug Bot on 2020-04-25T07:28:54.044Z
+
+
+### Can reproduce.
+Samsung Galaxy A30, 10
+
+Sarhan#0001 - Bug Bot on 2020-04-25T09:22:20.501Z
+
+
+### Can reproduce.
+Samsung Galaxy A30, Android v10, Discord Beta 19.5 (1116)
+
+Sarhan#0001 - Bug Bot on 2020-04-25T20:59:57.987Z
+
+
+### Extension of https://trello.com/c/0U2dWrdz
+
+Ana940#9858 - Bug Bot on 2020-04-29T14:34:27.523Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

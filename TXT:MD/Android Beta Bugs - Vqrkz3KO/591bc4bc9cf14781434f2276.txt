@@ -1,0 +1,85 @@
+[Archived] Search screens lie over invite pop-ups (https://trello.com/c/xHsjOYrF)
+
+P2 - Can wait a while
+
+Created: 2017-05-17T03:34:20.833Z
+Latest Update: 2017-10-02T16:50:38.276Z
+
+Reported by PLAYER/_CHAR#2874
+
+####Steps to reproduce:
+- Search for messages with invites to other servers (you can search them with "<discord.gg>") and found one (or create them by yourself) 
+- Click the message's invite link in search results 
+- Click the message to jump to it 
+- Click the invite link again 
+- Close the search screens and return to normal chat
+
+####Expected result:
+You see invitation pop-up right after you clicked the invitation link (in both ways: in search results and in expanded messages)
+####Actual result:
+Nothing happens in both ways, you will only see the invitation pop-up when you close these search screens and return to normal chat.
+####Client settings:
+3.8.6
+####System settings:
+Android
+
+1041
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-17T03:34:20.833Z
+
+
+### Can reproduce.
+nexus 6, android 7.1.1 discord 3.8.6
+
+Gemma#5566 - Bug Bot on 2017-05-17T03:34:25.204Z
+
+
+### Can reproduce.
+doesn't work with discord.io links or other link shorterners that leads you to Internet first but with discord.gg links, bug is repro
+
+4JR#4355 - Bug Bot on 2017-05-17T03:34:27.233Z
+
+
+### Can reproduce.
+Because of discord.io does close the search.... But it bug with discord.gg ,Android 6.0.1 Discord Android Alpha Latest Version
+
+Atmosphex (Birthday Today)#9091 - Bug Bot on 2017-05-17T03:34:29.202Z
+
+
+### Can reproduce.
+create an invite of some server,paste it , use search to search that invite then tap invite link. If you exit the search you should see invite confirmation Android 6.0.1 Discord Android Alpha Latest Version
+
+Atmosphex (Birthday Today)#9091 - Bug Bot on 2017-05-17T03:38:59.659Z
+
+
+### Described bug only shows with links not containing https://. Links containing the prefix can be interacted with in the search results.
+
+Gemma#5566 - Bug Bot on 2017-05-17T09:35:20.012Z
+
+
+### Verified.  - Clayton on 2017-05-18T23:09:15.258Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-18T23:09:21.763Z
+
+
+### This appears to now be functioning as intended. Marking as Fixed. - Jared on 2017-07-31T20:57:28.913Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2017-07-31T20:57:33.707Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:50:37.523Z
+
+
+### Archived by Jared on 2017-10-02T16:50:38.278Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

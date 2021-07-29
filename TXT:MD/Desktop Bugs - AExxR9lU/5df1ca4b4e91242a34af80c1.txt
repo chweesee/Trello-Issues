@@ -1,0 +1,101 @@
+[Archived] Pasted CR LF (\r\n) characters to Discord message field uses double new lines (https://trello.com/c/1pO3fTLg)
+
+None
+
+Created: 2019-12-12T05:04:11.435Z
+Latest Update: 2020-01-15T17:00:42.854Z
+
+Reported by Jaex#0001
+
+####Steps to reproduce:
+- Copy text which contains CR LF characters (mainly Windows apps tend to copy new lines like this) 
+- Paste text to Discord message field
+
+####Expected result:
+There should be single new line per CR LF instead of double.
+####Actual result:
+CR LF converts to double new line.
+####Client settings:
+Desktop Canary 51182
+####System settings:
+Windows 10 Pro 1909
+
+50143
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-12T05:04:11.435Z
+
+
+### Jaex#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5df1ca4b4e91242a34af80c1/e793cf7fbbfa26222c26197ff5cbe915/6xuJUnGJoE.png added by Bug Bot on 2019-12-12T05:04:14.975Z
+
+
+### Can reproduce.
+CR // Windows 10 Home x64 // Discord Canary Build: 51128
+
+Xelphos#0001 - Bug Bot on 2019-12-12T05:04:18.908Z
+
+
+### Can reproduce.
+cr, always happens to me Win pro 10 1903, Build Number: 50957, Version Hash: 9ccc06ffb45e5886190080e452ca388b9a27a4fc
+
+Rana#1137 - Bug Bot on 2019-12-12T05:04:23.916Z
+
+
+### Can reproduce.
+Desktop Canary 51257, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-12T05:04:28.937Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909, Canary 51182 host 0.0.259
+
+Jean20B#4668 - Bug Bot on 2019-12-12T11:58:27.262Z
+
+
+### Can reproduce.
+CR - Windows 10 Home - Discord Canary 51182
+
+Smokepurpp#6012 - Bug Bot on 2019-12-12T15:21:58.156Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by AJ Palkovic on 2019-12-12T19:22:19.185Z
+
+
+### Can't reproduce.
+CNR // Windows 10 Home x64 // Discord Canary: 51279
+
+Xelphos#0001 - Bug Bot on 2019-12-12T19:53:38.279Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Pro, Canary 51279
+
+Action Potential#6862 - Bug Bot on 2019-12-13T04:39:27.556Z
+
+
+### Can't reproduce.
+Cannot reproduce; Desktop Canary 51387, Windows 10 Pro 1903 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-13T05:00:06.482Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-12-13T05:00:06.919Z
+
+
+### Can reproduce.
+Windows 7, Discord Canary 51182
+
+Rohit#3523 - Bug Bot on 2019-12-16T16:59:01.260Z
+
+
+### Archived by Bug Bot on 2020-01-15T17:00:42.867Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

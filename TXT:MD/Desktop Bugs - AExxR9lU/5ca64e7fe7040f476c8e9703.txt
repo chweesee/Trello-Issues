@@ -1,0 +1,92 @@
+[Archived] Autocomplete popup list unhelpfully remembers selection position between uses and updates. (https://trello.com/c/4mbyvWHk)
+
+None
+
+Created: 2019-04-04T18:35:43.888Z
+Latest Update: 2019-06-29T01:00:31.983Z
+
+Reported by sparr#4731
+
+####Steps to reproduce:
+- Type `@` 
+- press down arrow twice to select third item 
+- Type `a` to filter list to names starting with `@a` 
+- press enter to submit a message or backspace twice to clear the message 
+- Type `@b`
+
+####Expected result:
+Selection should reset to top of list after each update [that removes the previously selected item from the list?].
+####Actual result:
+After each update, the new third list item is selected unless the list shrinks below 3 items
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 34858, Version Hash: 571cc3b0b0ce33f8749c9710982d49dab0cbe2f4
+####System settings:
+Arch Linux current (2019-04-02)
+
+32015
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-04T18:35:43.888Z
+
+
+### Can reproduce.
+[Can Repro] Razer Blade Pro, Ubuntu 18.04.1 LTS (64-bit), Gnome 3.28.2, Discord Canary 35013
+
+KazWolfe#2896 - Bug Bot on 2019-04-04T18:35:51.274Z
+
+
+### Can reproduce.
+Can reproduce, Linux Mint 19.1 Tessa - Discord Canary 35013
+
+Seikatsu#0001 - Bug Bot on 2019-04-04T18:35:56.318Z
+
+
+### Can reproduce.
+CR: Manjaro Linux Unstable, Xfce 4.13 Canary 35013 (Can also reproduce on -m Canary 35013)
+
+chaNcharge#7023 - Bug Bot on 2019-04-04T18:36:01.420Z
+
+
+### I can reproduce this on Discord Canary Build 35059 on Windows 10 Home x64 (1809). I am transferring this ticket to desktop. - Ghoul on 2019-04-04T21:58:02.822Z
+
+
+### Imported from https://trello.com/b/5846f7fdfa2f44d1f47267b0 by Ghoul on 2019-04-04T21:58:12.438Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 (1809) - Discord Canary 35059
+
+Arnold0#7514 - Bug Bot on 2019-04-04T21:59:28.819Z
+
+
+### Can reproduce.
+Can Repro. | Win10 Pro x64 (1809) | Discord Canary 35059
+
+Clay#0001 - Bug Bot on 2019-04-04T23:40:04.630Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS · GNOME 3.28.2 · Canary 35116
+
+Casper#9999 - Bug Bot on 2019-04-05T04:39:42.294Z
+
+
+### Can reproduce.
+openSUSE Tumbleweed 20190411 x64 - GNOME 3.30.2 - Discord Canary 35540
+
+voldemort#6931 - Bug Bot on 2019-04-13T07:42:19.808Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Emmy Lim on 2019-05-30T00:51:50.667Z
+
+
+### Archived by Bug Bot on 2019-06-29T01:00:31.994Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

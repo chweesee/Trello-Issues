@@ -1,0 +1,89 @@
+[Archived] When hovering over the toggle switch for a permission option, disabled role settings don't show their error. Hovering over descriptions works fine (https://trello.com/c/wxLFZXnw)
+
+None
+
+Created: 2017-04-21T12:32:27.843Z
+Latest Update: 2017-10-17T20:31:18.202Z
+
+Reported by Matt | WizardCM#3776
+
+####Steps to reproduce: 
+- Go to Server Settings -> Roles 
+- Select @ everyone 
+- Hover your cursor over THE ON/OFF TOGGLE SWITCH (not the description) for "Allow anyone to mention this role" 
+
+####Expected result:
+ The error "Disabled for @ everyone" should appear 
+####Actual result:
+ Only the cursor changes, and no error appears. This is confusing to the user. 
+####System settings:
+ Win 10 x64 build 16170, Discord Canary
+
+1146
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-21T12:32:27.843Z
+
+
+### Can reproduce.
+Windows 10 x64 Latest Canary
+
+OGNovuh#0014 - Bug Bot on 2017-04-21T12:32:28.517Z
+
+
+### Can reproduce.
+Windows 10 Build 14393, Discord Canary Latest
+
+Wolfstorm#0986 - Bug Bot on 2017-04-21T12:32:32.321Z
+
+
+### Can reproduce.
+Windows 10 x64 & latest canary
+
+Immotay#2748 - Bug Bot on 2017-04-21T12:32:55.668Z
+
+
+### Wolfstorm#0986 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58f9fbdb236a8aca28635622/cc6619d263caa565cd758e23824041c3/q8PRsZ16 added by Bug Bot on 2017-04-21T12:34:05.371Z
+
+
+### Immotay#2748 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58f9fbdb236a8aca28635622/2a3e98b88fad4d6e426a3636a5aca911/2017-04-21_22-33-31.gif added by Bug Bot on 2017-04-21T12:38:02.446Z
+
+
+### Moved from User Reported Bugs to Server Settings Redesign Bugs by Jared on 2017-04-21T17:30:37.021Z
+
+
+### I have fixed this issue, although it's not yet deployed - Amadeus on 2017-04-22T02:12:19.046Z
+
+
+### Moved from Server Settings Redesign Bugs to Claimed Fixed, needs Verification by Amadeus on 2017-04-24T07:46:17.290Z
+
+
+### Can confirm this is fixed as of the last canary deploy. Needs official Discord Employee verification as well. - Alexander (DJScias) on 2017-04-24T12:58:43.653Z
+
+
+### UPDATE:
+
+The behaviour was changed here (spoke to Amadeus). The popup only happens when you hover over the disabled icon (uploading a gif of it now).
+
+It's still fixed though, so moving over. - Alexander (DJScias) on 2017-05-02T23:43:27.347Z
+
+
+### 2017-05-03_01-44-17.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58f9fbdb236a8aca28635622/57570d38d858364dca0ef1f30203daa4/2017-05-03_01-44-17.gif added by Alexander (DJScias) on 2017-05-02T23:44:39.738Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexander (DJScias) on 2017-05-02T23:45:06.606Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:31:16.508Z
+
+
+### Archived by Jared on 2017-10-17T20:31:18.206Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

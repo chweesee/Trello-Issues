@@ -1,0 +1,105 @@
+[Archived] When selecting a message (including the time) in compact mode, the left bracket sometimes gets excluded. (https://trello.com/c/sfG7gUMb)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-18T11:26:34.792Z
+Latest Update: 2019-10-23T23:00:55.540Z
+
+Reported by aerhx#0001
+
+####Steps to reproduce:
+- Select a message in compact mode 
+- Copy it and paste it
+
+####Expected result:
+It should appear like: [5:11 AM] Flesk: wait so not everyone has it?
+####Actual result:
+It appears like: 5:11 AM] Flesk: wait so not everyone has it?
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 22189, Version Hash: 81cb192b333eeafe2e866b97813a98b23a3b7931
+####System settings:
+Windows 8.1 Pro (Build 9600)
+
+17843
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-18T11:26:34.792Z
+
+
+### Can reproduce.
+Canary 22210, Windows 10 Pro 1803, definitely doesn't copy left [
+
+SunburntRock89#6617 - Bug Bot on 2018-08-18T11:26:42.078Z
+
+
+### Can reproduce.
+Macbook Air • macOS Sierra 10.12.6 • Canary 22210, happens sometimes only
+
+Rage#9991 - Bug Bot on 2018-08-18T11:26:47.079Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (Discord Canary 22112) . It happens sometimes
+
+CosiGames#2000 - Bug Bot on 2018-08-18T11:26:52.187Z
+
+
+### Can reproduce.
+MacBook Pro 13" 10.13.6, Canary 22210
+
+AlfiePops#1582 - Bug Bot on 2018-08-18T15:49:28.552Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 22210
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-18T15:53:47.339Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 22210
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-18T15:57:14.462Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 22112
+
+Delite#0001 - Bug Bot on 2018-08-18T16:52:08.183Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22283
+
+Frances Picard#6209 - Bug Bot on 2018-08-21T16:30:24.695Z
+
+
+### verified, macos 10.12.6, canary 22283 - Clayton on 2018-08-21T23:45:27.958Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-21T23:45:37.486Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:49.372Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 40489 Host 0.0.245
+
+Salt#8690 - Bug Bot on 2019-06-28T20:08:36.230Z
+
+
+### Unarchived by Bug Bot on 2019-06-28T20:30:07.791Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:55.559Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

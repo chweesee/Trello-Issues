@@ -1,0 +1,91 @@
+[Archived] Invite message spam in DMs after turning off msgs from players in server and inviting them to a server you created (part of experiment 2017-11_friend-invite-guild-create) (https://trello.com/c/raJ1WFqF)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-11-28T22:56:59.779Z
+Latest Update: 2019-04-22T07:47:34.829Z
+
+Reported by twinreba2#2889
+
+####Steps to reproduce:
+- Set "Allow direct messages from server members." in User Settings to true 
+- Message someone who shares a common server with you but is not your friend (we're going to call them Bob) 
+- Set "Allow direct messages from server members." in User Settings to false  
+- Create a new server 
+- Be a part of the experiment 2017-11_friend-invite-guild-create that only a fraction of discord users are a part of 
+- Under the "Invite Your Friends" menu that pops up click on "Invite" next to Bob's username
+
+####Expected result:
+Bob receives the invite once as a private message (that or Bob shouldn't be on the "Invite Your Friends" list at all)
+####Actual result:
+The invite link is spammed in the DMs (only seen by the user who created the server)
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 7651, Version Hash: ba13977a22db02ddbd7141fcd8a081705b0c09e5
+####System settings:
+Windows 10 x64 bit Version 1703 (OS Build 15063.726)
+
+6590
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-28T22:56:59.779Z
+
+
+### Anorak#5830 - https://youtu.be/nsZYop_s6Rs added by Bug Bot on 2017-11-28T22:57:02.645Z
+
+
+### JustGamer#2542 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a1de9bb7cf7aec48700b946/eee7be0567a6beab01e454522aff1858/unknown.png added by Bug Bot on 2017-11-28T22:57:02.720Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.180 (Build 7692) on Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-11-28T22:57:07.634Z
+
+
+### Can reproduce.
+CR, Using Discord on Web Browser Release Channel: stable, Build Number: 7651 and Chrome 62.0.3202.94
+
+QwakGoesDuck#9672 - Bug Bot on 2017-11-28T22:57:12.622Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.170, MacOSX 10.12.6
+
+IcyPebbles!#5833 - Bug Bot on 2017-11-28T22:57:17.611Z
+
+
+### Verified.  - Clayton on 2017-11-28T23:26:17.139Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-28T23:26:20.941Z
+
+
+### Bumping to P2, since more people are writing in about it - Clayton on 2017-12-08T10:51:10.318Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Shadi Isber on 2017-12-11T19:12:51.728Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2017-12-17T09:37:03.537Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:23:28.505Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:23:32.247Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:38:37.138Z
+
+
+### Archived by Tarek on 2018-02-22T19:38:38.694Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

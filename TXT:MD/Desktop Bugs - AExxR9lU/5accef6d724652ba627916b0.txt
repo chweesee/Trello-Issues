@@ -1,0 +1,67 @@
+[Archived] Audit Log Does Not Infinite Scroll on Displays with DPI Scaling (https://trello.com/c/bvC5Kzyi)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-04-10T17:07:57.706Z
+Latest Update: 2018-10-22T20:19:22.347Z
+
+Reported by TopHATTwaffle#1337
+
+####Steps to reproduce:-Place Discord onto a display with DPI scaling -Navigate to Audit log for a server. -Attempt to scroll to see older audit logs.
+
+####Expected result:
+Addational audit logs will not load when using application on DPI scaled display.
+####Actual result:
+Older audit logs do not load when scrolling on a display with DPI scaling.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 13009, Version Hash: 83390d030509e356c8432c5d1320d22de036d35f
+####System settings:
+Windows 10 Enterprise 1709
+
+10266
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-10T17:07:57.706Z
+
+
+### Can reproduce.
+Having your zoom level in the Discord settings on something other than the default and then checking the audit logs of a server like DAPI causes it to fail to load additional logs; MacBook Pro, Canary 13114
+
+XCVII#4244 - Bug Bot on 2018-04-10T17:08:05.133Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.4, Discord Canary 0.0.186 (Build: 13344) | Changing the zoom level to 110 for example makes you unable to scroll there
+
+Pascal#0929 - Bug Bot on 2018-04-10T17:08:10.158Z
+
+
+### Can reproduce.
+CR Windows 10 x64 canary 0.0.204 build 13373
+
+Okori#0902 - Bug Bot on 2018-04-10T17:08:15.366Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord Canary (13344).
+
+/hash#0001 - Bug Bot on 2018-04-10T17:09:11.371Z
+
+
+### Verified.  - Clayton on 2018-04-10T23:17:48.051Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-10T23:17:51.124Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:22.348Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

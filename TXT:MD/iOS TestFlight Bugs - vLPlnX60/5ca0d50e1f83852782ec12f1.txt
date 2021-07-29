@@ -1,0 +1,168 @@
+[Archived] Crash on emoji escape (https://trello.com/c/tREIvZiZ)
+
+P1 - Severe
+
+Created: 2019-03-31T14:56:14.645Z
+Latest Update: 2019-05-13T12:00:26.074Z
+
+Reported by WizardZombie#0001
+
+####Steps to reproduce:
+- Type an emoji that Discord doesn't have included, i.e it isn't in the inbuilt emoji picker (e.g. U+1F92A, zany face, 🤪)  
+- escape the emoji with a backslash before the emoji character 
+- Send the message
+
+####Expected result:
+The emoji should display in chat
+####Actual result:
+The app crashes
+####Client settings:
+2.5.0
+####System settings:
+iPhone Xs Max, iOS 12.3 DB 1 (16F5117h)
+
+31911
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-31T14:56:14.645Z
+
+
+### Can reproduce.
+Cr with 🤩 iPhone 6, iOS 12.3 (dev beta) - TestFlight 2.5.2 (13014)
+
+Xylium#5800 - Bug Bot on 2019-03-31T14:56:22.149Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS 12.2, TestFlight 2.5.2 (13014)
+
+Pascal#0929 - Bug Bot on 2019-03-31T14:56:27.182Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, tf 2.5.2 (13014)
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-31T14:56:32.188Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1.4 - TestFlight 2.5.2 (13014)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-03-31T14:59:04.126Z
+
+
+### Sorry, but I used the wrong storeinfo in my approval. It was supposed to be: iPhone 8 IOS 12.2, TestFlight 2.5.2 (13014)
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-31T15:42:02.343Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.5.2 (13014)
+
+Jengas#7777 - Bug Bot on 2019-03-31T16:25:00.450Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.5.2 (13014)
+
+Killtracity#0001 - Bug Bot on 2019-03-31T17:05:40.301Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 2.5.2 (13014)
+
+Skyla#0002 - Bug Bot on 2019-03-31T18:03:04.805Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.2 | TestFlight 2.5.2 (13014)
+
+Clay#0001 - Bug Bot on 2019-03-31T22:17:19.685Z
+
+
+### Can reproduce.
+CR Using 🤩; iPhone 8, iOS 12.3 Beta 1 - Discord TestFlight 2.5.2 (13014)
+
+Arnold0#7514 - Bug Bot on 2019-03-31T22:20:10.343Z
+
+
+### Can reproduce.
+CR; iPad Air iOS 12.1.4 (16D57), TF: 2.5.2
+
+c1rcl#1337 - Bug Bot on 2019-04-01T08:33:26.052Z
+
+
+### If you send the emoji with a different device (for example a Mac) that doesn’t crash when trying to send it, opening the channel with the escaped emoji with your iOS device will cause a crash loop for it.
+
+Pascal#0929 - Bug Bot on 2019-04-01T12:16:05.520Z
+
+
+### Can't reproduce.
+iPhone Xs, iOS 12.3 - Stable 2.5.0
+
+Justin#5045 - Bug Bot on 2019-04-02T06:15:09.354Z
+
+
+### Moved from New Issues to Notable Issues by Clayton on 2019-04-02T20:24:41.906Z
+
+
+### Can't reproduce.
+iPhone X, iOS 12.1.3 - Discord TestFlight 2.5.2 (13014)
+
+CustomName#9999 - Bug Bot on 2019-04-06T15:58:35.698Z
+
+
+### Can reproduce.
+iPhone XR - iOS 12.2 - Discord 2.5.0
+
+Frances Picard#6209 - Bug Bot on 2019-04-07T05:24:18.393Z
+
+
+### Can reproduce.
+iPhone 8 IOS 12.2, TestFlight 2.5.2 (13014)
+
+tech_dude1#9855 - Bug Bot on 2019-04-09T04:09:00.897Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Jonathan Wu on 2019-04-09T22:54:21.938Z
+
+
+### Cannot reproduce anymore as of TestFlight 2.5.2 (13730) with iPad Pro 11" running iOS 12.2. It no longer crashes and just shows the emoji.
+
+Moving to Claimed Fixed list. - Pascal on 2019-04-13T09:25:43.578Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Pascal on 2019-04-13T09:25:55.380Z
+
+
+### Can't reproduce.
+CNLR. iPhone XR, iOS 12.2, TestFlight 2.5.2 (13730)
+
+Rage#9991 - Bug Bot on 2019-04-13T09:28:03.318Z
+
+
+### Can't reproduce.
+Can no longer reproduce; iPhone 6, iOS 12.3 (dev beta 2) - TestFlight 2.5.2 (13730)
+
+Xylium#5800 - Bug Bot on 2019-04-13T11:04:59.498Z
+
+
+### Can't reproduce.
+Cannot reproduce anymore. iPhone Xʀ - iOS 12.2 (16E227) - Discord TestFlight 2.5.2 (13730)
+
+Frances Picard#6209 - Bug Bot on 2019-04-13T11:59:05.435Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-13T11:59:05.639Z
+
+
+### Archived by Bug Bot on 2019-05-13T12:00:26.112Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

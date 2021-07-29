@@ -1,0 +1,67 @@
+[Archived] Discord crashes after clicking in a chat or waiting a bit (https://trello.com/c/Eu1MUQJ9)
+
+None
+
+Created: 2018-08-14T00:58:22.977Z
+Latest Update: 2018-10-05T00:01:19.541Z
+
+Reported by Pyros#2326
+
+####Steps to reproduce:
+- Restart your app 
+- Try to dm someone and click done 
+- Your keyboard will hover, now hit close 
+- Click at a channel or keep on changing channels
+
+####Expected result:
+Discord should work fine
+####Actual result:
+Discord crashes
+####Client settings:
+Testflight 2.3.6 (6795)
+####System settings:
+iPhone 6, iOS 10.2.1
+
+17498
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-14T00:58:22.977Z
+
+
+### Can reproduce.
+only happens if you first searched for a conversation and then open a server, iPhone SE, iOS 10.3.2, TestFlight 2.3.6 (6755)
+
+TimThe#1118 - Bug Bot on 2018-08-14T00:58:34.156Z
+
+
+### Can reproduce.
+I managed to crash the client in two ways; 1) by starting discord from the friends tab and then switching to a server and 2) by starting the client from a server, then switch to the friends tab, then switch back and so on until it crashes. iPhone 6, iOS 12 beta 6, TestFlight 2.3.6 (6755)
+
+Roadman from Birmingham#7251 - Bug Bot on 2018-08-14T00:58:35.310Z
+
+
+### Can reproduce.
+CR, also happens completely randomly for me, iPod Touch 6th generation, iOS 11.4.1, TestFlight 2.3.6 (6755)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-08-14T00:58:40.308Z
+
+
+### Can reproduce.
+Was able to crash the client by switching servers on start up, iPhone 7 iOS 11.4.1, TestFlight 6755
+
+dragonfire535#8081 - Bug Bot on 2018-08-14T01:02:27.541Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed Bugs by Victoria on 2018-08-14T22:22:36.047Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:19.543Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

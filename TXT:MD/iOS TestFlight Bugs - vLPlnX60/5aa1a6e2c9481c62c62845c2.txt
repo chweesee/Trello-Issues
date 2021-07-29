@@ -1,0 +1,157 @@
+[Archived] Search/Message preview doesn't work after switching theme [iPhone/iPod only] (https://trello.com/c/Q4NQUYBt)
+
+P2 - Can wait a while,
+low
+
+Created: 2018-03-08T21:10:58.584Z
+Latest Update: 2019-07-13T19:30:26.612Z
+
+Reported by Kuuhaku#4503
+
+####Steps to reproduce:
+- Go to User Settings > Appearance and switch your theme 
+- Go to a server, search for something and tap on a message 
+- Or tap on the Recent Mentions button and tap on a message 
+- Observe
+
+####Expected result:
+When tapping on a message, a search/message preview should up, as it usually does
+####Actual result:
+The loading icon appears, going on forever
+####Client settings:
+TestFlight Build 2.2.5 (3022)
+####System settings:
+iPhone 6 iOS 10.3.2
+
+9439
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-08T21:10:58.584Z
+
+
+### Can reproduce.
+iPod Touch 6th generation, iOS 11.2.6, TestFlight 2.2.5 (3022)
+
+☘nickWtn☘#3789 - Bug Bot on 2018-03-08T21:11:05.956Z
+
+
+### Can reproduce.
+CR; It didn't even try to load the messages iPhone 7 IOS 11.3 TF 2.2.5
+
+korzq#0001 - Bug Bot on 2018-03-08T21:11:12.913Z
+
+
+### Can reproduce.
+CR, iPhone X, iOS 11.2.6, TF 2.2.5(3022)
+
+Kokorone#1337 - Bug Bot on 2018-03-08T21:11:15.974Z
+
+
+### Can't reproduce.
+iPad Air 2 iOS 11.2.6
+
+Nukey6#4055 - Bug Bot on 2018-03-09T05:20:33.059Z
+
+
+### Can reproduce.
+iPhone 7 (iOS 11.3 PB5) - TestFlight 2.2.5 (3054)
+
+Jack K-B.#0001 - Bug Bot on 2018-03-15T22:47:54.814Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.3 PB, TestFlight 2.2.6
+
+C4Navar#1337 - Bug Bot on 2018-03-22T20:52:56.814Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.7 (3519); Didn't even switch theme. Message preview is just not loading at all for me.
+
+HeroGamers#0001 - Bug Bot on 2018-03-29T11:47:11.747Z
+
+
+### Verified.  - Clayton on 2018-03-30T23:29:48.413Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-30T23:29:52.550Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3, TestFlight 2.3.0 (3740)
+
+Can't reproduce with my iPad Air 2, iOS 11.4 PB 1, TestFlight 2.3.0 (3740)
+
+Pascal#0929 - Bug Bot on 2018-04-11T13:30:34.826Z
+
+
+### Also happens with several menus in the server settings: Members, Roles, Instant Invites, Bans, Channels
+
+Pascal#0929 - Bug Bot on 2018-04-11T13:32:29.674Z
+
+
+### **Extensions to this issue**
+1. Logout of Discord and login back again
+2. Start a voice call/group call and end this call
+
+This are 2 other ways to get this bug.
+
+Pascal#0929 - Bug Bot on 2018-06-02T11:23:36.877Z
+
+
+### mouse#0091 - https://www.youtube.com/watch?v=91zird2JxMo added by Bug Bot on 2018-07-14T19:52:42.196Z
+
+
+### Can't reproduce.
+- iPhone 5C
+- iOS 10.3.3
+- Discord, v.Apple Store 2.3.5
+
+Sinnoma#8964 - Bug Bot on 2018-08-10T20:21:50.316Z
+
+
+### Can reproduce.
+Iphone SE IOS 12 Beta 5 - Testflight Discord 2.3.6 (6755)
+
+Rubenvds#5257 - Bug Bot on 2018-08-14T16:56:39.770Z
+
+
+### Cannot reproduce anymore (and all the extensions noted below) as of TestFlight 3.0.3 (15738) with iPhone 8 Plus running iOS 12.3.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-13T18:01:52.111Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-06-13T18:02:02.357Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 (dev beta 4) - TestFlight 3.0.3 (15738)
+
+Xylium#5800 - Bug Bot on 2019-06-13T18:06:05.261Z
+
+
+### Can't reproduce.
+ iPhone 6s, iOS 13.0 (17A5492t) - TestFlight 3.0.3 (15738)
+
+Isabel#0002 - Bug Bot on 2019-06-13T18:09:29.137Z
+
+
+### Can't reproduce.
+iPhone XR, iOS 12.3.1, TestFlight 3.0.3 (15738)
+
+Rage#9991 - Bug Bot on 2019-06-13T19:20:07.499Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-13T19:20:07.761Z
+
+
+### Archived by Bug Bot on 2019-07-13T19:30:26.625Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,102 @@
+[Archived] Discord can't upload a item from OneDrive with OneDrive Files On-Demand on the Windows 10 Fall Creator's Update. (OneDrive 17.3.7074.1023) (https://trello.com/c/EsUfTFLW)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2017-11-05T02:03:01.704Z
+Latest Update: 2018-08-30T23:34:08.724Z
+
+Reported by andritolion#0007
+
+####Steps to reproduce:
+- Click the "+" button to insert a file. 
+- Select a OneDrive file 
+- Click Open.
+
+####Expected result:
+If this bug did NOT exist, I should be able to send the file normally.
+####Actual result:
+Nothing happens. No error message, no confirmation to send the message with the file, no message sent, NOTHING.
+####Client settings:
+Discord Stable, Build Number: 6543, and Discord Canary, Build Number: 6557
+####System settings:
+Surface Book Performance Base 8 GB, Windows 10 Pro x64 (Fall Creator's Update) Version 1709 (Build 16299.19)
+
+6088
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-05T02:03:01.704Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (16299), Canary 0.0.170 (6864)
+
+mouse91#3089 - Bug Bot on 2017-11-05T02:03:09.099Z
+
+
+### Can reproduce.
+CR, Windows 10 Home, Fall Creators Update, Build: 6864 Note: Only on desktop app not on browser
+
+jul545454#0530 - Bug Bot on 2017-11-05T02:03:14.107Z
+
+
+### Can reproduce.
+CR, Windows Fall Creator's update x64 Home, Canary 6864
+
+TBNRShadowPlayz#1468 - Bug Bot on 2017-11-05T02:03:19.132Z
+
+
+### Can't reproduce.
+Dell Inspiron 15 Windows 10 Creators Update Discord Canary 6864
+
+Tiger Gaming™#6437 - Bug Bot on 2017-11-05T02:24:23.020Z
+
+
+### Can reproduce.
+Dell Inspiron 15 Windows 10 Creators Update Discord Canary 6864
+
+Tiger Gaming™#6437 - Bug Bot on 2017-11-05T03:12:36.495Z
+
+
+### "Uncaught (in promise) Error: EINVAL: invalid argument, stat" is printed in the console when uploading any OneDrive file with Files-On-Demand enabled. Appears to be a bug in an Electron dependency, but already fixed in v1.7.7+ as per https://github.com/electron/electron/pull/10377
+
+mouse91#3089 - Bug Bot on 2017-11-05T08:03:23.793Z
+
+
+### should be fixed as of latest canary (we rev electron to 1.7.9) - Jake Heinz on 2017-11-06T20:57:56.041Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jake Heinz on 2017-11-06T20:57:59.299Z
+
+
+### Can reproduce.
+OS: Windows 10 Pro x64 (16299), Release Channel: stable, Build Number: 9072, Version Hash: f546e8dff486ff50228e2ae54d8502fbfc9ba766
+
+stachu#6534 - Bug Bot on 2018-01-11T15:43:16.101Z
+
+
+### Note: This bug occurs with the Fall Creators Update - Jared on 2018-01-17T22:41:35.935Z
+
+
+### Re-opening as this is still reproducible. @jhgg  - Jared on 2018-01-17T22:41:53.144Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Jared on 2018-01-17T22:41:56.778Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-11T19:09:25.478Z
+
+
+### Verified Fixed - Jared on 2018-07-11T19:09:29.413Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:08.726Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

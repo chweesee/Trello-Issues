@@ -1,0 +1,95 @@
+[Archived] In group DM voice chat, muted users still show a green circle when their microphone is picking up audio. (https://trello.com/c/GBNs04KJ)
+
+P2: Fix can wait a while
+
+Created: 2017-07-14T10:39:01.151Z
+Latest Update: 2017-10-17T20:33:47.221Z
+
+Reported by Cubular#6460
+
+####Steps to reproduce:
+- Create a group DM 
+- Start a voice call (preferably with other users) 
+- Mute your mic, or have someone else mute theirs 
+- Speak into the mic
+
+####Expected result:
+No green circle should appear around your icon to show that you are speaking.
+####Actual result:
+A green circle appears, despite your microphone being muted.
+####Client settings:
+Desktop Canary 0.0.158
+####System settings:
+Windows 10 Home x64, Creator's Update
+
+2227
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-14T10:39:01.151Z
+
+
+### Cubular#6460 - https://youtu.be/Bp4STFRcaLQ added by Bug Bot on 2017-07-14T10:39:03.555Z
+
+
+### Can reproduce.
+ Windows 10 x64 v0.0.158
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-07-14T10:39:08.493Z
+
+
+### Can reproduce.
+ Windows 10 Pro x64 Ver 1703 Build 15063.296 , Discord Canary Latest
+
+Atmosphex#9091 - Bug Bot on 2017-07-14T10:39:13.550Z
+
+
+### Can reproduce.
+Windows 7 64x, Discord Canary 0.0.158
+
+Zuukini#4742 - Bug Bot on 2017-07-14T10:39:18.518Z
+
+
+### Verified. Can reproduce.
+
+Latest Canary, Windows 10 Ultimate x64 - Q Q on 2017-07-14T20:45:53.249Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Q Q on 2017-07-14T20:45:59.401Z
+
+
+### this was due to double-transmit and should be fixed next release - Ben Morse on 2017-07-15T20:27:46.108Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Ben Morse on 2017-07-15T20:28:53.290Z
+
+
+### Fixed as of build 2308
+
+Tiemen#0107 - Bug Bot on 2017-07-17T23:22:18.357Z
+
+
+### Can no longer reproduce. Win Canary 0.0.158 - Mike Nisbet on 2017-07-17T23:32:42.536Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Mike Nisbet on 2017-07-17T23:32:46.551Z
+
+
+### Verified Fixed - Jared on 2017-07-26T19:37:33.971Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-07-26T19:37:37.683Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:33:45.492Z
+
+
+### Archived by Jared on 2017-10-17T20:33:47.225Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

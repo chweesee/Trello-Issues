@@ -1,0 +1,194 @@
+[Archived] Search options out of order (https://trello.com/c/Qs5US0RY)
+
+P2 - Can wait a while,
+low
+
+Created: 2017-10-18T13:59:13.011Z
+Latest Update: 2019-08-27T12:08:55.442Z
+
+Reported by Amazingalex12#2742
+
+####Steps to reproduce:
+- tap "🔍" 
+- tap "from" 
+- enter someone's username 
+- tap another option
+
+####Expected result:
+the most recent option will appear in front of the username you put in
+####Actual result:
+the other option appears behind the username and dosent give you any choices like it used to
+####Client settings:
+IOS Testflight 1.9.3 (1165)
+####System settings:
+Ipad Air 2, IOS 10.3.3
+
+5541
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-18T13:59:13.011Z
+
+
+### Can reproduce.
+iOS 11.1 Public Beta 2, TF 1.9.3 (1165), iPhone 6s Plus
+
+Niklas#3627 - Bug Bot on 2017-10-18T13:59:20.453Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11 PB 3, TestFlight 1.9.3 (1165)
+
+Pascal#0929 - Bug Bot on 2017-10-18T13:59:25.504Z
+
+
+### Can reproduce.
+iOS 11.0.2, TF 1.9.3 (1165), IPhone 5s
+
+🌸 Luna Lovegood 🌸#4896 - Bug Bot on 2017-10-18T13:59:30.439Z
+
+
+### Can reproduce.
+Only an issue since TF 1.9.3 (1165), not present on 1.9.2 (953). Issue is broader, anything chosen from the results below gets inserted in front of everything in the Search text (e.g. tap In: channel, then choose a channel, it puts the channel name in front so it'll look like channelname In: instead of In: channelname). iPhone 8 Plus, iOS 11.1 (PB3), Discord TestFlight 1.9.3 (1165)
+
+juj#5114 - Bug Bot on 2017-10-18T14:39:32.839Z
+
+
+### Verified - Jared on 2017-10-26T20:03:12.554Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-26T20:03:16.234Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11 GM, TF 1.9.3 (1340)
+
+Dragon5232#1841 - Bug Bot on 2017-10-28T15:27:13.053Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2017-11-06T23:32:19.986Z
+
+
+### Can reproduce.
+Seems to be still an issue. iPhone 6s with iOS 11.1 & iPad Air 2 with iOS 11.2 PB 2, TestFlight 1.10.0 (1547)
+
+Pascal#0929 - Bug Bot on 2017-11-09T16:35:56.300Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2017-11-15T19:38:54.088Z
+
+
+### photo.jpg - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59e75e304f0f035c97ba147e/f0904db391f2df144124ec500c0712da/photo.jpg added by Alexandru Todea on 2017-11-16T04:18:28.396Z
+
+
+### I can still reproduce, the second search tag now gets added in the middle of the user’s name.
+
+Discord 2.0.1 (1610), iOS 11.1.1, iPhone 8 Plus - Alexandru Todea on 2017-11-16T04:19:17.290Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-26T19:03:08.460Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T23:32:43.409Z
+
+
+### Can reproduce.
+CR, iPhone 8, iOS 11.2.2, TestFlight 2.2.1 (build 2236)
+
+JustGamer#9787 - Bug Bot on 2018-01-26T23:34:48.319Z
+
+
+### Moving back to Verified Bugs, I can still reproduce on Discord 2.2.1 (2236), iOS 11.2.5, iPhone 8 Plus  - Alexandru Todea on 2018-01-27T09:48:13.842Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Bugs by Alexandru Todea on 2018-01-27T09:48:19.985Z
+
+
+### Can reproduce.
+Can still reproduce on iPhone 6 - iOS 11.4 TestFlight 2.3.1 (4051)
+
+Xylium#1480 - Bug Bot on 2018-04-30T14:06:55.760Z
+
+
+### Can reproduce.
+Can still repro with iOS 12 Dev Beta 2, TestFlight 2.3.4 (5560)
+
+mouse#0091 - Bug Bot on 2018-06-30T07:36:06.594Z
+
+
+### I checked this ticket during the Trello Event and I am STILL able to reproduce this bug as of Discord TestFlight 2.3.4 (5560). The second option smashes into the username in the search as described in the ticket. I used iPhone 8 + running iOS 12 Dev Beta 2.
+
+I will leave this ticket to be as I am still able to reproduce. - Ghoul on 2018-07-02T23:54:31.886Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59e75e304f0f035c97ba147e/569c0653546d4c2718fc02831ae347ed/image0.png added by Bug Bot on 2018-08-19T10:48:40.391Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.1 Beta (16C5050a) - TestFlight 2.4.0 (9714)
+
+Isabel#0002 - Bug Bot on 2018-12-12T04:45:26.158Z
+
+
+### Can reproduce.
+iPhone Xs, iOS Developer Beta 12.1.3 (16D5039a)
+
+RoadWrangler#4337 - Bug Bot on 2019-01-28T03:59:02.564Z
+
+
+### Can reproduce.
+iOS 12.1.4 iPhone Xr
+
+Thiago#3958 - Bug Bot on 2019-03-09T03:25:06.678Z
+
+
+### Can reproduce.
+CR; iPhone 8, iOS 12.3 Beta 1 - Discord TestFlight 2.5.2 (13014)
+
+Arnold0#7514 - Bug Bot on 2019-04-03T22:04:59.297Z
+
+
+### Cannot reproduce anymore as of TestFlight 2.5.2 (13730) with iPad Pro 11" running iOS 12.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-04-13T09:31:04.579Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-04-13T09:31:18.011Z
+
+
+### Can't reproduce.
+CNLR. iPhone XR, iOS 12.2, TestFlight 2.5.2 (13730)
+
+Rage#9991 - Bug Bot on 2019-04-13T09:36:57.486Z
+
+
+### Can't reproduce.
+Cannot reproduce anymore. iPhone Xʀ - iOS 12.2 (16E227) - Discord TestFlight 2.5.2 (13730)
+
+Frances Picard#6209 - Bug Bot on 2019-04-13T12:02:30.678Z
+
+
+### Can't reproduce.
+CNLR, iPhone X, iOS 12.1, TestFlight 2.5.2 (13730) 
+
+TheForbiddenAi#7549 - Bug Bot on 2019-04-13T12:52:13.323Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-13T12:52:13.533Z
+
+
+### Archived by Bug Bot on 2019-05-13T13:00:26.124Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

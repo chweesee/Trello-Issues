@@ -1,0 +1,103 @@
+[Archived] Opening a game modal on the activity tab, then clicking on another one doesn't open the second game modal (https://trello.com/c/8CK3JFqF)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-26T23:59:32.387Z
+Latest Update: 2019-05-01T23:00:10.909Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Go to the activity tab 
+- Click on any game icon to open the game modal 
+- Click on another game modal 
+- Observe what happens
+
+####Expected result:
+First game modal closes and second one opens
+####Actual result:
+First game modal closes but second one doesn't open
+####Client settings:
+Canary Build 34539 Host 0.0.233
+####System settings:
+Windows 10 Home x64 1809
+
+31670
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-26T23:59:32.387Z
+
+
+### Can reproduce.
+cr, Win 10 Pro - Canary 34565
+
+tonite#0001 - Bug Bot on 2019-03-26T23:59:39.908Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Discord Canary 34441
+
+tech_dude1#9855 - Bug Bot on 2019-03-26T23:59:44.760Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 34625
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-26T23:59:49.760Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 34565
+
+Delite#0001 - Bug Bot on 2019-03-27T00:20:07.742Z
+
+
+### Can't reproduce.
+Windows 10 Enterprise Discord Canary 34635
+
+GlenMerlin#2119 - Bug Bot on 2019-03-27T00:54:18.795Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 34625 | CR, however the fault is not on the second game modal. Clicking any other button while the game modal is open will not function, and only close the game modal.
+
+Clay#0001 - Bug Bot on 2019-03-27T02:23:14.147Z
+
+
+### Can't reproduce.
+macOS High Sierra, Version: 10.13.6 - Canary 0.0.216; May be a windows-only issue but it could just be my computer, don't take my word completely.
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-03-27T02:30:22.170Z
+
+
+### Can't reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64) · Web Canary 34625 — This could be specific to the Desktop App on Windows.
+
+Casper#9999 - Bug Bot on 2019-03-27T05:32:05.926Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home x64 1809, Canary 34625
+
+Jean20B#4287 - Bug Bot on 2019-03-27T05:54:02.329Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1809), Canary 34822
+
+Defracted#7777 - Bug Bot on 2019-03-30T16:15:07.698Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-04-01T22:59:48.087Z
+
+
+### Archived by Bug Bot on 2019-05-01T23:00:10.921Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

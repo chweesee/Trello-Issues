@@ -1,0 +1,76 @@
+[Archived] Webhook profile popouts still show a text cursor (https://trello.com/c/CmS1yUc2)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-21T00:03:52.775Z
+Latest Update: 2019-01-01T15:33:12.793Z
+
+Reported by heatingdevice#1212
+
+####Steps to reproduce:
+- Find a message posted by a webhook 
+- Click the webhook name to show the popout 
+- Find the middle of it and observe cursor change
+
+####Expected result:
+The mouse should remain a pointer
+####Actual result:
+The cursor changes because of the "View Profile" text since the `cursor: pointer` isn't there for a webhook profile
+####Client settings:
+Canary build 9714
+####System settings:
+Arch Linux
+
+8011
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-21T00:03:52.775Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9681
+
+mrkirby153#7840 - Bug Bot on 2018-01-21T00:04:00.295Z
+
+
+### Can reproduce.
+Windows 10 Professional x64 - Fall Creators Update with Discord Canary Build 9714.
+
+Ghoul#4567 - Bug Bot on 2018-01-21T00:04:05.352Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9714
+
+Kuuhaku#4503 - Bug Bot on 2018-01-21T00:04:10.351Z
+
+
+### Verified - Tarek on 2018-01-24T14:37:44.836Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-01-24T14:37:48.055Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a63d8e8c4bb03b963889483/bb928d5904a65b5e0685642c7ec8251a/Wo7ZmxI.gif added by Bug Bot on 2018-07-14T12:06:06.402Z
+
+
+### can no longer reproduce - Clayton on 2018-10-03T03:40:47.637Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-03T03:40:54.050Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:33:11.837Z
+
+
+### Archived by Tarek on 2019-01-01T15:33:12.795Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

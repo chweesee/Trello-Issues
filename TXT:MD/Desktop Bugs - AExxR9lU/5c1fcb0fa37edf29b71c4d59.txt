@@ -1,0 +1,90 @@
+[Archived] Discord can launch itself off screen in certain text-scaling configurations (https://trello.com/c/sH67OgMv)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-12-23T17:51:11.995Z
+Latest Update: 2019-02-24T03:30:02.924Z
+
+Reported by Yannick#5937
+
+####Steps to reproduce:
+- Have at least 2 monitors. 
+- Go to display settings and set the text scale to be a different value for at least 1 monitor, preferably one on the left. 
+- Move Discord so that it to the right of the monitor with a different text scale, and note its position. 
+- Exit Discord from the tray and re-launch it. 
+- Observe Discord's position on your screen.
+
+####Expected result:
+Discord's main window should reappear at the position it was when it was closed.
+####Actual result:
+Discord's main window becomes offset by a varying amount of pixels, sometimes so much that it appears off screen.
+####Client settings:
+Release Channel: stable, Build Number: 29783, Version Hash: bf9f33cbe3dd55a651b11804acc743638c80da25
+####System settings:
+Windows 10 Pro x64 Version 10.0.17134
+
+24536
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-23T17:51:11.995Z
+
+
+### Toby#5609 - https://youtu.be/FRPIwEQAzBA added by Bug Bot on 2018-12-23T17:51:14.497Z
+
+
+### Toby#5609 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c1fcb0fa37edf29b71c4d59/531874f4699830804e60217c6af05dd5/NKtTZ33.png added by Bug Bot on 2018-12-23T17:51:14.599Z
+
+
+### Can reproduce.
+Can Reproduce - Discord doesn't seem to show at all until settings are reversed, Windows 10 Pro, Discord Canary 30284
+
+1Storm#0001 - Bug Bot on 2018-12-23T17:51:19.441Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x,Canary 30291
+
+Octillion#6666 - Bug Bot on 2018-12-23T17:51:24.744Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit, Canary build 30291.
+
+SerbianPG#2287 - Bug Bot on 2018-12-23T17:51:29.446Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 30291
+
+Neiron#8475 - Bug Bot on 2018-12-23T17:53:42.200Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,Canary 30291
+
+Octillion#6666 - Bug Bot on 2018-12-23T19:02:04.786Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Version: 1803; Build: 17134.472; Desktop Canary, 30291
+
+Sosig#0001 - Bug Bot on 2018-12-24T00:38:20.777Z
+
+
+### Verified but I'm not 100% sure this is actually a bug. Getting confirmation, marking as a minor issue for now. - Jared on 2019-01-02T18:28:45.120Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2019-01-02T18:28:54.299Z
+
+
+### Archived by Bug Bot on 2019-02-24T03:30:02.937Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

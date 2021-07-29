@@ -1,0 +1,109 @@
+[Archived] Getting the 'flag' emoji object doesn't work as it should (https://trello.com/c/kpG2Jg7H)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-02-20T10:36:19.818Z
+Latest Update: 2019-03-23T03:15:10.533Z
+
+Reported by Haggggis#1547
+
+####Steps to reproduce:when you do \ it returns the emoji object, not the name. Whereas when you do the same with the flag emojis it returns with the letter emoji object, not the flag.
+
+####Expected result:
+It should return the emoji flag object, not the letter emoji object
+####Actual result:
+When you type in \ with the US emoji, it returns as the regional letter S, but not the flag. (works with every flag)
+####Client settings:
+Release Channel: stable, Build Number: 32373, Version Hash: f60540f0da7154f833c656ed66896ba461b094bc
+####System settings:
+Windows 10
+
+29088
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-20T10:36:19.818Z
+
+
+### Ghoul#0009 - http://This is the original actual result https://i.imgur.com/EjUXFgt.png added by Bug Bot on 2019-02-20T10:36:22.178Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c6d2da3fcedbc0686a3cefd/d969c80ff1e27d3dc91193aeb1044088/Ixje36e.png added by Bug Bot on 2019-02-20T10:36:22.557Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 Professional Canary 32393
+
+Darth#9386 - Bug Bot on 2019-02-20T10:36:27.175Z
+
+
+### Can reproduce.
+Can reproduce, macOS 10.14.3, Discord Canary 32407
+
+JBYoshi#5551 - Bug Bot on 2019-02-20T10:36:32.219Z
+
+
+### Can reproduce.
+CR, Discord Canary, Build Number: 32470
+
+RedstoneMiner27#3817 - Bug Bot on 2019-02-20T10:36:37.143Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 - Chrome 72.0.3626.97 (x64) - Web Canary 32470
+
+Casper#9999 - Bug Bot on 2019-02-20T10:39:06.928Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord: stable, Build Number: 32407, Version Hash: c146721bbbd760e1ade89402e8685b0867140a6c
+
+TheFutureKnight#7664 - Bug Bot on 2019-02-20T13:17:45.232Z
+
+
+### Can reproduce.
+Windows 10 home 64bit, Release Channel: stable, Build Number: 32470, Version Hash: f0f7fcf0c570893de08e915de9c9e78a3d2c5eef
+
+Mr. Proper#2394 - Bug Bot on 2019-02-20T13:41:52.939Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x,Canary 32407
+
+Octillion#6666 - Bug Bot on 2019-02-20T17:41:55.903Z
+
+
+### Octillion#6666 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c6d2da3fcedbc0686a3cefd/00b9fbe71fb6826ddf9cfa0b2a6f7158/unknown.png added by Bug Bot on 2019-02-20T17:42:15.404Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 32470
+
+Delite#0001 - Bug Bot on 2019-02-20T23:25:01.082Z
+
+
+### Won't fix per Jake. Moving to won't fix. - Tarek on 2019-02-21T01:39:30.096Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Tarek on 2019-02-21T01:39:34.028Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32470
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-21T02:53:57.781Z
+
+
+### Archived due to no activity for 30 days in won't fix list. - Tarek on 2019-03-23T03:15:09.375Z
+
+
+### Archived by Tarek on 2019-03-23T03:15:10.546Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

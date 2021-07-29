@@ -1,0 +1,97 @@
+[Archived] Toast notifications says "channel settings have been updated" for categories settings (https://trello.com/c/Fv0QNHbC)
+
+Mod can no longer reproduce
+
+Created: 2017-09-09T14:19:14.459Z
+Latest Update: 2017-12-02T16:16:53.037Z
+
+Reported by AviationMaster#4793
+
+####Steps to reproduce:
+- Get in a server with "manage servers" or own server 
+- Hold any category you wish 
+- Press Edit Categories
+
+####Expected result:
+You should just do your normal work
+####Actual result:
+At start, you will receive a toast notifications stating "Channel settings have been updated"
+####Client settings:
+Android Alpha 5.1.4
+####System settings:
+Samsung Galaxy S5 Android 6.0.1 Marshmallow
+
+4070
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-09T14:19:14.459Z
+
+
+### Can reproduce.
+cr when no permissions to edit the channel an error is thrown VFD 600 @ Android 6.0.1, alpha 5.1.4
+
+TTtie#4900 - Bug Bot on 2017-09-09T14:19:22.149Z
+
+
+### Can reproduce.
+CR, for me when I tried to exit the settings it asked if I wanted to save even though I made no changes, Android Alpha 5.1.4, LG X Power running Android Marshmallow 6.0.1
+
+Hexexpeck#8781 - Bug Bot on 2017-09-09T14:19:26.975Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 5.1.4
+
+Xander#0259 - Bug Bot on 2017-09-09T14:19:32.109Z
+
+
+### Happens on channel settings as well
+
+AviationMaster#4793 - Bug Bot on 2017-09-09T14:26:19.396Z
+
+
+### Can reproduce.
+Samsung Galaxy A5, Android 6.0.1, Alpha 5.1.4 (514)
+
+Damion8980#1189 - Bug Bot on 2017-09-09T14:33:24.672Z
+
+
+### Can reproduce.
+The save button also appears all the time and pressing it won't make it go away, broken feature (Discord Alpha 5.1.4 (514))
+
+[TRED] AlFas#2783 - Bug Bot on 2017-09-09T23:41:39.251Z
+
+
+### Moved from User Reported Bugs to Channel Category Bugs by Alexandru Todea on 2017-09-11T18:44:28.612Z
+
+
+### Moved from Channel Category Bugs to Fix made, not yet released by Jeff Cailteux on 2017-09-12T20:09:27.116Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jeff Cailteux on 2017-09-15T16:40:02.515Z
+
+
+### Tested on discord stable 5.2.6:
+
+I can no longer reproduce this myself. There's no immediate toast notification popping up on opening. - Alexander (DJScias) on 2017-09-25T19:53:13.757Z
+
+
+### Verified Fixed - Jared on 2017-10-02T19:39:06.749Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T19:39:10.714Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:16:52.055Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:16:53.039Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

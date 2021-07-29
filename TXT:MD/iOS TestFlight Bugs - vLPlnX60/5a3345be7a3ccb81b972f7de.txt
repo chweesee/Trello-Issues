@@ -1,0 +1,194 @@
+Bluetooth music bitrate lowered drastically after joining/leaving a voice call. (https://trello.com/c/2Cbpz4MC)
+
+low,
+P2 - Can wait a while
+
+Created: 2017-12-15T03:47:10.079Z
+Latest Update: 2019-11-18T17:56:22.940Z
+
+Reported by nepeat#6071
+
+####Steps to reproduce:
+- Be connected to a car Bluetooth audio system. 
+- Join a voice channel. 
+- Leave the voice channel. 
+- Go to the home screen and play music. 
+- Open Discord again.
+
+####Expected result:
+Music audio quality should stay the same.
+####Actual result:
+Music audio quality bitrate drops to something very bad.
+####Client settings:
+TestFlight 2.2.0 (1910)
+####System settings:
+iPhone X iOS 11.2
+
+7036
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-15T03:47:10.079Z
+
+
+### Can reproduce.
+iPhone X, 11.2.5, discord 2.2.0
+
+nullpixel#0012 - Bug Bot on 2017-12-15T03:47:17.415Z
+
+
+### Can reproduce.
+iPad Air 2, 11.2.5, Discord 2.2.0
+
+jottocraft#8115 - Bug Bot on 2017-12-15T03:47:22.418Z
+
+
+### Can reproduce.
+iPhone 6S+, iOS 11.2 (15C114), TestFlight 2.2.0 (1910
+
+Mustard but festive#6390 - Bug Bot on 2017-12-15T03:47:27.409Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.5 Dev Beta, Discord TestFlight 2.2.0 (1910)
+
+Xeno#1075 - Bug Bot on 2017-12-15T16:03:26.364Z
+
+
+### Can reproduce.
+TF 2.2.0,  iPhone 6s, iOS 11.1, Also occurs without using bluebooth earphone, and user will continue to experience the bug even the call is ended (required to close discord to fix the issue)
+
+Nelson1348#9190 - Bug Bot on 2017-12-16T06:56:51.003Z
+
+
+### Can reproduce.
+iPhone 7 (A1660), iOS 11.2.5 Developer Beta
+
+VexonRift#0679 - Bug Bot on 2017-12-17T18:54:53.590Z
+
+
+### I can reproduce this P3, moving to Verified Bugs. 
+
+Discord 2.2.0 (1910), iOS 11.2.1, iPhone 8 Plus and Airpods - Alexandru Todea on 2017-12-23T16:56:51.365Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2017-12-23T16:56:56.459Z
+
+
+### Note: This also happens with the spotify integration. - Jared on 2018-02-05T16:58:37.512Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2018-03-28T05:39:48.228Z
+
+
+### Can reproduce.
+Iphone SE 2.2.7 (3519) Sometimes it will fix it self but if you reopen discord it immediately tanks again.
+
+ChaosKadir#3764 - Bug Bot on 2018-03-29T23:58:49.346Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-03-30T21:50:34.427Z
+
+
+### I can definitely still reproduce this when using Spotify to play music.
+
+Discord 2.2.9, iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-10T04:24:54.441Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Alexandru Todea on 2018-04-10T04:25:01.482Z
+
+
+### Can reproduce.
+iPad 6th Generation iOS 11.4.1 2.3.7 Split Screen -> Settings -> Change Log -> Hear the volume went down
+
+PewZach#0001 - Bug Bot on 2018-09-09T03:49:58.550Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 12.1.1 Beta 3 - TestFlight 2.4.6 (12026)
+
+AbideSam#0001 - Bug Bot on 2019-03-09T06:52:54.902Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.2 (Dev Beta 4), TestFlight 2.4.6 (12026), also happens with autoplay GIFs
+
+Keons#0001 - Bug Bot on 2019-03-09T23:31:42.560Z
+
+
+### Moved from Reopened to Fix made, not yet released by Victoria on 2019-03-26T20:13:24.877Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2019-03-28T23:23:41.910Z
+
+
+### Can't reproduce.
+Can no longer reproduce as of TF 2.5.2, iPhone 8 iOS 12.2
+
+Arnold0#7514 - Bug Bot on 2019-03-28T23:49:33.438Z
+
+
+### Can reproduce.
+iPad Pro 11 inch & iPhone 8 Plus, iOS 12.2 - TestFlight 2.5.2 (12856)
+Still happens for me with Gif-Autoplay by following the original steps and as an additional last step I have opened a gif that auto plays
+
+Pascal#0929 - Bug Bot on 2019-03-28T23:50:07.972Z
+
+
+### Can reproduce.
+Disregard previous message on trello, I could reproduce following Pascal’s steps (Going and leaving vocal, starting music then seeing an autoplaying gif)
+
+Arnold0#7514 - Bug Bot on 2019-03-29T00:11:32.576Z
+
+
+### Can reproduce.
+can still reproduce, iphone 10 ios 10.3.3, tf 2.5.2 (12856)
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-29T01:48:55.369Z
+
+
+### Moved from Claimed Fixed Bugs to Backlog by Bug Bot on 2019-03-29T01:48:55.561Z
+
+
+### Can reproduce.
+iPhone 8+ iOS 12.1.2
+
+spirit#6684 - Bug Bot on 2019-04-03T03:12:52.134Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.1.4 + airpods and car audio changes to a call, not music when discord is open at all
+
+bedazzler#0472 - Bug Bot on 2019-04-03T06:24:41.351Z
+
+
+### Archived by Bug Bot on 2019-05-09T20:30:25.000Z
+
+
+### Can reproduce.
+CR, was able to reproduce with the Apple Airpods (2nd Gen). iPhone XR - iOS 12.3.1 - TestFlight 3.0.3 (15738)
+
+Rage#9991 - Bug Bot on 2019-06-13T19:28:52.490Z
+
+
+### Unarchived by Bug Bot on 2019-06-13T19:30:06.373Z
+
+
+### Can reproduce.
+iPhone 8, 12.1.4
+
+maku#0001 - Bug Bot on 2019-07-05T09:47:38.992Z
+
+
+### Can reproduce.
+Reproduced on iPhone 11, iOS 13.2, Stable v3.1.7 , seems to reproduce with Bluetooth Headphones (Beats Solo 3 Wireless)
+
+ptit lemay#0002 - Bug Bot on 2019-11-18T17:56:22.953Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

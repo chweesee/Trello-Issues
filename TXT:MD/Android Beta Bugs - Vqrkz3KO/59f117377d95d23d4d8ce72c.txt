@@ -1,0 +1,89 @@
+[Archived] We don't leave the vocal when we leave the voice channel via push notifications. (https://trello.com/c/RT3pZJFJ)
+
+P3 - Will be fixed eventually
+
+Created: 2017-10-25T22:59:03.524Z
+Latest Update: 2017-10-26T00:35:22.919Z
+
+Reported by Mathéo ~ fujh🎃fn#0878
+
+####Steps to reproduce:Join a voice channel. 
+- Close the app (check the gif) 
+- Leave the voice channel with push notification 
+- Re-open the app'.
+
+####Expected result:
+We don't display in the voice channel.
+####Actual result:
+We be display in the voice channel.
+####Client settings:
+Alpha 5.4.7
+####System settings:
+Android 7.0, Huawei p8 lite 2017.
+
+5778
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-25T22:59:03.524Z
+
+
+### Mathéo ~ fujh🎃fn#0878 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59f117377d95d23d4d8ce72c/237067bccce5cdc91a9e1dd3fb59de91/3o7aCYck1UEmYTrCEw.gif added by Bug Bot on 2017-10-25T22:59:06.472Z
+
+
+### 🎃 FireController1847#9085 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59f117377d95d23d4d8ce72c/6fd72fcdf8f71e1d3bc6859d0da1898b/giphy1.gif added by Bug Bot on 2017-10-25T22:59:06.531Z
+
+
+### Can reproduce.
+CR, Huawei Mate 9 Android 7.0 Discord Alpha 5.4.7. After reopening the app, I'm actually disconnected, but I still appear as connected in the voice channel user list. A way I found to remove myself completely from the VC is to tap the Mute mic button.
+
+Alex1304#9704 - Bug Bot on 2017-10-25T22:59:10.925Z
+
+
+### Can reproduce.
+Discord Android 5.4.7 Android 6.0.0 on a Samsung Galaxy S5. Alex's description is how I was able to reproduce it.
+
+🎃 FireController1847#9085 - Bug Bot on 2017-10-25T22:59:15.943Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 547
+
+Xander#0259 - Bug Bot on 2017-10-25T22:59:20.932Z
+
+
+### 🎃 FireController1847#9085 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59f117377d95d23d4d8ce72c/f197ff722610155511660ce29b56844f/giphy1.gif added by Bug Bot on 2017-10-25T22:59:36.310Z
+
+
+### Can reproduce.
+CR Galaxy Note8, Android 7.1.1, Discord Alpha 5.4.7
+
+Akemi#3352 - Bug Bot on 2017-10-25T23:39:57.476Z
+
+
+### Can't reproduce.
+CNR, LG H525n Android 5.0.2, I'm successfully disconnected, maybe only above Android 6.0.0 ?
+
+Mr.Quentin#4854 - Bug Bot on 2017-10-25T23:45:28.543Z
+
+
+### Verified.  - Clayton on 2017-10-26T00:10:01.792Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-26T00:10:10.930Z
+
+
+### this is a dupe of https://trello.com/c/gEvhwK8J/
+
+Azrael#9808 - Bug Bot on 2017-10-26T00:22:58.652Z
+
+
+### Archived by Clayton on 2017-10-26T00:35:22.923Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

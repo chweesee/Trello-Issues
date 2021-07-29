@@ -1,0 +1,77 @@
+[Archived] Selecting elements in the user settings menu will not leave them selected, and will immediately and automatically jump to the friends list icon behind the menu, sometimes even jumping fast enough to prevent VO from reading the thing you selected, and then get stuck in a loop of reading the friends list icon information (https://trello.com/c/d4erF8F0)
+
+None
+
+Created: 2019-09-22T03:10:25.584Z
+Latest Update: 2019-09-28T11:20:13.948Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Enable iOS VoiceOver 
+- Open user/channel/dm/discord settings 
+- Click on any setting
+
+####Expected result:
+The setting should be read and remain selected so that double tapping activates it
+####Actual result:
+A different button that you can’t see and can’t select is immediately selected and read, sometimes interrupting VoiceOver from reading what you’ve selected, and then VoiceOver will get stuck in a loop of reading the icon information and cutting itself off as it’s constantly reselected
+####Client settings:
+TestFlight 3.1.3 (17389)
+####System settings:
+iPhone XR iOS 13.0
+
+44477
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-22T03:10:25.584Z
+
+
+### binchlord#0998 - https://youtu.be/6IfqEEaiX-U added by Bug Bot on 2019-09-22T03:10:28.491Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 4), TestFlight 3.1.3 (17389)
+
+.Gloria.#9606 - Bug Bot on 2019-09-22T03:10:33.126Z
+
+
+### Can reproduce.
+CR, iPhone XS Max, IOS 13.0
+
+Sanjay#0540 - Bug Bot on 2019-09-22T03:10:38.123Z
+
+
+### Can reproduce.
+Can Reproduce on iPhone XS - iOS 13.1 (Dev Beta 4) Running TestFlight 3.1.3 (17389)
+
+Error 404#4040 - Bug Bot on 2019-09-22T03:10:43.139Z
+
+
+### Can reproduce.
+CR, iPhone 7 Plus iOS 13, Testflight 3.1.3(17389)
+
+Action Potential#6862 - Bug Bot on 2019-09-22T03:11:47.540Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13; TestFlight 3.1.3 (17389)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-24T22:34:14.766Z
+
+
+### Already added to the master ticket as an issue here: https://trello.com/c/YV1NDxy8 (it is the issue that Voiceover reads different elements from the background)
+
+Archiving the ticket. - Pascal on 2019-09-28T11:20:10.197Z
+
+
+### Archived by Pascal on 2019-09-28T11:20:13.960Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

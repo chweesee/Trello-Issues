@@ -1,0 +1,83 @@
+[Archived] Search doesn't cache users when searching for them (https://trello.com/c/799hVfVO)
+
+High,
+P3: Will get fixed eventually
+
+Created: 2018-05-19T17:20:22.328Z
+Latest Update: 2019-10-23T23:00:43.497Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Open the search for any server (very big server like Discord Testers is better) 
+- Use the `mentions:` or `from:` filter 
+- Start typing the name of any user that might be uncached (you could find some old user names with bug bot's messages) 
+- Observe the user suggestions to search for
+
+####Expected result:
+The user should get instantly cached when typing the name.
+####Actual result:
+It doesn't get cached. There is only a workaround to get the user instantly cached by removing the space between the search filter and the user input (`from:{user}` instead `from: {user}`)
+####Client settings:
+Discord Canary 0.0.191 (Build 15598)
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.4
+
+13037
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-19T17:20:22.328Z
+
+
+### Can reproduce.
+Discord Canary 0.0.209 (15598) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-05-19T17:20:29.736Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 15598
+
+Xylium#1480 - Bug Bot on 2018-05-19T17:20:34.725Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 15598
+
+webhp#1337 - Bug Bot on 2018-05-19T17:20:39.788Z
+
+
+### Tarek#1337 - https://youtu.be/NlqX7wfQcr8 added by Bug Bot on 2018-05-19T17:22:15.472Z
+
+
+### Can reproduce.
+Windows 10 Pro Insider Preview x64, v10.0.17672 Build 17672, Discord Canary Build 15598
+
+Cairo#2098 - Bug Bot on 2018-05-19T23:24:42.990Z
+
+
+### Verified, MacOS 10.12.6, Canary 15701 - Clayton on 2018-05-21T22:11:12.905Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T22:11:21.005Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:07.773Z
+
+
+### It also happens with the member search for permission overrides: https://trello.com/c/ETavkzeR - Pascal on 2019-07-20T12:43:15.780Z
+
+
+### Unarchived by Bug Bot on 2019-07-20T13:00:08.304Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:43.511Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

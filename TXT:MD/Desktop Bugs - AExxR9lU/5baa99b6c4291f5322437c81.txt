@@ -1,0 +1,100 @@
+[Archived] Hovering over reactions and moving to either the number or emoji causes tooltip to disappear and reappear (https://trello.com/c/Jzf2FD0O)
+
+None
+
+Created: 2018-09-25T20:25:26.244Z
+Latest Update: 2019-01-01T15:23:16.739Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Have a couple users react to a message 
+- Hover over either the number or the emoji to get the tooltip 
+- Move your cursor over the number or emoji, depending on which you hovered over first 
+- Observe the tooltip
+
+####Expected result:
+Tooltip doesn't disappear when moving your cursor
+####Actual result:
+Tooltip disappears and reappears when you move your cursor
+####Client settings:
+Canary Build 24611
+####System settings:
+Windows 10 Home x64 1803
+
+20130
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-25T20:25:26.244Z
+
+
+### Rashaun#9295 - https://i.imgur.com/VCwqSYX.gifv added by Bug Bot on 2018-09-25T20:25:29.699Z
+
+
+### Can reproduce.
+Can reproduce. MacBook Pro 13", macOS 10.13.6, Canary 24580
+
+Alfie#1582 - Bug Bot on 2018-09-25T20:25:33.771Z
+
+
+### Can reproduce.
+CR, Windows 10 Home, Release Channel: canary, Build Number: 24611
+
+PLASMAchicken#7236 - Bug Bot on 2018-09-25T20:25:38.717Z
+
+
+### Can reproduce.
+CR, Win 10 Pro 64x - Canary Build: 24611
+
+C4Navar#5799 - Bug Bot on 2018-09-25T20:25:43.835Z
+
+
+### Can reproduce.
+Canary 24611, null
+
+ori#0001 - Bug Bot on 2018-09-25T20:41:14.857Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 24580
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-25T20:43:01.990Z
+
+
+### Can reproduce.
+Canary 24611, Windows 10 Pro 1803 x64
+
+ori#0001 - Bug Bot on 2018-09-25T20:43:56.755Z
+
+
+### This is to be expected, they're two separate elements. Maybe it could technically be fixed, but no. - Jared on 2018-09-25T22:08:04.881Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2018-09-25T22:08:08.928Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 24611
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-09-26T01:30:29.728Z
+
+
+### Can reproduce.
+[CR] Win 10 Home x64, Canary 24683
+
+Hornet#1050 - Bug Bot on 2018-09-26T17:27:57.912Z
+
+
+### Archived due to being inactive for 30+ days in won't fix list. - Tarek on 2019-01-01T15:23:15.777Z
+
+
+### Archived by Tarek on 2019-01-01T15:23:16.741Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

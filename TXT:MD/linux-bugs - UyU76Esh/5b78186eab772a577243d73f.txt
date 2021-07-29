@@ -1,0 +1,103 @@
+When opening the Discord app for the first time on Linux, all audio from voice chats is full of static. (https://trello.com/c/o2gEE8Cv)
+
+P2: Can wait awhile,
+mid
+
+Created: 2018-08-18T13:00:30.627Z
+Latest Update: 2020-01-06T08:38:11.977Z
+
+Reported by Advanced Memeing Devices#4057
+
+####Steps to reproduce:
+- Reboot Ubuntu 18.04 with Discord installed 
+- Enter a voice chat 
+- Voices are full of static and difficult to hear 
+- toggle the Hardware Acceleration setting in Appearance 
+- restart Discord 
+- all voices are audible and static is gone
+
+####Expected result:
+The audio should be clear from the first opening of Discord, and should not require the hardware acceleration toggle.
+####Actual result:
+The audio is unclear and full of static until the Hardware Acceleration setting is toggled
+####Client settings:
+Build Number: 21425, Version Hash: df47d2bb54e0b94e583d8de5d76ed5b7bb63d267
+####System settings:
+Ubuntu 18.04.1 LTS
+
+17240
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-18T13:00:30.627Z
+
+
+### Can reproduce.
+Can confirm on Linux Mint 19. However it doesn't happen everytime and goes away after a few seconds
+
+Link#1685 - Bug Bot on 2018-08-18T13:00:38.024Z
+
+
+### Can reproduce.
+Can repro on Ubuntu 18.04 LTS. Most of the time it happens. Rarely does it not. Unplugging my headphones and replugging them solves the issue
+
+Kef#8576 - Bug Bot on 2018-08-18T13:00:42.917Z
+
+
+### Can reproduce.
+MacBook Pro (Retina, 13-inch, Early 2015) - Ubuntu 18.04.1 LTS
+
+korzq#0001 - Bug Bot on 2018-08-18T13:00:47.967Z
+
+
+### Can reproduce.
+Confirmed on Arch Linux (4.18.3-arch1-1-ARCH). After 20-30 reconnects it solves the issue
+
+Tom S.#4491 - Bug Bot on 2018-08-24T05:00:56.383Z
+
+
+### Can reproduce.
+Can reproduce on Arch Linux (4.18.5-arch1-1-ARCH). Often goes away quickly, however will sometimes persist for several minutes.
+
+noahkiq#0493 - Bug Bot on 2018-08-28T15:39:02.420Z
+
+
+### Moved from User Reported to Notable Issues by Clayton on 2018-08-30T22:04:19.455Z
+
+
+### Can reproduce.
+Dell Precision M4800 - Debian 9
+
+bottle#8908 - Bug Bot on 2018-09-07T06:34:01.335Z
+
+
+### Can reproduce.
+Debian 9.5 Stretch
+
+r0shi#9716 - Bug Bot on 2018-09-08T00:40:29.150Z
+
+
+### Can reproduce.
+Ubuntu 18.04.1 LTS x86_64
+
+NatoBoram#0421 - Bug Bot on 2018-09-27T17:52:14.761Z
+
+
+### Can reproduce.
+Arch Linux, 4.20.4
+
+Ricaz#3876 - Bug Bot on 2019-01-30T15:25:03.694Z
+
+
+### Can reproduce.
+Can reproduce Linux Mint 19.2 [BUILD INFO] Release Channel: stable, Build Number: 1903
+
+ReubenDollmanYT#3764 - Bug Bot on 2020-01-06T08:38:11.992Z
+
+List
+====
+Notable Issues
+
+Members
+=======
+None

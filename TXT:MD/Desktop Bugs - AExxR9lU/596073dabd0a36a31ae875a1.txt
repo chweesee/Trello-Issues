@@ -1,0 +1,112 @@
+[Archived] Hovering over the emoji picker UI toggle sometimes are misshapen at any zoom other than default (https://trello.com/c/JAxas2qo)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-07-08T05:55:38.745Z
+Latest Update: 2019-01-11T00:02:43.050Z
+
+Reported by Dru#7700
+
+####Steps to reproduce:
+- Ctrl+R to recieve the new UI update 
+- Set the zoom level to any non-default
+- hover over the emoji picker 
+- note that certain emoji are overlapping
+
+####Expected result:
+The emojis appear as circles no matter what emoji is previewed for the toggle
+####Actual result:
+Emoji sometimes appear as if they overlap or misshapen (easy to see when the client previews the 😡 emoji)
+####Client settings:
+Discord Canary 07/07/17 update
+####System settings:
+Windows 10 Pro
+
+2068
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-08T05:55:38.745Z
+
+
+### Dru#7700 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/596073dabd0a36a31ae875a1/45f5bf54b2eb00883e7fa5863991aa27/KoPZojf.png_Seems_to_affect_certain_emojis_and_not_others added by Bug Bot on 2017-07-08T05:55:41.254Z
+
+
+### Dru#7700 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/596073dabd0a36a31ae875a1/3e68042429c1b79130c13ba620f0652a/Jukq2cS.png_This_thing. added by Bug Bot on 2017-07-08T05:55:41.485Z
+
+
+### Can reproduce.
+ Windows 10 x64 bit, Canary 0.0.157
+
+Mr.Caleb#8593 - Bug Bot on 2017-07-08T05:55:46.231Z
+
+
+### Can reproduce.
+Windows 10 x64 bit, Canary 0.0.157
+
+Cole#0440 - Bug Bot on 2017-07-08T05:55:51.236Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary v0.0.157
+
+Sir Terry Wrist#0570 - Bug Bot on 2017-07-08T05:55:56.264Z
+
+
+### Moved from User Reported Bugs to New chatbox & edit box feature bugs by Cole Norman on 2017-07-08T07:36:23.455Z
+
+
+### Verified - Jared on 2017-07-10T21:47:38.187Z
+
+
+### Moved from New chatbox & edit box feature bugs to Verified Bugs by Jared on 2017-08-03T16:51:13.288Z
+
+
+### I am still able to reproduce this with the zoom level set at 110, most emojis look like in the provided screenshot. 
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5141
+
+
+  - Alexandru Todea on 2017-10-02T14:10:36.392Z
+
+
+### Checked this as part of the bug event, this is still a thing on build 12072 as seen here: https://imgur.com/UloY5u3 - Alexander (DJScias) on 2018-03-15T22:34:34.818Z
+
+
+### can no longer reproduce, windows 10, canary build 18051, moving to claimed fixed - Tim on 2018-07-02T17:24:59.242Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tim on 2018-07-02T17:25:14.461Z
+
+
+### Can reproduce.
+It's very noticeable if you're using 125 Zoom Level, though it also affects others (just not 100) Discord Canary 0.0.211, Build 20316, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-07-31T04:58:33.011Z
+
+
+### Can reproduce on Canary 20316. Reopening. - Tarek on 2018-07-31T07:28:22.251Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-07-31T07:28:25.609Z
+
+
+### CNR, Canary 28704, moving to claimed fixed. - Tarek on 2018-12-02T12:34:46.620Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Tarek on 2018-12-02T12:34:52.844Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-12-06T05:01:17.030Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:43.053Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

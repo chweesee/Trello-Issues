@@ -1,0 +1,124 @@
+[Archived] Sending a message or a file after scrolling up a little bit in a text channel will cause the app to not scroll down to the bottom of the channel automatically. (https://trello.com/c/HLTkU6v1)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-10-29T10:38:44.045Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Inner Sense#0404
+
+####Steps to reproduce:
+- Go into any text channel with a considerable amount of messages 
+- Scroll up a little bit in the channel 
+- Send a message or a file.
+
+####Expected result:
+The app should scroll down to the bottom automatically.
+####Actual result:
+App stays wherever you left it when you stopped scrolling up.
+####Client settings:
+TestFlight 1.9.3 (1340)
+####System settings:
+iPhone 6 with iOS 11.1 Public Beta 5
+
+5917
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-29T10:38:44.045Z
+
+
+### Can reproduce.
+CR, iPhone 8 +, iOS 11.0.3, Discord TestFlight 1.9.3 (1340), does appears to try to move a little but does not goes to the bottom automatically.
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-29T10:38:51.419Z
+
+
+### Can reproduce.
+CR, TestFlight 1.9.3 (1336), iOS 11.0.3, iPhone 7
+
+QwakGoesDuck#9672 - Bug Bot on 2017-10-29T10:38:56.983Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5, Discord Stable 1.9.4
+
+Pascal#0929 - Bug Bot on 2017-10-29T10:39:01.442Z
+
+
+### Cannot reproduce. Both text and an image file caused the text to scroll to the bottom of the channel. - Jared on 2017-11-06T22:07:54.334Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-11-06T22:07:59.073Z
+
+
+### Can still reproduce it with TestFlight 1.10.0 (1505)
+
+Pascal#0929 - Bug Bot on 2017-11-07T19:08:46.599Z
+
+
+### I can reproduce. Also, this bug appears to be specific to iOS 11. 
+
+Discord 2.0.1 (1610), iOS 11.1.2, iPhone 8 Plus - Alexandru Todea on 2017-11-21T18:04:17.219Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-11-21T18:04:24.414Z
+
+
+### Alright, I reproduced it and figured out why I didn't get it last time. It's the vague "considerable amount of messages" part. I was thinking like 20-30, but apparently this only happens with 50+ messages, where you had to load more messages to be able to see. - Jared on 2017-11-29T21:19:59.451Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-29T21:20:04.077Z
+
+
+### Verified this issue still occurs as written. - Jared on 2018-01-08T17:35:22.781Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2018-01-17T02:10:54.917Z
+
+
+### I can no longer reproduce, the chat scrolls down to the bottom now.
+
+Discord 2.2.1 (2202), iOS 11.2.2, iPhone 8 Plus - Alexandru Todea on 2018-01-19T06:45:33.123Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2018-01-19T06:45:45.292Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T21:28:58.115Z
+
+
+### Can't reproduce.
+iPhone 6 10.3.2 TestFlight 2.2.1 (2236)
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T22:25:45.948Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-26T23:23:09.757Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:47:47.125Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:47:51.342Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:00:11.583Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:00:12.020Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

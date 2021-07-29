@@ -1,0 +1,84 @@
+[Archived] 'Empty' Characters such as New Lines and Spaces do not carry over to the Upload Dialouge (https://trello.com/c/p5i1w94H)
+
+None
+
+Created: 2016-12-13T06:08:02.783Z
+Latest Update: 2017-10-17T21:06:06.011Z
+
+Reported by LackingAGoodName#1740
+
+####Steps to reproduce: 
+- Type your message in the message field, put a Space or New Line at the end of it, nothing after 
+- Upload a File (Image) via your Clipboard (Ctrl-V) 
+- Your 'empty' character will no longer be there 
+
+####Expected result:
+ Your exact message draft should carry over to the upload dialouge 
+####Actual result:
+ Your 'empty' characters are deleted System settings: Windows 10 Pro, Latest Canary 0.0.149
+
+Card Log
+========
+### Added by Jared on 2016-12-13T06:08:02.783Z
+
+
+### LackingAGoodName#1740 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584f904290f95b6297f7596b/8fdf55a7b8882d90d258d9ee3258f83e/tLi6gf5.gif added by Jared on 2016-12-13T06:08:46.149Z
+
+
+### Can reproduce.
+Latest Canary 0.0.149
+
+LackingAGoodName#1740 - Jared on 2016-12-13T06:10:08.476Z
+
+
+### Can reproduce.
+Windows 8.1, Canary 0.0.149
+
+霧雨 魔理沙 ★★★★#9667 - Jared on 2016-12-13T06:12:39.401Z
+
+
+### Can't reproduce.
+Latest macOS , Latest Canary Build (0.0.138)
+
+xLars#5484 - Jared on 2016-12-13T08:19:10.792Z
+
+
+### Can reproduce.
+Windows 10, latest Canary
+
+DaFri_Nochiterov#1542 - Jared on 2016-12-13T14:25:42.551Z
+
+
+### Can reproduce.
+Latest Canary
+
+Cernodile#0168 - Jared on 2016-12-13T17:08:41.516Z
+
+
+### Can reproduce.
+Canary Latest, Windows 8.1
+
+🎁 FireController1847#9085 - Jared on 2016-12-13T23:01:58.756Z
+
+
+### Not a bug. Empty lines are intentionally stripped out. It's the same if you were to post that message into chat, they'd be removed. - Jared on 2016-12-14T19:13:26.775Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-12-14T19:13:30.570Z
+
+
+### Moved from Won't Fix. Dead Bug to Not a Bug by Jared on 2016-12-14T19:13:34.800Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:06:00.496Z
+
+
+### Archived by Jared on 2017-10-17T21:06:06.013Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

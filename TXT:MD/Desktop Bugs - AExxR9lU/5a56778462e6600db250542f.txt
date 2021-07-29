@@ -1,0 +1,102 @@
+[Archived] Gif preview doesn't show it's loading and instead goes invisible. Need to either wait a long time or open it averagely 5 times to get it to show. (https://trello.com/c/SJJqCjqV)
+
+P3: Will get fixed eventually,
+High,
+Images,
+Client side
+
+Created: 2018-01-10T20:28:52.866Z
+Latest Update: 2018-10-22T20:18:37.911Z
+
+Reported by JohnyTheCarrot#0368
+
+####Steps to reproduce:
+- Upload an image which you haven't uploaded before since last PC restart. (so no cache) 
+- Open it 
+- See it transparent and also see the loading spinner for a couple of seconds and then it disappears, leaving you with nothing.
+
+####Expected result:
+Discord shows you the image is loading by keeping the transparent image and the loading spinner.
+####Actual result:
+Transparent image and spinner show up for a couple of seconds, after which they both disappear leaving you with only the "open original" button.
+####Client settings:
+Discord Canary 9405
+####System settings:
+Windows 10 Home, Version 1709
+
+7755
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-10T20:28:52.866Z
+
+
+### JohnyTheCarrot#0368 - https://i.imgur.com/O9dyr9Q.gifv added by Bug Bot on 2018-01-10T20:28:55.475Z
+
+
+### Can reproduce.
+CR Windows 10 Professional x64, Fall Creators' Update, Discord Canary Build 9405
+
+Ghoul#4567 - Bug Bot on 2018-01-10T20:29:00.272Z
+
+
+### Can reproduce.
+Took about 20 seconds to play a 500-KB gif. Windows 10 Pro x64 (Version 1709), Discord Canary (Build 9405)
+
+Dark#2027 - Bug Bot on 2018-01-10T20:29:05.310Z
+
+
+### Can reproduce.
+CR Windows 10 x64 Canary 0.0.197 Build 9405
+
+Okori#0902 - Bug Bot on 2018-01-10T20:29:10.312Z
+
+
+### Maybe it might be an possible extension of https://trello.com/c/C9D1FKhc/ ?
+
+Ghoul#4567 - Bug Bot on 2018-01-10T20:30:39.065Z
+
+
+### Side note, console will throw a 502 (Bad gateway) - Tarek on 2018-01-11T05:29:40.367Z
+
+
+### JohnyTheCarrot#0368 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a56778462e6600db250542f/d26800210bc7dc4e2e86c851bc2af2c3/2018-01-10_20-13-18.gif added by Bug Bot on 2018-01-11T07:55:32.786Z
+
+
+### Added new gif, first one from imgur seems borked, it repeats too soon.
+
+JohnyTheCarrot#0368 - Bug Bot on 2018-01-11T07:56:07.613Z
+
+
+### Cannot reproduce. The gifs are loading normally. - Jared on 2018-01-17T00:17:01.126Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-01-17T00:17:09.415Z
+
+
+### Can reproduce.
+This happens nearly continuously, they only start working if you close and reopen the lightbox over and over until they load. Suspecting it's a backend error related to the "poop" emote appearing when a random error happens with the Media Proxy. Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.201 (Build 10094)
+
+SuperSajuuk#0001 - Bug Bot on 2018-01-31T13:47:02.186Z
+
+
+### Only happens with bigger gifs, not with small ones. Try this one for example https://cdn.discordapp.com/attachments/217764019661045761/408255787199234058/2018-01-31_14-41-36.gif
+
+JohnyTheCarrot#0001 - Bug Bot on 2018-01-31T13:49:54.202Z
+
+
+### Can repro with https://cdn.discordapp.com/attachments/217764019661045761/408255787199234058/2018-01-31_14-41-36.gif - Jared on 2018-02-27T18:25:46.840Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2018-02-27T18:26:00.175Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:37.914Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

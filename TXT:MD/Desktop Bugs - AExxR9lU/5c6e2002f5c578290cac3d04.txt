@@ -1,0 +1,87 @@
+[Archived] Unicode in URLs allows you to surpass the 2000 character limit. (https://trello.com/c/DsPUwyH0)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-02-21T03:50:26.412Z
+Latest Update: 2019-03-24T00:00:03.367Z
+
+Reported by t0ny#2680
+
+####Steps to reproduce:
+- Send a message with 30 of the following string:  
+- Profit?
+
+####Expected result:
+It should be cut off at 2000 characters
+####Actual result:
+It ends up being around 4500 characters after the URL is encoded.
+####Client settings:
+stable 32470 f0f7fcf0c570893de08e915de9c9e78a3d2c5eef
+####System settings:
+I've tested it on iOS/OS X/Windows, should work on Linux and Android as well, does not seem to be version dependant.
+
+29384
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-21T03:50:26.412Z
+
+
+### Can reproduce.
+CR // Win10 + Edge 44.17763.1.0 // WebStable 32470
+
+ΖΧ LOLnt ////#3405 - Bug Bot on 2019-02-21T03:50:33.785Z
+
+
+### Can reproduce.
+CR. Windows 10 x64 1809 (17763), Discord Canary with Build number 32470
+
+Frances Picard#6209 - Bug Bot on 2019-02-21T03:50:38.789Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32470
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-21T03:50:43.800Z
+
+
+### Can reproduce.
+macos 10.14.4, Canary 32470
+
+M24#0272 - Bug Bot on 2019-02-21T04:18:40.134Z
+
+
+### Can reproduce.
+CR; Canary: 32407, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-21T05:23:47.680Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 - Chrome 72.0.3626.97 (x64) - Web Canary 32470
+
+Casper#9999 - Bug Bot on 2019-02-21T06:41:39.695Z
+
+
+### Can reproduce.
+Windows 10 home 64bit, Release Channel: stable, Build Number: 32470, Version Hash: f0f7fcf0c570893de08e915de9c9e78a3d2c5eef
+
+Mr. Proper#2394 - Bug Bot on 2019-02-21T06:52:36.015Z
+
+
+### verified.  - Clayton on 2019-02-21T23:55:14.006Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-21T23:55:18.213Z
+
+
+### Archived by Bug Bot on 2019-03-24T00:00:03.379Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

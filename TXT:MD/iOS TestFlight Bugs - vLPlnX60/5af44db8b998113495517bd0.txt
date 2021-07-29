@@ -1,0 +1,82 @@
+[Archived] App crashes when searching for blocked users with quick switcher (https://trello.com/c/x9F4hotN)
+
+None
+
+Created: 2018-05-10T13:48:40.929Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Block any user/bot 
+- Open the quick switcher 
+- Use `@` to only show users 
+- Then start typing the name of the blocked user/bot
+
+####Expected result:
+App shouldn't crash.
+####Actual result:
+App crashes after starting to type the blocked user's name.
+####Client settings:
+TestFlight 2.3.2 (4280)
+####System settings:
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 3
+
+12370
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-10T13:48:40.929Z
+
+
+### Can reproduce.
+CR; only works with @ symbol; iPhone 7 Plus, iOS 11.3, iOS TestFlight 2.3.2
+
+ash#0001 - Bug Bot on 2018-05-10T13:48:48.623Z
+
+
+### Can reproduce.
+CR. Discord constantly crashes even after blocking people. iPhone 6S, iOS 11.0, iOS Testflight 2.3.2 (Build 4280)
+
+Rage#1337 - Bug Bot on 2018-05-10T13:48:53.602Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4280)
+
+Xylium#1480 - Bug Bot on 2018-05-10T13:48:58.619Z
+
+
+### Moved from User Reported Bugs to Quick Switcher by Victoria on 2018-05-10T17:08:22.049Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS  11.3, TestFlight 2.3.2 (4280)
+
+Don#9396 - Bug Bot on 2018-05-10T18:54:52.245Z
+
+
+### Can't reproduce.
+Cannot Reproduce, both servers show up just fine on iPhone X iOS 11.3.1 - TestFlight 2.3.2.
+
+DreaM#0001 - Bug Bot on 2018-05-10T19:55:06.493Z
+
+
+### Moved from Quick Switcher to Fix made, not yet released by Fanghao on 2018-05-11T00:27:23.796Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Victoria on 2018-05-11T23:00:19.195Z
+
+
+### I cannot reproduce on iPhone 8 + running iOS 11.4.1 with Discord Stable Version 2.3.3. The quickswitcher no longer shows the blocked user I am trying to search. - Ghoul on 2018-06-01T14:39:01.127Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:26.864Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

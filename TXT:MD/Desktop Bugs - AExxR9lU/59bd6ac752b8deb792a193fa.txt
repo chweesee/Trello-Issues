@@ -1,0 +1,75 @@
+[Archived] Muting a category doesn't mute the test channels underneat (https://trello.com/c/hvpCPLDe)
+
+None
+
+Created: 2017-09-16T18:17:43.978Z
+Latest Update: 2017-10-19T20:16:31.207Z
+
+Reported by Azrael#6867
+
+####Steps to reproduce:
+- Create some categories 
+- Add some text channel sunder each one 
+- Mute the category and only the category
+
+####Expected result:
+The Category name and text channels should be greyed out
+####Actual result:
+They aren't greyed out and you still get half circle notifcations
+####Client settings:
+Canary Build 4358
+####System settings:
+Windows 10 Pro x64
+
+4406
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-16T18:17:43.978Z
+
+
+### Can reproduce.
+Channel isn't greyed out, but do not get notifications, Discord Canary 0.0.163 (4358) Windows 10 Version 1703
+
+Silox#8632 - Bug Bot on 2017-09-16T18:17:51.457Z
+
+
+### Can reproduce.
+Canary v0.0.163 Windows 10 x64
+
+Vap0r1ze#9585 - Bug Bot on 2017-09-16T18:17:56.627Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1703 (Canary build 4358, v 0.0.163)
+
+TimThe#7618 - Bug Bot on 2017-09-16T18:18:01.509Z
+
+
+### Verified.  - Clayton on 2017-09-19T20:20:35.825Z
+
+
+### Moved from User Reported Bugs to Channel catalgories by Clayton on 2017-09-19T20:20:40.850Z
+
+
+### Not a bug. It's treated like a server mute. It won't notify you, and if collapsed, nothing will pop out. - Amadeus on 2017-09-19T21:47:15.426Z
+
+
+### Moved from Channel catalgories to Not a Bug by Amadeus on 2017-09-19T21:47:23.139Z
+
+
+### Got it! Thanks! - Clayton on 2017-09-19T21:47:45.475Z
+
+
+### Archiving as has been listed as NAB for more than a month. - Mike Nisbet on 2017-10-19T20:16:29.767Z
+
+
+### Archived by Mike Nisbet on 2017-10-19T20:16:31.209Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

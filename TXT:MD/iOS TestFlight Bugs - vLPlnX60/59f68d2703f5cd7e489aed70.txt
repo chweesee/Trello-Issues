@@ -1,0 +1,84 @@
+[Archived] Bot icon cut off/stretched for very long nicknames (https://trello.com/c/rWvizP5b)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-10-30T02:23:35.338Z
+Latest Update: 2018-09-24T16:00:02.223Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Give a bot a very long nickname like `WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW` 
+- Observe the bot tag of this bot in the member list or/and go to the members menu in server settings (there might be other cases)
+
+####Expected result:
+Bot tag should be completely visible.
+####Actual result:
+Bot tag overlaps with other icons or will be cut/get stretched.
+####Client settings:
+Discord Stable 1.9.4
+####System settings:
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5
+
+5937
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-30T02:23:35.338Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59f68d2703f5cd7e489aed70/7d266dbc1bf98834c22db1e8687634dd/Btxahdc.jpg added by Bug Bot on 2017-10-30T02:23:37.789Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59f68d2703f5cd7e489aed70/9e171bdb248bf46f7d54519ea8cc16be/Nm6h3js.jpg added by Bug Bot on 2017-10-30T02:23:37.863Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 11.0.0 TF 1.9.3(1340)
+
+Xur, Agent of The Nine#6761 - Bug Bot on 2017-10-30T02:23:42.737Z
+
+
+### Can reproduce.
+iPad Air 2 & iPhone 6s, iOS 11.0.3, Stable 1.9.4
+
+skyllful#8516 - Bug Bot on 2017-10-30T02:23:47.720Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.1, TestFlight 1.9.3 (1340)
+
+Blizzyrd#7909 - Bug Bot on 2017-10-30T02:23:52.732Z
+
+
+### This is another case of intentionally destructive behavior. You'd only run into this if you were trying to break it. Still a valid bug, just super low priority. - Jared on 2017-11-07T19:46:34.070Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-07T19:46:39.217Z
+
+
+### Also happens with the crown icon (for servers and group dms)
+
+Pascal#0929 - Bug Bot on 2018-05-19T14:08:56.407Z
+
+
+### Also happens with the mini profile of a bot.
+
+Pascal#0929 - Bug Bot on 2018-08-20T14:45:36.622Z
+
+
+### In addition to the cutoffs, the actual length at which they cut off is not consistent.
+
+evilpauwse#9985 - Bug Bot on 2018-08-25T15:54:52.846Z
+
+
+### Archived by Clayton on 2018-09-24T16:00:02.226Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

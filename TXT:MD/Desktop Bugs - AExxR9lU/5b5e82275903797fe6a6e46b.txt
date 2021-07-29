@@ -1,0 +1,155 @@
+[Archived] Audit Log entry for Verification Level changes incorrectly says "Guild" instead of "Server" (https://trello.com/c/Am9WAioH)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-30T03:12:39.127Z
+Latest Update: 2019-08-19T03:00:43.790Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+
+- Create a server 
+- Go into its Server Settings -> Moderation 
+- Set the Verification Level to either Low, High, or Very High 
+- Go into the Audit Logs and extend the entry for the Verification Level change you just did and observe the text
+
+####Expected result:
+Entry is written as "Set the server verification level to {level}"
+####Actual result:
+Entry is written as "Set the guild verification level to {Level}"
+####Client settings:
+Discord Canary 0.0.211, Build 20174
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+16373
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-30T03:12:39.127Z
+
+
+### Ene#0808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5e82275903797fe6a6e46b/accbde39288fe3459e1936e9cd3a3485/6bWjKfJ.png added by Bug Bot on 2018-07-30T03:12:41.939Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (20174) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-07-30T03:12:46.535Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803, Discord Canary (Build 20174)
+
+Doges#0001 - Bug Bot on 2018-07-30T03:12:51.605Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 20174
+
+mrkirby153#7840 - Bug Bot on 2018-07-30T03:12:56.570Z
+
+
+### Can reproduce.
+MacBook Pro (13"), macOS 10.13.6 - Canary 20174
+
+Mippy#0001 - Bug Bot on 2018-07-30T03:42:09.227Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803, Discord Application Build 16727
+
+Thundy#2018 - Bug Bot on 2018-07-30T03:49:06.351Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit 1803, Canary 20174
+
+that15fine#9275 - Bug Bot on 2018-07-30T05:04:47.149Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 20174
+
+MoonlightCapital#0554 - Bug Bot on 2018-07-30T05:48:11.972Z
+
+
+### MoonlightCapital#0554 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5e82275903797fe6a6e46b/4212c197ce93f5961598521d9db86c23/unknown.png added by Bug Bot on 2018-07-30T05:50:59.823Z
+
+
+### Can reproduce.
+Can Reproduce. Tested on MacBook Air Early 2015, macOS High Sierra 10.13.4, Discord Canary 0.0.193, Build Number: 20174.
+
+Ghostly#0001 - Bug Bot on 2018-07-30T06:56:13.934Z
+
+
+### Can reproduce.
+Canary 20174, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-30T09:47:43.263Z
+
+
+### verified, macos 10.12.6, canary 20336 - Clayton on 2018-07-31T23:48:21.658Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-31T23:48:30.083Z
+
+
+### Can reproduce.
+Win 10 Pro 64x - Canary Build 25046
+
+C4Navar#5799 - Bug Bot on 2018-09-29T10:45:52.540Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:26.479Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31183
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-23T18:51:44.537Z
+
+
+### Unarchived by Bug Bot on 2019-01-23T19:00:05.511Z
+
+
+### Cannot reproduce anymore on Canary 41544, Windows 10 Home 64-bit (v1903).
+
+Moving to Claimed Fixed. - Ene on 2019-07-20T02:35:18.440Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-07-20T02:35:23.071Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 v1903 Build 18912.1001 - Discord Canary v0.0.247 Build 41544
+
+webhp#1337 - Bug Bot on 2019-07-20T02:35:54.982Z
+
+
+### Can't reproduce.
+Windows 10 Home & Student, Host 0.0.247, Canary Build 41544
+
+binchlord#0998 - Bug Bot on 2019-07-20T02:36:58.813Z
+
+
+### Can't reproduce.
+Windows 10 Home v1903 x64 - Discord Canary 41544
+
+Daffyduck#5364 - Bug Bot on 2019-07-20T02:37:00.147Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-07-20T02:37:00.710Z
+
+
+### Archived by Bug Bot on 2019-08-19T03:00:43.802Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

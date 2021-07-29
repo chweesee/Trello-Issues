@@ -1,0 +1,81 @@
+[Archived] pressing and holding on attached files gives an empty menu (https://trello.com/c/QJDXvfhQ)
+
+P3 - Will be fixed eventually,
+Mod can no longer reproduce
+
+Created: 2016-12-13T11:42:31.625Z
+Latest Update: 2019-06-05T23:49:23.729Z
+
+Reported by LW001#8654
+
+####Steps to reproduce: 
+- Have someone send an uploaded image without a message 
+- Hold down your finger on the message placeholder 
+
+####Expected result:
+ no menu or a menu with some features like copying comes up 
+####Actual result:
+ Empty menu comes up with just the person's name System Settings: android 5.0.2
+
+Card Log
+========
+### Added by Jared on 2016-12-13T11:42:31.625Z
+
+
+### Can reproduce.
+Alpha 3.1.9, Android 4.4.2 (Samsung Galaxy S3)
+
+Ian Murray#8701 - Jared on 2016-12-13T11:44:48.974Z
+
+
+### Can reproduce.
+3.2.0
+
+Abhijith Ganesan#5206 - Jared on 2016-12-18T09:33:06.206Z
+
+
+### Verified, minor bug - Jared on 2016-12-21T22:00:42.338Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-21T22:00:45.104Z
+
+
+### Can't repro, Simplyfyed - Clayton on 2017-07-28T22:37:00.952Z
+
+
+### Can't reproduce 
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.1.7 (517) - Alexandru Todea on 2017-09-18T11:26:40.248Z
+
+
+### It seems like Icy forgot to move this one to Can't Reproduce - Alexandru Todea on 2017-09-18T11:26:57.458Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Alexandru Todea on 2017-09-18T11:27:04.126Z
+
+
+### Can still reproduce. You must be a regular user (no mod- or admin-type permissions given). The 2 options that are supposed to pop up are "Copy Text" and "Add Reaction" (3rd being "Reactions" if someone else has already reacted), however since there is no text to copy, and the repro steps have disabled reaction permissions, no options pop up as is to be expected. Giving the user permissions such as "Manage Messages" make options such as "Pin" and "Delete Message" appear as they should. Although technically not a bug, in this case it may be wise to either not show the popup, or alert the user as to why the list is empty.
+Google Pixel XL, Android 8.0.0, Discord 5.2.6. - Chris Cox on 2017-09-30T05:48:44.477Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Chris Cox on 2017-09-30T05:48:52.227Z
+
+
+### Cannot reproduce anymore, Discord Alpha 6.1.6, OnePlus 5. Android 8. - Tarek on 2018-01-28T16:02:58.909Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-28T16:03:04.880Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-22T12:18:31.461Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:23.741Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

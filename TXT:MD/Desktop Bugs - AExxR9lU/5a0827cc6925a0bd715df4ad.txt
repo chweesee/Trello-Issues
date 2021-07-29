@@ -1,0 +1,96 @@
+[Archived] The home page for discordapp.com will show up mid connecting if you refresh Discord via Ctrl+R. (https://trello.com/c/J61TYNfT)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-11-12T10:51:56.784Z
+Latest Update: 2017-12-23T10:45:59.517Z
+
+Reported by jake 🍂#6298
+
+####Steps to reproduce:
+- Log into Discord 
+- When the "Connecting..." screen pops up, quickly Ctrl+R to refresh Discord 
+- Observe
+
+####Expected result:
+Connection should resume and taken you to your friends list
+####Actual result:
+The homepage for discordapp shows instead of your friends list
+####Client settings:
+Stable 0.0.298 (Build 7127)
+####System settings:
+Winodws 10 x64, Creator's Update (Build 15063.674)
+
+6323
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-12T10:51:56.784Z
+
+
+### jake 🍂#6298 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a0827cc6925a0bd715df4ad/5f1d4b39c5a80eacbb681d716134c353/dd1d3fd8b2a41ffb4f280bd4c28273a6.png added by Bug Bot on 2017-11-12T10:51:59.584Z
+
+
+### Can reproduce.
+CR, can't get it to occur every time however, Canary build 7194, Win10 x64
+
+crater#8252 - Bug Bot on 2017-11-12T10:52:04.462Z
+
+
+### Can reproduce.
+Could reproduce on the second try. I didn't need to "slow down" my connection to achieve the actual result. Tip to easily reproduce: hold Ctrl all the time and as soon as you see the "Connecting" screen hit R. Windows 10 Pro x64 (Version 1709), Discord Canary (Build 7194) and Stable (Build 7157).
+
+Inner Sense#0404 - Bug Bot on 2017-11-12T10:52:09.448Z
+
+
+### Can reproduce.
+CR Managed to crash Discord a couple of times, too. After a couple of times trying it showed the homepage. Windows 10 Home, Version 1709, Discord Canary 7194
+
+JohnyTheCarrot#0368 - Bug Bot on 2017-11-12T10:52:14.463Z
+
+
+### Takes a couple of tries.
+
+JohnyTheCarrot#0368 - Bug Bot on 2017-11-12T10:53:50.996Z
+
+
+### JohnyTheCarrot#0368 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a0827cc6925a0bd715df4ad/2401db883614880c3fbedf0feecb4555/4PiQX9f.gif added by Bug Bot on 2017-11-12T11:02:23.860Z
+
+
+### Can reproduce.
+CR, took 3 tries, Canary, Build Number: 7194, Windows 10 Home X64 (1703)
+
+GoldenPheonix#6248 - Bug Bot on 2017-11-12T13:17:22.203Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Fall Creators Update 1709 (Canary 7194)
+
+sladewatkins#2439 - Bug Bot on 2017-11-12T21:04:24.913Z
+
+
+### Can't reproduce.
+Surface Book Performance Base 8 GB, Windows 10 Pro x64 (Fall Creator's Update) Version 1709 Discord Canary build 7194, Tried 10 times and no success. Maybe for people with slower connections?
+
+andritolion#0007 - Bug Bot on 2017-11-13T02:02:18.397Z
+
+
+### Cannot reproduce. Fixed already? - Jared on 2017-11-14T19:00:12.469Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-11-14T19:00:22.388Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-23T10:45:57.929Z
+
+
+### Archived by Alexandru Todea on 2017-12-23T10:45:59.520Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

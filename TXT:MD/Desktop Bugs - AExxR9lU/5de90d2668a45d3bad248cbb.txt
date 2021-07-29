@@ -1,0 +1,136 @@
+Meta tags not always showing og:description after update (https://trello.com/c/zATJs8vy)
+
+None
+
+Created: 2019-12-05T13:59:03.094Z
+Latest Update: 2020-07-16T21:26:05.852Z
+
+Reported by djsmithuk#0007
+
+####Steps to reproduce:
+- Create a php file with meta tags the following three meta tags 
+- 1) <meta name="twitter:description" content="Something Here"> 
+-  2) <meta property="og:description" content="Something Here"> 
+- 3) <meta name="description" content="Something Here"> 
+- Upload to a web-server 
+- Paste that exact url into discord and await for it to embed
+
+####Expected result:
+meta description should still be visible
+####Actual result:
+meta description is not visible
+####Client settings:
+Canary, 48964
+####System settings:
+macOS Catalina 10.15.1 (19B88)
+
+47434
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-05T13:59:03.094Z
+
+
+### djsmithuk#0007 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5de90d2668a45d3bad248cbb/18f196318a5c5464b05a7ce48ef879e6/ADodWUW.png added by Bug Bot on 2019-12-05T13:59:06.758Z
+
+
+### djsmithuk#0007 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5de90d2668a45d3bad248cbb/946a6faf582f44b83fcfed520e80593d/KX2PnGu.jpg added by Bug Bot on 2019-12-05T13:59:06.955Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1909 - Canary 50588 - only the meta "twitter:description" appears in the embed
+
+A1ex#8151 - Bug Bot on 2019-12-05T13:59:12.317Z
+
+
+### Can reproduce.
+[CR] Windows 10 / canary 50796 - Only the first meta description shows up in the embed, in the given example only 'twitter:description' shows up.
+
+thecocohead#2687 - Bug Bot on 2019-12-05T13:59:16.213Z
+
+
+### Can reproduce.
+[CR], C50812, W10 Home, 1909
+
+Stig124#1591 - Bug Bot on 2019-12-05T13:59:21.015Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64, Release Channel: canary, Build Number: 50796, Version Hash: 663f7986528d56c1a918cdb38c8b0effbc4df2e2
+
+Wilhelm "Deathshead" Strasse#7423 - Bug Bot on 2019-12-05T20:09:19.606Z
+
+
+### Can reproduce.
+CR, Desktop Canary, 50588 - Windows 10 Pro x86
+
+Beatrice#0111 - Bug Bot on 2019-12-05T21:30:39.331Z
+
+
+### Can reproduce.
+CR, macOS 10.15.2, Canary 50895
+
+Action Potential#6862 - Bug Bot on 2019-12-06T04:26:50.471Z
+
+
+### Can reproduce.
+Macbook Pro macOS Catalina 10.15.1, Discord 50836
+
+Philip#0001 - Bug Bot on 2019-12-06T04:44:50.240Z
+
+
+### Can reproduce.
+CR, Discord Canary - Windows 10 Home 50796
+
+Santasty#6012 - Bug Bot on 2019-12-06T05:11:07.158Z
+
+
+### Can reproduce.
+[CR] Windows 10 Home x64, Discord: ptb, Build Number: 50836
+
+TheFutureKnight#7664 - Bug Bot on 2019-12-06T13:24:36.127Z
+
+
+### Can reproduce.
+macOS Catalina 10.15 Developer Beta - Release Channel: canary, Build Number: 50184, Version Hash: 6de5164a4f666cdee5cccafa813f16ff3250d276
+6869bea5c0515e36798d.js:53
+
+Nith#3883 - Bug Bot on 2019-12-06T23:41:16.280Z
+
+
+### Can reproduce.
+cr; Windows 10 x64 Build 1803 canary, Build Number: 50957
+
+Spooker#0001 - Bug Bot on 2019-12-08T01:00:57.542Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 50957 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-08T01:04:16.894Z
+
+
+### Can reproduce.
+Windows 10 Home and Canary 50957
+
+hufflepuff15560#9709 - Bug Bot on 2019-12-08T02:00:16.624Z
+
+
+### Can reproduce.
+Canary 50588, Windows 7
+
+Rohit#3523 - Bug Bot on 2019-12-09T07:01:28.618Z
+
+
+### Can reproduce.
+Canary 50588, Windows 7
+
+Rohit#3523 - Bug Bot on 2019-12-10T07:22:02.329Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

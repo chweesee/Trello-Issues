@@ -1,0 +1,234 @@
+[Archived] Having a long enough note on a user can cause their profile card to go off the bottom of the screen. (https://trello.com/c/7KHJC6cL)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-16T04:15:52.039Z
+Latest Update: 2020-07-03T17:30:02.886Z
+
+Reported by Cubular#6460
+
+####Steps to reproduce:
+- Add a note to a user (make it several lines, like 8 or 9) 
+- Scroll up chat enough so their icon is near the bottom of the chat window 
+- Click on their profile icon
+
+####Expected result:
+The profile card will appear and be fully visible.
+####Actual result:
+The profile card appears and is cut off, because it runs off the bottom of the screen, as shown by the attachment.
+####Client settings:
+Desktop Canary 0.0.163
+####System settings:
+Windows 10 x64 Creator's Update
+
+3284
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-16T04:15:52.039Z
+
+
+### Cubular#6460 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5993c6f8f9369c39d223c34e/f45dc028c77de057b6ca8c8caba86435/FT1JP2Z.png added by Bug Bot on 2017-08-16T04:15:55.008Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 1607, Discord Canary 0.0.163
+
+Chester#2084 - Bug Bot on 2017-08-16T04:15:59.817Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 15063, Discord Canary 0.0.163
+
+Charles#1934 - Bug Bot on 2017-08-16T04:16:04.925Z
+
+
+### Can reproduce.
+CR on Discord Canary 0.0.154, macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-08-16T04:16:09.807Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5993c6f8f9369c39d223c34e/13b357c27f2098b5d81e825e43039b84/Screen_Shot_2017-08-15_at_9.18.27_PM.png added by Bug Bot on 2017-08-16T04:18:51.118Z
+
+
+### Cubular#6460 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5993c6f8f9369c39d223c34e/96dfa86f990350b60eb0c4de963ee99d/FT1JP2Z.png added by Bug Bot on 2017-08-16T04:19:17.438Z
+
+
+### Can reproduce.
+Discord Canary 0.0.24-1 on Arch Linux x86_64
+
+Lord GabeN#9378 - Bug Bot on 2017-08-16T04:55:59.520Z
+
+
+### Can reproduce.
+Microsoft Windows 10 Pro version: 10.0.14393 Build 14393
+Canary Version 0.0.163
+
+Rogue#3744 - Bug Bot on 2017-08-16T09:11:05.422Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64, Discord Website
+
+7x#6275 - Bug Bot on 2017-08-16T12:28:56.988Z
+
+
+### Can reproduce.
+Windows LTSB 2016 x64
+
+Cebeer#8201 - Bug Bot on 2017-08-16T12:36:48.331Z
+
+
+### Verified, extremely minor. May be a won't fix. - Jared on 2017-08-21T20:21:37.343Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T20:21:42.665Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 10189
+
+» a r i a#1593 - Bug Bot on 2018-02-02T23:45:52.961Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5993c6f8f9369c39d223c34e/0ce8f289eadfd72d110a5f0d88a50a54/d591b2.png added by Bug Bot on 2018-02-02T23:54:14.880Z
+
+
+### Can reproduce.
+Having a collapsed voice chat and clicking on a user brings the profile up under the icon, not next to the channel/member. It also scrolls past the discord window. Trying to chat with them (e.g. copy-pasting something which automatically goes to the DM bar in the profile pop up) moves Discordup and into space, as shown in the attached picture. | Windows 10 Pro x64, Release Channel: Canary 10189
+
+» a r i a#1593 - Bug Bot on 2018-02-03T00:00:42.882Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 25648; New Steps: - find an unloaded user that has a playing status - have them send a message - click their name (i know this will be hard to reproduce, but you can come across it in big servers)
+
+Rauf#0001 - Bug Bot on 2018-10-07T15:45:55.079Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 25648; New Steps: - type L i n seach - hit page up
+
+Rauf#0001 - Bug Bot on 2018-10-07T15:48:04.321Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:04.508Z
+
+
+### Can reproduce.
+CR with the steps provided 2 comments below; Windows 10 Home x64 | Canary 32786
+
+charleskimbac#6492 - Bug Bot on 2019-02-26T03:36:40.815Z
+
+
+### Unarchived by Bug Bot on 2019-02-26T04:00:05.895Z
+
+
+### Can reproduce.
+macos 10.14.4, Canary 33809 — happens when i just load up discord as seen here: https://canary.discordapp.com/channels/197038439483310086/420995378582913030/555254133603434497
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-13T05:11:51.054Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 (64-bit) The bug appears with clicking on a member with a lot of roles with long names in the member list as well, and makes the entire client go up until it is restarted.
+
+Lucario ☉ ∝ x²#7902 - Bug Bot on 2019-04-21T05:07:17.873Z
+
+
+### Can reproduce.
+Windows 10 Professional [BUILD INFO] Release Channel: canary, Build Number: 36142, Version Hash: 6ac5acb4d8aef3c6c330ce38a147a5fe4fc19f22
+
+mr_village#8015 - Bug Bot on 2019-04-23T00:27:23.278Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 36426
+
+BrightSkyz#2627 - Bug Bot on 2019-04-26T17:48:31.057Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10 Home & Student, Host 0.0.246, Canary Build 40794
+
+binchlord#0998 - Bug Bot on 2019-07-04T06:54:40.314Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary Build: 45324
+
+Almeida#0001 - Bug Bot on 2019-09-08T01:10:26.625Z
+
+
+### Can reproduce.
+<Windows 10 Home x64 v1903 - Discord Canary Build: 45392>
+
+Aenima72826#3762 - Bug Bot on 2019-09-11T03:01:13.210Z
+
+
+### Can reproduce.
+Windows 10 Pro, Discord Canary 45688
+
+Rex#9142 - Bug Bot on 2019-09-13T13:46:35.611Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 stable 45702
+
+RPS1222#5127 - Bug Bot on 2019-09-14T00:32:41.465Z
+
+
+### Can reproduce.
+stable 45702, Win10 v1709 x64 build 16299.665 Education, chrome dev 78.0.3904.9+
+
+hopeless#1227 - Bug Bot on 2019-09-14T01:01:45.696Z
+
+
+### Can reproduce.
+MSI GL62m,   Windows 10 n°1903,  canary, Build Number: 45765 Police : 18px Zoom 125%
+
+🍺 Steam Barby#7861 - Bug Bot on 2019-09-15T21:42:46.813Z
+
+
+### Can reproduce.
+Can Reproduce x When clicking on a user in the guild menu that has too many roles to be displayed on the modal, the modal extends off the screen and shifts everything else on the page upward. x Release Channel: stable, Build Number: 45765 x OS: Windows 10 Pro; Version: 1903; Build: 18362.116
+
+Toasty#0003 - Bug Bot on 2019-09-17T21:59:37.341Z
+
+
+### Still possible, even with both Role and Note Section now having Scrollbars.
+
+https://trello.com/c/7KHJC6cL/1001-having-a-long-enough-note-on-a-user-can-cause-their-profile-card-to-go-off-the-bottom-of-the-screen#comment-5a74fbaa1f93d2ac66d24f1e also still possible, although very hard to achieve, as the Mini Profile shows above the Voice Chat after a specific Distance. - Aeria on 2019-10-06T18:37:29.932Z
+
+
+### Can reproduce.
+[BUILD INFO] Release Channel: canary, Build Number: 47580, Version Hash: dffc8df3d66983935449931ac7a06cfc87151073
+
+SplashyFlame#0067 - Bug Bot on 2019-10-18T02:22:36.781Z
+
+
+### Archived by Bug Bot on 2019-11-17T02:30:03.414Z
+
+
+### Can reproduce.
+Discord PTB 61002 - Macbook Pro 2017, Mac OS Catalina 10.15.4 (19E287)
+
+DuckMasterAl#0001 - Bug Bot on 2020-06-03T16:48:23.333Z
+
+
+### DuckMasterAl#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5993c6f8f9369c39d223c34e/26425d8abc24f1c07d5060521bbc8b10/Screen_Shot_2020-06-03_at_12.43.11_PM.png added by Bug Bot on 2020-06-03T16:49:06.558Z
+
+
+### Unarchived by Bug Bot on 2020-06-03T17:00:08.036Z
+
+
+### Archived by Bug Bot on 2020-07-03T17:30:02.901Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

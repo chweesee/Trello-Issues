@@ -1,0 +1,66 @@
+[Archived] Old Japanese or Chinese fonts temporarily show when switching languages. (https://trello.com/c/hFLlh90p)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-23T15:32:37.442Z
+Latest Update: 2018-10-22T20:21:19.445Z
+
+Reported by 54D [Hibernation]#1357
+
+####Steps to reproduce:
+- Make sure Discord display language is Japanese or Chinese. 
+- Change to English.
+
+####Expected result:
+Text smoothly switches to English.
+####Actual result:
+Old Japanese or Chinese font is temporarily shown before Discord actually switches to English.
+####Client settings:
+Canary 15919
+####System settings:
+Windows 10 x64 build 16299
+
+13231
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-23T15:32:37.442Z
+
+
+### 54D [Hibernation]#1357 - https://youtu.be/sCEXwjIlT3g added by Bug Bot on 2018-05-23T15:32:40.386Z
+
+
+### Can reproduce.
+CR, need to be fast to see it though, Windows 10 1803 x64, canary build 15919
+
+AEnterprise#4693 - Bug Bot on 2018-05-23T15:32:45.194Z
+
+
+### Can reproduce.
+CR. Note this was NOT reproducing for me on 15818, but did reproduce on 15919, which may mean it's a recent regression. Windows 10 1803 x64, Desktop Canary 15919
+
+lego#8917 - Bug Bot on 2018-05-23T15:32:50.220Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Pro x64 v1709, Discord Canary (Build 15919)
+
+Doges#0001 - Bug Bot on 2018-05-23T15:32:55.178Z
+
+
+### Verified, Canary 15996, macOS 10.12.6 - Clayton on 2018-05-23T22:24:36.293Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-23T22:24:43.051Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:19.451Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

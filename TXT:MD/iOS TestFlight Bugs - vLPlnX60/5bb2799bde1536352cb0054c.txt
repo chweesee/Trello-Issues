@@ -1,0 +1,94 @@
+[Archived] With the new addition of dev mode you aren’t able to copy a mention id, but compared to desktop it does. (https://trello.com/c/zqlow3qD)
+
+None
+
+Created: 2018-10-01T19:46:35.209Z
+Latest Update: 2019-01-22T22:51:58.653Z
+
+Reported by Xylium#1480
+
+####Steps to reproduce:
+
+- Have your chat open somewhere where u can chat 
+
+- Mention someone
+
+- Hold down on the name so u get the copy ID option 
+
+- Copy the id 
+
+- Observe the message id being copied instead of mention id
+
+####Expected result:
+You should be able to copy the mention ID
+####Actual result:
+You copy the message ID instead of mention ID
+####Client settings:
+TestFlight 2.3.9 (7731)
+####System settings:
+iPhone 6, iOS 12.1 dev beta
+
+20437
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-01T19:46:35.209Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 12 & iPad Air 2 - iOS 12.1 Public Beta 1, TestFlight 2.3.9 (7731)
+
+Pascal#0929 - Bug Bot on 2018-10-01T19:46:42.890Z
+
+
+### Can reproduce.
+Can Reproduce. iPhone 8 iOS 11.3.1 TF 2.3.9 (7731)
+
+Q__Q#8008 - Bug Bot on 2018-10-01T19:46:47.498Z
+
+
+### Can reproduce.
+Cr, iPod touch 6th generation, iOS 12, TestFlight 2.3.9 (7731)
+
+🍂nickWtn🍂#3789 - Bug Bot on 2018-10-01T19:46:52.475Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 12.0, TestFlight, 2.3.9
+
+ButterWaffles#4278 - Bug Bot on 2018-10-01T20:01:11.848Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.0 - TestFlight 2.3.9 (7731)
+
+Google61#9199 - Bug Bot on 2018-10-01T20:40:00.096Z
+
+
+### Extension to this is that it also happens with channel #’s. So if you post a long message with a channel # in it, it will copy the whole message instead of channel # ID
+
+Xylium#1480 - Bug Bot on 2018-10-02T07:30:42.617Z
+
+
+### This level of granularity is outside of the scope of the feature as it stands today.
+
+We don't currently support subtext long press actions at all in the chat.  Thats why when you long press on the mention/channel it just shows the same long press menu over all.
+
+Maybe someday but developer mode is already a niche feature so I only added the most common paths. - Miguel Gaeta on 2018-10-04T23:56:01.738Z
+
+
+### Moved from New Issues to Won't Fix by Miguel Gaeta on 2018-10-04T23:56:06.368Z
+
+
+### This ticket has been in Won't Fix for no activity for over 30 days. So archiving this ticket due to the inactivity. - Ghoul on 2019-01-22T22:51:56.895Z
+
+
+### Archived by Ghoul on 2019-01-22T22:51:58.655Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+Unknown User (https://trello.com/mrkcsc) - No Bio

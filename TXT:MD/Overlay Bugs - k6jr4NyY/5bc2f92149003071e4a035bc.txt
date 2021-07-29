@@ -1,0 +1,78 @@
+[Overlay] Excessively scrolling with a Spotify Embed somewhere on the page causes overlay to crash (https://trello.com/c/Em3JMKrG)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-14T08:06:57.622Z
+Latest Update: 2019-05-12T11:40:12.808Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open Overlay 
+- Paste a Spotify Album or Song (that embeds) 
+- Rapidly scroll up and down the page
+
+####Expected result:
+Nothing
+####Actual result:
+Overlay will crash after a page or so... (Not the most consistent at happening) Seems to work better with Spotify Client closed as well
+####Client settings:
+Canary 25872
+####System settings:
+Windows 10 64x (1809)
+
+20975
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-14T08:06:57.622Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bc2f92149003071e4a035bc/6dd7ff36f05388a09217f6029e2d1838/474cf79da6.gif added by Bug Bot on 2018-10-14T08:07:00.370Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 26143
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-14T08:07:04.901Z
+
+
+### Can reproduce.
+macos 10.14.1; Canary 26143
+
+OrangeM24#5746 - Bug Bot on 2018-10-14T08:07:09.866Z
+
+
+### Can reproduce.
+cr Windows 10 Pro x64 Canary Build 26143
+
+Azrael#6867 - Bug Bot on 2018-10-14T08:07:15.026Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26143
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-14T09:32:09.475Z
+
+
+### verified.  - Clayton on 2018-11-07T05:50:49.932Z
+
+
+### Cannot reproduce anymore on Canary 36529, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-27T22:14:40.463Z
+
+
+### Moved from Overlay Bugs to Claimed Fixed by Ene on 2019-04-27T22:14:43.868Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-12T11:40:12.823Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

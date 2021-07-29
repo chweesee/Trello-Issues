@@ -1,0 +1,130 @@
+[Archived] Full screening videos in large servers freezes the application (https://trello.com/c/xwh99gM3)
+
+P2: Fix can wait a while,
+High
+
+Created: 2016-10-19T22:41:38.270Z
+Latest Update: 2018-08-21T23:26:32.435Z
+
+####Steps to Reproduce:
+ - Click play on the video someone posted in chat,
+ - Fullscreen it,
+ - Should freeze up,
+
+####Expected Result:
+Video plays as normally would in the browser,
+####Actual Result:
+Causes freeze up, Requiring you to close discord through taskmanager
+
+####Client Settings:
+Canary latest
+####System Settings:
+Windows 10 x64
+
+Card Log
+========
+### Added by Jared on 2016-10-19T22:41:38.270Z
+
+
+### Verified.  I've been told this also happens with Youtube videos as well. - Jared on 2016-10-25T17:21:26.651Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-10-25T17:21:30.337Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-29T16:43:35.273Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 3901) on Windows 10 Pro 64-bit (Build 1607)
+
+I also found that if you open the search window, (so it covers the memberlist) the embed won't lag at all... I don't know how it's related but yea.
+
+Tarek1337#0379 - Bug Bot on 2017-09-07T12:08:03.491Z
+
+
+### Can't reproduce.
+MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-16T18:48:42.859Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T19:02:47.168Z
+
+
+### Can reproduce as of 10/16 - Jared on 2017-10-16T20:40:47.174Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:48:03.801Z
+
+
+### Can reproduce.
+MacBook Air(Early 2015) macOS High Sierra 10.13, Discord stable 8377
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-10T00:13:45.989Z
+
+
+### Can reproduce.
+MacBook Air(Early 2015) macOS High Sierra 10.13, Discord stable 8399
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-10T00:44:15.503Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS x64, Canary build 10549
+
+NorbiPeti#1869 - Bug Bot on 2018-02-11T21:12:39.913Z
+
+
+### Discord also starts to use up more and more RAM over time in this freezed state.
+
+NorbiPeti#1869 - Bug Bot on 2018-02-11T21:13:14.252Z
+
+
+### NorbiPeti#1869 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5807f6a265c6239c3a65dcad/f46213b3c4bb0459a17bbe9d9c4feaee/unknown.png added by Bug Bot on 2018-02-11T21:31:56.805Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1709, (tested on Discord Canary, PTB, and stable release)
+
+scared#0001 - Bug Bot on 2018-02-16T16:16:40.002Z
+
+
+### Okey, I found something odd..
+
+Apparently fullscreening videos in big guilds, or fullscreening in general makes the Discord client start loading in every user avatar, it's easy to see it by opening the network tab on the Discord client and observe all the image loading. As shown in the GIF: https://i.imgur.com/OdiZSPx.gifv
+Apox 6k requests for downloading avatars. And there is 6,6k online users at the time in DTesters, probably 600 invisible users.
+
+https://i.imgur.com/QRUCvyt.png - Tarek on 2018-02-24T05:37:20.452Z
+
+
+### Can reproduce.
+Windows 10v1709, Antergos GNOME, Discord Canary
+
+taciturasa#4365 - Bug Bot on 2018-03-07T22:59:15.452Z
+
+
+### Cannot reproduce anymore, Discord Canary 0.0.210 (16649) on Windows 10 Pro 64-bit (1803). I full screened a video in HS with ~23k members and it worked absolutely fine without any freezes or anything. Moving to claimed fixed. - Tarek on 2018-06-08T19:07:15.754Z
+
+
+### Moved from Next up for investigation to Claimed Fixed, needs Verification by Tarek on 2018-06-08T19:07:19.664Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:26:31.560Z
+
+
+### Archived by Jared on 2018-08-21T23:26:32.438Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

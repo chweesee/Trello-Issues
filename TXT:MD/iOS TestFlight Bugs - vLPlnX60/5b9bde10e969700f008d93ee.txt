@@ -1,0 +1,101 @@
+[Archived] Not marking messages as read while looking at chat (https://trello.com/c/nz7thjZ5)
+
+None
+
+Created: 2018-09-14T16:13:04.064Z
+Latest Update: 2019-02-16T10:30:22.264Z
+
+Reported by Fite#0756
+
+####Steps to reproduce:
+- Go to any chat 
+- Watch the chat
+
+####Expected result:
+When someone other than you sends a message, it shouldnt show the new messages banners.
+####Actual result:
+It shows the new message banners and doesn't mark it as read, even though you are looking at the chat.
+####Client settings:
+TestFlight 2.3.8 (7167)
+####System settings:
+iOS 12 Developer Beta 12
+
+19646
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-14T16:13:04.064Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 12 Golden Master, TestFlight 2.3.8 (7167) - The issue appears to be pretty random, sadly the cause couldn't be found so far. It might be related to inactivity (closing the app, putting your device to sleep). Most of the people could reproduce it with an iPhone 8 Plus, so you have a higher chance to get it with such an device.
+
+Pascal#0929 - Bug Bot on 2018-09-14T16:13:11.447Z
+
+
+### Can reproduce.
+Can reproduce, when the predictive text bar is present. iPhone X, iOS 12 Golden Master, TestFlight 2.3.8 (7167)
+
+Alfie#1582 - Bug Bot on 2018-09-14T16:13:16.409Z
+
+
+### Can reproduce.
+Can reproduce, it is random at first I denied as it wasn’t working, however it seems to work in very active chats (several people are typing...) situations - iPhone X - iOS 11.3 - Discord TestFlight 2.3.8 (7167)
+
+CustomName#9999 - Bug Bot on 2018-09-14T16:13:21.490Z
+
+
+### Pascal#0929 - https://youtu.be/aai1wG5PlpQ added by Bug Bot on 2018-09-14T16:30:38.487Z
+
+
+### Can reproduce.
+CR. iPhone 6s • iOS 11.4.1 • TestFlight 2.3.8 (7106)
+
+Rage#9991 - Bug Bot on 2018-09-14T18:59:52.353Z
+
+
+### Can reproduce.
+iPhone Xs | iOS 12 Golden Master | TestFlight 2.3.8 (7167)
+
+despresso#0001 - Bug Bot on 2018-09-15T19:26:58.552Z
+
+
+### Moved from New Issues to Notable Issues by Victoria on 2018-09-17T17:54:11.390Z
+
+
+### Moved from Notable Issues to Need more info by Victoria on 2018-09-17T23:41:50.807Z
+
+
+### Can reproduce.
+I can actively repro this by putting Discord in the background for an extended amount of time, such as 5 minutes or more, with multiple messages being sent in the channel I have open while in the background - TestFlight 2.3.8 (7233) iPhone 6s iOS 12
+
+Rashaun#9295 - Bug Bot on 2018-09-18T04:58:45.319Z
+
+
+### Moved from Need more info to Notable Issues by Victoria on 2018-09-18T22:27:39.842Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Victoria on 2018-09-19T18:19:33.579Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Victoria on 2018-09-20T20:06:41.141Z
+
+
+### Can reproduce.
+I can reproduce this again on 2.4.2 (10573) . iphone xr, ios 12.1 , TestFlight 2.4.2 (10573)
+
+☃nickWtn☃#3789 - Bug Bot on 2019-01-10T04:27:57.169Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Clayton on 2019-01-17T10:19:50.162Z
+
+
+### Archived by Bug Bot on 2019-02-16T10:30:22.272Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

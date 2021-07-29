@@ -1,0 +1,65 @@
+[Archived] Switching to landscape mode and back to portrait mode when viewing an image while the blue new messages bar is at the top causes chat to scroll up after exiting the image (https://trello.com/c/SMYAdvhT)
+
+P3 - Will be fixed eventually
+
+Created: 2018-08-08T19:02:21.829Z
+Latest Update: 2019-01-31T19:58:58.998Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Make sure you have a lot of new messages with images so that you can scroll without losing the blue new messages bar 
+- Scroll down a little bit until you get to an image 
+- Observe the chat position and then open the image 
+- Switch to landscape mode and back to portrait mode 
+- Close out of the image and observe the chat position
+
+####Expected result:
+Chat position is in the same spot as when you opened the image
+####Actual result:
+Chat position is scrolled up upon leaving the image
+####Client settings:
+TestFlight 2.3.6 (6427)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 6
+
+17159
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-08T19:02:21.829Z
+
+
+### Rashaun#9295 - https://youtu.be/ATKag4Cy5S4 added by Bug Bot on 2018-08-08T19:02:24.153Z
+
+
+### Can reproduce.
+[CR] iPhone 7, Can reproduce. || iPhone 7, iOS 12 PTB #4, Discord TestFlight 2.3.6 (6427)
+
+Marc#5983 - Bug Bot on 2018-08-08T19:02:29.111Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th generation, iOS 11.4.2, TestFlight 2.3.6 (6427)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-08-08T19:02:34.107Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 6) - TestFlight 2.3.6 (6427)
+
+Xylium#1480 - Bug Bot on 2018-08-08T19:02:39.122Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-08-23T21:40:14.442Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:59.010Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,98 @@
+[Archived] App crashes when input is an empty dead key (press dead key once then enter) followed by two dead key in the search tool (https://trello.com/c/xMP8qudw)
+
+Low,
+P2: Fix can wait a while
+
+Created: 2017-10-20T14:35:18.145Z
+Latest Update: 2019-01-01T15:45:33.746Z
+
+Reported by Jojofoulk#7083
+
+####Steps to reproduce:
+- Find keys that requires to get pressed twice such ^, ¨ and '`'
+- Go to search and spam it, till there is a lot of multi lines.
+- (check the gif if you wish) https://i.imgur.com/EsX3lZ0.gifv
+
+####Expected result:
+first input should be printed as single character, second input should be printed without crashing the app
+####Actual result:
+Search text will go up on first input, as if you went on a new line, App will crash on second input
+####Client settings:
+Windows 10, Stable 0.0.298
+####System settings:
+Windows 10 Home 64 bit
+
+5626
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-20T14:35:18.145Z
+
+
+### Can reproduce.
+CR, make sure to test with a keyboard layout that has dead keys enabled (like US-international). Windows 10 Pro 1607 x64, Canary 0.0.166 (build 6103)
+
+juj#5114 - Bug Bot on 2017-10-20T14:35:25.541Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1703) & Canary 0.0.166 (build 6103)
+
+Immotay#7475 - Bug Bot on 2017-10-20T14:35:30.614Z
+
+
+### Can reproduce.
+CR, Discord Canary 0 .0.166 (Build 6103) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-10-20T14:35:35.541Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1709), Canary 0.0.167
+
+Blaui#6945 - Bug Bot on 2017-10-21T10:20:01.064Z
+
+
+### Cannot reproduce - Jared on 2017-10-23T23:23:56.167Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-10-23T23:24:00.250Z
+
+
+### I am able to reproduce this bug using the steps & info below, provided by Tarek1337#0379. The device I tested on is running Windows 10 Pro x64, Fall Creators Update, Discord Canary 0.0.168 (6558).
+
+- Find keys that requires to get pressed twice such ^, ¨ and '`'
+- Go to search and spam it, till there is a lot of multi lines.
+- (check the gif if you wish) https://i.imgur.com/EsX3lZ0.gifv
+
+Expected results: It should not crash after doing this.
+Actaul results: it's crashing - Chris Cox on 2017-10-30T05:16:33.239Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Chris Cox on 2017-10-30T05:16:37.938Z
+
+
+### Verified.  - Clayton on 2017-11-03T05:15:44.623Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:15:48.456Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T06:19:44.048Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T06:19:50.732Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:45:31.514Z
+
+
+### Archived by Tarek on 2019-01-01T15:45:33.749Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

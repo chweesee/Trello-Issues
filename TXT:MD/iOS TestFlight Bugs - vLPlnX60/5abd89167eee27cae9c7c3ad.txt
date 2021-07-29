@@ -1,0 +1,82 @@
+[Archived] iOS autocorrect gets in the way of emoji (https://trello.com/c/NgPL45RM)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-30T00:47:18.770Z
+Latest Update: 2018-10-04T23:55:28.851Z
+
+Reported by HyperKids#4976
+
+####Steps to reproduce:
+- Go to iOS settings and set the “t” key to autocorrect to “HAPPY 10000 BUG REPORTS 🎉🎉🎉” (or in reality, any string) 
+- Test to make sure it works (meaning, typing "t" should output your string) 
+- Go into a Discord text channel 
+- Type :r
+
+####Expected result:
+It should be :r
+####Actual result:
+The hitbox of the autocorrect bar drops as the emoji picker pops up, so you hit the autocorrect word as the hitbox drops, creating :HAPPY 10000 BUG REPORTS 🎉🎉🎉
+####Client settings:
+Discord TestFlight 2.2.7, Build 3519
+####System settings:
+iPhone 6S, iOS 11.2.6
+
+10001
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-30T00:47:18.770Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS 11.2.6. TestFlight 2.2.7 (3519) | this is kinda weird, because usually autocorrect asks to correct first. [Can Repro]
+
+ZenKing#2104 - Bug Bot on 2018-03-30T00:47:26.127Z
+
+
+### Can reproduce.
+Seems to me to be an apple issue. iPhone 6s Plus, iOS 11.3 PB6, TestFlight 2.2.7 (3519). Only works on stock Apple keyboard as of late (CNR on Gboard)
+
+Mustard#2117 - Bug Bot on 2018-03-30T00:47:31.150Z
+
+
+### Can reproduce.
+iPhone 5 Model A Probably an apple issue.
+
+Codingpro#9213 - Bug Bot on 2018-03-30T00:47:36.130Z
+
+
+### I can reproduce this P3, moving to Verified Bugs. You have to use Settings > Keyboards > Text Replacement. 
+
+Discord 2.2.7 (3519), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-05T05:50:53.202Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2018-04-05T05:51:06.205Z
+
+
+### Can reproduce.
+iOS 11.3 Testflight 2.2.7 (3519)
+
+C4Navar#1337 - Bug Bot on 2018-04-05T07:13:41.433Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 11.0.0, Discord ver. 2.3.5
+
+womb#5933 - Bug Bot on 2018-07-30T18:14:49.341Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Victoria on 2018-08-24T18:28:40.558Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:28.853Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

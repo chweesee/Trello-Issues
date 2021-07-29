@@ -1,0 +1,77 @@
+[Archived] User list occassionally hangs on loading (https://trello.com/c/cJmP0af6)
+
+None
+
+Created: 2017-03-19T20:18:11.072Z
+Latest Update: 2017-10-30T17:10:22.000Z
+
+Reported by AppleBetas#0915
+
+####Steps to reproduce: 
+- Swipe to open user list once, should load 
+- Swipe closed 
+- Swipe to open it again, repeat until bug occurs 
+- etc 
+
+####Expected result:
+ User list should load 
+####Actual result:
+ User list takes an extremely long time to load 
+####System settings:
+ iOS 10.2, iPhone 6, latest TestFlight beta
+
+2059
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-19T20:18:11.072Z
+
+
+### Can reproduce.
+iPhone SE 10.2, 1.8.3, Takes quite a few attempts, like 15 in total, but it looks like it adds up over time to become gradually worse as you use the app
+
+nullpixel#0012 - Bug Bot on 2017-03-19T20:18:11.680Z
+
+
+### Can reproduce.
+iOS 10.2.1, iPhone 7, Latest TestFlight
+
+LordOfTheUndead#7915 - Bug Bot on 2017-03-19T20:18:13.693Z
+
+
+### Can reproduce.
+iphone 6 Testflight
+
+Harrison#9100 - Bug Bot on 2017-03-19T20:18:15.996Z
+
+
+### I repeated the steps listed 50 times and did not experience a hang. It took a little while to load a few times, but every other time was ~1 second to load. - Jared on 2017-03-21T22:29:41.839Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-03-21T22:29:46.258Z
+
+
+### Can reproduce.
+1.8.3, iOS 10.2.1, iPhone 6S. Doesn't seem to happen on all servers, only on large ones (except very large ones like Discord Devs) but apparently there's a treshold. It also only seems to hang if you open the app for the first time and don't switch to a different server/channel or different app while opening and closing the user list.
+
+Tarmac#9559 - Bug Bot on 2017-03-27T06:30:01.605Z
+
+
+### Can reproduce.
+Iphone 6 iOS 9.3.2 Discord 1.8.3
+
+Soarnir#0959 - Bug Bot on 2017-04-10T21:03:34.520Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:10:20.912Z
+
+
+### Archived by Jared on 2017-10-30T17:10:22.002Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

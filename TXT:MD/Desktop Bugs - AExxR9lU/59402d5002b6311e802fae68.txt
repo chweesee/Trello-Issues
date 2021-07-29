@@ -1,0 +1,100 @@
+[Archived] When changing/moving roles, if you delete a certain role before saving all of the changes reset. (https://trello.com/c/Z4TeVzP8)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-13T18:22:08.996Z
+Latest Update: 2020-06-02T14:30:03.594Z
+
+Reported by yarg#6155
+
+####Steps to reproduce:
+- Move some roles around. 
+- Delete a role.
+
+####Expected result:
+The role should get deleted and all changes that you made in the other roles should stay.
+####Actual result:
+The role gets deleted but all changes made to the other roles before saving reset.
+####Client settings:
+Latest  Discord Build
+####System settings:
+Mac OSX sierra
+
+1608
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-13T18:22:08.996Z
+
+
+### Can reproduce.
+Win 7 Chrome 58.0.3029.110 Discord Stable Web
+
+Ω¹²#8421 - Bug Bot on 2017-06-13T18:22:13.504Z
+
+
+### Can reproduce.
+Can Reproduce,  Windows 10 Home x64 v1703 (Canary v 0.0.157)
+
+Tim_The#7618 - Bug Bot on 2017-06-13T18:22:15.604Z
+
+
+### Can reproduce.
+CR  Windows 10 (version 1703), Desktop Canary 0.0.157
+
+Chewie#5684 - Bug Bot on 2017-06-13T18:22:17.514Z
+
+
+### Verified.  - Clayton on 2017-06-15T20:56:25.153Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-15T20:56:33.402Z
+
+
+### Can reproduce. - Jared on 2017-07-31T22:51:10.396Z
+
+
+### Can still repro, moving to p3 - Clayton on 2017-10-07T01:13:08.385Z
+
+
+### This is also the case for creating new roles. If you are changing the order of the roles and creating a role at the same time, the order changes will be reverted.
+
+Pascal#0929 - Bug Bot on 2017-10-22T12:29:23.559Z
+
+
+### 54D#1357 - https://youtu.be/bS8lOMGwrt0 added by Bug Bot on 2018-07-15T09:40:55.039Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:14.815Z
+
+
+### Can reproduce.
+Can reproduce: Microsoft Windows 10 Home Version 1809, OS Build: 17763.678; Canary, Build Number: 45765
+
+Celeron#2757 - Bug Bot on 2019-09-15T21:19:17.003Z
+
+
+### Unarchived by Bug Bot on 2019-09-15T21:30:06.005Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:06.786Z
+
+
+### Can reproduce.
+MacBook Pro (13-inch, Late 2013), Catalina 10.15.4 (19E287); Canary 59390
+
+Wiz#0003 - Bug Bot on 2020-05-03T13:36:59.608Z
+
+
+### Unarchived by Bug Bot on 2020-05-03T14:00:05.560Z
+
+
+### Archived by Bug Bot on 2020-06-02T14:30:03.646Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

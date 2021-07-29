@@ -1,0 +1,180 @@
+[Archived] Pressing alt crashes Canary 0.0.74 on linux (https://trello.com/c/UqhcAIdG)
+
+P1: Severe,
+Mid
+
+Created: 2019-04-06T20:58:50.774Z
+Latest Update: 2019-06-27T00:48:13.741Z
+
+Reported by Brod8362#2928
+
+####Steps to reproduce:
+- Open Canary 0.0.74 on Linux 
+- Press the alt key 
+- the client crashes
+
+####Expected result:
+The client should NOT crash when pressing alt.
+####Actual result:
+The client crashes when pressing alt.
+####Client settings:
+Linux Canary 0.0.74
+####System settings:
+Ubuntu 18.04
+
+32250
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-06T20:58:50.774Z
+
+
+### Can reproduce.
+Can reproduce, Linux Mint 19.1 Tessa - Discord Canary 35116
+
+Seikatsu#0001 - Bug Bot on 2019-04-06T20:58:58.374Z
+
+
+### Can reproduce.
+Can Reproduce, Ubuntu Studio 18.04, Discord Canary 0.0.74 ( Build 35116 )
+
+Starshine Dust#2189 - Bug Bot on 2019-04-06T20:59:03.273Z
+
+
+### Can reproduce.
+Discord Canary 0.0.74, Ubuntu 18.04 LTS (stock GNOME desktop env), 64-bit processor Ryzen 7 2700X
+
+Alex1304#9704 - Bug Bot on 2019-04-06T20:59:08.234Z
+
+
+### Can reproduce.
+Canary 0.0.74; Arch Linux 5.0.5-arch1-1-ARCH; Xfce4
+
+Pyxel#0855 - Bug Bot on 2019-04-06T21:43:26.451Z
+
+
+### Can reproduce.
+Liniw Mint 19.1 Tessa - Canary 35116
+
+ItsKrqken#0001 - Bug Bot on 2019-04-06T21:44:10.288Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS · GNOME 3.28.2 (x64) · Canary 35116
+
+Casper#9999 - Bug Bot on 2019-04-07T05:36:26.424Z
+
+
+### Can reproduce.
+Archlinux 5.0.6, Discord Canary (35116)
+
+Jesus_Crie#3945 - Bug Bot on 2019-04-07T08:58:13.453Z
+
+
+### Can reproduce.
+!linux
+
+T-bond#6238 - Bug Bot on 2019-04-07T11:34:17.797Z
+
+
+### Can reproduce.
+LM 18.3 (Ubuntu 16.04) 4.15.0-47-generic - Canary 35116
+
+mark9064#4401 - Bug Bot on 2019-04-07T11:35:58.266Z
+
+
+### Imported from https://trello.com/b/5846f7fdfa2f44d1f47267b0 by Tarek on 2019-04-07T12:12:41.070Z
+
+
+### Can reproduce.
+Manjaro Linux Unstable, Xfce 4.13 Canary 35116 Host 0.0.74
+
+chaNcharge#7023 - Bug Bot on 2019-04-07T22:30:12.789Z
+
+
+### Can reproduce.
+Arch Linux, KDE Plasma 5.15.4, Linux 5.0.6, Discord Canary 0.0.74, Build #35301
+
+noellekiq#0493 - Bug Bot on 2019-04-09T01:37:35.775Z
+
+
+### Can reproduce.
+openSUSE Tumbleweed 20190403, Canary 35301
+
+voldemort#6931 - Bug Bot on 2019-04-09T12:00:52.902Z
+
+
+### Anonymous User can Reproduce:
+Ubuntu 18.04. GNOME Shell 3.30.2
+Canary 35301
+
+"It segfaulted on `mov 0x20(%rax),%r14`, where %rax == 0." - Farm Saelee on 2019-04-11T04:36:19.355Z
+
+
+### Can reproduce.
+Manjaro 18.0.4 (kernel 4.20.17), Openbox 3.6.1, Discord Canary 0.0.74
+
+tilda#6729 - Bug Bot on 2019-04-13T12:07:09.434Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS, Discord canary 35540
+
+NorbiPeti#1869 - Bug Bot on 2019-04-13T18:20:46.400Z
+
+
+### Can reproduce.
+Arch Linux (5.0.5-arch1-1-ARCH), i3 WM, Discord Canary 0.0.74 (AUR) 35540
+
+score#6846 - Bug Bot on 2019-04-14T16:41:06.882Z
+
+
+### Temporary workaround (at least it is working for me on KDE): Press Alt+F in the application. It will open the menu bar, so after pressing Alt it won't crash. https://github.com/electron/electron/issues/17652
+
+T-bond#6238 - Bug Bot on 2019-04-16T09:32:36.703Z
+
+
+### Moved from Electron 5 bugs to Fix made, not yet released by Tarek on 2019-04-22T02:45:40.087Z
+
+
+### Not a bug fixable by Discord, but whenever Discord starts using Electron 5 stable, this issue won't happen. 
+
+This is already fixed in the most recent Electron 5 beta. - Tarek on 2019-04-22T02:46:13.809Z
+
+
+### Can reproduce.
+openSUSE Tumbleweed 20190428, Discord Canary 0.0.74.  This is fixed in Electron version 5 stable.  Please update Canary to Electron version 5 stable.
+
+simonizor#0420 - Bug Bot on 2019-04-30T01:05:32.652Z
+
+
+### Fixed with newest electron - Tarek on 2019-05-11T11:40:20.956Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2019-05-11T11:40:25.624Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-11T22:33:40.947Z
+
+
+### Archived by Bug Bot on 2019-06-10T23:00:35.210Z
+
+
+### Can reproduce.
+CR // Pop_OS  18.04 LTS // Discord 35116
+
+Indiana#6009 - Bug Bot on 2019-06-24T21:52:42.132Z
+
+
+### Can reproduce.
+Pop_Os 18.4 LTS // Discord 40278
+
+Indiana#6009 - Bug Bot on 2019-06-27T00:48:13.753Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

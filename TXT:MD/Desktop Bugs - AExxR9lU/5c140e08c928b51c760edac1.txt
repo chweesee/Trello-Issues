@@ -1,0 +1,84 @@
+[Archived] Expanding a blocked message that is the latest message in the channel will cause the blocked message to expand out of the view, so you need to scroll down to read it (https://trello.com/c/TXQnmMMS)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-12-14T20:09:44.161Z
+Latest Update: 2019-01-17T02:30:02.774Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go in a channel (preferably inactive) 
+- Make sure you're not scrolled up in chat 
+- Open the profile of the person who sent the latest message in the channel 
+- Block them 
+- Expand the latest blocked message
+
+####Expected result:
+When expanding the blocked message, the chat should move up enough so that it's still clipped to the bottom and you don't have to scroll down
+####Actual result:
+The blocked message expands offscreen at the bottom, so you need to scroll down in order to see its content
+####Client settings:
+Canary 29657
+####System settings:
+Ubuntu 18.04 LTS (stock GNOME desktop env), 64-bit processor Ryzen 7 2700X
+
+24421
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-14T20:09:44.161Z
+
+
+### Can reproduce.
+CR; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 29657
+
+Longinus#0293 - Bug Bot on 2018-12-14T20:09:51.483Z
+
+
+### Can reproduce.
+Can reproduce. Windows 7 Home Premium x64 v7601, Canary 29657
+
+Solo#0007 - Bug Bot on 2018-12-14T20:09:56.476Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 1809; Canary 29657
+
+DoNotSpamPls#8787 - Bug Bot on 2018-12-14T20:10:01.538Z
+
+
+### Can reproduce.
+Cr. Canary 29657 , Windows 10 x64
+
+Toasty#9999 - Bug Bot on 2018-12-14T21:03:56.977Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Version: 1803; Build: 17134.407; Desktop Canary, 29657
+
+Sausage Claus#0001 - Bug Bot on 2018-12-14T22:20:36.505Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary, Native Host 0.0.224, Build Number 29715
+
+Hole#0001 - Bug Bot on 2018-12-15T00:35:52.519Z
+
+
+### verified, macos 10.12.6, canary 29791 - Clayton on 2018-12-18T02:00:25.147Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-18T02:00:42.059Z
+
+
+### Archived by Bug Bot on 2019-01-17T02:30:02.776Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

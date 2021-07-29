@@ -1,0 +1,87 @@
+[Archived] When changing password on android client, desktop client (windows) crashes (https://trello.com/c/Ek3QCk9x)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-19T06:05:30.409Z
+Latest Update: 2019-01-01T15:44:08.595Z
+
+Reported by Rauf#9245
+
+####Steps to reproduce:
+- Have 2fa enabled 
+- Change password on android client 
+- See desktop client
+
+####Expected result:
+Should just log out fine
+####Actual result:
+Crashed; Uncaught TypeError: Can not read property 'mfaEnabled' of undefined
+####Client settings:
+Android Stable 6.7.2; Canary 15598
+####System settings:
+Windows 10 Home x64 v1803; Android 6.0.1
+
+13014
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-19T06:05:30.409Z
+
+
+### Rauf#9245 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5affbeaab995176b3ba69a31/813116e028c8ceea12284a26475d371c/J1fO1.png added by Bug Bot on 2018-05-19T06:05:33.957Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (15598) on Windows 10 Pro 64-bit (1803) & Android Alpha 6.7.4 OnePlus 5 Android 8.1 (Oreo) | It will first lockup the client then instantly crash
+
+Tarek#1337 - Bug Bot on 2018-05-19T06:05:37.962Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Canary Build Number: 15598, Galaxy Tab S2, Android Alpha 6.7.4
+
+BasiliskHill#9535 - Bug Bot on 2018-05-19T06:05:42.984Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 pro  Discord canary Build:15598 Nokia 5 Android 8.0.0 discord alpha 6.7.4
+
+Bencey_#8587 - Bug Bot on 2018-05-19T06:05:47.992Z
+
+
+### This bug is pretty inconsistent. So please try to change password at least 3-5 times. If it doesn't work the first time.
+
+I tried it three times, and it only crashed the first and third time I tried this.  - Tarek on 2018-05-19T16:58:09.562Z
+
+
+### Can reproduce.
+Windows 10 Pro Insider Preview x64, v10.0.17672 Build 17672, Discord Canary Build 15598 & Discord Alpha 6.7.4, Oppo R11s Android 7.1.1 (Nougat)
+
+Cairo#2098 - Bug Bot on 2018-05-19T23:33:32.420Z
+
+
+### Verified, MacOS 10.12.6, Canary 15701 - Clayton on 2018-05-22T00:24:02.201Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-22T00:24:10.690Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T00:43:44.065Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T00:43:53.380Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:44:07.759Z
+
+
+### Archived by Tarek on 2019-01-01T15:44:08.598Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

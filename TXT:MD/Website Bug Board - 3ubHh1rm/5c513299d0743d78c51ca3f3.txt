@@ -1,0 +1,105 @@
+Long application names get cut off on the "IRL example" panel (https://trello.com/c/ZwdfGBpw)
+
+None
+
+Created: 2019-01-30T05:14:01.354Z
+Latest Update: 2019-04-25T22:03:49.572Z
+
+Reported by ginkoid#8888
+
+####Steps to reproduce:
+- Go to the developer portal 
+- Create an application (or rename an existing application) with a long name (128 Ws work well)  
+- In "general information", observe the application name as shown in the "IRL example" panel
+
+####Expected result:
+Like all the other places where the application name is displayed, it is truncated to a maximum length
+####Actual result:
+The application name is overflowing the "IRL example" box
+####Client settings:
+There's no version in the console, so the canary developer console on 2019-01-29
+####System settings:
+Windows Home 1809, Chrome Stable 71
+
+27366
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-30T05:14:01.354Z
+
+
+### ginkoid#8888 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c513299d0743d78c51ca3f3/955d93bda8fafd7e5fbc847695f3c23d/Capture.PNG added by Bug Bot on 2019-01-30T05:14:04.263Z
+
+
+### Can reproduce.
+windows 10 home 1803 chrome 71
+
+Sil.py#2460 - Bug Bot on 2019-01-30T05:14:08.896Z
+
+
+### Can reproduce.
+Can reproduce; Google Chrome Version 71.0.3578.98 (Official Build) (64-bit), Windows 10 Pro https://imgur.com/a/53KCjGS
+
+Harsh#0001 - Bug Bot on 2019-01-30T05:14:13.896Z
+
+
+### Can reproduce.
+Google Chrome Version 71.0.3578.98 (Official Build) (64-bit) Windows 10 Home. Does not work if there is a space in the string
+
+aj834#1640 - Bug Bot on 2019-01-30T05:14:18.917Z
+
+
+### Can reproduce.
+CR; Firefox browser Version 64.0.2 (64-bit)
+
+Skyla#7948 - Bug Bot on 2019-01-30T13:56:21.822Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Chrome 71
+
+Defracted#0001 - Bug Bot on 2019-01-30T15:05:05.177Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 Google Chrome Version 71.0.3578.98
+
+Spooker#0001 - Bug Bot on 2019-01-30T21:53:46.030Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) , Canary 31523
+
+Viruz#9907 - Bug Bot on 2019-01-30T23:34:51.563Z
+
+
+### Can reproduce.
+Windows 10 Home; Google Chrome 71.0.3578.98
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-31T02:00:56.563Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Chrome 72.0.3626.96
+
+charleskimbac#6492 - Bug Bot on 2019-02-09T04:12:01.849Z
+
+
+### Can reproduce.
+macOS Mojave 10.14, Safari 12.0
+
+Rage#9991 - Bug Bot on 2019-04-14T08:43:09.187Z
+
+
+### Can reproduce.
+Intel® Braswell Chromebook ~ Chrome 72.0.3626.122 (x64)
+
+Casper#9999 - Bug Bot on 2019-04-16T12:15:22.412Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

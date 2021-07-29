@@ -1,0 +1,64 @@
+Discord won't sync across clients the first option (When posted as links to chat) on text & images (https://trello.com/c/8WbrE9nM)
+
+None
+
+Created: 2020-05-31T18:56:10.090Z
+Latest Update: 2020-07-16T21:26:06.347Z
+
+Reported by Zynb#2984
+
+####Steps to reproduce:
+- Use Discord mobile and go to "text & images" settings 
+- Disable "When posted as links to chat"  
+- Go to Discord desktop and check the settings
+
+####Expected result:
+It should disable "when posted as links to chat"
+####Actual result:
+It will disable "When uploaded directly to discord"
+####Client settings:
+Canary 60661 (578c2e8)
+####System settings:
+Windows 10 64-Bit
+
+56571
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-31T18:56:10.090Z
+
+
+### Can reproduce.
+CR, Ptb 60561 (0224963), Windows 10 64-Bit (10.0.18363)
+
+FreezyX#7698 - Bug Bot on 2020-05-31T18:56:17.836Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 60725 (4c89c5d), Host 0.0.264, Windows 10 64-Bit (10.0.18363), & Moto G7, Android 9, Discord 24-alpha3 (1149) for mobile
+
+wakfi#6999 - Bug Bot on 2020-05-31T18:56:22.738Z
+
+
+### Can reproduce.
+CR, Windows Home x64, Discord Canary (Build 60935) & Samsung Galaxy S7, Android 8.0.0, Discord 25-alpha1 (1151)
+
+Bryth#1086 - Bug Bot on 2020-05-31T18:56:27.743Z
+
+
+### Duplicate of https://trello.com/c/TG9kIzl1
+
+Jean20B#4668 - Bug Bot on 2020-06-02T06:36:28.807Z
+
+
+### Actually it's rather an extension of https://trello.com/c/TG9kIzl1, report 56571 shows that 36135 is due to the syncing with desktop (which was not noticed before)
+
+Jean20B#4668 - Bug Bot on 2020-06-04T08:27:08.490Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

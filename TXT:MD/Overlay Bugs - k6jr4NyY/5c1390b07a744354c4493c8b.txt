@@ -1,0 +1,68 @@
+[Blocked] Users from previous account show up in secondary account's Quick Switcher (https://trello.com/c/nPPhaGp6)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-12-14T11:14:56.796Z
+Latest Update: 2019-07-24T17:56:29.596Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Have two accounts (main & alt) 
+- Login to the main (if not already) 
+- Logout and then login to your alt 
+- Open a game that supports the Overlay 
+- Open the Overlay with your keybind 
+- Press ctrl + k and then enter a @ symbol 
+- Enter a letter and observe
+
+####Expected result:
+The Quick Switcher should only show users that your account can see (via servers/DMs/friends)
+####Actual result:
+Users from the previous account are shown even though the account cannot see them
+####Client settings:
+Discord Canary 0.0.224, Build 29657
+####System settings:
+Windows 10 Home 64-bit (v1803)
+
+24409
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-14T11:14:56.796Z
+
+
+### Can reproduce.
+Discord Canary 0.0.224 (29657) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-12-14T11:15:04.186Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.224 Build 29657
+
+Daffyduck#5364 - Bug Bot on 2018-12-14T11:15:09.118Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x,Canary 29657
+
+Octillion#6666 - Bug Bot on 2018-12-14T11:15:14.110Z
+
+
+### verified, win 10, canary 29791 - Clayton on 2018-12-18T11:46:23.083Z
+
+
+### Overlay bug. - Tarek on 2018-12-18T21:51:07.871Z
+
+
+### Blocked by https://trello.com/c/ToU0pktQ - Aeria on 2019-07-24T17:29:44.981Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

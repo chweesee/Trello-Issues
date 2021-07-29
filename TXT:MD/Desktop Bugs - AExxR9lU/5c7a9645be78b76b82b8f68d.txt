@@ -1,0 +1,105 @@
+[Archived] The applications tab doesn't have an empty state if you've previously used the steamkit overlay (https://trello.com/c/hMlQAa8v)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-02T14:42:13.554Z
+Latest Update: 2019-04-25T02:00:04.162Z
+
+Reported by ginkoid#8888
+
+####Steps to reproduce:
+- Sign in _on the desktop app_ on an account where you have never a) authorized an application or b) visited the streamkit overlay on  
+- Go to settings > authorized apps. Notice the empty state that says "no authorized apps" (picture 1)  
+- Go to the Streamkit Overlay 
+- Click on one of the install buttons  
+- Wait until the list of servers you're in appears _(note: you may have to reload the page and repeat this step. the streamkit overlay is finicky) _ 
+- Go back to settings > authorized apps. Notice how there is no empty state (picture 2)
+
+####Expected result:
+There should be an empty state. No applications are shown (the streamkit app is hidden)
+####Actual result:
+The empty state is not present
+####Client settings:
+Discord Canary 32357
+####System settings:
+Windows Home 1809, Chrome Stable 72
+
+28955
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-02T14:42:13.554Z
+
+
+### ginkoid#8888 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7a9645be78b76b82b8f68d/9aa5c40446a1d8445e332c21b9e91ba8/Capture.PNG added by Bug Bot on 2019-03-02T14:42:16.565Z
+
+
+### ginkoid#8888 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7a9645be78b76b82b8f68d/1a1a03803baff6fb21f908dd0141125d/Capture.PNG added by Bug Bot on 2019-03-02T14:42:16.635Z
+
+
+### Can reproduce.
+Bug reproduction possible on my Discord canary client. Device and software information: Desktop Canary 33076 running on Windows 10 Home version 64 bit. Web browser details and information: Chrome version 74.0.3720.2 (Official Build) canary (64-bit)
+
+Talon#5447 - Bug Bot on 2019-03-02T14:42:21.012Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - canary 33117
+
+Isabel#0002 - Bug Bot on 2019-03-02T14:42:26.023Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 33117, chrome 72
+
+-40 C = -40 F#0272 - Bug Bot on 2019-03-02T14:42:31.078Z
+
+
+### Can reproduce.
+Windows 10 home, Canary 33046
+
+Mr. Proper#2394 - Bug Bot on 2019-03-02T14:49:36.328Z
+
+
+### Can reproduce.
+CR, macos 10.14.4, Canary 33117
+
+Action Potential#2494 - Bug Bot on 2019-03-02T15:05:07.948Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 33117 | Chrome 72
+
+Clay#0001 - Bug Bot on 2019-03-03T00:59:16.117Z
+
+
+### Can reproduce.
+CR; Canary: 33117, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-03T11:25:29.661Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-05T23:16:21.909Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 33683
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-10T22:58:02.490Z
+
+
+### Can reproduce.
+macOS 10.14.3, Discord Canary 34539. Also Safari 12.0.3, stable 34340.
+
+JBYoshi#5551 - Bug Bot on 2019-03-26T01:31:59.662Z
+
+
+### Archived by Bug Bot on 2019-04-25T02:00:04.174Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

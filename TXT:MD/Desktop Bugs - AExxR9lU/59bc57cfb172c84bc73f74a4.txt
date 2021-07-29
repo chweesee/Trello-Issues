@@ -1,0 +1,136 @@
+[Archived] If you try and use Jump feature in pins/mentions, it will not work (https://trello.com/c/xNWDjVTS)
+
+P1: Severe
+
+Created: 2017-09-15T22:44:31.753Z
+Latest Update: 2017-10-19T20:13:50.489Z
+
+Reported by Silox#8632
+
+####Steps to reproduce:Open pins/mentions 
+- Hover over a message 
+- Press the Jump button
+
+####Expected result:
+It should bring you to the message you clicked Jump on
+####Actual result:
+Nothing
+####Client settings:
+Discord Canary Build 4331
+####System settings:
+Windows 10 Version 1703
+
+4355
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-15T22:44:31.753Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (4331)
+
+Tiemen#0107 - Bug Bot on 2017-09-15T22:44:39.695Z
+
+
+### Can reproduce.
+CR if same server, Windows 10 Creator's Update and Discord Canary 0.0.163
+
+joaoh1#0567 - Bug Bot on 2017-09-15T22:44:44.568Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 4331) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-15T22:44:49.555Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.154 (Build 4293), macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-09-15T22:46:16.014Z
+
+
+### Can't reproduce.
+Windows 10 Creator Update (1703) , Discord Canary 0.0.163 (4310)
+
+Kalan#3694 - Bug Bot on 2017-09-15T22:47:20.863Z
+
+
+### Can reproduce.
+Disregard CNR, only happens on latest canary build of (4331)
+
+Kalan#3694 - Bug Bot on 2017-09-15T22:55:52.264Z
+
+
+### Also affects search results.
+
+advaith#9121 - Bug Bot on 2017-09-16T00:03:17.505Z
+
+
+### Can reproduce.
+Discord Canary [0.0.154], MacBook Air [13" 2014 Model, 10.12.6] (4331)
+
+ItsPugle#5963 - Bug Bot on 2017-09-16T01:34:25.471Z
+
+
+### Moved from User Reported Bugs to React 16 bugs by Cole Norman on 2017-09-16T01:54:07.058Z
+
+
+### After the update it does jump, but you can't jump to the same pin twice in a row, so you have to jump to a random one to unlock the one you really want to go back to
+
+Immotay#7475 - Bug Bot on 2017-09-16T07:12:35.100Z
+
+
+### Can reproduce.
+Can jump to a pin only once, when done it can't be reached again without restart. Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.163 (Build 4358)
+
+SuperSajuuk#7265 - Bug Bot on 2017-09-16T10:54:13.265Z
+
+
+### Tarek1337#0379 - https://i.imgur.com/p6TnNL3.gifv added by Bug Bot on 2017-09-16T10:55:21.813Z
+
+
+### *can't be reached again without restart or clicking other pins
+
+SuperSajuuk#7265 - Bug Bot on 2017-09-16T10:55:28.409Z
+
+
+### Look at my gif, this is how it's behaving right now
+
+Tarek1337#0379 - Bug Bot on 2017-09-16T10:55:43.762Z
+
+
+### Can reproduce.
+Win 10 Enterprise 1703 x64, Canary 4361 (not PTB though)
+
+Josedolf Staller#2859 - Bug Bot on 2017-09-18T03:10:24.787Z
+
+
+### This was fixed. - Jared on 2017-09-18T23:15:49.031Z
+
+
+### Moved from React 16 bugs to Verified Fixed by Jared on 2017-09-18T23:15:53.581Z
+
+
+### Can reproduce.
+This issue is back on Discord Canary 0.0.163 (Build 4573) on Windows 10 Pro 64-bit (Build 1607), it's not possible to jump to any message at all
+
+Tarek1337#0379 - Bug Bot on 2017-09-20T05:04:48.305Z
+
+
+### This was a result of the react upgrade which has since been resolved. - Jared on 2017-10-17T22:01:22.992Z
+
+
+### Archiving as this has been Verified Fixed for more than 30 days. - Mike Nisbet on 2017-10-19T20:13:48.193Z
+
+
+### Archived by Mike Nisbet on 2017-10-19T20:13:50.492Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

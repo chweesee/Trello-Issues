@@ -1,0 +1,53 @@
+[Archived] Overlay process not killed when closing Discord Canary (https://trello.com/c/uukysiNE)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-03-28T01:15:27.682Z
+Latest Update: 2019-07-19T16:31:16.787Z
+
+Reported by Neizvestnyy#6947
+
+####Steps to reproduce:
+- Have Discord Canary on Windows 7 
+- Launch Discord Canary with the default desktop shortcut ( --processStart ) 
+- This also happens when the overlay is disabled in your preferences 
+- Quit Discord
+
+####Expected result:
+All processes related to Discord should be killed
+####Actual result:
+The process for the overlay ( --overlay-host) stays open (or is launched and then the others are killed)
+####Client settings:
+Discord canary build 11566
+####System settings:
+Win 7 Pro x64
+
+9335
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-28T01:15:27.682Z
+
+
+### Can reproduce.
+Win 7, Canary 12704, overlord approving since it's been sitting for a while
+
+IcyPebbles!#5833 - Bug Bot on 2018-03-28T01:15:35.092Z
+
+
+### Verified.  - Clayton on 2018-03-28T23:19:32.472Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:04.537Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Pascal on 2019-07-19T16:31:16.602Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

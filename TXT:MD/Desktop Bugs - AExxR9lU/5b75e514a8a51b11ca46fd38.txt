@@ -1,0 +1,87 @@
+[Archived] Markdown and escaping link has weird behavior (https://trello.com/c/yRkM6LR6)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-16T20:56:52.111Z
+Latest Update: 2019-10-23T23:01:30.681Z
+
+Reported by aosync#3115
+
+####Steps to reproduce:
+- Be in a text channel 
+- Send a message containing : <(replace by an asterisk)(replace by embeddable link, a link that should normally makes an embed)(replace by an asterisk)>
+
+####Expected result:
+An italic link should be sent, and no embed because it is escaped
+####Actual result:
+The sent message looks like (replace by asterisk)(the embeddable link)(replace by asterisk) but the link is not clickable (not in blue), not in italic and the link escaping chars <> are gone (wtf ?). It seems like the link escaping chars <> have escaped the markdown chars (which they shouldn't) and the clickability of the link at the same time (which it shouldn't also)
+####Client settings:
+21931
+####System settings:
+MS Windows 10 Pro x64 (v1803)
+
+17606
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-16T20:56:52.111Z
+
+
+### aosync#3115 - https://i.imgur.com/QP3fPqt.gifv added by Bug Bot on 2018-08-16T20:56:54.615Z
+
+
+### aosync#3115 - https://i.imgur.com/txRzpkr.gifv added by Bug Bot on 2018-08-16T20:56:54.702Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1083), Canary 22011
+
+Mustard#2117 - Bug Bot on 2018-08-16T20:56:59.491Z
+
+
+### Can reproduce.
+Windows 10 x64, Release Channel: canary, Build Number: 22036, Version Hash: 305e872586fccb6738305bf6569725267600ea01
+
+zabszk#5292 - Bug Bot on 2018-08-16T20:57:04.529Z
+
+
+### Can reproduce.
+Windows 10 x64 Enterprise (build 1709) Can reproduce
+
+xX_WhatsTheGeek_Xx#8606 - Bug Bot on 2018-08-16T20:57:09.551Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T21:36:33.196Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T21:36:41.648Z
+
+
+### Can reproduce.
+null
+
+Lautenschlager#2555 - Bug Bot on 2018-08-17T20:01:24.699Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:20.089Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 36525
+
+Isabel#0002 - Bug Bot on 2019-04-27T11:15:03.684Z
+
+
+### Unarchived by Bug Bot on 2019-04-27T11:30:05.473Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:30.695Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

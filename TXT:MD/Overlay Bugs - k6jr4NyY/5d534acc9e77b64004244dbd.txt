@@ -1,0 +1,75 @@
+Closing folders in overlay doesnt close them in client, while closing them in client it closes in overlay too (https://trello.com/c/JiDMNaSf)
+
+None
+
+Created: 2019-08-13T23:42:04.353Z
+Latest Update: 2020-04-04T16:18:20.053Z
+
+Reported by Xylium#5800
+
+####Steps to reproduce:
+- open discord 
+- start a game 
+- make sure overlay is activated 
+- Make sure you have a couple folders 
+- close a folder in overlay and observe the folder not closing in client 
+- close a folder in client and observe the folder closing in overlay
+
+####Expected result:
+the folder should close in client too
+####Actual result:
+the folder doesnt close in client while in client when closing it, it closes in overlay
+####Client settings:
+Discord canary, Build Number: 43480
+####System settings:
+Windows 10 Pro x64 v1903 Build: 18362.175
+
+41953
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-13T23:42:04.353Z
+
+
+### Can reproduce.
+CR Lenovo × Windows 10 Home x64 1903 × Canary 43480
+
+B.O.S.S#0251 - Bug Bot on 2019-08-13T23:42:11.761Z
+
+
+### Can reproduce.
+CR - Windows 10 Home Single Language x64, Discord version: 43168
+
+Daved#0021 - Bug Bot on 2019-08-13T23:42:16.767Z
+
+
+### Can reproduce.
+CR; CR Lenovo × Windows 10 x64 x Canary 43480
+
+IPv4#0004 - Bug Bot on 2019-08-13T23:42:21.816Z
+
+
+### Can reproduce.
+Windows 10 Home, 64bit, Discord Canary Build: 43480
+
+Jeffrey#1234 - Bug Bot on 2019-08-14T01:24:29.009Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 43480
+
+Neiron#8475 - Bug Bot on 2019-08-14T10:46:06.991Z
+
+
+### Can reproduce.
+Canary 43480, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-08-14T18:10:24.580Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,136 @@
+[Archived] The button saying "Create a server for your project" in the Open Source page doesn't work when logged in. (https://trello.com/c/Y0tbrob5)
+
+P2: Fix can wait a while
+
+Created: 2019-03-02T10:17:23.207Z
+Latest Update: 2019-05-02T23:00:30.063Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Make sure you're logged in. 
+- Go to Discord's website > Community (navbar) > Open Source (dropdown). 
+- Click the "Create a server for your project" button.
+
+####Expected result:
+It should launch the Discord browser app, log you in (because you are logged in), and open up the create a server modal.
+####Actual result:
+If logged in, it takes you to `guilds/create`, which does nothing. It redirects to `activity` but shows a blank page (it doesn't log you in at all, everything's just blank).
+####Client settings:
+Web Canary 33117
+####System settings:
+HP Chromebook G5 11 · Chrome 72.0.3626.117 (x64)
+
+30124
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-02T10:17:23.207Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7a58335cf11208cd11065a/a25b74fd07b0f4fdf8d6f2103a3c7a98/QU7glME.png added by Bug Bot on 2019-03-02T10:17:25.908Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c7a58335cf11208cd11065a/f815bfba8ced5bcd043bfa680ad221b1/9TVGl89.png added by Bug Bot on 2019-03-02T10:17:25.940Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Chrome 72.0.3626.105
+
+nescix#0510 - Bug Bot on 2019-03-02T10:17:30.562Z
+
+
+### Can reproduce.
+CR, Discord Desktop Canary Build 33117 | Google Chrome Stable 72.0.3626.119 (64-bit), Windows 7 Ultimate 64-bit Version 6.1 Build 7601 [https://cdn.discordapp.com/attachments/550786365554425866/551343872630849537/Skod7MeVCG.gif]
+
+PacBlinky#8276 - Bug Bot on 2019-03-02T10:17:35.634Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x, Discord Canary 33117,Chrome  Version 72.0.3626.119 (Official Build) (64-bit)
+
+Octillion#6666 - Bug Bot on 2019-03-02T10:17:40.573Z
+
+
+### Can reproduce.
+Samsung S8, Android 9.0, 8.5.3
+
+Mr. Proper#2394 - Bug Bot on 2019-03-02T10:30:38.002Z
+
+
+### may not be or may be extension of https://trello.com/c/aFVZJVbb <--- by the way i can no longer reproduce with the steps provided in that ticket but can reproduce with the steps in casper's ticket
+
+PacBlinky#8276 - Bug Bot on 2019-03-02T10:56:38.430Z
+
+
+### Can reproduce.
+CR; Firefox browser Version 66  (64-bit), (Discord Canary 33117, Windows 7)
+
+Skyla#0002 - Bug Bot on 2019-03-02T11:47:30.734Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - canary 33117 - firefox 65.0.1 (64-bit)
+
+Isabel#0002 - Bug Bot on 2019-03-02T12:51:20.967Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), canary 33117
+
+Defracted#1337 - Bug Bot on 2019-03-02T14:02:14.023Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 Google Chrome Version 72.0.3626.119
+
+Spooker#0001 - Bug Bot on 2019-03-02T16:53:56.246Z
+
+
+### Moved from User Reported Bugs to Website Bugs by Clayton on 2019-03-05T23:19:21.076Z
+
+
+### Can reproduce.
+Windows 10 Home; Google Chrome 72.0.3626.121; Canary Build 33683
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-10T22:35:31.943Z
+
+
+### Cannot reproduce anymore on Canary Webclient 34858, Google Chrome 73.0.3683.86 (64-bit), Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-02T21:24:00.809Z
+
+
+### Moved from Website Bugs to Claimed Fixed, needs Verification by Ene on 2019-04-02T21:24:05.842Z
+
+
+### Can't reproduce.
+CNR on Windows 10 Home; Google Chrome 73.0.3683.86
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-02T21:31:12.768Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Web Stable 34858 - Google Chrome 73.0.3683.86
+
+Daffyduck#5364 - Bug Bot on 2019-04-02T22:31:33.722Z
+
+
+### Can't reproduce.
+CNR, Linux Mint 19.1 Tessa, Firefox 66.0.1
+
+Seikatsu#0001 - Bug Bot on 2019-04-02T22:32:28.961Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-04-02T22:32:29.182Z
+
+
+### Archived by Bug Bot on 2019-05-02T23:00:30.074Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

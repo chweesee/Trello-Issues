@@ -1,0 +1,63 @@
+[Archived] Hovering on GIF label on embeded gif in chat and clicking on it as well not make any action (play/open in browser) (https://trello.com/c/xcLZYzxt)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-19T00:06:48.415Z
+Latest Update: 2018-10-22T20:14:19.488Z
+
+Reported by ╳(͜͡𝓪𝓷𝓖 ⑆#5512
+
+####Steps to reproduce:
+- Post gif with small height or any other gif 
+- Hover on GIF label (for gif with big height you need to do it fast) 
+- You will see this bug (label not dissappear and gif not play and click not work)
+
+####Expected result:
+Gif should play and responce on clicks
+####Actual result:
+You hover on <span class="image-gif"></span> and javascript not work with it. For solving need simple add to CSS rule to ".image .image-gif" selector: "pointer-events: none;" (so hover will work on canvas and you can click through it).
+####Client settings:
+Desktop PTB, 0.0.32
+####System settings:
+Windows 10 x64
+
+1774
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-19T00:06:48.415Z
+
+
+### Super from NotDiscord™#5419 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59471598d9fa10e86d2349ff/85f928cd38bdd217253006dd9862e314/D2TgEETf.gif added by Bug Bot on 2017-06-19T00:06:52.483Z
+
+
+### Can reproduce.
+ Windows 7 Professional x64, Stable 1.4.12.  On a side note, props for providing fix instructions, but keep in mind that CSS mods are a ToS violation..
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-06-19T00:06:53.153Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Canary 0.0.157
+
+joseph#6835 - Bug Bot on 2017-06-19T00:06:55.183Z
+
+
+### Can reproduce.
+ Windows 10 x64 bit, Canary 0.0.157
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-19T00:06:57.138Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-06-19T18:34:45.619Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:19.490Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,164 @@
+[Archived] Image gets flipped 180° (https://trello.com/c/aSgpo2d2)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2017-11-14T18:10:11.900Z
+Latest Update: 2018-07-11T01:32:25.688Z
+
+Reported by Okori#0902
+
+####Steps to reproduce:
+- Open the send attachment preview 
+- go to the in app camera 
+- switch to the front camera 
+- take a picture and observe the preview
+
+####Expected result:
+normal preview of what you took
+####Actual result:
+flipped preview
+####Client settings:
+Discord 5.6.7
+####System settings:
+Android​ 5.1
+
+6393
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-14T18:10:11.900Z
+
+
+### Okori#0902 - https://youtu.be/oOuTlfHtb8Q added by Bug Bot on 2017-11-14T18:10:14.263Z
+
+
+### Can reproduce.
+CR lg xpower 6.0.1 on alpha 5.6.7
+
+ks0908#8526 - Bug Bot on 2017-11-14T18:10:19.267Z
+
+
+### Can reproduce.
+CR, Discord Alpha 5.6.7, Android 6.0, Moto E (2.Gen) LTE
+
+Anorak#5830 - Bug Bot on 2017-11-14T18:10:24.265Z
+
+
+### Can reproduce.
+CR, OnePlus 2, Android 6.0.1 on alpha 5.6.6
+
+Thereatra#3564 - Bug Bot on 2017-11-14T18:10:29.287Z
+
+
+### if unable to repo by switching with in line switcher try going full screen and switch there and take a picture
+
+Okori#0902 - Bug Bot on 2017-11-14T18:11:30.787Z
+
+
+### Can't reproduce.
+I tried literally everything I could do : switching to front camera in-app, fullscreen, not fullscreen, etc. I just can't repro with my device. Huawei Mate 9 Android 7.0 Discord Alpha 5.6.7
+
+Alex1304#9704 - Bug Bot on 2017-11-14T18:32:48.238Z
+
+
+### Can't reproduce.
+I tried the repro steps repeatedly and the images loaded normally. Only "issue" was the images would be reversed (left is right, right is left) which is to be expected. Samsung Galaxy S6, 7.0, 567
+
+Xander#0259 - Bug Bot on 2017-11-14T18:54:19.989Z
+
+
+### Can reproduce.
+Motto Z Play Android 7.1.@
+
+Joystiq#1687 - Bug Bot on 2017-11-15T08:37:15.667Z
+
+
+### Can reproduce.
+Motto Z Play Android 7.1.1
+
+Joystiq#1687 - Bug Bot on 2017-11-15T08:40:07.971Z
+
+
+### Can reproduce.
+Motto Z Play Android 7.1.1 on Alpha 5.6.6
+
+Joystiq#1687 - Bug Bot on 2017-11-15T08:45:04.535Z
+
+
+### Can reproduce.
+Tecno C9 Android 6.0
+
+Gon(taking a break)#0248 - Bug Bot on 2017-11-16T07:25:43.921Z
+
+
+### Cannot reproduce, Alpha 5.6.9 on OnePlus 5 running 7.1.1, Fixed? - Tarek on 2017-11-17T06:03:39.724Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2017-11-17T06:03:45.364Z
+
+
+### still able to reproduce on 5.7.3 I thought it might be below 7.0 specific but joy was able to reproduce but there's no denys under 7.0
+
+Okori#0902 - Bug Bot on 2017-11-18T16:06:53.292Z
+
+
+### Can reproduce.
+can still repo on Android 5.1 Discord 5.8.1
+
+Okori#0902 - Bug Bot on 2017-12-02T16:46:07.181Z
+
+
+### Can reproduce.
+Still there in 5.8.3, on stock HTC One M8 running Android 6.0. More info: issue only shows in portrait mode, both with the phone upright and upside-down (standing on its head). Issue does not show in landscape mode. Issue shows both when I use the in-app viewfinder and when I switch to full screen. Also, it's not only the preview that is upside down, the image itself also saves upside down into the Gallery.
+
+Beci#7085 - Bug Bot on 2017-12-05T09:50:03.170Z
+
+
+### Can reproduce.
+Cherry Mobile Spin Max 6.0.1
+
+IamMaki#2560 - Bug Bot on 2017-12-12T15:33:01.639Z
+
+
+### Verified.  - Clayton on 2017-12-13T00:00:56.211Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Clayton on 2017-12-13T00:00:59.753Z
+
+
+### Can reproduce.
+Discord Alpha 6.2.4 Android 6.0
+
+cutelilberry#5423 - Bug Bot on 2018-02-13T20:30:16.980Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-23T17:27:05.322Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2018-03-23T17:27:12.748Z
+
+
+### Moved from Fixed Bugs to Verified Bugs by Jared on 2018-03-23T19:48:47.212Z
+
+
+### This is Device specific. @clayton301 what device did you use to verify this with? - Jared on 2018-03-23T19:49:01.712Z
+
+
+### @jared627 I was told this is Camera 2 API specific. I don't know which category of devices uses this tho
+
+Alex1304#9704 - Bug Bot on 2018-03-23T19:55:55.355Z
+
+
+### Dupe of https://trello.com/c/xHI1nLDq - Clayton on 2018-07-11T01:32:23.345Z
+
+
+### Archived by Clayton on 2018-07-11T01:32:25.691Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] Sensitivity autodetection is broken (https://trello.com/c/eItjDAgg)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2018-10-07T20:06:47.330Z
+Latest Update: 2018-11-08T01:00:04.286Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to User settings > Voice & Video 
+- Enable Voice Activity, and switch off "Automatically determine input sensitivity" 
+- Slide the sensitivity bar all the way to the right so it's all yellow 
+- Toggle on "Automatically determine input sensitivity" 
+- Speak to make sure the bar can turn green in settings 
+- Close settings and join a voice channel 
+- Speak
+
+####Expected result:
+It should automatically detect your voice and transmit it
+####Actual result:
+It acts like autodetection was off, resulting in no voice being transmitted due to what you did at step 3
+####Client settings:
+Discord Alpha 7.6.3
+####System settings:
+Huawei Mate 9 Android 8.0
+
+20786
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-07T20:06:47.330Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 mini, Android 6.0.1, Alpha 763
+
+Nashorn#3450 - Bug Bot on 2018-10-07T20:06:54.642Z
+
+
+### Can reproduce.
+CR, OnePlus 3T, Android 8, Discord 7.6.3
+
+Alipoodle#5025 - Bug Bot on 2018-10-07T20:06:59.768Z
+
+
+### Can reproduce.
+can reproduce, Samsung Galaxy Core Plus sm-g350, 4.2.2, Alpha, 7.6.3
+
+「Fortune's Endbringer」#9616 - Bug Bot on 2018-10-07T20:07:04.640Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 763
+
+The Lunala#7777 - Bug Bot on 2018-10-08T00:57:28.092Z
+
+
+### Can't reproduce.
+Samsung Galaxy Tab A, Android 7.1.1 - Discord Alpha 7.6.3
+
+Hole#0001 - Bug Bot on 2018-10-08T05:52:01.714Z
+
+
+### verified, samsung s6 edge, alpha 7.6.3, android 7.0 - Clayton on 2018-10-09T00:41:06.650Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-09T00:41:17.358Z
+
+
+### Archived by Clayton on 2018-11-08T01:00:04.289Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

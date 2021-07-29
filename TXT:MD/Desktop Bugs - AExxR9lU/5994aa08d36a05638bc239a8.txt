@@ -1,0 +1,107 @@
+Screen sharing uses wrong monitor on a multi monitor setup (https://trello.com/c/0aVxKOOB)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-08-16T20:24:40.684Z
+Latest Update: 2019-09-23T22:30:07.936Z
+
+Reported by Tactic Alpha#0199
+
+####Steps to reproduce:
+- Open a DM with someone 
+- Start video 
+- Try to start screen sharing 
+- Select a monitor
+
+####Expected result:
+The incorrect monitor will be shared, but the cursor will be from the correct one, with my two monitor setup the previews are swapped but say if I select monitor 1, it shows the screen from monitor 2 but my cursor if it's on monitor 1.
+####Actual result:
+Explained in last part
+####Client settings:
+Not sure the number, but Desktop PTB August 11, 2017 (First update with video chat for me)
+####System settings:
+Windows 10 64 bit, build 14393.1593
+
+3288
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-16T20:24:40.684Z
+
+
+### Can reproduce.
+Windows 10 x64 Creator's Update canary 0.0.163 build 3241
+
+Mikesky#3456 - Bug Bot on 2017-08-16T20:24:53.270Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit - Discord Canary 0.0.163 - Finally this is getting approved.
+
+Starsky#7861 - Bug Bot on 2017-08-16T20:24:58.158Z
+
+
+### Can reproduce.
+Windows 10 64 bit (2 monitors), Discord Canary.
+
+Jaren#2095 - Bug Bot on 2017-08-16T20:24:58.172Z
+
+
+### Can reproduce.
+Windows 8.1 x64 - Discord Canary
+
+subhobo#0182 - Bug Bot on 2017-08-16T21:08:57.060Z
+
+
+### Moved from User Reported Bugs to Screenshare/Video Calls by Jared on 2017-08-17T18:11:45.391Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Stable
+
+SunburntRock89#6617 - Bug Bot on 2017-08-23T20:34:01.156Z
+
+
+### Can reproduce.
+Win 10 Home x64 - Discord (stable)
+
+Sivart#5017 - Bug Bot on 2017-09-18T01:23:30.836Z
+
+
+### Can reproduce.
+my 2nd monitor is set to 1st in Windows settings and my 1st monitor is set as primary. and this is how I did repro this. also it shares mouse when it's on the 2nd monitor. MacBook Pro Retina 13" Late 2014 macOS High Sierra 10.13
+
+fratik#9865 - Bug Bot on 2017-10-06T14:15:56.512Z
+
+
+### Can reproduce.
+Windows 8.1 64bits 3 monitors
+
+PliC#7353 - Bug Bot on 2017-10-27T18:44:31.313Z
+
+
+### Cannot reproduce.  - Clayton on 2018-01-04T09:06:52.904Z
+
+
+### Moved from Screenshare/Video Calls to Cannot Reproduce by Clayton on 2018-01-04T09:06:59.289Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build16299.192 - Canary Build 10466 & Stable 10097
+
+DOSEOFiNSANiTY#9468 - Bug Bot on 2018-02-09T13:19:10.803Z
+
+
+### Can Reproduce with a 2 monitor set up. - Jared on 2018-04-23T19:44:21.323Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2018-04-23T19:44:24.851Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

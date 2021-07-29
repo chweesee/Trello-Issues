@@ -1,0 +1,93 @@
+[Archived] Video chat with 3+ users causes screen tearing with hardware acceleration enabled (https://trello.com/c/3I1WYyL4)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-12-15T21:32:29.352Z
+Latest Update: 2018-07-06T18:00:20.816Z
+
+Reported by ᴊᴘʙᴀɴᴀɴᴀᴍᴀɴ 🍌#6013
+
+####Steps to reproduce:
+- enable hardware acceleration 
+- enter video call with more than 2 people 
+- video feeds freeze in sections for all users 
+- disable hardware acceleration and restart 
+- no more tearing and freezing, works as expected
+
+####Expected result:
+The video chat should work without having to disable hardware acceleration
+####Actual result:
+Certain sections of each person's camera feed freeze up, mainly on the left and right hand sides
+####Client settings:
+Build Number: 8121, Version Hash: 527fe1d7f4758babd00d47cc3da50b6d52cc2f4d
+####System settings:
+Windows 10 Version
+
+6864
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-15T21:32:29.352Z
+
+
+### Can reproduce.
+Win10 FCU
+
+thecakeisalie25#0517 - Bug Bot on 2017-12-15T21:32:36.755Z
+
+
+### Can reproduce.
+Tested it out with three other bug hunters. You can see the camera freezing and tearing up if you move too much with at least four people in the video call. Windows 10 Pro, Fall Creator Update, Discord Canary Build 8612.
+
+Ghoul#4567 - Bug Bot on 2017-12-15T21:32:41.760Z
+
+
+### Can reproduce.
+CR, tearing is most visible while moving camera around, Win 10 x64 8612
+
+ks0908#8526 - Bug Bot on 2017-12-15T21:32:46.746Z
+
+
+### Can't reproduce. - Clayton on 2018-01-04T00:31:07.252Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-01-04T00:31:19.327Z
+
+
+### Apparently, the bug could not be reproduced by the original reproduction steps. Let's try this new set of reproduction steps: 
+- Join the video call with at least 3 or 4 people (including yourself.) 
+- Turn on webcam
+- Move around a lot, preferly around the left side of your webcam.
+- Observe. 
+It may not look like it will do much, but if you start to wave around or move a lot, you will see the screen to freeze up on the left side of the screen showing your webcam.
+
+Ghoul#4567 - Bug Bot on 2018-01-05T14:05:08.257Z
+
+
+### I believe this was fixed in a recent update. One of the builds seem to make the split screen view zoomed in, creating the screen tearing/freezing on the edges, but as of the current build, the proportions have been fixed so this doesn't happen now.
+
+SuperSajuuk#7265 - Bug Bot on 2018-01-05T18:14:16.569Z
+
+
+### Moved from Cannot Reproduce to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2018-02-04T09:12:25.043Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-02-23T18:40:14.052Z
+
+
+### Verified Fixed - Jared on 2018-02-23T18:40:17.196Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:00:19.941Z
+
+
+### Archived by Jared on 2018-07-06T18:00:20.819Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

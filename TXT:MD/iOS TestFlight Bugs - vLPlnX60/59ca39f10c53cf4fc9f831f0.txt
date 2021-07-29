@@ -1,0 +1,122 @@
+[Archived] Notification Settings return blank if you pick a setting then mute channel. (https://trello.com/c/OmAacCtP)
+
+P2 - Can wait a while,
+low
+
+Created: 2017-09-26T11:28:49.469Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Ten#1723
+
+####Steps to reproduce:
+- Go to Notification Settings. 
+- + Add a Channel or a Category 
+- Pick a channel. Make sure it’s not an already muted channel. 
+- Pick any of the 3 options. 
+- Mute channel. 
+- Tap back.
+
+####Expected result:
+Notification Settings load normally.
+####Actual result:
+The Notification Settings is blank until you try to scroll up/down.
+####Client settings:
+TestFlight 1.9.1 (665)
+####System settings:
+iPhone 6, iOS 11 (15A372)
+
+4853
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-26T11:28:49.469Z
+
+
+### Can reproduce.
+iOS | Iphone 7, 11.0 - Testflight 1.9.1 (655)
+
+' Umji || R ♡#9867 - Bug Bot on 2017-09-26T11:28:56.845Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11, TF 1.9.1 (665)
+
+mouse91#3089 - Bug Bot on 2017-09-26T11:29:01.942Z
+
+
+### Can reproduce.
+iPhone 6S & iPad Air 2, iOS 11.0, TestFlight 1.9.1 (665)
+
+Pascal#0929 - Bug Bot on 2017-09-26T11:29:06.801Z
+
+
+### Also happens when you reset Notification Settings. Would sometimes load the settings but the channels will not be shown until you scroll up/down.
+
+Ten#1723 - Bug Bot on 2017-09-26T16:04:47.073Z
+
+
+### Ten#1723 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59ca39f10c53cf4fc9f831f0/c1e2b8685d0c708cfbe41f45fadeaa4f/d2571961ba2bc60aaa101371a32ee6f3.gif added by Bug Bot on 2017-09-26T16:12:40.399Z
+
+
+### Can reproduce.
+iPhone 6S+ , iOS 10.2, TestFlight 1.9.1
+
+Vermenthruaxx#2866 - Bug Bot on 2017-09-27T00:48:07.644Z
+
+
+### Verified.  - Clayton on 2017-09-27T23:10:12.043Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-27T23:10:19.804Z
+
+
+### I can no longer reproduce, Notification Settings load normally. 
+
+Discord 2.2.1 (2202), iOS 11.2.2, iPhone 8 Plus - Alexandru Todea on 2018-01-20T08:42:55.711Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-01-20T08:43:04.155Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T20:59:41.924Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-27T00:46:31.945Z
+
+
+### Can't reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.1 (2236)
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T01:46:00.545Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:02:48.711Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:48:04.468Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:48:07.783Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:00:16.108Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:00:16.363Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

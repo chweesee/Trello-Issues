@@ -1,0 +1,66 @@
+[Archived] If I disable the Desktop Notifications, Discord no longer turns orange in the task bar when I get new messages. (https://trello.com/c/E96tBxiE)
+
+None
+
+Created: 2019-04-11T16:15:08.161Z
+Latest Update: 2019-05-07T01:50:50.821Z
+
+Reported by Geno#2633
+
+####Steps to reproduce:
+- Go to Settings -> Notifications -> Enable Desktop Notifications 
+- Disable this setting 
+- Click on some other window and wait for someone to send you a message 
+- Realize that you don't get any kind of a warning telling you that you have new messages to read
+
+####Expected result:
+The app should start flashing orange in the task bar, like it does when I have notifications enabled.
+####Actual result:
+The setting disables both the popup and the orange flash. I'd only want to disable the popups.
+####Client settings:
+Release Channel: stable, Build Number: 35335, Version Hash: 5deec429160a96d27a3aff5c13a48d194d2babbf
+####System settings:
+Windows 10, have had the same issue for last 2 years so doesn't really matter. Latest: "Windows 10, version 1709 (2)"
+
+32457
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-11T16:15:08.161Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary, Native Host 0.0.234, Build Number 35470
+
+Hole#0001 - Bug Bot on 2019-04-11T16:15:15.776Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 35470
+
+Killtracity#0001 - Bug Bot on 2019-04-11T16:15:20.781Z
+
+
+### Can reproduce.
+Discord Canary 35470, Native Host 0.0.234; Windows 7 Professional
+
+analog#9481 - Bug Bot on 2019-04-11T16:15:25.771Z
+
+
+### Duplicate of https://trello.com/c/a5wIFDPM
+
+MoonlightCapital#0554 - Bug Bot on 2019-04-11T16:20:30.556Z
+
+
+### Duplicate of https://trello.com/c/a5wIFDPM - Ene on 2019-05-07T01:50:49.587Z
+
+
+### Archived by Ene on 2019-05-07T01:50:50.831Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

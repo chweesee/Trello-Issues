@@ -1,0 +1,100 @@
+[Archived] Jumping to a system message doesn't jump to the message (https://trello.com/c/lSzVBMOm)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-01T06:28:06.622Z
+Latest Update: 2019-12-30T13:00:15.831Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Pin a message in a channel 
+- Send some messages after the system pin message till the system pin message is out of view (just so you can see that it isn't jumping) 
+- Open Search and search "in: {current channel}" 
+- Scroll down in Search and find the system pin message 
+- Press the Jump button on it
+
+####Expected result:
+You jump to the system message and it highlights
+####Actual result:
+Nothing
+####Client settings:
+Discord Canary 0.0.211, Build 20414
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+16595
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-01T06:28:06.622Z
+
+
+### Can reproduce.
+CR, Win10 64bits, Canary 20433
+
+Danny Hpy#0001 - Bug Bot on 2018-08-01T06:28:18.989Z
+
+
+### Can reproduce.
+CR | Canary 20316, macOS 10.13.5
+
+alpha#9432 - Bug Bot on 2018-08-01T06:28:24.003Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit 1803, Canary 20360
+
+that15fine#9275 - Bug Bot on 2018-08-01T06:28:29.033Z
+
+
+### Dupe of https://trello.com/c/z6nOxuVN
+
+Pascal#0929 - Bug Bot on 2018-08-01T10:54:04.282Z
+
+
+### Can reproduce.
+There were some discussion about it being not related to my ticket because there is now a jump button, I think it might still be related and just an extension in this case but dupe is wrong (sorry about that). MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Discord Canary Build 20433
+
+Pascal#0929 - Bug Bot on 2018-08-01T11:14:39.388Z
+
+
+### Blocked fix by https://trello.com/c/z6nOxuVN/
+
+On that ticket there was no jump button. But now there is one but it does not work. So this is a blocked fix. - Tarek on 2018-08-02T04:18:31.896Z
+
+
+### Verified Canary 20540 W10 1803 - Tarek on 2018-08-03T02:13:55.624Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-08-03T02:13:59.775Z
+
+
+### Can reproduce.
+Win 10 Pro 64x - Canary Build 25046
+
+C4Navar#5799 - Bug Bot on 2018-09-29T11:02:09.539Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:28.599Z
+
+
+### Can reproduce.
+Win 10 x64 1903 - Stable 48470
+
+Flubberlutsch#0001 - Bug Bot on 2019-11-03T19:51:33.097Z
+
+
+### Unarchived by Bug Bot on 2019-11-03T20:00:05.715Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:15.844Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

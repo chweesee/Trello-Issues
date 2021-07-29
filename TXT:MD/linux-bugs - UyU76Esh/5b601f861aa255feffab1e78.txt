@@ -1,0 +1,85 @@
+Discord (all versions) don't want to minimize into the little corners, but works with the two split screens [VIDEO] (https://trello.com/c/TO6enMTY)
+
+P3: Will eventually be fixed,
+low
+
+Created: 2018-07-31T08:36:22.478Z
+Latest Update: 2018-09-01T05:37:55.197Z
+
+Reported by Jiiro#0001
+
+####Steps to reproduce:
+- Download Discord (any version) from  
+- After downloading, log in 
+- Afterwards, go into Discord (any version) and try to drag it to the corners to see if they will minimize into those corners
+
+####Expected result:
+Discord should be minimizing into the corners
+####Actual result:
+Discord doesn't minimize into the corners but can dual split screen well
+####Client settings:
+Release Channel: canary, Build Number: 20088 // Release Channel: stable, Build Number: 20040 // Release Channel: ptb, Build Number: 20040
+####System settings:
+[SPECIFIC ONLY] Ubuntu Mate 18.04 LTS (Stock everything)
+
+16170
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-31T08:36:22.478Z
+
+
+### Jiiro#0001 - https://www.youtube.com/watch?v=nl5plcG7FkE added by Bug Bot on 2018-07-31T08:36:24.782Z
+
+
+### Can reproduce.
+Can Reproduce - Discord refuses to snap into a corner, this is because the window would have to be resized smaller than the minimum resolution, however, discord should still snap just not to the size Linux wants. I'm not sure if this is just an issue with Ubuntu Mate 18.04 or something that can be fixed on Discords End. [Ubuntu Mate 18.04 - Canary 20174]
+
+HarryThorpe#0864 - Bug Bot on 2018-07-31T08:36:29.787Z
+
+
+### Can reproduce.
+CR. Ubuntu 17.04 • Canary 20147. It does not snap easily, unless you do it at the top for full screen.
+
+MakiTheLegend#5027 - Bug Bot on 2018-07-31T08:36:34.792Z
+
+
+### Can reproduce.
+[CR] Ubuntu 18.04, Canary 20174,
+
+Bean#0001 - Bug Bot on 2018-07-31T08:36:39.811Z
+
+
+### Can't reproduce.
+Cannot Reproduce, Window snaps just fine on my system, it just makes the text look a bit smaller... Squashed if I have the Member List open. ¬ Manjaro Linux 18.0 (Illyria) x86_64 - Kernel Version 4.18.0-1-MANJARO - KDE Plasma 5.13.3 - 7.7GiB of RAM ¬ Discord Canary Build 20433
+
+Kydros Elizabeth LeSaki#3217 - Bug Bot on 2018-08-01T06:31:42.868Z
+
+
+### Can't reproduce.
+Antergos • KDE Plasma 5.13.4 • Canary 20849 • Sounds more like a DE issue rather than a discord issue. Also note discord is not meant to be sized down too small, meaning screen resolution may be a contributing factor
+
+noahkiq#0493 - Bug Bot on 2018-08-05T15:14:13.085Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-08-30T22:01:41.177Z
+
+
+### Can't reproduce.
+Can't reproduce on gnome. the corner-snap-minimize expected behavior is totally new to me, I haven't seen this happen on any window inside gnome out-of-the-box as it's shipped with the distro. 4.17.0-kali3-amd64 #1 SMP Debian 4.17.17-1kali1 (2018-08-21), discord-ptb 0.0.9
+
+macplox#9104 - Bug Bot on 2018-09-01T04:56:44.815Z
+
+
+### Can't reproduce.
+Also tried canary just now,  same as ptb. This isn't a Discord bug/feature. It behaves under gdm3 exactly as expected in respect to resizing/dragging/snapping. 4.17.0-kali3-amd64 #1 SMP Debian 4.17.17-1kali1, DiscordCanary 0.0.53
+
+macplox#9104 - Bug Bot on 2018-09-01T05:37:55.198Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

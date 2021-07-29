@@ -1,0 +1,101 @@
+[Archived] Swiping to open lists while touching on a link instantly opens that link. Maybe iOS 10 only. (https://trello.com/c/sDXfaurz)
+
+None
+
+Created: 2018-05-24T14:17:20.483Z
+Latest Update: 2018-09-19T16:32:58.031Z
+
+Reported by 54D [Hibernation]#1357
+
+####Steps to reproduce:
+- Scroll to a message with a link. 
+- Swipe left or right to try to open the members or channels list, with the starting touch on the link. 
+- Don't let go.
+
+####Expected result:
+Link only opens if I press and release the link. The left or right menus open normally.
+####Actual result:
+The link instantly opens while you're swiping.
+####Client settings:
+TestFlight 2.3.2 (4694)
+####System settings:
+iPhone 6S, iOS 10.2.1
+
+13300
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-24T14:17:20.483Z
+
+
+### Can reproduce.
+Can Repro Phone 7 Plus, iOS 11.3, iOS TestFlight 2.3.2
+
+ash#0001 - Bug Bot on 2018-05-24T14:17:28.372Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight Build 2.3.2 (4760) might take two or three tries but can definitely reproduce it
+
+Kuuhaku#4503 - Bug Bot on 2018-05-24T14:17:33.358Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4760)
+
+Xylium#1480 - Bug Bot on 2018-05-24T14:17:38.352Z
+
+
+### Can reproduce.
+IPad 2017, iOS 11.3.1
+
+Alex_ehv#1610 - Bug Bot on 2018-05-25T10:21:27.978Z
+
+
+### Maybe an Extension to this issue: It also happens with blocked (showing and hiding them) messages (here it is even more noticeable)
+
+Pascal#0929 - Bug Bot on 2018-05-25T10:35:46.942Z
+
+
+### Can't reproduce.
+iOS 11.3.1 iPhone 8 TestFlight 2.3.2 (4760)
+
+Iron Akela#1745 - Bug Bot on 2018-05-25T11:46:57.650Z
+
+
+### Can reproduce.
+IPhone 8+ iOS 11, normal client 2.3.2
+
+Andrew#3534 - Bug Bot on 2018-05-25T13:33:27.827Z
+
+
+### Can reproduce.
+!storeinfo
+
+Phoenix Deathstare#0059 - Bug Bot on 2018-05-26T11:30:31.080Z
+
+
+### Can reproduce.
+iPhone 6S - ios 11.3.0
+
+Phoenix Deathstare#0059 - Bug Bot on 2018-05-26T11:35:56.350Z
+
+
+### I can reproduce but only if you start and end on the link, which I don't think is a bug. It's also possible that this report isn't even talking about that. Dunno. Gonna go with "not a bug" unless someone can clarify. - Jared on 2018-06-01T21:27:03.250Z
+
+
+### Moved from User Reported Bugs to Not a bug by Jared on 2018-06-01T21:27:15.199Z
+
+
+### This ticket has been in Not a Bug list for more than a month without any new activity. I am archiving this ticket due to inactivity and being in Not a Bug since June. - Ghoul on 2018-09-19T16:32:56.665Z
+
+
+### Archived by Ghoul on 2018-09-19T16:32:58.033Z
+
+List
+====
+Not a bug
+
+Members
+=======
+None

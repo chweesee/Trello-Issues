@@ -1,0 +1,48 @@
+[Archived] You can use keybinds to toggle mute and deafen while testing the mic playback in the Noise Suppression panel. However, when testing your mic playback in the voice and video settings, you can't use keybinds to toggle mute/deafen. (https://trello.com/c/c09EOHbp)
+
+None
+
+Created: Unknown
+Latest Update: 2020-04-03T17:13:25.629Z
+
+**Steps to reproduce:**
+- Click "Test" on the Noise Suppression panel.
+- Have a keybind set to toggle mute or deafen upon activation.
+- Activate that keybind while testing your mic in the Noise Suppression panel.
+**Expected Results:** Your keybinds regarding mute/deafen toggle shouldn't work.
+**Actual Results:** Your keybinds still work, which defeats the purpose of being automatically deafened when clicking "Test".
+**Client Settings:** Canary 56552
+**System Settings:** Windows 10 Home 1909 x64
+
+**What microphone / Gaming headset are they using?**
+Blue Snowball
+
+Card Log
+========
+### When I do test in voice & video settings, keybinds still works for me. - Jozsef Vass on 2020-04-02T23:48:26.882Z
+
+
+### I am marking this as duplicate of https://trello.com/c/menXy0FO/5931-when-using-mic-test-pressing-a-toggle-deafen-key-bind-keeps-the-test-going-and-others-can-hear-you-as-well-as-you-hearing-yourse. - Jozsef Vass on 2020-04-02T23:49:02.145Z
+
+
+### Moved from Krisp to Claimed Fixed, needs Verification by Jozsef Vass on 2020-04-02T23:49:11.387Z
+
+
+### Moved from Claimed Fixed, needs Verification to Krisp by Jozsef Vass on 2020-04-02T23:50:14.098Z
+
+
+### When mic testing is active, I disable keybinds. - Jozsef Vass on 2020-04-03T01:16:43.276Z
+
+
+### I updated the fix to stop mic testing when undeafened. - Jozsef Vass on 2020-04-03T02:15:26.504Z
+
+
+### Archived by Jozsef Vass on 2020-04-03T17:13:25.639Z
+
+List
+====
+Krisp
+
+Members
+=======
+None

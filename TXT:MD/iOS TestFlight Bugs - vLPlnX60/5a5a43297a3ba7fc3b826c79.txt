@@ -1,0 +1,108 @@
+[Archived] Keyboard overlaps message field (in edit state) (https://trello.com/c/NA4Ztrf0)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-13T17:34:34.050Z
+Latest Update: 2019-07-21T23:00:04.540Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Send a message with any text 
+- Click on the message field 
+- Long click on the sent message 
+- Close the keyboard 
+- Click on `Edit message`
+
+####Expected result:
+Message edit field should be visible.
+####Actual result:
+Message edit field will be overlapped by the virtual keyboard.
+####Client settings:
+TestFlight 2.2.0 (2080)
+####System settings:
+iPad Air 2, iOS 11.2.5 Public Beta 5
+
+7796
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-13T17:34:34.050Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a5a43297a3ba7fc3b826c79/d2923c01c148571817ef126dafb10704/c1Yy0RM.jpg added by Bug Bot on 2018-01-13T17:34:36.521Z
+
+
+### Can reproduce.
+CR, iPad Air 1st Gen, iOS 11.1.2, Discord TestFlight 2.2.0 (2080)
+
+Ghoul#4567 - Bug Bot on 2018-01-13T17:34:41.386Z
+
+
+### Can reproduce.
+Had to collapse keyboard just to be able to type. iOS 11.0.2 on iPad Pro 2nd Gen, Discord via TestFlight (v2.2.0, Build 2080)
+
+SuperSajuuk#7265 - Bug Bot on 2018-01-13T17:34:46.410Z
+
+
+### Can reproduce.
+CR, Ipad air, ios 11 using discord testflight 2.2.0 build 2080
+
+Jakob#6834 - Bug Bot on 2018-01-13T17:34:51.443Z
+
+
+### There is also other way to get this bug (then it covers the normal message field):
+
+- Send a message with any text
+- Click on the message field
+- Long press the message you've sent
+- Close the virtual keyboard
+- Click outside any of the buttons that appeared
+
+Pascal#0929 - Bug Bot on 2018-01-13T17:45:33.018Z
+
+
+### Verified.  - Clayton on 2018-02-15T00:15:37.961Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T00:15:43.039Z
+
+
+### Another extension that also happens with iPhone can be found here: https://trello.com/c/3LnMs0ws
+
+Pascal#0929 - Bug Bot on 2018-05-15T16:06:43.486Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:40.631Z
+
+
+### New extension can be found here https://trello.com/c/GUyQIsdX and here https://trello.com/c/xLHv83Fc - Pascal on 2019-05-12T15:13:26.398Z
+
+
+### Unarchived by Bug Bot on 2019-05-12T15:30:05.978Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.2 (15283)
+
+Daffyduck#5364 - Bug Bot on 2019-06-04T00:30:53.570Z
+
+
+### **Another extension** (iPad only)
+
+- Open Discord with another app in Split View mode
+- Open any text channel (make sure the keyboard was not opened there before)
+- Open the virtual keyboard in the other app - Pascal on 2019-06-21T22:36:35.184Z
+
+
+### Archived by Bug Bot on 2019-07-21T23:00:04.552Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

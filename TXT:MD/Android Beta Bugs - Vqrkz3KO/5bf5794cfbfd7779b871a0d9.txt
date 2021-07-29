@@ -1,0 +1,120 @@
+[Archived] [Android 9 & GBoard specific] Menus which open the keyboard don't auto-focus the text box (https://trello.com/c/8bIVfhee)
+
+None
+
+Created: 2018-11-21T15:27:08.454Z
+Latest Update: 2019-06-05T23:47:01.591Z
+
+Reported by Haru 🥰#6660
+
+####Steps to reproduce:
+- Update to atleast 7.9.7 
+- Open a menu which also automatically opens the keyboard (the Search menu, for example) 
+- Try to type something
+
+####Expected result:
+The text should appear just how you typed it and the bottom bar is blurple to indicate it's focused (What happened on 7.9.6 and older)
+####Actual result:
+The bottom bar stays gray (meaning it's unfocused) and any text you tried to type doesn't appear
+####Client settings:
+Discord Alpha 7.9.9 - 8.0.8
+####System settings:
+Xiaomi Mi A1, Android 9.0
+
+23407
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-21T15:27:08.454Z
+
+
+### Haru 🥰#6660 - https://youtu.be/uFmk15SqgsQ added by Bug Bot on 2018-11-21T15:27:10.889Z
+
+
+### Can reproduce.
+OnePlus 6 (Version 9.0), Alpha 7.9.9
+
+Aeria#9096 - Bug Bot on 2018-11-21T15:27:15.775Z
+
+
+### Can reproduce.
+Can reproduce, Moto G4 Play XT1603, Android 9, Discord Alpha 7.9.9 (can repro with gboard, but another keyboards like swiftkey i cant repro)
+
+Nightdavisao#2594 - Bug Bot on 2018-11-21T15:27:20.810Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.9.9
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-21T15:27:25.775Z
+
+
+### Can reproduce.
+Samsung Galaxy S4, 7.1.2 (LineageOS), discord alpha 7.9.9
+
+emptixo#6252 - Bug Bot on 2018-11-21T20:17:51.121Z
+
+
+### Can reproduce.
+Pixel 2 Android 9.0 (Build PPR2.181005.003) Alpha 8.0.0
+
+AsrielD#6969 - Bug Bot on 2018-11-22T17:15:33.321Z
+
+
+### Can reproduce.
+Google Pixel 2 XL (Nov Patch) w/ Discord Alpha 8.0.0
+
+aditya 🍣#0001 - Bug Bot on 2018-11-23T02:31:07.775Z
+
+
+### Can reproduce.
+Pixel XL, Android 9.0, December 5 patch
+
+GeeDee#4996 - Bug Bot on 2018-12-06T20:48:08.296Z
+
+
+### Can reproduce.
+Can repro, Android 9.0, Moto G5+ ARMv8A (64 bit), Discord Android Alpha 8.1.0 (810)
+
+Cécillia 💖#0001 - Bug Bot on 2018-12-11T16:03:36.555Z
+
+
+### Can reproduce.
+Mi A2, Android 9 - Android Alpha 8.1.7
+
+Bsian#5203 - Bug Bot on 2018-12-20T17:05:15.291Z
+
+
+### Can reproduce.
+OnePlus 5T, Android 9 (Open Beta 20 and 21), Discord 817
+
+OneNormalUsername#7636 - Bug Bot on 2018-12-21T07:45:17.863Z
+
+
+### Finally found a fix that works. Will be out in 823 - Sam Shih on 2019-01-03T01:29:16.150Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Sam Shih on 2019-01-03T01:29:23.140Z
+
+
+### Can reproduce.
+CNR // Fixed in 823 // Google Pixel 2 XL // Android 9.0.0 // December 5th Patch // Android Alpha Version 8.2.3
+
+aditya#1337 - Bug Bot on 2019-01-05T04:07:19.550Z
+
+
+### Can reproduce.
+Mi A2, Android 9 - Android Alpha 8.2.4 - can still reproduce for the create server screen (emoji, chat and dm search (not aware of any others) are working as normal now)
+
+Bsian#1803 - Bug Bot on 2019-01-05T10:57:51.764Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:01.602Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

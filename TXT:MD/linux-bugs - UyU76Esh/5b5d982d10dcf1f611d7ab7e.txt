@@ -1,0 +1,70 @@
+Being able to move around text in Settings without actually selecting any text! (https://trello.com/c/c6jKErHE)
+
+P3: Will eventually be fixed,
+low
+
+Created: 2018-07-29T10:34:21.565Z
+Latest Update: 2018-08-30T21:56:33.661Z
+
+Reported by Jiiro#1337
+
+####Steps to reproduce:
+- Open Discord 
+- Go to User Settings 
+- Move around your cursor while your clicking a few times on the left, you'll notice that you're able to drag the settings in a text-like fashion which is unexpected 
+- Make sure to test around! It took me a little bit to get it working, but watch the video carefully if you cannot reproduce the first time, it's a certain spot that you have to do, I think
+
+####Expected result:
+Settings should not be able to be dragged easily like that
+####Actual result:
+Text can be easily dragged outside the client saving as a file, otherwise you can just move it around
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 20174
+####System settings:
+[SPECIFIC DISTRO AND VERSION] - OS: Ubuntu 18.04.1 LTS x86_64
+
+16275
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-29T10:34:21.565Z
+
+
+### Jiiro#1337 - https://www.youtube.com/watch?v=ra6YYxU0Puo&feature=youtu.be added by Bug Bot on 2018-07-29T10:34:24.018Z
+
+
+### Can reproduce.
+ArchLinux x64 - Linux Kernel 4.17.10-1 - GNOME 3.28.2 - Discord Canary Build 20174
+
+Frances Picard#6209 - Bug Bot on 2018-07-29T10:34:32.803Z
+
+
+### Can reproduce.
+Very hard to get but I can reproduce , Ubuntu 18.04 amd64, Canary 0.0.53 Build 20088
+
+Lava#9562 - Bug Bot on 2018-07-29T10:34:33.968Z
+
+
+### Can reproduce.
+Ubuntu 16.04 x86_64, Discord Canary Build 20174
+
+Frovy#6820 - Bug Bot on 2018-07-29T10:34:38.952Z
+
+
+### found same bug with title of any channel on server.
+
+Frovy#6820 - Bug Bot on 2018-07-30T12:55:06.795Z
+
+
+### verified, ubuntu 16.04 - Clayton on 2018-08-30T21:56:23.283Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-08-30T21:56:33.648Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

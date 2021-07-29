@@ -1,0 +1,79 @@
+[Archived] If you quit an application while it's selected to screenshare, you can still click to Share (https://trello.com/c/1pI3Wwkc)
+
+None
+
+Created: 2018-09-04T12:37:18.896Z
+Latest Update: 2018-10-22T20:36:29.374Z
+
+Reported by Mippy#0001
+
+####Steps to reproduce:
+- Open an application you won't mind closing (without unsaved work, safe to close) 
+- Go to screenshare (tested originally on guild screenshare) 
+- Click to turn on Screenshare 
+- Click "Application Window" in the modal that appears 
+- Click the application from step 1 
+- Fully quit that application 
+- Go back to Discord and click Share
+
+####Expected result:
+The share button should be made unclickable again like it was before selecting anything at all.
+####Actual result:
+You are still able to click the Share button. Doing so makes the screenshare be loading forever.
+####Client settings:
+Canary 23018
+####System settings:
+MacBook Pro (13", Mid-2012), macOS 10.13.6
+
+18954
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-04T12:37:18.896Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 23013
+
+» a r i a#1593 - Bug Bot on 2018-09-04T12:37:26.273Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 23018
+
+Frances Picard#6209 - Bug Bot on 2018-09-04T12:37:31.252Z
+
+
+### Can reproduce.
+CR. Desktop Canary 23012, iMac macOS High Sierra 10.13.6
+
+George#0069 - Bug Bot on 2018-09-04T12:37:36.183Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Sierra 10.12.6 • Canary 23018
+
+Rage#9991 - Bug Bot on 2018-09-04T18:23:26.827Z
+
+
+### CNR, macos 10.12.6, canary 23018 - Clayton on 2018-09-04T20:28:45.290Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-09-04T20:28:51.216Z
+
+
+### Can reproduce.
+CR Windows 10.0.17134 Build 17134 (Windows 10) - Discord Build 22587
+
+aditya#0001 - Bug Bot on 2018-09-04T21:16:06.847Z
+
+
+### Archived by Clayton on 2018-10-22T20:36:29.376Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

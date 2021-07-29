@@ -1,0 +1,76 @@
+[Archived] Here mention disappears after reloading client with DND status (https://trello.com/c/9t590EqN)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-26T14:53:33.253Z
+Latest Update: 2019-01-11T00:00:21.716Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Set your status to DND 
+- Receive a `@here` mention 
+- Don't open this mention but reload your client
+
+####Expected result:
+The `@here` mention should stay in your recent mentions and still show a badge.
+####Actual result:
+Both the badge and the recent mention disappear.
+####Client settings:
+Canary Build 19880
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6
+
+16059
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-26T14:53:33.253Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64-bit 1803, Canary 19880
+
+that15fine#9275 - Bug Bot on 2018-07-26T14:53:40.696Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 x 64, 17134, Canary 19880
+
+White Falcon#0001 - Bug Bot on 2018-07-26T14:53:45.658Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 19880
+
+evilpauwse#9985 - Bug Bot on 2018-07-26T14:53:50.697Z
+
+
+### Can reproduce.
+CR. Canary 19880, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-26T19:36:11.256Z
+
+
+### verified, macos 10.12.6, canary 19879 - Clayton on 2018-07-26T20:55:58.901Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-26T20:56:08.081Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 25046
+
+william#0002 - Bug Bot on 2018-09-30T08:42:35.602Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:21.719Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

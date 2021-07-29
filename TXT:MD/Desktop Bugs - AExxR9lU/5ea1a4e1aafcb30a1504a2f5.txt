@@ -1,0 +1,75 @@
+Shift + up selects multiple lines (https://trello.com/c/Rnz2QxKQ)
+
+None
+
+Created: 2020-04-23T14:23:29.329Z
+Latest Update: 2020-07-16T21:26:06.271Z
+
+Reported by Drakon#8640
+
+####Steps to reproduce:
+- Create a multiline message (at least 3 lines, bottom-most line may have to be longer than the one above it) in the message box 
+- Move your cursor to the bottom of the message  
+- Press the shift + up keyboard combination
+
+####Expected result:
+Only one line is selected
+####Actual result:
+Two lines are selected at once. Subsequent uses of the shift + up combination only select one line, as expected.
+####Client settings:
+Desktop Canary, Build 58583
+####System settings:
+Windows 10 Home x64, 1903
+
+55011
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-23T14:23:29.329Z
+
+
+### Drakon#8640 - https://youtu.be/zznLXTamgVU added by Bug Bot on 2020-04-23T14:23:32.002Z
+
+
+### Can reproduce.
+Windows 10 Build 58583. This selects multiple lines (I tried it in notepad and it only selected one)
+
+hicupalot#6739 - Bug Bot on 2020-04-23T14:23:36.811Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Version 1909, Desktop Canary 58583, requires the line at the bottom to be longer than the one above
+
+Ana940#9858 - Bug Bot on 2020-04-23T14:23:41.885Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64-bit, Version 1909, Desktop Canary 58671.
+
+ShockTr#8097 - Bug Bot on 2020-04-23T14:23:46.875Z
+
+
+### Can reproduce.
+Windows 10 Home v1909, Canary 59315 (c8ffe19), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+Façade#0594 - Bug Bot on 2020-05-01T10:22:42.316Z
+
+
+### Can reproduce.
+Canary 59390 (14ffb94) Host 0.0.248 OS X 10.15.4 (19.4.0)
+
+JBYoshi#5551 - Bug Bot on 2020-05-04T00:53:01.179Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 59984 (f3380b6), Host 0.0.264, Windows 10 64-Bit (10.0.18363). This appears to be caused by the up/down keys not adjusting the curser column location in the line correctly when it reaches the bottom and is shifted to the end of the line by pressing down key. Repro by having curser at the beginning of the line and pressing down until reaching the end of the input, and then trying to shift+up select. Therefore, this can also be repro'd with shift+down as well, and can be done from any point in the line to result in a partial extra selection rather than just selecting an extra full line
+
+wakfi#6999 - Bug Bot on 2020-05-12T18:58:11.368Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

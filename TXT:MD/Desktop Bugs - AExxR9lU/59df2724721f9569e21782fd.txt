@@ -1,0 +1,89 @@
+[Archived] If you copy/paste a large amount of emoji it can crash the app, and causes the CPU to spike (https://trello.com/c/TiGdKROz)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-12T08:26:12.328Z
+Latest Update: 2020-05-12T00:35:50.862Z
+
+Reported by thecodingdude#3104
+
+####Steps to reproduce:
+- Copy and paste an emoji, such as 😱 so that it fills a message. 
+- Try to send 2/3 messages with only emoji 
+- then try to delete them. The CPU will spike
+
+####Expected result:
+CPU should not spike and message is deleted
+####Actual result:
+CPU spikes, and discord app becomes unresponsive
+####Client settings:
+0.0.298
+####System settings:
+Windows 10
+
+5345
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-12T08:26:12.328Z
+
+
+### Tarek1337#0379 - https://youtu.be/9oIZxcrOwnA added by Bug Bot on 2017-10-12T08:26:14.651Z
+
+
+### Can reproduce.
+I've found that it took me several times, as it depends on the length of my messages. At first, I was not getting the results I was expecting to happen, but the next few times seemed to do it slightly. So, try it at least 5 to 10 times before you deny. | What it does for me is that my CPU spikes slightly from 6% to about 40% when performing the action, and when deleting the message.. Discord stops responding for a short but brief time but deletes the message after a delay. | Custom Built PC, Windows 10 Pro 64 Bit, Discord Stable Build:  5685
+
+Nightmare Kitty#4567 - Bug Bot on 2017-10-12T08:26:19.602Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.165 (Build 5683) on Windows 10 Pro 64-bit (Build 1607) with a Intel Core i5 4690k @ 4,3 GHz.
+
+Tarek1337#0379 - Bug Bot on 2017-10-12T08:26:24.623Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 with i5-6600K @4.2GHz (spikes to 30+% usage, not responsive for at least couple seconds when sending and deleting), very similar as Tarek1337's video (see attached)
+
+juj#5114 - Bug Bot on 2017-10-12T08:26:29.612Z
+
+
+### Can reproduce.
+Kubuntu 17.10 x64, Canary Build 5787, I5-4200H. Makes the program unresponsive for few seconds *after* the action is completed.
+
+kiroma#1608 - Bug Bot on 2017-10-12T17:51:26.412Z
+
+
+### Verified.  - Clayton on 2017-10-12T19:34:52.329Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-12T19:34:56.149Z
+
+
+### I can't seem to be able to reproduce, I believe that this got fixed due to the recent change made to support animated emojis. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-29T16:49:21.694Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-29T16:49:26.816Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:16:03.184Z
+
+
+### Archived by Jared on 2018-07-06T18:16:04.229Z
+
+
+### Can reproduce.
+Windows 10 Home Insider x64 v2004 Build 19624.1000, Canary 59951 Host 0.0.264
+
+SSalt#5041 - Bug Bot on 2020-05-12T00:35:50.873Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

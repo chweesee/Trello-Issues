@@ -1,0 +1,66 @@
+Using keyboard shortcuts does not properly un-format text in message box. (https://trello.com/c/La2urEGP)
+
+None
+
+Created: 2020-05-03T22:34:30.821Z
+Latest Update: 2020-07-16T21:26:06.305Z
+
+Reported by Steets#0001
+
+####Steps to reproduce:
+- Write some text in the message box. 
+- Before writing a word, press Ctrl+I or Ctrl+B to italicize or bold it. Double or quadruple asterisks are automatically inserted. 
+- After writing a word, press Ctrl+I or Ctrl+B again to de-italicize or de-bold the text, as with any other word processor.
+
+####Expected result:
+The cursor is moved to the trailing asterisk, so typing can continue naturally whilst using keyboard shortcuts to format text.
+####Actual result:
+For italicizing, the last asterisk is deleted and the final letter of the word is highlighted. For bolding, the last two asterisks are deleted and the final two letters of the word are highlighted.
+####Client settings:
+Discord Canary Build 59390.
+####System settings:
+Windows 10 Enterprise 1909 64-bit (18363.815).
+
+55472
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-03T22:34:30.821Z
+
+
+### Can reproduce.
+Can reproduce, although using Command instead of Control for Mac - Canary 59390 (14ffb94) Host 0.0.248 OS X 10.15.4 (19.4.0)
+
+JBYoshi#5551 - Bug Bot on 2020-05-03T22:34:38.415Z
+
+
+### Can reproduce.
+MacBook Pro (13-inch, Late 2013), Catalina 10.15.4 (19E287); Canary 59390
+
+Wiz#0003 - Bug Bot on 2020-05-03T22:34:43.428Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 59390 (14ffb94), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-05-03T22:34:48.425Z
+
+
+### Can reproduce.
+Windows 10 Home v1909, Canary 59315 (c8ffe19), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+Façade#0594 - Bug Bot on 2020-05-04T03:55:22.488Z
+
+
+### Can reproduce.
+Windows 10 Home x64, 1903, Canary 59390
+
+Drakon#8640 - Bug Bot on 2020-05-04T16:08:10.408Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

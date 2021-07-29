@@ -1,0 +1,89 @@
+[Archived] Keyboard improperly swaps from numbers to alphabet when entering an emoji string (https://trello.com/c/AxGGtnaj)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-25T21:13:19.705Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Kokorone#1337
+
+####Steps to reproduce:
+- Tap on text entry box 
+- Attempt to enter ``:100:``
+
+####Expected result:
+100 emoji is entered per norm as ``:100:``
+####Actual result:
+Keyboard swaps back to alphabet after the :1 and it enters ``:1pp:``
+####Client settings:
+Discord TestFlight 2.2.6 (3440)
+####System settings:
+iPhone X iOS 11.2.6
+
+9870
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-25T21:13:19.705Z
+
+
+### Can reproduce.
+CR, iPhone 6 iOS 10.3.2 TestFlight Build 2.2.6 (3440)
+
+Kuuhaku#4503 - Bug Bot on 2018-03-25T21:13:27.098Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS 11.2.6. TestFlight 2.2.6 (3440) - slight extension https://trello.com/c/F5j61f7G, but its archived
+
+ZenKing#2104 - Bug Bot on 2018-03-25T21:13:32.093Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 11.3 PB 6 - TestFlight 2.2.6 (3440) - Extension of https://trello.com/c/F5j61f7G archived as won't fix -- however, this effect may be of a higher priority.
+
+webhp#1337 - Bug Bot on 2018-03-25T21:13:37.105Z
+
+
+### Can't reproduce, iPad pro, iOS 11.2.5 - Clayton on 2018-03-30T23:12:53.339Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-03-30T23:13:02.624Z
+
+
+### I can reproduce with the steps provided by Rashaun, the keyboard definitely switches to letters after typing a colon followed by number:
+
+- Click on the message box
+- Type a colon followed by a number
+- Watch keyboard switch to alphabets from numbers
+
+Discord 2.3.0 (3817), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-22T05:22:55.645Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2018-04-22T05:23:38.695Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:21:02.943Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:21:05.883Z
+
+
+### I can no longer reproduce as of Discord TestFlight 2.3.4 (5560). My keyboard doesn't automatically switch back to letters after sending the :100: emoji by Discord's method. I used iPhone 8 + running iOS 12 (Dev Beta 2).
+
+Because I was not able to reproduce this bug anymore, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-07-02T23:33:18.209Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-02T23:33:24.179Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:48.384Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

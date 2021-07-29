@@ -1,0 +1,72 @@
+[Archived] Failing to include the # causes an incorrect color in choosing role colors, even though the color picker position stays correct (https://trello.com/c/X5a1dpSU)
+
+P2: Fix can wait a while
+
+Created: 2016-12-23T13:45:55.619Z
+Latest Update: 2017-10-17T20:28:58.301Z
+
+Reported by Enharmonic#3999
+
+####Steps to reproduce: 
+- Go to your role color picker 
+- Type in a value like FFAABB 
+- Place a # before the HEX code and remove it 
+- Observe that the color picker position stays the same, but the actual color changes 
+
+####Expected result:
+ The color should stay the same regardless of # 
+####Actual result:
+ effects the actual set color value, but not the color picker's position.
+
+Card Log
+========
+### Added by Jared on 2016-12-23T13:45:55.619Z
+
+
+### Can reproduce.
+Latest Canary, seems to be an issue with ommiting first character of color code
+
+picapi_#9345 - Jared on 2016-12-23T13:45:56.284Z
+
+
+### Can reproduce.
+Discord Canary Web
+
+Abhijith Ganesan#5206 - Jared on 2016-12-23T13:45:56.321Z
+
+
+### Can reproduce.
+osx canary
+
+harrison#6336 - Jared on 2016-12-23T15:17:31.254Z
+
+
+### Verified, but extremely minor. - Jared on 2017-01-03T19:15:30.719Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T19:15:34.000Z
+
+
+### Tested on latest canary of writing:
+
+This can no longer be reproduced by myself as the redesigned server settings don't allow you to remove the #. - Alexander (DJScias) on 2017-04-25T02:06:42.042Z
+
+
+### Verified Fixed - Jared on 2017-07-31T21:56:55.903Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T21:57:00.306Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:28:56.901Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:28:58.303Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

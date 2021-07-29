@@ -1,0 +1,83 @@
+[Archived] Notifications not disappearing when message is read (https://trello.com/c/TtaTaOUN)
+
+None
+
+Created: 2016-11-01T17:14:16.714Z
+Latest Update: 2017-10-30T17:56:31.602Z
+
+Reported by Francis#6565
+
+####Steps to reproduce: 
+- Get a few private messages 
+- Click on one of the notifications and read it 
+- Click another message whilst inside Discord. 
+
+####Expected result:
+ Notifications of read messages are removed 
+####Actual result:
+ Notification isn't removed.  
+####Client version:
+ 3.1.4 AOSPA 6.0.2 OnePlus X
+
+Card Log
+========
+### Added by Jared on 2016-11-01T17:14:16.714Z
+
+
+### Francis#6565 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5818cd68b8e3ee8e983cce16/861c6c086a7b92f13cc050eb1fa69dd5/Screenshot_20161101-170922.png added by Jared on 2016-11-01T17:15:26.084Z
+
+
+### Francis#6565 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5818cd68b8e3ee8e983cce16/b639e827ef792b06f599a4f22b6d4e3a/Screenshot_20161101-170944.png added by Jared on 2016-11-01T17:15:57.748Z
+
+
+### Francis#6565 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5818cd68b8e3ee8e983cce16/d69ff001277447a0c84a54befcba2053/Screenshot_20161101-170950.png added by Jared on 2016-11-01T17:16:13.597Z
+
+
+### Francis#6565 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5818cd68b8e3ee8e983cce16/05ee7416403fd02442ef3d8e6b5f1863/Screenshot_20161101-170955.png added by Jared on 2016-11-01T17:16:29.551Z
+
+
+### Cannot reproduce with the steps provided. - Jared on 2016-12-07T19:32:47.657Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-12-07T19:32:52.652Z
+
+
+### Can reproduce.
+Moto Z Play and Android 3.9.7 and 3.9.8 (occurred both before and after updating). occurs when you get pinged in a channel and read the ping on another client. the ping cannot be removed from android. (I have screenshots available.)
+
+lluvia#3624 - Bug Bot on 2017-07-10T21:27:37.875Z
+
+
+### forgot to append Android version 7.0
+
+lluvia#3624 - Bug Bot on 2017-07-10T21:32:13.184Z
+
+
+### figured out a solid repro: both edited and/or deleted pings make pings not go away on android
+
+lluvia#3624 - Bug Bot on 2017-07-10T22:14:06.608Z
+
+
+### I cannot reproduce following the steps Symplyfyed#4913 provided, the DM/mention goes away on Android as soon as I view it on desktop.
+
+- Get a DM
+- see it on another client
+- observe that the DM ping doesn't go away on Android
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord 5.2.6 and Windows 10 Home 64-bit v1703, Discord Canary, Build 5141
+
+ - Alexandru Todea on 2017-09-30T07:06:17.424Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:56:30.329Z
+
+
+### Archived by Jared on 2017-10-30T17:56:31.623Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

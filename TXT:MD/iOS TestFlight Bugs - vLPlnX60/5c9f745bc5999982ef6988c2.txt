@@ -1,0 +1,181 @@
+[Archived] Zero Width Space (ZWS) Character Breaks Client on iOS >= 12.2 (https://trello.com/c/5XDz2j9j)
+
+P1 - Severe
+
+Created: 2019-03-30T13:51:24.056Z
+Latest Update: 2019-07-10T21:30:29.510Z
+
+Reported by NotSoSuper#0001
+
+####Steps to reproduce:
+- Send a ZWS Character **WITH** a leading character: "N" should work fine. 
+- Message must be sent outside of the iOS client.
+
+####Expected result:
+The client is not supposed to crash and load channels indefinitely.
+####Actual result:
+Client crashes and channels load indefinitely.
+####Client settings:
+2.5.2
+####System settings:
+iPhone X, iOS 12.2
+
+31845
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-30T13:51:24.056Z
+
+
+### Can reproduce.
+Can Reproduce - You can also have someone else send you the message - TestFlight 2.5.2 (13014) iPhone 6s iOS 12.2 Dev Beta 6
+
+Rashaun#8467 - Bug Bot on 2019-03-30T13:51:31.433Z
+
+
+### Can reproduce.
+iphone 8 ios 12.2, testFlight 2.5.2 (13014)
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-30T13:51:36.349Z
+
+
+### Can reproduce.
+iPhone7 Plus 12.1 (16B92) TestFlight 2.5.2 (13014)
+
+Killtracity#0001 - Bug Bot on 2019-03-30T13:51:41.371Z
+
+
+### Can reproduce.
+CR; iPad Air, iOS 12.2, TF - 2.5.2(13014)
+
+c1rcl#1337 - Bug Bot on 2019-03-30T23:17:06.280Z
+
+
+### Can reproduce.
+cr, iPhone 8, IOS  12.1.4 - TF 2.5.2
+
+tonite#0001 - Bug Bot on 2019-03-31T11:44:36.765Z
+
+
+### Moved from New Issues to Notable Issues by Jonathan Wu on 2019-04-08T20:04:48.542Z
+
+
+### Moved from Notable Issues to New Issues by Jonathan Wu on 2019-04-08T20:04:52.941Z
+
+
+### Moved from New Issues to Notable Issues by Jonathan Wu on 2019-04-09T23:32:09.957Z
+
+
+### Moved from Notable Issues to New Issues by Jonathan Wu on 2019-04-09T23:34:41.869Z
+
+
+### Moved from New Issues to Notable Issues by Jonathan Wu on 2019-04-10T01:01:51.285Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Victoria on 2019-04-19T18:26:50.300Z
+
+
+### Cannot reproduce as of iOS TestFlight 2.5.2 (14382) on iPhone XS Max running iOS 12.3 (Beta 1).
+
+Moving to Claimed Fixed - Ghoul on 2019-04-23T05:54:15.615Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Ghoul on 2019-04-23T05:54:20.074Z
+
+
+### Can't reproduce.
+ipad air ios 12.2, tf 2.5.2 (14382)
+
+Pain#2020 - Bug Bot on 2019-04-23T06:08:16.648Z
+
+
+### Can't reproduce.
+iPad Pro (11 inch), iOS 12.2 - TestFlight 2.5.2 (14382)
+
+Pascal#0929 - Bug Bot on 2019-04-23T07:34:39.847Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 12.3 (16F5129d) - TestFlight 2.5.2 (14382)
+
+Isabel#0002 - Bug Bot on 2019-04-23T07:40:50.616Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-23T07:40:50.825Z
+
+
+### Moved from Verified Fixed to New Issues by Jonathan Wu on 2019-05-04T08:39:30.158Z
+
+
+### this bug is not fix and should be revisited - Jonathan Wu on 2019-05-04T08:40:00.586Z
+
+
+### Moved from New Issues to Fix made, not yet released by Victoria on 2019-05-08T21:18:12.445Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2019-05-09T01:00:28.701Z
+
+
+### Can't reproduce.
+Can't Reproduce on iPhone 7+ iOS 12.2 | TestFlight 3.0.2 (14902)
+
+Clay#0001 - Bug Bot on 2019-05-14T05:57:27.173Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.2 (14902) with iPad Pro (11 inch) running iOS 12.3.
+
+Moving to Verified Fixed list because EvilDabbit was not able to handle this ticket due to a issue it has with handling tickets that were in Claimed Fixed previously. - Pascal on 2019-05-16T15:20:21.872Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Pascal on 2019-05-16T15:20:33.737Z
+
+
+### While the original bug is fixed I can still reproduce an extension (found by *Xylium#5800*): Posting any emoji followed by a ZWS in a channel topic crashes the app when trying to open the channel topic. For example `:shrug:‍` will do it.
+
+Happens with Stable 3.0.1 (after the OTA update) and TestFlight 3.0.2 (14902).
+
+Therefore moving back to Notable Issues. - Pascal on 2019-05-16T21:21:45.394Z
+
+
+### Moved from Verified Fixed to Notable Issues by Pascal on 2019-05-16T21:21:57.062Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Alex on 2019-05-23T00:20:56.140Z
+
+
+### Cannot reproduce anymore the extension noted below as of TestFlight 3.0.2 (15173) with iPad Pro (11 inch) running iOS 12.3.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-23T11:41:57.396Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Pascal on 2019-05-23T11:42:03.563Z
+
+
+### Can't reproduce.
+iPhone XR, iOS 12.2 TestFlight 3.0.2 (15173) bug still present
+
+binchlord#0998 - Bug Bot on 2019-05-24T15:35:25.792Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.2 TestFlight 3.0.2 (15253)
+
+binchlord#0998 - Bug Bot on 2019-05-25T11:45:56.974Z
+
+
+### Moving to Verified Fixed list because EvilDabbit was not able to handle this ticket due to a issue it has with handling tickets that were in Claimed Fixed previously. - Pascal on 2019-05-29T08:55:43.502Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Pascal on 2019-05-29T08:55:51.931Z
+
+
+### Archived by Bug Bot on 2019-07-10T21:30:29.524Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jonathanwu41) - No Bio
+Unknown User (https://trello.com/alex83925693) - No Bio

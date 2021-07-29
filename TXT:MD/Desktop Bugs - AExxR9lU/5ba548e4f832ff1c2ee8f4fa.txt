@@ -1,0 +1,71 @@
+[Archived] Wrong thousands separator for some languages shown (https://trello.com/c/D3I2tajx)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-21T19:39:16.682Z
+Latest Update: 2018-10-22T20:27:58.309Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Use any system language that doesn't use a `,` as a thousands separator (e.g. German, also works with others) 
+- Open the search 
+- Search for anything that has more than 1000 results 
+- Observe the search result count and look for the thousands separator
+
+####Expected result:
+You should see the correct thousands separator based on your system language.
+####Actual result:
+For many languages the wrong thousands separator is shown (most of the time `,` instead `.` or a space).
+####Client settings:
+Canary Build 24227
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6
+
+19914
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-21T19:39:16.682Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 24302
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-21T19:39:24.316Z
+
+
+### Can reproduce.
+Tested with German, Italian, French, and Finnish. All used commas as the place separator in the search bar. Canary 24302, Windows 10 Home 64-bit (1803), English system language.
+
+WindFreaker#9458 - Bug Bot on 2018-09-21T19:39:29.004Z
+
+
+### Can reproduce.
+macOS Mojave 10.14; Canary 24227
+
+OrangeM24#5746 - Bug Bot on 2018-09-21T19:39:34.069Z
+
+
+### verified, macos 10.12.6, canary 24227 - Clayton on 2018-09-21T21:30:02.052Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-21T21:30:09.954Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24452
+
+Neiron#2406 - Bug Bot on 2018-09-22T10:14:17.337Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:58.311Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

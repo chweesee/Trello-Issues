@@ -1,0 +1,48 @@
+[Archived] iOS 13 Crashing Master (iOS TestFlight 3.0.3 (15738) (https://trello.com/c/Srg8SH1p)
+
+None
+
+Created: 2019-06-13T03:26:19.712Z
+Latest Update: 2019-09-18T10:00:34.427Z
+
+Add a `!canrepro` to this ticket if you find any places with **crashes** in this iOS and describe where and how the issue happens.
+
+Please make sure that you include the following:
+
+- Reproduction steps
+- Actual Result
+- Expected Result
+- Short Description
+- Client and System Settings
+
+Card Log
+========
+### Added by Ghoul on 2019-06-13T03:26:19.712Z
+
+
+### Can reproduce.
+iPhone XS, iOS 13 beta 1, TF 3.0.3 (14738) | Doing any action such as closing keyboard, opening server list and switching servers, trying to upload a photo, etc etc will crash the app.
+
+Kokorone#1337 - Bug Bot on 2019-06-13T03:32:07.027Z
+
+
+### CNR the crash on keyboard issue as of iOS TestFlight 3.0.4 15841 on iPhone XS Max running iOS 13.0 Dev Beta 2. - Ghoul on 2019-06-18T19:58:53.861Z
+
+
+### *Xylium#5800* and *Isabel#0002* helped me testing that and all of the issue are fixed for both of them with iPhone X/6s running iOS 13 (Dev Beta 7) and TestFlight 3.1.1 (16898).
+
+Moving to Verified Fixed list. - Pascal on 2019-08-19T09:32:57.300Z
+
+
+### Moved from iOS 13 to Verified Fixed by Pascal on 2019-08-19T09:33:08.182Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:00:34.441Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

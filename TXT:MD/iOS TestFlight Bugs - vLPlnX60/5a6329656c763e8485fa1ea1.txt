@@ -1,0 +1,114 @@
+[Archived] When typing @ or beginning to mention everyone/here in an empty server, the app will either crash or extremely glitch out forcing you to restart, or will crash in other places as a result. (https://trello.com/c/KYeyis5l)
+
+None
+
+Created: 2018-01-20T11:35:01.739Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by JustGamer#2542, originally found by: Inkydink#9098
+
+####Steps to reproduce:
+- Create a brand new channel (do not post any messages in it). 
+- Open the keyboard and type "@"; this should bring up an empty grey mention suggestion box that may result in the app crashing. 
+- If it does not crash, continue typing a couple more characters next to the @ such as every, until the grey rectangle goes down to the regular everyone suggestion size. 
+- The app should now begin to lag/slow down the key presses as you continue typing. 
+- Swiping to the channel list/member list causes the channels or members to appear in an odd way and then constantly flash around for a second or two. 
+- When receiving messages in a channel the message will jump around in a very unintended way, not seen before. 
+- More of the side effects of this bug can be read in 7938 reported by Ghoul.
+
+####Expected result:
+The mentions list should load fine when inputting @, as well as load the everyone suggestion fine instead of creating a grey box and crashing/lagging the app.
+####Actual result:
+The application either crashes upon the first @ or severely slows down with multiple problems and then crashes when pressing to open the Server Settings dropdown in a guild. (I’m sure there are a couple other ways of making it crash as a side effect to this bug).
+####Client settings:
+Discord TestFlight 2.2.1 (build 2202)
+####System settings:
+iPhone 6, iOS 11.1
+
+7986
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-20T11:35:01.739Z
+
+
+### Can reproduce.
+Testflight 2.2.1 (2202), iOS 10.3.3, iPhone 5S
+
+Ene#3002 - Bug Bot on 2018-01-20T11:35:09.069Z
+
+
+### Can reproduce.
+Discord TestFlight 2.2.1 (2202), iOS 10.2.5 Beta 7, iPhone 6
+
+Brandon#6038 - Bug Bot on 2018-01-20T11:35:14.063Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.2 | iPad Air 2, iOS 11.2.5 PB 6, TestFlight 2.2.1 (2202)
+
+Pascal#0929 - Bug Bot on 2018-01-20T11:35:19.072Z
+
+
+### Moved from User Reported Bugs to Chat rewrite bugs by Fanghao on 2018-01-20T21:53:45.824Z
+
+
+### Moved from Chat rewrite bugs to Fix made, not yet released by Fanghao on 2018-01-20T21:58:18.789Z
+
+
+### Can't reproduce.
+iPhone 8 +, iOS 11.2.5 (PB7), iOS TestFlight 2.2.1 (2224)
+
+Ghoul#4567 - Bug Bot on 2018-01-20T23:18:24.404Z
+
+
+### I can no longer reproduce, the app no longer crashes after attempting to ping everyone/here.
+
+Discord 2.2.1 (2224), iOS 11.2.2, iPhone 8 Plus - Alexandru Todea on 2018-01-21T06:11:02.489Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2018-01-21T06:11:16.454Z
+
+
+### Can't reproduce.
+iPhone 6 10.3.2 TestFlight 2.2.1 (2236)
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T18:38:31.722Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T21:11:48.676Z
+
+
+### Can't reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.1 (2236)
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T00:45:11.368Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T02:19:03.766Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:34:36.819Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:34:40.427Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T08:57:28.386Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T08:57:29.202Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

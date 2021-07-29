@@ -1,0 +1,77 @@
+[Archived] The "SMS backup authentication" toggle works even when the toggle is greyed out. (https://trello.com/c/cp3I2kLW)
+
+None
+
+Created: 2019-04-11T20:58:27.154Z
+Latest Update: 2019-06-10T20:42:39.090Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Disable 2FA(if already enabled). 
+- Enable 2FA. 
+- When you successfully enable it, do not touch the SMS authentication button andk code the page. 
+- In the My Account page, click on the sms backup authentication. 
+- Enter password and hit enable.
+
+####Expected result:
+Either the toggle doesn't bring up the modal when clicked or it works when you enter password or does not fail silently.
+####Actual result:
+The toggle brings up the modal when clicked, does nothing when password is entered and enable is hit and fails silently.
+####Client settings:
+Discord Alpha 871
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+32227
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-11T20:58:27.154Z
+
+
+### Can reproduce.
+Intex Aqua N7 Android 5 ; App Information 871
+
+Stardust#2476 - Bug Bot on 2019-04-11T20:58:34.839Z
+
+
+### Can reproduce.
+Wiko LENNY2 version 8, Android 5.1, Alpha 8.7.2
+
+MoonlightCapital#0554 - Bug Bot on 2019-04-11T20:58:39.715Z
+
+
+### Can reproduce.
+CR | Honor 7S, Android 8.1, Android Alpha 872
+
+mesub#0556 - Bug Bot on 2019-04-11T20:58:45.285Z
+
+
+### Can reproduce.
+CR; OnePlus 5 Android 7.7.1, Discord 8.7.2
+
+||Kissa||#1337 - Bug Bot on 2019-04-11T21:25:27.919Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.7.4
+
+Skyla#0002 - Bug Bot on 2019-04-15T14:35:56.785Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 8.7.1
+
+Quad#1887 - Bug Bot on 2019-05-03T18:54:46.974Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:42:39.102Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

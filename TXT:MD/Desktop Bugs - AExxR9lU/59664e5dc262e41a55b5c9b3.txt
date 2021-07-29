@@ -1,0 +1,70 @@
+[Archived] Multiple errors in username dialog are stringed together with no space (https://trello.com/c/OcHBSfAr)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-07-12T16:29:17.738Z
+Latest Update: 2018-10-22T20:14:38.302Z
+
+Reported by Pointy - battleforthenet.com#5565
+
+####Steps to reproduce:
+- Open user settings 
+- Open the account editor 
+- Set your username to :
+
+####Expected result:
+Errors (sub 2 characters, cannot contain prohibited characters) should be spaced out or on a newline
+####Actual result:
+Errors are stringed together
+####Client settings:
+Desktop Canary 0.0.157 (Build 2182)
+####System settings:
+Win 10 Pro x64 v1607
+
+2185
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-12T16:29:17.738Z
+
+
+### Pointy - battleforthenet.com#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59664e5dc262e41a55b5c9b3/95a11a331ed1d85a7d9368cd5a06a388/262969.gif added by Bug Bot on 2017-07-12T16:29:20.553Z
+
+
+### Can reproduce.
+can reproduce,  Windows 10 Pro x64 v1703 (Canary v 0.0.157)
+
+Tim_The#7618 - Bug Bot on 2017-07-12T16:29:25.300Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64-bit Build 1607, Discord Stable 0.0.297
+
+Tarek1337#0379 - Bug Bot on 2017-07-12T16:29:30.305Z
+
+
+### Can reproduce.
+Can reproduce // Windows 10 Home (Creators Update) x64, Discord Canary v0.0.158
+
+P4risAndStuff#7243 - Bug Bot on 2017-07-12T16:29:35.275Z
+
+
+### Verified.  - Clayton on 2017-07-12T18:27:32.273Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-12T18:27:48.455Z
+
+
+### Low P3 - Jared on 2017-10-17T06:32:27.096Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:38.304Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

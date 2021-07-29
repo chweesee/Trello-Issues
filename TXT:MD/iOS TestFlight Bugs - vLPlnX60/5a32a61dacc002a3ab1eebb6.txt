@@ -1,0 +1,85 @@
+[Archived] Tapping "before:" on search on an iPad doesn't bring up the date picker UI (https://trello.com/c/XZGNB1Ku)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2017-12-14T16:26:05.517Z
+Latest Update: 2020-06-12T20:30:07.251Z
+
+Reported by jottocraft#8115
+
+####Steps to reproduce:
+- Go on any server 
+- Tap on the search bar 
+- Under search options, tap "before:" 
+- Note that this only on iPads. I've tested it on my iPod and the bug is not there.
+
+####Expected result:
+The date picker pops up so you can enter the date
+####Actual result:
+Nothing, it just says "before:" in the search bar. You must manually type "before:" for it to work.
+####Client settings:
+2.2.0 (1910)
+####System settings:
+iPad Air 2, iOS 11.1.2
+
+7030
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-14T16:26:05.517Z
+
+
+### Can reproduce.
+iPad Air 1st generation with iOS 11.1.2, Discord TestFlight 2.2.0 (1910).
+
+Ghoul#4567 - Bug Bot on 2017-12-14T16:26:12.983Z
+
+
+### Can reproduce.
+CR, Altough typing it yourself fixes it, TestFlight 2.2.0, iOS 11.1.2
+
+DeadlyFirex#8316 - Bug Bot on 2017-12-14T16:26:17.990Z
+
+
+### Can reproduce.
+iPad Air 2 with iOS 11.2.1, TestFlight 2.2.0 (1910). A general problem with the date filters, not only the "before" filter.
+
+Might also be related to https://trello.com/c/WlXxeu8h
+
+Pascal#0929 - Bug Bot on 2017-12-14T16:26:22.976Z
+
+
+### Can reproduce.
+iPad Pro 12.9-inch with iOS 11.2, Discord Stable 2.1.2
+
+Andy#4082 - Bug Bot on 2017-12-15T05:19:24.453Z
+
+
+### Verified.  - Clayton on 2017-12-20T00:12:49.739Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-20T00:12:52.610Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:08.352Z
+
+
+### Can reproduce.
+iPad 7: iPadOS 13.4.1; TestFlight 19.0 (19670)
+
+Jiralite#1207 - Bug Bot on 2020-04-24T21:46:55.694Z
+
+
+### Unarchived by Bug Bot on 2020-04-24T22:00:04.510Z
+
+
+### Archived by Bug Bot on 2020-06-12T20:30:07.260Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

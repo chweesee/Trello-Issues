@@ -1,0 +1,147 @@
+[All Platforms] When there is an error in an authorization URL, the X asset that used to be there is missing. (https://trello.com/c/YdnBCa4y)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-02-09T23:46:07.268Z
+Latest Update: 2019-07-27T10:21:35.240Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Generate an OAuth2 URL, or try to use an expired app whitelist invite. 
+- Corrupt the URL. Easiest way is to change the `client_id` to be invalid.
+
+####Expected result:
+There should be an X asset in the middle of the page as there was before.
+####Actual result:
+The X is missing.
+####Client settings:
+Web Stable 31908 - Firefox v65.0 (64-bit) - Safari 12.0.2 (14606.3.4)
+####System settings:
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave)
+
+28410
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-09T23:46:07.268Z
+
+
+### Isabel#0002 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c5f663f01898e2b4d3abd94/cfe6b0aacce95f69007f7eefd38a8e20/unknown.png added by Bug Bot on 2019-02-09T23:46:10.399Z
+
+
+### Can reproduce.
+Windows 10 Home; Google Chrome 72.0.3626.81
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-09T23:46:15.000Z
+
+
+### Can reproduce.
+Windows 10 Pro, Google Chrome 72.0.3626.81
+
+Zacatero#0001 - Bug Bot on 2019-02-09T23:46:20.010Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Google Chrome 72.0.3626.96
+
+Daffyduck#5364 - Bug Bot on 2019-02-09T23:46:25.042Z
+
+
+### Can reproduce.
+Could reproduce, macos 10.14.4, safari 12
+
+Action Potential#2494 - Bug Bot on 2019-02-10T00:37:15.012Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Canary 31908, Opera 58.0.3135.53
+
+average idiot on the internet#0274 - Bug Bot on 2019-02-10T00:43:06.185Z
+
+
+### Can reproduce.
+CR, MacBookPro 13" (2017) Mojave 10.14.3, Canary 31974
+
+Mano#4566 - Bug Bot on 2019-02-10T02:25:14.586Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE (11.6") - Chrome OS 71.0.3578.127 (64-bit) - Web Canary 31974
+
+Casper#9999 - Bug Bot on 2019-02-10T06:26:03.820Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Chrome 74
+
+Solo#0007 - Bug Bot on 2019-02-10T09:19:47.014Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Chrome 72
+
+Defracted#1337 - Bug Bot on 2019-02-10T15:11:08.833Z
+
+
+### Can reproduce.
+CR; Firefox browser Version 65 (64-bit), (Discord Canary 31974, Windows 7)
+
+Skyla#7948 - Bug Bot on 2019-02-10T15:30:01.279Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Web ~ Chrome 71.0.3578.98
+
+Alipoodle#5025 - Bug Bot on 2019-02-10T20:01:48.994Z
+
+
+### Can reproduce.
+macos 10.14.4, Chrome 72
+
+M24#0272 - Bug Bot on 2019-02-11T01:35:08.426Z
+
+
+### Can reproduce.
+Can Reproduce; Windows 10 Pro 1809; Google Chrome 72.0.3626.96
+
+Pyknus#0855 - Bug Bot on 2019-02-11T03:48:31.361Z
+
+
+### Can reproduce.
+Web Stable 31908 - Google Chrome Canary 74.0.3701.0 - Windows 10 Pro x64
+
+KolkiesDev#0001 - Bug Bot on 2019-02-11T18:31:34.342Z
+
+
+### minor - Clayton on 2019-02-12T02:23:15.417Z
+
+
+### Can Not Reproduce: Windows 10 Pro x64, Chrome Version 75.0.3770.100 (64-bit)
+Moving to Claimed Fixed. - Aeria on 2019-07-12T17:41:32.877Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-07-12T17:41:36.875Z
+
+
+### Can't reproduce.
+Cannot longer reproduce on Brave Browser 0.66.100, Windows 8.1
+
+Alex T.js#0001 - Bug Bot on 2019-07-18T06:42:19.418Z
+
+
+### Cannot reproduce with MacBook Pro 13" (2016) running macOS Mojave 10.14.5 and Safari Version 12.1.1.
+
+Moving to Verified Fixed list. - Pascal on 2019-07-18T15:31:20.949Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Pascal on 2019-07-18T15:31:27.369Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

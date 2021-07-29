@@ -1,0 +1,74 @@
+[Archived] When removing a hoisted role with admin perms, the crown takes a long time to reappear (https://trello.com/c/o2VGrQf0)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-02-03T22:07:21.037Z
+Latest Update: 2018-03-14T13:10:37.025Z
+
+Reported by Immo#9999
+
+####Steps to reproduce:
+- Make a hoisted role with Administrator 
+- Remove the role
+
+####Expected result:
+The crown should reappear immediately
+####Actual result:
+The crown doesn't reappear until a while after
+####Client settings:
+Canary build 10210
+####System settings:
+MacBook Pro 13" (early 2015), macOS High Sierra 10.13.3
+
+8458
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-03T22:07:21.037Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.185 (Build: 10228)
+
+Pascal#0929 - Bug Bot on 2018-02-03T22:07:28.362Z
+
+
+### Can reproduce.
+Windows 10 (Fall Creators Update) + Canary Build# 10228
+
+Oasis#4730 - Bug Bot on 2018-02-03T22:07:33.358Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS x64, Canary build 10228
+
+NorbiPeti#1869 - Bug Bot on 2018-02-03T22:07:38.387Z
+
+
+### It does only take a long time when removing the role - removing the admin perms or making it not hoisted applies the crown instantly
+
+NorbiPeti#1869 - Bug Bot on 2018-02-03T22:11:12.117Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-02-06T19:56:55.462Z
+
+
+### We just don't refresh on role deletion. If you ctrl + r it shows up instantly. Not a bug. - Jared on 2018-02-06T19:57:50.077Z
+
+
+### Moved from Cannot Reproduce to Not a Bug by Jared on 2018-02-06T19:57:54.206Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:10:36.359Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:10:37.027Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

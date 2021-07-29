@@ -1,0 +1,73 @@
+[Archived] Discord is in the list of apps that are capable of sharing a card from iOS Wallet app, while it cannot. (https://trello.com/c/Ps5gOYTI)
+
+P3 - Will be fixed eventually
+
+Created: 2019-08-22T23:04:44.352Z
+Latest Update: 2019-09-25T22:00:37.249Z
+
+Reported by exnihilodub#1043
+
+####Steps to reproduce:
+
+- Open iOS Wallet app in your iPhone 
+- Select a boarding pass or any other card you can share (e.g. iTunes Pass), click '...' on top right, click 'Share Pass' 
+- Select Discord to share the pass
+
+####Expected result:
+Discord should somehow embed the boarding pass in the message.
+####Actual result:
+Discord just presents an empty message template failing to embed the boarding pass, with 'Send' button greyed out. Adding some text enables the 'Send' button, but only sends that text. Other available apps in the list 'iOS messages, Whatsapp' can embed & share the boarding pass.
+####Client settings:
+3.1.0
+####System settings:
+iOS 12.4, iPhone 7
+
+42583
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-22T23:04:44.352Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 12.4 - TestFlight 3.1.1 (16898)
+
+Pascal#0929 - Bug Bot on 2019-08-22T23:04:52.078Z
+
+
+### Can reproduce.
+Can reproduce, you can also reproduce this with any card that allows you to share it, a example of this is the iTunes pass , which you can find a support article from Apple on , if you want to add it. iPhone XR, iOS 12.1, TestFlight 3.1.1 (16898)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2019-08-22T23:04:56.864Z
+
+
+### Can reproduce.
+CR • iPhone 7 • iOS 13.0 (Developer Beta 7) • TestFlight Build 3.1.1 (16958)
+
+username#6666 - Bug Bot on 2019-08-22T23:05:01.864Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.1 (16958)
+
+Jeffrey#1234 - Bug Bot on 2019-08-23T03:04:40.591Z
+
+
+### Can reproduce.
+iPhone X, iOS 13 (dev beta 8) - TestFlight 3.1.1 (16958)
+
+Xylium#5800 - Bug Bot on 2019-08-23T07:03:14.911Z
+
+
+### Moved from New Issues to Won't Fix by Jonathan Wu on 2019-08-23T19:27:57.559Z
+
+
+### Archived by Bug Bot on 2019-09-25T22:00:37.446Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

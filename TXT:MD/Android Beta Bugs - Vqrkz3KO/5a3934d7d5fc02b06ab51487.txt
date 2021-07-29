@@ -1,0 +1,82 @@
+[Archived] Selected in search tab message highlight mechanism affects other messages in all chats. [Android 4.x only] (https://trello.com/c/zoXz7IJW)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-12-19T15:48:39.445Z
+Latest Update: 2018-10-11T00:30:34.717Z
+
+Reported by MobButcher#5874
+
+####Steps to reproduce:
+- Search for a message with built-in search. 
+- Tap on it so it will send you to the chat history. 
+- Scroll the chat up and down.
+
+####Expected result:
+Only the message that was searched for is highlighted. (Shifted to the left and blinked out in blue color.)
+####Actual result:
+Other messages send from another users and in other chats, servers or DMs get highlighted as well. It affects almost all messages, even those which are in the middle of grouped ones, send by a user is a short while.
+####Client settings:
+Discord Alpha 5.8.7
+####System settings:
+LG G60 X135 @ Android 4.4.2
+
+7137
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-19T15:48:39.445Z
+
+
+### MobButcher#5874 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a3934d7d5fc02b06ab51487/395641c18d75a020a5b04e3687b33f2e/IMG_20171217_115923.JPG added by Bug Bot on 2017-12-19T15:48:41.798Z
+
+
+### MobButcher#5874 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a3934d7d5fc02b06ab51487/9b9fb498130dfe19881327886e37c598/IMG_20171217_115941.JPG added by Bug Bot on 2017-12-19T15:48:41.905Z
+
+
+### Can reproduce.
+CR, Discord Alpha 5.8.7, Samsung Galaxy Ace 4, Android 4.4.4
+
+jul545454#0530 - Bug Bot on 2017-12-19T15:48:46.810Z
+
+
+### Can reproduce.
+alpha 5.8.7, allview viva h8 LTE, android 4.4.4
+
+Symplyfyed#4047 - Bug Bot on 2017-12-19T15:48:51.740Z
+
+
+### Can reproduce.
+CR Android 4.4.2 Discord 5.8.8
+
+Okori#0902 - Bug Bot on 2017-12-19T15:48:57.241Z
+
+
+### Verified.  - Clayton on 2017-12-20T00:48:56.721Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-20T00:48:59.905Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:47.784Z
+
+
+### Can reproduce.
+Android 4.1.1, Huawei Ascend Y300-0100, Discord Alpha 7.3.8
+
+NorbiPeti#1869 - Bug Bot on 2018-08-24T21:17:48.304Z
+
+
+### Unarchived by Clayton on 2018-08-24T21:30:03.412Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:34.719Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

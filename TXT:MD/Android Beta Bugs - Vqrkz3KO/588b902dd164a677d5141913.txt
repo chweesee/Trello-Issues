@@ -1,0 +1,67 @@
+[Archived] Masked links are not parsed in embed fields (https://trello.com/c/RQZOJiSX)
+
+None
+
+Created: 2017-01-27T18:23:41.908Z
+Latest Update: 2017-10-02T16:44:24.408Z
+
+Reported by Chrys#1856
+
+####Steps to reproduce: 
+- Create embed with a field of value ``[Test](https://google.com/)`` (https://p.teknik.io/bSSQn for an example) 
+- That's it 
+
+####Expected result:
+ Masked links are parsed as such on Android, like they are on desktop. 
+####Actual result:
+ Masked links are not parsed at all. Probably related to other embed-related bugs. 
+####System settings:
+ Android 4.4.4, v3.3.0
+
+Card Log
+========
+### Added by Jared on 2017-01-27T18:23:41.908Z
+
+
+### Can reproduce.
+Latest discord android 6.0.1
+
+Freud#1764 - Jared on 2017-01-27T18:23:42.438Z
+
+
+### Can reproduce.
+Google Pixel, 7.1.1, Latest Alpha
+
+Khionu#8708 - Jared on 2017-01-27T18:23:44.397Z
+
+
+### Can reproduce.
+Android 7.1, Discord 3.3.0
+
+MelodicStream#1336 - Jared on 2017-01-27T18:23:46.351Z
+
+
+### uFWqC.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/588b902dd164a677d5141913/acaf7e0c5bea2aba598b65259e75e58d/uFWqC.png added by Jared on 2017-01-27T18:23:58.119Z
+
+
+### NrxPk.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/588b902dd164a677d5141913/9070c3fee66cced188e9ec68b1816b6a/NrxPk.png added by Jared on 2017-01-27T18:23:58.299Z
+
+
+### This should be fixed in newest alpha, 3.3.1. - Andy Garron on 2017-01-28T01:35:49.045Z
+
+
+### Moved from User Reported Bugs to Fixed Bugs by Jared on 2017-02-07T18:27:41.897Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:44:23.506Z
+
+
+### Archived by Jared on 2017-10-02T16:44:24.411Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

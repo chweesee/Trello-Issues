@@ -1,0 +1,78 @@
+[Archived] Wrong emoji get's selected in the Emoji picker when someone sends a message in the same channel (https://trello.com/c/eQRmJmx5)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-08-11T17:06:02.082Z
+Latest Update: 2018-10-22T20:24:34.489Z
+
+Reported by » a r i a#1593
+
+####Steps to reproduce:
+- write up a beautiful message and attempt to add an emoji in chat via entering `:` and the start of the emoji name 
+- make sure your mouse is hovering over one of the emojis 
+- select a different emoji with the arrow keys 
+- have someone message the channel/dm you are in 
+- observe
+
+####Expected result:
+The selection stays the same and you can press enter to get the right emoji
+####Actual result:
+The selection jumps to where your mouse cursor is
+####Client settings:
+Discord Canary 21681
+####System settings:
+Windows 10 Pro x64
+
+17356
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-11T17:06:02.082Z
+
+
+### Can reproduce.
+Windows 10, 1083 - Canary, Build Number: 21681
+
+Logiz#0001 - Bug Bot on 2018-08-11T17:06:09.389Z
+
+
+### Can reproduce.
+Windows 10 x64. Canary, 21425
+
+Zak - Inactive till 18th August#5879 - Bug Bot on 2018-08-11T17:06:14.457Z
+
+
+### Can reproduce.
+Can repro, Windows 10 x64, Canary 21584
+
+White Falcon#0001 - Bug Bot on 2018-08-11T17:06:19.395Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 21705
+
+Frances Picard#6209 - Bug Bot on 2018-08-12T16:52:19.748Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit (1803), Canary 21705
+
+that15fine#9275 - Bug Bot on 2018-08-12T17:03:09.522Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T22:07:06.755Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T22:07:16.001Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:34.491Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

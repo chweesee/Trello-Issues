@@ -1,0 +1,66 @@
+[Archived] Substitution editing breaks when attempting to edit a string ending with a backslash (https://trello.com/c/jCGbFUr8)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-22T10:20:08.598Z
+Latest Update: 2018-10-22T20:20:06.350Z
+
+Reported by crystalcat#0901
+
+####Steps to reproduce:
+- Send a message containing some substring foo you wish to replace, which must end in a backslash 
+- Send the substitution message ('s/foo/bar', where bar is the string you wish to substitute in for foo)
+
+####Expected result:
+foo is replaced with bar, no message is sent to the channel
+####Actual result:
+The substitution message is sent to channel, the message is not edited
+####Client settings:
+Discord Stable, Build 13856
+####System settings:
+macOS 10.13.2
+
+11097
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-22T10:20:08.598Z
+
+
+### pope#0618 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5adc61d87e89ce0ced41737b/327f9f6546bf8bad22333be09839f93d/0FlpBKF.gif added by Bug Bot on 2018-04-22T10:20:11.398Z
+
+
+### Can reproduce.
+Can reproduce - Discord Canary 0.0.204 Build number 13990, Windows 7 Pro x64
+
+pope#0618 - Bug Bot on 2018-04-22T10:20:16.063Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS 10.12.6 Sierra, Discord Canary (Build 13963)
+
+Rage#0001 - Bug Bot on 2018-04-22T10:20:21.068Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.4, Discord Canary 0.0.186 (Build: 13990) | Might be intended behavior because backslash often escapes things
+
+Pascal#0929 - Bug Bot on 2018-04-22T10:20:26.052Z
+
+
+### Verified.  - Clayton on 2018-04-25T00:36:42.364Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-25T00:36:46.985Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:06.353Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

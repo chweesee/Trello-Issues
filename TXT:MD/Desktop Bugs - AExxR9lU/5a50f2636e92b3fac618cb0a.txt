@@ -1,0 +1,73 @@
+[Archived] Screenshare does not work until restart after you switch Window users. (https://trello.com/c/yL4Pn3x0)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-01-06T15:59:31.118Z
+Latest Update: 2018-03-14T14:05:20.763Z
+
+Reported by Alexr03#1154
+
+####Steps to reproduce:
+- Open a discord screenshare session. 
+- CTRL + ALT + DEL 
+- Click "Switch User" 
+- Login to another user (Not sure if its due to me logging into another domain account) 
+- Repeat from step 2 except log back into your normal account 
+- See
+
+####Expected result:
+Resume the call of as normal since you didn't leave the call, or at least rejoin the call instead of restarting discord client.
+####Actual result:
+The call you are in is frozen, one way communication, the other end can hear you. You can rejoin the call but once you start to screenshare again you get a endless black loading screen until you restart Discord Client and it will work again.
+####Client settings:
+Release Channel: stable, Build Number: 9072, Version Hash: f546e8dff486ff50228e2ae54d8502fbfc9ba766
+####System settings:
+Windows 10 Pro Version 1709 [Build: 16299.125]
+
+7554
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-06T15:59:31.118Z
+
+
+### Can reproduce.
+Sort of CR. Windows 10 Pro x64 Fall Creators Update, Discord Canary Build 9193. | What happens for me is that the call does not freeze, but Discord window does seems to wonk out by being sized in a weird way, and then re-snapping itself. After I hung up in the call and re-called with screen-sharing, there is just the black pitch of screen with endless loading.
+
+Ghoul#4567 - Bug Bot on 2018-01-06T15:59:38.535Z
+
+
+### Can reproduce.
+CR | Win10 x64, canary, Build Number: 9231
+
+fujhofn.#0878 - Bug Bot on 2018-01-06T15:59:43.556Z
+
+
+### Can reproduce.
+cr | Windows 10 Home x64 (Fall Creators Update), canary 9280
+
+rauf#3260 - Bug Bot on 2018-01-06T15:59:48.556Z
+
+
+### I wouldn't call this a common use case, so this is low priority. - Jared on 2018-01-08T22:41:53.319Z
+
+
+### Cannot reproduce.  - Clayton on 2018-02-02T23:26:55.622Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-02-02T23:26:59.494Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T14:05:20.365Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T14:05:20.764Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

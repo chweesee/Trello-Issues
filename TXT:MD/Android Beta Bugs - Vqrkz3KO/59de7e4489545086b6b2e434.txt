@@ -1,0 +1,64 @@
+[Archived] Putting the `#` symbol after the "in:" search filter doesn't display suggestions, but the filter actually works when you finish to type the channel name by hand, and vice versa (https://trello.com/c/gB0hyL38)
+
+P3 - Will be fixed eventually
+
+Created: Unknown
+Latest Update: 2018-08-22T01:20:02.851Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- In any text channel or DM, click the Search option to open the searchbar 
+- type `in:` to place a channel filter, then place the `#` symbol and start to type the channel name. Observe that it doesn't display suggestions.  
+- Now, finish to type the desired channel name manually and click Search. Notice that the filter actually works.  
+- Then, make a new search and insert the `in:` filter again, but this time don't use `#` symbol. When you start to type channel name, it does make suggestions, but the filter doesn't work if you manually finish to type the channel name.
+
+####Expected result:
+It should be consistent: whether you decide to put `#` or not, if it **does** make channel suggestions, then the filter **should** work no matter if you finish to type the channel name manually or pick a suggestion. If it doesn't, then it shouldn't.
+####Actual result:
+It's inconsistent: putting `#` doesn't make channel suggestions but the filter actually works, without `#` it does make suggestions but doesn't work after typing manually.
+####Client settings:
+Discord Alpha 5.3.5
+####System settings:
+Huawei Mate 9 Android 7.0
+
+5341
+
+Card Log
+========
+### Can reproduce.
+Alpha 5.3.3, Samsung Galaxy S6, Android 7.0
+
+Basketball#5100 - Bug Bot on 2017-10-11T20:25:48.519Z
+
+
+### Can reproduce.
+Typing # removes the suggested channels, typing it out manually displayed messages for all channels. I used `<#197038477953597440>` for my test. Samsung Galaxy S6, 7.0, 535
+
+Xander#0259 - Bug Bot on 2017-10-11T20:25:53.539Z
+
+
+### Can reproduce.
+Alpha 5.3.6, Samsung Galaxy S8, Android 7.0
+
+A Spoopy Striker#7250 - Bug Bot on 2017-10-11T20:25:58.609Z
+
+
+### Verified - Clayton on 2017-10-12T23:01:38.099Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-12T23:01:41.778Z
+
+
+### The Lunala#7777 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59de7e4489545086b6b2e434/00d7cdcd7c922ce6f9324e315f9e40de/20180715_112911.jpg added by Bug Bot on 2018-07-15T06:00:45.493Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:02.854Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,91 @@
+[Archived] Long clicking a pinged user makes your app freezes and not able to do anything anymore [Note: This happens on Latest Testflight (4331)] (https://trello.com/c/8Ja6JOw9)
+
+None
+
+Created: 2018-05-11T18:51:45.951Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Xylium#1480
+
+####Steps to reproduce:
+- Make sure to ping a user or bot 
+- long click the pinged user/or bot to get the the options of user settings etc modal. ( i suggest trying it a couple times, as it might not work directly) 
+- tap anywhere so the user setting modal goes away 
+- observe your frozen screen
+
+####Expected result:
+Your screen should not freeze
+####Actual result:
+Your screen freezes and you arent able to do anything besides force closing your client
+####Client settings:
+TestFlight 2.3.2 (4331)
+####System settings:
+iPhone 6, iOS 11.4
+
+12448
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-11T18:51:45.951Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5af5e641b7c202ad77f5b275/2cb9bd089949cb7a3b06e2c7bc4df86c/image.png added by Bug Bot on 2018-05-11T18:51:48.602Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5af5e641b7c202ad77f5b275/b236fed94af2d4bc5d190a667d7cd414/image.png added by Bug Bot on 2018-05-11T18:51:48.604Z
+
+
+### Can reproduce.
+Can Reproduce on iPhone 8 +, iOS 11.4 PB4 -- Discord TestFlight 2.3.2 (4331)
+
+Ghoul#0009 - Bug Bot on 2018-05-11T18:51:53.490Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.4 PB4, TestFlight 2.3.2 (4331)
+
+mouse#0091 - Bug Bot on 2018-05-11T18:51:58.389Z
+
+
+### Can reproduce.
+Took me around 8 tries iPhone 6 iOS 10..2.1, TestFlight 2.3.2 (4331)
+
+Pyros#2326 - Bug Bot on 2018-05-11T18:52:05.056Z
+
+
+### Can reproduce.
+iPhone X iOS 11.3.2 (R15A), TestFlight 2.3.2 (4331) http://update.proxymiity.fr/media/uploads/discordbug/12448.mp4
+
+Proxymiity 🚀 (Maxime)#2554 - Bug Bot on 2018-05-11T19:01:34.154Z
+
+
+### Can reproduce.
+iPhone 8 iOS 11.3.1 TestFlight 2.3.2 (4331)
+
+Iron Akela#1745 - Bug Bot on 2018-05-11T19:02:28.530Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Miguel Gaeta on 2018-05-11T23:11:18.941Z
+
+
+### Can reproduce.
+Discord: TF 2.3.2 (4353) iOS: 11.4 Model: iPad Pro 9.7, got it on the first try the screen also seems to dim.
+
+nathanielcwm#3522 - Bug Bot on 2018-05-12T05:07:10.381Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-05-24T00:51:17.740Z
+
+
+### I cannot reproduce on iPhone 8 + running iOS 11.4.1 with Discord Stable Version 2.3.3. I can exit the modal and still have my app to respond normally. - Ghoul on 2018-06-01T15:38:48.837Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:43.334Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/mrkcsc) - No Bio

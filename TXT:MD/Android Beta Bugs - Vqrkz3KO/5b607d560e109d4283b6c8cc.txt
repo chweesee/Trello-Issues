@@ -1,0 +1,83 @@
+[Archived] Repeatedly opening and closing the Create invite screen can get you ratelimited, even though no new invites are being created (https://trello.com/c/ioY9ebAS)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2018-07-31T15:16:39.015Z
+Latest Update: 2018-09-08T23:30:08.045Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a server where you can invite people  
+- Open Create invite screen 
+- Go back  
+- Repeat two steps above a few times
+
+####Expected result:
+You should not get ratelimited for doing that. After you generated the initial invite, this one should be cached and subsequent openings of the Create invite screen will show this same invite, unless the client receives an event telling the invite is no longer valid
+####Actual result:
+You may get ratelimited, as if the client was attempting to regenerate the invite everytime
+####Client settings:
+Discord Alpha 7.2.1
+####System settings:
+Huawei Mate 9 Android 8.0
+
+16534
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-31T15:16:39.015Z
+
+
+### Can reproduce.
+can repro Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.2.0
+
+Danijel#9000 - Bug Bot on 2018-07-31T15:16:46.332Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 7.0 • Discord Alpha 7.2.1 (721)
+
+FoxyKero#9941 - Bug Bot on 2018-07-31T15:16:51.285Z
+
+
+### Can reproduce.
+CR Samsung Galaxy J5 2017, Android 7.0 , Discord Alpha 7.2.0
+
+Vanished#4486 - Bug Bot on 2018-07-31T15:16:56.312Z
+
+
+### Can reproduce.
+Huawei Honor 9 Lite, Oreo 8.0.0 • Discord Alpha 721
+
+MakiTheLegend#5027 - Bug Bot on 2018-07-31T15:18:18.713Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 7.2.1 (721) - Android 5.1
+
+Diogolo#8124 - Bug Bot on 2018-07-31T15:18:44.182Z
+
+
+### Can reproduce.
+Can repro, Samsung Galaxy S5 • Build: 6.0.1 • Discord Aplha • Build: 2.0.1
+
+White Falcon#0001 - Bug Bot on 2018-07-31T15:58:25.588Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.2.9 - Clayton on 2018-08-09T23:16:50.864Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-09T23:16:59.095Z
+
+
+### Archived by Clayton on 2018-09-08T23:30:08.046Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

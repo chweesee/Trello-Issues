@@ -1,0 +1,90 @@
+[Archived] Inconsistency about Quick Mention feature on system messages (https://trello.com/c/by3hy7hs)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-25T14:20:53.776Z
+Latest Update: 2018-10-11T00:30:40.166Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a system message that welcomes a user 
+- Tap on the user's name in the message 
+- Notice that a mention is inserted in the chat box 
+- Now do the same but for a system message saying that a message was pinned 
+- Notice it does nothing
+
+####Expected result:
+It should be consistent and either allow Quick Mentions on all system messages or disable for all
+####Actual result:
+Welcome system message is the only one that allows quick mentionning people
+####Client settings:
+Discord Alpha 6.8.0
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13361
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-25T14:20:53.776Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b081bc5144ecf0225e1f25f/71e6ed8925fb4fc33dde83a343279fed/IMG_20180525_154420.jpg added by Bug Bot on 2018-05-25T14:20:56.341Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b081bc5144ecf0225e1f25f/44646e59ec1136fc7d2ea9218387101e/IMG_20180525_154613.jpg added by Bug Bot on 2018-05-25T14:20:57.190Z
+
+
+### Can reproduce.
+Can reproduce. User in a Server Welcome message can be tagged, while users in Pinned Messages message cannot. Samsung Galaxy S6, Android 7.0 - Discord Alpha 6.8.0
+
+Hole#0001 - Bug Bot on 2018-05-25T14:21:01.205Z
+
+
+### Can reproduce.
+Able to Reproduce; Samsung Galaxy A3 2017; Android 7.0; Discord Alpha 6.8.0 (680).
+
+Costpap#2158 - Bug Bot on 2018-05-25T14:21:06.241Z
+
+
+### Can reproduce.
+Can Reproduce. Because the pinned messages are technically the messages sent by the user, you should be able to mention. Even your role colour is the colour of your name when you pin a message. Lenovo vibe K5+, 5.1.1 | Discord Alpha 6.8.0
+
+The Lunala#0001 - Bug Bot on 2018-05-25T14:21:11.202Z
+
+
+### Can reproduce.
+Moto E4 Plus, Android 7.1.1 (Nougat) Discord Alpha 6.8.0
+
+StupidDroid#6253 - Bug Bot on 2018-05-25T15:58:58.999Z
+
+
+### verified, android 7.0, 6.8.7, samsung s6 edge - Clayton on 2018-05-30T19:51:14.320Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-30T19:51:20.767Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:33.143Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 740
+
+The Lunala#7777 - Bug Bot on 2018-08-23T17:14:08.139Z
+
+
+### Unarchived by Clayton on 2018-08-23T17:30:05.739Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:40.168Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

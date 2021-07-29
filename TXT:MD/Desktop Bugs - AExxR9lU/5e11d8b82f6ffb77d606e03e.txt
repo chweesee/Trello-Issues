@@ -1,0 +1,96 @@
+Emojis are sometimes rendered by the OS, not by discord in the new textbox. (https://trello.com/c/aIXxXQzA)
+
+None
+
+Created: 2020-01-05T12:38:16.493Z
+Latest Update: 2020-07-16T21:26:05.964Z
+
+Reported by RaspberryPiFan#4348
+
+####Steps to reproduce:
+- Write `:up` into the textbox 
+- press the emoji button right in the textbox 
+- select the thumbsup emoji
+
+####Expected result:
+You see `:up` and a thumbsup emoji rendered by discord
+####Actual result:
+You see :up and a thumbsup emoji rendered by the os, not by discord. Chrome devtools show the error: `Caught error during slate event handler, will ignore and continue  Error: Slate: Unable to find emoji: :up: in :up👍`
+####Client settings:
+Release Channel: canary, Build Number: 52006, Version Hash: 24dfe75d842dc6f4cf9b57a5db1f5ca2eb80be72
+####System settings:
+Raspbian on Raspberry Pi 4, Chromium 74.0.3729.157
+
+51029
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-05T12:38:16.493Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 52006
+
+carter#0001 - Bug Bot on 2020-01-05T12:38:23.948Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Discord Canary 52006.
+
+Alister#0001 - Bug Bot on 2020-01-05T12:38:28.966Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64, Version 1903, Discord Stable 52006
+
+SlavicWaffles#0001 - Bug Bot on 2020-01-05T12:38:33.950Z
+
+
+### Can reproduce.
+CR, Discord Canary 52006, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2020-01-05T15:45:39.768Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.2; Discord Canary 52006
+
+Jiralite#1207 - Bug Bot on 2020-01-05T15:51:44.436Z
+
+
+### Can reproduce.
+Windows 10 Home x64, version 1909 - Canary 51905 slate/dtesters
+
+anonymous kitten#5379 - Bug Bot on 2020-01-05T18:29:34.778Z
+
+
+### Can reproduce.
+Windows 10 Pro 1909 Discord Canary 52006
+
+ILikeMangos#0007 - Bug Bot on 2020-01-05T21:55:09.194Z
+
+
+### Can reproduce.
+cr Windows 10 1909 canary 52048
+
+GlenMerlin#2119 - Bug Bot on 2020-01-06T04:42:44.423Z
+
+
+### Can reproduce.
+Can Reproduce on Windows 10 Pro
+
+SnowBowman#1888 - Bug Bot on 2020-01-06T16:58:19.110Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 51905
+
+RPS1222#5127 - Bug Bot on 2020-01-07T02:13:19.775Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

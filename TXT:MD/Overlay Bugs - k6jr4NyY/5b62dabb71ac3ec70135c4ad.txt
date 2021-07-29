@@ -1,0 +1,100 @@
+Typing indicators get awkwardly cut off if long enough on the overlay (https://trello.com/c/sPsKf0tD)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-02T10:19:39.971Z
+Latest Update: 2019-09-07T09:32:34.083Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Go to any channel in the overlay 
+- Have people with long nicknames type (I used two members with 32 character nicknames)
+
+####Expected result:
+The typing indicator wraps or is cleanly cut off
+####Actual result:
+The typing indicator gets awkwardly cut off
+####Client settings:
+Canary 20535
+####System settings:
+Windows 10 Home x64
+
+16720
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T10:19:39.971Z
+
+
+### mrkirby153#7840 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b62dabb71ac3ec70135c4ad/f8f61d0ea4cc3b47e1e4eed9bc1ccf55/ZkNsG0t.png added by Bug Bot on 2018-08-02T10:19:42.815Z
+
+
+### Can reproduce.
+Windows 10 Home (1803) x64, Canary 0.0.211 (Build 20540)
+
+DeJay#1337 - Bug Bot on 2018-08-02T10:19:47.674Z
+
+
+### Can reproduce.
+Can Reproduce: Windows 10 Home x64 1803, Canary 20540
+
+TheMegaEagle#9909 - Bug Bot on 2018-08-02T10:19:52.521Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211, Build 20540, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-08-02T10:19:57.575Z
+
+
+### Can reproduce.
+[CR] Canary 20540 - Windows 10 Home x64
+
+VR#5448 - Bug Bot on 2018-08-02T10:46:02.321Z
+
+
+### uncommon use case - Clayton on 2018-08-30T22:34:29.414Z
+
+
+### Can't reproduce.
+CNR Win10 64x (1809), Discord Canary 37501 https://puu.sh/DrTsQ/140bff28c4.png  Typing is now truncated. This might still be unintentional behaviour though, but seems better fitting compared to before.
+
+Alipoodle#5025 - Bug Bot on 2019-05-13T20:42:10.325Z
+
+
+### Can Not Reproduce Anymore » Windows 10 Pro x64, Discord Stable 43480
+Moving to Claimed Fixed. - Aeria on 2019-08-14T17:17:17.426Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-08-14T17:17:21.312Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | canary 44004
+
+charleskimbac#6492 - Bug Bot on 2019-08-21T02:58:15.482Z
+
+
+### Can't reproduce.
+Windows 10 Home, 64bit, Discord Canary Build: 44909
+
+Jeffrey#1234 - Bug Bot on 2019-09-01T18:47:40.204Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.256, Build 44946, Windows 10 Home 64-bit (v1903)
+
+Ene#0808 - Bug Bot on 2019-09-03T21:19:05.296Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Aeria on 2019-09-07T09:32:34.062Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

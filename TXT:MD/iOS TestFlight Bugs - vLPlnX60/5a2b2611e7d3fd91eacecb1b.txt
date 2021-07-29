@@ -1,0 +1,80 @@
+[Archived] English UK Shows 12-Hour Format Instead of 24 in iOS (https://trello.com/c/kGARbwOs)
+
+None
+
+Created: 2017-12-08T23:53:53.941Z
+Latest Update: 2018-01-20T09:14:55.757Z
+
+Reported by 🎄Ghoul🎄#4567
+
+####Steps to reproduce:
+- Have Discord’s app version 2.1.2 (Stable) 
+- Switch to English UK 
+- Restart app if needed, then observe the time. It should say for example (17:45)
+
+####Expected result:
+Time stamp should say Today at 17:45
+####Actual result:
+Time stamp says 5:45PM
+####Client settings:
+Discord Stable App Version 2.1.2
+####System settings:
+iPhone 8 +, iOS 11.2 (Public Beta 6, but technically stable 11.2)
+
+6885
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-08T23:53:53.941Z
+
+
+### Can reproduce.
+iPhone 6s & iPad Air 2, iOS 11.2, Discord Stable 2.1.2. Also all timestamps are in English regardless of your language setting
+
+Pascal#0929 - Bug Bot on 2017-12-08T23:54:01.675Z
+
+
+### Can reproduce.
+CR, iPod touch 6 generation, iOS 10.3.3, Discord stable 2.1.2
+
+❄nickWtn❄#3789 - Bug Bot on 2017-12-08T23:54:06.982Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2, Discord 2.1.2
+
+mouse91#3089 - Bug Bot on 2017-12-08T23:54:11.459Z
+
+
+### Upon further inspection, and according to Pascal. It seems like English UK isn’t the only language as the 24-hour timestamp format is broken for all languages, no matter what it is.
+
+🎄Ghoul🎄#4567 - Bug Bot on 2017-12-08T23:56:29.924Z
+
+
+### This was fixed on the backend. - Jared on 2017-12-12T21:57:24.020Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Jared on 2017-12-12T21:57:30.139Z
+
+
+### This bug was reported as fixed, but I think there has been some confusion earlier because Dabbit (Jared) had been using TestFlight instead of Discord Stable. 
+
+This bug only occurs on Discord Stable, and isn't really fixed because Discord TestFlight is behind (last update was 27 days ago as of December 12th, 2017 while Stable updated probably 3 days ago. 
+
+With that being said, I can still reproduce the bug on iPhone 8 +, iOS 11.2, Discord Stable App Version 2.1.2
+
+Ghoul#4567 - Bug Bot on 2017-12-13T03:31:26.403Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-01-20T09:14:54.485Z
+
+
+### Archived by Alexandru Todea on 2018-01-20T09:14:55.759Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

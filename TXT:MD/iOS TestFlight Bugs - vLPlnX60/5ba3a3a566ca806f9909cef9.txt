@@ -1,0 +1,64 @@
+[Archived] "Failed to load image" error jumps to the top of an unloaded gif (https://trello.com/c/8INdkO2M)
+
+None
+
+Created: 2018-09-20T13:41:57.637Z
+Latest Update: 2019-01-22T22:49:11.600Z
+
+Reported by evilpauwse#9985
+
+####Steps to reproduce:
+- Find a GIF (only works on gifs) 
+- Start loading the gif 
+- While it's still loading switch your WiFi on and off 
+-  Notice the position of the error
+
+####Expected result:
+The error should be in the center of the screen like it normally is
+####Actual result:
+The error jumps to the top of the screen
+####Client settings:
+TestFlight 7347
+####System settings:
+iPhone SE - IOS 12
+
+19869
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-20T13:41:57.637Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 dev beta | TestFlight 2.3.8 (7347)
+
+Xylium#1480 - Bug Bot on 2018-09-20T13:42:05.007Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12, Testflight 2.3.8 (7347)
+
+Pyros#2326 - Bug Bot on 2018-09-20T13:42:09.916Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 12, TestFlight 2.3.8 (7347)
+
+enkiel#8029 - Bug Bot on 2018-09-20T13:42:14.902Z
+
+
+### Moved from New Issues to Won't Fix by Fanghao on 2018-09-27T01:09:36.620Z
+
+
+### This ticket has been in Won't Fix for no activity for over 30 days. So archiving this ticket due to the inactivity. - Ghoul on 2019-01-22T22:49:07.844Z
+
+
+### Archived by Ghoul on 2019-01-22T22:49:11.603Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

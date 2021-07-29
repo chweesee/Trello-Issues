@@ -1,0 +1,79 @@
+Blocking a user still allows you to properly interact with them via Voice & Video calls. (https://trello.com/c/qYMJxoM8)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2018-01-24T19:13:36.251Z
+Latest Update: 2019-11-26T01:51:53.088Z
+
+Reported by JustGamer#2542
+
+####Steps to reproduce:
+- iOS: Block a user. 
+- Press the three dots or press and hold on their name to bring up the user settings menu. 
+- Press "Start Voice Call" or "Start Video Call". 
+- The call popup will appear and the blocked user will receive the "x started a call" and will be able to join the call. 
+- Pressing "Redail" before the person joins will physically ring the blocked user. 
+- Desktop: Block a user. 
+- Click "Start Voice Call". 
+- The blocked user will receive a system notification that x started a call (if enabled). 
+- The call will not ring at all but will allow you to click "Join Call" and fully interact with them.
+
+####Expected result:
+The call should fail because you have them blocked and they are no longer technically on your friends list.
+####Actual result:
+The call verifies and then connects to the user on the other end even though you have blocked them.
+####Client settings:
+TestFlight 2.2.1 (2236) & Discord Canary 0.0.185 (9856)
+####System settings:
+iPhone 8 on iOS 11.2.2 & MacBook Pro (late 2013) on MacOS 10.12.1
+
+8103
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-24T19:13:36.251Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary (ahhh forgot the version number) // iOS 11.2.5 PB6, iPhone 6s+, TestFlight 2.2.1 (2236)
+
+Mustard#6390 - Bug Bot on 2018-01-24T19:13:43.695Z
+
+
+### Can reproduce.
+this also happens on Android CR Kyocera Hydro Wave Android 5.1 Discord 6.1.1
+
+Okori#0902 - Bug Bot on 2018-01-24T19:13:48.552Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Version 1709), Discord Canary (Build 9861) & iPhone 6, iOS 11.2.5 beta 7 (GM), Discord TestFlight 2.2.1 (2236)
+
+Darkbeast#4002 - Bug Bot on 2018-01-24T19:13:53.595Z
+
+
+### Verified.  - Clayton on 2018-01-24T21:41:37.076Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-24T21:41:40.329Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Discord Alpha 5.0, Discord Alpha 9.0.4
+
+Karasu#0013 - Bug Bot on 2019-05-28T23:23:42.454Z
+
+
+### Can reproduce.
+still CR, stable 50260, Win10 v1709 x64 build 16299.665 Education, chrome dev 80.0.3955.4+
+
+hopeless#1227 - Bug Bot on 2019-11-26T01:51:53.100Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

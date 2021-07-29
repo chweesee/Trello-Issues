@@ -1,0 +1,79 @@
+[Archived] Clicking the "Open in Browser" link for an image clips the image out of normal constraints (https://trello.com/c/6e2dy5IG)
+
+None
+
+Created: 2016-12-04T00:41:56.031Z
+Latest Update: 2017-10-30T17:09:48.013Z
+
+Reported by Dru#8209
+
+####Steps to reproduce: 
+- Click on an image 
+- Click the triple dot menu 
+- Open in Browser 
+
+####Expected result:
+ Image loads without breaking the browser constraints 
+####Actual result:
+ It breaks browser constraints
+
+Card Log
+========
+### Added by Jared on 2016-12-04T00:41:56.031Z
+
+
+### Can reproduce.
+iPhone 6s
+
+dinos#0649 - Jared on 2016-12-04T00:42:42.434Z
+
+
+### Can't reproduce.
+iPhone 5s on latest TestFlight
+
+HyperCoder#2975 - Jared on 2016-12-04T00:42:59.117Z
+
+
+### May be related to fQJkX2Tj
+
+Dru#8209 - Jared on 2016-12-04T00:43:33.348Z
+
+
+### Dru#8209 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/584366542956a22d6009d2b1/7cc64c957c5a63abba3fc913517ff8ee/image.png added by Jared on 2016-12-04T00:45:10.612Z
+
+
+### May only affect devices larger than the 5/5S(E)
+
+Dru#8209 - Jared on 2016-12-04T00:49:04.460Z
+
+
+### Can reproduce.
+iPhone 7, iOS 10.2b5, latest TF
+
+ThaTiemsz#5517 - Jared on 2016-12-04T12:36:48.219Z
+
+
+### Can reproduce.
+iOS 10.0.1 latest TF
+
+/dev/null#5164 - Jared on 2016-12-04T12:41:33.064Z
+
+
+### I can't reproduce.  I did small and large images on iphone and on an ipad. Nothing. - Jared on 2016-12-19T21:27:40.132Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-12-19T21:27:43.775Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:09:47.133Z
+
+
+### Archived by Jared on 2017-10-30T17:09:48.015Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,130 @@
+[Archived] Japanese input is broken with the server search (https://trello.com/c/2BTRAIJF)
+
+P1 - Severe,
+low
+
+Created: 2018-05-09T01:43:33.054Z
+Latest Update: 2019-05-13T07:00:23.840Z
+
+Reported by Kuuhaku#4503
+
+####Steps to reproduce:
+- Prerequisite: Enable the Japanese keyboard by going to General > Keyboard > Add new keyboard Open discord and swipe right to open the server list 
+- Tap on the search in a server.
+- Tap/hold on the globe icon and change your keyboard to the Japanese one 
+- Type in a character or two 
+- Observe
+
+####Expected result:
+The server search should work properly with the Japanese keyboard and allow you to convert it to katakana or kanjis. The suggestion/auto-complete should also appear
+####Actual result:
+The suggestion/auto-complete bar appears for a split second before disappearing  and you can't convert your input to katakana or kanji
+####Client settings:
+TestFlight Build 2.3.2 (4280)
+####System settings:
+iPhone 6 iOS 10.3.2
+
+12251
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-09T01:43:33.054Z
+
+
+### Can reproduce.
+Can Reproduce - iPhone 6s iOS 11.3.1 TestFlight 2.3.2 (4280)
+
+Rashaun#9295 - Bug Bot on 2018-05-09T01:43:41.514Z
+
+
+### Can reproduce.
+CR; -iPhone 5s iOS 11.3.1 TestFlight 2.3.2 (4280)
+
+MeowthenA#9256 - Bug Bot on 2018-05-09T01:43:45.473Z
+
+
+### Can reproduce.
+iPhone X iOS 11.3.1 - TestFlight 2.3.1
+
+DreaM#0001 - Bug Bot on 2018-05-09T01:43:50.471Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS  11.3, TestFlisht 2.3.2 (4280)
+
+Don#9396 - Bug Bot on 2018-05-09T05:29:15.335Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4280)
+
+Xylium#1480 - Bug Bot on 2018-05-09T10:18:07.442Z
+
+
+### Also happens on search bar input and with Mandarin along with Chinese keyboard input.
+
+Danny#0007 - Bug Bot on 2018-05-09T18:54:48.582Z
+
+
+### Moved from User Reported Bugs to Quick Switcher by Fanghao on 2018-05-09T20:43:13.141Z
+
+
+### Moved from Quick Switcher to Fix made, not yet released by Sam Shih on 2018-05-10T21:23:44.225Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-05-24T00:51:17.714Z
+
+
+### While I was not able to reproduce this bug with quickswitcher. I am indeed still able to reproduce with the server search on iPhone 8 + running iOS 12 (Dev Beta 2) with Discord TestFlight 2.3.4 (5425). 
+
+It is happening with the following keyboards:
+- Japanese Romaji
+- Japanese Kana
+
+Because I was able to reproduce with server search, I have edited the ticket and will be moving to Reopened for the remaining case. - Ghoul on 2018-06-26T21:28:09.714Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Ghoul on 2018-06-26T21:28:27.876Z
+
+
+### 54D#1357 - https://youtu.be/Lmzii3mxI8U added by Bug Bot on 2018-07-14T05:07:36.603Z
+
+
+### Cannot reproduce anymore as of TestFlight 2.5.2 (13014) with iPad Pro 11" running iOS 12.2. The auto-complete appears now and I can choose between the different options.
+
+Moving to Claimed Fixed list. - Pascal on 2019-04-12T21:53:00.410Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Pascal on 2019-04-12T21:53:08.752Z
+
+
+### Can't reproduce.
+TestFlight 2.5.2 (13014) iPhone 6s iOS 12.3 Dev Beta 2
+
+Rashaun#8467 - Bug Bot on 2019-04-12T23:00:29.498Z
+
+
+### Can't reproduce.
+CNR - iPhone 6s, iOS 12.3 (16F5129d) - TestFlight 2.5.2 (13730)
+
+Isabel#0002 - Bug Bot on 2019-04-13T01:51:51.819Z
+
+
+### Can't reproduce.
+ipad mini 3 ios 11.4.1, tf 2.5.2 (13730)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-13T06:52:22.768Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-13T06:52:22.982Z
+
+
+### Archived by Bug Bot on 2019-05-13T07:00:23.894Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

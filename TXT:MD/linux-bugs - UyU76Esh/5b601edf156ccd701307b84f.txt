@@ -1,0 +1,80 @@
+Discord doesn't remember screen position when closed. (https://trello.com/c/1Kpbwoli)
+
+P3: Will eventually be fixed,
+low
+
+Created: 2018-07-31T08:33:35.185Z
+Latest Update: 2019-03-23T07:35:04.113Z
+
+Reported by Jiiro#1337
+
+####Steps to reproduce:
+- Open Discord 
+- Force Close Discord (In Linux settings I disabled minimize to tray) 
+- Open Discord again after closing 
+- Observe, it will go down
+
+####Expected result:
+Discord is supposed to stay in same position after being force closed and opened again
+####Actual result:
+Discord goes down every time I force close and open, none of the apps I own that are based on Electron have the same problem, such as Visual Studio Code
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 20243
+####System settings:
+[SPECIFIC DISTRO AND VERSION] - OS: Ubuntu 18.04.1 LTS x86_64
+
+16480
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-31T08:33:35.185Z
+
+
+### Jiiro#1337 - https://www.youtube.com/watch?v=1aopV4dpFJo added by Bug Bot on 2018-07-31T08:33:37.479Z
+
+
+### Can reproduce.
+Ubuntu 18.04.1  Canary 20243\
+
+Raizyr#0007 - Bug Bot on 2018-07-31T08:33:42.471Z
+
+
+### Can reproduce.
+CR Ubuntu 16.04 x86_64 4.15.0-29-generic Canary 20243
+
+Frovy#6820 - Bug Bot on 2018-07-31T08:33:47.491Z
+
+
+### Can reproduce.
+[CR] Ubuntu 16.04, Canary.
+
+Bean#0001 - Bug Bot on 2018-07-31T08:33:52.614Z
+
+
+### Can reproduce.
+Can Reproduce ¬ Manjaro Linux 18.0 (Illyria) x86_64 - Kernel Version 4.18.0-1-MANJARO - KDE Plasma 5.13.3 - 7.7GiB of RAM ¬ Discord Canary Build 20433
+
+Kydros Elizabeth LeSaki#3217 - Bug Bot on 2018-08-01T06:28:19.925Z
+
+
+### Can reproduce.
+Can reproduce, Ubuntu 18.04 amd64, Canary 0.0.53 Build 20433
+
+Lava#9562 - Bug Bot on 2018-08-01T15:15:58.898Z
+
+
+### Can reproduce.
+ArchLinux x64 - Linux Kernel 4.17.11-1 - GNOME 3.28.2 - Discord Canary Build 20644
+
+Frances Picard#6209 - Bug Bot on 2018-08-03T12:41:11.237Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-08-30T22:02:55.742Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

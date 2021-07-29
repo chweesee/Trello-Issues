@@ -1,0 +1,82 @@
+[Archived] Double clicking outside of a toggle in user settings will sometimes cause the toggle to lag when moving (https://trello.com/c/VJT5obZg)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-08-09T20:18:11.454Z
+Latest Update: 2019-01-11T00:02:42.139Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to "Text & Images" in user settings 
+- Double click outside any of the toggles, making sure you're still in the row for that toggle 
+- Observe the toggle
+
+####Expected result:
+toggle switches off and on
+####Actual result:
+Toggle lags while moving
+####Client settings:
+Canary Build 21440
+####System settings:
+Win 10 x64 1803
+
+17218
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-09T20:18:11.454Z
+
+
+### Can reproduce.
+I get a lot of lag when testing this... Windows 10 Pro x64, Release Channel: Canary 21440
+
+» a r i a#1593 - Bug Bot on 2018-08-09T20:18:18.839Z
+
+
+### Can reproduce.
+can reproduce, more likely a cpu spike for me. Windows 10 Home SL 1803 x64 • Canary 21440
+
+MakiTheLegend#5027 - Bug Bot on 2018-08-09T20:18:23.844Z
+
+
+### Can reproduce.
+When testing this I opened resource monitor and there was a 13X increase in CPU usage when this occurred. WIN7 enterprise Canary 21440
+
+Uptightjoker#0001 - Bug Bot on 2018-08-09T20:18:28.821Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 21209
+
+Delite#0001 - Bug Bot on 2018-08-09T21:58:12.019Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T21:54:04.220Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T21:54:14.458Z
+
+
+### can no longer reproduce.  - Clayton on 2018-10-04T00:45:25.359Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-04T00:45:30.453Z
+
+
+### Can reproduce.
+CR; Appears on every clicks, and on all switches/toggles; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 29340
+
+Longinus#0293 - Bug Bot on 2018-12-11T05:17:43.283Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:42.142Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

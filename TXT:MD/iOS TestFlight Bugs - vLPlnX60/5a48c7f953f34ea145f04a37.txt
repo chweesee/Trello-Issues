@@ -1,0 +1,142 @@
+[Archived] Send button will be shorten for some languages after language change (https://trello.com/c/NWgwTDes)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2017-12-31T11:20:25.760Z
+Latest Update: 2019-09-18T10:01:17.382Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Open any text channel 
+- Open the user settings by clicking on the cog 
+- Click on language and change your language to German (might happen also with other languages that have the same or even longer size for the send button) 
+- Close the user settings 
+- Observe the send button
+
+####Expected result:
+The send button shouldn't be shorten after language change.
+####Actual result:
+The send button will be shorten to "S..n". The whole word "Senden" should be shown. Issue can only be fixed by restarting the app and it happens for all text channels.
+####Client settings:
+TestFlight 2.2.0 (1982)
+####System settings:
+iPhone 6s, iOS 11.2.1 & iPad Air 2, iOS 11.2.5 Public Beta 2
+
+7485
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-31T11:20:25.760Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a48c7f953f34ea145f04a37/02a282ad3c9670b78e52d5e3d0e3f051/wNe64gN.jpg added by Bug Bot on 2017-12-31T11:20:28.278Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.0 (1982)
+
+HeroGamers#4574 - Bug Bot on 2017-12-31T11:20:33.194Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 11.2.5 (PB2), Discord TF 2.2.0 (1982)
+
+Ghoulish-Fantasy#4567 - Bug Bot on 2017-12-31T11:20:38.179Z
+
+
+### Can reproduce.
+CR, Discord Testflight 2.2.0 (1982), iOS 10.3.3, iPhone 5S
+
+Ene#3002 - Bug Bot on 2017-12-31T11:20:43.222Z
+
+
+### Can reproduce.
+iPhone 5C, iOS 10.3.3, TestFlight 2.2.0 | The word "Seden" just shorten into "S...en" on my device but then returns to normal when the app is restarted.
+
+Jimmi#3030 - Bug Bot on 2017-12-31T11:42:14.330Z
+
+
+### Can reproduce.
+iPad2 iOS 9.3.5
+
+Nukey6#4055 - Bug Bot on 2018-01-01T03:38:45.533Z
+
+
+### I can reproduce this P3, moving to Verified Bugs. 
+
+Discord 2.2.0 (2042), iOS 11.2.1, iPhone 8 Plus - Alexandru Todea on 2018-01-03T06:50:51.787Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2018-01-03T06:50:55.802Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5560). The whole word, Senden is now shown instead of being covered in dots. I used iPhone 8 + running iOS 12 (Dev Beta 2).
+
+i am moving this ticket to Claimed Fixed as I am unable to reproduce anymore. - Ghoul on 2018-07-03T00:52:20.151Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T00:53:20.076Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:51.535Z
+
+
+### Marking this issue as blocked because https://trello.com/c/Cf0xgI4f prevents (and also prevented) testing it. The language doesn't change instantly for the send button, so you cannot test it at the moment. I will check the issue again once the linked ticket is fixed.
+
+Moving back to Backlog. - Pascal on 2019-04-05T09:49:38.518Z
+
+
+### Moved from Claimed Fixed Bugs to Backlog by Pascal on 2019-04-05T09:49:46.478Z
+
+
+### Unarchived by Pascal on 2019-04-05T09:49:46.554Z
+
+
+### Archived by Bug Bot on 2019-05-09T20:30:25.467Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.4 (15896) iPhone 8 Plus running iOS 12.3.2.
+
+The linked issue is not fixed completely but the language of the send button will now change instantly and it doesn’t get cut off.
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-20T08:39:34.268Z
+
+
+### Unarchived by Pascal on 2019-06-20T08:39:42.727Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-06-20T08:39:50.851Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 (dev beta 4) - TestFlight 3.0.4 (15896)
+
+Xylium#5800 - Bug Bot on 2019-06-20T08:51:58.853Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.4 (15896)
+
+binchlord#0998 - Bug Bot on 2019-06-20T11:58:47.645Z
+
+
+### Can't reproduce.
+ipad air 2 ios 12.3.1, TestFlight 3.0.4 (15896)
+
+OrangeM24#5746 - Bug Bot on 2019-06-20T14:21:32.594Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-20T14:21:32.889Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:17.395Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

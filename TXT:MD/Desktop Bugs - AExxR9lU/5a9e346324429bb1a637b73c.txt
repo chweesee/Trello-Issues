@@ -1,0 +1,76 @@
+[Archived] Rich embeds/OpenGraph embeds redirects to an another page if there is an URL in the title and that you trust the "real" URL behind the title (check the video) (https://trello.com/c/01h1E5bm)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-06T06:25:39.626Z
+Latest Update: 2018-10-22T20:18:41.420Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Post a rich embed/Open graph link that embeds with a title that has an URL which takes you to somewhere else 
+- Trust the real domain (where the title SHOULD redirect you) 
+- Press on the title
+
+####Expected result:
+It should take you to the right link which is embedded in the title
+####Actual result:
+It takes you to the link put in the rich embed title
+####Client settings:
+Discord Canary 0.0.203 (11585)
+####System settings:
+Windows 10 Pro 64-bit (1709)
+
+9369
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-06T06:25:39.626Z
+
+
+### Tarek#1337 - https://youtu.be/fc0WE8z3LLk added by Bug Bot on 2018-03-06T06:25:42.415Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 11585
+
+mrkirby153#7840 - Bug Bot on 2018-03-06T06:25:47.292Z
+
+
+### Can reproduce.
+Ubuntu 17.10 x64, Canary 11585
+
+KJP12#3880 - Bug Bot on 2018-03-06T06:25:52.304Z
+
+
+### Can reproduce.
+CR win 10 x64 canary 11585
+
+ks#0908 - Bug Bot on 2018-03-06T06:25:57.466Z
+
+
+### I used this to generate a rich embed on a webhook: https://gist.github.com/Tarek1337/8ff9a62124ac46a72afc5ae286de1f21 - Tarek on 2018-03-06T06:26:13.398Z
+
+
+### Can reproduce.
+CR on iPhone 8 +, iOS 11.3 PB3, Discord TestFlight 2.2.5 (2894) and Windows 10 Professional x64, Discord Canary Build 11585
+
+Ghoul#0009 - Bug Bot on 2018-03-06T12:45:45.962Z
+
+
+### Verified.  - Clayton on 2018-03-07T21:59:49.701Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-07T21:59:54.526Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:41.422Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

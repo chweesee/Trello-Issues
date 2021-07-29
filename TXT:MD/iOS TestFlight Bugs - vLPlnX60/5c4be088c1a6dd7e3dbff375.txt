@@ -1,0 +1,125 @@
+[Archived] [iPad with iOS 12+ only] Tick for saving cropping of emoji/avatar overlaps with the status bar (https://trello.com/c/KQdfQYkg)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-01-26T04:22:32.480Z
+Latest Update: 2019-10-12T11:26:11.180Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Make sure you are using your iPad in Landscape Mode 
+- Open any server with Manage Emojis permission 
+- Go to your server settings 
+- Open Emojis 
+- Upload a new emoji 
+- Observe the yellow tick in the top left corner
+
+####Expected result:
+The yellow tick shouldn’t overlap with the clock in the status bar or the status bar should get removed completely when editing the image (same behavior as the Photos app for example).
+####Actual result:
+It will overlap with it. Also the editing tools for the image look a bit incorrectly spaced.
+####Client settings:
+TestFlight 2.4.2 (10773)
+####System settings:
+iPad Pro 11“, iOS 12.1.3 (PB 4)
+
+26732
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-26T04:22:32.480Z
+
+
+### Spooker#0001 - undefined added by Bug Bot on 2019-01-26T04:22:34.960Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c4be088c1a6dd7e3dbff375/83d1daa5118c56ca833687a3db8234e7/fPKvyvu.jpg added by Bug Bot on 2019-01-26T04:22:36.438Z
+
+
+### Can reproduce.
+CR; iPad Air, iOS 12.1.1, TF 2.4.2 (10773)
+
+charleskimbac#6492 - Bug Bot on 2019-01-26T04:22:39.824Z
+
+
+### Can reproduce.
+Could reproduce with only an iPad Pro 11". I was unable to reproduce this using an iPad Air 2 and iPad Mini 3 — bug might be exclusive to iPad Pro. All of the devices were running IOS 12.1.1, and the Discord build was Testflight 2.4.2 (10773).
+
+Lentralkestor#2016 - Bug Bot on 2019-01-26T04:22:44.894Z
+
+
+### Can reproduce.
+Can reproduce. iPad mini 3, iOS 12.1.2, TestFlight 2.4.3 (10928) - - Additionally, the cropping selection corners/border overlap the status bar on smaller devices (such as my ipad mini)
+
+Solo#0007 - Bug Bot on 2019-01-26T04:22:49.820Z
+
+
+### Removed the video as it was an incorrect attachment. - Ghoul on 2019-01-26T08:41:34.908Z
+
+
+### Can reproduce.
+CR iPad 5th gen iOS 12.1.1, TF 2.4.2 (10773)
+
+🎇Legenda🎇#3473 - Bug Bot on 2019-01-26T17:14:45.488Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-02-08T19:00:10.634Z
+
+
+### Archived by Bug Bot on 2019-03-10T19:30:10.631Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c4be088c1a6dd7e3dbff375/e519237447f17bde7a6d5ad7819c2121/sqwQEAL.jpg added by Bug Bot on 2019-03-28T18:33:27.989Z
+
+
+### **Extension to this issue**
+
+- Again use an iPad with iOS 12+
+- Make sure you are using your iPad in Landscape Mode
+- Open any uploaded image preview
+- Tap on the image to open the image options
+- Observe the status bar (see second image for an example) overlapping with the image options
+
+Pascal#0929 - Bug Bot on 2019-03-28T18:36:12.197Z
+
+
+### Unarchived by Bug Bot on 2019-03-28T19:00:06.765Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 12.3, TF 3.0.2 (15022) also happens with the text at the top of a VC
+
+Maltzant#9154 - Bug Bot on 2019-05-18T22:28:18.503Z
+
+
+### binchlord#0998 - https://imgur.com/a/hh4evQH.png added by Bug Bot on 2019-05-25T15:37:25.073Z
+
+
+### Can reproduce.
+iPad Air iOS 12.2 TestFlight 3.0.2 (15253) also happens to vc channel names
+
+binchlord#0998 - Bug Bot on 2019-05-25T15:37:53.885Z
+
+
+### As of TestFlight 3.0.5 (15973) the issue with voice channels and image previews **is fixed**, only the original issue still happens.
+
+Therefore decreased the priority to P3 low again. - Pascal on 2019-06-30T11:28:10.197Z
+
+
+### Can reproduce.
+iPad mini 4 iOS 12.3.1 Testflight 3.0.6 (16208)
+
+GlenMerlin#2119 - Bug Bot on 2019-07-17T18:54:46.169Z
+
+
+### Archived by Bug Bot on 2019-08-16T19:00:03.133Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

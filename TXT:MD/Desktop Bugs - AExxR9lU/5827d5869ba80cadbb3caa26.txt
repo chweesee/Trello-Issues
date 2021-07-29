@@ -1,0 +1,77 @@
+[Archived] Users list not allowing scroll to bottom (https://trello.com/c/9OmDpl2V)
+
+None
+
+Created: 2016-11-13T02:52:54.717Z
+Latest Update: 2017-10-17T21:17:29.547Z
+
+Reported by Ebear#8746
+
+####Steps to reproduce: 
+- Go to server with offline users 
+- Attempt to scroll to the bottom (right side panel) 
+
+####Expected result:
+ Discord allows the user to scroll to the bottom of the users. This only happens on some servers, very infrequently. 
+####Actual result:
+ Discord keeps bumping up slightly from bottom
+
+Card Log
+========
+### Added by Jared on 2016-11-13T02:52:54.717Z
+
+
+### 81830617603379200 - http:// http://i.imgur.com/IW3orQ7.gif added by Jared on 2016-11-13T02:54:05.221Z
+
+
+### Can't reproduce.
+The bug seems to be random, it did happen to me in past but there are no reliable reproduction steps
+
+KockaAdmiralac#9306 - Jared on 2016-11-13T06:15:47.688Z
+
+
+### Can't reproduce.
+canary latest, bug is random, it has happened to me in the past but it sporadic with no known reproduction steps
+
+Peach#0005 - Jared on 2016-11-13T06:23:00.252Z
+
+
+### 102086612246089728 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5827d5869ba80cadbb3caa26/da1aefd88a438f317c166782fdd65c2d/IW3orQ7.gif added by Jared on 2016-11-13T17:17:09.781Z
+
+
+### Can reproduce.
+Recreated across two seperate clients with two seperate accounts. First client skipping between "=DG=Accuser" and "=DG=Stealth", second client is skipping between "Full Clan Member-4" and "=DG=Accuser." The Elements changes may give some insight. Could not be recreated by two other users, only currently being recreated on my PC. Windows 10 x64 Pro, Not Anniversary. Resolution 1920x1080. Window size of first client: Unknown, maximized before taking measurements. Window size of second client: 901x653. The actual jump seems to change position based on window height, however. Position also seems to vary with how many people are online, and is not dependent on role placement/roles shown.
+
+«DG»MyHogs#3999 - Jared on 2016-11-14T10:24:47.288Z
+
+
+### 148231501413089280 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5827d5869ba80cadbb3caa26/1d97d5e4c24509f991ab799117e96bd1/24f24f3e8a.gif added by Jared on 2016-11-14T10:25:15.654Z
+
+
+### Cannot reproduce.  The list scrolls to the bottom as expected. - Jared on 2016-11-22T19:33:50.311Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-11-22T19:33:54.419Z
+
+
+### I found out recently that this is caused by a mis-sizing of the window. Specifically, by 1px. Just adjust your window and it'll start working again. - Jared on 2016-12-07T21:30:47.299Z
+
+
+### Moved from Cannot Reproduce to Won't Fix. Dead Bug by Jared on 2016-12-07T21:30:54.959Z
+
+
+### mralext20#8975 - https://cdn.discordapp.com/attachments/197038439483310086/281654038079209472/2017-02-15-2236-46.flv added by Jared on 2017-02-16T05:19:27.690Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:17:28.447Z
+
+
+### Archived by Jared on 2017-10-17T21:17:29.549Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

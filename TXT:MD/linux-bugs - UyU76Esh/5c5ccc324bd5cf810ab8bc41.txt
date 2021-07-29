@@ -1,0 +1,112 @@
+Dragging category causes the div background to turn white (https://trello.com/c/wLQDEERZ)
+
+None
+
+Created: 2019-02-08T00:24:18.576Z
+Latest Update: 2019-12-11T05:01:49.199Z
+
+Reported by Rojue#2754
+
+####Steps to reproduce:
+- Load discord 
+- Open a discord guild where you have permission to edit channels/categories 
+- Navigate to any channel 
+- Make sure that you can see: The member list, Channel drawer, and channel chat 
+- Attempt to move a category to another location, by clicking and holding the category name, and dragging it anywhere
+
+####Expected result:
+The "div" of the category name should remain the same color as before (white or gray, depending on discord theme)
+####Actual result:
+The "div" of the displayed category name becomes white, as if the css has been removed.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 31744, Version Hash: e5d29f79494952fb1313b8fa2eb0356115f1826c
+####System settings:
+[Linux Kernel - 4.20.6-arch1-1-ARCH] [lxdm - display manager] [i3 - window manager] [Device - HP StreamLaptop 14-cb1Xx]
+
+27996
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-08T00:24:18.576Z
+
+
+### Can reproduce.
+LMint 19.1 Cinnamon (4.0.8) - Canary 31792
+
+dafaqed#1312 - Bug Bot on 2019-02-08T00:24:25.966Z
+
+
+### Can reproduce.
+Lubuntu 18.04, Canary 31795
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-08T00:24:30.951Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10, Windows application
+
+Lengo#0001 - Bug Bot on 2019-02-08T00:24:35.913Z
+
+
+### Can reproduce.
+Lubuntu 18.10 - Discord Canary 31974
+
+Seikatsu#0001 - Bug Bot on 2019-02-11T12:12:46.869Z
+
+
+### Can't reproduce.
+Razer Blade Pro, Ubuntu 18.04.1 LTS (64-bit), Gnome 3.28.2, Discord Canary 31974
+
+KazWolfe#2896 - Bug Bot on 2019-02-11T18:23:23.904Z
+
+
+### Can't reproduce.
+Can not reproduce on Unbuntu 18.04, Buld 31908
+
+LProgead#2844 - Bug Bot on 2019-03-01T06:53:01.224Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS -- Canary 34126
+
+Defracted#7777 - Bug Bot on 2019-03-16T16:03:51.837Z
+
+
+### Can't reproduce.
+Linux Mint 18.3 x64, 4.10.0, Canary 34463
+
+enveeed#5769 - Bug Bot on 2019-03-24T11:37:28.885Z
+
+
+### Can't reproduce.
+Release Channel: canary, Build Number: 45554, Version Hash: 5a2baf6247643be2cd67cc43393a5de3b04de82f Ubuntu 19.04
+
+techied#0110 - Bug Bot on 2019-09-12T18:50:13.404Z
+
+
+### Can't reproduce.
+Release Channel: stable, Build Number: 46505, Version Hash: fb56522df8e3fa7e26143ad9c0ead64bb8146941, Pop!_OS 18.04
+
+GoofballMichelle#9215 - Bug Bot on 2019-09-29T00:12:06.012Z
+
+
+### Cannot Reproduce Anymore, moving to claimed fixed
+
+Canary 51182 - Pop! OS 19.10 - mrkirby153 on 2019-12-11T04:04:20.551Z
+
+
+### Moved from User Reported to Claimed Fixed by mrkirby153 on 2019-12-11T04:04:24.628Z
+
+
+### Can't reproduce.
+CNR, Ubuntu 19.04, Canary 51182
+
+Action Potential#6862 - Bug Bot on 2019-12-11T05:01:49.213Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

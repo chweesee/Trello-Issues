@@ -1,0 +1,77 @@
+[Archived] Battery Draining caused by Game Detection [Master Ticket] (https://trello.com/c/UcHcfDGb)
+
+None
+
+Created: 2018-11-21T22:11:55.474Z
+Latest Update: 2019-06-10T20:44:09.675Z
+
+If you are experiencing the battery drainage due to the game detection, please drop a !canrepro. 
+
+We will need your Android Alpha version, device info, and android OS. As well any additional information that may be relevant to the battery drainage such as how much percentage in x minutes / hours. 
+
+Card Log
+========
+### Added by Ghoul on 2018-11-21T22:11:55.474Z
+
+
+### Can reproduce.
+Discord Alpha 7.9.9, Huawei Mate 9 Android 8.0 (untested on 8.0.0).
+https://cdn.discordapp.com/attachments/217764019661045761/514926591512674325/IMG_20181121_134458.jpg This picture shows my battery usage starting from the moment when I woke up this morning (at approx 6 AM) until around 12 PM. So my battery went down from 100% to 50% in a span of 6 hours, which usually never happens (I'm usually at 30% in the end of the whole day). While I'm in school, my phone is locked most of the time, I practically never use it. My guess is that one of the causes of the battery drain is the fact that the game detection service is running even while the phone is locked, which would indeed eat up resources for nothing. I think the service should be running only when we are actively using the phone, and should better be paused when the phone is locked or idle.
+
+Alex1304#9704 - Bug Bot on 2018-11-21T22:31:10.783Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 running Android 8.1 • Alpha 8.0.0 (800)
+
+FoxyKero#9941 - Bug Bot on 2018-11-22T04:24:49.188Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 8.0 (Oreo), Android Alpha 8.0.0 (800) -- Battery drain and intensive RAM usage raised my phone's temperature making it almost unusable.
+
+DeJay#1337 - Bug Bot on 2018-11-22T04:31:05.794Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 8.0.0
+
+ahhhh#6980 - Bug Bot on 2018-11-22T16:14:54.676Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 8.0.0 3000mAh battery, drainage was 4% in 29 minutes
+
+ahhhh#6980 - Bug Bot on 2018-11-22T16:25:12.646Z
+
+
+### Can reproduce.
+Huawei P8 Lite, Android 8.0.0
+
+Folfy Blue#7230 - Bug Bot on 2018-12-01T20:13:04.120Z
+
+
+### Can reproduce.
+Mi A2, Android 9 - Android Alpha 8.3.4g, dropped from 43% to 13% in an hour with phone locked. Also my phone seemed to have warmed in the meantime. Only data active with battery saver enabled, GPS turned off and discord the only app running (locked phone when app open)
+
+Bsian#2061 - Bug Bot on 2019-01-24T15:11:08.234Z
+
+
+### Can reproduce.
+Nexus 5x, Android 8.1, Alpha 8.3.5g
+
+criptixo#0001 - Bug Bot on 2019-01-28T21:19:08.293Z
+
+
+### Moved from Game Detection Bugs to Verified Bugs by Jeff Cailteux on 2019-01-30T20:21:13.060Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:09.686Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

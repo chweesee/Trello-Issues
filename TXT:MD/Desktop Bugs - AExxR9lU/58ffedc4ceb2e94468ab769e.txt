@@ -1,0 +1,90 @@
+[Archived] When clicking on a mention of a channel that you can no longer see (ChannelMention = <#197038477953597440> thing) (https://trello.com/c/PyN5avRo)
+
+P3: Will get fixed eventually
+
+Created: 2017-04-26T00:45:56.194Z
+Latest Update: 2018-10-22T20:13:47.409Z
+
+Reported by Alkali_Metal#7806
+
+####Steps to reproduce: 
+- Be in a server where you can see at least 2 channels and are not the owner 
+- Mention a channel that you can see in one of the other channels that you can send messages in 
+- Send the message when you can still see the channel 
+- Change the permissions / make it so that you can no longer see the channel you mentioned (or have someone else do it for you) 
+- Click on the mention for the channel 
+
+####Expected result:
+ It should either give an error or do nothing 
+####Actual result:
+ The click takes you to the channel (makes it visible) and you can read back to a certain point and then it just stops loading messages completely 
+####System settings:
+ Ubuntu 16.04 LTS, Latest Canary
+
+1224
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-26T00:45:56.194Z
+
+
+### Can reproduce.
+Win10x64CU, Canary 0.0.153
+
+Mikesky#3456 - Bug Bot on 2017-04-26T00:45:56.764Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 0.0.153
+
+OGNovuh#0014 - Bug Bot on 2017-04-26T00:45:58.836Z
+
+
+### Can reproduce.
+latest canary
+
+Mippy | Discord BH#1483 - Bug Bot on 2017-04-26T00:46:00.867Z
+
+
+### Verified.  - Clayton on 2017-04-28T20:36:11.028Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-28T20:36:14.073Z
+
+
+### Can reproduce.
+Surface Pro 3, Windows 10 Pro 1703 (15063.483), Discord Canary 0.0.163
+
+advaith#9121 - Bug Bot on 2017-08-01T22:10:58.481Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-16T19:37:36.755Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T21:19:43.746Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 Home x64 v1709
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T16:11:42.212Z
+
+
+### Wolterhon#3938 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58ffedc4ceb2e94468ab769e/6f2ef4bb140bd0a9673cef28611acae4/OuUNwSS.gif added by Bug Bot on 2018-07-15T06:47:06.242Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:47.411Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

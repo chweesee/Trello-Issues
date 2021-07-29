@@ -1,0 +1,95 @@
+Guild list/visual artifacts will appear on top of the settings window when spam opening User Settings with hotkey (https://trello.com/c/3wNRH1Uy)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-03-21T17:12:28.247Z
+Latest Update: 2019-04-02T20:41:53.829Z
+
+Reported by sliceofcode#8768
+
+####Steps to reproduce: 
+ - Press the user settings button.
+ - Very fast leave the user settings modal by hitting ESC.  
+
+####Expected result:
+ User Settings will open without any visual glitches 
+####Actual result:
+ Sometimes, while the animation is occurring, visual glitches will occur: guild list, header, and channel message textarea can appear over the settings window, but disappears when the animation completes 
+####System settings:
+ Arch Linux x64, Discord Canary
+
+2117
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-21T17:12:28.247Z
+
+
+### Can reproduce.
+arch 0.15
+
+Alex from Alaska#8575 - Bug Bot on 2017-03-21T17:12:30.560Z
+
+
+### Can reproduce.
+Arch LinuxCanary
+
+Kurai#1637 - Bug Bot on 2017-03-21T17:12:31.013Z
+
+
+### Can reproduce.
+Windows 10x64, latest Canary
+
+Chrees#4389 - Bug Bot on 2017-03-21T17:12:33.056Z
+
+
+### Can reproduce.
+Latest Canary
+
+Andrew.#6465 - Bug Bot on 2017-03-21T17:17:34.731Z
+
+
+### sliceofcode#8768 - http://i.imgur.com/9koZAVr.gifv added by Bug Bot on 2017-03-21T17:19:42.138Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Jared on 2017-03-21T21:36:47.768Z
+
+
+### Can reproduce.
+Win10x64 Canary latest (as of timestamp)
+
+Concerned Hobbit#6295 - Bug Bot on 2017-03-21T21:40:42.028Z
+
+
+### Concerned Hobbit#6295 - http://i.imgur.com/TbTrLA3.gifv added by Bug Bot on 2017-03-21T21:41:32.739Z
+
+
+### Verified.  - Clayton on 2017-05-27T00:13:33.307Z
+
+
+### Imported from https://trello.com/b/5846f7fdfa2f44d1f47267b0 by Clayton on 2017-05-27T00:14:05.147Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-20T23:25:46.626Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-20T23:25:53.180Z
+
+
+### I can still reproduce this on Canary 17036 by using Windows 10 Pro 64-bit (1803).
+
+Instead of using (ctrl +) hit the cog button to access user settings then use escape quite fast a few times and you'll notice the bug.
+
+Reopening ticket & repro steps has been edited slightly. This is also affecting DM calls getting stuck - Tarek on 2018-06-15T22:39:10.906Z
+
+
+### Moved from Verified Fixed to Reopened by Tarek on 2018-06-15T22:39:59.194Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

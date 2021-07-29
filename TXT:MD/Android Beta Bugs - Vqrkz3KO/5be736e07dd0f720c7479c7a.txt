@@ -1,0 +1,82 @@
+[Archived] Some audit log contents shows duplicate results, in order of wrong timing. (https://trello.com/c/Hg1SxGNC)
+
+None
+
+Created: 2018-11-10T19:52:00.459Z
+Latest Update: 2019-06-05T23:48:42.820Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- Go to audit logs. 
+- Select "Filter by Action", and select "Kick Member" or "Ban Member" (These two are the ones that shows for me). 
+- Notice your results. Some of the logs are duplicated, and ordered in wrong timing. (It may help if your filter doesn't have that many results). 
+- Just a notice: This may not be only limited to Kick and Ban, it can happen elsewhere. Please try other filters as well.
+
+####Expected result:
+There shouldn't be any duplicated results, and the timeline should be in order from the most recent to the oldest.
+####Actual result:
+Duplicate audit logs at random timing order shows.
+####Client settings:
+Discord Alpha 7.8.8
+####System settings:
+LG Fortune, Android 6.0.1
+
+22978
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-10T19:52:00.459Z
+
+
+### Hole#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5be736e07dd0f720c7479c7a/36ee6e1763b29d0372177a325f54ba65/Screenshot_2018-11-10-09-17-02.png added by Bug Bot on 2018-11-10T19:52:02.953Z
+
+
+### Hole#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5be736e07dd0f720c7479c7a/ce34f67b5ea9b7d225740e464f8deb6a/Screenshot_2018-11-10-09-16-55.png added by Bug Bot on 2018-11-10T19:52:03.032Z
+
+
+### Can reproduce.
+Huawei P20 pro, Android 8.1.0, Alpha 7.8.8 (788)
+
+TimThe#1118 - Bug Bot on 2018-11-10T19:52:07.967Z
+
+
+### Can reproduce.
+Can reproduce (Also happened me on changing nickname) 7.8.8 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9566 - Bug Bot on 2018-11-10T19:52:13.060Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 7.8.8
+
+AmirAmani#0102 - Bug Bot on 2018-11-10T19:52:17.926Z
+
+
+### Can reproduce.
+[CR] Razer Phone, Android 8.1.0, Discord Alpha 788
+
+Ardia#7038 - Bug Bot on 2018-11-10T20:52:33.924Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Discord Alpha 7.8.8
+
+avror#0001 - Bug Bot on 2018-11-10T23:01:41.860Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-11-12T21:54:45.944Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-12T06:06:29.015Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:48:42.828Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

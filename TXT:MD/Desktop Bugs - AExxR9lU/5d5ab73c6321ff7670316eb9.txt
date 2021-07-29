@@ -1,0 +1,63 @@
+A Game in my library, when opened, does NOT appear to scale properly (https://trello.com/c/EqRzLb6a)
+
+None
+
+Created: 2019-08-19T14:50:36.353Z
+Latest Update: 2020-07-16T21:26:04.893Z
+
+Reported by JumpSuit#1036
+
+####Steps to reproduce:
+- Find a Game in Discord with a Long Name(I believe this is what causes it to Scale incorrectly) 
+- Open the UI with the options to either 'play', 'Open Server', or 'Follow' Which shows the Activity Feed UI among recent players who have played.
+- If the Discord Name is long enough, the top half of that UI will NOT scale with the bottom half. As well as Game Name appearing to close to the 'Play' Button!
+
+####Expected result:
+Games with long names should scale properly and appear less of a mis-scaled UI.
+####Actual result:
+Opening the Particular Game with a Long Name, the Name almost clips the Play button and right side doesn't scale!
+####Client settings:
+Release Channel: stable, Build Number: 43884
+####System settings:
+Windows 10 Version 10.0.18362.295
+
+42356
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-19T14:50:36.353Z
+
+
+### Suspense#4615 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d5ab73c6321ff7670316eb9/d996f904e16e5678b602fcb8521f1ae3/DiscordGameLibraryBugReportScreenshotExample.png added by Bug Bot on 2019-08-19T14:50:41.231Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 43884
+
+B.O.S.S#0251 - Bug Bot on 2019-08-19T14:50:44.099Z
+
+
+### Can reproduce.
+Windows 10, x64, version: 1803  - Discord Canary 42647
+
+Maesblo#1111 - Bug Bot on 2019-08-19T14:50:49.125Z
+
+
+### Can reproduce.
+Can reproduce, macOS High Sierra, Version: 10.13.6 - Discord Canary 43884
+
+Leaf#0001 - Bug Bot on 2019-08-19T14:50:54.189Z
+
+
+### Can reproduce.
+Windows 10 Pro, 64-bit, Discord Canary 43975 v0.0.305
+
+result = None#2323 - Bug Bot on 2019-08-20T20:18:27.563Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

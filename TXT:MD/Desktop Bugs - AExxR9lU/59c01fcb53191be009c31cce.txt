@@ -1,0 +1,82 @@
+[Archived] Add more vanity URL's to one server. (https://trello.com/c/wvGf7z2T)
+
+None
+
+Created: 2017-09-18T19:34:35.182Z
+Latest Update: 2018-02-22T19:53:06.463Z
+
+Reported by Newbs#0001
+
+####Steps to reproduce:
+- Set Vanity URL for server 
+- Disable read permissions in all channels for (at)everyone role. 
+- Add new vanity URL 
+- Allow read permissions on at least one channel for (at)everyone role.
+
+####Expected result:
+Should update the vanity url to the new one.
+####Actual result:
+Server keeps the old vanity AND the new one.
+####Client settings:
+Discord Canary web-version 0.0.163 Build 4361
+####System settings:
+Windows 10 64-bit
+
+4489
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-18T19:34:35.182Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (Build 4361) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-18T19:34:42.629Z
+
+
+### Can reproduce.
+CR, Canary 4361, W10
+
+byParallax#0440 - Bug Bot on 2017-09-18T19:34:47.670Z
+
+
+### Can reproduce.
+Windows 10 x64 Creator's Update Canary 0.0.163 Build 4361
+
+Mikesky#3456 - Bug Bot on 2017-09-18T19:34:52.658Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by b1naryth1ef on 2017-09-27T23:44:17.778Z
+
+
+### Verified, looking into it. - b1naryth1ef on 2017-09-27T23:44:23.384Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by b1naryth1ef on 2017-09-28T00:26:29.490Z
+
+
+### Tracked this down and PR'd a fix, should go out during the next API deploy. - b1naryth1ef on 2017-09-28T00:26:39.831Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jared on 2017-10-17T23:23:40.065Z
+
+
+### Verified Fixed - Jared on 2018-01-17T19:32:10.635Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T19:32:14.130Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:53:05.612Z
+
+
+### Archived by Tarek on 2018-02-22T19:53:06.465Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

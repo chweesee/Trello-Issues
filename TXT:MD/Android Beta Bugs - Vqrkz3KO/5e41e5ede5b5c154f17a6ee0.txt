@@ -1,0 +1,111 @@
+Following very specific reproduction steps causes the billing method to look for a unidentified string (https://trello.com/c/Za9gZbs7)
+
+None
+
+Created: 2020-02-10T23:23:25.956Z
+Latest Update: 2020-02-19T23:11:05.275Z
+
+Reported by Sanjay#0540
+
+####Steps to reproduce:
+- Obtain a Nitro(Full, 9.99) Gift and redeem 
+- Go to User Settings > Manage Nitro  
+- Cancel your current subscription (wont make an affect since its a gift)  
+- Restart your application  
+- Go back to manage nitro page 
+- Observe.
+
+####Expected result:
+It should say under billing information "You're 9.99 subscription will expire on <date>"
+####Actual result:
+It says "You're 2131889967 subscription will expire on <date>"
+####Client settings:
+1032
+####System settings:
+Google Pixel 3a, Android 10
+
+52503
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-10T23:23:25.956Z
+
+
+### Can reproduce.
+Discord 10.3.3 OnePlus 5 Android 9 (Pie)
+
+Tarek#1337 - Bug Bot on 2020-02-10T23:23:33.573Z
+
+
+### Can reproduce.
+Discord 1033 — Huawei Y9, Android 9
+
+Bullseye#8200 - Bug Bot on 2020-02-10T23:23:38.627Z
+
+
+### Can reproduce.
+Samsung Galaxy A5 Android Version 8.0 discord 10.3.3
+
+Michael L.#2001 - Bug Bot on 2020-02-10T23:23:43.540Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2020-02-11T22:32:10.428Z
+
+
+### Can reproduce.
+Can still repro on Android 9 Huawei Y9, Discord 1033.
+
+Bullseye#8200 - Bug Bot on 2020-02-12T13:22:15.441Z
+
+
+### Can reproduce.
+Redmi 6, Android 9, Discord Alpha 1032
+
+Just a Regular Talking Box#5472 - Bug Bot on 2020-02-12T15:36:38.487Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord 10.4.0 (1036)
+
+Jean20B#4668 - Bug Bot on 2020-02-14T17:09:53.813Z
+
+
+### Can't reproduce.
+Can no longer reproduce, -a, 1041
+
+Sanjay#0540 - Bug Bot on 2020-02-14T23:42:51.290Z
+
+
+### Can't reproduce.
+Can no longer reproduce, Pixel 3a, Android 10, 1041
+
+Sanjay#0540 - Bug Bot on 2020-02-14T23:44:00.614Z
+
+
+### Can't reproduce.
+Can no longer reproduce, Redmi 6, Android 9, 10.4.1
+
+Just a Regular Talking Box#5472 - Bug Bot on 2020-02-15T12:46:41.752Z
+
+
+### Can't reproduce.
+Samsung Galaxy J5, Android 6.0.1, Discord 1032
+
+Khan10#0658 - Bug Bot on 2020-02-15T15:51:34.537Z
+
+
+### Can't reproduce.
+CNR, Samsung Galaxy S8 Android 8, Discord 10.4.1
+
+Action Potential#1999 - Bug Bot on 2020-02-19T23:11:04.873Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2020-02-19T23:11:05.286Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

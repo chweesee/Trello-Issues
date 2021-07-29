@@ -1,0 +1,58 @@
+When you join a VC that requires PTT, you hear 2 sounds at the same time while disconnecting if you use Voice detection mode (https://trello.com/c/jGLEhRba)
+
+None
+
+Created: 2019-06-10T22:48:29.622Z
+Latest Update: 2020-07-16T21:26:04.155Z
+
+Reported by Kaden303#4560
+
+####Steps to reproduce:
+- Go into a voice channel that uses PTT with voice detection activated in your settings 
+- A pop-up appears 
+- Acknowledge the pop-up 
+- disconnect from the Voice Channel
+
+####Expected result:
+You should only hear the disconnect sound
+####Actual result:
+You hear the unmute **and** disconnect sound **at the same time.**
+####Client settings:
+Browser Release Channel: canary, Build Number: 39152, Version Hash: 07146b02cb3dd5c8b6e1ebc6480d5a3acd98324f
+####System settings:
+Dell Optiplex 5040 with Intel i3-6100 at 3.7 and Intel HD 530 running Discord for Chrome.
+
+36276
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-10T22:48:29.622Z
+
+
+### Can reproduce.
+can reproduce, canary 39387, macos 10.14.3
+
+IcyPebbles#5833 - Bug Bot on 2019-06-10T22:48:37.244Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Canary 39387
+
+Boss#0006 - Bug Bot on 2019-06-11T01:22:54.975Z
+
+
+### Can reproduce.
+Windows 10 Home v1903, Canary 50235
+
+André Paulo#8446 - Bug Bot on 2019-11-25T21:05:59.994Z
+
+
+### André Paulo#8446 - https://youtu.be/4-TD0fmothk added by Bug Bot on 2019-11-25T21:06:08.490Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

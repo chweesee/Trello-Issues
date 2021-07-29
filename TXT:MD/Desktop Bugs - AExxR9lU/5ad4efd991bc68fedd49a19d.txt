@@ -1,0 +1,88 @@
+[Archived] While using Greek as Discord's language the string in VC settings is not inside the user limit tooltip (https://trello.com/c/3fd4w0Os)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-04-16T18:47:53.872Z
+Latest Update: 2018-08-21T23:26:42.124Z
+
+Reported by cutelilberry#0360
+
+####Steps to reproduce:
+- Set Discord's language to Greek 
+- Click the cog next to a voice channel to access the channel's settings 
+- While in the Overview tab hover the cursor over the User limit scroll bar while it is on the far left (unlimited users)
+
+####Expected result:
+The string No limit translated (Κανένα Όριο) should be "inside" the tooltip
+####Actual result:
+The text is outside of the tooltip and behind the scrollbar. Also trying to change the limit will crash Discord
+####Client settings:
+Canary 13630
+####System settings:
+Win10 x64
+
+10814
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-16T18:47:53.872Z
+
+
+### Hazel 💤#5205 - https://youtu.be/6XWdxUdhESg added by Bug Bot on 2018-04-16T18:47:57.573Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 13630
+
+webhp#1337 - Bug Bot on 2018-04-16T18:48:01.293Z
+
+
+### Can reproduce.
+CR, Macbook Air (Early 2015), macOS 10.12.6, Discord Canary (Build 13622)
+
+Rage#0001 - Bug Bot on 2018-04-16T18:48:06.286Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Pro 64-bit (V1709) - Discord Canary 13630
+
+Frost#3230 - Bug Bot on 2018-04-16T18:48:11.388Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 | Discord Canary (13640).
+
+/hash#0001 - Bug Bot on 2018-04-17T15:44:51.853Z
+
+
+### Verified.  - Clayton on 2018-04-17T23:36:32.383Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-17T23:36:39.899Z
+
+
+### I suspected this was a Crowdin bug, since I checked Crowdin for this particular string and the approved string had syntax errors.
+
+I approved an another which doesn't have syntax errors. So hopefully it will fix the issue, 
+Source: https://crowdin.com/translate/discord/2/enus-el#1241 - Tarek on 2018-04-19T06:39:26.218Z
+
+
+### Cannot reproduce anymore, Discord Canary 0.0.210 (16727) on Windows 01 Pro 64-bit (1803). And I was correct, it was a string issue causing the crash. Now it's just overflowing. But it's unsupported per charter. So I am moving this to claimed fixed. - Tarek on 2018-06-11T17:29:26.613Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-06-11T17:29:30.680Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:26:41.188Z
+
+
+### Archived by Jared on 2018-08-21T23:26:42.126Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

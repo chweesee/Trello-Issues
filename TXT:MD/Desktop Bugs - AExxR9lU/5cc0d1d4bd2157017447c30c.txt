@@ -1,0 +1,68 @@
+[Safari Specific] Get Started page slider animation breaks after pressing “Get Started” (Also happens on Edge) (https://trello.com/c/yxVRuNLu)
+
+None
+
+Created: 2019-04-24T21:15:00.855Z
+Latest Update: 2020-07-16T21:26:03.803Z
+
+Reported by Forgi_Forgeth#7294
+
+####Steps to reproduce:
+
+- Create a new account by using an invite link, and make sure you get to the page of "What should everyone call you?" and enter any name 
+- Once you get into the server (skip the claiming of the account) you were invited to, leave the server and you will get a prompt to "get started" on discord 
+- Click the "Get Started" button 
+- Observe the animation as it slides to the next step of creating a server or getting started
+
+####Expected result:
+The slider animation should not break
+####Actual result:
+The slider animation does break
+####Client settings:
+Discord Safari Client - Stable 36215; Safari Version 12.1 (13607.1.40.1.5)
+####System settings:
+macOS High Sierra, Version: 10.13.6
+
+33406
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-24T21:15:00.855Z
+
+
+### Can reproduce.
+This bug was already approved and had been on Trello. However that Trello ticket is nonfunctional due to the issues that caused Bug Bot to go offline during the transfer. So dapproving so it can get there properly in a working manner.
+
+Ghoul#0009 - Bug Bot on 2019-04-24T21:15:08.258Z
+
+
+### Can reproduce.
+Canary 36279, macOS Mojave 10.14, Safari 12.0
+
+Rage#9991 - Bug Bot on 2019-04-24T21:56:44.824Z
+
+
+### Can reproduce.
+MacBook Pro 13" 2016, macOS Mojave 10.14.3, Canary 36215, Safari v12.1
+
+Skyla#0002 - Ghoul on 2019-04-24T22:03:07.472Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Safari v12.1 (14607.1.40.1.4) - Web Canary 36215
+
+Isabel#0002 - Ghoul on 2019-04-24T22:04:35.773Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 36318
+
+Pain#2020 - Bug Bot on 2019-04-25T00:29:54.903Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

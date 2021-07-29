@@ -1,0 +1,89 @@
+[Archived] Cannot leave Edit Channel page. (https://trello.com/c/Bj1CJsyM)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-07-23T08:48:21.846Z
+Latest Update: 2018-08-30T23:17:12.977Z
+
+Reported by Red Scare#3564
+
+####Steps to reproduce:
+- Right click on a text channel and Edit Channel 
+- Give channel nswf prefix and save. If the save box stays, keep saving until it is gone. 
+- Click on the NSFW Channel slider. It should stay NSFW due to the prefix. 
+- Click Save Changes once. The dialogue box should stay there. 
+- Quit Discord 
+- Have channel editing permissions removed. 
+- You can now get stuck in the Edit Channel window for that channel.
+
+####Expected result:
+You can't make changes but you can leave the page.
+####Actual result:
+Discord forces you to stay and decide whether to keep or discard changes you can't approve either way.
+####Client settings:
+Discord Stable, 0.0.297
+####System settings:
+Win 7 Professional https://i.imgur.com/25wH9Aj.gif x64
+
+2487
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-23T08:48:21.846Z
+
+
+### Can reproduce.
+Win 7 Pro x64 (Canary 0.0.161)
+
+noodlebox#0155 - Bug Bot on 2017-07-23T08:48:29.307Z
+
+
+### Can reproduce.
+ Win 7 SP1 Canary 0.0.157
+
+omega12#8421 - Bug Bot on 2017-07-23T08:48:34.296Z
+
+
+### Can reproduce.
+Can reproduce,  Windows 10 Home Creators Update x64, canary 0.0.161
+
+TTtie#4900 - Bug Bot on 2017-07-23T08:48:39.297Z
+
+
+### Can't reproduce.  - Clayton on 2017-07-26T21:04:05.032Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-07-26T21:04:12.276Z
+
+
+### - In a server, be given the 'Manage roles' permission (but no other management permissions)
+- Get someone able to create channels to create a new text channel, beginning its name with 'nsfw-' (e.g. nsfw-test), and ensuring they don't enter the channel's settings
+- With your account, access the channel's settings (via cog or context menu)
+- Notice the unsaved changes banner appears and none of the buttons allow you to leave (except the ESC key) - Jared on 2017-07-31T21:44:10.908Z
+
+
+### Verified with New Steps. - Jared on 2017-07-31T21:44:18.064Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2017-07-31T21:44:24.167Z
+
+
+### Can no longer reproduce - Jared on 2018-07-05T22:05:34.559Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-05T22:05:38.851Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:49:45.026Z
+
+
+### Archived by Clayton on 2018-08-30T23:17:12.979Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

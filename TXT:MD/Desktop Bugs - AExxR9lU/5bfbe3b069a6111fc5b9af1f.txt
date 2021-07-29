@@ -1,0 +1,75 @@
+discord crashes when changing windows's multiple displays settings while selecting a screen to share in a VC (https://trello.com/c/BDqP235T)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2018-11-26T12:14:40.825Z
+Latest Update: 2019-09-23T22:30:07.811Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- make sure your displays are set to extend in Display Settings 
+- connect to a screenshare enabled VC 
+- click on the screenshare icon turn it on and the and you should see the select a screen modal 
+- change multiple Displays Settings to duplicate the screens 
+- observe
+
+####Expected result:
+Discord shouldn't crash
+####Actual result:
+Discord hard crashes
+####Client settings:
+Canary 28393
+####System settings:
+Windows 10 home x64 v. 1803
+
+23608
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-26T12:14:40.825Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 28393
+
+Xylium#5800 - Bug Bot on 2018-11-26T12:14:48.150Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,canary 28393 [CR]
+
+Octillion#6666 - Bug Bot on 2018-11-26T12:14:53.135Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home, Discord Canary 28393
+
+1Storm#0001 - Bug Bot on 2018-11-26T12:14:58.169Z
+
+
+### Can reproduce.
+CR. Canary 28393 Windows 10 x64
+
+Toasty#9566 - Bug Bot on 2018-11-26T13:11:01.844Z
+
+
+### verified, canary 28421 - Clayton on 2018-11-28T10:26:34.211Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-28T10:26:39.620Z
+
+
+### Can reproduce.
+Canary 39387 Windows 10 18362.145
+
+OneNormalUsername#7636 - Bug Bot on 2019-06-10T11:42:09.314Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

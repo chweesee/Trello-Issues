@@ -1,0 +1,66 @@
+Pressing Enter on e.g. Delete Modal closes the modal without taking actions (https://trello.com/c/bYxm4Wat)
+
+None
+
+Created: 2020-05-29T23:05:19.388Z
+Latest Update: 2020-07-16T21:26:06.341Z
+
+Reported by Aeria#9096
+
+####Steps to reproduce:
+- Send a message you want to delete / pin  
+- Rightclick the message, select the option, then press enter 
+- Alternatively, open the emoji picker, click on an emoji and then press enter (as to send the message)
+
+####Expected result:
+The action goes through (message is pinned/deleted/sent)
+####Actual result:
+Modal is dismissed, without the actual action being taken / Emoji picker opens again without sending the message
+####Client settings:
+Canary 60856
+####System settings:
+Windows 10 64-Bit (10.0.18363)
+
+56925
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-29T23:05:19.388Z
+
+
+### Can reproduce.
+CR // Canary 60856 (0edc380) // Windows 10 64-Bit (10.0.18362)
+
+Encrium#0004 - Bug Bot on 2020-05-29T23:05:26.864Z
+
+
+### Can reproduce.
+stable 60914 Windows 10 64 (10.0.18362)
+
+Adorable Jade#3375 - Bug Bot on 2020-05-29T23:05:31.872Z
+
+
+### Can reproduce.
+Discord Canary 0.0.264 (60914) on Windows 10 Pro 64-bit (1909)
+
+Tarek#1337 - Bug Bot on 2020-05-29T23:05:36.859Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Canary (Build 60914)
+
+Bryth#1086 - Bug Bot on 2020-05-29T23:29:30.644Z
+
+
+### Can reproduce.
+Can reproduce, Windows 7 Ultimate, Discord Canary 62028
+
+Shiny#0003 - Bug Bot on 2020-06-20T14:29:17.426Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

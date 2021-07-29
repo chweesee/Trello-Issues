@@ -1,0 +1,124 @@
+[Archived] Toggling a role option off and on multiple times will occasionally make the save button disappear (https://trello.com/c/sJioVuJq)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-29T07:22:15.470Z
+Latest Update: 2019-01-11T00:00:46.201Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to a server where you can manage roles 
+- Toggle a role to be mentionable/unmentionable 
+- Observe the save button for a few seconds and save the change if nothing happens 
+- Toggle the role to be mentionable/unmentionable again 
+- Observe the save button again for a few seconds, and save the change if nothing happens 
+- Repeat these steps, observing the save button for a few seconds before saving
+
+####Expected result:
+Save button doesn't disappear
+####Actual result:
+Save button will occasionally disappear
+####Client settings:
+Canary Build 25046
+####System settings:
+Windows 10 Home x64 1803
+
+20296
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-29T07:22:15.470Z
+
+
+### Rashaun#9295 - https://i.imgur.com/TxMbcSv.gifv added by Bug Bot on 2018-09-29T07:22:17.949Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64 (17134). Discord Canary 25046.
+
+coolalmostchilly#5019 - Bug Bot on 2018-09-29T07:22:22.772Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24925
+
+Neiron#2406 - Bug Bot on 2018-09-29T07:22:27.802Z
+
+
+### Can reproduce.
+CR - Windows 7 Ultimate, Canary: 25046
+
+ViPER™#6259 - Bug Bot on 2018-09-29T07:22:32.864Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 25046
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-29T10:26:29.204Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary Build  24925
+
+Nasi#7193 - Bug Bot on 2018-09-29T12:18:26.323Z
+
+
+### Can reproduce.
+Microsoft Surface 2 Windows 8.1 RT with Nvidia Tegra 4 processor 32 bit ARM
+
+Kaden303#4560 - Bug Bot on 2018-09-30T00:52:59.381Z
+
+
+### Can reproduce.
+CR || Windows 10 Home (x64, 1803), Discord Canary 25046
+
+Marc#7377 - Bug Bot on 2018-09-30T03:13:13.033Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Canary 24227
+
+Trigstur#5919 - Bug Bot on 2018-09-30T10:48:50.967Z
+
+
+### Can't reproduce.
+save button seems to be working fine for me. Windows 10 Home 64-bit, Canary 24227
+
+Trigstur#5919 - Bug Bot on 2018-09-30T11:21:42.981Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 25059
+
+william#0002 - Bug Bot on 2018-10-01T03:52:07.246Z
+
+
+### Can reproduce.
+Windows 10 1607 (LTSB 2016), Canary 25046
+
+Inspector Soviet#6971 - Bug Bot on 2018-10-01T18:41:00.803Z
+
+
+### minor - Clayton on 2018-10-01T20:18:46.841Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-01T20:19:02.419Z
+
+
+### Can reproduce.
+Custom Built, Windows 8.1 Professional , Discord Canary Latest
+
+sladewatkins#2439 - Bug Bot on 2018-10-07T12:43:40.567Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:46.204Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

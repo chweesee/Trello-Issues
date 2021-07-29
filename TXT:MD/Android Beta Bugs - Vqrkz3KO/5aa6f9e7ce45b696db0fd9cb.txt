@@ -1,0 +1,89 @@
+[Archived] Getting a notification while Discord is closed and device is locked causes Discord to crash when you tap the notification (https://trello.com/c/WT56MbKy)
+
+None
+
+Created: 2018-03-12T22:06:31.802Z
+Latest Update: 2018-07-06T21:19:35.226Z
+
+Reported by Xander#0259
+
+####Steps to reproduce:
+- have Discord closed 
+- lock your device 
+- get an @mention 
+- unlock device 
+- swipe down the notification bar and tap the notification
+
+####Expected result:
+Discord opens to the notification
+####Actual result:
+Discord begins to open but crashes on start up, hitting restart app does not help because it will crash again
+####Client settings:
+635
+####System settings:
+Samsung Galaxy S6, 7.0,
+
+9534
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-12T22:06:31.802Z
+
+
+### Can reproduce.
+Discord Alpha 6.3.5, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-03-12T22:06:39.487Z
+
+
+### Can reproduce.
+Can repro. Moto G 4 Play, Nougat 7.1.1, Discord Alpha 6.3.5
+
+Xia#8966 - Bug Bot on 2018-03-12T22:06:44.543Z
+
+
+### Can reproduce.
+CR on Samsung Galaxy S7, Android 7.0 using Discord Alpha v6.3.5
+
+Zak_Patat#1111 - Bug Bot on 2018-03-12T22:06:49.437Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 Edge, Android 7.0
+
+CARDS#4745 - Bug Bot on 2018-03-12T22:40:10.916Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 7.0, Discord Alpha 6.3.5
+
+Delextris#0001 - Bug Bot on 2018-03-13T11:35:04.843Z
+
+
+### Can reproduce.
+Amazon Fire 7, 5.0.1 - Android Alpha 6.3.5
+
+Splat | HypeSquid#0001 - Bug Bot on 2018-03-13T13:54:30.138Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 Edge, Android 7.0 (Nougat), Android Alpha 6.3.5
+
+DeJay#1337 - Bug Bot on 2018-03-13T20:53:44.623Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-03-14T18:15:20.760Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:19:34.471Z
+
+
+### Archived by Jared on 2018-07-06T21:19:35.229Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

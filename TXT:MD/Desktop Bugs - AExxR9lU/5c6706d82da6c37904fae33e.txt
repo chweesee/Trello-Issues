@@ -1,0 +1,96 @@
+[Archived] Discord stops detecting game activity if youre streaming and disable streamer mode (https://trello.com/c/jzSwFyRA)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-02-15T18:37:12.086Z
+Latest Update: 2019-10-23T23:02:15.324Z
+
+Reported by Zacatero#0001
+
+####Steps to reproduce:
+- Be playing a game that Discord has registered as your activity before 
+- Begin streaming using a software like OBS 
+- Wait until your status becomes purple and you are listed as streaming 
+- Disable streamer mode using the banner at the top of Discord 
+- Observe
+
+####Expected result:
+You are still playing the game, so Discord should make that your status
+####Actual result:
+Discord just disables the streaming status and puts you back at basic Online with no game activity
+####Client settings:
+Canary 32273
+####System settings:
+Windows 10 Pro
+
+28838
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-15T18:37:12.086Z
+
+
+### Can reproduce.
+CR on Windows 10 Pro, canary 32273
+
+StrangeThoughts#0001 - Bug Bot on 2019-02-15T18:37:19.482Z
+
+
+### Can reproduce.
+CR, Windows 10 Home v10.0.1734 - Canary 32273
+
+Killtracity#0001 - Bug Bot on 2019-02-15T18:37:24.414Z
+
+
+### Can reproduce.
+CR, Windows 10 home, discord canary 32273
+
+stealth200#6754 - Bug Bot on 2019-02-15T18:37:29.525Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | Canary 32373
+
+charleskimbac#6492 - Bug Bot on 2019-02-16T06:20:08.879Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 Professional Canary 32373
+
+Darth#9386 - Bug Bot on 2019-02-16T15:40:10.871Z
+
+
+### Can reproduce.
+CR; Canary: 32369, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-16T16:05:05.171Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 32407
+
+Solo#0007 - Bug Bot on 2019-02-19T03:46:05.911Z
+
+
+### verified, macos 10.12.6, canary 32470 - Clayton on 2019-02-20T23:08:23.637Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-20T23:08:28.845Z
+
+
+### Can reproduce.
+Can Reproduce. Windows 10 Home x64, Canary 33717
+
+Q__Q [ollybits]#8008 - Bug Bot on 2019-03-12T07:24:21.608Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:15.338Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

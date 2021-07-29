@@ -1,0 +1,88 @@
+[Archived] dragging and dropping a file from another monitor no longer automatically selects the share modal's input field (https://trello.com/c/q7XL0XPh)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-11-16T01:41:40.968Z
+Latest Update: 2019-10-23T23:01:45.528Z
+
+Reported by J1#0088
+
+####Steps to reproduce:have a file on one of the monitors 
+- fullscreen discord on another monitor 
+- drag and drop the file in discord 
+- notice how you can't start typing unless you click on the text field
+
+####Expected result:
+i should be able to insert text in the share modal instantly as it's the only text field i can type in on screen
+####Actual result:
+i can't type anything in unless i click on the text field to select it
+####Client settings:
+canary, Build Number: 27933
+####System settings:
+windows 10 home 64-bit ver (1803)
+
+23112
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-16T01:41:40.968Z
+
+
+### Can reproduce.
+Can repro; Windows 10 Home x64 (v1803), Discord Canary 28000
+
+Ardia#7038 - Bug Bot on 2018-11-16T01:41:48.335Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,Canary 28000
+
+Octillion#6666 - Bug Bot on 2018-11-16T01:41:53.356Z
+
+
+### Can reproduce.
+Can reproduce. I believe this is because after dragging, the source application (in my case Windows Explorer) is still the focused application, and therefore all text input is directed to it. Windows 10 Home x64 (1809), Canary  28059
+
+CominAtYou#2626 - Bug Bot on 2018-11-16T01:41:58.382Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 28106
+
+Neiron#7777 - Bug Bot on 2018-11-16T18:07:17.881Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 28151
+
+Hole#0001 - Bug Bot on 2018-11-17T00:19:54.566Z
+
+
+### verified, win 8.1, canary 28176 - Clayton on 2018-11-17T04:43:41.592Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-17T04:43:50.972Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:00.220Z
+
+
+### Can reproduce.
+windows 10 1809 discord stable 35773
+
+GlenMerlin#2119 - Bug Bot on 2019-04-19T05:46:12.679Z
+
+
+### Unarchived by Bug Bot on 2019-04-19T06:00:05.003Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:45.545Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

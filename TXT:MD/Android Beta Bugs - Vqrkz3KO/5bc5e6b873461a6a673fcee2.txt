@@ -1,0 +1,69 @@
+[Archived] Discord crashes if you try to upload a huge file that greatly exceeds the 50mb upload limit (Try files of around 500mb). Alternatively the upload gets stuck on Queuing for a while and then crashes. (https://trello.com/c/OC5Co1oS)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-10-16T13:25:12.111Z
+Latest Update: 2018-11-15T23:30:02.972Z
+
+Reported by OddsomeOddy#1998
+
+####Steps to reproduce:
+- Have a huge file on your phone (in my case a zip file of ~500mb) 
+- Select the file and try to upload it
+
+####Expected result:
+Discord should cancel the upload and tell you that only files below 50mb are allowed
+####Actual result:
+Discord crashes after about 3 seconds
+####Client settings:
+Alpha 7.7.1
+####System settings:
+Oneplus 3, Android 9
+
+21383
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-16T13:25:12.111Z
+
+
+### Can reproduce.
+CR; LG Stylus 2, Android 6.0.1, Alpha 771
+
+Promise#0001 - Bug Bot on 2018-10-16T13:25:19.718Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 8.1, Discord Alpha 7.7.1 - Reproduced with a 565mb zip
+
+Haru😍💜#6660 - Bug Bot on 2018-10-16T13:25:24.752Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 mini, Android 6.0.1, Alpha 771
+
+Nashorn#3450 - Bug Bot on 2018-10-16T13:25:29.904Z
+
+
+### Can reproduce.
+Mine does not cancel the upload neither crashes with a 100MB file and it don't have Nitro.
+
+Logandi#5843 - Bug Bot on 2018-10-16T14:12:03.408Z
+
+
+### minor - Clayton on 2018-10-16T23:12:14.197Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-16T23:12:20.465Z
+
+
+### Archived by Clayton on 2018-11-15T23:30:02.974Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

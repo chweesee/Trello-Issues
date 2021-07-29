@@ -1,0 +1,118 @@
+[Archived] 2FA login screen disappears when exiting the app (https://trello.com/c/hENro6I3)
+
+P2 - Can wait a while,
+Mod can still reproduce
+
+Created: 2017-08-28T11:29:52.068Z
+Latest Update: 2018-03-22T22:47:49.408Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Have 2FA enabled for your account 
+- Go to User Setting and log out of your account by clicking the Log Out button in the top right corner of your display 
+- Enter your Discord email address and password and hit the login button 
+- Exit the app by pressing the home button (do not close it entirely) and go grab your Authy or Google Authenticator code 
+- Reopen the app and notice that the 2FA verification window is gone and the login process has to be started all over again
+
+####Expected result:
+The 2FA verification window should remain open
+####Actual result:
+The 2FA verification window disappears once the app is reopened and the login process has to be started all over again
+####Client settings:
+Discord Alpha 4.1.1 (506)
+####System settings:
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0
+
+3754
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-28T11:29:52.068Z
+
+
+### Can reproduce.
+Discord 4.0.7 (502) (Huawei P8 Lite ALE-L21, Android 5.0.1)
+
+fratik#9865 - Bug Bot on 2017-08-28T11:29:59.563Z
+
+
+### Can reproduce.
+Nexus 6P, Android 8.0.0, Discord 4.1.1
+
+Chrees#4389 - Bug Bot on 2017-08-28T11:30:04.539Z
+
+
+### Can reproduce.
+CR Android Alpha 4.1.1, Samsung Galaxy A3 2017 Nougat 7.0
+
+Elix 🍭#4604 - Bug Bot on 2017-08-28T11:30:09.511Z
+
+
+### Can't reproduce.
+CNR, Discord Alpha 4.1.1 (406) OnePlus 5 on Android 7.1.1
+
+Tarek1337#0379 - Bug Bot on 2017-08-28T11:30:15.489Z
+
+
+### Can't reproduce.
+cnr VFD 600 @ Android 6.0.1 alpha 4.1.1 build 506
+
+TTtie#4900 - Bug Bot on 2017-08-28T11:40:47.975Z
+
+
+### Can't reproduce.
+CNR - Android Alpha 4.1.1 - Google Pixel - Android 8.0.0
+
+Pointy#9109 - Bug Bot on 2017-08-28T13:05:52.411Z
+
+
+### Can't reproduce.
+Android 5.1.1, Discord 4.10
+
+algmwc5#8993 - Bug Bot on 2017-08-29T06:00:47.606Z
+
+
+### Can reproduce.
+Android Alpha 4.1.1 (oppo R831L, Android 4.3)
+
+Js0n#8725 - Bug Bot on 2017-08-29T07:10:27.428Z
+
+
+### Verified.  - Clayton on 2017-08-30T01:26:51.724Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-30T01:26:56.643Z
+
+
+### Can reproduce.
+Seems to only happen if you re-open the app from your home screen or the app drawer, multitasking it works just fine. Google Pixel XL, Android 8.0.0, Discord 5.2.7 (527)
+
+Chrees#4389 - Bug Bot on 2017-10-03T18:05:40.433Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Sam Shih on 2018-03-02T23:57:39.620Z
+
+
+### Tested on Android Alpha 6.3.7:
+
+I can still reproduce this myself. It's as Chrees mentions in a comment before: If I switch to it without re-opening it from the home screen or app drawer then it'll persist. Otherwise it'll just bring me back to the login/register page.
+
+Not sure if the above is intended behaviour? (Only persists if switching to) Will beep Dabbit as well. - Alexander (DJScias) on 2018-03-14T19:58:34.859Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Alexander (DJScias) on 2018-03-14T19:58:39.508Z
+
+
+### Is a dupe of https://trello.com/c/PQmFNfYo/772-pressing-home-button-after-opening-any-settings-page-will-close-it - Jared on 2018-03-22T22:47:48.395Z
+
+
+### Archived by Jared on 2018-03-22T22:47:49.410Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

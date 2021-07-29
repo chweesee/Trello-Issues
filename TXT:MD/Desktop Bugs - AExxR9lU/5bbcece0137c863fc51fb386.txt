@@ -1,0 +1,88 @@
+[Archived] Selecting a channel with a long name for a webhook causes the ellipses to disappear behind the dropdown arrow (https://trello.com/c/9tlh1dnO)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-09T18:01:04.131Z
+Latest Update: 2019-08-13T15:30:11.391Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to a server where you can manage webhooks 
+- Create a new webhook 
+- Select a channel with a long name (I used one that created a second line in the channel selector modal) 
+- Observe where the ellipses meets the dropdown arrow 
+- Click on the arrow to open the channel selector modal and observe the ellipses, to verify that there are three dots there 
+- Click the arrow again to close the dropdown menu, and observe the number of dots
+
+####Expected result:
+The channel name ellipses before reaching the dropdown arrow, so the ellipses is fully visible
+####Actual result:
+The channel name ellipses too close to the dropdown arrow, causing the ellipses to disappear behind the arrow
+####Client settings:
+Canary Build 25718
+####System settings:
+Windows 10 Home x64 1803
+
+20890
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-09T18:01:04.131Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bbcece0137c863fc51fb386/cdd0edae5dc23196ab98ddcdb107203f/3HzaqQq.png added by Bug Bot on 2018-10-09T18:01:06.563Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64 (17134). Discord Canary 25718
+
+coolalmostchilly#1015 - Bug Bot on 2018-10-09T18:01:11.476Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 25718
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-09T18:01:16.481Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 25718
+
+Neiron#2406 - Bug Bot on 2018-10-09T18:01:21.485Z
+
+
+### minor - Clayton on 2018-10-09T21:35:27.676Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-09T21:35:42.420Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 25773
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-09T21:48:13.904Z
+
+
+### Archived by Bug Bot on 2019-01-13T19:30:02.418Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 32597
+
+charleskimbac#6492 - Bug Bot on 2019-02-22T03:57:52.499Z
+
+
+### Unarchived by Bug Bot on 2019-02-22T04:00:06.385Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:11.403Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

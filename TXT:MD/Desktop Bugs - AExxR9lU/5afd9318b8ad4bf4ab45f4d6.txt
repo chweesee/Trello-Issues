@@ -1,0 +1,108 @@
+[Archived] When you acces the profile of a person in Direct Messages and drag over his hypesquad badge with left click holded the badge disappears (https://trello.com/c/y2eMLBrg)
+
+None
+
+Created: 2018-05-17T14:35:04.668Z
+Latest Update: 2018-07-06T18:24:45.104Z
+
+Reported by spark#9023
+
+####Steps to reproduce:
+- Select a person from your **Direct Messages** 
+- Open his profile 
+- Hold left click and drag the cursor over the hypesquad badge
+
+####Expected result:
+Nothing Happens
+####Actual result:
+The badge disappears
+####Client settings:
+[BUILD INFO] Release Channel: ptb, Build Number: 15435, Version Hash: 132ad807c5cf2f8851c319e08943ea1e6ca33c4b
+####System settings:
+Win 10 x64
+
+12906
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-17T14:35:04.668Z
+
+
+### AEnterprise#4693 - https://www.youtube.com/watch?v=d4zwXxjdHMU added by Bug Bot on 2018-05-17T14:35:07.217Z
+
+
+### Can reproduce.
+Discord Canary 0.0.208 (15434), Windows 10 Pro 64-bit (1803). I can reproduce this on every badge, and this is a serious bug. You will disconnect from the gateway doing this with the response code (4000, unknown error). Then resume the connection
+
+Tarek#1337 - Bug Bot on 2018-05-17T14:35:12.123Z
+
+
+### Can reproduce.
+Can reproduce, it is due to hovering over a badge multiple times somehow disconnects you from the gateway Windows 10 1803 x64, canary build 15434
+
+AEnterprise#4693 - Bug Bot on 2018-05-17T14:35:17.068Z
+
+
+### Can reproduce.
+CR; Windows 10 x64, Discord Canary Build Number: 15251
+
+Yoginth#9339 - Bug Bot on 2018-05-17T14:35:22.103Z
+
+
+### Can reproduce.
+Windows 10 (10240) & Discord Canary Build Number: 15434, Version Hash: e257ecee67cb4322f4f2dc77088934dcec887f9d
+
+Angel_0#9354 - Bug Bot on 2018-05-17T14:40:20.215Z
+
+
+### Can reproduce.
+Canary 15434, Windows 7 SP 1
+
+Wolterhon#3938 - Bug Bot on 2018-05-17T14:44:29.902Z
+
+
+### It seems to be breaking when doing any type of clicking or hovering in DMs. - Tarek on 2018-05-17T15:41:41.193Z
+
+
+### Can reproduce.
+"It disappears after a while but upon restarting the Client it comes back" Canary 15434 , Win-7 SP1
+
+MONGCHAW#1813 - Bug Bot on 2018-05-17T18:12:19.044Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary Build 1434, it should also be pointe dout this effects ALL badges Except Discord Nitro badge, you don't even need to click or hover, you just need to click on their Profile in DMs, it doesn't work when you view their profile from a server member list, it seems to be fixed in 15523
+
+Azrael#6867 - Bug Bot on 2018-05-18T02:01:58.963Z
+
+
+### Cannot repro anymore, Discord Canary 0.0.209 (15523) on Windows 10 Pro 64-bit (1803) - Tarek on 2018-05-18T07:31:19.955Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Tarek on 2018-05-18T07:31:23.481Z
+
+
+### Can reproduce.
+Windows 10 Insider x64 v10.0.17672, Discord Canary Build 15598
+
+notfizz#2688 - Bug Bot on 2018-05-19T14:57:52.363Z
+
+
+### Can't reproduce.
+Windows 10 Pro Insider Preview x64, v10.0.17672 Build 17672, Discord Canary Build 15598
+
+Cairo#2098 - Bug Bot on 2018-05-19T23:45:59.558Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:24:44.065Z
+
+
+### Archived by Jared on 2018-07-06T18:24:45.107Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

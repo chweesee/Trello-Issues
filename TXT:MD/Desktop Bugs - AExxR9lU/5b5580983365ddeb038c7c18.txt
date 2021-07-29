@@ -1,0 +1,101 @@
+Member List names don't scale with Chat Font Scaling (https://trello.com/c/aygqNfQ9)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2018-07-23T07:15:36.956Z
+Latest Update: 2019-07-20T02:53:28.432Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+
+- Go into your User Settings -> Appearance and change your Chat Font Scaling to 150 (so it is easily noticeable) 
+- Close your User Settings and go to a server and observe the names of users on the Member List
+
+####Expected result:
+Usernames should scale with the change of your Chat Font Scaling
+####Actual result:
+Usernames don't scale with the change of your Chat Font Scaling
+####Client settings:
+Discord Canary 0.0.211, Build 19430
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+15886
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-23T07:15:36.956Z
+
+
+### Ene#0808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5580983365ddeb038c7c18/c7cd1084256031c56be5b57405d29c42/thU3jZC.png added by Bug Bot on 2018-07-23T07:15:40.011Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 - Build 17134.165
+
+Sam ❀#7054 - Bug Bot on 2018-07-23T07:15:44.660Z
+
+
+### Can reproduce.
+Discord Canary (19442) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-07-23T07:15:49.658Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64-bit 1803, Discord Canary 19430
+
+that15fine#9275 - Bug Bot on 2018-07-23T07:15:54.718Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Discord Canary Build 19430
+
+</> Emmanuel#2543 - Bug Bot on 2018-07-23T10:02:18.962Z
+
+
+### Moved from User Reported Bugs to Message Update Bugs by Tarek on 2018-07-23T14:05:04.565Z
+
+
+### Seems like the real problem here is that the user name should also scale and it doesn't? - Joey Baker on 2018-07-23T17:56:35.208Z
+
+
+### @joeybaker9 I think so. Since the name scales everywhere else. - Tarek on 2018-07-23T18:03:59.680Z
+
+
+### Can't reproduce >.> - Shadi Isber on 2018-07-23T21:40:20.207Z
+
+
+### Moved from Message Update Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2018-07-23T21:42:22.983Z
+
+
+### Edited the ticket to better reflect what the bug is
+
+Ene#0808 - Bug Bot on 2018-08-05T00:48:20.246Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:39:55.065Z
+
+
+### Archived by Jared on 2018-08-21T23:39:56.122Z
+
+
+### Can reproduce again on Canary 41544, Windows 10 Home 64-bit (v1903).
+
+Moving to Reopened. - Ene on 2019-07-20T02:53:24.944Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Ene on 2019-07-20T02:53:28.235Z
+
+
+### Unarchived by Ene on 2019-07-20T02:53:28.411Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

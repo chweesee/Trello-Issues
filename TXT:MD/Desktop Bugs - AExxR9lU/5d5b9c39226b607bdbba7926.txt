@@ -1,0 +1,132 @@
+Slowmode setting in audit log always returns 1 second in any language except English (https://trello.com/c/Oe0Nm8A8)
+
+None
+
+Created: 2019-08-20T07:07:37.530Z
+Latest Update: 2020-07-16T21:26:04.918Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Go to User Settings and change your language to anything except English and English UK. 
+- Edit a channel in a server to a different slowmode setting. 
+- Open the audit log and click for the details of the edited channel log.
+
+####Expected result:
+The number returns the setting you set the slowmode to.
+####Actual result:
+The slowmode log always returns 1 second.
+####Client settings:
+Canary 43975
+####System settings:
+MacBook Pro (13", Mid-2012), ​‌‌​‌‌​‍‌​​​‌‌​​‍‌​​‌‌‌‌​‍‌​​‌‌‌​‌‍‌​​‌‌​‌​‍‌​​‌​​‌‌‍‌‌​‌‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌‌‌‌‍‌‌​​‌‌‌‌‍‌‌​​‌‌​‌‍‌‌​‌‌‌‌‌‍‌​​‌​​​​‍‌​​​‌‌​‌‍‌​​‌​‌‌​‍‌​​‌‌​​​‍‌​​‌​‌‌​‍‌​​‌​​​‌‍‌​​‌‌‌‌​‍‌​​‌​​‌‌‍‌​​‌​​‌‌‍‌​​​​‌‌​‍‌‌​‌‌‌‌‌‍‌​​‌‌​‌‌‍‌​​‌​‌‌​‍‌​​‌‌​‌‌‍‌‌​‌‌‌‌‌‍‌​​​‌​‌‌‍‌​​‌​‌‌‌‍‌​​‌​‌‌​‍‌​​​‌‌​​‍‌‌​‌‌‌‌‌‍‌​​‌‌‌‌​‍‌​​‌‌‌​​‍‌​​​‌​‌‌‍‌​​‌​‌‌​‍‌​​‌​​​​‍‌​​‌​​​‌‍‌‌​‌​​​‌macOS v10.15 Beta (19A536g)
+
+42453
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-20T07:07:37.530Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 43906 host 0.0.254
+
+Jean20B#4668 - Bug Bot on 2019-08-20T07:07:45.021Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro Retina 13" // macOS Sierra 10.12.6 // Canary: 43975 (desktop edition)
+
+xTeal#7702 - Bug Bot on 2019-08-20T07:07:49.966Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 43975
+
+AHkhan#6518 - Bug Bot on 2019-08-20T07:07:54.935Z
+
+
+### Can reproduce.
+CR using Chinese on MacBook Air - MacOS (10.12.6 Sierra) Canary 43975
+
+myacorn#6534 - Bug Bot on 2019-08-20T10:20:25.857Z
+
+
+### Can reproduce.
+CR - Windows 10 Home x64 (1903) - Discord Canary 43975
+
+TBS | Best_Pro#7066 - Bug Bot on 2019-08-20T11:41:23.665Z
+
+
+### Can reproduce.
+CR; MacOSX 10.14.6; Release Channel: canary, Build Number: 43884, Version Hash: db395cd15e857cf24b37959a16ab3dc574cb7fa0
+
+Emma#6775 - Bug Bot on 2019-08-20T16:46:22.164Z
+
+
+### Can reproduce.
+Canary 43975, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-08-20T17:58:56.413Z
+
+
+### Can reproduce.
+CR Windows 10 Pro 64-bit (1803) • Discord version stable • Build  43975
+
+Wyrd rëisa#7128 - Bug Bot on 2019-08-20T18:14:43.110Z
+
+
+### Can reproduce.
+Windows 10 Pro, 64-bit, Discord 0.0.305
+
+result = None#2323 - Bug Bot on 2019-08-20T19:54:41.611Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10, Host 0.0.254, Canary Build 43906
+
+binchlord#0998 - Bug Bot on 2019-08-20T23:56:03.419Z
+
+
+### Can reproduce.
+macOS High Sierra, Version: 10.13.6 - Discord Canary 43975
+
+Leaf#0001 - Bug Bot on 2019-08-21T00:17:34.677Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 43975 (Host 0.0.254)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-21T01:30:32.377Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 43975
+
+Jasοn#0001 - Bug Bot on 2019-08-21T01:40:05.444Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64 v1809 , Canary 44115
+
+rushly#0001 - Bug Bot on 2019-08-22T03:03:05.674Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1803, Discord Canary 47163
+
+Rex#2222 - Bug Bot on 2019-10-11T22:12:57.912Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 59390 (14ffb94), Host 0.0.264, Windows 10 64-Bit (10.0.18363). This now occurs in both US and UK English as well
+
+wakfi#6999 - Bug Bot on 2020-05-02T10:02:05.891Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

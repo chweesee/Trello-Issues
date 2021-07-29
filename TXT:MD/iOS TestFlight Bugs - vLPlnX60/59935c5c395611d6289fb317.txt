@@ -1,0 +1,100 @@
+[Archived] Image gets stuck if held there until fully loaded (https://trello.com/c/QuMCc64j)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-08-15T20:41:01.008Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by wv#3076
+
+####Steps to reproduce:
+- Tap on an unloaded image 
+- Swipe partially down so that the image is still showing and loading but not taking up the full screen 
+- Hold it there until it loads 100% 
+- Let go of the screen
+
+####Expected result:
+The image would either swipe back up covering the full screen or swipe down showing regular chat
+####Actual result:
+Image gets stuck mid-way through the screen
+####Client settings:
+1.8.9 Testflight
+####System settings:
+iPhone 5S, iOS 9.3.2
+
+3209
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-15T20:41:01.008Z
+
+
+### Can reproduce.
+CR, Discord TestFlight 1.8.9, iPhone 6s, iOS 10.3.3
+
+Nelson1348#9190 - Bug Bot on 2017-08-15T20:41:08.903Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 10.2, TestFlight 1.8.9 (83)
+
+[object Object]#0001 - Bug Bot on 2017-08-15T20:41:13.858Z
+
+
+### Can reproduce.
+CR, Iphone SE iOS 10.3.2, 1.8.9
+
+TimThe#7618 - Bug Bot on 2017-08-15T20:41:18.892Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T21:22:27.794Z
+
+
+### Verified, low low low priority - Jared on 2017-08-21T21:22:35.166Z
+
+
+### I can no longer reproduce, the image swipes back up. 
+
+Discord 2.2.1 (2202), iOS 11.2.2, iPhone 8 Plus - Alexandru Todea on 2018-01-20T08:38:12.608Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-01-20T08:38:16.087Z
+
+
+### Can't reproduce.
+iPhone 8 +, iOS 11.3 (PB1), Discord TestFlight 2.2.1 (2236)
+
+Ghoul#0009 - Bug Bot on 2018-01-26T20:24:33.905Z
+
+
+### Can't reproduce.
+iPhone 6 10.3.2 TestFlight 2.2.1 (2236)
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T20:28:16.388Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T21:00:36.466Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:52:12.812Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:52:16.187Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:00:46.675Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:00:47.179Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

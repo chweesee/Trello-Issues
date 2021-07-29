@@ -1,0 +1,106 @@
+[Archived] message notification indicator not functioning on mac (https://trello.com/c/kjb1k0c0)
+
+None
+
+Created: 2017-03-06T07:03:41.579Z
+Latest Update: 2017-10-30T17:23:13.210Z
+
+Reported by Harrison#9100
+
+####Steps to reproduce: 
+- make sure you have an up to date canary client on MacOS 
+- recieve a message in an unmuted channel (so you get the grey indicator dot)
+- observe the discord application icon on the dock 
+
+####Expected result:
+ you get a red dot notification indicator on the client icon 
+####Actual result:
+ no indication appears on the icon 
+####System settings:
+ macOS 10.12.3 Discord Canary
+
+1869
+
+Card Log
+========
+### Added by Jared on 2017-03-06T07:03:41.579Z
+
+
+### Can reproduce.
+macOS 10.12.3, Canary 0.0.144
+
+Mikesky#3456 - Jared on 2017-03-06T07:03:42.327Z
+
+
+### Can reproduce.
+Windows 10 64bit, Canary 0.0.153
+
+WoLf#2976 - Jared on 2017-03-06T07:03:44.134Z
+
+
+### Can reproduce.
+MacOS 10.12.3, Discord Canary 0.0.144
+
+西木野真姫★★★★#9667 - Jared on 2017-03-06T07:03:46.126Z
+
+
+### Can reproduce.
+Canary APP, macOS
+
+.JS#4522 - Jared on 2017-03-06T07:06:42.177Z
+
+
+### Can reproduce.
+MacOS 10.12.3 Latest Discord Canary
+
+LordOfTheUndead#7915 - Jared on 2017-03-06T08:25:09.963Z
+
+
+### Can reproduce.
+macOS 10.12.1 Beta, Latest Canary
+
+Francis#6565 - Jared on 2017-03-06T18:30:47.903Z
+
+
+### could the "on mac" be removed since this is happening on windows too
+
+Oasis#4730 - Jared on 2017-03-08T03:23:18.098Z
+
+
+### Can reproduce.
+windows 10 + latest canary
+
+Oasis#4730 - Jared on 2017-03-08T03:23:48.191Z
+
+
+### I don't understand this bug. If you get the grey indicator dot, then you're not getting a ping, right? The badge notification (the red dot with the number in it) only shows up if you've been at mentioned.  Which it does, I just tried it. - Jared on 2017-03-21T22:10:31.651Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-03-21T22:10:34.947Z
+
+
+### Cannot reproduce on MacBook Air macOS 10.13 Build 6558.
+
+Submitted steps by Yemper#2609:
+
+Device Used: MacOS 10.12.6, Canary 0.0.156 , MacBook Pro 
+Repro Steps:
+1) Open Discord Canary
+2) In an channel that isn't muted have someone send a message in their
+3) Have the Discord Icon on the dock taken up (taskbar for windows)
+Expected: You should get the red dot right beside the discord logo
+Actual: Doesn't appear - Mike Nisbet on 2017-10-30T13:45:55.470Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:23:12.192Z
+
+
+### Archived by Jared on 2017-10-30T17:23:13.212Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

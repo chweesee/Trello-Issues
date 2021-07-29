@@ -1,0 +1,84 @@
+[Archived] Uploading pictures from the cache directly, sometimes gives a "file too powerful" error despite being small enough. (https://trello.com/c/JciEJxav)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-08T13:40:02.101Z
+Latest Update: 2018-10-22T20:15:08.235Z
+
+Reported by Yoshi#9556
+
+####Steps to reproduce:
+- Step1: Open a file in a browser of your choice (smaller than 8mb) 
+- Step1\_2: example image which is triggering the bug for me and some other people: <http://konachan.com/image/2f16ff40220dda6a836a53dd01b2ceef/Konachan.com%20-%20240890%20animal_ears%20aqua_eyes%20blush%20catgirl%20dress%20final_fantasy%20final_fantasy_xiv%20flowers%20gray_hair%20maid%20miqo%27te%20short_hair%20signed%20tail%20yana_mori.jpg> 
+- Step3: Rightclick on the image you want to upload 
+- Step4: Select "Copy Image" 
+- Step6: Paste the image into discord 
+- Step7: It gives off a "file too powerful" error despite the file being too small 
+- Alternative: Download the image to your desktop and then upload the file directly works as intended (no "File too powerfull" error)
+
+####Expected result:
+If the file is smaller than 8MB, you should be able to upload it just fine
+####Actual result:
+Some files from the cache can't be uploaded despite being <8MB of size. This only happens for very specific files. Uploading files directly as a file from your PC works as intended (even with the same file)
+####Client settings:
+If only there was an easy way to check it... But according to my extensive "researches" its Desktop Canary 163 and Desktop Stable 297
+####System settings:
+Windows 10 Education - Version 1703
+
+2940
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-08T13:40:02.101Z
+
+
+### Can reproduce.
+windows 10 + canary 0.0.163
+
+Oasis#4730 - Bug Bot on 2017-08-08T13:40:09.612Z
+
+
+### Can reproduce.
+CR, Discord Stable 0.0.247, MacOS 10.12.6, Macbook Pro
+
+Nelson1348#9190 - Bug Bot on 2017-08-08T13:40:14.608Z
+
+
+### Can reproduce.
+CR, Discord Canary v0.0.163, Windows 10 Home x64 Creator's Update
+
+P4risAndStuff#7243 - Bug Bot on 2017-08-08T13:40:19.573Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Discord web stable 0.0.297 on an alt account with no Nitro. Could not reproduce on this account with Nitro.
+
+Tiemen#0107 - Bug Bot on 2017-08-08T15:47:46.480Z
+
+
+### for some reason copying from chrome more than doubles the file size of the image in question, placing it over the 8MB limit
+
+Mikesky#3456 - Bug Bot on 2017-08-08T15:49:57.417Z
+
+
+### Mikesky#3456 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5989bf32a282d198302cf91c/edbc63b0b55a04eca2895ec8019b04cf/GiPnVfg.png added by Bug Bot on 2017-08-08T15:50:05.208Z
+
+
+### Verified.  - Clayton on 2017-08-09T22:22:57.129Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-09T22:23:25.309Z
+
+
+### This is a very unusual use case, so I'm lowering the priority on this. - Jared on 2017-10-17T01:04:11.052Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:08.238Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

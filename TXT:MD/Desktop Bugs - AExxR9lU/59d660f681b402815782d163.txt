@@ -1,0 +1,82 @@
+Notification for role mention when user is not in role (https://trello.com/c/1YO93kGk)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-10-05T16:42:30.769Z
+Latest Update: 2019-11-28T15:28:32.828Z
+
+Reported by Evie.Codes#4611
+
+####Steps to reproduce:
+- Be on a *large* server (like discord-developers with a moderator ping) 
+- Change *Notification Settings* to notify on *All Messages* 
+- Get someone to mention a role that you are not in.
+
+####Expected result:
+No notification
+####Actual result:
+User gets notified for the role mention, but the message is not yellow
+####Client settings:
+Android Alpha (multiple clients)
+####System settings:
+Multiple users on multiple devices
+
+5109
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-05T16:42:30.769Z
+
+
+### Can reproduce.
+CR LG Xpower 6.0.1 with android alpha 5.2.7
+
+ks0908#8526 - Bug Bot on 2017-10-05T16:42:38.150Z
+
+
+### Can reproduce.
+Google Pixel XL 8.0.0 (Discord Alpha 5.2.7)
+
+Kalan#3694 - Bug Bot on 2017-10-05T16:42:43.151Z
+
+
+### Can reproduce.
+CR, Android Alpha 5.2.7 (Build 527) OnePlus 5 on Android 7.1.1
+
+Tarek1337#0379 - Bug Bot on 2017-10-05T16:42:48.182Z
+
+
+### This is actually a backend issue, so I'm moving this ticket to the canary board. Yes, it presents on android but the information is being sent from the backend and needs to be fixed there. - Jared on 2017-10-05T16:52:24.157Z
+
+
+### Imported from https://trello.com/b/57f2a306ca14741151990900 by Jared on 2017-10-05T16:52:48.729Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:49:26.920Z
+
+
+### @jared627 this says it is an Android bug?  - Stanislav Vishnevskiy on 2017-11-27T03:13:25.288Z
+
+
+### Can reproduce.
+I thought this bug was dead but this just happened to me, in a server where someone pinged the Owner's role while I had no role at all. Discord Android Alpha 6.1.9, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-01-30T21:45:24.855Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:44:45.355Z
+
+
+### Can reproduce.
+CR, Android Discord 994, in the wrong client on trello. Moto z2 Force, Android 8.0
+
+LegitBananaMan#6969 - Bug Bot on 2019-11-28T02:30:12.827Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

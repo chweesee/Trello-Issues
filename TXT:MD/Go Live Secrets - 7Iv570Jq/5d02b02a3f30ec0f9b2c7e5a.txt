@@ -1,0 +1,30 @@
+Streaming Microsoft Store apps prompts for admin perms, then loads indefinitely when choosing either option. (https://trello.com/c/M5EPuPFf)
+
+None
+
+Created: 2019-06-13T20:20:58.798Z
+Latest Update: 2019-06-14T18:26:28.867Z
+
+**Steps to reproduce:**
+- Launch Discord as admin
+- When client appears, launch a Microsoft Store app
+- Hit "Go Live" when it appears (might require adding detection for that game), and confirm
+**Expected Results:** You should go live, without being prompted for admin.
+**Actual Results:** You will be prompted for admin in-client, and with either selected option, (grant or do without) your stream will load indefinitely.
+**System Settings:** Windows 10 Pro x64 (1809) (DxDiag attached from SoT), tested with Sea of Thieves and Fallout Shelter
+**Client Settings:** Canary 39636
+
+Card Log
+========
+### Added by MetalChain on 2019-06-13T20:20:58.798Z
+
+
+### DxDiag-SoT-Launch1.txt - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5d02b02a3f30ec0f9b2c7e5a/11056a508cf64378c31bf2bf0d42ea24/DxDiag-SoT-Launch1.txt added by MetalChain on 2019-06-13T20:21:58.111Z
+
+List
+====
+Bug Reports from Testers!
+
+Members
+=======
+Unknown User (https://trello.com/metalchain) - No Bio

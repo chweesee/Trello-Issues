@@ -1,0 +1,89 @@
+[Archived] Right clicking into typed text sometimes crashes Discord (https://trello.com/c/wm6DgNgt)
+
+P1: Severe,
+High,
+Client side,
+Crash,
+spellcheck
+
+Created: 2018-02-16T21:34:40.649Z
+Latest Update: 2018-07-06T18:02:09.058Z
+
+Reported by Luca#8366
+
+####Steps to reproduce:
+- Enable spell checking 
+- Restart Discord 
+- Type a word that is spelled wrong 
+- Right click on the word
+
+####Expected result:
+Right click menu shows up
+####Actual result:
+After a few right clicks Discord becomes unresponsive and the CPU spikes to it's maximum.
+####Client settings:
+Canary 10878
+####System settings:
+Windows 10 Home 64 bit
+
+8849
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-16T21:34:40.649Z
+
+
+### Can reproduce.
+Windows 10, FCU 1709 Build Number: 10878
+
+Logiz#0001 - Bug Bot on 2018-02-16T21:34:48.158Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 (Canary build 10878)
+
+TimThe#1118 - Bug Bot on 2018-02-16T21:34:53.128Z
+
+
+### Can reproduce.
+I was able to reproduce it previously doing this once. It seems to be a pretty random issue. Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 10878
+
+Ghoul#0009 - Bug Bot on 2018-02-16T21:34:58.149Z
+
+
+### Can reproduce.
+Windows 10 x64 Pro 1607 (Latest Stable Discord)
+
+archer#9341 - Bug Bot on 2018-02-17T00:01:26.929Z
+
+
+### Can reproduce.
+Windows 10 Home, 64bits, Discord Stable Version
+
+Roukaysa#7162 - Bug Bot on 2018-02-19T20:50:53.415Z
+
+
+### Cannot reproduce with the provided steps. We know that there is a freeze that happens, but we need better repro steps. - Jared on 2018-02-20T21:29:11.262Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-02-20T21:29:14.595Z
+
+
+### Verified Fixed - Jared on 2018-03-22T20:28:01.161Z
+
+
+### Moved from Cannot Reproduce to Verified Fixed by Jared on 2018-03-22T20:28:05.612Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:02:08.193Z
+
+
+### Archived by Jared on 2018-07-06T18:02:09.060Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

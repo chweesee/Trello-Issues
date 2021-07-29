@@ -1,0 +1,88 @@
+Window capture previews remain black for certain programs (most notably Discord and Chrome with hardware acceleration) (https://trello.com/c/Xj09thr2)
+
+None
+
+Created: 2019-07-04T05:22:41.646Z
+Latest Update: 2020-07-16T21:26:04.385Z
+
+Reported by Haru 💜🌸#6660
+
+####Steps to reproduce:
+- Open a Chrome window or a 2nd Discord client (make sure it's using hardware acceleration 
+- Open the screenshare menu 
+- Head over to window capture and look at the window previews for Chrome/Discord (Not the Discord client you're currently using, that one shows fine. And no, this bug does NOT rely on having multiple Discord clients, testing it with Chrome is also fine) 
+- (Optional) Disable hardware acceleration in these windows to see them working properly
+
+####Expected result:
+The windows show what's currently being shown so you know what you're about to screenshare
+####Actual result:
+The windows remain black so you'll have to manually go check what you're going to screenshare in the window itself (screensharing it afterwards however works fine)
+####Client settings:
+Stable & Canary 40604
+####System settings:
+Windows 10 Home x64 v1809 and Windows 10 Pro x64 v1903
+
+38941
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-04T05:22:41.646Z
+
+
+### Haru 💜🌸#6660 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d1d8d203abb1b028cea3348/967124e77c6de11912d7d0fd0f541ea3/unknown.png added by Bug Bot on 2019-07-04T05:22:44.876Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.246 Build 40790
+
+Daffyduck#5364 - Bug Bot on 2019-07-04T05:22:49.636Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 40790 host 0.0.246
+
+Jean20B#4668 - Bug Bot on 2019-07-04T05:22:54.638Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 40790 (Host 0.0.246)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-04T05:22:59.599Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 40794
+
+charleskimbac#6492 - Bug Bot on 2019-07-04T07:12:58.993Z
+
+
+### Can reproduce.
+Canary 40794, Windows 10 Home x64
+
+Skyla#0002 - Bug Bot on 2019-07-04T17:35:09.058Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40795
+
+Xylium#5800 - Bug Bot on 2019-07-04T20:21:01.793Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 40794
+
+Jasοn#0001 - Bug Bot on 2019-07-04T20:23:13.896Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40795
+
+Lily#2624 - Bug Bot on 2019-07-06T18:01:28.385Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

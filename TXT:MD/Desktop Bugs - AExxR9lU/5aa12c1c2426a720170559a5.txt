@@ -1,0 +1,75 @@
+[Archived] Scroll Bar in pinned section doesn't change colour (https://trello.com/c/S4YcYizO)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-08T12:27:08.102Z
+Latest Update: 2018-10-22T20:18:51.521Z
+
+Reported by Master Adit ᵛᵉʳᶦᶠᶦᵉᵈ#8363
+
+####Steps to reproduce:
+- Open Discord Android App and Desktop App 
+- Use the same theme (Light or Dark) on both apps 
+- Enable "Sync across clients" in the Appearance section in Android app 
+- On the desktop app, go to a text channel which has a lot of pinned messages 
+- Open "Pinned Messages" section (Desktop App) 
+- If you were using Dark theme till now, click on "Light" in the mobile app; if you were using Light theme till now, click on "Dark" in the mobile app
+
+####Expected result:
+The desktop app's theme completely changes
+####Actual result:
+Theme of Scroll Bar (in the Pinned Section, on Desktop App) does not change
+####Client settings:
+[Desktop App] Release Channel: stable, Build Number: 11724; [Android App] 6.3.2 (632)
+####System settings:
+[Desktop] Windows 7, [Android] Samsung Galaxy J7 Prime
+
+9430
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-08T12:27:08.102Z
+
+
+### Can reproduce.
+CR Canary 11753 Win10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-03-08T12:27:15.665Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, build 1607 (11719) | -a (Alpha 6.3.3)
+
+ngb#0995 - Bug Bot on 2018-03-08T12:27:20.650Z
+
+
+### Can reproduce.
+Meizu M5 Note, Android 6.0, Discord Alpha 6.3.3 | Discord Canary 0.0.203 (Build 11719), -w
+
+OminousCry#2331 - Bug Bot on 2018-03-08T12:27:25.670Z
+
+
+### Fixed if closing and reopening the pinned message section, same thing also happens with mentions section
+
+ngb#0995 - Bug Bot on 2018-03-08T12:29:12.199Z
+
+
+### Verified - Tarek on 2018-03-19T09:10:04.128Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-03-19T09:10:07.129Z
+
+
+### mouse#0091 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aa12c1c2426a720170559a5/bdf6c4da66c38d57e86a5ffe2b4f50f3/6cY88qp.png added by Bug Bot on 2018-07-15T10:22:01.346Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:51.524Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

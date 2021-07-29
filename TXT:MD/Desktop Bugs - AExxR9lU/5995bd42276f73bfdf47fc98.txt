@@ -1,0 +1,76 @@
+[Archived] Using "ctrl+scrn lk" key will change to Ctrl+ UNK3 and you won't be able to use the keybind. (https://trello.com/c/PhdfoQml)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-17T15:58:58.081Z
+Latest Update: 2018-10-22T20:15:20.534Z
+
+Reported by kayygee#0001
+
+####Steps to reproduce:
+- Open User Settings 
+- Open Keybinds 
+- Click "Add a Keybind 
+- Select PTT 
+- Record Keybind 
+- Press "Ctrl" (either left or right) and "SCR LK" keys on your keyboard 
+- Click Stop Recording 
+- ESC to a server voice channel 
+- Join voice channel 
+- Press the PTT keybind.
+
+####Expected result:
+Ctrl+Scr LK is set as your keybind and you are able to speak in the voice channel using that keybind.
+####Actual result:
+The keybind changes to "Ctrl+UNK3" and you cannot use that keybind (your friends do not hear you speaking and your icon doesn't light up).
+####Client settings:
+Desktop Stable, 0.0.298
+####System settings:
+Windows 10 x64 (Home 1703)
+
+3321
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-17T15:58:58.081Z
+
+
+### Can reproduce.
+can reproduce | windows 10 x64 B1703 | canary 0.0.163 B3241
+
+Tobias#5233 - Bug Bot on 2017-08-17T15:59:05.862Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-17T15:59:11.143Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.163 (Build 3331)
+
+Curse Broken#8659 - Bug Bot on 2017-08-17T15:59:15.945Z
+
+
+### Weird bug. Verified. - Jared on 2017-08-21T20:28:38.790Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T20:28:42.842Z
+
+
+### Can't reproduce.
+I can bind Ctrl + Scroll Lock to PTT and use it to PTT. It does light up and my voice went through.
+
+Frances Picard#6209 - Bug Bot on 2018-07-14T11:15:37.193Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:20.536Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

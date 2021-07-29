@@ -1,0 +1,139 @@
+[Archived] Title bar/member avatars obstructed on the group DM member list (https://trello.com/c/jwq8073P)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-01-04T20:26:45.082Z
+Latest Update: 2019-12-01T03:30:28.504Z
+
+Reported by mouse91#3089
+
+####Steps to reproduce:
+- Go to a group DM 
+- Start or join a video call 
+- Rotate to landscape (anticlockwise) 
+- Tap the ellipses (3 dots) and then tap Members
+
+####Expected result:
+The screen should be padded to avoid the notch, or should automatically switch to portrait like the voice settings screen
+####Actual result:
+The group member screen appears in landscape and is partially obstructed by the notch
+####Client settings:
+TestFlight 2.2.0 (2042)
+####System settings:
+iPhone X, iOS 11.2.1
+
+7601
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-04T20:26:45.082Z
+
+
+### mouse91#3089 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a4e8e05da5f229476299963/0cf02f97332996c6691c8f9807ab5e81/NpY1RvF.png added by Bug Bot on 2018-01-04T20:26:47.512Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a4e8e05da5f229476299963/d24b512efd5f76ba9094fb4d46f338e1/O0RMNec.jpg added by Bug Bot on 2018-01-04T20:26:47.536Z
+
+
+### Q__Q#0489 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a4e8e05da5f229476299963/59579d04499922ce816563fddb7704ca/image.png added by Bug Bot on 2018-01-04T20:26:47.599Z
+
+
+### Can reproduce.
+Can Repro, however slightly different results. Instead of a black block in the way, the top bar as conflicting colors and buttons. Member list has no issue. Image attached. iPhone 8, iOS 11.1.2, TestFlight 2.2.0 (2042)
+
+Q__Q#0489 - Bug Bot on 2018-01-04T20:26:52.414Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.1 & iPad Air 2, iOS 11.2.5 Public Beta 2, TestFlight 2.20 (2042), no landscape mode is needed. There is also an issue with the portrait mode.
+
+Pascal#0929 - Bug Bot on 2018-01-04T20:26:57.482Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 8 +, iOS 11.2.5 (PB3), Discord TestFlight 2.2.0 (2042)
+
+Ghoul#4567 - Bug Bot on 2018-01-04T20:27:02.481Z
+
+
+### Submitted by Ghoul#4567:
+
+Extension to this bug report:
+This bug does not appears to happen unless you follow mouse91 and Pascal's reproduction steps (no matter if it's landscrape or portrait), so here are the reproduction step:
+
+ - Follow the original bug report's steps.
+ - Hang up the video call.
+ - Go over to your friends list
+ - Scroll up and down
+ - Observe as you're scrolling. 
+I was expecting to see the friend list to scroll smoothly, but it seems to be lagging in performance as well having a blank slot for a moment before it shows up as a friend. You can see this video here: https://youtu.be/a6UJy1sZ8WU It may be difficult to see at first, but it may take a few re-watches. - Tarek on 2018-01-05T04:16:06.903Z
+
+
+### Just noting to say that my extension-bug and the original bug can be reproduced on TF 2.2.0 (2073). I used iPhone 8 +, iOS 11.2.5 (PB3).
+
+Ghoul#4567 - Bug Bot on 2018-01-05T08:31:53.997Z
+
+
+### Moved from User Reported Bugs to iPhone X by Alexandru Todea on 2018-01-05T12:37:42.102Z
+
+
+### Moved from iPhone X to Verified Bugs by Tarek on 2018-01-17T18:13:17.565Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:18.378Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 (dev beta 12), TestFlight 2.3.7 (6968)
+
+mouse#0091 - Bug Bot on 2018-09-05T06:28:23.752Z
+
+
+### Unarchived by Clayton on 2018-09-07T20:14:42.603Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:33.381Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.4 (17524) with iPhone 8 Plus running iOS 13.1.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-10-03T16:42:52.965Z
+
+
+### Unarchived by Pascal on 2019-10-03T16:42:56.428Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-10-03T16:43:00.931Z
+
+
+### Can't reproduce.
+CNR, iPad iOS 12.4.2, TestFlight 3.1.4 (17524)
+
+Action Potential#6862 - Bug Bot on 2019-10-04T15:05:11.632Z
+
+
+### Can't reproduce.
+CNR - Can Not Reproduce - iPhone 6s - iOS 13.1.2 - Testflight 3.1.5 (17627)
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-18T01:23:56.984Z
+
+
+### Can't reproduce.
+CNR; iPhone 7, iOS 13.2, TestFlight 3.1.6 (17924)
+
+username#6666 - Bug Bot on 2019-11-01T03:09:03.186Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-11-01T03:09:03.705Z
+
+
+### Archived by Bug Bot on 2019-12-01T03:30:28.518Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,128 @@
+[Archived] Cannot remove a role from the permission override in a channel (https://trello.com/c/k6CVWM7U)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-27T21:55:51.727Z
+Latest Update: 2019-07-25T06:53:27.689Z
+
+Reported by TheCrazyMaffin#2986
+
+####Steps to reproduce:
+- Press "Edit Channel" to edit any channel 
+- Go to "Permissions" 
+- Make sure you have a Roles/Members override (If not create one) 
+- Edit the permissions of any Role/Member or @everyone 
+- Do not press the "Save Changes" that pops up 
+- Switch to any other Role/Member override 
+- Scroll down and press "Remove " 
+- On the PopUp press "Okay"
+
+####Expected result:
+The role override should be gone/deleted
+####Actual result:
+Nothin will happen. The PopUp will close but the role override will stay there
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 27040, Version Hash: b630e547429da7fbd071f5d67abf1367976d42cc
+####System settings:
+Windows 10 Pro 64bit
+
+22251
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-27T21:55:51.727Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 Version 1803, Discord Canary 27040
+
+Malex#6461 - Bug Bot on 2018-10-27T21:55:59.077Z
+
+
+### Can reproduce.
+Can Reproduce: Discord Ptb, Build Number: 27050, Windows 10 Home Insider Preview, x64-Bit, v1809, OS Build: 18262.1000
+
+ItzBHT#4397 - Bug Bot on 2018-10-27T21:56:04.059Z
+
+
+### Can reproduce.
+CR, Win10 Home 1803, Canary 27040
+
+Toby 🎃#5609 - Bug Bot on 2018-10-27T21:56:09.106Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 27040
+
+Hole#0001 - Bug Bot on 2018-10-27T23:59:22.998Z
+
+
+### Can reproduce.
+Can Reproduce; Windows 10 Home x64 (v1803); Discord Canary, build 27040;
+
+S6out#1111 - Bug Bot on 2018-10-28T01:05:31.671Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 27040 - - It appears as though Discord saves the information that you are editing as current changes rather than previous ones. The "current permissions," as observed by another user if they open permissions for that channel do not include the role. If you hit save, the role is added again, and if you hit reset it deletes the role because Discord has the current permissions saved without it.
+
+Solo#0007 - Bug Bot on 2018-10-28T04:08:19.051Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 27040
+
+Neiron#7777 - Bug Bot on 2018-10-28T10:47:17.703Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 27040
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-28T11:00:30.552Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64, Discord Canary 27040
+
+AmirAmani#0102 - Bug Bot on 2018-10-28T11:14:07.700Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 27040 - - I can reproduce, however I think that it's honestly better now where it keeps the new permissions in your cache. You can still hit "reset" to continue deleting the role so it's not a big deal.
+
+Solo#0007 - Bug Bot on 2018-10-28T18:34:25.097Z
+
+
+### minor - Clayton on 2018-10-30T00:31:08.198Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-30T00:31:17.006Z
+
+
+### Duplicate of https://trello.com/c/rRQ3S4Ij
+
+Ene#0808 - Bug Bot on 2018-11-29T08:13:41.615Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:28.853Z
+
+
+### Duplicate of https://trello.com/c/rRQ3S4Ij - Ene on 2019-07-25T06:53:21.192Z
+
+
+### Moved from Verified Bugs to User Reported Bugs by Ene on 2019-07-25T06:53:25.049Z
+
+
+### Unarchived by Ene on 2019-07-25T06:53:25.138Z
+
+
+### Archived by Ene on 2019-07-25T06:53:27.701Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

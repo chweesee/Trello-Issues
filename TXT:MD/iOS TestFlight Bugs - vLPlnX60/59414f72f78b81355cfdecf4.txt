@@ -1,0 +1,128 @@
+[Archived] Some search result pages while searching for the word "emoji" do not load on Discord Testers. (https://trello.com/c/hStm5Xkz)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2017-06-14T15:00:02.574Z
+Latest Update: 2018-10-04T23:55:34.341Z
+
+Reported by Ten#1723
+
+####Steps to reproduce:
+
+- Go to DiscordTester Server
+- Click on Search
+- Search for the word **Emoji**
+- Browse at least the first 50 pages, notice how some pages doesn't load and how some pages loads.
+
+
+####Expected result:
+The search results load properly.
+####Actual result:
+At the time of writing this report and only having the iOSTestflight role, the following pages that don't load are: 3, 8, 19, 32, 34, 36, 45, 55, 68, 75, 78, 79, 93, 95, 101. Additionally, if you close the search through "cancel" instead of the x button and try to search again, the "in:" option is missing.
+####Client settings:
+Discord 1.8.7
+####System settings:
+iOS 10.3.2, iPhone 6
+
+1626
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-14T15:00:02.574Z
+
+
+### OGNovuh#0014 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59414f72f78b81355cfdecf4/c29c9a9f9f96fec010588d99450b5fad/image.png added by Bug Bot on 2017-06-14T15:00:05.456Z
+
+
+### Seth#4431 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59414f72f78b81355cfdecf4/19f2b3428a9796f8b28e48ccc1ba0978/GaZSVGq.png added by Bug Bot on 2017-06-14T15:00:05.474Z
+
+
+### Can reproduce.
+CR with pages 5, 10, 16, 31, 53, 56, 56, etc (I got tired of going through at that point) might be lazy loading though I'm not sure  iPhone 7 iOS 10.2.1, Discord 1.8.3
+
+Chewie#5684 - Bug Bot on 2017-06-14T15:00:07.026Z
+
+
+### Can reproduce.
+ iOS 10.3 14E277, Discord 1.8.7 Can repo the missing pages as well as missing in: search option
+
+Seth#4431 - Bug Bot on 2017-06-14T15:00:08.989Z
+
+
+### Can reproduce.
+iPhone 6 IOS 10.3 Discord 1.8.7 Can reproduce missing pages
+
+yarg#6155 - Bug Bot on 2017-06-14T15:00:11.021Z
+
+
+### I am seeing the exact same number of responses on iOS and desktop. I have a feeling this bug was reported while we were having that bug that made some channels disappear on iOS, which means results from those hidden channels wouldn't have been counted. - Jared on 2017-06-19T22:39:18.935Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-06-19T22:39:22.363Z
+
+
+### Can't reproduce.
+Discord 1.8.8, iOS 10.2, iPad mini 4
+
+Sloofy#9106 - Bug Bot on 2017-07-05T20:14:56.982Z
+
+
+### I can reproduce using the steps provided by Ghoulish-Nightmare#4567: 
+
+- Go to DiscordTester Server (You're here, lol)
+- Click on Search
+- Search for the word **Emoji**
+- Browse at least the first 50 pages, notice how some pages doesn't load and how some pages loads.
+
+Discord 1.9.3 (1340), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-28T15:47:46.988Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-10-28T15:48:23.517Z
+
+
+### Can reproduce. Very strange. It's only specific pages and looking at the same results on desktop, there's nothing strange in there. You can individually search for all of those messages on Discord iOS and they'll appear as expected. - Jared on 2017-11-06T23:21:25.764Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-06T23:21:31.967Z
+
+
+### Reliable repro is searching e.g. `something` and having the **non-emoji** string `:something:` appear in the results. - Michael Fong on 2018-01-26T22:29:14.068Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236) | It crashes now, test it with page 21 for example
+
+Pascal#0929 - Bug Bot on 2018-01-27T10:39:05.121Z
+
+
+### I can still reproduce, the app even crashed for me when I got to page 71 or so. 
+
+Discord 2.2.1 (2236), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-01-28T11:54:06.747Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2018-01-29T23:57:04.135Z
+
+
+### I can no longer reproduce with the steps provided by Meishu, searching for Dabbit in Discord Feedback from a new account doesn’t cause a crash either. 
+
+However, I still crash if I search emoji in Discord Testers and go to page 50+. 
+
+Discord 2.2.2 (2352), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-01-31T06:58:32.424Z
+
+
+### That page 50+ is prob a diff issue. - Fanghao on 2018-02-07T02:39:21.739Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-02-07T02:39:26.526Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:34.346Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

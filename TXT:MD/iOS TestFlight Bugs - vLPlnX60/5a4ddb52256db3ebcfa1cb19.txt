@@ -1,0 +1,81 @@
+[Archived] [Visual bug] Categories with no access can be edited and deleted (https://trello.com/c/ecVzViUC)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-01-04T07:44:18.792Z
+Latest Update: 2018-09-04T23:12:23.032Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create a category 
+- Make this category private and only give an admin role permission to access it 
+- Give any other role the manage channels permission 
+- Assign this role to a user 
+- Open the server settings with this user 
+- Go to `Channels` 
+- Click on the edit button next to the category the user shouldn't access
+
+####Expected result:
+The edit button next to the category shouldn't be clickable.
+####Actual result:
+You can click on the edit button next to category and delete a category you shouldn't have access.
+####Client settings:
+TestFlight 2.2.0 (2042)
+####System settings:
+iPhone 6s, iOS 11.2.1 & iPad Air 2, iOS 11.2.5 Public Beta 2
+
+7576
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-04T07:44:18.792Z
+
+
+### Can reproduce.
+CR, iPhone SE, iOS 10.3.2, TestFlight 2.2.0 (2042)
+
+TimThe#7618 - Bug Bot on 2018-01-04T07:44:26.271Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.1, TestFlight 2.2.0 (2042)
+
+mouse91#3089 - Bug Bot on 2018-01-04T07:44:31.239Z
+
+
+### Can reproduce.
+Can Repro. iPhone 8, iOS 11.1.2, TestFlight 2.2.0 (2042)
+
+Q__Q#0489 - Bug Bot on 2018-01-04T07:44:36.230Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-19T03:09:35.177Z
+
+
+### Verified, only visual, category can't actually be deleted.  - Clayton on 2018-01-19T03:09:51.228Z
+
+
+### This also happens on voicechannels, for repro steps: 
+- make a fresh server ( with your alt)
+- make a role that has access to almost anything except admin perms in a server (with your alt)
+- deny connecting to general (with your alt)
+- give yourself that role (main)
+- hold the general vc till u get the hide names modal etc. (main)
+
+Xylium#1480 - Bug Bot on 2018-05-13T03:51:21.395Z
+
+
+### mouse#0091 - https://www.youtube.com/watch?v=C5qmlE36fbQ added by Bug Bot on 2018-07-15T21:59:12.205Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:23.034Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

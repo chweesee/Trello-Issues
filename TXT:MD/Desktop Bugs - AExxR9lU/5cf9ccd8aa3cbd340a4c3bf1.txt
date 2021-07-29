@@ -1,0 +1,70 @@
+Dragging a role upwards does not scroll role list. (https://trello.com/c/RkcJSDlH)
+
+None
+
+Created: 2019-06-07T02:32:56.609Z
+Latest Update: 2020-07-16T21:26:04.097Z
+
+Reported by Drifter#0001
+
+####Steps to reproduce:
+- Have enough roles that you can scroll the list. 
+- Scroll down the list of roles. 
+- Click and drag a role. 
+- Attempt to drag it above the highest visible role.
+
+####Expected result:
+The role list scrolls upwards, like when dragging downwards.
+####Actual result:
+It doesn't scroll.
+####Client settings:
+Release Channel: canary, Build Number: 39185
+####System settings:
+macOS Mojave 10.14.5
+
+36328
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-07T02:32:56.609Z
+
+
+### Alеx#2287 - https://imgur.com/a/WzZgk1l.gif added by Bug Bot on 2019-06-07T02:32:59.085Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.5 (18F132) - Canary 39214 - I'm able to scroll up but its EXTREMELY hard to get the role pixel perfect where it needs to be to scroll
+
+Isabel#0002 - Bug Bot on 2019-06-07T02:33:04.027Z
+
+
+### Can reproduce.
+can repro, canary 39214, macos 10.14.3
+
+IcyPebbles#5833 - Bug Bot on 2019-06-07T02:33:09.042Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 39291
+
+OrangeM24#5746 - Bug Bot on 2019-06-07T02:33:14.044Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary 39291
+
+Daffy#7906 - Bug Bot on 2019-06-07T11:53:09.782Z
+
+
+### Can reproduce.
+MacOS 10.14.5 - Canary 39387
+
+Colin#0670 - Bug Bot on 2019-06-08T06:07:18.946Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

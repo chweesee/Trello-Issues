@@ -1,0 +1,69 @@
+[Archived] Topic set incorrectly labelled as topic change in Audit Log under certain circumstances. (https://trello.com/c/twOeD0A2)
+
+None
+
+Created: 2017-05-05T22:46:53.775Z
+Latest Update: 2017-10-30T17:24:10.996Z
+
+Reported by Tantusar#7835
+
+####Steps to reproduce: 
+- Set and save the topic of a channel that has never had a topic. 
+- Immediately change and save the topic. 
+
+####Expected result:
+ The Audit Log displays the first change as *setting* the topic and the second change as *changing* the topic. 
+####Actual result:
+ The Audit Log displays both changes as *changing* the topic. 
+####System settings:
+ Windows 10, Latest Canary
+
+1390
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-05T22:46:53.775Z
+
+
+### Can reproduce.
+CR Win 10, Latest Canary
+
+LW001#8654 - Bug Bot on 2017-05-05T22:46:54.367Z
+
+
+### Can reproduce.
+Gwen Oddball#2867 accidentally denied - win10 latest canary
+
+EMT#3690 - Bug Bot on 2017-05-05T22:46:56.399Z
+
+
+### Can reproduce.
+Had 3 approvals. Maybe 4 will set it off?
+
+DeJay#8746 - Bug Bot on 2017-05-05T22:46:58.421Z
+
+
+### Can't reproduce.
+Discord Canary
+
+Kristoffer#3299 - Bug Bot on 2017-05-06T10:14:00.021Z
+
+
+### Can't Reproduce.  - Clayton on 2017-05-11T22:56:48.566Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-05-11T22:56:51.990Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:24:10.245Z
+
+
+### Archived by Jared on 2017-10-30T17:24:10.999Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

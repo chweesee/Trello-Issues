@@ -1,0 +1,79 @@
+[Archived] Discord Canary on Mac uses a large amount of memory after being open for a few days (700-800MB) (https://trello.com/c/YVPfhTFd)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-10-25T04:53:58.535Z
+Latest Update: 2017-12-15T11:54:48.789Z
+
+Reported by WamWooWam#5274
+
+####Steps to reproduce:
+- Launch Discord 
+- Use it normally for a day or so without closing it. Sleep is fine. 
+- After around a day, open Activity Monitor and take a look at RAM usage
+
+####Expected result:
+It should have relitively normal RAM usage.
+####Actual result:
+RAM usage is rather excessive, around 700-800, sometimes 900MB
+####Client settings:
+Discord Canary 0.0.156
+####System settings:
+macOS Sierra 10.12.6, iMac 14,2/iMac 18,1
+
+5689
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-25T04:53:58.535Z
+
+
+### Can reproduce.
+MacOS 10.13 Macbook Pro Discord Canary 0.0.156
+
+Greebo#0397 - Bug Bot on 2017-10-25T04:54:05.973Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.156, MacOS 10.12.6, Macbook Pro Early 2015
+
+Nelson1348#9190 - Bug Bot on 2017-10-25T04:54:10.981Z
+
+
+### Can reproduce.
+CR, MacOS 10.12.6, Canary 0.0.156 , MacBook Pro
+
+Yemper#2609 - Bug Bot on 2017-10-25T04:54:15.990Z
+
+
+### Can reproduce.
+Canary 0.0.158 MacOs 10.12.6 Only are necessary hours
+
+jan358#0664 - Bug Bot on 2017-11-01T17:15:03.626Z
+
+
+### Can reproduce.
+Canary 0.0.160, MacBook Pro Retina 13" Late 2014 macOS High Sierra 10.13; After using Discord for 2h, RAM usage reached 1.5GB.
+
+fratik#9865 - Bug Bot on 2017-11-06T19:15:25.461Z
+
+
+### This isn't a bug. Of course we're going to be using more memory if the app has been running for multiple days. - Jared on 2017-11-14T19:09:34.151Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2017-11-14T19:09:40.450Z
+
+
+### Archived due to being in NAB list for over a month without any activity. - Tarek on 2017-12-15T11:54:42.930Z
+
+
+### Archived by Tarek on 2017-12-15T11:54:48.791Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

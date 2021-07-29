@@ -1,0 +1,173 @@
+[Archived] Compound emojis show as separate characters on windows desktop and web client (https://trello.com/c/havUk1Ya)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-05-23T13:26:08.800Z
+Latest Update: 2019-08-03T04:00:42.694Z
+
+Reported by bdew#1300
+
+####Steps to reproduce:
+- try using any compound emoji (e.g. 👨‍❤️‍💋‍👨)
+
+####Expected result:
+It should show as a single compound emoji (e.g. 👨‍❤️‍💋‍👨)
+####Actual result:
+It instead shows up as it's separate emojis (e.g.👨❤💋👨)
+####Client settings:
+Web and Windows - Release Channel: stable, Build Number: 38274, Version Hash: 62019c2c6c33d011912d0f08a11276d93cfd821f
+####System settings:
+Windows 10 pro build 1803
+
+35161
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-23T13:26:08.800Z
+
+
+### Can reproduce.
+Can reproduce. Seems to happen with any emoji with ZWJ. Windows 8.1 Canary Build Number: 38336
+
+Danny#0007 - Bug Bot on 2019-05-23T13:26:16.266Z
+
+
+### Can reproduce.
+Discord Canary 0.0.238 (38336) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2019-05-23T13:26:21.166Z
+
+
+### Can reproduce.
+Windows 10 Pro 64Bit - Stable, Build Number 38274
+
+AndrewTheRealOneAndTheOnlyOne#1674 - Bug Bot on 2019-05-23T13:26:26.211Z
+
+
+### Can reproduce.
+Windows 10 Home 1809, Discord Canary 38336
+
+Green_GunnY#0001 - Bug Bot on 2019-05-23T13:57:13.705Z
+
+
+### Can reproduce.
+Tested with couple_mm. Canary 0.0.238 (Build 38336), Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547)
+
+SuperSajuuk#0001 - Bug Bot on 2019-05-23T14:18:26.259Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, Canary 38336 host 0.0.238
+
+Jean20B#4287 - Bug Bot on 2019-05-23T14:59:38.758Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 38336
+
+OrangeM24#5746 - Bug Bot on 2019-05-23T16:03:50.839Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 Bit // Discord Canary Version 38336
+
+Cam#0002 - Bug Bot on 2019-05-23T16:08:48.437Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1903 - Canary 38336
+
+anonymous kitten#8929 - Bug Bot on 2019-05-23T19:06:56.626Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 38374
+
+Alipoodle#5025 - Bug Bot on 2019-05-23T19:32:07.177Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Canary build 38374
+
+Alеx#2287 - Bug Bot on 2019-05-23T21:10:27.335Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.238 Build 38460
+
+Daffyduck#5364 - Bug Bot on 2019-05-24T04:00:06.781Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38474 (Host 0.0.238)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-24T14:08:01.521Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38474
+
+Xylium#5800 - Bug Bot on 2019-05-24T19:20:52.536Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2019-05-25T04:13:58.786Z
+
+
+### Verified - Tarek on 2019-05-25T04:14:00.666Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 38556
+
+Isabel#0002 - Bug Bot on 2019-05-25T16:49:34.091Z
+
+
+### Can reproduce.
+Windows 10, Release Channel: canary, Build Number: 38570
+
+Xignotic#0001 - Bug Bot on 2019-05-26T08:26:54.926Z
+
+
+### Can reproduce.
+Windows 10 Education (Version 1903 Build 18362), Canary Build 38570
+
+Keons#0001 - Bug Bot on 2019-05-26T22:42:59.362Z
+
+
+### fixed 38950 - Tarek on 2019-06-01T13:06:24.235Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2019-06-01T13:06:29.249Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38950
+
+Xylium#5800 - Bug Bot on 2019-06-01T13:08:37.221Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Mid-2012), macOS v10.14.4 (18E226) - Canary 38950
+
+Isabel#0002 - Bug Bot on 2019-06-01T13:08:41.853Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Discord Canary 38950
+
+Daffyduck#5364 - Bug Bot on 2019-06-01T13:19:00.094Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-06-01T13:19:00.552Z
+
+
+### Archived by Bug Bot on 2019-08-03T04:00:42.708Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,122 @@
+[Possibly Android 9 specific] Changing your font scale to 117% causes Discord to be unstable. (https://trello.com/c/exyFriVE)
+
+P1 - Severe
+
+Created: 2019-04-06T14:35:56.159Z
+Latest Update: 2019-04-11T17:45:39.527Z
+
+Reported by sha#9999
+
+####Steps to reproduce:
+- Make sure your system display size is set to default 
+- Change the chat font scale to 117% (it may take a bit for you to hit 117%) 
+- Observe how Discord becomes unstable, and starts refreshing at the settings screen and the share screen.
+
+####Expected result:
+Discord is supposed to operate smoothly, despite the font scale change.
+####Actual result:
+Discord becomes very unstable, loop refreshing at the settings screen and share screen (may be more places)
+####Client settings:
+Android Alpha 8.7.1
+####System settings:
+Google Pixel 2; Android 9.0.0
+
+32242
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-06T14:35:56.159Z
+
+
+### sha#9999 - https://youtu.be/2WH19qusKEg added by Bug Bot on 2019-04-06T14:35:58.695Z
+
+
+### Can reproduce.
+Maybe Android 9 in general, I can repro fine. I can also repro with 118% btw. Discord Alpha 8.7.1, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-04-06T14:36:03.736Z
+
+
+### Can reproduce.
+CR | Google Pixel 3 XL - Android 9 Pie (rooted) - Alpha 871
+
+Noxillio#0001 - Bug Bot on 2019-04-06T14:36:08.601Z
+
+
+### Can reproduce.
+Discord Alpha 8.7.0 OnePlus 5 Android 9 (Pie)
+
+Tarek#1337 - Bug Bot on 2019-04-06T14:36:13.957Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Tarek on 2019-04-06T14:37:58.080Z
+
+
+### Moved to notable issues due to the fact, the client is useless at 117% and it's hard to even change it back to default because it keeps scrolling you up after updating the UI. - Tarek on 2019-04-06T14:38:28.759Z
+
+
+### Can reproduce.
+Needs immediate fix. I was almost locked out of discord because it closes the app right away upon each open. Had to be quick. 118% | Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.7.1
+
+Clay#0001 - Bug Bot on 2019-04-06T17:37:25.099Z
+
+
+### Can reproduce.
+This needs to fixed immediately. This is causing the infinite crash loop, rendering discord unusable until reinstalled. Occurs when font scale is set near 117. Redmi 3S Prime, MIUI 10, Android 6.0.1, Discord Discord 871
+
+Xnehaxixh#2892 - Bug Bot on 2019-04-06T21:56:51.304Z
+
+
+### Can reproduce.
+Not Android 9 specific either because I can repro in Android 7, on Honor 6x 7.0 [EMUI 5.0.2] ,alpha 871
+
+fizy#9347 - Bug Bot on 2019-04-07T12:56:40.657Z
+
+
+### neither pixel specific nor Android 9 specific. Just a heads up for the devs who'll see this :)
+
+fizy#9347 - Bug Bot on 2019-04-07T12:57:43.536Z
+
+
+### Can reproduce.
+Not device specific, Makes Discord nearly unusable but if you quick enough you can change it back | Android 9.0, Nokia 7.1, Discord Alpha 8.7.1
+
+JasonTheBaker#0606 - Bug Bot on 2019-04-08T01:41:40.422Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-04-08T16:18:51.920Z
+
+
+### Can't reproduce.
+Can no longer reproduce as of 8.7.2 - Xiaomi Mi A1, Android 9.0 (April Security Patch), Android Alpha 8.7.2
+
+Harutato 💙#6660 - Bug Bot on 2019-04-09T23:16:12.963Z
+
+
+### Can't reproduce.
+CNLR • Samsung Galaxy J7 running Android 8.1.0 • Alpha 8.7.2 (872)
+
+FoxyKero#0005 - Bug Bot on 2019-04-10T02:59:52.367Z
+
+
+### Can't reproduce.
+Cannot reproduce anymore; Wiko LENNY2 version 8, Android 5.1
+
+MoonlightCapital#0554 - Bug Bot on 2019-04-10T12:22:11.681Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-04-10T12:22:11.917Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 871
+
+Quad#1887 - Bug Bot on 2019-04-11T17:45:39.734Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

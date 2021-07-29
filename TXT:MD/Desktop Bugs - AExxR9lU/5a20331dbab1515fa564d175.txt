@@ -1,0 +1,96 @@
+[Archived] Most keybind strings and their descriptions don't update after changing in-app language / locale (https://trello.com/c/Nazbp52m)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-11-30T16:34:37.901Z
+Latest Update: 2019-10-23T23:02:32.912Z
+
+Reported by GospodinCrni#2565
+
+####Steps to reproduce:
+
+- Open User Settings 
+- Go to Keybinds 
+- Add a keybind 
+- Go to Language 
+- Change your in-app language 
+- Go back to Keybinds 
+- Open the left dropdown below "action"
+
+####Expected result:
+Keybind related strings should be displayed in the same language as the rest of the app
+####Actual result:
+Only last two items in dropdown and their descriptions are displayed in correct language
+####Client settings:
+Desktop Canary 7840
+####System settings:
+Windows 7 Ultimate x64
+
+6751
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-30T16:34:37.901Z
+
+
+### GospodinCrni#2565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a20331dbab1515fa564d175/e9a823afa7cb89701d0b0deffe57722d/6YwUmLo.png added by Bug Bot on 2017-11-30T16:34:40.280Z
+
+
+### OminousCry#2331 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a20331dbab1515fa564d175/24f2dd029897feb72c0a43bf850c0370/1bZC5DY.png added by Bug Bot on 2017-11-30T16:34:40.428Z
+
+
+### Can reproduce.
+Windows 10 x64 Home | Discord Canary 7840
+
+Bananyog#3147 - Bug Bot on 2017-11-30T16:34:45.271Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.180 (Build 7840) on Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-11-30T16:34:50.188Z
+
+
+### Can reproduce.
+CR, Canary 7840, Win 10 x64
+
+descrates#3050 - Bug Bot on 2017-11-30T16:34:55.210Z
+
+
+### Verified.  - Clayton on 2017-11-30T22:05:10.533Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-30T22:05:14.299Z
+
+
+### There was an attempt to fix this https://trello.com/c/ovyYyCnS/455-keybinds-dropdown-menu-is-dutch issue, but now it's forced in English instead of being based of client version. - Tarek on 2017-12-01T01:29:08.688Z
+
+
+### Can reproduce.
+MacBook Air (Early 2015) macOS High Sierra 10.13, Discord Stable Version 0.0.248 (Build #7889)
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-01T21:25:28.122Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:13.484Z
+
+
+### Can reproduce.
+CR; The displayed language is the one the client started with rather than specifically English; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 30302
+
+Longinus#0293 - Bug Bot on 2018-12-30T04:14:46.955Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:29.153Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:32.931Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

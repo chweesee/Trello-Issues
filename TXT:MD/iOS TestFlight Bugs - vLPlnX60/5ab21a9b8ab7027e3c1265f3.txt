@@ -1,0 +1,99 @@
+[Archived] Regional indicator emoji turns into country flags in a multi-line message (https://trello.com/c/6tamzE3x)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-21T08:40:59.495Z
+Latest Update: 2019-01-31T19:58:49.825Z
+
+Reported by haptick#1749
+
+####Steps to reproduce:
+- Type a new message (preferably on PC) by doing the following: 
+- Enter "🇺 " (must have 2+ spaces after the last colon) 
+- Line break with SHIFT+ENTER 
+- Enter "🇸 " (2+ spaces after it) 
+- Line break 
+- Enter "🇨 " (2+ spaces after it) 
+- Line break 
+- Enter "🇳 " (2+ spaces after it) 
+- Line break 
+- Enter "🇰 " (2+ spaces after it) 
+- Line break 
+- Enter "🇷 " (2+ spaces after it) 
+- Line break 
+- Send the message 
+- View it on an iOS device
+
+####Expected result:
+You should see small block emojis for U,S,C,N,K,R with each on separate lines.
+####Actual result:
+On iOS, it displays a USA, China, and Korea flag on a single line.
+####Client settings:
+App Store Version 2.2.5
+####System settings:
+iPhone 7 Plus iOS 10.1.1
+
+9765
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-21T08:40:59.495Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.2.6, TestFlight 2.2.5 (3054)
+
+» a r i a#1593 - Bug Bot on 2018-03-21T08:41:06.870Z
+
+
+### Can reproduce.
+CR; iPad Pro 12.9" AND iPhone 6S, iOS 11.2.6, TestFlight 2.2.5 (3054)
+
+HyperKids#4976 - Bug Bot on 2018-03-21T08:41:11.820Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.5 (3022)
+
+HeroGamers#0001 - Bug Bot on 2018-03-21T08:41:16.849Z
+
+
+### Can reproduce.
+Iphone SE 2.2.6 (3373)
+
+ChaosKadir#3764 - Bug Bot on 2018-03-21T23:26:20.264Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.3 PB, TestFlight 2.2.6
+
+C4Navar#1337 - Bug Bot on 2018-03-22T21:03:17.577Z
+
+
+### I can reproduce this P3, moving to Verified Bugs.
+
+Discord 2.2.7 (3519), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-05T06:01:08.299Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2018-04-05T06:01:17.593Z
+
+
+### Can reproduce.
+CR, iPhone 6S, iOS 9.1 (13B143), Discord TestFlight 2.2.7 (3519)
+
+zjtech123#6743 - Bug Bot on 2018-04-06T05:01:04.178Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ab21a9b8ab7027e3c1265f3/a1454fdda8c504819c42b2962f83aa1a/rsHtwAS.png added by Bug Bot on 2018-07-14T08:57:30.865Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:49.840Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

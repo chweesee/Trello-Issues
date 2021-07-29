@@ -1,0 +1,81 @@
+[Archived] When repeatedly turning & offing the volume from the volume bar the bar glitches (https://trello.com/c/CXSrmtEV)
+
+P2 - Can wait a while
+
+Created: 2017-06-24T19:34:26.772Z
+Latest Update: 2017-09-29T11:16:46.129Z
+
+Reported by HasanBrandsXD#4120
+
+####Steps to reproduce:
+- Get a music bot 
+- Let it play music 
+- Click on its profile, then repeatedly change the volume to down and up (using the soundbar \*\*only\*\*)
+
+####Expected result:
+I can change the volume smoothly with no hassle
+####Actual result:
+Starts slowing down and starts glitching
+####Client settings:
+Discord 3.9.1
+####System settings:
+Android 6.0.1 Samsung J56 2016
+
+1853
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-24T19:34:26.772Z
+
+
+### HasanBrandsXD#4120 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/594ebec2ec68c91ee2523769/8baa898ec8daf76e57386373d69b38c6/Screenshot_20170624-182152.png added by Bug Bot on 2017-06-24T19:34:29.860Z
+
+
+### Can reproduce.
+Can repro on  VFD 600 @ Android 6.0.1
+
+TTtie#4900 - Bug Bot on 2017-06-24T19:34:31.284Z
+
+
+### Can reproduce.
+my theory is that I think it has to do with specs / load as it prolly tracks down all movement until we finally close the menu, so at the end its just overflowed and begins to use too much ram/memory/cpu if that makes sense.   Android 7.0  Samsung Galaxy 8 plus  3.9.6 Discord
+
+Ana#0950 - Bug Bot on 2017-06-24T19:34:33.281Z
+
+
+### Can reproduce.
+CR - Android Alpha 3.9.3 - Google Pixel - Android 7.1.2
+
+Pointy#5565 - Bug Bot on 2017-06-24T19:34:35.338Z
+
+
+### Can reproduce.
+LG K20 PLUS, Android 7.0
+
+Fayne Aldan#2423 - Bug Bot on 2017-06-24T20:00:34.396Z
+
+
+### Verified.  - Clayton on 2017-06-29T21:59:21.335Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-29T21:59:30.070Z
+
+
+### Can reproduce.
+only works in the voice user profile, not in the new mini one, also only works when sliding it, tapping doesn't cause it
+
+Azrael#9808 - Bug Bot on 2017-09-29T04:59:06.752Z
+
+
+### Archived by Generic on 2017-09-29T11:16:43.623Z
+
+
+### Dupe of https://trello.com/c/qtwJhbcM/327-user-volume-adjusts-itself-randomly-eventually-leading-to-a-crash-after-manually-altering-it  - Generic on 2017-09-29T11:16:46.131Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,83 @@
+Invite Link Embeds [x online] counter takes into account people set to 'invisible' (https://trello.com/c/1WFxcKOa)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2017-11-09T16:56:07.402Z
+Latest Update: 2020-07-06T19:30:06.531Z
+
+Reported by Rie#0032
+
+####Steps to reproduce:
+- Example: A server of 2 people. One person online and one offline 
+- The counter shows [1 online] 
+- The offline person logs in with the status 'Invisible' 
+- The counter shows [2 online]
+
+####Expected result:
+The Invite Link Embed [x online] counter should not take into account 'invisible' members
+####Actual result:
+The Invite Link Embed [x online] counter still takes into account members set to 'invisible'
+####Client settings:
+Release Channel: canary, Build Number: 7041
+####System settings:
+Microsoft Windows 10 Pro (Build 15063) x64
+
+6220
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-09T16:56:07.402Z
+
+
+### Can reproduce.
+CR Windows 10 x64, Discord Canary 0.0.173
+
+Zacatero#5839 - Bug Bot on 2017-11-09T16:56:15.094Z
+
+
+### Can reproduce.
+CN, Windows 10 Pro x64 v1709 (Canary build 7041, v 0.0.173)
+
+TimThe#7618 - Bug Bot on 2017-11-09T16:56:20.111Z
+
+
+### Can reproduce.
+Can Reproduce Windows 10 x64 Fall Creators update(Canary build  Number 7041)
+
+Tech Bot 7#9997 - Bug Bot on 2017-11-09T16:56:25.145Z
+
+
+### Can reproduce.
+Dell Inspiron 15 Windows 10 Creators Update Discord Canary 7041
+
+Tiger Gaming X™#6437 - Bug Bot on 2017-11-09T19:22:31.780Z
+
+
+### Verified.  - Clayton on 2017-11-16T00:05:55.090Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-16T00:05:59.631Z
+
+
+### 54D#1357 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a0488a7f13dba209a4e3e66/ea2f871e0430adb8d88a8a7c65223cc9/3dc91a8a77a6143f856058de6b7a56a2.png added by Bug Bot on 2018-07-15T10:37:36.124Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:59.633Z
+
+
+### Can reproduce.
+CR, Windows 7 Ultimate, Discord Canary 62151
+
+Shiny#0003 - Bug Bot on 2020-06-25T04:25:47.407Z
+
+
+### Unarchived by Bug Bot on 2020-06-25T04:30:05.657Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,216 @@
+[Archived] Scrolling up using inertia from the bottom of the channel list of a server with a banner will interrupt the scroll before the banner (https://trello.com/c/CgIbSAJ3)
+
+P3 - Will be fixed eventually
+
+Created: 2019-04-12T01:31:24.711Z
+Latest Update: 2019-08-16T21:25:36.103Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go in DTesters  
+- Scroll all the way down 
+- Scroll up using inertia (briefly swipe down and lift your finger to let it scroll on its own)
+
+####Expected result:
+It should continue scrolling until it reaches the top eventually
+####Actual result:
+The scrolling stops at the point where the banner would start to show, forcing you to scroll up a second time to reach the top
+####Client settings:
+Discord Alpha 8.7.4
+####System settings:
+Huawei Mate 9 Android 9.0
+
+32478
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-12T01:31:24.711Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 8.7.3, Samsung Galaxy s7
+
+TheBaconnator#0001 - Bug Bot on 2019-04-12T01:31:32.114Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 873
+
+The Lunala#7777 - Bug Bot on 2019-04-12T01:31:37.072Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8 android 8, alpha 8.7.3
+
+Action Potential#2494 - Bug Bot on 2019-04-12T01:31:42.107Z
+
+
+### Can reproduce.
+Android Samsung Galaxy S9 9.0.0, 8.7.3
+
+OldWampa#7897 - Bug Bot on 2019-04-12T01:53:50.514Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Pro, Android 8.1.0 Alpha 8.7.3
+
+FrostTaco#2938 - Bug Bot on 2019-04-12T02:13:09.707Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.7.3
+
+Clay#0001 - Bug Bot on 2019-04-12T02:45:37.580Z
+
+
+### Can reproduce.
+Oneplus 6T, Android 9, Alpha 8.7.3
+
+Xia#0001 - Bug Bot on 2019-04-12T03:13:12.319Z
+
+
+### Can reproduce.
+LG Stylo 4 | Android 8.1 | Alpha 873
+
+charleskimbac#6492 - Bug Bot on 2019-04-12T03:21:41.205Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Discord Alpha 8.7.3
+
+Danijel#9000 - Bug Bot on 2019-04-12T03:27:59.446Z
+
+
+### Can reproduce.
+Samsung Galaxy A50, Android 9, 8.7.3
+
+BBsan#9829 - Bug Bot on 2019-04-12T03:44:48.644Z
+
+
+### Can't reproduce.
+Nokia 7.1, Android 9.0, Discord Alpha 8.7.3
+
+JasonTheBaker#0606 - Bug Bot on 2019-04-12T04:00:52.436Z
+
+
+### Can reproduce.
+HTC U12+, Android 8.0.0 , Alpha 8.7.3
+
+anonymous kitten#5379 - Bug Bot on 2019-04-12T04:50:06.040Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H, 3.18.31-perf-g6e5c25f, MIUI 10.1.1.0 (NAMMIFI), Discord Alpha 8.7.3
+
+Defracted#7777 - Bug Bot on 2019-04-12T04:52:37.200Z
+
+
+### Can reproduce.
+OnePlus 3T, Android 8, Discord 8.7.3
+
+Alipoodle#5025 - Bug Bot on 2019-04-12T05:59:50.550Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9.0.0, Discord Alpha 8.7.3
+
+Alex the fox#2287 - Bug Bot on 2019-04-12T06:31:19.858Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2017, Android 8.1.0
+
+chickenmatty#7615 - Bug Bot on 2019-04-12T06:39:12.308Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.7.3
+
+Skyla#0002 - Bug Bot on 2019-04-12T07:42:52.776Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 873
+
+The Lunala#7777 - Bug Bot on 2019-04-12T09:57:35.642Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 8.7.3
+
+TheFutureKnight#7664 - Bug Bot on 2019-04-12T09:59:39.538Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Android 5.0, Discord Alpha 8.7.3
+
+Karasu#0013 - Bug Bot on 2019-04-12T11:47:10.050Z
+
+
+### Can reproduce.
+Galaxy S7, 7.0, Alpha 873
+
+c1#3677 - Bug Bot on 2019-04-12T12:51:25.989Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.7.3
+
+Lily#2624 - Bug Bot on 2019-04-12T13:02:54.280Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 8.7.3
+
+Law of Royale#4167 - Bug Bot on 2019-04-12T13:37:48.246Z
+
+
+### Moved from User Reported Bugs to Banners and Quick Reactions! by Clayton on 2019-04-12T19:44:29.957Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 873
+
+Quad#1887 - Bug Bot on 2019-04-15T18:26:19.057Z
+
+
+### Can't reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord 888
+
+undermaster#3126 - Bug Bot on 2019-05-02T07:04:32.506Z
+
+
+### Moved from Banners and Quick Reactions! to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-05-20T20:38:19.727Z
+
+
+### Can't reproduce.
+CNLR HTC U12+, Android 8.0, Alpha 9.0.0
+
+anonymous kitten#8929 - Bug Bot on 2019-05-20T21:16:46.881Z
+
+
+### Can't reproduce.
+LG Stylo 4 | Android 8.1 | Alpha 900
+
+charleskimbac#6492 - Bug Bot on 2019-05-20T21:21:33.301Z
+
+
+### Can't reproduce.
+Discord Alpha 9.0.0, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-05-20T21:24:29.972Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-05-20T21:24:30.220Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:25:36.116Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

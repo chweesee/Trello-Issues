@@ -1,0 +1,94 @@
+[Archived] Link markdown in the search box leading to nothing opens the current channel in browser (https://trello.com/c/QO4tWFpU)
+
+P3: Will get fixed eventually
+
+Created: 2017-07-22T06:54:11.580Z
+Latest Update: 2019-10-23T23:04:22.431Z
+
+Reported by Pointy#5565
+
+####Steps to reproduce:
+- Type the following in the search bar, without searching it: [Test]()
+
+####Expected result:
+The "Search for" dropdown shouldn't parse the markdown
+####Actual result:
+The markdown is parsed and the link is clickable, and upon being clicked will take you to the current channel in the browser version
+####Client settings:
+Desktop Canary 0.0.161
+####System settings:
+Win 10 Pro x64 v1607
+
+2456
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-22T06:54:11.580Z
+
+
+### Can reproduce.
+Discord Stable 0.0.297 Windows 10 Pro x64
+
+Epoch#5232 - Bug Bot on 2017-07-22T06:54:19.172Z
+
+
+### Can reproduce.
+ Windows 10 Home (Creators Update) x64, Canary 0.0.161
+
+DeJay#3628 - Bug Bot on 2017-07-22T06:54:24.163Z
+
+
+### Can reproduce.
+ Windows 10 x64 canary 0.0.161
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-07-22T06:54:29.160Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-07-27T20:05:46.994Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 v1709 (Canary build 13405)
+
+TimThe#1118 - Bug Bot on 2018-04-12T13:38:29.622Z
+
+
+### To clarify, you have to write `[Test]()` in search. I can still repro this. - Tarek on 2018-07-02T18:05:50.774Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5972f693675df5dfbfdc3079/4c3284c46757b618c911dab36e198f6a/ezgif-4-6325ab972d.gif added by Bug Bot on 2018-07-15T08:59:50.914Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1803) - Canary 20316
+
+Mippy#0001 - Bug Bot on 2018-07-31T05:48:15.508Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:46.464Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 x64 - Discord Canary 26902
+
+webhp#1337 - Bug Bot on 2018-10-25T03:29:05.909Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.117 (x64) · Web Canary 32982
+
+Casper#9999 - Bug Bot on 2019-02-28T13:51:27.145Z
+
+
+### Unarchived by Bug Bot on 2019-02-28T14:00:06.137Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:22.443Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

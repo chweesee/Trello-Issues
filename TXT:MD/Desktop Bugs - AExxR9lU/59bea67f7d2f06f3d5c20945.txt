@@ -1,0 +1,73 @@
+[Archived] Channel linking for a channel with same name like other one changes to first channel with this name after edit of the message (https://trello.com/c/5Qd0jehp)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-17T16:44:47.660Z
+Latest Update: 2018-10-22T20:15:52.250Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create two or more channels with the same name 
+- Write a message with a channel linking to the second channel of the channels with the same name 
+- Edit this message 
+- Observe how the channel linking changes
+
+####Expected result:
+Channel linking shouldn't change when editing a message to the first channel with this name.
+####Actual result:
+Channel linking changes from `#test~1 ` to `#test` for example.
+####Client settings:
+Discord Canary 0.0.154
+####System settings:
+MacBook Pro 13" (2016), macOS Sierra 10.12.6
+
+4443
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-17T16:44:47.660Z
+
+
+### Can reproduce.
+can repro Windows 10 x64 B1703 | Canary B4361
+
+Tobias#5233 - Bug Bot on 2017-09-17T16:44:55.194Z
+
+
+### Can reproduce.
+Canary Build 4361, Windows 10 x64
+
+Jake S.#8787 - Bug Bot on 2017-09-17T16:45:00.165Z
+
+
+### Silox#8632 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59bea67f7d2f06f3d5c20945/718b3ea74bd52ee4666fd793587999e3/2017-09-17_10-42-07.gif added by Bug Bot on 2017-09-17T16:45:01.766Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (4361) Windows 10 Version 1703
+
+Silox#8632 - Bug Bot on 2017-09-17T16:45:05.132Z
+
+
+### Can reproduce.
+Win 10 Enterprise 1703 x64, Canary 4361, PTB 4402
+
+Josedolf Staller#2859 - Bug Bot on 2017-09-18T18:52:22.075Z
+
+
+### Verified.  - Clayton on 2017-09-19T21:42:42.531Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T21:42:48.001Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:52.253Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

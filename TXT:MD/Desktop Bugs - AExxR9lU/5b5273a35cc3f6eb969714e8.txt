@@ -1,0 +1,78 @@
+[Archived] On the latest build, when clicking delete on the kebab menu, you can keep clicking and it stays there (https://trello.com/c/Y5c9BXsQ)
+
+None
+
+Created: 2018-07-20T23:43:31.245Z
+Latest Update: 2018-08-21T23:14:22.260Z
+
+Reported by Rage#9991
+
+####Steps to reproduce:
+- Send a message 
+- Press the kebab menu 
+- Start pressing delete many times 
+- Observe what happens
+
+####Expected result:
+It isn't supposed to stay there and let you click it multiple times as in previous builds
+####Actual result:
+You can click it many times and it stays on the screen
+####Client settings:
+Canary 19400
+####System settings:
+Macbook Air, macOS Sierra 10.12.6
+
+15774
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-20T23:43:31.245Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1803), Discord Canary Build 19400
+
+NicholasY#4815 - Bug Bot on 2018-07-20T23:43:38.887Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1803), Canary 19390
+
+Mustard#2117 - Bug Bot on 2018-07-20T23:43:43.890Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803, Discord Canary (Build 19400)
+
+Doges#0001 - Bug Bot on 2018-07-20T23:43:48.810Z
+
+
+### Moved from User Reported Bugs to Message Update Bugs by Tarek on 2018-07-20T23:44:48.118Z
+
+
+### the root cause of this bug is having the menu from the kebab (3 dots) not fade allowing the user to interact with it when they shouldn't be able to
+
+Azrael#6867 - Bug Bot on 2018-07-20T23:46:43.972Z
+
+
+### Azrael#6867 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5273a35cc3f6eb969714e8/9447a75d45b703563865991f30809f78/64PbbKy.png added by Bug Bot on 2018-07-20T23:46:50.618Z
+
+
+### Moved from Message Update Bugs to Fix made, not yet released by Joey Baker on 2018-07-20T23:59:59.974Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Shadi Isber on 2018-07-21T00:35:35.609Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:14:21.165Z
+
+
+### Archived by Jared on 2018-08-21T23:14:22.262Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/joeybaker9) - No Bio

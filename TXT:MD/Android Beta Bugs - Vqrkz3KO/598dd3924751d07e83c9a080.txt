@@ -1,0 +1,101 @@
+[Archived] The nicknames changes are very buggy and also everything related to them. You cannot reset Nicknames properly in server settings (https://trello.com/c/gmViyXin)
+
+None
+
+Created: 2017-08-11T15:56:02.146Z
+Latest Update: 2017-12-02T16:19:50.026Z
+
+Reported by Symplyfyed#4913
+
+####Steps to reproduce:
+- Go to a server where you can change Nicknames and there's people that have some 
+- Go to settings, then to members, select one with a nickname, and delete the nick. 
+- Observe that after the field is empty the save button doesn't appear 
+- (optional) add a space then observe that the save button appears 
+- (optional) press the save button, and observe the wrong confirmation message saying the nick was changed to "." 
+- (optional) press the "go back" arrow (try to exit from user settings 
+- go to another user). Observe that a message appears saying the changes were not saved even if you pressed the save button before.
+
+####Expected result:
+You should be able to delete the nickname and then press the save button - You shouldn't have a message saying some changes were not saved - You shouldn't have a confirmation message saying the nick was changed to "." when it was reseted.
+####Actual result:
+Everything is broken about Nicknames. You cannot reset the nickname without adding a space in the empty field of "change Nickname". Also doing so, the app thinks that the changes were not saved, even if you pressed the save button
+####Client settings:
+DiscordApp, Android Alpha 500(500)
+####System settings:
+Android 4.4.4, Tablet Allview VivaH8LTE
+
+3060
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-11T15:56:02.146Z
+
+
+### Symplyfyed#4913 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/598dd3924751d07e83c9a080/751afadf18dfec9688713e2aa8a7ba57/Screenshot_2017-08-11-18-16-25.png added by Bug Bot on 2017-08-11T15:56:04.931Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 500 (Most likely 4.0.5 but it says 500)
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-08-11T15:56:09.551Z
+
+
+### Can reproduce.
+Can reproduce, VFD 600 @ Android 6.0.1, Discord v500
+
+TTtie#4900 - Bug Bot on 2017-08-11T15:56:14.813Z
+
+
+### Can reproduce.
+CR, 500 Samsung S7 Edge android 7.0
+
+Cygan#7117 - Bug Bot on 2017-08-11T15:56:19.523Z
+
+
+### Long Description: The nickname field is buggy. If you try to delete the nickname, then press the save button, you observe that the save button doesn't appear. To reset Nicknames you need to add a space. When pressing save it says the nickname was charged to "." but it's wrong, because the nick was reseted. Also when trying to press the go back button says some changes were not saved, even if you pressed the save button before
+
+Symplyfyed#4913 - Bug Bot on 2017-08-11T15:59:05.545Z
+
+
+### Can reproduce.
+Samsung Galaxy S5, 6.0.1
+
+AviationMaster#4793 - Bug Bot on 2017-08-11T15:59:10.194Z
+
+
+### Can reproduce.
+Samsung Galaxy A5, 6.0.1
+
+Damion8980#1189 - Bug Bot on 2017-08-14T00:53:32.100Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Andy Garron on 2017-08-16T00:44:04.378Z
+
+
+### Can't reproduce any of the issues listed in this report.
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.1.7 (517) - Alexandru Todea on 2017-09-16T18:04:32.622Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-16T18:04:38.975Z
+
+
+### Verified Fixed - Jared on 2017-10-02T20:20:49.203Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T20:20:52.471Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:19:48.551Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:19:50.029Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

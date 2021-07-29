@@ -1,0 +1,109 @@
+some colored roles doesn't apply correctly in overlay. (https://trello.com/c/Zh4jtbgO)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-08-02T11:58:55.653Z
+Latest Update: 2019-08-04T00:49:17.138Z
+
+Reported by MakiTheLegend#5027
+
+####Steps to reproduce:
+- remember the user's color in the actual client before proceeding. open overlay from your game 
+- go to a random server. investigate the user's color 
+- repeat it with another server if you cant reproduce in the first server. it just shows as random.
+
+####Expected result:
+colored roles should apply normally
+####Actual result:
+some colored roles does not apply.
+####Client settings:
+Canary 20535
+####System settings:
+Windows 10 Home SL 1803 x64
+
+16732
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T11:58:55.653Z
+
+
+### MakiTheLegend#5027 - https://youtu.be/96D6J49PDQU added by Bug Bot on 2018-08-02T11:58:58.175Z
+
+
+### Can reproduce.
+Works best if the people you are inspecting have multiple colored roles and you have not opened up that server before in the overlay. Windows 10 Home x64 (1803), Canary 20540
+
+Mustard#2117 - Bug Bot on 2018-08-02T11:59:03.170Z
+
+
+### Can reproduce.
+CR; Windows 10 home 64-bit (1803); Discord Canary Build 20540
+
+Blitz#7736 - Bug Bot on 2018-08-02T11:59:08.320Z
+
+
+### Can reproduce.
+CR: Windows 10 Home (Version 1803), Canary 20540
+
+JohnyTheCarrot#0001 - Bug Bot on 2018-08-02T11:59:13.311Z
+
+
+### JohnyTheCarrot#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b62f1ff8189d8e42dd0f6b3/5724204a14aaa10f02b06665b86dc6f6/DvETO2J.png added by Bug Bot on 2018-08-02T12:04:12.895Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Canary 20540
+
+averysumner#6969 - Bug Bot on 2018-08-03T02:14:42.466Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Disccord Canary 20790
+
+Delite#0001 - Bug Bot on 2018-08-04T13:26:57.735Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 20790
+
+Frances Picard#6209 - Bug Bot on 2018-08-04T17:05:38.533Z
+
+
+### CNR, win 10, canary 22791 - Clayton on 2018-08-30T22:35:25.381Z
+
+
+### Can reproduce.
+Canary 25046 - CR BUT No clear steps to reproduce... and doesn't matter towards server size exactly as this example is only around 50 members. https://puu.sh/BDr2P/4de8cea752.png
+
+Alipoodle#5025 - Bug Bot on 2018-09-30T15:13:30.781Z
+
+
+### can repro with users who are offline/invis - Clayton on 2018-10-13T04:00:09.741Z
+
+
+### Can reproduce.
+CR; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 28970
+
+Longinus#0293 - Bug Bot on 2018-12-05T23:47:33.224Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 37140 ~ Found what possibly could be a better way of reproducing this bug. Editing a user by removing nickname / lower roles seems to update the user and cause them to remove roles. My Bug Squasher role seemed to vanish after nicknaming myself.
+
+Alipoodle#5025 - Bug Bot on 2019-05-07T21:00:02.035Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1903) - Canary 42647
+
+Isabel#0002 - Bug Bot on 2019-08-04T00:49:17.148Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,129 @@
+Error when try to drag image first time (This is not duplicate/extension of Ny4Igqq4, because it happens in different javascript function. and different error message. and different way.) (https://trello.com/c/XKeeGpqE)
+
+None
+
+Created: 2019-05-16T07:27:50.653Z
+Latest Update: 2020-07-16T21:26:03.872Z
+
+Reported by RyotaK#2460
+
+####Steps to reproduce:
+- **Finish** upload an image to text channel 
+- **After** upload, drag it 
+- See console (Error happens only first time)
+
+####Expected result:
+It shouldn't show error
+####Actual result:
+It shows "Uncaught Error: Cannot call beginDrag while dragging."
+####Client settings:
+Release Channel: stable, Build Number: 37253, Version Hash: 818758a6ad5e844be56a5ff543f0db672f01bc1c
+####System settings:
+macOS version 10.14.1
+
+34642
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-16T07:27:50.653Z
+
+
+### Krobo#4784 - https://youtu.be/8W8hYSHgDsg added by Bug Bot on 2019-05-16T07:27:53.114Z
+
+
+### Can reproduce.
+CR. Windows 10 PRO x64, Web Stable 37253
+
+Cam#9999 - Bug Bot on 2019-05-16T07:27:57.964Z
+
+
+### Can reproduce.
+macos 10.14.5, stable 37253
+
+OrangeM24#5746 - Bug Bot on 2019-05-16T07:28:02.960Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 37774
+
+Isabel#0002 - Bug Bot on 2019-05-16T07:28:07.972Z
+
+
+### Can reproduce.
+Windows 10 Education, x64, V.1803, Release Channel: canary, Build Number: 37774,
+
+mrphilip#7368 - Bug Bot on 2019-05-16T11:40:02.710Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1809 (OS Build 17763.404), Discord Canary 37774
+
+||Kissa||#1337 - Bug Bot on 2019-05-16T13:26:15.549Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 37774
+
+Neiron#8475 - Bug Bot on 2019-05-16T14:24:16.250Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 37774
+
+AHkhan#9999 - Bug Bot on 2019-05-16T17:50:17.808Z
+
+
+### Can reproduce.
+Windows 10 Pro Inider Build 18895, Ryzen 5 2600 @3.9Ghz, GTx 1050 Ti , Canary 37801
+
+ScarVite#6606 - Bug Bot on 2019-05-16T21:20:28.658Z
+
+
+### Can reproduce.
+CR: iMac 10,1 macOS 10.13.6, Stable 37729
+
+chaNcharge#6969 - Bug Bot on 2019-05-17T02:34:32.478Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Version 1809 - Intel i3-7300 & GTX 750 Ti, Canary 37801
+
+Lost#9999 - Bug Bot on 2019-05-17T10:28:04.167Z
+
+
+### Can reproduce.
+openSUSE Tumbleweed 20190514 - Canary 37801
+
+voldemort#6931 - Bug Bot on 2019-05-17T11:19:03.311Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 37801
+
+Lily#2624 - Bug Bot on 2019-05-17T16:48:18.167Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.237 Build 37921
+
+Daffyduck#5364 - Bug Bot on 2019-05-17T23:55:00.882Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 37999
+
+Xylium#5800 - Bug Bot on 2019-05-18T12:56:51.158Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 (1809) | Canary 38023
+
+charleskimbac#6492 - Bug Bot on 2019-05-20T03:32:40.883Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

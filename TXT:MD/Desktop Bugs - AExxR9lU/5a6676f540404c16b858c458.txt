@@ -1,0 +1,77 @@
+[Archived] Overlay can eat ESC key presses in league and overwatch (https://trello.com/c/a13aXCng)
+
+None
+
+Created: 2018-01-22T23:42:45.990Z
+Latest Update: 2019-07-19T16:30:20.580Z
+
+Reported by VoidWhisperer#5905
+
+####Steps to reproduce:
+- Open overwatch or league 
+- Open up the overlay 
+- Right click out of the overlay to close it 
+- Hit ESC to bring up a menu 
+- Hit ESC a second time. The game should ignore the ESC until you click out of the game.
+
+####Expected result:
+Hitting ESC the second time should close the game menu
+####Actual result:
+ESC presses are ignored until the game loses and regains focus.
+####Client settings:
+Build 9631
+####System settings:
+Windows 10 Home x64
+
+8067
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-22T23:42:45.990Z
+
+
+### Can reproduce.
+Discord Canary 0.0.198 (9714) on Windows 10 Pro 64-bit (1709)
+
+Tarek1337#0379 - Bug Bot on 2018-01-22T23:42:53.294Z
+
+
+### Can reproduce.
+Discord Canary 0.0.198, Windows 10 Pro x64
+
+Dabbit Prime#0896 - Bug Bot on 2018-01-22T23:42:58.281Z
+
+
+### Can reproduce.
+Discord 0.0.300, Win 10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-01-22T23:43:03.269Z
+
+
+### Verified - Jared on 2018-01-24T16:08:31.023Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-01-24T16:08:34.448Z
+
+
+### merged into master ticket, archiving - Tim on 2018-10-02T19:18:22.887Z
+
+
+### Archived by Tim on 2018-10-02T19:18:24.685Z
+
+
+### Moved from Verified Bugs to User Reported Bugs by Pascal on 2019-07-19T16:30:17.690Z
+
+
+### Unarchived by Pascal on 2019-07-19T16:30:17.753Z
+
+
+### Archived by Pascal on 2019-07-19T16:30:20.592Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

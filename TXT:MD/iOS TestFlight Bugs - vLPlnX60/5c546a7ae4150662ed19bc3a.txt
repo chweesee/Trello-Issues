@@ -1,0 +1,104 @@
+[Archived] Uneven spoil hide [iOS] (https://trello.com/c/xBTZkPCT)
+
+P3 - Will be fixed eventually
+
+Created: 2019-02-01T15:49:14.899Z
+Latest Update: 2019-03-10T19:30:03.214Z
+
+Reported by .–. LOLnt ._.#3405
+
+####Steps to reproduce:
+- Send 20 spoils (each spoil is a new line) in a message [blank channel] 
+- do the same thing 3 more times 
+- Completely show the top and bottom messages 
+- scroll back to the opposite side (if ur at the top, scroll to the bottom) 
+- observe how all is hidden there 
+- now completely show the bottom message 
+- scroll up until the message is (roughly) just below the typing field [yes, u have to guess] 
+- scroll back down 
+- observe how it is still shown (like, not one spoil has been hidden again)
+
+####Expected result:
+Each spoiler is independent from the message (eg, its not the message position that it relies on, just the spoiler position itself)
+####Actual result:
+Each spoiler relies on the message position, and even when the message isn't even visible to the user
+####Client settings:
+TestFlight 2.4.4 [11051]
+####System settings:
+iOS 12.1.3 ~ iPad 9.7"
+
+27545
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-01T15:49:14.899Z
+
+
+### .–. LOLnt ._.#3405 - https://youtu.be/qiImQOjdZT4 added by Bug Bot on 2019-02-01T15:49:17.484Z
+
+
+### Can reproduce.
+Phone 7, iOS 12.1.3 - TestFlight 2.4.4 (11051)
+
+KolkiesDev#0001 - Bug Bot on 2019-02-01T15:49:22.482Z
+
+
+### Can reproduce.
+CR - iPhone SE iOS 11.1.2 - Discord TestFlight 2.4.4 (11051)
+
+Arnold0#7514 - Bug Bot on 2019-02-01T15:49:27.439Z
+
+
+### Can reproduce.
+iPhone 5S,. iOs 12.1.2 - TestFlight 2.4.4.
+
+Can Göksoy#8645 - Bug Bot on 2019-02-01T15:49:32.346Z
+
+
+### Possibly related to https://trello.com/c/gAQumNFx/
+
+Darkbeast#2997 - Bug Bot on 2019-02-01T18:19:44.679Z
+
+
+### Can reproduce.
+iOS iPod Touch 6th Generation 12.0, 2.4.4
+
+OldWampa#7897 - Bug Bot on 2019-02-01T22:11:33.261Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, TestFlight 2.4.4 (11051)
+
+Lentralkestor#2016 - Bug Bot on 2019-02-02T00:06:22.458Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.4.4 (11051)
+
+Jengas#7777 - Bug Bot on 2019-02-02T12:02:19.439Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1.3, TestFlight 2.4.4 (11051)
+
+Solo#0007 - Bug Bot on 2019-02-02T16:32:51.127Z
+
+
+### Can reproduce.
+iPhone 7; iOS 12.2; Discord TestFlight (2.4.4)
+
+Puyodead1#0001 - Bug Bot on 2019-02-03T00:37:45.926Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-02-08T19:00:03.336Z
+
+
+### Archived by Bug Bot on 2019-03-10T19:30:03.228Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

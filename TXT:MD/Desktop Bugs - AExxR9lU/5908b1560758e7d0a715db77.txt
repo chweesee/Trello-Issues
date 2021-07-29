@@ -1,0 +1,78 @@
+Adding bots on 2FA-enabled servers w/out 2FA acts as if you still had admin perms (https://trello.com/c/5KuvcvzS)
+
+P2: Fix can wait a while
+
+Created: 2017-05-02T16:18:30.768Z
+Latest Update: 2019-09-23T22:30:07.374Z
+
+Reported by rovertdude#3439
+
+####Steps to reproduce: 
+- Have a 2FA-enabled server without 2FA enabled (dont believe it works if you own the server) 
+- Add a bot that suggests a permission blocked (e.g. admin) 
+
+####Expected result:
+ It doesn't allow you to add it 
+####Actual result:
+ It allows you as if you still had permissions 
+####System settings:
+ Windows 10, latest Discord
+
+1325
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-02T16:18:30.768Z
+
+
+### Can reproduce.
+Can repro, Manage Server perm does not seem to require 2FA auth (does not trigger warning)
+
+eslachance#4611 - Bug Bot on 2017-05-02T16:18:31.584Z
+
+
+### Can reproduce.
+Latest Canary, Windows 7
+
+"zConvict"#2953 - Bug Bot on 2017-05-02T16:18:35.006Z
+
+
+### Can reproduce.
+Can Approve - Latest Canary WIndows 10
+
+Derumisis#7928 - Bug Bot on 2017-05-02T16:18:35.484Z
+
+
+### Can reproduce.
+Windows 10 Creator's Update x64 Latest Canary
+
+"zConvict"#2953 - Bug Bot on 2017-05-02T16:21:23.165Z
+
+
+### Verified.  - Clayton on 2017-05-03T19:14:39.790Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-19T02:59:45.337Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2017-10-04T22:08:06.113Z
+
+
+### Moved from Not a Bug to Verified Bugs by Jared on 2017-10-04T22:08:24.943Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:41:16.699Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:44:33.015Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5908b1560758e7d0a715db77/0e9adfce97b517376cc7f4957f5934db/ezgif-4-c4e8eac5f0.gif added by Bug Bot on 2018-07-16T16:11:20.973Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

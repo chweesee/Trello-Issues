@@ -1,0 +1,95 @@
+[Archived] Discord uses wrong plural argument in Audit Logs for message deletion (https://trello.com/c/hGLgdhVM)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-10-26T15:51:38.044Z
+Latest Update: 2018-10-22T20:16:35.282Z
+
+Reported by DaFri_Nochiterov#4289
+
+####Steps to reproduce:
+- Delete SIGNLE message by user in any channel 
+- Go to audit log
+
+####Expected result:
+Latest entry should say "username#1234 deleted A MESSAGE by username#1337 in #mycoolte..."
+####Actual result:
+Entry says "username#1234 deleted 1 MESSAGES by username#1337 in #mycoolte..."
+####Client settings:
+Discord Canary 0.0.167 (Build 6420)
+####System settings:
+Windows 10 Pro 1709 (17025)
+
+5812
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-26T15:51:38.044Z
+
+
+### DaFri_Nochiterov#4289 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59f2048939fb103a074279b1/0183a778162bd60b640301c03d4929a5/GwC0wiD.png added by Bug Bot on 2017-10-26T15:51:40.528Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.167 (6420)
+
+Tiemen#0107 - Bug Bot on 2017-10-26T15:51:45.764Z
+
+
+### Can reproduce.
+Winodws 7 Professional x64 (Build 7601), Discord Canary 0.0.167 (Build 6420)
+
+jake 🎃#6241 - Bug Bot on 2017-10-26T15:51:50.512Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.167 (Build 6420) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-10-26T15:51:55.491Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (Version 1703), Discord Canary 0.0.167 (Build 6420)
+
+Mr.Quentin#4854 - Bug Bot on 2017-10-26T16:33:56.148Z
+
+
+### Can reproduce.
+Dell Inspiron 15 Windows 10 Creators Update | Discord Canary 0.0.167
+
+Spooky Tiger#6437 - Bug Bot on 2017-10-27T05:38:26.855Z
+
+
+### Verified - Clayton on 2017-11-03T05:54:30.273Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:54:34.275Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12159
+
+cutelilberry#5423 - Bug Bot on 2018-03-16T13:10:10.176Z
+
+
+### It also happens with the invite uses. For only 1 use it says "1 uses": https://cdn.discordapp.com/attachments/420995378582913030/442338411731222529/Bildschirmfoto_2018-05-04_um_22.00.23.png
+
+Pascal#0929 - Bug Bot on 2018-05-05T15:09:35.891Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 20351
+
+Frances Picard#6209 - Bug Bot on 2018-07-31T17:42:27.464Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:35.284Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

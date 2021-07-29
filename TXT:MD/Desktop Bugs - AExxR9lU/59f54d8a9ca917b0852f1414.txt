@@ -1,0 +1,98 @@
+[Archived] Text gets offset in box when you open the drop down for adding undetected game (https://trello.com/c/9c1bm8YW)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-29T03:39:55.017Z
+Latest Update: 2018-07-06T18:18:13.466Z
+
+Reported by Usoka#6021
+
+####Steps to reproduce:
+- Open user settings 
+- Go to "Games" 
+- Click "Add it!" to add an undetected game 
+- Click on drop down 
+- Observe "Select..." jumps up 
+- Additionally, anything selected from the drop down will be offset (but not typed text)
+
+####Expected result:
+Text in the box should be aligned with the cursor, and not jump up
+####Actual result:
+Text is at the top of the box, offset above where the cursor is
+####Client settings:
+Desktop Stable, build 6444
+####System settings:
+Windows 10
+
+5913
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-29T03:39:55.017Z
+
+
+### Can reproduce.
+Windows 7 x64, Canary Build 6537
+
+skyllful#8516 - Bug Bot on 2017-10-29T03:40:02.781Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary 0.0.165
+
+JustCore#0973 - Bug Bot on 2017-10-29T03:40:07.796Z
+
+
+### Can reproduce.
+Windows 10 Home (1709) x64, Canary 0.0.168 (Build 6489)
+
+DeJay#3628 - Bug Bot on 2017-10-29T03:40:12.828Z
+
+
+### Can reproduce.
+Dell Inspiron 15 Windows 10 Creators Update  Canary 0.0.165
+
+Spooky Tiger#6437 - Bug Bot on 2017-10-29T03:48:09.781Z
+
+
+### Can reproduce.
+HP Pavilion 15-n051sm, Windows 10 Creators Update 64-bit, Discord Stable
+
+Johny Michelson#4921 - Bug Bot on 2017-10-29T15:38:07.069Z
+
+
+### Verified.  - Clayton on 2017-11-03T06:10:36.001Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T06:10:39.052Z
+
+
+### Also happens on the notification overrides textbox in notification settings
+
+Oasis#4730 - Bug Bot on 2018-01-04T03:40:27.467Z
+
+
+### Oasis#4730 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59f54d8a9ca917b0852f1414/967d84784e6a1f11a7653e4d924d746a/2018-01-03_18-08-58.gif added by Bug Bot on 2018-01-04T03:40:38.756Z
+
+
+### Oasis#4730 - https://i.imgur.com/7liY2UP.gifv added by Bug Bot on 2018-01-04T03:44:28.416Z
+
+
+### Cannot reproduce anymore, Discord Canary 0.0.203 (11719) on Windows 10 Pro 64-bit (1709) Moving to claimed fixed. - Tarek on 2018-03-08T06:38:44.590Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-03-08T06:38:49.952Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:18:12.272Z
+
+
+### Archived by Jared on 2018-07-06T18:18:13.468Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

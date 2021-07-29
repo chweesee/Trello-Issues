@@ -1,0 +1,94 @@
+[Chat toolbar] Having a Mention / channel / Emote in the middle of a sentence will mess up Bold and Italics when using Strike or spoiler first. (https://trello.com/c/s31K28ws)
+
+None
+
+Created: 2020-01-15T01:17:09.649Z
+Latest Update: 2020-07-16T21:26:06.022Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Type a message with a mention / channel or emote in it 
+- Highlight the message to open Toolbar 
+- Apply Stike or Spoiler onto it 
+- Then apply Bold or Italics.
+
+####Expected result:
+Bold or Italics correctly go around the outside/inside of the previous markdown
+####Actual result:
+The markdown goes inside on the left, and outside on the right
+####Client settings:
+Canary 52627 (e7f3cd6)
+####System settings:
+Win10 64x (1903)
+
+51677
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-15T01:17:09.649Z
+
+
+### Alipoodle#5025 - https://i.imgur.com/a40fxYe.gifv added by Bug Bot on 2020-01-15T01:17:12.276Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) canary 52636
+
+myacorn#6534 - Bug Bot on 2020-01-15T01:17:17.157Z
+
+
+### Can reproduce.
+CR : MacBook Pro : macOS Mojave 10.14.6, Discord Canary 52627
+
+Alice_#0101 - Bug Bot on 2020-01-15T01:17:22.175Z
+
+
+### Can reproduce.
+Seems there's messy behaviour when utilising any option really MacBook Pro: macOS Catalina 10.15.2; Discord Canary 52645
+
+Jiralite#1207 - Bug Bot on 2020-01-15T01:17:27.202Z
+
+
+### Can reproduce.
+Windows 10, x64 | Discord Canary (52645)
+
+light#9999 - Bug Bot on 2020-01-15T01:40:52.502Z
+
+
+### Can reproduce.
+CR, macOS 10.15.3, Canary 52645
+
+Action Potential#6862 - Bug Bot on 2020-01-15T02:40:15.478Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 52710
+
+RPS1222#5127 - Bug Bot on 2020-01-16T01:30:27.824Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 x64, Canary version 52818
+
+Kubert#8745 - Bug Bot on 2020-01-17T15:29:41.028Z
+
+
+### Can reproduce.
+CR: Windows 10 Pro 1903, Discord Canary 52818
+
+Rex#1120 - Bug Bot on 2020-01-17T21:56:18.592Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1909), Canary 52909
+
+TheForbiddenAi#0403 - Bug Bot on 2020-01-21T03:25:02.445Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

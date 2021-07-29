@@ -1,0 +1,72 @@
+[Archived] Keybinds with control+key will trigger when shift+key or ctrl+shift+key or ctrl+alt+key is pressed (https://trello.com/c/dPv8MTxV)
+
+None
+
+Created: 2016-11-24T20:25:07.685Z
+Latest Update: 2017-10-30T17:14:23.067Z
+
+Reported by tntbomb1919#9119
+
+####Steps to reproduce: 
+- Make a keybind for anything, set it to control + <any key> 
+- Try holding shift + <any key> or control + shift + <any key> or control + alt + <any key> 
+- Note <any key> is the same in these examples. 
+
+####Expected result:
+ Only triggers when control + <any key> is clicked. 
+####Actual result:
+ Can also trigger when different combinations of keys are clicked as described above 
+####Client version:
+ Canary Latest, Win 8.1
+
+Card Log
+========
+### Added by Jared on 2016-11-24T20:25:07.685Z
+
+
+### Can reproduce.
+partially... when using the keybind Ctrl+Up to mute my mic, Ctrl + Shift + Up triggers it too. Ctrl + Alt + Shift + Up however didn't. Windows 8.1 Pro x64
+
+Liara#0478 - Jared on 2016-11-24T21:42:03.709Z
+
+
+### Can reproduce.
+Windows10 canary
+
+𝅳𝅳#5756 - Jared on 2016-11-24T22:24:25.053Z
+
+
+### Can't reproduce.
+Win10 Canary 0.0.147
+
+Joe#0816 - Jared on 2016-11-26T18:28:19.122Z
+
+
+### Can't reproduce.  Ctrl + Key works.  Shift + Key does not.  Ctrl + Shift + Key works, that's to be expected (both necessary keys are pressed). - Jared on 2016-11-30T20:15:15.513Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-11-30T20:15:19.709Z
+
+
+### JBYoshi#5551 submitted these steps, however they fall under the same situation as Dabbit's comment below, both necessary keys are pressed anyways, and any other key pressed is just superfluous.
+1) Go to your keybinds list
+2) Map ^G to Toggle Streamer Mode (I also reproduced with ⌘G and ⌥G)
+3) Exit the keybinds page, but stay in Discord
+4) Type ^⌘G. (I also reproduced with ^⌥G)
+
+Expected result: Nothing happens
+Actual result: Streamer Mode is toggled on/off - Mike Nisbet on 2017-10-30T13:37:06.418Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:14:22.206Z
+
+
+### Archived by Jared on 2017-10-30T17:14:23.069Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

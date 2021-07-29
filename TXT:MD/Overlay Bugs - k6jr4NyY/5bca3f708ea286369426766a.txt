@@ -1,0 +1,81 @@
+Refreshing Discord while in a Rich Presence game with overlay disabled for that game shows the “Turn on Overlay” prompt if you don’t interact with the game (https://trello.com/c/M058wSCq)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-19T20:32:48.673Z
+Latest Update: 2019-05-12T11:40:13.041Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go into Game Activity in user settings and disable the overlay for a Rich Presence game “I used Fortnite” 
+- Launch the Rich Presence game that you disabled the overlay on 
+- After the game is started, tab back to Discord and refresh it using Ctrl + R 
+- Right after you refresh, switch back to the game before Discord has loaded in 
+- After switching back to the game, wait around 20-30 seconds, and watch for the overlay prompt to appear 
+- When the overlay prompt appears, enter the keybind that appears on the prompt
+
+####Expected result:
+Overlay prompt should not appear, and allow you to open the overlay because it’s disabled for that game
+####Actual result:
+Overlay prompt appears, and allows you to show the overlay despite it being disabled for that game
+####Client settings:
+Canary Build 25648
+####System settings:
+Windows 10 Home x64 1803
+
+20803
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-19T20:32:48.673Z
+
+
+### Can reproduce.
+CR, Win10 64x (1809), Discord Canary 25661 - Worked with Rocket League (previously on) - Failed with osu! (already off)
+
+Alipoodle#5025 - Bug Bot on 2018-10-19T20:32:56.004Z
+
+
+### Can reproduce.
+Windows 10 PRO \\\ Discord Canary 24697 \\\ Repro'd with Fortnite
+
+SleepaDru#7700 - Bug Bot on 2018-10-19T20:33:00.974Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 26581 (Reproduced with Fortnite)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-19T20:33:05.957Z
+
+
+### verified.  - Clayton on 2018-10-20T03:30:52.977Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:15.649Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-04-28T18:50:32.569Z
+
+
+### Cannot reproduce anymore on Canary 36529, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-28T18:50:59.335Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-04-28T18:51:05.671Z
+
+
+### Unarchived by Ene on 2019-04-28T18:51:05.716Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-12T11:40:13.054Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

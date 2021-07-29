@@ -1,0 +1,69 @@
+[Archived] GIF Avatars won't play when focus returns to chat window (https://trello.com/c/1x3k17t8)
+
+None
+
+Created: 2016-12-26T20:05:39.002Z
+Latest Update: 2017-10-17T21:06:14.948Z
+
+Reported by Thepenguin9#0393
+
+####Steps to reproduce: 
+- Find someone with an animated avatar 
+- Click on their name, then profile 
+- When the profile appears, click off the profile, with cursor on top of the message of whoever has the animated avatar 
+
+####Expected result:
+ GIF resumes playing 
+####Actual result:
+ GIF does not resume without moving cursor off and on the message
+
+Card Log
+========
+### Added by Jared on 2016-12-26T20:05:39.002Z
+
+
+### Can reproduce.
+Windows 10
+
+Mapleroot#1366 - Jared on 2016-12-26T20:05:39.598Z
+
+
+### Can reproduce.
+canrepro, not sure if it's a bug or not.
+
+Weeajew#3674 - Jared on 2016-12-26T20:05:39.694Z
+
+
+### Can reproduce.
+osx canary
+
+harrison#6336 - Jared on 2016-12-26T20:06:33.494Z
+
+
+### Thepenguin9#0393 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58617812e8cc9ac807abd7ee/4f19304cb122e41f6e5a28ca5fa33621/9799949edc.gif added by Jared on 2016-12-26T20:08:21.055Z
+
+
+### Can reproduce.
+Windows 10, Canary
+
+KockaAdmiralac#9306 - Jared on 2016-12-26T21:49:42.594Z
+
+
+### This isn't a bug. It needs a "start" event to start playing, which is start of mouse hover, not end. - Jared on 2017-01-03T18:00:22.074Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2017-01-03T18:00:24.272Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:06:14.162Z
+
+
+### Archived by Jared on 2017-10-17T21:06:14.950Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

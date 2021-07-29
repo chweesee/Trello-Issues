@@ -1,0 +1,103 @@
+[Archived] Revoking your permission to edit permissions (via user profile deletion) grays the screen completely (https://trello.com/c/dfLCrsGk)
+
+None
+
+Created: 2017-04-30T16:30:47.864Z
+Latest Update: 2017-10-17T20:31:54.159Z
+
+Reported by MetalChain#6372
+
+####Steps to reproduce: 
+- In a server you do not own OR have Administrator permissions in, have a channel you can manage permissions in 
+- Edit the permissions so that your individual user has permissions to manage permissions, while all other roles you have DO NOT. 
+- Delete your individual  user permission profile 
+
+####Expected result:
+ You get a warning before you delete your user profile that it would revoke permissions, or the permissions tab would close out after it revokes them 
+####Actual result:
+ The permissions tab grays out the screen entirely after removing your user profile 
+####System settings:
+ W7 x64, Latest Canary
+
+1302
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-30T16:30:47.864Z
+
+
+### Can reproduce.
+Win10 x64, Latest Canary
+
+Aeokieek#1574 - Bug Bot on 2017-04-30T16:30:48.465Z
+
+
+### Can reproduce.
+win 10 x64 canary
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-04-30T16:30:50.478Z
+
+
+### Can reproduce.
+Win10 x64 Latest Canary
+
+Derumisis#7928 - Bug Bot on 2017-04-30T16:30:52.547Z
+
+
+### https://www.youtube.com/watch?v=AaG0ZbWMbUw - https://www.youtube.com/watch?v=AaG0ZbWMbUw added by Bug Bot on 2017-04-30T16:31:03.386Z
+
+
+### unknown.png - undefined added by Bug Bot on 2017-04-30T16:31:03.732Z
+
+
+### Can reproduce.
+Latest Discord Canary
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-04-30T16:35:43.191Z
+
+
+### Attachment removed because it didn't show the issue, it was a 'gimmick' of someone adding "more information" by screenshotting their text line. - Alexander (DJScias) on 2017-04-30T16:35:54.502Z
+
+
+### You must also have the "Manage Channel" permission, whether it be in that channel, or in the server overall.
+
+MetalChain#6372 - Bug Bot on 2017-04-30T16:36:57.686Z
+
+
+### Can reproduce.
+Win10 x64 Canary
+
+dsf190#5214 - Bug Bot on 2017-04-30T16:43:23.042Z
+
+
+### Moved from User Reported Bugs to Server Settings Redesign Bugs by Jared on 2017-05-01T20:30:57.796Z
+
+
+### Moved from Server Settings Redesign Bugs to Claimed Fixed, needs Verification by Amadeus on 2017-05-03T07:29:43.529Z
+
+
+### Tested on latest canary as of writing:
+
+Followed all the reproduction steps (and video) and the moment I deny myself the permission I got booted out of the permission screen normally.
+
+This means I can no longer reproduce this bug. - Alexander (DJScias) on 2017-05-03T21:19:32.535Z
+
+
+### Verified Fixed. - Jared on 2017-06-27T20:47:24.133Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T20:47:28.806Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:31:53.044Z
+
+
+### Archived by Jared on 2017-10-17T20:31:54.161Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

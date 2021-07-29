@@ -1,0 +1,95 @@
+No padding between message separators when Show website preview is disable (https://trello.com/c/qtGkKNAS)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-21T12:07:01.609Z
+Latest Update: 2019-06-21T22:09:21.556Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Disable Show website preview in your User Settings -> Text & Images 
+- Go into a channel and have a bot send an embed (cannot have text in the message or be edited and must be a single message from the bot)
+
+####Expected result:
+Same amount of padding on the top & bottom between the message separators
+####Actual result:
+Lack of any padding on the bottom between the message separators
+####Client settings:
+Discord Canary 0.0.211, Build 19429
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+15798
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-21T12:07:01.609Z
+
+
+### Ene#0808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5321e5da919e0247541fb2/66539881bf454a2a12b6dec5dd5f60b4/pVCUFZP.png added by Bug Bot on 2018-07-21T12:07:04.211Z
+
+
+### Can reproduce.
+CR. Canary 19430, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-21T12:07:09.053Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 19429
+
+Xylium#1480 - Bug Bot on 2018-07-21T12:07:14.068Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Canary Build 19418
+
+Pascal#0929 - Bug Bot on 2018-07-21T12:07:19.071Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary 19429
+
+ThorWolf#0001 - Bug Bot on 2018-07-21T12:07:36.021Z
+
+
+### Moved from User Reported Bugs to Message Update Bugs by Tarek on 2018-07-22T00:39:12.701Z
+
+
+### This is from my "height" fix on friday. - Joey Baker on 2018-07-22T15:35:57.165Z
+
+
+### Moved from Message Update Bugs to Fix made, not yet released by Joey Baker on 2018-07-23T18:22:38.121Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Joey Baker on 2018-07-23T20:36:52.816Z
+
+
+### I can still reproduce this on Canary 19710, W10 1803. Reopening ticket. - Tarek on 2018-07-25T20:49:40.162Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-07-25T20:49:48.006Z
+
+
+### This also affects the Delete & Pin modals https://i.imgur.com/B9Si6MM.png
+
+Ene#0808 - Bug Bot on 2018-08-04T23:49:10.475Z
+
+
+### Confirmed. Lo-pri fix. - Joey Baker on 2018-08-09T17:40:29.006Z
+
+
+### Can reproduce.
+MacBook Pro 13", macOS 10.13.6, Canary 24951
+
+Alfie#1582 - Bug Bot on 2018-09-28T20:59:44.085Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

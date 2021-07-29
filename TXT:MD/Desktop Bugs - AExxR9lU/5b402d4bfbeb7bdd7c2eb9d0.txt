@@ -1,0 +1,89 @@
+[Archived] Pressing Generate in the Invite modal while having not changed anything makes a pointless Audit Log entry (https://trello.com/c/1aOU32Ys)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-07-07T03:02:36.069Z
+Latest Update: 2019-10-23T23:00:55.050Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Open the Invite modal of a server 
+- Go into Edit invite link 
+- Press the Generate a New Link button 
+- Exit the modal and go into the server's Audit Logs to observe the two exact same log entries
+
+####Expected result:
+Either the button isn't able to be pressed unless you've changed one of the durations or pressing it doesn't generate a pointless Audit Log entry
+####Actual result:
+A duplicate Audit Log entry for the already created invite is made every time you press the button without having made any changes
+####Client settings:
+Discord Canary 0.0.211, Build 18317
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+15183
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-07T03:02:36.069Z
+
+
+### Can reproduce.
+Can reproduce | Lenovo 7373FGM, 1280 x 1024 Display, Microsoft Windows 10 Pro [x64] Version 1803 Build 17134.122, Discord Canary Build 18317
+
+Cairo#5772 - Bug Bot on 2018-07-07T03:02:43.584Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 18317
+
+webhp#1337 - Bug Bot on 2018-07-07T03:02:48.529Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 18317
+
+Xylium#1480 - Bug Bot on 2018-07-07T03:02:53.525Z
+
+
+### verified, macos 10.12.6, canary 18361 - Clayton on 2018-07-09T21:55:53.685Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-09T21:55:57.451Z
+
+
+### ash#0001 - undefined added by Bug Bot on 2018-07-14T11:34:02.642Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b402d4bfbeb7bdd7c2eb9d0/6407868a5dee2aab0a276fc42f84a23c/ezgif-4-43d7e9c80d.gif added by Bug Bot on 2018-07-14T11:34:30.616Z
+
+
+### Can reproduce.
+Can Reproduce. Tested on MacBook Air Early 2015, macOS High Sierra 10.13.4, Discord Canary 0.0.193, Build Number: 20174.
+
+Ghostly#0001 - Bug Bot on 2018-07-29T13:34:14.814Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:01.153Z
+
+
+### Can reproduce.
+canary, Build Number: 40522, Windows 10 x64
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-01T03:58:05.256Z
+
+
+### Unarchived by Bug Bot on 2019-07-01T04:00:09.451Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:55.063Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,121 @@
+[Archived] [UI Specific (See Attachment)] Voice channel card does not properly reflect the muted/deafened status from Desktop (https://trello.com/c/0ABOMZT3)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-09-24T22:57:29.834Z
+Latest Update: 2019-11-21T18:00:33.357Z
+
+Reported by Ayu#0001
+
+####Steps to reproduce:
+- Have a specific UI that normally reflects muted/deafened status from Desktop to iOS when viewing the VC from a mobile device. If you have it, you may proceed. 
+- Connect to a VC on the iOS device. 
+- Mute yourself. 
+- Leave the VC from the iOS device, and join on Desktop. 
+- Watch the iOS device, and then mute/unmute yourself. 
+- Observe.
+
+####Expected result:
+The indicator showing you are muted should properly reflect the Desktop VC status.
+####Actual result:
+The mute icon will persist, regardless of the Desktop VC status. This works with deafening as well.
+####Client settings:
+TestFlight 3.1.3 (17389)
+####System settings:
+iPhone 7 Plus - iOS 13.0
+
+44473
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-24T22:57:29.834Z
+
+
+### Ayu#0001 - https://youtu.be/8A4doI46BA8 added by Bug Bot on 2019-09-24T22:57:32.394Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.0 TestFlight 3.1.3 (17389)
+
+binchlord#0998 - Bug Bot on 2019-09-24T22:57:37.470Z
+
+
+### Can reproduce.
+iPhone SE, iOS 13.0 - TestFlight 3.1.3 (17389)
+
+Daffyduck#5364 - Bug Bot on 2019-09-24T22:57:42.448Z
+
+
+### Can reproduce.
+CR, iPhone 7 Plus ios 13, TestFlight 3.1.3 (17389)
+
+Action Potential#6862 - Bug Bot on 2019-09-24T22:57:47.459Z
+
+
+### Moved from New Issues to Fix made, not yet released by Fanghao on 2019-09-25T06:40:42.438Z
+
+
+### Can reproduce.
+CR, iPhone 7, IOS 11.4.1 TestFlight 3.1.3 (17389)
+
+Scrumpy#0200 - Bug Bot on 2019-09-25T23:36:59.530Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13; TestFlight 3.1.3 (17389)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-26T02:34:16.669Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.1 - Stable 3.1.3
+
+Xylium#5800 - Bug Bot on 2019-09-26T05:36:50.560Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13 - TestFlight 3.1.3
+
+Fictional#0001 - Bug Bot on 2019-09-26T14:15:06.194Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 5s, iOS 12.4.1, TestFlight 3.1.3 (17389)
+
+.Gloria.#9606 - Bug Bot on 2019-09-28T06:18:50.325Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Pascal on 2019-10-13T11:00:12.751Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 13.1.2 - TestFlight 3.1.5 (17627)
+
+Daffyduck#5364 - Bug Bot on 2019-10-13T11:01:05.698Z
+
+
+### Can't reproduce.
+CNR, iPhone 7 Plus iOS 13.1.2, TestFlight 3.1.5 (17627)
+
+Action Potential#6862 - Bug Bot on 2019-10-13T14:47:05.450Z
+
+
+### Can't reproduce.
+iPhone 11, iOS 13.3 (dev beta 2) - Stable 3.1.5
+
+Xylium#5800 - Bug Bot on 2019-10-14T13:55:30.772Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-10-14T13:55:31.156Z
+
+
+### Archived by Bug Bot on 2019-11-21T18:00:33.374Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

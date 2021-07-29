@@ -1,0 +1,68 @@
+[Archived] Edit channel option does not appear when long pressing a channel when you have only Manage Roles permission (https://trello.com/c/eDsyw7JX)
+
+P3 - Will be fixed eventually
+
+Created: 2018-12-10T20:09:23.261Z
+Latest Update: 2019-01-31T20:00:44.338Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Have a server owner give you only the Manage Roles permission 
+- Go to a channel you can edit the permission overrides for, and tap the channel name to open the overview 
+- Verify that you see the channel permissions section in the overview 
+- Close out of the channel overview and open the channel list 
+- Long press the channel and observe the options that pop up
+
+####Expected result:
+You see the "Edit Channel" option because you can edit channel permissions
+####Actual result:
+You don't see the "Edit Channel" option despite being able to manage channel permissions
+####Client settings:
+TestFlight 2.4.0 (9714)
+####System settings:
+iPhone 6s iOS 12.1.1 Dev Beta 3
+
+24147
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-10T20:09:23.261Z
+
+
+### Can reproduce.
+Can reproduce on iPad Mini 3, iOS 12.1, TestFlight (9714)
+
+Solo#0007 - Bug Bot on 2018-12-10T20:09:30.588Z
+
+
+### Can reproduce.
+Can repro on iPad mini 2/iOS 12/TestFlight 9714
+
+LProgead#2844 - Bug Bot on 2018-12-10T20:09:35.676Z
+
+
+### Can reproduce.
+iPhone 7 - iOS 12.1 - Discord TestFlight 2.40 (9714)
+
+KolkiesDev#0001 - Bug Bot on 2018-12-10T20:09:40.552Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.1 Beta (16C5050a) - TestFlight 2.4.0 (9714)
+
+Isabel#0002 - Bug Bot on 2018-12-11T09:34:36.724Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2018-12-21T19:00:03.679Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:00:44.354Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

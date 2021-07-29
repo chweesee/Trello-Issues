@@ -1,0 +1,78 @@
+[Archived] Trying to upload a second File in a row but cancelling instead Crashes Discord (https://trello.com/c/BAtfZOvW)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-14T20:50:37.960Z
+Latest Update: 2018-07-06T18:16:09.211Z
+
+Reported by Residays#1278
+
+####Steps to reproduce:
+- Go to any channel/DM and upload 1 file 
+- Stay in that same Channel/DM 
+- Click the file uploader button again 
+- Click Cancel/X instead of uploading a second file.
+
+####Expected result:
+Going back to where you were and simply not uploading anything.
+####Actual result:
+Discord Crashes and displays a button to reload it.
+####Client settings:
+0.0.298
+####System settings:
+Win 10 (Build 10240) x64 Opera 48.0.2685.39 (PGO)
+
+5404
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-14T20:50:37.960Z
+
+
+### juj#5114 - https://i.imgur.com/q5zIgDp.gifv added by Bug Bot on 2017-10-14T20:50:40.900Z
+
+
+### Can reproduce.
+CR on Chromium based browsers (Chrome and Opera, not Firefox, build 5837), it's enough to click + (drag'drop doesn't work) => browse and select a file and Open => either cancel or upload in blue Discord popup => click + and browse again, select file, and cancel or press X to close explorer window => Discord crashes (see my attachment gifv)
+
+juj#5114 - Bug Bot on 2017-10-14T20:50:46.331Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Chrome 61.0.3463.100, Discord web Stable Build 5837 -- Canrepro only with Chromium based Browsers, Firefox and the clients work fine.
+
+Starshine Dust#2189 - Bug Bot on 2017-10-14T20:50:50.891Z
+
+
+### Can reproduce.
+CR, Chrome Version 61.0.3163.100, Windows10 x64 - Canrepro with only chrome browsers
+
+Blizzyrd#7909 - Bug Bot on 2017-10-14T20:50:55.869Z
+
+
+### Verified.  - Clayton on 2017-10-17T22:13:32.399Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-17T22:13:43.185Z
+
+
+### I can no longer reproduce, I even tried with a .txt file. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-29T16:51:57.685Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-29T16:52:02.446Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:16:08.203Z
+
+
+### Archived by Jared on 2018-07-06T18:16:09.213Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

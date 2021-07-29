@@ -1,0 +1,93 @@
+[Archived] Certain image causes crash when preview is loaded (https://trello.com/c/pRHV2JzX)
+
+P2 - Can wait a while,
+Mod can no longer reproduce
+
+Created: 2017-08-30T23:04:00.188Z
+Latest Update: 2017-12-02T16:21:05.686Z
+
+Reported by Fayne Aldan#2423
+
+####Steps to reproduce:
+- Go to any channel where you have embed permission (or just a DM) 
+- Make sure that you have a computer so you can delete the image, or have someone else send and delete, so that you aren't caught in a crash loop. 
+- Send this image in the channel and let the preview load: <https://media.discordapp.net/attachments/347974380862570499/352558217274064897/gmagik.gif>
+
+####Expected result:
+The preview loads and the app continues running normally
+####Actual result:
+The app consistently crashes and will repeatedly crash, as the text channel is loaded again when the app restarts
+####Client settings:
+Alpha 4.1.1
+####System settings:
+LG K20 PLUS, Android 7.0
+
+3819
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-30T23:04:00.188Z
+
+
+### Can reproduce.
+Samsung Galaxy S2 running Marshmallow 6.0.1 with Discord Alpha 4.1.1 (506)
+
+Rauf#3260 - Bug Bot on 2017-08-30T23:04:07.737Z
+
+
+### Can reproduce.
+CR on LG Xpower 6.0.1 using Android alpha 4.1.1
+
+ks0908#8526 - Bug Bot on 2017-08-30T23:04:12.724Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 4.1.1
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-08-30T23:04:17.726Z
+
+
+### Verified.  - Clayton on 2017-08-30T23:41:04.177Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-30T23:41:10.306Z
+
+
+### Can reproduce.
+Nexus 6P Android 7.1.2
+
+mrkirby153#7840 - Bug Bot on 2017-08-31T06:45:51.126Z
+
+
+### on Alpha 5.1.2 the gif doesn't load BUT it no longer crashes the client
+
+Azrael#6867 - Bug Bot on 2017-09-18T13:25:02.380Z
+
+
+### I am no longer able to reproduce this, the app doesn't crash when the GIF provided by the reporter is done uploading. 
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord 5.2.6
+ - Alexandru Todea on 2017-09-29T16:22:36.458Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-29T16:22:41.103Z
+
+
+### Did not crash, marking as Verified Fixed. - Jared on 2017-10-02T22:59:50.854Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T22:59:54.305Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:21:04.575Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:21:05.688Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

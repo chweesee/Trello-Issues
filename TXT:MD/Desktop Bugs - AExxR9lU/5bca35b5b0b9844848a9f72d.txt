@@ -1,0 +1,84 @@
+[Archived] Copying text in a certain way lead to extra text being copied (https://trello.com/c/rTPMvOcU)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-19T19:51:17.735Z
+Latest Update: 2019-01-11T00:01:12.892Z
+
+Reported by CobaltKnight#7200
+
+####Steps to reproduce:
+- Hold left click after a message someone has sent 
+- Mark the entire message by dragging your mouse upwards, to the vertical height of the timestamp 
+- Release left click 
+- Press ctrl+c 
+- Mark the chat box and press ctrl+v
+
+####Expected result:
+The entirety of the marked and copied message should be pasted
+####Actual result:
+The message is pasted, and after it some of the beginning of the marked message is appended.
+####Client settings:
+Discord Canary 26581
+####System settings:
+Windows 10 x64, version 1809
+
+21682
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-19T19:51:17.735Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 26581
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-19T19:51:25.119Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Professional x64 (Version 1803) - Discord Canary Build 26581
+
+Hackerman#1337 - Bug Bot on 2018-10-19T19:51:30.119Z
+
+
+### Can reproduce.
+Can repro. Apparently message length is critical to reproducing this
+
+Dabbit Prime#0896 - Bug Bot on 2018-10-19T19:51:35.149Z
+
+
+### Can reproduce.
+Razer Blade Pro - Ubuntu 18.04.1 LTS, Gnome 3 Canary 26581
+
+KazWolfe#2896 - Bug Bot on 2018-10-19T19:58:04.217Z
+
+
+### minor - Clayton on 2018-10-20T01:23:02.507Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-20T01:23:10.877Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26655
+
+Hole#0001 - Bug Bot on 2018-10-20T05:50:19.695Z
+
+
+### Can reproduce.
+Windows 10 Pro x64,Canary build 26655
+
+Outbøob#6666 - Bug Bot on 2018-10-20T19:13:22.448Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:12.894Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

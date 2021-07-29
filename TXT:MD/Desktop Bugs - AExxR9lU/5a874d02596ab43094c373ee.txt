@@ -1,0 +1,70 @@
+[Archived] Closing the right click menu in the text box does not focus back on the text box (https://trello.com/c/soEFnonB)
+
+Mid,
+P3: Will get fixed eventually,
+Client side,
+text chat,
+spellcheck
+
+Created: 2018-02-16T21:28:34.575Z
+Latest Update: 2018-10-22T20:18:36.161Z
+
+Reported by Blastoise186#7194
+
+####Steps to reproduce:
+- Make a spelling mistake (this helps trigger it for me) 
+- right click the text box to bring up the menu 
+- back out of the menu by left clicking the text box again
+
+####Expected result:
+The focus should return to the text box and allow you to type there again
+####Actual result:
+the menu closes, but it does not return the focus to the text box
+####Client settings:
+Desktop[BUILD INFO] Release Channel: stable, Build Number: 10876, Version Hash: 456a1c5b2aa844b0e0a5483f25da11324ebc1e6b
+####System settings:
+Windows 10 Pro 1709 64-bit
+
+8854
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-16T21:28:34.575Z
+
+
+### Can reproduce.
+CR Windows 10 Home Discord Canary 10878
+
+Luca#8366 - Bug Bot on 2018-02-16T21:28:41.937Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS x64, Canary build 10878
+
+NorbiPeti#1869 - Bug Bot on 2018-02-16T21:28:47.036Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10878
+
+webhp#1337 - Bug Bot on 2018-02-16T21:28:51.920Z
+
+
+### Verified - Jared on 2018-02-20T21:31:57.615Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-20T21:32:01.619Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a874d02596ab43094c373ee/547d4793ee3119a2b2f3058944b1359d/4B2Kp5e.gif added by Bug Bot on 2018-07-14T06:10:58.897Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:36.163Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

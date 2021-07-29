@@ -1,0 +1,79 @@
+[Archived] Discord crashes freezes when getting moved in a multiple people voice call (https://trello.com/c/OVH2rDWM)
+
+None
+
+Created: 2017-12-29T13:05:29.425Z
+Latest Update: 2018-02-07T13:44:24.192Z
+
+Reported by Nico#8189
+
+####Steps to reproduce:
+- Join a voice call 
+- Get a someone to move you in another voice call with 3 persons or more (not in an empty voice call, it didn't freeze when I got moved into an empty voice call)
+
+####Expected result:
+You get moved without any problem
+####Actual result:
+Discord freezes and you need to restart it
+####Client settings:
+Discord Alpha 5.9.7
+####System settings:
+Acer Iconia One 10 B3-A20, Android 5.1
+
+7422
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-29T13:05:29.425Z
+
+
+### Can reproduce.
+CR, Moto E 2nd generation, Android 5.1, Android Alpha 5.9.9 | I actually think that it's the lower end device's issue, so I would suggest to check to make sure your phone has at least 1 or 2 GB (I'd suggest 1GB) of RAM and is running older OS. Pretty much sure this is where the problem is laying. | Fixed in Android Alpha 6.0.2, CNR
+
+Ghoulish-Fantasy#4567 - Bug Bot on 2017-12-29T13:05:36.864Z
+
+
+### Can reproduce.
+Got fixed while in queue, pushing to Trello for archival reasons
+
+Anorak#5830 - Bug Bot on 2017-12-29T13:05:41.892Z
+
+
+### Can reproduce.
+pushing through queue for achival, fixed with alpha 602 (allong with a bunch of other memory related issues)
+
+AEnterprise#4693 - Bug Bot on 2017-12-29T13:05:46.854Z
+
+
+### This bug got fixed while it was in the approval queue. - Alexandru Todea on 2017-12-29T13:06:36.925Z
+
+
+### Not fixed in 6.0.2
+
+Nico#8189 - Bug Bot on 2017-12-31T02:18:25.022Z
+
+
+### I can't repro this on 6.0.2 @clayton301 pls halp - Andy Garron on 2018-01-02T18:52:35.146Z
+
+
+### Can't reproduce on 6.0.2 - Clayton on 2018-01-02T21:34:43.328Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-02T21:34:58.354Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Clayton on 2018-01-02T21:35:05.187Z
+
+
+### Archiving this ticket as there's been no new activity for over a month. - Chris Cox on 2018-02-07T13:44:23.243Z
+
+
+### Archived by Chris Cox on 2018-02-07T13:44:24.195Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

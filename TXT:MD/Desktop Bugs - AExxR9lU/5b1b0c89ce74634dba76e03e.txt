@@ -1,0 +1,77 @@
+[Archived] After switching from another language to Japanese IMEI and using special characters in Japanese IMEI, a different font is used for the next character (https://trello.com/c/Xb2WLeiI)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-08T23:08:57.329Z
+Latest Update: 2018-10-22T20:21:45.757Z
+
+Reported by moritz#9187
+
+####Steps to reproduce:
+- Switch from normal to IMEI input mode (while using japanese as your keyboard language) 
+
+- type a special character (such as 「」｛｝０１２３４５６７８９－＝！＠＃＄％＾＆＊（）＿｜￥？＞＜，。・｜) 
+
+- type two letters in IMEI input that can be converted to hiragana (such as 'su', which gets converted to す), the first character and the first subsequent hiragana character will use a a different font (just like the different font for the above alphanumeric characters) (example: ９すみません vs the expected 9すみません)
+
+- upon further review, this can also be done by typing the hiragana character first and then writing the special character before it (which suggests to me that it has something to do with how fonts are applied during the input of the special characters)
+
+####Expected result:
+Discord uses the same font as usual for the hiragana (で/す)
+####Actual result:
+Discord uses a different font for one subsequent character （すみません  for example)
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 16445, Version Hash: 8972af5e1e65d08855071f9f8cf44e7442cb2f75
+####System settings:
+Windows 10 Education, Version 1709, OS Build 16299.125
+
+13819
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-08T23:08:57.329Z
+
+
+### BonusPlay#3122 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b1b0c89ce74634dba76e03e/13eeb766e0b59797e81dbf504ff642bb/KKv8T32.png added by Bug Bot on 2018-06-08T23:08:59.819Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro v1803, canary, Build Number: 16649
+
+BonusPlay#3122 - Bug Bot on 2018-06-08T23:09:04.683Z
+
+
+### Can reproduce.
+can repro, win 10 pro, canary 16649
+
+Falco#0001 - Bug Bot on 2018-06-08T23:09:09.733Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Mojave (18A293u) Canary Build 16678
+
+Kuuhaku#4503 - Bug Bot on 2018-06-08T23:09:14.941Z
+
+
+### Can reproduce.
+Fujitsu Lifebook S751, Windows 7 Professional x64, Discord Canary (Build 16445)
+
+Mad Luffy#3039 - Bug Bot on 2018-06-09T10:30:58.286Z
+
+
+### Verified. Low priority. - Jared on 2018-06-11T17:40:04.357Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-11T17:40:18.111Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:45.759Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

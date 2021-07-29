@@ -1,0 +1,93 @@
+[Archived] US South drops connection fully after about 20 minutes of continuous talking (https://trello.com/c/mHbfTKGC)
+
+None
+
+Created: 2017-05-27T04:49:15.979Z
+Latest Update: 2017-10-30T17:24:50.537Z
+
+Reported by OGNovuh#0014
+
+####Steps to reproduce:
+- Change your servers region to US South 
+- Have someone talk continuously for about 20 minutes 
+- Have Null rickroll you twice
+
+####Expected result:
+Your voice channel acts fine
+####Actual result:
+Your connection dies fully, going to 0 bars
+####Client settings:
+-w
+####System settings:
+Windows 10 x64 Anniversary Update Canary 0.0.154
+
+1220
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-27T04:49:15.979Z
+
+
+### Can reproduce.
+win 10 x64 canary; my client froze...
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-05-27T04:49:20.719Z
+
+
+### I can't reproduce this, I need more information. Specifically:
+
+- How many times has this been checked on a voice region that is NOT US South?
+- What is the minimum number of people needed to reproduce this?
+Can you reproduce this using a as the source of sound?
+- Does this bug happen to everyone in the voice group? Or just one person? If one person, is that person a random member of the group? Or is it always the same members?
+- Can this bug be reproduced on the PTB/Stable clients?
+- Can a voice debug log be provided when the error occurs? - Jared on 2017-05-30T18:44:19.721Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-05-30T18:44:28.241Z
+
+
+### The default input / output settings are causing corruption in discords voice system. However, if you change your output/input settings to something else it will never crash. Ever
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-13T19:21:59.592Z
+
+
+### Steps to Reproduce: 
+- Join a voice channel
+- Make sure your settings for output/input are both on 'Default'
+- After 20 or minutes (up to an hour r more) the connection will randomely drop, crashing the client in some cases
+- Join the same voice channel and turn your output/input settings to a different device (i.e. RealTek Headphones/Microphone)
+- You will not experience a crash ever again.
+
+Something with default input/output settings seem to be the root cause for the crashes. This has been tested with multiple users and each result has been fantastic. No crashes
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-13T19:37:54.145Z
+
+
+### Can reproduce.
+crashing doesn't happen after following new reproduction steps. Windows 10 x64 bit, Canary 0.0.157
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-15T05:33:56.732Z
+
+
+### Can't reproduce.
+after following new steps, discord no longer crashes like it once did
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-15T05:35:40.863Z
+
+
+### I've never been able to reproduce this and have received no reports of it since the initial one. - Jared on 2017-07-28T21:55:23.695Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:24:49.156Z
+
+
+### Archived by Jared on 2017-10-30T17:24:50.539Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

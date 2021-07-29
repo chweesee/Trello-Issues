@@ -1,0 +1,115 @@
+[Archived] Deleting a Discord server while connected to Voice Chat crashes app (**Must have 2FA enabled**) (https://trello.com/c/ALo96n64)
+
+P1 - Severe
+
+Created: 2016-12-07T17:04:32.041Z
+Latest Update: 2017-10-30T17:10:34.788Z
+
+Reported by Dru#8209
+
+####Steps to reproduce: 
+- Go to a server you own 
+- Open server settings 
+- Open Overview 
+- Click "Delete Server " 
+- Type a 2FA code that's been used within the past minute or so? 
+
+####Expected result:
+ It produces an error code and doesn't delete the server 
+####Actual result:
+ It deletes the Discord server **and** crashes the Discord app
+
+Card Log
+========
+### Added by Jared on 2016-12-07T17:04:32.041Z
+
+
+### Can reproduce.
+latest TF
+
+/dev/null#5164 - Jared on 2016-12-07T17:05:21.349Z
+
+
+### Can reproduce.
+latest stable 1.7.8
+
+Doctors#5417 - Jared on 2016-12-07T17:06:13.177Z
+
+
+### Can also reproduce on desktop
+
+Dougley#6248 - Jared on 2016-12-07T17:07:04.903Z
+
+
+### Minus the crashing 👀
+
+Dougley#6248 - Jared on 2016-12-07T17:07:26.412Z
+
+
+### Can't reproduce.
+can only crash client
+
+/dev/null#5164 - Jared on 2016-12-07T17:17:55.310Z
+
+
+### Reusing code is intended, app crash is not (I assume)
+
+Dru#8209 - Jared on 2016-12-07T17:26:55.020Z
+
+
+### May only affect 64 bit devices
+
+Dru#8209 - Jared on 2016-12-07T18:10:42.455Z
+
+
+### Verified. - Jared on 2016-12-07T18:11:49.200Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-07T18:11:52.035Z
+
+
+### Can reproduce.
+iPhone 7, iOS 10.2b6, latest TF
+
+ThaTiemsz#5517 - Jared on 2016-12-07T18:13:22.315Z
+
+
+### Can reproduce.
+Latest TestFlight, iPhone 5s with iOS 10.1.1
+
+HyperCoder#2975 - Jared on 2016-12-08T21:06:35.966Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2017-04-04T23:34:13.996Z
+
+
+### cant repro - Fanghao on 2017-06-10T00:06:24.463Z
+
+
+### Can no longer reproduce. - Jared on 2017-06-12T18:29:32.000Z
+
+
+### Moved from Serious Issues to Cannot Reproduce by Jared on 2017-06-12T18:29:39.594Z
+
+
+### ​I can't reproduce using the steps provided by Matthew#2334, it sounds to me more like another bug than an important detail left out by Dru. 
+
+- Enable 2FA on your account.
+- Create a Discord server (should automatically connect you to VC).
+- Delete the server while still connected to VC.
+
+Discord 1.9.3 (1340), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-28T15:45:40.919Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:10:33.899Z
+
+
+### Archived by Jared on 2017-10-30T17:10:34.790Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

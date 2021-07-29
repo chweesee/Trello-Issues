@@ -1,0 +1,77 @@
+[Archived] ban reasons with longer than 64 chars don't show in audit logs unless they have multiple lines or spaces before the 64th character (https://trello.com/c/jkAdZF1B)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-11-14T01:14:52.849Z
+Latest Update: 2019-01-11T00:01:53.588Z
+
+Reported by J1#0088
+
+####Steps to reproduce:right click on a bot you never use or a friend you want to ban/kick 
+- click on ban or kick 
+- type anything more than 64 characters as a kick/ban reason without spacing 
+- go to audit log 
+- observe
+
+####Expected result:
+i should be able to view the whole ban reason in audit logs
+####Actual result:
+i can only see the first 64 characters of the reason
+####Client settings:
+canary, Build Number: 27933
+####System settings:
+Windows 10 Home 64-bit ver (1803)
+
+23129
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-14T01:14:52.849Z
+
+
+### Can reproduce.
+Windows 10, stable, Build Number: 27913, Google Chrome Version 70.0.3538.102
+
+roflmoaqwerty#0420 - Bug Bot on 2018-11-14T01:15:00.270Z
+
+
+### Can reproduce.
+CR, macos 10.12.6, canary 27933
+
+IcyPebbles#5833 - Bug Bot on 2018-11-14T01:15:05.162Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64 - Discord Canary 27933
+
+Daffyduck#5364 - Bug Bot on 2018-11-14T01:15:10.200Z
+
+
+### verified.  - Clayton on 2018-11-14T01:19:25.043Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-14T01:19:38.221Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 27933
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-14T02:53:35.370Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 27964
+
+Hole#0001 - Bug Bot on 2018-11-14T04:51:16.980Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:53.590Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

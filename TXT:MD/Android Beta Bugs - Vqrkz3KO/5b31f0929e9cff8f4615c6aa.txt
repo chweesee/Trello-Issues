@@ -1,0 +1,69 @@
+[Archived] If tap the Join button in an invite embed and fails to join for whatever reason (e.g you lose internet connection), the client will retry in an infinite loop until it succeeds, causing the debug log to get insanely spammed and the API to get spammed as well when you get your connection back (https://trello.com/c/K9pfFbGY)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-06-26T07:51:46.099Z
+Latest Update: 2018-08-22T01:23:14.845Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a message with a valid invite to a server you are not in 
+- Turn off your Internet connection 
+- Tap the button once. Notice it doesn't work (which is normal) 
+- Let's imagine you don't know what's going on, so try tapping the button multiple times. The more times you will tap it, the more intense the bug will be 
+- Go to Debug log in your user settings
+
+####Expected result:
+It should give up if it doesn't succeed after a while, or at least retry at a decent rate
+####Actual result:
+The client will retry to join infinite times until it succeeds, and every tap on the Join button will create a new loop of retries. You can say R.I.P to your Debug log. If you enable your Internet now, it will show "No text channels" screen while it's purging the request loops (those requests will actually reach the API and spam it, surprisingly without causing ratelimit errors), and then you will be taken to the new server.
+####Client settings:
+Discord Alpha 6.9.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14796
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-26T07:51:46.099Z
+
+
+### Alex1304#9704 - https://youtu.be/aktX299lGt0 added by Bug Bot on 2018-06-26T07:51:48.524Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.9.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-26T07:51:53.399Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 6.9.9
+
+Bencey_#8587 - Bug Bot on 2018-06-26T07:51:58.404Z
+
+
+### Can reproduce.
+-- Xioami Mi A1, Android 8.0.0 -- Discord Alpha 6.9.9
+
+Ori#1908 - Bug Bot on 2018-06-26T07:52:03.413Z
+
+
+### verified, samsung s6 edge, android 7.0, 6.9.9 - Clayton on 2018-06-26T20:46:40.547Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-26T20:46:48.114Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:14.848Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

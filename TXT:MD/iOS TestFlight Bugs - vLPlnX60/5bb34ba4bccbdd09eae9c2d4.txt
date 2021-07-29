@@ -1,0 +1,98 @@
+[Archived] Discord crashed when opening invitation link on Safari (https://trello.com/c/6beHLgOs)
+
+P0 - Need an immediate fix
+
+Created: 2018-10-02T10:42:44.734Z
+Latest Update: 2019-02-15T03:30:20.638Z
+
+Reported by Panaikran#8575
+
+####Steps to reproduce:
+- Make sure Discord is running 
+- Open Safari find a website that contain channel invitation link 
+- Click on the link it should be redirect to Discord
+
+####Expected result:
+It should show "You have been invited to the channel
+####Actual result:
+Discord is crashed when clicking invitation link instead
+####Client settings:
+TestFlight 2.3.9(7731)
+####System settings:
+iPhone Xs Max, iOS 12.0
+
+20457
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-02T10:42:44.734Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12 - TestFlight 2.3.9 (7731)
+
+Alfie#1582 - Bug Bot on 2018-10-02T10:42:52.095Z
+
+
+### Can reproduce.
+same happens with InApp browser iPhone 6 iOS 12, Testflight 2.3.9 (7731)
+
+Pyros#2326 - Bug Bot on 2018-10-02T10:42:57.110Z
+
+
+### Can reproduce.
+Can Reproduce by clicking on DTesters invite in: https://support.discordapp.com/hc/en-us/articles/115000465492-How-to-Report-Bugs | iPhone 6, iOS 12.1 dev beta - TestFlight 2.3.9 (7858)
+
+Xylium#1480 - Bug Bot on 2018-10-02T10:43:02.082Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 12 & iPad Air 2 - iOS 12.1 Public Beta 1, TestFlight 2.3.9 (7731) - Only happens when opening a link on any website that will be opened directly in the app. Typing manually any invite link in your URL address bar doesn't work, the landing page will be opened then. Also make sure your app hasn't crashed before or fully reloads, it won't crash then but nothing happens.
+
+Direct example: Just click on this invite link in your browser or Trello app: https://discord.gg/discord-testers
+
+Pascal#0929 - Bug Bot on 2018-10-02T10:49:01.078Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.0 - TestFlight 2.3.9 (7858) - Also happens on Google Chrome
+
+Google61#9199 - Bug Bot on 2018-10-02T11:45:10.909Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 12.0, TestFlight, 2.3.9
+
+ButterWaffles#4278 - Bug Bot on 2018-10-02T14:07:33.644Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.1 Dev Beta - TestFlight 2.3.9 (7858)
+
+willyt2000#1234 - Bug Bot on 2018-10-02T19:14:26.426Z
+
+
+### Moved from New Issues to Notable Issues by Fanghao on 2018-10-04T23:13:35.829Z
+
+
+### Fix in next test flight. - Miguel Gaeta on 2018-10-05T00:31:46.540Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Miguel Gaeta on 2018-10-05T00:31:52.493Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-10-05T21:14:03.299Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Clayton on 2019-01-16T03:01:15.636Z
+
+
+### Archived by Bug Bot on 2019-02-15T03:30:20.647Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/mrkcsc) - No Bio

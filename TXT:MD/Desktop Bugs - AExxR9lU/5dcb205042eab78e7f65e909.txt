@@ -1,0 +1,120 @@
+Long file extensions get cut off beyond 12 characters (https://trello.com/c/XIfp9XZF)
+
+None
+
+Created: 2019-11-12T21:12:48.431Z
+Latest Update: 2020-07-16T21:26:05.606Z
+
+Reported by MPC#0962
+
+####Steps to reproduce:
+- upload a file with a extension longer than 12 characters
+
+####Expected result:
+it should upload the file with the entire extension
+####Actual result:
+it gets cut off at 12 characters
+####Client settings:
+macOS stable, Build Number: 49090
+####System settings:
+macOS 10.14.2 (18C54)
+
+47843
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-12T21:12:48.431Z
+
+
+### Can reproduce.
+CR | windows 10 home 1903 (x64) | build 49303
+
+the_killerbanana#6969 - Bug Bot on 2019-11-12T21:12:56.082Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 49303
+
+Jiralite#1207 - Bug Bot on 2019-11-12T21:13:01.032Z
+
+
+### Can reproduce.
+CR macOS 10.14.3, Discord Canary Build (49303)
+
+Masterpiece#0001 - Bug Bot on 2019-11-12T21:13:05.967Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1903), Canary 49303
+
+Derrios#0001 - Bug Bot on 2019-11-12T21:27:21.369Z
+
+
+### Can reproduce.
+2017 MacBook Pro - macOS 10.15.1 Catalina - Web Canary 49303 - Safari 13.0.3
+
+f78#7800 - Bug Bot on 2019-11-12T21:28:18.214Z
+
+
+### f78#7800 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dcb205042eab78e7f65e909/a2a3407a5cf0cbfb7e65b4d8b42dac7c/fslG7xH.png added by Bug Bot on 2019-11-12T21:33:26.151Z
+
+
+### I've attached an example. Bottom = original file, top = file when uploaded to Discord.
+
+f78#7800 - Bug Bot on 2019-11-12T21:34:10.085Z
+
+
+### Can reproduce.
+CR: Windows 10 Pro 1903, Discord Canary 49303
+
+Rex#1120 - Bug Bot on 2019-11-12T21:45:32.333Z
+
+
+### Can reproduce.
+OS: Windows 10 pro x64 1903, Discord: stable, 47850
+
+SnowFlake_Buster#2395 - Bug Bot on 2019-11-12T21:54:37.951Z
+
+
+### Can reproduce.
+Windows 10 Pro 1903, Discord Canary 49207
+
+TheRudeDude#6040 - Bug Bot on 2019-11-13T00:52:33.079Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary 49384
+
+Action Potential#6862 - Bug Bot on 2019-11-13T04:53:44.968Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) Canary 49331
+
+myacorn#6534 - Bug Bot on 2019-11-13T08:50:17.843Z
+
+
+### Can reproduce.
+CR, Windows 10 pro, ptb, Build Number: 49400
+
+Ichii#5999 - Bug Bot on 2019-11-13T19:32:33.040Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 49451
+
+RPS1222#5127 - Bug Bot on 2019-11-13T23:19:13.256Z
+
+
+### Can reproduce.
+Windows 10 Home (x64 v1803) - Discord Canary 49525
+
+Error 404#4040 - Bug Bot on 2019-11-14T18:06:45.414Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

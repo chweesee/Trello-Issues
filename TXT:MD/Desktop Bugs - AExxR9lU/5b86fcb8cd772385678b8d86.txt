@@ -1,0 +1,73 @@
+[Archived] Chat Font Scaling unintentionally adjusts padding on a11y settings (https://trello.com/c/gJAR6IdE)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-29T20:06:16.460Z
+Latest Update: 2018-10-22T20:26:07.408Z
+
+Reported by SyntaxPrime#4495
+
+####Steps to reproduce:
+- Go to your appearance settings 
+- set Chat Font Scaling to 150 
+- Observe
+
+####Expected result:
+The chat message preview window should adjust as expected, nothing else.
+####Actual result:
+Along with this, there is a noticeable change in padding below the a11y options (colors), they shift downwards.
+####Client settings:
+Canary 22726
+####System settings:
+Windows 10 Home 64 Bit v1809
+
+18616
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-29T20:06:16.460Z
+
+
+### SyntaxPrime#4495 - https://i.imgur.com/ZtrObAu.gifv added by Bug Bot on 2018-08-29T20:06:18.944Z
+
+
+### Orangutan#9393 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b86fcb8cd772385678b8d86/6a17c892edd84fe001acd36e4c9bb163/pr54eJJ.png added by Bug Bot on 2018-08-29T20:06:18.959Z
+
+
+### Orangutan#9393 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b86fcb8cd772385678b8d86/514f45a0bc87e70d3b70d156a708be2d/jZ8Pdc0.png added by Bug Bot on 2018-08-29T20:06:19.456Z
+
+
+### Can reproduce.
+CR Windows 10 Home (64-bit), Desktop Stable (22658)
+
+Orangutan#9393 - Bug Bot on 2018-08-29T20:06:23.839Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 v1803, Discord Stable 22658 - Difference is slight but still noticeable
+
+Haru😍💜#6660 - Bug Bot on 2018-08-29T20:06:28.878Z
+
+
+### Can reproduce.
+Can Reproduce - Canary 22726 - Windows 10 Home x64 (1809)
+
+HarryThorpe#0864 - Bug Bot on 2018-08-29T20:06:34.064Z
+
+
+### verified, macos 10.12.6, canary 22726 - Clayton on 2018-08-29T20:38:49.571Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-29T20:39:01.747Z
+
+
+### Archived by Clayton on 2018-10-22T20:26:07.410Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

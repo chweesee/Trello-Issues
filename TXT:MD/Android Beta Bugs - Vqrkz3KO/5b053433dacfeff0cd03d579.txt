@@ -1,0 +1,125 @@
+[Archived] Message is sent twice when we have poor connection and try to send a message. (https://trello.com/c/ZYvB0KDQ)
+
+P4, unlikely to ever be fixed.,
+Mid
+
+Created: 2018-05-23T09:28:19.601Z
+Latest Update: 2020-02-20T21:34:35.469Z
+
+Reported by The Lunala#0001
+
+####Steps to reproduce:
+- Have a poor interested connection. 
+- Send a message to a channel.
+
+####Expected result:
+The message should be sent only once.
+####Actual result:
+The message is sent but there's a toast saying ``Unable to send messages. Hold to retry`` and same message is below it in red. When we hold the message and click resend, the message is sent but the red message below it still says and the same message is sent twice (or the number of times you've retried).
+####Client settings:
+Discord Alpha 6.7.4
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+13220
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-23T09:28:19.601Z
+
+
+### Can reproduce.
+Can reproduce, tried this earlier with your previous report and have had this happen to me before. | Discord Alpha 6.7.4, Oppo R11s, ColorOS 3.2, Android 7.1.1 (Nougat)
+
+Cairo#2098 - Bug Bot on 2018-05-23T09:28:26.911Z
+
+
+### Can reproduce.
+Can reproduce, this bug caused me being banned from DTesters once because of duplicate messages. It looks like the app doesn't properly cancel/timeout the message post request when the "failed to send message" error appears. Discord Alpha 6.7.4,  Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-05-23T09:28:31.937Z
+
+
+### Can reproduce.
+Always happens to me, CR, Samsung J7 Prime, Android 6.0.1, Discord 6.7.3
+
+KingMarine#5676 - Bug Bot on 2018-05-23T09:28:36.922Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 2016 7.0 Discord Alpha 6.7.3
+
+Bastiti#0700 - Bug Bot on 2018-05-23T11:07:10.457Z
+
+
+### Yeah, we had such ticket moved & archived in wont fix for being "not a bug". But I spoke to Andy today and he considers this a bug. - Tarek on 2018-05-23T15:29:40.455Z
+
+
+### Verified.  - Clayton on 2018-05-23T22:06:22.486Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-23T22:06:26.002Z
+
+
+### The Lunala#7777 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b053433dacfeff0cd03d579/5a7ac2f18b655a0777c3316537131e57/20180714_154742.jpg added by Bug Bot on 2018-07-14T10:19:41.631Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:25.602Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-01-17T20:49:30.462Z
+
+
+### Unarchived by Jeff Cailteux on 2019-01-17T20:49:30.556Z
+
+
+### Can't reproduce.
+can't reproduce anymore, Nexus 5x, Android 8.1, Alpha 8.3.5g
+
+criptixo#0001 - Bug Bot on 2019-01-25T13:06:05.210Z
+
+
+### This is still reproducible in rare cases (poor connection, connection time-out) with the message queue feature, -a 8.4.4g
+
+Law of Royale#6825 - Bug Bot on 2019-02-11T16:37:55.982Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:02.638Z
+
+
+### Can reproduce Discord Alpha 9.1.2 SA (whatever that means lol) OnePlus 5 Android 9 - Tarek on 2019-07-12T14:18:05.216Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2019-07-12T14:18:16.755Z
+
+
+### Unarchived by Aeria on 2019-07-12T14:23:34.062Z
+
+
+### Moved from Reopened to Notable Issues by Sam Shih on 2019-08-05T18:04:11.679Z
+
+
+### I'll look into this at some point. - Sam Shih on 2019-08-05T18:04:31.674Z
+
+
+### okay I got this once while trying to repro. Pretty rare that I'm going to mark as lower priority. - Sam Shih on 2019-08-05T20:32:24.009Z
+
+
+### Moved from Notable Issues to Verified Bugs by Sam Shih on 2019-08-05T20:32:46.741Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab A, Android 8.1, Discord 940
+
+Suspense#4615 - Bug Bot on 2019-08-18T22:07:49.926Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:35.482Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

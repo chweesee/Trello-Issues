@@ -1,0 +1,102 @@
+[Archived] latency issue when marking as readed (tested on LTE connection 4MB/s) (https://trello.com/c/t5blDSRh)
+
+P3 - Will be fixed eventually
+
+Created: 2017-10-19T10:24:54.796Z
+Latest Update: 2019-06-10T20:45:02.142Z
+
+Reported by ks0908#8526
+
+####Steps to reproduce:
+- long press server icon 
+- press "mark as readed" 
+- observsr indicator
+
+####Expected result:
+it should dissapear, marking channel as readed almost instantly
+####Actual result:
+indicator last for about 7 seconds
+####Client settings:
+alpha 5.4.1
+####System settings:
+lg xpower 6.0.1
+
+5594
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-19T10:24:54.796Z
+
+
+### Can reproduce.
+Android 6.0.0 Lava Iris 870
+
+Melroy#5344 - Bug Bot on 2017-10-19T10:25:02.260Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 5.4.1
+
+Okori#0902 - Bug Bot on 2017-10-19T10:25:07.221Z
+
+
+### Can reproduce.
+canrepro Samsung kccat6 A7.1.2 discord 5.4.1 takes about 5 to 6 seconds to clear even on fast wifi
+
+Jessie#3639 - Bug Bot on 2017-10-19T10:25:12.207Z
+
+
+### Can't reproduce.
+Android 6.0.0 Lava Iris 870 discord alpha 5.4.1
+
+Melroy#5344 - Bug Bot on 2017-10-19T10:42:46.029Z
+
+
+### Can reproduce.
+Moto G4 Android 7.0 Alpha 5.4.1, in fast wifi as well it took about 2-7 seconds depending on the server and how many unread channels
+
+Azrael#9808 - Bug Bot on 2017-10-19T11:10:03.261Z
+
+
+### Can reproduce.
+Huawei Ascend XT Android 6.0.1 Discord Alpha 5.4.1
+
+PieforLife#3126 - Bug Bot on 2017-10-19T14:59:52.473Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 541
+
+Xander#0259 - Bug Bot on 2017-10-19T18:10:48.869Z
+
+
+### Verified.  - Clayton on 2017-10-24T23:11:25.392Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-24T23:11:29.296Z
+
+
+### 54D#1357 - https://youtu.be/ZadE5VfDLgE added by Bug Bot on 2018-07-15T13:13:33.404Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:09.161Z
+
+
+### Can reproduce.
+CR, lasts even longer in quick switcher, Samsung Galaxy S5 mini, Android 6.0.1, Alpha 763
+
+Nashorn#3450 - Bug Bot on 2018-10-05T15:15:02.967Z
+
+
+### Unarchived by Clayton on 2018-10-05T15:30:03.534Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:45:02.155Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

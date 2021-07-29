@@ -1,0 +1,62 @@
+[Archived] Voice Chat/Video Chat fails to use Media Audio When Muted (BLUETOOTH ONLY) (https://trello.com/c/l00CI52d)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2017-11-22T23:04:40.249Z
+Latest Update: 2018-10-11T00:30:48.998Z
+
+Reported by MelodyConcerto#5328
+
+####Steps to reproduce:
+- Pair, and connect your favorite Bluetooth Headphones. (THEY MUST SUPPORT A2DP STEREO AUDIO PROFILE)
+
+####Expected result:
+Discord should hang up the mic input and switch audio output to Android's Media Audio Stream so that you may appreciate the sound quality. The audio shouldn't suck and you shouldn't be in Phone Audio or Call Audio mode
+####Actual result:
+Device stays in Phone Audio mode, audio quality suffers greatly as a result, especially on lower end Bluetooth Hardware, or builds of Android or devices that do not yet speak a higher quality version of HSP (PHONE AUDIO)
+####Client settings:
+Discord 5.6.8
+####System settings:
+Android 7.1.2 (Nexus 6)
+
+6407
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T23:04:40.249Z
+
+
+### Can reproduce.
+can reproduce, Android 7.0.0, Samsung S6 Edge, Discord 5.7.5, overlord approved, since it's been sitting in queue for quite a while
+
+IcyPebbles#5833 - Bug Bot on 2017-11-22T23:04:47.701Z
+
+
+### Verified.  - Clayton on 2017-11-28T21:30:01.095Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-28T21:30:04.477Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:30.596Z
+
+
+### Can reproduce.
+Discord 7.3.8 Android 7.0 LG Stylo 3
+
+Melody#7777 - Bug Bot on 2018-08-22T08:21:44.485Z
+
+
+### Unarchived by Clayton on 2018-08-22T08:30:03.394Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:48.999Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

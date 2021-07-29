@@ -1,0 +1,106 @@
+[Archived] Posting a Note via the iOS Share Sheet that is less than 2000 characters long that uses the `-` list (auto)formatting will expand to a successful message that is over 2000 characters long. (https://trello.com/c/HPwVs8S3)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-08-04T16:39:42.690Z
+Latest Update: 2019-09-15T20:00:02.735Z
+
+Reported by CyberiumShadow#1507
+
+####Steps to reproduce:
+- Create a Note in the Notes app that is below character limit using the `-` list formatting option. (Must be a relatively long note. Best to be done by having the entire note to be one big list)  
+- Open the iOS Share Sheet 
+- Post to a server/channel
+
+####Expected result:
+Message should be rejected as it is greater than 2000 characters
+####Actual result:
+Message is successfully posted to the server/channel (Unable to edit it until you reduce the message below 2000 characters)
+####Client settings:
+Testflight 3.0.8
+####System settings:
+iPhone XS Max, iOS 13 Public Beta 3
+
+41031
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-04T16:39:42.690Z
+
+
+### binchlord#0998 - https://youtu.be/H3uMmNxSEXk added by Bug Bot on 2019-08-04T16:39:45.335Z
+
+
+### Can reproduce.
+Cr; iPhone X, iOS 13 (beta 3), TestFlight 3.0.8 (16488)
+
+Noah#0004 - Bug Bot on 2019-08-04T16:39:50.333Z
+
+
+### Can reproduce.
+CR; iPhone 7 Plus, iOS 13 Dev Beta 4, TestFlight 3.0.8 (16488)
+
+Jeffrey#1234 - Bug Bot on 2019-08-04T16:39:55.249Z
+
+
+### Can reproduce.
+CR | iPhone XS, iOS 12.4;  Testflight 3.0.10
+
+JoeProKill2000#2674 - Bug Bot on 2019-08-04T16:40:00.222Z
+
+
+### Can't reproduce.
+iPad Pro, iOS 12.3.1, TestFlight 3.0.8 (16488)
+
+Marx#4057 - Bug Bot on 2019-08-04T18:27:23.335Z
+
+
+### Can't reproduce.
+Get an “Network error” message if there is more than 2000 characters in note. If there is less than 2000 characters, everything works ok. - iPhone 7, iOS 12.3.1, TF 3.0.10 (16641)
+
+F значит fedoras#2230 - Bug Bot on 2019-08-04T18:53:20.782Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 12.4, TestFlight 3.0.10 (16641) - If there is less than 2000 characters, it will post but if there is more than 2000 characters, it gives a network connection error whether I’m on the Wi-Fi or Cellular.
+
+.Gloria.#9606 - Bug Bot on 2019-08-04T19:56:58.191Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 12.4, Discord Testflight 3.0.10 - Network error raised
+
+KindleTune#8570 - Bug Bot on 2019-08-05T12:57:02.249Z
+
+
+### Can reproduce.
+iPhone XR & iPad Air iOS 12.4 TestFlight 3.0.10 (16576) - difficult to reproduce because a lot of online character counters undercount the number of character in iOS note formatting
+
+binchlord#0998 - Bug Bot on 2019-08-06T00:19:16.088Z
+
+
+### Can't reproduce.
+CNR; iPad 6th Generation, iOS 12.4, TestFlight 3.0.10 (16441)
+
+Dezyox#1998 - Bug Bot on 2019-08-06T18:25:50.945Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 Dev Beta 5 — TestFlight 3.0.10 (16641)
+
+Nith#1337 - Bug Bot on 2019-08-07T08:19:46.079Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-08-16T19:00:03.945Z
+
+
+### Archived by Bug Bot on 2019-09-15T20:00:02.751Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,67 @@
+Animated emojis will pause if the user holds the scroll button while at the bottom of the channel (https://trello.com/c/bSoYywm2)
+
+None
+
+Created: 2018-01-09T21:33:47.698Z
+Latest Update: 2018-04-24T18:49:10.667Z
+
+Reported by heatingdevice#1212
+
+####Steps to reproduce:
+- Open a channel whose messages have an animated emoji visible inside the viewport when you're looking at the most recent message 
+- Hold down the button and scroll up so that the emoji is no longer visible 
+- Without releasing the button or removing your finger from the TrackPoint, scroll back down to the bottom and keep your TrackPoint angled to scroll downward even though you're at the bottom of the page 
+- Observe paused animated emoji
+
+####Expected result:
+Animated emojis should play as long as they are visible
+####Actual result:
+Animated emojis pause until you stop scrolling downward
+####Client settings:
+Launcher: DiscordCanary 0.0.44 Canary Build: 9120
+####System settings:
+Arch Linux, up to date as of today (2018-01-02 15:15 EST) on a ThinkPad E470 in KDE Plasma, Relevant xinput configuration:
+
+7550
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-09T21:33:47.698Z
+
+
+### Can reproduce.
+Ubuntu 16.04.3 - Canary 0.0.44
+
+Sam#8380 - Bug Bot on 2018-01-09T21:33:54.985Z
+
+
+### Can reproduce.
+CR, for me it stops playin until I release the button, works with every mouse button, Discord Canary Build 9280, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-01-09T21:34:00.010Z
+
+
+### Can reproduce.
+ArchLinux (fully up to date as of Jan 10 2018, 00:33 UTC+3), discord canary build 9280, 0.0.44.
+
+ao#5755 - Bug Bot on 2018-01-09T21:34:05.076Z
+
+
+### Can no longer repro on 0.0.45 - Clayton on 2018-01-10T00:06:14.233Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-01-10T00:06:23.018Z
+
+
+### Moved from Discord Verified Bugs to Cannot Reproduce. by Clayton on 2018-01-10T00:06:29.367Z
+
+
+### Still cannot reproduce even with the additional information given during the CNR event. - Jared on 2018-04-24T18:49:10.668Z
+
+List
+====
+Cannot Reproduce.
+
+Members
+=======
+None

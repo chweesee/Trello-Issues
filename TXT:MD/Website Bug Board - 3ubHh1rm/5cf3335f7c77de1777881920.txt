@@ -1,0 +1,98 @@
+Uncaught promise error when being redirect from discord nitro page (https://trello.com/c/NSF5s017)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-06-02T02:24:31.174Z
+Latest Update: 2019-06-26T11:09:00.283Z
+
+Reported by TheForbiddenAi#0001
+
+####Steps to reproduce:
+- Open the console on client 
+- On a browser go to discordapp(dot)com/nitro 
+- Click one of the subscription buttons (Ex: $9.99 / Month) 
+- Observe how on the client there is now an uncaught (in promise) error in console 
+- NOTE: This can be done without the client via just opening the console on the nitro page then clicking the subscription buttons then having it redirect you to the web client (then sign in if needed) then observe the error
+
+####Expected result:
+There should be no error
+####Actual result:
+There is an uncaught (in promise) error (And sometimes the subscription info will not show)
+####Client settings:
+Chrome 74, Canary 38950
+####System settings:
+Windows 10 Home x64 (1809)
+
+35841
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-02T02:24:31.174Z
+
+
+### TheForbiddenAi#0001 - https://i.imgur.com/r26mTFf.gifv added by Bug Bot on 2019-06-02T02:24:33.740Z
+
+
+### TheForbiddenAi#0001 - https://trello-attachments.s3.amazonaws.com/5cc22e6be84de608c791fdb6/5cf3335f7c77de1777881920/2733a1a29ff4b365c7c721b1124b0429/VP3Nk94.png added by Bug Bot on 2019-06-02T02:24:34.124Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Web Stable 38950 - Firefox v67.0 (64-bit)
+
+Isabel#0002 - Bug Bot on 2019-06-02T02:24:38.681Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 38950, chrome 73
+
+OrangeM24#5746 - Bug Bot on 2019-06-02T02:24:43.711Z
+
+
+### Can reproduce.
+MacOS Mojave v. 10.14 (18A391) - Web Stable 38950, Opera Version: 60.0.3255.125
+
+ImFirstPlace#3965 - Bug Bot on 2019-06-02T02:24:48.684Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Web Canary 38950 - Google Chrome 74.0.3729.169
+
+Daffyduck#5364 - Bug Bot on 2019-06-02T03:05:58.877Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 38751
+
+Classified#0001 - Bug Bot on 2019-06-02T03:55:20.469Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary Web 38950 | Chrome 74.0.3729.169
+
+Clay#0001 - Bug Bot on 2019-06-03T00:35:15.071Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra), Canary 38950
+
+myacorn#6534 - Bug Bot on 2019-06-03T00:35:44.496Z
+
+
+### Also happens when clicking on the learn more button on the nitro boosting prompt in the activity tab of the client (Referring to this https://i.imgur.com/K1f20xv.png)
+
+TheForbiddenAi#0001 - Bug Bot on 2019-06-06T22:56:07.295Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1903 Build 18362.175 | Firefox Quantum 67.0.4
+
+Visual | RIP Etika#0069 - Bug Bot on 2019-06-26T11:09:00.292Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,81 @@
+[Archived] Logging out and restarting the app clears all local data (https://trello.com/c/TUsWxv32)
+
+None
+
+Created: 2018-07-12T16:54:56.426Z
+Latest Update: 2019-01-10T18:56:43.862Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Edit some settings and do things to add stuff to your local data : edit notification settings, voice settings, accept some NSFW warnings, fill out Frequently Used emojis section, make message search in servers to create search history entries, etc 
+- Go to your settings and Log Out 
+- Force-close Discord 
+- Log in again 
+- Check your settings, frequently used emojis, and everything else you edited at step 1 
+- If necessary, restart the app again
+
+####Expected result:
+Discord should keep your settings after logging out and back in ; it should reset them only if you log in with a different account
+####Actual result:
+When you log out and restart app, all local data is wiped and everything is reset as if you just uninstalled and reinstalled Discord
+####Client settings:
+Discord Alpha 7.0.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+15326
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-12T16:54:56.426Z
+
+
+### Can reproduce.
+Discord Alpha 7.0.6 OnePlus 5 Android 8.1 (Oreo)
+
+Tarek#1337 - Bug Bot on 2018-07-12T16:55:04.046Z
+
+
+### Can reproduce.
+Can reproduce Discord alpha 7.0.6 Nokia 5 Android 8.0.0
+
+Bencey_#8587 - Bug Bot on 2018-07-12T16:55:09.046Z
+
+
+### Can reproduce.
+CR Kyocera Hydro Wave Android 5.1 Discord 7.0.6
+
+Okori#0902 - Bug Bot on 2018-07-12T16:55:14.050Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2018-07-12T21:37:49.860Z
+
+
+### Frances Picard#6209 - https://i.imgur.com/VM4m9qX.gif added by Bug Bot on 2018-07-16T12:24:39.578Z
+
+
+### These are settings local to your device and login and are intended to be cleared upon logout. - Miguel Gaeta on 2018-07-25T21:02:20.363Z
+
+
+### Moved from Notable Issues to Won't Fix by Miguel Gaeta on 2018-07-25T21:02:24.695Z
+
+
+### Notably - some of these we may eventually sync across devices like we have for light/dark theme but until then this is the intended behavior. - Miguel Gaeta on 2018-07-25T21:03:07.196Z
+
+
+### Archived by Clayton on 2018-08-31T00:12:01.810Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.2.5
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-10T18:56:43.862Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

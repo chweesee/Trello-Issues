@@ -1,0 +1,71 @@
+[Archived] The Mark as Unread action on Desktop (Alt+Click on a message) doesn't reflect properly on Android (https://trello.com/c/2E6pxkIx)
+
+P3 - Will be fixed eventually
+
+Created: 2017-11-10T13:38:05.231Z
+Latest Update: 2019-11-29T11:14:09.904Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have someone post a few messages in any channel, including one that contains a @ mention towards you (user tag or role mention, no matter)  
+- On Desktop, read those messages, and then make sure that the channel is correctly marked as read on Android as well 
+- Switch to another channel on Android, bug stay in the same server 
+- While keeping your Android app open, mark the messages as Unread on Desktop by doing Alt+Click on an old message
+
+####Expected result:
+You should see immediately that the channel got marked as Unread on Android, and the red mention indicator should reappear if messages containing mentions got marked as unread by this way.
+####Actual result:
+Nothing will happen on your Android app, you have to restart the app to see the unread white dot back on the channel. Also, red mention indicators won't be restored, even after restarting. It's even more obvious if you try to reproduce this bug with a DM channel : nothing will happen at all.
+####Client settings:
+Discord Alpha 5.6.1
+####System settings:
+Huawei Mate 9 Android 7.0
+
+6205
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-10T13:38:05.231Z
+
+
+### Can reproduce.
+Can repro ; Huawei p8 lite 2017, Android 7.0, alpha 5.6.2
+
+Mathéo ~ fujh🍂fn#0878 - Bug Bot on 2017-11-10T13:38:12.505Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0; Android Alpha 5.6.1
+
+Maraly#9842 - Bug Bot on 2017-11-10T13:38:17.505Z
+
+
+### Can reproduce.
+can repro Samsung Galaxy S7 Edge | SM-G935FD | Android 7.0
+
+4JR#2533 - Bug Bot on 2017-11-10T13:38:22.644Z
+
+
+### Verified.  - Clayton on 2017-11-15T22:07:11.037Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-15T22:07:14.166Z
+
+
+### Can reproduce.
+Samsung Galaxy S8+, Alpha 5
+7.5
+
+Sparky Kitty#5374 - Bug Bot on 2017-11-26T22:59:42.894Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:17.052Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

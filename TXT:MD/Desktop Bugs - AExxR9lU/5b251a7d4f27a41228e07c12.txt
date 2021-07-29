@@ -1,0 +1,79 @@
+[Archived] [DESKTOP AND IOS!] The “find or start a conversation” feature does not show a users actual discriminator after a nitro subscription terminates (https://trello.com/c/59zn7n7A)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-16T14:11:09.854Z
+Latest Update: 2018-10-22T20:22:01.174Z
+
+Reported by CustomName#9999
+
+####Steps to reproduce:
+- Have a friend with a nitro subscription 
+- Ensure it is not renewed and let it end 
+- Allow the system to automatically change their discim 
+- Use the “Find or start a conversation” feature to search them 
+- Observe their discriminator which loads on the feature, this is next to their username 
+- When you click on their profile observe their actual discriminator and notice the difference
+
+####Expected result:
+Discriminator to match their actual discriminator and be the same discriminator as they have on their profile
+####Actual result:
+Their discriminator is different from the one shown on their profile, even after a reload, it shows their old discriminator.
+####Client settings:
+Discord TestFlight 2.3.2 (4760)
+####System settings:
+iPhone X, iOS 11.3
+
+14225
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-16T14:11:09.854Z
+
+
+### CustomName#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b251a7d4f27a41228e07c12/7cee171eb07c3019667aebd794ade2d8/image.png added by Bug Bot on 2018-06-16T14:11:12.366Z
+
+
+### CustomName#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b251a7d4f27a41228e07c12/dc78303bbd9af271b0f8a2a6b0b31f1d/Screen_Shot_2018-06-16_at_14.53.24.png added by Bug Bot on 2018-06-16T14:11:12.374Z
+
+
+### CustomName#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b251a7d4f27a41228e07c12/aafd70056e9027676c0d05c370c062cf/image.png added by Bug Bot on 2018-06-16T14:11:12.496Z
+
+
+### CustomName#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b251a7d4f27a41228e07c12/767ceadb2888131860de4dc8c72887c7/image.png added by Bug Bot on 2018-06-16T14:11:12.563Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary (17063) & iOS 11.2.2 (15C202), iPhone 6, TestFlight 2.3.2 (4760)
+
+Ten 🌈#8152 - Bug Bot on 2018-06-16T14:11:17.243Z
+
+
+### Can reproduce.
+iPhone 6s - iOS 11.4, iPad Air 2 - iOS 11.4.1 PB, Stable 2.3.3
+
+Pascal#0929 - Bug Bot on 2018-06-16T14:11:22.232Z
+
+
+### Can reproduce.
+Can also repro with the in-server search; Windows 10 Pro x64 (17134), Canary 0.0.211 (17063)
+
+mouse#0091 - Bug Bot on 2018-06-16T14:11:27.234Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-19T20:12:31.051Z
+
+
+### Verified. Very minor issue. - Jared on 2018-06-19T20:12:37.258Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:01.177Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

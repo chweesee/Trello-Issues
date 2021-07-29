@@ -1,0 +1,65 @@
+Opening / Closing / Seaching / Clicking on the Search will crash after a short while. (https://trello.com/c/gKxw5Pz5)
+
+None
+
+Created: 2019-09-05T20:50:11.806Z
+Latest Update: 2020-04-04T16:18:20.084Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game with Overlay 
+- Swap channels once. 
+- Play around with the search by Opening and Closing it, Searching and Clearing search a few times. 
+- This may take a few tries but shouldn't take too long. 
+- Error in hook log "TypeError: Invalid value used as weak map key"
+
+####Expected result:
+Nothing
+####Actual result:
+Overlay crashes.
+####Client settings:
+Canary 45127 (0.0.257)
+####System settings:
+Win10 64x (1903)
+
+43567
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-05T20:50:11.806Z
+
+
+### Alipoodle#5025 - https://i.imgur.com/0vgphYu.gifv added by Bug Bot on 2019-09-05T20:50:14.519Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 45127 host 0.0.257
+
+Jean20B#4668 - Bug Bot on 2019-09-05T20:50:19.532Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.257 Build 45127
+
+Daffyduck#5364 - Bug Bot on 2019-09-05T20:50:24.620Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 0.0.257 (Build 45127) on Windows 10 Education x64 v1903
+
+OminousCry#2331 - Bug Bot on 2019-09-05T20:50:29.474Z
+
+
+### Can reproduce.
+Windows 10 1903 canary 45765
+
+GlenMerlin#2119 - Bug Bot on 2019-09-16T03:51:19.797Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

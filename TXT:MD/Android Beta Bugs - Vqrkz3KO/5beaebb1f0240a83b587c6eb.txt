@@ -1,0 +1,85 @@
+[Archived] move an android discord user from a voice channel to a second one problem (https://trello.com/c/Creq2B2v)
+
+P2 - Can wait a while,
+Mid
+
+Created: 2018-11-13T15:20:17.776Z
+Latest Update: 2020-01-14T18:10:01.323Z
+
+Reported by VforV93#2169
+
+####Steps to reproduce:
+- android app user: connect to a voice channel(start_vch) 
+- Admin user: move the android user from start_vch to a different one(voiceChannel) possibility 1: 
+- Admin user: lock the start_vch, start_vch -> Edit Channel -> Permissions -> @everyone:Connect disabled 
+- the android app user is unjustly disconnected from the new voice channel(as if for discord he was in start_vch) possibility 2: 
+- the android app user mute himself 
+- the android app user automatically returns to the starting channel
+
+####Expected result:
+the user should not be disconnected or moved
+####Actual result:
+the android app user is disconnected from the target voicechannel or he is moved back to the start_vch
+####Client settings:
+android version: 7.8.6
+####System settings:
+Android 8.1.0
+
+23094
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-13T15:20:17.776Z
+
+
+### Can reproduce.
+Samsung Galaxy S8+, Android 8.0.0, Discord Version 7.9.0
+
+FrozenPhoton#8888 - Bug Bot on 2018-11-13T15:20:25.279Z
+
+
+### Can reproduce.
+Can reproduce, I get disconnected. Sony Xperia Z2, Android 6.0.1 - Alpha 7.9.0
+
+Maxwell#0165 - Bug Bot on 2018-11-13T15:20:31.043Z
+
+
+### Can reproduce.
+Not only you get disconnected, but you appear as if you were still connected to the starting voice channel after being moved. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.9.0
+
+coolalmostchilly#0525 - Bug Bot on 2018-11-13T15:20:35.284Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.9.0
+
+Hole#0001 - Bug Bot on 2018-11-13T21:02:55.112Z
+
+
+### verified, android 7.0, alpha 7.9.0, samsung s6 edge - Clayton on 2018-11-14T02:33:06.660Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-14T02:33:18.324Z
+
+
+### Can reproduce.
+CR. 7.9.0 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9566 - Bug Bot on 2018-11-14T04:54:02.359Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.9.0
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-14T09:32:20.686Z
+
+
+### Archived by Bug Bot on 2018-12-14T10:00:02.758Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,94 @@
+[Archived] Using alt + arrow down key in DM list, the highlight goes out of visible part of screen (https://trello.com/c/qBnii0sa)
+
+P3: Will get fixed eventually,
+Mid,
+Client side
+
+Created: 2018-03-04T13:17:06.265Z
+Latest Update: 2019-01-01T15:44:43.402Z
+
+Reported by Eagler1997#7990
+
+####Steps to reproduce:
+- go to your friends list, select any friend, does not matter what position
+- use alt + down arrow to scroll down in your friends list 
+- keep alt button pressed and use the arrow key to scroll down, some users need to do it fast others slow
+- After 10 - 15 Friends this bug happens, the first friends all work fine.
+- watch as how the selector goes down and scroll past the boundaries of the visible part of the screen
+
+####Expected result:
+The friendlist scrolls down when reaching the last visible person on your friends list
+####Actual result:
+the selector goes outside of the visible area, and it select a friend that is currently not visible for you
+####Client settings:
+Discord canary - Build number: 11585
+####System settings:
+windows 10 1709 x64, Acer aspire VX,  Discord canary - Build number: 11585
+
+9332
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-04T13:17:06.265Z
+
+
+### Eagler1997#7990 - undefined added by Bug Bot on 2018-03-04T13:17:08.624Z
+
+
+### Can reproduce.
+for some reason it happens but not immediately, Windows 10 Pro x64 v1709 (Canary build 11585)
+
+TimThe#1118 - Bug Bot on 2018-03-04T13:17:13.567Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary Build 11585
+
+RME#3050 - Bug Bot on 2018-03-04T13:17:18.713Z
+
+
+### Can reproduce.
+CR, but happens when clicking fast, Discord Canary build 11585, Windows 10 Pro x64 v1709
+
+Elix 🍭#6969 - Bug Bot on 2018-03-04T13:17:23.605Z
+
+
+### Can reproduce.
+CR when holding down for about 10-15 friends Windows 10 1709 x64, Canary build 11585
+
+AEnterprise#4693 - Bug Bot on 2018-03-04T13:18:10.726Z
+
+
+### Can reproduce.
+CR when pressing Down key fast, does not happen on slow clicking Windows 10 Home, Discord Stable, Build Number: 11332
+
+WarGamer#0302 - Bug Bot on 2018-03-04T15:05:18.485Z
+
+
+### https://www.youtube.com/watch?v=AExc9sxgOoM - https://www.youtube.com/watch?v=AExc9sxgOoM added by Tarek on 2018-03-04T15:07:46.140Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-03-05T19:46:08.574Z
+
+
+### Verified and minor. - Jared on 2018-03-05T19:46:16.012Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T06:08:19.532Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T06:08:25.821Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:44:40.058Z
+
+
+### Archived by Tarek on 2019-01-01T15:44:43.403Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

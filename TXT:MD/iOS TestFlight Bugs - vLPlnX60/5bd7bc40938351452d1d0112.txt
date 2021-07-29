@@ -1,0 +1,126 @@
+[Archived] When using an voice channel invite link to a server you're in, it doesn't put you in the voice channel, and you're unable to see any of the messages in the top channel (https://trello.com/c/cRlbnyKd)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2018-10-30T02:04:48.224Z
+Latest Update: 2019-10-18T01:26:16.438Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Create an invite link to a voice channel for a server you're in 
+- Send the invite in another server or DM so that it isn't in that channel 
+- Completely close and restart the app after going to the second channel 
+- Reopen Discord to the channel where you posted the invite link 
+- Tap on the "Joined" button to enter the server you made the invite for 
+- Observe the server after you get moved to it 
+- Attempt to send a message, and observe what happens 
+- Note: On desktop, you're given the option to load more messages, but that option is missing on iOS
+
+####Expected result:
+You join the voice channel, and see the messages in the top channel
+####Actual result:
+You don't join the voice channel, and the top channel appears blank and you can't load messages, and any messages you send will disappear until you switch channels
+####Client settings:
+TestFlight 2.4.0 (8667)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta 5
+
+22401
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-30T02:04:48.224Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 (dev beta 5) - Testflight 2.4.0 (8667)
+
+Xylium#1480 - Bug Bot on 2018-10-30T02:04:55.693Z
+
+
+### Can reproduce.
+CR, iPhone xr , iPod touch 6th generation , ios 12.0.1 , TestFlight 2.4.0 (8667)
+
+🍂nickWtn🍂#3789 - Bug Bot on 2018-10-30T02:05:00.685Z
+
+
+### Can reproduce.
+Can reproduce. iPhone XS Max, iOS 12.0.1, TestFlight 2.4.0 (8667)
+
+coolalmostchilly#6969 - Bug Bot on 2018-10-30T02:05:05.590Z
+
+
+### Can reproduce.
+Can Reproduce, iPhone 6s, IOS 12.0.1; TestFlight 2.4.0 (8667)
+
+S6out#1111 - Bug Bot on 2018-10-30T07:14:30.733Z
+
+
+### Can reproduce.
+CR, Discord TestFlight 2.4.0 (8667), iOS 12, iPod Touch 6th Gen
+
+rex_-#0206 - Bug Bot on 2018-10-30T13:13:12.643Z
+
+
+### Can reproduce.
+iPhone 5s iOS 12.0.1, Testflight 2.4.0 v8667
+
+Solo#0007 - Bug Bot on 2018-10-30T14:18:17.350Z
+
+
+### Can reproduce.
+iPhone 5s iOS 12.0.1, Testflight 2.4.0 (8667)
+
+Solo#0007 - Bug Bot on 2018-10-30T19:55:00.041Z
+
+
+### Can reproduce.
+i
+
+ButterWaffles#4278 - Bug Bot on 2018-11-01T02:43:52.816Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-11-03T04:28:55.157Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:00:03.897Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.5 (17627) with iPad Pro (11-inch) running iPadOS 13.1.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-10-12T15:58:15.470Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-10-12T15:58:23.641Z
+
+
+### Can't reproduce.
+iPhone 11, iOS 13.2 (dev beta 2) - TestFlight 3.1.5 (17627)
+
+Xylium#5800 - Bug Bot on 2019-10-12T16:16:01.863Z
+
+
+### Can't reproduce.
+CNR, iPhone 7 Plus iOS 13.1.2, TestFlight 3.1.5 (17627)
+
+
+Action Potential#6862 - Bug Bot on 2019-10-13T14:49:03.756Z
+
+
+### Can't reproduce.
+CNR - Can Not Reproduce - iPhone 6s - iOS 13.1.2 - Testflight 3.1.5 (17627)
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-18T01:26:16.027Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-10-18T01:26:16.460Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

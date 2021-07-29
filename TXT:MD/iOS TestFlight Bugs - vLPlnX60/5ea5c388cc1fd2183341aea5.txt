@@ -1,0 +1,76 @@
+On [Non-Face ID] mobile devices, when searching within a discord server using the prompts like "from:", it will work the first time, but if you tap the x to clear the search, the keyboard disappears. (https://trello.com/c/HaRHImma)
+
+None
+
+Created: 2020-04-26T17:23:20.461Z
+Latest Update: 2020-05-04T18:26:30.201Z
+
+Reported by PrismFox#8986
+
+####Steps to reproduce:
+- Launch Discord Mobile 
+- Go to one of your Servers 
+- Go to one of the channels within that server 
+- Click the search magnifying glass in the top right of the screen 
+- Click the prompt "from:" or any other prompts, and perform a search 
+- Tap the clear search X on the top of the screen 
+- A search now cannot be completed, an you must cancel to return
+
+####Expected result:
+After Step 5, your keyboard should disappear to show you search results. However, after step 6, the keyboard should return.
+####Actual result:
+After Step 5, your keyboard does disappear to show you search results. However, after step 6, the keyboard does not return, leaving you no way to perform a new search.
+####Client settings:
+iOS version 17.0
+####System settings:
+iPhone SE (first generation, not the brand new SE), iOS 13.3.1
+
+54892
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-26T17:23:20.461Z
+
+
+### Jiralite#1207 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ea5c388cc1fd2183341aea5/53b6bf373c77b531f177d95828d8a5bd/rDMkuMi.png added by Bug Bot on 2020-04-26T17:23:23.699Z
+
+
+### Can reproduce.
+CR iPhone 8 Plus, TestFlight 18.0 (19599), iOS 13.4.1
+
+Riley#7898 - Bug Bot on 2020-04-26T17:23:28.013Z
+
+
+### Can reproduce.
+TL;DR is that there is an non-tappable area in the search bar, with a bigger area the smaller the device. See attachment for the area on an iPhone 7: iOS 13.4.1; TestFlight 18.0 (19599). Can also reproduce iPad 7: iPadOS 13.4.1; TestFlight 19.0 (19670) which in turn has a much smaller non-tappable area.
+
+Jiralite#1207 - Bug Bot on 2020-04-26T17:23:33.422Z
+
+
+### Can reproduce.
+can reproduce iPad Air iPadOS 13.4.1 TestFlight 19.0 (19670)
+
+binchlord#0998 - Bug Bot on 2020-04-26T17:23:38.028Z
+
+
+### Can reproduce.
+iPod Touch 6th Generation, iOS 12.4.6, TestFlight 20.0 (19727)
+
+Ult1mat3#3358 - Bug Bot on 2020-04-29T09:32:48.663Z
+
+
+### Moved from New Issues to Random Polish Items by Fanghao on 2020-05-01T23:17:12.685Z
+
+
+### Can reproduce.
+iPhone 7+, iOS 13.4, Discord TF 20.0 (19727)
+
+Airbus A330-200#0001 - Bug Bot on 2020-05-04T18:26:30.212Z
+
+List
+====
+Random Polish Items
+
+Members
+=======
+None

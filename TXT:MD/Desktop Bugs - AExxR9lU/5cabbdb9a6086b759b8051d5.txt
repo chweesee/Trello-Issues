@@ -1,0 +1,149 @@
+[Archived] Role menu stays open for a few seconds after closing server settings (https://trello.com/c/fQ0YpGqG)
+
+None
+
+Created: 2019-04-08T21:31:37.892Z
+Latest Update: 2019-09-09T14:01:19.767Z
+
+Reported by TheForbiddenAi#7549
+
+####Steps to reproduce:
+- Go to server settings 
+- Go to the members tab 
+- Click on +(number) at the end of their roles (must have enough roles that it shows the +) 
+- In that menu click the plus to add roles 
+- Click the x at the top to close server settings 
+- Observe how the menu that lists the roles shows for a couple seconds 
+- NOTE: If you are quick enough and hit the + button before the menu closes it stays open, however if you remove a role it will work but the role will not be removed from the menu
+
+####Expected result:
+The menu should close at the same time the other menus close
+####Actual result:
+The menu stays open for a couple seconds after the other menus close
+####Client settings:
+Canary 35116
+####System settings:
+Windows 10 Home x64 (1809)
+
+32339
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-08T21:31:37.892Z
+
+
+### TheForbiddenAi#7549 - https://i.imgur.com/NR9a6rj.gifv added by Bug Bot on 2019-04-08T21:31:40.559Z
+
+
+### Can reproduce.
+Windows 10 Pro x32, Canary 35116
+
+Karasu#0013 - Bug Bot on 2019-04-08T21:31:45.572Z
+
+
+### Can reproduce.
+CR - Canary, Build Number: 35116, Windows 10 x64
+
+arturyepak#0001 - Bug Bot on 2019-04-08T21:31:50.568Z
+
+
+### Can reproduce.
+CR Windows 10 x64 1809 Canary 35116
+
+Bencey_#8587 - Bug Bot on 2019-04-08T21:31:55.461Z
+
+
+### arturyepak#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cabbdb9a6086b759b8051d5/cd88127fede7728ee8da091c6789fc49/517672ce2ffd2724ea51692f26bb3946.gif added by Bug Bot on 2019-04-08T21:31:57.904Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1809 , Canary 35116 Host 0.0.234
+
+anonymous kitten#5379 - Bug Bot on 2019-04-08T22:00:38.165Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 35116
+
+Delite#0001 - Bug Bot on 2019-04-08T22:10:51.046Z
+
+
+### Can reproduce.
+CR; W10 Home x64, 1809 17763.379, Canary 35116
+
+c1#1337 - Bug Bot on 2019-04-08T22:26:12.584Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 35116
+
+Clay#0001 - Bug Bot on 2019-04-08T22:43:16.385Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 35116
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-09T00:25:00.158Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 ~ Chrome 72.0.3626.122 (x64) ~ Canary 35116
+
+Casper#9999 - Bug Bot on 2019-04-09T06:12:22.182Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.234 Build 35301
+
+Daffyduck#5364 - Bug Bot on 2019-04-09T08:08:17.425Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 35116
+
+Killtracity#0001 - Bug Bot on 2019-04-09T10:24:41.864Z
+
+
+### Can reproduce.
+openSUSE Tumbleweed, Canary 35301
+
+voldemort#6931 - Bug Bot on 2019-04-09T10:44:38.320Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 35116
+
+Lily#2624 - Bug Bot on 2019-04-09T11:17:59.467Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 35334
+
+Rage#9991 - Bug Bot on 2019-04-10T13:44:27.454Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 35470 (Host 0.0.234)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-11T15:59:16.551Z
+
+
+### Cannot reproduce with MacBook Pro 13" (2016) running macOS Mojave 10.14.6 and Canary Build 43372
+
+Moving to Cannot Reproduce list.
+
+Also that would probably be too minor of an issue to dedicate resources fixing it. - Pascal on 2019-08-10T13:51:10.437Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Pascal on 2019-08-10T13:51:31.631Z
+
+
+### Archived by Bug Bot on 2019-09-09T14:01:19.837Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,100 @@
+[overlay] Voice chat icon on servers stays after reload (https://trello.com/c/vOdIqS49)
+
+None
+
+Created: 2019-04-22T05:57:19.608Z
+Latest Update: 2019-05-06T14:05:48.040Z
+
+Reported by evilpauwse#9985
+
+####Steps to reproduce:
+- Have game activity enabled  
+- Open overlay in game 
+- Click on the vc icon in the top right 
+- Notice the vc icon in the server 
+- Reload discord 
+- Open overlay again and notice the icon for the voice chat is still there on the server.
+
+####Expected result:
+The icon on the server should be removed as you reloaded discord
+####Actual result:
+The icon is still there
+####Client settings:
+Canary 36128
+####System settings:
+Windows 10 x64 Education
+
+33143
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-22T05:57:19.608Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 36128
+
+Alipoodle#5025 - Bug Bot on 2019-04-22T05:57:27.039Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Discord Canary 36128
+
+jedi3#0001 - Bug Bot on 2019-04-22T05:57:31.990Z
+
+
+### Can reproduce.
+Canary: 36128, Host 0.0.234, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-04-22T05:57:36.993Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.234 Build 36132
+
+Daffyduck#5364 - Bug Bot on 2019-04-22T11:29:19.211Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit build 1803, Discord Canary 36128
+
+Andeh#0001 - Bug Bot on 2019-04-22T15:43:27.959Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 36203
+
+Neiron#8475 - Bug Bot on 2019-04-23T12:51:16.097Z
+
+
+### Can't reproduce.
+CNR Win10 64x (1809), Discord Canary 36442
+
+Alipoodle#5025 - Bug Bot on 2019-04-26T21:47:03.743Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-04-28T17:02:29.007Z
+
+
+### Cannot reproduce on Canary 37031, Windows 10 Home 64-bit (v1809).
+
+Moving to Cannot Reproduce. - Ene on 2019-05-05T21:27:37.746Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Ene on 2019-05-05T21:27:41.321Z
+
+
+### This bug no longer exists due to the fix of : https://trello.com/c/bHQeBjq4
+Ghoul asked for this bug to be added as well due to it being a stuck item.
+Image: https://puu.sh/DoASc/c918dcbc7e.png
+Message Link: https://canary.discordapp.com/channels/197038439483310086/420995378582913030/569595913849536562
+
+Alipoodle#5025 - Bug Bot on 2019-05-06T14:05:48.050Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

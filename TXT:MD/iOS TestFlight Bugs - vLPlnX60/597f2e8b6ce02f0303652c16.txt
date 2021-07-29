@@ -1,0 +1,107 @@
+[Archived] The "Display Images, Videos, and Lolcats," and "Link Preview" settings do not save if you disable them after closing Discord. (https://trello.com/c/clkHitvr)
+
+P2 - Can wait a while
+
+Created: 2017-07-31T13:20:11.689Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by kayygee#0001
+
+####Steps to reproduce:
+- Open User Settings 
+- Open Text&Images 
+- Disable every option in that panel 
+- Tap 'Back' 
+- Tap 'Text&Images' to verify that the changes were saved 
+- Close out the app from your background 
+- Reopen Discord 
+- Open User Settings 
+- Open Text&Images
+
+####Expected result:
+Your previous settings were saved (everything disabled)
+####Actual result:
+The first three options enable themselves again.
+####Client settings:
+Mobile, iOS 1.8.8
+####System settings:
+iPhone 7+, 10.3.3
+
+2708
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-31T13:20:11.689Z
+
+
+### Can reproduce.
+Can Repro,  iOS 11 Beta Public 2, Iphone SE, but it isn’t the first three options. The first is still off while the subsequent 3 are on.
+
+eltontay11#1384 - Bug Bot on 2017-07-31T13:20:19.159Z
+
+
+### Can reproduce.
+Can repro, only the first and the last option is saved,  iOS 10.3.3, iPhone 6s
+
+Nelson1348#9190 - Bug Bot on 2017-07-31T13:20:24.064Z
+
+
+### Can reproduce.
+Can repro  Iphone SE iOS 10.3.2, 1.8.8 , only happens with the first tree
+
+TimThe#7618 - Bug Bot on 2017-07-31T13:20:29.065Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 11 beta 4, TF 1.8.9
+
+Tiemen#0107 - Bug Bot on 2017-07-31T13:22:03.436Z
+
+
+### Can reproduce.
+Android 5.1, Discord 4.0.2 (401)
+
+PLAYER_CHAR#2874 - Bug Bot on 2017-07-31T14:25:13.064Z
+
+
+### Happens on Android too. You need to enable sync in settings and reload the app at least 2 times. Is this a server-side bug?
+
+PLAYER_CHAR#2874 - Bug Bot on 2017-07-31T14:27:05.353Z
+
+
+### Verified.  - Clayton on 2017-08-02T21:47:09.487Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-02T21:47:13.933Z
+
+
+### Can no longer reproduce. TF 1.9.1 iPhone 5S - Mike Nisbet on 2017-10-01T16:35:57.634Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Mike Nisbet on 2017-10-01T16:36:01.576Z
+
+
+### I am unable to reproduce, all options stay disabled 
+
+Discord 1.9.3, iOS 11.0.3, iPhone 8 Plus
+ - Alexandru Todea on 2017-10-21T11:08:12.385Z
+
+
+### Cannot reproduce, marking as Verified Fixed - Jared on 2017-10-25T19:54:07.299Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-10-25T19:54:09.912Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:18:21.084Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:18:26.088Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

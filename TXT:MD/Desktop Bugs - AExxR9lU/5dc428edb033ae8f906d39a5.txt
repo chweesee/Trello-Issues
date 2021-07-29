@@ -1,0 +1,107 @@
+Tapping the three dots to edit a message that contains enough embeds that the single message takes up more space than you can view on the screen causes chat to scroll down to the bottom of the message, moving the message content that you are editing off of the screen (https://trello.com/c/76jw0E2P)
+
+None
+
+Created: 2019-11-07T14:23:41.316Z
+Latest Update: 2020-07-16T21:26:05.533Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Send a message with multiple embeds, long enough that you cannot fit the full message on the screen, 3+ trello links works 
+- Tap the three dots and hit edit
+
+####Expected result:
+The chat should remain stationary so that the message content you are editing remains on the screen, or scroll up as editing with the up arrow key does to ensure that the message content is at the top of the screen
+####Actual result:
+The chat scrolls down and prevents you from seeing the message you are editing
+####Client settings:
+Desktop Canary 48769
+####System settings:
+Dell Inspiron Windows 10
+
+47355
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-07T14:23:41.316Z
+
+
+### Can reproduce.
+Can Reproduce on Discord Canary 48769, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2019-11-07T14:23:48.966Z
+
+
+### Can reproduce.
+CR: Windows 10 pro 1903 - Discord Canary 48796
+
+Pixel#9367 - Bug Bot on 2019-11-07T14:23:54.016Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64: 1903, 48796
+
+Sanjay#0540 - Bug Bot on 2019-11-07T14:23:58.971Z
+
+
+### Can reproduce.
+CR: Windows 10 Pro 1903, Discord Canary 48769
+
+Rex#2222 - Bug Bot on 2019-11-07T15:26:30.226Z
+
+
+### Can reproduce.
+Windows 10 Pro 1903 x64 - Canary 48769
+
+npm#0001 - Bug Bot on 2019-11-07T15:56:13.415Z
+
+
+### Can reproduce.
+CR on MacBook Air (10.15 Catalina); Canary Build 48586
+
+RPS1222#5127 - Bug Bot on 2019-11-07T16:23:11.349Z
+
+
+### Can reproduce.
+CR ~ Windows 10 ~ Canary 48769
+
+Guy293#9782 - Bug Bot on 2019-11-07T16:33:36.204Z
+
+
+### Can reproduce.
+Windows 8.1 Pro 64, Canary 48645
+
+andromeda#9990 - Bug Bot on 2019-11-07T18:01:14.861Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 48769 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-07T18:49:52.977Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 1903, Discord Canary 0.0.258 Build 48875
+
+ryan#0570 - Bug Bot on 2019-11-07T23:59:22.950Z
+
+
+### Can reproduce.
+,Win10 x64, Build Number: 49400
+
+Nedran#4100 - Bug Bot on 2019-11-21T16:26:31.041Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1903) - Discord Canary 50474
+
+Jamalek#0025 - Bug Bot on 2019-11-30T09:21:39.472Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,68 @@
+Up arrow to edit shortcut fails to work after defocusing the chatbox (https://trello.com/c/wdyQ5XOT)
+
+None
+
+Created: 2020-02-03T16:02:08.224Z
+Latest Update: 2020-07-16T21:26:06.077Z
+
+Reported by Archie#0002
+
+####Steps to reproduce:
+- Send any message. 
+- Defocus the message box. 
+- Refocus on the client/chat window. 
+- Press the up arrow.
+
+####Expected result:
+The most recent message is opened to edit.
+####Actual result:
+Up/Down arrow key now scroll through the chat, the chat box must be refocused before using up arrow to edit.
+####Client settings:
+Canary 53762
+####System settings:
+Windows 10 x64 (1903)
+
+52290
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-03T16:02:08.224Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909 - Discord Canary 0.0.259 Build 53762
+
+Daffyduck#5364 - Bug Bot on 2020-02-03T16:02:15.806Z
+
+
+### Can reproduce.
+Windows 10, x64 | Discord Canary 53762
+
+light#3239 - Bug Bot on 2020-02-03T16:02:20.788Z
+
+
+### Can reproduce.
+CR Canary 53762 (cf7e417)
+Host 0.0.259
+Windows 10 64-Bit (10.0.17763)
+
+WaluigiBot15.0#6969 - Bug Bot on 2020-02-03T16:02:25.830Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Canary 53762
+
+Smokepurpp ග#6012 - Bug Bot on 2020-02-03T18:40:16.300Z
+
+
+### Asked and this is an intentional change for A11Y and more: https://i.imgur.com/aDBw2KM.png
+
+Alipoodle#5025 - Bug Bot on 2020-02-03T18:57:36.627Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

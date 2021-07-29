@@ -1,0 +1,80 @@
+Trying to edit an application with an unverified email opens red error boxes with no text (https://trello.com/c/6Czzxmdv)
+
+None
+
+Created: 2019-01-26T09:53:51.307Z
+Latest Update: 2019-08-24T03:48:17.619Z
+
+Reported by ginkoid#8888
+
+####Steps to reproduce:
+- Go to the developer console (https://  / developers / applications) 
+- Create an application 
+- Go to the main app, and change your email, but don't verify your new email 
+- Go back to the developer portal, and try to edit something, like regenerate your client secret 
+- A red empty error message box should open
+
+####Expected result:
+An error box with some text like "You need to verify your account to perform this action"
+####Actual result:
+An empty red error box
+####Client settings:
+There's no version in the console, so the canary developer portal on 2019-01-26
+####System settings:
+Chrome Stable 71.0.3578.98, Windows Home 1809
+
+27069
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-26T09:53:51.307Z
+
+
+### Can reproduce.
+Can reproduce; Firefox browser Version 64.0.2 (64-bit), Windows 7 (Discord Canary 31316, Windows 7 64-bit)
+
+Skyla#7948 - Bug Bot on 2019-01-26T09:53:58.625Z
+
+
+### Can reproduce.
+Can reproduce; Firefox browser Version 64.0.2 (64-bit), Windows 7 (Discord Canary 31316, Windows 7 64-bit)
+
+Akihiro#9422 - Bug Bot on 2019-01-26T09:54:03.695Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Pro x64 (1809) - Firefox 64.0.2 (64-bit) - Canary 31316
+
+Jengas#7777 - Bug Bot on 2019-01-26T09:54:08.690Z
+
+
+### Can reproduce.
+Can reproduce; Chrome Version 71.0.3578.98 (Official Build) (64-bit), Windows 10 (Discord Canary 31316)
+
+davfsa#7026 - Bug Bot on 2019-01-26T10:13:53.138Z
+
+
+### Can reproduce.
+CR, macOS 10.14.3, Chrome 71.0.3578.98, Canary  31316
+
+Action Potential#2494 - Bug Bot on 2019-01-26T14:29:55.583Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE (11.6") - Chrome OS 71.0.3578.127 (64-bit) - Web Canary 31974
+
+Casper#9999 - Bug Bot on 2019-02-09T08:28:20.883Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 44396; Google Chrome 76.0.3809.100
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-24T03:48:17.632Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

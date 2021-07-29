@@ -1,0 +1,110 @@
+[Archived] When you move the cursor to the other side of the number in the enter 2FA field of the login page and hit backspace, the cursor jumps to the box to the right of the box you were in. (https://trello.com/c/JQKXluOx)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2019-02-17T18:19:58.656Z
+Latest Update: 2019-03-23T00:30:06.110Z
+
+Reported by The Lunala#7777
+
+####Steps to reproduce:
+- Enabled 2FA on your account. 
+- Logout. 
+- Login again. 
+- After entering the password and clicking login, you'll be taken to the 2FA code page. 
+- Start filling in random numbers in the boxes (don't fill all 6; fill maybe like 3 to 4). 
+- Now, move the cursor to the other side of the box (i.e If the cursor is on the the right side of the number in the box, move it to the left of the number but keep it in the same box. 
+- Hit backspace.
+
+####Expected result:
+The numbers to the left of the cursor is deleted (i.e. the number in the box left of the box you selected).
+####Actual result:
+The cursor jumps to the box right of the box you selected.
+####Client settings:
+Discord Alpha 848
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+29085
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-17T18:19:58.656Z
+
+
+### Can reproduce.
+Discord Alpha 8.4.8, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2019-02-17T18:20:06.351Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 8.4.8
+
+TheFutureKnight#7664 - Bug Bot on 2019-02-17T18:20:11.102Z
+
+
+### Can reproduce.
+CR Asus Zenfone max pro m1 Android 8.1.0, alpha 848
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-17T18:20:16.052Z
+
+
+### Can reproduce.
+CR. Alpha 8.4.8G Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-02-17T18:28:00.509Z
+
+
+### Can reproduce.
+Samsung Galaxy S9+ Android 9.0 8.4.8
+
+Zacatero#0001 - Bug Bot on 2019-02-18T03:08:04.121Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 848
+
+charleskimbac#6492 - Bug Bot on 2019-02-18T06:44:48.602Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H, Discord Alpha 8.4.8
+
+Defracted#1337 - Bug Bot on 2019-02-18T16:00:59.938Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.4.8
+
+Skyla#7948 - Bug Bot on 2019-02-18T16:04:31.056Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.4.8
+
+Lily#2624 - Bug Bot on 2019-02-18T21:24:40.725Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 9 (Pie),Discord Alpha 8.4.8
+
+Octillion#6666 - Bug Bot on 2019-02-18T22:33:47.577Z
+
+
+### minor - Clayton on 2019-02-21T00:25:26.804Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-21T00:25:31.905Z
+
+
+### Archived by Bug Bot on 2019-03-23T00:30:06.126Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

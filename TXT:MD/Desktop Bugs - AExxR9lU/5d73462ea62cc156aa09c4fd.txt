@@ -1,0 +1,120 @@
+Putting "`_`" before an emoji with an "`_`" in the name will cause it to act as if you put a "`\`" instead. (https://trello.com/c/brgWPehI)
+
+None
+
+Created: 2019-09-07T05:54:54.239Z
+Latest Update: 2020-07-16T21:26:05.060Z
+
+Reported by Scrumpy#0200
+
+####Steps to reproduce:
+- Have an emoji with an "`_`" at the end of the name, like "`:emoji_:` 
+- Type "`_:emoji_:`"  
+- Observe
+
+####Expected result:
+You get `_(The emoji)`
+####Actual result:
+You get `<:emojiname:emojiid>`
+####Client settings:
+Canary Build: 44946
+####System settings:
+Windows 10 x64
+
+43472
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-07T05:54:54.239Z
+
+
+### Can reproduce.
+Can repro; Windows 7 x64 build 7601 SP1 Canary 44946. emoji needs to have `_` at the END of its name, not anywhere else
+
+Flamenate™#1940 - Bug Bot on 2019-09-07T05:55:01.915Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home Version 10.0.17763 Build 17763, Canary 45212
+
+Ice#9999 - Bug Bot on 2019-09-07T05:55:06.845Z
+
+
+### Can reproduce.
+CR, Ubuntu 19.04, PTB 45283
+
+Action Potential#6862 - Bug Bot on 2019-09-07T05:55:11.853Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro Retina 13" // macOS Sierra 10.12.6 // Canary 45283
+
+xTeal#7702 - Bug Bot on 2019-09-07T07:01:22.324Z
+
+
+### Can reproduce.
+CR Windows 10 Professional,Canary 45283
+
+(On holiday)Typhoon#1337 - Bug Bot on 2019-09-07T09:34:04.727Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Discord Canary 45283
+
+TBS | Best_Pro#7066 - Bug Bot on 2019-09-07T10:41:27.359Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10, Host 0.0.257, Canary Build 45283
+
+binchlord#0998 - Bug Bot on 2019-09-07T12:57:12.059Z
+
+
+### Can reproduce.
+Windows 10 pro 1903, canary 45283
+
+Drachenfrucht1#4901 - Bug Bot on 2019-09-07T13:10:58.508Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 1809, Canary 45283
+
+Alex33856#4192 - Bug Bot on 2019-09-07T17:23:02.848Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 45283 host 0.0.257
+
+Jean20B#4668 - Bug Bot on 2019-09-07T17:39:45.395Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 45283 (Host 0.0.257)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-07T17:42:09.742Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 45244
+
+B.O.S.S#0251 - Bug Bot on 2019-09-07T19:50:57.812Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1903 - Canary 45283
+
+anonymous kitten#3732 - Bug Bot on 2019-09-07T23:01:26.067Z
+
+
+### Can't reproduce.
+Windows 10, Canary 45325
+
+Gugu72#2059 - Bug Bot on 2019-09-08T11:43:10.335Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

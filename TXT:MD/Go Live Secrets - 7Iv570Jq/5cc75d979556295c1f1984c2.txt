@@ -1,0 +1,91 @@
+[Overlay] A small ticket of stuff I had found during the testing period on overlay to look at once overlay is considered (https://trello.com/c/SnVRcUb0)
+
+None
+
+Created: 2019-04-29T20:24:55.219Z
+Latest Update: 2019-06-17T22:01:10.014Z
+
+Bugs (Updated 2019-06-10)
+====
+
+**Short Description:** [Overlay] New Messages overlaps Go Live / Invite Bar
+**Steps to reproduce:**
+- Open a Game with overlay
+- Go to Go Live Server / Have a game with Invites to show the game bar at the bottom of the Channel list
+- Have a server with new Unread messages below the current view of the channel list.
+**Expected Results:** New unread messages pop-up comes up above the game bar as in Desktop client
+**Actual Results:** The unread message popup displays on top of the Game bar
+**System Settings:** Win10 64x (1903)
+**Client Settings:** Canary 39387
+:paperclip: https://puu.sh/DEccG/2f0428b73f.png
+
+-----------------------------------------------------------------------------------
+
+**Putting in here now without much of reproducing steps due to no knowledge of what it is**
+
+**Short Description:** [Overlay] Streaming Controls and the `Go Live` bar in channel list fail to show sometimes
+**Steps to reproduce:**
+(Unknown)
+While it's unknown I believe it has to do with what channel is considered active in the main client at the moment, were if Go Live server is on it will provide the controls correctly, however it it's not it won't show correctly.
+**Expected Results:** Go Live / Streaming controls show successfully when in this server.
+**Actual Results:** Go Live / Streaming controls don't show.
+**System Settings:**  Win10 64x (1903)
+**Client Settings:** Canary 39387
+
+--------------------------------------------------------------------------------------
+
+**Short Description:** [Overlay] The bar for the game with the start stream button is cut off (Electron 6 Bug)
+**Steps to reproduce:**
+- Be in the Go Live server
+- Make channel list smaller than the total number of channels
+- Notice Live bar
+**Expected Results:** It's fully visible
+**Actual Results:** it's cut off
+**System Settings:** Win10 64x 1809
+**Client Settings:** Canary 39387 (0.0.241)
+:paperclip: https://puu.sh/DtCEz/f04a6cc14b.png
+*extension of https://trello.com/c/2saKOU6y*
+
+--------------------------------------------------------------------------------------
+
+**Short Desc:** [Overlay] Clicking a Live voice channel will open a dead chat
+**Steps to reproduce:**
+- Open a game with overlay
+- Go Live
+- Click on the voice channel you are in
+- Notice the Chat window.
+
+**Expected Results:** Nothing
+**Actual Results:** You enter a text channel
+**System Settings:** Win10 64 (1903)
+**Client Settings:** Canary 39387 (0.0.241)
+*extension of https://trello.com/c/sxkEExI4*
+
+---------------------------------------------------------------------------------------
+
+Features/Feedback
+=======
+
+- A widget to view current video from client (Share screen / Go Live)
+- Length of Stream / Other nerdy stats
+- View count + Invite people :heart: *Done*
+
+Card Log
+========
+### Added by Alipoodle on 2019-04-29T20:24:55.219Z
+
+
+### Moved from Bug Reports from Testers! to Feedback! by Alipoodle on 2019-04-29T20:25:22.059Z
+
+
+### the outright bugs (1 & 2) should be fixed; 
+
+for 3/4, it's not a good idea for performance reasons for us to put the video in the overlay on top of your game, so we're nixing that for now. Agreed it would be great to have for the future though - Athena Yao on 2019-05-31T01:37:43.582Z
+
+List
+====
+Feedback!
+
+Members
+=======
+None

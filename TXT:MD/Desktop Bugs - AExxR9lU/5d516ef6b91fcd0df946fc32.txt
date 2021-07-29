@@ -1,0 +1,70 @@
+Specifying invalid timestamp as user activity will lead to a crash upon viewing profile (https://trello.com/c/s08UJ9jx)
+
+P1: Severe,
+Mid
+
+Created: 2019-08-12T13:51:50.367Z
+Latest Update: 2020-05-29T17:47:43.928Z
+
+Reported by O.O. Gold the Dank Meme Lord#4151
+
+####Steps to reproduce:
+- Specify an invalid timestamp on the USER_ACTIVITY payload 
+- Go to the Discord client 
+- Attempt to open profile
+
+####Expected result:
+You should not be crashing
+####Actual result:
+You crash upon opening of the miniprofile or profile
+####Client settings:
+Discord Canary Build 43372 (Host 0.0.252)
+####System settings:
+Windows 10 Home x64 (1803)
+
+41877
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-12T13:51:50.367Z
+
+
+### O.O. Gold the Dank Meme Lord#4151 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d516ef6b91fcd0df946fc32/e7a44f668f19c7357652382208eb4955/9vSfbeC.png added by Bug Bot on 2019-08-12T13:51:53.948Z
+
+
+### Can reproduce.
+Can reproduce on Canary 43372, Windows 10 Pro 64-bit (1903). I'll forward this to the devs later today.
+
+Tarek#1337 - Bug Bot on 2019-08-12T13:51:58.003Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Tarek on 2019-08-12T13:52:16.288Z
+
+
+### Can't reproduce.
+CNR, maybe because it fix, Win, 10 Pro x64, Discord Stable: 50260
+
+NeverCookFirst#5630 - Bug Bot on 2019-11-26T09:29:54.779Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Jixuan Wang on 2020-01-16T22:57:55.316Z
+
+
+### Archived by Bug Bot on 2020-02-15T23:00:33.829Z
+
+
+### Moved from Fix made, not yet released to Notable Issues by Tarek on 2020-05-29T17:42:17.387Z
+
+
+### Unarchived by Tarek on 2020-05-29T17:42:17.584Z
+
+
+### This is still reproducible.  - Tarek on 2020-05-29T17:42:24.002Z
+
+List
+====
+Notable Issues
+
+Members
+=======
+None

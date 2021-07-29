@@ -1,0 +1,71 @@
+[Archived] If you remove the profile picture of a bot through the dev panel while the bot account is offline, the profile picture will remove in chat history but not in profile (https://trello.com/c/1nKP2LoO)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-12T02:35:53.540Z
+Latest Update: 2018-10-22T20:24:53.351Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have a bot with a profile picture set 
+- Have it send a few messages in the channel of your choice 
+- Disconnect your bot and make sure it is completely offline 
+- Go to the Discord developers dashboard, go to the Bot tab, and remove the profile picture of the bot account 
+- Refresh your client to make sure the old profile picture would not stay cached 
+- Open the channel where the bot sent the messages back in step 2. Notice the profile picture is gone 
+- Now open the profile of the bot. Notice the profile picture is still there
+
+####Expected result:
+The profile picture should uniformly appear removed across the client: either both in profile and in chat history, or none of them until the bot goes online
+####Actual result:
+As long as the bot stays offline, it will be in a state where it has no profile picture in the chat history, but keeps it in his profile
+####Client settings:
+Non applicable as it is cross platform. Personally I accessed the dev dashboard on Firefox for Android 61.0.2 and observed the issue in the Android client (Discord Alpha 7.2.9)
+####System settings:
+Huawei Mate 9 Android 8.0
+
+17375
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-12T02:35:53.540Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6f9d09c4e81b546fa254ba/117fe4f9f4ea7e7f9161ab512407ef34/IMG_20180811_175404.jpg added by Bug Bot on 2018-08-12T02:35:56.113Z
+
+
+### Can reproduce.
+Can Reproduce. Already been submitted but has more information. Windows 10 x64. Canary, 21425
+
+Zak - Back 18th#5879 - Bug Bot on 2018-08-12T02:36:00.945Z
+
+
+### Can reproduce.
+Tested on Windows 10 Pro x64, Release Channel: Canary 21691 |  OnePlus 6 (Version 8.1.0) , Alpha 7.2.9
+
+» a r i a#1593 - Bug Bot on 2018-08-12T02:36:06.025Z
+
+
+### Can reproduce.
+Can Reproduce - Could only repro with changing the profile picture, removing it would reflect without refreshing - Canary Build 21691 - Windows 10 x64
+
+Rashaun#9295 - Bug Bot on 2018-08-12T02:36:10.989Z
+
+
+### verified, macos 10.12.6, canary 22283 - Clayton on 2018-08-22T21:32:06.716Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-22T21:32:17.332Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:53.354Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

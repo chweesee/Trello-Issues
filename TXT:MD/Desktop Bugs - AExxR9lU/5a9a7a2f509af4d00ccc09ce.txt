@@ -1,0 +1,90 @@
+[Archived] Question mark on an invite card has a broken link. (https://trello.com/c/ZxxF2wIi)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-03T10:34:23.572Z
+Latest Update: 2018-10-22T20:19:51.130Z
+
+Reported by TsjipTsjip#6474
+
+####Steps to reproduce:
+- Set your language to UK english. (Does not work on US english.)
+
+- Post or find any invite card. 
+
+- Find the question mark in the top right of the card and click it. 
+
+- Observe.
+
+####Expected result:
+A link with information about invite cards is opened.
+####Actual result:
+A nonexistent link is opened.
+####Client settings:
+Release Channel: stable, Build Number: 11517, Version Hash: e85dfc791cee68d15b4537ef8b006f8a28cd264d
+####System settings:
+Windows 10 Home, 1709, 16299.248
+
+9255
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-03T10:34:23.572Z
+
+
+### Can reproduce.
+CR, Win 10 x64, Canary 11517, It seems to work for your local language (ie if your local language was UK English, it wouldn't break) but not if you set your language to something else.
+
+descrates#1000 - Bug Bot on 2018-03-03T10:34:31.005Z
+
+
+### Can reproduce.
+CR for any other language except EnglishUS/UK Win 10 x64 Canary 11514
+
+cutelilberry#5423 - Bug Bot on 2018-03-03T10:34:36.004Z
+
+
+### Can reproduce.
+CR Windows 10 1709 x64, Canary build 11566 , UK doesn't go to the US article even though they are basicaly the same lang
+
+AEnterprise#4693 - Bug Bot on 2018-03-03T10:34:41.000Z
+
+
+### This is in my opinion a valid bug.
+
+If you have English UK enabled the question mark should go to en-us instead of going to en-gb and fail and redirect to an article which is not even translated in the system language.
+
+So to put it in perspective it should go like this:
+`Have English UK enabled -> Click on question mark -> redirect to support article which is the English one (en-us)`
+
+Currently it's just:
+`Have English UK enabled -> Clicking on question mark -> redirect to en-gb which doesn't exist -> redirect to system language -> Doesn't have translated article -> Article not found` - Tarek on 2018-03-04T04:19:36.302Z
+
+
+### Can't reproduce, redirects to en-us article.  - Clayton on 2018-03-06T23:33:44.330Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-03-06T23:33:48.255Z
+
+
+### Doesn't work on UK english but does work on:
+
+Danish German Spanish Italian Dutch Polish Portuguese, Brazilian Swedish Turkish Russian Chinese, China Chinese, Taiwan Korean - Jared on 2018-04-23T20:18:09.600Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2018-04-23T20:18:14.249Z
+
+
+### Dupe of / same root issue as https://trello.com/c/bj8nCENo - Tarek on 2018-07-06T16:51:54.300Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:51.132Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

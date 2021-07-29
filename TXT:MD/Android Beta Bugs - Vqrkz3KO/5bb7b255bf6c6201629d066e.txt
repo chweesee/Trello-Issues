@@ -1,0 +1,66 @@
+[Archived] [Audit Log] setting the welcome message to a channel and deleting the channel afterwards lets the welcome message entry show #null instead of Channel ID (https://trello.com/c/LF8QCBGd)
+
+None
+
+Created: 2018-10-05T18:49:57.502Z
+Latest Update: 2019-06-05T23:47:47.967Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- set the welcome message to a channel 
+- delete that channel 
+- observe welcome message entry in audit log
+
+####Expected result:
+entry should tell us the ID of the channel
+####Actual result:
+it sais: "set the welcome message to #null"
+####Client settings:
+Alpha 7.6.3
+####System settings:
+Samsung Galaxy S5 Mini Android 6.0.1
+
+20676
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-05T18:49:57.502Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.6.3
+
+coolalmostchilly#7777 - Bug Bot on 2018-10-05T18:50:04.918Z
+
+
+### Can reproduce.
+Huawei P20 pro, Android 8.1.0, Alpha 7.6.3 (763)
+
+TimThe#1118 - Bug Bot on 2018-10-05T18:50:09.890Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.6.3
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-05T18:50:14.913Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Clayton on 2018-10-05T22:10:09.137Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-10-08T19:24:11.645Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-03T21:41:56.654Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:47.976Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

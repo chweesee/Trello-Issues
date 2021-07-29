@@ -1,0 +1,82 @@
+[Archived] Error in console after deleting a server (https://trello.com/c/uQPe5DZz)
+
+P2: Fix can wait a while
+
+Created: 2016-12-15T16:19:31.349Z
+Latest Update: 2017-10-17T20:34:51.920Z
+
+Reported by KockaAdmiralac#9306
+
+####Steps to reproduce: 
+- Make a server 
+- Open your console 
+- Delete the server 
+
+####Expected result:
+ Everything is fine 
+####Actual result:
+ Uncaught TypeError: Cannot read property 'scrollToRow' of undefined System Settings: Windows 10 
+####System settings:
+ Windows 10 
+####Client version:
+ Canary (0.0.284)
+
+Card Log
+========
+### Added by Jared on 2016-12-15T16:19:31.349Z
+
+
+### Can reproduce.
+Windows 10, Latest Canary
+
+TheEvilSocks#0023 - Jared on 2016-12-15T16:20:10.829Z
+
+
+### Issue seems minor, the server still gets deleted
+
+TheEvilSocks#0023 - Jared on 2016-12-15T16:20:28.753Z
+
+
+### Can reproduce.
+Latest Canary
+
+LW001#8654 - Jared on 2016-12-15T16:45:55.852Z
+
+
+### As mentioned before, this is a minor bug The channel still gets deleted and the error does nothing to the user.
+
+LW001#8654 - Jared on 2016-12-15T16:47:01.399Z
+
+
+### upload 12/15/2016 at 10:37:58 AM.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5852c293a524543649221c4a/ecd7ce05475a0b1dd6daa80a3ae7b228/upload_12_15_2016_at_10_37_58_AM.png added by Jared on 2016-12-15T18:38:04.058Z
+
+
+### Verified. - Jared on 2016-12-15T18:38:12.910Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-15T18:38:16.106Z
+
+
+### Tested on latest canary as of writing:
+
+I can no longer reproduce this myself. Creating and deleting a server produced no console errors for me after deletion. - Alexander (DJScias) on 2017-04-25T01:38:09.884Z
+
+
+### No error. Verified Fixed. - Jared on 2017-07-28T20:43:59.751Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-28T20:44:03.542Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:34:51.174Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:34:51.922Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

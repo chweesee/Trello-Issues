@@ -1,0 +1,123 @@
+With the left side panel open, while swiping the center panel, there is a column to the right that, if the the user lets go within, the panel will snap to center even though both left and right of it would not (https://trello.com/c/4NQSxxJx)
+
+None
+
+Created: 2020-04-20T11:22:34.941Z
+Latest Update: 2020-04-27T20:14:13.645Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Swipe to open the servers/channels sidepanel on the left side (tabs UI) 
+- Tap and hold the darkened part of the center panel that is visible off to the right 
+- Start to drag the center panel left as if to refocus the chat 
+- Reverse direction, and bring the center panel back to put it back where it began 
+- Right when the panel darkens again, release it. Observe 
+- For context on this behavior, try swiping and releasing at different locations on the screen
+
+####Expected result:
+The center panel's behavior for whether it will snap to center or to the side of the screen should be based on which side of the screen it is on, and it should be consistent throughout each side what will occur
+####Actual result:
+There is a column that does not match the behavior of releasing the panel at points left or right of it, which is inconsistent
+####Client settings:
+Discord 18.0-Alpha12 (1104)
+####System settings:
+Moto G7, Android 9
+
+54904
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-20T11:22:34.941Z
+
+
+### wakfi#6999 - https://youtu.be/zvOLv08Ykgs added by Bug Bot on 2020-04-20T11:22:37.544Z
+
+
+### Can reproduce.
+[CR] Samsung A10 - Android 9 - Discord 18-Alpha12 (1104)
+
+Cookie#3165 - Bug Bot on 2020-04-20T11:22:42.554Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha12 (1104)
+
+Ana940#9858 - Bug Bot on 2020-04-20T11:22:47.644Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord v18.0-alpha12 (1104)
+
+RileyTheSnom#3724 - Bug Bot on 2020-04-20T11:22:52.564Z
+
+
+### Can reproduce.
+Google Pixel 3a, Android 10, Discord 18.0-Alpha12 (1104)
+
+Kana#7086 - Bug Bot on 2020-04-20T13:03:28.823Z
+
+
+### Can't reproduce.
+OnePlus 7T Pro 5G, Android 10, Discord 19.0 (1105)
+
+AngelPrints#0001 - Bug Bot on 2020-04-20T18:55:41.644Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Donald Chen on 2020-04-20T22:45:39.180Z
+
+
+### This should be fixed in an alpha / beta build later this week. - Donald Chen on 2020-04-20T22:45:54.090Z
+
+
+### Can't reproduce.
+[CNLR] Moto G7, Android 9, Discord 19.0 (1105)
+
+wakfi#6999 - Bug Bot on 2020-04-20T22:50:11.421Z
+
+
+### Can reproduce.
+Samsung A50, Android 10, Discord 19.2
+
+ConnectedR#8972 - Bug Bot on 2020-04-21T21:17:23.451Z
+
+
+### Can't reproduce.
+Samsung A50, Android 10, Discord 19.2 - Disregard my previous canrepro
+
+ConnectedR#8972 - Bug Bot on 2020-04-21T21:36:33.082Z
+
+
+### Can't reproduce.
+[CNLR] Samsung Galaxy S9+, Android 10, Discord 19.5
+
+Creedoo#3626 - Bug Bot on 2020-04-26T17:30:43.693Z
+
+
+### Can reproduce.
+CSR, Discord 19.5 (1116), Samsung Galaxy A70, Android 10
+
+Ana940#9858 - Bug Bot on 2020-04-27T18:52:38.000Z
+
+
+### Can reproduce.
+[CSR] Moto G7, Android 9, Discord 19. 5 (1116)
+
+wakfi#6999 - Bug Bot on 2020-04-27T20:02:35.710Z
+
+
+### Can reproduce.
+[CSR] Samsung Galaxy S9+, Android 10, Discord 19.5
+
+Creedoo#3626 - Bug Bot on 2020-04-27T20:14:13.233Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2020-04-27T20:14:13.656Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/donaldchen13) - No Bio

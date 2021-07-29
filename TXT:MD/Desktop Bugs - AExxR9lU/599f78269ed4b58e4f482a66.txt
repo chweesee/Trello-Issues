@@ -1,0 +1,92 @@
+[Archived] If you don't have permission to generate an invite link to the default channel the "Invite people" modal will load forever (https://trello.com/c/wtV4fWt7)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-25T01:06:47.005Z
+Latest Update: 2019-01-20T00:30:24.788Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Create 2 channels 
+- Put a channel at the top 
+- Revoke "Generate invite links" permission on the top channel 
+- Allow "Generate invite links" permission on the second channel 
+- Click on the server name then "Invite People"
+
+####Expected result:
+It should generate an invite link to the second channel since you have permission to do
+####Actual result:
+The window will just load forever and you will get "Missing access" errors in the console
+####Client settings:
+Discord Canary 0.0.163 (Build 3571)
+####System settings:
+Windows 10 Pro 64-bit (Build 1607)
+
+3586
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-25T01:06:47.005Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599f78269ed4b58e4f482a66/7c45324b25eb3b51662d69a03f49a7cf/Qvz17VZ.png added by Bug Bot on 2017-08-25T01:06:49.816Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154 (Build 3609), macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-08-25T01:06:54.756Z
+
+
+### Can reproduce.
+Discord Canary 0.0.154, MacOSX Sierra 10.12
+
+IcyPebbles#5833 - Bug Bot on 2017-08-25T01:06:59.566Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 1607, Discord Canary 0.0.163
+
+Chester#2084 - Bug Bot on 2017-08-25T01:07:04.556Z
+
+
+### Verified.  - Clayton on 2017-08-25T01:41:13.564Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-25T01:41:26.661Z
+
+
+### I cannot reproduce this anymore on Canary 13405 with the new invite modal, moving to claimed fixed - Tarek on 2018-04-12T06:17:36.725Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-04-12T06:17:41.563Z
+
+
+### Bug seems to be back on build 13990, reopening ticket.  - Tarek on 2018-04-22T04:01:06.913Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-04-22T04:01:12.491Z
+
+
+### can no longer reproduce - Clayton on 2018-10-03T03:19:21.294Z
+
+
+### Moved from Reopened to Verified Fixed by Clayton on 2018-10-03T03:19:27.237Z
+
+
+### Can reproduce.
+Mac OSX 10.14.3 Public Beta 1
+
+GamerPvPOfficial#0001 - Bug Bot on 2018-12-21T00:21:53.686Z
+
+
+### Archived by Bug Bot on 2019-01-20T00:30:24.791Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

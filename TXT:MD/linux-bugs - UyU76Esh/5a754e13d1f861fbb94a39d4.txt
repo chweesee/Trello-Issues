@@ -1,0 +1,99 @@
+In GNOME 3 notifications, single quotes are replaced with their HTML entity (&#39;) (https://trello.com/c/T8Cqp1Wd)
+
+P2: Can wait awhile,
+high
+
+Created: 2018-02-03T05:52:19.663Z
+Latest Update: 2019-10-01T14:15:59.967Z
+
+Reported by grantwu#3796
+
+####Steps to reproduce:
+- Have Discord running but not open (switch to a different window) 
+- Receive a PM (or a mention) that has a single quote in it
+
+####Expected result:
+We should receive a GNOME 3 notification with the PM or mention line.
+####Actual result:
+Receive a GNOME 3 notification, but with single quotes replaced with &#39;
+####Client settings:
+Release Channel: stable, Build Number: 9948, Version Hash: 45e33026ec0abdc111e36fa49f032e522ad3934c
+####System settings:
+Ubuntu 16.04.3, with GNOME Shell, version 3.18.5
+
+8311
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-03T05:52:19.663Z
+
+
+### Can reproduce.
+CR, Discord Canary Build 10094, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-02-03T05:52:27.023Z
+
+
+### Can reproduce.
+Discord canary build 10210, Arch Linux kernel 4.14.9-1-ARCH, gnome-shell 3.26.2+9+ga3736d3a3-1
+
+glen3b#9285 - Bug Bot on 2018-02-03T05:52:32.027Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS Gnome Build 10161
+
+Vorisi#6974 - Bug Bot on 2018-02-03T05:52:37.030Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS x64, Canary build 10228
+
+NorbiPeti#1869 - Bug Bot on 2018-02-04T01:04:32.077Z
+
+
+### Can reproduce.
+Arch Linux 4.14.11, gnome-shell 3.26.2, Discord Canary build 10228
+
+Joseph#8035 - Bug Bot on 2018-02-04T18:11:58.235Z
+
+
+### Can reproduce.
+Mint 18.3 With Cinnamon, Discord PTB 10393
+
+Savvy🐺#0001 - Bug Bot on 2018-02-08T21:23:01.008Z
+
+
+### Based on discussion in discord eng - Clayton on 2018-02-14T00:07:40.422Z
+
+
+### Moved from User Reported to Fix made, not yet released by Clayton on 2018-02-14T00:07:44.047Z
+
+
+### Can reproduce.
+Arch Linux 4.15 Discord Canary 13228
+
+Patton#5435 - Bug Bot on 2018-04-05T23:49:08.004Z
+
+
+### Moved from Fix made, not yet released to Discord Verified Bugs by Clayton on 2018-09-29T01:06:51.903Z
+
+
+### Can reproduce.
+Ubuntu 18.04.1 LTS x64, Gnome 3.28.2, Build Number: 30302
+
+Anarchy#4063 - Bug Bot on 2019-01-03T09:49:22.920Z
+
+
+### Can reproduce.
+Fedora 29, gnome-shell 3.30.2, [BUILD INFO] Release Channel: canary, Build Number: 31400, Version Hash: 9faa8eab930ce174119580adc016c1ef82af76ec
+
+Autoclave#2132 - Bug Bot on 2019-01-28T19:25:36.177Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,84 @@
+[Archived] Even if there is no channels in a server, it still allows you to open the invite modal (https://trello.com/c/TBALN7RE)
+
+P3: Will get fixed eventually,
+Low,
+Channel Categories
+
+Created: 2018-04-12T01:00:12.594Z
+Latest Update: 2018-10-22T20:19:35.644Z
+
+Reported by ululu#6460
+
+####Steps to reproduce:
+- Create a server and delete all channels and channel categories. 
+- Use the "invite people" option to open the invite modal.
+
+####Expected result:
+It shouldn't be possible to open the invite modal
+####Actual result:
+It opens up the invite modal with an invite link that displays no invite code, and the friends list remains in a state of perpetual loading.
+####Client settings:
+Release Channel: canary, Build Number: 13405, Version Hash: 7255bb08b4b89ccbb57f00123f777c58532e9b5c
+####System settings:
+Windows 10 Home x64 (Version 1709)
+
+10611
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-12T01:00:12.594Z
+
+
+### mrkirby153#7840 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aceaf9c272b56df43d3e7ec/bcb8c326ce1b51ba9d119716cce0f89e/4vv92.png added by Bug Bot on 2018-04-12T01:00:15.467Z
+
+
+### CP Intermediate#2265 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aceaf9c272b56df43d3e7ec/f90ab9f505a961e84f1a321e24281983/unknown.png added by Bug Bot on 2018-04-12T01:00:15.523Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Stable Build 13346
+
+mrkirby153#7840 - Bug Bot on 2018-04-12T01:00:20.139Z
+
+
+### Can reproduce.
+Can Reproduce: Windows 10 Home, x64, Release Channel: stable, Build Number: 13346
+
+CP Intermediate#2265 - Bug Bot on 2018-04-12T01:00:25.096Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Pro x64, Discord Stable (Build 13346)
+
+Doges#0001 - Bug Bot on 2018-04-12T01:00:30.101Z
+
+
+### I'm very very very doubtful this is even a bug. Since it has never been possible to generate an invite link to a server w/o text channels. 
+
+Waiting for a dev to verify. - Tarek on 2018-04-12T06:05:51.164Z
+
+
+### Ack on this one. The bug here is simply that we allow that modal to open. - Jake Heinz on 2018-04-12T06:33:51.413Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-12T18:02:42.454Z
+
+
+### Verified - Jared on 2018-04-12T18:02:46.522Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17133.1) • Discord Canary 13405 •
+
+ARGNZXT#7919 - Bug Bot on 2018-04-12T22:59:18.394Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:35.650Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,66 @@
+Changing voice region will take a call off speaker in DM calls and cause the speaker button to flicker in server VCs (https://trello.com/c/5TfswlTc)
+
+P3 - Will be fixed eventually
+
+Created: 2019-09-11T12:53:11.861Z
+Latest Update: 2019-09-20T20:54:57.174Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Join a DM call 
+- Put the call on speaker 
+- Have someone change the region of the call
+
+####Expected result:
+There should be no noticeable effects of someone changing the region
+####Actual result:
+The call is taken off speaker when the region is changed in DM calls. In a server VC the speaker button flickers
+####Client settings:
+TestFlight 3.1.2 (17237)
+####System settings:
+iPhone XR iOS 12.4.1
+
+43906
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-11T12:53:11.861Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.4.1, TestFlight 3.1.2 (17237) - In DM calls, I went on desktop to change the region but it does go off speaker. (Difficult on mobile.) In a server VC, if you aren’t the owner, you would need Manage Server (permission) turned on (for a role) in Server Settings to change the region but it goes off speaker also.
+
+.Gloria.#9606 - Bug Bot on 2019-09-11T12:53:19.427Z
+
+
+### Can reproduce.
+CR (Can Reproduce) • iPhone 6s - iOS 12.1.1 - TestFlight 3.1.2 (17237)
+
+Freiik#6666 - Bug Bot on 2019-09-11T12:53:24.458Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.4, TestFlight 3.1.2 (17237)
+
+Ice#9999 - Bug Bot on 2019-09-11T12:53:29.431Z
+
+
+### Can reproduce.
+iPhone 7, iOS 13.1 (Developer Beta 2), TestFlight Build 3.1.2 (17237)
+
+username#6666 - Bug Bot on 2019-09-12T01:02:57.149Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-09-20T19:00:10.529Z
+
+
+### Moved from Backlog to Voice call refresh by Pascal on 2019-09-20T20:54:57.156Z
+
+List
+====
+Voice call refresh
+
+Members
+=======
+None

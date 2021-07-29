@@ -1,0 +1,123 @@
+[Archived] Switching Apperances Can Crash App (https://trello.com/c/jmrczSAz)
+
+None
+
+Created: 2017-07-21T14:49:00.325Z
+Latest Update: 2019-07-26T10:15:44.202Z
+
+Reported by BREEZLET#0926
+
+####Steps to reproduce:
+
+- Ensure Sync in On
+- Force Close app
+- On Desktop change appearance.
+- Launch App
+
+
+####Expected result:
+App should launch normally in the correct theme
+####Actual result:
+App crashes
+####Client settings:
+Discord Beta 1.8.9 (82)
+####System settings:
+iOS 10.3.3, iPad Air (1st Gen)
+
+2389
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-21T14:49:00.325Z
+
+
+### Can reproduce.
+Discord Beta 1.8.9 (82), iOS 10.2, iPad mini 4
+
+Sloofy#9106 - Bug Bot on 2017-07-21T14:49:07.987Z
+
+
+### Can reproduce.
+Discord Beta 1.8.9 (82) iOS 10, iPhone 6
+
+Neko#1281 - Bug Bot on 2017-07-21T14:49:12.950Z
+
+
+### Can reproduce.
+Can Repro, Testflight 1.8.9, iOS 10.3.3, iPhone 6
+
+gustav341#7460 - Bug Bot on 2017-07-21T14:49:17.970Z
+
+
+### Can reproduce.
+discord 1.8.9 (82), iOS 10.3.3, iPhone 6S
+
+rufioh#9358 - Bug Bot on 2017-07-21T14:51:47.155Z
+
+
+### whilst switching themes, the friends page sometimes momentarily flashes on screen even though you haven't left the light/dark themes page (added for rufioh)
+
+TimThe#7618 - Bug Bot on 2017-07-21T14:59:42.109Z
+
+
+### Can't repro crash/delayed switch, but can repro friends page flashing briefly! - Clayton on 2017-08-02T21:35:10.494Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-08-02T21:35:14.658Z
+
+
+### I can reproduce this using the steps provided by QwakGoesDuck#9672: 
+
+- Have discord open on your pc/laptop
+- Make sure it's focused (click on it)
+- On mobile go to settigs > appearance 
+- Make sure Sync across clients is on
+- Swap back and forth between light and dark mode quickly
+
+Discord 1.9.3 (1340), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-28T16:13:22.251Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-10-28T16:13:36.812Z
+
+
+### I have a better repro:
+
+Ensure Sync in On
+Force Close app
+On Desktop change appearance.
+Launch App
+App crashes.
+
+Note: App launches successfully on subsequent launches, unless you change the appearance on desktop again. - Jared on 2017-11-06T22:20:07.077Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-06T22:20:13.225Z
+
+
+### Can't reproduce.
+iPhone 6s with iOS 11.1 & iPad Air 2 with iOS 11.2 PB 1, TestFlight 1.10.0 (1476). Crash got fixed for latest TestFlight version
+
+Pascal#0929 - Bug Bot on 2017-11-06T23:08:11.031Z
+
+
+### Dupe of https://trello.com/c/0MiTeVkT/394-changing-theme-with-other-device-crashes-app - Jared on 2017-11-08T17:34:11.297Z
+
+
+### Archived by Jared on 2017-11-08T17:34:12.573Z
+
+
+### Unarchived by Pascal on 2019-05-29T11:38:10.431Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-05-29T11:38:18.358Z
+
+
+### Archived by Pascal on 2019-05-29T11:38:25.948Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

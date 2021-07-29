@@ -1,0 +1,80 @@
+[Archived] When right clicking on an externally embedded image that's expanded, it will copy the proxy signed URL rather than the original link (https://trello.com/c/m8A4vALG)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-30T03:39:48.335Z
+Latest Update: 2018-10-22T20:26:12.320Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Post a link to an image from a third party, i.e imgur 
+- Open the image with left click 
+- Right click then "Copy link" 
+- Observe the link
+
+####Expected result:
+It should be the imgur link (if you posted one)
+####Actual result:
+It copies the proxy signed URL
+####Client settings:
+Discord Canary 0.0.211 (22791)
+####System settings:
+Windows 10 Pro 64-bit (1803)
+
+18645
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-30T03:39:48.335Z
+
+
+### Tarek#1337 - https://i.imgur.com/vsL77Xp.gifv added by Bug Bot on 2018-08-30T03:39:50.743Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211, Build 22791, Windows 10 Home 64-bit (v1803)
+
+Ene#0808 - Bug Bot on 2018-08-30T03:39:55.622Z
+
+
+### Can reproduce.
+[CR] Windows x64 (1803), Discord Canary 22791
+
+54D#1357 - Bug Bot on 2018-08-30T03:40:00.586Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 22791
+
+Rauf#1234 - Bug Bot on 2018-08-30T03:40:05.587Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary Build 22791
+
+hypecta#6107 - Bug Bot on 2018-08-30T13:09:04.671Z
+
+
+### Can reproduce.
+CR Windows 7 Professional x64, Stable, 22658
+
+Daddy Fallen.exe#0002 - Bug Bot on 2018-08-30T15:12:20.693Z
+
+
+### Verified, minor issue. - Jared on 2018-08-30T21:53:03.422Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-08-30T21:53:14.861Z
+
+
+### Archived by Clayton on 2018-10-22T20:26:12.322Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

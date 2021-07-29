@@ -1,0 +1,82 @@
+[Archived] Trying to view any gif at all just crashes the app (https://trello.com/c/cEr4Ir8h)
+
+None
+
+Created: 2016-12-30T16:09:10.222Z
+Latest Update: 2017-10-30T17:09:56.646Z
+
+Reported by SuperSajuuk#7265
+
+####Steps to reproduce: 
+- Tap any gif to load it. 
+
+####Expected result:
+ the gif is played. 
+####Actual result:
+ Unless the gif is stupidly simplistic, the app just crashes after showing the progress counter. 
+####System settings:
+ iOS 9.3.5 on latest TestFlight
+
+Card Log
+========
+### Added by Jared on 2016-12-30T16:09:10.222Z
+
+
+### Can reproduce.
+iphone 6 latest ios / testflight
+
+harrison#6336 - Jared on 2016-12-30T16:09:10.718Z
+
+
+### Can reproduce.
+iPad Air 2
+
+/dev/null#0012 - Jared on 2016-12-30T16:09:10.727Z
+
+
+### After some testing in the Bug Hunter channel, we narrowed this issue down to being related in some way to GIF length, the file dimensions (eg 1280x720) and possibly some other factor. We determined that the gif's size (ie 5MB) is NOT a factor, as some 9MB animated gif's were not crashing devices due to them being short.
+
+SuperSajuuk#7265 - Jared on 2016-12-30T16:18:10.727Z
+
+
+### Can reproduce.
+iOS 9.3.5
+
+Mine©raftnationx™#3929 - Jared on 2016-12-30T16:44:30.739Z
+
+
+### Can reproduce.
+iOS 10.2 latest TF
+
+Mikesky#3097 - Jared on 2016-12-30T20:08:51.063Z
+
+
+### Cannot reproduce. Attach links to this ticket of gifs that are showing this behavior. - Jared on 2017-01-03T23:52:01.433Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-01-03T23:52:04.971Z
+
+
+### the following gif, when tapping the embedded version, crashes for me on ipad 4th gen, latest build. Going to the gif directly in a web browser on the app does not cause a crash. http://i.thedrutribe.us/b16c8d32.gif
+
+SuperSajuuk#7265 - Bug Bot on 2017-03-26T21:41:55.067Z
+
+
+### Can reproduce.
+iPhone 6 iOS 9.3.2 Discord 1.8.3
+
+Soarnir#0959 - Bug Bot on 2017-04-13T07:21:22.495Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:09:55.334Z
+
+
+### Archived by Jared on 2017-10-30T17:09:56.648Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

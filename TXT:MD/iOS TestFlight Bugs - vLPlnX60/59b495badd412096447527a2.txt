@@ -1,0 +1,88 @@
+[Archived] App crashes when creating an instant invite to the server when no text channels exist (https://trello.com/c/qfdeiZuE)
+
+P2 - Can wait a while
+
+Created: 2017-09-10T01:30:34.155Z
+Latest Update: 2018-02-26T23:57:46.642Z
+
+Reported by XtraFr3ckle#8764
+
+####Steps to reproduce:
+- Create server 
+- Delete auto generated #general text channel 
+- Create second voice channel so that you have two 
+- Tap invite members 
+- Under instant invite, tap channel
+
+####Expected result:
+The app should tell you that you can't create an instant invite when there is not a text channel, as it says on PC.
+####Actual result:
+The app pauses, and then crashes.
+####Client settings:
+Testflight 1.9.1
+####System settings:
+iPhone 6s, iOS 11.0 Beta 10
+
+4072
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-10T01:30:34.155Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 10.3.3, TF 1.9.1(629)
+
+Xur, Agent of The Nine#6761 - Bug Bot on 2017-09-10T01:30:41.636Z
+
+
+### Can reproduce.
+CR, iPhone 6s, iOS 10.3.3, TF 1.9.1
+
+Blizzyrd#7909 - Bug Bot on 2017-09-10T01:30:46.626Z
+
+
+### Can reproduce.
+CR, iPad Air 2, iOS 11, Testflight 1.9.1 (629)
+
+CreeperzEdge#9243 - Bug Bot on 2017-09-10T01:30:51.684Z
+
+
+### Can reproduce.
+CR, iPhone 6S, iOS 9.1, Stable 1.9.0
+
+zjtech123#6743 - Bug Bot on 2017-09-10T20:46:35.765Z
+
+
+### Verified. - Jared on 2017-09-11T22:57:16.425Z
+
+
+### Moved from User Reported Bugs to Channel Category Bugs by Jared on 2017-09-11T22:57:23.997Z
+
+
+### Moved from Channel Category Bugs to Verified Bugs by Jared on 2017-11-07T19:21:46.692Z
+
+
+### The app no longer crashes on 2.2.0, but it still doesn't say that you cannot create an invite if there's no text channels. - Alexandru Todea on 2017-12-16T08:25:51.917Z
+
+
+### I cannot reproduce this issue. I can create an instant invite with any combination of channels, multiple or singular. The only instance I can't create an invite is when there are no channels.
+
+Marking as Verified fixed. - Jared on 2018-01-08T17:28:14.172Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-01-08T17:28:21.655Z
+
+
+### Archiving due to age and no activity. - Mike Nisbet on 2018-02-26T23:57:45.587Z
+
+
+### Archived by Mike Nisbet on 2018-02-26T23:57:46.643Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

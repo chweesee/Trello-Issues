@@ -1,0 +1,51 @@
+Setting a new Custom Status doesn't reset the clear timer (referring to the actual function, not the visuals) (https://trello.com/c/DlEyX301)
+
+None
+
+Created: 2019-10-30T21:49:26.307Z
+Latest Update: 2019-11-15T12:49:13.974Z
+
+Reported by Z3RYX#1079
+
+####Steps to reproduce:
+- Set a new custom status that clears after some time (tested with clearance after 30 minutes) 
+- Set a new custom status before the first one clears (tested with "Don't Clear") 
+- Status still clears after the specified time of the first status (so 30 minutes after setting the first status in my test)
+
+####Expected result:
+Status clearance timeframe should reset to the new timeframe or shouldn't clear at all if "Don't Clear" is selected
+####Actual result:
+The status clears after the timeframe of the first set status
+####Client settings:
+Release Channel: stable, Build Number: 48208, Version Hash: e2cb4583858ce2cb2d306d9aa8c99f857d91fca6
+####System settings:
+Windows 10 Pro; Version: 1709
+
+46589
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-30T21:49:26.307Z
+
+
+### Can reproduce.
+can reproduce, win10, canary 48397
+
+IcyPebbles#5833 - Bug Bot on 2019-10-30T21:49:33.983Z
+
+
+### Moved from User Reported Bugs to Custom Status by Ene on 2019-11-02T03:38:57.795Z
+
+
+### Can reproduce.
+iPhone XR, iOS 13,2,2, TestFlight 3.1.7 (18195)
+
+🧩Trainboy100🚂#0207 - Bug Bot on 2019-11-15T12:49:13.990Z
+
+List
+====
+Custom Status
+
+Members
+=======
+None

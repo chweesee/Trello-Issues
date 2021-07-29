@@ -1,0 +1,72 @@
+[Light Theme] Closing quick switcher tip turns the server name black when it should be white (https://trello.com/c/tq6GQau2)
+
+None
+
+Created: 2020-07-10T09:38:39.261Z
+Latest Update: 2020-07-16T21:26:06.409Z
+
+Reported by hopeless#1227
+
+####Steps to reproduce:
+- have a new session (use incognito mode maybe?) that has the quick switcher tip active 
+- find a server that has a banner 
+- click close on the quick switcher tip 
+- observe
+
+####Expected result:
+Tip is closed, server name is in white font
+####Actual result:
+Tip closed and server name remains black
+####Client settings:
+stable 54611
+####System settings:
+Win10 v1709 x64 build 16299.1625 Education, chrome dev 82.0.4056.3
+
+52655
+
+Card Log
+========
+### Added by Bug Bot on 2020-07-10T09:38:39.261Z
+
+
+### hopeless#1227 - https://i.imgur.com/xJafYHD.gifv added by Bug Bot on 2020-07-10T09:38:41.935Z
+
+
+### hopeless#1227 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5f08371fddea751e66ca8fa9/d88e473225c51e6c2502d30f2ef4dd52/aeYAHcv.png added by Bug Bot on 2020-07-10T09:38:42.452Z
+
+
+### Can reproduce.
+cr Windows 10 1909 Discord Canary 61502
+
+GlenMerlin#2119 - Bug Bot on 2020-07-10T09:38:46.930Z
+
+
+### Can reproduce.
+New Dell G3 15 3500: Windows 10 Home 2004 (Build 19041.329) x64; Discord Web Canary 62872 on Google Chrome 83.0.4103.116
+
+Jiralite#1207 - Bug Bot on 2020-07-10T09:38:51.903Z
+
+
+### Can reproduce.
+Windows 10 Home x64 2004 (10.0.19041), Canary 63140 host 0.0.266
+
+Jean20B#4668 - Bug Bot on 2020-07-10T09:38:57.045Z
+
+
+### Can reproduce.
+Can reproduce, Windows 7 Ultimate, Canary 63380
+
+Shiny#1000 - Bug Bot on 2020-07-15T19:51:29.748Z
+
+
+### Can now be much easily reproduced by going from a server without a banner to a server with a banner (server with banner needs to be at top of channels list/see entire banner).
+
+hopeless#1227 - Bug Bot on 2020-07-16T04:42:57.470Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

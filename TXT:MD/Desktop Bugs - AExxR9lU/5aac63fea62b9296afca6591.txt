@@ -1,0 +1,83 @@
+[Archived] Holding the enter key while viewing an image will interact with the text box behind (https://trello.com/c/ED3XtJO7)
+
+P3: Will get fixed eventually,
+Low,
+Images,
+Client side,
+text chat
+
+Created: 2018-03-17T00:40:30.419Z
+Latest Update: 2018-10-22T20:18:58.474Z
+
+Reported by cutelilberry#5423
+
+####Steps to reproduce:
+- Find an image and click on it 
+- While viewing the image hit and hold the enter key
+
+####Expected result:
+Shouldn't do anything except maybe opening the image a bunch of time as of a known bug
+####Actual result:
+It creates a new line in the text box if empty and if it already has characters typed holding enter will send the message
+####Client settings:
+Canary 12159
+####System settings:
+Win10 x64
+
+9649
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-17T00:40:30.419Z
+
+
+### Can reproduce.
+CR; Win10 x64 Canary 12159, you really need to hold it for a few seconds after you've opened the image. If you only tap once there will only be several images opened like the already known bug.
+
+Maraly#9842 - Bug Bot on 2018-03-17T00:40:38.868Z
+
+
+### Can reproduce.
+Discord Canary 0.0.203, Build 12159, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-03-17T00:40:43.848Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 12159
+
+webhp#1337 - Bug Bot on 2018-03-17T00:40:48.857Z
+
+
+### Can reproduce.
+Discord Canary Build (12269) Windows 10 Pro 64-bit
+
+ZeRoGaming7893#1337 - Bug Bot on 2018-03-19T06:35:37.236Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 64-Bit, Discord Canary 0.0.204
+
+LPerMike#1013 - Bug Bot on 2018-03-22T21:44:01.305Z
+
+
+### Verified on [BUILD INFO] Release Channel: canary, Build Number: 12704, Version Hash: 6e4e7bc28e48e0d1d24a21ccda4c11280034f68b
+
+Terrabual. - Jared on 2018-03-27T21:58:08.824Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-03-27T21:58:16.408Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aac63fea62b9296afca6591/1b11016798dbcbe892ced76dd141c5d9/7voQMiS.gif added by Bug Bot on 2018-07-14T06:27:43.914Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:58.477Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

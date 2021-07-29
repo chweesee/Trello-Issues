@@ -1,0 +1,72 @@
+[Archived] "User is typing" bar doesn't adjust when typing and sending a long message on very poor connection (may take a couple tries, and make sure your connection is extremely poor to the point that your messages don't immediately leave your message area when pressing the send button otherwise it may not work) (https://trello.com/c/ssxXaJnU)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-08-05T08:27:42.799Z
+Latest Update: 2018-09-08T01:00:03.047Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Make sure that your messages send several seconds after you press the "Send" button to make sure you have extremely poor connection 
+- Make sure a lot of people are typing continuously 
+- Type a long message (at least 2-3 lines) 
+- Observe the "User is typing bar" as you type the message 
+- Send the message and observe the "User is typing" bar when your message sends 
+- If you don't manage to repro the first time, try sending more long messages in a normal conversation while people are continuously typing
+
+####Expected result:
+"User is typing" bar adjusts immediately as the message bar size changes
+####Actual result:
+"User is typing" bar has a severe delay for adjusting
+####Client settings:
+TestFlight 2.3.6 (6095)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 5
+
+16900
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-05T08:27:42.799Z
+
+
+### Rashaun#9295 - https://www.youtube.com/watch?v=lDEO8qr6eQs added by Bug Bot on 2018-08-05T08:27:45.107Z
+
+
+### Can reproduce.
+[CR] iPhone 7 || iPhone 7, iOS 12 PTB #4, Discord TestFlight 2.3.6 (6095)
+
+Marc#5983 - Bug Bot on 2018-08-05T08:27:50.079Z
+
+
+### Can reproduce.
+Can Reproduce on iPhone X iOS 12 Public Beta 4 - Testflight 2.3.6 (6095).
+
+DreaM#0001 - Bug Bot on 2018-08-05T08:27:55.214Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 5) - TestFlight 2.3.6 (6095)
+
+Xylium#1480 - Bug Bot on 2018-08-05T08:28:00.259Z
+
+
+### Verified on iPhone 5S running iOS 11.4.1 on Discord TestFlight 2.3.6 (6427). I had to use the hotspot from my iPhone 8 + with LTE disabled, plus it doing some data activity in attempt to slow down the connection to mimic slow connection. One line was completely hidden under the user typing as shown in the video.
+
+Moving to Verified.  - Ghoul on 2018-08-09T00:40:45.255Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ghoul on 2018-08-09T00:40:51.287Z
+
+
+### Archived by Clayton on 2018-09-08T01:00:03.049Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

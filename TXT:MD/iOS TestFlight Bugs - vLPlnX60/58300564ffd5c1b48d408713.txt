@@ -1,0 +1,74 @@
+[Archived] Cache clearing has minimal effect (https://trello.com/c/PPM2UsEy)
+
+None
+
+Created: 2016-11-19T07:55:16.920Z
+Latest Update: 2017-10-17T21:14:38.156Z
+
+Reported by /dev/null#5164
+
+####Steps to reproduce: 
+- Build up a good cache 
+- Check the usage in settings>general>usage 
+- Note that 
+- Clear the cache 
+- Note the new size 
+
+####Expected result:
+  The cache is 0 
+####Actual result:
+ It only reduces a bit
+
+Card Log
+========
+### Added by Jared on 2016-11-19T07:55:16.920Z
+
+
+### /dev/null#5164 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/58300564ffd5c1b48d408713/38bebf62f0a7a7299fcbeeec15c7b016/IMG_0895.PNG added by Jared on 2016-11-19T07:56:24.769Z
+
+
+### /dev/null#5164 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/58300564ffd5c1b48d408713/c2a8d62001519bf94b3e4cc741647cce/IMG_0896.PNG added by Jared on 2016-11-19T07:57:03.090Z
+
+
+### Can reproduce.
+Latest TF on iOS 9.3.5. Before clearing: 125MB. After clearing: 115MB. Just a 10MB change.
+
+SuperSajuuk#7265 - Jared on 2016-12-01T19:05:42.131Z
+
+
+### Can reproduce.
+iOS 9.3.5 latest TF
+
+MattBSG#9263 - Jared on 2016-12-01T19:06:02.578Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-01T19:09:25.292Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2016-12-01T19:09:38.792Z
+
+
+### Can reproduce.
+iPhone 7, iOS 10.2 beta 4, latest TF - Before: 255.6 MB, After: 153.2 MB
+
+ThaTiemsz#5517 - Jared on 2016-12-01T19:37:39.655Z
+
+
+### Seems to be that the results aren't instantaneous.  For the most part the largest drop in memory usage is several minutes after clearing the cache.  Sounds like it's not a bug? Just incorrect expectations? - Jared on 2016-12-01T20:02:12.843Z
+
+
+### Moved from Serious Issues to Won't Fix by Jared on 2016-12-01T20:51:23.837Z
+
+
+### Archiving as this ticket as been Won't Fix for over a month. - Mike Nisbet on 2017-10-17T21:14:37.348Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:14:38.159Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

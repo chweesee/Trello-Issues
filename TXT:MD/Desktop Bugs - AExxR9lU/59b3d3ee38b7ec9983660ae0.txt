@@ -1,0 +1,84 @@
+[Archived] If channel name, server name and category name combined is too long, server name is on multiple lines in quick switcher (https://trello.com/c/f7WfhxBz)
+
+None
+
+Created: 2017-09-09T11:43:42.555Z
+Latest Update: 2017-11-16T19:31:27.138Z
+
+Reported by Luxe#3478
+
+####Steps to reproduce:
+- Have a channel with a long name 
+- Have a category with a long name 
+- Have a server with a space in the name 
+- Have channel show up in quick switcher (either unread or as last channel or search for it)
+
+####Expected result:
+Category should be cut off.
+####Actual result:
+Server name is split across multiple lines, cutting off the top and bottom of the name.
+####Client settings:
+Discord Canary, 0.0.163
+####System settings:
+Windows 10 Home
+
+4043
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-09T11:43:42.555Z
+
+
+### Can reproduce.
+Canary 0.0.163 + Windows 10
+
+Oasis#4730 - Bug Bot on 2017-09-09T11:43:50.442Z
+
+
+### Can reproduce.
+Canary 0.0.163 (4053), Windows 10 Pro x64 (1703)
+
+Immotay#7475 - Bug Bot on 2017-09-09T11:43:55.059Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163
+
+AviationMaster#4793 - Bug Bot on 2017-09-09T11:44:00.094Z
+
+
+### Moved from User Reported Bugs to Channel catalgories by Alexander (DJScias) on 2017-09-10T09:06:53.450Z
+
+
+### Tiemen#0107 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59b3d3ee38b7ec9983660ae0/7dfbdba1ac722119eb0786a78867d658/unknown.png added by Bug Bot on 2017-09-10T19:58:08.472Z
+
+
+### Moved from Channel catalgories to Fix made, not yet released by Amadeus on 2017-09-18T07:49:40.868Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Amadeus on 2017-09-19T22:19:24.699Z
+
+
+### Tested on discord build 4743:
+
+I can no longer reproduce this myself. Both the channel and category name are cut off to fit on one line. - Alexander (DJScias) on 2017-09-22T15:24:57.097Z
+
+
+### Fixed.  - Clayton on 2017-10-03T21:15:41.563Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-03T21:15:45.568Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:14:19.620Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:14:21.587Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

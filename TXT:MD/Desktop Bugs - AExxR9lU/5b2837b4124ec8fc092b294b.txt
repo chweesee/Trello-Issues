@@ -1,0 +1,148 @@
+[Archived] White bars appear in Firefox when zoomed out (https://trello.com/c/qzzuDUVp)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-06-18T22:52:36.664Z
+Latest Update: 2020-01-07T17:00:04.262Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Load up any discord server 
+- Zoom out
+
+####Expected result:
+No white bars appear
+####Actual result:
+White bars appear next to the scrollbars
+####Client settings:
+Discord Stable 17063
+####System settings:
+Windows 10 x64 -- Firefox 60.0.2
+
+14319
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-18T22:52:36.664Z
+
+
+### mrkirby153#7840 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b2837b4124ec8fc092b294b/4eb7fcd54f0a627e813da44dd4815518/pDvaARk.png added by Bug Bot on 2018-06-18T22:52:39.255Z
+
+
+### Can reproduce.
+Can reproduce -  Discord Stable 17063, Windows 10 x64 - Firefox 60.0.2
+
+OddsomeOddy#1998 - Bug Bot on 2018-06-18T22:52:44.126Z
+
+
+### Can reproduce.
+[CR] - Discord stable 17063, Windows 10 1803 (x86_64) - Firefox Quantum 60.0.1 (scrollbar becomes windows default scrollbar)
+
+💖 Cecillia 💖#0001 - Bug Bot on 2018-06-18T22:52:49.093Z
+
+
+### Can reproduce.
+Can Reproduce, Discord stable 17063, Windows 10 x64. FireFox Dev edition 58.0b10 64-bit. Scrolling out to 30% shows full windows default scroll bar
+
+Wacko90901#6910 - Bug Bot on 2018-06-18T22:52:54.084Z
+
+
+### verified, windows 10, firefox 62.0.2 - Clayton on 2018-06-18T23:29:10.449Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-18T23:29:19.607Z
+
+
+### Can reproduce.
+CR. Still reproducable. Canary 20088, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-28T10:39:23.883Z
+
+
+### This isn't Windows only, I am able to reproduce on Mac as well.
+
+Rage#9991 - Bug Bot on 2018-07-28T10:39:44.277Z
+
+
+### This is most likely caused by https://bugzilla.mozilla.org/show_bug.cgi?id=77790
+
+webhp#1337 - Bug Bot on 2018-07-28T23:28:24.605Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803, canary 20174, firefox quantum 61.0.1 x64
+
+TimThe#1118 - Bug Bot on 2018-07-29T11:43:35.304Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:59.996Z
+
+
+### Can reproduce.
+CR - Windows 7 Ultimate SP1 x64, Canary 31492, Firefox Quantum 65.0
+
+Waff#0267 - Bug Bot on 2019-01-29T21:47:36.151Z
+
+
+### Unarchived by Bug Bot on 2019-01-31T21:30:09.163Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | FF Quantum 65
+
+charleskimbac#6492 - Bug Bot on 2019-02-04T21:47:48.099Z
+
+
+### Can reproduce.
+You can see a 1px white bar even at regular 100% Zoom. Windows 10 x64 Firefox 65.0.2
+
+Arnold0#7514 - Bug Bot on 2019-03-12T14:50:08.307Z
+
+
+### Can reproduce.
+Windows 10 x64 (1803), Discord Stable 38556, Mozilla Firefox 64-bit Quantum Build 68.0b4. Also happens in members list in any server.
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-05-25T16:38:45.585Z
+
+
+### Can reproduce.
+Win 10, Firefox 66 - increasing the fake scrollbar div width from 14 to 15 pixels resolves this issue for me, at all zoom levels
+
+Zhentar#4920 - Bug Bot on 2019-06-03T19:23:28.452Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:49.244Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903, Build: 18362.356 - Discord Canary, Build Number: 46402 - FireFox Quantum 69.0.1 (64-bit)
+
+.Gloria.#9606 - Bug Bot on 2019-09-26T05:22:41.238Z
+
+
+### Unarchived by Bug Bot on 2019-09-26T05:30:07.530Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Canary Build 47521 - Mozilla Firefox 66.0.5 (64-bit)
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-17T03:48:08.145Z
+
+
+### Can reproduce.
+Still CR at 100% scale - Windows 10 Home x64 1903 - Firefox 71
+
+Fumple#0001 - Bug Bot on 2019-12-08T16:42:03.620Z
+
+
+### Archived by Bug Bot on 2020-01-07T17:00:04.280Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

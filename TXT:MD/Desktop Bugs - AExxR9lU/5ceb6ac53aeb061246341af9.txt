@@ -1,0 +1,107 @@
+News following webhooks show a webhook URL with undefined being used in place of the token (https://trello.com/c/xfYjeErG)
+
+None
+
+Created: 2019-05-27T04:42:45.217Z
+Latest Update: 2020-07-16T21:26:03.987Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Join or lurk in the Rainbow Six server 
+- Go to a news channel and click follow 
+- Select a channel that you want the webhook to be in and then go to webhook settings in that channel 
+- Click on the webhook 
+- Notice how the webhook link ends in /undefined
+
+####Expected result:
+As the webhook does not have a token it should not show the webhook URL
+####Actual result:
+The webhook URL shows and uses "undefined" in place of the token presumably because the API response does not include it.
+####Client settings:
+Discord Canary 0.0.238 Build 38570
+####System settings:
+Windows 10 Pro x64 v1903 Build 18898.1000
+
+35458
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-27T04:42:45.217Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ceb6ac53aeb061246341af9/9730f880cb0eb37207e2802d49e1fd7c/GPRURJ6.png added by Bug Bot on 2019-05-27T04:42:48.028Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary Build 38570
+
+mrkirby153#7840 - Bug Bot on 2019-05-27T04:42:52.573Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) | Canary 38570
+
+charleskimbac#6492 - Bug Bot on 2019-05-27T04:42:57.642Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 38570
+
+AHkhan#9999 - Bug Bot on 2019-05-27T04:43:02.598Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 38570
+
+Isabel#0002 - Bug Bot on 2019-05-27T05:30:41.007Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38570
+
+Xylium#5800 - Bug Bot on 2019-05-27T10:14:22.030Z
+
+
+### Can reproduce.
+Windows 10 home (Build 17763) | Discord stable V0.0.305 | Discord Canary V0.0.238
+
+Mennoplays#0645 - Bug Bot on 2019-05-27T13:35:06.652Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord canary 38570
+
+Alipoodle#5025 - Bug Bot on 2019-05-27T13:54:57.933Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 38570
+
+OrangeM24#5746 - Bug Bot on 2019-05-27T14:39:49.595Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 38570
+
+Lily#2624 - Bug Bot on 2019-05-27T17:38:38.735Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38594 (Host 0.0.238)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-28T02:33:29.597Z
+
+
+### Can reproduce.
+Windows 10 18362.295 Canary 43884
+
+OneNormalUsername#7636 - Bug Bot on 2019-08-17T13:32:56.352Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

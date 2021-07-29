@@ -1,0 +1,94 @@
+[Archived] WebP preview not shows (https://trello.com/c/wXmakRiW)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-12-05T08:45:13.643Z
+Latest Update: 2019-10-23T23:01:14.973Z
+
+Reported by Jaex#5194
+
+####Steps to reproduce:
+- Download latest FFmpeg 
+- Download example x264 video file for testing: [1] 
+- Convert mp4 file to webp using FFmpeg: [2] 
+- Post your WebP file either as url [3] or attachment to Discord chat
+
+####Expected result:
+Preview of WebP animated image should show
+####Actual result:
+No preview shows in Windows desktop Discord build but in Android Discord build preview shows correctly. Also WebP shows properly in Chrome too which proves WebP file is not invalid. Reason I'm reporting this as bug because some WebP files shows preview correctly but not the ones created with FFmpeg.
+####Client settings:
+Discord Canary, 0.0.181
+####System settings:
+Windows 10 x64
+
+6813
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-05T08:45:13.643Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a265c99884d5ca44c23458e/cc90cca3c15529e94e40720e798ae008/DiscordCanary_2RAYLDUoWO.png added by Bug Bot on 2017-12-05T08:45:16.308Z
+
+
+### Can reproduce.
+windows 10 fall creators cb 7968 and iOS testflight
+
+Macdja38#7770 - Bug Bot on 2017-12-05T08:45:21.025Z
+
+
+### Can reproduce.
+Gentoo Linux with Discord Canary: Release Channel: canary, Build Number: 7968, Version Hash: cd65dc7c79a88b9421c8065fc1b5153401a923b6
+
+Arsen#7525 - Bug Bot on 2017-12-05T08:45:26.034Z
+
+
+### Can reproduce.
+Windows 10 Fall Creators Version 8055
+
+The Oddball#2867 - Bug Bot on 2017-12-05T08:45:31.051Z
+
+
+### Can reproduce.
+Windows 10 Enterprise (x64), Fall Creators Update (1709), Canary 0.0.181, can repro as listed.
+
+sladewatkins#2439 - Bug Bot on 2017-12-06T01:40:37.990Z
+
+
+### Verified, will throw a HTTP error code 415 (Unsupported Media Type)
+
+I used https://ezgif.com/webp-maker - Tarek on 2017-12-15T09:54:48.431Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-15T09:54:54.701Z
+
+
+### Can reproduce.
+Kubuntu 17.10 x64, Canary 8612
+
+kiroma#1608 - Bug Bot on 2017-12-15T16:38:19.295Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:27.260Z
+
+
+### Can reproduce.
+Windows 10 Pro, V.1803, x64, Release  Release Channel: canary, Build Number: 38248
+
+mrphilip#7368 - Bug Bot on 2019-05-22T15:26:11.343Z
+
+
+### Unarchived by Bug Bot on 2019-05-22T15:30:05.844Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:14.990Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

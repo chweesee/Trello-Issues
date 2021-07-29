@@ -1,0 +1,101 @@
+[Archived] [Web] Clicking to submit a help request sends a url with an empty querystring (https://trello.com/c/SPfnV1fZ)
+
+P3: Will get fixed eventually
+
+Created: 2018-07-30T19:57:57.146Z
+Latest Update: 2019-05-21T12:30:30.064Z
+
+Reported by Mippy#0001
+
+####Steps to reproduce:
+- Open Discord on Web 
+- Click the ? in the top right corner 
+- Click "Submit a request" 
+- Observe how the `platform` querystring is empty compared to it when doing the steps on the desktop app
+
+####Expected result:
+A value is passed into the querystring
+####Actual result:
+It sends an empty querystring
+####Client settings:
+Canary 20243 - Firefox v61.0.1
+####System settings:
+MacBook Pro (13"), macOS 10.13.6
+
+16475
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-30T19:57:57.146Z
+
+
+### Can reproduce.
+Canary 20243, macOS Sierra 10.12.6, Firefox Quantum 61.0.1
+
+Rage#9991 - Bug Bot on 2018-07-30T19:58:04.584Z
+
+
+### Can reproduce.
+W10 x64 1803, Canary 20243, Chrome 67.0.3396.99
+
+MrWasdennnoch#0443 - Bug Bot on 2018-07-30T19:58:09.660Z
+
+
+### Can reproduce.
+Ubuntu 16.04 x86_64 4.15.0-29-generic Canary 20243, Firefox Quantum 61.0.1
+
+Frovy#6820 - Bug Bot on 2018-07-30T19:58:14.642Z
+
+
+### Moved from User Reported Bugs to Website Bugs by Clayton on 2018-07-31T20:44:39.695Z
+
+
+### Can reproduce 
+
+Mac OS 10.13.3 Chrome 68.0.3440.106
+
+Low Prio, this link needs to be updated for all platforms anyways - Jesse Dacumos on 2018-08-20T23:39:16.743Z
+
+
+### Can reproduce.
+Firefox 62.0 - 64 bits Windows 10 Home x64 Build 1803, Canary Build Number: 23709
+
+JVC Almeos#1984 - Bug Bot on 2018-09-14T23:13:57.666Z
+
+
+### Seems fixed, there is no query params anymore. Moving to claimed fixed - Tarek on 2019-04-21T11:53:58.716Z
+
+
+### Moved from Website Bugs to Claimed Fixed, needs Verification by Tarek on 2019-04-21T11:54:05.654Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Mid-2012), macOS v10.14.4 (18E226) - Canary 36128
+
+Isabel#0002 - Bug Bot on 2019-04-21T12:04:44.409Z
+
+
+### Can't reproduce.
+Windows 7 64-bit, FIrefox v66, Canary 36128
+
+Skyla#0002 - Bug Bot on 2019-04-21T12:07:09.945Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Web Canary 36128 - Firefox 66.0.3
+
+Daffyduck#5364 - Bug Bot on 2019-04-21T12:10:19.173Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-04-21T12:10:19.404Z
+
+
+### Archived by Bug Bot on 2019-05-21T12:30:30.074Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

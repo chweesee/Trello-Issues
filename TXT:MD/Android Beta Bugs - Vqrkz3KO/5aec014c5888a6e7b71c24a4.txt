@@ -1,0 +1,130 @@
+[Archived] Transparent background images when set as profile pictures show black background. (https://trello.com/c/XbSHF8q7)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-04T06:44:28.764Z
+Latest Update: 2019-06-10T20:44:44.365Z
+
+Reported by The Lunala#0001
+
+####Steps to reproduce:
+- Take any transparent background image. 
+- Set it as your profile picture.
+
+####Expected result:
+The image in the profile should be in transparent.
+####Actual result:
+The image comes with a black background.
+####Client settings:
+Discord Alpha 6.6.1
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+11910
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-04T06:44:28.764Z
+
+
+### Can reproduce.
+Also affects transparent sent images | Samsung J7 Prime, Android 6.0.1, Discord Alpha 6.6.1
+
+KingMarine#5676 - Bug Bot on 2018-05-04T06:44:36.185Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S5 Mini w/ Lineage OS 14.1, Discord 6.6.1
+
+casungo#2990 - Bug Bot on 2018-05-04T06:44:41.188Z
+
+
+### Can reproduce.
+CR Xiaomi Mi A1 Android 8.0.0 - Discord Alpha 6.6.1
+
+Ori#1908 - Bug Bot on 2018-05-04T06:44:46.202Z
+
+
+### Can reproduce.
+~ Samsung Galaxy J7 Prime ~ Android 7.0 Nougat ~ Discord Alpha 6.6.1 (661)
+
+DefinitelyNotLava#9562 - Bug Bot on 2018-05-04T06:58:30.992Z
+
+
+### Can reproduce.
+CR, OnePlus 2, Android 6.0.1, Discord Alpha 6.6.1
+
+Marshadow#5095 - Bug Bot on 2018-05-04T07:43:52.334Z
+
+
+### Can reproduce.
+OPPO f1, Android 5.1.1, Discord Alpha 6.6.1
+
+Destroyer#9344 - Bug Bot on 2018-05-04T08:01:36.274Z
+
+
+### This happens because .png images, which support transparency, are converted to .jpg, which do not support transparency and thus the black background
+
+DefinitelyNotLava#9562 - Bug Bot on 2018-05-05T08:29:30.303Z
+
+
+### Verified, android 7.0, samsung galaxy s6 edge, 6.6.3 - Clayton on 2018-05-08T20:27:47.129Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-08T20:28:30.589Z
+
+
+### The Lunala#7777 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5aec014c5888a6e7b71c24a4/121150009f011a0771dc743ef10e82f7/20180716_161356.jpg added by Bug Bot on 2018-07-16T10:46:11.853Z
+
+
+### Same behavior is seen when you set a transparent background image as a server logo
+
+The Lunala#7777 - Bug Bot on 2018-08-12T12:34:04.758Z
+
+
+### Archived by Clayton on 2018-09-11T13:00:02.748Z
+
+
+### Can reproduce.
+Samsung Galaxy S4, Android 7.1.2 (LineageOS), Discord Alpha 8.0.2, still can be reproduced
+
+emptixo#6252 - Bug Bot on 2018-11-28T16:06:12.110Z
+
+
+### Can reproduce.
+Xiaomi Mi A2 Lite, 8.1.0
+
+zapteryx#6161 - Bug Bot on 2018-11-28T16:07:57.481Z
+
+
+### Can reproduce.
+LG Stylo 3      7.0
+
+Waddling Waffle#6940 - Bug Bot on 2018-11-28T16:08:24.638Z
+
+
+### Unarchived by Clayton on 2018-11-28T16:30:03.726Z
+
+
+### Can reproduce.
+Can reproduce changing a server icon. Samsung Galaxy J5 Prime Android 8.0.0, Discord Alpha 8.2.2
+
+Mr. Black#0001 - Bug Bot on 2018-12-28T02:17:21.054Z
+
+
+### Can reproduce.
+Moto E5 8.0.0, alpha 8.3.5G
+
+Shiro#9024 - Bug Bot on 2019-01-29T20:44:03.461Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:44.379Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

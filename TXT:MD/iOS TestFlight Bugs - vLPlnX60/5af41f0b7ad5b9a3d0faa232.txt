@@ -1,0 +1,80 @@
+[Archived] Ability to transfer ownership multiple times even tho the button does nothing after transferring the first time. (So far on iPad 2nd generation only) + 2FA Enabled on your main (https://trello.com/c/dpyxqaMn)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-05-10T10:29:31.622Z
+Latest Update: 2019-12-08T17:30:09.283Z
+
+Reported by Xylium#1480
+
+####Steps to reproduce:
+- Create a fresh server with your main (iPhone)
+
+- Let your alt join (iPad)
+
+- Transfer ownership to your alt (should work as it prompts u to fill in a code) (iPhone)
+
+- Transfer ownership back to your main (your alt is required not to have 2FA) (iPad)
+
+####Expected result:
+Transferring ownership should disappear
+####Actual result:
+Transferring ownership button stays and you are allowed to click on it multiple times even though it does nothing until you click “close”
+####Client settings:
+Stable 2.3.1
+####System settings:
+iPad 2nd generation, iOS 9.3.5
+
+11957
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-10T10:29:31.622Z
+
+
+### Can reproduce.
+cr, ipad 2nd generation ios 9.3.5
+
+bird#0001 - Bug Bot on 2018-05-10T10:29:38.960Z
+
+
+### Can reproduce.
+CR; iPad 2nd Gen, iOS 9.3.5; Discord Stable 2.3.1
+
+Dark#9876 - Bug Bot on 2018-05-10T10:29:43.916Z
+
+
+### Can reproduce.
+I pulled out my iPad for this was and could reproduce. iPad 2nd Gen, iOS 9.3.5, Stable Discord 2.3.1.
+
+DreaM#0001 - Bug Bot on 2018-05-10T10:29:49.020Z
+
+
+### Verified. iPad Pro - Jared on 2018-05-11T21:02:48.216Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-11T21:02:55.687Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:32.272Z
+
+
+### Can reproduce.
+CR - Can Reproduce - iPhone 6s - iOS 13.1.2 - Testflight 3.1.5 (17627) - I had 2fa enabled on my main when I reproduced the bug, and transferred ownership to my alt, same thing happened as not having 2fa  (the button was still clickable) - also not iPad Specific anymore I assume
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-19T04:00:00.910Z
+
+
+### Unarchived by Bug Bot on 2019-10-19T04:00:06.665Z
+
+
+### Archived by Bug Bot on 2019-12-08T17:30:09.294Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,84 @@
+[Archived] tts fix in current canary build only uses david voice in windows and ignores currently selected voice (https://trello.com/c/XiUFh9NN)
+
+None
+
+Created: 2019-01-26T16:22:34.697Z
+Latest Update: 2019-03-19T19:00:39.659Z
+
+Reported by 🆂🅴🆂🅽🆄🆃 🤔#6593
+
+####Steps to reproduce:Choose a voice that isn't david in speech properties control panel
+
+####Expected result:
+chosen voice should be used instead of david
+####Actual result:
+David is always used no matter which voice is chosen
+####Client settings:
+desktop canary 31390
+####System settings:
+windows 10 pro x64 1809
+
+27070
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-26T16:22:34.697Z
+
+
+### Can reproduce.
+CR. Windows 10 x64 1809 (17763), Discord Canary with Build number 31390
+
+Frances Picard#6209 - Bug Bot on 2019-01-26T16:22:42.066Z
+
+
+### Can reproduce.
+CR Windows 10 Pro 64-bit (1809) Russian default language and Canary 31390 (For me it plays only in Irina's voice, probably windows default language specific)
+
+Defracted#0001 - Bug Bot on 2019-01-26T16:22:47.008Z
+
+
+### Can reproduce.
+W10 Pro x64 - Canary 31390
+
+dafaqed#1312 - Bug Bot on 2019-01-26T16:22:52.032Z
+
+
+### Can reproduce.
+Windows 10 pro x64, Canary 31390
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-26T16:24:54.489Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 31400
+
+Solo#0007 - Bug Bot on 2019-01-27T01:35:59.224Z
+
+
+### Can't reproduce.
+Switching between microsoft Zira and David works corectly, switching the tts voice, Windows Home 1809, Discord Canary 31400
+
+ginkoid#8888 - Bug Bot on 2019-01-27T04:50:23.658Z
+
+
+### can't reproduce, win10, canary 31464 - Clayton on 2019-01-29T05:07:22.293Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2019-01-29T05:07:33.749Z
+
+
+### Can't reproduce.
+CNR Win10 64x (1809), Discord Canary 32395 ~ Susan worked fine for me.
+
+Alipoodle#5025 - Bug Bot on 2019-02-17T18:30:44.476Z
+
+
+### Archived by Bug Bot on 2019-03-19T19:00:39.669Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

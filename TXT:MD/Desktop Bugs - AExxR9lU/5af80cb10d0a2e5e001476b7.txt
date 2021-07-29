@@ -1,0 +1,89 @@
+[Archived] Markdown characters that are in another markdown's scope aren't resolved (see attached) [Also happens on Android, iOS] (https://trello.com/c/zem5nT8A)
+
+None
+
+Created: 2018-05-13T10:00:17.937Z
+Latest Update: 2018-07-06T17:50:49.797Z
+
+Reported by DefinitelyNotLava#9562
+
+####Steps to reproduce:
+- Put markdown characters, eg two asterisks 
+- Put text after it 
+- Put other markdown characters, eg two underscores 
+- Put text after it 
+- Repeat this once
+
+####Expected result:
+The underscore markdown are parsed
+####Actual result:
+They aren't and just shows underscores, the first being in bold
+####Client settings:
+Canary 15123, Android Alpha 6.6.8(668), Testflight 2.3.2 (4353)
+####System settings:
+Macbook Pro (Mid-2010), macOS Sierra 10.12.6 ~ Samsung Galaxy J7 Prime, Android 7.0 Nougat ~ iPad 3rd Generation, iOS 9.3.2
+
+12567
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-13T10:00:17.937Z
+
+
+### DefinitelyNotLava#9562 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af80cb10d0a2e5e001476b7/24025a8b188fb320e3f1372c0c734e49/8d6c4bb1.jpg added by Bug Bot on 2018-05-13T10:00:20.734Z
+
+
+### Can reproduce.
+confusing repro steps but can reproduce, Windows 8.1 64bit, canary, Build Number: 15120
+
+bird#0001 - Bug Bot on 2018-05-13T10:00:25.249Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Pro x64 1803 (17134.48) , Canary 15123
+
+oxygencraft#8884 - Bug Bot on 2018-05-13T10:00:30.299Z
+
+
+### Can reproduce.
+Can reproduce , Discord Alpha 6.6.8(668) , Wiko LENNY2 , Android 5.1
+
+Diogolo#0796 - Bug Bot on 2018-05-13T10:00:35.297Z
+
+
+### Can reproduce.
+Can reproduce; Windows 8.1 x64, Stable, Build Number: 15154.
+
+Ditto Duck Penguin#0802 - Bug Bot on 2018-05-13T15:02:54.240Z
+
+
+### Can reproduce.
+Can Reproduce in Windows 8.1 x64, Discord Canary Build Number: 15139
+
+Yoginth#9339 - Bug Bot on 2018-05-14T02:47:42.505Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit Version 1803, Discord stable build 15154
+
+Luchs#1312 - Bug Bot on 2018-05-14T20:06:53.102Z
+
+
+### This is intended. It's just how markdown works. Github does the same thing: https://cdn.discordapp.com/attachments/238008650336043009/446401780809728011/unknown.png - Jared on 2018-05-16T20:01:53.948Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-05-16T20:01:58.544Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:50:47.821Z
+
+
+### Archived by Jared on 2018-07-06T17:50:49.801Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

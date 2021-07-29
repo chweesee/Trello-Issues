@@ -1,0 +1,68 @@
+[Archived] (Android 6+) No error toast when attempting to start a video call without giving the app voice and camera permissions (https://trello.com/c/m9KWjlj1)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-25T19:49:22.474Z
+Latest Update: 2018-08-22T01:21:54.045Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Revoke permissions from Discord to use microphone and camera 
+- Go to a DM with someone 
+- First, select "Start voice call". When Discord requests microphone access, an error toast will show up if you choose Refuse.  
+- Now do the same but with "Start video call" instead: when it requests access to camera/microphone choose Refuse
+
+####Expected result:
+Same error toast as for regular voice call
+####Actual result:
+No error toast at all
+####Client settings:
+Discord Alpha 6.5.6
+####System settings:
+Huawei Mate 9 Android 7.0
+
+11273
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-25T19:49:22.474Z
+
+
+### Can reproduce.
+Can reproduce Xiaomi Mi A1 Android 8.0.0, Discord Beta 6.5.6
+
+Ori#1908 - Bug Bot on 2018-04-25T19:49:29.829Z
+
+
+### Can reproduce.
+CR Galaxy S8 android 8.0, alpha 6.5.7
+
+AEnterprise#4693 - Bug Bot on 2018-04-25T19:49:34.833Z
+
+
+### Can reproduce.
+Can reproduce - OnePlus5T - Android Oreo 8.0.0 (Oxygen OS) - Discord Alpha 6.5.6
+
+ahoZiorce#3115 - Bug Bot on 2018-04-25T19:49:39.890Z
+
+
+### Verified.  - Clayton on 2018-04-26T21:14:46.143Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-26T21:14:53.765Z
+
+
+### Frances Picard#6209 - https://i.imgur.com/Va9s3x2.gifv added by Bug Bot on 2018-07-15T17:35:04.722Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:54.047Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

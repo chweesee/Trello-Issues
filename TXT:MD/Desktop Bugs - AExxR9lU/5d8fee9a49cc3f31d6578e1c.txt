@@ -1,0 +1,72 @@
+Discord message links in webhooks have different behaviour (https://trello.com/c/Q13toXvW)
+
+None
+
+Created: 2019-09-28T23:36:58.986Z
+Latest Update: 2020-07-16T21:26:05.297Z
+
+Reported by D1.yt#3609
+
+####Steps to reproduce:
+- Get a link to a discord message (rightclick with dev mode) 
+- Make a webhook spit out that link with a custom text instead of the link 
+- Click on the link in desktop app
+
+####Expected result:
+the link should directly open the linked message just like in the mobile app
+####Actual result:
+discord web opens up (clicking a direct link without a webhook though, works as intended)
+####Client settings:
+Stable 46198
+####System settings:
+Windows 10 v1803
+
+44792
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-28T23:36:58.986Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 46198, Windows 10 Home, Google Chrome 75.0.3770.90 (Official Build) (64-bits)
+
+Dragonic#0025 - Bug Bot on 2019-09-28T23:37:06.546Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 Canary: 46505
+
+Scrumpy#0200 - Bug Bot on 2019-09-28T23:37:11.472Z
+
+
+### Can reproduce.
+CR: Windows 10 Pro 1803, Discord Canary 46505
+
+Rex#9142 - Bug Bot on 2019-09-28T23:37:16.418Z
+
+
+### Can reproduce.
+Could reproduce, WIndows 10 Pro, PTB 46505
+
+Action Potential#6862 - Bug Bot on 2019-09-29T03:14:36.775Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 46505 (Host 0.0.257)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-29T04:32:49.045Z
+
+
+### Can reproduce.
+Windows 10 Professional,Canary 46505
+
+Typhoon#9981 - Bug Bot on 2019-09-29T16:17:12.877Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

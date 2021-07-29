@@ -1,0 +1,63 @@
+[Archived] Chat jumps when having different scale on different screens (https://trello.com/c/eNFFqEUC)
+
+None
+
+Created: 2017-08-15T00:33:33.825Z
+Latest Update: 2017-08-21T20:07:10.510Z
+
+Reported by Alwarren#7342
+
+####Steps to reproduce:
+- Have two monitors connected. 
+- Go to Windows Settings > System > Display > Scale and Layout 
+- Set one monitor to e.g. 150% 
+- Move discord window between screens
+
+####Expected result:
+Window changes size but nothing else.
+####Actual result:
+Window changes size correctly but chat scrolls back several pages. Moving back and forth will jump back further.
+####Client settings:
+Discord 0.0.298 stable
+####System settings:
+Win 10 x64
+
+3004
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-15T00:33:33.825Z
+
+
+### Can reproduce.
+DiscordPBE 0.0.34, Windows 10 Pro x64
+
+Chester#2084 - Bug Bot on 2017-08-15T00:33:41.415Z
+
+
+### Can reproduce.
+Canary 0.0.163, Windows 10 Pro x64 (1703)
+
+Immotay#7475 - Bug Bot on 2017-08-15T00:33:46.406Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Canary 0.0.163)
+
+Starsky#7861 - Bug Bot on 2017-08-15T00:33:51.348Z
+
+
+### Believe it or not, but this is actually this bug: https://trello.com/c/lfWKywJk/26-discord-sometimes-jumps-significantly-back-in-message-history-even-if-your-last-position-is-at-the-most-recent-message
+
+It's the same root cause. - Jared on 2017-08-21T20:07:04.615Z
+
+
+### Archived by Jared on 2017-08-21T20:07:10.514Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,65 @@
+[Archived] RTC panel also does not disappear on user removal from server containg current voice channel /deletion of voice channel (https://trello.com/c/1RP0Fcbi)
+
+None
+
+Created: 2017-06-15T15:08:46.942Z
+Latest Update: 2017-06-15T20:27:36.698Z
+
+Reported by Ω¹²#8421
+
+####Steps to reproduce:
+- Connect to a voice channel 
+
+- Open RTC debug menu 
+
+- Get removed from the server the voice channel is part of
+
+####Expected result:
+RTC debug panel should automatically close when disconnected from voice channel
+####Actual result:
+RTC panel stays open and can lock up Discord if user section is clicked
+####Client settings:
+Canary 0.0.157
+####System settings:
+Win 7 SP1
+
+1621
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-15T15:08:46.942Z
+
+
+### Ω¹²#8421 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5942a2fea2d76a81aa009b0b/4f402b83690703f28cd1927af28b0361/image.png added by Bug Bot on 2017-06-15T15:08:49.723Z
+
+
+### Can reproduce.
+ Windows 10 x64, Canary 0.0.157
+
+DeJay#3628 - Bug Bot on 2017-06-15T15:08:51.376Z
+
+
+### Can reproduce.
+Can repro.  Discordapp Desktop Client - Version Canary 0.0.157 (Build 1538) & Microsoft Windows 10 - Version 1703 (OS Build 15063.332)
+
+PARALLAχ#0440 - Bug Bot on 2017-06-15T15:08:53.573Z
+
+
+### Can reproduce.
+CR,  MacBook Pro Late-2014, OSX 10.12.4, Latest Canary
+
+NubbyTM#6817 - Bug Bot on 2017-06-15T15:08:56.303Z
+
+
+### Merged into https://trello.com/c/5MaxNVjn/757-delete-ban-window-does-not-close-upon-server-removal as same underlying issue. - Alexander (DJScias) on 2017-06-15T20:10:37.837Z
+
+
+### Archived by Jared on 2017-06-15T20:27:36.705Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

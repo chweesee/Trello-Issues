@@ -1,0 +1,90 @@
+[Archived] Right clicking a user and disabling them from showing in activity then re-enabling doesn't register (https://trello.com/c/iNWcSy91)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-26T23:03:16.805Z
+Latest Update: 2019-05-01T23:00:38.711Z
+
+Reported by TheForbiddenAi#7549
+
+####Steps to reproduce:
+- Open a game info tab with someone showing in the recent activity area 
+- Right click on them 
+- Untick the show on activity tab option 
+- Attempt to tick the show on activity tab option 
+- Observe how instead of the option enabling the game info menu just closes and leaves the show on activity tab button unticked 
+- NOTE: To avoid confusion, the show on activity tab button only ticks after the second attempt I made at enabling it
+
+####Expected result:
+The show on activity tab button should enable first attempt
+####Actual result:
+The show on activity tab button does not enable first attempt
+####Client settings:
+Canary 34565
+####System settings:
+Windows 10 Home x64 (1809)
+
+31710
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-26T23:03:16.805Z
+
+
+### TheForbiddenAi#7549 - https://i.imgur.com/YJW8Fl0.gifv added by Bug Bot on 2019-03-26T23:03:19.314Z
+
+
+### Can reproduce.
+CR , Windows 10 Home x64 Canary 34565
+
+SportLeader#0001 - Bug Bot on 2019-03-26T23:03:24.160Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 34565
+
+Killtracity#0001 - Bug Bot on 2019-03-26T23:03:29.204Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 Home Canary 34565
+
+Bencey_#8587 - Bug Bot on 2019-03-26T23:03:34.188Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 34565
+
+Delite#0001 - Bug Bot on 2019-03-27T00:24:15.784Z
+
+
+### Can't reproduce.
+Windows 10 Enterprise Disocrd Canary 34625
+
+GlenMerlin#2119 - Bug Bot on 2019-03-27T00:52:53.338Z
+
+
+### Can't reproduce.
+Win10 Pro x64 (1809) | Discord Canary 34625 | Can't repro
+
+Clay#0001 - Bug Bot on 2019-03-27T02:43:56.559Z
+
+
+### Can't reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64) · Web Canary 34625
+
+Casper#9999 - Bug Bot on 2019-03-27T05:32:47.478Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2019-04-01T22:59:22.824Z
+
+
+### Archived by Bug Bot on 2019-05-01T23:00:38.722Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

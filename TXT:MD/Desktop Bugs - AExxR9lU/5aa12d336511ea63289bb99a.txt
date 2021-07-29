@@ -1,0 +1,78 @@
+[Archived] Even though you are given the options to connect the selected account through Connections, it still displays the error saying that either the application is not running, or no new accounts was detected. (https://trello.com/c/TPTZC9xj)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2018-03-08T12:31:47.485Z
+Latest Update: 2018-10-22T20:18:49.075Z
+
+Reported by Ghoul#0009
+
+####Steps to reproduce:
+- Ensure that you have friends on any platform that you are connecting to who isn't your friend on Discord, like LoL and the application is running. 
+- Go to Users Settings 
+- Go to Connections 
+- Click on the said application / platform's icon, like LoL's. 
+- You do not need to connect, but close it after doing on so. 
+- Observe.
+
+####Expected result:
+You should see the connection section without any error messages, even though it is working.
+####Actual result:
+You get an error message, saying that either the application isn't running or there was no new account, even though the feature is working correctly.
+####Client settings:
+Discord Canary Build 11719
+####System settings:
+Windows 10 Professional x64 - Fall Creators Update.
+
+9417
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-08T12:31:47.485Z
+
+
+### Can reproduce.
+Discord Canary 0.0.203 (11719) on Windows 10 Pro 64-bit (1709).
+
+Tarek#1337 - Bug Bot on 2018-03-08T12:31:54.926Z
+
+
+### Can reproduce.
+Canary 0.0.203 [11719] Windows 10 Home x64
+
+Gimo#7777 - Bug Bot on 2018-03-08T12:31:59.940Z
+
+
+### Can reproduce.
+CR Canary 11753 Win10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-03-08T12:32:04.948Z
+
+
+### Can reproduce.
+Windows 10 Home x64,  Discord Canary 0.0.203 11753 | If you're having problems with League of Legends connection, try this: 1. Close Discord (close on the top right corner, don't fully close it); 2. Open League of Legends
+3. Login to your account
+4. Re-open League of Legends through the taskbar
+
+PillGP#2767 - Bug Bot on 2018-03-09T00:51:49.917Z
+
+
+### Verified
+
+Reproduced on: Win 10 Pro x64  Version 1709 OS Build 16299.248
+Build info: [BUILD INFO] Release Channel: canary, Build Number: 11798, Version Hash: 5a761db72d294d567d22e9537707574f66ba1bb9 - Jared on 2018-03-09T19:46:10.355Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-03-09T19:46:15.637Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:49.077Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

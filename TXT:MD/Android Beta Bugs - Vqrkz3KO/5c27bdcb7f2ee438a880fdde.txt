@@ -1,0 +1,101 @@
+[Archived] "Account settings updated successfully" toast when changing profile picture after hitting the limit (https://trello.com/c/dC00nVdO)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-12-29T18:32:43.809Z
+Latest Update: 2019-02-10T10:00:02.788Z
+
+Reported by sloth_.on._tabasco#9015
+
+####Steps to reproduce:
+- Change pfp continuously until you hit the limit  
+- Go to settings > my account > remove (under Current pfp) this would bring you to the default avatar 
+- Hit save (this would show the toast that you're changing profile pictures too quickly) 
+- Hit save again
+
+####Expected result:
+Should show you the same rate limit toast
+####Actual result:
+Shows "account settings have been successfully updated" toast and changes avatar back to the old one
+####Client settings:
+Alpha 8.2.2
+####System settings:
+ASUS Zenfone max pro m1 Android 8.1.0
+
+25331
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-29T18:32:43.809Z
+
+
+### Can reproduce.
+Google pixel 3, Android 9.0.0, Alpha 8.2.2
+
+phencyclidine father#0986 - Bug Bot on 2018-12-29T18:32:51.318Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy S8, Android 8.0.0, Discord alpha 8.2.2.
+
+SerbianPG#2287 - Bug Bot on 2018-12-29T18:32:56.328Z
+
+
+### Can reproduce.
+Can repro, Pixel 3 XL, Android 9 PQ1A.181205.006, Discord 8.2.2
+
+ginkoid#8888 - Bug Bot on 2018-12-29T18:33:01.295Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8,Android 8.0.0,Discord Alpha 8.2.2
+
+Octillion#6666 - Bug Bot on 2018-12-29T19:08:06.084Z
+
+
+### Can reproduce.
+CR. Alpha 8.2.2 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#2019 - Bug Bot on 2018-12-29T19:22:17.722Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 8.1 (Oreo) • Discord Alpha 8.2.2 (822)
+
+FoxyKero#6969 - Bug Bot on 2018-12-29T19:30:33.637Z
+
+
+### Can't reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Beta 8.2.1
+
+charleskimbac#6492 - Bug Bot on 2018-12-31T21:01:50.267Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 8.2.2 - Clayton on 2019-01-05T09:24:28.000Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-05T09:24:36.100Z
+
+
+### Can reproduce.
+Xiaomi Pocophone F1 • Android 9 with MIUI Global 10.1 • Discord 8.2.2
+
+dragiceviccv#1312 - Bug Bot on 2019-01-06T00:00:15.201Z
+
+
+### Can reproduce.
+Xiaomi Mi3W / Android 7.1.2 / LineageOS
+
+Hawlucha#2061 - Bug Bot on 2019-01-11T09:51:12.520Z
+
+
+### Archived by Bug Bot on 2019-02-10T10:00:02.799Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

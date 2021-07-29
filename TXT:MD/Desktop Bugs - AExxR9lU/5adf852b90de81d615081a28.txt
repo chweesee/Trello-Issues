@@ -1,0 +1,74 @@
+[Archived] new unread message from channel list appears and stays (https://trello.com/c/wW1eG3vB)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-24T19:27:39.752Z
+Latest Update: 2018-07-11T18:37:27.011Z
+
+Reported by BakugouDeku#0602
+
+####Steps to reproduce:
+- go to a channel in your server 
+- try to experiment on scrolling the channel list down. make sure that the channel list is long enough to reproduce it properly 
+- start chatting 
+- watch out for unread messages in the channel list. click it and scroll down.
+
+####Expected result:
+the unread message disappears if the channel is declared as read.
+####Actual result:
+the unread message stays even if you clicked the unread message at the channel list.
+####Client settings:
+Canary 14021
+####System settings:
+Windows 10 Home SL 1709 x64
+
+11169
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-24T19:27:39.752Z
+
+
+### BakugouDeku#0602 - undefined added by Bug Bot on 2018-04-24T19:27:42.812Z
+
+
+### Can reproduce.
+Windows 10 Version 1709, x64 - Discord Canary 14021
+
+Homie PinkGuy#1386 - Bug Bot on 2018-04-24T19:27:47.650Z
+
+
+### Can reproduce.
+this seems to actually be caused if your client receives a message in the small window between you sending a message and the server confirming or by changing to a different channel/server before the server confirmed. the channel must be scrolled away for it to show the current channel is unread Windows 10 1709 x64, Canary build 14045
+
+AEnterprise#4693 - Bug Bot on 2018-04-24T19:27:52.669Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 bits - Discord Stable 14027
+
+Eleiber#8347 - Bug Bot on 2018-04-24T19:27:57.672Z
+
+
+### Cannot reproduce.  - Clayton on 2018-04-26T22:59:56.996Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-04-26T23:00:01.473Z
+
+
+### Archiving as this ticket has been CNR for more than 30 days. - Jared on 2018-07-06T18:32:04.494Z
+
+
+### Archived by Jared on 2018-07-06T18:32:06.491Z
+
+
+### The video attachment was invalid so I removed it - Jared on 2018-07-11T18:37:27.013Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

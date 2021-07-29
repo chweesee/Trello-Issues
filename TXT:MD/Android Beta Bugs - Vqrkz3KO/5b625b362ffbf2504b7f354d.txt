@@ -1,0 +1,71 @@
+[Archived] In "Join a server" screen, full Discord server URLs that contains uppercase characters before the invite code aren't recognized as valid invite (the Join button won't unlock) (https://trello.com/c/qDpXMg4h)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-02T01:15:34.389Z
+Latest Update: 2018-09-08T23:30:03.576Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Scroll down in server list 
+- Tap + button and Join a server 
+- Input a full server URL with an uppercase character in the domain name, e.g https://diScord[.]gg/invitecode 
+- Tap Join
+
+####Expected result:
+It shouldn't be case sensitive so the invite should count as valid and let you go to invite screen
+####Actual result:
+The link isn't recognized, the Join button is still locked as if you typed nonsense stuff
+####Client settings:
+Discord Alpha 7.2.1
+####System settings:
+Huawei Mate 9 Android 8.0
+
+16695
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T01:15:34.389Z
+
+
+### Can reproduce.
+CR. Samsung Galaxy S6, Android 7.0.0 - Discord Alpha 7.2.1
+
+Hole#0001 - Bug Bot on 2018-08-02T01:15:41.711Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 721
+
+Xander#0259 - Bug Bot on 2018-08-02T01:15:46.711Z
+
+
+### Can reproduce.
+can reproduce▪Samsung Galaxy Note 8, Android 8.0 - Android Alpha 7.2.1
+
+Danijel#9000 - Bug Bot on 2018-08-02T01:15:51.680Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 7.2.1 (721) - Android 5.1
+
+Diogolo#5292 - Bug Bot on 2018-08-02T10:00:15.537Z
+
+
+### verified, 7.2.2, android 7.0, samsung s6 edge - Clayton on 2018-08-03T00:34:33.435Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-09T23:04:01.887Z
+
+
+### Archived by Clayton on 2018-09-08T23:30:03.579Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

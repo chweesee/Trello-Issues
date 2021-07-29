@@ -1,0 +1,59 @@
+Discord requires glibc 2.27 for the discord_voice module, meaning that any ubuntu version before 18.04 will not work (https://trello.com/c/ajrn897L)
+
+None
+
+Created: 2019-04-20T10:56:16.371Z
+Latest Update: 2019-04-26T20:27:34.783Z
+
+Reported by mark9064#4401
+
+####Steps to reproduce:
+- Use a ubuntu version before 18.04 (e.g 16.04 LTS 
+- Start discord
+
+####Expected result:
+Voice is supposed to work
+####Actual result:
+Voice is disabled and there is a red banner telling you discord is corrupt, while in the log there are many errors
+####Client settings:
+Canary on Linux 0.0.74 build 36101
+####System settings:
+LM 18.3 (ubuntu 16.04) 4.15.0-47-generic
+
+33085
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-20T10:56:16.371Z
+
+
+### Can reproduce.
+Admin approving due to the severity of the bug, and it will probably be stuck in the queue for a while, sending it to devs right away.
+
+Tarek#1337 - Bug Bot on 2019-04-20T10:56:23.757Z
+
+
+### Moved from User Reported to Notable Issues by Tarek on 2019-04-20T10:56:33.815Z
+
+
+### Moved from Notable Issues to Claimed Fixed by Ben Morse on 2019-04-22T17:07:08.770Z
+
+
+### Can't reproduce.
+Cannot reproduce anymore LM 18.3 (ubuntu 16.04) 4.15.0-47-generic, Canary 36215
+
+mark9064#4401 - Bug Bot on 2019-04-24T19:33:59.924Z
+
+
+### Moving to verified fixed, reporter can no longer reproduce. - Tarek on 2019-04-26T20:27:31.649Z
+
+
+### Moved from Claimed Fixed to Verified Fixed by Tarek on 2019-04-26T20:27:34.763Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

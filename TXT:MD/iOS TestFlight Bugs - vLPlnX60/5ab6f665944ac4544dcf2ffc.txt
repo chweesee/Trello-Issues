@@ -1,0 +1,66 @@
+[Archived] Request Desktop Site button in the in-app browser isn't changing User Agent (https://trello.com/c/QU80TBR0)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-25T01:07:49.706Z
+Latest Update: 2019-06-20T17:38:45.040Z
+
+Reported by HeroGamers#0001
+
+####Steps to reproduce:
+- Make sure you have the in-app browser selected 
+- Post a link to a website that has a mobile version and a desktop version (like Discord's website) 
+- Open the website in the in-app browser 
+- When the website loads click the share button 
+- Click the Request Desktop Site button (in bottom bar of icons)
+
+####Expected result:
+If the site has a Desktop site, it will load the Desktop site
+####Actual result:
+The site 'reloads' going back to the mobile version of the site
+####Client settings:
+TestFlight 2.2.6 (3440)
+####System settings:
+iPhone 5s, iOS 10.0.1
+
+9849
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-25T01:07:49.706Z
+
+
+### Can reproduce.
+CR; iPhone 7 IOS 11.3 TF 2.2.6(3440) worked with the discord website
+
+korzq#0001 - Bug Bot on 2018-03-25T01:07:57.342Z
+
+
+### Can reproduce.
+CR iPhone 6 iOS 10.3.2 TestFlight Build (2.2.6) (3440) It's most likely iOS 10 only
+
+Kuuhaku#4503 - Bug Bot on 2018-03-25T01:08:02.140Z
+
+
+### Can reproduce.
+can repro: iPhone 6s Plus, iOS 11.2.6. TestFlight 2.2.6 (3440)
+
+ZenKing#2104 - Bug Bot on 2018-03-25T01:08:07.136Z
+
+
+### Verified.  - Clayton on 2018-03-30T23:14:54.639Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-30T23:15:01.452Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:58.319Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

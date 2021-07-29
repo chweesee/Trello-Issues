@@ -1,0 +1,53 @@
+[Archived] Posting an emoticon in a masked link content through a webhook prevents the channel where the webhook posted the link from loading (https://trello.com/c/LfmBl24v)
+
+None
+
+Created: 2016-11-13T10:34:49.774Z
+Latest Update: 2017-10-17T20:21:36.633Z
+
+Reported by KockaAdmiralac#9306
+
+####Steps to reproduce: 
+- use Canary or PTB, the issue isn't present in the stable build 
+- Create a webhook 
+- Post on the webhook with {content: "[:emoticon:](link)"} 
+- Refresh your client (CTRL+R) 
+- Look at the channel 
+
+####Expected result:
+ The channel loads 
+####Actual result:
+ The channel won't load and there's an error in the console
+
+Card Log
+========
+### Added by Jared on 2016-11-13T10:34:49.774Z
+
+
+### 148231501413089280 - http://<https://cdn.discordapp.com/attachments/197038439483310086/247300180142063626/unknown.png> added by Jared on 2016-11-13T10:35:25.564Z
+
+
+### 148231501413089280 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/582841c9e8fc8b13d5a25099/f5367d10f2658700c7e583d077292ede/unknown.png added by Jared on 2016-11-13T10:39:58.159Z
+
+
+### This should be fixed. - Jake Heinz on 2016-11-29T08:27:59.409Z
+
+
+### Moved from User Reported Bugs to Fixed by Jake Heinz on 2016-11-29T08:28:03.232Z
+
+
+### Moved from Fixed to Verified Fixed by Jared on 2016-11-30T18:59:42.516Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:21:35.654Z
+
+
+### Archived by Jared on 2017-10-17T20:21:36.636Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

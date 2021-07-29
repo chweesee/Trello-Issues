@@ -1,0 +1,110 @@
+[Archived] editing channel overrides for 2 different user shows both edits as overrides for the first User in Audit log (https://trello.com/c/QR5XmHkp)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-23T18:17:34.309Z
+Latest Update: 2019-01-11T00:01:19.036Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- make sure, 2 users are already listed in channel overrides
+
+- edit a channel permission of the first user 
+
+- edit a channel permission of the second user 
+
+- observe audit log
+
+####Expected result:
+It should show 2 different edits, for each user one
+####Actual result:
+both edits are shown as edit of the first user's perms
+####Client settings:
+Canary 26772
+####System settings:
+Windos 10 pro x64
+
+22000
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-23T18:17:34.309Z
+
+
+### Can reproduce.
+[CR] Razer Blade Pro - Ubuntu 18.04.1 LTS, Gnome 3, Canary 26772 - entries were saved properly in channel info, but not audit log.
+
+KazWolfe#2896 - Bug Bot on 2018-10-23T18:17:41.663Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro, x64 - Discord Canary Build 26772
+
+dragiceviccv™#1786 - Bug Bot on 2018-10-23T18:17:46.718Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64 (17134). Discord Canary 26772
+
+coolalmostchilly#2019 - Bug Bot on 2018-10-23T18:17:51.651Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26772
+
+Hole#0001 - Bug Bot on 2018-10-23T20:35:50.736Z
+
+
+### Can reproduce.
+Windows 10 Enterprise 64-bit, Discord Stable Build 26659
+
+AmirAmani#0102 - Bug Bot on 2018-10-23T20:37:54.216Z
+
+
+### verified, macos 10.12.6, canary 26772 - Clayton on 2018-10-23T20:41:37.540Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-23T20:42:05.073Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 26772
+
+Solo#0007 - Bug Bot on 2018-10-23T21:41:07.301Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26847
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-24T08:28:08.022Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26847
+
+Neiron#7777 - Bug Bot on 2018-10-24T09:54:43.782Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803 - - Canary 26902
+
+Solo#0007 - Bug Bot on 2018-10-25T00:18:51.591Z
+
+
+### Can reproduce.
+Windows 10.0 Build 17134, Discord Build 26847
+
+aditya#1234 - Bug Bot on 2018-10-25T00:20:37.542Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:19.039Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

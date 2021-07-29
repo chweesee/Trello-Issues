@@ -1,0 +1,83 @@
+[Archived] {Overlay} trusted domains don't sync with the app when trusted in the the overlay while they do when done the other way around (https://trello.com/c/K5WKS08g)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-01-23T21:03:18.648Z
+Latest Update: 2019-04-28T18:29:32.158Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- open the overlay in a supported game 
+- ask your best friend to send you link from a weird domain you're never heard of before 
+- click on the link and trust the domain when prompted with "Links are spoopy" 
+- click the same link in the app and observe
+
+####Expected result:
+since I've already trusted the domain it shouldn't warn me again in the app
+####Actual result:
+you get a "Links are spoopy" popup for a link from a domain you've already trusted
+####Client settings:
+Canary 0.0.228 - 31048
+####System settings:
+Windows 10 home x64 v. 1803
+
+26538
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-23T21:03:18.648Z
+
+
+### Can reproduce.
+Can reproduce, Canary: 31082, Windows 7 64-bit
+
+Skyla#9999 - Bug Bot on 2019-01-23T21:03:26.310Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Discord Canary 31183
+
+1Storm#0001 - Bug Bot on 2019-01-23T21:03:31.323Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x,Canary 31183
+
+Octillion#6666 - Bug Bot on 2019-01-23T21:03:36.237Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 31241
+
+Zacatero#0001 - Bug Bot on 2019-01-24T00:31:08.707Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.229 Build 31241
+
+Daffyduck#5364 - Bug Bot on 2019-01-24T09:38:40.707Z
+
+
+### verified, win10, canary 31241 - Clayton on 2019-01-24T12:51:37.080Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803 canary, Build Number: 31241
+
+Spooker#0001 - Bug Bot on 2019-01-24T12:55:36.681Z
+
+
+### Archived by Bug Bot on 2019-02-23T13:00:03.666Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Ene on 2019-04-28T18:29:32.020Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,68 @@
+[Archived] Overlay doesnt appear on overwatch. Bug Bounty: <https://goo.gl/MpZjA9> (https://trello.com/c/kbRTv9hm)
+
+None
+
+Created: 2016-12-03T12:49:01.233Z
+Latest Update: 2016-12-06T22:25:19.704Z
+
+Reported by Maxie#2334
+
+####Steps to reproduce: 
+- Restart computer if already on. (Since i played OW this morning trying to repro this bug) 
+- Open up overwatch. See no overlay. 
+- to get overlay, open up GeForce Experiance and click revert settings (windowed mode) 
+- Load up overwatch, see overlay. 
+- change to Fullscreen. Overlay works again. 
+
+####Expected result:
+ Doesnt need to change to windows mode outside of overwatch to get the overlay. 
+####Actual result:
+ Needs to change Overwatch to windows mode outside of OW.
+
+Card Log
+========
+### Added by Jared on 2016-12-03T12:49:01.233Z
+
+
+### Maxie#2334 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5842bf3d7689e9e773b16626/f4ed62012f66570c42b6f2de22f89595/fbnffa.png added by Jared on 2016-12-03T12:49:58.082Z
+
+
+### Maxie#2334 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5842bf3d7689e9e773b16626/df2618517d05b7b7a920e6f7dea884d1/ubsmmr.jpg added by Jared on 2016-12-03T12:50:21.358Z
+
+
+### Maxie#2334 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5842bf3d7689e9e773b16626/cdbd2525079bf4b66746d779e334415a/azcegk.jpg added by Jared on 2016-12-03T12:51:17.406Z
+
+
+### Change fullscreen in game for the last part.
+
+Maxie#2334 - Jared on 2016-12-03T12:54:46.758Z
+
+
+### Can reproduce.
+Windows 8.1, canary
+
+Yatogami#1745 - Jared on 2016-12-04T03:41:38.884Z
+
+
+### Can reproduce.
+Discord Canaray Windows10
+
+HayWireRain#7021 - Jared on 2016-12-06T00:30:44.735Z
+
+
+### Alright, I can confirm that the overlay doesn't show up on initial launch after a restart. That's definitely a bug.
+
+However, pressing the keybind twice and/or closing out the program and relaunching it, the overlay appears correctly.  I don't have to run GeForce Experience at all.
+
+From what I've seen this is a different issue than what was reported in bug-bounties. - Jared on 2016-12-06T22:15:22.448Z
+
+
+### Archived by Jared on 2016-12-06T22:25:19.729Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

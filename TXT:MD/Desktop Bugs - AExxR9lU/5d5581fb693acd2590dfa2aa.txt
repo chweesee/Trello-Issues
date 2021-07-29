@@ -1,0 +1,114 @@
+Embed messages that have had embeds removed stack on top of each other (https://trello.com/c/la03hiFx)
+
+None
+
+Created: 2019-08-15T16:02:03.876Z
+Latest Update: 2020-07-16T21:26:04.825Z
+
+Reported by myacorn#6534
+
+####Steps to reproduce:
+- Have permissions 
+- Have a bot send a few repeated embed-only messages 
+- Press the X and remove them 
+- Notice how there is a "blank" message (this is normal, I believe) 
+- Hover and slide your cursor over the blank area 
+- Observe how multiple the "add reaction" and menu buttons still appear
+
+####Expected result:
+There should only be one blank message with no menus
+####Actual result:
+All the menus stack in a small space
+####Client settings:
+Desktop Canary 43618
+####System settings:
+MacOS (10.12.6 Sierra)
+
+42076
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-15T16:02:03.876Z
+
+
+### Can reproduce.
+CR Lenovo × Windows 10 Home x64 1903 × Canary 43618
+
+B.O.S.S#0251 - Bug Bot on 2019-08-15T16:02:11.361Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 43618
+
+AHkhan#6518 - Bug Bot on 2019-08-15T16:02:16.490Z
+
+
+### Can reproduce.
+CR MacBook Air (11-inch, Early 2015) | MacOS 10.13.6 | Canary 43618
+
+username#6666 - Bug Bot on 2019-08-15T16:02:21.394Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.175), Discord Canary 43618
+
+Kissa#1337 - Bug Bot on 2019-08-15T16:07:29.657Z
+
+
+### Can reproduce.
+macOS 10.14.5, Canary 43618
+
+Noah#0004 - Bug Bot on 2019-08-15T16:16:09.513Z
+
+
+### Can reproduce.
+Canary 43618, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-08-15T17:28:05.542Z
+
+
+### Can reproduce.
+Discord client: 43372 (canary). Host: 0.0.252. System information: Windows 10 Home with a 64 bit processor.
+
+Talon#1337 - Bug Bot on 2019-08-15T21:18:51.525Z
+
+
+### Can reproduce.
+MacOSX 10.14.6; Release Channel: canary, Build Number: 43618, Version Hash: e30c50300db286a24b2c4759d3486220b8a2863a
+
+Emma#6775 - Bug Bot on 2019-08-15T23:59:24.316Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 43738 (Host 0.0.254)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-16T01:28:37.430Z
+
+
+### Can reproduce.
+MacBook Air Early 2015 on macOS Mojave 10.14.2, Canary 43723
+
+Brightness™#0001 - Bug Bot on 2019-08-16T12:11:57.697Z
+
+
+### Can't reproduce.
+Windows 10 Pro 64-bit, Discord Canary 43975 v0.0.305, Version Hash 2a8cca1ab698ba17f8cf490c7af05df87fcd47ca
+
+result = None#2323 - Bug Bot on 2019-08-20T20:55:11.523Z
+
+
+### Spooker#0001 - https://youtu.be/0FdLAs3RsXI added by Bug Bot on 2019-11-16T19:36:26.956Z
+
+
+### Can reproduce.
+CR Windows 10 x64 Build 1803 stable, Build Number: 49715
+
+Spooker#0001 - Bug Bot on 2019-11-16T19:37:17.978Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

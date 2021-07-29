@@ -1,0 +1,91 @@
+[Archived] When the next hour has started in client time but not yet in server time, message breaks between a single user's messages repeatedly appear and disappear (https://trello.com/c/QKsyJk1A)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-27T01:00:18.349Z
+Latest Update: 2018-10-22T20:16:01.547Z
+
+Reported by Haddock#3102
+
+####Steps to reproduce:
+- Set PC clock 1 minute ahead 
+- Find a channel where no one else is talking (might interrupt test) 
+- Send a message right before the hour rolls over 
+- Send messages after
+
+####Expected result:
+The server just inserts the message break when *it* thinks it's time, since this would just lead to one delayed message break sometimes on the hour
+####Actual result:
+Each time a new message is sent until the server's hour also rolls around, a message break appears, then disappears
+####Client settings:
+0.0.298
+####System settings:
+Win 10 x64
+
+3661
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-27T01:00:18.349Z
+
+
+### Can reproduce.
+was time consuming | Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-27T01:00:25.824Z
+
+
+### Can reproduce.
+Browser Discord (Chrome v5)
+
+ExpiredFood#8207 - Bug Bot on 2017-08-27T01:00:30.813Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163, Win 10 Pro x64
+
+Snowman#7978 - Bug Bot on 2017-08-27T01:00:35.843Z
+
+
+### Can reproduce.
+Windows 7 32 Bit | CR
+
+Kaden#1156 - Bug Bot on 2017-08-27T01:24:41.696Z
+
+
+### Snowman#7978 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59a219a29fdcb741117b2ce3/5a46018f65f531b65e0c99b2ca736325/TY9jymz.gif added by Bug Bot on 2017-08-27T01:36:56.199Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 0.0.163
+
+Speed#5138 - Bug Bot on 2017-08-27T01:41:47.776Z
+
+
+### Can't reproduce.
+NAB. It is intended to do message break appear then disappear. The message IDs are prior to Discord's clock, not user's.
+
+TTtie#4900 - Bug Bot on 2017-08-27T07:17:23.402Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-04T23:12:26.255Z
+
+
+### Verified.  - Clayton on 2017-09-22T00:59:46.195Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-22T00:59:52.250Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:01.550Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

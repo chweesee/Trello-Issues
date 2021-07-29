@@ -1,0 +1,47 @@
+User Discriminators are no longer censored in Server & Channel Settings Invite Tab while Streamer Mode is enabled (https://trello.com/c/wHifpDA5)
+
+None
+
+Created: 2019-09-04T19:04:53.858Z
+Latest Update: 2020-03-28T13:26:28.599Z
+
+####Steps to reproduce:
+- Enable Streamer Mode (and make sure that "Hide Personal Information" is toggled on)
+- Create an Invite for your Server/Channel
+- Go to the Server or Channel Settings (of the channel you created an invite with) and click on the Invite Tab
+- Observe
+
+####Expected result:
+The Discriminator should not be shown, as Streamer Mode is supposed to hide it
+####Actual result:
+The Discriminator can be seen, even with Streamer Mode on
+####Client settings:
+Discord Canary 45050
+####System settings:
+Windows 10 Pro x64
+
+Card Log
+========
+### Added by Aeria on 2019-09-04T19:04:53.858Z
+
+
+### uhNLDp4.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d700ad5085d25621a58ae58/f51f5b896b72186d4e0e9e9eb6c25993/uhNLDp4.png added by Aeria on 2019-09-04T19:51:48.560Z
+
+
+### Moved from Light Theme Bugs to Claimed Fixed, needs Verification by Emmy Lim on 2019-09-05T18:15:41.543Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909 - Discord Canary 0.0.263 Build 56900
+Moving to reopened! - Daffyduck on 2020-03-28T13:26:19.529Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Daffyduck on 2020-03-28T13:26:28.574Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

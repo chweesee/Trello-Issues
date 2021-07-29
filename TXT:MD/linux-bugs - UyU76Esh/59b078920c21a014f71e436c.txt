@@ -1,0 +1,87 @@
+[Archived] Mouse movement causes high CPU usage (https://trello.com/c/d4NZPRKj)
+
+None
+
+Created: 2017-09-06T22:37:06.500Z
+Latest Update: 2017-10-26T23:04:42.154Z
+
+Reported by (304) 508-ANNA#7271
+
+####Steps to reproduce:
+- Open channel, preferably with a lot of elements 
+- Move mouse fairly quickly 
+- Observe CPU usage of Discord in a resource management viewer
+
+####Expected result:
+Little to no change in CPU usage
+####Actual result:
+Increase of CPU usage to 100% (out of 400%)
+####Client settings:
+Discord Stable, 0.0.2
+####System settings:
+Xubuntu 17.04
+
+3937
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-06T22:37:06.500Z
+
+
+### JBYoshi#5551 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/59b078920c21a014f71e436c/f1308aaec93b3c09db6708ed06d52a39/tK0XCYX.png added by Bug Bot on 2017-09-06T22:37:09.358Z
+
+
+### Can reproduce.
+Linux Mint 18.2 Cinnamon
+
+Sergio+#4987 - Bug Bot on 2017-09-06T22:37:13.922Z
+
+
+### Can reproduce.
+Linux Mint 18.2 Cinnamon 64-bit. Easier to reproduce when using compact mode and the full height of the screen.
+
+JBYoshi#5551 - Bug Bot on 2017-09-06T22:37:18.887Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.24 (Build 3901) on Linux Ubuntu  16.04.3
+
+Tarek1337#0379 - Bug Bot on 2017-09-06T22:37:23.871Z
+
+
+### Can reproduce.
+Discord Canary 0.0.24 (Build 4175) on Void Linux glibc amd64
+
+gio#0335 - Bug Bot on 2017-09-13T15:56:33.967Z
+
+
+### Can reproduce.
+Linux Mint 18 + Openbox
+
+cloudrac3r#5547 - Bug Bot on 2017-09-29T19:56:27.522Z
+
+
+### Can reproduce.
+Discord: Canary, Distro: Debian Buster (Testing)
+
+nathanielcwm#3522 - Bug Bot on 2017-10-04T09:53:12.806Z
+
+
+### Can reproduce.
+Linux Mint 18.2 amd64, KDE Plasma 5.8.7
+
+outfrost#5543 - Bug Bot on 2017-10-13T13:25:42.803Z
+
+
+### Dupe of https://trello.com/c/Uz4sutaR/1259-moving-cursor-around-in-discord-window-makes-cpu-spike - Jared on 2017-10-26T23:04:40.490Z
+
+
+### Archived by Jared on 2017-10-26T23:04:42.157Z
+
+List
+====
+User Reported
+
+Members
+=======
+None

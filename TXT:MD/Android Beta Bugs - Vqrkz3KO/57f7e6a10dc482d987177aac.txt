@@ -1,0 +1,63 @@
+[Archived] Android media files not saving correctly. (https://trello.com/c/4fkgM3QE)
+
+None
+
+Created: 2016-10-07T18:17:05.110Z
+Latest Update: 2017-10-02T16:44:02.463Z
+
+1. Drifterhawk (392445)
+
+"Not sure if this is a bug or intention but when opening images from chat in a web browser, it doesn't include the file extension. I open in browsers to save since there isn't another way at the moment and after I save, I have to find the download and add the jpg extension myself. Whether this is a bug or working as intended, please create a way to save images without having to do the extra work of fixing the files. Example pictures attached below."
+
+
+2. Magnet (392653)
+
+"Sony Xperia z5. Newest version of mobile Discord as far as I know. 
+About a week ago I noticed that, when saving a file through Discord on mobile, it distorts the filename to such an extent that the file loses its type and has to be renamed entirely. Also means that anything I have saved from Discord cannot be reused until it's been through a computer or similar. It also seems like Discord deletes these files from my device if I upload them to a text chat."
+
+3. https://twitter.com/NaNitaMuscaria/status/785245404329803776
+
+Card Log
+========
+### Added by Kendall on 2016-10-07T18:17:05.110Z
+
+
+### @andygarron1 I'm filing this here just incase. Jake W said that you were aware of the bug (Files not saving properly on Android). - Kendall on 2016-10-07T18:18:43.591Z
+
+
+### This is reproducible on specific phones.  I have a Sony Xperia Z that this happens with. - Jared on 2016-10-12T21:53:41.008Z
+
+
+### Imported from https://trello.com/b/5751cc415e9c1ab5674e8c99 by Jared on 2016-10-12T21:53:48.950Z
+
+
+### https://trello.com/c/flUtTnFS/26-most-of-the-pictures-are-not-going-to-gallery-i-can-only-find-one-picture-and-thats-it-the-photos-are-being-downloaded-but-not-i# 
+
+Another report - Cole Norman on 2016-10-13T18:50:04.661Z
+
+
+### I believe this is only happening w/ attachment type embeds (directly uploaded).
+
+Linked embeds should be be saving using the original URL and not the discord proxy (the cause of the bug - our proxy service for images does not use file extensions and Android is too dumb to figure out it's an image).
+
+A fix has been made and should be live in the next alpha 3.1.4 - Miguel Gaeta on 2016-10-24T08:01:44.579Z
+
+
+### Fixed as per Miguel's comment. - Jared on 2017-01-20T23:49:50.502Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2017-01-20T23:49:57.184Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:44:01.121Z
+
+
+### Archived by Jared on 2017-10-02T16:44:02.465Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

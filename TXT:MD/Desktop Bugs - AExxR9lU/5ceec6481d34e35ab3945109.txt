@@ -1,0 +1,105 @@
+Discord prevents computer and monitor from sleeping when internet connection is lost on Windows (https://trello.com/c/CeG9Pbsm)
+
+None
+
+Created: 2019-05-29T17:50:00.969Z
+Latest Update: 2020-07-16T21:26:04.029Z
+
+Reported by Psykus#6920
+
+####Steps to reproduce:
+- Have Discord running 
+- Disconnect from the internet 
+- Let the computer idle
+
+####Expected result:
+Computer should automatically turn off monitor and/or sleep when left idle and Discord is running
+####Actual result:
+Computer stays awake and monitor stays on. Running powercfg in Windows shows Discord as playing video
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 38594, Version Hash: 7976f88a87902aec1c900cbf24488e0e7be79eea
+####System settings:
+Windows 7 SP1
+
+35553
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-29T17:50:00.969Z
+
+
+### kabii#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ceec6481d34e35ab3945109/2d901310221f0c2b76f6dcb845529406/unknown.png added by Bug Bot on 2019-05-29T17:50:03.984Z
+
+
+### Can reproduce.
+CR, Windows 10 v1809, Build Number: 38594
+
+zynia#5883 - Bug Bot on 2019-05-29T17:50:08.551Z
+
+
+### Can reproduce.
+CR - Canary 38674, Windows 10 Home x64 Build: 17134
+
+Fyffey#0001 - Bug Bot on 2019-05-29T17:50:13.479Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 38674.
+
+AHkhan#0002 - Bug Bot on 2019-05-29T17:50:18.503Z
+
+
+### Can't reproduce.
+Windows 10 home (Build 17763) | Discord stable V0.0.305 | Discord Canary V0.0.238
+
+Mennoplays#0645 - Bug Bot on 2019-05-29T19:10:50.403Z
+
+
+### Can reproduce.
+Seems to work even when Discord is the inactive window but not when Discord is minimized. Discord PTB 38705; Windows 7 Professional
+
+analog#9481 - Bug Bot on 2019-05-29T21:33:14.389Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.238 Build 38751
+
+Daffyduck#5364 - Bug Bot on 2019-05-30T00:13:04.511Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 38751
+
+Lily#2624 - Bug Bot on 2019-05-30T14:26:14.751Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38751
+
+Xylium#5800 - Bug Bot on 2019-05-30T17:54:57.457Z
+
+
+### Can reproduce.
+Canary: 38863, Host 0.0.238, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-05-31T09:05:33.250Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38863 (Host 0.0.238)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-31T15:38:12.687Z
+
+
+### Can reproduce.
+macOS 10.14 - Discord Canary 0.0.225 (0.0.225) - Activity Viewer reports Discord as "preventing sleep". Regardless of whether internet connection is available or not. Does NOT happen when Discord window is minimized.
+
+cryptochrome#0101 - Bug Bot on 2019-06-14T13:14:12.202Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

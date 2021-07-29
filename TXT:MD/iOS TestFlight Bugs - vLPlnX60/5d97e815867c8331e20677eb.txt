@@ -1,0 +1,85 @@
+Selecting text and the moving both ends of the highlighted selection area to the left of a mention causes the selector to become stuck with nothing selected (https://trello.com/c/Y6pjCCRz)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-10-05T00:47:17.247Z
+Latest Update: 2019-11-07T12:09:32.000Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Type someone’s tag in a channel 
+- Type a few words and then select some text 
+- Drag the beginning of the selection highlight to the left of the @ symbol 
+- Drag the end of the selection highlight to left of the @ symbol 
+- By clicking, move your cursor to anywhere in the middle of the text 
+- By clicking, move your cursor to the end of the message field and type
+
+####Expected result:
+Moving both ends of the selection highlight to before the @ symbol should revert it to a normal cursor (as nothing is selected)
+####Actual result:
+The selection highlight remains, with nothing highlighted and gets stuck, following you to other channels. Clicking the end of the text will just stop the cursor from displaying. This persists until restart or until you stretch the selection highlight out again and dismiss it by tapping in the message field
+####Client settings:
+TestFlight 3.1.4 (17575)
+####System settings:
+iPhone XR iOS 13.1.2
+
+45187
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-05T00:47:17.247Z
+
+
+### binchlord#0998 - https://youtu.be/Jwjjsw5MqDg added by Bug Bot on 2019-10-05T00:47:19.859Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.4 (17575) - It also makes it difficult to see the highlight after because it disappears even when you type until you select all again and drag it.
+
+.Gloria.#9606 - Bug Bot on 2019-10-05T00:47:24.927Z
+
+
+### Can reproduce.
+iPhone X (iOS 13.1.2), Testflight 3.1.4 (17575)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-05T00:47:29.834Z
+
+
+### Can reproduce.
+CR - iPhone 8 - iOS 13.1.2 - TestFlight 3.1.4 (17575)
+
+zxcmember#0527 - Bug Bot on 2019-10-05T00:47:34.854Z
+
+
+### Can't reproduce.
+Testflight 3.1.4 (17575) IPhone XR, IOS 13.1.2
+
+SplashyFlame#0067 - Bug Bot on 2019-10-05T00:48:15.674Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.2; TestFlight 3.1.4 (17575)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-07T02:37:39.897Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-18T19:00:19.566Z
+
+
+### Moved from Backlog to Text Chat by Pascal on 2019-10-18T21:13:03.280Z
+
+
+### Can't reproduce.
+Can no longer reproduce iPhone XR iOS 13.2 TestFlight 3.1.6 (18021)
+
+binchlord#0998 - Bug Bot on 2019-11-07T12:09:32.013Z
+
+List
+====
+Text Chat
+
+Members
+=======
+None

@@ -1,0 +1,95 @@
+[Archived] Gifs not displaying properly (https://trello.com/c/5Rvvbg4Y)
+
+P2: Fix can wait a while
+
+Created: 2017-01-30T23:52:11.367Z
+Latest Update: 2017-12-02T17:15:59.453Z
+
+Reported by Bunnies McGee#0972
+
+####Steps to reproduce: 
+- Step 1 
+- use any 180px x 180px gif (unknown if larger multiples of 90 cause the same issue) 
+
+####Expected result:
+ Gif displays normally on popup 
+####Actual result:
+ Gif is incorrectly displayed 
+####System settings:
+ Win 10 x64, Most recent stable discord
+
+Card Log
+========
+### Added by Jared on 2017-01-30T23:52:11.367Z
+
+
+### Can reproduce.
+Discord Canary Windows 10 home
+
+Maxie#0713 - Jared on 2017-01-30T23:52:11.889Z
+
+
+### Can reproduce.
+Win10 AU, latest canary /w nitro
+
+Neem#0377 - Jared on 2017-01-30T23:52:13.997Z
+
+
+### Can reproduce.
+Win10H 64 - Canary
+
+Derumisis#7928 - Jared on 2017-01-30T23:52:15.863Z
+
+
+### Seems like its only showing 1 pixel of the gif, and inspect element changing the image size to either 89px or 91px causes it to display "fine"
+
+Bunnies McGee#0972 - Jared on 2017-01-30T23:57:38.114Z
+
+
+### Dabbit Prime#0896 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/588fd1ab920b46b20b0b0f82/1650aa42077722b1742611285c1415a0/b331f1.gif added by Jared on 2017-01-30T23:59:12.175Z
+
+
+### Can reproduce.
+Windows 7 Pro x64, latest Canary
+
+EMT#2524 - Jared on 2017-01-30T23:59:43.930Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-31T00:01:58.451Z
+
+
+### We basically have to rewrite our gif lib to fix this, which is something we are planning on doing anyway.  Just means it'll take a while to fix. - Jared on 2017-01-31T00:02:24.952Z
+
+
+### background-size is being set to 90px 90px, which is the actual issue
+
+Gus#0291 - Jared on 2017-01-31T01:15:33.865Z
+
+
+### Gus#0291 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/588fd1ab920b46b20b0b0f82/8324c77a7a68fd4fbe9d522a13eeae81/KHZ0ET added by Jared on 2017-01-31T01:18:21.915Z
+
+
+### Can't reproduce.
+MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-16T19:07:41.351Z
+
+
+### This was fixed a long time ago. - Jared on 2017-10-16T20:46:34.558Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-16T20:46:39.156Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:15:58.098Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:15:59.458Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

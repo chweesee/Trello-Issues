@@ -1,0 +1,103 @@
+[Archived] Timestamps in Embeds are formatted inconsistently (https://trello.com/c/0SeZNurj)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-11-02T17:44:58.826Z
+Latest Update: 2018-03-14T13:51:10.082Z
+
+Reported by Vampire#3567
+
+####Steps to reproduce:
+- receive a message with an embed with a timestamp 
+- look at the embed in the Web UI
+
+####Expected result:
+Embed timestamp is formatted the same as message timestamp
+####Actual result:
+The message timestamp shows like `gestern um 08:48 Uhr`, the embed timestamp shows like `Mo. Okt. 30., 2017 at 05:20 PM`. This means the format is mixed german / english. Weekday and month are in german, the "at" is in english, the time format is 12-hour format, not 24-hour format, ...
+####Client settings:
+Discord Webclient
+####System settings:
+Win 10 x64
+
+6030
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-02T17:44:58.826Z
+
+
+### Can reproduce.
+Both Webapp and canary, Build Number: 6746; German localisation; Windows 10 Home 64-Bit
+
+Mika K.#2980 - Bug Bot on 2017-11-02T17:45:06.174Z
+
+
+### Can reproduce.
+CR, embeds show 12h time while language is set to English UK (messages properly show 24h timestamps). Windows 10 Pro 1607 x64, Canary 0.0.169 (Build 6746)
+
+juj#5114 - Bug Bot on 2017-11-02T17:45:11.137Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.1, Discord Canary 0.0.158 (Build: 6746). Also tested it with German.
+
+Pascal#0929 - Bug Bot on 2017-11-02T17:45:16.170Z
+
+
+### Verified.  - Clayton on 2017-11-28T23:36:40.150Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-28T23:36:43.345Z
+
+
+### Can't reproduce.
+Got already fixed, MacBook Pro 13" (2016), macOS High Sierra 10.13.2, Discord Canary 0.0.185 (Build: 9542)
+
+Pascal#0929 - Bug Bot on 2018-01-15T19:15:00.212Z
+
+
+### Can no longer reproduce. Win 10 x64 FCU, Canary build 9542 - Mike Nisbet on 2018-01-15T19:18:37.846Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2018-01-15T19:18:41.244Z
+
+
+### Can't reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3 | Discord Canary 0.0.185 (Build: 10018)
+
+Pascal#0929 - Bug Bot on 2018-01-28T20:17:09.381Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 10018
+
+mrkirby153#7840 - Bug Bot on 2018-01-28T21:00:33.346Z
+
+
+### Can't reproduce.
+Win 10 Pro x64 (16299), Canary 0.0.201 (10018)
+
+mouse#0091 - Bug Bot on 2018-01-29T12:47:36.201Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-29T12:50:40.648Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-29T12:50:52.458Z
+
+
+### Archiving ticket due to one month of no action.
+ - Alexander (DJScias) on 2018-03-14T13:51:09.456Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:51:10.085Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

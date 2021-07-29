@@ -1,0 +1,42 @@
+[Archived] Clyde sends the wrong message when attempting to send in unauthorized channels (https://trello.com/c/ue9GdaPC)
+
+None
+
+Created: 2016-10-18T11:30:01.163Z
+Latest Update: 2017-10-17T21:09:39.561Z
+
+Steps to Reproduce:
+1)  Go into a channel where you can't send messages
+2) Exploit one of the bugs to try to send a message
+2) Look at Clyde's response
+Expected Result: Clyde should send a message saying that its unauthorized
+Actual Result: Clyde says the recipinet and I don't share a server, but this goes side with another bug where you can actually type and attempt to send messages in unauthorized areas, but that was already reported.
+
+Client Verison: 3.1.2
+System Settings:  Android 5.1 on Tesla Smartphone 6.1
+
+https://www.youtube.com/watch?v=u0txLkYMBXM
+
+Card Log
+========
+### Added by Sam on 2016-10-18T11:30:01.163Z
+
+
+### I'd say this bug is the result of another bug, which is that you can mention bots in webhooks.  Marking this one as Won't Fix, as it'll be fixed when the other one is fixed. - Jared on 2016-10-24T21:28:56.850Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2016-10-24T21:29:00.033Z
+
+
+### Archiving as this ticket as been Won't Fix for over a month. - Mike Nisbet on 2017-10-17T21:09:38.864Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:09:39.564Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

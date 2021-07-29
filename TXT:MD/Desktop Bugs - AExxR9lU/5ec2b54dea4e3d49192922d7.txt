@@ -1,0 +1,76 @@
+Keyboard navigating through the invite to server list with too many servers won't scroll down (https://trello.com/c/RBGKd3du)
+
+None
+
+Created: 2020-05-18T16:18:21.882Z
+Latest Update: 2020-06-09T15:31:54.975Z
+
+Reported by SSalt#5041
+
+####Steps to reproduce:
+- Have a lot of servers until a scrollbar appears in the invite to server menu 
+- Right click a user and hover over invite to server option 
+- Press down arrow to navigate through the servers 
+- Observe
+
+####Expected result:
+Scroll down the list while using the arrow keys
+####Actual result:
+Server list doesn't scroll down while the highlight does
+####Client settings:
+Canary 60400 Host 0.0.264
+####System settings:
+Windows 10 Home Insider x64 v2004 Build 19624.1000
+
+56262
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-18T16:18:21.882Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 60400 (056a222) // This requires around 50+ servers to do. https://i.imgur.com/z0uj6KF.png
+
+Alipoodle#5025 - Bug Bot on 2020-05-18T16:18:29.523Z
+
+
+### Can reproduce.
+CR, canary 60400, Win10 v1709 x64 build 16299.1625 Education, chrome dev 84.0.4143.2. Also occurs when you have a LOT of roles.
+
+hopeless#1227 - Bug Bot on 2020-05-18T16:18:34.504Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909 (10.0.18363), Canary 60400 host 0.0.264
+
+Jean20B#4668 - Bug Bot on 2020-05-18T16:18:39.491Z
+
+
+### Moved from User Reported Bugs to Menu System Revamp by Daffyduck on 2020-05-18T16:23:47.218Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1909, Canary 60530
+
+Lekic#0001 - Bug Bot on 2020-05-20T11:41:52.325Z
+
+
+### Can reproduce.
+[CR] Windows 10 Home x64; Version 1903 (18362.778); Canary (60661) & Linux 3.18.0, Canary (60661)
+
+AmusingDev#7879 - Bug Bot on 2020-05-22T10:49:39.516Z
+
+
+### Can reproduce.
+Stable 61310 (6262c0a) Host 0.0.306 Windows 10 64-Bit (10.0.18363)
+
+YouKyi#5606 - Bug Bot on 2020-06-09T15:31:54.991Z
+
+List
+====
+Menu System Revamp
+
+Members
+=======
+None

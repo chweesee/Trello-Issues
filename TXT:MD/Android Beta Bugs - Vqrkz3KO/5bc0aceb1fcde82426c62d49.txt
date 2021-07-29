@@ -1,0 +1,99 @@
+[Archived] loading animation pops up when you attempt to scroll down from audit log filter that doesn't even fit one screen length. (https://trello.com/c/tls6Fvim)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-10-12T14:17:15.979Z
+Latest Update: 2019-01-01T23:23:24.033Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- Go to audit log, and select a action filter without much logs. Make sure the entire logging for the action you chose fits in 1 screen. 
+- Attempt to scroll down.
+
+####Expected result:
+Nothing, as you have reached the end of the log.
+####Actual result:
+Loading animation appears, even though you have nothing to scroll down on.
+####Client settings:
+Alpha 7.6.8
+####System settings:
+LG Fortune, Android 6.0.1
+
+21129
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-12T14:17:15.979Z
+
+
+### Hole#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bc0aceb1fcde82426c62d49/2f79c7c683bca9b2187a3120ffd7b6f2/Screenshot_2018-10-12-00-08-50.png added by Bug Bot on 2018-10-12T14:17:18.560Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 mini, Android 6.0.1, Alpha 768
+
+Nashorn#3450 - Bug Bot on 2018-10-12T14:17:23.411Z
+
+
+### Can reproduce.
+Can reproduce: Moto G5 Plus, Android 7.0 - Android Alpha 7.6.8
+
+Primus#1337 - Bug Bot on 2018-10-12T14:17:28.417Z
+
+
+### Can reproduce.
+samsung galaxy s8 anrdoid 8; 7.6.8
+
+OrangeM24#5746 - Bug Bot on 2018-10-12T14:17:33.493Z
+
+
+### Can reproduce.
+Sony Xperia XA1, Android 8.0.0, Discord Alpha 7.6.8
+
+🎃👻 MagicA550 👻🎃#2379 - Bug Bot on 2018-10-12T17:47:25.855Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Jeff Cailteux on 2018-10-12T18:43:02.841Z
+
+
+### Can reproduce.
+Axon 7 Mini - Android 7.1.1 - Alpha 7.6.8
+
+Frost#3230 - Bug Bot on 2018-10-13T01:00:34.006Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, MIUI 9.6.5.0 NAMMIFD, Android 7.1.2 N2G47H, Alpha 786
+
+avror#0001 - Bug Bot on 2018-11-04T09:31:24.180Z
+
+
+### Archived by Clayton on 2018-11-08T03:49:32.869Z
+
+
+### Unarchived by Clayton on 2018-11-08T03:49:38.994Z
+
+
+### can repro - Clayton on 2018-11-08T03:49:45.509Z
+
+
+### Moved from Audit Log Bugs to Verified Bugs by Jeff Cailteux on 2018-11-08T20:29:11.520Z
+
+
+### Moved from Verified Bugs to Won't Fix by Jeff Cailteux on 2018-11-08T20:31:15.275Z
+
+
+### Archived due to being inactive in "Won't fix" list for 30+ days - Tarek on 2019-01-01T23:23:22.484Z
+
+
+### Archived by Tarek on 2019-01-01T23:23:24.035Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,68 @@
+[Archived] StreamKit Overlay configuration generator stacks up options in the URL that are meant for other widgets, sometimes breaking due to invalid syntax (https://trello.com/c/koXprAZ8)
+
+None
+
+Created: 2017-08-27T23:37:17.633Z
+Latest Update: 2017-10-30T17:27:01.265Z
+
+Reported by Pointy#9109
+
+####Steps to reproduce:
+- Go to the StreamKit Overlay config page ( https://streamkit.discordapp.com/overlay ) 
+- Ensure your downloaded Discord Client is running 
+- Hit either of the install buttons (you won't actually be installing anything, just connecting to the client) 
+- Configure the server and channel fields in all 3 widget configuration menus 
+- Return to the chat widget screen
+
+####Expected result:
+The widget should work correctly and the URL should only contain fields meant for the widget selected
+####Actual result:
+Notice that the URL provided is filled with flags meant for other widgets, and that the chat widget preview nor the actual URL provided actually work
+####Client settings:
+Web Stable - Chrome Stable x64 60.0.3112.101
+####System settings:
+Win 10 Pro x64 v1607
+
+3738
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-27T23:37:17.633Z
+
+
+### Can reproduce.
+link had things like limit speaking
+
+Rauf#3260 - Bug Bot on 2017-08-27T23:37:25.153Z
+
+
+### Can reproduce.
+CR, link indeed has other widget parts
+
+ks0908#8526 - Bug Bot on 2017-08-27T23:37:30.136Z
+
+
+### Can reproduce.
+CR, link for chat widget had parts for the voice widget too
+
+Speed#5138 - Bug Bot on 2017-08-27T23:37:35.121Z
+
+
+### Can't reproduce.  - Clayton on 2017-09-19T23:58:17.381Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-09-19T23:58:21.851Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:27:00.333Z
+
+
+### Archived by Jared on 2017-10-30T17:27:01.268Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

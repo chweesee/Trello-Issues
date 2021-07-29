@@ -1,0 +1,111 @@
+[Archived] Channel list disappearing when opening New Group DM dialogue and using Quick Switcher (https://trello.com/c/37iIiNPb)
+
+P2: Fix can wait a while,
+High
+
+Created: 2017-06-24T00:19:50.391Z
+Latest Update: 2017-12-02T17:28:10.270Z
+
+Reported by Info Teddy#3737
+
+####Steps to reproduce:
+- Open the New Group DM dialogue, either with Ctrl+Shift+T, or manually going to the friends list and clicking on it 
+- Open the Quick Switcher with Ctrl+T or Ctrl+K, and then go to a text channel in a server from there (no voice channels, DMs, or group DMs). The channel HAS to be in a server that is already loaded/cached in the client, otherwise the client will request the server's data, which will reload the channel list and the bug won't happen
+
+####Expected result:
+Channel list and user list loads properly
+####Actual result:
+Channel list doesn't load at all and you can't click on any channels in it, and it will only load when you move to another channel
+####Client settings:
+Canary 0.0.19
+####System settings:
+Gentoo 64-bit default/linux/amd64/13.0
+
+1844
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-24T00:19:50.391Z
+
+
+### Alex from Alaska#9760 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/594db026d2fba054cdb1a6a7/cd6f770d02b483c59a3f670049531c14/Screenshot_from_2017-06-23_16-11-45.png added by Bug Bot on 2017-06-24T00:19:53.319Z
+
+
+### Can reproduce.
+reproduced on an accident | ArchLinux
+
+Adrian#9492 - Bug Bot on 2017-06-24T00:19:54.964Z
+
+
+### Can reproduce.
+Windows 7 x86, 0.0.157 Canary
+
+Windows Destroyer (Ticha)#2648 - Bug Bot on 2017-06-24T00:19:57.046Z
+
+
+### Can reproduce.
+ arch linux discord 0.19
+
+Alex from Alaska#9760 - Bug Bot on 2017-06-24T00:19:58.956Z
+
+
+### Can reproduce.
+stable 0.0.297
+
+Dream#6962 - Bug Bot on 2017-06-24T00:20:55.241Z
+
+
+### Can reproduce.
+Arch Linux Discord Canary 0.0.19
+
+Adrian#9492 - Bug Bot on 2017-06-24T00:25:45.154Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.157-w
+
+xinitrc#4201 - Bug Bot on 2017-06-24T04:33:41.841Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.157 Windows 10 x64 Creators Update
+
+xinitrc#4201 - Bug Bot on 2017-06-24T04:34:45.528Z
+
+
+### Can reproduce.
+Windows 10 Home x64
+
+Fayne Aldan#2423 - Bug Bot on 2017-06-24T21:44:24.871Z
+
+
+### Can reproduce.
+Macbook Pro 2015 Screen resolution: 15,4-inch (2880 x 1800), MacOS Sierra: Version 10.12.5 Discord Canary 0.0.145
+
+xLars#5484 - Bug Bot on 2017-07-05T22:04:47.647Z
+
+
+### Verified.  - Clayton on 2017-07-06T00:02:40.121Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-06T00:02:56.229Z
+
+
+### I can't reproduce this. - Jared on 2017-10-17T17:57:59.388Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jared on 2017-10-17T17:58:04.743Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:28:08.142Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:28:10.273Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] Green voice sensitivity bar is 1 pixel smaller then the yellow bar. Only works with 80% zoom (https://trello.com/c/sdM3jvZE)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-10-21T19:36:55.109Z
+Latest Update: 2018-10-22T20:16:21.456Z
+
+Reported by TimThe#7618
+
+####Steps to reproduce:
+- go to user settings 
+- go to appearance 
+- set zoom level to 80% 
+- go to voice & video 
+- look at the voice sensitivity bar
+
+####Expected result:
+the green and yellow bar are the same size
+####Actual result:
+you see a small yellow line above the green bar
+####Client settings:
+Windows 10 Pro x64 v1703
+####System settings:
+Canary build 6168, v 0.0.167
+
+5655
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-21T19:36:55.109Z
+
+
+### TimThe#7618 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59eba1d7d8dfe5502396caf6/e8d938689dbc3689904b271c75c0345f/Xg11f41.png added by Bug Bot on 2017-10-21T19:36:57.475Z
+
+
+### Can reproduce.
+Only happens on 80% zoom. Windows 10 Pro x64 Fall Creators Update, Discord Canary 0.0.167 (6168)
+
+Chrees#4389 - Bug Bot on 2017-10-21T19:37:02.550Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1703) & canary 6165, only happens when zoom is set at 80%
+
+Immotay#7475 - Bug Bot on 2017-10-21T19:37:07.454Z
+
+
+### Can reproduce.
+Windows 10 + Canary 0.0.166
+
+Oasis#4730 - Bug Bot on 2017-10-21T19:37:12.460Z
+
+
+### Can reproduce.
+Windows 10 + Canary 0.0.167
+
+Oasis#4730 - Bug Bot on 2017-10-21T19:39:12.940Z
+
+
+### Ignore the 166 one, 167 is the correct one
+
+Oasis#4730 - Bug Bot on 2017-10-21T19:40:20.324Z
+
+
+### I'm going to be _generous_ and call this a low p3 because it's probably a super easy fix. Expect this to be moved to Won't Fix at some point though. - Jared on 2017-10-23T23:03:23.410Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-23T23:03:34.421Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:21.458Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

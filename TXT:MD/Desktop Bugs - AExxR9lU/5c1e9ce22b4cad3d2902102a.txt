@@ -1,0 +1,108 @@
+[Archived] After opening your Gift Inventory with a gift in it, your Discord client will crash if you click the Gift Icon in a text chat. (https://trello.com/c/mMxUsmMr)
+
+None
+
+Created: 2018-12-22T20:21:54.618Z
+Latest Update: 2019-02-09T05:00:27.329Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Have a gift in your inventory. (This definitely works with Nitro gifts, not sure about other gifts.) 
+- Reload Discord (new session to show that this IS the root cause.) 
+- Open Library > Gift Inventory. 
+- Wait for it to load. 
+- Go back to a text channel. 
+- Click the gift icon next to the GIF picker and emote picker.
+
+####Expected result:
+The modal to purchase a Nitro gift appears.
+####Actual result:
+The app crashes with "Well, this is awkward."
+####Client settings:
+Canary 30283/30284 (Hash: `40398a711c0f7eacf80399d0491d70de748bef61`)
+####System settings:
+MacBook Pro (13", Mid-2012), macOS v10.14.1 (Mojave)
+
+24999
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-22T20:21:54.618Z
+
+
+### Isabel#0002 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c1e9ce22b4cad3d2902102a/7bf641b9dbeafd2a9b26902b506ad806/B0fbDvfx.png added by Bug Bot on 2018-12-22T20:21:57.203Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 30284 (Tested with Nitro Gift)
+
+Alipoodle#5025 - Bug Bot on 2018-12-22T20:22:02.056Z
+
+
+### Can reproduce.
+Can reproduce: Windows 10 Home Build 17134, Discord Canary 30284
+
+Bsian#0003 - Bug Bot on 2018-12-22T20:22:07.031Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit, Canary build 30284.
+
+SerbianPG#2287 - Bug Bot on 2018-12-22T20:22:12.016Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 v1803, Canary 30284
+
+Solo#0007 - Bug Bot on 2018-12-23T05:59:17.704Z
+
+
+### Can reproduce.
+CR. Canary 30284 Windows 10 x64
+
+Toasty#2019 - Bug Bot on 2018-12-23T06:43:24.505Z
+
+
+### Can reproduce.
+Windows 10 Pro, Discord Canary 30290
+
+1Storm#0001 - Bug Bot on 2018-12-23T06:45:00.277Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x,Canary 30291
+
+Octillion#6666 - Bug Bot on 2018-12-23T14:37:23.786Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2018-12-23T17:23:32.927Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 30291
+
+Neiron#8475 - Bug Bot on 2018-12-23T18:15:59.117Z
+
+
+### Can reproduce.
+Can Repro; Windows 10 Home, Version 1803; Discord Canary, Build 30291; Discord also crashes if you have the "you have been gifted a subscription" embed cached and go to the gift menu.
+
+S6out#1111 - Bug Bot on 2018-12-23T23:03:57.840Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Joey Baker on 2019-01-07T22:50:40.936Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2019-01-10T04:41:11.294Z
+
+
+### Archived by Bug Bot on 2019-02-09T05:00:27.337Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/kylepetrovich1) - No Bio

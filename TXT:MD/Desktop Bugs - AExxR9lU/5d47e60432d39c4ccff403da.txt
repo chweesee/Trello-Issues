@@ -1,0 +1,92 @@
+Webcam references increase each time you switch back and forth between servers and private chat with webcam. (https://trello.com/c/KH3meZkf)
+
+None
+
+Created: 2019-08-05T08:17:08.322Z
+Latest Update: 2020-07-16T21:26:04.698Z
+
+Reported by GoofballMichelle#9215
+
+####Steps to reproduce:
+- Start a video call 
+- Click out of the DM that the call is happening in 
+- Click back into the DM 
+- Repeat the last two steps until your processor is being nailed hard. 
+- Optionally end the call
+
+####Expected result:
+The amount of processing required should stay the same. And when ending the call the webcam should stop filming.
+####Actual result:
+The amount of processing power required by discord increases each time. The webcam also keeps filming once the call ends
+####Client settings:
+Chromium. Discord: release Channel: stable, Build Number: 42647, Version Hash: e559b455d905e55168923446d9e058b3fe6bd3b8
+####System settings:
+Pop!_OS 18.04 LTS/ Any Ubuntu 18 based distro.
+
+41429
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-05T08:17:08.322Z
+
+
+### Can reproduce.
+CR on Windows 10, Canary 42647
+
+Gugu72#2059 - Bug Bot on 2019-08-05T08:17:16.074Z
+
+
+### Can reproduce.
+CR (Windows 10, Canary 42647)
+
+debeligmaz2#4446 - Bug Bot on 2019-08-05T08:17:21.108Z
+
+
+### Can reproduce.
+CR | Windows 10 Enterprise | Stable 42647
+
+Mokry148#6275 - Bug Bot on 2019-08-05T08:17:26.063Z
+
+
+### Can reproduce.
+CR on Windows 10, Canary 42647.
+
+Gugu72#2059 - Bug Bot on 2019-08-05T08:18:42.271Z
+
+
+### Can reproduce.
+CR | MacOS Mojave | Stable 42647
+
+Trivago#4653 - Bug Bot on 2019-08-05T08:33:01.271Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 42647
+
+AHkhan#6518 - Bug Bot on 2019-08-05T09:52:43.941Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 42647
+
+Neiron#8475 - Bug Bot on 2019-08-05T15:40:44.785Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 42954 (Host 0.0.252) - there is also a micro stutter on the client for a few seconds
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-08T03:26:30.987Z
+
+
+### Can reproduce.
+Can repro; Windows 10 Home, Discord Canary 42895
+
+lesi002#5458 - Bug Bot on 2019-08-09T13:12:45.288Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

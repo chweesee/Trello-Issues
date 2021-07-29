@@ -1,0 +1,98 @@
+Unmuting a channel is not actually working (https://trello.com/c/nNXToAMr)
+
+None
+
+Created: 2020-06-09T09:13:50.594Z
+Latest Update: 2020-07-18T20:24:25.234Z
+
+Reported by Snowy ✨#1000
+
+####Steps to reproduce:
+- Have a desktop and mobile client side by side. 
+- Mute a channel on your mobile app, you'll see that channel is also muted on desktop app. 
+- Unmute the channel and you'll see that channel is not unmuted.
+
+####Expected result:
+Unmuting a channel has to be synced with desktop client. Also unmuting from desktop client has to be synced with mobile app.
+####Actual result:
+When you mute a channel it is synced with desktop app but unmuting is not. Mute a channel from your mobile app and you'll see channel is muted on desktop client. But unmuting a channel is not working, when you unmute the muted channel, it will stay muted on desktop.  Also when you remove the mute from your desktop, it is not synced with mobile -'notification' icon remains same-.
+####Client settings:
+Stable, 24.0
+####System settings:
+iPhone 5s, iOS 12.4.4
+
+57227
+
+Card Log
+========
+### Added by Bug Bot on 2020-06-09T09:13:50.594Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.5.1; TestFlight 25.0 (20312)
+
+Jiralite#1207 - Bug Bot on 2020-06-09T09:13:58.133Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.5.1 Discord Version 22.0
+
+Sourketchup#0001 - Bug Bot on 2020-06-09T09:14:03.209Z
+
+
+### Can reproduce.
+CR, Mobile : iPad5,4 iPadOS 13.1.2 TestFlight 26.0(20352) Desktop: Discord Canary 61313 Windows Pro 1909(64-bit)
+
+ShockTr#8097 - Bug Bot on 2020-06-09T09:14:08.210Z
+
+
+### Can reproduce.
+iPhone 6s - iOS 13.4.1
+
+Angelo#5567 - Bug Bot on 2020-06-11T00:48:46.976Z
+
+
+### Can reproduce.
+iPhone 6 12.4.6 | 24.0 (stable)
+
+Floof#1375 - Bug Bot on 2020-06-11T00:55:24.362Z
+
+
+### Moved from New Issues to Fix made, not yet released by Kamilla Karthigesu on 2020-06-11T23:39:17.527Z
+
+
+### Cannot reproduce anymore.
+iPhone SE, iOS 13.5.1 - TestFlight 27.0 (20464)
+Moving to Claimed Fixed. - Daffyduck on 2020-06-19T10:50:22.297Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Daffyduck on 2020-06-19T10:50:24.637Z
+
+
+### Can't reproduce.
+iPhone 7: iOS 13.5.1; TestFlight 27.0 (20464)
+
+Jiralite#1207 - Bug Bot on 2020-06-19T18:11:50.622Z
+
+
+### Can't reproduce.
+iPad 4, iOS 10.3.3, TestFlight 31.0 (20793)
+
+moo1210#3779 - Bug Bot on 2020-07-18T01:44:37.585Z
+
+
+### Can't reproduce.
+iPhone XR, iOS 14 Public Beta, Testflight 31.0 (20793)
+
+JayRy27#0001 - Bug Bot on 2020-07-18T20:24:24.700Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2020-07-18T20:24:25.245Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

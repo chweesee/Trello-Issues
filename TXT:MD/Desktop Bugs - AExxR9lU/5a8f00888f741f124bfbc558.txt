@@ -1,0 +1,65 @@
+[Archived] New (private) channels within a category doesn't respect default permissions (https://trello.com/c/0D3ufYve)
+
+P3: Will get fixed eventually,
+High,
+Permissions
+
+Created: 2018-02-22T17:40:24.387Z
+Latest Update: 2018-10-22T20:18:37.284Z
+
+Reported by railworks2#1234
+
+####Steps to reproduce:
+- Create a user in which has access to manage channel and permissions but only for the category  
+- Create a new PRIVATE channel using this account  
+- Try and edit the permissions
+
+####Expected result:
+You should be able to control the permissions
+####Actual result:
+You are unable to control your permissions and require assistance from an admin
+####Client settings:
+Release Channel: stable, Build Number: 10906
+####System settings:
+Windows 10 Enterprise (1607)
+
+9008
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-22T17:40:24.387Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 64-bit Discord Stable 10906 | I've tested this with Railworks2 in a temporary Test Server and was able to trigger it
+
+Blastoise186#7194 - Bug Bot on 2018-02-22T17:40:31.706Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary Build 11055 - Was not able to edit any properties of the channel
+
+Mas#0001 - Bug Bot on 2018-02-22T17:40:36.681Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64, Discord Stable 10906, tested this in a test server and got the end result.
+
+王劲骢皇帝#1989 - Bug Bot on 2018-02-22T17:40:41.684Z
+
+
+### Verified. High P3. - Jared on 2018-02-22T19:22:58.686Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-22T19:23:24.631Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:37.286Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

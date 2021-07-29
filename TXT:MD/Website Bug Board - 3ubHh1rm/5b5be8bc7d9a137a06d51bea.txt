@@ -1,0 +1,84 @@
+[Mobile] Images flickering while scrolling upon refresh (https://trello.com/c/UnYXTuTL)
+
+Mobile,
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-28T03:53:32.428Z
+Latest Update: 2019-07-18T14:36:18.392Z
+
+Reported by TheMegaEagle#9909
+
+####Steps to reproduce:
+- Have at least 5 applications
+- Go to the applications' overview (https://discordapp.com/developers/applications/)
+- Refresh the page 
+- **Immediately** scroll down past bottom and dont let go of screen 
+- Observe flickering of images
+
+####Expected result:
+Your images shouldnt move
+####Actual result:
+Your images glitch out of place
+####Client settings:
+New Developer Portal Website, iOS Safari
+####System settings:
+iPhone 8+, iOS 12 Developer Beta 4
+
+16165
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-28T03:53:32.428Z
+
+
+### TheMegaEagle#9909 - https://youtu.be/BnzIAEOh74U added by Bug Bot on 2018-07-28T03:53:35.088Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+Mippy#0001 - Bug Bot on 2018-07-28T03:53:39.904Z
+
+
+### Can reproduce.
+iPhone 8 64GB - iOS 12.0 Public Beta 3 (16A5327f) - Discord TestFlight 2.3.6 (6095)
+
+0_3#5964 - Bug Bot on 2018-07-28T03:53:44.892Z
+
+
+### Can reproduce.
+CR, iOS 12 (PTB #3), Discord TestFlight 2.3.6
+
+Marc#5983 - Bug Bot on 2018-07-28T03:53:49.919Z
+
+
+### Can Not Reproduce: OnePlus 6 (Version 9.0), Chrome Version 55.0.3770.101
+Moving to Claimed Fixed. - Aeria on 2019-07-10T14:06:04.611Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-07-10T14:06:09.761Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 v1903 Build 18912.1001 -- Firefox v67.0.4 -- The rate limit now shows correctly https://i.imgur.com/vOWcyYX.png
+
+webhp#1337 - Bug Bot on 2019-07-10T22:46:29.916Z
+
+
+### Can still reproduce with iPhone 8 Plus running iOS 12.3.2 with Safari.
+
+The issue only happens when you have enough applications, edited the report a bit to include the new info.
+
+Moving to Reopened list. - Pascal on 2019-07-18T14:30:12.935Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Pascal on 2019-07-18T14:30:28.241Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

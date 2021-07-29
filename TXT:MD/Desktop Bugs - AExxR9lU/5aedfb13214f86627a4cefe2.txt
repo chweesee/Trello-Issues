@@ -1,0 +1,87 @@
+[Archived] emoji counts will override 2000 character limit making messages non-editable (https://trello.com/c/xD8xSXoi)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-05T18:42:27.981Z
+Latest Update: 2019-10-24T20:30:03.774Z
+
+Reported by spilk#9938
+
+####Steps to reproduce:
+- Create message (for example, rules) containing 2000 characters in a text editor entering unicode characters for emoji 
+- Step 2 
+- attempt to edit the message after pasting into discord, the emojis will have been converted from their unicode character to the discord format, using more characters
+
+####Expected result:
+either the ability to edit a previously submitted message without having to shorten it or be unable to submit a message over 2000 characters, which is diffcult if you use unicode characters rather than discord format. Or do not count :characters: in message counts.
+####Actual result:
+Message does not allow editing without shortening to below 2000 characters. Example, 2000 ☕ sent will render as almost 16,000 characters if you try to edit the message it will not allow it until shortened
+####Client settings:
+>
+####System settings:
+Win server 2016 DC edition x64
+
+12003
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-05T18:42:27.981Z
+
+
+### Can reproduce.
+sent ~2000 `🛰️` emote, then  i attempted to edit my message and it would not allow me to save the message with no edits
+
+Rexey#6969 - Bug Bot on 2018-05-05T18:42:40.319Z
+
+
+### Can reproduce.
+sent ~2000 of the "🛰" emoji, then tried to edit the message. Could not save the message with no edits
+
+ash#0001 - Bug Bot on 2018-05-05T18:42:40.498Z
+
+
+### Can reproduce.
+Can reproduce - sent about 2000 🤔 emoji and could not edit message - Windows 10 Pro 1803 Canary, Build Number: 14718
+
+aopell#9347 - Bug Bot on 2018-05-05T18:42:45.327Z
+
+
+### Can reproduce.
+sent around 2000 🛰️ and it would not let me edit unless i shortened the message - Windows 10 1803, Canary, Build Number: 14720
+
+Rexey#6969 - Bug Bot on 2018-05-05T19:13:21.848Z
+
+
+### Verified, but extremely low priority.
+
+Win 10 x64 [BUILD INFO] Release Channel: canary, Build Number: 14720, Version Hash: 9f6a3c8afec95316065e5fc7297cc4b39a7ffad5 - Jared on 2018-05-08T19:24:28.801Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-08T19:24:45.852Z
+
+
+### 54D#1357 - https://youtu.be/eeQZJELjYJM added by Bug Bot on 2018-07-14T06:30:26.040Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:25.416Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 46205 host 0.0.257
+
+Jean20B#4668 - Bug Bot on 2019-09-24T19:49:42.512Z
+
+
+### Unarchived by Bug Bot on 2019-09-24T20:00:06.014Z
+
+
+### Archived by Bug Bot on 2019-10-24T20:30:03.790Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

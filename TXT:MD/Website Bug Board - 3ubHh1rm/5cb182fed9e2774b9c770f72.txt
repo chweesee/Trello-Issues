@@ -1,0 +1,126 @@
+[Archived] Invalid redirect URLs that start with http:// are shown as valid by the redirect input box (https://trello.com/c/VRDUyAR3)
+
+None
+
+Created: 2019-04-13T06:34:38.411Z
+Latest Update: 2019-07-19T01:16:43.071Z
+
+Reported by Delite#0001
+
+####Steps to reproduce:
+- Open the Developer Portal 
+- Go to an application or make one 
+- Click the OAuth2 tab 
+- Click add redirect and enter an invalid URL 
+- Observe red border 
+- Enter an invalid url that begins with http:// (for example http://test ) 
+- Observe the green border indicating it's valid 
+- Attempt to save and observe the "You provided an invalid redirect URI" error
+
+####Expected result:
+The redirect URL input box is consistent with the validation when saving changes
+####Actual result:
+The redirect URL input box is not consistent with the validation when saving changes
+####Client settings:
+Chrome 73.0
+####System settings:
+Windows 10 Pro x64
+
+32570
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-13T06:34:38.411Z
+
+
+### Delite#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cb182fed9e2774b9c770f72/336fb8682b2d7b7b8684284dabfeb089/3fhrpMA.png added by Bug Bot on 2019-04-13T06:34:41.187Z
+
+
+### Can reproduce.
+Chrome 73.0, Mac OS Mojave 10.14.2
+
+TheBaconnator#0001 - Bug Bot on 2019-04-13T06:34:45.853Z
+
+
+### Can reproduce.
+Windows 10.0.17134, Firefox 66
+
+MrFluent#0001 - Bug Bot on 2019-04-13T06:34:50.905Z
+
+
+### Can reproduce.
+Chrome 73.0, Mac OS Mojave 10.14.2
+
+Nitecloud#2019 - Bug Bot on 2019-04-13T06:34:55.918Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, Chrome 73.0.3683.103
+
+Jean20B#4287 - Bug Bot on 2019-04-13T06:36:04.326Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 ~ Chrome 72.0.3626.122 (x64)
+
+Casper#9999 - Bug Bot on 2019-04-13T06:38:06.247Z
+
+
+### Can reproduce.
+openSUSE Tumbleweed 20190411 - Chrome 74.0.3729.55 (x64)
+
+voldemort#6931 - Bug Bot on 2019-04-13T07:47:55.282Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 35579. Chrome 73.0
+
+Rage#9991 - Bug Bot on 2019-04-13T08:25:35.937Z
+
+
+### Can reproduce.
+Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+||warp||#4660 - Bug Bot on 2019-04-13T08:35:47.346Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Chrome 73
+
+CDM#7527 - Bug Bot on 2019-04-13T20:44:03.204Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Google Chrome  73.0.3683.103
+
+Daffyduck#5364 - Bug Bot on 2019-04-13T21:06:38.037Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary Chrome 73
+
+Clay#0001 - Bug Bot on 2019-04-14T00:00:52.954Z
+
+
+### Can reproduce.
+Windows 10 Home; Google Chrome 73.0.3683.103
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-14T19:57:15.056Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Pascal on 2019-06-15T17:54:50.141Z
+
+
+### Extension of https://trello.com/c/MCLsmEzP
+Archiving. - Aeria on 2019-07-19T01:16:41.823Z
+
+
+### Archived by Aeria on 2019-07-19T01:16:43.084Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

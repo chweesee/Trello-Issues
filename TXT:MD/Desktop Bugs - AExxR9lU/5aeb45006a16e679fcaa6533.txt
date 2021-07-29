@@ -1,0 +1,112 @@
+[Archived] Including an everyone mention in a URL might make the @ disappear, but it will still ping with mention everyone permissions (https://trello.com/c/TG9ELcWN)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-03T17:21:04.755Z
+Latest Update: 2019-01-15T18:00:02.320Z
+
+Reported by Cancer#2954
+
+####Steps to reproduce:
+
+- Go to any text channel where you have the permission to send messages and the permission to mention everyone and here 
+- Type in a URL like [see notes for example URL] 
+- Send the message
+
+####Expected result:
+The @ shouldn't disappear
+####Actual result:
+The @ disappears and the mention still goes through
+####Client settings:
+Discord Canary, Build Number: 14558
+####System settings:
+Windows 10 Home Version 1709 x64
+
+11878
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-03T17:21:04.755Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 x64 1803 (17134), Build number 14558
+
+Frances Picard#6209 - Bug Bot on 2018-05-03T17:21:12.213Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Canary Build 14558
+
+mrkirby153#7840 - Bug Bot on 2018-05-03T17:21:17.228Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 (Canary build 14558)
+
+TimThe#1118 - Bug Bot on 2018-05-03T17:21:22.591Z
+
+
+### The example URL is: https://@everyone.discordapp.com/
+
+Cancer#2954 - Bug Bot on 2018-05-03T17:27:33.920Z
+
+
+### Cancer#2954 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aeb45006a16e679fcaa6533/12febde50c4f639efcdbf3ed9959d33c/unknown.png added by Bug Bot on 2018-05-03T17:30:15.495Z
+
+
+### Cancer#2954 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aeb45006a16e679fcaa6533/713952dbe32dc89a842ad1f2cb1dcdb1/unknown.png added by Bug Bot on 2018-05-03T17:31:27.313Z
+
+
+### Verified on Win 10 x64 [BUILD INFO] Release Channel: canary, Build Number: 14558, Version Hash: ec89c976b439fd49568f32190251f8db5894ba5d - Jared on 2018-05-03T17:32:20.215Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-03T17:32:25.142Z
+
+
+### Can't reproduce.
+windows 10 home HP omen, Discord Canary build 14558. I am not able to reproduce the Issue at all, it is not working
+
+TheFinest#2561 - Bug Bot on 2018-05-03T18:05:45.962Z
+
+
+### Can reproduce.
+windows 10 version 1709 build 16299.371 - canary build 14558
+
+Callidus#3141 - Bug Bot on 2018-05-03T19:06:48.829Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Discord Canary Build: 24922
+
+tristanfarkas#0001 - Bug Bot on 2018-09-28T09:53:49.788Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - 28642Discord Canary Build
+
+KolkiesDev#0001 - Bug Bot on 2018-11-30T08:53:43.498Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord Canary Build 28642
+
+KolkiesDev#0001 - Bug Bot on 2018-11-30T08:58:09.520Z
+
+
+### Can reproduce.
+CR; the `@` character and the user part of the URL before it are not displayed; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 29791
+
+Longinus#0293 - Bug Bot on 2018-12-16T17:33:23.026Z
+
+
+### Archived by Bug Bot on 2019-01-15T18:00:02.323Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

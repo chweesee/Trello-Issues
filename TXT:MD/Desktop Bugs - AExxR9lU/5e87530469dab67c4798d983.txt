@@ -1,0 +1,68 @@
+Formatting error when a URL is put in brackets with quotes ("https://discordapp.com") (https://trello.com/c/h8foYlAd)
+
+None
+
+Created: 2020-04-03T15:15:17.141Z
+Latest Update: 2020-07-16T21:26:06.183Z
+
+Reported by Minnah#5065
+
+####Steps to reproduce:
+- Put a URL inside a bracket with quotes. ex: `("")` 
+- Send the message to chat
+
+####Expected result:
+The following should be displayed: `("")`
+####Actual result:
+A `%27` or `%22` is added to the end of the URL (depending on whether you used single quotes or double quotes) and the ending quote disappears.
+####Client settings:
+Discord Stable 57092
+####System settings:
+Windows 10 10.0.17763 (though this also happened on iOS when I tested it)
+
+54114
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-03T15:15:17.141Z
+
+
+### Minnah#5065 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e87530469dab67c4798d983/2c79a4821050afd9a444525610933e69/GbyVwzH.png added by Bug Bot on 2020-04-03T15:15:20.321Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64 1903 Canary 57177
+
+Flamenate™#1940 - Bug Bot on 2020-04-03T15:15:24.701Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 Stable 57177 (a2a33bd) Host 0.0.306 & iOS Testflight 15.0 (19408) iPad OS 13.3.1 (iPad 5th 11")
+
+rijsberhp#5975 - Bug Bot on 2020-04-03T15:15:29.727Z
+
+
+### Can reproduce.
+Windows 10 64-Bit (10.0.18363) Host 0.0.306 Stable 57177 (a2a33bd)
+
+FreezyX#2004 - Bug Bot on 2020-04-03T15:15:34.808Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary (Build 57301)
+
+Bryth#1086 - Bug Bot on 2020-04-04T01:08:35.700Z
+
+
+### Can reproduce.
+canary 57334 MacBook Air - MacOS (10.12.6 Sierra)
+
+myacorn#6534 - Bug Bot on 2020-04-04T06:12:54.407Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

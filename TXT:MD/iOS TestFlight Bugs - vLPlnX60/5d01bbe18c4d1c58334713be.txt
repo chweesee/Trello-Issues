@@ -1,0 +1,89 @@
+[Archived] New unreads banner reappears when an offscreen unread channel is suddenly brought into view (https://trello.com/c/4Pp8BQis)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-06-13T02:58:41.208Z
+Latest Update: 2019-08-13T11:30:07.691Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Have a server with at least three categories with several channels each 
+- Have a channel in the top category have new messages 
+- Mute the second category but make sure it has unread channels 
+- Be in a channel on the bottom category 
+- Scroll until the unread channel in the top category is out of view 
+- Collapse the muted category 
+- Observe the top of the channel list
+
+####Expected result:
+Nothing happens as the unread channel comes into view
+####Actual result:
+After the unread channel comes into view, the new unreads banner appears the disappears
+####Client settings:
+TestFlight 3.0.3 (15865)
+####System settings:
+iPhone 6s iOS 12.4 Dev Beta 3
+
+36882
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-13T02:58:41.208Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - TestFlight 3.0.3 (15685)
+
+Xylium#5800 - Bug Bot on 2019-06-13T02:58:48.576Z
+
+
+### Can reproduce.
+iPhone XR; iOS 12.3.1; TestFlight 3.0.3 (15702)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-13T02:58:53.557Z
+
+
+### Can reproduce.
+CR; iPhone XR, iOS 12.3.1 - TestFlight 3.0.3
+
+Tenpi#7920 - Bug Bot on 2019-06-13T02:58:58.674Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.3.1, TestFlight 3.0.3 (15702)
+
+joshua#0666 - Bug Bot on 2019-06-13T03:05:41.468Z
+
+
+### Can't reproduce.
+iPhone 6s iOS 12.4(beta) TF 3.0.3 (15738)
+
+GlenMerlin#2119 - Bug Bot on 2019-06-13T03:58:31.054Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 12.3.1 - TestFlight 3.0.3 (15702)
+
+hypnosis#7992 - Bug Bot on 2019-06-14T19:53:55.236Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.3 (15738)
+
+Skyla#0002 - Bug Bot on 2019-06-15T06:58:16.460Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-06-21T19:00:03.117Z
+
+
+### Archived by Bug Bot on 2019-08-13T11:30:07.706Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,112 @@
+[Archived] Changing locale to Russian causes infinite loading cycle (https://trello.com/c/IoFEuENR)
+
+P0: Need an immediate fix,
+Low
+
+Created: 2017-11-21T16:14:56.032Z
+Latest Update: 2018-03-14T13:31:09.373Z
+
+Reported by DaFri_Nochiterov#4289
+
+####Steps to reproduce:
+- Change your locale to Russian
+
+####Expected result:
+Locale changes to Russian
+####Actual result:
+Discord falls into infinite cycle with error of loading ru locale, causes high cpu and memory usage
+####Client settings:
+Discord Canary 0.0.180, Build 7557
+####System settings:
+Windows 10 Pro 1709 (17035)
+
+6532
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-21T16:14:56.032Z
+
+
+### DaFri_Nochiterov#4289 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a1450ff022b73629e2e6537/cec92e30e416a230d43a75098a8c72c9/fv3rgGL.png added by Bug Bot on 2017-11-21T16:14:58.391Z
+
+
+### Can reproduce.
+Verified, escalated directly to the developers
+
+Dabbit Prime#0896 - Bug Bot on 2017-11-21T16:15:03.361Z
+
+
+### Can reproduce.
+MacBook Air, macOS 10.13
+
+Mikesky#3456 - Bug Bot on 2017-11-21T16:20:34.721Z
+
+
+### Can reproduce.
+Can reproduce on Linux Ubuntu 0.0.31 (7557)
+
+Tarek1337#0379 - Bug Bot on 2017-11-21T16:21:51.664Z
+
+
+### Tarek1337#0379 - https://i.imgur.com/o2TKJJW.gifv added by Bug Bot on 2017-11-21T16:22:10.827Z
+
+
+### Can reproduce.
+CR Windows 10 1709 x64, Canary build 7557
+
+AEnterprise#4693 - Bug Bot on 2017-11-21T16:22:51.035Z
+
+
+### Can reproduce.
+CR, Windows 10 1703 x64, Canary Build 7557
+
+GoldenPheonix#6248 - Bug Bot on 2017-11-21T16:23:34.996Z
+
+
+### Cannot reproduce anymore,  Canary 7566
+
+Moving to claimed - Tarek on 2017-11-21T17:57:22.383Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Tarek on 2017-11-21T17:57:30.907Z
+
+
+### Can't reproduce.
+CNR, Russian loads fine, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T21:12:43.098Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T22:57:54.540Z
+
+
+### Can't reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9959
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T23:14:43.409Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T23:37:11.834Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2018-01-27T01:40:18.002Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:31:08.796Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:31:09.376Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

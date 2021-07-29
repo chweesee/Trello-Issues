@@ -1,0 +1,108 @@
+When going into DMs, press space and send a message. Clyde will reply the message couldn’t be delivered. (https://trello.com/c/MC12pXkl)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2018-06-27T20:06:25.525Z
+Latest Update: 2019-09-15T08:56:53.109Z
+
+Reported by ItzTacoTimee#0001
+
+####Steps to reproduce:
+- Go to a DM message 
+- Type a space followed by any character
+- Remove the latest character
+- Nearly at the same time send the message
+- Results
+
+####Expected result:
+The send button shouldn’t even be clickable
+####Actual result:
+You can send the message and Clyde replies with a “not delivered”
+####Client settings:
+TestFlight 2.3.4 (5425)
+####System settings:
+iPad Air 2, iOS 12 (Public Beta)
+
+14917
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-27T20:06:25.525Z
+
+
+### ItzTacoTimee#0001 - https://youtu.be/zgAMoZNzipU added by Bug Bot on 2018-06-27T20:06:27.968Z
+
+
+### ChaosKadir#6510 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b33ee4186cf2810daf1c3b8/292ef01970fd01bd0d89dad92e86e47e/image.jpg added by Bug Bot on 2018-06-27T20:06:27.999Z
+
+
+### Can reproduce.
+CR; iPhone SE, iOS 11.4, TestFlight 2.3.4 (5425)
+
+ChaosKadir#6510 - Bug Bot on 2018-06-27T20:06:32.929Z
+
+
+### Can reproduce.
+Can reproduce IPhone 6, IOS 11.4 - Testflight 2.3.4 (5425)
+
+alex0119#8926 - Bug Bot on 2018-06-27T20:06:37.897Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.2.1, TestFlight 2.3.4 (5330)
+
+Pyros#2326 - Bug Bot on 2018-06-27T20:06:42.937Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Fanghao on 2018-06-27T23:08:57.860Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5548). The Send button is disabled, so I can't really send any spaces. I used iPhone 8 + running iOS 12 (Developer Beta 2).
+
+Because I was not able to reproduce this bug anymore, I am moving it to Claimed Fixed. - Ghoul on 2018-06-30T05:33:56.406Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Ghoul on 2018-06-30T05:34:04.846Z
+
+
+### Can't reproduce.
+CNR, iPod Touch 6th generation, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-07-30T02:31:53.171Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:52.653Z
+
+
+### Can reproduce again as of TestFlight 3.0.2 (14873) with iPhone 8 Plus running iOS 12.2.
+
+The issue now only happens when typing a space, then a letter and clicking the send and remove button nearly at the same time. Edited the steps to include the new issue.
+
+Moving to Reopened list. - Pascal on 2019-05-13T06:42:33.085Z
+
+
+### Unarchived by Pascal on 2019-05-13T06:42:38.333Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Pascal on 2019-05-13T06:42:48.702Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.6 (16208)
+
+binchlord#0998 - Bug Bot on 2019-07-25T03:07:07.807Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 3), TestFlight 3.1.2 (17237)
+
+.Gloria.#9606 - Bug Bot on 2019-09-15T08:56:53.120Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

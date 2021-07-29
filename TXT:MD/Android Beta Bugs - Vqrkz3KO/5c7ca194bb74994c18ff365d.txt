@@ -1,0 +1,89 @@
+[Archived] When a message has two reactions (one of which is reacted by one person more than the other) in which one of the reactions is and you remove one person's reaction(from the one that has the extra one), you are no longer in the same reaction list. (https://trello.com/c/neuhpqhd)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-04T03:55:00.387Z
+Latest Update: 2019-04-12T22:30:03.689Z
+
+Reported by The Lunala#6877
+
+####Steps to reproduce:
+- Find a message with 2 reactions( that fit the above criteria; For example, let the message have two reactions 'A' and 'B'  of which A is reacted by 8 people and 'B' is reacted by 7 people; make sure that B is reacted by you too i.e B has 7 including your's). 
+- Open the reactions page and remove one person's reaction from 'A' so that it becomes 7 and 'B' remains 7.
+
+####Expected result:
+You stay in the reactions list of 'A'.
+####Actual result:
+You get shifted to the reaction list of 'B'.
+####Client settings:
+Discord Alpha 855
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+30192
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-04T03:55:00.387Z
+
+
+### Can reproduce.
+CR - Google Pixel 3 XL - Android 9 - Alpha 855
+
+Noxillio#0001 - Bug Bot on 2019-03-04T03:55:07.757Z
+
+
+### Can reproduce.
+Intex Aqua N7, Android 5 App Information 8.5.5
+
+Stardust#2476 - Bug Bot on 2019-03-04T03:55:12.705Z
+
+
+### Can reproduce.
+Can repro, Alpha 8.5.3, Huawei P Smart, Android 8.0.0
+
+zSnails#5755 - Bug Bot on 2019-03-04T03:55:17.729Z
+
+
+### Can't reproduce.
+Android Samsung Galaxy S9 9.0.0, 8.5.5
+
+OldWampa#7897 - Bug Bot on 2019-03-04T04:24:30.165Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.5
+
+Skyla#0002 - Bug Bot on 2019-03-04T12:18:03.166Z
+
+
+### Can reproduce.
+Samsung S8, Android 9.0, 8.5.5
+
+Mr. Proper#2394 - Bug Bot on 2019-03-04T15:35:05.683Z
+
+
+### Can reproduce.
+Can reproduce. Discord Alpha 8.5.5 / Xiaomi Mi3W / Android 7.1.2 / LineageOS
+
+Hawlucha#2061 - Bug Bot on 2019-03-04T17:45:49.398Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (8.1.0) | Discord Alpha 8.5.5
+
+Clay#0001 - Bug Bot on 2019-03-04T18:36:29.048Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T22:06:18.501Z
+
+
+### Archived by Bug Bot on 2019-04-12T22:30:03.702Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,73 @@
+[Archived] When you cancel a giphy search it does not stop searching. (https://trello.com/c/MHA6A1tC)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-07-05T04:46:53.810Z
+Latest Update: 2018-10-22T20:23:10.043Z
+
+Reported by Bjaker#0037
+
+####Steps to reproduce:
+- Simulate a slow connection(10mbit) 
+- Do multiple  queries. 
+- Watch Discord continue downloading all the giphy's you've searched for despite not having the search window open anymore. (submitting this on behalf of a user)
+
+####Expected result:
+Giphy should no longer try to load gifs.
+####Actual result:
+Giphy continues to try to load gifs.
+####Client settings:
+Release Channel: stable, Build Number: 17872
+####System settings:
+Windows 8.1 Home/OEM
+
+14954
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-05T04:46:53.810Z
+
+
+### Harfeur#3633 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b3da2bd1c0f2b3f2fdf945a/d2bcefc3a218e3006080618af845449b/unknown.png added by Bug Bot on 2018-07-05T04:46:56.273Z
+
+
+### Can reproduce.
+Can reproduce / Discord 18051 - Windows 10 Family Insider Preview, Build 17704
+
+Harfeur#3633 - Bug Bot on 2018-07-05T04:47:01.120Z
+
+
+### Can reproduce.
+CR, can be noticed without simulating the internet speed, Discord Canary 0.0.211 and Windows 10 April Update.
+
+joaoh1#3657 - Bug Bot on 2018-07-05T04:47:06.100Z
+
+
+### Can reproduce.
+Can reproduce even without slow speeds / Discord Canary 18164 - Win10 1803-17134.112
+
+Steets#0001 - Bug Bot on 2018-07-05T04:47:11.093Z
+
+
+### verified, macos 10.12.6, canary 18361 - Clayton on 2018-07-09T22:24:17.436Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-09T22:24:23.575Z
+
+
+### Can reproduce.
+Win 10 Pro, Canary 23401
+
+Can[C4Navar]#5799 - Bug Bot on 2018-09-11T16:44:59.264Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:10.046Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

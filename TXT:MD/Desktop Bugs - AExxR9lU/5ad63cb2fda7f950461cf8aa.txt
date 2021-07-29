@@ -1,0 +1,74 @@
+[Archived] webm download button not visible unless fullscreened due to long file names (https://trello.com/c/F61HWB8h)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-17T18:28:02.988Z
+Latest Update: 2018-08-21T23:33:57.136Z
+
+Reported by Ornifex#2117
+
+####Steps to reproduce:
+- Drag webm with long file name into discord
+
+####Expected result:
+Download button shows up in top right corner of webm
+####Actual result:
+Download button is not visible due to long filename
+####Client settings:
+Latest Stable Build
+####System settings:
+Windows 10 x64
+
+10843
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-17T18:28:02.988Z
+
+
+### Jengas#7777 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ad63cb2fda7f950461cf8aa/c2996e8774bc7f05d01ed6defe1ed7b7/f3nMOU8rRpOYJ8qoUNZzLg.png added by Bug Bot on 2018-04-17T18:28:05.732Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 0.0.45 build 13753, openSUSE Tumbleweed 20180410.  Length of file name was about 100 characters and could not see download button at all.
+
+simonizor#0420 - Bug Bot on 2018-04-17T18:28:10.501Z
+
+
+### Can reproduce.
+Could Reproduce; Works with all video files that are supported by Discord; - Windows 10 Pro x64 - Discord Stable
+
+Jengas#7777 - Bug Bot on 2018-04-17T18:28:15.510Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 13753 -- This did not only occur with webm files.
+
+webhp#1337 - Bug Bot on 2018-04-17T18:28:20.491Z
+
+
+### Verified.  - Clayton on 2018-04-18T00:39:05.611Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-18T00:39:08.254Z
+
+
+### Cannot repro anymore, Canary 18051. Moving to claimed fixed. - Tarek on 2018-07-02T16:55:32.651Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-02T16:55:36.977Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:33:55.936Z
+
+
+### Archived by Jared on 2018-08-21T23:33:57.138Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

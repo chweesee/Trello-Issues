@@ -1,0 +1,145 @@
+[Archived] Control+Shift+T outside of DMs or Friend List screen crashes Discord. (https://trello.com/c/f539Ce6P)
+
+P2: Fix can wait a while,
+High
+
+Created: 2017-10-25T07:03:46.794Z
+Latest Update: 2018-03-14T13:23:49.513Z
+
+Reported by tdeo#9084
+
+####Steps to reproduce:
+- Select a guild. 
+- Press the keyboard shortcut Control+Shift+T.
+
+####Expected result:
+Nothing.
+####Actual result:
+Discord crashes.
+####Client settings:
+Canary 6352
+####System settings:
+Arch Linux
+
+5749
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-25T07:03:46.794Z
+
+
+### Can reproduce.
+CR, Archlinux 4.13.5, Discord Canary 0.0.24 (Build 6352)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-25T07:03:54.217Z
+
+
+### Can reproduce.
+Doesn't work 100% of the time, but does happen. macOS Sierra 10.12.6, Discord Canary 0.0.158
+
+WamWooWam#5274 - Bug Bot on 2017-10-25T07:03:59.199Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.167 (Build 6352) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-10-25T07:04:04.224Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64bits (Version 1703), Discord Canary 0.0.167 (Build 6352)
+
+Mr.Quentin#4854 - Bug Bot on 2017-10-25T09:56:14.679Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.167 (Build 6366) on Windows 10 Home x64 (Build 1703)
+
+OminousCry#2331 - Bug Bot on 2017-10-25T19:32:30.222Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-25T23:32:16.824Z
+
+
+### Can reproduce.
+Surface Book Performance Base 8 GB, Windows 10 Pro x64 (Fall Creator's Update) Version 1709 Discord Stable build 6768
+
+andritolion#0007 - Bug Bot on 2017-11-07T02:11:31.505Z
+
+
+### Fixed, cannot reproduce anymore Canary 7750, pressing CTRL + Shift + I will now take you to the friend list and open the adding friends modal for group DM's. Moving to claimed fixed. - Tarek on 2017-11-29T10:29:50.683Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2017-11-29T10:29:56.908Z
+
+
+### Verified Fixed - Jared on 2017-11-29T20:06:35.342Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-11-29T20:06:40.313Z
+
+
+### Can reproduce.
+Windows 10 with Discord Canary Build 8746
+
+Ghoul#4567 - Bug Bot on 2017-12-16T08:25:25.032Z
+
+
+### Can reproduce!
+
+Issue is back on Canary 8746, 0.0.186 (W10, 1709)
+Moving back to verified bugs.
+
+Edit, Clicking on "New Group DM" also causes a crash with a different error message in the console.  - Tarek on 2017-12-16T08:28:13.127Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Tarek on 2017-12-16T08:28:17.935Z
+
+
+### image.png - undefined added by Tarek on 2017-12-16T08:32:33.397Z
+
+
+### https://i.imgur.com/HvN9kYU.gifv - https://i.imgur.com/HvN9kYU.gifv added by Tarek on 2017-12-16T08:34:49.885Z
+
+
+### Seems to be fixed, Canary 8941.
+
+Moving to claimed fixed - Tarek on 2017-12-20T11:13:51.393Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2017-12-20T11:13:56.919Z
+
+
+### Can't reproduce.
+CNR, no longer crashes, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T20:58:51.677Z
+
+
+### Can't reproduce.
+Canary Build Number 9959, Google Chrome  63.0.3239.132, Windows 10 Home
+
+Xamtheking#0001 - Bug Bot on 2018-01-26T21:34:59.721Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T22:23:13.360Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2018-01-27T01:16:13.285Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:23:48.699Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:23:49.515Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

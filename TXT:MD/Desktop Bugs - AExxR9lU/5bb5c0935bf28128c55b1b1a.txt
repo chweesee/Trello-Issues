@@ -1,0 +1,105 @@
+[Archived] On Electron 3.x, client is very slow at everything without hardware acceleration (https://trello.com/c/exBVjeB6)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-10-04T07:26:11.451Z
+Latest Update: 2019-10-23T23:02:39.931Z
+
+Reported by Raqbit#9227
+
+####Steps to reproduce:
+- Open Discord 
+- Turn hardware acceleration off 
+- Restart discord
+
+####Expected result:
+Discord should not be sluggish and perform like with the previous electron version
+####Actual result:
+Discord is sluggish, animations are slow, loads are slow. It does perform like normal when the developer-tab is open.
+####Client settings:
+Desktop Canary, Build 25434
+####System settings:
+Ubuntu 18.04
+
+20589
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-04T07:26:11.451Z
+
+
+### Can reproduce.
+Discord Canary 0.0.214 (25434) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-10-04T07:26:18.937Z
+
+
+### Can reproduce.
+Discord Canary 0.0.214, Build 25434, Windows 10 Home 64-bit (v1803)
+
+Ene#0808 - Bug Bot on 2018-10-04T07:26:23.911Z
+
+
+### Can reproduce.
+Windows 10 1803 x64, canary build 25434
+
+AEnterprise#4693 - Bug Bot on 2018-10-04T07:26:28.952Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary Build 25434
+
+Nashorn#3450 - Bug Bot on 2018-10-04T07:26:33.925Z
+
+
+### pls ignore, bugbot got confused, verifying what the correct ticket is
+
+AEnterprise#4693 - Bug Bot on 2018-10-04T07:29:09.588Z
+
+
+### Moved from User Reported Bugs to Electron 3.0.1 Update Bugs 🍒 by Tarek on 2018-10-04T12:14:41.141Z
+
+
+### Can reproduce.
+ArchLinux x64, nvidia driver on gtx1050 mobile, i3, Build Info: Release Channel: canary, Build Number: 25648, Version Hash: d885628759dcf6f9164479c553bb7847244c4c78
+
+k٩( ᐛ )و#8648 - Bug Bot on 2018-10-06T17:15:40.852Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 25661
+
+Frances Picard#6209 - Bug Bot on 2018-10-08T15:12:33.777Z
+
+
+### Can reproduce.
+Happening with Hardware acceleration on as well. Linux Mint 19 Nvidia 396.54 drivers
+
+Link#1685 - Bug Bot on 2018-10-08T15:48:42.610Z
+
+
+### Moved from Electron 3.0.1/3.0.3/3.0.5 Update Bugs 🍒 to Verified Bugs by Jared on 2019-01-02T17:25:57.799Z
+
+
+### Can reproduce.
+Build Info: Release Channel: stable, Build Number: 30942, Version Hash: 55a563807952c5d9c496a070917111899d67c609 OS Name: Microsoft Windows 10 Education (x64) (v10.0.16299 Build 16299)
+
+Solar#1001 - Bug Bot on 2019-01-17T04:02:52.516Z
+
+
+### Can reproduce.
+Build Info: Release Channel: stable, Build Number: 30942, Version Hash: 55a563807952c5d9c496a070917111899d67c609 OS Name: Windows 10 Home Single Language (x64) (v1803 Build 17134.523)
+
+Hestia#0023 - Bug Bot on 2019-01-17T10:18:18.055Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:39.946Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

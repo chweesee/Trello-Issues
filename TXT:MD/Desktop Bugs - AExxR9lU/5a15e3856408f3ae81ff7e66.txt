@@ -1,0 +1,67 @@
+[Archived] Being ratelimited for opening pins leaves the pins menu infinitely "loading" (https://trello.com/c/2bULO3ZA)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-11-22T20:52:21.821Z
+Latest Update: 2018-10-22T20:17:06.452Z
+
+Reported by Pointy#9109
+
+####Steps to reproduce:
+- Open dev tools (CTRL/CMD+SHIFT+I), you'll want to keep an eye out for an error that ends in " /pins 429 ()" in the coming steps 
+- Open as many different channel pins as quickly as possible until you see the aforementioned error, don't close the one that's open when you see the error 
+- Observe the pins box, repeat step 2 if you clicked off the pins box too fast
+
+####Expected result:
+An informative error should tell you that you are being ratelimited
+####Actual result:
+An infinite loading symbol appears in the pins box, implying that there is something wrong with the connection etc.
+####Client settings:
+Desktop Canary 0.0.180 (Build 7557) - Desktop Stable 0.0.298 (Build 7490) - Web Canary - Web Stable
+####System settings:
+Win 10 Pro x64 v1607
+
+6528
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T20:52:21.821Z
+
+
+### Pointy#9109 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a15e3856408f3ae81ff7e66/2d87a842affc5292019042e899ab1502/7746b1.gif added by Bug Bot on 2017-11-22T20:52:24.744Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64 Canary Build 7569
+
+Gimo#0916 - Bug Bot on 2017-11-22T20:52:29.241Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (16299), Canary 0.0.180 (7569)
+
+mouse91#3089 - Bug Bot on 2017-11-22T20:52:34.211Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 0.0.177 Bild 7569
+
+Azrael#9808 - Bug Bot on 2017-11-22T20:52:39.219Z
+
+
+### Verified.  - Clayton on 2017-11-28T21:19:35.926Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-28T21:19:39.326Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:06.455Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

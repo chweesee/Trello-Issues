@@ -1,0 +1,61 @@
+[Archived] Voice chat displaying no route on dual-stack IPv4/IPv6 network (https://trello.com/c/Cr1Zr1jI)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-05-04T14:25:18.809Z
+Latest Update: 2018-07-06T17:51:55.359Z
+
+Reported by Boba Ninja#0001
+
+####Steps to reproduce:
+- Set up a working dual-stack IPv4/IPv6 network
+- Then deploy a NAT64 gateway and assign a DNS64 server as DNS-server for the clients. 
+- Try joining a voice room in Discord.
+
+####Expected result:
+Voice chat connects and works normally.
+####Actual result:
+Client is not able to connect. After a few retries it fails with the error message "No route to host".
+####Client settings:
+Stable
+####System settings:
+Windows 10 x64 version 1709 build 16299.371
+
+11932
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-04T14:25:18.809Z
+
+
+### Can reproduce.
+forcing through queue for engineering
+
+Boba Ninja#0001 - Bug Bot on 2018-05-04T14:25:26.244Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-04T23:57:44.341Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jozsef Vass on 2018-06-01T13:09:16.394Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jozsef Vass on 2018-06-03T18:23:10.094Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jozsef Vass on 2018-06-05T15:14:40.418Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:51:53.952Z
+
+
+### Archived by Jared on 2018-07-06T17:51:55.360Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

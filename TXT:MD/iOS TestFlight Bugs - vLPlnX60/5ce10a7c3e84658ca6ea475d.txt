@@ -1,0 +1,131 @@
+[Archived] Accepting a direct call on iOS through callkit breaks the audio. (https://trello.com/c/BpdbchFe)
+
+None
+
+Created: 2019-05-19T07:49:16.158Z
+Latest Update: 2019-08-14T13:02:18.039Z
+
+Reported by thislooksfun#0164
+
+####Steps to reproduce:
+- Accept a call on iOS through callkit and try to speak / listen
+
+####Expected result:
+I should be able to hear the other person, and they should be able to hear me.
+####Actual result:
+Neither of us could hear the other person.
+####Client settings:
+iOS v3.0.1
+####System settings:
+iOS v12.2 (16E227), on the iPhone X
+
+34818
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-19T07:49:16.158Z
+
+
+### Can reproduce.
+CR // TestFlight 3.0.2 // iOS 12.3 // iPhone X
+
+Eli#1000 - Bug Bot on 2019-05-19T07:49:23.583Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.4 (Dev Beta), TestFlight 3.0.2 (15022)
+
+Keons#0001 - Bug Bot on 2019-05-19T07:49:28.562Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, TestFlight 3.0.2 (15022)
+
+OrangeM24#5746 - Bug Bot on 2019-05-19T07:49:33.566Z
+
+
+### Can reproduce.
+iPhone8, iOS 12.2, Testflight 3.0.0(14902)
+
+undermaster#3126 - Bug Bot on 2019-05-19T09:57:04.026Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta) - TestFlight 3.0.2 (15022)
+
+Xylium#5800 - Bug Bot on 2019-05-19T16:34:20.822Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 12.0.1
+
+Xignotic#0001 - Bug Bot on 2019-05-20T02:59:51.019Z
+
+
+### Can reproduce.
+iPhone X iOS 12.3 TestFlight 3.0.2
+
+Darth#9386 - Bug Bot on 2019-05-20T06:42:04.728Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.2, Testflight 3.0.0(14902)
+
+undermaster#3126 - Bug Bot on 2019-05-20T20:43:16.104Z
+
+
+### Moved from New Issues to Call Kit by Victoria on 2019-05-24T18:04:43.308Z
+
+
+### Moved from Call Kit to Need more info by Victoria on 2019-05-25T04:06:48.809Z
+
+
+### You must have push to talk enabled, and must have your phone locked. Due to the push-to-talk interfering with CallKit, you cannot talk. Tested on iPhone 8 iOS 12.3, TestFlight v. 3.0.2 (15253)
+
+ImmortaLemur#2998 - Bug Bot on 2019-05-25T04:43:55.481Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.3 (15638) with iPad Pro (11 inch) running iOS 12.3.1.
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-09T18:32:56.833Z
+
+
+### Moved from Need more info to Claimed Fixed Bugs by Pascal on 2019-06-09T18:33:09.073Z
+
+
+### Can't reproduce.
+iPhone XR & iPad Air iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+binchlord#0998 - Bug Bot on 2019-06-09T18:52:15.600Z
+
+
+### Can't reproduce.
+iPhone XR; iOS 12.3.1; TestFlight 3.0.3 (15638)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-10T13:44:40.732Z
+
+
+### Can't reproduce.
+iPhone XR - iOS 12.3.1 - TestFlight 3.0.3 (15638)
+
+Rage#9991 - Bug Bot on 2019-06-10T14:13:31.650Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-10T14:13:32.008Z
+
+
+### Archived by Bug Bot on 2019-07-10T21:30:48.687Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12, TestFlight 3.0.2 (15022)
+
+Noah#0004 - Bug Bot on 2019-08-14T13:02:18.053Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

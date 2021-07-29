@@ -1,0 +1,69 @@
+[Archived] Reactions settings not properly applied in recent mentions (https://trello.com/c/fJyg8gCE)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2016-11-19T22:54:33.300Z
+Latest Update: 2018-10-22T20:16:30.597Z
+
+Reported by lahrsean#9501
+
+####Steps to reproduce: 
+- Find or tell someone to post a message that mentions you
+- Go to User Settings > Text and Images, enable reactions
+- Put a reaction on it
+- Go to User Settings > Text and Images, disable reactions
+- Open recent mentions list and find the message
+
+####Expected result:
+ Message appears in recent mentions without reactions shown 
+####Actual result:
+ Message appears in recent mentions with reactions shown POSTED ON BEHALF OF <@83697112432246784>
+
+Card Log
+========
+### Added by Jared on 2016-11-19T22:54:33.300Z
+
+
+### lahrsean#9501 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5830d82950a3103ab00705d8/b96b63e5cc4ce7406463520d8f1d284d/unknown.png added by Jared on 2016-11-19T22:54:34.901Z
+
+
+### This issue may have gotten fixed? Can't reproduce, the emoji reactions are not appearing. - Jared on 2016-11-30T21:02:43.518Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-11-30T21:02:47.500Z
+
+
+### I am able to reproduce this bug using the steps below, provided by PLAYER_CHAR#2874. However, I am only able to reproduce in the browser; it seems it's been fixed in the desktop app. The device I tested on is running Windows 10 Pro x64, Fall Creators Update, Discord Canary 0.0.168 (6558).
+
+- Find or tell someone to post a message that mentions you
+- Go to User Settings > Text and Images, enable reactions
+- Put a reaction on it
+- Go to User Settings > Text and Images, disable reactions
+- Open recent mentions list and find the message - Chris Cox on 2017-10-30T05:26:21.384Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Chris Cox on 2017-10-30T05:26:49.927Z
+
+
+### Verified.  - Clayton on 2017-11-03T05:03:26.222Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T05:03:32.886Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12159
+
+cutelilberry#5423 - Bug Bot on 2018-03-16T16:14:18.335Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:30.601Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

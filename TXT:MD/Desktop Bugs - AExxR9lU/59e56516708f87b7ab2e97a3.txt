@@ -1,0 +1,83 @@
+[Archived] Moderation: "Explicit Content Filter" changes automatically to "Don't scan any messages" (https://trello.com/c/d8TpuSWR)
+
+P1: Severe
+
+Created: 2017-10-17T02:04:06.676Z
+Latest Update: 2017-12-02T17:20:07.119Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Have `Explicit Content Filter` activated (members without role or all members option) 
+- Go to `Server settings` -> `Moderation` 
+- Observe how `Explicit Content Filter` changed
+
+####Expected result:
+`Explicit Content Filter` shouldn't change automatically to nothing.
+####Actual result:
+It changes automatically. Might be an issue that happens after some extended period time. There is nothing about it in the audit log. Note: I was also unable to change the filter from nothing to all members (must change it to members without roles first).
+####Client settings:
+Discord Canary, 0.0.155, Build 5843
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13
+
+5405
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-17T02:04:06.676Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843) -- The filter was changed to nothing after around 8 Hours for me, but when i tried to set it to members without role again i couldn't save the changes, just nothing happend when i pressed save but i also couldn't just leave since i had unsaved changes.
+
+Starshine Dust#2189 - Bug Bot on 2017-10-17T02:04:14.209Z
+
+
+### Can reproduce.
+Can Repro though it took several hours.. same boat as Stardust... Dell Latitude e5540.. Windows 10 Pro x64 Version 1703.. Discord Canary Build 0.0.165
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-17T02:04:19.237Z
+
+
+### Can reproduce.
+CR, Luckly for me, this bug happened in about 4 hours. MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-17T02:04:24.391Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Creators Update (1703), Canary 0.0.165 but also appears on -i
+
+Niklas#3627 - Bug Bot on 2017-10-17T04:39:20.618Z
+
+
+### also appears on iOS
+
+Niklas#3627 - Bug Bot on 2017-10-17T04:42:04.633Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Jake Heinz on 2017-10-22T02:09:29.958Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jake Heinz on 2017-10-22T11:08:36.081Z
+
+
+### Jake Fixed - Jared on 2017-10-23T23:34:18.845Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-10-23T23:34:22.316Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:20:06.105Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:20:07.121Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,76 @@
+Selecting another application while you have unsaved changes, updates the application in the dropdown while you still have the old application's settings still on your screen. (https://trello.com/c/tTrxvcb6)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-16T15:34:03.631Z
+Latest Update: 2019-04-25T22:03:50.204Z
+
+Reported by Mippy#0001
+
+####Steps to reproduce:
+- Go to the Developer Portal 
+- Open the Applications Tab 
+- Select an application 
+- Change something such as the name. DO NOT SAVE YET 
+- On the left, select the dropdown under "Selected App" 
+- Select a different application.
+
+####Expected result:
+The application selected shouldn't change as long as there's unsaved changes.
+####Actual result:
+The site shakes like it should, but changes the application in the dropdown.
+####Client settings:
+Firefox v62.0 (64-bit)
+####System settings:
+MacBook Pro (13", Mid-2012), macOS 10.13.6
+
+19744
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-16T15:34:03.631Z
+
+
+### Mippy#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b9e77eb8a265b6eb6b12a07/0c6a5b526db9e8828dc92f528432e5cd/_q8CjVBk.png added by Bug Bot on 2018-09-16T15:34:06.251Z
+
+
+### Can reproduce.
+CR. macOS Sierra 10.12.6, Chrome 68.0
+
+Rage#9991 - Bug Bot on 2018-09-16T15:34:11.142Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10, Firefox 62.0
+
+davfsa#7026 - Bug Bot on 2018-09-16T15:34:16.386Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 Chrome 69.0
+
+Delite#0001 - Bug Bot on 2018-09-16T15:34:21.367Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 23836 Chrome 68.0
+
+Neiron#2406 - Bug Bot on 2018-09-16T17:22:53.161Z
+
+
+### Can reproduce.
+Windows 10 1803, Chrome 69.0
+
+Frances Picard#6209 - Bug Bot on 2018-09-17T01:40:42.319Z
+
+
+### verified, macos 10.12.6, chrome 68.0 - Clayton on 2018-09-17T21:48:49.611Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

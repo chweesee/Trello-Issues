@@ -1,0 +1,58 @@
+[Archived] When adding a phone number to your account, the default phone code (calling code, country code, etc.) shows as +44 when it should be the code for your region. (https://trello.com/c/GVZ0ypqW)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-01-20T01:29:10.433Z
+Latest Update: 2019-08-31T01:35:00.104Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Do not live in the UK or use a VPN to appear outside the UK. 
+- Do not have a phone linked to your account. 
+- Go to User Settings > Enable SMS Authentication (though any "add phone" modals should work.)
+
+####Expected result:
+Discord should suggest the calling code of your region as it used to do before.
+####Actual result:
+Discord suggests `+44` regardless.
+####Client settings:
+Build 31082
+####System settings:
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave)
+
+26691
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-20T01:29:10.433Z
+
+
+### Can reproduce.
+macos 10.14.3, canary 31082
+
+Lentralkestor#0404 - Bug Bot on 2019-01-20T01:29:45.969Z
+
+
+### Can reproduce.
+Windows 7 3292MB RAM
+
+Alpha_Arcaden#0001 - Bug Bot on 2019-01-20T13:36:50.131Z
+
+
+### verified, macos 10.12.6, canary 31115 - Clayton on 2019-01-23T02:09:21.334Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-23T02:09:28.036Z
+
+
+### Archived by Bug Bot on 2019-02-22T02:30:02.637Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

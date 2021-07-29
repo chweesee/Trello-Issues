@@ -1,0 +1,85 @@
+[Overlay] When calling / in a call with someone the hang up button oddly moves closer to the Transparency button as well as showing a Green circle when you hang-up (https://trello.com/c/t6U0Wv2o)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-17T18:30:59.699Z
+Latest Update: 2019-05-24T13:06:15.479Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open game with overlay 
+- Call someone in DM (and keep an eye on the Phone icon) 
+- Notice it moves 
+- Hang up, Notice the Green circle for a half second. (This is meant for when a user is already in a call)
+
+####Expected result:
+Icon is still, and no Green icon
+####Actual result:
+Icon moves to the left and shows an green circle on hang up
+####Client settings:
+Canary 26151 (0.0.215)
+####System settings:
+Win10 64x (1809)
+
+21336
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-17T18:30:59.699Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bc77fe3f54fa82b2a157786/2384dd08565601fc5c501f2724defce1/7c6c194f2a.gif added by Bug Bot on 2018-10-17T18:31:02.478Z
+
+
+### Can reproduce.
+Can repo, Win10 x64 1803, Canary 26151
+
+Promise#0001 - Bug Bot on 2018-10-17T18:31:07.091Z
+
+
+### Can reproduce.
+Can reproduce, - Windows 10 Pro x64 (1809) - Canary 26151
+
+Jengas#7777 - Bug Bot on 2018-10-17T18:31:12.214Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Home x64 (1809)  Canary 26380
+
+iiTigerDude160#5673 - Bug Bot on 2018-10-17T18:31:17.063Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26440
+
+Neiron#7777 - Bug Bot on 2018-10-17T19:15:40.887Z
+
+
+### verified.  - Clayton on 2018-11-07T05:30:59.958Z
+
+
+### Can't reproduce.
+CNLR Win10 64x (1809), Discord Canary 26215 (icon changed)
+
+Alipoodle#5025 - Bug Bot on 2019-04-23T22:19:46.759Z
+
+
+### Cannot reproduce anymore on Canary 36529, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-27T20:27:47.728Z
+
+
+### Moved from Overlay Bugs to Claimed Fixed by Ene on 2019-04-27T20:27:54.941Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-12T11:40:12.282Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

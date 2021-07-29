@@ -1,0 +1,97 @@
+[Archived] Mentions can escape a Codeblock or Codetag (https://trello.com/c/1wr4d5wR)
+
+None
+
+Created: 2018-05-06T16:43:47.052Z
+Latest Update: 2018-07-06T18:32:40.210Z
+
+Reported by Blastoise186#7194
+
+####Steps to reproduce:
+- Open a DM with a user 
+- mention the user within Codeblocks or Codetags (use the format from my screenshots for examples)
+
+####Expected result:
+The mention should be escaped by the Codeblock or Codetag
+####Actual result:
+The mention can break through the Codetag or Codeblock
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 14651, Version Hash: 05273b109bbf775536938c01a1ba710d1c61d86c
+####System settings:
+Windows 10 Home 64-bit 1803 April Update Build 17134.1
+
+12088
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-06T16:43:47.052Z
+
+
+### Blastoise186#7194 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aef30c2f466a9cc85c44ea8/85b0a0e9138c49d06d68d90f0bca3438/unknown.png added by Bug Bot on 2018-05-06T16:43:49.569Z
+
+
+### Blastoise186#7194 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aef30c2f466a9cc85c44ea8/d0d503454662054073fc18dcae1ebef8/unknown.png added by Bug Bot on 2018-05-06T16:43:49.575Z
+
+
+### ash#0001 - https://monosnap.com/file/A2dmMjb43g4cDLmIwSMSWgEfHHEbcf.png added by Bug Bot on 2018-05-06T16:43:49.873Z
+
+
+### Can reproduce.
+just mention inside code snippet: notification is heard but no highlight or push notif. with the escape used attached, highlighted MacOS 10.13.3, Canary 14558, rMBP 2015
+
+ash#0001 - Bug Bot on 2018-05-06T16:43:54.432Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit 1803 [BUILD INFO] Release Channel: stable, Build Number: 14651, Version Hash: 05273b109bbf775536938c01a1ba710d1c61d86c Can Reproduce.
+
+wï§ë📖Mäň#8775 - Bug Bot on 2018-05-06T16:43:59.441Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64 - Discord canary, Build Number: 14720
+
+Xylium#1480 - Bug Bot on 2018-05-06T16:44:04.473Z
+
+
+### Can reproduce.
+CR \ Windows 10 Pro x64 \ Discord Canary (14558).
+
+/hash/#0001 - Bug Bot on 2018-05-06T17:53:23.819Z
+
+
+### Can't reproduce.
+Discord canary, Build Number: 14718, Version Hash: eb1b365992038aaef26bb917d3f8443b6cd5ba0e ; Windows 10 64-bit Version 1709 OS Build 16299.371
+
+Amanda#0001 - Bug Bot on 2018-05-06T22:36:32.308Z
+
+
+### Can't reproduce.
+Windows 10 Enterprise x64 15063,  Discord Stable 0.0.301
+
+Dresiden#8102 - Bug Bot on 2018-05-07T23:16:56.500Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-05-08T20:07:50.924Z
+
+
+### I can't reproduce. I tried following the exact text in the examples and couldn't replicate.
+
+Win 10 x64 [BUILD INFO] Release Channel: canary, Build Number: 14720, Version Hash: 9f6a3c8afec95316065e5fc7297cc4b39a7ffad5 - Jared on 2018-05-08T20:08:14.618Z
+
+
+### \\`\_\_ <@173342032268361728>\_\_\  - Jared on 2018-05-10T18:19:44.408Z
+
+
+### Archiving as this ticket has been CNR for more than 30 days. - Jared on 2018-07-06T18:32:36.425Z
+
+
+### Archived by Jared on 2018-07-06T18:32:40.213Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

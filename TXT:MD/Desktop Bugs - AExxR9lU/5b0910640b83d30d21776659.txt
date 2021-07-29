@@ -1,0 +1,145 @@
+[Archived] When you do @everyone but in a blockquote, it still warns you (https://trello.com/c/J7LHhbnP)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-05-26T07:44:36.261Z
+Latest Update: 2019-12-30T13:00:20.201Z
+
+Reported by Elliott#1468
+
+####Steps to reproduce:
+- Go to any channel 
+- Write `@everyone` into the box (Make sure you have permissions) 
+- Press Enter
+
+####Expected result:
+It should just send the message, as mentions don't work in blockquotes
+####Actual result:
+The system warns you as if you were properly doing @everyone.
+####Client settings:
+Build 16139 (Regular Discord)
+####System settings:
+Windows 10
+
+13413
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-26T07:44:36.261Z
+
+
+### Can reproduce.
+It seems like intended to me but shrug. Windows 10 Home x64 (1803), Canary 16139
+
+Mustard#2117 - Bug Bot on 2018-05-26T07:44:43.755Z
+
+
+### Can reproduce.
+Can reproduce, as Mustard#2117 said I think it is intended to occur aswell | Lenovo 7373FGM, 1280 x 1024 Display, Windows 10 Pro Insider Preview x64 v10.0.17677 Build 17677, Discord Canary Build 16139
+
+Cairo#2098 - Bug Bot on 2018-05-26T07:44:48.564Z
+
+
+### Can reproduce.
+Can reproduce, seems like it may be the way the feature works in parsing the message. WIN10 home, canary, Build Number: 16139
+
+Uptightjoker#0001 - Bug Bot on 2018-05-26T07:44:53.590Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1803), Discord Canary 16139
+
+Lulucmy ∆#7087 - Bug Bot on 2018-05-26T07:48:51.390Z
+
+
+### Can reproduce.
+Discord Canary 16139 Windows Pro X64
+
+Bastiti#0700 - Bug Bot on 2018-05-26T15:27:09.082Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 64-Bit Build 17134.81 [BUILD INFO] Release Channel: stable, Build Number: 16162, Version Hash: 905c666082c26511971c48bdfd2640e44683e187 It looks like putting either the Here and/or Everyone Mentions can trigger this one regardless. In fact whether it's a Code Tag or a Code Block it triggers. Not sure if it's a Bug but I CR the behaviour anyway
+
+Blastoise186#7194 - Bug Bot on 2018-05-27T21:22:17.518Z
+
+
+### Verified - Jared on 2018-05-31T20:14:48.263Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-31T20:14:55.256Z
+
+
+### Can reproduce.
+Ubuntu 18.04 LTS, Discord Canary 0.0.51 (Build: 16354) - Version Hash: 784f722c5dc3d01005e879a9043d159c85dac87b
+
+Alkali Metal#7806 - Bug Bot on 2018-06-02T03:14:36.114Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b0910640b83d30d21776659/5a79ecf0be9db2bc8c0ff0c2131f6ec3/N6FkBI7.gif added by Bug Bot on 2018-07-14T07:51:14.920Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 24853
+
+Mippy#0001 - Bug Bot on 2018-09-28T10:54:49.514Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 28704
+
+Hole#0001 - Bug Bot on 2018-12-01T03:34:38.160Z
+
+
+### Can reproduce.
+Windows 10 Home Build 17134, Discord Canary 30291
+
+Bsian#0003 - Bug Bot on 2018-12-25T00:16:42.177Z
+
+
+### Archived by Bug Bot on 2019-01-24T00:30:03.083Z
+
+
+### Can reproduce.
+W10 Pro x64 (1903), Canary 42319
+
+dragiceviccv#4375 - Bug Bot on 2019-07-31T10:46:58.006Z
+
+
+### Unarchived by Bug Bot on 2019-07-31T11:00:06.579Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:36.455Z
+
+
+### Can reproduce.
+Samsung A50 , Discord 980 ::: Extension:- The `@everyone` bug is fixed but if its tried with `@here` with single or triple code snippets, it still triggers confirmation dialogue box.
+
+Kratøs#0001 - Bug Bot on 2019-11-01T15:28:38.369Z
+
+
+### Unarchived by Bug Bot on 2019-11-01T15:30:06.183Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 49525 host 0.0.259
+
+Jean20B#4668 - Bug Bot on 2019-11-14T17:19:39.912Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 18362.476 Discord Build Number 49715
+
+Sergio#1436 - Bug Bot on 2019-11-16T17:11:07.587Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:20.212Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,161 @@
+[Archived] OAuth2 link open in browser not working (https://trello.com/c/aaaE2eAQ)
+
+None
+
+Created: 2019-08-16T22:45:43.764Z
+Latest Update: 2020-02-20T21:34:54.271Z
+
+Reported by Arrowverse2001#2001
+
+####Steps to reproduce:
+- Get a Auth link from a bot 
+- Paste it in discord  
+- Click on the link 
+- Press open in browser 
+- Could be Xiamomi specific and press chrome
+
+####Expected result:
+Should open in Chrome
+####Actual result:
+It says no app to support opening the link
+####Client settings:
+Discord Alpha 9.3.9
+####System settings:
+Android 8.1.0
+
+42215
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-16T22:45:43.764Z
+
+
+### Arrowverse2001#2001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5d573217e6edce07478f9073/82fbfb21d0eaaef9be64334bc7875daf/Screenshot_2019-08-16-22-34-11-079_com.discord.png added by Bug Bot on 2019-08-16T22:45:47.188Z
+
+
+### Can reproduce.
+Can Reproduce Samsung Galaxy Tab A (2016) | Android 8.1 | Discord Alpha 9.3.9
+
+Suspense#4615 - Bug Bot on 2019-08-16T22:45:51.428Z
+
+
+### Can reproduce.
+Samsung Tab A, 8.1.0, Discord version 9.3.9
+
+Coderholic#4750 - Bug Bot on 2019-08-16T22:45:56.428Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A50, Android 9.0 Discord alpha 9.3.9
+
+Garry#1337 - Bug Bot on 2019-08-16T22:46:01.433Z
+
+
+### Can reproduce.
+LG K7, 5.1.1 - Alpha 9.4.0
+
+Ness(16 days)#0001 - Bug Bot on 2019-08-16T22:51:53.475Z
+
+
+### Can reproduce.
+Samsung A70, Android 9, One UI 1.1 Discord 939
+
+champii-sama 🌸#0009 - Bug Bot on 2019-08-16T23:04:16.800Z
+
+
+### Can't reproduce.
+CNR with the given steps, Motorola Moto One Vision, Android 9.0, Discord 9.4.0
+
+Law of Royale#4167 - Bug Bot on 2019-08-16T23:10:15.987Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Android Alpha 9.4.0
+
+Danijel#9000 - Bug Bot on 2019-08-17T00:26:24.207Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S5, Android 6.0.1, Android Alpha 9.4.0
+
+Krobo#4784 - Bug Bot on 2019-08-17T01:00:46.590Z
+
+
+### Can reproduce.
+Android 9.0 Discord 940
+
+Typhoon#1337 - Bug Bot on 2019-08-17T06:59:15.916Z
+
+
+### The only time this shows is if there's no other application that requests handling the URL. 
+
+Could one of the effected users check if they are able to open the link with custom tabs enabled? - Sam Shih on 2019-08-17T07:27:37.377Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Sam Shih on 2019-08-17T07:31:58.078Z
+
+
+### Law of Royale#4167 - https://youtu.be/GHbkQoJukkg added by Bug Bot on 2019-08-17T09:13:56.936Z
+
+
+### I figured out the indicator of the issue yesterday but I fall asleep instead adding a note here, please make SURE that Discord application is set as Open by Default » Open supported Links » change it to 'Open in this App'—if you have this try to open an OAuth2 link » click onto the Button 'Open in Browser' of the activity menu » the popup for the activity results + I added a Video for visualization of course
+
+Law of Royale#4167 - Bug Bot on 2019-08-17T09:21:05.812Z
+
+
+### Can reproduce.
+Samsung Galaxy A5 (2016) × Androd 7.0 × Discord 9.4.0
+
+B.O.S.S#0251 - Bug Bot on 2019-08-17T12:22:41.078Z
+
+
+### Can reproduce.
+Honor 8X, Android 9.0.1 - Discord Alpha 9.4.2
+
+Leaf#0001 - Bug Bot on 2019-08-18T10:47:30.637Z
+
+
+### Sigh, undocumented android API changes: https://medium.com/google-developer-experts/intent-resolving-in-android-m-c17d39d27048
+
+Will be fixed in next release. - Sam Shih on 2019-08-20T22:46:09.686Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Sam Shih on 2019-08-20T23:17:45.155Z
+
+
+### Can't reproduce.
+CNLR, Motorola Moto One Vision, Android 9.0, Discord 9.4.4
+
+Law of Royale#4167 - Bug Bot on 2019-08-21T17:40:56.080Z
+
+
+### Can reproduce.
+LG Stylo 3, Android 7.0, Discord 9.4.4
+
+Melody#5767 - Bug Bot on 2019-08-21T21:42:49.928Z
+
+
+### Can't reproduce.
+CNLR, Xiaomi Redmi 4x, Android 7.1.2 N2G47H, Discord Alpha 9.4.5
+
+KlukCZ#6589 - Bug Bot on 2019-08-22T08:35:37.289Z
+
+
+### Can't reproduce.
+CNLR, Samsung Galaxy Tab A, Android 8.1, Discord 945
+
+Suspense#4615 - Bug Bot on 2019-08-22T10:18:01.677Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-08-22T10:18:02.037Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:54.286Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

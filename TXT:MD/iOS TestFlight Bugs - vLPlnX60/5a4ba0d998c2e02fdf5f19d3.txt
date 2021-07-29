@@ -1,0 +1,103 @@
+[Archived] Discord crashes when having roles permissions opened while deleting the server (https://trello.com/c/temU2bsc)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2018-01-02T15:10:17.465Z
+Latest Update: 2018-09-04T23:12:09.971Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create a new server 
+- Open the server settings 
+- Go to `Roles` 
+- Click on any role 
+- Keep this section opened and delete the server with other device at the same time
+
+####Expected result:
+You should be redirected to your friend list.
+####Actual result:
+Discord crashes.
+####Client settings:
+TestFlight 2.2.0 (1982)
+####System settings:
+iPhone 6s, iOS 11.2.1 & iPad Air 2, iOS 11.2.5 Public Beta 2
+
+7522
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-02T15:10:17.465Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 11.1.2, TestFlight 2.2.0 (build 1982); causes extreme lag if you navigate back to the roles list before then crashing.
+
+JustGamer#2542 - Bug Bot on 2018-01-02T15:10:25.474Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.2.1, TestFlight 2.2.0
+
+My Dudes#1174 - Bug Bot on 2018-01-02T15:10:30.399Z
+
+
+### Can reproduce.
+CR, iPhone SE, iOS 10.3.2, TestFlight 2.2.0 (1910)
+
+TimThe#7618 - Bug Bot on 2018-01-02T15:10:35.527Z
+
+
+### Low priority as this is intentionally destructive behavior. - Jared on 2018-01-02T20:55:31.120Z
+
+
+### Can reproduce.
+iPhone SE , latest iOS
+
+CP Intermediate#2265 - Bug Bot on 2018-01-02T21:17:08.898Z
+
+
+### I can reproduce this P3, moving to Verified Bugs. 
+
+Discord 2.2.0 (2042), iOS 11.2.1, iPhone 8 Plus - Alexandru Todea on 2018-01-03T06:48:06.556Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2018-01-03T06:48:10.948Z
+
+
+### Can reproduce.
+iPhone SE (iOS 11.1.2), TestFlight 2.2.0 (2042)
+
+pozzzy#9606 - Bug Bot on 2018-01-03T23:12:53.759Z
+
+
+### Can reproduce.
+iPhone 6 plus, 8.4.1
+
+Cherry#0169 - Bug Bot on 2018-01-04T09:19:46.451Z
+
+
+### **Extension to this issue**
+It also happens with the permission overrides for a channel. If you delete this channel while this section is opened, Discord will crash.
+
+Pascal#0929 - Bug Bot on 2018-04-22T14:54:17.130Z
+
+
+### ...same for categories.
+
+Pascal#0929 - Bug Bot on 2018-04-22T15:02:15.490Z
+
+
+### 54D#1357 - https://youtu.be/ab_7bBB1ZTg added by Bug Bot on 2018-07-14T05:32:10.748Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:09.974Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

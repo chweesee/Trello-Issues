@@ -1,0 +1,72 @@
+Mentions in channels from collapsed categories don't show up (https://trello.com/c/BCgIHOOb)
+
+None
+
+Created: 2019-05-27T14:29:13.623Z
+Latest Update: 2020-07-16T21:26:03.994Z
+
+Reported by Tonkku#0107
+
+####Steps to reproduce:
+- Collapse a category 
+- Switch to another channel within the same server 
+- Get mentioned in a channel inside that category
+
+####Expected result:
+The channel should show up under the category with the mention indicator
+####Actual result:
+The channel does not show up and you have to open the category to see that you have a mention there
+####Client settings:
+Canary 0.0.78 Build 38570
+####System settings:
+Arch Linux, kernel 5.1.4
+
+35473
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-27T14:29:13.623Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10, Release Channel: canary, Build Number: 38570
+
+Xignotic#0001 - Bug Bot on 2019-05-27T14:29:21.102Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 38570
+
+Isabel#0002 - Bug Bot on 2019-05-27T14:29:26.165Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 38570
+
+OrangeM24#5746 - Bug Bot on 2019-05-27T14:29:31.116Z
+
+
+### Can't reproduce.
+CNR; Windows 10 (17763) ~ Canary 38594 ~ Chrome 74
+
+Lengo#0001 - Bug Bot on 2019-05-27T23:31:46.479Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | Canary 38594
+
+charleskimbac#6492 - Bug Bot on 2019-05-28T04:52:45.346Z
+
+
+### Can reproduce.
+Win7 Ultimate (6.1.7601) / stable Desktop Build 38729 & stable web build (Firefox) / Additional information regarding this bug: It doesn't just happen on mentions, but for any new messages in general. If the category is collapsed and more than one channel in it gets a new message the channels don't show up until another channel is selected. Example video: https://streamable.com/b5of3
+
+Index#2682 - Bug Bot on 2019-05-30T18:02:27.221Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,78 @@
+[Archived] When posting reddit link to a text post with mardown in it, the raw text is displayed in the embed preview, instead of formatted version (https://trello.com/c/1QCr535Z)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-07T14:22:13.148Z
+Latest Update: 2018-07-06T17:48:40.001Z
+
+Reported by xinitrc#0001
+
+####Steps to reproduce:
+- Find reddit text post with mardown formatting in the beginning 
+- Post the link of that post in Discord
+
+####Expected result:
+Discord creates and embed with text preview, where text is formatted according to the markdown presented.
+####Actual result:
+Embed is created with text, escaping the mardown (raw text)
+####Client settings:
+Discord Canary (13313)
+####System settings:
+Windows 10 64-bit Professional Edition
+
+10407
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-07T14:22:13.148Z
+
+
+### Can reproduce.
+CR Windows 10, Discord Canary 13228
+
+54D#0001 - Bug Bot on 2018-04-07T14:22:20.777Z
+
+
+### Can reproduce.
+CR Discord Linux Canary Build 13313, Debian Stretch, Gnome 3
+
+Robin#0610 - Bug Bot on 2018-04-07T14:22:25.844Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.4, Discord Canary 0.0.186 (Build 13313)
+
+Pascal#0929 - Bug Bot on 2018-04-07T14:22:30.767Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Version 1709, OS Build 16299.309, Discord Canary Build 13313
+
+GamesForDays#1985 - Bug Bot on 2018-04-07T14:51:44.744Z
+
+
+### Verified.  - Clayton on 2018-04-11T20:39:51.906Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-11T20:39:54.796Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2018-04-11T20:49:01.735Z
+
+
+### Only rich embeds support markdown, not link embeds. - Jared on 2018-04-11T20:49:12.065Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:48:37.897Z
+
+
+### Archived by Jared on 2018-07-06T17:48:40.004Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

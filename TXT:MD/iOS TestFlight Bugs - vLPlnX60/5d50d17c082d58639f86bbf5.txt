@@ -1,0 +1,80 @@
+Grey space on the side of the server nitro boost page is inconsistent on iPad in Portrait mode (https://trello.com/c/cqZxix6J)
+
+None
+
+Created: 2019-08-12T02:39:56.822Z
+Latest Update: 2020-04-23T18:39:44.197Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Go to the nitro boost page for any server 
+- Scroll all the way to left using landscape 
+- Scroll all the way to the right using landscape 
+- Do the same using portrait mode 
+- Observe the amount of grey space to the left of level 0 and right of level 3
+
+####Expected result:
+The grey space should either be consistent
+####Actual result:
+There is significantly less grey space to the right of level 3 in portrait mode than landscape, but the same amount to the left of level 0 as with landscape
+####Client settings:
+TestFlight 3.1.0 (16734)
+####System settings:
+iPad Air iOS 12.4
+
+41831
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-12T02:39:56.822Z
+
+
+### Can reproduce.
+Cr; iPad, iOS 12, TestFlight 3.1.0 (16734)
+
+Noah#0004 - Bug Bot on 2019-08-12T02:40:04.403Z
+
+
+### Can reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 6) - Stable 3.1.0
+
+Xylium#5800 - Bug Bot on 2019-08-12T02:40:09.455Z
+
+
+### Can reproduce.
+iPad, iOS 12.4, stable 3.1.0
+
+Jeffrey#1234 - Bug Bot on 2019-08-12T02:40:14.402Z
+
+
+### Can reproduce.
+Can reproduce - iPad 6, iPadOS 13 Public Beta 3, Discord TestFlight Build 3.1.0 (16734)
+
+maximd#1122 - Bug Bot on 2019-08-12T04:18:20.957Z
+
+
+### Moved from New Issues to Nitro by Jonathan Wu on 2019-08-14T18:44:55.406Z
+
+
+### Can reproduce.
+iPad 7: iPadOS 13.3.1; TestFlight 13.0 (19259)
+
+Jiralite#1207 - Bug Bot on 2020-03-13T16:09:22.677Z
+
+
+### Jiralite#1207 - https://youtu.be/i2JqTvZFVIE added by Bug Bot on 2020-04-23T18:38:24.409Z
+
+
+### Can reproduce.
+This is reproducible on both orientations - you simply need to visit the server boost page, and swap orientation and compare the spacing. See attached video. iPad 7: iPadOS 13.4.1; TestFlight 19.0 (19670)
+
+Jiralite#1207 - Bug Bot on 2020-04-23T18:39:44.209Z
+
+List
+====
+Nitro
+
+Members
+=======
+None

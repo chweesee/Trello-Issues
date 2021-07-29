@@ -1,0 +1,77 @@
+[Archived] Game tab, game popup not closing while scrolling (https://trello.com/c/NoY52Lrd)
+
+None
+
+Created: 2018-07-28T16:54:38.871Z
+Latest Update: 2018-08-01T00:51:35.180Z
+
+Reported by Skwaleks#2794
+
+####Steps to reproduce:
+- go to games tab 
+- click on a game name 
+- see popup opening 
+- start scrolling down 
+- look at the popup not closing like other popups (user profile popup)
+
+####Expected result:
+The popup should close
+####Actual result:
+The popup stays open and moves all the way around while you scrol
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 20174, Version Hash: 04625290f5fdaf45ed5a94fa00f89b06c9e9a88b
+####System settings:
+Windows 10 PRO (Build: 16299.431) - 64x
+
+16223
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-28T16:54:38.871Z
+
+
+### Skwaleks#2794 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5c9fce398e73722319f6d0/3a72885e682e55bb412e99a2c15568f9/810fa51edca58eb6d61b8771bfe76701.gif added by Bug Bot on 2018-07-28T16:54:42.124Z
+
+
+### Can reproduce.
+Can Reproduce , Windows 10 x64 1803 (17134) (Canary build 20174)
+
+Cyril Hanouna#3599 - Bug Bot on 2018-07-28T16:54:46.525Z
+
+
+### Can reproduce.
+Windows 10 Version 1803, x64 - Discord Canary 20174
+
+Homie PinkGuy#1386 - Bug Bot on 2018-07-28T16:54:51.529Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 home x64, Canary build 20174
+
+OddsomeOddy#1998 - Bug Bot on 2018-07-28T16:54:56.678Z
+
+
+### Can reproduce.
+Discord Canary 20174, Firefox Quantum 61.0.1, Windows 10 Pro x64 (1803)
+
+Delite#0001 - Bug Bot on 2018-07-28T17:25:28.691Z
+
+
+### Can reproduce.
+I can reproduce this, but I believe it is an extension of this bug, as they both relate to the modal not closing until clicking elsewhere within the client https://trello.com/c/apREVY2L
+
+Uptightjoker#0001 - Bug Bot on 2018-07-28T18:37:21.930Z
+
+
+### extension below.  - Clayton on 2018-08-01T00:51:32.891Z
+
+
+### Archived by Clayton on 2018-08-01T00:51:35.183Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

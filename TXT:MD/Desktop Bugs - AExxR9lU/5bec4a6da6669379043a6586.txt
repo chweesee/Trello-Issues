@@ -1,0 +1,73 @@
+[Archived] New member count after pruning doesn't update until you restart Discord. (https://trello.com/c/gFRUj9xX)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-11-14T16:16:45.669Z
+Latest Update: 2019-01-11T00:01:55.913Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- First, notice how many members you have in your server by going to server settings > members. 
+- Then, prune some members. 
+- After pruning, notice how many people are in your server now.
+
+####Expected result:
+The amount of members after pruning should differentiate between how many you had originally by how many you have pruned.
+####Actual result:
+New member count doesn't update until you restart Discord.
+####Client settings:
+Discord Canary 27841
+####System settings:
+Windows 10 Pro, x64 (v1803)
+
+23050
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-14T16:16:45.669Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 27841
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-14T16:16:53.276Z
+
+
+### Can reproduce.
+CR, macos 10.12.6, canary 27933
+
+IcyPebbles#5833 - Bug Bot on 2018-11-14T16:16:58.244Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 home 64-bit (1803), Discord Canary 27964, also the members you pruned stay in members list and in settings on smaller servers.
+
+J1#0088 - Bug Bot on 2018-11-14T16:17:03.240Z
+
+
+### Can reproduce.
+Windows 10 Enterprise - Discord Canary 27964
+
+AmirAmani#0102 - Bug Bot on 2018-11-14T16:29:41.152Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-14T21:00:43.782Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64 - Discord Canary 28013
+
+Daffyduck#5364 - Bug Bot on 2018-11-15T12:09:36.212Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:55.915Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

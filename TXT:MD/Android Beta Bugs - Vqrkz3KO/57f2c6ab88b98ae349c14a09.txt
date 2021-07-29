@@ -1,0 +1,59 @@
+[Archived] Fuzzy search is not used in the servers member list similar to desktop. (https://trello.com/c/34HaqiGF)
+
+P2 - Can wait a while
+
+Created: 2016-10-03T20:59:23.496Z
+Latest Update: 2019-06-10T20:44:48.802Z
+
+Short Description:  Fuzzy search is not used in the servers member list similar to desktop.
+Steps to Reproduce:
+1)  Open up members list in server settings (and bans I assume)
+2)  Try to fuzzy search someone
+Expected Result: User is found with fuzzy search similar to how they are found in desktop.
+Actual Result: There is no fuzzy search.
+
+More information: Me and andyG talked about this, the reasoning behind it is that desktop caches the users when you first load the members list (all of them even 10k servers etc) so that they can be fuzzy searched from memory instead of using a server side fuzzy search. 
+
+System Settings:  Android Alpha, Android N, Nexus 6P
+
+Card Log
+========
+### Added by Jared on 2016-10-03T20:59:23.496Z
+
+
+### Moved from User Reported Bugs to Fixed Bugs by Cole Norman on 2016-10-11T02:57:02.983Z
+
+
+### Moved from Fixed Bugs to User Reported Bugs by Cole Norman on 2016-10-11T02:57:37.319Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-10-18T16:08:55.448Z
+
+
+### I can still reproduce this issue as of 7/28 - Jared on 2017-07-28T19:41:08.737Z
+
+
+### Verified still occurs as of 10/6 - Jared on 2017-10-06T18:38:56.919Z
+
+
+### Can reproduce.
+Cyanogenmod 13 Discord Stable 6.4.3
+
+CK#9163 - Bug Bot on 2018-04-02T17:28:51.751Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57f2c6ab88b98ae349c14a09/6164e2b3a69a3289dff81eeabc6dcd44/yAmqDxx.png added by Bug Bot on 2018-07-15T12:13:55.440Z
+
+
+### Logic is in QS just need to port it - Sam Shih on 2018-11-09T02:06:08.318Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:48.824Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

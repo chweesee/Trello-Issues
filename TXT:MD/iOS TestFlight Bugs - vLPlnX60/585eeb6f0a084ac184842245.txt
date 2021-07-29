@@ -1,0 +1,144 @@
+[Archived] Can swipe into server list or member list when editing text. (https://trello.com/c/lmYLzuUP)
+
+P2 - Can wait a while,
+low
+
+Created: 2016-12-24T21:41:03.076Z
+Latest Update: 2019-09-18T10:01:12.674Z
+
+Reported by Mikesky#3097
+
+####Steps to reproduce: 
+- type some text, and long press and hold on the text to activate the precise text selector magnification thing 
+- scroll along the text fast left or right with the magnification circle open 
+
+####Expected result:
+ can scroll through text without interruption 
+####Actual result:
+ accidentally open one of the sidebars
+
+iOS 10.2 iPhone5S Latest TF
+
+Card Log
+========
+### Added by Jared on 2016-12-24T21:41:03.076Z
+
+
+### Can reproduce.
+iPhone 7, iOS 10.2, TF 1.8.1
+
+Tiemen#0107 - Jared on 2016-12-24T21:41:03.520Z
+
+
+### Can reproduce.
+10.1.1 latest tf
+
+/dev/null#0012 - Jared on 2016-12-24T21:41:03.549Z
+
+
+### Can reproduce.
+iPad Air, iOS 10.2, Latest TestFlight
+
+Fifo#1531 - Jared on 2016-12-26T09:35:29.257Z
+
+
+### Can reproduce.
+iOS 10.2.1 Developer Beta 2, Latest TestFlight
+
+Dru#8209 - Jared on 2016-12-26T14:26:59.316Z
+
+
+### Can reproduce.
+1.8.1
+
+Skeletonarcher12#3697 - Jared on 2016-12-27T12:54:10.232Z
+
+
+### Valid, but low priority. - Jared on 2017-02-07T18:37:41.741Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-07T18:37:46.224Z
+
+
+### Upping priority because I hate this so very much. - Jared on 2017-03-14T16:35:23.381Z
+
+
+### Can reproduce.
+iPhone 7, iOS 10.3b6, 1.8.3 still
+
+Tiemen#0107 - Bug Bot on 2017-03-14T16:42:40.009Z
+
+
+### Tested and found that it happens only when you try to scroll from the beginning or the end of the content inside the text box. If you try to scroll from the right end, it will open the right sidebar, and similarly with the left if you scroll from the left.
+
+The Monitor Lizard#9090 - Bug Bot on 2017-03-14T16:44:19.559Z
+
+
+### Moved from Verified Bugs to Next up for Investigation by Jared on 2017-12-05T18:57:59.835Z
+
+
+### Verified issue still occurs as written. - Jared on 2018-01-08T17:49:23.484Z
+
+
+### 2 Extensions to this issue
+1. Extension: https://trello.com/c/KL3m7jPI
+2. Extension: Scrolling through the emoji categories in the new emote picker
+
+- Use an iPhone/smaller device
+- Click on the emote picker button
+- Scroll through the emoji categories
+- Observe it
+
+Pascal#0929 - Bug Bot on 2018-09-06T18:09:46.014Z
+
+
+### Can reproduce.
+iPhone SE - iOS 12.1.2 - Discord TestFlight 2.4.2 (10573)
+
+Trash#1234 - Bug Bot on 2019-01-11T18:54:46.486Z
+
+
+### Can reproduce.
+CR, Very old bug but still happens and can be very annoying; iPhone SE, iOS 12.1.2 - Discord TestFlight 2.4.5 (11524)
+
+Arnold0#7514 - Bug Bot on 2019-02-24T00:30:29.725Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.3
+
+Polyzer#9085 - Bug Bot on 2019-04-06T02:20:02.038Z
+
+
+### Can reproduce.
+iOS 12.2 iPhone 6s testflight 3.0.1
+
+GlenMerlin#2119 - Bug Bot on 2019-05-03T03:02:25.547Z
+
+
+### Cannot reproduce anymore (and all the extensions noted below) as of Stable 3.0.4 with iPhone 8 Plus running iOS 12.3.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-22T18:10:52.266Z
+
+
+### Moved from Next up for Investigation to Claimed Fixed Bugs by Pascal on 2019-06-22T18:11:00.690Z
+
+
+### Can't reproduce.
+iPhone XR & iPad Air iOS 12.3.1 TestFlight 3.0.4 (15896)
+
+binchlord#0998 - Bug Bot on 2019-06-22T18:20:29.378Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Pascal on 2019-06-25T04:56:44.272Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:12.690Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

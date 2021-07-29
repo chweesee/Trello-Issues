@@ -1,0 +1,77 @@
+[Archived] Cannot select multiple files to upload in a Slow Mode channel when you have permission to override it (https://trello.com/c/47lzWpfC)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-16T14:49:22.937Z
+Latest Update: 2019-01-11T00:01:07.853Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Have Manage Channel permission in a server 
+- Enable Slow Mode in a channel in the server 
+- Click the plus icon to open the File Explorer 
+- Attempt to left click drag to highlight multiple files and observe
+
+####Expected result:
+You should be able to select multiple files to upload as you have permission to override the Slow Mode
+####Actual result:
+You're unable to select multiple files, as if you lack permission to override the Slow Mode
+####Client settings:
+Discord Canary 0.0.215, Build 26299
+####System settings:
+Windows 10 Home 64-bit (v1803)
+
+21369
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-16T14:49:22.937Z
+
+
+### Can reproduce.
+Discord Canary 0.0.215 (26299) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-10-16T14:49:30.295Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 Canary 26331
+
+Delite#0001 - Bug Bot on 2018-10-16T14:49:35.292Z
+
+
+### Can reproduce.
+- Windows 10 Pro x64 (1809) - Discord Canary, Build: 26299
+
+Jengas#7777 - Bug Bot on 2018-10-16T14:49:40.318Z
+
+
+### Can reproduce.
+Windows 10 Home, x64, (17134) - Discord Canary 26340
+
+iiFunnyLaw#3435 - Bug Bot on 2018-10-16T14:53:13.611Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26340
+
+Neiron#5555 - Bug Bot on 2018-10-16T19:02:00.605Z
+
+
+### verified, macos 10.12.6, canary 26340 - Clayton on 2018-10-16T21:54:40.608Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-16T21:54:49.109Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:07.856Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

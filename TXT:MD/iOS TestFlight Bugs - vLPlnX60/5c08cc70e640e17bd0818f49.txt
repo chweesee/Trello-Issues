@@ -1,0 +1,101 @@
+[Archived] Ellipses in in-app notifications highlight if there's a mention after the ellipses (https://trello.com/c/mzoegV7Q)
+
+P2 - Can wait a while
+
+Created: 2018-12-06T07:14:56.505Z
+Latest Update: 2019-06-01T05:30:19.723Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Turn notifications for a channel to "All messages" 
+- Have someone send a long enough message that it ellipses 
+- Verify that the ellipses isn't highlighted 
+- Have the same person send the same message again, but this time ping you at the end 
+- Observe the ellipses in the in-app notification
+
+####Expected result:
+Ellipses don't highlight at all
+####Actual result:
+Ellipses highlight if there's a mention after the ellipses in the message
+####Client settings:
+TestFlight 2.4.0 (9648)
+####System settings:
+iPhone 6s iOS 12.1.1 Dev Beta 3
+
+24015
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-06T07:14:56.505Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c08cc70e640e17bd0818f49/17989f220ec53d0b498e4c2e9820d676/44f236.png added by Bug Bot on 2018-12-06T07:14:59.079Z
+
+
+### Can reproduce.
+Can reproduce in DMs as well. iPhone 5s, iOS 12.1, TestFlight (9648)
+
+Solo#0007 - Bug Bot on 2018-12-06T07:15:03.891Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1 - TestFlight 2.4.0 (9648)
+
+Daffyduck#5364 - Bug Bot on 2018-12-06T07:15:08.896Z
+
+
+### Can reproduce.
+Can reproduce - iPhone 8 - iOS 12.0.1 - Discord TestFlight 2.4.0 (9648)
+
+Jengas#7777 - Bug Bot on 2018-12-06T07:15:13.886Z
+
+
+### Moved from New Issues to In-App Notifications by Jonathan Wu on 2018-12-06T17:57:22.654Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1.1, Dev Beta 3 - TestFlight 2.4.0 (9714)
+
+Alfie#1582 - Bug Bot on 2018-12-09T00:24:10.977Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.1 (14524) with iPad Pro 11" running iOS 12.2. There are no longer ellipses shown at all for in app notifications.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-01T19:52:01.906Z
+
+
+### Moved from In-App Notifications to Claimed Fixed Bugs by Pascal on 2019-05-01T19:52:06.897Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14524)
+
+Daffyduck#5364 - Bug Bot on 2019-05-01T19:59:57.141Z
+
+
+### Can't reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 3.0.1 (14524)
+
+OrangeM24#2020 - Bug Bot on 2019-05-01T21:31:37.126Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.3 (dev beta 3) - TestFlight 3.0.1 (14524)
+
+Xylium#5800 - Bug Bot on 2019-05-02T05:17:29.793Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-02T05:17:30.038Z
+
+
+### Archived by Bug Bot on 2019-06-01T05:30:19.734Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/andygarron1) - No Bio
+Unknown User (https://trello.com/jonathanwu41) - No Bio

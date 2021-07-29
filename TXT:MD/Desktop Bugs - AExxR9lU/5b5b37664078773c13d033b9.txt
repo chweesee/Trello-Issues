@@ -1,0 +1,122 @@
+[Archived] The search menu goes out of bounds if you delete messages that were found. (https://trello.com/c/X9lsxR6N)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-27T15:16:54.715Z
+Latest Update: 2019-08-13T15:30:41.424Z
+
+Reported by King - Vlad#8339
+
+####Steps to reproduce:
+- Search a word that has more than a page 
+- Go to the pre-last page (the page before the last one) 
+- Start deleting messages that match the page, till you delete a page's worth (just go through all hit messages in the page) 
+- Go to the next page
+
+####Expected result:
+Discord should stay on the same page and update the counter / page to adapt to the missing messages
+####Actual result:
+Discord goes to the last page, with no messages shown and the counter going "out of bounds" (for example, `Page 5 / 4`)
+####Client settings:
+Release Channel: canary, Build Number: 20044, Version Hash: aa617d3b075ba073c0837aa028c08ab88e286208
+####System settings:
+Windows 10 April Update (2018), x64
+
+16128
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-27T15:16:54.715Z
+
+
+### King - Vlad#8339 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b5b37664078773c13d033b9/8c30d23c48ed469d30197c0356afef77/jk441rp4bd88cce.png added by Bug Bot on 2018-07-27T15:16:57.612Z
+
+
+### Can reproduce.
+can reproduce, Windows 10 Home Edition x64, canary build 20044
+
+brxxn#0632 - Bug Bot on 2018-07-27T15:17:02.234Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 20044
+
+webhp#1337 - Bug Bot on 2018-07-27T15:17:07.200Z
+
+
+### Can reproduce.
+Can reproduce, however, the client sometimes shows me, no results, Windows 10 • x64 • Build: 17123, Canary 20044
+
+White Falcon#0001 - Bug Bot on 2018-07-27T15:17:12.182Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (April 2018)  , Canary 20044
+
+Flame#9168 - Bug Bot on 2018-07-27T15:28:12.855Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 20044
+
+MoonlightCapital#0554 - Bug Bot on 2018-07-27T20:17:59.804Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1709 • Canary 20088
+
+Purpzie#0001 - Bug Bot on 2018-07-27T22:06:44.928Z
+
+
+### Can reproduce.
+CR. Canary 20088, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-27T22:07:34.008Z
+
+
+### Can reproduce.
+Canary 20088, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-27T22:16:07.506Z
+
+
+### verified, macos 10.12.6, canary 20044 - Clayton on 2018-07-27T22:30:19.654Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-27T22:30:27.256Z
+
+
+### Can reproduce.
+Discord Canary 19710, Windows 10 Home X64
+
+Scottmg#2966 - Bug Bot on 2018-07-27T23:00:00.114Z
+
+
+### Can reproduce.
+MacBook Pro (13"), macOS 10.13.6, Canary 20174
+
+Mippy#0001 - Bug Bot on 2018-07-28T18:52:24.706Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:39.620Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 31744
+
+Delite#0001 - Bug Bot on 2019-02-02T18:52:48.484Z
+
+
+### Unarchived by Bug Bot on 2019-02-02T19:00:05.526Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:41.440Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

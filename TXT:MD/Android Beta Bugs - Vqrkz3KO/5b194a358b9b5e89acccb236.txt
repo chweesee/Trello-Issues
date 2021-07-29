@@ -1,0 +1,80 @@
+[Archived] New Mentions button appears and does nothing on tap if you're switching from a server with almost no channels to the server where you were pinged (https://trello.com/c/P9KXf0Li)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-07T15:07:33.219Z
+Latest Update: 2018-08-22T01:22:40.618Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Create a new server and delete all categories and the voice chat to keep only the text channel 
+- Switch to the server you just created if not already 
+- Get pinged in a different server, in one of the top visible channels of the server (except the very first one) 
+- Switch to the server where you were pinged
+
+####Expected result:
+New Mentions appears only if channel is offscreen
+####Actual result:
+New Mentions button still appears at the bottom and does nothing when you press on it
+####Client settings:
+Discord Alpha 6.8.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13893
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-07T15:07:33.219Z
+
+
+### Can reproduce.
+Can Reproduce, same thing happens for new messages banner as well, although both the banners disappear if you scroll the list a bit -- Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.8.8
+
+Ori#1908 - Bug Bot on 2018-06-07T15:07:40.634Z
+
+
+### Can reproduce.
+[CR] Worked for both new mentions and new unreads. Moto E4 Plus - Android 7.1.1 (Nougat) - Discord Alpha 6.8.8
+
+StupidDroid#6253 - Bug Bot on 2018-06-07T15:07:45.672Z
+
+
+### Can reproduce.
+Can reproduce, worked for mentions and unreaded messages.  Alcatel 3C, 7.0.0 Discord Alpha 6.8.5
+
+StefanFX#5684 - Bug Bot on 2018-06-07T15:07:50.662Z
+
+
+### Can't reproduce.
+[cnr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.8.7
+
+fujhofn.#0003 - Bug Bot on 2018-06-07T15:48:58.617Z
+
+
+### Can reproduce.
+Can reproduce. Correcting the client version. Alcatel 3C, 7.0.0 Discord Alpha 6.8.8
+
+StefanFX#5684 - Bug Bot on 2018-06-07T17:59:14.515Z
+
+
+### verified, samsung s6 edge, 7.0, 6.8.8 - Clayton on 2018-06-08T01:23:58.231Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-08T01:24:06.611Z
+
+
+### 54D#1357 - https://youtu.be/HzFemUUwPyA added by Bug Bot on 2018-07-16T11:42:48.439Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:40.620Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

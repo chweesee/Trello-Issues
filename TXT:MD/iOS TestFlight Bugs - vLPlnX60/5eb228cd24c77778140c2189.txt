@@ -1,0 +1,95 @@
+[Archived] The channel message textbox and the history doesn't show on the screen, or if they do, voice over doesn't read them. (https://trello.com/c/zSVJF9xy)
+
+P1 - Severe
+
+Created: 2020-05-06T03:02:37.246Z
+Latest Update: 2020-06-12T05:30:32.475Z
+
+Reported by vlad25#1250
+
+####Steps to reproduce:
+- i choose a server. 
+- i click on a text channel.
+
+####Expected result:
+The history should show up along with the message #channelname textbox
+####Actual result:
+The drawer closes as expected, but it doesn't show the history, neither the chatbox
+####Client settings:
+21.0 19848
+####System settings:
+iPhone 8 IOS 13.4.1
+
+55580
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-06T03:02:37.246Z
+
+
+### Can reproduce.
+Upon testing, it seems VoiceOver functionality as a whole is severely broken on landscape iPads with a vast amount of unselectable elements - it simply does not work. On iPhones & portrait iPads, elements do not work as expected, including being unable to send messages. iPhone 7: iOS 13.4.1; TestFlight 21.0 (19848) & iPad 7: iPadOS 13.4.1; TestFlight 21.0 (19848)
+
+Jiralite#1207 - Bug Bot on 2020-05-06T03:02:44.875Z
+
+
+### Can reproduce.
+Severe issue with a11y feature - Voiceover, Escalating to devs.
+
+Daffyduck#5364 - Bug Bot on 2020-05-06T03:02:49.883Z
+
+
+### Moved from New Issues to Notable Issues by Daffyduck on 2020-05-06T03:03:51.623Z
+
+
+### One cannot also scroll through the channel message history... the channel history is not being read to the user (it's detecting channel name elements behind the screen?)... cannot search in channels anymore... cannot select the member list icon (have to use the channel name) to which it seemingly traps you there... cannot open the message box because it's not a selectable element unless you tap some random area around it that opens it which seemingly is not related... the attachment, gift, emoji buttons don't open either and the send message button is not selectable so one cannot send messages
+
+Jiralite#1207 - Bug Bot on 2020-05-06T03:18:38.841Z
+
+
+### To stress on iPad landscape - Literally nothing is selectable. Server list, channel list, server name, account settings, recent mentions, quick switcher, invite button, direct messages, channel name at the top of the channel, send messages, emoji/gift/attachment/message text area, search icon, member list, nothing. The member list can be accessed because VoiceOver seemingly detects the channel name hidden behind the screen to which you are again locked out
+
+Jiralite#1207 - Bug Bot on 2020-05-06T03:24:10.834Z
+
+
+### I can reproduce this on the following builds of TestFlight 21.0: 19848 & 19831 & 19807. But, I cannot reproduce this on TestFlight 20.0 (19811)
+
+Jiralite#1207 - Bug Bot on 2020-05-06T03:45:54.378Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Fanghao on 2020-05-07T01:09:27.576Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Stephanie Wang on 2020-05-07T20:39:26.040Z
+
+
+### Can't reproduce.
+iPhone 7: iOS 13.4.1; TestFlight 21.0 (19880) & iPad 7: iPadOS 13.4.1; TestFlight 21.0 (19880)
+
+Jiralite#1207 - Bug Bot on 2020-05-07T20:39:59.908Z
+
+
+### Can't reproduce.
+CNR, iPhone 7 plus ios 13.4.1, TestFlight 22.0 (19935)
+
+Action Potential#2655 - Bug Bot on 2020-05-10T23:52:56.036Z
+
+
+### Can't reproduce.
+CNR, iPhone 8 iOS 13.5, TestFlight 22.0 (19935)
+
+OrangeM24#5746 - Bug Bot on 2020-05-13T05:14:42.904Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2020-05-13T05:14:43.407Z
+
+
+### Archived by Bug Bot on 2020-06-12T05:30:32.486Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

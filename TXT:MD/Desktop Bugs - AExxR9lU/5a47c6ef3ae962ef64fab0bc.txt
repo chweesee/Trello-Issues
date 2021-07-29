@@ -1,0 +1,124 @@
+[Archived] If channel permissions are not synced with category, it will still say they are synced (https://trello.com/c/DubHpxVZ)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-12-30T17:03:43.813Z
+Latest Update: 2019-12-30T13:00:07.106Z
+
+Reported by GospodinCrni#2565
+
+####Steps to reproduce:
+- Go to a server where you have a permission to edit channel specific permissions 
+- Have a channel inside a category 
+- Press edit channel on a channel 
+- Go to Permissions submenu 
+- Change some channel permissions to make sure channel and category permissions are not the same 
+- Save changes
+
+####Expected result:
+In the top left corner, it should say "Permissions not synced with: {categoryName}"
+####Actual result:
+It says "Permissions synced with: {categoryName}"
+####Client settings:
+Desktop Canary 9070
+####System settings:
+Windows 7 ultimate x64
+
+7457
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-30T17:03:43.813Z
+
+
+### GospodinCrni#2565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a47c6ef3ae962ef64fab0bc/0073ed765744522cb9b0e489902bf471/C7eOqmJ.png added by Bug Bot on 2017-12-30T17:03:46.271Z
+
+
+### Can reproduce.
+Windows 10 (Fall Creators Update) + Canary Build# 9070
+
+Oasis#4730 - Bug Bot on 2017-12-30T17:03:51.293Z
+
+
+### Can reproduce.
+macOS High Sierra 10.13.2; Canary Build 9070
+
+mrkirby153#7840 - Bug Bot on 2017-12-30T17:03:56.283Z
+
+
+### Can reproduce.
+CR, Discord Canary Build 9070, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2017-12-30T17:04:01.236Z
+
+
+### Can reproduce.
+CR, MacBook Pro (late 2013), macOS  Sierra 10.12.1, Canary build 9070
+
+JustGamer#2542 - Bug Bot on 2018-01-02T08:46:51.950Z
+
+
+### Verified - Jared on 2018-01-02T19:20:50.673Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-01-02T19:20:55.424Z
+
+
+### Can reproduce.
+Windows 10 Home SL Fall Creators Update, Canary build 9071; Changing perms in a channel says that the perms with category is not synced. But after leaving the server, the perms reverted back to previous settings and synced with the category.
+
+IamMaki#2560 - Bug Bot on 2018-01-07T05:15:37.807Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS x64, Canary build 11179
+
+NorbiPeti#1869 - Bug Bot on 2018-02-26T19:22:26.609Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Canary Build 14116
+
+Zacatero#0001 - Bug Bot on 2018-04-25T22:19:50.224Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Discord Canary, Build 18474
+
+Realex78#2193 - Bug Bot on 2018-07-10T18:46:00.514Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:31.304Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), canary 33117
+
+Defracted#1337 - Bug Bot on 2019-03-04T11:45:33.427Z
+
+
+### Unarchived by Bug Bot on 2019-03-04T12:00:05.983Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:14.809Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1903, Build 18362.476), Canary (49954)
+
+Cerberus#0005 - Bug Bot on 2019-11-21T04:07:51.988Z
+
+
+### Unarchived by Bug Bot on 2019-11-21T04:30:06.007Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:07.119Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,78 @@
+DMs message link opened in DMs brings you to a server without channel drawer (https://trello.com/c/pT2T8NCk)
+
+None
+
+Created: 2019-12-20T05:16:22.735Z
+Latest Update: 2020-07-16T21:26:05.954Z
+
+Reported by Augy.#8622
+
+####Steps to reproduce:
+- Get a DMs message link by right-clicking any message in your DMs with someone 
+- Paste that link into the text box in someone's DMs 
+- Delete everything after the "(at)me/" and replace it with a channel ID from a server 
+- Send that message link 
+- Click on that message link 
+- Observe
+
+####Expected result:
+The Discord client should be stuck on a loading screen, unable to load anything.
+####Actual result:
+You will be brought to the server in the channel you specified, but the DMs drawer stays there.
+####Client settings:
+Discord Canary 51469
+####System settings:
+Windows 10 Home 64-bit v1903
+
+50538
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-20T05:16:22.735Z
+
+
+### Augy.#8622 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dfc5923f143ae6a7a722350/79855c9a1ef19eb61a39592982b84d9f/8ThuXqi.png added by Bug Bot on 2019-12-20T05:16:28.004Z
+
+
+### Can reproduce.
+CR Windows 10 Home x64, Version 1903, Discord Stable 51593 and Canary 51664
+
+SlavicWaffles#0001 - Bug Bot on 2019-12-20T05:16:32.075Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64-bit, Stable 51593 and Canary 51664.
+
+Alister#8365 - Bug Bot on 2019-12-20T05:16:37.236Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 51792
+
+carter#0001 - Bug Bot on 2019-12-20T05:16:41.977Z
+
+
+### Can reproduce.
+Windows 10 Home , Discord Canary 51792
+
+Smokepurpp#6012 - Bug Bot on 2019-12-20T10:45:19.850Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51792, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-20T14:52:39.928Z
+
+
+### Can reproduce.
+Windows 10 Pro, 1909 (OS Build 18363.535); Canary, 51792
+
+Leo#5142 - Bug Bot on 2019-12-20T17:40:41.118Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

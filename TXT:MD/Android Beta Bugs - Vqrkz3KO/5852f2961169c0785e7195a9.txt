@@ -1,0 +1,90 @@
+[Archived] Long Games show up as null on Android (https://trello.com/c/qbB0VnM4)
+
+P2 - Can wait a while
+
+Created: 2016-12-15T19:44:22.256Z
+Latest Update: 2017-10-30T17:58:43.983Z
+
+Reported by 3spooky5u#3348
+
+####Steps to reproduce: 
+- On PC rename a game to a very very long phrase (+130 characters) and set as your current game 
+- Switch over to another account on android  
+- View your PC account on user list 
+
+####Expected result:
+ The Playing area contains first few words of the renamed game 
+####Actual result:
+ "Playing **null**" 
+####System settings:
+ : Android 4.4.2, Windows 7
+
+Card Log
+========
+### Added by Jared on 2016-12-15T19:44:22.256Z
+
+
+### Can't reproduce.
+Android 5.0.2 and any win 8 PC version
+
+LW001#8654 - Jared on 2016-12-16T08:26:17.248Z
+
+
+### Can reproduce.
+Windows 10 Discord PTB, Android 7.1.1 Discord Alpha
+
+TheEvilSocks#0023 - Jared on 2016-12-16T09:13:47.416Z
+
+
+### Can reproduce.
+Android 5.0.2 Android Alpha 3.1.9
+
+rooLurk#0022 - Jared on 2016-12-16T17:36:19.940Z
+
+
+### Seems to be at 128+ characters instead of 130+ for me.
+
+DJScias#0812 - Jared on 2016-12-16T23:43:05.672Z
+
+
+### Can reproduce.
+3.1.9
+
+DJScias#0812 - Jared on 2016-12-16T23:43:21.086Z
+
+
+### Can reproduce.
+3.2.0
+
+Abhijith Ganesan#5206 - Jared on 2016-12-17T13:50:08.230Z
+
+
+### Verified, low priority. - Jared on 2016-12-21T19:33:44.387Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-21T19:33:48.798Z
+
+
+### Tested in 3.7.3:
+
+I can no longer reproduce this as a 130+ character game name causes another bug in the trello now: https://trello.com/c/phIDVhFC (if it's too big though, it'll overflow off the screen). - Alexander (DJScias) on 2017-04-24T22:00:53.026Z
+
+
+### Moving to cannot reproduce after speaking with Dabbit due to its validity no longer being able to be verified because of the other bug (see card in prior comment). - Alexander (DJScias) on 2017-04-24T22:07:12.690Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Alexander (DJScias) on 2017-04-24T22:07:23.550Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:58:42.425Z
+
+
+### Archived by Jared on 2017-10-30T17:58:43.987Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

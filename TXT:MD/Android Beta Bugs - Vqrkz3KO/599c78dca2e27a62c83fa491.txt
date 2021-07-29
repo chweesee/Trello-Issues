@@ -1,0 +1,79 @@
+[Archived] Signing out while in a voice call and then signing back in leads to a endless "Voice Connecting" loop (https://trello.com/c/UONrSuZM)
+
+P2 - Can wait a while
+
+Created: 2017-08-22T18:33:00.200Z
+Latest Update: 2018-07-06T21:37:28.311Z
+
+Reported by MCNX#3929
+
+####Steps to reproduce:
+- Join a Voice Call 
+- Sign Out 
+- Sign back in
+
+####Expected result:
+You sign in perfectly and normally (and I think you automatically rejoin the voice call)
+####Actual result:
+You sign in and on the bottom it would endlessly loop between "Disconnected" and "Connecting"
+####Client settings:
+Android Alpha 4.0.8
+####System settings:
+ZTE Grand x4, Android 6.0.1
+
+3483
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-22T18:33:00.200Z
+
+
+### Can reproduce.
+for the other user the call is ended if you sign out, for yourself it's still there and can be rejoined ending in a reconnection loop since the participant isn't really in the call anymore, GT-19195 (Samsung S4m) Android 4.4.2, Discord 4.0.7. (502)
+
+Souji#4629 - Bug Bot on 2017-08-22T18:33:07.613Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 4.0.9
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-08-22T18:33:12.598Z
+
+
+### Can reproduce.
+CR, Android Alpha 4.0.9(Build 504) OnePlus 5 on Android 7.1.1
+
+Tarek1337#0379 - Bug Bot on 2017-08-22T18:33:17.641Z
+
+
+### Can reproduce.
+Android 7.0, Discord 4.0.9
+
+Mitch#6853 - Bug Bot on 2017-08-23T10:19:07.106Z
+
+
+### Verified.  - Clayton on 2017-08-30T20:40:15.780Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-30T20:40:22.228Z
+
+
+### Can no longer reproduce, moving to Claimed Fixed.
+Google Pixel XL, Android 8.1.0, Discord 6.1.2 - Chris Cox on 2018-01-25T08:06:17.107Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Chris Cox on 2018-01-25T08:06:22.386Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:37:27.495Z
+
+
+### Archived by Jared on 2018-07-06T21:37:28.313Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

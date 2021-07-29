@@ -1,0 +1,79 @@
+[Archived] Clicking a message link does not work properly if the author of this message is a user you've blocked (https://trello.com/c/daRUv2zr)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-06-27T16:39:03.978Z
+Latest Update: 2019-01-11T00:00:17.725Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a message from any user 
+- Copy share message link 
+- Block the user 
+- Paste the link in any chat and click it
+
+####Expected result:
+I've been told that message links are still supposed to work even if the author of the message is a user you've blocked
+####Actual result:
+Clicking the link only jumps to channel, it doesn't scroll to message. If the link was posted in the same channel than the blocked message, clicking the link does absolutely nothing
+####Client settings:
+Canary 17800 on Google Chrome version 67.0.3396.87
+####System settings:
+Macbook Pro Retina 15-inch Mid 2015, OS X El Capitan 10.11.6
+
+14897
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-27T16:39:03.978Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.5, Canary Build 17800
+
+Pascal#0929 - Bug Bot on 2018-06-27T16:39:11.831Z
+
+
+### Can reproduce.
+[CR] Windows 10 Home x64 -- Discord Canary (17800)
+
+Rodolfo#1818 - Bug Bot on 2018-06-27T16:39:16.443Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 17800
+
+webhp#1337 - Bug Bot on 2018-06-27T16:39:21.422Z
+
+
+### The following error shows in the console : Got a jump target request but the ref was not found in the channel.
+
+webhp#1337 - Bug Bot on 2018-06-27T16:45:50.523Z
+
+
+### verified, macos 10.12.6, canary 17826 - Clayton on 2018-06-27T21:25:28.757Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-27T21:25:49.921Z
+
+
+### 54D#1357 - https://youtu.be/UcHotu2-1tk added by Bug Bot on 2018-07-14T12:32:53.811Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24925
+
+Neiron#2406 - Bug Bot on 2018-09-29T20:04:44.905Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:17.727Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

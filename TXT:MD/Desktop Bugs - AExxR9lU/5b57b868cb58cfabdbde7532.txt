@@ -1,0 +1,91 @@
+[Archived] Initiating a call shows "Incoming Call..." in the overlay (https://trello.com/c/RasOQnIy)
+
+None
+
+Created: 2018-07-24T23:38:17.033Z
+Latest Update: 2019-01-01T15:50:38.757Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Open a game and ensure the overlay is running 
+- Start a DM call from the overlay and quickly close the overlay or leave the app running in the background, start a dm call then quickly tab back into the overlay
+
+####Expected result:
+The overlay says "Outgoing call.." or doesn't display anything at all
+####Actual result:
+The overlay says "Incoming call..." despite the call being outgoing
+####Client settings:
+Canary 19588
+####System settings:
+Windows 10 Home x64
+
+15941
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-24T23:38:17.033Z
+
+
+### mrkirby153#7840 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b57b868cb58cfabdbde7532/ece7c4a4c10e675a9770ef9c9dc22100/w9gjbUD.gif added by Bug Bot on 2018-07-24T23:38:20.446Z
+
+
+### Can reproduce.
+WIN10 Home, Canary 19588
+
+Uptightjoker#0001 - Bug Bot on 2018-07-24T23:38:24.583Z
+
+
+### Can reproduce.
+Can Reproduce Windows 10 Pro x64 Build 19623
+
+Azrael#6867 - Bug Bot on 2018-07-24T23:38:29.543Z
+
+
+### Can reproduce.
+Windows 10 Home v1803 x64, Bootcamp ; Canary 19623
+
+SaltyPotato#3555 - Bug Bot on 2018-07-24T23:38:34.509Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 1803 Canary 19623
+
+R0shi#9716 - Bug Bot on 2018-07-24T23:50:55.696Z
+
+
+### Moved from User Reported Bugs to Overlay Redesign Bugs by Clayton on 2018-07-24T23:54:59.916Z
+
+
+### Clarification on the steps: There are two ways to reproduce this bug. The first way, which is demonstrated in the attached gif, being 1) Ensure overlay notifications are enabled 2) Open a game with the overlay running, 3) Open the overlay and go to the DMs tab, 4) Start a call with anyone, 5) Quickly close the overlay either with the X button or the hotkey and look in the corner where you set the overlay notifications. — The other way to reproduce would be 1) Make sure overlay notifications are enabled, 2) Open a game in windowed mode with the overlay running, 3) Position the game window and discord so you can see both at the same time, 4) Start a call from the main client and observe the overlay notification.
+
+mrkirby153#7840 - Bug Bot on 2018-07-25T02:18:04.230Z
+
+
+### known bug, fixing - Christina Zou on 2018-08-01T05:47:09.602Z
+
+
+### Moved from Overlay Redesign Bugs to Claimed Fixed, needs Verification by Christina Zou on 2018-08-03T23:26:56.707Z
+
+
+### Can't reproduce.
+fixed on Discord Canary (BUILD 22587) on Windows 10 x64 (1803 Update)
+
+Procrastinator Adam#4226 - Bug Bot on 2018-08-26T01:12:11.392Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-09T05:08:26.973Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:50:38.028Z
+
+
+### Archived by Tarek on 2019-01-01T15:50:38.759Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

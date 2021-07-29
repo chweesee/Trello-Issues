@@ -1,0 +1,132 @@
+Middle click sends CLIPBOARD instead of PRIMARY (https://trello.com/c/aWbWb7FS)
+
+None
+
+Created: 2019-05-12T07:58:07.499Z
+Latest Update: 2020-01-25T02:31:13.607Z
+
+Reported by score#6846
+
+####Steps to reproduce:
+- Ensure your clipboard is not empty (though it should not be used according to the expected behaviour of this bug) 
+- Select some text in another application without copying it 
+- Middle click inside Discord's chat box
+
+####Expected result:
+The selected text should be dropped into the chat box
+####Actual result:
+The contents of the clipboard are dropped into the chat box
+####Client settings:
+Canary 0.0.76 / 37179 / 8da1f28dd34da4de7bfd195737a28b92aead12b5
+####System settings:
+Arch Linux (X11, Linux 5.0.5)
+
+34227
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-12T07:58:07.499Z
+
+
+### Can reproduce.
+Discord Canary 0.0.77, Arch Linux x64, Linux 5.0.13, Build # 37253, KDE -- Does not occur on Stable 0.0.9/Build # 37253
+
+noellekiq#0493 - Bug Bot on 2019-05-12T07:58:14.834Z
+
+
+### Can reproduce.
+Ubuntu 18.04, Linux 4.15.0, Canary Build 37458
+
+Brod8362#2928 - Bug Bot on 2019-05-12T07:58:19.830Z
+
+
+### Can reproduce.
+Discord Canary 0.0.77, Ubuntu 18.04 LTS (stock GNOME desktop env), 64-bit processor Ryzen 7 2700X
+
+Alex1304#9704 - Bug Bot on 2019-05-12T07:58:24.849Z
+
+
+### Can reproduce.
+Ubuntu 18.04 | Linux 4.15.0 | Canary Build 37458
+
+Dark Ice#7881 - Bug Bot on 2019-05-18T06:43:58.305Z
+
+
+### Can reproduce.
+Discord Canary build 37458, Ubuntu 18.04, Linux 4.15.0
+
+Arun Kapil#1745 - Bug Bot on 2019-05-23T02:54:42.285Z
+
+
+### Can reproduce.
+Linux Mint 19.1 Cinnamon 4.0.9 - Canary 38570
+
+dafaqed#4375 - Bug Bot on 2019-05-26T09:36:32.137Z
+
+
+### Can't reproduce.
+Ubuntu 18.10 (stock gnome), Linux 4.20.17, Canary 39048 (Host 0.0.78)
+
+Grifs99#9999 - Bug Bot on 2019-06-04T07:24:32.494Z
+
+
+### Can reproduce.
+Debian 9 Canary 40281
+
+Typhoon#3514 - Bug Bot on 2019-06-25T15:05:04.734Z
+
+
+### Can reproduce.
+Pop_Os 18.4 LTS // Discord sta 40218
+
+Indiana#6009 - Bug Bot on 2019-07-01T01:21:31.267Z
+
+
+### Can reproduce.
+CR // Pop Os 18.4 // discord sta 40218
+
+Indiana#6009 - Bug Bot on 2019-07-01T01:23:26.878Z
+
+
+### Can't reproduce.
+-ö
+
+Hope#1445 - Bug Bot on 2019-07-25T21:59:52.452Z
+
+
+### Can't reproduce.
+Kali GNU/Linux Rolling, Release 2019.2
+
+Hope#1445 - Bug Bot on 2019-07-25T22:01:02.096Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS, Discord: [Build Info] Release Channel: stable, Build Number: 42647, Version Hash: e559b455d905e55168923446d9e058b3fe6bd3b8
+
+Ultimus#0001 - Bug Bot on 2019-08-03T23:49:41.810Z
+
+
+### Can reproduce.
+Kali Linux 2019, Release Channel: stable, Build Number: 43884, Version Hash: db395cd15e857cf24b37959a16ab3dc574cb7fa0
+
+Emma#6775 - Bug Bot on 2019-08-17T10:03:24.450Z
+
+
+### Can reproduce.
+Release Channel: stable, Build Number: 46505, Version Hash: fb56522df8e3fa7e26143ad9c0ead64bb8146941, Pop!_OS 18.04
+
+GoofballMichelle#9215 - Bug Bot on 2019-09-29T00:15:26.969Z
+
+
+### Can reproduce.
+This seems to be a Window manager feature, this isn't actually Discord's doing. xfce Pop!_OS 18.04, Release Channel: stable, Build Number: 46505, Version Hash: fb56522df8e3fa7e26143ad9c0ead64bb8146941
+
+GoofballMichelle#9215 - Bug Bot on 2019-09-29T00:30:21.282Z
+
+List
+====
+User Reported
+
+Members
+=======
+None

@@ -1,0 +1,176 @@
+[Archived] Spamming an image and trying again crashes the client (https://trello.com/c/OOwGoZrn)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-12-07T02:47:54.604Z
+Latest Update: 2019-06-10T12:00:44.324Z
+
+Reported by Aimarekin#3063
+
+####Steps to reproduce:
+- Take a snapshot of something so you have an image on your clipboard (Not a link). Windows + Shift + S for something quick. 
+- Get to a channel where you can spam without getting punished for it and you can post images at. 
+- Spam paste the image, Ctrl + V and then enter until an error pops up. (Don't hit enter when the error pops up or else it will pop up again and you may not be able to recreate the error!) 
+- When the error pops up, *quickly* click on "Click here to retry the upload" button. Please mind you may fail to recreate the bug on the first try, try more than once!
+
+####Expected result:
+Discord shouldn't crash and instead handle the error normally
+####Actual result:
+Discord crashes
+####Client settings:
+Release Channel: stable, Build Number: 28970, Version Hash: 4fdb14779d8bec822f8620df712b787e62091c9b
+####System settings:
+Windows 10 Home 1803
+
+24044
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-07T02:47:54.604Z
+
+
+### Aimarekin#3063 - https://youtu.be/bH0L-RaywW8 added by Bug Bot on 2018-12-07T02:47:56.966Z
+
+
+### Can reproduce.
+CR; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 29092
+
+Longinus#0293 - Bug Bot on 2018-12-07T02:48:02.013Z
+
+
+### Can reproduce.
+CR, Windows 10 Education (17763), Canary Build 29092
+
+Keons#0001 - Bug Bot on 2018-12-07T02:48:06.908Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - (1803) - Discord Canary 29092
+
+Daffyduck#5364 - Bug Bot on 2018-12-07T02:48:11.885Z
+
+
+### verified, win 10, canary 29092 - Clayton on 2018-12-07T03:43:02.517Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-07T03:43:09.838Z
+
+
+### Can reproduce.
+CR. Canary 29092 Windows 10 x64
+
+Toasty#9566 - Bug Bot on 2018-12-07T04:26:09.290Z
+
+
+### Can reproduce.
+Win10 v1709 x64 build 16299.665 Education Stable 28970
+
+hopeless#1227 - Bug Bot on 2018-12-07T04:38:09.800Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 29092
+
+OddsomeOddy#1998 - Bug Bot on 2018-12-07T08:33:23.886Z
+
+
+### Can't reproduce.
+Can not reproduce. I have tried several times. Windows 10 Home x64 v1803, Canary 29155
+
+Solo#0007 - Bug Bot on 2018-12-07T19:49:05.634Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 29240
+
+Neiron#8475 - Bug Bot on 2018-12-08T16:28:41.360Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1803, Release Channel: Canary 29240
+
+TacticalTechJay#8380 - Bug Bot on 2018-12-09T04:14:25.067Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.6 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 29249, host 0.0.207
+
+MoonlightCapital#0554 - Bug Bot on 2018-12-09T12:48:22.051Z
+
+
+### Moved from Verified Bugs to Notable Issues by Bug Bot on 2018-12-11T23:09:42.726Z
+
+
+### Can reproduce.
+Windows 10 - Google Chrome Version 71.0.3578.98 (Official Build) (64-bit) (Incognito) - Discord Build Number: 29800
+
+Neuro Assassin#4838 - Bug Bot on 2018-12-18T16:23:23.275Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Jixuan Wang on 2019-01-29T20:58:30.814Z
+
+
+### Can reproduce.
+Can still reproduce, still crashes. Desktop Canary 31492, Windows 10 Home, Build 17134
+
+Bsian#0007 - Bug Bot on 2019-01-29T21:08:23.112Z
+
+
+### Can reproduce.
+Still happens on Canary 31492 Windows 10 Pro x64
+
+Delite#0001 - Bug Bot on 2019-01-29T21:10:01.426Z
+
+
+### Can reproduce.
+Can sill reproduce, same result as specified in the report. Canary 31492, Windows Pro Pro, v16299
+
+davfsa#7026 - Bug Bot on 2019-01-29T21:10:40.891Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-01-29T21:10:41.083Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jixuan Wang on 2019-01-29T21:22:43.662Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jixuan Wang on 2019-01-29T22:28:03.981Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Jared on 2019-02-06T14:47:19.003Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jared on 2019-02-06T14:47:20.607Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Tarek on 2019-02-28T13:42:18.168Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2019-02-28T13:42:19.439Z
+
+
+### Moved from Claimed Fixed, needs Verification to Temporary claimed fixed so ED detects fixed bugs by Tarek on 2019-03-23T03:18:05.274Z
+
+
+### Moved from Temporary claimed fixed so ED detects it as fixed to Claimed Fixed, needs Verification by Tarek on 2019-03-23T03:26:02.580Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Tarek on 2019-03-23T03:26:41.968Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2019-03-23T03:26:43.286Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-11T11:40:39.778Z
+
+
+### Archived by Bug Bot on 2019-06-10T12:00:44.349Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

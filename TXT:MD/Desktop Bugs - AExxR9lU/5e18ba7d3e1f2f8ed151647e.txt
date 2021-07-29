@@ -1,0 +1,80 @@
+Discord refuses to suggest text correction when message is formatted using symbols like *, ~~ (https://trello.com/c/WqbEsZqP)
+
+None
+
+Created: 2020-01-10T17:55:12.753Z
+Latest Update: 2020-07-16T21:26:05.999Z
+
+Reported by cat#6682
+
+####Steps to reproduce:
+- Open up a chat on Discord for Windows
+
+- Try writing immidiately and discord would warn about spelling.
+
+- Try right clicking for text correction.
+
+####Expected result:
+Discord should ignore characters like *, ~, etc and only consider a word for text correction and should show suggestions
+####Actual result:
+You do not see any options of text correction yet the word is marked red underlined.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 52155, Version Hash: c9009ab718135fda6d07715cfd5f327560ad7d2c
+####System settings:
+Windows 10, 1903
+
+51267
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-10T17:55:12.753Z
+
+
+### Can reproduce.
+Red underline still appears, but no suggestions | MacBook Air - MacOS (10.12.6 Sierra) canary 52223
+
+myacorn#6534 - Bug Bot on 2020-01-10T17:55:22.483Z
+
+
+### Can reproduce.
+CR; Discord Stable 52249, OS X 10.14.6
+
+Damian#6670 - Bug Bot on 2020-01-10T17:55:27.487Z
+
+
+### Can reproduce.
+CR, Canary 52345 Win10 Home, Version 1903 Build 18362.449
+
+Just A Regular Talking Box#5472 - Bug Bot on 2020-01-10T17:55:32.457Z
+
+
+### Can reproduce.
+HP Pavilion, Windows 10 home; canary, Build Number: 52345, Version Hash: ee49b16e16feb5113681e605288d3c28488c7a69
+
+kitten#6660 - Bug Bot on 2020-01-10T20:46:53.523Z
+
+
+### Can reproduce.
+Windows 10, x64 | Discord Canary (52446)
+
+light#9999 - Bug Bot on 2020-01-10T22:28:10.062Z
+
+
+### Can reproduce.
+Windows 10 Canary 52491
+
+McDublets#7559 - Bug Bot on 2020-01-11T05:12:14.803Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Discord Canary 52491.
+
+Alister#0001 - Bug Bot on 2020-01-11T16:59:30.664Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

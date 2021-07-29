@@ -1,0 +1,115 @@
+[Archived] Whitespace in messages is unexpectedly collapsed when using >100% font size (https://trello.com/c/r0XmyoPR)
+
+P2: Fix can wait a while
+
+Created: 2017-05-23T04:44:49.599Z
+Latest Update: 2019-04-22T07:47:34.328Z
+
+Reported by dis#7878
+
+####Steps to reproduce:
+- set Chat Font Scaling to a value above 100% 
+- send 'hello      goodbye' in chat (several spaces between the two words)
+
+####Expected result:
+'hello' and 'goodbye' should have a wide space between them
+####Actual result:
+'hello' and 'goodbye' are a single space apart, following normal html whitespace collapsing rules.
+
+The CSS, as written, seems to intend this effect, employing "pre-wrap" versus "pre-line" as the white-space value.
+However, this seems
+1) unexpected to an end user
+2) like kind of a punishment to someone's chatting experience just because they want bigger text
+3) unclear intention-wise. What I'd expect with bigger text is making sure long lines don't stretch their container, but that's already well enforced.
+####Client settings:
+Desktop Discord Canary/1.4.12
+####System settings:
+Windows 8.1
+
+1180
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-23T04:44:49.599Z
+
+
+### Can reproduce.
+Windows 8.1 x64, Discord Canary 0.0.154
+
+variant of boolean#1727 - Bug Bot on 2017-05-23T04:44:54.010Z
+
+
+### Can reproduce.
+-w
+
+Luke#6723 - Bug Bot on 2017-05-23T04:44:56.021Z
+
+
+### Can reproduce.
+Canary 0.0.154, Windows 10 Pro x64 (1607)
+
+Immotay#7475 - Bug Bot on 2017-05-23T04:44:59.003Z
+
+
+### Can reproduce.
+Win10 Pro 64x, Discord Canary (0.0.154)
+
+Luke#6723 - Bug Bot on 2017-05-23T04:45:36.648Z
+
+
+### Immotay#7475 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5923be41f1fe354ef54b704b/47c60ab81144fdfc2f56f09c9e916efd/unknown.png added by Bug Bot on 2017-05-23T04:47:22.720Z
+
+
+### Can reproduce.
+Discord Canary 0.0.154 (Latest) - Win 10 x64
+
+YusufR#2717 - Bug Bot on 2017-05-23T06:24:26.387Z
+
+
+### Can reproduce.
+Desktop Canary 0.0.154 - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-05-23T07:30:59.599Z
+
+
+### Can reproduce.
+windows 10 x64 v1607 (Canary v 0.0.154)
+
+Tim\_The#7618 - Bug Bot on 2017-05-23T15:26:54.429Z
+
+
+### Verified.  - Clayton on 2017-05-25T22:30:04.084Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-25T22:30:11.426Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2017-05-31T22:44:58.046Z
+
+
+### Will be fixed in next canary.  Compact still collapses because.. reasons.  Cozy should be ok though. - Shadi Isber on 2017-05-31T22:45:24.147Z
+
+
+### Checked as of latest canary:
+
+I can no longer reproduce this myself. The whitespace works fine in cozy for me @ 150% font scaling. - Alexander (DJScias) on 2017-06-01T11:45:36.141Z
+
+
+### Verified fixed. - Jared on 2017-06-27T20:58:35.763Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T20:58:39.264Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:32:29.507Z
+
+
+### Archived by Jared on 2017-10-17T20:32:30.408Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

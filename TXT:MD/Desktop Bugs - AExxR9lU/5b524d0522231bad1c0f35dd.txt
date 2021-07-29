@@ -1,0 +1,73 @@
+[Archived] Giphy bar stays if no results shown once chat box is cleared (https://trello.com/c/JLtn9Zhc)
+
+None
+
+Created: 2018-07-20T20:58:45.436Z
+Latest Update: 2019-01-06T19:24:16.203Z
+
+Reported by IPv4#0001
+
+####Steps to reproduce:
+- Search a phrase in chatbox using /giphy that returns no results ("was it this" seems to work) 
+- Ctrl/cmd + A and delete all text in chat box 
+- Observe how giphy bar remains 
+- Click out of chat box (giphy bar hides) 
+- Click back in chat box 
+- Observe how the same giphy bar returns 
+- Type any character in chat box to clear bar
+
+####Expected result:
+Giphy bar leaves me alone when I remove the giphy command from the chat box
+####Actual result:
+The giphy bar haunts me till I start typing a new message
+####Client settings:
+ptb 19084
+####System settings:
+macOS 10.14
+
+15749
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-20T20:58:45.436Z
+
+
+### IPv4#0001 - https://youtu.be/XthQZQd3DUw added by Bug Bot on 2018-07-20T20:58:48.278Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1803), Discord Canary Build 19322
+
+NicholasY#4815 - Bug Bot on 2018-07-20T20:58:53.240Z
+
+
+### Can reproduce.
+CR. Canary 19322, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-20T20:58:58.084Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 x64, Discord Canary Build 19322
+
+zarrros#2910 - Bug Bot on 2018-07-20T20:59:03.085Z
+
+
+### dupe of: https://trello.com/c/AlACTlZH/1028-after-delete-giphy-command-or-tenor-command-the-preview-block-still-there - Clayton on 2018-07-20T21:57:29.234Z
+
+
+### Archived by Clayton on 2018-07-20T21:57:31.950Z
+
+
+### Can reproduce.
+Works with xivdb too. Windows 10 x64 - Discord Canary build 30387
+
+evilpauwse#9985 - Bug Bot on 2019-01-06T19:24:16.203Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

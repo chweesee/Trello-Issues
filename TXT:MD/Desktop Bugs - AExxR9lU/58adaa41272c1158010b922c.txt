@@ -1,0 +1,157 @@
+[Archived] muted channels flicker on suppressing everyone/here notifications (https://trello.com/c/WFnBMcGK)
+
+P3: Will get fixed eventually
+
+Created: 2017-02-22T15:12:01.288Z
+Latest Update: 2019-10-23T23:02:38.829Z
+
+Reported by LordOfTheUndead#7915
+
+####Steps to reproduce: 
+- Go to Notification Settings on a server 
+- Mute the top channel (just so you can see it better) 
+- Check the Suppress @‘everyone and @‘here button 
+
+####Expected result:
+ @‘everyone and @‘here are suppressed, nothing else happens 
+####Actual result:
+ The 3 checkboxes behind the channel you muted flicker, same for the mute icon (it unmutes than mutes again) 
+####System settings:
+ MacOS 10.12.3 and Windows 10 x64, latest canary
+
+1731
+
+Card Log
+========
+### Added by Jared on 2017-02-22T15:12:01.288Z
+
+
+### Can reproduce.
+Win 10 Pro x64 AU, Canary
+
+Tiemen#0107 - Jared on 2017-02-22T15:12:02.096Z
+
+
+### Can reproduce.
+macOS 10.12.3 Discord Canary
+
+Harrison#9100 - Jared on 2017-02-22T15:12:04.058Z
+
+
+### Can reproduce.
+Windows 10 Ani, latest Canary
+
+DaFri_Nochiterov#4289 - Jared on 2017-02-22T15:12:06.100Z
+
+
+### Can reproduce.
+MacOS El Capitan, Canary 0.0.144 - Clayton on 2017-02-22T23:17:00.839Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-02-22T23:18:17.889Z
+
+
+### Also happens on changing all messages settings
+
+Pointy#5565 - Bug Bot on 2017-06-27T10:25:06.253Z
+
+
+### Pointy#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58adaa41272c1158010b922c/ca1cd7ed0b2ad6661f023bad1ad31f25/98f58505d7440de99d1929abed6025e4.gif added by Bug Bot on 2017-06-27T10:35:22.330Z
+
+
+### Pointy#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58adaa41272c1158010b922c/2d919527b449a0a1218f30231a7ac5f5/068418.gif added by Bug Bot on 2017-06-27T10:35:36.937Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T06:51:41.581Z
+
+
+### Can reproduce.
+MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-16T19:37:20.325Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-16T20:03:56.486Z
+
+
+### Can reproduce, but this is not a P2 issue. Changing to P3. - Jared on 2017-10-16T20:52:22.853Z
+
+
+### Can still reproduce as of 7/11 - Jared on 2018-07-11T22:24:41.258Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13"), macOS 10.13.6 - Canary 22587
+
+Mippy#0001 - Bug Bot on 2018-08-26T12:37:32.530Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:39.807Z
+
+
+### Can reproduce.
+Windows 10 home x64 1803 - Canary 28533
+
+J1#0088 - Bug Bot on 2018-11-29T03:46:31.619Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 w/ Discord Canary 30441
+
+rubisco#4310 - Bug Bot on 2019-01-07T18:41:23.943Z
+
+
+### Can reproduce.
+Windows 10 // Home Edition // Build 1809 // Discord Canary Build 30733
+
+aditya#1337 - Bug Bot on 2019-01-10T23:32:35.740Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:21.987Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 31974
+
+TheForbiddenAi#0001 - Bug Bot on 2019-02-11T00:58:42.038Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 - Chrome 72.0.3626.117 (x64) - Web Canary 32982
+
+Casper#9999 - Bug Bot on 2019-02-28T07:56:30.334Z
+
+
+### Can reproduce.
+Ubuntu 18.10, x64
+
+c1rcl#1337 - Bug Bot on 2019-03-14T19:40:35.483Z
+
+
+### Can reproduce.
+cr, Win10 Pro - Canary 34324
+
+tonite#0001 - Bug Bot on 2019-03-21T16:49:24.303Z
+
+
+### Can reproduce.
+Also occurs with choosing Server Notification Settings and Mute [server] toggle | MacBook Air - MacOS (10.12.6 Sierra), web stable 40249
+
+myacorn#6534 - Bug Bot on 2019-06-22T00:40:41.912Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:38.841Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

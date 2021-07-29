@@ -1,0 +1,79 @@
+[Archived] Discord places objects in Pixel 3 XL notch (https://trello.com/c/s05XRNhM)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-10-20T17:00:09.088Z
+Latest Update: 2019-06-05T23:46:59.384Z
+
+Reported by KazWolfe#2896
+
+####Steps to reproduce:
+- [Possibly for non-P3XL Devices] In Android Developer settings, enable Tall Notch mode. 
+- Open discord on a tall-notch device 
+- Open server/channel drawer
+
+####Expected result:
+Discord draws things below the notch instead of cramming the top
+####Actual result:
+Discord draws in the large notification bar, and hides part of the search box under the notch, as well as draws the Friends button above the notch
+####Client settings:
+Discord Canary 774
+####System settings:
+Pixel 3 XL, Android 9
+
+21572
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-20T17:00:09.088Z
+
+
+### Haru😍💜#6660 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bcb5f19e6742222c61c40ac/b0c93e17eb8b84b9db9c32b88c68444b/athqklm.png added by Bug Bot on 2018-10-20T17:00:11.762Z
+
+
+### FoxyKero#9941 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bcb5f19e6742222c61c40ac/c38a3dce7414729021e3d7409dd05ece/unknown.png added by Bug Bot on 2018-10-20T17:00:12.226Z
+
+
+### Can reproduce.
+Can reproduce with Android 9's built in Display Cutout settings - Xiaomi Mi A1, Android 9.0, Discord Alpha 7.7.5
+
+Haru😍💜#6660 - Bug Bot on 2018-10-20T17:00:17.007Z
+
+
+### Can reproduce.
+Reproduced with simulated display cutout, Google Pixel 2 XL, Android 9.0.0 (Patch 9/5), Discord Alpha 7.7.5
+
+aditya#0001 - Bug Bot on 2018-10-20T17:00:21.747Z
+
+
+### Can reproduce.
+Can reproduce with the developer setting, as the OP6 notch is not big enough to touch the server name | OnePlus 6 (Version 9.0), Alpha 7.7.5
+
+Aeria#9096 - Bug Bot on 2018-10-20T17:00:26.676Z
+
+
+### Can reproduce.
+using simulated display cutout on Google Pixel 2 XL, Android 9.0.0 (Oct 5 Patch), Discord Alpha 7.7.5
+
+Dark#7270 - Bug Bot on 2018-10-21T03:07:37.838Z
+
+
+### verified.  - Clayton on 2018-10-23T20:59:59.901Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-23T21:00:06.634Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-10-31T22:32:53.206Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:59.396Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

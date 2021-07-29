@@ -1,0 +1,76 @@
+[Archived] Right-click context menu for pasting in the login information fields on the Discord desktop apps doesn't appear until you actually login, which then displays it in the middle of your Online list (https://trello.com/c/feMduUEV)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-14T07:04:33.643Z
+Latest Update: 2018-07-06T18:01:08.564Z
+
+Reported by Ene#3002
+
+####Steps to reproduce:
+- Logout of Discord if you're not already 
+- Right-click in one of the information sections as though to paste information related to the respective field 
+- Proceed to login and observe as the "Paste" is present on your screen
+
+####Expected result:
+Right-click context menu should appear when initionally attempting it on one of the login information fields so that you can click it
+####Actual result:
+It only appears once you login, forcing you to use CTRL+V instead if you wish to paste your email/password/auth code into the respective fields
+####Client settings:
+Discord Canary 0.0.197, Build 9542
+####System settings:
+Windows 10 Home x64
+
+7808
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-14T07:04:33.643Z
+
+
+### Ene#3002 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a5b0101f4bb54c9978cc538/f935426fb8174662702773b6e9953738/6qSaKag.png added by Bug Bot on 2018-01-14T07:04:36.188Z
+
+
+### Can reproduce.
+CR Windows 10 x64 Canary 0.0.197 Build 9532
+
+Okori#0902 - Bug Bot on 2018-01-14T07:04:41.128Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Version 1709), Discord Canary (Build 9532)
+
+Dark#2027 - Bug Bot on 2018-01-14T07:04:46.159Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 (build 16299), Canary (build 9532)
+
+Potts#4157 - Bug Bot on 2018-01-14T07:04:51.151Z
+
+
+### Verified - Tarek on 2018-01-16T14:06:17.152Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2018-01-16T14:06:22.481Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-21T21:25:10.847Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T21:25:15.186Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:01:03.031Z
+
+
+### Archived by Jared on 2018-07-06T18:01:08.567Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,108 @@
+VC ping spikes when receiving many messages in server in a short time period (https://trello.com/c/wtexkynJ)
+
+None
+
+Created: 2019-06-19T21:01:33.660Z
+Latest Update: 2020-07-16T21:26:04.252Z
+
+Reported by MakethPanda#0069
+
+####Steps to reproduce:
+- go into a server from your PC app 
+- connect to VC and press the information button to show ping graph 
+- have a friend spam around 20 short messages in less than 5 seconds and look at the Ping graph on your VC
+
+####Expected result:
+VC Ping should remain stable and independent of messages
+####Actual result:
+VC Ping is affected negatively by messages
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 39443, Version Hash: 973aedd7ab4b9dbc41137bb6ac1f0c28258bb2f0
+####System settings:
+Win 10
+
+36862
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-19T21:01:33.660Z
+
+
+### Can reproduce.
+cr, W10 Pro x64 (1903), Canary 39968
+
+dragiceviccv#4375 - Bug Bot on 2019-06-19T21:01:41.249Z
+
+
+### Can reproduce.
+Windown 10, Canary 39934
+
+laglobul#0001 - Bug Bot on 2019-06-19T21:01:46.239Z
+
+
+### Can reproduce.
+CR on Windows 10 (x64); Discord Stable, Build Number 39974
+
+Dann#3477 - Bug Bot on 2019-06-19T21:01:51.166Z
+
+
+### Can reproduce.
+Windows 10 Home, Canary 40023
+
+Lapras#0001 - Bug Bot on 2019-06-19T21:07:00.760Z
+
+
+### Can reproduce.
+Windows 10 Pro v1903 Canary 40023
+
+Daffy#7906 - Bug Bot on 2019-06-20T00:15:47.891Z
+
+
+### Can reproduce.
+Windows 10 Home, v1903 - Canary 40044
+
+Nicholas#4669 - Bug Bot on 2019-06-20T02:47:26.393Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 40093
+
+charleskimbac#6492 - Bug Bot on 2019-06-20T05:18:06.014Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40098
+
+Xylium#5800 - Bug Bot on 2019-06-20T10:18:28.991Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40098
+
+Lily#2624 - Bug Bot on 2019-06-20T15:02:02.120Z
+
+
+### Can reproduce.
+Windows 10 Pro Canary 40023
+
+Typhoon#3514 - Bug Bot on 2019-06-20T16:11:41.015Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 40023
+
+Lelantos#4866 - Bug Bot on 2019-06-20T17:11:11.163Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 40273 (Host 0.0.245)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-23T18:36:20.924Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,75 @@
+[Archived] No Voice Output on Chrome Canary (https://trello.com/c/v6EjUDCR)
+
+P1: Severe
+
+Created: 2018-10-10T03:02:57.799Z
+Latest Update: 2019-01-11T00:02:44.044Z
+
+Reported by etbamn#6226
+
+####Steps to reproduce:
+- Update Chrome to latest (as now 71.0.3574.0) 
+- Open Discord browser client 
+- Join voice channel call in any server
+
+####Expected result:
+There should be an audio output from others' voice.
+####Actual result:
+There is no audio output, the green circle appeared on others, but no voice. A Javascript error appeared on the console.
+####Client settings:
+Release Channel: stable, Build Number: 25638, Version Hash: f15ca06af6585c4876517507b671eec2b4b70ddb
+####System settings:
+Windows 10, 1803
+
+20877
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-10T03:02:57.799Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bbd6be136779433ed6c61ee/e3a9c1362a26ec76e7c4b4a8f5081f22/hQdWyWL.png added by Bug Bot on 2018-10-10T03:03:00.348Z
+
+
+### Can reproduce.
+Discord Canary Web (25718) on Chrome Canary (71.0.3574.0) Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-10-10T03:03:05.179Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 25718 , running inside Chrome Canary 71
+
+Frances Picard#6209 - Bug Bot on 2018-10-10T03:03:10.218Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Stable 25872, Google Chrome 71.0.3574.0
+
+Hole#0001 - Bug Bot on 2018-10-10T03:03:15.163Z
+
+
+### verified, chrome 71 - Clayton on 2018-10-13T03:54:17.907Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-13T03:54:23.823Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jozsef Vass on 2018-12-10T19:50:27.243Z
+
+
+### can no longer reproduce - Clayton on 2018-12-11T00:47:33.518Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-12-11T00:47:38.092Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:44.047Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

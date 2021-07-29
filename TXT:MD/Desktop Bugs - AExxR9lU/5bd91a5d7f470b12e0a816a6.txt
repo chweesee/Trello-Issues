@@ -1,0 +1,77 @@
+Context menus take priority over clicking into Servers/DMs (https://trello.com/c/qSrHhLkr)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-31T02:58:37.474Z
+Latest Update: 2019-04-02T20:42:04.324Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go into a server and right-click on a user either in chat or from the Member List 
+- While the context menu is still open, attempt to click into another server
+
+####Expected result:
+The context menu should close and you're taken into the server
+####Actual result:
+The context menu closes, but you're not taken into the server, requiring you to click it again
+####Client settings:
+Discord Canary 0.0.216, Build 27223
+####System settings:
+Windows 10 Home 64-bit (v1803)
+
+22475
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-31T02:58:37.474Z
+
+
+### Ene#0808 - https://i.imgur.com/d7mvLFB.gifv added by Bug Bot on 2018-10-31T02:58:39.831Z
+
+
+### Can reproduce.
+Discord Canary 0.0.216 (27223) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-10-31T02:58:44.768Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 27223 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-10-31T02:58:49.834Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 27223
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-31T02:58:54.757Z
+
+
+### Fixed on Canary 27227 - Tarek on 2018-10-31T02:59:12.406Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Clayton on 2018-11-01T02:32:10.670Z
+
+
+### Can reproduce again on build 27423
+
+Ene#0808 - Bug Bot on 2018-11-02T02:17:21.475Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-11-02T02:22:45.029Z
+
+
+### Can reproduce.
+CR; It takes priority over the message textarea too, and you have to manually click on it to be able to write. Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 0.0.224, build 29240
+
+Longinus#0293 - Bug Bot on 2018-12-08T06:09:36.195Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

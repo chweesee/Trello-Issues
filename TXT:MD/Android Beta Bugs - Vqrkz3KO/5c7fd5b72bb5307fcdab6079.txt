@@ -1,0 +1,76 @@
+[Archived] When you get the connection problems in app notification and make it get stuck, you don't get any in app notification but when you switch orientation, you start getting in app notifications. (https://trello.com/c/eotIoK0y)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-06T14:14:15.263Z
+Latest Update: 2019-04-12T22:00:14.442Z
+
+Reported by The Lunala#6877
+
+####Steps to reproduce:
+- Have a poor internet connection (enough to get the in app notification). 
+- Long press on the connection  problems in app notification and slide your finger away from it. 
+- Ask someone to DM/ping you somewhere. 
+- Observe that no in app notifications appear. 
+- Now, switch orientation to landscape and back to portrait (or keep it in landscape if you're comfortable). 
+- Long press on the connection problems in app notification and slide your finger from it (because timer resets and restarts when switching orientation). 
+- Now, ask someone to DM/ping you again somewhere.
+
+####Expected result:
+Either you do not in app notifications in both cases or get in both cases.
+####Actual result:
+You don't get in app notifications at first but after switching orientation, you start getting them.
+####Client settings:
+Discord Alpha 855
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+30385
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-06T14:14:15.263Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 8.0.0, Discord Alpha 8.5.5
+
+SerbianPG#2287 - Bug Bot on 2019-03-06T14:14:22.989Z
+
+
+### Can reproduce.
+Samsung Galaxy S9+ Android 9.0 8.5.5
+
+Zacatero#0001 - Bug Bot on 2019-03-06T14:14:27.711Z
+
+
+### Can reproduce.
+cr. alpha 8.5.5 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-03-06T14:14:32.661Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.5
+
+Skyla#0002 - Bug Bot on 2019-03-07T11:55:46.619Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H (MIUI 10.1 Stable), Discord Alpha 8.5.5
+
+Defracted#1337 - Bug Bot on 2019-03-07T12:20:55.774Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T21:45:49.565Z
+
+
+### Archived by Bug Bot on 2019-04-12T22:00:14.454Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,70 @@
+[Archived] Logging out during an incoming call makes the client think a call is still incoming (after logging back in), even if whoever called you stopped calling, also plays the "Incoming Ring" sound indefinitely (until client reload/fully closing the client) (https://trello.com/c/QexA1Gtc)
+
+High,
+P3: Will get fixed eventually
+
+Created: 2017-12-17T21:38:22.875Z
+Latest Update: 2018-10-22T20:17:40.019Z
+
+Reported by Cancer#2954
+
+####Steps to reproduce:
+- Have someone call you 
+- Log out of Discord, but don't close the client 
+- Notice how the "Incoming Ring" sound still plays, log back in
+
+####Expected result:
+The ringtone sound should stop playing as soon as you log out; the incoming call screen shouldn't reappear if whoever called you stopped calling
+####Actual result:
+The ringtone sound plays indefinitely until the client gets reloaded or fully closed; the incoming call screen doesn't disappear by clicking the "decline" option, only the "Join Call" option can be used to make the screen disappear, which, if there is no actual incoming call, starts a new call
+####Client settings:
+Discord Canary 8764 (Version Hash: 906ce57a9cd6fb0e5007022a51193d2f3b852ac0)
+####System settings:
+Windows 10 Home, Fall Creator's Update
+
+7146
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-17T21:38:22.875Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (Build 16299.125), Discord Canary 0.0.186 (Build 8746)
+
+HeroGamers#4574 - Bug Bot on 2017-12-17T21:38:30.331Z
+
+
+### Can reproduce.
+CR, Windows 10 64 bits, Canary build: 8746
+
+jul545454#0530 - Bug Bot on 2017-12-17T21:38:35.329Z
+
+
+### Can reproduce.
+Windows 10 Insider RS4 Insider Preview x64; Discord Canary 8746
+
+jottocraft#8115 - Bug Bot on 2017-12-17T21:38:40.454Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.186 (Build 8782), Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-12-18T04:42:37.972Z
+
+
+### Verified.  - Clayton on 2018-01-04T00:20:36.207Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-04T00:20:43.125Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:40.021Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

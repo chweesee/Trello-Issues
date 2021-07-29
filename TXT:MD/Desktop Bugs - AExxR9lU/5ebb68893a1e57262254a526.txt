@@ -1,0 +1,99 @@
+Discord crashes when you run two events at the same time (https://trello.com/c/5TMO1Jtm)
+
+None
+
+Created: 2020-05-13T03:24:57.181Z
+Latest Update: 2020-07-16T21:26:06.335Z
+
+Reported by SSalt#5041
+
+####Steps to reproduce:
+- Go to server discovery 
+- Click on one of the categories other than home 
+- Open user settings 
+- Change your language
+
+####Expected result:
+No crash
+####Actual result:
+It crashes
+####Client settings:
+Canary 60073 Host 0.0.264
+####System settings:
+Windows 10 Home Insider x64 v2004 Build 19624.1000
+
+55909
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-13T03:24:57.181Z
+
+
+### SSalt#5041 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ebb68893a1e57262254a526/edf48d6ea7a32b59ea84f2214fb07cea/Screenshot_7.png added by Bug Bot on 2020-05-13T03:25:00.986Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 60073 (1a5d710), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-05-13T03:25:04.695Z
+
+
+### Can reproduce.
+MacBook Pro (15-inch, Mid 2014), 10.15.4 (19E287); Release Channel: canary, Build Number: 60073, Version Hash: 1a5d71083c59c140f719d5cc001dc477ccc649c7
+
+Wiz#0003 - Bug Bot on 2020-05-13T03:25:09.700Z
+
+
+### Can reproduce.
+[CR] Windows 7 Ultimate x64 - Canary 60073 (1a5d710)
+
+Cookie#3165 - Bug Bot on 2020-05-13T03:25:14.696Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (v1909), Host 0.0.264 - Discord Canary 60073 (1a5d710)
+
+Ness#7070 - Bug Bot on 2020-05-13T03:38:37.381Z
+
+
+### Can reproduce.
+[CR] Windows 10 Home x64; Version 1903 (18362.778); Canary (60073) & Linux 3.18.0, Canary (60073)
+
+AmusingDev#7879 - Bug Bot on 2020-05-13T10:42:52.168Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x build 1909, Discord Canary build 60201
+
+fuzzysearch#9951 - Bug Bot on 2020-05-14T08:25:17.389Z
+
+
+### Can reproduce.
+Canary 60475 - Windows 10 19041.264 - Also happens by speaking in voice chat during a few minutes and trying to access audit logs by right clicking on server settings and clicking on "Audit logs" https://i.imgur.com/k5LZC6x.png
+
+OneNormalUsername#7636 - Bug Bot on 2020-05-19T08:39:56.272Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home x64 1909 (10.0.18363), Canary 60561 host 0.0.264
+
+Jean20B#4668 - Bug Bot on 2020-05-21T10:21:07.948Z
+
+
+### Can reproduce.
+CNR the original steps, but I can repro an extension that has the same root issue (denied report 56431): - Go to the library and have a game ready to install. - Right-click on the game and Install. - Discord crashes - (Windows 10 Home x64 1909 (10.0.18363), Canary 60561 host 0.0.264)
+
+Jean20B#4668 - Bug Bot on 2020-05-21T11:15:36.606Z
+
+
+### I CNLR the original steps, but I CR an ext of this issue by searching in the new discovery page first then changing the language https://i.imgur.com/8TmrFzy.png
+
+SSalt#5041 - Bug Bot on 2020-05-22T03:15:30.422Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

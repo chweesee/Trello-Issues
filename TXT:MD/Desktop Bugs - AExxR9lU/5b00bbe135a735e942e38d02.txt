@@ -1,0 +1,77 @@
+[Archived] Discord makes you leave and rejoin call in a group chat when you click a name. (https://trello.com/c/HGnKYqUm)
+
+None
+
+Created: 2018-05-20T00:05:53.993Z
+Latest Update: 2018-07-06T18:05:26.993Z
+
+Reported by Alex™#0002
+
+####Steps to reproduce:
+- Make a group chat 
+- Click on a name in the group chat.
+
+####Expected result:
+You see the persons profile details.
+####Actual result:
+You will get kicked from the call and get forced to rejoin.
+####Client settings:
+Standard settings, tested with friends affects all desktop clients.
+####System settings:
+Windows 10 Pro x64
+
+13027
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-20T00:05:53.993Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (Version 1803), Discord Canary Build 15598. You have to click on the profile picture to view the profile, but you will notice in the "Voice Connected" section that you get disconnected then reconnected again. Smells like a possible websocket issue.
+
+Ghoul#4567 - Bug Bot on 2018-05-20T00:06:01.471Z
+
+
+### Can reproduce.
+CR Tested with Ghoul -  Windows 10 PRO (Build: 16299.431) - Discord Canary (Build:15598)
+
+Skwaleks#2794 - Bug Bot on 2018-05-20T00:06:06.535Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 pro  Discord canary Build:15598
+
+Bencey_#8587 - Bug Bot on 2018-05-20T00:06:11.458Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Jake Heinz on 2018-05-20T03:44:57.279Z
+
+
+### Shipped to all release channels. - Jake Heinz on 2018-05-20T03:45:05.727Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 Stable Build (Normal Build)
+
+Ricku#0238 - Bug Bot on 2018-05-20T04:24:20.101Z
+
+
+### Can't reproduce.
+Windows 10 Pro Insider Preview x64, v10.0.17672 Build 17672, Discord Canary Build 15598
+
+Cairo#2098 - Bug Bot on 2018-05-20T04:30:30.433Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:05:25.960Z
+
+
+### Archived by Jared on 2018-07-06T18:05:26.996Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

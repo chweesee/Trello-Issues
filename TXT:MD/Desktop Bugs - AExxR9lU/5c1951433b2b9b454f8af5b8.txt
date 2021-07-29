@@ -1,0 +1,104 @@
+[Archived] Channel topic can be longer than accepted characters (https://trello.com/c/KIuqWQ3n)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-12-18T19:57:55.595Z
+Latest Update: 2019-01-18T22:30:02.497Z
+
+Reported by Pryver#0001
+
+####Steps to reproduce:
+- Choose 'channel' from left pane 
+- Click on channel topic field 
+- text: "this is a long channel topic, so long that you will want to not read it all, but you already started and now you feel obligated to finish it. The idea here is that you have to supply enough characters and instead of supplying lorem ipsum or any other random keyboard bashing, I want to be creatinve and supply you with a story about myself. Well, here is the story. I am here writing this long text, thinking about Avocade. Avocados are so tasty to me that I have to eat one completely" 
+- click on options + R key
+
+####Expected result:
+The text should be trimmed after 1028 characters
+####Actual result:
+The counter goes below 0, users are able to save the channel details
+####Client settings:
+Release Channel: stable, Build Number: 29232
+####System settings:
+Mac 10.14.1
+
+24211
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-18T19:57:55.595Z
+
+
+### Solo#0007 - https://youtu.be/YOGM_2cZ9Rs added by Bug Bot on 2018-12-18T19:57:58.081Z
+
+
+### Can reproduce.
+Can reproduce ; macOS Mojave (10.14) ; Discord Canary Build 29532
+
+SaltyPotato#0006 - Bug Bot on 2018-12-18T19:58:03.277Z
+
+
+### Can reproduce.
+Can Reproduce; MacOs Mojave, Version 10.14; Discord Canary, Build 29791; I only got as far as -1.
+
+S6out#8095 - Bug Bot on 2018-12-18T19:58:08.099Z
+
+
+### Can reproduce.
+[CNR] Build Number: 29875, macOS 10.13.16 - Able to reach -11 on counter
+
+ori#0001 - Bug Bot on 2018-12-18T19:58:13.011Z
+
+
+### Can't reproduce.
+Cannot reproduce. Windows 10 x64 1803, Discord Canary build 29875. Trims text when it reaches the limit of zero characters.
+
+dotmicron#8669 - Bug Bot on 2018-12-18T20:56:25.953Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v.1803 (Build 17134.471) - Canary (Build #29937)
+
+Satiated#9835 - Bug Bot on 2018-12-18T21:37:12.848Z
+
+
+### Can't reproduce.
+Windows 10 Home x64, Version 1803
+
+lune0#5863 - Bug Bot on 2018-12-18T21:49:46.648Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Pro x64, Canary Build 29756
+
+Thundy#2018 - Bug Bot on 2018-12-19T00:34:42.461Z
+
+
+### verified, macos 10.12.6, canary 29756 - Clayton on 2018-12-19T04:27:25.850Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-19T04:27:34.864Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 Canary: 29791
+
+Neiron#8475 - Bug Bot on 2018-12-19T14:59:11.660Z
+
+
+### Can't reproduce.
+Can not reproduce. Windows 7 Home Premium x64 v7601, Canary 30058. Appears to be mac only.
+
+Solo#0007 - Bug Bot on 2018-12-19T22:29:06.015Z
+
+
+### Archived by Bug Bot on 2019-01-18T22:30:02.501Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

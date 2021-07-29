@@ -1,0 +1,74 @@
+[Archived] Inability to save images with transparent background from an embed. (https://trello.com/c/9M1I9jGV)
+
+None
+
+Created: 2020-02-09T05:30:30.526Z
+Latest Update: 2020-02-10T11:56:14.598Z
+
+Reported by Oxygen#0001
+
+####Steps to reproduce:
+- Find image with a transparent background from an embed. 
+- Press the save button.  
+- Observe.
+
+####Expected result:
+It should save the image.
+####Actual result:
+Apple gives you a “Save Failed” popup and tells you to check your system network and privacy settings for the Photos app.
+####Client settings:
+TestFlight 3.1.0
+####System settings:
+iPhone 11, iOS 13.3
+
+52030
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-09T05:30:30.526Z
+
+
+### enamored#1222 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5e3f98f606793d2e77dcbd51/9acaab5f15ff3e0ea2c5c7330db3d737/ehSIXyX.png added by Bug Bot on 2020-02-09T05:30:33.859Z
+
+
+### Can reproduce.
+CR, not PNG specific; Iphone 11, IOS 13.3, testflight 3.1.10 (18855)
+
+enamored#1222 - Bug Bot on 2020-02-09T05:30:38.319Z
+
+
+### Can reproduce.
+CR even with non transparent images, tried with dank memer’s meme command, and with a ?av command. Seems to be with all images in an embed in general. iPad Pro 10.5”, iPad OS 13.3, TestFlight 3.1.10
+
+Apple A10X gamer#5889 - Bug Bot on 2020-02-09T05:30:43.051Z
+
+
+### Can reproduce.
+CR, iPad iOS 12.4.4, TestFlight 3.1.10 (18855)
+
+Action Potential#6862 - Bug Bot on 2020-02-09T05:30:48.062Z
+
+
+### Duplicate:  https://trello.com/c/azfX2unn
+
+Jiralite#1207 - Bug Bot on 2020-02-09T11:32:22.394Z
+
+
+### Duplicate of https://trello.com/c/azfX2unn - Daffyduck on 2020-02-09T13:01:06.074Z
+
+
+### Archived by Daffyduck on 2020-02-09T13:01:12.012Z
+
+
+### Can reproduce.
+Works on all embeds no matter what. iOS 13.3, iPhone 6s, Discord 3.1.9.
+
+ZeusDeeGod#9336 - Bug Bot on 2020-02-10T11:56:14.612Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

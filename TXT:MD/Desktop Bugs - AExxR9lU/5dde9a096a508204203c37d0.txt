@@ -1,0 +1,88 @@
+Even if the person we call from the profile leaves the call, it seems to be connected to the call. (https://trello.com/c/UYqH3loY)
+
+None
+
+Created: 2019-11-27T15:45:13.310Z
+Latest Update: 2020-07-16T21:26:05.779Z
+
+Reported by Anatolia#0001
+
+####Steps to reproduce:
+- First, create a group with the user. 
+- Make a group call. (Two users must join the voice call.) 
+- After joining the voice call in the group, call from the profile of the user joining the group call without ending the group call. 
+- Even if the user you are calling from the profile does not join the call, it will appear connected to the call.
+
+####Expected result:
+Although it has not joined the call, it should not show connected.
+####Actual result:
+Even if the user you are calling from the profile does not connect the call, it will appear connected to the call.
+####Client settings:
+Chrome Discord, Release Channel: stable, Build Number: 50415
+####System settings:
+Windows 7 Professional x64
+
+48954
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-27T15:45:13.310Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 1809 x64, Chrome  78.0.3904.108, Stable 50415
+
+Warwick#9999 - Bug Bot on 2019-11-27T15:45:20.812Z
+
+
+### Anatolia#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dde9a096a508204203c37d0/bd22bb4ca831d10e0335c534511f7bad/ElatedDeadHornet-size_restricted.gif added by Bug Bot on 2019-11-27T15:45:25.934Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Chrome 78
+
+Cat#5630 - Bug Bot on 2019-11-27T15:45:25.943Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 1903 x64, Discord 50235
+
+Turkish Global Elite#3329 - Bug Bot on 2019-11-27T15:45:30.841Z
+
+
+### Can't reproduce.
+Using more than one instance of discord to reproduce bugs is not allowed (mobile and desktop are allowed however)
+
+Jamalek#0025 - Bug Bot on 2019-11-27T16:04:12.955Z
+
+
+### Can reproduce.
+CR, windows 10 home 1903, chrome 78.0.3904.108, stable, Build Number: 50474
+
+R C N#0001 - Bug Bot on 2019-11-28T13:16:59.080Z
+
+
+### Can reproduce.
+Canary 50127, Windows 10
+
+Rohit#3523 - Bug Bot on 2019-11-28T19:41:00.746Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 50474 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-29T02:24:09.716Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro (1903), Discord Canary 50474
+
+TheRudeDude#6040 - Bug Bot on 2019-11-29T19:25:24.618Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

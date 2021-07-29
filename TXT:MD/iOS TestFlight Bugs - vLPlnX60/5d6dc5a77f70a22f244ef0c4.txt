@@ -1,0 +1,88 @@
+debug menu in new call UI crashes sometimes (https://trello.com/c/bnAzKp4a)
+
+None
+
+Created: 2019-09-03T01:45:11.245Z
+Latest Update: 2019-09-09T21:55:32.099Z
+
+Reported by GlenMerlin#2119
+
+####Steps to reproduce:
+- start a DM call 
+- tap the ... in the top corner 
+- tap debug 
+- watch as discord crashes
+
+####Expected result:
+it shouldn't crash
+####Actual result:
+it crashes
+####Client settings:
+3.1.2 (17140)
+####System settings:
+iPhone 6s iOS 13.1
+
+43396
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-03T01:45:11.245Z
+
+
+### Can reproduce.
+iPhone 6s - iOS 12.2 - TestFlight 3.1.2 (17140) - I find doing stuff before like tapping the camera or messing with the volume part and waiting a few seconds after opening the debug panel allows you to crash more consistently
+
+Jedi3 Cafè Manager#0001 - Bug Bot on 2019-09-03T01:45:19.263Z
+
+
+### Can reproduce.
+CR iPhone 8 iOS 13 (Public Beta), TestFlight 3.1.2 (17140) - It crashed once, when I turned on the video call button, then proceeded to open the debug list. Did not crash any other time though.
+
+Rain#3816 - Bug Bot on 2019-09-03T01:45:24.165Z
+
+
+### Can reproduce.
+CR ; iPhone 7, iOS 13.1 (Developer Beta), TestFlight Build 3.1.2 (17140) | Seems to happen very inconsistently
+
+username#6666 - Bug Bot on 2019-09-03T01:45:29.172Z
+
+
+### Can reproduce.
+CR. It happened on me once. iPhone Xʀ - iOS 13 Dev Beta 6 (17A5556d) - Discord TestFlight 3.1.2 (17140)
+
+Frances Picard#6209 - Bug Bot on 2019-09-03T02:39:11.354Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.4, TestFlight 3.1.2 (17140) - It does this a few times.
+
+.Gloria.#9606 - Bug Bot on 2019-09-03T03:02:14.404Z
+
+
+### Can't reproduce.
+iPhone X, iOS 13.1 (dev beta) - TestFlight 3.1.2 (17140)
+
+Xylium#5800 - Bug Bot on 2019-09-03T05:24:07.884Z
+
+
+### Moved from New Issues to Voice call refresh by Fanghao on 2019-09-03T19:00:26.147Z
+
+
+### Can't reproduce.
+CNR, I tried several times with two people and couldn’t get it to crash - iPhone XS (iOS 13 PB 5), TestFlight Build 3.1.2 (17140)
+
+kiosion#2020 - Bug Bot on 2019-09-03T19:15:23.283Z
+
+
+### Can't reproduce.
+iPhone 8, iOS 12.4, TestFlight 3.1.2(17205)
+
+Ice#9999 - Bug Bot on 2019-09-07T16:14:08.956Z
+
+List
+====
+Voice call refresh
+
+Members
+=======
+None

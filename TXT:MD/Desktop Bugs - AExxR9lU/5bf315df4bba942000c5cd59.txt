@@ -1,0 +1,110 @@
+[Archived] clicking back fast enough after selecting a payment method will break the payment type menu and show a scrollbar (https://trello.com/c/iUUixhcF)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-11-19T19:58:23.736Z
+Latest Update: 2019-08-13T15:30:10.752Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- go to user settings 
+- click on billing 
+- click on "Add Payment Method 
+- select a payment method and click back while the window is expanding (see attached gif)
+
+####Expected result:
+the payment type popup should show in its full size without any scrollbar
+####Actual result:
+the payment type menu is smaller and has a small scrollbar, and the payment methods can't be seen without scrolling
+####Client settings:
+Canary, Build Number: 28210
+####System settings:
+Windows 10 home x64 (1803)
+
+23336
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-19T19:58:23.736Z
+
+
+### J1#0088 - https://i.imgur.com/fV8kvhW.gifv added by Bug Bot on 2018-11-19T19:58:26.164Z
+
+
+### Can reproduce.
+can reproduce | windows 10 x64 1803 canary 28210 | it's pretty hard to hit back in time, it is easier on external mouse than touchpad
+
+ks#0908 - Bug Bot on 2018-11-19T19:58:31.069Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803 x64, Discord Canary 28210
+
+Pyros#2326 - Bug Bot on 2018-11-19T19:58:36.180Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 x64 , Canary 28210
+
+Toasty#9566 - Bug Bot on 2018-11-19T19:58:41.220Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64 - Discord Canary 28210
+
+Daffyduck#5364 - Bug Bot on 2018-11-19T20:12:08.670Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 28210
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-19T20:18:14.872Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 28210
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-19T20:46:54.593Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 28226
+
+Hole#0001 - Bug Bot on 2018-11-20T00:55:24.912Z
+
+
+### verified, macos 10.12.6, canary 28226 - Clayton on 2018-11-20T04:02:58.199Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-20T04:03:05.851Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 (17134.376), Canary 28385
+
+ColdRussian#0001 - Bug Bot on 2018-11-22T15:00:47.230Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:02.561Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 32597
+
+charleskimbac#6492 - Bug Bot on 2019-02-22T04:09:14.985Z
+
+
+### Unarchived by Bug Bot on 2019-02-22T04:30:05.785Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:10.769Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

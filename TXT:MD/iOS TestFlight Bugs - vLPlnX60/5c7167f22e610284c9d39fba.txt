@@ -1,0 +1,116 @@
+[Archived] It causes app crash on iPhone when i try to edit text with 3D touch and emotes (https://trello.com/c/u9Z6aYIK)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-02-23T15:34:10.839Z
+Latest Update: 2019-09-18T10:00:54.005Z
+
+Reported by Ichigo SEC#1998
+
+####Steps to reproduce:
+- Add two emotes in the text area  
+- move the text bar to the left with 3D Touch  
+- Discord will suggest you an emote after that move again to the left with 3D Touch on the other emote  
+- it will suggest you an emote again, so move to the right still with 3D touch just before the " : " and after the space between the emotes 
+- then type " < " and two "-" to do a long bar 
+- when you done like 3 or 4 bars do one more time "-" to do a little bar  
+- When little bar is here delete it and type " > "  
+- When you will type > the app will crash -
+
+####Expected result:
+The discord app crash
+####Actual result:
+The app crash but not always
+####Client settings:
+2.4.5 (11460)
+####System settings:
+iPhone 8 Plus, iOS 11.2.6
+
+29563
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-23T15:34:10.839Z
+
+
+### Pascal#0929 - https://www.youtube.com/watch?v=yV5u1QnUG3o added by Bug Bot on 2019-02-23T15:34:13.594Z
+
+
+### Can reproduce.
+CR // iPhone 8 Plus // iOS 12.1.4 // TestFlight 2.4.5 (11524)
+
+Falkio#0001 - Bug Bot on 2019-02-23T15:34:18.628Z
+
+
+### Can reproduce.
+iPhone 7 Plus iOS 12.1 TestFlight 2.4.5 (11524)
+
+Killtracity#0001 - Bug Bot on 2019-02-23T15:34:23.602Z
+
+
+### Can reproduce.
+iphone 8 ios 12.1.4, TestFlight 2.4.5 (11524)
+
+M24#0272 - Bug Bot on 2019-02-23T15:34:28.561Z
+
+
+### Can reproduce.
+iPhone X, IOS 12, TestFlight 2.4.5
+
+Mr. Proper#2394 - Bug Bot on 2019-02-23T16:41:51.567Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.1.2 - TestFlight 2.4.5
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-02-23T17:32:43.523Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-03-08T19:00:11.836Z
+
+
+### Archived by Bug Bot on 2019-04-07T19:30:06.290Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.8 (16488) with iPhone 8 Plus running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-29T13:19:57.636Z
+
+
+### Unarchived by Pascal on 2019-07-29T13:20:03.780Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-07-29T13:20:10.128Z
+
+
+### Can't reproduce.
+iphone 8 ios 13, TestFlight 3.0.8 (16488)
+
+OrangeM24#5746 - Bug Bot on 2019-07-30T13:02:02.025Z
+
+
+### Can't reproduce.
+iPhone 7 Plus, iOS 13, TestFlight 3.0.8 (16488)
+
+Jeffrey#1234 - Bug Bot on 2019-07-30T20:04:40.400Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.8 (16488)
+
+binchlord#0998 - Bug Bot on 2019-08-01T03:45:01.798Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-08-01T03:45:02.186Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:00:54.017Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

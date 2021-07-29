@@ -1,0 +1,91 @@
+[Archived] Code blocks cause visual glitches over header and message box when scrolled to over those sections (https://trello.com/c/Ml6U4n26)
+
+None
+
+Created: 2017-01-27T15:20:59.114Z
+Latest Update: 2017-10-02T16:44:12.768Z
+
+Reported by Chrys#1856
+
+####Steps to reproduce: 
+- Create a code block (the one with three backticks) 
+- Scroll up or down until code block is scrolled off screen 
+
+####Expected result:
+ Code block is rendered behind channel name header (section at top) or message box (section at bottom) 
+####Actual result:
+ Visual weirdness as code blocks are rendered on top of header and message box 
+####System settings:
+ Android 4.4.4, v3.3.0, Xperia E4g *(may only be a pre-Lollipop issue)*
+
+Card Log
+========
+### Added by Jared on 2017-01-27T15:20:59.114Z
+
+
+### Can reproduce.
+Android 4.2.2, Alpha latest
+
+Ristarg#3840 - Jared on 2017-01-27T15:20:59.718Z
+
+
+### Can reproduce.
+Latest Discord Alpha, Android 6.0, LG G4, also get this on very long posts, see http://i.imgur.com/UBelgz1.png
+
+eslachance#4611 - Jared on 2017-01-27T15:21:01.665Z
+
+
+### Can reproduce.
+Discord 3.3.0, Android 6.0.1
+
+Logiz#9321 - Jared on 2017-01-27T15:21:03.599Z
+
+
+### https://u.teknik.io/Le36N.mp4 - https://u.teknik.io/Le36N.mp4 added by Jared on 2017-01-27T15:21:14.936Z
+
+
+### I5frj.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/588b655bf182027a80dd7bde/437e0d12bcf599eef579ba6673c880b8/I5frj.png added by Jared on 2017-01-27T15:21:15.413Z
+
+
+### gVCRc.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/588b655bf182027a80dd7bde/739c172c519771343812898b0bbdb077/gVCRc.png added by Jared on 2017-01-27T15:21:15.717Z
+
+
+### Can reproduce.
+MIUI 8.1.10.0 (Android 6), Discord Canary Alpha 3.3.0
+
+kyra#2490 - Jared on 2017-01-27T15:24:37.632Z
+
+
+### Can reproduce.
+Google Pixel 7.1.1, 3.3.0 --- Only when the keyboard is opened
+
+Khionu#8708 - Jared on 2017-01-27T17:35:43.091Z
+
+
+### Can reproduce.
+only happened when the codeblocks scrolled naturally away from the screen
+
+MelodicStream#1336 - Jared on 2017-01-27T17:38:49.003Z
+
+
+### This should be fixed in newest alpha, 3.3.1. - Andy Garron on 2017-01-28T01:36:00.768Z
+
+
+### Verified Fixed - Jared on 2017-01-31T00:14:19.078Z
+
+
+### Moved from User Reported Bugs to Fixed Bugs by Jared on 2017-01-31T00:14:23.816Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:44:11.888Z
+
+
+### Archived by Jared on 2017-10-02T16:44:12.771Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,97 @@
+[Archived] Twitch emoji act unexpectedly without using colons (https://trello.com/c/1VoY4lgj)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-12-21T10:42:52.414Z
+Latest Update: 2020-02-20T21:34:16.536Z
+
+Reported by dorothyoka#9078
+
+####Steps to reproduce:
+- Add Twitch connection to your account 
+- Subscribe to any Twitch streamer and join their server 
+- Subscribe to Discord Nitro 
+- Create a new server and place it above the Twitch streamer's on your server list 
+- Create a new emoji on the new server and name it after one of the subscriber emoji from the Twitch streamer's server 
+- Type out and send the name of the emoji you copied on the new server without colons in any channel except one in the streamer's server
+
+####Expected result:
+The Twitch emoji is sent
+####Actual result:
+Plain text is sent instead
+####Client settings:
+Alpha 8.1.8
+####System settings:
+Samsung Galaxy J3, Android 7.1.1
+
+24883
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-21T10:42:52.414Z
+
+
+### Can reproduce.
+CR OnePlus 3T, Android 8, Discord 8.1.8. - If the sub emote is given the ~1, without Colons the emoji fails to parse correctly.  - Desktop successfully parses the emoji even if ~1.
+
+Alipoodle#5025 - Bug Bot on 2018-12-21T10:42:59.695Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 8, Discord Ver: 8.1.7
+
+Critiql#6666 - Bug Bot on 2018-12-21T10:43:04.690Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 8.0.0,Discord Alpha 8.1.8
+
+Octillion#6666 - Bug Bot on 2018-12-21T10:43:09.714Z
+
+
+### Can reproduce.
+Can repro, Samsung Galaxy Prime Android 5.1.1 Discord 8.1.8
+
+OGr0cket#0001 - Bug Bot on 2018-12-21T11:49:05.421Z
+
+
+### Can reproduce.
+OnePlus 5T, Android 9 (Pi), Discord 8.1.7 (817)
+
+LukeC.#7652 - Bug Bot on 2018-12-22T01:26:06.376Z
+
+
+### Can reproduce.
+CR. Alpha 8.2.2 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#2019 - Bug Bot on 2018-12-22T04:50:47.436Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 8.2.2 - Clayton on 2019-01-04T02:40:42.400Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-04T02:40:48.615Z
+
+
+### Archived by Bug Bot on 2019-02-03T03:00:04.199Z
+
+
+### Can reproduce.
+Huawei CRR-L09 Android 6.0 Discord 9.9.3, So i have encountered what i was told in the discord is a extension of this bug which causes half of my sub emotes to not work on my phone. So the twitch sub synced server i'm part of have manually added dupes of all the sub emotes so non-subs can use them in the server. On my phone this has caused some of the emotes in the emote menu to have the "-1" ending which causes the emote code to be posted instead of the emote, meaning the emote UI on the phone doesn't work for these sub emotes and i have to manually type them out with the colons ':'. Will get someone to add a pic that better shows what i mean.
+
+Henjin#3195 - Bug Bot on 2019-08-16T13:33:46.076Z
+
+
+### Unarchived by Bug Bot on 2019-08-16T14:00:04.860Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:16.553Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,96 @@
+[Archived] Ghost reactions after removing all reactions (https://trello.com/c/JV1ncqpm)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-20T01:52:25.301Z
+Latest Update: 2020-05-16T05:00:02.166Z
+
+Reported by Rubsad#9999
+
+####Steps to reproduce:
+- Go into a server you have Manage Messages permission in
+- Find a message and add a reaction to it
+- Ask someone else to react with the same reaction to that same message
+- Right-click the message and select "Remove All Reactions"
+- Re-add the same reaction to the same message again
+- Hover over the reaction and/or open the Reactions modal and observe that the other user who had reacted to the message is still being shown
+
+####Expected result:
+It should only show your name in the tooltip when you hover over the reaction and in the Reactions modal
+####Actual result:
+It shows your name, as well as all the previous users who reacted with that reaction
+####Client settings:
+Release Channel: canary, Build Number: 22210, Version Hash: c26c01603b894d23185eaecaf3751fbb218dd224
+####System settings:
+Windows 10 (64-bit)
+
+17951
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-20T01:52:25.301Z
+
+
+### Rubsad#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b7a1ed915fbad2c339009e7/f7685eac56e3982321f547ead491f63a/DiscordCanary_2018-08-19_22-38-30.png added by Bug Bot on 2018-08-20T01:52:27.754Z
+
+
+### Can reproduce.
+Can reproduce, users who previously reacted are shown in the hover tooltip after clearing reactions and reacting again Windows 10 Pro x64 Canary 22210
+
+Delite#0001 - Bug Bot on 2018-08-20T01:52:32.672Z
+
+
+### Can reproduce.
+Can reproduce, MacBook Pro 2017, macOS 10.14 Mojave Beta (18A365a), Canary Build 22210
+
+Keons#0001 - Bug Bot on 2018-08-20T01:52:37.696Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 1803 Discord canary 22210
+
+Bencey_#8587 - Bug Bot on 2018-08-20T01:52:42.857Z
+
+
+### Extension of https://trello.com/c/BUw7s9PC
+
+webhp#1337 - Bug Bot on 2018-08-20T01:57:25.613Z
+
+
+### extension below.  - Clayton on 2018-08-20T23:33:22.501Z
+
+
+### Archived by Clayton on 2018-08-20T23:33:23.673Z
+
+
+### Verified on Canary 38248, Windows 10 Home 64-bit (v1809). - Ene on 2019-05-22T02:31:56.843Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ene on 2019-05-22T02:32:07.518Z
+
+
+### Unarchived by Ene on 2019-05-22T02:32:07.642Z
+
+
+### Archived by Bug Bot on 2019-06-21T03:00:04.411Z
+
+
+### Can reproduce.
+CR, Canary 58274 (c287cba), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-04-16T04:12:55.341Z
+
+
+### Unarchived by Bug Bot on 2020-04-16T04:30:05.432Z
+
+
+### Archived by Bug Bot on 2020-05-16T05:00:02.179Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,65 @@
+Double-click and drag word highlighting breaks with rich text (https://trello.com/c/t1K9hHc6)
+
+None
+
+Created: 2020-01-28T16:56:40.505Z
+Latest Update: 2020-07-16T21:26:06.054Z
+
+Reported by TellowKrinkle#5281
+
+####Steps to reproduce:
+- Type a sentence with some words bolded or italicized 
+- Double-click and drag to highlight by word. Start from outside of a formatted part and highlight into the part with formatting.
+
+####Expected result:
+The highlighted area is expanded entire words at a time
+####Actual result:
+Once you cross the formatting boundary, the highlight will switch to advancing letters at a time, and will continue to do that even if you leave the formatted text.
+####Client settings:
+Desktop Stable, 52961
+####System settings:
+macOS 10.14.6 (build 18G2022), 2014 15" Retina MacBook Pro
+
+51961
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-28T16:56:40.505Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro Build 18363.592, Discord Canary Build 53284
+
+Creedoo#3626 - Bug Bot on 2020-01-28T16:56:48.123Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.2; Discord Canary 53288
+
+Jiralite#1207 - Bug Bot on 2020-01-28T16:56:53.099Z
+
+
+### Can reproduce.
+Windows 7 home, canary 53284
+
+Apple A10X gamer#5889 - Bug Bot on 2020-01-28T16:56:58.199Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 53512
+
+carter#0001 - Bug Bot on 2020-01-29T21:00:45.193Z
+
+
+### Can reproduce.
+Windows 10 Home x64, version 1909 - Canary 53653
+
+anonymous kitten#5379 - Bug Bot on 2020-01-31T03:36:23.384Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

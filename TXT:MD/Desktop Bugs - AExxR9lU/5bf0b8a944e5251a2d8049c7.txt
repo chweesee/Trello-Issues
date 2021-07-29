@@ -1,0 +1,65 @@
+[Archived] XBOX Live connection makes you stay inside the online tab if you change your availability to invis while playing games (https://trello.com/c/EjSEaIYI)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-11-18T00:56:09.872Z
+Latest Update: 2019-01-13T19:00:02.938Z
+
+Reported by DurpClient#1994
+
+####Steps to reproduce:
+- Open Discord Canary (or Vanilla) If not already online
+- Change availability to online, dnd or away. 
+- Turn on XBOX 
+- Launch a game Change availability to invisible
+
+####Expected result:
+You are supposed to be displayed as offline and it should not show you are still playing a game.
+####Actual result:
+You stay displayed as an online user to you and others. It also still shows the game you are playing.
+####Client settings:
+Release Channel: canary, Build Number: 28106, Version Hash: a92bafab1e85aa791728a9333fa9de4a600851a7
+####System settings:
+Windows 10 Home
+
+23230
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-18T00:56:09.872Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (17763), Canary 28106
+
+mouse#0091 - Bug Bot on 2018-11-18T00:56:17.268Z
+
+
+### Can reproduce.
+Windows 10 Education x64 17763, Canary Build 28192, I've also had this bug happen to me several times in the past, where I'm shown as invisible to myself (still on the online list for some reason) while others still see me as DND/Online
+
+Keons#0001 - Bug Bot on 2018-11-18T00:56:22.343Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (17763), Canary 28195
+
+FPDrεας#4133 - Bug Bot on 2018-11-18T00:56:27.258Z
+
+
+### Verified - Jared on 2018-12-14T18:56:44.612Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-12-14T18:56:53.994Z
+
+
+### Archived by Bug Bot on 2019-01-13T19:00:02.941Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

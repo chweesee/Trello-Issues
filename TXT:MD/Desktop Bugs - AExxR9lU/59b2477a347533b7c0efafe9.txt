@@ -1,0 +1,139 @@
+[Archived] The text box goes out of focus if you click anywhere outside the box. (Does not happen on PTB or Stable) (https://trello.com/c/tH2VWO5o)
+
+P2: Fix can wait a while
+
+Created: 2017-09-08T07:32:10.477Z
+Latest Update: 2017-11-15T19:22:18.312Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Write a message 
+- Click on a user in the member list, inside a channel, join a voice channel or mute your mic
+
+####Expected result:
+It shouldn't go out of focus, it should allow you to type again after you left the window (or stops clicking stuff)
+####Actual result:
+The chat box is not focused anymore and you have to click in the chat box again to write again.
+####Client settings:
+Discord Canary 0.0.163 (Build 3994)
+####System settings:
+Windows 10 Pro 64-bit (Build 1607)
+
+3996
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-08T07:32:10.477Z
+
+
+### Tarek1337#0379 - https://www.youtube.com/watch?v=KVDYnvK8bdE&feature=youtu.be added by Bug Bot on 2017-09-08T07:32:13.096Z
+
+
+### Can reproduce.
+MacOS 10.12.6, Canary 0.0.154
+
+LordOfTheUndead#7368 - Bug Bot on 2017-09-08T07:32:18.092Z
+
+
+### Can reproduce.
+CR, Archlinux I3wm 4.12, Discord Canary 0.0.24
+
+Starshine Dust#2189 - Bug Bot on 2017-09-08T07:32:23.123Z
+
+
+### Can reproduce.
+Canary 0.0.163 + Windows 10
+
+Oasis#4730 - Bug Bot on 2017-09-08T07:32:28.087Z
+
+
+### Can't reproduce.
+Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-08T07:35:46.309Z
+
+
+### Can reproduce.
+Windows 8.1 x64, Canary v0.0.163
+
+hiddos#6487 - Bug Bot on 2017-09-08T12:03:01.703Z
+
+
+### Can reproduce.
+iMac (Retina 4K, 21.5-inch, Late 2015) running Discord Canary 0.0.154
+
+Rauf#3260 - Bug Bot on 2017-09-08T12:42:50.707Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.163 (3994)
+
+Tiemen#0107 - Bug Bot on 2017-09-08T15:22:17.564Z
+
+
+### Can reproduce.
+Ubuntu 17.04 64Bit, Discord Canary 0.0.24
+
+FrostLuma#0005 - Bug Bot on 2017-09-08T15:29:02.962Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163, Windows 10 x64
+
+Dr Pigeon#3577 - Bug Bot on 2017-09-08T15:43:01.463Z
+
+
+### This also renders the TAB button keyboard shortcut to focus the text area non-functional.
+
+Pointy#9109 - Bug Bot on 2017-09-08T17:12:33.249Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.163 (Build 3994) - Win 10 Pro x64 v1607
+
+Pointy#9109 - Bug Bot on 2017-09-08T17:14:15.682Z
+
+
+### Verified.  - Clayton on 2017-09-08T20:51:43.745Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-08T20:51:50.206Z
+
+
+### Can't reproduce.
+Seems to be fixed as of build 4053 - CNR - Desktop Canary 0.0.163 (Build 4053) - Canary Web (Build 4053) / Chrome Stable 60.0.3112.113 x64 - Win 10 Pro x64 v1607
+
+Pointy#9109 - Bug Bot on 2017-09-09T09:06:26.608Z
+
+
+### Can no longer reproduce. Win10 Canary 0.0.163, Build 4053. - Mike Nisbet on 2017-09-09T20:55:27.688Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-09-09T20:55:35.702Z
+
+
+### Can't reproduce.
+cnr on build 4053, Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-09-10T00:14:38.056Z
+
+
+### Fixed.  - Clayton on 2017-10-04T00:09:58.537Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T00:10:03.736Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:22:17.635Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:22:18.314Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

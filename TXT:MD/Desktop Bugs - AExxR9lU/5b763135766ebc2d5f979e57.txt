@@ -1,0 +1,80 @@
+[Archived] The overlay doesn't appear when the keybind is pressed (https://trello.com/c/AYIqOwo9)
+
+None
+
+Created: 2018-08-17T02:21:42.042Z
+Latest Update: 2018-10-22T20:33:25.878Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Open a game 
+- Ensure the overlay is enabled and the overlay is running for the game 
+- Open the overlay with the keybind
+
+####Expected result:
+The overlay presents itself in all its glory
+####Actual result:
+The overlay doesn't appear but the game acts like it's visible (can't interact with the game)
+####Client settings:
+Canary 22083
+####System settings:
+Windows 10 Home x64
+
+17698
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-17T02:21:42.042Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Enterprise E3 x64 - Discord Canary Build 22803
+
+SweetSofiMC#8821 - Bug Bot on 2018-08-17T02:21:49.445Z
+
+
+### Can reproduce.
+Win 10 home x64. Canary 22066
+
+Mr. Black#5859 - Bug Bot on 2018-08-17T02:21:54.371Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary 22083
+
+Zacatero#0001 - Bug Bot on 2018-08-17T02:21:59.312Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 22083
+
+Azrael#6867 - Bug Bot on 2018-08-17T02:24:41.058Z
+
+
+### It's possible the overlay hasn't had time to hook to the game yet. Do ya'll see the notification about the overlay before you try the keybind? - Joey Baker on 2018-08-17T18:18:30.044Z
+
+
+### Moved from User Reported Bugs to Overlay Redesign Bugs by Joey Baker on 2018-08-17T18:18:37.499Z
+
+
+### The notification for the overlay doesn't show up at all, however, looking in the console, there is the "Overlay connection to XXXX succeeded" message logged as well as logs of events presumably being dispatched to the overlay, so I'm assuming the overlay is hooked into the game. Also, various Discord overlay handles are visible using a tool like Process Explorer
+
+mrkirby153#7840 - Bug Bot on 2018-08-17T18:27:38.649Z
+
+
+### CNR, win 10, canary 22791 - Clayton on 2018-08-30T22:31:16.684Z
+
+
+### Moved from Overlay Redesign Bugs to Verified Fixed by Clayton on 2018-08-30T22:31:22.143Z
+
+
+### Archived by Clayton on 2018-10-22T20:33:25.880Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

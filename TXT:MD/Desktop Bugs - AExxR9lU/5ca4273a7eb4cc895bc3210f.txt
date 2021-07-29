@@ -1,0 +1,54 @@
+While connected to a voice channel, accepting/starting a FaceTime call, freezes Discord (and sometimes, you get logged out) (https://trello.com/c/vaYvgyG5)
+
+None
+
+Created: 2019-04-03T03:23:38.129Z
+Latest Update: 2020-06-23T08:31:57.479Z
+
+Reported by Thiago#3958
+
+####Steps to reproduce:
+- macOS required (A mac with Apple's T2 security chip IS REQUIRED, considering it handles your microphone)  
+- Connect to a voice channel (doesn't matter if it is a DM or guild/server channel) 
+- Call someone using FaceTime (or accept a incoming call)
+
+####Expected result:
+Discord should continue to work (and shouldn't randomly log you out)
+####Actual result:
+Discord freezes (and sometimes, you get logged out)
+####Client settings:
+Canary: 34801
+####System settings:
+macOS 10.14.4 @ MacBook Pro 2018
+
+31833
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-03T03:23:38.129Z
+
+
+### Can reproduce.
+It crashes on me after I end the FaceTime call and go back to Discord Canary. T2 chip required. MacBook Pro 13" 2018 - MacOS 10.14.4 - Discord Canary 34858
+
+Frances Picard#6209 - Bug Bot on 2019-04-03T03:23:45.492Z
+
+
+### Can reproduce.
+Tested this issue on a new MacBook Air with T2 chip, Canary 34858, macOS 10.14.4
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-03T03:23:50.478Z
+
+
+### Can reproduce.
+CR, macOS 10.14.4, PTB 34858 — causes a discord crash when finishing calls
+
+Action Potential#2494 - Bug Bot on 2019-04-03T03:23:55.522Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

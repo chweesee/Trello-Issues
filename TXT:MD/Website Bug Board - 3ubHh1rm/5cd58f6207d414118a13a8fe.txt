@@ -1,0 +1,95 @@
+[Mobile Web] If you attempt to buy Nitro from Android and click Cancel on the webview where it asks for payment method, it will show "Oops, an error occured" (https://trello.com/c/OP0qJdbM)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-05-10T14:49:06.221Z
+Latest Update: 2019-07-20T01:21:15.457Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Login on Discord Android (You must not have Nitro already, and you must not have any payment method configured) 
+- Go to Settings > Nitro 
+- Select any plan. It should open a Chrome custom tab 
+- When the web page is loaded, click Cancel on the bottom left
+
+####Expected result:
+It should properly exit the tab and get you back to Discord
+####Actual result:
+"Oops, an error occured" screen appears
+####Client settings:
+Discord Alpha 8.9.3
+####System settings:
+Huawei Mate 9 Android 9.0
+
+34378
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-10T14:49:06.221Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cd58f6207d414118a13a8fe/f2f2e1477260773ed774148a35f67a4b/Screenshot_20190510_162000_org.mozilla.firefox.jpg added by Bug Bot on 2019-05-10T14:49:09.323Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cd58f6207d414118a13a8fe/56122f5b93fd18c29be3275607b170c1/Screenshot_20190510_161835.jpg added by Bug Bot on 2019-05-10T14:49:09.361Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Discord Alpha 8.9.3
+
+Danijel#9000 - Bug Bot on 2019-05-10T14:49:13.715Z
+
+
+### Can reproduce.
+CR | Honor 7S, Android 8.1, Android Alpha 893
+
+mesub#0556 - Bug Bot on 2019-05-10T14:49:18.692Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 8.9.2, Chrome 74.0.3729.136
+
+Law of Royale#4167 - Bug Bot on 2019-05-10T14:49:23.721Z
+
+
+### Can reproduce.
+Alcatel 3V, Android 8.0.0 - Discord Alpha 8.9.3 (893)
+
+Birdy#4914 - Bug Bot on 2019-05-10T16:12:33.911Z
+
+
+### Can reproduce.
+CR; ''Oops, an error occured'' screen appear for a bit but after that it get me back to discord. Asus Zenfone 2, Android 5.0, Discord Alpha 8.9.3
+
+Karasu#0013 - Bug Bot on 2019-05-10T19:30:49.912Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.9.3
+
+Lily#2624 - Bug Bot on 2019-05-10T19:47:54.649Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.9.3 | CR on an alt.
+
+Clay#0001 - Bug Bot on 2019-05-10T22:44:13.003Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Pascal on 2019-06-15T18:02:12.668Z
+
+
+### Verified on Alpha 9.2.1, Samsung Galaxy S9, Android 9.0. - Ene on 2019-07-20T01:21:09.513Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ene on 2019-07-20T01:21:15.431Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

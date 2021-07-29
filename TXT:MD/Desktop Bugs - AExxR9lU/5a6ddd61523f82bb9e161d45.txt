@@ -1,0 +1,76 @@
+[Archived] Channel Pop-up get's offset upon vibrate (https://trello.com/c/0lkPlaXk)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-28T14:25:37.781Z
+Latest Update: 2018-03-14T13:17:40.821Z
+
+Reported by Kroppeb#2845
+
+####Steps to reproduce:
+- Use the discordapp (not browser) 
+- Read all messages accros all discord servers 
+- Right click a channel 
+- Use alt-shift-⬆⬇ to vibrate the screen 
+- EXTRA 
+- instead of reading all messages, one can use ctrl + alt + shift + ⬆⬇ to vibrate the screen
+
+####Expected result:
+The channel pop-up isn't offset while the screen is vibrating or the pop-up closes
+####Actual result:
+The Pop-up is offset while vibrating
+####Client settings:
+Release Channel: stable, Build Number: 10000 and  Release Channel: canary, Build Number: 10015
+####System settings:
+Windows 10
+
+8245
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-28T14:25:37.781Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, canary 10015
+
+Jakob#6834 - Bug Bot on 2018-01-28T14:25:45.424Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 v1709 (Canary build 10018, v 0.0.201)
+
+TimThe#1118 - Bug Bot on 2018-01-28T14:25:50.421Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10015
+
+webhp#1337 - Bug Bot on 2018-01-28T14:25:55.422Z
+
+
+### Can reproduce.
+Windows 10 x64 1709 / Discord Canary 10018
+
+casungo#2990 - Bug Bot on 2018-01-30T22:04:34.689Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2018-02-06T20:36:22.434Z
+
+
+### This is too minor and isoteric to ever warrant putting effort into a fix. Won't Fix. - Jared on 2018-02-06T20:36:45.866Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:17:40.079Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:17:40.831Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,126 @@
+Non-game applications lag terribly when screenshared (https://trello.com/c/tTGuTtEH)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2019-07-05T00:36:44.395Z
+Latest Update: 2019-07-15T20:47:59.393Z
+
+Reported by ryan#0570
+
+####Steps to reproduce:
+- Join a DM call and start screen sharing an application other than a game (e.g. Discord or a browser tab) 
+- Move your mouse around the screen and observe the video preview
+
+####Expected result:
+The video preview should show with little to no delay from your actual screen
+####Actual result:
+The video preview is terribly delayed from your actual screen
+####Client settings:
+Discord Canary 40795 (0.0.246)
+####System settings:
+Windows 10 Pro x64 1809
+
+39120
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-05T00:36:44.395Z
+
+
+### Can reproduce.
+Discord Canary 0.0.246, Build 40795, Windows 10 Home 64-bit (v1903)
+
+Ene#0808 - Bug Bot on 2019-07-05T00:36:51.862Z
+
+
+### Can reproduce.
+The video preview intially didn't lag but started lagging about ten seconds after screensharing was turned on - Windows 10 Home 64-bit, v1903 - Canary 40795
+
+Nicholas#4669 - Bug Bot on 2019-07-05T00:36:56.856Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10 Home & Student, Host 0.0.246, Canary Build 40795
+
+binchlord#0998 - Bug Bot on 2019-07-05T00:37:01.880Z
+
+
+### Verified on Canary 40795, Windows 10 Home 64-bit (v1903). - Ene on 2019-07-05T00:40:30.539Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ene on 2019-07-05T00:40:34.622Z
+
+
+### Can't reproduce.
+Arch Linux using Discord Canary Build Number 40795
+
+Adam Morris#6920 - Bug Bot on 2019-07-05T02:01:48.452Z
+
+
+### Can reproduce.
+CR on canary, Build Number: 40717, running Windows 10 x64. NOTE: This does not work with me being at 60fps, but due to that not being stated, I CR otherwise.
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-05T04:38:49.480Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | canary 40795
+
+charleskimbac#6492 - Bug Bot on 2019-07-05T05:59:09.750Z
+
+
+### Can't reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 40795
+
+AHkhan#0009 - Bug Bot on 2019-07-05T07:59:57.009Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.246 Build 40795 - This also happens in servers with the screenshare feature.
+
+Daffyduck#5364 - Bug Bot on 2019-07-05T08:51:23.622Z
+
+
+### Can reproduce.
+Canary 40795, Host 0.0.246, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-05T17:42:37.251Z
+
+
+### Can't reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40795
+
+Lily#2624 - Bug Bot on 2019-07-05T17:48:41.936Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 40795
+
+TheNamesTakenYT#0001 - Bug Bot on 2019-07-05T22:08:17.335Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40795
+
+Xylium#5800 - Bug Bot on 2019-07-06T14:57:30.365Z
+
+
+### Can't reproduce.
+Windows 10 1903 canary 40795
+
+GlenMerlin#2119 - Bug Bot on 2019-07-06T18:35:48.915Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 41186 (Host 0.0.246) - tested w/ Google Chrome 75.0.3770.100
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-15T20:47:59.514Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

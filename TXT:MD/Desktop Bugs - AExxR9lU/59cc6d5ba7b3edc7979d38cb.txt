@@ -1,0 +1,67 @@
+[Archived] When granting a permission you don't have, it will give you a message saying you can't deny the permission (https://trello.com/c/8X0WcGCs)
+
+None
+
+Created: 2017-09-28T03:32:43.779Z
+Latest Update: 2017-09-28T22:53:24.845Z
+
+Reported by advaith#9121
+
+####Steps to reproduce:
+- Pick a server which you are missing a permission, such as Send Messages 
+- Click Edit Channel (the gear) 
+- Go to the Permissions section 
+- For any role, click the check (attached) next to the permission you don't have.
+
+####Expected result:
+It gives you a message saying you can't grant a permission you don't have, or it actually grants the permission
+####Actual result:
+It gives the attached message, saying you can't deny the permission because you will lose it.
+####Client settings:
+Discord Canary 0.0.154 (Build 4923)
+####System settings:
+macOS High Sierra 10.13 (17A365) (iMac Retina 5K, 27-inch, Late 2017)
+
+4902
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-28T03:32:43.779Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59cc6d5ba7b3edc7979d38cb/dcc55d68674273414c58b6e283988a5e/Screen_Shot_2017-09-27_at_2.27.56_PM.png added by Bug Bot on 2017-09-28T03:32:46.311Z
+
+
+### advaith#9121 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59cc6d5ba7b3edc7979d38cb/a99337506fba609b2b77cc3f891aeca9/Screen_Shot_2017-09-27_at_2.14.34_PM.png added by Bug Bot on 2017-09-28T03:32:46.334Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary 0.0.163
+
+Rauf#3260 - Bug Bot on 2017-09-28T03:32:51.217Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Canary 0.0.163
+
+Elix 🍭#4604 - Bug Bot on 2017-09-28T03:32:56.245Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary 0.0.163
+
+JustCore#0973 - Bug Bot on 2017-09-28T03:33:01.296Z
+
+
+### Dupe of: https://trello.com/c/uqTV79qM/908-assigning-permission-overrides-to-another-user-fails-and-gives-the-you-cannot-deny-yourself-permissions-message - Clayton on 2017-09-28T22:53:20.659Z
+
+
+### Archived by Clayton on 2017-09-28T22:53:24.848Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,78 @@
+[Archived] Actions that have a second line in the audit log (giving roles, granting permissions) aren't lined up (https://trello.com/c/4hwT40RL)
+
+None
+
+Created: 2018-10-29T18:28:03.417Z
+Latest Update: 2019-01-31T20:09:48.484Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to a server where you can view the audit log and either manage channels or roles 
+- Add a role to a user, or edit channel overrides, anything that will show a subaction in the audit log 
+- Go into the audit log and expand that entry 
+- Observe the beginning of the action line, and the beginning of the action information line (what action was done, and the specific info for the action)
+
+####Expected result:
+Both lines start at the same spot like on desktop
+####Actual result:
+The second line is slightly indented more to the right than the first line
+####Client settings:
+TestFlight 2.4.0 (8667)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta 5
+
+22382
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-29T18:28:03.417Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5bd75133ccc5f03f1fe20686/05e36e247f5e1609eb4e91eb850b148f/nWsUv.png added by Bug Bot on 2018-10-29T18:28:06.233Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 (dev beta 5) - Testflight 2.4.0 (8667)
+
+Xylium#1480 - Bug Bot on 2018-10-29T18:28:10.730Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1 Dev Beta 5 - TestFlight 2.4.0 (8667)
+
+Alfie#1582 - Bug Bot on 2018-10-29T18:28:15.779Z
+
+
+### Can reproduce.
+Approval added to push it to Trello, as bug has been fixed
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-29T18:28:20.741Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12, Testflight 2.4.0 (8667)
+
+Pyros#2326 - Bug Bot on 2018-10-29T18:28:35.165Z
+
+
+### See dev reply: https://cdn.discordapp.com/attachments/420995378582913030/506534469138776064/image0.png
+
+MoonlightCapital#0554 - Bug Bot on 2018-10-29T18:30:30.217Z
+
+
+### Moved from New Issues to Audit Log Bugs by Victoria on 2018-11-01T03:14:16.349Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed Bugs by Jeff Cailteux on 2018-11-01T22:45:04.125Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:09:48.494Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

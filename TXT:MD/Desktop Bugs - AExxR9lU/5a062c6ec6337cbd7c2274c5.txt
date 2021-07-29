@@ -1,0 +1,80 @@
+[Archived] Tabbing to chat and typing after clicking Youtube embed volume causes video to bounce. [Requires Chromecast/something you're able to cast to] (https://trello.com/c/pNGcAFxD)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2017-11-10T22:47:10.454Z
+Latest Update: 2018-10-22T20:16:58.969Z
+
+Reported by QwakGoesDuck#9672
+
+####Steps to reproduce:
+- Open Discord web. 
+- Find a YouTube video embed. 
+- Start it. 
+- Click on the volume button. 
+- Hit tab 7 times so focus is now on text bar. 
+- Type stuff.
+
+####Expected result:
+You are able to type and the YouTube video plays fine.
+####Actual result:
+Every key you hit causes the YouTube video to bounce within the embed.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 7010, Version Hash: 0a77992d4461ac2bd5e9eb2ddc7147f082f3459c
+####System settings:
+Windows 10 Home x64 version 1703, Chrome Version 62.0.3202.89 (Official Build) (64-bit)
+
+6210
+
+---
+[Elegantt data. What's this?](http://bit.ly/elegantt-for-trello-whats-this)
+[](Elegantt_data:dont_delete{"ignored":false,"autoPlanned":false,"ownerId":false,"dependencies":[]})
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-10T22:47:10.454Z
+
+
+### QwakGoesDuck#9672 - https://www.youtube.com/watch?v=PjK7SJQ_hYY added by Bug Bot on 2017-11-10T22:47:12.901Z
+
+
+### QwakGoesDuck#9672 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a062c6ec6337cbd7c2274c5/7c32b1028e63619a1c3cf3aa2c9b4dba/gottahavethisinembed.jpg added by Bug Bot on 2017-11-10T22:47:13.657Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Chrome Version 62.0.3202.89 (Official Build) (64-bit)
+
+Blizzyrd#7909 - Bug Bot on 2017-11-10T22:47:17.861Z
+
+
+### Can reproduce.
+Google Chrome    61.0.3163.123 (Official Build) (64-bit) [Discord Webclient], Release Channel: stable, Build Number: 7068
+
+Senhara#5373 - Bug Bot on 2017-11-10T22:47:22.905Z
+
+
+### Can reproduce.
+CR (if by bounce you mean move up slightly), Windows 10 Pro x64 Build 1607, Chrome v62.0.3202.89 (Official Build) (64-bit), Discord Web Build 7127 stable
+
+Ali365Dash#6692 - Bug Bot on 2017-11-10T22:47:27.881Z
+
+
+### Verified.  - Clayton on 2017-11-15T23:05:22.496Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-15T23:05:26.306Z
+
+
+### Can still reproduce. I didn't need a chromecast to repro it though. - Jared on 2018-07-05T18:12:11.910Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:58.971Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

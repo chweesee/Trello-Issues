@@ -1,0 +1,75 @@
+[Archived] Setting your nick to you id mention makes Clyde show your old nick (https://trello.com/c/r54XG6VC)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-22T16:12:54.612Z
+Latest Update: 2018-07-05T22:48:04.671Z
+
+Reported by IPv4#6434
+
+####Steps to reproduce:
+- Give yourself any nickname on a server 
+- Use /nick <@URID> 
+- Observe the message Clyde sends
+
+####Expected result:
+Clyde's message should show your new username raw as the <@URID>
+####Actual result:
+Clyde shows your previous nickname as a mention.
+####Client settings:
+Canary 4743
+####System settings:
+W10x64
+
+4706
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-22T16:12:54.612Z
+
+
+### IPv4#6434 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59c53686d9ef2b72a6e17daf/a6577c785afd1e9fafad791bf7c71d07/45ced629b81785e8a269.png added by Bug Bot on 2017-09-22T16:12:57.645Z
+
+
+### Can reproduce.
+iMac (Retina 4K, 21.5-inch, Late 2015), OS X El Capitan 10.11.6 (15G1421), Canary 0.0.154
+
+Rauf#3260 - Bug Bot on 2017-09-22T16:13:02.313Z
+
+
+### Can reproduce.
+CR, w10 x64, canary 4663
+
+dsf190#5214 - Bug Bot on 2017-09-22T16:13:07.101Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163
+
+AviationMaster#4793 - Bug Bot on 2017-09-22T16:13:12.118Z
+
+
+### Can reproduce.
+MacBook Air (13-inch, Early 2015), Discord Canary 0.0.154
+
+Cheezybob99#9866 - Bug Bot on 2017-09-22T16:16:40.292Z
+
+
+### Verified.  - Clayton on 2017-09-27T22:32:04.644Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-27T22:32:10.935Z
+
+
+### Dupe of https://trello.com/c/YRPzT0Lv/746-nickname-self-to-clyde-user which is a Won't Fix - Jared on 2018-07-05T22:48:03.307Z
+
+
+### Archived by Jared on 2018-07-05T22:48:04.673Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

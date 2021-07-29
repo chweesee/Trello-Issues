@@ -1,0 +1,104 @@
+[Archived] (Small visual bug) The white scroll bar in the Members list constantly fades away and re-appears even when the user is not touching it whatsoever. This only appears to happen in larger servers, rather than small ones (https://trello.com/c/UphebOlL)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-08T16:17:07.178Z
+Latest Update: 2019-06-05T23:48:51.924Z
+
+Reported by GamesForDays#1985
+
+####Steps to reproduce:
+- Find a large server (This one will work fine) 
+- Swipe the right side of the screen to open the members 
+- Do not touch the screen 
+- Wait for a small while as timings seems to differ and observe the white scroll bar fade and reappear without doing anything at all
+
+####Expected result:
+Bar should show for a brief second and then simply fade and disappear until user begins to scroll.
+####Actual result:
+The bar fades away and then reappears without the user touching anything
+####Client settings:
+Discord Alpha 6.4.6
+####System settings:
+Motorola Moto G5, Android 7.0
+
+10459
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-08T16:17:07.178Z
+
+
+### Can reproduce.
+CR - OnePlus5T - Android Oreo 8.0.0 (Oxygen OS) - Discord Alpha 6.4.6 - Seems to happen at the same time that the online count number is updated, that would explain why it happens more often on servers with a bigger activity
+
+ahoZiorce#3115 - Bug Bot on 2018-04-08T16:17:14.634Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6 Android 7.0, Discord Alpha 6.4.6; The bar blinks
+
+Maraly#9842 - Bug Bot on 2018-04-08T16:17:19.600Z
+
+
+### Can reproduce.
+CR Samsung Galaxy A3-2016 Android 7.0, Discord Android Stable 6.4.3, The bar blinks every second or so
+
+Robin#0610 - Bug Bot on 2018-04-08T16:17:24.637Z
+
+
+### This bug is specific to Android 7.x and more.
+
+fujhofn. 🐛#0878 - Bug Bot on 2018-04-08T16:18:58.642Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 8.0.0
+
+spidget#0007 - Bug Bot on 2018-04-08T16:29:21.997Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 | Android 7.0 | | Discord Alpha 6.4.6
+
+Kero The Foxy Fox#1269 - Bug Bot on 2018-04-08T18:06:36.103Z
+
+
+### Extension of https://trello.com/c/QMb4wBSE/ probably
+
+B a ™ a n#7883 - Bug Bot on 2018-04-09T00:29:49.300Z
+
+
+### Can reproduce.
+Moto G 4, Android 7.1.1, Discord Alpha 6.4.6
+
+Xia#0001 - Bug Bot on 2018-04-09T12:01:26.706Z
+
+
+### Verified.  - Clayton on 2018-04-11T21:58:19.095Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-11T21:58:23.117Z
+
+
+### This ticket was checked during the Trello Cleanup Event and is no longer reproducible as of Android Alpha 7.0.5 on Moto G4 running Android 7.0 because the scrollbar in the member list no longer exists as AndyG has removed it.
+
+Because of this ticket being no longer reproduced, I'm moving it to Claimed Fixed. - Ghoul on 2018-07-06T19:22:35.527Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ghoul on 2018-07-06T19:22:43.646Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-13T06:07:50.372Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:48:51.935Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

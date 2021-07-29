@@ -1,0 +1,70 @@
+[Archived] when adding friends to group dm, long user name cause visual bug (dot circle) to be cut off by screen, happening to certain user name as well. (https://trello.com/c/a6dtwaxe)
+
+None
+
+Created: 2018-05-19T08:21:31.948Z
+Latest Update: 2018-10-05T00:01:47.036Z
+
+Reported by MeowthenA#9256
+
+####Steps to reproduce:
+- have a friend with long user name (feel free to ask me, I have two long names). 
+- go to the group dm page and try add your friend into the group dm. 
+- observe how the circle is missing/cut off. 
+- Note: confirmed by eMagic that it is a bug, and also it might appear differently on different ios devices.
+
+####Expected result:
+You should able to see the dot circle, long user name should shown as name and tags and ".... " in the end if it gets too long.
+####Actual result:
+dot circle gets cut off.
+####Client settings:
+TestFlight 2.3.2 (4528)
+####System settings:
+iPhone 5s ios 11.3.1
+
+13010
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-19T08:21:31.948Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5affde8bb1b7f7b9da406e0a/3fe7e647ec6b600dd01ec748e984c26b/oiBADIk.png added by Bug Bot on 2018-05-19T08:21:34.476Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5affde8bb1b7f7b9da406e0a/e98168dafb390e12c93a9acaab171bdc/jzWH6N7.png added by Bug Bot on 2018-05-19T08:21:34.682Z
+
+
+### Can reproduce.
+Discord TestFlight 2.3.2, Build 4528, iOS 11.2.6, iPhone 5s
+
+Ene#0808 - Bug Bot on 2018-05-19T08:21:39.433Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 8 +, running iOS 11.4 (PB6) - Discord TestFlight 2.3.2 (4528). I tried on both Standard and Zoomed sizes with the username being all caps. The one without the circle in my attachment is zoomed.
+
+Ghoul#0009 - Bug Bot on 2018-05-19T08:21:44.406Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 - TestFlight 2.3.2 (4528) - Only reproducible with iPhone devices when using all caps Latin characters like "W" (might also be reproducible with iPad when using such long Arabic characters)
+
+Pascal#0929 - Bug Bot on 2018-05-19T08:21:49.523Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Fanghao on 2018-05-21T18:16:00.684Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-05-24T00:51:19.270Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:47.038Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

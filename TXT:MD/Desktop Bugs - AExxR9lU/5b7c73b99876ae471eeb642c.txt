@@ -1,0 +1,67 @@
+[Archived] When Discord is set to appear in 'All Desktops' it cannot be selected with Mission Control (https://trello.com/c/eGiHf7PX)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-21T20:19:05.404Z
+Latest Update: 2018-10-22T20:24:40.493Z
+
+Reported by PerfectionismTech#6123
+
+####Steps to reproduce:
+- Have 2 Desktops open 
+- Right click Discord on the Dock and select 'All Desktops' 
+- Open a Discord window (and other windows) and attempt to select Discord's window in Mission Control
+
+####Expected result:
+The Discord window becomes active
+####Actual result:
+The Discord window remains in the background
+####Client settings:
+Latest release 0.0.251
+####System settings:
+macOS 10.13.6
+
+17865
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-21T20:19:05.404Z
+
+
+### ori#4696 - https://youtu.be/q1qWIKFqxG0 added by Bug Bot on 2018-08-21T20:19:08.004Z
+
+
+### Can reproduce.
+Can reproduce, even if only one desktop is open, having previously set Discord to appear in "All Desktops" - the last active window (excluding Discord itself) appears over the platform when selected in Mission Control. Canary 22210, MacOS 10.13.1, MacBook Air 13" (Late 2015)
+
+ori#4696 - Bug Bot on 2018-08-21T20:19:12.832Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Canary Build 22241
+
+Pascal#0929 - Bug Bot on 2018-08-21T20:19:17.818Z
+
+
+### Can reproduce.
+Can reproduce, MacBook Pro 13" 10.13.6, Canary 22283
+
+Alfie#1582 - Bug Bot on 2018-08-21T20:19:22.897Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-21T22:19:52.932Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-21T22:20:02.896Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:40.495Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

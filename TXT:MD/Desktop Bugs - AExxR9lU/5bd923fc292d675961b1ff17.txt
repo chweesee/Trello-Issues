@@ -1,0 +1,110 @@
+[Archived] Clicking mention button for invalid invites makes a draft in channels with no Send permissions (https://trello.com/c/QBiWhX1U)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-31T03:39:40.513Z
+Latest Update: 2019-12-30T13:00:15.318Z
+
+Reported by ash#0001
+
+####Steps to reproduce:
+- Enter a channel where you have no send/type permissions 
+- have someone send an invalid invite in that channel 
+- click "ask [user] for another invite" 
+- launch quickswitcher and observe drafts
+
+####Expected result:
+Nothing
+####Actual result:
+A draft of the mention is created, which the user cannot see or remove without using localstorage, but shows in quickswitcher drafts
+####Client settings:
+Canary 27140
+####System settings:
+macOS 10.14.1
+
+22453
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-31T03:39:40.513Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bd923fc292d675961b1ff17/6067a74af921d9438410a7438ad1f003/unknown.png added by Bug Bot on 2018-10-31T03:39:42.950Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64 (17134). Discord Canary 27140
+
+coolalmostchilly#6969 - Bug Bot on 2018-10-31T03:39:47.816Z
+
+
+### Can reproduce.
+CR. macOS Mojave [10.14] | Discord Canary 27227
+
+SaltyPotato#0006 - Bug Bot on 2018-10-31T03:39:52.854Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 27227 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-10-31T03:39:57.838Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 27227
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-31T12:24:13.567Z
+
+
+### Can reproduce.
+Windows 10 LTSB x64 1607 (14393.2214), Discord Canary 27227
+
+avror#0001 - Bug Bot on 2018-10-31T12:32:31.764Z
+
+
+### minor - Clayton on 2018-11-01T02:31:51.700Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-01T02:31:59.189Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:35.351Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 33683
+
+charleskimbac#6492 - Bug Bot on 2019-03-10T06:38:19.051Z
+
+
+### Unarchived by Bug Bot on 2019-03-10T07:00:06.797Z
+
+
+### Can reproduce.
+Windows 10 Home, Version 1803 (64 bit)
+
+manthatneedsrbx#7657 - Bug Bot on 2019-06-19T03:01:59.185Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:04:06.883Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 48706 host 0.0.258
+
+Jean20B#4668 - Bug Bot on 2019-11-06T18:38:16.659Z
+
+
+### Unarchived by Bug Bot on 2019-11-06T19:00:06.149Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:15.336Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

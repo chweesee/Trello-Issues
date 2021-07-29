@@ -1,0 +1,83 @@
+[Archived] "Missing Permissions" popup will reappear a few minutes after you receive the initial one from trying to send an image in a channel you don't have image perms for. (https://trello.com/c/Vzwnzxwz)
+
+None
+
+Created: 2019-11-07T19:34:04.299Z
+Latest Update: 2020-02-20T21:32:40.500Z
+
+Reported by Jessie#6666
+
+####Steps to reproduce:
+- Be in a server where your role or channel does not have image perms.  
+- Click on the "+" to try and attach an image. Send the image. 
+- The image will fail to send (as expected) and you will receive the "Missing Permissions" popup at the bottom of your screen. This is normal. 
+- Switch to any other application (but keep Discord running in the background, don't close it). Stay on that app, do your normal browsing for a few minutes. 
+- After a few minutes of normal app usage, tab back into Discord. The "Missing Permissions" popup may reappear again even if you don't try to upload any more images.
+
+####Expected result:
+No "Missing Permissions" popup should reappear after the initial one following your failed upload.
+####Actual result:
+You get the initial popup, which is correct, but switching apps and coming back to Discord later will cause the popup to reappear again even if you didn't try to upload another image.
+####Client settings:
+Discord Android 9.8.1 (981)
+####System settings:
+Huawei P30 Pro, Android 9.0, EMUI 9.1.0, Build Number 9.1.0.193 (C792E16R1P5)
+
+47239
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-07T19:34:04.299Z
+
+
+### Kratøs#0001 - https://youtu.be/SfSQ7oqO6eI added by Bug Bot on 2019-11-07T19:34:07.141Z
+
+
+### hopeless#1227 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5dc471ac31720b76d3db268b/9544f90f5ced02c4034833c2841feb86/qKju0Ao.png added by Bug Bot on 2019-11-07T19:34:07.668Z
+
+
+### Can reproduce.
+Motorola Moto G6 Play, Android 9, Discord Version 981
+
+mesub#0556 - Bug Bot on 2019-11-07T19:34:11.841Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord Version 9.8.0
+
+TheFutureKnight#7664 - Bug Bot on 2019-11-07T19:34:16.910Z
+
+
+### Can reproduce.
+Moto G7 Power - Android 9 - Discord 9.8.1
+
+Saluki#7350 - Bug Bot on 2019-11-07T19:34:21.862Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 4X, Android 7.0, Discord 9.8.1
+
+Glitch King#2011 - Bug Bot on 2019-11-07T22:30:59.387Z
+
+
+### Can reproduce.
+Vivo Z1Pro, Android 9, Discord 983
+
+TheRudeDude#6040 - Bug Bot on 2019-11-09T18:33:27.980Z
+
+
+### Can reproduce.
+Xiaomi Mi 9 T, Android 9.0, Discord Beta 9.8.1
+
+RoJea#0690 - Bug Bot on 2019-11-09T22:36:28.000Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:32:40.510Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

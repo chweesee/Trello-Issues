@@ -1,0 +1,124 @@
+Sliding the panels when tabs are enabled sometimes makes the panels get stuck until you swipe again (https://trello.com/c/KjOlo0G4)
+
+None
+
+Created: 2020-04-17T18:01:08.829Z
+Latest Update: 2020-04-28T09:51:42.101Z
+
+"Stuck" here means that the center panel ends up in a horizontally shifted state without snapping the center panel open or closed.
+
+When adding repro steps to this ticket, please comment with:
+1) Repro steps (e.g. the exact gestures used)
+2) A screen recording if you have one
+3) Android device model
+4) Android OS version
+5) Discord app version
+
+Card Log
+========
+### Added by Donald Chen on 2020-04-17T18:01:08.829Z
+
+
+### Can reproduce.
+CR, Moto G7, Android 9, Discord 18.0-Alpha7 (1098). Currently only have consistent repro on the left side over the channel list, having trouble with reproducing over the member list but will continue to attempt. Steps: 
+ - Swipe to open the sidepanel
+ - Quickly, before the panel has a chance to slide all the way over, slide it rapidly back
+Based on these steps, natural occurances are possibly caused by deciding to open the sidepanel but immediately changing your mind and trying to swipe back.
+Recording: https://cdn.discordapp.com/attachments/420995378582913030/700774681061359636/20200417_112506.mp4
+
+wakfi#6999 - Bug Bot on 2020-04-17T18:38:31.170Z
+
+
+### Can reproduce.
+Some info:
+I noticed that it's easier at least for me to reproduce this bug when starting the swipe from the right half of the screen to the left, and when the members list opens but not fully, swipe rapidly from the left half of the screen to the right, then I can reproduce this bug practically every time
+Recording:
+https://cdn.discordapp.com/attachments/420995378582913030/700782640797581372/Screen_Recording_20200417-205857.mp4
+Samsung Galaxy S9+, Android 10, Discord 18.0-alpha7
+
+Creedoo#3626 - Bug Bot on 2020-04-17T19:09:12.136Z
+
+
+### -a. Repro of Creedoo's approach, but with the directions reversed. I'm using two thumbs in this. https://cdn.discordapp.com/attachments/420995378582913030/700795747872014396/20200417_124706.mp4
+
+wakfi#6999 - Bug Bot on 2020-04-17T20:17:01.943Z
+
+
+### After playing with it a little bit I can approve my steps to reproduce:
+- Start swiping from the opposite half of the screen you want the chat to get stuck (so for example if you want to get it stuck at server drawer start swiping from right half of the screen to the left)
+- When the chat is sliding but doesn't hit the end quickly swipe from the opposite half of the chat (so in this case from the left half to the right)
+- If done correctly the chat should be stuck now
+Additional info:
+The delay between first swipe and second has to be very minimal, but not 0
+Also when the chat gets stuck you can swipe to the other drawer keeping it stuck by starting the swipe from the half it's stuck on (so if it's stuck on server drawer swipe from the left half of the chat to the left rapidly)
+I hope it's as informative as possible
+Samsung Galaxy S9+, Android 10, Discord 18.0-alpha7
+
+Creedoo#3626 - Bug Bot on 2020-04-17T20:29:02.870Z
+
+
+### Attaching also the video: https://cdn.discordapp.com/attachments/420995378582913030/700806517091205411/Screen_Recording_20200417-223359.mp4
+
+Creedoo#3626 - Bug Bot on 2020-04-17T20:35:47.650Z
+
+
+### Can reproduce.
+Moto G7, Android 9, Discord 18.0-Alpha7 (1098). When closing the left sidepanel, changing directjng mid swipe to swipe in a "C" shape gets the panel stuck at all velocities. Can start from the bottom or the top of the "C". Have not been able to repro anything individually on the right sideopanel, have only been able to get stuck on that side after it got stuck on the left first (I'm pretty sure). I suspect my previous repro's are rooted in this "C" motion. Recording:  https://cdn.discordapp.com/attachments/420995378582913030/700807774715773088/20200417_133350.mp4
+
+wakfi#6999 - Bug Bot on 2020-04-17T20:43:30.078Z
+
+
+### Can reproduce.
+Moto G7, Android 9, Discord 18.0-Alpha7 (1098). Got a slow recording of the repro. The same "C" pattern as previously reported, but large and slow. Still only appears to occur while closing the channel/server sidepanel. Towards the end of this recording I also realized that it could consistently be repro'd by swiping to close the sidepanel but directly reversing directions mid swipe without letting go, until you're about half way back along your path. It feels like the panel needs momentum when you let go, to be released as if thrown at minimum slightly, in order to get stuck. I always have to slightly accelerate right before releasing if I'm doing it slowly.
+Recording: https://cdn.discordapp.com/attachments/420995378582913030/700857862083051581/20200417_165347.mp4
+
+wakfi#6999 - Bug Bot on 2020-04-18T00:12:43.612Z
+
+
+### In order to keep it stuck but move it (such as to get to the other sidepanel and still be stuck), it needs to be a quick swipe and release, as if throwing the panel. Feels like momentum still.
+
+wakfi#6999 - Bug Bot on 2020-04-18T00:18:01.480Z
+
+
+### Can reproduce.
+Moto G4 Play, Android 7.1.1. When you slide in and out, but not all the way, the channel gets stuck.
+Recording: https://youtu.be/pMWX-FTHpGQ
+
+BOT#1280 - Bug Bot on 2020-04-19T15:33:24.514Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Donald Chen on 2020-04-20T17:43:31.606Z
+
+
+### Can't reproduce.
+CNLR, Moto G7, Android 9, Discord 18.0-Alpha12 (1104)
+
+wakfi#6999 - Bug Bot on 2020-04-20T19:50:01.387Z
+
+
+### Can't reproduce.
+[CNLR] Samsung Galaxy S9+, Android 10, Discord 18.0-alpha12
+
+Creedoo#3626 - Bug Bot on 2020-04-20T22:31:33.157Z
+
+
+### I believe https://trello.com/c/fvYbY7U9 is reporting the same issue and should be moved as well
+
+wakfi#6999 - Bug Bot on 2020-04-26T17:16:24.647Z
+
+
+### Can't reproduce.
+CNLR // Y9s, Android 10, Discord 19.5
+
+Zynb#2984 - Bug Bot on 2020-04-28T09:48:44.097Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Daffyduck on 2020-04-28T09:51:42.084Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

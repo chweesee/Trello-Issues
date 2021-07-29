@@ -1,0 +1,57 @@
+Streaming a game with a long name will cut off the Go Live Button in the Voice Widget (https://trello.com/c/r3vROnTi)
+
+None
+
+Created: 2019-07-11T12:50:08.088Z
+Latest Update: 2020-04-04T16:18:19.996Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Play a game with a Long name. (Call Of Duty 4: Modern Warfare, and Counter Strike: Global Offensive) 
+- Start streaming the game 
+- Notice the voice Widget in Overlay
+
+####Expected result:
+The game goes across multiple lines like client, or the game gets truncated
+####Actual result:
+The game pushes the buttons off the widget
+####Client settings:
+Canary 40949 (0.0.246)
+####System settings:
+Win10 64x (1903)
+
+39442
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-11T12:50:08.088Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5cbfb347e17452475d790070/5d27307ff6a43c38260cc3f3/f7f072ec7d03014e4369a25bcfb3aff5/sao85iP.png added by Bug Bot on 2019-07-11T12:50:10.830Z
+
+
+### Can reproduce.
+cr Windows 10 1903 canary 40981 (tested with systemshock: enhanced edition)
+
+GlenMerlin#2119 - Bug Bot on 2019-07-11T12:50:15.728Z
+
+
+### Can reproduce.
+Canary 40981, Host 0.0.246, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-11T12:50:20.740Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 40981 host 0.0.246
+
+Jean20B#4668 - Bug Bot on 2019-07-11T12:50:25.685Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

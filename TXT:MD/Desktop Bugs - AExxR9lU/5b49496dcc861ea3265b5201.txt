@@ -1,0 +1,77 @@
+[Archived] Mouse disappears in Minecraft when using the Overlay (tested on 1.12.2 without any mods) (https://trello.com/c/LFDTB7Te)
+
+None
+
+Created: 2018-07-14T00:53:01.821Z
+Latest Update: 2018-10-22T20:33:16.167Z
+
+Reported by huhen#0143
+
+####Steps to reproduce:
+- Make sure you are using the latest version of Canary which has the new Overlay 
+- Turn the Overlay on and start Minecraft 
+- In Minecraft press the keybind you set to open the overlay 
+- Move your mouse cursor 
+- The mouse should disappear
+
+####Expected result:
+The mouse should stay visible and you can navigate the overlay easily
+####Actual result:
+The mouse disappears once you move it but you can still navigate the overlay
+####Client settings:
+Release Channel: canary, Build Number: 18749
+####System settings:
+Win 10 Pro x64
+
+15397
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-14T00:53:01.821Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 18749
+
+Xylium#1480 - Bug Bot on 2018-07-14T00:53:09.153Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 18749
+
+mrkirby153#7840 - Bug Bot on 2018-07-14T00:53:14.214Z
+
+
+### Can reproduce.
+This seems to be because of Minecraft hiding the pointer when playing. Discord Canary 18805, Windows 10 Home x64 Version 1803
+
+CominAtYou#2626 - Bug Bot on 2018-07-14T00:53:19.160Z
+
+
+### Moved from User Reported Bugs to Overlay Redesign Bugs by Clayton on 2018-07-14T00:57:53.028Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary 18749
+
+ThorWolf#6841 - Bug Bot on 2018-07-14T13:16:29.030Z
+
+
+### ack, but not sure what we can do about this  - Christina Zou on 2018-08-03T23:08:58.956Z
+
+
+### Can no longer reproduce. Marking as Verified Fixed - Jared on 2018-08-20T23:05:02.395Z
+
+
+### Moved from Overlay Redesign Bugs to Verified Fixed by Jared on 2018-08-20T23:05:08.245Z
+
+
+### Archived by Clayton on 2018-10-22T20:33:16.169Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

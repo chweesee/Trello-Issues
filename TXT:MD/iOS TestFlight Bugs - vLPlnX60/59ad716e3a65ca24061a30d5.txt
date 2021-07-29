@@ -1,0 +1,72 @@
+[Archived] Editing notification settings for a channel and then putting it back to the default will give you an option to reset notification settings (https://trello.com/c/xp0C6PSw)
+
+None
+
+Created: 2017-09-04T15:29:50.464Z
+Latest Update: 2017-10-19T20:22:18.408Z
+
+Reported by Matthew#2334
+
+####Steps to reproduce:
+- Click the channel name 
+- Click notification settings  
+- Notice how reset notification settings button is not clickable. Change it to all messages instead of @mentions 
+- Change it back to @mentions
+
+####Expected result:
+Reset notification settings button should not be clickable since these are your default settings
+####Actual result:
+The button is clickable, but when you click it nothing happens because this is your original settings
+####Client settings:
+TestFlight 1.9.1
+####System settings:
+c: iOS 10.3.3 iPhone 5S
+
+3918
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-04T15:29:50.464Z
+
+
+### Can reproduce.
+IPad Air 2 IOS 10.3.3 test flight 1.9.1 an iPhone 4s iOS 9.3.5 stable version 1.9.0
+
+LegendofOwls#3853 - Bug Bot on 2017-09-04T15:29:58.119Z
+
+
+### Can reproduce.
+iPad 5th Gen - iOS 10.3.2 -Discord TestFlight 1.9.1
+
+DeadlyFirex#8316 - Bug Bot on 2017-09-04T15:30:03.185Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 10.3.3, TestFlight 1.9.1
+
+Pascal#0929 - Bug Bot on 2017-09-04T15:30:08.177Z
+
+
+### if you turn on 'mute channel', it won't give you an option to reset settings. the same goes for if you change mentions to all messages **and** turn on mute channel, when you click reset settings, it will only reset mentions and not mute channel toggle.
+
+Matthew#2334 - Bug Bot on 2017-09-04T16:09:48.125Z
+
+
+### I think in this instance it just means "discord all changes", which it technically does. Even if this is technically a bug, it's so minor it's not worth fixing. - Jared on 2017-09-18T22:42:28.040Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-09-18T22:42:31.591Z
+
+
+### Archiving as bug has been listed as won't fix for more than a month. - Mike Nisbet on 2017-10-19T20:22:17.375Z
+
+
+### Archived by Mike Nisbet on 2017-10-19T20:22:18.411Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

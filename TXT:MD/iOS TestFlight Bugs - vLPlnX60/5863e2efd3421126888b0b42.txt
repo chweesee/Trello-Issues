@@ -1,0 +1,100 @@
+[Archived] Position of text with codeblock messes up (https://trello.com/c/g2WrzvPD)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2016-12-28T16:06:07.215Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by HyperCoder#2975
+
+####Steps to reproduce: 
+- Send a message in any channel with a "title", two new lines, a "second title", one new line, and then a codeblock. In code terms, **Title\n\nSecond Title\n\`\`\`Codeblock\`\`\`** 
+
+####Expected result:
+ "Title" is at the top of the message. 
+####Actual result:
+ "Title" gets moved to below the codeblock on iPhone 5s.
+
+Card Log
+========
+### Added by Jared on 2016-12-28T16:06:07.215Z
+
+
+### Can reproduce.
+iPad Air 2 & iPhone SE, latest TF
+
+/dev/null#0012 - Jared on 2016-12-28T16:06:07.887Z
+
+
+### Can reproduce.
+iPad Air 2 iOS 10.0.2 Discord 1.8.1
+
+Skeletonarcher12#3697 - Jared on 2016-12-28T16:06:07.976Z
+
+
+### bcb3f2 - undefined added by Jared on 2016-12-28T16:06:23.181Z
+
+
+### Can reproduce.
+latest TF iPad Air 2 & iPhone SE
+
+/dev/null#0012 - Jared on 2016-12-28T16:06:31.747Z
+
+
+### that's a weird bug. Verified. - Jared on 2017-02-06T22:58:49.380Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-06T22:58:52.317Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.0.1, discord 1.9.2; it seems to be that until a lone codeblock is encountered (a block preceded by an empty line) all code blocks and their immediately preceding paragraphs end up at the top of the message in the correct order relative to each other.
+
+thecodewarrior#6629 - Bug Bot on 2017-10-09T00:54:39.083Z
+
+
+### I can no longer reproduce, “Title” is at the top of the message.
+
+Discord 2.2.1 (2202), iOS 11.2.2, iPhone 8 Plus - Alexandru Todea on 2018-01-19T06:57:12.887Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-01-19T06:57:35.578Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-26T21:19:04.290Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T22:46:27.177Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:32:09.451Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:55:40.977Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:55:44.127Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:01:14.215Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:01:14.605Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

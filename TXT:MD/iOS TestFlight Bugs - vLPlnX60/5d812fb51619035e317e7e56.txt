@@ -1,0 +1,149 @@
+[iOS 13 Specific] Keyboard flickers and flashes grey quickly for a few split seconds upon opening the suggestion (mention / emoji) (https://trello.com/c/znTqaQ3A)
+
+None
+
+Created: 2019-09-17T19:10:45.149Z
+Latest Update: 2019-11-11T17:28:33.870Z
+
+Reported by Ghoul#3232
+
+####Steps to reproduce:
+- Open the emoji suggestion by pressing the : button, or the mention suggestion by pressing @ 
+- Type until you no longer see any form of suggestions. Typing in the gribbish / nonsense should suffice 
+- Backspace until the suggestion menu pops up. 
+- Observe your keyboard.
+
+####Expected result:
+Your keyboard should remain the same, with no additional animations.
+####Actual result:
+Your keyboard flashes grey for a split second before returning back to normal. This will take a few tries, but it is noticeable enough.
+####Client settings:
+iOS TestFlight 3.1.3 (17314)
+####System settings:
+iPhone XS Max running iOS 13.1 Dev Beta
+
+44327
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-17T19:10:45.149Z
+
+
+### Can reproduce.
+iPhone X, iOS 13.1 (dev beta 3) - TestFlight 3.1.3 (17314)
+
+Xylium#5800 - Bug Bot on 2019-09-17T19:10:52.800Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 3), TestFlight 3.1.3 (17314)
+
+.Gloria.#9606 - Bug Bot on 2019-09-17T19:10:57.733Z
+
+
+### Can reproduce.
+iPhone X iOS 12.2 | TF 3.1.2
+
+☨ WishFuly#0666 - Bug Bot on 2019-09-17T19:11:02.846Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 13.1 (Developer Beta 3), TestFlight 3.1.3 (17341)
+
+username#6666 - Bug Bot on 2019-09-18T00:41:06.104Z
+
+
+### Can reproduce.
+iPhone XS - iOS 13.1 [Dev Beta 3] - TestFlight 3.1.3 (17314)
+
+Error 404#4040 - Bug Bot on 2019-09-18T06:47:51.503Z
+
+
+### Can reproduce.
+iPhone XS (iOS 13.1 PB 3), TestFlight Build 3.1.3 (17341)
+
+kiosion#0001 - Bug Bot on 2019-09-18T14:38:04.416Z
+
+
+### Can reproduce.
+iPhone 7 Plus - iOS 13.0 - TestFlight 3.1.3 (17389)
+
+Ayu#0001 - Bug Bot on 2019-09-19T18:59:11.178Z
+
+
+### Moved from New Issues to iOS 13 by Pascal on 2019-09-19T19:24:52.665Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.0 TestFlight 3.1.3 (17389)
+
+binchlord#0998 - Bug Bot on 2019-09-20T05:09:36.719Z
+
+
+### Can reproduce.
+iPhone 8 iOS 13.0; Discord TestFlight: 3.1.3 (17389)
+
+Boss#0006 - Bug Bot on 2019-09-21T00:38:23.959Z
+
+
+### Can reproduce.
+<iPhone 11 Pro, iOS 13.0, 3.1.2 public release>
+
+seventeenn#1717 - Bug Bot on 2019-09-21T00:54:01.395Z
+
+
+### Can reproduce.
+iPhone SE iOS 13.0, Discord TestFlight 3.1.3 (17389)
+
+Rex#9142 - Bug Bot on 2019-09-21T16:36:23.085Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13; TestFlight 3.1.3 (17389)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-25T05:01:14.412Z
+
+
+### Moved from iOS 13 to Text Chat by Fanghao on 2019-09-25T06:43:21.311Z
+
+
+### if you are not scrolled all the way down, the keyboard will just flicker, allowing you to see the content in the channel behind it
+
+binchlord#0998 - Bug Bot on 2019-09-26T00:03:00.970Z
+
+
+### Can reproduce.
+iPad Mini 4, iOS 13.1, Stable 3.1.3
+
+aenami#0001 - Bug Bot on 2019-09-26T11:12:11.508Z
+
+
+### Can reproduce.
+CR, iPhone 7 Plus iOS 13.1, TestFlight 3.1.3 (17389)
+
+Action Potential#6862 - Bug Bot on 2019-09-27T07:02:09.099Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.1.1, TestFlight 3.1.3 (17389)
+
+tristanfarkas#0001 - Bug Bot on 2019-09-29T08:02:03.770Z
+
+
+### Can reproduce.
+TestFlight 3.1.4 (17524), iPhone XR, iOS 13.1.2
+
+SplashyFlame#0067 - Bug Bot on 2019-10-01T13:20:30.387Z
+
+
+### this can also be triggered by hitting the send button
+
+binchlord#0998 - Bug Bot on 2019-11-11T17:28:33.888Z
+
+List
+====
+Text Chat
+
+Members
+=======
+None

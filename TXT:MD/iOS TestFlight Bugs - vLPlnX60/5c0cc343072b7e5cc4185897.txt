@@ -1,0 +1,109 @@
+[Archived] In-app notifications don’t ellipse if there’s a linebreak at the end of the third row (https://trello.com/c/5tN39gJ2)
+
+P3 - Will be fixed eventually
+
+Created: 2018-12-09T07:24:51.180Z
+Latest Update: 2019-10-05T17:13:44.283Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Have a person send you a DM where the third line ends in a line break 
+- Example: “Not if you tell your boss ‘no u’ Then they’re fired, and you take their job Not if you tell your boss ‘no u’ Then they’re fired, and you take their job” with linebreaks before each “Then” 
+- Observe if the in-app notification ellipses
+-  Have the same person DM you that message, but change the line breaks to spaces 
+- Observe the in-app notification again for any ellipses
+
+####Expected result:
+In-app notification ellipses when the text extends past a third line
+####Actual result:
+In-app notification doesn’t ellipse if the last character in the third line is a line break
+####Client settings:
+TestFlight 2.4.0 (9648)
+####System settings:
+iPhone 6s iOS 12.1.1 Dev Beta 3
+
+24014
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-09T07:24:51.180Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c0cc343072b7e5cc4185897/c50f6833dd3500ad853424453673140e/44aeb1.png added by Bug Bot on 2018-12-09T07:24:53.828Z
+
+
+### Rashaun#8467 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c0cc343072b7e5cc4185897/5aa3ce379af377cfc000c5919dba9b60/64ae8c.png added by Bug Bot on 2018-12-09T07:24:53.829Z
+
+
+### Can reproduce.
+iOS 12.1.1, iPhone 7, TF 9714
+
+MattBSG#8888 - Bug Bot on 2018-12-09T07:24:58.673Z
+
+
+### Can reproduce.
+Can reproduce iPad mini 2/iOS 12/TestFlight (9714)
+
+LProgead#2844 - Bug Bot on 2018-12-09T07:25:03.671Z
+
+
+### Can reproduce.
+CR; iPhone 6, iOS 12.1 - TestFlight 2.4.0 (9714)
+
+DoNotSpamPls#8787 - Bug Bot on 2018-12-09T07:25:08.702Z
+
+
+### Can reproduce.
+Can reproduce. I had to edit the text so it fit to my screen though. - iPhone 5s, iOS 12.1, TestFlight (9714)
+
+Solo#0007 - Bug Bot on 2018-12-09T14:45:13.747Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.1 Beta (16C5050a) - TestFlight 2.4.0 (9714)
+
+Isabel#0002 - Bug Bot on 2018-12-09T18:31:45.234Z
+
+
+### Moved from New Issues to In-App Notifications by Jonathan Wu on 2018-12-11T02:48:20.879Z
+
+
+### Can't reproduce.
+Can Reproduce, iPad air 2, Discord TestFlight 10225
+
+1Storm#0001 - Bug Bot on 2018-12-27T04:19:21.590Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.1 (14524) with iPad Pro 11" running iOS 12.2. There are no longer ellipses shown at all for in app notifications.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-01T19:49:15.787Z
+
+
+### Moved from In-App Notifications to Claimed Fixed Bugs by Pascal on 2019-05-01T19:49:22.506Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14524)
+
+Daffyduck#5364 - Bug Bot on 2019-05-01T20:07:46.830Z
+
+
+### Can't reproduce.
+CNR, iPhone 7 Plus, IOS 12.2, TF 3.0.1 (14524)
+
+Action Potential#2494 - Bug Bot on 2019-05-01T21:49:12.700Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-01T21:49:12.945Z
+
+
+### Archived by Bug Bot on 2019-05-31T22:00:21.844Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

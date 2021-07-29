@@ -1,0 +1,104 @@
+[Archived] Edit menu closes if you open it after you finished editing a message and things you changed weren't applied yet (https://trello.com/c/KEf234OS)
+
+None
+
+Created: 2018-06-04T21:41:16.927Z
+Latest Update: 2018-07-06T17:51:27.350Z
+
+Reported by Wolterhon#3938
+
+####Steps to reproduce:
+- Write a message 
+- Start editing it 
+- Edit it 
+- Press Enter 
+- Open the edit menu fast before it becomes edited (press ↑)
+
+####Expected result:
+Edit menu should open normally
+####Actual result:
+Edit menu opens and then closes after the changes you made before apply
+####Client settings:
+Canary 16445
+####System settings:
+Windows 7 SP 1
+
+13771
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-04T21:41:16.927Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home x64 1803 w/ Discord Canary 16445
+
+Smanbg#9524 - Bug Bot on 2018-06-04T21:41:24.465Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Discord Canary, Build 16445
+
+Realex78#2193 - Bug Bot on 2018-06-04T21:41:29.507Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 x64 Canary 16445
+
+Brish#3095 - Bug Bot on 2018-06-04T21:41:34.459Z
+
+
+### Can reproduce.
+macOS 10.12.6, Canary 16445
+
+IcyPebbles!#5833 - Bug Bot on 2018-06-04T23:50:13.690Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (Version 1803, OS Build 17134.81); Discord Canary Build 16445
+
+Anthony#3912 - Bug Bot on 2018-06-05T04:46:56.266Z
+
+
+### Can reproduce.
+Canary 16445, w
+
+Wolterhon#3938 - Bug Bot on 2018-06-05T10:59:18.951Z
+
+
+### Can reproduce.
+Canary 16445 Windows 7 SP 1
+
+Wolterhon#3938 - Bug Bot on 2018-06-05T10:59:36.013Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 16445
+
+ExtraCrafTX#5775 - Bug Bot on 2018-06-05T15:01:06.681Z
+
+
+### Not a bug, it's an unbelievably minor race condition - Jared on 2018-06-06T16:30:07.603Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-06-06T16:30:14.516Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803, Discord Application
+
+Thundy#2018 - Bug Bot on 2018-06-07T06:33:24.891Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:51:25.955Z
+
+
+### Archived by Jared on 2018-07-06T17:51:27.352Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,84 @@
+[Archived] No error message shown when trying to create channel over the channel limit in a category, it just silently fails (https://trello.com/c/cwcxYP39)
+
+None
+
+Created: 2018-05-25T16:14:59.541Z
+Latest Update: 2018-05-30T00:35:41.779Z
+
+Reported by Rage#1337
+
+####Steps to reproduce:
+- Go to a server 
+- Create the maximum amount of channels in a category 
+- Try to create over the limit 
+- Observe
+
+####Expected result:
+It is supposed to display an error message
+####Actual result:
+It silently fails
+####Client settings:
+Discord Canary (Build 16104)
+####System settings:
+Macbook Air (Early 2015), macOS Sierra 10.12.6
+
+13363
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-25T16:14:59.541Z
+
+
+### Can reproduce.
+Can reproduce. It does not display an error message. Channel creation screen gets put, but channel does not get created. Windows 10 Pro, x64 (v1607) - Discord Stable 16077
+
+Hole#0001 - Bug Bot on 2018-05-25T16:15:06.908Z
+
+
+### Can reproduce.
+CR, no error, popup stays; Canary 16077, macOS 13.10.3, rMBP 2015
+
+ash#0001 - Bug Bot on 2018-05-25T16:15:11.894Z
+
+
+### Can reproduce.
+Able to Reproduce; Windows 10 Pro x64; Build 1803; Discord Canary; Build 16104. The channel menu just stays there.
+
+Costpap#2158 - Bug Bot on 2018-05-25T16:15:16.905Z
+
+
+### Can reproduce.
+Windows 10 Pro (1803), Canary 16078
+
+Nevexo#8002 - Bug Bot on 2018-05-25T16:16:23.196Z
+
+
+### Can reproduce.
+Windows 10 Pro (1803), Discord Canary Build 16104
+
+Nevexo#8002 - Bug Bot on 2018-05-25T16:17:48.991Z
+
+
+### Can reproduce.
+Windows 7 SP1, Canary 16104
+
+Wolterhon#3938 - Bug Bot on 2018-05-25T17:18:59.733Z
+
+
+### Duplicate/Extension of https://trello.com/c/ijOKOVAV
+
+Ene#0808 - Bug Bot on 2018-05-26T20:29:24.461Z
+
+
+### Dupe below.  - Clayton on 2018-05-30T00:35:40.649Z
+
+
+### Archived by Clayton on 2018-05-30T00:35:41.783Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

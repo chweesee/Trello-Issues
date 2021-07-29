@@ -1,0 +1,133 @@
+[Archived] After opening and closing the Mentions modal for the first time, it appears above the button (https://trello.com/c/c5QpAnxC)
+
+Client side,
+Modals,
+P2: Fix can wait a while,
+High
+
+Created: 2018-02-28T09:49:36.148Z
+Latest Update: 2018-07-06T18:17:51.587Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Open the Mentions modal 
+- Close & re-open it
+
+####Expected result:
+Mentions modal drops-down from the button as normally
+####Actual result:
+Mentions modal appears above the button inside the title bar
+####Client settings:
+Discord Canary 0.0.203, Build 11323
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+9170
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-28T09:49:36.148Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (16299), Canary 0.0.203 (11323)
+
+mouse#0091 - Bug Bot on 2018-02-28T09:49:43.418Z
+
+
+### Can reproduce.
+Discord Canary 0.0.203 (11323) on Windows 10 Pro 64-bit (1709), pins modal does the same
+
+Tarek#1337 - Bug Bot on 2018-02-28T09:49:48.427Z
+
+
+### Can reproduce.
+CR with pins and mentions dropdowns Windows 10 1709 x64, Canary build 11323
+
+AEnterprise#4693 - Bug Bot on 2018-02-28T09:49:53.426Z
+
+
+### Can reproduce.
+Windows 10 (v1709, c16299.248) & Canary 0.0.203 (11323)
+
+Lemon#6947 - Bug Bot on 2018-02-28T11:25:39.615Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary Build 11323
+
+RME#3050 - Bug Bot on 2018-02-28T11:30:32.940Z
+
+
+### Can reproduce.
+Both pins and mentions modal are affected. Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.125), Canary 0.0.203 (Build 11323)
+
+SuperSajuuk#0001 - Bug Bot on 2018-02-28T12:47:35.468Z
+
+
+### Okey, after a further analyze. Seems like it's **only** affecting the downloaded version of Discord PTB and Canary on Windows because of the Windows toolbar. 
+
+Only workaround is to use Discord on the browser or use stable, It seems to happen when there is a scrollbar. And it seems to be stuck on the toolbar, since making the window smaller makes the modal scroll as well. - Tarek on 2018-02-28T17:07:31.259Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (1709), Canary Build 11323
+
+Lewis#0334 - Bug Bot on 2018-02-28T17:51:49.564Z
+
+
+### Verified. - Jared on 2018-02-28T18:27:48.881Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-28T18:28:12.328Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (Version 1709), Discord Canary Build 11323
+
+ululu#6460 - Bug Bot on 2018-02-28T22:32:42.520Z
+
+
+### Can reproduce.
+Windows 7 Ultimate (x64), Discord Stable Build 11332
+
+Etanarvazac#3959 - Bug Bot on 2018-02-28T22:40:03.627Z
+
+
+### Can reproduce.
+Win10 Home 64-bit, Canary 11409
+
+Ninjadude501#4710 - Bug Bot on 2018-03-01T03:17:17.980Z
+
+
+### Can reproduce.
+Windows 10 Home, Discord Stable, Build Number: 11332
+
+WarGamer#0302 - Bug Bot on 2018-03-01T08:00:15.354Z
+
+
+### Cannot reproduce anymore, Discord Canary 11430. Moving to claimed fixed. - Tarek on 2018-03-01T08:08:03.151Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-03-01T08:08:08.342Z
+
+
+### Can't reproduce.
+Windows 10 Home x64, Discord Canary Build nº 11430, Version Hash 1b951ef9aa3e9933d540bcf2fef73501b71f113e (maybe fixed by now?)
+
+PillGP#2767 - Bug Bot on 2018-03-03T00:16:38.490Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:17:50.069Z
+
+
+### Archived by Jared on 2018-07-06T18:17:51.591Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

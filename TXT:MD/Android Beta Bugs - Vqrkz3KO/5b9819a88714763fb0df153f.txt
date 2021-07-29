@@ -1,0 +1,96 @@
+[Archived] Deleting message which one is shared by link, clicking link causes "You are viewing older messages" (https://trello.com/c/ekvIV8us)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-11T19:38:16.999Z
+Latest Update: 2019-06-10T20:44:04.336Z
+
+Reported by Console.WriteLine{I am Peewd};#9543
+
+####Steps to reproduce:
+- Send a message to someone on DM 
+- Hold the message and select share button 
+- Share it same with the person you wrote for 
+- Delete your message 
+- Click the link and you will see "You are viewing older messages" for 5 secs.
+
+####Expected result:
+That "You are viewing older messages warning should not be"
+####Actual result:
+The warning is not relevance with the thing
+####Client settings:
+7.4.8
+####System settings:
+Samsung Galaxy S7, Android 8.0.0
+
+19467
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-11T19:38:16.999Z
+
+
+### Can reproduce.
+Huawei P8 lite (ALE-L21), Android 6.0.0, Discord Alpha @ 748 The "viewing older messages" stays indefinitely, and when you tap on it, Discord freaks out and takes you a bit up, to where the message supposed to be
+
+enkiel#8029 - Bug Bot on 2018-09-11T19:38:24.316Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 8.0.0, Discord Alpha 748 - "Viewing older messages" button appears for about a second, along with loading at the bottom of the screen, before returning to normal. Clicking on the button also brings it back to normal, but it highlights the most recent message.
+
+Dyyrlysh#2018 - Bug Bot on 2018-09-11T19:38:29.327Z
+
+
+### Can reproduce.
+OnePlus 3T, Android 8, Discord 7.4.8 - View Older is constantly there instead of 5 seconds (until you click)
+
+Alipoodle#5025 - Bug Bot on 2018-09-11T19:38:34.313Z
+
+
+### verified, android 7.0, alpha 7.4.8, samsung s6 edge - Clayton on 2018-09-11T19:41:33.123Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-11T19:41:40.183Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.4.8
+
+Frances Picard#6209 - Bug Bot on 2018-09-12T10:03:05.574Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.4.8
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-12T21:39:16.135Z
+
+
+### Archived by Clayton on 2018-10-12T22:00:02.471Z
+
+
+### Can reproduce.
+Lenovo vibe K5+, 5.1.1 | Discord Alpha 839
+
+The Lunala#7777 - Bug Bot on 2019-02-04T09:59:21.754Z
+
+
+### Unarchived by Bug Bot on 2019-02-04T10:00:05.186Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 855
+
+The Lunala#6877 - Bug Bot on 2019-03-03T10:07:47.094Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:04.349Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

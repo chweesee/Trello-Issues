@@ -1,0 +1,120 @@
+[Archived] Pressing the escape key when scrolled up can sometimes make the chat scroll twice (https://trello.com/c/7fH9CkYe)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-14T17:38:17.877Z
+Latest Update: 2018-07-06T18:15:41.709Z
+
+Reported by NdT3#0717
+
+####Steps to reproduce:
+- Go to a channel that gets a lot of messages 
+- Scroll up until you get "You're viewing old messages" above the chat box 
+- Go to another server 
+- Wait for messages to come in on the channel you scrolled up in 
+- Go back to that server 
+- Press the escape key
+
+####Expected result:
+Should scroll normally
+####Actual result:
+The chat sometimes scrolls twice
+####Client settings:
+Discord Canary 0.0.163
+####System settings:
+Windows 10
+
+4284
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-14T17:38:17.877Z
+
+
+### NdT3#0717 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59babe897ebd65bce31745f0/e61575b4dc749ed7d5032a09ff0883f5/c5422c.gif added by Bug Bot on 2017-09-14T17:38:20.677Z
+
+
+### Can reproduce.
+Ubuntu 17.04, Canary 0.0.24
+
+Anorak#5830 - Bug Bot on 2017-09-14T17:38:25.254Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, x64-based processor, Discord Canary 0.0.163
+
+AviationMaster#4793 - Bug Bot on 2017-09-14T17:38:30.193Z
+
+
+### Can reproduce.
+Canary 0.0.163, windows 10 x64 version 1703
+
+Jakob#6834 - Bug Bot on 2017-09-14T17:38:35.202Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro Early 2015
+
+Heathcliff#9528 - Bug Bot on 2017-09-14T18:49:43.112Z
+
+
+### Can't reproduce.
+Canary 0.0.163 (4175), Windows 7 (x64) Familial Premium
+
+RisedSky#1250 - Bug Bot on 2017-09-14T20:06:12.863Z
+
+
+### Can't reproduce.
+Windows 10 x64 1703, Canary build 4284
+
+Dunciboy#2559 - Bug Bot on 2017-09-14T21:21:10.660Z
+
+
+### Can't reproduce.
+Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-15T02:54:46.548Z
+
+
+### Can't reproduce.
+CNR // Windows 10 Home (Creator's Update), Canary v0.0.163 build 4310 - this bug might have been fixed
+
+P4risAndStuff#7243 - Bug Bot on 2017-09-15T11:09:44.749Z
+
+
+### Can't reproduce.
+Windows 10 pro x64 Version 1607, Canary 0.0.163
+
+Magikarp#8118 - Bug Bot on 2017-09-15T23:49:56.535Z
+
+
+### Verified.  - Clayton on 2017-09-19T22:23:39.633Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-19T22:23:45.711Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64, Discord Canary 10015
+
+Poker1st#0001 - Bug Bot on 2018-01-28T23:09:45.078Z
+
+
+### Cannot reproduce anymore, Discord Canary 0.0.201 (10018) on Windows 10 Pro 64-bit (1709) - Tarek on 2018-01-29T15:36:24.296Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-29T15:36:28.119Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:15:40.521Z
+
+
+### Archived by Jared on 2018-07-06T18:15:41.711Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

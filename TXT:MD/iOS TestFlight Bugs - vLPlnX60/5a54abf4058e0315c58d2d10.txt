@@ -1,0 +1,96 @@
+Overriding channel permissions (at least 2) in a very quick succession won’t make all of the overrides done to save. (https://trello.com/c/BPsNH2Bd)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-09T11:48:04.719Z
+Latest Update: 2019-10-28T18:31:27.458Z
+
+Reported by John#0812
+
+####Steps to reproduce:
+- Have permissions to edit/manage channels in a channel 
+- Open any role/member permission overrides in a channel 
+- Override at least two permissions in a very quick succession
+
+####Expected result:
+All permission overrides done should save.
+####Actual result:
+Not all of the override changes save.
+####Client settings:
+TestFlight 2080
+####System settings:
+iPhone 6, iOS 11.2.5 beta 3
+
+7711
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-09T11:48:04.719Z
+
+
+### Can reproduce.
+iPhone 6s+, iOS 11.2.5 PB3, TestFlight 2.2.0 (2080)
+
+Mustard#6390 - Bug Bot on 2018-01-09T11:48:12.204Z
+
+
+### Can reproduce.
+CR, Testflight 2.2.0 Build 2080, iPhone 5s iOS 9.3.3
+
+GoldenPheonix#6248 - Bug Bot on 2018-01-09T11:48:17.185Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.2.2 & iPad Air 2, iOS 11.2.5 Public Beta 3, TestFlight 2.2.0 (2080)
+
+Pascal#0929 - Bug Bot on 2018-01-09T11:48:22.179Z
+
+
+### Verified - Clayton on 2018-01-19T03:12:41.838Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-19T03:12:44.733Z
+
+
+### Verified fixed in build 2.2.6 - Jared on 2018-03-19T22:49:16.230Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-19T22:49:20.279Z
+
+
+### Can still reproduce it: iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054)
+Make sure to test it multiple times and with even more than 2 permission overrides at the same time.
+
+Pascal#0929 - Bug Bot on 2018-03-20T19:37:34.952Z
+
+
+### Moving this ticket to Reopened since I am able to reproduce this bug. You have to try it multiple times, and be fast about it as per Pascal's note. 
+
+I used iPhone 8 +, iOS 11.4.1 with Discord iOS Stable Version 2.3.3 - Ghoul on 2018-06-01T02:01:47.193Z
+
+
+### Moved from Verified Fixed to Reopened by Ghoul on 2018-06-01T02:01:57.054Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a54abf4058e0315c58d2d10/43334ff6ca39d5a71bd21572f60ca190/giphy.gif added by Bug Bot on 2018-07-16T06:24:11.796Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.2 - TestFlight 2.5.2 (13786)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-04-17T04:53:39.155Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.1.3; TestFlight 3.1.6 (17924)
+
+Jiralite#1207 - Bug Bot on 2019-10-28T18:31:27.472Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

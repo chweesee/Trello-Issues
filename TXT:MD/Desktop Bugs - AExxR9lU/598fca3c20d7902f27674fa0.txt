@@ -1,0 +1,74 @@
+[Archived] Bypass of "Careful - you have unsaved changes!" ( DOES NOT ACTUALLY CHANGE ANY SETTINGS ) (https://trello.com/c/fDy4fm0X)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-13T03:40:44.699Z
+Latest Update: 2017-09-29T10:52:28.756Z
+
+Reported by Rauf#3260
+
+####Steps to reproduce:
+- Go to the setting of a text channel 
+- change something 
+- allow "Careful 
+- you have unsaved changes!" message to come up 
+- press on the x ( shouldn't work as intended ) 
+- press esc instead
+
+####Expected result:
+The "Careful - you have unsaved changes!" should still show even if you try to leave using ESC
+####Actual result:
+The message doesn't appear and you leave the channel settings ( it doesn't apply the settings that you changed )
+####Client settings:
+Desktop Canary 0.0.163
+####System settings:
+Windows 10 Home x64 CU
+
+3160
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-13T03:40:44.699Z
+
+
+### Can reproduce.
+Can reproduce | windows 10 x64 1703 - canary 0.0.163
+
+Tobias#5233 - Bug Bot on 2017-08-13T03:40:52.484Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 1607, Discord Canary 0.0.163
+
+Chester#2084 - Bug Bot on 2017-08-13T03:40:57.499Z
+
+
+### Can reproduce.
+Can Reproduce (MacBook Air 10.12.6, Desktop Canary 0.0.154)
+
+ItsPugle#5963 - Bug Bot on 2017-08-13T03:41:02.504Z
+
+
+### could be intended
+
+Rauf#3260 - Bug Bot on 2017-08-14T01:31:40.031Z
+
+
+### Verified.  - Clayton on 2017-08-14T20:25:29.608Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-14T20:25:37.279Z
+
+
+### Archived by Generic on 2017-09-29T10:52:26.464Z
+
+
+### Dupe of https://trello.com/c/84mcHvqk/529-can-escape-with-the-esc-key-even-when-server-settings-are-not-saved-and-the-pop-up-is-supposed-to-block-you  - Generic on 2017-09-29T10:52:28.758Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

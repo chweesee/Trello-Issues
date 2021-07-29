@@ -1,0 +1,98 @@
+[Archived] 2FA Login: Tapping on 2 different keys doesn't move the cursor along (https://trello.com/c/rcy4flDe)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2019-02-22T12:40:34.567Z
+Latest Update: 2019-04-20T16:30:05.844Z
+
+Reported by Bsian#1803
+
+####Steps to reproduce:
+- Enable 2FA on your account 
+- If you are logged in, log out 
+- Log in, but don't proceed past the 2FA login 
+- In the numeric keyboard, type 2 keys at the same time (this might take multiple attempts)
+
+####Expected result:
+Cursor should move along to the next digit
+####Actual result:
+Cursor stays in the same digit
+####Client settings:
+Android Alpha 8.5.0
+####System settings:
+Mi A2, Android 9, Jan 2019 update
+
+29517
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-22T12:40:34.567Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 850
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-22T12:40:41.935Z
+
+
+### Can reproduce.
+cr, Pocophone F1, Android 9 with MIUI 10.2, Alpha 8.5.0
+
+dafaqed#1312 - Bug Bot on 2019-02-22T12:40:46.902Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 850
+
+The Lunala#6877 - Bug Bot on 2019-02-22T12:40:51.847Z
+
+
+### Can reproduce.
+Cr // Honor 7S, Android 8.1 // Android Alpha 850
+
+mesub#0556 - Bug Bot on 2019-02-22T15:23:14.485Z
+
+
+### Can reproduce.
+cr. alpha 8.5.0 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-02-22T15:41:05.331Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.5.0
+
+Lily#2624 - Bug Bot on 2019-02-22T22:06:24.835Z
+
+
+### Can reproduce.
+Discord Alpha 8.5.0, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2019-02-23T00:18:27.024Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-27T00:11:39.104Z
+
+
+### Moved from Verified Bugs to 2FA Bugs by Clayton on 2019-02-27T00:11:41.759Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8, Android 8.0 - Alpha 851. this happens in the 2FA activation process too (last step).
+
+J1#0088 - Bug Bot on 2019-02-27T13:09:18.415Z
+
+
+### Moved from 2FA Bugs to Verified Bugs by Jeff Cailteux on 2019-03-21T16:11:51.129Z
+
+
+### Archived by Bug Bot on 2019-04-20T16:30:05.854Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

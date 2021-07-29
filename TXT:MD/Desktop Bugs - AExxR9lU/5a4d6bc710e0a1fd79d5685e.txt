@@ -1,0 +1,130 @@
+[Archived] Cannot change profile picture on Canary (https://trello.com/c/gQpTwTxW)
+
+P1: Severe
+
+Created: 2018-01-03T23:48:23.606Z
+Latest Update: 2018-03-14T13:36:14.735Z
+
+Reported by Terminator966#1194
+
+####Steps to reproduce:
+
+- Open your settings 
+- Press edit on your profile 
+- upload new profile picture (tested only with gif as I'm ratelimited :^) ) 
+- Your current profile picture will stay and pressing save won't change anything.
+
+####Expected result:
+Your new profile picture is supposed to be displayed and saved after uploading / pressing save.
+####Actual result:
+Current profile picture stays the same after upload and pressing save.
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 9209, Version Hash: 3095493abadc19fab057b308eb78e3b2e8635a92
+####System settings:
+Windows 10 Pro
+
+7598
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-03T23:48:23.606Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.194, Build 9209, Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2018-01-03T23:48:31.169Z
+
+
+### Can reproduce.
+cr Win 7 SP1  [BUILD INFO] Release Channel: canary, Build Number: 9209, Version Hash: 3095493abadc19fab057b308eb78e3b2e8635a92 Electron weirdness...
+
+omega12#8421 - Bug Bot on 2018-01-03T23:48:36.231Z
+
+
+### Can reproduce.
+CR; Windows 7 ultimate x64; Desktop Canary 9209
+
+GospodinCrni#2565 - Bug Bot on 2018-01-03T23:48:41.174Z
+
+
+### Verified.  - Clayton on 2018-01-03T23:53:48.188Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-03T23:53:51.147Z
+
+
+### Can reproduce.
+Discord Canary 0.0.194, Build 9209, Windows 10 Pro 64-bit (1709)
+
+» a r i a#1593 - Bug Bot on 2018-01-04T00:47:48.382Z
+
+
+### This effects all image uploading minus the one for chats.
+
+Terminator966#1194 - Bug Bot on 2018-01-04T00:56:59.547Z
+
+
+### Can reproduce.
+CR, also affects profile pics and guild images, Discord Canary 0.0.194 and Windows 10 Fall Creator's Update.
+
+joaoh1#0567 - Bug Bot on 2018-01-04T00:57:36.813Z
+
+
+### Can reproduce.
+CR, also affects emojis and guild images, Discord Canary 0.0.194 and Windows 10 Fall Creator's Update.
+
+joaoh1#0567 - Bug Bot on 2018-01-04T00:58:46.982Z
+
+
+### This applies to all type of image uploading (besides in chat). Webhook profile pictures, emojis, servericon, etc etc. - Tarek on 2018-01-04T01:24:20.347Z
+
+
+### Fixed in Canary 9229. Moving to claimed fixed. - Tarek on 2018-01-04T03:34:50.307Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-04T03:34:55.573Z
+
+
+### Can't reproduce.
+Canary Build Number 9959, Google Chrome  63.0.3239.132, Windows 10 Home
+
+Xamtheking#0001 - Bug Bot on 2018-01-26T20:49:31.953Z
+
+
+### Can't reproduce.
+CNR, changes fine, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-26T21:44:55.106Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T23:54:10.296Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T00:02:03.363Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:21:58.087Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-27T07:22:06.313Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:36:13.437Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:36:14.739Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

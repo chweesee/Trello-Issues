@@ -1,0 +1,78 @@
+[Archived] When you are editing a message and get the "too long" error, pressing Enter attempts to resend the message instead of closing the warning (https://trello.com/c/sSOIi1VG)
+
+None
+
+Created: 2017-08-27T23:50:23.169Z
+Latest Update: 2017-08-29T19:48:53.773Z
+
+Reported by fratik#9865
+
+####Steps to reproduce:
+- Send a message 
+- Edit it so it's too long 
+- Get the too long error 
+- press enter multiple times
+
+####Expected result:
+when you get the error and press enter, it closes the message
+####Actual result:
+it tries to resend the message, so you get the error again
+####Client settings:
+Desktop Canary, 0.0.163
+####System settings:
+Windows 10 x64 Creators Update
+
+3741
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-27T23:50:23.169Z
+
+
+### Can reproduce.
+Discord Canary 0.0.154 (Build 3661), macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-08-27T23:50:31.086Z
+
+
+### Can reproduce.
+CR, Stable 0.0.298, windown 10 home x64
+
+ks0908#8526 - Bug Bot on 2017-08-27T23:50:36.072Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 0.0.163
+
+Speed#5138 - Bug Bot on 2017-08-27T23:50:41.078Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163, Windows 8.1 Build 9600 (32-bit)
+
+algmwc5#8993 - Bug Bot on 2017-08-28T06:25:16.209Z
+
+
+### Dupe of a claimed fixed bug: https://trello.com/c/ctcO6myc
+
+mouse91#3089 - Bug Bot on 2017-08-28T09:46:53.683Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary 0.0.163
+
+17#0899 - Bug Bot on 2017-08-28T15:13:23.343Z
+
+
+### Dupe below! - Clayton on 2017-08-29T19:48:24.922Z
+
+
+### Archived by Clayton on 2017-08-29T19:48:53.777Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

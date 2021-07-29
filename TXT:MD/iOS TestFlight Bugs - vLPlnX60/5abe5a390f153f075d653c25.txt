@@ -1,0 +1,64 @@
+[Archived] Call timer does not stop after the other person leaves the call. (https://trello.com/c/4C9QhNau)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-30T15:39:38.010Z
+Latest Update: 2018-06-01T00:18:02.151Z
+
+Reported by dal#0780
+
+####Steps to reproduce:
+- start a call with someone  
+- talk for however long 
+- have them leave/hang up
+
+####Expected result:
+Call time should not continue to go up, but instead show the normal blue “Redial” button in the middle
+####Actual result:
+Call timer continues to show how long the call has been going on for
+####Client settings:
+iOS TestFlight 2.2.7 (3519)
+####System settings:
+iPhone 6s, iOS 11.0.3
+
+10014
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-30T15:39:38.010Z
+
+
+### Can reproduce.
+iPhone 6 (A1586) with iOS 11.3 beta 6 | TestFlight 2.2.7 (3519)
+
+Midnight Star#1145 - Bug Bot on 2018-03-30T15:39:45.447Z
+
+
+### Can reproduce.
+CR, iPad Mini 2, iOS 11.2.6, TF 2.2.7 (3519)
+
+[object Object]#0001 - Bug Bot on 2018-03-30T15:39:50.402Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 11.3, TF 2.2.7 (3519)
+
+Xylium#1480 - Bug Bot on 2018-03-30T15:39:55.441Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Fanghao on 2018-04-01T04:59:18.474Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than one month with no new activity. - Ghoul on 2018-06-01T00:17:59.741Z
+
+
+### Archived by Ghoul on 2018-06-01T00:18:02.153Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

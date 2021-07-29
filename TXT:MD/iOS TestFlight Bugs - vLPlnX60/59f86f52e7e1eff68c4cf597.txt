@@ -1,0 +1,81 @@
+[Archived] [iPad only] Keyboard overlaps message field in edit state (https://trello.com/c/QPjRPprF)
+
+P2 - Can wait a while,
+low
+
+Created: 2017-10-31T12:40:50.621Z
+Latest Update: 2017-12-23T10:54:37.678Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Send a message with any text 
+- Click on the message field 
+- Long click on a sent message 
+- Close the keyboard 
+- Click on `Edit message`
+
+####Expected result:
+Message edit field should be visible.
+####Actual result:
+Message edit field will be overlapped by the virtual keyboard.
+####Client settings:
+Discord Stable 1.9.4
+####System settings:
+iPad Air 2, iOS 11.1 Public Beta 5
+
+5938
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-31T12:40:50.621Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59f86f52e7e1eff68c4cf597/aab6adc21427cf360c1478b17a37c7ec/c1Yy0RM.jpg added by Bug Bot on 2017-10-31T12:40:53.067Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 11.0.3, Stable 1.9.4
+
+skyllful#8516 - Bug Bot on 2017-10-31T12:40:57.968Z
+
+
+### Can reproduce.
+iPad mini 4, iOS 11.0.3, Testflight 1.9.3 (1340) | Also leaves 2 blank boxes where "Delete message" and "Report" should be
+
+Blizzyrd#7909 - Bug Bot on 2017-10-31T12:41:02.945Z
+
+
+### Can reproduce.
+iPad Air (1st generation) with Discord TestFlight 1.9.3 (1340) and iOS 11.0.3
+
+🎃 Spoopy Ghoul 🎃#4567 - Bug Bot on 2017-10-31T12:41:07.966Z
+
+
+### Cannot reproduce. The text is always lifted so that it's visible. iPad pro. - Jared on 2017-11-06T22:04:44.190Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-11-06T22:04:49.224Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.1 & iPad Air 2 with iOS 11.2 PB 1, TestFlight 1.10.0 (1476). Still an issue for me, maybe only happens with smaller iPads like 9.7 inch iPad Air 2
+
+Pascal#0929 - Bug Bot on 2017-11-06T22:55:32.784Z
+
+
+### Possible that this could also be specific to iOS 11, as I can't reproduce on a 9.3.5 iPad. - Mike Nisbet on 2017-11-23T16:02:37.667Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-23T10:54:36.662Z
+
+
+### Archived by Alexandru Todea on 2017-12-23T10:54:37.690Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

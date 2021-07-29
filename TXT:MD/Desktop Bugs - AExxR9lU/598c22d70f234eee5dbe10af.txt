@@ -1,0 +1,90 @@
+[Archived] A nickname of two long strings separated by ", " aligns the nickname to the left and puts it on two different lines. (https://trello.com/c/vhvTC9HN)
+
+P2: Fix can wait a while
+
+Created: 2017-08-10T09:09:43.136Z
+Latest Update: 2017-12-02T17:16:46.302Z
+
+Reported by QwakGoesDuck#9672
+
+####Steps to reproduce:
+- Change your nickname to "longfirstword, longsecondword" 
+- Click on your name in the user list or chat
+
+####Expected result:
+Nickname should be centered and on one line.
+####Actual result:
+Nickname becomes left-aligned and string after ", " is on another line.
+####Client settings:
+Canary 0.0.163
+####System settings:
+Windows 10 Version 1607
+
+3005
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-10T09:09:43.136Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/598c22d70f234eee5dbe10af/e9e9e8a5367705a6adf7ab60401c2664/ekXiFoyI.png added by Bug Bot on 2017-08-10T09:09:46.424Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163 (buld 3061) on Windows 10 Pro 64-Bit on Build 1607
+
+Tarek1337#0379 - Bug Bot on 2017-08-10T09:09:50.559Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.24, Arch Linux, 4.12.4-1-ARCH
+
+jasch#4447 - Bug Bot on 2017-08-10T09:09:55.568Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163, Windows 10 Pro x64 16257.1
+
+fuj1n 🔫#7255 - Bug Bot on 2017-08-10T09:10:00.567Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163, Windows 10 Home (Anniversary update)
+
+Cygan#7117 - Bug Bot on 2017-08-10T09:10:55.157Z
+
+
+### Would appear to apply to *all* nicknames longer than the width of the user popup, and not have anything to do with commas at all.
+
+Tantusar#7835 - Bug Bot on 2017-08-11T14:46:02.235Z
+
+
+### Verified.  - Clayton on 2017-08-14T21:10:35.709Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-14T21:10:41.883Z
+
+
+### Fixed as of build 3388
+
+advaith#9121 - Bug Bot on 2017-08-19T10:51:32.768Z
+
+
+### Cannot reproduce. Marking as Verified Fixed. - Jared on 2017-10-17T00:36:06.467Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-17T00:36:12.938Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:16:45.224Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:16:46.306Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

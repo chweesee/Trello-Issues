@@ -1,0 +1,93 @@
+[Archived] High CPU/GPU usage on any sort of action/movement. (https://trello.com/c/bPMC3kHN)
+
+None
+
+Created: 2018-06-30T23:18:10.656Z
+Latest Update: 2018-08-30T23:15:17.249Z
+
+Reported by FireController1847#3577
+
+####Steps to reproduce:
+- Move your mouse up and down across multiple channels and monitor task manager. 
+- Type. Literally typing a message causes the issue as well.
+
+####Expected result:
+No high CPU/GPU usage.
+####Actual result:
+A 30-50% jump in CPU/GPU usage while doing the action.
+####Client settings:
+Discord Canary 18027 & Discord Browser
+####System settings:
+Windows 10 x64 v1803
+**Note:** I'd assume to see a small 1-5% jump because of animations and such, but 30-50% is very large.
+Note: I'd assume to see a small 1-5% jump because of animations and such, but 30-50% is very large.
+
+15039
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-30T23:18:10.656Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b380fb2ef12d4d1ef1d9803/141d9591d84d692e77b677df9b088255/H5sATdG.png added by Bug Bot on 2018-06-30T23:18:13.926Z
+
+
+### FireController1847#3577 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b380fb2ef12d4d1ef1d9803/6670129c852fb697cd6d4e5d7eb66202/2018-06-30_12-59-14.gif added by Bug Bot on 2018-06-30T23:18:13.950Z
+
+
+### FireController1847#3577 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b380fb2ef12d4d1ef1d9803/a1e2aa95f6a22927fbd5b66b59ad1eef/2018-06-30_13-13-03.gif added by Bug Bot on 2018-06-30T23:18:14.005Z
+
+
+### Can reproduce.
+CR. I can definitely notice some high CPU usage even on hovering some things. Macbook Air (Early 2015), macOS Sierra 10.12.6 Discord Canary (Build 18043)
+
+Rage#9991 - Bug Bot on 2018-06-30T23:18:18.867Z
+
+
+### Can reproduce.
+Windows 10 and Canary 18027
+
+Oasis#4730 - Bug Bot on 2018-06-30T23:18:23.734Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Build 16299) | Discord Canary (Build 18027). Discord used up to 45% of my CPU. This certainly should NOT be normal when performing basic tasks such as hovering over different modals, scrolling, etc. Processor: i3-540 @ 3.07 GHz
+
+Prophet-6#3654 - Bug Bot on 2018-06-30T23:18:28.749Z
+
+
+### Duplicate of https://trello.com/c/Uz4sutaR
+
+Ene#0808 - Bug Bot on 2018-06-30T23:23:36.322Z
+
+
+### This is not a duplicate as it also happens when you type or many other things. And that's ridiculous if they think that browsers should take 30-50% CPU with literally fade animations. That is __not__ normal and __is__ a bug (I've done my fare share of fading and such).
+
+FireController1847#3577 - Bug Bot on 2018-07-01T04:23:54.526Z
+
+
+### Also, the referenced card was resulted in an issue with "the three dots", which don't exist anymore (at least from what I can tell).
+
+FireController1847#3577 - Bug Bot on 2018-07-01T04:24:58.858Z
+
+
+### This is not a bug. Animations happen when you do these things, specifically the "..." appearing/disappearing. - Jared on 2018-07-02T16:35:28.868Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-07-02T16:35:33.218Z
+
+
+### Not a bug? I'm sorry? I have used many, many, many web applications all of which had animations. If just the "..." is causing 30-50% CPU usage, that is definitely a bug. Simply having dots resize and move a little should not cause such high CPU. The same goes for the animations over channels, and particularly just straight up typing. If your animations are using 30-50% CPU, it is not our fault. If you truly don't think this is a bug, then give us the option to disable animations because it makes Discord essentially unusable particularly on low end machines.
+
+FireController1847#3577 - Bug Bot on 2018-07-03T03:41:14.962Z
+
+
+### Archived by Clayton on 2018-08-30T23:15:17.251Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

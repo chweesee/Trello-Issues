@@ -1,0 +1,81 @@
+[Archived] Opening the Developer Documentation without signing in throws an uncaught exception in the console (https://trello.com/c/a9zS6uI2)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-20T04:49:26.306Z
+Latest Update: 2019-01-01T15:35:46.762Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Go to the developer documentation being signed out 
+- Observe the developer console
+
+####Expected result:
+There should not be an uncaught exception.
+####Actual result:
+There is an uncaught exception mentioning that the user is not signed in.
+####Client settings:
+Firefox Stable v61.01
+####System settings:
+Windows 10 Pro x64 v1803
+
+15714
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-20T04:49:26.306Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1803), Chrome Official 67.0.3396.99
+
+54D#1357 - Bug Bot on 2018-07-20T04:49:33.668Z
+
+
+### Can reproduce.
+CR, Google Chrome 67.0.3396.99
+
+Beeen#0001 - Bug Bot on 2018-07-20T04:49:38.843Z
+
+
+### Can reproduce.
+Can Repro,Windows 10 Home (1803) x64, Canary 0.0.211 Browser: Chrome 67.0.3396.99 (Stable)
+
+DeJay#1337 - Bug Bot on 2018-07-20T04:49:43.683Z
+
+
+### Can reproduce.
+Windows 10 Pro x64. Discord Canary 19332
+
+ThorWolf#0001 - Bug Bot on 2018-07-20T07:54:45.967Z
+
+
+### verified, macos 10.12.6, chrome 67.0.3396.99 - Clayton on 2018-07-20T21:45:00.045Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-20T21:45:07.255Z
+
+
+### Moved from Verified Bugs to Website Bugs by Tarek on 2018-08-25T05:10:39.664Z
+
+
+### can no longer reproduce - Clayton on 2018-10-04T01:29:18.847Z
+
+
+### Moved from Website Bugs to Verified Fixed by Clayton on 2018-10-04T01:29:29.283Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:35:45.862Z
+
+
+### Archived by Tarek on 2019-01-01T15:35:46.764Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

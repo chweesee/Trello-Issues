@@ -1,0 +1,114 @@
+[Archived] [Mac] Double clicking any button or text area located at the top of the Discord window will resize Discord. (https://trello.com/c/nNQ3NmC2)
+
+None
+
+Created: 2020-01-16T01:25:31.767Z
+Latest Update: 2020-02-16T02:30:31.574Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:You can: 
+- Double click the search box 
+- Double click the notification button 
+- Double click the pinned messages button 
+- Double click the member list button 
+- Double click the recent mentions button 
+- Double click the help button 
+- Double click the downloading update button 
+- Probably more
+
+####Expected result:
+The buttons should respond to your input appropriately twice.
+####Actual result:
+Discord resizes the window and the buttons respond to your input appropriately twice.
+####Client settings:
+Discord Canary 52627
+####System settings:
+MacBook Pro: macOS Catalina 10.15.2
+
+51680
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-16T01:25:31.767Z
+
+
+### Can reproduce.
+CR : MacBook Pro : macOS Mojave 10.14.6, Discord Canary 52627 (Double clicking the server name doesn't resize the Discord window, but double clicking else where should work)
+
+Alice_#0101 - Bug Bot on 2020-01-16T01:25:39.220Z
+
+
+### Can reproduce.
+CR on MacBook Air - MacOS (10.12.6 Sierra) Canary 52636 | Mine minimizes the window (my MacOS settings)
+
+myacorn#6534 - Bug Bot on 2020-01-16T01:25:44.228Z
+
+
+### Can reproduce.
+CR on MacBook Air (10.15.2 Catalina); Stable version 52681 - Fixed in Canary
+
+RPS1222#5127 - Bug Bot on 2020-01-16T01:25:49.203Z
+
+
+### Can reproduce.
+MacBook Pro (macOS 10.15.2 Catalina); Canary 52627
+
+TheShadow#8124 - Bug Bot on 2020-01-16T01:45:15.922Z
+
+
+### Can reproduce.
+Macbook Pro macOS Catalina 10.15.2, Discord Canary 52636
+
+Philip#0001 - Bug Bot on 2020-01-16T09:31:10.755Z
+
+
+### You need to have not disabled the functionality in the first place at system preferences -> dock -> double-click a window's title bar to <option>. Any of those options still work (the other is minimise). I can still reproduce on  canary 52710 same device/macOS version as a below cr stated that it was fixed, but not for me.
+
+Jiralite#1207 - Bug Bot on 2020-01-16T17:39:53.674Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jixuan Wang on 2020-01-16T23:12:18.234Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.2; Discord Canary 52710
+
+Jiralite#1207 - Bug Bot on 2020-01-16T23:13:33.025Z
+
+
+### Can't reproduce.
+CNLR as of build 52710, changing stance. MacBook Pro: macOS Catalina 10.15.2; Discord Canary 52807
+
+Jiralite#1207 - Bug Bot on 2020-01-17T01:30:07.014Z
+
+
+### CNLR as of build 52807* not 52710 my bad
+
+Jiralite#1207 - Bug Bot on 2020-01-17T01:31:23.897Z
+
+
+### Can't reproduce.
+CNLR : MacBook Pro, macOS Mojave 10.14.6 // Discord Canary 52807
+
+Alice_#0101 - Bug Bot on 2020-01-17T01:32:29.125Z
+
+
+### Can't reproduce.
+CNR, macOS 10.15.3, Canary 52807
+
+Action Potential#6862 - Bug Bot on 2020-01-17T02:20:09.883Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2020-01-17T02:20:10.316Z
+
+
+### Archived by Bug Bot on 2020-02-16T02:30:31.584Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

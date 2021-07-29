@@ -1,0 +1,113 @@
+[Archived] Deleting text in search flashes the search options each time the suggestions changes (https://trello.com/c/sagXJb2q)
+
+P3 - Will be fixed eventually
+
+Created: 2018-10-25T15:36:48.374Z
+Latest Update: 2019-07-13T20:00:05.922Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go into a server with multiple channels 
+- Open search and tap the "in" parameter 
+- Type some text that will suggest channels, and then type some text so you have no suggested channels 
+- Delete text until suggested channels pop up, and observe the suggestions 
+- Delete more text until you delete everything except the "in" parameter 
+- Observe the suggested channels each time you delete a letter
+
+####Expected result:
+Suggested channels change depending on what you have typed
+####Actual result:
+Search parameters will flash each time the suggested channels change
+####Client settings:
+TestFlight 2.3.9 (8441)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta 4
+
+22066
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-25T15:36:48.374Z
+
+
+### Rashaun#9295 - https://youtu.be/HebVefGztis added by Bug Bot on 2018-10-25T15:36:50.783Z
+
+
+### Can reproduce.
+Can reproduce; iPhone 6s, IOS 12.0.1; TestFlight 2.3.9; This does not happen every-time for me, took me a couple times to reproduce!
+
+S6out#1111 - Bug Bot on 2018-10-25T15:36:55.744Z
+
+
+### Can reproduce.
+Can Reproduce | iPhone 6s iOS 12.0.1 | TestFlight 2.3.9
+
+FPDrεας#4133 - Bug Bot on 2018-10-25T15:37:00.739Z
+
+
+### Can reproduce.
+can reproduce iPhone 7, iOS 12.0.1 TestFlight 2.3.9 (8441)
+
+binchlord#0998 - Bug Bot on 2018-10-25T15:37:05.730Z
+
+
+### Can reproduce.
+Can't reproduce - - iPhone 5s iOS 12.0.1, TestFlight 2.4.0
+
+Solo#0007 - Bug Bot on 2018-10-25T16:32:08.322Z
+
+
+### Can reproduce.
+CR iPhone 8+ iOS 12.0.1   TestFlight 2.4.0
+
+iiTigerDude160#5673 - Bug Bot on 2018-10-26T18:29:19.469Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-31T00:58:51.734Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:54.236Z
+
+
+### Extension to this issue
+Short description: Pasting a long text in the search bar (such as a bug report) and deleting it with backspace button makes the search unresponsive and to start flickering the filters
+Steps to reproduce: 
+
+- Copy a very long bug report such as 11635 with the whole Markdown formatting (link for it here https://pastebin.com/LGVMup5V)
+- Open the server search and paste the text there 
+- Start deleting the search input with the backspace button (hold the backspace button, do not stop deleting) 
+- After everything has been deleted, try to search or to close the search
+
+Expected result: Search should still work and not cause any visual issues.
+Actual result: Search is very unresponsive and no longer works for some time. Also the search filters start flickering.
+Client settings: TestFlight 2.4.5 (1113)
+System settings: iPhone 8 Plus & iPad Pro 11" - iOS 12.1.4
+
+Pascal#0929 - Bug Bot on 2019-02-15T18:21:15.699Z
+
+
+### Unarchived by Bug Bot on 2019-02-15T18:30:05.514Z
+
+
+### Archived by Bug Bot on 2019-05-09T20:30:15.034Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.3.1
+
+SplashyFlame#4968 - Bug Bot on 2019-06-05T20:31:12.503Z
+
+
+### Unarchived by Bug Bot on 2019-06-05T21:00:05.341Z
+
+
+### Archived by Bug Bot on 2019-07-13T20:00:05.933Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

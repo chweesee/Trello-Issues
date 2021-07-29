@@ -1,0 +1,65 @@
+[Archived] When using mic test, pressing a toggle deafen key-bind keeps the test going and others can hear you, as well as you hearing yourself. (https://trello.com/c/menXy0FO)
+
+None
+
+Created: Unknown
+Latest Update: 2020-06-14T18:00:43.407Z
+
+**Steps to reproduce:**
+1) Set a key-bind for toggle deafen.
+2) Connect to a voice channel with others within.
+3) Open the noise suppression menu and press start test.
+4) Press your toggle deafen key-bind and start speaking.
+
+**Expected Results:** The test is cancelled and you cannot hear yourself.
+**Actual Results:** The test continues, you can hear yourself and others can hear you.
+**Client Settings:** Canary 56488 (fe947ee) Host 0.0.245
+**System Settings:** OS X 10.14.6 (18.7.0)
+
+**What microphone / Gaming headset are they using?**
+ Kingston HyperX Cloud Alpha (Client-side issue, should bear no effect)
+
+Card Log
+========
+### When mic testing is active, I disable keybinds. - Jozsef Vass on 2020-04-03T01:16:14.128Z
+
+
+### I updated the fix to stop mic testing when undeafened. - Jozsef Vass on 2020-04-03T02:15:39.558Z
+
+
+### Moved from Krisp to Not a Bug by Jozsef Vass on 2020-04-04T00:47:32.091Z
+
+
+### Moved from Not a Bug to Claimed Fixed, needs Verification by Jozsef Vass on 2020-04-04T00:47:43.081Z
+
+
+### Can't reproduce.
+MacOS Catalina. Discord Canary 57352
+
+Wiz_Techno#0001 - Bug Bot on 2020-04-06T19:56:35.416Z
+
+
+### Can't reproduce.
+MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 58988 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-04-28T11:20:57.632Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home x64, Discord Canary (Build 59901)
+
+Bryth#1086 - Bug Bot on 2020-05-11T19:38:41.588Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Daffyduck on 2020-05-15T17:57:52.542Z
+
+
+### Archived by Bug Bot on 2020-06-14T18:00:43.417Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

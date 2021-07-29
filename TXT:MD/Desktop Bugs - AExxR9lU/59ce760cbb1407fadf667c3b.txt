@@ -1,0 +1,93 @@
+[Archived] When changing perms, it is possible to leave without saving changes (https://trello.com/c/1dXInnWK)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-29T16:34:20.638Z
+Latest Update: 2018-10-22T20:16:04.398Z
+
+Reported by Werner#2923
+
+####Steps to reproduce:
+- Go to any channels permission 
+- Choose a permission from any role that is not overwritten 
+- Either allow or disallow it 
+- Click save (you may see the '/' flashing) 
+- Change it back to how it was (to '/') 
+- It does not always work. To retry, exit the settings and retry.
+
+####Expected result:
+You are prompted to save or discard your changes
+####Actual result:
+You can leave, your last edit will not be saved (the warning on the bottom does not appear)
+####Client settings:
+Desktop Canary 0.0.164
+####System settings:
+Windows 10
+
+4952
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-29T16:34:20.638Z
+
+
+### Can reproduce.
+Win10 Pro x64, Canary 0.0.164, took a couple tries. Retries consisted of saving changes then trying again, instead of closing to try again.
+
+MetalChain#6372 - Bug Bot on 2017-09-29T16:34:28.013Z
+
+
+### Can reproduce.
+Linux Mint 18.02, Canary B5085
+
+Washingdone#7878 - Bug Bot on 2017-09-29T16:34:33.013Z
+
+
+### Can reproduce.
+Though it is a bug that doesn't always happen, it happened for me first try. | Windows x64, Canary B5085
+
+Jake S.#8787 - Bug Bot on 2017-09-29T16:34:37.995Z
+
+
+### Can't reproduce.
+Windows 10 x64, Discord Canary v0.0.164, Build 5085
+
+Zacatero#5839 - Bug Bot on 2017-09-29T16:35:14.876Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 0.0.164
+
+Elix 🍭#4604 - Bug Bot on 2017-09-29T16:36:03.249Z
+
+
+### Can reproduce.
+null
+
+cloudrac3r#5547 - Bug Bot on 2017-09-29T19:38:38.309Z
+
+
+### Can reproduce.
+MacBook Air (early 2015, 13inch) macOS Sierra 10.12.6 | 0.0.155
+
+SmoothModeler#3669 - Bug Bot on 2017-09-29T20:07:35.784Z
+
+
+### Can reproduce. Minor though. - Jared on 2017-10-03T21:38:07.932Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-03T21:38:17.560Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59ce760cbb1407fadf667c3b/13ace920a4691cc9246a94bd205cc10e/ezgif-4-ae193e7f11.gif added by Bug Bot on 2018-07-15T09:26:11.552Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:04.401Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

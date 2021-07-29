@@ -1,0 +1,135 @@
+[Archived] Opening notifications when app in background does not redirect to channel location (https://trello.com/c/7OWLC99Y)
+
+Release Blocker
+
+Created: 2019-06-08T17:13:40.307Z
+Latest Update: 2019-08-27T12:08:55.591Z
+
+Reported by Detective Pikachu#6828
+
+####Steps to reproduce:
+- Have the app running in the background (but not open on screen) 
+- Open a notification
+
+####Expected result:
+Redirect to the channel or DM when pressing on the notification
+####Actual result:
+App just stays on the last channel/DM open. Bug doesn't occur if app needs to reload when opening.
+####Client settings:
+TestFlight build 3.0.3 (15638) Release Candidate
+####System settings:
+iOS 12.3.1
+
+36642
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-08T17:13:40.307Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS 12.3.1, TestFlight 3.0.3 (15638)
+
+Pascal#0929 - Bug Bot on 2019-06-08T17:13:47.716Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - TestFlight 3.0.3 (15638)
+
+Xylium#5800 - Bug Bot on 2019-06-08T17:13:52.764Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.2, Testflight 3.0.3(15638)
+
+undermaster#3126 - Bug Bot on 2019-06-08T17:13:57.731Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - Testflight 3.0.3 (15638)
+
+OrangeK#0921 - Bug Bot on 2019-06-08T17:28:36.899Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+SplashyFlame#4968 - Bug Bot on 2019-06-08T19:21:31.719Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+binchlord#0998 - Bug Bot on 2019-06-08T21:20:43.852Z
+
+
+### Can reproduce.
+iPhone X, 12.3.1 & iPad 9.7", iOS 12.4(Public beta, 4) TF 3.0.3(15638)
+
+bryant#1011 - Bug Bot on 2019-06-08T23:41:04.186Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.3 (15638)
+
+Daffyduck#5364 - Bug Bot on 2019-06-09T03:27:34.187Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.3.1, TestFlight 3.0.3 (15638)
+
+Pythagoras#7992 - Bug Bot on 2019-06-09T11:44:35.389Z
+
+
+### Can reproduce.
+iPad 6th Gen, iOS 12.3.1
+Discord Testflight 3.0.3 15638
+
+Gar#1865 - Bug Bot on 2019-06-10T20:46:11.885Z
+
+
+### Moving to notable issues since it is an issue you get very often and can be a bit annoying when searching for the new mention/message. - Pascal on 2019-06-11T14:12:57.972Z
+
+
+### Moved from New Issues to Notable Issues by Pascal on 2019-06-11T14:13:05.434Z
+
+
+### Moved from Notable Issues to Claimed Fixed Bugs by Victoria on 2019-06-12T03:11:24.897Z
+
+
+### Can't reproduce.
+iOS 12.4(beta) iPhone 6s TF 3.0.3 (15702)
+
+GlenMerlin#2119 - Bug Bot on 2019-06-12T04:59:13.754Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.3 (15702)
+
+binchlord#0998 - Bug Bot on 2019-06-12T05:00:07.026Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 (dev beta 4) - TestFlight 3.0.3 (15702)
+
+Xylium#5800 - Bug Bot on 2019-06-12T08:47:47.679Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-12T08:47:48.019Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13.0 (17A5492t) - TestFlight 3.0.3 (15738)
+
+Isabel#0002 - Bug Bot on 2019-06-14T11:29:08.438Z
+
+
+### Archived by Bug Bot on 2019-07-14T11:30:29.070Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,64 @@
+[Archived] Exactly 50 channels in a category causes an Uncaught (in promise) error when viewing the server templates tab (https://trello.com/c/PSCGFwLI)
+
+None
+
+Created: Unknown
+Latest Update: 2020-05-28T10:00:48.142Z
+
+**Short Description:** Exactly 50 channels in a category causes an Uncaught (in promise) error when viewing the server templates tab
+**Steps to reproduce:**
+- Create a category
+- Set exactly 50 channels (which is the exactly the limit) as a child of the category
+- Navigate to the server templates tab within server settings
+
+**Expected Result:** The server templates tab loads and becomes useable.
+**Actual Result:** An Uncaught (in promise) is thrown stating "Maximum number of channels in category reached (50)". Whilst this is true since there are 50 channels in a category, this is exactly the limit and should be able to load just fine. The server templates tab also does not load.
+**Client Settings:** Discord Canary 56789
+**System Settings:** MacBook Pro: macOS Catalina 10.15.3
+
+Card Log
+========
+### Moved from Server Templates! to Claimed Fixed, needs Verification by Jerry Jiang on 2020-04-03T00:17:59.512Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Late 2013), Catalina 10.15.4 (19E287); Build Number: 57701
+
+Wiz_Techno#0001 - Bug Bot on 2020-04-09T23:12:24.921Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Late 2013), Catalina 10.15.4 (19E287); Build Number: 57701
+
+Wiz_Techno#0001 - Bug Bot on 2020-04-09T23:14:50.251Z
+
+
+### Can't reproduce.
+CNLR, Canary 58468 (327fbc9), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-04-19T19:24:09.174Z
+
+
+### Can't reproduce.
+CNLR, Canary 58505 (14041ed), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-04-20T22:23:14.965Z
+
+
+### accidental re-CNR, disregard extra
+
+wakfi#6999 - Bug Bot on 2020-04-20T22:25:53.932Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Daffyduck on 2020-04-28T09:56:02.712Z
+
+
+### Archived by Bug Bot on 2020-05-28T10:00:48.155Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

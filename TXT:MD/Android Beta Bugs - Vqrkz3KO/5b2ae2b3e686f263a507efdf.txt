@@ -1,0 +1,73 @@
+[Archived] Inputting space characters in Quick Switcher searchbar will filter the suggestions list without hiding the recent server list and last visited channel (https://trello.com/c/5GRTBdT9)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-20T23:26:43.759Z
+Latest Update: 2018-08-22T01:23:01.889Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Quick Switcher  
+- Input a Space character 
+- Keep adding spaces and observe channel suggestions list
+
+####Expected result:
+Either Space key isn't supposed to filter the suggestions list and then should keep everything as if the QS searchbar were effectively empty, or if spaces are supposed to be counted as a search query then the recent server list and last visited channel should hide, as whzn you search with actual characters
+####Actual result:
+The suggestion list gets filtered according to number of spaces in name, but it doesn't hide recent servers/last visited channel as it usually does when you search for something
+####Client settings:
+Discord Alpha 6.9.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14391
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-20T23:26:43.759Z
+
+
+### Can reproduce.
+Can Reproduce -- Xioami Mi A1, Android 8.0.0 -- Discord Alpha 6.9.6
+
+Ori#1908 - Bug Bot on 2018-06-20T23:26:51.202Z
+
+
+### Can reproduce.
+Can Reproduce - Alcatel U5 (Android 7.0) - Discord Mobile 6.9.3
+
+Rodolfo#1818 - Bug Bot on 2018-06-20T23:26:56.126Z
+
+
+### Can reproduce.
+CR ~ Samsung Galaxy J7 running Android 7.0 ~ Discord Alpha 6.9.6
+
+FoxyKero#9941 - Bug Bot on 2018-06-20T23:27:01.145Z
+
+
+### verified, samsung s6 edge, android 7.0 alpha 6.9.6 - Clayton on 2018-06-21T21:39:46.660Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-21T21:39:53.535Z
+
+
+### Can reproduce.
+LG x power, Andriod 6.0.1, Discord 6.9.3
+
+Anima Vestra#2216 - Bug Bot on 2018-06-22T16:13:45.285Z
+
+
+### FoxyKero#9941 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b2ae2b3e686f263a507efdf/f8667f63087f9c42566f17812357a0af/Screenshot_20180714-024950.png added by Bug Bot on 2018-07-14T06:50:52.031Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:01.892Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

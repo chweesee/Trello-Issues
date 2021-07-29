@@ -1,0 +1,103 @@
+[Archived] Emoji modal opened through right-click Add Reaction button always appears next to the top message Add Reaction button causing it to go out of view on long messages (https://trello.com/c/rKbTJiA0)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-22T04:16:16.914Z
+Latest Update: 2019-10-23T23:01:29.972Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Post a long message (One long enough to make the Options Menu on the message appear out of sight) 
+- Right-click so the contextual menu appears
+- Open the Add Emoji list in the contextual menu
+- Scroll down to the "Other Emoji" option.
+- Select it.
+
+####Expected result:
+Emoji Modal opens where you initially right-clicked
+####Actual result:
+Emoji Modal appears next to the top message Add Reaction button causing it to go partly or fully out of sight if opened on a long message
+####Client settings:
+Discord Canary 0.0.204, Build 12458
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+9788
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-22T04:16:16.914Z
+
+
+### Ene#0808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ab32e102389468cde23619f/0309c9d24ca4d7645650ec8b6f723703/CJP3jEf.png added by Bug Bot on 2018-03-22T04:16:19.308Z
+
+
+### HyperKids#4976 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ab32e102389468cde23619f/0fe38c357bc7c2d1b933118c7a2f9cbb/ktqlga.gif added by Bug Bot on 2018-03-22T04:16:19.370Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x64 Fall Creators Update, Discord Canary Build 12458. Take a look at my gif, it'll make more sense. (Although there is a "Download" arrow in the top right, I was still able to reproduce on 12458)
+
+HyperKids#4976 - Bug Bot on 2018-03-22T04:16:24.211Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, build 1607, Canary 12458,
+
+ngb#0995 - Bug Bot on 2018-03-22T04:16:29.211Z
+
+
+### Can reproduce.
+Windows 10 Pro Build 16299, Windows 10 Home 15063, Discord Canary Build 12458
+
+TheElite96#0001 - Bug Bot on 2018-03-22T04:16:34.235Z
+
+
+### Cannot reproduce. The emoji modal doesn't open via the right click menu, period. It shows a list in the contextual menu instead. I can only open the modal by clicking on the emoji icon.
+
+[BUILD INFO] Release Channel: canary, Build Number: 12704, Version Hash: 6e4e7bc28e48e0d1d24a21ccda4c11280034f68b - Jared on 2018-03-27T22:40:39.658Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-03-27T22:40:51.512Z
+
+
+### If you scroll down to the bottom of the Contextual Menu, there is an option to open the emoji modal https://i.imgur.com/g7OjQ3P.png
+
+Ene#0808 - Bug Bot on 2018-03-28T00:18:05.422Z
+
+
+### Can reproduce. Exceptionally minor issue that isn't going to be addressed potentially ever, but can reproduce. - Jared on 2018-04-23T19:29:48.587Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2018-04-23T19:30:00.337Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24227
+
+Neiron#2406 - Bug Bot on 2018-09-21T09:14:35.131Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:50.001Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, Canary 36529 host 0.0.235
+
+Jean20B#4287 - Bug Bot on 2019-04-28T15:43:31.130Z
+
+
+### Unarchived by Bug Bot on 2019-04-28T16:00:05.464Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:30.043Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

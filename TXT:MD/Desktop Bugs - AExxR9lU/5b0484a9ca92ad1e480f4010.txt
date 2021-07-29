@@ -1,0 +1,76 @@
+[Archived] Cancelling an edit with ESC far back enough in the history to have option to jump to most recent messages zooms back to most recent messages (https://trello.com/c/e9vF9Uv8)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-22T20:59:21.212Z
+Latest Update: 2018-10-05T06:21:13.257Z
+
+Reported by 1÷σ#5491
+
+####Steps to reproduce:
+- Go to a point in message history far back enough to have 'You're viewing older messages' at the bottom of the screen  
+- Right-click and select edit 
+- Press escape key to cancel
+
+####Expected result:
+For the message to go back into normal mode but not to scroll at all; this is what happens when selecting 'cancel' with the mouse instead
+####Actual result:
+An abrupt jump to most recent messages. If done from a search, the chat scrolls very quickly to the most recent messages.
+####Client settings:
+Desktop app main release, updated on May 18th 2018
+####System settings:
+Windows 10 x64
+
+13194
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-22T20:59:21.212Z
+
+
+### Can reproduce.
+CR, Canary 0.0.209 (15818), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-05-22T20:59:28.588Z
+
+
+### Can reproduce.
+CR, Discord Canary 15818 on Windows 10 Home x64 build 1803
+
+CMDJojo#4230 - Bug Bot on 2018-05-22T20:59:33.592Z
+
+
+### Can reproduce.
+CR, Canary 15818, Windows 10 Home
+
+Seikatsu#5538 - Bug Bot on 2018-05-22T20:59:38.610Z
+
+
+### Verified, Canary 15996, macOS 10.12.6 - Clayton on 2018-05-23T22:22:43.731Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-23T22:22:51.630Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b0484a9ca92ad1e480f4010/86d1125127110fb98fe220425fe0bda4/BRkKReN.gif added by Bug Bot on 2018-07-14T07:40:25.926Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 25439
+
+Neiron#2406 - Bug Bot on 2018-10-04T18:37:37.008Z
+
+
+###  Extension of https://trello.com/c/RhNMYzwC - Clayton on 2018-10-05T06:21:11.569Z
+
+
+### Archived by Clayton on 2018-10-05T06:21:13.259Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

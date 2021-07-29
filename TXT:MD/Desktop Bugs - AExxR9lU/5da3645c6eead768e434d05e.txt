@@ -1,0 +1,73 @@
+published (News Channel) embedded messages wich get edited (image changed) will not swhoen correct on the server wich arre follow them. We have over 200 Server we publish an embeded messaeg every day and it will sometimes have to be edit when somethin updated within the day. (https://trello.com/c/5qAZnjSR)
+
+None
+
+Created: 2019-10-13T17:52:29.036Z
+Latest Update: 2020-07-16T21:26:05.358Z
+
+Reported by FoxyFire  🦊#7148
+
+####Steps to reproduce:
+- Create an embedded Massage in a News Channel with a bot 
+- publish this message 
+- edit it through the bot (image) 
+- it didn't get edit on the secondary server
+
+####Expected result:
+the message should be shown with the new content
+####Actual result:
+it only says that it was edited, but it didn't get.
+####Client settings:
+newest Version
+####System settings:
+mobile/desktop
+
+44897
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-13T17:52:29.036Z
+
+
+### Can reproduce.
+From my testing, neither the description nor image (and possibly more fields) will be updated after the message has been published. The message does show "edited" though. Windows 10 Pro x64, Discord Canary 46657
+
+Aeria#9096 - Bug Bot on 2019-10-13T17:52:36.710Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro, Canary 47076
+
+Action Potential#6862 - Bug Bot on 2019-10-13T17:52:41.722Z
+
+
+### Can reproduce.
+cr; Windows 10 x64 - Canary 47267
+
+Fictional#0001 - Bug Bot on 2019-10-13T17:52:46.757Z
+
+
+### Can reproduce.
+Windows 10 Pro, Discord Canary 47267
+
+HugoHD#7697 - Bug Bot on 2019-10-13T19:52:27.100Z
+
+
+### Can reproduce.
+macOS 10.13.2, Canary 47267
+
+Leaf#0001 - Bug Bot on 2019-10-14T17:05:46.584Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 47267 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-14T19:27:11.106Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

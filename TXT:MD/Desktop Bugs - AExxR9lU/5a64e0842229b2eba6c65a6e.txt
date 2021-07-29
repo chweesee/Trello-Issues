@@ -1,0 +1,118 @@
+[Archived] Recent mentions doesn't paginate properly (https://trello.com/c/sSa7wvH5)
+
+P1: Severe
+
+Created: 2018-01-21T18:48:36.939Z
+Latest Update: 2018-03-14T13:25:56.966Z
+
+Reported by heatingdevice#1212
+
+####Steps to reproduce:
+- Get mentioned enough times that you can scroll thru recent mentions (Make sure you know the messages are different!) 
+- Hop into recent mentions and take note of the content of the message on top 
+- Scroll to the bottom until it starts loading the next page 
+- Observe that the first message of the next page is the same as the one you saw already 
+- Repeat this as many times as you like and see that it just doesn't paginate
+
+####Expected result:
+You should be able to look back further than 50 recent mentions
+####Actual result:
+The same 50 are repeated every time the client tries to paginate
+####Client settings:
+Canary build 9714
+####System settings:
+Arch Linux
+
+8027
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-21T18:48:36.939Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.0 (2121)
+
+HeroGamers#4574 - Bug Bot on 2018-01-21T18:48:44.380Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9714
+
+Kuuhaku#4503 - Bug Bot on 2018-01-21T18:48:49.364Z
+
+
+### Can reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.0
+
+mrkirby153#7840 - Bug Bot on 2018-01-21T18:48:54.523Z
+
+
+### Can reproduce.
+CR, Windows 10 Professional x64, Discord Canary Build 9714.
+
+Ghoul#4567 - Bug Bot on 2018-01-21T18:49:09.745Z
+
+
+### This bug is happening on ALL platforms as shown in the approvals and in the original bug report's system settings.
+
+Ghoul#4567 - Bug Bot on 2018-01-21T18:51:47.987Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Jake Heinz on 2018-01-23T03:33:55.306Z
+
+
+### rolling out fix for this... now? - Jake Heinz on 2018-01-23T03:34:16.869Z
+
+
+### Cannot reproduce anymore, Canary 9856 moving to claimed fixed. - Tarek on 2018-01-24T14:33:11.750Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2018-01-24T14:33:15.956Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-27T00:12:07.919Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T01:22:28.160Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jake Heinz on 2018-01-27T01:36:45.008Z
+
+
+### Can't reproduce.
+Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 9959
+
+Ghoul#0009 - Bug Bot on 2018-01-27T01:40:53.977Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T02:29:37.265Z
+
+
+### Can't reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9959
+
+Kuuhaku#4503 - Bug Bot on 2018-01-27T18:49:29.014Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:25:55.765Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:25:56.968Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jhgg) - No Bio

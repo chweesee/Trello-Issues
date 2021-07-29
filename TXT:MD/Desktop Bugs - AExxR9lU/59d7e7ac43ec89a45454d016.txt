@@ -1,0 +1,79 @@
+[Archived] By default invite link doesn't expire in 24 hours if re-generated after generating a permanent invite (https://trello.com/c/94zuYvWf)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-06T20:29:32.967Z
+Latest Update: 2018-08-21T23:49:31.863Z
+
+Reported by WreckRox#3064
+
+####Steps to reproduce:
+- Go to a channel setttings tab, create an invite (which will stay for 24 hours by default) 
+- Then create a permanent invite. 
+- Then untick the "Set this link to never expire" 
+- Then click on the gear icon on the create invite menu and then create an invite.
+
+####Expected result:
+The "Expire After" would be 24 hours (which is default)
+####Actual result:
+The "Expire After" becomes 30 Minutes (Which is not default)
+####Client settings:
+Canary Build ID 5438
+####System settings:
+Windows 10 Professional x64
+
+5160
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-06T20:29:32.967Z
+
+
+### Can reproduce.
+Windows 10 x64 bit Canary Build ID 5438
+
+💀☠💀☠💀☠💀☠💀☠💀☠#9997 - Bug Bot on 2017-10-06T20:29:40.488Z
+
+
+### Can reproduce.
+Dell inspiron 15R-5520 (2015 model) Windows 10 Pro 64-bit, x64-based processor, Discord Canary 0.0.164
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-06T20:29:45.475Z
+
+
+### Can reproduce.
+CR (Windows 10 x64, Discord Canary v0.0.164)
+
+Zacatero#5839 - Bug Bot on 2017-10-06T20:29:50.608Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary v.0.0.164, Build 5478
+
+OminousCry#2331 - Bug Bot on 2017-10-07T05:35:57.865Z
+
+
+### Verified.  - Clayton on 2017-10-12T21:53:45.367Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-12T21:53:48.726Z
+
+
+### I can't reproduce this but the steps are confusing enough that I'm not 100% sure that I followed them properly. - Jared on 2018-07-05T21:19:00.876Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-05T21:19:19.504Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:49:30.733Z
+
+
+### Archived by Jared on 2018-08-21T23:49:31.865Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

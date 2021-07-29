@@ -1,0 +1,89 @@
+[Archived] Long pressing a full voice channel in the channel drawer will allow you to attempt to join it, and doing so will cause a stuck loading bar to appear below the chatbox (https://trello.com/c/epSxb8RX)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-12T15:03:00.511Z
+Latest Update: 2019-08-16T21:25:03.108Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a full voice channel 
+- Open channel drawer 
+- Long press the voice channel 
+- Tap Connect
+
+####Expected result:
+The button shouldn't be clickable in the first place
+####Actual result:
+The button is clickable, and when clicked the app will constantly try to connect to the VC. You will see a box below the chat textfield saying "Disconnected" with a loading spinner. This box cannot be removed until app is restarted
+####Client settings:
+Discord Alpha 6.6.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+12519
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-12T15:03:00.511Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5af702244d382ccc53d1d5b0/2b78f038cdc985d4d351d3a9541dbb66/IMG_20180512_163352.jpg added by Bug Bot on 2018-05-12T15:03:03.022Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5af702244d382ccc53d1d5b0/a02e943b2c0717a91e054fddc4741c48/IMG_20180512_163234.jpg added by Bug Bot on 2018-05-12T15:03:04.025Z
+
+
+### Can reproduce.
+Can Reproduce Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.6.7
+
+Ori#1908 - Bug Bot on 2018-05-12T15:03:07.897Z
+
+
+### Can reproduce.
+Able to Reproduce; Samsung Galaxy A3 2017; Android 7.0; Discord Alpha 6.6.7 (667).
+
+Costpap#2158 - Bug Bot on 2018-05-12T15:03:12.897Z
+
+
+### Can reproduce.
+Can reproduce discord alpha 6.6.7(667) Wiko LENNY2 , Android 5.1
+
+Diogolo#0796 - Bug Bot on 2018-05-12T15:03:17.881Z
+
+
+### Can reproduce.
+Nokia 6 Dual SIM, Android 8.1.0, Discord 6.6.1
+
+Luchs#1312 - Bug Bot on 2018-05-14T19:46:31.338Z
+
+
+### Verified, Samsung S6 Edge, Android 7.0, 6.6.9 - Clayton on 2018-05-16T22:56:59.920Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-16T22:57:05.708Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:21.251Z
+
+
+### Can reproduce.
+Discord Alpha 9.0.2, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-05-23T23:12:29.338Z
+
+
+### Unarchived by Bug Bot on 2019-05-23T23:30:04.402Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:25:03.122Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

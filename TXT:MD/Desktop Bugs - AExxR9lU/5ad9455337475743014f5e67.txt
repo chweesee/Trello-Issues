@@ -1,0 +1,72 @@
+[Archived] Surrounding arrows void click event when escaping search box (https://trello.com/c/5gawxUqy)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-20T01:41:39.820Z
+Latest Update: 2018-10-22T20:19:52.999Z
+
+Reported by cyndre#2344
+
+####Steps to reproduce:
+- Create Discord account 
+- Sign in to account 
+- Hold CTRL and press K then release 
+- Check for animated arrows surrounding search box (only shows for first few uses of search box) 
+- Click on the arrows described
+
+####Expected result:
+The search box should close after clicking outside of the box
+####Actual result:
+The search box does not close if the click event is over the arrows pointing at the search box
+####Client settings:
+Discord Canary (Build 13912)
+####System settings:
+Windows 10 Home 1709 x64
+
+10968
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-20T01:41:39.820Z
+
+
+### Can reproduce.
+Windows 10 Pro v1709 x64 Discord Public Test Build 13911
+
+webhp#1337 - Bug Bot on 2018-04-20T01:41:47.429Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (13939) on Windows 10 Education 1709 x64 (Build 16299.371)
+
+OminousCry#2331 - Bug Bot on 2018-04-20T01:41:52.371Z
+
+
+### Can reproduce.
+Windows 10 Home SL 1709 x64, Stable browser client 13914
+
+BakugouDeku#0602 - Bug Bot on 2018-04-20T01:41:57.696Z
+
+
+### Can reproduce.
+Macbook Air (Early 2015), macOS 10.12.6 Sierra, Discord Canary (Build 13963)
+
+Rage#0001 - Bug Bot on 2018-04-20T12:19:46.016Z
+
+
+### Verified. - Clayton on 2018-04-24T18:35:21.566Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-24T18:36:32.244Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:53.001Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

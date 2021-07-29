@@ -1,0 +1,85 @@
+[Archived] Searching messages with multiple keywords is broken (spaces between words are removed) (https://trello.com/c/ePLmZg1w)
+
+None
+
+Created: 2018-11-10T16:55:38.996Z
+Latest Update: 2019-01-01T23:12:45.059Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Search menu in any server 
+- Enter two or more keywords separated with spaces and submit, for example `Hello Dabbit` in Discord Testers
+
+####Expected result:
+It should search for `Hello Dabbit`
+####Actual result:
+It searches for `HelloDabbit` (without any space), breaking the search completely. You can notice that by looking at your search history after reopening search
+####Client settings:
+Discord Alpha 7.8.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+22957
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-10T16:55:38.996Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 9.0, Discord Alpha 7.8.8
+
+Haru😍🖤#6660 - Bug Bot on 2018-11-10T16:55:46.326Z
+
+
+### Can reproduce.
+cr, Samsung Galaxy Core Plus sm-g350, 4.2.2, Alpha, 7.8.8
+
+Muzan 「Fortune's Endbringer」#3134 - Bug Bot on 2018-11-10T16:55:51.305Z
+
+
+### Can reproduce.
+Moto G4 Play XT1603, Android 9, Discord Alpha 7.8.8 (788)
+
+Nightdavisao#2046 - Bug Bot on 2018-11-10T16:55:56.428Z
+
+
+### I highly suspect this is caused by the fix made for https://trello.com/c/Py0ImPH2
+
+Alex1304#9704 - Bug Bot on 2018-11-10T17:09:35.691Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.8.8
+
+Hole#0001 - Bug Bot on 2018-11-10T17:53:51.733Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 7.8.8
+
+AmirAmani#0102 - Bug Bot on 2018-11-10T17:55:42.122Z
+
+
+### Can reproduce.
+Huawei Nova 2 Lite running Android Oreo 8.0.0, Discord Alpha 7.8.8
+
+pieceof shof#6265 - Bug Bot on 2018-11-11T16:43:55.291Z
+
+
+### Moved from User Reported Bugs to Fixed Bugs by Sam Shih on 2018-11-12T20:51:47.578Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:12:44.411Z
+
+
+### Archived by Tarek on 2019-01-01T23:12:45.062Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

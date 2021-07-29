@@ -1,0 +1,158 @@
+[Archived] Managing a user that’s still cached (i.e a friend) but left the server causing a crash (https://trello.com/c/1Nwmj1aj)
+
+P2 - Can wait a while
+
+Created: 2019-08-27T00:13:11.584Z
+Latest Update: 2019-10-17T01:00:28.132Z
+
+Reported by Xylium#5800
+
+####Steps to reproduce:
+- Open discord 
+- Own or be in a server 
+- Copy an user ID from your friend 
+- Go back to your server 
+- Make sure they’re cached 
+- Mention them in your server via <@id> 
+- observe
+
+####Expected result:
+You shouldn’t crash
+####Actual result:
+You crash
+####Client settings:
+TestFlight 3.1.1 (16961)
+####System settings:
+iPhone X,  iOS 13 (dev beta 8)
+
+42910
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-27T00:13:11.584Z
+
+
+### Can reproduce.
+Can repro on iPhone XS Max running iOS 13 Dev Beta 8 on iOS TestFlight 3.1.1 (16961)
+
+Ghoul#3232 - Bug Bot on 2019-08-27T00:13:19.217Z
+
+
+### Can reproduce.
+CR iPhone XR iOS 12.4 TestFlight 3.1.1 (16961)
+
+binchlord#0998 - Bug Bot on 2019-08-27T00:13:24.195Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.1 (16961)
+
+Jeffrey#1234 - Bug Bot on 2019-08-27T00:13:29.197Z
+
+
+### Can reproduce.
+iPhone X; iOS 12.0.1; TestFlight 3.1.1(16961)
+
+Emma#6775 - Bug Bot on 2019-08-27T11:04:31.254Z
+
+
+### Can reproduce.
+Can reproduce on iPhone 6, iOS 12.4 Dev Beta 5 — TestFlight 3.1.1 (16898) (its reproduces on 19658 too)
+
+nith#3883 - Bug Bot on 2019-08-27T20:28:42.475Z
+
+
+### Can reproduce.
+iPhone XR; iOS 12.4; TestFlight 3.1.1 (16961)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-27T22:11:26.457Z
+
+
+### Can't reproduce.
+CNR. iPhone 5c - iOS 10.3.3 - TestFlight 3.1.1 (16961) | It just leaves a blank field for me.  -> *attachment*
+
+Chire#0010 - Bug Bot on 2019-08-28T12:50:13.420Z
+
+
+### Chire#0010 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5d647597530a250c3845c499/85252950ffee1be79f341e23c8470959/image0.png added by Bug Bot on 2019-08-28T12:50:30.567Z
+
+
+### Moved from New Issues to User Profile by Pascal on 2019-08-30T11:24:52.283Z
+
+
+### Can reproduce.
+Can reproduce - iPhone Xs, iOS 13 PB 5, TestFlight Build 3.1.1 (16961)
+
+kiosion#2020 - Bug Bot on 2019-08-30T12:22:55.105Z
+
+
+### Can reproduce.
+iPhone Xs, iOS 12.4.1, Stable version 3.1.1
+
+Jere#0001 - Bug Bot on 2019-09-04T21:03:21.388Z
+
+
+### Can reproduce.
+Canrepro, as I found out the hard way, you do indeed have to go to the user that has left your servers profile from a mention, in this case a join message from dyno, otherwise you won’t crash. iPhone XR, iOS 12.1, TestFlight 3.1.2 (17140)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2019-09-04T21:04:03.973Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.4; Discord TestFlight: 3.1.2 (17140)
+
+Boss#0006 - Bug Bot on 2019-09-06T02:12:32.042Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.2 (17237) with iPad Pro (11-inch) running iOS 12.4.1.
+
+I still sometimes get the option to manage the user and see a blank page when managing them but that is a different issue and related to https://trello.com/c/pgEVfn1v.
+
+Moving to Claimed Fixed list. - Pascal on 2019-09-16T14:19:01.725Z
+
+
+### Moved from User Profile to Claimed Fixed Bugs by Pascal on 2019-09-16T14:19:12.417Z
+
+
+### Can't reproduce.
+iPhone X, iOS 13.1 (dev beta 3) - Stable 3.1.2
+
+Xylium#5800 - Bug Bot on 2019-09-16T14:38:02.672Z
+
+
+### Can't reproduce.
+iPhone 8 iOS 12.4.1 - TestFlight: 3.1.2 (1737)
+
+Boss#0006 - Bug Bot on 2019-09-16T14:42:46.365Z
+
+
+### Can't reproduce.
+iPhone 8 iOS 12.4.1 - TestFlight: 3.1.2 (1737)
+
+Boss#0006 - Bug Bot on 2019-09-16T19:48:06.217Z
+
+
+### Can't reproduce.
+iPhone 8 iOS 12.4.1 - TestFlight: 3.1.2 (17237)
+
+Boss#0006 - Bug Bot on 2019-09-16T19:48:42.466Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 13.1 (dev beta 3), TestFlight 3.1.2 (17237)
+
+username#6666 - Bug Bot on 2019-09-17T00:34:10.527Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-09-17T00:34:10.943Z
+
+
+### Archived by Bug Bot on 2019-10-17T01:00:28.145Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

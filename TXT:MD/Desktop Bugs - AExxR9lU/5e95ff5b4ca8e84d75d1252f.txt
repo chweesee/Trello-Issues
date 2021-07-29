@@ -1,0 +1,64 @@
+Manage Roles permission description is incorrect (https://trello.com/c/bQHL2vxh)
+
+None
+
+Created: 2020-04-14T18:22:19.595Z
+Latest Update: 2020-07-16T21:26:06.239Z
+
+Reported by SnakE#5507
+
+####Steps to reproduce:
+- Manage Roles permission is described as Members with this permission can create new roles and edit/delete roles lower than this one 
+- In reality it works for all roles lower than the highest role the user has even if that higher role does not have Manage Roles permission 
+- Either the description should be fixed or the permission should be made to work as described 
+- Steps 
+- Create 3 roles A, B and C, A above B and B above C 
+- Make sure only the role C has the Manage Roles permission 
+- Give roles A and C to a user
+
+####Expected result:
+No roles should be editable by that user
+####Actual result:
+Roles B and C are editable
+####Client settings:
+Release Channel: stable, Build Number: 48470, Version Hash: 58ad7dd1115cbdff2ab3dda3a83c7c9c09d856a0
+####System settings:
+Windows Home 1903 build 18362.449
+
+47098
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-14T18:22:19.595Z
+
+
+### Can reproduce.
+MacBook Pro (13-inch, Late 2013), Catalina 10.15.4 (19E287); Build 57964. Description is incorrect, but Permission Hierarchy works as intended.
+
+Wiz_Techno#0001 - Bug Bot on 2020-04-14T18:22:27.164Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha7 (1098), string is misleading
+
+Ana940#9858 - Bug Bot on 2020-04-14T18:22:32.291Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.4; Discord Canary 58100 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-04-14T18:22:37.200Z
+
+
+### Can reproduce.
+CR, Canary 58228 (d3f5e64), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-04-15T21:53:57.045Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

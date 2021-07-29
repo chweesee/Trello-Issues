@@ -1,0 +1,66 @@
+[Archived] HTML entities from Slack-compatible webhooks not translated according to the spec at <https://api.slack.com/docs/message-formatting> (https://trello.com/c/7XjNz6j3)
+
+None
+
+Created: 2017-05-09T10:02:15.930Z
+Latest Update: 2017-10-17T21:10:50.091Z
+
+Reported by gdude2002#5318
+
+####Steps to reproduce: 
+- Set up a webhook and add it to a Slack app (in this instance I used Bamboo) 
+- Trigger a message on the webhook containing `&`, `<` or `>` 
+
+####Expected result:
+ Verbatim `&`, `<` or `>` in the message 
+####Actual result:
+ `&amp;`, `&lt;` and `&gt;` in the message 
+####System settings:
+ Win 10 x64, discord canary
+
+1471
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-09T10:02:15.930Z
+
+
+### Can reproduce.
+
+
+Andrew.#6465 - Bug Bot on 2017-05-09T10:02:16.618Z
+
+
+### Can reproduce.
+Latest Discord Canary, Windows 10 x64
+
+DoNotSpamPls#8787 - Bug Bot on 2017-05-09T10:02:18.698Z
+
+
+### Can reproduce.
+Canary Win 8
+
+PARALLAχ#4500 - Bug Bot on 2017-05-09T10:02:20.653Z
+
+
+### DiscordCanary_2017-05-07_19-21-57.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/591193a7edf14e89ff815bb1/0e9981e96eb98c63d2da8040d206b840/DiscordCanary_2017-05-07_19-21-57.png added by Bug Bot on 2017-05-09T10:02:32.145Z
+
+
+### Not a bug.  - Clayton on 2017-08-10T02:25:08.038Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2017-08-10T02:25:11.362Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:10:49.287Z
+
+
+### Archived by Jared on 2017-10-17T21:10:50.094Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,83 @@
+[Archived] Missing white font color for some info in Audit Log entry details (https://trello.com/c/8bnsY1hG)
+
+None
+
+Created: 2018-10-25T16:21:04.294Z
+Latest Update: 2019-01-22T22:54:49.813Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Make sure you have the permission to view the Audit Log 
+- Do any action that causes an Audit Log entry with a bold white detailed info (such as adding a role or changing nickname) 
+- Open Server Settings -> Audit Log 
+- Search for this Audit Log entry and expand it 
+- Observe the detailed info of it
+
+####Expected result:
+White font color for specific info in audit log entry details should be shown (e.g. the new nickname when changing the nickname).
+####Actual result:
+These specific detailed info don't have a white font color.
+####Client settings:
+TestFlight 2.4.0 (8616)
+####System settings:
+iPhone 8 Plus - iOS 12.0.1 & iPad Air 2 - 12.1 (PB 4)
+
+22118
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-25T16:21:04.294Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5bd1ed70f2d5cb72de2ebfbc/787da2f24064dd9e04bf47ccd6e51ebc/Ssz7XAt.jpg added by Bug Bot on 2018-10-25T16:21:06.850Z
+
+
+### Can reproduce.
+Can reproduce. iPhone XS Max, iOS 12.0.1, TestFlight 2.4.0 (8616)
+
+coolalmostchilly#2019 - Bug Bot on 2018-10-25T16:21:11.629Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 (dev beta 5) - TestFlight 2.4.0 (8616)
+
+Xylium#1480 - Bug Bot on 2018-10-25T16:21:16.618Z
+
+
+### Can reproduce.
+iPhone 5s iOS 12.0.1, TestFlight 2.4.0 - - Names are not white for emoji changes as well.
+
+Solo#0007 - Bug Bot on 2018-10-25T16:21:21.636Z
+
+
+### Moved from New Issues to Audit Log Bugs by Jeff Cailteux on 2018-10-25T16:30:46.143Z
+
+
+### Can reproduce.
+can reproduce iPhone 7, iOS 12.0.1 TestFlight 2.4.0 (8616)
+
+binchlord#0998 - Bug Bot on 2018-10-25T17:15:09.168Z
+
+
+### Moved from Audit Log Bugs to Won't Fix by Jeff Cailteux on 2018-10-25T17:16:00.013Z
+
+
+### Can reproduce.
+iPhone 8+ iOS 12.0.1 TestFlight 2.4.0 (8616)
+
+iiTigerDude160#5673 - Bug Bot on 2018-10-26T18:30:38.525Z
+
+
+### This ticket has been in Won't Fix for no activity for over 30 days. So archiving this ticket due to the inactivity. - Ghoul on 2019-01-22T22:54:48.624Z
+
+
+### Archived by Ghoul on 2019-01-22T22:54:49.816Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

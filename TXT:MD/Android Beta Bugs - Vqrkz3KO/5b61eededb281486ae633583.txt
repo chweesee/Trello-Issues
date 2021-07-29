@@ -1,0 +1,76 @@
+[Archived] Rotating screen in chat when invite embeds are in sight causes the chat to make a sort of sliding animation towards the top (https://trello.com/c/azaiMVXh)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-08-01T17:33:18.462Z
+Latest Update: 2018-09-08T23:30:04.543Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Post a few invite links in chat. Works with only one, but effect is more noticeable when there are several invite embeds 
+- Scroll to a point in chat where many invite embeds are visible 
+- Rotate screen. You may need to do it repeatedly to notice it. Also you can disable transition animations in your Android developer options, it may help
+
+####Expected result:
+Nothing noticeable should happen
+####Actual result:
+The chat shifts up right after the app changes orientation. It doesn't happen with website embeds, only invites.
+####Client settings:
+Discord Alpha 7.2.1
+####System settings:
+Huawei Mate 9 Android 8.0
+
+16659
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-01T17:33:18.462Z
+
+
+### Can reproduce.
+Can Reproduce. Lenovo vibe K5+, 5.1.1 | Discord Alpha 721
+
+The Lunala#7777 - Bug Bot on 2018-08-01T17:33:25.816Z
+
+
+### Can reproduce.
+can repro, Samsung Galaxy Note 8, Android 8.0 - Android Alpha 7.2.1
+
+Danijel#9000 - Bug Bot on 2018-08-01T17:33:30.800Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 7.2.1 (721) - Android 5.1
+
+Diogolo#8124 - Bug Bot on 2018-08-01T17:33:35.913Z
+
+
+### Can reproduce.
+CR, Oneplus 3, 8.1.0, Alpha 7.2.1
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-01T20:03:57.671Z
+
+
+### Can reproduce.
+Huawei P20 ~ Android & EMUI 8.1 Alpha 7.2.1
+
+R0shi#9716 - Bug Bot on 2018-08-01T20:37:52.988Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.2.9 - Clayton on 2018-08-09T23:04:49.660Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-09T23:04:56.088Z
+
+
+### Archived by Clayton on 2018-09-08T23:30:04.546Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] Entering channel settings and exiting out in rapid succession causes Discord to either softlock or softcrash. (https://trello.com/c/brD9jhRb)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-03-24T18:03:08.916Z
+Latest Update: 2018-10-22T20:19:06.339Z
+
+Reported by unreal#0001
+
+####Steps to reproduce:
+- Go to any server that allows you to edit channel settings.  
+- Enter the settings of any channel. 
+- As you enter into settings, rapidly press 'esc'.  
+- As you exit out of settings, rapidly repeat steps 2-3.
+
+####Expected result:
+You should be able to navigate in and out of both screens with no issue.
+####Actual result:
+After a few cycles of repeating steps 2-3, Discord will either softlock or softcrash, forcing you to CTRL + R.
+####Client settings:
+Canary Build 12608
+####System settings:
+Windows 10 Version 1709
+
+9841
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-24T18:03:08.916Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 - Discord Canary (Build 12608)
+
+Doges#0001 - Bug Bot on 2018-03-24T18:03:16.422Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709, Canary build 12608
+
+Emivg#9436 - Bug Bot on 2018-03-24T18:03:21.417Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (12608) on Windows 10 Pro 64-bit (1709)
+
+Tarek#1337 - Bug Bot on 2018-03-24T18:03:26.395Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64, Discord Canary Build 12608
+
+LPerMike#1013 - Bug Bot on 2018-03-24T18:05:57.055Z
+
+
+### Verified.  - Clayton on 2018-03-29T00:08:37.523Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-29T00:08:42.892Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ab692dc244987f78d4b32b9/85487a0f68eef6b8f623e551f5af8b11/NVcgJJl.gif added by Bug Bot on 2018-07-14T06:38:15.214Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24452
+
+Neiron#2406 - Bug Bot on 2018-09-22T16:02:28.901Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:06.341Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

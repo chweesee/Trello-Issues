@@ -1,0 +1,118 @@
+[Archived] Discord crashes when granting it permission to access the camera during a video call, iPhone 8/8 Plus only (https://trello.com/c/AfJa805U)
+
+P2 - Can wait a while,
+mid
+
+Created: 2017-11-10T22:50:22.577Z
+Latest Update: 2019-06-22T18:11:18.899Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Go to Settings and make sure Discord doesn’t have permission to access your camera 
+- Start a video call with someone and press the camera icon at the bottom 
+- Grant Discord permission to access your camera 
+- Switch back to Discord
+
+####Expected result:
+The app shouldn’t reload and you should be able to continue your call
+####Actual result:
+The app reloads and you have to call the user again
+####Client settings:
+Discord 1.10.0 (1505)
+####System settings:
+iPhone 8 Plus, iOS 11.1
+
+6158
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-10T22:50:22.577Z
+
+
+### Can reproduce.
+CR | iPhone 8 Plus, iOS 11.1, Discord iOS TestFlight (Build 1505)
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-11-10T22:50:30.154Z
+
+
+### Can reproduce.
+CR, iPhone 8 Plus, iOS 11.2 (PB1), Discord TestFlight 1.10.0 (Build 1505)
+
+juj#5114 - Bug Bot on 2017-11-10T22:50:34.923Z
+
+
+### Can reproduce.
+CR, iPhone X, iOS 11.2 Public Beta, TestFlight 1.10.0 (1551)
+
+ara#9039 - Bug Bot on 2017-11-10T22:50:39.948Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 11.2 Dev Beta 2, TestFlight 1.10.0 (1551)
+
+Jeremias#8432 - Bug Bot on 2017-11-11T09:36:20.246Z
+
+
+### Verified - Jared on 2017-11-13T22:49:20.525Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-13T22:49:24.824Z
+
+
+### Moved from Verified Bugs to Video Chat Bugs by Jared on 2017-11-13T22:49:34.187Z
+
+
+### Moved from Video Chat Bugs to User Reported Bugs by Jared on 2017-11-20T20:07:08.431Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-20T20:07:17.793Z
+
+
+### Verified issue still occurs as written. - Jared on 2018-01-08T18:42:15.896Z
+
+
+### Cannot reproduce anymore as of TestFlight 2.5.2 (13014) with iPhone 8 Plus running iOS 12.2. The app still reloads but that is intended and happens with other iOS apps too. If I come back to the app, I will get automatically reconnected to the call
+
+Moving to Claimed Fixed list. - Pascal on 2019-04-12T14:58:08.686Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-04-12T14:58:23.092Z
+
+
+### Can't reproduce.
+iphone 5c ios 10.3.3, TestFlight 2.5.2 (13014)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-12T15:34:24.224Z
+
+
+### Can't reproduce.
+iphone 8 ios 12.2, tf 2.5.2 (13014)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-12T18:23:39.863Z
+
+
+### Can't reproduce.
+iPhone 8 Plus, iOS 12.2 - TestFlight 2.5.2 (13786)
+
+Pascal#0929 - Bug Bot on 2019-04-22T11:23:46.421Z
+
+
+### Can't reproduce.
+Tested on an iPhone 8 IOS 12.1.4 running Discord TestFlight 2.5.2 (13786)
+
+Action Potential#2494 - Bug Bot on 2019-04-23T05:10:50.064Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-23T05:10:50.260Z
+
+
+### Archived by Bug Bot on 2019-05-23T05:30:21.541Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,107 @@
+[Archived] The size of text within code blocks does not adjust when the chat font scaling is changed, but adjusts based on zoom level. (https://trello.com/c/mBEi6MEZ)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-07-21T14:42:35.800Z
+Latest Update: 2019-04-22T07:47:34.728Z
+
+Reported by YusufR#2717
+
+####Steps to reproduce:
+- Go to User Settings > Appearance. Adjust the chat font scaling noticeably. 
+- Send a multi-line code block in any text channel. Notice that although messages now appear larger/smaller, the code block's text retains it's original size. 
+- Go to User Settings > Appearance. Adjust the zoom level noticeably. (You can now reset the chat font size, but if you don't, ensure that the chat font scaling is at one extreme while the zoom level is at the other extreme. This will make the bug even more noticeable.) 
+- Send a multi-line code block in any text channel. Notice that most of the app's components (sidebars, etc.) appear larger/smaller, and this time the size of text in code blocks changes in a way proportional to the change in zoom level. 
+- You can keep playing around with the chat font scaling and the zoom level. As you do, you will see that the size of text in code blocks is proportional to the zoom level, and not the chat font scaling.
+
+####Expected result:
+The size of text in code blocks should change based on the chat font scaling, and not be affected by the zoom level.
+####Actual result:
+The text is code blocks is smaller/larger when the zoom level is lower/higher, and remains un-affected by the chat font scaling.
+####Client settings:
+Discord PTB 0.0.32 (Latest)
+####System settings:
+Windows 10 Home 1703 (64-bit)
+
+2434
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-21T14:42:35.800Z
+
+
+### Can reproduce.
+Can repro: Windows 10 pro 64-bit, Discord Canary 0.0.161
+
+Tom Smith#8458 - Bug Bot on 2017-07-21T14:42:44.854Z
+
+
+### Can reproduce.
+Can reproduce,  Windows 10 Pro x64 v1703 (Canary build 2444, v 0.0.161 )
+
+TimThe#7618 - Bug Bot on 2017-07-21T14:42:48.213Z
+
+
+### Can reproduce.
+Canary 0.0.158, Windows 10 x64 Build 15063
+
+gustav341#7460 - Bug Bot on 2017-07-21T14:42:53.186Z
+
+
+### Can reproduce.
+MacOS 10.12.4 Discord Canary 0.0.151
+
+Harrison#9100 - Bug Bot on 2017-07-21T14:46:40.761Z
+
+
+### YusufR#2717 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/597212db8dcd455b903857ac/8c0edacd271973a100829044a0d82043/Capture2.PNG added by Bug Bot on 2017-07-21T15:14:33.024Z
+
+
+### Can reproduce.
+Can reproduce. Windows 7 SP1 x64, Canary 0.0.161
+
+Ian Murray#5251 - Bug Bot on 2017-07-21T20:30:30.239Z
+
+
+### Verified.  - Clayton on 2017-07-26T21:12:10.673Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-26T21:12:16.943Z
+
+
+### Low Priority P2 - Jared on 2017-10-17T06:15:43.771Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:48:32.922Z
+
+
+### Moved from Next up for investigation to Fix made, not yet released by Shadi Isber on 2017-11-13T02:15:42.904Z
+
+
+### Checked on canary build 7256:
+
+I can no longer reproduce this myself. Code blocks text scales with chat font scaling just fine now. - Alexander (DJScias) on 2017-11-13T15:10:25.001Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexander (DJScias) on 2017-11-13T15:10:28.601Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:27:42.347Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:27:45.934Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:38:55.111Z
+
+
+### Archived by Tarek on 2018-02-22T19:38:56.336Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

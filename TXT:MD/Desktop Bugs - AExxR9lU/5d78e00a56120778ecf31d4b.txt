@@ -1,0 +1,85 @@
+Right clicking on a message you don't own will show a empty context menu. (https://trello.com/c/j0UdDu1Q)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-09-11T11:52:42.745Z
+Latest Update: 2019-11-21T10:01:45.808Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game with Overlay OR
+- Disable Dev Mode on Desktop
+- Open a server where you have no Manage Messages / Reactions / Pin Messages 
+- Right click on another users message. Either left / right of the username.
+
+####Expected result:
+Copy Message Link / Copy ID menu show up in a context menu.
+####Actual result:
+An Empty Context menu is shown.
+####Client settings:
+Canary 45365 (0.0.257)
+####System settings:
+Win10 64x (1903)
+
+43818
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-11T11:52:42.745Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5cbfb347e17452475d790070/5d78e00a56120778ecf31d4b/e34aa4141aa06d77213a7c33bc99266a/LfLDDph.png added by Bug Bot on 2019-09-11T11:52:45.458Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 45365
+
+Xylium#5800 - Bug Bot on 2019-09-11T11:52:50.265Z
+
+
+### Can reproduce.
+Canary 45429, Windows 7 64-bit
+
+Skyla#6111 - Bug Bot on 2019-09-11T11:52:55.276Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (17763) - Canary 45429
+
+Ice#9999 - Bug Bot on 2019-09-11T11:53:00.261Z
+
+
+### This happens on the App too, moving to Desktop.
+
+Be sure to have Dev Mode disabled on the App, in order to get the empty Context Menu. On the Overlay, those Dev Options will not appear in the first place, so that step is irrelevant there. - Aeria on 2019-09-11T12:17:19.352Z
+
+
+### Imported from https://trello.com/b/5cbfb347e17452475d790070 by Aeria on 2019-09-11T12:18:46.594Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 45491 host 0.0.257
+
+Jean20B#4668 - Bug Bot on 2019-09-11T17:32:30.674Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 45701
+
+B.O.S.S#0251 - Bug Bot on 2019-09-13T20:41:08.517Z
+
+
+### Can reproduce.
+Windows 10 1903 canary 45765
+
+GlenMerlin#2119 - Bug Bot on 2019-09-16T03:50:35.343Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

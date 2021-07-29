@@ -1,0 +1,72 @@
+[Archived] Avatars do not render when zoomed in at certain percentages (only tested on browser but may also affect desktop client) (https://trello.com/c/oeZWOffo)
+
+P2: Fix can wait a while
+
+Created: 2017-10-05T20:31:21.891Z
+Latest Update: 2017-11-16T19:06:56.652Z
+
+Reported by 00500005#5783
+
+####Steps to reproduce:
+- Zoom the browser in to an invalid level. For myself on chrome with a 4k display, this was 250%. This may vary. Refresh the page
+
+####Expected result:
+Avatars should be rendered as normal with correct sizing
+####Actual result:
+Avatars are not rendered.
+####Client settings:
+Browser client [Chrome 58.0.3029.81 (64-bit)]
+####System settings:
+Linux x86_64 (4.4.0-96-generic)
+
+Dev Notes: The avatars are requested but the ?size param is invalid, causing none of the images to load. Verified that removing the ?size param allows the image to be viewed by the browser (in a separate tab)
+
+5098
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-05T20:31:21.891Z
+
+
+### Can reproduce.
+CR on Chrome 61.0.3163.100 at 250%, 300% on Windows 7 Pro x64 at 1920x1080 with Chrome maximized
+
+fuj1n 🔫#7255 - Bug Bot on 2017-10-05T20:31:29.323Z
+
+
+### Can reproduce.
+Windows 10 x64  - Firefox: 58.0a1 (300%) - Google Chrome 61.0.3163.100  (250%) - Discord web B5363 | 1920 x 1080
+
+Tobias#5233 - Bug Bot on 2017-10-05T20:31:34.278Z
+
+
+### Can reproduce.
+Windows 10 Creator's Update, Discord Stable Web, Firefox Nigthly 58.0a1
+
+joaoh1#0567 - Bug Bot on 2017-10-05T20:31:39.376Z
+
+
+### Can reproduce.
+FR, Windows 10 Pro x64 (1607), Canary Build 5414
+
+Magikarp#8118 - Bug Bot on 2017-10-05T23:19:48.598Z
+
+
+### Fixed.  - Clayton on 2017-10-12T20:20:34.759Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Clayton on 2017-10-12T20:20:39.312Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:36:34.918Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:36:35.832Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

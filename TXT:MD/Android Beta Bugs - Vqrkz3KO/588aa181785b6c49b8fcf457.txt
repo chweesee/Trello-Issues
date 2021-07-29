@@ -1,0 +1,88 @@
+[Archived] Long press after a mention not bringing up the message menu (https://trello.com/c/w4Vlg8pV)
+
+P2 - Can wait a while,
+Mod can no longer reproduce
+
+Created: 2017-01-27T01:25:21.351Z
+Latest Update: 2017-12-02T16:19:56.594Z
+
+Reported by MelodicStream#1336
+
+####Steps to reproduce: 
+- Send a message `test @Bug-Bot#1660` 
+- Try pressing and holding on the right area on message to bring up the "Edit message, delete" menu 
+- etc 
+
+####Expected result:
+ The "edit, delete, copy" message should show up 
+####Actual result:
+ You start a DM with the user you mentioned 
+####System settings:
+ Android 7.1, Discord 3.2.7
+
+Card Log
+========
+### Added by Jared on 2017-01-27T01:25:21.351Z
+
+
+### Can reproduce.
+Android 4.4.2, Discord Alpha 3.2.8; seems to require not pressing on message text or timestamp; if successful, the message won't get highlighted.
+
+Ristarg#3840 - Jared on 2017-01-27T01:25:22.220Z
+
+
+### Can reproduce.
+Tapping on the right side of the message, on the same line as the mention reproduces the bug. 2nd described step doesn't (will likely be edited after approved)
+
+Pyker#4853 - Jared on 2017-01-27T01:25:24.125Z
+
+
+### Can reproduce.
+Nexus 9 Android 7.0, Latest Alpha NOTE may take multiple tries
+
+Mikesky#3097 - Jared on 2017-01-27T01:25:26.187Z
+
+
+### The whole long press thing needs a rewrite. It's far too finicky.  - Jared on 2017-02-07T18:28:47.910Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-07T18:28:51.297Z
+
+
+### Can reproduce.
+Android discord 3.9.0
+
+It works not only with mentions, but with any clickable links too (urls, for example). This bug is caused by wrong bounding box size of clickable objects when they are at the end of messages. And not only the long press is affected, but a short press will be referred to the link instead of the message too.
+
+PLAYER\_CHAR#2874 - Bug Bot on 2017-05-28T17:03:47.810Z
+
+
+### Can still reproduce as of 7/28. - Jared on 2017-07-28T22:12:29.543Z
+
+
+### Can't reproduce, all options show up.
+
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.1.7 (517) - Alexandru Todea on 2017-09-18T14:57:18.398Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-18T14:57:22.809Z
+
+
+### Verified Fixed - Jared on 2017-10-02T20:21:46.754Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T20:21:50.179Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:19:55.278Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:19:56.596Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

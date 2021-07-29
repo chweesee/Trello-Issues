@@ -1,0 +1,80 @@
+[Archived] Developer Mode can be toggled on and off from desktop when "sync across clients" is turned off (https://trello.com/c/SWouJBHZ)
+
+None
+
+Created: 2018-10-03T20:26:35.089Z
+Latest Update: 2019-01-31T20:09:47.410Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go into user settings on your phone, and go to appearance 
+- Toggle off the "Sync across clients" option 
+- Go into appearance settings on your computer and change your theme 
+- Verify that your theme didn't change on your phone 
+- Toggle Developer Mode off/on from your computer, and observe the toggle on your phone
+
+####Expected result:
+Developer Mode toggle doesn't change because "sync across clients" is turned off
+####Actual result:
+Developer Mode can be toggled on/off despite having "sync across clients" turned off
+####Client settings:
+TestFlight 2.3.9 (7858) - Canary Build 25325
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta 2 - Windows 10 Home x64 1803
+
+20557
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-03T20:26:35.089Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 12 & iPad Air 2 - iOS 12.1 Public Beta 2, TestFlight 2.3.9 (7858)
+
+Pascal#0929 - Bug Bot on 2018-10-03T20:26:42.369Z
+
+
+### Can reproduce.
+iPhone 7 iOS 12.0 TestFlight Build 2.3.9 (7858)
+
+Kuuhaku#4503 - Bug Bot on 2018-10-03T20:26:47.364Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12 - TestFlight 2.3.9 (7858)
+
+Alfie#1582 - Bug Bot on 2018-10-03T20:26:52.392Z
+
+
+### Can reproduce.
+iPad Pro 10.5, iOS 12, Testflight 2.3.9 (7858)
+
+Zimm#5220 - Bug Bot on 2018-10-04T04:03:29.533Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1 Beta (16B5059d) - TestFlight 2.3.9 (7858)
+
+william#0002 - Bug Bot on 2018-10-04T11:49:04.437Z
+
+
+### Addressed in the next test flight. - Miguel Gaeta on 2018-10-04T20:22:00.431Z
+
+
+### Moved from New Issues to Fix made, not yet released by Miguel Gaeta on 2018-10-04T20:22:09.919Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-10-05T21:14:02.917Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:09:47.420Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/mrkcsc) - No Bio

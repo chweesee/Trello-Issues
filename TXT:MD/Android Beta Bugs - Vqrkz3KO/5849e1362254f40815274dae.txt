@@ -1,0 +1,129 @@
+[Archived] Using backslash to avoid any markdown ignores the backslash and reads as though the backslash were just another character. (https://trello.com/c/AWL6No1o)
+
+P2 - Can wait a while
+
+Created: 2016-12-08T22:39:50.068Z
+Latest Update: 2017-10-02T16:46:17.057Z
+
+Reported by Pyromaniacal#9047
+
+####Steps to reproduce: 
+- In any client, type with a backslash and markdown. 
+- View text on mobile. 
+
+####Expected result:
+ Text should be as written, without the backslash. 
+####Actual result:
+ Text has backslash and markdown applied.
+
+Card Log
+========
+### Added by Jared on 2016-12-08T22:39:50.068Z
+
+
+### Submitted for conner_harknes - Jared on 2016-12-08T22:40:22.136Z
+
+
+### Submitted for Connor_Harknes#2359
+
+Pyromaniacal#9047 - Jared on 2016-12-08T22:44:14.103Z
+
+
+### Can reproduce.
+3.1.9
+
+Pyromaniacal#9047 - Jared on 2016-12-08T22:44:56.207Z
+
+
+### Can reproduce.
+3.1.9, Android 4.4.2 (Samsung Galaxy S3)
+
+Ian Murray#8701 - Jared on 2016-12-08T22:50:37.024Z
+
+
+### Can reproduce.
+Samsung Galaxy S2, Android 4.1.2
+
+KockaAdmiralac#9306 - Jared on 2016-12-08T23:12:20.079Z
+
+
+### Can reproduce.
+3.1.9
+
+Mitch#6853 - Jared on 2016-12-09T00:13:41.244Z
+
+
+### Can reproduce.
+Android 5.0, Samsung Galaxy S5
+
+🎁 FireController1847#9085 - Jared on 2016-12-09T01:29:13.968Z
+
+
+### example: ```
+code
+```
+vs 
+\`\`\`
+code
+\`\`\`
+
+Connor_Harknes#2359 - Jared on 2016-12-09T18:34:13.375Z
+
+
+### Can reproduce.
+3.1.9
+
+teamvista#9576 - Jared on 2016-12-10T14:11:39.134Z
+
+
+### I'm not convinced that this is a bug. Who said it should function like that? - Jared on 2016-12-12T21:13:52.062Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2016-12-12T21:13:59.083Z
+
+
+### ```
+mrkcsc [11:15 AM]  
+android markdown is not to specification
+but it’s also not a high priority because it works fairly closely, and markdown is used by a small % of users.
+it would be fair to file this as a bug``` - Jared on 2016-12-16T19:18:29.581Z
+
+
+### mrkcsc also states that `
+mrkcsc [11:17 AM]  
+I have been poking around with a complete markdown implementation on the side during off-hours but I likely won’t have it ready until next year when we finish launching all the bigger features` - Jared on 2016-12-16T19:18:54.753Z
+
+
+### Moved from Won't Fix to Verified Bugs by Jared on 2016-12-16T19:19:02.050Z
+
+
+### Tested in 3.7.3:
+
+I can no longer reproduce this myself, but I'm pretty sure it was related to the the fixes to the markdown rewrite in 3.3.0 (27 January):
+
+`[A] Improved message parsing/markdown support including: jumbo emojis and better code blocks, better URLs, etc.`
+
+Moving to claimed fixed, tagging @andygarron1 per request since it's /probably/ a patchnotes miss. - Alexander (DJScias) on 2017-04-24T21:31:00.537Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexander (DJScias) on 2017-04-24T21:31:08.133Z
+
+
+### Fixed.  - Clayton on 2017-04-28T21:29:12.879Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2017-04-28T21:29:17.302Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:46:16.113Z
+
+
+### Archived by Jared on 2017-10-02T16:46:17.060Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

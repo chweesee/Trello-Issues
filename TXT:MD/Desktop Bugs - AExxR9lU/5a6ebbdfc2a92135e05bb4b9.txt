@@ -1,0 +1,93 @@
+Tayne acts like its fully expanded even when not fully expanded due to low results, making the bottom portion not able to be clicked to escape it (https://trello.com/c/DcJ7cwxi)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-29T06:14:55.298Z
+Latest Update: 2019-04-02T20:42:03.114Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Open tayne and search for something specific so you have few results and have tayne smaller than usual 
+- Try to click within the bottom area that it would extend to if fully expanded to try and escape it
+
+####Expected result:
+Tayne is exited out upon clicking in the area it isn't present in
+####Actual result:
+Tayne acts as if it's fully expanded even when not, making a portion of the bottom unable to be clicked to escape it
+####Client settings:
+Discord Canary 0.0.201, Build 10018
+####System settings:
+Windows 10 Home 64-bit
+
+8267
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-29T06:14:55.298Z
+
+
+### Ene#0808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a6ebbdfc2a92135e05bb4b9/b20e848c88fb03a47b503df448fb1505/PSyrYaj.png added by Bug Bot on 2018-01-29T06:14:57.850Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 10018
+
+mrkirby153#7840 - Bug Bot on 2018-01-29T06:15:02.907Z
+
+
+### Can reproduce.
+CR, MacBook Pro (late 2013), macOS  Sierra 10.12.1, Discord Canary build 10018
+
+JustGamer#7127 - Bug Bot on 2018-01-29T06:15:07.747Z
+
+
+### Can reproduce.
+Cr Windows 10 x64 canary 0.0.201 build 10018
+
+Okori#0902 - Bug Bot on 2018-01-29T06:15:12.731Z
+
+
+### Can reproduce.
+Windows 10 x64 1709 / Discord Canary 10018
+
+casungo#2990 - Bug Bot on 2018-01-30T21:59:54.277Z
+
+
+### Verified.  - Clayton on 2018-01-31T00:53:24.532Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-31T00:53:28.665Z
+
+
+### I don't even understand this bug. But I _think_ it's fixed. Moving to Verified Fixed. - Jared on 2018-03-21T20:49:12.013Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T20:49:15.828Z
+
+
+### The bug is that while tayne is collapsed due to few results, the modal is still fully expanded even though it doesn't show it, and you cannot click to close it in the area where the modal isn't visibly expanded but would otherwise be if it was further expanded due to multiple results showing up. If you look at the screenshot closely you can see that tayne is present in a large area the modal isn't currently expanded in. My apologies if this is difficult to understand.
+
+Ene#0808 - Bug Bot on 2018-03-22T05:20:13.524Z
+
+
+### I can still reproduce this using the original repro steps & further clarification by Ene below.
+Windows 10 Pro x64, Fall Creators Update, Discord Canary (12831) - Chris Cox on 2018-03-29T18:02:36.109Z
+
+
+### Moved from Verified Fixed to Reopened by Chris Cox on 2018-03-29T18:02:43.411Z
+
+
+### Can reproduce.
+CR, Discord Desktop Canary Build 32668 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+Super#8276 - Bug Bot on 2019-02-24T09:34:18.365Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

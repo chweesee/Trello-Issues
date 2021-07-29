@@ -1,0 +1,93 @@
+[Discord Overlay] Input of Polish "ą" and "ż" characters results in improper behaviour of the draft messages in text box (https://trello.com/c/aG6mU7jG)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-15T03:53:12.894Z
+Latest Update: 2019-04-24T00:53:10.936Z
+
+Reported by Tokuś#9145
+
+####Steps to reproduce:
+- Change keyboard input to Polish (Programmer/Programisty) 
+- Open Discord Overlay while in-game 
+- Start typing any message in the text box 
+- Type "ą" or "ż" characters 
+- Observe the behaviour of the message
+
+####Expected result:
+User can write a message with all Polish characters without text formatting issues
+####Actual result:
+Typing "ą" with keyboard deletes the entire draft of the message. Typing "ż" switches the character to "ź" and adds a previously deleted character
+####Client settings:
+Release Channel: stable, Build Number: 21425, Version Hash: df47d2bb54e0b94e583d8de5d76ed5b7bb63d267
+####System settings:
+Windows 10 Pro 64-bit (10.0, 17134)
+
+17209
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-15T03:53:12.894Z
+
+
+### Can reproduce.
+Can reproduce - MS Windows 10 Pro x64 (v1803) - Canary 21705 - Could only reproduce with polish characters
+
+aosync#3115 - Bug Bot on 2018-08-15T03:53:20.179Z
+
+
+### Can reproduce.
+can reproduce. i suspected that this is because of the ascii codes that discord usually encodes. Windows 10 Home SL 1803 x64 • Canary 21705
+
+MakiTheLegend#5027 - Bug Bot on 2018-08-15T03:53:25.197Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 21930
+
+webhp#1337 - Bug Bot on 2018-08-15T03:53:30.142Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22011
+
+Frances Picard#6209 - Bug Bot on 2018-08-16T04:31:56.640Z
+
+
+### verified, win 10, canary 22791 - Clayton on 2018-08-30T22:26:59.843Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134.285), Canary 24461 | Can repro with Latvian (Qwerty) keyboard. In addition, "č" copies selected text. Suspecting conflict with alt-gr being technically ctrl+left-alt, thus firing select all, undo, copy Windows hotkeys.
+
+ingmarins#8720 - Bug Bot on 2018-09-23T09:50:20.786Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134.285), Canary 24461 
+Can repro with Latvian (Standard) keyboard when pressing `AltGr-A`, or `AltGr-Z`. However, when pressing `'` (quote) followed by A or Z result is as expected. Additionally, AltGr-C copies selected text, but `­'` (quote) followed by C does not.
+Suspecting conflict with AltGr being technically Ctrl+LeftAlt, thus firing select all, undo, copy Windows hotkeys before entering the character. Because a `ż` or `ž` character is entered after firing undo, redo is no longer available. On the other hand, after replacing all text with `ą` or `ā` it is possible to Ctrl-Z to bring back what the text was before replacing.
+For Latvian users workaround can be to use Latvian (Standard) keyboard instead of or alongside Latvian (QWERTY) and type with `'` (quote) rather than AltGr, and for Polish keyboards (214) types `ą` and `ż` as expected, but is unfortunately a QWERTZ layout.
+
+ingmarins#8720 - Bug Bot on 2018-09-23T10:46:44.331Z
+
+
+### Can reproduce.
+Microsoft Windows [Version 10.0.17134.320] , [BUILD INFO] Release Channel: canary, Build Number: 25412, Version Hash: afc03a98fc5f225b7d4791c93556a490678f392c | Reproduceable for any Cyrillic character
+
+Fixator10#7133 - Bug Bot on 2018-10-04T04:11:29.420Z
+
+
+### Can reproduce.
+Discord Stable 27353, Windows 10 Pro x64 1803 (17134.285)
+
+Ascendancy#1111 - Bug Bot on 2018-11-02T17:32:30.384Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

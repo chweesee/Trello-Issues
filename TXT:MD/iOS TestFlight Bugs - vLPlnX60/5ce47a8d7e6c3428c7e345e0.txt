@@ -1,0 +1,243 @@
+[Archived] [iCloud Photo Library disabled] Image picker doesn't show recent images in most recent build (https://trello.com/c/hmpBlF42)
+
+P2 - Can wait a while
+
+Created: 2019-05-21T22:24:13.421Z
+Latest Update: 2019-09-18T10:01:09.596Z
+
+Reported by evilpauwse#9985
+
+####Steps to reproduce:
+
+- Make sure you have iCloud Photo Library **disabled** 
+- Upgrade your build to the most recent 
+- Take a screenshot of discord 
+- Click the attach button 
+- Take note that your recent image isn't there 
+
+####Expected result:
+Most recent images should be in the new build
+####Actual result:
+The images are missing in the most recent build
+####Client settings:
+TF 15113
+####System settings:
+iPhone SE - iOS 12.0.0
+
+34956
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-21T22:24:13.421Z
+
+
+### Can reproduce.
+iPad (2017), 12.1, TF 3.0.2 (15113)
+
+Soheab_#6669 - Bug Bot on 2019-05-21T22:24:20.859Z
+
+
+### Can reproduce.
+Can Repro iPhone 7+ iOS 12.2 | TestFlight 3.0.2 (15113)
+
+Clay#0001 - Bug Bot on 2019-05-21T22:24:25.846Z
+
+
+### Can reproduce.
+TestFlight 3.0.2 ~ iOS 12.3 ~ iPhone XR
+
+Eli#1000 - Bug Bot on 2019-05-21T22:24:30.851Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 2) - TestFlight 3.0.2 (15113)
+
+Xylium#5800 - Bug Bot on 2019-05-21T22:24:55.191Z
+
+
+### Moved from New Issues to Pile o' Performance 'Provements P..ugs? Bugs. by Alex on 2019-05-21T22:36:18.433Z
+
+
+### Moved from Pile o' Performance 'Provements P..ugs? Bugs. to 3.0.2 Release Issues by Alex on 2019-05-21T22:52:45.499Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.4 (Dev Beta), TestFlight 3.0.2 (15113)
+
+Keons#0001 - Bug Bot on 2019-05-22T00:53:49.549Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.2 TestFlight 3.0.2 15113 (Not a single recent image shows at all for me)
+
+chaNcharge#6969 - Bug Bot on 2019-05-22T00:59:30.093Z
+
+
+### [Dupe] https://trello.com/c/R5I4MRku
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-05-22T03:20:15.815Z
+
+
+### Moved from 3.0.2 Release Issues to Fix made, not yet released by Alex on 2019-05-22T03:32:35.445Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.0, TestFlight 3.0.2 (15113)
+
+Tjaz#0001 - Bug Bot on 2019-05-22T05:58:51.192Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.2 (15173) with iPad Pro (11 inch) running iOS 12.3.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-23T11:46:53.349Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Pascal on 2019-05-23T11:46:59.919Z
+
+
+### Can't reproduce.
+iPhone XS Max, iOS 12.2, Discord TestFlight 3.0.2 (15173)
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-05-23T12:07:20.396Z
+
+
+### Can't reproduce.
+no longer reproducible, Testflight v3.0.2 Build 15173, iOS 12.2 on iPad Pro 12.9 2nd Gen
+
+SuperSajuuk#0001 - Bug Bot on 2019-05-23T13:55:42.626Z
+
+
+### Can't reproduce.
+iphone 5c ios 10.3.3, TestFlight 3.0.2 (15173)
+
+OrangeM24#5746 - Bug Bot on 2019-05-23T15:11:04.145Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-23T15:11:04.346Z
+
+
+### Can reproduce.
+TestFlight 3.0.3 (15443) • iPhone 7 Plus • iOS 12.3.1
+
+—__—#0592 - Bug Bot on 2019-06-05T16:20:46.711Z
+
+
+### Can reproduce.
+iPhone 6s iOS 12.4 (beta) TF 3.0.3 (15443)
+
+GlenMerlin#2119 - Bug Bot on 2019-06-05T16:31:10.984Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.3.1
+
+SplashyFlame#4968 - Bug Bot on 2019-06-05T18:33:19.414Z
+
+
+### Can reproduce.
+iPhone Xs, iOS 13.0 dev beta 1, TF 3.0.3 (15443)
+
+Tiemen#0001 - Bug Bot on 2019-06-05T20:00:32.474Z
+
+
+### Can reproduce.
+I can repro this, iPhone XR, iOS 12.1, TestFlight 3.0.3 (15443)
+
+💐nickWtn💐#3789 - Bug Bot on 2019-06-07T22:09:06.040Z
+
+
+### Can reproduce.
+iPhone 6s
+
+🥒pickles2001🥒#6187 - Bug Bot on 2019-06-08T02:51:28.969Z
+
+
+### Can repro as of iPhone XS Max on iOS 12.4 Dev Beta 3 on iOS TestFlight 3.0.3 (15638). 
+
+Reopening. - Ghoul on 2019-06-09T01:24:10.952Z
+
+
+### Moved from Verified Fixed to Reopened by Ghoul on 2019-06-09T01:24:22.144Z
+
+
+### Edited the report to include that it only happens when you have iCloud Photo Library disabled. - Pascal on 2019-06-09T17:43:08.326Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 13 TF 3.0.3 (15638)
+
+Justy#0001 - Bug Bot on 2019-06-10T17:49:46.170Z
+
+
+### Can reproduce.
+iPhone XS iOS 12.3.1 - TF 3.0.3 (15685)
+
+Stella#0001 - Bug Bot on 2019-06-11T06:33:59.666Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Fanghao on 2019-06-11T23:46:28.031Z
+
+
+### Can reproduce.
+iPhone X, iOS 13 Beta 1, TestFlight 3.0.3 (15685) https://imgur.com/xCiFhCD
+
+EazyFTW#0001 - Bug Bot on 2019-06-12T05:17:25.111Z
+
+
+### Can still repro as of TestFlight 3.0.3 (15702) on iPhone XS Max running iOS 12.4 Dev Beta 3.
+
+I don’t see the preview still with the iCloud off, so it would appear that this bug isn’t fixed.
+
+Moving back to reopened. - Ghoul on 2019-06-12T05:59:29.664Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Ghoul on 2019-06-12T05:59:38.835Z
+
+
+### Moved from Reopened to Text Chat by Fanghao on 2019-06-21T05:42:54.035Z
+
+
+### Can reproduce.
+iPhone 8 - iOS 12.1, TestFlight 3.0.3 & iPad Pro 9.7” - iOS 12.3.1, TestFlight 3.0.3
+
+18Zeke#7895 - Bug Bot on 2019-06-21T17:23:35.439Z
+
+
+### 💐nickWtn💐#3789 - https://www.youtube.com/watch?v=OAqDUNmKwFw added by Bug Bot on 2019-06-21T17:33:39.659Z
+
+
+### Moved from Text Chat to Fix made, not yet released by Fanghao on 2019-06-22T04:44:52.997Z
+
+
+### This bug had an OTA fix for Stable 3.0.4 but seems to be happening again as of TestFlight 3.0.5 (15921). Adding a note so devs are hopefully aware
+
+Xylium#5800 - Bug Bot on 2019-06-25T00:36:35.218Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2019-06-26T18:00:41.735Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.5 (15973)
+
+binchlord#0998 - Bug Bot on 2019-06-26T19:04:16.750Z
+
+
+### Can't reproduce.
+iPhone 6s iOS 13 (Public Beta) testflight 3.0.5 (15973) (seems to be fixed now)
+
+GlenMerlin#2119 - Bug Bot on 2019-06-27T03:52:55.759Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Pascal on 2019-06-28T11:19:25.354Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:09.614Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/alex83925693) - No Bio

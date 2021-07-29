@@ -1,0 +1,78 @@
+[Archived] The audit log shows the channel ID instead of the name when a channel is deleted. (https://trello.com/c/Kvh9Xh4n)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-01-06T18:07:46.147Z
+Latest Update: 2019-02-07T06:30:03.176Z
+
+Reported by different alien 4#0274
+
+####Steps to reproduce:
+- Make a new channel 
+- Send a message in that channel 
+- Force a different person to delete the message you just sent 
+- Delete the channel 
+- Check the audit logs
+
+####Expected result:
+In the audit logs, you should a message like "user#1111 deleted 1 message by user#2222 in #channel".
+####Actual result:
+In the audit logs, you see a message like "user#1111 deleted 1 message by user#2222 in 5205983...".
+####Client settings:
+Release Channel: canary, Build Number: 30441, Version Hash: 5cef09fafbb46c3d0b505fcc3a1864a062681741
+####System settings:
+Windows 10 Version 1803 (OS Build 17134.472)
+
+25706
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-06T18:07:46.147Z
+
+
+### Can reproduce.
+CR. Macbook Air • macOS Mojave 10.14 • Canary 30441
+
+Rage#9991 - Bug Bot on 2019-01-06T18:07:53.570Z
+
+
+### Can reproduce.
+macos 10.14.3, canary 30441
+
+Lentralkestor#0404 - Bug Bot on 2019-01-06T18:07:58.644Z
+
+
+### Can reproduce.
+Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 30441
+
+Longinus#0293 - Bug Bot on 2019-01-06T18:08:03.592Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 30441
+
+HarpMiner#2734 - Bug Bot on 2019-01-07T00:48:14.427Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803 (64-bit), ptb 30418
+
+Rix_Ztha#0101 - Bug Bot on 2019-01-07T03:49:37.798Z
+
+
+### verified, macos 10.12.6, canary 30591 - Clayton on 2019-01-08T06:17:14.659Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-08T06:17:23.307Z
+
+
+### Archived by Bug Bot on 2019-02-07T06:30:03.187Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

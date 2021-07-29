@@ -1,0 +1,106 @@
+[Archived] Swiping up and down while uploading a file causes the upload bar to decrease in length every time you swipe up and down. (https://trello.com/c/4jjXIr5n)
+
+None
+
+Created: 2019-06-05T20:34:37.967Z
+Latest Update: 2019-07-14T12:00:29.576Z
+
+Reported by ImmortaLemur#2998
+
+####Steps to reproduce:
+- Go to any channel where you have permissions to post a link. 
+- Make sure that the link is large enough so that it takes a couple of seconds to upload. 
+- Upload the image, and while the image is uploading, swipe up so that the upload is out of view, and back down quickly. Repeat this step multiple times. 
+- Observe.
+
+####Expected result:
+The upload should occur normally.
+####Actual result:
+The loading bar goes back down every time you swipe up and down.
+####Client settings:
+TestFlight 3.0.2 (15283)
+####System settings:
+iPhone 8 - iOS 12.3.1
+
+36002
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-05T20:34:37.967Z
+
+
+### ImmortaLemur#2998 - https://youtu.be/ITh5ivHdEgI added by Bug Bot on 2019-06-05T20:34:40.549Z
+
+
+### Can reproduce.
+Can reproduce on iPad Pro 11" (3rd Gen) - iOS 12.3 - TestFlight 3.0.2 (15283)
+
+Ayu#0001 - Bug Bot on 2019-06-05T20:34:45.545Z
+
+
+### Can reproduce.
+CR | iPhone 6s iOS 12.3 | TestFlight 3.0.2 (15283)
+
+Kostaki#1130 - Bug Bot on 2019-06-05T20:34:50.503Z
+
+
+### Can reproduce.
+CR, iPhone 6s iOS 12.3.1 | Testflight 3.0.2 (15443)
+
+Jasοn#0001 - Bug Bot on 2019-06-05T20:34:55.451Z
+
+
+### Can't reproduce.
+iPhone XR, iOS 12.3.1
+
+SplashyFlame#4968 - Bug Bot on 2019-06-05T20:58:36.227Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - TestFlight 3.0.3 (15443)
+
+Xylium#5800 - Bug Bot on 2019-06-05T22:22:20.056Z
+
+
+### Can't reproduce.
+CNR; iPhone X, iOS 12.2, TestFlight 3.0.3 (15443)
+
+Lengo#0001 - Bug Bot on 2019-06-06T00:14:54.484Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 3.0.3 (15443)
+
+OrangeM24#5746 - Bug Bot on 2019-06-06T03:39:00.425Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.3 (15443)
+
+Daffyduck#5364 - Bug Bot on 2019-06-06T04:10:18.368Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+SplashyFlame#4968 - Bug Bot on 2019-06-10T01:36:23.661Z
+
+
+### Moved from New Issues to Won't Fix by Fanghao on 2019-06-11T19:39:08.987Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13.0 (17A5492t) - TestFlight 3.0.3 (15738)
+
+Isabel#0002 - Bug Bot on 2019-06-14T11:30:03.314Z
+
+
+### Archived by Bug Bot on 2019-07-14T12:00:29.585Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

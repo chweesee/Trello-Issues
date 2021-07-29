@@ -1,0 +1,97 @@
+[Archived] Pasting a low in size, VERY HIGH in resolution image will crash discord upon pasting it into chat with ctrl+v. (https://trello.com/c/ZRW4tsTl)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-07T13:39:26.386Z
+Latest Update: 2018-10-22T20:15:53.450Z
+
+Reported by JohnyTheCarrot#0368
+
+####Steps to reproduce:
+- Create a new image with the dimensions 15129 x 14280 
+
+- Fill it entirely with white so the size of the file is under 8MB
+
+- ctrl+a and ctrl+c in the image editor 
+
+- ctrl+v in Discord chat.
+
+####Expected result:
+Discord tells you the image has a resolution too high.
+####Actual result:
+Discord crashes.
+####Client settings:
+Desktop Canary, 0.0.163
+####System settings:
+Windows 10 Home (Version: 1703 Build Number: 15036.540)
+
+3985
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-07T13:39:26.386Z
+
+
+### Can reproduce.
+CR | Windows 10 Home x64 (Build 1703), Discord Canary 0.0.163 | Used paint.net to reproduce
+
+Cubular#6460 - Bug Bot on 2017-09-07T13:39:33.873Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59b14c0e455f60be27a71d65/71f2dc67116eabf32b9411231c7f1618/aG7Uucu.png added by Bug Bot on 2017-09-07T13:39:36.869Z
+
+
+### Can reproduce.
+CR Discord Canary 0.0.163 (Build 3901) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-09-07T13:39:38.873Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary 0.0.163
+
+Matthew#2334 - Bug Bot on 2017-09-07T13:39:43.856Z
+
+
+### JohnyTheCarrot#0368 - https://www.youtube.com/watch?v=aW3IDQx4iE8 added by Bug Bot on 2017-09-07T17:25:52.157Z
+
+
+### Can reproduce.
+Windows 10, Stable 0.0.298
+
+Damion8980#1189 - Bug Bot on 2017-09-07T21:44:53.896Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-07T21:45:20.315Z
+
+
+### Can't reproduce.  - Clayton on 2017-09-19T23:16:33.723Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-09-19T23:16:43.148Z
+
+
+### Verified - Clayton on 2017-09-21T09:32:32.664Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Clayton on 2017-09-21T09:32:51.464Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12217
+
+cutelilberry#5423 - Bug Bot on 2018-03-17T18:13:26.285Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:53.452Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

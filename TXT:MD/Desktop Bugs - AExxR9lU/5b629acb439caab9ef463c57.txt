@@ -1,0 +1,123 @@
+[Archived] Up-arrow attempts to edit last message no matter what is selected (https://trello.com/c/3WSSjQvF)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-08-02T05:46:51.444Z
+Latest Update: 2019-01-01T15:49:19.549Z
+
+Reported by KJP12#3880
+
+####Steps to reproduce:
+
+- Be attempting to edit a message that wasn't your latest or be doing anything in the list below
+Possible locations:
+Edits: User Settings, Server Settings, Channel Settings, RTC Debug, User Popout, Full Profile, Viewing Channel Topic, Other messages being edited, Some context menus
+Crashes: Search Bar 
+- Hit the Up arrow key
+
+####Expected result:
+It to go up in the text in the current edit prompt or go up in menus/selectors
+####Actual result:
+Attempts to edit the latest message in the channel, wiping all unsaved changes, does nothing if you have text in the prompt or crashes the client
+####Client settings:
+Discord Canary 20540
+####System settings:
+Fedora 28 with KDE & 4.17.7-200 x86_64 Kernel
+
+16733
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T05:46:51.444Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 20540
+
+mrkirby153#7840 - Bug Bot on 2018-08-02T05:46:58.802Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 20540
+
+Frances Picard#6209 - Bug Bot on 2018-08-02T05:47:03.810Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 20540
+
+Rauf#9245 - Bug Bot on 2018-08-02T05:47:08.761Z
+
+
+### KJP12#3880 - https://youtu.be/lpIcVDkCSOc added by Bug Bot on 2018-08-02T05:49:23.361Z
+
+
+### Locations possible: Edits: User Settings, Server Settings, Channel Settings, RTC Debug, User Popout, Full Profile, Viewing Channel Topic, Other messages being editted, Context Menus; Crashes: Search Bar
+
+KJP12#3880 - Bug Bot on 2018-08-02T06:01:38.245Z
+
+
+### Can reproduce.
+Macbook Air • macOS Sierra 10.12.6 • Canary 20540
+
+Rage#9991 - Bug Bot on 2018-08-02T07:05:18.599Z
+
+
+### Can reproduce.
+CR. Note: Does work properly when holding shift to make a selection. Windows 10 x64 - Canary 20540
+
+Marin#3090 - Bug Bot on 2018-08-02T10:28:14.523Z
+
+
+### Can reproduce.
+CR, Discord Canary 20540, Windows 10 Home x64 1803
+
+Augy Productions#8622 - Bug Bot on 2018-08-02T17:17:36.696Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Clayton on 2018-08-02T19:00:45.540Z
+
+
+### Moved from Not a Bug to Verified Bugs by Clayton on 2018-08-02T19:02:56.541Z
+
+
+### Cannot reproduce anymore, Canary 20644. Moving to claimed fixed - Tarek on 2018-08-03T04:42:07.915Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-08-03T04:42:12.472Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Tarek on 2018-08-03T04:49:25.349Z
+
+
+### Scratch that. Still happens on 20644 - Tarek on 2018-08-03T04:49:35.152Z
+
+
+### Can reproduce.
+Pressing up arrow in a multi line message in the text box also fails to move up, and pressing up arrow in the edit message text box triggers the "Edit Message" once more, causing any unsaved edits to be reverted and you start over at the end of the message | Windows 10 Home x64 (1803), Canary 20644
+
+Mustard#2117 - Bug Bot on 2018-08-03T09:13:53.275Z
+
+
+### Cannot reproduce, Canary 20790. Moving to claimed - Tarek on 2018-08-04T05:17:09.479Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-08-04T05:17:15.973Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-08T04:50:24.821Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:49:18.682Z
+
+
+### Archived by Tarek on 2019-01-01T15:49:19.554Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] Blocked user messages appear in Pinned Messages without a warning (https://trello.com/c/5dhNtpF6)
+
+High,
+P3: Will get fixed eventually
+
+Created: 2018-07-07T06:24:37.773Z
+Latest Update: 2019-10-23T23:02:54.406Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go into a server which you have Manage Messages permission in 
+- Block a user who's commented in chat 
+- Pin their message 
+- Open the Pinned Messages modal in the channel and observe the message being displayed without a warning of the user being blocked
+
+####Expected result:
+Messages from blocked users are hidden by a warning in Pinned Messages like in Search
+####Actual result:
+No such warning is present
+####Client settings:
+Discord Canary 0.0.211, Build 18317
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+15186
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-07T06:24:37.773Z
+
+
+### Can reproduce.
+Can reproduce | Lenovo 7373FGM, 1280 x 1024 Display, Microsoft Windows 10 Pro [x64] Version 1803 Build 17134.122, Discord Canary Build 18317
+
+Cairo#5772 - Bug Bot on 2018-07-07T06:24:45.226Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 18317
+
+Xylium#1480 - Bug Bot on 2018-07-07T06:24:50.225Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (18317) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-07-07T06:24:55.241Z
+
+
+### verified, macos 10.12.6, canary 18361 - Clayton on 2018-07-09T21:37:06.069Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-09T21:37:17.874Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b405ca587efb674ce9336b5/ab5417218de9c561ea053ad75b0b765f/ezgif-4-8c4039ceab.gif added by Bug Bot on 2018-07-14T11:38:11.880Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:54.394Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 30302
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-12-28T14:53:51.302Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:30.269Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:54.423Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,96 @@
+[Archived] App crashes instantly upon opening, often multiple times in a row [on both Testflight and non-Testflight versions]. I have only had it happen on iOS 11 betas 2-4 so far, yet to upgrade to 5 and test. (https://trello.com/c/o5YHR7qr)
+
+None
+
+Created: 2017-08-18T14:23:51.574Z
+Latest Update: 2017-11-26T08:32:58.284Z
+
+Reported by Kart#1488
+
+####Steps to reproduce:
+- Open the app on your iDevice.
+
+####Expected result:
+The app opens smoothly.
+####Actual result:
+The spinning wheel appears for a second, followed by a black screen and the app crashing in quick succession.
+####Client settings:
+1.8.9 [Testflight]
+####System settings:
+iOS 11 beta 4, iPhone 7
+
+3336
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-18T14:23:51.574Z
+
+
+### Nelson1348#9190 - https://youtu.be/_vjXuUbXPiE added by Bug Bot on 2017-08-18T14:23:54.209Z
+
+
+### Can reproduce.
+iPad Air 2 iOS 11 PB 5, TestFlight 1.8.9, Also happend for me some seconds ago. My iPad was in Hibernation mode for some hours. If you close Discord completley (close it via app switcher), it will open without problems.
+
+Pascal#0929 - Bug Bot on 2017-08-18T14:23:59.234Z
+
+
+### Can reproduce.
+iPhone 6s, TestFlight 1.8.9, iOS 11 beta 6, this also has happened to me on stable before and it happens randomly
+
+Mippy#1483 - Bug Bot on 2017-08-18T14:24:04.236Z
+
+
+### Can reproduce.
+CR iPhone 5s TestFlight 2.8.9 iOS 9.3.2; had this problem as well before several times
+
+wv#3076 - Bug Bot on 2017-08-18T14:24:09.148Z
+
+
+### Can't reproduce.
+Works Fine on iOS11 Beta 7 iPhone 6S Plus, iOS 11.0.7 (Beta 7) > TestFlight 1.9.1
+
+Ben#4331 - Bug Bot on 2017-08-26T08:04:10.344Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 10.3.3, TestFlight 1.9.1 (524)
+
+xPølish x NextGenZ#0005 - Bug Bot on 2017-08-26T14:40:48.416Z
+
+
+### Moved from User Reported Bugs to iOS 11 issues by Jared on 2017-09-12T22:15:05.703Z
+
+
+### Moved from iOS 11 issues to Fix made, not yet released by Fanghao on 2017-10-02T19:06:43.828Z
+
+
+### Cannot reproduce, marking as Verified Fixed. - Jared on 2017-10-03T16:37:31.217Z
+
+
+### Moved from Fix made, not yet released to Verified Fixed by Jared on 2017-10-03T16:37:37.059Z
+
+
+### Can reproduce.
+Now happens again, the app crashes randomly. Try to close it via multitasking and it often happens. TestFlight 1.9.3 (1268), iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5
+
+Pascal#0929 - Bug Bot on 2017-10-24T14:07:08.080Z
+
+
+### Revoking my comment below, fixed again with TestFlight 1.9.3 (1286)
+
+Pascal#0929 - Bug Bot on 2017-10-25T10:42:57.813Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:32:56.885Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:32:58.287Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

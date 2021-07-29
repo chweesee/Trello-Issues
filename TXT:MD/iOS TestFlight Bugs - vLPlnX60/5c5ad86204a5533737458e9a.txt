@@ -1,0 +1,119 @@
+[Archived] When sending messages with discordjs two spaces followed by a \n will not return to line on iOS (https://trello.com/c/piqS6tmi)
+
+P3 - Will be fixed eventually
+
+Created: 2019-02-06T12:51:46.518Z
+Latest Update: 2019-04-03T19:13:28.345Z
+
+Reported by Mano#4566
+
+####Steps to reproduce:
+Send a message that contains two space and a newline (ex: abc  \nabc where \n means newline)
+
+####Expected result:
+The message should display each 'abc' on a different line
+####Actual result:
+The message will display as 'abcabc' on iOS
+####Client settings:
+2.4.4
+####System settings:
+iPhone 5s - iOS 12.1.3
+
+28205
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-06T12:51:46.518Z
+
+
+### Can reproduce.
+CR, please note \n means making a newline, iPhone SE, iOS 11.1.2 - Discord TestFlight 2.4.4 (11051)
+
+Arnold0#7514 - Bug Bot on 2019-02-06T12:51:53.826Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1.3 Beta (16D5032a) - TestFlight 2.4.4 (11051)
+
+Isabel#0002 - Bug Bot on 2019-02-06T12:51:58.849Z
+
+
+### Can reproduce.
+CR - NOTE: \n means beeline, don’t literally type \n -  iPhone SE - iOS 12.1.3 - Discord Stable 2.4.4
+
+webbgamers#0246 - Bug Bot on 2019-02-06T12:52:03.788Z
+
+
+### Can reproduce.
+iPhone 7 - iOS 12.1.3 - Discord TestFlight 2.4.4 (11051)
+
+KolkiesDev#0001 - Bug Bot on 2019-02-06T12:57:41.264Z
+
+
+### Can reproduce.
+iOS iPod Touch 6th Generation 12.0, 2.4.4
+
+OldWampa#7897 - Bug Bot on 2019-02-06T16:35:24.305Z
+
+
+### Can reproduce.
+iPhone X - iOS 12.1 - Discord TestFlight 2.4.4 (11051)
+
+CustomName#9999 - Bug Bot on 2019-02-06T19:33:23.498Z
+
+
+### Can reproduce.
+Can reproduce iPhone 5s, iOS 12.1.3, TestFlight 2.4.4 (11051)
+
+Solo#0007 - Bug Bot on 2019-02-06T20:05:45.123Z
+
+
+### Dupe of https://trello.com/c/mdYAFF8R
+
+Pascal#0929 - Bug Bot on 2019-02-06T20:57:42.009Z
+
+
+### Can reproduce.
+- iPhone 8 - iOS 12.1 - Discord TestFlight 2.4.5 (11113)
+
+Jengas#7777 - Bug Bot on 2019-02-07T07:57:37.349Z
+
+
+### Can reproduce.
+Iphone X
+
+Mr. Proper#2394 - Bug Bot on 2019-02-07T14:58:06.791Z
+
+
+### Can reproduce.
+iPhone 6S, iOs 12.1.2,  TestFlight 2.4.5(11113)
+
+Spooker#0001 - Bug Bot on 2019-02-08T16:44:53.981Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-02-15T19:00:04.242Z
+
+
+### Archived by Bug Bot on 2019-03-17T19:30:02.122Z
+
+
+### This ticket is indeed a duplicate of https://trello.com/c/mdYAFF8R.
+
+Moving it back to New Issues and archiving. - Pascal on 2019-04-03T19:13:18.422Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-04-03T19:13:25.200Z
+
+
+### Unarchived by Pascal on 2019-04-03T19:13:25.253Z
+
+
+### Archived by Pascal on 2019-04-03T19:13:28.359Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

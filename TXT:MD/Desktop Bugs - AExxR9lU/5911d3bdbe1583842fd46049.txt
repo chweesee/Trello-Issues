@@ -1,0 +1,82 @@
+[Archived] When a channel name is changed shortly after the channel is created, the creation event shows the updated name (https://trello.com/c/zoQwcWXC)
+
+P2: Fix can wait a while
+
+Created: 2017-05-09T14:35:41.045Z
+Latest Update: 2017-10-17T20:27:59.996Z
+
+Reported by OGNovuh#0014
+
+####Steps to reproduce: 
+- Create a channel 
+- Look at audit logs, see it says "<user> created channel #name" 
+- Rename the channel 
+- Look at audit lots 
+
+####Expected result:
+ The creation event has the original name 
+####Actual result:
+ The creation event has the updated name 
+####System settings:
+ W10 x64 Build 1607 AU, Discord Latest Canary
+
+1493
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-09T14:35:41.045Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary Latest
+
+NdT3#0717 - Bug Bot on 2017-05-09T14:35:43.932Z
+
+
+### Can reproduce.
+can reproduce macos 10.12.4 Discord Canary
+
+Harrison#9100 - Bug Bot on 2017-05-09T14:35:45.673Z
+
+
+### Can reproduce.
+Windows 7 x64, Discord Stable
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-05-09T14:36:00.258Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary
+
+Kristoffer#3299 - Bug Bot on 2017-05-11T15:32:53.110Z
+
+
+### This also happens with the *server* name.
+
+Kristoffer#3299 - Bug Bot on 2017-05-11T15:36:19.422Z
+
+
+### Verified.  - Clayton on 2017-05-11T22:08:23.157Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-11T22:08:27.818Z
+
+
+### I'm seeing two separate events in the audit logs. Marking as Fixed. - Jared on 2017-07-31T22:25:23.131Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T22:25:28.087Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:27:58.968Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:27:59.999Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

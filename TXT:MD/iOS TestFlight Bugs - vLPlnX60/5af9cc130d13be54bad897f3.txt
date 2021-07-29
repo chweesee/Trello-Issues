@@ -1,0 +1,83 @@
+[Archived] Audio redirected through phone speakers upon joining VC (https://trello.com/c/SK2MJjlY)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-05-14T17:49:07.129Z
+Latest Update: 2019-05-09T20:30:20.455Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Connect to a Bluetooth speaker 
+- Be playing music through your Bluetooth speaker 
+- Join a Voice Channel while connected to your Bluetooth speaker 
+- Resume playing the music (It’ll pause upon joining the Voice Channel)
+
+####Expected result:
+Audio continues to play from Bluetooth speaker
+####Actual result:
+Audio is redirected to bottom phone speakers
+####Client settings:
+TestFlight 2.3.2 (4353)
+####System settings:
+iPhone 6s iOS 11.3.1
+
+12658
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-14T17:49:07.129Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4353)
+
+Xylium#1480 - Bug Bot on 2018-05-14T17:49:14.504Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 11.2.6, TestFlight 2.3.1, audio began playing through the phone's internal speaker (what you hold up to your ear when you answer a call)
+
+FoxyKero#9941 - Bug Bot on 2018-05-14T17:49:19.436Z
+
+
+### Can reproduce.
+CR: CR: iPhone 6S - iOS 11.2.6 TestFlight 2.3.1 (4040)
+
+KiLO#0001 - Bug Bot on 2018-05-14T17:49:24.427Z
+
+
+### Can reproduce.
+Can Reproduce in iPhone X , iOS 11.4, TestFlight 2.3.2 (4353)
+
+Yoginth#9339 - Bug Bot on 2018-05-15T02:43:23.123Z
+
+
+### Verified, this issue isn't iOS exclusive. Samsung S6 Edge, Android 7.0, 6.6.9 - Clayton on 2018-05-16T23:03:23.086Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-16T23:12:56.116Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:33.818Z
+
+
+### Can reproduce.
+CR, an extension is auto playing gifs in any channel has the same behavior (switches form BT to internal speakers) and is very annoying. iPhone 8, iOS 12.2 Beta 5 - Discord TestFlight 2.4.6 (12026)
+
+Arnold0#7514 - Bug Bot on 2019-03-11T23:04:06.678Z
+
+
+### Unarchived by Bug Bot on 2019-03-11T23:30:05.484Z
+
+
+### Archived by Bug Bot on 2019-05-09T20:30:20.468Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,65 @@
+[Archived] Having 2 text channels open (DM's and groups included) with the same lines written resizes incorrectly when typed in. (https://trello.com/c/XNnUr5qD)
+
+None
+
+Created: 2019-05-31T18:53:17.054Z
+Latest Update: 2019-06-04T04:03:05.977Z
+
+Reported by ᚸebō#0002
+
+####Steps to reproduce:
+- Open 2 text channels with nothing typed in the chat box 
+- Create 2+ line breaks (1 works but doesn't show well) 
+- Create 1 more line with at least 1 character in it 
+- Repeat steps 2 and 3 in a separate channel so they look identical 
+- Navigate back to the first text channel and type or delete a character
+
+####Expected result:
+The text box should resize so that it fits all of the text and doesn't cut off letting some hang outside.
+####Actual result:
+The text box should attempt to resize however much was shown on the scroll bar, but leaves the text outside of it.
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 38729, Version Hash: 2eb83ab1b4aecd998d98e90d677965e2d968388b
+####System settings:
+Windows 10 Home (x64) / v.1809 / OS Build 17763.503
+
+35689
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-31T18:53:17.054Z
+
+
+### Fyffey#0001 - https://imgur.com/a/C5Le7l0.png added by Bug Bot on 2019-05-31T18:53:19.587Z
+
+
+### Can reproduce.
+Can repro, sometimes you need to switch between the channels a few times to cause it. - Stable 38729, Windows 10 Home x64 Build: 17134
+
+Fyffey#0001 - Bug Bot on 2019-05-31T18:53:24.594Z
+
+
+### Can reproduce.
+Can repro, Windows 10 Home x64 | Canary 38751
+
+Classified#0001 - Bug Bot on 2019-05-31T18:53:29.626Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 Version 1809, Build Number: 38705 (Canary)
+
+Jason 🖤#0001 - Bug Bot on 2019-05-31T18:53:34.597Z
+
+
+### Duplicate of https://trello.com/c/FMsu9cu8 - Ene on 2019-06-04T04:03:04.068Z
+
+
+### Archived by Ene on 2019-06-04T04:03:06.033Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

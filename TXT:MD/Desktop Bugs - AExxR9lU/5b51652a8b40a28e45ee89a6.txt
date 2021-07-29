@@ -1,0 +1,108 @@
+[Archived] [Website Bug] Improper message on submitting an invalid OAuth2 callback (https://trello.com/c/XgSUWlmz)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-20T04:29:30.566Z
+Latest Update: 2019-05-21T12:30:30.594Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Go to an application 
+- Go to OAuth2 
+- Enter an invalid callback and press save changes
+
+####Expected result:
+The error message should say "Invalid callback"
+####Actual result:
+The website returns "0 (redirect_uris)"
+####Client settings:
+NA
+####System settings:
+Windows 10 Pro x64 v1803 Firefox Nightly v63.0a1
+
+15711
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-20T04:29:30.566Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b51652a8b40a28e45ee89a6/c4477a6c221202f84c6100651d86f764/dbMYrBf.png added by Bug Bot on 2018-07-20T04:29:33.178Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Chrome 67.0.3396.99
+
+mrkirby153#7840 - Bug Bot on 2018-07-20T04:29:38.001Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1803), Chrome Official 67.0.3396.99
+
+54D#1357 - Bug Bot on 2018-07-20T04:29:43.017Z
+
+
+### Can reproduce.
+CR, Chrome 67.0.3396.99
+
+Beeen#0001 - Bug Bot on 2018-07-20T04:29:48.064Z
+
+
+### verified, macos 10.12.6, chrome 67.0.3396.99 - Clayton on 2018-07-20T21:00:52.695Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-20T21:01:03.114Z
+
+
+### Moved from Verified Bugs to Website Bugs by Tarek on 2018-07-27T13:28:45.015Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13"), macOS 10.13.6 - Firefox Nightly v63.0a1
+
+Mippy#0001 - Bug Bot on 2018-08-13T08:53:27.129Z
+
+
+### The number in the string is referring to the index that the invalid uri is on
+
+Mippy#0001 - Bug Bot on 2018-08-13T08:53:57.424Z
+
+
+### Fixed, looks like this now: https://i.imgur.com/aB7RzGF.png Chrome 73 - Tarek on 2019-04-21T11:55:45.255Z
+
+
+### Moved from Website Bugs to Claimed Fixed, needs Verification by Tarek on 2019-04-21T11:55:48.987Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Mid-2012), macOS v10.14.4 (18E226) - Firefox v63.0.3 (64-bit) - Web Stable 36127
+
+Isabel#0002 - Bug Bot on 2019-04-21T12:04:19.115Z
+
+
+### Can't reproduce.
+Win10x64 1809 - Canary 36128 - Chrome 73.0.3683.103
+
+Cubity_First#0001 - Bug Bot on 2019-04-21T12:10:55.483Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1809 - Google Chrome 73.0.3683.103
+
+Daffyduck#5364 - Bug Bot on 2019-04-21T12:11:38.296Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-04-21T12:11:38.525Z
+
+
+### Archived by Bug Bot on 2019-05-21T12:30:30.607Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

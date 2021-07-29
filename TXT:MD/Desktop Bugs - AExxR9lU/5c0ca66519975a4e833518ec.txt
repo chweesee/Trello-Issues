@@ -1,0 +1,109 @@
+[Archived] Temporary Membership removes you from a server even if you still have an active session on another client. (https://trello.com/c/D0Vwp4rw)
+
+P3: Will get fixed eventually
+
+Created: 2018-12-09T05:21:41.314Z
+Latest Update: 2019-03-01T21:00:36.275Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Have two devices with Discord open on the same account. (In my case, an iPhone, and MacBook Pro) 
+- On one device, join a server with an invite that had temporary membership enabled. 
+- Ensure that you won't be assigned roles. (For the temporary membership to work) 
+- On the other device, quit your Discord client.
+
+####Expected result:
+I should stay in the server because I still have a session open on my phone.
+####Actual result:
+You get removed from the server even if you have another session active.
+####Client settings:
+Canary 29240 - TestFlight 2.4.0 (9714)
+####System settings:
+MacBook Pro (13", Mid-2012), macOS v10.14.1 (Mojave) - iPhone 6s, iOS 12.1.1 Beta (16C5050a)
+
+24124
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-09T05:21:41.314Z
+
+
+### Can reproduce.
+can reproduce Asus Zenfone max pro m1 Android 8.1.0, alpha 8.1.0 and galaxy s5 Android 6.0.1 discord alpha 8.1.0
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-09T05:21:48.691Z
+
+
+### Can reproduce.
+Can reproduce with two clients on the same device. Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 0.0.224 build 29240 & Desktop Stable 0.0.301 build 29232
+
+Longinus#0293 - Bug Bot on 2018-12-09T05:21:53.640Z
+
+
+### Can reproduce.
+Can reproduce. Discord Canary 0.0.224, Build 29240 & iPhone SE, iOS 12.1.1, TestFlight 2.4.0 (9714)
+
+Daffyduck#5364 - Bug Bot on 2018-12-09T05:21:58.598Z
+
+
+### Can reproduce.
+Fedora 28 KDE x64 4.19.5-200 & Discord Canary & Chrome x64 71.0.3578.80 (being the killed process; SIGKILL reproduces, suggesting that it's server-sided); Joined on Surface 3 w/ Windows 10 1809 18290.1000 Home Insiders & Native Canary 29240
+
+KJP12#3880 - Bug Bot on 2018-12-09T05:22:15.509Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809) - Discord Canary 0.0.224, Build 29240 & iPhone SE, iOS 12.1.1, TestFlight 2.4.0 (9714)
+
+Daffyduck#5364 - Bug Bot on 2018-12-09T05:33:05.255Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64 - Discord Canary 29240 -a 8.1.0
+
+AmirAmani#0102 - Bug Bot on 2018-12-09T10:51:40.815Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64 - Discord Canary 29240 ; Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 8.1.0
+
+AmirAmani#0102 - Bug Bot on 2018-12-09T10:53:40.402Z
+
+
+### Can reproduce.
+Can reproduce. - - Using Windows 10 Home x64 v1803, Canary 29240, and -i
+
+Solo#0007 - Bug Bot on 2018-12-09T17:36:05.363Z
+
+
+### Can reproduce.
+CR Windows 10 Home v1809 on Discord Canary Build 29240 (App: 0.0.224) and Google Pixel 2 XL w/ 8.1.0
+
+aditya#1337 - Bug Bot on 2018-12-09T21:55:32.727Z
+
+
+### Can reproduce.
+Windows 10 Enterprise 64bits /w Discord Canary & Samsung Galaxy Note 3, Android 5.0, Discord Alpha 8.1.0
+
+AlexejheroYTB#1636 - Bug Bot on 2018-12-10T18:33:45.510Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Bug Bot on 2018-12-10T20:01:57.115Z
+
+
+### This is, unfortunately a long standing bug that has to do with how we detect presence. - Joey Baker on 2019-01-11T21:27:04.232Z
+
+
+### Moved from Notable Issues to Won't Fix. Dead Bug by Jixuan Wang on 2019-01-30T20:31:41.136Z
+
+
+### Archived by Bug Bot on 2019-03-01T21:00:36.289Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

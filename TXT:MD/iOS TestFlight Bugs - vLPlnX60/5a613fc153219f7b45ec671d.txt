@@ -1,0 +1,94 @@
+[Archived] (iPhone X exclusive) Text entry box disappears and keyboard overlaps messages. (https://trello.com/c/oPt1BgaE)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-19T00:45:53.609Z
+Latest Update: 2018-06-01T01:24:07.228Z
+
+Reported by Big Feetz 10#6611
+
+####Steps to reproduce:
+- Have a text channel open with keyboard on the screen 
+- Open App Switcher 
+- Wait for another message to be sent in the text channel 
+- Go back to the Discord App
+
+####Expected result:
+The app should operate as normal, with text entry box on the screen and keyboard not overlapping with message.
+####Actual result:
+Text entry box goes away and on screen keyboard overlaps messages
+####Client Settings:
+Test Flight 2.2.1 (2193)
+####System settings:
+iPhone X, iOS 11.2
+
+7906
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-19T00:45:53.609Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a613fc153219f7b45ec671d/8990f245b118eec7469663f66d371903/image.png added by Bug Bot on 2018-01-19T00:45:56.621Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.2, Testflight 2.2.1 (2147)
+
+Kokorone#1874 - Bug Bot on 2018-01-19T00:46:01.216Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.2, TestFlight 2.2.1 (2147)
+
+mouse91#3089 - Bug Bot on 2018-01-19T00:46:06.236Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.1 | Whenever I was in a voice chat, this bug did not occur, but, outside of voice chat, it did occur.
+
+Jason P#3334 - Bug Bot on 2018-01-19T00:46:11.296Z
+
+
+### I’ve discovered another way to replicate the same bug.
+- While within a text channel, open the keyboard
+- Scroll up any amount within the next channel, with the keyboard still open
+- The bug occurs if a new message is sent within that text channel
+
+Big Feetz 10#6611 - Bug Bot on 2018-01-19T01:12:11.868Z
+
+
+### Moved from User Reported Bugs to Chat rewrite bugs by Tarek on 2018-01-19T03:20:07.868Z
+
+
+### Verified.  - Clayton on 2018-01-19T03:22:15.985Z
+
+
+### Moved from Chat rewrite bugs to Verified Bugs by Fanghao on 2018-01-19T18:41:14.188Z
+
+
+### Can't reproduce.
+Can no longer repro (build 2202 onwards); iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-27T02:10:32.682Z
+
+
+### Verified fixed as of build 2.2.6 - Jared on 2018-03-19T20:04:47.857Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-19T20:04:52.425Z
+
+
+### Archiving this ticket as it has been in Verified Fixed for more than one month with no new activity.  - Ghoul on 2018-06-01T01:24:04.578Z
+
+
+### Archived by Ghoul on 2018-06-01T01:24:07.231Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,91 @@
+Overlay fails to hook onto any games anymore due to "Overlay host process exception: FeatureFlags is not a constructor" (https://trello.com/c/sgQqTOnT)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2019-08-14T21:13:47.992Z
+Latest Update: 2019-08-15T18:37:58.509Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game 
+- Enable Overlay on game 
+- Open "%appdata%\discordcanary\0.0.254\modules\discord_hook" and open  and notice the error above.
+
+####Expected result:
+OVERLAY WORKS ;w;
+####Actual result:
+It doesn't hook.
+####Client settings:
+Canary 43618 (0.0.254)
+####System settings:
+Win10 64x (1903)
+
+42024
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-14T21:13:47.992Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 43618
+
+charleskimbac#6492 - Bug Bot on 2019-08-14T21:13:55.571Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1809 (Canary build 43480)
+
+TimThe#1118 - Bug Bot on 2019-08-14T21:14:00.578Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1903) - Canary 43618
+
+Isabel#0002 - Bug Bot on 2019-08-14T21:14:05.577Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.254 Build 43618
+
+Daffyduck#5364 - Bug Bot on 2019-08-14T21:15:20.405Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Tarek on 2019-08-14T21:29:13.949Z
+
+
+### Verified, yo - Tarek on 2019-08-14T21:30:32.588Z
+
+
+### Moved from Won't Fix. Dead Bug to Notable Issues by Tarek on 2019-08-14T21:30:37.922Z
+
+
+### Verified » Windows 10 Pro x64, Discord Canary 43480 - Aeria on 2019-08-14T21:31:44.940Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 43618 host 0.0.254
+
+Jean20B#4668 - Bug Bot on 2019-08-15T11:11:16.175Z
+
+
+### Can reproduce.
+Lenovo × Windows 10 Home x64 1903 × Canary 43618
+
+B.O.S.S#0251 - Bug Bot on 2019-08-15T12:00:27.799Z
+
+
+### Can reproduce.
+Canary 43618, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-08-15T18:37:58.522Z
+
+List
+====
+Notable Issues
+
+Members
+=======
+None

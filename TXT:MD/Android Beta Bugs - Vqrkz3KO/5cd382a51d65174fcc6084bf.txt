@@ -1,0 +1,132 @@
+[Archived] Embed thumbnails create a huge gap between the title/author and the description/fields (https://trello.com/c/fTh8QEq1)
+
+None
+
+Created: 2019-05-09T01:30:13.370Z
+Latest Update: 2019-08-16T21:25:23.043Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Create an embed with an author/title, a description/field and a thumbnail
+
+####Expected result:
+There shouldn't be a gap between field and author
+####Actual result:
+There is a gap corresponding to the height of the thumbnail
+####Client settings:
+Discord Alpha 8.9.2
+####System settings:
+Huawei Mate 9 Android 9.0
+
+34271
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-09T01:30:13.370Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5cd382a51d65174fcc6084bf/f39b41a4f357733e53a23986d5136767/Screenshot_20190509_002549.jpg added by Bug Bot on 2019-05-09T01:30:16.435Z
+
+
+### Can reproduce.
+CR; Huawei Y7, Android 8.0.0, Discord Alpha 8.9.2
+
+Bullseye#8200 - Bug Bot on 2019-05-09T01:30:20.907Z
+
+
+### Can reproduce.
+Alcatel 3V, Android 8.0.0 - Discord Alpha 8.9.2 (892)
+
+Birdy#4914 - Bug Bot on 2019-05-09T01:30:25.941Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 892
+
+The Lunala#7882 - Bug Bot on 2019-05-09T01:30:30.893Z
+
+
+### Can reproduce.
+Vivo V9, Android 8.1.0, Discord Alpha 8.9.2 (892)
+
+Lattesmc#0023 - Bug Bot on 2019-05-09T04:40:08.418Z
+
+
+### Can reproduce.
+Sony Xperia X Compact, Android 8.0, Discord Alpha 8.9. 2
+
+Aok / 金木 研#8701 - Bug Bot on 2019-05-09T05:26:56.208Z
+
+
+### Can reproduce.
+Asus Zenfone 2, Android 5.0, Discord Alpha 8.9.2
+
+Karasu#0013 - Bug Bot on 2019-05-09T05:29:31.645Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 9.0.0, Discord Alpha 8.9.2
+
+Аlex#2287 - Bug Bot on 2019-05-09T06:34:12.565Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (9.0) | Discord Alpha 8.9.2
+
+Clay#0001 - Bug Bot on 2019-05-09T07:15:58.545Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 8.9.2
+
+AHkhan#2436 - Bug Bot on 2019-05-09T07:30:24.981Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.9.2
+
+Lily#2624 - Bug Bot on 2019-05-09T11:29:38.923Z
+
+
+### Can't reproduce.
+CNR: Redmi Note 6 Pro, Android 9, Discord 8.9.1 Beta
+
+fuzzysearch#5609 - Bug Bot on 2019-05-09T20:34:15.779Z
+
+
+### Moved from User Reported Bugs to Not a bug by Sam Shih on 2019-05-09T22:03:59.391Z
+
+
+### Thanks for the report and image. This is not a bug and is intentional to prevent overlap of data. We had to choose between limiting the width of  embed field data/descriptions or pushing them down. Given the horiz limits of a phone I felt like it was better to allow desc/fields to have more horizontal space.
+
+```
+|  Title              | Thumb |
+|                     | image |
+-------------------------------
+| Description                 |
+| Embed data/fields           |
+``` - Sam Shih on 2019-05-09T22:08:07.732Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.9.3
+
+dvertix#0510 - Bug Bot on 2019-05-10T15:23:54.187Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 892
+
+Quad#1887 - Bug Bot on 2019-05-12T12:09:27.526Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:25:23.057Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

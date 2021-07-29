@@ -1,0 +1,72 @@
+[Archived] Auto disconnect doesn't disable voice call mode (https://trello.com/c/ECnRLX3G)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-06-14T14:36:59.250Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by TellowKrinkle#5281
+
+####Steps to reproduce:
+- Connect to a voice chat using the iOS app 
+- Background the iOS app so you see the red bar across the top indicating that the app is in a call 
+- On another device, connect to a voice chat so the iOS app automatically disconnects from its voice chat
+
+####Expected result:
+The iOS app turns off voice call mode, stopping the large title bar and extra battery usage associated with it.
+####Actual result:
+The red bar stays and Discord keeps using lots of battery.  Even bringing the app back to the foreground doesn't stop it, you'll need to restart the app.
+####Client settings:
+iOS App Store, 1.8.7
+####System settings:
+iPhone 7, iOS 10.3.3 (14G5037b)
+
+1629
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-14T14:36:59.250Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 6s iOS 11 public beta
+
+Mippy#1483 - Bug Bot on 2017-06-14T14:37:03.745Z
+
+
+### Can reproduce.
+Can reproduce,  Iphone SE iOS 10.3.2, 1.8.7
+
+Tim_The#7618 - Bug Bot on 2017-06-14T14:37:05.739Z
+
+
+### Can reproduce.
+ iOS 10.3 14E277 Discord 1.8.7
+
+Seth#4431 - Bug Bot on 2017-06-14T14:37:07.790Z
+
+
+### Verified.  - Clayton on 2017-06-22T22:26:18.770Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-22T22:27:33.732Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5560) on iPhone 8 + running iOS 12 (Dev Beta 2). When I join the voice call through my Windows 10 laptop, my iOS app automatically disconnects and will hang up from its side as it's detecting that my laptop took over the call. 
+
+Because I was not able to reproduce anymore, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-07-03T01:22:42.141Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T01:22:46.465Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:54.727Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

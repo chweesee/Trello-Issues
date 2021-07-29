@@ -1,0 +1,79 @@
+[Archived] Putting just new lines in channel topic and saving it afterwards makes the channel topic as a blank message. [A cross platform bug] (https://trello.com/c/KM7uWlw6)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-21T21:52:32.745Z
+Latest Update: 2018-08-30T23:34:13.830Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Go to any text channel settings. 
+- Clear the channel topic of the text channel (if any) and keep adding new lines just by pressing enter. 
+- Click on save and exit the channel settings menu, and notice the channel topic.
+
+####Expected result:
+The channel topic should be "No topic set." since new lines shouldn't be considered as characters.
+####Actual result:
+The channel topic panel on the top right expands with nothing on it. A blank message which you can scroll up and down as well (depending upon how many new lines you've added, more new lines, more scrollable)
+####Client settings:
+Discord Alpha 6.7.4
+####System settings:
+Xiaomi Mi A1, Android 8.0.0
+
+13151
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-21T21:52:32.745Z
+
+
+### Ori#1908 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b033fa02b8e7dcfcd744a40/584f047f7f96e2124e2c60fa607a029c/Screenshot_20180521-191331-01.jpeg added by Bug Bot on 2018-05-21T21:52:35.332Z
+
+
+### Can reproduce.
+Can repro, LGL58VL, Android 6.0.1
+
+Seikatsu#5538 - Bug Bot on 2018-05-21T21:52:40.174Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 15733
+
+mrkirby153#7840 - Bug Bot on 2018-05-21T21:52:45.151Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (Version 1803), Discord Canary Build 15655 and 15733. I can't really reproduce on iPhone 8 +, iOS 11.4 (PB6) on iOS TestFlight 2.3.2 (4528) unless I put in a dot in middle of the empty lines but I'm not sure if it'd count.
+
+Ghoul#4567 - Bug Bot on 2018-05-21T21:52:50.194Z
+
+
+### Verified, MacOS 10.12.6, Canary 15701 - Clayton on 2018-05-21T21:59:30.940Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T21:59:38.773Z
+
+
+### Can reproduce.
+Huawei P10 Lite, Android 7.0, Discord Beta 6.7.3
+
+Vulpus Maximus#1400 - Bug Bot on 2018-05-22T05:19:45.791Z
+
+
+### Verified Fixed - Jared on 2018-07-11T22:54:24.112Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-11T22:54:28.049Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:13.832Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

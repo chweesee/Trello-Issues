@@ -1,0 +1,106 @@
+[Archived] In the permissions tab for a category, the top bar and some of permissions will say "channel settings" / be about channel settings. (https://trello.com/c/AGa5l6Da)
+
+P3 - Will be fixed eventually
+
+Created: 2017-09-09T21:47:04.617Z
+Latest Update: 2017-11-07T18:38:05.479Z
+
+Reported by Symplyfyed#4913
+
+####Steps to reproduce:
+- Make a server with a few categories and channels 
+- Edit a category  
+- Go to the permissions tab 
+- Observe the top bar saying "channel settings" instead of "category settings" 
+- Press add a role/a member 
+- Observe the permissions that you can manage. Some are missing. For example you cannot the category private (don't let a role see it) 
+- Optional see attachments
+
+####Expected result:
+The top bar and the permissions from the permissions tab should make reference to category/category settings. Also there should be the same permissions as on desktop (when adding a role/member and trying to manage the perms).
+####Actual result:
+The top bar some permissions from the permissions tab, makes reference to channel settings. And also some permissions are missing. For example you cannot set as a role to can't see a category (can't make the category private)
+####Client settings:
+Alpha 5.1.4
+####System settings:
+Android 4.4.4, Tablet Allview VIVAH8LTE
+
+4087
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-09T21:47:04.617Z
+
+
+### Symplyfyed#4913 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59b46158d733028fe0edd90d/46b52209b7df66473e7a3bc36b3d4bd3/Screenshot_2017-09-09-22-24-07.png added by Bug Bot on 2017-09-09T21:47:07.186Z
+
+
+### Symplyfyed#4913 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59b46158d733028fe0edd90d/3720b9e4ab3c763083f2ae9f997f26ea/Screenshot_2017-09-09-22-24-26.png added by Bug Bot on 2017-09-09T21:47:07.190Z
+
+
+### Can reproduce.
+CR - Android Alpha 5.1.4 - Google Pixel - Android 8.0.0
+
+Pointy#9109 - Bug Bot on 2017-09-09T21:47:12.169Z
+
+
+### Can reproduce.
+these two bugs should've been submitted separately Android​ 5.1 Discord 5.1.4
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-09-09T21:47:22.290Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 5.1.4
+
+Xander#0259 - Bug Bot on 2017-09-09T21:47:22.382Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android Nougat 7.0, Discord Android Alpha v5.1.4
+
+Zacatero#5839 - Bug Bot on 2017-09-10T01:44:13.856Z
+
+
+### Can reproduce.
+Samsung Galaxy Tab S3 (SM-T820), Android 7.0, Discord Alpha 5.1.4 (514)
+
+XaeonBE#2830 - Bug Bot on 2017-09-10T06:31:01.835Z
+
+
+### Can reproduce.
+Moto E4, Android 7.1.1, Discord 5.1.4 (514)
+
+BitRocket#0205 - Bug Bot on 2017-09-10T09:02:13.627Z
+
+
+### Moved from User Reported Bugs to Channel Category Bugs by Alexandru Todea on 2017-09-11T18:44:43.254Z
+
+
+### Splitting this up, do not group bugs together for future reference - Jeff Cailteux on 2017-09-14T02:19:41.182Z
+
+
+### Moved from Channel Category Bugs to Fix made, not yet released by Andy Garron on 2017-09-15T22:44:24.972Z
+
+
+### Moved from Fix made, not yet released to Channel Category Bugs by Andy Garron on 2017-09-15T22:44:39.480Z
+
+
+### Fixed top bar, the permission descriptions themselves still say "channel" - Andy Garron on 2017-09-15T22:45:02.266Z
+
+
+### Moved from Channel Category Bugs to User Reported Bugs by Jared on 2017-11-07T16:55:02.131Z
+
+
+### Same bug as https://trello.com/c/SiVwHfeG/804-channel-order-updated-system-message-appears-instead-of-category-order-updated-when-sorting-categories - Jared on 2017-11-07T18:38:04.108Z
+
+
+### Archived by Jared on 2017-11-07T18:38:05.483Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,56 @@
+[Archived] Can Edit Messages without being Verified (https://trello.com/c/Ydil8J7h)
+
+None
+
+Created: 2016-12-22T07:49:02.505Z
+Latest Update: 2017-10-17T21:06:51.484Z
+
+Reported by jagrosh#4824
+
+####Steps to reproduce: 
+- Send a message 
+- Become unable to send messages because of server verification, either by having the server level raised, or leaving and rejoining a server on the highest (10 minute) level 
+- Attempt to edit your previous message 
+
+####Expected result:
+ Similar to how you cannot edit messages when you are missing Send Messages permissions, it is expected that you cannot edit messages when under Server Verification level restrictions as well 
+####Actual result:
+ You can edit the message even without being able to send messages, which is inconsistent with Discord's permissions system
+
+Card Log
+========
+### Added by Jared on 2016-12-22T07:49:02.505Z
+
+
+### Can reproduce.
+Android 6.0 Alpha 3.2.3
+
+Dan (Deadpool)#5814 - Jared on 2016-12-22T11:22:31.921Z
+
+
+### Can't reproduce.
+Android 6.0 Alpha 3.2.3
+
+Dan (Deadpool)#5814 - Jared on 2016-12-22T12:33:26.725Z
+
+
+### I disagree with the statement that this is inconsistent with Discord's permissions system. None of those things have the intent of stopping you from editing previous messages, just sending new ones.
+
+That being said, this is functionality that we would probably benefit from having added. As such, it's a feature request and not a bug. - Jared on 2017-01-03T19:30:10.142Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2017-01-03T19:30:13.344Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:06:50.861Z
+
+
+### Archived by Jared on 2017-10-17T21:06:51.486Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,96 @@
+[Archived] +:emoji: to quick react doesn't work after the upgrade to React 16 (https://trello.com/c/LDOVzI4m)
+
+None
+
+Created: 2017-09-16T17:14:15.115Z
+Latest Update: 2017-11-15T19:22:37.300Z
+
+Reported by Tiemen#0107
+
+####Steps to reproduce:
+- Go to a channel and make sure you have permission to react 
+- Type +:emoji: with emoji being the name of an emoji you can use or a Twemoji (also make sure the latest message in the channel isn't a system message)
+
+####Expected result:
+Your reaction gets added to the message
+####Actual result:
+The reaction doesn't get added and it gets send as a normal message
+####Client settings:
+Canary 0.0.163 (build 4358)
+####System settings:
+Windows 10 Pro x64 Creators Update (1703)
+
+4398
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-16T17:14:15.115Z
+
+
+### Can reproduce.
+Canary Build 4358, Windows 10 x64
+
+Jake S.#8787 - Bug Bot on 2017-09-16T17:14:22.566Z
+
+
+### Can reproduce.
+CR Windows 7 64-bit, Discord Canary build 4358
+
+Zollak#4578 - Bug Bot on 2017-09-16T17:14:27.586Z
+
+
+### Can reproduce.
+Discord Canary v0.0.163 Windows 10 Home 64-bit
+
+Vap0r1ze#9585 - Bug Bot on 2017-09-16T17:14:32.587Z
+
+
+### Can reproduce.
+Canary 0.0.163, Windows 10 Home 64-bit (build 15063)
+
+Bloxxer#1958 - Bug Bot on 2017-09-16T17:16:16.238Z
+
+
+### Fixed as of build 4361
+
+Tiemen#0107 - Bug Bot on 2017-09-16T20:56:40.730Z
+
+
+### Can no longer reproduce, Win10 build 4361 - Mike Nisbet on 2017-09-16T21:04:23.673Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-09-16T21:04:29.957Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary v0.0.163
+
+André Paulo#8446 - Bug Bot on 2017-09-26T21:54:01.624Z
+
+
+### Fixed as of 4964 - b1naryth1ef on 2017-09-27T23:11:13.716Z
+
+
+### Tested on build 5005:
+
+I can no longer reproduce this myself. Using `+:emoji:` adds it as a reaction just fine to the last added message. - Alexander (DJScias) on 2017-09-28T18:05:34.986Z
+
+
+### Fixed.  - Clayton on 2017-10-04T00:12:12.588Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T00:12:16.085Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:22:36.599Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:22:37.302Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

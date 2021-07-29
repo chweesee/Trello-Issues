@@ -1,0 +1,94 @@
+[Archived] The nickname/username getting cut off on iOS (https://trello.com/c/lfPlTOr4)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-10-16T19:15:21.954Z
+Latest Update: 2017-12-23T10:54:00.394Z
+
+Reported by hujiba#3070
+
+####Steps to reproduce:
+-Change username/nickname to more than x characters (I’m not sure) 
+- Say something in the chat 
+- (not a step) I’m not exactly sure how this happens, and its hard to exactly replicate
+
+####Expected result:
+Full username/nickname should show
+####Actual result:
+Username/nickname is cut off, or only shows part. (ex. only shows [Owner] instead of [Owner] XXXXXXXXX, or cuts off the end.
+####Client settings:
+Discord iOS, version 1.9.2
+####System settings:
+iPhone 6, iOS 11.1 Beta 2
+
+5455
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-16T19:15:21.954Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59e50549e3c6f0533df86713/5bc919118b9bc71646a56464cc38ef77/GwrNvMB.jpg added by Bug Bot on 2017-10-16T19:15:24.613Z
+
+
+### Can reproduce.
+CR, iPhone SE, iOS 11.0.3, Discord TF build 1.9.2 (953)
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-16T19:15:29.520Z
+
+
+### Can reproduce.
+CR, iPhone 5C, iOS 10.3.3, TF 1.9.2 (953)
+
+wild binary#0802 - Bug Bot on 2017-10-16T19:15:34.540Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3, TestFlight 1.9.2 (953). Not sure if this is a issue but name will be cut off after 27 characters for my 4.7 inch iPhone. If you add a freespace after the first character for example and add at least 26 characters after it, you will only see the first character and the residual completley disappears. See my attached pictures for this example.
+
+Pascal#0929 - Bug Bot on 2017-10-16T19:15:39.552Z
+
+
+### This error doesn't occur on plus models (iPhone 6s Plus etc.)
+
+Niklas#3627 - Bug Bot on 2017-10-16T19:22:48.754Z
+
+
+### Can reproduce.
+I am sure that this only happens on devices with small displays like 5/5C/5S/SE but Pascal said it also happens on larger non-plus devices. iOS 11.1 Developer Beta, TF 1.9.2 (953), iPhone 5S
+
+Lasse#4890 - Bug Bot on 2017-10-17T11:22:49.313Z
+
+
+### Can reproduce.
+iPhone SE, iOS 10.3.2, TestFlight 1.9.1
+
+TimThe#7618 - Bug Bot on 2017-10-17T12:35:56.873Z
+
+
+### I believe this only happens where a username has a space in it, and the username length gets trimmed at that space. e.g.
+`a reallylongusernamehere` will trim to `a` - Mike Nisbet on 2017-11-17T22:27:13.451Z
+
+
+### Can reproduce. Used `a wwwwwwwwwwwwwwwww`. - Jared on 2017-11-20T22:09:31.050Z
+
+
+### This is so minor and such an edge case that I'm calling this a Won't Fix. - Jared on 2017-11-20T22:09:56.381Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-11-20T22:09:59.675Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-23T10:53:58.629Z
+
+
+### Archived by Alexandru Todea on 2017-12-23T10:54:00.401Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

@@ -1,0 +1,105 @@
+[Archived] Slowmode "Enabled" by Default (https://trello.com/c/6Ueon6mb)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-09-27T23:28:40.704Z
+Latest Update: 2019-04-29T04:30:27.357Z
+
+Reported by DeJay#1337
+
+####Steps to reproduce:
+- Create a new channel 
+- View audit log entry for "created a text channel #channelname"
+
+####Expected result:
+Entry 2 in this list should not be displayed, especially because slowmode cannot be 1 second.
+####Actual result:
+Entry 2 is shown, and slowmode isn't even enabled!
+####Client settings:
+Discord Canary 0.0.212 (Build: 24853)
+####System settings:
+Windows 10 Home (1803) x64
+
+20242
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-27T23:28:40.704Z
+
+
+### DeJay#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bad67a8961f3f142ccc7f66/58c57e4d38d42df01dcc27f0e000fe5f/cefeb.png added by Bug Bot on 2018-09-27T23:28:43.248Z
+
+
+### Can reproduce.
+CR, macos 10.12.6, canary 24815
+
+IcyPebbles#5833 - Bug Bot on 2018-09-27T23:28:47.961Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 24853
+
+Kuuhaku#4503 - Bug Bot on 2018-09-27T23:28:52.960Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 24853
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-09-27T23:28:57.976Z
+
+
+### verified.  - Clayton on 2018-09-28T00:47:02.318Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-28T00:47:13.453Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 24853
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-28T08:34:10.121Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:41.636Z
+
+
+### Fixed canary 34822 - Tarek on 2019-03-30T00:18:01.194Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2019-03-30T00:18:06.300Z
+
+
+### Unarchived by Tarek on 2019-03-30T00:18:06.437Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Discord Canary 34822
+
+Daffyduck#5364 - Bug Bot on 2019-03-30T01:38:23.544Z
+
+
+### Can't reproduce.
+macos 10.14.4, Canary 34822
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-30T02:01:00.099Z
+
+
+### Can't reproduce.
+Can not Reproduce. Win 10 Pro x64 (1809), Canary 34822
+
+Clay#0001 - Bug Bot on 2019-03-30T04:16:09.953Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-03-30T04:16:10.185Z
+
+
+### Archived by Bug Bot on 2019-04-29T04:30:27.367Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

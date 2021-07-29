@@ -1,0 +1,153 @@
+[Archived] [ENABLE 2FA] Typing in an incorrect 2FA code doesn't remove the numbers (https://trello.com/c/XftliwWx)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-01T21:18:34.502Z
+Latest Update: 2019-06-10T20:43:14.520Z
+
+Reported by Bsian#0060
+
+####Steps to reproduce:
+- If you have 2FA enable, disable it 
+- Enable 2FA 
+- When you reach the login with 2FA screen, type in any random 6 numbers 
+- For comparison, complete the 2FA setup, then log out 
+- Log in 
+- In the 2FA login screen, enter any 6 numbers
+
+####Expected result:
+The number fields should erase, allowing you to attempt another code
+####Actual result:
+The numbers aren't erased
+####Client settings:
+Android Alpha 8.5.3M
+####System settings:
+Mi A2, Android 9, Feb 2019 update
+
+30088
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-01T21:18:34.502Z
+
+
+### Bsian#0060 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c79a1aa730711079c4307fb/611c1d2e39c2e9826a10fa472595eeb1/Screenshot_20190301-184917.png added by Bug Bot on 2019-03-01T21:18:37.505Z
+
+
+### Can reproduce.
+Pocophone F1, Android 9 with MIUI 10.2, Alpha 8.5.2
+
+dafaqed#1312 - Bug Bot on 2019-03-01T21:18:42.384Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Ace 3, Android 8.0.0, Discord 8.5.3
+
+Lelantos#4866 - Bug Bot on 2019-03-01T21:18:46.866Z
+
+
+### Can reproduce.
+Samsung Galaxy S9+ Android 9.0 Discord 8.5.3
+
+Zacatero#0001 - Bug Bot on 2019-03-01T21:18:51.831Z
+
+
+### Can reproduce.
+Samsung S8, Android 9.0, 8.5.2
+
+Mr. Proper#2394 - Bug Bot on 2019-03-01T22:43:59.492Z
+
+
+### Can reproduce.
+Moto G6, Android O, 853
+
+Sanjay#0540 - Bug Bot on 2019-03-02T02:14:20.886Z
+
+
+### Can reproduce.
+Android Samsung Galaxy S9 9.0.0, 8.5.0
+
+OldWampa#7897 - Bug Bot on 2019-03-02T02:14:51.317Z
+
+
+### Can reproduce.
+Android Samsung Galaxy S9 9.0.0, 8.5.3
+
+OldWampa#7897 - Bug Bot on 2019-03-02T02:16:40.970Z
+
+
+### Moved from User Reported Bugs to 2FA Bugs by Clayton on 2019-03-02T03:19:15.450Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8, Android 8.0 - Alpha 8.5.3
+
+J1#0088 - Bug Bot on 2019-03-02T05:32:14.975Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (8.1.0) | Discord Alpha 8.5.3
+
+Clay#0001 - Bug Bot on 2019-03-02T05:37:50.942Z
+
+
+### Can reproduce.
+Samsung Galaxy S9 Android 9.0 Discord 8.5.3
+
+tech_dude1#9855 - Bug Bot on 2019-03-02T06:16:22.709Z
+
+
+### Can reproduce.
+Samsung Galaxy S9 Android 9.0 Discord 8.5.3
+
+tech_dude1#9855 - Bug Bot on 2019-03-02T06:22:27.237Z
+
+
+### Can reproduce.
+cr. Alpha 8.5.3 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-03-02T07:27:46.346Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 854
+
+The Lunala#6877 - Bug Bot on 2019-03-02T09:03:44.648Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.4
+
+Skyla#0002 - Bug Bot on 2019-03-02T12:00:10.540Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.5.4
+
+Lily#2624 - Bug Bot on 2019-03-02T18:28:10.009Z
+
+
+### Moved from 2FA Bugs to Verified Bugs by Jeff Cailteux on 2019-03-21T16:11:52.555Z
+
+
+### Archived by Bug Bot on 2019-04-20T16:30:09.116Z
+
+
+### Can reproduce.
+can still reproduce Kyocera Hydro Wave Android 5.1 discord 888
+
+Okori#0902 - Bug Bot on 2019-04-30T03:06:56.990Z
+
+
+### Unarchived by Bug Bot on 2019-04-30T03:30:07.595Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:14.536Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

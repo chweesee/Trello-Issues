@@ -1,0 +1,96 @@
+[iPad only] Rotating your iPad while having message action sheets opened causes them to shrink (https://trello.com/c/JvUaHBXJ)
+
+None
+
+Created: 2019-10-07T11:40:34.221Z
+Latest Update: 2020-02-15T14:08:28.822Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Long hold any message to open the action sheet 
+- Rotate your iPad (1 or 2 times needed, depending on your initial orientation) 
+- Observe the message action sheet
+
+####Expected result:
+The message action sheet should keep the same size when rotating your iPad.
+####Actual result:
+Depending on the amount of actions that is shown in the action sheet it can completely disappear or just shrink a bit.
+####Client settings:
+TestFlight 3.1.4 (17575)
+####System settings:
+iPad Pro (11-inch), iPadOS 13.1.2
+
+45229
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-07T11:40:34.221Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5d9b2432f4a4571d02bc0d4c/92f045288452d637fdbd66c6a587f1c6/pwXhNBa.jpg added by Bug Bot on 2019-10-07T11:40:37.049Z
+
+
+### Can reproduce.
+iPad Mini 4, iOS 13.1.2, TestFlight 3.1.4 (17575)
+
+aenami#0001 - Bug Bot on 2019-10-07T11:40:41.704Z
+
+
+### Can reproduce.
+Can reproduce on iPad Pro 11" - iPadOS 13.1.2 - TestFlight 3.1.4 (17575)
+
+Ayu#0001 - Bug Bot on 2019-10-07T11:40:46.667Z
+
+
+### Can reproduce.
+CR iPhone XR iOS 13.1.2 TestFlight 3.1.4 (17575)
+
+binchlord#0998 - Bug Bot on 2019-10-07T11:40:52.335Z
+
+
+### Moved from New Issues to Friends List by Jonathan Wu on 2019-10-07T19:12:26.817Z
+
+
+### Moved from Friends List to Media & Emoji Keyboard by Jonathan Wu on 2019-10-07T19:12:27.269Z
+
+
+### Moved from Media & Emoji Keyboard to Voice call refresh by Jonathan Wu on 2019-10-07T19:12:28.088Z
+
+
+### Moved from Voice call refresh to Nitro by Jonathan Wu on 2019-10-07T19:12:28.439Z
+
+
+### Moved from Nitro to User Profile by Jonathan Wu on 2019-10-07T19:12:29.052Z
+
+
+### Moved from User Profile to Tabs by Jonathan Wu on 2019-10-07T19:12:29.336Z
+
+
+### Moved from Tabs to Action Sheets by Jonathan Wu on 2019-10-07T19:12:29.595Z
+
+
+### Can reproduce.
+iPad Pro 12.9” (iPadOS 13.1.2), Testflight (17575)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-07T22:16:45.183Z
+
+
+### Can reproduce.
+iPad Pro 10" 2017 - iPadOS 13.1.2 - Testflight 3.1.4 (17575)
+
+Frances Picard#6209 - Bug Bot on 2019-10-08T00:11:29.849Z
+
+
+### Can reproduce.
+iPad 7: iPadOS 13.3.1; TestFlight 3.2.0 (19079)
+
+Jiralite#1207 - Bug Bot on 2020-02-15T14:08:28.834Z
+
+List
+====
+Action Sheets
+
+Members
+=======
+None

@@ -1,0 +1,84 @@
+[Archived] CTRL+, shortcut does not conflict in keybindings settings (https://trello.com/c/0jSVJU97)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-31T11:40:48.525Z
+Latest Update: 2018-10-22T20:15:36.040Z
+
+Reported by mcmacker4#0079
+
+####Steps to reproduce:
+- in settings create a new keybinding 
+- set the action to toggle mute and the keybind to CTRL+, 
+- exit settings and press CTRL+,
+
+####Expected result:
+Should give the "keybinding conflicts" alert (as happens if you try to bind CTRL+K) and override the default action (opening settings).
+####Actual result:
+No alert is shown in settings, both actions occur when using CTRL+, (mute and open settings)
+####Client settings:
+Discord Canary 0.0.163
+####System settings:
+Win 10 x64 (creators update)
+
+3831
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-31T11:40:48.525Z
+
+
+### Oasis#4730 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59a7f5c0a34c64cd3a137ae7/3f165a0c9ccb9fdacb285331aaf1484b/unknown.png added by Bug Bot on 2017-08-31T11:40:51.235Z
+
+
+### Ten#1723 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59a7f5c0a34c64cd3a137ae7/aa10607a7569dcfa8d35f6486c10d51a/XTdnuFFpTMOj6lkMlBwyhA.png added by Bug Bot on 2017-08-31T11:40:51.347Z
+
+
+### Can reproduce.
+Canary 0.0.163 + Windows 10
+
+Oasis#4730 - Bug Bot on 2017-08-31T11:40:56.130Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-31T11:41:01.090Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163, Windows 10 x64
+
+Tetey#6918 - Bug Bot on 2017-08-31T11:41:06.114Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 1607, Discord Canary Desktop 0.0.163
+
+Ali365Dash#6692 - Bug Bot on 2017-08-31T15:59:04.223Z
+
+
+### Verified.  - Clayton on 2017-09-08T21:25:07.736Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-08T21:25:26.848Z
+
+
+### This is a rare enough edge case I don't see this as being a P2. Changing to P3. - Jared on 2017-10-16T23:47:01.513Z
+
+
+### Can reproduce.
+Win10 x64 Canary 12217
+
+cutelilberry#5423 - Bug Bot on 2018-03-17T16:42:39.824Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:36.043Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,147 @@
+[Archived] Unable to mark all channels under a category as read in a muted channel. (https://trello.com/c/fcqcJfQs)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-12-14T00:37:02.290Z
+Latest Update: 2019-06-05T20:11:05.792Z
+
+Reported by Andy#4082
+
+####Steps to reproduce:
+- Login to Discord. 
+- Go to any server that you have muted. 
+- Right click category, and you'll see the option "mark as read" is greyed out. 
+- It works fine on servers not muted and requires a restart for it to kick into effect.
+
+####Expected result:
+Should be able to mark category as read thus marking channels under it as read as well.
+####Actual result:
+It's greyed out so unable to use (only when server is muted).
+####Client settings:
+Discord Web and Discord 0.0.175 (Build 8543) and Discord Canary 0.0.172 (Build 8596)
+####System settings:
+macOS High Sierra 10.13.2
+
+6969
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-14T00:37:02.290Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.2, Discrd Canary 0.0.172 (Build: 8486)
+
+Pascal#0929 - Bug Bot on 2017-12-14T00:37:09.720Z
+
+
+### Can reproduce.
+cr | Canary Web [BUILD INFO] Release Channel: canary, Build Number: 8541, Version Hash: 85213f26118124ca302640e43d16f48d4f4da918 | iMac (Retina 4K, 21.5-inch, Late 2015) - El Capitan 10.11.6
+
+Rauf#3260 - Bug Bot on 2017-12-14T00:37:14.707Z
+
+
+### Can reproduce.
+macOS 10.12.6, Discord Canary 0.0.172
+
+IcyPebbles!#5833 - Bug Bot on 2017-12-14T00:37:19.709Z
+
+
+### Andy#4082 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a31c7aea35d3ce0d7edc61d/85aad2b6870bfa51f1a3730460871795/Screen_Shot_2017-12-15_at_4.53.03_am.png added by Bug Bot on 2017-12-14T20:56:01.204Z
+
+
+### Andy#4082 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a31c7aea35d3ce0d7edc61d/33a050167a78c26ccd6a4990c7a7ceed/Screen_Shot_2017-12-15_at_4.52.54_am.png added by Bug Bot on 2017-12-14T20:56:09.034Z
+
+
+### Verified.  - Clayton on 2017-12-15T01:09:25.528Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-15T01:09:29.942Z
+
+
+### Can reproduce.
+Ubuntu 17.10 x64, Canary 12159 - Apparently it isn't MacOS specific. Proof: https://i.imgur.com/CaYda25.png
+
+KJP12#3880 - Bug Bot on 2018-03-17T00:33:43.989Z
+
+
+### It always works for all categories when the whole servers is muted. Also make sure to reload your client after muting the server/channels to see the bug.
+
+Pascal#0929 - Bug Bot on 2018-07-01T10:23:50.491Z
+
+
+### I can repro on Windows, removing macos label. - Tarek on 2018-07-01T10:27:05.215Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 18051
+
+MoonlightCapital#0554 - Bug Bot on 2018-07-01T11:51:26.045Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 25648
+
+william#0002 - Bug Bot on 2018-10-07T21:25:33.637Z
+
+
+### Can reproduce.
+Discord Stable 28393 - Windows 10 Home x64
+
+Nicolai9852#6731 - Bug Bot on 2018-11-26T08:42:07.918Z
+
+
+### Can reproduce.
+Windows 10 Home v1803 - Canary Build 29756
+
+SaltyPotato#0006 - Bug Bot on 2018-12-15T02:29:03.328Z
+
+
+### Archived by Bug Bot on 2019-01-14T02:30:03.242Z
+
+
+### Can reproduce.
+Win 10 Home 64-bit Canary Build 30825
+
+AndyMac#0001 - Bug Bot on 2019-01-14T05:05:33.256Z
+
+
+### Unarchived by Bug Bot on 2019-01-14T05:30:05.777Z
+
+
+### Can reproduce.
+CR - Windows 10 Home - Canary 31792
+
+Nicolai9852#6731 - Bug Bot on 2019-02-04T08:58:28.282Z
+
+
+### Can reproduce.
+CR MacOS 10.12.6 Sierra Mac Pro (Mid 2010) Canary Build 33117
+
+Starfield_9#8660 - Bug Bot on 2019-03-03T17:47:10.310Z
+
+
+### Can reproduce.
+Windows 10 x64 35059
+
+Zacatero#0001 - Bug Bot on 2019-04-04T02:42:04.855Z
+
+
+### This is actually a duplicate of https://trello.com/c/qRxyAZLp which is marked as Not a Bug.
+
+So moving this ticket to NAB, then archiving it. - Ghoul on 2019-06-05T20:10:57.318Z
+
+
+### Moved from Verified Bugs to Not a Bug by Ghoul on 2019-06-05T20:11:04.692Z
+
+
+### Archived by Ghoul on 2019-06-05T20:11:05.805Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

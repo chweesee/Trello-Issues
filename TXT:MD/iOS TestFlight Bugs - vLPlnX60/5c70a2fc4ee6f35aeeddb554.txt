@@ -1,0 +1,107 @@
+[Archived] Receiving a mention while Discord is in the background will still show the in-app notif if switches to Discord (https://trello.com/c/s04nrpAd)
+
+P3 - Will be fixed eventually
+
+Created: 2019-02-23T01:33:49.046Z
+Latest Update: 2019-06-27T19:00:09.192Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Make sure you're able to receive in-app notifications 
+- Open Discord and then put Discord in the background 
+- Either have someone mention you, or use a bot to ping yourself on another device while Discord is in the background 
+- Wait around 5 to 10 seconds so that the in-app notif would have appeared and disappeared 
+- Reopen the app, and watch the screen for around 5 to 10 seconds
+
+####Expected result:
+In-app notif doesn't appear since the mention was already received and the in-app notif would have disappeared
+####Actual result:
+In-app notif appears despite enough time having passed that it would have disappeared
+####Client settings:
+TestFlight 2.4.5 (11460)
+####System settings:
+iPhone 6s iOS 12.2 Dev Beta 3
+
+29562
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-23T01:33:49.046Z
+
+
+### Can reproduce.
+CR, iPhone 7+, IOS 12.1.4, TestFlight 2.4.5
+
+Canine8_YT#4263 - Bug Bot on 2019-02-23T01:33:56.354Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.1.4 - TestFlight 2.4.5 (11460)
+
+Daffyduck#5364 - Bug Bot on 2019-02-23T01:34:01.347Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11460)
+
+Solo#0007 - Bug Bot on 2019-02-23T01:34:06.366Z
+
+
+### Can reproduce.
+CR // iPhone SE, iOS 12.1.4, TestFlight 2.4.5 (11460)
+
+Trash™#3939 - Bug Bot on 2019-02-23T02:39:23.148Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iOS 11.2.6, Testflight 2.4.5 (11460)
+
+Ichigo SEC#1998 - Bug Bot on 2019-02-23T02:50:27.500Z
+
+
+### Can reproduce.
+iPhone X, IOS 12, TestFlight 2.4.5
+
+Mr. Proper#2394 - Bug Bot on 2019-02-23T08:11:19.101Z
+
+
+### Can reproduce.
+iPhone 7 Plus TestFlight 2.4.5
+
+Killtracity#0001 - Bug Bot on 2019-02-23T15:24:40.522Z
+
+
+### Can reproduce.
+ipad air 2, ios 12.1.4, TestFlight 2.4.5 (11524)
+
+M24#0272 - Bug Bot on 2019-02-23T15:38:48.308Z
+
+
+### Can reproduce.
+iPhone SE // iOS 12.1.4 // TestFlight 2.4.5 [11460]
+
+Trash™#3939 - Bug Bot on 2019-02-24T13:10:33.988Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-03-08T19:00:13.231Z
+
+
+### This sounds like it should belong into In app notification Category. So moving there. - Ghoul on 2019-04-02T04:59:57.186Z
+
+
+### Moved from Backlog to In-App Notifications by Ghoul on 2019-04-02T05:00:02.148Z
+
+
+### Moved from In-App Notifications to Backlog by Victoria on 2019-05-28T18:38:35.513Z
+
+
+### Archived by Bug Bot on 2019-06-27T19:00:09.209Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

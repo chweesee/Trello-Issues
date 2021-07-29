@@ -1,0 +1,74 @@
+[Archived] External GIFs don't autoplay (resubmission of an old CNR archived ticket <https://trello.com/c/wDjwGE2Y>) (https://trello.com/c/W6cB5Z2I)
+
+None
+
+Created: 2018-05-18T23:29:37.312Z
+Latest Update: 2018-07-06T18:53:50.642Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- On Desktop, use the /giphy command and send a GIF link in chat 
+- View the channel where it was posted in on Android
+
+####Expected result:
+Gif preview should autoplay
+####Actual result:
+No autoplay
+####Client settings:
+Discord Alpha 6.7.4
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13008
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-18T23:29:37.312Z
+
+
+### Can reproduce.
+Discord Alpha 6.7.4, Android 7.0, Samsung S6 Edge
+
+IcyPebbles!#5833 - Bug Bot on 2018-05-18T23:29:44.841Z
+
+
+### Can reproduce.
+Can Reproduce, ZTE Blade A602, Android Nougat 7.0, Discord Android Alpha 6.7.4 (674).
+
+Ghostly#0001 - Bug Bot on 2018-05-18T23:29:49.817Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 6.7.4
+
+webhp#1337 - Bug Bot on 2018-05-18T23:29:54.839Z
+
+
+### Can reproduce.
+Discord 6.7.4(674) - Wiko LENNY2 - Android 5.1
+
+Diogolo#0796 - Bug Bot on 2018-05-19T04:29:33.066Z
+
+
+### Embeds like giphy are actually mp4s in order to same memory. Some gifs are to large to directly render, so we don't load them if there's an mp4 reference.
+
+Other factors are also a reason why we don't auto play, but I'm general this is a feature request
+  - Sam Shih on 2018-05-19T17:43:32.724Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Sam Shih on 2018-05-19T17:43:45.430Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:53:49.858Z
+
+
+### Archived by Jared on 2018-07-06T18:53:50.644Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

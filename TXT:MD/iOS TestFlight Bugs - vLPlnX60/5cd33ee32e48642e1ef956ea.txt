@@ -1,0 +1,111 @@
+[Archived] Discord crashes and restarts when the other person quickly answers a DM call (https://trello.com/c/Wc3XowT5)
+
+P0 - Need an immediate fix
+
+Created: 2019-05-08T20:41:07.707Z
+Latest Update: 2019-06-08T20:00:21.796Z
+
+Reported by chaNcharge#6969
+
+####Steps to reproduce:
+- Start a DM call 
+- Have the other person quickly answer, usually within 2-3 seconds of recieving it 
+- Discord will crash and restart automatically
+
+####Expected result:
+It starts the call as normal
+####Actual result:
+It crashes, shows the call failed screen, then restarts
+####Client settings:
+TestFlight 3.0.1 (14737)
+####System settings:
+iPhone XS Max iOS 12.2
+
+34216
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-08T20:41:07.707Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.3 (Dev Beta 5), TestFlight 3.0.1 (TF was down so I couldn't get my build number), this only happens for DM video calls, the app hangs then restarts
+
+Keons#0001 - Bug Bot on 2019-05-08T20:41:15.229Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS 12.2, TestFlight 3.0.1 (14737) - For me it only crashed when calling users who are not you friend
+
+Pascal#0929 - Bug Bot on 2019-05-08T20:41:20.156Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 3.0.1 (14737)
+
+OrangeM24#5746 - Bug Bot on 2019-05-08T20:41:25.253Z
+
+
+### Moved from New Issues to Notable Issues by Victoria on 2019-05-08T21:07:25.229Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14737)
+
+Daffyduck#5364 - Bug Bot on 2019-05-08T22:48:03.678Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Fanghao on 2019-05-08T22:50:20.137Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2019-05-09T01:00:29.085Z
+
+
+### Can reproduce.
+Still reproduces, but now a lot less often, usually when the phone receives the call now; iPhone XS Max iOS 12.2, TestFlight 14776
+
+chaNcharge#6969 - Bug Bot on 2019-05-09T01:25:17.071Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, testFlight 3.0.1 (14776)
+
+OrangeM24#5746 - Bug Bot on 2019-05-09T01:51:54.583Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14776)
+
+Daffyduck#5364 - Bug Bot on 2019-05-09T05:06:38.474Z
+
+
+### Can reproduce.
+iPhone X 12.3, TestFlight 3.0.1 (14776) | It’s happening more often than just in the way this person has described
+
+Wiz_Techno#0001 - Bug Bot on 2019-05-09T12:14:29.299Z
+
+
+### Can't reproduce.
+iPhone 8 Plus, iOS 12.2 - TestFlight 3.0.1 (14776)
+
+Pascal#0929 - Bug Bot on 2019-05-09T19:51:58.867Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.3 (dev beta 5) - TestFlight 3.0.1 (14776)
+
+Xylium#5800 - Bug Bot on 2019-05-09T19:54:44.937Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-09T19:54:45.155Z
+
+
+### Archived by Bug Bot on 2019-06-08T20:00:21.807Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

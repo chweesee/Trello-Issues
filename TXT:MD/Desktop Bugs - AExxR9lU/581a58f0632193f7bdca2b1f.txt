@@ -1,0 +1,81 @@
+[Archived] If the user doesn't have the permission to manage the general channel of the server, managing webhooks through Server Settings throws an error because it attempts to create the default webhook on the general channel but fails. (https://trello.com/c/QiNCex8a)
+
+P2: Fix can wait a while
+
+Created: 2016-11-02T21:21:52.099Z
+Latest Update: 2017-11-15T19:10:00.123Z
+
+Reported by Arm1stice#2011
+
+####Steps to reproduce: 
+- Have server wide Manage Webhooks permission 
+- Don't have the permission to manage the general channel 
+- Have the permission to access Server Settings 
+- Attempt to create a webhook through server settings 
+
+####Expected result:
+ The webhook is created on a channel that you can manage 
+####Actual result:
+ An internal error is thrown as shown in the attachment, because of reasons explained above (For KockaAdmiralac#9306)
+
+Card Log
+========
+### Added by Jared on 2016-11-02T21:21:52.099Z
+
+
+### Arm1stice#2011 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/581a58f0632193f7bdca2b1f/c1bd8f3bd644a1dab30348d06f3fcbfa/gpp3FKo.png added by Jared on 2016-11-02T21:22:17.561Z
+
+
+### Can reproduce.
+Is only the case if the manage webhooks permission is not avalible on the general channel, not manage channel permision.
+
+picapi_#9345 - Jared on 2016-11-02T21:27:03.235Z
+
+
+### Can reproduce.
+Canary, Windows 10
+
+KockaAdmiralac#9306 - Jared on 2016-11-02T21:30:40.625Z
+
+
+### Verified - Jared on 2016-11-04T20:51:19.978Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-11-04T20:51:22.739Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-29T16:31:08.240Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by b1naryth1ef on 2017-09-25T21:41:26.587Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by b1naryth1ef on 2017-09-25T21:41:42.287Z
+
+
+### Tested on build 4820:
+
+I can no longer reproduce this myself. It seems that if you have server-wide manage webhooks you can now make webhooks for whatever channel (channel permissions or not) as long as it's selectable from the drop-down option in the webhook menu. No errors or anything. - Alexander (DJScias) on 2017-09-26T09:43:37.473Z
+
+
+### Verified fixed! - Clayton on 2017-09-27T23:23:30.608Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-09-27T23:23:35.162Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:09:54.328Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:10:00.126Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

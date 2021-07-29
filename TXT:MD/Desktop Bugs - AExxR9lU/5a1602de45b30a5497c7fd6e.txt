@@ -1,0 +1,91 @@
+[Archived] Desktop app crashes on language change if viewing My account in User settings (https://trello.com/c/BCjXOiEY)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-11-22T23:06:06.142Z
+Latest Update: 2018-08-21T23:35:50.363Z
+
+Reported by GospodinCrni#2565
+
+####Steps to reproduce:
+- On desktop app, click on User Settings which should open My Account tab 
+- On android device, open Language tab in User Settings 
+- Make sure "Sync across clients" on your android device is enabled 
+- Using your android device, change the language
+
+####Expected result:
+Desktop app should reload and use new language
+####Actual result:
+Desktop app crashes
+####Client settings:
+Desktop Canary, build 7569
+####System settings:
+Win 7 Ulti x64
+
+6560
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T23:06:06.142Z
+
+
+### GospodinCrni#2565 - https://i.imgur.com/tVBXrMX.gifv added by Bug Bot on 2017-11-22T23:06:08.548Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Fall Creators Update Build 7569
+
+Azrael#9808 - Bug Bot on 2017-11-22T23:06:13.505Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary 0.0.180 (7569)
+
+Ten 🎁#1723 - Bug Bot on 2017-11-22T23:06:18.485Z
+
+
+### Can reproduce.
+CR Windows 7 x64, Canary Build 7569
+
+Finny Aldan#0633 - Bug Bot on 2017-11-22T23:06:23.680Z
+
+
+### Can reproduce.
+Dell Latitude e5540 (Intel Core i7 - 4th generation) with Windows 10 Pro x64, Discord Canary 7620. Changed the language settings with iPhone 8 +, Discord TestFlight 2.0.1 (1610), and iOS 11.2 (Public Beta 4)
+
+🍁 Ghoul 🍁#4567 - Bug Bot on 2017-11-22T23:11:34.100Z
+
+
+### Verified.  - Clayton on 2017-11-28T21:18:23.072Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-28T21:18:26.226Z
+
+
+### Can reproduce.
+Windows 10 Prox 64 There is a different result now, the client does reload but after your account information is gone and it says you have a new account that you must claim an dupdate
+
+Azrael#6867 - Bug Bot on 2018-03-17T16:21:47.433Z
+
+
+### This bug was checked during the Trello Cleanup event, and is no longer reproducible. What it does now is that it makes your account to become unclaimed (at least look like it.) The ticket has already been made here: https://trello.com/c/makkJGQL/1698-changing-the-language-of-discord-on-another-device-causes-it-the-desktop-app-to-think-that-the-account-is-unclaimed
+
+Used Windows 10 Home x64 (1803) and Windows 10 Pro x64 with Discord Canary Build 18197. Because I am no longer able to reproduce this bug, I'm moving it to Claimed Fixed. - Ghoul on 2018-07-06T00:29:41.090Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ghoul on 2018-07-06T00:29:51.491Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:35:49.248Z
+
+
+### Archived by Jared on 2018-08-21T23:35:50.366Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,100 @@
+[Archived] Spotify rich presence stays until reopen app and stop song manually, the timer of the song gets in a loop (https://trello.com/c/Nkmf842F)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2019-01-28T21:44:31.778Z
+Latest Update: 2019-08-16T21:25:00.598Z
+
+Reported by Furka'n#0001
+
+####Steps to reproduce:
+- Listen some song on spotify and let your mobile show it 
+- Force close app from recent applications 
+- The song can stay forever , will refresh the time even you are not listening
+
+####Expected result:
+Rich presence should be gone because the app is closed, we are not listening anymore
+####Actual result:
+The richpresence stays forever, refreshes the timer of spotify
+####Client settings:
+Alpha 8.3.5G
+####System settings:
+Samsung Galaxy S7, Android 8.0.0
+
+27234
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-28T21:44:31.778Z
+
+
+### Can reproduce.
+CR, tried it with a short song, although it happened with every type of length in the past and now — Samsung Galaxy S6, Android 7.0, Discord Alpha 8.3.5g
+
+Law of Royale#6825 - Bug Bot on 2019-01-28T21:44:39.227Z
+
+
+### Can reproduce.
+CR, Nexus 5x, Android 8.1, Alpha 8.3.5g
+
+criptixo#0001 - Bug Bot on 2019-01-28T21:44:44.149Z
+
+
+### Can reproduce.
+Huawei P8 lite (ALE-L21), Android 6.0.0, Discord Alpha @ 8.3.5G
+
+enkiel#8029 - Bug Bot on 2019-01-28T21:44:49.227Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 835G
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-29T01:39:28.446Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 835g - Clayton on 2019-01-29T05:15:47.394Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-29T05:15:56.150Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.3.5G
+
+Skyla#7948 - Bug Bot on 2019-01-29T09:21:41.616Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 9 (Pie),Discord Alpha 8.3.5g
+
+Octillion#6666 - Bug Bot on 2019-01-30T01:16:32.731Z
+
+
+### Can't reproduce.
+- Moto G5s, Android 8.1.0 • Discord 839g
+
+spudpotato#2019 - Bug Bot on 2019-02-05T07:17:05.739Z
+
+
+### Archived by Bug Bot on 2019-03-07T07:30:02.388Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Discord Alpha 9.0.9
+
+Danijel#9000 - Bug Bot on 2019-06-06T16:49:06.549Z
+
+
+### Unarchived by Bug Bot on 2019-06-06T17:00:04.726Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:25:00.610Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

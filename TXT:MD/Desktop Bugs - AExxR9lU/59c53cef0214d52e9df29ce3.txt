@@ -1,0 +1,157 @@
+[Archived] Some YouTube videos crash client while in full screen. (https://trello.com/c/6iCcjqrp)
+
+None
+
+Created: 2017-09-22T16:40:15.265Z
+Latest Update: 2017-12-12T19:27:23.428Z
+
+Reported by Rauf I.#3260
+
+####Steps to reproduce:
+- Find a YouTube video *some might not work* The attached one is a perfect example 
+- Hit Play 
+- Go Fullscreen 
+- wait as client freezes 
+- try to quit canary 
+- wait for javascript error 
+- hit ok 
+- client has the video as fullscreen after hitting ok 
+- hit esc to get out of video 
+- client finally closes
+
+####Expected result:
+The video should load in full screen just fine
+####Actual result:
+Client Freezes, Can't Close Canary, Gets JavaScript Error
+####Client settings:
+Canary 0.0.163
+####System settings:
+Windows 10 x64 Creators Update
+
+4671
+
+---
+[Elegantt data. What's this?](http://bit.ly/elegantt-for-trello-whats-this)
+[](Elegantt_data:dont_delete{"ignored":false,"autoPlanned":false,"ownerId":false,"dependencies":[]})
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-22T16:40:15.265Z
+
+
+### Rauf I.#3260 - https://www.youtube.com/watch?v=Vm2tMG30Z3E added by Bug Bot on 2017-09-22T16:40:17.737Z
+
+
+### Rauf I.#3260 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59c53cef0214d52e9df29ce3/cce17b8ec8ea98d82e6f1be198100b9b/ig36LUU.png added by Bug Bot on 2017-09-22T16:40:17.781Z
+
+
+### Can reproduce.
+Windows 10 x64 1703, canary, Build Number: 4712. As soon as go Full screen all controls of the youtube window freeze quiting discord doesn't help I have to force exit it thorugh task manager. task manager show the memory keeps increasing from 150~mb up to 450~mb and probably even further if you keep it running, even after the video is done playing.
+
+Dunciboy#2559 - Bug Bot on 2017-09-22T16:40:22.745Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10 xfce, Discord Canary 0.0.24 Build 4743
+
+Starshine Dust#2189 - Bug Bot on 2017-09-22T16:40:27.730Z
+
+
+### Can reproduce.
+Discord Canary 4743, Windows 7 Professional 64 bit
+
+!  Ender 🏹#3042 - Bug Bot on 2017-09-22T16:40:32.862Z
+
+
+### Can't reproduce.
+=w
+
+erykol#9716 - Bug Bot on 2017-09-22T19:35:04.298Z
+
+
+### more success rate on fresh startup compared to having it opne for a while
+
+Rauf#3260 - Bug Bot on 2017-09-23T01:31:07.386Z
+
+
+### javascript error doesnt come up al the time
+
+Rauf#3260 - Bug Bot on 2017-09-23T01:31:42.738Z
+
+
+### Can reproduce.
+windows 10x64 canary build number 4820
+
+AEnterprise#4693 - Bug Bot on 2017-09-24T13:32:56.123Z
+
+
+### Can't reproduce.
+windows 10x64 canary build number 4820
+
+AEnterprise#4693 - Bug Bot on 2017-09-24T13:33:13.362Z
+
+
+### It usually just lags your discord majorly anytime you fullscreen. Depending on how patient you are determines whether it crashes or not.
+
+JustCore#0973 - Bug Bot on 2017-09-27T18:45:47.600Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary 0.0.163
+
+JustCore#0973 - Bug Bot on 2017-09-27T18:47:40.897Z
+
+
+### Seems like this also happens with other players like https://streamable.com/
+
+Starshine Dust#2189 - Bug Bot on 2017-09-27T19:22:55.838Z
+
+
+### Can't reproduce.
+Discord 0.0.2 Arch linux build 4906
+
+GNUGradyn(っ◔◡◔)っ#1882 - Bug Bot on 2017-09-28T02:09:57.522Z
+
+
+### Can't reproduce.  - Clayton on 2017-10-04T02:09:05.556Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-10-04T02:09:12.366Z
+
+
+### Can reproduce.
+Discord Canary 0.0.164, Windows 10 x64
+
+Vyryn#4618 - Bug Bot on 2017-10-07T20:11:36.171Z
+
+
+### Can reproduce.
+Surface Book Performance Base 8 GB, Windows 10 Pro x64 (Fall Creator's Update) Version 1709 Stable 6768
+
+andritolion#0007 - Bug Bot on 2017-11-05T16:43:51.502Z
+
+
+### Can reproduce.
+Windows 10 Home 64-Bit Version 1709, Discord Canary Build 6463. Been getting many dupe reports of this.
+
+FireController1847#3577 - Bug Bot on 2017-11-11T22:33:26.608Z
+
+
+### Can reproduce.
+Windows 10 Home x64
+
+【𝓒𝓻𝔂𝓼𝓽𝓪𝓵】Decay#3558 - Bug Bot on 2017-11-11T22:34:28.899Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-12-12T19:27:21.485Z
+
+
+### Archived by Alexander (DJScias) on 2017-12-12T19:27:23.431Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

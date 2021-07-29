@@ -1,0 +1,81 @@
+[Archived] when opening the help tag on a new session it will fail to load the articles, Only works on second time opening. (https://trello.com/c/siP1iRYO)
+
+P2: Fix can wait a while
+
+Created: 2017-01-13T12:08:30.603Z
+Latest Update: 2017-10-17T20:22:51.030Z
+
+Reported by Weeajew#3674
+
+####Steps to reproduce: 
+- Open a new session 
+- press the help tab 
+
+####Expected result:
+ The help articles load fine 
+####Actual result:
+ The help articles fail to load on the first time, and will only show once trying for the second time.
+
+Card Log
+========
+### Added by Jared on 2017-01-13T12:08:30.603Z
+
+
+### Can reproduce.
+Can reproduce on latest Canary on W10 x64.
+
+SuperSajuuk#7265 - Jared on 2017-01-13T12:08:31.018Z
+
+
+### Can reproduce.
+macOS Canary
+
+Logiz#9321 - Jared on 2017-01-13T12:08:31.163Z
+
+
+### This also doesn't work after multiple times opening, it's inconsistent.
+
+Weeajew#3674 - Jared on 2017-01-13T12:14:05.455Z
+
+
+### Can reproduce.
+macOS canary
+
+nullpixel#0012 - Jared on 2017-01-13T19:10:24.403Z
+
+
+### Verified. - Jared on 2017-01-17T21:42:11.635Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-17T21:42:14.285Z
+
+
+### Seems like this has been fixed as of Canary build 1920.
+
+Tiemen#0107 - Bug Bot on 2017-06-29T08:49:10.682Z
+
+
+### @jared627 moving this to claimed fix, it now loads. - Cole Norman on 2017-06-29T08:51:43.002Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Cole Norman on 2017-06-29T08:51:53.854Z
+
+
+### Verified Fixed - Jared on 2017-07-07T22:56:35.579Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-07-07T22:56:38.764Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:22:48.674Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:22:51.032Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

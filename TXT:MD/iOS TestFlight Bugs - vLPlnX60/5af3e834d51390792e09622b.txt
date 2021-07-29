@@ -1,0 +1,88 @@
+[Archived] Full size image loads with lower resolution, changes to high res after rotation of phone (https://trello.com/c/wbYNE31G)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-05-10T06:35:32.452Z
+Latest Update: 2018-09-04T23:13:33.319Z
+
+Reported by Covenant_R#8818
+
+####Steps to reproduce:
+- Use phone in Portrait Mode
+
+- Have an image posted in a discord chat.
+
+- be sure to test on an image with small details, large image with small text 
+
+- example image 
+
+- Click on Image in the chat channel
+
+- Zoom In 
+
+- look at image text
+
+- Rotate Phone to hortizontal 
+
+- look at image text
+
+- rotate Back to portait mode 
+
+- look at image text.
+
+####Expected result:
+After downloading full size image, image display should be native-res.
+####Actual result:
+Immediately after downloading full image, full screen image in portrait mode is still lower res. small details are blurry. Rotating phone to horizontal updates image display to high res. Rotating phone back to portait, it keeps high resolution. See video of reproduction
+####Client settings:
+2.3.1
+####System settings:
+Iphone 6s on iOS 11.3, ipad2 on iOS 9.3.5
+
+12354
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-10T06:35:32.452Z
+
+
+### Can reproduce.
+Can Repro on iPhone 7 Plus, iOS 11.3, iOS TestFlight 2.3.1 4051
+
+ash#0001 - Bug Bot on 2018-05-10T06:35:39.761Z
+
+
+### Can reproduce.
+Can Reproduce - Seems to happen mainly with jpeg images - iPhone 6s iOS 11.3.1 TestFlight 2.3.2 (4280)
+
+Rashaun#9295 - Bug Bot on 2018-05-10T06:35:44.823Z
+
+
+### Can reproduce.
+Only works on certain images, mainly large resolution images. - iPhone 5s iOS 11.3.1 TestFlight 2.3.2 (4280)
+
+MeowthenA#9256 - Bug Bot on 2018-05-10T06:35:49.767Z
+
+
+### Covenant_R#8818 - https://www.youtube.com/watch?v=Qw5A8yxOMB4 added by Bug Bot on 2018-05-10T07:03:40.001Z
+
+
+### mrkirby153#7840 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5af3e834d51390792e09622b/a21cc56d37e4da2351e889c2ea57415e/shot-18.05.03_20.10.33-0052.jpg added by Bug Bot on 2018-05-11T22:21:48.518Z
+
+
+### Verified. Minor. - Jared on 2018-05-11T22:46:50.136Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-11T22:46:57.392Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:33.322Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,91 @@
+[Archived] 2FA with password changing causes the button to have no text (https://trello.com/c/c9iaZsKV)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-03-04T22:12:57.649Z
+Latest Update: 2018-06-01T01:51:11.156Z
+
+Reported by MetalChain2#6372
+
+####Steps to reproduce: 
+- Have 2FA enabled on your account 
+- Change your password (Thanks Cloudbleed) 
+- Dialog should pop up for 2FA code 
+
+####Expected result:
+ The button below the field of text for 2FA code should say something 
+####Actual result:
+ Button says nothing 
+####System settings:
+ iOS 10.2, latest TF [1.8.3 (72)]
+
+1851
+
+Card Log
+========
+### Added by Jared on 2017-03-04T22:12:57.649Z
+
+
+### Can reproduce.
+Latest TestFlight; iPhone 5s; iOS 10.2.1
+
+HyperCoder#2975 - Jared on 2017-03-04T22:12:58.390Z
+
+
+### Can reproduce.
+iOS 10.1.2
+
+DeJay#8746 - Jared on 2017-03-04T22:13:00.343Z
+
+
+### Can reproduce.
+iFon SE 10.2.69, discord 1.8.3 (72)
+
+nullpixel#0012 - Jared on 2017-03-04T22:13:02.152Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/58bb3be94e0029de704f7665/eb965cb297ed3a66c5d5509532730588/image.png added by Jared on 2017-03-04T22:13:13.579Z
+
+
+### Can reproduce.
+1.8.3
+
+naters305#4120 - Jared on 2017-03-08T18:29:34.826Z
+
+
+### Can reproduce.
+[1.8.3 (72)]
+
+FishmanPirate#9743 - Jared on 2017-03-08T19:01:22.489Z
+
+
+### System Setting: iOs 9.3.3 (latest JB)
+
+FishmanPirate#9743 - Jared on 2017-03-08T19:02:10.971Z
+
+
+### Verified.  - Clayton on 2017-03-09T22:04:43.893Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-03-09T22:04:48.687Z
+
+
+### Verified Fixed as of build 2.2.6 - Jared on 2018-03-19T22:04:34.930Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-19T22:04:40.069Z
+
+
+### Archiving this ticket as it has been in Verified Fixed for more than a month with no new activity. - Ghoul on 2018-06-01T01:51:08.229Z
+
+
+### Archived by Ghoul on 2018-06-01T01:51:11.159Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

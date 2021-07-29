@@ -1,0 +1,66 @@
+Cannot watch Go Live in voice channels hidden to you (https://trello.com/c/BWbn9ZIA)
+
+None
+
+Created: 2019-10-30T21:29:04.438Z
+Latest Update: 2020-07-16T21:26:05.446Z
+
+Reported by Raus#1141
+
+####Steps to reproduce:
+- Create a hidden voice channel 
+- Join the hidden voice channel and go live 
+- Drag a user who does not have permission to see the voice channel into the hidden channel with you 
+- The user will not see you live and cannot join the stream
+
+####Expected result:
+The other user should be able to see you go live and join the stream in hidden voice channels they cannot see.
+####Actual result:
+The other user cannot see you go live and thus cannot join the stream in the hidden voice channel.
+####Client settings:
+Release Channel: ptb, Build Number: 47539, Version Hash: 7dbab2b47a3797b1ed2363ab674f02971af86257
+####System settings:
+Windows 10, version 1909
+
+45834
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-30T21:29:04.438Z
+
+
+### Can reproduce.
+can reproduce, win 10, canary 48397
+
+IcyPebbles#5833 - Bug Bot on 2019-10-30T21:29:12.180Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 48399 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-31T17:01:35.062Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1903), Canary 49420
+
+Derrios#0001 - Bug Bot on 2019-11-13T22:07:40.698Z
+
+
+### Can reproduce.
+This seems to be a backend issue. Might it be because when RTC establishes a connection, it double checks permissions for the voice channel? MacBook Pro: macOS Catalina 10.15.2; Discord Canary 52491 & iPhone 7: iOS 13.3; TestFlight 3.1.9 (18591)
+
+Jiralite#1207 - Bug Bot on 2020-01-12T03:14:40.835Z
+
+
+### You also cannot watch a stream if the capacity of the voice channel is full or overfull.
+
+Jiralite#1207 - Bug Bot on 2020-01-12T03:30:02.702Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,52 @@
+[Archived] Attenuation while speaking in Discord permanently alters other programs. (https://trello.com/c/HC9mBkpi)
+
+P2: Fix can wait a while
+
+Created: 2016-12-02T18:57:36.118Z
+Latest Update: 2019-06-18T09:47:30.306Z
+
+We've received many reports that while speaking in Voice and having Attenuation enabled, the system volume levels are permanently reduced. I.E if you have attenuation set to 50% and system volume at 100%, you end a call in Discord, go to play a New Kids on the Block music video on YouTube and it plays at 50%.
+
+QA has repeatedly tried to reproduce this issue with no luck.
+
+Card Log
+========
+### Added by Jared on 2016-12-02T18:57:36.118Z
+
+
+### Claimed by Blake. - Jared on 2016-12-02T20:49:11.965Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2016-12-02T20:49:20.832Z
+
+
+### P2 as it's been around for a long time. - Jared on 2017-01-05T19:58:38.428Z
+
+
+### Can reproduce.
+Steps to reproduce on Windows 10: - Set attenuation to a noticeable value (e.g. 80%) - Open the Windows volume mixer and keep it visible  - Join a channel where *other* users speak. When they speak, the volume of other programs should go down; when they stop speaking, the volume should go back up to their original level. - Finally, **disconnect** from voice chat *while another user is speaking*. Expected Result: All other software volumes should go back to their original values. Actual Result: Other software volumes remain unchanged, i.e. stay at -80% attenuation. Reconnecting to the voice chat does not resolve this problem.
+
+All-in-one Mighty#8424 - Bug Bot on 2017-09-07T06:16:49.826Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by b1naryth1ef on 2017-10-02T20:27:34.205Z
+
+
+### This was successfully fixed back in October. - Jared on 2018-01-17T00:34:46.511Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:34:50.166Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:39:26.443Z
+
+
+### Archived by Tarek on 2018-02-22T19:39:27.759Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

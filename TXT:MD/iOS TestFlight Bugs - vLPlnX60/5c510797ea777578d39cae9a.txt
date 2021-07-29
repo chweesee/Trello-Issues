@@ -1,0 +1,78 @@
+[Archived] Tapping top left corner twice quickly while selecting country code exits Enter Phone Number screen. (https://trello.com/c/vFWp9150)
+
+None
+
+Created: 2019-01-30T02:10:31.807Z
+Latest Update: 2019-09-29T08:30:33.722Z
+
+Reported by Mauve Ode Iffier#6602
+
+####Steps to reproduce:
+- Go to settings -> acccount -> SMS Backup Authentication. Make sure it is currently off 
+- Enable it. 
+- Enter the country code selection screen. 
+- Tap Close more than once.
+
+####Expected result:
+The country code selector should close and remain in enter a phone number screen.
+####Actual result:
+The whole SMS auth screen is exited.
+####Client settings:
+Discord TestFlight 2.4.4 (10993)
+####System settings:
+iPhone XS Max, iOS 12.0.1
+
+27336
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-30T02:10:31.807Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 12.2, TestFlight 2.4.4 (10993)
+
+Rajiv Shah#5322 - Bug Bot on 2019-01-30T02:10:39.246Z
+
+
+### Can reproduce.
+CR | iPhone 5s iOS 12.2.2 Dev Beta, v2.4.4 (10993)
+
+Daniel#4226 - Bug Bot on 2019-01-30T02:10:44.206Z
+
+
+### Can reproduce.
+IOS 12.1.2 iPhone 8 TestFlight 2.4.4
+
+Tracer / Emma#6969 - Bug Bot on 2019-01-30T02:10:49.283Z
+
+
+### Moved from New Issues to Account Settings by Alex on 2019-01-31T21:13:35.293Z
+
+
+### Moved from Account Settings to Backlog by Victoria on 2019-05-28T18:38:28.476Z
+
+
+### Archived by Bug Bot on 2019-08-08T18:30:09.452Z
+
+
+### Unarchived by Pascal on 2019-09-29T08:29:24.131Z
+
+
+### We are now using a master ticket for all issues related to double tap for single object causes it to break in any way: https://trello.com/c/leSrj5oX
+
+Therefore moving back to New Issues and archiving. - Pascal on 2019-09-29T08:30:21.777Z
+
+
+### Moved from Backlog to New Issues by Pascal on 2019-09-29T08:30:32.673Z
+
+
+### Archived by Pascal on 2019-09-29T08:30:33.734Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

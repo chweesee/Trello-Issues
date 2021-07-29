@@ -1,0 +1,108 @@
+[Archived] Uncollapsing a category does not allow you to scroll to channels with no unread messages in it with iOS voiceover enabled (https://trello.com/c/zkUbycQE)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-10-10T03:52:14.136Z
+Latest Update: 2019-11-18T15:30:02.735Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Enable iOS voiceover 
+- Uncollapse a category 
+- Swipe right to move to the next selectable element on the screen
+
+####Expected result:
+VO should swipe to and read the first channel in the category
+####Actual result:
+VO skips all channels that don't have unread messages within the uncollapsed category and selects/reads the next channel with unread messages or the next category header if none are present
+####Client settings:
+TestFlight 3.1.4 (17524)
+####System settings:
+iPhone XR iOS 13.1.2 & iPad Air iPadOS 13.1.2
+
+45142
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-10T03:52:14.136Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS/iPadOS 13.1.2, TestFlight 3.1.4 (17524)
+
+Pascal#0929 - Bug Bot on 2019-10-10T03:52:21.773Z
+
+
+### Can reproduce.
+iPhone XS, iOS 13.1.2 - TestFlight 3.1.5 17575
+
+hiriko#2993 - Bug Bot on 2019-10-10T03:52:26.766Z
+
+
+### Can reproduce.
+iPhone 7 Plus - iOS 13.0 - TestFlight 3.1.5 (17627)
+
+Ayu#0001 - Bug Bot on 2019-10-10T03:52:31.802Z
+
+
+### Can reproduce.
+CR, iPhone 7 Plus iOS 13.1.2, TestFlight 3.1.5 (17627)
+
+Action Potential#6862 - Bug Bot on 2019-10-10T06:18:55.764Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.4 (17627)
+
+.Gloria.#9606 - Bug Bot on 2019-10-10T06:50:28.509Z
+
+
+### Can reproduce.
+iPad Pro 2 10" - iPadOS 13.1.2 - Discord Testflight 3.1.5 (17627)
+
+Frances Picard#6209 - Bug Bot on 2019-10-10T07:44:17.318Z
+
+
+### Can reproduce.
+Testflight 3.1.5 (17627), iPhone XR, iOS 13.1.2
+
+SplashyFlame#0067 - Bug Bot on 2019-10-10T13:27:20.295Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.2; TestFlight 3.1.5 (17627)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-10T19:53:39.390Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13 - TestFlight 3.1.5 (17599)
+
+Fictional#0001 - Bug Bot on 2019-10-11T18:18:23.581Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.2 (dev beta 2) - TestFlight 3.1.5 (17627)
+
+Xylium#5800 - Bug Bot on 2019-10-12T00:16:12.477Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-18T19:00:07.680Z
+
+
+### Extension: If you open a server with a long channel list and swipe right to scroll down the channel list with VoiceOver, it will skip onto a message in the open channel when it gets to the end of the visible list (only happens if you have the typing indicator for bluetooth keyboards or the keyboard open, easier with Bluetooth)
+
+binchlord#0998 - Bug Bot on 2019-10-19T15:07:12.587Z
+
+
+### Archived by Bug Bot on 2019-11-18T15:30:02.748Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

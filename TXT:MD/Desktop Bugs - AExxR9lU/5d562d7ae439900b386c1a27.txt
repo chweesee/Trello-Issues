@@ -1,0 +1,120 @@
+[Archived] Changing a channel into a News channel does not show what is being changed in Audit Logs (https://trello.com/c/neCA92G8)
+
+None
+
+Created: 2019-08-16T04:13:46.495Z
+Latest Update: 2019-09-19T02:30:38.021Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- On a server that you can create News channels with, create a text channel 
+- Go to Channel Settings 
+- Enable the News Channel toggle and click save 
+- Go to Audit Logs and observe the entry
+
+####Expected result:
+The client should show that the channel type is being set to a News channel
+####Actual result:
+The client does not show the change that was made but only says that changes were made to the channel.
+####Client settings:
+Discord Canary v0.0.254 Build 43738
+####System settings:
+Windows 10 Pro x64 v1903 Build 18912.1001
+
+42161
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-16T04:13:46.495Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d562d7ae439900b386c1a27/60a547d515f9728fbccda750325eac63/PmRdiPa.png added by Bug Bot on 2019-08-16T04:13:49.577Z
+
+
+### Can reproduce.
+Discord Canary 0.0.254 (43738) on Windows 10 Pro 64-bit (1903)
+
+Tarek#1337 - Bug Bot on 2019-08-16T04:13:54.243Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.15 Beta (19A526h) - Canary 43738
+
+Isabel#0002 - Bug Bot on 2019-08-16T04:22:47.908Z
+
+
+### Can reproduce.
+Windows 10 OS Version 1803 (Build 17134.950) - Canary 43738 - Host 0.0.254
+
+Casper#9999 - Bug Bot on 2019-08-16T05:04:11.113Z
+
+
+### Can reproduce.
+CR OnePlus 3T, Android 9, Discord 9.3.9 (Cross platform bug)
+
+Alipoodle#5025 - Bug Bot on 2019-08-16T06:33:46.730Z
+
+
+### Can reproduce.
+CR Windows 10 Home, X64, Discord Canary 43738
+
+Llamaglotapi#7664 - Bug Bot on 2019-08-16T07:14:57.509Z
+
+
+### Can reproduce.
+MacOSX 10.14.6; Release Channel: canary, Build Number: 43618, Version Hash: e30c50300db286a24b2c4759d3486220b8a2863a
+
+Emma#6775 - Bug Bot on 2019-08-16T09:49:03.437Z
+
+
+### Can reproduce.
+macOS Mojave 10.14.5, Discord Canary 43738
+
+tristanfarkas#0001 - Bug Bot on 2019-08-16T15:34:26.795Z
+
+
+### Can reproduce.
+Canary 43738, Windows 7 64-b
+
+Skyla#0002 - Bug Bot on 2019-08-16T18:31:39.207Z
+
+
+### Fixed on Discord Canary Build 43975 on Windows 10 Pro x64 (1903).
+
+Cannot repro anymore, moving to Claimed. - Ghoul on 2019-08-20T01:48:18.698Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Ghoul on 2019-08-20T01:48:27.248Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 v1903 Build 18912.1001 - Discord Canary v0.0.254 Build 43975
+
+webhp#1337 - Bug Bot on 2019-08-20T01:50:43.533Z
+
+
+### Can't reproduce.
+Looks like fixed with Canary 43975 Version Hash 2a8cca1ab698ba17f8cf490c7af05df87fcd47ca - ChromeOS Canary 78.0.3877.0 (Official Build) (64-bit)
+
+OneNormalUsername#7636 - Bug Bot on 2019-08-20T01:52:29.653Z
+
+
+### Can't reproduce.
+MacBook Pro (13-inch, Mid-2012), ​‌‌​‌‌​‍‌​​​‌‌​​‍‌​​‌‌‌‌​‍‌​​‌‌‌​‌‍‌​​‌‌​‌​‍‌​​���​​‌‌‍‌‌​‌‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌‌‌‌‍‌‌​​‌‌‌‌‍‌‌​​‌‌​‌‍‌‌​‌‌‌‌‌‍‌​​‌​​​​‍‌​​​‌‌​‌‍‌​​‌​‌‌​‍‌​​‌‌​​​‍‌​​‌​‌‌​‍‌​​‌​​​‌‍‌​​‌‌‌‌​‍‌​​‌​​‌‌‍‌​​‌​​‌‌‍‌​​​​‌‌​‍‌‌​‌‌‌‌‌‍‌​​‌‌​‌‌‍‌​​‌​‌‌​‍‌​​‌‌​‌‌‍‌‌​‌‌‌‌‌‍‌​​​‌​‌‌‍‌​​‌​‌‌‌‍‌​​‌​‌‌​‍‌​​​‌‌​​‍‌‌​‌‌‌‌‌‍‌​​‌‌‌‌​‍‌​​‌‌‌​​‍‌​​​‌​‌‌‍‌​​‌​‌‌​‍‌​​‌​​​​‍‌​​‌​​​‌‍‌‌​‌​​​‌macOS v10.15 Beta (19A526h) - Canary 43975
+
+Isabel#0002 - Ghoul on 2019-08-20T02:03:08.097Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Ghoul on 2019-08-20T02:03:13.855Z
+
+
+### Archived by Bug Bot on 2019-09-19T02:30:38.039Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

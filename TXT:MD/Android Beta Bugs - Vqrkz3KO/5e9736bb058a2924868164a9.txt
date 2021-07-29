@@ -1,0 +1,71 @@
+Inability to configure a number of permissions on an Announcement Channel, including Send Messages and Manage Messages. (https://trello.com/c/36fzwK8a)
+
+None
+
+Created: 2020-04-15T16:30:51.471Z
+Latest Update: 2020-07-16T05:46:30.454Z
+
+Reported by Lame-wo#3229
+
+####Steps to reproduce:
+- Go to an Announcement Channel you have permission to "Manage Permissions" 
+- Click the three dots on the top right of the screen 
+- Open Channel Settings and go to Permissions 
+- Click/add a role 
+- Observe
+
+####Expected result:
+The pernissions you would normally see in a Text Channel should be the same on Announcement Channels.
+####Actual result:
+A lot of the permissions are missing
+####Client settings:
+Android Alpha 10.4.0 (1036)
+####System settings:
+Samsung Galaxy S9 Plus, One UI 2.0, Android 10
+
+52612
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-15T16:30:51.471Z
+
+
+### .Gloria.#9606 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5e9736bb058a2924868164a9/aa12efaad566a25d7b4dfb352e80ba52/Screenshot_20200214-140425_Discord.jpg added by Bug Bot on 2020-04-15T16:30:55.182Z
+
+
+### Can reproduce.
+CR, Discord 18.0-a4 (1095), LG G7 (LM-G710ULM20e), Android 9. Note that channel settings are currently borked with the vc settings taking over text channel settings (v18-alpha) but if you check into permissions of a role specific to the channel, you can repro this
+
+hopeless#1227 - Bug Bot on 2020-04-15T16:30:58.985Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha7 (1098)
+
+Ana940#9858 - Bug Bot on 2020-04-15T16:31:04.047Z
+
+
+### Can reproduce.
+CR Samsung Galaxy A3 2015, LineageOS 14.1 18-alpha7
+
+G-Man#3131 - Bug Bot on 2020-04-15T16:31:08.978Z
+
+
+### Can reproduce.
+Android 8, Vivo y91,  18.0 Alpha8 (1099)
+
+JisuTheGreat 👑#0001 - Bug Bot on 2020-04-16T00:46:08.913Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9, Alpha 20-alpha5 (1113)
+
+Purpzie#0001 - Bug Bot on 2020-04-25T17:23:06.024Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

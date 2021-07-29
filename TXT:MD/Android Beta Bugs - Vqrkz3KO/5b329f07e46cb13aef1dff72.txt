@@ -1,0 +1,66 @@
+[Archived] The "mute/toggle video/disconnect" buttons at the bottom of video call screen disappears when you turn your video to "off" from "on" at a particular time. (https://trello.com/c/S1sR9Krc)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-26T20:16:07.346Z
+Latest Update: 2018-08-22T01:23:13.206Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Go to voice settings, switch on "push to talk" and keep yourself muted already (which can be done by joining any vc and muting your mic) 
+- Video Call someone (they need not to pickup the call) 
+- Notice your video opens as soon as you video call someone with buttons at the bottom (toggle video, disconnect and mute/unmute) which fade away after like 3 seconds. 
+- Click on video button to close your video and see the buttons reappears. 
+- Now click again and open your video, and click on close video button JUST BEFORE the buttons at the bottom fades away (like at 2.9th second)
+
+####Expected result:
+The buttons at the bottom are still visible when your video is off.
+####Actual result:
+Buttons disappear.
+####Client settings:
+Discord Alpha 6.9.9
+####System settings:
+Xioami Mi A1, Android 8.0.0
+
+14755
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-26T20:16:07.346Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.9.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-26T20:16:14.785Z
+
+
+### Can reproduce.
+Can reproduce Nokia 5 Android 8.0.0 Discord alpha 6.9.9
+
+Bencey_#8587 - Bug Bot on 2018-06-26T20:16:19.812Z
+
+
+### Can reproduce.
+Can reproduce Discord 6.9.9 Android 8.1
+
+cutelilberry#0360 - Bug Bot on 2018-06-26T20:16:24.853Z
+
+
+### verified, samsung s6 edge, android 7.0, 6.9.9 - Clayton on 2018-06-26T20:33:47.023Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-26T20:33:54.302Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:13.209Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

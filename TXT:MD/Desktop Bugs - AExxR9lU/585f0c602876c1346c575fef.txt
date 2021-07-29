@@ -1,0 +1,80 @@
+[Archived] When editing a long channel description, the entire settings screen scrolls down with the inability to scroll to the top of the description again. (https://trello.com/c/00FBSLs0)
+
+P2: Fix can wait a while
+
+Created: 2016-12-25T00:01:36.906Z
+Latest Update: 2019-04-22T07:47:33.703Z
+
+Reported by harrison#6336
+
+####Steps to reproduce: 
+- open the channel overview editor 
+- scroll down to the bottom of the channel description 
+- attempt to scroll back up to the top of the description 
+
+####Expected result:
+ scroll to the top of the description 
+####Actual result:
+ end up scrolling to top of the descrption shown and onto the channel name.
+
+Card Log
+========
+### Added by Jared on 2016-12-25T00:01:36.906Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary
+
+Enharmonic#3999 - Jared on 2016-12-25T00:01:37.849Z
+
+
+### Can reproduce.
+Windows 7 x64, Lastest Canary
+
+Ian Murray#8701 - Jared on 2016-12-25T00:01:37.941Z
+
+
+### http://jmp.sh/vNJWpIV - http://jmp.sh/vNJWpIV added by Jared on 2016-12-25T00:01:52.888Z
+
+
+### Text_box_bug.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/585f0c602876c1346c575fef/733eeaa04eabe8003e875533634ebb23/Text_box_bug.gif added by Jared on 2016-12-25T00:01:54.196Z
+
+
+### Can reproduce.
+Discord Canary latest, Windows 10
+
+Concerned Hobbit#9354 - Jared on 2016-12-25T00:11:11.001Z
+
+
+### Verified, but extremely minor. - Jared on 2017-01-03T18:15:10.811Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T18:15:15.602Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2017-05-16T18:17:23.248Z
+
+
+### Tested on latest canary as of writing:
+
+In the new channel overview editor the description box has a scroll-bar and I can no longer reproduce it thanks to that. - Alexander (DJScias) on 2017-05-16T22:38:15.739Z
+
+
+### This no longer happens with the new modal. - Jared on 2017-06-27T20:57:39.391Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T20:57:42.676Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:32:24.962Z
+
+
+### Archived by Jared on 2017-10-17T20:32:25.841Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

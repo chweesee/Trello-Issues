@@ -1,0 +1,97 @@
+[Archived] Editing a message that contains GIF emotes will effect a separate message with GIF emotes' rotation. (https://trello.com/c/kBz2AWXm)
+
+None
+
+Created: 2019-05-22T18:40:36.898Z
+Latest Update: 2019-07-18T06:30:40.497Z
+
+Reported by Clay#0001
+
+####Steps to reproduce:
+- Have a set of GIF emotes that stack on each other (two lines). I.E. (1,2 (shift,enter)3,4) 
+- Post it as message #1 all in the correct order. 
+- Send message #2 with the same emotes in one line (1,2,3,4,) 
+- Notice it effects rotation of message #1 
+- Edit message #2 for it to be identical to message #1. 
+- Notice rotation change again. 
+- Edit message #2 again and click cancel. 
+- message #1 and 2 sync
+
+####Expected result:
+Editing a message shouldn't effect a separate message's GIF emote rotation.
+####Actual result:
+If effects separate messages, causing things to get out of sync.
+####Client settings:
+Canary 38181
+####System settings:
+Win 10 Pro x64 (1809)
+
+35004
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-22T18:40:36.898Z
+
+
+### Clay#0001 - https://i.imgur.com/VtgEkHh.gifv added by Bug Bot on 2019-05-22T18:40:39.294Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 Bit // Discord Canary Version 38248
+
+Cam#9999 - Bug Bot on 2019-05-22T18:40:44.325Z
+
+
+### Can reproduce.
+Windows 10 Pro / Build Number 38214
+
+AndrewTheRealOneAndTheOnlyOne#1674 - Bug Bot on 2019-05-22T18:40:49.377Z
+
+
+### Can reproduce.
+CR; Windows 7 Ultimate, 64-bit 6.1.7601, Service Pack 1 - Canary 38272
+
+Waff#0267 - Bug Bot on 2019-05-22T18:40:54.278Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1809 (OS Build 17763.404), Discord Canary 38248
+
+||Kissa||#1337 - Bug Bot on 2019-05-22T19:08:31.613Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 38274
+
+OrangeM24#5746 - Bug Bot on 2019-05-22T20:45:05.960Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38291 (Host 0.0.238)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-23T03:39:38.056Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38967
+
+Xylium#5800 - Bug Bot on 2019-06-03T19:06:04.462Z
+
+
+### Too minor of an issue to dedicate resources to fixing.
+
+Moving to Won't Fix. - Ene on 2019-06-18T06:03:27.910Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Ene on 2019-06-18T06:03:32.077Z
+
+
+### Archived by Bug Bot on 2019-07-18T06:30:40.507Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

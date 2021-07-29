@@ -1,0 +1,71 @@
+[Chrome/Edge] Multi-lined text in profile pictures in the developer portal (https://trello.com/c/7Zjjjank)
+
+None
+
+Created: 2019-03-16T02:59:08.750Z
+Latest Update: 2019-04-25T22:03:48.083Z
+
+Reported by TheForbiddenAi#7549
+
+####Steps to reproduce:
+- Go to the dev portal 
+- Go to applications 
+- Select an application 
+- Change the name to "!@#$%^&*()_+-" 
+- Observe how there are now two lines for the text in the profile picture 
+- NOTE: Any word after the minus will go onto a new line
+
+####Expected result:
+The text should stay on one line
+####Actual result:
+The text becomes multi-lined
+####Client settings:
+Edge 44, Chrome 73
+####System settings:
+Windows 10 Home x64 (1809)
+
+31062
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-16T02:59:08.750Z
+
+
+### TheForbiddenAi#7549 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c8c667c512fce84e2b3359c/9b838ecbb2a8020aedf41f718354783f/0x2l283.png added by Bug Bot on 2019-03-16T02:59:11.778Z
+
+
+### Can reproduce.
+Win 10 Pro x64 (1809), Chrome 72 - The bug happens on server icons in the client (Canary 33990) aswell.
+
+jhmaster2000#0360 - Bug Bot on 2019-03-16T02:59:16.232Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Chrome 72.0.3626.121
+
+neuzoid#0510 - Bug Bot on 2019-03-16T02:59:21.657Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809)
+
+tech_dude1#9855 - Bug Bot on 2019-03-16T02:59:26.550Z
+
+
+### This is potentially a dupe of https://trello.com/c/M01btyHH/ as the same bug occurs in the client. However, the bug may not be fixed in the dev portal if it is fixed in the client.
+
+webhp#1337 - Bug Bot on 2019-03-16T03:02:41.562Z
+
+
+### Can reproduce.
+Windows 8 Pro x64, Build 9200, Chrome 72.0.3626.121
+
+Forever21#0711 - Bug Bot on 2019-03-16T05:05:48.450Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

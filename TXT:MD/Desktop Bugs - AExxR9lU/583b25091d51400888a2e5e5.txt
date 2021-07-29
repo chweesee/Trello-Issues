@@ -1,0 +1,61 @@
+[Archived] When trying to react to a message when you don't have the use external emojis permission will try to use the emote but instantly delete it without a warning. (https://trello.com/c/bz1ADQG7)
+
+None
+
+Created: 2016-11-27T18:25:13.735Z
+Latest Update: 2017-10-17T20:23:58.224Z
+
+Reported by Weeajew#3674
+
+####Steps to reproduce: 
+- Be in a server/channel where you do not have the External emojis permission but have the reaction permission. 
+- Try to use a super cool external emoji as a reaction to a message. 
+
+####Expected result:
+ There would be message telling you that you cannot react with external emojis. 
+####Actual result:
+ The emoji is used for a few seconds and then quickly disappears without a warning message. 
+####System settings:
+ Win 10, Latest Canary.
+
+Card Log
+========
+### Added by Jared on 2016-11-27T18:25:13.735Z
+
+
+### Weeajew#3674 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/583b25091d51400888a2e5e5/76ae405b3daefd69339fa535516a192b/6TNGQ5M.gif added by Jared on 2016-11-27T18:25:40.459Z
+
+
+### Can't reproduce.
+macOS Sierra, Discord Canary 0.0.136 (0.0.136)
+
+datitisev#4934 - Jared on 2016-11-27T19:15:53.072Z
+
+
+### Can reproduce.
+Stable, Mac OS X El Capitan
+
+Jack#0305 - Jared on 2016-11-28T01:01:32.055Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-11-30T20:01:56.752Z
+
+
+### This was fixed, those emoji no longer appear in the picker. - Jared on 2017-01-05T20:00:58.827Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-01-05T20:01:06.407Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:23:57.684Z
+
+
+### Archived by Jared on 2017-10-17T20:23:58.226Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

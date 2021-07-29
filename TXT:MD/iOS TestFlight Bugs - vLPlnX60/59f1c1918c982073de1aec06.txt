@@ -1,0 +1,74 @@
+[Archived] Logging out causes screen to freeze instead of bringing you to the login page (https://trello.com/c/cr0Dq0Qw)
+
+P2 - Can wait a while,
+high
+
+Created: 2017-10-26T11:05:53.735Z
+Latest Update: 2017-11-26T08:16:35.155Z
+
+Reported by juj#5114
+
+####Steps to reproduce:
+- Be on build 1336 (earlier versions including 1286 don't seem to have the issue) and log out of your account
+
+####Expected result:
+You get brought to the login page of Discord
+####Actual result:
+The current screen that you see when tapping logout will be frozen and you can barely interact with UI elements, bringing up task manager/swapping apps helps a bit but you need to restart it ultimately to log in again
+####Client settings:
+Discord TestFlight 1.9.3 (1336)
+####System settings:
+iPhone 8 Plus, iOS 11.1 (PB5)
+
+5800
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-26T11:05:53.735Z
+
+
+### Ghoulish-Nightmare#4567 - https://m.youtube.com/watch?v=npWoJ91rxes added by Bug Bot on 2017-10-26T11:05:56.165Z
+
+
+### Can reproduce.
+CR but for me, it shows that Discord is attempting to connect to the account that is logged out. Still had to restart the app because it wouldn’t work. | iPhone 8 +, iOS 11.0.3, Discord iOS TestFlight 1.9.3 (1336)
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-26T11:06:01.123Z
+
+
+### Can reproduce.
+CR, TestFlight 1.9.3 (1336), iOS 11.0.3, iPhone 7
+
+QwakGoesDuck#9672 - Bug Bot on 2017-10-26T11:06:06.133Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5, TestFlight 1.9.3 (1336)
+
+Pascal#0929 - Bug Bot on 2017-10-26T11:06:11.076Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.1 Public Beta 5, Discord TestFlight 1.9.3 (1336)
+
+TheGamateers#6918 - Bug Bot on 2017-10-26T12:47:44.030Z
+
+
+### Verified - Jared on 2017-10-26T20:00:31.168Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Jared on 2017-10-26T20:00:36.251Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:16:19.972Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:16:35.158Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

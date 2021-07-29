@@ -1,0 +1,92 @@
+[Archived] Discord freezing on iPad Pro 2017 (https://trello.com/c/ATdovI2G)
+
+P2 - Can wait a while,
+low
+
+Created: 2017-08-07T20:54:23.370Z
+Latest Update: 2019-06-10T22:20:40.950Z
+
+Reported by Rune#2553
+
+####Steps to reproduce:
+- Open Discord. 
+- Leave Discord open in the background and spend some time on other apps. 
+- Go back to Discord, server list and user list might be distorted, but the main issue is trying to open the user list, settings, or an embed pic freezes Discord for 10-30 seconds before responding again. Scrolling and messaging still works though. 
+- Extra notes: This bug report was denied first, but I noticed it was only people on iOS 9 that couldn't repro. Today a user on reddit had the same issue, also with the new iPad Pro 10.5'' and iOS 10.3.2, which leads me to believe it's either the 2017 iPad Pros, or iOS 10.3.2.
+
+####Expected result:
+Discord to act normally and not freeze.
+####Actual result:
+Discord freezes for 10-30 seconds.
+####Client settings:
+Discord 1.8.8
+####System settings:
+iPad Pro 10.5'' (2017), iOS 10.3.2
+
+2285
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-07T20:54:23.370Z
+
+
+### Can reproduce.
+iPad Pro 10.5", multiple Support tickets on this case
+
+Penguin#0001 - Bug Bot on 2017-08-07T20:54:30.780Z
+
+
+### Can reproduce.
+iPad Pro 10.5", 1.8.9
+
+Grummy#0478 - Bug Bot on 2017-08-07T20:54:35.835Z
+
+
+### Can reproduce.
+Can repro, iPad Pro 10.5 10.3.2
+
+Dabbit Prime#0896 - Bug Bot on 2017-08-07T20:54:40.819Z
+
+
+### Verified! - Jared on 2017-08-14T22:31:48.469Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-14T22:31:54.758Z
+
+
+### Marking this as a P1 because we've been getting a number of reports regarding this one. @fanghao2 I purchase an iPad Pro to reproduce this on. - Jared on 2017-08-14T22:32:34.307Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2017-08-14T22:32:39.862Z
+
+
+### Moved from Serious Issues to Next up for Investigation by Jared on 2017-12-05T18:43:50.190Z
+
+
+### I tested this bug out because the original reporter was not sure whether it was the iPad Pro 10.5 2017 model or iOS 10.3.2 in general. I used my iPad 2017 Model, 5th Generation running iOS 10.3.2 and Discord TestFlight 2.2.3 (2572). After I spent some time in the App Store, I went back to Discord but I did not see anything wrong with it. I'm just noting because it might help with the investigation and to confirm that it is indeed the iPad Pro 10.5" 2017 model running iOS 10.3.2 issue.
+
+Ghoul#0009 - Bug Bot on 2018-02-14T04:01:28.534Z
+
+
+### For the most part, regarding this issue, my main issue i observe with lag on my 2nd gen iPad Pro (2017 version) is excessive keyboard input lag. This lag doesn’t start instantly, but after a period of time as described in the original reproduction steps. It’s so bad that 90% of the sentences i type are incoherent and need to be spellcheck corrected. During this issue, i observe other random rare issues like scrolling not working and extreme delay switching servers, but i haven’t made a full record of all the various issues, as usually i just force close the app and reopen, which fixes the issue. Am currently on iOS 12.1.1, so it’s not an ios issue, but an issue with this model of iPad Pro. These issues have occurred on every testflight build, the latest being v2.5.2, Build 13014
+
+SuperSajuuk#0001 - Bug Bot on 2019-04-03T19:23:46.048Z
+
+
+### Now linked in the new master ticket for performance issues: https://trello.com/c/ccAallsK
+
+Therefore moving back to New Issues and archiving. - Pascal on 2019-06-10T22:20:23.909Z
+
+
+### Moved from Next up for Investigation to New Issues by Pascal on 2019-06-10T22:20:36.273Z
+
+
+### Archived by Pascal on 2019-06-10T22:20:40.964Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

@@ -1,0 +1,68 @@
+[Archived] Clicking on any radio check box to enable it after adding a space in role name doesn't close the keyboard. (https://trello.com/c/ODkPRzoh)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-12T20:49:14.638Z
+Latest Update: 2018-08-22T01:22:50.355Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+- Go to any server settings>roles 
+- Create a role, add a space in the role name and click check any box that's visible (allow anyone to mention this role or display role members separately) 
+- Notice the keyboard stays open but no text field is on focus. 
+- Click space.
+
+####Expected result:
+Clicking on any button should close the keyboard.
+####Actual result:
+Keyboard doesn't close and if you press space key, it scrolls down the list nicely.
+####Client settings:
+Discord Alpha 6.8.9
+####System settings:
+Xioami Mi Ai, Android 8.0.0
+
+14101
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-12T20:49:14.638Z
+
+
+### Can reproduce.
+Can reproduce, the real issue is that the keyboard won't close, not that it scrolls down because the space key is intended to do that on physical keyboards iirc. Discord Alpha 6.8.9, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-06-12T20:49:22.168Z
+
+
+### Can reproduce.
+Tested on both my devices and both can repro the issue.      LG G7 ThinQ LG-G710PM Android 8.0, Discord Alpha 6.8.9 (689) ; LG G5 LS992 Android 7.0 Discord Alpha 6.8.9 (689)
+
+Amanda#0001 - Bug Bot on 2018-06-12T20:49:27.098Z
+
+
+### Can reproduce.
+Can Reproduce. Alcatel 3C, 7.0.0 Discord Alpha 6.8.9
+
+StefanFX#2952 - Bug Bot on 2018-06-12T20:49:32.096Z
+
+
+### If I understand this right the keyboard should hide when I interact with the menu? OK, it doesn't. Minor issue. - Jared on 2018-06-14T23:44:43.026Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-14T23:44:50.308Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b2031ca9ffbff84e0fb6782/4d39009aafa978038bf354cf4084e1bd/hZhvP5s.gif added by Bug Bot on 2018-07-15T14:30:57.219Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:50.357Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

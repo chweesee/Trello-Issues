@@ -1,0 +1,137 @@
+[Archived] The voice channel name gets cut with 17 characters and a user limit at 10. (https://trello.com/c/HUQ7kRlM)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-11-01T05:02:25.179Z
+Latest Update: 2019-06-05T00:00:30.728Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- Create a Voice Channel with the name having 17 characters, and the voice chat limit being 10 users (I used "Pew Pew Game Room). 
+- Observe the last letter getting cut (For me, M).
+
+####Expected result:
+There should be dots in the voice channel name.
+####Actual result:
+The M just gets cut (If the channel is anything longer than 17 characters, it will have the dots).
+####Client settings:
+Discord Canary 27349
+####System settings:
+Windows 10 Pro, x64 (v1803)
+
+22561
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-01T05:02:25.179Z
+
+
+### Hole#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bda88e111298c725f49245e/118a717006df6f181a501d03eeb7f965/lh38eY3.png added by Bug Bot on 2018-11-01T05:02:27.559Z
+
+
+### Can reproduce.
+Discord Canary 0.0.216 (27353) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-11-01T05:02:32.460Z
+
+
+### Can reproduce.
+CR; MacBook Pro Retina 2015 13", macOS Mojave v10.14, Discord Canary v0.0.251, Build 26538
+
+Noobly#3578 - Bug Bot on 2018-11-01T05:02:37.448Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 27353
+
+Frances Picard#6209 - Bug Bot on 2018-11-01T05:02:42.420Z
+
+
+### Can reproduce.
+[CR] Canary Desktop 27353, Windows 10 LTSB x64 1607 (14393.2214)
+
+avror#0001 - Bug Bot on 2018-11-01T08:50:06.222Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 27353
+
+Delite#0001 - Bug Bot on 2018-11-01T09:07:18.188Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 27353
+
+Solo#0007 - Bug Bot on 2018-11-01T12:44:17.767Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Canary 27353
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-01T12:47:00.221Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1809, Canary 27375
+
+Classic#9999 - Bug Bot on 2018-11-01T20:13:00.504Z
+
+
+### minor - Clayton on 2018-11-02T02:41:02.376Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-02T02:41:09.734Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:37.207Z
+
+
+### Can reproduce.
+Seems to happen with any amount of characters and an emote + 'medical symbol' emote right at the end before it creates dots. User limit doesn't matter either (Shown here: https://i.imgur.com/kl8SgCv.png)  Windows 10 Home (x64) - Canary (36128)
+
+gianna#0248 - Bug Bot on 2019-04-21T11:47:38.244Z
+
+
+### Unarchived by Bug Bot on 2019-04-21T12:00:05.670Z
+
+
+### Cannot reproduce anymore on Canary 37031, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-05-05T23:44:20.120Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-05-05T23:44:24.796Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Discord Canary 37031
+
+Daffyduck#5364 - Bug Bot on 2019-05-05T23:48:41.384Z
+
+
+### Can't reproduce.
+Canary Build 37031 Host 0.0.235 Windows 10 Home x64 1809
+
+Rashaun#8467 - Bug Bot on 2019-05-05T23:49:06.803Z
+
+
+### Can't reproduce.
+Windows 10 Home; Canary Build 37031 (Host 0.0.235)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-05T23:54:27.509Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-05-05T23:54:27.765Z
+
+
+### Archived by Bug Bot on 2019-06-05T00:00:30.739Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

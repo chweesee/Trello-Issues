@@ -1,0 +1,75 @@
+Overlay does not cover whole display with custom windows text-scaling (https://trello.com/c/DgLhn7ik)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-30T23:17:18.036Z
+Latest Update: 2019-04-24T00:53:10.710Z
+
+Reported by ¬ Luca#0001
+
+####Steps to reproduce:
+- Open Windows Display Settings (right click on desktop, Display Settings) 
+- Select anything different then 100% at the drop-down for "size of text..." 
+- click on "sign off to apply" 
+- sign in to your windows account again, start Discord, start a game 
+- open the overlay
+
+####Expected result:
+The overlay-area should stretch the whole display.
+####Actual result:
+The grey background and the area where elements can be moved to only cover part of the screen.
+####Client settings:
+Release Channel: stable, Build Number: 22658, Version Hash: 3030f47c839a11c3ff30a9197db5b7d4d3af7afc
+####System settings:
+Windows 10, version 1803, build 17134.228
+
+18687
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-30T23:17:18.036Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b887afdab1b227697d29782/5d701334db5a84f6265b9dce6e3bbee1/6f12c1ae44.jpg added by Bug Bot on 2018-08-30T23:17:21.310Z
+
+
+### Can reproduce.
+Windows 10.0.17134 Build 17134 (Windows 10) - Discord Build 22587
+
+aditya#0001 - Bug Bot on 2018-08-30T23:17:25.404Z
+
+
+### Can reproduce.
+Windows 10 (1803), Discord 22658 - Tested Rocket league with 150% Scaling
+
+Alipoodle#5025 - Bug Bot on 2018-08-30T23:17:30.345Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home 1803 Discord 22658 stable, Papers please 200% zoom
+
+Aimarekin#3063 - Bug Bot on 2018-08-30T23:17:35.322Z
+
+
+### minor - Clayton on 2018-08-30T23:32:01.207Z
+
+
+### Can reproduce.
+[BUILD INFO] Release Channel: canary, Build Number: 28210, Version Hash: 4ee4f642368727775a3c1fa976c306981d279a29, Windows 10 1803 Graphics Card: Gtx1060
+
+Butterwhales#1789 - Bug Bot on 2018-11-19T13:08:55.409Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Overwatch, 2560x1440 monitor, 150% text size
+
+Granny#5402 - Bug Bot on 2019-01-11T21:43:18.377Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

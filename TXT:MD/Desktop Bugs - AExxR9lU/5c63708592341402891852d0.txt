@@ -1,0 +1,114 @@
+[Archived] Discord says custom game is not running even though it is (https://trello.com/c/5dS9RKOn)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-02-13T01:19:01.228Z
+Latest Update: 2019-10-23T23:02:49.590Z
+
+Reported by AutoBotAM#7067
+
+####Steps to reproduce:
+- Click "Add it" link in Game Activity settings page (next to "Not seeing your game?" 
+- Select a running application from the dropdown (Try Skype, Steam, Outlook, Firefox, or Chrome) 
+- Now the box at the top should be green and say the app name and "Now playing!" 
+- Quit Discord, keeping whatever app you chose running 
+- Open Discord 
+- Return to Game Activity settings page 
+- Note that the box has returned to gray and says "No game detected" and "What are you playing?!" 
+- Note that the previously chosen app is now listed under Added Games and says "Last played X minutes ago"
+
+####Expected result:
+The box should still be green, saying the app name and "Now playing!" even after restarting Discord.
+####Actual result:
+The box returns to gray as if the previously chosen app is no longer running, even though it is still running.
+####Client settings:
+Release Channel: stable, Build Number: 31908, Version Hash: 49b36f530c405dc21ef5b303a03b4e38a2ef3522
+####System settings:
+Windows 10 Version 1803 (OS Build 17134.523)
+
+28649
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-13T01:19:01.228Z
+
+
+### Rage#9991 - https://youtu.be/Yf0mIN0HZ24 added by Bug Bot on 2019-02-13T01:19:03.696Z
+
+
+### Can reproduce.
+Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 32063
+
+Longinus#0293 - Bug Bot on 2019-02-13T01:19:08.575Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 ~ Canary 32063
+
+Killtracity#0001 - Bug Bot on 2019-02-13T01:19:13.580Z
+
+
+### Can reproduce.
+CR // Win8.1 // Tested on PTB ~ 32104 // Used GChrome (and used ALT+F4)
+
+.–. LOLnt ._.#3405 - Bug Bot on 2019-02-13T01:19:18.584Z
+
+
+### Can reproduce.
+Windows 10 Pro 1809 x64, Desktop Canary 32063
+
+Harsh#8888 - Bug Bot on 2019-02-13T02:41:10.717Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 32063
+
+charleskimbac#6492 - Bug Bot on 2019-02-13T03:22:45.895Z
+
+
+### Can reproduce.
+Windows 10 Home x64 version 1809 Canary 32104
+
+a random kitten#4876 - Bug Bot on 2019-02-13T05:21:16.029Z
+
+
+### verified, win10, canary 32063 - Clayton on 2019-02-13T09:49:54.329Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-13T09:50:04.671Z
+
+
+### Can reproduce.
+CR; Canary: 32063, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-13T16:01:44.994Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 32213
+
+Solo#0007 - Bug Bot on 2019-02-14T03:07:47.740Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32241
+
+Daffyduck#5364 - Bug Bot on 2019-02-14T05:29:01.863Z
+
+
+### Can reproduce.
+iMac 10,1 macOS 10.13.6, Stable 34340
+
+chaNcharge#7023 - Bug Bot on 2019-03-21T00:40:49.918Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:49.604Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

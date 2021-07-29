@@ -1,0 +1,94 @@
+[Archived] macOS call notification doesn't maximise minimised client (https://trello.com/c/8SXGwhTN)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-03-22T12:58:31.279Z
+Latest Update: 2020-04-11T17:00:03.382Z
+
+Reported by jammehcow#3223
+
+####Steps to reproduce:
+- Minimise Discord client 
+- Get a call from another user 
+- Click on notification
+
+####Expected result:
+The client should maximise to show the call in progress
+####Actual result:
+Call continues to ring and the user has to manually maximise the client window
+####Client settings:
+Discord macOS 0.0.250
+####System settings:
+macOS 10.13.3
+
+9762
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-22T12:58:31.279Z
+
+
+### Can reproduce.
+CR; MacBook Pro (Retina, 13-inch, Early 2015) MacOS High Sierra 10.13.2 (17C88) Canary 12357
+
+korzq#0001 - Bug Bot on 2018-03-22T12:58:38.576Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.3 - Canary Build 12413
+
+mrkirby153#7840 - Bug Bot on 2018-03-22T12:58:43.591Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3, Discord Canary 0.0186 (Build 12477)
+
+Pascal#0929 - Bug Bot on 2018-03-22T12:58:48.573Z
+
+
+### Verified
+
+[BUILD INFO] Release Channel: canary, Build Number: 12704, Version Hash: 6e4e7bc28e48e0d1d24a21ccda4c11280034f68b - Jared on 2018-03-27T22:46:35.610Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-28T23:20:29.379Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ab3a87798ccb1bbc03fc6b9/6bfa9aa58bd3b91a840f79722888b9b9/giphy.gif added by Bug Bot on 2018-07-16T08:01:44.882Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:05.132Z
+
+
+### Can reproduce.
+MacBook Pro 13", macOS Mojave 10.14, Canary 28272
+
+Alfie#1582 - Bug Bot on 2018-11-20T20:06:32.307Z
+
+
+### Can reproduce.
+Canary 28226 on Fedora 28 with KDE (with KWin WM), 4.18.17-200 Kernel - Turns out it maybe generally unix/linux exclusive.
+Tested by pinging myself and clicking the notification that shows up. Will bring you to the location of ping, but won't maximise.
+
+KJP12#3880 - Bug Bot on 2018-11-20T20:13:44.639Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.3; Discord Canary 55808
+
+Jiralite#1207 - Bug Bot on 2020-03-12T16:09:40.590Z
+
+
+### Unarchived by Bug Bot on 2020-03-12T16:30:07.672Z
+
+
+### Archived by Bug Bot on 2020-04-11T17:00:03.392Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

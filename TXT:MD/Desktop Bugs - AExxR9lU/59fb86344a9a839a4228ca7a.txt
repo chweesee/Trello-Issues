@@ -1,0 +1,83 @@
+[Archived] Quickly swiping over a GIF continues playback when not hovered over (https://trello.com/c/ZAA4iS3e)
+
+P3: Will get fixed eventually
+
+Created: 2017-11-02T20:55:16.405Z
+Latest Update: 2018-07-06T17:59:20.601Z
+
+Reported by MetalChain#6372
+
+####Steps to reproduce:
+- Find a GIF, not a GIFV (If it pauses instead of restarting, when stopping playback, find one that restarts) 
+- Hover quickly over the GIF (I find it's easy when swiping arbitrarily over the corner, shouldn't take more than 25 swipes or so, might take a bit of finesse)
+
+####Expected result:
+Provided that the cursor is off of the GIF, playback should stop
+####Actual result:
+Playback sometimes continues until hovered over again
+####Client settings:
+Discord Canary 0.0.168
+####System settings:
+Windows 10 Pro, 64-bit
+
+5921
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-02T20:55:16.405Z
+
+
+### Can reproduce.
+Could only reproduce it with a directly uploaded .gif, but not a previewed link. Also worked with a .gif which pauses instead of restarts (contrary to report) - Stable Build 6553, Win 10
+
+Usoka#6021 - Bug Bot on 2017-11-02T20:55:23.707Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.1, Discord Canary 0.0.158 (Build: 6652)
+
+Pascal#0929 - Bug Bot on 2017-11-02T20:55:28.719Z
+
+
+### Can reproduce.
+Windows 10 x64 Fall Creator's Update Canary build 6755
+
+Mikesky#3456 - Bug Bot on 2017-11-02T20:55:33.746Z
+
+
+### Can reproduce.
+Win10 x64 Pro (Not updated) Canary build 6372.
+
+tomGER#7462 - Bug Bot on 2017-11-02T21:36:42.910Z
+
+
+### Verified - Clayton on 2017-11-03T06:38:06.886Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T06:38:09.903Z
+
+
+### Can reproduce.
+Linux Mint 18 + Openbox / Discord Canary 0.0.27
+
+cloudrac3r#5547 - Bug Bot on 2017-11-09T04:55:24.045Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-21T20:09:41.453Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T20:09:46.741Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:59:19.647Z
+
+
+### Archived by Jared on 2018-07-06T17:59:20.603Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

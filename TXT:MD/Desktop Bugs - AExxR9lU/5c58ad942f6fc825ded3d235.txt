@@ -1,0 +1,113 @@
+[Archived] Receiving new messages in a read channel shoots you to the top of the channel (https://trello.com/c/lmqIW7b8)
+
+None
+
+Created: 2019-02-04T21:24:36.539Z
+Latest Update: 2019-03-13T21:00:35.923Z
+
+Reported by Rashaun#8467
+
+####Steps to reproduce:
+- Read every message in a channel 
+- Switch channels 
+- Receive a new message in the previous channel 
+- Switch back to the previous channel 
+- Observe chat position
+
+####Expected result:
+Chat takes you to the start of the new messages
+####Actual result:
+Chat takes you to the top of the channel
+####Client settings:
+Canary Build 31819 Host 0.0.230
+####System settings:
+Windows 10 Home x64 1803
+
+28080
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-04T21:24:36.539Z
+
+
+### Can reproduce.
+Can repro, started from latest update. Canary 0.0.230 (Build 31819), Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547)
+
+SuperSajuuk#0001 - Bug Bot on 2019-02-04T21:24:44.628Z
+
+
+### Can reproduce.
+Discord Canary v0.0.230 Build 31819 -- Windows 10 Pro x64 v1809
+
+webhp#1337 - Bug Bot on 2019-02-04T21:24:49.698Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 31819
+
+Xylium#5800 - Bug Bot on 2019-02-04T21:24:54.640Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 October 2018 Update (1809), Canary 0.0.230 (build 31819)
+
+Tiemen#0001 - Bug Bot on 2019-02-04T21:25:28.099Z
+
+
+### Can reproduce.
+CR. Canary 31819 Windows 10 x64
+
+Smh#0001 - Bug Bot on 2019-02-04T21:25:54.812Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Canary 31819
+
+average idiot on the internet#0274 - Bug Bot on 2019-02-04T21:28:49.489Z
+
+
+### Can reproduce.
+Can repro, Windows Home 1809, Discord Canary 31819
+
+ginkoid#8888 - Bug Bot on 2019-02-04T21:32:10.444Z
+
+
+### Can reproduce.
+W10 Pro x64 - Canary 31819
+
+dafaqed#1312 - Bug Bot on 2019-02-04T21:40:41.488Z
+
+
+### Can reproduce.
+W10 Pro x64 - Canary 31819
+
+dafaqed#1312 - Bug Bot on 2019-02-04T21:43:28.898Z
+
+
+### Can reproduce.
+Windows 10 x64 (1809) - Discord Canary 31819
+
+Arnold0#7514 - Bug Bot on 2019-02-04T21:43:29.937Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 31795
+
+Lily#2624 - Bug Bot on 2019-02-05T12:14:56.966Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Bug Bot on 2019-02-05T21:01:09.733Z
+
+
+### Moved from Notable Issues to Won't Fix. Dead Bug by Joey Baker on 2019-02-11T20:55:07.690Z
+
+
+### Archived by Bug Bot on 2019-03-13T21:00:35.936Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

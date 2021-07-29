@@ -1,0 +1,80 @@
+[Archived] .thumb images not being displayed (https://trello.com/c/rVPLilDP)
+
+P2: Fix can wait a while
+
+Created: 2017-07-04T13:42:13.049Z
+Latest Update: 2017-12-02T17:06:00.672Z
+
+Reported by cr#3276
+
+####Steps to reproduce:
+- Post any .thumb files (e.g. <https://static.slickdealscdn.com/attachment//4/7/6/0/3/200x200/5697412.thumb>) 
+- Edit: Seems to be when there's two trailing slashes that it cant display
+
+####Expected result:
+Image should appear as preview
+####Actual result:
+Discord tries to load it but nothing shows up
+####Client settings:
+Latest stable build
+####System settings:
+Windows 10 Pro https://static.slickdealscdn.com/attachment//4/7/6/0/3/200x200/5697412.thumb x64
+
+1988
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-04T13:42:13.049Z
+
+
+### ItsPugle#5963 - https://youtu.be/9YXnYU5JBTY added by Bug Bot on 2017-07-04T13:42:15.636Z
+
+
+### Can reproduce.
+macOS 10.12.5, Discord Canary 0.0.149
+
+Scrummer#8218 - Bug Bot on 2017-07-04T13:42:20.742Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64-bit Build 1607 on Discord Stable 0.0.297
+
+Tarek1337#0379 - Bug Bot on 2017-07-04T13:42:25.594Z
+
+
+### Can reproduce.
+ Samsung Galaxy S8+ Nougat 《☆》 Discord Alpha 3.9.7 (396)
+
+Mr.Caleb#8593 - Bug Bot on 2017-07-04T13:42:30.572Z
+
+
+### Verified.  - Clayton on 2017-07-05T20:02:48.044Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-05T20:02:54.614Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T15:56:51.246Z
+
+
+### I don't think .thumb is a supported file type. That would be a feature request, not a bug. - Jared on 2017-10-17T06:38:57.490Z
+
+
+### Moved from Verified Bugs to Not a Bug by Jared on 2017-10-17T06:39:04.339Z
+
+
+### Archiving this card because it's been in the Not a Bug list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:05:58.090Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:06:00.675Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

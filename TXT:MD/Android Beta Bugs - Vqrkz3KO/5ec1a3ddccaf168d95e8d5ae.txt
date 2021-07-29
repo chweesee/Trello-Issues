@@ -1,0 +1,90 @@
+Switching camera tab breaks camera front-rear switching & camera image (https://trello.com/c/9xn5v7xn)
+
+P2 - Can wait a while
+
+Created: 2020-05-17T20:51:41.445Z
+Latest Update: 2020-07-16T05:46:30.660Z
+
+Reported by adrifcastr#4530
+
+####Steps to reproduce:
+- click the camera button 
+- click the tab left next to it 
+- switch back to camera 
+- tap switch camera button 
+- close camera 
+- reopen camera
+
+####Expected result:
+the camera should switch between rear and front camera, and it should work normally after reopening it
+####Actual result:
+front/rear camera does not switch and on reopening the camera the image stays black
+####Client settings:
+Android Alpha 22.3 (1143)
+####System settings:
+Samsung Galaxy S8 Android 9 Pie
+
+56202
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-17T20:51:41.445Z
+
+
+### Jiralite#1207 - https://youtu.be/FmhnTNVFGIQ added by Bug Bot on 2020-05-17T20:51:44.041Z
+
+
+### Can reproduce.
+CR: Discord 22.3 (1143), Android 10, Pocophone F1
+
+YoggieS#7404 - Bug Bot on 2020-05-17T20:51:49.061Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy A70, Android 10. Discord v22.4 (1144)
+
+Professor Varox#2313 - Bug Bot on 2020-05-17T20:51:54.010Z
+
+
+### Can reproduce.
+CR - Samsung Note 9 - Android 10 - Discord 22.4 (1144)
+
+MelonFruit#0001 - Bug Bot on 2020-05-17T20:51:59.004Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S7, Android 8.0.0, Discord 22.3 (1143)
+
+Bryth#1086 - Bug Bot on 2020-05-17T22:29:22.423Z
+
+
+### Can reproduce.
+Moto G8 Plus, Android 9, Discord 21.6 (1139)
+
+Avoma#1475 - Bug Bot on 2020-05-17T23:10:00.425Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy S10e, Discord 22.4, Android 10.
+
+Alister#0018 - Bug Bot on 2020-05-18T02:13:54.271Z
+
+
+### Can reproduce.
+Huawei P20 Pro, Android 9.0, Discord 22.4 (1144)
+
+Squidja#2098 - Bug Bot on 2020-05-18T13:52:43.320Z
+
+
+### Can't reproduce.
+Samsung Galaxy S7 Android 8 Discord 22.1 Android Beta
+
+Krobus#5647 - Bug Bot on 2020-05-20T17:18:46.855Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

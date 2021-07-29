@@ -1,0 +1,70 @@
+[Archived] Markdown formatting for field name for rich embeds not shown (https://trello.com/c/02Ymkx8S)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-27T20:12:57.163Z
+Latest Update: 2018-10-22T20:18:13.259Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Create/get a rich embed 
+- Add a field for it 
+- Use markdown (for example bold `**` or italics `*`) for the field name 
+- Observe the outcome in Discord
+
+####Expected result:
+Some Markdown should be shown for the field name of the embed like for the iOS version (there you can see the Markdown)
+####Actual result:
+Field name has always the same "style".
+####Client settings:
+Discord Canary 0.0.185 (Build: 10015)
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.3
+
+8218
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-27T20:12:57.163Z
+
+
+### Can reproduce.
+CR, even though it might not be a bug I think it should be one, Discord Build 10015, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-01-27T20:13:04.592Z
+
+
+### Can reproduce.
+cr, Windows 10 Home x64 (Fall Creators Update), canary 10015 | no bold or italic effect
+
+rauf#3260 - Bug Bot on 2018-01-27T20:13:09.583Z
+
+
+### Can reproduce.
+CR, noticed that with my own bot. Markdown correctly displayed on mobile but not on Desktop. Discord Canary build 10015, Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+Alex1304#9704 - Bug Bot on 2018-01-27T20:13:14.598Z
+
+
+### Verified.  - Clayton on 2018-01-31T00:11:12.589Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-31T00:11:18.689Z
+
+
+### Also happens with the embed title now
+
+Pascal#0929 - Bug Bot on 2018-06-30T22:31:10.366Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:13.261Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

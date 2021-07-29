@@ -1,0 +1,66 @@
+[Archived] If you have the search window open in a private channel and leave the server and rejoin, The search window is still open (https://trello.com/c/qGK0M9Ix)
+
+P3: Will get fixed eventually
+
+Created: 2017-11-03T01:48:33.300Z
+Latest Update: 2018-10-22T20:16:45.470Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Make a private channel locked with a role 
+- Asign the user the role to access the private channel 
+- Let the user go to the private channel and open search 
+- Search up a keyword 
+- Let the user leave the server 
+- Let the user rejoin the server
+
+####Expected result:
+The search window shouldn't still be open when you rejoin the server and allow you to see messages in the private channel through the search window
+####Actual result:
+You have the search window still open and you can see the messages in the private channel. (not jump though)
+####Client settings:
+Discord Canary 0.0.169 (Build 6746)
+####System settings:
+Windows 10 Pro 64-bit (Build 1607)
+
+6028
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-03T01:48:33.300Z
+
+
+### Can reproduce.
+stable, Build Number: 6721; Windows 10 Home 64-Bit
+
+Mika K.#2980 - Bug Bot on 2017-11-03T01:48:40.794Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Fall Creators Update, Discord Canary Build 6746
+
+FireController1847#3577 - Bug Bot on 2017-11-03T01:48:45.731Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 1607 x64, Canary 0.0.169 (Build 6746)
+
+juj#5114 - Bug Bot on 2017-11-03T01:48:50.726Z
+
+
+### Verified. - Clayton on 2017-11-03T06:47:24.903Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-03T06:47:27.844Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:45.472Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

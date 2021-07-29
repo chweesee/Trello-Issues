@@ -1,0 +1,82 @@
+[Archived] Discord shows the Spotify Rich Presence as playing when the song is not playing when you move around in VC. (https://trello.com/c/cnH7kBnF)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-10-29T17:04:08.596Z
+Latest Update: 2019-01-11T00:01:29.813Z
+
+Reported by Syxnul#4184
+
+####Steps to reproduce:1) Make sure you have Spotify and it's integrated to your Discord account. 2) Get into a VC and start playing a song on Spotify. 3) Press on your own profile picture thing to see the activity. 4) Press and play the song a few times (USE YOUR DEDICATED MEDIA KEYS, NOT IN THE TASK BAR) 5) Move around in the different VC channels and press on the profile again and try again, there will be a video on me doing it showing you that it works.
+
+####Expected result:
+Spotify Rich Presence is supposed to be stopped when you stop the song on Spotify.
+####Actual result:
+Spotify Rich Presence keeps on going on when the Spotify client clearly says that the song is stopped.
+####Client settings:
+[BUILD INFO] Release Channel: ptb, Build Number: 27050 / [BUILD INFO] Release Channel: stable, Build Number: 27050
+####System settings:
+Windows 10 Pro 1809 / 17763.55
+
+22335
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-29T17:04:08.596Z
+
+
+### 🍂nickWtn🍂#3789 - https://youtu.be/GSXZdlwG3Zg added by Bug Bot on 2018-10-29T17:04:11.027Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64 (17134). Discord Canary 27040
+
+coolalmostchilly#6969 - Bug Bot on 2018-10-29T17:04:16.043Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Pro x64, Discord Canary Build 27040.
+
+D a n n#4900 - Bug Bot on 2018-10-29T17:04:21.004Z
+
+
+### Can reproduce.
+Can Reproduce stable, Windows 10 Home Build Number: 27050
+
+LuLu#0001 - Bug Bot on 2018-10-29T17:04:26.027Z
+
+
+### Can reproduce.
+cr, Windows 10 Pro x64, Canary Build 27040
+
+Nashorn#3450 - Bug Bot on 2018-10-29T21:36:43.645Z
+
+
+### verified.  - Clayton on 2018-10-30T02:29:45.565Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-30T02:29:52.511Z
+
+
+### Can reproduce.
+Windows 10 x64 LTSB 1607 (14393.2214), Discord Stable 27065
+
+avror#0001 - Bug Bot on 2018-10-30T07:58:25.758Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 27465
+
+Neiron#7777 - Bug Bot on 2018-11-03T19:22:55.220Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:29.817Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

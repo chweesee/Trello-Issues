@@ -1,0 +1,78 @@
+[Archived] When adding the overlay to a program that has no forground presence, electron/discord stops responding and crashes (https://trello.com/c/ovnlzrbV)
+
+P2: Fix can wait a while,
+High
+
+Created: 2017-04-07T23:22:37.860Z
+Latest Update: 2018-02-22T19:38:06.780Z
+
+Reported by Dougley#6248
+
+####Steps to reproduce: 
+- Add a program as a game and enable the overlay 
+- start that program and make sure the overlay loads 
+- close that program and add a program like windows 10 mail as a game, make sure it has no windows open 
+- hit the overlay toggle for the second program 
+
+####Expected result:
+ Nothing? 
+####Actual result:
+ Discord hangs forever, even upon restarting discord will hang. Delete your localstorage to get out of it 
+####System settings:
+ Latest canary, win10 pro
+
+2283
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-07T23:22:37.860Z
+
+
+### Can reproduce.
+Latest Canary Win 10 x64
+
+King - Vlad#0815 - Bug Bot on 2017-04-07T23:22:38.635Z
+
+
+### Can reproduce.
+I already have a bug on an internal trello board about this
+
+Dabbit Prime#0896 - Bug Bot on 2017-04-07T23:22:40.646Z
+
+
+### Can reproduce.
+Win10 Pro Latest Canary
+
+Packer#9020 - Bug Bot on 2017-04-07T23:22:42.703Z
+
+
+### https://www.youtube.com/watch?v=I8yZNCnL91M - https://www.youtube.com/watch?v=I8yZNCnL91M added by Bug Bot on 2017-04-07T23:22:53.572Z
+
+
+### This has been a thing since day 1. - Jared on 2017-04-10T18:41:49.314Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-04-10T18:41:52.010Z
+
+
+### I'd call this a high P2. However, the overlay is getting reworked significantly in the near future, so we need to wait for those changes before we'll be fixing any overlay specific issues like this. - Jared on 2017-10-17T07:13:03.533Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-01-05T19:43:50.901Z
+
+
+### This was fixed with the overlay update recently. - Jared on 2018-01-05T19:44:01.547Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:38:05.121Z
+
+
+### Archived by Tarek on 2018-02-22T19:38:06.782Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

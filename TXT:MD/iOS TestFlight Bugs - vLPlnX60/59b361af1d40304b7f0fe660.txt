@@ -1,0 +1,102 @@
+[Archived] Long nickname error text is incorrect/cut off (https://trello.com/c/jjHl24oC)
+
+P3 - Will be fixed eventually
+
+Created: 2017-09-09T03:36:15.290Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by mouse91#3089
+
+####Steps to reproduce:
+- Open Server Settings 
+- Tap Members 
+- Select any member 
+- Enter a nickname exceeding the 32 character limit and tap Done
+
+####Expected result:
+An error message mentioning the 32 character limit should be displayed in full
+####Actual result:
+The error message 'Your nickname could not be changed on...' appears and is cut off
+####Client settings:
+TestFlight 1.9.1 (524)
+####System settings:
+iPhone 6, iOS 10.3.3
+
+4011
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-09T03:36:15.290Z
+
+
+### mouse91#3089 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59b361af1d40304b7f0fe660/60bb6d4189c66e3f040b2b05687bcf5f/lXqQLMq.png added by Bug Bot on 2017-09-09T03:36:17.854Z
+
+
+### Can reproduce.
+Can reproduce, anything above 32 will give the error, but only 50 % of it will be on the screen. Ios 11 dev beta 10 (15A5372a) Iphone 6 discord tf 1.9.1
+
+Tobias#5233 - Bug Bot on 2017-09-09T03:36:22.850Z
+
+
+### Can reproduce.
+Iphone 6, iOS 10.3.3, Testflight 1.9.1
+
+Xur, Agent of The Nine#6761 - Bug Bot on 2017-09-09T03:36:27.849Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 10.3.3, TestFlight 1.9.1 (629)
+
+Pascal#0929 - Bug Bot on 2017-09-09T03:36:32.865Z
+
+
+### Can reproduce.
+iPhone 7+, 11.0 beta 10, v1.9.1 (629)
+
+Favna#2846 - Bug Bot on 2017-09-11T16:38:22.606Z
+
+
+### Verified, low priority. - Jared on 2017-09-18T22:03:43.187Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-09-18T22:03:49.155Z
+
+
+### Can't reproduce.
+Got fixed with latest, error message is now shown in 2 lines, iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 4, TestFlight 1.9.3 (1165
+
+Pascal#0929 - Bug Bot on 2017-10-23T08:56:46.437Z
+
+
+### I can no longer reproduce, the error message is now fully displayed.
+
+Discord 1.9.3, iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-23T09:04:25.714Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2017-10-23T09:05:02.720Z
+
+
+### Verified Fixed - Jared on 2017-10-24T20:33:34.378Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-10-24T20:33:39.633Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:31:40.156Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:31:41.514Z
+
+
+### Can reproduce.
+iPhone 6s iOS 12.3.1 TF 3.0.2 (15283)
+
+GlenMerlin#2119 - Bug Bot on 2019-05-30T06:09:00.134Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,75 @@
+[Archived] Search ignores embed options (https://trello.com/c/Cbw57Tq7)
+
+P2: Fix can wait a while
+
+Created: 2017-02-10T03:39:40.960Z
+Latest Update: 2017-05-12T02:29:42.392Z
+
+Reported by MelodicStream#1336
+
+####Steps to reproduce: 
+- Disable embeds from showing image previews, direct images and website previews 
+- Search for posts (for ease of testing, search for `has: image`) 
+
+####Expected result:
+ Search shouldn't display the embeds 
+####Actual result:
+ The embed previews are still there 
+####System settings:
+ Windows 10, latest canary
+
+1600
+
+Card Log
+========
+### Added by Jared on 2017-02-10T03:39:40.960Z
+
+
+### Can reproduce.
+chrome, chromebook
+
+Dabbit Prime#0896 - Jared on 2017-02-10T03:39:41.773Z
+
+
+### Can reproduce.
+W10 Canary
+
+Logiz#9321 - Jared on 2017-02-10T03:39:43.574Z
+
+
+### Can reproduce.
+Win 8.1, Latest Canary
+
+七海 千秋 ★★★★#9667 - Jared on 2017-02-10T03:39:45.522Z
+
+
+### MelodicStream#1336 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/589d35fc406efdc504a8256f/f7597f39bca5e3d6c7e4178e5034a8b9/unknown.png added by Jared on 2017-02-10T03:40:51.451Z
+
+
+### Can reproduce.
+arch linux 0.15 canary
+
+mralext20#8975 - Jared on 2017-02-10T04:37:00.217Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Michael Peterson on 2017-02-14T01:01:18.840Z
+
+
+### Embed previews still display, MacOSX 10.11.6 - Clayton on 2017-03-08T23:10:10.903Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Clayton on 2017-03-08T23:10:18.107Z
+
+
+### Dupe: https://trello.com/c/jWYVs3PL/353-websites-images-etc-still-embed-at-search-results-even-while-embedding-is-turned-off - Clayton on 2017-05-12T02:29:41.497Z
+
+
+### Archived by Clayton on 2017-05-12T02:29:42.400Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

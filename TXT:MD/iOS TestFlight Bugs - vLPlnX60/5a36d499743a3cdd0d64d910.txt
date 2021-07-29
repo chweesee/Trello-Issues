@@ -1,0 +1,94 @@
+[Archived] Making line breaks in a long message automatically changes position (https://trello.com/c/vVtDUAGr)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2017-12-17T20:33:29.719Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Write or edit a long message 
+- Scroll to the beginning of this long message 
+- Make a line break at this position (enter)
+
+####Expected result:
+It should keep the position and not automatically jumping to the ending of the message.
+####Actual result:
+It jumps automatically to the ending of the message.
+####Client settings:
+TestFlight 2.2.0 (Build: 1910)
+####System settings:
+iPhone 6s with iOS 11.2.1 & iPad Air 2 with iOS 11.2.5 Public Beta
+
+7141
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-17T20:33:29.719Z
+
+
+### Pascal#0929 - https://youtu.be/1VYLcd91ubY added by Bug Bot on 2017-12-17T20:33:32.190Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, Stable 2.1.2
+
+HeroGamers#4574 - Bug Bot on 2017-12-17T20:33:37.183Z
+
+
+### Can reproduce.
+CR, iPhone 6s+, iOS 11.2.1, TestFlight 2.2.0 (1910)
+
+Mustard but festive#6390 - Bug Bot on 2017-12-17T20:33:42.102Z
+
+
+### Can reproduce.
+CR iPhone 5s iOS 10.3.2 Discord Stable 2.1.2
+
+Luca#8366 - Bug Bot on 2017-12-17T20:33:47.088Z
+
+
+### Verified.  - Clayton on 2017-12-20T00:11:12.663Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-20T00:11:20.520Z
+
+
+### **Extension to this issue**
+- Write or edit a long a message
+- Select the beginning or the middle of the message 
+- Add a mention or channel link (make sure the dropdown list for selecting this appears)
+
+Chat scrolls now to the ending of the message or the text field gets blank.
+
+Pascal#0929 - Bug Bot on 2018-03-05T15:09:59.930Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a36d499743a3cdd0d64d910/732006af44290a340a0dfd8443fd3273/3pDBDeB.jpg added by Bug Bot on 2018-03-05T15:13:22.392Z
+
+
+### Can reproduce.
+Can still repro on iPhone 6 - iOS 11.4 TestFlight 2.3.1 (4051)
+
+Xylium#1480 - Bug Bot on 2018-04-30T21:32:05.206Z
+
+
+### I can no longer reproduce on Discord TestFlight 2.3.4 (5560). The message stays in its current position even after doing an Enter or including the channel mention / user mention. I used iPhone 8 + running iOS 12 Dev Beta 2.
+
+Because I am unable to reproduce, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-07-02T21:28:46.918Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-02T21:28:52.723Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:47.379Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

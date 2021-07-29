@@ -1,0 +1,34 @@
+System message channel flags are not copied (https://trello.com/c/uIkIOJkj)
+
+None
+
+Created: Unknown
+Latest Update: 2020-04-28T10:54:09.725Z
+
+**Short Description:** System message channel flags are not copied
+**Steps to reproduce:**
+ - Have a guild with a system channel set and boosts/welcome messages disabled
+ - Create a template and use it 
+
+**Expected Results:** The new guild should have the same system channel flags as the source guild
+**Actual Results:** Both boost and welcome messages are enabled unlike the source guild
+**Client Settings:** Canary, Build Number: 56739
+**System Settings:** Windows 10 Home, version 2004
+
+Card Log
+========
+### Moved from Server Templates! to Claimed Fixed, needs Verification by Jerry Jiang on 2020-04-03T00:17:47.945Z
+
+
+### Can reproduce.
+MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 58988 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-04-28T10:54:09.739Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

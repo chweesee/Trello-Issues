@@ -1,0 +1,86 @@
+[Archived] Edited time stamp is wrapped like normal text (https://trello.com/c/eUcCVebC)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-02-01T05:21:02.310Z
+Latest Update: 2019-01-01T15:44:57.417Z
+
+Reported by JaKe#1817
+
+####Steps to reproduce:
+- Copy the separation line from Bug Bot's report 
+- Paste it in a text channel then edit something ABOVE the line 
+- Pin the message to the channel 
+- Check the pinned messages and observe
+
+####Expected result:
+Edited stamp should be wrapped normal
+####Actual result:
+Part of the edited stamp is cut off, leaving the rest being wrapped.
+####Client settings:
+Canary 0.0.201 (Build 10094)
+####System settings:
+Windows 7 Professional x64 (7601)
+
+8336
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-01T05:21:02.310Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a72a3be272e3752404dff2c/c6b5470d57fa1cf3018e573d40697eb3/bug.png added by Bug Bot on 2018-02-01T05:21:04.882Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a72a3be272e3752404dff2c/fbdf2ba262380594d6cf8c8bf9e8be00/cmfIc9C.png added by Bug Bot on 2018-02-01T05:21:05.123Z
+
+
+### Can reproduce.
+CR, Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 10094. However, you do NOT have to pin the message in order to reproduce it. You need to paste it several times, then keep on editing until you see the editting stamp being cut off, you can see the screenshot from my attempt.
+
+Ghoul#0009 - Bug Bot on 2018-02-01T05:21:09.831Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64, Discord Canary 10015
+
+Poker1st#0001 - Bug Bot on 2018-02-01T05:21:14.790Z
+
+
+### Can reproduce.
+CR, macBook Pro, macOS 10.13.3, Canary 10094. No need for pin, just edit it to have enough of those line characters to force (edited) to wrap.
+
+dotJS#0001 - Bug Bot on 2018-02-01T05:21:19.788Z
+
+
+### Verified, but I find it likely this is a won't fix - Jared on 2018-02-02T23:05:33.466Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-02T23:05:38.315Z
+
+
+### GREY#8664 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a72a3be272e3752404dff2c/1cea75ef14c84da2cc434c159df9c1ad/2018-02-16_06-30-09.gif added by Bug Bot on 2018-02-16T02:59:10.920Z
+
+
+### This ticket was checked during the Trello Cleanup, and I am still able to reproduce this bug as of Discord Canary Build 18197 on Windows 10 Home x64 (Version 1803). So because I am still able to reproduce, this ticket will remain unmoved. - Ghoul on 2018-07-05T23:30:40.748Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T06:11:29.345Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T06:11:36.253Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:44:56.419Z
+
+
+### Archived by Tarek on 2019-01-01T15:44:57.420Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

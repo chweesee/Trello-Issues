@@ -1,0 +1,68 @@
+[Archived] User post that was a very long string of "S.S.S.S.S." caused the app to freeze when I attempted to scroll thru the channel it was posted in. (https://trello.com/c/hGtuJ7cO)
+
+None
+
+Created: 2018-03-24T09:41:14.966Z
+Latest Update: 2018-07-06T21:19:04.379Z
+
+Reported by karmicRetribution#3299
+
+####Steps to reproduce:
+- User posts a message consisting of hundreds of repetitions of "S." with no spaces. 
+- Navigate to that channel after the message has been pushed off-screen by later messages. 
+- Attempt to scroll up thru past messages in that channel. 
+- Alternatively, while the post is off-screen, jump to a time-point before the unusual post in that channel by jumping to a pinned post. 
+- Attempt to scroll down thru newer posts to the present.
+
+####Expected result:
+Scrolling thru past posts should not freeze the app.
+####Actual result:
+Discord froze upon attempting to scroll past the unusual post, prompting the Android "App not responding" error handling menu to pop up. Waiting did not resolve this and the app had to be force-closed. As I am an admin on this server I then accessed the channel from the desktop app, found the point where I could not scroll past on Android, and deleted the message. This fixed the issue.
+####Client settings:
+6.3.4
+####System settings:
+Moto G5 Plus, Android 7.0, security patch Jan 1, 2018
+
+9817
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-24T09:41:14.966Z
+
+
+### Can reproduce.
+CR, Discord Alpha 6.4.1, Huawei Mate 9 Android 7.0. Froze instantly after sending the message
+
+Alex1304#9704 - Bug Bot on 2018-03-24T09:41:22.342Z
+
+
+### Can reproduce.
+CR; Samsung A5 2017, Android 7.0, Alpha 6.4.4
+
+FelsFaser#0001 - Bug Bot on 2018-03-24T09:41:27.358Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.1
+
+fujhofn.#0878 - Bug Bot on 2018-03-24T09:41:32.494Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-03-27T16:49:12.605Z
+
+
+### wow stupidest bug ever. fixed now - Andy Garron on 2018-03-28T18:14:50.420Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:19:03.469Z
+
+
+### Archived by Jared on 2018-07-06T21:19:04.383Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

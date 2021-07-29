@@ -1,0 +1,81 @@
+[Archived] Chinese and Japanese timestamps cut off on text scaling > 100 (https://trello.com/c/VukyxJsj)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-03T17:44:15.933Z
+Latest Update: 2019-01-01T15:35:27.392Z
+
+Reported by fishstik#4053
+
+####Steps to reproduce:
+- Set language to Chinese (any variant) or Japanese 
+- Set text scaling to greater than 100
+
+####Expected result:
+Timestamp on chats should be displayed in full
+####Actual result:
+Timestamps are cut off on the left. Severity of truncation increases with text scaling level.
+####Client settings:
+Release Channel: stable, Build Number: 16234
+####System settings:
+Windows 10.0.17134 x64 (Build 17134)
+
+13746
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-03T17:44:15.933Z
+
+
+### Ghoul the Kitty#5678 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b1428efbcd5656cba9f2411/680c8b08f53ae177616de35b11e4dd59/i0S9vrH.png added by Bug Bot on 2018-06-03T17:44:19.076Z
+
+
+### Ghoul the Kitty#5678 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b1428efbcd5656cba9f2411/3aea0834b8f22f0971595dacae9b3774/F6y7wbE.png added by Bug Bot on 2018-06-03T17:44:19.345Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 16445
+
+webhp#1337 - Bug Bot on 2018-06-03T17:44:23.923Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS Sierra 10.12.6, Discord Canary (Build 16445)
+
+Rage#1337 - Bug Bot on 2018-06-03T17:44:29.002Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (Version 1803), Discord Canary Build Canary 16445. You need to be using compact mode. in order to reproduce.
+
+Ghoul the Kitty#5678 - Bug Bot on 2018-06-03T17:44:33.923Z
+
+
+### Can reproduce.
+Can reproduce on: Fujitsu Lifebook S751, Windows 7 Professional x64, Discord Canary (Build 16445)
+
+Mad Luffy#3039 - Bug Bot on 2018-06-03T18:00:55.792Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-04T18:03:49.303Z
+
+
+### can no longer reproduce - Clayton on 2018-10-04T01:24:03.571Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-04T01:24:08.559Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:35:26.452Z
+
+
+### Archived by Tarek on 2019-01-01T15:35:27.394Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

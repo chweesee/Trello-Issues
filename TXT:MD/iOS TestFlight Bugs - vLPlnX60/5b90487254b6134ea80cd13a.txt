@@ -1,0 +1,68 @@
+[Archived] Locking your phone when sending a message locks typing indicator (https://trello.com/c/50MjwyAJ)
+
+None
+
+Created: 2018-09-05T21:19:46.170Z
+Latest Update: 2018-10-22T21:21:53.850Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Type a message, the length doesn't matter 
+- Lock your phone right before pressing the send button, and make sure the message hasn't left the text box when your phone locks 
+- Unlock your phone and observe the position of the typing indicator 
+- Note: this does not happen every time, try at least 10 times 
+- Alternatively, lock and unlock your phone before the second step
+
+####Expected result:
+Typing indicator is at the beginning of the text box
+####Actual result:
+Typing indicator is "stuck" in the position where the last message ended
+####Client settings:
+TestFlight 2.3.7 (6968)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 12
+
+19059
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-05T21:19:46.170Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b90487254b6134ea80cd13a/0bfada768c73073f30c8e65b868149b9/NyDGg0L.png added by Bug Bot on 2018-09-05T21:19:48.710Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 12) - Stable 2.3.7 | Got it on first try, but you do need to be quickly.
+
+Xylium#1480 - Bug Bot on 2018-09-05T21:19:53.605Z
+
+
+### Can reproduce.
+CR. iPhone 5S, iOS 11.4.1, TestFlight 2.3.7 (6968)
+
+Olcay#8683 - Bug Bot on 2018-09-05T21:19:58.516Z
+
+
+### Can reproduce.
+Could reproduce after a few attempts. iPhone 6s iOS 11.4.1, TF 2.3.7 (6968)
+
+George#0069 - Bug Bot on 2018-09-05T21:20:03.682Z
+
+
+### Moved from New Issues to Won't Fix by Fanghao on 2018-09-06T22:07:06.901Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than a month without any activity. - Ghoul on 2018-10-22T21:21:50.593Z
+
+
+### Archived by Ghoul on 2018-10-22T21:21:53.852Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

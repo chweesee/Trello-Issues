@@ -1,0 +1,107 @@
+[Archived] Mic Issues with Discord that causes mic quality to drop drastically. (https://trello.com/c/QBaxTFNF)
+
+None
+
+Created: 2018-12-17T21:38:51.540Z
+Latest Update: 2019-02-25T12:30:34.666Z
+
+Reported by MeladTheBad#0001
+
+####Steps to reproduce:Connect your microphone to your PC 
+- Go to settings, Voice & Video and make sure your Microphone that you have connected is selected 
+- Click on the Let's Check Button and listen to the Microphone Quality drop to terrible levels.
+
+####Expected result:
+The Microphone Quality is supposed to be normal and sound about the same as it would sound in any other application.
+####Actual result:
+The Microphone Quality is supposed to drop and sound terrible compared to how it would sound like in other Applications.
+####Client settings:
+Canary, Build Number: 29791 - ptb, Build Number: 29783 - stable, Build Number: 29783
+####System settings:
+Windows 10 Version 1803 OS Build 17134.407
+
+24506
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-17T21:38:51.540Z
+
+
+### J1#0088 - https://youtu.be/FKg2H9pvW-U added by Bug Bot on 2018-12-17T21:38:53.986Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 29791. In comparison to other applications like Steam mic check, The quality is really poor. (Default Setting, Realtek (R), HyperX Stinger)
+
+Alipoodle#5025 - Bug Bot on 2018-12-17T21:38:58.902Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Pro x64 (1809) - Canary 29791; For me it works only in Mic Test
+
+Jengas#7777 - Bug Bot on 2018-12-17T21:39:03.917Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x,Canary 29791 Works only in mic Testing atleast for me
+
+Octillion#6666 - Bug Bot on 2018-12-17T21:39:08.955Z
+
+
+### Potential fix just went out to canary. Could you please try it and let me know. - Jozsef Vass on 2018-12-17T21:55:28.813Z
+
+
+### Can reproduce.
+Windows 10 Pro x64; Version: 1803; Build: 17134.407; Desktop Canary, 29791. Quality drops in testing.
+
+Sausage Claus#0001 - Bug Bot on 2018-12-17T22:24:10.404Z
+
+
+### Can reproduce.
+Can reproduce. Windows 7 Home Premium x64 v7601, Canary 29791
+
+Solo#0007 - Bug Bot on 2018-12-17T22:39:24.084Z
+
+
+### Can't reproduce.
+Can no longer reproduce. Windows 7 Home Premium x64 v7601, Canary 29791
+
+Solo#0007 - Bug Bot on 2018-12-17T22:54:56.190Z
+
+
+### Can't reproduce.
+Can no longer reproduce. Windows 10 Pro x64; Version: 1803; Build: 17134.407; Desktop Canary, 29791
+
+Sosig#0001 - Bug Bot on 2018-12-17T23:16:01.493Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jozsef Vass on 2018-12-18T01:40:32.770Z
+
+
+### Can't reproduce.
+Windows 10 Pro 64x,Canary 29875
+
+Octillion#6666 - Bug Bot on 2018-12-18T16:39:10.234Z
+
+
+### Shipped to stable! Thank you all who helped me verify the fix! - Jozsef Vass on 2018-12-18T17:33:05.011Z
+
+
+### Can't reproduce.
+Quality is now a lot better Canary 30033
+
+Alipoodle#5025 - Bug Bot on 2018-12-19T20:31:17.915Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2019-01-26T12:07:16.686Z
+
+
+### Archived by Bug Bot on 2019-02-25T12:30:34.686Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

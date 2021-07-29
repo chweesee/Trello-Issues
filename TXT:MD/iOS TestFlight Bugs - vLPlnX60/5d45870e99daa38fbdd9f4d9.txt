@@ -1,0 +1,129 @@
+[Archived] You can view channel even without "View Channel" permissons if there is a person in this channel by "Join Voice" button. (https://trello.com/c/r9PRv36L)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-08-03T13:07:26.681Z
+Latest Update: 2019-10-05T10:30:27.438Z
+
+Reported by F значит fedoras#2230
+
+####Steps to reproduce:
+- User with "Connect" permissions in a channel join this channel, but YOU don't have "View Channel" permissions for this channel. Also your permission of “Connect” to this channel should be set to “/“, not to “X”. 
+- You click on profile of this user and click "Join Voice" button. 
+- Now you can see this voice channel and it's category until restarting Discord app.
+
+####Expected result:
+You should see current voice channel of a user if you don't have "View Channel" permissions of his current channel.
+####Actual result:
+You see channel without "View Channel" permissions.
+####Client settings:
+3.0.9
+####System settings:
+iPhone 7, iOS 12.3.1
+
+41237
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-03T13:07:26.681Z
+
+
+### Boss#0006 - https://youtu.be/GGKQeZwMKkw added by Bug Bot on 2019-08-03T13:07:29.470Z
+
+
+### Can reproduce.
+iPhone Xs, iOS 13.0 dev beta 5, TF 3.0.10 (16635)
+
+Tiemen#0001 - Bug Bot on 2019-08-03T13:07:34.404Z
+
+
+### Can reproduce.
+CR, iPhone X, iOS 13 dev beta 5, TestFlight 3.0.10 (16641)
+
+Cloud Luke#1313 - Bug Bot on 2019-08-03T13:07:39.445Z
+
+
+### Can reproduce.
+Cr; iPhone X, iOS 13 (beta 3), TestFlight 3.0.10 (16641)
+
+Noah#0004 - Bug Bot on 2019-08-03T13:07:44.398Z
+
+
+### Can reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 5) - TestFlight 3.0.10 (16641)
+
+Xylium#5800 - Bug Bot on 2019-08-03T14:02:22.180Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.4, TestFlight 3.0.10 (16641)
+
+.Gloria.#9606 - Bug Bot on 2019-08-03T16:51:03.200Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 4, TestFlight 3.0.10 (16641)
+
+Jeffrey#1234 - Bug Bot on 2019-08-03T17:47:42.708Z
+
+
+### Can reproduce.
+iPhone XS, iOS 12.4 | TestFlight 3.0.10
+
+JoeProKill2000#2674 - Bug Bot on 2019-08-04T20:25:10.007Z
+
+
+### Can reproduce.
+Discord iOS 3.0.9 (309), iPad Air iOS 12.4
+
+Francis Underwood™#2886 - Bug Bot on 2019-08-11T22:05:39.797Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-08-16T19:00:04.558Z
+
+
+### Moved from Backlog to Voice Chat by Pascal on 2019-08-17T08:25:16.406Z
+
+
+### Moved from Voice Chat to Won't Fix by Pascal on 2019-08-22T20:29:24.123Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.1 (16958) with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-08-23T00:13:02.141Z
+
+
+### Moved from Won't Fix to Claimed Fixed Bugs by Pascal on 2019-08-23T00:13:10.430Z
+
+
+### Can't reproduce.
+ipad pro 3 ios 12.4, TestFlight 3.1.1 (16958)
+
+OrangeM24#5746 - Bug Bot on 2019-08-26T01:50:45.615Z
+
+
+### Can't reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.1 (16961)
+
+Jeffrey#1234 - Bug Bot on 2019-08-27T01:11:02.069Z
+
+
+### Can't reproduce.
+iPhone X, iOS 13.1 (dev beta 2) - TestFlight 3.1.2 (17140)
+
+Xylium#5800 - Bug Bot on 2019-09-05T10:03:52.882Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-09-05T10:03:53.305Z
+
+
+### Archived by Bug Bot on 2019-10-05T10:30:27.452Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

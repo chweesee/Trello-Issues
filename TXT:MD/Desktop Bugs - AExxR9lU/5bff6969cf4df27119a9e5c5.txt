@@ -1,0 +1,122 @@
+[Archived] Chrome Dev failing connection to discord (https://trello.com/c/oO16S2yD)
+
+None
+
+Created: 2018-11-29T04:22:01.722Z
+Latest Update: 2019-01-18T04:36:41.119Z
+
+Reported by hopeless#1227
+
+####Steps to reproduce:
+- Install Chrome Dev 
+- Go to discord and log in 
+- Cannot get past connecting on app load
+
+####Expected result:
+The app should load.
+####Actual result:
+Fails to load. Opening up console, spitting out json errors, then zlib, followed by app and VM errors.
+####Client settings:
+stable 28533
+####System settings:
+Win10 v1709 x64 build 16299.665 Education, Chrome Version 72.0.3622.0 (Official Build) dev (64-bit)
+
+23754
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-29T04:22:01.722Z
+
+
+### Can reproduce.
+Windows 10 Home Insider (1809 build 18282.1000) x64 with Google Chrome Canary 72.0.3624.2 (Official Build) canary (32-bit) - Will attempt to reproduce on Stable Windows if I remember/get reminded
+
+KJP12#3880 - Bug Bot on 2018-11-29T04:22:09.060Z
+
+
+### Can reproduce.
+pushing through to move it around on trello
+
+IcyPebbles#5833 - Bug Bot on 2018-11-29T04:22:14.041Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home, Chrome Version 72.0.3622.0 (Official Build) dev (64-bit)
+
+1Storm#0001 - Bug Bot on 2018-11-29T06:10:44.698Z
+
+
+### Azrael#6867 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bff6969cf4df27119a9e5c5/b9d2472764a8c602d7e0e25cd52721af/pySUOVF.png added by Bug Bot on 2018-11-29T06:46:56.613Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Web Stable Build 28553 Chrome Version 72.0.3624.2 (Official Build) canary (64-bit)
+
+Azrael#6867 - Bug Bot on 2018-11-29T06:48:14.163Z
+
+
+### Can reproduce.
+Windows 10 Home (64-bit), Build 17134.285, Discord Canary Build 28567 - Chrome 72.0.3622.0 (Official Build) dev (64-bit)
+
+zapteryx#6161 - Bug Bot on 2018-11-29T07:47:50.981Z
+
+
+### Can't reproduce.
+Chromium 72.0.3626.0 (Raw build) on Microsoft Windows® 10 Enterprise LTSC - Version 1809 (OS Build 17763.134) - Issue might be fixed in future builds of the Web browser.
+
+Midona#0158 - Bug Bot on 2018-11-29T08:27:34.194Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Chrome 72.0.3624.2
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-29T08:59:36.846Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Stable Build 28533 | Google Chrome Dev 72.0.3622.0
+
+Hole#0001 - Bug Bot on 2018-11-29T10:24:00.278Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2018-11-29T11:29:42.874Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Chrome Version 72.0.3624.2 canary
+
+Classic#8542 - Bug Bot on 2018-11-29T17:18:43.371Z
+
+
+### Can't reproduce.
+Discord Canary 28603 in Google Chrome Canary 72.0.3625.0 (Official Build) canary (32-bit) (double checked on Chrome Beta 71.0.3578.75 (Official Build) beta (64-bit)) on Windows 10 x64 Home Insiders 1809 build 18282.1000; Seems fixed with the new Discord build fixed the issue.
+
+KJP12#3880 - Bug Bot on 2018-11-29T22:30:32.783Z
+
+
+### I received work from SEAPUNK that canary 28603 fixed this issue
+
+hopeless#1227 - Bug Bot on 2018-11-30T00:02:37.454Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Bug Bot on 2018-11-30T05:29:45.310Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2018-11-30T08:08:37.239Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jared on 2018-11-30T16:59:48.766Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-12-19T04:28:34.607Z
+
+
+### Archived by Bug Bot on 2019-01-18T04:36:41.123Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

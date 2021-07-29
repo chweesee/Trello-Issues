@@ -1,0 +1,75 @@
+[Archived] When someone changes the server region while you're viewing Server Settings > Overview, the flag of the region will update retroactively but not the name (https://trello.com/c/TXuJFK6D)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-09T12:25:44.962Z
+Latest Update: 2018-10-10T21:00:07.082Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open both Desktop and Android clients 
+- On both clients, go to Server Settings > Overview 
+- On Desktop, change the server region into something else with a different flag, and save the changes 
+- Observe on Android 
+- If it didn't work, press the Save button on Android and then re-click Save button on Desktop
+
+####Expected result:
+Either nothing updates retroactively and does nothing else besides showing the save button, or the name of the region should update along with the flag icon
+####Actual result:
+The flag icon updates but not the name, so you have a flag that doesn't match with the name
+####Client settings:
+Discord Alpha 7.4.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+19249
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-09T12:25:44.962Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b951148c818592a091a1056/7f214f7edce9a922359c8e2adc811c0d/IMG_20180908_160348.jpg added by Bug Bot on 2018-09-09T12:25:47.401Z
+
+
+### Can reproduce.
+Honor 9, Android 8.0.0, Discord Alpha 7.4.8
+
+イスラヌブ#2222 - Bug Bot on 2018-09-09T12:25:52.406Z
+
+
+### Can reproduce.
+can reproduce. Honor 9 Lite, Oreo 8.0.0 • Discord Alpha 748
+
+MakiTheLegend#5027 - Bug Bot on 2018-09-09T12:25:57.413Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.4.8
+
+Frances Picard#6209 - Bug Bot on 2018-09-09T12:26:02.345Z
+
+
+### Can reproduce.
+CR Google Pixel 2 XL, Android 9.0.0 (Patch 9/5), Discord Alpha 7.4.8
+
+aditya#0001 - Bug Bot on 2018-09-09T16:18:54.774Z
+
+
+### minor.  - Clayton on 2018-09-10T20:56:56.746Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-10T20:57:04.066Z
+
+
+### Archived by Clayton on 2018-10-10T21:00:07.084Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

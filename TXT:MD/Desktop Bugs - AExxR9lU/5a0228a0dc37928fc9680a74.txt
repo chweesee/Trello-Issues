@@ -1,0 +1,88 @@
+[Archived] Client refreshes when invite opens from browser (https://trello.com/c/NyowLxf4)
+
+Low,
+P2: Fix can wait a while
+
+Created: 2017-11-07T21:41:52.754Z
+Latest Update: 2018-03-04T04:22:03.577Z
+
+Reported by Mikesky#3456
+
+####Steps to reproduce:
+- Have Discord open 
+- open an invite in your browser 
+- wait for discord to open it in app
+
+####Expected result:
+Invite opens fine, and you can join the server
+####Actual result:
+Invite pops up but client refreshes shortly after
+####Client settings:
+Canary Build 6926
+####System settings:
+Windows 10 x64 Fall Creator's Update
+
+6170
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-07T21:41:52.754Z
+
+
+### SuperSajuuk#7265 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a0228a0dc37928fc9680a74/10d65a9251ea5e083724e3f8120d96d6/31681b524eba843215be2f32825016af.gif added by Bug Bot on 2017-11-07T21:41:55.602Z
+
+
+### Can reproduce.
+Tested with the invite to this server (discord testers), instant refresh. Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.171 (Build 6926)
+
+SuperSajuuk#7265 - Bug Bot on 2017-11-07T21:42:00.192Z
+
+
+### Can reproduce.
+CR - first invite loaded fine, clicked "cancel" in app, refreshed page in browser, voila, app refreshed; Canary 6926, Windows 10 Home x64 (1703)
+
+inventor02#4201 - Bug Bot on 2017-11-07T21:42:05.211Z
+
+
+### Can reproduce.
+CR - Refreshed after accepting the invite. Your browser must be set to open links in your discord client for it to work. Mac Os High Sierra 10.13.1 (17B48), Canary 0.0.161 (Build Number: 6926)
+
+Eyesofcreeper#4758 - Bug Bot on 2017-11-07T21:42:10.190Z
+
+
+### Can reproduce.
+Dell Inspiron 15 Windows 10 Creators Update Discord Canary 6985 Seems to happen whenever I launch chrome and go to another site.
+
+Tiger Gaming X™#6437 - Bug Bot on 2017-11-08T20:10:11.680Z
+
+
+### Verified.  - Clayton on 2017-11-08T21:39:41.001Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-08T21:39:47.004Z
+
+
+### Can't reproduce.
+Linux Mint 18 + Openbox / Discord Canary 0.0.27
+
+cloudrac3r#5547 - Bug Bot on 2017-11-09T04:49:53.252Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Jared on 2018-01-05T18:24:53.654Z
+
+
+### Can no longer reproduce. Potentially fixed. - Jared on 2018-01-05T18:25:02.862Z
+
+
+### Archived due to being inactive for a month in CNR. - Tarek on 2018-03-04T04:22:00.372Z
+
+
+### Archived by Tarek on 2018-03-04T04:22:03.579Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

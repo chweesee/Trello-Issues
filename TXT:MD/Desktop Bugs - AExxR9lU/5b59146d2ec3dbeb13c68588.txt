@@ -1,0 +1,80 @@
+[Archived] Word wrapping spacing in Compact is weird after the latest patch (https://trello.com/c/WkaoVa0t)
+
+None
+
+Created: 2018-07-26T00:23:09.726Z
+Latest Update: 2018-10-22T20:35:55.042Z
+
+Reported by jeikobu__#2137
+
+####Steps to reproduce:
+- make sure Compact mode is turned on, Chat font scaling is set to 100, Zoom level is set to 100, Dark mode is used 
+- turn on any chat channel 
+- post a message that uses more than one line of text
+
+####Expected result:
+message is indented farther than the nickname
+####Actual result:
+message is almost inlined with the nickname
+####Client settings:
+Discord Stable Windows Client b19693
+####System settings:
+Windows 10 Pro 64bit (1803), HiDPI screen is used (3:2 2256x1504)
+
+16036
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-26T00:23:09.726Z
+
+
+### HarryThorpe#0864 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b59146d2ec3dbeb13c68588/cce56948a851bec29de62baa703341b8/unknown.png added by Bug Bot on 2018-07-26T00:23:12.448Z
+
+
+### HarryThorpe#0864 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b59146d2ec3dbeb13c68588/8f7f0d6dbfcf9a73a02189ed0b59acef/g7x5si.png added by Bug Bot on 2018-07-26T00:23:12.943Z
+
+
+### Can reproduce.
+Can reproduce - Canary 19710 - Windows 10 x64 Home - Version 1709 - Top screenshot is what it should look like, bottom is what it does look like. The indent looks normal on English UK and does not look normal in English US [Language Settings].
+
+HarryThorpe#0864 - Bug Bot on 2018-07-26T00:23:17.290Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 19710 -- I could only repro when having my language set to English US
+
+webhp#1337 - Bug Bot on 2018-07-26T00:23:22.294Z
+
+
+### Can reproduce.
+Can reproduce on English US language setting. Windows 10 x64 canary 19170
+
+evilpauwse#9985 - Bug Bot on 2018-07-26T00:23:27.310Z
+
+
+### Reprod dependent on language setting (confirmed on English US)
+
+jeikobu__#2137 - Bug Bot on 2018-07-26T00:35:38.191Z
+
+
+### Can't reproduce.
+CNR. Canary 19931, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-26T19:45:39.640Z
+
+
+### cnr, macos 10.12.6, canary, canary 19879 - Clayton on 2018-07-26T22:22:07.605Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-07-26T22:22:16.050Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:55.045Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

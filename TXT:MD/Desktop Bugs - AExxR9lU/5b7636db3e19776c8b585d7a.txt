@@ -1,0 +1,82 @@
+[Archived] Quickswitcher closes if @ pressed in UK keyboard layout (https://trello.com/c/kgqYEwyT)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-08-17T02:45:47.589Z
+Latest Update: 2019-02-26T21:02:41.408Z
+
+Reported by SunburntRock89#6617
+
+####Steps to reproduce:
+- Select UK keyboard layout 
+- Open the quickswitcher with Ctrl + K 
+- Type @ in the box
+
+####Expected result:
+The quickswitcher takes the input of @ and allows you to search users
+####Actual result:
+The quickswitcher shows @ for a brief moment then closes
+####Client settings:
+Discord Canary 22083
+####System settings:
+Windows 10 Pro Build 1803
+
+17699
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-17T02:45:47.589Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (22066) Windows 10 Pro 64-bit (1803) | I can reproduce this with the " characters (shift + 2) on a nordic/swedish layout keybaord.
+
+Tarek#1337 - Bug Bot on 2018-08-17T02:45:54.950Z
+
+
+### Can reproduce.
+You must using UK keyboard layout, not UK language. Windows 10 x64 1803 (17134), Discord Canary with Build number 22083
+
+Frances Picard#6209 - Bug Bot on 2018-08-17T02:45:59.979Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 - Canary 22083, must use UK layout in US English
+
+ZekNikZ#0878 - Bug Bot on 2018-08-17T02:46:04.922Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 22083
+
+webhp#1337 - Bug Bot on 2018-08-17T02:47:24.415Z
+
+
+### CNR, macos 10.12.6, canary 22283 - Clayton on 2018-08-22T21:26:59.099Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-08-22T21:27:04.373Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 22496#
+
+» a r i a#1593 - Bug Bot on 2018-08-24T21:00:12.397Z
+
+
+### Archived by Clayton on 2018-10-22T20:36:13.622Z
+
+
+### Can't reproduce.
+macOS HS, Chrome Canary 0.0.215
+
+theLMGN#4444 - Bug Bot on 2019-02-26T21:02:41.415Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

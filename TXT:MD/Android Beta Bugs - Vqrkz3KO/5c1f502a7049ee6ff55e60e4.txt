@@ -1,0 +1,100 @@
+[Archived] changing your status(includes pausing Spotify) while being connected to VC disconnects you from it and a webRTC error is thrown in debug when first connected to voice (https://trello.com/c/lDPyUW8M)
+
+None
+
+Created: 2018-12-23T09:06:51.043Z
+Latest Update: 2019-06-05T23:49:30.073Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- connect to a voice channel while being online 
+- open setting > debug and notice the error 
+- change your status from online to invisible and wait for couple seconds(might take 2 or 3 attempts) 
+- notice how you got disconnected and observe the errors in debug again
+
+####Expected result:
+it shouldn't disconnect me after changing my status
+####Actual result:
+it disconnects me after changing my status with a more intense reaction when pausing a Spotify song
+####Client settings:
+Alpha 8.2.2
+####System settings:
+Samsung Galaxy note 8 Android 8.0
+
+25038
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-23T09:06:51.043Z
+
+
+### J1#0088 - https://youtu.be/F1sNzj7q0js added by Bug Bot on 2018-12-23T09:06:53.398Z
+
+
+### Can reproduce.
+CR. Samsung Galaxy J3, Android 7.1.1, Alpha 8.2.2
+
+dorothyoka#9078 - Bug Bot on 2018-12-23T09:06:58.324Z
+
+
+### Can reproduce.
+Can reproduce Android 8.0.0 Nokia 5 Alpha 8.2.2
+
+Bencey_#8587 - Bug Bot on 2018-12-23T09:07:03.392Z
+
+
+### Can reproduce.
+Samsung Galaxy S9 - SM-G960F/DS - Android 8.0.0 - Discord 8.2.2
+
+4JR#4895 - Bug Bot on 2018-12-23T09:07:08.327Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.2.2
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-23T09:13:21.925Z
+
+
+### Can't reproduce.
+CNR, tried multiple times. Samsung Galaxy J7 Prime | Android version 7.0 | Beta 8.2.1
+
+charleskimbac#6492 - Bug Bot on 2018-12-23T09:15:15.480Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8,Android 8.0.0,Alpha 8.2.2
+
+Octillion#6666 - Bug Bot on 2018-12-23T14:35:40.569Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 8.2.2
+
+AmirAmani#0102 - Bug Bot on 2018-12-25T07:18:10.900Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-01-07T18:11:48.596Z
+
+
+### Fixed in next alpha - Jeff Cailteux on 2019-01-07T18:11:55.362Z
+
+
+### Can't reproduce.
+Cannot reproduce anymore as of Alpha 8.2.5 - Samsung Galaxy Note 8 - Android 8.0
+
+J1#0088 - Bug Bot on 2019-01-09T18:48:08.486Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-12T09:09:43.447Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:30.084Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

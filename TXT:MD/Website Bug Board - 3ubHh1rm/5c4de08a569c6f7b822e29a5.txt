@@ -1,0 +1,75 @@
+The "invite team members" form is not disabled when you are not the team owner (https://trello.com/c/uDJiNOpB)
+
+None
+
+Created: 2019-01-27T16:47:06.957Z
+Latest Update: 2019-04-25T22:03:49.574Z
+
+Reported by ginkoid#8888
+
+####Steps to reproduce:
+- Be an invited admin (not an owner) of a team 
+- Go to the team developer console (https:// discordapp . com / developers / teams) 
+- Open the team you are an admin of 
+- Observe how the "invite team members" form is not disabled 
+- Type a username into the "invite team members" form, and submit it 
+- Observe how you are not allowed to invite other team members
+
+####Expected result:
+The "invite team members" form should have been disabled, because you can't do anything with it
+####Actual result:
+The "invite team members" form is enabled, and you only find out you can't add new team members when you actually try to submit it
+####Client settings:
+There's no version in the console, so the developer portal on 2019-01-13
+####System settings:
+Windows Home 1809, Chrome Stable 71.0.3578.98
+
+26204
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-27T16:47:06.957Z
+
+
+### Can reproduce.
+Per <#538427470446198785> , it is a bug. Still unfixed/unmodified as of 2019-01-27.
+
+-Shadow-#9999 - Bug Bot on 2019-01-27T16:47:14.258Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro 64-bit (1809), Google Chrome 71.0.3578.98
+
+Defracted#0001 - Bug Bot on 2019-01-27T16:47:19.303Z
+
+
+### Can reproduce.
+macos 10.14.3, chrome 71.0.3578.98
+
+Lentralkestor#2016 - Bug Bot on 2019-01-27T16:47:24.249Z
+
+
+### Can reproduce.
+Windows 10 x64 Canary 31400
+
+Zacatero#0001 - Bug Bot on 2019-01-28T00:45:25.619Z
+
+
+### Can reproduce.
+CR; Firefox browser Version 64.0.2 (64-bit), Windows 7 (Discord Canary 31400, Windows 7 64-bit)
+
+Skyla#7948 - Bug Bot on 2019-01-28T07:34:22.406Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 Build 1803 Google Chrome Version 71.0.3578.98
+
+Spooker#0001 - Bug Bot on 2019-01-28T16:29:11.277Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

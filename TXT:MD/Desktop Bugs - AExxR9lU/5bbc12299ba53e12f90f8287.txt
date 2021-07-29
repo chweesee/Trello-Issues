@@ -1,0 +1,81 @@
+[Archived] Pinch-to-zoom on touchscreen devices doesn't work anymore (https://trello.com/c/EyzycKo0)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-09T02:27:53.583Z
+Latest Update: 2019-08-13T15:30:52.847Z
+
+Reported by Aetheryx#2222
+
+####Steps to reproduce:
+- Use two fingers in a pinching motion on your Discord client, on your touchscreen  
+- Additional information (I didn't know where else this is supposed to go): this is not a bug with Electron. Electron v3.x set the default visual zoom levels to 100%~100%, it IS possible to set them back programmatically
+
+####Expected result:
+The client zooms into the area you're pinching on, like it used to before Electron 3.x
+####Actual result:
+Nothing happens
+####Client settings:
+Desktop Canary, v0.0.214 (Build Number: 25540)
+####System settings:
+Windows 10 Home 17134
+
+20664
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-09T02:27:53.583Z
+
+
+### Can reproduce.
+Windows 10 Pro; Desktop Canary 25648
+
+Iffabled#0001 - Bug Bot on 2018-10-09T02:28:01.225Z
+
+
+### Can reproduce.
+MacBook Air macOS 10.14.1; PTB 25638
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-09T02:28:06.364Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home Laptop 1803 Canary 0.0.214 Build 25718
+
+Okori#0902 - Bug Bot on 2018-10-09T02:28:11.232Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 25661
+
+Neiron#2406 - Bug Bot on 2018-10-09T03:19:54.578Z
+
+
+### minor - Clayton on 2018-10-09T20:40:52.616Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-09T20:41:01.445Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:57.509Z
+
+
+### Can reproduce.
+Windows 10 Home x64
+
+Majeh_of_Shadows#2185 - Bug Bot on 2019-01-24T11:04:38.539Z
+
+
+### Unarchived by Bug Bot on 2019-01-24T11:30:05.768Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:52.868Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,105 @@
+[Archived] Sharing images fails (https://trello.com/c/a1AjyvUU)
+
+P2 - Can wait a while
+
+Created: 2017-03-09T17:15:07.913Z
+Latest Update: 2017-10-02T16:46:15.839Z
+
+Reported by Robsad#4168
+
+####Steps to reproduce: 
+- Go to your gallery 
+- Find a photo you want to share 
+- Share to discord 
+
+####Expected result:
+ Discord sends a picture to a channnel 
+####Actual result:
+ Discord sends a weird file which cant be opened 
+####System settings:
+ Android 6.0.1, Discord alpha 3.4.3
+
+1904
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-09T17:15:07.913Z
+
+
+### Can reproduce.
+Only happens since latest update to discord. • Android 5.0.2
+
+LW001#8654 - Bug Bot on 2017-03-09T17:15:08.981Z
+
+
+### Can reproduce.
+Huawei P8 Lite, Android 6.0, v3.4.3
+
+Infinity#1846 - Bug Bot on 2017-03-09T17:15:11.283Z
+
+
+### Can reproduce.
+Android Lollipop 5.0.1 Discord 3.4.2-beta
+
+WolfgGang1710#6782 - Bug Bot on 2017-03-09T17:15:12.545Z
+
+
+### here's what happens (might be a bit technical):
+1) share from app
+2) app generates a URI and gives the receiver app activity permissions to read it
+3) discord has a proxy activity that just forwards the URI to the real activity
+4) handler activity is started with URI forward
+
+the uri permission only allows the receiving activity (specified in 2-3) from accessing the data, so when 4 tries it gets a permissions error - Sam Shih on 2017-03-09T17:54:29.274Z
+
+
+### Verified.  - Clayton on 2017-03-10T01:27:01.289Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-03-10T01:27:12.865Z
+
+
+### Can reproduce.
+Discord 3.4.3 on VFD 600 @ 6.0.1
+
+tt#5937 - Bug Bot on 2017-03-10T12:45:56.466Z
+
+
+### Can reproduce.
+Android 5.1, newest
+
+tomGER#7462 - Bug Bot on 2017-03-10T14:43:14.078Z
+
+
+### You can change the image name to .png (test.png for example)  and see the picture again https://cdn.discordapp.com/attachments/281049438980669450/289770510982840340/e16c7e7e56ccf0fc.44437 (Uploaded via Android) and http://i.imgur.com/whZOtc2.jpg (Edited to .png/.jpg)
+
+tomGER#7462 - Bug Bot on 2017-03-10T14:48:57.010Z
+
+
+### Tested on 3.7.3:
+
+Can no longer reproduce myself. This should have been fixed as per 3.6.5 (14 April 2017):
+
+`- Sharing files/images from other apps should work now.`
+
+Pinging @andygarron1 per request and moving to claimed fixed. - Alexander (DJScias) on 2017-04-24T23:46:23.253Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexander (DJScias) on 2017-04-24T23:46:27.321Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2017-04-28T21:28:35.667Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:46:13.124Z
+
+
+### Archived by Jared on 2017-10-02T16:46:15.842Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

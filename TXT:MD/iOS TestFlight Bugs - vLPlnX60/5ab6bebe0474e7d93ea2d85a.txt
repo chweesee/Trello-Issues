@@ -1,0 +1,83 @@
+[Archived] Message interaction menu appears for recent messages when using search (https://trello.com/c/Ak047qOQ)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-03-24T21:10:22.864Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to any text channel and send a message 
+- Open the search and search for the messages sent by yourself 
+- Long press the first search result 
+- Observe that the message menu appears
+
+####Expected result:
+The message interaction menu shouldn't appear.
+####Actual result:
+The message interaction menu appears for some recent messages (it seems only messages that were sent today) and causing some issues when trying to use it.
+####Client settings:
+TestFlight 2.2.6 (3440)
+####System settings:
+iPhone 6s & iPad Air 2, iOS 11.3 PB 6
+
+9838
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-24T21:10:22.864Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ab6bebe0474e7d93ea2d85a/3fa4bb9e67d77937f86691262d5ace8c/zKCCmro.jpg added by Bug Bot on 2018-03-24T21:10:25.348Z
+
+
+### Can reproduce.
+CR, iPhone SE, iOS 10.3.2, TestFlight 2.2.6 (3440)
+
+TimThe#1118 - Bug Bot on 2018-03-24T21:10:30.268Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.6 (3440); Though it would be a nice feature
+
+HeroGamers#0001 - Bug Bot on 2018-03-24T21:10:35.270Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS 11.2.6. TestFlight 2.2.6 (3440); Works for all if the first messages that appear from that channel. EG, if 7 messages from #general were to appear first, in a row, only those 7 would have the bug work.
+
+ZenKing#2104 - Bug Bot on 2018-03-24T21:10:40.377Z
+
+
+### Maybe expected result is different: When this message menu is intended, it should be shown for all search results and pinned messages/recent mentions. 
+
+Also some options like editing the message are a bit buggy.
+
+Pascal#0929 - Bug Bot on 2018-03-25T00:36:58.998Z
+
+
+### Verified.  - Clayton on 2018-03-30T23:15:54.570Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-30T23:16:05.187Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5560), when I hold down onto the first result - it just really does nothing for me. I used iPhone 8 +, running iOS 12 (Dev Beta 2).
+
+Because I was not able to reproduce this bug, I will move it to Claimed Fixed. - Ghoul on 2018-07-03T01:48:00.024Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T01:48:03.970Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:55.252Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

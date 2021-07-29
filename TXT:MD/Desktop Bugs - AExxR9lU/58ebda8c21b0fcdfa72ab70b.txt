@@ -1,0 +1,38 @@
+Adding reactions w/o being able to ready message history. Loads then fails. (https://trello.com/c/lUCeCHNA)
+
+P2: Fix can wait a while
+
+Created: Unknown
+Latest Update: 2019-09-23T22:30:07.421Z
+
+Steps to Reproduce:
+
+1)  On account A create a server.
+2)  Turn off the Read Message History permission for the @everyone role.
+3)  On account B, join A's server.
+4)  On A, post anything into chat.
+5)  Have B react to that post.
+
+Buggy event:  The reaction fails to be added.
+Expected:  Reaction remains.
+
+Card Log
+========
+### If you don't have read message history perms, you can't add reactions. - Jared on 2017-10-04T21:39:52.538Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:41:02.288Z
+
+
+### Moved from Next up for investigation to Verified Bugs by Jared on 2018-07-06T17:44:36.503Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58ebda8c21b0fcdfa72ab70b/5133de0473f90403e65580dcc48e3fdb/ezgif-4-1b8ba0d97e.gif added by Bug Bot on 2018-07-14T11:12:56.088Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

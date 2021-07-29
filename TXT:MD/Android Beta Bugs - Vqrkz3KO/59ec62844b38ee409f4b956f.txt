@@ -1,0 +1,101 @@
+[Archived] Bug Bounty 1 https://trello.com/c/HIYQTipa/ (https://trello.com/c/64ltkteL)
+
+P2 - Can wait a while,
+High
+
+Created: 2017-10-22T09:19:00.872Z
+Latest Update: 2018-04-23T22:21:21.856Z
+
+Reported by Azrael#9808
+
+####Steps to reproduce:
+- Make sure you are signed out of every single device for your Discord account except for your Android device 
+- Join a really active server that's really huge, possibly 24,000 members, if you are in Hypesquad that server will work 
+- Wait for someone (Mallory) to do an @ everyone 
+- View the ping them switch back to another server or DM 
+- Click the Menu button and close Discord 
+- Launch Discord again
+
+####Expected result:
+The app should remember you saw the ping
+####Actual result:
+The app doesn't and will always show a red notification badge from where the ping was until you view it from a PC or laptop
+####Client settings:
+Android Alpha 5.3.9
+####System settings:
+Android 7.0 Moto G4
+
+5464
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-22T09:19:00.872Z
+
+
+### Can reproduce.
+Huawei p8 lite 2017, the notification disappears
+
+Mathéo ~ fujh🎃ɟu#0878 - Bug Bot on 2017-10-22T09:19:08.254Z
+
+
+### Can reproduce.
+although I didn't have Mallory do a @ everyone it happened in a different server and many people where chatting and reacting to a message my phone begun to lag and I closed Discord and reopen it and I had a ghost mention Android​ 5.1 Discord 5.4.3
+
+Okori#0902 - Bug Bot on 2017-10-22T09:19:13.429Z
+
+
+### Can reproduce.
+Android 4.4.4, Alpha 5.4.3, Allview Viva H8 LTE
+
+Symplyfyed#4047 - Bug Bot on 2017-10-22T09:19:18.288Z
+
+
+### Cannot reproduce. Did this with the final ping on DDevs on a test account,it was fine. - Jared on 2017-11-07T16:53:33.959Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-11-07T16:53:38.212Z
+
+
+### Just a side note, this actually has happened to me, if I get pinged on a network. Then try to clear it from an another network.
+
+So to explain it in a easier way.
+ - Get pinged from your home network, but don't view it.
+ - Try to view/clear it on an another network, such as 4G: 
+
+Has happened a few times when the Android Alpha role gets pinged, but that's sometimes.
+I tried this on a OnePlus 5 device, running oreo. Discord Alpha 5.0.6, moving to user reported for verification. - Tarek on 2018-01-07T06:44:17.111Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Tarek on 2018-01-07T06:44:39.405Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-16T22:19:08.927Z
+
+
+### Moved from Verified Bugs to User Reported Bugs by Clayton on 2018-01-16T22:19:42.898Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-01-29T21:27:43.069Z
+
+
+### Still cannot reproduce - Jared on 2018-01-29T21:27:47.619Z
+
+
+### Can reproduce.
+Alpha 6.2.6 Huawei Honor 6X I have experienced this, with any mention of something that mentions multiple people, so mentioning everyone or a role. I've specifically only had it happen when both desktop and mobile at the same time
+
+Destructo#9035 - Bug Bot on 2018-02-16T16:46:44.344Z
+
+
+### This was claimed elsewhere: https://trello.com/c/E0nNssH1/1030-if-someone-edits-a-message-containing-an-everyone-tag-after-you-restarted-the-app-the-ping-indicator-will-come-back-and-get-stuc - Jared on 2018-04-23T22:21:20.863Z
+
+
+### Archived by Jared on 2018-04-23T22:21:21.858Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

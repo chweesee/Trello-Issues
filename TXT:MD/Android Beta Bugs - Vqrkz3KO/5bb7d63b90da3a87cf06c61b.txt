@@ -1,0 +1,78 @@
+[Archived] [Audit Log] denying a channel permission of a role after granting it will create an "granted permission for role" without a permission underneath it (https://trello.com/c/Zh15P8t6)
+
+None
+
+Created: 2018-10-05T21:23:07.424Z
+Latest Update: 2019-01-01T15:28:21.570Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- create a channel 
+- add a role to channel permission 
+- grant it one permissiom 
+- save 
+- deny exact that channel permission u granted to that role 
+- expand newest audit log entry
+
+####Expected result:
+latest entry should only show that u denied a perm
+####Actual result:
+it shows that you denied a perm AND it shows that u granted a perm, but without perm underneath
+####Client settings:
+Alpha 7.6.3
+####System settings:
+Samsung Galaxy S5 Mini Android 6.0.1
+
+20667
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-05T21:23:07.424Z
+
+
+### Nashorn#3450 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bb7d63b90da3a87cf06c61b/3fb0959a2c38081ea71038bcdf9f5729/1538745097553.png added by Bug Bot on 2018-10-05T21:23:10.035Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.6.3
+
+coolalmostchilly#7777 - Bug Bot on 2018-10-05T21:23:15.023Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android v6.0.1 • Discord Alpha v7.6.3
+
+fujhofn.#0007 - Bug Bot on 2018-10-05T21:23:19.987Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8; 7.6.3
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-05T21:23:24.968Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Clayton on 2018-10-05T22:10:00.700Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.6.3
+
+Hole#0001 - Bug Bot on 2018-10-06T03:51:17.776Z
+
+
+### Moved from Audit Log Bugs to Cannot Reproduce by Jeff Cailteux on 2018-10-23T23:26:35.737Z
+
+
+### Archived due to being inactive for 30+ days in cannot reproduce list. - Tarek on 2019-01-01T15:28:20.547Z
+
+
+### Archived by Tarek on 2019-01-01T15:28:21.572Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

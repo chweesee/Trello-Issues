@@ -1,0 +1,110 @@
+When offline the blue [BOT] tag changes based if it has a role or not. (https://trello.com/c/rLcPWVnj)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-16T02:01:25.857Z
+Latest Update: 2018-12-18T14:55:10.410Z
+
+Reported by !A²#6155
+
+####Steps to reproduce:
+- Get two offline bots 
+- Give one a role. (the color I used was #6FE29D)
+
+####Expected result:
+The [ BOT ] tags should be the same color regardless of their roles.
+####Actual result:
+The [ BOT ] tags have different colors. The on with the role shows as a greyish blue.
+####Client settings:
+Discord 0.0.157
+####System settings:
+MAC OSX Sierra Latest
+
+1696
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-16T02:01:25.857Z
+
+
+### !A²#6155 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59433bf5dd86ae66164ae99c/5310abb249ec358d9957cb4c5e9602aa/XIFkWuh.png added by Bug Bot on 2017-06-16T02:01:28.851Z
+
+
+### Can reproduce.
+ Ubuntu 16.04 newest canary (and beastly pc so dont say that its a prosessing issue.)
+
+GidoBOSSftw5731#6422 - Bug Bot on 2017-06-16T02:01:30.355Z
+
+
+### Can reproduce.
+ Windows 10 x64 Anniversary Update (1607) Canary 0.0.157. When giving the other bot a colored role, the tags were the same.
+
+OGNovuh#0014 - Bug Bot on 2017-06-16T02:01:32.354Z
+
+
+### Can reproduce.
+Win 7 0.0.157\DiscordCanary (Offline color greyscale filter inline css isn't overridden by bot tag)
+
+Ω¹²#8421 - Bug Bot on 2017-06-16T02:01:34.799Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-06-16T20:46:09.330Z
+
+
+### fixed in stable <.< Canary soon tm - Shadi Isber on 2017-06-16T21:26:31.942Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2017-06-16T21:26:37.432Z
+
+
+### Checked as of latest canary:
+
+I can no longer reproduce this myself. The blue [BOT] tags remain the same color when offline, role or not. - Alexander (DJScias) on 2017-06-23T23:06:20.428Z
+
+
+### Verified Fixed - Jared on 2017-06-27T21:04:43.042Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T21:04:59.620Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:22:11.660Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:22:13.053Z
+
+
+### I can still reproduce this. Reopening this ticket.
+Windows 10 Pro x64 Fall Creators Update, Discord Canary 0.0.204 (Build 12608) - Chris Cox on 2018-03-26T01:14:59.289Z
+
+
+### Moved from Verified Fixed to Reopened by Chris Cox on 2018-03-26T01:15:06.706Z
+
+
+### Unarchived by Chris Cox on 2018-03-26T01:15:06.846Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 22283
+
+Frances Picard#6209 - Bug Bot on 2018-08-21T16:33:00.453Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: Canary 28325
+
+Aeria#9096 - Bug Bot on 2018-11-21T16:23:22.738Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord Canary Build 29875
+
+KolkiesDev#0001 - Bug Bot on 2018-12-18T14:55:10.411Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

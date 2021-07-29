@@ -1,0 +1,91 @@
+[Archived] Client crashes when @mentioning users with formatted names. (https://trello.com/c/i6PA1qs1)
+
+None
+
+Created: 2018-09-22T15:05:51.832Z
+Latest Update: 2019-02-01T00:30:22.152Z
+
+Reported by Hornet#1050
+
+####Steps to reproduce:
+- Make a new account and set the name to 𝓣𝓮𝓼𝓽. 
+- Join a Discord you own on this new account. 
+- Give your new account a nickname within the Discord. 
+- Use your new account on your PC/phone and get on your main account on an iPad/iPhone. 
+- Spam some random letters on the new account. 
+- Type @<their whole name except the last letter>
+- Tap their name that appears in the auto suggest
+
+####Expected result:
+It should allow you to continue typing your message
+####Actual result:
+The client crashes and upon reloading keeps what you had written so far.
+####Client settings:
+TestFlight 2.3.8
+####System settings:
+iPad Mini 4 iOS 11.4.1 (I quickly tested it in 12.0 after I installed it and the issue persisted.)
+
+19947
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-22T15:05:51.832Z
+
+
+### Xylium#1480 - https://www.youtube.com/watch?v=zShCBw80GCg added by Bug Bot on 2018-09-22T15:05:54.276Z
+
+
+### Can reproduce.
+Can reproduce. Only works typing all the letters of the nickname except the last, (e.g. Tes for Test). iPhone 6s iOS 11.4.1, TF 2.3.8 (7416)
+
+George#0069 - Bug Bot on 2018-09-22T15:05:59.281Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 dev beta - TestFlight 2.3.8 (7416) & iPad 5th generation, iOS 11.4.1 - TestFlight 2.3.8 (7416)
+
+Xylium#1480 - Bug Bot on 2018-09-22T15:06:04.240Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 12.1 Dev Beta 1, TestFLight 2.3.8 (7416), happens when typing all the charecters except the last and then hitting the name
+
+Fite#0756 - Bug Bot on 2018-09-22T15:06:09.259Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 12 & iPad Air 2 - iOS 12.1 Public Beta 1, TestFlight 2.3.8 (7416)
+
+Pascal#0929 - Bug Bot on 2018-09-22T15:06:57.817Z
+
+
+### Can reproduce.
+iPhone Xs - iOS 12 | TestFlight 2.3.8 (7146)
+
+despresso#0001 - Bug Bot on 2018-09-22T21:46:44.551Z
+
+
+### Can reproduce.
+Can Reproduce - iPhone 6s, iOS 12.1 Beta (16B5059d) - TestFlight 2.3.8 (7416)
+
+Mippy#0001 - Bug Bot on 2018-09-25T07:42:19.188Z
+
+
+### Moved from New Issues to Cannot Reproduce by Fanghao on 2018-09-27T22:06:45.310Z
+
+
+### Archived by Tarek on 2019-01-01T23:38:45.728Z
+
+
+### Unarchived by Tarek on 2019-01-02T00:16:45.300Z
+
+
+### Archived by Bug Bot on 2019-02-01T00:30:22.162Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

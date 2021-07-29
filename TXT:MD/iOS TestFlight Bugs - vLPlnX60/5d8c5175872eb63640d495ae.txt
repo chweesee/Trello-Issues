@@ -1,0 +1,108 @@
+[Archived] Typing \ or / in front of a bunch of emojis causes the line to break inappropriately (https://trello.com/c/S1aPv9JJ)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-09-26T05:49:41.403Z
+Latest Update: 2019-11-03T21:00:02.987Z
+
+Reported by Ayu#0001
+
+####Steps to reproduce:
+- Go to a text channel on iOS, and open the Discord Emoji keyboard 
+- Spam a bunch of emojis (they must not be unicode emojis) until the input text is filled with at least 2 lines 
+- Move your cursor to the beginning of the message 
+- Type \ or / multiple times 
+- Observe
+
+####Expected result:
+The extra characters should not cause a line break
+####Actual result:
+The extra characters cause an unexpected line break
+####Client settings:
+TestFlight 3.1.3 (17389)
+####System settings:
+iPhone 7 Plus - iOS 13.0 & iPad Pro 11" - iOS 12.4.1
+
+44743
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-26T05:49:41.403Z
+
+
+### Ayu#0001 - https://youtu.be/o4TrIhrYoW4 added by Bug Bot on 2019-09-26T05:49:43.965Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 4), TestFlight 3.1.3 (17389)
+
+.Gloria.#9606 - Bug Bot on 2019-09-26T05:49:49.139Z
+
+
+### Can reproduce.
+CR with \ only iPhone XR iOS 13.1 & iPad Air iPadOS 13.1 TestFlight 3.1.3 (17389)
+
+binchlord#0998 - Bug Bot on 2019-09-26T05:49:53.962Z
+
+
+### Can reproduce.
+CR // iPhone 11 Pro running iOS 13.0 // Stable 3.1.3
+
+devil eyes#0001 - Bug Bot on 2019-09-26T05:49:58.956Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13 - TestFlight 3.1.3
+
+Fictional#0001 - Bug Bot on 2019-09-26T09:33:13.189Z
+
+
+### Can reproduce.
+iPhone SE iOS 13.0, Discord TestFlight 3.1.3 (17389)
+
+Rex#9142 - Bug Bot on 2019-09-26T10:24:57.374Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1; TestFlight 3.1.3 (17389)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-09-26T14:59:09.691Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.1 - Stable 3.1.3
+
+Xylium#5800 - Bug Bot on 2019-09-26T18:30:13.011Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13.1, TestFlight 3.1.3 (17389)
+
+Action Potential#6862 - Bug Bot on 2019-09-27T02:26:12.312Z
+
+
+### Can reproduce.
+iPhone XS (iOS 13.1 PB 4), TestFlight Build 3.1.3 (17389)
+
+kiosion#0001 - Bug Bot on 2019-09-28T00:26:50.876Z
+
+
+### Can reproduce.
+iPad Pro 12.9” (2018), iPadOS 13.1.2, Testflight 3.1.4 (17524)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-02T22:50:32.670Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-04T19:00:04.115Z
+
+
+### Archived by Bug Bot on 2019-11-03T21:00:03.000Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

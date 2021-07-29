@@ -1,0 +1,84 @@
+[Archived] [a11y] Windows Speech Recognition gets confused by Discord when a Voice Command is used to switch Channels (https://trello.com/c/YECPu3WL)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-11-02T21:49:50.513Z
+Latest Update: 2019-10-23T23:01:26.793Z
+
+Reported by Blastoise186#7194
+
+####Steps to reproduce:
+- Setup and train Windows Speech Recognition to allow it to understand your voice 
+- Go into any Discord Server with multiple Text Channels 
+- use the Wake Word "Start Listening" 
+- use the Voice Command "Show Numbers" 
+- Say the number of the Text Channel you want followed by "OK" to confirm (such as "6", "OK") 
+- Say the name of another Text Channel 
+- Say the Number that appears followed by "OK" 
+- Say "Stop Listening" when you are done to disable the tool
+
+####Expected result:
+In both cases, each Text Channel that gets flagged up should only have one Number and Button assigned in the results
+####Actual result:
+Each Text Channel has at least two buttons that get flagged up on top of each other
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 26151, Version Hash: 7703492d8438d217c4f7a907b2e7e33bf6137d95
+####System settings:
+Windows 10 Home 64-bit 1809 October 2018 Update Build 17763.55
+
+21295
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-02T21:49:50.513Z
+
+
+### Blastoise186#7194 - https://youtu.be/Zp2CxivcKK4 added by Bug Bot on 2018-11-02T21:49:52.843Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (17763), Canary 0.0.218 (27430)
+
+mouse#0091 - Bug Bot on 2018-11-02T21:49:57.835Z
+
+
+### Can reproduce.
+Can Reproduce - Windows 10 Home, Discord Canary 27458
+
+1Storm#0001 - Bug Bot on 2018-11-02T21:50:02.828Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64 (17134). Discord Canary 27458
+
+coolalmostchilly#0420 - Bug Bot on 2018-11-02T21:50:07.839Z
+
+
+### minor - Clayton on 2018-11-03T02:37:14.819Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-03T02:37:21.874Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:39.648Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit 1809 October 2018 Update Build 17763.437 [BUILD INFO] Release Channel: canary, Build Number: 36869, Version Hash: f322b985f3fc61855ba15433cbfee97ebb72a579 [NATIVE INFO] host 0.0.235 Can still reproduce and unarchiving because the a11y initiative has been re-opened
+
+Blastoise186#7194 - Bug Bot on 2019-05-03T18:12:39.500Z
+
+
+### Unarchived by Bug Bot on 2019-05-03T18:30:05.833Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:26.807Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

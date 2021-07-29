@@ -1,0 +1,72 @@
+[Archived] Embed thumnail images with link do not show security "spoopy" prompt (https://trello.com/c/qtFNuBEF)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-01-22T01:34:20.178Z
+Latest Update: 2018-07-06T18:01:22.012Z
+
+Reported by glen3b#9285
+
+####Steps to reproduce:
+- Create an embed with a title link and a thumbnail image (for instance from a bot or a webhook call) 
+- Click the thumbnail in the top-right corner of the embed
+
+####Expected result:
+A prompt appears warning you that "links are spoopy", with an option to either go to the link or cancel
+####Actual result:
+Discord navigates to the link in your browser without any prompt
+####Client settings:
+Release Channel: canary, Build Number: 9714, Version Hash: a3bde5eb19401f5ca9732c291f6a01356f543b9d
+####System settings:
+Arch Linux x64, kernel 4.14.9-1-ARCH
+
+8034
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-22T01:34:20.178Z
+
+
+### Can reproduce.
+Works with all images, not just in embeds, Discord Build 9714, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-01-22T01:34:27.876Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (Version 1709), Discord Canary (Build 9714)
+
+Darkbeast#4002 - Bug Bot on 2018-01-22T01:34:32.865Z
+
+
+### Can reproduce.
+CR, with embeds. Windows 10 Pro (1709) x64, Discord Canary (Build: 9714)
+
+Senhara#5373 - Bug Bot on 2018-01-22T01:34:37.831Z
+
+
+### Verified.  - Clayton on 2018-01-25T23:00:36.147Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-25T23:00:39.361Z
+
+
+### Verified Fixed - Jared on 2018-03-20T22:53:35.217Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-20T22:53:39.304Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:01:20.761Z
+
+
+### Archived by Jared on 2018-07-06T18:01:22.014Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

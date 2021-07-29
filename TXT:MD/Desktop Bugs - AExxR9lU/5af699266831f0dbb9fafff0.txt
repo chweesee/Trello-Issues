@@ -1,0 +1,66 @@
+[Archived] Audio player playback time does not update properly if clip ends while on separate desktop (https://trello.com/c/tjIftJwM)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-12T07:35:02.281Z
+Latest Update: 2018-10-22T20:20:41.576Z
+
+Reported by Frums#7062
+
+####Steps to reproduce:
+- Upload audio file with inline player in public channel, private message, etc. 
+- Play audio file from any point 
+- Switch to separate desktop or fullscreen app (on macOS; uncertain if there's any equivalent to this degree of window suspending on Windows) 
+- Stay on separate desktop until audio clip has ended 
+- Switch to original desktop
+
+####Expected result:
+Audio clip displays with current time 0:00, plays from start if play button pressed
+####Actual result:
+Audio clip appears paused at play time at the point of last switch to other desktop, but if the play button is pushed it restarts from 0:00 regardless
+####Client settings:
+Discord (Mainline Channel), 0.0.251
+####System settings:
+MacBook Pro (Retina, 15-inch, Mid 2015), mac OS 10.12.6
+
+12464
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-12T07:35:02.281Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 Pro 1803 (17134.48), Canary 15094 | Can reproduce in video player too
+
+oxygencraft#8884 - Bug Bot on 2018-05-12T07:35:09.606Z
+
+
+### Can reproduce.
+Can reproduce Can reproduce Windows 10 x64 1709 Canary 15120
+
+Bencey_#8587 - Bug Bot on 2018-05-12T07:35:14.567Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS Sierra 10.12.6, Discord Canary (Build 15059)
+
+Rage#1337 - Bug Bot on 2018-05-12T07:35:19.576Z
+
+
+### Verified, Windows 10, Build 15123 - Clayton on 2018-05-13T01:15:29.858Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-13T01:15:36.710Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:41.578Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

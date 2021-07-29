@@ -1,0 +1,135 @@
+[Archived] Clicking "Cancel" on the Nitro gift purchase page will open an "invalid invite" screen (https://trello.com/c/9i8JYXYw)
+
+None
+
+Created: 2019-09-18T19:00:56.646Z
+Latest Update: 2020-02-20T21:33:07.200Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Settings > Nitro Gifting 
+- Select any Nitro version 
+- When the webpage loads, click "Cancel" on bottom left
+
+####Expected result:
+It should close normally
+####Actual result:
+It closes, and then an "invalid invite" screen pops in. When looking at debug logs it looks like it's trying to deeplink on the invite of code "app" (might be because the Nitro Gift webpage starts with discordapp(dot)com/app)
+####Client settings:
+Discord version 9.5.9
+####System settings:
+Huawei Mate 9 Android 9.0
+
+44379
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-18T19:00:56.646Z
+
+
+### Can reproduce.
+App 959 - OnePlus 5T Android Pie
+
+OneNormalUsername#7636 - Bug Bot on 2019-09-18T19:01:04.338Z
+
+
+### Can reproduce.
+Can reproduce Motorola Moto G6 Play, Android 9, Android Alpha 959
+
+mesub#0556 - Bug Bot on 2019-09-18T19:01:09.267Z
+
+
+### Can reproduce.
+Can reproduce Samsung Galaxy S8  - Android 9 - Discord version: 9.5.9 - Works only with chrome. With firefox, got something went wrong and a loop of redirections.
+
+Redblueflame#8260 - Bug Bot on 2019-09-18T19:01:14.329Z
+
+
+### Can reproduce.
+Samsung Galaxy s8, Android 9.0 - 9.5.9
+
+Emma~♡#4245 - Bug Bot on 2019-09-18T19:33:18.933Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S8, Android 9, Discord Alpha 9.5.9
+
+Akanyahtsu#6669 - Bug Bot on 2019-09-18T19:35:25.787Z
+
+
+### Can reproduce.
+Samsung Galaxy A5 (2016) × Androd 7.0 × Discord 9.5.9
+
+B.O.S.S#0251 - Bug Bot on 2019-09-18T19:55:18.158Z
+
+
+### Can reproduce.
+It says "Oops something went wrong". Redirects to a couple places, back to Discord and gets stuck on un-closable Invalid Invite panel. (Samung Browser). Galaxy A20 - Android 9.0 - Alpha 9.5.9
+
+Not Batman#7098 - Bug Bot on 2019-09-18T19:58:16.486Z
+
+
+### Can reproduce.
+Huawei P9, Android 7, Alpha 9.5.9
+
+Drachenfrucht1#4901 - Bug Bot on 2019-09-18T21:15:09.629Z
+
+
+### Can reproduce.
+Alcatel A30 Fierce, Android 7.0 - Alpha 9.5.9
+
+Ness#7343 - Bug Bot on 2019-09-18T23:21:48.639Z
+
+
+### Can reproduce.
+Huawei P20 Lite, Android 9, EMUI 9, Discord Beta 959
+
+Geek#1337 - Bug Bot on 2019-09-18T23:30:18.385Z
+
+
+### Can reproduce.
+Huawei ALE-L21, Android 5.0.1, Alpha 9.5.9
+
+Akanyahtsu#6669 - Bug Bot on 2019-09-19T09:03:21.770Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord Alpha 959
+
+Jean20B#4668 - Bug Bot on 2019-09-19T10:51:47.981Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 9.5.9
+
+Skyla#6111 - Bug Bot on 2019-09-19T17:45:45.580Z
+
+
+### Can reproduce.
+CR Discord 959 Android 9 Oppo find x
+
+Typhoon#9981 - Bug Bot on 2019-09-20T11:14:00.450Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy 8 Android 8, Alpha 8.5.9
+
+Action Potential#6862 - Bug Bot on 2019-09-21T01:07:23.840Z
+
+
+### Can reproduce.
+CR; Samsung Galaxy S8, Android 9, 962
+
+Marcel#0910 - Bug Bot on 2019-09-27T10:01:19.399Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:07.210Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

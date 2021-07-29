@@ -1,0 +1,68 @@
+[Archived] When prunning messages, sometimes discord bugs and shows already deleted messages. (https://trello.com/c/N0gnfJ0I)
+
+P3: Will get fixed eventually
+
+Created: 2016-11-23T10:53:55.313Z
+Latest Update: 2017-12-30T08:30:27.560Z
+
+Reported by Maxie#2334
+
+####Steps to reproduce: 
+- Find a bot that has the prune command, in this case i used napstabot. 
+- prune the chat, example &prune 4. 
+- see 4 messages get deleted but quickly see yours come back. 
+
+####Expected result:
+ All messages delete. 
+####Actual result:
+ invoking message stays.
+
+Card Log
+========
+### Added by Jared on 2016-11-23T10:53:55.313Z
+
+
+### Maxie#2334 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58357543722ad53a8702c97b/acfe159908be58d6b39dd5567da53fe6/idbinh.gif added by Jared on 2016-11-23T10:54:16.709Z
+
+
+### Can reproduce.
+Win10 x64 Canary
+
+Noahkiq#9675 - Jared on 2016-11-23T15:11:26.191Z
+
+
+### Maxie#2334 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58357543722ad53a8702c97b/98a668d25eae479ace79d9d32afb794e/jckknm.png added by Jared on 2016-11-23T19:33:55.375Z
+
+
+### Verified, but extremely low priority. - Jared on 2016-11-30T20:26:44.217Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-11-30T20:26:47.776Z
+
+
+### Cannot reproduce anymore,
+Discord Canary 0.0.177 (Build 7389) on Windows 10 Pro 64-bit (Build 1607)
+There is no messages coming back, or stays on screen. - Tarek on 2017-11-15T19:16:22.420Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2017-11-15T19:16:31.186Z
+
+
+### Verified Fixed - Jared on 2017-11-16T19:27:00.986Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-11-16T19:27:05.352Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-30T08:30:25.143Z
+
+
+### Archived by Alexandru Todea on 2017-12-30T08:30:27.563Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

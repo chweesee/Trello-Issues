@@ -1,0 +1,71 @@
+[Archived] When putting a valid custom emoji inside a code block it will be converted into the internal <:name:id> representation upon sending (https://trello.com/c/7KpuFsZK)
+
+None
+
+Created: 2018-07-30T21:21:02.187Z
+Latest Update: 2018-07-30T21:29:14.628Z
+
+Reported by MrWasdennnoch#0443
+
+####Steps to reproduce:
+- Create a code block with backticks (either inline or block) 
+- Put a custom emoji that you have access to inside it (because it's in the same server or you have Nitro), like \`:test:\` 
+- Send message and observe
+
+####Expected result:
+Just like in the Desktop app the content inside a code block should be sent as it is and not modified, meaning the emoji should appear as :test: inside the code block
+####Actual result:
+The emoji is converted to the internal name-id representation upon sending but since it's inside a code block it's not rendered as an emoji but as raw text, resulting in it appearing as \<:test:395628907224629248\> for everyone
+####Client settings:
+Android Alpha 7.2.0
+####System settings:
+Xiaomi Mi A1, Android 8.1.0
+
+16488
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-30T21:21:02.187Z
+
+
+### Can reproduce.
+android alpha 720 zte blade 601
+
+XxNotReganXx#0001 - Bug Bot on 2018-07-30T21:21:09.929Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 720
+
+Xander#0259 - Bug Bot on 2018-07-30T21:21:15.009Z
+
+
+### Can reproduce.
+Can Repro - Samsung Galaxy Note 8, Android 8.0 - Discord Alpha 7.2.0
+
+Danijel#9000 - Bug Bot on 2018-07-30T21:21:19.929Z
+
+
+### Can reproduce.
+Can reproduce, Discord 7.2.0 (720) - Android 5.1
+
+Diogolo#8124 - Bug Bot on 2018-07-30T21:21:30.001Z
+
+
+### Dupe/Extension of https://trello.com/c/uCC1TjBi/1008-mentions-in-code-blocks-dont-display-correctly
+
+Alex1304#9704 - Bug Bot on 2018-07-30T21:26:31.780Z
+
+
+### dupe below.  - Clayton on 2018-07-30T21:29:13.059Z
+
+
+### Archived by Clayton on 2018-07-30T21:29:14.631Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

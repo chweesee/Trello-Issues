@@ -1,0 +1,69 @@
+Temporary mutes on guild show in tooltip after time has expired (https://trello.com/c/BtbXIyxe)
+
+None
+
+Created: 2020-04-10T00:02:31.973Z
+Latest Update: 2020-07-16T21:26:06.201Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Mute a guild for 15 minutes 
+- Wait 15 minutes 
+- Hover over the server icon
+
+####Expected result:
+It should just show the server name
+####Actual result:
+The server name is shown as the date and time the mute expired. Note: The guild isn't actually muted, the tooltip just falsely indicates it is.
+####Client settings:
+Canary 57701 (1d06adf) Host 0.0.264
+####System settings:
+Windows 10 Insider Pro x64 v2004 19564.1000
+
+54397
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-10T00:02:31.973Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e8fb79799802a6aab78a359/e443a366a6f8b2b0bdd1b0b37641a962/8oPOgdZ.png added by Bug Bot on 2020-04-10T00:02:35.542Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.4; Discord Canary 57701 ~ Host 0.0.247
+
+Jiralite#1207 - Bug Bot on 2020-04-10T00:02:39.505Z
+
+
+### Can reproduce.
+Canary 57701 (1d06adf), Host 0.0.264, Windows 10 64-Bit (10.0.17763)
+
+Casper#8682 - Bug Bot on 2020-04-10T00:02:44.524Z
+
+
+### Can reproduce.
+CR // Canary 57701 (1d06adf) // Windows 10 64-Bit (10.0.18362)
+
+Encrium#0004 - Bug Bot on 2020-04-10T00:02:49.559Z
+
+
+### Can't reproduce.
+Canary 57868 (d683f6d), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-04-11T22:40:52.910Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1909, Canary 57917 Host 0.0.264
+
+SSalt#5041 - Bug Bot on 2020-04-12T13:43:16.397Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

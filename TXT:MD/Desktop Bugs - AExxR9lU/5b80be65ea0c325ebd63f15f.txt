@@ -1,0 +1,84 @@
+[Archived] Game sections under the "What's New" in activity tab don't adjust for changing zoom level while in the activity tab (https://trello.com/c/PjWLkFnI)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-25T02:26:45.202Z
+Latest Update: 2018-10-22T20:25:46.094Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to the "What's New" section of the activity tab on 100 zoom and observe the size of the game sections (they should be in two columns in 100 zoom) 
+- Change your zoom level to 125 zoom without leaving the activity tab and then observe the game sections again 
+- Without changing zoom level, tab into a random server and back into the activity tab 
+- Scroll down to the "What's New" section and observe the game sections (they should be in one column) 
+- Change your zoom level to 100 without leaving the activity tab and observe the game sections again
+
+####Expected result:
+Game sections should change width when zoom level is changed
+####Actual result:
+Games sections change width after you tab out of and back into the activity tab
+####Client settings:
+Canary Build 22496
+####System settings:
+Windows 10 Home x64 1803
+
+18353
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-25T02:26:45.202Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Pro x64 v1803, Canary 22496
+
+Breaded Toast#0001 - Bug Bot on 2018-08-25T02:26:52.631Z
+
+
+### Can reproduce.
+CR on Windows 10 Home; Canary Build 22496
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-25T02:26:57.473Z
+
+
+### Can reproduce.
+Windows 10 Education x64 (1803), Canary 22496
+
+eyong0#1017 - Bug Bot on 2018-08-25T02:27:02.463Z
+
+
+### Can't reproduce.
+Windows 10 Home Insider Build: Version 1803
+
+S0ftwareUpd8#9999 - Bug Bot on 2018-08-25T02:28:19.122Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 22597
+
+Hole#0001 - Bug Bot on 2018-08-25T07:22:43.102Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1803), Discord Canary 22587
+
+Augy.#8622 - Bug Bot on 2018-08-26T09:53:32.191Z
+
+
+### verified, macos 10.12.6, canary 22587 - Clayton on 2018-08-27T22:15:28.131Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-27T22:15:35.264Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:46.096Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

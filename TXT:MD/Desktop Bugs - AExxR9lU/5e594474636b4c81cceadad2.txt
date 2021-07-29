@@ -1,0 +1,75 @@
+When you search a word with an apostrophe like "doesn't" the keyword highlighting in search results is very inaccurate (https://trello.com/c/N3a0uEDL)
+
+None
+
+Created: 2020-02-28T16:48:52.396Z
+Latest Update: 2020-07-16T21:26:06.143Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Press Ctrl + F 
+- Write a search query containing a word with an apostrophe (e.g "doesn't") 
+- Observe the results
+
+####Expected result:
+Search results should have proper words highlighted
+####Actual result:
+In my example, if you search anything containing "doesn't", it will highlight all occurences of the "t" letter. The search results themselves are correct.
+####Client settings:
+Discord Canary 55309
+####System settings:
+Ubuntu 18.04 LTS (stock GNOME desktop env), 64-bit processor Ryzen 7 2700X
+
+52941
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-28T16:48:52.396Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e594474636b4c81cceadad2/54341f4c4dc7db7b289dd73be11eeb15/unknown.png added by Bug Bot on 2020-02-28T16:48:55.516Z
+
+
+### Can reproduce.
+CR Win10 64x (1809) // Canary 55309 (ecced83) // Chrome V80.0.3987.122
+
+Alipoodle#5025 - Bug Bot on 2020-02-28T16:48:59.936Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.3; Discord Canary 55309
+
+Jiralite#1207 - Bug Bot on 2020-02-28T16:49:04.935Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903 [Build 18362.657], Canary 55309
+
+Maah#0040 - Bug Bot on 2020-02-28T16:49:09.966Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Discord Canary 55309.
+
+Alister#0001 - Bug Bot on 2020-02-28T23:52:40.733Z
+
+
+### Can reproduce.
+Windows 10 Home x64, version 1909 - Canary 55393 host 0.0.263
+
+anonymous kitten#5379 - Bug Bot on 2020-03-01T03:13:46.650Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) canary 55393
+
+myacorn#6534 - Bug Bot on 2020-03-01T03:47:25.733Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

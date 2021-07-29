@@ -1,0 +1,162 @@
+[Archived] Window doesn't fully maxmize. (Windows 1803 Only) (https://trello.com/c/405FvAO6)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-04-28T07:58:16.456Z
+Latest Update: 2019-02-04T09:30:27.999Z
+
+Reported by W Λ Y D  Ξ#3722
+
+####Steps to reproduce:
+- Have discord fully maxmized. 
+- Drag the window out of maximixed. 
+- (May have to do it 2 times) Drag the window back to maxmized. -
+
+####Expected result:
+You get a fully maxmized window
+####Actual result:
+The window doesnt fully maxmize and should show a white line and some transpartency.
+####Client settings:
+Discord Canary, 14281 Version Hash:547ce5f5f37e4e484c12e325c4d113619acf0d2c
+####System settings:
+Win 10 x64 1804 17134.1
+
+11477
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-28T07:58:16.456Z
+
+
+### Can reproduce.
+Looks like an issue with window sizing. Technically it is maximized but not properly. Windows 10 Home x64 (1803), Canary 14281
+
+Mustard#2117 - Bug Bot on 2018-04-28T07:58:23.922Z
+
+
+### Can reproduce.
+YES OMG THIS IS MY #1 PET PEEVE IS THE BOTTOM TRANSPARENT LINE [BUILD INFO] Release Channel: canary, Build Number: 14281, Version Hash: 547ce5f5f37e4e484c12e325c4d113619acf0d2c Windows 10 Home 1709 64-Bit Build 16299.309
+
+420 Cringe Lord#8570 - Bug Bot on 2018-04-28T07:58:28.888Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 home x64 1709 Discord canary 14281
+
+Bencey_#8587 - Bug Bot on 2018-04-28T07:58:33.921Z
+
+
+### Can reproduce.
+Can reqproduce Windows 8 Pro x64, Canary 14281
+
+Mayonnaise♡#0005 - Bug Bot on 2018-04-28T08:00:48.835Z
+
+
+### Can reproduce.
+Win10 Pro x64 Canary 14281
+
+๖ۣۜζ͜͡Yukari#1982 - Bug Bot on 2018-04-28T08:31:01.156Z
+
+
+### Can't reproduce.
+Windows 10 home SL x64 (seems to be working for me), Canary 14281
+
+Skeletor#3935 - Bug Bot on 2018-04-28T09:32:57.744Z
+
+
+### Can't reproduce.
+Win10 Pro x64 Canary 14281
+
+"悲しみ"#9445 - Bug Bot on 2018-04-28T19:35:36.096Z
+
+
+### Can't reproduce, Mac OSX 10.12.6, Canary 14388 - Clayton on 2018-05-01T19:43:08.334Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-05-01T19:43:14.405Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803 OS build 17134.1 \ Discord Canary (14558)
+
+CrazyStevenz#7827 - Bug Bot on 2018-05-03T17:02:37.443Z
+
+
+### Not a Discord bug; This is a bug in Windows 1803 with all applications that do not utilize the native titlebar. This bug also occurs with e.g. Spotify
+
+RME#3050 - Bug Bot on 2018-05-03T23:47:35.199Z
+
+
+### Can reproduce. I believe this issue is specific to the lastest Windows version, 1803. Contrary to RME's comment I've always had an issue with Spotify on Windows so I believe this is something new. - Mike Nisbet on 2018-05-13T10:28:03.612Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Mike Nisbet on 2018-05-13T10:28:18.075Z
+
+
+### Mikesky#0001 - undefined added by Bug Bot on 2018-05-13T20:15:18.562Z
+
+
+### Mikesky#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ae429986c421ce426b76d9d/7c5cca0219d6c515e0500756dfe1f59c/YCwPM0m.png added by Bug Bot on 2018-05-13T20:17:11.918Z
+
+
+### Mikesky#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ae429986c421ce426b76d9d/da5a073bf8bf1764ce1a020d3d163cba/V66eSoJ.png added by Bug Bot on 2018-05-13T20:17:30.661Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Version 1803 (Build 17134.48) - Discord Canary (Build 15268).  Regardless of whether this is a Windows bug or not, this is extremely disruptive as it means you accidentally minimize, close and maximize the window behind Discord rather than Discord itself.  Has lead to me closing quite a few programs I didn't want to.
+
+Wolfie#9000 - Bug Bot on 2018-05-15T20:40:31.217Z
+
+
+### Verified. I'll let the devs make a call on whether or not this is something we can fix. - Jared on 2018-05-16T19:14:56.149Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-16T19:15:00.710Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ae429986c421ce426b76d9d/ddd1c82d56675e3fd9791f7aa2c90f94/A7spOfk.gif added by Bug Bot on 2018-05-24T17:59:43.137Z
+
+
+### André Paulo#8446 - https://youtu.be/-Cd2LPb8rrw added by Bug Bot on 2018-06-03T12:03:29.226Z
+
+
+### Can reproduce.
+Windows 10 Home v1803, Discord Canary Build: 16445, Version Hash: 8972af5e1e65d08855071f9f8cf44e7442cb2f75
+
+André Paulo#8446 - Bug Bot on 2018-06-03T12:05:35.495Z
+
+
+### Can't reproduce.
+Tried many times, but the white spacing is not showing anymore. Windows 10 x64 1803 (17134), Discord Canary with Build number 20790 (Windows updated to KB4345421)
+
+Frances Picard#6209 - Bug Bot on 2018-08-04T16:58:06.043Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:50.601Z
+
+
+### Asked a couple people if they can reproduce this on 1803, and they are unable. Also haven't heard any complaints about it for a while.. So it's probably fixed.
+
+IF ITS NOT, YELL AT ME IN MY DMS, KTHX <3
+Moving to claimed fixed. - Tarek on 2018-12-23T22:40:25.880Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-12-23T22:40:32.295Z
+
+
+### Unarchived by Tarek on 2018-12-23T22:40:32.389Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2019-01-05T09:26:18.018Z
+
+
+### Archived by Bug Bot on 2019-02-04T09:30:28.020Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

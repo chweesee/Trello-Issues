@@ -1,0 +1,62 @@
+[Web bug] The invite screen has a strange white bar (https://trello.com/c/iC1Y410H)
+
+Mobile
+
+Created: 2018-08-11T00:35:45.543Z
+Latest Update: 2019-04-25T22:03:50.415Z
+
+Reported by Pyros#2326
+
+####Steps to reproduce:
+- Open https://discordapp(dot)com/invite/invitelink 
+- Make it so the invite is in the second page in safari 
+- Click in the bottom left to open all open tabs 
+- Open the invite tab again and watch 
+- If that fails, try moving your phone into landscape mode and back to vertical
+
+####Expected result:
+No white bar at the bottom
+####Actual result:
+A white bar appear for a split second on the bottom of the page
+####Client settings:
+Safari 10.2.1
+####System settings:
+iPhone 6, iOS 10.2.1
+
+17221
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-11T00:35:45.543Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 5, Safari, For me the screen rotating steps worked, it can be any invalid invite link
+
+Pascal#0929 - Bug Bot on 2018-08-11T00:35:52.891Z
+
+
+### Can reproduce.
+CR before you guys test this make sure you read the steps and compare the behavior to another site with a dark bg ex. imgur.com, iPhone 7 iOS 11.4.1; Safari
+
+shay#3503 - Bug Bot on 2018-08-11T00:35:57.916Z
+
+
+### Can reproduce.
+Can reproduce. iPhone SE, iOS 11.4.1 - Testflight 2.3.6 (6691)
+
+evilpauwse#9985 - Bug Bot on 2018-08-11T00:36:02.871Z
+
+
+### Archived by Clayton on 2018-08-30T19:46:17.630Z
+
+
+### Unarchived by Clayton on 2018-08-30T19:46:20.501Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

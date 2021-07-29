@@ -1,0 +1,97 @@
+[Archived] Wrong string used for back button for some languages for several sections (https://trello.com/c/9fExCcvj)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-10-26T08:40:09.093Z
+Latest Update: 2018-10-29T10:48:41.032Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Change your language to German (also a problem with other languages as noted below) 
+- Edit a text channel, category or voice channel ("Channel/Kategorie bearbeiten" in German) 
+- Go to permissions ("Berechtigungen") 
+- Click on any member or role and open the permission overrides 
+- Observe the title for this menu
+
+####Expected result:
+The title for permission overrides should be "Back" & "Permission Overrides" (in German "Zurück Berechtigungs-Ausnahmen").
+####Actual result:
+It uses "Channel permission" instead of "Back" as the string.
+####Client settings:
+TestFlight 1.9.3 (1286)
+####System settings:
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5
+
+5752
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-26T08:40:09.093Z
+
+
+### Can reproduce.
+CR, may require leaving and reentering the permission overrides menu. iPhone 6s on iOS 11.0.3 & iPad Air 2 on iOS 11.0.3, TestFlight 1.9.3 (1336)
+
+skyllful#8516 - Bug Bot on 2017-10-26T08:40:16.516Z
+
+
+### Can reproduce.
+CR, iPod touch (5th gen) + iOS 9.3.5 + TestFlight 1.9.3
+
+Oasis#4730 - Bug Bot on 2017-10-26T08:40:21.477Z
+
+
+### Can reproduce.
+CR, iPhone 8 +, iOS 11.0.3, TestFlight 1.9.3 (1336)
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-26T08:40:26.542Z
+
+
+### Verified - Jared on 2017-10-26T21:29:35.049Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-26T21:29:39.420Z
+
+
+### This also happens with other sections (for example for notification settings when opening any channel or trying to add a new notification overrided)
+
+Pascal#0929 - Bug Bot on 2018-01-16T16:11:41.562Z
+
+
+### Also happens with the user settings. Open your user settings and go to connections for example
+
+Pascal#0929 - Bug Bot on 2018-04-26T14:12:59.906Z
+
+
+### mouse#0091 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59f19f693baeaa6ddd8dcdb6/ac9671014d993c818bc217e5cf307417/dBgKxK6.jpg added by Bug Bot on 2018-07-14T17:58:11.822Z
+
+
+### It also happens with Danish, Dutch, Norwegian, Romanian, Finnish, Swedish, Bulgarian, Chinese (China), Japanese, Chinese (Taiwan).
+
+Pascal#0929 - Bug Bot on 2018-08-14T11:08:31.970Z
+
+
+### Can reproduce.
+Iphone SE IOS 12 Beta 5 - Testflight Discord 2.3.6 (6755)
+
+Rubenvds#5257 - Bug Bot on 2018-08-14T11:39:01.535Z
+
+
+### Archived by Clayton on 2018-09-13T12:00:01.784Z
+
+
+### Can reproduce.
+IPad A1822, Discord 2.3.9
+
+ScrxedDev#0001 - Bug Bot on 2018-10-29T10:48:41.033Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

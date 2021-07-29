@@ -1,0 +1,134 @@
+[Archived] text entry field can be hidden by switching keyboards (https://trello.com/c/ulKk8b7F)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-11-03T01:10:59.163Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Macdja38#7770
+
+####Steps to reproduce:
+- Click the chat bar to bring up a keyboard 
+- Switch keyboards from english > Japan kana > emoji > English
+
+####Expected result:
+You can enter text and see the text you enter
+####Actual result:
+You can enter text but you cant, see the text you enter because it's under the keyboard
+####Client settings:
+Discord Canary 1340
+####System settings:
+IOS 11.1, iPhone 5s
+
+6037
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-03T01:10:59.163Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.1 & iPad Air 2 with iOS 11.2 PB 1, Discord Stable 1.9.5. Happens after switching from Japan Kana to the Emoji keyboard
+
+Pascal#0929 - Bug Bot on 2017-11-03T01:11:06.546Z
+
+
+### Can reproduce.
+CR, seems like it gets overlapped when switching from Japan Kana to emoji, TestFlight 1.9.3 (1340), iOS 11.0.3, iPhone 7
+
+QwakGoesDuck#9672 - Bug Bot on 2017-11-03T01:11:11.548Z
+
+
+### Can reproduce.
+CR, don't need Japanese keyboard for it, just switching from e.g. English keyboard to the emoji keyboard makes the keyboard overlap the text input (since they keyboard is higher and the input doesn't adjust). iPhone 8 Plus, iOS 11.2 (PB1), Discord Stable 1.9.5
+
+juj#5114 - Bug Bot on 2017-11-03T01:11:16.522Z
+
+
+### Cannot reproduce. The keyboards are the same height. - Jared on 2017-11-06T21:47:09.503Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-11-06T21:47:17.315Z
+
+
+### Can still reproduce that with TestFlight 1.10.0 (1505). 
+
+Other option to reproduce this bug would be to disable the suggestions for the keyboard and then opening the emoji keyboard.
+
+Pascal#0929 - Bug Bot on 2017-11-07T19:04:04.474Z
+
+
+### https://youtu.be/mnh4ijFw1f8 - https://youtu.be/mnh4ijFw1f8 added by Alexandru Todea on 2017-11-21T18:11:33.074Z
+
+
+### I can reproduce, I have added a screen recording. 
+
+Discord 2.0.1 (1610), iOS 11.1.2, iPhone 8 Plus - Alexandru Todea on 2017-11-21T18:12:12.885Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Alexandru Todea on 2017-11-21T18:12:17.470Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-29T21:16:06.559Z
+
+
+### Very strange and specific edge case, so low priority. But valid. - Jared on 2017-11-29T21:16:25.241Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.1, Discord stable 2.1.2.
+
+perryprog#9657 - Bug Bot on 2017-12-26T04:25:43.083Z
+
+
+### Can reproduce.
+CR, I appear to be the only one who can still repro this bug, follow the steps in the youtube vid,  possibly phone or OS specific now, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T21:20:59.442Z
+
+
+### I can no longer reproduce, this seem to have been fixed with the chat rewrite. 
+
+Discord 2.2.1 (2236), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-01-28T12:17:26.478Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-01-28T12:17:32.152Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-28T13:16:23.912Z
+
+
+### Can't reproduce.
+iPhone 6 10.3.2 TestFlight 2.2.1 (2236)
+
+Kuuhaku#4503 - Bug Bot on 2018-01-28T20:24:26.333Z
+
+
+### Can't reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.1 (2236)
+
+mrkirby153#7840 - Bug Bot on 2018-01-28T20:57:45.662Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-29T12:36:04.794Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-29T12:36:08.589Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:03:05.165Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:03:05.524Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,69 @@
+[Archived] The server context menu overrides an existing option when a new option is added (https://trello.com/c/T2mscOrS)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-12T12:50:50.331Z
+Latest Update: 2018-10-22T20:20:42.175Z
+
+Reported by oxygencraft#8884
+
+####Steps to reproduce:
+- Open the server context menu (the menu where you can leave the server) 
+- Grant user a permission that adds an option to the server context menu like manage server 
+- The new option overwrites an old option 
+- If you revert those changes, it goes back to normal 
+- On the other hand, if you remove a permission that adds an option to the server context menu while that person's server context menu is open, the extra space for that option doesn't get removed
+
+####Expected result:
+The server context menu adjusts option space properly
+####Actual result:
+If you add an option, that new option overwrites an existing one and if you remove an option, that space stays there
+####Client settings:
+Discord Canary, 15120
+####System settings:
+Windows 10 Pro x64 1803, 17134.48
+
+12497
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-12T12:50:50.331Z
+
+
+### zanluka#6790 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5af6e32a3937e739ad863d2e/5caf54610d9be9d6b1ce61b64fdbabc0/421513c42bff5a90b269ad18929bc856.gif added by Bug Bot on 2018-05-12T12:50:52.965Z
+
+
+### Can reproduce.
+leave button disappears if u have a admin perms; Discord Canary 15120, Windows 10 x64.
+
+zanluka#6790 - Bug Bot on 2018-05-12T12:50:57.673Z
+
+
+### Can reproduce.
+Able to Reproduce; Windows 10 Pro x64; Build 1803; Discord Canary; Build 15120. However, only happens with permissions which grant access to the "Server Settings" panel for whatever permission.
+
+Costpap#2158 - Bug Bot on 2018-05-12T12:51:02.879Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Pro x64 (April 2018 update); Discord Canary Build 15120
+
+DoNotSpamPls#8787 - Bug Bot on 2018-05-12T12:51:07.801Z
+
+
+### Verified, Windows 10, Build 15123 - Clayton on 2018-05-13T01:19:52.941Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-13T01:19:59.866Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:42.178Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

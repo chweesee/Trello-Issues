@@ -1,0 +1,118 @@
+[Archived] If you have 2FA enabled, you can type in normal characters in the 2FA field under the new Change Password UI (https://trello.com/c/hiC0C5sk)
+
+None
+
+Created: 2019-01-31T14:07:45.494Z
+Latest Update: 2019-06-05T23:47:08.504Z
+
+Reported by Bsian#0005
+
+####Steps to reproduce:
+- Enable Two-factor authentication 
+- Go into Settings > My account 
+- Tap on the Two-factor authentication field 
+- Type any random thing you want
+
+####Expected result:
+You are only supposed to enter numbers in, i.e. only keyboard number UI is supposed to show
+####Actual result:
+The full keyboard opens, allowing you to type whatever you want
+####Client settings:
+Android Alpha 8.3.6g
+####System settings:
+Mi A2, Android 9, January 2019 Update
+
+27510
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-31T14:07:45.494Z
+
+
+### Bsian#0005 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c5301314890c85ef45d2d0a/e1fe2d4c337e39d04333946d919f1d59/Screenshot_20190131-135421.png added by Bug Bot on 2019-01-31T14:07:48.537Z
+
+
+### Can reproduce.
+Can reproduce; Redmi Note 4, Android v7, Discord Alpha 8.3.6G
+
+Skyla#7948 - Bug Bot on 2019-01-31T14:07:52.825Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S6, Android 7.0, Discord Alpha 8.3.6g
+
+Law of Royale#6825 - Bug Bot on 2019-01-31T14:07:57.797Z
+
+
+### Can reproduce.
+LG Rebel (LGL58VL), Android 6.0.1 - Discord Alpha 8.3.6g
+
+Seikatsu#0001 - Bug Bot on 2019-01-31T14:08:02.862Z
+
+
+### Can reproduce.
+Nexus 5x, Android 8.1, Alpha 8.3.6g
+
+criptixo#0001 - Bug Bot on 2019-01-31T14:10:44.044Z
+
+
+### Can reproduce.
+Samsung Galaxy S5, Android 6.0.1, Discord Alpha 8.3.6G
+
+i need peace and tranquillity#0001 - Bug Bot on 2019-01-31T14:11:29.531Z
+
+
+### Should also note that backup codes do not work either, since the original suspicion was that the full keyboard opened for  the code backup. However this was not the case and did not accept backup codes, and there is not a toast or any form of message to indicate this, though this separate bug is already marked under https://trello.com/c/D5wCRpYK/
+
+Bsian#0005 - Bug Bot on 2019-01-31T14:12:23.677Z
+
+
+### J1 's attachment was not meant for this ticket as per https://cdn.discordapp.com/attachments/447782163291570188/540541906955010051/Screenshot_20190131-144006.png
+
+Bsian#0005 - Bug Bot on 2019-01-31T14:41:04.119Z
+
+
+### turns out bugbot had edited the wrong message on discord, the image J1 wanted to add is attached to the correct Trello ticket though
+
+Bsian#0005 - Bug Bot on 2019-01-31T14:48:20.727Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-01-31T17:53:03.094Z
+
+
+### Fixed in next alpha - Jeff Cailteux on 2019-01-31T17:53:10.024Z
+
+
+### Can reproduce.
+Pocophone F1 - MIUI 10.2 Global with Android 9 - Discord 8.3.6G
+
+dafaqed#1312 - Bug Bot on 2019-01-31T18:01:48.801Z
+
+
+### Moved from Claimed Fixed, needs Verification to Won't Fix by Jeff Cailteux on 2019-01-31T18:30:22.924Z
+
+
+### Should allow for alphanumeric text - Jeff Cailteux on 2019-01-31T18:30:35.472Z
+
+
+### Can reproduce.
+Android Samsung Galaxy S9, 8.3.3
+
+OldWampa#7897 - Bug Bot on 2019-01-31T19:32:19.501Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 839G
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-01T11:05:45.213Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:08.514Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

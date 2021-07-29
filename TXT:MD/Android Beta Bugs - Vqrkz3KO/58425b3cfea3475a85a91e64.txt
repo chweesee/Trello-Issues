@@ -1,0 +1,81 @@
+[Archived] Messages deleted within 1000ms are not delete, but put at the bottom of the screen becoming unremoveable until the app is restarted. (https://trello.com/c/O8kCelyt)
+
+P3 - Will be fixed eventually
+
+Created: 2016-12-03T05:42:20.519Z
+Latest Update: 2018-07-06T18:42:43.005Z
+
+Reported by FireController1847#9085
+
+####Steps to reproduce: 
+- Run a bot command that deletes the trigger (!canRepro) 
+
+####Expected result:
+ The message is no longer shown. 
+####Actual result:
+ The message it put at the bottom of the screen unremoveable until app is restarted. System settings: Android 5.0 
+####System settings:
+ Android 5.0 
+####Client version:
+ Alpha 3.1.9
+
+Card Log
+========
+### Added by Jared on 2016-12-03T05:42:20.519Z
+
+
+### FireController1847#9085 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58425b3cfea3475a85a91e64/ef8cec1d4ea70c594bc193aa206ce4f2/Screenshot_2016-12-02-22-44-45.png added by Jared on 2016-12-03T05:46:15.523Z
+
+
+### FireController1847#9085 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58425b3cfea3475a85a91e64/1b04839644c0e64a5a85e0aec0a6540a/Screenshot_2016-12-02-22-47-26.png added by Jared on 2016-12-03T05:48:52.678Z
+
+
+### Second image is after reatart. Only happens with self's messages, not anybody elses.
+
+FireController1847#9085 - Jared on 2016-12-03T05:49:34.007Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-07T19:01:42.922Z
+
+
+### Can reproduce.
+Discord: 1.7.8, Andriod: 6.0.1, Device: Samsung Galaxy s7
+
+Doctors#5417 - Jared on 2016-12-08T00:44:32.382Z
+
+
+### This also occurs when you send a message from the app to a channel, then delete said message on the desktop while the mobile app is open. | Discord: 1.7.8, Andriod: 6.0.1, Device: Samsung Galaxy s7
+
+Doctors#5417 - Jared on 2016-12-08T00:48:45.181Z
+
+
+### Can reproduce.
+3.2.0
+
+Abhijith Ganesan#5206 - Jared on 2016-12-17T13:44:22.631Z
+
+
+### This was fixed ages ago. - Jared on 2018-03-23T21:45:55.583Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2018-03-23T21:45:59.942Z
+
+
+### Can reproduce.
+CR Discord 6.5.4 Android 5.1
+
+Okori#0902 - Bug Bot on 2018-04-19T19:59:24.351Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:42:41.863Z
+
+
+### Archived by Jared on 2018-07-06T18:42:43.008Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

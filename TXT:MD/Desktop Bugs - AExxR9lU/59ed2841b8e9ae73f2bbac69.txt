@@ -1,0 +1,72 @@
+[Archived] Uploading a 8/50 MiB file doesn't fail right away on the client, but is rejected by the server. (https://trello.com/c/IkWP5GmF)
+
+Mid,
+P3: Will get fixed eventually
+
+Created: 2017-10-22T23:22:41.180Z
+Latest Update: 2018-07-06T17:59:03.999Z
+
+Reported by tdeo#9084
+
+####Steps to reproduce:
+- Step 1: Create a file that is exactly 8 or 50 MiB. 
+- Step 2: Try to upload it to Discord.
+
+####Expected result:
+Either the upload fails on the client and doesn't start uploading, or the server accepts the file and it uploads successfuly.
+####Actual result:
+The file is entirely uploaded, then the client displays an 'Upload Failed' message.
+####Client settings:
+Discord Canary 0.0.24
+####System settings:
+Arch Linux
+
+5674
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-22T23:22:41.180Z
+
+
+### Can reproduce.
+iMac (21.5-inch, Late 2013), Canary 0.0.156
+
+hujiba#3070 - Bug Bot on 2017-10-22T23:22:48.441Z
+
+
+### Can reproduce.
+Dell Latitude E5540, Windows 10 Professional x64, Discord Stable 0.0.298 (Build 5942)
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-22T23:22:53.450Z
+
+
+### Can reproduce.
+CR, Kubuntu 17.10 x64, Canary 6174
+
+kiroma#1608 - Bug Bot on 2017-10-22T23:22:58.446Z
+
+
+### May not be a bug - Jared on 2017-10-23T23:25:17.017Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-10-23T23:25:22.356Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-21T19:42:40.432Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-21T19:42:45.232Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:59:02.692Z
+
+
+### Archived by Jared on 2018-07-06T17:59:04.001Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

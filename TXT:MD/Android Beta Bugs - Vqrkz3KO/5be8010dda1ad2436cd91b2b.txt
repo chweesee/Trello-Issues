@@ -1,0 +1,68 @@
+[Archived] Quickly leaving the Vanity URL menu using Discord's back button after trying to set an invalid link crashes the client (https://trello.com/c/8AHzHfwa)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-11-11T10:14:37.641Z
+Latest Update: 2018-12-27T17:30:15.580Z
+
+Reported by OddsomeOddy#1998
+
+####Steps to reproduce:
+- Have admin permissions on a partnered server, so you get access to the Vanity URL menu 
+- Input a link that exceeds the URLs character limit 
+- Accept the changes using your keyboard's enter key 
+- Leave the menu quickly using the arrow at the top left corner (Important: Not your phone's back button)
+
+####Expected result:
+You should leave the menu without any crashes
+####Actual result:
+Discord crashes/restarts if you try to leave the menu quickly using Discord's back button
+####Client settings:
+Alpha 7.8.8
+####System settings:
+Oneplus 3, Android 9
+
+22952
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-11T10:14:37.641Z
+
+
+### OddsomeOddy#1998 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5be8010dda1ad2436cd91b2b/103f99ab9115d368041b2624db38b100/crash.gif added by Bug Bot on 2018-11-11T10:14:40.179Z
+
+
+### Can reproduce.
+Can reproduce, the client restarts. Honor 9, Android 8.0.0, Discord Alpha 7.8.6
+
+IslaWoof#2222 - Bug Bot on 2018-11-11T10:14:44.975Z
+
+
+### Can reproduce.
+[CR] Google Pixel 3 XL 128 GB (G013C), Android 9.0 (Build P1DA.180720.030), Discord Alpha 7.8.8
+
+KazWolfe#2896 - Bug Bot on 2018-11-11T10:14:49.984Z
+
+
+### Can reproduce.
+OnePlus 6 (Version 9.0), Alpha 7.8.8
+
+Aeria#9096 - Bug Bot on 2018-11-11T10:14:54.980Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.9.0 - Clayton on 2018-11-14T00:44:47.893Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-14T00:44:58.613Z
+
+
+### Archived by Bug Bot on 2018-12-27T17:30:15.583Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

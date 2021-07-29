@@ -1,0 +1,98 @@
+[Archived] Search doesn't work as expected when searching for links ending in "ed" or "s", this is caused by the client searching for "link ed" instead of "linked" etc. (https://trello.com/c/SuHHraaw)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-02T14:46:41.466Z
+Latest Update: 2018-10-04T22:30:03.846Z
+
+Reported by IntoxicatedHippo#2727
+
+####Steps to reproduce:
+- Search for something ending in "ed" such as "linked"
+
+####Expected result:
+Should search for "linked"
+####Actual result:
+Searches for "link ed" instead (Side note: the search API already seems to handle removing "ed", "s", etc. when they're part of a word)
+####Client settings:
+7.4.2 (742)
+####System settings:
+Android 8.1.0
+
+18866
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-02T14:46:41.466Z
+
+
+### Can reproduce.
+OnePlus 6 (Version 8.1.0), Alpha 7.4.5
+
+» a r i a#1593 - Bug Bot on 2018-09-02T14:46:48.946Z
+
+
+### Can reproduce.
+Google Pixel 2 XL, Android 9.0.0, Discord Alpha 7.4.5 (745)
+
+aditya#0001 - Bug Bot on 2018-09-02T14:46:53.892Z
+
+
+### Can reproduce.
+CR Google Pixel 2, Android 9.0.0 ; Android Alpha 7.4.5 (745)
+
+brilaverance#2835 - Bug Bot on 2018-09-02T14:46:58.850Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 9.0, Discord Alpha 7.4.6
+
+Haru😍💜#6660 - Bug Bot on 2018-09-02T14:47:01.854Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0, Discord Alpha 7.4.6 (746)
+
+Law of Royale#6825 - Bug Bot on 2018-09-02T15:00:00.211Z
+
+
+### Can reproduce.
+Coolpad Mega 3, 6.0 | Discord Alpha 746
+
+The Lunala#7777 - Bug Bot on 2018-09-02T15:00:36.496Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy S7 • Android 7.0 • Discord Alpha 7.4.6
+
+ByteReader#0001 - Bug Bot on 2018-09-02T16:41:50.313Z
+
+
+### Can reproduce.
+Moto Z Force Droid Edition, Android 8.0 [July SP] • Discord 7.4.6 [Alpha]
+
+Industrial_Strength#1402 - Bug Bot on 2018-09-03T04:31:08.742Z
+
+
+### Can reproduce.
+Android 6.0.1 Vodafone Smart Ultra 6, Discord Alpha 746
+
+Yamboy1#3959 - Bug Bot on 2018-09-03T16:07:14.120Z
+
+
+### verified, android 7.0, alpha 7.4.6, samsung s6 edge - Clayton on 2018-09-04T22:12:56.655Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-04T22:13:03.092Z
+
+
+### Archived by Clayton on 2018-10-04T22:30:03.848Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

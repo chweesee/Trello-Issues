@@ -1,0 +1,81 @@
+You can make logs for slowmode changes appear in audit logs for announcements channels. -- Slowmode does not work in announcements channels, though. (https://trello.com/c/agoKFJWg)
+
+None
+
+Created: 2019-08-23T02:43:15.876Z
+Latest Update: 2020-07-16T21:26:04.931Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- Change a text channel with no slowmode to an announcements channel. 
+- Confirm this in the audit log. (optional) 
+- In the channel settings for the now announcements channel, uncheck the announcements channel toggle DO NOT SAVE YET. 
+- Set the slowmode slider NO SAVING YET. 
+- Check the announcements toggle again. Now you can save. 
+- Open the audit log and look at the details for the channel modification.
+
+####Expected result:
+There should be no save button because there is no more slowmode slider visible anymore.
+####Actual result:
+There is a slowmode log in the audit log for the announcements channel even though slowmode doesn't work in announcements channels.
+####Client settings:
+Canary 43975
+####System settings:
+MacBook Pro (13", Mid-2012), ​‌‌​‌‌​‍‌​​​‌‌​​‍‌​​‌‌‌‌​‍‌​​‌‌‌​‌‍‌​​‌‌​‌​‍‌​​‌​​‌‌‍‌‌​‌‌‌​​‍‌‌​​‌‌‌‌‍‌‌​​‌‌‌‌‍‌‌​​‌‌‌‌‍‌‌​​‌‌​‌‍‌‌​‌‌‌‌‌‍‌​​‌​​​​‍‌​​​‌‌​‌‍‌​​‌​‌‌​‍‌​​‌‌​​​‍‌​​‌​‌‌​‍‌​​‌​​​‌‍‌​​‌‌‌‌​‍‌​​‌​​‌‌‍‌​​‌​​‌‌‍‌​​​​‌‌​‍‌‌​‌‌‌‌‌‍‌​​‌‌​‌‌‍‌​​‌​‌‌​‍‌​​‌‌​‌‌‍‌‌​‌‌‌‌‌‍‌​​​‌​‌‌‍‌​​‌​‌‌‌‍‌​​‌​‌‌​‍‌​​​‌‌​​‍‌‌​‌‌‌‌‌‍‌​​‌‌‌‌​‍‌​​‌‌‌​​‍‌​​​‌​‌‌‍‌​​‌​‌‌​‍‌​​‌​​​​‍‌​​‌​​​‌‍‌‌​‌​​​‌macOS v10.15 Beta (19A536g)
+
+42451
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-23T02:43:15.876Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 44115 (Host 0.0.254)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-08-23T02:43:23.526Z
+
+
+### Can reproduce.
+Windows 10, x64, Version: 1903 - Canary 44004
+
+adapt#0001 - Bug Bot on 2019-08-23T02:43:28.538Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build 18912.1001 - Discord Canary v0.0.254 Build 44281
+
+webhp#1337 - Bug Bot on 2019-08-23T02:43:33.511Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1803) • Discord canary 44004
+
+Wyrd rëisa#7128 - Bug Bot on 2019-08-23T22:04:35.801Z
+
+
+### Can reproduce.
+Canary 44396, Windows 7 64-bit
+
+Skyla#6111 - Bug Bot on 2019-08-26T17:58:04.754Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 44396
+
+Neiron#8475 - Bug Bot on 2019-08-26T17:59:14.245Z
+
+
+### Can reproduce.
+Windows 10 PRO // x64 v1803 // Canary 44603
+
+▽ WishFuly#0532 - Bug Bot on 2019-08-29T13:47:27.265Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

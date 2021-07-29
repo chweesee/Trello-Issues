@@ -1,0 +1,85 @@
+[Archived] [macOS] Dragging the mini loading window to create a new window in Mission Control will show a black background around the central animation and text (https://trello.com/c/y9j9W4y7)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-29T14:14:46.702Z
+Latest Update: 2019-01-11T00:00:46.678Z
+
+Reported by Alfie#1582
+
+####Steps to reproduce:
+- Close and reopen Discord so that the mini loading window shows 
+- Open Mission Control 
+- Drag the mini window to the top and hold, so that it becomes full-screen 
+- Click on it at the top and observe
+
+####Expected result:
+The grey background should fill to the edges of the screen
+####Actual result:
+The mini window just appears in the middle with a black background
+####Client settings:
+Canary 24978
+####System settings:
+MacBook Pro 13", macOS High Sierra 10.13.6
+
+20280
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-29T14:14:46.702Z
+
+
+### Alfie#1582 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5baf88d67f1f5f185c6f6727/8bfe23756995cf7c745b98c2af26d652/discord_bug1.png added by Bug Bot on 2018-09-29T14:14:49.178Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS Mojave 10.14, Canary Build 25046
+
+Pascal#0929 - Bug Bot on 2018-09-29T14:14:54.106Z
+
+
+### Can reproduce.
+Can reproduce. iMac (late 2015), macOS High Sierra 10.13.6. Discord Canary 25046
+
+George#0069 - Bug Bot on 2018-09-29T14:14:59.334Z
+
+
+### Can reproduce.
+macOS 10.14; Canary 24972
+
+OrangeM24#5746 - Bug Bot on 2018-09-29T14:15:04.097Z
+
+
+### Can reproduce.
+MacOs High Sierra 10.13.4 MacBook Pro (Retina, 15-inch, Mid 2014), Canary 25046
+
+MoonlightCapital#0554 - Bug Bot on 2018-09-29T19:46:07.607Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 25046
+
+william#0002 - Bug Bot on 2018-09-30T05:59:10.910Z
+
+
+### minor - Clayton on 2018-10-01T20:22:01.617Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-01T20:22:10.901Z
+
+
+### Can no longer reproduce on MacBook Pro 13", macOS Mojave 10.14, Canary 25661 - probably fixed or only occurs on High Sierra.
+
+Alfie#1582 - Bug Bot on 2018-10-08T17:14:10.656Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:46.683Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

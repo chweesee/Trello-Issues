@@ -1,0 +1,92 @@
+[Archived] Thumbnail reducing animation fails when un-selecting and re-selecting a file quickly (https://trello.com/c/I97MdE33)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-13T14:23:01.037Z
+Latest Update: 2018-08-22T01:22:18.956Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a channel with write permissions 
+- Tap "+" icon 
+- Select an image. Notice that when you select it it makes an animation where the thumbnail becomes smaller 
+- Now double-tap on the selected image, so that it's un-selected and re-selected quickly
+
+####Expected result:
+It should be consistent and always show the thumbnail reducing animation
+####Actual result:
+The thumbnail fails to reduce and keeps its original size
+####Client settings:
+Discord Alpha 6.6.8
+####System settings:
+Huawei Mate 9 Android 8.0
+
+12586
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-13T14:23:01.037Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5af84a444d3cc95a519e468d/72880ab3146966b876590b77a2c197f4/IMG_20180513_162151.jpg added by Bug Bot on 2018-05-13T14:23:03.554Z
+
+
+### Can reproduce.
+Can reproduce, CR: iPhone 6S - iOS 11.2.6 TestFlight 2.3.1 (4040)
+
+KiLO#0001 - Bug Bot on 2018-05-13T14:23:08.416Z
+
+
+### Can reproduce.
+Can reproduce in Moto G3 Android 6.0.1, Discord 6.6.1 Beta
+
+Yoginth#9339 - Bug Bot on 2018-05-13T14:23:13.425Z
+
+
+### Can reproduce.
+CR Samsung s5 neo alpha 6.6.8
+
+ks#0908 - Bug Bot on 2018-05-13T14:23:18.439Z
+
+
+### Can reproduce.
+Google Pixel 2; Android P DP2; Discord Alpha 6.6.8
+
+Dutexo#0001 - Bug Bot on 2018-05-13T18:21:39.251Z
+
+
+### Can reproduce.
+Huawei P9 Lite Android 7.0 EMUI 5.0 Discord Alpha 6.6.8
+
+Koreos#7227 - Bug Bot on 2018-05-14T07:18:30.610Z
+
+
+### Can reproduce.
+LG Bello, 5.0.2, Discord 6.6.1
+
+StefanFX#2183 - Bug Bot on 2018-05-14T13:30:44.257Z
+
+
+### Can reproduce.
+Nokia 6 Dual SIM, Android 8.1.0, Discord 6.6.1
+
+Luchs#1312 - Bug Bot on 2018-05-14T19:48:39.782Z
+
+
+### Verified, Samsung S6 Edge, Android 7.0, 6.6.9 - Clayton on 2018-05-16T21:52:50.430Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-16T21:53:51.279Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:18.959Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

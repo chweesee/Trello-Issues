@@ -1,0 +1,176 @@
+[Archived] Unable to view more than 100 Users in Reactions List (https://trello.com/c/YlCNWkGw)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-04-26T20:38:57.195Z
+Latest Update: 2019-09-18T10:00:59.586Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Have a message that has over 100 users for reactions (Ghoul's post with 1000+ users from DDevs would be a good example.)
+- Hold the message, and click on Reactions.
+- Try to scroll down to see all of the users. 
+
+####Expected result:
+You can scroll through +100 users, like you would with the member list.
+####Actual result:
+You can only scroll down to 100 users. (Can be shown in the video attached to the Trello card)
+####Client settings:
+TestFlight 2.3.1 (4025)
+####System settings:
+iPhone 6s iOS 11.2.6
+
+11373
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-26T20:38:57.195Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 2, TestFlight 2.3.1 (4025)
+
+Pascal#0929 - Bug Bot on 2018-04-26T20:39:04.733Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.4 PB2, TestFlight 2.3.1 (4025)
+
+mouse#0091 - Bug Bot on 2018-04-26T20:39:09.701Z
+
+
+### Can reproduce.
+Can repro, iPhone 8 iOS 11.3 TF 2.3.1 (4025)
+
+Q__Q#8008 - Bug Bot on 2018-04-26T20:39:14.702Z
+
+
+### Can reproduce.
+-1
+
+Lasse#0001 - Bug Bot on 2018-04-26T20:40:29.586Z
+
+
+### Can reproduce.
+iPhone 6S iOS 11.3 TF 2.3.1 (4025)
+
+Lasse#0001 - Bug Bot on 2018-04-26T20:40:34.742Z
+
+
+### Can't reproduce.
+iPhone X 11.3.1 - TestFlight 2.3.1
+
+DreaM#9833 - Bug Bot on 2018-04-26T20:43:08.920Z
+
+
+### Rashaun#9295 - https://www.youtube.com/watch?v=yfhugYTZvHo added by Bug Bot on 2018-04-26T20:43:41.892Z
+
+
+### Can reproduce.
+CR; iPhone 6 - iOS 11.4 TestFlight 2.3.1 (4025)
+
+Xylium#1480 - Bug Bot on 2018-04-26T20:48:42.067Z
+
+
+### Can reproduce.
+iPhone 8 Plus iOS 11.4 beta 2 - TF 2.3.1 (4025)
+
+PlusReed#0001 - Bug Bot on 2018-04-26T20:51:52.681Z
+
+
+### Can reproduce.
+iPhone X 11.3.1 - TestFlight 2.3.1 The bug happens after continuously trying to reproduce the bug, does not happen everytime.
+
+DreaM#9833 - Bug Bot on 2018-04-26T21:19:05.313Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:57:30.687Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:57:40.356Z
+
+
+### Can reproduce.
+CR; iPhone SE - iOS 11.3 - TestFlight 2.3.1 (4025)
+
+Shakenbacon#1769 - Bug Bot on 2018-04-27T02:19:58.267Z
+
+
+### Can reproduce.
+I tested on Discord Developers on my message where I had 907 reactions as of April 27th, 2018. I was only able to see 100 reactions out of 907. I will attach the video of the reactions in a moment. — 
+iPhone 8 +, iOS 11.4 with Discord TestFlight 2.3.1 (4025)
+
+Ghoul#0001 - Bug Bot on 2018-04-27T18:11:59.674Z
+
+
+### Ghoul#0001 - https://youtu.be/YWhXoHh5x04 added by Bug Bot on 2018-04-27T18:18:59.133Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Victoria on 2018-04-28T02:46:31.055Z
+
+
+### This hasn't been completely fixed, currently, it seems like the app is only able to load up to 100 users in the reaction list. Moving back to Verified Bugs. 
+
+Discord 2.3.1 (4051), iOS 11.3.1, iPhone 8 Plus - Alexandru Todea on 2018-04-28T17:39:43.562Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Bugs by Alexandru Todea on 2018-04-28T17:39:51.717Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Victoria on 2018-05-11T23:03:32.224Z
+
+
+### With Dabbit's permission, I have edited the title and body for the remaining use case as eMagic confirmed that it was a bug that you could only see 100 users. 
+
+I can reproduce this bug as per Curse's comment. I used iPhone 8 + running iOS 11.4 with Discord Stable Version 2.3.3. I am moving this bug back to Verified Bugs.  - Ghoul on 2018-06-04T22:05:36.232Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Bugs by Ghoul on 2018-06-04T22:05:52.950Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:49.900Z
+
+
+### Unarchived by Pascal on 2019-08-08T10:19:39.756Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.1.0 (16720) with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-08-08T10:20:31.212Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-08-08T10:20:39.775Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 5) - TestFlight 3.1.0 (16720)
+
+Xylium#5800 - Bug Bot on 2019-08-08T10:31:41.851Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.4 - TestFlight 3.1.0 (16720)
+
+Daffyduck#5364 - Bug Bot on 2019-08-08T11:14:27.953Z
+
+
+### Can't reproduce.
+iPhone 7 plus, iOS 13 Dev Beta 4, TestFlight 3.1.0 (16720)
+
+Jeffrey#1234 - Bug Bot on 2019-08-08T14:33:46.010Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-08-08T14:33:46.413Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:00:59.600Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

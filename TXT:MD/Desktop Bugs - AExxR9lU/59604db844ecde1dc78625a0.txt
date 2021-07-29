@@ -1,0 +1,115 @@
+[Archived] New emoji UI: TM symbol is now rendered as a box instead of the emoji or actual unicode character (https://trello.com/c/1MbATM4C)
+
+P2: Fix can wait a while
+
+Created: 2017-07-08T03:12:56.316Z
+Latest Update: 2017-11-15T19:17:39.242Z
+
+Reported by Pointy#5565
+
+####Steps to reproduce:
+- Type ":tm" in any text box
+
+####Expected result:
+Autofill preview should show actual TM symbol
+####Actual result:
+Shows a unicode replacement box (this is similar to <<https://trello.com/c/alIahkpN>>, however I believe it is different due to the new emoji UI update)
+####Client settings:
+Desktop Canary 0.0.157 (Build 2121)
+####System settings:
+Win 10 https://trello.com/c/alIahkpN https://trello.com/c/alIahkpN Pro
+
+2064
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-08T03:12:56.316Z
+
+
+### Pointy#5565 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59604db844ecde1dc78625a0/3e9f61b4d67e9bc44cf0b33ff164c4f0/1e2149.png added by Bug Bot on 2017-07-08T03:12:59.193Z
+
+
+### Can reproduce.
+win10 x64 0.0.157
+
+Gwen Oddball#2867 - Bug Bot on 2017-07-08T03:13:03.958Z
+
+
+### Can reproduce.
+Took a while of figuring out ;-;  Windows 10 Home (Creators Update) x64, Canary 0.0.157
+
+DeJay#3628 - Bug Bot on 2017-07-08T03:13:09.000Z
+
+
+### Can reproduce.
+ Windows 10 x64 bit, Canary 0.0.157
+
+Mr.Caleb#8593 - Bug Bot on 2017-07-08T03:13:13.921Z
+
+
+### Moved from User Reported Bugs to New chatbox & edit box feature bugs by Cole Norman on 2017-07-08T03:14:25.266Z
+
+
+### Related, not completely the same https://trello.com/c/alIahkpN
+
+Pointy#5565 - Bug Bot on 2017-07-08T03:23:15.858Z
+
+
+### System settings is actually Win 10 Pro x64 v1607, blame Logiz
+
+Pointy#5565 - Bug Bot on 2017-07-08T03:24:44.156Z
+
+
+### Can reproduce.
+Gentoo 64-bit default/linux/amd64/13.0, Canary 0.0.19
+
+Info Teddy#3737 - Bug Bot on 2017-07-08T03:52:02.528Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.157 (2134)
+
+Tiemen#0107 - Bug Bot on 2017-07-08T15:12:04.842Z
+
+
+### Can reproduce.
+Windows 10 Pro (64-bit), Anniversary Update (Build 1607)
+
+SuperSajuuk#7265 - Bug Bot on 2017-07-08T18:41:35.617Z
+
+
+### Can reproduce.
+Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.157 (build 2134)
+
+SuperSajuuk#7265 - Bug Bot on 2017-07-08T18:41:46.275Z
+
+
+### Verified, low priority - Jared on 2017-07-10T21:38:00.519Z
+
+
+### Checked as of latest canary:
+
+I can no longer reproduce this myself. TM shows up just fine in the list now. - Alexander (DJScias) on 2017-07-11T00:32:35.693Z
+
+
+### Moved from New chatbox & edit box feature bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-07-11T00:33:26.976Z
+
+
+### Fixed.  - Clayton on 2017-10-03T21:56:55.830Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-03T21:56:59.548Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:17:38.446Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:17:39.245Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

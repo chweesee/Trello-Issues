@@ -1,0 +1,120 @@
+[Archived] Discord Click-on-Link Crash Bug (https://trello.com/c/Sfe60vk7)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2018-11-08T00:46:22.621Z
+Latest Update: 2019-01-11T00:02:44.500Z
+
+Reported by Sniveling#9168
+
+####Steps to reproduce:
+- Post the link/uri in the notes below 
+- Click on it 
+- For all I know, it only works on desktop windows.
+
+####Expected result:
+It is not supposed to do anything. I made this purposefully.
+####Actual result:
+It creates an error message on your screen that you can not exit unless you completely exit Discord's process.
+####Client settings:
+Desktop Canary, 27545
+####System settings:
+Microsoft Windows 10 Home 1803, OS Build 17134.345
+
+22858
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-08T00:46:22.621Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 x64 - Discord Canary 27608
+
+webhp#1337 - Bug Bot on 2018-11-08T00:46:30.014Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64 - Discord Canary 27629
+
+Daffyduck#5364 - Bug Bot on 2018-11-08T00:46:34.930Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 27629
+
+Frances Picard#6209 - Bug Bot on 2018-11-08T00:46:39.955Z
+
+
+### The link used was discord://https//discordapp.com/oauth2/authorize?redirect_uri=anywebsiteitdoesntmatter.com The link must be escaped with < >.
+
+webhp#1337 - Bug Bot on 2018-11-08T00:47:15.277Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 27629
+
+Hole#0001 - Bug Bot on 2018-11-08T02:56:29.094Z
+
+
+### verified, win10, canary 27545 - Clayton on 2018-11-08T03:29:33.304Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-08T03:29:48.987Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64 - Discord Canary 27629
+
+AmirAmani#0102 - Bug Bot on 2018-11-08T06:49:01.656Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 27656
+
+Neiron#7777 - Bug Bot on 2018-11-08T12:38:38.308Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 27629
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-08T20:08:23.897Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 27701
+
+Solo#0007 - Bug Bot on 2018-11-08T22:25:52.604Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 canary build 28567
+
+Azrael#6867 - Bug Bot on 2018-11-29T06:10:34.330Z
+
+
+### Can't reproduce.
+Windows 10 Home Discord Canary 28567
+
+1Storm#0001 - Bug Bot on 2018-11-29T06:14:28.923Z
+
+
+### CNR 28567 moving to claimed fixed. - Tarek on 2018-11-29T06:18:24.610Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-11-29T06:18:31.436Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-12-11T00:48:21.377Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:02:44.503Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

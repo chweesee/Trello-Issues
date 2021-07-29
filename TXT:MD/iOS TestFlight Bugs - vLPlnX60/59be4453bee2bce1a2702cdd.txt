@@ -1,0 +1,105 @@
+[Archived] Empty lines not shown (https://trello.com/c/NyCTiRGz)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2017-09-17T09:45:55.821Z
+Latest Update: 2018-06-01T02:21:15.025Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Write a new message with the following conditions 
+- First line any text, second line no text, third line any text again 
+- Make sure that you are making a new line by clicking "Return" 
+- Observe the result
+
+####Expected result:
+The second line should be displayed as an empty line
+####Actual result:
+The empty line (the second one) is completely missing.
+####Client settings:
+TestFlight 1.9.1 (665)
+####System settings:
+iPhone 6S, iOS 10.3.3 & iPad Air 2, iOS 11 Golden Master
+
+4418
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-17T09:45:55.821Z
+
+
+### Can reproduce.
+Could just be something to do with iPhone, but can reproduce. - iPhone 6 iOS 10, Discord 1.9
+
+Jake S.#8787 - Bug Bot on 2017-09-17T09:46:03.282Z
+
+
+### Can reproduce.
+It works, but as said above, it could be something on the system rather than Discord - iPhone 6s, iOS 11 GM
+
+XtraFr3ckle#8764 - Bug Bot on 2017-09-17T09:46:08.286Z
+
+
+### Can reproduce.
+You can’t send empty lines on discord, thats the ‘bugg’.
+
+Jakob#6834 - Bug Bot on 2017-09-17T09:46:13.311Z
+
+
+### I swear this was reported a LONG time ago. If I find the ticket I'll close this, but for the time being this is verified. - Jared on 2017-09-18T20:10:08.310Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-09-18T20:10:17.986Z
+
+
+### Can reproduce.
+Discord: Latest test flight (1.9.1), IOS: 11 GM, Model iPad Pro 9.7
+
+nathanielcwm#3522 - Bug Bot on 2017-09-23T15:07:06.667Z
+
+
+### Can reproduce.
+Sending empty lines works, but they don't render - iOS 11 GM, TF 1.9.3 (1286), iPhone 6s
+
+Dragon5232#1841 - Bug Bot on 2017-10-25T00:35:02.816Z
+
+
+### I can no longer reproduce, line breaks are displayed everywhere now.
+
+Discord 2.2.2 (2352), iOS 11.2.5, iPhone 8 Plus - Alexandru Todea on 2018-01-31T07:01:32.104Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-01-31T07:01:41.711Z
+
+
+### I can still reproduce on Discord 2.2.3 (2671) iPhone5S iOS 10.3.3 - Mike Nisbet on 2018-02-26T23:54:04.984Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Bugs by Mike Nisbet on 2018-02-26T23:54:09.704Z
+
+
+### To make clear: It is fixed for the chat messsages but for the channel topic it can still happen with a special case (see this archived ticket https://trello.com/c/dLizyz3y for more info how to reproduce it)
+
+Pascal#0929 - Bug Bot on 2018-03-10T12:56:35.838Z
+
+
+### Verified Fixed as of build 2.2.6 (Minus Pascal's comment [which I did not verify] which should be a bug of it's own) - Jared on 2018-03-20T18:41:32.360Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-20T18:41:36.717Z
+
+
+### Archiving this ticket as it has been in Verified Fixed for more than one month with no activity.  - Ghoul on 2018-06-01T02:21:06.826Z
+
+
+### Archived by Ghoul on 2018-06-01T02:21:15.027Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

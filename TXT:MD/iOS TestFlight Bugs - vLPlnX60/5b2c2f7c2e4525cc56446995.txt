@@ -1,0 +1,90 @@
+Swiping left or right in a fast motion drags the messages up (https://trello.com/c/K1peV6Xs)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2018-06-21T23:06:36.411Z
+Latest Update: 2019-06-12T11:21:11.009Z
+
+Reported by Xeno#0001
+
+####Steps to reproduce:
+- Go to any text channel
+- Click on the channel name. 
+- Click on Pinned Messages
+- Carefully place your finger on the left side (almost close to the edge, but at least about half of an inch away.)
+- Swipe right, then try to scroll up and down.
+
+####Expected result:
+Messages should stay still
+####Actual result:
+The messages get dragged up a little
+####Client settings:
+TestFlight 2.3.4 (5330)
+####System settings:
+iPhone X, iOS 12 Beta 2
+
+14457
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-21T23:06:36.411Z
+
+
+### Ghoul#1882 - https://www.youtube.com/watch?v=BAWATjeyY6M&feature=youtu.be added by Bug Bot on 2018-06-21T23:06:39.478Z
+
+
+### Can reproduce.
+Can reproduce - iPhone X, iOS 11.3 - TestFlight 2.3.4 (5330)
+
+CustomName#9999 - Bug Bot on 2018-06-21T23:06:44.528Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 {Dev Beta 2} TestFlight 2.3.4 (5330)
+
+Xylium#1480 - Bug Bot on 2018-06-21T23:06:49.453Z
+
+
+### Can reproduce.
+CR, iPhone 6S, iOS 9.1, TF 2.3.4 (5330)
+
+zjtech123#6743 - Bug Bot on 2018-06-21T23:06:54.483Z
+
+
+### Moved from User Reported Bugs to Chat Rewrite Bugs by Fanghao on 2018-06-21T23:23:06.096Z
+
+
+### Moved from Chat Rewrite Bugs to Fix made, not yet released by Fanghao on 2018-07-03T00:31:56.953Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Victoria on 2018-07-03T01:55:58.198Z
+
+
+### Pinned Messages Bug - https://cdn.discordapp.com/attachments/420995378582913030/464189824396427276/video.mov added by Ghoul on 2018-07-04T23:47:04.024Z
+
+
+### I can still reproduce this bug as of Discord TestFlight 2.3.4 (5589) on iPhone 8 + running iOS 12 (Dev Beta 2). However, it is now in the pinned messages rather than in the normal chat, so I have updated the reproduction steps to reflect the remaining case.
+
+Because I was able to reproduce this bug, I am moving it to Reopened. I have also attached a video as well. - Ghoul on 2018-07-04T23:54:08.943Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Ghoul on 2018-07-04T23:54:22.555Z
+
+
+### As ghoul noted that it happens in pinned messages, this bug with new given steps also seems to happen in recent mentions too as well.
+
+Xylium#1480 - Bug Bot on 2018-07-06T00:39:53.593Z
+
+
+### Apologies for all the notes i'm puttin, but i figured out where it all happens. 1. Pinned Messages 2. recent mentions and 3. Search bar (when u try to search for something, as for example: `has: image`)
+
+Xylium#1480 - Bug Bot on 2018-07-07T00:02:32.969Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

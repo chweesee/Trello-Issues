@@ -1,0 +1,93 @@
+[Archived] Long server names will overlap outside of the join message box when viewed on a invite (https://trello.com/c/5i4nzwm4)
+
+P3 - Will be fixed eventually,
+low,
+Client side,
+text chat
+
+Created: 2018-02-23T04:49:54.237Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by ☘nickWtn☘#3789
+
+####Steps to reproduce:
+- Find a server with a long name  
+- Find a invite to said server  
+- Click on the invite link and observe what the join message box looks like
+
+####Expected result:
+the message should fit in the box and not overlap onto the background of the server invite
+####Actual result:
+It overlaps onto the two sides and can even obstruct the offline user box
+####Client settings:
+Stable 2.2.4
+####System settings:
+iPod Touch 6th generation, iOS 11.2.6
+
+9021
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-23T04:49:54.237Z
+
+
+### ☘nickWtn☘#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a8f9d7250dc038695f45384/921175e6280e5304c8b108c089dceef2/Td5G7u7.jpg added by Bug Bot on 2018-02-23T04:49:56.869Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a8f9d7250dc038695f45384/c2223d17ca9f864c918c54142edbad32/image.png added by Bug Bot on 2018-02-23T04:49:56.936Z
+
+
+### ☘nickWtn☘#3789 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a8f9d7250dc038695f45384/fcb229ee25e65d6233734e2b7febe70a/yhDSCQh.png added by Bug Bot on 2018-02-23T04:49:56.954Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.3 (2671)
+
+mrkirby153#7840 - Bug Bot on 2018-02-23T04:50:01.698Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.3 PB3, Discord Stable 2.2.4. Also can be reproduced by doing: 
+- Create a new server with an extremely long name. 
+- Dump an invite into a testing server. 
+- Click on the shiny invite link (ooooh!) 
+- Observe.
+
+Ghoul#0009 - Bug Bot on 2018-02-23T04:50:06.643Z
+
+
+### Can reproduce.
+Testflight 2.2.3, iPhone X iOS 11.2.5
+
+Bay#3828 - Bug Bot on 2018-02-23T04:50:11.627Z
+
+
+### Verified, but this is deliberate destructive behavior, so this is the lowest of the low priority. - Jared on 2018-02-23T23:15:37.104Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-23T23:16:05.092Z
+
+
+### Can reproduce.
+iPhone 7 Plus - iOS 11.2 - TF 2.2.3 (2671)
+
+Willzzz (なる)#3096 - Bug Bot on 2018-02-26T12:20:31.289Z
+
+
+### I can no longer reproduce as of Discord TestFlight 2.3.4 (5560) on iPhone 8 + running iOS 12 (Dev Beta 2). The join button now stays in one line, and will end in the three dots as it won't run all over the Online and Offline Member count.
+
+Because I was not able to reproduce this bug, I am moving it to Claimed Fixed. - Ghoul on 2018-07-03T00:35:57.489Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T00:36:02.422Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:49.955Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

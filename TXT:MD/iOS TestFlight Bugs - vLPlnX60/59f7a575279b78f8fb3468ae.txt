@@ -1,0 +1,65 @@
+[Archived] s/ edits with mentions do not actually mention (https://trello.com/c/De54vCiq)
+
+None
+
+Created: 2017-10-30T22:19:33.200Z
+Latest Update: 2017-12-09T07:04:33.699Z
+
+Reported by Magiobiwan#6327
+
+####Steps to reproduce:
+- Type a message (any message)  
+- Use the s/text/newtext edit shortcut to add a mention
+
+####Expected result:
+The user should be mentioned and notified
+####Actual result:
+The message just contains @username#1234 and doesn't turn into a mention
+####Client settings:
+1.9.4 release
+####System settings:
+iOS 10.3.3 iPhone 7
+
+5951
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-30T22:19:33.200Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5, Discord Stable 1.9.4, Seems to be a backend issue, also happens with Desktop version.
+
+Pascal#0929 - Bug Bot on 2017-10-30T22:19:40.625Z
+
+
+### Can reproduce.
+iPhone 6 with iOS 11.1 PB5, TF 1.9.3 (1340)
+
+Inner Sense#0404 - Bug Bot on 2017-10-30T22:19:45.555Z
+
+
+### Can reproduce.
+iPhone 6s, ios 11.0.3 with testflight 1.9.3 (1340)
+
+Jakob#6834 - Bug Bot on 2017-10-30T22:19:50.549Z
+
+
+### This isn't a bug. You can only mention on post, not on edit. - Jared on 2017-11-06T21:27:17.012Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-11-06T21:27:21.985Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-09T07:04:32.177Z
+
+
+### Archived by Alexandru Todea on 2017-12-09T07:04:33.702Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

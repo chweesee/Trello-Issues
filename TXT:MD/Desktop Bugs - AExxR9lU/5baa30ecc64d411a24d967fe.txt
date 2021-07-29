@@ -1,0 +1,75 @@
+[Archived] opacity resets every time you open overlay (https://trello.com/c/DO29x6ba)
+
+None
+
+Created: 2018-09-25T12:58:20.359Z
+Latest Update: 2019-01-01T15:54:33.809Z
+
+Reported by MakiTheLegend#2611
+
+####Steps to reproduce:
+- open a game. open the overlay and check everything. 
+- click show window in game. adjust the opacity. 
+- close the overlay and the game. repeat step 1 and 2 but observe the opacity setting.
+
+####Expected result:
+it should remember the opacity setting
+####Actual result:
+it resets every time you open the overlay
+####Client settings:
+Canary 24580
+####System settings:
+Windows 10 Home SL x64
+
+20103
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-25T12:58:20.359Z
+
+
+### Can reproduce.
+Tested on Minecraft, Trove and CS:GO. Windows 10 Pro x64 Canary: 24580
+
+Neiron#2406 - Bug Bot on 2018-09-25T12:58:27.714Z
+
+
+### Can reproduce.
+CR only with Minecraft. This bug seems to only affect a small selection of games, AND could somehow be depending on hardware as well. Windows 10 Home 64-bit, Canary 24580
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-25T12:58:32.689Z
+
+
+### Can reproduce.
+CR, Win 10 64x (1803), Discord Canary 24580 - Tested with Rocket League and resets back to 15%
+
+Alipoodle#5025 - Bug Bot on 2018-09-25T12:58:37.764Z
+
+
+### Can't reproduce.
+CNR: Windows 10 Home 64-bit, Canary 24580. Tested on Minecraft, Killing Floor and osu!
+
+Inspector Soviet#6971 - Bug Bot on 2018-09-25T13:09:54.945Z
+
+
+### Moved from User Reported Bugs to Overlay Redesign Bugs by Tarek on 2018-09-25T18:06:43.404Z
+
+
+### Moved from Overlay Redesign Bugs to Claimed Fixed, needs Verification by Joey Baker on 2018-10-02T19:54:29.731Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-17T05:47:27.041Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:54:32.243Z
+
+
+### Archived by Tarek on 2019-01-01T15:54:33.811Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/kamillaka) - No Bio

@@ -1,0 +1,79 @@
+[Archived] Status bar goes black when tapping on the Play on Spotify button and button doesn’t work in the mini-profile (https://trello.com/c/yLFTSGkb)
+
+P2 - Can wait a while,
+low
+
+Created: 2018-02-02T00:50:17.642Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Kuuhaku#4503
+
+####Steps to reproduce:
+
+- Prerequisite: Uninstall Spotify, set your browser to the In-App Browser and set your theme to the dark theme.  
+- Find a user that's listening to Spotify and look at their profile 
+
+- Click on the Play on Spotify button.
+
+- For the second part, find a user in the member list that is currently listening or streaming on Twitch 
+- Tap on their name to open the mini-profile
+
+- Tap on the button
+
+####Expected result:
+The button should work, i.e. A pop-up should ask to open the App Store page or Spotify/Twitch
+####Actual result:
+Button does nothing and that status bar goes from white to black making it difficult to read. You have to kill the app to fix it.
+####Client settings:
+TestFlight Build 2.2.2 (2352)
+####System settings:
+iPhone 6 iOS 10.3.2
+
+8385
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-02T00:50:17.642Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.2 (2352)
+
+mrkirby153#7840 - Bug Bot on 2018-02-02T00:50:25.111Z
+
+
+### Can reproduce.
+I can reproduce on iPhone 8 +, running iOS 11.3 Beta 1 and iPad Mini 2 running iOS 11.0.3. You must have In-App browser set in your settings then view the actual profile before you can reproduce. I however cannot reproduce on iPad Air 1st Gen running iOS 11.2.5. All devices were using Discord TestFlight 2.2.2 (2352). Maybe it’s the iPhone / iPad Mini only?
+
+Ghoul#0009 - Bug Bot on 2018-02-02T00:50:30.052Z
+
+
+### Can reproduce.
+CR, iPhone 8 iOS 11.1.2, TestFlight 2.2.2 (2352)
+
+Q__Q#8008 - Bug Bot on 2018-02-02T00:50:35.067Z
+
+
+### Verified - Jared on 2018-02-13T22:40:01.610Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-13T22:40:13.914Z
+
+
+### I can no longer reproduce as of Discord TestFlight 2.3.4 (5589), the button now opens the App Store page and redirects me to the Spotify application page for me to install the app. I used iPhone 8 +, running iOS 12 (Dev Beta 2).
+
+Because I was not able to reproduce this bug anymore, I am moving it to Claimed Fixed.  - Ghoul on 2018-07-03T02:12:57.145Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T02:13:05.470Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:55.316Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

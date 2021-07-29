@@ -1,0 +1,91 @@
+[Archived] Category notification settings dont work (https://trello.com/c/JsnvvXXP)
+
+P2: Fix can wait a while
+
+Created: 2017-09-11T07:33:12.236Z
+Latest Update: 2018-07-06T17:44:16.030Z
+
+Reported by advaith#9121
+
+####Steps to reproduce:
+- Set a server's notifications to All Messages in Notification Settings 
+- Set a category to Mentions Only 
+- Have someone sent a message in a channel in that category
+
+####Expected result:
+You dont get a notification unless they mention you
+####Actual result:
+You get a notification
+####Client settings:
+Discord Canary 0.0.154 (Build 4053)
+####System settings:
+Discord Canary 0.0.154 (Build 4053), macOS Sierra 10.12.6 (16G29) (iMac Retina 5K, 27-inch, Late 2017)
+
+4137
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-11T07:33:12.236Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163, Windows 10 Pro x64 Version 1703
+
+Elix 🍭#4604 - Bug Bot on 2017-09-11T07:33:20.702Z
+
+
+### Can reproduce.
+CR, Canary 0.0.163 Windows 10 Home x64 15063.540
+
+Jusola#4326 - Bug Bot on 2017-09-11T07:33:25.700Z
+
+
+### Can reproduce.
+Windows 10 x64, Discord Canary v0.0.163
+
+Zacatero#5839 - Bug Bot on 2017-09-11T07:33:30.725Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf I.#3260 - Bug Bot on 2017-09-11T19:04:08.780Z
+
+
+### Verified.  - Clayton on 2017-09-19T21:23:21.716Z
+
+
+### Moved from User Reported Bugs to Channel catalgories by Clayton on 2017-09-19T21:23:29.341Z
+
+
+### Moved from Channel catalgories to Next up for investigation by Jared on 2017-10-17T18:48:59.063Z
+
+
+### Moved from Next up for investigation to Fix made, not yet released by Stanislav Vishnevskiy on 2017-11-27T05:22:41.637Z
+
+
+### Cannot reproduce anymore, I only receive notifications when I get mentioned in the category with the "Only mentions" notification override
+Canary 7750, moving to claimed fixed. - Tarek on 2017-11-29T10:38:44.398Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2017-11-29T10:38:50.116Z
+
+
+### Verified Fixed - Jared on 2017-11-29T19:56:38.834Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-11-29T19:56:42.192Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-30T08:30:57.815Z
+
+
+### Archived by Alexandru Todea on 2017-12-30T08:31:00.255Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/svishnevskiy) - No Bio

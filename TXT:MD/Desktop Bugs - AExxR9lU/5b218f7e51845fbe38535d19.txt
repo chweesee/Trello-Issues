@@ -1,0 +1,87 @@
+[Archived] Cache cleared on updating (https://trello.com/c/R0pb6qfg)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2018-06-13T21:41:18.267Z
+Latest Update: 2018-08-30T23:19:16.794Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Fully close out of Discord Canary 
+- Open the app and have it update to 0.0.211 (build 16907)
+
+####Expected result:
+Your previous cache is kept intact after updating
+####Actual result:
+Your cache is reset like you just installed the app
+####Client settings:
+Discord Canary 0.0.211, Build 16907
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+14138
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-13T21:41:18.267Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (Version 1803), Discord Canary Build 16907. Updated from Build 16887.
+
+Ghoul#1337 - Bug Bot on 2018-06-13T21:41:25.885Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 x64 1803 (17134), Discord Canary with Build number 16907. Everything resets, including games list
+
+Frances Picard#6209 - Bug Bot on 2018-06-13T21:41:31.006Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 16907
+
+Rauf#9245 - Bug Bot on 2018-06-13T21:41:35.949Z
+
+
+### Can reproduce.
+windows 10 version 1709, Canary Build Number: 16907, everything resets, except for developer mode (was still turned on) and auto-convert emojis (still turned off)
+
+Callidus#3141 - Bug Bot on 2018-06-13T22:00:25.244Z
+
+
+### Verified - Jared on 2018-06-13T22:02:04.021Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-06-13T22:02:08.630Z
+
+
+### Can reproduce.
+Can Reproduce | Windows 10 Professional 64 bit, v1803, Discord Canary 16907 ~ everything resets except for Developer Mode, very bad, bad, bug
+
+FoxyKero#9941 - Bug Bot on 2018-06-13T22:47:55.942Z
+
+
+### This is a won't fix. We're downgrading electron 2 to 1.6.x, and the storage format is not backwards compatible.  - Jake Heinz on 2018-06-13T22:55:45.040Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Jake Heinz on 2018-06-13T22:55:50.806Z
+
+
+### Can't reproduce.
+Windows 10 Home x64, Discord PTB latest version.
+
+ShadowOfficial#7980 - Bug Bot on 2018-06-14T16:47:15.518Z
+
+
+### Archived by Clayton on 2018-08-30T23:19:16.796Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

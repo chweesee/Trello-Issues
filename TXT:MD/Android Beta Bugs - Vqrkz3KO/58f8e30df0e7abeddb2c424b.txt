@@ -1,0 +1,109 @@
+[Archived] Inclusion of emoji in Italic markup breaks markup (https://trello.com/c/NcOy12IH)
+
+P2 - Can wait a while
+
+Created: 2017-04-20T16:34:21.566Z
+Latest Update: 2017-10-02T16:50:01.756Z
+
+Reported by Raichu Nuzzles You ⚡#5328
+
+####Steps to reproduce: 
+- choose channel to send text in 
+- type `*test 🌸*` where the emoji is any unicode emoji available. 
+- I use Gboard as my keyboard, and use it's emoji keyboard 
+
+####Expected result:
+ *test* 🌸 
+####Actual result:
+ *test 🌸* https://cdn.discordapp.com/attachments/301943281921687563/304645450462658571/Screenshot_20170420-105133.png 
+####System settings:
+ Nexus 6 (shamu) Android 7.1.1 Discord 3.6.9
+
+1101
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-20T16:34:21.566Z
+
+
+### Can reproduce.
+Android O, Discord 3.6.9
+
+WorseDoughnut 🍩#4827 - Bug Bot on 2017-04-20T16:34:22.039Z
+
+
+### Can reproduce.
+Android 5.1
+
+AwesomeFlink#9333 - Bug Bot on 2017-04-20T16:34:24.014Z
+
+
+### Can reproduce.
+Android 7.0 Discord 3.6.9
+
+Azrael#6867 - Bug Bot on 2017-04-20T16:34:26.053Z
+
+
+### Screenshot_20170420-105133.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58f8e30df0e7abeddb2c424b/6ca333fde5678a8e93f7d52428c778b9/Screenshot_20170420-105133.png added by Bug Bot on 2017-04-20T16:34:37.589Z
+
+
+### Can reproduce.
+Nexus 4, Android 5.1.1, Discord 3.6.10 / Nexus 6P, Android O Preview, Discord 3.6.10
+
+Chrees#4389 - Bug Bot on 2017-04-20T19:18:32.773Z
+
+
+### Verified.  - Clayton on 2017-04-20T19:19:20.998Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-20T19:19:28.674Z
+
+
+### Can reproduce.
+Android 7.1.1 Discord 3.6.1
+
+Raichu Nuzzles You ⚡#5328 - Bug Bot on 2017-04-20T19:24:09.292Z
+
+
+### last can repro was 3.6.10 not 3.6.1
+
+Raichu Nuzzles You ⚡#5328 - Bug Bot on 2017-04-20T19:25:55.519Z
+
+
+### Can reproduce.
+Android 6.0, Discord 3.6.9
+
+AlFas#2783 - Bug Bot on 2017-04-20T20:17:21.833Z
+
+
+### Can reproduce.
+3.6.9
+
+sladeiam#0642 - Bug Bot on 2017-04-21T03:13:20.293Z
+
+
+### Tested on Alpha v3.8.3:
+
+I can no longer reproduce this myself. The italics will work fine for me regardless if an emoji is included or not.
+
+I feel like this is related to the standard emoji being converted to twemoji. - Alexander (DJScias) on 2017-05-10T02:30:55.687Z
+
+
+### Verified Fixed. - Jared on 2017-07-31T18:48:32.950Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2017-07-31T18:48:36.513Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:50:00.994Z
+
+
+### Archived by Jared on 2017-10-02T16:50:01.760Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

@@ -1,0 +1,134 @@
+[Archived] Audit log crashes when changing role color in server settings (https://trello.com/c/2k0J0aSc)
+
+P2 - Can wait a while
+
+Created: 2019-05-12T20:59:15.123Z
+Latest Update: 2019-07-10T21:30:57.208Z
+
+Reported by Xylium#5800
+
+####Steps to reproduce:
+- Own a server 
+- Open server settings 
+- Go to roles 
+- create or edit an existing role 
+- Change the role color and hit save 
+- Go back to server settings 
+- Tab on audit log tab 
+- Tab the audit log trigger that says “updated the role {rolename}” 
+- Observe your client crashing
+
+####Expected result:
+You should be able to view what color you changed it to
+####Actual result:
+Your client crashes
+####Client settings:
+Testflight 3.0.2 (14873)
+####System settings:
+iPhone 6, iOS 12.3 (dev beta 5)
+
+34483
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-12T20:59:15.123Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS 12.2, TestFlight 3.0.2 (14873)
+
+Pascal#0929 - Bug Bot on 2019-05-12T20:59:22.597Z
+
+
+### Can reproduce.
+iPhone XR; iOS 12.2; TestFlight 3.0.2 (14873)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-12T20:59:27.684Z
+
+
+### Can reproduce.
+iphone 8 ios 12.2, TestFlight 3.0.2 (14873)
+
+OrangeM24#5746 - Bug Bot on 2019-05-12T20:59:32.574Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.2 (14873)
+
+Daffyduck#5364 - Bug Bot on 2019-05-12T21:13:11.101Z
+
+
+### Can reproduce.
+iPhone 7+ iOS 12.2 | TestFlight 3.0.2 (14873)
+
+Clay#0001 - Bug Bot on 2019-05-13T04:19:08.541Z
+
+
+### Can reproduce.
+iPad Mini 2, iOS 12.2, TF 3.0.2 (14902)
+
+Maltzant#9154 - Bug Bot on 2019-05-13T19:47:22.559Z
+
+
+### Can't reproduce.
+iphone 6S 12.1.4 TF 14902
+
+N i c o l a s G E#8245 - Bug Bot on 2019-05-13T22:56:01.693Z
+
+
+### Can reproduce.
+iphone 6s ios 12.1.4 TF 14902
+
+N i c o l a s G E#8245 - Bug Bot on 2019-05-13T23:29:55.351Z
+
+
+### Moved from New Issues to Notable Issues by Bug Bot on 2019-05-14T01:12:49.748Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Alex on 2019-05-21T22:51:12.883Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.2 (15173) with iPad Pro (11 inch) running iOS 12.3.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-23T11:42:40.358Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Pascal on 2019-05-23T11:42:46.210Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.3 - TestFlight 3.0.1 (15173)
+
+Daffyduck#5364 - Bug Bot on 2019-05-23T11:47:36.341Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.3 - TestFlight 3.0.2 (15173)
+
+Daffyduck#5364 - Bug Bot on 2019-05-23T12:02:16.476Z
+
+
+### Can't reproduce.
+TestFlight 3.0.2 (15173) iPhone 6s iOS 12.4 Dev Beta 2
+
+Rashaun#8467 - Bug Bot on 2019-05-23T14:58:46.871Z
+
+
+### Can't reproduce.
+iphone 5c ios 10.3.3, TestFlight 3.0.2 (15173)
+
+OrangeM24#5746 - Bug Bot on 2019-05-23T15:06:41.747Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-23T15:06:41.974Z
+
+
+### Archived by Bug Bot on 2019-07-10T21:30:57.221Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jonathanwu41) - No Bio

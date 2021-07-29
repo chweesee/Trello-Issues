@@ -1,0 +1,140 @@
+[Archived] The app crashes when opening the filter options for the member list before it has fully loaded (https://trello.com/c/bQakLwt5)
+
+P3 - Will be fixed eventually
+
+Created: 2019-10-25T15:44:53.266Z
+Latest Update: 2020-01-18T06:00:06.259Z
+
+Reported by LulzYT#0045
+
+####Steps to reproduce:
+
+- Go to a server where you have permission to open the member list in server settings 
+- Open the member list in server settings 
+- Make sure that the member list hasn’t loaded so far (slow internet connection might help here) 
+- Click on the 3 dots and select "Filter"
+
+####Expected result:
+Shows filter tab
+####Actual result:
+Discord crashes
+####Client settings:
+3.1.6
+####System settings:
+IOS 11.4
+
+46135
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-25T15:44:53.266Z
+
+
+### Can reproduce.
+CR, iPad Pro 12.9”(iPadOS 13.1.3), Testflight 3.1.6 (17811), As long as you hit the filter button before the members are visible it will crash (at least for me that is)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-25T15:45:00.922Z
+
+
+### Can reproduce.
+iPad Pro, iPadOS 13.1.3, TestFlight 3.1.6 (17811)
+
+Bladeclaw#7229 - Bug Bot on 2019-10-25T15:45:05.958Z
+
+
+### Can reproduce.
+CR; iPhone 6 (iOS 12.4.2) - TF 3.1.6 (17811) — Quite difficult to time, you need to open the members list, press the 3 dots and then click filter all before the list loads
+
+TollyThaWally#1621 - Bug Bot on 2019-10-25T15:45:10.904Z
+
+
+### Can reproduce.
+iPhone 7 - iOS 13.1 Public Beta 4 - Testflight (17811)
+
+npm#1337 - Bug Bot on 2019-10-25T18:41:18.986Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.3; TestFlight 3.1.6 (17811)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-25T19:19:51.324Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13 - TestFlight 3.1.6 (17811)
+
+Fictional#0001 - Bug Bot on 2019-10-25T20:21:28.160Z
+
+
+### Can reproduce.
+iPhone XS, iOS 13.1, TestFlight 3.1.6 (17811)
+
+Error 404#4040 - Bug Bot on 2019-10-25T21:02:46.164Z
+
+
+### Can reproduce.
+CR: iPhone SE, iOS 13.1.3, Discord TestFlight 3.1.6 (17811)
+
+Rex#2222 - Bug Bot on 2019-10-25T21:54:53.357Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Testflight 3.1.6 (17924) -  iPhone 6s - iOS 13.1.2
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-25T23:08:28.497Z
+
+
+### Can reproduce.
+This also works with pruning iPhone 7: iOS 13.1.3; TestFlight 3.1.6 (17924)
+
+Jiralite#1207 - Bug Bot on 2019-10-28T19:14:50.925Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.6 (17924)
+
+.Gloria.#9606 - Bug Bot on 2019-10-31T02:38:02.062Z
+
+
+### Can reproduce.
+TestFlight 3.1.6 (17924), iPhone XR, iOS 13.2
+
+SplashyFlame#0067 - Bug Bot on 2019-10-31T23:09:37.025Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-11-01T19:00:03.300Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.2.2 TestFlight 3.1.7 (18081)
+
+binchlord#0998 - Bug Bot on 2019-11-11T00:48:39.899Z
+
+
+### Archived by Bug Bot on 2019-12-11T01:00:02.544Z
+
+
+### Can reproduce.
+CR // NOTE: It works with prune, if you click on "prune" when the list of members isn't loaded it will crash // iPhone 11 // iOS 13.2.3 // TestFlight 3.1.9 (18507)
+
+Falkio#0001 - Bug Bot on 2019-12-11T13:48:20.273Z
+
+
+### Unarchived by Bug Bot on 2019-12-11T14:00:05.631Z
+
+
+### Can't reproduce.
+CNR // iPhone XS Max iOS 13.3 // TestFlight 3.1.9 (18507)
+
+Xelphos#0001 - Bug Bot on 2019-12-14T18:23:20.287Z
+
+
+### Archived by Bug Bot on 2020-01-18T06:00:06.272Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

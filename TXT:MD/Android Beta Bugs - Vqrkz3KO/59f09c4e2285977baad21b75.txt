@@ -1,0 +1,105 @@
+[Archived] Opening the privacy/nickname menu from the server menu twice __will prevent the menu opened first to be closed__. (https://trello.com/c/xYk3Ztot)
+
+P3 - Will be fixed eventually
+
+Created: 2017-10-25T14:14:38.782Z
+Latest Update: 2019-06-10T20:44:39.372Z
+
+Reported by JohnyTheCarrot#0368
+
+####Steps to reproduce:
+- Quickly double-tab the privacy/nickname menu before the menu shows up (it sounds harder than it is) 
+- Close the one you opened last (the top one) 
+- try to close the second menu (aka the first one that opened) with the buttons on the menu (pressing the back button on the menu will succeed to close it, only the UI buttons don't work) and notice how the buttons that are supposed to close the menu don't succeed in doing so.
+
+####Expected result:
+The menu is either prevented from opening twice or the buttons on the first menu opened (the bottom one) still work
+####Actual result:
+The buttons that closes the menu in the first menu opened don't work.
+####Client settings:
+Discord Alpha 5.4.1 (but also works on other versions iirc)
+####System settings:
+Android 7.1.1
+
+5756
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-25T14:14:38.782Z
+
+
+### JohnyTheCarrot#0368 - https://i.imgur.com/Ja7WaG5.gifv added by Bug Bot on 2017-10-25T14:14:56.523Z
+
+
+### Can reproduce.
+CR, Android Alpha 5.4.7 (547), LG H525n Android 5.0.2
+
+Mr.Quentin#4854 - Bug Bot on 2017-10-25T14:15:01.771Z
+
+
+### Can reproduce.
+Android Alpha 5.4.7, Samsung Galaxy A7, and Samsung Galaxy S5. Both running 6.0.1 Marshmallow
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-25T14:15:06.498Z
+
+
+### Can reproduce.
+Discord Android 5.3.8 (538), Google Pixel XL Android 8.0.0
+
+guerryer#1817 - Bug Bot on 2017-10-25T14:15:11.494Z
+
+
+### Can reproduce.
+CR, Huawei Mate 9 Android 7.0 Discord Alpha 5.4.7
+
+Alex1304#9704 - Bug Bot on 2017-10-25T17:25:04.751Z
+
+
+### Verified.  - Clayton on 2017-10-25T22:35:14.171Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-25T22:35:18.194Z
+
+
+### Can still reproduce as of: 3/22/2018 - Clayton on 2018-03-22T23:36:13.455Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:11.040Z
+
+
+### Can reproduce.
+Honor 9, Android 8.0.0, Discord Alpha 7.4.0
+
+イスラヌブ#2222 - Bug Bot on 2018-08-26T21:47:01.936Z
+
+
+### Unarchived by Clayton on 2018-08-26T22:00:03.403Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime Android 7.0 Alpha 7.4.0
+
+Mr. Black#5859 - Bug Bot on 2018-08-26T22:23:57.188Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:26.370Z
+
+
+### Can reproduce.
+CR. Alpha 8.1.0 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9999 - Bug Bot on 2018-12-12T13:18:16.832Z
+
+
+### Unarchived by Bug Bot on 2018-12-12T13:30:04.242Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:44:39.387Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

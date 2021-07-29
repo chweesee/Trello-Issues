@@ -1,0 +1,173 @@
+[Archived] Double tapping a picture in the Camera Roll photo upload window crashes the app (https://trello.com/c/jIpdOAIK)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-03-03T22:35:54.918Z
+Latest Update: 2019-09-18T10:00:58.994Z
+
+Reported by [object Object]#0001
+
+####Steps to reproduce:
+- Tap the paperclip on the send message bar 
+- Tap "Camera Roll" 
+- Go into one of your albums (including All Photos) 
+- Double tap on a picture
+
+####Expected result:
+The picture is uploaded
+####Actual result:
+The app crashes
+####Client settings:
+TestFlight 2.2.5 (2894)
+####System settings:
+iPad Mini 2, iOS 11.0.3
+
+9307
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-03T22:35:54.918Z
+
+
+### Can reproduce.
+CR, TestFlight 2.2.5 (2894), iOS 11.2.5, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-03-03T22:36:02.334Z
+
+
+### Can reproduce.
+iPhone X, iOS 11.2.6, TestFlight 2.2.5 (2894)
+
+mouse#0091 - Bug Bot on 2018-03-03T22:36:07.513Z
+
+
+### Can reproduce.
+iPhone 6s & iPad Air 2, iOS 11.3 PB 3, TestFlight 2.2.5 (2894)
+
+Pascal#0929 - Bug Bot on 2018-03-03T22:36:12.329Z
+
+
+### Issue might be iOS 11 only because some users can't reproduce it with iOS 10
+
+Pascal#0929 - Bug Bot on 2018-03-03T22:43:40.133Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.2.6, TF 2.2.5 (2894)
+
+TsjipTsjip#6474 - Bug Bot on 2018-03-04T07:10:27.562Z
+
+
+### Can reproduce.
+iPhone 7 Plus - iOS 11.2 - TF 2.2.5 (2894)
+
+Willzzz#3096 - Bug Bot on 2018-03-04T12:45:30.094Z
+
+
+### Can reproduce.
+Discord: Testflight 2.2.5 (2894) IOS: 11.3 PB 3 Model: iPad Pro 9.7
+
+nathanielcwm#3522 - Bug Bot on 2018-03-04T16:01:31.457Z
+
+
+### Can reproduce.
+iPad Air 2 iOS 11.2.6
+
+Nukey6#4055 - Bug Bot on 2018-03-04T19:04:11.979Z
+
+
+### korzq#0001 - undefined added by Bug Bot on 2018-03-07T15:49:16.559Z
+
+
+### Verified.  - Clayton on 2018-03-07T22:52:08.370Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-07T22:52:12.468Z
+
+
+### I can no longer reproduce, double tapping a picture in the camera roll doesn't crash the app.
+
+Discord 2.2.5 (3054), iOS 11.2.6, iPhone 8 Plus - Alexandru Todea on 2018-03-17T09:04:14.773Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Alexandru Todea on 2018-03-17T09:04:20.400Z
+
+
+### Can reproduce.
+This Bug is still reproduce-able 100% of the time for me, just be simple double tapping on an image in camera roll. iPod Touch 6th generation, iOS 11.2.6, TestFlight 2.2.5 (3054)
+
+☘nickWtn☘#3789 - Bug Bot on 2018-03-17T16:22:59.243Z
+
+
+### Can reproduce.
+Can still repro but only with landscape images; iPhone X, iOS 11.2.6, TestFlight 2.2.5 (3054)
+
+mouse#0091 - Bug Bot on 2018-03-19T00:35:11.595Z
+
+
+### Can still reproduce it: iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054)
+Make sure to test it multiple times, also spam-tapping might help here.
+
+Pascal#0929 - Bug Bot on 2018-03-20T19:34:49.355Z
+
+
+### Can reproduce, appears to be iOS 11 only. iPhone 5S iOS 11.2.6, TestFlight 2.2.7 (3519). Moving back to verified. - Mike Nisbet on 2018-03-28T17:12:39.880Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Bugs by Mike Nisbet on 2018-03-28T17:12:47.957Z
+
+
+### Can reproduce.
+Can still repro with iOS 12 Dev Beta 2, TestFlight 2.3.4 (5560)
+
+mouse#0091 - Bug Bot on 2018-06-30T07:27:07.959Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a9b234ab03ddecc301efb69/68d45e0d12dc708f83d44b3343b353df/giphy.gif added by Bug Bot on 2018-07-14T09:33:02.867Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:56.218Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.8 (16488) with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-26T10:31:52.472Z
+
+
+### Unarchived by Pascal on 2019-07-26T10:32:20.400Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-07-26T10:32:25.144Z
+
+
+### Can't reproduce.
+Can no longer reproduce, iPhone 7, iOS 13 (Public Beta 3), Testflight 3.0.8 (16488)
+
+ryan#0570 - Bug Bot on 2019-07-26T10:34:43.383Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 4) - TestFlight 3.0.8 (16488)
+
+Xylium#5800 - Bug Bot on 2019-07-26T10:35:54.293Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.8 (16488)
+
+Daffyduck#5364 - Bug Bot on 2019-07-26T10:35:59.798Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-26T10:36:00.101Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:00:59.014Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

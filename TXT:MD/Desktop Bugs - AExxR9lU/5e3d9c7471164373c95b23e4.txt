@@ -1,0 +1,58 @@
+[Chat redesign] Join server messages have additional bottom padding on the first messages while continuing ones have none (https://trello.com/c/8N8rYtP6)
+
+None
+
+Created: 2020-02-07T17:20:52.210Z
+Latest Update: 2020-07-16T21:26:06.095Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Create a new server or use a existing server. 
+- Set up a channel with the "Systems Messages Channel" 
+- Make someone join the server 
+- Make that person leave and rejoin
+
+####Expected result:
+The join message Looks like a small message all the time
+####Actual result:
+The first join message is larger with strange bottom padding and all following ones are smaller
+####Client settings:
+Canary 54055 (c270ef6)
+####System settings:
+Win10 64x (1809)
+
+52400
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-07T17:20:52.210Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e3d9c7471164373c95b23e4/10315ddfa1d45d9244bc2b7a552cb8f1/K0Rub9L.png added by Bug Bot on 2020-02-07T17:20:55.475Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.3; Discord Canary 54055
+
+Jiralite#1207 - Bug Bot on 2020-02-07T17:20:59.746Z
+
+
+### Can reproduce.
+Windows 10 Pro x64,Discord Canary 54055, (host 0.0.261).
+
+MyLife#9696 - Bug Bot on 2020-02-07T17:21:04.849Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit 1909, Discord Canary 54055
+
+BurgerKingBot#1435 - Bug Bot on 2020-02-07T17:21:09.798Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

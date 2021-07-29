@@ -1,0 +1,113 @@
+[Archived] Changing presence status causes some odd reload behavior in chat (https://trello.com/c/Exm6Jm6w)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-12-24T01:40:46.114Z
+Latest Update: 2019-02-07T04:30:02.945Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Switch to any channel with different people chatting 
+- Change your presence status 
+- Immediately close channel drawer and come back to chat 
+- Wait up to 10 seconds.
+
+####Expected result:
+You change status and nothing strange should happen in chat
+####Actual result:
+You will notice several strange behavior in chat: Other people's nickname and color in chat will be reset for a split second ; the New Messages banner will disappear if there was one, and if you do this on a channel with a "Welcome to your server" header, this header will disappear for a split second as well. Basically it looks like changing presence status breaks a part of the cache, causing stuff to reload.
+####Client settings:
+Discord Alpha 8.2.2
+####System settings:
+Huawei Mate 9 Android 8.0
+
+25083
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-24T01:40:46.114Z
+
+
+### Can reproduce.
+CR. Samsung Galaxy J3, Android 7.1.1, Alpha 8.2.2
+
+dorothyoka#9078 - Bug Bot on 2018-12-24T01:40:53.593Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8 Android 8.0 - Alpha 8.2.2
+
+J1#0088 - Bug Bot on 2018-12-24T01:40:58.663Z
+
+
+### Can reproduce.
+Can Repro - Google Pixel 3 XL (G013C), Android 9.0 (Build PQ1A.181205.006), Discord Alpha 8.2.2
+
+KazWolfe#2896 - Bug Bot on 2018-12-24T01:41:03.736Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.2.2
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-24T01:54:17.637Z
+
+
+### Can reproduce.
+changing tatus seems to reset saved nicnames and reload them. Discord 822 android 9.0 One Plus 6.
+
+Minato#0420 - Bug Bot on 2018-12-24T08:17:27.432Z
+
+
+### Can reproduce.
+HTC U12+, Android 8.0.0
+
+a cat#5379 - Bug Bot on 2018-12-24T13:42:29.109Z
+
+
+### Can reproduce.
+CR. Alpha 8.2.2 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#2019 - Bug Bot on 2018-12-24T14:53:32.984Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8,Android 8.0.0,Alpha 8.2.2
+
+Octillion#6666 - Bug Bot on 2018-12-24T15:47:24.891Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8,Android 8.0.0,Alpha 8.2.2
+
+Octillion#6666 - Bug Bot on 2018-12-24T22:49:47.719Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 8.2.2
+
+AmirAmani#0102 - Bug Bot on 2018-12-25T07:13:27.252Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 8.2.2 - Clayton on 2019-01-04T02:38:25.565Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-04T02:38:31.047Z
+
+
+### Can't reproduce.
+cannot reproduce anymore as of Alpha 8.2.4, was most likely fixed with the fix of https://trello.com/c/lDPyUW8M/
+
+J1#0088 - Bug Bot on 2019-01-08T04:14:11.400Z
+
+
+### Archived by Bug Bot on 2019-02-07T04:30:02.954Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

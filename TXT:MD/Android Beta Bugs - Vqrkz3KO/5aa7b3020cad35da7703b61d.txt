@@ -1,0 +1,80 @@
+[Archived] The instant invite page reloads when you open and close the share invite modal (https://trello.com/c/Acpes2ym)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-03-13T11:16:18.341Z
+Latest Update: 2018-08-22T01:21:26.092Z
+
+Reported by B a ™ a n#7883
+
+####Steps to reproduce:
+- Create an invite 
+- Go to server settings > instant invites 
+- Click on the invite > share 
+- Close the share modal
+
+####Expected result:
+The page does not reload
+####Actual result:
+The page reloads
+####Client settings:
+Discord Alpha 6.3.5
+####System settings:
+OnePlus 5, Android 8.0
+
+9559
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-13T11:16:18.341Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.3.5
+
+fujhofn.#0878 - Bug Bot on 2018-03-13T11:16:25.719Z
+
+
+### Can reproduce.
+I just checked the debug log and indeed the app does a new request to the server invites endpoint each time you close share modal. Discord Alpha 6.3.5, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-03-13T11:16:30.725Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 7.0, Discord Alpha 6.3.5
+
+Master Adit ᵛᵉʳᶦᶠᶦᵉᵈ#8363 - Bug Bot on 2018-03-13T11:16:35.740Z
+
+
+### Can reproduce.
+Samsung Galaxy S8+, Android 8.0.0, Samsung Experience 9.0 DC Alpha 6.3.5
+
+AK#0001 - Bug Bot on 2018-03-13T19:00:58.675Z
+
+
+### Can reproduce.
+Asus Zenfone 3, Android 7.0 Alpha 6.3.6
+
+Doges#0001 - Bug Bot on 2018-03-13T22:08:59.375Z
+
+
+### Verified.  - Clayton on 2018-03-15T22:32:28.824Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-15T22:32:31.899Z
+
+
+### 54D#1357 - https://youtu.be/bwt2iqC4Nsw added by Bug Bot on 2018-07-15T14:17:23.524Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:26.095Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

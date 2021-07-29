@@ -1,0 +1,66 @@
+[Archived] [Audit Log] setting a widget invite to a channel and deleting the channel afterwards let's the widget entry show #null instead of Channel ID (https://trello.com/c/vupYfdKG)
+
+None
+
+Created: 2018-10-05T21:16:31.887Z
+Latest Update: 2019-06-05T23:47:54.624Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- set a webhook to a channel
+- delete that channel
+- observe webhook update entry in audit log
+
+####Expected result:
+entry should tell us the ID of the channel
+####Actual result:
+it sais: "changed the channel to #null"
+####Client settings:
+Alpha 7.6.3
+####System settings:
+Samsung Galaxy S5 Mini Android 6.0.1
+
+20675
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-05T21:16:31.887Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6. Android 7.0. Discord Alpha 7.6.3
+
+coolalmostchilly#7777 - Bug Bot on 2018-10-05T21:16:39.346Z
+
+
+### Can reproduce.
+Can reproduce, Android 7.0  U16 Max Discord Alpha 7.6.3
+
+Delite#0001 - Bug Bot on 2018-10-05T21:16:44.404Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8; 7.6.3
+
+Deleted User 5191c06f#5746 - Bug Bot on 2018-10-05T21:16:49.397Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Clayton on 2018-10-05T22:10:05.716Z
+
+
+### Moved from Audit Log Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2018-10-09T20:35:43.090Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-12-05T00:20:21.706Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:54.633Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

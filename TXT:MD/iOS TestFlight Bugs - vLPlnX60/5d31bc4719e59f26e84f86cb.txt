@@ -1,0 +1,106 @@
+[iOS 12.1 and below only] You are unable to view channels with escaped Unicode encoded emojis (https://trello.com/c/fFPz6BqW)
+
+high,
+P2 - Can wait a while
+
+Created: 2019-07-19T12:49:11.175Z
+Latest Update: 2020-02-28T20:14:54.519Z
+
+Reported by alexkar598#2712
+
+####Steps to reproduce:
+
+- Go in any channel 
+- Escape a Unicode emoji by putting a backwards slash in front of it 
+- iOS 12.1 and below users will no longer be able to view the channel contents
+
+####Expected result:
+Be able to view the emoji or atleast be able to view the channel
+####Actual result:
+The channel's content are not loaded
+####Client settings:
+Stable 3.0.5
+####System settings:
+iPod touch 6g, IOS 12.1
+
+39685
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-19T12:49:11.175Z
+
+
+### Can reproduce.
+Can reproduce,you can only see the message content if the message with the escaped emoji is deleted, if not you have to wait 6 hours to see it, iPhone XR, iOS 12.1, TestFlight 3.0.6 (16208)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2019-07-19T12:49:18.832Z
+
+
+### Can reproduce.
+iPhone 5, iOS 10.3.3 - TestFlight 3.0.6 (16208) - This seems to be a issue on iOS 12.1 and below.
+
+Daffyduck#5364 - Bug Bot on 2019-07-19T12:49:23.917Z
+
+
+### Can reproduce.
+ipad mini 3 ios 11.4.1, TestFlight 3.0.6 (16208)
+
+OrangeM24#5746 - Bug Bot on 2019-07-19T12:49:29.039Z
+
+
+### Can reproduce.
+iPhone 5c - iOS 10.3.3 - TestFlight 3.0.6 (16208)
+
+Jäger#0010 - Bug Bot on 2019-07-22T19:41:54.681Z
+
+
+### Can reproduce.
+iPhone 6s iOS 13 (Public Beta) - TF 3.0.6 (16208)
+
+Jasοn#0001 - Bug Bot on 2019-07-22T21:40:03.062Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-07-26T19:00:05.250Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.4; Discord Stable Version: 3.0.7
+
+Boss#0006 - Bug Bot on 2019-07-26T21:22:24.122Z
+
+
+### Moved from Backlog to Text Chat by Pascal on 2019-07-27T09:07:17.999Z
+
+
+### Moved from Text Chat to Notable Issues by Pascal on 2019-07-27T16:31:39.758Z
+
+
+### Can reproduce.
+I can reproduce this on iPhone XR iOS 12.1.4 as of today. I was coming to report it but saw it was already reported. Hopefully it gets fixed because it renders channels completely empty
+
+Infinity#8418 - Bug Bot on 2019-08-19T08:11:07.126Z
+
+
+### Can reproduce.
+iphone 6s iOS 10.3.3, Discord 3.1.1
+
+Wunder Wulfe#1337 - Bug Bot on 2019-09-09T06:27:32.251Z
+
+
+### A extension to this issue is that if say the message with the escaped emoji is at the bottom of the channel, it won’t make the content invisible but will only allow you to see the message with the escaped emoji in that channel and the message will follow you to other channels in the server, here’s a example video https://i.imgur.com/Suy0N3w.mp4
+
+🎃nickWtn🎃#3789 - Bug Bot on 2019-12-18T08:01:04.535Z
+
+
+### Moved from Notable Issues to Need more info by Jonathan Wu on 2020-02-26T00:46:57.696Z
+
+
+### Moved from Need more info to Backlog by Daffyduck on 2020-02-28T20:14:54.496Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

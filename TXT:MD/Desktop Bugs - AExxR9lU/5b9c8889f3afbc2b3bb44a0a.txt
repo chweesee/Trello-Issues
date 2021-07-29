@@ -1,0 +1,53 @@
+[Archived] When changing the game name while using MediaMonkey as the program, Discord loses detection of MediaMonkey (https://trello.com/c/fifNzQIH)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-15T04:20:25.524Z
+Latest Update: 2018-10-22T20:27:53.044Z
+
+Reported by Rocket Raccoon#8167
+
+####Steps to reproduce:
+- Open Discord & Media Monkey 
+- Add Media Monkey as the game you're currently playing 
+- Change the name of the game you're currently playing (Media Monkey to whatever) in Discord 
+- Discord loses detection of Media Monkey until you click back on the Media Monkey program itself
+
+####Expected result:
+It's supposed to change the game name shown (Media Monkey) to whatever you change it to.
+####Actual result:
+Discord goes from the name changing to 'No Game Detected'
+####Client settings:
+Release Channel: stable, Build Number: 23012, Version Hash: fa2ef18a6aebe7620cedfc5bb14fea57067e1def
+####System settings:
+Windows 10 x64
+
+18937
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-15T04:20:25.524Z
+
+
+### Can reproduce.
+edge case, forcing through
+
+IcyPebbles#5833 - Bug Bot on 2018-09-15T04:20:32.845Z
+
+
+### minor.  - Clayton on 2018-09-17T22:38:36.613Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-17T22:38:44.984Z
+
+
+### Archived by Clayton on 2018-10-22T20:27:53.047Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

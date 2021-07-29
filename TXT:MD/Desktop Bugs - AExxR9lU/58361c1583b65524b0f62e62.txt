@@ -1,0 +1,120 @@
+[Archived] Unicode/Emoji in name breaks mention on edit (https://trello.com/c/ovwG7pCd)
+
+P2: Fix can wait a while
+
+Created: 2016-11-23T22:45:41.506Z
+Latest Update: 2018-02-22T19:47:29.866Z
+
+Reported by Khionu#8708
+
+####Steps to reproduce: 
+- Have friend put ⚠ (Unicode char) in name 
+- Mention them 
+- Edit message 
+
+####Expected result:
+ Edit box showx Unicode Chat 
+####Actual result:
+ shows Emoji String `:warning:`, which breaks the mention on save
+
+Card Log
+========
+### Added by Jared on 2016-11-23T22:45:41.506Z
+
+
+### Can reproduce.
+Win10 x64 Canary
+
+Noahkiq#9675 - Jared on 2016-11-23T23:04:30.323Z
+
+
+### Can reproduce.
+Win 10 Pro x64 Anniversary, Canary
+
+ThaTiemsz#5517 - Jared on 2016-11-23T23:05:06.328Z
+
+
+### Can reproduce.
+Win10 Home
+
+Maxie#2334 - Jared on 2016-11-23T23:39:22.971Z
+
+
+### Can reproduce.
+Latest Canary 0.0.136 (MacOS)
+
+datitisev#4934 - Jared on 2016-11-24T01:33:39.923Z
+
+
+### Can reproduce.
+Win10 AU/Canary
+
+𝅳𝅳#5756 - Jared on 2016-11-24T01:38:12.350Z
+
+
+### Can reproduce.
+Windows 10, Canary
+
+deframet#0249 - Jared on 2016-11-24T17:04:12.543Z
+
+
+### Can reproduce.
+Win10 Canary 0.0.147
+
+Joe#0816 - Jared on 2016-11-26T18:35:30.123Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Sam on 2016-11-27T19:19:13.546Z
+
+
+### Can reproduce.
+Windows 8.1, Canary Latest
+
+FireController1847 🗻#9085 - Jared on 2016-12-27T22:38:48.645Z
+
+
+### Can reproduce.
+Discord Canary
+
+Orangalo#0983 - Bug Bot on 2017-03-18T18:29:25.635Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T17:47:15.235Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jared on 2017-10-04T20:57:10.804Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.164 (Build 5391) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-10-05T19:16:27.949Z
+
+
+### I am no longer able to reproduce with the unicode character provided by the reporter, the mention doesn't break after I make edits to the message.
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 5438
+ - Alexandru Todea on 2017-10-06T19:04:19.987Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:36:01.413Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:36:05.153Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:47:29.208Z
+
+
+### Archived by Tarek on 2018-02-22T19:47:29.868Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

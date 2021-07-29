@@ -1,0 +1,90 @@
+[Light Theme] With Light Theme enabled, calling a friend results in your mic being automatically muted. (https://trello.com/c/3qdP2VU9)
+
+P3 - Will be fixed eventually
+
+Created: 2019-09-07T13:07:24.856Z
+Latest Update: 2019-09-20T20:58:54.833Z
+
+Reported by CupOTrout#0001
+
+####Steps to reproduce:
+- User Settings > Appearance > select "Light" theme 
+- Open a DM with a friend and Voice call them. 
+- Observe the red line indicating your microphone has been muted. 
+- Unmute your microphone -> end call -> call again -> witness automatic mute with "Light" theme persist.
+
+####Expected result:
+On Dark theme your microphone is always automatically enabled, you would expect the same behavior from Light theme.
+####Actual result:
+Your microphone is always muted when initiating a voice call on Light theme.
+####Client settings:
+iOS Version: 3.1.1
+####System settings:
+iPhone 8 iOS 12.4.1
+
+43650
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-07T13:07:24.856Z
+
+
+### Can reproduce.
+iPhone 8, iOS 12.4, TestFlight 3.1.2 (17205) - The Mute button doesn’t show that you are muted in Light Mode but in Dark Mode it shows. (Tested on my 5s and 8.)
+
+.Gloria.#9606 - Bug Bot on 2019-09-07T13:07:32.386Z
+
+
+### Can reproduce.
+CR iPhone XR iOS 12.4.1 TestFlight 3.1.2 (17205)
+
+binchlord#0998 - Bug Bot on 2019-09-07T13:07:37.398Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 8, iOS 12.4, TestFlight 3.1.2 (17205)
+
+Ice#9999 - Bug Bot on 2019-09-07T13:07:42.455Z
+
+
+### Can reproduce.
+iPhone X, iOS 13.1 (dev beta 2) - TestFlight 3.1.2 (17205)
+
+Xylium#5800 - Bug Bot on 2019-09-07T13:29:29.069Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.2 (17140)
+
+Jeffrey#1234 - Bug Bot on 2019-09-07T14:21:23.240Z
+
+
+### My TestFlight version is actually 17205
+
+Jeffrey#1234 - Bug Bot on 2019-09-07T14:22:08.546Z
+
+
+### Can reproduce.
+iPhone XS (iOS 13 PB 5), TestFlight Build 3.1.2 (17205)
+
+kiosion#2020 - Bug Bot on 2019-09-07T16:03:13.916Z
+
+
+### Can reproduce.
+iPhone 7, iOS 13.1 (Developer Beta 2), TestFlight Build 3.1.2 (17205)
+
+username#6666 - Bug Bot on 2019-09-08T03:15:22.511Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-09-20T19:00:15.388Z
+
+
+### Moved from Backlog to Voice call refresh by Pascal on 2019-09-20T20:58:54.811Z
+
+List
+====
+Voice call refresh
+
+Members
+=======
+None

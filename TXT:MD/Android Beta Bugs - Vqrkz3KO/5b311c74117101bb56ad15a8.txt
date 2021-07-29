@@ -1,0 +1,71 @@
+[Archived] New invite is created as soon as you change the target channel in invite settings (https://trello.com/c/UrNJh3B6)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2018-06-25T16:46:44.788Z
+Latest Update: 2018-08-22T01:23:05.774Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Create instant invite screen 
+- Tap the settings icon 
+- Select a different channel in the dropdown menu 
+- Select a different channel in the dropdown menu 
+- Select a different channel in the dropdown menu 
+- Select a different channel in the dr... ok I stop 
+- Now go in Server Settings and look at the invite list to notice the results
+
+####Expected result:
+Changing channel should not create a new invite until "Generate link" button is pressed
+####Actual result:
+It immediately creates a new invite as soon as you change the target channel in the dropdown menu, which creates unnecessary invites and you can easily get ratelimited
+####Client settings:
+Discord Alpha 6.9.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14791
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-25T16:46:44.788Z
+
+
+### Can reproduce.
+Can Reproduce -- Xioami Mi A1, Android 8.0.0 -- Discord Alpha 6.9.9
+
+Ori#1908 - Bug Bot on 2018-06-25T16:46:52.305Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.9.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-25T16:46:57.260Z
+
+
+### Can reproduce.
+CR, Samsung A3 2017, Android 8.0 , Android Alpha 699
+
+duncte123#1245 - Bug Bot on 2018-06-25T16:47:02.311Z
+
+
+### verified, android 7.0, samsung s6 edge, 6.9.9 - Clayton on 2018-06-25T21:11:12.585Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-25T21:11:19.603Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b311c74117101bb56ad15a8/d00604fab5e31f314b9182f362fe5df3/em1uIUJ.gif added by Bug Bot on 2018-07-15T13:54:18.789Z
+
+
+### Archived by Clayton on 2018-08-22T01:23:05.776Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

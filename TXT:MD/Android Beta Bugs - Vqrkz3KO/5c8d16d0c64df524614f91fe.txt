@@ -1,0 +1,111 @@
+[Archived] Languages that follow a DD MM YYYY date format don't display the expiry date of Nitro correctly. Not a translation issue because it displays fine on Desktop. (https://trello.com/c/ocwSp7iL)
+
+None
+
+Created: 2019-03-16T15:31:28.369Z
+Latest Update: 2019-06-05T23:46:21.874Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have an ongoing Nitro subscription that you haven't cancelled. Make sure that you don't have any payment method configured to renew your Nitro automatically (otherwise a different string will be shown) 
+- Switch to a language that uses the date format DD MM YYYY. Example: French 
+- Go to Settings > Nitro and observe expiry date of Nitro
+
+####Expected result:
+It should use the correct format, in my case `26 mars 2019`
+####Actual result:
+It uses the incorrect format, in my case `mars 26 2019`. This bug does not exist on Desktop.
+####Client settings:
+Discord Alpha 8.5.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+31132
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-16T15:31:28.369Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5c8d16d0c64df524614f91fe/0a680cc552810aa5d54b5dd52c37967f/IMG_20190316_152907.jpg added by Bug Bot on 2019-03-16T15:31:31.123Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 859
+
+charleskimbac#6492 - Bug Bot on 2019-03-16T15:31:35.765Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 8.5.9
+
+Skyla#0002 - Bug Bot on 2019-03-16T15:31:40.832Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Ace 3, Android 8.0.0, Discord Alpha 8.5.9
+
+Lelantos#4866 - Bug Bot on 2019-03-16T15:31:45.788Z
+
+
+### Can reproduce.
+Could reproduce, Samsung Galaxy S8, Android 8, Alpha 8.5.9
+
+Action Potential#2494 - Bug Bot on 2019-03-16T16:28:18.009Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0, Discord Alpha 8.5.9
+
+TheFutureKnight#7664 - Bug Bot on 2019-03-17T11:43:12.086Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.5.9
+
+nellurk#0510 - Bug Bot on 2019-03-18T12:48:54.970Z
+
+
+### Moved from User Reported Bugs to Nitro Purchase Bugs by Jeff Cailteux on 2019-03-18T15:50:49.176Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 859
+
+The Lunala#6877 - Bug Bot on 2019-03-18T16:52:02.320Z
+
+
+### Moved from Nitro Purchase Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-03-18T21:29:49.676Z
+
+
+### Can reproduce.
+Can still repro on 8.6.0. Discord Alpha 8.6.0, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2019-03-19T00:28:46.781Z
+
+
+### Can reproduce.
+Can still reproduce; Redmi Note 4, Android v7, Discord Alpha 8.6.0
+
+Skyla#0002 - Bug Bot on 2019-03-19T05:46:41.717Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Android 8, Alpha 8.6.0
+
+Action Potential#2494 - Bug Bot on 2019-03-19T14:36:39.279Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2019-03-19T14:36:39.533Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:21.885Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

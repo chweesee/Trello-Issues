@@ -1,0 +1,91 @@
+Discord crashing when clicking on exclimation point for new users (https://trello.com/c/Ea1BPxLC)
+
+None
+
+Created: 2019-11-13T17:34:19.790Z
+Latest Update: 2020-07-16T21:26:05.622Z
+
+Reported by Grun#1524
+
+####Steps to reproduce:
+- Create a new discord account
+- Create a blank guild with your existing account
+- Create a test channel with your existing account
+- Invite your new discord account
+- when the circle exclamation point comes up next to the channel click it
+
+####Expected result:
+A pop up message should appear not crash
+####Actual result:
+Discord Crashes
+####Client settings:
+Release Channel: stable, Build Number: 49400, Version Hash: 569b4c34e1a667ad2d673a2f087e60b1fddf0f6a
+####System settings:
+Windows 10
+
+47931
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-13T17:34:19.790Z
+
+
+### OminousCry#2331 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dcc3e9b494bc25d5930360c/05a6ba5a2b7c0a8c9c22c60342159211/Tj8Wq9M.png added by Bug Bot on 2019-11-13T17:34:22.819Z
+
+
+### Can reproduce.
+CR ::: Web Client (Chrome 78.0.3904.97 x64 ) Discord Stable 49400 ::: Win10 Home SL 1904 ::: Clicking on float indicator along the channel name crashes and ask for a reload
+
+Kratøs#0001 - Bug Bot on 2019-11-13T17:34:27.338Z
+
+
+### Can reproduce.
+Can reproduce: Web client, [BUILD INFO] Release Channel: stable, Build Number: 49400, Win 10 x64 (But simply clicking on a ! crashes the client)
+
+Nedran#4100 - Bug Bot on 2019-11-13T17:34:32.326Z
+
+
+### Can reproduce.
+Don't even need to create a guild or anything. Simply clicking the "!" just crashes me.
+
+Jiralite#1207 - Bug Bot on 2019-11-13T17:34:37.330Z
+
+
+### My details are: MacBook Pro: macOS Catalina 10.15.1; Discord Canary 49400 (forgot)
+
+Jiralite#1207 - Bug Bot on 2019-11-13T17:34:45.865Z
+
+
+### OminousCry#2331 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dcc3e9b494bc25d5930360c/c9aac12dfa76465be0b2ed6207635fb5/YUjkk8K.gif added by Bug Bot on 2019-11-13T17:34:52.609Z
+
+
+### Can reproduce.
+CR, macOS 10.13.6, Canary 49400 - Just hovering the "!" crashes me
+
+leaf#0001 - Bug Bot on 2019-11-13T19:45:34.824Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 49420 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-13T21:36:33.659Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 49451
+
+RPS1222#5127 - Bug Bot on 2019-11-13T23:23:40.741Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64: 1903, Canary 49492, Tested on Chrome 78
+
+Sanjay#0540 - Bug Bot on 2019-11-14T01:39:56.792Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Chrome 72-specific] Missing bottom padding for Rich Presence assets. (https://trello.com/c/Nfhmltmc)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-04-16T08:15:40.803Z
+Latest Update: 2019-08-06T22:15:40.792Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Go to the Developer Portal. 
+- Create or open an application. 
+- Go to Rich Presence > Assets. 
+- Upload an image, save changes.
+
+####Expected result:
+There should be a bottom padding.
+####Actual result:
+There is no bottom padding, save changes overlaps the asset.
+####Client settings:
+Chrome 72.0.3626.122 (x64)
+####System settings:
+HP Chromebook G5 11 ~ Chrome 72.0.3626.122 (x64)
+
+32739
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-16T08:15:40.803Z
+
+
+### Can reproduce.
+Dell Chromebook 11 • Chrome 72.0.3626.122 (64x) • Web Canary 35116
+
+||warp||#4660 - Bug Bot on 2019-04-16T08:15:48.139Z
+
+
+### Can reproduce.
+CR. Also reproducible on Safari. macOS Mojave 10.14, Safari 12.0
+
+Rage#9991 - Bug Bot on 2019-04-16T08:15:53.102Z
+
+
+### Can reproduce.
+CR. OSX 10.14, Chrome 72.0.3626.121
+
+Wumpus#0001 - Bug Bot on 2019-04-16T08:15:58.096Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cb58f2caf287b260c9497f9/c680418a8b0636292524ca09f2d89e43/buS2fFT.gif added by Bug Bot on 2019-04-16T08:16:11.928Z
+
+
+### Can reproduce.
+Windows 10 Home (x64) - Canary (35644)
+
+gianna#0248 - Bug Bot on 2019-04-16T10:39:02.442Z
+
+
+### Can reproduce.
+macos 10.14.5, safari 12.1 and chrome 72
+
+Pain#2020 - Bug Bot on 2019-04-17T04:43:44.361Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Pascal on 2019-06-15T17:57:24.000Z
+
+
+### Can Not Reproduce » Windows 10 Pro x64, Chrome Version 75.0.3770.142 (64-bit) - Aeria on 2019-08-06T22:15:34.399Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Aeria on 2019-08-06T22:15:40.770Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,94 @@
+[Archived] Setting a notification for a channel then muting it will not change the notification settings (https://trello.com/c/GTbw0ScL)
+
+P2: Fix can wait a while
+
+Created: 2017-09-03T22:58:35.395Z
+Latest Update: 2018-07-06T17:44:16.030Z
+
+Reported by Matthew#2334
+
+####Steps to reproduce:
+- Click on the server name 
+- Click notification settings 
+- Go to notification overrides and  select a channel 
+- Turn the notification to "mentions only" or something, as long as it's not "mute" 
+- exit out of notification settings then right click on the channel you just selected 
+- click mute 
+- click on the channel name and go back to notification settings
+
+####Expected result:
+when you scroll down to the channel name, you should see the channel name and then 'mute' since it's the most recent setting you applied.
+####Actual result:
+you see **both** mute and what you selected earlier. e.g mute and all or mute and mentions only
+####Client settings:
+Canary 0.0.163
+####System settings:
+Windows 10 x64
+
+3906
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-03T22:58:35.395Z
+
+
+### Matthew#2334 - https://cdn.discordapp.com/attachments/343709411644276736/353991228234399744/unknown.png added by Bug Bot on 2017-09-03T22:58:38.011Z
+
+
+### Can reproduce.
+CR, Canary 0.0.163, Dell Inspiron 15 3000 Series, running Windows 10 Home Creators Update x64
+
+Hexexpeck#8781 - Bug Bot on 2017-09-03T22:58:47.976Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-09-03T22:58:48.078Z
+
+
+### Can reproduce.
+CR, iMac Retina late 2015, Mac OS X 10.12.5, Canary 0.0.154
+
+tri'ngle#9036 - Bug Bot on 2017-09-03T22:58:53.011Z
+
+
+### Can reproduce.
+Windows 10, Discord Canary (Latest Version)
+
+Zacatero#5839 - Bug Bot on 2017-09-04T06:44:52.592Z
+
+
+### Verified.  - Clayton on 2017-09-04T23:38:27.749Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-04T23:41:03.934Z
+
+
+### @amadeus90 I think this is fixed? - Stanislav Vishnevskiy on 2017-10-09T23:18:52.500Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:41:14.106Z
+
+
+### @jared627 did you verify if this is sitll a bug? - Stanislav Vishnevskiy on 2017-11-27T02:55:47.980Z
+
+
+### I tested, this is working as intended however I believe the ticket is from an older design. - Stanislav Vishnevskiy on 2017-11-27T03:34:42.245Z
+
+
+### Moved from Next up for investigation to Verified Fixed by Stanislav Vishnevskiy on 2017-11-27T03:34:52.292Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-30T08:30:07.324Z
+
+
+### Archived by Alexandru Todea on 2017-12-30T08:30:11.209Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/svishnevskiy) - No Bio

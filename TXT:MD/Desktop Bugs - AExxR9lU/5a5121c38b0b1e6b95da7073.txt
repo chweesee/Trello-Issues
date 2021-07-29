@@ -1,0 +1,78 @@
+[Archived] When we restart Windows Explorer, the red and white dot on the Canary logo dissapear. (https://trello.com/c/1uBtXykh)
+
+None
+
+Created: 2018-01-06T19:21:39.385Z
+Latest Update: 2018-03-05T21:16:33.234Z
+
+Reported by fujhofn.#0878
+
+####Steps to reproduce:
+- Re-open Canary. 
+- Open TaskManager. 
+- Right-click on Windows Explorer. 
+- Click on restart.
+
+####Expected result:
+The white and red bubble stay on the Canary logo.
+####Actual result:
+The white and red bubble dissapear on the Canary logo.
+####Client settings:
+canary, Build Number: 9280
+####System settings:
+Win10 x64
+
+7666
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-06T19:21:39.385Z
+
+
+### fujhofn.#0878 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a5121c38b0b1e6b95da7073/5f4f3c3b4a6a026c7ec26825b9d02654/unknown.png added by Bug Bot on 2018-01-06T19:21:41.876Z
+
+
+### Skull King#6437 - https://cdn.discordapp.com/attachments/393872334538276864/399271004444164116/unknown.png added by Bug Bot on 2018-01-06T19:21:42.163Z
+
+
+### Can reproduce.
+CR Windows 10 Home Insider Preview x64 Canary 9280
+
+Skull King#6437 - Bug Bot on 2018-01-06T19:21:46.787Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 9280
+
+mrkirby153#7840 - Bug Bot on 2018-01-06T19:21:51.932Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.194 and Windows 10 Fall Creator's Update.
+
+joaoh1#0567 - Bug Bot on 2018-01-06T19:21:56.783Z
+
+
+### Not convinced that this is actually a bug. And even if it is, I'm saying that it's too minor to ever bother fixing. - Jared on 2018-01-08T22:17:17.793Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2018-01-08T22:17:22.603Z
+
+
+### Archived due to being inactive for a month without any further activity and is marked as Won't fix.
+
+ - Tarek on 2018-02-22T20:03:14.328Z
+
+
+### Archived by Tarek on 2018-02-22T20:03:15.356Z
+
+
+### This is different from https://trello.com/c/ragR27sR/1704-unread-message-badge-disappears-after-minimizing-discord-to-tray due to killing the task manager. In order to change the behavior we'd need to know the process was killed by the OS, which isn't something that an API is provided. - Jared on 2018-03-05T21:16:33.235Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

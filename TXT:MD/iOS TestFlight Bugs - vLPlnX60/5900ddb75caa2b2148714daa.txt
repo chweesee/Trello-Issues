@@ -1,0 +1,119 @@
+[Archived] Discord app hangs when attempting to join a server through an invite link when using search. (https://trello.com/c/XRZpUQFR)
+
+P2 - Can wait a while,
+high
+
+Created: 2017-04-26T17:49:43.849Z
+Latest Update: 2019-07-22T18:30:30.728Z
+
+Reported by Jake#3641
+
+####Steps to reproduce: 
+- Write a message containing an invite link. 
+- Go to search and look for that message. 
+- Press the message containing the invite link. 
+- Press the link and attempt to join the server. 
+
+####Expected result:
+ The app should join/switch to that server's channel. 
+####Actual result:
+ The app gets stuck on the search function with the keyboard and hangs until you restart the application.  
+####System settings:
+ iOS 10.3.1, Latest Discord testflight.
+
+1226
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-26T17:49:43.849Z
+
+
+### Can reproduce.
+iPhone 6 Plus, iOS 10.3.1, Discord Stable Latest
+
+Wolfstorm#0986 - Bug Bot on 2017-04-26T17:49:44.505Z
+
+
+### Can reproduce.
+iPhone 7 iOS 10.3.1
+
+MattBSG#9263 - Bug Bot on 2017-04-26T17:49:46.474Z
+
+
+### Can reproduce.
+iPhone SE, 10.2
+
+nullpixel#0012 - Bug Bot on 2017-04-26T17:49:48.536Z
+
+
+### http://m.imgur.com/egNdarK?r - http://m.imgur.com/egNdarK?r added by Bug Bot on 2017-04-26T17:50:00.559Z
+
+
+### o85zUBwS - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5900ddb75caa2b2148714daa/c2149a2cafb0778f1465e9d5f8c28a9e/o85zUBwS added by Bug Bot on 2017-04-26T17:50:00.977Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-05-02T21:51:13.452Z
+
+
+### Verified. You can do this with any link, even if you're already in the server. - Jared on 2017-05-02T21:51:31.993Z
+
+
+### Moved from Verified Bugs to Next up for Investigation by Jared on 2017-12-05T19:03:56.112Z
+
+
+### Verified this issue still occurs except instead of hanging it's now a hard crash. - Jared on 2018-01-08T17:12:46.631Z
+
+
+### This doesn't appear to be hard crashing or hanging anymore, but it does bring us back to search -- when search is dismissed, we will be in the other guild. - Andy Garron on 2018-01-24T23:38:34.151Z
+
+
+### Can reproduce.
+unfortunately as of TestFlight 2.2.6 (3373) I can now reproduce this. iPod Touch 6th generation, iOS 11.2.6, TestFlight 2.2.6 (3373)
+
+☘nickWtn☘#3789 - Bug Bot on 2018-03-21T23:38:50.886Z
+
+
+### CNR as of iOS TestFlight 3.0.3 (15702) on iPhone XS Max running iOS 12.4 Dev Beta 3.
+
+I am moving this to Claimed Fixed. - Ghoul on 2019-06-12T20:51:03.108Z
+
+
+### Moved from Next up for Investigation to Claimed Fixed Bugs by Ghoul on 2019-06-12T20:51:08.443Z
+
+
+### Can't reproduce.
+can no longer reproduce, iPhone XR, iOS 12.1, TestFlight 3.0.3 (15685)
+
+💐nickWtn💐#3789 - Bug Bot on 2019-06-12T20:58:46.594Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 (dev beta 4) - TestFlight 3.0.3 (15685)
+
+Xylium#5800 - Bug Bot on 2019-06-12T20:59:09.358Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.4 (dev beta 4) - TestFlight 3.0.3 (15702)
+
+Xylium#5800 - Bug Bot on 2019-06-12T21:05:14.531Z
+
+
+### Can't reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.3 (15702)
+
+binchlord#0998 - Bug Bot on 2019-06-12T21:38:07.599Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-06-12T21:38:07.872Z
+
+
+### Archived by Bug Bot on 2019-07-22T18:30:30.749Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/mrkcsc) - No Bio

@@ -1,0 +1,89 @@
+[Archived] When moved to a hidden voice channel, you don't see the new channel in your channel list, old VC still highlighted (https://trello.com/c/59fmEQMJ)
+
+None
+
+Created: 2017-09-10T17:02:10.417Z
+Latest Update: 2018-07-06T21:27:36.756Z
+
+Reported by Joni#8542
+
+####Steps to reproduce:
+- Join voice chat 
+- Get moved to a voice channel where you have View Channel permission denied
+
+####Expected result:
+You should see the hidden voice channel in channel list while you are in it (works on Canary). Your old voice channel should not be highlighted in the list as you're no longer in there.
+####Actual result:
+You don't see the hidden voice channel in channel list, you can see you're connected to voice but you are not shown in any voice channel in channel list as the hidden channel is not shown. Old voice chanenl is still highlighted.
+####Client settings:
+Android Alpha 5.1.4
+####System settings:
+OnePlus 5, OxygenOS 4.5.10, Android 7.1.1
+
+4127
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-10T17:02:10.417Z
+
+
+### Curse Broken#8659 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59b57012f4b27700017f37f7/2b9c278bf9ebb5a899ab1cb161338bd3/hiddenchannel.PNG added by Bug Bot on 2017-09-10T17:02:13.084Z
+
+
+### Can reproduce.
+Google Pixel XL, Android 8.0.0, Discord 5.1.4
+
+Chrees#4389 - Bug Bot on 2017-09-10T17:02:17.993Z
+
+
+### Can reproduce.
+CR, Android Alpha 5.1.4 Android Marshmallow 6.0,Huawei P8 Lite (2015)
+
+RisedSky#1250 - Bug Bot on 2017-09-10T17:02:22.991Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 (SM-G950F), Android Nougat 7.0, Discord Alpha 5.1.4 (514)
+
+Curse Broken#8659 - Bug Bot on 2017-09-10T17:02:27.958Z
+
+
+### RisedSky#1250 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59b57012f4b27700017f37f7/ac290f0b150b2df1fed06c28c52fbe98/euiSqB4.png added by Bug Bot on 2017-09-10T17:05:17.165Z
+
+
+### RisedSky#1250 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59b57012f4b27700017f37f7/4fd2a0634b62183c5be617d0387261ca/unknown.png added by Bug Bot on 2017-09-10T17:06:21.898Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Jeff Cailteux on 2017-09-11T17:51:34.079Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jeff Cailteux on 2017-09-15T16:38:36.640Z
+
+
+### I can still reproduce this. Calling this Fix Failed, moving back to Channel Category Bugs - Jared on 2017-10-02T17:51:20.498Z
+
+
+### Moved from Claimed Fixed, needs Verification to Channel Category Bugs by Jared on 2017-10-02T17:51:28.218Z
+
+
+### Moved from Channel Category Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2017-10-26T16:39:36.134Z
+
+
+### Can't reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.2
+
+mrkirby153#7840 - Bug Bot on 2018-01-26T23:30:59.966Z
+
+
+### Closing out this ticket as it's been in a resolved state for 30 or more days with no additional reproductions or new steps. - Jared on 2018-07-06T21:27:35.496Z
+
+
+### Archived by Jared on 2018-07-06T21:27:36.758Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

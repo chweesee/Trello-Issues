@@ -1,0 +1,106 @@
+[Archived] overlay text doesn't have a space after it, so updates break. (https://trello.com/c/gBNGDH8K)
+
+P2: Fix can wait a while
+
+Created: 2017-05-15T12:34:55.022Z
+Latest Update: 2019-04-22T07:47:34.277Z
+
+Reported by thecakeisalie25#0517
+
+####Steps to reproduce: 
+- Keep the overlay off for a while 
+- Turn on the overlay on 
+- Watch the text above 
+
+####Expected result:
+ "Enable overlay Updating 40% 
+####Actual result:
+ Enable Overlayupdating 40% 
+####System settings:
+ Win 10 x64, discord canary
+
+1561
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-15T12:34:55.022Z
+
+
+### Can reproduce.
+Can reproduce win10 latest canary
+
+Mippy#1483 - Bug Bot on 2017-05-15T12:34:55.858Z
+
+
+### Can reproduce.
+Can Repro, Windows 10 CU, Discord Canary 0.0.154
+
+Wolfstorm#0986 - Bug Bot on 2017-05-15T12:34:57.865Z
+
+
+### Can reproduce.
+Win 10 x64, Discord Canary
+
+Gemma#5566 - Bug Bot on 2017-05-15T12:34:59.873Z
+
+
+### http://prntscr.com/f7749b - http://prntscr.com/f7749b added by Bug Bot on 2017-05-15T12:35:10.753Z
+
+
+### Verified.  - Clayton on 2017-05-19T02:56:43.141Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-19T02:56:49.969Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T12:09:58.122Z
+
+
+### Can reproduce.
+CR, Windows 10 32-bits (Build 1703), Discord Canary (Build 4070)
+
+Doodleguy#0441 - Bug Bot on 2017-09-11T18:19:49.257Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:41:10.136Z
+
+
+### Moved from Next up for investigation to Fix made, not yet released by Shadi Isber on 2017-11-07T03:15:29.535Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Shadi Isber on 2017-11-11T02:17:02.486Z
+
+
+### Checked on canary build 7256:
+
+I can still reproduce this myself, the line is actually "Enable OverlayUpdating (%)" for me and doesn't do anything at all.
+
+Not sure if that's an issue just for me or if it's more widespread. - Alexander (DJScias) on 2017-11-13T13:31:56.364Z
+
+
+### The overlay is now also unable to be updated. Just stands at "ENABLE OVERLAYUPDATING (%)" and the overlay is never actually updated
+
+brxxn#0632 - Bug Bot on 2017-12-15T20:44:51.827Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:47:45.923Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:47:49.370Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:47:51.212Z
+
+
+### Archived by Tarek on 2018-02-22T19:47:52.466Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

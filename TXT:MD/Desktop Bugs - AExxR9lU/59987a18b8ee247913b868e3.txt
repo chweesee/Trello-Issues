@@ -1,0 +1,113 @@
+[Archived] Welcome messages not escaping backslashes (https://trello.com/c/BilS08BM)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-19T17:49:12.540Z
+Latest Update: 2018-03-14T13:44:35.434Z
+
+Reported by Evie.Codes#4611
+
+####Steps to reproduce:
+- Turn on "welcome messages" option in the server settings 
+- Uhhhhhh wait for someone to join with the following message: `It's {username}! Praise the sun! [T]/`
+
+####Expected result:
+`It's {username}! Praise the sun! \[T]/`
+####Actual result:
+It's {username}! Praise the sun! [T]/
+####Client settings:
+Canary 0.0.163
+####System settings:
+Windows 10 Creator Edition
+
+3392
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-19T17:49:12.540Z
+
+
+### Evie.Codes#4611 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59987a18b8ee247913b868e3/30406469eca92cb06b74b31b97add803/qZ20E48.png added by Bug Bot on 2017-08-19T17:49:15.299Z
+
+
+### Xander#0259 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59987a18b8ee247913b868e3/2af4ec0c700abdca1590ea72601eabc3/Screenshot_20170819-004151.jpg added by Bug Bot on 2017-08-19T17:49:15.390Z
+
+
+### Can reproduce.
+This also happens on Android. Samsung Galaxy S6, 7.0, 4.0.7
+
+Xander#0259 - Bug Bot on 2017-08-19T17:49:20.112Z
+
+
+### Can reproduce.
+CR - Windows 10 Pro 64-bit - Discord Canary 0.0.163 - Needs to have an additional backslash at the start to escape the one next to it.
+
+Starsky#7861 - Bug Bot on 2017-08-19T17:49:25.094Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 0.0.163
+
+Neerwan#9498 - Bug Bot on 2017-08-19T17:49:30.063Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T20:43:55.675Z
+
+
+### This isn't a P2. - Jared on 2017-10-17T00:31:57.306Z
+
+
+### Fixed in 9258, though. It might still show up broken on other languages due to it not being translated and approved. Moving to claimed fixed - Tarek on 2018-01-05T00:49:48.794Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-05T00:49:53.697Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-27T01:44:13.047Z
+
+
+### Can't reproduce.
+Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 9959
+
+Ghoul#0009 - Bug Bot on 2018-01-27T01:55:11.299Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T01:56:56.796Z
+
+
+### Can't reproduce.
+Win 7 SP1 Canary 9945
+
+omega12#8421 - Bug Bot on 2018-01-27T01:59:11.897Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (10011), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:50:06.490Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:59:18.462Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-27T07:59:22.514Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:44:34.643Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:44:35.437Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

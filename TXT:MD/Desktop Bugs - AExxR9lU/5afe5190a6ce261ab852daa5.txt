@@ -1,0 +1,69 @@
+[Archived] If a bot is multi-sharded and is online, but has some of its shards disconnected, it will appear in the Offline section of lazy guilds unserved by the bot, even though it still has an Online status in profile (https://trello.com/c/EAdhZQ5P)
+
+None
+
+Created: 2018-05-18T04:07:44.480Z
+Latest Update: 2018-07-06T17:48:11.042Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a bot that is multi-sharded and that is only connected to a few shards, not all of them 
+- Be sharing at least 2 servers with the bot: a server A where the bot is fully connected, and a server B where the bot is unresponsive because of a disconnected shard and that is a lazy guild 
+- Look at the member list of server B
+
+####Expected result:
+The member list should always reflect the presence of the bot shown in profile, as it did in non-lazy guilds. Showing whether or not the bot has a shard connected to the guild would be a missing feature/feedback
+####Actual result:
+The bot appears in the Offline section in member list of lazy guilds, even if the client knows that the bot is Online by picking the bot's presence in other mutual servers/DMs
+####Client settings:
+Discord Canary 15123
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+12665
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-18T04:07:44.480Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home x64 (b 16299), DIscord Canary 15301. The bot appears offline in the lazy guilds while still online in other guilds
+
+1Storm#0001 - Bug Bot on 2018-05-18T04:07:51.795Z
+
+
+### Can reproduce.
+Discord Canary 0.0.209, Build 15434, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-05-18T04:07:56.831Z
+
+
+### Can reproduce.
+Discord Canary 0.0.209 (15523) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-05-18T04:08:01.862Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5afe5190a6ce261ab852daa5/d13d85bcc42eacd743166461e25f6b47/image.png added by Jared on 2018-05-31T20:15:48.573Z
+
+
+### Verified with jake that this use case is currently unsupported, moving to Won't Fix. - Jared on 2018-05-31T20:16:06.413Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2018-05-31T20:16:13.718Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:47:59.368Z
+
+
+### Archived by Jared on 2018-07-06T17:48:11.045Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

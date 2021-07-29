@@ -1,0 +1,136 @@
+[Archived] Scrolling server list via keyboard shortcuts doesn't fully scroll server list (https://trello.com/c/pTfWwvWB)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-02-19T13:50:14.382Z
+Latest Update: 2019-10-23T23:02:03.237Z
+
+Reported by Oasis#4730
+
+####Steps to reproduce:
+- Click on the last server in your server list 
+- Press control + alt + down arrow key 
+- Additionally, if you press the key combo again, it takes you to the first server on your server list, but it cuts off the friends icon at the top of the server list
+
+####Expected result:
+Server list scrolls like normal
+####Actual result:
+Discord changes to friends/activities/games/etc page, but server list stays the same.
+####Client settings:
+Canary 32407
+####System settings:
+Windows 10, 1803
+
+29191
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-19T13:50:14.382Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 32407 ~ Fails to scroll back up to the Friends icon when you reach the bottom of the server list. If you go up, it scrolls down, and then back up to first servers.
+
+Alipoodle#5025 - Bug Bot on 2019-02-19T13:50:21.671Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32407
+
+Daffyduck#5364 - Bug Bot on 2019-02-19T13:50:26.777Z
+
+
+### Can reproduce.
+W10 Pro x64 - Canary 32407, Chrome 72.0.3626.109
+
+dafaqed#1312 - Bug Bot on 2019-02-19T13:50:31.721Z
+
+
+### Can reproduce.
+Can reproduce. Doesn't appear to scroll at all for me with a larger number of servers. Windows 10 Home x64 (1809), Canary 32407
+
+Solo#0007 - Bug Bot on 2019-02-19T13:59:17.011Z
+
+
+### Can reproduce.
+MacBookPro 13" (2017) Mojave 10.14.3, Canary 32063
+
+Mano#4566 - Bug Bot on 2019-02-19T14:42:25.869Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 - Chrome 72.0.3626.97 (x64) - Web Canary 32407
+
+Casper#9999 - Bug Bot on 2019-02-19T15:21:52.491Z
+
+
+### Can reproduce.
+Windows 10 Pro, Build 17134, canary, Build Number: 32407
+
+Inno#7606 - Bug Bot on 2019-02-19T16:23:47.366Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), canary 32407`
+
+Defracted#1337 - Bug Bot on 2019-02-19T16:28:18.242Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 32407
+
+Killtracity#0001 - Bug Bot on 2019-02-19T17:00:44.767Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 canary, Build Number: 32407
+
+Spooker#0001 - Bug Bot on 2019-02-19T17:36:45.420Z
+
+
+### Can't reproduce.
+This causes my screen to flip
+
+Kiwi Cat#4226 - Bug Bot on 2019-02-19T21:57:55.297Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Canary 32407
+
+average idiot on the internet#0274 - Bug Bot on 2019-02-19T23:07:37.958Z
+
+
+### Can reproduce.
+CR; Canary: 32407, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-20T05:15:16.786Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 32470
+
+Darth#9386 - Bug Bot on 2019-02-20T12:21:23.089Z
+
+
+### verified, macos 10.12.6, canary 32470 - Clayton on 2019-02-21T01:13:06.241Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-21T01:13:11.993Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home x64 (1809), Canary 33633
+
+TheForbiddenAi#7549 - Bug Bot on 2019-03-09T04:29:07.735Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:03.248Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

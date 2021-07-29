@@ -1,0 +1,84 @@
+[Archived] When a message fails to send because it's invalid (e.g above 2k characters), it still suggests you to resend it, though it will obviously never work (https://trello.com/c/pBakH4iD)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-11T12:15:51.342Z
+Latest Update: 2019-06-10T20:43:49.872Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Write a message over 2k chars 
+- Send it
+
+####Expected result:
+Of course it will fail to send, but it shouldn't ask you if you want to retry, because no matter how many times you retry, the message will always fail to send since it's invalid and you can't even edit it. A simple fix would be either to hide option to retry, or add an option to edit message before retrying (Edit Message is already a feature, so I don't think it's a feature request, would simply consist of enabling the Edit option on the failed message's action sheet)
+####Actual result:
+The message fails as intended, but you can retry infinite times, the only real thing you can do is delete the message
+####Client settings:
+Discord Alpha 6.8.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14052
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-11T12:15:51.342Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.8.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-11T12:15:59.177Z
+
+
+### Can reproduce.
+[Can Reproduce] Huawei Honor 8 Lite, Android 7.0 w/ Discord Alpha 6.8.9
+
+Smanbg#9524 - Bug Bot on 2018-06-11T12:16:04.176Z
+
+
+### Can reproduce.
+CR. Alcatel 3C, 7.0.0 Discord Alpha 6.8.9
+
+StefanFX#5684 - Bug Bot on 2018-06-11T12:16:09.171Z
+
+
+### Can reproduce.
+Samsung Galaxy S8, Android 8.0.0, Discord Application
+
+Thundy#2018 - Bug Bot on 2018-06-11T17:02:49.271Z
+
+
+### verified, one plus 6, android 8.0, 6.8.9 - Clayton on 2018-06-11T21:13:28.090Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-11T21:13:34.782Z
+
+
+### The Lunala#7777 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b1e67f770dd15bb9051f466/68d99e16aae5e4f55da52750525ee3e6/Screenshot_2018-07-14-19-40-38.png added by Bug Bot on 2018-07-14T14:12:48.991Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:48.176Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 848
+
+The Lunala#7777 - Bug Bot on 2019-02-18T15:37:00.133Z
+
+
+### Unarchived by Bug Bot on 2019-02-18T16:00:06.699Z
+
+
+### Archived by Bug Bot on 2019-06-10T20:43:49.886Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

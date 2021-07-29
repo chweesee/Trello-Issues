@@ -1,0 +1,242 @@
+[Master Ticket] Long Text Bugs (https://trello.com/c/ciO8co9I)
+
+None
+
+Created: 2019-04-30T20:46:03.778Z
+Latest Update: 2020-07-03T19:54:29.461Z
+
+This Master Ticket is for areas in the client where long strings of text don't properly wrap/truncate.
+
+Please include the location and a description of your issue when leaving a canrepro, along with your System and Client Settings.
+
+Card Log
+========
+### Added by Clayton on 2019-04-30T20:46:03.778Z
+
+
+### Can reproduce.
+Uploading an emoji with a very long name breaks the text box
+
+Darth#9386 - Bug Bot on 2019-05-19T01:32:54.416Z
+
+
+### The below CR is a dupe of https://trello.com/c/sHvjDy3N
+
+webhp#1337 - Bug Bot on 2019-05-19T01:42:30.962Z
+
+
+### Can reproduce.
+In the follow menu for news channels, when having a very long category name, the category name clips into the channel name, as shown in the screenshot. https://cdn.discordapp.com/attachments/420995378582913030/581568331145019413/unknown.png - Windows 10 Pro Insider Preview x64 1903; Discord Canary Build 38474
+
+Costpap#7667 - Bug Bot on 2019-05-24T20:09:02.818Z
+
+
+### Can reproduce.
+Server picture gets squished in the 'Follow' popup(in news channels) when the server's name is long - https://prnt.sc/nt0f4z
+
+charleskimbac#6492 - Bug Bot on 2019-05-24T22:03:36.976Z
+
+
+### Can reproduce.
+Long server names create a horizontal scrollbar and the full name isn't highlighted in the 'Follow' popup(in news channels) - http://prntscr.com/nt0g7z
+
+charleskimbac#6492 - Bug Bot on 2019-05-24T22:05:47.530Z
+
+
+### Can reproduce.
+https://i.imgur.com/Z5g7u1d.png (add osu! to your activity feed), Windows 10 version 1803, Discord Stable Build Number: 38594
+
+_JoeGaming#7411 - Bug Bot on 2019-05-29T09:00:56.415Z
+
+
+### Can reproduce.
+CR With some games with long text make the modal go to wide that it pushes the buttons of the side a little to much. This is noticable when playing games like Rainbow 6. https://puu.sh/DAaqr/c641c46473.png
+
+Alipoodle#5025 - Bug Bot on 2019-06-01T11:14:02.071Z
+
+
+### Can reproduce.
+Short description: Long link in ban reason overflows box
+Steps to reproduce: 
+- Ban someone and in the reason include a long link (like an attachment link) 
+- Go to Server Settings>Bans 
+- Click the banned user so you can see their ban reason
+Expected result: The link is cut onto multiple lines
+Actual result: The link overflows and the rest of it cannot be seen
+Client settings: Release Channel: stable, Build Number: 39387, Version Hash: 0da88997edbfbb9a7afaba0d74ac01b74c6f804e
+System settings: MacBook Air Early 2015 on macOS Mojave 10.14.2 / Google Chrome Version 73.0.3683.103
+
+Brightness™#2238 - Bug Bot on 2019-06-09T21:06:29.545Z
+
+
+### Can reproduce.
+Long titles on game info modals extend past the top of the viewing area.  |  MacBook Air - MacOS (10.12.6 Sierra), Canary 40354
+
+myacorn#6534 - Bug Bot on 2019-06-27T16:22:06.373Z
+
+
+### Can reproduce.
+Happens when making nitro window smaller only on SAFARI CLIENT FOR ME (Safari: 12.1.2) Canary 42647
+
+xTeal#7702 - Bug Bot on 2019-08-05T18:38:51.155Z
+
+
+### I forgot to leave my mac information here sorry (it is -m )
+
+xTeal#7702 - Bug Bot on 2019-08-05T18:40:07.847Z
+
+
+### My storeinfo didn't work (Early 2015 Macbook Pro Retina 13 inch //macOS Sierra 10.12.6)
+
+xTeal#7702 - Bug Bot on 2019-08-05T18:42:09.361Z
+
+
+### Can reproduce.
+iPhone SE
+
+Hue#0666 - Bug Bot on 2019-08-16T18:22:40.914Z
+
+
+### Can reproduce.
+minimum 24 character-usernames are cutoff in invites tab (server-settings) Canary, Build Number: 45792, System Settings: Windows 10 Vers 1903
+
+Phil#9284 - Bug Bot on 2019-09-17T18:05:09.282Z
+
+
+### Can reproduce.
+In recent mentions, search, and pinned messages, usernames & time stamps don't warp correctly. 
+Steps to Reproduce: 
+- Go into a server, and send a message with a short user name like 5 letters long 
+- Search from: [you] and observe 
+- Now put a longer name on that has 32 letters 
+- Search again from: [you] and observe how you can no longer see most of the time stamp 
+- Now for pinned messages, pin a message that has a 32 letter nickname/username 
+- Observe 
+- And lastly for mentions, have someone ping you that has 32 letters in their nickname/username 
+- Check recent mentions and observe 
+Expected Result: The timestamps should be wrapped around the text to prevent it from going out of view. 
+Actual Result: The time stamp does not wrap around the text, and goes out of view. 
+Client Settings: [BUILD INFO] Release Channel: canary, Build Number: 47630, Version Hash: 5bd1dd65c622e3a600cb0881f03b8b0a23357b08
+System Settings: Windows 10 Home, OS: Version 10.0.18362 Build 18362
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-20T06:12:43.372Z
+
+
+### Can reproduce.
+Windows 10 Pro (OS: 19005), 24-inch monitor, Steps to reproduce
+
+EK M. | Çağan#7659 - Bug Bot on 2019-10-25T22:30:40.612Z
+
+
+### Can reproduce.
+Client settings: Desktop Canary, 48030 System settings: Windows 10 Pro 1903 (UEFI)
+- Set an long custom status 
+- Go to your profile 
+- See the overflowing
+
+EK M. | Çağan#7659 - Bug Bot on 2019-10-25T22:31:36.610Z
+
+
+### Can reproduce.
+Windows 10
+
+Hornet#2019 - Bug Bot on 2019-10-25T22:46:17.162Z
+
+
+### Can reproduce.
+Discord Dispatch Error, under Unique Case ID. Client Settings: Discord Canary 48548, System Settings: Win10 Version 1903 (OS Build 18362.418)
+
+unreal#0001 - Bug Bot on 2019-11-04T00:00:06.664Z
+
+
+### Can reproduce.
+long server name overflows into selection dropdown for "following" announcement (https://i.imgur.com/LEY3VP5.png), stable 50474, Win10 v1709 x64 build 16299.665 Education, chrome dev 80.0.3955.4+
+
+hopeless#1227 - Bug Bot on 2019-11-29T06:12:45.532Z
+
+
+### Can reproduce.
+macOS 10.15.1 19B88 x86_64
+
+WKWKKWKWKWKWKWKKWKWKWKWKWKWKWK#1337 - Bug Bot on 2019-12-06T10:34:56.368Z
+
+
+### Can reproduce.
+"The username looks overflowed when looking through the members list pop-up - https://prnt.sc/q71oh0"
+
+WKWKKWKWKWKWKWKKWKWKWKWKWKWKWK#1337 - Bug Bot on 2019-12-06T10:40:09.655Z
+
+
+### Can reproduce.
+1) Create a new server and give it a name with 100 @'s 2) create a invite of that and send it in a channel 3) create a new message which is a letter at the beginning, a bunch of new lines and then a letter at the end 4) you will see that the @'s from the image will seep into the below message
+
+ب⸻Pokémon⸻Digimon⸻)Umbreonͬͬͬ)#3970 - Bug Bot on 2020-01-06T10:40:00.784Z
+
+
+### Can reproduce.
+If a server with default logo has a too long name, it will exceeds on the "Ready to Boost?" page.
+Steps to reproduce: 
+- Create a server 
+- Make the server name long so that the default logo text will also be very long. 
+- Go to "User Settings" 
+- Go to "Server Boost" 
+- Scroll down to "Ready to Boost?" 
+- If your server appears on the screen, you'll see the default logo text will exceeds the circle area.
+Expected result: The default logo text should not exceed the logo circle area.
+Actual result: The default logo text exceeds the circle area. (https://i.imgur.com/tTDTfC2.png)
+Client settings: Discord Canary 52502
+System settings: Windows 10 x64 Home (v1909)
+
+Alice_#0101 - Bug Bot on 2020-01-12T19:15:12.493Z
+
+
+### https://trello.com/c/ULm44PEd - Aeria on 2020-02-20T12:36:58.139Z
+
+
+### Can reproduce.
+Extra long names on activity section (friends page) starts to clip into the user's profile picture https://i.imgur.com/GG8yzdb.png
+stable 55549, Win10 v1709 x64 build 16299.1625 Education, chrome dev 82.0.4062.3
+
+hopeless#1227 - Bug Bot on 2020-03-06T01:58:20.889Z
+
+
+### Can reproduce.
+Short description: Sending an embed with more a big text in the footer causes the text to go out the embed
+Steps to reproduce: 
+- Send an embed with a footer text with a big amount of characters (I used 2048)
+
+- Observe
+Expected result: The footer text wraps around at the end of the embed
+Actual result: It goes out forever
+Client settings: Discord stable, Build Number: 58202
+System settings: Ubuntu 19.04 (I have also reproduced it with Windows 10)
+
+davfsa#7026 - Bug Bot on 2020-04-16T08:59:31.477Z
+
+
+### Can reproduce.
+CR, Canary Build Number: 58583, Windows 10 v1909
+Also, If Servername is long, servername covers [x] at Invite
+
+wonderlandpark#9999 - Bug Bot on 2020-04-22T01:05:51.761Z
+
+
+### Short description: When you have a very long server name, the welcome message on your first channel is broken.
+Steps to reproduce: 
+- Set your server name to something that is more than 61 characters. 
+- Navigate to your channel at the top and find the first message, as well as the "beginning of this server" screen. 
+- Observe.
+Expected result: Text should be wrapped.
+Actual result: Text is not wrapped, UI becomes broken.
+Client settings: [BUILD INFO] Release Channel: canary, Build Number: 62612, Version Hash: cdcffc992fa565f3a38568280df6bfa10c6622ed
+System settings: Windows 10 Home 64-bit v1909 - Host 0.0.266 (10.0.18363)
+
+Snowy ✨#1000 - Bug Bot on 2020-07-03T19:54:29.471Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

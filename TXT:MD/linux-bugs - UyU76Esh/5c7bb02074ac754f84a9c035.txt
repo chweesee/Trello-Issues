@@ -1,0 +1,105 @@
+[Firefox on Linux specific] Microphone test ignores sensitivity settings (https://trello.com/c/1AgQsJb3)
+
+None
+
+Created: 2019-03-03T10:44:48.164Z
+Latest Update: 2019-06-30T01:20:46.700Z
+
+Reported by kadybat#0001
+
+####Steps to reproduce:
+- Use mic test at any sensitivity and observe its behavior 
+- Heighten your audio sensitivity 
+- Observe that microphone test displays the same audio capture regardless of the sensitivity setting
+
+####Expected result:
+As in other browsers (including Chrome) and the desktop app, mic test should respond to audio sensitivity settings
+####Actual result:
+Mic test seemingly ignores changes to audio sensitivity
+####Client settings:
+Discord 33117
+####System settings:
+Firefox 65.0 (64-bit) on Ubuntu 18.04
+
+30173
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-03T10:44:48.164Z
+
+
+### Can reproduce.
+CR // Kubuntu 18.10 ~ Canary 33117 // Firefox 65.0.1
+
+ZX ////#3405 - Bug Bot on 2019-03-03T10:44:55.478Z
+
+
+### Can reproduce.
+CR: Manjaro Linux Unstable Cinnamon Canary 33117, Firefox 65.0.2-1
+
+chaNcharge#7023 - Bug Bot on 2019-03-03T10:45:00.574Z
+
+
+### Can reproduce.
+Can Reproduce. I set my Input Volume to 0% and the mic test still picks up unlike in desktop app. Manjaro 18.0.2, Linux 4.19.20-1, KDE Plasma 5.26, Discord Canary build 33117. Firefox 65.0.2
+
+Frances Picard#6209 - Bug Bot on 2019-03-03T10:45:05.515Z
+
+
+### Can reproduce.
+Xubuntu 18.04.2 / Canary 33381 / Firefox 65.0.1
+
+Aranym#6778 - Bug Bot on 2019-03-07T02:53:10.358Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS -- Firefox 65.0.1 -- Stable 33990
+
+Defracted#7777 - Bug Bot on 2019-03-16T15:58:36.803Z
+
+
+### Can reproduce.
+CR; Linux Ubuntu 18.10 x64, Release Channel: canary, Build Number: 33959, Version Hash: a8128f0f88eb0cb985efba4697114e8c3dd4dc40, Firefox Quantum 65.0.1
+
+c1rcl#1337 - Bug Bot on 2019-03-21T11:38:03.285Z
+
+
+### Can reproduce.
+Manjaro Linux 18.0.4 ¬ Linux 5.0.3-1-MANJARO ¬ KDE Plasma 5.15.3 ¬ Discord Build 34340 ¬ Firefox 68.0a1
+
+Kydros Elizabeth LeSaki#1785 - Bug Bot on 2019-03-22T22:25:51.099Z
+
+
+### Can reproduce.
+<Linux 4.18.0-16 generic Lubuntu Canary 33117 // Firefox 65.0>
+
+boof#5058 - Bug Bot on 2019-03-23T16:50:06.086Z
+
+
+### Can reproduce.
+Linux Mint 19.1 Tessa - Discord Canary 34625 - Firefox 66.0.1
+
+Seikatsu#0001 - Bug Bot on 2019-03-28T20:37:34.071Z
+
+
+### Can reproduce.
+Ubuntu 18.04.2 LTS · GNOME 3.28.2 (x64) · Firefox 66.0.2 · Canary 35116
+
+Casper#9999 - Bug Bot on 2019-04-08T05:59:32.653Z
+
+
+### Moved from User Reported to Notable Issues by Bug Bot on 2019-04-13T02:12:16.749Z
+
+
+### Can reproduce.
+Discord 40218 // Pop_Os 18.4 LTS
+
+Indiana#6009 - Bug Bot on 2019-06-30T01:20:46.706Z
+
+List
+====
+Notable Issues
+
+Members
+=======
+None

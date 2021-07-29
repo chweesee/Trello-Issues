@@ -1,0 +1,130 @@
+[Archived] `!wumpus` and `Log in with Discord` are appended, (seemingly randomly?), to a part of the docs page. (https://trello.com/c/IdJKjGYJ)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-19T20:53:14.781Z
+Latest Update: 2019-04-22T04:00:33.155Z
+
+Reported by connorshea#1180
+
+####Steps to reproduce:
+- Go to the intro page () 
+- Using the sidebar, go to the Rich Presence Best Practices page () 
+- Look for some text within the page that says `!wumpus` and `Log in with Discord`
+
+####Expected result:
+This text wouldn't appear randomly within the page.
+####Actual result:
+The `!wumpus` and `Log in with Discord` text is added within the page at a place it presumably shouldn't be.
+####Client settings:
+This applies to the documentation site, N/A
+####System settings:
+Firefox Nightly 64.0a1 (2018-10-19), macOS 10.14.0 (Mojave)
+
+21691
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-19T20:53:14.781Z
+
+
+### Alfie#1582 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bca443a8161e033ac87908c/34f12c353d2406b24328d5a990aeb875/8jWDFKX.png added by Bug Bot on 2018-10-19T20:53:17.266Z
+
+
+### Can reproduce.
+Chrome 69.0.3497.100 (Official Build) (64-bit)
+
+aditya#0001 - Bug Bot on 2018-10-19T20:53:22.096Z
+
+
+### Can reproduce.
+CR Chrome 70.0.3538.67 Discord Stable. - This seems to have come from the Intro page and is not on the Github API Docs
+
+Alipoodle#5025 - Bug Bot on 2018-10-19T20:53:27.166Z
+
+
+### Can reproduce.
+Chrome 69.0.3497.100 Window 10 Pro 64-bit (1809). The string seems to be coming from. https://github.com/discordapp/discord-api-docs/blob/ce687670bcd07bf8a4508f3513cf483ac13b7304/docs/Intro.md#bots-and-apps
+
+Tarek#1337 - Bug Bot on 2018-10-19T20:53:32.106Z
+
+
+### Moved from User Reported Bugs to Website Bugs by Clayton on 2018-10-20T01:14:01.673Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13", Mid-2012), macOS 10.13.6 - Firefox v62.0.3 (64-bit)
+
+william#0002 - Bug Bot on 2018-10-20T06:00:21.578Z
+
+
+### verified, macos 10.12.6, firefox nightly 64.0 - Clayton on 2018-11-06T04:37:36.447Z
+
+
+### https://github.com/discordapp/discord-api-docs/issues/692#issuecomment-466135596 - Tarek on 2019-02-21T23:24:16.036Z
+
+
+### Moved from Website Bugs to Fix made, not yet released by Tarek on 2019-02-21T23:24:20.912Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2019-02-27T07:45:32.731Z
+
+
+### Fixed now on new webhooks events - Tarek on 2019-02-27T07:45:45.950Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Tarek on 2019-02-27T08:48:31.327Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2019-02-27T08:48:36.156Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Tarek on 2019-02-28T13:42:29.776Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2019-02-28T13:42:30.727Z
+
+
+### Moved from Claimed Fixed, needs Verification to Temporary claimed fixed so ED detects fixed bugs by Tarek on 2019-03-23T03:18:06.343Z
+
+
+### Moved from Temporary claimed fixed so ED detects it as fixed to Claimed Fixed, needs Verification by Tarek on 2019-03-23T03:26:50.508Z
+
+
+### Can't reproduce.
+Firefox Stable 65.0.2 (64-bit) -- Windows 10 Pro x64 v1809
+
+webhp#1337 - Bug Bot on 2019-03-23T03:29:07.637Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Discord Canary 34463
+
+Daffyduck#5364 - Bug Bot on 2019-03-23T03:29:37.951Z
+
+
+### Can't reproduce.
+CNR on Windows 10 Home; Firefox 65.0.2
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-23T03:41:39.477Z
+
+
+### Can't reproduce.
+ macos 10.14.4, chrome 72 
+
+-40 °C = -40 °F#2000 - Bug Bot on 2019-03-23T03:42:01.832Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-03-23T03:42:02.046Z
+
+
+### Archived by Bug Bot on 2019-04-22T04:00:33.167Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

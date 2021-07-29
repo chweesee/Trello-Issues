@@ -1,0 +1,73 @@
+[Archived] Group name gets cut off in chat when it is extremely long in characters. [ 1366 x 768 Screen Resolution. May have to resize. ] (https://trello.com/c/pwdzrdZs)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-21T03:41:57.470Z
+Latest Update: 2018-10-22T20:21:05.651Z
+
+Reported by Ghoul#4567
+
+####Steps to reproduce:
+- Create a new group chat, or use an existing group. 
+- Rename it to something that's really long. (the example I had was 96 characters long).  
+- Observe the chat.
+
+####Expected result:
+The long name should be cut off with ...
+####Actual result:
+The long name continues on, and eventually gets cut off.
+####Client settings:
+Discord Canary 0.0.208 / 0.0.209 Build 15665
+####System settings:
+Windows 10 Home 64-bit, Version 1803
+
+13115
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-21T03:41:57.470Z
+
+
+### Ghoul#4567 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b02400519816cddea25dd78/c2cc901026c6a7d3225e581a934514f3/koIqOCN.png added by Bug Bot on 2018-05-21T03:42:00.242Z
+
+
+### Can reproduce.
+Windows 10 Pro v1803 x64 - Discord Canary 15665 -- Could only reproduce making the window smaller or by using a 1366 x 768 screen.
+
+webhp#1337 - Bug Bot on 2018-05-21T03:42:04.932Z
+
+
+### Can reproduce.
+At 100% zoom, the 3 dots only appear in the chat box, the chat area cuts the name off messily. 75% zoom puts all text on screen. Tested on 1366x768 on MacBook Air Early 2015, MacOS High Sierra 10.13.3, Discord Canary 0.0.191, Build Number: 15665.
+
+Ghostly#0001 - Bug Bot on 2018-05-21T03:42:09.894Z
+
+
+### Can reproduce.
+Bugged at 100% zoom on a 1280 x 1024 resolution | Windows 10 Pro Insider Preview x64, v10.0.17672 Build 17672, Discord Canary Build 15598
+
+Cairo#2098 - Bug Bot on 2018-05-21T03:42:14.889Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803 \ Canary Build: 15733
+
+Cokie۞ᅚ#2207 - Bug Bot on 2018-05-21T20:50:37.083Z
+
+
+### Verified, MacOS 10.12.6, Canary 15701 - Clayton on 2018-05-21T21:39:56.071Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T21:40:03.888Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:05.655Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

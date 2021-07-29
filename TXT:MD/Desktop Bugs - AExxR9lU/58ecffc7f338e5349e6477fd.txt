@@ -1,0 +1,82 @@
+[Archived] on MacOS 10.12.4 (16E195) no audio inputs or outputs are detected (https://trello.com/c/46eHwd5A)
+
+P1: Severe
+
+Created: 2017-04-11T16:09:43.529Z
+Latest Update: 2017-10-17T20:27:25.548Z
+
+Reported by Adryd#4738
+
+####Steps to reproduce: 
+- Start discord and join a voice channel 
+- try to talk 
+- etc 
+
+####Expected result:
+ Mah voice waves should be transmitted across the magic of discord 
+####Actual result:
+ no audio input is detected 
+####System settings:
+ 10.12.4 (16E195) Canary (Latest), Soundflower, Blue Yeti, Internal audio
+
+2325
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-11T16:09:43.529Z
+
+
+### Can reproduce.
+macOS Discord Canary
+
+Dabbit Prime#0896 - Bug Bot on 2017-04-11T16:09:44.356Z
+
+
+### Can reproduce.
+macOS 10.12.4, Canary 0.0.144
+
+undefined - Bug Bot on 2017-04-11T16:09:46.139Z
+
+
+### Can reproduce.
+Verified
+
+undefined - Bug Bot on 2017-04-11T16:09:49.079Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-04-11T16:10:11.037Z
+
+
+### can reproduce.  native-side getInputDevices() and getOutputDevices() are returning correctly afaict. - Ben Morse on 2017-04-11T17:29:53.060Z
+
+
+### Can reproduce.
+latest canary, macOS Sierra, corsair void; internal mic + speakers
+
+Francis#6565 - Bug Bot on 2017-04-11T18:18:25.481Z
+
+
+### ok, found, fixed, and commit pushed to master (b2d0e15abe665ba4df08ab15554a34d707d25e3a). - Ben Morse on 2017-04-11T20:22:31.421Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-04-11T20:27:42.924Z
+
+
+### Yay! <3 Ben - Jared on 2017-04-11T20:39:21.662Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-04-11T20:39:25.458Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:27:23.767Z
+
+
+### Archived by Jared on 2017-10-17T20:27:25.550Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

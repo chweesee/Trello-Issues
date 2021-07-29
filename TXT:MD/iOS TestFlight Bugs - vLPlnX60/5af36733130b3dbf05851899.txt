@@ -1,0 +1,82 @@
+[Archived] Selecting a specific username with special unicodes makes your device crash. [iPhone 6/6s/7 plus - iOS 11.4 & iPad Air 2 iOS 11.4/11.3.1 only] (https://trello.com/c/pDNK6wfU)
+
+None
+
+Created: 2018-05-09T21:25:07.793Z
+Latest Update: 2018-07-03T01:40:12.064Z
+
+Reported by Xylium#1480
+
+####Steps to reproduce:
+- Copy and paste this in a channel 𐌂ⓗ𐌆Ṇ ¢Ħคη𝔤 
+
+- Click on the text till you see “copy text” 
+
+- Click on “copy text”
+
+- Paste it in your chat bar
+
+- Long press your chat bar till you see “select all”
+
+- Click select all button and observe the crash
+
+####Expected result:
+You should be able to copy and paste the special unicodes without crashing
+####Actual result:
+Your device crashes when u try to "select all" on the special unicode characters
+####Client settings:
+TestFlight 2.3.1 (4051)
+####System settings:
+iPhone 6, iOS 11.4
+
+12164
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-09T21:25:07.793Z
+
+
+### Xylium#1480 - https://i.imgur.com/uwWavQQ.gifv added by Bug Bot on 2018-05-09T21:25:10.272Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 4, TestFlight 2.3.1 (4051)
+
+Pascal#0929 - Bug Bot on 2018-05-09T21:25:15.195Z
+
+
+### Can reproduce.
+CR iPhone 7 Plus, iOS 11.3, iOS TestFlight 2.3.1 4051
+
+ash#0001 - Bug Bot on 2018-05-09T21:25:20.200Z
+
+
+### Can reproduce.
+iPhone7; IOS 11.4 PublicBeta; TF 2.3.0 (3470) TF 232 ; most likely to be a unicode problem
+
+korzq#0001 - Bug Bot on 2018-05-09T21:25:25.154Z
+
+
+### It is an Apple bug, yes, but Dabbit asked us to report it, so the iOS device can device whether anything can be done with this report.
+
+Pascal#0929 - Bug Bot on 2018-05-09T21:48:51.959Z
+
+
+### Cannot reproduce. iPhone 6s 11.3.1, TF 2.3.2 - Jared on 2018-05-11T22:50:22.908Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-05-11T22:50:29.035Z
+
+
+### I am archiving this ticket as there has been no new activity on this ticket for more than a month (almost 2 months). Pascal#0929 also commented that this issue has been fixed in iOS 12, so this may be possible that it's not an Discord bug. - Ghoul on 2018-07-03T01:40:02.134Z
+
+
+### Archived by Ghoul on 2018-07-03T01:40:12.067Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

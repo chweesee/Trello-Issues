@@ -1,0 +1,137 @@
+[Archived] When opening app, new message banner remains (iPhone5S, iOS 10.1.1,TestFlight) (https://trello.com/c/boX5bEaU)
+
+P2 - Can wait a while
+
+Created: 2016-12-09T18:48:53.956Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by MattBSG#9263
+
+####Steps to reproduce: 
+- Make sure app is closed 
+- Open app and let it load 
+- from DM opening screen, navigate to a server with an unread message in default text channel 
+
+####Expected result:
+ 'n+ New Messages since..' banner disappears on entering text channel 
+####Actual result:
+ Banner does not disappear
+
+Card Log
+========
+### Added by Jared on 2016-12-09T18:48:53.956Z
+
+
+### MattBSG#9263 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/584afc9562fe1e7255881774/1e4ea3cd925262827768bc42d2c08003/image.png added by Jared on 2016-12-09T18:50:09.413Z
+
+
+### Can reproduce.
+iPhone 7, iOS 10.2b7, latest TF
+
+ThaTiemsz#5517 - Jared on 2016-12-09T18:56:15.615Z
+
+
+### Cannot reproduce.  I never see the 1+ banner, and the normal ones disappear as you'd expect.  Here are my steps:
+
+1)  Close app.
+2)  Open App.
+3)  Wait for it to fully connect
+4)  Open Server Select (hamburger button)
+5)  Select a Server showing the unread message indicator.
+6)  Tap on the channel the unread message is in.
+7)  The <number> banner appears.
+8)  Scroll to bottom of the chat.
+
+Result:  The banner disappears. - Jared on 2016-12-09T19:05:37.572Z
+
+
+### I missed  the "default text channel" bit.  The banner does go away when scrolling up/down. - Jared on 2016-12-09T19:17:35.152Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2016-12-09T19:17:40.182Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 10.2, Discord v1.7.8
+
+dinos#0649 - Jared on 2016-12-09T20:33:16.032Z
+
+
+### Can reproduce.
+not consistently, but I have seen that happen. iOS 9.3.5 on latest TF
+
+SuperSajuuk#7265 - Jared on 2016-12-10T00:23:52.882Z
+
+
+### Can reproduce.
+iOS 9.3.3 Testflight
+
+cyberiumshadow#7057 - Jared on 2016-12-10T22:54:43.539Z
+
+
+### At least for me, any attempts to scroll to the bottom of the channel will cause the app to jump back to the new messages banner.
+
+cyberiumshadow#7057 - Jared on 2016-12-10T22:55:37.889Z
+
+
+### Verified this issue still occurs as written as of 1.8.0 (56) - Jared on 2016-12-19T23:50:18.180Z
+
+
+### Since default channel has been removed, it only happens with your last opened channel.
+
+Pascal#0929 - Bug Bot on 2017-10-01T10:47:29.799Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2017-10-25T19:45:52.888Z
+
+
+### I can no longer reproduce, the banner goes away as soon as I view all new messages in my last opened channel.
+
+Discord 1.9.3 (1336), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-26T07:21:04.708Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Alexandru Todea on 2017-10-26T07:21:22.795Z
+
+
+### Can't reproduce.
+iPhone 8 +, iOS 11.3 (PB1), Discord TestFlight 2.2.1 (2236)
+
+Ghoul#0009 - Bug Bot on 2018-01-26T20:03:57.309Z
+
+
+### Can't reproduce.
+iPhone X, iOS 11.2.5, TestFlight 2.2.1 (2236)
+
+mouse#0091 - Bug Bot on 2018-01-26T20:51:26.492Z
+
+
+### Can't reproduce.
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 1 | TestFlight 2.2.1 (2236)
+
+Pascal#0929 - Bug Bot on 2018-01-26T23:13:51.087Z
+
+
+### Can't reproduce.
+CNR, TestFlight 2.2.1 (2236), iOS 11.2.1, iPhone 7
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T03:31:54.183Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:55:27.948Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Alexandru Todea on 2018-01-27T07:55:31.327Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2018-04-14T09:01:10.935Z
+
+
+### Archived by Alexandru Todea on 2018-04-14T09:01:11.473Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

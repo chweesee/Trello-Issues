@@ -1,0 +1,59 @@
+Go live prompt doesn't close after hitting enter or space then hitting go live or cancel (https://trello.com/c/7sUKK2K7)
+
+Investigating
+
+Created: 2019-04-27T21:52:50.427Z
+Latest Update: 2019-06-17T22:03:52.574Z
+
+**Short Description:** Go live prompt doesn't close after hitting enter or space then hitting go live or cancel
+**Steps to reproduce:**
+1. Join a vc
+2. Hit the go live button 
+3. Hit enter
+4. Attempt to hit close or go live
+5. Observe how the menu doesn't close and the close option does nothing
+**Expected Result:** Another menu doesn't open when hitting enter and the go live/cancel button closes the menu
+**Actual Result:** Another menu opens and the go live and cancel button do not close the go live prompt
+**Client Settings:** Canary 36529
+**System Settings:** Windows 10 Home x64 (1809)
+
+Card Log
+========
+### Added by TheForbiddenAi on 2019-04-27T21:52:50.427Z
+
+
+### https://i.imgur.com/bTBnpRg.gifv - https://i.imgur.com/bTBnpRg.gifv added by TheForbiddenAi on 2019-04-27T21:56:15.214Z
+
+
+### Can Reproduce
+
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 36529 - Isabel Lomas on 2019-04-27T23:22:38.536Z
+
+
+### Archived by Isabel Lomas on 2019-04-27T23:25:07.608Z
+
+
+### Unarchived by Isabel Lomas on 2019-04-27T23:25:08.748Z
+
+
+### CR Canary 36529 -- Windows 10 Pro x64 v1809 Build 11875.1000 - webhp on 2019-04-27T23:28:06.738Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by webhp on 2019-04-27T23:28:17.591Z
+
+
+### CNR Canary 39715 -- Windows 10 Pro x64 v1903 18912.1001 - webhp on 2019-06-14T17:18:00.941Z
+
+
+### Moved from Tested Bugs to Claimed Fixed, Needs Verification by webhp on 2019-06-14T17:18:09.705Z
+
+
+### Moved from Claimed Fixed, Needs Verification to Verified Fixed by webhp on 2019-06-14T17:26:51.736Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

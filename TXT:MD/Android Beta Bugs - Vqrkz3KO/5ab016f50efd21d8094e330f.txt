@@ -1,0 +1,85 @@
+[Archived] Collapsed category indicator changes when it shouldn't (https://trello.com/c/PUcKmEi6)
+
+None
+
+Created: 2018-03-19T20:00:53.498Z
+Latest Update: 2018-03-22T12:48:25.007Z
+
+Reported by Purpzie#0001
+
+####Steps to reproduce:
+- Go to a server that 1. Has a category at the very top and 2. Has many other channels below it, enough to scroll quite a bit. You can uncollapse other categories to make the list longer. 
+- Collapse the top category. 
+- Scroll to the very bottom of the channels list. 
+- Scroll back up quickly and look at the arrow next to the top category. You are able to catch it rotating sometimes. 
+- For this example I used DTesters by collapsing the information category. Depending on your roles, you may be seeing more or less channels than I am.
+
+####Expected result:
+The arrow next to the category doesn't rotate, since it is already closed
+####Actual result:
+It rotates, as if it was just being closed as you scroll up. This doesn't happen 100% of the time, I got it to happen about 75% of the time.
+####Client settings:
+Android Alpha 6.3.8
+####System settings:
+Samsung Galaxy J3 Emerge, Android 6.0.1
+
+9712
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-19T20:00:53.498Z
+
+
+### Can reproduce.
+Could reproduce with DTesters information category and in Landscape mode (couldn't in Portrait, probably because my screen is too wide). Discord Alpha 6.3.8, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-03-19T20:01:01.046Z
+
+
+### Can reproduce.
+Could repro in portrait too, Discors Alpha 6.3.8, Samsung Galaxy Grand Prime VE, 5.1.1
+
+TNTking65#7422 - Bug Bot on 2018-03-19T20:01:05.998Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 8.1 Discord Alpha 6.3.8
+
+webhp#1337 - Bug Bot on 2018-03-19T20:01:11.107Z
+
+
+### Purpzie#0001 - https://youtu.be/7Rk1s6kvN2I added by Bug Bot on 2018-03-19T20:10:34.999Z
+
+
+### To clarify, I used DTesters to test the bug and a different server for the video
+
+Purpzie#0001 - Bug Bot on 2018-03-19T20:12:31.678Z
+
+
+### Can reproduce.
+Moto G 4, Android 7.1.1, Discord Alpha 6.3.8
+
+Xia#8966 - Bug Bot on 2018-03-19T22:33:38.477Z
+
+
+### Can reproduce.
+appears to work with a category full of unread channels too | Discord 6.3.8 | Android 7.0 | Samsung Galaxy J7
+
+Россия (Kero)#1269 - Bug Bot on 2018-03-20T02:06:22.262Z
+
+
+### Dupe of https://trello.com/c/XMjJoVF2/701-channel-category-arrow-moving-directions, moving to wont fix. and archived - Tarek on 2018-03-22T12:48:18.415Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Tarek on 2018-03-22T12:48:24.123Z
+
+
+### Archived by Tarek on 2018-03-22T12:48:25.011Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

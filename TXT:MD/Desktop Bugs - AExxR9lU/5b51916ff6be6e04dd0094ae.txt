@@ -1,0 +1,99 @@
+[Archived] Mention highlight is raised when message contains an emote (https://trello.com/c/IY0l1oyc)
+
+None
+
+Created: 2018-07-20T07:38:23.795Z
+Latest Update: 2018-10-22T20:36:18.498Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Have someone mention you 
+- Have someone mention you again but include an emote in the second mention 
+- Observe the highlights on both messages
+
+####Expected result:
+Both mentions are centered in the highlights
+####Actual result:
+The mention with the emote has the highlight raised while the mention without the emote does not
+####Client settings:
+Canary Build 19322
+####System settings:
+Win 10 x64 1803
+
+15717
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-20T07:38:23.795Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b51916ff6be6e04dd0094ae/73a15f741fd67016b15e54d27c62d569/unknown.png added by Bug Bot on 2018-07-20T07:38:26.297Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1803), Discord Canary 18823
+
+54D#1357 - Bug Bot on 2018-07-20T07:38:31.138Z
+
+
+### Can reproduce.
+Can Repro, Windows 10 Home (1803) x64, Canary 0.0.211
+
+DeJay#1337 - Bug Bot on 2018-07-20T07:38:36.165Z
+
+
+### Can reproduce.
+CR. Windows 10 Home SL 1803 x64 • Canary 19332
+
+MakiTheLegend#5027 - Bug Bot on 2018-07-20T07:38:41.152Z
+
+
+### Can reproduce.
+Windows 10 Pro x64. Discord Canary 19332
+
+ThorWolf#0001 - Bug Bot on 2018-07-20T07:53:58.005Z
+
+
+### Moved from User Reported Bugs to Message Update Bugs by Tarek on 2018-07-20T15:06:59.545Z
+
+
+### FWIW, this is current behavior too: https://cloudup.com/cTK1IaHRERI - Joey Baker on 2018-07-20T21:03:54.138Z
+
+
+### Moved from Message Update Bugs to Fix made, not yet released by Joey Baker on 2018-07-20T21:54:37.971Z
+
+
+### Cannot repro anymore, Canary 19400. Moving to claimed fixed - Tarek on 2018-07-20T23:06:56.400Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2018-07-20T23:07:01.321Z
+
+
+### Can reproduce as of Discord Canary Build 20832 on WIndows 10 Home x64 (1803). Reopening. - Ghoul on 2018-08-04T21:10:37.803Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Ghoul on 2018-08-04T21:10:44.020Z
+
+
+### This _is_ a bug, but it's a rather large issue to fix that deals with us either 1) changing emoji heights or 2) changing line heights. - Joey Baker on 2018-08-06T17:05:04.206Z
+
+
+### Moved from Reopened to Website Bugs by Joey Baker on 2018-08-06T17:05:17.692Z
+
+
+### cnr, macos 10.12.6, chrome 68 - Clayton on 2018-08-30T20:00:24.189Z
+
+
+### Moved from Website Bugs to Cannot Reproduce by Clayton on 2018-08-30T20:00:28.418Z
+
+
+### Archived by Clayton on 2018-10-22T20:36:18.501Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

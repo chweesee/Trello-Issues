@@ -1,0 +1,77 @@
+[Archived] While using push-to-talk the volume of firefox will not get reduced to my desired attenuation (https://trello.com/c/Rhl3x1AG)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-06-30T21:43:02.490Z
+Latest Update: 2019-10-23T23:01:19.517Z
+
+Reported by BlayZin#9796
+
+####Steps to reproduce:
+- start firefox 60.0.2 
+- open (for example) a twitch stream 
+- join a discord voice channel 
+- speak (with push-to-talk and attenuation set to "when I speak")
+
+####Expected result:
+Firefox volume should get reduced to desired attenuation
+####Actual result:
+Firefox doesn't get reduced to desired attenuation but instead it shows in volume-mixer as reduced but it actually isn't
+####Client settings:
+Release Channel: stable, Build Number: 17491, Version Hash: 94bdaea25aa31a3d69a408a644701345e9ff7a83
+####System settings:
+Windows 10 pro; Version 1803; OS Build 17134.112
+
+14534
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-30T21:43:02.490Z
+
+
+### Can reproduce.
+Win10Pro Firefox. CanRePro.
+
+NEXO#8392 - Bug Bot on 2018-06-30T21:43:09.944Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Bootcamp. Firefox 61.0 (64-bit)
+
+SaltyPotato#3555 - Bug Bot on 2018-06-30T21:43:14.943Z
+
+
+### Can reproduce.
+CR; MacBook Pro 2017, macOS 10.14 Mojave Beta
+
+danny#4201 - Bug Bot on 2018-06-30T21:43:19.917Z
+
+
+### verified, macos 10.12.6, canary 18051 - Clayton on 2018-07-02T21:38:49.850Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-02T21:39:06.227Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:36.363Z
+
+
+### Can't reproduce.
+Windows 10 Pro 64 Bit // Discord Canary Version 37458
+
+Cam#7527 - Bug Bot on 2019-05-13T14:27:40.443Z
+
+
+### Unarchived by Bug Bot on 2019-05-13T14:30:10.930Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:19.530Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

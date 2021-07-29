@@ -1,0 +1,70 @@
+Opening the message action sheet (right-clicking) on a message of a user with an animated pfp, stops the animation. (https://trello.com/c/vIrqykAh)
+
+None
+
+Created: 2020-02-11T16:36:47.179Z
+Latest Update: 2020-07-16T21:26:06.115Z
+
+Reported by Bullseye#8200
+
+####Steps to reproduce:
+- Find a user with an animated profile picture. 
+- Hover your mouse over one of his messages in any text channel and observe how his pfp plays normally. 
+- Right click to open the message action sheet and place your cursor on the modal. 
+- Observe.
+
+####Expected result:
+The profile picture should normally continue playing even if your cursor is placed on the modal.
+####Actual result:
+The profile picutre stops its animation when placing the mouse on the modal.
+####Client settings:
+Discord Stable 54146
+####System settings:
+Windows 10 Pro x64
+
+52489
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-11T16:36:47.179Z
+
+
+### Bullseye#8200 - https://youtu.be/tD81BWHEHXQ added by Bug Bot on 2020-02-11T16:36:49.703Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Home, Build 10.0.18363, 64-bit - Discord Stable 54177
+
+ZEH#8271 - Bug Bot on 2020-02-11T16:36:54.710Z
+
+
+### Can reproduce.
+CR // Canary 54177 (1c98d44) // Windows 10 64-Bit (10.0.18362)
+
+Encrium#0004 - Bug Bot on 2020-02-11T16:36:59.747Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro Build 18363.592, Discord Canary Build 54234
+
+Creedoo#3626 - Bug Bot on 2020-02-11T16:37:04.686Z
+
+
+### Can reproduce.
+Windows 10 Home x64, version 1909 - Canary 54548 host 0.0.262
+
+anonymous kitten#5379 - Bug Bot on 2020-02-14T23:23:51.251Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) canary 54611
+
+myacorn#6534 - Bug Bot on 2020-02-15T10:44:56.002Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

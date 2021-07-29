@@ -1,0 +1,78 @@
+[Archived] "Find or start a conversation" only registers single input characters from Japanese IME and Chinese IME (https://trello.com/c/XqwRygMk)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-04T19:29:06.564Z
+Latest Update: 2019-01-01T15:43:22.705Z
+
+Reported by Themex#1677
+
+####Steps to reproduce:
+- Click "Find or start a conversation" in the "Direct Messages" menu 
+- Try to type any kana but あ、い、う、え、お、ア、イ、ウ、エ、オ
+
+####Expected result:
+If I type ストレンジャー it should appear as in this image
+####Actual result:
+It looks like this
+####Client settings:
+Desktop Canary Build 13096 and Desktop Stable Build 13009
+####System settings:
+Windows 10 Home 64-bit, version 1709, build 16299.309, Google IME and Microsoft IME
+
+10251
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-04T19:29:06.564Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac52782bed054cb2c0ce3db/53f23f21ad6abe8b348a8982aa232d8b/8n8VkrU.png added by Bug Bot on 2018-04-04T19:29:09.212Z
+
+
+### Tarek#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ac52782bed054cb2c0ce3db/9a8b592fad9748e42ef46d4104208729/toZoHGy.png added by Bug Bot on 2018-04-04T19:29:09.219Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 13096 with Google Japanese IME. Same thing happens with Quick Switcher
+
+Kuuhaku#4503 - Bug Bot on 2018-04-04T19:29:14.104Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Version 1803. Discord Canary Build 13096
+
+RME#3050 - Bug Bot on 2018-04-04T19:29:19.110Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Canary Build 13096
+
+mrkirby153#7840 - Bug Bot on 2018-04-04T19:29:24.915Z
+
+
+### Verified. - Clayton on 2018-04-10T20:55:04.262Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-10T20:55:21.879Z
+
+
+### can no longer reproduce - Clayton on 2018-10-04T23:16:00.668Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-04T23:16:11.172Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:43:21.741Z
+
+
+### Archived by Tarek on 2019-01-01T15:43:22.707Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

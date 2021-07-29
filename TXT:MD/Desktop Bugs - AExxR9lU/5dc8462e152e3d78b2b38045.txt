@@ -1,0 +1,69 @@
+[Safari] New Unreads or channel sometimes appears past channel list when hovering over status options (https://trello.com/c/HwemNnIj)
+
+None
+
+Created: 2019-11-10T17:17:34.157Z
+Latest Update: 2020-07-16T21:26:05.572Z
+
+Reported by f78#0078
+
+####Steps to reproduce:
+- Have a custom status set (emoji is not required) 
+- Go to a Discord with enough channels to allow the channel list to scroll 
+- Make sure you aren't scrolled all the way down in the channel list 
+- Click on your profile picture at the bottom left so the status options show up 
+- Hover over the status options 
+- Observe, or move your mouse up and down a few times if it doesn't happen
+
+####Expected result:
+Nothing interesting should happen
+####Actual result:
+Sometimes "New Unreads" or a channel pops up on the bottom in front of your username
+####Client settings:
+Web Canary 49174
+####System settings:
+macOS 10.15 Catalina, Safari 13.0.2
+
+47593
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-10T17:17:34.157Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dc8462e152e3d78b2b38045/657efee72dc5920d604936f78d064611/mK3oJMi.png added by Bug Bot on 2019-11-10T17:17:37.398Z
+
+
+### 🎃nickWtn🎃#3789 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5dc8462e152e3d78b2b38045/8417a5c822f3a12eebe9373a3fc4390a/PzJ5kMv.png added by Bug Bot on 2019-11-10T17:17:37.404Z
+
+
+### Can reproduce.
+It shows what's behind it, so it could be a channel name or the new unread pop up, if any. Also, the status icons don't show for me until I hover over them. MacBook Pro: macOS Catalina 10.15.1; Safari 13.0.3 - Canary 49186
+
+Jiralite#1207 - Bug Bot on 2019-11-10T17:17:41.766Z
+
+
+### Can reproduce.
+Can reproduce - MacBook Pro 2019 (MacOS 10.14.6), Canary Build 49186, Safari 12.1.1
+
+kiosion#0001 - Bug Bot on 2019-11-10T17:17:46.767Z
+
+
+### Can reproduce.
+macOS 10.13.6, Canary 49196 w/ Safari 13.0.3
+
+leaf#0001 - Bug Bot on 2019-11-10T17:17:51.853Z
+
+
+### Can reproduce.
+MacOS 10.13.6, Canary 49196, Safari 13.0.3
+
+TheRudeDude#6040 - Bug Bot on 2019-11-10T18:41:25.967Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

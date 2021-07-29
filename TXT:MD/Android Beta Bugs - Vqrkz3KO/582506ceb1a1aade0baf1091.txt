@@ -1,0 +1,71 @@
+[Archived] Unhiding a blocked message messes up other message horizontal positions (https://trello.com/c/h46O07h6)
+
+None
+
+Created: 2016-11-10T23:46:23.010Z
+Latest Update: 2017-10-30T17:56:37.086Z
+
+Reported by KockaAdmiralac#9306
+
+####Steps to reproduce: 
+- block somebody 
+- make them send a message 
+- unhide that message 
+- scroll up and down from the blocked message you viewed 
+
+####Expected result:
+ Everything is fine 
+####Actual result:
+ Some messages are moved to left, even when switching to other channels/servers. Basically, stuff is messed up
+####System settings:
+Android 4.1.2
+
+Card Log
+========
+### Added by Jared on 2016-11-10T23:46:23.010Z
+
+
+### 148231501413089280 - undefined added by Jared on 2016-11-10T23:47:34.940Z
+
+
+### Can reproduce.
+3.1.5
+
+Mitch#6853 - Jared on 2016-11-12T08:45:19.099Z
+
+
+### Can't reproduce.
+3.1.5
+
+Mitch#6853 - Jared on 2016-11-12T08:51:15.292Z
+
+
+### Can't reproduce. Maybe device specific? - Jared on 2016-12-07T19:15:37.543Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-12-07T19:15:40.633Z
+
+
+### Can reproduce.
+Android 4.1.2, Discord 3.1.8
+
+Kei#7444 - Sam on 2016-12-16T14:33:15.446Z
+
+
+### Okori believes this to be an issue specific to the Samsung Galaxy S2, a phone which launched in 2011 and we do not have in stock. I haven't received any reports of this issue for almost a year now and this device will be unsupported with the next OS update, so it's not worth fixing anyway.
+
+I'll give Okori half credit for trying, but this ticket will be archived with the remainder. - Jared on 2017-10-30T14:48:15.184Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:56:36.327Z
+
+
+### Archived by Jared on 2017-10-30T17:56:37.088Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

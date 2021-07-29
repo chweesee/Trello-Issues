@@ -1,0 +1,91 @@
+50 or more of displayed chat lines cause visible chat log to truncate (https://trello.com/c/0Ayo0p8l)
+
+None
+
+Created: 2019-05-21T05:12:21.221Z
+Latest Update: 2020-07-16T21:26:03.954Z
+
+Reported by Thibi#4036
+
+####Steps to reproduce:
+- Set Discord options to: Compact message display, Chat scale @90%, Zoom @100%. 
+- Set desktop scale to 100%. 
+- Resize Discord window to 1350px or taller. 
+- In example Discord room, send 51 single line messages. Eg. "1", "2", "3", etc
+
+####Expected result:
+It should display all 51 lines and any additional ones until the screen scrolls no matter how tall the Discord window is.
+####Actual result:
+Only 50 lines show before "Load more messages" appears.
+####Client settings:
+stable, Build Number: 38058, Version Hash: 172966c702d81d18ef28b50e88ff8cd85c9f978f
+####System settings:
+Microsoft Windows [Version 10.0.17134.765]
+
+34906
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-21T05:12:21.221Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) | Canary 38071
+
+charleskimbac#6492 - Bug Bot on 2019-05-21T05:12:28.606Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home 1803, Discord Canary 38151
+
+Llamaglotapi#7664 - Bug Bot on 2019-05-21T05:12:33.581Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 38151
+
+AHkhan#9999 - Bug Bot on 2019-05-21T05:12:38.583Z
+
+
+### Can reproduce.
+Windows 10 Home 1803, Discord Canary 38151
+
+Green_GunnY#0001 - Bug Bot on 2019-05-21T07:39:44.119Z
+
+
+### Can reproduce.
+Windows 7 Starter 32x, Canary 22889
+
+undermaster#3126 - Bug Bot on 2019-05-21T09:13:32.079Z
+
+
+### Can't reproduce.
+MacBook Air - MacOS (10.12.6 Sierra), Canary 38164 — All messages display, changed channels etc.
+
+myacorn#6534 - Bug Bot on 2019-05-21T10:27:07.540Z
+
+
+### Can reproduce.
+Windows 10 Pro 64 Bit // Discord Canary Version 38164
+
+Cam#9999 - Bug Bot on 2019-05-21T18:01:45.028Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38291 (Host 0.0.234)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-23T00:14:55.262Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38594
+
+Xylium#5800 - Bug Bot on 2019-05-28T15:15:18.756Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

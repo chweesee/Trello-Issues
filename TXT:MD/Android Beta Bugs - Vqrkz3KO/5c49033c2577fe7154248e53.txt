@@ -1,0 +1,142 @@
+[Archived] playing status is still shown after disabling "Display currently running game as a status message" (https://trello.com/c/lckAiwyD)
+
+None
+
+Created: 2019-01-24T00:13:48.510Z
+Latest Update: 2019-06-10T09:24:46.633Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- start a game and make sure its detected and shown as a status 
+- without closing the game, turn off "Display currently running game as a status message" in games settings 
+- wait for the game to stop showing as a status (can take up to 5 mins for some reason) 
+- reopen the game from recent apps 
+- observe your profile using another account / device
+
+####Expected result:
+the game should not be displayed as a status since i have that disabled
+####Actual result:
+games are still shown as a status even after disabling the option
+####Client settings:
+Alpha 8.3.4G
+####System settings:
+Samsung Galaxy Note 8 - Android 8.0
+
+26921
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-24T00:13:48.510Z
+
+
+### Can reproduce.
+Was about to CNR, but after 10 minutes or so the game status reappeared out of nowhere (my game is not even open). Discord Alpha 8.3.4G, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2019-01-24T00:13:55.845Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0, Discord Alpha 8.3.4G
+
+Law of Royale#6825 - Bug Bot on 2019-01-24T00:14:00.792Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 9 (Pie),Discord Alpha 8.3.4g
+
+Octillion#6666 - Bug Bot on 2019-01-24T00:14:05.807Z
+
+
+### Can reproduce.
+Samsung Galaxy S9+. Android 8.0 Alpha 8.3.4
+
+Zacatero#0001 - Bug Bot on 2019-01-24T00:31:50.536Z
+
+
+### Can reproduce.
+Discord Alpha 8.3.4G / Xiaomi Mi3W / Android 7.1.2 / LineageOS
+
+Hawlucha#2061 - Bug Bot on 2019-01-24T05:59:21.941Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord 8.3.3 Alpha
+
+Skyla#7948 - Bug Bot on 2019-01-24T06:47:01.524Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 834
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-24T10:45:31.766Z
+
+
+### Can reproduce.
+Nexus 5x, Android 8.1, 8.3.4G
+
+criptixo#0001 - Bug Bot on 2019-01-24T14:33:55.741Z
+
+
+### Moved from User Reported Bugs to Game Detection Bugs by Jeff Cailteux on 2019-01-24T18:58:47.500Z
+
+
+### Moved from Game Detection Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-01-24T19:15:47.949Z
+
+
+### Fixed in 835 - Jeff Cailteux on 2019-01-24T19:16:00.470Z
+
+
+### This also causes the game status to be stuck on, if Display currently running game as a status is enabled, on all other clients even though it says "No game detected" in the Game Activity, until you re enable the setting
+
+Bsian#2061 - Bug Bot on 2019-01-24T19:40:05.687Z
+
+
+### Can't reproduce.
+can no longer repro as of alpha 835G - Samsung Galaxy Note 8, Android 8.0
+
+J1#0088 - Bug Bot on 2019-01-24T20:46:07.002Z
+
+
+### Can't reproduce.
+can no longer reproduce - Android 7.0 Discord Alpha 8.3.5
+
+Delite#0001 - Bug Bot on 2019-01-24T20:49:25.517Z
+
+
+### Can't reproduce.
+Moto G5 Plus Android 9.0 Discord Alpha 8.3.5G
+
+webhp#1337 - Bug Bot on 2019-01-24T20:51:05.767Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-01-24T20:51:05.979Z
+
+
+### Can reproduce.
+Can Reproduce; Samsung Galaxy S9; Android 9.0; One UI Beta; Discord Alpha 8.3.4g
+
+Pyknus#2427 - Bug Bot on 2019-01-25T03:55:26.791Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4X, Android 7.1.2 N2G47H, Discord Alpha 8.3.5G
+
+Defracted#0001 - Bug Bot on 2019-01-25T09:27:15.109Z
+
+
+### Can reproduce.
+Samsung Galaxy J6+, Android 8.1.0 - Alpha 8.3.5G
+
+Melvin#0005 - Bug Bot on 2019-01-27T00:06:08.470Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:50.259Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

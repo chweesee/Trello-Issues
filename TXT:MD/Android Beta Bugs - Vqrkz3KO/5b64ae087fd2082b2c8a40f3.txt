@@ -1,0 +1,93 @@
+[Archived] If you're attempting to send an image flagged as explicit in a channel with explicit content filter enabled, the upload bar vanishes and you won't get any error message (https://trello.com/c/2w9Fu1MX)
+
+P3 - Will be fixed eventually,
+High
+
+Created: 2018-08-03T19:33:28.173Z
+Latest Update: 2019-06-05T23:49:32.383Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find an image that can potentially be flagged as explicit content 
+- Post it in a non-NSFW channel where you have Attach Files permissions, and where the server has Explicit filter enabled for all members in Server Settings > Moderation
+
+####Expected result:
+You should get an error saying that the explicit content filter rejected it. On Desktop it is handled by Clyde sending you a client-side message
+####Actual result:
+The upload bar just disappears and absolutely nothing happens
+####Client settings:
+Discord Alpha 7.2.3
+####System settings:
+Huawei Mate 9 Android 8.0
+
+16841
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-03T19:33:28.173Z
+
+
+### Can reproduce.
+OnePlus 6 (Version 8.1.0), Alpha 7.2.2
+
+» a r i a#1593 - Bug Bot on 2018-08-03T19:33:35.769Z
+
+
+### Can reproduce.
+Pixel XL 2 - Android 8.1 - Alpha 7.2.1
+
+mrkirby153#7840 - Bug Bot on 2018-08-03T19:33:40.688Z
+
+
+### Can reproduce.
+Can reproduce. Alcatel 3C, 7.0.0 Discord Alpha 7.2.1
+
+StefanFX#0001 - Bug Bot on 2018-08-03T19:33:45.690Z
+
+
+### verified, samsung s6 edge, alpha 7.3.0 - Clayton on 2018-08-13T21:24:14.049Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-13T21:24:19.238Z
+
+
+### Can reproduce.
+This bug also effects channels that have upload permissions disabled. This would be a helpful fix as upload always shows. https://trello.com/c/8dOKHpuL
+
+Alipoodle#5025 - Bug Bot on 2018-09-03T12:19:52.387Z
+
+
+### Archived by Clayton on 2018-10-03T12:30:02.135Z
+
+
+### Can't reproduce.
+CNR anymore as of Alpha 7.8.8. Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-11-11T14:40:29.726Z
+
+
+### can no longer produce either on alpha 7.8.8, samsung galaxy s8 android 8.0
+a toast notification was added: https://cdn.discordapp.com/attachments/442654576970039297/511189724774531112/IMG_20181111_154456.jpg
+
+moving to claimed fixed - Tim on 2018-11-11T14:53:02.043Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tim on 2018-11-11T14:53:09.548Z
+
+
+### Unarchived by Tim on 2018-11-11T14:53:09.593Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-12T09:15:07.058Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:32.396Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

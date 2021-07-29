@@ -1,0 +1,77 @@
+[Archived] Emoji duplicates when at the end of the first line of text and next character causes second line and dupes the emoji [5.x Only] (https://trello.com/c/Odd3ph5y)
+
+None
+
+Created: 2018-04-19T02:44:45.066Z
+Latest Update: 2018-07-06T18:51:22.733Z
+
+Reported by Okori#0902
+
+####Steps to reproduce:
+- Send a message long enough and the emoji is the last character at the line 
+- after the emoji have a character causes a second line (no space) 
+- send message 
+- observe the message
+
+####Expected result:
+only one emoji should show
+####Actual result:
+two emoji show
+####Client settings:
+Discord 6.5.4
+####System settings:
+Kyocera Hydro Wave Android 5.1
+
+10927
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-19T02:44:45.066Z
+
+
+### Okori#0902 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ad8029dcac182a171b61242/8eba264df58baf08f65bebbd8cb349b8/Screenshot_2018-04-18-22-39-27.png added by Bug Bot on 2018-04-19T02:44:48.169Z
+
+
+### Can reproduce.
+Moto E 2nd Generation Android 5.1 Discord Alpha 6.5.4
+
+webhp#1337 - Bug Bot on 2018-04-19T02:44:52.577Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016 • Android 5.1 • Alpha 6.5.4
+
+fujhofn.#0878 - Bug Bot on 2018-04-19T02:44:57.513Z
+
+
+### Can reproduce.
+CR, Moto E 2nd Gen, Android 5.1, Alpha 6.5.4
+
+Ghoul#0001 - Bug Bot on 2018-04-19T02:45:02.502Z
+
+
+### @lytefast with this being 5.x only I suspect it has to do with switching the `SimpleDraweeSpanTextView` to extend `AppCompatTextView`.
+
+I'll keep my eye out for other bugs that may be related, til then this is a won't fix (it's either this or the fonts -- we'll never find the time to PR to fresco just to fix 5.x phones). - Andy Garron on 2018-04-19T17:59:07.531Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Andy Garron on 2018-04-19T17:59:17.869Z
+
+
+### If it helps Andy, I've been able to reproduce since 641, not sure about older versions
+
+Okori#0902 - Bug Bot on 2018-04-19T23:23:55.698Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:51:21.238Z
+
+
+### Archived by Jared on 2018-07-06T18:51:22.735Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

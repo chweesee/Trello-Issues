@@ -1,0 +1,72 @@
+[Archived] After recovering from a crash, Discord won't dismiss push notifications upon viewing channel (https://trello.com/c/19UQtbQt)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-03-14T06:16:33.329Z
+Latest Update: 2018-05-24T18:12:47.778Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Close Discord 
+- Get someone to DM you or mention you, in order to trigger a push notification 
+- Open Discord, but don't open the channel you were mentionned in so the push notification is still here 
+- Get Discord to crash (you can try to reproduce any crash bug reported recently since build 6.3.5, most of them are still valid in 6.3.6) 
+- Re-open Discord, and open the channel you got mentionned in
+
+####Expected result:
+The push notification should be dismissed
+####Actual result:
+The push notification remains and you have to remove it yourself
+####Client settings:
+Discord Alpha 6.3.6
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9573
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-14T06:16:33.329Z
+
+
+### Can reproduce.
+CR, at least it was before I sent a DM. Moto E 2nd Gen, Android 5.1 with Android Alpha 6.3.6
+
+Ghoul#0009 - Bug Bot on 2018-03-14T06:16:40.670Z
+
+
+### Can reproduce.
+CR, ZTE obsidian Android 5.1, Discord alpha 6.3.7
+
+Lunʌrᴮᵒᵗ#5846 - Bug Bot on 2018-03-14T06:16:45.678Z
+
+
+### Can reproduce.
+Huawei P8Lite 2016 • Android 5.1 • Alpha 6.3.6
+
+fujhofn.#0878 - Bug Bot on 2018-03-14T06:16:50.684Z
+
+
+### Can reproduce.
+Asus Zenfone 3, Android 7.0 Alpha 6.3.7
+
+Doges OWO#0001 - Bug Bot on 2018-03-14T09:28:31.372Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-04-06T08:43:33.128Z
+
+
+### Archived due to being in the CNR list for a month without any further action to make place for newer bugs. - Tarek on 2018-05-24T18:12:47.043Z
+
+
+### Archived by Tarek on 2018-05-24T18:12:47.782Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,118 @@
+[Archived] Discord crash when hitting escape and pressing save on nickname box (https://trello.com/c/x5ZAHtvL)
+
+P3: Will get fixed eventually,
+Mid,
+Crash,
+Client side
+
+Created: 2018-03-18T21:06:36.088Z
+Latest Update: 2019-05-27T21:30:27.083Z
+
+Reported by svn#4158
+
+####Steps to reproduce:
+- Type something into the nickname box 
+- Hit save and esc at the same time 
+- etc
+
+####Expected result:
+Nickname Change
+####Actual result:
+Crash
+####Client settings:
+Discord PTB 12230 & Stable 12232
+####System settings:
+Win 10 x64
+
+9680
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-18T21:06:36.088Z
+
+
+### Can reproduce.
+You will have to click "Save" and hit escape at the same. exact. time. | Windows 10 Pro (1709) x64, Canary 12217
+
+Mustard#2117 - Bug Bot on 2018-03-18T21:06:43.576Z
+
+
+### Can reproduce.
+this needs to be at the exact moment using a macro will do the job, Windows 10 Pro x64 v1709 (Canary build 12217)
+
+TimThe#1118 - Bug Bot on 2018-03-18T21:06:48.592Z
+
+
+### Can reproduce.
+Win 10 Pro x64 Stable 12232
+
+nuke#1337 - Bug Bot on 2018-03-18T21:06:53.575Z
+
+
+### Ene#0808 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aaed4dc96aa66439c723be2/3ba8f6f1e63d3dc9069598352a9530f6/DKmCP8g.png added by Bug Bot on 2018-03-19T00:16:28.393Z
+
+
+### Can reproduce.
+Discord Canary Build (12159) Windows 10 Pro 64-bit
+
+ZeRoGaming7893#1337 - Bug Bot on 2018-03-19T03:48:25.622Z
+
+
+### Can reproduce. This is intentionally destructive behavior though, so it's low priority.
+
+Verified on [BUILD INFO] Release Channel: canary, Build Number: 12704, Version Hash: 6e4e7bc28e48e0d1d24a21ccda4c11280034f68b - Jared on 2018-03-27T22:26:20.521Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-03-27T22:27:12.194Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (16299) | Discord CNR b13034
+
+Maattah#1337 - Bug Bot on 2018-04-03T23:46:39.968Z
+
+
+### Archived by Clayton on 2018-10-22T20:19:01.746Z
+
+
+### Cannot reproduce anymore on Canary 36529, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-27T20:46:15.026Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-04-27T20:46:21.157Z
+
+
+### Unarchived by Ene on 2019-04-27T20:46:21.277Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 36529
+
+Xylium#5800 - Bug Bot on 2019-04-27T20:48:11.007Z
+
+
+### Can't reproduce.
+CNLR Windows 10 1809 Canary 36529
+
+anonymous kitten#5379 - Bug Bot on 2019-04-27T21:02:37.947Z
+
+
+### Can't reproduce.
+CNLR. macOS Mojave 10.14, Canary 36529
+
+Rage#9991 - Bug Bot on 2019-04-27T21:02:42.067Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-04-27T21:02:42.356Z
+
+
+### Archived by Bug Bot on 2019-05-27T21:30:27.094Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,66 @@
+[Archived] Attempting to send a file to a person who blocked you will cause the upload progress to get stuck until socket timeout (https://trello.com/c/2d5Vlbci)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-05-23T00:47:28.385Z
+Latest Update: 2018-08-22T01:22:26.690Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a DM with a person who blocked you 
+- Tap Add file button 
+- Select a file 
+- Send
+
+####Expected result:
+Uploads the file and then Clyde message should pop up upon failure
+####Actual result:
+It uploads the file, then the progress bar gets stuck for 1-2 minutes, until it disappears without leaving any trace but a `<-- HTTP FAILED: java. net. SocketTimeoutException: timeout` line in debug log
+####Client settings:
+Discord Alpha 6.7.4
+####System settings:
+Huawei Mate 9 Android 8.0
+
+13204
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-23T00:47:28.385Z
+
+
+### Can reproduce.
+Can reproduce, does upload but leaves no trace in debug console | Discord Alpha 6.7.4, Oppo R11s, ColorOS 3.2, Android 7.1.1 (Nougat)
+
+Cairo#2098 - Bug Bot on 2018-05-23T00:47:36.246Z
+
+
+### Can reproduce.
+can reproduce. Leaves no proof and or the bot says nothing 
+| Samsung Galaxy J3 2016 android 7.1.1 version 6.7.2
+
+I can only imagine#8775 - Bug Bot on 2018-05-23T00:47:41.340Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 Edge, Android Alpha 6.7.4, Android 7.0
+
+Vinxe#8187 - Bug Bot on 2018-05-23T00:47:46.253Z
+
+
+### Verified, samsung s6 edge, 6.7.6, android 7.0 - Clayton on 2018-05-23T23:18:58.635Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-23T23:22:53.765Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:26.692Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

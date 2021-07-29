@@ -1,0 +1,174 @@
+[Archived] Emote parsing issue when creating code blocks preceded by a colon (https://trello.com/c/AW2vfS1w)
+
+None
+
+Created: 2019-06-17T22:11:10.014Z
+Latest Update: 2019-08-16T21:24:10.599Z
+
+Reported by TheBackstabi#7692
+
+####Steps to reproduce:
+- Enter text that ends with a colon  
+- Begin a code block without any preceding space  
+- Enter text that contains a colon within the code block  
+- i.e, "This is some sample text:```sample: with a colon```"
+
+####Expected result:
+The code block would display as a code block, with the "This is some sample text:" above it (as it does on Desktop).
+####Actual result:
+The code block is not displayed, instead showing the literal input with the backticks visible.
+####Client settings:
+9.0.9 (909)
+####System settings:
+Galaxy S6 Edge+, 7.0
+
+37642
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-17T22:11:10.014Z
+
+
+### Can reproduce.
+HTC U12+, Android 8.0.0 - Alpha 9.0.9
+
+anonymous kitten#8929 - Bug Bot on 2019-06-17T22:11:17.401Z
+
+
+### Can reproduce.
+iPhone6s iOS 12.3.1
+
+Fluted#7531 - Bug Bot on 2019-06-17T22:11:22.417Z
+
+
+### Can reproduce.
+Can Reproduce, Samsung Galaxy Note 8, Android 9 - Discord Alpha 9.0.9
+
+Danijel#9000 - Bug Bot on 2019-06-17T22:11:27.384Z
+
+
+### Invalid and accidental approval
+
+Fluted#7531 - Bug Bot on 2019-06-17T22:18:08.923Z
+
+
+### Can reproduce.
+CR; Huawei Y7, Android 8.0.0, Alpha 909
+
+Bullseye#8200 - Bug Bot on 2019-06-17T22:55:02.600Z
+
+
+### Can't reproduce.
+Android 9.0,Oppo Find X,Discord 9.0.9
+
+Typhoon#3514 - Bug Bot on 2019-06-18T01:35:39.936Z
+
+
+### Can't reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 909
+
+undermaster#3126 - Bug Bot on 2019-06-18T02:50:09.610Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1 - Alpha 9.0.9
+
+netvs#3688 - Bug Bot on 2019-06-18T04:50:05.962Z
+
+
+### Can reproduce.
+Xiaomi Note 5 pro | Android 8.1, MIUI 10 | Discord Alpha Build: 9.0.9
+
+AHkhan#4760 - Bug Bot on 2019-06-18T05:44:02.803Z
+
+
+### Can reproduce.
+• Samsung Galaxy S5, Android 6.0.1 • Android Alpha 9.0.9
+
+Krobo#4784 - Bug Bot on 2019-06-18T05:47:37.988Z
+
+
+### Can reproduce.
+Redmi Note 4, Android v7, Discord Alpha 9.0.9
+
+Skyla#0002 - Bug Bot on 2019-06-18T06:53:55.504Z
+
+
+### Can reproduce.
+Xiaomi Redmi Note 4 - Android 7.0 - Alpha 9.0.9 (909)
+
+voldemort#6931 - Bug Bot on 2019-06-18T11:23:49.763Z
+
+
+### Can't reproduce.
+Moto E4 on Android 7.1.1 - Discord Alpha 9.0.9
+
+Brightness™#2238 - Bug Bot on 2019-06-18T12:06:37.061Z
+
+
+### Can reproduce.
+Discord Alpha 9.0.9, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-06-18T12:23:47.176Z
+
+
+### Can reproduce.
+Moto E4 on Android 7.1.1 - Discord Alpha 9.0.9 - looked on desktop and saw that it wasn't just a markdown conflict with BugBot's report styling
+
+Brightness™#2238 - Bug Bot on 2019-06-18T22:12:31.492Z
+
+
+### Can't reproduce.
+Motorola Moto G6, 8.0.0 - Alpha 9.0.9
+
+Nicholas#4669 - Bug Bot on 2019-06-18T23:48:02.938Z
+
+
+### Can't reproduce.
+Essential PH-1, Android P Alpha 909
+
+Daffy#7906 - Bug Bot on 2019-06-19T14:15:35.338Z
+
+
+### Timo#1337 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5d080ffdb79a386a9b285693/163b8e9d35d3d13d4bb9b4515b5b7097/3jYr5eW.png added by Bug Bot on 2019-06-19T16:14:08.961Z
+
+
+### Can reproduce.
+Samsung Galaxy A5, Android 8, Stable 9.0.9
+
+Timo#1337 - Bug Bot on 2019-06-19T16:16:12.380Z
+
+
+### Can reproduce.
+Android Beta 9.0.9 - Xiaomi Redmi 4X - Android 7.1.2
+
+💙RIDAY💙#7468 - Bug Bot on 2019-06-21T03:34:57.089Z
+
+
+### Can reproduce.
+Samsung Galaxy S6 7.0, Alpha 9.0.9
+
+Lapras#0001 - Bug Bot on 2019-06-21T04:06:23.822Z
+
+
+### Can reproduce.
+Huawei P10 Lite Android 8.0.0 Discord Beta 9.0.9
+
+MiTonder#0001 - Bug Bot on 2019-07-03T21:22:18.989Z
+
+
+### Can't reproduce.
+CNR, Huawei P smart 2019 9.0.1 ● Android 9 ●  Discord Beta 9.0.9
+
+Dragonic#0001 - Bug Bot on 2019-07-17T09:28:03.243Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:24:10.612Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,82 @@
+[Overlay] a few links that cross multiple lines in a chat, when opening/closing overlay, will cause it to scroll up. SOMETIMES enough to disable Autoscrolling (https://trello.com/c/LdCkmO51)
+
+None
+
+Created: 2019-02-09T19:14:40.240Z
+Latest Update: 2019-04-24T00:53:09.733Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game with Overlay 
+- View/Create a channel which has some large links. (4 Instagram links with embeds was enough for me to work) 
+- Show chat in game. (For better results make the width of the chat smaller.) 
+- Toggle Overlay lock on and off (CTRL + ¬) 
+- (GREAT channels to try the scrolling include rules, annoucement and report-a-bug on D-Testers)
+
+####Expected result:
+Chat stays at the bottom
+####Actual result:
+Chat slowly starts to scroll up. (Either in Overlay lock chat, or in-game chat)
+####Client settings:
+Canary 31941
+####System settings:
+Win10 64x 1809
+
+28324
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-09T19:14:40.240Z
+
+
+### Alipoodle#5025 - https://youtu.be/1vfqVmr9lyE added by Bug Bot on 2019-02-09T19:14:42.708Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 31974
+
+Daffyduck#5364 - Bug Bot on 2019-02-09T19:14:47.655Z
+
+
+### Can reproduce.
+CR; Canary: 31974, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-09T19:14:52.639Z
+
+
+### Can reproduce.
+Can Reproduce; Windows 10 Pro 1809; Discord Canary 31974
+
+Pyknus#0855 - Bug Bot on 2019-02-09T19:14:57.651Z
+
+
+### While these are some reproduceable steps for this bug. This bug has effected me COUNTLESS times as I generally like to view bug-hunter-general-chat while in overlay. I have a short chat so I can see as much of game as I can which makes this bug FAR easier to reproduce. I've also noticed that Discord Message Links (and similar) Seem to be TERRIBLE at causing this bug to happen and sometimes even leaving you scroll up chat 2/3 lines in a single open/close of overlay
+
+Alipoodle#5025 - Bug Bot on 2019-02-09T19:18:02.330Z
+
+
+### Can reproduce.
+Windows 7 pro x64, Canary 31974
+
+Артём#1337 - Bug Bot on 2019-02-10T01:24:44.021Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 31974
+
+Solo#0007 - Bug Bot on 2019-02-10T09:20:31.163Z
+
+
+### Can reproduce.
+Windows 10 x64 Build 1803 canary, Build Number: 31974
+
+Spooker#0001 - Bug Bot on 2019-02-10T13:10:33.705Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

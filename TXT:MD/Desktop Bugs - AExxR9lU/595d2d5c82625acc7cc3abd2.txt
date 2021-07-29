@@ -1,0 +1,108 @@
+[Archived] When a previously-offline server comes back online, it is prepended to the top of the list rather than where it was previously (https://trello.com/c/FeU0GovR)
+
+P3: Will get fixed eventually
+
+Created: 2017-07-05T18:18:04.831Z
+Latest Update: 2019-10-23T23:03:45.461Z
+
+Reported by lluvia#3624
+
+####Steps to reproduce:
+- Join a server that periodically goes offline (usually because it has hit its user cap).
+
+- Move it somewhere in the middle of your server list (anything except the first one. I personally put it 4th out of my 40-some servers.) 
+
+- Observe it going offline and subsequently giving you the (!) icon at the bottom of your server list. 
+
+- When it comes back online, it is prepended to the top of your server list as the first server, rather than where it was previously moved to.
+
+####Expected result:
+It should be where it was previously moved to in the order of your server list.
+####Actual result:
+It is prepended to the top of your server list as the first server.
+####Client settings:
+Web <(https://discordapp.com>) - I can't figure out how to get the exact web version.
+####System settings:
+MacBook Pro, mid-2012, macOS Sierra (Version 10.12.5), Google Chrome, https://discordapp.com Version
+
+1953
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-05T18:18:04.831Z
+
+
+### Can reproduce.
+ Windows 10 Pro x64 Creators Update (1703), Canary 0.0.157 (1943)
+
+Tiemen#0107 - Bug Bot on 2017-07-05T18:18:12.450Z
+
+
+### Can reproduce.
+I feel like this is intended but I'm approving anyways.  Windows 10 x64 bit, Canary 0.0.157
+
+Mr.Caleb#8593 - Bug Bot on 2017-07-05T18:18:17.452Z
+
+
+### Can reproduce.
+ Windows 7 Professional x64, Discord Stable 0.0.297
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-07-05T18:18:22.318Z
+
+
+### Verified - Clayton on 2017-07-05T19:57:56.823Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-05T19:58:10.601Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:27.944Z
+
+
+### test
+
+Tarek#1337 - Bug Bot on 2018-12-12T12:52:46.886Z
+
+
+### Can't reproduce.
+test
+
+Tarek#1337 - Bug Bot on 2018-12-12T12:57:39.633Z
+
+
+### Can reproduce.
+this happens on android as well. Samsung Galaxy Note 8 Android 8.0 - Alpha 8.1.1
+
+J1#0088 - Bug Bot on 2018-12-12T12:59:14.347Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.1.1
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-12T13:00:06.449Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T01:06:38.935Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, OS build 17763.615
+
+Gappy#0001 - Bug Bot on 2019-07-23T15:08:07.554Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 42001 host 0.0.248
+
+Jean20B#4668 - Bug Bot on 2019-07-26T15:39:37.771Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:45.477Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

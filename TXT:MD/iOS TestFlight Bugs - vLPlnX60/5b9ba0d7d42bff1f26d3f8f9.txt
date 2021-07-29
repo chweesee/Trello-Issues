@@ -1,0 +1,94 @@
+[Archived] Opening the mention suggestion drawer, scrolling down, then closing and reopening doesn't reset position fully (https://trello.com/c/4HJptEpO)
+
+None
+
+Created: 2018-09-14T11:51:51.513Z
+Latest Update: 2019-08-25T10:27:51.058Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go to a channel where you have a large mention suggestion drawer 
+- Type the "at" symbol and scroll down in the suggestion drawer 
+- Delete and retype the "at" symbol and observe the position of the drawer 
+- Note: this does not happen every time, so try at least 5 times, and with scrolling different amounts, if it doesn't happen the first time
+
+####Expected result:
+Suggestion drawer position resets to the top
+####Actual result:
+Suggestion drawer position resets halfway scrolled down the first suggestion
+####Client settings:
+TestFlight 2.3.8 (7167)
+####System settings:
+iPhone 6s iOS 12
+
+19627
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-14T11:51:51.513Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 Developer Beta 12, TestFlight 2.3.8 (7167)
+
+Alfie#1582 - Bug Bot on 2018-09-14T11:51:58.852Z
+
+
+### Can reproduce.
+Can reproduce- iPhone X, iOS 11.3 - Discord TestFlight 2.3.8 (7167)
+
+CustomName#9999 - Bug Bot on 2018-09-14T11:52:03.775Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 - TestFlight 2.3.8 (7167)
+
+Xylium#1480 - Bug Bot on 2018-09-14T11:52:08.765Z
+
+
+### Can reproduce.
+iPhone 6s+, iOS 12, Testflight 2.3.8 (7233)
+
+Hyper#0003 - Bug Bot on 2018-09-17T07:29:34.084Z
+
+
+### CNR, ios 11.0, iphone 5s, 2.3.8 (7347) - Clayton on 2018-09-20T00:38:09.517Z
+
+
+### Moved from New Issues to Cannot Reproduce by Clayton on 2018-09-20T00:38:13.744Z
+
+
+### Can reproduce.
+Was able to make it work after mentioning around 5-10 users in a 20 minutes time span, changing servers and going to the old one and opening the drawer. iPhone 6 iOS 12, Testflight 2.3.8 (7416)
+
+Pyros#2326 - Bug Bot on 2018-09-21T01:55:06.462Z
+
+
+### Archived by Tarek on 2019-01-01T23:38:27.844Z
+
+
+### Unarchived by Tarek on 2019-01-02T00:16:28.200Z
+
+
+### Archived by Bug Bot on 2019-02-01T00:30:21.207Z
+
+
+### Unarchived by Pascal on 2019-08-25T10:27:24.661Z
+
+
+### Moved from Cannot Reproduce to New Issues by Pascal on 2019-08-25T10:27:28.825Z
+
+
+### Archived by Pascal on 2019-08-25T10:27:36.608Z
+
+
+### This issue got resubmitted here with new steps: https://trello.com/c/I7wDZL2s - Pascal on 2019-08-25T10:27:51.071Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

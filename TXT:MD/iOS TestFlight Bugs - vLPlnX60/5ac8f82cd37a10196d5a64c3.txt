@@ -1,0 +1,85 @@
+[Archived] Find or start a conversation search is unresponsive and has massive lag when using it (https://trello.com/c/XO28Cu2v)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2018-04-07T16:56:12.080Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to your DMs 
+- Click on the`Find or start a conversation` search there 
+- Try to search for something (better to use only 1 or 2 letter with much results) and observe how the results appear 
+- Also try to close the search while results are still loading
+
+####Expected result:
+Search should run smoothly and allow to instantly close it.
+####Actual result:
+Search is very unresponsive and needs long time to load the results. Also you can't close it while loading the results. The bug especially happens with the iPad version.
+####Client settings:
+Discord Stable 2.2.9
+####System settings:
+iPad Air 2, iOS 11.4 PB 1 & iPhone 6s, iOS 11.3
+
+10412
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-07T16:56:12.080Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.4 beta, Stable 2.2.9. This has been since forever.
+
+Midnight Star#1145 - Bug Bot on 2018-04-07T16:56:19.463Z
+
+
+### Can reproduce.
+CR; Seems to softlock me on iPhone as well. iPhone 6 - iOS 11.4 Stable 2.2.9
+
+Xylium#1480 - Bug Bot on 2018-04-07T16:56:24.433Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.4 - Discord Stable 2.2.9. Search also stacks up server names in some places.
+
+Ghoul#0001 - Bug Bot on 2018-04-07T16:56:29.444Z
+
+
+### Can reproduce.
+iPhone SE - iOS 11.3 stable 2.2.9
+
+Shakenbacon#1769 - Bug Bot on 2018-04-07T19:38:19.012Z
+
+
+### Verified.  - Clayton on 2018-04-27T00:23:39.771Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-27T00:23:43.032Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4, the search is still responsive and no longer needs a long period of time to pop up the results. I used iPhone 8 + running iOS 12 Dev Beta 2 and iPad Air 1st Generation running iOS 11.4.
+
+Because I am unable to reproduce anymore, I am moving this ticket to Claimed Fixed.  - Ghoul on 2018-07-02T18:58:19.863Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-02T18:58:32.597Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:42.163Z
+
+
+### Can reproduce.
+Can still reproduce. iPhone 5s, iOS 12.1.4, TestFlight 2.4.5 (11460)
+
+Solo#0007 - Bug Bot on 2019-02-22T02:44:35.464Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

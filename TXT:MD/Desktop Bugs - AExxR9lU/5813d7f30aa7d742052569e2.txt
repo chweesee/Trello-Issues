@@ -1,0 +1,53 @@
+[Archived] The white "Unread Messages" notifier appears next to servers/channels even if there are no new messages. (https://trello.com/c/4PXTW12g)
+
+None
+
+Created: 2016-10-28T22:57:55.729Z
+Latest Update: 2017-10-17T21:13:24.584Z
+
+Reported by Rocks the Squirrel#2134
+
+####Steps to reproduce: 
+- Have someone send a message in a channel you're not viewing 
+- Have them delete that message without you reading it. 
+
+####Expected result:
+ The notifier disappears because there're no new messages. 
+####Actual result:
+ The notifier remains anyway. (Submited for <@233796393884581888> )
+
+Card Log
+========
+### Added by Jared on 2016-10-28T22:57:55.729Z
+
+
+### Can reproduce.
+Latest windows canary
+
+lahrsean#9501 - Jared on 2016-11-01T04:29:39.049Z
+
+
+### This has been a thing since day 1.  We don't send a push on delete.  Won't Fix. - Jared on 2016-11-04T21:48:51.885Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-11-04T21:48:59.397Z
+
+
+### Can reproduce.
+Macbook Pro 2015, Screen Resolution: 15,4-inch (2880 x 1800), Latest Windows Version
+
+xLars#5484 - Bug Bot on 2017-06-10T12:55:02.518Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:13:22.614Z
+
+
+### Archived by Jared on 2017-10-17T21:13:24.587Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,103 @@
+[Archived] Emoji overlaps mention highlight when there is no space inbetween (https://trello.com/c/HbSWWWuO)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-07-27T16:29:49.767Z
+Latest Update: 2019-01-31T19:58:13.587Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Mention someone and put an emoji right next to the mention, making sure to delete the space inbetween 
+- Make sure the emoji you choose extends out to the left a bit 
+- Send the message and observe where the mention highlight and emoji meet
+
+####Expected result:
+Emoji does not overlap the mention highlight
+####Actual result:
+Emoji overlaps the mention highlight
+####Client settings:
+TestFlight 2.3.6 (6095)
+####System settings:
+iPhone 6s iOS 12 Dev Beta 4
+
+16135
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-27T16:29:49.767Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b5b487dfb53d43facd80fb1/ecdb9b311db977aa8a2b9855b2994f9c/image.png added by Bug Bot on 2018-07-27T16:29:52.154Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+» a r i a#1593 - Bug Bot on 2018-07-27T16:29:57.061Z
+
+
+### Can reproduce.
+can reproduce, iOS 11.3.1, iPhone 6s, TestFlight 2.3.6 (6095)
+
+brxxn#0632 - Bug Bot on 2018-07-27T16:30:02.047Z
+
+
+### Can reproduce.
+Works on my Android device too, with an animated emoji ( <a:chellyREEE:462020225253113866> ) Samsung Galaxy S5 • Build: 6.0.1 • Discord Alpha • Build: 7.1.9
+
+White Falcon#0001 - Bug Bot on 2018-07-27T16:30:07.132Z
+
+
+### Might be an extension of https://trello.com/c/hX5LIh9f
+
+Pascal#0929 - Bug Bot on 2018-07-27T16:48:39.868Z
+
+
+### Can reproduce.
+iOS 12 (PTB #3), Discord TestFlight 2.3.6
+
+Marc#5983 - Bug Bot on 2018-07-28T06:03:33.399Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+Mippy#0001 - Bug Bot on 2018-07-30T03:49:59.980Z
+
+
+### Verified on iPhone 8 + running iOS 12 Dev Beta 6 with iOS TestFlight 2.3.6 (6427). I can see that the part of the emoji overlaps the mention while mentioning a friend and having a dab emoji with no space.
+
+Moving to Verified Bugs. - Ghoul on 2018-08-08T03:00:52.527Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ghoul on 2018-08-08T03:00:57.947Z
+
+
+### Archived by Clayton on 2018-09-07T03:30:02.230Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 Developer Beta 12, TestFlight 2.3.8 (7106)
+
+Alfie#1582 - Bug Bot on 2018-09-08T18:01:16.648Z
+
+
+### Also happens with characters like 'W'
+
+Alfie#1582 - Bug Bot on 2018-09-08T18:02:04.099Z
+
+
+### Unarchived by Clayton on 2018-09-08T18:30:03.341Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:13.599Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

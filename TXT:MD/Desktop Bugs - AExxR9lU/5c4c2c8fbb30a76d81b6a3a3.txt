@@ -1,0 +1,130 @@
+[Archived] Force realoding (Ctrl + R) not working anymore (https://trello.com/c/N8MO1Gby)
+
+P2: Fix can wait a while,
+High
+
+Created: 2019-01-26T09:46:55.504Z
+Latest Update: 2019-02-26T00:30:27.682Z
+
+Reported by Defracted#0001
+
+####Steps to reproduce:
+- Update your Canary client to 31390 
+- Try using Ctrl + R
+
+####Expected result:
+Client should get restarted
+####Actual result:
+Nothing happens
+####Client settings:
+Canary 31390
+####System settings:
+Windows 10 Pro 64-bit (1809)
+
+27076
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-26T09:46:55.504Z
+
+
+### Can reproduce.
+Seems like any hotkey that has CTRL in it will not work. Windows 10 Home x64 v1809 - Discord Canary 0.0.229 Build 31390
+
+Daffyduck#5364 - Bug Bot on 2019-01-26T09:47:02.930Z
+
+
+### Can reproduce.
+CR | Win 10 x64 | Canary,31390
+
+Mr.Freezing#4304 - Bug Bot on 2019-01-26T09:47:07.915Z
+
+
+### Can reproduce.
+Can Reproduce, CTRL+SHIFT+I doesnt work either | Canary,31390
+
+davfsa#7026 - Bug Bot on 2019-01-26T09:47:12.924Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Pro, Discord Canary 31390
+
+1Storm#0001 - Bug Bot on 2019-01-26T11:55:52.711Z
+
+
+### verified, win10, canary 31390 - Clayton on 2019-01-26T12:01:24.873Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-26T12:01:31.261Z
+
+
+### Can't reproduce.
+Can't reproduce, ctrl + r works fine and reloads the client like usual - Windows 10 x64 v1809, Discord Canary 31390
+
+Haru💗#6660 - Bug Bot on 2019-01-26T12:54:14.408Z
+
+
+### This is caused by a module update, not a JS one. You need to fully reload in order to reproduce.
+
+webhp#1337 - Bug Bot on 2019-01-26T17:08:43.037Z
+
+
+### Can reproduce.
+Discord Canary 0.0.229, Build 31390, Windows 10 Home 64-bit (v1803)
+
+Ene#0808 - Bug Bot on 2019-01-26T20:28:29.471Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 31390
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-01-26T21:30:53.555Z
+
+
+### Can reproduce.
+Windows 10 Home x64 build 17763.xxx also affecting ctrl shift i
+
+a cat#4876 - Bug Bot on 2019-01-26T23:19:55.069Z
+
+
+### Fixed!
+
+Fixed in the latest module build:
+``[NATIVE INFO] host 0.0.229, modules: discord_desktop_core: 13, discord_erlpack: 13, discord_spellcheck: 13, discord_utils: 13, discord_voice: 13, discord_game_utils: 13, discord_cloudsync: 13, discord_rpc: 13, discord_overlay2: 13, discord_dispatch: 1, discord_modules: 13, discord_contact_import: 13, discord_vigilante: 13, discord_hook: 13``
+
+Windows 10 Pro 64-bit (1809) - Tarek on 2019-01-27T00:06:39.515Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2019-01-27T00:06:46.384Z
+
+
+### Can't reproduce.
+Canary Build 31400 Host 0.0.229 Windows 10 Home x64 1803
+
+Rashaun#8467 - Bug Bot on 2019-01-27T00:08:49.333Z
+
+
+### Can't reproduce.
+Discord Canary v0.0.229 Build 31400 - Windows 10 Pro x64 v1809
+
+webhp#1337 - Bug Bot on 2019-01-27T00:09:56.635Z
+
+
+### Can't reproduce.
+Cannot reproduce anymore as of Discord Canary Build 31400 on Windows 10 Home x64 1809. Refreshes just fine with the CTRL + R
+
+Ghoul#0009 - Bug Bot on 2019-01-27T00:10:48.137Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-01-27T00:10:48.394Z
+
+
+### Archived by Bug Bot on 2019-02-26T00:30:27.692Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

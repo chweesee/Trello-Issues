@@ -1,0 +1,63 @@
+[Archived] Long channel names break the invite screen (https://trello.com/c/wXGtMrWz)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-12-17T20:58:04.460Z
+Latest Update: 2019-01-31T19:58:43.122Z
+
+Reported by Luca#8366
+
+####Steps to reproduce:
+- Have a long channel name 
+- Open the create instant invite view for that channel
+
+####Expected result:
+Channel name is wrapped early enough to not block the Close button
+####Actual result:
+Channel name overlaps with Close button
+####Client settings:
+Discord Stable 2.1.2
+####System settings:
+iPhone 5s iOS 10.3.2
+
+7153
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-17T20:58:04.460Z
+
+
+### Luca#8366 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a36da5c4442c0a9c5d61d23/348ad17e795402cb9f9c23e8a2e025b9/BVbP8P3.png added by Bug Bot on 2017-12-17T20:58:06.944Z
+
+
+### Can reproduce.
+Maybe also adjust the box around it to fit properly under the text; CR, iPhone 5s, iOS 10.0.1, Stable 2.1.2
+
+HeroGamers#4574 - Bug Bot on 2017-12-17T20:58:11.852Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.2.1 & iPad Air 2 with iOS 11.2.5 Public Beta, TestFlight 2.2.0 (Build: 1910)
+
+Pascal#0929 - Bug Bot on 2017-12-17T20:58:16.854Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 11.2.5, Discord TestFlight 2.2.0 (1910)
+
+💜Christmas Kitty💗#4567 - Bug Bot on 2017-12-17T20:58:21.863Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2017-12-21T09:51:17.043Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:58:43.134Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

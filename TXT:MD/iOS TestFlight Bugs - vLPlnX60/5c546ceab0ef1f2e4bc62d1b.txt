@@ -1,0 +1,130 @@
+[Archived] Escaping twemojis on desktop crashes your device (iOS 12.2 dev beta specific) (https://trello.com/c/FY1F9hcw)
+
+None
+
+Created: 2019-02-01T15:59:38.639Z
+Latest Update: 2019-03-21T22:15:15.326Z
+
+Reported by Xylium#5800
+
+####Steps to reproduce:
+- Own a server 
+- have an empty channel 
+- on desktop, escape an twemoji (example \ 🚪) and send it in that channel 
+- open mobile in that channel 
+- observe your client crashing
+
+####Expected result:
+You shouldn't be crashing
+####Actual result:
+Your client crashes
+####Client settings:
+Testflight 2.4.4 (11030)
+####System settings:
+iPhone 6, iOS 12.2 (dev beta)
+
+27523
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-01T15:59:38.639Z
+
+
+### Xylium#5800 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5c546ceab0ef1f2e4bc62d1b/bbc1385daf2af796b3d8d3733d610bae/c40291.png added by Bug Bot on 2019-02-01T15:59:42.949Z
+
+
+### Can reproduce.
+Can Reproduce - I was able to reproduce by sending 👺 escaped on iOS - TestFlight 2.4.4 (11051) iOS 12.2 Dev Beta
+
+Rashaun#8467 - Bug Bot on 2019-02-01T15:59:46.030Z
+
+
+### Can reproduce.
+TestFlight 2.4.4 (11051) iPad 6th iOS 12.2 Dev Beta
+
+_Adam_#2917 - Bug Bot on 2019-02-01T15:59:51.045Z
+
+
+### Can reproduce.
+iPhone 5S, iOS 12.1.2, Test Flight 2.4.4
+
+Can Göksoy#8645 - Bug Bot on 2019-02-01T15:59:56.044Z
+
+
+### Can reproduce.
+iPhone X, iOS 12.2 (Dev Beta 1), TestFlight 2.4.4 (11051)
+
+Keons#0001 - Bug Bot on 2019-02-01T16:05:26.174Z
+
+
+### Can reproduce.
+iPhone 7; iOS 12.2; Discord TestFlight (2.4.4)
+
+Puyodead1#0001 - Bug Bot on 2019-02-01T18:21:59.444Z
+
+
+### Extension to this issue is: if you have an empty channel and you try to escape an twemoji on mobile, you crash. Example by doing this on mobile: “\ 🚪”
+
+Xylium#5800 - Bug Bot on 2019-02-01T22:13:54.459Z
+
+
+### Moved from New Issues to Notable Issues by Fanghao on 2019-02-01T22:42:30.547Z
+
+
+### Can reproduce.
+iPhone X - iOS 12.1.2, TestFlight 2.4.4 (11051)
+
+CustomName#9999 - Bug Bot on 2019-02-02T16:57:23.927Z
+
+
+### Can reproduce.
+iPhone 8+ - iOS 12.2 (public beta) - Discord (2.4.4)
+
+Cliff#0001 - Bug Bot on 2019-02-03T17:27:40.952Z
+
+
+### Can reproduce.
+iPhone 6S iOS 12.2 Developer Beta
+
+oolivero45#7468 - Bug Bot on 2019-02-07T15:49:32.461Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Fanghao on 2019-02-09T00:39:59.764Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Victoria on 2019-02-21T18:49:10.988Z
+
+
+### Can't reproduce.
+Twemoji just shows text - TestFlight 2.4.5 (11460) iPhone 6s iOS 12.2 Dev Beta 2
+
+Rashaun#8467 - Bug Bot on 2019-02-21T18:50:36.083Z
+
+
+### Can't reproduce.
+iPad Pro (11 inch), iOS 12.2 (PB 3) - TestFlight 2.4.5 (11460)
+
+Pascal#0929 - Bug Bot on 2019-02-21T18:53:07.849Z
+
+
+### Can't reproduce.
+Can no longer reproduce this, as it just shows plain text. iPhone 6, iOS 12.2 (dev beta 3) - TestFlight 2.4.5 (11460)
+
+Xylium#5800 - Bug Bot on 2019-02-21T20:05:12.353Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-02-21T20:05:12.610Z
+
+
+### This ticket has been in Verified Fixed for more than a month with no activity. So archiving. - Ghoul on 2019-03-21T22:15:12.129Z
+
+
+### Archived by Ghoul on 2019-03-21T22:15:15.336Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

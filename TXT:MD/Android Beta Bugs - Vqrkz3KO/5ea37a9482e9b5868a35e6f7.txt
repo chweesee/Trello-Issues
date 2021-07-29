@@ -1,0 +1,72 @@
+[Likely Samsung Specific] When typing two channels out (after autocompleting the first), the first one will be deleted (https://trello.com/c/Wff76zCR)
+
+None
+
+Created: 2020-04-24T23:47:32.979Z
+Latest Update: 2020-07-16T05:46:30.534Z
+
+Reported by ramune#7777
+
+####Steps to reproduce:In chat: type "#" and click one of the recommended channel suggestions 
+- Once you have that channel automatically typed out, attempt to add another channel to your message (NO ADDITIONAL SPACE AFTER) with "#" 
+- You will see that the first channel you typed out will remove itself and you will be left with "##", even though Discord automatically added a space after the first channel's autocompletion
+
+####Expected result:
+Two channels should appear normally without removing the entire first channel
+####Actual result:
+Discord will remove the first autocompleted channel text (except "#") if typing out two channels, resulting in "##"
+####Client settings:
+v17.1 (1101)
+####System settings:
+Samsung Galaxy S9, Android 10
+
+55118
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-24T23:47:32.979Z
+
+
+### Cookie#3165 - https://youtu.be/-DR71K9v3OU added by Bug Bot on 2020-04-24T23:47:35.536Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy S9+, Android 10, Discord 19.3
+
+Creedoo#3626 - Bug Bot on 2020-04-24T23:47:40.499Z
+
+
+### Can reproduce.
+{CR} **Note** - I can ONLY reproduce with the Default Samsung Keyboard! | Samsung Galaxy S7 Edge, Android 8, Discord 19.2 (Tested on Swiftkey & Samsung Keyboard)
+
+TigerYT#0001 - Bug Bot on 2020-04-24T23:47:45.465Z
+
+
+### Can reproduce.
+[CR] Samsung A10 - Android 9 - Discord 20-Alpha5 (1113).- Only Samsung keyboard stock
+
+Cookie#3165 - Bug Bot on 2020-04-24T23:47:50.472Z
+
+
+### Appears to be an extension or replacement of https://trello.com/c/8iAg2g4S
+
+wakfi#6999 - Bug Bot on 2020-04-25T00:29:11.083Z
+
+
+### This shouldn't have been pushed through in my opinion. This is a Default Samsung Keyboard issue and it works with every single character, not only '#'.
+
+Bryth#1086 - Bug Bot on 2020-04-25T00:29:18.833Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S10e, Android 10.0, Discord 19.5 (1116)
+
+Zéphyr#0001 - Bug Bot on 2020-04-26T00:25:43.653Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

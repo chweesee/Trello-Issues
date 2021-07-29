@@ -1,0 +1,86 @@
+[Archived] Red ping badge appear again when someone edit message where you was pinged in (https://trello.com/c/6DLWMeYC)
+
+P2 - Can wait a while,
+Low
+
+Created: 2018-01-08T01:26:24.171Z
+Latest Update: 2018-06-02T17:22:40.269Z
+
+Reported by ks0908#8526
+
+####Steps to reproduce:
+- get someone to ping you while you don't look at channel 
+- get person to edit their message (don't check channel before that)
+
+####Expected result:
+i should get pinged once
+####Actual result:
+i get pinged twice
+####Client settings:
+Alpha 6.0.6
+####System settings:
+lg Xpower on android 6.0.1
+
+7688
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-08T01:26:24.171Z
+
+
+### Can reproduce.
+Pixel XL 2, Android 8.1; Discord 6.0.6
+
+mrkirby153#7840 - Bug Bot on 2018-01-08T01:26:31.582Z
+
+
+### Can reproduce.
+CR on Pixel 2 XL (Oreo 8.1.0), Discord Alpha 6.0.6
+
+Potts#4157 - Bug Bot on 2018-01-08T01:26:36.657Z
+
+
+### Can reproduce.
+CR Samsung Galaxy J2 Android 5.1. discord alpha 6.0.6
+
+Garry#4825 - Bug Bot on 2018-01-08T01:26:41.609Z
+
+
+### Can reproduce.
+If the mesage you're editing is the latest message in the channel and there is no unreads, the extra pings get stuck until your restart the app. CR Discord Alpha 6.0.6, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-01-08T23:45:11.934Z
+
+
+### Verified.  - Clayton on 2018-01-10T00:52:54.577Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-10T00:53:22.991Z
+
+
+### this also heapens in DMs and when something else i causing edit events to be emitted (like a bot DM with an embed), not always when that message is the first to be received from that user
+
+AEnterprise#4693 - Bug Bot on 2018-02-03T14:44:16.632Z
+
+
+### Moved from Verified Bugs to Serious Issues by Sam Shih on 2018-02-25T11:39:28.329Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-03-22T23:25:40.815Z
+
+
+### Moved from Serious Issues to Fixed Bugs by Clayton on 2018-03-22T23:25:44.697Z
+
+
+### archiving for being fixed over 30 days without activity - Tim on 2018-06-02T17:22:24.502Z
+
+
+### Archived by Tim on 2018-06-02T17:22:40.272Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

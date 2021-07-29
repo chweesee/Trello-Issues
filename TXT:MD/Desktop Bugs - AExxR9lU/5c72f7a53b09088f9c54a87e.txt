@@ -1,0 +1,128 @@
+[Archived] Game modal unexpectedly re-appears when clicking a channel topic. (https://trello.com/c/PaQQhrME)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-02-24T19:59:33.316Z
+Latest Update: 2019-04-02T03:00:05.082Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Go to a text channel that has a channel topic. 
+- Open a game modal (e.g. Minecraft) from a user activity. 
+- Make sure to have friends playing this game. 
+- Click one of these friends, and then click one of their mutual friends. You don't need to open their game modal too (like I do in the GIF). 
+- Close all open modals, and now repeatedly open and close the channel topic a few times by clicking at the same spot.
+
+####Expected result:
+The game modal you visited first should not re-appear when clicking in the channel topic.
+####Actual result:
+The game modal you visited first does re-appear when clicking the channel topic.
+####Client settings:
+Web Canary 32668
+####System settings:
+HP Chromebook G5 11 - Chrome 72.0.3626.97 (x64)
+
+29743
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-24T19:59:33.316Z
+
+
+### Can reproduce.
+Was able to replicate, Canary 32668, Windows 10
+
+Lelantos#4866 - Bug Bot on 2019-02-24T19:59:40.825Z
+
+
+### Can reproduce.
+Windows 10 Canary 32668
+
+Mr. Proper#2394 - Bug Bot on 2019-02-24T19:59:45.807Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - canary 32668
+
+Isabel#0002 - Bug Bot on 2019-02-24T19:59:50.844Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c72f7a53b09088f9c54a87e/197909438e496695aef4015148df15e7/bZOIZEM.gif added by Bug Bot on 2019-02-24T20:00:01.802Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c72f7a53b09088f9c54a87e/983571fc9997a13f169983721fc79f84/bZOIZEM.gif added by Bug Bot on 2019-02-24T20:00:02.548Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32668
+
+Daffyduck#5364 - Bug Bot on 2019-02-24T20:05:01.242Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809), Discord Canary 32668
+
+Clay#0001 - Bug Bot on 2019-02-24T21:48:40.445Z
+
+
+### Can reproduce.
+Windows 10 Home v10.0.1734 Canary 29743
+
+Killtracity#0001 - Bug Bot on 2019-02-24T23:48:21.828Z
+
+
+### Can reproduce.
+CR; Canary: 32668, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-02-25T11:14:40.987Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), canary 32668
+
+Defracted#1337 - Bug Bot on 2019-02-25T17:10:39.312Z
+
+
+### CNR, Canary 32862 W10 1809 - Tarek on 2019-02-27T09:36:30.132Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2019-02-27T09:36:36.118Z
+
+
+### Can reproduce.
+Discord Canary 0.0.232, Build 32982, Windows 10 Home 64-bit (v1803) | I cannot reproduce with the steps listed, but I can quite frequently by following these:
+- Find someone playing a game that has a preview card and open their profile
+- Click on the game icon to open the preview card
+- Click on the user's icon from the "Now playing" section to open their profile again
+- Open the game's preview card once again and then close everything with the ESC key
+- Now go into a server you have Manage Server permission in and open the Server Region modal in Server Settings -> Overview
+- Press the ESC key twice to close the Server Region modal and Server Settings panel and quite frequently the game preview card will reappear (so give it a few attempts if you can't reproduce)
+
+Ene#0808 - Bug Bot on 2019-02-28T09:28:23.309Z
+
+
+### Can reproduce with Ene's  steps, Canary 32982. 
+
+Verified! - Tarek on 2019-02-28T09:30:23.576Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Tarek on 2019-02-28T09:30:27.887Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 33117
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-03T02:59:19.440Z
+
+
+### Archived by Bug Bot on 2019-04-02T03:00:05.095Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

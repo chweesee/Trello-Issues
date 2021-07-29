@@ -1,0 +1,92 @@
+[Archived] Instant invite link doesn't update when toggling off the "never expire" option (https://trello.com/c/v3921r02)
+
+None
+
+Created: 2017-08-08T17:00:18.620Z
+Latest Update: 2017-12-02T16:34:19.752Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Go to a server that you can generate invite links for 
+- Tap on "Create Instant Invite" 
+- Toggle off the "Set this link to never expire" option 
+- Press the back button and go to Server Settings > Instant Invites 
+- Observe that a new invite link that expires in 24h was created, but Discord did not swap the one that never expires for it when you toggled off the option in the invite creation screen.
+
+####Expected result:
+When toggling off the option, the app should swap the instant invite link that never expires for the newly created one which expires in 24h like on the desktop clients
+####Actual result:
+When toggling off the option, the instant invite that never expires stays, it's not swapped out for the newly created one which expires in 24h
+####Client settings:
+Discord Alpha 4.0.3 (403)
+####System settings:
+Samsung Galaxy S7 edge (SM-G935F), Android Nougat 7.0
+
+2933
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-08T17:00:18.620Z
+
+
+### Curse Broken#8659 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5989ee228fda39c855b7ea01/2ccc35933e9fcef1d5d925eb9fce7fcf/MOM61st.gif added by Bug Bot on 2017-08-08T17:00:22.181Z
+
+
+### Curse Broken#8659 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5989ee228fda39c855b7ea01/7677e327846ffefa77d58a84600063ba/2017_08_08_11_19_00.gif added by Bug Bot on 2017-08-08T17:00:24.226Z
+
+
+### Can reproduce.
+CR, Android Alpha 4.0.3(403) OnePlus 5 on Android 7.1.1
+
+Tarek1337#0379 - Bug Bot on 2017-08-08T17:00:26.996Z
+
+
+### Can reproduce.
+I pasted both types of invite links and both were the same regardless of the toggled option to never expire. Samsung Galaxy S8+ 7.0 Nougat 《☆》 Android Alpha 4.0.3 (403)
+
+Mr.Caleb#8593 - Bug Bot on 2017-08-08T17:00:31.102Z
+
+
+### Can reproduce.
+CR android alpha 4.0.3 Samsung S7 Edge android 7.0
+
+Cygan#7117 - Bug Bot on 2017-08-08T17:00:36.112Z
+
+
+### Can't reproduce.
+4.0.3 (403) - OnePlus 3T - Android 7.1.2 (LineageOS)
+
+jasch#4447 - Bug Bot on 2017-08-08T17:34:19.577Z
+
+
+### Can reproduce.
+4.0.4(404) - HTC Desire 526 5.1
+
+Nyadeelif (Nyad)#8930 - Bug Bot on 2017-08-09T02:14:23.742Z
+
+
+### Can't repro,  - Clayton on 2017-08-09T23:50:04.518Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-08-09T23:50:12.108Z
+
+
+### Can reproduce.
+Moto G4 Android 7.0 Alpha 5.4.7
+
+Azrael#9808 - Bug Bot on 2017-10-25T17:41:47.035Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:34:13.340Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:34:19.755Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

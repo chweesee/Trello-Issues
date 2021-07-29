@@ -1,0 +1,80 @@
+[Archived] Letting Discord kill itself or killing it via recent apps will cause Discord to throw an IllegalStateException and crash because it isn't allowed to start the GameDetectionService [AOSP-based ROMs Specific (eg. Pixel and Nexus devices)] (https://trello.com/c/0CNG1xUC)
+
+None
+
+Created: 2018-08-06T19:10:06.696Z
+Latest Update: 2019-01-01T15:28:52.917Z
+
+Reported by Lava#9562
+
+####Steps to reproduce:
+- Turn on game detection if you haven't already 
+- Open recent apps 
+- Kill Discord 
+- Wait for about 5 seconds 
+- Note that this doesn't happen if you have just turned on game detection
+
+####Expected result:
+Nothing. It should close and that's it
+####Actual result:
+System reports that Discord has stopped because it could not start the GameDetectionService and crashes. You could no longer receive notifications as well. The crash dialog could show up twice if you were to receive a notification (which wouldn't appear)
+####Client settings:
+Discord Alpha 726
+####System settings:
+Samsung Galaxy J7 Prime, LineageOS 15.1 (Oreo 8.1)
+
+17016
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-06T19:10:06.696Z
+
+
+### Can reproduce.
+Pixel 2 XL - Android 8.1 - Alpha 7.2.6
+
+mrkirby153#7840 - Bug Bot on 2018-08-06T19:10:14.392Z
+
+
+### Can reproduce.
+Can reproduce; Pixel 2 XL, Android 8.1 - Android Alpha 7.2.6
+
+Lewis#0334 - Bug Bot on 2018-08-06T19:10:19.405Z
+
+
+### Can reproduce.
+Can Reproduce Nexus 5x Android 8.1.0 Android Alpha 7.2.6
+
+Azrael#6867 - Bug Bot on 2018-08-06T19:10:24.471Z
+
+
+### Can't reproduce.
+Microsoft Surface 2 Windows 8.1 RT with Nvidia Tegra 4 processor 32 bit ARM
+
+Kaden303#4560 - Bug Bot on 2018-08-06T21:05:45.302Z
+
+
+### Can reproduce.
+Nexus 6, Android 8.1.0 , Alpha 7.2.6
+
+Ritsuko (MC)#4405 - Bug Bot on 2018-08-06T21:08:36.087Z
+
+
+### Moved from User Reported Bugs to Game Detection Bugs by Clayton on 2018-08-07T21:51:23.062Z
+
+
+### Moved from Game Detection Bugs to Cannot Reproduce by Jeff Cailteux on 2018-11-21T00:16:30.892Z
+
+
+### Archived due to being inactive for 30+ days in cannot reproduce list. - Tarek on 2019-01-01T15:28:52.269Z
+
+
+### Archived by Tarek on 2019-01-01T15:28:52.920Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

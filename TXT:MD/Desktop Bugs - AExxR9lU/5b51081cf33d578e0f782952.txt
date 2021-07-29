@@ -1,0 +1,69 @@
+[Archived] When editing in a mention with an ID, it autoresolves in the edit box, which will break more if you do in an another server to do a cross-server mention (https://trello.com/c/KWqd5Ws7)
+
+None
+
+Created: 2018-07-19T21:52:28.584Z
+Latest Update: 2019-04-22T07:47:36.083Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Send a normal message 
+- Then edit the message and mention something via <@ > or <# > and so on 
+- Observe how it automatically resolves
+
+####Expected result:
+It shouldn't resolve the mention until you have successfully edited message, rather than doing it in the edit modal
+####Actual result:
+It resolves the mention in the edit box
+####Client settings:
+Discord Canary 0.0.211 (19154)
+####System settings:
+Windows 10 Pro 64-bit (1803)
+
+15669
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-19T21:52:28.584Z
+
+
+### Tarek#1337 - https://i.imgur.com/9KBnQk6.gifv added by Bug Bot on 2018-07-19T21:52:31.157Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211, Build 19154, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-07-19T21:52:35.997Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 19154
+
+Kuuhaku#4503 - Bug Bot on 2018-07-19T21:52:41.148Z
+
+
+### Can reproduce.
+CR. Canary 19154, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-07-19T21:52:46.068Z
+
+
+### Moved from User Reported Bugs to Message Update Bugs by Tarek on 2018-07-19T21:52:46.130Z
+
+
+### Moved from Message Update Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2018-07-20T01:42:10.656Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:37:29.150Z
+
+
+### Archived by Jared on 2018-08-21T23:37:30.272Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

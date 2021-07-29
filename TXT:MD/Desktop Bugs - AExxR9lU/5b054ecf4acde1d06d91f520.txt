@@ -1,0 +1,70 @@
+[Archived] Images in Emoji Picker have extraneous lines at 90% (or 110%) zoom (https://trello.com/c/P8hUTz1a)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-23T11:21:51.734Z
+Latest Update: 2018-10-22T20:21:18.831Z
+
+Reported by ash#0001
+
+####Steps to reproduce:
+- Set zoom level to 90% 
+- Open emoji picker 
+- Scroll to Twemoji Nature/Food
+
+####Expected result:
+Images show with no stray pixels
+####Actual result:
+Icons show overlapping pixels from other images on the sprite sheet
+####Client settings:
+Canary 15919
+####System settings:
+MacOS 10.13.3, rMBP2015
+
+13222
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-23T11:21:51.734Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b054ecf4acde1d06d91f520/36d67ca0f32005dcc309c692e30708de/unknown.png added by Bug Bot on 2018-05-23T11:21:54.226Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b054ecf4acde1d06d91f520/93c8b961ee7fa9a0748486bc8597350a/unknown.png added by Bug Bot on 2018-05-23T11:21:54.264Z
+
+
+### Can reproduce.
+macOS 10.13.4 Stable 15665 (Zoom: 90) & PTB 15665 (Zoom: 90) & Canary 15919 (Zoom: 90) --- Windows 10 1709 PTB 15665 (Zoom: 90) https://i.dabbitpri.me/py6umqkwt6.png
+
+IPv4#0001 - Bug Bot on 2018-05-23T11:21:59.085Z
+
+
+### Can reproduce.
+CR at 90 and 175 zoom Windows 10 1803 x64, canary build 15919
+
+AEnterprise#4693 - Bug Bot on 2018-05-23T11:22:05.198Z
+
+
+### Can reproduce.
+MacBook Air 2017 High Sierra 10.13.4, Build Number: 15919
+
+KingMarine#5676 - Bug Bot on 2018-05-23T11:22:09.137Z
+
+
+### Verified, Canary 15996, macOS 10.12.6 - Clayton on 2018-05-23T22:24:09.280Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-23T22:24:15.682Z
+
+
+### Archived by Clayton on 2018-10-22T20:21:18.833Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

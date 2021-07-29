@@ -1,0 +1,78 @@
+[Archived] You can't see new messages in channels you previously had access to once you regain access to said channel until you reload your client (https://trello.com/c/tCUR75go)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-24T22:02:52.688Z
+Latest Update: 2018-10-22T20:23:37.936Z
+
+Reported by Logiz#0001
+
+####Steps to reproduce:
+- Have access in a channel 
+- Have someone remove your access from said channel 
+- Get the other person to type new messages in said channel 
+- Trick them into giving you access to the channel again 
+- Observe
+
+####Expected result:
+You should see all messages you've missed in the channel while you didn't have access to the channel after you regain access.
+####Actual result:
+The latest message in the channel is the one you saw before you lost access until you reload your client
+####Client settings:
+Canary Build 19623
+####System settings:
+Windows 10, 1083
+
+15981
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-24T22:02:52.688Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Home x64 (Version 1803), Discord Canary Build 19623. Sometimes, the message history will make the channel to look like it has been created but no one has posted it.
+
+Ghoul#0009 - Bug Bot on 2018-07-24T22:03:00.693Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (17134) | Discord Canary Build 19623
+
+» a r i a#1593 - Bug Bot on 2018-07-24T22:03:05.206Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 19623
+
+Xylium#1480 - Bug Bot on 2018-07-24T22:03:10.231Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Build 1803 Discord Canary Build 19623
+
+R0shi#9716 - Bug Bot on 2018-07-24T22:18:36.515Z
+
+
+### Can reproduce.
+Can Reproduce ¬ Manjaro Linux 18.0 (Illyria) - Kernel Version 4.18.0-1-MANJARO - KDE Plasma 5.13.3 - Canary Build 19623 ¬ Also occurs on Android (Samsung Galaxy S9+ - Android 8.0.0 - Android Alpha 7.1.2)
+
+Kydros Elizabeth LeSaki#3217 - Bug Bot on 2018-07-24T22:22:34.680Z
+
+
+### verified, macos 10.12.6, canary 19879 - Clayton on 2018-07-26T22:28:23.163Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-26T22:28:28.252Z
+
+
+### Archived by Clayton on 2018-10-22T20:23:37.938Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

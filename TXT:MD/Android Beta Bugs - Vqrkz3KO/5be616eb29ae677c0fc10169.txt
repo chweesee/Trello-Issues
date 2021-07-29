@@ -1,0 +1,97 @@
+[Archived] Inviting to a server someone who has blocked you via the Invite People screen will cause the error not to be properly handled (it fails silently and an error is thrown in debug logs) (https://trello.com/c/3QjtISf5)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-11-09T23:23:23.436Z
+Latest Update: 2018-12-27T17:30:11.062Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Make sure you have access to the Invite People feature on Android 
+- Send a DM to someone, so that the user can be found in Invite People search 
+- Have the user block you  
+- Go to a server and press Instant Invite in channel list 
+- Search the user in Invite People screen 
+- Hit Invite
+
+####Expected result:
+It should handle the error properly and show an explicit error message. If it is intended to fail silently, then it should handle it gracefully and not puke an error in debug logs
+####Actual result:
+It silently fails, you won't know what happened. If you go to user settings > debug, you can notice an error message showing that the error wasn't handled
+####Client settings:
+Discord Alpha 7.8.6
+####System settings:
+Huawei Mate 9 Android 8.0
+
+22921
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-09T23:23:23.436Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5be616eb29ae677c0fc10169/939ff793c3ef70493873149557e4ad4b/IMG_20181109_225255.jpg added by Bug Bot on 2018-11-09T23:23:25.831Z
+
+
+### Alex1304#9704 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5be616eb29ae677c0fc10169/476ad26a283c00b21254a01ed6b2304c/PicsArt_11-09-11.21.41.jpg added by Bug Bot on 2018-11-09T23:23:25.867Z
+
+
+### Can reproduce.
+CR, Google Pixel 2 XL, Android 9.0.0 (Patch 9/5), Discord Alpha 7.8.6
+
+aditya#0001 - Bug Bot on 2018-11-09T23:23:30.795Z
+
+
+### Can reproduce.
+Xiaomi Mi A1, Android 9.0, Discord Alpha 7.8.6
+
+Haru😍🖤#6660 - Bug Bot on 2018-11-09T23:23:35.881Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8,Android 8.0.0,Discord Alpha 7.8.6 {CR}
+
+Octillion#6666 - Bug Bot on 2018-11-09T23:23:40.908Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 7.8.6
+
+Hole#0001 - Bug Bot on 2018-11-10T00:58:39.134Z
+
+
+### Can reproduce.
+CR, also works if you block them as well - Android 7.1.1, Discord 7.8.6
+
+Wolf#9001 - Bug Bot on 2018-11-10T01:10:26.661Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime, Android 6.0.1, Discord Alpha 7.8.6
+
+AmirAmani#0102 - Bug Bot on 2018-11-10T10:37:48.816Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.8.6
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-10T11:32:38.113Z
+
+
+### minor - Clayton on 2018-11-13T02:25:26.472Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-13T02:25:32.485Z
+
+
+### Archived by Bug Bot on 2018-12-27T17:30:11.064Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

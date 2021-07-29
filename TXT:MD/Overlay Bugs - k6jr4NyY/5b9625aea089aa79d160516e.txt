@@ -1,0 +1,58 @@
+Full screening videos in the Overlay causes them to be improperly sized if the game's resolution is below 1920 x 1080 (https://trello.com/c/78kcv3oP)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-09-10T08:05:02.134Z
+Latest Update: 2019-04-24T00:53:10.718Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Open up a game that's resolution is below 1920 x 1080 
+- Open the Overlay and find an MP4 or YouTube video in a chat channel 
+- Play and full screen the video and observe
+
+####Expected result:
+The video should resize to fit the smaller resolution game
+####Actual result:
+The video doesn't resize, showing only the top left corner and hiding the bottom right buttons
+####Client settings:
+Discord Canary 0.0.211, Build 23321
+####System settings:
+Windows 10 Home 64-bit (v1803)
+
+19381
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-10T08:05:02.134Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (23321) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-09-10T08:05:09.402Z
+
+
+### Can reproduce.
+CR Windows 10 Pro Build 1803, 4K DPI scaled (running at 720p) and Canary 23321
+
+JakeMakesStuff#0001 - Bug Bot on 2018-09-10T08:05:14.401Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 23321
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-10T08:05:19.408Z
+
+
+### verified, win10, 23321 - Clayton on 2018-09-10T21:11:28.805Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

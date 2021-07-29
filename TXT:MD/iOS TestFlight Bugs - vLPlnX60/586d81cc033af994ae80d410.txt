@@ -1,0 +1,86 @@
+[Archived] Denying voice channel permissions for any roles you own crashes app (https://trello.com/c/yyVViDnW)
+
+P1 - Severe
+
+Created: 2017-01-04T23:14:20.290Z
+Latest Update: 2017-10-17T20:57:55.166Z
+
+Reported by Tiemen#0107
+
+####Steps to reproduce: 
+- Go to a server where you can manage channels, but don't have the Administrator permission and aren't the owner of 
+- Edit a voice channel 
+- Go to the channel permissions 
+- Add/edit any roles you own (<@&259909937403133953> counts too) 
+- Deny any of its permissions 
+
+####Expected result:
+ You can't deny the permission like on desktop and only have the PASSTHROUGH and ALLOW options, or trying to deny will give you a message that you can't 
+####Actual result:
+ App crashes 
+####System settings:
+ iPhone 7, iOS 10.2, 1.8.1
+
+Card Log
+========
+### Added by Jared on 2017-01-04T23:14:20.290Z
+
+
+### Can reproduce.
+iPad Mini, latest TestFlight
+
+rovertdude#3439 - Jared on 2017-01-04T23:14:26.411Z
+
+
+### Can reproduce.
+9S 10.1.1
+
+Dabbit Prime#0896 - Jared on 2017-01-04T23:14:35.320Z
+
+
+### With `<@&259909937403133953>` I meant the `@everyone` role
+
+Tiemen#0107 - Jared on 2017-01-04T23:17:09.394Z
+
+
+### Verified - Jared on 2017-01-27T20:14:02.120Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-27T20:14:10.438Z
+
+
+### Can reproduce.
+iOS 10.1.1, TestFlight Latest
+
+CyberiumShadow#0754 - Jared on 2017-02-15T07:40:33.487Z
+
+
+### This Issue also affects regular text channels
+
+CyberiumShadow#0754 - Jared on 2017-02-15T07:41:40.224Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2017-04-04T23:34:18.243Z
+
+
+### if a user can only manage channels but not manage roles. they wont see the permission screens. cant repro. - Fanghao on 2017-06-10T00:32:20.984Z
+
+
+### This was fixed. Previously, the "Pretty sure you don't want to do this" pop up wouldn't appear and would let you edit the permission anyway. Now it does pop up, preventing the edit and thus the crash. - Jared on 2017-06-12T18:27:29.942Z
+
+
+### Moved from Serious Issues to Verified Fixed by Jared on 2017-06-12T18:27:33.525Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:57:54.314Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:57:55.168Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

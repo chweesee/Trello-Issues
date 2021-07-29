@@ -1,0 +1,89 @@
+[Archived] If the application language or theme is changed from another device while you are in the confirmation of connecting to another device with the QR Code, the existing account linking process ends. (https://trello.com/c/JvLAm7Vt)
+
+None
+
+Created: 2020-01-17T03:57:22.377Z
+Latest Update: 2020-02-20T21:31:53.532Z
+
+Reported by Smokepurpp#6012
+
+####Steps to reproduce:Go to Settings. 
+- Click "Scan QR Code" button. 
+- Scan QR code. 
+- Do not approve or deny incoming alert. 
+- Now change application language or theme from another device (ex. desktop). 
+- Observe device from which you started QR code scan.
+
+####Expected result:
+QR code scan continues.
+####Actual result:
+You will receive a warning that computer is internet connection disconnected.
+####Client settings:
+Discord Alpha 10.2.1
+####System settings:
+Casper Via M3, Android 7.0
+
+51702
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-17T03:57:22.377Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy S9+, Android 9.0, Discord 10.2.2
+
+Creedoo#3626 - Bug Bot on 2020-01-17T03:57:29.880Z
+
+
+### Can reproduce.
+CR : Samsung Galaxy A80 (Android 9) - Discord Alpha 1023
+
+Alice_#0101 - Bug Bot on 2020-01-17T03:57:34.997Z
+
+
+### Can reproduce.
+CR: LG-V35M (Android 9) Discord Alpha 1023
+
+Chay#3670 - Bug Bot on 2020-01-17T03:57:39.872Z
+
+
+### Can reproduce.
+CR: LG Xpression Pro, Android 9, Discord 1022
+
+Goldn#0013 - Bug Bot on 2020-01-17T16:48:07.877Z
+
+
+### Can reproduce.
+Can reproduce, Samsung Galaxy S10e, Discord 1022, Android 10.
+
+Alister#0001 - Bug Bot on 2020-01-17T23:18:23.753Z
+
+
+### Can reproduce.
+smasung galaxy S5, Android 9.0, lineageOS, discord 10.2.2
+
+Janel#4126 - Bug Bot on 2020-01-17T23:49:00.628Z
+
+
+### Can reproduce.
+CR Moto One Action, Android 9.0, V1024
+
+Stabby Yoda#0420 - Bug Bot on 2020-01-19T16:14:21.885Z
+
+
+### Can reproduce.
+Alcatel A30 Fierce, Android 7.0 - Discord 10.2.4
+
+Ness#8867 - Bug Bot on 2020-01-20T19:46:26.985Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:31:53.543Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

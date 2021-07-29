@@ -1,0 +1,164 @@
+drag and drop doesn't work on KDE Plasma (https://trello.com/c/Mpo9nOzO)
+
+P3: Will eventually be fixed,
+mid
+
+Created: 2017-04-16T14:50:05.430Z
+Latest Update: 2019-09-22T09:14:09.432Z
+
+Reported by ao#4273
+
+####Steps to reproduce: 
+- Step 1: install kde plasma or some distro that uses it 
+- Step 2: install discord 
+- step 3: drag and drop a file or image from dolphin or any other file manager to discord 
+- step 4: observe that it is not working 
+
+####Expected result:
+ image/file upload popup should... pop up, I guess? 
+####Actual result:
+ the image upload overlay goes away 
+####System settings:
+ KDE neon dev edition (based on ubuntu 16.04lte), kde plasma 5.9.4, kde frameworks version 5.33.0, qt version 5.7.1, kernel version 4.8.0-46-generic. Wasn't working on 17.04 beta with kubuntu either. I'm on canary.
+
+2466
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-16T14:50:05.430Z
+
+
+### Can reproduce.
+arch 0.15 canary. works with nautilus(gnome's files) but not dolphin.
+
+Alex from Alaska#9760 - Bug Bot on 2017-04-16T14:50:06.128Z
+
+
+### Can reproduce.
+Arch Linux x64, Plasma 5.9.4, Dolphin 16.12.3
+
+slice#2147 - Bug Bot on 2017-04-16T14:50:08.056Z
+
+
+### Can reproduce.
+Kubuntu 16.04, Latest Canary
+
+Packer#9020 - Bug Bot on 2017-04-16T14:50:10.084Z
+
+
+### discordbug.gif - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/58f3849d20ed7a685a28e27c/51a514b7f0458130762c5617c3797344/discordbug.gif added by Bug Bot on 2017-04-16T14:50:21.324Z
+
+
+### Can reproduce.
+Kubuntu 16.04, Discord Canary
+
+Noahkiq#2451 - Bug Bot on 2017-04-17T12:33:31.708Z
+
+
+### Can reproduce.
+Mint 18 KDE
+
+A Glass Of Milk#1244 - Bug Bot on 2017-04-18T15:15:38.520Z
+
+
+### This isn't kde specific but it is dolphin specific. Holding shift while dropping allows it to be uploaded fine, but it doesn't open the caption dialog. Also, dropping with or without shift to a textbox on a browser etc does indeed give the file directory.
+
+ao#4273 - Bug Bot on 2017-04-18T16:58:30.841Z
+
+
+### people (00firestar00, not a bh, hence I'm reporting on their behalf) are saying that nautilus file manager fails to drag and drop without shift, on Gnome 3.22.3 Wayland.
+
+ao#4273 - Bug Bot on 2017-04-19T04:11:16.559Z
+
+
+### Can reproduce.
+GalliumOS 2.1, which is basically Xubuntu 16.04
+
+Ben Z.#1327 - Bug Bot on 2017-04-19T12:15:52.742Z
+
+
+### Can reproduce.
+OpenSUSE Tumbleweed 20170419, KDE Plasma 5.9.4, Latest Discord Canary
+
+tphecca#5516 - Bug Bot on 2017-04-26T23:14:09.654Z
+
+
+### Can reproduce.
+Latest Discord Canary
+
+vicr123#5096 - Bug Bot on 2017-05-08T10:58:19.576Z
+
+
+### I don't think this is KDE specific; I'd say it's specific to how the file manager handles dragging files. Using Dolphin and a custom made file manager based on Qt didn't work, but I had no issues using Thunar on KDE. More specifically, Discord should accept a text/uri-list as a valid drop, and make sure that the URI scheme is "file" before loading that file up from disk.
+
+vicr123#5096 - Bug Bot on 2017-05-08T11:06:38.593Z
+
+
+### Verified.  - Clayton on 2017-05-26T22:54:39.294Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2017-05-26T22:54:50.777Z
+
+
+### Can reproduce.
+Arch Linux, KDE Plasma 5
+
+Transience#0182 - Bug Bot on 2018-02-14T16:01:28.446Z
+
+
+### Can reproduce.
+Arch, KDE 5.13
+
+CK#9163 - Bug Bot on 2018-08-27T20:10:36.774Z
+
+
+### Note from a support ticket: 
+
+"So the bug is caused by some file managers that by default are in `copy` 
+mode when you drag and drop (as opposed to windows' default of being in 
+`move` mode) and when discord tries to change `dropEffect` to something 
+it's not allowed to it breaks. This can be reproduced on nautilus and 
+dolphin because both behave this way. 
+The fix is super simple, just change this line in 
+`discord_app/components/UploadArea.js`: 
+
+js 
+e.dataTransfer.dropEffect = 'move'; 
+
+to:
+
+js 
+e.dataTransfer.dropEffect = e.dataTransfer.effectAllowed == 'all' ? 
+    'move' : e.dataTransfer.effectAllowed; " - Clayton on 2018-09-05T21:04:46.682Z
+
+
+### Can reproduce.
+Arch linux KDE5
+
+Zleet#1558 - Bug Bot on 2019-01-12T08:42:36.904Z
+
+
+### Can reproduce.
+Arch Linux, i3, Discord stable [Discord requests `GDK_ACTION_MOVE` when it should request `GDK_ACTION_COPY` in the gtk dnd handling code]
+
+FichteFoll#0174 - Bug Bot on 2019-09-10T20:29:06.285Z
+
+
+### Can reproduce.
+See https://github.com/mwh/dragon/issues/9#issuecomment-529739380 for more context on how gtk drag'n'drop works and why discord does it wrong
+
+FichteFoll#0174 - Bug Bot on 2019-09-10T23:52:18.924Z
+
+
+### Can reproduce.
+Solution for Dolphin: drag + hold `Shift` button. May also work with other file managers that use `Shift` as move action.
+
+Cutie#0999 - Bug Bot on 2019-09-22T09:14:09.444Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

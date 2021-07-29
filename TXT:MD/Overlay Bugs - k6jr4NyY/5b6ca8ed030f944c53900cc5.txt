@@ -1,0 +1,95 @@
+Agreeing to a NSFW channel on the overlay doesn't agree in the desktop client (https://trello.com/c/VCIoPArO)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-09T20:49:49.963Z
+Latest Update: 2019-05-18T13:04:29.367Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Open the overlay 
+- Navigate to a channel that will present you with a NSFW warning 
+- Agree to the warning on the overlay 
+- Observe the channel on desktop
+
+####Expected result:
+The NSFW warning shouldn't be present because you agreed to it on the overlay
+####Actual result:
+The NSFW is still present, even after a reload
+####Client settings:
+Canary 21405
+####System settings:
+Windows 10 Home x64
+
+17173
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-09T20:49:49.963Z
+
+
+### Can reproduce.
+Even if you restart your game and enter back into the overlay, it still recognizes that you agreed only on the overlay. Windows 10 Home x64 (1803), Canary 21440
+
+Mustard#2117 - Bug Bot on 2018-08-09T20:49:57.351Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 21440
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-09T20:50:02.423Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 home canary 21209
+
+Bencey_#8587 - Bug Bot on 2018-08-09T20:50:07.274Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary Build 20849
+
+👑 Swim 👑#0875 - Bug Bot on 2018-08-10T03:00:26.531Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 21209
+
+Delite#0001 - Bug Bot on 2018-08-10T13:22:29.627Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 21584
+
+White Falcon#0001 - Bug Bot on 2018-08-10T21:20:23.410Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 21681
+
+Frances Picard#6209 - Bug Bot on 2018-08-11T12:53:43.173Z
+
+
+### Can reproduce. Low priority. - Jared on 2018-08-20T23:39:22.973Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Build 1803, Canary Build Number: 24191
+
+JVC Almeos#1984 - Bug Bot on 2018-09-20T03:10:17.135Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 37999
+
+Alipoodle#5025 - Bug Bot on 2019-05-18T13:04:29.373Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

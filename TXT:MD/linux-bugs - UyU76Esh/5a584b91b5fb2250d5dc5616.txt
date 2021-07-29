@@ -1,0 +1,69 @@
+Screen sharing dont work on wayland (https://trello.com/c/7kldUyAe)
+
+P2: Can wait awhile,
+low
+
+Created: 2018-01-12T05:45:53.547Z
+Latest Update: 2020-06-05T05:31:10.801Z
+
+Reported by Xaner4#1507
+
+####Steps to reproduce:
+- Use Wayland as display server protocol 
+- Start a private call with someone 
+- Start to share you screen
+
+####Expected result:
+When a screen sharing session is open you can see both app previews, and the actual app you're screensharing. 
+####Actual result:
+Applications and entire screen display black screen, where only the cursor is visible
+####Client settings:
+Release Channel: stable, Build Number: 8854, Version Hash: e4b3877fd7dbc32763bed6e711d248b33b30c1e9
+####System settings:
+Ubuntu 17.10 artful 4.13.0-19-generic
+
+7223
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-12T05:45:53.547Z
+
+
+### Can reproduce.
+Fedora 27 - 0.0.4
+
+mymindstorm#5453 - Bug Bot on 2018-01-12T05:46:00.938Z
+
+
+### Can reproduce.
+Can repro Ubuntu 17.10, it's been sitting here for a month, so force approving
+
+IcyPebbles!#5833 - Bug Bot on 2018-01-12T05:46:05.906Z
+
+
+### My bad, repro was on 18.04 @_@, it should still happen on 17.10 though. 
+
+Rewriting result section for clarity.  - Clayton on 2018-01-12T05:47:27.474Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-01-12T05:48:59.707Z
+
+
+### Can reproduce.
+My laptop (hp 15-ac101ur) does not support wayland. But as I heard, that this is a bug, I will confirm without reproducing
+
+VitalKanev#2348 - Bug Bot on 2018-01-12T11:02:52.771Z
+
+
+### Can reproduce.
+Fedora 27 - 0.0.4
+
+DataFlame#8227 - Bug Bot on 2018-01-19T23:14:50.498Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

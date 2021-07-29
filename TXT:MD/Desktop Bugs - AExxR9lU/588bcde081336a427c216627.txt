@@ -1,0 +1,77 @@
+[Archived] Space before second asterisk disables italics (https://trello.com/c/TydO8IhZ)
+
+P3: Will get fixed eventually
+
+Created: 2017-01-27T22:46:56.889Z
+Latest Update: 2017-03-15T16:26:22.251Z
+
+Reported by Ristarg#3840
+
+####Steps to reproduce: 
+- *this doesn't get italicised * 
+- _but this does _ = `_but this does _` 
+- Same with other kinds of styling 
+
+####Expected result:
+ Should get italicised as normal 
+####Actual result:
+ Doesn't work 
+####System settings:
+ Canary & Alpha latest
+
+Card Log
+========
+### Added by Jared on 2017-01-27T22:46:56.889Z
+
+
+### Can reproduce.
+osx canary
+
+Harrison#9100 - Jared on 2017-01-27T22:46:57.484Z
+
+
+### Can reproduce.
+All platforms that I've tried it on.
+
+eslachance#4611 - Jared on 2017-01-27T22:46:59.432Z
+
+
+### Can reproduce.
+Canary Linux 0.0.15, neither should be parsed in the first place
+
+Chrys#1856 - Jared on 2017-01-27T22:47:01.294Z
+
+
+### unknown.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/588bcde081336a427c216627/170db5b7fdf04d8f65d6ffc0701f2880/unknown.png added by Jared on 2017-01-27T22:47:12.587Z
+
+
+### Screenshot_2017-01-27-22-51-30.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/588bcde081336a427c216627/c061f6430961edb98e91e3484da2bcae/Screenshot_2017-01-27-22-51-30.png added by Jared on 2017-01-27T22:47:12.759Z
+
+
+### https://www.dropbox.com/s/mby0bbcvq2zyde2/crash_20170113071958_2.dmp?dl=0 - https://www.dropbox.com/s/mby0bbcvq2zyde2/crash_20170113071958_2.dmp?dl=0 added by Jared on 2017-01-27T22:47:13.060Z
+
+
+### Can reproduce.
+Windows 8.1, Latest Canary
+
+七海 千秋 ★★★★#9667 - Jared on 2017-01-27T22:47:58.760Z
+
+
+### Verified, but extremely minor. May not fix, we will see. - Jared on 2017-01-31T19:46:30.292Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-31T19:46:35.031Z
+
+
+### Same bug as this: https://trello.com/c/B0h5RxvO/2-the-italic-asterisk-cage-does-not-work-if-the-string-ends-in-a-single-character - Jared on 2017-03-15T16:26:18.492Z
+
+
+### Archived by Jared on 2017-03-15T16:26:22.258Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

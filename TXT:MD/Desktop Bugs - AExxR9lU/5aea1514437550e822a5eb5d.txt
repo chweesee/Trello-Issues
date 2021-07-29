@@ -1,0 +1,82 @@
+[Archived] Invite modal reverts back to the old modal upon refreshing after switching your client language from English to another (even ones with fully approved strings for the modal) (https://trello.com/c/vemEg20b)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-05-02T19:44:20.176Z
+Latest Update: 2018-08-21T23:38:02.372Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Have your client language set to English 
+- Switch your client language to French 
+- Open the Invite modal to observe the new modal and then refresh and re-observe as the old modal
+
+####Expected result:
+Languages outside of English have the new Invite modal
+####Actual result:
+Languages outside of English revert back to the old Invite modal after refreshing your client
+####Client settings:
+Discord Canary 0.0.207, Build 14432
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+11802
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-02T19:44:20.176Z
+
+
+### Can reproduce.
+Discord Canary 0.0.207 (14432) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-05-02T19:44:27.451Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Canary Build 14432
+
+mrkirby153#7840 - Bug Bot on 2018-05-02T19:44:32.528Z
+
+
+### Can reproduce.
+Windows Pro 1709 x64, Canary 14432
+
+Pyros#2326 - Bug Bot on 2018-05-02T19:44:37.483Z
+
+
+### Verified.  - Clayton on 2018-05-02T21:03:43.724Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-02T21:03:52.005Z
+
+
+### Can reproduce.
+CR \ Windows 10 Pro x64 \ Discord Canary (14432).
+
+/hash/#0001 - Bug Bot on 2018-05-03T16:01:49.850Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aea1514437550e822a5eb5d/0dc8571d4a0db86235ae30bacb929941/4KLdCVN.gif added by Bug Bot on 2018-07-14T15:33:13.328Z
+
+
+### can no longer repro on windows 10, canary build 19429, moving to claimed fixed - Tim on 2018-07-21T14:45:45.912Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tim on 2018-07-21T14:46:04.264Z
+
+
+### Archiving as this ticket has been in a resolved state for more than a month. - Jared on 2018-08-21T23:38:01.092Z
+
+
+### Archived by Jared on 2018-08-21T23:38:02.374Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

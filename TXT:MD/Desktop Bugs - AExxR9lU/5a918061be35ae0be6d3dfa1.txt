@@ -1,0 +1,69 @@
+[Archived] [May not happen on PCs with powerful graphics] Scrolling through the chat while a GIF is playing will cause the GIF to play at an inconsistent speed (https://trello.com/c/hu5xCBNS)
+
+None
+
+Created: 2018-02-24T15:10:25.598Z
+Latest Update: 2018-07-06T18:30:53.434Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Post a GIF in a channel with a long message history 
+- send another 10 messages in the channel so the GIF is not at the bottom 
+- while the GIF is playing, scroll through the chat and observe the GIF
+
+####Expected result:
+It should still be playing smoothly. Alternatively, the GIF could eventually pause until you stop scrolling
+####Actual result:
+While scrolling, the GIF plays at an inconsistent speed (pauses randomly, skips frames, etc)
+####Client settings:
+Discord Canary 11055
+####System settings:
+Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+9056
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-24T15:10:25.598Z
+
+
+### Can reproduce.
+win10 x64 1709 | Canary 11072 | Intel I3-6100U with Nvidia 940MX | laptop, Asus E-15
+
+ks#0908 - Bug Bot on 2018-02-24T15:10:33.300Z
+
+
+### Can reproduce.
+CR, even small gifs start lagging, Discord Canary Build 11072, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-02-24T15:10:38.228Z
+
+
+### Can reproduce.
+CR MacBook Pro (Retina, 13-inch, Early 2015) MacOS High Sierra 10.13.2 (17C88)
+
+korzq#0001 - Bug Bot on 2018-02-24T15:10:43.247Z
+
+
+### Can't reproduce.  - Clayton on 2018-03-01T21:19:53.639Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-03-01T21:19:57.823Z
+
+
+### Still cannot reproduce - Jared on 2018-04-23T20:21:13.041Z
+
+
+### Archiving as this ticket has been CNR for more than 30 days. - Jared on 2018-07-06T18:30:51.668Z
+
+
+### Archived by Jared on 2018-07-06T18:30:53.437Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

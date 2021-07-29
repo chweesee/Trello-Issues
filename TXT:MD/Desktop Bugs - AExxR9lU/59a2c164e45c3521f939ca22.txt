@@ -1,0 +1,85 @@
+[Archived] Discord doesn't reload after language change (https://trello.com/c/neQCYvnp)
+
+P2: Fix can wait a while
+
+Created: 2017-08-27T12:56:04.262Z
+Latest Update: 2017-11-15T19:11:36.257Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Go to User Settings > Language and switch to a different language 
+- Notice that Discord fails to reload and changes are only applied once you start using the app
+
+####Expected result:
+The client should reload and apply the changes
+####Actual result:
+The client fails to reload when a different language is selected
+####Client settings:
+Discord Canary 0.0.163 (Build 3661)
+####System settings:
+Windows 10 Home 64-bit v1703
+
+3712
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-27T12:56:04.262Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163 Windows 10 Pro 1703 (x64)
+
+DaFri_Nochiterov#4289 - Bug Bot on 2017-08-27T12:56:11.821Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.24, Ubuntu 17.04 XFCE4
+
+Starshine Dust#2189 - Bug Bot on 2017-08-27T12:56:16.838Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.163, Windows 10 Pro x64 Version 1703
+
+Elix 🍭#4604 - Bug Bot on 2017-08-27T12:56:21.810Z
+
+
+### Can reproduce.
+Discord Canary 0.0.163, Windows 8.1 Build 9600 (32-bit)
+
+algmwc5#8993 - Bug Bot on 2017-08-28T06:26:39.164Z
+
+
+### Verified.  - Clayton on 2017-08-29T20:04:14.148Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-29T20:04:19.115Z
+
+
+### I am no longer able to reproduce.
+
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.163, Build 4782 - Alexandru Todea on 2017-09-23T13:46:00.489Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2017-09-23T13:46:10.623Z
+
+
+### Verified fixed.  - Clayton on 2017-09-27T23:26:58.611Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-09-27T23:27:02.349Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:11:35.516Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:11:36.259Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

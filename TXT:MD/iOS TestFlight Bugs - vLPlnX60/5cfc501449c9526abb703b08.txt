@@ -1,0 +1,110 @@
+[Archived] “User pinned this” message cuts off partially if nickname is too long (https://trello.com/c/7g0WPn3p)
+
+None
+
+Created: 2019-06-09T00:17:24.356Z
+Latest Update: 2019-08-17T14:30:25.896Z
+
+Reported by ryanr49#2940
+
+####Steps to reproduce:
+- Have a particularly long nickname 
+- Pin any message
+
+####Expected result:
+Full “User pinned message” message will appear with line breaks
+####Actual result:
+Anything that exceeds one line will be cut off entirely
+####Client settings:
+iOS TestFlight 3.0.3 (15638)
+####System settings:
+iPhone SE, iOS 12.2
+
+36637
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-09T00:17:24.356Z
+
+
+### Xylium#5800 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5cfc501449c9526abb703b08/911a6c6ea1376e2dede0d03b0546c317/image0.jpg added by Bug Bot on 2019-06-09T00:17:27.204Z
+
+
+### Can reproduce.
+CR (Can Reproduce). The first time I tried this bug, it was like in the attached image, second try: message was showing fully. After restarting Discord, the first message was showing fully but there was no timestamp and the second message was still showing fine, it's very inconsistent. iPhone 8 iOS 12.3, Discord 3.0.3 Build 15638
+
+Hazel 🐣#3861 - Bug Bot on 2019-06-09T00:17:31.780Z
+
+
+### Can reproduce.
+CR iPhone 6s iOS 12.4 (beta) TF 3.0.3 (15443) ; like hazel said i had to refresh my client to got this to appear
+
+GlenMerlin#2119 - Bug Bot on 2019-06-09T00:17:36.780Z
+
+
+### Can reproduce.
+CR, iPhone 6s iOS 12.3.1 - TF 3.0.3 (15443)
+
+Jasоn#0001 - Bug Bot on 2019-06-09T00:17:41.775Z
+
+
+### Can reproduce.
+CR; iPhone X ~ iOS 12.2 ~ TestFlight 3.0.3 (15638)
+
+Lengo#0001 - Bug Bot on 2019-06-09T00:29:52.732Z
+
+
+### Can reproduce.
+Can Reproduce on iPhone 8 iOS 12.3.1 TestFlight 3.0.3 (15638) - Had to restart client for the bug to appear
+
+ImmortaLemur#2998 - Bug Bot on 2019-06-09T00:57:50.937Z
+
+
+### Can reproduce.
+iPhone SE iOS 12.3.1 - Testflight 3.0.3 (15638)
+
+OrangeK#0921 - Bug Bot on 2019-06-09T02:14:23.616Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.3.1, TestFlight 3.0.3 (15443)
+
+Pythagoras#7992 - Bug Bot on 2019-06-09T12:10:05.312Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1, TestFlight 3.0.3 (15638) [Had to restart client for bug to repro]
+
+Trash#0002 - Bug Bot on 2019-06-09T23:04:53.627Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.3 (15638)
+
+Skyla#0002 - Bug Bot on 2019-06-10T18:05:59.125Z
+
+
+### Moved from New Issues to Cannot Reproduce by Fanghao on 2019-06-11T19:32:56.820Z
+
+
+### Can reproduce.
+Can reproduce with server boost messages, iPhone X, iOS 13.0 (Dev Beta 2), TestFlight 3.0.6 (15973)
+
+Keons#0001 - Bug Bot on 2019-06-28T04:34:13.779Z
+
+
+### Can reproduce.
+iPhone XR - iOS 13.0 - TestFlight 3.0.6 (16208)
+
+Rage#9991 - Bug Bot on 2019-07-18T14:04:30.261Z
+
+
+### Archived by Bug Bot on 2019-08-17T14:30:25.907Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

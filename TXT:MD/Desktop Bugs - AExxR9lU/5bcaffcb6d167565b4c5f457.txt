@@ -1,0 +1,75 @@
+[Archived] High CPU +15-20% usage when using Discord's integrated audio player (https://trello.com/c/AIrZkOWA)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-20T10:13:31.766Z
+Latest Update: 2019-01-11T00:01:20.497Z
+
+Reported by Kman#0893
+
+####Steps to reproduce:
+- Have someone upload and send an audio file to you. 
+- Press the play button
+
+####Expected result:
+I'm guessing that the audio should play with a lower CPU usage. I noticed a 15-20% increase on multiple computers.
+####Actual result:
+CPU usage increases 15-20%.
+####Client settings:
+Build Number: 26340
+####System settings:
+Windows 10 Version 1803 Build 17134.286
+
+21407
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-20T10:13:31.766Z
+
+
+### Can reproduce.
+The usage increase by 20% (30% to 50%). Windows 10 x64 1809 (17763), Discord Canary with Build number 26340
+
+Frances Picard#6209 - Bug Bot on 2018-10-20T10:13:39.056Z
+
+
+### Can reproduce.
+CR, jumped from 20% to 70% on video as well; Win10 x64 1803, Canary 26340
+
+Promise#0001 - Bug Bot on 2018-10-20T10:13:44.077Z
+
+
+### Can reproduce.
+Can repro; Windows 10 Home 64-bit, Discord Canary Build 26655
+
+kikorp78 🎃#9681 - Bug Bot on 2018-10-20T10:13:49.066Z
+
+
+### Can reproduce.
+Windows 7 Ultimate (x64), Discord Stable 26581
+
+c h e l s e a ♥#0030 - Bug Bot on 2018-10-20T11:19:34.418Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26655
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-20T13:29:08.922Z
+
+
+### verified, macos 10.12.6, canary 26772 - Clayton on 2018-10-23T22:44:01.306Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-23T22:44:11.946Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:20.499Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

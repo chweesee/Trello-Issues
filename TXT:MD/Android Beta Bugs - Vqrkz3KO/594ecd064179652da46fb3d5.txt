@@ -1,0 +1,90 @@
+[Archived] Voice controls show based on if you appear on the connected users list, not if you're actually connected or connecting (https://trello.com/c/P0Bg8nVn)
+
+P3 - Will be fixed eventually
+
+Created: 2017-06-24T20:35:18.146Z
+Latest Update: 2018-08-22T01:20:14.200Z
+
+Reported by Fayne Aldan#2423
+
+####Steps to reproduce:
+- Make sure Discord is opened and active, and that you are not connected to any voice channel yet
+- Turn on Airplane mode or disable Wifi/Mobile data
+- Try to connect to a voice channel
+
+####Expected result:
+Nothing happens, or maybe should display an error message saying Failed/Unable to conect
+####Actual Result:
+When you click Connect nothing happens at first, but when you go back to the chat you can see a "Disconnected... " with a loading icon below the chat box, and you can't get rid of it until you enable your internet back or restart the app.
+####Client settings:
+Beta 3.9.6
+####System settings:
+Android 7.0, LG K20 PLUS
+
+1864
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-24T20:35:18.146Z
+
+
+### Can reproduce.
+CR - Android Alpha 3.9.7 - Google Pixel - Android 7.1.2
+
+Pointy#5565 - Bug Bot on 2017-06-24T20:35:22.933Z
+
+
+### Can reproduce.
+ Huawei Mate 7 / Android 6.0 / Discord 3.9.4 (392) ALPHA
+
+ChrisFo#5249 - Bug Bot on 2017-06-24T20:35:24.583Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 CR
+
+(JustPaul™✔)#0458 - Bug Bot on 2017-06-24T20:35:26.657Z
+
+
+### Can't repro.  - Clayton on 2017-06-28T19:56:50.928Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-06-28T19:56:55.282Z
+
+
+### Looks fixed for me now in: Discord 3.9.7 (396) ALPHA
+
+ChrisFo#5249 - Bug Bot on 2017-07-01T00:12:34.462Z
+
+
+### IMG_20171028_171833.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/594ecd064179652da46fb3d5/dce538ef53d45e18fb90067ecc7710f5/IMG_20171028_171833.png added by Chris Cox on 2017-10-29T23:46:33.951Z
+
+
+### I was able to reproduce using the steps below provided by Alex1304#9704. The device I tested on was a Pixel XL running Android 8.1.0 DP.
+
+- Make sure Discord is opened and active, and that you are not connected to any voice channel yet
+- Turn on Airplane mode or disable Wifi/Mobile data
+- Try to connect to a voice channel
+
+Expected result: Nothing happens, or maybe should display an error message saying Failed/Unable to conect
+Actual Result: When you click Connect nothing happens at first, but when you go back to the chat you can see a "Disconnected... " with a loading icon below the chat box, and you can't get rid of it until you enable your internet back or restart the app. - Chris Cox on 2017-10-29T23:46:58.842Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Chris Cox on 2017-10-29T23:48:26.861Z
+
+
+### Verified.  - Clayton on 2017-11-01T21:04:38.330Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-01T21:04:43.330Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:14.202Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

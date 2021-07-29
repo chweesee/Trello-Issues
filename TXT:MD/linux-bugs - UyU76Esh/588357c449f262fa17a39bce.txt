@@ -1,0 +1,58 @@
+[Archived] Programmer Dvorak keyboard layout does not work with Ctrl-[number] keyboard shortcuts (https://trello.com/c/OOQFvaFD)
+
+None
+
+Created: 2017-01-21T12:44:52.472Z
+Latest Update: 2017-10-17T21:17:06.429Z
+
+Reported by Chrys#1856
+
+####Steps to reproduce: 
+- Run ``setxkbmap -layout us -variant dvp`` 
+- Attempt Ctrl-1, Ctrl-2, etc. Expected Result: Since numbers are in a shift position on this layout, I expected Ctrl-Shift-[key on top row] to switch to different servers, like Ctrl-[number] does on the QWERTY layout. Actual result: Very un
+
+####Expected result:
+ Since numbers are in a shift position on this layout, I expected Ctrl-Shift-[key on top row] to switch to different servers, like Ctrl-[number] does on the QWERTY layout. 
+####Actual result:
+ Very unexpected results; some combinations work as if on a QWERTY layout, some others trigger unexpected keyboard shortcuts, and the remainder do not work at all. (https://p.teknik.io/GppCq) 
+####System settings:
+ (Arch) Linux, Discord Canary
+
+Card Log
+========
+### Added by Jared on 2017-01-21T12:44:52.472Z
+
+
+### Can reproduce.
+arch linux 0.0.13 canary
+
+mralext20#8975 - Jared on 2017-01-21T12:44:52.889Z
+
+
+### Can reproduce.
+Linux Mint 18.1 Latest Discord
+
+fluffycq#6938 - Jared on 2017-01-21T12:44:54.997Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Jared on 2017-02-02T18:53:54.497Z
+
+
+### Moved from Discord Verified Bugs to Verified Fixed by Jared on 2017-07-31T17:51:36.378Z
+
+
+### Can't reproduce - Jared on 2017-07-31T17:51:40.994Z
+
+
+### Archiving as this ticket as been Verified Fixed for over a month. - Mike Nisbet on 2017-10-17T21:17:05.810Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:17:06.445Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

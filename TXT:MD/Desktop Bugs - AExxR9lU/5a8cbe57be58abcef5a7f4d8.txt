@@ -1,0 +1,70 @@
+[Archived] Nitro emoji that aren't on a shared server can be given infinitely long client-side names (https://trello.com/c/jMrJjM8y)
+
+None
+
+Created: 2018-02-21T00:33:27.222Z
+Latest Update: 2018-05-22T03:34:01.852Z
+
+Reported by Ottomated#9999
+
+####Steps to reproduce:
+- Have Discord Nitro 
+- Find an emoji ID (example: 414542501043765258) 
+- Go to a different server. 
+- Send a message there like so: `<:here_you_can_put_whatever_you_want:414542501043765258>` 
+- Have a different member of that server report what they see when they hover over the emoji in chat. 
+- Instead of the real emoji name, they will see `here_you_can_put_whatever_you_want`, and that can be text as long as you want. 
+- **Note:** If the person hovering over the emoji shares the server that the emoji's on, they'll see the real name.
+
+####Expected result:
+**Either:** Discord finds the real emoji name via headers on the image or a seperate request **Or:** Discord constrains the text length of that field.
+####Actual result:
+That text is as long as you want.
+####Client settings:
+Discord Canary, 0.0.217
+####System settings:
+Arch Linux x86_64, KDE Plasma
+
+8900
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-21T00:33:27.222Z
+
+
+### Can reproduce.
+Windows 10 Home x64; Canary Build 10904
+
+mrkirby153#7840 - Bug Bot on 2018-02-21T00:33:34.607Z
+
+
+### Can reproduce.
+CR, Windows 10 home x64,  Canary 10904
+
+duncte123#1245 - Bug Bot on 2018-02-21T00:33:39.615Z
+
+
+### Can reproduce.
+Mac OSX 10.12.6, Canary 10904
+
+IcyPebbles!#5833 - Bug Bot on 2018-02-21T00:33:44.585Z
+
+
+### According to Stan this is not a valid bug. `These are in messages for hinting for UI. That's all.` - Jared on 2018-02-22T22:03:48.602Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-02-22T22:03:54.308Z
+
+
+### Archived due to being inactive for a month in the NAB list without further action. - Tarek on 2018-05-22T03:33:59.488Z
+
+
+### Archived by Tarek on 2018-05-22T03:34:01.855Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

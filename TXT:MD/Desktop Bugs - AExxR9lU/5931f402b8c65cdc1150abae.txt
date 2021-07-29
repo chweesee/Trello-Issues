@@ -1,0 +1,90 @@
+[Archived] Focused channels do not ACK properly (https://trello.com/c/doSUI6FV)
+
+P2: Fix can wait a while
+
+Created: 2017-06-02T23:25:54.580Z
+Latest Update: 2017-12-02T17:16:23.508Z
+
+Reported by slice#4274
+
+####Steps to reproduce:
+- Be in a channel 
+- Have mesages come in 
+- Watch the "channel unread" indicator appear, even when the channel is focused
+
+####Expected result:
+Focused channels do not gain the ACK indicator
+####Actual result:
+Focused channels gain the ACK indicator
+####Client settings:
+Latest Discord Canary
+####System settings:
+Win 10 x64
+
+1389
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-02T23:25:54.580Z
+
+
+### Can reproduce.
+Ubuntu 17.04 / Discord Canary
+
+Noahkiq#2928 - Bug Bot on 2017-06-02T23:25:59.233Z
+
+
+### Can reproduce.
+seen this several times today with the new channel ui.  Windows 10 Pro (64-bit), Anniversary Update (Build 1607), Canary 0.0.155 (build 1038)
+
+SuperSajuuk#7265 - Bug Bot on 2017-06-02T23:26:01.128Z
+
+
+### Can reproduce.
+Happened with me yesterday, but just didn't say it.  Windows 8.1 x64
+
+デューテ ★★★★#9667 - Bug Bot on 2017-06-02T23:26:03.179Z
+
+
+### Can reproduce.
+Can reproduce, Discord Canary with that update to the UI (IDK version) Windows 10
+
+Chewie#5684 - Bug Bot on 2017-06-03T01:28:08.410Z
+
+
+### Verified.  - Clayton on 2017-06-03T09:12:25.625Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-03T09:12:30.200Z
+
+
+### Can't reproduce.
+CNR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-16T20:22:04.680Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2017-10-16T21:45:28.627Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-16T21:45:33.179Z
+
+
+### Can't reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-17T00:00:08.995Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:16:21.137Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:16:23.511Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

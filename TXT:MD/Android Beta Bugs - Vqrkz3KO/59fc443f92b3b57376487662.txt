@@ -1,0 +1,81 @@
+[Archived] [Android 6.0 and newer] Revoking permission from the app to use the camera during a video call will disconnect you brutally from the call instead of switching back to voice-only mode. (https://trello.com/c/NTGtjmxo)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-11-03T10:26:07.326Z
+Latest Update: 2017-12-09T08:56:29.008Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Start a DM call with another Android device (haven't tested with Android <=> Desktop)  
+- Enable video mode 
+- While the video call is running, go to your App Manager and revoke permission from Discord to use the camera 
+- Re-open Discord
+
+####Expected result:
+Since Discord can't access to the camera anymore, it should automatically toggle off the video mode and you will be able to continue the call in voice-only. Alternatively, you should be disconnected but *in a proper way*
+####Actual result:
+It brutally disconnects you from the call : your recipient will see a frozen image of the video instead of indicating that you left the call
+####Client settings:
+Discord Alpha 5.5.4
+####System settings:
+Huawei Mate 9 Android 7.0
+
+6007
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-03T10:26:07.326Z
+
+
+### Can reproduce.
+Can reproduce | Huawei p8 lite 2017, Android 7.0, Alpha 5.5.4
+
+Mathéo ~ fujh🍂fn#0878 - Bug Bot on 2017-11-03T10:26:14.665Z
+
+
+### Can reproduce.
+Moto G4 Android 7.0 Alpha 5.5.4 it does brutally disconnect you from the voice call
+
+Azrael#9808 - Bug Bot on 2017-11-03T10:26:19.648Z
+
+
+### Can reproduce.
+Sony Xperia XZ Premium, Android 8.0, Discord Alpha 5.5.4(554)
+
+BigBrainAFK#6465 - Bug Bot on 2017-11-03T10:26:24.637Z
+
+
+### Should be NAB; you're not supposed to revoke permissions during runtime. Procedure should involve Force Close first. User error. A fatal disconnect error is expected, as Java begins throwing exceptions. This probably also breaks other things in app too.
+
+MelodyConcerto#5328 - Bug Bot on 2017-11-03T14:30:22.122Z
+
+
+### I agree, but such exceptions can still be handled.
+
+Alex1304#9704 - Bug Bot on 2017-11-03T14:57:16.427Z
+
+
+### This sounds like intentionally destructive behavior, low priority. - Jared on 2017-11-07T00:02:55.326Z
+
+
+### Verified. But I'm calling this a Won't Fix. - Jared on 2017-11-07T18:51:30.677Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2017-11-07T18:51:33.837Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-09T08:56:27.047Z
+
+
+### Archived by Alexandru Todea on 2017-12-09T08:56:29.010Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

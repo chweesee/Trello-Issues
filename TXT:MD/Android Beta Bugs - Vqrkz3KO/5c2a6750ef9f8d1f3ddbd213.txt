@@ -1,0 +1,114 @@
+[Archived] When trying to change a channel name to one with spaces it does not provide any error message but when you press save the save button doesnt go away and it doesnt ever change the name of the channel but a message pops up saying it changed (https://trello.com/c/oB01jNwI)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-12-31T19:00:32.346Z
+Latest Update: 2020-02-20T21:34:20.263Z
+
+Reported by iot#0001
+
+####Steps to reproduce:
+- Head to a channel 
+- Change the channel name to one with spaces ex. "channel test" 
+- Press Save 
+- Observe 
+- Exit the Channel Settings 
+- Observe
+
+####Expected result:
+There should be some type of error message saying that you can't have a channel with spaces or the channel name should change and the save button should go away.
+####Actual result:
+The save button stays there and it says the channel name successfully changed when it hasn't.
+####Client settings:
+Discord Alpha 8.2.2
+####System settings:
+Samsung Galaxy S8+, Android 8.0.0
+
+25414
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-31T19:00:32.346Z
+
+
+### Can reproduce.
+Channel name changes to one with spaces replaced by dashes, but the client thinks that it hasn't been saved, Pixel 3 XL, Android 9 PQ1A.181205.006, Discord 8.2.2
+
+ginkoid#8888 - Bug Bot on 2018-12-31T19:00:39.810Z
+
+
+### Can reproduce.
+CR; Channel name changes to one with dashes instead of spaces, but the save button still doesn't disappear and the client thinks it hasn't been saved. Samsung Galaxy J3, Android 7.1.1, Alpha 8.2.2
+
+dorothyoka#9078 - Bug Bot on 2018-12-31T19:00:44.831Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Beta 8.2.1
+
+charleskimbac#6492 - Bug Bot on 2018-12-31T19:00:49.810Z
+
+
+### Can reproduce.
+Android Alpha 8.2.2, Samsung Galaxy Tab A, Android 7.1.1
+
+Talon#1337 - Bug Bot on 2018-12-31T19:56:52.125Z
+
+
+### Can reproduce.
+Asus Zenfone max pro m1 Android 8.1.0, alpha 8.2.2
+
+sloth_.on._tabasco#9015 - Bug Bot on 2018-12-31T19:57:35.973Z
+
+
+### https://trello.com/c/G2pYHKBi/
+
+Alex1304#9704 - Bug Bot on 2018-12-31T20:48:01.548Z
+
+
+### Can reproduce.
+Google pixel 3, Android 9.0.0, Alpha 8.2.2
+
+phencyclidine father#0986 - Bug Bot on 2018-12-31T21:15:10.776Z
+
+
+### Can reproduce.
+Moto G6, Android 8.0.0, Discord Beta 8.2.1
+
+aleph#6778 - Bug Bot on 2018-12-31T22:25:28.921Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 Prime, Android 8.0.0 Discord 8.2.2
+
+TheFutureKnight#0001 - Bug Bot on 2019-01-03T21:35:09.220Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 8.2.2 - Clayton on 2019-01-04T02:40:16.218Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-04T02:40:22.465Z
+
+
+### Archived by Bug Bot on 2019-02-03T03:00:03.758Z
+
+
+### Can reproduce.
+CR — Huawei Y9, Android 9 — Alpha 938
+
+Bullseye#8200 - Bug Bot on 2019-08-06T23:51:03.274Z
+
+
+### Unarchived by Bug Bot on 2019-08-07T00:00:06.291Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:34:20.276Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

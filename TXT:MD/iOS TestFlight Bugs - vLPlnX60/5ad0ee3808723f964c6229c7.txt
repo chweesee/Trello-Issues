@@ -1,0 +1,76 @@
+[Archived] Discord registers you in call still (https://trello.com/c/v1kl59LU)
+
+None
+
+Created: 2018-04-13T17:51:53.020Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Join a call or VC in Discord on your phone 
+- Go to the homescreen on your phone while having Discord open in the background 
+- Transfer the call to another device (I used my laptop) 
+- Watch for the red bar showing you still connected to Discord to disappear
+
+####Expected result:
+The red bar at the top of the screen disappears
+####Actual result:
+The red bar doesn't disappear and Discord still registers you as in a call even though the app shows you not in the call
+####Client settings:
+TestFlight, 2.3.0
+####System settings:
+iOS 11.2.6
+
+10660
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-13T17:51:53.020Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ad0ee3808723f964c6229c7/415d1cab35dac2075e10c2e2c94b6401/image.png added by Bug Bot on 2018-04-13T17:51:55.467Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ad0ee3808723f964c6229c7/2c554fdd2fb3f97cb0a776dab502a0d3/image.png added by Bug Bot on 2018-04-13T17:51:55.541Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.3, TestFlight 2.3.0 (3740)
+
+» a r i a#1593 - Bug Bot on 2018-04-13T17:52:00.408Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight Build 2.3.0 (3740)
+
+Kuuhaku#4503 - Bug Bot on 2018-04-13T17:52:05.361Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.0 (3740)
+
+Xylium#1480 - Bug Bot on 2018-04-13T17:52:10.371Z
+
+
+### The fix has been merged to master. - Jozsef Vass on 2018-04-18T01:24:56.977Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Jozsef Vass on 2018-04-18T01:25:33.851Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Victoria on 2018-04-28T02:42:56.265Z
+
+
+### I cannot reproduce on iPhone 8 + running iOS 11.4.1 with Discord Stable App 2.3.3. The red banner disappears as soon I pick up the call on my desktop client, and Discord doesn't seems to let me know that I am still in the call on my phone. - Ghoul on 2018-06-01T17:35:12.308Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:28.041Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

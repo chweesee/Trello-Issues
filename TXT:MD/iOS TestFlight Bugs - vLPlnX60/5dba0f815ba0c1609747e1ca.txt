@@ -1,0 +1,51 @@
+[Archived] When message options stays open, you get a notification, the channel the notification was for shares pinned messages with the user in message options (https://trello.com/c/c6VM8Jp5)
+
+P3 - Will be fixed eventually
+
+Created: 2019-10-30T22:32:33.351Z
+Latest Update: 2019-12-08T19:30:06.158Z
+
+Reported by SplashyFlame#0067
+
+####Steps to reproduce:
+- Open a DM with someone and go to message options 
+- Leave (do not force close) the app 
+- Get a notification from a channel with pinned messages 
+- Open the notification 
+- Observe how the message options hasn’t closed 
+- Click pinned messages and observe
+
+####Expected result:
+The pinned messages should stay the same as the ones in the DM
+####Actual result:
+The pinned messages for the DM turn into the channel pinned messages
+####Client settings:
+TestFlight 3.1.5 (17627)
+####System settings:
+iPhone XR, iOS 13.1.2
+
+45725
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-30T22:32:33.351Z
+
+
+### Can reproduce.
+can reproduce, ios 13, testflight 3.1.5, iphone 11
+
+IcyPebbles#5833 - Bug Bot on 2019-10-30T22:32:41.041Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-11-08T19:00:09.034Z
+
+
+### Archived by Bug Bot on 2019-12-08T19:30:06.171Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

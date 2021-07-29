@@ -1,0 +1,82 @@
+[Archived] Embed links to osu:// no longer result in a clickable Hyperlink (https://trello.com/c/gG4c2Fxq)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2017-12-14T00:32:39.900Z
+Latest Update: 2018-10-22T20:17:16.973Z
+
+Reported by Darky1#1170
+
+####Steps to reproduce:
+- Send an embed with `[__**Hyperlink**__](osu://dl/689766)` into a channel 
+- Look at the embed
+
+####Expected result:
+The embed should have a clickable Hyperlink with the text `Hyperlink` that uses the osu:// protocol
+####Actual result:
+The embed has a regular text with `Hyperlink`
+####Client settings:
+>
+####System settings:
+Win10 64x Canary 0.0.182
+
+6892
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-14T00:32:39.900Z
+
+
+### Gimo#0916 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a31c6a7942eab5a39998625/7202a453e4633d45903172a2826ea569/f3552f2c78.png added by Bug Bot on 2017-12-14T00:32:42.595Z
+
+
+### Can reproduce.
+CR with Windows 10 Professional with Discord Canary 0.0.182 (Build 8394 and 8409) and iPhone 8 +, iOS 11.2, Discord Stable App 2.1.2 | **Note:** This also works with Android and iOS, so it's a bug for all platforms.
+
+🎄Ghoul🎄#4567 - Bug Bot on 2017-12-14T00:32:47.319Z
+
+
+### Can reproduce.
+Mac Os 10.13.2; Discord Release Channel: stable, Build Number: 8433, Version Hash: 14a6d0c1534ffb26c06b0880e6b1e9a174899c32
+
+Eyesofcreeper#4758 - Bug Bot on 2017-12-14T00:32:52.315Z
+
+
+### Can reproduce.
+Mac OSX 10.12.6, Discord Canary 0.0.172
+
+IcyPebbles!#5833 - Bug Bot on 2017-12-14T00:32:57.265Z
+
+
+### steam://connect/... links and similar are also affected! seems to be anything that isnt http/s i think
+
+goat#9119 - Bug Bot on 2017-12-14T20:37:58.267Z
+
+
+### Verified.  - Clayton on 2017-12-15T01:09:41.711Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-15T01:09:52.971Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.186 (Build 8782), Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-12-18T05:00:01.098Z
+
+
+### This is also the case for mailto: links
+
+duncte123#1245 - Bug Bot on 2018-04-15T11:13:24.939Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:16.975Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

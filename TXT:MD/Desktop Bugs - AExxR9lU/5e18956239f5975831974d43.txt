@@ -1,0 +1,94 @@
+Muting a category does nothing. (https://trello.com/c/2qCOCyIl)
+
+None
+
+Created: 2020-01-10T15:16:50.519Z
+Latest Update: 2020-07-16T21:26:05.989Z
+
+Reported by kitten#6660
+
+####Steps to reproduce:
+- Mute a category with read or unread messages in the channel(s). 
+- select any length of time. 
+- observe.
+
+####Expected result:
+the category should be grayed out as would a muted channel.
+####Actual result:
+the category name is still as it would be and the category is unmuted; on desktop and ios you're required to mute the category a second time.
+####Client settings:
+canary, Build Number: 52345; Testflight 3.1.9 (18591)
+####System settings:
+HP Pavilion, Windows 10 home; Iphone 11, IOS 13.3
+
+51408
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-10T15:16:50.519Z
+
+
+### Can reproduce.
+Discord Canary Build 52345, Windows 10 Pro Build 18362.295
+
+Creedoo#3626 - Bug Bot on 2020-01-10T15:16:57.998Z
+
+
+### Can reproduce.
+CR; Samsung S7, Android 8.1 (Alpha 1019)
+
+IamSushi#0001 - Bug Bot on 2020-01-10T15:17:02.992Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.3 TestFlight 3.1.9 (18591)
+
+binchlord#0998 - Bug Bot on 2020-01-10T15:17:08.050Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.2; Discord Canary 52345 & iPhone 7: iOS 13.3; TestFlight 3.1.9 (18591)
+
+Jiralite#1207 - Bug Bot on 2020-01-10T15:24:15.095Z
+
+
+### Can reproduce.
+CR, Discord Canary 52249, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2020-01-10T15:32:21.895Z
+
+
+### ext: clicking the notification bell above the members list on IOS does not work the first time either requiring you to click it again; applies to the notification bell near the channel description / name on desktop.
+
+kitten#6660 - Bug Bot on 2020-01-10T15:47:01.867Z
+
+
+### Can reproduce.
+CR on MacBook Air (10.15.1 Catalina); Canary Build 52345
+
+RPS1222#5127 - Bug Bot on 2020-01-10T17:22:45.637Z
+
+
+### This is not limited to categories.
+
+Jiralite#1207 - Bug Bot on 2020-01-11T06:12:51.273Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 52491 & iPhone 8 Plus, iOS 13.3, TestFlight 3.1.9 (18591)
+
+carter#0001 - Bug Bot on 2020-01-11T18:21:49.503Z
+
+
+### Can reproduce.
+CR Win10 Home, Version 1903 52941
+
+Just A Regular Talking Box#5472 - Bug Bot on 2020-01-11T21:57:46.017Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

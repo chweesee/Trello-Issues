@@ -1,0 +1,61 @@
+Moving mass servers into folders crashes the folder (https://trello.com/c/LKx9srfP)
+
+None
+
+Created: 2020-04-05T16:30:26.851Z
+Latest Update: 2020-07-16T21:26:06.188Z
+
+Reported by Verse#0009
+
+####Steps to reproduce:
+- Have a ton of servers 
+- Start to sort them into folders 
+- Continue sorting for a seemingly random amount of time 
+- Once a folder has been filled with this arbitrary amount of servers, moving any server to any folder will crash the folder that is overfilled
+
+####Expected result:
+The folders should be fillable to any amounts and would allow any servers to be in them
+####Actual result:
+The folder crashes and all servers inside go outside of the folder
+####Client settings:
+Desktop Canary, 52006
+####System settings:
+Windows 10 Home, Build 18362
+
+50972
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-05T16:30:26.851Z
+
+
+### Chay#3670 - https://www.youtube.com/watch?v=Mcb025DjwMo added by Bug Bot on 2020-04-05T16:30:29.428Z
+
+
+### SSalt#5041 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e8a07a2374d571d877bef6f/42da6324abf7a37ec1683c1a6c5c6ac6/viyYoO0.png added by Bug Bot on 2020-04-05T16:30:30.205Z
+
+
+### Can reproduce.
+Canary 52807 (6fa21a6) Host 0.0.259 Windows 10 64-Bit (10.0.17134)
+
+Chay#3670 - Bug Bot on 2020-04-05T16:30:34.452Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909, Canary 57334 Host 0.0.264
+
+SSalt#5041 - Bug Bot on 2020-04-05T16:30:39.398Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Version 1909, Desktop Canary 57334
+
+Ana940#9858 - Bug Bot on 2020-04-05T16:30:44.394Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

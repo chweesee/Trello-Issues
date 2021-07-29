@@ -1,0 +1,75 @@
+[Archived] Uncached users appear in Pinned Messages & Search (lazy guilds only) (https://trello.com/c/R7KMjkf1)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-19T12:24:53.813Z
+Latest Update: 2018-10-22T20:20:05.237Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Search "In: {channel}" in a channel that has users with a coloured role (so it's easily noticeable) 
+- Select Relevant to go back in message history easier
+
+####Expected result:
+All users with results are cached into the client
+####Actual result:
+Client only shows already cached users and doesn't cache any that weren't cached before
+####Client settings:
+Discord Canary 0.0.204, Build 13912
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+10937
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-19T12:24:53.813Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (13912) on Windows 10 Pro 64-bit (1709)
+
+Tarek#1337 - Bug Bot on 2018-04-19T12:25:01.133Z
+
+
+### Can reproduce.
+Discord Canary 0.0.204 (Build 13912), Windows 10 Education 1709 x64 (Build 16299.371)
+
+OminousCry#2331 - Bug Bot on 2018-04-19T12:25:06.139Z
+
+
+### Can reproduce.
+cr. Windows 10 Pro x64. Canary 13912.
+
+Zacatero#0001 - Bug Bot on 2018-04-19T12:25:11.052Z
+
+
+### Can reproduce.
+Macbook Air (Early 2015), macOS 10.12.6 Sierra, Discord Canary (Build 13622)
+
+Rage#0001 - Bug Bot on 2018-04-19T15:47:47.376Z
+
+
+### Verified.  - Clayton on 2018-04-25T00:08:32.496Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-25T00:08:36.143Z
+
+
+### **Extension to this issue**
+When using the search with the `from:` filter and typing any username, you sometimes won't see any user suggestions in the list to autocomplete. Doesn't happen with all users and not every time, restarting the app might help. Probably happens because the users are not cached so far.
+
+Pascal#0929 - Bug Bot on 2018-05-12T19:44:01.786Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:05.239Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

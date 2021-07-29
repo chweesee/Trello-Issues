@@ -1,0 +1,52 @@
+When you CTRL + R a popout window an error appears in the console (https://trello.com/c/EMae0UnC)
+
+Investigating
+
+Created: 2019-04-27T19:37:18.977Z
+Latest Update: 2019-06-17T22:03:58.381Z
+
+**Short Description:** When you CTRL + R a popout window an error appears in the console
+**Steps to reproduce:**
+- Open dev tools in the main window and go to the console tab
+- Join a stream and open a popout
+- Ctrl + R that window
+**Expected Result:** There should be no error in the console and the popout should reopen.
+**Actual Result:** The popout closes with an error in the console and does not reopen.
+**System Settings:** Windows 10 Pro x64 v1809 Build 18875.1000 
+**Client Settings:** Canary 36526
+
+
+Card Log
+========
+### Added by webhp on 2019-04-27T19:37:18.977Z
+
+
+### EbZnp28.png - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5cc4af6eabd6026788bf774b/429977baca6c834acf6fbaf700b83222/EbZnp28.png added by webhp on 2019-04-27T19:38:24.568Z
+
+
+### Can Reproduce
+Canary 0.0.235 (Build 36526), Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547) - Boruto on 2019-04-27T19:46:02.759Z
+
+
+### Can reproduce,
+
+Windows 10 Home x64 (1809), Canary 36526 - TheForbiddenAi on 2019-04-27T19:46:52.922Z
+
+
+### Can reproduce
+Windows 10 Home x64 (1809) - Canary 36526 - Solo on 2019-04-27T19:50:17.583Z
+
+
+### Moved from Bug Reports from Testers! to Verified Bugs by Solo on 2019-04-27T19:50:22.646Z
+
+
+### Canrepro.
+macOS Mojave 10.14, Canary 36529 - Rage on 2019-04-27T20:19:31.164Z
+
+List
+====
+Tested Bugs
+
+Members
+=======
+None

@@ -1,0 +1,92 @@
+[Archived] Setting a server verification level to double tableflip breaks audit logs for what seems like forever and ever (https://trello.com/c/VHYEIB53)
+
+P1: Severe
+
+Created: 2017-07-26T07:30:24.888Z
+Latest Update: 2017-11-15T19:21:33.593Z
+
+Reported by King - Vlad#8339
+
+####Steps to reproduce:
+- Go in a server 
+- Set the audit log to double flip 
+- Check the newest outputted log
+
+####Expected result:
+Audit Logs show nicely that you changed the verification level to double table flip
+####Actual result:
+Audit Logs break forever and ever
+####Client settings:
+Disord Canary 0.0.161
+####System settings:
+Windows 10 Creators Update X64
+
+2581
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-26T07:30:24.888Z
+
+
+### King - Vlad#8339 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5978451091f7be51c2450e8c/8c5bf511876b064c0a54ba1f95d6f297/l3m5I2.gif added by Bug Bot on 2017-07-26T07:30:28.138Z
+
+
+### Can reproduce.
+ Win 7 SP1 Canary 0.0.157
+
+omega12#8421 - Bug Bot on 2017-07-26T07:30:32.291Z
+
+
+### Can reproduce.
+ Windows 10 Home x64 Canary 0.0.161
+
+Apollo#4765 - Bug Bot on 2017-07-26T07:30:37.247Z
+
+
+### Can reproduce.
+ Windows 10 x64 canary 0.0.161
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-07-26T07:30:42.223Z
+
+
+### Verified.  - Clayton on 2017-07-26T20:09:49.508Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-26T20:10:54.699Z
+
+
+### Can reproduce as of 7/28.  Also this should have been a P1 from the beginning. - Jared on 2017-07-28T21:59:27.918Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jared on 2017-08-22T22:01:56.876Z
+
+
+### Fixed as of build 3571
+
+Tiemen#0107 - Bug Bot on 2017-08-24T12:52:20.614Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Mike Nisbet on 2017-09-01T13:54:31.593Z
+
+
+### Can no longer reproduce Win 10 Canary 0.0.163 Build 3838 - Mike Nisbet on 2017-09-01T13:54:51.363Z
+
+
+### Fixed.  - Clayton on 2017-10-04T00:06:21.355Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T00:06:27.932Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:21:32.670Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:21:33.595Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

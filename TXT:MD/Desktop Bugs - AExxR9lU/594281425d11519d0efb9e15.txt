@@ -1,0 +1,97 @@
+[Archived] clicking outside the "Privacy Settings" modal doesn't close it (all other modals close by clicking outside) (https://trello.com/c/9c90pUUl)
+
+None
+
+Created: 2017-06-15T12:44:50.671Z
+Latest Update: 2017-10-17T20:31:35.714Z
+
+Reported by Dru#7700
+
+####Steps to reproduce:
+- Click on a server name 
+- Click privacy settings 
+- attempt to close it by clicking outside the box
+
+####Expected result:
+Modal goes "Bye, Bye, Bye"
+####Actual result:
+Modal does not close
+####Client settings:
+Canary Update as of 6/15/17 2:03A MST
+####System settings:
+Windows 8.1 PRO x64
+
+1662
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-15T12:44:50.671Z
+
+
+### Dru#7700 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/594281425d11519d0efb9e15/12c2191cbccd8fec681806392f201900/2ea13982.gif added by Bug Bot on 2017-06-15T12:44:53.640Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Discord Canary 0.0.157
+
+Curse Broken#8659 - Bug Bot on 2017-06-15T12:44:55.259Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64-bit, Discord Canary 0.0.157
+
+Tarek1337#0379 - Bug Bot on 2017-06-15T12:44:57.180Z
+
+
+### Can reproduce.
+ Windows 10 x64 CU, Canary 0.0.157
+
+Seth#4431 - Bug Bot on 2017-06-15T12:44:59.217Z
+
+
+### Can reproduce.
+Windows 10 x64 Latest Canary
+
+marcostudios#5930 - Bug Bot on 2017-06-15T13:15:34.396Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.157 (1538)
+
+Tiemen#0107 - Bug Bot on 2017-06-15T15:10:27.852Z
+
+
+### Moved from User Reported Bugs to Modal Redesign by Alexander (DJScias) on 2017-06-15T19:29:12.358Z
+
+
+### Checked as of latest canary:
+
+Can confirm that this was broken in the new redesign as clicking out of it still closes it on PTB. - Alexander (DJScias) on 2017-06-15T19:33:42.206Z
+
+
+### Moved from Modal Redesign to Claimed Fixed, needs Verification by Amadeus on 2017-06-16T22:40:24.458Z
+
+
+### Checked as of latest canary:
+
+I can no longer reproduce this myself. It closes just fine! - Alexander (DJScias) on 2017-06-16T22:47:23.190Z
+
+
+### Verified Fixed - Jared on 2017-06-27T20:14:50.599Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T20:14:53.509Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:31:34.558Z
+
+
+### Archived by Jared on 2017-10-17T20:31:35.717Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

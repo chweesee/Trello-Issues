@@ -1,0 +1,153 @@
+[Archived] If you receive a notification from a game that you're not playing, Discord's game detection will think you're playing it (https://trello.com/c/bnORc9fQ)
+
+None
+
+Created: 2018-11-27T09:53:05.762Z
+Latest Update: 2019-06-05T23:47:50.955Z
+
+Reported by Ardia#7038
+
+####Steps to reproduce:
+- Close all games currently open on your phone 
+- Wait to receive a notification from a game (I got one from FFRK for example) 
+- Check your Discord Game Detection Service 
+- It says I am currently playing a game (FFRK in my case) even though I don't have it open
+
+####Expected result:
+Discord should not be detecting a game that I'm not playing even if I am receiving notifications from it
+####Actual result:
+Discord detects me as playing the game which I got notifications from
+####Client settings:
+Discord Alpha 7.9.9
+####System settings:
+Razer Phone, Android 8.1.0
+
+23461
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-27T09:53:05.762Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Note 8, Android 8.0 - Alpha 8.0.0 (discord did not detect FFRK for me so i tested with Subway Surfers which i recommend to test with as discord never fails to detect it or its notifications)
+
+J1#0088 - Bug Bot on 2018-11-27T09:53:13.021Z
+
+
+### Can reproduce.
+LG Fortune, Android 6.0.1 - Discord Alpha 8.0.0
+
+Hole#0001 - Bug Bot on 2018-11-27T09:53:18.044Z
+
+
+### Can reproduce.
+Can Reproduce - Android 8.1; Huawei P20; Alpha 8.0.0;
+
+SyntaxPrime#0001 - Bug Bot on 2018-11-27T09:53:23.036Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 Plus, Android 8.0, Alpha 8.0.0
+
+Denny13H#3743 - Bug Bot on 2018-11-27T10:44:39.819Z
+
+
+### Can reproduce.
+CR. Alpha 8.0.1 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#9566 - Bug Bot on 2018-11-27T13:09:33.913Z
+
+
+### Moved from User Reported Bugs to Game Detection Bugs by Jeff Cailteux on 2018-11-27T21:05:57.969Z
+
+
+### Moved from Game Detection Bugs to Won't Fix by Jeff Cailteux on 2018-11-27T21:06:21.417Z
+
+
+### according to OS, you've used that app. it doesn't discriminate from whether or not you opened it or got a notification
+
+we cant know whether they briefly opened the app or just got a notif - Jeff Cailteux on 2018-11-29T19:34:17.955Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2017 | Android 8.1 | Alpha 8.0.7
+
+chickenmatty#7615 - Bug Bot on 2018-12-03T09:27:18.659Z
+
+
+### Moved from Won't Fix to Game Detection Bugs by Jeff Cailteux on 2018-12-05T15:37:40.644Z
+
+
+### Moved from Game Detection Bugs to Claimed Fixed, needs Verification by Clayton on 2019-01-11T23:01:15.112Z
+
+
+### Moved from Claimed Fixed, needs Verification to Game Detection Bugs by Clayton on 2019-01-11T23:01:16.989Z
+
+
+### Should be fixed or at least mitigated in 835 - Jeff Cailteux on 2019-01-24T19:16:29.291Z
+
+
+### Moved from Game Detection Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-01-24T19:16:32.422Z
+
+
+### Can't reproduce.
+Asus Zenfone max pro m1 Android 8.1.0 alpha 8.3.4 tested w/brawl stars, no change in presence status
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-24T19:38:52.795Z
+
+
+### Can't reproduce.
+can no longer reproduce - Android 7.0 Discord Alpha 8.3.5
+
+Delite#0001 - Bug Bot on 2019-01-24T20:53:26.441Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-01-24T20:53:26.649Z
+
+
+### Can reproduce.
+Samsung Galaxy A5 (2016), Android 7.0, Discord Alpha 8.3.5g
+
+Datenshi#0548 - Bug Bot on 2019-01-25T14:00:03.313Z
+
+
+### Can reproduce.
+Samsung Galaxy S9+. Android 8.0 Alpha 8.3.5g
+
+Zacatero#0001 - Bug Bot on 2019-01-29T00:47:38.562Z
+
+
+### Can reproduce.
+Can still repro with Clash of Clans. Discord Alpha 8.3.6G, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2019-01-31T10:32:09.421Z
+
+
+### Can reproduce.
+Samsung A7 (2018) | Android 8.0.0 | Discord Alpha 8.3.9g
+
+Wulfe#0126 - Bug Bot on 2019-02-05T18:06:20.395Z
+
+
+### Can reproduce.
+Android 9 Discord alpha 8.2.4G
+
+floccinaucinihilipilification#2362 - Bug Bot on 2019-02-06T15:06:19.843Z
+
+
+### Can reproduce.
+OnePlus 5, Android (Oxygen OS 9.0.3), Discord Alpha 8.4.4g
+
+Vaidas#5149 - Bug Bot on 2019-02-10T16:13:23.072Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:47:50.964Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

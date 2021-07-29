@@ -1,0 +1,100 @@
+[Archived] A maximized Discord window switches to minimal resolution and moves to the top of the screen when minimzed to taskbar and reopened by tray icon, clipping behind a top-placed taskbar. (https://trello.com/c/3WgxAA57)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2018-05-01T20:40:54.755Z
+Latest Update: 2019-02-21T21:52:39.902Z
+
+Reported by Zarukh#0068
+
+####Steps to reproduce:
+- Place your taskbar to the top of the screen (windows relogin may be needed to trigger the taskbar clipping). 
+- Maximize Discord and minimize it to taskbar afterwards. 
+- Click onto the Tray icon (not the taskbar one) to bring it back up.
+
+####Expected result:
+Discord should reappear again, still maximized (clicking on the taskbar icon to pull it back up does so).
+####Actual result:
+Discord reappears not maximized, shrunk down to minimal window size and places itself on the top border of the screen. Should the taskbar be placed on the top too, it disregards the taskbar as window border and clips behind it. The user has to resize the window to make Windows notice that and pushing the window back into the usable screen. This does not happen when the window has been moved while not maximized though, then it only does not maximize again.
+####Client settings:
+Stable, Build Number: 14308
+####System settings:
+Windows 7, 64bit, German, Ryzen 1800X
+
+11721
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-01T20:40:54.755Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 14388 Windows 10 x64
+
+Rashaun#9295 - Bug Bot on 2018-05-01T20:41:02.200Z
+
+
+### Can reproduce.
+Can  reproduce Windows 10 Enterprise x64 (build 1709) Discord Canary 14308
+
+xX_WhatsTheGeek_Xx#8606 - Bug Bot on 2018-05-01T20:41:07.196Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 1709 Canary 14388
+
+Bencey_#8587 - Bug Bot on 2018-05-01T20:41:12.698Z
+
+
+### Can reproduce.
+CR \ Windows 10 Pro x64 \ Discord Canary (14388).
+
+/hash/#0001 - Bug Bot on 2018-05-02T06:24:43.100Z
+
+
+### Can reproduce.
+discord canary 14388 Windows 7 Ultimate K
+
+boomt1337#3590 - Bug Bot on 2018-05-02T07:22:35.909Z
+
+
+### Verified.  - Clayton on 2018-05-02T21:56:44.458Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-02T21:56:48.519Z
+
+
+### Frances Picard#6209 - https://i.imgur.com/JerIl6m.gifv added by Bug Bot on 2018-07-14T07:21:30.623Z
+
+
+### Can't reproduce.
+Cannot Reproduce. Windows 10 x64 1803 (17134), Discord Canary with Build number 24853
+
+Frances Picard#6209 - Bug Bot on 2018-09-28T00:33:39.453Z
+
+
+### can no longer reproduce - Clayton on 2018-10-05T22:59:30.704Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-05T22:59:35.974Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:47:05.764Z
+
+
+### Archived by Tarek on 2019-01-01T15:47:06.659Z
+
+
+### Can reproduce.
+W10 Pro x64 - Canary 32470
+
+dafaqed#1312 - Bug Bot on 2019-02-21T21:52:39.908Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

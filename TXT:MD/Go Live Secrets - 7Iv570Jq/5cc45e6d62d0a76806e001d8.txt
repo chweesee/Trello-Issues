@@ -1,0 +1,55 @@
+Stop streaming button shows end after the stream has ended (https://trello.com/c/3ihepWlF)
+
+Investigating
+
+Created: 2019-04-27T13:51:41.498Z
+Latest Update: 2019-06-17T22:03:52.318Z
+
+**Short Description: **Stop streaming button shows end after the stream has ended
+**Steps to reproduce:**
+1. Start streaming
+2. Move channels
+3. Observe how the preview in the corner of your screen says "This stream has ended"
+4. Hover over the monitor with an x icon about the settings cog
+5. Observe how it says stop streaming even though you already have stopped
+**Expected Result:** The button should go back to the button where you hit it to start streaming
+**Actual Result:** The button is the stop streaming button
+**Client Settings:** Canary 36525
+**System Settings:** Windows 10 Home x64 (1809)
+
+Card Log
+========
+### Added by TheForbiddenAi on 2019-04-27T13:51:41.498Z
+
+
+### hkPujyg.png - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5cc45e6d62d0a76806e001d8/8231afbce0690f587a35c94c5d017d3c/hkPujyg.png added by TheForbiddenAi on 2019-04-27T13:54:48.109Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 36525 - Same applies when a viewer stops watching a stream. - Daffyduck on 2019-04-27T18:01:49.429Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by webhp on 2019-04-27T19:53:42.847Z
+
+
+### Can Reproduce
+
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 36529 - Isabel Lomas on 2019-04-28T03:01:19.774Z
+
+
+### Moved from Tested Bugs to Claimed Fixed, Needs Verification by Athena Yao on 2019-05-04T00:31:06.564Z
+
+
+### CNR
+Canary 37921, Windows 10 Home x64 (1809) - TheForbiddenAi on 2019-05-17T21:13:16.962Z
+
+
+### Moved from Claimed Fixed, Needs Verification to Verified Fixed by webhp on 2019-05-19T16:08:43.460Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

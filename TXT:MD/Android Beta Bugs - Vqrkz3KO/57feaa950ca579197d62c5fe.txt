@@ -1,0 +1,98 @@
+[Archived] Instant Invite no longer works when the message it was linked in has been edited (even if you edit it multiple times to be the same again). (https://trello.com/c/bIpLBIF1)
+
+P3 - Will be fixed eventually
+
+Created: 2016-10-12T21:26:45.720Z
+Latest Update: 2017-10-02T16:48:57.265Z
+
+Short Description:
+Instant Invite no longer works when the message it was linked in has been edited (even if you edit it multiple times to be the same again).
+Steps to reproduce
+1) Write a message with a link (or just a link).
+2) Click it, the link works.
+3) Edit this message (so it shows a small "edited" part) with word at end 
+4) The instant invite link no longer works (is invalid or has expired popup)
+Expected Result
+The link should still work, as it does on the desktop version.
+Actual Result
+The link somehow becomes invalid due to the message having been edited.
+
+** Note: if you edit at the start the link still works
+
+Card Log
+========
+### Added by Cole Norman on 2016-10-12T21:26:45.720Z
+
+
+### Screenshot_20161006-025318.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57feaa950ca579197d62c5fe/2d0365a38014411f2d9b06be2dadb9bf/Screenshot_20161006-025318.png added by Cole Norman on 2016-10-12T21:27:20.008Z
+
+
+### Screenshot_20161006-025424.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57feaa950ca579197d62c5fe/13b1ae8d016404256e2b6babf454dc73/Screenshot_20161006-025424.png added by Cole Norman on 2016-10-12T21:27:26.876Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-10-24T19:17:31.962Z
+
+
+### Cant repo
+ - Cole Norman on 2016-11-02T18:05:11.102Z
+
+
+### DJScuas and MikeSky can reproduce - Jared on 2016-12-17T01:02:11.115Z
+
+
+### - 1. Generate (find) an instant invite of a server you're not part of yet. - 2. Click on it and see the normal popup "Join this server?". - 3. Edit the instant-invite link and remove one character (or more). - 4. Edit the instant-invite link AGAIN and re-add the characters you removed (so it's back to before you edited it). - 5. Try clicking it again. It'll give you a "The instant invite is invalid or has expired." popup.
+
+DJScias#0812 - Jared on 2016-12-17T01:08:46.938Z
+
+
+### DJScias#0812 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57feaa950ca579197d62c5fe/d54cc9a0e1d11c452a7d5cedc4b35ca1/Screenshot_20161217-003124.png added by Jared on 2016-12-17T01:10:12.780Z
+
+
+### DJScias#0812 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57feaa950ca579197d62c5fe/a8b956afc99087a1b46f3509c171c59f/d811XjM.png added by Jared on 2016-12-17T01:16:22.261Z
+
+
+### DJScias#0812 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57feaa950ca579197d62c5fe/5de752efecb171adf9bf3d44c32c4d8c/zeIHdx5.png added by Jared on 2016-12-17T01:16:25.767Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Sam Shih on 2017-02-24T06:20:27.394Z
+
+
+### This ONLY happens if the text is added AFTER the instant invite. Like for example: "https://discord.gg/NQ8u48x hello" (without "")
+
+DJScias#0812 - Jared on 2017-02-24T06:23:01.715Z
+
+
+### DJScias#0812 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/57feaa950ca579197d62c5fe/fe0b283ab30d1a59f7da4c0163bc838d/Screenshot_20170224-072329.png added by Jared on 2017-02-24T06:24:12.989Z
+
+
+### Verified, minor - Jared on 2017-02-27T23:52:50.096Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-27T23:52:53.467Z
+
+
+### Tested on 3.7.3:
+
+Hey look, it's my own bug from ways back!
+
+I can no longer reproduce this whatever I try. Edited it with words behind it, before it, edited the invite by breaking it (removing a letter) and then re-adding it with another edit.. It always worked on my end. - Alexander (DJScias) on 2017-04-24T22:36:18.197Z
+
+
+### Cannot reproduce. Appears to be working. - Jared on 2017-07-28T23:41:47.802Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Jared on 2017-07-28T23:41:52.563Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:48:56.254Z
+
+
+### Archived by Jared on 2017-10-02T16:48:57.268Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

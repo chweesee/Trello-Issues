@@ -1,0 +1,79 @@
+[Archived] after fresh install login screen use 2 languages (System and one set in client [probably need to be synced from mobile]) (https://trello.com/c/UDDr9vVr)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-05-04T01:05:55.936Z
+Latest Update: 2018-07-06T17:50:43.152Z
+
+Reported by ks#0908
+
+####Steps to reproduce:
+- reinstall client 
+- open app to login screen
+
+####Expected result:
+login screen should be in one language
+####Actual result:
+half of login screen is in system locale other in language set in client
+####Client settings:
+Discord canary 14558
+####System settings:
+windows 10 x64 home build 1709
+
+11867
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-04T01:05:55.936Z
+
+
+### ks#0908 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5aebb1f318b19d399e88b269/6928c51be4c70455c6fd6739f22c207c/1ed5d2.png added by Bug Bot on 2018-05-04T01:05:58.816Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709 (Canary build 14558)
+
+TimThe#1118 - Bug Bot on 2018-05-04T01:06:03.443Z
+
+
+### Can reproduce.
+Can Reproduce , Windows 10 x64 (1709) , Discord Canary 14558
+
+MaistoGame#3599 - Bug Bot on 2018-05-04T01:06:08.437Z
+
+
+### Can reproduce.
+Discord Canary 0.0.207, Build 14602, Windows 10 Home 64-bit (v1709) | While Polish has the string for "We're excited to see you again!", it isn't translating correctly like with other languages
+
+Ene#0808 - Bug Bot on 2018-05-04T01:06:13.494Z
+
+
+### Verified
+
+Win 10 x64 [BUILD INFO] Release Channel: canary, Build Number: 14720, Version Hash: 9f6a3c8afec95316065e5fc7297cc4b39a7ffad5 - Jared on 2018-05-08T18:01:43.736Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-08T18:01:52.349Z
+
+
+### These are simply new strings on our new login screens that haven't been translated on crowdin yet.
+
+ - Shadi Isber on 2018-05-08T23:29:01.402Z
+
+
+### Moved from Verified Bugs to Not a Bug by Shadi Isber on 2018-05-08T23:29:25.223Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:50:42.190Z
+
+
+### Archived by Jared on 2018-07-06T17:50:43.160Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

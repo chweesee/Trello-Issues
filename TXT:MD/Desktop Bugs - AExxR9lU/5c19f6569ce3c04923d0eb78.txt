@@ -1,0 +1,91 @@
+[Archived] Nitro gifts show false positives on link reload (https://trello.com/c/1qMuffac)
+
+None
+
+Created: 2018-12-19T07:42:14.466Z
+Latest Update: 2019-01-19T13:00:31.800Z
+
+Reported by Santa DCON 🎄#6846
+
+####Steps to reproduce:Restart discord 
+- view any nitro gift link
+
+####Expected result:
+On discord start, it should check if the gift has been redeemed and then disable the accept button.
+####Actual result:
+The accept button becomes clickable and displays as if it was a new gift.
+####Client settings:
+Release Channel: stable, Build Number: 30011, Version Hash: e43d71df1e314348af9593fd34c6b37ce09bb885
+####System settings:
+Windows 8.1
+
+24701
+
+Card Log
+========
+### Added by Bug Bot on 2018-12-19T07:42:14.466Z
+
+
+### Can reproduce.
+Can Reproduce | Claim Button shows even when it has already been claimed until pressed on. | iPhone 6s iOS 12.1 | Discord Testflight 2.4.1 (10225)
+
+FPDrεας#4133 - Bug Bot on 2018-12-19T07:42:21.747Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.225 Build 30011
+
+Daffyduck#5364 - Bug Bot on 2018-12-19T07:42:26.763Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary 30026 | iPhone 6s Plus, iOS 12.1.1, TestFlight 2.4.1 (10225)
+
+Mustard#2117 - Bug Bot on 2018-12-19T07:42:31.827Z
+
+
+### Can reproduce.
+macOS High Sierra 10.13.6 Discord Canary (30026)
+
+ohhhhhh#6969 - Bug Bot on 2018-12-19T07:43:52.117Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.1 (Mojave) - Canary 30033
+
+Isabel#0002 - Bug Bot on 2018-12-19T08:21:41.084Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 30033
+
+Delite#0001 - Bug Bot on 2018-12-19T12:25:53.527Z
+
+
+### Can reproduce.
+Windows 8.1 Pro x64 Canary 30031
+
+Santa DCON 🎄#6846 - Bug Bot on 2018-12-19T13:11:25.539Z
+
+
+### CNR - Clayton on 2018-12-20T06:55:11.549Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-12-20T06:55:16.452Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Discord Stable 30162
+
+1Storm#0001 - Bug Bot on 2018-12-20T12:48:36.252Z
+
+
+### Archived by Bug Bot on 2019-01-19T13:00:31.802Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

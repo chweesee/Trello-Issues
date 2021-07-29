@@ -1,0 +1,67 @@
+Encoding error on game names (https://trello.com/c/iSJghvMb)
+
+P3: Will eventually be fixed,
+low
+
+Created: 2018-03-07T02:31:54.930Z
+Latest Update: 2018-04-14T17:28:27.664Z
+
+Reported by VitalKanev#2348
+
+####Steps to reproduce:
+- Make sure your system language is not English (Tested with Russian, I think Serbian works) 
+- Open an app with the cyrillic window name 
+- ⚙ => Games => "Add it" in Discord
+
+####Expected result:
+The window name shown in Cyrillic
+####Actual result:
+Encoding broken
+####Client settings:
+Stable 0.0.4
+####System settings:
+Xubuntu 17.10.1
+
+8848
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-07T02:31:54.930Z
+
+
+### NorbiPeti#1869 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5a9f4f1a0a1d4da13b4efd91/d0a62aabcea479668ee5a07d20bd9ca6/2018-02-16_15-43-36.png added by Bug Bot on 2018-03-07T02:31:57.732Z
+
+
+### Can reproduce.
+CR, cyrillic characters aren't displayed properly, Discord Canary Build 11179, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-03-07T02:32:02.292Z
+
+
+### Can reproduce.
+CR now. Manjaro LInux Version 236 with DIscord Canary BUild 11179
+
+Ghoul#0009 - Bug Bot on 2018-03-07T02:32:07.319Z
+
+
+### Can reproduce.
+Ubuntu 17.10 - Discord Canary 11585
+
+webhp#1337 - Bug Bot on 2018-03-07T02:32:12.312Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Clayton on 2018-04-12T22:27:12.358Z
+
+
+### Can't reproduce.
+Fedora 27 GNOME Discord Canary 13602
+
+RoccoDev#2837 - Bug Bot on 2018-04-14T17:28:27.666Z
+
+List
+====
+Discord Verified Bugs
+
+Members
+=======
+None

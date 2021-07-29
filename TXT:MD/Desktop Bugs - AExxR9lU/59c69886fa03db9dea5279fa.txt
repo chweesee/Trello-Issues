@@ -1,0 +1,75 @@
+[Archived] League of Legends crashes with a bug splat loop when Overlay is enabled. (https://trello.com/c/SzefS2rt)
+
+None
+
+Created: 2017-09-23T17:23:18.936Z
+Latest Update: 2018-02-22T19:39:19.095Z
+
+Reported by Hoges#0001
+
+####Steps to reproduce: 
+
+- Launch League of Legends 
+- Have Overlay enabled
+
+####Expected result:
+League client shouldn't crash, and overlay should inject smoothly into the verified game.
+####Actual result:
+League client bug splat loops until Discord is closed out. Disabling Overlay while the loop occurs does not fix it.
+####Client settings:
+Desktop Stable 0.0.298
+####System settings:
+Windows 7
+
+4769
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-23T17:23:18.936Z
+
+
+### Can reproduce.
+Can Repro, Discord Canary 0.0.163 (Build 4674) on Windows 10 Pro 64-bit (Build 1607) | It will just keep starting League of Legends procces(es) and keeps throwing bugsplats until you disable the overlay
+
+Tarek1337#0379 - Bug Bot on 2017-09-23T17:23:26.319Z
+
+
+### Can reproduce.
+CR: Discord Canary: Build 4743, Windows 10 64 bit (Laptop)
+
+!  Ender 🏹#3042 - Bug Bot on 2017-09-23T17:23:31.328Z
+
+
+### Can reproduce.
+CR: Discord Canary 0.0.163, Discord Stable 0.0.298
+
+JustCore#0973 - Bug Bot on 2017-09-23T17:23:36.406Z
+
+
+### Can reproduce.
+CR: Desktop Stable Client: 0.0.298, Windows 10 64 bit - Disabling the overlay feature stops the bugsplat error.
+
+Synn#8130 - Bug Bot on 2017-09-23T21:18:39.989Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Clayton on 2017-09-26T18:52:48.881Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:30:25.289Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:30:28.281Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:39:18.307Z
+
+
+### Archived by Tarek on 2018-02-22T19:39:19.097Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

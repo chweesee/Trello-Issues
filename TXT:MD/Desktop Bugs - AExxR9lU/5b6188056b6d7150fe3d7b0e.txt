@@ -1,0 +1,145 @@
+[Archived] Voice + Video Call is too tiny when in DM + large video doesn't work (on the right, avatars are overlapping due to that) (https://trello.com/c/xqe02ErJ)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2018-08-01T10:14:29.325Z
+Latest Update: 2019-08-04T22:00:37.228Z
+
+Reported by » a r i a#1593
+
+####Steps to reproduce:
+- update canary to 20386 
+- get into a call with someone and let them turn on video screen 
+- notice that the video window is tinier than in previous builds 
+- try to press the button that makes the video larger (bottom left)
+
+####Expected result:
+The window is bigger and you can fullscreen the DM video
+####Actual result:
+The window stays the same (tinier than previously) and you can't fullscreen, avatars overlap on the right
+####Client settings:
+Discord Canary 20386
+####System settings:
+Windows 10 Pro x64
+
+16569
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-01T10:14:29.325Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6188056b6d7150fe3d7b0e/ce13bf63ec88e82ea147a4978b7f3aca/b8c354.png added by Bug Bot on 2018-08-01T10:14:33.289Z
+
+
+### » a r i a#1593 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6188056b6d7150fe3d7b0e/5677fe5a35dc623be8efced7c9cc9005/d5327d.png added by Bug Bot on 2018-08-01T10:14:33.433Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211, Build 20386, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-08-01T10:14:36.952Z
+
+
+### Can reproduce.
+Windows 10, 1083. canary, Build Number: 20386
+
+Logiz#0001 - Bug Bot on 2018-08-01T10:14:42.000Z
+
+
+### Can reproduce.
+Canary 20433, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-08-01T10:14:46.975Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 20386
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-01T12:01:57.015Z
+
+
+### Can reproduce.
+Win 7 x64, Discord Canary 20386
+
+Raizyr#0007 - Bug Bot on 2018-08-01T13:47:08.247Z
+
+
+### Can reproduce.
+Canary 20433, Macbook Air, macOS Sierra 10.12.6
+
+Rage#9991 - Bug Bot on 2018-08-01T18:53:11.026Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Joey Baker on 2018-08-04T16:38:52.147Z
+
+
+### Can't reproduce.
+Couldn't repro ever since a few builds after this bug was approved. Since this is still in Claimed Fix, not Verified Fix though, I will put a cnr on it. | Windows 10 Pro x64, Release Channel: Canary 27494
+
+Aeria#9096 - Bug Bot on 2018-11-06T11:22:28.036Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-14T21:12:33.770Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:51:59.524Z
+
+
+### Archived by Tarek on 2019-01-01T15:52:00.351Z
+
+
+### Moved from Verified Fixed to Reopened by Sam on 2019-07-03T10:16:04.495Z
+
+
+### Unarchived by Sam on 2019-07-03T10:16:04.668Z
+
+
+### Bug reappeared in build 40675. Same reproduction steps. - Sam on 2019-07-03T10:16:46.983Z
+
+
+### Cannot reproduce anymore on Canary 40795, Windows 10 Home 64-bit (v1903).
+
+Moving to Claimed Fixed. - Ene on 2019-07-05T01:01:56.159Z
+
+
+### Moved from Reopened to Claimed Fixed, needs Verification by Ene on 2019-07-05T01:02:01.684Z
+
+
+### Can't reproduce.
+Can no longer reproduce with -w on Chrome Canary 40795
+
+Kaden303#4560 - Bug Bot on 2019-07-05T19:02:13.908Z
+
+
+### Can't reproduce.
+CNR issue on Chrome Canary 40795
+
+Kaden303#4560 - Bug Bot on 2019-07-05T19:05:25.309Z
+
+
+### Can't reproduce.
+Can No Longer Reproduce On canary, Build Number: 40795, Windows 10 x64
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-05T19:15:33.164Z
+
+
+### Can't reproduce.
+Cannot repro, Windows 10 Pro x64 1903, Discord Canary 40795
+
+ryan#0570 - Bug Bot on 2019-07-05T21:33:11.527Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-07-05T21:33:11.825Z
+
+
+### Archived by Bug Bot on 2019-08-04T22:00:37.240Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/joeybaker9) - No Bio

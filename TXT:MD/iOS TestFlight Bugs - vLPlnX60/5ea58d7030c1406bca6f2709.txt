@@ -1,0 +1,124 @@
+[Archived] Discord is stuck in a crash loop if the channel you are viewing has a spoiled link in its channel topic. (https://trello.com/c/SNhoTMCM)
+
+P1 - Severe,
+high
+
+Created: 2020-04-26T13:32:33.013Z
+Latest Update: 2020-06-05T21:30:28.395Z
+
+Reported by Daffyduck#5364
+
+####Steps to reproduce:
+- Go to a server and proceed to edit a channel. 
+- In the channel topic field, type in any link, (Google's would be easiest) and add spoilers around the link. 
+- Tap save, you are now stuck in a crash loop.
+
+####Expected result:
+You should be able to view the channel without crashing.
+####Actual result:
+You are stuck in a crash loop until you remove the spoilers around the link.
+####Client settings:
+TestFlight 19.0 (19670)
+####System settings:
+iPhone SE, iOS 13.4.1
+
+55183
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-26T13:32:33.013Z
+
+
+### Can reproduce.
+Can reproduce, iPhone XR, iOS 12.1, TestFlight 19.0 (19670)
+
+🌻nickWtn🌻#3789 - Bug Bot on 2020-04-26T13:32:40.458Z
+
+
+### Can reproduce.
+CR, iPad Air 2, iPadOS 13.1.2, TestFlight 19.0(19670)
+
+ShockTr#8097 - Bug Bot on 2020-04-26T13:32:45.508Z
+
+
+### Can reproduce.
+iPhone 5S: iOS 12.4.5; TestFlight 19.0 (19670) & iPhone 7: iOS 13.4.1; TestFlight 19.0 (19670) & iPad 7: iPadOS 13.4.1; TestFlight 19.0 (19670)
+
+Jiralite#1207 - Bug Bot on 2020-04-26T13:32:50.470Z
+
+
+### Moved from New Issues to Notable Issues by Daffyduck on 2020-04-26T13:35:13.843Z
+
+
+### Can reproduce.
+Can reproduce. iPhone XS Max, iOS 13.4.1, TestFlight 19.0 (19670)
+
+Thunderstruck#2071 - Bug Bot on 2020-04-26T15:14:20.701Z
+
+
+### Can reproduce.
+CR; iPhone SE (2020), iOS 13.4.1 - Discord TestFlight 19.0 (19670)
+
+Arnold0#7514 - Bug Bot on 2020-04-27T13:30:50.970Z
+
+
+### Moved from Notable Issues to Fix made, not yet released by Fanghao on 2020-05-01T22:41:57.657Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2020-05-01T23:28:28.927Z
+
+
+### Can reproduce.
+iPhone XR, iOS 13.3.1, TestFlight 20.0 (19727)
+
+SplashyFlame#0067 - Bug Bot on 2020-05-01T23:31:54.095Z
+
+
+### Can reproduce.
+iPhone XR, iOS 13.3.1, TestFlight 20.0 (19806)
+
+SplashyFlame#0067 - Bug Bot on 2020-05-01T23:32:44.662Z
+
+
+### Can reproduce.
+iPhone 7: iOS 13.4.1; TestFlight 20.0 (19806)
+
+Jiralite#1207 - Bug Bot on 2020-05-01T23:33:13.575Z
+
+
+### Can't reproduce.
+iPhone 7: iOS 13.4.1; TestFlight 20.0 (19811)
+
+Jiralite#1207 - Bug Bot on 2020-05-02T01:15:15.384Z
+
+
+### Can't reproduce.
+IPhone XR, iOS 13.3.1, TestFlight 20.0 (19811)
+
+SplashyFlame#0067 - Bug Bot on 2020-05-02T01:43:51.971Z
+
+
+### Can't reproduce.
+iPhone 11, iOS 13.5 (dev beta 2) - Testflight 20.0 (19811)
+
+Xylium#0001 - Bug Bot on 2020-05-02T02:11:56.062Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2020-05-02T02:11:56.559Z
+
+
+### Can reproduce.
+iPhone X; iOS 13.4.1, Discord TF 19.0 (19670)
+
+Airbus A330-200#0001 - Bug Bot on 2020-05-06T21:18:29.678Z
+
+
+### Archived by Bug Bot on 2020-06-05T21:30:28.406Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

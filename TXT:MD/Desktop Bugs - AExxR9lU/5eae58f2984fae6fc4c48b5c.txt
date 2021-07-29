@@ -1,0 +1,54 @@
+[Touchscreen] Scrolling down the member list using touchscreen does not trigger a scrollbar (https://trello.com/c/6EnEGHXZ)
+
+None
+
+Created: 2020-05-03T05:38:58.809Z
+Latest Update: 2020-07-16T21:26:06.298Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Use a touch screen computer 
+- Open a member list 
+- Scroll up & down using the touchscreen
+
+####Expected result:
+There should be a scrollbar to indicate where you are on the list as there is while scrolling with a mouse
+####Actual result:
+There is no scrollbar to indicate where you are on the list
+####Client settings:
+Desktop Canary 51469
+####System settings:
+Dell Inspiron Windows 10
+
+50433
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-03T05:38:58.809Z
+
+
+### Can reproduce.
+CR, Surface Pro X, Windows 10 v1909, Canary 53946
+
+Sanjay#0540 - Bug Bot on 2020-05-03T05:39:06.415Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Version 1909, Desktop Canary 58468
+
+Ana940#9858 - Bug Bot on 2020-05-03T05:39:11.333Z
+
+
+### Can reproduce.
+CR only if the cursor wasn't over the member list prior. Canary 59390 (14ffb94), Host 0.0.264, Windows 10 64-Bit (10.0.18362)
+
+ramune#7777 - Bug Bot on 2020-05-03T05:39:16.539Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

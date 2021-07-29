@@ -1,0 +1,94 @@
+[Archived] When someone wants to switch language, if he choose the Greek language the client will crash, no matter what (https://trello.com/c/E1QX4c9p)
+
+P0: Need an immediate fix,
+Low
+
+Created: 2018-01-17T12:38:41.239Z
+Latest Update: 2018-03-14T13:42:25.005Z
+
+Reported by Manfre#9262
+
+####Steps to reproduce:
+- Go to User Settings 
+- Go to Language 
+- Select the Greek language
+
+####Expected result:
+The Discord app should switch to the Greek language
+####Actual result:
+The Discord app will crash with the crash error in the Greek language
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 9587, Version Hash: 287033c755e0b326f6428f42d4f6c718c27ae51f
+####System settings:
+PC, Windows 7 Professional
+
+7870
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-17T12:38:41.239Z
+
+
+### Can reproduce.
+can repro, MacOSX 10.12.6, Discord Canary 0.0.185, overlord approving because it's fairly serious
+
+IcyPebbles!#5833 - Bug Bot on 2018-01-17T12:38:48.692Z
+
+
+### Verified.  - Clayton on 2018-01-17T12:38:54.787Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-17T12:38:59.152Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by b1naryth1ef on 2018-01-17T14:17:50.891Z
+
+
+### Can't reproduce.
+CNR as of Discord Canary Build 9616 on Windows 10 Professional x64 - Fall Creators Update.
+
+Ghoul#4567 - Bug Bot on 2018-01-17T14:21:40.688Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-27T00:08:51.015Z
+
+
+### Can't reproduce.
+CNR, MacBook Pro (late 2013), macOS  Sierra 10.12.1, Discord Canary build 9959
+
+JustGamer#9787 - Bug Bot on 2018-01-27T00:10:17.679Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T00:53:02.075Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T02:27:30.614Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:36:31.101Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-27T07:36:34.584Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:42:24.481Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:42:25.007Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

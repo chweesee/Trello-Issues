@@ -1,0 +1,89 @@
+[Archived] Random Symbols getting escaped in message. (https://trello.com/c/qKGpdFru)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2019-02-21T04:27:57.437Z
+Latest Update: 2019-10-23T23:02:10.382Z
+
+Reported by Uncleben#4995
+
+####Steps to reproduce:
+- Send this message in Discord "" 
+- Near the end of the sent message you will see that "21735-1">" has been changed to "21735-1/%22%3E"
+
+####Expected result:
+The text should get sent exactly without the symbols being escaped.
+####Actual result:
+The symbols in my message get changed to escaped Javascript substitutions eg. %3E or %22
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 32407, Version Hash: c146721bbbd760e1ad AND on IOS 2.4.4
+####System settings:
+Linux Mint 19.1, Windows 10(Unsure about exact version), IOS 12.1.2
+
+29218
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-21T04:27:57.437Z
+
+
+### Can reproduce.
+CR; Windows 7 Pro 64bits (build 7601) w/ Web Stable 32470
+
+Lоnginus#0293 - Bug Bot on 2019-02-21T04:28:04.735Z
+
+
+### Can reproduce.
+macos 10.14.4, Canary 32470, Safari 12
+
+M24#0272 - Bug Bot on 2019-02-21T04:28:09.755Z
+
+
+### Can reproduce.
+CR, macOS 10.14.4, Chrome 72, PTB 32470
+
+Action Potential#2494 - Bug Bot on 2019-02-21T04:28:14.762Z
+
+
+### This is what was supposed to be in step one: https://www.googletagmanager.com/gtag/js?id=UA-134321735-1%22%3E
+
+☃nickWtn☃#3789 - Bug Bot on 2019-02-21T06:48:02.300Z
+
+
+### Can reproduce.
+Windows 10 home 64bit, Release Channel: stable, Build Number: 32470, Version Hash: f0f7fcf0c570893de08e915de9c9e78a3d2c5eef
+
+Mr. Proper#2394 - Bug Bot on 2019-02-21T06:49:45.646Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 - Chrome 72.0.3626.97 (x64) - Web Canary 32470
+
+Casper#9999 - Bug Bot on 2019-02-21T06:56:29.118Z
+
+
+### Can reproduce.
+CR MacOS 10.12.6 Sierra Mac Pro (Mid 2010) Canary Build 32597
+
+Starfield_9#8660 - Bug Bot on 2019-02-22T01:34:25.382Z
+
+
+### Can reproduce.
+CR; Canary: 32805, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-02-26T11:36:32.649Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-05T23:24:23.128Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:10.394Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

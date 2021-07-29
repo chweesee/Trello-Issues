@@ -1,0 +1,157 @@
+[Archived] Channel and user mentions in channel descriptions will now always display as invalid. (https://trello.com/c/UJPobb8I)
+
+None
+
+Created: 2018-03-20T11:09:38.464Z
+Latest Update: 2019-01-01T23:09:25.507Z
+
+Reported by ululu#6460
+
+####Steps to reproduce:
+- In a channel description, add raw mention formatting somewhere (such as `<@!140472150481043457>` or `<#342060723721207810>`). 
+- View the channel description from the channel itself.
+
+####Expected result:
+The mentioned channels and users should display correctly.
+####Actual result:
+All mentions return as @invalid-user or #invalid-channel.
+####Client settings:
+Discord Android Alpha 6.3.9 (639)
+####System settings:
+Samsung Galaxy S7 Edge, Android 7.0
+
+9734
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-20T11:09:38.464Z
+
+
+### Can reproduce.
+CR lg Xpower 6.0.1 on alpha 6.3.9
+
+ks#0908 - Bug Bot on 2018-03-20T11:09:45.872Z
+
+
+### Can reproduce.
+OnePlus 5, Android 8.0, discord alpha 6.3.9
+
+B a ™ a n#7883 - Bug Bot on 2018-03-20T11:09:50.904Z
+
+
+### Can reproduce.
+OnePlus 3T Android O (8.0.0). Android Alpha 6.3.9
+
+RME#3050 - Bug Bot on 2018-03-20T11:09:55.907Z
+
+
+### Can't reproduce.
+Sony Xperia E5 F3311, Android 6.0, Discord Beta (Build 6.3.8 (638))
+
+TheDipper#8919 - Bug Bot on 2018-03-20T11:23:24.666Z
+
+
+### Can reproduce.
+Discord Alpha 6.3.9, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-03-20T11:33:38.536Z
+
+
+### Can reproduce.
+Sony Xperia E5 F3311, Android 6.0, Discord Beta (Build 6.3.9)
+
+TheDipper#8919 - Bug Bot on 2018-03-20T11:59:39.660Z
+
+
+### Only role mentions seem to correctly display
+
+Alex1304#9704 - Bug Bot on 2018-03-20T12:05:32.346Z
+
+
+### Can't reproduce.
+it displays just as it's raw format, not as correct mention or invalid, Discord Alpha 6.3.9, Samsung Galaxy J7, Android 7.0
+
+Россия (Kero)#1269 - Bug Bot on 2018-03-20T12:22:36.471Z
+
+
+### Can reproduce.
+Sony Xperia E5 F3311 (Custom modifying), Android 6.0, Discord Beta (Build 6.3.9)
+
+TheDipper#8919 - Bug Bot on 2018-03-20T12:25:00.039Z
+
+
+### Can't reproduce.
+Sony Xperia E5 F3311 (Custom modifying), Android 6.0, Discord Beta (Build 6.3.9)
+
+TheDipper#8919 - Bug Bot on 2018-03-20T12:25:48.421Z
+
+
+### Can reproduce.
+Sony Xperia E5 F3311 (Custom modifying), Android 6.0, Discord Beta (Build 6.3.9)
+
+TheDipper#8919 - Bug Bot on 2018-03-20T12:25:51.851Z
+
+
+### Can reproduce.
+Sony Xperia E5 F3311 (Custom modifying), Android 6.0, Discord Beta (Build 6.3.9)
+
+TheDipper#8919 - Bug Bot on 2018-03-20T12:26:20.054Z
+
+
+### Can reproduce.
+Sony Xperia E5 F3311 (Custom modifying), Android 6.0, Discord Beta (Build 6.3.9)
+
+TheDipper#8919 - Bug Bot on 2018-03-20T12:27:40.803Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 Emerge, Android 6.0.1, Alpha 6.3.9
+
+Purpzie#0001 - Bug Bot on 2018-03-20T19:51:47.796Z
+
+
+### Can't reproduce.
+Samsung Galaxy S7, Android 7.0, Discord Alpha 6.3.9. This bug appears to only be affecting some devices, as raw mention format works fine for me. The exclamation point you added in your raw format is also not correct format.
+
+Delextris#0001 - Bug Bot on 2018-03-21T10:45:03.569Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 7.0, Discord Alpha 6.3.9. After a second round of testing, raw mention format for users appears to be failing. Channel format still works, though.
+
+Delextris#0001 - Bug Bot on 2018-03-21T10:54:10.925Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 2016, Android 5.1.1, Discord Alpha 6.4.0
+
+AwesomeSkittle#1912 - Bug Bot on 2018-03-22T09:02:31.301Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Andy Garron on 2018-03-22T22:06:10.901Z
+
+
+### Still happens for `<@!> mentions, moving to reopened - Tarek on 2018-04-01T05:59:07.760Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-04-01T05:59:18.669Z
+
+
+### Verified Fixed, even for <@!> - Jared on 2018-07-11T22:56:14.220Z
+
+
+### Moved from Reopened to Fixed Bugs by Jared on 2018-07-11T22:56:18.423Z
+
+
+### Archived due to being inactive in "Fixed bugs" list for 30+ days. - Tarek on 2019-01-01T23:09:24.920Z
+
+
+### Archived by Tarek on 2019-01-01T23:09:25.510Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

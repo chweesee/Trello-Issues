@@ -1,0 +1,79 @@
+[Archived] Having all of your pictures saved on iCloud using the Optimize iPhone Storage option will make it so it won't appear in recent images in the clipboard (https://trello.com/c/UHYcCQSg)
+
+None
+
+Created: 2018-08-22T14:21:50.171Z
+Latest Update: 2019-05-13T15:32:08.189Z
+
+Reported by Pyros#2326
+
+####Steps to reproduce:
+- Make sure all of your pictures are on the iCloud rather than downloaded in your phone 
+- Make sure none of them are downloaded and click clipboard and see the pictures
+
+####Expected result:
+Should show all pictures and download them if you try to share it
+####Actual result:
+Won't show any unless you hit to open Camera Roll
+####Client settings:
+Testflight 2.3.7 (6870)
+####System settings:
+iPhone 6, iOS 12 beta 9
+
+18124
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-22T14:21:50.171Z
+
+
+### Can reproduce.
+Can reproduce | iPhone 5s iOS 12 16A5362a, Testflight 2.3.7 (6870)
+
+Phantomelon#2735 - Bug Bot on 2018-08-22T14:21:57.495Z
+
+
+### Can reproduce.
+Can reproduce iPhone 6 iOS 12 beta 9 TestFlight 2.3.7 (6870)
+
+nop#4961 - Bug Bot on 2018-08-22T14:22:02.529Z
+
+
+### Can reproduce.
+CR iPhone SE - iOS 11.4.1. TestFlight 6870
+
+evilpauwse#9985 - Bug Bot on 2018-08-22T14:22:07.609Z
+
+
+### Can reproduce.
+iPhone 8 Plus, iPad Air 2 - iOS 12 Public Beta 7, TestFlight 2.3.7 (6870) - The reporter is talking about recent images, also it seems only to happen with spave-saving versions of your images. So you have to enable the option "Optimize iPhone Storage" in your settings and get this:
+
+"Your library is optimized only when you need space, starting with the photos and videos you access least."
+
+Pascal#0929 - Bug Bot on 2018-08-22T14:29:27.016Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 9) - TestFlight 2.3.7 (6870)
+
+Xylium#1480 - Bug Bot on 2018-08-22T15:25:21.847Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Victoria on 2018-08-23T00:25:04.173Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:00.732Z
+
+
+### Can reproduce.
+iPhone 6S iOS 12.1.4
+
+ShadoTempest#9542 - Bug Bot on 2019-05-13T15:32:08.197Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

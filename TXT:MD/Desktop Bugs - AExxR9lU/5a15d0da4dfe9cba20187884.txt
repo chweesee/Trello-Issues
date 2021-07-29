@@ -1,0 +1,105 @@
+[Archived] When you spam click the join / leave call discord crashes (https://trello.com/c/lgaPYuGi)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-11-22T19:32:42.641Z
+Latest Update: 2019-10-23T23:01:48.079Z
+
+Reported by The One And Only SmoothModeler#3669
+
+####Steps to reproduce:
+- Start a call and get somebody to join it 
+- Spam click the join / leave call buttom
+
+####Expected result:
+You should leave/join the call
+####Actual result:
+Discord reloads/crashes
+####Client settings:
+macOS High Sierra , discord canary 0.0.170
+####System settings:
+Macbook Air 13 inch, macOS High Sierra
+
+6545
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-22T19:32:42.641Z
+
+
+### Can reproduce.
+Verified. Very minor issue as this falls under the "intentionally destructive "behavior" category, but i reproduced it easily.
+
+Dabbit Prime#0896 - Bug Bot on 2017-11-22T19:32:49.924Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-22T22:15:14.520Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary Build 14720
+
+ThaumicTom#9155 - Bug Bot on 2018-05-06T12:41:32.557Z
+
+
+### Rage#9991 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a15d0da4dfe9cba20187884/01be9293b4bd127dab9f955bec30d49d/giphy.gif added by Bug Bot on 2018-07-16T07:30:32.122Z
+
+
+### Can't reproduce.
+Tested on Windows 10 Home 64-bit (1803) with Discord Canary Build 24227
+
+that15fine#9275 - Bug Bot on 2018-09-20T16:35:03.588Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 24925
+
+Mippy#0001 - Bug Bot on 2018-09-28T11:55:38.472Z
+
+
+### Can reproduce.
+Windows 10 home 64-bit, Canary 27574
+
+J1#0088 - Bug Bot on 2018-11-07T11:44:18.261Z
+
+
+### Can reproduce.
+CR; Only happens in video call (or failed to repro in voice); Also happens when spamming mute; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 30318
+
+Longinus#0293 - Bug Bot on 2019-01-03T03:09:09.555Z
+
+
+### Archived by Bug Bot on 2019-02-02T03:30:02.786Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) | Canary 35540
+
+charleskimbac#6492 - Bug Bot on 2019-04-13T19:07:36.553Z
+
+
+### Unarchived by Bug Bot on 2019-04-13T19:30:05.458Z
+
+
+### Can reproduce.
+Joining a vc and immediately leaving it during the "RTC connecting" phase, before it fully connects causes a soft crash, doesnt require spamming, just disconnecting during the perfect second during "RTC connecting" Dell Inspiron Windows 10 Home & Student, Host 0.0.246, Canary Build 40795 (was also able to repro on Host 0.0.243, Build 39827)
+
+binchlord#0998 - Bug Bot on 2019-07-06T02:42:15.391Z
+
+
+### Can reproduce.
+CR Windows 10 x64, Canary build: 42262 - It made me need to fully relogin.
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-30T23:57:24.223Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:48.094Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

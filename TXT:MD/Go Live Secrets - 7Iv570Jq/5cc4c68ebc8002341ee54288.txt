@@ -1,0 +1,51 @@
+When you switch to a different stream while the popout is already open, the title of the popout containing the streaming user's name doesn't update. (https://trello.com/c/2SxFJlv8)
+
+Investigating
+
+Created: 2019-04-27T21:15:58.612Z
+Latest Update: 2019-06-17T22:08:20.323Z
+
+**Steps to Reproduce:**
+1. Have someone go live in a server.
+2. Watch the stream in popout mode.
+3. Join someone else's stream.
+4. Check the title of the popout window.
+
+**Expected Result:** The popout title updates with the name of the user you are watching.
+
+**Actual Result:** The popout continues to return the old user's username.
+
+**Client Settings:** Canary 36529
+
+**System Settings:** MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226)
+
+Card Log
+========
+### Added by Isabel Lomas on 2019-04-27T21:15:58.612Z
+
+
+### Video - https://www.youtube.com/watch?v=WJk5UiGRGns added by Isabel Lomas on 2019-04-27T21:21:29.605Z
+
+
+### CR.
+macOS Mojave 10.14, Canary 36529 - Rage on 2019-04-27T21:24:37.368Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5cc4c68ebc8002341ee54288/ce8d805e684f253ce7ba923c7a3da54c/image.png added by Isabel Lomas on 2019-04-27T21:38:12.773Z
+
+
+### CR Canary 36529 -- Windows 10 Pro x64 v1809 Build 11875.1000 - webhp on 2019-04-28T02:09:42.208Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by webhp on 2019-04-28T02:09:57.377Z
+
+
+### Moved from Tested Bugs to Claimed Fixed, Needs Verification by Athena Yao on 2019-05-17T20:44:16.652Z
+
+List
+====
+Claimed Fixed, Needs Verification
+
+Members
+=======
+None

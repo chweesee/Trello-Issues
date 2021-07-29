@@ -1,0 +1,67 @@
+[Archived] Messages from new channel do not show until clicked (https://trello.com/c/nz3F4sYI)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-16T16:41:20.292Z
+Latest Update: 2018-10-22T20:16:15.564Z
+
+Reported by batannius#9615
+
+####Steps to reproduce:
+- (Create and) Restrict a channel to a specific role 
+- Disable the permission to see message history in this channel 
+- Set said role to a user 
+- Now write a message (you can even @mention) to the user
+
+####Expected result:
+The user should see the channel messages from the time he is granted access to it
+####Actual result:
+He does not see the messages until the time he clicks on the channel once. If you revoke permission and grant it again this bug does not occur. But happens with every channel exactly once, if configured as described.
+####Client settings:
+Latest release
+####System settings:
+Win 7 Pro
+
+5145
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-16T16:41:20.292Z
+
+
+### Can reproduce.
+MacBook Pro 2017 13", OSX High Sierra (10.13), Canary 0.0.155
+
+Skeletonarcher12#3697 - Bug Bot on 2017-10-16T16:41:27.843Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13, Discord Canary, 0.0.156
+
+Pascal#0929 - Bug Bot on 2017-10-16T16:41:32.834Z
+
+
+### Can reproduce.
+CR, MacBook Air (11-inch, Early 2015), MacOS Sierra 10.12.6, Discord Canary 0.0.156
+
+🎃DynomiteCentral🎃#4808 - Bug Bot on 2017-10-16T16:41:37.824Z
+
+
+### 🎃DynomiteCentral🎃#4808 - https://youtu.be/ZBTEiK52JZ4 added by Bug Bot on 2017-10-16T16:47:05.327Z
+
+
+### Verified.  - Clayton on 2017-10-17T22:10:07.685Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-17T22:10:12.346Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:15.566Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,70 @@
+[Archived] Fuzzy view caused by Intel HD Graphics "Conservative Morphological Anti-Aliasing" set to "Enhance Application Settings" (https://trello.com/c/cVMQJdJa)
+
+None
+
+Created: 2018-06-08T01:57:42.971Z
+Latest Update: 2018-08-30T23:15:11.306Z
+
+Reported by Bowser V2 ✔#5788
+
+####Steps to reproduce:
+- Open Intel HD graphics control panel 
+- Go to 3D 
+- Change "Conservative Morphological Anti-Aliasing" to "Enhance Application Settings" 
+- Restart Discord
+
+####Expected result:
+No fuzziness visible
+####Actual result:
+Items can appear fuzzy and hard to read.
+####Client settings:
+Stable, Build Number: 16577
+####System settings:
+Windows 10 Pro, Res: 1920x1080, Graphics: Intel HD Graphics 4400
+
+13902
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-08T01:57:42.971Z
+
+
+### Ghoul#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b19e2969fe520b59131d6f3/59a1445f945628af3e762a3870abff6b/TzjfWoQ.png added by Bug Bot on 2018-06-08T01:57:45.676Z
+
+
+### Bowser V2 ✔#5788 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b19e2969fe520b59131d6f3/1b70be65407d2acba5e477c5ec3591ed/unknown.png added by Bug Bot on 2018-06-08T01:57:45.810Z
+
+
+### Can reproduce.
+can repro, Windows 10 Pro, Resolution: 1366x768, Graphics: Intel HD Graphics 4400
+
+💖 Cecillia 💖#0001 - Bug Bot on 2018-06-08T01:57:50.446Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 Professional x64 (Version 1709) with Discord Canary Build 16581. My laptop's specs are Dell Latitude E5540 with Intel Core i7 (4th Gen) and Intel HD Graphics 4400. I had to change my screen resolution to 1366 x 768 and disable my NVIDIA settings to force my laptop to use my integrated graphics.
+
+Ghoul#1337 - Bug Bot on 2018-06-08T01:57:55.436Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home x64 1803 Canary build 16581 Resolution 1366 x 768 Graphic card: HD 4400
+
+Bencey_#8587 - Bug Bot on 2018-06-08T01:58:00.446Z
+
+
+### I'm not convinced this is an issue with Discord. It sounds more likely that it's an issue with the Intel HD graphics control panel. - Jared on 2018-06-08T23:07:47.491Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-06-08T23:07:51.801Z
+
+
+### Archived by Clayton on 2018-08-30T23:15:11.309Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

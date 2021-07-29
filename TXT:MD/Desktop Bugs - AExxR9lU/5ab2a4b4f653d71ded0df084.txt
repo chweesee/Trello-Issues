@@ -1,0 +1,74 @@
+[Archived] Switching discord between multiple monitors with window scaling on causes chat to scroll up (https://trello.com/c/G5U1NQOS)
+
+None
+
+Created: 2018-03-21T18:30:12.965Z
+Latest Update: 2018-07-06T18:31:12.365Z
+
+Reported by Nighed#1979
+
+####Steps to reproduce:
+- Two monitors (possibly different resolution) Windows screen scaling turned on 
+- Move discord window between screens 
+- etc
+
+####Expected result:
+Text channels should retain scrolling location
+####Actual result:
+switching between monitors causes the text channels to scroll upwards
+####Client settings:
+stable, Build Number: 12336
+####System settings:
+Win 10 x64 1x4k monitor 1x1080p monitor
+
+9749
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-21T18:30:12.965Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Version 1803. Canary Build 12357
+
+RME#3050 - Bug Bot on 2018-03-21T18:30:20.471Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1709), Canary 12357
+
+Purpzie#0001 - Bug Bot on 2018-03-21T18:30:25.432Z
+
+
+### Can reproduce.
+Windows 10 1709, Canary Build 12413
+
+Tonkku#0950 - Bug Bot on 2018-03-21T18:30:30.407Z
+
+
+### Can reproduce.
+Win 10 Pro x64, Canary 12608
+
+C4Navar#1337 - Bug Bot on 2018-03-24T08:51:26.490Z
+
+
+### Cannot reproduce. Chat stays at the bottom as expected.
+
+[BUILD INFO] Release Channel: canary, Build Number: 12704, Version Hash: 6e4e7bc28e48e0d1d24a21ccda4c11280034f68b - Jared on 2018-03-27T22:36:43.488Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-03-27T22:37:16.430Z
+
+
+### Archiving as this ticket has been CNR for more than 30 days. - Jared on 2018-07-06T18:31:11.121Z
+
+
+### Archived by Jared on 2018-07-06T18:31:12.367Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

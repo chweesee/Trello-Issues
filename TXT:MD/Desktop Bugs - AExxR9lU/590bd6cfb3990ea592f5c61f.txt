@@ -1,0 +1,121 @@
+[Archived] Invites created under channel settings always point to the default channel (https://trello.com/c/KHAOYYTz)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-05-05T01:35:11.045Z
+Latest Update: 2019-01-01T15:32:34.516Z
+
+Reported by mouse91#3089
+
+####Steps to reproduce: 
+- Edit a non-default text channel 
+- Go to the Invites page and use the create link 
+- Dismiss the invite link box 
+- Note that the created invite is visible in the invites list 
+- Leave and re-enter the channel's settings 
+- Note that the created invite is now missing on the Invites page 
+- Access the Invites page under Server settings 
+- Note that the created invite belongs to the default channel 
+
+####Expected result:
+ The invite should point to the channel you edited (like those created via the quick invite button) 
+####Actual result:
+ The invite points to the default channel 
+####System settings:
+ Windows 10 x64, latest Canary (0.0.153)
+
+1378
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-05T01:35:11.045Z
+
+
+### Can reproduce.
+Can Repro, win10 latest canary
+
+Mippy#1483 - Bug Bot on 2017-05-05T01:35:11.719Z
+
+
+### Can reproduce.
+MacOS 10.12.4, Discord Canary 0.0.144
+
+xLars#5484 - Bug Bot on 2017-05-05T01:35:13.746Z
+
+
+### Can reproduce.
+Widnows 10 Prox x64, Latest Canary
+
+Azrael#6867 - Bug Bot on 2017-05-05T01:35:15.714Z
+
+
+### OZhzT44.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/590bd6cfb3990ea592f5c61f/7f393f839a9d254726d757a78da779df/OZhzT44.gif added by Bug Bot on 2017-05-05T01:35:27.358Z
+
+
+### Verified.  - Clayton on 2017-05-05T01:37:45.283Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-05T01:38:22.671Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 5843) -- only happens when the invite is created in the edit channel menu not if its created via right click -> instant invite
+
+Starshine Dust#2189 - Bug Bot on 2017-10-16T19:06:14.588Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843) -- Doesn't point to default channel, but to the first text channel in the list instead (even if it's not the default one)
+
+juj#5114 - Bug Bot on 2017-10-16T21:45:00.331Z
+
+
+### Can reproduce - Jared on 2017-10-16T22:22:43.723Z
+
+
+### Can't reproduce.
+Canary 17937 - Windows 10 Home x64 v1709 - Invite points to the channel it was created in, and this can be seen in both the channels invites and the servers invites
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T16:17:10.333Z
+
+
+### Cannot repro anymore, Discord Canary 0.0.211 (18051) on Windows 10 Pro 64-bit (1803). Moving to claimed fixed. - Tarek on 2018-07-03T04:09:13.370Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-07-03T04:09:18.154Z
+
+
+### I can repro this with steps provided from Ene:
+
+ - Create two channels
+ - Be in/view channel #1
+ - Go into channel 2's channel settings invite section
+ - Click on "Create one" to open the invite modal
+ - Exit the channel settings page
+ - Open audit logs and observe that the invite was not created for the channel you selected 
+
+Reopening ticket, Canary 18317. - Tarek on 2018-07-07T16:15:09.682Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-07-07T16:15:18.834Z
+
+
+### can no longer reproduce - Clayton on 2018-10-03T03:16:59.664Z
+
+
+### Moved from Reopened to Verified Fixed by Clayton on 2018-10-03T03:17:05.332Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:32:33.324Z
+
+
+### Archived by Tarek on 2019-01-01T15:32:34.519Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

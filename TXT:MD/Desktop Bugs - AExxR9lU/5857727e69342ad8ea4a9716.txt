@@ -1,0 +1,74 @@
+[Archived] Green circle stays around a users name in a group call DM if you disconnect while they are talking (https://trello.com/c/HzSMdliM)
+
+P3: Will get fixed eventually
+
+Created: 2016-12-19T05:39:10.780Z
+Latest Update: 2018-08-30T23:34:10.462Z
+
+Reported by Onyx#0872
+
+####Steps to reproduce: 
+- start a group call in DMs 
+- Disconnect while another user is talking 
+
+####Expected result:
+  Green circle shouldnt be there once you disconnect. 
+####Actual result:
+ Green circle stays around the last user who was talking even after you disconnect. https://gyazo.com/330c077d82eeb5b374c41c637fdbf10c
+####System settings:
+ Latest Canary Win7 Home Premium
+
+Card Log
+========
+### Added by Jared on 2016-12-19T05:39:10.780Z
+
+
+### https://gyazo.com/330c077d82eeb5b374c41c637fdbf10c - https://gyazo.com/330c077d82eeb5b374c41c637fdbf10c added by Cole Norman on 2016-12-19T05:42:12.685Z
+
+
+### Can reproduce.
+Windows 10 Pro x664 Canary
+
+Enharmonic#3999 - Jared on 2016-12-19T06:01:10.190Z
+
+
+### Appears to happen for normal voice chat as well, not just group DM calls. Only occurs on Canary.
+
+Enharmonic#3999 - Jared on 2016-12-19T09:28:57.232Z
+
+
+### What is the point of the linked screenshot? It doesn't demonstrate anything to do with the bug.
+
+SuperSajuuk#7265 - Jared on 2016-12-19T20:16:35.590Z
+
+
+### Can reproduce.
+Latest Canary on Windows 10
+
+Tonkku#0950 - Jared on 2016-12-20T14:41:40.232Z
+
+
+### https://trello.com/c/yTeGebRq/295-if-you-exit-a-group-voice-chat-whilst-someone-is-talking-the-green-ring-that-signals-voice-activity-around-their-profile-picture - Cole Norman on 2016-12-29T09:04:24.378Z
+
+
+### Verified, minor issue. - Jared on 2017-01-03T21:16:39.671Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T21:16:47.554Z
+
+
+### Cannot reproduce. Marking as Verified Fixed - Jared on 2018-03-21T21:29:17.327Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-07-11T19:47:57.391Z
+
+
+### Archived by Clayton on 2018-08-30T23:34:10.464Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

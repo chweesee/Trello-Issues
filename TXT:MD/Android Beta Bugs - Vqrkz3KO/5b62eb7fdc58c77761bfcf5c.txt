@@ -1,0 +1,92 @@
+[Archived] On the "Are you sure you want to discard unsaved changes?" modal the "Okay" button is blue (https://trello.com/c/1oU5wYor)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-02T11:31:11.888Z
+Latest Update: 2018-10-23T07:30:34.404Z
+
+Reported by Rootin' Tootin' Putin (Kero)#9941
+
+####Steps to reproduce:
+- Go to a category or something you can edit, like a role (I used a category, not sure if it works with other models) 
+- Edit something and press back 
+- Observe
+
+####Expected result:
+The button should be red like all others
+####Actual result:
+The button is blue
+####Client settings:
+Discord Alpha 7.2.1 (721)
+####System settings:
+Samsung Galaxy J7 running Android 7.0
+
+16758
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-02T11:31:11.888Z
+
+
+### Rootin' Tootin' Putin (Kero)#9941 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b62eb7fdc58c77761bfcf5c/5c4e70581636f2a529d4f104ead7cb90/Screenshot_20180802-071218.png added by Bug Bot on 2018-08-02T11:31:14.717Z
+
+
+### Can reproduce.
+Xiaomi Mi A1 | Android 8.1.0 | Discord Alpha 7.2.0
+
+MrWasdennnoch#0443 - Bug Bot on 2018-08-02T11:31:19.648Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J5 2017 • Android 7.0 Nougat • Discord Alpha 7.2.0
+
+Vanished#4486 - Bug Bot on 2018-08-02T11:31:24.717Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0.0 - Discord Alpha 7.2.1
+
+Hole#8769 - Bug Bot on 2018-08-02T11:31:29.854Z
+
+
+### Can reproduce.
+CR, but looks a bit intentional for me, Xiaomi Redmi 4X, Android 7.1.2 Discord Alpha 7.2.1
+
+Frovy#6820 - Bug Bot on 2018-08-02T12:33:12.322Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 7.2.1 (721) - Android 5.1
+
+Diogolo#5292 - Bug Bot on 2018-08-02T13:25:35.611Z
+
+
+### Looks like nab because the modals have a red button only if they are associated with irreversible changes like deleting a server, deleting a channel/category, etc. not saving changes can still be reversed. So, the button isn't red.
+
+The Lunala#7777 - Bug Bot on 2018-08-02T14:41:07.921Z
+
+
+### All the things that I told in my last note + Jethro confirmed that it's nab
+
+The Lunala#7777 - Bug Bot on 2018-08-02T15:05:15.130Z
+
+
+### NAB - Clayton on 2018-08-09T23:03:45.960Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Clayton on 2018-08-09T23:03:49.891Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than a month without any activity. - Ghoul on 2018-10-23T07:30:33.537Z
+
+
+### Archived by Ghoul on 2018-10-23T07:30:34.406Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

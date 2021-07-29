@@ -1,0 +1,122 @@
+[Archived] Ctrl + clicking on link icons in dev doc pages opens applications page (https://trello.com/c/7JXLWjeO)
+
+None
+
+Created: 2018-07-30T08:18:42.552Z
+Latest Update: 2019-01-01T15:25:17.342Z
+
+Reported by that15fine#9275
+
+####Steps to reproduce:go to the developer docs page (https://discordapp(dot)com/developers/docs/resources/audit-log) 
+- hover your mouse over a subheading, like "Audit logs" 
+- Ctrl + click on the link icon that appears 
+- observe the page that opens in a new tab 
+- NOTE: This works for all subheadings in all categories of the developer docs. Clicking on the link icon normally will just scroll that section to the top of your screen.
+
+####Expected result:
+If you ctrl + click on the link icon, it should open the same page from the section the icon was next to.
+####Actual result:
+It redirects to the applications page.
+####Client settings:
+Discord Canary 20174
+####System settings:
+Windows 10 Home 64-bit (1803)
+
+16389
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-30T08:18:42.552Z
+
+
+### Can reproduce.
+MacBook Pro (13"), macOS 10.13.6 - Canary 20174 - Firefox v61.0.1
+
+Mippy#0001 - Bug Bot on 2018-07-30T08:18:49.960Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Chrome 68.0.3440.75
+
+mrkirby153#7840 - Bug Bot on 2018-07-30T08:18:54.961Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 April 2018 Update x64, Firefox v61.0.1
+
+TTtie#4900 - Bug Bot on 2018-07-30T08:18:59.982Z
+
+
+### Can reproduce.
+[CR] - Canary 20174 - Firefox 61.0.1 - Windows 10 Home x64
+
+VR#5448 - Bug Bot on 2018-07-30T09:21:46.948Z
+
+
+### Can reproduce.
+CR Ubuntu 16.04 x86_64 4.15.0-29-generic Firefox 61.0.1 (64-bit)
+
+Frovy#6820 - Bug Bot on 2018-07-30T09:25:40.813Z
+
+
+### Can't reproduce.
+!deny 16389 | CNR. macOS Sierra 10.12.6, Google Chrome Version 68.0.3440.75
+
+Rage#9991 - Bug Bot on 2018-07-30T09:45:49.606Z
+
+
+### Can reproduce.
+CR Google Chrome 67.0.3396.99 Win 7 x64
+
+Raizyr#0007 - Bug Bot on 2018-07-30T09:58:17.802Z
+
+
+### Moved from User Reported Bugs to Website Bugs by Mike Greer on 2018-07-30T20:28:58.913Z
+
+
+### Can't reproduce.
+Cannot Reproduce. The link redirects properly, no My Apps showing anymore as reported. Google Chrome 68.0.3440.106
+
+Frances Picard#6209 - Bug Bot on 2018-08-19T07:00:36.412Z
+
+
+### Cannot Reproduce:
+
+Link goes to correct anchor links on pages
+
+Mac OS 10.13.3 Chrome 68.0.3440.106 - Jesse Dacumos on 2018-08-20T23:02:35.477Z
+
+
+### Moved from Website Bugs to Cannot Reproduce by Jesse Dacumos on 2018-08-20T23:46:49.600Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Chrome Version 68.0.3440.106 - You can copy the correct link but when you open the link the anchor doesn't work and just opens the application page
+
+Pascal#0929 - Bug Bot on 2018-08-22T11:54:04.281Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 Canary: 25058
+
+Neiron#2406 - Bug Bot on 2018-09-30T19:48:16.780Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 Canary: 25058 Chrome 69.0.3497.100 x64
+
+Neiron#2406 - Bug Bot on 2018-09-30T19:49:54.575Z
+
+
+### Archived due to being inactive for 30+ days in cannot reproduce list. - Tarek on 2019-01-01T15:25:16.423Z
+
+
+### Archived by Tarek on 2019-01-01T15:25:17.344Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+Unknown User (https://trello.com/jfurrow) - No Bio

@@ -1,0 +1,71 @@
+Tap animation doesn't spread to fill when changing picker tab in emoji/GIF picker (https://trello.com/c/QtCIDC1w)
+
+None
+
+Created: 2020-07-15T15:43:01.202Z
+Latest Update: 2020-07-16T05:46:30.169Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Open emoji picker 
+- Tap the Emoji button. Note that the animation expands to fill the button 
+- Tap the GIF button. Animation does not expand 
+- Tap GIF button again. Animation will expand 
+- Whenever switching to the other tab it won't expand
+
+####Expected result:
+The animation should play every time you tap the buttons
+####Actual result:
+The animation does not play when you tap to switch to the other picker
+####Client settings:
+Discord 31-alpha2 (1196)
+####System settings:
+Moto G7, Android 10
+
+58701
+
+Card Log
+========
+### Added by Bug Bot on 2020-07-15T15:43:01.202Z
+
+
+### wakfi#6999 - https://youtu.be/uN6tgdHxu9k added by Bug Bot on 2020-07-15T15:43:03.679Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S10+, Android 10, Discord 31-alpha2 (1196)
+
+Lime#9898 - Bug Bot on 2020-07-15T15:43:08.742Z
+
+
+### Can reproduce.
+CR, Pixel 4XL, Android 10, Discord 31-alpha2 (1196)
+
+Sergeant Steve#0001 - Bug Bot on 2020-07-15T15:43:13.658Z
+
+
+### Can reproduce.
+Samsung Galaxy S10+ Android 10.0 - Discord 31Alpha2 (1196)
+
+Akyol#1934 - Bug Bot on 2020-07-15T15:43:18.664Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2017 - Discord 31 (1197)
+
+GeekCornerD#8010 - Bug Bot on 2020-07-15T16:56:31.775Z
+
+
+### Can reproduce.
+HTC U12+, Android 9.0 - Discord 31.0
+
+anonymous kitten#6881 - Bug Bot on 2020-07-15T18:32:39.879Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

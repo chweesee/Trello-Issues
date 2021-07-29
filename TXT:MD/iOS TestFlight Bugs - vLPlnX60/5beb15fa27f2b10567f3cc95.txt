@@ -1,0 +1,81 @@
+[Archived] When using hiragana in an @ mention, it does not populate properly due to autocorrect. (https://trello.com/c/IYeZNBef)
+
+None
+
+Created: 2018-11-13T18:20:42.659Z
+Latest Update: 2019-08-27T12:08:55.502Z
+
+Reported by Bjaker#0038
+
+####Steps to reproduce:
+- Click on mention and try to use @mention, Japanaese hiragana can't display/show correctly. 
+- Hiragana always appears incorrectly. 
+- When typing "ともやん", it shows like "とmお".
+
+####Expected result:
+When typing in hiragana it should load properly.
+####Actual result:
+The device tries to autocorrect what is typed.
+####Client settings:
+iOS app - 2.3.10
+####System settings:
+iPhone X - iOS 12
+
+23098
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-13T18:20:42.659Z
+
+
+### Can reproduce.
+iPhone 7 iOS 12.0 TestFlight Build 2.4.0 (8921) - This might take a couple of tries, it requires a user that has a username or nickname in Japanese. Also, converting the first hiragana to katakana is not possible if there's an '@' before it, so for example you can't mention a user that has a katakana username or nickname.
+
+Kuuhaku#4503 - Bug Bot on 2018-11-13T18:20:49.984Z
+
+
+### Can reproduce.
+Can reproduce, iPhone XR, iOS 12.1, TestFlight 2.4.0 (8912)
+
+🍂nickWtn🍂#3789 - Bug Bot on 2018-11-13T18:20:55.060Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 12.1 Dev Beta 5 - TestFlight 2.4.0 (8921)
+
+Alfie#1582 - Bug Bot on 2018-11-13T18:21:00.012Z
+
+
+### Can reproduce.
+iPhone 8+ iOS 12.0 TF 8921
+
+Suprnova#0001 - Bug Bot on 2018-11-14T12:52:29.953Z
+
+
+### Moved from New Issues to Text Chat by Victoria on 2018-11-15T22:34:21.815Z
+
+
+### Can reproduce.
+iPad mini 2. iOS 12 beta 3
+
+Loquax#2844 - Bug Bot on 2018-11-17T07:56:39.643Z
+
+
+### Moved from Text Chat to Fix made, not yet released by Fanghao on 2019-01-05T01:54:19.563Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Victoria on 2019-01-14T23:26:37.253Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Clayton on 2019-01-16T03:00:11.330Z
+
+
+### Archived by Bug Bot on 2019-02-15T03:30:18.659Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/fanghao2) - No Bio

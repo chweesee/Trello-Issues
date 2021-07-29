@@ -1,0 +1,81 @@
+[Archived] The default welcome messages by Discord when searched, are apparently the message of the user who has joined but the notification shows the message was sent by Discord. (https://trello.com/c/8EcWL1BM)
+
+None
+
+Created: 2018-05-21T13:20:55.032Z
+Latest Update: 2018-07-06T18:53:55.606Z
+
+Reported by The Lunala#0001
+
+####Steps to reproduce:
+- Set the notification settings of a server to all messages. 
+- Close Discord app(don't kill it) 
+- Ask a member to join the server. 
+- Check the notification (it says the message was sent by Discord). 
+- Go to the server where the member has joined. 
+- Search the messages sent by the use.
+
+####Expected result:
+The notification should have the username of the member who has joined.
+####Actual result:
+The notification has the sender as **Discord** even if the search shows that the message was by the user who joined.
+####Client settings:
+Discord Alpha 6.7.4
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+13128
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-21T13:20:55.032Z
+
+
+### The Lunala#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b02c7b6dc5447c4011c4e57/75ef6846d4766d61d4f6085f3e358327/20180520_142414.jpg added by Bug Bot on 2018-05-21T13:20:57.667Z
+
+
+### The Lunala#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b02c7b6dc5447c4011c4e57/d26b1eaa198c232fc7329da6389d6f5d/20180520_142341.jpg added by Bug Bot on 2018-05-21T13:20:57.759Z
+
+
+### Can reproduce.
+CR Galaxy S8 android 8.0, alpha 6.7.4
+
+AEnterprise#4693 - Bug Bot on 2018-05-21T13:21:02.567Z
+
+
+### Can reproduce.
+Able to Reproduce; Samsung Galaxy A3 2017; Android 7.0; Discord Alpha 6.7.4 (674).
+
+Costpap#2158 - Bug Bot on 2018-05-21T13:21:07.562Z
+
+
+### Can reproduce.
+Samsung S6 Android 6.0.1 Discord Alpha 6.7.4 (674)
+
+Tetey#6918 - Bug Bot on 2018-05-21T13:21:12.554Z
+
+
+### Can reproduce.
+Huawei Honor 6x, Discord 6.7.4 (674) Android 7.0
+
+LegitBananaMan#8239 - Bug Bot on 2018-05-21T13:47:01.290Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Sam Shih on 2018-05-21T17:42:32.372Z
+
+
+### it's actually a system message, thus discord. NAB - Sam Shih on 2018-05-21T17:42:33.072Z
+
+
+### Archiving report as this ticket has been in a resolved state for 30 or more days. - Jared on 2018-07-06T18:53:54.486Z
+
+
+### Archived by Jared on 2018-07-06T18:53:55.609Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

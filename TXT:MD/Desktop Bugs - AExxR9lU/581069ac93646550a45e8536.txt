@@ -1,0 +1,74 @@
+[Archived] You cannot select a cut-off server unless you click in the lower corners of the icon (https://trello.com/c/t0GYVEIv)
+
+None
+
+Created: 2016-10-26T08:30:36.585Z
+Latest Update: 2017-10-17T21:14:02.822Z
+
+Reported by A Generic Gamer#4775
+
+####Steps to reproduce: 
+- Scroll through the server list so that a server icon is cut off but will still expand on hover 
+- Click on server 
+- Server will not be selected unless you click on the lower corners of the expanded icon. 
+
+####Expected result:
+ The server will be selected no matter where you click. 
+####Actual result:
+ The server will only be selected if you click on the lower corners of the expanded icon. 
+####System settings:
+ Canary 
+####Client version:
+ Win10 x64 https://gyazo.com/71520808571f769b4f798f2856a75a37
+
+Card Log
+========
+### Added by Jared on 2016-10-26T08:30:36.585Z
+
+
+### Can reproduce.
+Windows 7 Canary
+
+cyberiumshadow#7057 - Jared on 2016-10-26T12:49:47.480Z
+
+
+### Can reproduce.
+Windows 10 Anniversary Update x64
+
+Noahkiq#5529 - Jared on 2016-10-26T14:22:15.475Z
+
+
+### Can reproduce.
+Win 10 Anniverasary Update - Discord Canary latest
+
+Wolfstorm#0986 - Jared on 2016-10-26T22:05:20.917Z
+
+
+### Can reproduce.
+Win10, Discord Canary Latest
+
+Snazzah#0371 - Jared on 2016-10-27T00:42:06.763Z
+
+
+### Here's what's happening: the very top of discord is actually an un-interactable bar.  It's how your computer knows when you're trying to reposition the app, vs just using it normally.
+
+The server icon is "under-lapping" this invisible bar, so when you click on it, nothing happens because you're not actually clicking it, you're clicking on the invisible bar.  Clicking on the bottom portion works because they're lower than the invisible bar.
+
+Unfortunately, this is a Won't Fix because it would take a massive redesign to work around it and not have it look like shit. - Jared on 2016-10-28T17:59:14.163Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-10-28T17:59:17.070Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:14:02.169Z
+
+
+### Archived by Jared on 2017-10-17T21:14:02.824Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

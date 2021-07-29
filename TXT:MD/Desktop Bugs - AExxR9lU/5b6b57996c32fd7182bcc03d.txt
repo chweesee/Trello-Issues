@@ -1,0 +1,80 @@
+Push to talk remains open when desktop is locked. (https://trello.com/c/HB2pv6Ns)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-08-08T20:50:33.813Z
+Latest Update: 2019-09-23T22:30:07.873Z
+
+Reported by Viper#6937
+
+####Steps to reproduce:
+- Have push to talk enabled (In my case left ctrl) 
+- Lock the PC using Windows + L 
+- Press the push to talk key and say something 
+- Release the push to talk key
+
+####Expected result:
+Voice tranmission will cease once the push to talk is released
+####Actual result:
+Voice transmission will continue after push to talk is released.
+####Client settings:
+Desktop build 21161
+####System settings:
+Windows 10x64. NOT REPRODUCIBLE Windows 7x64
+
+17158
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-08T20:50:33.813Z
+
+
+### Can reproduce.
+CR, Windows 10 home 64-bit (1803); Discord Canary Build 21209
+
+Blitz#7736 - Bug Bot on 2018-08-08T20:50:41.161Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 64-Bit Build 17134.191 [BUILD INFO] Release Channel: canary, Build Number: 21209, Version Hash: 0e9a9eda44de8784629a66474a833187e2651740 Can Reproduce with a DM Call. For me PTT Transmission only ended after I unlocked my laptop
+
+Blastoise186#7194 - Bug Bot on 2018-08-08T20:50:46.155Z
+
+
+### Can reproduce.
+[CR] Can reproduce || Windows 10 Home (x64, 1803), Discord Canary 21209
+
+Marc#5983 - Bug Bot on 2018-08-08T20:50:51.108Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1709) - Discord Canary Build 21405
+
+Hole#8769 - Bug Bot on 2018-08-09T06:42:18.274Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 21440
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-09T11:45:52.717Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 21705
+
+Frances Picard#6209 - Bug Bot on 2018-08-12T16:54:47.640Z
+
+
+### verified, win 10, canary 22496 - Clayton on 2018-08-24T21:41:42.503Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-24T21:41:48.204Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

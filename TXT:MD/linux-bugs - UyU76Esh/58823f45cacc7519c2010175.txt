@@ -1,0 +1,60 @@
+[Archived] giant icon in pavucontrol (https://trello.com/c/ahwtPKdX)
+
+None
+
+Created: 2017-01-20T16:48:05.434Z
+Latest Update: 2017-10-17T21:16:55.827Z
+
+Reported by mralext20#8975
+
+####Steps to reproduce: 
+- 1. join a voice call 2. open pavucontrol -
+
+####Expected result:
+ normal sized icon - 
+####Actual result:
+ GIANT ICON
+
+Card Log
+========
+### Added by Jared on 2017-01-20T16:48:05.434Z
+
+
+### Can reproduce.
+Kali Linux
+
+Derumisis#7928 - Jared on 2017-01-20T16:48:06.223Z
+
+
+### Can reproduce.
+Chris said this is a known issue that's been around for a while, so I'm approving it on his behalf.
+
+Dabbit Prime#0896 - Jared on 2017-01-20T16:48:08.019Z
+
+
+### Screenshot_from_2017-01-18_09-07-28.png - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/58823f45cacc7519c2010175/831e4e301f3b6c6ea0272dbd1526fb38/Screenshot_from_2017-01-18_09-07-28.png added by Jared on 2017-01-20T16:48:21.335Z
+
+
+### Moved from User Reported to Discord Verified Bugs by Jared on 2017-02-02T18:53:57.275Z
+
+
+### This is not a bug in Discord. This is how GTK3 handles SVG files when the application in question does not explicitly size them. A patch for pavucontrol to resolve this can be found here: https://bugs.launchpad.net/ubuntu/+source/pavucontrol/+bug/1451160
+
+Nevermind#5076 - Jared on 2017-02-09T02:20:20.465Z
+
+
+### Moved from Discord Verified Bugs to Verified Fixed by Jared on 2017-05-25T16:12:24.849Z
+
+
+### Archiving as this ticket as been Verified Fixed for over a month. - Mike Nisbet on 2017-10-17T21:16:55.239Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T21:16:55.829Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

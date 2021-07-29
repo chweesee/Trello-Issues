@@ -1,0 +1,50 @@
+Clicking on spectators when in fullscreen does nothing (https://trello.com/c/vh3IDltd)
+
+Investigating
+
+Created: 2019-04-27T14:53:38.340Z
+Latest Update: 2019-06-18T17:51:18.265Z
+
+**Short Description:** Clicking on spectators when in fullscreen does nothing
+**Steps to reproduce:**
+1. Find someone streaming
+2. Start watching them and then double click them so theater mode appears
+3. Click the fullscreen button
+4. Hover over the spectators so the spectator menu appears
+5. Attempt to left/right click on of the spectators in that list
+6. Observe how nothing happens
+**Expected Result:** The context/mini profile should open
+**Actual Result:** Nothing
+**Client Settings:** Canary 36525
+**System Settings:** Windows 10 Home x64 (1809)
+
+Card Log
+========
+### Added by TheForbiddenAi on 2019-04-27T14:53:38.340Z
+
+
+### https://i.imgur.com/F7vm7Y6.gifv - https://i.imgur.com/F7vm7Y6.gifv added by TheForbiddenAi on 2019-04-27T14:56:20.657Z
+
+
+### This might be intended but CR Canary 36529 -- Windows 10 Pro x64 v1809 Build 1175.1000 - webhp on 2019-04-27T20:20:26.247Z
+
+
+### Can Reproduce (may be intended)
+Windows 10 Home x64 (1809) - Canary 36529 - Solo on 2019-04-27T20:23:37.488Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by Solo on 2019-04-27T20:46:22.088Z
+
+
+### hard to get good behavior, so we've fixed by setting expectations: removed indicators that these might be interactable - Athena Yao on 2019-06-18T17:50:55.600Z
+
+
+### Moved from Tested Bugs to Claimed Fixed, Needs Verification by Athena Yao on 2019-06-18T17:51:18.250Z
+
+List
+====
+Claimed Fixed, Needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,101 @@
+[Archived] [CallKit] Discord rings endlessly when quickly calling and hanging up to someone's Apple device (https://trello.com/c/vr22Eibm)
+
+P3 - Will be fixed eventually
+
+Created: 2019-12-06T23:54:17.950Z
+Latest Update: 2020-04-12T17:00:08.312Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:
+
+- Close Discord on your Apple device(s) if it is not already 
+- Call the account that is on your Apple device 
+- Quickly hang up before CallKit appears
+
+####Expected result:
+Discord stops ringing.
+####Actual result:
+Discord rings endlessly.
+####Client settings:
+TestFlight 3.1.8 (18423)
+####System settings:
+iPhone 7: iOS 13.2.3
+
+49005
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-06T23:54:17.950Z
+
+
+### Can reproduce.
+still ringing from 10 mins ago se/7 13.2.2/3 tf 3.1.8 18423
+
+Courtney-Lai#9198 - Bug Bot on 2019-12-06T23:54:25.340Z
+
+
+### Can reproduce.
+Ipad 6 (IpadOS 13 PTB 3), TF 3.1.8 (18423)
+
+Stig124#1591 - Bug Bot on 2019-12-06T23:54:30.525Z
+
+
+### Can reproduce.
+iPhone XS, TestFlight 3.1.8 (18423)
+
+Philip#0001 - Bug Bot on 2019-12-06T23:54:35.382Z
+
+
+### Can reproduce on iPhone XS iOS 13.2.3, TestFlight 3.1.9 (18456)
+
+Philip#0001 - Bug Bot on 2019-12-07T00:10:37.630Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.2, TestFlight 3.1.9 (18456)
+
+.Gloria.#9606 - Bug Bot on 2019-12-07T04:42:43.979Z
+
+
+### Can reproduce.
+CR, iPhone 11 Pro, iOS 13.2.2 - TestFlight 3.1.9 (18456)
+
+Christmas Jamalek#0025 - Bug Bot on 2019-12-09T18:52:07.415Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.2.3; TestFlight 3.1.9 (18507)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-11T00:16:55.901Z
+
+
+### Since TestFlight 3.1.9 (18591), an extension of this issue is if you accept the call on desktop, it also will keep your mobile ringing endlessly. Exiting the call stops the endless calling on mobile.
+
+Jiralite#1207 - Bug Bot on 2019-12-17T21:43:54.401Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-12-20T19:00:10.274Z
+
+
+### Archived by Bug Bot on 2020-01-19T19:30:09.055Z
+
+
+### Can reproduce.
+Can also reproduce with iPad 7: iPadOS 13.3.1; TestFlight 3.2.0 (19099). Cannot seem to reproduce the extension I noted below anymore
+
+Jiralite#1207 - Bug Bot on 2020-02-21T00:48:11.377Z
+
+
+### Unarchived by Bug Bot on 2020-02-21T01:00:07.081Z
+
+
+### Archived by Bug Bot on 2020-04-12T17:00:08.325Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

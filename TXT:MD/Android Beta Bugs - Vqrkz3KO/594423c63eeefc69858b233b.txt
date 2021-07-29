@@ -1,0 +1,97 @@
+[Archived] Changing DM settings on android a few times breaks DM'S completely (https://trello.com/c/1rYhqJ30)
+
+P1 - Severe
+
+Created: 2017-06-16T18:30:30.405Z
+Latest Update: 2018-02-27T00:33:40.655Z
+
+Reported by Mr.Caleb#8593
+
+####Steps to reproduce:
+- Head to settings and tap "Allow server DM's from server members" 5 or 8 times. 
+- Attempt to DM someone not on your friends list. 
+- Make sure the setting is turned on when you message someone.
+
+####Expected result:
+Your message will be sent.
+####Actual result:
+Your message will be replaced with Clyde saying your were either blocked by the recipient or do not share the same server with them.
+####Client settings:
+Android Alpha 3.9.1 (389)
+####System settings:
+Samsung Galaxy S8+ 7.0 Nougat
+
+1724
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-16T18:30:30.405Z
+
+
+### Mr.Caleb#8593 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/594423c63eeefc69858b233b/236acaf1c79269e0bd760091f61fdb07/Screenshot_20170616-120248.png added by Bug Bot on 2017-06-16T18:30:33.599Z
+
+
+### Can reproduce.
+Android 7.0 Nougat
+
+HasanBrandsXD#4120 - Bug Bot on 2017-06-16T18:30:34.982Z
+
+
+### Can reproduce.
+Android 6.0.1
+
+ᕕ( ᐛ )ᕗ DONT STOP ME NOW#2426 - Bug Bot on 2017-06-16T18:30:36.964Z
+
+
+### Can reproduce.
+ Samsung Galaxy S5 Android 6.0 Alpha 3.9.1.
+
+OGNovuh#0014 - Bug Bot on 2017-06-16T18:30:39.255Z
+
+
+### if someone adds you after doing this bug, the Clyde message won't go away, always placing itself under every message. Refer to the attachment
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-16T18:35:43.018Z
+
+
+### Mr.Caleb#8593 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/594423c63eeefc69858b233b/4f09e4278e4be0a907273de2afa1db29/Screenshot_20170616-133657.png added by Bug Bot on 2017-06-16T18:37:27.741Z
+
+
+### A temporary fix to broken dms is to manually update privacy settings for every server.
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-16T18:53:07.219Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-06-19T23:01:21.385Z
+
+
+### Verified, the option becomes out of sync. - Jared on 2017-06-19T23:01:32.426Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2017-06-19T23:11:52.516Z
+
+
+### I can not reproduce this. Even if I manually desync the setting by disabling the phone's data and then toggling the setting on the desktop client, the setting resyncs when the phone regains data. - Andy Garron on 2017-12-11T22:21:58.082Z
+
+
+### Moved from Serious Issues to Claimed Fixed, needs Verification by Andy Garron on 2017-12-11T22:22:11.144Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-01-25T23:45:45.369Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-01-25T23:45:49.717Z
+
+
+### Archiving due to age and no activity. - Mike Nisbet on 2018-02-27T00:33:38.519Z
+
+
+### Archived by Mike Nisbet on 2018-02-27T00:33:40.659Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

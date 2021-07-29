@@ -1,0 +1,73 @@
+[Archived] Discord window displays in incorrect resolution after logging into computer remotely using Windows remote desktop (https://trello.com/c/GFR3APQG)
+
+None
+
+Created: 2018-09-22T22:23:44.712Z
+Latest Update: 2019-01-01T15:22:56.964Z
+
+Reported by SaralFiggis#2659
+
+####Steps to reproduce:
+- Have Discord window open on desktop. 
+- Login to desktop through other PC or Android using Windows remote desktop. 
+- Disconnect, and sign back into desktop. 
+- Discord window will retain its remote resolution, whereas every other Windows application reverts to the current setting specified in Display settings.
+
+####Expected result:
+Discord window should revert to the resolution specified on the desktop it is running on.
+####Actual result:
+It remains at a lower resolution after logging into desktop remotely.
+####Client settings:
+Release Channel: stable, Build Number: 23327
+####System settings:
+Windows 10 Pro Version 1803
+
+19953
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-22T22:23:44.712Z
+
+
+### Can reproduce.
+CR, It also happens when you change your resolution in game and change it back to normal. Every other app besides Discord changes back to normal. Win 10 Pro 64x , Canary Build 24452
+
+C4Navar#5799 - Bug Bot on 2018-09-22T22:23:52.043Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803
+
+Cryptix#0001 - Bug Bot on 2018-09-22T22:23:57.112Z
+
+
+### Can reproduce.
+Can Reproduce with Windows 10 Home 1803 64-Bit Build 17134.286 (Dell) and Windows 10 Pro 1803 64-Bit Build 17134.286 (Lenovo) [BUILD INFO] Release Channel: canary, Build Number: 24461, Version Hash: b6bd98eba1f7187056923e0fd531667213e824c6 (all systems) using four Lenovo ThinkPad T440 laptops at 1600 x 900 Resolution with 100% DPI Scaling as the Remote Controlled systems and one Dell Inspiron 5570 at 1920 x 1080 Resolution with 125% DPI Scaling as the Master. I will also note that three of the Lenovo laptops were freshly reinstalled from my MDT Server and did not have Discord installed on them before this test.
+
+Blastoise186#7194 - Bug Bot on 2018-09-22T22:24:02.201Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 24461
+
+Scottmg#2966 - Bug Bot on 2018-09-23T02:45:13.796Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2018-09-25T20:35:27.086Z
+
+
+### Even if we do support remote desktop, which I'm largely confident we don't, this is a Won't Fix issue. - Jared on 2018-09-25T20:35:52.242Z
+
+
+### Archived due to being inactive for 30+ days in won't fix list. - Tarek on 2019-01-01T15:22:56.206Z
+
+
+### Archived by Tarek on 2019-01-01T15:22:56.965Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

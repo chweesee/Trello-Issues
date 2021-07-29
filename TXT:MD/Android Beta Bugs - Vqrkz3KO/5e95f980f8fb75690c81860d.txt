@@ -1,0 +1,85 @@
+While push to talk button is beign held, if you move your finger horizontally accidentally, push to talk disables (https://trello.com/c/iyFxXCfo)
+
+None
+
+Created: 2020-04-14T17:57:20.276Z
+Latest Update: 2020-04-29T18:34:16.194Z
+
+Reported by alexander.#0001
+
+####Steps to reproduce:
+- Enable push to talk 
+- Enter a voice channel 
+- Minimize the voice channel screen (go to a text channel) 
+- Hold the push to talk button 
+- Move your finger in the left or in the right a bit, so the guild list / member list shows up a bit, but not opens fully
+
+####Expected result:
+Discord should let you talk even if due to moving your finger guilds list / member list shows up a bit, but not opening fully
+####Actual result:
+Discord doesn't let you talk even if due to moving your finger guilds list / member list shows up a bit, but not opening fully
+####Client settings:
+18.0-ALPHA2 1093
+####System settings:
+Sony Xperia Z5 Premium 6.0.1
+
+54517
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-14T17:57:20.276Z
+
+
+### Can reproduce.
+CR 18.0-ALPHA6 (1097) Sony Xperia XZ Premium, Android 9 Build 47.2.A.10.107. Only happens when in text channel
+
+MrStefan#0001 - Bug Bot on 2020-04-14T17:57:27.880Z
+
+
+### Can reproduce.
+CR, Moto G7, Android 9, Discord 18.0-Alpha6 (1097)
+
+wakfi#6999 - Bug Bot on 2020-04-14T17:57:33.216Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy S9+, Android 10, Discord 18.0-alpha7
+
+Creedoo#3626 - Bug Bot on 2020-04-14T17:57:37.877Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Donald Chen on 2020-04-14T23:13:27.179Z
+
+
+### Can reproduce.
+[CSR] Moto G7, Android 9, Discord 18.0-Alpha12 (1104)
+
+wakfi#6999 - Bug Bot on 2020-04-19T18:46:55.005Z
+
+
+### Bug still present after joining a voice channel. Once the keyboard has been opened once, bug stops occurring, even if keyboard is subsequently closed. If the VC is left and rejoined, bug will be present again
+
+wakfi#6999 - Bug Bot on 2020-04-19T18:48:21.270Z
+
+
+### Can reproduce.
+[CSR] Samsung Galaxy S9+, Android 10, Discord 19.5
+
+Creedoo#3626 - Bug Bot on 2020-04-26T17:36:36.473Z
+
+
+### Can reproduce.
+CSR, Samsung Galaxy S7, Android 8.0.0, Discord 20.1 (1120)
+
+Bryth#1086 - Bug Bot on 2020-04-29T18:34:15.619Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Bug Bot on 2020-04-29T18:34:16.205Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] Using backspace to edit message leaves a ghostmessage (https://trello.com/c/tAPDSvho)
+
+None
+
+Created: 2018-06-26T21:10:08.697Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by alex0119#8926
+
+####Steps to reproduce:
+- Write a message 
+- Edit it 
+- Press backspace to delete the message
+
+####Expected result:
+The message should be automatically deleted when all characters are deleted
+####Actual result:
+Instead of getting deleted, an empty message remains, and an edited mark is visible
+####Client settings:
+TestFlight IOS 2.3.4
+####System settings:
+iPhone 6s 11.4
+
+14868
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-26T21:10:08.697Z
+
+
+### Can reproduce.
+iPhone 6s - iOS 11.4, iPad Air 2 - iOS 11.4.1 PB, TestFlight 2.3.4 (5330)
+
+Pascal#0929 - Bug Bot on 2018-06-26T21:10:16.069Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 (dev beta 2), TestFlight 2.3.4 (5425)
+
+Xylium#1480 - Bug Bot on 2018-06-26T21:10:21.102Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.4, Discord TestFlight (5425)
+
+Adora Steele 💞#1982 - Bug Bot on 2018-06-26T21:10:26.007Z
+
+
+### Moved from User Reported Bugs to Fix made, not yet released by Fanghao on 2018-06-27T18:48:34.041Z
+
+
+### Can reproduce.
+CR; iPhone SE, iOS 11.4, TestFlight 2.3.4 (5425)
+
+ChaosKadir#6510 - Bug Bot on 2018-06-28T01:10:53.185Z
+
+
+### I can no longer reproduce on Discord TestFlight 2.3.4 (5548). I can no longer delete all of the content in my messages then save as a blank message. I used iPhone 8 +, running iOS 12 (Dev Beta 2). 
+
+Because I can no longer reproduce, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-06-30T03:28:25.898Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Ghoul on 2018-06-30T03:28:37.517Z
+
+
+### Can't reproduce.
+iPad Air 2, iOS 11.4
+
+Nukey6#4055 - Bug Bot on 2018-07-05T07:15:58.373Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:52.133Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

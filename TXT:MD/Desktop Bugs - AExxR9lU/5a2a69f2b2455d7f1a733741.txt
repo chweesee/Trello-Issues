@@ -1,0 +1,97 @@
+[Archived] Mentioning users whose username contains, but not begins with, . (dot) right after any characters, except whitespace, cannot be parsed (https://trello.com/c/SuFi2TAV)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-12-08T10:31:14.778Z
+Latest Update: 2019-08-17T12:15:48.894Z
+
+Reported by HugoYuGou#5994
+
+####Steps to reproduce:
+- Change your testing account's username into name that containing, but not beginning with, dot (e.g. E.G) 
+
+- Enter your testing server 
+
+- Mention that user and make sure there are something right, except whitespace, before the at-sign (i.e. (at)E.G#0000 or Hi(at)E.G#0000)
+
+####Expected result:
+The user is mentioned as if a normal user
+####Actual result:
+The user is not mentioned, retaining the username and discriminator
+####Client settings:
+Discord Canary Build 8121
+####System settings:
+Windows 10
+
+6859
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-08T10:31:14.778Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro, OS Build 16229.64, Discord Canary Build 8121, Hash 527fe1d7f4758babd00d47cc3da50b6d52cc2f4d
+
+SleepaDru#7700 - Bug Bot on 2017-12-08T10:31:22.063Z
+
+
+### Can reproduce.
+CR, Canary 0.0.182, build 8227, Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2017-12-08T10:31:27.168Z
+
+
+### Can reproduce.
+CR, only happens if you type something on the first line and the mention is on a new line. Discord Canary 0.0.182 (Build 8227) on Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-12-08T10:31:32.080Z
+
+
+### OminousCry#2331 - https://i.imgur.com/QapQnMs.gifv added by Bug Bot on 2017-12-08T10:34:14.954Z
+
+
+### The first example of the repro steps was __(at)E.G#0000__, mentioning user with underline text
+
+HugoYuGou#5994 - Bug Bot on 2017-12-10T00:55:57.951Z
+
+
+### Can reproduce.
+MacBook Air(Early 2015) macOS High Sierra 10.13, Discord stable 8399
+
+PeteTeradactyl#1023 - Bug Bot on 2017-12-10T19:49:06.702Z
+
+
+### Verified.  - Clayton on 2017-12-12T23:28:57.897Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-12T23:29:01.528Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:16.374Z
+
+
+### This bug occurs whenever there is a character preceding the mention without a space character. See https://i.imgur.com/daEGGYi.png for an example of how it mentions properly with a space.
+
+webhp#1337 - Bug Bot on 2018-10-28T17:28:58.635Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 27040
+
+Neiron#7777 - Bug Bot on 2018-10-28T21:48:54.219Z
+
+
+### Can't reproduce.
+[CNR] Canary Desktop 27353, Windows 10 LTSB x64 1607 (14393.2214)
+
+avror#0001 - Bug Bot on 2018-11-01T09:11:06.366Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

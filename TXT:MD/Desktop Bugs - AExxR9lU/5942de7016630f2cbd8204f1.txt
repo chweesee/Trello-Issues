@@ -1,0 +1,85 @@
+[Archived] When accepting an invite to a channel that you don't have permission to view the load messages button is visible and won't go away until clicking on another channel. (https://trello.com/c/KPy2vYQC)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-15T19:22:24.607Z
+Latest Update: 2019-08-03T09:35:55.953Z
+
+Reported by yarg#6155
+
+####Steps to reproduce:
+- Go to a discord server you manage. 
+- Create a new text channel. 
+- Make it so everyone cannot read or send messages. 
+- Create a invite link to that channel. 
+- On a new account accept the invite link.
+
+####Expected result:
+You should join the server and only see the channels you have permission to see.
+####Actual result:
+When you join the server you can see the hidden channels name along with the “load more messages” button that's infinitely pressable.
+####Client settings:
+Discord Stable Web
+####System settings:
+Mac OSX Sierra: Google Chrome 59.0.3071.86
+
+1672
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-15T19:22:24.607Z
+
+
+### yarg#6155 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5942de7016630f2cbd8204f1/8144817b98e88cb06c1698937cfe4af7/giphy.gif added by Bug Bot on 2017-06-15T19:22:27.501Z
+
+
+### Can reproduce.
+can reproduce,  Windows 10 Home x64 v1703 (Canary v 0.0.157)
+
+Tim_The#7618 - Bug Bot on 2017-06-15T19:22:29.223Z
+
+
+### Can reproduce.
+ Windows 7 Professional x64, Discord Stable 0.0.297
+
+Super from NotDiscord™#5419 - Bug Bot on 2017-06-15T19:22:31.290Z
+
+
+### Can reproduce.
+Can reproduce. Is it really a bug?   Discordapp Desktop Client - Version Canary 0.0.157 (Build 1538) & Microsoft Windows 10 - Version 1703 (OS Build 15063.332)
+
+PARALLAχ#0440 - Bug Bot on 2017-06-15T19:22:33.225Z
+
+
+### Verified.  - Clayton on 2017-06-15T20:46:34.274Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-15T20:46:41.451Z
+
+
+### Can reproduce.
+Windows 10 Pro, Desktop Canary 0.0.157
+
+4g0tt3nSou1#5187 - Bug Bot on 2017-06-19T00:27:13.695Z
+
+
+### If no channels exist with access rights, no text channels will display
+
+4g0tt3nSou1#5187 - Bug Bot on 2017-06-19T01:42:57.762Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v1703, Discord Canary 0.0.162
+
+Curse Broken#8659 - Bug Bot on 2017-07-30T14:16:19.546Z
+
+
+### Archived by Clayton on 2018-10-22T20:14:14.198Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

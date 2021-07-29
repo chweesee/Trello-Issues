@@ -1,0 +1,83 @@
+[Archived] Filters in server settings don't limit their size and extend to length of what's contained in the filter menus, off-screen if long enough, unable to scroll (https://trello.com/c/ym6GT6J8)
+
+P2: Fix can wait a while
+
+Created: 2017-06-16T14:20:04.169Z
+Latest Update: 2019-04-22T07:47:34.530Z
+
+Reported by Ebear#8746
+
+####Steps to reproduce:
+- Open Audit Log/Members in Server Settings for any server you have permissions for 
+- Attempt to change the "Filter by User", "Filter by Action", or "Display Role:" selectors. 
+- you expect the height of the selector be unlimited and the scroll bar not be where it should be.
+
+####Expected result:
+Menu opens, height is limited, allows you to scroll through options.
+####Actual result:
+Menu opens, height is unlimited, there's no scroll bar.
+####Client settings:
+Discord Canary 0.0.157
+####System settings:
+Windows 10 Pro x64
+
+1692
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-16T14:20:04.169Z
+
+
+### Can reproduce.
+ Windows 10 Home x64, Creators Update, Discord Canary 0.0.157
+
+Exanimem#3112 - Bug Bot on 2017-06-16T14:20:08.465Z
+
+
+### Can reproduce.
+Can repro on  Windows 10 Home Creators Update x64
+
+TTtie#4900 - Bug Bot on 2017-06-16T14:20:10.835Z
+
+
+### Can reproduce.
+Win 10 Home x64 Canary 0.0.157
+
+Nova#9411 - Bug Bot on 2017-06-16T14:20:12.786Z
+
+
+### Verified - Jared on 2017-06-16T20:45:48.083Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-06-16T20:45:52.656Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2017-06-16T21:26:01.519Z
+
+
+### fixed in stable <.< Canary soon tm - Shadi Isber on 2017-06-16T21:26:09.424Z
+
+
+### Checked as of latest canary:
+
+I can no longer reproduce this myself. Window looks normal. - Alexander (DJScias) on 2017-06-23T23:07:28.934Z
+
+
+### Verified Fixed - Jared on 2017-06-27T21:03:32.415Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T21:03:35.604Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:21:59.203Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:22:00.881Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

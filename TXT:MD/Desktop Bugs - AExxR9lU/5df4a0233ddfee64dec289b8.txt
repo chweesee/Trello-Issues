@@ -1,0 +1,120 @@
+[Archived] Syntax highlighting in new chat box is not consistent with syntax highlighting in the actual chat (eg. c++ vs cpp) (https://trello.com/c/0ltiVR7s)
+
+None
+
+Created: 2019-12-14T08:41:10.643Z
+Latest Update: 2020-02-09T16:00:33.164Z
+
+Reported by nufflee#2003
+
+####Steps to reproduce:
+- Type "
+```
+c++
+int main() { printf("hi discord!") }
+```
+" in the chatbox.
+
+- Send the message.
+
+- Observe that the code was not highlighted at all. It is only highlighted when language is specified as "cpp".
+
+####Expected result:
+The language specifiers should be consistent between the chatbox and the actual chat.
+####Actual result:
+The code is not highlighted at all.
+####Client settings:
+Desktop, Win10, canary, Build Number: 51425, Version Hash: 0ec422091198d0b8834c205ab3a7e9e7f545083f
+####System settings:
+Windows 10
+
+50364
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-14T08:41:10.643Z
+
+
+### Can reproduce.
+CR - Windows 10 Home 1903, Canary 51469
+
+Geek#8405 - Bug Bot on 2019-12-14T08:41:20.156Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) Chrome 78 stable 51425
+
+myacorn#6534 - Bug Bot on 2019-12-14T08:41:25.153Z
+
+
+### Can reproduce.
+CR - Windows 10 Home x64 1903 - Canary 51469
+
+Fumple - 🎂 - 6 days!#0001 - Bug Bot on 2019-12-14T08:41:30.209Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909, Canary 51469 host 0.0.259
+
+Jean20B#4668 - Bug Bot on 2019-12-14T08:51:42.348Z
+
+
+### Can reproduce.
+Windows 10 Home, x64 - Canary (51387)
+
+IamSushi#0001 - Bug Bot on 2019-12-14T09:43:43.136Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 51469 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-14T21:28:58.969Z
+
+
+### Can reproduce.
+Windows 10 Home and Canary 51469
+
+hufflepuff15560#9709 - Bug Bot on 2019-12-15T20:23:38.006Z
+
+
+### Can reproduce.
+Windows 10 Pro, v1903, Discord 51469
+
+Hufy#0001 - Bug Bot on 2019-12-15T21:54:25.657Z
+
+
+### Can reproduce.
+CR; W10 Home x64, 1903, Canary 51469
+
+Drakon#8640 - Bug Bot on 2019-12-16T02:16:53.363Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro 64-bit (v1909), Discord Canary 0.0.259 Build 50364
+
+ryan#0570 - Bug Bot on 2019-12-16T03:01:48.812Z
+
+
+### Build number is 51469
+
+ryan#0570 - Bug Bot on 2019-12-16T03:02:27.411Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by AJ Palkovic on 2019-12-16T21:31:41.289Z
+
+
+### Can reproduce.
+Windows 7, Discord Canary 51182
+
+Rohit#3523 - Bug Bot on 2019-12-19T09:41:50.631Z
+
+
+### Archived by Bug Bot on 2020-02-09T16:00:33.173Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

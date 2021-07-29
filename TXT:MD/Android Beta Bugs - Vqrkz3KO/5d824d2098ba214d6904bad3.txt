@@ -1,0 +1,80 @@
+[Archived] Escaping right square brackets in Markdown hyperlinks in embeds display incorrectly (https://trello.com/c/OpeUbUJH)
+
+None
+
+Created: 2019-09-18T15:28:33.059Z
+Latest Update: 2020-02-20T21:33:07.601Z
+
+Reported by Christianuss#3423
+
+####Steps to reproduce:
+- Use a bot account to send an embed 
+- In the embed, provide a string (e.g., in the description) like `[[Text\]]()` to create a Markdown hyperlink
+
+####Expected result:
+The text in the embed should display as: `[Text]`, consistent with the PC client and iOS app
+####Actual result:
+The text in the embed displays as: `[Text\]`
+####Client settings:
+Android app 9.5.6
+####System settings:
+Samsung Galaxy S4 Mini, Android 4.4.4
+
+44348
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-18T15:28:33.059Z
+
+
+### Can reproduce.
+RedMi 3S, Android 6.0.1, MIUI Global 10.2.2.0 • Discord Android 9.5.9
+
+LuciferianThomas#0666 - Bug Bot on 2019-09-18T15:28:40.709Z
+
+
+### Can reproduce.
+Xiaomi Redmi 5A, Android 8.1.0, MIUI Global 10.3.2, Discord Beta 9.5.9
+
+Abolong#1397 - Bug Bot on 2019-09-18T15:28:45.741Z
+
+
+### Can reproduce.
+CR also links display directly without the masked text for some reason Discord 959 Android 9 Oppo find x
+
+Typhoon#9981 - Bug Bot on 2019-09-18T15:28:50.752Z
+
+
+### Can reproduce.
+Samsung Galaxy S7, Android 9.0, Discord 9.5.9
+
+aenami#0001 - Bug Bot on 2019-09-18T15:33:15.235Z
+
+
+### Can reproduce.
+Alcatel A30 Fierce, Android 7.0 - Alpha 9.5.9
+
+Ness#7343 - Bug Bot on 2019-09-18T17:06:12.786Z
+
+
+### Can reproduce.
+Samsung Galaxy s8, Android 9.0 - 9.5.9
+
+Emma~♡#4245 - Bug Bot on 2019-09-18T19:33:32.658Z
+
+
+### Can reproduce.
+Samsung Galaxy A5 (2016) × Androd 7.0 × Discord 9.5.9
+
+B.O.S.S#0251 - Bug Bot on 2019-09-18T19:53:48.646Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:07.610Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

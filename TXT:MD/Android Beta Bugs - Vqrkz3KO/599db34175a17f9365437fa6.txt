@@ -1,0 +1,93 @@
+[Archived] Intentionally setting device clock back can force the 10 minute verification to appear indefinitely. (https://trello.com/c/SGpFlnAF)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2017-08-23T16:54:25.210Z
+Latest Update: 2018-08-22T01:20:40.544Z
+
+Reported by 🇮🇪 Irishmaniacgamer#2312
+
+####Steps to reproduce:
+- Join a server with 10 minute verification enabled
+- Wait until you get past the verification
+- Close the app
+- Go to your Android device system settings, and set your date/time to at least 10 minutes backwards
+- Re-open the app
+
+####Expected result:
+Once the verification is done, you will be able to send messages in this server and there shouldn't be any way to get back to the verification, unless you leave the server and rejoin.
+####Actual result:
+Setting your system time backwards will bring the verification thingy back, even if you kill the app completely and restart it.
+####Client settings:
+Discord android alpha 4.0.7(502)
+####System settings:
+Sony xperia xa ultra Android 7.0
+
+3460
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-23T16:54:25.210Z
+
+
+### Can reproduce.
+CR only if app crash/get force closed while viewing server with verification, LG Xpower 6.0.1 Discord alpha 4.0.7
+
+ks0908#8526 - Bug Bot on 2017-08-23T16:54:32.591Z
+
+
+### Can reproduce.
+Android Alpha 4.0.7, Android KitKat 4.4.4
+
+Symplyfyed#4913 - Bug Bot on 2017-08-23T16:54:37.583Z
+
+
+### Can reproduce.
+tried again and the 10 minute verify didn't disappear Android​ 5.1 Discord 4.0.9
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-08-23T16:54:42.590Z
+
+
+### Can't reproduce.
+Had the desktop app open at the same time on my PC, likely to be the reason why I couldn't reproduce OnePlus 5, Android 7.1.1, Discord Alpha 4.0.9
+
+PinkieBarto#9554 - Bug Bot on 2017-08-23T20:45:22.681Z
+
+
+### Can't repro - Clayton on 2017-09-12T22:19:43.392Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-09-12T22:19:51.943Z
+
+
+### I was able to reproduce using the steps below provided by Alex1304#9704. The device I tested on was a Pixel XL running Android 8.1.0 DP.
+
+- Join a server with 10 minute verification enabled
+- Wait until you get past the verification
+- Close the app
+- Go to your Android device system settings, and set your date/time to at least 10 minutes backwards
+- Re-open the app
+
+Expected result: Once the verification is done, you will be able to send messages in this server and there shouldn't be any way to get back to the verification, unless you leave the server and rejoin.
+Actual result: Setting your system time backwards will bring the verification thingy back, even if you kill the app completely and restart it. - Chris Cox on 2017-10-29T23:53:47.582Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Chris Cox on 2017-10-29T23:54:47.260Z
+
+
+### Low priority as this is intentionally destructive behavior. - Jared on 2017-11-06T23:23:00.327Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-07T18:04:57.407Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:40.547Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

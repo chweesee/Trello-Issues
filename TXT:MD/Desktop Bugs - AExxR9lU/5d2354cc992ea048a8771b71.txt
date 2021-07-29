@@ -1,0 +1,114 @@
+VC audio level stuck at 0.00 dB (https://trello.com/c/En9coBbt)
+
+None
+
+Created: 2019-07-08T14:35:56.238Z
+Latest Update: 2020-07-16T21:26:04.414Z
+
+Reported by Helvetica#7256
+
+####Steps to reproduce:
+- Join a voice chat and play audio 
+- While audio is playing, open the "Outbound" section in the debug info 
+- Observe
+
+####Expected result:
+dB level should not be at 0.00, and should show a green or red arrow
+####Actual result:
+dB level remains at 0.00, even when Audio Detected says Yes
+####Client settings:
+Discord Stable build 40795
+####System settings:
+MacOS Mojave 10.14.5, MacBook Air 2017
+
+39273
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-08T14:35:56.238Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) Canary 40795
+
+myacorn#6534 - Bug Bot on 2019-07-08T14:36:04.002Z
+
+
+### Can reproduce.
+CR, MacBook Air Early 2015 on macOS Mojave 10.14.2, Canary 40795
+
+Brightness™#2238 - Bug Bot on 2019-07-08T14:36:08.801Z
+
+
+### Can reproduce.
+CR; Canary, Build Number: 40795, Windows 10 Pro x64 1803
+
+mrphilip#0001 - Bug Bot on 2019-07-08T14:36:13.790Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 40795
+
+charleskimbac#6492 - Bug Bot on 2019-07-08T15:23:42.119Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.175), Discord Canary 40795
+
+||Kissa||#1337 - Bug Bot on 2019-07-08T15:50:20.487Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10 Home & Student, Host 0.0.246, Canary Build 40795
+
+binchlord#0998 - Bug Bot on 2019-07-08T15:50:55.600Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40795
+
+Lily#2624 - Bug Bot on 2019-07-08T16:52:10.881Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 40795 host 0.0.246
+
+Jean20B#4668 - Bug Bot on 2019-07-08T17:05:21.083Z
+
+
+### Can reproduce.
+Canary 40795, Host 0.0.246, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-08T18:12:32.500Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.246 Build 40815
+
+Daffyduck#5364 - Bug Bot on 2019-07-08T19:52:45.034Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40824
+
+Xylium#5800 - Bug Bot on 2019-07-09T11:25:24.713Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 41300 (Host 0.0.247)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-17T17:02:41.874Z
+
+
+### Can reproduce.
+chrome os canary 78.0.3877.0
+
+several people#8775 - Bug Bot on 2019-08-14T20:26:18.836Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,89 @@
+[Archived] Joining a VC on Discord and then receivig or starting an external Callkit/Phone call will have 2 calls at once (https://trello.com/c/PqOBwkb6)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2019-09-30T04:07:37.921Z
+Latest Update: 2019-11-10T19:30:06.828Z
+
+Reported by Ayu#0001
+
+####Steps to reproduce:
+- Go to "Settings" -> "Notifications" -> Turn on "Integrate calls with Phone app" 
+- Join a voice channel on Discord 
+- Receive or start a phone call/other Callkit call while remaining in the VC 
+- Open Discord back up, and observe the banners at the top of the screen
+
+####Expected result:
+The older call should be dropped for the newer call, since they should be using the same system
+####Actual result:
+There is 2 calls at once (Important note: You cannot talk on Discord during the calls, but you are still in both)
+####Client settings:
+TestFlight 3.1.3 (17389)
+####System settings:
+iPhone 7 Plus - iOS 13.0
+
+44895
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-30T04:07:37.921Z
+
+
+### Ayu#0001 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5d917f898b2a7c581c3fc43d/bba254ae1a147fc784da0aede01ed4f9/DWFnSAFjJYy.png added by Bug Bot on 2019-09-30T04:07:40.914Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 4), TestFlight 3.1.3 (17389) - This also works with FaceTime and the audio for it.
+
+.Gloria.#9606 - Bug Bot on 2019-09-30T04:07:45.330Z
+
+
+### Can reproduce.
+CR (Can Reproduce) • iPhone 6s - iOS 13.0 - TestFlight 3.1.3 (17389). Also, this bug works with FaceTime and the audio.
+
+Freiik#9999 - Bug Bot on 2019-09-30T04:07:50.320Z
+
+
+### Can reproduce.
+Could reproduce, Iphone 7 Plus iOS 13.1, TestFlight 3.1.3 (17389)
+
+Action Potential#6862 - Bug Bot on 2019-09-30T04:07:55.579Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.1 TestFlight 3.1.3 (17389)
+
+binchlord#0998 - Bug Bot on 2019-09-30T11:36:33.464Z
+
+
+### Can reproduce.
+iPhone XS (iOS 13.1 PB 4), TestFlight Build 3.1.3 (17389)
+
+kiosion#0001 - Bug Bot on 2019-09-30T13:08:06.178Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.1.2 - Stable 3.1.3
+
+Xylium#5800 - Bug Bot on 2019-09-30T21:16:10.804Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.2; TestFlight 3.1.3 (17389)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-01T00:14:04.679Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-11T19:00:11.564Z
+
+
+### Archived by Bug Bot on 2019-11-10T19:30:06.841Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

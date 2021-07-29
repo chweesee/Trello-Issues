@@ -1,0 +1,91 @@
+[Archived] Manually "marked-as-unread" DMs disappear after reloading the client. (https://trello.com/c/yvT5oG1Z)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-01-09T12:06:10.481Z
+Latest Update: 2019-03-13T07:00:02.838Z
+
+Reported by Scrummer#0001
+
+####Steps to reproduce:
+- Open an already read DM 
+- With ALT pressed, click on any message (of your chat partner) that the chat is being marked as unread and the users avatar pops up in the sidebar again 
+- Reload your client with Ctrl+R/CMD+R
+
+####Expected result:
+The sidebar should still have the DM with an unread message in it.
+####Actual result:
+The DM disappears from the sidebar. But: When you go to the previously marked as unread DM, the message is still unread.
+####Client settings:
+Release Channel: canary, Build Number: 30620, Version Hash: 65f87ec0a31989626ca947a146d682739a75ec20
+####System settings:
+macOS 10.14.2
+
+25868
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-09T12:06:10.481Z
+
+
+### Scrummer#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c35e3b2f1234c6eb119b5ef/95ff6dd9361f7a9a2cd40a5419c789e9/unknown.png added by Bug Bot on 2019-01-09T12:06:13.319Z
+
+
+### Can reproduce.
+Canary: 30620, Windows 7 64-bit
+
+Skyla#9999 - Bug Bot on 2019-01-09T12:06:17.981Z
+
+
+### Can reproduce.
+Windows 10 Enterprise LTSC x64; Release Channel: canary, Build Number: 30620, Version Hash: 65f87ec0a31989626ca947a146d682739a75ec20
+
+Tibix#1337 - Bug Bot on 2019-01-09T12:06:22.891Z
+
+
+### Can reproduce.
+can repo, Windows 10 x64 Build 1803, Desktop stable build 30605
+
+Spooker#0001 - Bug Bot on 2019-01-09T12:06:27.924Z
+
+
+### Can reproduce.
+CR; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 30620
+
+Longinus#0293 - Bug Bot on 2019-01-09T12:11:31.097Z
+
+
+### Can reproduce.
+Win 10 pro x64 , Canary 30620
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-01-09T12:12:19.477Z
+
+
+### verified, macos 10.12.6, canary 30702 - Clayton on 2019-01-10T04:20:17.782Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-10T04:20:24.783Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | Canary 30825
+
+charleskimbac#6492 - Bug Bot on 2019-01-13T20:57:58.861Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Canary 31974
+
+Isabel#0002 - Bug Bot on 2019-02-11T06:38:21.499Z
+
+
+### Archived by Bug Bot on 2019-03-13T07:00:02.851Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

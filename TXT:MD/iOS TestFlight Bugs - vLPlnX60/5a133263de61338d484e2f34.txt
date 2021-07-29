@@ -1,0 +1,78 @@
+[Archived] Tapping an image quickly after tapping search and exiting the viewer causes the app to crash (https://trello.com/c/n8n5l17y)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2017-11-20T19:52:03.058Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by MiniTurtlez#8301
+
+####Steps to reproduce:
+- Tap 'Search' (Magnifying Glass Icon) 
+- Quickly tap an image while the search layer is sliding up (This may take a couple of attempts if you have a faster phone) 
+- Exit out of the image and Discord will crash.
+
+####Expected result:
+Search layer slides up without disturbance.
+####Actual result:
+Image loads up. When exiting, Discord crashes.
+####Client settings:
+TestFlight 2.0.1 (1610)
+####System settings:
+iPhone SE, iOS 11.0.3
+
+6516
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-20T19:52:03.058Z
+
+
+### Can reproduce.
+CR, iPhone 6, iOS 11.2 PB3, TF 2.0.1 (1610)
+
+Inner Sense#0404 - Bug Bot on 2017-11-20T19:52:10.427Z
+
+
+### Can reproduce.
+CR, TestFlight 2.0.1 (1610), iOS 11.1, iPhone 7
+
+QwakGoesDuck#9672 - Bug Bot on 2017-11-20T19:52:15.474Z
+
+
+### Can reproduce.
+CR, iPod touch 6 generation, iOS 10.3.3, TestFlight 2.0.1 (1610)
+
+🦃nickWtn🦃#3789 - Bug Bot on 2017-11-20T19:52:20.424Z
+
+
+### Low priority as this is intentionally destructive behavior. - Jared on 2017-11-20T20:46:40.451Z
+
+
+### Verified - Jared on 2017-11-20T20:48:25.444Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-20T20:48:28.744Z
+
+
+### Verified Issue still occurs as written. - Jared on 2018-01-08T17:32:06.913Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5560). I used my iPhone 8 + running iOS 12 (Dev Beta 2) which is an faster device, but I also used my iPad Air 1st Generation running iOS 11.4 (which is an older and slower device.). I was not able to reproduce with either.
+
+Because I was not able to reproduce anymore, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-07-03T01:04:17.912Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T01:04:22.333Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:52.546Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

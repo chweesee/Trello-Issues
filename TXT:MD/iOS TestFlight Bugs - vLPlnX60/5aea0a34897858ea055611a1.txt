@@ -1,0 +1,74 @@
+[Archived] Welcome messages use English in notifications, not the language set in Discord (https://trello.com/c/wulrLUSg)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2018-05-02T18:57:56.799Z
+Latest Update: 2018-09-04T23:13:20.400Z
+
+Reported by [object Object]#0001
+
+####Steps to reproduce:
+- Change your Discord language to something other than English 
+- Enable welcome messages on a server 
+- Make sure mobile push notifications are enabled on that server 
+- Close the discord app and have someone join the server
+
+####Expected result:
+A notification appears and the welcome message is in the language set in Discord, as it appears in the app
+####Actual result:
+A notification appears and the welcome message is in English
+####Client settings:
+TestFlight 2.3.1 (4051)
+####System settings:
+iPad Mini 2, iOS 11.2.6
+
+11790
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-02T18:57:56.799Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 3, TestFlight 2.3.1 (4051) | They are not in system language for me but always in English. Also the same welcome message (glhf) every time is used
+
+Pascal#0929 - Bug Bot on 2018-05-02T18:58:04.132Z
+
+
+### Can reproduce.
+CR; iPhone 6 - iOS 11.4 Stable 2.3.1
+
+Xylium#1480 - Bug Bot on 2018-05-02T18:58:09.133Z
+
+
+### Can reproduce.
+iPhone iOS 10.2.1, TestFlight 2.3.1 (4051)
+
+Pyros#2326 - Bug Bot on 2018-05-02T18:58:14.415Z
+
+
+### Can reproduce.
+iPhone 6 iOS 11.2.2, TestFlight 2.3.1 | always in english, not system language
+
+missthesnow#1533 - Bug Bot on 2018-05-03T06:24:39.126Z
+
+
+### Verified. iPhone 6S, 11.2.6, TestFlight 2.3.0 - Jared on 2018-05-04T20:19:52.596Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-04T20:20:01.228Z
+
+
+### mouse#0091 - https://www.youtube.com/watch?v=OyqWOxEVJRs added by Bug Bot on 2018-07-15T09:26:54.861Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:20.401Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

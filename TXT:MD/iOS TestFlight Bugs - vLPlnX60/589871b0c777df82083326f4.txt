@@ -1,0 +1,99 @@
+[Archived] Tapping someone who's profile hasn't loaded yet in a voice channel crashes the app (https://trello.com/c/pwIzJFAw)
+
+P2 - Can wait a while,
+high
+
+Created: 2017-02-06T12:53:04.335Z
+Latest Update: 2019-06-22T18:11:18.899Z
+
+Reported by SupDos#7622
+
+####Steps to reproduce: 
+- Find someone who's profile hasn't loaded (must have ... as their username and have a default avatar) 
+- tap their name in a voice channel 
+
+####Expected result:
+ The profile modal should open 
+####Actual result:
+ App crashes 
+####System settings:
+ iPhone 5s, latest discord
+
+Card Log
+========
+### Added by Jared on 2017-02-06T12:53:04.335Z
+
+
+### Can reproduce.
+iphone 6 latest discord/ios
+
+Harrison#9100 - Jared on 2017-02-06T12:53:04.902Z
+
+
+### Can reproduce.
+iPad mini 9.3.3, Latest TF
+
+Mikesky#3456 - Jared on 2017-02-06T12:53:06.866Z
+
+
+### Can reproduce.
+iPad Mini, latest TestFlight
+
+rovertdude#3439 - Jared on 2017-02-06T12:53:08.885Z
+
+
+### https://drive.google.com/open?id=0B_nFqACeTOpIV21OdHpzZ24tREE - https://drive.google.com/open?id=0B_nFqACeTOpIV21OdHpzZ24tREE added by Jared on 2017-02-06T12:53:20.523Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-06T17:11:44.736Z
+
+
+### Verified - Jared on 2017-02-06T17:11:48.529Z
+
+
+### Can still reproduce as of 10/3. - Jared on 2017-10-03T16:40:32.190Z
+
+
+### I am still able to reproduce, the app instantly crashes after trying to open a profile that hasn't loaded.
+
+​Discord 1.9.3 (1268), iOS 11.0.3, iPhone 8 Plus - Alexandru Todea on 2017-10-24T15:09:46.762Z
+
+
+### Moved from Verified Bugs to Next up for Investigation by Jared on 2017-12-05T18:56:09.788Z
+
+
+### Verified issue still occurs as written. - Jared on 2018-01-08T18:15:41.798Z
+
+
+### Moved from Next up for Investigation to Fix made, not yet released by Fanghao on 2018-02-08T19:34:17.694Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-02-14T18:32:21.768Z
+
+
+### Can reproduce.
+Still an issue for me, instantly crashes. iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054)
+
+Pascal#0929 - Bug Bot on 2018-03-19T12:56:36.872Z
+
+
+### I can no longer reproduce this as tapping on someone in a voice channel no longer opens their profile and it opens up the connection page as well. By the time that opens, everytime I've tried the user has loaded.
+
+I'm willing to bet that if you could do it fast enough it would still crash, but at the moment I can't reproduce it. - Jared on 2018-04-03T21:41:04.884Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2018-04-03T21:41:09.218Z
+
+
+### Archiving this ticket as it has been in Verified Fixed for more than one month without any activity.  - Ghoul on 2018-06-01T02:34:27.161Z
+
+
+### Archived by Ghoul on 2018-06-01T02:34:29.700Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

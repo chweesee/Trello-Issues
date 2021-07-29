@@ -1,0 +1,112 @@
+Camera and Attach image buttons look normally in channels they shouldn't (https://trello.com/c/whmOEXph)
+
+P2 - Can wait a while
+
+Created: 2020-04-11T00:23:58.991Z
+Latest Update: 2020-04-13T22:18:09.000Z
+
+Reported by Caterpy#9642
+
+####Steps to reproduce:
+- Type until the camera and attach file buttons are overflown by the text bar 
+- Switch to the Discord emoji keyboard 
+- Start deleting the characters using the emoji backspace button 
+- As soon as both the buttons appear stop immediately
+
+####Expected result:
+The buttons should be slightly gray indicating that you can't send files in a specific channel
+####Actual result:
+They appear normal, until you press the backspace button agaim
+####Client settings:
+Discord alpha 18.4
+####System settings:
+Samsung s7, Android 8.0
+
+54463
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-11T00:23:58.991Z
+
+
+### Can reproduce.
+CR, Moto G5, Android 8.1.0, Discord 18.0-alpha4 (1095), don't need to switch to emoji keyboard, though.
+
+Ana940#9858 - Bug Bot on 2020-04-11T00:24:06.594Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha4 (1095), also works with a mass delete of all text in the textbox after the media icons collapse
+
+RileyTheSnom#3724 - Bug Bot on 2020-04-11T00:24:11.653Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Tab A (SM-T510), Android 9.0 Discord 18-alpha3
+
+ShadowHanzo#2108 - Bug Bot on 2020-04-11T00:24:16.573Z
+
+
+### Caterpy#9642 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5e910e1eb6b424834188a537/207a41ae60e1d682483f4e5ec3673e7e/bb.gif added by Bug Bot on 2020-04-11T00:24:20.217Z
+
+
+### Can reproduce.
+Pixel 3a, Android 10, Discord 18-Alpha4 (1095)
+
+Kanade Tachibana#7086 - Bug Bot on 2020-04-11T00:29:08.848Z
+
+
+### Can reproduce.
+Oppo F7, Android 9.0, Discord 18.0-alpha4
+
+frostingbit#2380 - Bug Bot on 2020-04-11T00:55:55.409Z
+
+
+### Can reproduce.
+CR, Moto G7, Android 9, Discord 18.0-Alpha4 (1095)
+
+wakfi#6999 - Bug Bot on 2020-04-11T01:03:28.352Z
+
+
+### Can reproduce.
+Mi Max 2, Android 7.1, Discord 18.0Alpha4 (1095), emoji keyboard not needed, just mass backspace
+
+PRSXFENG#8944 - Bug Bot on 2020-04-11T01:13:48.144Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord 18.0-alpha4 (1095)
+
+Jean20B#4668 - Bug Bot on 2020-04-11T05:57:18.143Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2020-04-13T16:35:54.204Z
+
+
+### Can't reproduce.
+[CNLR] Moto G7, Android 9, Discord 18.0-Alpha7 (1098)
+
+wakfi#6999 - Bug Bot on 2020-04-13T22:13:39.760Z
+
+
+### Can't reproduce.
+CNLR, Moto G5, Android 8.1.0, Discord 18.0-alpha7 (1098)
+
+Ana940#9858 - Bug Bot on 2020-04-13T22:14:01.769Z
+
+
+### Can't reproduce.
+[CNLR] Samsung A10 - Android 9 - Discord 18.0-Alpha7 (1098)
+
+Cookie#3165 - Bug Bot on 2020-04-13T22:18:08.517Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2020-04-13T22:18:09.015Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

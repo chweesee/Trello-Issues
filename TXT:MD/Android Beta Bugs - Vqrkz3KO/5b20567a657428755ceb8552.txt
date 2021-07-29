@@ -1,0 +1,127 @@
+[Archived] after losing connection sending messages always fail until full close (https://trello.com/c/LrPdwA8I)
+
+None
+
+Created: 2018-06-12T23:25:46.241Z
+Latest Update: 2019-02-20T16:05:25.322Z
+
+Reported by daf#5663
+
+####Steps to reproduce:
+- Send message while losing/changing internet connection 
+- Attempt to resend the message or try to send a new message.
+
+####Expected result:
+Pressing resend or sending a new message would reconnect to the server and deliver the message.
+####Actual result:
+All messages fail to deliver until discord is fully closed and reopened, at which point messages are delivered immediate again.
+####Client settings:
+Discord Alpha 6.8.7 (687)
+####System settings:
+Xiaomi Mi A1, Android 8.0  5th of March update.
+
+14104
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-12T23:25:46.241Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 687, I've had this happen most frequently when my phone switches from wifi to 4G. An error toast about connection to server being lost usually follows and the message will not resend and restarting Discord does fix this
+
+Xander#0259 - Bug Bot on 2018-06-12T23:25:53.744Z
+
+
+### Can reproduce.
+can reproduce. Huawei P20 lite android 8.0.0. This has occurred to me frequently and never been able to realise what the problem was. Restarting app does fix it most of the time while occasionally it won't fix it. Discord alpha 6.8.9
+
+hurricane#2245 - Bug Bot on 2018-06-12T23:25:58.719Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy J7 running Android 7.0, Discord Alpha 6.8.9
+
+FoxyKero#9941 - Bug Bot on 2018-06-12T23:26:03.695Z
+
+
+### user says they are on Discord Alpha 6.8.7 (to replace what's in Client Settings)
+
+FoxyKero#9941 - Bug Bot on 2018-06-12T23:28:56.021Z
+
+
+### Can't reproduce.
+[cnr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.8.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-13T00:46:41.392Z
+
+
+### Can't reproduce.
+LG G7 ThinQ LG-G710PM Android 8.0, Discord Alpha 6.8.9 (689)
+
+Amanda#0001 - Bug Bot on 2018-06-13T03:12:05.625Z
+
+
+### Can't reproduce.
+Never had that issue and cannt reproduce with those steps either. Discord Alpha 6.8.9, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-06-13T05:12:34.142Z
+
+
+### Can't reproduce.
+Same device, never had this issue myself. Xiaomi Mi A1, Android 8.0.0 5th of May update.
+
+Ori#1908 - Bug Bot on 2018-06-13T05:29:57.945Z
+
+
+### video of the issue happening https://streamable.com/xmy2e
+
+daf#5663 - Bug Bot on 2018-06-14T22:50:45.675Z
+
+
+### Reviewing the video makes it unclear if the steps to reproduce are actually correct. Issue happened while on the walking using 4G but I did not notice if internet connection actually dropped when it happened.
+
+daf#5663 - Bug Bot on 2018-06-14T23:08:38.120Z
+
+
+### CNR, samsung s6 edge, android 7.0, alpha 6.9.5 - Clayton on 2018-06-18T20:22:12.394Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-06-18T20:22:17.334Z
+
+
+### Uptightjoker#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b20567a657428755ceb8552/ec2897f9fba4636f43e3c47b19d31680/Screenshot_2018-08-08-15-36-14.png added by Bug Bot on 2018-08-08T20:55:36.137Z
+
+
+### Testing. I will delete this comment if it works.
+
+Ghoul#0009 - Bug Bot on 2018-08-08T21:04:18.417Z
+
+
+### Plz ignore the below comment. Just a test because our bot wasn't feeling well. - Ghoul on 2018-08-08T21:05:02.873Z
+
+
+### Can reproduce.
+I have been able to consistently reproduce this for months on my G6 on android 7.X and 8.0.  It seems to be if you send a message exactly when you transition between Wi-Fi and cellular connection, it fails to send and blocks you from sending. I discussed with Jethro and it seems to be the block of being disconnected not removing and allowing you to reconnect. I attached the debug logs for the most recent occurrence
+
+Uptightjoker#0001 - Bug Bot on 2018-08-08T21:11:53.021Z
+
+
+### Archived due to being inactive for 30+ days in cannot reproduce list. - Tarek on 2019-01-01T15:27:29.956Z
+
+
+### Archived by Tarek on 2019-01-01T15:27:31.171Z
+
+
+### Can't reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 848
+
+The Lunala#6877 - Bug Bot on 2019-02-20T16:05:25.327Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

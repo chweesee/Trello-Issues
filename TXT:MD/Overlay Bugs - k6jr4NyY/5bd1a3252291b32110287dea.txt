@@ -1,0 +1,77 @@
+[Overlay] Configure option is present on Discord automated welcome messages (https://trello.com/c/zsthvuVc)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-25T11:04:05.783Z
+Latest Update: 2019-05-18T13:06:24.395Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Enable New Member Messages in a server you have Manage Server permission in from your client 
+- Have a new user join the server 
+- Open the Overlay in a game and go into the channel the welcome message is in 
+- Click on the three dots to bring up the message context menu on the message and observe
+
+####Expected result:
+The Configure option should not be present as you cannot open the Server Settings panel in the Overlay
+####Actual result:
+The option is still present
+####Client settings:
+Discord Canary 0.0.216, Build 26915
+####System settings:
+Windows 10 Home 64-bit (v1803)
+
+22095
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-25T11:04:05.783Z
+
+
+### Can reproduce.
+Discord Canary 0.0.216 (26915) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-10-25T11:04:13.199Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26915
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-25T11:04:18.141Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home x64 (1803), Discord canary 26915
+
+ScrxedDev#0001 - Bug Bot on 2018-10-25T11:04:23.191Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26915
+
+Neiron#7777 - Bug Bot on 2018-10-25T16:51:52.492Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 26938
+
+Alipoodle#5025 - Bug Bot on 2018-10-25T19:30:37.716Z
+
+
+### verified.  - Clayton on 2018-11-03T03:54:17.446Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Canary 37999
+
+Alipoodle#5025 - Bug Bot on 2019-05-18T13:06:24.401Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

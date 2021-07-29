@@ -1,0 +1,80 @@
+[Archived] Posting a certain giphy link causes discord to restart (most of the time) (https://trello.com/c/P4uX6YHX)
+
+None
+
+Created: 2016-12-02T20:14:44.946Z
+Latest Update: 2017-10-30T17:14:44.690Z
+
+Reported by mralext20#8975
+
+####Steps to reproduce: 
+- 1. post this link: `<https://giphy.com/gifs/Q2QALnZsTk080>`  -2. people not using canary builds will crash, and restart 
+
+####Expected result:
+ no crash - 
+####Actual result:
+ crash posted for BoGuu#1044
+
+Card Log
+========
+### Added by Jared on 2016-12-02T20:14:44.946Z
+
+
+### Can reproduce.
+windows 10 stable
+
+BoGuu#1044 - Jared on 2016-12-02T20:20:40.011Z
+
+
+### Can reproduce.
+Friend can repro on stable build.
+
+ThaTiemsz#5517 - Jared on 2016-12-02T20:30:26.351Z
+
+
+### Can reproduce.
+Windows 7 x64 Stable
+
+Ian Murray#8701 - Jared on 2016-12-02T21:18:19.623Z
+
+
+### Can reproduce.
+Win 10, Canary
+
+xutesan#1952 - Jared on 2016-12-03T21:11:26.554Z
+
+
+### Cannot reproduce.  Posting the gif caused no problems on stable or canary. Maybe we fixed it already? - Jared on 2016-12-06T23:23:29.606Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-12-06T23:23:34.516Z
+
+
+### Sent by user on the PTB, caused crashes for multiple users on the stable build, but not for another user on PTB
+
+Simeneky#3508 - Jared on 2016-12-13T07:55:41.959Z
+
+
+### Can reproduce.
+Latest PTB, Win7
+
+Simeneky#3508 - Sam on 2016-12-13T08:09:04.578Z
+
+
+### Seems to be something to do with the image size rather than the link itself. Downloaded the image and it's 3200px x 4000px, attempted to upload it and the people on the stable build got a message saying "This image is too large to embed". However I didn't get that message as a PTB user, it just attempted to load the image.
+
+Simeneky#3508 - Jared on 2016-12-13T08:23:30.409Z
+
+
+### Ticket has been marked as Cannot Reproduce for longer than a month with no activity. Archiving ticket. - Jared on 2017-10-30T17:14:43.506Z
+
+
+### Archived by Jared on 2017-10-30T17:14:44.692Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

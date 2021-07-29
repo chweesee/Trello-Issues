@@ -1,0 +1,102 @@
+Adding first character to complete emoji or mention jumps cursor back in text (https://trello.com/c/4mljvv9u)
+
+None
+
+Created: 2019-12-20T04:36:18.949Z
+Latest Update: 2020-07-16T21:26:05.952Z
+
+Reported by Usoka#6021
+
+####Steps to reproduce:
+- Start typing a message 
+- Type out all but the first character for an emoji (or mention using ID), EG `heart:` 
+- Go back and add the first character (`:`)
+
+####Expected result:
+Cursor is either just before the emoji or just after the emoji
+####Actual result:
+Cursor jumps back the number of characters the emoji name is (In example, 5 characters)
+####Client settings:
+Desktop stable, build 51726
+####System settings:
+Win10 x64 v1909
+
+50815
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-20T04:36:18.949Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903 - Discord Canary Build 51750
+
+SweetSofiMC#5106 - Bug Bot on 2019-12-20T04:36:26.391Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, Discord Canary 51750.
+
+Alister#0018 - Bug Bot on 2019-12-20T04:36:31.430Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 51792
+
+carter#0001 - Bug Bot on 2019-12-20T04:36:36.385Z
+
+
+### Can reproduce.
+CR, Windows 10 Home , Discord Canary 51792
+
+Smokepurpp#6012 - Bug Bot on 2019-12-20T10:45:42.154Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51792, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-20T14:53:29.468Z
+
+
+### Can reproduce.
+Windows 10 Pro, 1909 (OS Build 18363.535); Canary, 51792
+
+Leo#5142 - Bug Bot on 2019-12-20T17:43:07.472Z
+
+
+### Can reproduce.
+Windows 10 Pro Version 1809 17763.348 Build 17763
+
+epic_ziver_D#6552 - Bug Bot on 2019-12-20T21:35:47.002Z
+
+
+### Can reproduce.
+Windows 10 Pro, v1903, Discord 51815
+
+Hufy#0001 - Bug Bot on 2019-12-20T23:29:14.693Z
+
+
+### Can reproduce.
+CR on Windows 10 Home Version 1903; Canary Build 51905
+
+RPS1222#5127 - Bug Bot on 2020-01-05T01:59:06.560Z
+
+
+### Can reproduce.
+Discord Stable 51988 Windows 10 Pro 64-bit (1909)
+
+ILikeMangos#0007 - Bug Bot on 2020-01-05T20:24:41.272Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary 52502, (host 0.0.259)
+
+MyLife#9696 - Bug Bot on 2020-01-12T09:40:31.311Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

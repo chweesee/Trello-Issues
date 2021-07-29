@@ -1,0 +1,109 @@
+Channels that get marked as read via long pressing don't disappear when the category is collapsed (https://trello.com/c/Dnl5s9mF)
+
+mid,
+P3 - Will be fixed eventually
+
+Created: 2017-10-27T17:24:00.646Z
+Latest Update: 2019-10-03T07:48:30.233Z
+
+Reported by MLG Golden#9086
+
+####Steps to reproduce:
+
+- Create a category with at least 2 channels in it (e.g. channel `Test` and `Test2`
+- Get a new message in channel `Test2` and have the category uncollapsed 
+- Open channel `Test`
+- Collapse the category
+- Long press channel `Test2` to get a new modal window and click "Mark as read"
+
+####Expected result:
+The channel should disappear when getting marked as read.
+####Actual result:
+The channel stays there
+####Client settings:
+Testflight 1.9.3
+####System settings:
+iPhone7s 11.0.3
+
+5852
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-27T17:24:00.646Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59f36bb05a70298aa9a8bdb5/baf59e6059999d46cefabbe772128df8/image.png added by Bug Bot on 2017-10-27T17:24:03.881Z
+
+
+### Can reproduce.
+iPhone 6s with iOS 11.0.3 & iPad Air 2 with iOS 11.1 PB 5, TestFlight 1.9.3 (1340). The reporter meant that the channels that got marked as read via long pressing a channel and then the "Mark as read" button won't disappear, not the category.
+
+Pascal#0929 - Bug Bot on 2017-10-27T17:24:08.168Z
+
+
+### Can reproduce.
+CR, iPhone6s, iOS 11.1, Testflight 1.9.3 (1340)
+
+Blizzyrd#7909 - Bug Bot on 2017-10-27T17:24:13.237Z
+
+
+### Can reproduce.
+CR, iPhone 6s, ios 11.0.3 with testflight 1.9.3 (1340)
+
+Jakob#6834 - Bug Bot on 2017-10-27T17:24:18.030Z
+
+
+### I can’t reproduce this P3, moving to Cannot Reproduce.
+
+Discord 2.0.1 (1610), iOS 11.1.1, iPhone 8 Plus - Alexandru Todea on 2017-11-17T11:37:17.507Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Alexandru Todea on 2017-11-17T11:37:28.047Z
+
+
+### I am able to reproduce now, Pascal provided better repro steps in DMs: 
+
+- Create a category with at least 2 channels in it (e.g. channel Test and Test2
+- Get a new message in channel Test2 and have the category uncollapsed
+- Open channel Test 
+- Collapse the category
+- Long press channel Test2 to get a new modal window and click "Mark as read"
+
+Discord 2.0.1 (1610), iOS 11.1.1, iPhone 8 Plus - Alexandru Todea on 2017-11-17T15:26:04.322Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Alexandru Todea on 2017-11-17T15:26:10.760Z
+
+
+### Verified.  - Clayton on 2017-11-30T00:43:54.608Z
+
+
+### Verified fixed in build 2.2.6 - Jared on 2018-03-20T18:55:27.048Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-20T18:55:33.145Z
+
+
+### Can still reproduce it: iPhone 6s & iPad Air 2, iOS 11.3 PB 5, TestFlight 2.2.5 (3054)
+See Curse's comment below for additional info.
+
+Pascal#0929 - Bug Bot on 2018-03-20T19:31:17.114Z
+
+
+### I can still reproduce with the steps I provided below a long time ago.
+
+Discord 2.2.9, iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-10T04:42:37.718Z
+
+
+### Moved from Verified Fixed to Reopened by Alexandru Todea on 2018-04-10T04:42:44.519Z
+
+
+### Updated the report to include the better steps and a more accurate title. - Pascal on 2019-05-23T12:08:41.777Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

@@ -1,0 +1,168 @@
+after delete `/giphy` command or `/tenor` command the preview block still there (https://trello.com/c/AlACTlZH)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-22T12:27:56.148Z
+Latest Update: 2019-05-17T19:31:19.069Z
+
+Reported by ~♪☆ yuudachi_IJN ☆♪~#7699
+
+####Steps to reproduce:
+- type \`/giphy\` or \`/tenor\` command 
+- search anything so you don't get any results shown 
+- delete whole message 
+
+####Expected result:
+the gif preview block will disappear
+####Actual result:
+gif preview block still there
+####Client settings:
+Discord 0.0.298
+####System settings:
+Win 10 Enterprise x64 <https://cdn.discordapp.com/attachments/318585793335787520/349470046344708096/Screenshot_23.png>
+
+3501
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-22T12:27:56.148Z
+
+
+### Nelson1348#9190 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599c234cee05334be8fb9c5a/d6c49af80077b6f8322bcb36faa2bfe3/Screenshot_23.png added by Bug Bot on 2017-08-22T12:27:58.709Z
+
+
+### Can reproduce.
+Can only reproduce if the message is deleted before the results loads (or if there's no result at all (tried with random letters)) Canary 0.0.163 & Windows 10 Pro x64 (1703)
+
+Immotay#7475 - Bug Bot on 2017-08-22T12:28:03.464Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.154, MacOS 10.12.6, Macbook Pro Early 2015
+
+Nelson1348#9190 - Bug Bot on 2017-08-22T12:28:08.481Z
+
+
+### Can reproduce.
+CR, Tested with random letters (Discord Canary 0.0.163)
+
+Honza#2974 - Bug Bot on 2017-08-22T12:28:13.449Z
+
+
+### Can repro but only as this previous comment says: "Can only reproduce if the message is deleted before the results loads (or if there's no result at all (tried with random letters))" - Jared on 2017-08-22T18:12:32.340Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-22T18:12:38.804Z
+
+
+### Can reproduce.
+Discord 0.0.249, works with any command that has the block pop up for search results, and there is no search results for the query
+
+perryprog#9657 - Bug Bot on 2017-12-25T22:55:57.608Z
+
+
+### I can no longer reproduce, the gif preview block goes away as soon as I delete what I am searching for. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T12:28:05.640Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-28T12:28:10.263Z
+
+
+### Ticket reopened, still happens. Canary, 11585. - Tarek on 2018-03-04T06:47:56.886Z
+
+
+### Moved from Claimed Fixed, needs Verification to Reopened by Tarek on 2018-03-04T06:48:02.491Z
+
+
+### Can no longer reproduce. Marking as Verified Fixed - Jared on 2018-03-21T22:00:43.731Z
+
+
+### Moved from Reopened to Verified Fixed by Jared on 2018-03-21T22:00:50.280Z
+
+
+### Can reproduce.
+Can reproduce by using one of the search commands and posting  random letters/numbers so that no results show up (or just attempt with the gamerescape command if it isn't still non-functional as you're reading this), then highlight all the text in the field and deleting it | Discord Canary 0.0.204, Build 12458, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-03-22T04:50:49.562Z
+
+
+### Ene#0808 - https://i.imgur.com/vV6xPa8.gifv added by Bug Bot on 2018-03-22T04:51:17.700Z
+
+
+### I can still reproduce this using the steps listed by Ene below.
+Windows 10 Pro x64, Fall Creators Update, Discord Canary (12831) - Chris Cox on 2018-03-29T17:54:42.321Z
+
+
+### Moved from Verified Fixed to Reopened by Chris Cox on 2018-03-29T17:54:47.112Z
+
+
+### updated steps based on ene's steps below (i can still reproduce using those, windows 10, canary 19429) to be more clear - Tim on 2018-07-21T15:57:53.444Z
+
+
+### Can reproduce.
+CR with the current steps. Windows 10 x64 1803 (17134), Discord Canary with Build number 20351
+
+Frances Picard#6209 - Bug Bot on 2018-07-31T17:46:01.765Z
+
+
+### Can reproduce.
+Windows 10 Enterprise E3 x64 (1803) - Discord Canary Build 20351
+
+SweetSofiMC#8821 - Bug Bot on 2018-07-31T19:03:56.893Z
+
+
+### Can reproduce.
+Windows 10 Home x64 Build 1803, Canary Build Number: 23837
+
+JVC Almeos#1984 - Bug Bot on 2018-09-16T00:53:58.844Z
+
+
+### Can reproduce.
+Windows 10 LTSB x64 1607 (14393.2214), Canary 27494
+
+avror#0001 - Bug Bot on 2018-11-06T14:00:22.571Z
+
+
+### Can't reproduce.
+Discord Stable, Build 29445 - Windows 10 Home x64
+
+Nicolai9852#6731 - Bug Bot on 2018-12-13T09:16:16.220Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.1 (Mojave) - Canary 30156
+
+Isabel#0002 - Bug Bot on 2018-12-20T05:42:33.415Z
+
+
+### Can't reproduce.
+Discord Canary (BUILD 31400) on Windows 10 x64 (1809 Update)
+
+Procrastinator Adam#4226 - Bug Bot on 2019-01-28T21:12:33.152Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit (1809), Canary 31795
+
+Defracted#0001 - Bug Bot on 2019-02-05T13:30:36.128Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE, Chrome OS 71 (64-bit), Canary Build 31795
+
+Casper#9999 - Bug Bot on 2019-02-05T13:32:30.709Z
+
+
+### Can reproduce.
+Windows 10 Home 1809, Discord Canary 37921
+
+JohnyTheCarrot#0001 - Bug Bot on 2019-05-17T19:31:19.075Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

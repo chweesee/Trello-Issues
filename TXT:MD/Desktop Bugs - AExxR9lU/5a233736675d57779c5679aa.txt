@@ -1,0 +1,73 @@
+[Archived] When streaming osu!, spectate feature overlaps and cancels out purple streaming status (https://trello.com/c/FUPHzNWQ)
+
+Low,
+P3: Will get fixed eventually
+
+Created: 2017-12-02T23:28:54.864Z
+Latest Update: 2018-08-30T23:15:18.700Z
+
+Reported by Genuine#8468
+
+####Steps to reproduce:open up osu! 
+- start stream using OBS 
+- observe your discord status
+
+####Expected result:
+Have the purple status when you stream
+####Actual result:
+Doesn't show that you're streaming and has spectate feature only
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 7889
+####System settings:
+Windows 10 64 bit
+
+6783
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-02T23:28:54.864Z
+
+
+### Can reproduce.
+Discord Canary 0.0.180 osu version b20171106.5 Windows 10 Insider Preview 64bit build 17046
+
+LitchSchist#9091 - Bug Bot on 2017-12-02T23:29:02.256Z
+
+
+### Can reproduce.
+Discord Canary 0.0.180 osu version b20171106.5 Windows 10 64 bit Home Edition
+
+Bananyog#3147 - Bug Bot on 2017-12-02T23:29:07.236Z
+
+
+### Can reproduce.
+Discord Canary 0.0.180, (Build 6463) on Windows 10 Pro 64-bit (Buld 1607). It's NOT related to osu!, It's happening to every rich presence game, probably even custom made RP status.
+
+Tarek1337#0379 - Bug Bot on 2017-12-02T23:29:12.403Z
+
+
+### Verified, it indeed happens to all games with RP, even custom RP statuses. 
+
+in my opinion I consider this as a bug since it should be streaming > RP > regular playing status, I could be wrong. - Tarek on 2017-12-08T05:41:20.191Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-08T05:41:25.184Z
+
+
+### Spoke to Jake about this, and it's currently intentional behavior.
+
+Moving to not a bug. - Tarek on 2018-07-06T04:00:37.468Z
+
+
+### Moved from Verified Bugs to Not a Bug by Tarek on 2018-07-06T04:00:45.906Z
+
+
+### Archived by Clayton on 2018-08-30T23:15:18.702Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

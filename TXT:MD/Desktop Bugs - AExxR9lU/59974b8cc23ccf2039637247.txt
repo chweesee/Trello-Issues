@@ -1,0 +1,97 @@
+[Archived] Disabling New member messages creates a weird AuditLog (https://trello.com/c/lX8pB907)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-18T20:18:20.463Z
+Latest Update: 2017-11-15T19:21:47.795Z
+
+Reported by MrLar#8117
+
+####Steps to reproduce:
+- Go to the Guild settings and set New Member message to "No New Member Message" 
+- Visit the audit log and expand the server change entry.
+
+####Expected result:
+Audit Entry to say "Disabled New Member Message" or similiar
+####Actual result:
+Audit Entry displays "Set new member notification to \*\*"
+####Client settings:
+Stable 0.0.298
+####System settings:
+Windows 7 64x SP2
+
+3364
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-18T20:18:20.463Z
+
+
+### Nelson1348#9190 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59974b8cc23ccf2039637247/a368a08410e5a457e9e0da821e91507b/274987.png added by Bug Bot on 2017-08-18T20:18:23.735Z
+
+
+### Can reproduce.
+CR - Windows 10 Pro 64-bit - Discord Canary 0.0.163
+
+Starsky#7861 - Bug Bot on 2017-08-18T20:18:27.974Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Canary 0.0.163
+
+farah#1469 - Bug Bot on 2017-08-18T20:18:33.130Z
+
+
+### Can reproduce.
+Windows 10 Pro 15063.540 64-bit - Discord canary 0.0.163
+
+dada1134#3331 - Bug Bot on 2017-08-18T20:18:37.952Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Insider Preview, Discord Canary 0.0.163
+
+Jeremias#8432 - Bug Bot on 2017-08-18T20:25:57.424Z
+
+
+### Can reproduce.
+CR - Windows 10 Pro 64-bit - Discord Canary 0.0.163
+
+Starsky#7861 - Bug Bot on 2017-08-20T23:47:13.290Z
+
+
+### Verified, minor. - Jared on 2017-08-21T20:38:38.033Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-21T20:38:43.448Z
+
+
+### Fixed as of build 3571
+
+Tiemen#0107 - Bug Bot on 2017-08-24T12:53:16.263Z
+
+
+### Can no longer reproduce. Canary 0.0.163 Build 3838 - Mike Nisbet on 2017-09-01T13:56:16.368Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-09-01T13:56:28.129Z
+
+
+### Fixed. - Clayton on 2017-10-04T00:07:27.712Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T00:07:32.080Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:21:46.547Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:21:47.798Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,142 @@
+[Archived] Mentions in Embed use Light Theme while in Dark Theme (https://trello.com/c/kxVSPiZc)
+
+P3: Will get fixed eventually
+
+Created: 2017-01-26T13:32:19.323Z
+Latest Update: 2017-11-15T19:20:38.459Z
+
+Reported by Khionu#8708
+
+####Steps to reproduce: 
+- Use Dark Theme (if you aren't already part of the Dark Theme Masterrace) 
+- Look at a User Mention in an Embed 
+
+####Expected result:
+ Looks like a normal mention 
+####Actual result:
+ http://i.imgur.com/k9BFP8m.png
+
+Card Log
+========
+### Added by Jared on 2017-01-26T13:32:19.323Z
+
+
+### Can reproduce.
+Discord Canary latest, Win10
+
+Ristarg#3840 - Jared on 2017-01-26T13:32:19.954Z
+
+
+### Can reproduce.
+Canary latest, win 10 latest
+
+LW001#8654 - Jared on 2017-01-26T13:32:21.909Z
+
+
+### Can reproduce.
+Canary latest, win 10 latest
+
+eslachance#4611 - Jared on 2017-01-26T13:32:23.924Z
+
+
+### LW001#8654 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5889fa63ea9f4067f38fb76f/929ad596f6076d86799a667a45960576/k9BFP8m.png added by Jared on 2017-01-26T13:33:01.484Z
+
+
+### Can't reproduce.
+Win 10 Pro x64 AU, Canary
+
+Tiemen#0107 - Jared on 2017-01-26T14:30:07.098Z
+
+
+### Can't reproduce.
+win 7 canary 0.0.152
+
+FrostLuma#1769 - Jared on 2017-01-26T14:31:31.854Z
+
+
+### Can't reproduce.
+W10 Latest DiscordDevelopment & Chromebook PTB In-Browser
+
+HyperCoder#2975 - Jared on 2017-01-26T14:32:08.820Z
+
+
+### Conflicting reports, might be specific to AnalyticsBot embeds (??? don't ask me, I don't get this either)
+
+Ristarg#3840 - Jared on 2017-01-26T14:43:18.353Z
+
+
+### Can't reproduce.
+Cannot reproduce on Canary Linux 0.0.14 with selfbot-created embed (AnalyticsBot-specific issue?)
+
+Chrys#1856 - Jared on 2017-01-26T14:50:17.521Z
+
+
+### Can't reproduce.
+Can only reproduce with AnalyticsBot's /info command (Canary Linux 0.0.14)
+
+Chrys#1856 - Jared on 2017-01-26T14:53:39.790Z
+
+
+### Mention is white because it's in the embed's title
+
+Ristarg#3840 - Jared on 2017-01-26T14:59:05.825Z
+
+
+### Can reproduce.
+Win 10 Pro x64 AU, Canary
+
+Tiemen#0107 - Jared on 2017-01-26T15:01:30.351Z
+
+
+### Can reproduce.
+win 7 canary 0.0.152
+
+FrostLuma#1769 - Jared on 2017-01-26T15:01:49.882Z
+
+
+### Can reproduce.
+i can
+
+nullpixel#0012 - Jared on 2017-02-03T18:27:42.025Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-03T18:29:11.047Z
+
+
+### ```##INPUT:
+message.channel.sendEmbed(new Discord.RichEmbed().setTitle('This is the title <@​110813477156720640>').setDescription('This is some kind of description'))
+
+##OUTPUT:
+Promise { <pending> }``` - Jared on 2017-02-03T18:29:24.908Z
+
+
+### Can reproduce.
+Latest Canary Build on latest OS X El Capitan
+
+͏͏͏͏#5956 - Jared on 2017-02-16T17:17:41.045Z
+
+
+### Can no longer reproduce. Canary 0.0.163 - Mike Nisbet on 2017-08-06T14:09:47.384Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-08-06T14:09:52.496Z
+
+
+### Fixed.  - Clayton on 2017-10-03T23:59:32.184Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-03T23:59:38.036Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:20:37.235Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:20:38.463Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

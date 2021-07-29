@@ -1,0 +1,115 @@
+Discord uses bcrypt hashing for passwords. The 128 character limit for passwords is too high for this algorithm. (https://trello.com/c/RBp61Pnk)
+
+None
+
+Created: 2019-07-01T04:20:36.918Z
+Latest Update: 2020-07-16T21:26:04.364Z
+
+Reported by LogalDeveloper#6919
+
+####Steps to reproduce:
+- Set your password to make use of the full 128 character limit. 
+- Log out and log back in, except when using the password, trim a few characters off the end and attempt to log in. 
+- Notice how it still works. Next, change to a 72 character password and do the same thing. 
+- Notice how this time, it prevents the log in.
+
+####Expected result:
+All 128 characters should be factored in when hashing the password.
+####Actual result:
+Only 72 characters are factored in. This is a limit in bcrypt, which only supports up to 72 characters.
+####Client settings:
+Release Channel: stable, Build Number: 40393, Version Hash: 7518c362fca23cabb2b11eecdd3fd1fb9c7848cf
+####System settings:
+Ubuntu 18.04.2 LTS - Chromium 75.0.3770.90
+
+38873
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-01T04:20:36.918Z
+
+
+### Can reproduce.
+cr Windows 10 1903 canary 40522
+
+GlenMerlin#2119 - Bug Bot on 2019-07-01T04:20:44.455Z
+
+
+### Can reproduce.
+Can Reproduce. canary, Build Number: 40522, Windows 10 x64
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-01T04:20:49.447Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build 18912.1001 -- Firefox v67.0.4 -- Discord Canary 40522
+
+webhp#1337 - Bug Bot on 2019-07-01T04:20:54.438Z
+
+
+### Can reproduce.
+Canary 40522, Host 0.0.245, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-01T10:00:46.060Z
+
+
+### Can reproduce.
+cr windows 10 64 bit version 1903 canary, Build Number: 40522, Version Hash: 88d9937cf4f0b94d6d932888c1c786cd0fb23c11
+
+thetechguy#6929 - Bug Bot on 2019-07-01T10:10:56.247Z
+
+
+### Can reproduce.
+Windows 10 x64, Canary 40522
+
+Lelantos#0001 - Bug Bot on 2019-07-01T10:59:18.569Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 40522
+
+AHkhan#0001 - Bug Bot on 2019-07-01T12:16:30.222Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40522
+
+Lily#2624 - Bug Bot on 2019-07-01T12:59:44.173Z
+
+
+### Can reproduce.
+Windows 10 Pro 1903 - Stable 40393
+
+voldemort#6931 - Bug Bot on 2019-07-01T13:28:18.443Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Discord Canary 40522.
+
+Alister#0018 - Bug Bot on 2019-07-01T18:23:09.544Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40522
+
+Xylium#5800 - Bug Bot on 2019-07-02T00:39:04.958Z
+
+
+### Can reproduce.
+Windows 10 Home & Student, Host 0.0.245, Canary Build 40522
+
+binchlord#0998 - Bug Bot on 2019-07-02T00:39:44.477Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 40981 (Host 0.0.246)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-10T23:19:32.255Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

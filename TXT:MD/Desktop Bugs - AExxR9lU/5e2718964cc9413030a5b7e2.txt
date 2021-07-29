@@ -1,0 +1,70 @@
+Pressing enter twice when deleting a webhook in a channel redirects to the channel overview tab (https://trello.com/c/4CvbdLzL)
+
+None
+
+Created: 2020-01-21T15:28:22.999Z
+Latest Update: 2020-07-16T21:26:06.045Z
+
+Reported by TheForbiddenAi#0403
+
+####Steps to reproduce:
+- Create a webhook 
+- Open the delete prompt 
+- Double tap the enter key quickly 
+- Observe how you are now on the channel overview page
+
+####Expected result:
+You are not redirected
+####Actual result:
+You are redirected
+####Client settings:
+Canary 52909
+####System settings:
+Windows 10 Home x64 (1909)
+
+51872
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-21T15:28:22.999Z
+
+
+### TheForbiddenAi#0403 - https://i.imgur.com/4n6S9Jt.gifv added by Bug Bot on 2020-01-21T15:28:25.852Z
+
+
+### Can reproduce.
+If I do it too fast (I think), it instead brings an alert "error deleting webhook"; after a brief pause and do it, it redirects | web stable 52909 on Chromium 78 on MacBook Air - MacOS (10.12.6 Sierra)
+
+myacorn#6534 - Bug Bot on 2020-01-21T15:28:30.616Z
+
+
+### Can reproduce.
+Windows 10 Pro - Canary 52909 (3ff68d0)
+
+iced#1337 - Bug Bot on 2020-01-21T15:28:35.516Z
+
+
+### Can reproduce.
+Canary 52909 Win10 Home, Version 1903
+
+Just a Regular Talking Box#5472 - Bug Bot on 2020-01-21T15:28:40.642Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 53202, Windows 10 Pro 1909 (UEFI)
+
+MR P. | Çağan#0552 - Bug Bot on 2020-01-24T13:23:30.542Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary: 53898 (host 0.0.260)
+
+MyLife#9696 - Bug Bot on 2020-02-05T14:25:41.461Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

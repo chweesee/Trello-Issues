@@ -1,0 +1,81 @@
+[Archived] When unmuting many channels in a big guild, the member list all the sudden goes into a forever loading state OR if you right click many times on channels in a big guild (https://trello.com/c/LWURbtEL)
+
+None
+
+Created: 2018-06-29T10:00:29.226Z
+Latest Update: 2018-06-29T21:19:15.501Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Go to a big server (this for me in testers and OGHS) 
+- Right click > Mute channel on a few channels 
+- Observe the member list 
+- OR 
+- Right click a few times on a few channels 
+- Observe the member list
+
+####Expected result:
+It should just mute the channel without putting the member list in a loading state
+####Actual result:
+The member list will be in an infinite loading state until you unmute the channel that caused this
+####Client settings:
+Discord Canary 0.0.211 (17937)
+####System settings:
+Windows 10 Pro 64-bit (1803)
+
+14978
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-29T10:00:29.226Z
+
+
+### Tarek#1337 - https://i.imgur.com/zTzjNly.gifv added by Bug Bot on 2018-06-29T10:00:31.785Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS Sierra 10.12.6 Discord Canary (Build 17937)
+
+Rage#9991 - Bug Bot on 2018-06-29T10:00:36.697Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 17937 it happens around 6 muted channels for me
+
+Rauf#9245 - Bug Bot on 2018-06-29T10:00:41.700Z
+
+
+### Can reproduce.
+Windows 10 and Canary 17937 (happens on dtesters)
+
+Oasis#4730 - Bug Bot on 2018-06-29T10:00:46.712Z
+
+
+### Dupe of https://trello.com/c/oEkwSwNP/, i'm a potato - Tarek on 2018-06-29T11:53:07.833Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary 17937, happened for me by right-clicking multiple channels
+
+zhu.exe#4211 - Bug Bot on 2018-06-29T12:19:15.484Z
+
+
+### Can reproduce.
+Windows 10 Pro
+
+snucks77#6250 - Bug Bot on 2018-06-29T16:56:26.323Z
+
+
+### dupe below - Clayton on 2018-06-29T21:19:10.506Z
+
+
+### Archived by Clayton on 2018-06-29T21:19:15.507Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

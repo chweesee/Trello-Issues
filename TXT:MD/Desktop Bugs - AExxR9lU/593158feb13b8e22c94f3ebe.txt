@@ -1,0 +1,91 @@
+[Archived] When loading a user profile from a voice channel, mini (non-expanded) profile stays visible until the main profile window is closed. (https://trello.com/c/uRAjkVJi)
+
+P3: Will get fixed eventually
+
+Created: 2017-06-02T12:24:30.588Z
+Latest Update: 2018-07-06T17:55:06.236Z
+
+Reported by Joseph#9413
+
+####Steps to reproduce:
+- Join a voice channel 
+- Select a user in the voice channel and hit 'View Profile'
+
+####Expected result:
+The mini, blue box should close as the main profile expands, as it did before the new channel update.
+####Actual result:
+Mini box stays visible and there is no animation of closing it when the main profile is closed, it just dissapears.
+####Client settings:
+Latest Discord Canary 0.0.155
+####System settings:
+-w
+
+1382
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-02T12:24:30.588Z
+
+
+### Can reproduce.
+Discord Canary 0.0.155,  Windows 10 Home x64, Creators Update
+
+Exanimem#3112 - Bug Bot on 2017-06-02T12:24:35.042Z
+
+
+### Can reproduce.
+ Mint 18 Cinnamon x64 Canary 0.0.17
+
+Mikesky#3456 - Bug Bot on 2017-06-02T12:24:37.112Z
+
+
+### Can reproduce.
+Win 10 x64 Creators, Canary 0.0.155
+
+Nova#9411 - Bug Bot on 2017-06-02T12:24:39.041Z
+
+
+### Can reproduce.
+Windows 10 x64 Latest Canary
+
+marcostudios#5930 - Bug Bot on 2017-06-02T16:06:49.192Z
+
+
+### Can reproduce.
+Windows 10 Home 64bit, Discord Canary
+
+sladeiam#0642 - Bug Bot on 2017-06-02T21:07:30.285Z
+
+
+### Verified.  - Clayton on 2017-06-07T20:03:46.822Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-06-07T20:03:51.945Z
+
+
+### I can no longer reproduce, the mini profile goes away as soon as you open the full one. 
+
+Discord Canary Build 10018, Windows 10 Home 64-bit v1709 - Alexandru Todea on 2018-01-28T12:59:53.524Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Alexandru Todea on 2018-01-28T12:59:57.620Z
+
+
+### Can no longer reproduce on Canary 14570, Mac OSX 10.12.6 - Clayton on 2018-05-03T21:33:17.088Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-05-03T21:33:21.109Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:55:02.597Z
+
+
+### Archived by Jared on 2018-07-06T17:55:06.239Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

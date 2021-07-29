@@ -1,0 +1,95 @@
+[Archived] Windows speech recognition very inconsistent on canary (https://trello.com/c/G8SKuPNn)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-11-02T21:55:45.596Z
+Latest Update: 2019-01-11T00:01:40.084Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- say "start listening" 
+- say "show number" 
+- observe that there's no number to choose from are shown 
+- saying "show number" multiple times can get it to work but the numbers are very transparent and disappear quickly
+
+####Expected result:
+Windows speech recognition should show number to choose from just like in Stable
+####Actual result:
+it takes multiple tries to get it to work and its VERY inconsistent compared to stable where it detect numbers from the first try and shows them for way longer
+####Client settings:
+Discord Canary Build Number: 27445, Version Hash: 5812111faccb4f77ec0e4bce4f76c94c922fc4cc
+####System settings:
+Windows 10 home x64 version 1803
+
+22657
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-02T21:55:45.596Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit 1809 October 2018 Update Build 17763.55 [BUILD INFO] Release Channel: canary, Build Number: 27458, Version Hash: 394e57a0df0adfba5607067b3d2e4513ac45d578 Can Reproduce - in some cases the show numbers command does stay on screen correctly but in other cases the "overlay" vanishes almost instantly
+
+Blastoise186#7194 - Bug Bot on 2018-11-02T21:55:53.339Z
+
+
+### Can reproduce.
+Can Reproduce - Windows 10 Home, Discord Canary 27458
+
+1Storm#0001 - Bug Bot on 2018-11-02T21:55:58.300Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro x64 (17134). Discord Canary 27458 In both Canary 27458 and Stable 27452 sometimes the numbers disappear quickly.
+
+coolalmostchilly#0420 - Bug Bot on 2018-11-02T21:56:03.305Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit, Discord Canary 27458
+
+Huskie#9999 - Bug Bot on 2018-11-02T22:58:26.605Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 27465
+
+Hole#0001 - Bug Bot on 2018-11-03T00:53:05.409Z
+
+
+### minor - Clayton on 2018-11-03T02:37:35.219Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-03T02:37:49.102Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803, Canary 27465
+
+Solo#0007 - Bug Bot on 2018-11-03T04:07:38.264Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 27465
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-03T11:35:15.994Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 27466
+
+Neiron#7777 - Bug Bot on 2018-11-05T18:57:45.358Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:40.086Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

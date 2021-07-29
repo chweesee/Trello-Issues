@@ -1,0 +1,63 @@
+[Archived] Can remove "Read Message" rights from everyone role and hide default channel (https://trello.com/c/e5ZAZKZR)
+
+None
+
+Created: 2017-04-04T09:04:36.284Z
+Latest Update: 2017-10-17T21:21:13.886Z
+
+Reported by eslachance#4611
+
+####Steps to reproduce: 
+- Go to Server Settings, Roles 
+- Uncheck "Read Messages" from the @everyone role 
+
+####Expected result:
+ This is not possible (option greyed out and checked) 
+####Actual result:
+ A user with no role will not see any text channels (even the default one). They get a 403 error in the console. They can see Administrator users but no one else (not even themselves) in the user list. 
+####System settings:
+ Canary latest (But this has been known for a while).
+
+2268
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-04T09:04:36.284Z
+
+
+### Can reproduce.
+
+
+apap04✔#7823 - Bug Bot on 2017-04-04T09:04:37.423Z
+
+
+### Can reproduce.
+arch 0.15 canary
+
+Alex from Alaska#8575 - Bug Bot on 2017-04-04T09:04:39.157Z
+
+
+### Can reproduce.
+macOS Latest Canary
+
+Francis#6565 - Bug Bot on 2017-04-04T09:04:40.920Z
+
+
+### image.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58e361a404f3d1fc5366a8b4/1a43904099d937ba0953ecfd8497e018/image.png added by Jared on 2017-04-04T18:53:59.360Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-04-04T18:54:06.303Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:21:12.943Z
+
+
+### Archived by Jared on 2017-10-17T21:21:13.890Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

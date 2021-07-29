@@ -1,0 +1,95 @@
+[Archived] logging out then back in with another account that's also in the last viewed server will open the last viewed channel instead of activity tab even without permissions to view that channel (https://trello.com/c/LT2LWDD4)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-02-20T23:29:58.047Z
+Latest Update: 2019-03-24T03:30:03.200Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- have an alt and make it join the server you are going to test in 
+- create a private channel that your alt cannot access 
+- open that channel then logout without leaving it 
+- log in with your alt account and observe that you main account's server flash for a brief second and instead of being taken to activity tab when logged in, you're in the same channel
+
+####Expected result:
+when first logged in, i should be taken to activity tab
+####Actual result:
+the servers from the first account flash for a moment then you're taken to the channel the first account was in
+####Client settings:
+Canary 32470
+####System settings:
+Windows 10 home x64 v.1809
+
+29356
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-20T23:29:58.047Z
+
+
+### Can reproduce.
+CR, canary 32470 Win10 Home x64 - also happens with servers my alt isn’t in, too
+
+Toby#0002 - Bug Bot on 2019-02-20T23:30:05.380Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 Professional Canary 32470
+
+Darth#9386 - Bug Bot on 2019-02-20T23:30:10.448Z
+
+
+### Can reproduce.
+CR. Windows 10 Home x64, Version 1903 - Canary 32470
+
+alexa#0001 - Bug Bot on 2019-02-20T23:30:15.386Z
+
+
+### Can reproduce.
+MacOS 10.12.6 Canary Build 32470
+
+Starfield_9#8660 - Bug Bot on 2019-02-20T23:46:08.660Z
+
+
+### minor - Clayton on 2019-02-21T01:14:38.149Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-21T01:14:44.377Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 32470
+
+Solo#0007 - Bug Bot on 2019-02-21T03:29:12.420Z
+
+
+### Can reproduce.
+Windows 10 home 64bit, Release Channel: stable, Build Number: 32470, Version Hash: f0f7fcf0c570893de08e915de9c9e78a3d2c5eef
+
+Mr. Proper#2394 - Bug Bot on 2019-02-21T07:13:28.901Z
+
+
+### Can reproduce.
+W10 Pro x64 - Canary 32470
+
+dafaqed#1312 - Bug Bot on 2019-02-21T22:16:55.762Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32597
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-22T03:01:11.029Z
+
+
+### Archived by Bug Bot on 2019-03-24T03:30:03.210Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

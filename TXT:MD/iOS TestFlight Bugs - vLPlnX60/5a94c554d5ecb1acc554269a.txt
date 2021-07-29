@@ -1,0 +1,105 @@
+[Archived] Channel Topic remains extended after closing & re-opening the Members List (https://trello.com/c/lhh3aUA8)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-02-27T02:41:24.763Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go into a channel with a long enough Channel Topic to be tapped to extend 
+- Close the Members List and re-open it
+
+####Expected result:
+Channel Topic retracts back
+####Actual result:
+Channel Topic remains extended
+####Client settings:
+Discord TestFlight 2.2.5, Build 2798
+####System settings:
+iOS 10.3.3, iPhone 5s
+
+9129
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-27T02:41:24.763Z
+
+
+### Can reproduce.
+iPad Mini 2 - iOS 11.3 PB 3 - TestFlight 2.2.5 (2798) - This also occurred when going to other servers with short channel topics that did not take up all of the channel topic space.
+
+webhp#1337 - Bug Bot on 2018-02-27T02:41:32.170Z
+
+
+### Can reproduce.
+CR, iPhone 6S, iOS 9.1 (13B143), Discord TestFlight 2.2.5 (2798)
+
+zjtech123#6743 - Bug Bot on 2018-02-27T02:41:37.605Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.3 Public Beta 3 - Discord TestFlight 2.2.5 (2798)
+
+Ghoul#0009 - Bug Bot on 2018-02-27T02:41:42.173Z
+
+
+### When performing the bug, going to a tiny channel topic instead keeps the space extended with a big space on the bottom.
+
+zjtech123#6743 - Bug Bot on 2018-02-27T02:43:14.359Z
+
+
+### zjtech123#6743 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a94c554d5ecb1acc554269a/9eb5c29da05dbb198476caf191db325b/aAtkiIq.jpg added by Bug Bot on 2018-02-27T02:46:26.503Z
+
+
+### Can't reproduce.
+iPhone SE, 11.3 (15E5189f)
+
+StuxSec#0001 - Bug Bot on 2018-02-27T03:31:58.103Z
+
+
+### Verified.  - Clayton on 2018-03-01T23:59:14.351Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-01T23:59:17.827Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Fanghao on 2018-03-02T22:03:55.337Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-03-21T00:10:34.505Z
+
+
+### I can still reproduce this one, moving back to Verified Bugs.
+
+Discord 2.2.7 (3519), iOS 11.3, iPhone 8 Plus - Alexandru Todea on 2018-04-05T06:41:21.547Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Bugs by Alexandru Todea on 2018-04-05T06:41:29.948Z
+
+
+### Moved from Verified Bugs to Reopened by Alexandru Todea on 2018-04-05T06:41:38.857Z
+
+
+### It should be fixed when last time I moved to claimed fixed column. - Fanghao on 2018-05-16T00:08:54.536Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5560). After extending the channel description then closing the member list and reopening, the channel description is no longer extended and moves back up normally. I used iPhone 8 + running iOS 12 (Dev Beta 2).
+
+Because I was no longer able to reproduce this bug, I am moving it to Claimed Fixed.  - Ghoul on 2018-07-02T17:09:32.860Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Ghoul on 2018-07-02T17:09:39.283Z
+
+
+### Archived by Clayton on 2018-10-04T23:55:40.610Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

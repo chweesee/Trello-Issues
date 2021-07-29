@@ -1,0 +1,93 @@
+[Archived] If you click create a server without any name with the new create a server options, it removes all template channels and then entering a name does not bring them back (https://trello.com/c/7r8EX3Xr)
+
+P3 - Will be fixed eventually
+
+Created: 2019-11-15T11:01:27.981Z
+Latest Update: 2019-12-22T19:30:04.274Z
+
+Reported by Krish12003#5393
+
+####Steps to reproduce:
+- Choose a template from create a server option 
+- Remove everything from the name 
+- Click create a server button 
+- The template channels are missing. Adding a name does not bring the options back.
+
+####Expected result:
+Having no name should have an error message and adding back a name should bring back the template channels.
+####Actual result:
+The template remains blank, creating none of the preset channels.
+####Client settings:
+Testflight 3.1.7 (18195)
+####System settings:
+iPhone 7, iOS 13.2.2
+
+47974
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-15T11:01:27.981Z
+
+
+### Krish12003#5393 - https://gfycat.com/givingpaleivorygull.gif added by Bug Bot on 2019-11-15T11:01:30.470Z
+
+
+### Can reproduce.
+CR - Server does not get created but leaving server name blank does get rid of channels. iPhone 11 Pro - iOS 13.3 - Testflight 3.1.7(18195)
+
+npm#0010 - Bug Bot on 2019-11-15T11:01:35.550Z
+
+
+### Can reproduce.
+Exactly as described. iPhone 7: iOS 13.2.2; TestFlight 3.1.7 (18195) [Tabs Experiment]
+
+Jiralite#1207 - Bug Bot on 2019-11-15T11:01:40.555Z
+
+
+### Can reproduce.
+CNR : iPhone X, iOS 13.3, TestFlight 3.1.7 (18195)
+
+TheRudeDude#6040 - Bug Bot on 2019-11-15T11:01:45.477Z
+
+
+### (Edit for my repro below) CR : iPhone X, iOS 13.3, TestFlight 3.1.7 (18195)
+
+TheRudeDude#6040 - Bug Bot on 2019-11-15T11:23:43.485Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.2.2 TestFlight 3.1.7 (18209)
+
+binchlord#0998 - Bug Bot on 2019-11-15T12:15:38.839Z
+
+
+### Can reproduce.
+CR, iPhone 7 Plus iOS 13.2.2, TF 3.1.7 (18209)
+
+Action Potential#6862 - Bug Bot on 2019-11-15T18:00:46.827Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.2, TestFlight 3.1.7 (18209)
+
+.Gloria.#9606 - Bug Bot on 2019-11-15T19:45:42.889Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.2.2; TestFlight 3.1.7 (18209)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-18T06:12:41.798Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-11-22T19:00:06.641Z
+
+
+### Archived by Bug Bot on 2019-12-22T19:30:04.292Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

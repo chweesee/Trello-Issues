@@ -1,0 +1,64 @@
+[Archived] Channel quick-select when entering a description for an uploaded file does not properly display if it overflows the max textbox width. (https://trello.com/c/txrgvgCO)
+
+None
+
+Created: 2016-12-06T04:27:22.622Z
+Latest Update: 2017-10-17T21:16:10.021Z
+
+Reported by 𝅳𝅳𝅳𝅳𝅳#5756
+
+####Steps to reproduce: 
+- Try to upload an image. Fill in the text box until there's just enough room to partially display a channel name. 
+- Select a channel that will overflow the textbox size. Spacebar at the end in order for it to reset to the proper display. 
+
+####Expected result:
+ The channel name properly displays, and goes to a new-line if need be. 
+####Actual result:
+ No new line. 
+####System settings:
+ Windows 10 Pro. [For Enharmonic#3999 UID 114189842513920002]
+
+Card Log
+========
+### Added by Jared on 2016-12-06T04:27:22.622Z
+
+
+### 𝅳𝅳𝅳𝅳𝅳#5756 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/58463e2a4781760a2eceb744/d7fe9874739a8e5958f6f1f601d3a133/3508e7a82b.gif added by Jared on 2016-12-06T04:27:44.987Z
+
+
+### Can reproduce.
+Windows 10 AU, Canary
+
+𝅳𝅳𝅳𝅳𝅳#5756 - Jared on 2016-12-06T04:34:04.293Z
+
+
+### Can reproduce.
+Win 10 Canary
+
+xutesan#1952 - Jared on 2016-12-06T07:32:14.595Z
+
+
+### Can reproduce.
+web app, ubuntu mate
+
+MDMCK10#6387 - Jared on 2016-12-06T10:39:58.407Z
+
+
+### Verified, but this is a Won't Fix.  It's just too minor for us to spend any resources trying to fix. - Jared on 2016-12-06T19:28:39.061Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2016-12-06T19:28:42.615Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:16:09.024Z
+
+
+### Archived by Jared on 2017-10-17T21:16:10.025Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

@@ -1,0 +1,87 @@
+[Archived] You cannot right click and copy a message with discord canary. (https://trello.com/c/40i9eZTO)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-05-08T22:33:49.565Z
+Latest Update: 2018-05-10T16:52:21.687Z
+
+Reported by DreaM#0001
+
+####Steps to reproduce:
+- Highlight a message 
+- Right click message 
+- Select copy 
+- Go to message box 
+- Right click and select paste
+
+####Expected result:
+It should past the message you attempted to copy.
+####Actual result:
+It pastes a previously copied message before the one you attempted to copy.
+####Client settings:
+Discord Canary, 0.0.190
+####System settings:
+iMac macOS 10.13.4
+
+12232
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-08T22:33:49.565Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 14817 right clicking on the highlighted text and selecting copy doesn't always copy. Seems to happen more frequently on newer builds
+
+Kuuhaku#4503 - Bug Bot on 2018-05-08T22:33:56.859Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 14817
+
+Rauf#9245 - Bug Bot on 2018-05-08T22:34:01.847Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709, Discord Canary (Build 14817)
+
+Doges#0001 - Bug Bot on 2018-05-08T22:34:06.903Z
+
+
+### Can't reproduce.
+Windows 10 Pro{OS Build: 17134.1, Version: 1803}, 64 bit ; Discord latest stable build. + Last Canary version.
+
+GhOsT_x#7082 - Bug Bot on 2018-05-08T22:40:50.509Z
+
+
+### Verified. Mac OSX 10.12.6, Build Number: 14817  - Clayton on 2018-05-09T00:28:19.568Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-09T00:30:44.398Z
+
+
+### This is a dupe of https://trello.com/c/L1hgj8FC/ - Tarek on 2018-05-09T02:38:02.913Z
+
+
+### Can reproduce.
+Discord canary, Build Number: 14718, Version Hash: eb1b365992038aaef26bb917d3f8443b6cd5ba0e ; Windows 10 64-bit Version 1709 OS Build 16299.371
+
+Amanda#0001 - Bug Bot on 2018-05-09T05:51:58.854Z
+
+
+### Can't reproduce.
+MacBook Pro (2017) - macOS High Sierra 10.13.3; Latest Discord Canary Build
+
+ScenicJaguar101#9629 - Bug Bot on 2018-05-09T12:13:31.117Z
+
+
+### Archived by Jared on 2018-05-10T16:52:21.689Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

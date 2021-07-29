@@ -1,0 +1,79 @@
+[Archived] Discord Canary will spam JavaScript errors and the console will spam RPC calls from the overlay if it's enabled (https://trello.com/c/sLdVAiV8)
+
+P2: Fix can wait a while,
+High
+
+Created: 2017-12-03T16:00:51.204Z
+Latest Update: 2018-07-06T17:59:58.192Z
+
+Reported by Tarek1337#0379
+
+####Steps to reproduce:
+- Enable overlay in the settings 
+- Start a game 
+- Observe
+
+####Expected result:
+No errors should occur, and no spam in the console
+####Actual result:
+The console gets spammed with RPC related stuff, and you get a lot of Javascript error popups and the overlay does not even work
+####Client settings:
+Discord Canary 0.0.181 (Build 7963)
+####System settings:
+Windows 10 Pro 64-bit (Build 1607)
+
+6801
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-03T16:00:51.204Z
+
+
+### Tarek1337#0379 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a241fb330e56fd701aafc3c/558997076dee07a2feeb12c9061cb3b2/1eWLStp.png added by Bug Bot on 2017-12-03T16:00:53.847Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 version 1703
+
+ZenIsBestWolf#0446 - Bug Bot on 2017-12-03T16:00:58.827Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.181 (Build 7963) on Windows 10 Home x64 Fall Creators Update (Build 1709)
+
+OminousCry#2331 - Bug Bot on 2017-12-03T16:01:03.787Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (Fall Creators Update), Canary build 7963
+
+xSolidFigure#0594 - Bug Bot on 2017-12-03T16:01:08.766Z
+
+
+### Can reproduce.
+Canary build 7968 on Windows 10 x64
+
+MelonCola#2938 - Bug Bot on 2017-12-04T01:46:06.781Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Clayton on 2017-12-05T23:06:15.931Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-02-23T20:35:51.582Z
+
+
+### Verified Fixed - Jared on 2018-02-23T20:35:56.816Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:59:57.248Z
+
+
+### Archived by Jared on 2018-07-06T17:59:58.194Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,70 @@
+[Archived] The audio indicator stops showing for a bot when it leaves a voice channel in a different mutual server (https://trello.com/c/BaaqqrnL)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-08-22T17:38:12.739Z
+Latest Update: 2018-10-22T20:24:52.767Z
+
+Reported by Harmon758#0004
+
+####Steps to reproduce:
+- Join a voice channel and have a bot join the voice channel and start playing audio 
+- Have the bot join a voice channel in a different server that you share with it 
+- Have the bot leave the voice channel in the other server
+
+####Expected result:
+The bot continues playing audio and the green circular outline indicator remains unchanged
+####Actual result:
+The bot continues playing audio, but the indicator stops showing. The indicator reappears if the bot stops playing audio and then starts again.
+####Client settings:
+Desktop Canary Build 22333
+####System settings:
+Microsoft Windows 7 (64-bit) [Version 6.1.7601]
+
+18132
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-22T17:38:12.739Z
+
+
+### Can reproduce.
+Can Reproduce - Canary 22333 - Windows 10 Home x64 v1709
+
+SyntaxPrime#4495 - Bug Bot on 2018-08-22T17:38:20.211Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (22333) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-08-22T17:38:25.015Z
+
+
+### Can reproduce.
+CR, Win10 Pro x64 | Canary Build 22283
+
+xXLeoXxOne#5292 - Bug Bot on 2018-08-22T17:38:30.102Z
+
+
+### verified, macos 10.12.6, canary 22283 - Clayton on 2018-08-22T21:12:59.704Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-22T21:13:05.212Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 22364
+
+Hole#0001 - Bug Bot on 2018-08-23T08:07:13.183Z
+
+
+### Archived by Clayton on 2018-10-22T20:24:52.769Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

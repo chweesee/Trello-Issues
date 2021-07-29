@@ -1,0 +1,84 @@
+[Archived] Changing screen orientation causes blank message bar to change its text to "Send a Message" in grey for a split second before changing back. (https://trello.com/c/ykdswxz4)
+
+P3 - Will be fixed eventually
+
+Created: 2017-09-21T14:52:38.907Z
+Latest Update: 2018-06-02T17:29:12.281Z
+
+Reported by Kaoffie#4112
+
+####Steps to reproduce:
+- Clear Message Bar 
+- Rotate Screen 
+- Observe.
+
+####Expected result:
+The default message should remain on the bar.
+####Actual result:
+It is replaced with "Send a Message" (in grey, system default font) for a split second before the default message reappears.
+####Client settings:
+Discord Alpha 5.2.1
+####System settings:
+Sony Xperia Z5 on Android 7.0
+
+4653
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-21T14:52:38.907Z
+
+
+### Can reproduce.
+Alpha 5.2.2, Android 4.4.4, Allview Viva H8 LTE
+
+Symplyfyed#4913 - Bug Bot on 2017-09-21T14:52:46.333Z
+
+
+### Can reproduce.
+Discord Alpha 5.2.2 Android 6.0, Moto E (2.Gen) LTE
+
+Anorak#5830 - Bug Bot on 2017-09-21T14:52:51.461Z
+
+
+### Can reproduce.
+Android Alpha 5.2.2, Samsung Galaxy S5 6.0.1 Marshmallow
+
+AviationMaster#4793 - Bug Bot on 2017-09-21T14:52:56.319Z
+
+
+### Can reproduce.
+happens when back to potrait screen orientation, Android Alpha 5.2.2, Xiaomi Mi 5 Nougat 7.1.2
+
+Elix 🍭#4604 - Bug Bot on 2017-09-21T14:56:16.004Z
+
+
+### Verified.  - Clayton on 2017-09-21T20:22:07.556Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-21T20:22:12.358Z
+
+
+### Can reproduce.
+Samsung Galaxy J3 (SM-J320V), Android 6.0.1, Discord 5.2.2
+
+yogurt#8914 - Bug Bot on 2017-09-21T23:48:28.501Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-03-22T23:45:44.647Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Clayton on 2018-03-22T23:45:55.012Z
+
+
+### archiving for being fixed over 30 days without activity - Tim on 2018-06-02T17:29:10.976Z
+
+
+### Archived by Tim on 2018-06-02T17:29:12.283Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

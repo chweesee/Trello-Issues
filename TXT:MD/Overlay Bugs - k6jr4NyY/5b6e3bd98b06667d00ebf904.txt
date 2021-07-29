@@ -1,0 +1,61 @@
+[Archived] The Binding of Isaac: Rebirth crashes when the overlay is turned on (https://trello.com/c/4m3icdKq)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-08-11T01:28:57.583Z
+Latest Update: 2019-04-24T00:53:10.938Z
+
+Reported by Onceuponaban#8294
+
+####Steps to reproduce:
+- Make sure Discord is running and the overlay is enabled for The Binding of Isaac: Rebirth 
+- Make sure your computer has both a discrete graphics card and integrated graphics, and that The Binding of Isaac: Rebirth isn't set to run on the integrated graphics 
+- Launch The Binding of Isaac: Rebirth
+
+####Expected result:
+The Binding of Isaac: Rebirth launches with the overlay activated
+####Actual result:
+The game's display freezes on the first few frames or a black screen. Audio still works but the game is unresponsive. The game cannot proceed past the intro cutscene. Clicking anywhere on the window flags the game as unresponsive.
+####Client settings:
+Release Channel: canary, Build Number: 21440
+####System settings:
+Win 10 x64
+
+17232
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-11T01:28:57.583Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 21554
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-11T01:29:04.838Z
+
+
+### Can reproduce.
+Windows 10 Home 64 bit (1709) Canary 21554
+
+BetterScripter#3963 - Bug Bot on 2018-08-11T01:29:09.864Z
+
+
+### Can reproduce.
+WIN10 home, Canary 21616
+
+Uptightjoker#0001 - Bug Bot on 2018-08-11T01:29:14.880Z
+
+
+### merged into master ticket, archiving - Tim on 2018-10-02T19:16:54.646Z
+
+
+### Archived by Tim on 2018-10-02T19:16:56.629Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

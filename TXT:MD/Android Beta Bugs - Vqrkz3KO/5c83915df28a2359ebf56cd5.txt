@@ -1,0 +1,122 @@
+[Archived] In the share extension when you select a channel without scrolling and hit send, the header is greyed out with the rest of the screen but if you scroll down and click and hit send, the header doesn't grey out. (https://trello.com/c/3Qh3tvHH)
+
+P3 - Will be fixed eventually
+
+Created: 2019-03-09T10:11:41.110Z
+Latest Update: 2019-04-12T22:00:05.509Z
+
+Reported by The Lunala#6877
+
+####Steps to reproduce:
+- Share something from an external app to Discord. 
+- In the share extension, scroll down and select a channel and hit send. 
+- Observe that the header isn't greyed out. 
+- Do the same without scrolling. 
+- Observe that the header greys out.
+
+####Expected result:
+The header greys out in both cases.
+####Actual result:
+The header greys out in the second case but not in first.
+####Client settings:
+Discord Alpha 856
+####System settings:
+Lenovo Vibe K5+, 5.1.1
+
+30572
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-09T10:11:41.110Z
+
+
+### Can reproduce.
+CR - Samsung Galaxy S6 Edge, 7.0.0 - Alpha 856G
+
+ZεɾMმl 『 Kօყმ | Dεղνεɾ | Tφ』#1071 - Bug Bot on 2019-03-09T10:11:48.520Z
+
+
+### Can reproduce.
+CR, Google Pixel XL Android 9 Alpha 856
+
+Fabian#1540 - Bug Bot on 2019-03-09T10:11:53.583Z
+
+
+### Can reproduce.
+CR, but the STR is wrong. The header greys out when you scroll before selecting a channel, and not greying out when you don't scroll, not the other way around like in provided STR. The grey thing will go out when you scroll up. Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0.1, Discord Alpha 8.5.6
+
+Frances Picard#6209 - Bug Bot on 2019-03-09T10:11:58.524Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord Alpha 856
+
+Jean20B#4287 - Bug Bot on 2019-03-09T11:30:58.313Z
+
+
+### Can reproduce.
+Moto G6, Android O, Alpha 856
+
+Sanjay#0540 - Bug Bot on 2019-03-09T12:45:16.997Z
+
+
+### Can reproduce.
+Google Pixel 3 XL - Android 9 Pie (Rooted) - Alpha 856
+
+Noxillio#0001 - Bug Bot on 2019-03-09T15:55:24.119Z
+
+
+### Can reproduce.
+cr. Alpha 8.5.6 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-03-09T17:32:08.432Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 9 (8.1.0) | Discord Alpha 8.5.6
+
+Clay#0001 - Bug Bot on 2019-03-09T18:33:52.182Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8, Android 9.0 - Alpha 8.5.6
+
+J1#0088 - Bug Bot on 2019-03-09T19:00:42.487Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.5.6
+
+Lily#2624 - Bug Bot on 2019-03-09T20:15:01.231Z
+
+
+### Can reproduce.
+Pocophone F1, Android 9 with MIUI 10.2, Alpha 8.5.6
+
+dafaqed#1312 - Bug Bot on 2019-03-09T22:30:14.915Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.5.6
+
+neuzoid#0510 - Bug Bot on 2019-03-10T01:51:30.768Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.6
+
+Skyla#0002 - Bug Bot on 2019-03-13T06:16:59.010Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T21:36:28.700Z
+
+
+### Archived by Bug Bot on 2019-04-12T22:00:05.522Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

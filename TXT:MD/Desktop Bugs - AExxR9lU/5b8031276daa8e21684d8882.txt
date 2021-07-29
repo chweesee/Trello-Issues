@@ -1,0 +1,106 @@
+[Archived] Cancelling the addition of a PayPal account does not work correctly. (https://trello.com/c/MyJbvd07)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-08-24T16:24:07.956Z
+Latest Update: 2020-01-13T12:00:02.738Z
+
+Reported by octavelr#0297
+
+####Steps to reproduce:
+- Go to desktop settings > Billing 
+- Click on "Add Payment Method" > "Paypal" 
+- In the browser tab that is opening, click on "Cancel and return to Discord Inc."
+
+####Expected result:
+A Discord browser tab should be opening to say that we canceled the adding of the PayPal details.
+####Actual result:
+A Discord browser tab is opening saying that the adding of the PayPal details succeeded.
+####Client settings:
+Desktop, 22333
+####System settings:
+MacBook Pro - MacOs Sierra 10.12.6
+
+18329
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-24T16:24:07.956Z
+
+
+### Can reproduce.
+CR, Win10 Pro x64 | Canary Build 22283
+
+xXLeoXxOne#5292 - Bug Bot on 2018-08-24T16:24:15.339Z
+
+
+### Can reproduce.
+can reproduce. discord returns with a success message instead of an error. Windows 10 Home SL 1803 x64 • Canary 22946
+
+MakiTheLegend#5027 - Bug Bot on 2018-08-24T16:24:20.374Z
+
+
+### Can reproduce.
+CR, Windows 7 Professional x64, Stable, 22333
+
+Fallen.exe 💔#6661 - Bug Bot on 2018-08-24T16:24:25.391Z
+
+
+### Can reproduce.
+This bug happened since a long time ago (like, more than 1 year). I am surprised that it still happens today. Windows 10 x64 1803 (17134), Discord Canary with Build number 222496
+
+Frances Picard#6209 - Bug Bot on 2018-08-24T17:03:26.234Z
+
+
+### CNR, I get directed to a page that says an error has occured.  - Clayton on 2018-08-24T21:28:49.103Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-08-24T21:28:52.893Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Pro, x64 (v1803) - Discord Canary Build 22587
+
+Hole#0001 - Bug Bot on 2018-08-25T07:03:10.983Z
+
+
+### Can reproduce.
+CR, Windows 10 x64, Discord Canary 22726
+
+zarrros#2910 - Bug Bot on 2018-08-29T17:44:11.069Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 23709 - Firefox v62.0 (64-bit)
+
+Mippy#0001 - Bug Bot on 2018-09-14T07:15:18.891Z
+
+
+### Archived by Clayton on 2018-10-22T20:36:15.767Z
+
+
+### Can reproduce on Canary 51469, Windows 10 Home 64-bit (v1903). - Ene on 2019-12-14T05:27:03.795Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Ene on 2019-12-14T05:27:08.656Z
+
+
+### Unarchived by Ene on 2019-12-14T05:27:08.724Z
+
+
+### Can reproduce.
+I just want to add that I cannot reproduce this on an account with no billing information. However, on this account that has a Nitro subscription (and billing information), I can reproduce this. Perhaps this is only for people who have billing information on their accounts? And I guess it would make sense for wonderful Clayton down there to not be able to reproduce it as they may not need to have billing information in the first place lol MacBook Pro: macOS Catalina 10.15.2; Discord Canary 51469
+
+Jiralite#1207 - Bug Bot on 2019-12-14T11:34:02.948Z
+
+
+### Archived by Bug Bot on 2020-01-13T12:00:02.752Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

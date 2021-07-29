@@ -1,0 +1,118 @@
+[Archived] Discord Canery opens extremely small when minimized and you click on a mention (https://trello.com/c/RQalPRsr)
+
+P2: Fix can wait a while
+
+Created: 2016-12-04T19:05:00.245Z
+Latest Update: 2017-12-02T17:15:24.115Z
+
+Reported by MattBSG#9263
+
+####Steps to reproduce: 
+- Minimize discord 
+- Have someone mention you 
+- Click mention 
+
+####Expected result:
+ unminimizes window to original size then brings you to place of mention 
+####Actual result:
+ Opens in a really small window in the top right of screen
+
+Card Log
+========
+### Added by Jared on 2016-12-04T19:05:00.245Z
+
+
+### MattBSG#9263 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584468dc8b27c372ade8385a/31490ae247818adbc7e9466639e736d4/X09wyjM.gif added by Jared on 2016-12-04T19:05:21.566Z
+
+
+### Can reproduce.
+Latest canary
+
+Dougley#6248 - Jared on 2016-12-04T19:06:40.247Z
+
+
+### Can reproduce.
+Latest canary
+
+Weeajew#3674 - Jared on 2016-12-04T19:06:46.600Z
+
+
+### Can't reproduce.
+Canary Latest, Windows 8.1
+
+🎁 FireController1847#9085 - Jared on 2016-12-04T19:24:04.478Z
+
+
+### Can't reproduce.
+Win10 Canary
+
+𝅳𝅳𝅳𝅳𝅳#5756 - Jared on 2016-12-04T19:30:32.621Z
+
+
+### Possibly related to this bug: <https://trello.com/c/oXsQ8wkp>
+
+SuperSajuuk#7265 - Jared on 2016-12-04T19:56:33.277Z
+
+
+### Can reproduce.
+W10 Pro x64. Happened a couple of times to me, usually on first app load.
+
+SuperSajuuk#7265 - Jared on 2016-12-04T21:31:28.301Z
+
+
+### Can reproduce.
+Windows 10 Anniversary, latest Canary
+
+DaFri_Nochiterov#1542 - Jared on 2016-12-05T15:20:53.439Z
+
+
+### Can reproduce.
+Canary Latest, Windows 7 Ultimate x64: It's painful when your taskbar is on the left
+
+Dru#8209 - Jared on 2016-12-05T22:04:12.098Z
+
+
+### Can reproduce.
+Win 10 anniversary, Discord Canary
+
+Rocks the Squirrel#2134 - Jared on 2016-12-06T01:54:53.255Z
+
+
+### I cannot reproduce the bug as written.  Here's what I see happening.
+
+1)  Launch desktop client.
+2)  Change the dimensions of the application window to any non-maximized setting.
+3)  Click on the Maximize button
+4)  Click on the Minimize button.
+5)  Get pinged so that a desktop notification appears
+6)  Click on desktop notification
+
+Result:  The Discord window appears at the dimensions from step 2.
+
+Is this correct? Or am I missing something?  Moving to CNR until clarified. - Jared on 2016-12-06T19:57:32.289Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-12-06T19:57:36.951Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Jared on 2017-04-24T03:28:29.152Z
+
+
+### This was an electron issue we did a work around for. - Jared on 2017-10-04T21:42:51.576Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-10-04T21:42:57.863Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:15:22.921Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:15:24.117Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

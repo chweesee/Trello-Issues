@@ -1,0 +1,80 @@
+[Archived] Replying to a DM via the inline notification results in your reply not being sent (HAVE NOTIFICATIONS ON) (May take several tries, try at least 5-10 times) (https://trello.com/c/JrmpAMrs)
+
+P2 - Can wait a while,
+Low
+
+Created: 2018-08-29T15:45:54.045Z
+Latest Update: 2018-10-23T07:44:57.970Z
+
+Reported by FoxyKero#9941
+
+####Steps to reproduce:
+- Have someone DM you, whether it be image or text 
+- Close Discord before they DM you 
+- Let the inline notification disappear from your screen 
+- Go to Notification center (swipe down for me) 
+- Expand Notification and hit "Reply" 
+- Send them a DM and ask if they received it 
+- Observe
+
+####Expected result:
+They should receive the DM and you should see that you sent it in the app
+####Actual result:
+The DM does not send, and when you go back to Discord you will not see the message sent from yourself
+####Client settings:
+Discord Alpha 7.4.2 (742)
+####System settings:
+Samsung Galaxy J7 running Android 7.0
+
+18577
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-29T15:45:54.045Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, 7.0, 742 you don't have to "close" Discord just background it or lock your device before the DM is sent to you. And this issue is not app ver specific
+
+Xander#0259 - Bug Bot on 2018-08-29T15:46:01.379Z
+
+
+### Can reproduce.
+could reproduce every attempt | Google Pixel 2, Android 9.0.0 ; Android Alpha 7.4.2 (742)
+
+brilaverance#2835 - Bug Bot on 2018-08-29T15:46:06.441Z
+
+
+### Can reproduce.
+Discord Alpha 741 - OP5, Android 8.1.0
+
+Logiz#0001 - Bug Bot on 2018-08-29T15:46:11.430Z
+
+
+### Can reproduce.
+Huawei P10 Lite, 8.0.0.363; Android Beta, 740
+
+Iffabled#0001 - Bug Bot on 2018-08-29T20:39:03.299Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Clayton on 2018-08-30T20:59:33.218Z
+
+
+### Moved from Notable Issues to Won't Fix by Sam Shih on 2018-09-12T18:34:45.009Z
+
+
+### We do a best effort attempt as Android limits the time and resources that we get to send/receive notifications. - Sam Shih on 2018-09-12T18:35:16.893Z
+
+
+### Archiving this ticket as it has been in Won't Fix for more than a month without any activity.  - Ghoul on 2018-10-23T07:44:55.772Z
+
+
+### Archived by Ghoul on 2018-10-23T07:44:57.974Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

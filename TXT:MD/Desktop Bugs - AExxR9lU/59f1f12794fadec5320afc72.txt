@@ -1,0 +1,108 @@
+[Archived] Push to talk key doesn't work (https://trello.com/c/Xqm23Ryz)
+
+P1: Severe
+
+Created: 2017-10-26T14:28:55.249Z
+Latest Update: 2018-01-20T09:18:09.340Z
+
+Reported by Starshine Dust#2189
+
+####Steps to reproduce:
+- Select Push to Talk as Input mode in the Voice & Video Settings 
+- Set any key for Push to Talk 
+- join a voice channel 
+- press the Push to Talk key
+
+####Expected result:
+Your microphone gets activated (your profile pic in the voice chat gets green surrounded)
+####Actual result:
+Just nothing happens ( You can't talk in the voice chat)
+####Client settings:
+Discord Canary 0.0.24 ( Build 6420 )
+####System settings:
+Ubuntu Studio 17.04/Linux 4.10.0.-37-lowlatency
+
+5809
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-26T14:28:55.249Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.167 (Build 6420) on Windows 10 Pro 64-bit (Build 1607)
+
+Tarek1337#0379 - Bug Bot on 2017-10-26T14:29:02.730Z
+
+
+### Can reproduce.
+CR, Windows 7 Professional x64, Discord Canary 0.0.167
+
+jake 🎃#6241 - Bug Bot on 2017-10-26T14:29:07.699Z
+
+
+### Can reproduce.
+Dell inspiron 15R-5520 (2015 model) Windows 10 Pro 64-bit, x64-based processor, Discord Canary 0.0.165
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-26T14:29:12.831Z
+
+
+### Can't reproduce.
+Kubuntu 17.10 x64, Canary 6420
+
+kiroma#1608 - Bug Bot on 2017-10-26T14:46:04.676Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2017-10-26T22:03:30.466Z
+
+
+### The key under Settings -> Voice & Video doesn't work. But if i set a key for push to talk under Settings -> Keybinds it works
+
+Starshine Dust#2189 - Bug Bot on 2017-10-27T15:29:58.813Z
+
+
+### Can reproduce.
+Windows Insider v1709 build16299.19 x64 Discord Canary 0.0.168
+
+Fishy#6593 - Bug Bot on 2017-10-28T15:12:23.944Z
+
+
+### Can reproduce.
+Canary Build 7653, Windows 10 Home x64
+
+Panda#7924 - Bug Bot on 2017-11-26T19:44:01.517Z
+
+
+### I can actually still reproduce this, Canary Build 8121 on 0.0.181 (W10, 1607)
+
+PTT doesn't work at all by following these steps:
+
+ - Go to user settings
+ - Go to Voice & Video 
+ - Switch input mode to "Push to Talk"
+ - Then add a shortcut key in the same setting menu
+
+Moving to user reported for verification.  - Tarek on 2017-12-06T18:42:16.588Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Tarek on 2017-12-06T18:42:21.931Z
+
+
+### Cannot reproduce  - Clayton on 2017-12-08T01:51:03.166Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2017-12-08T01:51:06.935Z
+
+
+### Archiving this card because it's been in the Cannot Reproduce list for more than a month with no new activity. - Alexandru Todea on 2018-01-20T09:18:08.743Z
+
+
+### Archived by Alexandru Todea on 2018-01-20T09:18:09.341Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,86 @@
+[Archived] When you add a space after a search filter, the submit search button will pop up and will break the search if pressed (https://trello.com/c/NGJv5iND)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-09-07T14:35:07.951Z
+Latest Update: 2018-10-09T04:30:03.812Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to Search in a server 
+- Choose any filter option (in, from, etc)  
+- After the filter is inserted, notice the button to submit the search isn't here yet. I guess this is to prevent ability to submit empty filters 
+- ... But you can bypass that by simply adding spaces after the filter colons, like so: `"from:    "`
+
+####Expected result:
+The submit button should stay hidden until you put actual text after the filter
+####Actual result:
+The submit button appears and you can submit an empty filter. Doing so will result in a failed search with a broken manifying glass
+####Client settings:
+Discord Alpha 7.4.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+19156
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-07T14:35:07.951Z
+
+
+### FoxyKero#9941 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b928c9b6e4f6307ef655e0f/979d74df3904b11fd15322de25ecaa76/Screenshot_20180907-093650.png added by Bug Bot on 2018-09-07T14:35:10.446Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 7.0 • Discord Alpha 7.4.7 (747)
+
+FoxyKero#9941 - Bug Bot on 2018-09-07T14:35:15.330Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S7, Anroid Version 8.0.0, Client Version : 7.4.2
+
+Peewd#9543 - Bug Bot on 2018-09-07T14:35:20.337Z
+
+
+### Can reproduce.
+Samsung Galaxy S6, Android 7.0, Discord Alpha 7.4.7
+
+Law of Royale#6825 - Bug Bot on 2018-09-07T14:35:25.422Z
+
+
+### Can reproduce.
+CR, Oneplus 3, 8.1.0, Alpha 7.4.7
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-07T14:39:34.795Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.4.7 - Clayton on 2018-09-07T19:52:05.561Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-07T19:52:12.730Z
+
+
+### Can reproduce.
+Asus Zenfone 3, Android 7.0, Discord Alpha 7.4.7
+
+Doges#0001 - Bug Bot on 2018-09-07T19:58:23.645Z
+
+
+### Can reproduce.
+Moto Z Force Droid Edition, Android 8.0 [July SP] • Discord 7.4.8 [Alpha]
+
+Industrial_Strength#1402 - Bug Bot on 2018-09-09T04:20:28.628Z
+
+
+### Archived by Clayton on 2018-10-09T04:30:03.819Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

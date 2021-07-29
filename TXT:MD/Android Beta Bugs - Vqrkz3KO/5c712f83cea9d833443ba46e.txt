@@ -1,0 +1,149 @@
+[Archived] JPG images of 30KB fail to upload as emoji due to them being supposedly "above 256Kb" (https://trello.com/c/zfXhIWCp)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2019-02-23T11:33:23.689Z
+Latest Update: 2020-02-20T21:35:32.014Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a JPG image that is around 30KB in size (or try with 50-70KB or a bit more if you can't repro) 
+- Server settings > Emoji 
+- Upload emoji 
+- Select the file
+
+####Expected result:
+It should upload successfully
+####Actual result:
+It fails with a message saying it's above 256KB. I believe it's due to the fact that the image cropper tool re-encodes the image in PNG format, which is a format much less compressed than JPG. This was probably caused by the fix for the black background bug, but JPG images should stay JPG during the whole process nonetheless.
+####Client settings:
+Discord Alpha 8.5.0
+####System settings:
+Huawei Mate 9 Android 8.0
+
+29575
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-23T11:33:23.689Z
+
+
+### Can reproduce.
+Lenovo Vibe K5+, 5.1.1 | Discord Alpha 850
+
+The Lunala#6877 - Bug Bot on 2019-02-23T11:33:31.028Z
+
+
+### Can reproduce.
+Samsung Galaxy J1, Android 5.1.1, Alpha 8.5.0
+
+nescix#5152 - Bug Bot on 2019-02-23T11:33:36.039Z
+
+
+### Can reproduce.
+CR; Redmi Note 4, Android v7, Discord Alpha 8.5.0
+
+Skyla#7948 - Bug Bot on 2019-02-23T11:33:41.031Z
+
+
+### Can reproduce.
+Samsung S8, Android 8.0, 8.5.0
+
+Mr. Proper#2394 - Bug Bot on 2019-02-23T11:51:40.142Z
+
+
+### Can reproduce.
+(CR) Samsung Galaxy Note 8,Android 9 (Pie),Discord Alpha 8.5.0
+
+Octillion#6666 - Bug Bot on 2019-02-23T12:07:24.099Z
+
+
+### Can reproduce.
+Can reproduce. Discord Alpha 8.5.0 / Xiaomi Mi3W / Android 7.1.2 / LineageOS
+
+Hawlucha#2061 - Bug Bot on 2019-02-23T16:50:36.161Z
+
+
+### Can reproduce.
+cr. Alpha 8.5.0 Samsung Galaxy S7, Android 8.0.0
+
+Toasty#0001 - Bug Bot on 2019-02-23T17:53:56.472Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S8 Android 8, Alpha 8.5.0
+
+Action Potential#2494 - Bug Bot on 2019-02-24T03:44:37.956Z
+
+
+### Can reproduce.
+Samsung Galaxy S9, Android 9.0.0, Discord Alpha 8.5.0
+
+Lily#2624 - Bug Bot on 2019-02-24T07:26:07.389Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 850
+
+charleskimbac#6492 - Bug Bot on 2019-02-26T15:19:45.813Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-27T00:20:17.131Z
+
+
+### Moved from Verified Bugs to Emoji Bugs by Clayton on 2019-02-27T00:56:50.351Z
+
+
+### Can reproduce.
+CR with 70kb JPG Asus Zenfone max pro m1 Android 8.1.0, alpha 8.5.4
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-03-02T20:43:52.598Z
+
+
+### Moved from Emoji Bugs to Verified Bugs by Jeff Cailteux on 2019-03-18T15:49:26.023Z
+
+
+### Archived by Bug Bot on 2019-04-17T16:00:03.007Z
+
+
+### Moved from Verified Bugs to Notable Issues by Sam Shih on 2019-05-18T02:49:00.995Z
+
+
+### Unarchived by Sam Shih on 2019-05-18T02:49:01.054Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Jeff Cailteux on 2019-09-12T18:52:48.407Z
+
+
+### Can't reproduce.
+Uploading an emote without cropping does not cause this issue to occur. Discord Alpha 9.5.4, Huawei Mate 9 Android 9.0
+
+Alex1304#9704 - Bug Bot on 2019-09-13T00:53:51.446Z
+
+
+### Can't reproduce.
+CNR, Samsung Galaxy S8 Android 8, Alpha 9.5.4
+
+Action Potential#6862 - Bug Bot on 2019-09-13T21:44:30.188Z
+
+
+### Can't reproduce.
+CNR, Alcatel A30 Fierce ~ Android 7.0 ~ Alpha 9.5.4
+
+Ness#7343 - Bug Bot on 2019-09-13T21:55:18.421Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Bug Bot on 2019-09-13T21:55:18.766Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:35:32.028Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

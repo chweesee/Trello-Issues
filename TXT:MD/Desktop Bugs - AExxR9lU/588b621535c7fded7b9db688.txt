@@ -1,0 +1,84 @@
+Scrolling chat by pressing "Home" button breaks "home" and "end" after a few presses (https://trello.com/c/46jfW9Wr)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-01-27T15:07:01.158Z
+Latest Update: 2019-09-23T22:30:07.776Z
+
+Reported by Ristarg#3840
+
+####Steps to reproduce: 
+- Scroll up the chat by pressing "Home" repeatedly 
+- "Home" and "End" now don't scroll 
+- Click on the chat area to reenable them 
+
+####Expected result:
+ Can scroll infinitely by pressing "Home" 
+####Actual result:
+ Scroll breaks after few presses 
+####System settings:
+ Win10 Canary latest
+
+Card Log
+========
+### Added by Jared on 2017-01-27T15:07:01.158Z
+
+
+### Can reproduce.
+macOS Sierra 10.12, Latest Discord Canary
+
+Fifo#1531 - Jared on 2017-01-27T15:07:01.733Z
+
+
+### Can reproduce.
+Linux Mint 18.1 x64, Canary
+
+Khionu#8708 - Jared on 2017-01-27T15:07:03.647Z
+
+
+### Can reproduce.
+Windows 10, latest canary
+
+MelodicStream#1336 - Jared on 2017-01-27T15:07:05.654Z
+
+
+### Verified. - Jared on 2017-01-31T21:56:41.795Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-31T21:56:44.381Z
+
+
+### Can reproduce.
+CR, Dell Latitude E5540 with Windows 10 Pro, Fall Creators Update and Discord Canary 0.0.189 (Build 8903)
+
+💜Christmas Kitty💗#4567 - Bug Bot on 2017-12-20T02:24:10.422Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 Home x64 v1709 - Appears to occur once you reach a point where the client tells you that you're "viewing older messages"
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T15:14:24.807Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/588b621535c7fded7b9db688/3b119f0e1c82ac08142cd0d478ed2d18/VPQBVLS.gif added by Bug Bot on 2018-07-14T10:00:24.184Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1803 | Discord Canary Build 27040
+
+camperboy1000#6191 - Bug Bot on 2018-10-28T01:15:39.697Z
+
+
+### Can reproduce.
+Windows 10 Home x64 build 17763.xxx Canary 31316, breaks when "you're viewing older messages" toast shows up
+
+a cat#4876 - Bug Bot on 2019-01-25T03:08:09.739Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

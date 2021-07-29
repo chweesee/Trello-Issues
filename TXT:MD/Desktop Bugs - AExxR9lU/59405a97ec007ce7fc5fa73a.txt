@@ -1,0 +1,73 @@
+[Archived] New Create Channel Menu Doesn't close when you are removed from server (https://trello.com/c/jA9Iigs8)
+
+None
+
+Created: 2017-06-13T21:35:19.667Z
+Latest Update: 2017-06-15T20:27:41.615Z
+
+Reported by Ω¹²#8421
+
+####Steps to reproduce:
+- Open the new Create Channel menu 
+- Get kicked from the server
+
+####Expected result:
+The menu should close
+####Actual result:
+The role toggles disappear, the create button doesn't work but everything else does
+####Client settings:
+Canary 0.0.157
+####System settings:
+Win 7 SP1
+
+1619
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-13T21:35:19.667Z
+
+
+### Ω¹²#8421 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59405a97ec007ce7fc5fa73a/c2e033f7b0db80ac82c27fea64a9865a/image.png added by Bug Bot on 2017-06-13T21:35:22.530Z
+
+
+### Can reproduce.
+ Windows 10 (x64) Build 15063.293 @ Version 1703, Discord Canary Version 0.0.157
+
+Joseph#9413 - Bug Bot on 2017-06-13T21:35:24.342Z
+
+
+### Can reproduce.
+CR - Desktop Canary 0.0.157 (Build 1439) - Win 10 Pro x64 v1607
+
+Pointy#5565 - Bug Bot on 2017-06-13T21:35:26.285Z
+
+
+### Can reproduce.
+Windows 7, Discord Canary 0.0.157
+
+3spooky5u™#1000 - Bug Bot on 2017-06-13T21:35:28.353Z
+
+
+### I don't think this is a bug. Did the old modal close in this situation? - Jared on 2017-06-13T23:11:33.836Z
+
+
+### the old modal closes, as intended. The create channel/add roles won't work because you aren't in the server any longer.
+
+Mr.Caleb#8593 - Bug Bot on 2017-06-13T23:24:21.478Z
+
+
+### Moved from User Reported Bugs to Modal Redesign by Alexander (DJScias) on 2017-06-15T19:29:49.947Z
+
+
+### All the same underlying issue, merged it with https://trello.com/c/5MaxNVjn/757-delete-ban-window-does-not-close-upon-server-removal - Alexander (DJScias) on 2017-06-15T20:01:28.314Z
+
+
+### Archived by Jared on 2017-06-15T20:27:41.620Z
+
+List
+====
+Modal Redesign
+
+Members
+=======
+None

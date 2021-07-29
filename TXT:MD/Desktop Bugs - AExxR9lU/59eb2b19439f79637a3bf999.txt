@@ -1,0 +1,120 @@
+[Archived] Opening some channels in Russian locale crashes app (https://trello.com/c/XBTRizp3)
+
+None
+
+Created: 2017-10-21T11:10:17.539Z
+Latest Update: 2018-02-22T19:39:08.438Z
+
+Reported by DaFri_Nochiterov#4289
+
+####Steps to reproduce:
+- Switch Discord app language to Russian 
+- Go to any DM or browse channels
+
+####Expected result:
+Everything works fine
+####Actual result:
+App crashes and will crash after refresh until you change language back
+####Client settings:
+Discord Canary 0.0.167 (Build 6174)
+####System settings:
+Windows 10 Pro 1709 (17017.1000)
+
+5649
+
+---
+[Elegantt data. What's this?](http://bit.ly/elegantt-for-trello-whats-this)
+[](Elegantt_data:dont_delete{"ignored":false,"autoPlanned":false,"ownerId":false,"dependencies":[]})
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-21T11:10:17.539Z
+
+
+### DaFri_Nochiterov#4289 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59eb2b19439f79637a3bf999/e666be4430425ea6a7f456e74842c25e/Ow9oMeH.png added by Bug Bot on 2017-10-21T11:10:19.950Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (Build 6168)
+
+Starshine Dust#2189 - Bug Bot on 2017-10-21T11:10:24.918Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.167 (Build 6168) on Windows 10 Pro 64-bit (Build 1607) | This will cause an infinite crash loop, only way to solve is to change your language form your phone thanks to  the "sync clients" feature
+
+Tarek1337#0379 - Bug Bot on 2017-10-21T11:10:29.909Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.167 (Build 6168) on Dell Latitude E5540, Windows 10 Pro 64-bit (build 1703) | Had to switch to stable to change language.
+
+Ghoulish-Nightmare#4567 - Bug Bot on 2017-10-21T11:10:34.900Z
+
+
+### Can reproduce.
+CR, Discord Canary 6168, Ubuntu 16.04 64 bits
+
+Alex1304#9704 - Bug Bot on 2017-10-21T11:11:29.439Z
+
+
+### Should be fixed. There were some bugs in new timestamp engine we wrote. - Jake Heinz on 2017-10-22T01:52:18.987Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jake Heinz on 2017-10-22T01:52:30.886Z
+
+
+### Can reproduce.
+This issue still occurs on Discord Canary 0.0.167 (Build 6174),
+Jake, the best way for it to crash is to set the language to russia and later on go to DTestesrs and then the channel "desktop-bug-reports"
+
+Tarek1337#0379 - Bug Bot on 2017-10-22T08:20:02.900Z
+
+
+### DaFri_Nochiterov#4289 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59eb2b19439f79637a3bf999/44068c316666e58953f02c3ed2230b25/BgnVs2i.png added by Bug Bot on 2017-10-22T10:05:27.289Z
+
+
+### I am definitely still able to reproduce, the app gets caught in a crash loop, it sometimes even happens right after changing the language to Russian. 
+
+Windows 10 Home 64-bit v1703, Discord Canary, Build 6174 - Alexandru Todea on 2017-10-22T16:01:17.100Z
+
+
+### I am no longer able to reproduce, it has been fixed in Canary build 6190. - Alexandru Todea on 2017-10-23T15:46:33.113Z
+
+
+### Can't reproduce.
+Canary 0.0.158 MacOs 10.12.6
+
+jan358#0664 - Bug Bot on 2017-11-01T17:21:07.652Z
+
+
+### Can reproduce.
+just changing the lang to russian is enough to make it crash while reloading Windows 10 1709 x64, Canary build 7557
+
+AEnterprise#4693 - Bug Bot on 2017-11-21T15:30:56.790Z
+
+
+### Can reproduce.
+CR on windows 10 x64 FCU and canary 7557 | seems to escalate to fully locking client, even if language is changed, forcing user to clear reinstallation
+
+ks0908#8526 - Bug Bot on 2017-11-21T15:38:07.542Z
+
+
+### Verified Fixed - Jared on 2018-01-17T00:29:57.195Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T00:30:00.559Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:39:07.061Z
+
+
+### Archived by Tarek on 2018-02-22T19:39:08.440Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/svishnevskiy) - No Bio

@@ -1,0 +1,88 @@
+[Archived] Strikethrough for multiple lines looks more like an underline (https://trello.com/c/cKT0Ewt2)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-02-15T18:11:17.700Z
+Latest Update: 2018-09-04T23:12:45.381Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Go to any text channel 
+- Write any message that is longer than 1 line 
+- Use strikethrough for the whole text`~~` 
+- Send the text and observe it
+
+####Expected result:
+The whole text should use centered strikethrough.
+####Actual result:
+All lines except the last one don't have centered strikethrough.
+####Client settings:
+TestFlight 2.2.3 (2617)
+####System settings:
+iPhone 6s, iOS 11.2.5 & iPad Air 2, iOS 11.3 PB 2
+
+8818
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-15T18:11:17.700Z
+
+
+### Ghoul#0009 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a85cd450b201920cdb14273/5b635364715adef0b45c8d284a5674a5/image.png added by Bug Bot on 2018-02-15T18:11:20.154Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a85cd450b201920cdb14273/2d821395ccf4ccd61ef68c8c23064377/RHZPKXF.jpg added by Bug Bot on 2018-02-15T18:11:20.362Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 TestFlight 2.2.3 (2617)
+
+mrkirby153#7840 - Bug Bot on 2018-02-15T18:11:25.139Z
+
+
+### Can reproduce.
+CR, iPhone 8 +, iOS 11.3 (PB2), Discord TestFlight 2.2.3 (2617). Please take a look at my screenshot. The first yay that’s by itself is formatted correctly while the yay in multiple lines are not formatted correctly which would mean it’s not really an extension of a bug that was fixed.
+
+Ghoul#0009 - Bug Bot on 2018-02-15T18:11:30.168Z
+
+
+### Can reproduce.
+iPhone 6 iOS 10.3.2 TestFlight 2.2.3 (2617)
+
+Kuuhaku#4503 - Bug Bot on 2018-02-15T18:11:35.099Z
+
+
+### Verified.  - Clayton on 2018-02-15T21:52:16.372Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T21:52:20.908Z
+
+
+### You don't need strikethrough for multiple lines. Just a new line with any text after the strikethrough will cause this bug.
+
+Pascal#0929 - Bug Bot on 2018-05-06T15:27:03.259Z
+
+
+### **Extension to this issue**
+If you use any emoji (doesn't work with custom ones) before or after the strikethrough, it won't be centered.
+
+Pascal#0929 - Bug Bot on 2018-05-06T15:30:56.587Z
+
+
+### **Another extension**
+If you try to delete or pin a message with strikethrough (no matter where it is placed or how long the message is), the strikethrough for the confirmation modal with the message looks like underline.
+
+Pascal#0929 - Bug Bot on 2018-07-23T15:25:06.667Z
+
+
+### Archived by Clayton on 2018-09-04T23:12:45.384Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

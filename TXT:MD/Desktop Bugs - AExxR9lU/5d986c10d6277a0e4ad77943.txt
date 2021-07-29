@@ -1,0 +1,128 @@
+resetting voice settings doesn't re-enable debug logging (https://trello.com/c/OYeCOXgE)
+
+None
+
+Created: 2019-10-05T10:10:24.551Z
+Latest Update: 2020-07-16T21:26:05.338Z
+
+Reported by charleskimbac#6492
+
+####Steps to reproduce:
+- go to user settings > voice & video 
+- scroll all the way down 
+- disable 'debug logging' 
+- reset your voice settings 
+- go back to the voice & video settings and see how it's still disabled
+
+####Expected result:
+debug logging turns back on
+####Actual result:
+debug logging stays off
+####Client settings:
+canary 46787
+####System settings:
+windows 10 home
+
+45177
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-05T10:10:24.551Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 / Canary 46769
+
+...Angel_0#3105 - Bug Bot on 2019-10-05T10:10:32.005Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.257 Build 46787
+
+Daffyduck#5364 - Bug Bot on 2019-10-05T10:10:36.993Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903, - Discord Canary, Build Number: 46787
+
+.Gloria.#9606 - Bug Bot on 2019-10-05T10:10:41.982Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64: 1903, Canary 46787
+
+Sanjay#0540 - Bug Bot on 2019-10-05T15:11:06.495Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord Stable Build 46505
+
+ItsRy_#4256 - Bug Bot on 2019-10-05T18:57:30.719Z
+
+
+### Can reproduce.
+Win10x64 Pro, Canary 46787
+
+Darth#9386 - Bug Bot on 2019-10-05T20:52:36.973Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809) - Discord Canary 46787
+
+Best_Pro#7066 - Bug Bot on 2019-10-05T22:29:16.885Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 46787 (Host 0.0.257)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-06T04:16:55.421Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary (46787)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-06T04:19:16.112Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803, Discord Canary 46657
+
+Rex#9142 - Bug Bot on 2019-10-06T22:26:25.440Z
+
+
+### Can reproduce.
+CR, macOS 10.15, Canary 46787
+
+Action Potential#6862 - Bug Bot on 2019-10-07T01:07:09.439Z
+
+
+### Can reproduce.
+iMac (Late 2015) • macOS High Sierra 10.13.6 • Canary 46787
+
+Leaf#0001 - Bug Bot on 2019-10-07T17:52:45.454Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10, Host 0.0.257, Canary Build 46657
+
+binchlord#0998 - Bug Bot on 2019-10-08T00:23:39.486Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Canary Build 47471
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-17T04:02:14.404Z
+
+
+### Can reproduce.
+Can Reproduce, Discord Canary 47918, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0025 - Bug Bot on 2019-10-25T05:43:03.599Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

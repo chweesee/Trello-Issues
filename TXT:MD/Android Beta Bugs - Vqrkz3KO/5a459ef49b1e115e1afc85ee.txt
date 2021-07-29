@@ -1,0 +1,118 @@
+[Archived] Essentially, over the course of the week my Galaxy S4 (4.2.2 OS) is consistently crashing on the Android Alpha app. (https://trello.com/c/McU17aji)
+
+None
+
+Created: 2017-12-29T01:48:36.662Z
+Latest Update: 2018-02-07T13:44:56.481Z
+
+Reported by Crispyｨ™#0070
+
+####Steps to reproduce:Install Andriod Alpha app on 4.x.x andriod device 
+- Open up app 
+- enter semi large to large server for faster results
+
+####Expected result:
+The app will either Freeze, black out, or flicker and show the default android crash dialogue
+####Actual result:
+The app crashes, note, it crashes faster when entering larger servers.
+####Client settings:
+Discord Alpha/Beta 5.9.7
+####System settings:
+Galaxy S4, GT-I9502, 4.3 OS.
+
+7401
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-29T01:48:36.662Z
+
+
+### Can reproduce.
+ZTE obsidian, Android 5.1, Discord 5.9.7
+
+Lunʌrᴮᵒᵗ#5846 - Bug Bot on 2017-12-29T01:48:44.086Z
+
+
+### Can reproduce.
+Android 6.0.1, Samsing galaxy tab 10.2 , discord alpha 5.9.7 , it seems to run out of ram extremely fast or blocking when loading up to the point of android killing it cause it doesn't respond (sometimes heapened before but not nearly as much, now it's almost instant on large servers or after few mins on smaller that did not have this issue at all before)
+
+AEnterprise#4693 - Bug Bot on 2017-12-29T01:48:49.077Z
+
+
+### Can reproduce.
+CR on Samsung Galaxy S5, Android 6.0.1 using Discord Alpha 5.9.9
+
+Zak_Patat#9077 - Bug Bot on 2017-12-29T01:48:54.077Z
+
+
+### Going to need a more concrete set of steps to reproduce as this is a really vague report.
+
+Simply launching the app on an older phone and waiting is not producing a crash. - Miguel Gaeta on 2017-12-29T06:38:03.239Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Miguel Gaeta on 2017-12-29T06:38:10.027Z
+
+
+### what's essisially heapening is 2 things: the app is suddenly using a lot more ram then before, making it crash on older (but supported devices) when just using it on large servers (r/overwatch is a garanteed crash for me), the other thing is that (heapened before but was rare) when switching between servers (the larger the higher the chanse it heapened) is that while loading the app would go unresponsive if you try to do anything (seems to be loading/processing something on the main thread wich is a bad idea), this is causing android to kill the app
+
+AEnterprise#4693 - Bug Bot on 2017-12-29T09:33:39.064Z
+
+
+### It's very possible your phone simply does not have enough memory to load overwatch anymore.
+
+The server is constantly growing and now that rich presence is out there is more data to receive then before.
+
+A 4.2.2 and even your Tab) is a very old version of android/device with a very limited amount of memory.
+
+--
+
+I'd be interested to know if it still instantly crashes if you downgrade to production.
+
+I can try some older phones back at the office but it sounds like it's probably going to be something I can't fix on the client side without us changing the way big servers work fundamentally. - Miguel Gaeta on 2017-12-29T09:51:45.925Z
+
+
+### i can try comparing stable to alpha, am i allowed for that to fire up android studio and use the debugger to do mem profiling to get some RAM usage numbers to compare for both versions?
+
+AEnterprise#4693 - Bug Bot on 2017-12-29T10:15:20.791Z
+
+
+### I can provide you with a debuggable APK yeah just somewhat of a chore.
+
+For now just a general feeling would be helpful.  I will get some older devices when I can and do my own testing. - Miguel Gaeta on 2017-12-29T10:21:40.136Z
+
+
+### Screen Shot 2017-12-29 at 2.31.08 AM.png - undefined added by Miguel Gaeta on 2017-12-29T10:39:52.835Z
+
+
+### 5.8.3.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a459ef49b1e115e1afc85ee/04ff4cdf5458d0ddba6875e77a3cd0a0/5.8.3.png added by Miguel Gaeta on 2017-12-29T10:40:19.595Z
+
+
+### 5.9.9.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a459ef49b1e115e1afc85ee/4c5c802852c40879f64e123e2bd6251e/5.9.9.png added by Miguel Gaeta on 2017-12-29T10:40:21.290Z
+
+
+### I tried rolling back to production - if anything the current alpha is more memory efficient then before according to the memory inspector.
+
+I've attached screenshots I recorded of the memory after swapping around servers a bunch in both versions.
+
+Alpha is using less memory across the board.
+ - Miguel Gaeta on 2017-12-29T10:41:11.692Z
+
+
+### Can't reproduce.
+alpha 602 fixed the memory issue, i can load up all my servers (including dapi, blobs, dtesters, ....) without any issues, logcat confirms that the app now is now indeed using more of the available ram to store it all (before it aways said 45-50MB, now i've seen GC loggings saying the allocated ram is 101MB), thanks a lot!
+
+AEnterprise#4693 - Bug Bot on 2017-12-29T13:01:06.185Z
+
+
+### Archiving this ticket as there's been no new activity for over a month. - Chris Cox on 2018-02-07T13:44:52.793Z
+
+
+### Archived by Chris Cox on 2018-02-07T13:44:56.483Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+Unknown User (https://trello.com/mrkcsc) - No Bio

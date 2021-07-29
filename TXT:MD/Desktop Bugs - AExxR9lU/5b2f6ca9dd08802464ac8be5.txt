@@ -1,0 +1,75 @@
+[Archived] Receiving a message in a channel you're scrolled up in, but no currently viewing scrolls you back to the bottom of chat (https://trello.com/c/3zIwbAC3)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-06-24T10:04:25.910Z
+Latest Update: 2018-10-22T20:22:16.529Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go into a channel with enough messages to scroll up in 
+- Scroll up in the chat (Note: If the "Jump To Present" banner is visible, you're too high and it won't reproduce) 
+- Switch to another channel/server 
+- Have another user send a new message into the channel you're currently scrolled up in 
+- Go back into the channel and observe how you're now at the bottom
+
+####Expected result:
+Your current scrolled position is kept in place
+####Actual result:
+You're scrolled back to the bottom of chat
+####Client settings:
+Discord Canary 0.0.211, Build 17580
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+14735
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-24T10:04:25.910Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (17580) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-06-24T10:04:33.416Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 17580
+
+Frances Picard#6209 - Bug Bot on 2018-06-24T10:04:38.436Z
+
+
+### Can reproduce.
+Windows 10 x64 1803, Discord Canary Build number 17580
+
+ItzTacoTimee#0001 - Bug Bot on 2018-06-24T10:04:43.399Z
+
+
+### Can reproduce.
+Windows 10 Discord Canary Build 17580
+
+crep7424#6257 - Bug Bot on 2018-06-25T16:52:32.853Z
+
+
+### verified, macos 10.12.6, canary 17580 - Clayton on 2018-06-25T20:52:16.751Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-25T20:52:24.985Z
+
+
+### 54D#1357 - https://youtu.be/A1LXtpG6LNQ added by Bug Bot on 2018-07-14T13:24:14.761Z
+
+
+### Archived by Clayton on 2018-10-22T20:22:16.532Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

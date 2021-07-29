@@ -1,0 +1,68 @@
+[Archived] Message hover disappears when scrolling and moving mouse at once. (https://trello.com/c/lAxOfkVX)
+
+None
+
+Created: 2020-05-10T21:02:26.710Z
+Latest Update: 2020-05-13T12:12:22.779Z
+
+Reported by Marin#9372
+
+####Steps to reproduce:
+- Find a large message (large enough so that you can scroll once through the channel and stay hovered over that message) 
+- Use the mouse wheel to scroll up or down (stay over the message) AND move your mouse at the same time
+
+####Expected result:
+The message, as it's still hovered over, should not lose its "hovered over" background (and thus also the "..." button)
+####Actual result:
+The "hover" background/... button is gone until you move your mouse again, or it reappears after a second.
+####Client settings:
+Discord Canary 59223 (3569d4e)
+####System settings:
+Windows 10 x64 (10.0.17134)
+
+55349
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-10T21:02:26.710Z
+
+
+### Marin#9372 - https://www.youtube.com/watch?v=Bm3PVgc4CrI added by Bug Bot on 2020-05-10T21:02:29.249Z
+
+
+### Can reproduce.
+Dell Precision 5520: Canary 59390 (14ffb94), Host 0.0.264, Windows 10 64-Bit (10.0.18363)
+
+wakfi#6999 - Bug Bot on 2020-05-10T21:02:34.173Z
+
+
+### Can reproduce.
+CR. MacBook Pro (15-inch, Mid 2014), Catalina 10.15.4 (19E287); Build: 59616
+
+Wiz#0003 - Bug Bot on 2020-05-10T21:02:39.218Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Canary (Build 59879)
+
+Bryth#1086 - Bug Bot on 2020-05-10T21:02:44.284Z
+
+
+### We do this intentionally to avoid the message hover flashing a lot during scroll. - Joey Baker on 2020-05-11T15:40:12.036Z
+
+
+### Archived by Joey Baker on 2020-05-11T15:40:45.116Z
+
+
+### Can reproduce.
+[CR] Windows 10 Home x64; Version 1903 (18362.778); Canary (60073)
+
+AmusingDev#7879 - Bug Bot on 2020-05-13T12:12:22.790Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

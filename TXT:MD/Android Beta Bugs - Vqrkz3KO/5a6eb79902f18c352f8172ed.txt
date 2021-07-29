@@ -1,0 +1,97 @@
+[Archived] Channel name overflows & Catagory Name is no longer on screen in quick switcher (https://trello.com/c/bhJw5ql5)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-01-29T05:56:41.989Z
+Latest Update: 2018-06-01T03:47:30.516Z
+
+Reported by Okori#0902
+
+####Steps to reproduce:
+- have a very long Channel Name, Catagory Name, and Server Name 
+- have the long Channel in the long catagory 
+- open the quick switch and look up "#LongChannelName" 
+- observe
+
+####Expected result:
+Channel Name and server name should be playing a animation due to how long it is
+####Actual result:
+Catagory Name is no longer displayed and Channel name is going offscreen
+####Client settings:
+Discord 6.1.9
+####System settings:
+Kyocera Hydro Wave Android 5.1
+
+8266
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-29T05:56:41.989Z
+
+
+### Okori#0902 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a6eb79902f18c352f8172ed/37d355918f6b5ad275906c303b7f73db/Screenshot_2018-01-29-00-29-52.png added by Bug Bot on 2018-01-29T05:56:44.418Z
+
+
+### Can reproduce.
+Pixel XL 2 - Android 8.1 Alpha 6.1.9
+
+mrkirby153#7840 - Bug Bot on 2018-01-29T05:56:49.321Z
+
+
+### Can reproduce.
+CR Lenovo TB-X103F Android 6.0.1 android alpha 6.1.9
+
+Kyle#1348 - Bug Bot on 2018-01-29T05:56:54.289Z
+
+
+### Can reproduce.
+Tecno c9, Android 6.0 alpha 6.1.9
+
+Gon#0248 - Bug Bot on 2018-01-29T05:56:59.312Z
+
+
+### usernames can also cut off if it is long enough
+
+Okori#0902 - Bug Bot on 2018-01-29T06:10:47.387Z
+
+
+### Will be fixed in the next QS release - Sam Shih on 2018-01-29T21:33:28.329Z
+
+
+### Verified.  - Clayton on 2018-01-30T22:40:40.769Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-30T22:40:44.380Z
+
+
+### I can no repro the bug listed but when you have a long catagory name and server name the server name gets cut off and doesn't get trailing/rotating
+
+Okori#0902 - Bug Bot on 2018-02-06T19:45:38.471Z
+
+
+### appearently if you have a long Channel name the server name can disappear/get cut as well
+
+Okori#0902 - Bug Bot on 2018-02-06T23:11:30.160Z
+
+
+### in recent mentions *
+
+Okori#0902 - Bug Bot on 2018-02-06T23:12:06.695Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Sam Shih on 2018-03-02T23:42:59.864Z
+
+
+### Archiving this ticket as it has been in FIxed Bugs for more than a month without any activity.  - Ghoul on 2018-06-01T03:47:26.998Z
+
+
+### Archived by Ghoul on 2018-06-01T03:47:30.518Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/lytefast) - No Bio

@@ -1,0 +1,131 @@
+[Archived] SMS Authentication appears disabled in User Settings after you enter your own profile (https://trello.com/c/71lbqqVa)
+
+P2: Fix can wait a while
+
+Created: 2018-02-07T00:00:41.378Z
+Latest Update: 2019-04-22T07:47:35.520Z
+
+Reported by Curse#0001
+
+####Steps to reproduce:
+- Click your own user profile (make sure you are in the full profile modal) (optionally, you can load a game or play something on Spotify)
+- Close full modal and observe
+Clicking to other profiles does not trigger the banner.
+
+####Expected result:
+SMS authenticatior shouldn't look like it's disabled
+####Actual result:
+The SMS Authentication appears disabled in User Settings and you are asked to enter your password if you choose to enable it though this is only a visual bug (reloading the client fixes the problem/SMS Auth doesn't actually get disabled)
+####Client settings:
+Discord Canary, Build 10310
+####System settings:
+Windows 10 Home 64-bit v1709
+
+8524
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-07T00:00:41.378Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 Version 1709 (OS Build 16299.125), Discord Canary 0.0.201 (Build 10189)
+
+HeroGamers#0001 - Bug Bot on 2018-02-07T00:00:48.878Z
+
+
+### Can reproduce.
+Windows 10 Fall Creators Update build 16299 x64, Discord Canary version 0.0.202 build 10310
+
+Hexexpeck#0001 - Bug Bot on 2018-02-07T00:00:53.858Z
+
+
+### Can reproduce.
+Windows 10 fall creators update discord canary 0.0.202
+
+Bencey_#8587 - Bug Bot on 2018-02-07T00:00:58.954Z
+
+
+### Can reproduce.
+Windows 10 Pro Build 17083 (1709), Discord Canary 0.0.202 Build 10328
+
+bloxxerDTC#6982 - Bug Bot on 2018-02-07T12:32:33.398Z
+
+
+### Moved from User Reported Bugs to Next up for investigation by Shadi Isber on 2018-02-08T20:15:46.330Z
+
+
+### I am able to reproduce this very consistently by doing this:
+ - Don't have any status (playing/listening etc)
+- Reload your client
+- Click your own user profile (make sure you are in the full profile modal) (optionally, you can load a game or play something on Spotify)
+- Close full modal and observe
+Clicking to other profiles does not trigger the banner.
+
+SuperSajuuk#0001 - Bug Bot on 2018-02-10T11:41:53.083Z
+
+
+### To clarify: I am not able to reproduce this at all by just waiting, per the original report reproduction steps. However, I can reproduce this every time by following the steps I've outlined in my comment. Thus, I believe going to your own profile is the main reason for the banner reappearing on the client.
+
+SuperSajuuk#0001 - Bug Bot on 2018-02-10T11:58:17.092Z
+
+
+### I can reproduce Sajuuk's steps. - Tarek on 2018-02-10T13:03:24.796Z
+
+
+### Can reproduce.
+macOS 10.13.3, Discord Canary 0.0.186
+
+edisonlee55#9058 - Bug Bot on 2018-02-14T07:16:34.270Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1709, Discord Canary
+
+scared#0001 - Bug Bot on 2018-02-15T23:52:32.506Z
+
+
+### Can reproduce.
+Encountered while doing what Sajuuk described, Ubuntu 16.04 LTS x64, Discord build 10904
+
+NorbiPeti#1869 - Bug Bot on 2018-02-17T21:59:42.017Z
+
+
+### Can reproduce.
+Ubuntu MATE 17.10.1, Discord Stable 0.0.4 - Confirmed after opening profile of myself
+
+VitalKanev#2348 - Bug Bot on 2018-02-22T15:47:33.649Z
+
+
+### Can reproduce.
+Discord Canary 12955 & Windows 8 Build 9200 x64
+
+SweetSofiMC#8821 - Bug Bot on 2018-03-31T22:03:17.783Z
+
+
+### Updated title + repro steps with Sajuuk's steps, because it's easier to repro that way. - Tarek on 2018-04-28T14:26:49.279Z
+
+
+### As of Canary 0.0.208 (Build 14720), this is no longer reproducible. I clicked to my own full profile and no banner appeared at the top of the client, neither did SMS auth appear "disabled".
+
+SuperSajuuk#0001 - Bug Bot on 2018-05-08T12:53:04.378Z
+
+
+### Can no longer reproduce. Win 10 x64 Build 15598 - Mike Nisbet on 2018-05-20T01:12:05.351Z
+
+
+### Moved from Next up for investigation to Claimed Fixed, needs Verification by Mike Nisbet on 2018-05-20T01:12:12.410Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:24:50.050Z
+
+
+### Archived by Jared on 2018-07-06T18:24:51.032Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

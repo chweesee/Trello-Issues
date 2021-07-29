@@ -1,0 +1,75 @@
+[Archived] Clicking embedded Youtube videos loses window focus (could be a mac issue) (https://trello.com/c/1JOWo4Sy)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-04-09T22:48:25.326Z
+Latest Update: 2020-01-20T16:22:29.182Z
+
+Reported by GummiWummiBear#4022
+
+####Steps to reproduce:
+- Paste any youtube video link into a text channel 
+- Press play 
+- Click anywhere in the video box 
+- Observe title bar buttons
+
+####Expected result:
+Discord window should stay in focus
+####Actual result:
+Discord loses focus and the title bar buttons grey out
+####Client settings:
+Discord Canary Build 13228 (a6423b5c52a41c71781e77204cb85e06e619c1b0v)
+####System settings:
+iMac 9,1 OSX 10.11.6
+
+10367
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-09T22:48:25.326Z
+
+
+### Can reproduce.
+MacOS High Sierra Version 10.13.1 (17B1003)
+
+Codingpro#9213 - Bug Bot on 2018-04-09T22:48:32.867Z
+
+
+### Can reproduce.
+It doesn't lose focus but the buttons on the top left does turn grey Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 13313
+
+Kuuhaku#4503 - Bug Bot on 2018-04-09T22:48:37.925Z
+
+
+### Can reproduce.
+MacBook Pro (Late 2012), macOS High Sierra 10.13.1, Canary 0.0.186 (13344)
+
+mouse#0091 - Bug Bot on 2018-04-09T22:48:42.856Z
+
+
+### The exact same thing happens on windows as well. Yes, it's losing focus but that's because you're clicking on something that's not discord. It's a youtube window inside of Discord. You can do the exact same thing on the youtube website. Not a bug. - Jared on 2018-04-11T21:13:00.606Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-04-11T21:13:04.149Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:48:44.270Z
+
+
+### Archived by Jared on 2018-07-06T17:48:45.603Z
+
+
+### Can reproduce.
+CR Win10 64x (1809) - Canary 52909 (3ff68d0) // This is not a Mac specific issue, When focusing on a video Windows will also lose focus and stuff like Animated emojis will stop playing and moving.
+STR: Post YouTube video, Send animated Emote below it, Start playing video, noticed emote has stopped.
+
+Alipoodle#5025 - Bug Bot on 2020-01-20T16:22:29.197Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

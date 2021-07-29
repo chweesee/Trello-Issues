@@ -1,0 +1,57 @@
+[Archived] Webhooks associated with deleted channels cannot be deleted (https://trello.com/c/62Wq3k0i)
+
+None
+
+Created: 2016-10-07T22:38:53.915Z
+Latest Update: 2017-10-17T21:17:10.746Z
+
+Short Description: Webhooks associated with deleted channels cannot be deleted
+Steps to Reproduce:
+1) Create channel
+2) Create webhook for channel
+3) Delete channel
+4) Delete webhook
+Expected Result: Webhook is deleted
+Actual Result: Internal Server Error
+http://i.imgur.com/cZdT5CA.png
+http://i.imgur.com/2flPWCm.png
+
+System Settings: Newest canary, Windows 10 64bit. (I do have custom css, but I'm not using BetterDiscord or anything else that screws with the program)
+
+Also the channel name in the selector is replaced with its id(edited)
+
+Card Log
+========
+### Added by Jared on 2016-10-07T22:38:53.915Z
+
+
+### cZdT5CA.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/57f823fd518089d68aa2bcb3/af44d49c0a55e9eb455aff2b9b29307a/cZdT5CA.png added by Sam on 2016-10-19T20:58:44.081Z
+
+
+### 2flPWCm.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/57f823fd518089d68aa2bcb3/49ad086a616e3bbc5c5ca56bd4d00543/2flPWCm.png added by Sam on 2016-10-19T20:58:48.369Z
+
+
+### Cannot reproduce.  Webhook is removed from the WH menu after the channel is deleted. - Jared on 2016-10-24T22:45:38.540Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2016-10-24T22:45:40.716Z
+
+
+### Moved from Cannot Reproduce to Won't Fix. Dead Bug by Jared on 2016-12-07T21:27:52.984Z
+
+
+### No movement on this ticket in over a month.  Moving ticket to Won't Fix/Dead Bug. - Jared on 2016-12-07T21:27:54.318Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:17:09.891Z
+
+
+### Archived by Jared on 2017-10-17T21:17:10.749Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

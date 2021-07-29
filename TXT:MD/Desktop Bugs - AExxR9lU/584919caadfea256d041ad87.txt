@@ -1,0 +1,58 @@
+[Archived] Masked links in embeds are never considered trusted (https://trello.com/c/JvskdHZ9)
+
+None
+
+Created: 2016-12-08T08:28:58.400Z
+Latest Update: 2017-10-17T21:19:52.618Z
+
+Reported by Dougley#6248
+
+####Steps to reproduce: 
+- Have someone send a message with a masked link inside an embed 
+- Click it and select `Trust this domain` 
+
+####Expected result:
+ Domain gets trusted and stops prompting the user. 
+####Actual result:
+ It never trusts the domain and keeps prompting 
+####System settings:
+ Latest canary windows 10 pro
+
+Card Log
+========
+### Added by Jared on 2016-12-08T08:28:58.400Z
+
+
+### Dougley#6248 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/584919caadfea256d041ad87/e5132b4d2a1109d0f21ad7d8ef51cf4a/QmO42YSQ.gif added by Jared on 2016-12-08T08:29:14.150Z
+
+
+### Can't reproduce.
+Windows 7 x64, Canary 0.0.149
+
+Ian Murray#8701 - Jared on 2016-12-08T16:22:58.909Z
+
+
+### Can't reproduce.
+Windows 10, Canary 0.0.149
+
+Tonkku#0950 - Jared on 2016-12-20T14:54:56.834Z
+
+
+### Night tells me that this is functioning as intended and is not a bug.  It's "Trust the domain this time" not "always trust this domain" - Jared on 2017-01-17T20:20:07.761Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-01-17T20:20:13.139Z
+
+
+### This has been labeled as Won't Fix for more than a month. Archiving this ticket. - Jared on 2017-10-17T21:19:51.520Z
+
+
+### Archived by Jared on 2017-10-17T21:19:52.621Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

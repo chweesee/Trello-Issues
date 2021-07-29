@@ -1,0 +1,93 @@
+404 error page not properly displayed when added a second slash. [Website bug, crossplatform] (https://trello.com/c/0EyEbqji)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-09-23T20:53:27.984Z
+Latest Update: 2020-04-25T16:08:38.095Z
+
+Reported by イスラヌブ#2222
+
+####Steps to reproduce:
+- Go to the discordapp website and add a second slash ("/") at the end of the link. 
+- Obverse the page. 
+- Now try adding a text that should work after the double slash, "branding" for example 
+- Observe the page again. 
+- Add a random text after the double slash and observe.
+
+####Expected result:
+The page is properly shown in all the cases.
+####Actual result:
+In the first case the page has a black background and the text is hard to read, also the whole page is messed up (the text and images's position are wrong); in the second case the colours are inverted and the positions are not correct, also the 404 GIF covers part of the text; in the last case the error 404 page is properly shown.
+####Client settings:
+Crossplatform, tried with Safari 12.0 (unsupported), Firefox 62.0.2 and Google Chrome Canary for Android 71.0.3557.2
+####System settings:
+MacBook Pro 2017, macOS High Sierra 10.13.6 (17G65)
+
+19996
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-23T20:53:27.984Z
+
+
+### イスラヌブ#2222 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ba7fd47604305290ba481a6/a587f0c881c7e3ed4277683879343fc5/Screen_Shot_2018-09-23_at_22.34.55.png added by Bug Bot on 2018-09-23T20:53:30.554Z
+
+
+### Can reproduce.
+Can reproduce, macOS Mojave, canary site, Chrome 68.0.3440.106
+
+brxxn#0632 - Bug Bot on 2018-09-23T20:53:35.379Z
+
+
+### Can reproduce.
+CR ・ Google Chrome 68.0.3440.91 ・ Alcatel U5 3G ・ Android 7.0.0
+
+RodolfoٴAmbrósio#2063 - Bug Bot on 2018-09-23T20:53:40.373Z
+
+
+### Can reproduce.
+Chrome Version 69.0.3497.100 (64-bit), Windows 10 Pro x64
+
+» a r i a#1593 - Bug Bot on 2018-09-23T20:53:45.379Z
+
+
+### Can reproduce.
+Windows 7 Ultimate 64x, firefox 62.0.02
+
+「Fortune's Endbringer」#9616 - Bug Bot on 2018-09-23T20:54:37.283Z
+
+
+### Can reproduce.
+Windows 10 Home; Firefox 62.0.2
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-09-23T20:55:11.254Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 24480 ; Google Chrome 69.0.3497.100 x64
+
+Neiron#2406 - Bug Bot on 2018-09-24T15:30:15.171Z
+
+
+### Verified. Low priority. - Jared on 2018-09-25T21:02:15.247Z
+
+
+### Can reproduce.
+An extension of this issue is that clicking the logo brings up a blank white page that produces errors in the console. MacBook Pro: macOS Catalina 10.15.1 on Google Chrome 78.0.3904.108
+
+Jiralite#1207 - Bug Bot on 2019-12-02T18:19:30.790Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1909 (10.0.18363), Chrome 81.0.4044.122 - Can also repro the blank page that loads after clicking the logo
+
+Jean20B#4668 - Bug Bot on 2020-04-25T16:08:38.126Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

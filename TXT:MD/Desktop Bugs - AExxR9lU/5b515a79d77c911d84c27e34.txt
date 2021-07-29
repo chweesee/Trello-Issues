@@ -1,0 +1,114 @@
+[Archived] Several spaces in a row are displayed as one in embeds (https://trello.com/c/AvrQr999)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-20T03:43:53.834Z
+Latest Update: 2019-10-23T23:00:12.998Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Send an embed with several spaces in a row between two words/chars 
+- Observe it
+
+####Expected result:
+All spaces should be shown.
+####Actual result:
+Several spaces are displayed as only one for embeds.
+####Client settings:
+Canary Build 19105
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6
+
+15626
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-20T03:43:53.834Z
+
+
+### Can reproduce.
+Happens with tabulations as well. Discord Canary 19154, Ubuntu 16.04 LTS, Asus Netbook F551C, Intel Core i3 64bits
+
+Alex1304#9704 - Bug Bot on 2018-07-20T03:44:01.463Z
+
+
+### Can reproduce.
+macos 10.12.6, canary 19266
+
+IcyPebbles#5833 - Bug Bot on 2018-07-20T03:44:06.259Z
+
+
+### Can reproduce.
+Canary 19322, Windows 10 x64 v1803
+
+AlwaysMyFault#4051 - Bug Bot on 2018-07-20T03:44:11.240Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-20T20:45:11.737Z
+
+
+### verified - Clayton on 2018-07-20T20:45:16.808Z
+
+
+### seems to be form the message update, moving card to message update list - Tim on 2018-07-21T12:16:09.097Z
+
+
+### Moved from Verified Bugs to Message Update Bugs by Tim on 2018-07-21T12:16:12.360Z
+
+
+### Is this saying that the embed itself is hiding spaces or that the message sending the embed is hiding spaces? Is a screenshot possible? - Joey Baker on 2018-07-23T18:04:27.623Z
+
+
+### Capture.PNG - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b515a79d77c911d84c27e34/0869b5514acc87e7244d242b5c975534/Capture.PNG added by Tim on 2018-07-23T18:58:12.048Z
+
+
+### Moved from Message Update Bugs to Verified Bugs by Jared on 2018-07-24T21:18:51.251Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:01.780Z
+
+
+### Can reproduce.
+Windows 10
+
+devhl#9408 - Bug Bot on 2018-11-02T20:52:43.577Z
+
+
+### Unarchived by Tim on 2018-11-14T16:15:48.842Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:55.026Z
+
+
+### Can reproduce.
+Windows 10 Home 1803
+
+devhl#9408 - Bug Bot on 2019-01-25T00:23:03.608Z
+
+
+### Unarchived by Bug Bot on 2019-01-25T00:30:05.472Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:51.272Z
+
+
+### Can reproduce.
+Windows 10 Home 1803
+
+devhl#9408 - Bug Bot on 2019-08-27T23:10:58.567Z
+
+
+### Unarchived by Bug Bot on 2019-08-27T23:30:05.344Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:00:13.013Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

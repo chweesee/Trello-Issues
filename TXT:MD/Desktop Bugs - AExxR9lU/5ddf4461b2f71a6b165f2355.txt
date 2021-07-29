@@ -1,0 +1,147 @@
+Unable to join a voice channel for some time occasionally after leaving and rejoining quickly. (https://trello.com/c/M9luVKrf)
+
+None
+
+Created: 2019-11-28T03:52:01.778Z
+Latest Update: 2020-07-16T21:26:05.782Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:
+- Join a voice channel 
+- Leave the voice channel via disconnect (do not move to another voice channel) 
+- Join a voice channel quickly 
+- Repeat at least twice please!
+
+####Expected result:
+You join the voice channel.
+####Actual result:
+Either you join the voice channel and you are not actually connected for a while (and it may be stuck on awaiting the endpoint), or clicking the voice channel waits a noticeable amount of time before finally connecting.
+####Client settings:
+Discord Canary 50415
+####System settings:
+MacBook Pro: macOS Catalina 10.15.1
+
+48971
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-28T03:52:01.778Z
+
+
+### Can reproduce.
+can reduce to windows 10 home, Release Channel: stable, Build Number: 50415
+
+R C N#0001 - Bug Bot on 2019-11-28T03:52:09.346Z
+
+
+### Jiralite#1207 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ddf4461b2f71a6b165f2355/ca70bf84a8aefea641872fdb8cfbeca8/Py2XCf2.gif added by Bug Bot on 2019-11-28T03:52:09.972Z
+
+
+### Can reproduce.
+CR: Lenovo Helix Ultra 2 • Windows 10 v1803 • Discord Canary 50460
+
+CentralPier9#5471 - Bug Bot on 2019-11-28T03:52:14.345Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1909 - Discord Canary 0.0.259 Build 50470
+
+Daffyduck#5364 - Bug Bot on 2019-11-28T03:52:19.336Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 1903, Discord Canary 0.0.259 Build 50470
+
+ryan#0570 - Bug Bot on 2019-11-28T04:37:25.263Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x86, Discord Canary 50415
+
+Anatolia#0001 - Bug Bot on 2019-11-28T04:54:52.878Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x, Version 1903, Discord 50415
+
+Hufy#0001 - Bug Bot on 2019-11-28T05:49:24.149Z
+
+
+### Can reproduce.
+Windows 10 Home 1809 x64, canary 50474
+
+Warwick#9999 - Bug Bot on 2019-11-28T09:04:08.389Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1903) - Discord Canary 50474
+
+Jamalek#0025 - Bug Bot on 2019-11-28T10:20:07.253Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Discord stable: 50474
+
+NeverCookFirst#5630 - Bug Bot on 2019-11-28T16:17:37.490Z
+
+
+### Can reproduce.
+Canary 50127, Windows 10
+
+Rohit#3523 - Bug Bot on 2019-11-28T19:41:29.650Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord: ptb, Build Number: 50428
+
+TheFutureKnight#7664 - Bug Bot on 2019-11-29T00:35:09.897Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 50474 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-11-29T02:36:17.535Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) stable 50474 on Chrome
+
+myacorn#6534 - Bug Bot on 2019-11-29T10:21:43.381Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 Home 1903 - Discord Canary 50474
+
+Niko#8828 - Bug Bot on 2019-11-29T15:50:16.723Z
+
+
+### Can reproduce.
+CR : Windows 10 Pro (1903), Discord Canary 50474
+
+TheRudeDude#6040 - Bug Bot on 2019-11-29T19:24:52.291Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro, Build 17134,  canary, Build Number: 50474,
+
+Inno#7606 - Bug Bot on 2019-11-30T07:06:07.118Z
+
+
+### Can reproduce.
+CR, Discord Canary 51182, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2019-12-11T17:27:20.353Z
+
+
+### Quickly leaving whilst RTC is still connecting may make you unable to rejoin any voice chat. This error is thrown in the console: `Uncaught Error: VoiceConnection has been explicitly destroyed!`
+
+Jiralite#1207 - Bug Bot on 2020-01-13T02:29:15.992Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

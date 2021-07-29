@@ -1,0 +1,123 @@
+[Archived] Slider bar jumps about/flickers when adjusting the user limit in the voice channel settings [iOS 10 only] (https://trello.com/c/eZVyjGCP)
+
+None
+
+Created: 2018-02-08T19:33:26.340Z
+Latest Update: 2019-07-17T17:55:43.970Z
+
+Reported by Kuuhaku#4503
+
+####Steps to reproduce:
+- Go to a server in which you own or have the manage channels permission 
+- Hold on one of the voice channels and tap on Edit Channel 
+- Drag the slider bar button back and forth in the User Limit section
+
+####Expected result:
+You should be able to easily adjust the limit using the slider bar
+####Actual result:
+The slider bar moves back and front and flickers, making it difficult to set a user limit
+####Client settings:
+TestFlight Build 2.2.2 (2352)
+####System settings:
+iPhone 6 iOS 10.3.2
+
+8604
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-08T19:33:26.340Z
+
+
+### Kuuhaku#4503 - https://youtu.be/nDYSo9NU4sg added by Bug Bot on 2018-02-08T19:33:28.774Z
+
+
+### Can reproduce.
+CR, iPhone 5s, iOS 10.0.1, TestFlight 2.2.2 (2352)
+
+HeroGamers#0001 - Bug Bot on 2018-02-08T19:33:33.702Z
+
+
+### Can reproduce.
+CR, iPod touch 6 generation, iOS 10.3.3, TestFlight 2.2.2 (2352). Might be ios 10 only
+
+❤nickWtn❤#3789 - Bug Bot on 2018-02-08T19:33:38.903Z
+
+
+### Can reproduce.
+CR, iPhone SE, iOS 10.3.2, TestFlight 2.2.2 (2352)
+
+TimThe#1118 - Bug Bot on 2018-02-08T19:33:43.692Z
+
+
+### I actually think this is iPhone and iPod issue only, as I am unable to reproduce on my iPad 2017 Model running iOS 10.3.2 with Discord TestFlight 2.2.3 (2572)
+
+Ghoul#0009 - Bug Bot on 2018-02-14T03:27:52.997Z
+
+
+### Can't reproduce.
+IOS 11 | iPhone 7
+
+TheNamesSubject#0001 - Bug Bot on 2018-03-02T08:07:34.058Z
+
+
+### Cannot reproduce. iPhone 6S 10.2.1, Testflight 2.3.0 - Jared on 2018-04-12T20:37:54.485Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-04-12T20:37:59.480Z
+
+
+### I’m doing this mainly to address the fact that that this bug does happen in iOS 11.2.6 for me, I’m using TestFlight 2.3.0 (3817) as well and have an iPod Touch 6th generation. My reproduction result are the exact same as what’s depicted in the video that Kuuhaku posted.
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-04-21T05:25:45.237Z
+
+
+### Still cannot reproduce - Jared on 2018-04-23T20:48:42.880Z
+
+
+### Can't reproduce.
+I can longer repro this on my iPhone 6 iOS 10.3.2 as of TF build 3817. However, I know that some people can repo this on iOS 9 and 11 on their device
+
+Kuuhaku#4503 - Bug Bot on 2018-04-24T00:03:30.957Z
+
+
+### Can reproduce.
+TestFlight 2.3.8 (7416) iPhone 6s iOS 12.1 Dev Beta - I could also reproduce this bug on iOS 12 Stable Release, so not related to the beta OS
+
+Rashaun#9295 - Bug Bot on 2018-09-28T00:38:51.271Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.1 Beta (16B5059d) - TestFlight 2.3.9 (7731)
+
+william#0002 - Bug Bot on 2018-10-02T02:49:46.437Z
+
+
+### Archived by Tarek on 2019-01-01T23:37:41.119Z
+
+
+### Unarchived by Tarek on 2019-01-02T00:16:23.333Z
+
+
+### Archived by Bug Bot on 2019-02-01T00:30:20.747Z
+
+
+### This issue was now resubmitted here https://trello.com/c/BebT5XzR with better steps.
+
+Moving this ticket to New Issues and archiving since it is no longer needed. - Pascal on 2019-07-17T17:55:15.031Z
+
+
+### Unarchived by Pascal on 2019-07-17T17:55:32.392Z
+
+
+### Moved from Cannot Reproduce to New Issues by Pascal on 2019-07-17T17:55:37.777Z
+
+
+### Archived by Pascal on 2019-07-17T17:55:40.355Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

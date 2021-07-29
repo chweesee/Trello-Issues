@@ -1,0 +1,63 @@
+[Archived] When choosing 4.99$ option for Nitro and entering credit card with insufficient funds won't bring you back to the beginning telling you there is an error [Mac specific] (https://trello.com/c/zBoOHxEI)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-09-22T15:12:20.587Z
+Latest Update: 2019-01-11T00:00:37.402Z
+
+Reported by Rage#9991
+
+####Steps to reproduce:
+- Go to the Nitro tab 
+- Click on the 4.99$ option 
+- Enter a card with insufficient funds 
+- Save that info 
+- Observe nothing happens
+
+####Expected result:
+It brings you to the beginning saying things went wrong like with the 49.99$ option
+####Actual result:
+It just doesn't save and won't bring you back either. Also the message that the card was declined appears in the Billing tab instead, if you click "add payment method" you can see the error there if you select credit card
+####Client settings:
+Canary 23709
+####System settings:
+Macbook Air, macOS Sierra 10.12.6
+
+19659
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-22T15:12:20.587Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS 10.13.6 - Stable 23549
+
+mrkirby153#7840 - Bug Bot on 2018-09-22T15:12:27.886Z
+
+
+### Can reproduce.
+macOS 10.14; Canary 24452
+
+OrangeM24#5746 - Bug Bot on 2018-09-22T15:12:32.974Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.6, Canary Build 24461
+
+Pascal#0929 - Bug Bot on 2018-09-22T15:12:37.895Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-26T19:22:13.226Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:37.404Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,123 @@
+[Archived] You can edit message and make it null message. (https://trello.com/c/SXbbBp9I)
+
+None
+
+Created: 2019-08-03T05:56:33.776Z
+Latest Update: 2019-09-05T09:30:31.445Z
+
+Reported by F значит fedoras#2230
+
+####Steps to reproduce:
+- Write a message and send it. 
+- Press edit message. 
+- Start removing all characters and while removing last 1-2 characters press “Save” button. 
+- If you got correct timing, you may save a null message. BUT this bug works only if you do removing characters and press “Save” fast, if you wait a bit before pressing “Save” everything is gonna be okay.
+
+####Expected result:
+“Save” button shouldn’t work, if there is no characters.
+####Actual result:
+You save null message.
+####Client settings:
+TestFlight 3.0.10 (16641)
+####System settings:
+iPhone 7, iOS 12.3.1
+
+41285
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-03T05:56:33.776Z
+
+
+### Rope#0098 - https://youtu.be/f3HW23b7uO8 added by Bug Bot on 2019-08-03T05:56:36.293Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.3.1 TestFlight 3.0.10 (16641)
+
+Rope#0098 - Bug Bot on 2019-08-03T05:56:41.274Z
+
+
+### Can reproduce.
+iPhone 7 Plus iOS 13, TF 3.0.10 (16641)
+
+󠇰󠇰#2345 - Bug Bot on 2019-08-03T05:56:46.244Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 Dev Beta 5 — TestFlight 3.0.10 (16641)
+
+Nith#1337 - Bug Bot on 2019-08-03T05:56:51.232Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.4 TestFlight 3.0.10 (16576)
+
+binchlord#0998 - Bug Bot on 2019-08-03T06:10:21.032Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 12.2 - TestFlight 3.0.10 (16641)
+
+alexa#0001 - Bug Bot on 2019-08-03T07:45:18.639Z
+
+
+### Can reproduce.
+iPhone 5s, iOS 12.4, TestFlight 3.0.10 (16641) - This took me a few tries.
+
+.Gloria.#9606 - Bug Bot on 2019-08-03T08:09:21.801Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.4, Discord Testflight 3.0.10
+
+KindleTune#8570 - Bug Bot on 2019-08-03T08:17:23.944Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13.0 (17A5522f) - TestFlight 3.0.10 (16641)
+
+Isabel#0002 - Bug Bot on 2019-08-03T08:46:09.205Z
+
+
+### Too minor of an issue to dedicate resources fixing it.
+
+Moving to Won't Fix. - Pascal on 2019-08-03T10:08:25.722Z
+
+
+### Moved from New Issues to Won't Fix by Pascal on 2019-08-03T10:08:33.294Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.4, TestFlight 3.0.10 (16641)
+
+Ghalid#1364 - Bug Bot on 2019-08-04T02:26:04.331Z
+
+
+### Can reproduce.
+iPhone XS, iOS 12.4 | TestFlight 3.0.10
+
+JoeProKill2000#2674 - Bug Bot on 2019-08-04T20:40:25.762Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 13 Public Beta 4 - TestFlight 3.0.10 (16641)
+
+CyberiumShadow#1507 - Bug Bot on 2019-08-05T10:27:39.119Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.2, TestFlight 3.0.10 (16641)
+
+Noah#0004 - Bug Bot on 2019-08-06T09:05:57.760Z
+
+
+### Archived by Bug Bot on 2019-09-05T09:30:31.461Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

@@ -1,0 +1,104 @@
+[Archived] Users are shown screen suggesting to invite new members to voice channels which they cannot access (https://trello.com/c/kytGHvG2)
+
+P3 - Will be fixed eventually,
+Mid,
+Client side,
+invites
+
+Created: 2018-02-21T00:44:49.311Z
+Latest Update: 2018-10-11T00:30:31.794Z
+
+Reported by Mas#0001
+
+####Steps to reproduce:
+- Join a guild with at least one voice channel that you have permission to view but not join 
+- Attempt to join the locked voice channel 
+- Observe the message stating "Feelin' lonely? Add friends to this voice channel by creating an invite link."
+
+####Expected result:
+The user should be shown a message stating they do not have permission to join the channel
+####Actual result:
+The user is shown a message telling them to create an invite to add members to the channel despite not having access to it themself
+####Client settings:
+Discord Android Beta v6.2.7
+####System settings:
+Android 7.0, Huawei P10 Lite
+
+8962
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-21T00:44:49.311Z
+
+
+### Can reproduce.
+can reproduce, Android 7.0, Samsung Galaxy S6 Edge
+
+IcyPebbles!#5833 - Bug Bot on 2018-02-21T00:44:56.767Z
+
+
+### Can reproduce.
+On Android it's not even possible to create an invite pointing to a voice channel. Discord Alpha 6.2.7, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-02-21T00:45:01.729Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 7.0 Alpha 6.2.7
+
+webhp#1337 - Bug Bot on 2018-02-21T00:45:06.751Z
+
+
+### Mas#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5a8cc101cb98eea7f7248ff9/75d404fd6c76875edf7e75a6997ce8ac/Screenshot_20180220-222906.png added by Bug Bot on 2018-02-21T10:31:04.274Z
+
+
+### Persists on iOS devices (verified on iPad Mini 3, Stable v2.2.3)
+
+Mas#0001 - Bug Bot on 2018-02-21T11:58:59.771Z
+
+
+### Verified, low priority. - Jared on 2018-02-22T22:06:59.743Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-22T22:07:04.762Z
+
+
+### Can reproduce.
+CR, ZTE Nubia Z7 Max (NX505J), Android 5.1.1, Discord 6.2.4 (624)
+
+[SH][NT]Hachiko🐶#3882 - Bug Bot on 2018-02-24T10:33:34.783Z
+
+
+### Can reproduce.
+Moto E4 Plus - Android Nougat 7.1.1 Discord Alpha 6.2.7
+
+Holonoid#1665 - Bug Bot on 2018-02-24T18:07:21.940Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:10.769Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.4.0
+
+Frances Picard#6209 - Bug Bot on 2018-08-26T04:02:55.885Z
+
+
+### Can reproduce.
+Google Pixel 2, Android 9.0.0 ; Android Alpha 7.4.0 (740)
+
+brilaverance#2835 - Bug Bot on 2018-08-26T04:03:18.984Z
+
+
+### Unarchived by Clayton on 2018-08-26T04:30:03.355Z
+
+
+### Archived by Clayton on 2018-10-11T00:30:31.797Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

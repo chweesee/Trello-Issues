@@ -1,0 +1,70 @@
+[Archived] *Vanity URL (with nitro boost) remain active when you go above 50 boost (https://trello.com/c/MVdztreS)
+
+None
+
+Created: 2019-06-19T11:34:49.479Z
+Latest Update: 2019-08-03T04:30:49.419Z
+
+Reported by laglobul#0001
+
+####Steps to reproduce:
+- Boost the server up to 50 boost 
+- Choose a custom ip 
+- ask that the people no longer boost your server to be below 50 boosts 
+- And see that you can still connect with the custom ip
+
+####Expected result:
+Normally, the custom ip should delete this, so we shouldn't be able to join the server with the custom ip anymore
+####Actual result:
+The custom ip will remain active, we won't be able to change it anymore but we will be able to connect to the server via
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 39387, Version Hash: 0da88997edbfbb9a7afaba0d74ac01b74c6f804e
+####System settings:
+Acer Computer ASPIRE E 15
+
+36949
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-19T11:34:49.479Z
+
+
+### Can reproduce.
+CR, server lost 50 boosts for over a week & still had custom url; Windows 10 Pro v1809 Canary 39806
+
+Daffy#7906 - Bug Bot on 2019-06-19T11:34:56.792Z
+
+
+### Can reproduce.
+Windows 10 Pro, PTB 39974
+
+Action Potential#2494 - Bug Bot on 2019-06-19T11:35:01.941Z
+
+
+### Can reproduce.
+CR on Windows 10 (x64); Discord Stable, Build Number 39974
+
+Dann#3477 - Bug Bot on 2019-06-19T11:35:06.807Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Tarek on 2019-06-19T20:48:05.156Z
+
+
+### Seems like a legit issue, I'm in a server which lost 50 boosts about 4 days ago, so, it's not the grace period. - Tarek on 2019-06-19T20:48:24.271Z
+
+
+### We've tracked this down and are working on a fix - Jon Egeland on 2019-06-19T22:28:18.167Z
+
+
+### Moved from Notable Issues to Verified Fixed by nightwalker on 2019-06-19T23:56:19.246Z
+
+
+### Archived by Bug Bot on 2019-08-03T04:30:49.430Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

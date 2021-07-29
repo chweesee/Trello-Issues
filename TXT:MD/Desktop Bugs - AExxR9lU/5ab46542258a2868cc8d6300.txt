@@ -1,0 +1,68 @@
+[Archived] You are able to see chat(s) that update when only certain roles/people have access to them and you don't. (https://trello.com/c/vD0NatLs)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-03-23T02:24:02.615Z
+Latest Update: 2018-07-06T18:02:58.930Z
+
+Reported by wpc#0236
+
+####Steps to reproduce:Make sure to have a chat channel that only a certain role has access to, and make sure you are in that role 
+- Have someone @ mention you in that chat 
+- Have a friend remove that role so that you lose access to that chat 
+- Make that friend start typing/saying stuff while you check your mentions tab 
+- Click the @ mention from that chat and scroll to the bottom
+
+####Expected result:
+No "live" chat. It should display the same messages as it was when you lost access to the chat.
+####Actual result:
+You're able to still see messages that were/are being sent after you left
+####Client settings:
+Build 12477
+####System settings:
+Windows 10 x64
+
+9797
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-23T02:24:02.615Z
+
+
+### Can reproduce.
+CNR Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build. It looks like it may be fixed. Reporter says that they no longer can reproduce, so pushing through for archival reasoning.
+
+Ghoul#0009 - Bug Bot on 2018-03-23T02:24:10.518Z
+
+
+### Can reproduce.
+CNR; Appears to be patched in latest update according to test and user, Discord Stable 12080, Discord Canary 12458
+
+TheElite96#0001 - Bug Bot on 2018-03-23T02:24:15.466Z
+
+
+### Can reproduce.
+Claimed fixed, pushing through for archival reasons
+
+Zacatero#0001 - Bug Bot on 2018-03-23T02:24:20.491Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-04-03T20:25:21.586Z
+
+
+### Moved from User Reported Bugs to Verified Fixed by Clayton on 2018-04-03T20:25:25.877Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:02:57.703Z
+
+
+### Archived by Jared on 2018-07-06T18:02:58.933Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

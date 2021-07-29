@@ -1,0 +1,63 @@
+[Go Live] Starting a Stream and Ending the Stream abruptly will still show you as Streaming in the Overlay (https://trello.com/c/lMkQHcIL)
+
+None
+
+Created: 2019-11-24T15:12:41.146Z
+Latest Update: 2020-04-04T16:18:20.106Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game with Overlay 
+- Start a Stream (either in overlay or Client) 
+- Abruptly end the stream by changing channels or something
+
+####Expected result:
+The Go Live in the Voice + Channel list menu, will show as Ready to stream {GAME}
+####Actual result:
+the Go Live in the Voice + Channel list still shows you as streaming, but it has ended.
+####Client settings:
+Canary 50042
+####System settings:
+Win10 64x (1903)
+
+48610
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-24T15:12:41.146Z
+
+
+### Alipoodle#5025 - https://trello-attachments.s3.amazonaws.com/5cbfb347e17452475d790070/5dda9de9064edd131d30ae3f/23467f04fb266567fb22d70444ecf45b/a6HM8YR.png added by Bug Bot on 2019-11-24T15:12:44.392Z
+
+
+### Can reproduce.
+CR, Windows 10 x64 Home 1903 - Discord Canary 50208
+
+Niko#8828 - Bug Bot on 2019-11-24T15:12:48.644Z
+
+
+### Can reproduce.
+Windows 10 home, Release Channel: canary, Build Number: 50221
+
+R C N#0001 - Bug Bot on 2019-11-24T15:12:53.600Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 | Stable 50221
+
+WishFuly#0666 - Bug Bot on 2019-11-24T15:12:58.636Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Canary 50221
+
+NeverCookFirst#5630 - Bug Bot on 2019-11-24T16:08:04.237Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

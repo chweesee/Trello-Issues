@@ -1,0 +1,124 @@
+Tapping the new messages banner doesn't stop scroll (https://trello.com/c/AVRbuIgo)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-23T21:24:09.442Z
+Latest Update: 2020-03-18T11:12:16.456Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open a channel with unread messages and with a long message history 
+- Swipe your finger down and release it to make it scroll up with inertia 
+- While the screen is moving, tap the new messages banner
+
+####Expected result:
+It returns to the position where the first unread message was and stops scrolling
+####Actual result:
+It does return to the first unread message but it continues to scroll up
+####Client settings:
+Discord Alpha 6.5.6
+####System settings:
+Huawei Mate 9 Android 7.0
+
+11167
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-23T21:24:09.442Z
+
+
+### Can reproduce.
+CR, LG G2 - D802, Android 5.0.2 - Discord Alpha 6.5.6
+
+mcicu5#7394 - Bug Bot on 2018-04-23T21:24:16.878Z
+
+
+### Can reproduce.
+Samsung S8+ (Android 8.0.0), Discord Alpha 6.5.6
+
+Homie PinkGuy#1386 - Bug Bot on 2018-04-23T21:24:21.917Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S7 • Android 7.0 • Discord Alpha 6.5.6
+
+Chbollig#0001 - Bug Bot on 2018-04-23T21:24:26.910Z
+
+
+### Can reproduce.
+Can reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 ~ Discord Alpha 6.5.6
+
+Lava#9562 - Bug Bot on 2018-04-23T22:03:12.312Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 (Android 8.0.0) - Discord Alpha 6.5.6
+
+Serban#1820 - Bug Bot on 2018-04-24T07:19:31.847Z
+
+
+### Can reproduce.
+LG G5 (android 7.0) - Discord Alpha 6.5.6
+
+CinnamonCian#8384 - Bug Bot on 2018-04-24T10:18:44.460Z
+
+
+### Verified.  - Clayton on 2018-04-25T22:55:18.259Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-04-25T22:55:21.453Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5ade4ef9d1fd46f672c83791/38a6dd3b1a9e6407c478bbf493746242/YGZTFAp.gif added by Bug Bot on 2018-07-15T17:49:09.862Z
+
+
+### Archived by Clayton on 2018-08-22T01:21:49.902Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 828
+
+charleskimbac#6492 - Bug Bot on 2019-01-17T05:31:26.781Z
+
+
+### Unarchived by Bug Bot on 2019-01-17T06:00:05.375Z
+
+
+### Can reproduce.
+Also happens with the Viewing Older Messages Banner with intertia. | Samsung Galaxy Note 9 (9.0) | Discord Alpha 9.0.1
+
+Clay#0001 - Bug Bot on 2019-05-22T06:28:39.881Z
+
+
+### Archived by Bug Bot on 2019-08-16T21:25:07.680Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord Alpha 980
+
+Jean20B#4668 - Bug Bot on 2019-11-03T16:24:34.497Z
+
+
+### Unarchived by Bug Bot on 2019-11-03T16:30:05.353Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:33:59.770Z
+
+
+### Moving to wont fix because of: https://trello.com/c/zqzCMNZj/3143-clicking-on-youre-viewing-older-messages-while-scrolling-doesnt-stop-the-scroll#comment-5ce905b5244b4254a7b2167e - Tarek on 2020-03-18T11:12:11.931Z
+
+
+### Moved from Verified Bugs to Won't Fix. Dead Bug by Tarek on 2020-03-18T11:12:16.244Z
+
+
+### Unarchived by Tarek on 2020-03-18T11:12:16.430Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

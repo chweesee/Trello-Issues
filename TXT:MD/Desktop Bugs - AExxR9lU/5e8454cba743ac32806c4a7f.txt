@@ -1,0 +1,34 @@
+Can set a blank template name after created (https://trello.com/c/AGOrYQzC)
+
+None
+
+Created: Unknown
+Latest Update: 2020-04-28T10:50:41.802Z
+
+**Short Description:** Can set a blank template name after created
+**Steps to reproduce:**
+- Create a template with the requisite 2 character min. name
+- Edit the title to be a regular space, then save changes
+
+**Expected Results:** Should not let you rename to empty name
+**Actual Results:** Ignores minimum character limit, and sets the name as empty
+**Client Settings:** Canary 56769
+**System Settings:** Windows 10 64-Bit (10.0.18363)
+
+Card Log
+========
+### Moved from Server Templates! to Claimed Fixed, needs Verification by Jerry Jiang on 2020-04-03T00:17:38.258Z
+
+
+### Can reproduce.
+The extension listed in this report is still reproducible (1 character name). In addition to this, editing the title to a blank space per the steps to reproduce creates a bad request (which was probably the fix) but the user becomes trapped in the server template menu as the "Save Changes" pop-up does not dismiss until they hit reset. MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 58988 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-04-28T10:50:41.813Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

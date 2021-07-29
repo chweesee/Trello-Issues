@@ -1,0 +1,68 @@
+[Archived] Wrong error message when trying to set a vanity URL that contains a blacklisted word (https://trello.com/c/xeG4MLaM)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2017-08-15T11:41:58.933Z
+Latest Update: 2018-08-22T01:20:24.621Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Have permissions to change the Vanity URL of a partner server 
+- Go Server Settings > Vanity URL 
+- Enter a URL that contains a blacklisted word, try something that contains "discord" (probably the only blacklisted word at the time of writing) 
+- Hit Enter and notice that you get a toast message saying: "A bad network request has occurred, please try again"
+
+####Expected result:
+You should get a red error message saying "Vanity URL could not be changed because ..." like on the desktop version. You actually get this message on Android when trying to pick a URL that's already in use or one that contains invalid characters, but not when it contains a blacklisted word.
+####Actual result:
+You get a toast message saying: "A bad network request has occurred, please try again"
+####Client settings:
+Discord Alpha 4.0.6 (501)
+####System settings:
+Samsung Galaxy S7 edge, Android Nougat 7.0
+
+3097
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-15T11:41:58.933Z
+
+
+### Curse Broken#8659 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5992de067519a28afcfde8ea/90bea7c996dd8b743e48486b04f5c714/vanityurl.png added by Bug Bot on 2017-08-15T11:42:01.965Z
+
+
+### Can reproduce.
+Discord Android Alpha 4.0.7, Android KitKat 4.4.4, Tablet Allview VIVAH8LTE
+
+Symplyfyed#4913 - Bug Bot on 2017-08-15T11:42:06.327Z
+
+
+### Can reproduce.
+CR,  Android Alpha 4.0.7 (Build 502) on OnePlus 5 Android 7.1.1 |  I'm not getting a toaster notification but I don't get an error message either.
+
+Tarek1337#0379 - Bug Bot on 2017-08-15T11:42:11.398Z
+
+
+### Can reproduce.
+p10 android 7.0
+
+Cole#0440 - Bug Bot on 2017-08-15T11:42:16.322Z
+
+
+### Verified.  - Clayton on 2017-10-31T22:53:11.396Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-31T22:53:16.682Z
+
+
+### Archived by Clayton on 2018-08-22T01:20:24.623Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

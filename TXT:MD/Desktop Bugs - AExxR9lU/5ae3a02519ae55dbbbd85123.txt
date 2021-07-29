@@ -1,0 +1,102 @@
+[Archived] Streamer Mode does NOT hide the User's IP from Voice Debug (https://trello.com/c/5hGOOABt)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-04-27T22:11:49.915Z
+Latest Update: 2018-07-06T18:23:14.753Z
+
+Reported by Blastoise186#7194
+
+####Steps to reproduce:
+- Enable Streamer Mode 
+- Join a Voice Channel 
+- Open the Voice Debug 
+- go to Transport
+
+####Expected result:
+The client should NEVER show Identifiable information with Streamer Mode enabled such as the User's IP
+####Actual result:
+the Users IP is visible under "Local Address" even with Streamer Mode enabled
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 14232, Version Hash: 365452e54abd9e571d46a4354b05c0a726431e74
+####System settings:
+Windows 10 Home 64-bit 1709 Build 16299.402
+
+11437
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-27T22:11:49.915Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 14234 Windows 10 x64
+
+Rashaun#9295 - Bug Bot on 2018-04-27T22:11:58.578Z
+
+
+### Can reproduce.
+Can Reprodude; Windows 10 Home x64 (Fall Creators Update); Canary 14225
+
+Rauf#9245 - Bug Bot on 2018-04-27T22:12:03.625Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 14234
+
+webhp#1337 - Bug Bot on 2018-04-27T22:12:08.593Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-04-27T22:23:01.602Z
+
+
+### Verified - Jared on 2018-04-27T22:23:03.919Z
+
+
+### Can reproduce.
+Win 10 Pro 64-bit, v1709 (Build 16299.371)
+
+GamesForDays#1985 - Bug Bot on 2018-04-27T22:38:10.873Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.204 (Build 14281) on Windows 10 Education 1709 x64 (Build 16299.371)
+
+OminousCry#2331 - Bug Bot on 2018-04-28T02:40:57.557Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jozsef Vass on 2018-05-07T20:00:23.316Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jozsef Vass on 2018-05-09T00:09:32.648Z
+
+
+### Tested on Canary Build 14817:
+
+I can no longer reproduce this myself, turning on streamer mode effectively stops showing the Local Address part in the Voice Debug. - Alexander (DJScias) on 2018-05-09T01:46:53.148Z
+
+
+### Went out to stable today as well. - Jozsef Vass on 2018-05-09T04:13:12.573Z
+
+
+### Thanks! - Tarek on 2018-05-09T05:00:39.174Z
+
+
+### Retested on [BUILD INFO] Release Channel: ptb, Build Number: 14896, Version Hash: 44d9d2dc23e67b538a6206151ec08ecd0ffbe467 Windows 10 Home 64-Bit 1803 April Update Build 17134.48 as the original reporter, I can no longer Reproduce this bug, enabling Streamer Mode also removes the entire Local Address part in my Voice Debug
+
+Blastoise186#7194 - Bug Bot on 2018-05-10T18:29:55.682Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:23:13.516Z
+
+
+### Archived by Jared on 2018-07-06T18:23:14.756Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

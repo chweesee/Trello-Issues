@@ -1,0 +1,65 @@
+[Archived] Pressing the "Enter" key in the spam protection window causes a weird effect and the FPS decrease. (https://trello.com/c/6WCAXpMj)
+
+None
+
+Created: 2017-10-07T18:04:27.421Z
+Latest Update: 2017-10-09T22:32:18.259Z
+
+Reported by Maika#9523
+
+####Steps to reproduce:
+- Spam somewhere until you get the spam protection window 
+- Press & hold Enter
+
+####Expected result:
+The window should normaly close.
+####Actual result:
+The windows makes a weird effect and decreases you fps / Discord will start lagging
+####Client settings:
+Desktop Canary, 0.0.164
+####System settings:
+Windows 10, 64-Bit, Version 1703
+
+5155
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-07T18:04:27.421Z
+
+
+### Can reproduce.
+Windows 10 x64 Version 1703, Discord Canary build 5478
+
+Washingdone#7878 - Bug Bot on 2017-10-07T18:04:35.007Z
+
+
+### Can reproduce.
+MacBook Pro 2017 13", OSX High Sierra (10.13), Canary 0.0.155
+
+Skeletonarcher12#3697 - Bug Bot on 2017-10-07T18:04:39.966Z
+
+
+### Can reproduce.
+CR, Discord Canary 5155, Windows 10 Home Edition x64
+
+A Spoopy Striker#7250 - Bug Bot on 2017-10-07T18:04:45.014Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64, Discord Canary 0.0.164, Build 5478
+
+OminousCry#2331 - Bug Bot on 2017-10-07T22:09:39.505Z
+
+
+### This isn't a valid bug. You're opening up another of the same modal and stacking them, which is why the FPS decreases. The bug is that the enter button opens the same modal, which has been reported before. - Jared on 2017-10-09T22:32:13.578Z
+
+
+### Archived by Jared on 2017-10-09T22:32:18.262Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

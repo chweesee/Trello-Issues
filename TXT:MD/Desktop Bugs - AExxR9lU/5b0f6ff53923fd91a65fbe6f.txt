@@ -1,0 +1,71 @@
+[Archived] Re-opening Add Friends to DM modal resets the generated Group DM invite's expiration time (https://trello.com/c/PpVSr8ra)
+
+None
+
+Created: 2018-05-31T03:45:57.742Z
+Latest Update: 2018-07-06T17:51:07.379Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Be the owner of a Group DM 
+- Generate an invite by opening the Add Friends to DM modal inside of the Group DM 
+- Right-click the Group DM icon & open the Instant Invites modal 
+- Observe the invite's expiration time resetting every time the Add Friends to DM modal is opened
+
+####Expected result:
+Group DM invite's expiration time doesn't consistently reset every time the Add Friends to DM modal is opened
+####Actual result:
+Group DM invite's expiration time resets every time the Add Friends to DM modal is opened
+####Client settings:
+Discord Canary 0.0.210, Build 16275
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+13605
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-31T03:45:57.742Z
+
+
+### Can reproduce.
+CR, Canary 0.0.210 (16275), Windows 10 Home Version 1803
+
+QwakGoesDuck#0420 - Bug Bot on 2018-05-31T03:46:05.140Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 16275
+
+Rauf#9245 - Bug Bot on 2018-05-31T03:46:10.462Z
+
+
+### Can reproduce.
+Discord Canary 0.0.210 (16275) on Windows 10 Pro 64-bit (1803) | It for some reason regenerates the same invite
+
+Tarek#1337 - Bug Bot on 2018-05-31T03:46:15.196Z
+
+
+### Moved from User Reported Bugs to Group DM Invite Links by Tarek on 2018-05-31T03:46:26.888Z
+
+
+### Not a bug apparently. https://i.imgur.com/HzZxrtB.png 
+Moving to not a bug. - Tarek on 2018-05-31T03:47:35.756Z
+
+
+### Moved from Group DM Invite Links to Not a Bug by Tarek on 2018-05-31T03:47:41.381Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:51:06.058Z
+
+
+### Archived by Jared on 2018-07-06T17:51:07.382Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

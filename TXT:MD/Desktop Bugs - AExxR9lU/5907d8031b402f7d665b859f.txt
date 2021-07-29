@@ -1,0 +1,74 @@
+[Archived] Updated roles do not show on Audit log if its not you who updated them (https://trello.com/c/BZZZJ9XH)
+
+None
+
+Created: 2017-05-02T00:51:15.070Z
+Latest Update: 2017-10-17T21:09:15.165Z
+
+Reported by Aeokieek#1574
+
+####Steps to reproduce: 
+- Get someone else to edit a current role 
+- View the audit logs to see the change 
+
+####Expected result:
+ You see the updated role change 
+####Actual result:
+ It doesn't show anything if it wasn't you 
+####System settings:
+ Windows 10x64, Latest Canary
+
+1315
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-02T00:51:15.070Z
+
+
+### Can reproduce.
+Win 10 Pro x64 1703, latest Canary
+
+Tiemen#0107 - Bug Bot on 2017-05-02T00:51:15.791Z
+
+
+### Can reproduce.
+Windows 10, latest canary
+
+Exanimem#3112 - Bug Bot on 2017-05-02T00:51:17.666Z
+
+
+### Can reproduce.
+Only appears when the user who makes the change is **not** on canary. If the user makes the change on canary, it appears in the audit logs.
+
+JBYoshi#5551 - Bug Bot on 2017-05-02T00:51:19.731Z
+
+
+### This bug occurs if the user who makes the change is not on canary.
+
+JBYoshi#5551 - Bug Bot on 2017-05-02T00:52:57.321Z
+
+
+### Can reproduce.
+macos 10.12.4 Discord canary
+
+Harrison#9100 - Bug Bot on 2017-05-02T01:06:12.642Z
+
+
+### Moved from User Reported Bugs to Audit Log Bugs by Jared on 2017-05-02T21:52:58.980Z
+
+
+### Moved from Audit Log Bugs to Not a Bug by Amadeus on 2017-05-02T22:53:17.182Z
+
+
+### This has been a marked as Not A Bug for more than a month, so I am archiving this ticket. - Jared on 2017-10-17T21:09:14.332Z
+
+
+### Archived by Jared on 2017-10-17T21:09:15.169Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

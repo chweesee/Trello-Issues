@@ -1,0 +1,78 @@
+[Archived] Can't select an emoji when input form is loaded up (Over char limit) (https://trello.com/c/k0n2OdB8)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-11T20:38:48.090Z
+Latest Update: 2018-10-22T20:20:40.498Z
+
+Reported by TheOnlyArtz#5743
+
+####Steps to reproduce:
+- Spam emojis in an input form like `:smile::smile::smile::smile::smile::smile::smile::smile::smile::smile::smile::smile::smile::smile::smile:` but couple of times (the higher the better) 
+- leave the last one to be like `:smi`
+
+####Expected result:
+You should be able to choose the emoji on the last one
+####Actual result:
+You can press the emojis on the menu and nothing will happen
+####Client settings:
+Discord canary 15032
+####System settings:
+Windows pro x64
+
+12449
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-11T20:38:48.090Z
+
+
+### TheOnlyArtz#5743 - https://youtu.be/NaF6-7TZfzw added by Bug Bot on 2018-05-11T20:38:50.557Z
+
+
+### Can reproduce.
+Can reproduce. Happens on ChromeOS too. ChromeOS 65.0.3325.209 (stable build) 64 Bit
+
+Gamefre1#0894 - Bug Bot on 2018-05-11T20:38:55.489Z
+
+
+### Can reproduce.
+Able to Reproduce; Windows 10 Pro x64; Build 1803; Discord Canary; Build 15034.
+
+Costpap#2158 - Bug Bot on 2018-05-11T20:39:00.489Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 15059 -- Could no longer type emoji or use the emoji picker menu.
+
+webhp#1337 - Bug Bot on 2018-05-11T20:39:05.496Z
+
+
+### Verified, Discord Canary 15059, MacOS 10.12.6 - Clayton on 2018-05-11T23:46:40.867Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-11T23:46:45.382Z
+
+
+### Can reproduce.
+Can reproduce; emoji selection was rejected. Windows 8.1 x64, Stable, Build Number: 15154
+
+Ditto Duck Penguin#0802 - Bug Bot on 2018-05-12T11:24:41.771Z
+
+
+### Can reproduce.
+Windows 10 Professional x64, Discord Canary (15268)
+
+Jesus_Crie#1024 - Bug Bot on 2018-05-15T19:18:17.487Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:40.500Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

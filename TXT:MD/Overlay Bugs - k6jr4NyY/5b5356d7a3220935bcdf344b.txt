@@ -1,0 +1,80 @@
+Voice Channel's name under "Voice Connected" doesn't direct you to the server when clicked on in the Overlay (https://trello.com/c/2LNcEF2C)
+
+None
+
+Created: 2018-07-21T15:52:55.370Z
+Latest Update: 2019-08-17T15:22:02.414Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Open a game 
+- Open the Overlay 
+- Join a Voice Channel in a server 
+- Go into another server 
+- Attempt to click the Voice Channel's name under the "Voice Connected"
+
+####Expected result:
+You're taken into the server the Voice Channel is in like in the app
+####Actual result:
+Nothing happens when it is clicked even though it appears to be clickable
+####Client settings:
+Discord Canary 0.0.211, Build 19429
+####System settings:
+Windows 10 Home 64-bit (v1709)
+
+15788
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-21T15:52:55.370Z
+
+
+### Can reproduce.
+Discord Canary 0.0.211 (19430) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-07-21T15:53:02.769Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 19429
+
+Xylium#1480 - Bug Bot on 2018-07-21T15:53:07.756Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1803), Discord Canary Build 19429
+
+NicholasY#4815 - Bug Bot on 2018-07-21T15:53:12.739Z
+
+
+### Can't reproduce.
+Discord Canary 0.0.211, Windows 10 x64
+
+</> Emmanuel#2543 - Bug Bot on 2018-07-21T16:51:40.159Z
+
+
+### known bug, being fixed - Christina Zou on 2018-07-24T17:52:59.081Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:36.837Z
+
+
+### Unarchived by Pascal on 2019-07-19T15:32:15.412Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Pascal on 2019-07-19T16:05:27.781Z
+
+
+### Only works on DM Calls/Group DMs now. Clicking it will bring you to an empty home screen, no DM selected.
+
+Seems fixed for servers (also mentioned by https://trello.com/c/1l9bf7Z6 )
+Windows 10 Pro x64, Discord Canary 43884 - Aeria on 2019-08-17T15:22:02.426Z
+
+List
+====
+Fix made, not yet released
+
+Members
+=======
+None

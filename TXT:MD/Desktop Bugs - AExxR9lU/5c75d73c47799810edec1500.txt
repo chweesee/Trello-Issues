@@ -1,0 +1,132 @@
+[Archived] If you scroll before the animation moving you to an emoji category finishes, the emojis/category titles flicker. (https://trello.com/c/ahuxakat)
+
+P3: Will get fixed eventually
+
+Created: 2019-02-27T00:18:04.452Z
+Latest Update: 2019-10-23T23:03:07.486Z
+
+Reported by Solo#0007
+
+####Steps to reproduce:
+- Open emoji picker 
+- Click on a category icon 
+- As the animation is scrolling you to the category, begin to scroll the opposite direction that it is moving you
+
+####Expected result:
+The scrolling should not be recognized, or should only take action once you reach the designated category.
+####Actual result:
+The scrolling gesture is recognized and the emojis/category titles flicker.
+####Client settings:
+Canary 32805
+####System settings:
+Windows 10 Home x64 (1809)
+
+29896
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-27T00:18:04.452Z
+
+
+### Can reproduce.
+CR, Discord Desktop Canary Build 32805 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601 [https://cdn.discordapp.com/attachments/420995378582913030/550072698307608587/KjPhIvTeZD.gif]
+
+Blinky#8276 - Bug Bot on 2019-02-27T00:18:12.387Z
+
+
+### Solo#0007 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c75d73c47799810edec1500/a5ec38a6dc8f4d946b9fbe35e66fa593/0c95b94e0d7034e86ef9af9be457cd19.gif added by Bug Bot on 2019-02-27T00:18:16.124Z
+
+
+### Can reproduce.
+can  reproduce, Discord Desktop Canary Build 32759 | Windows 7 Ultimate 64-bit Version 6.1 Build 7601
+
+tech_dude1#9855 - Bug Bot on 2019-02-27T00:18:17.386Z
+
+
+### Can reproduce.
+CR MacOS 10.12.6 Sierra Mac Pro (Mid 2010) Canary Build 32805
+
+Starfield_9#8660 - Bug Bot on 2019-02-27T00:18:22.399Z
+
+
+### Starfield_9#8660 - https://youtu.be/kTdIA1vmSIw added by Bug Bot on 2019-02-27T00:18:51.180Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 version 1809 Canary 32829
+
+anonymous kitten 😸#4876 - Bug Bot on 2019-02-27T00:51:53.397Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home (64-bit), Canary 32805
+
+average idiot on the internet#0274 - Bug Bot on 2019-02-27T00:55:31.551Z
+
+
+### Can't reproduce.
+Win10 Pro x64 (1809) | Discord Canary 32805
+
+Clay#0001 - Bug Bot on 2019-02-27T01:29:22.635Z
+
+
+### Can reproduce.
+Windows 10 Pro 1809 x64 - Desktop Stable 32470
+
+Harsh#0001 - Bug Bot on 2019-02-27T01:52:55.576Z
+
+
+### Can't reproduce.
+Windows 10 Pro Build 15063, Desktop Canary Build 32859
+
+SAVAGE#6841 - Bug Bot on 2019-02-27T02:32:04.432Z
+
+
+### Can reproduce.
+macos 10.14.4, Canary 32862
+
+M24#0272 - Bug Bot on 2019-02-27T04:48:35.743Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 - Chrome 72.0.3626.117 (x64) - Web Canary 32862
+
+Casper#9999 - Bug Bot on 2019-02-27T05:46:32.050Z
+
+
+### Can't reproduce.
+CNR. Macbook Air • macOS Mojave 10.14 • Canary 32859
+
+Rage#9991 - Bug Bot on 2019-02-27T09:29:57.103Z
+
+
+### Can't reproduce.
+Windows 10 home x64 v.1809 - Canary 32862
+
+J1#0088 - Bug Bot on 2019-02-27T13:01:06.186Z
+
+
+### Can reproduce.
+CR; Canary: 32862, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-02-27T14:24:31.261Z
+
+
+### Can reproduce.
+W10 Pro x64 (1809), Canary 32862
+
+dafaqed#1312 - Bug Bot on 2019-02-27T18:52:22.479Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-02T03:18:38.582Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:07.509Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

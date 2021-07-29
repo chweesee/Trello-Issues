@@ -1,0 +1,66 @@
+DMs muted through status bar stay muted even when unmuted in-app (https://trello.com/c/590zSrKD)
+
+None
+
+Created: 2020-04-17T08:04:02.817Z
+Latest Update: 2020-07-16T05:46:30.468Z
+
+Reported by Melody#8281
+
+####Steps to reproduce:
+- Wait for a DM to appear in the status bar 
+- Press "Mute 1H" under the options 
+- Unmute the DM in the app
+
+####Expected result:
+Phone notifications should return as per normal
+####Actual result:
+Phone notifications stay muted for the whole hour
+####Client settings:
+17.0 (1091)
+####System settings:
+Samsung Galaxy A30, Android 10
+
+54763
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-17T08:04:02.817Z
+
+
+### Can reproduce.
+Could reproduce - notifications did not even come back after one hour - 18.0-a8 - OnePlus 5T - Android 9.0.0 (OxygenOS)
+
+aosync#3115 - Bug Bot on 2020-04-17T08:04:10.371Z
+
+
+### Can reproduce.
+CR - in-app notifications were returned to normal but push notifications remained disabled until the full hour had passed, as the reoprt says - Samsung Galaxy S9 Plus, Android 10, One UI 2.0, v18.0-ALPHA9 (1100)
+
+Lame-wo#3229 - Bug Bot on 2020-04-17T08:04:15.591Z
+
+
+### Can reproduce.
+CR OnePlus 3T, Android 9, Discord 18-A9 (1100) - In-apps were fine, system weren't coming though. Requires a few messages to get the "Mute 1H"
+
+Alipoodle#5025 - Bug Bot on 2020-04-17T08:04:20.426Z
+
+
+### Can reproduce.
+CR, Y9s, Android 10, Discord 18-alpha 7 (1098)
+
+Zynb#2984 - Bug Bot on 2020-04-17T08:06:33.221Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy A70, Android 10, Discord 18.0-alpha7 (1098)
+
+Ana940#9858 - Bug Bot on 2020-04-18T16:35:48.332Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

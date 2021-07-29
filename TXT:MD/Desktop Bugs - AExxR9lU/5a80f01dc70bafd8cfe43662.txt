@@ -1,0 +1,69 @@
+[Archived] There is a checkbox for spellcheck on Linux and Windows 7 even though Discord does not support spellcheck on either. (https://trello.com/c/VTPKlzm8)
+
+None
+
+Created: 2018-02-12T01:38:37.318Z
+Latest Update: 2018-07-06T18:17:00.121Z
+
+Reported by simonizor#2560
+
+####Steps to reproduce:
+- Update Discord Canary to build 10549 or later 
+- Right click on the text input box 
+- See a checkbox to enable/disable spellchecking even though it is not supported on Linux or Windows 7 in Discord
+
+####Expected result:
+There should be no checkbox for enabling/disabling spellcheck on Linux or Windows 7 if they do not support spellcheck
+####Actual result:
+Right clicking on the text input box shows a checkbox to enable/disable spellchecking on Linux and Windows 7
+####Client settings:
+Discord Canary 0.0.45 10549
+####System settings:
+openSUSE Tumbleweed 20180209
+
+8687
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-12T01:38:37.318Z
+
+
+### webhp#1337 - https://u.teknik.io/e6YJi.png added by Bug Bot on 2018-02-12T01:38:40.148Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.10/Linux 4.13, Discord Canary 0.0.45 (Build 10549)
+
+Starshine Dust#2189 - Bug Bot on 2018-02-12T01:38:45.157Z
+
+
+### Can reproduce.
+Ubuntu 16.04 LTS x64, Canary build 10549
+
+NorbiPeti#1869 - Bug Bot on 2018-02-12T01:38:50.214Z
+
+
+### Can reproduce.
+CR, Windows 7 Professional x64, Discord Canary Build 10557
+
+Ghoul#0009 - Bug Bot on 2018-02-12T01:38:55.143Z
+
+
+### Fixed - Stanislav Vishnevskiy on 2018-02-13T21:38:06.695Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jared on 2018-02-13T21:38:30.082Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:16:58.614Z
+
+
+### Archived by Jared on 2018-07-06T18:17:00.123Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

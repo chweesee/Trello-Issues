@@ -1,0 +1,130 @@
+[Archived] iOS spellchecker autocorrects emotes if the emote preview is chosen instead of typing entirely the emote. (https://trello.com/c/QyXX8Axn)
+
+P1 - Severe,
+mid
+
+Created: 2018-06-30T16:52:30.966Z
+Latest Update: 2019-05-15T16:30:21.986Z
+
+Reported by Aɴᴅʏ#1337
+
+####Steps to reproduce:
+- Use a spellchecker that will detect emotes as a mistake (the best is to not use English, I used French personally) 
+- Type the first part of an emote 
+- Click on a suggestion of the emote preview 
+- Observe the correction done by the spellchecker 
+- If you use too many times the emote, the spellchecker will learn it and will not "correct" it
+
+####Expected result:
+Once the person clicked on an emote suggestion, the correct emote code is typed in the text bar.
+####Actual result:
+The iOS spellchecker can "correct" the emote code and replace it by some words that it will find "correct".
+####Client settings:
+TestFlight 2.3.4 (5560)
+####System settings:
+iPhone 7, iOS 11.3
+
+15036
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-30T16:52:30.966Z
+
+
+### Xylium#1480 - https://youtu.be/KJiPUtVkbEY added by Bug Bot on 2018-06-30T16:52:33.542Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b37b54eea93ce5787512e82/37fcdf882d8cca132176b97077c8f3d8/image.jpg added by Bug Bot on 2018-06-30T16:52:33.595Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b37b54eea93ce5787512e82/0a8ee3fbf1efe163228a0bb48cabd5f4/image.png added by Bug Bot on 2018-06-30T16:52:33.602Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 {Dev Beta 2} TestFlight 2.3.4 (5560)
+
+Xylium#1480 - Bug Bot on 2018-06-30T16:52:38.486Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th generation, iOS 11.4, TestFlight 2.3.4 (5560), there’s some debate over weather this is a extension of (https://trello.com/c/NgPL45RM), so I’ve attached it just as reference.
+
+🐎nickWtn🐎#3789 - Bug Bot on 2018-06-30T16:52:43.492Z
+
+
+### Can reproduce.
+Can Repro. iPhone 8, iOS 11.3.1. TF 2.3.4 5560.
+
+Q__Q#8008 - Bug Bot on 2018-06-30T16:52:48.526Z
+
+
+### Can reproduce.
+CR, iPhone X, iOS 12 (Dev Beta 2), TestFlight 2.3.4 (Build 5560)
+
+Xeno#0001 - Bug Bot on 2018-07-01T05:24:19.285Z
+
+
+### verified, ios 11.1, testflight 2.3.4 - Clayton on 2018-07-03T20:47:32.596Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-03T20:47:40.541Z
+
+
+### Moved from Verified Bugs to Chat Rewrite Bugs by Fanghao on 2018-08-10T01:06:45.197Z
+
+
+### Moved from Chat Rewrite Bugs to Fix made, not yet released by Fanghao on 2018-08-21T04:02:19.655Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:14.013Z
+
+
+### Unarchived by Ghoul on 2018-10-22T20:28:54.096Z
+
+
+### Can reproduce again on iOS TestFlight 2.3.9 (8441) on iPhone XS Max running iOS 12.1, Dev Beta 2. This does happens with the emojis that you don't use often, as it can be frustrating. 
+
+Moving to Reopened. - Ghoul on 2018-10-22T20:29:49.301Z
+
+
+### Moved from Claimed Fixed Bugs to Reopened by Ghoul on 2018-10-22T20:29:58.181Z
+
+
+### Cannot reproduce anymore as of TestFlight 2.5.2 (13014) with iPhone 8 Plus running iOS 12.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-04-12T19:26:08.595Z
+
+
+### Moved from Reopened to Claimed Fixed Bugs by Pascal on 2019-04-12T19:26:20.662Z
+
+
+### Can't reproduce.
+iphone 8 ios 12.2, tf 2.5.2 (13730)
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-13T07:03:51.496Z
+
+
+### Can't reproduce.
+CNLR. iPhone XR, iOS 12.2, TestFlight 2.5.2 (13730)
+
+Rage#9991 - Bug Bot on 2019-04-13T09:31:59.808Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 2.5.2 (13730)
+
+Daffyduck#5364 - Bug Bot on 2019-04-15T16:12:48.650Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-04-15T16:12:48.933Z
+
+
+### Archived by Bug Bot on 2019-05-15T16:30:22.000Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

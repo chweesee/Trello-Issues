@@ -1,0 +1,67 @@
+[Archived] Naming a role with a snowflake converts it into a mention on delete screen. (https://trello.com/c/ti1h4bGi)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2017-09-25T17:08:21.423Z
+Latest Update: 2018-09-04T23:11:42.486Z
+
+Reported by Lucario 🌀 ∝ x²#9656
+
+####Steps to reproduce:
+- Name a role with a valid snowflake ID (`<@number>`). 
+- Delete the role. 
+- Tap on the mention.
+
+####Expected result:
+The string should not be a mention.
+####Actual result:
+The string is converted to a mention, and tapping on the mention takes you to the private DM of that user after exiting the edit roles screen.
+####Client settings:
+TF 1.9.1 (665)
+####System settings:
+iOS 9.3.5, iPhone 6S
+
+4813
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-25T17:08:21.423Z
+
+
+### Lucario 🌀 ∝ x²#9656 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/59c93805e446fa283f0c0e1e/e57ad27eef361b95b4304c009b1441fa/l386xb5.png added by Bug Bot on 2017-09-25T17:08:23.868Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 11.0, TF 1.9.1 (665)
+
+tri'ngle#9036 - Bug Bot on 2017-09-25T17:08:28.855Z
+
+
+### Can reproduce.
+iPhone 6S & iPad Air 2, iOS 11.0, TestFlight 1.9.1 (665)
+
+Pascal#0929 - Bug Bot on 2017-09-25T17:08:33.817Z
+
+
+### Can reproduce.
+Iphone 7, iOS 11.0 - TestFlight 1.9.1
+
+' Umji || R ♡#9867 - Bug Bot on 2017-09-25T17:08:38.822Z
+
+
+### Verified.  - Clayton on 2017-09-27T23:14:15.311Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-27T23:14:21.941Z
+
+
+### Archived by Clayton on 2018-09-04T23:11:42.489Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

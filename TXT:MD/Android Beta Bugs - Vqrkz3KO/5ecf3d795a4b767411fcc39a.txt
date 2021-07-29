@@ -1,0 +1,86 @@
+Inline video player sound continues but video stops (https://trello.com/c/rtYVjLCn)
+
+None
+
+Created: 2020-05-28T04:26:33.978Z
+Latest Update: 2020-06-25T17:18:14.096Z
+
+Reported by BrightSkyz#2627
+
+####Steps to reproduce:
+- Send a video to a channel 
+- Click play to start the inline video player 
+- Hold down on the message to get the popup to add reactions 
+- Add a reaction 
+- Observe
+
+####Expected result:
+The sound should stop or the video playback shouldn't pause
+####Actual result:
+The sound continues but the video doesn't play
+####Client settings:
+Android Alpha 22.3 (1143)
+####System settings:
+Pixel 3a, Android 10
+
+56148
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-28T04:26:33.978Z
+
+
+### BrightSkyz#2627 - https://youtu.be/7hPICoVZvqw added by Bug Bot on 2020-05-28T04:26:37.519Z
+
+
+### Can reproduce.
+Moto G7, Android 9, Discord 22.3 (1143). The video stops due to message reload, and so the sound should stop with it
+
+wakfi#6999 - Bug Bot on 2020-05-28T04:26:42.389Z
+
+
+### Can reproduce.
+Samsung Galaxy J5 2016, Android 7.1.1, Discord 24 (1150)
+
+Jean20B#4668 - Bug Bot on 2020-05-28T04:26:47.406Z
+
+
+### Can reproduce.
+CR | Y9s, Android 10, Discord 23.0 | Also editing the video message will stop the video and sound continue
+
+Zynb#2984 - Bug Bot on 2020-05-28T04:26:52.455Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy A30, v10, Discord 24 Alpha 2 (1148)
+
+Sarhan#0001 - Bug Bot on 2020-05-28T06:16:03.758Z
+
+
+### Can reproduce.
+Huawei P20 Pro, Android 9, Discord 24 (1150)
+
+Squidja#2098 - Bug Bot on 2020-05-28T06:28:21.422Z
+
+
+### Can reproduce.
+Samsung Galaxy 10e Android 10 | Discord 24alpha3
+
+Kraxman33#4644 - Bug Bot on 2020-05-28T20:04:00.635Z
+
+
+### Can reproduce.
+Huawei P20 Android 9, Discord Alpha25-1 (1151)
+
+No Username Idea#2802 - Bug Bot on 2020-06-04T22:29:14.471Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jeff Cailteux on 2020-06-25T17:18:14.075Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,90 @@
+[Archived] [macOS SPECIFIC] Clicking a notification whilst watching a linked twitter video embed in fullscreen will DESTROY the client. (https://trello.com/c/u2aGPzov)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-06-19T10:42:06.954Z
+Latest Update: 2019-01-11T00:00:16.128Z
+
+Reported by Ghostly#0001
+
+####Steps to reproduce:
+- Open a twitter video embed from a twitter link into fullscreen 
+- Have someone ping you in another channel or DM 
+- Click the notification 
+- Mess with your client
+
+####Expected result:
+You see the ping you were sent and cringe as its a random @ everyone.
+####Actual result:
+Discord greys out mostly, if not completely greyed out, with most things disabled. You can navigate through the quickswitcher
+####Client settings:
+Discord Canary 0.0.193, Build Number: 17191.
+####System settings:
+MacBook Air Early 2015, MacOS High Sierra 10.13.4
+
+14333
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-19T10:42:06.954Z
+
+
+### Ghostly#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b28ddfef5d4ddf2f6497b88/c004f8c36c7f35d0cf9f3152b85e3fc4/wjh2ue.png added by Bug Bot on 2018-06-19T10:42:10.454Z
+
+
+### Ghostly#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b28ddfef5d4ddf2f6497b88/4feeb8e6f1e358bcb3bf77bb102acc34/25cx1c.png added by Bug Bot on 2018-06-19T10:42:10.897Z
+
+
+### Ghostly#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b28ddfef5d4ddf2f6497b88/5e0dd4a8ba61715293e8d40e9de5b5ed/mrm21n.png added by Bug Bot on 2018-06-19T10:42:12.230Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.5 - Canary Build 17212
+
+mrkirby153#7840 - Bug Bot on 2018-06-19T10:42:14.905Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.5, Canary Build 17212
+
+Pascal#0929 - Bug Bot on 2018-06-19T10:42:19.900Z
+
+
+### Can reproduce.
+Macbook Pro 13" (2017 with Touchbar), macOS macOS High Sierra - Version 10.13.4 - Canary Build 17212
+
+CustomName#9999 - Bug Bot on 2018-06-19T10:42:24.952Z
+
+
+### The following items will break: scrolling, the pins list, the mentions list, you can only navigate through the quick switcher, message sending becomes limited(not sure because the text box just jumps up and down), you can close and open a non-existent members list with ctrl/cmd u. User settings are unaffected though.
+
+Ghostly#0001 - Bug Bot on 2018-06-19T10:47:39.091Z
+
+
+### This appears to be an extension of https://trello.com/c/KogtOvew judging by the mimicking affects of the bug causing sections of your client to grey out. Just another method of getting out of the video by means other than the intended fullscreen button.
+
+Ene#0808 - Bug Bot on 2018-06-19T19:16:57.844Z
+
+
+### Verified. macos 10.12.6, canary 17216 - Clayton on 2018-06-19T20:35:27.676Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-19T20:35:37.892Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 24925
+
+Mippy#0001 - Bug Bot on 2018-09-28T12:53:31.715Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:16.131Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

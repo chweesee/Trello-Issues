@@ -1,0 +1,121 @@
+Refreshing Discord without internet leads to a "softlock" blank screen and will not reconnect (https://trello.com/c/9Bx5Ijbl)
+
+None
+
+Created: 2019-07-08T10:24:24.586Z
+Latest Update: 2020-07-16T21:26:04.408Z
+
+Reported by Jman005#7755
+
+####Steps to reproduce:
+- Open Discord. 
+- After it loads, disable your internet completely. 
+- Press CTRL+R (or the equivalent of your device) to refresh Discord.  
+- Reconnect to the internet.
+
+####Expected result:
+While without internet, a "connecting" screen should be present and after internet is enabled, Discord should reload.
+####Actual result:
+A blank screen appears which forces you to restart Discord.
+####Client settings:
+Release Channel: stable, Build Number: 40795
+####System settings:
+Windows 10 1709
+
+39274
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-08T10:24:24.586Z
+
+
+### Can reproduce.
+CR, Windows 10 Home, x64, Ver. 1903, Discord Stable 40795
+
+CominAtYou#2626 - Bug Bot on 2019-07-08T10:24:32.276Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) Canary 40795
+
+myacorn#6534 - Bug Bot on 2019-07-08T10:24:37.314Z
+
+
+### Can reproduce.
+Windows 10 PRO X64, Canary; build number 40789.
+
+darwan#2946 - Bug Bot on 2019-07-08T10:24:42.277Z
+
+
+### Can reproduce.
+MacBook Air Early 2015 on macOS Mojave 10.14.2, Canary 40795
+
+Brightness™#2238 - Bug Bot on 2019-07-08T11:13:13.996Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40795
+
+Lily#2624 - Bug Bot on 2019-07-08T11:48:10.884Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number: 40795
+
+AHkhan#0009 - Bug Bot on 2019-07-08T11:51:41.520Z
+
+
+### Can reproduce.
+Canary 40795, Host 0.0.246, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-08T18:12:56.174Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 40795
+
+charleskimbac#6492 - Bug Bot on 2019-07-08T18:33:41.835Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary 40795, This is also not exclusive to a manual reload, with an intermittent connection it may just happen on its own when reconnecting, breaking the client.
+
+kabii#0001 - Bug Bot on 2019-07-08T22:31:42.225Z
+
+
+### Can reproduce.
+Dell Inspiron Windows 10 Home & Student, Host 0.0.246, Canary Build 40794
+
+binchlord#0998 - Bug Bot on 2019-07-09T01:08:29.617Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, v1903 - Canary 40824
+
+Nicholas#4669 - Bug Bot on 2019-07-09T02:11:38.042Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40824
+
+Xylium#5800 - Bug Bot on 2019-07-09T11:26:20.081Z
+
+
+### Can reproduce.
+Windows 10 Enterprise 1803 x64, Canary 41257
+
+MiTonder#0001 - Bug Bot on 2019-07-16T22:45:29.393Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 41300 (Host 0.0.247
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-17T16:58:57.793Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

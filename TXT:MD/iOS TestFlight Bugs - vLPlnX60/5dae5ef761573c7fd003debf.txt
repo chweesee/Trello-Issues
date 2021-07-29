@@ -1,0 +1,99 @@
+Tapping view server on a followed webhook which has posted some stuff already makes that you still see the same channel (of your own or other server) even though u are viewing the server (https://trello.com/c/irfBODZI)
+
+None
+
+Created: 2019-10-22T01:44:23.695Z
+Latest Update: 2020-03-09T23:10:51.255Z
+
+Reported by Xylium#5800
+
+####Steps to reproduce:
+- Open discord 
+- Go to a server that followed news channels 
+- Make sure it has posted news from other servers 
+- Tap on the webhook name or profile 
+- Press view server 
+- Observe
+
+####Expected result:
+you should see the correct channel
+####Actual result:
+You see your own channel rather then the news channel your are viewing it from
+####Client settings:
+Testflight 3.1.6 (17811)
+####System settings:
+iPhone 11, iOS 13.2 (dev beta 3)
+
+45998
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-22T01:44:23.695Z
+
+
+### Xylium#5800 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5dae5ef761573c7fd003debf/20370762c10694ecf44b71e5c268a0b1/image0.png added by Bug Bot on 2019-10-22T01:44:27.101Z
+
+
+### Xylium#5800 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5dae5ef761573c7fd003debf/57ec4988c64628c76a7a25021b6e2c98/image1.png added by Bug Bot on 2019-10-22T01:44:27.296Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 13.1.3, TestFlight 3.1.6 (17811)
+
+RexTheMon#0016 - Bug Bot on 2019-10-22T01:44:31.328Z
+
+
+### Can reproduce.
+CR - Can Reproduce - iOS 13.1.3 - iPhone 6s - Testflight 3.1.6 (17811)
+
+Jedi3 Café Manager#0001 - Bug Bot on 2019-10-22T01:44:36.251Z
+
+
+### Can reproduce.
+Can reproduce - iPhone XS (iOS 13.1.2), TestFlight Build 3.1.6 (17811)
+
+kiosion#0001 - Bug Bot on 2019-10-22T01:44:41.247Z
+
+
+### Can reproduce.
+Can reproduce - 13.1.2 3.1.6 (17811)
+
+mario#9999 - Bug Bot on 2019-10-22T01:50:38.532Z
+
+
+### Can reproduce.
+iPhone 6s (13.1.2), TestFlight 3.1.6 (17811)
+
+mario#9999 - Bug Bot on 2019-10-22T01:52:14.438Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.3; TestFlight 3.1.6 (17811)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-23T00:40:40.954Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.1.3 TestFlight 3.1.6 (17811)
+
+binchlord#0998 - Bug Bot on 2019-10-23T01:20:57.460Z
+
+
+### Moved from New Issues to Webhook Profile by Jonathan Wu on 2019-10-23T19:43:02.041Z
+
+
+### Can reproduce.
+Can repro - Notes: If I "view server" on a news post that is from a server I am in I see that server and view it correctly. Was able to repro under the condition that I was not in the server the news channel was from. - iPhone 7, iOS 13.1.3, Testflight 3.1.6 (17811)
+
+Cerberus#0005 - Bug Bot on 2019-10-25T05:12:57.823Z
+
+
+### Moved from Webhook Profile to Random Polish Items by Fanghao on 2020-01-30T00:30:59.244Z
+
+List
+====
+Random Polish Items
+
+Members
+=======
+None

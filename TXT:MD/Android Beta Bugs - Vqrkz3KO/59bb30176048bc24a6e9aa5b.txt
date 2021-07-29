@@ -1,0 +1,98 @@
+[Archived] Delete category confirmation doesn't close (https://trello.com/c/9jNWtajs)
+
+P1 - Severe
+
+Created: 2017-09-15T01:42:47.765Z
+Latest Update: 2017-12-02T16:20:32.504Z
+
+Reported by Zollak#4578
+
+####Steps to reproduce:
+- Create a category 
+- Create a channel in that category 
+- Go to category settings 
+- Choose delete the category 
+- Confirm
+
+####Expected result:
+The category gets deleted and the dialog closes.
+####Actual result:
+A toast confirms the deletion but the dialog stays open. You can click delete again and get an error.
+####Client settings:
+Android Alpha 5.1.5
+####System settings:
+Google Pixel, 8.0.0
+
+4305
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-15T01:42:47.765Z
+
+
+### Xander#0259 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/59bb30176048bc24a6e9aa5b/0a130d5f86a60964c45332ceddd74c13/Screenshot_20170914-211053.png added by Bug Bot on 2017-09-15T01:42:50.398Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 5.1.5; I received an "unknown channel" error as well.
+
+Xander#0259 - Bug Bot on 2017-09-15T01:42:55.271Z
+
+
+### Can reproduce.
+Android​ 5.1 Discord 5.1.5
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-09-15T01:43:00.219Z
+
+
+### Can reproduce.
+Samsung Galaxy S2 (sgh-t989) running LineageOS 14.1 (7.1.2)  with Discord Alpha 5.1.4 (514)
+
+Rauf I.#3260 - Bug Bot on 2017-09-15T01:43:05.228Z
+
+
+### Can reproduce.
+Discord Alpha 5.1.6, Android Marshmallow 6.0 on Huawei P8 Lite (2015)
+
+RisedSky#1250 - Bug Bot on 2017-09-15T10:32:02.777Z
+
+
+### Moved from User Reported Bugs to Channel Category Bugs by Jeff Cailteux on 2017-09-15T17:04:38.281Z
+
+
+### Moved from Channel Category Bugs to Fix made, not yet released by Jeff Cailteux on 2017-09-15T17:33:16.619Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Jeff Cailteux on 2017-09-18T16:30:15.935Z
+
+
+### Tested on discord beta 5.2.6:
+
+I can still reproduce this.
+
+Creating a category with a channel in it and then trying to delete it will keep the confirm dialog open. After clicking on Delete again it'll just throw "Unknown Channel". - Alexander (DJScias) on 2017-09-23T11:30:45.763Z
+
+
+### I cannot reproduce this. I'm marking as Verified Fixed until/unless DJ gets back to me. - Jared on 2017-10-02T21:07:50.754Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Jared on 2017-10-02T21:07:55.398Z
+
+
+### I can still reproduce this in the latest alpha (5.2.7).
+
+I've sent @jared627 a DM on Discord with the steps that made me able to still reproduce it. - Alexander (DJScias) on 2017-10-04T07:11:28.212Z
+
+
+### Archiving this card because it's been in the Fixed Bugs list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T16:20:31.284Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T16:20:32.506Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+Unknown User (https://trello.com/jeffcailteux2) - No Bio

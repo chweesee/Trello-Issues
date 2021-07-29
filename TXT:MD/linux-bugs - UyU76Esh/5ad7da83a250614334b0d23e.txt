@@ -1,0 +1,89 @@
+unfocusing the text box and pressign the 'Delete' key will insert the delete control character into the text box (https://trello.com/c/iVBcTTiQ)
+
+None
+
+Created: 2018-04-18T23:53:39.308Z
+Latest Update: 2018-05-23T18:52:55.980Z
+
+Reported by Alex from Alaska#2020
+
+####Steps to reproduce:
+- unfocus the text box(click on a message) 
+- hit the delete key
+
+####Expected result:
+nothing should happen
+####Actual result:
+the delete control character appears in the text box
+####Client settings:
+linux 0.45 canary build 13854
+####System settings:
+Arch linux, KDE
+
+10922
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-18T23:53:39.308Z
+
+
+### Can reproduce.
+Linux Mint 18.3 Cinnamon x64, Discord Canary Build 13854
+
+fluffycq#6938 - Bug Bot on 2018-04-18T23:53:46.655Z
+
+
+### Can reproduce.
+Discord Canary 0.0.45 build 13854 openSUSE Tumbleweed 20180416
+
+simonizor#0420 - Bug Bot on 2018-04-18T23:53:51.653Z
+
+
+### Can reproduce.
+Can Reproduce, Arch Linux x64, Kernel 4.15.15-1, Discord Canary (Build 13854)
+
+Doges#0001 - Bug Bot on 2018-04-18T23:53:56.692Z
+
+
+### Can reproduce.
+Linux Mint cinnamon 18.3 Sylvia x86_64, kernel 4.10.0-38-generic
+
+Phaze#2317 - Bug Bot on 2018-04-19T13:07:12.501Z
+
+
+### Can reproduce.
+Ubuntu MATE 17.10.1, Latest Discord Stable
+
+VitalKanev#2348 - Bug Bot on 2018-04-20T18:15:03.138Z
+
+
+### Can reproduce.
+Ubuntu Studio 18.04 (amd64) - Canary 14334 - Kernel 4.15.0-20-lowlatency
+
+Perseus Elizabeth Kane#3217 - Bug Bot on 2018-04-30T19:52:49.371Z
+
+
+### Moved to claimed fixed because https://trello.com/c/Hhxhhl4M/ was the same root issue, and same fix. I ask people over at Discord Linux and they couldn't repro anymore. - Tarek on 2018-05-15T04:21:07.565Z
+
+
+### Moved from User Reported to Claimed Fixed by Tarek on 2018-05-15T04:21:14.600Z
+
+
+### Can reproduce.
+Discord Linux Canary 0.0.49 (Build 15290) Debian Stretch, Gnome 3.22
+
+Robin#0610 - Bug Bot on 2018-05-15T21:25:13.047Z
+
+
+### Can't reproduce.
+Can no longer reproduce, Pressing Delete now just focuses the message box as it would be supposed to. Discord Linux Canary 0.0.51 (Build 15919) Debian Stretch, Gnome 3.22
+
+Robin#0610 - Bug Bot on 2018-05-23T18:52:55.982Z
+
+List
+====
+Claimed Fixed
+
+Members
+=======
+None

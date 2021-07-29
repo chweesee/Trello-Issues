@@ -1,0 +1,75 @@
+[Archived] Empty unread channels section shown for Quick Switcher when getting mentioned (https://trello.com/c/fOFCVRiZ)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-19T17:21:33.691Z
+Latest Update: 2018-10-22T20:20:56.417Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Get mentioned in any server 
+- Make sure there are no other unread channels in this server 
+- Open the server where you got mentioned 
+- Also make sure the channel where you got mentioned isn't your last channel 
+- Open the Quick Switcher 
+- Observe the unread channel section there
+
+####Expected result:
+Unread channels shouldn't be shown or should show the channel where you got mentioned.
+####Actual result:
+Unread channels section will be shown but is empty.
+####Client settings:
+Discord Canary 0.0.191 (Build 15598)
+####System settings:
+MacBook Pro 13" (2016), macOS High Sierra 10.13.4
+
+13033
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-19T17:21:33.691Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b005d1d948f2464474bf1e5/1fb5e9e537df3d3bb33169d5a349fb66/4wMlWdT.png added by Bug Bot on 2018-05-19T17:21:36.214Z
+
+
+### Can reproduce.
+CR. Windows 10 1803, Firefox Developer Edition 61.0b5. You must be in a server with no unreads other than the channel with the mention to reproduce.
+
+lego#8917 - Bug Bot on 2018-05-19T17:21:41.465Z
+
+
+### Can reproduce.
+Discord Canary 0.0.209, Build 15598, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-05-19T17:21:46.150Z
+
+
+### Can reproduce.
+Discord Canary 15598, Windows 10 Home x64 build 1709
+
+CMDJojo#4230 - Bug Bot on 2018-05-19T17:21:51.119Z
+
+
+### Possibly has the same root cause of https://trello.com/c/qVzTGEh8
+
+Ene#0808 - Bug Bot on 2018-05-19T17:28:13.945Z
+
+
+### Verified, MacOS 10.12.6, Canary 15701 - Clayton on 2018-05-21T21:16:26.217Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T21:16:33.819Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:56.420Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

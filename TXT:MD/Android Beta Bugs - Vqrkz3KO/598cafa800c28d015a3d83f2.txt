@@ -1,0 +1,78 @@
+[Archived] Changing display orientation when editing a voice channel's settings resets bitrate and user limit (https://trello.com/c/20nSMgLm)
+
+P2 - Can wait a while
+
+Created: 2017-08-10T19:10:32.975Z
+Latest Update: 2019-06-05T23:46:01.839Z
+
+Reported by Curse Broken#8659
+
+####Steps to reproduce:
+- Go to a voice channel that you have the "Manage Channels" permission for 
+- Modify the bitrate and user limit by dragging the sliders to the left/right 
+- Switch to landscape mode (or to portrait mode if you are in landscape) 
+- Notice that the bitrate and user limit were reset
+
+####Expected result:
+The bitrate and user limit shouldn't reset when changing display orientation
+####Actual result:
+The bitrate and user limit reset when changing display orientation
+####Client settings:
+Discord Alpha 4.0.4 (404)
+####System settings:
+Samsung Galaxy S7 edge (SM-G935F), Android Nougat 7.0
+
+3022
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-10T19:10:32.975Z
+
+
+### Curse Broken#8659 - https://youtu.be/zzH2J0hAI1o added by Bug Bot on 2017-08-10T19:10:35.636Z
+
+
+### Can reproduce.
+CR Samsung Galaxy S6, 7.0, 4.0.4
+
+Xander#0259 - Bug Bot on 2017-08-10T19:10:40.393Z
+
+
+### Can reproduce.
+CR - 4.0.4(404) - HTC Desire 526 5.1
+
+Nyadeelif (Nyad)#8930 - Bug Bot on 2017-08-10T19:10:45.369Z
+
+
+### Can reproduce.
+-@
+
+Symplyfyed#4913 - Bug Bot on 2017-08-10T19:10:50.454Z
+
+
+### The name of the voice channel is affected by this issue as well.
+
+Curse Broken#8659 - Bug Bot on 2017-08-10T19:12:03.815Z
+
+
+### Can reproduce.
+(I typed "@" accidentally previously. Sorry) | Discord Android Alpha 4.0.4, Android KitKat 4.4.4, Tablet Allview VivaH8LTE
+
+Symplyfyed#4913 - Bug Bot on 2017-08-10T19:12:21.022Z
+
+
+### Verified.  - Clayton on 2017-08-11T00:45:42.609Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-08-11T00:45:47.292Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:01.853Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

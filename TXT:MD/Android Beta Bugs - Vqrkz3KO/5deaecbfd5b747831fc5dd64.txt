@@ -1,0 +1,120 @@
+[Archived] Copying text from a website that is wrapped in a centered h1 tag and pasting it in Discord causes the cursor and all text you type to be centered (https://trello.com/c/oH9iWB4I)
+
+None
+
+Created: 2019-12-07T00:05:20.105Z
+Latest Update: 2020-02-20T21:32:07.889Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open a web page that has text wrapped in a `<h1 style="text-align: center;">` HTML tag 
+- Copy the text that is inside the tag 
+- Paste it in Discord in the message box
+
+####Expected result:
+It should paste text properly
+####Actual result:
+The centered property is carried over the textbox, causing all text you paste/type to be centered. Removing pasted text dorsn't fix it, you need to switch channel and switch back to remove the centered effect. A workaround to avoid this is to paste text as raw
+####Client settings:
+Discord version 9.9.4
+####System settings:
+Huawei Mate 9 Android 9.0
+
+49400
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-07T00:05:20.105Z
+
+
+### Alex1304#9704 - https://cdn.discordapp.com/attachments/420995378582913030/651472470930358272/SVID_20191203_181629_1.mp4?t=.gif added by Bug Bot on 2019-12-07T00:05:22.735Z
+
+
+### Can reproduce.
+Honor 8X, Android 9, Discord 994
+
+leaf#0001 - Bug Bot on 2019-12-07T00:05:27.625Z
+
+
+### Can reproduce.
+[CR], D996, Samsung S10+, Android 9, OneUI 1.1
+
+Stig124#1591 - Bug Bot on 2019-12-07T00:05:32.625Z
+
+
+### Can reproduce.
+CR, Moto G7 Power, Android 9, V1000
+
+Dalevine1024#3388 - Bug Bot on 2019-12-07T00:05:37.636Z
+
+
+### Can reproduce.
+Samsung Galaxy J2 Core, Android 8.1 Go, Discord v1000
+
+davipatricio#1549 - Bug Bot on 2019-12-07T01:41:36.263Z
+
+
+### Can reproduce.
+CR Discord 998, Redmi Note 4, Android 7
+
+Rohit#3523 - Bug Bot on 2019-12-07T05:46:15.761Z
+
+
+### Can reproduce.
+Huawei Honor 8 Pro, Android 9, Alpha 1000
+
+Niko#8828 - Bug Bot on 2019-12-07T06:50:39.901Z
+
+
+### Can reproduce.
+CR, LG M250, Android 7.0, Discord 1.0.0.0
+
+Santasty#6012 - Bug Bot on 2019-12-07T09:29:02.946Z
+
+
+### Can reproduce.
+HTC U12+, Android 9.0 - Alpha 10.0.1
+
+anonymous kitten#5379 - Bug Bot on 2019-12-07T14:34:01.188Z
+
+
+### Can reproduce.
+the input text keep text centred, Samsung J7 2016, 8.1.0
+
+Rana#1137 - Bug Bot on 2019-12-08T16:06:26.633Z
+
+
+### Can reproduce.
+cr, the input text keep text centred, Samsung J7 2016, 8.1.0
+
+Rana#1137 - Bug Bot on 2019-12-08T16:08:27.682Z
+
+
+### Can reproduce.
+cr, the input text keep text centred, Samsung J7 2016, 8.1.0
+
+Rana#1137 - Bug Bot on 2019-12-08T16:11:30.747Z
+
+
+### Can reproduce.
+cr, the input text keep text centred, Samsung J7 2016, 8.1.0, Discord 995
+
+Rana#1137 - Bug Bot on 2019-12-08T16:12:59.056Z
+
+
+### Can reproduce.
+[CR] Samsung Galaxy J5 Prime, Android 8.0, Discord Version 1001
+
+TheFutureKnight#3009 - Bug Bot on 2019-12-08T19:06:20.781Z
+
+
+### Archived by Bug Bot on 2020-02-20T21:32:07.901Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

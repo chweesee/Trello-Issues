@@ -1,0 +1,87 @@
+(Possibly iPadOS 13+ Specific) Using Slide Over with Discord in another app causes keyboard to cut off the message box (https://trello.com/c/UImKWsWx)
+
+P2 - Can wait a while,
+low
+
+Created: 2019-10-07T12:07:29.135Z
+Latest Update: 2020-04-23T21:21:20.607Z
+
+Reported by Ayu#0001
+
+####Steps to reproduce:
+- Open another app that is not Discord 
+- Swipe up from the bottom slightly to open recent apps 
+- Hold down Discord until you can drag it, then drag it into the center of your screen and let go 
+- At this point, Discord should be open with the other app in the background. Go to a channel, and open your keyboard to type a message 
+- Observe the message input box
+
+####Expected result:
+Discord should push the input box above the keyboard
+####Actual result:
+The input box does not get pushed up above the keyboard and gets slightly cut off by the keyboard
+####Client settings:
+TestFlight 3.1.4 (17575)
+####System settings:
+iPad Pro 11" (3rd Gen) on iPadOS 13.1.2
+
+45255
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-07T12:07:29.135Z
+
+
+### Ayu#0001 - https://youtu.be/Nf1ejxmxO34 added by Bug Bot on 2019-10-07T12:07:31.861Z
+
+
+### Can reproduce.
+CR, iPad Pro 12.9 (iPadOS 13.1.2), Testflight (17575)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-07T12:07:36.800Z
+
+
+### Can reproduce.
+CR iPad Air iPadOS 13.1.2 TestFlight 3.1.4 (17575)
+
+binchlord#0998 - Bug Bot on 2019-10-07T12:07:41.879Z
+
+
+### Can reproduce.
+iPad Pro (11-inch), iPadOS 13.1.2 - TestFlight 3.1.4 (17575)
+
+Pascal#0929 - Bug Bot on 2019-10-07T12:07:46.769Z
+
+
+### Can reproduce.
+iPad Pro 10" 2017 - iPadOS 13.1.2 - Testflight 3.1.4 (17575)
+
+Frances Picard#6209 - Bug Bot on 2019-10-08T00:10:22.262Z
+
+
+### Can reproduce.
+iPad Pro 12.9in, iPad OS 13.1.2, Stable 3.1.4
+
+KindleTune#8570 - Bug Bot on 2019-10-08T10:04:44.505Z
+
+
+### Can reproduce.
+iPad Pro (11-inch), iPadOS 13.1.2, TestFlight  3.1.5 (17627)
+
+njok#3581 - Bug Bot on 2019-10-12T11:59:26.696Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-18T19:00:12.023Z
+
+
+### Can reproduce.
+iPad 7: iPadOS 13.4.1; TestFlight 19.0 (19670)
+
+Jiralite#1207 - Bug Bot on 2020-04-23T21:21:20.618Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

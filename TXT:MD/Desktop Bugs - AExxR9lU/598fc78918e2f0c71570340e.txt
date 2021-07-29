@@ -1,0 +1,66 @@
+[Archived] New messages bar stops after 500+ (https://trello.com/c/d669vlrI)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-13T03:29:13.590Z
+Latest Update: 2018-10-22T20:15:08.852Z
+
+Reported by Killer Miller#1914
+
+####Steps to reproduce:
+- find a channel with 550+ unread messages (the higher the better) 
+- start scrolling up 
+- look at number of new messages
+
+####Expected result:
+The new messages number should continue going upwards
+####Actual result:
+after 500+ new messages it loops to 400+ then 450+ then 500+ continuously
+####Client settings:
+Canary 0.0163 and Stable 0..0298
+####System settings:
+Windows 10 home x64
+
+3138
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-13T03:29:13.590Z
+
+
+### Can reproduce.
+stops incrementing between 400+ and 475+ here - Windows 10 Pro x64 Build 1607, Discord Canary 0.0.163
+
+Chester#2084 - Bug Bot on 2017-08-13T03:29:21.402Z
+
+
+### Can reproduce.
+Fedora 26, Gnome 3, Discord Canary 0.0.24, Stops incrementing at 400
+
+hanss314#0128 - Bug Bot on 2017-08-13T03:29:26.362Z
+
+
+### Can reproduce.
+tested in the hypesquad server, but it stopped at 400 and didnt go up | Discord Canary 0.0.163 on Win 10 x64 (Creators Update)
+
+Rauf#3260 - Bug Bot on 2017-08-13T03:29:31.326Z
+
+
+### Verified, low low priority. - Jared on 2017-08-14T19:04:16.820Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-08-14T19:04:23.850Z
+
+
+### 54D#1357 - https://youtu.be/WqcjyAqKns8 added by Bug Bot on 2018-07-15T09:59:47.721Z
+
+
+### Archived by Clayton on 2018-10-22T20:15:08.855Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

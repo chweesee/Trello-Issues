@@ -1,0 +1,82 @@
+[Archived] clicking quickly on the retry button creates multiple "failed attachment" popups [might need a few attempts to repro] (https://trello.com/c/aLEmRkym)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-21T14:12:14.315Z
+Latest Update: 2019-01-11T00:01:17.639Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- getting the "failed attachment popup" (for example by lossing the permission to attach while sending an attachement 
+- click "retry" with about 7-8 clicks per second for roughly 10 seconds 
+- observe result
+
+####Expected result:
+only one popup should be created
+####Actual result:
+(depends on how fast and long u've clicked) it created 2 or even more popups
+####Client settings:
+Canary 26655
+####System settings:
+Windows 10 Pro x64
+
+21823
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-21T14:12:14.315Z
+
+
+### Can reproduce.
+Windows 10 Pro x64,Canary 26655, {CR}
+
+Outbøob#6666 - Bug Bot on 2018-10-21T14:12:21.683Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 26655
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-21T14:12:26.713Z
+
+
+### Can reproduce.
+Can Reproduce; MacOS Mojave, Version 10.14; Discord Canary, Build 26655;
+
+S6out#1111 - Bug Bot on 2018-10-21T14:12:31.704Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26655
+
+Hole#0001 - Bug Bot on 2018-10-22T07:03:35.781Z
+
+
+### verified.  - Clayton on 2018-10-22T19:32:10.381Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-22T19:32:16.789Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26655
+
+Neiron#7777 - Bug Bot on 2018-10-22T19:35:38.052Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - v1803, Canary 26655
+
+Solo#0007 - Bug Bot on 2018-10-22T19:57:42.265Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:01:17.641Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

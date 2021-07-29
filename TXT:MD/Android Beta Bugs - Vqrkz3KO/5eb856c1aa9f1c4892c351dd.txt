@@ -1,0 +1,90 @@
+When a message with a gif/gifv preview is updated, the embedded image can get shifted up within the preview frame (https://trello.com/c/8jkKm5Eu)
+
+None
+
+Created: 2020-05-10T19:32:18.139Z
+Latest Update: 2020-05-12T19:03:18.173Z
+
+Reported by wakfi#6999
+
+####Steps to reproduce:
+- Send a link to a gifv in a text channel  
+- Add a reaction to it, and then add another reaction to it  
+- Remove one of the reactions
+
+####Expected result:
+The reaction should be removed and the image should stay in its frame after the message updates
+####Actual result:
+The image gets shifted up. If there is another gifv embedded directly above it, the first one may intrude into it
+####Client settings:
+Discord 21.2 (1131)
+####System settings:
+Moto G7, Android 9
+
+55799
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-10T19:32:18.139Z
+
+
+### wakfi#6999 - https://youtu.be/PXcs3ewp5tA added by Bug Bot on 2020-05-10T19:32:20.742Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy S7, Android 8.0.0, Discord 21.2 (1131)
+
+Bryth#1086 - Bug Bot on 2020-05-10T19:32:25.773Z
+
+
+### Can reproduce.
+[CR] Samsung A10 - Android 9 - Discord 22-Alpha1 (1132)
+
+Cookie#3165 - Bug Bot on 2020-05-10T19:32:30.719Z
+
+
+### Can reproduce.
+CR // Y9s, Android 10, Discord 21.2
+
+Zynb#2984 - Bug Bot on 2020-05-10T19:32:35.718Z
+
+
+### Can reproduce.
+Samsung s7, Android 8.0, Discord 21.2 (1131)
+
+Caterpy#9642 - Bug Bot on 2020-05-11T09:35:58.752Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by shidong.lin on 2020-05-12T18:27:58.761Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Donald Chen on 2020-05-12T18:29:24.676Z
+
+
+### This should be fixed in app version names v22 and higher. - Donald Chen on 2020-05-12T18:29:59.849Z
+
+
+### Can't reproduce.
+Moto G7, Android 9, Discord 22.0 (1135)
+
+wakfi#6999 - Bug Bot on 2020-05-12T18:30:10.169Z
+
+
+### Can't reproduce.
+CNLR, Motorola G7 Android 9, Discord 22.0(1135)
+
+CodeWritten#4044 - Bug Bot on 2020-05-12T19:00:54.772Z
+
+
+### Can't reproduce.
+[CNLR] Samsung A10 - Android 9 - Discord 22.0 (1135)
+
+Cookie#3165 - Bug Bot on 2020-05-12T19:03:17.767Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

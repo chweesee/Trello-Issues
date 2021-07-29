@@ -1,0 +1,91 @@
+Left clicking updater window hides it (https://trello.com/c/JXWCMr2W)
+
+P2: Can wait awhile,
+mid
+
+Created: 2017-12-16T23:34:43.607Z
+Latest Update: 2018-01-13T09:58:50.552Z
+
+Reported by Xiazee#7377
+
+####Steps to reproduce:
+- Be on an older version 
+- Start discord 
+- Left click anywhere on the updater dialog that pops up
+
+####Expected result:
+Should let you use the dropdown and click the button
+####Actual result:
+The window disappears when left clicked. It's still possible to bring the window back from task manager. Issue does not happen when clicking with middle mouse button, which lets you press the buttons on Kubuntu atleast.
+####Client settings:
+When updating to 0.0.3, both from 0.0.1 and 0.0.2
+####System settings:
+Kubuntu 17.10 (Heard it's also present on KDE Mint)
+
+6957
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-16T23:34:43.607Z
+
+
+### Can reproduce.
+CR, Kubuntu 17.10/Linux 4.13, update from canary 0.0.34 to 0.0.35 -- Seems like this bug is KDE only
+
+Starshine Dust#2189 - Bug Bot on 2017-12-16T23:34:50.878Z
+
+
+### Can reproduce.
+CR, Kubuntu 17.10
+
+kiroma#1608 - Bug Bot on 2017-12-16T23:34:55.886Z
+
+
+### Can reproduce.
+CR, Kubuntu 17.10 KDE
+
+RadioactiveHydra#2570 - Bug Bot on 2017-12-16T23:35:00.903Z
+
+
+### Can reproduce.
+Canary .34->35 Opensuse tumbleweed KDE -- holding RMB does allow some manipulation.
+
+moozaad#2603 - Bug Bot on 2017-12-17T09:33:56.630Z
+
+
+### Can reproduce.
+Canary and Stable, Arch with KDE Plasma 5, Linux 4.14 -- would agree with Starshine Dust
+
+bloor#1988 - Bug Bot on 2017-12-19T00:14:26.532Z
+
+
+### Can reproduce.
+Canary, Arch Linux + KDE Plasma 5
+
+Bytewave#4055 - Bug Bot on 2017-12-19T01:32:20.209Z
+
+
+### Archived by Clayton on 2018-01-09T23:50:48.589Z
+
+
+### Unarchived by Clayton on 2018-01-09T23:50:55.910Z
+
+
+### Cannot reproduce.  - Clayton on 2018-01-09T23:50:57.865Z
+
+
+### Moved from User Reported to Cannot Reproduce. by Clayton on 2018-01-09T23:51:03.037Z
+
+
+### Can reproduce.
+Mint 18.2, KDE Plasma 5.8.8, Linux 4.8.0-53-generic amd64 -- Still happens when updating from 0.0.3 to 0.0.4
+
+outfrost#5543 - Bug Bot on 2018-01-13T09:58:50.554Z
+
+List
+====
+Cannot Reproduce.
+
+Members
+=======
+None

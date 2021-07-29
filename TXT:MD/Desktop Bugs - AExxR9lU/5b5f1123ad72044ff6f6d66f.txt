@@ -1,0 +1,70 @@
+[Archived] [Website bug] discordapp.com/developers/applications/[YOURAPPID]/rich-presence/settings You can submit an empty “Ask to join” submission, same goes for Spectate https://i.imgur.com/7Va3HIY.png (https://trello.com/c/xVdUMKSM)
+
+None
+
+Created: 2018-07-30T13:22:43.528Z
+Latest Update: 2019-01-01T15:56:21.455Z
+
+Reported by Jiiro#1337
+
+####Steps to reproduce:
+- Make an app 
+- Go to [YOURAPPID]/rich-presence/settings and replacd [YOURAPPID] to your App's client ID 
+- Just connect via Simple Presence, that's what I did, connect it if you can, if you don't know how to, leave it up for someone else to approve 
+- Don't put anything in the boxes and submit it
+
+####Expected result:
+Spectate and Ask To Join should disable you from submitting nothing and for you to wait
+####Actual result:
+you can submit something empty in those boxes and have to wait to get submitted
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 20174
+####System settings:
+Windows 10 Pro x64 1803
+
+16382
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-30T13:22:43.528Z
+
+
+### Can reproduce.
+Can reproduce, macOS 10.13.5, MacBook Pro 2016 13inch, Canary 20174, Chrome v67. Approval team, please deny my RPC request xD
+
+-Shadow-#6754 - Bug Bot on 2018-07-30T13:22:51.462Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 April 2018 Update x64, Firefox v61.0.1
+
+TTtie#4900 - Bug Bot on 2018-07-30T13:22:57.172Z
+
+
+### Can reproduce.
+Windows 10 Version 1803, x64 - Discord Canary 20174 and Google Chrome Version 68.0.3440.75 (Official Build) (64-bit)
+
+Homie PinkGuy#1386 - Bug Bot on 2018-07-30T13:23:01.321Z
+
+
+### Moved from User Reported Bugs to Website Bugs by Jared on 2018-07-30T14:45:24.627Z
+
+
+### Moved from Website Bugs to Claimed Fixed, needs Verification by Mason Sciotti on 2018-08-31T20:55:03.274Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-21T05:12:21.421Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:56:20.857Z
+
+
+### Archived by Tarek on 2019-01-01T15:56:21.457Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

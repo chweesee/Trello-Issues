@@ -1,0 +1,75 @@
+(doesn’t work on X devices) changing callkit settings and rejoining a call displays the wrong call time (https://trello.com/c/WkCKk1aX)
+
+None
+
+Created: 2019-08-24T22:43:16.265Z
+Latest Update: 2019-09-15T14:37:22.503Z
+
+Reported by GlenMerlin#2119
+
+####Steps to reproduce:
+- make or receive a call from another person while having callkit off 
+- leave the call, switch the setting, and rejoin 
+- press the homebutton and see the green bar at the top
+
+####Expected result:
+The greenbar should show the correct amount of time you were/are in the call
+####Actual result:
+it shows return to your call 00:00
+####Client settings:
+iOS testflight 3.1.1 (16958)
+####System settings:
+iPhone 6s iOS 13 (public beta 7)
+
+42723
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-24T22:43:16.265Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 13 Dev Beta 6, TestFlight 3.1.1 (16958)
+
+Jeffrey#1234 - Bug Bot on 2019-08-24T22:43:23.819Z
+
+
+### Can reproduce.
+iphone 5c ios 10.3.3, TestFlight 3.1.1 (16958)
+
+OrangeM24#5746 - Bug Bot on 2019-08-24T22:43:28.885Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.4; Discord TestFlight: 3.1.1 (16958)
+
+Boss#0006 - Bug Bot on 2019-08-24T22:43:33.814Z
+
+
+### Can reproduce.
+CR. iPhone 5c - iOS 10.3.3 - TestFlight 3.1.1 (16958)
+
+Chire#0010 - Bug Bot on 2019-08-25T14:50:46.328Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 12.3.1, TestFlight 3.1.1 (16961)
+
+hypnosis#7992 - Bug Bot on 2019-08-26T12:26:08.015Z
+
+
+### Moved from New Issues to Voice call refresh by Fanghao on 2019-09-03T19:01:13.620Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1 (Dev Beta 3), TestFlight 3.1.2 (17237)
+
+.Gloria.#9606 - Bug Bot on 2019-09-15T14:37:22.517Z
+
+List
+====
+Voice call refresh
+
+Members
+=======
+None

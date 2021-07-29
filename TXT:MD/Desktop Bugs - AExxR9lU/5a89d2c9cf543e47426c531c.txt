@@ -1,0 +1,100 @@
+[Archived] Spotify embed's text draws over the "New Messages Since [...]" bar (https://trello.com/c/vCTZFwtX)
+
+P3: Will get fixed eventually,
+Mid,
+Client side,
+text
+
+Created: 2018-02-18T19:23:53.900Z
+Latest Update: 2019-10-23T23:01:07.761Z
+
+Reported by Chester#2084
+
+####Steps to reproduce:
+- Go in a channel with enough messages to trigger the New Messages notification bar and with a Spotify embed 
+- Scroll around and notice
+
+####Expected result:
+New Messages bar should draw above everything
+####Actual result:
+Spotify embed's text goes over the "New Messages Since [...]" bar
+####Client settings:
+Discord Canary, build number 10878 and Discord stable, build number 10876 on Firefox 58.0.2
+####System settings:
+Win 10 x64
+
+8893
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-18T19:23:53.900Z
+
+
+### Chester#2084 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a89d2c9cf543e47426c531c/a75edca45d39915c3cf80aaa69104ad8/Gtrwfed.png added by Bug Bot on 2018-02-18T19:23:56.996Z
+
+
+### Chester#2084 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a89d2c9cf543e47426c531c/ad1e462705d1e58a269a7cb623c8f0e7/6tKOdrK.png added by Bug Bot on 2018-02-18T19:23:57.003Z
+
+
+### Can reproduce.
+CR, Discord Canary Build 10878, Ubuntu 17.10
+
+Anorak#5830 - Bug Bot on 2018-02-18T19:24:01.850Z
+
+
+### Can reproduce.
+CR Canary 10904 Win10 x64
+
+cutelilberry#5423 - Bug Bot on 2018-02-18T19:24:06.851Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.202, Windows 10 Fall Creator's Update
+
+joaoh1#0123 - Bug Bot on 2018-02-18T19:24:11.873Z
+
+
+### Verified, low priority. - Jared on 2018-02-20T21:05:57.009Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-02-20T21:06:20.380Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64 (1803), Opera Stable 53.0.2907.68
+
+Aethernolt#5954 - Bug Bot on 2018-06-07T03:45:45.575Z
+
+
+### Seems to affect game invite embeds as well as Spotify embeds.
+
+SaltyPotato#0004 - Bug Bot on 2018-07-27T21:39:18.556Z
+
+
+### Archived by Clayton on 2018-10-22T20:18:31.190Z
+
+
+### Can reproduce.
+Canary 27744, Windows 10 Pro 18267
+
+Sylveon#8666 - Bug Bot on 2018-11-09T13:35:58.158Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Canary 38594
+
+Isabel#0002 - Bug Bot on 2019-05-29T08:40:42.421Z
+
+
+### Unarchived by Bug Bot on 2019-05-29T09:00:07.580Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:01:07.776Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

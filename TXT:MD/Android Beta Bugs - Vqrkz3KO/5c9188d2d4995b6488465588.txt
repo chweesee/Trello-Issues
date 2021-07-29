@@ -1,0 +1,97 @@
+[Archived] [Device/OS Specific] When going to the Nitro tab and buying nitro from there after selecting Credit card and add a new payment method, entering wrong details or the details of a declined card causes there to be no error message, you are able to just keep pressing save (in essence, the adding of a card in Nitro tab silently fails.) (https://trello.com/c/ikYU4kcd)
+
+None
+
+Created: 2019-03-20T00:26:58.684Z
+Latest Update: 2019-06-05T23:46:29.110Z
+
+Reported by FoxyKero#6666
+
+####Steps to reproduce:
+- Go to Nitro 
+- Select any plan 
+- Write wrong credit card details or that of a declined card 
+- Press Save 
+- Observe
+
+####Expected result:
+There should be an error message saying "This card was declined" or "The card details were incorrect" or something along those lines
+####Actual result:
+No error message, you are able to keep pressing Save
+####Client settings:
+Alpha 8.5.9 (859)
+####System settings:
+Samsung Galaxy J7 running Android 8.1.0
+
+31304
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-20T00:26:58.684Z
+
+
+### Can reproduce.
+Samsung Galaxy J7 Prime | Android version 7.0 | Alpha 859
+
+charleskimbac#6492 - Bug Bot on 2019-03-20T00:27:06.103Z
+
+
+### Can reproduce.
+CR. Also happens on desktop (desktop one have similar STR than this). Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0.1, Discord Alpha 8.6.0. Chrome 73
+
+Frances Picard#6209 - Bug Bot on 2019-03-20T00:27:11.087Z
+
+
+### Can reproduce.
+Samsung Galaxy S10+ Android 9 , Discord Alpha 8.6.0.
+
+tech_dude1#9855 - Bug Bot on 2019-03-20T00:27:16.031Z
+
+
+### Seems like a dupe of https://trello.com/c/zBoOHxEI/
+
+mrkirby153#7840 - Bug Bot on 2019-03-20T00:33:28.483Z
+
+
+### Can reproduce.
+Honor 6x 7.0 [EMUI 5.0.2] ,alpha 860
+
+fizy#9347 - Bug Bot on 2019-03-20T04:54:59.880Z
+
+
+### Moved from User Reported Bugs to Nitro Purchase Bugs by Jeff Cailteux on 2019-03-20T15:47:00.747Z
+
+
+### Can reproduce.
+CR , Samsung Galaxy Note 8 , Android 8.0.0 , Discord 8.6.1 , Discord Alpha 8.6.0
+
+SportLeader#0001 - Bug Bot on 2019-03-22T08:18:02.510Z
+
+
+### Can't reproduce.
+Advan i5K, Android 6.0, Discord Alpha 8.6.1
+
+FrostingBit#9595 - Bug Bot on 2019-03-22T11:25:08.024Z
+
+
+### Can reproduce.
+Lenovo TB3-701F, 5.0.1, discord 861
+
+Quad#1887 - Bug Bot on 2019-03-26T18:00:53.558Z
+
+
+### looking into whether this was a misstep or intentional for security reasons - Sam Shih on 2019-03-28T00:07:13.854Z
+
+
+### Moved from Nitro Purchase Bugs to Verified Bugs by Jeff Cailteux on 2019-04-09T23:17:24.227Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:46:29.120Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,92 @@
+Discord gets stuck in connecting after ending a CallKit call. (https://trello.com/c/BxlqByeJ)
+
+None
+
+Created: 2020-05-15T14:17:52.070Z
+Latest Update: 2020-07-18T20:41:03.425Z
+
+Reported by IslaWoof#8657
+
+####Steps to reproduce:
+- Start a call with someone (make sure you have CallKit enabled). 
+- Lock your phone in order to let the OS close the call. 
+- Go back to Discord.
+
+####Expected result:
+The call properly ends.
+####Actual result:
+The call doesn't end as expected and instead it gets stuck in "Connecting..." until you hang up.
+####Client settings:
+TestFlight 22.0 (19956)
+####System settings:
+iPhone 11 Pro Max ~ iOS 13.5 Dev Beta 4
+
+56071
+
+Card Log
+========
+### Added by Bug Bot on 2020-05-15T14:17:52.070Z
+
+
+### IslaWoof#8657 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5ebea48fadda2f78f9cd202e/cb430a331e558b457d8f9305528ff686/image0.png added by Bug Bot on 2020-05-15T14:17:56.308Z
+
+
+### Can reproduce.
+iPhone SE, iOS 13.4.1 - TestFlight 22.0 (19956)
+
+Daffyduck#5364 - Bug Bot on 2020-05-15T14:17:59.871Z
+
+
+### Can reproduce.
+[CR] - iPhone X; iOS 13.4.1, TestFlight 22.0 (19956)
+
+Airbus A330-200#0001 - Bug Bot on 2020-05-15T14:18:04.852Z
+
+
+### Can reproduce.
+iPhone XS Max, iOS 13.4.1; TestFlight 22.0 (19956)
+
+Thunderstruck#2071 - Bug Bot on 2020-05-15T14:18:09.876Z
+
+
+### Moved from New Issues to Fix made, not yet released by Jonathan Wu on 2020-05-15T16:13:12.043Z
+
+
+### Can't reproduce.
+iPhone 11 Pro, 13.4.1; Testflight 22.0 (20044)
+
+Joey#4892 - Bug Bot on 2020-05-15T19:32:58.728Z
+
+
+### Can't reproduce.
+iPhone XR; iOS 13.5; Stable 22.0
+
+AmusingDev#7879 - Bug Bot on 2020-05-22T17:01:14.282Z
+
+
+### Cannot reproduce anymore.
+iPhone SE, iOS 13.5.1 - TestFlight 27.0 (20464)
+Moving to Claimed Fixed. - Daffyduck on 2020-06-19T10:23:00.262Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Daffyduck on 2020-06-19T10:23:02.346Z
+
+
+### Can't reproduce.
+iPhone 7: iOS 13.5.1; TestFlight 27.0 (20464)
+
+Jiralite#1207 - Bug Bot on 2020-06-19T17:53:31.749Z
+
+
+### Can't reproduce.
+iPhone XR, iOS 14 Public Beta, TestFlight 31.0 (20793)
+
+JayRy27#0001 - Bug Bot on 2020-07-18T20:41:03.437Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

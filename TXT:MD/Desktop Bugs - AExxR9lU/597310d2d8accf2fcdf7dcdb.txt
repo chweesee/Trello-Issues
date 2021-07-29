@@ -1,0 +1,116 @@
+[Archived] If @ is the first character of a message, and is deleted, the mention recommendation list is still there, even when you click out and back into the message bar. The same is said for # and the channel list. (https://trello.com/c/7VaoyhHP)
+
+P2: Fix can wait a while
+
+Created: 2017-07-22T08:46:10.167Z
+Latest Update: 2017-11-15T19:20:06.784Z
+
+Reported by Zempro#6616
+
+####Steps to reproduce:
+- Type "@" or "#" 
+- delete "@" or "#" 
+- (continuation of bug) click out of message bar 
+- click on message bar
+
+####Expected result:
+You are given mention recommendations once "@" is typed, or a channel list once "#" is typed. Once the "@" or "#" is deleted, the mention recommendations/channel list disappear.
+####Actual result:
+You are given mention recommendations once "@" is typed, or a channel list once "#" is typed. Once the "@"/"#" is deleted, the mention/channel list stays there. The mention/channel list still remains if one clicks out of, and back into the message bar. In action (using @): https://gyazo.com/cf3e33c99704df90766dfcc3c30a9fc4 This only happens if "@"/"#" is the first character. Anything before it, it functions normally (ily @ will not have the same result).
+####Client settings:
+Discord Stable 0.0.247
+####System settings:
+OS https://gyazo.com/cf3e33c99704df90766dfcc3c30a9fc4 X
+
+2457
+
+Card Log
+========
+### Added by Bug Bot on 2017-07-22T08:46:10.167Z
+
+
+### Can reproduce.
+ Windows 10 x64 canary 0.0.161
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-07-22T08:46:18.362Z
+
+
+### Can reproduce.
+ Windows x64 Stable 0.0.297 Creators Update
+
+Pretty Lightningreed (PL)#0875 - Bug Bot on 2017-07-22T08:46:23.393Z
+
+
+### Can reproduce.
+Discord Canary 0.0.161 - Windows 10 Pro Build 15063.483
+
+Toni#6122 - Bug Bot on 2017-07-22T08:46:28.342Z
+
+
+### Can reproduce.
+Windows 7 x64, Discord Canary 0.0.161
+
+zgd3#3172 - Bug Bot on 2017-07-22T11:28:05.318Z
+
+
+### Can reproduce.
+Discord Stable 0.0.297 on Windows 10 Pro 64-Bit on Build 1607
+
+Tarek1337#0379 - Bug Bot on 2017-07-22T11:44:08.721Z
+
+
+### This also happens to the emote list: How to repro
+
+Don't fully write out a emote name, for an example: :pog (instead of pogchamp) then ctrl + a and delete the emote name the list stays
+
+Tarek1337#0379 - Bug Bot on 2017-07-22T11:51:44.442Z
+
+
+### Can reproduce.
+ArchLinux Gnome 4.10.1-1-ARCH
+
+RaidAndFade#1591 - Bug Bot on 2017-07-22T23:15:22.088Z
+
+
+### Can reproduce.
+MacOS 10.13 Public beta, Desktop Canary 0.0.151
+
+Abequinn#5368 - Bug Bot on 2017-07-23T01:00:53.427Z
+
+
+### Verified.  - Clayton on 2017-07-23T04:39:37.505Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-07-23T04:39:43.298Z
+
+
+### Can't reproduce.
+I can no longer reproduce this bug, as of 25-07-2017. On both Canary 0.0.161 and Stable 0.0.297
+
+Tarek1337#0379 - Bug Bot on 2017-07-25T07:30:19.578Z
+
+
+### Can no longer reproduce. macOS 10.12.5 Canary 0.0.151 - Mike Nisbet on 2017-07-25T20:10:04.638Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-07-25T20:10:11.769Z
+
+
+### Fixed.  - Clayton on 2017-10-03T23:52:41.001Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-03T23:52:44.817Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:20:06.161Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:20:06.786Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

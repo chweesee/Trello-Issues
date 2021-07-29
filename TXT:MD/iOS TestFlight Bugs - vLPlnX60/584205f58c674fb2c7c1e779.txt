@@ -1,0 +1,76 @@
+[Archived] In app browser is unaligned if triggered while sliding (https://trello.com/c/fQJkX2Tj)
+
+None
+
+Created: 2016-12-02T23:38:30.004Z
+Latest Update: 2016-12-19T21:17:53.847Z
+
+Reported by dinos#0649
+
+####Steps to reproduce: 
+- Find/Send a link in chat 
+- Hold on the URL, and start sliding either left or right 
+- Make sure the darkened border (that indicates a link has been tapped is still visible) 
+- Stop tapping 
+
+####Expected result:
+ The browser doesn't open since you're already sliding to another view 
+####Actual result:
+ The in-app browser opens, and the top bar is either too low, messing with the loading statusbar and other elements
+
+Card Log
+========
+### Added by Jared on 2016-12-02T23:38:30.004Z
+
+
+### System Specs: iPhone 6s, iOS 10.2
+
+dinos#0649 - Jared on 2016-12-02T23:39:11.094Z
+
+
+### dinos#0649 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/584205f58c674fb2c7c1e779/8d1d4852e708dc3cdda18d065e7ee3cd/image.png added by Jared on 2016-12-02T23:42:02.537Z
+
+
+### dinos#0649 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/584205f58c674fb2c7c1e779/8e126ade01f2f0a672ad13b908e582a4/image.png added by Jared on 2016-12-02T23:43:36.089Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 10.2b5, latest TF
+
+ThaTiemsz#5517 - Jared on 2016-12-03T09:09:02.288Z
+
+
+### Can reproduce.
+Can repro now.
+
+ThaTiemsz#5517 - Jared on 2016-12-03T09:22:20.548Z
+
+
+### Can reproduce.
+iPhone 6s iOS 10.2 Developer Beta 5
+
+Dru#8209 - Jared on 2016-12-03T18:16:47.864Z
+
+
+### I think this is the same bug as https://trello.com/c/hn9Q4dS3/102-member-list-of-a-server-is-slightly-moved-over-closed-but-have-to-double-click-to-show and https://trello.com/c/6e2dy5IG/104-clicking-the-open-in-browser-link-for-an-image-clips-the-image-out-of-normal-constraints - Jared on 2016-12-08T19:11:32.701Z
+
+
+### @jared627 Its same as second one. the first one is a bug in react native. - Fanghao on 2016-12-17T02:42:21.367Z
+
+
+### Closing this ticket as a dupe as per fanghao's comment.
+
+https://trello.com/c/6e2dy5IG/104-clicking-the-open-in-browser-link-for-an-image-clips-the-image-out-of-normal-constraints
+
+Archiving this ticket. - Jared on 2016-12-19T21:17:52.343Z
+
+
+### Archived by Jared on 2016-12-19T21:17:53.852Z
+
+List
+====
+New Issues
+
+Members
+=======
+None

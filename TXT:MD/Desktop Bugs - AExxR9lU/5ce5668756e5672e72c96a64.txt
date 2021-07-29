@@ -1,0 +1,73 @@
+Role locked emotes don't show after removing the emote locked role, and adding it back again. (https://trello.com/c/qw5QwPHf)
+
+None
+
+Created: 2019-05-22T15:11:03.662Z
+Latest Update: 2020-07-16T21:26:03.925Z
+
+Reported by JohnyTheCarrot#0001
+
+####Steps to reproduce:
+- Through a bot account, fire an API request to lock an emote behind a role (only possible on bot accounts). (Ask me in Bug Chat for the docs.) 
+- Give yourself the role 
+- Notice you can see the emote in your emote list since you have the needed role 
+- remove the role from yourself 
+- notice the emote has disappeared, good. 
+- add the role back to yourself 
+- notice the emote has not reappeared in your client and there will be no way to use the emote until client restart.
+
+####Expected result:
+When adding the role back, the emote should reappear and be usable again.
+####Actual result:
+The emote stays gone as if the role was never added back.
+####Client settings:
+Discord Canary 38248
+####System settings:
+Windows 10 Home 1809
+
+35044
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-22T15:11:03.662Z
+
+
+### JohnyTheCarrot#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ce5668756e5672e72c96a64/6b3e19a0209e5582acc3534b366e8713/n1HLlR6qv9.gif added by Bug Bot on 2019-05-22T15:11:08.648Z
+
+
+### Can reproduce.
+CR: Canary 0.0.238 (Build 38248), Windows 10 Pro (64-bit), Creators Update (v1709, Build 16299.547)
+
+SuperSajuuk#0001 - Bug Bot on 2019-05-22T15:11:11.030Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38248 (Host 0.0.238)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-05-22T15:11:16.112Z
+
+
+### Can reproduce.
+can reproduce, Windows 10 Pro x64 v1809 (Canary build 38248)
+
+TimThe#1118 - Bug Bot on 2019-05-22T15:11:21.022Z
+
+
+### Can reproduce.
+windows 10 home, canary 38248
+
+Arun Kapil#1745 - Bug Bot on 2019-05-22T16:26:59.523Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38674
+
+Xylium#5800 - Bug Bot on 2019-05-29T16:31:03.866Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

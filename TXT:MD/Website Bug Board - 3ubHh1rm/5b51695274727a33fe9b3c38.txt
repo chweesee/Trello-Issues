@@ -1,0 +1,80 @@
+[Website Bug] Going to a nonexistent sub page of your application does not return a 404 page or kick back out to General Information. (https://trello.com/c/A9F5KoLm)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-07-20T04:47:15.095Z
+Latest Update: 2019-07-27T10:21:35.286Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Open an application in the Developer Portal 
+- remove "/information" and append "/djffdskjfds" to the url.
+
+####Expected result:
+It should display a 404, an error, or kick back to General Information.
+####Actual result:
+It shows a blank page.
+####Client settings:
+NA
+####System settings:
+Windows 10 Pro x64 v1803 Firefox Nightly v63.0a1
+
+15700
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-20T04:47:15.095Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1803), Chrome Official 67.0.3396.99
+
+54D#1357 - Bug Bot on 2018-07-20T04:47:22.616Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - Chrome 67.0.3396.99
+
+mrkirby153#7840 - Bug Bot on 2018-07-20T04:47:27.649Z
+
+
+### Can reproduce.
+Google Chrome 67.0.3396.99
+
+Beeen#0001 - Bug Bot on 2018-07-20T04:47:32.625Z
+
+
+### Can reproduce.
+Windows 10 Pro x64. Discord Canary 19332
+
+ThorWolf#0001 - Bug Bot on 2018-07-20T07:55:33.787Z
+
+
+### verified, macos 10.12.6, chrome 67.0.3396.99 - Clayton on 2018-07-20T21:19:47.816Z
+
+
+### Can Not Reproduce: Windows 10 Pro x64, Chrome Version 75.0.3770.100 (64-bit)
+Moving to Claimed Fixed. - Aeria on 2019-07-10T23:25:13.872Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Aeria on 2019-07-10T23:25:19.366Z
+
+
+### Cannot reproduce with MacBook Pro 13" (2016) running macOS Mojave 10.14.5 and Safari Version 12.1.1.
+
+It shows a **Route not found!** page now.
+
+Moving to Verified Fixed list. - Pascal on 2019-07-18T14:49:21.447Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Pascal on 2019-07-18T14:49:31.073Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

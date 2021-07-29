@@ -1,0 +1,186 @@
+[Archived] Images flicker when reactions are added/removed (https://trello.com/c/Jczz7uEe)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-01-23T18:08:50.396Z
+Latest Update: 2019-07-13T20:00:05.224Z
+
+Reported by Yuki#6499
+
+####Steps to reproduce:
+- Find an image, or post one yourself 
+- Ping a group of people (Like the Updates role in Ghoul's testing server) and tell them to react to the image.
+- Observe.
+
+Extension to this bug:
+- You can also post a comment, then ping the group of people to react to your message with gif emotes and you can see them flickering.
+
+####Expected result:
+Reaction is removed/added like normal, image stays visible
+####Actual result:
+Reaction is removed/added like normal, however the image flickers.
+####Client settings:
+Discord TestFlight 2.2.1 (2236)
+####System settings:
+iPhone 6 (Model A1549), iOS 11
+
+8087
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-23T18:08:50.396Z
+
+
+### Can reproduce.
+iPhone 8 +, iOS 11.2.5 (PB7), Discord TestFlight 2.2.1 (2236)
+
+Ghoul#4567 - Bug Bot on 2018-01-23T18:08:58.038Z
+
+
+### Can reproduce.
+iPhone 6, iOS 11.2.5 beta 7, TestFlight 2.2.1 (2236)
+
+Darkbeast#4002 - Bug Bot on 2018-01-23T18:09:02.738Z
+
+
+### Can reproduce.
+iPod touch 6 generation, iOS 10.3.3, TestFlight 2.2.1 (2236)
+
+❤nickWtn❤#3789 - Bug Bot on 2018-01-23T18:09:07.743Z
+
+
+### Extension to this issue: When adding a reaction to a message with animated emoji reaction, the animated emoji will flicker
+
+Pascal#0929 - Bug Bot on 2018-01-23T18:10:25.470Z
+
+
+### It's very likely that this isn't a valid bug. Will get eMagic to comment. - Jared on 2018-01-24T19:07:59.306Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-01-24T19:08:02.373Z
+
+
+### Can reproduce.
+The user’s pfp and text also flickers. iPhone 6, iOS 11.1, TestFlight 2.2.1 (2236)
+
+RexTheMon#0016 - Bug Bot on 2018-01-26T16:49:06.844Z
+
+
+### Can reproduce.
+2.2.3 (2671), iPhone SE 11.3 Beta 3
+
+Link#1685 - Bug Bot on 2018-02-22T08:01:00.722Z
+
+
+### Can reproduce.
+iPhone 4s, iOS 9.3.5 and TestFlight 2.3.2 (4460)
+
+karl-police#3660 - Bug Bot on 2018-05-15T20:12:37.607Z
+
+
+### Xylium#1480 - https://cdn.discordapp.com/attachments/446041441454653442/446042350297415680/IMG_1410.PNG https://cdn.discordapp.com/attachments/446041441454653442/446042448867753996/IMG_1409.PNG added by Bug Bot on 2018-05-15T20:15:49.238Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a677a322616cf5b5a1d0464/a67c608b171c4d2432f903bc78bbee22/IwxuYvs.png added by Bug Bot on 2018-05-15T20:23:06.191Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5a677a322616cf5b5a1d0464/e3dbfd0fb2c14a7d5256d745b2ba762c/Hepr3rP.png added by Bug Bot on 2018-05-15T20:23:41.621Z
+
+
+### I can no longer reproduce this bug as of Discord TestFlight 2.3.4 (5560). The image no longer flickers, but will stay the same as if nothing happened. I have tested it with multiple images on iPhone 8 + running iOS 12 (Dev Beta 2).
+
+Because I was not able to reproduce this bug, I am moving this ticket to Claimed Fixed. - Ghoul on 2018-07-03T01:52:25.076Z
+
+
+### Moved from Verified Bugs to Claimed Fixed Bugs by Ghoul on 2018-07-03T01:52:31.272Z
+
+
+### Can reproduce.
+I can still reproduce this with images and gif reactions, iPhone 8 Plus - iOS 11.4, iPad Air 2 - iOS 12 Public Beta 2, TestFlight 2.3.4 (5616)
+
+Pascal#0929 - Bug Bot on 2018-07-06T12:40:23.181Z
+
+
+### Upon being poked by Pascal#0929 regarding this ticket, and being explained of the extension as well me wanting to try something. I can now reproduce this bug as of Discord TestFlight 2.3.4 (5616) on iPhone 8 +, running iOS 12 (Dev Beta 3).
+
+Upon talking with Pascal, it's fair to say that I feel like this ticket should be updated to reflect the more proper reproduction steps as I was not able to reproduce previously by adding one reaction. So I will update the ticket for the remaining case.
+
+I am also moving it back to Verified Bugs. - Ghoul on 2018-07-08T16:47:33.794Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Bugs by Ghoul on 2018-07-08T16:49:19.175Z
+
+
+### Can reproduce.
+CR, extension to this (I believe) is the discord logo shows over the image. iPod Touch 6th generation, TestFlight 2.3.6 (6095)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-07-29T20:14:24.573Z
+
+
+### Archived by Clayton on 2018-09-04T23:14:14.569Z
+
+
+### Can reproduce.
+iPhone Xs Max, iOS 12.1.4
+
+Inno#7606 - Bug Bot on 2019-02-14T15:17:28.292Z
+
+
+### Unarchived by Bug Bot on 2019-02-14T15:30:05.094Z
+
+
+### AEnterprise#4693 - https://youtu.be/xdHUcB-fUCU added by Bug Bot on 2019-02-19T17:25:24.566Z
+
+
+### Can reproduce.
+CR | iPhone Xs Max | iOS 12 | Testflight 2.4.5
+
+clouhdy#0001 - Bug Bot on 2019-02-20T15:45:21.060Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.1.4, Discord Build 2.4.5
+
+that15fine#9275 - Bug Bot on 2019-03-03T12:39:06.888Z
+
+
+### Can reproduce.
+iPhone 7 iOS 12.1.4 TestFlight 2.4.6
+
+username#7339 - Bug Bot on 2019-03-25T04:22:15.186Z
+
+
+### Archived by Bug Bot on 2019-05-09T20:30:14.494Z
+
+
+### Can reproduce.
+if the message that’s being reacted to is an embed with an image, the image will rapidly zoom in and out, zooming in enough to far exceed the extents of the screen and cover other elements
+
+binchlord#0998 - Bug Bot on 2019-06-05T21:31:18.274Z
+
+
+### Unarchived by Bug Bot on 2019-06-05T22:00:05.617Z
+
+
+### Can reproduce.
+iPhone XS Max 12.3.1, Stable 3.0.2
+
+SPHHAX#0001 - Bug Bot on 2019-06-06T20:00:30.877Z
+
+
+### Can reproduce.
+iPhone XR iOS 12.3.1 TestFlight 3.0.3 (15638)
+
+SplashyFlame#4968 - Bug Bot on 2019-06-08T00:28:25.447Z
+
+
+### Archived by Bug Bot on 2019-07-13T20:00:05.236Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

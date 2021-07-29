@@ -1,0 +1,80 @@
+[Archived] Cannot enter 2FA code when deleting server (https://trello.com/c/AkTligp5)
+
+P0: Need an immediate fix
+
+Created: 2017-06-15T14:22:06.675Z
+Latest Update: 2017-10-17T20:30:46.799Z
+
+Reported by Sir Terry Wrist#0570
+
+####Steps to reproduce:
+- Ensure you have 2FA (2-Factor Authentication) enabled 
+- Go to Server Settings -> Delete Server and follow normal steps 
+- Attempt to enter 2FA code
+
+####Expected result:
+Code is entered, server is able to be deleted
+####Actual result:
+Input box doesn't allow 2FA code to be entered
+####Client settings:
+Canary 0.0.157
+####System settings:
+Windows 10 x64 build 15063
+
+1670
+
+Card Log
+========
+### Added by Bug Bot on 2017-06-15T14:22:06.675Z
+
+
+### Can reproduce.
+ Windows 10 Pro x64 Desktop Canary 0.0.157 (Build 1538)
+
+DJScias#0812 - Bug Bot on 2017-06-15T14:22:11.409Z
+
+
+### Can reproduce.
+ Windows 10 Pro x64 Canary 0.0.157
+
+LW001#8654 - Bug Bot on 2017-06-15T14:22:13.351Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Canary 0.0.157
+
+mouse91#3089 - Bug Bot on 2017-06-15T14:22:15.416Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update (1703), Canary 0.0.157 (1538)
+
+Tiemen#0107 - Bug Bot on 2017-06-15T15:08:31.025Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-06-15T18:07:51.127Z
+
+
+### Fixed as of build 1545. (Tested on -w, Canary 0.0.157 (build 1545)
+
+Tiemen#0107 - Bug Bot on 2017-06-15T18:30:16.401Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-06-15T18:33:58.595Z
+
+
+### Amadeus fixed because he's cool like that. - Jared on 2017-06-15T18:34:06.327Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:30:45.712Z
+
+
+### Archived by Jared on 2017-10-17T20:30:46.801Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

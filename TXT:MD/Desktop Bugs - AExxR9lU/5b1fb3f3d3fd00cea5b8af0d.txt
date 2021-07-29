@@ -1,0 +1,83 @@
+[Archived] Naming a text channel something containing the word "nsfw" doesn't auto-set the channel to NSFW (https://trello.com/c/7KkIoNi2)
+
+None
+
+Created: 2018-06-12T11:52:19.998Z
+Latest Update: 2018-08-30T23:15:11.900Z
+
+Reported by Super from NotDiscord™#5419
+
+####Steps to reproduce:
+- Create a new text channel 
+- Name it something containing "nsfw" 
+- Observe the channel's # symbol
+
+####Expected result:
+A /!\ warning sign should become visible, indicating the channel is marked as NSFW.
+####Actual result:
+The channel isn't marked as NSFW at all.
+####Client settings:
+Discord Stable, Build Number: 16727, Version Hash: d3400266c1788b6d6174c229e39842e66a9336bf
+####System settings:
+Windows 7 Professional x64
+
+14083
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-12T11:52:19.998Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 {Dev Beta 1} Stable 2.3.3
+
+Xylium#1480 - Bug Bot on 2018-06-12T11:52:27.526Z
+
+
+### Can reproduce.
+Discord Canary 0.0.210 (16727) on Windows 10 Pro 64-bit (1803)
+
+Tarek#1337 - Bug Bot on 2018-06-12T11:52:32.500Z
+
+
+### Can reproduce.
+Huawei P10 Lite, Android 7.0, Discord 6.8.9
+
+Vulpus Maximus#1400 - Bug Bot on 2018-06-12T11:52:37.558Z
+
+
+### This is most likely a backend bug because it occurs on Android, iOS and desktop. This used to work before the NSFW switch was a thing. - Tarek on 2018-06-12T11:53:13.080Z
+
+
+### Can reproduce.
+Release Channel: canary, Build Number: 16859, Version Hash: fdda2cbf93fbc80ee9c0dc1205736911f13c154b ; Windows 10 64-bit Version 1709 OS Build
+
+Amanda#0001 - Bug Bot on 2018-06-13T03:27:03.178Z
+
+
+### HMHebT7.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b1fb3f3d3fd00cea5b8af0d/c1840ed8946e946be134d8303ff43155/HMHebT7.png added by Tarek on 2018-06-14T03:09:00.574Z
+
+
+### Not a bug per Jake's comment. Sorry Super <3
+
+Moving to not a bug. - Tarek on 2018-06-14T03:09:13.845Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Tarek on 2018-06-14T03:09:21.909Z
+
+
+### Can reproduce.
+Windows 10 Pro 1803, Discord Canary Build 16907
+
+LPerMike#4242 - Bug Bot on 2018-06-15T01:11:14.215Z
+
+
+### Archived by Clayton on 2018-08-30T23:15:11.903Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

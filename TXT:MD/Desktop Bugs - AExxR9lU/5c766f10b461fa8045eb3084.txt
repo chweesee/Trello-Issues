@@ -1,0 +1,116 @@
+[Archived] Getting automatically moved to an AFK channel forces the status from idle back to online, even if the user is still inactive. (https://trello.com/c/h8gOPuuO)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-02-27T11:05:52.711Z
+Latest Update: 2019-12-30T13:00:04.690Z
+
+Reported by Aragon#7777
+
+####Steps to reproduce:
+- Have server settings configured for an AFK channel, and a duration of 15 minutes or greater for the timeout. Also, have user status set to online. 
+- Join a different channel besides AFK, then stop being active (No input to mouse or keyboard). 
+- After 10 minutes, your status will change to idle (yellow circle) accordingly. 
+- After the set AFK duration, you will get moved. Once this happens, your idle status will change back to online (green circle), even though you aren't really active again.
+
+####Expected result:
+Status should remain idle since the user is inactive.
+####Actual result:
+User status is forced back to online inappropriately.
+####Client settings:
+Canry 32862
+####System settings:
+Windows 10 Home x64 1809
+
+29922
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-27T11:05:52.711Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary, Native Host 0.0.232, Build Number 32862
+
+Hole#0001 - Bug Bot on 2019-02-27T11:06:00.148Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord Canary 32862, Native Host 0.0.232
+
+Kento#5170 - Bug Bot on 2019-02-27T11:06:05.042Z
+
+
+### Can reproduce.
+Windows 10 pro x64, Canary 32862 w/ Native Host 0.0.232
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-27T11:06:10.069Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit, Canary build 32862, Native Host 0.0.232.
+
+SerbianPG#2287 - Bug Bot on 2019-02-27T11:09:32.861Z
+
+
+### Can reproduce.
+CR; Canary: 32862, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-02-27T11:18:19.784Z
+
+
+### Can reproduce.
+macos 10.14.4, canary 32862
+
+M24#0272 - Bug Bot on 2019-02-27T12:26:06.701Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 Home x64 (1809), Canary 32862
+
+Solo#0007 - Bug Bot on 2019-02-27T16:07:02.932Z
+
+
+### Can reproduce.
+Windows 10 Canary 32862
+
+Mr. Proper#2394 - Bug Bot on 2019-02-27T19:39:03.890Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32878
+
+Daffyduck#5364 - Bug Bot on 2019-02-27T22:38:37.842Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-02T02:05:22.678Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 33262
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-03-05T17:11:38.727Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:00.345Z
+
+
+### Can reproduce.
+Windows 10 Home, Version 1903, stable, desktop client, 50235
+
+MWI XP#0001 - Bug Bot on 2019-11-25T20:03:41.758Z
+
+
+### Unarchived by Bug Bot on 2019-11-25T20:30:05.715Z
+
+
+### Archived by Bug Bot on 2019-12-30T13:00:04.701Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

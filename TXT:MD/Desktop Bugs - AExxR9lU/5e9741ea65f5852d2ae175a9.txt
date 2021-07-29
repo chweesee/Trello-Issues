@@ -1,0 +1,62 @@
+[Mac] Command + delete in search box does not work and creates a TypeError (https://trello.com/c/oo897DfZ)
+
+None
+
+Created: 2020-04-15T17:18:34.690Z
+Latest Update: 2020-07-16T21:26:06.245Z
+
+Reported by Jiralite#1207
+
+####Steps to reproduce:
+
+- Type something into the search box 
+- Hit command + delete
+
+####Expected result:
+The keybind works.
+####Actual result:
+Nothing happens, and a `TypeError` is thrown in the console.
+####Client settings:
+Discord Canary 58100 ~ Host 0.0.248
+####System settings:
+MacBook Pro: macOS Catalina 10.15.4
+
+54674
+
+Card Log
+========
+### Added by Bug Bot on 2020-04-15T17:18:34.690Z
+
+
+### Jiralite#1207 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e9741ea65f5852d2ae175a9/4c1d6d1e0e19669ddc71446d6e6a3c25/AX5CKh4.png added by Bug Bot on 2020-04-15T17:18:37.900Z
+
+
+### Can reproduce.
+CR, Discord Canary 58100, macOS Catalina 10.15.4, Macbook Pro Early 2015
+
+Nelson1348#9190 - Bug Bot on 2020-04-15T17:18:42.299Z
+
+
+### Can reproduce.
+Can reproduce, macOS 10.15.4, Canary 58172
+
+Action Potential#2655 - Bug Bot on 2020-04-15T17:18:47.223Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS 10.15.3 - Canary 58202
+
+mrkirby153#7840 - Bug Bot on 2020-04-15T17:18:52.183Z
+
+
+### ⌘ + fn + backspace (deletes everything to the right of the cursor, same as ⌘ + delete) also does not work
+
+Jiralite#1207 - Bug Bot on 2020-04-20T19:03:00.541Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

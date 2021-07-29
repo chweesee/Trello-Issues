@@ -1,0 +1,67 @@
+[Archived] Videos in the game tab automatically play after some time (https://trello.com/c/QCs0Lud6)
+
+None
+
+Created: 2018-06-24T11:44:18.985Z
+Latest Update: 2018-10-22T20:35:47.864Z
+
+Reported by Remceau#3241
+
+####Steps to reproduce:
+- Start discord and open the game tab page 
+- Start (a) news video(s) and do NOT pause it/them (This works with multiple vids at the same time) 
+- While the video(s) is/are running, close discord 
+- The video(s) keep(s) playing (bug?, I know steam has the same behaviour) 
+- Open discord and pause the video(s) 
+- Close discord again 
+- Wait... just wait and do stuff (in a try to reproduce it took 35 minutes, and after that it happened after 1 minute)
+
+####Expected result:
+Nothing should happen, discord is closed
+####Actual result:
+The audio of the paused video(s) start playing while discord is closed
+####Client settings:
+Canary Build #17529
+####System settings:
+Windows 10 64 bits Home Edition
+
+14631
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-24T11:44:18.985Z
+
+
+### Can reproduce.
+First step work for me (Play a vidéo and close discord, vidéo keeps on playing), but other steps not work, when i press pause and i close Discord vidéo don't play again (i wait 1 hour two times) - Windows 10 Pro x64 Release Channel: stable, Build Number: 17491
+
+OmnesTV ॐ#0001 - Bug Bot on 2018-06-24T11:44:26.367Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 x64 1803 Canary 17576
+
+Bencey_#8587 - Bug Bot on 2018-06-24T11:44:31.382Z
+
+
+### Can reproduce.
+Can reproduce. Windows 10 x64 1803. Discord Canary Build 17580
+
+ItzTacoTimee#0001 - Bug Bot on 2018-06-24T11:44:36.421Z
+
+
+### Cannot reproduce. The steps here aren't particularly clear and I feel like I'm just misunderstanding something. For example, when you "close discord" are you killing the process? How do you know the video keeps playing? Do you have to remain on the games tab the whole time? - Jared on 2018-07-02T16:56:33.074Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Jared on 2018-07-02T16:56:37.455Z
+
+
+### Archived by Clayton on 2018-10-22T20:35:47.866Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

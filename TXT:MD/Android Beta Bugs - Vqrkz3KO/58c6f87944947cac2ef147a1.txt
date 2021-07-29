@@ -1,0 +1,103 @@
+[Archived] Discord on Android showing all channels in the server settings / Channel category, even ones supposed to be hidden. User keeps any role not explicitly forbidden, including channel management. (https://trello.com/c/xch8BqGJ)
+
+P1 - Severe
+
+Created: 2017-03-13T19:52:25.762Z
+Latest Update: 2017-10-02T16:41:42.830Z
+
+Reported by Zed!?#0723
+
+####Steps to reproduce: 
+- Create a user with the Manage Channels permission, and a channel which does not have the read permission for the everyone role, and no specified permissions for the role with the Manage Channels permission. 
+- With the Manage Channels role, go into Server Settings, Channels. (which shows the channel that the user should not be able to see). 
+- Go into the channel settings, in which you are able to add a role/member, and define its permissions. 
+
+####Expected result:
+ The user should not be able to see any channel he doesn't have reading permission on, and definitly shouldn't be able to set permissions on it. 
+####Actual result:
+ User can see all the channels for which permissions are not explicitly forbidding them to, and can give themself the reading permissions to the channel if the everyone role doesn't explicitly forbids the Manage Channel permission. 
+####System settings:
+ Android 6.0, Discord v 3.3.3
+
+1971
+
+Card Log
+========
+### Added by Bug Bot on 2017-03-13T19:52:25.762Z
+
+
+### Can reproduce.
+android 6.0.1 discord 3.5.0-preview
+
+FrostLuma#1769 - Bug Bot on 2017-03-13T19:52:26.432Z
+
+
+### Can reproduce.
+3.5.0
+
+Dabbit Prime#0896 - Bug Bot on 2017-03-13T19:52:28.412Z
+
+
+### Can reproduce.
+Android 5.1 Discord 3.5.0
+
+๖ۣۜOkori❧#0902 - Bug Bot on 2017-03-13T19:52:30.349Z
+
+
+### IAMbgKr.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58c6f87944947cac2ef147a1/91f4ced1a4688bd549ba8cf0c86d602c/IAMbgKr.png added by Bug Bot on 2017-03-13T19:52:41.580Z
+
+
+### wWaqOZV.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58c6f87944947cac2ef147a1/2f9a4c95655011ecd61cb597d62be5de/wWaqOZV.png added by Bug Bot on 2017-03-13T19:52:41.704Z
+
+
+### Screenshot_2017-03-13-19-44-34.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58c6f87944947cac2ef147a1/9e967c7c4456184e70e5dd5fbe99964b/Screenshot_2017-03-13-19-44-34.png added by Bug Bot on 2017-03-13T19:52:42.322Z
+
+
+### Screenshot_2017-03-13-19-48-08.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58c6f87944947cac2ef147a1/6e9621db36af7c583b3035c7405dab01/Screenshot_2017-03-13-19-48-08.png added by Bug Bot on 2017-03-13T19:52:42.353Z
+
+
+### Screenshot_2017-03-13-19-47-03.png - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/58c6f87944947cac2ef147a1/17e0582f016f658b8d2e1caabbca49b5/Screenshot_2017-03-13-19-47-03.png added by Bug Bot on 2017-03-13T19:52:43.422Z
+
+
+### Can reproduce.
+Android 5.0.1, Discord v 3.3.3
+
+Generic#5555 - Bug Bot on 2017-03-13T19:57:45.649Z
+
+
+### Can reproduce.
+VFD 600 (6.0.1), Discord 3.5.1
+
+TTtie#5937 - Bug Bot on 2017-03-14T06:12:50.430Z
+
+
+### Verified - Jared on 2017-03-14T22:10:16.070Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-03-14T22:10:20.105Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2017-03-14T22:11:30.050Z
+
+
+### Moved from Serious Issues to Claimed Fixed, needs Verification by Andy Garron on 2017-03-21T19:12:38.745Z
+
+
+### Verified fixed on Discord Android Alpha 3.5.7 (OnePlus 3T, Android 7.0). - Alexander (DJScias) on 2017-03-29T17:01:08.451Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Alexander (DJScias) on 2017-03-29T17:04:09.838Z
+
+
+### Archiving to make room for new suite of fixed bugs. - Jared on 2017-10-02T16:41:41.387Z
+
+
+### Archived by Jared on 2017-10-02T16:41:42.834Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

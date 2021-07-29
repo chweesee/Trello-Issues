@@ -1,0 +1,72 @@
+[Archived] Security menu within server settings without permissions visible (https://trello.com/c/QxLJ0G1u)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-07-22T13:54:58.397Z
+Latest Update: 2018-09-07T02:30:01.999Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Make sure you have Manage Server permission but you are not the owner 
+- Open server settings 
+- Go to the "Security" menu
+
+####Expected result:
+The "Security" menu shouldn't be visible because you have no permission to change anything there.
+####Actual result:
+It is always with manage server or admin permissions visible even though you are not the owner.
+####Client settings:
+TestFlight 2.3.6 (6000)
+####System settings:
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 3
+
+15866
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-22T13:54:58.397Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS 12 Dev Beta 4, TestFlight 2.3.6 (6000)
+
+Mustard#2117 - Bug Bot on 2018-07-22T13:55:05.847Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 12 (dev beta 4), TestFlight 2.3.6 (6000)
+
+Xylium#1480 - Bug Bot on 2018-07-22T13:55:10.774Z
+
+
+### Can reproduce.
+CR, iPod Touch 6th generation, iOS 11.4.1, TestFlight 2.3.6 (6000)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-07-22T13:55:15.791Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.4.1, TestFlight 2.3.6 (6095)
+
+Mippy#0001 - Bug Bot on 2018-07-28T00:10:33.028Z
+
+
+### Verified with iPhone 8 + running iOS 12 - Dev Beta 6 with iOS TestFlight 2.3.6 (6427). I can see the security menu even if I only had Manage Server permission and nothing else.
+
+Moving to Verified Bugs. - Ghoul on 2018-08-08T02:22:56.211Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Ghoul on 2018-08-08T02:23:04.553Z
+
+
+### Archived by Clayton on 2018-09-07T02:30:02.001Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

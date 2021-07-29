@@ -1,0 +1,87 @@
+[Archived] [most likely macOS specific] Discord crashes when joining a call, reloading the client and then interacting with the properties of the “Top Secret Control Panel” in the menu bar. (https://trello.com/c/OxLHrT3e)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-01-17T11:46:24.580Z
+Latest Update: 2018-03-14T14:04:05.867Z
+
+Reported by JustGamer#2542
+
+####Steps to reproduce:
+- Make sure the control panel icon is visible in the menu bar at the top of your screen. 
+- Join a voice channel or call. 
+- Without leaving the call press CMD/Ctrl + R 
+- Discord should/will now reload and the application will reappear within a couple seconds. 
+- When the discord logo starts to spin, click on the “Top Secret Control Panel” dropdown icon. 
+- Quickly press “Mute” & “Deafen” a couple times before Discord finishes reloading. 
+- Discord should now abort the reload and crash. 
+- This may require a couple of attempts as the interaction with the Control Panel (CP) fails sometimes.
+
+####Expected result:
+Discord should hide the CP when reloading, as it does when you leave a call/voice channel.
+####Actual result:
+The CP does not hide, causing it to crash when interacting with it during the reload.
+####Client settings:
+Discord Canary 0.0.185 (build 9591)
+####System settings:
+MacBook Pro (late 2013), macOS Sierra 10.12.1
+
+7866
+
+Card Log
+========
+### Added by Bug Bot on 2018-01-17T11:46:24.580Z
+
+
+### Can reproduce.
+Macbook Pro 15" (2017) macOS High Sierra 10.13.2; Canary Build 9591
+
+mrkirby153#7840 - Bug Bot on 2018-01-17T11:46:31.931Z
+
+
+### Can reproduce.
+CR: Discord Canary [0.0.185], MacBook Air [13" 2014], High Sierra [10.13.2]
+
+ItsPugle#5963 - Bug Bot on 2018-01-17T11:46:36.973Z
+
+
+### Can reproduce.
+Can Repro: MacBook Pro 13” [2015] macOS High Sierra [10.13.2], Discord Canary [0.0.185]
+
+happyzachariah#6121 - Bug Bot on 2018-01-17T11:46:41.978Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS High Sierra 10.13.2, Discord Canary 0.0.185 (Build: 9591)
+
+Pascal#0929 - Bug Bot on 2018-01-17T11:47:41.062Z
+
+
+### Can reproduce.
+Macbook Pro 13" (Early 2015) macOS High Sierra 10.13.2, Discord Canary 0.0.184.
+
+crabbynick9#7258 - Bug Bot on 2018-01-17T11:52:52.318Z
+
+
+### Cannot reproduce.  - Clayton on 2018-01-25T22:38:37.208Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-01-25T22:38:40.643Z
+
+
+### Moved from Verified Bugs to Cannot Reproduce by Clayton on 2018-01-25T22:38:57.576Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T14:04:05.141Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T14:04:05.869Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

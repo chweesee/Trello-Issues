@@ -1,0 +1,65 @@
+[Archived] Progress bar for update does not cap after update failure (https://trello.com/c/3Viui6md)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2017-12-08T15:49:23.684Z
+Latest Update: 2018-10-22T20:17:29.593Z
+
+Reported by Mesræ#0047
+
+####Steps to reproduce:
+- Be on or run an outdated client 
+- While it attempts an update, trigger a connection error (unplug ethernet) 
+- Re-allow connection 
+- Watch the progress bar
+
+####Expected result:
+The right side of the update progress bar would cap off
+####Actual result:
+The right side of the progress bar goes to the edge of the window
+####Client settings:
+Discord Canary, 0.0.181
+####System settings:
+Windows 10 Home version 1607 x64
+
+6836
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-08T15:49:23.684Z
+
+
+### Can reproduce.
+Stable 8119 on Windows 10 Home x64
+
+To4oo4#3830 - Bug Bot on 2017-12-08T15:49:31.608Z
+
+
+### Can reproduce.
+was able to repro on mac osx el capitan since canary 0.0.154
+
+Rauf#3260 - Bug Bot on 2017-12-08T15:49:37.376Z
+
+
+### Can reproduce.
+CR, Windows 10 falls creators update, Stable 8119, Good catch
+
+Garry#4825 - Bug Bot on 2017-12-08T15:49:41.652Z
+
+
+### Verified.  - Clayton on 2017-12-20T00:28:44.077Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-12-20T00:28:49.950Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:29.595Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

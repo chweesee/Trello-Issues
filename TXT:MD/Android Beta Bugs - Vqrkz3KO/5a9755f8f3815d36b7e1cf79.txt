@@ -1,0 +1,87 @@
+[Archived] Filter options in the Quick Switcher do nothing if the search query starts with some special characters (verified with space, exclamation mark, and underscore. Haven't tested all) (https://trello.com/c/mM4ZY0bD)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-03-01T01:23:05.022Z
+Latest Update: 2018-06-01T03:42:26.755Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Quick Switcher 
+- In the searchbar, input any special character other than *, @ and # 
+- Tap the three lines icon to the right of the search bar and pick any filter option
+
+####Expected result:
+The filter option menu should do its job, eventually by removing the space if it's not supported
+####Actual result:
+Filter option menu doesn't do anything
+####Client settings:
+Discord Alpha 6.2.9 (Don't forget to update!)
+####System settings:
+Huawei Mate 9 Android 7.0
+
+9199
+
+Card Log
+========
+### Added by Bug Bot on 2018-03-01T01:23:05.022Z
+
+
+### Can reproduce.
+Moto G5 Plus Android 7.0 Alpha 6.2.9
+
+webhp#1337 - Bug Bot on 2018-03-01T01:23:12.461Z
+
+
+### Can reproduce.
+ZTE obsidian Android 5.1, Discord alpha 6.2.9
+
+Lunʌrᴮᵒᵗ#5846 - Bug Bot on 2018-03-01T01:23:17.471Z
+
+
+### Can reproduce.
+Samsung Galaxy S8 - Android v7.0 - Discord Alpha 6.2.9
+
+Fisgerman#2824 - Bug Bot on 2018-03-01T01:23:22.638Z
+
+
+### Can reproduce.
+Samsung Galaxy Note 8 Android 7.1.1 Discord Alpha 6.2.9
+
+LitchSchist#2304 - Bug Bot on 2018-03-01T01:23:27.459Z
+
+
+### Don't mind the second part of the sentence in Expected Result, the !edit command just failed. At first I thought that it only hapmened with the space character, but it actually works with any except #, @ and *
+
+Alex1304#9704 - Bug Bot on 2018-03-01T01:26:53.624Z
+
+
+### Can reproduce.
+Moto G 4 Play, Nougat 7.1.1, Discord Alpha 6.2.9
+
+Xia#8966 - Bug Bot on 2018-03-01T02:46:18.963Z
+
+
+### Verified.  - Clayton on 2018-03-01T21:33:13.313Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-03-01T21:33:21.327Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Sam Shih on 2018-03-01T22:58:40.355Z
+
+
+### Archiving this ticket as it has been in Fixed Bugs for more than a month without any activity. - Ghoul on 2018-06-01T03:42:24.834Z
+
+
+### Archived by Ghoul on 2018-06-01T03:42:26.758Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

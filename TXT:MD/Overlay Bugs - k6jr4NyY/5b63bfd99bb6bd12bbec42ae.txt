@@ -1,0 +1,83 @@
+[Archived] Overlay causes Minecraft Crashes (https://trello.com/c/DquYn7dq)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-08-03T02:37:13.653Z
+Latest Update: 2019-04-24T00:53:09.480Z
+
+Reported by DeJay#1337
+
+####Steps to reproduce:
+- Using Device Manager's "Display Adapters" tab please ensure you have the following hardware requirements: An integrated Intel Graphics Card and an nVidia GeForce Card on the same device (Any generation of both) *See attachments for examples* 
+- Ensure your integrated Graphics Card is not disabled or "uninstalled"  
+- Enable the Discord Overlay either before running the game, or after the game starts (Found by lieuwe_berg#8662) 
+- Start any version of non modified (Vanilla) Minecraft
+
+####Expected result:
+The game should complete it's startup and notify the user that the Discord Overlay is available with their selected keybinds.
+####Actual result:
+The game either completes startup and doesnt notify the user of the overlay (and the bug must be forced by interacting with a part of the title screen) or the game doesnt complete startup at all. This is due to Discords inability to determine what graphics card Minecraft is using (see attachments)
+####Client settings:
+Discord Canary 0.0.211 (Build 20540)
+####System settings:
+Windows 10 Home (1803) x64
+
+16798
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-03T02:37:13.653Z
+
+
+### DeJay#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b63bfd99bb6bd12bbec42ae/967ac96d3e088e81f2240d1d1a4f639d/unknown.png added by Bug Bot on 2018-08-03T02:37:16.160Z
+
+
+### DeJay#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b63bfd99bb6bd12bbec42ae/937ad9e87308113fbee95bf3f9c57608/J3ACb7C.png added by Bug Bot on 2018-08-03T02:37:16.236Z
+
+
+### DeJay#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b63bfd99bb6bd12bbec42ae/797475984a3856f09d8f72f8b282b8cd/afbdc.png added by Bug Bot on 2018-08-03T02:37:16.576Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Intel HD Graphics 5500 & Nvidia GeForce 840m, Canary 20540
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-03T02:37:21.009Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Nvidia Gefore GTX 965m, Canary 20540
+
+Carbon#4221 - Bug Bot on 2018-08-03T02:37:26.050Z
+
+
+### Can reproduce.
+Can Reproduce (CR), Windows 10 Pro x64, Release Channel: Canary 20540 | NVIDIA GeForce GTX 1050 Ti, Intel(R) HD Graphics 630 | Minecraft Launcher 2.1.1351
+
+» a r i a#1593 - Bug Bot on 2018-08-03T02:37:31.042Z
+
+
+### Can reproduce.
+CR, Win10 Home x64, Intel HD Graphics 520, NVIDIA Geforce 940MX, Canary 20540
+
+lieuwe_berg#8662 - Bug Bot on 2018-08-03T12:16:33.046Z
+
+
+### Can reproduce.
+Windows 10 Professional 1803 x64, NVIDIA GeForce GTX 1050 (Notebook), Intel HD Graphics 630
+
+Onceuponaban#8294 - Bug Bot on 2018-08-10T01:15:13.648Z
+
+
+### merged into master ticket, archiving - Tim on 2018-10-02T19:17:43.932Z
+
+
+### Archived by Tim on 2018-10-02T19:24:43.984Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

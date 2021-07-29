@@ -1,0 +1,109 @@
+[Archived] In Quick Switcher, when your query gives no results, going back from Add a Friend screen won't have the same behavior as going back from Join a Server screen (https://trello.com/c/mYDXNZoZ)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-13T23:34:14.999Z
+Latest Update: 2019-06-05T23:49:49.093Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Open Quick Switcher 
+- Type nonsense stuff in the input box to have no results 
+- Tap the Add Friend button 
+- Go back. Notice you still have the text in the input box  
+- Now tap the Join Server button 
+- Go back. Notice how the contents of the QS got reset
+
+####Expected result:
+Going back from either Add Friend or Join Server should have a similar behavior
+####Actual result:
+Their behavior are inconsistent between each other: one clears the query upon going back while the other keeps it
+####Client settings:
+Discord Alpha 7.3.0
+####System settings:
+Huawei Mate 9 Android 8.0
+
+17480
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-13T23:34:14.999Z
+
+
+### Can reproduce.
+Can repro, when I tapped join server and then backed out the entire QS menu closed Samsung Galaxy S6, 7.0, 730
+
+Xander#0259 - Bug Bot on 2018-08-13T23:34:22.415Z
+
+
+### Can reproduce.
+Can Reproduce. Samsung Galaxy S III, Android 7.1.2 (LineageOS 14.1) Discord Alpha 7.3.0
+
+CominAtYou#2626 - Bug Bot on 2018-08-13T23:34:27.360Z
+
+
+### Can reproduce.
+Can reproduce. Xiaomi Mi A1, Android 8.1.0, 730
+
+FOG_Yamato#7922 - Bug Bot on 2018-08-13T23:34:32.372Z
+
+
+### Can reproduce.
+Can reproduce - OnePlus5T - Android Oreo 8.1.0 (Oxygen OS) - Discord Alpha 730
+
+aosync#3115 - Bug Bot on 2018-08-14T08:59:06.350Z
+
+
+### Can reproduce.
+CR, Oneplus 3, 8.1.0, Alpha 7.3.1
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-14T10:55:38.204Z
+
+
+### Can reproduce.
+Can reproduce a-a
+
+Bencey_#8587 - Bug Bot on 2018-08-15T03:05:26.923Z
+
+
+### Can reproduce.
+Coolpad Mega 3, 6.0 | Discord Alpha 731
+
+The Lunala#7777 - Bug Bot on 2018-08-15T15:17:38.004Z
+
+
+### verified, android 7.0, alpha 7.3.2, samsung s6 edge - Clayton on 2018-08-16T22:25:55.236Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T22:26:04.589Z
+
+
+### Archived by Clayton on 2018-09-15T22:30:03.366Z
+
+
+### Can reproduce.
+Still reproducible as of 8.7.1, but now it's even worse: the QS completely closes upon going back from Join a Server.
+
+Alex1304#9704 - Bug Bot on 2019-04-08T20:54:14.304Z
+
+
+### Unarchived by Bug Bot on 2019-04-08T21:00:05.594Z
+
+
+### Moved from Verified Bugs to Fixed Bugs by Sam Shih on 2019-04-11T22:07:51.764Z
+
+
+### change add friends to close - Sam Shih on 2019-04-11T22:07:56.419Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:49.104Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

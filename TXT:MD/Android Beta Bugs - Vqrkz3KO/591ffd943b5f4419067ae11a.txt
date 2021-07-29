@@ -1,0 +1,171 @@
+Emoji message with text gets extra padding when changing channels (https://trello.com/c/6DrG4KUo)
+
+P2 - Can wait a while
+
+Created: 2017-05-20T08:25:56.134Z
+Latest Update: 2019-11-10T12:27:25.932Z
+
+Reported by ๖ۣۜOkori❧#0902
+
+####Steps to reproduce:
+- send a custom emoji with text 
+- send a custom emoji 
+- switch to a different channel 
+- switch back 
+- observe the emoji with text
+
+####Expected result:
+Nothing it remained the same
+####Actual result:
+Extra padding is added above the first line.
+####Client settings:
+Discord 3.8.8
+####System settings:
+-a
+
+1132
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-20T08:25:56.134Z
+
+
+### Can reproduce.
+Discord 3.8.8-Alpha, Android 4.4.4 KitKat on Tablette Lenovo A3500-FL
+
+Krotchmonster#9387 - Bug Bot on 2017-05-20T08:26:00.573Z
+
+
+### Can reproduce.
+Discord 3.8.8-Alpha, Android 4.4.4 KitKat on Tablette Lenovo A3500-FL
+
+WolfGang1710#6782 - Bug Bot on 2017-05-20T08:26:02.568Z
+
+
+### Can reproduce.
+-a
+
+ChrisFo#5249 - Bug Bot on 2017-05-20T08:26:04.606Z
+
+
+### ChrisFos system infos: Huawei Mate 7 / Android 6.0 / Discord 3.8.8 (386) ALPHA
+
+ChrisFo#5249 - Bug Bot on 2017-05-20T08:30:23.890Z
+
+
+### Can reproduce.
+Android 6.0 - Discord 3.8.8 Alpha
+
+AlFas#2783 - Bug Bot on 2017-05-20T08:38:13.165Z
+
+
+### - Send a custom emoji and some text in a single message to a text channel
+ - Send a second custom emoji as a message to the same channel
+ - Switch to a different text channel and then switch back
+ - Observe
+
+IPv4#6434 - Bug Bot on 2017-05-20T08:40:45.968Z
+
+
+### Can reproduce.
+LG Spirit, Android 5.0.1 Discord Beta 3.8.8
+
+Hoozang#2775 - Bug Bot on 2017-05-21T16:47:48.321Z
+
+
+### Can reproduce.
+Nexus 5, 7.1.2 3.8.8
+
+"zConvict"#2953 - Bug Bot on 2017-05-22T13:08:18.596Z
+
+
+### Can reproduce.
+Wileyfox Swift (2015), 7.1.1
+
+Dex#2621 - Bug Bot on 2017-05-23T08:51:21.402Z
+
+
+### Verified.  - Clayton on 2017-05-26T00:38:30.008Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-05-26T00:38:38.349Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 edge (SM-G935F), Android Nougat 7.0, Discord Alpha 4.0.2 (401)
+
+Curse Broken#8659 - Bug Bot on 2017-07-29T12:46:01.938Z
+
+
+### Can still reproduce.
+Google Pixel XL, Android 8.0.0, Discord 5.2.6 - Chris Cox on 2017-09-30T09:07:20.219Z
+
+
+### Can reproduce.
+ZTE Nubia Z7 Max (NX505J) - Android 5.1.1 - Discord 6.7.2 (672)
+
+Hachiko🐶#3838 - Bug Bot on 2018-05-17T15:12:49.421Z
+
+
+### Okori#0902 - https://youtu.be/fxjkR6r1blo added by Bug Bot on 2018-07-14T05:17:38.762Z
+
+
+### I can't tell what's going on... Can you attach screenshots of the diffs? Are you talking about the scroll position of the chat view? If so this is not something we will fix. - Sam Shih on 2018-11-09T19:12:38.424Z
+
+
+### Okori#0902 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/591ffd943b5f4419067ae11a/d65fe900694c21e0a073480e2d2edbb6/CJQzvPx.jpg added by Bug Bot on 2018-11-09T20:01:02.177Z
+
+
+### Okori#0902 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/591ffd943b5f4419067ae11a/e17fe21d72b36040795a3f479488d482/AlNJNZM.jpg added by Bug Bot on 2018-11-09T20:01:14.847Z
+
+
+### also works with regular emojis
+
+Okori#0902 - Bug Bot on 2018-11-09T20:01:38.437Z
+
+
+### Basically when you post an emoji with text, followed by just an emoji in a different message then change channels then come back to that channel the message is lifted upward
+
+Okori#0902 - Bug Bot on 2018-11-09T20:04:44.488Z
+
+
+### Moved from Won't Fix to Notable Issues by Sam Shih on 2018-11-09T20:17:20.245Z
+
+
+### Thanks for the clarification. Definitely an issue. Seems like it adds extra padding on the reparsing. Maybe it thinks we need to jumbo size it? - Sam Shih on 2018-11-09T20:18:02.081Z
+
+
+### I noticed the issue also occurred with codeblocks and mentions, just with different steps
+
+Okori#0902 - Bug Bot on 2018-11-09T20:33:43.591Z
+
+
+### refer to https://trello.com/c/GM3l8uBT https://trello.com/c/ZlLhzo2P for steps
+
+Okori#0902 - Bug Bot on 2018-11-09T20:47:57.827Z
+
+
+### I think this has to do with TextViews not resizing themselves when their content changes under certain circumstances. Fresco DraweeSpan is maybe modifying the line height, and then it isn't getting re-modified when the textview is recycled and used later to display something else.
+
+If we can get a consistent repro (which is hard bc it's luck-related to views recycling) we can force the textview to measure in the `onConfigure` and see if that fixes it. Would be super bad performance but would verify the cause, then we can figure out next steps... - Andy Garron on 2018-11-09T21:27:34.131Z
+
+
+### Can reproduce.
+Also happens with emotes inside of spoilers making the spoiler bigger but in this case you have to scroll up and down to make it happen. Samsung Galaxy J5 Prime Android 8.0.0, Discord Alpha 8.3.9
+
+Mr. Black#7477 - Bug Bot on 2019-02-02T23:12:47.052Z
+
+
+### Can reproduce.
+Moto G7 Power, Android 9.0, Discord 983
+
+Saluki#7350 - Bug Bot on 2019-11-10T12:27:25.944Z
+
+List
+====
+Notable Issues
+
+Members
+=======
+Unknown User (https://trello.com/andygarron1) - No Bio
+Unknown User (https://trello.com/lytefast) - No Bio

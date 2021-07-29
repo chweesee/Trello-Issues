@@ -1,0 +1,97 @@
+[Archived] Over 100 char limit does go away once gone under (https://trello.com/c/6NP1SyCg)
+
+P3: Will get fixed eventually
+
+Created: 2017-04-24T19:48:59.664Z
+Latest Update: 2017-10-17T20:32:01.497Z
+
+Reported by Aeokieek#1574
+
+####Steps to reproduce: 
+- Go to Server Settings 
+- Make the server name over 100 characters 
+- Try click save button (limit error should come) 
+- Make the name smaller that 100 chars 
+- Click Save Changes 
+
+####Expected result:
+ The 100 char limit should go away once either (a) you go under 100 chars (b) you click save changes 
+####Actual result:
+ Over 100 char limit stays 
+####System settings:
+ Windows 10 x64, Latest Canary
+
+1206
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-24T19:48:59.664Z
+
+
+### Can reproduce.
+arch 0.15 canary
+
+Alex from Alaska#9760 - Bug Bot on 2017-04-24T19:49:00.948Z
+
+
+### Can reproduce.
+Win 10 x64, latest Canary
+
+mouse91#3089 - Bug Bot on 2017-04-24T19:49:02.882Z
+
+
+### Can reproduce.
+Windows 8.1, latest canary
+
+T͡ida͢lTe͟m͝p̵ès̀t#1727 - Bug Bot on 2017-04-24T19:49:04.896Z
+
+
+### https://gyazo.com/72ea053f8a1f30da6ae1216cd01e6bf1 - https://gyazo.com/72ea053f8a1f30da6ae1216cd01e6bf1 added by Bug Bot on 2017-04-24T19:49:15.963Z
+
+
+### Can reproduce.
+Discord Canary, Windows 10 x64
+
+AlFas#2783 - Bug Bot on 2017-04-24T20:13:38.674Z
+
+
+### Verified, low priority. - Jared on 2017-04-25T18:33:33.554Z
+
+
+### Moved from User Reported Bugs to Server Settings Redesign Bugs by Jared on 2017-04-25T18:33:49.520Z
+
+
+### Moved from Server Settings Redesign Bugs to Claimed Fixed, needs Verification by Amadeus on 2017-05-01T18:54:56.029Z
+
+
+### Tested as of latest canary:
+
+There's now maximum 100 characters for the server name. However if I change that (you can through the console) to 200, it'll show up the char limit message. This char limit message DOES NOT go away if you're under a 100 (as per the ticket bug).
+
+However you shouldn't be able to go over the 100 char limit unless you make changes to the code through the console. - Alexander (DJScias) on 2017-05-02T23:21:11.977Z
+
+
+### If someone deliberately tries to break things through the console, I consider those a `wont fix` unless they are somehow exposing a security flaw - Amadeus on 2017-05-03T00:50:22.131Z
+
+
+### Fair enough. Just wanted to note that the 100 char limit warning still remained. But considering you blocked it off that shouldn't be a problem. :thumbsup:  - Alexander (DJScias) on 2017-05-03T00:51:24.241Z
+
+
+### Verified fixed, can no longer enter in more than 100 characters so the error never appears. - Jared on 2017-06-27T20:50:31.787Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-06-27T20:50:35.196Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Jared on 2017-10-17T20:31:57.727Z
+
+
+### Archived by Jared on 2017-10-17T20:32:01.500Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/amadeus90) - No Bio

@@ -1,0 +1,51 @@
+"The card was declined" message appears on other menus after a card has been declined (https://trello.com/c/IfNT13vC)
+
+None
+
+Created: 2019-06-10T23:47:19.467Z
+Latest Update: 2020-07-16T21:26:04.166Z
+
+Reported by HeavyBlurrySoul#1931
+
+####Steps to reproduce:
+- Go to the discord nitro page 
+- Click on any of the 2 subscriptions 
+- Fill in the payment information, use a fake card generator 
+- click next 
+- fill in a valid address 
+- click next, the message should appear 
+- click X to close the menu 
+- Go to the billing page 
+- Click on Add payment method, the error message appears on the menu
+
+####Expected result:
+There should be no error message
+####Actual result:
+The error message appears on the menu
+####Client settings:
+canary, Build Number: 39387
+####System settings:
+Windows 10 Pro, x86_64
+
+36624
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-10T23:47:19.467Z
+
+
+### HeavyBlurrySoul#1931 - https://youtu.be/_Ghq-nAUJJs added by Bug Bot on 2019-06-10T23:47:21.975Z
+
+
+### Can reproduce.
+can repro, canary 39387, macos 10.14.3
+
+IcyPebbles#5833 - Bug Bot on 2019-06-10T23:47:26.845Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

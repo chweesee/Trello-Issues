@@ -1,0 +1,68 @@
+[Archived] Uncaught (in promise) error when closing re-subscribe modal. (https://trello.com/c/312NfGCY)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-20T15:44:30.014Z
+Latest Update: 2019-05-01T22:30:16.064Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+- Note: *Ignore the TypeError in my GIF, it's a Chrome extension causing it.* 
+- Note: *You can safely reproduce this without losing your Nitro, just remember to add your payment method back and hit re-subscribe when you've reproduced this.* 
+- Subscribe to Nitro. 
+- Unsubscribe (User Settings > Discord Nitro). 
+- Remove any payment methods (User Settings > Billing). 
+- Open up the console (Chrome DevTools). 
+- Click Re-subscribe (User Settings > Discord Nitro). 
+- Close the modal.
+
+####Expected result:
+No uncaught (in promise) error should be thrown in console.
+####Actual result:
+An uncaught (in promise) error is thrown in console.
+####Client settings:
+Web Canary 34132 + Web Stable 33990
+####System settings:
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64)
+
+31279
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-20T15:44:30.014Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c925fdd26820525bab095ce/39d1d7867efba1a13c83b58ba0b2ecbf/wpq1vBe.gif added by Bug Bot on 2019-03-20T15:44:35.900Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 34220
+
+charleskimbac#6492 - Bug Bot on 2019-03-20T15:44:38.538Z
+
+
+### Can reproduce.
+CR on Web Stable 34256, Version Hash: 26fdea82556ecdb783fe60e448ead5bf12c2dd5d, CHrome 73.0.3683.75
+
+Defracted#7777 - Bug Bot on 2019-03-20T15:44:42.336Z
+
+
+### Can reproduce.
+cr, Win10 Pro - Canary 34282
+
+tonite#0001 - Bug Bot on 2019-03-20T15:44:47.350Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-04-01T22:24:45.073Z
+
+
+### Archived by Bug Bot on 2019-05-01T22:30:16.075Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,76 @@
+[Archived] [iPad Split View] Client resizes and predictive text going out of bounds when changing split screen size with emote picker opened (https://trello.com/c/CjK7ujLu)
+
+P3 - Will be fixed eventually
+
+Created: 2018-10-22T15:06:03.775Z
+Latest Update: 2019-01-31T19:59:52.252Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+- Open another app in Split View mode with Discord 
+- Open the new Discord emote picker 
+- Change the size in Split View mode of the other app with emote picker being still opened (e.g. from 75-25 to 50-50) 
+- Observe the emote picker/keyboard
+
+####Expected result:
+Keyboard and emote picker should look normal without any overlapping or resizing issues.
+####Actual result:
+Client resizes (you will see a black bar at the bottom) and predictive text going out of bounds.
+####Client settings:
+TestFlight 2.3.9 (8385)
+####System settings:
+iPad Air 2, iOS 12.1 (PB 4)
+
+21490
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-22T15:06:03.775Z
+
+
+### Pascal#0929 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5bcde75ba15b520f2b1d74db/ddbc4b2e43ddb9cec474c807734ae4e4/zWdIGls.jpg added by Bug Bot on 2018-10-22T15:06:06.979Z
+
+
+### Can reproduce.
+iPad 2018 iOS 12.0 - TestFlight 2.3.9 (8385)
+
+Jengas#7777 - Bug Bot on 2018-10-22T15:06:11.918Z
+
+
+### Can reproduce.
+Can reproduce iPad 2017 Model (5th Generation), iOS 12.0.1 - Discord TestFlight 2.3.9 (8441). Discord have to be about 50% or bigger than the other application, and the other application has to be on the right in order to see the bug.
+
+Ghoul#0099 - Bug Bot on 2018-10-22T15:06:16.894Z
+
+
+### Can reproduce.
+CR iPad 5th generation 2017 iOS 12.0.1 TF 2.3.9 (8395)
+
+iiTigerDude160#5673 - Bug Bot on 2018-10-22T15:06:21.968Z
+
+
+### Can reproduce.
+!storeinfo
+
+Soheabmalik#2228 - Bug Bot on 2018-10-22T23:13:45.079Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-10-31T00:25:31.594Z
+
+
+### Can reproduce.
+iPad Pro 12.9" (3rd Generation), iOS 12.1 - TestFlight 2.4.0 (8921)
+
+Alfie#1582 - Bug Bot on 2018-11-14T17:43:14.273Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:52.262Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

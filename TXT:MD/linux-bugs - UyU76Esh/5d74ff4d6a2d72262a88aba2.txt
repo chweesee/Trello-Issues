@@ -1,0 +1,156 @@
+[Linux Specific] Dialogs / Modals hover at the top of the window and are broken (https://trello.com/c/Aut6Ifeb)
+
+None
+
+Created: 2019-09-08T13:17:01.876Z
+Latest Update: 2020-01-25T02:31:13.589Z
+
+Reported by Pyxel#1000
+
+####Steps to reproduce:
+- Load up the latest canary version (with the design changes) 
+- Click on an image or open the attach file dialog (or possibly any other dialog) 
+- The dialog/modal is at the top of the window, and doesn't darken the background of the window
+
+####Expected result:
+The window should darken, showing the modal in the middle of the window
+####Actual result:
+The modal hovers on top of the window, the app not darkening, and preventing me from typing
+####Client settings:
+[BUILD INFO] Release Channel: canary, Build Number: 45323, Version Hash: 1b453ef11873fd6a417a0833f201d06b4f35f2da
+####System settings:
+Solus Linux x64 4.0;  #1 SMP PREEMPT Fri Aug 16 13:50:56 UTC 2019 x86_64 GNU/Linux
+
+43700
+
+Card Log
+========
+### Added by Bug Bot on 2019-09-08T13:17:01.876Z
+
+
+### Pyxel#1000 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5d74ff4d6a2d72262a88aba2/5f89e7269ace4e73a29958f05b5db491/fzTOcdD.png added by Bug Bot on 2019-09-08T13:17:05.006Z
+
+
+### Pyxel#1000 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5d74ff4d6a2d72262a88aba2/29eb77be44cd6ebdcc0c8698dc84587d/JESYC9P.png added by Bug Bot on 2019-09-08T13:17:05.113Z
+
+
+### Can reproduce.
+Canary 45325, Manjaro Linux x64, Kernel 5.3.0-1-MANJARO
+
+Ritsuko (MC)#4405 - Bug Bot on 2019-09-08T13:17:09.394Z
+
+
+### Can reproduce.
+Arch Linux with XFCE
+
+Solly#0001 - Bug Bot on 2019-09-08T13:17:14.384Z
+
+
+### Can reproduce.
+OpenSuse Tumbleweed 20190905, XFCE4, Discord Canary Build 45325
+
+Starshine Dust#2189 - Bug Bot on 2019-09-08T13:17:19.523Z
+
+
+### Can reproduce.
+ArchLinux Rolling (Linux Kernel 5.2.11) - i3 - Discord Canary 45325 565ca2aef178a61a9e90a424ba8c5e5ba1f8cc75 - Seems to work like a modal (prevents elements to be clicked) but it is not displayed. Had to use escape key.
+
+chanbakjsd#7968 - Bug Bot on 2019-09-08T13:42:03.197Z
+
+
+### Can reproduce.
+Canary 45325, Kubuntu 19.04
+
+RadioactiveHydra#2570 - Bug Bot on 2019-09-08T13:57:56.007Z
+
+
+### Can reproduce.
+Canary 45325, Kubuntu 18.04
+
+mark9064#4401 - Bug Bot on 2019-09-08T15:43:59.211Z
+
+
+### Can reproduce.
+Arch Linux Rolling (kernel 5.2.13); QTile; Discord Canary
+
+aika#5870 - Bug Bot on 2019-09-08T18:53:18.286Z
+
+
+### Can reproduce.
+ArchLinux Rolling (Linux Kernel 5.2.13-arch-1-1) - i3 - Discord Canary 45338 784f3069c4e6607e5f05d9ac550b8513850a9fdb
+
+chanbakjsd#7968 - Bug Bot on 2019-09-09T07:28:39.622Z
+
+
+### Can reproduce.
+Arch Linux - i3wm with i3bar on top of screen - Release Channel: canary, Build Number: 45338
+
+Tom Siewert#0001 - Bug Bot on 2019-09-09T09:59:44.590Z
+
+
+### Can reproduce.
+Archlinux - KDE Plasma 5 - [BUILD INFO] Release Channel: canary, Build Number: 45338, Version Hash: 784f3069c4e6607e5f05d9ac550b8513850a9fdb
+
+Saphire#0001 - Bug Bot on 2019-09-09T12:01:25.363Z
+
+
+### Can reproduce.
+Manjaro XFCE Linux 18.0.4, Discord Canary 45338
+
+canelex_#6666 - Bug Bot on 2019-09-09T13:36:07.697Z
+
+
+### Can reproduce.
+Arch Linux (i3 WM), Canary 45338 (host 0.0.96) 784f3069c4e6607e5f05d9ac550b8513850a9fdb
+
+score#6846 - Bug Bot on 2019-09-09T15:25:28.888Z
+
+
+### Can reproduce.
+Ubuntu 19.04. Kernel: 5.0.0-27-generic. Release Channel: canary, Build Number: 45338, Version Hash: 784f3069c4e6607e5f05d9ac550b8513850a9fdb
+
+techied#0110 - Bug Bot on 2019-09-09T17:32:19.570Z
+
+
+### Can't reproduce.
+ubuntu 16.04 LTS, Discord Canary, Build Number: 46174, Version Hash: 1611941f098f6544ac999d9e21a3a722719638a7 , 64Bits
+
+Janel#1437 - Bug Bot on 2019-09-21T02:43:19.771Z
+
+
+### Can reproduce.
+canary, Build Number: 46205; 5.2.5-arch1-1-ARCH; Arch Linux x86_64
+
+HeavyBlurrySoul#8699 - Bug Bot on 2019-09-24T08:59:58.793Z
+
+
+### Can reproduce.
+Release Channel: stable, Build Number: 46505, Version Hash: fb56522df8e3fa7e26143ad9c0ead64bb8146941, Pop!_OS 18.04
+
+GoofballMichelle#9215 - Bug Bot on 2019-09-29T00:01:43.983Z
+
+
+### Can't reproduce.
+ubuntu 16.04 LTS, Discord Canary, Build Number: 48399, Version Hash: c600f2928d9d7299ab37e355b54e7b9a01672dcd
+
+Dany#1234 - Bug Bot on 2019-10-31T01:14:53.039Z
+
+
+### Can reproduce.
+Ubuntu 19.10, Release Channel: canary, Build Number: 48769, Version Hash: 0148dfd3a87e5ada5e117826b5a308dd70448a6b
+
+Geert#5796 - Bug Bot on 2019-11-07T18:48:22.858Z
+
+
+### Can't reproduce.
+Pop!_os 19.10, Canary 49715, this is an old desktop bug and is already fixed
+
+ebbit#0915 - Bug Bot on 2019-11-16T21:14:51.400Z
+
+List
+====
+User Reported
+
+Members
+=======
+None

@@ -1,0 +1,104 @@
+[Archived] (Resubmit)A message with 2000 Unicode characters for ☠ will crash upon trying to edit it (https://trello.com/c/ohQfSW32)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-05-06T21:06:06.819Z
+Latest Update: 2019-01-11T00:00:14.702Z
+
+Reported by iii#8595
+
+####Steps to reproduce:
+- Type 2000 Unicode characters for ☠  
+- Send it 
+- Try to edit the resulting converted message 
+- Optional: ctrl+a the result when editing ctrl+c ctrl+v twice
+
+####Expected result:
+Message gets shown in edit mode sent
+####Actual result:
+Client crashes (related to desktop bug #12003, the resulting character count is around 36399) About Optional: 2000 is enough to crash my client when trying to edit, but probably not enough to crash all clients. Probably caused by trying to calculate if all the :: are emotes
+####Client settings:
+[BUILD INFO] Release Channel: stable, Build Number: 14651, Version Hash: 05273b109bbf775536938c01a1ba710d1c61d86c
+####System settings:
+Win 10 64-bit, x64-based processor, Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz, 8GB RAM
+
+12109
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-06T21:06:06.819Z
+
+
+### Can reproduce.
+https://hastebin.com/ixuqojokuk exactly 2000 characters crashes MacOS 10.13.3, Canary 14558, rMBP 2015
+
+ash#0001 - Bug Bot on 2018-05-06T21:06:14.227Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 14720 Windows 10 x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-05-06T21:06:19.170Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 14720
+
+webhp#1337 - Bug Bot on 2018-05-06T21:06:24.310Z
+
+
+### also reproducible on -l
+
+ash#0001 - Bug Bot on 2018-05-06T21:07:58.792Z
+
+
+### also reproducible on Ubuntu 16.04.4 LTS Canary 14558
+
+ash#0001 - Bug Bot on 2018-05-06T21:08:19.910Z
+
+
+### Can reproduce.
+Windows 10 Home 16299 x64, Canary 14720
+
+Baelish#0001 - Bug Bot on 2018-05-07T00:10:43.777Z
+
+
+### Can reproduce.
+Win 10 x64 - Discord Stable 14651
+
+ODAKAB#3381 - Bug Bot on 2018-05-07T00:54:25.799Z
+
+
+### Can reproduce.
+Windows 10 Enterprise x64 15063, Discord Stable 0.0.301
+
+Dresiden#8102 - Bug Bot on 2018-05-07T23:21:22.175Z
+
+
+### Verified. Crashed as soon as I tapped the UP key to enter message edit mode, same crash when clicking on edit in message options.
+
+Win 10 x64 [BUILD INFO] Release Channel: canary, Build Number: 14817, Version Hash: fd481f5e6747b328dcd4aaa0d31a7dfa9bb0c34b - Jared on 2018-05-08T20:12:02.840Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-08T20:13:05.025Z
+
+
+### 54D#1357 - https://youtu.be/eeQZJELjYJM added by Bug Bot on 2018-07-14T06:28:45.221Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13", Mid-2012), macOS 10.13.6 - Canary 24925
+
+Mippy#0001 - Bug Bot on 2018-09-28T12:37:52.567Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:14.706Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

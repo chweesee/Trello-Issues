@@ -1,0 +1,123 @@
+[Archived] emoji text isn't at middle (https://trello.com/c/FC8cgDmi)
+
+P3 - Will be fixed eventually
+
+Created: 2017-08-24T17:37:16.163Z
+Latest Update: 2018-06-02T17:23:09.722Z
+
+Reported by ~♪☆ yuudachi_IJN ☆♪~#7699
+
+####Steps to reproduce:
+- open the emoji picker
+- hold down on a emoji with 1 to 3 letters (ex: :cat:)
+- observe the toast
+
+####Expected result:
+the text should at middle
+####Actual result:
+text isn't at middle
+####Client settings:
+Discord Alpha 4.0.9
+####System settings:
+Discord 4.0.9 , Android 5.0.2/Android 5.1
+
+3582
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-24T17:37:16.163Z
+
+
+### ~♪☆ yuudachi_IJN ☆♪~#7699 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/599f0ecc857fffb1de75307e/61870e90e0fbb342835ac02a9acee3d7/Screenshot_2017-08-25-02-25-21.png added by Bug Bot on 2017-08-24T17:37:18.976Z
+
+
+### Can reproduce.
+CR - Android Alpha 4.0.9 - Google Pixel - Android 8.0.0 - Seems to happen with all emojis that have short names (2-3 letters)
+
+Pointy#9109 - Bug Bot on 2017-08-24T17:37:23.550Z
+
+
+### Can reproduce.
+CR on LG xpower 6.0.1 using android Alpha client 4.0.9. Seem to happen only with short name emoji (around 3 letters)
+
+ks0908#8526 - Bug Bot on 2017-08-24T17:37:28.991Z
+
+
+### Can reproduce.
+CR Moto G4 Android 7.0 seems to only happen with really short emoji names, around 3 letters max
+
+Azrael#6867 - Bug Bot on 2017-08-24T17:37:34.228Z
+
+
+### Can reproduce.
+Samsung Galaxy S7 Edge, Android 7.0, Discord Android Alpha 4.0.9 (504)
+
+Cubular#6460 - Bug Bot on 2017-08-24T18:03:51.376Z
+
+
+### Can reproduce.
+OnePlus 5, Android 7.1.1, Discord Alpha 4.0.9
+
+PinkieBarto#9554 - Bug Bot on 2017-08-24T18:06:35.147Z
+
+
+### Can't reproduce.
+Google Pixel, 8.0.0
+
+Tobiah#8452 - Bug Bot on 2017-08-24T20:38:05.386Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Sam Shih on 2017-08-25T22:37:36.855Z
+
+
+### we are just using a regular toast with no custom positioning so this should be system centered. I can't repro on my pixel. Could be that the emoji you selected has some special text representation? - Sam Shih on 2017-08-25T22:38:39.530Z
+
+
+### emoji must have 1 to 3 characters
+
+Okori#0902 - Bug Bot on 2017-10-25T10:22:33.055Z
+
+
+### Was able to reproduce with the following steps provided by Okori#0902:
+
+- open the emoji picker
+- hold down on a emoji with 1 to 3 letters (ex: :cat:)
+- observe the toast
+
+The device I reproduced on was a Nexus 4 running Android 5.1.1, however I was not able to reproduce on my Pixel XL running Android 8.1.0 DP. This may be limited to older versions of Android? - Chris Cox on 2017-10-29T00:15:15.397Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Chris Cox on 2017-10-29T00:15:34.763Z
+
+
+### Verified.  - Clayton on 2017-11-01T21:02:04.159Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-11-01T21:02:09.972Z
+
+
+### Can no longer repro, text is now centered with no extra padding.
+Google Nexus 4, Android 5.1.1, Discord 6.4.1 - Chris Cox on 2018-03-22T00:30:18.919Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Chris Cox on 2018-03-22T00:30:23.961Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-03-22T23:32:11.112Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2018-03-22T23:32:15.557Z
+
+
+### archiving for being fixed over 30 days without activity - Tim on 2018-06-02T17:23:07.729Z
+
+
+### Archived by Tim on 2018-06-02T17:23:09.725Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

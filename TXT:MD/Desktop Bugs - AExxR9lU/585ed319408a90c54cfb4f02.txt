@@ -1,0 +1,54 @@
+[Archived] Adding or deleting a reaction on a message out of view causes the chat window to jump down by a varied amount if a new message is sent. (https://trello.com/c/7vwiOVEp)
+
+P3: Will get fixed eventually
+
+Created: 2016-12-24T19:57:13.351Z
+Latest Update: 2018-10-22T20:13:28.418Z
+
+Reported by Enharmonic#3999
+
+####Steps to reproduce: 
+- Scroll up to a message that's out of view (message history). 
+- Have another user send a message while you are viewing the message history. 
+- Try adding or removing your reaction from a message in the message history. 
+
+####Expected result:
+ The chat window does not jump down. 
+####Actual result:
+ The chat jumps down by a seemingly random amount.
+
+Card Log
+========
+### Added by Jared on 2016-12-24T19:57:13.351Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 AU, latest Canary
+
+Tiemen#7217 - Jared on 2016-12-24T19:57:13.921Z
+
+
+### c5f7813ed8.gif - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/585ed319408a90c54cfb4f02/06084850a805fc2587e4a034ec2b54d3/c5f7813ed8.gif added by Jared on 2016-12-24T19:57:29.227Z
+
+
+### Verified, but minor. - Jared on 2017-01-03T18:47:51.335Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T18:47:55.651Z
+
+
+### Can reproduce.
+Canary 18027 - Windows 10 Home x64 v1709
+
+HarryThorpe#0864 - Bug Bot on 2018-06-30T14:37:49.962Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:28.421Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

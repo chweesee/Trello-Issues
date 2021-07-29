@@ -1,0 +1,104 @@
+[Archived] Ban modal goes off the screen (https://trello.com/c/9xEwtlz2)
+
+P2: Fix can wait a while
+
+Created: 2017-05-17T07:50:30.976Z
+Latest Update: 2017-11-15T19:29:25.534Z
+
+Reported by Oasis#4730
+
+####Steps to reproduce:
+- Right click on a user and select ban
+
+####Expected result:
+Whole modal fits on screen or is scrollable
+####Actual result:
+The ban/cancel buttons at the bottom are hidden and inaccessible
+####Client settings:
+Canary 0.0.154
+####System settings:
+Windows 10 CU (1920 x 1080) windows should be zoomed in to 150%
+
+1051
+
+Card Log
+========
+### Added by Bug Bot on 2017-05-17T07:50:30.976Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Creators Update
+
+Chrees#4389 - Bug Bot on 2017-05-17T07:50:35.380Z
+
+
+### Can reproduce.
+Can reproduce if super zoomed in Windows 8.1 x64
+
+守部 洵 ★★★★#9667 - Bug Bot on 2017-05-17T07:50:37.417Z
+
+
+### Can reproduce.
+can reproduce on normal zoom Windows 10 Pro x64
+
+Azrael#6867 - Bug Bot on 2017-05-17T07:50:39.435Z
+
+
+### Can reproduce.
+Windows 10 Creators Update, Discord Canary 0.0.154
+
+Wolfstorm#0986 - Bug Bot on 2017-05-17T08:44:08.735Z
+
+
+### This seems to be happening even on supported window sizes if zoomed in. The issue is that a scrollbar doesn't appear like it should such as on other modals like Profile, Notification Settings, etc.
+
+Chrees#4389 - Bug Bot on 2017-05-17T08:46:42.689Z
+
+
+### Caused by reason textbox pushing button out on those screens with low screen height. A temp workaround is to use Canary's "zoom level" to zoom out and make the button appear, but I believe this is a known issue anyway.
+
+SuperSajuuk#7265 - Bug Bot on 2017-05-17T11:47:52.806Z
+
+
+### Verified, low priority - Jared on 2017-05-18T18:27:27.553Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-05-18T18:27:33.377Z
+
+
+### Can reproduce.
+Windows 10, latest Discord Canary
+
+Akii#2060 - Bug Bot on 2017-05-18T23:06:39.109Z
+
+
+### Can reproduce.
+Windows 10 Pro 64x, Discord Canary
+
+Luke#6723 - Bug Bot on 2017-05-19T13:19:35.915Z
+
+
+### Can no longer reproduce. Windows 10 Pro x64 Creators Update, Discord Canary (5085). - Chris Cox on 2017-09-29T05:23:56.997Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Chris Cox on 2017-09-29T05:24:05.097Z
+
+
+### Fixed.  - Clayton on 2017-10-04T00:26:04.442Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2017-10-04T00:26:07.540Z
+
+
+### Archived due to one month of no new action. - Alexander (DJScias) on 2017-11-15T19:29:24.585Z
+
+
+### Archived by Alexander (DJScias) on 2017-11-15T19:29:25.536Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

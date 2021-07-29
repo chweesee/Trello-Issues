@@ -1,0 +1,64 @@
+[Archived] [Audit Log] editing emoji shows edited name in emoji create entry (https://trello.com/c/ZfpmYsA5)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-04T20:59:46.782Z
+Latest Update: 2019-01-11T00:00:51.912Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- Add an emote 
+- edit its name 
+- observe Audit Log
+
+####Expected result:
+create entry should show the original name of the emote, the name it had after it got created (as it is on android), not the edited name
+####Actual result:
+create entry shows the edited name
+####Client settings:
+Canary Build 25434
+####System settings:
+Windows 10 Pro x64
+
+20618
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-04T20:59:46.782Z
+
+
+### Can reproduce.
+Win 10 Pro 1703, Canary 25439. Shows the correct name when expanding the create entry however.
+
+! craftxbox#4738 - Bug Bot on 2018-10-04T20:59:54.043Z
+
+
+### Can reproduce.
+CR, Windows 10 1803, Desktop Canary 25439
+
+Toby#5609 - Bug Bot on 2018-10-04T20:59:59.041Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 25439
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-04T21:00:04.301Z
+
+
+### verified, macos 10.12.6, canary 25439 - Clayton on 2018-10-04T21:12:59.117Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-04T21:13:07.708Z
+
+
+### Archived by Bug Bot on 2019-01-11T00:00:51.914Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

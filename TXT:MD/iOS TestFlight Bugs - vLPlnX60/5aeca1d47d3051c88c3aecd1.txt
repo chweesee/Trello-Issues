@@ -1,0 +1,85 @@
+[Archived] User and role mentions are broken when you try to tag 1 of them (https://trello.com/c/ApLzG8Is)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-05-04T18:09:24.548Z
+Latest Update: 2018-09-04T23:13:22.003Z
+
+Reported by Xylium#1480
+
+####Steps to reproduce:
+- Create a role named (for example: Mythix) 
+- Have a user named the same name as the role 
+- Spell out the user normally (Without its #{number})
+
+####Expected result:
+User should be mentioned fine without the role being tagged
+####Actual result:
+Role gets tagged instead of the user
+####Client settings:
+TestFlight 2.3.1 (4051)
+####System settings:
+iPhone 6 - iOS 11.4
+
+11938
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-04T18:09:24.548Z
+
+
+### Xylium#1480 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5aeca1d47d3051c88c3aecd1/8629d3fedb8301ce2c12c3064ff8a2e6/image.gif added by Bug Bot on 2018-05-04T18:09:27.261Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 3, TestFlight 2.3.1 (4051) | Tested it with a role called "TestMeme" and a user "TestMemer"
+
+Pascal#0929 - Bug Bot on 2018-05-04T18:09:31.997Z
+
+
+### Can reproduce.
+iPhone iOS 10.2.1, TestFlight 2.3.1 (4051)
+
+Pyros#2326 - Bug Bot on 2018-05-04T18:09:36.966Z
+
+
+### Can reproduce.
+Can Reproduce - iPhone 6s iOS 11.2.6 TestFlight 2.3.1 (4051)
+
+Rashaun#9295 - Bug Bot on 2018-05-04T18:09:41.941Z
+
+
+### Can reproduce.
+Can reproduce. iPhone 8 +, iOS 11.4 - Public Beta 3; Discord TestFlight 2.3.1 (4051)
+
+Ghoul the Kitty#0009 - Bug Bot on 2018-05-05T01:40:07.575Z
+
+
+### Can reproduce.
+iPhone 6s Plus, iOS  11.3, TestFlisht 2.3.1 (4051)
+
+Don#9396 - Bug Bot on 2018-05-05T05:15:11.016Z
+
+
+### Can reproduce.
+iPhone 7, iOS 11.3, TestFlight 2.3.1 (4051)
+
+Astraphus#0002 - Bug Bot on 2018-05-05T08:58:53.965Z
+
+
+### Feature parity, user is tagged on desktop.  - Clayton on 2018-05-08T19:44:17.645Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-08T19:44:22.775Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:22.006Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

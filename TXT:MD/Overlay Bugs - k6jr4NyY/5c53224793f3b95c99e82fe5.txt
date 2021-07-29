@@ -1,0 +1,73 @@
+Joining a voice channel in game overlay and restarting discord canary makes the overlay freeze and cannot be reopened. (https://trello.com/c/xrpSbO7I)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-01-31T16:28:55.563Z
+Latest Update: 2019-05-12T11:40:13.133Z
+
+Reported by Michy#7664
+
+####Steps to reproduce:
+- Use Discord Canary 
+- Launch a verified app (make sure overlay is toggled on) 
+- Join a voice channel using the overlay 
+- Refresh Discord Canary (CRTL + R) (Discord might freeze up a bit but wait for it to load and then overlay should automatically disappear from your game otherwise, press the toggle off button.)
+
+####Expected result:
+The game overlay should show after discord has fully reloaded from being refreshed.
+####Actual result:
+The overlay disappears and never comes back despite pressing the toggle button multiple times.
+####Client settings:
+Discord Canary, Build Number: 31566, Version Hash: f82f54cdd67577b7f86814df8a22d08b874eb320
+####System settings:
+Windows 7 Professional x64 v. 7601
+
+27452
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-31T16:28:55.563Z
+
+
+### Can reproduce.
+Windows 10 Home Version; Discord Canary 31566
+
+jedi3#0001 - Bug Bot on 2019-01-31T16:29:02.908Z
+
+
+### Can reproduce.
+Can reproduce; Canary: 31566, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-01-31T16:29:08.003Z
+
+
+### Can reproduce.
+(CR) WIndows 10 Pro 64x,Canary 31618
+
+Octillion#6666 - Bug Bot on 2019-01-31T16:29:12.897Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 (1809) - Canary 31618 - The overlay appears when I press the overlay lock keybind
+
+Viruz#9907 - Bug Bot on 2019-01-31T17:15:59.427Z
+
+
+### Cannot reproduce anymore on Canary 36529, Windows 10 Home 64-bit (v1809).
+
+Moving to Claimed Fixed. - Ene on 2019-04-29T19:15:54.922Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Ene on 2019-04-29T19:15:59.444Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-12T11:40:13.146Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

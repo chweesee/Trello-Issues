@@ -1,0 +1,104 @@
+[Archived] calling a friend whose profile picture is part transparent, will make part of __his__ (not ur own) pfp on your screen white (also happens on that call popup if u __get called__ by someone with transparent pfp) (https://trello.com/c/bnCL86H2)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-04T12:39:03.845Z
+Latest Update: 2019-06-16T05:05:43.780Z
+
+Reported by Nashorn#3450
+
+####Steps to reproduce:
+- have someone in ur friendlist who has a profile picture in which some parts are transparent 
+- call him 
+- observe call header
+
+####Expected result:
+profile picture of ur friend (above the "leave call" button) should be transparent as well
+####Actual result:
+parts of the pfp are white
+####Client settings:
+Canary 25434
+####System settings:
+Windows 10 Pro x64
+
+20597
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-04T12:39:03.845Z
+
+
+### Nashorn#3450 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bb609e7be3bf3201dad69b4/18bdd59fd57c5c24602aa9a21b496678/1538646609432.png added by Bug Bot on 2018-10-04T12:39:06.454Z
+
+
+### Can reproduce.
+Can reproduce on Windows 10 x64 v1803, Discord Canary 25439
+
+Haru😍💜#6660 - Bug Bot on 2018-10-04T12:39:11.146Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 25439
+
+Neiron#2406 - Bug Bot on 2018-10-04T12:39:16.152Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary 25439, (v1803)
+
+DowDaw#0008 - Bug Bot on 2018-10-04T12:39:21.186Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 25439
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-04T13:34:06.671Z
+
+
+### Moved from User Reported Bugs to Electron 3.0.1 Update Bugs 🍒 by Tarek on 2018-10-04T17:43:57.048Z
+
+
+### verified, macos 10.12.6, canary 25439 - Clayton on 2018-10-04T22:55:02.512Z
+
+
+### Can reproduce.
+Win10 Home 1803 build 17134.286 + Discord Canary 25648 and PTB 25638
+
+ogx#2920 - Bug Bot on 2018-10-06T21:25:42.518Z
+
+
+### Cannot reproduce with Electron 3.0.3/Discord Canary 0.0.215 
+https://i.imgur.com/Y1NbHCv.png - Tarek on 2018-10-09T04:00:58.330Z
+
+
+### Moved from Electron 3.0.1 Update Bugs 🍒 to Claimed Fixed, needs Verification by Tarek on 2018-10-09T04:01:03.612Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-16T05:57:41.707Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:53:26.946Z
+
+
+### Archived by Tarek on 2019-01-01T15:53:27.904Z
+
+
+### Can reproduce.
+Windows 10 Home Build 17134, Discord Canary 33117
+
+Bsian#0060 - Bug Bot on 2019-03-02T10:17:03.795Z
+
+
+### Can reproduce.
+stable, Build Number: 39667, Windows 10
+
+PepsiPlayzz#2800 - Bug Bot on 2019-06-16T05:05:43.786Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

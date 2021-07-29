@@ -1,0 +1,66 @@
+[Archived] You are still given the option to mark as read a server / channel with no unreads, as well as a server with no channels, while those options are grayed out on Desktop (https://trello.com/c/peXSIC8b)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-06-17T03:05:12.354Z
+Latest Update: 2018-08-22T01:22:54.238Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Find a server / channel with no unreads, or find a server with no text channels 
+- Open the server/channel action sheet
+
+####Expected result:
+"Mark as Read" should not be there or should be grayed out as on Desktop
+####Actual result:
+You can mark as read something already marked as read, or even the void in the case of servers with no channels. It does nothing but sends a useless request to the API
+####Client settings:
+Discord Alpha 6.9.5
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14251
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-17T03:05:12.354Z
+
+
+### Can reproduce.
+Can Reproduce | Although it has no visible effects, the button can still be used. This bug will be very low priority though. Tested on ZTE Blade A602, Android Nougat 7.0, Discord Android Alpha 6.9.2 (692).
+
+Ghostly#0001 - Bug Bot on 2018-06-17T03:05:19.674Z
+
+
+### Can reproduce.
+Can Reproduce -- Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.9.5
+
+Ori#1908 - Bug Bot on 2018-06-17T03:05:24.677Z
+
+
+### Can reproduce.
+Can reproduce ~ Samsung Galaxy J7 Prime ~ Android 7.0 SE 8.1 ~ Discord Alpha 695
+
+Lava#9562 - Bug Bot on 2018-06-17T03:05:29.669Z
+
+
+### Verified, samsung s6 edge, android 7.0, alpha 6.9.5 - Clayton on 2018-06-18T20:37:32.238Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-18T20:37:51.028Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b25cfe8b0ca0b9487db47c5/4117f72b33b7c2c5c9bf98fdbf0cd951/p5ckySj.gif added by Bug Bot on 2018-07-15T14:13:46.210Z
+
+
+### Archived by Clayton on 2018-08-22T01:22:54.241Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,79 @@
+[Archived] If you type another letter into the invite DM box which causes no results to be found while scrolled down, there is a high chance the black bar separating the search bar and the selection area does not go away until another letter is typed again. (https://trello.com/c/ybev0uRR)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-31T20:05:46.579Z
+Latest Update: 2018-10-22T20:13:11.826Z
+
+Reported by 54D [Hibernation]#1357
+
+####Steps to reproduce:
+- Find a combination of search terms that cause the results page go from scrollable to no results once you type another character. 
+- In my case, typing one "b" filters some results, and the selection area is scrollable. Typing another "b" immediately gives me no results. Make sure this is met first!! 
+- Clear your input. Type whatever first character you entered first. 
+- Scroll down the selection area and make sure the black bar pops up. It only appears when you are scrolled down. 
+- Press that character that makes you get no result. In my case, it's the second "b" character. 
+- The below
+
+####Expected result:
+Black bar disappears since there is no results and nowhere to scroll.
+####Actual result:
+Black bar stays there, blocking the beautiful magnifying glass.
+####Client settings:
+Discord Canary 16275
+####System settings:
+Windows 10 x64 (1709)
+
+13626
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-31T20:05:46.579Z
+
+
+### 54D [Hibernation]#1357 - https://youtu.be/Dv2HmqrjNdE added by Bug Bot on 2018-05-31T20:05:49.524Z
+
+
+### Can reproduce.
+Can reproduce, Windows 7 SP 1, Canary 16275
+
+Wolterhon#3938 - Bug Bot on 2018-05-31T20:05:54.415Z
+
+
+### Can reproduce.
+Can reproduce, happened on both light and dark theme. Windows 10 x64 free version, Canary Build# 16275
+
+MeowthenA#9256 - Bug Bot on 2018-05-31T20:05:59.386Z
+
+
+### Can reproduce.
+Discord Canary 0.0.210, Build 16329, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-05-31T20:06:04.421Z
+
+
+### Can reproduce.
+Canary Build 16329, Windows 10 Pro 64-bit!canrepo 13626 |
+
+GoldyyDev#5351 - Bug Bot on 2018-05-31T22:18:55.628Z
+
+
+### Moved from User Reported Bugs to Group DM Invite Links by Michael Fong on 2018-06-01T10:18:54.855Z
+
+
+### Verified, macos 10.12.6, canary 16354 - Clayton on 2018-06-01T22:56:43.766Z
+
+
+### Moved from Group DM Invite Links to Verified Bugs by Jared on 2018-07-06T17:45:48.814Z
+
+
+### Archived by Clayton on 2018-10-22T20:13:11.828Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

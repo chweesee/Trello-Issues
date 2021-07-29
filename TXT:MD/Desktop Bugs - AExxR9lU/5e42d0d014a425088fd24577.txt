@@ -1,0 +1,79 @@
+[Archived] Long server names that are truncated by "..." make the "Joined" button smaller, truncating "Joined" as well. (https://trello.com/c/ULm44PEd)
+
+None
+
+Created: 2020-02-11T16:05:36.350Z
+Latest Update: 2020-02-20T12:37:19.888Z
+
+Reported by PokeyzRule#9021
+
+####Steps to reproduce:
+- Have a server with a longer server name than is able to be displayed in an invite.
+
+- Create an invite link and paste it in chat
+
+- Observe how the "Joined" becomes "Join..." and the button becomes smaller
+
+####Expected result:
+The server name is truncated, but the Joined button remains the same size as a "normal" invite.
+####Actual result:
+The Joined button becomes smaller and the "Joined" text becomes "Join..."
+####Client settings:
+Desktop Canary, 54153
+####System settings:
+Windows 10.0.18363
+
+52442
+
+Card Log
+========
+### Added by Bug Bot on 2020-02-11T16:05:36.350Z
+
+
+### PokeyzRule#9021 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5e42d0d014a425088fd24577/d8045dd7a9792740a5ee18d0f37a718c/PadqJBv.png added by Bug Bot on 2020-02-11T16:05:39.506Z
+
+
+### Can reproduce.
+[CN] Canary 54153 (72ff812)
+Host 0.0.261
+Windows 10 64-Bit (10.0.18362)
+
+JellyPies#8181 - Bug Bot on 2020-02-11T16:05:44.021Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Home, Build 10.0.18363, 64-bit - Discord Stable 54177
+
+ZEH#8271 - Bug Bot on 2020-02-11T16:05:48.963Z
+
+
+### Can reproduce.
+[CR] The button can be truncated even to `...` only, Windows 10 Pro Build 18363.592, Discord Canary Build 54234
+
+Creedoo#3626 - Bug Bot on 2020-02-11T16:05:53.999Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) canary 54611
+
+myacorn#6534 - Bug Bot on 2020-02-15T10:44:09.637Z
+
+
+### Can reproduce.
+Win10 Pro x64, Discord Stable 54611
+
+Bullseye#8200 - Bug Bot on 2020-02-15T19:51:22.710Z
+
+
+### Added to https://trello.com/c/ciO8co9I - Aeria on 2020-02-20T12:37:13.832Z
+
+
+### Archived by Aeria on 2020-02-20T12:37:19.905Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

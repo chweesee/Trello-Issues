@@ -1,0 +1,95 @@
+[Archived] When you're in slowmode cooldown, the Send button works if a file is attached (https://trello.com/c/j8Pp4zfB)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-09-28T13:30:42.309Z
+Latest Update: 2019-06-05T23:49:24.845Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Go to a channel with slowmode 
+- Send a random message so the cooldown starts 
+- If you try to send another message, notice how the Send button is locked with a toast "Slowmode enabled"  
+- Now attach a file to the message and try sending again
+
+####Expected result:
+The button should still be locked and show the toast
+####Actual result:
+The button doesn't show the Slowmode enabled toast anymore and actually attempts to upload the file
+####Client settings:
+Discord Alpha 7.5.7
+####System settings:
+Huawei Mate 9 Android 8.0
+
+20259
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-28T13:30:42.309Z
+
+
+### Can reproduce.
+Can reproduce on my Motorola G 2015, Android 8.1, Discord Alpha 7.5.7
+
+Prime#0804 - Bug Bot on 2018-09-28T13:30:49.580Z
+
+
+### Can reproduce.
+Samsung Galaxy J1 Ace, Android 4.4.4 Alpha 757
+
+Not Sugden#6200 - Bug Bot on 2018-09-28T13:30:54.556Z
+
+
+### Can reproduce.
+Samsung Galaxy S5 mini, Android 6.0.1, Alpha 757
+
+Nash#7193 - Bug Bot on 2018-09-28T13:30:59.579Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.5.7
+
+OddsomeOddy#1998 - Bug Bot on 2018-09-28T14:02:02.628Z
+
+
+### Can reproduce.
+Asus Zenfone 2 Deluxe (ZE551ML), Android 6.0, Discord Alpha 7.5.7
+
+Frances Picard#6209 - Bug Bot on 2018-09-28T17:11:22.307Z
+
+
+### verified, android 7.0, alpha 7.5.7, samsung s6 edge - Clayton on 2018-09-28T21:14:29.564Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-09-28T21:14:36.696Z
+
+
+### Can reproduce.
+Samsung Galaxy 7 edge with Android 8 , Discord Alpha 7.5.7
+
+PLASMAchicken#7236 - Bug Bot on 2018-09-29T08:20:48.839Z
+
+
+### Can reproduce.
+Samsung Galaxy 7 edge with Android 8 , Discord Alpha 7.5.7
+
+PLASMAchicken#7236 - Bug Bot on 2018-09-29T08:23:00.984Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Andy Garron on 2018-09-29T19:58:27.122Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fixed Bugs by Clayton on 2019-01-05T09:29:07.506Z
+
+
+### Archived by Bug Bot on 2019-06-05T23:49:24.857Z
+
+List
+====
+Fixed Bugs
+
+Members
+=======
+None

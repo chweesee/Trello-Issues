@@ -1,0 +1,146 @@
+When highlighting text using Ctrl + Shift + Right Arrow with no text to the right of non-alphanumeric characters, those characters won't be selected. (https://trello.com/c/U0POhvLb)
+
+None
+
+Created: 2019-12-18T08:49:34.730Z
+Latest Update: 2020-07-16T21:26:05.940Z
+
+Reported by Goldenclaw112#0001
+
+####Steps to reproduce:
+- Write any text with alphanumeric characters 
+- At the end, put a symbol down (e.g. `.`, `!`, etc) 
+- Starting from the beginning, use Ctrl + Shift + Right Arrow to highlight the text/characters
+
+####Expected result:
+You are able to select everything, including punctuation/non-alphanumeric characters at the end.
+####Actual result:
+You aren't able to, as any symbols/punctuation without alphanumeric characters to the right of it aren't selected.
+####Client settings:
+Canary 51642
+####System settings:
+Windows 10 Home x64 v1909
+
+50668
+
+Card Log
+========
+### Added by Bug Bot on 2019-12-18T08:49:34.730Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809), Canary 51642
+
+carter#0001 - Bug Bot on 2019-12-18T08:49:42.182Z
+
+
+### Can reproduce.
+cr Windows 10 1909 canary 51642
+
+GlenMerlin#2119 - Bug Bot on 2019-12-18T08:49:47.159Z
+
+
+### Can reproduce.
+CR; Windows 10, x64 - canary, Build Number: 51642
+
+IamSushi#0001 - Bug Bot on 2019-12-18T08:49:52.170Z
+
+
+### Goldenclaw112#0001 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5df9e81ec17df620f3898e46/7a4d8b76d64ca2d2fef7d59252c12b29/86qJD2KAs5.gif added by Bug Bot on 2019-12-18T08:50:04.187Z
+
+
+### Can reproduce.
+CR; Windows 10, Canary 51642
+
+Murtaugh#7229 - Bug Bot on 2019-12-18T12:46:23.969Z
+
+
+### Can reproduce.
+CR, macOS 10.13.6, Canary 51642
+
+leaf#0001 - Bug Bot on 2019-12-18T13:04:19.249Z
+
+
+### Can reproduce.
+CR, Discord Canary 51469, Windows 10 Home, Google Chrome  77.0.3865.120 (Official Build) (64-bit)
+
+Dragonic#0007 - Bug Bot on 2019-12-18T14:13:16.218Z
+
+
+### Can't reproduce.
+CR, Windows 10 Home, Discord Canary 51642
+
+Smokepurpp#6012 - Bug Bot on 2019-12-18T14:56:22.972Z
+
+
+### Can reproduce.
+CR, Windows 10 Home, Discord Canary 51642
+
+Smokepurpp#6012 - Bug Bot on 2019-12-18T14:56:35.366Z
+
+
+### Sorry for my bad, i wanted to write CR.
+
+Smokepurpp#6012 - Bug Bot on 2019-12-18T14:57:27.721Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1903 (OS Build 18362.388), Discord Canary 51642
+
+Kissa#1337 - Bug Bot on 2019-12-18T15:10:19.085Z
+
+
+### Can reproduce.
+Can reproduce - MacBook Pro 2019 (MacOS 10.15.1), Canary Build 51642
+
+kiosion#0001 - Bug Bot on 2019-12-18T17:20:15.054Z
+
+
+### Can reproduce.
+Can reproduce; Desktop Canary 51462, Windows 10 Pro 1909 (UEFI)
+
+MR | Çağan#7659 - Bug Bot on 2019-12-18T17:36:35.551Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 51667 (Host 0.0.259)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-12-18T23:02:20.396Z
+
+
+### Can reproduce.
+Windows 10, x64 v1903, Canary 51667
+
+Hufy#0001 - Bug Bot on 2019-12-19T00:27:55.858Z
+
+
+### Can't reproduce.
+canary 51667, Win10 v1709 x64 build 16299.665 Education, chrome dev 80.0.3955.4+. https://i.imgur.com/IRLazus.gifv
+
+hopeless#1227 - Bug Bot on 2019-12-19T01:47:04.156Z
+
+
+### Can reproduce.
+Windows 10 Professional,Canary 51667
+
+Typhoon#1337 - Bug Bot on 2019-12-19T06:59:23.237Z
+
+
+### Can reproduce.
+Windows 10 Pro, 1909 (OS Build 18363.535); Canary, 51792
+
+Leo#5142 - Bug Bot on 2019-12-20T17:49:10.831Z
+
+
+### Can reproduce.
+Windows 10 Pro Version 1809 17763.348 Build 17763
+
+epic_ziver_D#6552 - Bug Bot on 2019-12-20T21:38:55.808Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

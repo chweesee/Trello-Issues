@@ -1,0 +1,105 @@
+[Archived] "New Unread Messages" button does not disappear after scrolling to unread channel, it blocks the channel behind itself (https://trello.com/c/PgSk0Bjq)
+
+None
+
+Created: 2019-05-26T04:54:46.341Z
+Latest Update: 2019-06-29T01:00:30.916Z
+
+Reported by LigH#3575
+
+####Steps to reproduce:
+- use a server with many channels so it is probable that you have to scroll through the channel list when an unread message appears 
+- when an unread message outside the displayed range appears, the "New Unread Messages" button appears 
+- click it to scroll the channel list to the farthest channel with unread messages, up or down
+
+####Expected result:
+When the channel list scrolled, the button should disappear immediately
+####Actual result:
+It does not disappear reliably after scrolling, often only after clicking any channel
+####Client settings:
+Release Channel: stable, Build Number: 38214, Version Hash: 7efb0bfcaa94eea2572c0f36d27cf5f8c789e6eb
+####System settings:
+Windows 7 Ultimate SP1 (Build 7601) German
+
+35328
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-26T04:54:46.341Z
+
+
+### Can reproduce.
+cr; Windows 10 1809 canary 38556 (moving the mouse causes this to go away)
+
+GlenMerlin#2119 - Bug Bot on 2019-05-26T04:54:53.707Z
+
+
+### Can reproduce.
+CR, macOS 10.14.5, Canary 38570
+
+Action Potential#2494 - Bug Bot on 2019-05-26T04:54:58.712Z
+
+
+### Can reproduce.
+macos 10.14.6, canary 38570
+
+OrangeM24#5746 - Bug Bot on 2019-05-26T04:55:03.701Z
+
+
+### Isabel#0002 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5cea1c16fedc947bd4e4910e/2f8b74d2bcd8db8416305ba5249a5252/38140.gif added by Bug Bot on 2019-05-26T04:55:08.455Z
+
+
+### Can reproduce.
+Windows 10 Home 1809, Discord Canary 38460
+
+Green_GunnY#0001 - Bug Bot on 2019-05-26T05:58:29.477Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 38556 host 0.0.238
+
+Jean20B#4287 - Bug Bot on 2019-05-26T07:21:09.440Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 38556
+
+AHkhan#9999 - Bug Bot on 2019-05-26T14:20:21.966Z
+
+
+### Can't reproduce.
+it disappears correctly for me when the scrolling finishes but imo it could disappear right away; Windows 10 Pro x64, Canary 38570
+
+Nicofisi#4467 - Bug Bot on 2019-05-26T20:57:47.405Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.238 Build 38570
+
+Daffyduck#5364 - Bug Bot on 2019-05-27T02:37:02.103Z
+
+
+### Can't reproduce.
+CNR; Windows 10 Home 64 Bit (1809), Discord Canary Build: 38570
+
+blur.#4444 - Bug Bot on 2019-05-27T02:44:12.152Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 38570
+
+Xylium#5800 - Bug Bot on 2019-05-27T10:17:12.936Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Emmy Lim on 2019-05-30T00:40:16.037Z
+
+
+### Archived by Bug Bot on 2019-06-29T01:00:30.928Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

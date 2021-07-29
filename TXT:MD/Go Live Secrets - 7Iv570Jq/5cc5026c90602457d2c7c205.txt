@@ -1,0 +1,49 @@
+If a user is both listening on Spotify and streaming, their presence will become a weird mix of the two. (https://trello.com/c/mQVRZk7N)
+
+Investigating
+
+Created: 2019-04-28T01:31:24.552Z
+Latest Update: 2019-06-17T22:08:20.522Z
+
+**Steps to Reproduce:**
+1. Have someone begin a "live" session.
+2. Have that same person begin listening to something on Spotify with the Spotify showing on profile setting enabled.
+3. Click on their profile.
+
+**Expected Result:** Discord shows only one presence.
+
+**Actual Result:** Discord displays a strange mix of both presences.
+
+**Client Settings:** Canary 36529
+
+**System Settings:** MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226)
+
+Card Log
+========
+### Added by Isabel Lomas on 2019-04-28T01:31:24.552Z
+
+
+### Cross of Listening & Streaming - https://trello-attachments.s3.amazonaws.com/5cc0dbfc192f483330d269a7/5cc5026c90602457d2c7c205/a876e796b6059ddfaa9e03e120e2fae8/unknown.png added by Isabel Lomas on 2019-04-28T01:31:46.763Z
+
+
+### CR Canary 36529 -- Windows 10 Pro x64 v1809 Build 11875.1000 - webhp on 2019-04-28T02:04:02.094Z
+
+
+### Moved from Bug Reports from Testers! to Tested Bugs by webhp on 2019-04-28T03:11:32.995Z
+
+
+### CNR Canary 39715 -- Windows 10 Pro x64 v1903 18912.1001 -- It now shows as "Unknown Game" but this is most likely because of lack of multipresence - webhp on 2019-06-14T17:25:12.236Z
+
+
+### Moved from Tested Bugs to Claimed Fixed, Needs Verification by webhp on 2019-06-14T17:26:31.235Z
+
+
+### Moved from Claimed Fixed, Needs Verification to Verified Fixed by webhp on 2019-06-14T17:26:49.269Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

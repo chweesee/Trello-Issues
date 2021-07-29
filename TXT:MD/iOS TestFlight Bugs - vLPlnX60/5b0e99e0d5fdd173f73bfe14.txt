@@ -1,0 +1,139 @@
+[Archived] tapping search on loading and crash (https://trello.com/c/0NnS03CF)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-05-30T12:32:32.440Z
+Latest Update: 2019-03-19T00:00:23.623Z
+
+Reported by ArtyGD#0001
+
+####Steps to reproduce:
+- Have Friends List open 
+- Force close Discord
+- Put your phone on Airplane Mode (Poor connection will help, but airplane mode is strongly suggested).
+- Open it.
+- While it is loading (having Wumpus on friends list section), quickly swipe right to see the search bar.
+- As soon that you see the search bar, quickly click on it before Discord loads completely. May take a few tries on a fast connection, but can be more easily reproduced on a slow connection (15ms ping)
+
+####Expected result:
+Searching tab should open
+####Actual result:
+Discord crashes
+####Client settings:
+TestFlight 2.3.2 (4760)
+####System settings:
+iPhone 8, iOS 11.3
+
+13570
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-30T12:32:32.440Z
+
+
+### ArtyGD#0001 - https://youtu.be/X2pCx9-E1WM added by Bug Bot on 2018-05-30T12:32:35.146Z
+
+
+### Can reproduce.
+iPhone 6s, iPad Air 2 - iOS 11.4, Stable 2.3.3
+
+Pascal#0929 - Bug Bot on 2018-05-30T12:32:39.905Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 Stable 2.3.3
+
+Xylium#1480 - Bug Bot on 2018-05-30T12:32:44.904Z
+
+
+### Can reproduce.
+iPhone SE, iOS 10.3.2, TestFlight 2.3.2 (4760)
+
+TimThe#1118 - Bug Bot on 2018-05-30T12:32:49.921Z
+
+
+### cannot reproduce, ipad pro, ios 11, testflight 2.3.4 - Clayton on 2018-06-01T22:24:22.149Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-06-01T22:24:29.118Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 11.4 TestFlight (4760)
+
+Disegual#4088 - Bug Bot on 2018-06-02T08:36:28.533Z
+
+
+### I was able to reproduce this ticket, however, the old reproduction steps didn't really tell that you were required to have the Friends List to be open prior to the force close. So I went ahead and put in the missing steps and edited this ticket.
+
+Because I was able to reproduce this bug on iPhone 8 + running iOS 12 (Dev Beta 2) with Discord TestFlight 2.3.4 (5425), I am moving this ticket back to User Reported Bugs for verification.  - Ghoul on 2018-06-29T19:12:37.264Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Ghoul on 2018-06-29T19:13:11.908Z
+
+
+### CNR, iphone X, ios 11.1, 2.3.4 - Clayton on 2018-06-30T02:57:47.588Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-06-30T02:58:13.320Z
+
+
+### Let's try this one more time as per Pascal#0929 who suggested that Airplane Mode should be added in the part of the reproduction steps while testing if bad connection doesn't help. 
+
+I am able to reproduce this bug by having a bad connection and Airplane mode. My application will crash upon tapping on search while Discord is attempting to load. I used iPhone 8 + running iOS 12 (Dev Beta 2) with Discord TestFlight 2.3.4 (5589).
+
+I am moving this to User Reported Bugs, and hopefully this time will help. - Ghoul on 2018-07-03T02:50:24.097Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Ghoul on 2018-07-03T02:50:30.423Z
+
+
+### verified, ios 11.1, iphone x, 2.3.4 - Clayton on 2018-07-03T21:28:54.990Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-07-03T21:29:04.887Z
+
+
+### Archived by Clayton on 2018-09-04T23:14:14.051Z
+
+
+### Pascal helped me to test this bug with iPhone 8 +, running iOS 12.1.4 (iOS TestFlight 2.4.5(1113). This ticket was not able to be reproduced, so moving this ticket to Claimed Fixed. - Ghoul on 2019-02-16T20:29:10.227Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Ghoul on 2019-02-16T20:29:19.057Z
+
+
+### Unarchived by Ghoul on 2019-02-16T20:29:19.133Z
+
+
+### Can't reproduce.
+ iPad Air (iOS 12.1.4) - TestFlight 2.4.5 (11113)
+
+gianna#0248 - Bug Bot on 2019-02-16T20:47:26.858Z
+
+
+### Can't reproduce.
+iPhone SE iOS 12.1.4 - TestFlight 2.4.5 (11113)
+
+Daffyduck#5364 - Bug Bot on 2019-02-16T21:03:13.627Z
+
+
+### Can't reproduce.
+can no longer reproduce, iPad Pro 12.9 2018, iOS 12.2 beta 2, TestFlight 2.4.5
+
+Quantum Octoling#0712 - Bug Bot on 2019-02-16T23:35:48.039Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-02-16T23:35:48.251Z
+
+
+### Archived by Bug Bot on 2019-03-19T00:00:23.634Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

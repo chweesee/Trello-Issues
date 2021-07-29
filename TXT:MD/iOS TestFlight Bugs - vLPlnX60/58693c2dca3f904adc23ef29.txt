@@ -1,0 +1,94 @@
+[Archived] iOS client crashes when too many unescaped formatting characters are in a message (https://trello.com/c/3FKjrQgB)
+
+P1 - Severe
+
+Created: 2017-01-01T17:28:13.944Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Dragon5232#1841
+
+####Steps to reproduce: 
+- Open Discord 
+- Send the message in <https://hastebin.com/raw/liceqoyido> (it’s just a dash, 1998 underscores, and another dash at the end) 
+- Your client should crash within a second of sending the message. 
+
+####Expected result:
+ it displays as -\_\_- (that’s what all other clients do) 
+####Actual result:
+ the client crashes
+
+Card Log
+========
+### Added by Jared on 2017-01-01T17:28:13.944Z
+
+
+### Can reproduce.
+iPad Air 2 iOS 10.0.2
+
+Skeletonarcher12#3697 - Jared on 2017-01-01T17:28:14.497Z
+
+
+### Can reproduce.
+iPad Mini Latest TestFlight
+
+rovertdude#3439 - Jared on 2017-01-01T17:28:14.599Z
+
+
+### Bug causes anyone who sees it on mobile to crash it seems like
+
+rovertdude#3439 - Jared on 2017-01-01T17:28:49.573Z
+
+
+### Can reproduce.
+iPhone 5s, iOS 9.3.3, latest TestFlight
+
+黒澤ルビィ ★★★★#9667 - Jared on 2017-01-01T17:28:58.858Z
+
+
+### Can reproduce.
+iPhone 7 Plus, iOS 10.2.1 Public Beta 2, TestFlight 1.8.1
+
+Tinh1000000#4437 - Jared on 2017-01-01T17:43:26.991Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T23:38:20.680Z
+
+
+### Moved from Verified Bugs to Serious Issues by Jared on 2017-04-04T23:34:15.462Z
+
+
+### No message is shown but no crash anymore
+
+Pascal#0929 - Bug Bot on 2017-09-18T21:21:30.739Z
+
+
+### Moved from Serious Issues to Claimed Fixed Bugs by Shadi Isber on 2017-09-19T20:26:24.835Z
+
+
+### Night fixed this a couple weeks ago.  Should be fixed on TF - Shadi Isber on 2017-09-19T20:26:35.883Z
+
+
+### I can no longer able to reproduce, a  -__-  shows up and the app doesn't crash. 
+
+ Discord 1.9.3, iOS 11.0.3, iPhone 8 Plus
+ - Alexandru Todea on 2017-10-20T18:58:27.947Z
+
+
+### Verified Fixed. - Jared on 2017-10-24T20:26:16.821Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-10-24T20:26:20.127Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:31:57.871Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:31:58.972Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

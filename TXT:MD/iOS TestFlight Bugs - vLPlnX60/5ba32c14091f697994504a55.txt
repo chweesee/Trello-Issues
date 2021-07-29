@@ -1,0 +1,63 @@
+[Archived] Messages from the same user fail to group if the red new messages bar is between them and disappears (https://trello.com/c/BJCA6igt)
+
+P3 - Will be fixed eventually
+
+Created: 2018-09-20T05:11:48.812Z
+Latest Update: 2019-01-31T19:59:15.249Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Go into a channel with another user 
+- Have the user send a message or two while you are actively viewing the channel on your phone (make sure you do not have any other devices set to this channel) 
+- After the user sends a message or two, switch to a second channel and have the user send a message in the first channel (easier if you have another channel to communicate in while testing) 
+- After they have sent another message or two, go back into the first channel 
+- Make sure their messages are separated by the red "New Messages" line, and then send a message in that channel 
+- After sending a message, observe the messages that the user had sent
+
+####Expected result:
+The messages from the other user are supposed to group
+####Actual result:
+The message from the other user do not group until you switch out of the channel and back in after you have sent a message
+####Client settings:
+TestFlight 2.3.8 (7308)
+####System settings:
+iPhone 6s iOS 12.1 Dev Beta
+
+19847
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-20T05:11:48.812Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.1 dev beta - TestFlight 2.3.8 (7308)
+
+Xylium#1480 - Bug Bot on 2018-09-20T05:11:56.080Z
+
+
+### Can reproduce.
+iPhone 8+, iOS 12.1 Dev Beta 1, TestFlight 2.3.8 (7347)
+
+Fite#0756 - Bug Bot on 2018-09-20T05:12:01.092Z
+
+
+### Can reproduce.
+iPhone 8, IOS 12.1; 2.3.8 (7347)
+
+OrangeM24#5746 - Bug Bot on 2018-09-20T05:12:06.076Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-09-28T19:00:02.932Z
+
+
+### Archived by Bug Bot on 2019-01-31T19:59:15.259Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

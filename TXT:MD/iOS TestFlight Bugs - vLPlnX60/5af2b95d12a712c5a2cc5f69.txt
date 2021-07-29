@@ -1,0 +1,101 @@
+[Archived] Deleting a message with markdown link syntax creates a link in the deletion modal (https://trello.com/c/KYMBb5bm)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-05-09T09:03:25.886Z
+Latest Update: 2019-06-01T08:00:21.159Z
+
+Reported by BarnMS#3108
+
+####Steps to reproduce:
+- Type out markdown link syntax 
+- Delete message
+
+####Expected result:
+Shows message in modal
+####Actual result:
+Shows link in modal
+####Client settings:
+Discord TestFlight 2.3.2 (4280)
+####System settings:
+iOS 11.3.1 iPhone 7
+
+12285
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-09T09:03:25.886Z
+
+
+### ash#0001 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5af2b95d12a712c5a2cc5f69/4a5ed86013c2e426c2c70b7b40b5724d/image.png added by Bug Bot on 2018-05-09T09:03:28.519Z
+
+
+### Can reproduce.
+CR iPhone 7 Plus, iOS 11.3, iOS TestFlight 2.3.1 4051
+
+ash#0001 - Bug Bot on 2018-05-09T09:03:33.294Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 11.3.1 & iPad Air 2, iOS 11.4 PB 3, TestFlight 2.3.2 (4280) - Not only with the delete message modal, with all confirmation pop-ups like pinning, etc.
+
+Pascal#0929 - Bug Bot on 2018-05-09T09:03:38.380Z
+
+
+### Can reproduce.
+Can Reproduce; iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4280)
+
+Xylium#1480 - Bug Bot on 2018-05-09T09:03:43.447Z
+
+
+### Verified. iPhone 6S 11.2.6 - Jared on 2018-05-11T21:06:02.666Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-11T21:06:08.861Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:32.794Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.1 (14524) with iPad Pro 11" running iOS 12.2.
+
+Moving to Claimed Fixed list. - Pascal on 2019-05-01T20:14:55.017Z
+
+
+### Unarchived by Pascal on 2019-05-01T20:15:02.820Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-05-01T20:15:12.071Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.2 - TestFlight 3.0.1 (14524)
+
+Daffyduck#5364 - Bug Bot on 2019-05-01T20:44:31.071Z
+
+
+### Can't reproduce.
+iPhone 6, iOS 12.3 (dev beta 3) - TestFlight 3.0.1 (14524)
+
+Xylium#5800 - Bug Bot on 2019-05-02T05:19:12.083Z
+
+
+### Can't reproduce.
+iPhone 7, iOS 12.2 - TestFlight 3.0.1 (14524)
+
+KolkiesDev#0001 - Bug Bot on 2019-05-02T07:52:20.135Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-05-02T07:52:20.327Z
+
+
+### Archived by Bug Bot on 2019-06-01T08:00:21.177Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

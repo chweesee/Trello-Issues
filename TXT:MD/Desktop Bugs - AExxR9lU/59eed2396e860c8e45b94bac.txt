@@ -1,0 +1,77 @@
+[Archived] Server names that are entirely symbols (ex. seperator servers) do not show correctly in mutual servers (https://trello.com/c/opksRHIl)
+
+None
+
+Created: 2017-10-24T05:40:09.288Z
+Latest Update: 2017-12-02T17:11:23.256Z
+
+Reported by 🎃 FireController1847#9085
+
+####Steps to reproduce:
+- Create or join a server that does not have an icon and is named entirely symbols 
+- Look in mutual servers with either a friend or yourself 
+- Compare the spacing from that server to another server with text
+
+####Expected result:
+It displays in the middle, like it does in the normal servers
+####Actual result:
+It displays above and below everywhere AROUND the middle
+####Client settings:
+Discord Canary Build 6257
+####System settings:
+Windows 10 x64
+
+5709
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-24T05:40:09.288Z
+
+
+### Packer#9020 - https://cdn.discordapp.com/attachments/276197125510004737/372257049003687937/8xd4b1.png https://cdn.discordapp.com/attachments/276197125510004737/372257062866124800/6gu7p1.png added by Bug Bot on 2017-10-24T05:40:11.909Z
+
+
+### Can reproduce.
+CR, Win10 Pro x64, Canary Build 6257
+
+Packer#9020 - Bug Bot on 2017-10-24T05:40:16.839Z
+
+
+### Can reproduce.
+CR, Though you have to make a server with the name as listed in the note Windows 10 x64, Discord Canary 0.0.167
+
+DeadAccount#0633 - Bug Bot on 2017-10-24T05:40:21.745Z
+
+
+### Can reproduce.
+CR Win10 x64 Canary 6257
+
+ColdVolcano#0489 - Bug Bot on 2017-10-24T05:40:26.756Z
+
+
+### 🎃 FireController1847#9085 - https://cdn.discordapp.com/attachments/276197125510004737/372257049003687937/8xd4b1.png https://cdn.discordapp.com/attachments/276197125510004737/372257062866124800/6gu7p1.png added by Bug Bot on 2017-10-24T05:44:56.996Z
+
+
+### This only happens on servers that are longer than the circle. The bug is the fact that the symbols do not center within the circle, but instead show at the top and bottom of the circle. The exact name used in images: `------------`
+
+🎃 FireController1847#9085 - Bug Bot on 2017-10-24T05:48:08.211Z
+
+
+### Moved from User Reported Bugs to Won't Fix. Dead Bug by Jared on 2017-10-25T23:37:50.707Z
+
+
+### Too isoteric of a bug, not worth fixing. - Jared on 2017-10-25T23:38:01.470Z
+
+
+### Archiving this card because it's been in the Won't Fix list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:11:22.057Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:11:23.259Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

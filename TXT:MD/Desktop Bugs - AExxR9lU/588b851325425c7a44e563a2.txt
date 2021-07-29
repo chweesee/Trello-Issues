@@ -1,0 +1,91 @@
+[Archived] Message does not actually send if it contains a high amount of custom emotes (https://trello.com/c/1zG6m3Ow)
+
+P2: Fix can wait a while
+
+Created: 2017-01-27T17:36:19.208Z
+Latest Update: 2018-07-06T18:10:30.762Z
+
+Reported by Enchanted13#4228
+
+####Steps to reproduce: 
+- Join a server with custom emotes in it 
+- Send a message with 100 custom emotes in it 
+- Note the message appears to be sent 
+- Login on another client 
+- Notice the message was not sent 
+
+####Expected result:
+ The message can be sent regardless of the number of emotes in it 
+####Actual result:
+ The message appears to be sent on the current client, but not on any other 
+####System settings:
+ Win 10 x64, discord canary (no betterdiscord)
+
+Card Log
+========
+### Added by Jared on 2017-01-27T17:36:19.208Z
+
+
+### Can reproduce.
+W10 Canary
+
+Logiz#9321 - Jared on 2017-01-27T17:36:19.667Z
+
+
+### Can reproduce.
+Windows 10, latest Canary
+
+MelodicStream#1336 - Jared on 2017-01-27T17:36:21.674Z
+
+
+### Can reproduce.
+4.2.2, 3.3.0
+
+Ristarg#3840 - Jared on 2017-01-27T17:36:23.711Z
+
+
+### tk3ZH4U.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/588b851325425c7a44e563a2/f2edd642d596d924901221996c0106b5/tk3ZH4U.png added by Jared on 2017-01-27T17:36:34.979Z
+
+
+### Can reproduce.
+Win10AU latest canary
+
+Mikesky#3097 - Jared on 2017-01-27T17:37:22.004Z
+
+
+### Can reproduce.
+latest Discord Canary
+
+EMT#2524 - Jared on 2017-01-27T17:52:29.204Z
+
+
+### upload 1/31/2017 at 12:01:22 PM.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/588b851325425c7a44e563a2/29e6598fe18c1bf85fd907f00cf34895/upload_1_31_2017_at_12_01_22_PM.png added by Jared on 2017-01-31T20:01:22.548Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-31T20:02:00.491Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-16T18:40:50.379Z
+
+
+### To clarify, the bug here is that it appears on your client to have sent successfully, but it actually failed. You should see an error when it fails to send. - Jared on 2018-01-05T18:13:13.209Z
+
+
+### CNR anymore, Canary 9280. Now the text is red, and clyde responds with an error, (which is actually wrong but we have a separate for it. which is: https://trello.com/c/ybBUMXUx/724-sending-text-that-is-over-the-2k-limit-with-custom-emojis-or-mentions-shows-an-incorrect-error-from-clyde - Tarek on 2018-01-06T11:57:24.081Z
+
+
+### Moved from Next up for investigation to Claimed Fixed, needs Verification by Tarek on 2018-01-06T11:57:29.043Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:10:29.622Z
+
+
+### Archived by Jared on 2018-07-06T18:10:30.765Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

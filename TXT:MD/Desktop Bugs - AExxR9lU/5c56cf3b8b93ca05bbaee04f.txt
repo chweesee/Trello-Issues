@@ -1,0 +1,64 @@
+[Safari-specific] Adding a space to a search query crashes the client (https://trello.com/c/Oa7wC2fR)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2019-02-03T11:23:39.618Z
+Latest Update: 2019-09-23T22:30:07.038Z
+
+Reported by kadybat#0001
+
+####Steps to reproduce:
+- Open Discord in Safari 
+- Begin a search query, and add a space to your query 
+- Observe as the client crashes and reloads
+
+####Expected result:
+The client does not crash
+####Actual result:
+The client crashes
+####Client settings:
+Discord Canary web 31784
+####System settings:
+Safari 12.0.1, macOS Mojave 10.14.1
+
+27911
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-03T11:23:39.618Z
+
+
+### Isabel#0002 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c56cf3b8b93ca05bbaee04f/a598d116c7cc673eacdeb0670712795e/unknown.png added by Bug Bot on 2019-02-03T11:23:42.289Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.2 (Mojave) - Web Canary 31785 - Safari 12.0.2 (14606.3.4)
+
+Isabel#0002 - Bug Bot on 2019-02-03T11:23:46.932Z
+
+
+### Can reproduce.
+MacBook Pro 13" (2016), macOS Mojave 10.14.3, Safari Version 12.0.3 - Web Canary Build 31785 - Only happens with the message search
+
+Pascal#0929 - Bug Bot on 2019-02-03T11:23:52.039Z
+
+
+### Can reproduce.
+[CR] Discord Canary 31784, Safari 11.1.2 (11605.3.8.1), OS X El Capitan 10.11.6
+
+Mauve Ode Iffier#6602 - Bug Bot on 2019-02-03T11:23:56.955Z
+
+
+### verified, safari 12.0.2, macos 10.12.6 - Clayton on 2019-02-05T11:19:44.292Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-05T11:20:05.027Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

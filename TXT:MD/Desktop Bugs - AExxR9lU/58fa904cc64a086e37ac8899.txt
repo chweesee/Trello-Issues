@@ -1,0 +1,133 @@
+[Archived] Clicking bottom of image opens in browser (https://trello.com/c/Dmnxj1Re)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2017-04-21T23:05:48.434Z
+Latest Update: 2019-04-22T07:47:34.143Z
+
+Reported by AnuBius#2180
+
+####Steps to reproduce: 
+- search for an image in a channel 
+- click the bottom 1 to 2 pixels (just when the mouse pointer turns into the pointing hand) 
+- 
+
+####Expected result:
+ the image opens in discord 
+####Actual result:
+ the image opens in the browser 
+####System settings:
+ Windows 10 x64, latest public version
+
+1159
+
+Card Log
+========
+### Added by Bug Bot on 2017-04-21T23:05:48.434Z
+
+
+### Can reproduce.
+Win10(x64), Canary
+
+WorseDoughnut 🍩#4827 - Bug Bot on 2017-04-21T23:05:49.156Z
+
+
+### Can reproduce.
+Win10 x64 & Canary
+
+Immotay#2748 - Bug Bot on 2017-04-21T23:05:51.325Z
+
+
+### Can reproduce.
+Windows 8.1 x64, Latest Canary
+
+T͡ida͢lTe͟m͝p̵ès̀t#1727 - Bug Bot on 2017-04-21T23:05:53.228Z
+
+
+### Can reproduce.
+8.1x64 canary
+
+LetsPlayNintendoITA#0167 - Bug Bot on 2017-04-21T23:35:10.421Z
+
+
+### Verified.  - Clayton on 2017-04-22T00:41:17.044Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-04-22T00:41:33.177Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Shadi Isber on 2017-04-22T00:44:21.236Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Amadeus on 2017-04-22T01:55:27.294Z
+
+
+### Ok so I thought this was the issue where "open in browser" spanned the full width of the expanded image.  This is in fact about the bottom 1-2px under the image still in its embed form.  I'll fix that also. - Shadi Isber on 2017-04-25T16:28:42.725Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Jared on 2017-08-31T23:21:21.440Z
+
+
+### Moving back to Verified Bugs as this issue is once again reproducible. - Jared on 2017-08-31T23:21:41.174Z
+
+
+### This is a P2 specifically because it was fixed once and the issue came back. - Jared on 2017-10-17T00:20:37.849Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Jared on 2017-10-17T18:49:09.352Z
+
+
+### Moved from Next up for investigation to Fix made, not yet released by Shadi Isber on 2017-11-13T01:54:31.450Z
+
+
+### Checked on canary build 7256:
+
+I can no longer reproduce this myself. Clicking the bottom-most few pixels of an image no longer immediately opens it in the browser. Rigorously checked this myself. - Alexander (DJScias) on 2017-11-13T15:11:54.628Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Alexander (DJScias) on 2017-11-13T15:11:56.769Z
+
+
+### Can reproduce.
+Canary 0.0.182, Build 8409, Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2017-12-11T06:29:26.958Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Shadi Isber on 2017-12-11T21:59:58.957Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2017-12-17T09:36:52.772Z
+
+
+### Still happening to GIF's, moving back to verified bugs. Canary 8995 on W10, 1709. - Tarek on 2017-12-21T16:38:44.171Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Bugs by Tarek on 2017-12-21T16:38:49.851Z
+
+
+### Moved from Verified Bugs to Next up for investigation by Tarek on 2017-12-22T02:14:49.535Z
+
+
+### Moved from Next up for investigation to Claimed Fixed, needs Verification by Stanislav Vishnevskiy on 2018-01-28T08:18:14.126Z
+
+
+### Verified Fixed - Jared on 2018-02-23T20:35:37.379Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-02-23T20:35:41.726Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:54:24.185Z
+
+
+### Archived by Jared on 2018-07-06T17:54:25.228Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

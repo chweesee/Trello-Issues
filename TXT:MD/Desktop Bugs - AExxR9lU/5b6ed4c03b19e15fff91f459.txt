@@ -1,0 +1,67 @@
+[Archived] Setting a Debit card as your default payment method causes an internal server error (https://trello.com/c/coYgLVMi)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-08-11T12:21:21.086Z
+Latest Update: 2018-10-22T20:25:07.360Z
+
+Reported by mrkirby153#7840
+
+####Steps to reproduce:
+- Add a debit card to your account 
+- Check the box "Make this payment method my default" when editing the card details 
+- Click Save
+
+####Expected result:
+You're given a message saying debit cards aren't supported
+####Actual result:
+You get a generic 500: Internal Server Error message
+####Client settings:
+Canary 21680
+####System settings:
+Windows 10 Home x64
+
+17321
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-11T12:21:21.086Z
+
+
+### Frances Picard#6209 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6ed4c03b19e15fff91f459/b519ce9edc8d7c36c8266dca633b6e34/GEvqjgU.png added by Bug Bot on 2018-08-11T12:21:23.611Z
+
+
+### Can reproduce.
+This happens only on debit card. You can set credit card as default payment just fine. If it's already ticked, try to make other card default then switch back to that said debit card. Windows 10 x64 1803 (17134), Discord Canary with Build number 21670
+
+Frances Picard#6209 - Bug Bot on 2018-08-11T12:21:28.497Z
+
+
+### Can reproduce.
+Windows 10 x64. Canary, 21425
+
+Zak - Inactive till 18th August#5879 - Bug Bot on 2018-08-11T12:21:33.516Z
+
+
+### Can reproduce.
+Windows 10 x64. Canary - 21425
+
+BetterScripter#3963 - Bug Bot on 2018-08-11T12:21:38.518Z
+
+
+### verified, macos 10.12.6, canary 22333 - Clayton on 2018-08-23T07:58:02.801Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-23T07:58:08.010Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:07.363Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

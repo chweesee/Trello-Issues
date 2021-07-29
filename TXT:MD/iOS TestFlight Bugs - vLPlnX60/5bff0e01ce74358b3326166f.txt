@@ -1,0 +1,74 @@
+[Archived] [iPad Specific] In-app notifications do not work in landscape mode (https://trello.com/c/NlvMt4DY)
+
+None
+
+Created: 2018-11-28T21:52:01.177Z
+Latest Update: 2019-01-31T20:09:56.809Z
+
+Reported by zapteryx#6161
+
+####Steps to reproduce:
+- Go into landscape mode 
+- Receive a DM or mention
+
+####Expected result:
+There should be an in-app notification
+####Actual result:
+There is no in-app notification
+####Client settings:
+Testflight 2.4.0 (9349)
+####System settings:
+iPad Air 1, iOS 12.1
+
+23736
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-28T21:52:01.177Z
+
+
+### Can reproduce.
+iPad Air, iOS 12.1 - TestFlight 2.4.0 (9349)
+
+Xylium#5800 - Bug Bot on 2018-11-28T21:52:08.561Z
+
+
+### Can reproduce.
+iPad Air 2, iOS 12.1.1 (PB 3) - TestFlight 2.4.0 (9349)
+
+Pascal#0929 - Bug Bot on 2018-11-28T21:52:13.495Z
+
+
+### Can reproduce.
+iPad 6th Gen, iOS 12.1, TestFlight 2.4.0 (9349), notification doesn't show up in landscape mode until you've switched to a different channel or server.
+
+Keons#0001 - Bug Bot on 2018-11-28T21:52:18.491Z
+
+
+### Can reproduce.
+iPad 5, 12.1 Testflight 2.4.0 (9370) - yep only shows one notification and that only if you switch channel
+
+SoheabMalik#2228 - Bug Bot on 2018-11-28T22:15:38.863Z
+
+
+### Can reproduce.
+Can Reproduce, iPad Air 2, iOS 12.0, TestFlight 2.4.0 (9370) - Notification will not appear immediately, Switching channel will show 1 notification but if backed up switching channels multiple times is needed to get rid of them all.
+
+1Storm#0001 - Bug Bot on 2018-11-28T22:54:21.956Z
+
+
+### Moved from New Issues to Fix made, not yet released by Fanghao on 2018-11-30T21:17:19.620Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed Bugs by Fanghao on 2018-12-01T05:36:21.057Z
+
+
+### Archived by Bug Bot on 2019-01-31T20:09:56.818Z
+
+List
+====
+Claimed Fixed Bugs
+
+Members
+=======
+None

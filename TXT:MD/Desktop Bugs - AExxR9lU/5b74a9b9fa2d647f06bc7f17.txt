@@ -1,0 +1,88 @@
+[Archived] inconsistency showing playing status (https://trello.com/c/cobz3bGP)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-08-15T22:31:21.284Z
+Latest Update: 2019-10-23T23:03:46.639Z
+
+Reported by Mr. Black#5859
+
+####Steps to reproduce:
+- open a program that isn't verified (in my case I'm using google chrome) 
+- go to games in user settings 
+- add the program manually by clicking the blue text "add it" 
+- select the program 
+- exit and look your playing status 
+- now your game status should be the name of the program (google chrome for me) 
+- go back where you added the program and click its name to change it and backspace leaving the text box blank 
+- exit the settings and observe your game status 
+- observe your playing status with another account in another device
+
+####Expected result:
+when the playing status is just blank, it should say "playing a game" for everyone or you shouldn't see a playing status or it shouldn't let you leave a blank space
+####Actual result:
+only you can see the blank playing status and for others it doesn't show you playing anything. (Note: this time I used 2 different accounts in 2 different devices and also asked other people and I'm still getting the same results. Also you may need to restart the 2nd client to see that the playing status has disappeared )
+####Client settings:
+Canary, Build Number:  21931
+####System settings:
+windows 10 home single language 64-bit
+
+17586
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-15T22:31:21.284Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 21930 Windows 10 x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-08-15T22:31:28.680Z
+
+
+### Can reproduce.
+Can reproduce - MS Windows 10 Pro x64 (v1803) - Canary 21931
+
+aosync#3115 - Bug Bot on 2018-08-15T22:31:33.717Z
+
+
+### Can reproduce.
+CR on Windows 10 Home; Canary Build 21969
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-08-15T22:31:38.925Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 21969
+
+OddsomeOddy#1998 - Bug Bot on 2018-08-16T15:20:32.677Z
+
+
+### verified, macos 10.12.6 canary 22496 - Clayton on 2018-08-24T01:53:21.677Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-24T01:53:28.929Z
+
+
+### Archived by Clayton on 2018-10-22T20:25:20.165Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 30756
+
+charleskimbac#6492 - Bug Bot on 2019-01-11T22:23:56.730Z
+
+
+### Unarchived by Bug Bot on 2019-01-11T22:30:04.935Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:03:46.654Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

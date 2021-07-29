@@ -1,0 +1,155 @@
+[Archived] Screenshare's sound still playing after ending screenshare itself (https://trello.com/c/4XROBRYh)
+
+None
+
+Created: 2019-05-02T11:36:24.453Z
+Latest Update: 2019-06-06T00:30:28.913Z
+
+Reported by Defiant#8490
+
+####Steps to reproduce:
+- Find someone who could reproduce it with you 
+- Get in a call 
+- Ask them to start screenshare of Google Chrome (for example: YouTube video) and make sure the audio is playing 
+- Now play the video 
+- Ask you partner to stop playing the video 
+- Ask your partner to end screenshare BUT do not close any application on the system 
+- Now ask them to start playing video again 
+- BOOM! You can still hear the video's audio
+
+####Expected result:
+No audio continues playing
+####Actual result:
+Audio still playing even without screenshare itself
+####Client settings:
+Streamer: Canary 36779, Chrome 73.0.3683.103; Viewer: Stable 36746, Chrome 73.0.3683.103
+####System settings:
+Streamer: Win 10 Pro x64 (1809); Viewer: Win 10 Pro x64 (1809)
+
+33827
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-02T11:36:24.453Z
+
+
+### defracted#7777 - https://youtu.be/USyuF0p2iQw added by Bug Bot on 2019-05-02T11:36:27.104Z
+
+
+### Can reproduce.
+[CR] Windows 10 Pro x64 (1809), Canary 36779 (host 0.0.235, discord_voice: 9)
+
+defracted#7777 - Bug Bot on 2019-05-02T11:36:31.987Z
+
+
+### Can reproduce.
+Windows 10 1809, Discord Canary 36779
+
+quapo#0012 - Bug Bot on 2019-05-02T11:36:37.075Z
+
+
+### Can reproduce.
+Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build: 36779
+
+AHkhan#2436 - Bug Bot on 2019-05-02T11:36:41.968Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 36779
+
+OrangeM24#2020 - Bug Bot on 2019-05-02T11:48:29.605Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 36779
+
+Xylium#5800 - Bug Bot on 2019-05-02T14:03:15.000Z
+
+
+### Can reproduce.
+When you try to turn the camera on afterwards, screenshare will be turned on instead, mirrored for the person turning on the camera (Because camera feed is mirrored for the person). Also, indicators on the camera - such as lights on Logitech ones - will go on, showing that they are active, but they are not showing in Discord. | Windows 10 Pro x64, Release Channel: Canary 36779
+
+Aeria#9096 - Bug Bot on 2019-05-02T15:36:28.875Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 36779
+
+Darth#9386 - Bug Bot on 2019-05-02T15:47:49.827Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 36779
+
+Neiron#8475 - Bug Bot on 2019-05-02T17:02:26.487Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Discord Canary, Build Number: 36779
+
+absolūt unit#9777 - Bug Bot on 2019-05-02T19:17:22.970Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 36779
+
+Clay#0001 - Bug Bot on 2019-05-02T19:34:03.215Z
+
+
+### Can reproduce.
+Windows 10 x64 Professional Canary 36779
+
+Darth#9386 - Bug Bot on 2019-05-02T21:20:50.268Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, Release Channel: canary, Build Number: 36838, Version Hash: f503a6e15c5efb874cd37347f09004ce77520405
+
+Cam#7527 - Bug Bot on 2019-05-02T23:55:18.959Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 36870
+
+Lily#2624 - Bug Bot on 2019-05-03T07:17:59.771Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Athena Yao on 2019-05-03T16:38:26.436Z
+
+
+### Moved from Claimed Fixed, needs Verification to Fix made, not yet released by Athena Yao on 2019-05-03T16:38:33.140Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Athena Yao on 2019-05-03T16:45:39.316Z
+
+
+### Can't reproduce.
+Windows 10 PRO x64, Release Channel: canary, Build Number: 37031, Version Hash: 73707425608812bc41774fc5d086351dd359ce72
+
+Cam#7527 - Bug Bot on 2019-05-06T20:47:22.773Z
+
+
+### Can't reproduce.
+macos 10.14.5, canary 37031, chrome 73
+
+OrangeM24#5746 - Bug Bot on 2019-05-06T21:04:04.810Z
+
+
+### Can't reproduce.
+Can no longer reproduce, macOS 10.14.4, Canary 37031
+
+Action Potential#2494 - Bug Bot on 2019-05-07T00:11:18.523Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-05-07T00:11:18.759Z
+
+
+### Archived by Bug Bot on 2019-06-06T00:30:28.922Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,70 @@
+New image picker UI will always skip View All and Camera button with iOS VoiceOver enabled (https://trello.com/c/4B9IRSza)
+
+P3 - Will be fixed eventually
+
+Created: 2019-08-31T19:10:01.626Z
+Latest Update: 2019-09-09T23:19:07.581Z
+
+Reported by binchlord#0998
+
+####Steps to reproduce:
+- Enable iOS VoiceOver 
+- Navigate to anywhere you can upload an image & double tap to open the image picker UI 
+- Swipe right to navigate through the options 
+- Swipe left to go back through them
+
+####Expected result:
+The View All and Camera button should be selected and read when you scroll by them
+####Actual result:
+Swiping right skips the buttons entirely, swiping left will select it in addition to the photo below and just read “button” double tapping this element just selects the photo to be sent and ignores the button. There is no indication the buttons exist while scrolling.
+####Client settings:
+TestFlight 3.1.2 (17133)
+####System settings:
+iPhone XR iOS 12.4
+
+43216
+
+Card Log
+========
+### Added by Bug Bot on 2019-08-31T19:10:01.626Z
+
+
+### Can reproduce.
+CR;  iPhone 6s, Ios 13 (17A5547d), discord testflight 3.1.2 (17133)
+
+Badstagram#7935 - Bug Bot on 2019-08-31T19:10:09.185Z
+
+
+### Can reproduce.
+CR (Can Reproduce) • iPhone 6s - iOS 12.1.1 - TestFlight 3.1.2 (17113)
+
+Freiik#3662 - Bug Bot on 2019-08-31T19:10:14.257Z
+
+
+### Can reproduce.
+CR, İphone X İOS 12.2 | 3.1.1
+
+▽ WishFuly#0532 - Bug Bot on 2019-08-31T19:10:19.205Z
+
+
+### Can reproduce.
+Can Reproduce, iPhone XS x iOS 12.3.1 x Discord TestFlight 3.1.2 (17133)
+
+Error 404#4040 - Bug Bot on 2019-08-31T19:14:35.565Z
+
+
+### Can reproduce.
+CR; iPhone X, iOS 12.0.1 - Testflight 3.1.2 (17133)
+
+Emma#6775 - Bug Bot on 2019-09-01T11:05:04.908Z
+
+
+### Moved from New Issues to Media Keyboard by Fanghao on 2019-09-03T17:55:55.436Z
+
+List
+====
+Media & Emoji Keyboard
+
+Members
+=======
+None

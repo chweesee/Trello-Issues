@@ -1,0 +1,150 @@
+[Archived] Being able to post any emoji with broken codeblock (https://trello.com/c/hicNWEwS)
+
+High,
+P1: Severe
+
+Created: 2018-02-11T22:16:48.802Z
+Latest Update: 2018-07-06T18:22:20.941Z
+
+Reported by KJP12#3880
+
+####Steps to reproduce:
+Using `ameowsip` as an example,
+\:\`\`\`\`\`\`
+\:\`\`\`\<a\:ameowsip\:408704080035184651\>\`\`\`
+Alternative method: \:\`\:\<a\:ameowsip\:408704080035184651\>\:\`\: or \:\`\:\:emote\:\`\:
+
+####Expected result:
+Codeblocks to be formatted correctly and for the emoji not to work
+####Actual result:
+The codeblock is visibily off, and allows posting of the emoji. Example: :``````
+:```<a:ameowsip:408704080035184651>```
+####Client settings:
+Canary build 10544
+####System settings:
+Ubuntu 17.10 x64
+
+8695
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-11T22:16:48.802Z
+
+
+### Can reproduce.
+. ` Seems reproducible on every platform, in my case on Android. This bug even allows a user who doesn't have Nitro to use animated emojis, so I guess it's pretty severe. Discord Alpha 6.2
+4, Huawei Mate 9 Android 7.0
+
+Alex1304#9704 - Bug Bot on 2018-02-11T22:16:56.257Z
+
+
+### Can reproduce.
+Canary Build 10549, Windows 10 Home v1709. It also send the emoji even if it isn't on the emoji list.
+
+André Paulo#8446 - Bug Bot on 2018-02-11T22:17:01.235Z
+
+
+### Can reproduce.
+CR; Canary 10549 Windows 10 Pro x64
+
+RME#3050 - Bug Bot on 2018-02-11T22:17:06.246Z
+
+
+### To clarify: https://gist.github.com/Tarek1337/8d0af44e97caee2f8b9fb18fd008297a post this as non nitro user,  - Tarek on 2018-02-12T01:26:55.111Z
+
+
+### Verified.  - Clayton on 2018-02-15T23:33:39.434Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-02-15T23:33:43.144Z
+
+
+### https://gist.github.com/anonymous/9ac40530fe702c0a7d2bfb5f6132ab58
+
+null byte#8191 - Bug Bot on 2018-03-02T23:38:10.774Z
+
+
+### You can reproduce this way more easily using the following format: https://gist.github.com/anonymous/9ac40530fe702c0a7d2bfb5f6132ab58
+
+null byte#8191 - Bug Bot on 2018-03-02T23:38:41.821Z
+
+
+### Can reproduce.
+Related bug, this seems to be an issue with broken markdown parsing where the message isn't displayed in a codeblock, but the clients parsing of the message thinks it is. Sending "colon backtick colon user mention backtick" with no spaces (and the correct characters and/or mentions) will cause the targeted user to not receive a notification, or any indicator that they were pinged. Along with that, the message isn't highlighted, see < https://cdn.discordapp.com/attachments/386895488621871107/419276827622637571/unknown.png>. (screenshotted from authors perspective, the message should be yellow)
+
+System details: Discord 0.0.250, macOS High Sierra, 10.13.3 (17D102).
+
+perryprog#9657 - Bug Bot on 2018-03-02T23:49:35.987Z
+
+
+### Can be used to bypass channel restrictions. Image taken in a channel not allowing external emojis to be used. https://i.imgur.com/8o7Oo4f.png
+
+KJP12#3880 - Bug Bot on 2018-03-03T11:09:24.196Z
+
+
+### Both variants of the bug have been fixed. Will require a client update for one variant, the other will be fixed server side and should be deployed soon.  - Jake Heinz on 2018-03-04T00:35:05.986Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Jake Heinz on 2018-03-04T00:35:39.791Z
+
+
+### Moved from Fix made, not yet released to Verified Fixed by Jake Heinz on 2018-03-04T01:57:09.952Z
+
+
+### Fix has rolled out to all release channels. I've confirmed that the snippets in this ticket do the right thing now.
+ - Jake Heinz on 2018-03-04T01:57:28.006Z
+
+
+### This can also be produced using the following strings https://gist.github.com/nisbet-mr/c8112f1a3574940c76e3ab5ea1fe206d - Mike Nisbet on 2018-03-04T18:31:52.882Z
+
+
+### Can reproduce.
+CR, works easier than before with just italicizing the slanted apostrophes. Discord Stable 11587 (Desktop),  Discord Canary 11585 (Desktop)
+
+SuperSwagger#3701 - Bug Bot on 2018-03-06T17:53:34.866Z
+
+
+### Moved from Verified Fixed to Fix made, not yet released by Tarek on 2018-03-07T16:37:54.723Z
+
+
+### This was partly fixed, and last time I spoke to Jake he said he has a fix ready for the code blocks that still works.
+
+So I've moved this ticked to fix made, not yet released with an approval from Dabbit. - Tarek on 2018-03-07T16:38:53.049Z
+
+
+### Can't reproduce.
+windows 10 home 10.0.16299 build 16299, [BUILD INFO] Release Channel: canary, Build Number: 12831, Version Hash: b15aee4272e632b9cbaf659a0498df779a1a65fe
+
+MoonlightCapital#0554 - Bug Bot on 2018-03-29T06:46:57.231Z
+
+
+### Can reproduce.
+Win 10 Pro x64 Release Channel: canary, Build Number: 13034
+
+C4Navar#1337 - Bug Bot on 2018-04-03T15:24:01.420Z
+
+
+### Can reproduce.
+Windows 10 Pro (Build 16299), Canary 13228
+
+187#0001 - Bug Bot on 2018-04-07T06:24:25.669Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2018-04-21T12:41:59.682Z
+
+
+### Cannot reproduce anymore, Discord Canary 13990. Moving to claimed fixed.  - Tarek on 2018-04-21T12:42:00.006Z
+
+
+### Archiving as this ticket has been claimed resolved for more than a 30 day period with no further reproductions. - Jared on 2018-07-06T18:22:19.809Z
+
+
+### Archived by Jared on 2018-07-06T18:22:20.943Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+Unknown User (https://trello.com/jhgg) - No Bio

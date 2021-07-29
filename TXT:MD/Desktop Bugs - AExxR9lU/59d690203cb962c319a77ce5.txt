@@ -1,0 +1,77 @@
+[Archived] Error with typing accented characters in search on OSX (https://trello.com/c/2AlewOi8)
+
+P3: Will get fixed eventually
+
+Created: 2017-10-05T20:03:44.106Z
+Latest Update: 2018-10-22T20:16:18.783Z
+
+Reported by Greebo#0397
+
+####Steps to reproduce:
+- Click search 
+- Type a character that has an accented form by holding the key down and selecting the accent you want.
+
+####Expected result:
+It type the character, removes the original character and places your position in the text at the end. (e.g. if character ä for it to be like ä¦ [with the ¦ being  position in text])
+####Actual result:
+The position in the text is behind the accented character with the original character being there. (e.g. a¦ä)
+####Client settings:
+Discord Canary 0.0.155
+####System settings:
+MacBook OSX 10.12.6
+
+5113
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-05T20:03:44.106Z
+
+
+### iAmaury#9979 - https://imgur.png/a/e51fz added by Bug Bot on 2017-10-05T20:03:46.420Z
+
+
+### Ten 🎃#1723 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59d690203cb962c319a77ce5/11fdeda7f4893761d85f15b0f9a55f84/cAcT2uX.png added by Bug Bot on 2017-10-05T20:03:46.497Z
+
+
+### Ten 🎃#1723 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59d690203cb962c319a77ce5/9102b8630baafc53bb678a238698c2a0/TDWOwGJ.png added by Bug Bot on 2017-10-05T20:03:46.517Z
+
+
+### Can reproduce.
+Discord Canary 0.0.155 MacBook Pro Retina 13" Late 2014 macOS High Sierra 10.13
+
+fratik#9865 - Bug Bot on 2017-10-05T20:03:51.460Z
+
+
+### Can reproduce.
+MacBook Pro 2017 13", OSX High Sierra (10.13), Canary 0.0.155
+
+Skeletonarcher12#3697 - Bug Bot on 2017-10-05T20:03:56.455Z
+
+
+### Can reproduce.
+Macbook Air OSX 10.13 Beta, Discord Canary 0.0.155
+
+Francis#6565 - Bug Bot on 2017-10-05T20:04:01.799Z
+
+
+### Can reproduce.
+Discord Canary 0.0.155 (Build 5342), macOS High Sierra 10.13 (17A365) (iMac Retina 5K, 27-inch, Late 2017)
+
+advaith#9121 - Bug Bot on 2017-10-05T22:12:25.989Z
+
+
+### Verified.  - Clayton on 2017-10-18T07:37:52.194Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-18T07:37:56.100Z
+
+
+### Archived by Clayton on 2018-10-22T20:16:18.785Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,135 @@
+If you go to game activity and spam the toggle slide it lags discord, but discord must be running for 2-3 hours without refreshing  (https://trello.com/c/xVOZcS0Z)
+
+None
+
+Created: 2019-07-07T05:13:14.720Z
+Latest Update: 2020-07-16T21:26:04.402Z
+
+Reported by Cream Cheese Connoisseur#2985
+
+####Steps to reproduce:
+- Leave Discord open for about 3 hours without refreshing, I'm not sure how memory leaks work, but it could somehow be related to that
+- Open Settings 
+- Go to Game Activity 
+- Spam Click The Toggle Slide for "Display Currently running game as a status message."
+
+####Expected result:
+It should have some sort of debounce to prevent this from happening.
+####Actual result:
+Discord begins to lag heavily
+####Client settings:
+Release Channel: stable, Build Number: 40795, Version Hash: f2f8bb4b9cab4532655761c7290041231f9dbad4
+####System settings:
+Windows 10
+
+39165
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-07T05:13:14.720Z
+
+
+### mrphilip#0001 - https://www.youtube.com/watch?v=J0gZBlwApYs&feature=youtu.be added by Bug Bot on 2019-07-07T05:13:17.194Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 1809 - [BUILD INFO] Release Channel: canary, Build Number: 40795
+
+moomoo#5351 - Bug Bot on 2019-07-07T05:13:22.146Z
+
+
+### Can reproduce.
+CR, did not seem to coincide w/ any memory issues Dell Inspiron Windows 10 Home & Student, Host 0.0.246, Canary Build 40795
+
+binchlord#0998 - Bug Bot on 2019-07-07T05:13:27.160Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home 64-bit, 40795
+
+Lapras#0001 - Bug Bot on 2019-07-07T05:13:32.137Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | Canary 40795
+
+charleskimbac#6492 - Bug Bot on 2019-07-07T05:15:56.988Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro // macOS Sierra (10.12.6) //  Discord Canary: 40795
+
+xTeal#7702 - Bug Bot on 2019-07-07T05:37:41.713Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary,Build; 40795
+
+Lily#2624 - Bug Bot on 2019-07-07T07:50:59.539Z
+
+
+### Can reproduce.
+Windows 10 Home Edition, 64 bit — Discord Canary, Build Number: 40795, Version Hash: f2f8bb4b9cab4532655761c7290041231f9dbad4
+
+Nith#1337 - Bug Bot on 2019-07-07T13:47:01.959Z
+
+
+### Can reproduce.
+Canary 40795, Host 0.0.246, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-07-07T18:04:08.254Z
+
+
+### You can get the same result if you change your "Safe Direct Messaging" (first three boxes) settings under user settings > privacy & safety. Can also occur in connections when you toggle the option for Discord to detect other platforms. (Same STR, different menus)
+
+xTeal#7702 - Bug Bot on 2019-07-07T19:31:19.223Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40795
+
+Xylium#5800 - Bug Bot on 2019-07-07T20:17:39.190Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary - 40795
+
+Jasοn#0001 - Bug Bot on 2019-07-07T22:57:57.035Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 1903, Canary 40795 host 0.0.246
+
+Jean20B#4668 - Bug Bot on 2019-07-08T10:45:49.913Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.246 Build 40815
+
+Daffyduck#5364 - Bug Bot on 2019-07-08T20:04:40.121Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit, v1903 - Canary 40824
+
+Nicholas#4669 - Bug Bot on 2019-07-09T01:50:56.318Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 41300 (Host 0.0.247)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-07-17T16:50:18.141Z
+
+
+### Can reproduce.
+Windows 10 , Version 1803, Discord Canary 44004
+
+shiboos#1385 - Bug Bot on 2019-08-21T16:36:42.406Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

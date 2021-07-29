@@ -1,0 +1,84 @@
+[Archived] "recreating" a never expiering invite that already existed, will show it as the newest invite (https://trello.com/c/3j5p3Dnf)
+
+P3 - Will be fixed eventually,
+Mid
+
+Created: 2018-10-01T11:08:19.311Z
+Latest Update: 2018-10-31T21:00:01.892Z
+
+Reported by Nasi#7193
+
+####Steps to reproduce:
+- make sure there is no invite in the server settings "instant invites" section  
+- create an invite 
+- toggle never expiering 
+- delete the 24h invite 
+- create a new invite 
+- toggle never expiering a few times on and off, [the "old" never expiering link will appear if its toggled on] 
+- as soon as you leave the "create invite box", make sure "never expiering" is toggled on 
+- observe "instant invites" in server settings
+
+####Expected result:
+the 24h link should be listed above the "never expiering" link, because it is newer
+####Actual result:
+the "never expiering" link is listed at the top
+####Client settings:
+Alpha 7.6.0
+####System settings:
+Samsung Galaxy S5 Mini Android 6.0.1
+
+20412
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-01T11:08:19.311Z
+
+
+### Wolf 🐺#9626 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5bb2002392426b69968ac9ce/c863b180197e97dca85caf3eb1f0f3c7/lckylCt.png added by Bug Bot on 2018-10-01T11:08:21.651Z
+
+
+### Can reproduce.
+CR, Vodafone Smart Ultra 6, Android 6.0.1, Discord Alpha 760
+
+Yamboy1#3959 - Bug Bot on 2018-10-01T11:08:26.588Z
+
+
+### Can reproduce.
+Honor Play, Android 8.1, Discord Alpha 7.6.0
+
+Wolf 🐺#9626 - Bug Bot on 2018-10-01T11:08:31.583Z
+
+
+### Can reproduce.
+CR. Motorola G 2015, Android 8.1, Discord Alpha 760
+
+ViPER™#6259 - Bug Bot on 2018-10-01T11:08:36.568Z
+
+
+### Can reproduce.
+CR • Samsung Galaxy J7 • Android 8.1 (Oreo) • Discord Alpha 7.6.0 (760) • i CR with these steps: create one unlimited link, exit, create 24 hour link, exit, create 6 hour link, observe invite screen in server Settings, 24 hour link is at top even though most recent is the 6 hour link
+
+Møth#9941 - Bug Bot on 2018-10-01T11:15:17.312Z
+
+
+### Can reproduce.
+CR, Oneplus 3, Android 9, Alpha 7.6.0
+
+OddsomeOddy#1998 - Bug Bot on 2018-10-01T11:56:16.988Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.6.0 - Clayton on 2018-10-01T20:50:06.631Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-01T20:50:15.779Z
+
+
+### Archived by Clayton on 2018-10-31T21:00:01.895Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

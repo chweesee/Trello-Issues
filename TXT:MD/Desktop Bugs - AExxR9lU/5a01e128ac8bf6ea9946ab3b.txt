@@ -1,0 +1,109 @@
+[Archived] Trying to change to a application window mid screen sharing makes the client border flash white (https://trello.com/c/NzYZI2OJ)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-11-07T16:36:56.069Z
+Latest Update: 2019-08-13T15:30:56.314Z
+
+Reported by GoldenPheonix#6248
+
+####Steps to reproduce:
+- Get in a call with another person 
+- Start screensharing and choose entire screen 
+- Go to screensharing options and select change windows 
+- Go to the application window tab 
+- Observe
+
+####Expected result:
+The client border should stay as its normal color.
+####Actual result:
+The border will flash between white and its normal color every couple of seconds
+####Client settings:
+Canary, Build Number: 6864
+####System settings:
+Windows 7 Professional X64 (7601)
+
+6116
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-07T16:36:56.069Z
+
+
+### Can reproduce.
+Windows 10 x64 version 1607, Canary 6864
+
+Cobaltknight#7200 - Bug Bot on 2017-11-07T16:37:03.417Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 (Version 1703), Discord Stable (Build 6768)
+
+Inner Sense#0404 - Bug Bot on 2017-11-07T16:37:08.716Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1703 (Canary build 6880, v 0.0.171)
+
+TimThe#7618 - Bug Bot on 2017-11-07T16:37:13.438Z
+
+
+### Can't reproduce.
+Win10 x64 Version    10.0.14393 Build 14393 - Canary 6880
+
+tomGER#7462 - Bug Bot on 2017-11-07T18:03:28.358Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2017-11-17T04:57:02.253Z
+
+
+### Moved from Cannot Reproduce to User Reported Bugs by Tarek on 2017-11-17T05:06:47.978Z
+
+
+### Cannot reproduce, Fixed? Canary 7460 - Tarek on 2017-11-17T05:53:48.695Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Tarek on 2017-11-17T05:54:04.138Z
+
+
+### Moving back to Verified Bugs as I can still reproduce using the original steps provided.
+Windows 10 Pro x64 Fall Creators Update, Discord Canary (9681) - Chris Cox on 2018-01-20T06:56:28.542Z
+
+
+### Moved from Cannot Reproduce to Verified Bugs by Chris Cox on 2018-01-20T06:56:37.878Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:56.045Z
+
+
+### Can reproduce.
+CR, Windows 7 Pro x64 | Canary 31115
+
+Lost#9999 - Bug Bot on 2019-01-22T14:07:01.589Z
+
+
+### Can reproduce.
+Works with screensharing with Application Window, and choosing Chrome for me too (seems like the Chrome one is Aero specific), Windows 7 Pro x64 | Canary 31115
+
+Lost#9999 - Bug Bot on 2019-01-22T14:14:41.853Z
+
+
+### Unarchived by Bug Bot on 2019-01-22T14:30:04.996Z
+
+
+### Can reproduce.
+It is not necessary to share a monitor first, just Discord's window. The border flashes between the Aero inactive window, not necessarily white. Discord PTB 34850; Windows 7 Professional, Aero theme.
+
+analog#9481 - Bug Bot on 2019-03-31T15:20:10.219Z
+
+
+### Archived by Bug Bot on 2019-08-13T15:30:56.324Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

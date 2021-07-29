@@ -1,0 +1,94 @@
+[Archived] Nearby friends doesn't stop scanning when you close the page or the app (https://trello.com/c/giVohA32)
+
+None
+
+Created: 2018-08-27T23:21:45.857Z
+Latest Update: 2019-06-06T01:16:52.767Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Open up "Add Friends" 
+- Tap to start scanning for nearby friends 
+- Close out of add friends 
+- Reopen add friends and observe the nearby feature
+
+####Expected result:
+Nearby should stop scanning when you close out
+####Actual result:
+Nearby doesn't stop scanning even if you completely kill the app and reopen
+####Client settings:
+TestFlight 2.3.7 (6943)
+####System settings:
+iPhone 6s iOS 12 Public Beta 8
+
+18525
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-27T23:21:45.857Z
+
+
+### Can reproduce.
+CR, ipod touch 6th generation, ios 11.4.1, testflight 2.3.7 (6943)
+
+🌴nickWtn🌴#3789 - Bug Bot on 2018-08-27T23:21:53.235Z
+
+
+### Can reproduce.
+iPhone 5s - iOS 9.0.2 - TestFlight 2.3.7 (6943)
+
+mrkirby153#7840 - Bug Bot on 2018-08-27T23:21:58.250Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 (dev beta 11), TestFlight 2.3.7 (6943)
+
+mouse#0091 - Bug Bot on 2018-08-27T23:22:03.251Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12 (dev beta 11) - TestFlight 2.3.7 (6943)
+
+Xylium#1480 - Bug Bot on 2018-08-27T23:22:25.900Z
+
+
+### This is intended. nearby will auto turned on after 1st time. - Fanghao on 2018-08-27T23:37:04.784Z
+
+
+### Moved from New Issues to Won't Fix by Fanghao on 2018-08-27T23:37:13.393Z
+
+
+### Can reproduce.
+iPhone X, iOS 12 Developer Beta 10, TestFlight 2.3.7 (6948)
+
+Alfie#1582 - Bug Bot on 2018-08-28T14:22:33.256Z
+
+
+### Can reproduce.
+iPhone 6s+, iOS 11.4.1, Discord 2.3.7
+
+macplox#9104 - Bug Bot on 2018-08-30T12:23:11.546Z
+
+
+### Can reproduce.
+deleting and reinstalling app stops the scan. it persists across closing and rebooting. seems like this also spikes runtime power use while using app. iPhone 6s+, iOS 11.4.1, Stable 2.3.7
+
+macplox#9104 - Bug Bot on 2018-08-30T13:18:00.943Z
+
+
+### Archived by Clayton on 2018-10-05T00:01:01.808Z
+
+
+### Can reproduce.
+iPhone XR, iOS 12.3.1, TestFlight 3.0.3 (15443) | Bug has resurfaced in TestFlight 3.0.3
+
+SplashyFlame#4968 - Bug Bot on 2019-06-06T01:16:52.774Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

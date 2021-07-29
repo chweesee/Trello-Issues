@@ -1,0 +1,46 @@
+Creating a template of a guild with over 250 roles yields a 500 Internal Server Error (https://trello.com/c/Db6cLD8k)
+
+None
+
+Created: Unknown
+Latest Update: 2020-05-10T22:13:45.878Z
+
+**Short Description:** Creating a template of a guild with over 250 roles yields a 500 Internal Server Error
+**Steps to reproduce:**
+- get a guild with 250 roles
+- link an integration that assigns a role (Twitch subscriber integration) which will create more beyond 250
+- Create a template
+**Expected Results:** Server's integrated roles should not be copied over
+**Actual Results:** 500: Internal Server Error
+**Client Settings:** Canary 56789
+**System Settings:** W10 x64 1903
+
+Card Log
+========
+### Moved from Server Templates! to Claimed Fixed, needs Verification by Jerry Jiang on 2020-04-03T00:18:03.749Z
+
+
+### Can't reproduce.
+The steps I took were:
+- Create a server
+- Create 250 roles
+- Boost the server (it now has 251 roles)
+- Create the server template
+
+The integrated role is not copied over. MacBook Pro (Mid 2015): macOS Catalina 10.15.4; Discord Canary 58988 ~ Host 0.0.248
+
+Jiralite#1207 - Bug Bot on 2020-04-28T11:14:36.199Z
+
+
+### Can't reproduce.
+CNR, Windows 10 Home x64, Discord Canary (Build 59879)
+
+Bryth#1086 - Bug Bot on 2020-05-10T22:13:45.889Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

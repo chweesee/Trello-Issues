@@ -1,0 +1,65 @@
+[Archived] Mentions in the channel topic will crash iOS users trying to open the users list. Recreated on both iOS 9.3.5 and iOS 10.2, iPhone 5 and iPad Pro. (https://trello.com/c/qtIdFeAz)
+
+P2 - Can wait a while
+
+Created: 2016-12-23T18:42:56.723Z
+Latest Update: 2017-10-17T20:58:07.357Z
+
+Reported by Enharmonic#3999
+
+####Steps to reproduce: 
+- On Desktop, place a mention in the channel topic of the main general channel. Use the format of <@###########> and place the mention at the bottom of the channel topic on its own line. 
+- There must be one blank line above the meetnion as well. The mention can not be on the line immediately following the text. 
+- Try opening the users panel in that channel on iOS, or navigating to that server right after opening the Discord app. 
+
+####Expected result:
+  User sidebar opens correctly/can access the server normally. 
+####Actual result:
+  App crashes out.
+
+Card Log
+========
+### Added by Jared on 2016-12-23T18:42:56.723Z
+
+
+### Can reproduce.
+iOS 10.1.1 latest TF lalala
+
+/dev/null#1155 - Jared on 2016-12-23T18:42:57.435Z
+
+
+### Can reproduce.
+iPhone 7, iOS 10.2, TF 1.8.1
+
+ThaTiemsz#5517 - Jared on 2016-12-23T18:42:57.714Z
+
+
+### If the snowflake mention is escaped with a backslash, the app does not crash and displays the mention properly rather than just as plain-text.
+
+Enharmonic#3999 - Jared on 2016-12-27T06:29:24.549Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-02-08T19:24:39.843Z
+
+
+### to mouse 91! - Clayton on 2017-07-28T21:56:18.403Z
+
+
+### Cannot reproduce. Marking as Fixed. - Jared on 2017-07-31T17:26:22.842Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2017-07-31T17:26:28.877Z
+
+
+### Archiving as this ticket as been fixed for over a month. - Mike Nisbet on 2017-10-17T20:58:06.487Z
+
+
+### Archived by Mike Nisbet on 2017-10-17T20:58:07.360Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

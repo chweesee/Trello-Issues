@@ -1,0 +1,84 @@
+[Archived] "Unable to open file" error vanishes too fast. (OS with Google Autofill enabled only) (https://trello.com/c/Dcg2rVxK)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-08-30T02:38:39.781Z
+Latest Update: 2018-09-29T22:00:02.299Z
+
+Reported by イスラヌブ#2222
+
+####Steps to reproduce:
+- Go to Settings > My account and then click to change your profile picture. 
+- Select an unsupported file format (I used mp4) and observe.
+
+####Expected result:
+It pops out an error saying "Unable to open file: Bad activity[...]" for enough time to let you read it.
+####Actual result:
+The error is shown for around one second or less, touching the screen will show the same error again. (NOTE: only works if you have Google Autofill enabled and with an active suggestion on your screen, got confirmation from a Developer this can be reported)
+####Client settings:
+Discord Alpha 7.4.0
+####System settings:
+Honor 9, Android 8.0.0
+
+18415
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-30T02:38:39.781Z
+
+
+### イスラヌブ#2222 - https://youtu.be/63IY0W4ew_c added by Bug Bot on 2018-08-30T02:38:42.236Z
+
+
+### Can reproduce.
+Google Pixel 2, Android 9.0.0 ; Android Alpha 7.4.0 (740)
+
+brilaverance#2835 - Bug Bot on 2018-08-30T02:38:47.184Z
+
+
+### Can reproduce.
+Can reproduce Android 7.0 , message does not even show at all
+
+Aimarekin#3063 - Bug Bot on 2018-08-30T02:38:52.173Z
+
+
+### Can reproduce.
+Can reproduce Discord alpha 7.4.2 Nokia 5 Android 8.0.0
+
+Bencey_#8587 - Bug Bot on 2018-08-30T02:38:57.192Z
+
+
+### Can reproduce.
+Android Alpha 7.4.1, Samsung Galaxy J3 (2017), Android 7.0, error message doesn't even show up
+
+haru#9073 - Bug Bot on 2018-08-30T06:51:54.153Z
+
+
+### Can't reproduce.
+Well, it dissappears in 3 seconds for me, which is fine for me to read for a while, but when i press the screen while the toast is active, the toast dissappears
+
+ごｒじょ-kun#4659 - Bug Bot on 2018-08-30T10:54:29.854Z
+
+
+### Can't reproduce.
+Well, it dissappears in 3 seconds for me, which is fine for me to read for a while, but when i press the screen while the toast is active, the toast dissappears | Samsung Galaxy A5 2016, Android 7.0; Discord Alpha 7.4.2 (edited)
+
+ごｒじょ-kun#4659 - Bug Bot on 2018-08-30T10:55:07.769Z
+
+
+### verified, samsung s6 edge, android 7.0, alpha 7.4.2 - Clayton on 2018-08-30T21:30:45.109Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-30T21:30:54.200Z
+
+
+### Archived by Clayton on 2018-09-29T22:00:02.301Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

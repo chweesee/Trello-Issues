@@ -1,0 +1,116 @@
+[Archived] Middle mouse clicking a youtube link starts video playback hidden in the background of the client (https://trello.com/c/icvWKfKd)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2017-11-13T18:26:13.386Z
+Latest Update: 2018-03-14T13:37:46.056Z
+
+Reported by Thereatra#3564
+
+####Steps to reproduce:
+- Place a youtube link into any text channel 
+- Middle mouse click on the link
+
+####Expected result:
+The video will open on youtube in the user's default browser
+####Actual result:
+The video starts playback somewhere hidden inside the client, you can't see the video just hear the sound
+####Client settings:
+canary, Build Number: 7256
+####System settings:
+Windows 10 Pro x64, Fall Creator's Update (Version 1709), build 16299.19
+
+6358
+
+Card Log
+========
+### Added by Bug Bot on 2017-11-13T18:26:13.386Z
+
+
+### Ten 🎁#1723 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5a09e3c52054edafa4c0cb8e/2b3f3d07be4ddafb6bfb6643f1684934/79fd75211c7d55c32c3df9aacbe250af.gif added by Bug Bot on 2017-11-13T18:26:15.923Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Canary 0.0.176 (7256) This actually happens on every link you middle click. As seen on the attached GIF, if you middle click a link, a new instance of Discord Canary opens in the background.
+
+Ten 🎁#1723 - Bug Bot on 2017-11-13T18:26:20.702Z
+
+
+### Can reproduce.
+CR, Windows 8.1 x86, Discord Canary build 7256
+
+DokaDoka#8094 - Bug Bot on 2017-11-13T18:26:25.731Z
+
+
+### Can reproduce.
+CR, Win 10 x64 Creators update, Canary build 7256
+
+Nova#9411 - Bug Bot on 2017-11-13T18:26:30.675Z
+
+
+### Middle clicking in Chrome opens a new tab. This may just be an Electron issue not handling the middle click correctly, which wouldn't be a Discord bug.
+
+SuperSajuuk#7265 - Bug Bot on 2017-11-13T22:30:19.695Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-11-14T19:02:13.165Z
+
+
+### Verified - Jared on 2017-11-14T19:02:17.439Z
+
+
+### Can reproduce.
+Windows 10 OS-Build 15063.674; Canary 0.0.177; Seems to happen to anything. Have to stop the client entirely to close off the invisible "tabs."
+
+KJP12#3880 - Bug Bot on 2017-11-15T01:28:01.470Z
+
+
+### Cannot reproduce anymore, Canary 9945, moving to claimed fixed. - Tarek on 2018-01-26T02:09:03.406Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-26T02:09:08.142Z
+
+
+### Can't reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 9959
+
+Kuuhaku#4503 - Bug Bot on 2018-01-26T18:21:02.915Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T23:57:13.715Z
+
+
+### Can't reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.2 - Canary Build 9959
+
+mrkirby153#7840 - Bug Bot on 2018-01-27T00:07:00.274Z
+
+
+### Can't reproduce.
+CNR, Canary 0.0.201 (9959), Windows 10 Home Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-01-27T02:10:08.190Z
+
+
+### Moving this card to Verified Fixed due to it being marked as Cannot Reproduce by 3 people during the Trello cleaning event. - Alexandru Todea on 2018-01-27T07:25:24.178Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Alexandru Todea on 2018-01-27T07:25:32.988Z
+
+
+### Archiving ticket due to one month of no action. - Alexander (DJScias) on 2018-03-14T13:37:45.357Z
+
+
+### Archived by Alexander (DJScias) on 2018-03-14T13:37:46.058Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

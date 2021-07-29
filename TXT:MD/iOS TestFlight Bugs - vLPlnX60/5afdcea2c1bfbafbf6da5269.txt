@@ -1,0 +1,66 @@
+[Archived] Closing invite/join screen automatically scrolls up in chat when embed is off-screen (https://trello.com/c/WciR90PR)
+
+P3 - Will be fixed eventually,
+low
+
+Created: 2018-05-17T18:49:06.551Z
+Latest Update: 2018-09-04T23:13:36.450Z
+
+Reported by Pascal#0929
+
+####Steps to reproduce:
+
+- Post a very long message with a valid invite (make sure to test it with the latest message, older messages don't work) 
+- Scroll up the chat so the invite embed goes a bit off-screen but is still visible 
+- Click on the invite embed 
+- Close the join/invite screen
+
+####Expected result:
+Chat position shouldn't change after closing the invite screen.
+####Actual result:
+It scrolls automatically up based on the length of the message.
+####Client settings:
+TestFlight 2.3.2 (4528)
+####System settings:
+iPhone 6s, iOS 11.3.1 - iPad Air 2, iOS 11.4 Public Beta
+
+12916
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-17T18:49:06.551Z
+
+
+### Can reproduce.
+iPhone SE, iOS 10.3.2, TestFlight 2.3.2 (4528)
+
+TimThe#1118 - Bug Bot on 2018-05-17T18:49:14.360Z
+
+
+### Can reproduce.
+iPhone 6 - iOS 11.4 TestFlight 2.3.2 (4528)
+
+Xylium#1480 - Bug Bot on 2018-05-17T18:49:18.908Z
+
+
+### Can reproduce.
+Can reproduce on iPhone X iOS 11.3.1 - Testflight 2.3.2 (4528).
+
+DreaM#0001 - Bug Bot on 2018-05-17T18:49:23.922Z
+
+
+### Verified iPhone 6S 11.2.6 TF 2.3.2 - Jared on 2018-05-17T22:20:05.606Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2018-05-17T22:20:11.962Z
+
+
+### Archived by Clayton on 2018-09-04T23:13:36.452Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

@@ -1,0 +1,87 @@
+[Archived] When joining a voice channel, Canary will crash until you leave the channel on another platform. (https://trello.com/c/qoZk2G03)
+
+P1: Severe,
+High,
+Client side,
+webRTC
+
+Created: 2018-02-20T01:28:33.994Z
+Latest Update: 2018-07-06T18:02:13.226Z
+
+Reported by Elliott#0001
+
+####Steps to reproduce:
+- Use Canary 
+- Join a voice channel
+
+####Expected result:
+It should join the voice channel
+####Actual result:
+It will join, but Discord Canary will crash. The same will happen if you join on another platform (e.g. mobile, web).
+####Client settings:
+Desktop Canary Build 10904
+####System settings:
+Windows 10, Version: 1709, OS Build: 16299.248
+
+8939
+
+Card Log
+========
+### Added by Bug Bot on 2018-02-20T01:28:33.994Z
+
+
+### Can reproduce.
+Windows 10 Pro 1709 x64 - Discord Canary 10904, Also occurs in voice calls.
+
+webhp#1337 - Bug Bot on 2018-02-20T01:28:41.413Z
+
+
+### Can reproduce.
+Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 10904
+
+Ghoul#0009 - Bug Bot on 2018-02-20T01:28:46.391Z
+
+
+### Can reproduce.
+Discord Canary 0.0.202, Build 10904, Windows 10 Home 64-bit (v1709)
+
+Ene#0808 - Bug Bot on 2018-02-20T01:28:51.389Z
+
+
+### Another set of reproduction steps which was found by a non-BH are: 
+- Click on + 
+- Click Make a New Server 
+- Watch as your Discord Canary crashes constantly in a loop because your client is attempting to connect to voice channel but cannot.
+
+Ghoul#0009 - Bug Bot on 2018-02-20T01:37:10.998Z
+
+
+### Also can be reproduced by starting a DM call (voice)
+
+Ghoul#0009 - Bug Bot on 2018-02-20T02:00:52.502Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Jared on 2018-02-20T21:02:14.355Z
+
+
+### Can't reproduce.
+CNR as of Windows 10 Professional x64 - Fall Creators Update, Discord Canary Build 10915. No more crashing! Thank you all. ❤
+
+Ghoul#0009 - Bug Bot on 2018-02-20T21:24:27.554Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-05-02T23:08:14.948Z
+
+
+### Archiving this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T18:02:12.291Z
+
+
+### Archived by Jared on 2018-07-06T18:02:13.230Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,89 @@
+[Archived] Voice Activity test bar in User Settings does not work (https://trello.com/c/qiVOvmIN)
+
+P3 - Will be fixed eventually,
+high
+
+Created: 2017-12-14T00:11:56.284Z
+Latest Update: 2018-02-27T00:06:38.001Z
+
+Reported by SleepaDru#7700
+
+####Steps to reproduce:
+- Go to User Settings -> Voice 
+- Ensure Voice activity is enabled and all of the correct microphone permissions are enabled 
+- Try speaking
+
+####Expected result:
+The bar lights up green to indicate that Discord can hear you, as happens when you disable voice activity and observe the test window
+####Actual result:
+It does not do so, and you get louder and louder hoping the Discord elves one day hear your pleas
+####Client settings:
+Discord TestFlight 2.2.0 (1910)
+####System settings:
+iPhone 8+ iOS 11.2 (15C114)
+
+7011
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-14T00:11:56.284Z
+
+
+### Can reproduce.
+iPhone 8 +, Discord TestFlight 2.2.0 (1910), iOS 11.2
+
+Ghoul#4567 - Bug Bot on 2017-12-14T00:12:03.673Z
+
+
+### Can reproduce.
+CR, iPhone 7 iOS 11.0.3, Discord 2.2.0 TestFlight
+
+🎄MLG Golden🎄#9086 - Bug Bot on 2017-12-14T00:12:08.623Z
+
+
+### Can reproduce.
+Discord TestFlight 2.2.0 (1910), iOS 11.2
+
+DabbitMas#8221 - Bug Bot on 2017-12-14T00:12:13.787Z
+
+
+### Can reproduce.
+CR, iOS 11.2 public beta 1, discord tf 2.2.0 (1910), iPhone 6S
+
+brxxn#0632 - Bug Bot on 2017-12-14T03:50:48.283Z
+
+
+### I can reproduce this P3, moving to Verified Bugs.
+
+Discord 2.2.0 (1910), iOS 11.2.1, iPhone 8 Plus - Alexandru Todea on 2017-12-16T09:20:06.847Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Alexandru Todea on 2017-12-16T09:20:14.470Z
+
+
+### Can reproduce.
+iPhone 5s, iOS 10.0.1, Discord 2.1.2
+
+HeroGamers#4574 - Bug Bot on 2017-12-16T14:14:40.038Z
+
+
+### Moved from Verified Bugs to Won't Fix by Jared on 2018-01-08T18:33:32.106Z
+
+
+### This is not a bug. What's happening here is you're going into the voice settings and expecting the test bar to react, without being in a voice channel. However, if you're not in a voice channel then your microphone isn't on. We're not listening to you 24 hours a day, we're not the NSA.
+
+This is not a bug, so I'm moving to "Won't Fix". - Jared on 2018-01-08T18:34:40.020Z
+
+
+### Archiving due to age and no activity. - Mike Nisbet on 2018-02-27T00:06:35.419Z
+
+
+### Archived by Mike Nisbet on 2018-02-27T00:06:38.003Z
+
+List
+====
+Won't Fix
+
+Members
+=======
+None

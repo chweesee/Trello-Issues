@@ -1,0 +1,85 @@
+[Archived] Having an embed from a bot be edited scrolls your client up/down randomly (https://trello.com/c/2bs20Ntv)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2019-01-10T00:37:45.267Z
+Latest Update: 2019-02-14T04:30:03.753Z
+
+Reported by aditya#1337
+
+####Steps to reproduce:
+- Make a bot send an embed 
+- Send some gap space, 4-5 messages below the embed 
+- Have the bot edit the embed with different text of varying number of lines (length) 
+- Observe.
+
+####Expected result:
+Client window should move around if needed to maintain view of the edited embed
+####Actual result:
+Client moves around with no methodology and can sometimes push the client outside of the bounds of the embed (counterintuitive)
+####Client settings:
+Discord Canary 30652 with App Version: 0.0.226
+####System settings:
+Windows 10 Home // Build 1809
+
+25907
+
+Card Log
+========
+### Added by Bug Bot on 2019-01-10T00:37:45.267Z
+
+
+### aditya#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5c3693d961febd43b46ec3ca/f2eea1eb8c8d618695aff9f38233d2ab/1r2q.gif added by Bug Bot on 2019-01-10T00:37:50.597Z
+
+
+### Can reproduce.
+cr, windows 8.1 64 bit, canary build 30652
+
+RjGunner111#2001 - Bug Bot on 2019-01-10T00:37:52.580Z
+
+
+### Can reproduce.
+CR; Requires scrolling up; Windows 7 Pro 64bits (build 7601) w/ Desktop Canary 30652
+
+Longinus#0293 - Bug Bot on 2019-01-10T00:37:57.561Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.227 Build 30652
+
+Daffyduck#5364 - Bug Bot on 2019-01-10T00:38:02.595Z
+
+
+### Can reproduce.
+CR, Windows 10 Home (64-bit), Canary 30652
+
+cool person (not clickbait)#0274 - Bug Bot on 2019-01-10T00:40:48.276Z
+
+
+### Extension of archived ticket: https://trello.com/c/rmCMpnZ1 Which has been archived as Verified Fixed. Just noting it here since I'm a bit too lazy to pull up my Trello tab on web.
+
+Ghoul#0009 - Bug Bot on 2019-01-10T00:51:54.283Z
+
+
+### verified, macos 10.12.6, canary 30702 - Clayton on 2019-01-10T04:35:39.123Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-01-10T04:35:46.122Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | Canary 30873
+
+charleskimbac#6492 - Bug Bot on 2019-01-15T04:11:17.594Z
+
+
+### Archived by Bug Bot on 2019-02-14T04:30:03.820Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

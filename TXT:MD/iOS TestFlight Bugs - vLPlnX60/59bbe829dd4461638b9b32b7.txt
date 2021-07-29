@@ -1,0 +1,104 @@
+[Archived] Crash when a voice channel is deleted while looking at the relevant 'Conenct to voice / In the voice channel' pages (https://trello.com/c/dEzZ3j32)
+
+P1 - Severe
+
+Created: 2017-09-15T14:48:09.816Z
+Latest Update: 2019-07-12T17:27:47.657Z
+
+Reported by Rie#0032
+
+####Steps to reproduce:
+- Click a voice channel (you are redirected to the 'connect to voice' page) 
+- While on this page, someone deletes this voice channel 
+- You can also delete it yourself if you navigate to the channel settings using the menu in the top right of the 'in the voice channel' page 
+- Connecting to voice does not change the outcome
+
+####Expected result:
+You should get disconnected from the voice channel and the channel gets deleted
+####Actual result:
+The voice channel is deleted and the mobile user crashes
+####Client settings:
+Discord TestFlight 1.9.1 (665)
+####System settings:
+iPhone 6 16gb 10.3.3
+
+4321
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-15T14:48:09.816Z
+
+
+### Can reproduce.
+CR iPhone 5 iOS 10.3.3. iOS TestFlight v 1.9.1.
+
+Finny(<3 Fayne)#0633 - Bug Bot on 2017-09-15T14:48:17.245Z
+
+
+### Can reproduce.
+iPhone 6S, iOS 10.3.3 & iPad Air 2, iOS 11 Golden Master, TestFlight 1.9.1 (665)
+
+Pascal#0929 - Bug Bot on 2017-09-15T14:48:22.248Z
+
+
+### Can reproduce.
+Cr iPhone 6s, ios 10.3.3 with testflight 1.9.1
+
+Jakob#6834 - Bug Bot on 2017-09-15T14:48:27.302Z
+
+
+### Can reproduce.
+CR; iOS 11 GM; TestFlight 1.9.1 (665); iPhone 6S
+
+brian#0632 - Bug Bot on 2017-09-16T03:27:36.617Z
+
+
+### Can reproduce.
+iPhone 5S, iOS 11 GM, TF 1.9.1
+
+Lasse#4890 - Bug Bot on 2017-09-16T16:42:30.214Z
+
+
+### Verified. - Jared on 2017-09-18T20:47:13.003Z
+
+
+### Moved from User Reported Bugs to Serious Issues by Jared on 2017-09-18T20:47:16.454Z
+
+
+### Can reproduce.
+iPhone 6S iOS 10.3.3
+
+P317#3566 - Bug Bot on 2017-09-19T17:52:52.315Z
+
+
+### Moved from Serious Issues to Claimed Fixed Bugs by Shadi Isber on 2017-09-19T20:24:57.578Z
+
+
+### Fix on TF
+ - Shadi Isber on 2017-09-19T20:25:02.447Z
+
+
+### I can no longer reproduce, I get an error screen saying: "Channel has been deleted." 
+
+Discord 1.9.3, iOS 11.0.3, iPhone 8 Plus
+ - Alexandru Todea on 2017-10-20T18:59:34.239Z
+
+
+### Verified Fixed. - Jared on 2017-10-24T20:29:40.151Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Jared on 2017-10-24T20:29:43.440Z
+
+
+### Archiving this card because it has been in the Verified Fixed list for more than a month with no new action. - Alexandru Todea on 2017-11-26T08:31:52.342Z
+
+
+### Archived by Alexandru Todea on 2017-11-26T08:31:53.791Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

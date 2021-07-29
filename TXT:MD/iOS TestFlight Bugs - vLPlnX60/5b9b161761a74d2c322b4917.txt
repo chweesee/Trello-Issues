@@ -1,0 +1,88 @@
+[Archived] Tooltip for roles cut off in some instances (https://trello.com/c/zqO83vNK)
+
+P3 - Will be fixed eventually,
+mid
+
+Created: 2018-09-14T01:59:51.415Z
+Latest Update: 2019-09-18T10:01:11.347Z
+
+Reported by Lekic#0001
+
+####Steps to reproduce:
+- Go to a channel 
+- Start typing a role name 
+- Notice the tooltip beside the role name 
+- Note: can only replicate on the role in image, shorter or longer roles weren't having same affect)
+
+####Expected result:
+The tooltip should be completely visible and readable
+####Actual result:
+The tooltip is top-anchored and does not wrap
+####Client settings:
+TestFlight 2.3.8 (7167)
+####System settings:
+iOS 11.4.1
+
+19619
+
+Card Log
+========
+### Added by Bug Bot on 2018-09-14T01:59:51.415Z
+
+
+### Lekic#0001 - https://trello-attachments.s3.amazonaws.com/57f2d333b99965a6ba8cd7e0/5b9b161761a74d2c322b4917/08837ee01796397f952daa0834ffc6d6/GXNmIEd.jpg added by Bug Bot on 2018-09-14T01:59:53.730Z
+
+
+### Lekic#0001 - undefined added by Bug Bot on 2018-09-14T01:59:53.743Z
+
+
+### Can reproduce.
+CR only with role names under 6 characters. iPhone SE - iOS 11.4.1. TestFlight 7167
+
+evilpauwse#9985 - Bug Bot on 2018-09-14T01:59:58.770Z
+
+
+### Can reproduce.
+Can Reproduce - Only happens when the drawer is a certain length - TestFlight 2.3.8 (7167) iPhone 6s iOS 12
+
+Rashaun#9295 - Bug Bot on 2018-09-14T02:00:03.738Z
+
+
+### Can reproduce.
+iPhone 6 iOS 12, Testflight 2.3.8 (7167)
+
+Pyros#2326 - Bug Bot on 2018-09-14T02:00:08.820Z
+
+
+### verified, ios 11.0, iphone 5s, 2.3.8 (7347) - Clayton on 2018-09-20T00:36:30.254Z
+
+
+### Moved from New Issues to Backlog by Clayton on 2018-09-20T00:36:37.149Z
+
+
+### Archived by Bug Bot on 2019-02-05T21:00:02.845Z
+
+
+### Cannot reproduce anymore as of Stable 3.0.4 with iPad Pro (11 inch) running iOS 12.4.
+
+Moving to Claimed Fixed list. - Pascal on 2019-06-22T18:52:33.266Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-06-22T18:52:43.288Z
+
+
+### Unarchived by Pascal on 2019-06-22T18:53:41.441Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Pascal on 2019-06-25T04:57:21.228Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:11.364Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

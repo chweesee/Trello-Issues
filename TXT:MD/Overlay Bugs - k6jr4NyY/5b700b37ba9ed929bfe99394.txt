@@ -1,0 +1,61 @@
+[Archived] Discord In-game Overlay disables keyboard input in Battlefield 4 (https://trello.com/c/tz1yn2ik)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-08-12T10:25:59.470Z
+Latest Update: 2019-04-24T00:53:10.934Z
+
+Reported by Ryan#6907
+
+####Steps to reproduce:
+- Enable Discord in-game Overlay (Stable or Canary) 
+- Join any Battlefield 4 server 
+- Attempt to use any keys such as Enter or Escape
+
+####Expected result:
+Discord Overlay should work as intended using the hotkeys and seeing any Discord users in voice chat.
+####Actual result:
+Discord Overlay shows in Top-Right corner, all keyboard input to the game will not work. Alt-Tab and Alt-F4 work.
+####Client settings:
+Discord Stable 21425, Discord Canary 21440
+####System settings:
+Windows 10 Pro (1803) (17134.191) x64-bit
+
+17207
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-12T10:25:59.470Z
+
+
+### Can reproduce.
+Windows 10 x64 v1803, Canary 21569. Happens with Fortnite as well. A fix for that game session would be just hit overlay keybind twice
+
+AlwaysMyFault#4051 - Bug Bot on 2018-08-12T10:26:06.891Z
+
+
+### Can reproduce.
+Can Reproduce. Windows 10 x64. Canary, 21425
+
+Zak - Inactive till 18th August#5879 - Bug Bot on 2018-08-12T10:26:11.830Z
+
+
+### Can reproduce.
+When you start the game and enable overlay afterwards, it will still take mouse input, but no keyboard input from my experience. Also happens in the Menu | Windows 10 Pro x64, Release Channel: Canary 21705
+
+» a r i a#1593 - Bug Bot on 2018-08-12T10:26:16.826Z
+
+
+### merged into the master ticket, archiving - Tim on 2018-10-02T19:14:40.813Z
+
+
+### Archived by Tim on 2018-10-02T19:14:43.145Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

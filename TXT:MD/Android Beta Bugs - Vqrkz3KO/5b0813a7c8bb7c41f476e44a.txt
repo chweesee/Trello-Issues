@@ -1,0 +1,79 @@
+[Archived] The online bar in a big server is relplicated as many times as the membercount under the online bar dec/inc(ie when people go offline/online) . (https://trello.com/c/FLRIxcAq)
+
+None
+
+Created: 2018-05-25T13:46:15.802Z
+Latest Update: 2018-07-06T18:39:53.296Z
+
+Reported by The Lunala#0001
+
+####Steps to reproduce:
+- Join a big server that has many people go online/offline in a short amount of time very often. 
+- Scroll down extremely fast ( don't let the grey placeholders load) till you reach the start of online members list.
+
+####Expected result:
+You should see only one online bar.
+####Actual result:
+You see as many numbers of bars as the number of people changed in the online/offline list.
+####Client settings:
+Discord Alpha 6.8.0
+####System settings:
+Lenovo vibe K5+, 5.1.1
+
+13366
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-25T13:46:15.802Z
+
+
+### The Lunala#0001 - https://trello-attachments.s3.amazonaws.com/57f2a306ca14741151990900/5b0813a7c8bb7c41f476e44a/003416da0be95a8b091745ad5b25f8cc/Screenshot_2018-05-25-18-04-39.png added by Bug Bot on 2018-05-25T13:46:18.417Z
+
+
+### Can reproduce.
+Can Reproduce. I can reproduce it with multiple offline bars, need to scroll fast enough to not let the member list load. Xiaomi Mi A1, Android 8.0.0 -- Discord Alpha 6.8.0
+
+Ori#1908 - Bug Bot on 2018-05-25T13:46:23.142Z
+
+
+### Can reproduce.
+Can reproduce, Discord Alpha 6.8.0, Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-05-25T13:46:28.138Z
+
+
+### Can reproduce.
+Can reproduce. Samsung Galaxy S6, Android 7.0 - Discord Alpha 6.8.0
+
+Hole#0001 - Bug Bot on 2018-05-25T13:46:33.194Z
+
+
+### Can't reproduce.
+Discord Alpha 6.8.0 (680), Huawei Honor 6x, Android 7.0, EmUI 5.0.2
+
+LegitBananaMan#8239 - Bug Bot on 2018-05-25T13:51:09.174Z
+
+
+### It can no longer be reproduced with 6.8.1 because the role bar stays until we're scrolling through the role.
+
+The Lunala#0001 - Bug Bot on 2018-05-27T17:21:36.373Z
+
+
+### CNR, Samsung S6 edge, android 7.0, 6.8.7 - Clayton on 2018-05-30T01:07:30.863Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-05-30T01:07:35.861Z
+
+
+### Closing as this bug has been CNR for 30 or more days with no reproductions or new steps. - Jared on 2018-07-06T18:39:52.293Z
+
+
+### Archived by Jared on 2018-07-06T18:39:53.299Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

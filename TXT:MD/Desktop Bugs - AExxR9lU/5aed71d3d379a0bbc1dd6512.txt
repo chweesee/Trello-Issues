@@ -1,0 +1,81 @@
+[Archived] If you reload your client in the middle of a message being sent, it will turn red and still send the message (https://trello.com/c/Gvhqmh6i)
+
+None
+
+Created: 2018-05-05T08:56:51.770Z
+Latest Update: 2018-07-06T17:50:30.013Z
+
+Reported by Tarek#1337
+
+####Steps to reproduce:
+- Write something 
+- Hit send then instantly reload 
+- Observe the red message
+
+####Expected result:
+It shouldn't be red. 🤔
+####Actual result:
+It turns red and still sends the message
+####Client settings:
+Discord Canary 0.0.207 (14720)
+####System settings:
+Windows 10 Pro 64-bit (1803)
+
+11984
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-05T08:56:51.770Z
+
+
+### Tarek#1337 - https://i.imgur.com/ZJ8lnlc.gifv added by Bug Bot on 2018-05-05T08:56:54.228Z
+
+
+### Can reproduce.
+[cr] | Win10, 64bits • Canary Build Number: 14720
+
+fujhofn.#0878 - Bug Bot on 2018-05-05T08:56:59.084Z
+
+
+### Can reproduce.
+CR. Macbook Air (Early 2015), macOS Sierra 10.12.6, Discord Canary (Build 14632)
+
+Rage#0001 - Bug Bot on 2018-05-05T08:57:04.105Z
+
+
+### Can reproduce.
+Able to Reproduce; Samsung Galaxy A3 2017; Android 7.0; Discord 6.6.1 (661)
+
+Costpap#2158 - Bug Bot on 2018-05-05T08:57:09.096Z
+
+
+### I meant to say -a
+
+Costpap#2158 - Bug Bot on 2018-05-05T08:58:26.110Z
+
+
+### I meant -w, which is Windows 10 Pro x64;  Build 1803; Discord Canary Build 14720.
+
+Costpap#2158 - Bug Bot on 2018-05-05T08:59:20.060Z
+
+
+### Verified, but I don't actually think this is a bug. The client is waiting on a response from the server that it was successfully posted, which it never gets and it stops trying to resend because it's being restarted. Afterwards it continues trying to send the message and succeeds as the page is loading.
+
+I'm closing this out as Not A Bug - Jared on 2018-05-08T18:26:27.996Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Jared on 2018-05-08T18:26:32.189Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:50:27.541Z
+
+
+### Archived by Jared on 2018-07-06T17:50:30.016Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

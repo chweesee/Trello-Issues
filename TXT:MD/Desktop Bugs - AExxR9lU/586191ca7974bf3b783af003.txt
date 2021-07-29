@@ -1,0 +1,92 @@
+[Archived] Users with super long names break the members panel in server settings (https://trello.com/c/bxOe34BS)
+
+P3: Will get fixed eventually
+
+Created: 2016-12-26T21:55:22.867Z
+Latest Update: 2018-02-22T19:57:51.720Z
+
+Reported by Aaron#7079
+
+####Steps to reproduce: 
+- Find server with user that has massively long name (using zalgo or something like that) 
+- Go to members in server settings 
+- Find user. WIndow will "grow" to fit name, and you lose the ability to kick/ban user. 
+
+####Expected result:
+ Name gets truncated to fit window 
+####Actual result:
+ Full name is shown, breaking window
+
+Card Log
+========
+### Added by Jared on 2016-12-26T21:55:22.867Z
+
+
+### Can reproduce.
+Windows 10, Canary
+
+KockaAdmiralac#9306 - Jared on 2016-12-26T21:55:23.288Z
+
+
+### Can reproduce.
+Windows 8.1, Latest Canary
+
+小原 鞠莉 ★★★★#9667 - Jared on 2016-12-26T21:55:23.358Z
+
+
+### Image%202016-12-26%20at%2011.04.21.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/586191ca7974bf3b783af003/6d8e7c525273f423d84f074a0e98b17f/Image_202016-12-26_20at_2011.04.21.png added by Jared on 2016-12-26T21:55:39.820Z
+
+
+### Can reproduce.
+Windows 10, Canary
+
+KockaAdmiralac#9306 - Jared on 2016-12-26T21:57:50.843Z
+
+
+### The character on the image is `﷽`
+
+KockaAdmiralac#9306 - Jared on 2016-12-26T21:59:01.895Z
+
+
+### Verified. - Jared on 2017-01-03T17:55:31.210Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Jared on 2017-01-03T17:55:34.941Z
+
+
+### Can reproduce.
+Win 10 Pro AU x64, Canary
+
+Tiemen#0107 - Bug Bot on 2017-04-09T21:27:14.264Z
+
+
+### Can't reproduce.
+UI changed, name will now be truncated, MacBook Pro 13" (2016), macOS High Sierra 10.13, Discord Canary 0.0.156 (Build: 6174)
+
+Pascal#0929 - Bug Bot on 2017-10-23T09:40:39.711Z
+
+
+### Can no longer reproduce. UI now truncates long names. Win10 x64 FCU, Canary Build 6190 - Mike Nisbet on 2017-10-23T12:38:18.285Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Mike Nisbet on 2017-10-23T12:38:23.183Z
+
+
+### Verified Fixed - Jared on 2018-01-17T20:26:01.466Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2018-01-17T20:26:04.858Z
+
+
+### Archived due to being inactive for a month without any further activity and it's verified fixed. - Tarek on 2018-02-22T19:57:50.627Z
+
+
+### Archived by Tarek on 2018-02-22T19:57:51.722Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

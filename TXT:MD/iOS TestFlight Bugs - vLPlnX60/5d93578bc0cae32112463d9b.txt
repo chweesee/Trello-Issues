@@ -1,0 +1,121 @@
+On channels where images are not allowed, attempting to send a bunch of Memojis still triggers the too many images in one message prompt (https://trello.com/c/2Uwk2sOA)
+
+low,
+P3 - Will be fixed eventually
+
+Created: 2019-10-01T13:41:31.400Z
+Latest Update: 2020-07-17T21:00:05.623Z
+
+Reported by SplashyFlame#0067
+
+####Steps to reproduce:
+- go in a channel where images are not allowed 
+- Use at least 11 Memojis in the same message 
+- Observe that although the images didn’t appear, the image limit is still in effect
+
+####Expected result:
+Nothing should happen
+####Actual result:
+The image limit is in effect, even though images are not allowed
+####Client settings:
+TestFlight 3.1.4 (17524)
+####System settings:
+iPhone XR, iOS 13.1.2
+
+45000
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-01T13:41:31.400Z
+
+
+### SplashyFlame#0067 - https://youtu.be/WqUipH72Q_k added by Bug Bot on 2019-10-01T13:41:34.109Z
+
+
+### Can reproduce.
+CR - iPhone 8 - iOS 13.1.2 - TestFlight 3.1.4 (17524)
+
+TanichkaShvid#0527 - Bug Bot on 2019-10-01T13:41:39.033Z
+
+
+### Can reproduce.
+iPhone 7, iOS 13.1.1, Discord Testflight 3.1.4 (17524)
+
+KindleTune#8570 - Bug Bot on 2019-10-01T13:41:44.008Z
+
+
+### Can reproduce.
+iPhone SE, iOS 13.0, Discord TestFlight 3.1.4 (17524)
+
+Rex#9142 - Bug Bot on 2019-10-01T13:41:49.058Z
+
+
+### Can reproduce.
+iPhone XR iOS 13.1.2 TestFlight 3.1.4 (17524)
+
+binchlord#0998 - Bug Bot on 2019-10-01T13:54:19.127Z
+
+
+### Can reproduce.
+iPhone 8, iOS 13.1.2, TestFlight 3.1.4 (17524)
+
+.Gloria.#9606 - Bug Bot on 2019-10-01T14:32:59.635Z
+
+
+### Can reproduce.
+iPhone 8 iOS 13.1 Discord TestFlight: 3.1.4 (17524)
+
+Boss#0006 - Bug Bot on 2019-10-01T18:50:20.740Z
+
+
+### Can reproduce.
+iPhone Xʀ - iOS 13.1.2 - Discord TestFlight 3.1.4 (17524)
+
+Frances Picard#6209 - Bug Bot on 2019-10-02T01:03:37.206Z
+
+
+### Can reproduce.
+iPhone XR; iOS 13.1.2; TestFlight 3.1.4 (17524)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-02T04:32:19.575Z
+
+
+### Can reproduce.
+iPhone 7 Plus - iOS 13.0 - TestFlight 3.1.4 (17524)
+
+Ayu#0001 - Bug Bot on 2019-10-02T19:50:32.789Z
+
+
+### Can reproduce.
+iPhone 11, iOS 13.2 (dev beta) - TestFlight 3.1.4 (17524)
+
+Xylium#5800 - Bug Bot on 2019-10-02T19:56:00.379Z
+
+
+### Can reproduce.
+iPhone X (iOS 13.1.2), Testflight (17524)
+
+MikeTheSpike#0350 - Bug Bot on 2019-10-04T07:30:55.721Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-10-11T19:00:09.818Z
+
+
+### Archived by Bug Bot on 2019-11-10T19:30:05.721Z
+
+
+### Can reproduce.
+iPhone X, newest stable iOS, Discord Stable 30.0 - You only need to use 1 memoji.
+
+Juergie#8671 - Bug Bot on 2020-07-16T13:11:29.953Z
+
+
+### Unarchived by Bug Bot on 2020-07-16T13:30:06.606Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

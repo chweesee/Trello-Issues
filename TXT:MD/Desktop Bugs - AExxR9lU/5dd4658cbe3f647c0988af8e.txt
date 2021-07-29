@@ -1,0 +1,132 @@
+[Archived] Creating an empty Group DM crashes the client (https://trello.com/c/RqthDKnj)
+
+None
+
+Created: 2019-11-19T21:58:36.607Z
+Latest Update: 2019-12-30T10:00:38.722Z
+
+Reported by Jack#9079
+
+####Steps to reproduce:
+- Click "New Group DM" in the Home screen 
+- Click "Create Group DM" without selecting any friends
+
+####Expected result:
+The empty group should be displayed.
+####Actual result:
+"Well, this is awkward" dialog is displayed. The "Select Friends" dialog is still visible. Clicking Reload doesn't help.
+####Client settings:
+Release Channel: stable, Build Number: 49868, Version Hash: 65ea27654a176bf3b7bec141a30b4c0ded5cad22
+####System settings:
+Windows 10 Pro, 1909
+
+48499
+
+Card Log
+========
+### Added by Bug Bot on 2019-11-19T21:58:36.607Z
+
+
+### Can reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 49886
+
+Jiralite#1207 - Bug Bot on 2019-11-19T21:58:44.102Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Home 1903 (x64), Canary 49886
+
+Paper#5375 - Bug Bot on 2019-11-19T21:58:49.130Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Canary 49886 host 0.0.259
+
+Jean20B#4668 - Bug Bot on 2019-11-19T21:58:54.101Z
+
+
+### Can reproduce.
+CR: Windows 10 Pro 1903, Discord Canary 49841
+
+Rex#1120 - Bug Bot on 2019-11-19T22:35:34.901Z
+
+
+### Cannot reproduce anymore.
+Windows 10 Home x64 v1903 - Discord Canary 0.0.259 Build 49896
+Moving to claimed fix. - Daffyduck on 2019-11-19T23:05:47.996Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Daffyduck on 2019-11-19T23:05:54.966Z
+
+
+### Can't reproduce.
+MacBook Pro: macOS Catalina 10.15.1; Discord Canary 49896
+
+Jiralite#1207 - Bug Bot on 2019-11-19T23:07:39.299Z
+
+
+### Can't reproduce.
+ mbp catalina canary override 49841
+
+nepcwч#3886 - Bug Bot on 2019-11-19T23:09:32.774Z
+
+
+### Can reproduce.
+Can reproduce - Windows 10 Pro (Version 1903 Build 18362.476), Canary Build 49841
+
+kiosion#0001 - Bug Bot on 2019-11-19T23:11:47.616Z
+
+
+### Can't reproduce.
+Win 10 Pro 1909, Release Channel: stable, Build Number: 49896, Version Hash: 8aa51058080bf1d6888a14ef2ff88a2797274904
+
+Jack#9079 - Bug Bot on 2019-11-19T23:17:00.841Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-11-19T23:17:01.219Z
+
+
+### Already verified fixed
+
+Jiralite#1207 - Bug Bot on 2019-11-20T00:03:42.836Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra) Canary override 49841
+
+myacorn#6534 - Bug Bot on 2019-11-20T01:23:19.238Z
+
+
+### Can reproduce.
+Windows 10 Pro, 1909 (OS Build 18362.476); Canary, 49841
+
+Leo#5142 - Bug Bot on 2019-11-20T06:49:16.125Z
+
+
+### Can reproduce.
+Windows 10 Home x64, Discord: ptb, Build Number: 49841
+
+TheFutureKnight#7664 - Bug Bot on 2019-11-20T13:57:13.144Z
+
+
+### Can't reproduce.
+CNR on Windows 10 Home Version 1903; Canary Build 49972 - Probably Fixed
+
+RPS1222#5127 - Bug Bot on 2019-11-20T23:09:01.353Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64, Discord stable: 50474
+
+Dog#5630 - Bug Bot on 2019-11-30T09:35:13.453Z
+
+
+### Archived by Bug Bot on 2019-12-30T10:00:38.733Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

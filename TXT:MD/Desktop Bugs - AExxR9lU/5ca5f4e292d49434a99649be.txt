@@ -1,0 +1,120 @@
+[Archived] Broken expiration times for invite links. [Dutch Specific] (https://trello.com/c/MkA1stnI)
+
+None
+
+Created: 2019-04-04T12:13:22.169Z
+Latest Update: 2019-08-03T04:30:40.584Z
+
+Reported by warp#6969
+
+####Steps to reproduce:
+- Change Discord language to Dutch 
+- Rightclick on a server 
+- Click on "Mensen uitnodigen" (Invite people) 
+- Click on "Bewerk uitnodigingslink" (Edit invite link) 
+- Click on the button saying "1 dag" (1 day) 
+- Scroll up to the first 4 options 
+- Observe broken expiration times
+
+####Expected result:
+Expiration times should appear correctly
+####Actual result:
+Options will either be incorrect, and have "1 minuut" or "1 uur" in front of the actual time, or will be empty.
+####Client settings:
+Discord Stable Web 35013
+####System settings:
+Dell Chromebook 11, Chrome 72.0.3626.122 (64x)
+
+32114
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-04T12:13:22.169Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5ca5f4e292d49434a99649be/c883905e784303204ecea56314e1e66a/X5Cu6Z1.png added by Bug Bot on 2019-04-04T12:13:24.926Z
+
+
+### Can reproduce.
+HP Chromebook G5 11 · Chrome 72.0.3626.122 (x64) · Web Canary 35059 — Note: To get the translated strings to appear after setting the language to Dutch, I had to clear cache & cookies, log out, hard refresh, and log in again.
+
+Casper#9999 - Bug Bot on 2019-04-04T12:13:29.519Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 35059
+
+Daffyduck#5364 - Bug Bot on 2019-04-04T12:13:34.505Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 35059
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-04T12:13:39.480Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 35059, safari 12.1
+
+𝖯𝖺𝗂𝗇#2020 - Bug Bot on 2019-04-04T12:44:51.606Z
+
+
+### Can reproduce.
+Can Reproduce; W10 Home x64, 1809 17763.379, Canary 35059
+
+c1rcl#1337 - Bug Bot on 2019-04-04T15:39:26.064Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 35059
+
+Clay#0001 - Bug Bot on 2019-04-04T21:15:39.699Z
+
+
+### Can reproduce.
+Can repro. | Win 10 Pro x64 (1809) | Chrome 73 Web Canary 35116
+
+Clay#0001 - Bug Bot on 2019-04-05T21:56:20.257Z
+
+
+### Adjusted string last Friday (06/07/19) that was causing this. Once a new build is pushed, this should hopefully be fixed.  - Kendall on 2019-06-10T21:15:20.639Z
+
+
+### Cannot reproduce anymore on Canary 39833, Windows 10 Home 64-bit (v1903).
+
+Moving to Claimed Fixed. - Ene on 2019-06-17T09:04:15.672Z
+
+
+### Moved from User Reported Bugs to Claimed Fixed, needs Verification by Ene on 2019-06-17T09:04:19.313Z
+
+
+### Can't reproduce.
+Can not be reproduced anymore, Web Canary 39833, Version Hash: 53b6e2e5ee715eb183bc33185bbc7689835c6c99 - ChromeOS Canary 77.0.3822.0
+
+OneNormalUsername#7636 - Bug Bot on 2019-06-17T09:48:30.429Z
+
+
+### Can't reproduce.
+Windows 10 Home v1903 x64 - Discord Canary 39833
+
+Daffyduck#5364 - Bug Bot on 2019-06-17T11:00:44.683Z
+
+
+### Can't reproduce.
+Can no longer reproduce; Windows 10 Pro x32, Canary 39833
+
+Karasu#0013 - Bug Bot on 2019-06-17T11:20:58.665Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-06-17T11:20:58.915Z
+
+
+### Archived by Bug Bot on 2019-08-03T04:30:40.595Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

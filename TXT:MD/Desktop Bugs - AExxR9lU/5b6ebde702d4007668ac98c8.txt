@@ -1,0 +1,151 @@
+[Archived] Pressing ESC in the credit card form causes the client to crash (https://trello.com/c/z3dFhV4G)
+
+P2: Fix can wait a while,
+Mid
+
+Created: 2018-08-11T10:43:51.639Z
+Latest Update: 2019-02-22T16:00:34.895Z
+
+Reported by Delite#0001
+
+####Steps to reproduce:
+- Navigate to the billing tab 
+- Select add payment method 
+- Select Credit Card 
+- Press ESC 
+- Observe
+
+####Expected result:
+The form closes
+####Actual result:
+The client crashes
+####Client settings:
+Discord Canary 21681
+####System settings:
+Windows 10 Pro x64
+
+17340
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-11T10:43:51.639Z
+
+
+### Can reproduce.
+Can Reproduce - MacBook Pro (13"), macOS 10.13.6 - Canary 21681
+
+Mippy#0001 - Bug Bot on 2018-08-11T10:43:58.918Z
+
+
+### Can reproduce.
+CR, Windows 10 home 64-bit (1803); Discord Canary Build 21681
+
+Blitz#7736 - Bug Bot on 2018-08-11T10:44:03.926Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro 64-bit canary, Build Number: 21584(edited)
+
+Fibrous#0002 - Bug Bot on 2018-08-11T10:44:08.921Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 Build 1803
+
+R0shi#9716 - Bug Bot on 2018-08-11T11:23:31.826Z
+
+
+### Can reproduce.
+Windows 10 x64 1803 (17134), Discord Canary with Build number 21681
+
+Frances Picard#6209 - Bug Bot on 2018-08-11T12:51:04.843Z
+
+
+### Can reproduce.
+CR | [BUILD INFO] Release Channel: canary, Build Number: 21705, Version Hash: 4abb1fa9bd2d52460caa1d0de85702ab7775a726 | Windows 10 Professional | OS Build 17134.112 | v1803 | Can reproduce by adding an invalid card, or you can also use a test card to try this.
+
+FoxyKero#9941 - Bug Bot on 2018-08-13T19:21:25.310Z
+
+
+### verified, macos 10.12.6, canary 21434 - Clayton on 2018-08-16T21:30:24.583Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-08-16T21:30:35.392Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b6ebde702d4007668ac98c8/a5a9a74293e6db5e2401b747a345208b/nfVOQ7F.png added by Bug Bot on 2018-09-08T02:52:32.910Z
+
+
+### An extension to this bug:
+PS: Only happens after you have reproduced this bug
+- Go to Billing
+- Add a new payment method 
+- Choose credit card
+- Try to save that info
+Discord crashes.
+
+Rage#9991 - Bug Bot on 2018-09-15T09:27:29.652Z
+
+
+### Can reproduce.
+Windows 10 Home 64-bit v. 1803, Discord Canary Build: 24925
+
+tristanfarkas#0001 - Bug Bot on 2018-09-28T10:24:19.098Z
+
+
+### Only seems to happen in channels where the chatbox exists and is focusable (https://youtu.be/khtrP4n_qZA)
+
+Aetheryx#2222 - Bug Bot on 2018-10-17T11:21:31.331Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64 - Discord Canary 28197
+
+Daffyduck#5364 - Bug Bot on 2018-11-18T03:23:16.857Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 canary, Build Number: 28567
+
+Azrael#6867 - Bug Bot on 2018-11-29T05:54:44.189Z
+
+
+### Moved from Verified Bugs to Fix made, not yet released by Kamilla Karthigesu on 2019-01-22T21:59:46.262Z
+
+
+### Cannot reproduce anymore, Canary 31183. 0.0.229, W10 1809, moving to claimed fixed. - Tarek on 2019-01-23T15:49:09.267Z
+
+
+### Moved from Fix made, not yet released to Claimed Fixed, needs Verification by Tarek on 2019-01-23T15:49:13.191Z
+
+
+### Can't reproduce.
+cnr anymore
+
+Rage#9991 - Clayton on 2019-01-23T15:50:13.076Z
+
+
+### Can't reproduce.
+Crash does not occur anymore - Windows 10 Home x64 v1809, Discord Canary 31183
+
+Haru💗#6660 - Clayton on 2019-01-23T15:50:14.295Z
+
+
+### Can't reproduce.
+Cant Reproduce. Windows 10 Home v1809 x64 - Discord Canary 31183
+
+Daffyduck#5364 - Clayton on 2019-01-23T15:50:22.425Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2019-01-23T15:50:22.896Z
+
+
+### Archived by Bug Bot on 2019-02-22T16:00:34.908Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,73 @@
+Ctrl+T (Jump Dialog) shows games in activity feed settings that are not in library settings (https://trello.com/c/OeE2tusI)
+
+None
+
+Created: 2019-10-27T19:56:53.919Z
+Latest Update: 2020-07-16T21:26:05.397Z
+
+Reported by ethan#0001
+
+####Steps to reproduce:
+- Turn off "Import your games" in Game Library settings 
+- Make sure game isn't listed in Library tab 
+- Make sure game is an "Added Game" in Game Activity settings 
+- Ctrl+T 
+- Type game name 
+- Observe ability to launch 
+- Remove game from "Added Games" in Game Activity 
+- Ctrl+T 
+- Type game name 
+- Observe inability to launch
+
+####Expected result:
+Game should not launch when not imported into Library, but I should still be able to use Overlay feature and have game status
+####Actual result:
+In order to have the non-library game not show in the jump modal, the game must also be removed from Game Activity settings, causing them to lose ability to use Overlay.
+####Client settings:
+Desktop Canary, 48112
+####System settings:
+Windows 10 Education, Version 1903, Build 18362.418
+
+46350
+
+Card Log
+========
+### Added by Bug Bot on 2019-10-27T19:56:53.919Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Pro x64 (1903, Build 18362.449), Canary (48134)
+
+Cerberus#0005 - Bug Bot on 2019-10-27T19:57:01.644Z
+
+
+### Can reproduce.
+windows 10 1709 x64, Acer aspire VX,  Discord canary - Build number:
+
+Eagler1997#7990 - Bug Bot on 2019-10-27T19:57:06.459Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1709, Canary 48134
+
+Purpzie#0001 - Bug Bot on 2019-10-27T19:57:11.472Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 48134 (Host 0.0.258)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-10-28T01:22:19.996Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903, - Discord Canary, Build Number: 48134
+
+.Gloria.#9606 - Bug Bot on 2019-10-28T04:10:51.251Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

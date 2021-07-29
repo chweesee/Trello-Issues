@@ -1,0 +1,77 @@
+[Archived] Audio Devices dont work in discord after waking computer from sleep if power plan is set to High Performance unless you disconnect from the server or reload. On other power plans (Power saver, or Balanced) when waking the computer it disconnects and reconnects you to the voice server, so it doesnt experience the issue (https://trello.com/c/p4tuCnIJ)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-05-03T00:26:41.649Z
+Latest Update: 2018-10-22T20:20:24.253Z
+
+Reported by Noone#0159
+
+####Steps to reproduce:
+- Step 1 Change your windows Power Plan setting to ``High Performance``  
+- Step 2 Open Discord client and join a voice channel  
+- Step 3 Put your computer to sleep  
+- Step 4 Awake computer and try to speak or hear anyone in discord voice.
+
+####Expected result:
+Should be able to hear or talk.
+####Actual result:
+Cannot hear or talk even if u switch voice channels, only corrects self if you disconnect/reload discord.
+####Client settings:
+Build Number: 14308
+####System settings:
+Windows 10 x64 Build 16299.371
+
+11668
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-03T00:26:41.649Z
+
+
+### Can reproduce.
+Can reproduce (Does the same on any other power mode) Windows 10 x64 1709 Canary 14388
+
+Bencey_#8587 - Bug Bot on 2018-05-03T00:26:49.018Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.205 (14388) on Windows 10 Education 1803 (Build 17134.1)
+
+OminousCry#2331 - Bug Bot on 2018-05-03T00:26:54.120Z
+
+
+### Can reproduce.
+Can repro (did not need to change power settings to high) Windows 10 Home Edition, Stable Build 14457, Canary 14432
+
+missthesnow#1533 - Bug Bot on 2018-05-03T00:26:59.008Z
+
+
+### Can reproduce.
+Works at any power setting, windows 10
+
+TheFinest#2561 - Bug Bot on 2018-05-03T07:24:34.610Z
+
+
+### Can reproduce.
+Windows 10 Home 1803 64-Bit Build 17134.1 [BUILD INFO] Release Channel: stable, Build Number: 14457, Version Hash: 3b2bbc09cb6eff6066e846f118bb93dce41fdbd8 on a Dell Inspiron 5570. Can Repro on any Power Plan even if I leave it on the Default "Dell" plan.
+
+Blastoise186#7194 - Bug Bot on 2018-05-03T13:24:40.922Z
+
+
+### Verified, Windows 10, Build 14632 - Clayton on 2018-05-04T20:39:08.060Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-04T20:39:12.552Z
+
+
+### Archived by Clayton on 2018-10-22T20:20:24.255Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

@@ -1,0 +1,63 @@
+[Archived] Discord asks for microphone permissions before checking if the call is even possible (https://trello.com/c/RMbVet8W)
+
+None
+
+Created: 2018-06-14T04:52:01.891Z
+Latest Update: 2018-08-31T00:11:55.142Z
+
+Reported by Alex1304#9704
+
+####Steps to reproduce:
+- Have Microphone permissions off for Discord (requires Android 6+) 
+- Go to a DM with someone you're not friend with and that don't allow calls from non friends 
+- Attempt to call him
+
+####Expected result:
+The app should check first if you are allowed to call the person, and then if this check is successful it will ask for mic permissions, right before initializing the voice module
+####Actual result:
+The app asks for mic permissions as soon as you press Start a call, so it makes you think the call will start, but actually no because the "You need to be friends to start a call" modal appears and the call is prevented. As far as I know, displaying a modal doesn't require a microphone...
+####Client settings:
+Discord Alpha 6.8.9
+####System settings:
+Huawei Mate 9 Android 8.0
+
+14137
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-14T04:52:01.891Z
+
+
+### Can reproduce.
+[cr] | Huawei P8Lite 2016, Emui v4.1 • Android 6.0.1 • Discord Alpha 6.8.9
+
+fujhofn.#0003 - Bug Bot on 2018-06-14T04:52:09.445Z
+
+
+### Can reproduce.
+CR, Samsung Galaxy Note 4 running Android 6.0.1, Discord Alpha 6.9.1
+
+FoxyKero#9941 - Bug Bot on 2018-06-14T04:52:14.371Z
+
+
+### Can reproduce.
+CR. Alcatel 3C, 7.0.0 Discord Alpha 6.8.9
+
+StefanFX#2952 - Bug Bot on 2018-06-14T04:52:19.407Z
+
+
+### This is a feature request, not a bug. - Jared on 2018-06-15T22:35:07.111Z
+
+
+### Moved from User Reported Bugs to Won't Fix by Jared on 2018-06-15T22:35:14.086Z
+
+
+### Archived by Clayton on 2018-08-31T00:11:55.144Z
+
+List
+====
+Won't Fix. Dead Bug
+
+Members
+=======
+None

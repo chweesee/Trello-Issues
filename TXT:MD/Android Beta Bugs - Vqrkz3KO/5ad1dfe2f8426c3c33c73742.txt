@@ -1,0 +1,89 @@
+[Archived] volume controls not working properly when the phone sleeps (https://trello.com/c/tQ0Z7HkT)
+
+P3 - Will be fixed eventually,
+Low
+
+Created: 2018-04-14T11:02:58.954Z
+Latest Update: 2018-07-06T18:38:01.457Z
+
+Reported by BakugouDeku#0602
+
+####Steps to reproduce:
+- join in an active voice channel 
+- (optional) adjust your volume control to your desired level 
+- put phone to sleep 
+- adjust volume control lower to the original after your phone sleeps
+
+####Expected result:
+the system should adjust the call volume settings even the phone is in sleep mode
+####Actual result:
+the system cant adjust the system call volume settings
+####Client settings:
+Android Alpha 6.4.6
+####System settings:
+Cherry Mobile Spin Max 6.0.1
+
+10682
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-14T11:02:58.954Z
+
+
+### Can reproduce.
+[cr] The sound stops display when we put our phone sleeps for ~10 seconds (but the voice chat don't close) | Huawei P8Lite 2016 • Android 5.1 • Alpha 6.4.8
+
+fujhofn.#0878 - Bug Bot on 2018-04-14T11:03:06.341Z
+
+
+### Can reproduce.
+Can reproduce. I'm not able to change the volume of the call when locking phone for more than 10 seconds; ZTE Blade v8 Android 7.0; Discord Alpha 6.4.8
+
+SweetSofiMC#8821 - Bug Bot on 2018-04-14T11:03:11.334Z
+
+
+### Can reproduce.
+Can repo, Moto E3 Android 6.0 Discord Alpha 6.4.9
+
+MrBlob#7101 - Bug Bot on 2018-04-14T11:03:16.320Z
+
+
+### Can reproduce.
+Can reproduce, but I cannot change the volume of the call after the phone sleeps, no time needed. | Discord Alpha 6.4.9 Redmi Note 4X Android 7.0 NRD90M
+
+RandomGamer123#5222 - Bug Bot on 2018-04-14T11:05:04.825Z
+
+
+### Can't reproduce. Samsung S6 Edge, Android 7.0 - Clayton on 2018-04-17T22:36:20.894Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-04-17T22:36:24.656Z
+
+
+### Can reproduce.
+Asus Zenfone 3, Android 7.0, Discord Alpha 6.5.5
+
+Doges#0001 - Bug Bot on 2018-04-20T23:14:47.113Z
+
+
+### Can't reproduce, ZTE Axom 7 - Jared on 2018-04-23T22:12:18.520Z
+
+
+### Can reproduce.
+OPPO f1, Android 5.1.1, Discord Alpha 6.6.1
+
+Destroyer#9344 - Bug Bot on 2018-05-07T08:19:18.606Z
+
+
+### Closing as this bug has been CNR for 30 or more days with no reproductions or new steps. - Jared on 2018-07-06T18:38:00.843Z
+
+
+### Archived by Jared on 2018-07-06T18:38:01.460Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

@@ -1,0 +1,80 @@
+[Archived] When editing a message if you have a gif avatar it will show it twice with one playing and the other not (https://trello.com/c/xQCSe67u)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2017-12-14T11:33:56.673Z
+Latest Update: 2018-10-22T20:17:25.465Z
+
+Reported by Lucas#7345
+
+####Steps to reproduce:
+- Have nitro avatar (transparent so you can see underneath) 
+- send message 
+- edit message
+
+####Expected result:
+There should only be one gif that only plays when hovered over (normal behavour)
+####Actual result:
+Two gifs appears and one plays automatically while the other gets triggered by hovering
+####Client settings:
+Discord Stable Desktop 0.0.298
+####System settings:
+Windows 7 Enterprise (x64/86?)
+
+6918
+
+Card Log
+========
+### Added by Bug Bot on 2017-12-14T11:33:56.673Z
+
+
+### Lucas#7345 - https://i.imgur.com/MnSSrPT.gifv added by Bug Bot on 2017-12-14T11:33:59.462Z
+
+
+### Can reproduce.
+CR, Canary  0.0.182 (8464), Windows 10 Home Version 1703
+
+QwakGoesDuck#9672 - Bug Bot on 2017-12-14T11:34:04.087Z
+
+
+### Can reproduce.
+CR, Discord Canary 0.0.182, Build 8486, Windows 10 Home x64
+
+Ene#3002 - Bug Bot on 2017-12-14T11:34:09.104Z
+
+
+### Can reproduce.
+CR, macOS 10.13.1, Canary 8541. I see what you mean now.
+
+dotJS#2125 - Bug Bot on 2017-12-14T11:34:14.100Z
+
+
+### Will only work when its one messages and none (of yours) are directly above/connected
+
+Lucas#7345 - Bug Bot on 2017-12-14T13:40:22.632Z
+
+
+### Verified!
+
+Note, happens only with GIF's that has a transparent background, else it will look okay. - Tarek on 2017-12-15T09:34:25.235Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Tarek on 2017-12-15T09:34:29.976Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (Canary Build 9258, v 0.0.194)
+
+Donut#0387 - Bug Bot on 2018-01-06T05:22:59.344Z
+
+
+### Archived by Clayton on 2018-10-22T20:17:25.471Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

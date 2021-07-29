@@ -1,0 +1,99 @@
+[Archived] NSFW Feature Automatically Unticks in Server after a Period of Time. (https://trello.com/c/DY8QGZ8C)
+
+P1: Severe
+
+Created: 2017-10-08T10:13:19.855Z
+Latest Update: 2017-12-02T17:19:26.027Z
+
+Reported by Nightmare Kitty#4567
+
+####Steps to reproduce:
+-Use a server, or create a new one.
+-Create a channel, or use one.
+-Go to Channel Settings, then turn on NSFW content.
+-Supervise the server for a few hours to a few days (maybe switch between desktop and phone, but it's optional.)
+
+####Expected result:
+NSFW content is turned on for the channel, and stays that way unless settings are changed
+####Actual result:
+NSFW feature turns off automatically, there is nothing about it in the aduit log and I am the only admin. This happens after some extended period of time, as it is not a right away result.
+####Client settings:
+Discord Stable: 0.0.298, Discord Canary: 0.0.165
+####System settings:
+Dell Latitude E5540 (Intel Core i7 vPro) with Windows 10 Pro, x64 bit... Version 1703, OS Build 15063.674
+
+5214
+
+Card Log
+========
+### Added by Bug Bot on 2017-10-08T10:13:19.855Z
+
+
+### Can reproduce.
+Possible only with dell devices. Dell inspiron 15R-5520 (2015 model) Windows 10 Pro 64-bit, x64-based processor, Discord Canary 0.0.164
+
+AviationMaster/Kawaii#4793 - Bug Bot on 2017-10-08T10:13:27.411Z
+
+
+### Can reproduce.
+CR, Ubuntu 17.04/Linux 4.10, Discord Canary 0.0.24 (5478) - The NSFW option automaticly disables its self on all channels i set it after around 24 Hours.
+
+Starshine Dust#2189 - Bug Bot on 2017-10-08T10:13:32.380Z
+
+
+### Can reproduce.
+Randomly unticks does take hours MacBook Air (13-inch, Early 2015) MacOS High Sierra, Discord Canary 0.0.155
+
+Cheezybob99#9866 - Bug Bot on 2017-10-08T10:13:37.377Z
+
+
+### Can't reproduce.
+Supervised it for several days, doesn't happen to me, probably related to Dell devices| Discord Canary 0.0.165 (Build 5588) on Windows 10 Home x64 (Build 1703)
+
+OminousCry#2331 - Bug Bot on 2017-10-10T17:57:59.148Z
+
+
+### Nightmare Kitty#4567 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/59d9fa3fe0f1e68265cc1679/b2a72bffc462a450f47eca002b769460/log.png added by Bug Bot on 2017-10-13T21:47:06.800Z
+
+
+### Upon further inspections, it is possible that it is happening in newer servers (that was fresh out of Wumpus' oven.) It can take a few hours to a few days, but it is possible that it is triggered after a constant use / switch of computer and phone.
+
+Nightmare Kitty#4567 - Bug Bot on 2017-10-13T22:01:43.076Z
+
+
+### Can reproduce.
+Windows 10 Pro 1607 x64, Canary 0.0.165 (build 5843)
+
+juj#5114 - Bug Bot on 2017-10-14T00:17:46.921Z
+
+
+### Verified.  - Clayton on 2017-10-14T00:58:20.469Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-10-14T00:58:27.956Z
+
+
+### Should be fixed as of last Friday - Jake Heinz on 2017-10-22T01:59:02.574Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Jake Heinz on 2017-10-22T01:59:12.538Z
+
+
+### Jake fixed - Jared on 2017-10-23T23:34:06.308Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Jared on 2017-10-23T23:34:09.327Z
+
+
+### Archiving this card because it's been in the Verified Fixed list for more than a month with no new activity. - Alexandru Todea on 2017-12-02T17:19:22.005Z
+
+
+### Archived by Alexandru Todea on 2017-12-02T17:19:26.030Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

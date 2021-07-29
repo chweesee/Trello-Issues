@@ -1,0 +1,97 @@
+[Archived] Deleting a server causes empty slot in server folder (https://trello.com/c/b2IPRGUb)
+
+None
+
+Created: 2019-07-26T14:15:20.765Z
+Latest Update: 2019-07-31T04:36:47.284Z
+
+Reported by Brightness™#0001
+
+####Steps to reproduce:
+- Create a server and put it in a folder/use an existing server and put it in a folder 
+- Delete the server 
+- Observe
+
+####Expected result:
+The folder should not show a space for the server that was deleted
+####Actual result:
+The folder has an empty space where the deleted server should be (additionally, if it was the only server in the folder the folder will be in the server list still with no servers actually in it)
+####Client settings:
+Release Channel: canary, Build Number: 42001, Version Hash: 4742a583545b22080509e29746b027942afe1484
+####System settings:
+MacBook Air Early 2015 on macOS Mojave 10.14.2
+
+40674
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-26T14:15:20.765Z
+
+
+### Can reproduce.
+Windows 10 64 Bit ,  Canary Build : 42001
+
+Flink#8875 - Bug Bot on 2019-07-26T14:15:28.604Z
+
+
+### Can reproduce.
+Can reproduce, macOS High Sierra, Version: 10.13.6 - Discord Canary 41994 — Disappear after a client refresh
+
+Vanki#0001 - Bug Bot on 2019-07-26T14:15:33.638Z
+
+
+### Can reproduce.
+CR; Windows 10 x64 (1903) - Discord Canary 42001
+
+Arnold0#7514 - Bug Bot on 2019-07-26T14:15:38.621Z
+
+
+### Extension of https://trello.com/c/iwERbiH8
+
+TheForbiddenAi#0403 - Bug Bot on 2019-07-26T14:18:28.340Z
+
+
+### Can reproduce.
+CR ➜ MacOS High Sierra ➜ Discord Stable 41933
+
+Codingpro#0001 - Bug Bot on 2019-07-26T21:03:28.103Z
+
+
+### Can reproduce.
+W10 Pro x64 (1903), Canary 42064
+
+dragiceviccv#4375 - Bug Bot on 2019-07-27T00:22:37.975Z
+
+
+### Can reproduce.
+CR closing the folder removed the empty space but left the folder open until i tapped again Dell Inspiron Windows 10 Home & Student, Host 0.0.247, Canary Build 42085
+
+binchlord#0998 - Bug Bot on 2019-07-27T02:10:17.062Z
+
+
+### Can reproduce.
+CR Windows 10 x64, Canary build: 41994 - This is permanent until you remove all servers from the folder and start a new server.
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-27T06:20:03.305Z
+
+
+### Extension of https://trello.com/c/iwERbiH8
+
+Archiving the ticket. - Pascal on 2019-07-27T09:56:36.079Z
+
+
+### Archived by Pascal on 2019-07-27T09:56:39.258Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | canary 42319
+
+charleskimbac#6492 - Bug Bot on 2019-07-31T04:36:47.294Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

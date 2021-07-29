@@ -1,0 +1,83 @@
+[Archived] Unable to see "log in with Microsoft" option when adding Xbox account in settings>connections. (https://trello.com/c/pTkjMQ0i)
+
+None
+
+Created: 2018-05-15T15:41:35.560Z
+Latest Update: 2018-07-06T18:38:48.640Z
+
+Reported by Ori#1908
+
+####Steps to reproduce:
+Go to user settings>connections and click on add Xbox live account. 
+- On the Xbox account authorization page, you should be able to see "or login with Microsoft" option at the bottom of the page. 
+- Keep auto rotation of your device on. 
+- Toggle split screen mode of your device and notice the button at the bottom appears. 
+- Auto rotate your device and see the button disappears again.
+
+####Expected result:
+You should see "or login with Microsoft" option at the bottom.
+####Actual result:
+You don't see login with Microsoft option, but strangely that option appears as you toggle split screen but again disappears if you auto rotate the screen. Also, you don't see the option on the first place when you open the authorization page, split screen makes it visible. Not sure how users with Android version lower than 7 can reproduce it cause they don't support split screen.
+####Client settings:
+Discord Alpha 6.8.8
+####System settings:
+Xiaomi Mi A1, Android 8.0.0
+
+12723
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-15T15:41:35.560Z
+
+
+### Ori#1908 - https://youtu.be/lRXGxyr9Jz4 added by Bug Bot on 2018-05-15T15:41:38.479Z
+
+
+### Can reproduce.
+Can Reproduce in Discord 6.6.1 Beta, Moto G5s Plus - Android 8.0.0
+
+Yoginth#9339 - Bug Bot on 2018-05-15T15:41:43.365Z
+
+
+### Can reproduce.
+Can Reproduce; Huawei Honor 8 Lite, Android 7.0 (Discord Beta 6.6.8)
+
+Smanbg#9524 - Bug Bot on 2018-05-15T15:41:48.384Z
+
+
+### Can reproduce.
+This option don't appear at all for me. Discord Alpha 6.6.8,  Huawei Mate 9 Android 8.0
+
+Alex1304#9704 - Bug Bot on 2018-05-15T15:41:54.002Z
+
+
+### Can't reproduce.
+Huawei Honor 6x, Android 7.0, Discord 6.6.8 (668)
+
+LegitBananaMan#8239 - Bug Bot on 2018-05-15T16:07:01.428Z
+
+
+### Cannot reproduce, Samsung S6 Edge, Android 7.0, 6.6.9 - Clayton on 2018-05-16T22:01:42.266Z
+
+
+### Moved from User Reported Bugs to Cannot Reproduce by Clayton on 2018-05-16T22:02:01.072Z
+
+
+### Can't reproduce.
+Discord Alpha 6.7.4, Oppo R11s Android 7.1.1 (Nougat)
+
+Cairo#2098 - Bug Bot on 2018-05-19T22:28:44.878Z
+
+
+### Closing as this bug has been CNR for 30 or more days with no reproductions or new steps. - Jared on 2018-07-06T18:38:47.352Z
+
+
+### Archived by Jared on 2018-07-06T18:38:48.643Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None

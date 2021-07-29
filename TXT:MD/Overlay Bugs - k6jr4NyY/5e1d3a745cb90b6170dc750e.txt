@@ -1,0 +1,63 @@
+[Overlay][Chat Box] CTRL + Z leaves 1 Character After last parsed item (Markdown/Emote/Channel ETC) and does nothing on Paste. (https://trello.com/c/YfODSZ6q)
+
+None
+
+Created: 2020-01-14T03:50:12.280Z
+Latest Update: 2020-04-04T16:18:20.126Z
+
+Reported by Alipoodle#5025
+
+####Steps to reproduce:
+- Open a game with Overlay. (Your Favourite game)  
+- Open Overlay 
+- Start typing a message 
+- Hit `CTRL + Z` notice what happens. 
+- Create a new message, adding some Markdown 
+- Hit `CTRL + Z` notice what happens.
+
+####Expected result:
+It acts like Desktop and will remove the last word or whole message if pasted.
+####Actual result:
+It removes everything but the last Character UP TO the last Markdown or Parsed Item
+####Client settings:
+Canary 51905 (0.0.259)
+####System settings:
+Win10 64x (1903)
+
+50959
+
+Card Log
+========
+### Added by Bug Bot on 2020-01-14T03:50:12.280Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1909 Build: 18363.476 - Discord canary, Build Number: 52006
+
+Xylium#5800 - Bug Bot on 2020-01-14T03:50:19.801Z
+
+
+### Can reproduce.
+Can reproduce, Windows 10 Home 64 bit, Discord Canary 52006.
+
+Alister#0001 - Bug Bot on 2020-01-14T03:50:24.765Z
+
+
+### Can reproduce.
+Could reproduce, Windows 10 Pro, Canary 52521
+
+Action Potential#6862 - Bug Bot on 2020-01-14T03:50:29.792Z
+
+
+### Archived by Tarek on 2020-01-27T15:47:17.878Z
+
+
+### Unarchived by Tarek on 2020-01-27T15:47:21.232Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

@@ -1,0 +1,120 @@
+[Archived] Taking a picture with the in-app camera with Photos permission set to “Never” or “Add Photos Only” will make the app completely unresponsive. (https://trello.com/c/mTF3kKso)
+
+mid,
+P2 - Can wait a while
+
+Created: 2019-06-13T02:54:36.841Z
+Latest Update: 2019-09-18T10:01:02.322Z
+
+Reported by —__—#0592
+
+####Steps to reproduce:
+- Go to Settings > Privacy > Photos > Discord > Set to Never or Add Photos Only 
+- Go to any text channel where you have permissions to attach images 
+- Tap on the paper clip button and then on “Take a Photo or Video” 
+- Take a picture and then tap on “Use Photo”
+
+####Expected result:
+App shouldn’t freeze and you should be able to use the recently taken photo without any problem.
+####Actual result:
+App becomes unresponsive, forcing you to close it from the app switcher and reopen it.
+####Client settings:
+TestFlight 3.0.3 (15685)
+####System settings:
+iOS 12.3.1 • iPhone 7 Plus
+
+36892
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-13T02:54:36.841Z
+
+
+### Can reproduce.
+iPhone 6, iOS 12.4 (dev beta 3) - TestFlight 3.0.3 (15685)
+
+Xylium#5800 - Bug Bot on 2019-06-13T02:54:44.202Z
+
+
+### Can reproduce.
+Can reproduce, iPhone 6, iOS 12.3.1 - TestFlight 3.0.3 (15685)
+
+Pythagoras#7992 - Bug Bot on 2019-06-13T02:54:49.331Z
+
+
+### Can reproduce.
+CR; iPhone XR, iOS 12.3.1 - TestFlight 3.0.3
+
+Tenpi#7920 - Bug Bot on 2019-06-13T02:54:54.227Z
+
+
+### Can reproduce.
+iPhone 7, iOS 12.2 (Dev Beta 4) - TestFlight 3.0.3 (15738)
+
+Skyla#0002 - Bug Bot on 2019-06-13T07:52:32.413Z
+
+
+### Can reproduce.
+iphone 8 ios 12.4, tf 3.0.3 (15738)
+
+OrangeM24#5746 - Bug Bot on 2019-06-13T15:46:41.094Z
+
+
+### Can reproduce.
+iPhone 6s, iOS 13.0 (17A5492t) - TestFlight 3.0.3 (15738)
+
+Isabel#0002 - Bug Bot on 2019-06-14T11:21:33.110Z
+
+
+### Can't reproduce.
+iPhone 6s iOS 12.4(beta) TF 3.0.4 (15811) the app reloads after a permissions change and it asks for permission to read photos
+
+GlenMerlin#2119 - Bug Bot on 2019-06-15T23:44:27.068Z
+
+
+### Moved from New Issues to Notable Issues by Alex on 2019-06-17T19:01:20.528Z
+
+
+### Moved from Notable Issues to Backlog by Victoria on 2019-07-01T23:53:50.845Z
+
+
+### Cannot reproduce anymore as of TestFlight 3.0.8 (16488) with iPad Pro (11 inch) running iOS 12.4.
+
+I get a missing permission window now and cannot open the menu.
+
+Moving to Claimed Fixed list. - Pascal on 2019-07-26T10:40:19.176Z
+
+
+### Moved from Backlog to Claimed Fixed Bugs by Pascal on 2019-07-26T10:40:29.581Z
+
+
+### Can't reproduce.
+iPad 5th Gen, iPadOS 13 (dev beta 4) - TestFlight 3.0.8 (16488)
+
+Xylium#5800 - Bug Bot on 2019-07-26T10:44:28.465Z
+
+
+### Can't reproduce.
+Can no longer reproduce, iPhone 7, iOS 13 (Public Beta 3), Testflight 3.0.8 (16488)
+
+ryan#0570 - Bug Bot on 2019-07-26T10:50:02.498Z
+
+
+### Can't reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.8 (16488)
+
+Daffyduck#5364 - Bug Bot on 2019-07-26T10:57:44.493Z
+
+
+### Moved from Claimed Fixed Bugs to Verified Fixed by Bug Bot on 2019-07-26T10:57:44.778Z
+
+
+### Archived by Bug Bot on 2019-09-18T10:01:02.340Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

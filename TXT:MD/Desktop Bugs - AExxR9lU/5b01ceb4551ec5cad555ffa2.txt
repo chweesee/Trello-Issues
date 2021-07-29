@@ -1,0 +1,92 @@
+The bottom "New" button on the server list scrolls down, but covers the last unread notification instead of disappearing (https://trello.com/c/STQzX2od)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-05-20T19:38:29.058Z
+Latest Update: 2019-06-13T17:27:00.027Z
+
+Reported by lego#8917
+
+####Steps to reproduce:
+- Have a long enough list of servers, with one of them having a notification off screen to trigger the "New" button 
+- Click the "New" button to scroll the list down
+
+####Expected result:
+New button is dismissed once the server with the notification is scrolled into view
+####Actual result:
+View-port scrolls to the bottom of the list, and then covers the server's notification. The button is still present, and when clicked, does nothing. Scrolling up with the top "New" button does not reproduce.
+####Client settings:
+Discord Stable 15435
+####System settings:
+Windows 10 Pro 1803, Firefox 60, Chrome 66
+
+12935
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-20T19:38:29.058Z
+
+
+### lego#8917 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5b01ceb4551ec5cad555ffa2/14e608c0c967a3fbf796c06a14643588/2018-05-19_22-16-57.gif added by Bug Bot on 2018-05-20T19:38:31.744Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 Home x64, Discord Canary 1559, The server remains out-of-view after clicking the "new" button, causing the button to say.
+
+1Storm#0001 - Bug Bot on 2018-05-20T19:38:36.551Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 8.1 Pro x64, Discord Canary 15665
+
+Olcay#8683 - Bug Bot on 2018-05-20T19:38:41.551Z
+
+
+### Can reproduce.
+[CR] Client Settings: Canary Build 15665 System Settings: Windows 10 Home x64 Version 1709 Build 16299.431 - Scrolling down a little after pressing the button makes it disappear, but clicking the button alone causes to remain persistently on top of the servers notification. I have seen this kind of behaviour on Android before, but this is the first I've seen it on Desktop.
+
+HarryThorpe#0864 - Bug Bot on 2018-05-20T19:38:46.582Z
+
+
+### Related issue is denied bug 13067 where scrolling up with the new button also does not dismiss, may be MacOS only.
+
+lego#8917 - Bug Bot on 2018-05-20T20:33:50.039Z
+
+
+### Verified, MacOS 10.12.6, Canary 15701 - Clayton on 2018-05-21T21:28:14.654Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-21T21:28:23.556Z
+
+
+### can no longer reproduce.  - Clayton on 2018-10-02T01:12:01.163Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Clayton on 2018-10-02T01:12:08.542Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:30:53.153Z
+
+
+### Archived by Tarek on 2019-01-01T15:30:54.515Z
+
+
+### Moved from Verified Fixed to Reopened by Sam on 2019-06-13T17:16:54.576Z
+
+
+### Unarchived by Sam on 2019-06-13T17:16:54.784Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro x32, Canary 39597
+
+Karasu#0013 - Bug Bot on 2019-06-13T17:27:00.035Z
+
+List
+====
+Reopened
+
+Members
+=======
+None

@@ -1,0 +1,156 @@
+[Archived] Discord memory leaks until macOS Mojave (MacBook-specific) is dead (https://trello.com/c/KPlRolEb)
+
+P1: Severe,
+Low
+
+Created: 2018-06-14T19:09:42.220Z
+Latest Update: 2019-12-01T03:30:47.795Z
+
+Reported by Chops#0001
+
+####Steps to reproduce:
+- Run macOS Mojave Developer Beta (build 18A293u) 
+- Open Activity Monitor 
+- Click on Memory (at the top) then sort by memory (high to low) 
+- Download stable Discord from Discord's website 
+- Launch Discord 
+- sign in to Discord Desktop App 
+- Open Discord Settings 
+- Go down to Voice & Video 
+- Turn off Automatically determine input sensitivity (stay here) 
+- watch Activity Monitor's memory usage
+
+####Expected result:
+Discord uses less than 1GB of memory overall
+####Actual result:
+once the Hard Drive and dedicated memory is filled up, the OS will crash
+####Client settings:
+Discord 0.0.251
+####System settings:
+MacOS 10.14 Mojave (18A293u - MacBook)
+
+13821
+
+Card Log
+========
+### Added by Bug Bot on 2018-06-14T19:09:42.220Z
+
+
+### Can reproduce.
+MacBook Pro (Retina, 13-inch, Early 2015) - macOS Majave 10.14 Beta (18A293u) - Stable 16692
+
+korzq#0001 - Bug Bot on 2018-06-14T19:09:49.645Z
+
+
+### Can reproduce.
+Can repro only with the standard audio subsystems on Stable/Canary; MacBook Pro (late 2012), macOS Mojave 10.14 beta 1, Canary 0.0.192 (16727)
+
+mouse#0091 - Bug Bot on 2018-06-14T19:09:54.698Z
+
+
+### Can reproduce.
+CR | MacBook Pro (late 2012), macOS Mojave 10.14, Canary 16907
+
+FoxyKero#9941 - Bug Bot on 2018-06-14T19:09:59.694Z
+
+
+### Can reproduce.
+Problem existed since macOS 10.14 Dev Beta 1 
+
+MacBook Pro 13" (Early 2015) ~ macOS Mojave Developer Beta 2 ~ Stable 17111
+
+StandNThrow#5030 - Bug Bot on 2018-06-20T03:18:23.670Z
+
+
+### verified, macbook pro 15" (late 2013), mojave 10.14 beta, 17395 - Clayton on 2018-06-20T22:22:15.996Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-06-20T22:22:28.864Z
+
+
+### Can reproduce.
+Reproduced on MacOS Mojave 18A314h (Newest) & 18A293u Kernel panic logs linked here: https://pastebin.com/E8bUeex1
+
+Bear#5153 - Bug Bot on 2018-07-03T05:46:59.376Z
+
+
+### Can reproduce.
+MacBookAir7,2, macOS Mojave 10.14 beta 18A326h, Canary 0.0.193
+
+Abequinn#5368 - Bug Bot on 2018-07-13T01:18:39.718Z
+
+
+### 1. How long does it take approximately this to happen? 
+2. Does it happen on High Sierra?
+
+When you open voice/video settings, we start running audio capture and processing for displaying voice level. - Jozsef Vass on 2018-07-13T15:36:34.557Z
+
+
+### Can reproduce.
+Reproduced on Discord canary, Build Number: 19430 macOS Mojave Beta (18A336e). Leaks slower without going to settings. 1) Open Discord. 2) Leave it for a few hours. 3) Crashes due to memory leak.
+
+darkmastermindz#7841 - Bug Bot on 2018-07-23T07:04:48.886Z
+
+
+### Can reproduce.
+Responding to Jozsef Vass; (1) macOS will crash after 1 -> 2 hours depending on amount of RAM. (2) This does not happen on High Sierra. It's very specifically during Voice/Audio capture. When you open the pane, you do not automatically start registering voice/video on macOS until an event occurs to identify microphone usage, this is noted even when running High Sierra however memory jumps no more than a maximum of 200MB from the start of the runtime. Recently repro'd on MacOS 10.14 Mojave (18A336e - MacBook Pro 15-inch, mid-2015 iGPU at 2.2GHz).
+
+ZeusChops#0796 - Bug Bot on 2018-07-24T04:36:59.040Z
+
+
+### Moved from Verified Bugs to Mojave Specific Issues by Ghoul on 2018-07-27T00:06:40.123Z
+
+
+### Can't reproduce.
+MacOS Mojave 10.14 (dev beta 5+, current: 18A371a) Issue was possibly on Apple’s side, issue cleared after pushing Feedback report to Apple on dev beta 4.
+
+ZeusChops#0796 - Bug Bot on 2018-08-22T21:30:19.032Z
+
+
+### I am archiving. - Jozsef Vass on 2018-10-02T00:37:31.473Z
+
+
+### Archived by Jozsef Vass on 2018-10-02T00:37:34.281Z
+
+
+### Unarchived by Pascal on 2019-10-02T13:17:02.195Z
+
+
+### Cannot reproduce anymore as of Canary Build 46642 withMacBook Pro 13" (2016) running macOS Mojave 10.14.6
+
+Moving to Claimed Fixed list. - Pascal on 2019-10-02T13:18:13.417Z
+
+
+### Moved from Mojave Specific Issues to Claimed Fixed, needs Verification by Pascal on 2019-10-02T13:18:22.015Z
+
+
+### Can't reproduce.
+CNR, macOS 10.15, Canary 46657
+
+Action Potential#6862 - Bug Bot on 2019-10-05T13:39:15.110Z
+
+
+### Can't reproduce.
+CNR. macOS 10.14.2 Canary 47630
+
+Ghostly#0001 - Bug Bot on 2019-10-21T23:25:11.390Z
+
+
+### Can't reproduce.
+CNR; MacOS Mojave 10.14.6, Canary 48505
+
+username#6666 - Bug Bot on 2019-11-01T03:07:32.745Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-11-01T03:07:33.103Z
+
+
+### Archived by Bug Bot on 2019-12-01T03:30:47.808Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+Unknown User (https://trello.com/jozsefvass2) - No Bio

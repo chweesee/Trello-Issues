@@ -1,0 +1,248 @@
+[Archived] [Web only] canary.discordapp.com crashes when a message is edited (https://trello.com/c/ErFbgL6R)
+
+P2: Fix can wait a while,
+Low
+
+Created: 2019-04-27T11:20:25.596Z
+Latest Update: 2019-08-03T04:30:44.368Z
+
+Reported by PlavorSeol#7945
+
+####Steps to reproduce:
+- Open Discord Canary in any browser 
+- Send a message
+- Edit the message and remove all characters
+- Try to save it
+
+####Expected result:
+They should be normal.
+####Actual result:
+"WELL, THIS IS AWKWARD" screen shows.
+####Client settings:
+Release Channel: canary, Build Number: 36525, Version Hash: 1c92317784cbf8bfba5390fb2cb36256cc516001
+####System settings:
+Firefox Nightly 68.0a1
+
+33594
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-27T11:20:25.596Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226) - Firefox v66.0.3 (64-bit) - Web Canary 36525
+
+Isabel#0002 - Bug Bot on 2019-04-27T11:20:32.990Z
+
+
+### Can reproduce.
+CR. macOS Mojave 10.14, Firefox 66.0.3, Canary 36525
+
+Rage#9991 - Bug Bot on 2019-04-27T11:20:37.917Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Web Canary 36525 - Firefox Quantum 66.0.3
+
+Daffyduck#5364 - Bug Bot on 2019-04-27T11:20:42.932Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1809). Firefox Quantum 66.0.2 (64-bit), Canary 36525, also works with s/ function
+
+nani?#8690 - Bug Bot on 2019-04-27T11:21:47.810Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro 1809 (OS Build 17763.404), Canary 36525, Firefox 66.0.3
+
+||Kissa||#1337 - Bug Bot on 2019-04-27T11:22:53.627Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, Firefox 66.0.3, Web Canary 36525
+
+Jean20B#4287 - Bug Bot on 2019-04-27T11:52:36.176Z
+
+
+### Can reproduce.
+- Windows 10 Pro x64 (1809) - Firefox 66.0.3 - Canary 36525
+
+Jengas#7777 - Bug Bot on 2019-04-27T13:59:08.460Z
+
+
+### Can reproduce.
+Win10x64 1809 - Canary 36442 - Firefox 66.0.3
+
+Cubity_First#0001 - Bug Bot on 2019-04-27T14:07:59.700Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 36525
+
+Xylium#5800 - Bug Bot on 2019-04-27T14:46:32.004Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Discord Canary 36529 - Firefox Quantum 66.0.3
+
+jedi3#0001 - Bug Bot on 2019-04-28T02:00:52.412Z
+
+
+### Can reproduce.
+macos 10.14.5, canary 36529, firefox 66
+
+Pain#2020 - Bug Bot on 2019-04-28T05:57:20.520Z
+
+
+### Can reproduce.
+Windows 7 Professional; Canary Build 36529; Firefox Quantum 66.0.3
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-04-28T14:08:21.425Z
+
+
+### Can reproduce.
+Windows 10 Pro, Canary Build 36529, Firefox 66.0.3
+
+Ossyishere#2281 - Bug Bot on 2019-04-28T14:10:38.326Z
+
+
+### Can reproduce.
+CR Win10 64x (1809), Discord Web Canary 36529, FireFox 65.0.2
+
+Alipoodle#5025 - Bug Bot on 2019-04-28T15:52:39.065Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Bug Bot on 2019-04-29T19:12:58.040Z
+
+
+### Can reproduce.
+Windows 7 Pro x64 , Canary Build 36529, Firefox 66.0.3
+
+Lily#2624 - Bug Bot on 2019-04-29T19:33:01.425Z
+
+
+### Fixed in 36564, ``b61c045897180f19a90fbf7e419e8d03f772c643``. Moving to claimed fixed - Tarek on 2019-04-29T21:18:33.744Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Tarek on 2019-04-29T21:18:38.768Z
+
+
+### Can't reproduce.
+macos 10.14.5, canary 36564, firefox 66
+
+Pain#2020 - Bug Bot on 2019-04-29T21:20:15.776Z
+
+
+### Can't reproduce.
+CNR; -w Canary 36564 | Quantum 66.0.2
+
+charleskimbac#6492 - Bug Bot on 2019-04-29T21:23:20.551Z
+
+
+### Can't reproduce.
+ CNR, Canary 36564, Windows 10 Home x64 v1809, Firefox 66.0.3
+
+TheForbiddenAi#7549 - Bug Bot on 2019-04-29T21:23:21.565Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-04-29T21:23:21.772Z
+
+
+### Moved from Verified Fixed to Verified Bugs by Tarek on 2019-04-30T23:22:49.522Z
+
+
+### Moved from Verified Bugs to Not a Bug by Tarek on 2019-04-30T23:23:33.500Z
+
+
+### Moved from Not a Bug to Notable Issues by Tarek on 2019-04-30T23:23:36.734Z
+
+
+### dis is fixed, pls dont revert fix, kthx <3 36686, ``a1f89ed5ca06804efe9282d3c1e50a10c627e068`` - Tarek on 2019-05-01T01:02:31.127Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Tarek on 2019-05-01T01:02:35.875Z
+
+
+### 3 bug hunters couldnt repro anymore, moving to verified fixed - Tarek on 2019-05-01T02:19:34.813Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Tarek on 2019-05-01T02:19:38.168Z
+
+
+### Archived by Bug Bot on 2019-05-31T02:30:28.022Z
+
+
+### Can reproduce.
+Happens only when removing all characters Web Canary 39493 on ChromeOS Canary 77.0.3818.0
+
+OneNormalUsername#7636 - Bug Bot on 2019-06-11T12:14:30.062Z
+
+
+### Can reproduce again as of Web Canary Build 39493 with Safari Version 12.1.1 and MacBook Pro 13" (2016) running macOS Mojave 10.14.5.
+
+The app now only crashes when removing all characters as mentioned below, edited the ticket to include that.
+
+Moving to Reopened list.  - Pascal on 2019-06-11T17:41:07.948Z
+
+
+### Moved from Verified Fixed to Reopened by Pascal on 2019-06-11T17:41:19.805Z
+
+
+### Unarchived by Pascal on 2019-06-11T17:41:19.882Z
+
+
+### Can reproduce.
+Discord client: 39549 (canary) System information: Windows 10 Home with a 64 bit processor. Browser settings: Chrome Version 75.0.3770.80 (Official Build) (64-bit).
+
+Talon#4419 - Bug Bot on 2019-06-12T21:13:18.975Z
+
+
+### Can reproduce.
+Windows 10 Pro, V.1803, x64, FireFox 67
+
+mrphilip#7368 - Bug Bot on 2019-06-14T12:20:09.278Z
+
+
+### Moved from Reopened to Notable Issues by Pascal on 2019-06-14T15:03:22.245Z
+
+
+### I'm unable to reproduce in any browser, neither in Canary (build 39833) or Stable (build 39827) builds of Discord on a Mac. Tested both long and short messages, and clearing via backspace, ctrl+x, and command+backspace. Best guess is this was also fixed with the fix for Reactions in Firefox.
+
+Moving to claimed fixed. - Jon Egeland on 2019-06-17T22:11:17.687Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Jon Egeland on 2019-06-17T22:12:11.751Z
+
+
+### Can't reproduce.
+MacBook Air Early 2015 on macOS Mojave 10.14.2, Google Chrome Version 75.0.3770.80, Web Canary 39914
+
+Brightness™#2238 - Bug Bot on 2019-06-18T12:33:54.399Z
+
+
+### Can't reproduce.
+Windows 10 Pro v1903 Canary 39914
+
+Daffy#7906 - Bug Bot on 2019-06-18T14:11:50.104Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 | Canary 39914 | Chrome 75.0.3770.90
+
+charleskimbac#6492 - Bug Bot on 2019-06-18T15:23:33.178Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Pascal on 2019-06-18T17:26:35.237Z
+
+
+### Archived by Bug Bot on 2019-08-03T04:30:44.377Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

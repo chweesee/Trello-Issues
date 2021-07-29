@@ -1,0 +1,68 @@
+[Archived] [Website Bug] Cannot fully scroll down pages on the Developer Portal of the Discord website. (https://trello.com/c/PtEHUfjG)
+
+Mobile
+
+Created: 2018-07-20T11:12:20.219Z
+Latest Update: 2019-01-01T15:56:33.677Z
+
+Reported by KriHavok#4981
+
+####Steps to reproduce:
+- Open one of the pages seen on the sidebar of the Developer Portal, i.e. <> 
+- Scroll to the bottom of the page.
+
+####Expected result:
+Able to scroll down and read the entire page.
+####Actual result:
+Can only scroll down a small amount of the page (not even past the first paragraph on my iPhone).
+####Client settings:
+Safari on mobile iOS 10.2.1
+####System settings:
+iOS 10.2.1 (iPhone)
+
+15702
+
+Card Log
+========
+### Added by Bug Bot on 2018-07-20T11:12:20.219Z
+
+
+### Can reproduce.
+CR, the reason this is occurring is because you are scrolling on the code blocks. The only way to scroll past the code blocks is by scrolling on the padding on either sides of the blocks. iPhone 6S Plus, iOS 12 (16A5318d), both Safari and Google Chrome.
+
+Beeen#0001 - Bug Bot on 2018-07-20T11:12:27.668Z
+
+
+### Can reproduce.
+It's due to the way text works on the page, some other websites have this issue too. iPhone 6s Plus, iOS 12 Dev Beta 4, Tried Safari, Chrome, Edge. | CNR on Cake browser.
+
+Mustard#2117 - Bug Bot on 2018-07-20T11:12:32.655Z
+
+
+### Can reproduce.
+iPhone 8 Plus - iOS 11.4.1, iPad Air 2 - iOS 12 Public Beta 3, Safari - Only happens with pages with codeblocks like this one https://discordapp.com/developers/docs/topics/permissions
+
+Pascal#0929 - Bug Bot on 2018-07-20T11:12:37.729Z
+
+
+### Moved from User Reported Bugs to Website Bugs by Jared on 2018-07-23T17:40:59.281Z
+
+
+### Moved from Website Bugs to Claimed Fixed, needs Verification by Mason Sciotti on 2018-10-22T21:42:07.059Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-11-21T05:19:09.714Z
+
+
+### Archived due to being inactive for 30+ days in verified fixed list, - Tarek on 2019-01-01T15:56:32.360Z
+
+
+### Archived by Tarek on 2019-01-01T15:56:33.679Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

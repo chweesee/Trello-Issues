@@ -1,0 +1,71 @@
+[Archived] If a user with access to a role exclusive channel has their role revoked, all messages sent directly after are not seen once a user regains access again. (https://trello.com/c/3O0Hgnyw)
+
+None
+
+Created: 2018-04-09T23:02:45.097Z
+Latest Update: 2018-07-06T17:48:33.048Z
+
+Reported by Nimbus#1738
+
+####Steps to reproduce:
+- Create a Role Exclusive Channel 
+- Send test message 
+- Revoke a users role 
+- Send another test message 
+- Grant same user the role and access again
+
+####Expected result:
+The user will be able to see all chat history of the channel
+####Actual result:
+The user does not see the messages sent in the channel in between when they lost and regained access to the channel
+####Client settings:
+Discord Stable, 0.0.250
+####System settings:
+MacBook Pro (15-inch, 2017) macOS High Sierra version 10.13.1
+
+10523
+
+Card Log
+========
+### Added by Bug Bot on 2018-04-09T23:02:45.097Z
+
+
+### Can reproduce.
+Can Reproduce, messages do not appear until restart, Stable 0.0.300 (13346), Windows 10 x64 Version 1709
+
+QwakGoesDuck#0420 - Bug Bot on 2018-04-09T23:02:52.493Z
+
+
+### Can reproduce.
+CR Canary 13344, Windows 10 x64, Messages sent between the time you lose and regain access do not show until restarting Discord
+
+Rashaun#9295 - Bug Bot on 2018-04-09T23:02:57.482Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Canary Build 13344
+
+mrkirby153#7840 - Bug Bot on 2018-04-09T23:03:02.486Z
+
+
+### JjGegD7.png - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5acbf1159f6b66bade12842b/edb01a5c0cdb90c6c6a185557659919e/JjGegD7.png added by Tarek on 2018-04-10T08:48:32.636Z
+
+
+### This is not a bug, read messages/read message history is not meant to be activated retroactively per the attached screenshot, so I'm moving this to not a bug. - Tarek on 2018-04-10T08:48:48.934Z
+
+
+### Moved from User Reported Bugs to Not a Bug by Tarek on 2018-04-10T08:49:00.021Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:48:31.712Z
+
+
+### Archived by Jared on 2018-07-06T17:48:33.050Z
+
+List
+====
+Not a Bug
+
+Members
+=======
+None

@@ -1,0 +1,79 @@
+[Archived] When scrolling down in a server and then switching to DM then back to server its state is not saved. (https://trello.com/c/uLfJCzxF)
+
+P3: Will get fixed eventually
+
+Created: 2017-09-04T09:05:06.510Z
+Latest Update: 2018-07-06T17:56:54.450Z
+
+Reported by CRAN#6464
+
+####Steps to reproduce:
+-Scroll down in a server
+-channel
+-overview 
+-Switch to direct messages
+-Switch back to the same server
+
+####Expected result:
+Scroll state should be saved like when switching servers
+####Actual result:
+Scrollstate gets reseted
+####Client settings:
+Stable 0.0.298
+####System settings:
+Windows 10 Pro
+
+3923
+
+Card Log
+========
+### Added by Bug Bot on 2017-09-04T09:05:06.510Z
+
+
+### Can reproduce.
+Discord Canary v0.0.163 Windows 10 x64
+
+Zacatero#5839 - Bug Bot on 2017-09-04T09:05:14.106Z
+
+
+### Can reproduce.
+Can reproduce, Linux Mint 17.3 Cinnamon 64-bit, Discord Canary 0.0.24
+
+NdT3#0717 - Bug Bot on 2017-09-04T09:05:19.081Z
+
+
+### Can reproduce.
+Chromium https://canary.discordapp.com/
+
+InkxtheSquid#8052 - Bug Bot on 2017-09-04T09:05:24.030Z
+
+
+### specifically only can be reproduced when scrolling down, not up
+
+Zacatero#5839 - Bug Bot on 2017-09-04T09:06:11.865Z
+
+
+### Verified.  - Clayton on 2017-09-04T23:29:15.751Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-04T23:29:21.371Z
+
+
+### Verified Fixed - Jared on 2018-03-20T21:32:49.805Z
+
+
+### Moved from Verified Bugs to Verified Fixed by Jared on 2018-03-20T21:32:54.226Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:56:53.513Z
+
+
+### Archived by Jared on 2018-07-06T17:56:54.455Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

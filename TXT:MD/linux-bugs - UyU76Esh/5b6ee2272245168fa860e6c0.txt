@@ -1,0 +1,77 @@
+Discord won't start, opens several xdg-mime instances which eat up CPU (https://trello.com/c/N5tD2F6g)
+
+None
+
+Created: 2018-08-11T13:18:31.982Z
+Latest Update: 2018-12-17T14:57:11.331Z
+
+Reported by NanoDrive#3486
+
+####Steps to reproduce:Install Discord 
+- Start Discord 
+- Monitor for xdg-mime processes created by Discord
+
+####Expected result:
+Discord should start, no extraneous xdg-mime processes are created.
+####Actual result:
+Discord doesn't start
+####Client settings:
+Desktop Canary, 0.0.53-1
+####System settings:
+Arch Linux 4.17.13
+
+17312
+
+Card Log
+========
+### Added by Bug Bot on 2018-08-11T13:18:31.982Z
+
+
+### simonizor#0420 - https://trello-attachments.s3.amazonaws.com/5846f7fdfa2f44d1f47267b0/5b6ee2272245168fa860e6c0/362f8364eab296f92e01407e51eab251/unknown.png added by Bug Bot on 2018-08-11T13:18:34.351Z
+
+
+### Can reproduce.
+Discord Canary 0.0.53 build 21621, openSUSE Tumbleweed 20180807
+
+simonizor#0420 - Bug Bot on 2018-08-11T13:18:39.318Z
+
+
+### Can reproduce.
+Arch Linux 4.17.13 discord canary 0.0.53 build 21621
+
+E5ten#3510 - Bug Bot on 2018-08-11T13:18:44.353Z
+
+
+### Can reproduce.
+CR, Ubuntu Studio 18.04, Discord Canary 0.0.53 ( Build 21621 )
+
+Starshine Dust#2189 - Bug Bot on 2018-08-11T13:18:49.347Z
+
+
+### Can reproduce.
+Arch Linux 64-bit [testing repos enabled], GNOME 3.28, 16 GB RAM, Canary 0.0.53
+
+ManicRobot#3198 - Bug Bot on 2018-08-11T13:49:36.073Z
+
+
+### Can reproduce.
+Xubuntu 18.04.1, Stable 21705 / You need to execute 'watch -n 0.5 "ps aux | grep xdg-mime"' to reproduce / discord launches with no problems
+
+VitalKanev#2348 - Bug Bot on 2018-08-14T13:58:20.347Z
+
+
+### Moved from User Reported to Claimed Fixed by Clayton on 2018-08-30T21:51:07.604Z
+
+
+### confirmed fixed by dabbit - Tim on 2018-12-17T14:57:05.696Z
+
+
+### Moved from Claimed Fixed to Verified Fixed by Tim on 2018-12-17T14:57:11.334Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

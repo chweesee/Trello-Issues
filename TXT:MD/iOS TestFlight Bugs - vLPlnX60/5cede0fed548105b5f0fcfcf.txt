@@ -1,0 +1,482 @@
+[MASTER Ticket] Missing and wrong auditory feedback for VoiceOver (https://trello.com/c/YV1NDxy8)
+
+high,
+P3 - Will be fixed eventually
+
+Created: 2019-05-29T01:31:42.836Z
+Latest Update: 2020-06-29T23:24:01.476Z
+
+Reported by Gar#1865
+
+####Steps to reproduce:
+- Enable VoiceOver on your iOS device (Settings -> General -> Accessibility -> VoiceOver)
+- Open the Discord app. 
+- Have a look at any of the things mentioned in the checklists below
+
+####Expected result:
+VoiceOver should give correct auditory feedback.
+####Actual result:
+VoiceOver doesn’t recognizes all places and sometimes gives wrong feedback.
+####Client settings:
+Testflight 3.0.2 Build 15283
+####System settings:
+Ipad (6th Generation) IOS 12.2.0
+
+35559
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-29T01:31:42.836Z
+
+
+### Can reproduce.
+iPhone 8 Plus & iPad Pro 11" - iOS 12.3.1, TestFlight 3.0.2 (15283) - It also doesn‘t detect the emoji picker symbol and the emoji categories in the emoji picker
+
+Pascal#0929 - Bug Bot on 2019-05-29T01:31:50.326Z
+
+
+### Can reproduce.
+iPhone XR & iPad Air iOS 12.2 TestFlight 3.0.2 (15283)
+
+binchlord#0998 - Bug Bot on 2019-05-29T01:31:55.314Z
+
+
+### Can reproduce.
+CR, iPhone 6s IOS 12.3.1, Discord Version 3.0.2
+
+Jason 🖤#0001 - Bug Bot on 2019-05-29T01:32:00.309Z
+
+
+### Can reproduce.
+iPhone X iOS 12.4 (Dev Beta 2) - Testflight 3.0.2 (15183)
+
+Valcrye#0001 - Bug Bot on 2019-05-29T02:13:54.842Z
+
+
+### Can reproduce.
+iPhone SE, iOS 12.3.1 - TestFlight 3.0.2 (15283)
+
+Daffyduck#5364 - Bug Bot on 2019-05-29T02:25:44.338Z
+
+
+### Can reproduce.
+iPhone XR & iPad Air iOS 12.2 TestFlight 3.0.2 (15283) Voiceover reads “connecting ellipses” at the top of a channel or dms, Select something on the screen below the channel or dm header, Swipe left until the voiceover focus is on the three bars to open the server list, swipe left one more time, Voiceover selects an element that isn’t visible and reads “connecting ellipses”
+
+binchlord#0998 - Bug Bot on 2019-05-29T03:01:20.672Z
+
+
+### Can reproduce.
+iPhone XR & iPad Air iOS 12.2 TestFlight 3.0.2 (15283) images sent through discord generate a voiceover element between the users username and the image, this element cant be selected but will be selected by swiping and make stop you from swiping away in the same direction you swiped to select it (about half the times i tried)
+
+binchlord#0998 - Bug Bot on 2019-05-29T03:05:35.328Z
+
+
+### Can reproduce.
+iPhone XR & iPad Air iOS 12.2 TestFlight 3.0.2 (15283) voiceover does not provide auditory feedback for the friends icon above the server list
+
+binchlord#0998 - Bug Bot on 2019-05-29T03:19:53.126Z
+
+
+### Can reproduce.
+iPhone XR & iPad Air iOS 12.2 TestFlight 3.0.2 (15283) two finger swipe reads the entire server list when used in a channel in a server or in dms
+
+binchlord#0998 - Bug Bot on 2019-05-29T03:22:16.637Z
+
+
+### -a if you open a server with a long channel list and swipe left to scroll down the channel list with voiceover, it will skip when it gets to the end of the visible list (in dtesters it skipped from question and answers to the iOS category header pretty consistently)
+
+binchlord#0998 - Bug Bot on 2019-05-29T04:14:26.994Z
+
+
+### addendum to previous note regarding voiceover skipping channels: only happens if you have the typing indicator for bluetooth keyboards or the keyboard open (easier with Bluetooth) iPad Air iOS 12.2 TestFlight 3.0.2 (15283)
+
+binchlord#0998 - Bug Bot on 2019-05-29T04:30:20.745Z
+
+
+### discord reads the x on the “__ new messages since ___” popup as “plus” iPhone XR & iPad Air iOS 12.2 TestFlight 3.0.2 (15283)
+
+binchlord#0998 - Bug Bot on 2019-05-29T05:16:09.443Z
+
+
+### if you swipe down with two fingers in a channel or dm discord reads the name of every single server you are in instead of the elements visible on the screen iPhone XR iOS 12.2 TestFlight 3.0.2 (15283)
+
+binchlord#0998 - Bug Bot on 2019-05-29T05:20:47.248Z
+
+
+### if you click a channel name to open the channel settings, and tap channel name or channel topic, “channel name” or “channel topic” will be read but the contents will not
+
+binchlord#0998 - Bug Bot on 2019-05-29T06:04:08.224Z
+
+
+### Can reproduce.
+iPhone X iOS 12.3 TF 3.0.2
+
+Darth#9386 - Bug Bot on 2019-05-29T08:37:32.041Z
+
+
+### Added two checklists for a better overview and turned this ticket into a new master ticket for all VoiceOver issues. - Pascal on 2019-05-29T10:37:18.905Z
+
+
+### Can reproduce.
+-
+
+Xylium#5800 - Bug Bot on 2019-05-29T16:25:17.874Z
+
+
+### the number of notifications within a server will not be read by voiceover while swiping through the server list. the number of notifications for a dm will be read aloud while swiping however the username of the user that dmed you will not TestFlight 3.0.2 (15283)
+
+binchlord#0998 - Bug Bot on 2019-05-29T18:19:00.898Z
+
+
+### The two icons in the top right corner of any server, (the user list icon and the search server icon, are not labeled with voiceover.
+
+Gar#1865 - Bug Bot on 2019-05-29T23:00:06.654Z
+
+
+### (iPad specific?)
+1. Double tap the user list icon in the top right of any server to bring up the user list.
+2. Double tap the icon once again to collapse the user list.
+3. Tap on any server on the left hand side of your screen once to move voiceover focus to the server list.
+4. Swipe right repeatedly.
+5. Voiceover will end up back in the user list, even though the user list is hidden.
+
+Gar#1865 - Bug Bot on 2019-05-29T23:07:02.966Z
+
+
+### Please ignore my most recent comment as there was an error in it, and instead refer to this revised version.
+(iPad specific?)
+1. Double tap the user list icon in the top right of any server to bring up the user list.
+2. Double tap the icon once again to collapse the user list.
+3. Tap on any channel on the left hand side of your screen once to move voiceover focus to the channel list.
+4. Swipe right repeatedly.
+5. Voiceover will end up back in the user list, even though the user list is hidden.
+
+Gar#1865 - Bug Bot on 2019-05-29T23:35:48.105Z
+
+
+### The icon in the bottom left hand corner which allows you to manually enter a channel name, then brings up results matching that name in various servers is not labeled with voiceover. I would imagine it should be labeled something like "Go to channel button."
+
+Gar#1865 - Bug Bot on 2019-05-29T23:55:17.668Z
+
+
+### dm call button does not provide auditory feedback
+
+binchlord#0998 - Bug Bot on 2019-05-29T23:58:30.804Z
+
+
+### Opening a users profile through the member list creates 2 voiceover elements, one covering everything above the users profile picture, one highlighting the horizontal band around the part of the pfp that extends above the profile tab, the upper one contains “possible text as family <username/game name/Spotify>” depending on the users playing status but should not contain any text bc it is highlighting then grayed out member list/chat area
+
+binchlord#0998 - Bug Bot on 2019-05-30T11:01:35.664Z
+
+
+### If you type : and a character to open the emoji keyboard. Selecting the text or the emote image will play the “you cant swipe that way” sound and not allow you to swipe to another element, selecting the entire row of info (emote image, emote name & gray bar to the right of it) allows you to swipe freely and will not swipe to these individual elements
+
+binchlord#0998 - Bug Bot on 2019-05-30T11:02:42.287Z
+
+
+### iOS voiceover scrolls down when you swipe up and vice versa. Discord server/member/channel/dm lists do the same. In channels and dms the response is reversed.
+
+binchlord#0998 - Bug Bot on 2019-05-30T11:03:11.711Z
+
+
+### Swiping right through the open dms list will sometimes hop onto the online status/quick switcher tab and not allow you to continue scrolling through dms (on iPad it sometimes hops onto the paper clip or emote icons in the chat area)
+
+binchlord#0998 - Bug Bot on 2019-05-30T11:03:45.179Z
+
+
+### Can reproduce.
+iPhone 7 Plus | iOS 12.2 | TestFlight: 3.0.2 (15283)
+
+AHkhan#0002 - Bug Bot on 2019-05-30T13:36:18.298Z
+
+
+### The control used to leave a voice chat in a server is not labeled.
+
+Gar#1865 - Bug Bot on 2019-05-30T19:22:52.412Z
+
+
+### Can reproduce.
+iPhone 8 iOS 12.3, TestFlight 3.0.2 (15283)
+
+ImmortaLemur#2998 - Bug Bot on 2019-05-31T01:33:57.448Z
+
+
+### nitro badge is a selectable element but does not provide VO feedback, (no other badges are selectable elements)
+
+binchlord#0998 - Bug Bot on 2019-05-31T02:22:58.511Z
+
+
+### extra element being generated between image & username also occurs with embedded messages
+
+binchlord#0998 - Bug Bot on 2019-05-31T03:13:24.513Z
+
+
+### Any menu that uses check marks to toggle settings (i.e. privacy & safety dm settings or web browser settings) gives no indication of which setting is selected
+
+binchlord#0998 - Bug Bot on 2019-05-31T03:13:46.548Z
+
+
+### create server icon, global emojis, note contents in user profiles, change profile picture button and filter/prune icon in member list do not provide voiceover feedback
+
+binchlord#0998 - Bug Bot on 2019-05-31T03:53:16.473Z
+
+
+### The change status icon i.e the icon that lets you set yourself as online, away, do not disturb, or invisible is not labeled. In addition it is impossible to determine which of the options in that menu is selected, as voiceover does not say for instance "Online, selected."
+
+Gar#1865 - Bug Bot on 2019-05-31T06:34:11.180Z
+
+
+### roles you do not have permission to edit or open the serverwide permissions for will give no indication of why the menu cannot be opened & just keep reading the role name
+
+binchlord#0998 - Bug Bot on 2019-05-31T10:49:45.787Z
+
+
+### double tapping to expand an image provides no auditory feedback, the close button does not automatically appear, making the entire screen a blank vc element
+
+binchlord#0998 - Bug Bot on 2019-06-01T02:00:32.505Z
+
+
+### in channel/dm search, the clear text field button, next page button and clear history button do not provide auditory feedback
+
+binchlord#0998 - Bug Bot on 2019-06-02T13:43:08.670Z
+
+
+### While scrolling through the server list, it is impossible to tell which server one is currently in by using voiceover. For example while in the Discord Testers server, voiceover should say something like, "Discord Testers, selected." Instead, it simply says "Discord Testers." This also applies to both channels and DM's.
+
+Note: I am aware you can tell simply by looking at the top of the screen, but I'm referring to the server/channel/dm list specifically.
+
+Gar#1865 - Bug Bot on 2019-06-02T22:54:15.724Z
+
+
+### Moved from New Issues to Backlog by Bug Bot on 2019-06-07T19:00:05.925Z
+
+
+### all f the text fields on the login and register screens are labeled, e-mail, password etc. However, none of them actually indicate that they are textfields that one can edit.
+
+Gar#1865 - Bug Bot on 2019-06-09T00:31:56.294Z
+
+
+### The element used to change your profile picture in settings, as well as the buttons that appear after you have selected a picture are not labeled. However, the latter do announce "button" when you go through them.
+
+Gar#1865 - Bug Bot on 2019-06-11T03:31:29.071Z
+
+
+### 1. Double tap the message text field to compose a message while in a server. (Ensure that you are using a bluetooth keyboard, not sure if this works without one but maybe someone else can test it.)
+2. Place your finger on a channel or dm conversation on the left hand side of the screen.
+3. Swipe right repeatedly.
+Voiceover should read all elements as normal. Instead it skips directly to the photo picker and emoji picker, with no indication that any other elements exist.
+IPad specific? IPad 6th gen, iOS 12.3.1, Discord Testflight 3.0.3 (15685)
+
+Gar#1865 - Bug Bot on 2019-06-11T15:45:05.866Z
+
+
+### In regards to my previous comment, I have retested this bug and found two additional things worth noting.
+1. This is reproducible on my iPhone 6S.
+2. A bluetooth keyboard is not required.
+
+Gar#1865 - Bug Bot on 2019-06-11T16:33:22.944Z
+
+
+### Voiceover does not distinguish between channel names and category names while swiping through the channel list in a server. It does not announce that one element is a channel and one is a category, which can make navigation quite confusing.
+
+Gar#1865 - Bug Bot on 2019-06-11T16:35:20.365Z
+
+
+### Can reproduce.
+When creating a server, voiceover does not announce what region, is any, is selected by default. Nor does it do so after you have selected one, or if you are looking through the list in server settings.
+
+Gar#1865 - Bug Bot on 2019-08-29T19:46:36.381Z
+
+
+### After creating your own server voiceover correctly reads the welcome to your own server message. If you swipe right however there are two buttons which register as unlabeled. The first one seems to be, at a guess, the icon to allow you to set a custom image for your server. The second one seems to have something to do with sending invites.
+
+Gar#1865 - Bug Bot on 2019-08-29T19:50:28.970Z
+
+
+### When managing server settings, voiceover does not indicate what option is selected for default notification settings for all users.
+
+Gar#1865 - Bug Bot on 2019-08-29T19:56:08.671Z
+
+
+### When managing a server's moderation settings, voiceover does not announce which items are selected under the explicit content filter or verification status settings.
+
+Gar#1865 - Bug Bot on 2019-08-29T20:02:56.169Z
+
+
+### channel permission buttons are unlabeled and give no indication of which settings are currently enabled/disabled
+
+binchlord#0998 - Bug Bot on 2019-08-30T13:49:49.722Z
+
+
+### As of Discord 3.1.1 the following elements, and possibly more, can be confirmed as having been labeled:
+Emoji keyboard icon
+Change status icon
+Quick switcher icon
+Settings icon
+View mentions icon
+Attach files icon (labeled inaccurately, should be attach photo/video as that's about all you can attach on iOS).
+
+Gar#1865 - Bug Bot on 2019-08-30T17:24:11.119Z
+
+
+### The toggle drawer icon is also now labeled.
+
+Gar#1865 - Bug Bot on 2019-08-30T17:25:12.490Z
+
+
+### Can reproduce.
+three dots button at top right of VC info that opens channel and voice settings is mislabeled as the “close button”
+
+binchlord#0998 - Bug Bot on 2019-08-31T23:14:06.873Z
+
+
+### As of the first build of Discord 3.1.2 all textfields related to logging in or registering an account on the main screen are labeled. However, the textfields themselves are misread as search fields rather than text fields.
+
+Gar#1865 - Bug Bot on 2019-09-01T14:08:31.909Z
+
+
+### If you double tap one of the fields in the logon screen, voiceover becomes stuck and will not allow you to swipe left or right directly, as if there are no further elements on the screen. However, dragging your finger allows you to find other elements and subsequently unsticks the voiceover curser so that swiping left or right works correctly.
+
+Gar#1865 - Bug Bot on 2019-09-01T14:10:14.335Z
+
+
+### After tapping on a field on the logon screen to edit it and unsticking the voiceover curser using the method laid out below, voiceover does not indicate that you are editing either the username or password field. In addition, any content within the field is not read out.
+
+Gar#1865 - Bug Bot on 2019-09-01T14:12:48.250Z
+
+
+### Within the logon screen, voiceover indicates that there is a button to clear any input from within a username/password field. However it mistakenly identifies the clear text element as being part of the textfield. Double tapping the field appears to do nothing thus clearing the username or password entered is not possible.
+
+Gar#1865 - Bug Bot on 2019-09-01T14:14:38.784Z
+
+
+### When you receive a direct message from another player and you come across the in-app banner which displays the message on the top of the screen, voiceover incorrectly states that the message is from a bot, and also stacks the word "settings" on the end of it. See below:
+Message banner as read by voiceover:
+"Boss BOT This is a test message. Settings"
+Element as it should be read out:
+"Boss: This is a test message."
+Note that the reason the ":" is there is to add a pause so that a voiceover user can differentiate the person's name from the actual message.
+
+Gar#1865 - Bug Bot on 2019-09-01T14:29:32.888Z
+
+
+### In regards to my previous note about the way voiceover reads message banners, this also sems to carry over to message banners for server messages as well.
+In this case, it reads the user's name, and the channel name, then says BOT, reads the message, then says settings.
+
+Gar#1865 - Bug Bot on 2019-09-01T15:40:45.058Z
+
+
+### As of the first beta of Discord 3.1.2 the clear search icon is labeled. The rest of the search related elements, clear search history, back, forward, still don't appear to be labeled.
+
+Gar#1865 - Bug Bot on 2019-09-01T18:55:57.395Z
+
+
+### The add server icon is now labeled correctly.
+
+Gar#1865 - Bug Bot on 2019-09-01T18:56:36.761Z
+
+
+### The mentions button is now labeled. However, the icons that clicking on that element displays are not.
+
+Gar#1865 - Bug Bot on 2019-09-02T17:38:26.836Z
+
+
+### As of Discord 3.1.2 build 17140, accessibility with voiceover seems to have regressed to a pre 3.1.1 state. None of the elements that were labeled in 3.1.1 appear to be labeled on my iPad 6th generation running iPad OS 13.1 public beta 1. In addition, when attempting to log in voiceover does not report the username and password fields as being elements.
+
+Gar#1865 - Bug Bot on 2019-09-03T01:34:32.259Z
+
+
+### As of Discord 3.1.2 build 17140, accessibility with voiceover seems to have regressed to a pre 3.1.1 state. None of the elements that were labeled in 3.1.1 appear to be labeled on my iPad 6th generation running iPad OS 13.1 public beta 1. In addition, when attempting to log in voiceover does not report the username and password fields as being elements.
+
+Gar#1865 - Bug Bot on 2019-09-03T01:35:18.955Z
+
+
+### connected accounts provide no auditory feedback regarding what app is connected, and just reads the username
+
+binchlord#0998 - Bug Bot on 2019-09-05T20:09:15.831Z
+
+
+### As of Discord 3.1.2 build 17205, accessibility labels, minus the ones not checked above, appear to be restored.
+
+Gar#1865 - Bug Bot on 2019-09-07T17:40:23.656Z
+
+
+### Can reproduce.
+iPhone 7 Plus - iOS 13.0 - TestFlight 3.1.4 (17524) - In the Friends tab, slightly down and to the left of “Add by Id”, you can select a circular element that will read a server. Selecting slightly above “Nearby Scan” will select a rectangle that reads “Find or start a conversation”
+
+Ayu#0001 - Bug Bot on 2019-10-01T18:20:37.792Z
+
+
+### As of Discord 3.1.5 build 17627 the following icons have been labeled:
+The member list icon in servers
+The search icon in servers
+The more icon in direct messages
+The start voice call icon in direct messages.
+
+Gar#1865 - Bug Bot on 2019-10-10T17:24:40.775Z
+
+
+### The toggle microphone and toggle camera buttons are now labeled in voice chat via dm's, but their status, i.e if your microphone is enabled or disabled, is not indicated.
+
+Gar#1865 - Bug Bot on 2019-10-15T03:59:07.786Z
+
+
+### When viewing the list of direct messages you have and switching between a conversation and your friends list, the friends button on the left is correctly labeled as a button. Direct messages, however, is not.
+
+Gar#1865 - Bug Bot on 2019-11-02T02:58:25.450Z
+
+
+### toasts do not flag the attention of voiceover the way system popups do (nor do any menus that can be opened), and provide no auditory indication of ever existing
+
+binchlord#0998 - Bug Bot on 2019-11-03T12:53:41.306Z
+
+
+### bot tag provided no auditory feedback TF 3.1.6 (18021)
+
+binchlord#0998 - Bug Bot on 2019-11-03T12:58:01.037Z
+
+
+### unlabeled: emoji button in custom status, custom status clear button, "Nitro classic" in manage nitro page in settings, Nitro plan names in nitro gifting page in settings other: custom status does not indicate which clear after time is selected, quickswitcher does not indicate whether its filtering by all or filtering by a specific server
+
+binchlord#0998 - Bug Bot on 2019-11-15T00:42:40.940Z
+
+
+### IN THE SHEET FOR A DM CALL unlabeled: button to minimize the DM call sheet, invite people to call button, peoples profile picture (button to open user profile), speaker button, disconnect button. incorrectly labeled: three dots is labeled as "close button",
+
+binchlord#0998 - Bug Bot on 2019-11-16T14:04:44.638Z
+
+
+### Archived by Bug Bot on 2019-12-16T14:30:03.234Z
+
+
+### Server profiles repeat twice when selected as of 3.1.10
+
+Jiralite#1207 - Bug Bot on 2020-02-16T18:55:29.716Z
+
+
+### Upon starting Discord, feedback is received twice
+
+Jiralite#1207 - Bug Bot on 2020-02-16T18:55:47.649Z
+
+
+### Unarchived by Bug Bot on 2020-02-16T19:00:05.399Z
+
+
+### Can reproduce.
+Server name creation text field says "Search field". iPhone 7: iOS 13.4; TestFlight 15.0 (19408) & iPad 7: iPadOS 13.4; TestFlight 15.0 (19408)
+
+Jiralite#1207 - Bug Bot on 2020-03-27T02:39:22.643Z
+
+
+### Archived by Bug Bot on 2020-05-10T22:00:03.274Z
+
+
+### Unarchived by Jon Egeland on 2020-06-29T23:24:01.498Z
+
+List
+====
+Backlog
+
+Members
+=======
+None

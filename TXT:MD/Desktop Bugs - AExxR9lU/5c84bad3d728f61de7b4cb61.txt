@@ -1,0 +1,113 @@
+[Archived] Streamer mode banner doesn't show after closing the input detection banner but will show after leaving the call (https://trello.com/c/WHHuP2it)
+
+P3: Will get fixed eventually
+
+Created: 2019-03-10T07:20:52.038Z
+Latest Update: 2019-10-23T23:02:17.518Z
+
+Reported by J1#0088
+
+####Steps to reproduce:
+- join a voice channel 
+- mute your mic using its software/switch to trigger the input detection warning 
+- when the warning appears, enable Streamer Mode 
+- close the input warning banner and observe that the streamer mode banner doesn't appear 
+- leave the call and observe that its showing now
+
+####Expected result:
+the streamer mode banner should appear either by automatically closing the first banner or after manually closing it
+####Actual result:
+the banner only appears after closing the call even though it does usually show when in calls but not when another banner is triggered
+####Client settings:
+Canary 33683
+####System settings:
+Windows 10 home x64 v.1809
+
+30635
+
+Card Log
+========
+### Added by Bug Bot on 2019-03-10T07:20:52.038Z
+
+
+### J1#0088 - https://i.imgur.com/5LLBWkG.gifv added by Bug Bot on 2019-03-10T07:20:54.625Z
+
+
+### Can reproduce.
+Can reproduce ; Canary: 33683, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-03-10T07:20:59.481Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1809, Canary 33683
+
+Jean20B#4287 - Bug Bot on 2019-03-10T07:21:04.546Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.233 Build 33683
+
+Daffyduck#5364 - Bug Bot on 2019-03-10T07:21:09.517Z
+
+
+### Can reproduce.
+Win10 Pro x64 (1809) | Discord Canary 33683
+
+Clay#0001 - Bug Bot on 2019-03-10T07:31:37.789Z
+
+
+### Can reproduce.
+Windows 10 x64 Home 1809, Canary 30635
+
+Fabian#1540 - Bug Bot on 2019-03-10T09:44:25.575Z
+
+
+### Can reproduce.
+win10 pro (64-bit, build 1809), canary 33683
+
+Defracted#7777 - Bug Bot on 2019-03-10T14:30:36.231Z
+
+
+### Can reproduce.
+macos 10.14.4, Canary 33683
+
+-40 °C = -40 °F#0272 - Bug Bot on 2019-03-10T16:23:10.119Z
+
+
+### Can reproduce.
+Canary 33683 Windows 10 x64
+
+Toasty#0001 - Bug Bot on 2019-03-10T19:31:10.346Z
+
+
+### Can reproduce.
+Windows 7 Ultimate x64, Canary, Build Number: 33683
+
+Lily#2624 - Bug Bot on 2019-03-10T20:37:41.884Z
+
+
+### Can reproduce.
+Windows 10 x64 Home 1809, Canary 30635
+
+tech_dude1#9855 - Bug Bot on 2019-03-10T22:47:23.548Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary 33683
+
+Delite#0001 - Bug Bot on 2019-03-10T23:20:17.107Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-03-13T20:39:06.684Z
+
+
+### Archived by Bug Bot on 2019-10-23T23:02:17.575Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

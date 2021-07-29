@@ -1,0 +1,98 @@
+[Archived] Hovering just over the titles in the friends list has the hover effect visible, however a small portion of the hover isn't a clickable button (https://trello.com/c/xLYUPVm2)
+
+P3: Will get fixed eventually
+
+Created: 2017-08-24T23:40:44.763Z
+Latest Update: 2018-07-06T17:56:26.753Z
+
+Reported by Pointy#9109
+
+####Steps to reproduce:
+- Possibly windows only? 
+- Open your friends list 
+- Hover over the top part of one of the buttons at the top that isn't selected, ensuring that your cursor isn't directly over the text, but the hover effect appears (i.e. All, Online, Pending, Blocked)
+
+####Expected result:
+The entire hover effect should be a clickable button
+####Actual result:
+It appears as if you're hovering over a clickable button, but clicking doesn't actually do anything
+####Client settings:
+Desktop Canary 0.0.163 (Build 1609)
+####System settings:
+Win 10 Pro x64 v1607
+
+3591
+
+Card Log
+========
+### Added by Bug Bot on 2017-08-24T23:40:44.763Z
+
+
+### ItsPugle#5963 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/599f63fcbf0eea9c98d693f3/ffdcea5dde26c6bb7e793ffa8d7af1d1/6dd09e.gif added by Bug Bot on 2017-08-24T23:40:48.630Z
+
+
+### Can reproduce.
+CR | Windows 10 Home x64 Creator's Update, Discord Canary 0.0.163
+
+Cubular#6460 - Bug Bot on 2017-08-24T23:40:52.255Z
+
+
+### Can reproduce.
+Can Repro, Double Clicking actually disables maximized Windows 10 Home (Creators Update) x64, Canary 0.0.163
+
+DeJay#3628 - Bug Bot on 2017-08-24T23:40:57.242Z
+
+
+### Can reproduce.
+CR on Windows 10 home x64, Canary 0.0.163
+
+ks0908#8526 - Bug Bot on 2017-08-24T23:41:02.257Z
+
+
+### This is because that's where the hidden window header is. You can click and drag there to move the window.
+
+advaith#9121 - Bug Bot on 2017-08-25T02:23:10.551Z
+
+
+### Can reproduce.
+Surface Pro 3, Windows 10 Pro 1703 (15063.483), Discord Canary 0.0.163 (Build 2984) (Windows only)
+
+advaith#9121 - Bug Bot on 2017-08-25T02:25:45.486Z
+
+
+### Verified.  - Clayton on 2017-09-08T21:37:33.552Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2017-09-08T21:37:40.515Z
+
+
+### Cannot reproduce anymore, Canary 9959. moving to claimed fixed. - Tarek on 2018-01-26T06:55:38.799Z
+
+
+### Moved from Verified Bugs to Claimed Fixed, needs Verification by Tarek on 2018-01-26T06:55:43.546Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 v1709, Discord Canary (Build 9959)
+
+Souji#0001 - Bug Bot on 2018-01-26T23:49:50.988Z
+
+
+### Can no longer reproduce.  - Clayton on 2018-05-03T00:48:18.872Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Clayton on 2018-05-03T00:48:22.478Z
+
+
+### Archiving a this ticket has been in a resolved state for more than 30 days - Jared on 2018-07-06T17:56:25.551Z
+
+
+### Archived by Jared on 2018-07-06T17:56:26.755Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

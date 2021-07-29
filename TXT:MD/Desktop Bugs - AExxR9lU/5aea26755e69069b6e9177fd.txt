@@ -1,0 +1,103 @@
+Artefacts and glitches on MacOS, worsened by turning off hardware acceleration (https://trello.com/c/vWUY3FJw)
+
+High,
+P3: Will get fixed eventually
+
+Created: 2018-05-02T20:58:29.275Z
+Latest Update: 2018-11-16T07:38:43.256Z
+
+Reported by ash#0001
+
+####Steps to reproduce:
+- Open Discord into dark mode  
+- Turn ON hardware acceleration and position Discord on the INTERNAL display 
+- Observe grey boxes/faded ui and other artefacts 
+- Turn OFF hardware acceleration 
+- Observe effect worsened and now affecting ANY/ALL monitors 
+- etc
+
+####Expected result:
+no glitches
+####Actual result:
+acceleration ON: large grey boxes/artifacts over some elements, responds to mouse movement, ONLY internal monitor. hardware acceleration OFF: most elements flickering and flashing, responding to keypress or random, effects all monitors (resubmit of 11800)
+####Client settings:
+Release Channel: canary, Build Number: 14432
+####System settings:
+MacBook Pro 2015 13" - MacOS 10.13.3 - INTERNAL DISPLAY 13.3-inch (2560 x 1600) w/ Intel Iris Graphics 6100 1536 MB
+
+11820
+
+Card Log
+========
+### Added by Bug Bot on 2018-05-02T20:58:29.275Z
+
+
+### Ghoul the Kitty#0009 - https://i.imgur.com/Dkgplw3.gifv added by Bug Bot on 2018-05-02T20:58:32.388Z
+
+
+### Ghoul the Kitty#0009 - https://i.imgur.com/9iJyQlk.gifv added by Bug Bot on 2018-05-02T20:58:32.714Z
+
+
+### Can reproduce.
+Appears to be an Intel Iris issue (2015>older macs) | MacBook pro 2015 13" - macOS High Sierra 10.13.4 - Internal display (Intel Iris Graphics 6100 1536 MB) with hardware acc off, ext monitor through displayport with hardware acc on - Canary 14432
+
+IPv4#0001 - Bug Bot on 2018-05-02T20:58:36.632Z
+
+
+### Can reproduce.
+MacBook Pro 15" (2017) - macOS High Sierra 10.13.4 - Canary Build 14432 - Intel HD Graphics 630 1536 MB -- Only happens on my internal display with hardware acceleration off
+
+mrkirby153#7840 - Bug Bot on 2018-05-02T20:58:41.844Z
+
+
+### Can reproduce.
+MBP Early 2015; MacOS High Sierra 10.13.3 (17D102); Canary 14432
+
+korzq#0001 - Bug Bot on 2018-05-02T20:58:46.668Z
+
+
+### Can't reproduce.
+Mac Mini (late 2012) macOS 10.12.6 Canary Build 14512, might be MBPs only?
+
+Kuuhaku#4503 - Bug Bot on 2018-05-02T21:00:19.952Z
+
+
+### Verified.  - Clayton on 2018-05-02T21:01:26.849Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-05-02T21:01:36.005Z
+
+
+### @clayton301 This is probably caused by the Electron update. So I am moving this to the Electron Update bugs list. - Tarek on 2018-05-03T03:55:27.991Z
+
+
+### Moved from Verified Bugs to Electron Update Bugs 🍒 by Tarek on 2018-05-03T03:55:33.926Z
+
+
+### Can reproduce.
+Successfully reproduced with both integrated and discrete GPU with light and dark theme. HW acceleration on. Note turning HW off will cause bug #6514. MacBook Pro (Retina, 15-inch, Mid 2014), macOS High Sierra 10.13.5 Beta (17F45c), Discord Canary(14558).
+
+Teyloll#2992 - Bug Bot on 2018-05-03T05:31:31.660Z
+
+
+### Can reproduce.
+Retina 5K iMac, late 2014, AMD Radeon R9 M295X 4 GB
+
+cryptochrome#0001 - Bug Bot on 2018-05-03T10:08:26.108Z
+
+
+### Does this happen macOS users? - Tarek on 2018-10-04T06:08:37.198Z
+
+
+### Can reproduce.
+macOS 10.13.6 (17G65), MacBook Pro (Retina, 13-inch, Early 2015), Canary 28059, happens more often when system is under high memory pressure
+
+zhu.exe#4211 - Bug Bot on 2018-11-16T07:38:43.257Z
+
+List
+====
+[Old] Electron Update Bugs 🍒
+
+Members
+=======
+None
