@@ -1,0 +1,90 @@
+[Archived] [macOS Specific] Screen goes blank when clicking on "In library (Hidden)". (https://trello.com/c/VJUKbwtO)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-12T21:07:24.922Z
+Latest Update: 2019-08-01T22:13:26.341Z
+
+Reported by william#0002
+
+####Steps to reproduce:
+- Open Store. 
+- Open a game's page. 
+- Add the game to your library. 
+- Open Library. 
+- Right click the game. 
+- Click "Hide Game from Library" and confirm on the modal that appears. 
+- Open the same game's store page again. 
+- Click "In library (Hidden)" on the details box on the right of the page.
+
+####Expected result:
+not sure
+####Actual result:
+Since the client attempts to open the Game Library tab in Server Settings (which doesn't exist in macOS), the screen goes blank.
+####Client settings:
+Canary 26049
+####System settings:
+MacBook Pro (13", Mid-2012), macOS 10.13.6
+
+21126
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-12T21:07:24.922Z
+
+
+### Can reproduce.
+MacBook Pro (15-inch, 2017), macOS 10.14, Canary, Build Number: 26049
+
+pql#1337 - Bug Bot on 2018-10-12T21:07:32.419Z
+
+
+### Can reproduce.
+mojave 10.14.1; canary 26049
+
+OrangeM24#5746 - Bug Bot on 2018-10-12T21:07:37.721Z
+
+
+### Can reproduce.
+26052
+
+Rage#9991 - Bug Bot on 2018-10-12T21:07:42.298Z
+
+
+### Can reproduce.
+Sorry forgot to add full details on previous approval. Macbook Air • macOS Sierra 10.12.6 • Canary 26052
+
+Rage#9991 - Bug Bot on 2018-10-12T21:12:31.258Z
+
+
+### verified, macos 10.12.6, canary 26090 - Clayton on 2018-10-13T03:44:05.263Z
+
+
+### Moving this card from the Desktop board to Store board. - ghoul_the_kitty on 2018-10-22T22:27:03.832Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by ghoul_the_kitty on 2018-10-22T22:27:11.981Z
+
+
+### Can reproduce.
+macOS High Sierra, Version: 10.13.6 - Canary 0.0.216
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-03-24T18:34:08.872Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:47:57.991Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro Retina 13" // macOS Sierra (10.12.6) //  Discord Canary: 42406
+
+xTeal#7702 - Bug Bot on 2019-08-01T22:13:26.352Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

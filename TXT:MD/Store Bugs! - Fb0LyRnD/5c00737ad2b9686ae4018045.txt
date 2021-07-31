@@ -1,0 +1,84 @@
+[Archived] Client crashes when changing your client language while over a slide video trailer in the Store tab (https://trello.com/c/vmfmhC1S)
+
+None
+
+Created: 2018-11-29T23:17:14.612Z
+Latest Update: 2019-06-21T20:51:20.377Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go to the Store tab 
+- Make sure a slide with a video trailer is on screen and open your User Settings -> Languages 
+- Change your client language between English, US & English, UK repeatedly while clicking over where the video is located behind your User Settings
+
+####Expected result:
+Your client should change between the two languages with no issues
+####Actual result:
+While changing, you occasionally click on the video trailer, causing your client to crash
+####Client settings:
+Discord Canary 0.0.224, Build 28603
+####System settings:
+Windows 10 Home 64-bit (v1803)
+
+23787
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-29T23:17:14.612Z
+
+
+### Ene#0808 - https://i.imgur.com/T75G200.gifv added by Bug Bot on 2018-11-29T23:17:16.991Z
+
+
+### Can reproduce.
+Discord Canary 0.0.244 (28603) on Windows 10 Pro 64 -bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-11-29T23:17:21.922Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 28603. Took a couple of tries but client full crashed.
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-29T23:17:26.887Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 canary build 28603
+
+Azrael#6867 - Bug Bot on 2018-11-29T23:17:31.876Z
+
+
+### Can reproduce.
+Windows 10 Home x64 - (1803) OS Build: 17134.441 - Discord Canary 28603
+
+Daffyduck#5364 - Bug Bot on 2018-11-30T02:53:12.432Z
+
+
+### Can't reproduce.
+Can not reproduce. I believe this to be an issue with HDD accessing the files for languages. On SSD Discord takes a second to load it, but I have not been able to make it crash. Windows 10 Home x64 v1803, Canary 28642
+
+Solo#0007 - Bug Bot on 2018-11-30T15:33:57.847Z
+
+
+### Can reproduce.
+(CR) Windows 10 Pro 64x,Canary 28704
+
+Octillion#6666 - Bug Bot on 2018-12-03T23:41:54.739Z
+
+
+### CNR - Clayton on 2018-12-20T06:29:12.894Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-12-20T06:29:16.094Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:51:20.384Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

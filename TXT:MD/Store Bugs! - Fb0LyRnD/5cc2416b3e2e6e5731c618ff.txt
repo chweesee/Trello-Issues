@@ -1,0 +1,139 @@
+Nitro-Store crash. (https://trello.com/c/FwdWN7OG)
+
+P1: Severe
+
+Created: 2019-04-25T23:23:23.529Z
+Latest Update: 2019-04-26T12:30:32.796Z
+
+Reported by Bullseye#8200
+
+####Steps to reproduce:
+- Go to your account's settings. 
+- Click on "Discord Nitro" under "Billing". 
+- Scroll all the way down and click "VIEW ALL GAMES" 
+- It will redirect you to the store page.
+
+####Expected result:
+Everything should normally work, and you should be able to view the games normally.
+####Actual result:
+The store page keeps on crashing continuously.
+####Client settings:
+Discord Stable, Build: 36215 // Discord Canary, Build: 36318
+####System settings:
+Windows 10 Pro (64-bit)
+
+33502
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-25T23:23:23.529Z
+
+
+### Can reproduce.
+Can Repro, Console error reads: "Should not be rendering/comparing without SKU" on Windows 10 Home (1903) x64, Canary 0.0.235 (Build 36345)
+
+DeJay#1337 - Bug Bot on 2019-04-25T23:23:30.867Z
+
+
+### Can reproduce.
+CR on Canary and Stable. Nitro Store's now in crash loop. Windows 10 Home x64 - Canary 36345 & Stable 36215
+
+Ten 🌈#1010 - Bug Bot on 2019-04-25T23:23:35.920Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.235 Build 36345
+
+Daffyduck#5364 - Bug Bot on 2019-04-25T23:23:40.862Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 (1809) - Canary 36345
+
+Rushly#9433 - Bug Bot on 2019-04-25T23:23:59.919Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Discord Canary 36345 and Discord Stable 36215
+
+jedi3#0001 - Bug Bot on 2019-04-25T23:25:13.406Z
+
+
+### Can reproduce.
+Windows 10 1809 Discord Canary 36345
+
+GlenMerlin#2119 - Bug Bot on 2019-04-25T23:26:21.605Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro, Canary 36345, Stable 36215
+
+Karasu#0013 - Bug Bot on 2019-04-25T23:28:46.194Z
+
+
+### Can reproduce.
+Win10x64 1809 - Canary 36318
+
+Cubity_First#0001 - Bug Bot on 2019-04-25T23:36:39.947Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4 Prime - MIUI 10 Stable - Chrome & Firefox
+
+Gecko#5181 - Bug Bot on 2019-04-25T23:49:48.965Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 36345
+
+TheForbiddenAi#7549 - Bug Bot on 2019-04-25T23:54:05.471Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by tarek_ on 2019-04-25T23:58:15.992Z
+
+
+### Can reproduce.
+CR; macOS High Sierra, Version: 10.13.6 - Canary 0.0.218 (36345)
+
+Forgi_Forgeth#7294 - Bug Bot on 2019-04-26T00:40:31.390Z
+
+
+### Fixed in 36426 - tarek_ on 2019-04-26T02:04:07.561Z
+
+
+### Moved from Notable Issues to Claimed Fixed by tarek_ on 2019-04-26T02:04:12.051Z
+
+
+### Can't reproduce.
+CNR, Canary 36426, Windows 10 Home x64 v1809
+
+TheForbiddenAi#7549 - Bug Bot on 2019-04-26T02:04:48.133Z
+
+
+### Can't reproduce.
+Windows 10 Home v1809 x64 - Discord Canary 36426
+
+Daffyduck#5364 - Bug Bot on 2019-04-26T02:09:08.386Z
+
+
+### Can't reproduce.
+macos 10.14.5, canary 36426
+
+Pain#2020 - Bug Bot on 2019-04-26T02:43:06.516Z
+
+
+### Moved from Claimed Fixed to Fixed Bugs by Bug Bot on 2019-04-26T02:43:06.708Z
+
+
+### Can't reproduce.
+Doesn't crash for me. Fixed? Windows 10 Pro x64, Canary 36426
+
+Lekic#0001 - Bug Bot on 2019-04-26T12:30:32.802Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

@@ -1,0 +1,94 @@
+[Archived] Going offline followed by clicking on a page in the store will spam GET requests/console errors. (https://trello.com/c/8p8H0DGw)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-11-04T06:32:35.298Z
+Latest Update: 2019-06-21T20:51:01.905Z
+
+Reported by webhp#1337
+
+####Steps to reproduce:
+- Go to the Game Store 
+- Open the console (Ctrl + Shift + I) 
+- Go to the network tab 
+- Check "offline" or disable your internet connection 
+- Click on a un-cached game in the store 
+- Observe the error count in the top right
+
+####Expected result:
+After a few attempts it stops.
+####Actual result:
+It spams GET requests until the connection is reenabled or you navigate out of that page. The CPU utilization is also significantly raised.
+####Client settings:
+Discord Canary 27466
+####System settings:
+Windows 10 Pro x64 v1809
+
+22746
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-04T06:32:35.298Z
+
+
+### webhp#1337 - https://trello-attachments.s3.amazonaws.com/5bc7b4adf7d2b839fa6ac108/5bde92837110f43b683c4520/f7523222535f99b15425be3c52a221a5/Rr37Fre.png added by Bug Bot on 2018-11-04T06:32:37.698Z
+
+
+### Can reproduce.
+Discord Canary 27466 Windows 10 home x86
+
+Kyle#1348 - Bug Bot on 2018-11-04T06:32:42.662Z
+
+
+### Can reproduce.
+Can reproduce Discord Canary 27466 Macbook air 13" MacOS mojave 10.14
+
+Bencey_#8587 - Bug Bot on 2018-11-04T06:32:47.648Z
+
+
+### Can reproduce.
+Can reproduce. Windows 7 Ultimate x64 - Discord Canary 27466
+
+Daffyduck#5364 - Bug Bot on 2018-11-04T06:32:52.733Z
+
+
+### Can reproduce.
+Windows 10.0 Build 17134, Discord Build 27466
+
+aditya#0001 - Bug Bot on 2018-11-04T23:39:31.283Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 27466
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-05T11:13:52.677Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 27466
+
+Neiron#7777 - Bug Bot on 2018-11-05T18:53:25.516Z
+
+
+### verified, macos 10.12.6, canary 27494 - Clayton on 2018-11-06T04:13:15.981Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-06T04:13:23.141Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 27701
+
+Hole#0001 - Bug Bot on 2018-11-09T02:29:40.778Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:51:01.918Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

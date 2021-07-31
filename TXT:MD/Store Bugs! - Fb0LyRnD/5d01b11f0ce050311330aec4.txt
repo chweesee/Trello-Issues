@@ -1,0 +1,149 @@
+[Archived] Uncaught in promise when exiting a fullscreen video in store or store channels (https://trello.com/c/eA7O3mj0)
+
+None
+
+Created: 2019-06-13T02:12:47.687Z
+Latest Update: 2019-07-20T10:50:25.847Z
+
+Reported by Salt#8690
+
+####Steps to reproduce:
+- Open console 
+- Go to the nitro tab (or store channels) 
+- Fullscreen a video (video must not be from Youtube) 
+- Exit fullscreen 
+- Observe
+
+####Expected result:
+No error appears.
+####Actual result:
+An error appears
+####Client settings:
+Canary 39515
+####System settings:
+Windows 10 Home x64 (1809)
+
+37045
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-13T02:12:47.687Z
+
+
+### Salt#8690 - https://trello-attachments.s3.amazonaws.com/5bc7b4adf7d2b839fa6ac108/5d01b11f0ce050311330aec4/948b57e9fc052122e9ac90735349dfd9/E45vcXo.png added by Bug Bot on 2019-06-13T02:12:50.378Z
+
+
+### Can reproduce.
+CR Win10 64x (1903), Discord Canary 39549 ~ Document Not active | Caused when you are on a game screen not the nitro tab.
+
+Alipoodle#5025 - Bug Bot on 2019-06-13T02:12:55.299Z
+
+
+### Can reproduce.
+CR, Windows 10 Home x64 (1809), Canary 39549
+
+TheForbiddenAi#0001 - Bug Bot on 2019-06-13T02:13:00.107Z
+
+
+### Can reproduce.
+CR, Windows 10 Pro x64 - Canary - 39597
+
+Jasοn#0001 - Bug Bot on 2019-06-13T02:13:05.101Z
+
+
+### Can't reproduce.
+CNR; Windows 10 (build 17763) ~ Canary 39597
+
+Lengo#0001 - Bug Bot on 2019-06-13T02:38:25.842Z
+
+
+### Can't reproduce.
+Windows 10 Pro v1809 Canary 39636
+
+Daffy#7906 - Bug Bot on 2019-06-13T18:37:25.835Z
+
+
+### Can reproduce.
+Discord client: 39652 (canary) System information: Windows 10 Home with a 64 bit processor.
+
+Talon#4419 - Bug Bot on 2019-06-13T21:41:28.214Z
+
+
+### Can reproduce.
+Canary: 39718, Host 0.0.242, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-06-14T18:07:36.664Z
+
+
+### Can reproduce.
+MacBook Pro (13", Mid-2012), macOS v10.14.5 (18F132) - Canary 39800
+
+Isabel#0002 - Bug Bot on 2019-06-15T08:32:31.515Z
+
+
+### Can reproduce.
+Windows 10 Pro
+
+Typhoon#3514 - Bug Bot on 2019-06-19T12:05:47.910Z
+
+
+### Can reproduce.
+Windows 10 (x64); Discord Stable, Build Number 39974
+
+Dann#3477 - Bug Bot on 2019-06-20T06:50:07.163Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40281
+
+Xylium#5800 - Bug Bot on 2019-06-24T14:55:10.035Z
+
+
+### Can't reproduce.
+Windows 10 Home 64 bit, Discord Canary 40354.
+
+Alister#0018 - Bug Bot on 2019-06-27T01:33:42.337Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64, version 1809 / Canary 40450
+
+metr0#2951 - Bug Bot on 2019-06-28T01:19:50.003Z
+
+
+### Can't reproduce.
+Windows 10 Home 64-bit, v1903 - Canary 40522
+
+Nicholas#4669 - Bug Bot on 2019-06-30T05:16:50.706Z
+
+
+### Can reproduce.
+Early 2015 Macbook Pro // macOS Sierra (10.12.6) //  Discord Canary: 40522
+
+xTeal#7702 - Bug Bot on 2019-07-01T23:55:21.774Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 41257
+
+charleskimbac#6492 - Bug Bot on 2019-07-16T23:52:34.056Z
+
+
+### Extension of https://trello.com/c/OOwfKCNy - Ene on 2019-07-17T16:59:24.837Z
+
+
+### Archived by Ene on 2019-07-17T16:59:26.449Z
+
+
+### Can't reproduce.
+Macbook Air • macOS Mojave 10.14.5 • Canary 41583
+
+Rage#9991 - Bug Bot on 2019-07-20T10:50:25.859Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

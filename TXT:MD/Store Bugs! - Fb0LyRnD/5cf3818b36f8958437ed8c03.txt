@@ -1,0 +1,78 @@
+Navigating to the store page when logged out throws an error in the console. (https://trello.com/c/B8E7sEOv)
+
+P3: Will get fixed eventually
+
+Created: 2019-06-02T07:58:03.156Z
+Latest Update: 2019-08-17T18:20:04.058Z
+
+Reported by Isabel#0002
+
+####Steps to reproduce:
+- If you will be using a browser that connects to your desktop client, close your desktop client. 
+-  
+- Go to Discord's website. 
+- Log out if you are logged in. 
+- Open your browser's devtools. 
+- Navigate to <discord domain>/store.
+
+####Expected result:
+No error.
+####Actual result:
+An unhandled promise rejection error appears in the console.
+####Client settings:
+Web PTB 38950 - Firefox v67.0 - Chrome v74.0.3729.169 - Safari v12.1 (14607.1.40.1.4)
+####System settings:
+MacBook Pro (13", Mid-2012), macOS v10.14.4 (18E226)
+
+35859
+
+Card Log
+========
+### Added by Bug Bot on 2019-06-02T07:58:03.156Z
+
+
+### Isabel#0002 - https://trello-attachments.s3.amazonaws.com/5bc7b4adf7d2b839fa6ac108/5cf3818b36f8958437ed8c03/46f39b82bd77dee24678d43558e85651/unknown.png added by Bug Bot on 2019-06-02T07:58:05.802Z
+
+
+### Can reproduce.
+Windows 10 Home x64 1903, Chrome 74.0.3729.169 (desktop client closed), Edge 44.18362.1.0 (desktop client closed), Firefox 67.0, Web Stable/Canary 38950
+
+Jean20B#4287 - Bug Bot on 2019-06-02T07:58:10.469Z
+
+
+### Can reproduce.
+Can Repro, Windows 10 Home x64 | 38950 chrome 74
+
+Classified#0001 - Bug Bot on 2019-06-02T07:58:15.474Z
+
+
+### Can reproduce.
+Canary 38950, Firefox v67, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-06-02T07:58:20.498Z
+
+
+### Can reproduce.
+Can Reproduce MacOS Mojave v. 10.14 (18A391) - Opera Version: 60.0.3255.125 - Canary 38950
+
+ImFirstPlace#3965 - Bug Bot on 2019-06-02T08:32:14.646Z
+
+
+### Can reproduce.
+CR; Windows 10 (build 17763) ~ Canary 39597
+
+Lengo#0001 - Bug Bot on 2019-06-13T02:40:54.091Z
+
+
+### Verified » Windows 10 Pro x64, Chrome Version 76.0.3809.100 - Aeria on 2019-08-17T18:19:57.617Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Aeria on 2019-08-17T18:20:01.822Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

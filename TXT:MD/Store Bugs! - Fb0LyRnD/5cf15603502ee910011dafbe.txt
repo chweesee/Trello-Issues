@@ -1,0 +1,83 @@
+The country selector on web breaks when reaching the end. (https://trello.com/c/FD5jIStL)
+
+None
+
+Created: 2019-05-31T16:27:47.235Z
+Latest Update: 2019-06-16T10:36:27.738Z
+
+Reported by mrphilip#7368
+
+####Steps to reproduce:
+- Go to the purchase Discord screen 
+- Enter fake information so you get the Address tab 
+- Scroll in the Country tab 
+- Scroll to the bottom 
+- Observe
+
+####Expected result:
+You should be able to scroll to the buttom.
+####Actual result:
+You are not able to scroll to the buttom.
+####Client settings:
+Release Channel: stable, Build Number: 38729 Web, Chrome 74.0.3729.169
+####System settings:
+Windows 10 Pro, V.1803, x64
+
+35716
+
+Card Log
+========
+### Added by Bug Bot on 2019-05-31T16:27:47.235Z
+
+
+### mrphilip#7368 - https://i.imgur.com/XxF0m0x.gifv added by Bug Bot on 2019-05-31T16:27:49.715Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home x64 | Canary 38751
+
+Classified#0001 - Bug Bot on 2019-05-31T16:27:54.636Z
+
+
+### Can reproduce.
+CR; Windows 10 Pro | 64-bit (v1803) | Discord Canary, Build Number : 38863
+
+AHkhan#0002 - Bug Bot on 2019-05-31T16:27:59.599Z
+
+
+### Can reproduce.
+Can Reproduce, Windows 10 v1809, stable build 38729
+
+zynia#5883 - Bug Bot on 2019-05-31T16:28:04.676Z
+
+
+### Can't reproduce.
+MacBook Air - MacOS (10.12.6 Sierra), Canary 38885.  Although it looks like it has not reached the end, it has.  Zimbabwe is the last option.  You can check by scrolling down on the page before dropping down the options.
+
+myacorn#6534 - Bug Bot on 2019-06-01T08:09:50.584Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 38976 (Host 0.0.238)
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-06-03T21:15:54.215Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Discord canary, Build Number: 39048
+
+Xylium#5800 - Bug Bot on 2019-06-04T16:50:02.478Z
+
+
+### Can reproduce.
+Canary: 39818, Host 0.0.243, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-06-16T10:36:27.744Z
+
+List
+====
+User Reported Bugs
+
+Members
+=======
+None

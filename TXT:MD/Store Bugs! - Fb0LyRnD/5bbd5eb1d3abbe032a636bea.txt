@@ -1,0 +1,77 @@
+[Archived] Clicking on the blog post in the Store tab throws an Uncaught TypeError error in the console (https://trello.com/c/4bRM76jx)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-10T02:06:41.588Z
+Latest Update: 2019-06-21T20:52:07.075Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go to the Store tab 
+- Open your console with ctrl + shift + i (cmd + shift + i for macOS) 
+- Click on the "Why is Discord building a store" to open the blog 
+- Go back to your client and observe the error in the console
+
+####Expected result:
+No error thrown in the console
+####Actual result:
+An Uncaught TypeError error is thrown
+####Client settings:
+Discord Canary 0.0.215, Build 25845
+####System settings:
+Windows 10 Home 64-bit (v1803)
+
+20919
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-10T02:06:41.588Z
+
+
+### Can reproduce.
+Windows 10 Pro v1809 x64 - Discord Canary 25845
+
+webhp#1337 - Bug Bot on 2018-10-10T02:06:48.961Z
+
+
+### Can reproduce.
+Windows 10 Pro 64-bit v1803, Discord Canary 25845
+
+THAT SIDE // 45 RPM#7408 - Bug Bot on 2018-10-10T02:06:53.899Z
+
+
+### Can reproduce.
+MacBook Air macOS 10.14.1; Canary 25859
+
+OrangeM24#5746 - Bug Bot on 2018-10-10T02:06:58.919Z
+
+
+### minor - Clayton on 2018-10-11T01:56:48.495Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1709, Canary 26007
+
+zephr#1634 - Bug Bot on 2018-10-11T12:20:47.359Z
+
+
+### Cannot repro anymore, Canary 26655. Moving to claimed fixed. - tarek_ on 2018-10-22T05:43:45.373Z
+
+
+### Store bug. - tarek_ on 2018-10-26T05:21:05.655Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by tarek_ on 2018-10-26T05:21:16.907Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:52:07.085Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

@@ -1,0 +1,76 @@
+[Archived] Store Genre drop-down list automatically defaults to the first genre you pick after selecting another genre (https://trello.com/c/jWREyxWh)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-19T09:54:37.839Z
+Latest Update: 2019-06-28T10:34:15.301Z
+
+Reported by Ardia#7038
+
+####Steps to reproduce:
+- Refresh Discord 
+- Go to the Store page 
+- Scroll down and select any game 
+- Under details, select a genre that does not start with "A" or "B" 
+- Pick another genre from the drop-down list, one whose first letter alphabet is significantly higher or lower in the list 
+- Click the genre drop-down list
+
+####Expected result:
+Drop-down list should start from the top of the list or start from the last genre that was picked
+####Actual result:
+Drop-down list will automatically scroll to the first genre that you picked from the details section
+####Client settings:
+Discord Canary, Build Number: 26538
+####System settings:
+Windows 10 Home
+
+21641
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-19T09:54:37.839Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26538
+
+Hole#0001 - Bug Bot on 2018-10-19T09:54:45.128Z
+
+
+### Can reproduce.
+Can Reproduce - Canary Build 26538 Windows 10 Home x64 1803
+
+Rashaun#9295 - Bug Bot on 2018-10-19T09:54:50.204Z
+
+
+### Can reproduce.
+[CR] Windows 10 x64 (1803), Discord Canary 23011
+
+54D#1357 - Bug Bot on 2018-10-19T09:54:55.191Z
+
+
+### minor - Clayton on 2018-10-20T01:28:31.158Z
+
+
+### Moving this ticket from Desktop board to Store board! - ghoul_the_kitty on 2018-10-25T08:06:43.196Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by ghoul_the_kitty on 2018-10-25T08:06:52.084Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:48:08.352Z
+
+
+### Can reproduce.
+MacBook Air - MacOS (10.12.6 Sierra), Canary 40393
+
+myacorn#6534 - Bug Bot on 2019-06-28T10:34:15.307Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

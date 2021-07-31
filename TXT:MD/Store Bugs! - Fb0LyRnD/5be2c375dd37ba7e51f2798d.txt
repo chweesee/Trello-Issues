@@ -1,0 +1,84 @@
+[Archived] Discord Store Games remain on the Programs and Features list even after uninstalling. (https://trello.com/c/Q3nDkfuw)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-11-07T10:50:29.063Z
+Latest Update: 2019-06-21T20:51:06.492Z
+
+Reported by Daffyduck#5364
+
+####Steps to reproduce:
+- Install a Discord game (i used Minion Masters). 
+- Go to Programs and Features in the Control Panel. 
+- Find Minion Masters in the list and proceed to uninstall. 
+- Go back to the Discord Game Library and verify that it has uninstalled. 
+- Refresh the Programs and Features List and see that Minion Masters is still in the list.
+
+####Expected result:
+Minion Masters shouldn't appear in the Programs and Features list after uninstalling the game.
+####Actual result:
+The game still remains in the Programs and Features list and there's no way of removing it.
+####Client settings:
+Discord Canary, Build Number: 27574
+####System settings:
+Windows 7 Ultimate x64
+
+22839
+
+Card Log
+========
+### Added by Bug Bot on 2018-11-07T10:50:29.063Z
+
+
+### Can reproduce.
+CR. Windows 10 x64 1809 (17763), Discord Canary with Build number 27574
+
+Frances Picard#6209 - Bug Bot on 2018-11-07T10:50:36.361Z
+
+
+### Can reproduce.
+CR, Windows 10 Home 64-bit, Canary 27574
+
+OddsomeOddy#1998 - Bug Bot on 2018-11-07T10:50:41.418Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 27574
+
+Neiron#7777 - Bug Bot on 2018-11-07T10:50:46.483Z
+
+
+### verified, win10, canary 27574 - Clayton on 2018-11-08T00:25:38.263Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-08T00:25:42.139Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 27701
+
+Hole#0001 - Bug Bot on 2018-11-09T02:21:09.220Z
+
+
+### Can reproduce.
+Windows 10 Pro x64, 1607 (14393.2214), 27744
+
+avror#0001 - Bug Bot on 2018-11-09T15:22:53.337Z
+
+
+### Can reproduce.
+Windows 10.0 Build 17134, Discord Build 27814
+
+aditya#0001 - Bug Bot on 2018-11-11T07:56:50.696Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:51:06.503Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

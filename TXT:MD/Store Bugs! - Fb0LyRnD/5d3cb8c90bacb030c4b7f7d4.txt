@@ -1,0 +1,89 @@
+Crash when you try to create a gift link (https://trello.com/c/Iq6pVlql)
+
+P1: Severe,
+Low
+
+Created: 2019-07-27T20:49:13.143Z
+Latest Update: 2019-08-11T12:57:05.408Z
+
+Reported by charleskimbac#6492
+
+####Steps to reproduce:
+- Go to the Library tab 
+- Click on a gift under gift inventory
+
+####Expected result:
+no crash
+####Actual result:
+you crash
+####Client settings:
+canary 42111w
+####System settings:
+windows 10 home
+
+40801
+
+Card Log
+========
+### Added by Bug Bot on 2019-07-27T20:49:13.143Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 - Canary 42111 -- Only works if a gift link was generated for the gift
+
+Aeria#9096 - Bug Bot on 2019-07-27T20:49:20.939Z
+
+
+### Aeria#9096 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5d3cb8c90bacb030c4b7f7d4/f6cc02c346fde301e8172f8bfb1552cd/PY4UJYU.png added by Bug Bot on 2019-07-27T20:49:28.461Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by Aeria on 2019-07-27T20:51:00.508Z
+
+
+### Can't reproduce.
+CNR on Windows 10 x64, Canary build: 42113
+
+PepsiPlayzz#2800 - Bug Bot on 2019-07-28T04:19:00.377Z
+
+
+### Can't reproduce.
+Windows 10 Home x64 1903, Canary 42113
+
+B.O.S.S#0251 - Bug Bot on 2019-07-28T17:01:41.963Z
+
+
+### Cannot reproduce anymore on Canary 43372, Windows 10 Home 64-bit (v1903).
+
+Moving to Claimed Fixed. - Ene on 2019-08-10T22:39:26.385Z
+
+
+### Moved from Notable Issues to Claimed Fixed, needs Verification by Ene on 2019-08-10T22:39:29.296Z
+
+
+### Can't reproduce.
+windows 10 home | canary 43372
+
+charleskimbac#6492 - Bug Bot on 2019-08-10T22:59:21.585Z
+
+
+### Can't reproduce.
+macos 10.15, canary 43372
+
+OrangeM24#5746 - Bug Bot on 2019-08-11T02:36:50.847Z
+
+
+### Can't reproduce.
+macOS 10.14.4, canary 43372
+
+Jeffrey#1234 - Bug Bot on 2019-08-11T12:57:05.135Z
+
+
+### Moved from Claimed Fixed, needs Verification to Verified Fixed by Bug Bot on 2019-08-11T12:57:05.423Z
+
+List
+====
+Verified Fixed
+
+Members
+=======
+None

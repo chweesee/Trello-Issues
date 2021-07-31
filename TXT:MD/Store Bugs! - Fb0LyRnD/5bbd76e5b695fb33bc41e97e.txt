@@ -1,0 +1,130 @@
+[Archived] Clicking view in store on a game in the activity page that isn't in the store will load infinitely (https://trello.com/c/Z0eukowb)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2018-10-10T03:49:57.057Z
+Latest Update: 2019-10-18T15:16:24.760Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Have a game in your activity feed that has a view in store button but isn't in store (King of the Hat is one) 
+- Click on the view in store button 
+- Observe what happens
+
+####Expected result:
+Either view in store button isn't there because the game isn't in store, or Discord tells you that game isn't in store and takes you to the Directory
+####Actual result:
+Discord tries to load the page infinitely and throws two 404 errors in your console each time you try to open the page for the game
+####Client settings:
+Canary Build 25825
+####System settings:
+Windows 10 Home x64 1803
+
+20911
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-10T03:49:57.057Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bbd76e5b695fb33bc41e97e/0ac513d58422cc65c06183aa2508495c/2idx7pi.png added by Bug Bot on 2018-10-10T03:49:59.475Z
+
+
+### Can reproduce.
+Can reproduce (with Minion Masters). Windows 10 Pro x64 (17134). Discord Canary 25872
+
+coolalmostchilly#1015 - Bug Bot on 2018-10-10T03:50:04.411Z
+
+
+### Can reproduce.
+Can reproduce Windows 10 Home Laptop 1803 x64 Canary 0.0.215 Build 25872
+
+Okori#0902 - Bug Bot on 2018-10-10T03:50:09.414Z
+
+
+### Can reproduce.
+Windows 10 x64 1809 (17763), Discord Canary with Build number 25872
+
+Frances Picard#6209 - Bug Bot on 2018-10-10T03:50:14.354Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 25872
+
+Hole#0001 - Bug Bot on 2018-10-10T04:28:31.807Z
+
+
+### Can reproduce.
+Can Reproduce. Discord Canary 25872. macOS Mojave 10.14
+
+Ghostly#0001 - Bug Bot on 2018-10-10T11:00:09.111Z
+
+
+### verified - Clayton on 2018-10-11T02:01:21.465Z
+
+
+### Moving this card from the Desktop board to Store board. - ghoul_the_kitty on 2018-10-22T22:50:12.833Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by ghoul_the_kitty on 2018-10-22T22:50:18.548Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 28393
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-11-23T21:29:44.273Z
+
+
+### Can reproduce.
+Can Reproduce [CR] // Windows 10 // Home Edition // Build 1809 // Discord Canary Build 30441 // App Version: 0.0.226
+
+aditya#1337 - Bug Bot on 2019-01-05T04:26:43.915Z
+
+
+### Can reproduce.
+HP Chromebook 11 G5 EE (11.6") - Chrome OS 71.0.3578.127 (64-bit) - Web Canary 32395
+
+Casper#9999 - Bug Bot on 2019-02-17T13:53:32.332Z
+
+
+### Can reproduce.
+Windows 10 1809 discord canary 36426
+
+GlenMerlin#2119 - Bug Bot on 2019-04-26T05:18:24.903Z
+
+
+### Can reproduce.
+CR; Win10 Pro x64, Stable 37253
+
+Bullseye#8200 - Bug Bot on 2019-05-15T20:09:02.114Z
+
+
+### Can reproduce.
+CR with Grand Theft Auto V - Windows 10 Home x64 1809, Canary 37999 host 0.0.237
+
+Jean20B#4287 - Bug Bot on 2019-05-18T14:40:21.910Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:48:01.695Z
+
+
+### Can reproduce.
+Windows 10 Home x64 | canary 42191
+
+charleskimbac#6492 - Bug Bot on 2019-07-30T02:59:50.245Z
+
+
+### Can reproduce.
+Xiaomi Redmi 4x, 7.1.2 N2G47H, Canary 47580
+
+KlukCZ#6589 - Bug Bot on 2019-10-18T15:16:24.776Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

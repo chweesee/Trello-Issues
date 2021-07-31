@@ -1,0 +1,102 @@
+[Archived] Uncaught promise rejection error thrown in the console when closing out of game purchase modal in the Store (https://trello.com/c/yP1sRKnT)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-22T06:26:46.964Z
+Latest Update: 2019-06-21T20:48:06.942Z
+
+Reported by Ene#0808
+
+####Steps to reproduce:
+- Go to the Store tab 
+- Open the Store page for a game that requires you to purchase it 
+- Open your console with ctrl + shift + i (cmd + shift + i for macOS) 
+- Click on the "Buy" button to open the payment modal 
+- Exit out of the modal and observe the error thrown in your console
+
+####Expected result:
+No error thrown in the console
+####Actual result:
+An Uncaught promise rejection error is thrown
+####Client settings:
+Discord Canary 0.0.216, Build 26655
+####System settings:
+Windows 10 Home 64-bit (v1803)
+
+21895
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-22T06:26:46.964Z
+
+
+### Can reproduce.
+Discord Canary 0.0.216 (26655) on Windows 10 Pro 64-bit (1809)
+
+Tarek#1337 - Bug Bot on 2018-10-22T06:26:54.271Z
+
+
+### Can reproduce.
+Can Reproduce; MacOS Mojave, Version 10.14; Discord Canary, Build 26655;
+
+S6out#1111 - Bug Bot on 2018-10-22T06:26:59.303Z
+
+
+### Can reproduce.
+Can reproduce; Windows 10 Pro x64, Discord Canary Build 26655
+
+D a n n#4900 - Bug Bot on 2018-10-22T06:27:04.285Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26655
+
+Hole#0001 - Bug Bot on 2018-10-22T06:49:47.294Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (v1803) DIscord Canary Build 26655
+
+Ardia#7038 - Bug Bot on 2018-10-22T06:59:58.676Z
+
+
+### Can reproduce.
+Windows 10 Home x64 (1709) / Canary 26655
+
+Purpzie#0001 - Bug Bot on 2018-10-22T16:58:17.477Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26655
+
+Neiron#7777 - Bug Bot on 2018-10-22T19:34:52.228Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 26655
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-22T19:59:43.917Z
+
+
+### Moving this card from the Desktop board to Store board. - ghoul_the_kitty on 2018-10-22T22:04:58.027Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by ghoul_the_kitty on 2018-10-22T22:05:06.941Z
+
+
+### verified, but not sure if it's legit or not - Clayton on 2018-10-25T03:45:16.208Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-10-25T03:45:19.589Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:48:06.952Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

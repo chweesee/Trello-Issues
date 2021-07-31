@@ -8,9 +8,11 @@ Every approved bug from all the public Trello boards, made in JSON, CSV, and TXT
 - Android: 3,983 entries
 - iOS: 2,297 entries
 - Website: 225 entries
+- Store: 206 entries
 - Overlay: 189 entries
 - Go Live: 134 entries
 - Linux: 113 entries
+
 
 Format: TXT file is named `<trello card id>.txt`
 
@@ -98,6 +100,7 @@ None
 - Android: 9.7 MB
 - iOS: 5.7 MB
 - Website: 537 KB
+- Store: 477 KB
 - Overlay: 389 KB
 - Linux: 256 KB
 - Go Live: 156 KB
@@ -113,7 +116,14 @@ Open it with a CSV viewer
 - Overlay: 6.7 MB
 - Linux: 5.4 MB
 - Go Live: 5.1 MB
+- Store: 3.7 MB
 
 Use this as a reference to other files, not as 'oh cool, lets open a 222.2 MB `JSON` file on my laptop and hear it suffer' reference. 
+
+How to unzip:
+
+- macOS users: Use [Keka](https://www.keka.io/en/)
+- Linux users: Use `cat JSON.zip* > ~/JSON.zip`, or figure it out yourself
+- Windows users: Use [7zip](https://www.7-zip.org/download.html)
 
 Complaints can be redirected to xTeal#7702 // 329023088517971969

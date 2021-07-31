@@ -1,0 +1,105 @@
+[Archived] [Master Ticket] Pressing back button on certain games let's the store load forever (https://trello.com/c/GhVulYzK)
+
+None
+
+Created: 2018-10-14T11:53:29.334Z
+Latest Update: 2019-06-21T20:52:09.764Z
+
+Reported by Aeria#9096
+
+####Steps to reproduce:
+- Go to certain games in store (Chaos Reborn or Trine Enchanted Edition) 
+- Click the back button on the top left of the store 
+- Observe the store indefinitely loading
+
+####Expected result:
+You should be brought back to the store and not be stuck in a limbo state
+####Actual result:
+You're stuck constantly loading. Pushing the back button brings you back to the game. Clicking on the store again fixes the issue.
+####Client settings:
+Discord Canary 26151
+####System settings:
+Windows 10 Pro x64
+
+21257
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-14T11:53:29.334Z
+
+
+### Logiz#0001 - https://i.imgur.com/RzuhxVZ.gif added by Bug Bot on 2018-10-14T11:53:31.836Z
+
+
+### Can reproduce.
+Canary 26151 - Windows 10, 1803
+
+Logiz#0001 - Bug Bot on 2018-10-14T11:53:36.630Z
+
+
+### Can reproduce.
+Mac Mini (Late 2012) - macOS Sierra 10.12.6 Canary Build 26151
+
+Kuuhaku#4503 - Bug Bot on 2018-10-14T11:53:41.753Z
+
+
+### Can reproduce.
+MacBook Pro 13", macOS Mojave 10.14, Canary 26151
+
+Alfie#1582 - Bug Bot on 2018-10-14T11:53:46.608Z
+
+
+### When you enter the game. You get sent to `https://canary.discordapp.com/api/v6/store/published-listings/skus/492083360492027913?country_code=SE` (ignore the country_code query)
+When hitting the back button. You get sent to `https://canary.discordapp.com/api/v6/store/published-listings/skus/491200852149796865?country_code=SE`. Which gives a 404. (observe the different snowflake)
+
+\- Tarek - logiz_ on 2018-10-14T11:54:57.214Z
+
+
+### Can reproduce.
+Discord Stable Build 26016, Windows 10 x64 1809
+
+EastBalance#0001 - Bug Bot on 2018-10-14T13:31:37.688Z
+
+
+### Can reproduce.
+Windows 10 Pro, x64 (v1803) - Discord Canary Build 26151
+
+Hole#0001 - Bug Bot on 2018-10-14T18:19:06.562Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 26151
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-14T19:48:10.740Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bc32e396b0c9680d7133e89/dd693e0dc1649188bf7c04012cc3103e/JCQpBEu.png added by Bug Bot on 2018-10-14T23:42:39.735Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26151
+
+Neiron#5555 - Bug Bot on 2018-10-15T18:26:59.338Z
+
+
+### Store bug - tarek_ on 2018-10-26T05:22:06.865Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by tarek_ on 2018-10-26T05:22:11.697Z
+
+
+### Can't reproduce.
+Windows 10 Pro x64, 1607 (14393.2214), Canary 27744
+
+avror#0001 - Bug Bot on 2018-11-09T15:30:07.642Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:52:09.773Z
+
+List
+====
+Claimed Fixed, needs Verification
+
+Members
+=======
+None

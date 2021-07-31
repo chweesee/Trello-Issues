@@ -1,0 +1,82 @@
+[Archived] Pressing nevermind after getting the Payment error crashes Discord. (https://trello.com/c/7thFRWDt)
+
+P2: Fix can wait a while,
+High
+
+Created: 2018-10-17T16:50:56.848Z
+Latest Update: 2019-06-21T20:50:57.340Z
+
+Reported by Hole#0001
+
+####Steps to reproduce:
+- Have a $4.99, or $9.99 Nitro plan. 
+- Then, upgrade to a higher tier with a low balance card, or an invalid card ($4.99 to $49.99, $9.99 to $99.99). 
+- With the low balance/invalid card, you should get an ultra rare error sign. From there, click Upgrade again, then click on Nevermind.
+
+####Expected result:
+When you click Nevermind, it just exits you out of the payment screen.
+####Actual result:
+Discord Crashes.
+####Client settings:
+Discord Stable 26380
+####System settings:
+Windows 10 Pro, x64 (v1803)
+
+21469
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-17T16:50:56.848Z
+
+
+### Hole#0001 - https://i.imgur.com/7iBlNG2.gifv added by Bug Bot on 2018-10-17T16:50:59.284Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1803 (Canary build 26433)
+
+TimThe#1118 - Bug Bot on 2018-10-17T16:51:04.175Z
+
+
+### Can reproduce.
+Could reproduce - Windows 10 Pro x64 (1809) - Discord Canary Build 26433
+
+Jengas#7777 - Bug Bot on 2018-10-17T16:51:09.188Z
+
+
+### Can reproduce.
+cr, Windows 10 Pro x64, Canary Build 26432
+
+Nashorn#3450 - Bug Bot on 2018-10-17T16:51:14.151Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26432
+
+Neiron#7777 - Bug Bot on 2018-10-17T19:03:07.310Z
+
+
+### Moving this card from the Desktop board to Store board. - ghoul_the_kitty on 2018-10-22T22:06:49.858Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by ghoul_the_kitty on 2018-10-22T22:06:58.225Z
+
+
+### image.png - undefined added by Clayton on 2018-10-31T01:09:31.791Z
+
+
+### verified - Clayton on 2018-11-02T03:01:13.236Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2018-11-02T03:01:17.358Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:50:57.351Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

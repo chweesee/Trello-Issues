@@ -1,0 +1,74 @@
+[Archived] Crash when changing input method with access to Discord Store (https://trello.com/c/6g8JaYZj)
+
+P3: Will get fixed eventually,
+Mid
+
+Created: 2018-10-14T07:34:47.829Z
+Latest Update: 2019-06-21T20:47:55.334Z
+
+Reported by Fayne Aldan#2423
+
+####Steps to reproduce:
+- Go to User Settings 
+- Go to the Billing tab and make sure you have two input methods 
+- Go to the Discord Nitro tab 
+- Try to change payment methods
+
+####Expected result:
+The input method is changed
+####Actual result:
+The client crashes (Error: Unsupported plan: null)
+####Client settings:
+Stable Build 26016
+####System settings:
+Windows 10 Home Version 1809
+
+21085
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-14T07:34:47.829Z
+
+
+### Can reproduce.
+Windows 10 Home 1803,  Stable 26016, Subbed to Nitro Classic (Annual), PayPal and Debit Card linked
+
+Zudo#0800 - Bug Bot on 2018-10-14T07:34:55.131Z
+
+
+### Can reproduce.
+[BUILD INFO] Release Channel: canary, Build Number: 26016. Subbed to Nitro Classic. Windows 10 Home 1803
+
+keruisarawr#2354 - Bug Bot on 2018-10-14T07:35:00.172Z
+
+
+### Can reproduce.
+CR Windows 10 Pro x64 1804, Canary 26143; please note that expected result once fixed will not be the payment method changing, as we do not support changing from PayPal to credit/debit or vice-versa in the middle of a subscription. Crashing is the real issue.
+
+kadybat#0001 - Bug Bot on 2018-10-14T07:35:05.121Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 1809, Stable 26016.
+
+EastBalance#0001 - Bug Bot on 2018-10-14T13:30:23.628Z
+
+
+### verified, win10 26384 - Clayton on 2018-10-17T03:30:57.009Z
+
+
+### Moving this card from the Desktop board to Store board. - ghoul_the_kitty on 2018-10-22T22:15:18.503Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by ghoul_the_kitty on 2018-10-22T22:15:25.134Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:47:55.345Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

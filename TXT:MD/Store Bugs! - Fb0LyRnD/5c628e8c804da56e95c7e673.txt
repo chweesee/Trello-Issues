@@ -1,0 +1,96 @@
+[Archived] Clicking the "View in Store"-button for (most likely) any Discord Store game that has that button will crash the Store. (Tested with FTL: Faster Than Light, Hollow Knight, Pillars of Eternity II: Deadfire). (https://trello.com/c/Ds44oGFP)
+
+P3: Will get fixed eventually,
+High
+
+Created: 2019-02-12T09:14:52.305Z
+Latest Update: 2019-06-21T20:51:52.774Z
+
+Reported by Casper#9999
+
+####Steps to reproduce:
+
+- Find a user playing (or play it yourself) a game from the Store with a "View in Store"-button  
+- Click the button (or click the link from the button anywhere in Discord)
+
+####Expected result:
+Discord is not supposed to hang up and then show an error message that the Store has crashed.
+####Actual result:
+Discord is hanging up upon clicking and then tells me that the Discord Store has crashed.
+####Client settings:
+Discord Canary Browser Build 32063
+####System settings:
+HP Chromebook 11 G5 EE (11.6") - Chrome OS 71.0.3578.127 (64-bit)
+
+28628
+
+Card Log
+========
+### Added by Bug Bot on 2019-02-12T09:14:52.305Z
+
+
+### Casper#9999 - https://trello-attachments.s3.amazonaws.com/5bc7b4adf7d2b839fa6ac108/5c628e8c804da56e95c7e673/1cc0d578643618a37f73e549ca69b008/9UOWLVN.gif added by Bug Bot on 2019-02-12T09:14:57.748Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1809 - Discord Canary 0.0.232 Build 32063 - MAY happen to games that displays a view in store RPC, tested with 2 games.
+
+Daffyduck#5364 - Bug Bot on 2019-02-12T09:14:59.717Z
+
+
+### Can reproduce.
+Can Reproduce // windows 10 pro x64 1809, Canary 32063 - could Reproduce with this exact game not anything else that I tested with
+
+sloth_.on._tabasco#9015 - Bug Bot on 2019-02-12T09:15:04.714Z
+
+
+### Can reproduce.
+CR; Discord Canary 32063, Windows 7 64-bit
+
+Skyla#7948 - Bug Bot on 2019-02-12T09:15:09.854Z
+
+
+### Can reproduce.
+CR; MacBookPro 13" (2017) Mojave 10.14.3, Canary 31974
+
+Mano#4566 - Bug Bot on 2019-02-12T13:13:44.759Z
+
+
+### Can reproduce.
+Windows 10 Home, Canary 32063
+
+Ossyishere#2281 - Bug Bot on 2019-02-12T14:31:09.615Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 32063
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2019-02-13T01:38:38.493Z
+
+
+### This bug may have been fixed, tested (by me, not Discord staff) 13/02/2019.
+
+Casper#9999 - Bug Bot on 2019-02-13T06:17:17.668Z
+
+
+### Can't reproduce.
+Can not reproduce. Windows 10 Home x64 (1809), Canary 32213 - - Looks like it's fixed?
+
+Solo#0007 - Bug Bot on 2019-02-14T03:09:57.007Z
+
+
+### verified, macos 10.12.6, canary 32244 - Clayton on 2019-02-14T10:42:22.089Z
+
+
+### Moved from User Reported Bugs to Verified Bugs by Clayton on 2019-02-14T10:42:32.453Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:51:52.785Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

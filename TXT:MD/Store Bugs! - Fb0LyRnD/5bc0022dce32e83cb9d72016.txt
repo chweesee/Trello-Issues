@@ -1,0 +1,80 @@
+[Archived] Images in the game pages fill the whole space on certain zooms (15.6in display specific, and zoom level depends on your resolution) (https://trello.com/c/36tz8L9p)
+
+P3: Will get fixed eventually,
+Low
+
+Created: 2018-10-12T02:08:45.555Z
+Latest Update: 2019-06-21T20:48:00.349Z
+
+Reported by Rashaun#9295
+
+####Steps to reproduce:
+- Change your zoom level to 110 
+- Go to the Store page 
+- Open up the game of any page 
+- Observe the size of the image in the game overview 
+- Change your zoom level to 100 and observe the image again 
+- Change your zoom level to 125 and observe the image a third time 
+- Note: The bug should occur on 110 zoom for 1366 x 768 resolution, and 125 zoom for 1080 resolution
+
+####Expected result:
+You should see parts of the next and previous images to the sides of the focused image
+####Actual result:
+You only see the image you're focused on
+####Client settings:
+Canary Build 25872
+####System settings:
+Windows 10 Home x64 1803
+
+20976
+
+Card Log
+========
+### Added by Bug Bot on 2018-10-12T02:08:45.555Z
+
+
+### Rashaun#9295 - https://trello-attachments.s3.amazonaws.com/5771673855f47b547f2decc3/5bc0022dce32e83cb9d72016/0f761ca7548f43c9b448ef564b7d0019/e4lscmB.png added by Bug Bot on 2018-10-12T02:08:48.231Z
+
+
+### Can reproduce.
+Can repro on Windows 10 Home x64 v1809, Discord Canary 25872 (1920x1080, 15.6 inch at 125% discord zoom and 125% windows scaling)
+
+Haru😍💜#6660 - Bug Bot on 2018-10-12T02:08:53.009Z
+
+
+### Can reproduce.
+Windows 10 Home x64 v1803; Canary 25807; 1366x768 + 110% Zoom
+
+Rauf#0001 - Bug Bot on 2018-10-12T02:08:58.094Z
+
+
+### Can reproduce.
+Windows 10 Home; Canary Build 26049; 1920x1080 + 125% Zoom
+
+O.O. Gold the Dank Meme Lord#4151 - Bug Bot on 2018-10-12T02:09:03.080Z
+
+
+### verified - Clayton on 2018-10-12T02:16:17.314Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 Canary: 26049 1366x768 + 110% Zoom
+
+Neiron#5555 - Bug Bot on 2018-10-12T17:23:23.416Z
+
+
+### Moving this card from the Desktop board to Store board. - ghoul_the_kitty on 2018-10-22T22:48:15.169Z
+
+
+### Imported from https://trello.com/b/5771673855f47b547f2decc3 by ghoul_the_kitty on 2018-10-22T22:48:20.863Z
+
+
+### Archived by Bug Bot on 2019-06-21T20:48:00.359Z
+
+List
+====
+Verified Bugs
+
+Members
+=======
+None

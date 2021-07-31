@@ -1,0 +1,129 @@
+Discord is stuttery and has high latency and your CPU climbs when viewing a video on the store (https://trello.com/c/9doLihKT)
+
+None
+
+Created: 2019-04-25T21:57:18.896Z
+Latest Update: 2019-07-22T12:14:02.641Z
+
+Reported by Rage#9991
+
+####Steps to reproduce:
+- Go to the Nitro tab 
+- Have a cover video playing 
+- Hover over the friends list for example
+
+####Expected result:
+Smooth performance
+####Actual result:
+High CPU causing stuttering and lag
+####Client settings:
+Canary 36318
+####System settings:
+macOS Mojave 10.14
+
+33497
+
+Card Log
+========
+### Added by Bug Bot on 2019-04-25T21:57:18.896Z
+
+
+### Can reproduce.
+CR. Windows 10 Pro 17763, Canary 36345, Amd Ryzen 5 2600 @3.9Ghz
+
+ScarVite#6606 - Bug Bot on 2019-04-25T21:57:26.374Z
+
+
+### Can reproduce.
+CR - Windows 10 Pro Insider Preview x64 1903; Discord Canary Build 36345 - Intel(R) Core(TM) 2 Duo CPU E8400 @ 3.00 GHz 3.00 GHz
+
+Costpap#7667 - Bug Bot on 2019-04-25T21:57:31.364Z
+
+
+### Can reproduce.
+CR. Windows 10 Pro x64 Insider Preview 1903, Release Channel: Canary, Build Number: 36345, Version Hash: 4905a738be71bf04b1d62bb3bf1bcf8256e78941, Intel Core 7, 860 @ 2.8GHz
+
+Cam#7527 - Bug Bot on 2019-04-25T21:57:36.396Z
+
+
+### Can't reproduce.
+CR. Windows 10 Pro 17763, Canary 36345, Amd Ryzen 5 2600 @3.9Ghz (only like 5-10%
+
+ScarVite#6606 - Bug Bot on 2019-04-25T21:58:56.980Z
+
+
+### Can't reproduce.
+CR. Windows 10 Pro 17763, Canary 36345, Amd Ryzen 5 2600 @3.9Ghz (only like 5-10%)
+
+ScarVite#6606 - Bug Bot on 2019-04-25T21:59:12.869Z
+
+
+### Can't reproduce.
+Could not reproduce this. Win10 64x (1809), Discord Canary 36345 AMD Ryzen 2700, from 1-2%, to around 5% when opening store.
+
+Alipoodle#5025 - Bug Bot on 2019-04-25T21:59:54.184Z
+
+
+### Can reproduce.
+CR - Can Reproduce - Windows 10 Home x64 - Discord Canary 36345 -  i7-8550U CPU @ 1.80GHz - goes up to 30% from average of 2 to 7 percent cpu without hardware acceleration, and 20 percent from average of 2 to 5% cpu with hardware acceleration - seems to happen with more older cpus then newer ones, still is a problem though
+
+jedi3#0001 - Bug Bot on 2019-04-25T22:11:56.628Z
+
+
+### Can reproduce.
+Can somewhat reproduce. Although my CPU usage only goes up to 30%, this is still remarkably high for an application that's supposed to be running in the background. Windows 10 Home x64 (1809), Canary 36345
+
+Solo#0007 - Bug Bot on 2019-04-26T01:36:04.860Z
+
+
+### Can reproduce.
+cr Win10x64 Canary 36345 From 1-5% to around 15 to 20. I5 6400
+
+Cubity_First#0001 - Bug Bot on 2019-04-26T01:47:58.079Z
+
+
+### Can't reproduce.
+Win10 Pro x64 (1809) | Discord Canary 36345 | Can't repro after many various attempts. CPU peaked at around 2.5%
+
+Clay#0001 - Bug Bot on 2019-04-26T04:52:23.933Z
+
+
+### Can reproduce.
+Canary: 36426, Host 0.0.235, Windows 7 64-bit
+
+Skyla#0002 - Bug Bot on 2019-04-26T06:40:30.715Z
+
+
+### Can reproduce.
+No lag but CPU usage goes up to 55% for Discord - Windows 10 Home x64 1809, Canary 36426 host 0.0.235, Intel Core i5-7300HQ (2.5-3.5GHz)
+
+Jean20B#4287 - Bug Bot on 2019-04-26T07:11:22.658Z
+
+
+### Can't reproduce.
+Windows 10 1809 discord canary 36503
+
+GlenMerlin#2119 - Bug Bot on 2019-04-27T04:16:23.437Z
+
+
+### Moved from User Reported Bugs to Notable Issues by Bug Bot on 2019-04-29T19:13:02.877Z
+
+
+### Can reproduce.
+Windows 10 Pro x64 v1903 Build: 18362.175 - Discord canary, Build Number: 40450
+
+Xylium#5800 - Bug Bot on 2019-06-27T23:45:03.840Z
+
+
+### Can Not Reproduce » Windows 10 Pro x64, Discord Canary 41583 - Aeria on 2019-07-22T12:13:58.242Z
+
+
+### Moved from Notable Issues to Cannot Reproduce by Aeria on 2019-07-22T12:14:02.593Z
+
+List
+====
+Cannot Reproduce
+
+Members
+=======
+None
